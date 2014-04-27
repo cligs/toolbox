@@ -33,9 +33,9 @@ import glob
 # Actual text processing
 ###############################
 
-for file in glob.glob('../sampletexts/Moliere_Facheux.xml'):             # Enter absolute or relative path to folder with XML files and define filename filter.
-    xmltree = etree.parse(file)                                # Loads and parses the XML input file.
-    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}         # Defines the namespace to be used in the xpathexpr.
+for file in glob.glob('../sampletexts/*.xml'):           # Enter absolute or relative path to folder with XML files and define filename filter.
+    xmltree = etree.parse(file)                          # Loads and parses the XML input file.
+    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
     
 #   xpathexpr = '//text()'                               # XPath expression (default; activate only one): all text from XML.
 #   xpathexpr = '//tei:body//tei:hi//text()'             # Or: All text of hi in body (activate only one).
@@ -47,10 +47,10 @@ for file in glob.glob('../sampletexts/Moliere_Facheux.xml'):             # Enter
 #   xpathexpr = '//tei:body//tei:l//text()'              # Or: All speaker text from body in verse plays.
 
     textonly = xmltree.xpath(xpathexpr, namespaces=namespaces) # Extracts the text according to the XPath expression "xpathexpr".
-    textonly = " ".join(textonly)                              # Puts all text pieces together as a string.
-    textonly = re.sub(r'\t',"",textonly)                       # Removes unnecessary indents.
-    textonly = re.sub(r'\n\n',"\n",textonly)                   # Removes some of the unnecessary newlines (activate if useful)    
-#   textonly = re.sub(r'\n\n',"\n",textonly)                   # Removes some of the unnecessary newlines (do twice if useful)    
-    txtoutput = file[:-4] + ".txt"                             # Builds filename for outputfile from original filenames but correct extension.
-    with open(txtoutput,"w") as output:                        # Writes selected text to TXT file in folder specified above.
+    textonly = " ".join(textonly)                        # Puts all text pieces together as a string.
+    textonly = re.sub(r'\t',"",textonly)                 # Removes unnecessary indents.
+    textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (activate if useful)    
+#   textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)    
+    txtoutput = file[:-4] + ".txt"                       # Builds filename for outputfile from original filenames but correct extension.
+    with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
