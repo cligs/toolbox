@@ -1,6 +1,7 @@
 # tei2txt.py
-# Script to extract selected text from several XML/TEI documents and save them to new TXT files. 
-# Relies on "lxml" for parsing the XML file, on XPath for selecting parts of the XML file, and on "re" for text cleanup. 
+# Script to extract selected text from several TEI documents and save them to new TXT files. 
+# Relies on "lxml" for parsing the TEI file, on XPath for selecting parts of the TEI file, and on "re" for text cleanup. 
+# Note: the namespace solution used here makes this incompatible with plain XML or TEI P4; in these cases, use xml2txt.py.
 
 ###############################
 # Overview of functions
@@ -32,20 +33,24 @@ import glob
 # Actual text processing
 ###############################
 
-for file in glob.glob('../sampletexts/*.xml'):               # Enter absolute or relative path to folder with XML files and define filename filter.
-    xmltree = etree.parse(file)                              # Loads and parses the XML input file.
-    textonly = xmltree.xpath('//text()')                     # Either (default): extracts all text from XML (activate only one).
-#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extracts all text of p in body (activate only one).
-#   textonly = xmltree.xpath('//body//hi//text()')           # Or: Extracts all text of hi in body (activate only one).
-#   textonly = xmltree.xpath('//body//s//text()')            # Or: Extracts all text of s in body (activate only one).
-#   textonly = xmltree.xpath('//body//s[@ana="de"]//text()') # Or: Extracts all text of s with attr. ana="de" in body (activate only one).
-#   textonly = xmltree.xpath('//body//head/text()')          # Or: Extracts all text of head in body (activate only one).
-#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extracts all speaker text from body in prose plays (activate only one).
-#   textonly = xmltree.xpath('//body//l//text()')            # Or: Extracts all speaker text from body in verse plays (activate only one).
-    textonly = " ".join(textonly)                            # Puts all text pieces together as a string.
-    textonly = re.sub(r'\t',"",textonly)                     # Removes unnecessary indents.
-    textonly = re.sub(r'\n\n',"\n",textonly)                 # Removes some of the unnecessary newlines (activate if useful)    
-#   textonly = re.sub(r'\n\n',"\n",textonly)                 # Removes some of the unnecessary newlines (do twice if useful)    
-    txtoutput = file[:-4] + ".txt"                           # Builds filename for outputfile from original filenames but correct extension.
-    with open(txtoutput,"w") as output:                      # Writes selected text to TXT file in folder specified above.
+for file in glob.glob('../sampletexts/Moliere_Facheux.xml'):             # Enter absolute or relative path to folder with XML files and define filename filter.
+    xmltree = etree.parse(file)                                # Loads and parses the XML input file.
+    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}         # Defines the namespace to be used in the xpathexpr.
+    
+#   xpathexpr = '//text()'                               # XPath expression (default; activate only one): all text from XML.
+#   xpathexpr = '//tei:body//tei:hi//text()'             # Or: All text of hi in body (activate only one).
+#   xpathexpr = '//tei:body//tei:s//text()'              # Or: All text of s in body 
+#   xpathexpr = '//tei:body//tei:s[@ana="de"]//text()'   # Or: All text of s with attr. ana="de" in body.
+    xpathexpr = '//tei:body//tei:stage//text()'          # Or: All stage directions in body.
+#   xpathexpr = '//tei:body//tei:head/text()'            # Or: All text of head in body.
+#   xpathexpr = '//tei:body//tei:p//text()'              # Or: All speaker text from body in prose plays.
+#   xpathexpr = '//tei:body//tei:l//text()'              # Or: All speaker text from body in verse plays.
+
+    textonly = xmltree.xpath(xpathexpr, namespaces=namespaces) # Extracts the text according to the XPath expression "xpathexpr".
+    textonly = " ".join(textonly)                              # Puts all text pieces together as a string.
+    textonly = re.sub(r'\t',"",textonly)                       # Removes unnecessary indents.
+    textonly = re.sub(r'\n\n',"\n",textonly)                   # Removes some of the unnecessary newlines (activate if useful)    
+#   textonly = re.sub(r'\n\n',"\n",textonly)                   # Removes some of the unnecessary newlines (do twice if useful)    
+    txtoutput = file[:-4] + ".txt"                             # Builds filename for outputfile from original filenames but correct extension.
+    with open(txtoutput,"w") as output:                        # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
