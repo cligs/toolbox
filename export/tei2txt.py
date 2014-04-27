@@ -32,20 +32,20 @@ import glob
 # Actual text processing
 ###############################
 
-for file in glob.glob('./wd/*.xml'):                         # Enter absolute or relative path to folder with XML files and define filename filter.
-    xmltree = etree.parse(file)                              # Load and parse the XML input file.
-#   textonly = xmltree.xpath('//text()')                     # Either (default): extract all text from XML (activate only one).
-#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extract all text of p in body (activate only one).
-#   textonly = xmltree.xpath('//body//hi//text()')           # Or: Extract all text of hi in body (activate only one).
-#   textonly = xmltree.xpath('//body//s//text()')            # Or: Extract all text of s in body (activate only one).
-#   textonly = xmltree.xpath('//body//s[@ana="de"]//text()') # Or: Extract all text of s with attr. ana="de" in body (activate only one).
-#   textonly = xmltree.xpath('//body//head/text()')          # Or: Extract all text of head in body (activate only one).
-#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extract all speaker text from body in prose plays (activate only one).
-#   textonly = xmltree.xpath('//body//l//text()')            # Or: Extract all speaker text from body in verse plays (activate only one).
-    textonly = "".join(textonly)                             # Put all text pieces together as a string.
-    textonly = re.sub(r'\t',"",textonly)                     # Remove unnecessary indents.
-    textonly = re.sub(r'\n\n',"\n",textonly)                 # Remove some of the unnecessary newlines (activate if useful)    
-#   textonly = re.sub(r'\n\n',"\n",textonly)                 # Remove some of the unnecessary newlines (do twice if useful)    
-    txtoutput = file[:-4] + ".txt"                           # Build filename for outputfile from original filenames but correct extension.
-    with open(txtoutput,"w") as output:                      # Write selected text to TXT file in folder specified above.
+for file in glob.glob('../sampletexts/*.xml'):               # Enter absolute or relative path to folder with XML files and define filename filter.
+    xmltree = etree.parse(file)                              # Loads and parses the XML input file.
+    textonly = xmltree.xpath('//text()')                     # Either (default): extracts all text from XML (activate only one).
+#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extracts all text of p in body (activate only one).
+#   textonly = xmltree.xpath('//body//hi//text()')           # Or: Extracts all text of hi in body (activate only one).
+#   textonly = xmltree.xpath('//body//s//text()')            # Or: Extracts all text of s in body (activate only one).
+#   textonly = xmltree.xpath('//body//s[@ana="de"]//text()') # Or: Extracts all text of s with attr. ana="de" in body (activate only one).
+#   textonly = xmltree.xpath('//body//head/text()')          # Or: Extracts all text of head in body (activate only one).
+#   textonly = xmltree.xpath('//body//p//text()')            # Or: Extracts all speaker text from body in prose plays (activate only one).
+#   textonly = xmltree.xpath('//body//l//text()')            # Or: Extracts all speaker text from body in verse plays (activate only one).
+    textonly = " ".join(textonly)                            # Puts all text pieces together as a string.
+    textonly = re.sub(r'\t',"",textonly)                     # Removes unnecessary indents.
+    textonly = re.sub(r'\n\n',"\n",textonly)                 # Removes some of the unnecessary newlines (activate if useful)    
+#   textonly = re.sub(r'\n\n',"\n",textonly)                 # Removes some of the unnecessary newlines (do twice if useful)    
+    txtoutput = file[:-4] + ".txt"                           # Builds filename for outputfile from original filenames but correct extension.
+    with open(txtoutput,"w") as output:                      # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
