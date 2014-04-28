@@ -20,17 +20,18 @@
 #######################
 
 import re
+import glob
 
 
 #######################
 # Functions           #
 #######################
 
-def add_teiheader(htmlinput,xmlmutandum,teiheader):
+def add_teiheader(file,xmlmutandum,teiheader):
     """ Replaces the existing HTML header with a teiHeader and final TEI tags and saves as XML. Needs to come first."""
     with open(teiheader,"r") as teiheader:
         teiheader = teiheader.read()    
-    with open(htmlinput,"r") as mutandum:
+    with open(file,"r") as mutandum:
         mutandum = mutandum.read()
         mutandum = re.sub("<html><head>.*</head><body>",teiheader,mutandum)
         mutandum = re.sub("</body></html>","</div></body><back><div><p></p></div></back></text></TEI>",mutandum)
@@ -132,31 +133,33 @@ def cleanup_xml(xmlmutandum):
         output.write(mutandum)
 
 
-def write_xmloutput(xmlmutandum,xmloutput): 
+def write_xmloutput(file,xmlmutandum): 
     """Convenience function which saves transformed file to new filename. Needs to come last."""
     with open(xmlmutandum,"r") as mutandum:
         mutandum = mutandum.read()
+    xmloutput = file[:-5] + ".xml"                       # Builds filename for outputfile from original filenames but correct extension.
     with open(xmloutput,"w") as output:
         output.write(mutandum)
-
+        
 
 #######################
 # Main                #
 #######################
 
 
-def main(htmlinput,xmlmutandum,xmloutput,teiheader):
-    add_teiheader(htmlinput,xmlmutandum,teiheader)
-    remove_whitespace(xmlmutandum) 
-    remove_spans(xmlmutandum)
-    remove_paragraphclasses(xmlmutandum)
-    convert_italics(xmlmutandum)
-    unify_speeches(xmlmutandum)
-    simplify_divs(xmlmutandum)
-    convert_headings(xmlmutandum)
-    cleanup_xml(xmlmutandum)
-    write_xmloutput(xmlmutandum,xmloutput)
+def main(inputpath,xmlmutandum,teiheader):
+    for file in glob.glob(inputpath):
+        add_teiheader(file,xmlmutandum,teiheader)
+        remove_whitespace(xmlmutandum) 
+        remove_spans(xmlmutandum)
+        remove_paragraphclasses(xmlmutandum)
+        convert_italics(xmlmutandum)
+        unify_speeches(xmlmutandum)
+        simplify_divs(xmlmutandum)
+        convert_headings(xmlmutandum)
+        cleanup_xml(xmlmutandum)
+        write_xmloutput(file,xmlmutandum)
 
             
-main("Zola_Nana.html","MUTANDUM.xml","Zola_Nana.xml","teiheader.xml")
+main('../sampletexts/*.html',"MUTANDUM.xml","teiHeader.xml")
 

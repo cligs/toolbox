@@ -33,18 +33,19 @@ import glob
 # Actual text processing
 ###############################
 
-for file in glob.glob('../sampletexts/*.xml'):           # Enter absolute or relative path to folder with XML files and define filename filter.
+def tei2txt(file): 
+    """Load TEI files from folder, extract selected text, save to new TXT files"""                                      
     xmltree = etree.parse(file)                          # Loads and parses the XML input file.
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
     
-#   xpathexpr = '//text()'                               # XPath expression (default; activate only one): all text from XML.
-#   xpathexpr = '//tei:body//tei:hi//text()'             # Or: All text of hi in body (activate only one).
+#   xpathexpr = '//text()'                               # Default XPath expression: all text from XML (activate only one!)
+    xpathexpr = '//tei:body//tei:p//text()'              # Or: All text of p in body in prose texts.
+#   xpathexpr = '//tei:body//tei:l//text()'              # Or: All text of l in body in verse plays.
+#   xpathexpr = '//tei:body//tei:hi//text()'             # Or: All text of hi in body.
 #   xpathexpr = '//tei:body//tei:s//text()'              # Or: All text of s in body 
 #   xpathexpr = '//tei:body//tei:s[@ana="de"]//text()'   # Or: All text of s with attr. ana="de" in body.
-    xpathexpr = '//tei:body//tei:stage//text()'          # Or: All stage directions in body.
+#   xpathexpr = '//tei:body//tei:stage//text()'          # Or: All stage directions in body.
 #   xpathexpr = '//tei:body//tei:head/text()'            # Or: All text of head in body.
-#   xpathexpr = '//tei:body//tei:p//text()'              # Or: All speaker text from body in prose plays.
-#   xpathexpr = '//tei:body//tei:l//text()'              # Or: All speaker text from body in verse plays.
 
     textonly = xmltree.xpath(xpathexpr, namespaces=namespaces) # Extracts the text according to the XPath expression "xpathexpr".
     textonly = " ".join(textonly)                        # Puts all text pieces together as a string.
@@ -54,3 +55,13 @@ for file in glob.glob('../sampletexts/*.xml'):           # Enter absolute or rel
     txtoutput = file[:-4] + ".txt"                       # Builds filename for outputfile from original filenames but correct extension.
     with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
+
+###############################
+# Main
+###############################
+
+def main(inputpath): 
+    for file in glob.glob(inputpath): 
+        tei2txt(file)
+
+main('../sampletexts/*xml')                              # Enter absolute or relative path to folder with XML files and define filename filter.
