@@ -161,5 +161,5 @@ def main(inputpath,xmlmutandum,teiheader):
         write_xmloutput(file,xmlmutandum)
 
             
-main('../sampletexts/*.html',"MUTANDUM.xml","teiHeader.xml")
+main('./html/*.html',"MUTANDUM.xml","teiHeader.xml")
 
