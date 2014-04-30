@@ -64,4 +64,4 @@ def main(inputpath):
     for file in glob.glob(inputpath): 
         tei2txt(file)
 
-main('../sampletexts/*xml')                              # Enter absolute or relative path to folder with XML files and define filename filter.
+main('/home/christof/repos/clgs-rep/polar/tei/*xml')         # Enter absolute or relative path to folder with XML files and define filename filter.
