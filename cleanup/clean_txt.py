@@ -8,6 +8,7 @@
 #######################
 
 import re
+import os
 import glob
 
 
@@ -15,24 +16,25 @@ import glob
 # Functions           
 #######################
 
-def clean_txt(file):
+def clean_txt(file,output_dir):
     """Deletion of unwanted elided words."""
     with open(file,"r") as text:
-        text = text.read()
-        text = re.sub("([\s|[\w|\W]')"," ",text)            # Regular expression to remove some words.
-        newfile = file[:-4] + "n.txt"                       # Builds filename for outputfile from original filenames.
-    with open(newfile,"w") as output:
-        output.write(text)
-        
+        text = text.read()                                               # Creates a string object with the text
+        text = re.sub("([\s|[\w|\W]')"," ",text)                         # Removes some words based on regular expression.
+        basename = os.path.basename(file)                                # Retrieves just the basename from the filename.
+        cleanfilename = basename[:-4] + "c.txt"                               # Builds filename for outputfile from basename.
+    with open(os.path.join(output_dir, cleanfilename),"w") as output:    # Builds path for clean files from output directory and filename.
+        output.write(text)                                               # Writes the new cleaned files. 
+
 
 #######################
 # Main                #
 #######################
 
 
-def main(inputpath):
+def main(inputpath,output_dir):
     for file in glob.glob(inputpath):
-        clean_txt(file)
+        clean_txt(file,output_dir)
             
-main('./chunks/*.txt')
+main('./chunks/*.txt','./cleaned/')
 

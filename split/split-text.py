@@ -50,7 +50,6 @@ def split_text(num_words,filename,output_dir):
     fn_base, fn_ext = os.path.splitext(fn)
     for i, chunk in enumerate(chunks):
         chunk_filename = "{}-{:04d}{}".format(fn_base, i, fn_ext)
-        #print(chunk_filename) #notok
         with open(os.path.join(output_dir, chunk_filename), 'w') as f:
             f.write(chunk)
     print(fn + " => " + str(len(chunks)) + " chunks")
