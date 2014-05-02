@@ -64,8 +64,8 @@ def transnomino(file,metadatafile):
 # Main
 ###############################
 
-def main(datafolder,metadatafile):
-    for file in glob.glob(datafolder):
+def main(datapath,metadatafile):
+    for file in glob.glob(datapath):
         transnomino(file,metadatafile)
 
 main("*.txt","metadata.csv") 								# USER: Enter absolute or relative path to folder with files, define pattern for filename (e.g., extension), enter path for metadata file.
