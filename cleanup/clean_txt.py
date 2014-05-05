@@ -22,7 +22,7 @@ def clean_txt(file,output_dir):
         text = text.read()                                               # Creates a string object with the text
         text = re.sub("([\s|[\w|\W]')"," ",text)                         # Removes some words based on regular expression.
         basename = os.path.basename(file)                                # Retrieves just the basename from the filename.
-        cleanfilename = basename[:-4] + "c.txt"                               # Builds filename for outputfile from basename.
+        cleanfilename = basename[:-4] + ".txt"                           # Builds filename for outputfile from basename.
     with open(os.path.join(output_dir, cleanfilename),"w") as output:    # Builds path for clean files from output directory and filename.
         output.write(text)                                               # Writes the new cleaned files. 
 

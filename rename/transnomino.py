@@ -55,7 +55,7 @@ def transnomino(file,metadatafile):
     date = metadatax.loc[idno, 'date']
     decade = metadatax.loc[idno, 'decade']
     persp = metadatax.loc[idno, 'persp']    
-    newfilename = persp+"_"+author+"-"+decade+"-"+idno+".txt"
+    newfilename = "output/" + persp+"_"+author+"-"+decade+"-"+idno+".txt"  # Supposes there is a subfolder called "output". 
     print(idno + ": " + newfilename)
     os.rename(file,newfilename)
     
@@ -68,4 +68,4 @@ def main(datapath,metadatafile):
     for file in glob.glob(datapath):
         transnomino(file,metadatafile)
 
-main("*.txt","metadata.csv") 								# USER: Enter absolute or relative path to folder with files, define pattern for filename (e.g., extension), enter path for metadata file.
+main("./input/*.txt","./input/metadata.csv") 							# USER: Enter absolute or relative path to folder with files, define pattern for filename (e.g., extension), enter path for metadata file.
