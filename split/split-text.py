@@ -1,6 +1,7 @@
 # split-text.py
 # Script to split all files in a folder into chunks of a certain length in words and write them to another folder.
 # This script has been written by Allen Riddell, see https://de.dariah.eu/tatom/preprocessing.html#chunking. It is only slightly adapted here.
+# The script assumes texts are encoded in UTF-8 but can be adapted for other character encodings. 
 
 ##############################
 # Overview
@@ -30,7 +31,7 @@ import glob
 
 def split_text(num_words,filename,output_dir):
     """Split a long text file into chunks of approximately `num_words` words and write each chunk to a new file."""
-    with open(filename, 'r') as input:
+    with open(filename, 'r', encoding="utf8")) as input:                # USER: Set encoding scheme here.
         words = input.read().split(' ')
     chunks = []
     current_chunk_words = []
@@ -63,5 +64,5 @@ def main(num_words,input_dir,output_dir):
     for filename in glob.glob(input_dir): 
         split_text(num_words,filename,output_dir)
 
-main(600,"./texts/*.txt","./chunks/")                       # USER sets arguments here
+main(600,"./texts/*.txt","./chunks/")                                   # USER: Set arguments here
 

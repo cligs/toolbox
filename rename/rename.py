@@ -1,4 +1,4 @@
-# transnomino.py
+# rename.py
 # Script to rename files based on selected metadata from a CSV file. 
 
 ###############################
@@ -55,7 +55,7 @@ def transnomino(file,metadatafile):
     date = metadatax.loc[idno, 'date']
     decade = metadatax.loc[idno, 'decade']
     persp = metadatax.loc[idno, 'persp']    
-    newfilename = "output/" + persp+"_"+author+"-"+decade+"-"+idno+".txt"  # Supposes there is a subfolder called "output". 
+    newfilename = "output/" + persp+"_"+author+"-"+stitle+"-"+idno+".txt"  # Supposes there is a subfolder called "output". 
     print(idno + ": " + newfilename)
     os.rename(file,newfilename)
     
