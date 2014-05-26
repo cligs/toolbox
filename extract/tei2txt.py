@@ -3,6 +3,7 @@
 # Relies on "lxml" for parsing the TEI file, on XPath for selecting parts of the TEI file, and on "re" for text cleanup. 
 # Note: the namespace solution used here makes this incompatible with plain XML or TEI P4; in these cases, use xml2txt.py.
 
+
 ###############################
 # Overview of functions
 ###############################
@@ -11,6 +12,7 @@
 # 2. For each file, parse the file to build a Python element tree representation. 
 # 3. For each file, extract selected text from XML according to one of several alternative XPath expressions.
 # 4. For each file, write new TXT file to the folder.  
+
 
 ###############################
 # User settings
@@ -21,6 +23,7 @@
 # 3. Select which XPath expression to use and/or adapt it to your needs.
 # 4. Select which cleanup procedures should be used and/or adapt them to your needs.
 
+
 ###############################
 # Import statements
 ###############################
@@ -28,6 +31,7 @@
 from lxml import etree
 import re
 import glob
+
 
 ###############################
 # Actual text processing
@@ -56,6 +60,7 @@ def tei2txt(file):
     txtoutput = file[:-4] + ".txt"                       # Builds filename for outputfile from original filenames but correct extension.
     with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
+
 
 ###############################
 # Main
