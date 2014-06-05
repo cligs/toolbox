@@ -1,5 +1,6 @@
 # proverse.py
 # Script to recognize dramatic text as being in verse or prose.
+# Version 0.2, 5.6.2014, by #cf. 
 
 
 ###############################
@@ -10,7 +11,7 @@
 # 2. For each file containing one play, make a list of the length in characters of each line.
 # 3. For each such list, calculate the mean and the standard deviation. 
 # 4. Based on these scores, decide whether a play is in prose or in verse (or mixed). 
-# 5. Write a file with the filename, the scores and the decision for each play.
+# 5. (tbd.: Write a file with the filename, the scores and the decision for each play.)
 
 
 ###############################     
@@ -18,7 +19,7 @@
 ###############################
 
 # 1. Mandatory: Modify the path to the working directory or put your TreeTagger files in the default "trt" directory.
-# 2. Optional: Adjust the thresholds as needed with regard to material under scrutiny.
+# 2. Optional: Adjust the threshold (line 54) as needed with regard to material under scrutiny.
 
 
 ###############################
@@ -49,7 +50,12 @@ def proverse(file):
         mean = np.mean(lengths)
         sd = np.std(lengths)
         basename = os.path.basename(file)                               # Retrieves just the basename from the filename.
-        print("Result for " + basename + ": mean = " + str(mean) + "; sd = " + str(sd) + "; number of lines = " + str(number))
+        form = ()
+        if sd < 20:
+            form = "verse"
+        else: 
+            form = "prose"
+        print("Guess for " + basename + ": " + form + ". Data: mean=" + str(mean) + "; sd=" + str(sd) + "; lines=" + str(number) + ".")
         
         
 
