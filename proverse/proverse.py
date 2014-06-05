@@ -51,8 +51,12 @@ def proverse(file):
         sd = np.std(lengths)
         basename = os.path.basename(file)                               # Retrieves just the basename from the filename.
         form = ()
-        if sd < 20:
+        if mean < 50 and sd < 10:
             form = "verse"
+        elif mean < 62 and sd > 10: 
+            form = "mixed?"
+        elif mean > 62 and sd > 10: 
+            form = "prose"
         else: 
             form = "prose"
         print("Guess for " + basename + ": " + form + ". Data: mean=" + str(mean) + "; sd=" + str(sd) + "; lines=" + str(number) + ".")
