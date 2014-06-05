@@ -56,7 +56,7 @@ def tei2txt(file):
     textonly = re.sub(r'\t',"",textonly)                 # Removes unnecessary indents.
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (activate if useful)    
 #   textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)    
-    txtoutput = file[:-4] + ".txt"                       # Builds filename for outputfile from original filenames but correct extension.
+    txtoutput = "/output/" + file[:-4] + "_new.txt"      # Builds filename for outputfile from original filenames.
     with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
 
