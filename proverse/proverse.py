@@ -53,34 +53,6 @@ def proverse(file):
         
         
 
-
-
-
-
-
-
-
-"""
-        newfilename = basename[:-8] + ".csv"                            # Builds filename for outputfile from basename.
-    with open(os.path.join("./csv", newfilename),"w") as output:        # Builds path for clean files from output directory and filename.
-        output.write(text)                                              # Writes the new cleaned files. 
-
-
-def trt2txt(file):
-    with open(file, newline="\n") as trtfile:
-        trtcontent = csv.reader(trtfile, delimiter="\t")
-        lemmas = []
-        for row in trtcontent:
-            lemma = row[2:3]
-            if "." not in lemma and "," not in lemma and ";" not in lemma and "!" not in lemma and "?" not in lemma and "<unknown>" not in lemma and "..." not in lemma:
-                lemmas.append(lemma)
-        lemmas = list(itertools.chain.from_iterable(lemmas))
-    txtoutput = "./txt/" + file[6:-4] + ".txt"                          # Builds filename path from inputfile with new extension.
-    with open(txtoutput,"w") as output:                                 # Writes selected text to TXT file in folder specified above.
-        output.write(" ".join(lemmas))
-        
-"""
-
 ###############################
 # Main
 ###############################
