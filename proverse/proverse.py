@@ -47,29 +47,29 @@ def proverse(file):
         for line in lines:                                          # Iterates over each line in the text
             length = len(line)                                      # Calculates the length of the line in characters.
             lengths.append(length)                                  # Appends the length of the line to the list of lengths. 
-        #print(lengths[0:10])
+        #print(lengths[0:10])                                       # USER: Activate for inspection.
         number = len(lengths)                                       # Calculates the number of lines in the text.
         mean = np.mean(lengths)                                     # Calulates the mean of the line lengths in the text.
         sd = np.std(lengths)                                        # Calculates the standard deviation for the line lengths in the text
         # Calculations on length changes between lines in sequence
-        diffs = []          
-        for i in range(0,len(lengths)-1): 
-            diff = abs(lengths[i] - lengths[i+1])
-            diffs.append(diff)
-        #print(diffs[0:10])
-        mean_df = np.mean(diffs)
-        sd_df = np.std(diffs)
+        diffs = []                                                  # Creates empty list for the differences in length of subsequent lines.
+        for i in range(0,len(lengths)-1):                           # Iterates over the list of line lengths as many times as there are lines, minus one.
+            diff = abs(lengths[i] - lengths[i+1])                   # Calculates the absolute difference between each line and the next.
+            diffs.append(diff)                                      # Adds each such absolute difference to a list of differences.
+        #print(diffs[0:10])                                         # USER: Activate for inspection.
+        mean_df = np.mean(diffs)                                    # Calculates the mean of the differences.
+        sd_df = np.std(diffs)                                       # Calculates the standard deviation of the differences.
         # Calculation of predictions based on data
         predictedform = ()                                          # Creates an empty string for each prediction.
         if sd_df < 18:                                              # Condition #1.
             predictedform = "verse"                                 # Prediction #1.
-        elif sd_df > 18 and sd_df < 40:
-            predictedform = "mixed"
+        elif sd_df > 18 and sd_df < 40:                             # Condition #2
+            predictedform = "mixed"                                 # Prediction #2
         else:                                                       # Condition #2.
             predictedform = "prose"                                 # Prediction #2.
         output = basename + "," + predictedform + "," + str(sd) + "," + str(mean) + "," + str(number) + "," + str(mean_df) + "," + str(sd_df) + "\n" # Builds a line of comma-separated values for each text.
-        #print(output)                                              # USER: Uncomment for output in terminal.
-    with open("results-df_tc.csv", "a") as resultfile:                    # Creates a new file in "appending" mode.
+        #print(output)                                              # USER: Activate for inspection.
+    with open("results.csv", "a") as resultfile:                    # Creates a new file in "appending" mode.
         resultfile.write(output)                                    # Adds output from current text to the results file. 
         
 
@@ -81,4 +81,4 @@ def main(inputpath):
     for file in glob.glob(inputpath):                               # Applies the function below to each file.                                  
         proverse(file)                                              # Calls the "proverse" function.    
 
-main('./tc/*.txt')                                               # USER: Modify path to folder with files if necessary.
+main('./input/*.txt')                                               # USER: Modify path to folder with files if necessary.
