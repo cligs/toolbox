@@ -5,4 +5,4 @@ Simple script to predict whether a given text file from a collection of text fil
 
 The folder "input" contains some files for testing. The comments in the script should make it clear how to use it.  
 
-For more information, see http://clgs.hypotheses.org/672. 
+For more information, see http://dragonfly.hypotheses.org/672. 
