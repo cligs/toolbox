@@ -1,6 +1,6 @@
-# proverse-df.py
+# proverse.py
 # Script to recognize dramatic text as being in verse or prose.
-# Version 0.4, 6.6.2014, by #cf. 
+# Version 0.5, 6.6.2014, by #cf. New: delete speaker names.  
 
 
 ###############################
@@ -41,7 +41,17 @@ def proverse(file):
     with open(file, "r") as txt:                                    # Opens the file.
         basename = os.path.basename(file)                           # Retrieves just the basename from the filename.
         text = txt.read()                                           # Creates a string object from text in file.
-        lines = text.split("\n")                                    # Splits text into lines with "newline" as separator.
+        alllines = text.split("\n")                                 # Splits text into lines with "newline" as separator.
+        # Preprocessing: Separate speaker names from speeches.
+        lines = []                                                  # Create a list object for the speeches.
+        speakers = []                                               # Create a list object for the speaker names.
+        for line in alllines:                                       # Iterates over each line in the text.
+            if line[0:3].isupper():                                 # Checks whether the first three characters in a line are uppercase. 
+                speakers.append(line)                               # If yes, adds the line to the list of speakers. 
+            else:                                                   # If no,
+                lines.append(line)                                  # Add the line to the list of lines.
+        #print(lines[0:10])                                         # USER: Activate for inspection.
+        #print(speakers[0:10])                                      # USER: Activate for inspection.
         # Calculations on numbers of characters per line 
         lengths = []                                                # Creates empty list called "lengths" for each length value of each line.
         for line in lines:                                          # Iterates over each line in the text
@@ -69,7 +79,7 @@ def proverse(file):
             predictedform = "prose"                                 # Prediction #2.
         output = basename + "," + predictedform + "," + str(sd) + "," + str(mean) + "," + str(number) + "," + str(mean_df) + "," + str(sd_df) + "\n" # Builds a line of comma-separated values for each text.
         #print(output)                                              # USER: Activate for inspection.
-    with open("results.csv", "a") as resultfile:                    # Creates a new file in "appending" mode.
+    with open("results.csv", "a") as resultfile:                 # Creates a new file in "appending" mode.
         resultfile.write(output)                                    # Adds output from current text to the results file. 
         
 
