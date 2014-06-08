@@ -12,7 +12,7 @@
 # 3. For each such list, calculate the mean and the standard deviation, as well as the mean and sd of the differences between subsequent lines. 
 # 4. Based on these scores, decide whether a play is in prose, in verse or mixed. 
 # 5. Write a CSV file with comma-separated values for: filename, predicted form, various indicators for each play.
-# Note: the best indicator, and the only one used in this version, is the standard deviation of the differences between subsequent lines.
+# Note: the best indicator, and the only one used in this version, is the mean of the differences between subsequent lines.
 
 
 ###############################     
