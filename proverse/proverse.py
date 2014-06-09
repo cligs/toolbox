@@ -79,7 +79,7 @@ def proverse(file):
             predictedform = "prose"                                 # Prediction #2.
         output = basename + "," + predictedform + "," + str(sd) + "," + str(mean) + "," + str(number) + "," + str(mean_df) + "," + str(sd_df) + "\n" # Builds a line of comma-separated values for each text.
         #print(output)                                              # USER: Activate for inspection.
-    with open("proverse-results.csv", "a") as resultfile:                 # Creates a new file in "appending" mode.
+    with open("proverse-results.csv", "a") as resultfile:           # Creates a new file in "appending" mode.
         resultfile.write(output)                                    # Adds output from current text to the results file. 
         
 
