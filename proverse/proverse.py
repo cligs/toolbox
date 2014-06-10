@@ -30,6 +30,7 @@
 import glob
 import os
 import numpy as np
+import csv
 
 
 ###############################
@@ -38,7 +39,7 @@ import numpy as np
 
 def proverse(file):
     """ Recognize whether a text is in prose or in verse and write predictions to a CSV file. """                                                                 
-    with open(file, "r") as txt:                                    # Opens the file.
+    with open(file, "r", encoding="utf-8") as txt:                                    # Opens the file.
         basename = os.path.basename(file)                           # Retrieves just the basename from the filename.
         text = txt.read()                                           # Creates a string object from text in file.
         alllines = text.split("\n")                                 # Splits text into lines with "newline" as separator.
@@ -70,17 +71,14 @@ def proverse(file):
         mean_df = np.mean(diffs)                                    # Calculates the mean of the differences.
         sd_df = np.std(diffs)                                       # Calculates the standard deviation of the differences.
         # Calculation of predictions based on data
-        predictedform = ()                                          # Creates an empty string for each prediction.
+        predictedform = ""                                          # Creates an empty string for each prediction.
         if sd_df < 18:                                              # Condition #1.
             predictedform = "verse"                                 # Prediction #1.
         elif sd_df > 18 and sd_df < 40:                             # Condition #2
             predictedform = "mixed"                                 # Prediction #2
         else:                                                       # Condition #2.
             predictedform = "prose"                                 # Prediction #2.
-        output = basename + "," + predictedform + "," + str(sd) + "," + str(mean) + "," + str(number) + "," + str(mean_df) + "," + str(sd_df) + "\n" # Builds a line of comma-separated values for each text.
-        #print(output)                                              # USER: Activate for inspection.
-    with open("proverse-results.csv", "a") as resultfile:           # Creates a new file in "appending" mode.
-        resultfile.write(output)                                    # Adds output from current text to the results file. 
+        return [basename, predictedform,  sd, mean, number, mean_df, sd_df]
         
 
 ###############################
@@ -88,7 +86,9 @@ def proverse(file):
 ###############################
 
 def main(inputpath):
-    for file in glob.glob(inputpath):                               # Applies the function below to each file.                                  
-        proverse(file)                                              # Calls the "proverse" function.    
+    with open("proverse-results.csv", "w", encoding="utf-8", newline="") as resultfile:
+        csv_writer = csv.writer(resultfile, dialect='excel')
+        for file in glob.glob(inputpath):                               # Applies the function below to each file.
+            csv_writer.writerow(proverse(file))
 
-main('./input/*.txt')                                               # USER: Modify path to folder with files if necessary.
+main('./corpus/*.txt')                                               # USER: Modify path to folder with files if necessary.
