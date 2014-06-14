@@ -17,7 +17,6 @@
 
 import glob
 import pandas as pd
-import numpy as np
 import os
 import shutil
 
@@ -27,14 +26,15 @@ import shutil
 #######################
 
 def copy_subset(fullset,metadata):
+    """ Reads metadata from file, builds subset of filenames, copys those files to new folder"""
     metadata = pd.read_csv(metadata, delimiter=',', index_col=0)
     #print(metadata)
-    by_date = metadata[metadata.date > 1720]
-    by_date_sgenre = by_date[by_date.sgenre == "Comedie"]
-    by_date_sgenre_form = by_date_sgenre[by_date_sgenre.form == "vers"]
-    print(by_date_sgenre_form)
+    by_date = metadata[metadata.date > 1720]                            # Sample data: ca. 1700-1800.
+    by_date_genre = by_date[by_date.genre == "comedy"]                  # Sample data: comedy, tragedy, other.
+    by_date_genre_form = by_date_genre[by_date_genre.form == "prose"]   # Sample data: prose, verse, mixed.
+    print(by_date_genre_form)
     subset = []
-    for item in by_date_sgenre_form.index:
+    for item in by_date_genre_form.index:
         item = item + ".txt"
         subset.append(item)
     print(subset)
