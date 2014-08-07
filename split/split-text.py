@@ -31,7 +31,7 @@ import glob
 
 def split_text(num_words,filename,output_dir):
     """Split a long text file into chunks of approximately `num_words` words and write each chunk to a new file."""
-    with open(filename, 'r', encoding="utf8")) as input:                # USER: Set encoding scheme here.
+    with open(filename, 'r', encoding="utf8") as input:                # USER: Set encoding scheme here.
         words = input.read().split(' ')
     chunks = []
     current_chunk_words = []
