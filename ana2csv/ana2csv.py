@@ -58,7 +58,8 @@ def ana2csv(file):
     delWS=[re.sub('\s{2,}|\r+|\n+', ' ', s) for s in text]                  # Replaces multiple whitespaces and linebreaks
 
     outputfile = file[:-4] + ".csv"                                     # Builds filename from inputfile with new extension.
-    csv_output = open(outputfile, 'w', newline='')                      # Opens a file for writing. Uses parameter newline to handle linebreaks
+
+    csv_output = open(outputfile, 'w')                      # Opens a file for writing. Uses parameter newline to handle linebreaks
 
     csvwriter = csv.writer(csv_output)                                  # Creates the csv writer object.
     for row in zip(values, delWS):
