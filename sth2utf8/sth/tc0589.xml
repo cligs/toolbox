@@ -1,0 +1,3880 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LES ORIGINAUX OU MONSIEUR DU CAP-VERT, COMÉDIE</title>
+				<author born='1694' born_location='Paris' death='1778' death_location='Paris' academie='1746'>VOLTAIRE</author>
+
+				<date>1732</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, septembre 2011</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Trois actes</structure>
+				<type>prose</type>
+				<periode>1731-1740</periode>
+				<taille>(mesure non pertinente)</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">LES ORIGINAUX OU MONSIEUR DU CAP-VERT</titlePart>
+				<titlePart type="sub">COMÉDIE EN TROIS ACTES, ET EN PROSE.</titlePart>
+			</docTitle> 
+			<docDate value='1732'>M DDD XXXII</docDate>
+			<docAuthor id='VOLTAIRE' bio='voltaire'>Voltaire</docAuthor>
+			<docImprint>
+				<privilege id=''></privilege>
+				<imprimeur id=''></imprimeur>
+				<acheveImprime id=''></acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='1732' location='Château de Sceaux'>Représenté pour la première fois en 1732 dans un théâtre particulier.</premiere>
+			<recette value=''></recette>
+			</performance>
+			<preface>
+				<head>AVERTISSEMENT DE BEUCHOT.</head>
+				<p>Cette pièce n'a jamais été représentée sur des théâtres publics; mais elle l'a été sur un théâtre particulier, en 1732. C'est Voltaire lui-même qui le dit dans son article Art dramatique des Questions sur l'Encyclopédie. La première édition des Originaux a été donnée par M. E.-A. Lequien, en 1820, dans le tome IX de son édition des Oeuvres de Voltaire. Un manuscrit intitulé Monsieur du Cap-Vert, et qui était dans la bibliothèque de Pont-de-Veyle, appartenant aujourd'hui à M. de Soleinne, présente des différences de texte dont quelques-unes ont été admises par M. Lequien, et reproduites par des éditeurs plus récents. Je m'en suis tenu au manuscrit dont je suis redevable à feu Decroix, et qu'il avait fait faire sur une copie venant de Longchamp, secrétaire de Voltaire. J'ai mis en variantes les passages introduits dans le texte par M. Lequien.</p>
+				<p>Chalet de Jetphort, éditeur des Étrennes lyriques, donna, dans le volume de 1785, les cinq couplets qui terminent les Originaux, comme tirés d'une comédie de Voltaire, intitulée: Le Capitaine Boursoufle. Mais il manquait deux vers au 3e couplet; et d'Aquin de Chateaulyon, dans son Almanach littéraire de 1786, ne cita que quatre couplets. Le nom de Boursoufle est au nombre des personnages dans le manuscrit intitulé Monsieur du Cap-Vert et c'est sous le titre de Grand Boursoufle que Mme de Grafigny parle des Originaux (voyez Vie privée de Voltaire et de Mme du Châtelet, 1820, in-8°, pages 130 et 135). Voltaire avait aussi donné le titre de Boursoufle àune pièce dont il existe plusieurs versions: voyez l'Avertissement (de M. Decroix) en tête de l'Échange.</p>
+				<p>Les Originaux ont donné l'idée du Préjugé à la mode, comédie de Lachaussée, jouée en 1735. La scène v du cinquième acte du Préjugé à la mode a surtout quelque rapport avec la scène ix du troisième acte des Originaux.</p>
+			</preface>
+			<castList><head>PERSONNAGES</head>
+				<castItem><role id='MONSIEUR-DU-CAP-VERT' civil='M' type="H" statut='armateur' age='A' stat_amour='néant'>MONSIEUR DU CAP-VERT</role>, armateur.</castItem>
+				<castItem><role id='LE-PRÉSIDENT-BODIN' civil='M' type="H" statut='président' age='A' stat_amour='néant'>LE PRÉSIDENT BODIN</role>.</castItem>
+				<castItem><role id='LA-PRÉSIDENTE-BODIN' civil='F' type="H" statut='aristocrate' age='V' stat_amour='néant'>LA PRÉSIDENTE BODIN</role>.</castItem>
+				<castItem><role id='LE-COMTE-DES-APPRÊTS' civil='M' type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE DES APPRÊTS</role>, gendre du président. </castItem>
+				<castItem><role id='LA-COMTESSE' civil='M' type="H" statut='comte' age='A' stat_amour='néant'>LA COMTESSE</role>, épouse du comte.</castItem>
+				<castItem><role id='LE-CHEVALIER-DU-HASARD' civil='M' type="H" statut='chevalier' age='A' stat_amour='néant'>LE CHEVALIER DU HASARD</role>, frère inconnu du comte.</castItem>
+				<castItem><role id='FANCHON' civil='F' type="H" statut='aristocrate' age='A' stat_amour='amoureux'>FANCHON</role>, fille cadette du président, soeur de la comtesse, et amante du chevalier. </castItem>
+				<castItem><role id='MADAME-DU-CAP-VERT' civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME DU CAP-VERT</role>, femme de l'armateur.</castItem>
+				<castItem><role id='MONSIEUR-DE-L-ÉTRIER' civil='M' type="H" statut='écuyer' age='A' stat_amour='néant'>MONSIEUR DE L'ÉTRIER</role>, écuyer du comte.</castItem>
+				<castItem><role id='MONSIEUR-DU-TOUPET' civil='M' type="H" statut='pérruquier' age='A' stat_amour='néant'>MONSIEUR DU TOUPET</role>, perruquier du comte.</castItem>
+				<castItem><role id='PLUSIEURS-VALETS-DE-CHAMBRE' civil='G' type="H" statut='valet' age='A' stat_amour='néant'>PLUSIEURS VALETS DE CHAMBRE</role>.</castItem>
+				<castItem><role id='UN-PAGE' civil='M' type="H" statut='' age='A' stat_amour='néant'>UN PAGE</role>.</castItem>
+				<castItem><role id='CHAMPAGNE' civil='M' type="H" statut='' age='A' stat_amour='néant'>CHAMPAGNE</role>, laquais de la présidente. </castItem>
+				<castItem><role id='NUIT-BLANCHE' civil='M' type="H" statut='' age='A' stat_amour='néant'>NUIT-BLANCHE</role>, laquais du chevalier du Hasard.</castItem>
+				<castItem><role id='MADAME RAFLE' civil='F' type="H" statut='' age='A' stat_amour='néant'>MADAME RAFLE</role>, gouvernante.</castItem>
+			</castList>
+		<set location='(non indiqué)' country='France' periode='XVIIIème' link=''>La scène est dans la maison du président.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Chevalier du Hasard, Nuit-Blanche.</head>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='1'>
+	<s id='1'>Nuit-Blanche !</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='2'>
+	<s id='1'>Monsieur ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='3'>
+	<s id='1'>N'est-ce point ici la maison ?</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='4'>
+	<s id='1'>Je crois que nous y voici. </s>
+	<s id='2'>Nous sommes près du jardin du président Bodin : n'est-ce pas cela que vous cherchez ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='5'>
+	<s id='1'>Oui, c'est cela même ; mais il faut bien autre chose.</s>
+</p>
+<stage>Ils s'introduisent dans le jardin.</stage>
+<p id='6'>
+	<s id='1'>Elle ne paraît point encore.</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='7'>
+	<s id='1'>Qui ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='8'>
+	<s id='1'>Elle.</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='9'>
+	<s id='1'>Qui, elle ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='10'>
+	<s id='1'>Cette fille charmante.</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='11'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Monsieur, la fille du président Bodin vous aurait déjà donné rendez-vous ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='12'>
+	<s id='1'>Je vous trouve bien impertinent avec votre déjà il y a un mois entier que je l'aime, et qu'elle le sait ; il y a par conséquent bientôt un mois qu'elle aurait dû m'accorder cette petite faveur. </s>
+	<s id='2'>Mais que veux-tu ? </s>
+	<s id='3'>les filles s'enflamment aisément et se rendent difficilement : si c'était une dame un peu accoutumée au monde, nous nous serions peut-être déjà quittés.</s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE.</speaker>
+<p id='13'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>De grâce, monsieur, où avez-vous déjà fait connaissance avec cette demoiselle dont le coeur est si aisé, et l'accès si difficile ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='14'>
+	<s id='1'>Où je l'ai vue ? </s>
+	<s id='2'>Partout, à l'opéra, au concert, à la comédie, enfin en tous les lieux où les femmes vont pour être lorgnées, et les hommes perdre leur temps. </s>
+	<s id='3'>J'ai gagné sa suivante de la façon dont on vient à bout de tout, avec de l'argent : c'était à elle que tu portais toutes mes lettres, sans la connaître. </s>
+	<s id='4'>Enfin, après bien des prières et des refus, elle consent à me parler ce soir. </s>
+	<s id='5'>Les fenêtres de sa chambre donnent sur le jardin. </s>
+	<s id='6'>On ouvre, avançons.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Fanchon, à la fenêtre  ; Le Chevalier, au-dessous.</head>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='1'>
+	<s id='1'>Est-ce vous, Monsieur le Chevalier ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='2'>
+	<s id='1'>Oui, c'est moi, mademoiselle, qui fais, comme vous voyez, l'amour à l'espagnole, et qui serais très heureux d'être traité à la française, et de dire à vos genoux que je vous adore, au lieu de vous le crier sous les fenêtres, au hasard d'être entendu d'autres que de vous.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='3'>
+	<s id='1'>Cette discrétion me plaît : mais parlez-moi franchement, m'aimez-vous ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='4'>
+	<s id='1'>Depuis un mois, je suis triste avec ceux qui sont gais ; je deviens solitaire, insupportable à mes amis et à moi-même ; je mange peu, je ne dors point : si ce n'est pas là de l'amour, c'est de la folie ; et, de façon ou d'autre, je mérite un peu de pitié.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='5'>
+	<s id='1'>Je me sens toute disposée à vous plaindre ; mais si vous m'aimiez autant que vous dites, vous vous seriez déjà introduit auprès de mon père et de ma mère, et vous seriez le meilleur ami de la maison, au lieu de faire ici le pied de grue et de sauter les murs d'un jardin.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='6'>
+	<s id='1'>Hélas que ne donnerais-je point pour être admis dans la maison</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='7'>
+	<s id='1'>C'est votre affaire ; et, afin que vous puissiez y réussir, je vais vous faire connaître le génie des gens que vous avez à ménager.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='8'>
+	<s id='1'>De tout mon coeur, pourvu que vous commenciez par vous.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='9'>
+	<s id='1'>Cela ne serait pas juste ; je sais trop ce que je dois à mes parents. </s>
+	<s id='2'>Premièrement, mon père est un vieux président riche et bonhomme, fou de l'astrologie, où il n'entend rien. </s>
+	<s id='3'>Ma mère est la meilleure femme du monde, folle de la médecine, où elle entend tout aussi peu : elle passe sa vie à faire et à tuer des malades. </s>
+	<s id='4'>Ma soeur aînée est une grande créature, bien faite, folle de son mari, qui ne l'est point du tout d'elle. </s>
+	<s id='5'>Son mari, mon beau-frère, est un soi-disant grand seigneur, fort vain, très fat, et rempli de chimères. </s>
+	<s id='6'>Et moi, je deviendrais peut-être encore plus folle que tout cela si vous m'aimiez aussi sincèrement que vous venez de me l'assurer.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='10'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Madame ! </s>
+	<s id='3'>Que vous me donnez d'envie de figurer dans votre famille ! </s>
+	<s id='4'>Mais...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='11'>
+	<s id='1'>Mais, il serait bon que vous me parlassiez un peu de la vôtre ; car je ne connais encore de vous que vos lettres.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='12'>
+	<s id='1'>Vous m'embarrassez fort : il me serait impossible de donner du ridicule à mes parents.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='13'>
+	<s id='1'>Comment ! </s>
+	<s id='2'>Impossible ! </s>
+	<s id='3'>Vous n'avez donc ni père ni mère ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='14'>
+	<s id='1'>Justement.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='15'>
+	<s id='1'>Ne peut-on pas savoir au moins de quelle profession vous êtes ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='16'>
+	<s id='1'>Je fais profession de n'en avoir aucune ; je m'en trouve bien. </s>
+	<s id='2'>Je suis jeune, gai, honnête homme ; je joue, je bois, je fais, comme vous voyez, l'amour : on ne m'en demande pas davantage. </s>
+	<s id='3'>Je suis assez bien venu partout ; enfin je vous aime de tout mon coeur : c'est une maladie que votre astrologue de père n'a pas prévue, et que votre bonne femme de mère ne guérira pas, et qui durera peut-être plus que vous et moi ne voudrions.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='17'>
+	<s id='1'>Votre humeur me fait plaisir ; mais je crains bien d'être aussi malade que vous je ne vous en dirais pas tant si nous étions de plain-pied ; mais je me sens un peu hardie, de loin... </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>Mon Dieu ! </s>
+	<s id='4'>Voici ma grande soeur qui entre dans ma chambre, et mon père et ma mère dans le jardin. </s>
+	<s id='5'>Adieu ; je jugerai de votre amour si vous vous tirez de ce mauvais pas en habile homme. </s>
+</p>
+</sp>
+<sp who='NUIT-BLANCHE'><speaker>NUIT-BLANCHE, en se collant à la muraille.</speaker>
+<p id='18'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Monsieur, nous sommes perdus ! </s>
+	<s id='3'>Voici des gens avec une arquebuse.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='19'>
+	<s id='1'>Non, ce n'est qu'une lunette ; rassure-toi. </s>
+	<s id='2'>Je suis sûr de plaire à ces gens-ci, puisque je connais leur ridicule et leur faible.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Président Bodin, La Prédisente, Domestiques, Le Chavalier, Nuit-Blanche.</head>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT, avec une grande lunette.</speaker>
+<p id='1'>
+	<s id='1'>On voit bien que je suis né sous le signe du cancre ; toutes mes affaires vont de guingois. </s>
+	<s id='2'>Il y a six mois que j'attends mon ami Monsieur du Cap-Vert, ce fameux capitaine de vaisseau qui doit épouser ma cadette ; et je vois certainement qu'il ne viendra de plus d'un an : le bourreau a Vénus rétrograde. </s>
+	<s id='3'>Voici, d'un autre côté, mon impertinent de gendre, Monsieur le comte des Apprêts, à qui j'ai donné mon aînée ; il affecte l'air de la mépriser ; il ne veut pas me faire l'honneur de me donner des petits-enfants : ceci est bien plus rétrograde encore. </s>
+	<s id='4'>Ah ! </s>
+	<s id='5'>Malheureux président ! </s>
+	<s id='6'>Malheureux beau-père ! </s>
+	<s id='7'>Sur quelle étoile ai-je marché ? </s>
+	<s id='8'>Çà, voyons un peu en quel état est le ciel ce soir.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='2'>
+	<s id='1'>Je vous ai déjà dit, mon toutou, que votre astrologie n'est bonne qu'à donner des rhumes ; vous devriez laisser là vos lunettes et vos astres. </s>
+	<s id='2'>Que ne vous occupez-vous, comme moi, de choses utiles ? </s>
+	<s id='3'>J'ai trouvé enfin l'élixir universel, et je guéris tout mon quartier. </s>
+	<s id='4'>Eh bien, Champagne, comment se porte ta femme, à qui j'en ai fait prendre une dose ?</s>
+</p>
+</sp>
+<sp who='CHAMPAGNE'><speaker>CHAMPAGNE.</speaker>
+<p id='3'>
+	<s id='1'>Elle est morte ce matin.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='4'>
+	<s id='1'>J'en suis fâchée : c'était une bonne femme. </s>
+	<s id='2'>Et mon filleul, comment est-il depuis qu'il a pris ma poudre corroborative ?... </s>
+	<s id='3'>Eh mais ! </s>
+	<s id='4'>Que vois-je, mon toutou ? </s>
+	<s id='5'>Un homme dans notre jardin !</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='5'>
+	<s id='1'>Ma toute, il faut observer ce que ce peut être, et bien calculer ce phénomène.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER, tirant sa lunette d'opéra.</speaker>
+<p id='6'>
+	<s id='1'>Le soleil entre dans sa cinquantième maison.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='7'>
+	<s id='1'>Et vous, monsieur, qui vous fait entrer dans la mienne, s'il vous plaît ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER, en regardant le ciel.</speaker>
+<p id='8'>
+	<s id='1'>L'influence des astres, monsieur, Vénus, dont l'ascendance...</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='9'>
+	<s id='1'>Que veut dire ceci ? </s>
+	<s id='2'>C'est apparemment un homme de la profession.</s>
+</p>
+<stage>Ils se regardent tous deux avec leurs lunettes.</stage>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='10'>
+	<s id='1'>C'est apparemment quel que jeune homme qui vient me demander des remèdes ; il est vraiment bien joli : c'est grand dommage d'être malade à cet âge.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='11'>
+	<s id='1'>Excusez, monsieur, si, n ayant pas l'honneur de vous connaître...</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='12'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Monsieur, c'était un bonheur que les conjonctions les plus bénignes me faisaient espérer : je me promenais près de votre magnifique maison pour...</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='13'>
+	<s id='1'>Pour votre santé apparemment.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='14'>
+	<s id='1'>Oui, madame ; je languis depuis un mois, et je me flatte que je trouverai enfin du secours. </s>
+	<s id='2'>On m'a assuré que vous aviez ici ce qui me guérirait.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='15'>
+	<s id='1'>Oui, oui, je vous guérirai ; je vous entreprends, et je veux que ma poudre et mon dissolvant...</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='16'>
+	<s id='1'>C'est ma femme, monsieur, que je vous présente. </s>
+</p>
+<stage>Parlant bas, et se touchant le front.</stage>
+<p id='17'>
+	<s id='1'>La pauvre toute est un peu blessée là... </s>
+	<s id='2'>Mais parlons un peu raison, s'il vous plaît. </s>
+	<s id='3'>Ne disiez-vous pas qu'en vous promenant près de ma maison vous aviez...</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='18'>
+	<s id='1'>Oui, monsieur, je vous disais que j'avais découvert un nouvel astre au-dessus de cette fenêtre, et qu'en le contemplant j'étais entré dans votre jardin.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='19'>
+	<s id='1'>Un nouvel astre ! </s>
+	<s id='2'>Comment ! </s>
+	<s id='3'>Cela fera du bruit.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='30'>
+	<s id='1'>Je voudrais bien pourtant que la chose fût secrète. </s>
+	<s id='2'>Il brillait comme Vénus, et je crois qu'il a les plus douces influences du monde. </s>
+	<s id='3'>Je le contemplais, j'ose dire, avec amour ; je ne pouvais en écarter mes yeux j'ai même, puisqu'il faut vous le dire, été fâché quand vous avez paru.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='31'>
+	<s id='1'>Vraiment, je le crois bien.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='32'>
+	<s id='1'>Pardonnez, monsieur, à ce que je vous dis ; ne me regardez pas d'un aspect malin, et ne soyez pas en opposition avec moi : vous devez savoir l'empressement que j'avais de vous faire ma cour. </s>
+	<s id='2'>Mais enfin, quand il s'agit d'un astre...</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='33'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Sans doute. </s>
+	<s id='3'>Et où l'avez-vous vu ? </s>
+	<s id='4'>Vous me faites palpiter le coeur.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='34'>
+	<s id='1'>C'est l'état où je suis. </s>
+	<s id='2'>Je l'ai vu, vous dis-je. </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Quel plaisir j'avais en le voyant ! </s>
+	<s id='5'>Quel aspect ! </s>
+	<s id='6'>C'était tout juste ici ; mais cela est disparu dès que vous êtes venu dans le jardin.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='35'>
+	<s id='1'>Ceci mérite attention : c'était sans doute quelque comète.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='36'>
+	<s id='1'>Du moins elle avait une fort jolie chevelure.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE, le tirant par le bras.</speaker>
+<p id='37'>
+	<s id='1'>Mon pauvre jeune homme, ne vous arrêtez point aux visions cornues de mon mari. </s>
+	<s id='2'>Venons au fait : peut-être votre mal presse.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='38'>
+	<s id='1'>Oui, madame ; je me sentais tout en feu avant que vous parussiez.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE, lui tâtant le pouls.</speaker>
+<p id='39'>
+	<s id='1'>Voilà cependant un pouls bien tranquille.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='40'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Madame, ce n'est que depuis que j'ai l'honneur de vous parler : c'était tout autre chose auparavant. </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Quelle différence, madame !</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='41'>
+	<s id='1'>Pauvre enfant vous avez pourtant la couleur bonne et l'oeil assez vif. </s>
+	<s id='2'>Çà, ne déguisez rien : avez-vous la liberté du...</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='42'>
+	<s id='1'>Plus de liberté, madame ; c'est là mon mal : cela commença, il y a un mois, sur l'escalier de la Comédie ; mes yeux furent dans un éblouissement involontaire, mon sang s'agita ; j'éprouvai des palpitations, des inquiétudes, ah ! </s>
+	<s id='3'>Madame, des inquiétudes !...</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='43'>
+	<s id='1'>Dans les jambes ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='44'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Partout, madame, des inquiétudes cruelles ; je ne dormais plus ; je rêvais toujours à la même chose, j'étais mélancolique.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='45'>
+	<s id='1'>Et rien ne vous a donné du soulagement ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='46'>
+	<s id='1'>Pardonnez-moi, madame ; cinq ou six ordonnances par écrit mont donné un peu de tranquillité. </s>
+	<s id='2'>Je me suis mis entre les mains d'un médecin charmant, qui a entrepris ma cure ; mais je commence à croire qu'il faudra que vous daigniez l'aider : heureux si vous pouvez consulter avec lui sur les moyens de me mettre dans l'état où j'aspire.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='47'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Vous n'avez qu'à l'amener, je le purgerai lui-même, je vous en réponds.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='48'>
+	<s id='1'>Or çà, monsieur, point de compliments entre gens du métier : vous souperez avec nous ce soir, si vous le trouvez bon ; et cela en famille avec ma femme, ma fille la comtesse, et ma fille Fanchon.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='49'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Monsieur, vous ne pouviez, je vous jure, me faire un plus grand plaisir.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='50'>
+	<s id='1'>Et après souper, je veux que nous observions ensemble l'état du ciel.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='51'>
+	<s id='1'>Pardonnez-moi, monsieur ; j'ai d'ordinaire après souper la vue un peu trouble.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='52'>
+	<s id='1'>Vous voulez me tuer ce pauvre garçon ; et moi, je vous dis qu'après souper il prendra trois de mes pilules. </s>
+	<s id='2'>Mais je veux auparavant qu'il fasse connaissance avec toute ma famille.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='53'>
+	<s id='1'>C'est bien dit, ma toute : qu'on fasse descendre madame la comtesse et Fanchon.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='54'>
+	<s id='1'>Mes filles ! </s>
+	<s id='2'>Madame la comtesse !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='55'>
+	<s id='1'>Nous descendons, madame.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='56'>
+	<s id='1'>Je vole, ma mère.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Président, La Présidente, Madame La Comtesse, Fanchon, Le Chevalier.</head>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='1'>
+	<s id='1'>Mes filles, voici un de mes malades que je vous recommande je veux que vous en ayez soin ce soir à souper.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Ma mère, si nous en aurons soin ! </s>
+	<s id='3'>Il sera entre nous deux, et ce sera moi qui le servirai.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='3'>
+	<s id='1'>Ce jeune gentilhomme, mes filles, est un des grands astrologues que nous ayons : ne manquez pas de lui bien faire les honneurs de la maison.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='4'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Monsieur, je revois la brillante comète dont la vue est si charmante.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='5'>
+	<s id='1'>J'ai beau guigner, je ne vois rien.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='6'>
+	<s id='1'>C'est que vous ne regardez pas avec les mêmes yeux que moi.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='7'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Madame la comtesse, serez-vous toujours triste ? </s>
+	<s id='3'>Et ne pourrai-je point purger cette mauvaise humeur ? </s>
+	<s id='4'>J'ai deux filles bien différentes. </s>
+	<s id='5'>Vous diriez Démocrite et Héraclite l'une a l'air d'une veuve affligée ; et cette étourdie-ci rit toujours. </s>
+	<s id='6'>Il faut que je donne des gouttes d'Angleterre à l'une, et de l'opium à l'autre.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='8'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Madame, vous me traitez de veuve ; il est trop vrai que je le suis. </s>
+	<s id='3'>Vous m'avez mariée, et je n'ai point de mari : monsieur le comte s'est mis dans la tête qu'il dérogerait s'il m'aimait. </s>
+	<s id='4'>J'ai le malheur de respecter des noeuds qu'il néglige, et de l'aimer parce qu'il est mon mari, comme il me méprise parce que je suis sa femme : je vous avoue que j'en suis inconsolable.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='9'>
+	<s id='1'>Votre mari est un jeune fat, et toi, une sotte, ma chère fille : je n'ai point de remèdes pour des cas si désespérés. </s>
+	<s id='2'>Le comte ne vous voit point du tout la nuit, rarement le jour. </s>
+	<s id='3'>Je sais bien que l'affront est sanglant ; mais enfin c'est ainsi que M. </s>
+	<s id='4'>Le président en use avec moi depuis quinze ans : vois-tu que je m'arrache les cheveux pour cela ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>La chose est un peu différente : pour moi, si j'étais à la place de ma soeur aînée, je sais bien ce que je ferais.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='11'>
+	<s id='1'>Eh quoi, coquine ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>Ce qu'elle est assez sotte pour ne pas faire.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='13'>
+	<s id='1'>J'ai beau observer, je me donne le torticolis, et je ne découvre rien. </s>
+	<s id='2'>Je vois bien que vous êtes plus habile que moi : oui, vous êtes venu tout à propos pour me tirer de bien des embarras.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='14'>
+	<s id='1'>Il n'y a rien que je ne voulusse faire pour vous.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='15'>
+	<s id='1'>Vous voyez, monsieur, mes deux filles : l'une est malheureuse parce qu'elle a un mari ; et celle-ci commence à l'être parce qu'elle n'en a point. </s>
+	<s id='2'>Mais ce qui me désoriente et me fait voir des étoiles en plein midi...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='16'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Mon père ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='17'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Monsieur ?</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='18'>
+	<s id='1'>C'est que le mari qui est destiné a ma fille cadette...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='19'>
+	<s id='1'>Un mari, mon père !</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='30'>
+	<s id='1'>Un mari, monsieur !</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='31'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Ce mari, peut-être est-il malade. </s>
+	<s id='3'>Cela ne sera rien ; je le guérirai.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='32'>
+	<s id='1'>Ce mari, Monsieur du Cap-Vert, ce fameux armateur...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='33'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Mon père, un corsaire ?</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='34'>
+	<s id='1'>C'est mon ancien ami : vous croyez bien que j'ai tiré sa nativité. </s>
+	<s id='2'>Il est né sous le signe des poissons. </s>
+	<s id='3'>Je lui avais promis de plus Fanchon avant qu'elle fût née ; en un mot, ce qui me confond, c'est que je vois clairement que Fanchon sera mariée bientôt, et encore plus clairement que Monsieur du Cap-Vert ne sera de retour que dans un an : il faut que vous m'aidiez à débrouiller cette difficulté.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='35'>
+	<s id='1'>Cela me paraît très aisé, mon père : vous verrez que je serai mariée incessamment, et que je n'épouserai pas votre marin.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='36'>
+	<s id='1'>Autant que mes faibles lumières peuvent me faire entrevoir, mademoiselle votre fille, monsieur, raisonne en astrologue judicieuse encore plus que judiciaire ; et je crois, moi, par les aspects d'aujourd'hui, que ce forban ne sera jamais son mari.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='37'>
+	<s id='1'>Sans avoir étudié, je l'ai deviné tout d'un coup.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='38'>
+	<s id='1'>Et sur quoi pensez-vous, monsieur, que le capitaine ne sera pas mon gendre ?</s>
+</p>
+</sp>	
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='39'>
+	<s id='1'>C'est qu'il est déjà gendre d'un autre. </s>
+	<s id='2'>Ce capitaine n'est-il pas de Bayonne ?</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='40'>
+	<s id='1'>Oui, monsieur.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='41'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Je suis aussi de Bayonne, moi qui vous parle.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='42'>
+	<s id='1'>Je crois que le pays d'où vous êtes sera le pays de mon mari.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='43'>
+	<s id='1'>Que fait au mariage de ma fille que vous soyez de Bayonne ou de Pampelune ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='44'>
+	<s id='1'>Cela fait que j'ai connu Monsieur du Cap-Vert lorsque j'étais enfant, et que je sais qu'il était marié à Bayonne.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='45'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Je vois que vous ne savez pas le passé aussi bien que l'avenir. </s>
+	<s id='3'>Je vous apprends qu'il n'est plus marié, que sa femme est morte il y a quinze ans, qu'il en avait environ cinquante quand il l'a perdue, et que, dès qu'il sera de retour, il épousera Fanchon. </s>
+	<s id='4'>Allons tous souper.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='46'>
+	<s id='1'>Oui. </s>
+	<s id='2'>Mais je n'ai point ouï dire que sa femme fût morte.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='47'>
+	<s id='1'>Je me trompe bien fort, ou les étoiles auront un pied de nez dans cette affaire, et je ne m'embarquerai pas avec Monsieur du Cap-Vert.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='48'>
+	<s id='1'>Au moins, mademoiselle, le voyage ne serait pas de long cours. </s>
+	<s id='2'>Par le calcul de monsieur votre père, le pauvre cher homme a soixante-dix ans, et pourrait mourir de vieillesse avant de me faire mourir de douleur.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='49'>
+	<s id='1'>Allons, mon malade, ne vous amusez point ici. </s>
+	<s id='2'>Tout ce que je connais du ciel à l'heure qu'il est, c'est qu'il tombe du serein. </s>
+	<s id='3'>Donnez-moi la main, et venez vous mettre à table à côté de moi.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. La Comtesse, Fanchon.</head>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='1'>
+	<s id='1'>Demeure un peu, ma soeur Fanchon.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Il faut que j'aille servir notre malade, ma chère comtesse : le ciel le veut comme cela.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>Donne-moi pour un moment la préférence.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Pour un moment, passe.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='5'>
+	<s id='1'>Je n'ai plus de confiance qu'en toi, ma petite soeur.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Que puis-je pour vous, moi qui suis si fort embarrassée pour moi-même ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Tu peux m'aider.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>À quoi ? </s>
+	<s id='2'>À vous venger de votre glorieux et impertinent mari ? </s>
+	<s id='3'>Oh ! </s>
+	<s id='4'>De tout mon coeur.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='9'>
+	<s id='1'>Non, mais à m'en faire aimer.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Il n'en vaut pas la peine, puisqu'il ne vous aime pas. </s>
+	<s id='2'>Mais voilà malheureusement la raison pour quoi vous êtes si fort attachée à lui : s'il était à vos pieds, vous seriez peut-être indifférente.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='11'>
+	<s id='1'>Le cruel me traite avec tant de mépris !... </s>
+	<s id='2'>Il en use avec moi comme si nous étions mariés de cinquante ans.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>C'est un air aisé : il prétend que ce sont les manières du grand monde. </s>
+	<s id='2'>Le fat ! </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Que vous êtes bonne, ma soeur, d'être honnête femme !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='13'>
+	<s id='1'>Prends pitié de ma sottise.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='14'>
+	<s id='1'>Oui, mais à condition que vous prendrez part à ma folie.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='15'>
+	<s id='1'>Aide-moi à gagner le coeur de mon mari.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='16'>
+	<s id='1'>Pourvu que vous me prêtiez quelque secours pour m'empêcher d'être l'esclave du corsaire qu'on me destine.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='17'>
+	<s id='1'>Viens, je te communiquerai mes desseins après souper.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='18'>
+	<s id='1'>Et moi, je vous communiquerai mes petites idées... </s>
+	<s id='2'>Voilà comme les soeurs devraient toujours vivre. </s>
+	<s id='3'>Allons donc, ne pleurez plus, pour que je puisse rire.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. La Comtesse, Fanchon.</head>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='1'>
+	<s id='1'>J'ai passé une nuit affreuse, ma chère petite soeur.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Je n'ai pas plus dormi que vous.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>J'ai toujours les dédains de mon mari sur le coeur.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Et moi, les agréments du chevalier dans l'imagination.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='5'>
+	<s id='1'>Tu te moques de moi, de voir à quel point j'aime mon mari.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>Vous ne songez guère combien le chevalier me tourne la tête.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Je tremble pour toi.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>Et moi, je vous plains.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='9'>
+	<s id='1'>Aimer un jeune aventurier qui a même la bonne foi de faire entendre qu'il n'a ni naissance ni fortune !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Larmoyer pour un mari qui n'est peut-être pas si grand seigneur qu'il le dit !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='11'>
+	<s id='1'>Ah !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>Qui a plus de dettes que de bien, plus d'impertinence que d'esprit, plus d'orgueil que de magnificence, plus...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='13'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Ma soeur !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='14'>
+	<s id='1'>Qui vous dédaigne, qui prodigue avec des filles d'opéra ce que vous lui avez apporté en mariage, un débauché, un fat...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='15'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Ma soeur, arrêtez donc.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='16'>
+	<s id='1'>Un petit freluquet idolâtre de sa figure, et qui est plus longtemps que nous à sa toilette, qui copie tous les ridicules de la cour sans en prendre une seule bonne qualité, qui fait l'important, qui...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='17'>
+	<s id='1'>Ma soeur, je ne puis en entendre davantage.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='18'>
+	<s id='1'>Il ne tient pourtant qu'à vous : cela ne finira pas sitôt.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='19'>
+	<s id='1'>Il a de grands défauts, sans doute, je ne les connais que trop ; je les ai remarqués exprès, j'y ai pensé nuit et jour pour me détacher de lui, ma chère enfant ; mais, à force de les avoir toujours présents à l'esprit, enfin je m'y suis presque accoutumée comme aux miens ; et peut-être qu'avec le temps ils me seront également chers.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='20'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Ma soeur, s'il vous faisait l'honneur de vous traiter comme sa femme, et si vous connaissiez sa personne aussi bien que vous connaissez ses vices, peut-être en peu de temps seriez-vous tranquille sur son compte. </s>
+	<s id='3'>Enfin vous voilà donc résolue d'employer à sa conversion tout ce que vous tenez de la libéralité de mon père ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='21'>
+	<s id='1'>Assurément : quand il n'en coûte que de l'argent pour gagner un coeur, on l'a toujours à bon marché.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='22'>
+	<s id='1'>Oui, mais un coeur ne s'achète point : il se donne, et ne peut se vendre.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='23'>
+	<s id='1'>Quelquefois on est touché des bienfaits. </s>
+	<s id='2'>Ma chère enfant, je te charge de tout.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='24'>
+	<s id='1'>Vous me donnez un emploi singulier entre un mari et sa femme. </s>
+	<s id='2'>Le métier que je m'en vais faire est un peu hardi : il faudra que je prenne les apparences de la friponnerie pour faire une action de vertu. </s>
+	<s id='3'>Allons, il n'y a rien qu'on ne fasse pour sa soeur. </s>
+	<s id='4'>Retirez-vous ; allez faire votre cour à sa toilette : je prendrai mon temps pour lui parler. </s>
+	<s id='5'>Souvenez-vous de moi dans l'occasion, je vous en prie, et empêchez qu'on ne m'envoie sur mer.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Le Comte des Apprêts paraît à sa toilette, essayant son habit  ; son Écuyer, Un Tailleur, Un Page, Un Laquais  ; La Comtese entre chez lui.</head>
+<stage>Le fond du théâtre s'ouvre.</stage>
+<sp who='LE-COMTE'><speaker>LE COMTE, sans l'apercevoir, parlant toujours d'un air important.</speaker>
+<p id='1'>
+	<s id='1'>Je vous ai déjà dit, mons des Coutures, que les paniers de mes habits ne sont jamais assez amples : il faut, s'il vous plaît, les faire aussi larges que ceux des femmes, afin que l'on puisse un peu être seul dans le fond de son carrosse. </s>
+	<s id='2'>Et vous, mons du Toupet, songez un peu plus à faire fuir la perruque en arrière : cela donne plus de grâce au visage.</s>
+</p>
+<stage>À la comtesse.</stage>
+<p id='2'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Vous voilà, comtesse !</s>
+</p>
+<stage>À ses gens.</stage>
+<p id='3'>
+	<s id='1'>Hé ! </s>
+	<s id='2'>Un peu d'eau de miel, hé !</s>
+</p>
+<stage>À la comtesse.</stage>
+<p id='4'>
+	<s id='1'>Je suis fort aise de vous voir, madame.</s>
+</p>
+<stage>À l'un de ses gens.</stage>
+<p id='5'>
+	<s id='1'>Un miroir, hé !... </s>
+	<s id='2'>Page, a-t-on fait porter ce vin d'Espagne chez la petite Troussé  ?</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='6'>
+	<s id='1'>Oui, monseigneur.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Pourrait-on avoir l'honneur de vous dire un mot, monsieur ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='8'>
+	<s id='1'>Écoutez, page : était-elle éveillée, la petite ?</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='9'>
+	<s id='1'>Non, monseigneur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='10'>
+	<s id='1'>Et la grosse duchesse ?</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='11'>
+	<s id='1'>Monseigneur, elle s'est couchée à huit heures du matin.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='12'>
+	<s id='1'>Monseigneur, voici votre lingère, votre baigneur, votre parfumeur, votre rôtisseur, votre doreur, votre sellier, votre éperonnier, votre bijoutier, votre usurier, qui attendent dans l'antichambre, et qui demandent tous de l'argent.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, d'un air languissant.</speaker>
+<p id='13'>
+	<s id='1'>Eh mais ! </s>
+	<s id='2'>Qu'on les jette par les fenêtres : c'est ainsi que j'en ai usé avec la moitié de mon bien, qui m'était pourtant plus cher que tous ces messieurs-là. </s>
+	<s id='3'>Allez, allez ; dites-leur qu'ils reviennent... </s>
+	<s id='4'>Dans quelques années, dans quelques années... </s>
+	<s id='5'>Hé ! </s>
+	<s id='6'>Prenez ce miroir, page ; et vous, mons de l'Étrier...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='14'>
+	<s id='1'>Monseigneur ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='15'>
+	<s id='1'>Dites un peu, mons de l'Étrier, qu'on mette mes chevaux napolitains à ma calèche verte et or.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='16'>
+	<s id='1'>Monseigneur, je les vendis hier pour acheter des boucles d'oreilles à Mlle Manon.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='17'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Qu'on mette les chevaux barbes.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='18'>
+	<s id='1'>Un coquin de marchand de foin les fit saisir hier avec votre berline neuve.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='19'>
+	<s id='1'>En vérité, le roi devrait mettre ordre à ces insolences : comment veut-on que la noblesse se soutienne, si on l'oblige de déroger au point de payer ses dettes ?...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='20'>
+	<s id='1'>Pourrai-je obtenir audience à mon tour ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='21'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Vous voici encore, madame ? </s>
+	<s id='3'>Je vous croyais partie avec mes autres créanciers.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='22'>
+	<s id='1'>Peut-on se voir méprisée plus indignement ! </s>
+	<s id='2'>Eh bien ! </s>
+	<s id='3'>Vous ne voulez donc pas m'écouter ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à son écuyer.</speaker>
+<p id='23'>
+	<s id='1'>Monsieur de l'Étrier, un peu d'or dans mes poches... </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>Madame, revenez dans quelques années.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='24'>
+	<s id='1'>Mauvaise plaisanterie à part, il faut pourtant que je vous parle.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='25'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Allons donc, il faut bien un peu de galanterie avec les dames mais ne soyez pas longue.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='26'>
+	<s id='1'>Que de coups de poignard !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à ses gens.</speaker>
+<p id='27'>
+	<s id='1'>Messieurs de la chambre, qu'on ôte un peu cette toilette.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Comte, La Comtesse.</head>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='1'>
+	<s id='1'>Avez-vous résolu, monsieur, de me faire mourir de chagrin ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='2'>
+	<s id='1'>Comment donc, madame, en quoi vous ai-je déplu, s'il vous plaît ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>C'est moi qui ne vous déplais que trop. </s>
+	<s id='3'>Il y a six mois que nous sommes mariés, et vous me traitez comme si nous étions brouillés depuis trente ans.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, se regardant dans un miroir de poche, en ajustant sa perruque.</speaker>
+<p id='4'>
+	<s id='1'>Vous voilà toute prête à pleurer ! </s>
+	<s id='2'>De quoi vous plaignez-vous ? </s>
+	<s id='3'>N'avez-vous pas une très grosse pension ? </s>
+	<s id='4'>N'êtes-vous pas maîtresse de vos actions ? </s>
+	<s id='5'>Suis-je un ladre, un bourru, un jaloux ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='5'>
+	<s id='1'>Plût à Dieu que vous fussiez jaloux ! </s>
+	<s id='2'>Insultez-vous ainsi à mon attachement ? </s>
+	<s id='3'>Vous ne me donnez que des marques d'aversion était-ce pour cela que je vous ai épousé ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, se nettoyant les dents.</speaker>
+<p id='6'>
+	<s id='1'>Mais vous m'avez épousé, madame, vous m'avez épousé pour être dame de qualité, pour prendre le pas sur vos compagnes avec qui vous avez été élevée, pour les faire crever de dépit. </s>
+	<s id='2'>Moi, je vous ai épousée... </s>
+	<s id='3'>Je vous ai épousée, madame, pour ajouter deux cent mille écus à mon bien. </s>
+	<s id='4'>De ces deux cent mille écus, j'en ai déjà mangé cent mille ; par conséquent, je ne vous dois plus que la moitié des égards que je vous devais. </s>
+	<s id='5'>Quand j'aurai mangé les cent mille autres, je serai tout à fait quitte avec vous. </s>
+	<s id='6'>Raillerie à part, je vous aime ; je ne veux pas que vous soyez malheureuse, mais j'exige que vous ayez un peu d'indulgence.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Vous m'outrez : vous vous repentirez peut-être un jour de m'avoir désespérée.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='8'>
+	<s id='1'>Quoi donc ! </s>
+	<s id='2'>Qu'avez-vous ? </s>
+	<s id='3'>Venez-vous ici gronder votre mari de quelque tour que vous aura joué votre amant ? </s>
+	<s id='4'>Ah ! </s>
+	<s id='5'>Comtesse, parlez-moi avec confiance : qui aimez-vous actuellement ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='9'>
+	<s id='1'>Ciel ! </s>
+	<s id='2'>Que ne puis-je aimer quelque autre que vous !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='10'>
+	<s id='1'>On dit que vous soupâtes hier avec le chevalier du Hasard. </s>
+	<s id='2'>Il est vraiment aimable : je veux que vous me le présentiez.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='11'>
+	<s id='1'>Quelles étranges idées ! </s>
+	<s id='2'>vous ne pensez donc pas qu'une femme puisse aimer son mari ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='12'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Pardonnez-moi ; je pense qu'il y a des occasions où une femme aime son mari : quand il va à la campagne sans elle pour deux ou trois années, quand il se meurt, quand elle essaye son habit de veuve.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='13'>
+	<s id='1'>Voilà comme vous êtes ; vous croyez que toutes les femmes sont faites sur le modèle de celles avec qui vous vous ruinez ; vous pensez qu'il n'y en a point d'honnêtes.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='14'>
+	<s id='1'>D'honnêtes femmes ! </s>
+	<s id='2'>Mais si fait, si fait ; il y en a de fort honnêtes : elles trichent un peu au jeu, mais ce n'est qu'une bagatelle.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='15'>
+	<s id='1'>Voilà donc tous les sentiments que j'obtiendrai de vous ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='16'>
+	<s id='1'>Croyez-moi, le président et la présidente ont beau faire, je ne veux pas vivre sitôt en bourgeois ; et puisque vous êtes madame la comtesse des Apprêts, je veux que vous souteniez votre dignité, et que vous n'ayez rien de commun avec votre mari que le nom, les armes, et les livrées. </s>
+	<s id='2'>Vous ne savez pas votre monde ; vous vous imaginez qu'un mari et une femme sont faits pour vivre ensemble : quelle idée ! </s>
+	<s id='3'>Holà ! </s>
+	<s id='4'>Hé ! </s>
+	<s id='5'>Là-bas ! </s>
+	<s id='6'>Quelqu'un ! </s>
+	<s id='7'>Holà ! </s>
+	<s id='8'>Hé ! </s>
+	<s id='9'>Messieurs de la chambre !</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Président, La Présidente, Le Comte, La Ccomtesse, Le Chevalier, Un Page.</head>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='1'>
+	<s id='1'>Monseigneur, voici le président et la présidente.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='2'>
+	<s id='1'>Vous pourriez bien dire : Monsieur le président, petit maroufle !</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE, en s'en allant,</speaker>
+<p id='3'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Le vilain bourgeois !</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='4'>
+	<s id='1'>Par Saturne, monsieur le comte, vous en usez bien indignement avec nous, et c'est un phénomène bien étrange que votre conduite. </s>
+	<s id='2'>Vous nous méprisez, moi, ma femme et ma fille, comme si vous étiez une étoile de la première grandeur. </s>
+	<s id='3'>Vous nous traitez en bourgeois. </s>
+	<s id='4'>Parbleu ! </s>
+	<s id='5'>Quand vous seriez au zénith de la fortune, apprenez qu'il est d'un malhonnête homme de mépriser sa femme, et la famille dans laquelle on est entré. </s>
+	<s id='6'>Corbleu ! </s>
+	<s id='7'>Je suis las de vos façons : nous ne sommes point faits pour habiter sous le même méridien. </s>
+	<s id='8'>Je vous le dis, il faudra que nous nous séparions ; et de partout le zodiaque ! </s>
+	<s id='9'>(Car vous me faites jurer) </s>
+	<s id='10'>Dans quelles éphémérides a-t-on jamais lu qu'un gendre traite de haut en bas son beau-père le président et sa belle-mère la présidente, ne dîne jamais en famille, ne revienne au point du jour que pour coucher seul ? </s>
+	<s id='11'>Parbleu ! </s>
+	<s id='12'>Si j'étais madame la comtesse, je vous ferais coucher avec moi, mon petit mignon, ou je vous dévisagerais.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='5'>
+	<s id='1'>Bonjour, président, bonjour.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='6'>
+	<s id='1'>N'est-ce pas une honte qu'on ne puisse vous guérir de cette maladie ? </s>
+	<s id='2'>Et que moi, qui ai guéri tout mon quartier, aie chez moi un gendre qui me désespère, et fait mourir sa femme des pâles couleurs ? </s>
+	<s id='3'>Et où on seriez-vous, si Monsieur le président en eût toujours usé ainsi avec moi ? </s>
+	<s id='4'>Vous n'auriez pas touché six cents sacs de mille livres que nous vous avons donnés en dot. </s>
+	<s id='5'>Savez-vous bien que ma fille est l'élixir des femmes, et que vous ne la méritez pas pour épouse, ni moi pour belle-mère, ni M. </s>
+	<s id='6'>Le président pour beau-père, ni mon... ni mon... </s>
+	<s id='7'>Allez, vous êtes un monstre.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='7'>
+	<s id='1'>Je suis charmé de vous voir et de vous entendre, ma chère présidente... </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>Voilà, je crois, le chevalier du Hasard, dont on m'a tant parlé. </s>
+	<s id='4'>Bonjour, mons du Hasard, bonjour : vraiment, je suis fort aise de vous voir.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='8'>
+	<s id='1'>Il me semble que j'ai vu cet homme-là à Bayonne, dans mon enfance. </s>
+	<s id='2'>Monsieur, je compte sur l'honneur de votre protection.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='9'>
+	<s id='1'>Comment trouvez-vous madame la comtesse, mons le chevalier ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='10'>
+	<s id='1'>Monsieur, je...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='11'>
+	<s id='1'>Ne vous sentez-vous rien pour elle ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='12'>
+	<s id='1'>Le respect que...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='13'>
+	<s id='1'>Ne pourrai-je point vous être bon à quelque chose à la cour, mons le chevalier ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='14'>
+	<s id='1'>Monsieur, je ne...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, l'interrompant toujours d'un air important.</speaker>
+<p id='15'>
+	<s id='1'>Auprès de quelques ministres, de quelques dames de la cour ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='16'>
+	<s id='1'>Heureusement, monsieur...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='17'>
+	<s id='1'>Il faudra que vous veniez prendre huit tableaux de cavagnole chez la grosse duchesse. </s>
+	<s id='2'>Président, présidente, voilà midi qui sonne ; allez, allez dîner : vous dînez de bonne heure, vous autres. </s>
+	<s id='3'>Holà ! </s>
+	<s id='4'>Hé ! </s>
+	<s id='5'>Quelqu'un ! </s>
+	<s id='6'>Qu'on ouvre à ces dames. </s>
+	<s id='7'>Adieu, mesdames. </s>
+	<s id='8'>Vous viendrez me voir quelque matin, monsieur le chevalier.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER, en s'en allant.</speaker>
+<p id='18'>
+	<s id='1'>Votre gendre est singulier.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='19'>
+	<s id='1'>Il est lunatique.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE, en s'en allant..</speaker>
+<p id='20'>
+	<s id='1'>Il est incurable.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='21'>
+	<s id='1'>Je suis bien malheureuse !</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Comte, Monsieur de l'Étrier.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur de l'Étrier, je ne laisse pas d'être bien embarrassé, oui.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='2'>
+	<s id='1'>Et moi aussi, monseigneur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='3'>
+	<s id='1'>J'ai mangé en trois mois deux années de mon revenu d'avance.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='4'>
+	<s id='1'>Cela prouve votre générosité.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='5'>
+	<s id='1'>Je vois que les vertus sont assez mal récompensées en ce monde : personne ne veut me prêter. </s>
+	<s id='2'>Comme je suis un grand seigneur, on me craint ; si j'étais un bourgeois, j'aurais cent bourses à mon service.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='6'>
+	<s id='1'>Au lieu de cent prêteurs vous avez cent créanciers. </s>
+	<s id='2'>J'ai l'honneur d'être votre écuyer, et vous n'avez point de chevaux. </s>
+	<s id='3'>Vous avez un page qui n'a point de chemises, des laquais sans gages, des terres en décret : ma foi, j'oserais vous conseiller d'accepter quelque bonne somme du beau-père, et de lui faire un petit comte des Apprêts.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='7'>
+	<s id='1'>Je ne veux rien faire d'indigne d'un grand seigneur. </s>
+	<s id='2'>Ne voudrais-tu pas que je soupasse, comme un homme désoeuvré, avec ma femme ? </s>
+	<s id='3'>que j'allasse bourgeoisement au lit avec elle, tristement affublé d'un bonnet de nuit, et asservi comme un homme vulgaire aux lois insipides d'un devoir languissant ? </s>
+	<s id='4'>que je m'humiliasse jusqu'à paraître en public à côté de ma femme ? </s>
+	<s id='5'>ridicule pendant le jour, dégoûté pendant la nuit ; et, pour comble d'impertinence, père de famille ? </s>
+	<s id='6'>Dans trente ans, mon ami, dans trente ans, nous verrons ce que nous pourrons faire pour la fille du président.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='8'>
+	<s id='1'>Mais ne la trouvez-vous pas jolie ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='9'>
+	<s id='1'>Comment ! </s>
+	<s id='2'>Elle est charmante.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='10'>
+	<s id='1'>Eh bien donc !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='11'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Si elle était la femme d'un autre, j'en serais amoureux comme un fou ; je donnerais tout ce que je dois (et c'est beaucoup) pour la posséder, pour en être aimé : mais elle est ma femme ; il n'y a pas moyen de la souffrir ; j'ai trop l'honneur en recommandation ; il faut un peu soutenir son caractère dans le monde.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='12'>
+	<s id='1'>Elle est vertueuse, elle vous aime.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='13'>
+	<s id='1'>Parlons de ce que j'aime : aurez-vous de l'argent ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='14'>
+	<s id='1'>Non, monseigneur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='15'>
+	<s id='1'>Comment, mons de l'Étrier, vous n'avez pu trouver de l'argent chez des bourgeois ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Fanchon, Le Comte.</head>
+<sp who='FANCHON'><speaker>FANCHON, au page qui la suivait.</speaker>
+<p id='1'>
+	<s id='1'>Mon petit page, allez un peu voir là-dedans si j'y suis.</s>
+</p>
+<stage>Le page et Monsieur de l'Étrier s'en vont.</stage>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à fanchon.</speaker>
+<p id='2'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Ma chère enfant, qui vous amène si matin dans mon appartement ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='3'>
+	<s id='1'>L'envie de vous rendre un petit service.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='4'>
+	<s id='1'>Aimable créature, toute soeur de ma femme que vous êtes, vous me feriez tourner la tête si vous vouliez.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='5'>
+	<s id='1'>Je voudrais vous la changer un peu. </s>
+	<s id='2'>Ne me dites point de douceurs : ce n'est pas pour moi que je viens ici.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='6'>
+	<s id='1'>Comment !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='7'>
+	<s id='1'>Soyez discret, au moins.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='8'>
+	<s id='1'>Je vous le jure, ma chère enfant.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='9'>
+	<s id='1'>N'allez jamais en parler à votre femme.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='10'>
+	<s id='1'>Est-ce qu'on parle à sa femme ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='11'>
+	<s id='1'>À Monsieur le président, ni à madame la présidente.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='12'>
+	<s id='1'>Est-ce qu'on parle à son beau-père ou à sa belle-mère ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='13'>
+	<s id='1'>À mon mari, quand j'en aurai un.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='14'>
+	<s id='1'>Est-ce qu'un mari sait jamais rien ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='15'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Je suis chargée de la part d'une jeune femme extrêmement jolie...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='16'>
+	<s id='1'>Voilà un plaisant métier à votre âge !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='17'>
+	<s id='1'>Plus noble que vous ne pensez : les intentions justifient tout ; et quand vous saurez de quoi il est question, vous aurez meilleure opinion de moi, et vous verrez que tout ceci est en tout bien et en tout honneur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='18'>
+	<s id='1'>Eh bien, mon coeur, une jolie femme ?...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='19'>
+	<s id='1'>Qui a de la confiance en moi, m'a priée de vous dire...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='20'>
+	<s id='1'>Quoi ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='21'>
+	<s id='1'>Que vous êtes le plus...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='22'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>J'entends.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='23'>
+	<s id='1'>Le plus ridicule de tous les hommes.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='24'>
+	<s id='1'>Comment ! </s>
+	<s id='2'>Race de président...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='25'>
+	<s id='1'>Écoutez jusqu'au bout : vous allez être bien surpris. </s>
+	<s id='2'>Elle vous trouve donc, comme j'avais l'honneur de vous le dire, extrêmement ridicule, vain comme un paon, dupe comme une buse, fat comme Narcisse ; mais, au travers de ces défauts, elle croit voir en vous des agréments. </s>
+	<s id='3'>Vous l'indignez, et vous lui plaisez ; elle se flatte que si vous l'aimiez, elle ferait de vous un honnête homme. </s>
+	<s id='4'>Elle dit que vous ne manquez pas d'esprit, et elle espère de vous donner du jugement. </s>
+	<s id='5'>La seule chose où elle en manque, c'est en vous aimant ; mais c'est son unique faiblesse : elle est folle de vous, comme vous l'êtes de vous-même. </s>
+	<s id='6'>Elle sait que vous êtes endetté par-dessus les oreilles ; elle a voulu vous donner des preuves de sa tendresse qui vous enseignassent à avoir des procédés généreux ; elle a vendu toutes ses nippes, elle en a tiré vingt mille francs en billets et en or, qui déchirent mes poches depuis une heure. </s>
+	<s id='7'>Tenez, les voilà ; ne me demandez pas son nom ; promettez-moi seulement un rendez-vous pour elle ce soir, dans votre chambre, et corrigez-vous pour mériter ses bontés.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, en prenant l'argent.</speaker>
+<p id='26'>
+	<s id='1'>Ma belle Fanchon, votre inconnue m'a la mine d'être une laideron, avec ses vingt mille francs.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='27'>
+	<s id='1'>Elle est belle comme le jour ; et vous êtes un misérable, indigne que la petite Fanchon se mêle de vos affaires. </s>
+	<s id='2'>Adieu ; tâchez de mériter mon estime et mes bontés.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Franchement, je suis assez heureux. </s>
+	<s id='2'>Né sans fortune, je suis devenu riche sans industrie ; inconnu dans Paris, il m'a été très aisé d'être grand seigneur ; tout le monde l'a cru, et je le crois à la fin moi-même plus que personne. </s>
+	<s id='3'>J'ai épousé une belle femme (ad honores), j'ai le noble plaisir de la mépriser ; à peine manqué-je un peu d'argent, que voilà une femme de la première volée, titrée sans doute, qui me prête mille louis d'or, et qui ne veut être payée que par un rendez-vous ! </s>
+	<s id='4'>Oh ! </s>
+	<s id='5'>Oui, madame, vous serez payée ; je vous attends chez moi tout le jour ; et, pour la première fois de ma vie, je passerai mon après-dînée sans sortir. </s>
+	<s id='6'>Holà ! </s>
+	<s id='7'>Hé ! </s>
+	<s id='8'>Page, écoutez. </s>
+	<s id='9'>Page, qu'on ne laisse entrer chez moi qu'une dame qui viendra avec la petite Fanchon.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Monsieur Du Cap-Vert, heurtant à la porte  ; Le Comte, L'Étrier, Le Page.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Voici apparemment cette dame de qualité à qui j'ai tourné la tête.</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE, allant à la porte.</speaker>
+<p id='2'>
+	<s id='1'>Est-ce vous, mademoiselle Fanchon ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT, poussant la porte en dedans.</speaker>
+<p id='3'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Ouvrez, ventrebleu ! </s>
+	<s id='3'>Voici une rade bien difficile : il y a une heure que je parcours ce bâtiment sans pouvoir trouver le patron. </s>
+	<s id='4'>Où est donc le président et la présidente ? </s>
+	<s id='5'>Et où est Fanchon ?</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='4'>
+	<s id='1'>Tout cela est allé promener bourgeoisement en famille. </s>
+	<s id='2'>Mais, mon ami, on n'entre point ainsi dans cet appartement : dénichez.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='5'>
+	<s id='1'>Petit mousse, je te ferai donner la cale.</s> 
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, d'un ton nonchalant.</speaker>
+<p id='6'>
+	<s id='1'>Qu'est-ce que c'est que ça ? </s>
+	<s id='2'>Mais qu'est-ce que c'est que ça ? </s>
+	<s id='3'>Mes gens ! </s>
+	<s id='4'>Holà ! </s>
+	<s id='5'>Hé ! </s>
+	<s id='6'>Mes gens ! </s>
+	<s id='7'>Monsieur de l'Étrier ! </s>
+	<s id='8'>qu'on fasse un peu sortir cet homme-là de chez moi ; qu'on lui dise un peu qui je suis, où il est, et qu'on lui apprenne un peu à vivre.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<note type="L">Muguet : galant, coquet, qui fait l'amour aux dames, qui est paré et bine mis pour leur plaire. [F]</note>
+<p id='7'>
+	<s id='1'>Comment ! </s>
+	<s id='2'>Qu'on me dise qui vous êtes ! </s>
+	<s id='3'>Et n'êtes-vous pas assez grand pour le dire vous-même, jeune muguet ? </s>
+	<s id='4'>Qu'on me dise un peu où je suis ! </s>
+	<s id='5'>Je crois, ma foi, être dans la boutique d'un parfumeur ; je suis empuanti d'odeur de fleur d'orange.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='8'>
+	<s id='1'>Monsieur, monsieur, doucement vous êtes ici chez un seigneur qui a bien voulu épouser la fille aînée du président Bodin.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<note type="L">Margajat : Parler margajat, s'est dit pour parler un langage inintelligible. [L]</note>
+<p id='9'>
+	<s id='1'>C'est bien de l'honneur pour lui ; voilà un plaisant margajat ! </s>
+	<s id='2'>Eh bien ! </s>
+	<s id='3'>Monsieur, puisque vous êtes le gendre de...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='10'>
+	<s id='1'>Appelez-le monseigneur, s'il vous plaît.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='11'>
+	<s id='1'>Lui ! </s>
+	<s id='2'>Monseigneur ? </s>
+	<s id='3'>Je pense que vous êtes fou, mon drôle : j'aimerais autant appeler galion une chaloupe, ou donner le nom d'esturgeon à une sole. </s>
+	<s id='4'>Écoutez, gendre du président, j'ai à vous avertir...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='12'>
+	<s id='1'>Arrêtez, arrêtez ; l'ami, êtes-vous gentilhomme ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='13'>
+	<s id='1'>Non, ventrebleu ! </s>
+	<s id='2'>Je ne suis point gentilhomme ; je suis honnête homme, brave homme, bon homme.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, toujours d'un air important.</speaker>
+<p id='14'>
+	<s id='1'>Eh bien donc, je ne prendrai pas la peine de vous faire sortir moi-même. </s>
+	<s id='2'>Monsieur de l'Étrier, mes gens, faites un peu sortir monsieur.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='15'>
+	<s id='1'>Par la Sainte-barbe ! </s>
+	<s id='2'>si votre chiourme branle, je vous coulerai tous à fond de cale, esclaves.</s>
+</p>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE.</speaker>
+<p id='16'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Quel ogre !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>L'ÉTRIER, en tremblant.</speaker>
+<p id='17'>
+	<s id='1'>Monsieur, ce n'est pas pour vous manquer de respect...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='18'>
+	<s id='1'>Taisez-vous, ou je vous lâcherai une bordée.</s>
+</p>
+<stage>Il prend une chaise, et s'assied auprès du comte.</stage>
+<p id='19'>
+	<s id='1'>C'est donc vous, monsieur le freluquet, qui avez épousé Catau ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, d'un ton radouci.</speaker>
+<p id='20'>
+	<s id='1'>Oui, monsieur : asseyez-vous donc, monsieur.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='21'>
+	<s id='1'>Savez-vous que je suis monsieur du Cap-Vert ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='22'>
+	<s id='1'>Non, monsieur... </s>
+	<s id='2'>Oh ! </s>
+	<s id='3'>Quel importun !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='23'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Je vous l'apprends donc. </s>
+	<s id='3'>Avez-vous jamais été à Rio-Janeiro ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='24'>
+	<s id='1'>Non, je n'ai jamais été à cette maison de campagne-là.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='25'>
+	<s id='1'>Ventre de boulets ! </s>
+	<s id='2'>C'est une maison de campagne un peu forte, que nous prîmes d'assaut à deux mille lieues d'ici, sous l'autre tropique. </s>
+	<s id='3'>C'était en 1711, au mois de septembre. </s>
+	<s id='4'>Monsieur le blanc-poudré, je voudrais que vous eussiez été là, vous seriez mort de peur. </s>
+	<s id='5'>Il y faisait chaud, mon enfant, je vous en réponds. </s>
+	<s id='6'>Connaissez-vous celui qui nous commandait ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='26'>
+	<s id='1'>Qui ? </s>
+	<s id='2'>Celui qui vous commandait ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='27'>
+	<s id='1'>Oui, celui qui nous commandait, de par tous les vents !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='28'>
+	<s id='1'>C'était un très bel homme à ce que j'ai ouï-dire : il s'appelait le duc de...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='29'>
+	<s id='1'>Et non, cornes de fer, ce n'était ni un duc, ni un de vos marquis ; c'était un drôle qui a pris plus de vaisseaux anglais dans sa vie que vous n'avez trompé de bégueules et écrit de fades billets doux. </s>
+	<s id='2'>Ce fut une excellente affaire que cette prise du fort de Saint-Sébastien de Rio-Janeiro : j'en eus vingt mille écus pour ma part.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='30'>
+	<s id='1'>Si vous vouliez m'en prêter dix mille, vous me feriez plaisir.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='31'>
+	<s id='1'>Je ne vous prêterais pas du tabac à fumer, mon petit mignon, entendez-vous, avec vos airs d'importance ? </s>
+	<s id='2'>Tout ce que j'ai est pour ma femme : vous avez épousé l'aînée Catau, et je viens exprès pour épouser la cadette Fanchon, et être votre beau-frère. </s>
+	<s id='3'>Le président reviendra-t-il bientôt ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='32'>
+	<s id='1'>Vous ! </s>
+	<s id='2'>Mon beau-frère !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='33'>
+	<s id='1'>Par la sancable ! </s>
+	<s id='2'>Oui, votre beau-frère, puisque j'épouse votre belle-soeur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='34'>
+	<s id='1'>Vous pouvez épouser Fanchon tant qu'il vous plaira ; mais vous ne serez point mon beau-frère : je vous avertis que je ne signe point au contrat de mariage.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='35'>
+	<s id='1'>Parbleu ! </s>
+	<s id='2'>Que vous signiez ou que vous ne signiez pas, qu'est-ce que cela me fait ? </s>
+	<s id='3'>Ce n'est pas vous que j'épouse, et je n'ai que faire de votre signature. </s>
+	<s id='4'>Mais est-ce que le président tardera encore longtemps à venir ? </s>
+	<s id='5'>Cet homme-là est bien mauvais voilier.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='36'>
+	<s id='1'>Je vous conseille, monsieur du Cap-Vert, de l'aller attendre ailleurs.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='37'>
+	<s id='1'>Comment ! </s>
+	<s id='2'>Est-ce que ce n'est pas ici sa maison ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='38'>
+	<s id='1'>Oui, mais c'est ici mon appartement.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='39'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Je le verrai ici.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à part.</speaker>
+<p id='40'>
+	<s id='1'>Le traître !...</s>
+</p>
+<stage>À Monsieur du Cap-Vert.</stage>
+<p id='41'>
+	<s id='1'>J'attends du monde à qui j'ai donné rendez-vous.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='42'>
+	<s id='1'>Je ne vous empêche pas de l'attendre.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à part.</speaker>
+<p id='43'>
+	<s id='1'>Le bourreau !...</s>
+</p>
+<stage>À Monsieur du Cap-Vert.</stage>
+<p id='44'>
+	<s id='1'>C'est une dame de qualité.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='45'>
+	<s id='1'>De qualité ou non, que m'importe ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, à part.</speaker>
+<p id='46'>
+	<s id='1'>Je voudrais que ce monstre marin-là fût à cinq cents brasses avant dans la mer.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='47'>
+	<s id='1'>Que dites-vous là de la mer, beau garçon ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='48'>
+	<s id='1'>Je dis qu'elle me fait soulever le coeur. </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>Voilà, pour m'achever de peindre ! </s>
+	<s id='4'>Le président et la présidente : je n'y puis plus tenir, je quitte la partie, je vais me réfugier ailleurs.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Président, La Présidente, Monsieur Du Cap-Vert, Le Chevalier du Hasard.</head>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT, regardant attentivement Monsieur du Cap-Vert.</speaker>
+<p id='1'>
+	<s id='1'>Ce que je vois là est incompréhensible !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='2'>
+	<s id='1'>Cela est très aisé à comprendre : j'arrive de la côte de Zanguebar, et je viens débarquer chez vous, et épouser Fanchon.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='3'>
+	<s id='1'>Il ne se peut pas que ce soit là Monsieur du Cap-Vert : son thème porte qu'il ne reviendra que dans deux ans.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='4'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Faites donc votre thème en deux façons ; car me voilà revenu.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='5'>
+	<s id='1'>Il a bien mauvais visage.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='6'>
+	<s id='1'>Monsieur, soyez le très bien arrivé en cette ville.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='7'>
+	<s id='1'>Est-ce que je ne serais qu'un ignorant ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='8'>
+	<s id='1'>Beau-père, votre raison va à la bouline : parbleu ! </s>
+	<s id='2'>Vous perdez la tramontane. </s>
+	<s id='3'>Dressez vos lunettes, observez-moi ; je n'ai point changé de pavillon : ne reconnaissez-vous pas mons du Cap-Vert, votre ancien camarade de collège ? </s>
+	<s id='4'>Il n'y a que trente-cinq ans que nous nous sommes quittés, et vous ne me remettez pas !</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='9'>
+	<s id='1'>Si fait, si fait ; mais...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='10'>
+	<s id='1'>Mais oublier ses amis en si peu de temps ! </s>
+	<s id='2'>Tout le monde me paraît bien étourdi du bateau dans cette maison-ci. </s>
+	<s id='3'>Je viens de voir un jeune fat, mon beau-frère, qui a perdu la raison ; le beau-père a perdu la mémoire. </s>
+	<s id='4'>Bonhomme de président, allons, où est votre fille ?</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='11'>
+	<s id='1'>Ma fille, monsieur, s'habille pour paraître devant vous ; mais je ne crois pas que vous vouliez l'épouser sitôt.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='12'>
+	<s id='1'>Je lui donne du temps ; je ne compte me marier que dans trois ou quatre heures. </s>
+	<s id='2'>J'ai hâte, ma bonne ; j'arrive de loin.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='13'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Vous voulez vous marier aujourd'hui avec le visage que vous portez ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='14'>
+	<s id='1'>Sans doute : je n'irai pas emprunter celui d'un autre.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='15'>
+	<s id='1'>Allez, vous vous moquez : il faut que vous soyez auparavant quinze jours entre mes mains.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='16'>
+	<s id='1'>Pas un quart d'heure seulement. </s>
+	<s id='2'>Présidente, quelle proposition me faites-vous là ?</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='17'>
+	<s id='1'>Voyez ce jeune homme que je vous présente : quel teint ! </s>
+	<s id='2'>Qu'il est frais ! </s>
+	<s id='3'>Je ne l'ai pourtant entrepris que d'hier.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='18'>
+	<s id='1'>Comment dites-vous ? </s>
+	<s id='2'>Depuis hier ce jeune homme et vous...</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='19'>
+	<s id='1'>Oui, monsieur, madame daigne prendre soin de moi.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='20'>
+	<s id='1'>C'est moi qui l'ai mis dans l'état où vous le voyez.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT, à part.</speaker>
+<p id='21'>
+	<s id='1'>Non, il n'est pas possible que cet homme-là soit arrivé.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='22'>
+	<s id='1'>Je ne comprends rien à toutes les lanternes que vous me dites, vous autres.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='23'>
+	<s id='1'>Je vous dis qu'il faut que vous soyez saigné et purgé dûment avant de songer à rien.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='24'>
+	<s id='1'>Moi, saigné et purgé ! </s>
+	<s id='2'>J'aimerais mieux être entre les mains des Turcs qu'entre celles des médecins.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='25'>
+	<s id='1'>Après un voyage de long cours, vous devez avoir amassé des humeurs de quoi infecter une province : vous autres marins, vous avez de si vilaines maladies !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='26'>
+	<s id='1'>Parlez pour vous, messieurs du continent : les gens de mer sont des gens propres ; mais vous !.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='27'>
+	<s id='1'>Je vous en quitterai pour cinquante pilules.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='28'>
+	<s id='1'>J'aimerais mieux épouser la fille d'un Cafre, ma bonne femme ; je romprai plutôt le marché.</s>
+</p>
+</sp>
+<sp who='LE CHEVALIER'><speaker>LE CHEVALIER, en lui faisant une grande révérence.</speaker>
+<p id='29'>
+	<s id='1'>Souffrez que je vous dise, par l'intérêt que je prends à ce mariage...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT, de même.</speaker>
+<p id='30'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Quel intérêt prenez-vous, s'il vous plaît, à ce mariage ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='31'>
+	<s id='1'>Je vous conseille de ne rien précipiter, et de suivre l'avis de madame : j'ai des raisons importantes pour cela, j'ose vous le dire.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='32'>
+	<s id='1'>L'équipage de ce bâtiment-ci est composé d'étranges gens, j'ose vous le dire : un fat me refuse la porte, un doucereux me fait des révérences et me donne des conseils sans me connaître ; l'un me parle de ma nativité, l'autre veut qu'on me purge. </s>
+	<s id='2'>Je n'ai jamais vu de vaisseau si mal frété que cette maison-ci.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='33'>
+	<s id='1'>Oh çà ! </s>
+	<s id='2'>Puisque vous voilà : nous allons préparer Fanchon à vous venir trouver.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='34'>
+	<s id='1'>Allez, beau-père et belle-mère.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Monsieur Du Cap-Vert, Le Chavalier.</head>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur, je ne me sens pas de joie de vous voir.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='2'>
+	<s id='1'>Vraiment, je le crois bien que vous ne vous sentez pas de joie en me voyant : pourquoi en sentiriez-vous ? </s>
+	<s id='2'>Vous ne me connaissez pas.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='3'>
+	<s id='1'>Je veux dire que ma joie est si forte...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='4'>
+	<s id='1'>Vous vous moquez de moi. </s>
+	<s id='2'>Qui êtes-vous ? </s>
+	<s id='3'>Et que me voulez-vous ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='5'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Monsieur, que c'est une belle chose que la mer !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='6'>
+	<s id='1'>Oui, fort belle.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='7'>
+	<s id='1'>J'ai toujours eu envie de servir sur cet élément.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='8'>
+	<s id='1'>Qui vous en empêche ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='9'>
+	<s id='1'>Quel plaisir que ces combats de mer, surtout lorsqu'on s'accroche !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='10'>
+	<s id='1'>Vous avez raison il n'y a qu'un plaisir au-dessus de celui-là.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='11'>
+	<s id='1'>Et quel, monsieur, s'il vous plaît ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='12'>
+	<s id='1'>C'est lorsqu'on se débarrasse sur terre des importuns.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='13'>
+	<s id='1'>Oui, cela doit être délicieux. </s>
+	<s id='2'>Que vous êtes heureux, monsieur, que vous êtes heureux ! </s>
+	<s id='3'>Vous avez sans doute vu le cap de Bonne-Espérance, monsieur ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='14'>
+	<s id='1'>Assurément. </s>
+	<s id='2'>Je veux vous faire lire le récit d'un petit combat assez drôle que je donnai à la vue du cap : je vous assure que je menai mes gens galamment.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='15'>
+	<s id='1'>Vous me ferez la plus insigne faveur : ah ! </s>
+	<s id='2'>Monsieur, que c'est dommage qu'un homme comme vous se marie !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='16'>
+	<s id='1'>Pourquoi, dommage ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='17'>
+	<s id='1'>Voilà qui est fait ; il ne sera plus question de vous dans les gazettes ; vous n'aurez plus le plaisir de l'abordage ; vous allez languir dans les douces chaînes d'un hymen plein de charmes ; une beauté tendre, touchante, voluptueuse, va vous enchanter dans ses bras. </s>
+	<s id='2'>Ne savez-vous pas que Vénus est sortie du sein de la mer ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='18'>
+	<s id='1'>Peu me chaut d'où elle est sortie. </s>
+	<s id='2'>Je ne comprends rien à votre galimatias.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='19'>
+	<s id='1'>Oui, dis-je, voilà qui est fait ; Monsieur du Cap-Vert devient un homme terrestre, un vil habitant de la terre ferme, un citoyen qui s'enterre avec Mlle Fanchon.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='20'>
+	<s id='1'>Non ferai, par mes sabords : je l'emmène dans huit jours en Amérique.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='21'>
+	<s id='1'>Vous ! </s>
+	<s id='2'>Monsieur ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='22'>
+	<s id='1'>Assurément ; je veux une femme, il me faut une femme, je grille d'avoir une femme... </s>
+	<s id='2'>Fanchon est-elle jolie ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='23'>
+	<s id='1'>Assez passable pour un officier de terre : mais, pour un marin délicat, oh ! </s>
+	<s id='2'>Je ne sais pas. </s>
+	<s id='3'>Vous comptez donc réellement épouser cette jeune demoiselle ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='24'>
+	<s id='1'>Oui, très réellement.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='25'>
+	<s id='1'>À votre place, je n'en ferais rien.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='26'>
+	<s id='1'>Vraiment, je crois bien que vous n'en ferez rien... </s>
+	<s id='2'>Mais que me vient conter cet homme-ci ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='27'>
+	<s id='1'>Je me sens attaché tendrement à vous. </s>
+	<s id='2'>Je dois vous parler vrai : elle n'a pas assez d'embonpoint pour un capitaine de vaisseau.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='28'>
+	<s id='1'>J'aime les tailles déliées.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='29'>
+	<s id='1'>Elle parle trop vite.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='30'>
+	<s id='1'>Elle en parlera moins longtemps.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='31'>
+	<s id='1'>Elle est folle, folle à lier, vous dis-je</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='32'>
+	<s id='1'>Tant mieux ! </s>
+	<s id='2'>Elle me divertira.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='33'>
+	<s id='1'>Oh bien ! </s>
+	<s id='2'>Puisqu'il ne vous faut rien cacher, elle a une inclination.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='34'>
+	<s id='1'>C'est une preuve qu'elle a le coeur tendre, et qu'elle pourra m'aimer.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='35'>
+	<s id='1'>Enfin, pour vous dire tout, elle a deux enfants en nourrice.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='36'>
+	<s id='1'>Ce serait une marque certaine que j'en aurai lignée : mais je ne crois rien de toutes ces fadaises-là.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='37'>
+	<s id='1'>Voilà un homme inébranlable : c'est un rocher.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Fanchon, Le Chavalier, Monsieur Du Cap-Vert.</head>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='1'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>La voici qui vient reconnaître l'ennemi : mon amiral, voilà donc l'écueil contre lequel vous échouez. </s>
+	<s id='3'>À votre place, j'irais me jeter la tête la première dans la mer : un grand homme comme vous ! </s>
+	<s id='4'>Ah ! </s>
+	<s id='5'>Quelle faiblesse !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='2'>
+	<s id='1'>Taisez-vous, babillard. </s>
+	<s id='2'>C'est donc vous, Fanchon, qui m'allez appartenir ? </s>
+	<s id='3'>Je jette l'ancre dans votre port, m'amie, et je veux, avant qu'il soit quatre jours, que nous partions tous les deux pour Saint-Domingue.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON, au chevalier.</speaker>
+<p id='3'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Monsieur le chevalier, c'est donc là ce fameux Monsieur du Cap-Vert, cet homme illustre, la terreur des mers et la mienne ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='4'>
+	<s id='1'>Oui, mademoiselle.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='5'>
+	<s id='1'>Voilà une fille bien apprise.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>C'est donc vous, monsieur, dont mon père m'a entretenue si souvent ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='7'>
+	<s id='1'>Oui, ma poupe ; oui, mon perroquet ; c'est moi-même.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>Il y a cinquante ans que vous êtes son intime ami ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='9'>
+	<s id='1'>Environ, si mon estime est juste.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Voudriez-vous faire à sa fille un petit plaisir ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='11'>
+	<s id='1'>Assurément, et de tout mon coeur ; je suis tout prêt : parlez, mon enfant. </s>
+	<s id='2'>Vous me paraissez timide : qu'est-ce que c'est ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>C'est, monsieur, de ne me point épouser.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='13'>
+	<s id='1'>J'arrive pourtant exprès pour cette affaire, et pour me donner à vous avec tous mes agrès : vous m'étiez promise avant que vous fussiez née. </s>
+	<s id='2'>Il y a trente ans que votre père m'a promis une fille. </s>
+	<s id='3'>Je consommerai tout cela ce soir, vers les dix heures, si vous le trouvez bon, m'amie.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='14'>
+	<s id='1'>Mais entre nous, monsieur du Cap-Vert, vous figurez-vous qu'à mon âge, et faite comme je suis, il soit si plaisant pour moi de vous épouser, d'être empaquetée dans votre bord comme votre pacotille, et d'aller vous servir d'esclave aux antipodes ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='15'>
+	<s id='1'>Vous vous imaginez donc, la belle, que je vous épouse pour votre plaisir ? </s>
+	<s id='2'>Apprenez que c'est pour moi que je me marie, et non pas pour vous. </s>
+	<s id='3'>Ai-je donc si longtemps vogué dans le monde pour ne savoir pas ce que c'est que le mariage ? </s>
+	<s id='4'>Si l'on ne prenait une femme que pour en être aimé, les notaires de votre pays feraient, ma foi, peu de contrats. </s>
+	<s id='5'>M'amie, il me faut une femme, votre père m'en doit une, vous voilà ; préparez-vous à m'épouser.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='16'>
+	<s id='1'>Savez-vous bien ce que risque un mari de soixante-cinq ans quand il épouse une fille de quinze ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='17'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Merluche, que risque-t-il ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='18'>
+	<s id='1'>N'avez-vous jamais ouï-dire qu'il y a eu autrefois des cocus dans le monde ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='19'>
+	<s id='1'>Oui, oui, petite effrontée ; et j'ai ouï dire aussi qu'il y a des filles qui font deux ou trois enfants avant leur mariage ; mais je n'y regarde pas de si près.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON, en glapissant.</speaker>
+<p id='20'>
+	<s id='1'>Trois enfants avant mon mariage !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='21'>
+	<s id='1'>Nous savons ce que nous savons.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='22'>
+	<s id='1'>Trois enfants avant mon mariage, imposteur !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='23'>
+	<s id='1'>Trois ou deux, qu'importe ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='24'>
+	<s id='1'>Et qui vous dit ces belles nouvelles-là ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='25'>
+	<s id='1'>Parbleu ! </s>
+	<s id='2'>C'est ce jeune muguet frisé.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='26'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>C'est vous qui...</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='27'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Mademoiselle...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='28'>
+	<s id='1'>Mais je suis bien bon, moi, de parler ici de balivernes avec des enfants, lorsqu'il faut que j'aille signer les articles avec le beau-père. </s>
+	<s id='2'>Adieu, adieu : vous entendrez bientôt parler de moi.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Le Chevalier, Fanchon.</head>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='1'>
+	<s id='1'>Me voilà au désespoir : ce loup marin-là vous épousera comme il le dit, au moins.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Je mourrais plutôt mille fois.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='3'>
+	<s id='1'>Il y aurait quelque chose de mieux à faire.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Et quoi, chevalier ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='5'>
+	<s id='1'>Si vous étiez assez raisonnable pour faire avec moi une folie, pour m'épouser, ce serait bien le vrai moyen de désorienter notre corsaire.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>Et que diraient le président et la présidente ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='7'>
+	<s id='1'>Le président s'en prendrait aux astres, la présidente ne me donnerait plus de ses remèdes, les choses s'apaiseraient au bout de quelque temps, Monsieur du Cap-Vert irait jeter l'ancre ailleurs, et nous serions tous contents.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>J'en suis un peu tentée ; mais, chevalier, pensez-vous que mon père veuille absolument me sacrifier à ce vilain homme ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='9'>
+	<s id='1'>Je le crois fermement, dont j'enrage.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Que je suis malheureuse !</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='11'>
+	<s id='1'>Il ne tient qu'à vous de faire mon bonheur et le vôtre.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>Je ne me sens pas le courage de faire d'emblée un coup si hardi : je vois qu'il faut que vous m'y accoutumiez par degrés.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='13'>
+	<s id='1'>Ma belle Fanchon, si vous m'aimiez...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='14'>
+	<s id='1'>Je ne vous aime que trop : vous m'attendrissez, vous m'allez faire pleurer, vous me déchirez le coeur ; allez-vous-en.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. La Comtesse, Fanchon, Le Chevalier.</head>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='1'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Comment vont nos affaires ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Tout de travers.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>N'aurait-il pas daigné ?...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Il veut seulement avoir une femme pour la faire mourir de chagrin.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='5'>
+	<s id='1'>Mais enfin, ma soeur, vous lui avez parlé ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>Je vous en réponds, et de la bonne manière : monsieur le chevalier y était présent.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Et pourquoi monsieur le chevalier ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>Parce qu'heureusement il s'est trouvé là.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='9'>
+	<s id='1'>Mais enfin qu'est-ce que ce cruel a répondu ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Lui, ma soeur ? </s>
+	<s id='2'>Il m'a répondu que j'étais une merluche, une impertinente, une morveuse.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='11'>
+	<s id='1'>Oh ciel !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>Il m'a dit que j'avais en deux ou trois enfants, mais qu'il ne s'en mettait pas en peine.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='13'>
+	<s id='1'>À quel excès...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='14'>
+	<s id='1'>Que cela ne l'empêcherait de rien.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='15'>
+	<s id='1'>Hélas !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='16'>
+	<s id='1'>Qu'il allait trouver mon père et ma mère.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='17'>
+	<s id='1'>Mais, ma soeur !...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='18'>
+	<s id='1'>Qu'il signerait les articles ce soir.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='19'>
+	<s id='1'>Quels articles ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='20'>
+	<s id='1'>Et qu'il m'épouserait cette nuit.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='21'>
+	<s id='1'>Lui, ma soeur !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON, criant et pleurant.</speaker>
+<p id='22'>
+	<s id='1'>En dût-il être cocu ! </s>
+	<s id='2'>Ah ! </s>
+	<s id='3'>Le coeur me fend. </s>
+	<s id='4'>Monsieur le chevalier et moi, nous sommes inconsolables.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='23'>
+	<s id='1'>Je ne comprends rien à ce que vous me dites. </s>
+	<s id='2'>Quoi ! </s>
+	<s id='3'>Monsieur le comte, mon mari...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='24'>
+	<s id='1'>Eh non ! </s>
+	<s id='2'>Ce n'est pas de votre mari dont je parle ; c'est du bourreau qui veut être le mien.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='25'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Mon père s'obstine à vouloir vous donner pour mari ce grand vilain Monsieur du Cap-Vert ? </s>
+	<s id='3'>Que je vous plains, ma soeur ! </s>
+	<s id='4'>Mais avez-vous parlé à monsieur le comte ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='26'>
+	<s id='1'>Au nom de Dieu ; ma soeur, engagez mon père à différer ce mariage. </s>
+	<s id='2'>Monsieur le chevalier vous en prie avec moi.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='27'>
+	<s id='1'>Vous êtes soeurs ; vous devez vous rendre la vie douce l'une à l'autre ; et je voudrais vous rendre service à toutes deux.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='28'>
+	<s id='1'>J'irai me jeter aux pieds de mon père et de ma mère. </s>
+	<s id='2'>Mais avez-vous vu monsieur le comte ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='29'>
+	<s id='1'>Ma soeur, ne m'abandonnez pas.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='30'>
+	<s id='1'>Mais dites si vous avez fait quelque chose pour moi.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='31'>
+	<s id='1'>Donnez donc quelque réponse à madame.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='32'>
+	<s id='1'>Voyez-vous, ma soeur, si l'on me force à épouser cet homme-là, je suis fille à mettre le feu aux poudres, et à sauter en l'air avec son maudit vaisseau, lui, l'équipage, et moi.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='33'>
+	<s id='1'>Si je ne puis parvenir à rendre mon mari raisonnable, vous me verrez expirer de douleur.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='34'>
+	<s id='1'>Ne manquez pas de représenter à ma mère la cruauté qu'il y aurait à me laisser manger par ce cancre de corsaire.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='35'>
+	<s id='1'>Vous avez toutes deux la tête pleine de votre affaire. </s>
+	<s id='2'>Daignez rentrer l'une et l'autre, et souffrez que je vous donne mes petits avis pour le bonheur de tous trois.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Comte, L'Étrier.</head>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='1'>
+	<s id='1'>Votre Excellence n'a pas le sou, à ce que je vois.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='2'>
+	<s id='1'>Il est vrai : ayant su que mon rendez-vous n'était que pour le soir, j'ai été jouer chez la grosse duchesse ; j'ai tout perdu. </s>
+	<s id='2'>Mais j'ai de quoi me consoler ce sont au moins des gens titrés qui ont eu mon argent.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='3'>
+	<s id='1'>Argent mal acquis ne profite pas, comme vous voyez.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='4'>
+	<s id='1'>Il n'était, ma foi, ni bien ni mal acquis ; il n'était point acquis du tout : je ne sais qui me l'a envoyé ; c'est pour moi un rêve, je n'y comprends rien. </s>
+	<s id='2'>Il semble que Fanchon ait voulu se moquer de moi. </s>
+	<s id='3'>Voilà pourtant vingt mille francs que j'ai reçus et que j'ai perdus en un quart d'heure. </s>
+	<s id='4'>Oui, je suis piqué, je suis piqué, outré ; je sens que je serais au désespoir si cela n'était pas au-dessous de moi... </s>
+	<s id='5'>Monsieur de l'Étrier !</s>
+</p>
+<stage>Fanchon, entrée pendant que le comte parlait, entend la fin de son discours.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Le Comte, Fanchon.</head>
+<sp who='FANCHON'><speaker>FANCHON, faisant signe à l'étrier de sortir.</speaker>
+<p id='1'>
+	<s id='1'>C'est-à-dire, notre beau-frère, que vous avez perdu l'argent que je vous avais donné tantôt.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='2'>
+	<s id='1'>Ne songeons point à ces bagatelles, ma belle enfant. </s>
+	<s id='2'>Quand voulez-vous me faire voir cette généreuse inconnue, cette beauté, cette divinité qui se transforme en pluie d'or pour m'obtenir ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='3'>
+	<s id='1'>Vous ne pourrez la voir que ce soir, sur le tard : mais je viens vous consoler.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='4'>
+	<s id='1'>Mon aimable enfant, rien n'est si consolant que votre vue : et, le diable m'emporte ! </s>
+	<s id='2'>il me prend fantaisie de vous payer ce que je dois à cette aimable personne.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='5'>
+	<s id='1'>Je ne suis point intéressée, et ne vais point sur le marché des autres. </s>
+	<s id='2'>Réservez toutes vos bontés pour elle ; elle les mérite mieux que moi : c'est le visage du monde le plus aimable, la taille la plus belle, des airs charmants...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='6'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Ma chère Fanchon !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='7'>
+	<s id='1'>Un ton de voix tendre et touchant, un esprit juste, fin, doux, le coeur le plus noble : hélas ! </s>
+	<s id='2'>Vous vous en apercevrez assez. </s>
+	<s id='3'>Si vous vouliez être honnête homme au lieu d'être petit-maître, vous conduire en homme sage au lieu de vous ruiner en grand seigneur, elle vous adorera toute sa vie.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='8'>
+	<s id='1'>Ma chère Fanchon !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='9'>
+	<s id='1'>Soyez sûr qu'elle ne vivra que pour vous, et que son amour ne sera point incommode ; qu'elle chérira votre personne, votre honneur, votre famille, comme sa personne, son honneur, sa famille propre ; que vous goûterez ensemble un bonheur dont vous n'avez point d'idée... </s>
+	<s id='2'>Ni moi non plus.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='10'>
+	<s id='1'>Ma chère Fanchon, vous m'éblouissez, vous me ravissez ! </s>
+	<s id='2'>Je suis en extase, je meurs déjà d'amour pour elle. </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Pourquoi faut-il que j'attende encore une heure à la voir ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='11'>
+	<s id='1'>Vous voilà ému de tout ce que je viens de dire ; vous le seriez bien davantage si... </s>
+	<s id='2'>Enfin, que diriez-vous si je vous donnais de sa part cinquante mille livres en diamants ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='12'>
+	<s id='1'>Ce que je dirais ?... </s>
+	<s id='2'>Je dirais que cela est impossible ; je ferais imprimer ce conte à la fin des Mille et une Nuits.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='13'>
+	<s id='1'>Cela n'est point impossible : les voilà.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='14'>
+	<s id='1'>Juste ciel ! </s>
+	<s id='2'>Est-ce un miracle ? </s>
+	<s id='3'>Est-ce un songe ?... </s>
+	<s id='4'>J'avoue que j'ai cru jusqu'ici avoir quelque petit mérite ; mais je ne pensais pas en avoir à ce point-là.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='15'>
+	<s id='1'>Écoutez bien : ce n'est pas parce que vous avez du mérite que l'on vous traite ainsi ; mais c'est afin que vous en ayez, si vous pouvez. </s>
+	<s id='2'>Ah çà ! </s>
+	<s id='3'>Je vous ai parlé assez longtemps de vos affaires ; venons aux miennes : je vous rends, je crois, un assez joli service ; il faut me récompenser.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='16'>
+	<s id='1'>Parlez : le service est si récent qu'il n'y a pas moyen que je sois ingrat.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='17'>
+	<s id='1'>Mon père a chaussé dans sa tête de me faire madame du Cap-Vert : on dresse actuellement le contrat, c'est-à-dire mon arrêt de mort. </s>
+	<s id='2'>Jugez de l'état où je suis, puisque j'ai perdu toute ma gaieté : cependant je suis si bonne que j'ai pensé à vos affaires avant que de régler les miennes. </s>
+	<s id='3'>Le moment fatal arrive, la tête commence à me tourner ; je ne sais plus que devenir.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, d'un air important.</speaker>
+<p id='18'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>que voulez-vous que je fasse ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='19'>
+	<s id='1'>Je n'en sais rien ; mais que je ne sois pas madame du Cap-Vert.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='20'>
+	<s id='1'>Ma fille, il faudra voir cette affaire-là. </s>
+	<s id='2'>On lavera la tête au président. </s>
+	<s id='3'>Je lui parlerai, je lui parlerai, et du bon ton : oui, fiez-vous à moi. </s>
+	<s id='4'>Mais quand viendra la fée aux diamants et à l'argent comptant ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='21'>
+	<s id='1'>Elle a plus d'envie de vous voir que vous n'en avez de la remercier : elle viendra bientôt, je vous jure. </s>
+	<s id='2'>Vous savez que l'on court après son argent ; mais ceux qui l'ont reçu sont d'ordinaire fort tranquilles. </s>
+	<s id='3'>Adieu ; je vais chercher une femme qui vous aime : servez-moi seulement contre un homme que je n'aime point.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Comte, L'Étrier.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='22'>
+	<s id='1'>Monsieur de l'Étrier, il arrive d'étranges choses dans la vie.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='23'>
+	<s id='1'>Oui, et surtout aux étranges gens, monseigneur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='24'>
+	<s id='1'>Ne gratte-t-on pas à la porte ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>MONSIEUR DE L'ÉTRIER.</speaker>
+<p id='25'>
+	<s id='1'>Oui, monseigneur ;</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='26'>
+	<s id='1'>C'est sans doute celle à qui j'ai tourné la tête : je vous avoue que j'ai quelque curiosité de la voir.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Comte, Madame Du Cap-Vert, avec une canne à bec de corbin, un habillement de vieille, et une petite voix glapissante.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>C'est sans doute elle qui se cache dans ses coiffes.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT, à l'étrier.</speaker>
+<p id='2'>
+	<s id='1'>C'est donc ici la maison du président Bodin ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-L-ÉTRIER'><speaker>L'ÉTRIER, en sortant.</speaker>
+<p id='3'>
+	<s id='1'>Oui, la vieille, c'est la maison du président Bodin ; mais c'est ici chez monsieur le comte.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT, sautant au cou du comte.</speaker>
+<p id='4'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Mon petit comte, vois-tu, il faut que tu secoures ici une pauvre affligée.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='5'>
+	<s id='1'>Madame, souffrez qu'à vos genoux...</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='6'>
+	<s id='1'>Non, mon cher enfant, c'est à moi de me jeter aux tiens.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, en l'examinant.</speaker>
+<p id='7'>
+	<s id='1'>Elle a raison... </s>
+	<s id='2'>Ah ! </s>
+	<s id='3'>Qu'elle est laide ! </s>
+	<s id='4'>Eh bien ! </s>
+	<s id='5'>Madame, c'est donc vous qui avez bien voulu me faire des avances si solides, et qui...</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='8'>
+	<s id='1'>Oui, mon ami, je te fais toutes les avances. </s>
+	<s id='2'>Est-il bien vrai que mon petit traître est dans la maison ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='9'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Madame ! </s>
+	<s id='3'>Quel traître ? </s>
+	<s id='4'>De qui me parlez-vous ? </s>
+	<s id='5'>Est-ce de moi ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='10'>
+	<s id='1'>Mon traître, mon petit traître, mon petit mari : on dit qu'il est ici.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='11'>
+	<s id='1'>Votre mari ? </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>S'il vous plaît, comment nommez-vous ce pauvre homme-là ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='12'>
+	<s id='1'>Monsieur du Cap-Vert, monsieur du Cap-Vert.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, d'un air important.</speaker>
+<p id='13'>
+	<s id='1'>Eh mais ! </s>
+	<s id='2'>Oui, madame, je crois qu'oui ; je crois qu'il est ici.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='14'>
+	<s id='1'>Tu crois qu'oui !... </s>
+	<s id='2'>Me voilà la femme de la terre habitable la plus heureuse. </s>
+	<s id='3'>J'aurai le plaisir de dévisager ce fripon-là. </s>
+	<s id='4'>Il est joli ! </s>
+	<s id='5'>Il y a vingt ans qu'il m'a abandonnée, il y a vingt ans que je le cherche : je le trouve ; voilà qui est fait. </s>
+	<s id='6'>Où est-il ? </s>
+	<s id='7'>Qu'on me le montre ! </s>
+	<s id='8'>Qu'on me le montre !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='15'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>sérieusement, vous seriez un peu madame du Cap-Vert ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='16'>
+	<s id='1'>Oui, mon petit fripon ; il y a tantôt cinquante ans.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='17'>
+	<s id='1'>Écoutez : vous arrivez fort mal à propos pour moi, mais encore plus mal à propos pour lui. </s>
+	<s id='2'>Il va se marier à la fille du président Bodin.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='18'>
+	<s id='1'>Lui, épouser une fille du président ! </s>
+	<s id='2'>Non, mort de ma vie ! </s>
+	<s id='3'>Je l'en empêcherai bien.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='19'>
+	<s id='1'>Et pourquoi ? </s>
+	<s id='2'>J'en ai bien épousé une, moi qui vous parle.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='20'>
+	<s id='1'>Il y a vingt ans qu'il me joue de ces tours-là, et qu'il va épousant tout le monde. </s>
+	<s id='2'>Il me fit mettre dans un couvent après deux ans de mariage, à cause d'un certain régiment de dragons qui vint alors à Bayonne, et qui était extrêmement galant : mais nous avons sauté les murs, nous nous sommes vengé ! </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Que nous nous sommes vengé, mon petit freluquet !</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='21'>
+	<s id='1'>Est-ce donc vous, ma bonne, qui m'avez envoyé...</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='22'>
+	<s id='1'>Moi, je ne t'ai rien envoyé que je sache : je viens chercher mon traître.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='23'>
+	<s id='1'>Ô ciel ! </s>
+	<s id='2'>Mon destin sera-t-il toujours d'être importuné ! </s>
+	<s id='3'>M'amie, il y a ici deux affaires importantes : la première est un rendez-vous que vous venez interrompre ; la seconde est le mariage de Monsieur du Cap-Vert, que je ne serai pas fâché d'empêcher. </s>
+	<s id='4'>C'est un brutal ; il est bon de le mortifier un peu : je vous prends sous ma protection. </s>
+	<s id='5'>Retirez-vous un peu, s'il vous plaît. </s>
+	<s id='6'>Holà ! </s>
+	<s id='7'>Hé ! </s>
+	<s id='8'>Quelqu'un ! </s>
+	<s id='9'>Monsieur de l'Étrier, qu'on ait soin de madame. </s>
+	<s id='10'>Allez, ma bonne, on vous présentera à Monsieur du Cap-Vert dans l'occasion.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='24'>
+	<s id='1'>Tu me parais tant soit peu impertinent ; mais puisque tu me rends service de si bon coeur, je te le pardonne.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Serai-je enfin libre un moment ? </s>
+	<s id='2'>Oh ciel ! </s>
+	<s id='3'>Encore un importun ! </s>
+	<s id='4'>Ah ! </s>
+	<s id='5'>Je n'y puis plus tenir ; j'aime mieux quitter la partie.</s>
+</p>
+<stage>Il s'en va.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Chavalier, Fanchon.</head>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='1'>
+	<s id='1'>À qui diable en a-t-il donc de s'enfuir ? </s>
+	<s id='2'>Et vous, à qui diable en avez-vous de ne vouloir pas que je vous parle ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>J'ai affaire ici : retirez-vous, vous dis-je ; songez seulement à éloigner Monsieur du Cap-Vert.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='3'>
+	<s id='1'>Mais quelle affaire si pressante ?...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Croyez-vous que je n'ai pas ici d'autres intérêts à ménager que les vôtres ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='5'>
+	<s id='1'>Vous me désespérez..</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='6'>
+	<s id='1'>Vous m'excédez.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='7'>
+	<s id='1'>Je veux savoir absolument...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>Absolument vous ne saurez rien.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='9'>
+	<s id='1'>Je resterai jusqu'à ce que je voie de quoi il s'agit.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Oh ! </s>
+	<s id='3'>Vous voulez être jaloux.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='11'>
+	<s id='1'>Non, mais je suis curieux.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='12'>
+	<s id='1'>Je n'aime ni les curieux ni les jaloux, je vous en avertis : si vous étiez mon mari, je ne vous pardonnerais jamais ; mais je vous le passe, parce que vous n'êtes que mon amant. </s>
+	<s id='2'>Dénichez, voici ma soeur.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='13'>
+	<s id='1'>Puisque ce n'est que sa soeur, encore passe.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. La Comtesse, Fanchon.</head>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='1'>
+	<s id='1'>Ma chère soeur, vos affaires et les miennes sont embarrassantes : ce n'est pas une petite entreprise de réformer le coeur de monsieur le comte, et de renvoyer le monstre marin qu'on me veut donner. </s>
+	<s id='2'>Mais où avez-vous laissé Monsieur du Cap-Vert ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='2'>
+	<s id='1'>Il est là-bas qui gronde tout le monde, et qui jure qu'il vous épousera dans un quart d'heure. </s>
+	<s id='2'>Mais, monsieur le comte, que fait-il, ma soeur ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='3'>
+	<s id='1'>Il est à sa toilette qui se poudre pour vous recevoir.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='4'>
+	<s id='1'>Va-t-il venir bientôt ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='5'>
+	<s id='1'>Tout à l'heure.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='6'>
+	<s id='1'>Ne me reconnaîtra-t-il point ?</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='7'>
+	<s id='1'>Non, si vous parlez bas, si vous déguisez le son de votre voix, et s'il n'y a point de lumières.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='8'>
+	<s id='1'>Le coeur me bat, les larmes me viennent aux yeux...</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='9'>
+	<s id='1'>Ne pleurez donc point : Songez-vous bien que je vais peut-être mourir de douleur dans un quart d'heure, moi qui vous parle ? </s>
+	<s id='2'>Mais cela ne m'empêche pas de rire en attendant. </s>
+	<s id='3'>Ah ! </s>
+	<s id='4'>Voici votre fat de mari : emmitouflez-vous bien dans vos coiffes, s'il vous plaît. </s>
+	<s id='5'>Monsieur le comte, arrivez, arrivez.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Le Comte, La Comtesse, Fanchon.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Enfin donc, mn chère Fanchon, voici la divinité aux louis d'or et aux diamants.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='2'>
+	<s id='1'>Oui, c'est elle-même préparez-vous à lui rendre vos hommages.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>Je tremble.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Ma présence est un peu inutile ici : je vais trouver mon cher Monsieur du Cap-Vert. </s>
+	<s id='2'>Adieu ; comportez-vous en honnête homme.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Comte, La Comtesse, dans l'obscurité.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='1'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Généreuse inconnue, vous m'accablez de bienfaits, vous daignez joindre à tant de bontés celle de venir jusque dans mon appartement, et vous m'enviez le bonheur de votre vue, qui est pour moi d'un prix mille fois au-dessus de vos diamants !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='2'>
+	<s id='1'>Je crains que, si vous me voyez, votre reconnaissance diminue : je voudrais être sûre de votre amour avant que vous puissiez lire le mien dans mes yeux.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='3'>
+	<s id='1'>Doutez-vous que je ne vous adore, et qu'en vous voyant je ne vous en aime davantage ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='4'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Oui ; c'est dont je doute, et c'est ce qui fait mon malheur.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE, se jetant à ses pieds.</speaker>
+<p id='5'>
+	<s id='1'>Je jure, par ces mains adorables, que j'aurai pour vous la passion la plus tendre.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='6'>
+	<s id='1'>Je vous avoue que je n'ai jamais rien désiré que d'être aimée de vous ; et si vous me connaissiez bien, vous avoueriez peut-être que je le mérite, malgré ce que je suis.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='7'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Ne pourrai-je du moins connaître celle qui m'honore de tant de bontés ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='8'>
+	<s id='1'>Je suis la plus malheureuse femme du monde : je suis mariée, et c'est ce qui fait le chagrin de ma vie. </s>
+	<s id='2'>J'ai un mari qui n'a jamais daigné me regarder : si je lui parlais, à peine reconnaîtrait-il ma voix.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='9'>
+	<s id='1'>Le brutal ! </s>
+	<s id='2'>Est-il possible qu'il puisse mépriser une femme comme vous ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='10'>
+	<s id='1'>Il n'y a que vous qui puissiez m'en venger : mais il faut que vous me donniez tout votre coeur ; sans cela, je serais encore plus malheureuse qu'auparavant.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='11'>
+	<s id='1'>Souffrez donc que je vous venge des cruautés de votre indigne mari ; souffrez qu'à vos pieds...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='12'>
+	<s id='1'>Je vous assure que c'est lui qui s'attire cette aventure : s'il m'aimait, je vous jure qu'il aurait en moi la femme la plus tendre, la plus soumise, la plus fidèle.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='13'>
+	<s id='1'>Le bourreau ! </s>
+	<s id='2'>Il mérite bien le tour que vous lui jouez.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='14'>
+	<s id='1'>Vous êtes mon unique ressource dans le monde. </s>
+	<s id='2'>Je me suis flattée que, dans le fond, vous êtes un honnête homme ; qu'après les obligations que vous m'avez, vous vous ferez un devoir de bien vivre avec moi.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='15'>
+	<s id='1'>Tenez-moi pour le plus grand faquin, pour un homme indigne de vivre, si je trompe vos espérances. </s>
+	<s id='2'>Ce que vous faites pour moi me touche sensiblement ; et, quoique je ne connaisse de vous que ces mains charmantes que je tiens entre les miennes, je vous aime déjà comme si je vous avais vue. </s>
+	<s id='3'>Ne différez plus mon bonheur : permettez que je fasse venir des lumières, que je voie toute ma félicité.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='16'>
+	<s id='1'>Attendez encore un instant, vous serez peut-être étonné de ce que je vais vous dire. </s>
+	<s id='2'>Je compte souper avec vous ce soir, et ne vous pas quitter sitôt : en vérité, je ne crois pas qu'il y ait en cela aucun mal. </s>
+	<s id='3'>Promettez-moi seulement de ne m'en pas moins estimer.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='17'>
+	<s id='1'>Moi ! </s>
+	<s id='2'>Vous en estimer moins, pour avoir fait le bonheur de ma vie ! </s>
+	<s id='3'>Il faudrait que je fusse un monstre. </s>
+	<s id='4'>Je veux dans l'instant...</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='18'>
+	<s id='1'>Encore un mot, je vous prie. </s>
+	<s id='2'>Je vous aime plus pour vous que pour moi : promettez-moi d'être un peu plus rangé dans vos affaires, et d'ajouter le mérite solide d'un homme sage et modeste aux agréments extérieurs que vous avez. </s>
+	<s id='3'>Je ne puis être heureuse si vous n'êtes heureux vous-même, et vous ne pourrez jamais l'être sans l'estime des honnêtes gens.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='19'>
+	<s id='1'>Tout ceci me confond : Vos bienfaits, votre conversation, vos conseils, m'étonnent, me ravissent. </s>
+	<s id='2'>Eh quoi ! </s>
+	<s id='3'>Vous n'êtes venue ici que pour me faire aimer la vertu !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='20'>
+	<s id='1'>Oui, je veux que ce soit elle qui me fasse aimer de vous : c'est elle qui m'a conduite ici, qui règne dans mon coeur, qui m'intéresse pour vous, qui me fait tout sacrifier pour vous ; c'est elle qui vous parle sous des apparences criminelles ; c'est elle qui me persuade que vous m'aimerez.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='21'>
+	<s id='1'>Non, madame, vous êtes un ange descendu du ciel : chaque mot que vous me dites me pénètre l'âme. </s>
+	<s id='2'>Si je vous aimerai, grand Dieu !.,.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='22'>
+	<s id='1'>Jurez-moi que vous m'aimerez quand vous m'aurez vue.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='23'>
+	<s id='1'>Oui, je vous le jure à vos pieds, par tout ce qu'il y a de plus tendre, de plus respectable, de plus sacré dans le monde. </s>
+	<s id='2'>Souffrez que le page qui vous a introduite apporte enfin des flambeaux : je ne puis demeurer plus longtemps sans vous voir.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='24'>
+	<s id='1'>Eh bien donc j'y consens.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='25'>
+	<s id='1'>Holà ! </s>
+	<s id='2'>Page, des lumières.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='26'>
+	<s id='1'>Vous allez être bien surpris.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='27'>
+	<s id='1'>Je vais être charmé... </s>
+	<s id='2'>Juste ciel ! </s>
+	<s id='3'>C'est ma femme !</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE, à part.</speaker>
+<p id='28'>
+	<s id='1'>C'est déjà beaucoup qu'il m'appelle de ce nom : c'est pour la première fois de sa vie.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='29'>
+	<s id='1'>Est-il possible que ce soit vous ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='30'>
+	<s id='1'>Voyez si vous êtes honnête homme, et si vous tiendrez vos promesses.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='31'>
+	<s id='1'>Vous avez touché mon coeur : vos bontés l'emportent sur mes défauts. </s>
+	<s id='2'>On ne se corrige pas tout d'un coup : je vivrai avec vous en bourgeois ; je vous aimerai ; mais qu'on n'en sache rien, s'il vous plaît.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Fanchon, arrivant tout essoufflée ; Le Président, La Présidente, Monsieur de Cap-Vert, Le Chevalier, Le Comte, La Comtesse.</head>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='1'>
+	<s id='1'>Au secours ! </s>
+	<s id='2'>Au secours contre des parents et un mari ! </s>
+	<s id='3'>Monsieur le comte, rendez-moi service à votre tour.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='2'>
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Est-on prêt à démarrer ?</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='3'>
+	<s id='1'>Allons, ma petite fille, point de façon : voici l'heure de l'année la plus favorable pour un mariage.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='4'>
+	<s id='1'>Voici l'heure la plus triste de ma vie.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='5'>
+	<s id='1'>Ma fille, il faut avaler la pilule.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON, se jetant à genoux.</speaker>
+<p id='6'>
+	<s id='1'>Mon père, encore une fois...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='7'>
+	<s id='1'>Levez-vous ; vous remercierez votre père après.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='8'>
+	<s id='1'>Ma chère mère...</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='9'>
+	<s id='1'>Vous voilà bien malade !</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON.</speaker>
+<p id='10'>
+	<s id='1'>Mon cher monsieur le comte...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='11'>
+	<s id='1'>Je vois bien qu'il vous faut tirer d'intrigue... </s>
+	<s id='2'>Monsieur de l'Étrier, amenez un peu cette dame... </s>
+	<s id='3'>Monsieur le marin, je crois qu'on va mettre quelque opposition à vos bans.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Madame du Cap-Vert, Les Précédents.</head>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='12'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Mon petit mari, te voilà, infâme, bigame, polygame ! </s>
+	<s id='3'>Je vais te faire pendre, mon cher coeur.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='13'>
+	<s id='1'>Sainte-barbe ! </s>
+	<s id='2'>C'est ma femme ! </s>
+	<s id='3'>Quoi ! </s>
+	<s id='4'>Tu n'es pas morte il y a vingt ans ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='14'>
+	<s id='1'>Non, mon bijou ; il y a vingt ans que je te guettais. </s>
+	<s id='2'>Embrasse-moi, fripon, embrasse-moi : il vaut mieux tard que jamais.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='15'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>C'est là madame du Cap-Vert, que j'ai enterrée dans toutes les règles !</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='16'>
+	<s id='1'>Tes règles ne valent pas le diable, ni loi non plus. </s>
+	<s id='2'>Mon mari, il est temps d'être sage : tu as assez couru le monde, et moi aussi. </s>
+	<s id='3'>Tu seras heureux avec moi ; quitte cette petite morveuse-là.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='17'>
+	<s id='1'>Mais de quoi t'avises-tu de n'être pas morte ?</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='18'>
+	<s id='1'>Je croyais cela démontré.</s>
+</p>
+</sp>
+<sp who='FANCHON'><speaker>FANCHON, à Monsieur du Cap-Vert.</speaker>
+<p id='19'>
+	<s id='1'>Ma chère dame, embrassez-moi. </s>
+	<s id='2'>Mon Dieu ! </s>
+	<s id='3'>Que je suis aise de vous voir !</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='20'>
+	<s id='1'>Ma bonne dame du Cap-Vert, vous ne pouviez venir plus à-propos ; je vous en remercie.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='21'>
+	<s id='1'>Voilà un assez aimable garçon.</s>
+</p>
+<stage>À Monsieur du Cap-Vert.</stage>
+<p id='22'>
+	<s id='1'>Traître ! </s>
+	<s id='2'>Si mes deux enfants étaient aussi aimables que cela, je te pardonnerais tout. </s>
+	<s id='2'>Où sont-ils, où sont-ils, mes deux enfants ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='23'>
+	<s id='1'>Tes deux enfants ? </s>
+	<s id='2'>Ma foi, c'est à toi à en savoir des nouvelles ; il y a vingt ans que je n'ai vu toute cette marmaille-là : Dieu les bénisse ! </s>
+	<s id='3'>J'ai été cinq ou six fois aux antipodes depuis ; j'ai mouillé une fois à Bayonne pour en apprendre des nouvelles : je crois que tout cela est crevé. </s>
+	<s id='4'>J'en suis fâché au fond, car je suis bonhomme.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='24'>
+	<s id='1'>Traître ! </s>
+	<s id='2'>Et Mme Éberne, chez qui tu avais mis un de mes enfants ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='25'>
+	<s id='1'>C'était une fort honnête personne, et qui m'a toujours été d'un grand secours.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='26'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Mon Dieu ! </s>
+	<s id='3'>À qui en parlez-vous ? </s>
+	<s id='4'>J'ai été élevé par cette Mme Éberne : à Bayonne je me souviens des soins qu'elle prit de mon enfance, et je ne les oublierai jamais.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='27'>
+	<s id='1'>Mais qu'est-ce que c'est que ça ? </s>
+	<s id='2'>Mais qu'est-ce que c'est que ça ? </s>
+	<s id='3'>Je me souviens aussi fort bien de cette Madame Éberne.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='28'>
+	<s id='1'>Et corbleu ! </s>
+	<s id='2'>Qu'est-ce que c'est que ça aussi ? </s>
+	<s id='3'>Par la sambleu ! </s>
+	<s id='4'>Voilà qui serait drôle ! </s>
+	<s id='5'>Vous êtes donc aussi de Bayonne, monsieur le fat ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='29'>
+	<s id='1'>Point d'injures, s'il vous plaît : oui, la maison des Apprêts est aussi de Bayonne.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='30'>
+	<s id='1'>Et comment avez-vous connu Mme Éberne ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='31'>
+	<s id='1'>Oui, comment ? </s>
+	<s id='2'>Répondez. </s>
+	<s id='3'>Vous... </s>
+	<s id='4'>Vous... </s>
+	<s id='5'>Ouf !... </s>
+	<s id='6'>Mon coeur me dit...</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='32'>
+	<s id='1'>C'était ma gouvernante, Mme Rafle, qui m'y menait souvent.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT, au Comte.</speaker>
+<p id='33'>
+	<s id='1'>Madame Rafle vous a élevé ?</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT, au chevalier.</speaker>
+<p id='34'>
+	<s id='1'>Madame Éberne a été votre mie ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='35'>
+	<s id='1'>Oui, monsieur.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='36'>
+	<s id='1'>Oui, madame.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='37'>
+	<s id='1'>Ouais ! </s>
+	<s id='2'>Cela serait plaisant ! </s>
+	<s id='3'>Cela ne se peut pas. </s>
+	<s id='4'>Mais si cela se pouvait, je ne me sentirais pas de joie.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='38'>
+	<s id='1'>Je commence déjà à pleurer de tendresse.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Madame Rafle, Les Précédents.</head>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='1'>
+	<s id='1'>Approchez, approchez, madame Rafle, et reconnaissez, comme vous pourrez, ces deux espèces-là.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='2'>
+	<s id='1'>Allez, allez, je vois bien ce qui vous tient ; vous vous imaginez qu'on peut retrouver vos enfants : cela ne se peut pas. </s>
+	<s id='2'>J'ai tiré leur horoscope ils sont morts en nourrice.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='3'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>si votre art les a tués, je les crois donc en vie : sans doute, je retrouverai mes enfants.</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='4'>
+	<s id='1'>Assurément, cela va tout seul, n'est-il pas vrai, madame Rafle ? </s>
+	<s id='2'>Vous savez comment celui-ci est venu : c'était un petit mystère.</s>
+</p>
+</sp>
+<sp who='MADAME-RAFLE'><speaker>MADAME RAFLE.</speaker>
+<p id='5'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Mon Dieu oui ! </s>
+	<s id='3'>Je les reconnais... </s>
+	<s id='4'>Bonjour, mes deux espiègles. </s>
+	<s id='5'>Comme cela est devenu grand !</s>
+</p>
+</sp>
+<sp who='MADAME-DU-CAP-VERT'><speaker>MADAME DU CAP-VERT.</speaker>
+<p id='6'>
+	<s id='1'>Allons, allons, n'en parlons plus. </s>
+	<s id='2'>J'ai retrouvé mes trois vagabonds tout cela est à moi.</s>
+</p>
+</sp>
+<sp who='MADAME-RAFLE'><speaker>MADAME RAFLE, en examinant le comte et le chevalier.</speaker>
+<p id='7'>
+	<s id='1'>On ne peut pas s'y méprendre : voilà vingt marques indubitables auxquelles je les reconnais.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='8'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Cela va tout seul, et je n'y regarde pas de si près.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='9'>
+	<s id='1'>Qu'est-ce que vous dites là ?</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='10'>
+	<s id='1'>Quelles vapeurs avez-vous dans la tête ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER, se jetant aux genoux de mme du cap-vert.</speaker>
+<p id='11'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Vous seriez effectivement ma mère ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='12'>
+	<s id='1'>Mais qu'est-ce que ça ? </s>
+	<s id='2'>Qu'est-ce que ça ? </s>
+</p>
+<stage>À Monsieur du Cap-Vert.</stage>
+<p id='13'>
+	<s id='1'>Si vous êtes mon père, vous êtes donc un homme de qualité ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='14'>
+	<s id='1'>Malheureux ! </s>
+	<s id='2'>Comment as-tu fait pour le devenir, et pour être gendre du président ?</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='15'>
+	<s id='1'>Mais, mais, que me demandez-vous là ? </s>
+	<s id='2'>Que me demandez-vous là ? </s>
+	<s id='3'>Cela s'est fait tout seul, tout aisément. </s>
+	<s id='5'>Premièrement, j'ai l'air d'un grand seigneur ; j'ai épousé d'abord la veuve d'un négociant qui m'a enrichi, et qui est morte ; j'ai acheté des terres ; je me suis fait comte ; j'ai épousé madame ; je veux qu'elle soit comtesse toute sa vie.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='16'>
+	<s id='1'>Dieu m'en préserve ! </s>
+	<s id='2'>J'ai été trop maltraitée sous ce titre. </s>
+	<s id='3'>Contentez-vous d'être fils de votre père, gendre de votre beau-père, et mari de votre femme.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT, au comte.</speaker>
+<p id='17'>
+	<s id='1'>Écoute : s'il t'arrive de faire encore le seigneur, c'est-à-dire le fat, je te romprai bras et jambes. </s>
+</p>
+<stage>Au chevalier.</stage>
+<p id='18'>
+	<s id='1'>Et toi, mons le freluquet, par quel hasard es-tu dans cette maison ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='19'>
+	<s id='1'>Par un dessein beaucoup plus raisonnable que le vôtre, mon père, avec le respect que je vous dois : je voulais épouser mademoiselle, dont je suis amoureux, et qui me convient un peu mieux qu'à vous.</s>
+</p>
+</sp>
+<sp who='LE-PRÉSIDENT'><speaker>LE PRÉSIDENT.</speaker>
+<p id='20'>
+	<s id='1'>Ma foi, tout ceci n'était point dans mes éphémérides. </s>
+	<s id='2'>Voilà qui est fait, je renonce à l'astrologie.</s>
+</p>
+</sp>
+<sp who='LA-PRÉSIDENTE'><speaker>LA PRÉSIDENTE.</speaker>
+<p id='21'>
+	<s id='1'>Puisque ce malade-ci m'a trompée, je ne veux plus me mêler de médecine.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='22'>
+	<s id='1'>Moi, je renonce à la mer pour le reste de ma vie.</s>
+</p>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE.</speaker>
+<p id='23'>
+	<s id='1'>Et moi, à mes sottises.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DU-CAP-VERT'><speaker>MONSIEUR DU CAP-VERT.</speaker>
+<p id='24'>
+	<s id='1'>Je partage mon bien entre mes enfants, et donne cet étourdi-ci à cette étourdie-là. </s>
+	<s id='2'>Je ne suis pas si malheureux : il est vrai que j'ai retrouvé ma femme ; mais puisque le ciel me redonne aussi mes deux enfants, ne pensons plus qu'à nous réjouir. </s>
+	<s id='3'>J'ai amené quelques Turcs avec moi, qui vont vous donner un petit ballet en attendant la noce.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='ballet' n='6'><head>ENTRÉE DE DIVERSES NATIONS</head>
+<div2 type='scene' n='1'><head></head>
+<stage>Après la danse, une Turque chante.</stage>
+<sp who='UNE-TURQUE'><speaker>UNE TURQUE.</speaker>
+	<l id='1'>Tout l'Orient </l>
+	<l id='2'>Est un vaste couvent. </l>
+	<l id='3'>Un musulman voit à ses volontés </l>
+	<l id='4'>Obéir cent beautés. </l>
+	<l id='5'>La coutume est bien contraire en France,</l>
+	<l id='6'>Une femme sous ses lois </l>
+	<l id='7'>A vingt amants à la fois. </l>
+	<l id='8'>Ah ! quelle différence ! </l>
+	<l id='9'>Un Portugais </l>
+	<l id='10'>Est toujours aux aguets, </l>
+	<l id='11'>Et jour et nuit de son diable battu, </l>
+	<l id='12'>Il craint d'être cocu. </l>
+	<l id='13'>On n'est point si difficile en France </l>
+	<l id='14'>Un mari, sans craindre rien, </l>
+	<l id='15'>Est cocu tout aussi bien ; </l>
+	<l id='16'>Ah ! quelle différence ! </l>
+	<l id='17'>Par tout pays </l>
+	<l id='18'>On voit de sots maris, </l>
+	<l id='19'>Fesse-mathieux, ou bourrus, ou jaloux ; </l>
+	<l id='20'>On les respecte tous. </l>
+	<l id='21'>C'est, ma foi, tout autre chose en France : </l>
+	<l id='22'>Un seul couplet de chanson </l>
+	<l id='23'>Les met tous à la raison ; </l>
+	<l id='24'>Ah ! quelle différence ! </l>
+	<l id='25'>Un Allemand </l>
+	<l id='26'>Est quelquefois pesant ; </l>
+	<l id='27'>Le sombre Anglais même dans ses amours</l>
+	<l id='28'>Veut raisonner toujours. </l>
+	<l id='29'>On est bien plus raisonnable en France :</l>
+	<l id='30'>Chacun sait se réjouir, </l>
+	<l id='31'>Chacun vit pour le plaisir ; </l>
+	<l id='32'>Ah ! quelle différence ! </l>
+	<l id='33'>Dans l'univers </l>
+	<l id='34'>On fait de mauvais vers ; </l>
+	<l id='35'>Chacun jouit du droit de rimailler </l>
+	<l id='36'>Et de nous ennuyer. </l>
+	<l id='37'>On y met un bon remède en France : </l>
+	<l id='38'>On inventa les sifflets, </l>
+	<l id='39'>Dont Dieu nous garde à jamais !</l>
+	<l id='40'>Ah ! Quelle différence !</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

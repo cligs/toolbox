@@ -1,0 +1,4475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>LE MARIAGE FORCÉ, COMÉDIE-BALLET.</title>
+
+			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
+
+			</titleStmt>
+
+			<publicationStmp>	
+
+				<p>publié par Paul FIEVRE, mars 2010.</p>
+
+			</publicationStmp>
+
+			<SourceDesc>
+
+				<genre>Comédie-ballet</genre>
+
+				<inspiration>moeurs françaises</inspiration>
+
+				<type>prose</type>
+
+				<structure>Un acte</structure>
+
+				<periode>1661-1670</periode>
+
+				<taille>(mesure non pertinente)</taille>
+
+				<permalien></permalien>
+
+					<sources>
+
+					<source id='1'><author></author><text></text></source>
+
+				</sources>	
+
+
+
+			</SourceDesc>
+
+		</fileDesc>
+
+</teiHeader>
+
+<text>
+
+	<front>
+
+		<docTitle>
+
+			<titlePart type="main">LE MARIAGE FORCÉ</titlePart>
+
+			<titlePart type="sub">COMÉDIE.</titlePart>
+
+		</docTitle> 
+
+		<docDate value='1668'>M. DC. LXVIII. avec privilège de Sa Majesté.</docDate>
+
+		<docAuthor id='MOLIERE' bio='moliere'>par J.B.P. de MOLIÈRE</docAuthor>
+
+		<docImprint>
+
+			<privilege id='1668-02-20'><head>Extrait du Privilège du Roi</head>
+
+			<p>PAR Grâce et Privilège du Roi, donné à Saint Germain en Laye, ce 20 jour de Février 1668, Signé, Par le Roi en son Conseil, MARGERET : il est permis à J. B. P. de  MOLIÈRE de faire imprimer par tel Libraire ou Imprimeur qu'il voudra choisir, une Pièce de Théâtre de sa composition, intitulée, LE MARIAGE FORCÉ, pendant le temps et espace de cinq années entières et accomplies, à commencer du jour qu'elle sera achevée d'imprimer : et défenses sont faites à tous autres Libraires et Imprimeurs, d'imprimer, ou faire imprimer, vendre et débiter ladite Pièce, sans le consentement de l'Exposant, ou de ceux qui auront droit de lui ; à peine aux contrevenants, de trois mille livres d'amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et interêts, ainsi que plus au long il est porté par les dites Lettres de Privilège.</p>
+
+<p>Et le dit Sieur DE MOLIÈRE a cédé et transporté son droit de Privilège, à JEAN RIBOU, Marchand Libraire à Paris, pour en jouir, suivant l'accord fait entre eux.</p>
+
+<p>Registre sur le Livre de la Communauté, suivant l'arrêt de la Cour de Parlement.</p>
+
+</privilege>
+
+			<acheveImprime id='1668-03-09'>Achevé d'imprimer pour la première fois le 9 mars 1668.</acheveImprime>
+
+			<editor id='BALLARD'>À PARIS, Par JEAN RIBOU, au Palais, vis à vis la porte de l'Eglise de la Sainte Chapelle, à l'Image Saint-Louis.</editor>
+
+		</docImprint>
+
+		<performance>
+
+			<premiere date='1664-01-29' location='Château du Louvre'>Représentée pour la première fois au Louvre, par ordre de sa majesté, le 29e du mois de janvier 1664, et donnée depuis au public sur le Théâtre du Palais-Royal le 15e du mois de février de la même année 1664 par la Troupe de Monsieur, frère unique du Roi.</premiere>
+
+		</performance>
+
+	<castList><head>PERSONNAGES</head>
+
+	<castItem><role id="SGANARELLE" civil='M' type="H" statut='commerçant' age='V' stat_amour='néant'>SGANARELLE</role>. Molière.</castItem> 
+
+	<castItem><role id="GERONIMO" civil='M' type="H" statut='commerçant' age='V' stat_amour='néant'>GÉRONIMO</role>. La Thorillière.</castItem> 
+
+	<castItem><role id="GERONIMO" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>DORIMÈNE</role>, jeune coquette, promise à Sganarelle.Melle du Parc.</castItem> 
+
+	<castItem><role id="ALCANTOR" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ALCANTOR</role>, père de Dorimène. Béjart</castItem> 
+
+	<castItem><role id="ALCIDAS" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ALCIDAS</role>, frère de Dorimène. Béjart.</castItem> 
+
+	<castItem><role id="LYCASTE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>LYCASTE</role>, amant de Dorimène. La Grange.</castItem> 
+
+	<castItem><role id="PREMIÈRE BOHEMIÉNNE" civil='F' type="H" statut='bohémien' age='A' stat_amour='néant'>PREMIÈRE BOHEMIÉNNE</role>. Melle Béjart.</castItem> 
+
+	<castItem><role id="DEUXIÈME BOHEMIÉNNE" civil='F' type="H" statut='bohémien' age='A' stat_amour='néant'>DEUXIÈME BOHEMIÉNNE</role>. Melle de Brie.</castItem> 
+
+	<castItem><role id="PANCRACE" civil='M' type="H" statut='docteur' age='A' stat_amour='néant'>PANCRACE </role>, docteur aristotélicien. Brécourt.</castItem> 
+
+	<castItem><role id="MARPHIRUS" civil='M' type="H" statut='docteur' age='A' stat_amour='néant'>MARPHURIUS</role>, docteur pyrrhonien. Du croisy.</castItem> 
+
+	</castList>
+
+<set location='Paris' country='France' periode='XVIIème' link=''>[La scène est à Paris.]</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head></head>
+
+<div2 type='scene' n='1'><head>SCÈNE I. Sganarelle, Géronimo.</head>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Je suis de retour dans un moment. </s>
+
+	<s id='2'>Que l'on ait bien soin du logis, et que tout aille comme il faut. </s>
+
+	<s id='3'>Si l'on m'apporte de l'argent, que l'on me vienne querir vite chez le seigneur Géronimo ; et si l'on vient m'en demander, qu'on dise que je suis sorti et que je ne dois revenir de toute la journée.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Voilà un ordre fort prudent.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Seigneur Géronimo, je vous trouve à propos, et j'allais chez vous vous chercher.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Et pour quel sujet, s'il vous plaît ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Pour vous communiquer une affaire que j'ai en tête, et vous prier de m'en dire votre avis.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Très volontiers. </s>
+
+	<s id='2'>Je suis bien aise de cette rencontre, et nous pouvons parler ici en toute liberté.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='7'>
+
+	<s id='1'>Mettez donc dessus, s'il vous plaît. </s>
+
+	<s id='2'>Il s'agit d'une chose de conséquence, que l'on m'a proposée ; et il est bon de ne rien faire sans le conseil de ses amis.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Je vous suis obligé de m'avoir choisi pour cela. </s>
+
+	<s id='2'>Vous n'avez qu'à me dire ce que c'est.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Mais auparavant je vous conjure de ne me point flatter du tout et de me dire nettement votre pensée.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Je le ferai, puisque vous le voulez.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Je ne vois rien de plus condamnable qu'un ami qui ne nous parle pas franchement.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Vous avez raison.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Et dans ce siècle on trouve peu d'amis sincères.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='14'>
+
+	<s id='1'>Cela est vrai.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Promettez-moi donc, seigneur Géronimo, de me parler avec toute sorte de franchise.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Je vous le promets.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Jurez-en votre foi.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Oui, foi d'ami. </s>
+
+	<s id='2'>Dites-moi seulement votre affaire.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='19'>
+
+	<s id='1'>C'est que je veux savoir de vous si je ferai bien de me marier.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Qui, vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Oui, moi-même en propre personne. </s>
+
+	<s id='2'>Quel est votre avis là-dessus ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Je vous prie auparavant de me dire une chose.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Et quoi ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='24'>
+
+	<s id='1'>Quel âge pouvez-vous bien avoir maintenant ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='25'>
+
+	<s id='1'>Moi ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='26'>
+
+	<s id='1'>Oui.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='27'>
+
+	<s id='1'>Ma foi, je ne sais ; mais je me porte bien.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='28'>
+
+	<s id='1'>Quoi ? </s>
+
+	<s id='2'>vous ne savez pas à peu près votre âge ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='29'>
+
+	<s id='1'>Non : est-ce qu'on songe à cela ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='30'>
+
+	<s id='1'>Hé ! </s>
+
+	<s id='2'>Dites-moi un peu, s'il vous plaît : combien aviez-vous d'années lorsque nous fîmes connaissance ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='31'>
+
+	<s id='1'>Ma foi, je n'avais que vingt ans alors.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='32'>
+
+	<s id='1'>Combien fûmes-nous ensemble à Rome ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='33'>
+
+	<s id='1'>Huit ans.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='34'>
+
+	<s id='1'>Quel temps avez-vous demeuré en Angleterre ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='35'>
+
+	<s id='1'>Sept ans.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='36'>
+
+	<s id='1'>Et en Hollande, où vous fûtes ensuite ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='37'>
+
+	<s id='1'>Cinq ans et demi.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='38'>
+
+	<s id='1'>Combien y a-t-il que vous êtes revenu ici ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='39'>
+
+	<s id='1'>Je revins en cinquante-six.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='40'>
+
+	<s id='1'>De cinquante-six à soixante-huit, il y a douze ans, ce me semble. </s>
+
+	<s id='2'>Cinq ans en Hollande, font dix-sept ; sept ans en Angleterre, font vingt-quatre ; huit dans notre séjour à Rome font trente-deux ; et vingt que vous aviez lorsque nous nous connûmes, cela fait justement cinquante-deux : si bien, seigneur Sganarelle, que, sur votre propre confession, vous êtes environ à votre cinquante-deuxième ou cinquante-troisième année.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='41'>
+
+	<s id='1'>Qui, moi ? </s>
+
+	<s id='2'>Cela ne se peut pas.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='42'>
+
+	<s id='1'>Mon Dieu, le calcul est juste ; et là-dessus je vous dirai franchement et en ami, comme vous m'avez fait promettre de vous parler, que le mariage n'est guère votre fait. </s>
+
+	<s id='2'>C'est une chose à laquelle il faut que les jeunes gens pensent bien mûrement avant que de la faire ; mais les gens de votre âge n'y doivent point penser du tout ; et si l'on dit que la plus grande de toutes les folies est celle de se marier, je ne vois rien de plus mal à propos que de la faire, cette folie, dans la saison où nous devons être plus sages. </s>
+
+	<s id='3'>Enfin je vous en dis nettement ma pensée. </s>
+
+	<s id='4'>Je ne vous conseille point de songer au mariage ; et je vous trouverois le plus ridicule du monde, si, ayant été libre jusqu'à cette heure, vous alliez vous charger maintenant de la plus pesante des chaînes.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='43'>
+
+	<s id='1'>Et moi je vous dis que je suis résolu de me marier, et que je ne serai point ridicule en épousant la fille que je recherche.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='44'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>C'est une autre chose : vous ne m'aviez pas dit cela.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='45'>
+
+	<s id='1'>C'est une fille qui me plaît, et que j'aime de tout mon coeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='46'>
+
+	<s id='1'>Vous l'aimez de tout votre coeur ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='47'>
+
+	<s id='1'>Sans doute, et je l'ai demandée à son père.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='48'>
+
+	<s id='1'>Vous l'avez demandée ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='49'>
+
+	<s id='1'>Oui. </s>
+
+	<s id='2'>C'est un mariage qui se doit conclure ce soir, et j'ai donné parole.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='50'>
+
+	<s id='1'>Oh ! </s>
+
+	<s id='2'>Mariez-vous donc : je ne dis plus mot.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='51'>
+
+	<s id='1'>Je quitterais le dessein que j'ai fait ? </s>
+
+	<s id='2'>Vous semble-t-il, seigneur Géronimo, que je ne sois plus propre à songer à une femme ? </s>
+
+	<s id='3'>Ne parlons point de l'âge que je puis avoir ; mais regardons seulement les choses. </s>
+
+	<s id='4'>Y a-t-il homme de trente ans qui paroisse plus frais et plus vigoureux que vous me voyez ? </s>
+
+	<s id='5'>N'ai-je pas tous les mouvements de mon corps aussi bons que jamais, et voit-on que j'aie besoin de carrosse ou de chaise pour cheminer ? </s>
+
+	<s id='6'>N'ai-je pas encore toutes mes dents, les meilleures du monde ? </s>
+
+	<s id='7'>Ne fais-je pas vigoureusement mes quatre repas par jour, et peut-on voir un estomac qui ait plus de force que le mien ? </s>
+
+	<s id='8'>Hem, hem, hem : eh ! </s>
+
+	<s id='9'>Qu'en dites-vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='52'>
+
+	<s id='1'>Vous avez raison ; je m'étais trompé : vous ferez bien de vous marier.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='53'>
+
+	<s id='1'>J'y ai répugné autrefois ; mais j'ai maintenant de puissantes raisons pour cela. </s>
+
+	<s id='2'>Outre la joie que j'aurai de posséder une belle femme, qui me fera mille caresses, qui me dorlotera et me viendra frotter lorsque je serai las, outre cette joie, dis-je, je considère qu'en demeurant comme je suis, je laisse périr dans le monde la race des Sganarelles, et qu'en me mariant, je pourrai me voir revivre en d'autres moi-mêmes, que j'aurai le plaisir de voir des créatures qui seront sorties de moi, de petites figures qui me ressembleront comme deux gouttes d'eau, qui se joueront continuellement dans la maison, qui m'appelleront leur papa quand je reviendrai de la ville et me diront de petites folies les plus agréables du monde. </s>
+
+	<s id='3'>Tenez, il me semble déjà que j'y suis, et que j'en vois une demi-douzaine autour de moi.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='54'>
+
+	<s id='1'>Il n'y a rien de plus agréable que cela ; et je vous conseille de vous marier le plus vite que vous pourrez.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='55'>
+
+	<s id='1'>Tout de bon, vous me le conseillez ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='56'>
+
+	<s id='1'>Assurément. </s>
+
+	<s id='2'>Vous ne sauriez mieux faire.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='57'>
+
+	<s id='1'>Vraiment, je suis ravi que vous me donniez ce conseil en véritable ami.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='58'>
+
+	<s id='1'>Hé ! </s>
+
+	<s id='2'>Quelle est la personne, s'il vous plaît, avec qui vous vous allez marier ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='59'>
+
+	<s id='1'>Dorimène.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='60'>
+
+	<s id='1'>Cette jeune Dorimène, si galante et si bien parée ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='61'>
+
+	<s id='1'>Oui.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='62'>
+
+	<s id='1'>Fille du seigneur Alcantor ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='63'>
+
+	<s id='1'>Justement.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='64'>
+
+	<s id='1'>Et soeur d'un certain Alcidas, qui se mêle de porter l'épée ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='65'>
+
+	<s id='1'>C'est cela.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='66'>
+
+	<s id='1'>Vertu de ma vie!</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='67'>
+
+	<s id='1'>Qu'en dites-vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='68'>
+
+	<s id='1'>Bon parti ! </s>
+
+	<s id='2'>Mariez-vous promptement.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='69'>
+
+	<s id='1'>N'ai-je pas raison d'avoir fait ce choix ?</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='70'>
+
+	<s id='1'>Sans doute. </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Que vous serez bien marié ? </s>
+
+	<s id='4'>Dépêchez-vous de l'être.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='71'>
+
+	<s id='1'>Vous me comblez de joie, de me dire cela. </s>
+
+	<s id='2'>Je vous remercie de votre conseil, et je vous invite ce soir à mes noces.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='72'>
+
+	<s id='1'>Je n'y manquerai pas, et je veux y aller en masque, afin de les mieux honorer.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='73'>
+
+	<s id='1'>Serviteur.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='74'>
+
+	<s id='1'>La jeune Dorimène, fille du seigneur Alcantor, avec le seigneur Sganarelle, qui n'a que cinquante-trois ans : ô le beau mariage ! </s>
+
+	<s id='2'>Ô le beau mariage!</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='75'>
+
+	<s id='1'>Ce mariage doit être heureux, car il donne de la joie à tout le monde, et je fais rire tous ceux à qui j'en parle. </s>
+
+	<s id='2'>Me voilà maintenant le plus content des hommes. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Dorimène, Sganarelle.</head>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Allons, petit garçon, qu'on tienne bien ma queue, et qu'on ne s'amuse pas à badiner.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Voici ma maîtresse qui vient. </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Qu'elle est agréable ! </s>
+
+	<s id='4'>Quel air ! </s>
+
+	<s id='5'>Et quelle taille ! </s>
+
+	<s id='6'>Peut-il y avoir un homme qui n'ait en la voyant des démangeaisons de se marier ? </s>
+
+	<s id='7'>Où allez-vous, belle mignonne, chère épouse future de votre époux futur ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Je vais faire quelques emplettes.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Hé bien ! </s>
+
+	<s id='2'>Ma belle, c'est maintenant que nous allons être heureux l'un et l'autre. </s>
+
+	<s id='3'>Vous ne serez plus en droit de me rien refuser ; et je pourrai faire avec vous tout ce qu'il me plaira, sans que personne s'en scandalise. </s>
+
+	<s id='4'>Vous allez être à moi depuis la tête jusqu'aux pieds, et je serai maître de tout : de vos petits yeux éveillés, de votre petit nez fripon, de vos lèvres appétissantes, de vos oreilles amoureuses, de votre petit menton joli, de vos petits tetons rondelets, de votre... ; enfin, toute votre personne sera à ma discrétion, et je serai à même pour vous caresser comme je voudrai. </s>
+
+	<s id='5'>N'êtes-vous pas bien aise de ce mariage, mon aimable pouponne ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Tout à fait aise, je vous jure ; car enfin la sévérité de mon père m'a tenue jusques ici dans une sujétion la plus fâcheuse du monde. </s>
+
+	<s id='2'>Il y a je ne sais combien que j'enrage du peu de liberté qu'il me donne, et j'ai cent fois souhaité qu'il me mariât, pour sortir promptement de la contrainte où j'étais avec lui, et me voir en état de faire ce que je voudrai. </s>
+
+	<s id='3'>Dieu merci, vous êtes venu heureusement pour cela, et je me prépare désormais à me donner du divertissement, et à réparer comme il faut le temps que j'ai perdu. </s>
+
+	<s id='4'>Comme vous êtes un fort galant homme, et que vous savez comme il faut vivre, je crois que nous ferons le meilleur ménage du monde ensemble, et que vous ne serez point de ces maris incommodes qui veulent que leurs femmes vivent comme des loups-garous. </s>
+
+	<s id='5'>Je vous avoue que je ne m'accommoderois pas de cela, et que la solitude me désespère. </s>
+
+	<s id='6'>J'aime le jeu, les visites, les assemblées, les cadeaux et les promenades, en un mot, toutes les choses de plaisir, et vous devez être ravi d'avoir une femme de mon humeur. </s>
+
+	<s id='7'>Nous n'aurons jamais aucun démêlé ensemble, et je ne vous contraindrai point dans vos actions, comme j'espère que, de votre côté, vous ne me contraindrez point dans les miennes ; car, pour moi, je tiens qu'il faut avoir une complaisance mutuelle, et qu'on ne se doit point marier pour se faire enrager l'un l'autre. </s>
+
+	<s id='8'>Enfin nous vivrons, étant mariés, comme deux personnes qui savent leur monde. </s>
+
+	<s id='9'>Aucun soupçon jaloux ne nous troublera la cervelle ; et c'est assez que vous serez assuré de ma fidélité, comme je serai persuadée de la vôtre. </s>
+
+	<s id='10'>Mais qu'avez-vous ? </s>
+
+	<s id='11'>Je vous vois tout changé de visage.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Ce sont quelques vapeurs qui me viennent de monter à la tête.</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='7'>
+
+	<s id='1'>C'est un mal aujourd'hui qui attaque beaucoup de gens ; mais notre mariage vous dissipera tout cela. </s>
+
+	<s id='2'>Adieu. </s>
+
+	<s id='3'>Il me tarde déjà que je n'aie des habits raisonnables, pour quitter vite ces guenilles. </s>
+
+	<s id='4'>Je m'en vais de ce pas achever d'acheter toutes les choses qu'il me faut, et je vous envoyrai les marchands. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Géronimo, Sganarelle.</head>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Seigneur Sganarelle, je suis ravi de vous trouver encore ici ; et j'ai rencontré un orfèvre qui, sur le bruit que vous cherchez quelque beau diamant en bague pour faire un présent à votre épouse, m'a fort prié de vous venir parler pour lui, et de vous dire qu'il en a un à vendre, le plus parfait du monde.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Mon Dieu ! </s>
+
+	<s id='2'>cela n'est pas pressé.</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Comment ? </s>
+
+	<s id='2'>Que veut dire cela ? </s>
+
+	<s id='3'>Où est l'ardeur que vous montriez tout à l'heure ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Il m'est venu, depuis un moment, de petits scrupules sur le mariage. </s>
+
+	<s id='2'>Avant que de passer plus avant, je voudrois bien agiter à fond cette matière, et que l'on m'expliquât un songe que j'ai fait cette nuit, et qui vient tout à l'heure de me revenir dans l'esprit. </s>
+
+	<s id='3'>Vous savez que les songes sont comme des miroirs, où l'on découvre quelquefois tout ce qui nous doit arriver. </s>
+
+	<s id='4'>Il me semblait que j'étais dans un vaisseau, sur une mer bien agitée, et que...</s>
+
+</p>
+
+</sp>
+
+<sp who='GERONIMO'><speaker>GÉRONIMO.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Seigneur Sganarelle, j'ai maintenant quelque petite affaire qui m'empêche de vous ouïr. </s>
+
+	<s id='2'>Je n'entends rien du tout aux songes ; et quant au raisonnement du mariage, vous avez deux savants, deux philosophes vos voisins, qui sont gens à vous débiter tout ce qu'on peut dire sur ce sujet. </s>
+
+	<s id='3'>Comme ils sont de sectes différentes, vous pouvez examiner leurs diverses opinions là-dessus. </s>
+
+	<s id='4'>Pour moi, je me contente de ce que je vous ai dit tantôt et demeure votre serviteur.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Il a raison. </s>
+
+	<s id='2'>Il faut que je consulte un peu ces gens-là sur l'incertitude où je suis. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Pancrace, Sganarelle.</head>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Allez, vous êtes un impertinent, mon ami, un homme bannissable de la république des lettres.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Bon, en voici un fort à propos.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<note type="C">Voir "Le Malade imaginaire" acte III, sc. X, Toinette : "Ignotantus, ignoranta, ignorantum."</note>
+
+<p id='3'>
+
+	<s id='1'>Oui, je te soutiendrai par vives raisons que tu es un ignorant, ignorantissime, ignorantifiant et ignorantifié par tous les cas et modes imaginables.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Il a pris querelle contre quelqu'un. </s>
+
+	<s id='2'>Seigneur...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Tu veux te mêler de raisonner, et tu ne sais pas seulement les éléments de la raison.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>La colère l'empêche de me voir. </s>
+
+	<s id='2'>Seigneur...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='7'>
+
+	<s id='1'>C'est une proposition condamnable dans toutes les terres de la philosophie.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Il faut qu'on l'ait fort irrité. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Toto caelo, tota via aberras.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Je baise les mains à Monsieur le Docteur.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Serviteur.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Peut-on... ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Sais-tu bien ce que tu as fait ? </s>
+
+<note type="L">Syllogisme : terme de logique. Argument composé de trois propositions, lequel a cette propriété que quand il est en forme, la conclusion s'en suit nécessairement des deux premières, en sorte que si elle sont véritables et nécessaires, la conclusion est convaincante , et fait un démonstration et on l'appelle apodictique. [F]</note>
+
+	<s id='2'>Un syllogisme in balordo.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='14'>
+
+	<s id='1'>Je vous...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='15'>
+
+	<s id='1'>La majeure en est inepte, la mineure impertinente et la conclusion ridicule.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Je crèverais plutôt que d'avouer ce que tu dis, et je soutiendrai mon opinion jusqu'à la dernière goutte de mon encre.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Puis-je ?...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='19'>
+
+	<s id='1'>Oui, je défendrai cette proposition, pugnis et calcibus, unguibus et rostro.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Seigneur Aristote, peut-on savoir ce qui vous met si fort en colère ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Un sujet le plus juste du monde.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Et quoi, encore ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Un ignorant m'a voulu soutenir une proposition erronée, une proposition épouvantable, effroyable, exécrable.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='14'>
+
+	<s id='1'>Puis-je demander ce que c'est ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Seigneur Sganarelle, tout est renversé aujourd'hui, et le monde est tombé dans une corruption générale ; une licence épouvantable règne partout ; et les magistrats, qui sont établis pour maintenir l'ordre dans cet État, devraient rougir de honte, en souffrant un scandale aussi intolérable que celui dont je veux parler.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Quoi donc ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='17'>
+
+	<s id='1'>N'est-ce pas une chose horrible, une chose qui crie vengeance au Ciel, que d'endurer qu'on dise publiquement la forme d'un chapeau ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Comment ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='19'>
+
+	<s id='1'>Je soutiens qu'il faut dire la figure d'un chapeau, et non pas la forme ; d'autant qu'il y a cette différence entre la forme et la figure, que la forme est la disposition extérieure des corps qui sont animés, et la figure, la disposition extérieure des corps qui sont inanimés ; et puisque le chapeau est un corps inanimé, il faut dire la figure d'un chapeau et non pas la forme. </s>
+
+	<s id='2'>Oui, ignorant que vous êtes, c'est comme il faut parler ; et ce sont les termes exprès d'Aristote dans le chapitre de la Qualité.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Je pensais que tout fût perdu. </s>
+
+	<s id='2'>Seigneur Docteur, ne songez plus à tout cela. </s>
+
+	<s id='3'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Je suis dans une colère, que je ne me sens pas.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Laissez la forme et le chapeau en paix. </s>
+
+	<s id='2'>J'ai quelque chose à vous communiquer. </s>
+
+	<s id='3'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Impertinent fieffé !</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='24'>
+
+	<s id='1'>De grâce, remettez-vous. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='25'>
+
+	<s id='1'>Ignorant !</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='26'>
+
+	<s id='1'>Eh ! </s>
+
+	<s id='2'>Mon Dieu ? </s>
+
+	<s id='3'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='27'>
+
+	<s id='1'>Me vouloir soutenir une proposition de la sorte !</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='28'>
+
+	<s id='1'>Il a tort. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='29'>
+
+	<s id='1'>Une proposition condamnée par Aristote !</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='30'>
+
+	<s id='1'>Cela est vrai. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='31'>
+
+	<s id='1'>En termes exprès.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='32'>
+
+	<s id='1'>Vous avez raison. </s>
+
+	<s id='2'>Oui, vous êtes un sot et un impudent de vouloir disputer contre un docteur qui sait lire et écrire. </s>
+
+	<s id='3'>Voilà qui est fait : je vous prie de m'écouter. </s>
+
+	<s id='4'>Je viens vous consulter sur une affaire qui m'embarrasse. </s>
+
+	<s id='5'>J'ai dessein de prendre une femme pour me tenir compagnie dans mon ménage. </s>
+
+	<s id='6'>La personne est belle et bien faite ; elle me plaît beaucoup, et est ravie de m'épouser. </s>
+
+	<s id='7'>Son père me l'a accordée ; mais je crains un peu ce que vous savez, la disgrâce dont on ne plaint personne ; et je voudrois bien vous prier, comme philosophe, de me dire votre sentiment. </s>
+
+	<s id='8'>Eh ! </s>
+
+	<s id='9'>Quel est votre avis là-dessus ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='33'>
+
+	<s id='1'>Plutôt que d'accorder qu'il faille dire la forme d'un chapeau, j'accorderais que datur vacuum in rerum natura, et que je ne suis qu'une bête.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='34'>
+
+	<s id='1'>La peste soit de l'homme ! </s>
+
+	<s id='2'>Eh ! </s>
+
+	<s id='3'>Monsieur le Docteur, écoutez un peu les gens. </s>
+
+	<s id='4'>On vous parle une heure durant, et vous ne répondez point à ce qu'on vous dit.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='35'>
+
+	<s id='1'>Je vous demande pardon. </s>
+
+	<s id='2'>Une juste colère m'occupe l'esprit.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='36'>
+
+	<s id='1'>Eh ! </s>
+
+	<s id='2'>Laissez tout cela, et prenez la peine de m'écouter.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='37'>
+
+	<s id='1'>Soit. </s>
+
+	<s id='2'>Que voulez-vous me dire ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='38'>
+
+	<s id='1'>Je veux vous parler de quelque chose.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='39'>
+
+	<s id='1'>Et de quelle langue voulez-vous vous servir avec moi ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='40'>
+
+	<s id='1'>De quelle langue ?</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='41'>
+
+	<s id='1'>Oui.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='42'>
+
+	<s id='1'>Parbleu ! </s>
+
+	<s id='2'>De la langue que j'ai dans la bouche. </s>
+
+	<s id='3'>Je crois que je n'irai pas emprunter celle de mon voisin.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='43'>
+
+	<s id='1'>Je vous dis : de quel idiome, de quel langage ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='44'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>C'est une autre affaire.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='45'>
+
+	<s id='1'>Voulez-vous me parler italien ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='46'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='47'>
+
+	<s id='1'>Espagnol ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='48'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='49'>
+
+	<s id='1'>Allemand ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='50'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='51'>
+
+	<s id='1'>Anglais ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='52'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='53'>
+
+	<s id='1'>Latin ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='54'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='55'>
+
+	<s id='1'>Grec ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='56'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='57'>
+
+	<s id='1'>Hébreu ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='58'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='59'>
+
+	<s id='1'>Syriaque ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='60'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='61'>
+
+	<s id='1'>Turc ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='62'>
+
+	<s id='1'>Non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='63'>
+
+	<s id='1'>Arabe ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='64'>
+
+	<s id='1'>Non, non, français.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='65'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Français.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='66'>
+
+	<s id='1'>Fort bien.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='67'>
+
+	<s id='1'>Passez donc de l'autre côté ; car cette oreille-ci est destinée pour les langues scientifiques et étrangères, et l'autre est pour la maternelle.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='68'>
+
+	<s id='1'>Il faut bien des cérémonies avec ces sortes de gens-ci !</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='69'>
+
+	<s id='1'>Que voulez-vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='70'>
+
+	<s id='1'>Vous consulter sur une petite difficulté.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='71'>
+
+	<s id='1'>Sur une difficulté de philosophie, sans doute ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='72'>
+
+	<s id='1'>Pardonnez-moi : je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='73'>
+
+	<s id='1'>Vous voulez peut-être savoir si la substance et l'accident sont termes synonymes ou équivoques à l'égard de l'Être ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='74'>
+
+	<s id='1'>Point du tout. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='75'>
+
+<note type="L">Logique : Science qui enseigne à bien perfectionner le raisonnement, qui donne des règles certaines pour définir, diviser et argumenter. Aristote est le père de la logique (...). [F]</note>
+
+	<s id='1'>Si la logique est un art ou une science ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='76'>
+
+	<s id='1'>Ce n'est pas cela. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='77'>
+
+	<s id='1'>Si elle a pour objet les trois opérations de l'esprit ou la troisième seulement ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='78'>
+
+	<s id='1'>Non. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='79'>
+
+	<s id='1'>S'il y a dix catégories ou s'il n'y en a qu'une ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='80'>
+
+	<s id='1'>Point. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='81'>
+
+	<s id='1'>Si la conclusion est de l'essence du syllogisme ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='82'>
+
+	<s id='1'>Nenni. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='83'>
+
+	<s id='1'>Si l'essence du bien est mise dans l'appétibilité ou dans la convenance ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='84'>
+
+	<s id='1'>Non. </s>
+
+	<s id='2'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='85'>
+
+	<s id='1'>Si le bien se réciproque avec la fin ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='86'>
+
+	<s id='1'>Eh ! </s>
+
+	<s id='2'>Non. </s>
+
+	<s id='3'>Je...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='87'>
+
+	<s id='1'>Si la fin nous peut émouvoir par son être réel, ou par son être intentionnel ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='88'>
+
+	<s id='1'>Non, non, non, non, non, de par tous les diables, non.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='89'>
+
+	<s id='1'>Expliquez donc votre pensée, car je ne puis pas la deviner.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='90'>
+
+	<s id='1'>Je vous la veux expliquer aussi ; mais il faut m'écouter. </s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE_PANCRACE'><speaker>SGANARELLE, en même temps que le Docteur.</speaker>
+
+<p id='91'>
+
+	<s id='1'>L'affaire que j'ai à vous dire, c'est que j'ai envie de me marier avec une fille qui est jeune et belle. </s>
+
+	<s id='2'>Je l'aime fort, et l'ai demandée à son père ; mais, comme j'appréhende... </s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE_SGANARELLE'><speaker>PANCRACE, en même temps que le Sganarelle.</speaker>
+
+<p id='92'>
+
+	<s id='1'>La parole a été donnée à l'homme pour expliquer sa pensée ; et tout ainsi que les pensées sont les portraits des choses, de même nos paroles sont-elles les portraits de nos pensées ; mais ces portraits diffèrent des autres portraits en ce que les autres portraits sont distingués partout de leurs originaux, et que la parole enferme en soi son original, puisqu'elle n'est autre chose que la pensée expliquée par un signe extérieur : d'où vient que ceux qui pensent bien sont aussi ceux qui parlent le mieux. </s>
+
+	<s id='2'>Expliquez-moi donc votre pensée par la parole, qui est le plus intelligible de tous les signes. </s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+	<stage>Il repousse le Docteur dans sa maison, et tire la porte pour l'empêcher de sortir. </stage>
+
+<p id='93'>
+
+	<s id=''>Peste de l'homme ! </s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE, au dedans de la maison.</speaker>
+
+<p id='94'>
+
+	<s id='1'>Oui, la parole est animi index et speculum ; c'est le truchement du coeur, c'est l'image de l'âme. </s>
+
+</p>
+
+<stage>Pancrace monte à la fenêtre et continue, et Sganarelle quitte la porte.</stage>
+
+<p id='95'>
+
+	<s id='1'>C'est un miroir qui nous représente naïvement les secrets les plus arcanes de nos individus. </s>
+
+	<s id='3'>Et puisque vous avez la faculté de ratiociner et de parler tout ensemble, à quoi tient-il que vous ne vous serviez de la parole pour me faire entendre votre pensée ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='96'>
+
+	<s id='1'>C'est ce que je veux faire ; mais vous ne voulez pas m'écouter.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='97'>
+
+	<s id='1'>Je vous écoute, parlez.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='98'>
+
+	<s id='1'>Je dis donc, Monsieur le Docteur, que...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='99'>
+
+	<s id='1'>Mais surtout soyez bref.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='100'>
+
+	<s id='1'>Je le serai.</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='101'>
+
+	<s id='1'>Evitez la prolixité.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='102'>
+
+	<s id='1'>Hé ! </s>
+
+	<s id='2'>Monsi...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='103'>
+
+	<s id='1'>Tranchez-moi votre discours d'un apophthegme à la laconienne.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='104'>
+
+	<s id='1'>Je vous...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='105'>
+
+	<s id='1'>Point d'ambages, de circonlocution. </s>
+
+</p>
+
+<stage>Sganarelle, de dépit de ne pouvoir parler, ramasse des pierres pour en casser la tête du Docteur.</stage>
+
+<p id='106'>
+
+	<s id='1'>Hé quoi ? </s>
+
+	<s id='2'>Vous vous emportez, au lieu de vous expliquer. </s>
+
+	<s id='3'>Allez, vous êtes plus impertinent que celui qui m'a voulu soutenir qu'il faut dire la forme d'un chapeau ; et je vous prouverai, en toute rencontre, par raisons démonstratives et convaincantes, et par arguments in barbara, que vous n'êtes et ne serez jamais qu'une pécore, et que je suis et serai toujours, in utroque jure, le docteur Pancrace. </s>
+
+</p>
+
+<stage>Le Docteur sort de la maison.)</stage>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='107'>
+
+	<s id='1'>Quel diable de babillard !</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='108'>
+
+	<s id='1'>Homme de lettre, homme d'érudition.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='109'>
+
+	<s id='1'>Encore...</s>
+
+</p>
+
+</sp>
+
+<sp who='PANCRACE'><speaker>PANCRACE.</speaker>
+
+<p id='110'>
+
+	<s id='1'>Homme de suffisance, homme de capacité.</s>
+
+</p>
+
+<stage>S'en allant.</stage>
+
+<p id='111'>
+
+	<s id='1'>Homme consommé dans toutes les sciences naturelles, morales et politiques.</s>
+
+</p>
+
+<stage>Revenant.</stage>
+
+<p id='112'>
+
+	<s id='1'>Homme savant, savantissime per omnes modos et casus.</s>
+
+</p>
+
+<stage>S'en allant.</stage>
+
+<p id='113'>
+
+	<s id='1'>Homme qui possède superlative fables, mythologies et histoires.</s>
+
+</p>
+
+<stage>Revenant.</stage>
+
+<p id='114'>
+
+	<s id='1'>Grammaire, poésie, rhétorique, dialectique et sophistique.</s>
+
+</p>
+
+<stage>S'en allant.</stage>
+
+<p id='115'>
+
+	<s id='1'>Mathématique, arithmétique, optique, onirocritique, physique et métaphysique.</s>
+
+</p>
+
+<stage>Revenant.</stage>
+
+<p id='116'>
+
+	<s id='1'>Cosmimométrie, géométrie, architecture, spéculoire et spéculatoire.</s>
+
+</p>
+
+<stage>En s'en allant.</stage>
+
+<p id='117'>
+
+	<s id='1'>Médecine, astronomie, astrologie, physionomie, métoposcopie, chiromancie, géomancie, etc.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='118'>
+
+	<s id='1'>Au diable les savants qui ne veulent point écouter les gens ! </s>
+
+	<s id='2'>On me l'avait bien dit, que son maître Aristote n'était rien qu'un bavard. </s>
+
+	<s id='3'>Il faut que j'aille trouver l'autre ; il est plus posé, et plus raisonnable. </s>
+
+	<s id='4'>Holà ! </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Marphurius, Sganarelle.</head>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Que voulez-vous de moi, seigneur Sganarelle ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Seigneur Docteur, j'aurois besoin de votre conseil sur une petite affaire dont il s'agit, et je suis venu ici pour cela. </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Voilà qui va bien : il écoute le monde celui-ci.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Seigneur Sganarelle, changez, s'il vous plaît, cette façon de parler. </s>
+
+	<s id='2'>Notre philosophie ordonne de ne point énoncer de proposition décisive, de parler de tout avec incertitude, de suspendre toujours son jugement ; et, par cette raison, vous ne devez pas dire : "Je suis venu ;" mais "Il me semble que je suis venu."</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Il me semble!</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Oui.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Parbleu ! </s>
+
+	<s id='2'>il faut bien qu'il me le semble, puisque cela est.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='7'>
+
+	<s id='1'>Ce n'est pas une conséquence ; et il peut vous sembler, sans que la chose soit véritable.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Comment ? </s>
+
+	<s id='2'>il n'est pas vrai que je suis venu ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Cela est incertain, et nous devons douter de tout.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Quoi ? </s>
+
+	<s id='2'>je ne suis pas ici, et vous ne me parlez pas ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Il m'apparoît que vous êtes là, et il me semble que je vous parle ; mais il n'est pas assuré que cela soit.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Eh ! </s>
+
+	<s id='2'>Que diable ! </s>
+
+	<s id='3'>Vous vous moquez. </s>
+
+	<s id='4'>Me voilà, et vous voilà bien nettement, et il n'y a point de me semble à tout cela. </s>
+
+	<s id='5'>Laissons ces subtilités, je vous prie, et parlons de mon affaire. </s>
+
+	<s id='6'>Je viens vous dire que j'ai envie de me marier.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Je n'en sais rien.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='14'>
+
+	<s id='1'>Je vous le dis.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Il se peut faire.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='16'>
+
+	<s id='1'>La fille que je veux prendre est fort jeune et fort belle.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Il n'est pas impossible.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Ferai-je bien ou mal de l'épouser ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='19'>
+
+	<s id='1'>L'un ou l'autre.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Voici une autre musique. </s>
+
+	<s id='4'>Je vous demande si je ferai bien d'épouser la fille dont je vous parle.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Selon la rencontre.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Ferai-je mal ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Par aventure.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='24'>
+
+	<s id='1'>De grâce, répondez-moi comme il faut.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='25'>
+
+	<s id='1'>C'est mon dessein.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<note type="L">Inclination : Se dit aussi de l'amour, du penchant, de l'attachement qu'on a pour quelqu'un. [F]</note>
+
+<p id='26'>
+
+	<s id='1'>J'ai une grande inclination pour la fille.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='27'>
+
+	<s id='1'>Cela peut être.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='28'>
+
+	<s id='1'>Le père me l'a accordée.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='29'>
+
+	<s id='1'>Il se pourrait.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='30'>
+
+	<s id='1'>Mais, en l'épousant, je crains d'être cocu.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='31'>
+
+	<s id='1'>La chose est faisable.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='32'>
+
+	<s id='1'>Qu'en pensez-vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='33'>
+
+	<s id='1'>Il n'y a pas d'impossibilité.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='34'>
+
+	<s id='1'>Mais que feriez-vous, si vous étiez en ma place ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='35'>
+
+	<s id='1'>Je ne sais.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='36'>
+
+	<s id='1'>Que me conseillez-vous de faire ?</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='37'>
+
+	<s id='1'>Ce qui vous plaira.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='38'>
+
+	<s id='1'>J'enrage.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='39'>
+
+	<s id='1'>Je m'en lave les mains.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='40'>
+
+	<s id='1'>Au diable soit le vieux rêveur!</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='41'>
+
+	<s id='1'>Il en sera ce qui pourra.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='42'>
+
+	<s id='1'>La peste du bourreau ! </s>
+
+	<s id='2'>Je te ferai changer de note, chien de philosophe enragé.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='43'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Ah!</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='44'>
+
+	<s id='1'>Te voilà payé de ton galimatias, et me voilà content.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='45'>
+
+	<s id='1'>Comment ? </s>
+
+	<s id='2'>Quelle insolence ! </s>
+
+	<s id='3'>M'outrager de la sorte ! </s>
+
+	<s id='4'>Avoir eu l'audace de battre un philosophe comme moi!</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='46'>
+
+	<s id='1'>Corrigez, s'il vous plaît, cette manière de parler. </s>
+
+	<s id='2'>Il faut douter de toutes choses, et vous ne devez pas dire que je vous ai battu, mais qu'il vous semble que je vous ai battu.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='47'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Je m'en vais faire ma plainte au commissaire du quartier des coups que j'ai reçus.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='48'>
+
+	<s id='1'>Je m'en lave les mains.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='49'>
+
+	<s id='1'>J'en ai les marques sur ma personne.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='50'>
+
+	<s id='1'>Il se peut faire.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='51'>
+
+	<s id='1'>C'est toi qui m'as traité ainsi.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='52'>
+
+	<s id='1'>Il n'y a pas d'impossibilité.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='53'>
+
+	<s id='1'>J'aurai un décret contre toi.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='54'>
+
+	<s id='1'>Je n'en sais rien.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='55'>
+
+	<s id='1'>Et tu seras condamné en justice.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='56'>
+
+	<s id='1'>Il en sera ce qui pourra.</s>
+
+</p>
+
+</sp>
+
+<sp who='MARPHURIUS'><speaker>MARPHURIUS.</speaker>
+
+<p id='57'>
+
+	<s id='1'>Laisse-moi faire.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='58'>
+
+	<s id='1'>Comment ? </s>
+
+	<s id='2'>on ne sauroit tirer une parole positive de ce chien d'homme-là, et l'on est aussi savant à la fin qu'au commencement. </s>
+
+	<s id='3'>Que dois-je faire dans l'incertitude des suites de mon mariage ? </s>
+
+	<s id='4'>Jamais homme ne fut plus embarrassé que je suis. </s>
+
+	<s id='5'>Ah ! </s>
+
+	<s id='6'>Voici des Egyptiennes ; il faut que je me fasse dire par elles ma bonne aventure. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Deux égyptiennes, Sganarelle.</head>
+
+<stage>Les Egyptiennes, avec leurs tambours de basque, entrent en chantant et dansant.</stage>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Elles sont gaillardes. </s>
+
+	<s id='2'>Écoutez, vous autres, y a-t-il moyen de me dire ma bonne fortune ? </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Oui, mon bon Monsieur, nous voici deux qui te la diront. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Tu n'as seulement qu'à nous donner ta main, avec la croix dedans, et nous te dirons quelque chose pour ton bon profit.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id=''>Tenez, les voilà toutes deux avec ce que vous demandez. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Tu as une bonne physionomie, mon bon Monsieur, une bonne physionomie. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Oui, bonne physionomie ; physionomie d'un homme qui sera un jour quelque chose. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='7'>
+
+	<s id='1'>Tu seras marié avant qu'il soit peu, mon bon Monsieur, tu seras marié avant qu'il soit peu. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Tu épouseras une femme gentille, une femme gentille. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Oui, une femme qui sera chérie et aimée de tout le monde. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Une femme qui te fera beaucoup d'amis, mon bon Monsieur, qui te fera beaucoup d'amis. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Une femme qui fera venir l'abondance chez toi. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Une femme qui te donnera une grande réputation. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Tu seras considéré par elle, mon bon Monsieur, tu seras considéré par elle.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='14'>
+
+	<s id='1'>Voilà qui est bien. </s>
+
+	<s id='2'>Mais dites-moi un peu, suis-je menacé d'être cocu ? </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Cocu ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Oui. </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Cocu ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Oui, si je suis menacé d'être cocu ? </s>
+
+</p>
+
+</sp>
+
+<sp who='EGYPTIENNES'><speaker>Toutes deux chantent et dansent.</speaker>
+
+<p id='19'>
+
+	<s id='1'>La, la, la, la...</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Que diable ! </s>
+
+	<s id='2'>Ce n'est pas là me répondre. </s>
+
+	<s id='3'>Venez çà. </s>
+
+	<s id='4'>Je vous demande à toutes deux si je serai cocu. </s>
+
+</p>
+
+</sp>
+
+<sp who='2ème-EGYPTIENNE'><speaker>2ème EGYPTIENNE.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Cocu, vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Oui, si je serai cocu ? </s>
+
+</p>
+
+</sp>
+
+<sp who='Ière-EGYPTIENNE'><speaker>Ière EGYPTIENNE.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Vous, cocu ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='24'>
+
+	<s id='1'>Oui, si je le serai ou non ? </s>
+
+</p>
+
+</sp>
+
+<sp who='EGYPTIENNES'><speaker>Toutes deux chantent et dansent.</speaker>
+
+<p id='25'>
+
+	<s id='1'>La, la, la, la...</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='26'>
+
+	<s id='1'>Peste soit des carognes, qui me laissent dans l'inquiétude ! </s>
+
+	<s id='2'>Il faut absolument que je sache la destinée de mon mariage ; et pour cela, je veux aller trouver ce grand magicien dont tout le monde parle tant, et qui, par son art admirable, fait voir tout ce que l'on souhaite. </s>
+
+	<s id='3'>Ma foi, je crois que je n'ai que faire d'aller au magicien, et voici qui me montre tout ce que je puis demander. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Dorimène, Lycaste, Sganarelle.</head>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Quoi ? </s>
+
+	<s id='2'>Belle Dorimène, c'est sans raillerie que vous parlez ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Sans raillerie.</s>
+
+</p>
+
+</sp>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Vous vous mariez tout de bon ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Tout de bon.</s>
+
+</p>
+
+</sp>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Et vos noces se feront dès ce soir ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Dès ce soir.</s>
+
+</p>
+
+</sp>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='7'>
+
+	<s id='1'>Et vous pouvez, cruelle que vous êtes, oublier de la sorte l'amour que j'ai pour vous, et les obligeantes paroles que vous m'aviez données ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Moi ? </s>
+
+	<s id='2'>Point du tout. </s>
+
+	<s id='3'>Je vous considère toujours de même, et ce mariage ne doit point vous inquiéter : c'est un homme que je n'épouse point par amour, et sa seule richesse me fait résoudre à l'accepter. </s>
+
+	<s id='4'>Je n'ai point de bien ; vous n'en avez point aussi, et vous savez que sans cela on passe mal le temps au monde, qu'à quelque prix que ce soit, il faut tâcher d'en avoir. </s>
+
+	<s id='5'>J'ai embrassé cette occasion-ci de me mettre à mon aise ; et je l'ai fait sur l'espérance de me voir bientôt délivrée du barbon que je prends. </s>
+
+	<s id='6'>C'est un homme qui mourra avant qu'il soit peu, et qui n'a tout au plus que six mois dans le ventre. </s>
+
+	<s id='7'>Je vous le garantis défunt dans le temps que je dis ; et je n'aurai pas longuement à demander pour moi au Ciel l'heureux état de veuve. </s>
+
+	<s id='8'>Ah ! </s>
+
+	<s id='9'>Nous parlions de vous, et nous en disions tout le bien qu'on en sauroit dire.</s>
+
+</p>
+
+</sp>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Est-ce là, Monsieur... ?</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Oui, c'est Monsieur qui me prend pour femme.</s>
+
+</p>
+
+</sp>
+
+<sp who='LYCASTE'><speaker>LYCASTE.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Agréez, Monsieur, que je vous félicite de votre mariage, et vous présente en même temps mes très humbles services. </s>
+
+	<s id='2'>Je vous assure que vous épousez là une très honnête personne ; et vous, Mademoiselle, je me réjouis avec vous aussi de l'heureux choix que vous avez fait. </s>
+
+	<s id='3'>Vous ne pouviez pas mieux trouver, et Monsieur a toute la mine d'être un fort bon mari. </s>
+
+	<s id='4'>Oui, Monsieur, je veux faire amitié avec vous, et lier ensemble un petit commerce de visites et de divertissements.</s>
+
+</p>
+
+</sp>
+
+<sp who='DORIMENE'><speaker>DORIMÈNE.</speaker>
+
+<p id='12'>
+
+	<s id='1'>C'est trop d'honneur que vous nous faites à tous deux. </s>
+
+	<s id='2'>Mais allons, le temps me presse, et nous aurons tout le loisir de nous entretenir ensemble.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Me voilà tout à fait dégoûté de mon mariage, et je crois que je ne ferai pas mal de m'aller dégager de ma parole. </s>
+
+	<s id='2'>Il m'en a coûté quelque argent ; mais il vaut mieux encore perdre cela que de m'exposer à quelque chose de pis. </s>
+
+	<s id='3'>Tâchons adroitement de nous débarrasser de cette affaire. </s>
+
+	<s id='4'>Holà ! </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII. Alcantor, Sganarelle.</head>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='1'>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Mon gendre, soyez le bienvenu.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Monsieur, votre serviteur.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Vous venez pour conclure le mariage ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Excusez-moi.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Je vous promets que j'en ai autant d'impatience que vous.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>Je viens ici pour autre sujet.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='7'>
+
+	<s id='1'>J'ai donné ordre à toutes les choses nécessaires pour cette fête.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='8'>
+
+	<s id='1'>Il n'est pas question de cela.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='9'>
+
+	<s id='1'>Les violons sont retenus, le festin est commandé, et ma fille est parée pour vous recevoir.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Ce n'est pas ce qui m'amène.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='11'>
+
+	<s id='1'>Enfin vous allez être satisfait et rien ne peut retarder votre contentement.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Mon Dieu ! </s>
+
+	<s id='2'>C'est autre chose.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Allons, entrez donc, mon gendre.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='14'>
+
+	<s id='1'>J'ai un petit mot à vous dire.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Mon Dieu, ne faisons point de cérémonie. </s>
+
+	<s id='3'>Entrez vite, s'il vous plaît.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Non, vous dis-je. </s>
+
+	<s id='2'>Je vous veux parler auparavant.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Vous voulez me dire quelque chose ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Oui.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='19'>
+
+	<s id='1'>Et quoi ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Seigneur Alcantor, j'ai demandé votre fille en mariage, il est vrai, et vous me l'avez accordée ; mais je me trouve un peu avancé en âge pour elle, et je considère que je ne suis point du tout son fait.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Pardonnez-moi, ma fille vous trouve bien comme vous êtes ; et je suis sûr qu'elle vivra fort contente avec vous.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Point. </s>
+
+	<s id='2'>J'ai parfois des bizarreries épouvantables, et elle auroit trop à souffrir de ma mauvaise humeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Ma fille a de la complaisance, et vous verrez qu'elle s'accommodera entièrement à vous.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='24'>
+
+	<s id='1'>J'ai quelques infirmités sur mon corps qui pourroient la dégoûter.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='25'>
+
+	<s id='1'>Cela n'est rien. </s>
+
+	<s id='2'>Une honnête femme ne se dégoûte jamais de son mari.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='26'>
+
+	<s id='1'>Enfin voulez-vous que je vous dise ? </s>
+
+	<s id='2'>Je ne vous conseille pas de me la donner.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='27'>
+
+	<s id='1'>Vous moquez-vous ? </s>
+
+	<s id='2'>J'aimerois mieux mourir que d'avoir manqué à ma parole.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='28'>
+
+	<s id='1'>Mon Dieu, je vous en dispense, et je...</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='29'>
+
+	<s id='1'>Point du tout. </s>
+
+	<s id='2'>Je vous l'ai promise ; et vous l'aurez en dépit de tous ceux qui y prétendent.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='30'>
+
+	<s id='1'>Que diable!</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='31'>
+
+	<s id='1'>Voyez-vous, j'ai une estime et une amitié pour vous toute particulière ; et je refuserais ma fille à un prince pour vous la donner.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='32'>
+
+	<s id='1'>Seigneur Alcantor, je vous suis obligé de l'honneur que vous me faites, mais je vous déclare que je ne me veux point marier.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='33'>
+
+	<s id='1'>Qui, vous ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='34'>
+
+	<s id='1'>Oui, moi.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='35'>
+
+	<s id='1'>Et la raison ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='36'>
+
+	<s id='1'>La raison ? </s>
+
+	<s id='2'>C'est que je ne me sens point propre pour le mariage, et que je veux imiter mon père, et tous ceux de ma race, qui ne se sont jamais voulu marier.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='37'>
+
+	<s id='1'>Écoutez, les volontés sont libres ; et je suis homme à ne contraindre jamais personne. </s>
+
+	<s id='2'>Vous vous êtes engagé avec moi pour épouser ma fille, et tout est préparé pour cela ; mais puisque vous voulez retirer votre parole, je vais voir ce qu'il y a à faire ; et vous aurez bientôt de mes nouvelles.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='38'>
+
+	<s id='1'>Encore est-il plus raisonnable que je ne pensois, et je croyois avoir bien plus de peine à m'en dégager. </s>
+
+	<s id='2'>Ma foi, quand j'y songe, j'ai fait fort sagement de me tirer de cette affaire ; et j'allois faire un pas dont je me serois peut-être longtemps repenti. </s>
+
+	<s id='3'>Mais voici le fils qui me vient rendre réponse. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Alcidas, Sganarelle.</head>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS, parlant toujours d'un ton doucereux.</speaker>
+
+<p id='1'>
+
+	<s id='2'>Monsieur, je suis votre serviteur très humble.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Monsieur, je suis le vôtre de tout mon coeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='3'>
+
+	<s id='1'>Mon père m'a dit, Monsieur, que vous vous étiez venu dégager de la parole que vous aviez donnée.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='4'>
+
+	<s id='1'>Oui, Monsieur : c'est avec regret ; mais...</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='5'>
+
+	<s id='1'>Oh ! </s>
+
+	<s id='2'>Monsieur, il n'y a pas de mal à cela.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='6'>
+
+	<s id='1'>J'en suis fâché, je vous assure ; et je souhaiterois...</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='7'>
+
+	<s id='1'>Cela n'est rien, vous dis-je. </s>
+
+</p><stage>Lui présentant deux épées.</stage>
+
+<p id='8'>
+
+	<s id='1'>Monsieur, prenez la peine de choisir de ces deux épées laquelle vous voulez.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='9'>
+
+	<s id='1'>De ces deux épées ?</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='10'>
+
+	<s id='1'>Oui, s'il vous plaît.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='11'>
+
+	<s id='1'>À quoi bon ?</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='12'>
+
+	<s id='1'>Monsieur, comme vous refusez d'épouser ma soeur après la parole donnée, je crois que vous ne trouverez pas mauvais le petit compliment que je viens vous faire.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='13'>
+
+	<s id='1'>Comment ?</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='14'>
+
+	<s id='1'>D'autres gens feroient du bruit et s'emporteroient contre vous ; mais nous sommes personnes à traiter les choses dans la douceur ; et je viens vous dire civilement qu'il faut, si vous le trouvez bon, que nous nous coupions la gorge ensemble.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='15'>
+
+	<s id='1'>Voilà un compliment fort mal tourné.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='16'>
+
+	<s id='1'>Allons, Monsieur, choisissez, je vous prie.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='17'>
+
+	<s id='1'>Je suis votre valet, je n'ai point de gorge à me couper. </s>
+
+	<s id='2'>La vilaine façon de parler que voilà!</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='18'>
+
+	<s id='1'>Monsieur, il faut que cela soit, s'il vous plaît.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='19'>
+
+	<s id='1'>Eh ! </s>
+
+	<s id='2'>Monsieur, rengainez ce compliment, je vous prie.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='20'>
+
+	<s id='1'>Dépêchons vite, Monsieur : j'ai une petite affaire qui m'attend.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='21'>
+
+	<s id='1'>Je ne veux point de cela, vous dis-je.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='22'>
+
+	<s id='1'>Vous ne voulez pas vous battre ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='23'>
+
+	<s id='1'>Nenni, ma foi.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='24'>
+
+	<s id='1'>Tout de bon ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='25'>
+
+	<s id='1'>Tout de bon.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='26'>
+
+	<s id='1'>Au moins, Monsieur, vous n'avez pas lieu de vous plaindre, et vous voyez que je fais les choses dans l'ordre. </s>
+
+	<s id='2'>Vous nous manquez de parole, je me veux battre contre vous ; vous refusez de vous battre, je vous donne des coups de bâton : tout cela est dans les formes ; et vous êtes trop honnête homme pour ne pas approuver mon procédé.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='27'>
+
+	<s id='1'>Quel diable d'homme est-ce ci ?</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='28'>
+
+	<s id='1'>Allons, Monsieur, faites les choses galamment, et sans vous faire tirer l'oreille.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='29'>
+
+	<s id='1'>Encore ?</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='30'>
+
+	<s id='1'>Monsieur, je ne contrains personne ; mais il faut que vous vous battiez, ou que vous épousiez ma soeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='31'>
+
+	<s id='1'>Monsieur, je ne puis faire ni l'un ni l'autre, je vous assure.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='32'>
+
+	<s id='1'>Assurément ?</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='33'>
+
+	<s id='1'>Assurément.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='34'>
+
+	<s id='1'>Avec votre permission donc...</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='35'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Ah ! </s>
+
+	<s id='3'>Ah ! </s>
+
+	<s id='4'>Ah!</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='36'>
+
+	<s id='1'>Monsieur, j'ai tous les regrets du monde d'être obligé d'en user ainsi avec vous ; mais je ne cesserai point, s'il vous plaît que vous n'ayez promis de vous battre, ou d'épouser ma soeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='SGANARELLE'><speaker>SGANARELLE.</speaker>
+
+<p id='37'>
+
+	<s id='1'>Hé bien ! </s>
+
+	<s id='2'>J'épouserai, j'épouserai...</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='38'>
+
+	<s id='1'>Ah ! </s>
+
+	<s id='2'>Monsieur, je suis ravi que vous vous mettiez à la raison, et que les choses se passent doucement. </s>
+
+	<s id='3'>Car enfin vous êtes l'homme du monde que j'estime le plus, je vous jure ; et j'aurois été au désespoir que vous m'eussiez contraint à vous maltraiter. </s>
+
+	<s id='4'>Je vais appeler mon père, pour lui dire que tout est d'accord. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Alcantor, Alcidas, Sganarelle.</head>
+
+<sp who='ALCIDAS'><speaker>ALCIDAS.</speaker>
+
+<p id='1'>
+
+	<s id='1'>Mon père, voilà Monsieur, qui est tout à fait raisonnable. </s>
+
+	<s id='2'>Il a voulu faire les choses de bonne grâce, et vous pouvez lui donner ma soeur.</s>
+
+</p>
+
+</sp>
+
+<sp who='ALCANTOR'><speaker>ALCANTOR.</speaker>
+
+<p id='2'>
+
+	<s id='1'>Monsieur, voilà sa main, vous n'avez qu'à donner la vôtre. </s>
+
+	<s id='2'>Loué soit le Ciel ! </s>
+
+	<s id='3'>M'en voilà déchargé, et c'est vous désormais que regarde le soin de sa conduite. </s>
+
+	<s id='4'>Allons nous réjouir, et célébrer cet heureux mariage. </s>
+
+</p>
+
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

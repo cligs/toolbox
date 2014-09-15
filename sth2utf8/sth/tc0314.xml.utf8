@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DAPHNÉ, OPÉRA.</title>
+				<author born='1621' born_location='Château-Thierry' death='1695' death_location='Paris' academie=''>LA FONTAINE, Jean de</author>
+				<date>1682</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, décembre 2008</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Opéra</genre>
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes, un prologue</structure>
+				<type>vers</type>
+				<periode>1681-1690</periode>
+				<taille>750-1000</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">DAPHNÉ</titlePart>
+			<titlePart type="sub">OPÉRA</titlePart>
+		</docTitle> 
+		<docDate value='1682'>M. DC. LXXXII.</docDate>
+		<docAuthor id='LA FONTAINE, Jean de' bio='lafontaine'>Par LA FONTAINE</docAuthor>
+		<docImprint>
+ 			<privilege><head></head>
+				<p></p>
+			</privilege>
+			<acheveImprime id='****-**-**'></acheveImprime>
+			<printer id='THIERRY'>À PARIS, Chez Denis Thierry, 1682.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='(non représenté)' location='(non représentée)'>Cette oeuvre n'a pas été représentée.</premiere>
+		</performance>
+<castList>
+	<head>PERSONNAGES DU PROLOGUE.</head>
+	<castItem><role id="JUPITER" civil='D'>JUPITER</role>.</castItem>
+	<castItem><role id="L-AMOUR" civil='D'>L'AMOUR</role>.</castItem>
+	<castItem><role id="VENUS" civil='D'>VÉNUS</role>.</castItem>
+	<castItem><role id="MINERVE" civil='D'>MINERVE</role>.</castItem>
+	<castItem><role id="MOMUS" civil='D'>MOMUS</role>.</castItem>
+	<castItem><role id="PROMETHEE" civil='D'>PROMÉTHÉE</role>.</castItem>
+	<castItem><role id="CHOEUR" civil='G'>CHOEUR</role>, d'un nouveau modèle d'hommes que Prométhé a forgé.</castItem>
+</castList>
+<castList>
+	<head>PERSONNAGES .</head>
+	<castItem><role id="APOLLON" civil="D">APOLLON</role>.</castItem>
+	<castItem><role id="MOMUS" civil="D">MOMUS</role>.</castItem>
+	<castItem><role id="PENEE" civil="D">PÉNÉE</role>, dieu d'un fleuve.</castItem>
+	<castItem><role id="DAPHNE" civil="D">DAPHNÉ</role>, fille de Pénée.</castItem>
+	<castItem><role id="LEUCIPPE" civil="D">LEUCIPPE</role>, amant de Daphné.</castItem>
+	<castItem><role id="APOLLON" civil="D">APOLLON</role>, sous le nom de Tharsis, Prince de Lycie, amant de Daphné.</castItem>
+	<castItem><role id="MOMUS" civil="D">MOMUS</role>, sous le nom de Télamon, confident de Tharsis.</castItem>
+	<castItem><role id="APIDAME" civil="D">APIDAME</role>, fleuve de la Cour de Pénée.</castItem>
+	<castItem><role id="AMPHRISE" civil="D">AMPHRISE</role>, fleuve de la Cour de Pénée.</castItem>
+	<castItem><role id="SPERCHEE" civil="D">SPERCHÉE</role>, fleuve de la Cour de Pénée.</castItem>
+	<castItem><role id="MEROE" civil="D">MEROÉ</role>, nourrice et gouvernante de Daphné.</castItem>
+	<castItem><role id="CLIMENE" civil="D">CLIMÈNE</role>, confidente de Daphné.</castItem>
+	<castItem><role id="CHLORIS" civil="D">CHLORIS</role>, nymphe de Daphné.</castItem>
+	<castItem><role id="AMYNTE" civil="D">AMYNTE</role>, nymphe de Daphné.</castItem>
+	<castItem><role id="ISMELE" civil="D">ISMÈLE</role>, sybille ou pythonisse.</castItem>
+	<castItem><role id="SACRIFICATEUR" civil="M">UN SACRIFICATEUR</role>.</castItem>
+	<castItem><role id="VENUS" civil="D">VÉNUS</role>.</castItem>
+	<castItem><role id="AMOUR" civil="D">L'AMOUR</role>.</castItem>
+	<castItem><role id="DIANE" civil="D">DIANE</role>.</castItem>
+	<castItem><role id="SYLVAINS-CHASSEURS-BERGERS" civil="G">Troupe de Sylvains, de chasseurs et de bergers</role>.</castItem>
+	<castItem><role id="MERCURE" civil="D">MERCURE</role>.</castItem>
+	<castItem><role id="MELPOMENE" civil="D">MELPOMÈNE</role>.</castItem>
+	<castItem><role id="THALIE" civil="D">THALIE</role>.</castItem>
+	<castItem><role id="POETE-HEROIQUE" civil="M">Un POÈTE héroïque</role>.</castItem>
+	<castItem><role id="POETE-LYRIQUE" civil="M">Un POÈTE lyrique</role>.</castItem>
+	<castItem><role id="POETE-SATYRIQUE" civil="M">Un POÈTE satyrique</role>.</castItem>
+	<castItem><role id="PHILIS" civil="F">PHILIS</role>, jeune muse du genre lyrique.</castItem>
+	<castItem><role id="DAPHNIS" civil="M">DAPHNIS</role>, poète lyrique, amant de Philis.</castItem>
+	<castItem><role id="CHOEURS" civil="G">CHOEURS</role>.</castItem>
+</castList>
+<set location='Grèce' country='Grèce' periode='Temps mythologiques' link=''></set>
+
+</front>
+<body>
+<div1 type='acte' n='1'><head>PROLOGUE</head>
+<stage>Le théâtre s'ouvre, et laisse voir dans le fond et aux deux côtés une suite de nuages à dix pieds de terre, et dans ces nuages les palais des dieux. Les dieux y paraissent assis et dormant. Au-dessous de ces nuages, la terre est représentée telle qu'elle était incontinent après le déluge, avec les débris qu'il a laissés. Pendant que la plupart des dieux dorment, Jupiter descend de sa machine, accompagné de Momus. Vénus, l'Amour et Minerve descendent aussi de la leur.</stage>
+<div2 type='scene' n='1'><head></head>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+<note>Cet opéra a été publié pour la première fois en 1682, à la suite du poème du "Quinquina". Il n'a jamais été représenté. La Fontaine l'a composé, en 1679, à la prière de Lully, qui lui préféra "Proserpine", de Quinault. Le sujet est tiré des "Métamorphoses" d'Ovide. (note de Ch. Marty Laveaux, dans les Oeuvres complètes, Tome IV, Paris, 1860.)</note>
+<note>LA FONTAINE(Jean de) .- Poème du quinquina et autres ouvrages en vers [la Matrone d'Éphèse, Belphégor, l'Avertissement de La Fontaine sur Galatée, Galatée, Daphné] de M. de La Fontaine .- Paris : chez D. Thierry, 1682. - In-12, 242 p. .- BnF [RES- YE- 2262, RES- YE- 2263, 8-RF-6300]</note>
+	<l id='1'>Vous, qui voulez qu'à la fureur de l'onde</l>
+	<l id='2'>Jupiter mette un frein, et repeuple ces lieux,</l>
+	<l id='3'>Vous vous lassez trop tôt d'être seul dans le monde ;</l>
+	<l id='4'>Mille voeux vont troubler cette paix si profonde</l>
+	<l id='5'>Dont la terre à présent laisse jouir les cieux.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='6'>Charmante oisiveté, repos délicieux !</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE.</speaker>
+	<l id='7'>Ou plutôt, repos ennuyeux !</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='8'>Quoi ! le sommeil pourrait aux déesses déplaire !</l>
+	<l id='9'>Ne point souffrir,</l>
+	<l id='10'>Ne point mourir,</l>
+	<l id='11'>Et ne rien faire,</l>
+	<l id='12'>Que peut-on souhaiter de mieux ?</l>
+	<l id='13'>Ce qui fait le bonheur des dieux,</l>
+	<l id='14'>C'est de n'avoir aucune affaire,</l>
+	<l id='15'>Ne point souffrir,</l>
+	<l id='16'>Ne point mourir,</l>
+	<l id='17'>Et ne rien faire.</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE.</speaker>
+	<l id='18'>Est-ce ainsi qu'on a des autels ?</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='19'>Eh bien, faisons d'autres mortels :</l>
+	<l id='20'>Vos talents et nos soins deviendront nécessaires.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='21'>Ne vous faites point tant d'affaires.</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='22'>Les premiers des humains sont péris sous les eaux :</l>
+	<l id='23'>Fille de ma raison, forgeons-en de nouveaux.</l>
+	<l id='24'>Promethée en fait des modèles ;</l>
+	<l id='25'>Vents, allez le chercher, qu'il vienne sur vos ailes.</l>
+<stage>À ce commandement de Jupiter, les Vents partent de tous les côtés du théâtre, et apportent Prométhée.</stage>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='26' part='i'>Que me veut Jupiter ?</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='26' part='f'>Ouvre tes magasins.</l>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='27'>Paraissez, nouveaux humains.</l>
+<stage>À ce commandement de Prométhée, les toiles qui représentent la terre s'ouvrent de côté et d'autre, et au fond aussi, et laissent voir de toutes parts une boutique de sculpteur avec force outils et morceaux de toutes matières, et des statues d'hommes et de femmes debout sur des cubes.</stage>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='28'>Sont-ce là des humains ? Quelle race immobile !</l>
+	<l id='29'>J'aimais mieux la première, encor que moins tranquille.</l>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='30'>Vous ne les connaissez pas.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='31'>Fais-leur faire quelques pas.</l>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='32' part='i'>Descendez.</l>
+<stage>Les statues descendent, et viennent à pas lents et graves faire une entrée, dansant presque sans mouvement, et d'une façon composée, comme feraient des sages et des philosophes.</stage>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='32' part='f'>Quelles gens ! Ce n'est qu'une machine.</l>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='33' part='i'>C'est l'idole d'un sage.</l>
+</sp>
+<sp who='LES-DIEUX'><speaker>LES DIEUX.</speaker>
+	<l id='33' part='f'>Hé quoi ! la passion</l>
+	<l id='34'>Jamais chez eux ne domine !</l>
+</sp>
+<sp who='PROMETHEE'><speaker>PROMÉTHÉE.</speaker>
+	<l id='35'>Leur coeur en est tout plein ; ce n'est qu'ambition,</l>
+	<l id='36'>Colère, désespoir, crainte, ou joie excessive.</l>
+	<l id='37'>Machine, on veut voir vos ressorts ;</l>
+	<l id='38'>Quittez tous ces trompeurs dehors.</l>
+<stage>Les nouveaux hommes, qui paraissaient de véritables statues, quittent une partie de l'habit qui les enveloppe, et se font voir tels qu'ils sont dans l'intérieur, l'un représentant l'ambition, l'autre, la colère, la crainte, le désespoir, la joie excessive, etc. En cet état ils dansent en confusion et d'une manière aussi impétueuse et aussi vive que l'autre était grave et peu animée.</stage>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS, considérant les divers ressorts de cette machine, dit ces paroles.</speaker>
+	<l id='39'>Je la trouvais trop lente, et la voilà trop vive.</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE.</speaker>
+	<l id='40'>Laissez-moi régler ces transports.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='41'>Mon fils, par de secrètes causes,</l>
+	<l id='42'>Peut encor mieux que vous les calmer à son tour :</l>
+	<l id='43'>Rien n'a d'empire sur l'Amour,</l>
+	<l id='44'>L'Amour en a sur toutes choses.</l>
+	<l id='45'>Le plus magnifique don</l>
+	<l id='46'>Qu'aux mortels on puisse faire,</l>
+	<l id='47' part='i'>C'est l'amour.</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE.</speaker>
+	<l id='47' part='f'>C'est la raison.</l>
+	<l id='48'>Le don le plus nécessaire</l>
+	<l id='49'>Aux hôtes de ce séjour,</l>
+	<l id='50' part='i'>C'est la raison.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='50' part='f'>C'est l'amour.</l>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='51'>L'effet en jugera : servez-vous de vos armes,</l>
+	<l id='52'>Et moi j'emploierai mes charmes.</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE, aux hommes.</speaker>
+	<l id='53'>Que vous vous tourmentez, mortels ambitieux,</l>
+	<l id='54'>Désespérés et furieux,</l>
+	<l id='55'>Ennemis du repos, ennemis de vous-mêmes !</l>
+	<l id='56'>A modérer vos voeux mettez tous vos plaisirs :</l>
+	<l id='57'>Régnez sur vos propres désirs ;</l>
+	<l id='58'>C'est le plus beau des diadêmes.</l>
+<stage>Les hommes qui s'étaient arrêtés quelques moments pour Ouïr Minerve, attendent à peine qu'elle a achevé, et ne laissent pas, malgré ses conseils, témoigner toujours la même fureur et le même emportement. L'Amour leur faisant signe qu'il veut parler, ils s'arrêtent.</stage>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR, à Minerve.</speaker>
+	<l id='59'>De vos sages discours voyez quel est le fruit</l>
+	<l id='60' part='i'>Je ne dirai qu'un mot.</l>
+<stage>Aux hommes.</stage>
+	<l id='62' part='m'>Aimez.</l>
+<stage>À ce mot, ceux qui dansaient en confusion et en tumulte dansent deux à deux comme personnes qui s'aiment.</stage>
+	<l id='62' part='f'>On obéit :</l>
+	<l id='63' part='i'>Vous le voyez.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='63' part='f'>Amour, qu'il est doux de te suivre !</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER, aux nouveaux hommes.</speaker>
+	<l id='64'>Vivez, nouveaux humains.</l>
+</sp>
+<sp who='CHOEUR-DES-DIEUX'><speaker>LE CHOEUR DES DIEUX.</speaker>
+	<l id='65'>Vivez, nouveaux humains.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='66'>Laissez-vous enflammer.</l>
+	<l id='67'>Que vaut la peine de vivre,</l>
+	<l id='68'>Sans le doux plaisir d'aimer ?</l>
+</sp>
+<sp who='CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='69'>Que vaut la peine de vivre,</l>
+	<l id='70'>Sans le doux plaisir d'aimer ?</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='71'>D'où vient que si mal assortie</l>
+	<l id='72'>Cette belle a fait choix d'un vieillard pour amant ?</l>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='73'>C'est l'effet merveilleux d'un secret sentiment</l>
+	<l id='74'>Que j'appelle sympathie.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='75'>Le démon opposé n'a pas moins de pouvoir.</l>
+	<l id='76'>Souvent nous haïssons ce qui devrait nous plaire.</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='77'>Tel dieu sait l'avenir, qui n'a pas su prévoir</l>
+	<l id='78'>Quels maux ce démon lui va faire.</l>
+	<l id='79'>Mais un jour un prince viendra</l>
+	<l id='80'>Qui plaira plus qu'il ne voudra.</l>
+	<l id='81'>Le Destin parmi nous lui garde un rang insigne,</l>
+	<l id='82'>Et je lui veux accorder,</l>
+	<l id='83'>Afin qu'il en soit plus digne,</l>
+	<l id='84'>L'art de savoir commander.</l>
+	<l id='85'>Mars lui promet en apanage</l>
+	<l id='86'>La grandeur d'âme et de courage.</l>
+</sp>
+<sp who='MINERVE'><speaker>MINERVE.</speaker>
+	<l id='87' part='i'>Moi, la vertu.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='87' part='f'>Moi, l'agrément.</l>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='88'>Et moi le don d'aimer et d'être heureux amant.</l>
+</sp>
+<sp who='VENUS_L-AMOUR_MINERVE'><speaker>VENUS, L'AMOUR ET MINERVE ensemble.</speaker>
+	<l id='89'>Amour et la Raison s'accorderont pour faire</l>
+	<l id='90'>Qu'aux coeurs comme aux esprits ce prince plaise un jour</l>
+</sp>
+<sp who='CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='91'>Heureux qui par raison doit plaire !</l>
+	<l id='92'>Plus heureux qui plaît par amour !</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE I</head>
+<stage>La décoration de cet acte représente la vallée de Tempé, et au fond les eaux du Pénée, avec une prairie couverte de fleurs ; le Parnasse en éloignement. </stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Chloris, Aminte. </head>
+<sp who='CHLORIS_AMINTE_NYMPHES'><speaker>CHLORIS et AMINTE, NYMPHES entrent sur la scène en se tenant par la main, et chantent ensemble cette chanson.</speaker>
+	<l id='93'>Allons dans cette prairie :</l>
+	<l id='94'>C'est un tranquille séjour ;</l>
+	<l id='95'>Jamais les larmes d'amour</l>
+	<l id='96'>N'y baignent l'herbe fleurie ;</l>
+	<l id='97'>Les moutons y sont en paix,</l>
+	<l id='98'>Et les loups n'y font jamais</l>
+	<l id='99'>D'outrage à la bergerie.</l>
+</sp>
+<sp who='CHLORIS'><speaker>CHLORIS.</speaker>
+	<l id='100' part='i'>Viens, ma soeur.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='100' part='m'>Je te suis.</l>
+</sp>
+<sp who='CHLORIS'><speaker>CHLORIS.</speaker>
+	<l id='100' part='f'>Viens goûter une vie</l>
+	<l id='101'>Dont le calme est digne d'envie.</l>
+	<l id='102'>Notre Nymphe a banni de ces lieux si charmants</l>
+	<l id='103'>Ce peuple d'importuns que l'on appelle amants.</l>
+	<l id='104' part='i'>La voici.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='104' part='f'>Que d'appas, de beautés, et de grâces !</l>
+	<l id='105'>Dirait-on pas que l'air s'embellit à ses traces ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Daphné ; Clymène, sa confidente ; Méroé, sa nourrice et sa gouvernante ; Chloris, Aminte.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='106'>Amour, n'approche point de nos ombrages doux,</l>
+	<l id='107'>De nos prés, de nos fontaines ;</l>
+	<l id='108'>Laisse en repos ces lieux ; assez d'autres que nous</l>
+	<l id='109'>Se feront un plaisir de connaître tes peines.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ, à Chloris.</speaker>
+	<l id='110'>Chloris, n'est-ce pas la ta soeur que tu m'amènes ?</l>
+</sp>
+<sp who='CHLORIS'><speaker>CHLORIS.</speaker>
+	<l id='111'>Je vous la viens offrir. Nous cherchions en ces lieux</l>
+	<l id='112'>Ce que Flore a pour vous de dons plus précieux.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='113'>Cherchons, cherchons des fleurs ; l'âge nous y convie :</l>
+	<l id='114'>Parons-nous de bouquets pendant notre printemps :</l>
+	<l id='115'>Les plaisirs ont chacun leur temps,</l>
+	<l id='116'>Comme les saisons de la vie</l>
+<stage>Daphné, ayant achevé ces paroles, se baisse pour cueillir des fleurs, et les Nymphes de la suite en font autant ; pendant quoi un choeur de bergers, demeuré par respect derrière le théâtre, répète ces mots.</stage>
+</sp>
+<sp who='CHOEUR-dE-BERGERS'><speaker>CHOEUR de BERGERS.</speaker>
+	<l id='117'>Cherchons, cherchons des fleurs ; Daphné nous y convie.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='118'>J'entends de nos bergers le concert plein d'appas.</l>
+	<l id='119'>Qu'ils chantent, je le veux, mais qu'ils n'approchent pas.</l>
+</sp>
+<sp who='CHOEUR-dE-BERGERS'><speaker>CHOEUR de BERGERS.</speaker>
+	<l id='120'>Cherchons, cherchons des fleurs ; Daphné nous y convie</l>
+	<l id='121'>Il en renaît sous ses pas.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='122' part='i'>Déployons nos trésors.</l>
+</sp>
+<sp who='CHLORIS'><speaker>CHLORIS.</speaker>
+	<l id='122' part='f'>J'ai cueilli les plus belles.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='123'>Et moi, les plus nouvelles.</l>
+</sp>
+<sp who='MEROE'><speaker>MEROE.</speaker>
+	<l id='124'>Moi, les plus vives en couleur.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ, à Clymène.</speaker>
+	<l id='125'>Et vous ? Quel mauvais choix vous avez fait, ma soeur !</l>
+	<l id='126'>Vous nous direz, pour votre peine,</l>
+	<l id='127'>Une chanson contre l'Amour.</l>
+	<l id='128'>Cependant je veux que ma Cour</l>
+	<l id='129'>Jure de lui porter une éternelle haine ;</l>
+	<l id='130'>Jurez la première, Clymène !</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='131'>Tout serment</l>
+	<l id='132'>De n'avoir jamais d'amant</l>
+	<l id='133'>Est chose fort incertaine ;</l>
+	<l id='134'>Il en est peu que l'on tienne</l>
+	<l id='135'>Plus d'un jour, plus d'un moment :</l>
+	<l id='136'>Tout serment</l>
+	<l id='137'>De n'avoir jamais d'amant</l>
+	<l id='138'>Est chose fort incertaine.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='139'>Je veux que vous juriez ; dites donc après moi :</l>
+	<l id='140' part='i'>Amour,</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='140' part='m'>Amour,</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='140' part='f'>Si jamais sous ta loi</l>
+	<l id='141' part='i'>Je respire,</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='141' part='f'>Si jamais sous ta loi</l>
+	<l id='142' part='i'>Je respire,</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='142' part='f'>Je consens de mourir.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='143'>Mourir ? c'est beaucoup dire.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='144'>Je consens de mourir, si jamais je soupire.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='145'>Je consens de mourir, si jamais je soupire.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='146'>Clymène, acquittez-vous ; accompagnons ses sons,</l>
+	<l id='147'>Et que nos pas animent nos chansons.</l>
+<stage>Daphné et les personnes de sa suite se prennent alors par la main, et Clymène chante cette gavotte que toute la troupe danse, la répétant après elle : </stage>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='148'>L'autre jour sur l'herbe tendre</l>
+	<l id='149'>Je m'assis près de Philandre :</l>
+	<l id='150'>Il me conta ses tourments ;</l>
+	<l id='151'>Ma mère alors me querelle.</l>
+	<l id='152'>« Petite fille, dit-elle,</l>
+	<l id='153'>N'écoutez point les amants.</l>
+	<l id='154'>Ils sont indiscrets, volages,</l>
+	<l id='155'>Téméraires, et peu sages ;</l>
+	<l id='156'>Ils font mille faux serments :</l>
+	<l id='157'>Ils sont jaloux, ils sont traîtres,</l>
+	<l id='158'>Et tyrans quand ils sont maîtres,</l>
+	<l id='159'>N'écoutez point les amants. »</l>
+	<l id='160'>Ecoutez ma chansonnette,</l>
+	<l id='161'>Et l'écho qui la répète,</l>
+	<l id='162'>Et ces rossignols charmants :</l>
+	<l id='163'>Leur musique est sans pareille ;</l>
+	<l id='164'>Mais ne prêtez point l'oreille</l>
+	<l id='165'>Au ramage des amants.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='166'>Méroé, poursuivez nos divertissements.</l>
+</sp>
+<sp who='MEROE'><speaker>MEROE.</speaker>
+	<l id='167'>J'ai vu le temps qu'une jeune fillette</l>
+	<l id='168'>Pouvait, sans peur, aller au bois seulette.</l>
+	<l id='169'>Maintenant, maintenant les bergers sont loups :</l>
+	<l id='170'>Je vous dis, je vous dis : « Filles, gardez-vous. »</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Apollon, Momus.</head>
+<stage>Pendant que ces Nymphes dansent, Apollon et Momus passent. C'était incontinent après la défaite du serpent Python. Toute la troupe des jeunes filles, à la vue de ces étrangers, s'enfuit, l'une d'un côté, l'autre de l'autre. Apollon et Momus demeurent.</stage>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='171'>Voici Tempé, cette vallée</l>
+	<l id='172'>Dont on vante partout l'ombrage et les beautés ;</l>
+	<l id='173'>Et voilà les flots argentés</l>
+	<l id='174'>Qu'y fait couler le dieu Penée.</l>
+	<l id='175'>Plus loin vers ces sommets mon empire s'étend.</l>
+	<l id='176'>N'y veux-tu pas venir, Momus ? on nous attend.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='177'>Demeurons encore où nous sommes :</l>
+	<l id='178'>Ai-je pu voir en un instant</l>
+	<l id='179'>Toutes les sottises des hommes ?</l>
+	<l id='180'>Par vos puissants efforts, invincible Apollon,</l>
+	<l id='181'>On ne craint plus ici les fureurs de Python.</l>
+	<l id='182'>Les habitants de ces rivages</l>
+	<l id='183'>Devenus plus heureux, n'en seront pas plus sages :</l>
+	<l id='184'>Le temps de la sottise est celui du bonheur.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='185'>Mais que dis-tu de ma victoire ?</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='186'>Elle vous a comblé d'honneur,</l>
+	<l id='187'>Et rien n'égale votre gloire.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='188'>Que le fils de Venus cesse de se vanter</l>
+	<l id='189'>Qu'ainsi que nous il sait porter</l>
+	<l id='190'>Un carquois, un arc, et des flèches ;</l>
+	<l id='191'>C'est un enfant qui fait des brèches</l>
+	<l id='192'>Dans les coeurs aisés à dompter.</l>
+	<l id='193'>Il remporte toujours des victoires faciles ;</l>
+	<l id='194'>Je défais des serpents qui dépeuplent des villes.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='195'>Vous méprisez celui qui tient tout sous sa loi.</l>
+	<l id='196' part='i'>Si l'Amour vous entend ?</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='196' part='f'>Et que crains-tu pour moi ?</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='197'>Parlez bas, c'est un dieu ; s'il venait à paraître ?</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='198'>Un dieu ! c'est un enfant : quitte ce vain souci.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='199'>Qui donne à Jupiter un maître,</l>
+	<l id='200'>Vous en pourrait donner aussi.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Momus, Apollon, Cupidon.</head>
+<stage>Dans le temps que Momus achève ces mots, l'Amour descend du ciel comme un trait, et se vient placer entre Apollon et Momus. </stage>
+<sp who='CUPIDON'><speaker>CUPIDON, à Apollon.</speaker>
+	<l id='201'>Quel est l'orgueilleux qui me brave ?</l>
+	<l id='202'>Quel téméraire ose attaquer l'Amour ?</l>
+	<l id='203'>Ah ! je vous reconnais : vous serez mon esclave</l>
+	<l id='204'>Avant la fin du jour.</l>
+<stage>Ces paroles dites, Cupidon s'en revole dans les airs. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Apollon, Momus. </head>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='205'>Que cet enfant est fier ! Voyez comme il menace !</l>
+	<l id='206'>Ne le prendrait-on pas pour l'aîné des Titans ?</l>
+	<l id='207'>Je plains le dompteur de serpents ;</l>
+	<l id='208'>Il ne fait pas sûr en sa place.</l>
+<stage>Tandis que Momus dit ces paroles, Daphné avec ses compagnes, par une curiosité de jeunes filles, avance un peu la tête sur le théâtre, et fait quelques pas dans la scène pour voir ces deux étrangers. Apollon la voit un moment ; aussitôt l 'Amour, qui est demeuré dans l'air, fait son coup, et Daphné avec sa troupe s 'enfuit encore une fois. </stage>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='209'>Ah ! Qu'ai je vu, Momus ! Que de traits éclatants !</l>
+	<l id='210'>Que de jeunesse, que de grâce !</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='211' part='i'>Elle fuit.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='211' part='f'>Mille amours avec elle ont paru.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='212'>Mille amours ? C'est beaucoup ; je n'en ai pas tant vu.</l>
+	<l id='213'>Vous aimez ; vous voyez d'un autre oeil que le nôtre :</l>
+	<l id='214'>De quelques qualités qu'un objet soit pourvu,</l>
+	<l id='215'>L'amant y voit toujours ou plus ou moins qu'un autre.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='216'>Déesse, tu me fuis ? T'ai-je déjà déplu ?</l>
+	<l id='217'>C'est pourtant Apollon qui t'aime, qui t'adore.</l>
+	<l id='218'>Je n'en puis plus, je sens un feu qui me dévore :</l>
+	<l id='219'>Reviens, charmant objet ! Et vous, Olympe, cieux,</l>
+	<l id='220'>Je vous dis d'éternels adieux ;</l>
+	<l id='221'>Je vous méprise, je vous laisse :</l>
+	<l id='222'>Qu'êtes-vous près de ma déesse ?</l>
+	<l id='223'>Tout votre éclat vaut-il un seul trait de ses yeux ?</l>
+	<l id='224'>Ne la verrai-je plus ? Faut-il que cette belle</l>
+	<l id='225'>Emporte mes plaisirs et mon coeur avec elle ?</l>
+	<l id='226'>Demeurons sur ces bords, je ne les puis laisser.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='227' part='i'>Passerons-nous pour dieux ?</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='227' part='f'>Et pour qui donc passer</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='228'>Pour mortels, car les dieux, par leur grandeur suprême</l>
+	<l id='229'>Ne font souvent qu'embarrasser :</l>
+	<l id='230'>On les craint plus qu'on ne les aime.</l>
+	<l id='231'>Les vrais amants doivent toujours</l>
+	<l id='232'>Sous un maître commun vivre d'égale sorte :</l>
+	<l id='233'>Ou monarques ou dieux, n'entrez chez vos amours</l>
+	<l id='234'>Qu'après avoir laissé vos grandeurs à la porte</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='235'>Je te croirai ; changeons de nom :</l>
+	<l id='236'>Je m'appelle Tharsis, satrape de Lycie.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='237'>Et moi, son suivant Télamon</l>
+	<l id='238'>Que si sur mon chemin quelque Nymphe jolie</l>
+	<l id='239'>Se rencontre en passant, je prétends bien aussi</l>
+	<l id='240'>La cajoler, m'approcher d'elle,</l>
+	<l id='241'>Non pas en amoureux transi :</l>
+	<l id='242'>Je vous veux servir de modèle</l>
+	<l id='243'>Et cependant, allons conquérir votre belle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+<sp who='VENUS'><speaker>VÉNUS, descendant dans une machine.</speaker>
+	<l id='244'>Qu'est devenu mon fils ? Mortels, le savez-vous ?</l>
+	<l id='245'>Je souffre, je languis, je meurs en son absence :</l>
+	<l id='246'>Si l'Amour ne me suit, rien ne me semble doux.</l>
+	<l id='247'>Heureux les lieux qu'anime sa présence !</l>
+	<l id='248'>Heureux tout l'Univers qui me doit sa naissance !</l>
+	<l id='249'>Qu'est devenu l'Amour ? Échos, le savez-vous ?</l>
+	<l id='250'>Quel nouveau coeur aujourd'hui de ses coups</l>
+	<l id='251'>Éprouve la puissance ?</l>
+	<l id='252'>Qu'est devenu l'Amour ? Échos, le savez-vous ?</l>
+	<l id='253'>Je souffre, je languis, je meurs en son absence.</l>
+<stage>Ce récit fait, l'Amour se vient jeter dans le giron de sa mère.</stage>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='254' part='i'>Ah ! Mon fils, d'où viens-tu ?</l>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='254' part='f'>De blesser Apollon.</l>
+	<l id='255'>Je l'ai rendu pour Daphné tout de flamme ;</l>
+	<l id='256'>Tandis qu'un autre trait, par un autre poison,</l>
+	<l id='257'>Fait que pour lui Daphné n'a que haine dans l'âme.</l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS, à son fils.</speaker>
+	<l id='258'>Amour, tu sais dompter les coeurs et les esprits.</l>
+<stage>Aux dieux et aux hommes :</stage>
+	<l id='259'>Que la terre et les cieux célèbrent de mon fils</l>
+	<l id='260'>La dernière victoire !</l>
+	<l id='261'>Mortels et dieux, chantez sa gloire.</l>
+<stage>Pour obéir à ce commandement de Vénus, on chante et on danse sur la terre, et dans la gloire, qui est au fond du théâtre : sur la terre, des personnes de toutes conditions, et dans la gloire, des enfants qui représentent les Amours, les Jeux et les Ris. La danse achevée, Vénus, dont le char est entouré d'enfants chante ces paroles : </stage>
+	<l id='262'>Allez de toutes parts, courez, Amours et Ris ;</l>
+	<l id='263'>Faites connaître de mon fils</l>
+	<l id='264'>Le doux et le suprême empire :</l>
+	<l id='265'>Ne laissez rien qui ne soupire.</l>
+	<l id='266'>Allez de toutes parts, courez, Amours et Jeux ;</l>
+	<l id='267'>Rendez l'Univers amoureux</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE II</head>
+<stage>Le théâtre représente le palais d'un dieu de fleuve, avec de l'eau véritable, qu'on voit tomber et saillir de tous les côtés.</stage>
+<div2 type='scene' n=''><head>SCÈNE PREMIÈRE. Pénée, avec sa Cour, composée des fleuves Sperchée, Amphrise, Apidame, et autres dieux des sources voisines. </head>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='268'>Dieux tributaires de mon onde,</l>
+	<l id='269'>Je veux, par les beautés de ce moite séjour,</l>
+	<l id='270'>Arrêter quelque temps deux princes à ma Cour ;</l>
+	<l id='271'>Que votre zèle me seconde !</l>
+</sp>
+<sp who='FLEUVES'><speaker>LES FLEUVES.</speaker>
+	<l id='272' part='i'>Commandez.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='272' part='f'>Que le Sort vous a rendus heureux !</l>
+	<l id='273'>Hyménée et l'Amour fréquentent vos rivages :</l>
+	<l id='274'>Vos grottes quelquefois leur prêtent des ombrages :</l>
+	<l id='275'>Ces dieux me méprisent tous deux.</l>
+</sp>
+<sp who='APIDAME'><speaker>APIDAME.</speaker>
+	<l id='276'>Laissez agir le temps ; il peut tout auprès d'eux.</l>
+	<l id='277'>A peine a-t-il encor fait passer la princesse</l>
+	<l id='278'>Des appas de l'enfance à ceux de la jeunesse :</l>
+	<l id='279'>Deux soleils ont à peine éclairé son printemps.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='280'>Combien de coeurs depuis ce temps</l>
+	<l id='281'>Ont en vain soupiré pour elle !</l>
+	<l id='282'>Ah ! si Tharsis pouvait la rendre moins cruelle !</l>
+</sp>
+<sp who='SPERCHEE'><speaker>SPERCHÉE.</speaker>
+	<l id='283'>Consultez la Sibylle Ismèle :</l>
+	<l id='284'>Les dieux peut-être par sa voix</l>
+	<l id='285'>Obligeront Daphné de suivre votre choix</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='286'>Hélas ! Jamais Daphné n'aimera que les bois.</l>
+</sp>
+<sp who='AMPHRISE'><speaker>AMPHRISE.</speaker>
+	<l id='287'>Ces plaisirs passeront : tout passe dans la vie ;</l>
+	<l id='288'>De différents désirs elle est entre-suivie ;</l>
+	<l id='289'>On y change d'humeur, on y change d'envie ;</l>
+	<l id='290'>On y veut goûter de tout.</l>
+	<l id='291'>Le plus libre enfin se lie ;</l>
+	<l id='292'>Tôt ou tard on s'y résout.</l>
+</sp>
+<sp who='APIDAME'><speaker>APIDAME.</speaker>
+	<l id='293'>Il faut peu pour changer ces âmes si sévères ;</l>
+	<l id='294'>L'exemple à ce doux noeud les amène toujours.</l>
+	<l id='295'>Des bergers chantant leurs amours,</l>
+	<l id='296'>Dans les bras de l'hymen voir mener des bergères,</l>
+	<l id='297'>Et leurs folâtres jeux sur les vertes fougères,</l>
+	<l id='298'>Apprivoisent les coeurs, qui, devenus plus doux,</l>
+	<l id='299'>S'accoutument aux mots d'amour, d'amant, d'époux ;</l>
+	<l id='300'>Des mots on en vient au mystère.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='301'>J'approuve vos raisons ; et Daphné, pour me plaire,</l>
+	<l id='302'>Doit faire en mon palais les honneurs de ce jour.</l>
+	<l id='303'>On y va célébrer l'hymen du jeune Amphrise</l>
+	<l id='304'>Il s'engage avecque Florise ;</l>
+	<l id='305'>La fête arrêtera ces princes à ma Cour :</l>
+	<l id='306'>Allons en prendre soin. Daphné vient, et Clymène ;</l>
+	<l id='307'>Entrons dans la grotte prochaine.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Daphné, Clymène.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='308'>Ah, Clymène ! Plains-moi.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='309'>Princesse, vous pleurez ; puis-je savoir pourquoi ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='310'>Je ne me connais plus ; ce n'est plus moi, Clymène :</l>
+	<l id='311'>Ces puissants dédains, cette haine,</l>
+	<l id='312'>Ces serments contre Amour, que sont-ils devenus.</l>
+	<l id='313'>Un mortel les rend superflus.</l>
+	<l id='314'>Hélas ! il vient de me dire sa peine,</l>
+	<l id='315'>Et depuis ce moment je ne me connais plus.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='316'>Un des princes, sans doute, a causé ces alarmes.</l>
+	<l id='317'>Serait-ce point Tharsis ? Je lui trouve des charmes</l>
+	<l id='318'>Contre qui je sens bien que ma sévérité</l>
+	<l id='319'>N'employerait pas toutes ses armes.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='320'>Je crois ? Si tu le veux, qu'on en est enchanté,</l>
+	<l id='321'>Cependant il me cause une invincible haine ;</l>
+	<l id='322'>Contre lui dans mon âme un dieu me semble agir.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='323' part='i'>Je le connais, ce dieu : c'est Leucippe.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='323' part='f'>Ah, Clymène !</l>
+	<l id='324'>Ne me regarde point, tu me ferais rougir.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='325'>Pourquoi rougir ? commettez-vous un crime ?</l>
+	<l id='326'>Le Ciel permet-il pas d'aimer ou de haïr ?</l>
+	<l id='327'>Est-il rien de si légitime ?</l>
+	<l id='328'>Tircis est des plus charmants,</l>
+	<l id='329'>Je méprise son martyre ;</l>
+	<l id='330'>Cependant sous mon empire</l>
+	<l id='331'>Il languit depuis longtemps.</l>
+	<l id='332'>Philandre à peine y soupire,</l>
+	<l id='333'>Son service est reconnu ;</l>
+	<l id='334'>La raison, je vais la dire :</l>
+	<l id='335'>Mon temps d'aimer est venu.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='336'>Hélas ! le mien aussi ; mais garde-toi, Clymène</l>
+	<l id='337'>De découvrir ma flamme, et l'exposer au jour :</l>
+	<l id='338'>Plains-toi que de Tharsis je méprise la peine ;</l>
+	<l id='339'>Notre sexe veut bien que l'on sache sa haine,</l>
+	<l id='340'>Mais il met tous ses soins à cacher son amour.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='341'>Le voila, ce Tharsis ; son malheur vous l'amene.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Tharsis, Daphné.</head>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='342'>Que je dois au Destin de m'avoir arrête</l>
+	<l id='343'>En des lieux ou l'on voit briller votre présence !</l>
+	<l id='344'>Vous y régnez par la beauté,</l>
+	<l id='345'>Aussi bien que par la naissance :</l>
+	<l id='346'>Souffrez que j'y demeure au rang de vos sujets.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='347'>Non, Seigneur, je ne puis recevoir vos hommages ;</l>
+	<l id='348'>Offrez-les à d'autres objets ;</l>
+	<l id='349'>Abandonnez nos rivages :</l>
+	<l id='350'>Quel plaisir aurez-vous parmi des coeurs sauvages ?</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='351' part='i'>Je vous verrai.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='351' part='f'>Fuyez cette triste douceur.</l>
+	<l id='352'>Il vaut mieux qu'une prompte absence</l>
+	<l id='353'>Rende le calme à votre coeur,</l>
+	<l id='354'>Que de vous voir enfin guéri par ma rigueur,</l>
+	<l id='355'>Ma haine, ou mon indifférence.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='356'>Ô Ciel ! Lui dois-je ajouter foi ?</l>
+	<l id='357'>Quoi ! Ne pouvoir m'aimer ! me haïr ! me le dire !</l>
+	<l id='358'>Amour, tyran des coeurs, depuis que sous ta loi</l>
+	<l id='359'>On gémit, on pleure, on soupire,</l>
+	<l id='360'>Fut-il jamais amant plus malheureux que moi ?</l>
+	<l id='361'>Que je sache au moins, inhumaine,</l>
+	<l id='362'>Ce qu'a Tharsis en lui de si digne de haine ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='363'>Son amour ; c'est assez : je le dis à regret.</l>
+	<l id='364'>Vous avez dans mon coeur quelque ennemi secret</l>
+	<l id='365'>Qui met un voile sur ces charmes</l>
+	<l id='366'>A qui d'autres auraient déjà rendu les armes.</l>
+	<l id='367'>Enfin quittez nos bords, Seigneur, vous ferez mieux ;</l>
+	<l id='368'>Qui ne peut être aimé doit s'éloigner des lieux</l>
+	<l id='369'>Où sans cesse il peut voir le sujet de ses peines.</l>
+	<l id='370'>Faut-il livrer son coeur à d'éternelles gênes</l>
+	<l id='371'>Pour le plaisir de ses yeux ?</l>
+	<l id='372'>Je vous laisse, et me tais ; ma fuite et mon silence</l>
+	<l id='373'>Vous seront des tourments plus doux.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='374'>Princesse, demeurez : je trouve votre absence</l>
+	<l id='375'>Plus cruelle encor que vous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Tharsis, Télamon.</head>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='376'>Ceci vous trouble et vous étonne.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='377'>Suis-je donc le fils de Latone ?</l>
+	<l id='378'>Ai-je dompté Python ? Suis-je un dieu ? Je n'ai pu</l>
+	<l id='379'>Gagner une mortelle ! un enfant m'a vaincu !</l>
+	<l id='380'>Qu'il m'ôte mes autels : que sert-il qu'on me donne</l>
+	<l id='381'>En ces lieux l'encens qui m'est dû ?</l>
+	<l id='382'>Et qu'est-ce que l'encens qu'une chose frivole</l>
+	<l id='383'>Près des moindres faveurs que nous font de beaux yeux ?</l>
+	<l id='384'>Daphné, vous me pourriez d'une seule parole</l>
+	<l id='385'>Mettre au-dessus des autres dieux.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='386'>Espérez ce mot favorable :</l>
+	<l id='387'>Il n'est amant si misérable</l>
+	<l id='388' part='i'>Qui n'espère.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='388' part='m'>Tu ris.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='388' part='f'>Jupiter vous vaut bien :</l>
+	<l id='389'>Je ris aussi quand l'Amour veut qu'il pleure.</l>
+	<l id='390'>Vous autres dieux, n'attaquez rien</l>
+	<l id='391'>Qui, sans vous étonner, s'ose défendre une heure :</l>
+	<l id='392'>Sachez que le temps seul en a plus couronné</l>
+	<l id='393'>Que tous les efforts qu'on peut faire.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='394'>Je n'ose plus parler de mes feux à Daphné.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='395'>Laissez dormir sa colère.</l>
+	<l id='396'>Après que l'on vous aura</l>
+	<l id='397'>Contraint longtemps de vous taire,</l>
+	<l id='398'>Un moment arrivera</l>
+	<l id='399'>Que l'on vous écoutera.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<stage>Penée et sa Cour entrent sur la scène, et la noce ensuite. Daphné conduit l'épousée, et un des fleuves le marie. Toute cette troupe fait le tour du théâtre en cérémonie. Deux bergers chantent ces paroles, que le choeur répète. </stage>
+<sp who='TOUS'><speaker>TOUS.</speaker>
+	<l id='400'>Hymen, Hyménée.</l>
+<stage>Après que chacun s'est rangé et a pris sa place, les deux bergers chantent ce premier couplet de l'épithalame.</stage>
+</sp>
+<sp who='DEUX-BERGERS'><speaker>DEUX BERGERS.</speaker>
+	<l id='401'>Florise est donnée</l>
+	<l id='402'>A l'un des plus beaux</l>
+	<l id='403'>Qui porte à Penée</l>
+	<l id='404'>Tribut de ses eaux :</l>
+	<l id='405'>Qu'il ait chaque année</l>
+	<l id='406'>De nombreux troupeaux,</l>
+	<l id='407'>Et chaque journée</l>
+	<l id='408'>Des plaisirs nouveaux.</l>
+	<l id='409'>Hymen, Hyménée.</l>
+<stage>Daphné présente au sacrificateur l'épousée, et un des fleuves le marié. </stage>
+</sp>
+<sp who='LE-SACRIFICATEUR'><speaker>LE SACRIFICATEUR prend leurs mains, et dit ces paroles.</speaker>
+	<l id='410'>Amants, je vous unis ; vivez sous mêmes noeuds.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='411'>Parmi les plaisirs et les jeux.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='412'>A quelques filles de la noce, près desquelles il se rencontre :</l>
+	<l id='413'>Pour un pareil lien formez-vous point des voeux ?</l>
+	<l id='414'>Songez-y bien, bergères :</l>
+	<l id='415'>Hyménée est un dieu jeune, charmant, et blond ;</l>
+	<l id='416'>Mais les jours avec lui ne se ressemblent guères :</l>
+	<l id='417'>Le premier est amour, amitié le second,</l>
+	<l id='418'>Le troisième froideur ; songez-y bien, bergères.</l>
+</sp>
+<sp who='MEROE'><speaker>MEROE, interrompant Télamon.</speaker>
+	<l id='419'>Vraiment, Télamon,</l>
+	<l id='420'>La leçon</l>
+	<l id='421'>Est jolie.</l>
+	<l id='422'>Changez de place, Iris ; venez ici, Célie,</l>
+	<l id='423'>Pholoé, ne l'écoutez plus.</l>
+	<l id='424'>J'en suis d'avis ; mes soins deviendront superflus ;</l>
+	<l id='425'>Télamon corrompra cette troupe innocente.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='426'>Que vous êtes reprenante,</l>
+	<l id='427'>Gouvernante !</l>
+	<l id='428'>Laissez-nous causer en paix :</l>
+	<l id='429'>Laissez la jeunesse rire :</l>
+	<l id='430'>Elle inspire</l>
+	<l id='431'>Toujours d'innocents secrets.</l>
+	<l id='432'>Je crois que vous êtes sage :</l>
+	<l id='433'>À votre âge</l>
+	<l id='434'>On le doit être, ou jamais.</l>
+	<l id='435'>Vingt ou trente ans de veuvage,</l>
+	<l id='436'>C'est dommage,</l>
+	<l id='437'>Ont refroidi vos attraits.</l>
+	<l id='438'>Ah ! si selon vos souhaits</l>
+	<l id='439'>Vous redeveniez aurore,</l>
+	<l id='440'>Vous vous serviriez encore</l>
+	<l id='441'>De vos traits.</l>
+</sp>
+<sp who='MEROE'><speaker>MEROE.</speaker>
+	<l id='442'>Me faudra-t-il aussi souffrir la raillerie ?</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE, à Méroé et à Télamon.</speaker>
+	<l id='443'>Laissez-nous achever cette cérémonie.</l>
+</sp>
+<sp who='LE-SACRIFICATEUR'><speaker>LE SACRIFICATEUR.</speaker>
+	<l id='444'>Hymen, Amour, joignez vos noeuds,</l>
+	<l id='445'>Et rendez ces amants heureux.</l>
+<stage>Les gens de la noce dansent, et pendant qu'ils se reposent on chante ces deux autres couplets de l'épithalame : </stage>
+	<l id='446'>Des pas de Florise</l>
+	<l id='447'>Loin, bien loin les loups ;</l>
+	<l id='448'>Et de ceux d'Amphrise</l>
+	<l id='449'>Les soupçons jaloux !</l>
+	<l id='450'>Que leur destinée</l>
+	<l id='451'>N'ait rien que de doux,</l>
+	<l id='452'>Et que la lignée</l>
+	<l id='453'>Ressemble à l'époux.</l>
+	<l id='454'>Hymen, Hyménée.</l>
+	<l id='455'>Jamais la constance</l>
+	<l id='456'>Aux amants ne nuit ;</l>
+	<l id='457'>On vit d'espérance,</l>
+	<l id='458'>Puis le reste suit.</l>
+	<l id='459'>L'amour obstinée</l>
+	<l id='460'>Porte fleur et fruit.</l>
+	<l id='461'>Ô douce journée !</l>
+	<l id='462'>Ô plus douce nuit !</l>
+	<l id='463'>Hymen, Hyménée.</l>
+<stage>Le choeur répète à chaque fois ces deux dernières paroles. </stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<stage>La décoration de cet acte est une forêt mêlée d'architecture, comme d'un temple de Diane. </stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='464'>Tout me semble parler d'amour</l>
+	<l id='465'>En ces lieux amis du silence :</l>
+	<l id='466'>Ici les oiseaux nuit et jour</l>
+	<l id='467'>Célèbrent de ses traits la douce violence.</l>
+	<l id='468'>Tout me semble parler d'amour</l>
+	<l id='469'>En ces lieux amis du silence.</l>
+	<l id='470'>Heureux les habitants de ces ombrages verts,</l>
+	<l id='471'>S'ils n'avaient que ce mal à craindre !</l>
+	<l id='472'>Mais nous troublons leur paix par cent moyens divers :</l>
+	<l id='473'>Humains, cruels humains, tyrans de l'Univers,</l>
+	<l id='474'>C'est de vous seuls qu'on se doit plaindre.</l>
+<stage>Après ces paroles, on entend un bruit de cors et de cris de chasse. </stage>
+	<l id='475'>Vois-je pas Télamon, confident de Tharsis ?</l>
+	<l id='476'>Hélas ! il vient en vain me conter les soucis</l>
+	<l id='477'>D'un prince que Daphné devrait trouver aimable.</l>
+	<l id='478'>Plût au Ciel qu'elle fut à ses voeux favorable !</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Télamon, Clymène.</head>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='479'>Que vous avez de grâce à porter un carquois !</l>
+	<l id='480' part='i'>Rien ne vous sied si bien.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='480' part='f'>On me l'a dit cent fois.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='481'>On ne vous l'a pas dit peut-être au fond d'un bois.</l>
+	<l id='482'>En ces forets, je vous prie,</l>
+	<l id='483'>Écartons-nous un moment,</l>
+	<l id='484'>Et mettons de la partie</l>
+	<l id='485'>L'ombre et l'amour seulement.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='486'>Tout rendez-vous un peu sombre</l>
+	<l id='487'>Doit toujours être évité :</l>
+	<l id='488'>Quand je vois l'amour et l'ombre,</l>
+	<l id='489'>Je vais d'un autre côté.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='490'>C'est trop s'en défier. Mais, dites-moi, Clymène,</l>
+	<l id='491'>Daphné montre en ses yeux une secrète peine ;</l>
+	<l id='492'>Qui la cause ? Leucippe est-il ce bienheureux ?</l>
+	<l id='493'>Ou plutôt est-ce un dieu qui s'attire ces voeux ?</l>
+	<l id='494'>Je m'y connais, l'Amour la touche.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='495'>On se laisse assez toucher,</l>
+	<l id='496'>Mais on aime à le cacher ;</l>
+	<l id='497'>Et d'une jeune farouche</l>
+	<l id='498'>L'Amour est plus tôt vainqueur</l>
+	<l id='499'>Qu'il n'a tiré de sa bouche</l>
+	<l id='500'>Le nom qu'elle a dans le coeur.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='501' part='i'>N'en saurai-je pas plus ?</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='501' part='f'>Je n'ai rien appris d'elle.</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='502'>Vous voulez garder ce secret :</l>
+	<l id='503'>Je serais importun aussi bien qu'indiscret</l>
+	<l id='504'>Si je vous pressais trop, et la chasse m'appelle.</l>
+	<l id='505'>Adieu, Nymphe cruelle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Daphné, Clymène.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='506'>Je vous ai tous deux entendus :</l>
+	<l id='507'>Heureuse, si Tharsis ne me pressait pas plus !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Daphné, Leucippe.</head>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='508'>Puis-je interrompre le silence</l>
+	<l id='509'>Qu'en ces paisibles lieux peut-être vous cherchez ?</l>
+	<l id='510' part='i'>Me le permettez-vous ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='510' part='f'>Oui, Leucippe, approchez ;</l>
+	<l id='511'>On ne craint pas votre présence ;</l>
+	<l id='512'>Venez me consoler de celle de Tharsis.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='513'>Et qu'ordonnerez-vous de mes propres soucis ?</l>
+	<l id='514'>Mon rival ne peut plaire à l'objet qu'il adore,</l>
+	<l id='515'>Un sentiment jaloux ne me peut alarmer :</l>
+	<l id='516'>C'est beaucoup ; mais que dis-je ? ah ! ce n'est rien encore</l>
+	<l id='517'>Vous savez bien haïr, mais pourriez-vous aimer ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='518'>J'ai souffert votre amour ; répondez-vous vous-même.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='519'>Ô dieux ! qu'ai-je entendu ? quelle gloire suprême !</l>
+	<l id='520'>Quel bonheur ! Doux transports qui venez me saisir,</l>
+	<l id='521'>Exprimez, s'il se peut, ma joie et mon plaisir,</l>
+	<l id='522'>Et votre juste violence.</l>
+	<l id='523'>Princesse, après l'aveu qui vient de me charmer,</l>
+	<l id='524'>Je ne sais rien, pour m'exprimer,</l>
+	<l id='525'>Que le langage du silence.</l>
+</sp>
+<sp who='DAPHNE-LEUCIPPE'><speaker>DAPHNÉ et LEUCIPPE ensemble.</speaker>
+	<l id='526'>Ô bienheureux soupirs, favorables moments</l>
+	<l id='527'>Où l'un et l'autre coeur, plein de doux sentiments,</l>
+	<l id='528'>Aime, et le dit, et se fait croire !</l>
+	<l id='529'>Les dieux, dans leurs ravissements,</l>
+	<l id='530'>Les dieux, au milieu de leur gloire,</l>
+	<l id='531'>Sont moins dieux quelquefois que ne sont les amants.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='532'>Je bénis mon destin, et cependant Pénée</l>
+	<l id='533'>Favorise mon rival.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='534'>Quand il aurait pour lui le dieu même Hyménée,</l>
+	<l id='535'>Ce n'est pas son bonheur qui fera votre mal.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='536' part='i'>Et mon bien ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='536' part='f'>Attendez la réponse d'Ismèle :</l>
+	<l id='537'>Peut-être elle sera favorable à nos voeux.</l>
+	<l id='538'>Allez : il reviendra quelque moment heureux ;</l>
+	<l id='539'>Daphné craint qu'on ne trouve un amant avec elle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ, demeurée seule.</speaker>
+	<l id='540'>Que notre sexe a d'ennemis !</l>
+	<l id='541'>A combien de tyrans le destin l'a soumis !</l>
+	<l id='542'>Des amants importuns, un père inexorable,</l>
+	<l id='543'>Un devoir impitoyable ;</l>
+	<l id='544'>Tout combat nos désirs : trop heureuses encor</l>
+	<l id='545'>Si nous n'avions que cette peine !</l>
+	<l id='546'>Mais il faut, par un double effort,</l>
+	<l id='547'>Ainsi que notre amour, surmonter notre haine.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Pénée, Daphné, Tharsis.</head>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='548'>Daphné, rendez grâces aux dieux :</l>
+	<l id='549'>Cet ours fatal aux bergeries,</l>
+	<l id='550'>Fatal aux autres ours, teint de sang nos prairies ;</l>
+	<l id='551'>Tharsis a vaincu seul ce monstre furieux.</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='552'>L'Amour m'accompagnait ; lui seul en a la gloire :</l>
+	<l id='553'>Ce n'est pas à mes mains qu'on doit cette victoire,</l>
+	<l id='554'>Belle Daphné, c'est à vos yeux.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='555'>Ma fille, venez voir aussi l'énorme bête.</l>
+	<l id='556'>Réjouissez-vous, bergers ;</l>
+	<l id='557'>Que les ours soient de la fête :</l>
+	<l id='558'>Ils avaient part aux dangers.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Tharsis, Télamon.</head>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='559'>Daphné ne peut souffrir ma flamme.</l>
+	<l id='560' part='i'>Si je parlais au sort ?</l>
+</sp>
+<sp who='TELAMON'><speaker>TÉLAMON.</speaker>
+	<l id='560' part='f'>Changera-t-il son âme ?</l>
+</sp>
+<sp who='THARSIS'><speaker>THARSIS.</speaker>
+	<l id='561'>Je vais le consulter. Attends ici Tharsis.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who='MOMUS'><speaker>MOMUS, demeuré seul, et quittant le personnage de Télamon.</speaker>
+	<l id='562'>Vous qui de votre sort, voulez être éclaircis,</l>
+	<l id='563'>Consultez, comme moi, le démon de la treille ;</l>
+	<l id='564'>Mon oracle est Bacchus, quand j'ai quelques soucis,</l>
+	<l id='565'>Et ma sibylle est la bouteille.</l>
+	<l id='566'>Cette chasse m'altère. Ah ! Si Bacchus... Je crois</l>
+	<l id='567'>Que ce dieu m'entendait.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX.</head>
+<sp who='BACCHUS'><speaker>BACCHUS, qui descend sur son berceau tiré par des tigres.</speaker>
+	<l id='568'>Momus, monte avec moi</l>
+	<l id='569'>Viens écouter d'ici tous les chants de victoire.</l>
+	<l id='570'>Ces gens m'ont au spectacle invité, les voici.</l>
+	<l id='571'>Quoi ! la peau de leur ours aussi ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. BACCHUS, MOMUS, troupe de Sylvains, de chasseurs,et de bergers. </head>
+<stage>Momus monte dans le berceau, qui s'arrête au milieu des airs. Cependant quatre chasseurs, et autant de Sylvains qui mènent chacun un ours, entrent sur la scène. Un autre Sylvain les suit, portant en guise de trophée la peau de l'ours au bout d'un épieu. Des choeurs de bergers les accompagnent. Toute cette troupe fait le tour du théâtre, au son des cors et de leurs fanfares. Le Sylvain chargé du trophée se place au milieu de la scène, et un chasseur chante ces paroles.</stage>
+<sp who='UN-CHASSEUR'><speaker>UN CHASSEUR.</speaker>
+	<l id='572'>Tharsis, nous érigeons ce trophée à ta gloire</l>
+</sp>
+<sp who='UN-SYLVAIN'><speaker>UN SYLVAIN.</speaker>
+	<l id='573'>Par ta valeur, le monstre a vu finir son sort.</l>
+</sp>
+<sp who='UN-BERGER'><speaker>UN BERGER.</speaker>
+	<l id='574'>L'ennemi commun est mort.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS, comme s'il chantait en éloignement.</speaker>
+	<l id='575'>Noyez-en dans le vin la funeste mémoire.</l>
+</sp>
+<sp who='CHASSEUR'><speaker>UN CHASSEUR, se tournant vers l'endroit où est le char de Bacchus.</speaker>
+	<l id='576'>N'est-ce pas Télamon qui nous invite à boire ?</l>
+</sp>
+<sp who='TOUS'><speaker>TOUTE LA TROUPE l'ayant aperçu, dit.</speaker>
+	<l id='577'>Ô le mortel heureux, d'être aimé de Bacchus !</l>
+</sp>
+<sp who='UN-SYLVAIN'><speaker>UN SYLVAIN.</speaker>
+	<l id='578'>Amis, laissons à part les discours superflus.</l>
+	<l id='579' part='i'>L'ours est mort.</l>
+</sp>
+<sp who='UN-CHASSEUR'><speaker>UN CHASSEUR.</speaker>
+	<l id='579' part='f'>L'ours ne vit plus.</l>
+</sp>
+<sp who='UN-BERGER'><speaker>UN BERGER.</speaker>
+	<l id='580'>L'ours a passe l'onde noire.</l>
+</sp>
+<sp who='TOUS'><speaker>TOUS ENSEMBLE.</speaker>
+	<l id='581'>Noyons-en dans le vin la funeste mémoire.</l>
+<stage>Les chasseurs et les Sylvains dansent à l'entour du trophée et font une forme de bacchanales. Les Sylvains sont suivis de leurs ours, qui vont en cadence. Pendant que les danseurs se reposent, Bacchus et Momus, faisant la débauche sous le berceau suspendu, animent toute cette troupe par leur exemple.</stage>
+</sp>
+<sp who='BACCHUS'><speaker>BACCHUS, à Momus.</speaker>
+	<l id='582'>Cher compagnon, me veux-tu croire ?</l>
+	<l id='583'>Courons ensemble le pays ;</l>
+	<l id='584'>Tu sais médire, et je sais boire :</l>
+	<l id='585'>Nous ne manquerons point d'amis.</l>
+</sp>
+<sp who='MOMUS'><speaker>MOMUS.</speaker>
+	<l id='586'>Toujours le vin et la satire</l>
+	<l id='587'>Tiennent aux tables le haut bout ;</l>
+	<l id='588'>Tu sais boire, et je sais médire :</l>
+	<l id='589'>Voilà de quoi passer partout.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<stage>La décoration de cet acte est un antre, dont les avenues ont quelque chose d'inculte, de sauvage, et de difficile abord : et au fond un autel rustique et sans beaucoup d'ornements. </stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Clymène, Aminte.</head>
+<stage>Clymène et Aminte, Nymphes de Daphné, viennent les premières et précèdent Pénée et sa Cour, pour apprendre de la Sibylle leur aventure. </stage>
+<sp who='CLYMÈNE'><speaker>CLYMÈNE.</speaker>
+	<l id='590'>Quel étrange et sombre palais !</l>
+	<l id='591'>Je frémis à le voir ; n'as-tu point peur, Aminte ?</l>
+	<l id='592'>Va seule dans ces lieux ; pour moi, j'ai trop de crainte.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='593'>Qu'y demanderais-tu ? Tes voeux sont satisfaits.</l>
+	<l id='594'>Philandre a l'âme blessée</l>
+	<l id='595'>Des traits dont tu sais charmer ;</l>
+	<l id='596'>Moi, que Tircis a laissée,</l>
+	<l id='597'>J'ai sujet d'être empressée</l>
+	<l id='598'>Pour savoir qui doit m'aimer.</l>
+</sp>
+<sp who='CLYMÈNE'><speaker>CLYMÈNE.</speaker>
+	<l id='599'>Je te rends ce Tircis ; son ardeur m'importune.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='600'>J'aurai donc pour toute fortune</l>
+	<l id='601' part='i'>Ton refus.</l>
+</sp>
+<sp who='CLYMENE'><speaker>CLYMÈNE.</speaker>
+	<l id='601' part='f'>Que t'importe ? Examine ton coeur ;</l>
+	<l id='602'>Et si Tircis te plaît, laisse le point d'honneur.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='603'>Tu ris ; que diras-tu, si je fais qu'il te quitte ?</l>
+</sp>
+<sp who='CLYMÈNE'><speaker>CLYMÈNE.</speaker>
+	<l id='604'>Mes rigueurs en cela préviendront ton mérite.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='605'>Tu dois aux miennes ce berger</l>
+	<l id='606'>Que mes faveurs vont rengager.</l>
+</sp>
+<sp who='CLYMÈNE_AMINTE'><speaker>CLYMÈNE et AMINTE Ensemble.</speaker>
+	<l id='607'>Une fille a cent adresses</l>
+	<l id='608'>Pour rebuter un amant ;</l>
+	<l id='609'>Mais de dire ses finesses</l>
+	<l id='610'>Pour faire un engagement,</l>
+	<l id='611'>On ne le peut nullement.</l>
+</sp>
+<sp who='CLYMÈNE'><speaker>CLYMÈNE.</speaker>
+	<l id='612'>Voilà, sans consulter Ismèle</l>
+	<l id='613'>Un oracle bientôt rendu.</l>
+</sp>
+<sp who='AMINTE'><speaker>AMINTE.</speaker>
+	<l id='614'>Aurait-elle mieux répondu ?</l>
+</sp>
+<sp who='CLYMÈNE'><speaker>CLYMÈNE.</speaker>
+	<l id='615'>Non, et nous nous pouvons désormais passer d'elle :</l>
+	<l id='616'>Aussi bien l'intérêt de Daphné nous appelle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Ismèle, Daphné, Pénée et sa Cour.</head>
+<stage>Ismèle sort du fond de l'antre, accompagnée de deux ou trois prêtresses aussi vieilles qu'elle. D'un autre côté, Pénée vient avec Daphné et les fleuves de sa Cour.</stage>
+<sp who='PENEE'><speaker>PÉNÉE, à Daphné.</speaker>
+	<l id='617'>Ma fille, tout est prêt ; Ismèle va sortir :</l>
+	<l id='618'>N'ayez point de repentir,</l>
+	<l id='619'>Si le choix des dieux est autre</l>
+	<l id='620'>Que le vôtre.</l>
+</sp>
+<sp who='ISMELE'><speaker>ISMÈLE Après quelques cérémonies étranges, dit, en invoquant la divinité.</speaker>
+	<l id='621'>Monarque de l'Olympe, en qui sont tous les temps,</l>
+	<l id='622'>Qui les fais devant toi passer comme moments,</l>
+	<l id='623'>Et pour qui n'est qu'un point toute la destinée,</l>
+	<l id='624'>Dis-nous, Ô maître des dieux,</l>
+	<l id='625'>À qui doit être donnée</l>
+	<l id='626'>La princesse de ces lieux.</l>
+	<l id='627'>Où sont tes truchements ? Es-tu sourd aux prières ?</l>
+	<l id='628'>Fantômes, qui savez peindre en mille manières</l>
+	<l id='629'>Les secrets du destin gravés au haut des cieux,</l>
+	<l id='630'>Simulacres volants, frères du dieu des songes,</l>
+	<l id='631'>Faites-nous voir sans mensonges</l>
+	<l id='632'>Ce qu'ont ordonné les dieux</l>
+	<l id='633'>Sur un si digne hyménée ;</l>
+	<l id='634'>Dites-nous la destinée</l>
+	<l id='635'>De la Nymphe de ces lieux.</l>
+<stage>Après ces paroles, Ismèle, comme possédée du dieu, danse avec les autres prêtresses, tantôt comme si elles allaient tomber en extase, et tantôt avec des contorsions étranges. Pendant qu'elles dansent, des enfants, en guise de petits démons, et représentant les simulacres et les espèces qui s'offrent aux yeux, viennent de divers endroits du ciel se présenter à Ismèle, portant des branches et des couronnes de laurier. Ismèle, ayant vu ces objets, dit.</stage>
+	<l id='636'>Que vois-je ! Quel objet ! Quelle image à mes yeux</l>
+	<l id='637'>Si vive et si claire</l>9
+	<l id='638'>Vient se présenter,</l>
+	<l id='639'>Et me tourmenter</l>
+	<l id='640'>Plus qu'à l'ordinaire ?</l>
+	<l id='641'>L'objet</l>
+	<l id='642'>Me fait</l>
+	<l id='643'>Tressaillir :</l>
+	<l id='644'>Je sens</l>
+	<l id='645'>Mes sens</l>
+	<l id='646'>Défaillir.</l>
+</sp>
+<sp who='AMPHRISE'><speaker>AMPHRISE, fleuve.</speaker>
+	<l id='647'>Les dieux à leur interprète</l>
+	<l id='648'>Ont fait un étrange don ;</l>
+	<l id='649'>Ne peut-on être prophète,</l>
+	<l id='650'>Si l'on ne perd la raison ?</l>
+</sp>
+<sp who='APIDAME_SPERCHEE_AMPHRISE'><speaker>APIDAME, SPERCHEE et AMPHRISE ensemble. </speaker>
+	<l id='651'>Les démons</l>
+	<l id='652'>Vont l'agitant,</l>
+	<l id='653'>Ses poumons</l>
+	<l id='654'>Vont haletant ;</l>
+	<l id='655'>Et son coeur va palpitant.</l>
+	<l id='656'>Les ressorts</l>
+	<l id='657'>De son corps,</l>
+	<l id='658'>Son esprit,</l>
+	<l id='659'>Tout pâtit.</l>
+</sp>
+<sp who='ISMELE'><speaker>ISMÈLE, jetant en l'air des feuilles sur lesquelles elle a écrit sa réponse.</speaker>
+	<l id='660'>Qu'on se taise : soyez attentifs aux mystères.</l>
+	<l id='661'>J'épands en l'air ces caractères :</l>
+	<l id='662'>C'est ma réponse ; il faut la poser sur l'autel.</l>
+	<l id='663'>Démons, peuples légers, ministres de l'oracle,</l>
+	<l id='664'>Cherchez-la ; car aucun mortel</l>
+	<l id='665'>Ne la peut trouver sans miracle.</l>
+<stage>À ce commandement d'Ismèle, les esprits habitants de l'air cherchent en dansant les feuilles que la Sibylle a jetées, et les viennent, en dansant aussi, poser sur l'autel. Ismèle assemble ces feuilles, et dit à Pénée et à Daphné.</stage>
+	<l id='666'>Approchez-vous, lisez, et que dans ce vallon</l>
+	<l id='667'>Un invisible choeur mon oracle répète.</l>
+</sp>
+<sp who='PENEE_DAPHNE'><speaker>PÉNÉE et DAPHNE lisant. </speaker>
+	<l id='668'>Daphné doit aujourd'hui couronner Apollon.</l>
+</sp>
+<sp who='CHOEUR'><speaker>CHOEUR </speaker>
+	<l id='669'>Daphné doit aujourd'hui couronner Apollon.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE, à Ismèle.</speaker>
+	<l id='670'>Ismèle, servez-vous vous-même d'interprète ;</l>
+	<l id='671'>Expliquez-nous l'ordre des dieux.</l>
+</sp>
+<sp who='AMPHRISE'><speaker>AMPHRISE.</speaker>
+	<l id='672'>Un prophète entend-il les choses qu'il annonce ?</l>
+	<l id='673'>C'est à l'événement d'expliquer sa réponse.</l>
+</sp>
+<sp who='ISMELE'><speaker>ISMÈLE.</speaker>
+	<l id='674'>Adieu, princesse, adieu, je vous laisse en ces lieux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Pénée, Daphné et leur Cour.</head>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='675'>Couronner Apollon ! Qu'importe à l'hyménée</l>
+	<l id='676'>De la fille de Pénée ?</l>
+	<l id='677'>Pour comprendre ces mots, je fais un vain effort.</l>
+</sp>
+<sp who='AMPHRISE'><speaker>AMPHRISE.</speaker>
+	<l id='678'>Nos conseils ont été frivoles ;</l>
+	<l id='679'>La seule obscurité fait le prix des paroles</l>
+	<l id='680'>Que l'on cherche aux livres du Sort.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE, à Daphné.</speaker>
+	<l id='681'>Ma fille, rendez-vous aux volontés d'un père :</l>
+	<l id='682'>Qu'il soit votre oracle aujourd'hui</l>
+	<l id='683'>Aimez Tharsis ; il vous doit plaire ;</l>
+	<l id='684'>Toute notre Cour est pour lui.</l>
+</sp>
+<sp who='APIDAME'><speaker>APIDAME.</speaker>
+	<l id='685'>Tels étaient ces mortels pour qui l'idolâtrie</l>
+	<l id='686'>Commença d'introduire au monde son pouvoir.</l>
+</sp>
+<sp who='AMPHRISE'><speaker>AMPHRISE.</speaker>
+	<l id='687'>Il a tout l'air d'un dieu ; l'on dirait à le voir,</l>
+	<l id='688'>Que l'Olympe est sa patrie.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='689'>Hélas ! J'en crus autant, lorsqu'en notre prairie</l>
+	<l id='690'>Je le vis arriver inconnu dans ces lieux.</l>
+	<l id='691'>Maintenant mon coeur tâche à démentir mes yeux.</l>
+	<l id='692'>Ne m'en accusez point : quelque force suprême</l>
+	<l id='693'>M'entretient malgré moi dans cette erreur extrême.</l>
+	<l id='694'>Que Tharsis soit parfait, qu'il ait l'air qu'ont les dieux,</l>
+	<l id='695'>Est-ce par raison que l'on aime ?</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='696'>L'hymen change les coeurs : suivez mes volontés.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='697'>Quoi ! Seigneur, vous aussi vous me persécutez !</l>
+	<l id='698'>De ses autres tyrans sans peine on se console ;</l>
+	<l id='699'>Mais d'un père ! un père m'immole !</l>
+	<l id='700'>Je tiens le jour de vous, Seigneur ; vous me l'ôtez.</l>
+</sp>
+<sp who='PENEE'><speaker>PÉNÉE.</speaker>
+	<l id='701'>Moi, je perdrais Daphné ! qu'ai-je à conserver qu'elle ?</l>
+	<l id='702'>L'hymen m'a-t-il fait d'autres dons ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='703'>Cependant, quand je vous appelle</l>
+	<l id='704'>Du plus tendre de tous les noms,</l>
+	<l id='705'>Vous ne vous souvenez que de votre puissance ;</l>
+	<l id='706'>Vous regardez l'obéissance,</l>
+	<l id='707'>La raison, et jamais d'autres tyrans plus doux ;</l>
+	<l id='708'>Il en est toutefois. Leucippe vient à nous :</l>
+	<l id='709'>Je lui vais ôter l'espérance.</l>
+	<l id='710'>Vous le voulez, Seigneur ; je le lis dans vos yeux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Daphné, Leucippe.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='711'>Leucippe, il faut tâcher d'éteindre votre flamme.</l>
+	<l id='712' part='i'>Je ne puis être à vous.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='712' part='f'>Ô cieux ! Injustes cieux !</l>
+	<l id='713' part='i'>Est-ce là votre arrêt ?</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='713' part='f'>Cet oracle odieux</l>
+	<l id='714' part='i'>Vient de mon père seul.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='714' part='f'>Votre père et les dieux</l>
+	<l id='715'>Disposent de mon sort, mais non pas de mon âme :</l>
+	<l id='716' part='i'>Moi-même en suis-je maître ?</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='716' part='m'>Il le faut.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='716' part='f'>Ah ! Daphné !</l>
+	<l id='717'>Que ce mot est facile à dire !</l>
+	<l id='718'>Et que l'amour possède avecque peu d'empire</l>
+	<l id='719'>Un coeur que la contrainte a si tôt entraîné !</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='720'>Quoi ! Faut-il que mon coeur soit par vous soupçonné ?</l>
+	<l id='721'>Cruel ! n'avais-je pas encore assez de peine ?</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='722'>Enfin donc le Destin me déclare sa haine ;</l>
+	<l id='723'>Vous serez à Tharsis ; et moi, par mes soupirs,</l>
+	<l id='724'>J'augmenterai ses plaisirs.</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='725'>Plût au Ciel que Tharsis causât seul vos alarmes,</l>
+	<l id='726' part='i'>Et qu'un père...</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='726' part='m'>Achevez.</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='726' part='f'>Eh ! Que sert d'achever</l>
+	<l id='727'>Un souhait qu'on sait bien qui ne peut arriver ?</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='728'>Il n'importe, mon âme y trouvera des charmes.</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='729' part='i'>Ne m'aimez plus.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='729' part='f'>Le puis-je ? Et le souhaitez-vous ?</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='730'>Vos tourments ont pour moi quelque chose de doux,</l>
+	<l id='731' part='i'>Il est vrai ; mais cessez.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='731' part='f'>Hélas ! Cesser de vivre</l>
+	<l id='732'>Est le seul remède à mon mal.</l>
+	<l id='733'>Voilà le parti qu'il faut suivre ;</l>
+	<l id='734'>Mais avec moi je veux perdre aussi mon rival.</l>
+	<l id='735'>Vous ne me serez pas impunément ravie :</l>
+	<l id='736'>Non, Daphné. Vous pleurez ? Ah ! Princesse, je dois</l>
+	<l id='737'>Mourir pour vos yeux mille fois.</l>
+	<l id='738'>Avant qu'avoir Daphné, Tharsis aura ma vie.</l>
+	<l id='739'>Je ne puis voir tant de biens</l>
+	<l id='740'>En d'autres bras que les miens :</l>
+	<l id='741'>Que mon rival me les cède,</l>
+	<l id='742'>Et renonce à votre amour,</l>
+	<l id='743'>Ou qu'il m'ôte aussi le jour</l>
+	<l id='744'>Si l'on veut qu'il vous possède.</l>
+</sp>
+<sp who='DAPHNÉ '><speaker>DAPHNÉ.</speaker>
+	<l id='745'>Leucippe, si je vous perds,</l>
+	<l id='746'>Il faut que dans nos déserts</l>
+	<l id='747'>La solitude me donne</l>
+	<l id='748'>Un sort plus calme et plus doux ;</l>
+	<l id='749'>Et ne pouvant être à vous, je ne veux être à personne.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Apollon, Leucippe, Daphné.</head>
+<stage>Apollon descend sur un trône de lumière. Cette pompe est jointe à une musique douce. Il est entouré des Heures, qui chantent ces mots.</stage>
+<sp who='HEURES'><speaker>LES HEURES.</speaker>
+	<l id='750'>Daphné, portez vos yeux</l>
+	<l id='751'>Sur le plus beau des dieux.</l>
+<stage>Daphné s'enfuit aussitôt qu'elle a reconnu Apollon sous le visage de Tharsis.</stage>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='752'>Tu me fuis, divine mortelle !</l>
+	<l id='753'>Où cours-tu ? N'aperçois-tu pas</l>
+	<l id='754'>Un précipice sous tes pas ?</l>
+	<l id='755'>Il est plein de serpents : détourne-toi, cruelle.</l>
+	<l id='756'>Suis-je encor plus à craindre ? Et rien dans ce vallon</l>
+	<l id='757'>Ne peut-il t'arrêter quand tu fuis Apollon ?</l>
+	<l id='758'>Quoi ! Tant de haine en une belle !</l>
+	<l id='759'>Insolent, qui brûles pour elle,</l>
+	<l id='760'>Renonce à l'hymen de Daphné ;</l>
+	<l id='761'>C'est Apollon qui te l'ordonne.</l>
+	<l id='762'>Regarde quel rival ton malheur t'a donné.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='763'>Mon malheur ? Dis le tien. Toi, le fils de Latone !</l>
+	<l id='764'>N'es-tu pas ce Tharsis que tantôt on a vu ?</l>
+	<l id='765'>D'un magique ornement ton front s'est revêtu.</l>
+	<l id='766'>Enchanteur, penses-tu que ta pompe m'étonne ?</l>
+	<l id='767'>Ce n'est qu'un songe, ce n'est rien ;</l>
+	<l id='768'>Va tromper d'autres yeux, et me laisse mon bien.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='769'>Ô dieux ! Ô citoyens du lumineux empire !</l>
+	<l id='770'>Que vient un mortel de me dire ?</l>
+	<l id='771'>Malheureux, ton orgueil s'en va te coûter cher.</l>
+	<l id='772'>Les dieux ne sont pas insensibles.</l>
+	<l id='773'>Qu'on l'attache sur ce rocher</l>
+	<l id='774'>Avec des chaînes invisibles.</l>
+<stage>Ce commandement est exécuté par les ministres de la puissance d'Apollon, qui va se faire voir à Pénée, non plus sous le personnage de Tharsis, mais sous le sien propre. </stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<stage>Le théâtre est une suite de rochers ; on y voit Leucippe retenu, sans que ses liens paraissent. Il est debout, appuyé, dans l'endroit le plus en vue. </stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE, sur un rocher.</speaker>
+	<l id='775'>Astres, soyez témoins de ces injustes fers.</l>
+	<l id='776'>J'atteste ici tout l'Univers,</l>
+	<l id='777'>Et les vents emportent ma plainte.</l>
+	<l id='778'>Jupiter, je t'implore ; on veut forcer les coeurs :</l>
+	<l id='779'>Il n'est plus de libres ardeurs,</l>
+	<l id='780'>Ni d'autres lois que la contrainte.</l>
+	<l id='781'>Loges-tu dans le ciel ou dans les antres sourds ?</l>
+	<l id='782'>Écoutez-moi, déserts ; on m'ôte mes amours :</l>
+	<l id='783'>Est-il douleur pareille ?</l>
+	<l id='784'>Qui me consolera sur ce rocher fatal ?</l>
+	<l id='785'>Leucippe est un spectacle à son cruel rival.</l>
+	<l id='786'>Déserts, écoutez-moi : les dieux ferment l'oreille.</l>
+<stage>Daphné entend cette plainte à l'un des coins du théâtre. </stage>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE II. Daphné, Leucippe.</head>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='787'>Qui vous consolera ? Ne le savez-vous pas ?</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='788'>Quoi ! Je vous vois ! C'est vous ! C'est ma princesse ! Hélas !</l>
+	<l id='789'>J'avais perdu l'espoir d'une faveur si douce.</l>
+	<l id='790'>Craignez-vous d'approcher ?</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='791'>Je sens qu'on me repousse :</l>
+	<l id='792'>Quelque charme arrête mes pas.</l>
+	<l id='793'>Mais, si c'est adoucir vos peines</l>
+	<l id='794'>Qu'y prendre part, souffrir ces gênes,</l>
+	<l id='795'>Gémir avec vous sous ces chitines,</l>
+	<l id='796'>Vous aimer malgré tous, malgré Cieux, malgré Sort,</l>
+	<l id='797'>Votre princesse en est capable.</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='798'>Apollon, Apollon, tu fais un vain effort !</l>
+	<l id='799'>Je ne suis plus le misérable.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ.</speaker>
+	<l id='800'>Hélas ! J'irrite un dieu jaloux et redoutable.</l>
+	<l id='801'>À qui dois-je adresser ma voix ?</l>
+	<l id='802'>Je n'ose t'invoquer, déesse de nos bois .</l>
+	<l id='803'>Dans ta Cour, dans ton coeur, autrefois j'avais place ;</l>
+	<l id='804'>L'amour m'en a bannie ; écoute toutefois :</l>
+	<l id='805'>Je ne demande point pour grâce</l>
+	<l id='806'>Que tu souffres mes feux, et qu'un hymen charmant</l>
+	<l id='807'>Engage à d'autres dieux celle qui t'a servie ;</l>
+	<l id='808'>Délivre seulement</l>
+	<l id='809'>Mon amant,</l>
+	<l id='810'>Et prends le reste de ma vie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Apollon, Daphné, Leucippe.</head>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='811'>Pourquoi finir vos jours en des lieux pleins d'ennui ?</l>
+	<l id='812'>Trouvez-vous le dieu du Parnasse</l>
+	<l id='813' part='i'>Plus affreux qu'un désert ?</l>
+<stage>Daphné témoigne vouloir s'enfuir.</stage>
+	<l id='813' part='f'>Hélas ! ce dieu la chasse :</l>
+	<l id='814'>Elle aime mieux mourir que régner avec lui.</l>
+	<l id='815'>C'est toi qui nous causes ces peines.</l>
+	<l id='816'>Mortel, contre les dieux oses-tu contester ?</l>
+</sp>
+<sp who='LEUCIPPE'><speaker>LEUCIPPE.</speaker>
+	<l id='817'>Mes amours sont mes dieux.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='817' part='f'>Qu'on redouble ses chaînes</l>
+	<l id='818' part='i'>Démons !</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ, se jetant à ses genoux.</speaker>
+	<l id='818' part='f'>Faites-les arrêter.</l>
+	<l id='819'>Pouvez-vous bien me voir à vos pieds toute en larmes,</l>
+	<l id='820'>Sans vous laisser toucher le coeur ?</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='821'>Daphné, C'est contre vous que retournent ces armes.</l>
+	<l id='822'>La pitié redouble vos charmes ;</l>
+	<l id='823'>En combattant l'amour, elle le rend vainqueur.</l>
+	<l id='824'>Votre douleur vous nuit ; vous en êtes plus belle.</l>
+	<l id='825'>Venez, venez être immortelle :</l>
+	<l id='826'>Je l'obtiendrai du Sort, ou je jure vos yeux</l>
+	<l id='827'>Que les cieux</l>
+	<l id='828'>Regretteront notre présence.</l>
+	<l id='829'>Zéphyrs, enlevez-la malgré sa résistance.</l>
+</sp>
+<sp who='DAPHNE'><speaker>DAPHNÉ, s'enfuyant.</speaker>
+	<l id='830'>Ô dieux ! Consentez-vous à cette violence ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='DIANE'><speaker>DIANE aussitôt paraît sur son char, et crie aux Zéphyrs.</speaker>
+	<l id='831'>Démons, gardez de lui toucher !</l>
+	<l id='832'>Deviens laurier, Daphné ; Leucippe, sois rocher.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<stage>À peine Diane a parlé, que le, deux métamorphoses se font, et la déesse remonte au ciel. </stage>
+<sp who='APOLLON'><speaker>APOLLON, accourt, et fait cette plainte.</speaker>
+	<l id='833'>Barbare, qu'as-tu fait ? Détruire un tel ouvrage !</l>
+	<l id='834'>Faire à ton frère un tel outrage !</l>
+	<l id='835'>Cruelle soeur, Cruelle, et cent fois plus sauvage</l>
+	<l id='836'>Que les ours avec qui tu vis !</l>
+	<l id='837'>Que de trésors tu m'as ravis</l>
+	<l id='838'>Rends-moi ces biens, rends-moi ce divin assemblage.</l>
+	<l id='839'>Daphné, vous n'êtes plus, j'ai perdu mes amours,</l>
+	<l id='840'>Et ne saurais perdre la vie</l>
+	<l id='841'>Heureux mortels, vos Pleurs cessent avec Vos jours :</l>
+	<l id='842'>La mort est un bien que j'envie.</l>
+	<l id='843'>Puissent les cieux cesser leur cours !</l>
+	<l id='844'>Périsse l'Univers avecque ma princesse</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Apollon, l'Amour.</head>
+<sp who='AMOUR'><speaker>L'AMOUR, qui descend sur le char de sa mère.</speaker>
+	<l id='845'>Sèche tes pleurs, elle est déesse.</l>
+	<l id='846'>Viens l'épouser : mes traits se sont assez vengés ;</l>
+	<l id='847'>Ces mouvements de haine en amour sont changés.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='848'>Puis-je t'ajouter foi ? m'as-tu fait cette grâce ?</l>
+</sp>
+<sp who='AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='849' part='i'>Viens l'éprouver.</l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON.</speaker>
+	<l id='849' part='f'>Allons, et que sur le Parnasse</l>
+	<l id='850'>On célèbre des jeux à l'honneur de Daphné.</l>
+	<l id='851'>Que le vainqueur y soit de laurier couronné.</l>
+	<l id='852'>Bel arbre, adieu. je quitte à regret cette place,</l>
+	<l id='853'>Et veux qu'à l'avenir on ceigne de lauriers</l>
+	<l id='854'>Le front de mes sujets et celui des guerriers.</l>
+<stage>Apollon monte dans le char où est l'Amour, et tous deux retournant au ciel. Le théâtre change aussitôt. Le Parnasse se découvre au fond. Quelques Mimes sont assises en divers endroits de sa croupe, et quelques poètes à leurs pieds. Sur le sommet, le palais du dieu se fait voir. Les deux côtés du théâtre sont deux galeries qui ressemblent à celles où on étale des raretés les jours de jète et les jours de foire. Là sont les archives du Destin. L'architecture est ornée de feuilles de laurier. Sous chaque portique est un buste ; il y en a neuf de conquérants et autant dé poètes ; les conquérants d'un côté, les poètes de l'autre. Les conquérants sont Cyrus, Alexandre, etc. ; et les poètes sont Homère, Anacréon, Pindare, Virgile, Horace, Ovide, l'Arioste, le Tasse, et Malherbe. Apollon a voulu que l'avenir fût montré en faveur de cette fête. </stage>
+</sp>
+<sp who='POETE-HEROIQUE'><speaker>UN POÈTE HÉROÏQUE commence les jeux et chante ceci.</speaker>
+	<l id='855'>Quel prince offre à mes yeux des lauriers toujours verts ?</l>
+	<l id='856'>Je vois dans l'avenir cent potentats divers</l>
+	<l id='857'>Lui disputer en vain l'honneur de la victoire.</l>
+	<l id='858'>Ô toi, fils de Latone, amour de l'Univers,</l>
+	<l id='859'>Protecteur des doux sons, des beaux-arts, des bons vers,</l>
+	<l id='860'>Aide-nous à chanter sa gloire !</l>
+</sp>
+<sp who='MELPOMENE'><speaker>MELPOMÈNE.</speaker>
+	<l id='861'>Ce n'est pas l'ouvrage d'un jour :</l>
+	<l id='862'>Sublime, allez dormir encor sur le Parnasse,</l>
+	<l id='863'>Et vous, clairons, faites place</l>
+	<l id='864'>Aux doux concerts de l'Amour.</l>
+</sp>
+<stage>Philis, jeune muse, et Daphnis, poète lyrique, entrent sur la scène, accompagnés d'une musique de flûtes, de hautbois, et de musettes, et chantent ce dialogue de pastorale.</stage>
+<sp who='PHILIS'><speaker>PHILIS.</speaker>
+	<l id='865'>Les Zéphyrs sont de retour :</l>
+	<l id='866'>Flore avec eux se promène.</l>
+</sp>
+<sp who='DAPHNIS'><speaker>DAPHNIS.</speaker>
+	<l id='867'>Savez-vous qui les ramène ?</l>
+	<l id='868'>C'est l'Amour.</l>
+</sp>
+<sp who='PHILIS'><speaker>PHILIS.</speaker>
+	<l id='869'>De quoi parle en ce séjour</l>
+	<l id='870'>La savante Philomèle ?</l>
+</sp>
+<sp who='DAPHNIS'><speaker>DAPHNIS.</speaker>
+	<l id='871'>Et de quoi parlerait-elle,</l>
+	<l id='872'>Que d'amour ?</l>
+</sp>
+<sp who='PHILIS_DAPHNIS'><speaker>PHILIS et DAPHNIS ensemble.</speaker>
+	<l id='873'>Faisons aussi notre cour</l>
+	<l id='874'>Au printemps vêtu de roses ;</l>
+	<l id='875'>Ayons, comme toutes choses,</l>
+	<l id='876'>De l'amour.</l>
+</sp>
+<sp who='POETE-SATIRIQUE'><speaker>UN POÈTE SATIRIQUE vient brusquement les interrompre, et dit.</speaker>
+	<l id='877'>Aimez, mais permettez que je parle à mon tour.</l>
+	<l id='878'>Comment faire</l>
+	<l id='879'>Pour se taire ?</l>
+	<l id='880'>Le monde est plein de sots, de l'un à l'autre bout ;</l>
+	<l id='881'>Le passé, le présent, et l'avenir surtout.</l>
+	<l id='882'>Comment faire</l>
+	<l id='883'>Pour se taire ?</l>
+</sp>
+<sp who='CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='884'>Comment faire</l>
+	<l id='885'>Pour se taire ?</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='886'>Ridicules, envoyez-nous</l>
+	<l id='887'>Les principaux d'entre vous.</l>
+<stage>Cinq ridicules entrent sur la scène. C'est une coquette emportée, une précieuse, un méchant poète, un homme affectant le bel air, et un vieillard amoureux. </stage>
+</sp>
+<sp who='LE-MECHANT-POETE'><speaker>LE MÉCHANT POÈTE, chargé des intérêts de la troupe, dit ces paroles.</speaker>
+	<l id='888'>Quoi ! Dans ces lieux sacrés on souffre la satire !</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='889'>Soyez les premiers à rire.</l>
+<stage>Les ridicules se consolent et font une entrée, dansant tous sur les mêmes pas, et gardant toutefois, autant qu'ils peuvent, leur caractère. </stage>
+<stage>Mercure, monté sur Pégase, descend au sacré vallon. Il interrompt la danse des ridicules, et vient présenter trois couronnes de laurier à ces trois genres de poésie. </stage>
+</sp>
+<sp who='MERCURE'><speaker>MERCURE.</speaker>
+	<l id='890'>Chacun de vous doit être couronné :</l>
+	<l id='891'>Recevez ces présents de la part de Daphné.</l>
+	<l id='892'>Elle est maintenant déesse,</l>
+	<l id='893'>Aimant le dieu de ces lieux :</l>
+	<l id='894'>Poussez-en jusques aux cieux</l>
+	<l id='895'>Des chants remplis d'allégresse.</l>
+<stage>Mercure revole au ciel, ayant laissé Pégase sur le double mont. Quatre auteurs lyriques et autant de Muses du même genre viennent danser en témoignage de joie ; puis les ridicules se mêlent avec eux, formant de différentes figures avec des branches de laurier qu'ils portent tous, et dont ils se font des espèces de berceaux. C'est le grand ballet. </stage>
+</sp>
+<sp who='MUSE-LYRIQUE'><speaker>Après qu'ils ont dansé une fois, UNE MUSE DU GENRE LYRIQUE chante ceci.</speaker>
+	<l id='896'>Il n'est que de s'enflammer ;</l>
+	<l id='897'>Laissez, laissez-vous charmer ;</l>
+	<l id='898'>La raison vous y convie :</l>
+	<l id='899'>Sans le dieu qui fait aimer,</l>
+	<l id='900'>Que serait-ce que la vie ?</l>
+<stage>Le grand ballet recommence encore,</stage>
+</sp>
+<sp who='AUTRE-MUSE-LYRIQUE'><speaker>puis UNE AUTRE MUSE LYRIQUE chante ce second couplet.</speaker>
+	<l id='901'>Chacun sert quelque désir ;</l>
+	<l id='902'>Tout consiste à bien choisir ;</l>
+	<l id='903'>Faites-vous de douces chaînes :</l>
+	<l id='904'>En amour tout est plaisir,</l>
+	<l id='905'>Et même jusques aux peines.</l>
+</sp>
+<sp who='CHOEUR'><speaker>LE CHoeUR.</speaker>
+	<l id='906'>Aimez, doctes nourrissons :</l>
+	<l id='907'>S'il n'était point d'amour, serait-il des chansons ?</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,1701 @@
+<?xml version="1.0" encoding='iso-8859-1' ?>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>CADMUS et HERMIONE, TRAGÉDIE</title>
+			<author born='1635' born_location='Paris' death='1688' death_location='Paris' academie='1670'>QUINAULT, Philippe</author>
+		</titleStmt>
+		<publicationStmp>	
+			<p>publié par Paul FIEVRE, Décembre 2011</p>
+		</publicationStmp>
+		<SourceDesc>
+				<genre>Opéra</genre>	
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes, un prologue</structure>
+				<type>vers</type>
+				<periode>1671-1680</periode>
+				<taille>750-1000</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text>**</text></source>
+				</sources>	
+	
+		</SourceDesc>
+	</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type='main'>CADMUS et HERMIONE</titlePart>
+			<titlePart type='sub'>TRAGÉDIE</titlePart>
+			<titlePart type='sub'>Représentée par l'Académie Royale de Musique.</titlePart>
+		</docTitle> 
+		<docDate value='1673'>M. DC. LXXIII. AVEC PRIVILÈGE DE SA MAJESTÉ.</docDate>
+		<docAuthor id='QUINAULT, Philippe' bio='quinault'></docAuthor>
+		<docImprint>
+				<privilege id=''></privilege>
+				<acheveImprime id=''></acheveImprime>
+				<printer id='BALLARD'>On la vend À PARIS, à l'entrée de la Porte de l'Académie Royale de Musique, près Luxembourg, vis à vis Bel-air. Imprimée aux dépens de la dite Académie. PAR CHRISTOPHE BALLARD, seul imprimeur du Roi pour la Musique.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='1673-02-01' location='Jeu de Paume de Bel-Air'>Représenté pour la première fois le 1 février 1673 devant sa majesté à Jeu de Paume de Bel-Air.</premiere>
+		</performance>
+		<preface><head>L'ACADÉMIE ROYALE DE MUSQIUE AU ROI</head>
+		<p type='v'>GRAND ROI, dont la valeur étonne l'Univers,</p>
+		<p type='v'>J'ai préparé pour vous mes plus charmants concerts ;</p>
+		<p type='v'>Mais je viens vainement vous en offir les charmes,</p>
+		<p type='v'>Vous ne tournez les yeux que du côté des armes ;</p>
+		<p type='v'>Vous suivez une voix plus aimable pour Vous</p>
+		<p type='v'>Que les faibles appas des mes chants les plus doux,</p>
+		<p type='v'>Vous courez où la Gloire aujourd'hui vous appelle,</p>
+		<p type='v'>Et dès qu'elle a parlé, vous n'écoutez plus qu'Elle.</p>
+		<p type='v'>Vous destinez ici mes chansons, et mes jeux,</p>
+		<p type='v'>Aux divertissement de vos peuples heureux ;</p>
+		<p type='v'>Et lorsque vous allez jusqu'au bout de la Terre,</p>
+		<p type='v'>Combler vos ennemis des malheurs de la Guerre,</p>
+		<p type='v'>Vous laissez zen cherchant la peine, et les combats,</p>
+		<p type='v'>Les plaisirs de la Paix au coeur de vos États.</p>
+		<p type='v'>Mais croyez-vous, Grand Roi, que la France inquiète</p>
+		<p type='v'>Puisse trouver sans Vous quelque douceur parfaite.</p>
+		<p type='v'>Et que rien de charmant attire ses rrgards,</p>
+		<p type='v'>Quand son bonheur s'expose aux plus heureux hasards ?</p>
+		<p type='v'>Non, l'on de craint que trop votre ardeur héroïque,</p>
+		<p type='v'>Jusques à Vos sujets l'effroi s'en communique,</p>
+		<p type='v'>Ceux que Vous attaquez ont moins à se troubler,</p>
+		<p type='v'>Nous avons plus à perdre, et devons plus trembler.</p>
+		<p type='v'>L'Empire où Vous régnez sans chercher à s'accroître ;</p>
+		<p type='v'>Trouve assez de grandeur à Vous avoir pour maître,</p>
+		<p type='v'>Votre règne suffit à sa félicité,</p>
+		<p type='v'>Souffrez qu'il en jouisse avec tranquilité.</p>
+		<p type='v'>Soyez content de voir au seul bruit de vos armes</p>
+		<p type='v'>Tant d'États agités de mortelles alarmes,</p>
+		<p type='v'>Vos plus fiers ennemis abattus pour jamais,</p>
+		<p type='v'>Et l'Univers tremblant Voius demander la Paix.</p>
+		<p type='v'>Qu'un peuple dont l'orgueil attira la tempête</p>
+		<p type='v'>Par son abaissement l'écarte de sa tête,</p>
+		<p type='v'>Et quand il n'est plus rien qui puisse résister,</p>
+		<p type='v'>Que la foudre en Vos mains dédaigne d'éclater.</p>
+		<p type='v'>D'un regard adouci calmez la Terre et l'Onde,</p>
+		<p type='v'>Ne Vous contentez pas d'être l'Effroi du Monde,</p>
+		<p type='v'>Et songez que le ciel Vous donne à nos désirs,</p>
+		<p type='v'>Pour être des Humains l'Amour et les Plaisirs.</p>
+		</preface>
+	<castList><head>ACTEURS du PROLOGUE</head>
+		<castItem><role id="PALÈS" civil="D">PALÈS</role>.</castItem>
+		<castItem><role id="MÉLISSE" civil="D">MÉLISSE</role>.</castItem>
+		<castItem><role id="TROUPES-DE-NYMPHES" civil="G">Troupe de NYMPHES</role>.</castItem>
+		<castItem><role id="TROUPE-DE-PASTEURS" civil="G">Troupe de PASTEURS</role>.</castItem>
+		<castItem><role id="PAN" civil="D">LE DIEU PAN</role>.</castItem>
+		<castItem><role id="ARCAS" civil='M'>ARCAS</role>, Compagnon de Pan.</castItem>
+		<castItem><role id="SUIVANTS-DE-PAN" civil='G'>SUIVANTS DE PAN</role> qui dansent.</castItem>
+		<castItem><role id="SUIVANTS-DE-PAN-FLUTE" civil='G'>SUIVANTS DE PAN</role> qui jouent de la flûte.</castItem>
+		<castItem><role id="L-ENVIE" civil='A'>L'ENVIE</role>.</castItem>
+		<castItem><role id="QUATRE-VENTS-SOUTERRAINS" civil='G'>QUATRE VENTS SOUTERRAINS</role>.</castItem>
+		<castItem><role id="QUATRE-VENTS-DE-L-AIR" civil='G'>QUATRE VENTS DE L'AIR</role>.</castItem>
+	</castList>	
+	<castList><head>ACTEURS DE LA TRAGÉDIE</head>
+		<castItem><role id="CADMUS" civil='M'>CADMUS</role>, fils d'Agenor roi de Tyr, et frère d'Europe.</castItem>
+		<castItem><role id="ARBAS" civil='M'>ARBAS</role>, africain de la suite de Cadmus.</castItem>
+		<castItem><role id="DEUX-AFRICAINS" civil='G'>DEUX AFRICAINS</role>, compagnons d'Arbas.</castItem>
+		<castItem><role id="AFRICIANS-DANSANTS" civil='G'>TROUPE D'AFRICAINS DANSANTS</role>.</castItem>
+		<castItem><role id="PAGE-DE-CADMUS" civil='M'>LE PAGE DE CADMUS</role>.</castItem>
+		<castItem><role id="HERMIONE" civil='F'>HERMIONE</role>, fille de mars et de Vénus.</castItem>
+		<castItem><role id="CHARIE" civil='A'>CHARITE</role>, une des Grâces, compagne d'Hermione.</castItem>
+		<castItem><role id="AGLANTE" civil='F'>AGLANTE</role>, autre compagne d'Hermione.</castItem>
+		<castItem><role id="LA-NOURRICE-D-HERMIONE" civil='F'>LA NOURRICE D'HERMIONE</role>.</castItem>
+		<castItem><role id="LE-PAGE" civil='G'>LE PAGE D'HERMIONE</role>.</castItem>
+		<castItem><role id="DRACO" civil='M'>DRACO</role>, géant, roi d'Aonie.</castItem>
+		<castItem><role id="QUATRE-GÉANTS" civil='G'>QUATRE GÉANTS</role>, suivants de Draco.</castItem>
+		<castItem><role id="LE-PAGE-DU-GÉANT" civil='M'>LA PAGE DU GÉANT</role>.</castItem>
+		<castItem><role id="JUNON" civil='D'>JUNON</role>.</castItem>
+		<castItem><role id="PALLAS" civil='D'>PALLAS</role>.</castItem>
+		<castItem><role id="L-AMOUR" civil='D'>L'AMOUR</role>.</castItem>
+		<castItem><role id="DIX-STATUES-D-OR" civil='G'>DIX STATUES D'OR</role>.</castItem>
+		<castItem><role id="DIX-PETITS-AMOURS" civil='G'>DIX PETITS AMOURS</role>.</castItem>
+		<castItem><role id="UN-GRAND-SACRIFICATEUR-DE-MARS" civil='M'>UN GRAND SACRIFICATEUR DE MARS</role>.</castItem>
+		<castItem><role id="DIX-SACRIFICATEURS-DE-MARS" civil='G'>DIX  SACRIFICATEURS DANSANTS</role>.</castItem>
+		<castItem><role id="UN-TIMBALIER" civil='M'>UN TIMBALIER</role>.</castItem>
+		<castItem><role id="MARS" civil='D'>LE DIEU MARS</role>.</castItem>
+		<castItem><role id="FURIES" civil='G'>QUATRES FURIES</role>.</castItem>
+		<castItem><role id="ECHION" civil='M'>ECHION</role>, un des combattants nés de la Terre.</castItem>
+		<castItem><role id="TROUPE-DE-COMBATTANTS" civil='G'>TROUPE DE COMBATTANTS</role> nés de la Terre.</castItem>
+		<castItem><role id="JUPITER" civil='D'>JUPITER</role>.</castItem>
+		<castItem><role id="VÉNUS" civil='D'>VÉNUS</role>.</castItem>
+		<castItem><role id="L-HYMEN" civil='D'>L'HYMEN</role>.</castItem>
+		<castItem><role id="COMUS" civil='D'>COMUS</role>, dieu des festins.</castItem>
+		<castItem><role id="TROUPE-DE-DUIVANTS-DE-COMUS" civil='G'>TROUPE DE SUIVNATS DE COMUS</role>.</castItem>
+		<castItem><role id="TROUPE-D-AMADRYADES" civil='G'>TROUPE D'AMADRYADES</role>.</castItem>
+		<castItem><role id="TROUPE-DE-DIVINITÉS-CÉLESTES" civil='G'>TROUPE DE DIVINITÉS CÉLESTES</role>.</castItem>
+	</castList>
+	<set location='Boétie' country='Grèce' periode='Temps mythologiques' link=''>La scène est dans la contrée de la Grèce qui était appalée Aonie, et que Cadmus nomma Boétie.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>LE SERPENT PYTHON</head>
+<div2 type='scene' n='1'><head>PROLOGUE. Palès, Melisse, Troupe de Nymphes, Troupe de Pasteurs.</head>
+<stage>Le sujet de ce prologue est pris du premier livre et de la huitième fable des Métamorphoses d'Ovide, où Ovide décrit la naissance et la mort du monstrueux serpent Python, que le Soleil fit naître par sa chaleur du limon bourbeux qui était resté sur la Terre après le déluge, et qui devint un monstre si terrible qu'Apollon lui-même fut obligé de le détruire.</stage>
+<stage>Le sen allégorique de ce sujet est si clair qu'il est inutile de l'expliquer. Il suffit de dire que LE ROI s'est mis au dessus des louanges ordinaires, et que pour former quelque idée de la grandeur et de l'éclat et de la Gloire, il a fallu s'élever jusques à la Divinité même de la lumière qui est le corps de sa devise.</stage>
+<stage>Le Théâtre s'ouvre et représente une campagne où l'on découvre des hameaux des deux côtés et un marais dans le fonds : le ciel fait voir une aurore éclatante, qui est suivie du lever du soleil, dont le globe brilant s'élève sur l'horizon, dans le temps que les instruments achèvent de jouer l'ouverture.</stage>
+<stage>Palès, déesse des pasteurs, Mélisse divinité des forêts et des montagnes, sortent des deux côtés du théâtre, et appellent les troupes champêtres qui sont accoutumée de les suivre.</stage>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='1'>Hâtez-vous, Pasteurs, accourez.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='2'>La voix des oiseaux nous appelle.</l>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='3'>Nos champs sont éclairés.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='4'>Nos coteaux sont dorés.</l>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='5'>Tout brille de l'éclat de la clarté nouvelle.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='6'>Mille fleurs naissent dans nos prés :</l>
+</sp>
+<sp who='PALÈS_MÉLISSE'><speaker>PALÈS et MÉLISSE.</speaker>
+	<l id='7'>Que l'Astre qui nous luit rend la nature belle !</l>
+	<l id='8'>Ne perdons pas un seul moment</l>
+	<l id='9'>D'un jour si doux et si charmant.</l>
+<stage>Le choeur répète les deux derniers vers.</stage>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR continue à chanter.</speaker>
+	<l id='10'>Admirons, admirons l'Astre qui nous éclaire,</l>
+	<l id='11'>Chantons la gloire de son cours ;</l>
+	<l id='12'>Que tout le Monde revère</l>
+	<l id='13'>Le Dieu qui fait nos beaux jours.</l>
+<stage>Pan, Dieu des Bergers paraît accompagné de Joueurs d'instruments champêtres, et de danseurs rustiques, qui viennent prendre part à la réjouissance des nymphes et des pasteurs, et tous ensemble commencent à former une manière de fête à l'honneur du Dieu qui donne le jour.</stage>
+</sp>
+<sp who='PAN'><speaker>PAN.</speaker>
+	<l id='14'>Que chacun se ressente</l>
+	<l id='15'>De la douceur charmante,</l>
+	<l id='16'>Que le Soleil répand sur ces heureux climats.</l>
+	<l id='17'>Il n'est rien qui n'enchante</l>
+	<l id='18'>Dans ces lieux pleins d'appas,</l>
+	<l id='19'>Tout y rit, tout y chante,</l>
+	<l id='20'>Hé pourquoi ne rirons-nous pas ?</l>
+<stage>Les danseurs rustiques qui ont suivi le Dieu Pan, commencent une fête qui est interrompue par des bruits souterrains, et par une espèce de Nuit qui obscurcit le théâtre entièrement, et tout à coup ; ce qui de frayeur qui sont une manière de concert affreux, avec les bruits souterrains.</stage>
+</sp>
+<sp who='CHOEURS'><speaker>CHOEURS.</speaker>
+	<l id='21'>Quel désordre soudain ! quel bruit affreux redoutable !</l>
+	<l id='22'>Que épouvantable fracas !</l>
+	<l id='23'>Quels gouffres s'ouvrent sous nos pas !</l>
+	<l id='24'>Le jour palît, le Ciel se trouble ;</l>
+	<l id='25'>La Terre va vomir tout l'Enfer en courroux :</l>
+	<l id='26'>Fuyons, fuyons, sauvons-nous, sauvons-nous.</l>
+<stage>Dans cette obscurité soudaine, l'Envie sort de son antre qui s'ouvre au milieu du théâtre : elle évoque le monstrueux Serpent Python, qui paraît dans son marais bourbeux, jettant des feux par la gueule et par les yeux, qui sont la seule lumière qui éclaire le théâtre : elle appelle les Vents les plus impétueux pour seconder sa fureur, elle en fait sortir quatre de ceux qui sont renfermez dans les cavernes souterraines, et elle en fait descendre quatre autres de ceux qui forment les orages, qui tous après avoir volé et s'être croisés dans l'air, viennent se ranger autour d'elle, pour l'aider à troubler les beaux jours que le Soleil donne au monde.</stage>
+</sp>
+<sp who='L-ENVIE'><speaker>L'ENVIE.</speaker>
+	<l id='27'>C'est trop voir le Soleil briller dans sa Carrière,</l>
+	<l id='28'>Les Rayons qu'il lance en tous lieux,</l>
+	<l id='29'>Ont trop blessé mes yeux ;</l>
+	<l id='30'>Venez, noirs ennemis de sa vive lumière,</l>
+	<l id='31'>Joignons nos transports furieux.</l>
+	<l id='32'>Que chacun me seconde :</l>
+	<l id='33'>Paraissez, Monstre affreux.</l>
+	<l id='34'>Sortez ? Vents souterrains, des antres les plus creux,</l>
+	<l id='35'>Volez, Tyrans des airs, troublez la Terre et l'Onde,</l>
+	<l id='36'>Répandons la terreur ;</l>
+	<l id='37'>Qu'avec nous le Ciel gronde :</l>
+	<l id='38'>Que l'Enfer nous réponde ;</l>
+	<l id='39'>Remplissons la Terre d'horreur :</l>
+	<l id='40'>Que la Nature se confonde :</l>
+	<l id='41'>Jetons dans tous les coeurs du monde</l>
+	<l id='42'>La jalouse fureur</l>
+	<l id='43'>Qui déchire mon coeur.</l>
+<stage>L'Envie distribue des Serpents aux Vents, qui forment autour d'elle de manières de tourbillons.</stage>
+<stage>L'envie continue à chanter.</stage>
+	<l id='44'>Et vous Monstre, armez-vous pour nuire</l>
+	<l id='45'>À cet astre puissant qui vous a su produire :</l>
+	<l id='46'>Il répand trop de biens, il reçoit trop de voeux.</l>
+	<l id='47'>Agitez vos marais bourbeux :</l>
+	<l id='48'>Excitez contre lui mille vapeurs mortelles :</l>
+	<l id='49'>Déployez, étendez vos ailes,</l>
+	<l id='50'>Que tous les Vents impétueux</l>
+	<l id='51'>S'efforcent d'éteindre ses feux.</l>
+<stage>Ces vents forment de nouveaux tourbillons, tandis que le serpent Python l'élève en l'air, par un rond qu'il fait en volant. </stage>
+<stage>L'Envie continue.</stage>
+	<l id='52'>Osons tous obscurcir ses clartés les plus belles,</l>
+	<l id='53'>Osons nous opposer à son cours trop heureux :</l>
+	<l id='54'>Quels traits ont crevé le Nuage ?</l>
+	<l id='55'>Quel Torrent enflammé s'ouvre un brillant passage !</l>
+	<l id='56'>Tu triomphes, Soleil ? Tout cède à ton pouvoir ?</l>
+	<l id='57'>Que d'honneurs tu vas recevoir !</l>
+	<l id='58'>Ah quelle rage ! Ah quelle rage !</l>
+	<l id='59'>Quel désespoir ! Quel désespoir !</l>
+<stage>Des traits enflammés percent l'épaisseur des nuages, et fondent sur le Serpent Python, qui après s'être débattu quelque temps en l'Air, tombe enfin tout embrasé dans son marais bourbeux ; une pluie de feu se répand sur toute la scène, et contraint l'Envie de s'abîmer avec les quatre Vents souterrains, tandis que les Vents de l'Air s'envolent, et dans le même instant les Nuages se dissipent et le théâtre devient entièrement éclairé. L'Assemblée champêtre que la frayeur avait chassée revient, pour célébrer la Victoire du Soleil, et pour lui préparer des trophées, et des sacrifices.</stage>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='60'>Chassons la crainte qui nous presse.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='61'>Rien ne doit plus faire peur.</l>
+</sp>
+<sp who='PAN'><speaker>PAN.</speaker>
+	<l id='62'>Le Monstre est mort, l'orage cesse,</l>
+	<l id='63'>Le soleil est vainqueur.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR, répète.</speaker>
+	<l id='64'>Le monstre est mort, l'orage cesse,</l>
+	<l id='65'>Le soleil est vainqueur.</l>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='66'>Qu'on lui prépare</l>
+	<l id='67'>De superbes autels.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='68'>Que l'on pare</l>
+	<l id='69'>D'ornements immortels.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='70'>Conservons la mémoire</l>
+	<l id='71'>De sa victoire.</l>
+	<l id='72'>Par mille honneurs divers,</l>
+	<l id='73'>Répandons le bruit de sa gloire</l>
+	<l id='74'>Jusqu'au bout de l'univers.</l>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='75'>Mais le soleil s'avance,</l>
+	<l id='76'>Il se découvre aux yeux de tous.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='77'>Respectons sa présence</l>
+	<l id='78'>Par un profond silence,</l>
+	<l id='79'>Écoutons, taisons-nous.</l>
+</sp>
+<sp who='LE-SOLEIL'><speaker>, sur son char.</speaker>
+	<l id='80'>Ce n'est point par l'éclat d'un pompeux sacrifice,</l>
+	<l id='81'>Que je me plais à voir mes soins recompensés ;</l>
+	<l id='82'>Pour prix de mes travaux ce me doit être assez,</l>
+	<l id='83'>Que chacun en jouisse ;</l>
+	<l id='84'>Je fais les plus doux de mes voeux</l>
+	<l id='85'>De rendre tout le monde heureux.</l>
+	<l id='86'>Dans ces lieux fortunés, les Muses vont descendre,</l>
+	<l id='87'>Les jeux galants suivront leurs pas ;</l>
+	<l id='88'>J'inspire les chants plein d'appas</l>
+	<l id='89'>Que vous allez entendre :</l>
+	<l id='90'>Tandis que je suivrai mon cours,</l>
+	<l id='91'>Profitez des beaux jours.</l>
+<stage>Le soleil s'élève dans les Cieux, et toute l'Assemblée champêtre forme des jeux, où les chansons sont mêlées avec les danses.</stage>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='92'>Profitons des beaux jours.</l>
+</sp>
+<sp who='PALÈS'><speaker>PALÈS.</speaker>
+	<l id='93'>Suivons tous la même envie.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='94'>Profitons des beaux jours.</l>
+</sp>
+<sp who='MÉLISSE'><speaker>MÉLISSE.</speaker>
+	<l id='95'>Aimons, tout nous y convie.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='96'>Profitons des beaux jours.</l>
+</sp>
+<sp who='PALÈS_MÉLISSE'><speaker>PALÈS et MÉLISSE.</speaker>
+	<l id='97'>Les plus beaux jours de la vie</l>
+	<l id='98'>Sont perdus sans les Amours.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='99'>Profitons des beaux jours.</l>
+<stage>Tandis que les Nymphes et les Dieux champêtres dansent avec les bergers et les bergères, Palès, Melisse et Pan, mêlent leurs voix avec les  instruments rustiques.</stage>
+</sp>
+<sp who='PALÈS_MELISSE_PAN'><speaker>PALÈS, MÉLISSE et PAN ensemble.</speaker>
+	<l id='100'>Heureux qui peut plaire !</l>
+	<l id='101'>Heureux les amants !</l>
+	<l id='102'>Leurs jours sont charmants :</l>
+	<l id='103'>L'Amour sait leur faire</l>
+	<l id='104'>Mille doux moments.</l>
+	<l id='105'>Que sert la jeunesse</l>
+	<l id='106'>Aux coeurs sans tendresse ?</l>
+	<l id='107'>Qui n'a point d'amour</l>
+	<l id='108'>N'a pas un beau jour.</l>
+<stage>Second couplet</stage>
+	<l id='109'>En vain l'Hiver passe,</l>
+	<l id='110'>En vain dans les champs</l>
+	<l id='111'>Tout charme nos sens,</l>
+	<l id='112'>Une âme de glace</l>
+	<l id='113'>N'a point de Printemps.</l>
+	<l id='114'>Il faut se défaire</l>
+	<l id='115'>d'un coeur trop sévère,</l>
+	<l id='116'>Qui n'a point d'Amour</l>
+	<l id='117'>N'a pas un beau jour.</l>
+<stage>Archas un des Dieux des forêts chante, et tous les instruments et toutes les voix lui répondent, tandis que l'Asseemblée champêtre danse, et se joue avec des branches de chêne, dont elle forme plusieurs figures agréables.</stage>
+</sp>
+<sp who='ARCHAS'><speaker>ARCHAS.</speaker>
+	<l id='118'>Peut-on mieux faire,</l>
+	<l id='119'>Quand on sait plaire,</l>
+	<l id='120'>Peut-on mieux faire</l>
+	<l id='121'>Que d'aimer bien ;</l>
+	<l id='122'>Quelque embarras que l'Amour fasse</l>
+	<l id='123'>C'est toujours un charmant lien ;</l>
+	<l id='124'>Trop de repos bien souvent embarrasse,</l>
+	<l id='125'>Que fait-on d'un coeur qui n'aime rien ?</l>
+<stage>Second 6couplet</stage>
+	<l id='126'>L'Amour contente,</l>
+	<l id='127'>Sa peine enchante,</l>
+	<l id='128'>L'Amour contente,</l>
+	<l id='129'>Tout en est bon.</l>
+	<l id='130'>Dans les beaux jours de notre vie</l>
+	<l id='131'>Les plaisirs sont dans leur saison,</l>
+	<l id='132'>Et quelque peur d'amoureuse folie</l>
+	<l id='133'>Vaut souvent mieux que trop de raison.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Cadmus, deux princes Tiriens, un page.</head>
+<stage>Le théâtre change et représente un jardin.</stage>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='134'>Quoi, Cadmus, fils d'un roi qui tient sous sa puissance</l>
+	<l id='135'>Les bords féconds du Nil et les climats brûlés ;</l>
+	<l id='136'>Cadmus, après deux ans loin de Tyr écoulés,</l>
+	<l id='137'>Étranger chez les grecs, n'a point d'impatience</l>
+	<l id='138'>De revoir un pays dont il est l'espérance ?</l>
+	<l id='139'>Et laisse sans regrets tant de coeurs désolés ?</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES DEUX PRINCES TYRIENS, ensemble.</speaker>
+	<l id='140'>Nous suivons vos destins partout sans résistance :</l>
+	<l id='141'>Faudra-t-il que toujours nous soyons exilés ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='142'>J'aimerais à revoir les lieux de ma naissance ;</l>
+	<l id='143'>Mais avant que je puisse en goûter la douceur,</l>
+	<l id='144'>J'ai juré d'achever une juste vengeance.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='145'>Et cependant, Seigneur,</l>
+	<l id='146'>Vous laissez en ces lieux languir votre grand coeur.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='147'>Après avoir erré sur la Terre et sur l'Onde</l>
+	<l id='148'>Sans trouver Europe ma Soeur ;</l>
+	<l id='149'>Après avoir en vain cherché son ravisseur,</l>
+	<l id='150'>Le ciel termine ici ma course vagabonde ;</l>
+	<l id='151'>Et c'est pour obéir aux oracles des Dieux</l>
+	<l id='152'>Qu'il faut m'arrêter en ces lieux.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='153'>Si vous trouvez des Dieux dont l'ordre vous engage</l>
+	<l id='154'>À choisir ce séjour ;</l>
+	<l id='155'>Le dieu que votre coeur consulte davantage</l>
+	<l id='156'>Est peut-être l'Amour.</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='157'>Serait-il possible</l>
+	<l id='158'>Qu'un héros invincible</l>
+	<l id='159'>Eût un coeur qu'Amour sut charmer ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='160'>Quel coeur n'est pas fait pour aimer ?</l>
+	<l id='161'>Et pour être un héros doit-on être insensible ?</l>
+	<l id='162'>Que sert contre Hermione un courage indompté ?</l>
+	<l id='163'>Qui peut n'en pas être enchanté ?</l>
+	<l id='164'>Le Dieu Mars est son père,</l>
+	<l id='165'>Elle en a la noble fierté ;</l>
+	<l id='166'>La mère d'Amour est sa mère,</l>
+	<l id='167'>Elle en a la beauté.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='168'>À quoi sert un amour qui n'a point d'espérance ;</l>
+	<l id='169'>Hermione est sous la puissance.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='170'>C'est un affreux géant, c'est un monstre odieux.</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='171'>Il est du sang de Mars, ce Dieu le favorise,</l>
+	<l id='172'>Et c'est enfin à lui qu'Hermione est promise :</l>
+	<l id='173'>Nul autre des mortels n'en doit être l'époux ;</l>
+	<l id='174'>Et si vous en tentez la fatale entreprise,</l>
+	<l id='175'>La Terre avec le Ciel s'armera contre vous.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='176'>Hé bien je périrai si le Destin l'ordonne,</l>
+	<l id='177'>Je veux délivrer Hermione :</l>
+	<l id='178'>Et si je l'entreprends en vain,</l>
+	<l id='179'>Je ne saurais périr pour un plus beau dessein.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Cadmus, Arbas, les deux Princes, le Page.</head>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='180'>Où sont nos africains ? Que leur troupe s'avance :</l>
+	<l id='181'>La Princesse veut voir leur plus galante danse.</l>
+	<l id='182'>D'où vient qu'aucun d'eux ne paraît ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='183'>Vos ordres sont suivis, Seigneur, et tout est prêt !</l>
+	<l id='184'>Mais le tyran s'est mis en tête</l>
+	<l id='185'>Qu'il faut que ses géans dansent dans cette fête.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='186'>Comment faire mouvoir des colosses affreux !</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='187'>Quand on lui dit, Comment ? Il répond, je le veux,</l>
+	<l id='188'>Ces grands Hommes pleins de chimères</l>
+	<l id='189'>Sont d'un raisonnement fâcheux,</l>
+	<l id='190'>Et fiers d'être au-dessus des Hommes ordinaires</l>
+	<l id='191'>Pensent que la Raison doit être au-dessous d'eux ;</l>
+	<l id='192'>Je n'ai pu garder des mesures,</l>
+	<l id='193'>J'ai pesté contre lui, j'ai vomi des injures,</l>
+	<l id='194'>Je l'ai nommé tyran, cent fois.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='195'>On doit toujours respect aux rois.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='196'>Eut-il du m'étrangler, je n'aurais pu me taire :</l>
+	<l id='197'>J'étais trop en colère ;</l>
+	<l id='198'>Si je n'avais rien dit,</l>
+	<l id='199'>J'aurais étouffé de dépit.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='200'>Contentons le Géant, il est ici le maître ;</l>
+	<l id='201'>Hermione est soumise à son cruel pouvoir :</l>
+	<l id='202'>Ce divertissement, tel enfin qu'il puisse être,</l>
+	<l id='203'>Me vaudra quelque temps le plaisir de la voir.</l>
+	<l id='204'>S'il ne m'est pas permis de lui parler moi-même</l>
+	<l id='205'>Et d'oser lui dire que je l'aime ;</l>
+	<l id='206'>Du moins nos africains, par leurs chants les plus doux</l>
+	<l id='207'>Pourront l'entretenir de mon amour extrême,</l>
+	<l id='208'>En dépit d'un rival jaloux.</l>
+	<l id='209'>Préparons tout en diligence,</l>
+	<l id='210'>Hâtons-nous, la princesse avance.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='211' part='i'>Allons.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='211' part='f'>Toi ne suis point mes pas,</l>
+	<l id='212'>Je vais voir le géant, il faut que tu l'évites.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='213'>Non, non, nous n'aurons point de bruit, ni d'embarras</l>
+	<l id='214'>Pour les injures que j'ai dites,</l>
+	<l id='215'>Je les disais si bas</l>
+	<l id='216'>Qu'il ne m'entendait pas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Hermione, Charite, Aglante, La Nourrice d'Hermione, un page.</head>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='217'>Cet aimable séjour</l>
+	<l id='218'>Si paisible et si sombre,</l>
+	<l id='219'>Offre du silence et de l'ombre</l>
+	<l id='220'>À qui veut éviter le bruit, et le grand jour.</l>
+	<l id='221'>Ah ! Que n'est-il aussi facile</l>
+	<l id='222'>De trouver un asile</l>
+	<l id='223'>Pour éviter l'Amour !</l>
+	<l id='224'>L'impitoyable tyrannie,</l>
+	<l id='225'>Dont je suis les barbares lois,</l>
+	<l id='226'>Ne défend pas d'aimer le chant et l'harmonie :</l>
+	<l id='227'>Vous qui me faites compagnie</l>
+	<l id='228'>Répondez à ma voix.</l>
+</sp>
+<sp who='AGLANTE'><speaker>AGLANTE.</speaker>
+	<l id='229'>On a beau fuir l'Amour, on ne peut l'éviter,</l>
+	<l id='230'>On n'oppose à ses traits qu'une défense vaine,</l>
+	<l id='231'>On s'épargne bien de la peine,</l>
+	<l id='232'>Quand on se rend sans résister.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='233'>La peine d'aimer est charmante,</l>
+	<l id='234'>Il n'est point de coeur qui s'exempte</l>
+	<l id='235'>De payer ce tribut fatal.</l>
+	<l id='236'>Si l'Amour épouvante</l>
+	<l id='237'>Il fait plus de peur que de mal.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='238'>Quel choix est en votre puissance ?</l>
+	<l id='239'>Songez à quel époux le Ciel vous veut unir.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='240'>Je frémis quand j'y pense,</l>
+	<l id='241'>Pourquoi m'en fais-tu souvenir ?</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='242'>Vous êtes sans espoir du côté de la Terre :</l>
+	<l id='243'>Le roi qui vous retient dans ce charmant séjour,</l>
+	<l id='244'>A pour lui le Dieu de la Guerre ;</l>
+	<l id='245'>Il a rassemblé dans sa Cour</l>
+	<l id='246'>Les restes des Géants échappés du tonnerre.</l>
+	<l id='247'>Gardez-vous pour Cadmus d'un malheureux amour,</l>
+	<l id='248'>Le don de votre coeuur lui coûterait le jour.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='249'>Ah ! Quelle cruauté de vouloir me contraindre</l>
+	<l id='250'>À ce choix odieux que je ne puis souffrir !</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='251'>Tout le monde vous trouve à plaindre,</l>
+	<l id='252'>Personne cependant n'ose vous secourir.</l>
+</sp>
+<sp who='AGLANTE'><speaker>AGLANTE.</speaker>
+	<l id='253'>Voici les Africains, mais les géants les suivent.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='254'>Quoi partout les géants ? Quoi toujours nous troubler.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='255'>C'est d'ordinaire ainsi que les plaisirs arrivent ;</l>
+	<l id='256'>Quelque chagrin fâcheux s'y vient toujours mêler.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Hermione, Charite, Aglante, Le Nourrice, Cadmus, deux princes tyriens, neuf Africains dansants, deux autres africains dansants, deux autres africains chantants, Arbas, le Géant, Quatre autres Géants, trois pages.</head>
+<stage>Un des Africains plante un grand palmier au milieu du Théâtre : cet arbre est orné de plusieurs festons et guirlandes : les quatres géants se mêlent avec les Africains, et forment ensemble une danse mêlée de chansons.</stage>
+<sp who='ARBAS_AFRICAINS'><speaker>ARBAS, chante avec les deux Afriquains.</speaker>
+	<l id='257'>Suivons, suivons l'Amour, laissons-nous enflammer,</l>
+	<l id='258'>Ah ! Ah ! Ah ! qu'il est doux d'aimer !</l>
+</sp>
+<sp who='PREMIER-AFRICAIN'><speaker>PREMIER AFRICAIN.</speaker>
+	<l id='259'>Quand l'Amour vous l'ordonne,</l>
+	<l id='260'>Souffrons les rigueurs,</l>
+	<l id='261'>Chérissons les langueurs,</l>
+	<l id='262'>Il n'exempte personne</l>
+	<l id='263'>De ses traits vainqueurs ;</l>
+	<l id='264'>Quel péril nous étonne ?</l>
+	<l id='265'>Laissons trembler les faibles coeurs.</l>
+</sp>
+<sp who='ARBAS_AFRICAINS'><speaker>ARBAS, et les DEUX AFRICAINS.</speaker>
+	<l id='266'>Suivons, suivons l'Amour, laissons-nous enflammer,</l>
+	<l id='267'>Ah ! Ah ! Ah ! qu'il est doux d'aimer !</l>
+</sp>
+<sp who='DEUXIÈME-AFRICAIN'><speaker>DEUXIÈME AFRICAIN chantant.</speaker>
+	<l id='268'>Deux amants peuvent feindre</l>
+	<l id='269'>Quand ils sont d'accord ;</l>
+	<l id='270'>Plus l'Amour trouve à craindre,</l>
+	<l id='271'>Plus il fait d'effort ;</l>
+	<l id='272'>On a beau le contraindre,</l>
+	<l id='273'>Il en est le plus fort.</l>
+</sp>
+<sp who='ARBAS_AFRICAINS'><speaker>ARBAS et LES DEUX AFRICAINS.</speaker>
+	<l id='274'>Suivons, suivons l'Amour, laissons-nous enflammer,</l>
+	<l id='275'>Ah ! Ah ! Ah ! Qu'il est doux d'aimer !</l>
+</sp>
+<sp who='ARBAS_AFRICAINS'><speaker>TOUS TROIS ENSEMBLE.</speaker>
+	<l id='276'>On n'a rien de charmant</l>
+	<l id='277'>Aisément,</l>
+	<l id='278'>Et sans alarmes :</l>
+	<l id='279'>Mais tout plaît, en aimant,</l>
+	<l id='280'>Il n'est point de tourment</l>
+	<l id='281'>Qui n'ai des charmes ;</l>
+	<l id='282'>Suivons, suivons l'Amour, laissons-nous enflammer,</l>
+	<l id='283'>Ah ! Ah ! Ah ! Qu'il est doux d'aimer !</l>
+<stage>Après l'entrée, Hermione se lève de la place où elle était assise près du géant, qui la suit et l'arrête dans le temps qu'elle se veut retirer.</stage>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='284'>Il est temps de finir ma peine</l>
+	<l id='285'>Après tant d'injustes refus.</l>
+	<l id='286'>Où voulez-vous aller ? Vous fuyez, inhumaine ?</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='287'>J'étAis pour voir ici quelques danses Africaines,</l>
+	<l id='288'>Les Africains ne dansent plus ?</l>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='289'>Rien ne doit plus m'être contraire :</l>
+	<l id='290'>Mars est pour moi, c'est votre père,</l>
+	<l id='291'>C'est lui qui veut unir votre coeur et le mien.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='292'>Je suis soeur de l'Amour, et Vénus est ma mère,</l>
+	<l id='293'>S'ils ne sont pas pour vous, les contez-vous pour rien ?</l>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='294'>Il faut que votre destinée</l>
+	<l id='295'>Suive l'ordre du Dieu dont vous tenez le jour ;</l>
+	<l id='296'>Et toujours l'hyménée</l>
+	<l id='297'>Ne prends pas l'avis de l'Amour.</l>
+	<l id='298'>Vous craignez les raisons dont je puis vous confondre ?</l>
+	<l id='299'>Vous ne m'écoutez pas ? Voulez-vous m'éviter ?</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='300'>Quand on n'a rien à répondre,</l>
+	<l id='301'>À quoi sert-il d'écouter ?</l>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='302'>Je vous suivrai partout malgré votre colère,</l>
+	<l id='303'>Sans cesse à vos regards je veux me présenter ;</l>
+	<l id='304'>Et si ce n'est pas pour vous plaire,</l>
+	<l id='305'>Ce sera pour vous tourmenter.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Cadmus, deux princes tiriens, un page.</head>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='306'>C'est trop l'abandonner à ce cruel supplice :</l>
+	<l id='307'>Il est temps d'éclater,</l>
+	<l id='308'>Et d'oser tout tenter</l>
+	<l id='309'>Contre tant d'injustice.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='310'>C'est exposer vos jours à d'horribles hasards,</l>
+	<l id='311'>Vous aurez à dompter l'affreux dragon de Mars.</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='312'>Il faut semer ses dents, et voir soudain la Terre</l>
+	<l id='313'>En former des soldats pour vous faire la guerre.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES DEUX PRINCES TYRIENS, ensemble.</speaker>
+	<l id='314'>Voyez à quels dangers vous allez vous offrir.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='315'>Je ne vois qu'Hermione, et je la vois souffrir :</l>
+	<l id='316'>Tout cède à cette horreur extrême ;</l>
+	<l id='317'>Il est moins affreux de mourir</l>
+	<l id='318'>Que de voir souffrir ce qu'on aime.</l>
+	<l id='319'>Rien ne me peut épouvanter :</l>
+	<l id='320'>Malgré tant de périls, l'Amour veut que j'espère.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Junon, Pallas, cadmus, les deux princes.</head>
+<sp who='JUNON'><speaker>JUNON, sur son char.</speaker>
+	<l id='321'>Où vas-tu téméraire ?</l>
+	<l id='322'>Où cours-tu te précipiter ?</l>
+	<l id='323'>C'est l'épouse et la soeur du maître du tonerre,</l>
+	<l id='324'>La mère du Dieu de la guerre,</l>
+	<l id='325'>C'est Junon qui vient t'arrêter.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS, sur son char.</speaker>
+	<l id='326'>Va, Cadmus, que rien ne t'étonne,</l>
+	<l id='327'>Va, ne crains ni Junon, ni le Dieu des Combats :</l>
+	<l id='328'>Ose secourir Hermione,</l>
+	<l id='329'>Tu vois dans ton parti la guerrière Pallas,</l>
+	<l id='330'>Cours aux plus grands dangers, je vais suivre tes pas,</l>
+	<l id='331'>C'est Jupiter qui me l'ordonne.</l>
+</sp>
+<sp who='JUNON'><speaker>JUNON.</speaker>
+	<l id='332'>Pallas pour les amants se déclare en ce jour ;</l>
+	<l id='333'>Qui l'aurait jamais osé croire ?</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='334'>Qui peut être contre l'Amour</l>
+	<l id='335'>Quand il s'accorde avec la gloire ?</l>
+</sp>
+<sp who='JUNON'><speaker>JUNON.</speaker>
+	<l id='336'>Évite un courroux dangereux.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='337'>Profite d'un avis fidèle.</l>
+</sp>
+<sp who='JUNON'><speaker>JUNON.</speaker>
+	<l id='338'>Fuis un trépas affreux.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='339'>Cherche dans les périls une gloire immortelle.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='340'>Entre deux déïtés qui suspendent mes voeux,</l>
+	<l id='341'>Je n'ose résister à pas une des deux,</l>
+	<l id='342'>Mais je suis l'Amour qui m'appelle.</l>
+</sp>
+<sp who='JUNON'><speaker>JUNON.</speaker>
+	<l id='343'>Je poursuivrai tes jours.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='344'>Je vole à ton secours.</l>
+<stage>Junon et Pallas sont enlevées sur leurs chars.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Arbas, Charite.</head>
+<stage>Le théâtre change, et représente un Palais.</stage>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='345'>Charite, il est trop vrai, Cadmus veut entreprendre</l>
+	<l id='346'>De remettre Hermione en pleine liberté :</l>
+	<l id='347'>Il l'a dit au tyran, et je viens de l'entendre !</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='348'>Et que dit le géant ? N'est-il point irrité ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='349'>Il rit de sa témérité,</l>
+	<l id='350'>Mon maître doit voir la Princesse</l>
+	<l id='351'>Avant d'attaquer le dragon furieux</l>
+	<l id='352'>qui veille pour garder ces lieux ;</l>
+	<l id='353'>Et l'Amour qui pour toi me presse</l>
+	<l id='354'>Veut que je vienne aussi te faire mes adieux.</l>
+	<l id='355'>En te voyant, belle Charite,</l>
+	<l id='356'>J'avais cru que l'Amour fût un plaisir charmant ;</l>
+	<l id='357'>Mais lorsqu'il faut que je te quitte,</l>
+	<l id='358'>J'éprouve qu'il n'est point un plus cruel tourment.</l>
+	<l id='359'>La douleur me saisit, je ne puis plus rien dire ;</l>
+	<l id='360'>Quand je pleure, quand je soupire,</l>
+	<l id='361'>Tu ris, et rien n'émeut ton coeur indifférent ?</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='362'>Tu fais la grimace en pleurant,</l>
+	<l id='363'>Je ne puis m'empêcher de rire.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='364'>La pitié, tout au moins, devrait bien t'engager</l>
+	<l id='365'>À prendre quelque part à mes ennuis extrêmes.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='366'>S'il est bien vrai que tu m'aimes,</l>
+	<l id='367'>Pourquoi veux-tu m'affliger ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='368'>Pour soulager mon coeur du chagrin qui le presse,</l>
+	<l id='369'>Te coûterait-il tant de l'affliger un peu ?</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='370'>C'est un poison que la tristesse,</l>
+	<l id='371'>L'Amour n'est plus plaisant dès qu'il n'est plus un jeu.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='372'>On console un amant des rigueurs de l'absence</l>
+	<l id='373'>Par des tendres adieux.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='374'>Quand il faut se quitter, un peu d'indifférence</l>
+	<l id='375'>Console encore mieux.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='376'>Tu me l'avais bien dit, qu'il était impossible</l>
+	<l id='377'>Que ton barbare coeur perdit sa dureté.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='378'>Au moins si tu te plains de me voir insensible,</l>
+	<l id='379'>Tu dois être content de ma sincérité ;</l>
+	<l id='380'>Puisqu'enfin pour te satisfaire</l>
+	<l id='381'>Je ne puis pleurer avec toi ;</l>
+	<l id='382'>Si tu voulais me plaire</l>
+	<l id='383'>Tu rirais avec moi.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='384'>C'est trop railler de mon martyre,</l>
+	<l id='385'>Le dépit m'en doit délivrer ;</l>
+	<l id='386'>N'est-on pas bien fou de pleurer</l>
+	<l id='387'>Pour qui n'en fait que rire ?</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='388'>Guéris-toi, si tu peux,</l>
+	<l id='389'>J'approuve ta colère ;</l>
+	<l id='390'>Quand on désespère</l>
+	<l id='391'>Un coeur amoureux ;</l>
+	<l id='392'>C'est par un dépit heureux</l>
+	<l id='393'>Qu'il faut se tirer d'affaire.</l>
+</sp>
+<sp who='CHARITE_ARBAS'><speaker>CHARITE et ARBAS ensemble.</speaker>
+	<l id='394'>Quand on désespère</l>
+	<l id='395'>Un coeur amoureux ;</l>
+	<l id='396'>C'est par un dépit heureux</l>
+	<l id='397'>Qu'il faut se tirer d'affaire.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='398'>Mais la nourrice vient, il me faut éloigner.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='399'>Tu sais que tu lui plais, la veux-tu dédaigner ?</l>
+	<l id='400'>C'est une conquête assez belle.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='401'>Si je lui plais, tant pis pour elle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. La nourrice, Arbas, Charite.</head>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='402'>Quoi ! Dès que je parais, tu fuis au même instant ?</l>
+	<l id='403'>Lorsqu'on a des amis, est-ce ainsi qu'on les quitte ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='404'>Le temps presse, et Cadmus m'attend.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='405'>Quand tu parlais seul à Charite,</l>
+	<l id='406'>Le temps ne te pressait pas tant :</l>
+	<l id='407'>Quel charme a-t-elle qui t'attire ?</l>
+	<l id='408'>Qu'ai-je qui te fait en aller ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='409'>J'avais à lui parler,</l>
+	<l id='410'>Je n'ai rien à te dire.</l>
+	<l id='411'>Je dois suivre Cadmus, nous partons de ce lieu.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='412'>Me dire adieu, du moins, est une bienséance</l>
+	<l id='413'>Dont rien ne te dispense.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='414'>Je te dis donc adieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. La Nourrice, Charite.</head>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='415'>Il me quitte, l'ingrat, il me fuit, l'infidèle !</l>
+	<l id='416'>Ne crains pas que je te rappelle !</l>
+	<l id='417'>Va, cours, je te laisse partir :</l>
+	<l id='418'>Va, je n'ai plus pour toi qu'une haine mortelle :</l>
+	<l id='419'>Puisses-tu rencontrer la mort la plus cruelle,</l>
+	<l id='420'>Puisse le dragon t'engloutir.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='421'>Crois-moi, modère</l>
+	<l id='422'>L'éclat de ta colère ;</l>
+	<l id='423'>Un dépit qui fait tant de bruit</l>
+	<l id='424'>Fait trop d'honneur à qui nous fuit.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='425'>Ah ! Vraiment je vous trouve bonne ?</l>
+	<l id='426'>Est-ce à vous, peite Mignonne,</l>
+	<l id='427'>De reprendre ce que je dis ?</l>
+	<l id='428'>Attendez l'âge</l>
+	<l id='429'>Où l'on est sage,</l>
+	<l id='430'>Pour donner des avis.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='431'>Je suis jeune, je le confesse,</l>
+	<l id='432'>Trouves-tu ce défaut si digne de mépris ?</l>
+	<l id='433'>N'a-t-on point de bons sens qu'en perdant la jeunesse ?</l>
+	<l id='434'>Il serait bien cher à ce prix.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='435'>Le temps doit mûrir les esprits,</l>
+	<l id='436'>Et c'est le fruit de la vieillesse.</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='437'>Il n'est pas sûr que la sagesse</l>
+	<l id='438'>Suive toujours les cheveux gris.</l>
+</sp>
+<sp who='LA-NOURRICE'><speaker>LA NOURRICE.</speaker>
+	<l id='439'>Je souffre peu que l'on me blesse :</l>
+	<l id='440'>Par des discours piquants</l>
+	<l id='441'>Prétends-tu m'insulter sans cesse ?</l>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='442'>Je respecte trop tes vieux ans. </l>
+	<l id='443'>Mais Cadmus, et la Princesse,</l>
+	<l id='444'>Viennent dans ces lieux ;</l>
+	<l id='445'>Ne troublons pas leurs adieux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Cadmus, Hermione.</head>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='446'>Je vais partir, belle Hermione,</l>
+	<l id='447'>Je vais exécuter ce que l'Amour m'ordonne,</l>
+	<l id='448'>Malgré le péril qui m'attend :</l>
+	<l id='449'>Je veux vous délivrer, ou me perdre moi-même ;</l>
+	<l id='450'>Je vous vois, je vous dit enfin que je vous aime,</l>
+	<l id='451'>C'est assez pour mourir content.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='452'>Ah ! Cadmus, pourquoi m'aimez-vous ?</l>
+	<l id='453'>Pourquoi vouloir chercher une mort trop certaine ?</l>
+	<l id='454'>Eh ! Que peut la valeur humaine</l>
+	<l id='455'>Contre le dieu Mars en courroux ?</l>
+	<l id='456'>Voyez en quels périls votre Amour nous entraîne !</l>
+	<l id='457'>J'aurais mieux aimer votre haine :</l>
+	<l id='458'>Ah ! Cadmus, pourquoi m'aimez-vous ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='459'>Vous m'aimez, il suffit, ne soyez point en peine ?</l>
+	<l id='460'>Mon destin, tel qu'il soit, ne peut être que doux.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='461'>Vivons pour nous aimer, et cesser de poursuivre</l>
+	<l id='462'>Le funeste dessein que vous avez formé :</l>
+	<l id='463'>Il doit être bien doux de vivre,</l>
+	<l id='464'>Lorsqu'on aime, et qu'on est aimé.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='465'>Sous une injuste loi je vous vois asservie ;</l>
+	<l id='466'>Serait-ce vous aimer que le pouvoir souffrir ?</l>
+	<l id='467'>Lorsque pour ce qu'on aime on s'expose à périr,</l>
+	<l id='468'>La plus affreuse mort a de quoi faire envie.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='469'>Mais vous ne songez pas qu'il y va de la vie :</l>
+	<l id='470'>Faut-il que pour mes jours vous soyez sans effroi ?</l>
+	<l id='471'>Je vivrais sous l'injuste loi</l>
+	<l id='472'>Où mon cruel destin me livre.</l>
+	<l id='473'>Mais si vous périssez pour moi,</l>
+	<l id='474'>Je ne pourrai pas vous survivre.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='475'>J'ai besoin de secours, voulez-vous m'accabler ?</l>
+	<l id='476'>Ah ! Princesse, est-il temps de me faire trembler ?</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='477'>Soyez sensible à mes alarmes !</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='478'>Je ne sens que trop vos douleurs.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='479'>Partirez-vous malgré mes pleurs ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='480'>Il faut aller tarir la source de vos larmes.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='481' part='i'>Quoi, vous m'allez quitter ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='481' part='f'>Je vais vous secourir.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='482'>Ah ! vous allez périr !</l>
+	<l id='483'>Vous cherchez une mort horrible ;</l>
+	<l id='484'>Mon amour me dit trop que vous perdrez le jour.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='485'>L'Amour que j'ai pour vous ne croit rien d'impossible :</l>
+	<l id='486'>Il me flatte en partant d'un bienheureux retour.</l>
+</sp>
+<sp who='HERMIONE_CADMUS'><speaker>HERMIONE et CADMUS, ensemble.</speaker>
+	<l id='487'>Croyez en mon amour,</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='488'>Vous n'écoutez point ma tendresse,</l>
+	<l id='489' part='i'>Rien ne vous retient ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='489' part='f'>Le temps presse.</l>
+</sp>
+<sp who='HERMIONE_CADMUS'><speaker>ENSEMBLE.</speaker>
+	<l id='490'>Au nom des plus beaux noeuds que l'Amour ait formés,</l>
+	<l id='491'>Vivez, si vous m'aimez.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='492' part='i'>Espérons.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='492' part='f'>Tout me désespère.</l>
+	<l id='493'>Que je me veux de mal d'avoir trop sçû vous plaire !</l>
+</sp>
+<sp who='HERMIONE_CADMUS'><speaker>ENSEMBLE.</speaker>
+	<l id='494'>Qu'un tendre amour coûte d'ennuis !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='495' part='i'>Vous fuyez ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='495' part='m'>Il le faut.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='495' part='m'>Demeurez ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='495' part='f'>Je ne puis,</l>
+	<l id='496'>Je m'affaiblis plus je diffère ;</l>
+	<l id='497'>Il faut m'arracher de ce lieu.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='498' part='i'>Ah ! Cadmus !</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='498' part='m'>Hermione !</l>
+</sp>
+<sp who='HERMIONE_CADMUS'><speaker>HERMIONE et CADMUS, ensemble.</speaker>
+	<l id='498' part='f'>Adieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='499'>Amour, vois quels maux tu nous fais,</l>
+	<l id='500'>Où sont les biens que tu promets ;</l>
+	<l id='501'>N'as-tu point pitié de nos peines ?</l>
+	<l id='502'>Tes rigueurs les plus inhumaines</l>
+	<l id='503'>Seront-elles toujours pour les plus tendres coeurs ?</l>
+	<l id='504'>Pour qui, cruel Amour, gardes-tu tes douceurs ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. L'Amour, Hermione.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR, sur un nuage.</speaker>
+	<l id='505'>Calme tes déplaisirs, dissipe tes alarmes,</l>
+	<l id='506'>L'Amour vient essuyer tes larmes,</l>
+	<l id='507'>Il n'abandonne pas ceux qui suivent ses lois.</l>
+	<l id='508'>Souviens-toi que tout m'est possible :</l>
+	<l id='509'>Que rien à mon abord ne demeure insensible ?</l>
+	<l id='510'>Que pour la divertir tout s'anime à ma voi ?</l>
+<stage>Des statues d'or sont animées par l'Amour et sautent de leur piédestaux pour danser. L'Amour descend et vient chnater au milieu des statues animées.</stage>
+	<l id='511'>Cessez de vous plaindre</l>
+	<l id='512'>De soufrir en aimant ;</l>
+	<l id='513'>Amants, vous devez ne rien craindre,</l>
+	<l id='514'>Si vous souffrez, votre prix est charmant.</l>
+	<l id='515'>Après des rigueurs inhumaines</l>
+	<l id='516'>On aime sans peines,</l>
+	<l id='517'>On rit des jaloux ;</l>
+	<l id='518'>Un bien plein de charmes</l>
+	<l id='519'>Qui coûte des larmes,</l>
+	<l id='520'>En devient plus doux.</l>
+<stage>Second couplet.</stage>
+	<l id='521'>Tout doit rendre hommage</l>
+	<l id='522'>À l'Empire amoureux ;</l>
+	<l id='523'>Il faut tôt ou tard qu'on s'engage,</l>
+	<l id='524'>Sans rien aimer on ne peut être heureux.</l>
+	<l id='525'>Après des rigueurs inhumaines, etc...</l>
+<stage>L'amour reprend sa place sur le nuage qui l'a apporté, les statues se remettent sur leurs piédestaux, tandis que dix petits amours d'or, qui tiennent des corbeilles pleines de fleurs, sont à leur tour animés par l'Amour, et viennent par son ordre jeter des fleurs en volant autour d'Hermione.</stage>
+	<l id='526'>Amours, venez semer mille fleurs sous ses pas.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='527'>Laissez-moi ma douleur, j'y trouve des appas.</l>
+	<l id='528'>Dans l'horreur d'un péril extrême,</l>
+	<l id='529'>Est-ce là le secours que l'on me doit offrir ?</l>
+	<l id='530'>Peut-être ce que j'aime</l>
+	<l id='531'>Est tout prêt de périr.</l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR, s'envole au milieu des dix Amours.</speaker>
+	<l id='532'>Je vais le secourir.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Les deux Princes Tyriens, Arbas, deux Afriquains.</head>
+<stage>Le théâtre change et représente un désert et une grotte.</stage>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='533'>Tu détournes bien tes regards ?</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='534'>As-tu peur du dragon de Mars ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='535'>La défiance est nécessaire,</l>
+	<l id='536'>Il est bon de prévoir un fâcheux accident,</l>
+	<l id='537'>On ne doit point marcher ici en téméraire.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='538'>C'est très bien fait d'être prudent.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='539'>Je suis hardi quand il faut l'être ;</l>
+	<l id='540'>Si quelqu'un en doutait, il pourrait le connaître.</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='541'>Qui voudrait s'attaquer à toi ?</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='542'>On te croit vaillant sur ta foi.</l>
+	<l id='543'>Mais la couleur de ton visage</l>
+	<l id='544'>Répond mal à ta valeur !</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='545'>Est-ce par la couleur</l>
+	<l id='546'>Que l'on doit juger du courage ?</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='547'>Que tes sens paraissent troublés !</l>
+	<l id='548' part='i'>Tu trembles ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='548' part='f'>C'est qu'il vous le semble :</l>
+	<l id='549'>Chacun croit que l'on lui ressemble,</l>
+	<l id='550'>C'est peut-être vous qui tremblez ?</l>
+	<l id='551'>Que maudit soit l'Amour funeste</l>
+	<l id='552'>Qui nous fait tant souffrir dans ce malheureux jour !</l>
+	<l id='553'>On se soulage quand on peste,</l>
+	<l id='554'>Et l'on ne saurait trop pester contre l'Amour.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES_ARBAS'><speaker>LES DEUX PRINCES et ARBAS, ensemble.</speaker>
+	<l id='555'>Gardons-nous bien d'avoir envie</l>
+	<l id='556'>D'être jamais amoureux :</l>
+	<l id='557'>De tous les maux de la vie</l>
+	<l id='558'>L'Amour est le plus dangereux.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='559'>Cadmus veut essayer de rendre Mars propice,</l>
+	<l id='560'>C'est ici qu'il prétend offrir un sacrifice.</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='561'>Pour des soins différents il faut nous séparer.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES PRINCES, ensemble.</speaker>
+	<l id='562'>Allons nous préparer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Arbas, Deux Africains.</head>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='563'>Acquittons-nous des soins où Cadmus nous engage.</l>
+	<l id='564'>Quel bruit ! Non, ce n'est rien, courage amis, courage !</l>
+	<l id='565'>Qu'on a peine à donner du courage en tremblant</l>
+	<l id='566'>Il ne tient pas à moi que je ne sois vaillant,</l>
+	<l id='567'>Je tâche au moins de le paraître ;</l>
+	<l id='568'>Je ne suis pas le seul qui se pique de l'être,</l>
+	<l id='569'>Et qui n'en fait que le semblant.</l>
+	<l id='570'>Il faut puiser de l'eau pour la cérémonie ;</l>
+	<l id='571'>Avancez, je vous suis. Quel dragon furieux !</l>
+</sp>
+<sp who='LES-DEUX-AFRICAINS'><speaker>LES DEUX AFRICAINS.</speaker>
+	<l id='572'>Ô Dieux ! Ô Dieux !</l>
+<stage>Dans le temps que les deux Africains veulent puiser de l'eau, le Dragon s'élance sur eux, et les entraîne.</stage>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='573'>Ah ! C'est fait de ma vie.</l>
+	<l id='574'>N'est-il point d'arbres, ou de rocher,</l>
+	<l id='575'>Qui s'entrouve pour me cacher ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Cadmus, Arbas.</head>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='576' part='i'>Où vas-tu ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='576' part='m'>Le Dragon...</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='576' part='m'>Hé bien ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='576' part='f'>Ah ! mon cher maître...</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='577' part='i'>Parle donc ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='577' part='m'>Le Dragon...</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='577' part='f'>Où le vois-tu paraître</l>
+	<l id='578'>Je regarde partout, et je n'aperçois rien.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='579'>Quoi le dragon nous suit ? Mais regardez bien ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='580'>Où sont les compagnons ? Qui t'oblige à te taire ?</l>
+	<l id='581'>Tu parais interdit d'effroi ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='582'>Seigneur, vous jugez mal de moi,</l>
+	<l id='583'>Si je suis interdit, ce n'est que de colère.</l>
+	<l id='584'>Mes pauvres compagnons ! Hélas !</l>
+	<l id='585'>Le dragon n'en a fait qu'un fort léger repas.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='586'>Allons il faut que je les venge.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='587'>Quelle hâte avez-vous que le Dragon vous mange ?</l>
+	<l id='588'>Laissez-le se cacher. Ah ! Le voilà qui sort !</l>
+	<l id='589'>Au secours ! Au secours ! Je suis mort ! Je suis mort !</l>
+	<l id='590'>Ô ciel ! Où sera mon asile ?</l>
+	<l id='591'>La frayeur me rend immobile ;</l>
+	<l id='592'>Je ne saurais plus faire un pas :</l>
+	<l id='593'>Ah ! cachons-nous, ne soufflons pas.</l>
+<stage>Arbas se cache et Cadmus combat contre le dragon.</stage>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS, après avoir tué le dragon.</speaker>
+	<l id='594'>Il ne faut plus que je diffère</l>
+	<l id='595'>D'engager le Dieu Mars à calmer sa colère ;</l>
+	<l id='596'>Si je puis l'adoucir, rien ne peut me troubler.</l>
+	<l id='597'>Mes gens sont écartés, il faut les rassembler.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='ARBAS'><speaker>ARBAS, sortant de l'endroit où il était caché.</speaker>
+	<l id='598'>Le Dragon assouvi de sang et de carnage,</l>
+	<l id='599'>S'est enfin retiré dans quelque antre sauvage :</l>
+	<l id='600'>Tout est calme en ces lieux, et je n'entends plus rien.</l>
+	<l id='601'>Je sens revenir mon courage,</l>
+	<l id='602'>Allons conter partout le trépas de mon maître</l>
+	<l id='603'>Que je plains son funeste sort !</l>
+	<l id='604'>Allons, mais que vois-je paraître !</l>
+	<l id='605'>Le Dragon étendu ! Ne fait-il point le mort ?</l>
+	<l id='606'>Non, je le vois percé, son sang coule, ah ! Le traître !</l>
+	<l id='607'>Je ne puis contre lui retenir mon courroux,</l>
+	<l id='608'>Et je lui veux donner au moins les derniers coups.</l>
+<stage>Arbas met l'épée à la main et va percer le Dragon, qui fait encore quelque mouvement qui oblige Arbas de retourner sur le devant du théâtre.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Les deux princes tiriens, Arbas.</head>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='609'>Quoi l'épée à la main ! Que faut-il entreprendre ?</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='610'>De quel péril es-tu pressé ?</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES PRINCES, ensemble.</speaker>
+	<l id='611'>Nous aurons soin de te défendre.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='612'>Vous venez un peu tard, le péril est passé.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES PRINCES, ensemble.</speaker>
+	<l id='613'>Que voyons nous ! Qui l'eût pû croire ?</l>
+	<l id='614'>Quoi le Dragon est abbattu !</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='615'>Nous en avons sans vous remporter la victoire.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='616' part='i'>As-tu suivi Cadmus ?</l>
+</sp>
+<sp who='DEUXIÈME PRINCE TYRIEN'><speaker>DEUXIÈME PRINCE TYRIEN.</speaker>
+	<l id='616' part='f'>As-tu part à sa gloire ?</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='617'>Eh, nous n'étions pas loin quand il a combattu.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES PRINCES, ensemble.</speaker>
+	<l id='618' part='i'>Conte-nous ce combat.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='618' part='f'>J'en suis si hors d'haleine.</l>
+	<l id='619'>Que je ne puis encore m'exprimer qu'avec peine.</l>
+	<l id='620'>Il est bon d'essuyer ce fer ensanglanté,</l>
+	<l id='621'>De crainte qu'il ne soit gâté.</l>
+</sp>
+<sp who='LES-DEUX-PRINCES-TYRIENS'><speaker>LES PRINCES, ensemble.</speaker>
+	<l id='622'>Ah ! Quels chagrins pour nous de manquer l'avantage</l>
+	<l id='623'>De signaler notre courage !</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='624'>Tous ces chagrins, et ces regrets</l>
+	<l id='625'>Sont des soins qui ne coûtent guère,</l>
+	<l id='626'>Quand on ne voit plus rien à faire</l>
+	<l id='627'>On fait le brave à peu de frais.</l>
+</sp>
+<sp who='PREMIER-PRINCE-TYRIEN'><speaker>PREMIER PRINCE TYRIEN.</speaker>
+	<l id='628'>On prend peu garde à toi ; Cadmus nous rend justice,</l>
+	<l id='629'>Mais il vient, rangeons-nous pour voir le sacrifice.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Cadmus, les deux princes tyriens, Arbas, le Grand Sacrificateur, dix sacrificateurs chantants, un timbalier, huit sacrificateur dansants.</head>
+<stage>Quatre des acrificateurs dansants, dressent un autel, et les quatre autres portent un trophée d'armes qui crouvre le Grand sacrificateur en marchant, jusques au milieu du théâtre </stage>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='630'>Mars ! Ô toi qui peux</l>
+	<l id='631'>Déchaîner quand tu veux</l>
+	<l id='632'>Les fureurs de la guerre,</l>
+</sp>
+<sp who='LE-CHOEUR-DES-SACRIFICATEURS'><speaker>LE CHOEUR DES SACRIFICATEURS.</speaker>
+	<l id='633'>Ô mars ! Reçois nos voeux.</l>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='634'>Ton funeste courroux n'est pas moins dangereux</l>
+	<l id='635'>Que l'éclat fatal du tonnerre :</l>
+	<l id='636'>Ô Mars ! Reçois nos voeux.</l>
+</sp>
+<sp who='LE-CHOEUR-DES-SACRIFICATEURS'><speaker>LE CHOEUR DES SACRIFICATEURS.</speaker>
+	<l id='637'>Ô Mars ! Reçois nos voeux.</l>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='638'>Les combats sanglants sont tes jeux ;</l>
+	<l id='639'>Tu sais, quand il te plaît, remplir toute la Terre</l>
+	<l id='640'>De ravages affreux.</l>
+	<l id='641'>Ô Mars ! Reçois nos voeux.</l>
+</sp>
+<sp who='LE-CHOEUR-DES-SACRIFICATEURS'><speaker>LE CHOEUR DES SACRIFICATEURS.</speaker>
+	<l id='642'>Ô Mars ! Reçois nos voeux.</l>
+<stage>Les sacrificateurs chantants demeurent prosternés, les sacrificateurs dansants font cependant une entrée au son des timbales et au bruit des Armes, après quoi les sacrificateurs chantants se relèvent et chantent.</stage>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='643'>Mars redoutable !</l>
+	<l id='644'>Mars indomptable !</l>
+	<l id='645'>Ô Mars ! ô Mars ! ô Mars !</l>
+</sp>
+<sp who='LE-CHOEUR-DES-SACRIFICATEURS'><speaker>LE CHOEUR DES SACRIFICATEURS.</speaker>
+	<l id='646'>Mars redoutable !</l>
+	<l id='647'>Mars indomptable !</l>
+	<l id='648'>Ô Mars ! ô Mars ! ô Mars !</l>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='649'>Ô Mars impitoyable :</l>
+	<l id='650'>Est-il révocable</l>
+	<l id='651'>Que ta haine implacable</l>
+	<l id='652'>Accable</l>
+	<l id='653'>Une âme inébralable</l>
+	<l id='654'>Au milieu des hasards.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='655'>Ô Mars ! ô Mars ! ô Mars !</l>
+	<l id='656'>Mars redoutable !</l>
+	<l id='657'>Mars indomptable !</l>
+	<l id='658'>Ô Mars ! ô Mars ! ô Mars !</l>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='659'>Que les tumultes des alarmes,</l>
+	<l id='660'>Que le bruit, que le choc, que le fracas des armes,</l>
+	<l id='661'>Retentisse de toutes parts.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='662'>Ô Mars ! ô Mars ! ô Mars !</l>
+	<l id='663'>Mars redoutable !</l>
+	<l id='664'>Mars indomptable !</l>
+	<l id='665'>Ô Mars ! ô Mars ! ô Mars !</l>
+</sp>
+<sp who='LE-GRAND-SACRIFICATEUR'><speaker>LE GRAND SACRIFICATEUR.</speaker>
+	<l id='666'>Qu'on fasse approcher la victime :</l>
+	<l id='667'>Puisse-t-elle calmer le courroux qui t'anime,</l>
+	<l id='668'>Et n'attirer sur nous que tes doux regards.</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='669'>Ô Mars ! ô Mars ! ô Mars !</l>
+	<l id='670'>Mars redoutable !</l>
+	<l id='671'>Mars indomptable !</l>
+	<l id='672'>Ô Mars ! ô Mars ! ô Mars !</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<stage>Mars paroit sur son char, et interrompt les sacrificateurs.</stage>
+<sp who='MARS'><speaker>MARS.</speaker>
+	<l id='673'>C'est vainement que l'on espère</l>
+	<l id='674'>Que d'inutiles voeux apaisent ma colère ;</l>
+	<l id='675'>Je ne révoque point mes lois.</l>
+	<l id='676'>Si Cadmus veut me satisfaire</l>
+	<l id='677'>Qu'il achève, s'il peut, de mériter mon choix !</l>
+	<l id='678'>Un vain respect ne peut me plaire,</l>
+	<l id='679'>On ne satisfait Mars que par de grands exploits.</l>
+	<l id='680'>Vous, que l'enfer a nourries</l>
+	<l id='681'>Venez, cruelles Furies,</l>
+	<l id='682'>Venez, brisez l'autel en cent morceaux épars !</l>
+</sp>
+<sp who='LE-CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id='683'>Ô Mars ! ô Mars ! ô Mars !</l>
+<stage>Quatre Furies descendent qui brisent l'Autel, et s'envolent ensuite, tenant chacune un tison du sacrifice à la main. Le char de Mars tourne dans un même temps, et l'emporte au fonds du théâtre, où l'on le perd de vue, et tous les sacrificateurs et les assistants se retirent, criant, ô Mars !</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Cadmus, Arbas.</head>
+<stage>Le théâtre change, et représente le Champ de Mars.</stage>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='684'>Voici le Champ de Mars, il faut que sans remise</l>
+	<l id='685'>J'achève ici mon entreprise ;</l>
+	<l id='686'>J'ai les dents du dragon, et je vais les semer.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='687'>Ce sont des ennemis que vous verrez former :</l>
+	<l id='688'>Tant de soldats armés vont naître,</l>
+	<l id='689'>Que vous serez d'abord accablé de leurs coups ;</l>
+	<l id='690'>Et vous ne songez pas, peut-être,</l>
+	<l id='691'>Que vous n'avez ici que moi seul avec vous.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='692'>Je ne veux exposer personne</l>
+	<l id='693'>Au péril où je m'abandonne ;</l>
+	<l id='694'>Je dois combattre seul, et ne retiens que toi :</l>
+	<l id='695'>Tu connais mon amour, je suis sûr de ta foi,</l>
+	<l id='696'>Je veux bien que tu sois le dernier qui me quitte.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='697'>Seigneur, vous m'honnorez plus que je ne mérite :</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='698'>Si je ne fais qu'un vain effort,</l>
+	<l id='699'>Accompli ce que je t'ordonne :</l>
+	<l id='700'>Sitôt que tu sauras ma mort,</l>
+	<l id='701'>Hâtes-toi de voir Hermione :</l>
+	<l id='702'>Va, porte-lui mes derniers voeux.</l>
+	<l id='703'>Qu'elle vive, il suffit de plaindre un malheureux :</l>
+	<l id='704'>Qu'elle ait soin de garder le souvenir fidèle</l>
+	<l id='705'>D'une flamme si belle ;</l>
+	<l id='706'>C'est l'unique prix que je veux</l>
+	<l id='707'>De ce que j'aurai fait pour elle.</l>
+	<l id='708'>Je ne prétends plus t'arrêter.</l>
+	<l id='709' part='i'>Laisse-moi.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='709' part='f'>Faut-il vous quitter ?</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='710' part='i'>Je le veux : obéis.</l>
+</sp>
+<sp who='ARBAS'><speaker>ARBAS.</speaker>
+	<l id='710' part='f'>Ah ! Quelle violence,</l>
+	<l id='711'>Seigneur exigez-vous de mon obéissance.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. L'Amour, Cadmus.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR, sur un nuage brillant.</speaker>
+	<l id='712'>Cadmus reçoit le don que je viens t'apporter !</l>
+	<l id='713'>C'est l'ouvrage du Dieu qui forge le tonnerre ;</l>
+	<l id='714'>Ne manque pas de le jeter ;</l>
+	<l id='715'>Il faut faire voir en ce jour</l>
+	<l id='716'>Ce que peut un grand coeur secondé par l'Amour.</l>
+	<l id='717'>Achève le dessein où mon ardeur t'engage.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='718'>Je te vais obéir dans tarder davantage.</l>
+</sp>
+<sp who='L-AMOUR_CADMUS'><speaker>L'AMOUR et CADMUS, ensemble.</speaker>
+	<l id='719'>Il faut faire voir en ce jour</l>
+	<l id='720'>Ce que peut un grand coeur secondé par l'Amour.</l>
+<stage>L'Amour s'envole, et Cadmus sème les dents du Dragon, dont la terre produit des soldats armés qui se préparent d'abord à tourner leurs armes contre Cadmus, mais il jette au milieu d'eux une manière de grenade, que l'Amour lui a apporté, qui se brise en plusieurs éclats, et qui inspire aux combattants une fureur qui les oblige à combattre les uns contre les autres, et à s'entregorger eux-mêmes. Huit soldats armés nés de la Terre. Les cinq derniers qui demeurent vivants, viennent apporter leurs armes aux pieds de Cadmus. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Cadmus, les combattants nés de la Terre.</head>
+<sp who='ECHION'><speaker>ECHION, combattant.</speaker>
+	<l id='721'>Arrêtons un transport funeste ;</l>
+	<l id='722'>Pourquoi nous immoler en naissant dans ces lieux ?</l>
+	<l id='723'>Réservons le sang qui nous reste,</l>
+	<l id='724'>Pour servir un héros favorisé des Dieux.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='725'>Allez : que dans ces murs chacun de vous s'empresse</l>
+	<l id='726'>De rendre hommage à la princesse</l>
+	<l id='727'>Qui doit donner ici des ordres absolus ;</l>
+	<l id='728'>Vos premiers respects lui sont dûs,</l>
+	<l id='729'>Je vous suivrai de près, c'est ma plus douce envie.</l>
+<stage>Les combattants obéissent à Cadmus qui demeure pour chercher et pour rassembler les tyriens. </stage>
+	<l id='730'>Cherchons nos tiriens, ils tremblent pour ma vie. </l>
+	<l id='731'>Allons les rassurer, voyons de toutes parts.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Géant, Cadmus.</head>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='732'>Non, ce n'est point assez d'avoir satisfait Mars :</l>
+	<l id='733'>Tu vois un ennemi qu'il faut encore abbattre,</l>
+	<l id='734'>Au lieu de triompher recommence à combattre.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='735' part='i'>Combattons.</l>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='735' part='f'>J'ai pitié du péril que tu cours :</l>
+	<l id='736'>Il m'est honteux de vaincre avec tant d'avantage,</l>
+	<l id='737'>Va, fuir, et cède moi l'objet de nos amours.</l>
+	<l id='738'>Tu n'auras plus de Dieux qui défendent tes jours.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='739'>Les dieux m'ont donné du courgae,</l>
+	<l id='740'>Et c'est un assez grand secours.</l>
+</sp>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='741'>Voyons s'il n'est rien qui t'étonne.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le géant, trois autres géants, Pallas, Cadmus.</head>
+<sp who='LE-GÉANT'><speaker>LE GÉANT.</speaker>
+	<l id='742'>Qu'on vienne à moi, qu'on l'environne !</l>
+	<l id='743'>Qu'on le perce de tous côtés !</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS, assise sur un hibou volant.</speaker>
+	<l id='744'>Cadmus fermez les yeux. Perfides arrêtez.</l>
+<stage>Pallas découvre son bouclier et le présente aux yeux des quatre géants, qui demeurent immobiles et deviennent dans un instant quatre statues de pierre.</stage>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='745'>Vois, Cadmus, vois quel supplice</l>
+	<l id='746'>A puni leur injustice.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='747'>Que vois-je ! Les géants armés</l>
+	<l id='748'>Ne sont plus des corps animés.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='749'>Je t'ai promis mon assistance,</l>
+	<l id='750'>Je vais te préparer un superbe Palais :</l>
+	<l id='751'>Je veux joindre aux douceurs d'un hymen plein d'attraits,</l>
+	<l id='752'>L'éclat, et la magnificence.</l>
+	<l id='753'>Goûte en paix un sort glorieux.</l>
+	<l id='754'>Va, n'écoute plus rien que l'amour qui t'anime ;</l>
+	<l id='755'>Hermione vient dans ces lieux.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='756'>Par quel remerciement faut-il que je m'exprime ?</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS, s'envolant.</speaker>
+	<l id='757'>Protéger la vertu d'un prince magnanime,</l>
+	<l id='758'>C'est le plus doux emploi des Dieux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Cadmus, Hermione, Suite d'Hermione et de Cadmus.</head>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='759' part='i'>Ma princesse !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='759' part='m'>Cadmus !</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='759' part='m'>Quel bonheur !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='759' part='f'>Quelle gloire !</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='760' part='i'>Je vous vois libre enfin !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='760' part='f'>Je vous revois vainqueur ?</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='761'>Quelle favorable victoire !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='762'>Qu'elle a coûté cher à mon coeur !</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='763'>Que c'est un charmant avantage</l>
+	<l id='764'>Que de pouvoir sauver d'un cruel esclavage</l>
+	<l id='765'>La beauté dont on est charmé !</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE.</speaker>
+	<l id='766'>Que c'est un sort digne d'envie</l>
+	<l id='767'>Que de pouvoir tenir le bonheur de sa vie,</l>
+	<l id='768'>De la main d'un vainqueur aimé !</l>
+</sp>
+<sp who='HERMIONE_CADMUS'><speaker>CADMUS et HERMIONE, ensemble.</speaker>
+	<l id='769'>Après des rigueurs inhumaines,</l>
+	<l id='770'>Le ciel favorise nos voeux ;</l>
+	<l id='771'>Ah ! Que le souvenir des peines</l>
+	<l id='772'>Est doux quand on devient heureux.</l>
+</sp>
+<sp who='CADMUS'><speaker>CADMUS.</speaker>
+	<l id='773'>Dieux ! Je ne vois plus Hermione !</l>
+	<l id='774'>Quel nuage épais l'environne !</l>
+<stage>Un nuage s'élève de la Terre qui enveloppe Hermione.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Junon, Camdus, Hermione, Suite.</head>
+<sp who='JUNON'><speaker>JUNON, sur un paon.</speaker>
+	<l id='775'>Tu vois l'effet de mon courroux,</l>
+	<l id='776'>Il faut combattre encore Junon et sa puissance.</l>
+	<l id='777'>Le soin que prend pour toi mon infidèle époux</l>
+	<l id='778'>Attire sur tes feux l'éclat de ma vengeance.</l>
+	<l id='779'>Iris, détruis l'espoir de cet audacieux !</l>
+	<l id='780'>Enlève sur ton arc Hermione à ses yeux.</l>
+	<l id='781'>Exécute à l'instant ce que Junon t'ordonne.</l>
+</sp>
+<sp who='HERMIONE'><speaker>HERMIONE, enlevée sur l'arc en ciel.</speaker>
+	<l id='782' part='i'>Ô Ciel !</l>
+</sp>
+<sp who='TOUS-ENSEMBLE'><speaker>TOUS ENSEMBLE.</speaker>
+	<l id='782' part='f'>Ô Ciel, ô ciel ! Hermione, Hermione.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='6'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I.</head>
+<stage>Le théâtre change, et représente le Palais que Pallas a préparé pour les noces de Cadmus et d'Hermione.</stage>
+<sp who='CADMUS'><speaker>CADMUS, seul.</speaker>
+	<l id='783'>Belle Hermione, hélas, puis-je être heureux sans vous ?</l>
+	<l id='784'>Que sert dans ce palais la pompe qu'on prépare ?</l>
+	<l id='785'>Tout espoir est perdu pour nous ?</l>
+	<l id='786'>Le bonheur d'un amour si fidèle, et si rare,</l>
+	<l id='787'>Jusques entre les Dieux a trouvé des jaloux.</l>
+	<l id='788'>Belle Hermione, hélas, puis-je être heureux sans vous ?</l>
+	<l id='789'>Nous nous étions flattés que notre sort barbare</l>
+	<l id='790'>Avait épuisé son courroux :</l>
+	<l id='791'>Quelle rigueur quand on sépare</l>
+	<l id='792'>Deux coeurs prêts d'être unis par des Liens si doux ?</l>
+	<l id='793'>Belle Hermione, hélas, puis-je être heureux sans vous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Pallas, Cadmus.</head>
+<sp who='PALLAS'><speaker>PALLAS, sur un nuage.</speaker>
+	<l id='794'>Tes voeux vont être satisfaits ;</l>
+	<l id='795'>Jupiter et Junon ont fini leur querelle,</l>
+	<l id='796'>L'Amour lui-même a fait leur paix ;</l>
+	<l id='797'>Ton Hermione enfin descend dans ce palais,</l>
+	<l id='798'>Des Dieux s'avancent avec elle ;</l>
+	<l id='799'>Le Ciel veut que ce jour soit célébré à jamais.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. </head>
+<stage>Les Cieux s'ouvrent, et tous les dieux paraissent et s'avancent pour accompagner Hermione qui descend dans un trône à côté de l'Hyménée, qui donne la place à Cadmus, et se met au milieu des deux époux.</stage>
+<stage>La suite de cadmus et celle d'Hermione viennent prendre part à la réjouissance des Dieux, et Jupiter commence à inviter les Cieux et la Terre à contribuer au bonheur de ces deux amants.</stage>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='800'>Que ce qui suit les lois du Maître du tonnerre,</l>
+	<l id='801'>Que les Cieux, et la Terre,</l>
+	<l id='802'>S'accordent pour combler vos voeux.</l>
+	<l id='803'>Après un sort si rigoureux,</l>
+	<l id='804'>Après tant de peines cruelles,</l>
+	<l id='805'>Amants fidèles,</l>
+	<l id='806'>Vivez heureux.</l>
+</sp>
+<sp who='TOUS-LES-CHOEURS'><speaker>TOUS LES CHOEURS, répondent.</speaker>
+	<l id='807'>Après un sort si rigoureux,</l>
+	<l id='808'>Après tant de peines cruelles,</l>
+	<l id='809'>Amants fidèles,</l>
+	<l id='810'>Vivez heureux.</l>
+</sp>
+<sp who='L-HYMEN'><speaker>L'HYMEN..</speaker>
+	<l id='811'>L'Hymen veut vous offrir ses chaines les plus belles.</l>
+</sp>
+<sp who='JUNON'><speaker>JUNON.</speaker>
+	<l id='812'>Junon en veut former les noeuds.</l>
+</sp>
+<sp who='LES-CHOEURS'><speaker>LES CHOEURS</speaker>
+	<l id='813'>Amants fidèles, </l>
+	<l id='814'>Vivez heureux.</l>
+</sp>
+<sp who='VÉNUS'><speaker>VÉNUS.</speaker>
+	<l id='815'>Vénus vous donnera des douceurs éternelles.</l>
+</sp>
+<sp who='MARS'><speaker>MARS.</speaker>
+	<l id='816'>J'écarterai de vous les fatales querelles,</l>
+	<l id='817'>Et les ennemis dangereux.</l>
+</sp>
+<sp who='LES-CHOEURS'><speaker>LES CHOEURS</speaker>
+	<l id='818'>Amants fidèles, </l>
+	<l id='819'>Vivez heureux.</l>
+</sp>
+<sp who='PALLAS'><speaker>PALLAS.</speaker>
+	<l id='820'>Attendez de Pallas mille faveurs nouvelles.</l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='821'>L'amour conservera toujours de si beaux feux.</l>
+</sp>
+<sp who='LES-CHOEURS'><speaker>LES CHOEURS</speaker>
+	<l id='822'>Après un sort si rigoureux,</l>
+	<l id='823'>Après tant de peines cruelles,</l>
+	<l id='824'>Amants fidèles, </l>
+	<l id='825'>Vivez heureux.</l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='826'>Hymen, prend soin ici des Danses et des Jeux.</l>
+</sp>
+<sp who='LES-CHOEURS'><speaker>LES CHOEURS</speaker>
+	<l id='827'>Amants fidèles, </l>
+	<l id='828'>Vivez heureux.</l>
+</sp>
+<sp who='L-HYMEN'><speaker>L'HYMEN..</speaker>
+	<l id='829'>Venez, Dieu des festins, aimables Jeux, venez ;</l>
+	<l id='830'>Comblez de vos douceurs ces époux fortunés</l>
+	<l id='831'>Tandis que tout le ciel prépare</l>
+	<l id='832'>Les dons qu'il leur a destinés,</l>
+	<l id='833'>La terre y doit mêler ce qu'elle a de plus rare.</l>
+	<l id='834'>Venez, Dieu des festins, aimables jeux, venez ;</l>
+	<l id='835'>Comblez de vos douceurs ces époux fortunés.</l>
+<stage>Comus, Dieu des festins, s'avance accompagné de ses suivantes ordinaires, six hamadryades sortent de la terre, avec des corbeilles pleines de fruits. Comus ommence à danser seul, ses suivants dansent snsuite, et après que les Hamadryades ont été présenter leurs fruits aux deux époux, elle viennent danser avec les suivants de Comus : cependant Arbas et la nourrice ne peuvent retenir les transports de leur joie et viennent mêler leurs chants avec les danse.</stage>
+</sp>
+<sp who='ARBAS_LA-NOURRICE'><speaker>ARBAS et LA NOURRICE, ensemble.</speaker>
+	<l id='836'>Serons-nous dans le silence</l>
+	<l id='837'>Quand on rit, et quand on danse :</l>
+	<l id='838'>Les chagrins ont eu leur temps,</l>
+	<l id='839'>Pour jamais le Ciel les chasse,</l>
+	<l id='840'>Les plaisirs ont pris leur place ;</l>
+	<l id='841'>Lorsque deux coeurs sont constants</l>
+	<l id='842'>Tôt ou tard ils sont contents.</l>
+	<l id='843'>Qu'il est doux quand on soupire,</l>
+	<l id='844'>De sortir d'un long martyre :</l>
+	<l id='845'>Les chagrins ont eu leur temps, </l>
+	<l id='846'>Pour jamais le Ciel les chasse,</l>
+	<l id='847'>Les plaisirs ont pris leur place ; </l>
+	<l id='848'>Lorsque deux coeurs sont constants </l>
+	<l id='849'>Tôt ou tard ils sont contents.</l>
+<stage>Des Amours font descendre du Ciel sous un espèce de petit pavillon, les présents des Dieux, attachés à des chaînes galantes. Les hamadriades et les suivants de Comus les portent aux deux époux, et forment une danse, où Charite mêle une chanson.</stage>
+</sp>
+<sp who='CHARITE'><speaker>CHARITE.</speaker>
+	<l id='850'>Amants, aimez vos chaînes,</l>
+	<l id='851'>Vos soins et vos soupirs ;</l>
+	<l id='852'>L'Amour suivant vos peines,</l>
+	<l id='853'>Mesure vos plaisirs.</l>
+	<l id='854'>Il cause des alarmes,</l>
+	<l id='855'>Il vend bien cher ses charmes ;</l>
+	<l id='856'>Mais pour un si grand bien</l>
+	<l id='857'>Tous les maux ne sont rien.</l>
+	<l id='858'>Sans une aimable flamme</l>
+	<l id='859'>La vie est sans appas ;</l>
+	<l id='860'>Qui peut toucher une âme</l>
+	<l id='861'>Qu'Amour ne touche pas ?</l>
+	<l id='862'>Il cause des alarmes,</l>
+	<l id='863'>Il vend bien cher ses charmes ;</l>
+	<l id='864'>Mais pour un si grand bien</l>
+	<l id='865'>Tous les maux ne sont rien.</l>
+<stage>Tous les Dieux du Ciel et de la Terre recommencent à chanter : les Hamadriades et les suivants de Bacchus continuent à danser ; et ce mélange de chants et de danses forme une réjouissance générale, qui achève la fête des noces de Cadmus et Hermione.</stage>
+</sp>
+<sp who='TOUS-LES-CHOEURS'><speaker>TOUS LES CHOEURS</speaker>
+	<l id='866'>Après un sort si rigoureux,</l>
+	<l id='867'>Après tant de peines cruelles,</l>
+	<l id='868'>Amants fidèles,</l>
+	<l id='869'>Vivez heureux.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

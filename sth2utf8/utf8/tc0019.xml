@@ -1,0 +1,4325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>ARLEQUIN MISANTHROPE, COMÉDIE</title>
+			<author born='1670' born_location='Riom' death='1745' death_location='Riom' academie=''>BARANTE, Claude Ignace Brugière de</author>
+			
+		</titleStmt>
+		<publicationStmp>	
+			<p>publié par Paul FIEVRE, décembre 2011</p>
+		</publicationStmp>
+		<SourceDesc>
+				<genre>Comédie</genre>	
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Trois actes</structure>
+				<type>mixte</type>
+				<periode>1691-1700</periode>
+				<taille>0-250</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k72639k</permalien>
+		</SourceDesc>
+	</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">ARLEQUIN MISANTHROPE</titlePart>
+			<titlePart type="sub">COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1697">M. DC. XCVII. Avec Privilège du Roi.</docDate>
+		<docAuthor id="BARANTE, Claude Ignace Brugière de" bio='barante'></docAuthor>
+		<docImprint>
+				<privilege id='1636-09-30'><head>Extrait du privilège du Roi</head>
+				<p>Par grace et Privilege du Roy, en datte du 3. jour de May 1641. signé par le Roy, en son Conseil le Brun. Il est permis à ANTOINE DE SOMMAVILLE Marchand Libraire à Paris, d'Imprimer ou faire imprimer une piece de Theatre intitulée PHALANTE TRAGEDIE, et ce durant le temps de cinq ans. Et deffence sont faictes à tous autres de quelque qualité et condition qu'ils soient d'en vendre d'autres que celle qu'aura faict imprimer ledit de SOMMAVILLE, sur les peines portées pas lesdites lettres.</p>
+				</privilege> 
+				<acheveImprime id=''></acheveImprime>
+				<printer id='LAMBIN'>À PARIS, Chez HENRI LAMBIN, rue du Petit Pont, vis à vis la rue d ela Huchette.</printer>
+
+		</docImprint>
+		<performance>
+			<premiere date="1696-12-22" location='Hôtel de Bourgogne'>Représentée pour la première fois par les Comédiens Italiens du Roi dans leur Hôtel de Bourgogne Le 22 de Décembre 1696.</premiere>
+		</performance>
+		<castList><head>ACTEURS.</head>
+			<castItem><role id="ARLEQUIN" civil='M' type="H" statut='bourgeois' age='A' stat_amour='amoureux'>ARLEQUIN</role>.</castItem>
+			<castItem><role id="OCTAVE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='amoureux'>OCTAVE</role>, amant de Colombine.</castItem>
+			<castItem><role id="COLOMBINE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>COLOMBINE</role>.</castItem>
+			<castItem><role id="LE-DOCTEUR" civil='M' type="H" statut='docteur' age='A' stat_amour='néant'>LE DOCTEUR</role>, père d'Octave. </castItem>
+			<castItem><role id="SCARAMOUCHE" civil='M' type="H" statut='valet' age='A' stat_amour='néant'>SCARAMOUCHE</role>, valet d'Octave.</castItem>
+			<castItem><role id="PIERROT" civil='M' type="H" statut='valet' age='A' stat_amour='néant'>PIERROT</role>, valet d'Arlequin.</castItem>
+			<castItem><role id="MONSIEUR-DISANVRAY" civil='M' type="H" statut='philosophe' age='A' stat_amour='néant'>MONSIEUR DISANVRAY</role>, Philosophe.</castItem>
+			<castItem><role id="MADAME-DE-L-ARCHITRAVE" civil='F' type="H" statut='architecte' age='A' stat_amour='néant'>MADAME DE L'ARCHITRAVE</role>, architecte.</castItem>
+			<castItem><role id="MEZZETIN" civil='M' type="H" statut='intrigant' age='A' stat_amour='néant'>MEZZETIN</role>, intrigant.</castItem>
+			<castItem><role id="LA-COMTESSE" civil='F' type="H" statut='comte' age='A' stat_amour='néant'>LA COMTESSE</role>.</castItem>
+			<castItem><role id="LE-CHEVALIER" civil='M' type="H" statut='chevalier' age='A' stat_amour='néant'>LE CHEVALIER</role>.</castItem>
+			<castItem><role id="UN-VIEILLARD" civil='M' type="H" statut='(sans)' age='V' stat_amour='marié'>UN VIEILLARD</role>. </castItem>
+			<castItem><role id="UN-VIEILLARD" civil='F' type="H" statut='(sans)' age='V' stat_amour='marié'>FEMME DU VIEILLARD</role>. </castItem>
+			<castItem><role id="DEUX-GASCONNES" civil='G' type="H" statut='(sans)' age='V' stat_amour='néant'>DEUX GASCONNES</role>.</castItem>
+			<castItem><role id="MONSIEUR-DE-COLAFON" civil='M' type="H" statut='maître à danser' age='A' stat_amour='néant'>MONSIEUR DE COLAFON</role>, maître à Danser.</castItem>
+			<castItem><role id="LE-FILS_LA-FILLE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>LE FILS du Docteur</role>.</castItem>
+			<castItem><role id="LA-FILLE_LA-FILLE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>LA FILLE du Docteur</role>.</castItem>
+			<castItem><role id="JAQUET" civil='M' type="H" statut='paysan' age='A' stat_amour='marié'>JAQUET</role>, paysan.</castItem>
+			<castItem><role id="MACINE" civil='F' type="H" statut='paysan' age='A' stat_amour='marié'>MACINE</role>, paysanne.</castItem>
+			<castItem><role id="MONSIEUR-DE-GERESOL" civil='M' type="H" statut='maître à chanter' age='A' stat_amour='néant'>MONSIEUR DE GERESOL</role>, maître à Chanter.</castItem>
+			<castItem><role id="MONSIEUR-DE-LA-CABRIOLE" civil='M' type="H" statut='maître à danser' age='A' stat_amour='néant'>MONSIEUR DE LA CABRIOLE</role>, maître à Danser.</castItem>
+		</castList>
+		<set location='Un bois' country='France' periode='XVIIème' link=''>La scène est dans un bois.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>PROLOGUE</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Arlequin, Colombine.</head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>Non, te dis-je, je ne la jouerai pas.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='2'>
+	<s id='1'>Mais tu te moques.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Il n'y a point de plaisanterie à cela, et j'aimerais mieux être Arlequin Cochon, Arlequin Dogue, Cygne, Taureau, et tout ce qu'il te plaira, que d'être Arlequin Misanthrope.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='4'>
+	<s id='1'>Et bien, il faut donc se résoudre à faire rendre l'argent. </s>
+	<s id='2'>Quoi ? </s>
+	<s id='3'>Renvoyer tout ce beau monde-là ? </s>
+	<s id='4'>Il faut avoir le coeur bien dur. </s>
+	<s id='5'>Ah ! </s>
+	<s id='6'>Ah !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>Oh, je te connais, tu es tout comme les autres femmes ; il n'y a que l'intérêt qui te gouverne. </s>
+	<s id='2'>Quand tu déplores ce beau monde-là, tu le regardes bien moins au visage qu'à la bourse.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='6'>
+	<s id='1'>Mais sérieusement, crois-tu ne pouvoir être Misanthrope, sans déroger à ton Arlequinisme ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>Non vraiment, un Misanthrope est un homme d'esprit, une fois, et tout le monde sait que je ne suis qu'un sot.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='8'>
+	<s id='1'>Tu n'es pas glorieux, à ce que je vois.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Oh, ma foi, si tous les sots rougissaient de l'être, on ne rencontrerait dans les rues que des visages d'écarlate.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='10'>
+	<s id='1'>Parlons un peu raison.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Parlons plutôt un langage que tout le monde entende : mais s'il s'agit d'argumenter, me voilà sur mes bancs. </s>
+	<s id='2'>Allons.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='12'>
+	<s id='1'>Vous êtes un sot, dites-vous ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>Concedo majorem.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='14'>
+	<s id='1'>Or est-il qu'il y a plusieurs pièces où vous faites l'homme d'esprit : donc pour être un sot vous ne laissez pas de pouvoir fort bien jouer le Misanthrope.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="C">Phrase en latin pour une argumentation en syllogisme qui comprend deux prémisses : la majeure et la mineure ; et permet d'aboutir à une conclusion qui ne peut être qu'acceptée si les deux prémisses ont été admises. </note>
+<note type="L">Salope : malpropre en son manger, en ses habits, en son logement. [F]</note>
+<p id='15'>
+	<s id='1'>Nego consequentiam, et retorqueo argumentum. </s>
+	<s id='2'>Vous êtes une salope : il y a des pièces où vous faites la femme d'importance : Ergo vous n'êtes pas une salope. </s>
+	<s id='3'>Voilà un beau raisonnement !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='16'>
+	<s id='1'>Mais ne fais-tu pas l'apothicaire dans l'Empereur de la lune ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='17'>
+	<s id='1'>Il est vrai qu'il faut un esprit bien profond, pour mettre adroitement un lavement bien en place !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='18'>
+	<s id='1'>Ne fais-tu pas l'Avocat, le Procureur, le Baron, le Marquis ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Marmiton(ne) : Valet de cuisine qui prend garde à la marmite, qui a soin de la faire bouillir. Il y a des marmitons chez les grands qui couchent dans la marmitte. [F]</note>
+<note type="C">Non plus ultra : Phrase empruntée du Latin, qu'on emploie dans le style familier comme substantif masculin, pour signifier, Le terme qu'on ne saurait passer. [Ac. 1762]</note>
+<p id='19'>
+	<s id='1'>Et parmi les avocats, les procureurs, les barons, les marquis, n'y a-t-il point de sots ? </s>
+	<s id='2'>Tiens, ma pauvre Colombine, ne nous abusons point. </s>
+	<s id='3'>Feuilletons toutes les Annales arlequiniques, repassons sur les faits et gestes de tous les Arlequins du monde, je te défie de trouver un misanthrope. </s>
+	<s id='4'>Nous sommes de bons petits hommes, qui faisons gracieusement une culbute, nous soupirons tendrement pour une belle marmitonne comme toi, nous faisons éloquemment le panégyrique d'une bonne soupe, et déployons avec énergie la cherté du vin et du fromage de Milan. </s>
+	<s id='5'>Mais n'en demande pas davantage : c'est là le non plus ultra de notre savoir faire.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='20'>
+	<s id='1'>Trêve de modestie. </s>
+	<s id='2'>Je te réponds moi que tu te tireras fort bien du rôle qu'on t'a donné. </s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, vers le Parterre.</speaker>
+<note type="L">Quartier : Vie sauve ou traitement favorable fait aux vaincus. Il vaut mieux prendre quartier que de s'exposer à une mort certaine. Fig. et familièrement. Demander quartier, demander grâce. [L]</note>
+<p id='21'>
+	<s id='1'>Il faudrait pour ma sûreté que ces Messieurs m'en répondissent solidairement avec toi. </s>
+	<s id='2'>Mais supposons que je veuille jouer cette pièce, qui l'annoncera ? </s>
+	<s id='3'>Tu sais bien qu'Octave ne veut pas s'en mêler, et qu'aujourd'hui une pièce ne saurait réussir si elle n'est annoncée, et si l'auteur ne vient demander humblement quartier aux auditeurs, les prévenir sur les défauts, et les prier de ne chercher pas plus d'esprit et de raison dans la prose que de rime et de mesure dans les vers.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='22'>
+	<s id='1'>Est-ce là ce qui t'embarrasse. </s>
+	<s id='2'>Je l'annoncerai, moi.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='23'>
+	<s id='1'>En ce cas, j'en augure bien ; car on ne parvient aujourd'hui que par le canal des femmes.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE annonce.</speaker>
+<p id='24'>
+	<s id='1'>Quelque liberté que donne notre théâtre de grossir les traits et de changer les idées ; vous savez bien, Messieurs, qu'il y a une extrême différence entre un arlequin et un philosophe. </s>
+	<s id='2'>Ainsi, si vous nous trouvez dans quelques endroits un peu au-dessus de notre jeu ordinaire, n'en accusez que le désir ardent que nous avons de vous plaire : c'est lui qui nous a fait choisir le plan de Satire que nous allons vous donner, dans lequel nous avons néanmoins si bien mêlé toutes les gentillesses du Théâtre Italien, que si le goût du siècle était un peu moins difficile, nous oserions nous flatter d'y avoir mis de quoi contenter tout le monde. </s>
+	<s id='3'>Heureux si nous avions pu atteindre à ce but qui doit être la seule fin de la comédie, de corriger les murs en divertissant l'esprit ; plus heureux encore, si à la fin de notre pièce, que nous vous supplions d'écouter jusqu'au bout, vous nous donnez des marques que vous sortez contents.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. </head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, dans un bois parmi des animaux qu'il salue.</speaker>
+<note type="L">Petit maître : Fig. et familièrement. Petit-maître, jeune homme qui a de la recherche dans sa parure, et un ton avantageux avec les femmes. [L]</note>
+<note type="L">Espiègle : Eveillé, subtil, fripon. Jocosus, malignus. C'est une légère injure qu'on dit aux enfants qui sont un peu malins, ou libertins. Ce garçon est un petit espiègle, il a fait un tour d'espiègle. [T]</note>
+<p id='1'>
+	<s id='1'>Bonjour camarade. </s>
+	<s id='2'>Ah ! </s>
+	<s id='3'>De tout mon coeur ! </s>
+	<s id='4'>Je suis votre très humble serviteur. </s>
+	<s id='5'>Votre valet de toute mon âme. </s>
+	<s id='6'>Ma foi il n'est point de pire animal que l'homme, et il n'en est pas de moins humain. </s>
+	<s id='7'>Hé quoi, ces pauvres petites bêtes ne me disent pas le moindre mot : je ne vois point ici de ces esprits aigres, qui se font un point d'honneur de ne convenir jamais. </s>
+	<s id='8'>Je vis à ma fantaisie, et les lions qui sont Seigneurs hauts Justiciers et Magistrats en dernier ressort de ces bois, n'exigent point de moi que j'aille me morfondre sur leur escalier, ou m'ennuyer dans leur anti-chambre. </s>
+	<s id='9'>Je ne suis point éclaboussé par un parvenu, qui à la faveur d'une métamorphose qu'il a peine à concevoir lui-même, se trouve dans un Carrosse que son père menait jadis. </s>
+	<s id='10'>Je n'essuie rien de la polissonnerie des petits Maîtres, et ne suis point obligé de me récrier sur les fadaises d'un mauvais plaisant de qualité, qui fait vingt fois par jour passer en revue cinq ou six mauvais contes qu'il a pillés dans l'Espiègle ou dans le Tombeau de la mélancolie. </s>
+	<s id=''>Je ne vais point faire ma Cour à un Grand de nouvelle édition, qui embarrassé de sa personne, et plus droit qu'un échalas, semble avoir perdu l'usage des mouvements de son corps ; qui jette à peine les yeux sur la foule d'adulateurs qui l'environne, et croirait m'honorer beaucoup, s'il pouvait prendre sur sa paralytique gravité un mouvement de Pagode pour faire voir qu'il m'a remarqué. </s>
+	<s id='11'>Je ne prête point ici une attention de trois heures au récit burlesque des promesses d'un fanfaron qui ne s'est jamais montré aux ennemis que par la croupe de son Cheval. </s>
+	<s id='12'>Nulle complaisance ne m'engage de répondre aux mines enfantines d'une beauté surannée qui oublie qu'elle n'a pas une dent dans la bouche, sur laquelle Carmeline n'ait une hypothèque spéciale. </s>
+	<s id='13'>Je me promène seul, et ne gobe point la nuée de poudre, qu'excite dans la grande allée des Tuileries, le superflu du manteau des coquettes à taille équivoque. </s>
+	<s id='14'>Je n'y vois point de ces Marquises de contrebande qui en gourgandine et en petites mules, portent répandue sur toute leur personne une idée d'occasion prochaine. </s>
+	<s id='15'>Enfin je suis ici à couvert des impertinences dont Paris est rempli, et je trouve que ce n'est qu'avec les animaux qu'on se défait de la férocité qu'on a contractée avec les hommes. </s>
+	<s id='16'>Oui, mes chers camarades, c'est avec vous seuls qu'on peut vivre en repos. </s>
+	<s id='17'>Je hais les hommes, je les déteste, ils sont faux, doubles, hypocrites, méprisables.</s>
+</p>
+<note type="L">Gourgandine : Terme très familier. Femme de mauvaise vie, coureuse. Sorte d'habit de femme à la mode en 1694, qui consistait en un corset ouvert par devant et laissant voir la chemise. [L]</note>
+<note type="L">Tombeau : Sorte de morceau de musique. On doit citer de lui [le violoniste Leclair] un grave (voy. GRAVE 1 au Supplément) en ut mineur, connu sous le nom de tombeau de Leclair ; on appelait alors un tombeau une sorte de déclamation instrumentale d'un caractère triste et douloureux.... on lui doit aussi [à Gavinies] un tombeau qui est resté classique, et une romance amoureuse pour le violon, Journ. offic. 25 oct. 1875, p. 8846, 3e col. </note>
+	<l id='1'>Bien entendu, qu'en ceci,</l>
+	<l id='2'>La femme est comprise aussi.</l>
+<p id='2'>
+	<s id='1'>Oui, si j'en trouvais quelqu'une, je me ferais un plaisir de la traiter comme elle mérite. </s>
+	<s id='2'>Je la...</s>
+</p>
+<stage>Il aperçoit Colombine.</stage>
+<note type="L">Hoime : est une altération de Hom, comme on dit en espagnol hombre. Qui exprime le doute, la défiance. [L]</note>
+<p id='3'>
+	<s id='1'>Hoime !</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Colombine, Arlequin.</head>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='1'>
+	<s id='1'>Ah, Monsieur, que je suis heureuse de trouver une figure d'homme dans un lieu où je ne vois que des bêtes !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, à part.</speaker>
+<p id='2'>
+	<s id='1'>Figure d'homme ? </s>
+	<s id='2'>Elle est toute jolie. </s>
+	<s id='3'>Je me défie furieusement de moi-même.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='3'>
+	<s id='1'>Monsieur, ne pourriez-vous point me dire des nouvelles de ce que je cherche ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, à part.</speaker>
+<p id='4'>
+	<s id='1'>Tenons bon.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='5'>
+	<s id='1'>Il me tourne le dos. </s>
+	<s id='2'>Que je suis malheureuse !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>La charmante pleureuse ! </s>
+	<s id='2'>Que je crains pour le Misanthrope !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='7'>
+	<s id='1'>Monsieur, ne me rebutez pas, je vous en conjure.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, allant et revenant.</speaker>
+<p id='8'>
+	<s id='1'>Non... </s>
+	<s id='2'>Ce sexe est fait pour tromper tout le monde.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='9'>
+	<s id='1'>Ah, craignez-vous quelque chose d'une malheureuse qui implore votre secours ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Vous êtes plus à craindre pour moi que toutes les bêtes de ces bois.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='11'>
+	<s id='1'>Mais qu'appréhendez-vous ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Mais que demandez-vous ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='13'>
+	<s id='1'>Que vous ayez la bonté de m'écouter et de me répondre.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Dites : car c'est une folie de vouloir empêcher une femme de parler.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='15'>
+	<s id='1'>Il y a huit jours, Monsieur, que je suis sortie de Paris, pour chercher un scélérat, un parjure, un perfide...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>Quoi, ma mie, vous partez exprès de Paris, pour chercher un malhonnête homme ? </s>
+	<s id='2'>Hé fi, vous n'y pensez pas ? </s>
+	<s id='3'>Si j'avais à chercher un perfide, un parjure, un scélérat, sans aucun frais de quête j'irais tout droit à Paris.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='17'>
+	<s id='1'>N'insultez point une malheureuse ; et si vous êtes insensible à mes maux, ne les rendez pas plus cuisants par vos railleries.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>Hé bien, la Belle enfant, quelle est la cause de votre douleur ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='19'>
+	<s id='1'>Monsieur, il y a environ quatre ans que ma mère est veuve.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='20'>
+	<s id='1'>Tant mieux pour elle et tant pis pour vous.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='21'>
+	<s id='1'>Comme mon père n'avait pas laissé beaucoup de bien, elle fut obligée de se servir de ses meubles pour gagner sa vie.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='22'>
+	<s id='1'>C'est un expédient dont bien des femmes s'avisent.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='23'>
+	<s id='1'>Je veux dire, qu'elle meubla une maison où venaient loger beaucoup de gens de qualité, et surtout grand nombre d'Étrangers.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>C'est-à-dire souvent, grand nombre de dupes.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='25'>
+	<s id='1'>Ma mère qui n'avait que moi d'enfant, me donnait la meilleure éducation qu'il lui était possible, et tâchait de m'inspirer les airs d'une personne de condition.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>Éducation bien conditionnée.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<note type="L">Inclination : Se dit figurémment en chose spirituelles des affections de l'âme ; de l'humeur de la pente, de la disposition naturelle à faire quelque chose. [F]</note>
+<p id='27'>
+	<s id='1'>À vous dire le vrai je me suis toujours senti une furieuse inclination d'être grande Dame.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>La pauvre petite !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='29'>
+	<s id='1'>Je n'avais que douze ans, quand ma mère fit tirer mon horoscope. </s>
+	<s id='2'>On dit que ma beauté ferait ma fortune ; et on assure même que j'ai dans la main une couronne bien marquée.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='30'>
+	<s id='1'>Pronostic pour la tête du futur.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='31'>
+	<s id='1'>Parmi les étrangers qui logeaient chez nous, il y avait un jeune Prince Allemand fait à peindre et beau comme les amours ; nous apprenions à chanter du même Maître, et lisions des Romans ensemble.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='32'>
+	<s id='1'>Suite du pronostic. </s>
+	<s id='2'>C'est ici le voyage de l'Île d'Amour ? </s>
+	<s id='3'>Et bien, comment vous embarquâtes-vous ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<note type="C">Cyrus : long roman de Mlle de Scudery.</note>
+<p id='33'>
+	<s id='1'>Un jour que nous étions dans le jardin, il me fit une déclaration d'amour toute prise du troisième tome de Cyrus.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='34'>
+	<s id='1'>L'habile homme !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='35'>
+	<s id='1'>Dame, comme j'avais les idées fraîches aussi bien que lui, je le payai sur le champ en même monnaie.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='36'>
+	<s id='1'>La belle présence d'esprit !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='37'>
+	<s id='1'>Depuis ce temps-là, il ne me quittait presque plus, il s'ennuyait partout où je n'étais point, et me disait cent fois le jour qu'il m'aimait plus que lui-même.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='38'>
+	<s id='1'>Et votre mère vous prêtait ses meubles ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='39'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Elle se défia de cette grande familiarité, elle savait par expérience... </s>
+	<s id='3'>Enfin elle me défendit de le voir, et me mit en pension chez une de mes tantes.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Godelureau : Jeune fanfaron, glorieux, pimpant et coquet qui se pique de galanterie, de bonne fortune auprès des femmes, qui est toujours bien propre et bien mis sans avoir d'autres perfections. [F]</note>
+<p id='40'>
+	<s id='1'>De sorte que vous ne vîtes plus le godelureau, vous ne sûtes plus de ses nouvelles ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='41'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>À quoi nous aurait donc servi le Maître à chanter ? </s>
+	<s id='3'>Le Prince le mit si bien dans nos intérêts, qu'il me donnait tous les jours un billet de sa part, et lui en reportait la réponse.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='42'>
+	<s id='1'>Il est vrai que ces Messieurs les Maîtres à chanter ont un précieux tendre pour les Amants persécutés.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='43'>
+	<s id='1'>Ce n'est pas tout. </s>
+	<s id='2'>Comme le Prince ne pouvait me voir chez ma tante, le Maître à chanter obtint qu'elle me permettrait d'aller à un Concert où il y avait beaucoup de gens de Qualité.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='44'>
+	<s id='1'>Vous y fûtes sous le bon plaisir de la bonne tante ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='45'>
+	<s id='1'>Oui, j'y fus avec une fille du voisinage ; mais au lieu de Concert nous ne trouvâmes que le Prince : j'entrai dans la chambre où il était, pendant que le Musicien entretenait notre voisine.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='46'>
+	<s id='1'>Ouf ! </s>
+	<s id='2'>Maudit ménétrier ! </s>
+	<s id='3'>Hé bien, hé bien, que fîtes-vous là ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='47'>
+	<s id='1'>Oh Dame, Monsieur, quand on s'aime bien, qu'un Maître à danser conduit l'intrigue, et qu'on a une si belle occasion de vérifier les prédictions... </s>
+	<s id='2'>Je songeai à mon Horoscope, et mon jeune Prince me fit une Promesse de Mariage.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='48'>
+	<s id='1'>Voilà le dénouement.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='49'>
+	<s id='1'>Nous nous vîmes encore plusieurs fois chez le Musicien sous le même prétexte de Concert.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='50'>
+	<s id='1'>Eh, que ces Concerts déconcertent de jolies filles ! </s>
+	<s id='2'>Mais enfin ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='51'>
+	<s id='1'>Mais enfin, il y a aujourd'hui six jours que j'appris par un bruit de Ville, que le Prince avait disparu. </s>
+	<s id='2'>Je vous laisse à penser si cette nouvelle me perça le coeur ; mais sans m'amuser à pleurer, je pris tout ce que j'avais d'argent, et quelques pierreries que ma mère m'avait données, et je montai à Cheval, résolue de chercher mon infidèle par tout le monde, et de le suivre jusqu'aux extrémités de la terre.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='52'>
+	<s id='1'>Voilà un beau dessein.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='53'>
+	<s id='1'>Ah, Monsieur, je le trouverai, ou je mourrai à la peine, il y a deux ans que je l'aime.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Artemisia : reine de Carie, célèbre par son amour pour son mari Mausole.</note>
+<p id='54'>
+	<s id='1'>Comment donc, deux ans ? </s>
+	<s id='2'>Et je ne croyais pas que depuis feue Artémise de constante mémoire, aucune femme eût aimé plus de vingt-quatre heures.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='55'>
+	<s id='1'>Je l'aimerai jusqu'à la mort.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='56'>
+	<s id='1'>Cela n'est pas bien sûr. </s>
+	<s id='2'>Mais aussi, n'est-ce point la Principauté que vous courez plutôt que l'Amant ? </s>
+	<s id='3'>Ce que les femmes de ce temps-ci ne mettent pas en amour, elles le dépensent bien et au-delà en ambition.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='57'>
+	<s id='1'>Quelle injure vous faites à la sincérité de mes sentiments ! </s>
+	<s id='2'>Oui, quand mon amant serait le dernier des hommes, je ne l'en aimerais pas moins.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, à part.</speaker>
+<p id='58'>
+	<s id='1'>Une fille qui n'aime, ni par ambition ni par intérêt ? </s>
+	<s id='2'>Quelle merveille ! </s>
+	<s id='3'>Voilà mon fait. </s>
+	<s id='4'>Mettons-nous bien dans son esprit. </s>
+	<s id='5'>Mademoiselle, je vous plains, et vous offre tout ce qui dépend de moi. </s>
+	<s id='6'>Venez vous reposer, nous tâcherons de savoir des nouvelles de ce que vous cherchez.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='59'>
+	<s id='1'>Ce n'est pas un médiocre avantage, de trouver en l'état où je suis quelqu'un qui prenne part à mes disgrâces.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Octave, Scaramouche, en habit de livrée.</head>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='1'>
+	<s id='1'>Ô Ciel ! </s>
+	<s id='2'>Dans quel étrange situation me trouve-je ? </s>
+	<s id='3'>Je fuis Colombine, et mon coeur court après elle ; depuis six jours que je l'ai quittée, j'ai souffert tout ce que... </s>
+	<s id='4'>Mais ne vois-je pas Scaramouche que j'avais laissé à Paris pour m'en apporter des nouvelles ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='2'>
+	<s id='1'>Gare, Monsieur, gare, prenez garde, hem, n'est-elle pas là ?</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='3'>
+	<s id='1'>Qui ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='4'>
+	<s id='1'>Colombine.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='5'>
+		<s id='1'>Colombine ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='6'>
+	<s id='1'>Oui Colombine, elle doit être ici.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='7'>
+	<s id='1'>Mais comment veux-tu qu'elle soit ici, puisque je l'ai laissée à Paris ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='8'>
+	<s id='1'>Diable, une fille de Paris un peu jolie, fait bien du chemin en peu de temps.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='9'>
+	<s id='1'>Je n'entends rien à ton peste de galimatias.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='10'>
+	<s id='1'>Cela veut dire, Monsieur, que le lendemain de votre départ de Paris, Colombine monta à cheval pour vous suivre.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='11'>
+	<s id='1'>Hé bien, Scaramouche.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='12'>
+	<s id='1'>Hé bien, il y a cinq jours qu'elle vous suit, elle vous doit avoir joint.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='13'>
+	<s id='1'>Mais ne sachant pas où je suis, comment veux-tu qu'elle me trouve ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='14'>
+	<s id='1'>Oh Diable, Monsieur, une fille amoureuse a bon nez, et un Amant aimé est un gibier dont il n'est pas malaisé de suivre la piste. </s>
+	<s id='2'>Je vous dis encore un coup, que si Colombine n'est pas ici, elle y sera bientôt.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='15'>
+	<s id='1'>Mais dis-moi, Scaramouche, lorsque Colombine apprit mon départ, que fit-elle ? </s>
+	<s id='2'>Que dit-elle de mon absence ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE, pleurant.</speaker>
+<p id='16'>
+	<s id='1'>Ah, Monsieur, c'est une chose déplorable. </s>
+	<s id='2'>La pauvre fille ! </s>
+	<s id='3'>Je ne saurais m'empêcher de pleurer, car je suis sensible aussi.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='17'>
+	<s id='1'>Hélas !</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE riant.</speaker>
+<p id='18'>
+	<s id='1'>C'était la plus drôle de chose ; quand j'y songe, je ne puis m'empêcher de rire.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='19'>
+	<s id='1'>Et de quoi ris-tu, coquin ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='30'>
+	<s id='1'>De la mine qu'elle fit quand vous fûtes parti.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='31'>
+	<s id='1'>Maraud !</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='32'>
+	<s id='1'>J'entrai dans sa chambre, et je la trouvai sur son lit, toute en pleurs, qui s'arrachait les cheveux. </s>
+	<s id='2'>C'est donc ainsi ; disait-elle qu'il m'abandonne, qu'il me...</s>
+</p>
+<stage>Il pleure.</stage>
+<p id='33'>
+	<s id='1'>Ah, ah, cela fait crever le coeur.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='34'>
+	<s id='1'>Pouvais-je faire autrement ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='35'>
+	<s id='1'>Hé bien Scaramouche, ajouta-t-elle, tu vois comme on traite un Prince que j'aime à l'adoration.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='36'>
+	<s id='1'>Elle ne sait donc pas qui je suis, et elle me croit toujours un Prince Allemand.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<note type="L">Pincerie : Terme familier. État, qualité, manières de prince. [L]</note>
+<p id='37'>
+	<s id='1'>Vraiment, elle se donnerait à tous les diables, que vous êtes le plus grand Prince de toute la princerie ; on n'aurait qu'y lui dire que vous êtes un Comédien, ma foi !</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='38'>
+	<s id='1'>Tant pis Scaramouche, tant pis. </s>
+	<s id='2'>Quand Colombine saura que je ne suis qu'un Comédien, quelle chute ? </s>
+	<s id='3'>Elle en mourra de douleur.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='39'>
+	<s id='1'>S'il fallait trépaner toutes les femmes qui font de ces chutes-là, les chirurgiens gagneraient trop d'argent.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='40'>
+	<s id='1'>Continue ton récit.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='41'>
+	<s id='1'>Traître, infâme, scélérat... </s>
+	<s id='2'>C'est elle qui parle.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='42'>
+	<s id='1'>Supprime ces épithètes.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='43'>
+	<s id='1'>Je suis Historien exact. </s>
+	<s id='2'>Je mourrai. </s>
+	<s id='3'>Oui, dit-elle, je mourrai de douleur.</s>
+</p>
+<stage>Il pleure.</stage>
+<p id='44'>
+	<s id='1'>Ah, ah, cela m'arrache les larmes.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='45'>
+	<s id='1'>Hélas !</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='46'>
+	<s id='1'>Et sur le champ elle se lève du lit. </s>
+	<s id='2'>Oh pour celui-là il est trop plaisant,</s>
+</p>
+<stage>Il rit.</stage>
+<p id='47'>
+	<s id='1'>Prend les porcelaines de sa cheminée, les jette à terre, prend, rompt les tableaux, crac ; renverse les meubles, ouvre la fenêtre, et se jette...</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='48'>
+	<s id='1'>Où, Scaramouche ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='49'>
+	<s id='1'>Dans un fauteuil.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='50'>
+	<s id='1'>Enfin.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='51'>
+	<s id='1'>Je n'en vis pas davantage, et je m'en allai.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='52'>
+	<s id='1'>Et pourquoi, Coquin.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='53'>
+	<s id='1'>Diable, Monsieur, une fille amoureuse qui a perdu son Amant se prend où elle peut ! </s>
+	<s id='2'>Que sait-on ? </s>
+	<s id='3'>Je ne suis pas dégoûtant, et si elle n'était pas dégoûtée, sur ma parole.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='54'>
+	<s id='1'>Taisez-vous, Monsieur le mauvais plaisant. </s>
+	<s id='2'>Mais comment sais-tu donc qu'elle est partie ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='55'>
+	<s id='1'>C'est que le lendemain, je la vis sortir à cheval par la porte Saint-Honoré, et je conjecture de là qu'elle vous suit.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='56'>
+	<s id='1'>Me voilà plus inquiet et plus embarrassé que jamais.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='57'>
+	<s id='1'>Pour moi, il y a environ deux heures que je me suis mis au service d'un nommé Arlequin.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='58'>
+	<s id='1'>Ce Philosophe qui s'est retiré ici ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='59'>
+	<s id='1'>Justement, j'ai mes raisons pour cela.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='60'>
+	<s id='1'>Et quelles raisons encore ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='61'>
+	<s id='1'>De bonnes raisons pour vos intérêts et pour les miens. </s>
+	<s id='2'>Mais retirez-vous, j'ai peur qu'on ne nous surprenne.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Arlequin, Monsieur Disanvray.</head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>Hé bien, Monsieur Disanvray, qu'y a-t-il de nouveau à Paris ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='2'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Vous ennuyez-vous déjà dans votre retraite ? </s>
+	<s id='3'>À quel changement vous attendez-vous depuis un mois que vous êtes hors de Paris ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Un mois, Monsieur Disanvray ? </s>
+	<s id='2'>Vous n'y pensez pas. </s>
+	<s id='3'>Faut-il un mois pour changer du blanc au noir une Ville qui est le mouvement perpétuel. </s>
+	<s id='4'>Allez, allez, ma curiosité serait bien satisfaite si je pouvais savoir combien il s'y fait de changements en vingt-quatre heures.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='4'>
+	<s id='1'>Qu'est-ce à dire ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>Hé faut-il plus d'une nuit pour faire d'une fille une femme, un Gentilhomme d'un roturier, et d'un roturier et d'un faquin, un homme d'importance ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='6'>
+	<s id='1'>Vous avez raison ; mais il serait diantrement difficile de tenir un registre exact de ces changements, tant ils sont fréquents. </s>
+	<s id='2'>Mais sans entrer dans un si grand détail, paris est à peu près de même que vous l'avez laissé ; les hommes y sont fourbes, avides, âpres à l'argent, peu sensibles aux lois de l'honneur, et sacrifiant tout à leur intérêt. </s>
+	<s id='3'>Les femmes sont prudes au dehors, et galantes au-dedans ; les vieilles se fardent, les jeunes minaudent. </s>
+	<s id='4'>Il y a moins de jaloux que de Cocus.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>Et les Coquettes comment se gouvernent-elles ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='8'>
+	<s id='1'>Les Coquettes ? </s>
+	<s id='2'>Il n'y en a plus.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Oh, oh, point de Coquettes à Paris ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='10'>
+	<s id='1'>Non. </s>
+	<s id='2'>Une coquette n'est-ce pas une femme qui a plusieurs amants ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Oui.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='12'>
+	<s id='1'>Et bien, il n'y a donc plus de Coquettes. </s>
+	<s id='2'>Car loin qu'une seule femme ait plusieurs Amants, bien heureuse celle qui en a un à elle seule. </s>
+	<s id='3'>Il y a tel homme sur qui dix ou douze femmes mettent l'enchère tout à la fois.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>C'est comme de mon temps. </s>
+	<s id='2'>Car j'ai connu autrefois une fort jolie personne intéressée pour un septième sur un Capitaine de Dragons, qu'elle ne voyait pas six fois dans tout un quartier d'Hiver.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='14'>
+	<s id='1'>C'est une chose déplorable que de voir la disette d'hommes qui règne à Paris, et la cherté dont ils sont. </s>
+	<s id='2'>Aussi une femme de bon sens, disait-elle ces jours passés, que dans une année abondante, la nature devrait produire pour le soulagement du pauvre sexe féminin, une certaine quantité d'hommes, comme elle produit du vin et du blé.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='15'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Et quand cette année il serait né autant d'hommes qu'il s'est cueilli de grains de blé, de quelle utilité pourraient-ils être aux Coquettes. </s>
+	<s id='3'>Elles seraient passées avant qu'ils fussent mûrs. </s>
+	<s id='4'>Mais, Monsieur Disanvray, comment vivent les beaux Esprits à Pris ? </s>
+	<s id='5'>Font-ils toujours corps de Communauté, et n'ont-ils qu'un même Syndic avec les Fripiers ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='16'>
+	<s id='1'>Comment donc ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='17'>
+	<s id='1'>C'est que de mon temps il leur était défendu de travailler de la besogne neuve, et ils ne s'occupaient qu'à rajuster ce qui avait été fait par les autres.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='18'>
+	<s id='1'>C'est donc toujours de même. </s>
+	<s id='2'>Car quand vous allez acheter des Livres, vous entendez annoncer comme dans une friperie : Monsieur, une petite pensée d'Horace bien proprement retournée. </s>
+	<s id='3'>Monsieur, une Satire de Juvénal doublée de neuf. </s>
+	<s id='4'>Une Comédie de Térence à grandes manches et grosses boutonnières. </s>
+	<s id='5'>Des Dialogues de rencontre. </s>
+	<s id='6'>Les Oraisons de Cicéron à la pièce.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>De sorte qu'il ne paraît plus de nouveautés ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='20'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>On n'en a jamais tant vu. </s>
+	<s id='3'>La rage possède les Auteurs pour imprimer ; et si le grand flegme et la retenue du Public qui n'achète plus rien ne modéraient ce grand feu, il n'y aurait pas assez de papier en France. </s>
+	<s id='4'>Tel qui n'a pas seulement apprit à lire, fait des Poèmes Dramatiques en Vers et en cinq Actes, qu'on joue cinq fois la semaine. </s>
+	<s id='5'>Voilà la liste des Livres qui furent affichés mardi passé.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, lit.</speaker>
+<note type="L">Maroufle : Terme injurieux qu'on donne aux gens gros de corps, et grossiers d'esprit. [F]</note>
+<p id='21'>
+	<s id='1'>Relation véritable et remarquable de la sanglante défaite des Anciens par les Modernes, avec la liste des morts et des blessés. </s>
+	<s id='2'>À la fin, ces maroufles ont donc été battus ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='22'>
+	<s id='1'>Et comme il faut. </s>
+	<s id='2'>Il n'y en a pas un qui n'ait quelque vilain coup qui le défigure.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='23'>
+	<s id='1'>C'est donc par derrière, car nos braves Modernes ne regardent pas face à face ces poltrons-là. </s>
+	<s id='2'>Topographie exacte du visage d'une femme, ou l'art d'y placer les mouches régulièrement ; avec une dissertation sur les différentes manières de rire de bonne grâce. </s>
+	<s id='3'>Le tout composé par un jeune Abbé de qualité.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='24'>
+	<s id='1'>Oh, nos jeunes Abbés se distinguent par l'érudition.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='25'>
+	<s id='1'>L'Art d'aimer, réduit en abrégé par un Ancien Fermier Général. </s>
+	<s id='2'>Ouvrage enrichi de plusieurs médailles d'or.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='26'>
+	<s id='1'>Celui-là est fort rare. </s>
+	<s id='2'>On en trouve presque plus de la bonne édition.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='27'>
+	<s id='1'>Projet d'un Dictionnaire de Mine. </s>
+	<s id='2'>Ouvrage fort utile aux lorgneurs, pour l'intelligence des grimaces des Coquettes.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='28'>
+	<s id='1'>Celui-là ne sera pas dur à la vente.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='29'>
+	<s id='1'>Traduction des Instituts de Justinien en langue vulgaire, pour le soulagement des Magistrats qui n'entendent pas le latin. </s>
+	<s id='2'>Je réponds du débit de celui-là.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DISANVRAY'><speaker>MONSIEUR DISANVRAY.</speaker>
+<p id='30'>
+	<s id='1'>Il enrichira l'Imprimeur, si tous ceux qui en ont besoin en achètent un exemplaire.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='31'>
+	<s id='1'>Monsieur Disanvray, voilà de nouveaux visages qui me viennent ; laissez-moi un moment, je vais vous rejoindre tout à l'heure.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Docteur, Léandre, Une Fille, Scaramouche.</head>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR faisant de grandes révérences.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Sans compliment.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='3'>
+	<s id='1'>Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Hé, sans façon.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='5'>
+	<s id='1'>Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Sans cérémonie, ou je vous plante-là.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='7'>
+	<s id='1'>Monsieur, la haute réputation que vous avez dans le monde, et l'estime générale que vous vous êtes acquise...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Moi, de l'estime ? </s>
+	<s id='2'>Si je croyais être bien dans l'esprit de quelqu'un des hommes d'aujourd'hui, je m'irais pendre tout à l'heure.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='9'>
+	<s id='1'>Mais, Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Oui, je veux que les hommes me haïssent, me méprisent, et me regardent à peu près du même oeil que je les vois. </s>
+	<s id='2'>De l'estime ? </s>
+	<s id='3'>Je voudrais bien voir quelqu'un m'estimer ! </s>
+	<s id='4'>Je les y attends !</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='11'>
+	<s id='1'>Mais, souffrez que je vous dise...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Souffrez que je vous dise moi, que le caractère du peu de mérite, est d'être estimé des hommes d'aujourd'hui, et que la vraie marque qu'on vaut quelque chose, est d'en être méprisé. </s>
+	<s id='2'>Je veux qu'ils me méprisent, entendez-vous ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='13'>
+	<s id='1'>Soit.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Sans préambule de quoi est-il question ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='15'>
+	<s id='1'>Monsieur, comme vous savez qu'on ne fait plus rien dans les Provinces, et que Paris est le seul Théâtre où l'on peut paraître un peu à l'avantage, je vais m'y établir avec ma famille, et je n'ai pas voulu passer par ces lieux, sans voir un Philosophe qui fait autant de bruit que vous, Monsieur.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>Vous auriez pu retrancher plus de la moiti »é de votre longue période, aussi bien que les fréquents, Monsieur, dont vous entrelardez vos longues phrases ? </s>
+	<s id='2'>Mais qui êtes-vous pour aller à Paris avec tant de confiance ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='17'>
+	<s id='1'>Je suis, Monsieur, un homme de lettres, dont le nom fait du bruit parmi les savants.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Jargonneur : Qui se sert d'un langage inintelligible, ou inusité. [T]</note>
+<p id='18'>
+	<s id='1'>Je m'en suis douté en vous voyant si jargonneur. </s>
+	<s id='2'>Vous allez donc à Paris faire fortune, vous courez après quelque établissement considérable ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='19'>
+	<s id='1'>Je ne suis guère embarrassé là-dessus. </s>
+	<s id='2'>J'ai deux ou trois Ouvrages fins, prêts à mettre sous la Presse, et je ne serai pas plutôt arrivé à Paris, que les Libraires de ce pays-là, qui sont connaisseurs, riches et honnêtes gens, viendront au devant de moi m'offrir tout ce que je voudrai de mes Livres.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, riant.</speaker>
+<p id='20'>
+	<s id='1'>Ah, ah les Libraires connaisseurs, riches et honnêtes gens. </s>
+	<s id='2'>Cet homme-là connaît la Librairie !</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='21'>
+	<s id='1'>Et la jeunesse de la Cour, qui est généreuse et délicate, sera ravie de m'avoir, et l'argent pleuvra chez moi, Dieu sait !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, riant.</speaker>
+<p id='22'>
+	<s id='1'>Oui, oui, la jeunesse de la Cour généreuse et délicate ? </s>
+	<s id='2'>Ah, que voilà un homme bien instruit !</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='23'>
+	<s id='1'>Outre cela, comme je sais de bien des sortes de choses, et que les Magistrats sont curieux, appliqués et bienfaisants, ce sera un plaisir de voir comme je serai couru.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, riant.</speaker>
+<p id='24'>
+	<s id='1'>Les jeunes Magistrats appliqués, bienfaisants ! </s>
+	<s id='2'>Il connaît aussi bien la Robe que l'Épée. </s>
+	<s id='3'>Hé, mon ami, quand vous serez à Paris, que les choses vous paraîtront différentes de ce que vous les avez vues de votre Province ! </s>
+	<s id='4'>Les fortunes des gens de Lettres sont de belles perspectives, qui ne brillent que de loin. </s>
+	<s id='5'>Mais qui sont ces gens-là !</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='25'>
+	<s id='1'>C'est ma famille, Monsieur, et j'ai encore un fils à Paris, qui est à ce qu'on m'a dit, dans un poste fort éclairant.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>Ce jeune garçon-là, est-il votre fils ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='27'>
+	<s id='1'>Oui, Monsieur, mon cadet.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Va-t-il aussi faire fortune ?</s>
+</p>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE.</speaker>
+<p id='29'>
+	<s id='1'>Je l'espère, Monsieur.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='30'>
+	<s id='1'>Et comment cela, Monsieur ?</s>
+</p>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE.</speaker>
+<note type="L">Souffrable : n'est pas encore français. On dit supportable. [FC]</note>
+<p id='31'>
+	<s id='1'>Monsieur, j'ai comme vous voyez un extérieur assez souffrable ; j'ai bien fait mes exercices ; je manie bien un cheval ; je danse passablement ; je sais un peu les langues étrangères, Monsieur.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='32'>
+	<s id='1'>Et avec tout cela vous prétendez, Monsieur...</s>
+</p>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE.</speaker>
+<p id='33'>
+	<s id='1'>M'attacher à quelque grand Seigneur, qui m'avancera à l'Armée et prendra soin de ma fortune.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='34'>
+	<s id='1'>Chimère, mon ami, chimère toute pure. </s>
+	<s id='2'>Si, fait comme vous voilà, vous parliez de vous faire Valet de Chambre, ou premier Laquais de quelque Vieille, passe.</s>
+</p>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE.</speaker>
+<p id='35'>
+	<s id='1'>Hé, fi Monsieur, je n'ai pas l'esprit assez bas.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='36'>
+	<s id='1'>À quel étage croyez-vous donc qu'il faille avoir l'esprit pour faire fortune ? </s>
+	<s id='2'>Mais dites-moi, cette grande fille est-elle votre soeur ? </s>
+	<s id='3'>Elle n'est pas mal bâtie.</s>
+</p>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE.</speaker>
+<p id='37'>
+	<s id='1'>Monsieur, elle danse bien, et a la voix assez jolie.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='38'>
+	<s id='1'>Je lui ai donné la meilleure éducation que j'ai pu. </s>
+	<s id='2'>Je voudrais la mettre auprès de quelque femme de qualité, qui après l'avoir gardée quelque temps chez elle, la mariât avantageusement.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='39'>
+	<s id='1'>Cela n'est pas bien sûr. </s>
+	<s id='2'>On ne trouve presque plus d'épouseurs pour les filles qui sortent des grandes maisons.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='40'>
+	<s id='1'>Et pourquoi cela ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='41'>
+	<s id='1'>Mon Dieu, c'est que les médisants jasent toujours, et qu'on ne saurait ôter de la tête de certaines gens, qu'une jolie fille qui rend les soins à Madame, reçoit souvent ceux de Monsieur. </s>
+	<s id='2'>Mais puisqu'elle chante, savez-vous ce qu'il en faudrait faire ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='42'>
+	<s id='1'>Et quoi ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='43'>
+	<s id='1'>La mettre à l'Opéra.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='44'>
+	<s id='1'>À l'Opéra ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='45'>
+	<s id='1'>Oui, à l'Opéra ; si elle peut y être reçue, s'entend. </s>
+	<s id='2'>Car la presse y est diablement, depuis quelque temps. </s>
+	<s id='3'>On pourra toujours par faveur la faire recevoir surnuméraire.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='46'>
+	<s id='1'>Si vous vouliez, vous nous rendriez ce bon office.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='47'>
+	<s id='1'>Attendez, que j'examine votre fille. </s>
+	<s id='2'>Dans le fonds, elle n'est pas propre à l'Opéra, elle n'a pas cet air ouvert... </s>
+	<s id='3'>Là... </s>
+	<s id='4'>Cette hardiesse... </s>
+	<s id='5'>Je ne sais même si elle se tirerait bien d'un Duo, et vous savez pourtant que c'est le Duo qui place une fille à l'Opéra.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='48'>
+	<s id='1'>De sorte que...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='49'>
+	<s id='1'>De sorte que, si vous et votre famille n'avez pas de meilleure ressource, vous pouvez à coup sûr épargner les frais du voyage. </s>
+	<s id='2'>Croyez-moi, retournez-vous-en chez vous.</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='50'>
+	<s id='1'>Nous resterions volontiers avec vous, si vous y consentiez.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='51'>
+	<s id='1'>Oh, c'est une autre affaire ; un Solitaire craint d'être trop accompagné. </s>
+</p>
+<stage>Scaramouche se met à pleurer.</stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='52'>
+	<s id='1'>Hé, qu'as-tu donc, mon ami, qu'est-ce qui t'afflige ? </s>
+	<s id='2'>Parle, que veux-tu ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='53'>
+	<s id='1'>Ah, Monsieur, si tous ces bonnes gens qui ont du mérite, qui savent tant de choses, ne savent pas faire fortune à Paris, que ferai-je donc, moi ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='54'>
+	<s id='1'>Comment ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<note type="L">Bagatelle : Chose de peu de prix et peu nécessaire. [FC]</note>
+<p id='55'>
+	<s id='1'>Oui, qu'est-ce que je ferai, moi qui ne suis bon à rien, qui ne fais que de la bagatelle, qui ne sais que la bagatelle, et qui ne suis moi-même qu'une bagatelle.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='56'>
+	<s id='1'>Tu sais la bagatelle ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='57'>
+	<s id='1'>Oui.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='58'>
+	<s id='1'>Tu fais la bagatelle ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='59'>
+	<s id='1'>Hélas oui.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='60'>
+	<s id='1'>Et tu es la bagatelle ? </s>
+	<s id='2'>Ah, mon cher, viens que je t'embrasse ; tu es né pour Paris, tu es né pour une grande fortune ? </s>
+	<s id='3'>Avec une si belle disposition, tu peux aspirer à tout. </s>
+	<s id='4'>La bagatelle ? </s>
+	<s id='5'>Ah ! </s>
+	<s id='6'>Mon ami, si j'avais eu un noble penchant pour la bagatelle, je ne serais pas ici, je serais à Paris dans une fortune éclatante.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='61'>
+	<s id='1'>Quoi ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='62'>
+	<s id='1'>Pars hardiment, pars, vas, tu n'y sera pas plutôt, que tout le monde courra après toi.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='63'>
+	<s id='1'>Mais pourtant...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='64'>
+	<s id='1'>C'est un pays où l'on ne respire que bagatelle, le sérieux y est marchandise de contrebande, et la bagatelle y est si universellement répandue, qu'on peut dire qu'à proprement parler, Paris n'est qu'une grande bagatelle.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='65'>
+	<s id='1'>Ainsi avec beaucoup de bagatelle je puis faire un peu de fortune ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Rafle : se dit aussi au jeu de dés, d'un doublet ou ressemblance des points de deux dez qu'on jette : et rafle absolument, se dit quand tous les trois dés ont les mêmes points. On joue à la Foire des bijoux en trois rafles comptées, à qui aura le plus de points en trois coups où on aura amené un doublet. La rafle d'as ou de deux l'emporte sur ceux qui n'ont que des points. [F]</note>
+<p id='66'>
+	<s id='1'>Telle que tu voudras. </s>
+	<s id='2'>La bagatelle est aujourd'hui la porte des honneurs et des richesses. </s>
+	<s id='3'>L'un a épousé une vieille qui l'a rendu gros Seigneur pour avoir dit une bagatelle de bonne grâce ; celui-ci a donné dans l'oeil à une femme du premier rang pour avoir fait un saut périlleux d'un air robuste ; cet autre possède une Charge de Judicature qui ne lui coûte qu'un petit tour de poignet, dans une rafle de six amenées à propos ; et j'en connais un élevé à de grandes dignités qui n'a qu'une jolie femme pour tout mérite. </s>
+	<s id='4'>Compte en un mot, que je te réponds de ta fortune, et que je t'en prie de m'en mettre de moitié.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='67'>
+	<s id='1'>Volontiers. </s>
+	<s id='2'>Voilà des bagatelles de ma façon.</s>
+</p>
+<stage>On ouvre, et on voit un grand Cabinet illuminé. Il est soutenu par quatre Mores vêtus de gaze d'or. Il y a dans chaque niche, des figures richement vêtues. Les Violons jouent une Chaconne. Quatre Biscayens dansent.</stage>
+</sp>
+<sp who='UN-ESPAGNOL'><speaker>UN ESPAGNOL chante.</speaker>
+	<l id='3'>Il ne faut qu'une bagatelle</l>
+	<l id='4'>Pour être heureux ou malheureux ;</l>
+	<l id='5'>Pour faire un infidèle</l>
+	<l id='6'>De l'Amant le plus amoureux,</l>
+	<l id='7'>Il ne faut qu'une bagatelle.</l>
+<stage>Un autre Espagnol danse seul.</stage>
+</sp>
+<sp who='UN-ESPAGNOL'><speaker>UN ESPAGNOL chante.</speaker>
+	<l id='8'>Pour réduire une belle</l>
+	<l id='9'>À bien payer nos feux ;</l>
+	<l id='10'>Pour troubler la cervelle</l>
+	<l id='11'>Du mari le moins soupçonneux,</l>
+	<l id='12'>Il ne faut qu'une bagatelle.</l>
+</sp>
+<sp who='UNE-ESPAGNOLETTE'><speaker>UNE ESPAGNOLETTE chante.</speaker>
+<note type="L">Espagnolette : Ferrure servant à fermer une fenêtre. Il s'est dit quelquefois pour jeune fille espagnole. [L]</note>
+	<l id='13'>Pour le faire riche ou gueux, </l>
+	<l id='14'>Pour rendre son nom fameux, </l>
+	<l id='15'>Par un croissant de bon modèle, </l>
+	<l id='16'>Il ne faut qu'une bagatelle.</l>
+<stage>Le second Espagnol et l'Espagnolette dansent.</stage>
+</sp>
+<sp who='UNE-ESPAGNOLETTE'><speaker>L'ESPAGNOLETTE chante.</speaker>
+	<l id='17'>Sans un peu de bagatelle</l>
+	<l id='18'>Tout le monde finirait.</l>
+	<l id='19'>Qu'est-ce qu'on dirait ?</l>
+	<l id='20'>Qu'est-ce qu'on ferait ?</l>
+	<l id='21'>On craindrait une ruelle,</l>
+	<l id='22'>On s'ennuierait,</l>
+	<l id='23'>On s'enfuirait,</l>
+	<l id='24'>Rien ne plairait</l>
+	<l id='25'>Sans un peu de bagatelle.</l>
+<stage>Les quatre Biscayens dansent.</stage>
+</sp>
+<sp who='UNE-ESPAGNOLETTE'><speaker>L'ESPAGNOLETTE chante.</speaker>
+	<l id='26'>Qui se marierait ?</l>
+	<l id='27'>Qui nous voudrait ?</l>
+	<l id='28'>Que servirait d'être belle ?</l>
+<note type="L">Morguer : Regarder fixement un prisonnier, afin de le reconnaître. Signifie aussi, braver par des regards fiers, fixes et mesprisants. Les braves tiennent à grande injure qu'on les vienne "Morguer", qu'on les vienne regarder sous le nez. [F]</note>
+	<l id='29'>On nous morguerait ;</l>
+	<l id='30'>On s'en passerait</l>
+	<l id='31'>Sans un peu de bagatelle.</l>
+<stage>Les figures du Cabinet se détachent, et font une danse de postures.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. La Comtesse, Le Chevalier, Arlequin.</head>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE à Arlequin.</speaker>
+<p id='1'>
+	<s id='1'>Oh ça, Monsieur, en deux mots comme en mille, qu'il se mette à la raison, ou je le quitte.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Que veut-elle dire ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='3'>
+	<s id='1'>Oui, oui, je sais comme on se sépare. </s>
+	<s id='2'>À quelque Tribunal que nous plaidions, il y aura plus de la moitié de nos Juges qui seront de jeunes gens, et ces Messieurs-là rendent bonne justice aux femmes qui cherchent à rompre un noeud, auquel ils sont les premiers à donner de furieuses entorses.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Mais, madame, parlez plus intelligiblement. </s>
+	<s id='2'>Je n'entends rien à tout ce galimatias de séparations, de jeunes Juges, d'entorses à la foi conjugale. </s>
+	<s id='3'>Que diantre veut dire tout cela.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='5'>
+	<s id='1'>Quoi, Monsieur, vous ne comprenez pas que Madame a toutes les raisons du monde de se plaindre de Monsieur son Époux, qui la maintient dans une terre d'où il ne veut pas qu'elle parte sans son ordre ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Il est vrai qu'il y a près de huit jours que votre mari vous a laissée ici.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='7'>
+	<s id='1'>Hé bien, monsieur, huit jours ? </s>
+	<s id='2'>Comptez-vous huit jours pour rien ? </s>
+	<s id='3'>Savez-vous ce que c'est pour une jolie femme, d'être huit jours hors de Paris ? </s>
+	<s id='4'>Une femme comme moi hors de Paris, c'est un poisson hors de l'eau. </s>
+	<s id='5'>Entendez-vous, Monsieur, huit jours ? </s>
+	<s id='6'>Si je n'avais trouvé le Chevalier ici, que serais-je devenue ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='8'>
+	<s id='1'>En vérité, Monsieur, une jeune Dame comme Madame la Comtesse, est-elle faite pour demeurer à la campagne ? </s>
+	<s id='2'>Tant d'appas doivent-ils demeurer cachés, ou n'être vus que par des gens qui ne leur rendent pas l'hommage que leur doivent toutes les personnes de bon goût ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Hé, le godelureau ! </s>
+	<s id='2'>Comme il fait le doucereux ! </s>
+	<s id='3'>Depuis que les femmes affectent les airs cavaliers, les jeunes gens ont pris toutes les manières féminines.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='10'>
+	<s id='1'>Mais, Monsieur, vous êtes homme judicieux, mettez la main sur la conscience, que voulez-vous que Madame fasse dans cette maudite Gentilhommière ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Qu'elle commence par vous en bannir ; et vive ensuite comme les autres femmes.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='12'>
+	<s id='1'>Fort bien ! </s>
+	<s id='2'>Vivre comme les autres femmes ! </s>
+	<s id='3'>C'est parler d'or, si cela se pouvait.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>Et pourquoi non ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<note type="L">Justaucorps : Habit d'homme, qui descend jusqu'aux genoux, et qui serre le corps, d'où lui est venu son nom. [FC]</note>
+<p id='14'>
+	<s id='1'>Puis-je, dites-moi, dans une solitude, me levant à midi, être jusqu'à deux heures à ma toilette, parmi mille nuances de justaucorps rouges et bleus qui me réjouiraient la vue ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='15'>
+	<s id='1'>Vraiment, on sait bien que vous ne pourrez pas comme certaines femmes, destiner les différents jours de la semaine aux différentes professions, et donner le Lundi aux gens de Robe, le Mardi aux Abbés, le Mercredi aux Étrangers, et le reste de la semaine au public.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='16'>
+	<s id='1'>Vous voyez donc bien, Monsieur, que Madame a raison, et que vous n'avez rien à répondre ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='17'>
+	<s id='1'>Il est vrai, j'en suis sur la négative.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<note type="L">Coupeur : Joueur au lansquenet. [L]</note>
+<p id='18'>
+	<s id='1'>Hé, que répondrait-il ? </s>
+	<s id='2'>Me fera-t-il comprendre que si je donne à jouer dans un vieux château qui menace ruine, et qui est à vingt lieues de Paris, j'aurai tous les jours vingt coupeurs aux quatre pistoles ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='19'>
+	<s id='1'>Difficilement les rondes d'un seul hiver vous vaudraient ici de quoi faire la fortune d'un joli homme.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='20'>
+	<s id='1'>En vérité, madame la Comtesse raisonne comme un charme, et je vois bien que Monsieur ne saurait résister à la force de son raisonnement.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Hé le petit butor ! </s>
+	<s id='2'>Il ne sait pas que la raison n'a rien à faire dans le raisonnement des femmes.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='22'>
+	<s id='1'>Dans un maudit pays comme celui-ci, a-t-on le moindre plaisir ? </s>
+	<s id='2'>Et celui de la promenade, tout innocent qu'il est, ne vous est-il pas interdit ?</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<note type="L">Mémoires : Relation de choses écrites simplement. Diverses choses qu'on fait, ou qu'on donne pour servir de matiere à quelque histoire, ou à quelque autre ouvrage de cette nature. [R]</note>
+<p id='23'>
+	<s id='1'>Ho pour cela, Madame, on vous a donné de mauvais Mémoires, nous avons ici aux environs les plus belles promenades du monde.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='24'>
+	<s id='1'>Hé fi ! </s>
+	<s id='2'>De quoi me parlez-vous ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='25'>
+	<s id='1'>Ne voyez-vous pas que Madame ne veut se promener que dans les rues de Paris ?</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='26'>
+	<s id='1'>Non. </s>
+	<s id='2'>Mais, vous n'avez ici ni Cours, ni Tuileries, ni Vincennes.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='27'>
+	<s id='1'>Il est vrai. </s>
+	<s id='2'>Mais nous avons des promenades qui ne valent guère moins.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Vallée de la misère : c'était autrefois à Paris le Marché à la volaille et au gibier. Il a été transféré sur le quai des Augustins du grand Couvent, et on l'appelle la nouvelle Vallée. [T]</note>
+<note type="L">Quinze : Terme du jeu de paume. Le premier des quatre coups dont un jeu est composé. Nous avons gagné le premier quinze. Nous sommes quinze à trente. Fig. Il pourrait donner quinze et bisque à son adversaire, il lui est fort supérieur. [L]</note>
+<p id='28'>
+	<s id='1'>Madame a raison. </s>
+	<s id='2'>Dans nos promenades on n'a pas le plaisir de contrôler. </s>
+	<s id='3'>Peut-on dire par exemple, voilà une telle qui est dans le carrosse de son amant. </s>
+	<s id='4'>Cette maigre échine qui est dans le fond leur sert de commode. </s>
+	<s id='5'>Mon Dieu, que Célimène est mal coiffée aujourd'hui ! </s>
+	<s id='6'>Ne se corrigera-t-elle jamais de mettre si peu de rouge sur deux doigts de blanc ? </s>
+	<s id='7'>Votre grand Président ne veut-il pas avoir un autre équipage ? </s>
+	<s id='8'>Je crois qu'il a acheté le sien à la vallée de la Misère ! </s>
+	<s id='9'>Non, il n'y a point de Carrosse de remise qui ne donnât quinze et bisque à ce vilain fiacre-là.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='29'>
+	<s id='1'>Ce sont toutes ces gentillesses qui font l'âme de la conversation du Cours et des Tuileries.</s>
+</p>
+</sp>
+<sp who='LE-CHEVALIER'><speaker>LE CHEVALIER.</speaker>
+<p id='30'>
+	<s id='1'>Madame dit cela d'un air malicieux qui enchante.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='31'>
+	<s id='1'>Oh point, on a tous les torts du monde de dire que je suis médisante, je suis la meilleure pâte de femme qui fut jamais.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='32'>
+	<s id='1'>La bonne pâte de femme ! </s>
+	<s id='2'>On n'y a pas épargné la farine et le levain.</s>
+</p>
+</sp>
+<sp who='LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='33'>
+	<s id='1'>Enfin, monsieur, pour trancher court, je suis venue vous prier d'écrire à mon mari, que s'il ne me retire au plutôt d'ici, je m'en retirerai moi-même ; qu'il prenne ses mesures là-dessus. </s>
+	<s id='2'>Allons Chevalier, allons.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='34'>
+	<s id='1'>L'extravagante créature ! </s>
+	<s id='2'>Mais quel est cet homme-là ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Octave, Arlequin.</head>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur, vous êtes un homme illustre, au-dedans, je suis un homme illustre au dehors. </s>
+	<s id='2'>Vous faites le Sage quand il vous plaît, et je ne fais le fou que quand je veux. </s>
+	<s id='3'>Vous vous cachez, et l'on vous suit. </s>
+	<s id='4'>Je m'expose en public, et l'on ne me suit pas autant que je voudrais : enfin, Monsieur, vous êtes philosophe, et je suis comédien ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Ah, Comédien ? </s>
+	<s id='2'>Je ne m'étonne plus s'il est gaillard. </s>
+	<s id='3'>Hé, bien Monsieur, que cherche ici votre personne Comique ?</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='3'>
+	<s id='1'>Hé, Monsieur, dès que je suis comédien, je cherche de l'argent, du plaisir et de la gloire.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Il n'y a guère ici de tout cela.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='5'>
+	<s id='1'>Monsieur, nous ne faisons plus rien dans les grandes Villes. </s>
+	<s id='2'>Le public ne court plus après nous, nous avons songé dans notre Compagnie que la nouveauté de voir des Comédiens dans un désert nous ferait suivre par une multitude qui ne s'étonnait pas de nous voir bien solitaires dans une Ville.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Mais savez-vous que cela est bien pensé ? </s>
+	<s id='2'>Moi qui ai souvent vu avec chagrin, la Comédie bien solitaire à Paris, je sens que je serais ravi de la voir bien fréquentée dans un désert.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='7'>
+	<s id='1'>Cela ne peut pas manquer pour peu que vous soyez de la partie. </s>
+	<s id='2'>Tous les grands hommes sont d'excellents Comédiens, et on ne se distingue qu'à mesure qu'on joue mieux son personnage.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Hé comment ! </s>
+	<s id='2'>Ceci est rare. </s>
+	<s id='3'>On disait que les gens de plaisir n'avaient bien de l'esprit que le verre à la main, et celui-ci raisonne de sang froid.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='9'>
+	<s id='1'>Monsieur, je m'ouvre à vous. </s>
+	<s id='2'>Les gens de ma profession ont besoin d'un peu de solitude pour se connaître. </s>
+	<s id='3'>Nous faisons si souvent les Princes et les Rois, que nous sommes comme ces menteurs de profession, qui à force d'en imposer, se trompe eux-mêmes, et prennent leurs impostures pour des vérités.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Vous êtes riche dans vos comparaisons.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='11'>
+	<s id='1'>Je vous avoue donc, Monsieur, qu'en mon particulier, je ne saurais vivre dans une grande Ville sans y faire le Prince.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Ah, ah, ceci est plaisant. </s>
+	<s id='2'>Le Prince de Colombine serait-il Prince de sang de ce souverain-ci. </s>
+	<s id='3'>Mais elle vient.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Octave, Colombine, Arlequin.</head>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='1'>
+	<s id='1'>Ciel ! </s>
+	<s id='2'>Qu'est-ce que je vois ? </s>
+	<s id='3'>Colombine en ce désert ! </s>
+	<s id='4'>Elle me surprend après que je me suis découvert.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Bonjour, la belle affligée. </s>
+	<s id='2'>Venez, levez les yeux. </s>
+	<s id='3'>Je vous présente ici un Prince qui pourra vous donner des nouvelles de celui que vous cherchez.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE, s'évanouit.</speaker>
+<p id='3'>
+	<s id='1'>Ô Dieux ! </s>
+	<s id='2'>Octave...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Elle s'évanouit ? </s>
+	<s id='2'>Quoi entre mes bras ? </s>
+	<s id='3'>Adieu ma Philosophie.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='5'>
+	<s id='1'>Tout mon amour se rallume.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Que veut dire ceci ? </s>
+	<s id='2'>C'est tout de bon, je crois. </s>
+	<s id='3'>Allons donc, réveillez-vous, voici votre Prince. </s>
+	<s id='4'>Il n'y a pas de meilleur antidote que le retour d'un Amant, pour ranimer une Belle évanouie.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='7'>
+	<s id='1'>Souffrez, Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Je ne souffre rien.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='9'>
+	<s id='1'>Mais, encore...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Mais retirez-vous de là, vous dis-je.</s>
+</p>
+<stage>Octave veut secourir Colombine, Arlequin l'en empêche et emmène Colombine. Octave reste fort embarrassé. Le Docteur vient, qui le reconnaît pour son fils. Octave feint de ne pas le reconnaître et s'échappe. Le Docteur le suit. Après cette Scène, qui est toute en Italien, Arlequin revient sur le Théâtre.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Arlequin, Pierrot.</head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, à part.</speaker>
+<p id='1'>
+	<s id='1'>Notre évanouie est enfin revenue, et je comprends bien qu'elle pourrait faire le bonheur de quelqu'un qui vaudrait mieux que son Prince comique. </s>
+	<s id='2'>Mais à qui en veut Pierrot ?</s>
+</p>
+</sp>
+<sp who='PIERROT'><speaker>PIERROT.</speaker>
+<p id='2'>
+	<s id='1'>Oh dame, en voilà bien d'un autre ! </s>
+	<s id='2'>Le Coche de Paris veut vous voir, le ferai-je entrer ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Le Coche de Paris ?</s>
+</p>
+</sp>
+<sp who='PIERROT'><speaker>PIERROT.</speaker>
+<p id='4'>
+	<s id='1'>Oui le Coche de Paris ? </s>
+	<s id='2'>C'est-à-dire, non pas celui de Paris, mais qui va à Paris, et ce n'est pas le Coche qui prétend avoir l'honneur de vous parler, ce sont les gens qui sont dedans ? </s>
+	<s id='3'>Je m'entends bien, une fois.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>C'est fort bien fait. </s>
+	<s id='2'>Mais quelles gens sont-ce.</s>
+</p>
+</sp>
+<sp who='PIERROT'><speaker>PIERROT.</speaker>
+<p id='6'>
+	<s id='1'>Oh, il y en a de toutes les façons, des hommes, des femmes.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>Des femmes ?</s>
+</p>
+</sp>
+<sp who='PIERROT'><speaker>PIERROT.</speaker>
+<note type="L">Saint-Nitouche : Usité seulement dans cette locution familière, sainte nitouche, personne hypocrite, doucereuse, affectant la simplicité et l'innocence. [L]</note>
+<p id='8'>
+	<s id='1'>Oui, des femmes. </s>
+	<s id='2'>Il y en a de jeunes et de vieilles. </s>
+	<s id='3'>Il y en a de pimpantes comme des poupées du Palais, et d'autres qui ont l'air sainte Nitouche. </s>
+	<s id='4'>Il y a encore des abbés.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Des Abbés ?</s>
+</p>
+</sp>
+<sp who='PIERROT'><speaker>PIERROT.</speaker>
+<note type="L">Endéver : Avoir grand dépit de quelque chose. [L]</note>
+<note type="L">Mouche : Petit morceau de taffetas noir, de la grandeur d'environ l'aile d'une mouche, que les dames se mettent sur le visage. Une boîte à mouches. [L]</note>
+<p id='10'>
+	<s id='1'>Oh, pour ceux-là, ils m'ont bien fait rire. </s>
+	<s id='2'>Il y avait un petit rougeau qui se plaignait de vapeurs, et un autre endévait d'avoir perdu sa boîte à mouches.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Et je demeurerais ici ! </s>
+	<s id='2'>Non, dussé-je... </s>
+	<s id='3'>Mais, non, fais les entrer ; si la sagesse me faisait suivre, sans doute l'impertinence me fera fuir. </s>
+	<s id='4'>Reprenons nos airs d'homme du monde, faisons le fat et le ridicule.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Vieillard, sa Femme, Arlequin.</head>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='1'>
+	<s id='1'>Hé bien, Monsieur, n'est-ce pas dommage, belle comme la voilà, à vingt ans, ne pouvoir avoir d'enfants ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Et de quel tempérament êtes-vous la belle ? </s>
+	<s id='2'>Mélancolique, bilieuse ? </s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMME, riant.</speaker>
+<p id='3'>
+	<s id='1'>Mélancolique moi, mélancolique ? </s>
+	<s id='2'>Ah, ah !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Quel tempérament donc ?</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMME.</speaker>
+<p id='5'>
+	<s id='1'>Je n'en sais rien. </s>
+	<s id='2'>Je danse, je chante, je bois le petit coup, je prends du tabac, et si j'avais un mari qui me fournit de l'argent et du plaisir autant que j'en voudrais, je ne m'inquiéterais jamais de rien.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN au Vieillard.</speaker>
+<p id='6'>
+	<s id='1'>Vous êtes son père, apparemment ?</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='7'>
+	<s id='1'>Non, Monsieur. </s>
+	<s id='2'>Je n'ai l'honneur d'être père de personne. </s>
+	<s id='3'>Je suis son mari.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Son mari ? </s>
+	<s id='2'>Et quel âge, de grâce ?</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='9'>
+	<s id='1'>Soixante et dix-sept, au dix-neuf avril.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Soixante et dix-sept !</s>
+</p>	
+<stage>À la femme.</stage>
+<p id='11'>
+	<s id='1'>Et comment vous accommodez-vous de cela ?</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='12'>
+	<s id='1'>Moi ? </s>
+	<s id='2'>Le mieux du monde. </s>
+	<s id='3'>Mon petit mari a vingt mille livres de rente, il m'en a déjà donné la moitié, et l'usufruit du tout si j'ai un enfant. </s>
+	<s id='4'>Oh, je n'oublie rien pour empêcher notre bien de passer en des mains étrangères.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='13'>
+	<s id='1'>Quel malheur si je laissais mon bien à des cousins au huitième degré.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Ces cousins-là vous sont peut-être plus proches que les enfants de votre femme.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='15'>
+	<s id='1'>Ils ont beau rire, nos cousins, ils ont beau rire ; dans neuf mois je leur livre un héritier.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>C'est parler bien positivement.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='17'>
+	<s id='1'>Oh, je sais la recette présentement.</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='18'>
+	<s id='1'>On nous a appris le remède. </s>
+	<s id='2'>Si nous l'avions su d'abord, vraiment, vraiment !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>Vous avez été jusqu'à soixante dix-sept ans, sans trouver le remède ! </s>
+	<s id='2'>Ma foi le mal est incurable. </s>
+	<s id='3'>Mais peut-on savoir quel est ce remède ?</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='20'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Il n'y a point de femme qui ne s'en serve.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Pour cette cure-là, certaines femmes emploient des remèdes qui ne sont guère approuvés des maris.</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='22'>
+	<s id='1'>Oh, c'est un remède innocent, celui-là.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='23'>
+	<s id='1'>Innocentissime. </s>
+	<s id='2'>Les eaux de Forges...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>J'y suis.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='25'>
+	<s id='1'>Croyez-vous bien qu'un Gentilhomme de mes voisins n'avait pu avoir d'enfants en vingt-quatre ans de mariage ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>Hé bien ?</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='27'>
+	<s id='1'>L'eau de Forges lui en a donné.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Entendons-nous. </s>
+	<s id='2'>Sa femme a bu les Eaux de Forges ?</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='29'>
+	<s id='1'>Oui.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='30'>
+	<s id='1'>Chez elle ?</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='31'>
+	<s id='1'>Vraiment, cela n'opère que sur les lieux.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='32'>
+	<s id='1'>Son mari y fut avec elle ?</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='33'>
+	<s id='1'>Non. </s>
+	<s id='2'>Il lui donna seulement son valet de Chambre pour l'accompagner.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='34'>
+	<s id='1'>Fort bien. </s>
+	<s id='2'>Remède innocentissime. </s>
+	<s id='3'>Allez, bon homme, retournez-vous-en chez vous si vous m'en croyez, et laissez-là des Eaux qui ne sont propres qu'à remettre la poitrine des Actrices de l'Opéra, et à pallier l'hydropisie de quelques filles de mauvais aloi.</s>
+</p>
+</sp>
+<sp who='LA-FEMME'><speaker>LA FEMMME.</speaker>
+<p id='35'>
+	<s id='1'>Mais, Monsieur...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='36'>
+	<s id='1'>Adieu. </s>
+	<s id='2'>Dénichez.</s>
+</p>
+</sp>
+<sp who='LE-VIEILLARD'><speaker>LE VIEILLARD.</speaker>
+<p id='37'>
+	<s id='1'>Cependant...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='38'>
+	<s id='1'>Que de raisons ! </s>
+	<s id='2'>Allons, à d'autres. </s>
+	<s id='3'>Qu'est-ce ces figures-là ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Deux Gasconnes, dont il y en a une chantant, Arlequin.</head>
+<sp who='GASCONNE'><speaker>GASCONNE chantante.</speaker>
+	<l id='32'>Bargé se vou m'as un pau,</l>
+	<l id='33'>Plaigni m'un pau, peccaire,</l>
+	<l id='34'>Jo ne souffrissi tant de mau,</l>
+	<l id='35'>Qu'jo ne sabi que faire.</l>
+	<l id='36'>Se sers à ma plaço, jamais,</l>
+	<l id='37'>Bargé Cossi vous plaignerai.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>En voilà d'un autre ! </s>
+	<s id='2'>Voyons où cela ira.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='2'>
+	<s id='1'>Ah Mossu caigno de vous vayre, votre servente de bon cor.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Diable ! </s>
+	<s id='2'>Elle est servante des bons corps ! </s>
+	<s id='3'>Mademoiselle, j'en suis fort aise, mon corps se porte bien à votre service. </s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='4'>
+	<s id='1'>Ah, Mossu, vous souits plats aubligado, me fasets trop d'annou.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, à part.</speaker>
+<p id='5'>
+	<s id='1'>Elle est fatiguée de trop d'honneur ? </s>
+	<s id='2'>Que Diable de gens sont-ce ? </s>
+	<s id='3'>Vraiment Mademoiselle, on sait bien que les gens d'au-delà de la Loire se fatiguent aisément de trop d'honneur, mais je n'en croyais pas les femmes tout à fait si rebutées.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='6'>
+	<s id='1'>Mossu, à cos quiconque ravis, que d'entendre tout ce que disons de vous, peccaire. </s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, la contrefaisant.</speaker>
+<p id='7'>
+	<s id='1'>Dison de bous, peccaire. </s>
+	<s id='2'>De moi on dit que je suis un pécheur ? </s>
+	<s id='3'>C'est selon, il y a telle femme pour qui je ne voudrais pas avoir fait la moindre petite faute. </s>
+	<s id='4'>Mais pour des minois Gascons colle le vôtre, on ne me trouvera jamais Normand.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='8'>
+	<s id='1'>Ah, peccaire ! </s>
+	<s id='2'>Que bons raisounats plat !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Ho oui, fort bien, je raisonne au plat.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='10'>
+	<s id='1'>Ah, Mossu, non disi pas accot.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Je ne paie pas mon écot ? </s>
+	<s id='2'>Qui vous a dit cela.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='12'>
+	<s id='1'>Cousino cresi que se truffo.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>Comment des Truffes ? </s>
+	<s id='2'>Est-ce que vous m'en apportez ? </s>
+	<s id='3'>Où sont vos Truffes ? </s>
+	<s id='4'>Cousine ? </s>
+	<s id='5'>Allons donc. </s>
+	<s id='6'>Mais vous reculez ? </s>
+	<s id='7'>Depuis quand les femmes de votre pays ont-elles appris à reculer ?</s>
+</p>
+</sp>
+<sp who='GASCONNE'><speaker>PREMIÈRE GASCONNE, chante.</speaker>
+	<l id='38'>Aro que souits grandetto,</l>
+	<l id='39'>Jo ne reculi plus,</l>
+	<l id='40'>Ai conneseut l'abus,</l>
+	<l id='41'>Cal être doucetto,</l>
+	<l id='42'>Et per poudets charma</l>
+	<l id='43'>Me cal aima.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Diable ! </s>
+	<s id='2'>C'est chanter cela ! </s>
+	<s id='3'>Et voilà une chanson que je trouverais fort jolie, si je l'entendais.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='15'>
+	<s id='1'>Es plats jantio, Mossu, quello cançonetto. </s>
+	<s id='2'>Ma fasés semblant de ne nou pas entendre.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>Ah, Mademoiselle, les semblants sont plus de votre pays que du mien. </s>
+	<s id='2'>Ce n'est pas qu'autrefois j'ai su un couplet de chanson, qui disait :</s>
+</p>
+	<l id='44'>Quand io eri pichotto,</l>
+	<l id='45'>Boulios pas far l'amour ;</l>
+	<l id='46'>Dari que sois grandotto,</l>
+	<l id='47'>Boudrias lo fa toujours. Flon flon, etc.</l>
+<p id='17'>
+	<s id='1'>Mais qu'allez-vous chercher toutes deux à Paris.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='18'>
+	<s id='1'>Fortuno, Mossu, fortuno. </s>
+	<s id='2'>Dison que les gens de nouste pays, la fason tant vite.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>Mais, fortune pour une femme, c'est un mari.</s>
+</p>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='20'>
+	<s id='1'>Ah, Mossu, bous venez tout d'un saut à l'essentiel. </s>
+	<s id='2'>Hé donc ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Hé donc. </s>
+	<s id='2'>C'est bien dit. </s>
+	<s id='3'>Mais apprenez en votre patois, ce que vous trouverez où vous allez.</s>
+</p>
+<stage>Il chante sur un Vaudeville.</stage>
+	<l id='48'>Fillettes qu'anas à Paris</l>
+	<l id='49'>Per cercas amants et maris ;</l>
+	<l id='50'>Troubates prou frit gaites, abé :</l>
+	<l id='51'>Ma guère d'espousaires,</l>
+	<l id='52'>Bou m'entendez bé.</l>
+</sp>
+<sp who='SECONDE GASCONNE'><speaker>SECONDE GASCONNE.</speaker>
+<p id='22'>
+	<s id='1'>Anen, Cousino, anen, se truffo ma de nautres.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Monsieur de Colafon, Maître à danser, Arlequin.</head>
+<stage>Monsieur de Colaphon a une jambe de bois, deux Fleurets sur les épaules, un Livre de Musique, et un Violon.</stage>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='1'>
+	<s id='1'>Serviteur très humble, Monsieur.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Bonjour, bonjour.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='3'>
+	<s id='1'>Avez-vous, Monsieur, besoin d'une petite leçon ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Avec tout cet équipage, vous m'avez l'air de montrer le plus court chemin de l'Hôpital Général.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='5'>
+	<s id='1'>Non, Monsieur, ce n'est pas cela.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Mais que voulez-vous, et qui êtes-vous ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='7'>
+	<s id='1'>Hélas, Monsieur, sans exagérer, je puis me vanter, d'avoir couru la fortune au galop ; mais à présent...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>À présent je vous défie d'aller au pas.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='9'>
+	<s id='1'>Si vous connaissiez mon talent, mon habileté, ma souplesse...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Et quelle est votre profession ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='11'>
+	<s id='1'>J'étais Maître à Danser à l'Opéra de Lyon, mais comme l'Opéra est tombé...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Il vous est tombé sur le corps, et vous voilà tout estropié ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='13'>
+	<s id='1'>Comme l'Opéra est tombé, j'ai trouvé à propos de quitter la Ville. </s>
+	<s id='2'>Je n'avais pas beaucoup d'Écoliers, car mon fort est dans la Danse haute, je n'ai pas la patience, de montrer la danse basse.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Hé, qui diable aurait la patience d'apprendre de vous ? </s>
+	<s id='2'>On disait bien que la danse était mal à cheval, mais je ne la croyais pas si mal à pied.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='15'>
+	<s id='1'>Oh, monsieur, j'ai renoncé à la danse.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>C'est bien fait.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='17'>
+	<s id='1'>Je me suis jeté dans le Fleuret...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>Tant pis, diable, tant pis !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='19'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Je suis le premier homme du monde, pour escrimer. </s>
+	<s id='3'>C'est moi qui ai eu l'honneur de mettre les armes à la main aux trois quarts de la petite Gendarmerie de la rue Au-fer, et de la rue Saint-Denis.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='20'>
+	<s id='1'>Tudieu ! </s>
+	<s id='2'>Quels écoliers !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-COLAFON'><speaker>MONSIEUR DE COLAFON.</speaker>
+<p id='21'>
+	<s id='1'>Vous allez voir ce que je sais faire. </s>
+	<s id='2'>Allons, faites assaut contre moi.</s>
+</p>
+<stage>Le Maître à danser présente un Fleuret à Arlequin qui le refuse d'abord, et le prend enfin. Après avoir escrimé quelques moments, le Maître à danser sort un pistolet, et fait rendre la bourse à Arlequin, et s'en va en disant. Voilà une de mes bottes franches.</stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='22'>
+	<s id='1'>Au voleur, au voleur ? </s>
+	<s id='2'>Mais voici peut-être quelqu'un de ses camarades. </s>
+	<s id='3'>Taisons-nous, de peur qu'il ne nous en coûte la vie.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Arlequin, Madame de l'Architrave. </head>
+<stage>Madame de l'Architrave accompagnée de plusieurs maçons avec leurs outils, salue Arlequin.</stage>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>Hé, bien Madame, Qu'est-ce ? </s>
+	<s id='2'>Qu'y a-t-il ? </s>
+	<s id='3'>Quoi plus ? </s>
+	<s id='4'>De quoi est-il question ? </s>
+	<s id='5'>Que demandez-vous ? </s>
+	<s id='6'>Et que veulent tous ces visages de plâtre ? </s>
+	<s id='7'>Venez-vous me montrer quelque botte franche ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<note type="L">Fabrication : Le fabricant est un industriel qui a une fabrique et y confectionne certains produits. Le fabricateur n'est point un industriel, n'a point de fabrique et se dit de celui qui fait quelque oeuvre. [L]</note>
+<p id='2'>
+	<s id='1'>Monsieur, je suis une fabricatrice de niches humaines, un antidote contre les injures du temps, un répertoire de la commodité des saisons, un alambic des aises de la vie ; Architecte à votre service, commandant pour l'honneur de vos commandements, une escouade de Limousins.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Hé bien, Madame, du répertoire, de l'alambic, et de l'escouade Limousine, de quoi est-il question ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='4'>
+	<s id='1'>D'une petite affaire de rien touchant notre métier ; de bâtir une Ville.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>Une Ville ? </s>
+	<s id='2'>Il y en a déjà que trop. </s>
+	<s id='3'>Quand les hommes logeaient dans les Bois, ils étaient humains, et ne se mangeaient pas les uns les autres. </s>
+	<s id='4'>Le séjour des villes les a gâtées, les a rendus féroces, et plus ours et plus tigres que les ours et les tigres qu'ils ont laissés dans les forêts.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='6'>
+	<s id='1'>Oh, cela est vrai ; et cependant nombre de gens qui veulent profiter de votre Philosophie, viendront s'établir ici, et vivre avec vous sous vos lois.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>Une ville ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<note type="L">Grisette : femme ou fille jeune vêtue de gris. On le dit par mépris de toutes celles qui sont de basse condition, de quelque étoffe qu'elles soient vêtues. Des gens de qualité s'amusent souvent à frequenter des grisettes. [F]</note>
+<p id='8'>
+	<s id='1'>Sans doute, une Ville pour les Mécontents ; elle sera peuplée dans un instant. </s>
+	<s id='2'>Vous aurez d'abord tous ces importants d'office, qui se plaignent éternellement que la Cour, qui ne les connaît pas, ne fait rien pour eux. </s>
+	<s id='3'>Ces mères Coquettes désespérées du mauvais goût des hommes, qui les quittent pour leurs filles. </s>
+	<s id='4'>Ces Grisettes de conséquence, qui croient que les privautés d'un Duc ou d'un Marquis, leur ont acquis des droits incontestables sur le Carrosse et le nombre de Laquais. </s>
+	<s id='5'>Ces gens de lettres pestant éternellement contre l'injustice de la fortune, et la dureté du siècle, et surtout ce nombre presque infini d'Auteurs altérés, dont tous les théâtres regorgent.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Voilà une Architecte qui a du bon. </s>
+	<s id='2'>Vous êtes de belle humeur, Madame ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<note type="L">Borgne : se dit figurément d'un lieu obscur et mal éclairé. [T]</note>
+<p id='10'>
+	<s id='1'>Pour vous servir, Monsieur. </s>
+	<s id='2'>L'air joyeux, est la première partie d'un Architecte. </s>
+	<s id='3'>Si nos bâtiments ne sont riants, je n'en donnerais pas une nèfle. </s>
+	<s id='4'>La joie, la joie, partout ? </s>
+	<s id='5'>Il faut de l'air dans les maisons, la vue libre, l'abord aisé, l'aspect gracieux, les avenues faciles, les faux fuyants commodes, et les sorties borgnes et à discrétion.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='11'>
+	<s id='1'>Voici une femme rare ! </s>
+	<s id='2'>Vous êtes donc bien employée, Madame.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='12'>
+	<s id='1'>Oui ! </s>
+	<s id='2'>Mais je n'aime à travailler que pour de jeunes veuves, et pour des gens d'affaires ; ce sont là les gens de bon goût, il faut primer avec eux. </s>
+	<s id='3'>Ils ont plus d'invention et de goût pour placer une chaise percée, que les autres pour arranger un cabinet.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>Les Abbés ne sont-ils pas de ce nombre ? </s>
+	<s id='2'>Vous les oubliez ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='14'>
+	<s id='1'>Oh point, ce sont des goûts différents. </s>
+	<s id='2'>Les Abbés appuient sur la cuisine, sur la cave, et les fausses portes des ruelles.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='15'>
+	<s id='1'>Vous avez raison. </s>
+	<s id='2'>Diable ! </s>
+	<s id='3'>Cette femme l'entend ! </s>
+	<s id='4'>Est-ce vous qui avez inventé de mettre toutes les fenêtres en portes, surtout du côté des Jardins ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='16'>
+	<s id='1'>Je n'ai pas trouvé cette invention, mais je l'ai perfectionnée ? </s>
+	<s id='2'>Vous allez voir ici de quoi je suis capable.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='17'>
+	<s id='1'>Je vois bien qu'il faut s'y résoudre, il faut bien loger tant de gens qui viennent ici. </s>
+	<s id='2'>Car de quoi est-il question ? </s>
+	<s id='3'>Je vous avertis par avance que je veux une ville, qui ne ressemble en rien à Paris, où l'on ne paye point de Boues ni de Lanternes, et dont les rues ne servent que pour les chevaux, les mulets, les crocheteurs, et les autres bêtes de voiture.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='18'>
+	<s id='1'>Je suis votre fait. </s>
+	<s id='2'>Voici comme je m'y prendrai. </s>
+	<s id='3'>Je ferai qu'il y aura partout des Balcons publics qui règneront sans interruption de maison en maison, et qui feront un saut par-dessus les rues qu'ils traversent ; les lumières qui éclairent les chambres éclaireront les Balcons, toutes les fenêtres seront des portes pour la commodité du public, et après cela ce sera la faute des particuliers s'ils ne se rendent pas visite.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>Oui, mais cette commodité me paraît trop commode. </s>
+	<s id='2'>L'occasion fait le larron. </s>
+	<s id='3'>Ces Balcons et ces fenêtres de communication sont cause que l'on communique plus qu'il ne faut. </s>
+	<s id='4'>Tenez, depuis que vous avez inventé à Paris et à la Campagne, ces larges gouttières en forme de Corridor autour des mansardes, les jolies femmes ne logent plus qu'au grenier, et les hommes comme des chats passent la nuit sur les gouttières.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='20'>
+	<s id='1'>Oh, Monsieur, c'est un abus que de s'abuser sur cela, les chats suivront toujours les chattes, et les femmes trouveront toujours des matous qui les suivront.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Je pense qu'elle a raison, c'est un mal sans remède. </s>
+	<s id='2'>Mais revenons à notre Ville.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='22'>
+	<s id='1'>Nous pourrons fort bien la bâtir sue cette Rivière qui est ici près : cela sera fort commode.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='23'>
+	<s id='1'>Peste ! </s>
+	<s id='2'>Gardez-vous en bien. </s>
+	<s id='3'>Une rivière ? </s>
+	<s id='4'>Et nous y verrions dans rien établir des Moulins de Javelles, des Charentons, des Ports à l'Anglais, des îles... </s>
+	<s id='5'>Enfin je ne veux point de rivière.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='24'>
+	<s id='1'>Soit, soit ; je suis accommodante. </s>
+	<s id='2'>Il faudra donc la bâtir ici, et ce grand espace nous servira pour faire un beau jardin public, précédé d'une grande avenue d'arbres.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='25'>
+	<s id='1'>Hé oui, oui, un Jardin ! </s>
+	<s id='2'>Voilà-t-il pas Paris tout revenu ? </s>
+	<s id='3'>Je ne veux ni cours ni Tuileries, entendez-vous, parce que je veux bannir de notre Ville la coquetterie et la médisance.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='26'>
+	<s id='1'>J'ai tout prévu, je m'en vais commander mon Escouade de placer mon monde dans les postes convenables.</s>
+</p>
+<stage>Madame de l'Architrave se retire, et en même temps tous les maçons qui l'accompagnaient bâtissent en dansant, un magnifique Palais.</stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='27'>
+	<s id='1'>Diantre ! </s>
+	<s id='2'>C'est bâtir bien gaiement ! </s>
+	<s id='3'>Mais pour qui destinez-vous cette habitation superbe ?</s>
+</p>
+</sp>
+<sp who='UN-MAÇON'><speaker>UN MAÇON.</speaker>
+<p id='28'>
+	<s id='1'>Superbe, Monsieur. </s>
+	<s id='2'>Bon ! </s>
+	<s id='3'>C'est la maison de campagne d'une fille de l'Opéra. </s>
+	<s id='4'>Ce n'est rien que cela, si vous voyez comme elle est meublée !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='29'>
+	<s id='1'>Est-ce que vos maisons se meublent à mesure qu'on les bâtit ?</s>
+</p>
+</sp>
+<sp who='UN-MAÇON'><speaker>LE MAÇON.</speaker>
+<note type="L">Opératrice : Ce mot désigne ici très précisément une chanteuse de l'Opéra, d'après ce que laisse entendre les phrases qui précèdent et qui suivent. </note>
+<p id='30'>
+	<s id='1'>Elles sont faites, meublées, et occupées tout à la fois. </s>
+	<s id='2'>Tenez, voilà l'Opératrice en question, sans doute elle veut répéter quelque chose.</s>
+</p>
+</sp>
+<sp who='LA-CHANTEUSE'><speaker>LA CHANTEUSE sort du Palais, avance sur le Théâtre, et chante.</speaker>
+	<l id='53'>Miei spirti amorosi,</l>
+	<l id='54'>Brillatem'in sen :</l>
+	<l id='55'>Amor vuol ch'io posi</l>
+	<l id='56'>In braccio al mio ben.</l>
+	<l id='57'>Miei spirti amorosi,</l>
+	<l id='58'>Brillatem'in sen.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Céladon : Vert pâle : tafetas, ruban céladon. L'Astrée d'Urfé a enrichi la langue de ce mot, au figuré. On dit, d'un homme à beaux sentiments, en matière de galanterie, que c'est un céladon. [FC]</note>
+<note type="C">Cyrus : a toujours été destiné à devenir le sujet d'un roman. Xénophon a commencé, et malheureusement Ramsay a fini. Enfin, pour faire voir quel triste sort attend les héros, Danchet a fait une tragédie de Cyrus.
+Cette tragédie est entièrement ignorée. La Cyropédie de Xénophon est plus connue, parce qu'elle est d'un Grec. Les Voyages de Cyrus le sont beaucoup moins, quoiqu'ils aient été imprimés en anglais et en français, et qu'on y ait prodigué l'érudition. [V]</note>
+<p id='31'>
+	<s id='1'>Mais voilà qui est étonnant ! </s>
+	<s id='2'>Je n'aurais jamais cru une fille d'Opéra si magnifiquement logée.</s>
+</p>
+</sp>
+<sp who='UN-MAÇON'><speaker>LE MAÇON.</speaker>
+<p id='32'>
+	<s id='1'>Il y a quinze jours qu'elle occupait un grenier, et il n'est pas bien décidé si elle ne retournera pas à son premier gîte. </s>
+	<s id='2'>En un mot, si vous voulez voir les fortunes de Théâtre, les voilà. </s>
+	<s id='3'>Un moment les élève, un moment les détruit.</s>
+</p>
+<stage>Tout le Palais se détruit.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Arlequin, Colombine.</head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='59'>Je ne fais pas l'amour, Madame, en jeune sot,</l>
+	<l id='60'>Et ne sais pas longtemps tourner autour du pot.</l>
+	<l id='61'>Je vais d'abord au fait. Je vous aime, ma Reine,</l>
+	<l id='62'>Vos yeux comme un forçat me tiennent à la chaîne ;</l>
+	<l id='63'>Mais sans perdre le temps en fades compliments,</l>
+	<l id='64'>Songez que les déserts sont faits pour les Amants,</l>
+	<l id='65' part='i'>Profitez-en.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='65' part='f'>Jamais d'une si brusque flamme</l>
+	<l id='66'>Le pétulant aveu ne touchera mon âme ;</l>
+	<l id='67'>Mais hélas ! Suis-je encor maîtresse de mon coeur ?</l>
+	<l id='68' part='i'>Vous le savez, Octave...</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='68' part='f'>Oh ma foi, serviteur,</l>
+	<l id='69'>Pour donner là-dedans je sais trop bien l'usage ;</l>
+	<l id='70'>Ma Mignonne, il n'est plus de Novice à votre âge :</l>
+	<l id='71'>À dix-huit ans passés quand on a de l'esprit,</l>
+	<l id='72'>Le changement d'amant réveille l'appétit.</l>
+	<l id='73'>Du lieu d'où vous venez oubliez-vous la mode ?</l>
+	<l id='74'>Voulez-vous des Romans pratiquer la méthode ?</l>
+	<l id='75'>À lorgner dans un bois croyez-vous m'obliger ?</l>
+	<l id='76'>En Céladon moderne allez-vous m'ériger ?</l>
+	<l id='77'>Un héros de Cyrus sans crainte de faiblesse,</l>
+	<l id='78'>Pouvoir impunément enlever sa Maîtresse ;</l>
+	<l id='79'>Avec lui sans façon la belle s'embarquait,</l>
+	<l id='80'>Il ne lui baisait pas le petit bout du doigt.</l>
+	<l id='81'>Ces braves Chevaliers par combats et prouesses.</l>
+	<l id='82'>Envers et contre tous défendaient leurs Princesses ;</l>
+	<l id='83'>Mais tout bien compassé, ces valeureux nigauds</l>
+<note type="L">Custodicos : mot d'origine latine signifiant "les gardiens".</note>
+	<l id='84'>N'étaient de leur honneur que les Custodicos.</l>
+	<l id='85'>Comme ce temps n'est plus, un autre a pris sa place,</l>
+	<l id='86'>Les choses aujourd'hui se font de bonne grâce ;</l>
+	<l id='87'>Et dès qu'en pareil cas l'Amant sait demander,</l>
+	<l id='88'>De son côté la belle est prête d'accorder.</l>
+	<l id='89'>Vous connaissez l'amour, je le connais de même</l>
+	<l id='90'>Nous sommes seuls ici, Madame, et je vous aime.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='91'>L'ai-je bien entendu ? Quelle surprise, ô Dieux ?</l>
+	<l id='92'>Que me proposez-vous ? Ah trop funestes lieux !</l>
+	<l id='93'>À de pareils propos me serais-je attendue ?</l>
+	<l id='94'>Seigneur, rendez le calme à mon âme éperdue.</l>
+	<l id='95'>Voudriez-vous tout de bon... Non c'est pour m'éprouver.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='96'>Madame, en mes panneaux je n'irai pas crever.</l>
+	<l id='97' part='i'>Quelque sot !</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='97' part='f'>Ah, Seigneur, vous êtes Philosophe ?</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='98'>Bon bon ! Nous sommes de la même étoffe ;</l>
+	<l id='99'>Et Philosophe, ou non, Madame, il est écrit,</l>
+	<l id='100'>Que l'on a de l'amour, quand on a de l'esprit,</l>
+	<l id='101'>Cet esprit voit en vous de quoi me satisfaire,</l>
+	<l id='102'>Vos petites façons ont le secret de plaire,</l>
+	<l id='103'>Et le sort me donnant femme et lieux à mon choix</l>
+	<l id='104'>Je crois qu'il ne faut pas que j'en fasse à deux fois.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='105'>Vous ne rougissez pas d'avoir tant de faiblesse,</l>
+	<l id='106'>Vous que l'on voit prêcher une austère sagesse ?</l>
+	<l id='107'>Vous qui vous gendarmez sur les défauts d'autrui ?</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='108'>C'est là le grand talent du sage d'aujourd'hui,</l>
+	<l id='109'>Loup-garou, fier, hargneux, farouche, impraticable,</l>
+	<l id='110'>Sur les moindres défauts toujours inexorable,</l>
+	<l id='111'>Regardant les plaisirs d'un oeil indifférent,</l>
+	<l id='112'>Voilà comme il se montre au vulgaire ignorant.</l>
+	<l id='113'>Mais quand se dérobant aux yeux de tout le monde,</l>
+	<l id='114'>En un réduit rustique il peut mener sa blonde,</l>
+	<l id='115'>Qu'il sait bien au milieu des plaisirs les plus doux,</l>
+	<l id='116'>Apprécier de l'amour les plus exquis ragoûts !</l>
+	<l id='117'>Tout cela ne nuit pas à l'austère sagesse,</l>
+	<l id='118'>Et la vertu ne gît qu'à cacher sa faiblesse,</l>
+	<l id='119'>Ne vous entêtez point d'un chimérique honneur,</l>
+	<l id='120' part='i'>Croyez-moi.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='120' part='f'>Je ne puis en revenir, Seigneur,</l>
+	<l id='121'>Quoi vous, qui détestant tous les mauvais usages ;</l>
+	<l id='122'>Cherchez de la vertu dans ces antres sauvages,</l>
+	<l id='123'>Qui voyez en pitié le reste des humains ;</l>
+	<l id='124'>Osez faire éclater de criminels desseins ?</l>
+	<l id='125'>Mais quand il serait vrai que votre âme enflammée</l>
+	<l id='126'>De mes faibles attraits se sentirait charmée,</l>
+	<l id='127'>Faut-il presser les gens, faut-il brusquer les coeurs ?</l>
+	<l id='128'>Si vous avez pour moi de sincères ardeurs,</l>
+	<l id='129'>D'un air moins violent faites-le moi paraître.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='130'>La mode est aujourd'hui d'aimer en Petit Maître,</l>
+	<l id='131'>C'est le goût général, Madame, et les abbés</l>
+<note type="L">Robin : Terme de dénigrement. Homme de robe. [L]</note>
+<note type="L">Robe : se prend aussi pour La profession des gens de Judicature. Les gens de robe. [Ac 1762]</note>
+	<l id='132'>Même avant les Robins y sont enfin tombés.</l>
+	<l id='133'>Tous nos hommes ont l'art d'attaquer et de prendre,</l>
+	<l id='134'>Mais nos femmes n'ont pas celui de se défendre.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+	<l id='135'>Mais nous voyons de graves Magistrats,</l>
+	<l id='136' part='i'>Des Abbés réservés...</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+	<l id='136' part='f'>Ne vous y fiez pas,</l>
+<note type="L">Verrouil : partie des ferrements et garnitures d'une porte, ce qui sert à la ferme en dedans. [F]</note>
+	<l id='137'>Tel qu'on voit en public faire le bon apôtre,</l>
+	<l id='138'>Sous deux doigts de verrouil, est homme comme un autre.</l>
+	<l id='139'>La différence enfin du rabat au plumet,</l>
+<note type="L">Rabat : Le rabat blanc est porté par la magistrature, le barreau, le parquet et les professeurs de l'université en robe. [L]</note>
+<note type="L">Plumet : Un jeune militaire. [L]</note>
+	<l id='140'>Se réduit à ceci : l'un dit plus qu'il ne fait,</l>
+	<l id='141'>L'autre en ses actions tout rempli de mystère,</l>
+	<l id='142'>Sait chercher son plaisir, en jouir et se taire.</l>
+	<l id='143'>Mais qui vient nous troubler en ce doux entretien ?</l>
+	<l id='144'>Examinons si c'est ou quelque chose, ou rien.</l>
+	<l id='145'>Vous fuyez mes transports, en Amante discrète ?</l>
+	<l id='146'>Allez, j'irai bientôt être leur interprète.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Arlequin, Monsieur de la Cabriole Maître à danser, Monsieur de Geresol Maître à chanter.</head>
+<stage>Les deux Maîtres font plusieurs révérences.</stage>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>Quelle révérence ! </s>
+	<s id='2'>Encore... </s>
+	<s id='3'>Ouf. </s>
+	<s id='4'>Je n'y saurais durer.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='2'>
+	<s id='1'>Je ne sais, Monsieur, si vous nous connaissez.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Non, et je n'en ai même aucune envie.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='4'>
+	<s id='1'>Nous venons vous assurer de nos respects.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='5'>
+	<s id='1'>Nous n'avons pas voulu manquer cette occasion de vous faire la révérence.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>En voilà déjà plus de quinze de faites.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<note type="L">Chaconne : Air de danse très étendu, à trois et quelquefois à quatre temps, qui servait de finale à un ballet ou à un opéra. [L]</note>
+<note type="L">Rigodon : Ancienne danse d'un mouvement vif sur un air à deux temps ; elle se dansait à deux personnes, et faisait décrire des lignes assez compliquées, comme on le voit dans le Rigaudon de la Paix, qui ouvre le recueil des danses de Feuillet. [L]</note>
+<p id='7'>
+	<s id='1'>Vous voyez, Monsieur, dans Monsieur de la Cabriole, les meilleurs pieds, et la plus belle jambe du monde. </s>
+	<s id='2'>C'est le héros des chaconnes et des rigodons.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='8'>
+	<s id='1'>Monsieur de Geresol est de mes amis, il me flatte ; mais il parlerait plus sincèrement, s'il vous disait qu'il est le Lulli de Quatre-vingt-seize.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>À vous la balle, Monsieur.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<note type="L">Coryphée : Chez les Grecs, c'était celui qui était à la tête des choeurs dans les pièces de théâtre. Figurément, celui qui se distingue le plus dans une profession. [FC]</note>
+<p id='10'>
+	<s id='1'>Monsieur de la Cabriole est le Coryphée des Danseurs.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='11'>
+	<s id='1'>Monsieur de Geresol est la fleur, et la crème des musiciens.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Hé bien, monsieur le Coryphée, et vous monsieur la Crème, que voulez-vous ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='13'>
+	<s id='1'>Vous faire une proposition que vous ne pouvez refuser ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='14'>
+	<s id='1'>Vous donner des moyens assurés de joindre l'agréable à l'utile.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='15'>
+	<s id='1'>Promesses de Musicien !</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='16'>
+	<s id='1'>Dites un mot, et nous vous faisons trente mille livres de rente.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='17'>
+	<s id='1'>Vous vous enrichissez sans appauvrir personne.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>Ce n'est guères la manière de ce temps-ci. </s>
+	<s id='2'>Mais enfin ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='19'>
+	<s id='1'>Mais enfin, si vous voulez nous croire, vous ferez dans votre nouvelle Ville, une Académie de Danse et de Musique.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='20'>
+	<s id='1'>Il n'y a pas de divertissement plus agréable au public, ni plus utile aux particuliers.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Il est vrai que personne ne se plaint de l'Opéra, et que tout le monde y trouve son compte.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='22'>
+	<s id='1'>Son compte ! </s>
+	<s id='2'>Et sans l'Opéra que deviendraient les bons airs, les pieds bien tournés, les visages plâtrés, et les jolis gosiers ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='23'>
+	<s id='1'>Il est vrai. </s>
+	<s id='2'>Sans l'Opéra comment subsisteraient tant d'honnêtes fainéants ? </s>
+	<s id='3'>Que deviendraient tant de beautés, qui tirent tout leur mérite de l'Orchestre ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='24'>
+	<s id='1'>L'Opéra est un trésor inépuisable dont on ne voit jamais le fonds.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='25'>
+	<s id='1'>C'est un abyme, un labyrinthe de ressources qu'on ne connaît qu'à mesure qu'on les creuse.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='26'>
+	<s id='1'>Tout y rapporte son revenu jusqu'aux rides d'une Coquette surannée.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='27'>
+	<s id='1'>C'est une terre où on sème des sons et des gambades pour recueillir des pistoles.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Assigner : Affecter un fonds au paiement d'une rente, d'une dette, etc. [L]</note>
+<p id='28'>
+	<s id='1'>Mais encore, sur quoi assignez-vous les trente milles pistoles de rente que vous proposez ?</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='29'>
+	<s id='1'>Sur la souplesse de mon jarret.</s>
+</p>
+<stage>Il saute.</stage>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='30'>
+	<s id='1'>Sur la douceur de mon gosier.</s>
+</p>
+<stage>Il fredonne.</stage>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='31'>
+	<s id='1'>Sur la fraîcheur d'Oriane.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='32'>
+	<s id='1'>Sur les petites façons de Corisande.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='33'>
+	<s id='1'>Sur les Minauderies des Chanteuses.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='34'>
+	<s id='1'>Sur le blanc et le rouge des Danseuses.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='35'>
+	<s id='1'>Sur les brouillards de la rivière de Seine, et sur la constance de l'amour. </s>
+	<s id='2'>Je ne vois point mes sûretés là-dedans, et il me semble qu'une Chacone, et une Sarabande ne sont pas des Marchandises de bon débit.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<note type="L">Morbleu : Sorte de jurement en usage même parmi les gens de bon ton. [L]</note>
+<p id='36'>
+	<s id='1'>Hé, morbleu, si vous êtes si délicat, tant pis pour vous ; mais sachez qu'aujourd'hui dans le commerce, les meilleures Lettres de Change sont celles qu'on tire sur l'Opéra.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<note type="L">Rescription : Mandement qu'on donne à un fermier, à un debiteur, à un correspondant, pour payer une certaine somme au porteur du billet. [F]</note>
+<p id='37'>
+	<s id='1'>Et qu'un créancier remet toujours le tiers de la dette, pour une rescription sur la Caisse de l'Académie Royale de Danse et de Musique.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='38'>
+	<s id='1'>Je le crois. </s>
+	<s id='2'>Mais je ne suis point tenté ; je ne veux dans la ville que je bâtis, ni Musiciens, ni Danseurs, il n'y aura que des gens sobres.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='39'>
+	<s id='1'>Ma foi, Monsieur le petit fondateur, nous y perdrons beaucoup ! </s>
+	<s id='2'>La menace est terrible, mais l'Opéra de Lyon nous tend les bras.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='40'>
+	<s id='1'>En tous cas, il ne tiendra qu'à nous d'assister au rétablissement de celui de Rouen.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='41'>
+	<s id='1'>À la bonne heure.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='42'>
+	<s id='1'>Pour votre petite Bicoque, tout y sera de travers, et puisque vous en excluez les Maîtres à Danser, jamais rien n'y sera sur le bon pied.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='43'>
+	<s id='1'>Soit.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='44'>
+	<s id='1'>Que les habitants de cette Ville ne puissent jamais ouvrir la bouche sans détonner.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE.</speaker>
+<p id='45'>
+	<s id='1'>Que quand ils voudront danser la Courante, ils dansent le Rigodon.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL.</speaker>
+<p id='46'>
+	<s id='1'>Qu'ils chantent par bécarre les airs de bémol.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-LA-CABRIOLE'><speaker>MONSIEUR DE LA CABRIOLE, en s'en allant.</speaker>
+<note type="L">Malfait : Qui n'est pas fait dans les règles, qui n'a pas les qualités et les agréements requis. [F]</note>
+<p id='47'>
+	<s id='1'>En un mot, qu'ils soient impolis, malfaits, et sans goût, comme des gens qui méprisent la danse et la Musique.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-GERESOL'><speaker>MONSIEUR DE GERESOL, en s'en allant.</speaker>
+<p id='48'>
+	<s id='1'>Que les femmes y aient des maris jaloux, et soupirent inutilement après un Maître à Chanter, pour rendre leurs Billets.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='49'>
+	<s id='1'>Quelles imprécations ! </s>
+	<s id='2'>Mais voici mon Architecte.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Madame de l'Architrave, Arlequin.</head>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='1'>
+	<s id='1'>Ma foi, Monsieur, voilà qui ne va point mal, j'ai mis bien des gens en besogne, la Ville s'avance, et nos Ouvriers travaillent comme il faut.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Comment, travaillent ? </s>
+	<s id='2'>À peine avez-vous eu le temps de faire le plan de ce que vous avez à bâtir ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<note type="C">Architecte d'eau-douce : Architecte d'eau-douce , expression pour désigner un Achitecte qui ne connaît pas bien son métier, comme un médecin d'eau-douce est un médecin malhabile qui n'a pour remède que de l'eau douce.</note>
+<p id='3'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Vous me prenez donc pour un architecte d'eau-douce ? </s>
+	<s id='3'>J'ai déjà fait mettre des Écriteaux pour attirer des Acheteurs et des Locataires.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Elle est folle ? </s>
+	<s id='2'>Quoi, des maisons qui ne sont pas encore faites...</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='5'>
+	<s id='1'>Vous voilà bien nouveau ! </s>
+	<s id='2'>Et ne savez-vous pas qu'il est à présent du bel usage de vendre les maisons dix ans avant d'en jeter les premiers fondements ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>D'accord. </s>
+	<s id='2'>Mais il faut...</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='7'>
+	<s id='1'>Et, que diriez-vous donc, si je vous montrais à présent les troisièmes étages tout faits ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Je dirais, je dirais... </s>
+	<s id='2'>Morbleu, je ne dirais rien, et je dis que vous êtes une extravagante.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='9'>
+	<s id='1'>Mais sérieusement je vous dis, que c'est là ma manière, je commence toujours par le haut, on travaille ensuite au reste.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>La folle !</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='11'>
+	<s id='1'>Chacun a son humeur, les uns bâtissent sur la terre, d'autres sur la mer : pour moi l'air est mon élément ; je bâtis toujours en l'air. </s>
+	<s id='2'>Mais parlons d'autre chose. </s>
+	<s id='3'>Ces trois filles, ou soi-disant telles, qui ont deux doigts de plâtre sur le nez, et qui sont arrivées avec un vieux Commandeur dans un Carrosse, dont les chevaux semblaient prêts à rendre l'âme...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Hé bien ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='13'>
+	<s id='1'>Hé bien, elles disent qu'elles c'accommoderont du troisième étage de la maison qui fera le coin auprès du Marché, à condition que vous leur ferez faire une allée à part, et une porte de derrière sur la petite rue.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Serein : humidité froide et invisible qui tombe vers le coucher du Soleil, qui engendre les rhumes et les caterres. [F]</note>
+<p id='14'>
+	<s id='1'>Les allées à part, et les portes de derrière sont merveilleuses, pour donner de l'air à l'honneur d'une femme. </s>
+	<s id='2'>Mais gare le serein.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<note type="L">Quartier : Ce qu'on paye de trois mois en trois mois pour loyers, rentes, pensions. [L]</note>
+<p id='15'>
+	<s id='1'>C'est de l'argent comptant, elles paieront le premier quartier d'avance.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>Elles feront bien. </s>
+	<s id='2'>Tout le monde n'est pas en humeur de se payer par ses mains comme leur dernier hôte.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='17'>
+	<s id='1'>Il est encore venu un procureur qui prendra la maison la plus élevée de la grande rue : mais il lui faut cinq pièces parquetées au premier étage. </s>
+	<s id='2'>C'est pour loger sa femme.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>Un Procureur ? </s>
+	<s id='2'>Je ne veux point de cette vermine dans l'enceinte des murs. </s>
+	<s id='3'>Aux Faubourgs, aux Faubourgs.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='19'>
+	<s id='1'>Ah, Monsieur, gardez-vous en bien ; il ferait payer à ses parties ce qui lui en coûterait pour se faire voiturer au Palais. </s>
+	<s id='2'>Nous ne sommes pas dans un temps où les Procureurs puissent aller à pied.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='20'>
+	<s id='1'>Madame de l'Architrave ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='21'>
+	<s id='1'>Monsieur ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Petites maisons : On dit aussi, qu'il faut mettre un homme aux petites maisons, quand il est fou, ou quand il fait une extravagance signalée ; à cause qu'il y a à Paris un Hospital de ce nom où on enferme ces fous. [F]</note>
+<p id='22'>
+	<s id='1'>Avez-vous fait le plan des petites maisons ?</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='23'>
+	<s id='1'>Des petites maisons ? </s>
+	<s id='2'>Et vous ne voulez, dites-vous, que des gens raisonnables.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>Il me faut des petites maisons, vous dis-je. </s>
+	<s id='2'>Mais je les voudrais petites, petites.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='25'>
+	<s id='1'>Et pourquoi si petites, dès qu'il vous en faut ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>C'est que j'y veux enfermer les gens raisonnables, de peur que le commerce des autres ne les gâte. </s>
+	<s id='2'>Vous voyez qu'il ne faut pas pour cela grand espace.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='27'>
+	<s id='1'>À propos, que voulez-vous faire de ce grand Hôpital d'Incurables ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Diable, faites-le grand. </s>
+	<s id='3'>Je le destine pour loger les Marchands qui vendent à crédit aux gens de Cour, les vieilles qui épousent de jeunes gens, s'il y avait place, j'y logerais aussi les amants contemplatifs et les filles qui s'embarquent sur la parole des épouseurs.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='29'>
+	<s id='1'>On y travaille déjà, il sera au coin de la grande place vis-à-vis de l'horloge.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='30'>
+	<s id='1'>Comment l'horloge ? </s>
+	<s id='2'>Je ne veux dans ma Ville ni horloge ni cadran.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='31'>
+	<s id='1'>Point d'horloge ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='32'>
+	<s id='1'>Non, sans doute, je veux qu'on fasse toutes choses selon l'occasion, et l'opportunité, et qu'on ne se règle pas sur un coup de marteau. </s>
+	<s id='2'>D'ailleurs, les femmes des gens de Robe n'entendant pas sonner les heures, ne se précautionneront pas contre l'arrivée de leur mari, qui trouvera au retour du Palais, les Galants à la toilette de sa femme.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='33'>
+	<s id='1'>Quelle malice !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='34'>
+	<s id='1'>Et les écornifleurs n'entendant jamais sonner midi, ne se précautionneront pas pour dîner en Ville.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='35'>
+	<s id='1'>Oh ; pour cela, précaution inutile, je vous garantis les parasites suffisamment avertis par l'acide de leur estomac, et assez réveillés par l'odeur des viandes. </s>
+	<s id='2'>Mais qui est cet homme qui vient ? </s>
+	<s id='3'>Ne serait-ce point quelque futur habitant ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='36'>
+	<s id='1'>Nous allons voir.</s>
+</p>
+</sp>
+<sp who='MADAME-DE-L-ARCHITRAVE'><speaker>MADAME DE L'ARCHITRAVE.</speaker>
+<p id='37'>
+	<s id='1'>Pour moi je vais donner ordre à tout, afin que les choses s'avancent.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Libraire, Arlequin.</head>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='1'>
+	<s id='1'>Vous voyez, Monsieur, un homme qui, si la fortune lui en avait dit, se serait tenu en carrosse aussi bien qu'un autre. </s>
+	<s id='2'>Je n'ai jamais manqué de coeur, Dieu merci, et j'ai bien autant d'ambition qu'aucun Libraire de Paris.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Ce n'est pas peu.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<note type="L">In-folio : Terme d'imprimerie et de librairie. Format in-folio, format où la feuille est pliée en deux. [L]</note>
+<p id='3'>
+	<s id='1'>Quant à moi, je crus en m'établissant, qu'une belle femme était le premier ornement d'une bibliothèque, et qu'un joli minois faisait plus d'effet derrière un comptoir que cent in-folio sur des tablettes.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Il y a du vrai à cela, au moins ; et je connais plus d'un marchand dont l'étalage vaut mieux que le fonds.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<note type="L">Bel esprit : un bel esprit, de beaux esprits, ceux qui se distinguent par l'élégance et la délicatesse, parfois affectées. [L]</note>
+<note type="L">Juré : Ce mot se dit des gens de quelques offices, ou métiers, et veut dire celui qui est reçu dans quelque profession, et a prété le serment de fidélité qu'il s'aquitterait de son devoir. [R]</note>
+<p id='5'>
+	<s id='1'>Je choisis pour épouse une jeune personne, belle, bien faite, de bon air, et par-dessus cela, bel esprit, et bel esprit juré.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Ce dernier point n'est pas tout à fait décisif pour la paix du ménage, et pour la douceur du commerce. </s>
+	<s id='2'>Mais enfin, votre moitié vous attirait-elle bien des chalands ?</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='7'>
+	<s id='1'>Mon heureuse Boutique ne désemplissait point : à quelque heure qu'on y vint, on y trouvait gens d'Épée, de Robe, de Finance, Abbés et surtout grand nombre de Provinciaux.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Tous ces gens-là attirés bien plus par les agréments du tendron que par l'envie d'acheter des Livres.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='9'>
+	<s id='1'>C'est ce que je n'ai jamais bien pu décider ; car quoi qu'ils parussent fort empressés auprès de ma femme, et qu'il n'y en eût pas un, qui par-ci par là, ne lui décochât quelque fleurette, ils ne laissaient pas d'acheter fort cher les bagatelles que me fournissaient trois grands diseurs de rien, et un Auteur femelle, dont la plume avait encore plus de rapidité que la langue.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Je ne m'étonne pas si elle a fait tant de Volumes.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='11'>
+	<s id='1'>C'était une aimable femme. </s>
+	<s id='2'>Elle faisait un Livre en une nuit.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Les jolies femmes de ce temps-ci, n'emploient pas si mal les leurs. </s>
+	<s id='2'>Mais comment en usait la vôtre ?</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='13'>
+	<s id='1'>Le mieux du monde, et je n'ai jamais vu personne se plaindre d'elle.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Femme si accommodante accommode pour l'ordinaire un mari de toutes pièces.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='15'>
+	<s id='1'>Oh, pour moi j'ai cela de bon, je ne suis point sujet au mal de tête. </s>
+	<s id='2'>Il est vrai que quelques contrôleurs de profession remarquaient que de mes enfants aucun ne me ressemblait, et qu'ils avaient de l'air, l'un d'un Colonel, l'autre d'un jeune Magistrat, à qui j'ai dressé une Bibliothèque de Romans.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>C'est-à-dire qu'il en était de vos enfants comme de ces Livres dont l'Épître dédicatoire est sous votre nom ? </s>
+	<s id='2'>Vous faites les honneurs de l'ouvrage d'autrui.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='17'>
+	<s id='1'>Ma foi, si on regardait de près, on trouverait autant de plagiaires dans les familles que dans la République des Lettres. </s>
+	<s id='2'>Heureux qui sait s'accommoder de sa femme ! </s>
+	<s id='3'>Je me trouvais fort bien de la mienne ; et tant qu'elle a été jeune et jolie, j'ai triomphé. </s>
+	<s id='4'>Mais à présent qu'elle n'est que jolie sans être jeune...</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>Vous n'avez plus cette affluence dans votre Boutique ?</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='19'>
+	<s id='1'>Pardonnez-moi, j'ai encore assez de gens chez moi. </s>
+	<s id='2'>Mais, Monsieur, ma femme a plus de quarante ans.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='20'>
+	<s id='1'>Ainsi ils n'y viennent que pour la conversation ?</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='21'>
+	<s id='1'>Justement. </s>
+	<s id='2'>Ils ont fait de ma Boutique une Académie de beaux esprits, où ma femme régente parmi les Historiens, les Poètes, et les diseurs de bons mots.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='22'>
+	<s id='1'>Il faut bien de ces gens-là pour échauffer une Cuisine.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='23'>
+	<s id='1'>Que voulez-vous, j'ai dupé le public, et le public m'a dupé ; chacun à son tour... </s>
+	<s id='2'>Je lui troquais d'abord des bagatelles pour de bon argent, il les prenait avidement ; je crus qu'il se laisserait tromper plus longtemps, et me donnerait celui de faire une fortune complète.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>Le public est un compère capricieux dont il faut brusquer le goût : pendant qu'il vous en disait que n'en profitiez-vous mieux ?</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='25'>
+	<s id='1'>Si je puis revenir sur l'eau, que je profiterai de vos avis ! </s>
+	<s id='2'>Plus de romans, ni d'Historiettes, j'y renonce... </s>
+	<s id='3'>de bons livres de maximes, et de caractères. </s>
+	<s id='4'>Ce sont ceux-là dont on voit en quatre mois doubler le prix, et multiplier les éditions. </s>
+	<s id='5'>Voilà ce qui fait rouler un libraire en carrosse.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Cache cache mitoulas : Terme populaire. C'est un jeu de jeunes gens, qui consiste à mettre quelque chose secrètement entre les mains, ou dans les habits de quelqu'un de la compagnie : ce qu'on propose à deviner à une tierce personne. [T]</note>
+<note type="L">Colin-maillard : jeu d'enfants, où on bande les yeux à l'un de la troupe, qui est obligé d'attrapper quelqu'un des autres à tâtons pour le mettre en sa place.</note>
+<p id='26'>
+	<s id='1'>Cela n'est pas tout à fait sûr, le goût change là-dessus ; et on plonge dans la bagatelle. </s>
+	<s id='2'>Ainsi, si vous voulez avoir de l'argent du public, il faut l'endormir par des contes ce Fées, le réveiller par des rapsodies, ou l'amuser par de petits jeux ; comme le Gage-touché, Cache-mitoulas, et Colin-Maillard. </s>
+	<s id='3'>Voilà des titres cela !</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='27'>
+	<s id='1'>Ah, Monsieur, si vous me permettez de m'établir dans votre Ville, voilà les Livres par où je débuterai. </s>
+	<s id='2'>Le Gagetouché ! </s>
+	<s id='3'>Quel effet dans une Affiche !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Fort bien, nous penserons à cela une autre fois ; laissez-moi un moment en repos.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE.</speaker>
+<p id='29'>
+	<s id='1'>Je vais en écrire à ma femme. </s>
+	<s id='2'>Qu'elle sera aise de venir débiter ses Romans en style coupé ! </s>
+	<s id='3'>Pour peu que vous y donniez la main, notre fortune est faite.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='30'>
+	<s id='1'>Adieu, bon soir, et bonne nuit.</s>
+</p>
+</sp>
+<sp who='LE-LIBRAIRE'><speaker>LE LIBRAIRE, en s'en allant.</speaker>
+<p id='31'>
+	<s id='1'>L'heureuse rencontre ! </s>
+	<s id='2'>L'heureuse rencontre !</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Un Peintre, Arlequin.</head>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='1'>
+	<s id='1'>Comme tout ce qu'il y a d'illustres dans le monde, semble s'être donné rendez-vous pour venir peupler votre nouvelle Ville où vous ne voulez rien de commun, agréez que je vous présente un homme en la manière des plus extraordinaires qui se fassent.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Où est-il ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='3'>
+	<s id='1'>Le voilà.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>Je le crois. </s>
+	<s id='2'>Mais qui êtes-vous ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='5'>
+	<s id='1'>Monsieur, je suis un original sans copie, un Poète muet, un imposteur de bonne foi, un beau morceau moderne qui ne deviendra que trop antique avec le temps.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='6'>
+	<s id='1'>Et avec tout cela, vous êtes gueux, comme un Peintre ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='7'>
+	<s id='1'>Il est vrai qu'un Peintre ne va pas si tôt en Carrosse qu'un Caissier ; mais enfin, on ne laisse pas de se tirer d'intrigue ; et depuis que les gens d'affaire se sont jetés dans le goût des tableaux, notre profession est un peu réconciliée avec la fortune. </s>
+	<s id='2'>D'ailleurs, j'ai un talent merveilleux pour le portrait.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='8'>
+	<s id='1'>Et attrapez-vous bien l'air des gens ? </s>
+	<s id='2'>Faites-vous ressembler ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='9'>
+	<s id='1'>À merveille... </s>
+	<s id='2'>J'attrape cela... le tour du visage, le feu des yeux, le coloris du teint... </s>
+	<s id='3'>Il n'y a pas un de mes portraits qui ne ressemble parfaitement.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Et avec ce beau talent, peignez-vous bien des femmes ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='11'>
+	<s id='1'>Oui da.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='12'>
+	<s id='1'>Vous peignez des femmes, et vous faites ressembler ? </s>
+	<s id='2'>Poursuivez, mon ami, poursuivez, vous êtes dans le grand chemin de l'Hôpital. </s>
+	<s id='3'>Un bon Peintre de femmes doit être un imposteur de profession.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='13'>
+	<s id='1'>Cela est vrai. </s>
+	<s id='2'>Il y a quelque temps qu'une vieille Marquise me pria de faire son portrait, je fus assez sot pour me piquer de sincérité, je la peignis comme deux gouttes d'eau.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Hé bien ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='15'>
+	<s id='1'>Elle ne se vit pas plutôt comme la nature l'avait faite, qu'elle voulut me faire jeter par les fenêtres, disant que je la rendais hideuse. </s>
+	<s id='2'>À huit jours de là, je lui portai un Portrait que j'avais fait d'une jolie petite personne de dix-huit ans. </s>
+	<s id='3'>Je lui dis que c'était le sien que j'avais raccommodé, elle me fit donner cinquante pistoles, et publie partout, que je suis le premier homme du monde.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='16'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Si l'on peignait les gens tels qu'ils sont, ils se feraient peur les uns aux autres.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='17'>
+	<s id='1'>À vous parler naturellement, mon grand gain n'est pas de faire des Portraits.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='18'>
+	<s id='1'>À quoi donc gagnez-vous davantage ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='19'>
+	<s id='1'>À retoucher les anciens originaux.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='20'>
+	<s id='1'>Quoi, vous vous mêlez barbouiller ce qui nous reste de l'antiquité ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='21'>
+	<s id='1'>Vous ne m'entendez pas. </s>
+	<s id='2'>Je dis que je travaille sur les vieux Originaux naturels.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='22'>
+	<s id='1'>Encore moins.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='23'>
+	<s id='1'>N'avez-vous jamais vu un visage sur lequel les années ou la petite vérole ont sillonné des trous, où les amours à coup sûr ne jouent plus à la fossette... </s>
+	<s id='2'>Tac...  tac... </s>
+	<s id='3'>Je vous remplis cela, et rétablis à une face sexagénaire un embonpoint de dix-huit ans.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>Ah, vous êtes fort intelligible à présent.</s>
+</p>
+<note type="L">Soufflet : Coup du plat de la main ou du revers de la main sur la joue. [L]</note>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<note type="L">Baptistaire : Registre baptistaire, registre où l'on inscrit les noms de ceux qu'on baptise. Extrait baptistaire, extrait de ce registre. [L] </note>
+<note type="L">Collationner : Faire la collation d'une copie avec l'original ; conférer deux écrits ensemble. [L]</note>
+<p id='25'>
+	<s id='1'>Je répands sur des joues décrépites un incarnat... </s>
+	<s id='2'>Oh, ma foi, cinq ou six coups de pinceau touchés à propos, donnent un terrible soufflet à l'extrait baptistaire le mieux collationné.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>La malepeste ! </s>
+	<s id='2'>Vous devez être à votre aise avec un si beau talent. </s>
+	<s id='3'>Mais ne s'aperçoit-on pas que ce n'est que de la peinture ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<note type="C">Paire : dans certaines Provinces, les gens peu instruits font ce mot masculin, et disent un paire de bas ; c'est une paire qu'il faut dire. [FC] Dans le texte "Paire" est masculin.</note>
+<p id='27'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Si vous aviez vu une paire de sourcils que j'ai livrée il y a huit jours à une vieille Présidente, vous y seriez trompé vous-même. </s>
+	<s id='3'>Son mari ne s'en aperçut qu'en y regardant avec ses lunettes.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Monsieur le Peintre, ne pourriez-vous me montrer quelque chose de votre façon ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<note type="L">Steinkerque : Notre Langue non seulement a naturalisé une infinité de mots tirés de Langues étrangères, tant anciennes que modernes ; mais même, en naturalisant certains mots, en a réglé la signification de la manière du monde la plus arbitraire. Une bataille se donne près d'un village nommé Steinkerke. [T]</note>
+<p id='29'>
+	<s id='1'>Volontiers. </s>
+	<s id='2'>J'ai une pièce curieuse... </s>
+	<s id='3'>Holà, ho, apportez ce tableau.</s>
+</p> 
+<stage>On apporte un tableau qui représente un abbé avec un habit brodé, et une cravate en Steinkerque.</stage>
+<p id='30'>
+	<s id='1'>Voyez cela. </s>
+	<s id='2'>Est-ce bien peint ? </s>
+	<s id='3'>Tenez, pour qui prendriez-vous cet homme-là ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='31'>
+	<s id='1'>Pour un colonel, s'il avait une épée.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='32'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>C'est un Abbé qui a voulu se faire peindre dans cet habit-là. </s>
+	<s id='3'>C'est son habit d'occasion, et celui-là même dans lequel il fut ces jours passés volé, et battu, en faisant porter son souper en ville. </s>
+	<s id='4'>Mais ce serait bien pis si vous le voyiez à sa toilette.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='33'>
+	<s id='1'>Comment donc ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='34'>
+	<s id='1'>Il a voulu que je le peignisse en déshabillé. </s>
+	<s id='2'>Voulez-vous le voir ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='35'>
+	<s id='1'>Est-ce que vous l'avez là ?</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<note type="L">Carré : Carré de toilette, coffret où les femmes mettaient leurs peignes, etc. [L]</note>
+<p id='36'>
+	<s id='1'>Et n'ai-je pas le secret de changer ce tableau comme il me plaît ? </s>
+	<s id='2'>Voyez, voyez.</s>
+</p>
+<stage>Le Tableau change, et l'abbé paraît devant une toilette pleine de carrés, de pots de pommade, et de rouge.</stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Parbleu : Sorte de jurement. Altération de par Dieu. [L]</note>
+<p id='37'>
+	<s id='1'>Oh parbleu, Monsieur le Peintre, vous vous moquez de moi. </s>
+	<s id='2'>C'est une femme.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='38'>
+	<s id='1'>Oui vraiment une femme ! </s>
+	<s id='2'>Les femmes de ce temps-ci y sont bien plus cavalièrement. </s>
+	<s id='3'>Tenez, voilà une toilette de femme.</s>
+</p>
+<stage>Le Tableau change. Une femme paraît devant une table pleine de bouteilles de ratafia. Elle a une pipe à la bouche et un verre à la main. </stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='39'>
+	<s id='1'>Oh, pour celui-là, je ne m'y attendais pas.</s>
+</p>
+</sp>
+<sp who='LE-PEINTRE'><speaker>LE PEINTRE.</speaker>
+<p id='40'>
+	<s id='1'>Voulez-vous voir votre portrait en petit ? </s>
+	<s id='2'>J'ai tous les gens illustres. </s>
+	<s id='3'>Voyez. </s>
+	<s id='4'>Cela vous ressemble-t-il ?</s>
+</p>
+<stage>On voit un petit Arlequin dans le tableau qui salue, descend, danse et s'en va.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Octave, Scaramouche, Colombine, cachée.</head>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='1'>
+	<s id='1'>Voilà l'homme que j'ai vu tantôt avec mon Prince, cachons-nous, et écoutons ce qu'il dit.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='2'>
+	<s id='1'>Ah, amour, amour, petit scélérat, que tu fais faire de folies ! </s>
+	<s id='2'>Il n'y a pas jusqu'au cerveau d'un Comédien que tu ne t'avises de déranger. </s>
+	<s id='3'>Octave était habile, goûté de tous ceux qui l'écoutaient, il s'est avisé de devenir amoureux, et n'est plus qu'un... </s>
+	<s id='4'>Ma foi, Monsieur, Octave, ce n'est pas là votre métier, et pour un Comédien qui s'est enrichi à faire l'amour, j'en connais trente qui s'y ruinent. </s>
+	<s id='5'>Mais le voilà. </s>
+	<s id='6'>Comme il est fait ! </s>
+	<s id='7'>Le pauvre garçon me fait pitié. </s>
+	<s id='8'>Hé bien, comment va le coeur ?</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='2'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Mon pauvre Scaramouche, je suis le plus malheureux de tous les hommes, j'adore Colombine.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='3'>
+	<s id='1'>Le grand malheur ! </s>
+	<s id='2'>Si vous l'aimez, Elle ne vous hait pas ; et je suis bien trompé si elle ne vous cherche.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='4'>
+	<s id='1'>Et c'est ce qui me confond. </s>
+	<s id='2'>Elle me croit un homme de grande qualité, elle ne s'est embarquée que sur cette espérance, et je dois mourir de honte d'avoir abusé de sa crédulité.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='5'>
+	<s id='1'>Allez, allez, nous sommes dans un temps où l'on ne meurt pas plus de honte que d'amour.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='6'>
+	<s id='1'>Admire la cruauté de ma destinée ! </s>
+	<s id='2'>Je fuyais Colombine, je commençais à sentir que je guérissais, lorsque quelque démon ennemi de mon repos me la fait trouver en ces lieux, comme par enchantement, et redonne à mon coeur toute sa première sensibilité.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='7'>
+	<s id='1'>Vous l'aimez, elle vous aime... </s>
+	<s id='2'>Hem ? </s>
+	<s id='3'>Y a-t-il tant de façons ? </s>
+	<s id='4'>Épousez-la.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='8'>
+	<s id='1'>Que je lui donne un Comédien, après lui avoir promis un Prince ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='9'>
+	<s id='1'>Elle ne serait pas la première qui aurait fait succéder à un grand Seigneur, un homme de moindre étoffe. </s>
+	<s id='2'>De tout temps la Comédie s'est faufilée avec les gens du beau monde.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='10'>
+	<s id='1'>Je ne puis me pardonner de l'avoir trompée.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<note type="L">Tarare : Interject. du style familier. Bon, bon ! je m'en moque ; je n'en crois rien. [FC]</note>
+<p id='11'>
+	<s id='1'>Tarare, pardonner ! </s>
+	<s id='2'>Les femmes sont plus indulgentes que vous ne pensez, pourvu que...</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='12'>
+	<s id='1'>Mon cher Scaramouche, je t'ouvre mon coeur. </s>
+	<s id='2'>Quelque envie que j'eusse de rester en ces lieux, il faut absolument que je m'en arrache, j'irai me cacher quelque part au bout du monde, où je ne verrai jamais...</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE, paraît.</speaker>
+<p id='13'>
+	<s id='1'>Tu ne me verras jamais, traître ! </s>
+	<s id='2'>Tu m'as trompée, et tu veux me fuir ?</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='14'>
+	<s id='1'>Ah Ciel !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='15'>
+	<s id='1'>Vous m'aimez, Octave ? </s>
+	<s id='2'>Vous m'aimez ? </s>
+	<s id='3'>Quelle preuve vous m'en donnez ! </s>
+	<s id='4'>Partir sans me dire adieu !</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='16'>
+	<s id='1'>Voici bien une autre histoire !</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='17'>
+	<s id='1'>Vous vous abusez, madame, je ne suis pas...</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='18'>
+	<s id='1'>J'ai tout entendu, j'ai appris ce que vous êtes de votre propre bouche, et mon coeur a raison de se plaindre du peu de confiance que vous avez en mon amour. </s>
+	<s id='2'>Vous ne savez pas aimer, Octave. </s>
+	<s id='3'>Avez-vous pu croire que je n'aimasse en vous que la grandeur qui paraissait à mes yeux ? </s>
+	<s id='4'>Désabusez-vous, rendez-moi justice, et comptez que ce n'est pas le prince, mais Octave que je suis venu chercher ici.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='19'>
+	<s id='1'>La peste qu'une fille amoureuse a d'esprit !</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='20'>
+	<s id='1'>Ah, trop généreuse Colombine, par où pourrai-je vous exprimer...</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='21'>
+	<s id='1'>Voici Arlequin. </s>
+	<s id='2'>Vous savez les raisons que j'ai de le ménager, c'est un homme de poids, et qui malgré ses caprices, pourra nous être d'une grande utilité : retirez-vous, que je lui parle seule, je lui ferai mieux entendre mes raisons.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Arlequin, Colombine, Scaramouche.</head>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='1'>
+	<s id='1'>Ah, bon jour, Seigneur Bagatelle. </s>
+	<s id='2'>Quoi vous êtes encore ici ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='2'>
+	<s id='1'>Signor si, con tutte le mie Bagatelle, al servitio di V.S. .</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Je vous rends grâces, je vous ai déjà dit que vous pouvez les porter à Paris.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='4'>
+	<s id='1'>Ho sentito dire, che V.S. et bâtissait une grande Ville, una famosissima città ; e cosi, je venais avec toutes mes bagatelles, pour divertir votre femme et vos petits enfants.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>À Paris, à Paris. </s>
+	<s id='2'>Je ne veux point de fadaises chez moi, et la bagatelle en sera bannie aussi sévèrement, que l'amour l'est du mariage.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='6'>
+	<s id='1'>Quoi, Seigneur Arlequin, seriez-vous de l'opinion de ceux qui croient que le premier jour de l'Hymen, est le dernier de l'amour, et du bon temps ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>De l'amour, oui. </s>
+	<s id='2'>Pour du bon temps, c'est selon. </s>
+	<s id='3'>Certaines femmes ne commencent à en prendre, que lorsqu'elles commencent à être épouses ; d'autres ne le goûtent qu'au veuvage, tout cela est très bien partagé. </s>
+	<s id='4'>Mais à propos de femme, savez-vous que dans ma Ville nouvelle, pour épargner aux Plaideurs la moitié de ce qui leur en coûte, les femmes rendront la justice ?</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='8'>
+	<s id='1'>Des femmes Juges ! </s>
+	<s id='2'>Que de prises de corps !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>J'ai remarqué, que presque tous les Plaideurs paient leurs arrêts aux Belles qui sont bien dans l'esprit du Juge.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='10'>
+	<s id='1'>Fort bien.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Epices : Terme de Palais. C'était autrefois quelques dragées, ou confitures qu'on donnait aux Juges qui avaient jugé un procés, mais depuis on a converti cela en argent, de sorte que les épices d'un procés, c'est l'argent qu'on donne aux juges pour le jugement d'un procés. [R]</note>
+<p id='11'>
+	<s id='1'>Cependant, il n'en est pas moins inexorable sur les épices ; de sorte que le pauvre diable de plaideur paye des deux côtés.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='12'>
+	<s id='1'>J'entends.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='13'>
+	<s id='1'>Vous voyez bien, que si les femmes rendaient la justice en leur nom, on en serait quitte pour ce qu'on leur donne.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<note type="L">Dégaine : Terme familier. Tournure ridicule, façon maladroite.</note>
+<p id='14'>
+	<s id='1'>Il y même en cela un autre avantage. </s>
+	<s id='2'>Car, une belle Magistrale qui trouvera quelque plaideur de bonne dégaine, lui fera gratis des Épices.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='15'>
+	<s id='1'>Justement, comme il arrive tous les jours à nos vieux Magistrats avec de jeunes Solliciteuses.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='16'>
+	<s id='1'>Ma foi, je crois qu'il fera beau voir un Sénat féminin ; toutes ces femmes auront bonne grâce en robe, et en bonnet ! </s>
+	<s id='2'>Cela fera bien leste !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Poupin : Qui a le visage, et la taille mignonne, et une grande propreté dans l'ajustement. [F]</note>
+<note type="L">Musqué : se dit figurément en choses morales ; de ce qui est doux, agréable, flatteur. [F]</note>
+<p id='17'>
+	<s id='1'>Hé je les défie d'être plus poupines et plus musquées que quelques-uns de nos jeunes sénateurs de Paris.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='18'>
+	<s id='1'>Je vous avoue que ce dessein m'enchante, et que je brûle de le voir exécuté.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>Pourquoi ?</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='20'>
+	<s id='1'>Je me figure avec plaisir, une trentaine de femmes aux opinions. </s>
+	<s id='2'>Le bruyant Tribunal ! </s>
+	<s id='3'>Il faut convenir que toutes vos Lois sont admirables !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='21'>
+	<s id='1'>Vous savez bien que tous les ans je marierai trente filles aux dépens du Public.</s>
+</p>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE.</speaker>
+<p id='22'>
+	<s id='1'>Belle réparation !</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='23'>
+	<s id='1'>Et qui fera grand plaisir à quantité de jeunes personnes qui n'ont pas assez de bien.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Débit : Vente facile et fréquente d'une marchandise. [T] Dans le texte, on peut comprendre "filles difficiles à marier".</note>
+<p id='24'>
+	<s id='1'>Comment donc jeunes ? </s>
+	<s id='2'>Marier de jeunes filles ? </s>
+	<s id='3'>Je n'emploie pas si mal mon argent ? </s>
+	<s id='4'>Les jeunes et jolies personnes se marient assez gratis. </s>
+	<s id='5'>Je destine ce fonds pour ces vieilles filles de dur débit, qui ont resté trente ans dans une arrière-boutique, dont on ne se charge qu'à bonnes enseignes, et qui demeureraient éternellement à la porte de l'Hymen, si l'argent ne leur servait de véhicule.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Jaquet, Macine, Arlequin, Colombine.</head>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur, je venons vous prier de nous donner un petit brin d'avis, en payant, s'entend, comme de raison.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<note type="L">Pièce : ce mot se dit en parlant de monnaie, et il signifie une espèce particulière de monnaie d'or, ou d'argent. [R] Les pièces neuves ont plus de valeur car elles ne risquent pas d'avoir été limées ou usager e ne plus valoir le poids du métal équivalent.</note>
+<p id='2'>
+	<s id='1'>Oui, Monsieur, je voulons faire les choses de bonne grâce, et s'y n'y a pas assez des quinze sols, j'irons jusqu'à la pièce neuve.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='3'>
+	<s id='1'>Ces gens-là me prennent pour un Avocat ou un Médecin. </s>
+	<s id='2'>Allez mes enfants, je ne vends pas mes paroles ; mais de quoi s'agit-il ?</s>
+</p>
+</sp>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<note type="L">Bouter : Vieux mot, qui était autrefois fort en usage, comme il paraît par ses composés et ses derivés ; mais qui ne se dit plus que par le bas peuple et les paysans : et en Picardie il signifie mettre. [F]</note>
+<p id='4'>
+	<s id='1'>De boutre la paix dans notre ménage.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='5'>
+	<s id='1'>Vous êtes donc mariés ?</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<note type="L">Faillir : Être au bout, au terme. Le jour commençait à faillir. [L]</note>
+<p id='6'>
+	<s id='1'>Pas encore ; mais je pourrons l'être sans miracle avant jour failli.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='7'>
+	<s id='1'>Vous n'êtes pas encore mariés, et il vous faut un tiers pour terminer vos différents ? </s>
+	<s id='2'>Ah, ah ! </s>
+	<s id='3'>Hé, comment ferez-vous donc si vous l'êtes une fois ?</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<p id='8'>
+	<s id='1'>C'est que Jaquet est un entêté, un vilain.</s>
+</p>
+</sp>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<note type="L">Eventé : est aussi adjectif, et se dit d'un homme qui a l'esprit léger, évaporé. C'est un homme bien éventé. Cette femme est bien éventée. [Ac 1762]</note>
+<p id='9'>
+	<s id='1'>C'est que Macine est une éventée ; et une glorieuse. </s>
+	<s id='2'>Elle me donne cent dix livres en mariage, et elle veut que de cet argent-là je lui donne un habit.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='10'>
+	<s id='1'>Mettre sa dot en habits et en bijoux de noces, c'est à présent le grand usage.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='11'>
+	<s id='1'>Heureux le mari quand cela n'excède pas !</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<note type="L">Arpent : Ancienne mesure agraire qui contenait cent perches carrées : mais l'arpent variait beaucoup, parce que la perche variait elle-même. Les arpents les plus usités étaient celui de Paris, qui valait environ un tiers d'hectare, et celui des Eaux et Forêts, qui valait un demi-hectare, à très peu près. [L]</note>
+<p id='12'>
+	<s id='1'>Ce n'est-il pas juste, Monsieur ? </s>
+	<s id='2'>Il dit lui qu'il en veut acheter deux arpents de terre.</s>
+</p>
+</sp>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<p id='13'>
+	<s id='1'>Oui, qui me rapporteront un bon revenu, au lieu d'un habit, ça n'est que de l'argent mort.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<p id='14'>
+	<s id='1'>De l'argent mort dea ! </s>
+	<s id='2'>J'ai pourtant ouï dire à une Madame de Paris, qu'une Procureuse de ses amies avait un habit de velours vert cramoisi, dont elle retirait cinq cent bonnes livres de rente, bon an mal an.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Grisette : Les Dames ont aussi mis à la mode des habits de petite étoffe grise qu'elles appellent des grisettes, du nom de l'étoffe. [T]</note>
+<note type="L">Denier : Une petite monnaie de cuivre, valant la 12e partie d'un sou. Il y avait autrefois des deniers d'argent ; et c'est de ces deniers dont on parle, quand on dit que le Sauveur fut vendu trente deniers. [FC]</note>
+<p id='15'>
+	<s id='1'>Et j'ai connu, moi, une femme qui faisait valoir de simples grisettes à un denier plus haut.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<p id='16'>
+	<s id='1'>Oh, je sais un peu vivre. </s>
+	<s id='2'>Va Jaquet, Compte qu'une jolie femme un peu ajustée vaut toujours son prix, et rapporte son revenu.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='17'>
+	<s id='1'>Je trouve que Macine a raison, il faut toujours suivre la grande route, et faire comme les autres.</s>
+</p>
+</sp>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<note type="L">Guenillon : Vieux lambeau de linge ou d'étoffe. [F]</note>
+<p id='18'>
+	<s id='1'>Quoi ; tout notre bien en un guenillon ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='19'>
+	<s id='1'>Oui ; que comme les autres femmes, elle se mette sa dot sur le corps ; dût-elle à leur exemple mettre dans quinze jours ses habits en gage.</s>
+</p>
+</sp>
+<sp who='JAQUET'><speaker>JAQUET.</speaker>
+<p id='20'>
+	<s id='1'>Puisque vous le trouvez bon, qu'alle fricasse comme alle l'entendra, j'aurai le plaisir de voir ma femme brave. </s>
+	<s id='2'>Adieu, Monsieur, et grand merci.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<p id='21'>
+	<s id='1'>Bonsoir, Monsieur.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='22'>
+	<s id='1'>Bonsoir.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE, revenant.</speaker>
+<p id='23'>
+	<s id='1'>Mettrai-je de l'or sur cet habit, Monsieur ?</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='24'>
+	<s id='1'>Oui, des diamants même, si vous en trouvez à crédit.</s>
+</p>
+</sp>
+<sp who='MACINE'><speaker>MACINE.</speaker>
+<p id='25'>
+	<s id='1'>Pour les Cornettes, je les prendrai de papier ? </s>
+	<s id='2'>Ça ne dure guères, mais ça reluit beaucoup. </s>
+	<s id='3'>Votre servante.</s>
+</p> 
+<stage>Ils sortent.</stage>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='26'>
+	<s id='1'>Voilà qui prouve bien que la vanité est de partout. </s>
+	<s id='2'>Mais, Madame, parlons d'autre chose, je vous aime, je vous l'ai déjà dit. </s>
+	<s id='3'>Je vous offre ici un établissement : faites mon bonheur, je tâcherai de faire le vôtre.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='27'>
+	<s id='1'>Je vous ai déjà répondu que mon coeur ne se donnait pas deux fois. </s>
+	<s id='2'>J'aime Octave.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='28'>
+	<s id='1'>Qui ? </s>
+	<s id='2'>Ce prince-là...</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='29'>
+	<s id='1'>N'insultez point... </s>
+	<s id='2'>Mais le voici avec un homme que je ne connais pas.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Docteur, Octave, Colombine, Arlequin.</head>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='1'>
+	<s id='1'>Monsieur, Monsieur, voilà par le plus grand bonheur du monde, ce fils dont je vous ai parlé tantôt.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='2'>
+	<s id='1'>Qui était dans un poste si éclatant ? </s>
+	<s id='2'>Vous aviez raison, il brille trois fois la semaine parmi des lustres et des chandelles.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='3'>
+	<s id='1'>Oui, Monsieur, je suis Comédien. </s>
+	<s id='2'>Mais votre Philosophie n'est pas fort éloignée de la mienne ; et ma profession comme la vôtre, est de corriger les hommes en les rendant ridicules.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='4'>
+	<s id='1'>C'est bien fait. </s>
+	<s id='2'>Mais Docteur, savez-vous que voilà une personne qui aspire à être votre bru ?</s>
+</p>
+</sp>
+<sp who='LE-DOCTEUR'><speaker>LE DOCTEUR.</speaker>
+<p id='5'>
+	<s id='1'>On m'a tout conté, et je la prie de recevoir mon fils pour son mari.</s>
+</p>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE, à Arlequin.</speaker>
+<p id='6'>
+	<s id='1'>Consentez à notre mariage, et souffrez que nous nous établissions ici avec vous. </s>
+	<s id='2'>J'ai eu toute ma vie un furieux penchant pour la Comédie : la belle occasion de le satisfaire ! </s>
+	<s id='3'>Nous composerons une troupe admirable.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<note type="L">Quartier : Fig. Ne point faire de quartier, ne pas épargner. [L]</note>
+<p id='7'>
+	<s id='1'>Je consens à tout, à condition que dans vos pièces, vous ne louerez jamais personne, et que vous ne ferez pas quartier à la moindre impertinence. </s>
+	<s id='2'>Outre cela, vous observerez, s'il vous plaît, les Lois que je prescris à mes Citoyens. </s>
+	<s id='3'>Je les ai mises par écrit, écoutez.</s>
+</p>
+<stage>Il lit.</stage>
+<stage>I </stage>
+	<l id='147'>Que toute charge s'abolisse,</l>
+	<l id='148'>Dans ma ville nouvelle une seule me plaît,</l>
+	<l id='149'>Et je ne veux pour tout office,</l>
+	<l id='150'>Qu'un bon prêteur sans intérêt.</l>
+<stage>II </stage>
+	<l id='151'>Qu'avec mépris on regarde les biens ;</l>
+	<l id='152'>Qu'un coffre-fort, une grosse marmite,</l>
+	<l id='153'>Ne fasse point tout le mérite ;</l>
+	<l id='154'>De mes nouveaux concitoyens.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='8'>
+	<s id='1'>Adieu les Abbés bien nourris !</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='9'>
+	<s id='1'>Je ne veux point de fainéants.</s>
+</p>
+<stage>Il lit. </stage>
+<stage>III </stage>
+	<l id='155'>Qu'un fat ne règle point son estime grossière,</l>
+	<l id='156'>Sur le dehors pompeux des Carrosses brillants.</l>
+	<l id='157'>Et quiconque a monté derrière,</l>
+	<l id='158'>Qu'il soit exclu d'entrer dedans.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='10'>
+	<s id='1'>Si cette loi s'observait à Paris, les deux tiers des Carrosses resteraient sous la remise.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, lit.</speaker>
+<stage>IV </stage>
+	<l id='159'>Je bannis ces Docteurs qui de mots assassins</l>
+	<l id='160'>Ont pour toute science, une longue tirade,</l>
+	<l id='161'>Et veux comme à Chaudray que tous mes Médecins,</l>
+	<l id='162'>Sachant et ne rien prendre, et guérir un malade.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='11'>
+	<s id='1'>Oh, pour celui-là, il est directement contre les Statuts de la Faculté.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, lit.</speaker>
+<stage>V </stage>
+	<l id='163'>Qu'en intrigue à vingt ans toute fille soit neuve,</l>
+<note type="L">Coulisse : se prend aussi pour ces pièces de décorations que l'on fait avancer et reculer dans les changemens de théâtre. [Ac 1762] L'expression tendron aux coulisses nourri :désigne une personne qui est entrée très jeune dans le théâtre et y a toujours vécu.</note>
+	<l id='164'>Fût-ce un tendron aux coulisses nourri :</l>
+	<l id='165'>Mais je défends à riche et vieille veuve,</l>
+	<l id='166'>D'épouser un jeune mari.</l>
+<stage>VI </stage>
+<note type="L">Brelandier : Terme de mépris. Celui, celle qui fréquente les brelans, qui joue continuellement aux cartes. [L]</note>
+	<l id='167'>Sortez de mes États, brelandières coquettes,</l>
+	<l id='168'>Qui rassembliez joueurs et galants confondus,</l>
+<note type="L">Lansquenet : Sorte de jeu de hasard qu'on joue avec des cartes. [L]</note>
+<note type="L">Bassette : Jeu de cartes assez semblable au lansquenet. [L]</note>
+	<l id='169'>Et chez qui tous les jours Lansquenets et Bassettes ;</l>
+	<l id='170'>Sont les jeux les moins défendus.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE.</speaker>
+<p id='12'>
+	<s id='1'>Vous achèverez une autre fois le reste. </s>
+	<s id='2'>Voyons à présent la noce de Jaquet et de Macine.</s>
+</p>
+<stage>Le Théâtre représente un fort beau boccage. On voit plusieurs Bergers assis auprès de leurs Bergères qui jouent de différents instruments. </stage>
+</sp>
+<sp who='UN-BERGER_UNE-BERGÈRE'><speaker>UN BERGER et UNE BERGÈRE héroïques chantent ce duo Italien.</speaker>
+	<l id='171'>Mia luce, moi core,</l>
+	<l id='172'>Mia vita, mia spene,</l>
+	<l id='173'>Quando fià che trionfi il nostre amore</l>
+	<l id='174'>Su queste spiaggie amene ?</l>
+<stage>Quatre Paysans dansent une entrée.</stage>
+</sp>
+<sp who='UNE-BERGÈRE'><speaker>UNE BERGÈRE chante.</speaker>
+	<l id='175'>Nous ne brillons jamais d'un éclat emprunté.</l>
+	<l id='176'>Notre beauté</l>
+	<l id='177'>Doit toute sa parure</l>
+	<l id='178'>À la seule nature ;</l>
+	<l id='179'>Notre teint n'est point frelaté,</l>
+	<l id='180'>Nous n'y mettons point de peinture ;</l>
+	<l id='181'>Et quand le hâle l'a gâté,</l>
+	<l id='182'>C'est avec de l'eau toute pure,</l>
+	<l id='183'>Que revient sa vivacité.</l>
+<stage>Un savetier danse tout seul.</stage>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE, chante.</speaker>
+	<l id='184'>Le seul amour est inutile,</l>
+	<l id='185'>Parmi les Amants de la Ville</l>
+	<l id='186'>Il faut par des présents exprimer son ardeur.</l>
+	<l id='187'>Pour attendrir une inhumaine ;</l>
+	<l id='188'>Il faut avec de l'or que l'on forme la chaîne,</l>
+	<l id='189'>Dont on veut arrêter son coeur.</l>
+<stage>Un Paysan et une Paysanne dansant.</stage>
+<p id='13'>
+	<s id='1'>Mais, Monsieur le Philosophe, ne voulez-vous pas aussi vous réjouir ? </s>
+	<s id='2'>Allons chantons et dansons en rond.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN.</speaker>
+<p id='14'>
+	<s id='1'>Je le veux bien. </s>
+	<s id='2'>À la charge que chacun chantera son couplet, et y mettra une comparaison.</s>
+</p>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE.</speaker>
+<p id='15'>
+	<s id='1'>Volontiers. Commencez.</s>
+</p>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, chante.</speaker>
+<note type="L">Roupie : Goutte de pituite qui dégoutte du cerveau par le nez, lors qu'il fait froid, ou qu'on est enrhumé. [F]</note>
+	<l id='190'>Comme l'hiver a des roupies,</l>
+	<l id='191'>Cérès des blés, Flore des fleurs ;</l>
+<note type="L">Harpie : Oiseau fabuleux dont il n'est fait mention que chez les poètes, qui lui donnent un visage de femme, et des pieds et des mains crochues. Se dit aussi de ceux qui sont affamés du bien d'autrui, qui le prennent avec avidité. [F]</note>
+	<l id='192'>Ainsi Paris a des harpies,</l>
+	<l id='193'>Greffiers, Sergents, et Procureurs.</l>
+</sp>
+<sp who='OCTAVE'><speaker>OCTAVE, chante.</speaker>
+	<l id='194'>Comme on voit pencher la balance</l>
+	<l id='195'>Du côté du poids le plus fort,</l>
+	<l id='196'>Ainsi femme à qui plus finance,</l>
+	<l id='197'>Se livre sans aucun effort.</l>
+</sp>
+<sp who='COLOMBINE'><speaker>COLOMBINE, chante.</speaker>
+	<l id='198'>Comme au Soleil cèdent la place</l>
+	<l id='199'>Les nuages les plus épais ;</l>
+<note type="L">Plumet : jeune militaire. [L]</note>
+	<l id='200'>Ainsi l'éclat du plumet chasse</l>
+<note type="L">Collet : Partie de l'habillement qui joint le cou, qui se met autour du cou. En ce sens on appelle Petit collet, un homme qui s'est mis dans la réforme, dans la dévotion, parce que les gens d'église portent par modestie de petits collets, tandis que les gens du monde en portent de grands ornés de points et de dentelles.</note>
+	<l id='201'>Les grands et les petits collets.</l>
+</sp>
+<sp who='LÉANDRE'><speaker>LÉANDRE, chante.</speaker>
+	<l id='202'>Comme on voit que la pleine Lune</l>
+	<l id='203'>Par degrés monte au firmament ;</l>
+	<l id='204'>Ainsi j'en sais dont la fortune</l>
+<note type="L">Croissant : C'est la Lune qui paraît sous la figure d'un croissant. Aussi, petites branches de fer poli faites en forme de croissants, qu'on scelle au dedans des jambages des cheminées pour tenir la pelle, les tenailles et les pincettes. [R]</note>
+	<l id='205'>A commencé par le croissant.</l>
+</sp>
+<sp who='MEZZETIN'><speaker>MEZZETIN, chante.</speaker>
+	<l id='206'>Comme les abeilles habiles</l>
+	<l id='207'>Puisent des fleurs les sucs nouveaux ;</l>
+	<l id='208'>Ainsi les coquettes subtiles</l>
+	<l id='209'>Sucent la bourse des nigauds.</l>
+</sp>
+<sp who='SCARAMOUCHE'><speaker>SCARAMOUCHE, chante.</speaker>
+	<l id='210'>Le fétu d'abord pirouette</l>
+	<l id='211'>Qu'il est auprès de l'ambre chaud ;</l>
+<note type="L">Ambre : Substance résineuse et inflammable. [FC]</note>
+	<l id='212'>L'ambre à Paris c'est la grisette,</l>
+<note type="L">Courtaud : Ce qui est court et raccourci. Ainsi on appelle un courtaud, un cheval de moyenne taille à qui on a coupé la queue et les oreilles : un chien courtaud, celui à qui on a coupé la queue. On appelle un homme courtaud, qui est de petite taille et de grosse corpulence. [F]	</note>
+	<l id='213'>Et le fétu c'est le courtaud.</l>
+</sp>
+<sp who='ARLEQUIN'><speaker>ARLEQUIN, chante.</speaker>
+	<l id='214'>Comme un coucou que l'amour presse,</l>
+	<l id='215'>Prend un nid qui n'est point à lui ;</l>
+	<l id='216'>Ainsi l'Officier a l'adresse,</l>
+<note type="C">v. 217, l'original porte poudre ua lieu de pondre.</note>
+	<l id='217'>De pondre dans le nid d'autrui.</l>
+<stage>Ils dansent tous en rond ; et la comédie finit.</stage>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,2360 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>STATIRA, TRAGÉDIE</title>
+				<author born='1632' born_location='Rouen' death='1698' death_location='Paris' academie=''>PRADON, Nicolas</author>
+				<date>1677</date>
+			</titleStmt>
+			<publicationStmp>	
+				<editor>Texte établi par Gladys COTTREZ (Master I de Lettres modernes - Université de la Sorbonne Paris IV, 2011-2012) sour la direction de Georges Forestier.</editor>
+				<publisher>publié par Paul FIEVRE, mars 2012</publisher>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire antique</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1671-1680</periode>
+				<taille>1500-1750</taille>
+				<permalien></permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">STATIRA</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1680">M. DC. LXXX AVEC PRIVILEGE DU ROY.</docDate>
+		<docAuthor id="PRADON, Jacques" bio='pradon'>PAR Mr PRADON.</docAuthor>
+		<docImprint>
+		<privilege id="1680-02-01"><head>Extrait du Privilège du Roy.</head>
+			<p>Par Grâce et Privilège du Roi, donné à Saint Germain en Laie le premier jour de Février 1680. Signé, Par le Roi en son Conseil, GAMART : Il est permis au Sieur PRADON de faire imprimer, vendre et débiter, par tel Libraire qu'il voudra choisir, une tragédie de sa composition, intitulée STATIRA, pendant le temps et espace de six années, à commencer du jour qu'elle sera achevée d'imprimer pour la première fois ; avec des défenses à toutes personnes, de quelque condition et qualité qu'elles soient, d'en faire imprimer, vendre, ni débiter, d'autre édition que celle de l'éxposant, ou de ceux qui auront droit de lui, à peine de trois mille livres d'amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts, et autres peines plus au long contenues dans les dites Lettres.</p>
+			<p>Registré sur le Livre de la Communauté.</p>
+		</privilege>
+			<acheveImprime id="1680-02-23">Achevé d'imprimer pour la première fois le 23. Février 1680.</acheveImprime>
+			<printer id="RIBOU">À PARIS, Chez JEAN RIBOU, au Palais, dans la  Salle Royale, à l'Image à Saint Louis.</printer>
+		</docImprint>
+		<performance>
+			<premiere date="1677-01-03" location='Hôtel Guénégaud'>Représenté pour la première fois le 3 janvier 1677 à l'Hôtel Guénégaud.</premiere>
+		</performance>
+	<preface><head>PRÉFACE</head>
+		<p>La mort de Statira causée par la jalousie de Roxane, est assez marquée dans Plutarque, pour faire le sujet d'une Tragédie ; et le caractère de Roxane est trop connu par ses cruautés, pour pouvoir rien altérer de la vérité. Ainsi quoi que Mr de la Calprenède dans son Roman de Cassandre, ait fait revivre Statira, je n'ai pas cru devoir suivre son exemple, les règles du Poème Dramatique étant plus austères que celles du Roman, qui permet beaucoup de fiction, quand l'autre s'attache le plus qu'il peut à la vérité. L'amour de Leonatus et de Statira font l'Episode et le noeud de cette Pièce. Quelques-uns ont été surpris que j'ai choisi Leonatus entre tous les Successeurs d'Alexandre, pour Amant de Statira ; mais j'ai eu des raisons assez fortes pour le faire. Léonatus était un Prince du sang d'Alexandre, fort illustre par ses exploits. Il avait commandé en chef plusieurs fois les Armées d'Alexandre ; il lui avait sauvé la vie dans la Ville des Oxydraques, et ce fut lui qui fut envoyé après la Bataille d'Issus dans les Tentes des Princesses, pour les assurer de la vie de Darius, qu'elles croyaient mort. C'est dans cette entrevue où j'ai fait naître leur tendresse, et cet endroit a paru assez beau. Il partagea l'Empire du Monde avec tous les Successeurs d'Alexandre ; et quoi qu'il ne fasse pas une grande figure dans le Roman, il en fait une assez grande dans l'Histoire, et il me doit suffire qu'il soit célèbre dans Quinte-Curce et dans Justin. J'avoue que si j'avais mêlé un peu plus de politique dans les sentiments de si grands Hommes, le Sujet n'en eut été que mieux, mais quelquefois la tendresse nous emporte plus loin qu'il ne faut. J'ai changé quelques circonstances en la mort de Statira, qui ne pouvaient s'accommoder au théâtre. Au reste, quoi que le cours de cette pièce ait été interrompu par la maladie d'un des acteurs, j'espère que la lecture pourra n'en pas déplaire, puisqu'elle a paru assez bien écrite aux plus délicats.</p>
+	</preface>
+
+		<castList><head>ACTEURS</head>
+			<castItem><role id="STATIRA" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>STATIRA</role>, fille de Darius, veuve d'Alexandre.</castItem>
+			<castItem><role id="ROXANE" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>ROXANE</role>, fille de Cohortan, Satrape de Perse, veuve d'Alexandre.</castItem>
+			<castItem><role id="LÉONATUS" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>LÉONATUS</role>, Prince du Sang d'Alexandre, et un de ses Successeurs.</castItem>
+			<castItem><role id="PERDICCAS" civil='M' type="H" statut='général' age='A' stat_amour='néant'>PERDICCAS</role>, un des premiers Chefs de l'armée d'Alexandre.</castItem>
+			<castItem><role id="CASSANDER" civil='M' type="H" statut='gouverneur' age='A' stat_amour='néant'>CASSANDER</role>, fils d'Antipater, Gouverneur de la Macédoine.</castItem>
+			<castItem><role id="HÉSIONE" civil='F' type="H" statut='confident' age='A' stat_amour='néant'>HÉSIONE</role>, confidente de Roxane.</castItem>
+			<castItem><role id="CLÉONE" civil='F' type="H" statut='confident' age='A' stat_amour='néant'>CLÉONE</role>, confidente de Statira.</castItem>
+			<castItem><role id="PEUCESTAS" civil='M' type="H" statut='confident' age='A' stat_amour='néant'>PEUCESTAS</role>, Confident de Cassander.</castItem>
+			<castItem><role id="GARDES" civil='G' type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>, et Suite de Gardes.</castItem>
+		</castList>
+		<set location='Babylone' country='Perse' periode='IVème siècle avant JC' link=''>La Scène est dans Babylone, dans le Palais de Cyrus.</set>
+		
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Perdiccas, Cassander.</head>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='1'>Pourquoi tant balancer, quand pour vous tout conspire ? </l>
+	<l id='2'>Vous devez vous saisir des rênes de l'Empire,</l>
+	<l id='3'>Babylone est pour vous ; Alexandre en mourant,</l>
+	<l id='4'>Vous a donné du trône un illustre garant, </l>
+	<l id='5'>Seigneur, et sur vous seul remettant sa Couronne,</l>
+	<l id='6'>C'est avec son anneau l'Univers qu'il vous donne.</l>
+	<l id='7'>Ce jour doit décider de tant de différends,</l>
+	<l id='8'>La Terre veut un maître, et non pas des tyrans.</l>
+	<l id='9'>Le fier Léonatus, Cratère, Ptolomée, </l>
+	<l id='10'>Ont mis dans leur parti la moitié de l'armée,</l>
+	<l id='11'>On veut nous assiéger, mais on voit Seleucus</l>
+	<l id='12'>Eumenes, Alcetas, Python, Antigonus,</l>
+	<l id='13'>Qui soutenant le droit où votre espoir se fonde,</l>
+	<l id='14'>Veulent vous élever à l'Empire du Monde ;</l>
+	<l id='15'>L'imbécile Philipe est-il né pour régner ?</l>
+	<l id='16'>Les Macédoniens ont su le dédaigner.</l>
+	<l id='17'>Bien que fils de Philipe et frère d'Alexandre,</l>
+	<l id='18'>Est-il digne du sang dont on l'a vu descendre ?</l>
+	<l id='19'>Peut-il seul commander à cent Peuples vaincus,</l>
+	<l id='20'>Et frère d'Alexandre a-t-il les vertus ? </l>
+	<l id='21'>Ce n'est point lui qu'au trône Alexandre désigne,</l>
+	<l id='22'>Ce Monarque en mourant le remet au plus digne,</l>
+	<l id='23'>Par là sans vous nommer il vous nomme en effet,</l>
+	<l id='24'>Et scelle de sa main le don qu'il vous en fait.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='25'>Je sais trop d'Alexandre honorer la mémoire, </l>
+	<l id='26'>Seigneur, pour me flatter de tant de vaine gloire ;</l>
+	<l id='27'>Il est vrai que son choix semble tomber sur moi,</l>
+	<l id='28'>Mais après ce Héros peut-on élire un Roi ?</l>
+	<l id='29'>Quand la Terre a perdu son vainqueur et son maître,</l>
+	<l id='30'>Est-il un Successeur qu'elle puisse connaître ? </l>
+	<l id='31'>Le présent qu'il m'a fait n'a point dû m'éblouir,</l>
+	<l id='32'>Il peut être fatal à qui veut en jouir ;</l>
+	<l id='33'>Quand de la Macédoine Alexandre eut l'élite,</l>
+	<l id='34'>Il avait moins de chefs que de Rois à sa suite,</l>
+	<l id='35'>Et ce héros vainqueur des Mèdes, des Persans,</l>
+	<l id='36'>Ne nommait plus de Rois que par ses Lieutenants.</l>
+	<l id='37'>Je n'ai donc point voulu me parer d'un vain titre,</l>
+	<l id='38'>De tous ses successeurs je veux être l'arbitre,</l>
+	<l id='39'>J'en ai fait nommer un pour le faire haïr,</l>
+	<l id='40'>Et n'ai choisis qu'un Roi qui me sut obéir.</l>
+	<l id='41'>Ce n'est donc point ce nom où mon coeur doit prétendre,</l>
+	<l id='42'>Seigneur, nous adorons les veuves d'Alexandre,</l>
+	<l id='43'>Pourquoi le taire encore ? Pourquoi dissimuler ?</l>
+	<l id='44'>Cassander, il est temps d'agir et de parler ;</l>
+	<l id='45'>J'adore Statira, vous adorez Roxane,</l>
+	<l id='46'>Et vous aimez en vain cette fière persane,</l>
+	<l id='47'>J'aime en vain Statira, mais il faut découvrir</l>
+	<l id='48'>Nos rivaux trop heureux, et les faire périr ;</l>
+	<l id='49'>Il faut que notre adresse à nos forces réponde,</l>
+	<l id='50'>Maîtres de Babylone, il faut l'être du Monde ;</l>
+	<l id='51'>En vain Léonatus prétend nous assiéger,</l>
+	<l id='52'>Nous saurons le combattre, et même nous venger ;</l>
+	<l id='53'>Pour gouverner l'Empire où nous devons prétendre,</l>
+	<l id='54'>Il faut nous assurer des veuves d'Alexandre,</l>
+	<l id='55'>Et fonder sur des droits justes et souverains,</l>
+	<l id='56'>Partager son Empire et celui des humains.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='57'>Ce procédé, Seigneur, me paraît trop sincère,</l>
+	<l id='58'>Pour cacher plus longtemps ce que j'ai voulu taire :</l>
+	<l id='59'>Oui, j'adore Roxane, et son coeur orgueilleux</l>
+	<l id='60'>Dédaigne mes soupirs, et rejette mes voeux ;</l>
+	<l id='61'>Fière d'avoir un fils aussi bien que Barsine,</l>
+	<l id='62'>Roxane à l'Univers pour maître le destine,</l>
+	<l id='63'>Sans songer que ce fils né d'un sang ennemi,</l>
+	<l id='64'>Le fils d'une persane est esclave à demi,</l>
+	<l id='65'>Et que la Macédoine a des Peuples trop braves</l>
+	<l id='66'>Pour se faire des Rois du sang de leurs esclaves ;</l>
+	<l id='67'>Mais puis que nous voyons ces trônes, ces États,</l>
+	<l id='68'>Payer de notre sang, et conquis par nos bras,</l>
+	<l id='69'>Nous pouvons entre nous les partager sans crime,</l>
+	<l id='70'>Puis qu'il n'a point laissé d'héritier légitime,</l>
+	<l id='71'>Les armes à la main, nous ferons voir à tous</l>
+	<l id='72'>Qu'Alexandre n'a point de Successeurs que nous.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='73'>Nos desseins sont pareils ainsi que nos tendresses,</l>
+	<l id='74'>Mais, Seigneur, il s'agit du coeur des deux Princesses,</l>
+	<l id='75'>Nous aimons l'un et l'autre, et peut-être tous deux</l>
+	<l id='76'>Nous aurons même sort pour de semblables feux ;</l>
+	<l id='77'>J'ai sauvé Statira des fureurs de Roxane</l>
+	<l id='78'>En butte aux cruautés de la fière Persane,</l>
+	<l id='79'>Cette illustre Princesse aurait perdu le jour</l>
+	<l id='80'>Sans les soins empressés qu'elle doit à l'amour ;</l>
+	<l id='81'>Nous devons pénétrer quelle jalouse envie</l>
+	<l id='82'>L'a fait incessamment armer contre sa vie,</l>
+	<l id='83'>Peut-être qu'un rival aimé de toutes deux</l>
+	<l id='84'>Leur a fait rejeter nos services, nos voeux ;</l>
+	<l id='85'>Statira malgré moi veut suivre Ptolomée,</l>
+	<l id='86'>Peut-être ce rival est-il dans son armée ?</l>
+	<l id='87'>Léonatus peut-être, ah ! Seigneur, j'en frémis...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='88'>Oui, c'est le plus mortel de tous vos ennemis,</l>
+	<l id='89'>Léonatus, Seigneur, dans le parti contraire</l>
+	<l id='90'>Sans doute est ce rival que leur coeur nous préfère ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='91'>Je sais trop, à son nom, et mes yeux me l'ont dit,</l>
+	<l id='92'>Que Statira soupire, et Roxane rougit ;</l>
+	<l id='93'>C'est assez pour tirer de fortes conjectures,</l>
+	<l id='94'>Pénétrons leurs desseins pour prendre nos mesures,</l>
+	<l id='95'>Il faut approfondir ce mystère en ce jour,</l>
+	<l id='96'>Ici la Politique est unie à l'Amour.</l>
+	<l id='97'>Roxane vient, parlez, l'occasion est belle,</l>
+	<l id='98'>Seigneur, je me retire, et vous laisse avec elle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Roxane, Cassander, Hésione.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='99'>Nous sommes investis, déjà Léonatus</l>
+	<l id='100'>Nous menace et nous compte au nombre des Vaincus ;</l>
+	<l id='101'>Mais avant que son bras ose rien entreprendre,</l>
+	<l id='102'>Il demande à nous voir, Seigneur, il faut l'entendre,</l>
+	<l id='103'>Il m'a fait demander un otage, et je viens</l>
+	<l id='104'>D'envoyer Alcetas suivi de deux des miens,</l>
+	<l id='105' part='i'>Dans peu nous le verrons...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='105' part='f'>Hé ! Que voulez-vous faire ?</l>
+	<l id='106'>Recevoir dans nos murs un mortel adversaire ?</l>
+	<l id='107'>Vient-il nous menacer ? Et quel est son dessein ?</l>
+	<l id='108'>Laissez-nous lui parler les armes à la main,</l>
+	<l id='109' part='i'>Et Perdiccas et moi, Madame...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='109' part='f'>Il faut l'entendre,</l>
+	<l id='110'>Ce Prince redoutable est du sang d'Alexandre ;</l>
+	<l id='111'>On doit le respecter. Peut-être en ce moment</l>
+	<l id='112'>Vient-il nous proposer quelque accommodement,</l>
+	<l id='113' part='i'>Seigneur, j'ai mes desseins...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='113' part='f'>Et nous avons les nôtres,</l>
+	<l id='114'>Que nous saurons régler, Madame, sur les vôtres.</l>
+	<l id='115'>Alexandre n'est plus : dans ce débris commun</l>
+	<l id='116'>Il laisse à l'Univers vingt maîtres au lieu d'un ;</l>
+	<l id='117'>Vous en avez un fils, vous lui devez un trône,</l>
+	<l id='118'>Madame, choisissez la Perse et Babylone,</l>
+	<l id='119'>Le Pont, la Macédoine, et tant d'autres Pays</l>
+	<l id='120'>Où nous pourrions dans peu couronner votre fils ;</l>
+	<l id='121'>Mais il faut à ce fils un tuteur qui soutienne</l>
+	<l id='122'>Toute votre grandeur unie avec la sienne.</l>
+	<l id='123'>Voyez, examinez, s'il n'est point parmi nous</l>
+	<l id='124'>De Prince, ou de héros qui soit digne de vous.</l>
+	<l id='125' part='i'>Ne pouvez-vous choisir ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='125' part='f'>Hé qui pourrait prétendre</l>
+	<l id='126'>À remplir dans mon coeur la place d'Alexandre ?</l>
+	<l id='127'>Pourrais-je m'abaisser à souffrir qu'en ce lieu</l>
+	<l id='128'>Un mortel usurpât le rang d'un demi-dieu ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='129'>Hé ! Madame, les Dieux, que ce discours offense,</l>
+	<l id='130'>Par ces raisons peut-être ont hâté leur vengeance,</l>
+	<l id='131'>Irrités qu'un Mortel jusques sur leurs autels</l>
+	<l id='132'>S'osât placer vivant au rang des Immortels ;</l>
+	<l id='133'>Leur justice a fait voir que ce grand Alexandre,</l>
+	<l id='134'>Ce fils de Jupiter, n'était qu'un peu de cendre,</l>
+	<l id='135'>Pardonnez un discours qui semble injurieux ;</l>
+	<l id='136'>Mais ici Cassander prend la cause des Dieux.</l>
+	<l id='137'>Ne l'avons-nous pas vu par ce nouveau caprice</l>
+	<l id='138'>Ayant de son orgueil la Fortune complice,</l>
+	<l id='139'>Rougir de paraître homme, et pour le démentir,</l>
+	<l id='140'>Désavouer le sang dont on l'a vu sortir ?</l>
+	<l id='141'>Et sans doute qu'un jour ce vainqueur téméraire</l>
+	<l id='142'>Aurait désavoué Jupiter pour son père,</l>
+	<l id='143'>Si son ambition avait pu le flatter</l>
+	<l id='144'>De trouver quelque Dieu plus grand que Jupiter.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='145'>Vous ne le craignez plus, mais s'il vivait, peut-être</l>
+	<l id='146'>Vous ne parleriez pas si haut de votre Maître,</l>
+	<l id='147'>Cassander, et son nom vous aurait fait trembler,</l>
+	<l id='148'>Lorsqu'un de ses regards vous pouvait accabler.</l>
+	<l id='149'>J'ai remarqué toujours qu'envieux de sa gloire</l>
+	<l id='150'>Sans cesse vous tâchez d'obscurcir sa mémoire ;</l>
+	<l id='151'>Je n'examine point le caprice des Dieux,</l>
+	<l id='152'>Ils ont eu leurs raisons pour l'ôter à nos yeux.</l>
+	<l id='153'>Devrais-je m'attirer l'éclat de leur colère,</l>
+	<l id='154'>Il fit seul ce qu'eux tous auraient eu peine à faire ;</l>
+	<l id='155'>Et sans doute ces Dieux de sa gloire jaloux</l>
+	<l id='156'>N'ont pu souffrir qu'il fut adoré parmi nous.</l>
+	<l id='157'>J'en dis trop. Mais enfin pour réparer la gloire</l>
+	<l id='158'>D'un demi-dieu, je dois élever sa mémoire ;</l>
+	<l id='159'>Et vous devez songer qu'après un tel époux,</l>
+	<l id='160'>Je ne puis m'abaisser d'en choisir parmi vous,</l>
+	<l id='161'>Qu'ayant monté si haut, mon coeur ne peut descendre,</l>
+	<l id='162'>Et qu'il faut à Roxane un second Alexandre.</l>
+	<l id='163' part='i'>En est-il un encore ?...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='163' part='f'>Le seul Léonatus</l>
+	<l id='164'>Sort du sang d'Alexandre, il en a les vertus ;</l>
+	<l id='165'>Mais Statira, Madame, à vos désirs fatale,</l>
+	<l id='166'>Peut-être dans son coeur vous donne une rivale ;</l>
+	<l id='167'>Le sang de Darius qui vous donna des lois,</l>
+	<l id='168'>Sa beauté, son mérite, autorisent ce choix.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='169'>Vous pourriez donc, Seigneur, en la trouvant si belle,</l>
+	<l id='170'>Lui présenter vos voeux, et soupirer pour elle,</l>
+	<l id='171'>De sa gloire mon coeur ne sera point jaloux,</l>
+	<l id='172'>Et même je consens à lui parler pour vous.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='173'>À lui parler pour moi ! Justes Dieux ! Mais, Madame,</l>
+	<l id='174'>Vous ne savez que trop le secret de mon âme,</l>
+	<l id='175'>J'attends Leonatus ; peut-être que son coeur</l>
+	<l id='176'>Découvrant ses desseins, fera voir mon erreur ;</l>
+	<l id='177'>Mais si pour Statira j'avais l'âme inquiète,</l>
+	<l id='178'>Je ne vous prierais pas d'être mon interprète,</l>
+	<l id='179'>Et peut-être mes voeux seraient-ils mieux reçus,</l>
+	<l id='180'>Si je faisais prés d'elle agir Léonatus ?</l>
+	<l id='181'>Ce trait vous est sensible, et vous frappe, Madame,</l>
+	<l id='182'>Je connais dans vos yeux le trouble de votre âme,</l>
+	<l id='183'>Mais enfin dans les miens voyez à votre tour,</l>
+	<l id='184'>Avec mon désespoir, ma rage et mon amour.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='185'>Cassander, vous poussez trop loin votre insolence,</l>
+	<l id='186'>C'est à vous devant moi de garder le silence,</l>
+	<l id='187'>Et sans approfondir qui j'aime, ou qui je hais,</l>
+	<l id='188'>Ayez plus de respect, et n'en parlez jamais,</l>
+	<l id='189' part='i'>Retirez-vous.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='189' part='f'>Hé bien ? Je vous quitte, Madame ;</l>
+	<l id='190'>Vous savez mon secret, je connais votre flamme,</l>
+	<l id='191'>Il suffit. Mais enfin si mes voeux sont déçus,</l>
+	<l id='192'>Dans peu je servirai ceux de Léonatus.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Roxane, Hésione.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='193'>L'orgueilleux Cassander se déclare, et me brave,</l>
+	<l id='194'>Lui, qui de mon époux était presque l'esclave,</l>
+	<l id='195'>Il insulte à sa gloire, et sans respecter rien,</l>
+	<l id='196'>M'ose parle en maître, et veut être le mien ;</l>
+	<l id='197'>Il vient avec fierté me découvrir sa flamme,</l>
+	<l id='198'>Il veut approfondir le secret de mon âme,</l>
+	<l id='199'>J'en rougis, Hésione, et mes sens trop émus</l>
+	<l id='200'>Au nom de ma rivale et de Léonatus,</l>
+	<l id='201'>Qui réveillant tous deux ma haine et ma tendresse,</l>
+	<l id='202'>Malgré tout mon orgueil ont fait voir ma faiblesse ;</l>
+	<l id='203'>Je verrai mes attraits peut-être humiliés,</l>
+	<l id='204'>Moi, qui vis le vainqueur de la Terre à mes pieds,</l>
+	<l id='205'>Moi, qui devrais au nom de la veuve d'Alexandre</l>
+	<l id='206'>Aller m'ensevelir dans sa superbe cendre,</l>
+	<l id='207'>J'ose encore lui survivre, et mon perfide coeur</l>
+	<l id='208'>Soupire, et malgré moi lui donne un successeur.</l>
+	<l id='209'>Dans ce trouble mortel je me connais à peine,</l>
+	<l id='210'>J'aperçois mon amour à travers de ma haine,</l>
+	<l id='211'>Et je dis en tremblant à mes sens éperdus,</l>
+	<l id='212'>Si je hais Statira, j'aime Léonatus.</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='213'>Mais, Madame, après tout oserai-je sans crime</l>
+	<l id='214'>Savoir quelle raison contre elle vous anime ?</l>
+	<l id='215'>Seul reste des enfants du sang de Darius,</l>
+	<l id='216'>Elle a mille beautés, elle a mille vertus ;</l>
+	<l id='217'>Quand Perdiccas et vous la retenez captive,</l>
+	<l id='218'>À peine malgré lui vous souffrez qu'elle vive,</l>
+	<l id='219' part='i'>Que vous a-t-elle fait ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='219' part='f'>Dieux, ce qu'elle m'a fait !</l>
+	<l id='220'>Hésione, elle est belle, et c'est là son forfait ;</l>
+	<l id='221'>Elle su m'enlever tous les voeux d'Alexandre,</l>
+	<l id='222'>Elle a droit sur un trône où son fils doit prétendre ;</l>
+	<l id='223'>Mille jeunes appas qu'elle traîne après soi,</l>
+	<l id='224'>Et toutes ses vertus, sont des crimes pour moi ;</l>
+	<l id='225'>Elle est ma concurrente à la Perse, à l'Empire,</l>
+	<l id='226'>Mais elle est ma rivale, et mon coeur en soupire ;</l>
+	<l id='227'>Je la trouve partout, ses charmes odieux</l>
+	<l id='228'>Ont toujours balancé le pouvoir de mes yeux.</l>
+	<l id='229'>Il me souvient du jour qu'on trompa ma vengeance,</l>
+	<l id='230'>Je vis Léonatus courir à sa défense,</l>
+	<l id='231'>Des soins de Perdiccas il prenait la moitié</l>
+	<l id='232'>Par d'autres intérêts que ceux de la pitié ;</l>
+	<l id='233'>Sans leur cruel amour, sans leur pitié fatale,</l>
+	<l id='234'>Roxane en cet instant n'avait plus de rivale,</l>
+	<l id='235'>Et terminant son sort pour rassurer le mien,</l>
+	<l id='236'>J'allais être en état de ne craindre plus rien.</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='237'>Mais Barsine, Madame, est plus à craindre qu'elle ;</l>
+	<l id='238'>Et bien que Statira soit plus jeune et plus belle,</l>
+	<l id='239'>Barsine a d'Alexandre un fils de qui les droits</l>
+	<l id='240' part='i'>La rendront plus coupable à vos yeux.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='240' part='f'>Je le vois,</l>
+	<l id='241'>La seule Statira cependant m'épouvante,</l>
+	<l id='242'>Et Barsine moins belle est bien plus innocente.</l>
+	<l id='243'>J'ai dans mes intérêts, et dans ceux de mon fils,</l>
+	<l id='244'>Eumenes, Seleucus, et cent autres amis ;</l>
+	<l id='245'>Mais si Léonatus se déclare pour elle,</l>
+	<l id='246'>S'il me porte aujourd'hui cette atteinte mortelle ;</l>
+	<l id='247'>Statira doit trembler... Ce Prince que j'attends</l>
+	<l id='248'>Retient encore mon âme et mes voeux en suspens ;</l>
+	<l id='249'>D'une faible espérance en secret je me flatte,</l>
+	<l id='250'>Il faut que son dessein ou son amour éclate.</l>
+	<l id='251'>Dieux ! J'en tremble, Hésione, et mon coeur agité...</l>
+	<l id='252'>Mais quelqu'un vient à nous d'un pas précipité.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Peucestas, Roxane, Hésione.</head>
+<sp who='PEUCESTAS'><speaker>PEUCESTAS.</speaker>
+	<l id='253'>Léonatus arrive, et Perdiccas l'emmène ;</l>
+	<l id='254'>Madame, ils sont déjà dans la chambre prochaine,</l>
+	<l id='255' part='i'>Vous l'allez voir, il vient.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='255' part='f'>Ah quel trouble pressant !</l>
+	<l id='256'>Cachons mieux, s'il se peut, ce que mon coeur ressent.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Léonatus, Perdiccas, Roxane, Cassander, Hésione, Gardes.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='257'>Avant que de nous faire une sanglante guerre</l>
+	<l id='258'>Dont les grands intérêts arment toute la terre,</l>
+	<l id='259'>Madame, et vous Seigneurs, nous devons balancer</l>
+	<l id='260'>Ce qui peut la finir, loin de la commencer.</l>
+	<l id='261'>Avant que notre armée ose rien entreprendre,</l>
+	<l id='262'>Nous devons ce respect aux mânes d'Alexandre,</l>
+	<l id='263'>De ne pas renverser un État si puissant</l>
+	<l id='264'>Que son bras a rendu superbe et florissant.</l>
+	<l id='265'>Il faut qu'un grand dessein sur l'équité se fonde,</l>
+	<l id='266'>Il s'agit du destin de l'Empire du Monde,</l>
+	<l id='267'>Et nous devons, vainqueurs de cent peuples divers,</l>
+	<l id='268'>Partager, et non pas déchirer l'Univers.</l>
+	<l id='269'>Sur tant de nations qui sont fières et braves,</l>
+	<l id='270'>De maîtres nous allons devenir les esclaves,</l>
+	<l id='271'>Et travaillant nous-mêmes à nos propres débris,</l>
+	<l id='272'>Nous allons par nos bras venger nos ennemis.</l>
+	<l id='273'>Oui, déjà l'Indien, le Persan et le Scythe,</l>
+	<l id='274'>S'apprêtent à briser le joug qui les irrite,</l>
+	<l id='275'>Et ces peuples vaincus à demi révoltés</l>
+	<l id='276'>Nous destinent déjà les fers qu'ils ont portés.</l>
+	<l id='277'>Quand nous serons en proies à la guerre civile, </l>
+	<l id='278'>Un ennemi défait en fera naître mille,</l>
+	<l id='279'>Qui jouissant du fruit de nos communs malheurs,</l>
+	<l id='280'>Vengeront les vaincus aux dépens des vainqueurs,</l>
+	<l id='281'>Qui devenant alors victimes de leur gloire,</l>
+	<l id='282'>Se verront accablés par leur propre victoire ;</l>
+	<l id='283'>Ainsi sans nous flatter de nos prétentions,</l>
+	<l id='284'>Donnons ordre au plutôt à nos divisions.</l>
+	<l id='285'>Philipe a-t-il d'un roi la véritable marque ?</l>
+	<l id='286'>Non, vous n'avez en lui que l'ombre d'un monarque,</l>
+	<l id='287'>Un maître qui vous sert formé de votre main,</l>
+	<l id='288'>Et vous faites mouvoir un fantôme si vain.</l>
+	<l id='289'>L'Univers peut-il être un trône héréditaire ?</l>
+	<l id='290'>La Victoire a des droits plus forts que ceux d'un frère,</l>
+	<l id='291'>Et puisque par nos mains un héros l'a conquis,</l>
+	<l id='292'>Alexandre est le père, et nous sommes les fils.</l>
+	<l id='293'>Madame, on aura soin des intérêts du vôtre,</l>
+	<l id='294'>L'intérêt de Barsine est déjà joint au nôtre,</l>
+	<l id='295'>Ainsi sur cet article on pourra décider ;</l>
+	<l id='296'>Mais, Madame, il m'en reste un autre à demander.</l>
+	<l id='297'>On tient dans ce palais Statira prisonnière,</l>
+	<l id='298'>Qu'on lui rende aujourd'hui liberté toute entière,</l>
+	<l id='299'>Tout le camp la demande, et Ptolomée, et moi. </l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='300' part='i'>Statira ?</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='300' part='f'>Comme vous elle est veuve du Roi.</l>
+	<l id='301'>Madame, comme vous elle est libre, elle est Reine ;</l>
+	<l id='302'>De plus, cent mille bras viendront briser sa chaîne,.</l>
+	<l id='303'>Si l'on nous la refuse, et qu'on ose arrêter</l>
+	<l id='304'>Une Reine d'un sang que l'on doit respecter.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='305' part='i'>Ciel ! Qu'entends-je ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='305' part='f'>Seigneur, vous ignorez peut-être</l>
+	<l id='306'>Que nous parler ainsi c'est nous parler en maître,</l>
+	<l id='307'>Et vous devez agir avec moins de hauteur ;</l>
+	<l id='308'>Attendez qu'un combat vous rende le vainqueur.</l>
+	<l id='309'>Mais je veux vous ouvrir mon âme toute entière,</l>
+	<l id='310'>Oui, c'est moi qui retiens la reine prisonnière,</l>
+	<l id='311'>Mais sachez que les fers que j'ose lui donner</l>
+	<l id='312'>Ne l'attachent ici que pour l'y couronner.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='313' part='i'>La couronner, vous ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='313' part='f'>Moi. Je prétends et j'espère</l>
+	<l id='314'>Que cette main la place au trône de son père.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='315'>Mais la Reine, Seigneur, suivant ce grand dessein,</l>
+	<l id='316'>Voudra-t-elle d'un trône offert de votre main ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='317'>Et pourquoi non, Seigneur ? Statira pourrait-elle</l>
+	<l id='318'>Refuser une place où Perdiccas l'appelle ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='319'>Madame, Statira ferait plutôt refus</l>
+	<l id='320'>De l'Univers offert, que de Léonatus.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE, à Cassander.</speaker>
+	<l id='321'>Je ne sais ; mais, Seigneur, quoi qu'il arrive,</l>
+	<l id='322'>Roxane et Perdiccas la retiendront captive.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='323'>Ah Madame ! Ou les Dieux n'auront point d'équité,</l>
+	<l id='324'>Ou nous l'arracherons à la captivité.</l>
+	<l id='325'>Au lieu de prévenir une funeste guerre,</l>
+	<l id='326'>Vous allez l'allumer aux deux bouts de la Terre,</l>
+	<l id='327' part='i'>Madame.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='327' part='f'>Et nous, Seigneur, nous saurons soutenir</l>
+	<l id='328'>Ces éclats dangereux que l'on peut prévenir.</l>
+	<l id='329'>Vous pouvez cependant assurer Ptolomée</l>
+	<l id='330'>Que nous ne craignons point ni lui, ni son armée.</l>
+<stage>À Perdiccas.</stage>
+	<l id='331' part='i'>Sortons, Seigneur. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Cassander, Léonatus.</head>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='331' part='f'>Je vois qu'on nous brave tous deux,</l>
+	<l id='332'>Roxane nous insulte et méprise mes feux,</l>
+	<l id='333'>Perdiccas m'abandonne et s'unit avec elle,</l>
+	<l id='334'>Je les quitte, Seigneur, et prends votre querelle,</l>
+	<l id='335'>Dans une heure je puis délivrer Statira,</l>
+	<l id='336'>Ou dans ce grand dessein Cassander périra.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='337'>Quoi, Seigneur, se peut-il que par votre assistance...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='338'>Seigneur, votre intérêt s'unit à ma vengeance,</l>
+	<l id='339'>J'en ai des moyens sûrs, mais pour les consulter,</l>
+	<l id='340'>Sortons, de peur qu'ici l'on nous puisse écouter.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Statira, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='341'>La superbe Roxane est toujours irritée, </l>
+	<l id='342'>Léonatus, enfin, rend son âme agitée ;</l>
+	<l id='343'>Quoi qu'elle dissimule et flatte Perdiccas,</l>
+	<l id='344'>Ses yeux ont prononcé l'arrêt de mon trépas :</l>
+	<l id='345'>Oui, Cléone, c'est là ce que j'en dois attendre ;</l>
+	<l id='346'>Fille de Darius, et veuve d'Alexandre, </l>
+	<l id='347'>Ces grands noms si fameux, si craints dans l'Univers,</l>
+	<l id='348'>Ne servent aujourd'hui qu'à me charger de fers ;</l>
+	<l id='349'>Ces grands noms aujourd'hui font ma peine et mon crime,</l>
+	<l id='350'>Et de la politique innocente victime,</l>
+	<l id='351'>En butte à cent périls, je me vois tour à tour</l>
+	<l id='352'>Et l'objet de la haine, et l'objet de l'amour.</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='353'>Lors que Léonatus est venu de l'armée,</l>
+	<l id='354'>Madame, l'on a vu que Roxane alarmée,</l>
+	<l id='355'>Unie à Perdiccas, a su tout refuser</l>
+	<l id='356'>Ce que Léonatus est venu proposer.</l>
+	<l id='357'>Mais d'où vient que Roxane à vos jours si fatale...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='358'>Pourquoi t'en étonner ? Roxane est ma rivale ;</l>
+	<l id='359'>Sa rage, ses chagrins, ses fureurs, ses refus,</l>
+	<l id='360'>Tout me dit que Roxane aime Léonatus.</l>
+	<l id='361'>Mais écoute, Cléone, il est temps de t'apprendre</l>
+	<l id='362'>Le secret et l'amour des veuves d'Alexandre ;</l>
+	<l id='363'>Mes feux, mes tristes feux, ne sont points criminels,</l>
+	<l id='364'>Quand j'adore après lui le plus grand des mortels,</l>
+	<l id='365'>Car si de l'Univers il n'eut été le maître,</l>
+	<l id='366'>Le seul Léonatus était digne de l'être. </l>
+	<l id='367'>Apprends donc mon amour, ma crainte, mes ennuis,</l>
+	<l id='368'>Et l'état pitoyable où mes jours sont réduits.</l>
+	<l id='369'>Hélas ! Te souvient-il de ce jour mémorable</l>
+	<l id='370'>Qui fit de Darius le destin déplorable ?</l>
+	<l id='371'>Quand le monde ébranlé par ce premier revers</l>
+	<l id='372'>Commença de trembler nous voyant dans les fers ;</l>
+	<l id='373'>Que dans le champ d'Issus Alexandre eut la gloire</l>
+	<l id='374'>D'honorer de nos fers sa première victoire,</l>
+	<l id='375'>Nous attendions en pleurs le destin des Vaincus,</l>
+	<l id='376'>Lors qu'on nous annonça la mort de Darius : </l>
+	<l id='377'>De cent cris douloureux nos tentes retentirent,</l>
+	<l id='378'>Les vaincus, les vainqueurs, comme nous en gémirent ;</l>
+	<l id='379'>Ma mère évanouie, avec Syfigambis,</l>
+	<l id='380'>Nous faisait redoubler nos sanglots et nos cris,</l>
+	<l id='381'>Nous étions à leurs pieds dans ces tristes alarmes, </l>
+	<l id='382'>Et pour les secourir nous n'avions que nos larmes.</l>
+	<l id='383'>Alexandre touché que par un faux rapport</l>
+	<l id='384'>Nous étions alarmés pour cette feinte mort,</l>
+	<l id='385'>Voulut sécher les pleurs qu'il nous faisait répandre ;</l>
+	<l id='386'>Léonatus entra de la part d'Alexandre, </l>
+	<l id='387'>Et ce Prince attendri de nos vives douleurs</l>
+	<l id='388'>D'un seul mot arrêta la source de nos pleurs.</l>
+	<l id='389'>Ciel ! Avec quelle grâce il aborda ma mère</l>
+	<l id='390'>Lorsqu'il nous détrompa de la mort de mon père !</l>
+	<l id='391'>Que son air était libre et rempli de grandeur !</l>
+	<l id='392'>Et qu'il me parût propre à consoler un coeur !</l>
+	<l id='393'>Je ne sais si déjà pour mon père attendrie</l>
+	<l id='394'>Lorsque Léonatus m'assurait de sa vie,</l>
+	<l id='395'>Mon coeur sans y penser, par un juste retour, </l>
+	<l id='396'>Fit servir l'amitié de passage à l'amour : </l>
+	<l id='397'>Enfin dans cet instant je ne pus me défendre</l>
+	<l id='398'>De sentir pour ce Prince un mouvement trop tendre ;</l>
+	<l id='399'>Et soit que le Destin ou l'Amour le voulut,</l>
+	<l id='400'>Il me vit, je lui plus, je le vis, il me plût.</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='401'>Mais, Madame, depuis, malgré ce coeur si tendre, </l>
+	<l id='402'>Léonatus vous vit l'épouse d'Alexandre,</l>
+	<l id='403'>Et cet illustre nom qui vous couvre d'éclat...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='404'>Il fallut obéir en victime d'État !</l>
+	<l id='405'>Léonatus rempli d'une douleur extrême,</l>
+	<l id='406'>Désespéré, tremblant ; vint m'annoncer lui-même</l>
+	<l id='407'>Qu'Alexandre dans peu me devait épouser,</l>
+	<l id='408'>Et qu'il l'avait chargé de me le proposer.</l>
+	<l id='409'>Juge de sa douleur, Cléone, et de la mienne,</l>
+	<l id='410'>Ma flamme était déjà presque égale à la sienne,</l>
+	<l id='411'>Et dans ce dur moment, je ne puis le celer, </l>
+	<l id='412'>Je voulus lui répondre, et ne sus lui parler ;</l>
+	<l id='413'>Mais tous deux de concert dans ces vives alarmes,</l>
+	<l id='414'>Nous laissâmes parler nos soupirs et nos larmes.</l>
+	<l id='415'>Je voyais à regret ce Prince mon amant,</l>
+	<l id='416'>Lui-même à ma grandeur s'immoler tendrement ;</l>
+	<l id='417'>Alexandre vainqueur, quoiqu'il fit pour me plaire,</l>
+	<l id='418'>Ne m'en parût pas moins le vainqueur de mon père ;</l>
+	<l id='419'>Ravisseur de nos biens, maître de nos États,</l>
+	<l id='420'>J'admirais ce héros, mais je ne l'aimais pas,</l>
+	<l id='421'>Il fallut obéir cependant, et mon âme</l>
+	<l id='422'>Par un triste devoir sut combattre ma flamme,</l>
+	<l id='423'>Et de Léonatus effaçant tous les traits,</l>
+	<l id='424'>Lui dire en soupirant un adieu pour jamais.</l>
+	<l id='425'>Depuis, grâces aux Dieux, mon coeur pour lui moins tendre,</l>
+	<l id='426'>A soutenu le nom d'épouse d'Alexandre ; </l>
+	<l id='427'>Une vertu sévère, un austère devoir, </l>
+	<l id='428'>M'ont cent fois arrachée au plaisir de le voir ;</l>
+	<l id='429'>Loin de lui je tâchais d'étouffer ma tendresse ;</l>
+	<l id='430'>Je l'évitais hélas ! Et le trouvais sans cesse.</l>
+	<l id='431'>Le Roi qui lui donnait comme à son favori, </l>
+	<l id='432'>Le rang d'Éphestion qu'il avait tant chéri,</l>
+	<l id='433'>Vit que Léonatus me faisait de la peine,</l>
+	<l id='434'>Et me crut pour ce Prince une secrète haine,</l>
+	<l id='435'>Et souvent malgré lui l'amenant devant moi.</l>
+	<l id='436'>M'arrachait des soupirs qu'il volait à ma foi, </l>
+	<l id='437'>Souvent il me priait dans sa tendresse extrême</l>
+	<l id='438'>D'aimer Léonatus comme il l'aimait lui-même.</l>
+	<l id='439'>Moi, qui dans cet instant eus voulu le haïr,</l>
+	<l id='440'>Cléone, je tremblais de lui trop obéir,</l>
+	<l id='441'>Et ce Prince confus de bontés de son Maître, </l>
+	<l id='442'>M'évitait aussitôt qu'il me voyait paraître.</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='443'>Mais, Madame, à présent qu'Alexandre n'est plus ;</l>
+	<l id='444'>Vous pouvez sans scrupule aimer Léonatus ;</l>
+	<l id='445'>Un Prince de son sang peut après lui prétende...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='446'>Je puis, sans offenser les mânes d'Alexandre, </l>
+	<l id='447'>Ranimer aujourd'hui dans mon coeur abattu</l>
+	<l id='448'>Un amour immolé longtemps à ma vertu,</l>
+	<l id='449'>Mais Roxane a trouvé Léonatus aimable,</l>
+	<l id='450'>Et ma flamme à ses yeux me va rendre coupable ;</l>
+	<l id='451'>Cléone, elle peut tout, les Macédoniens</l>
+	<l id='452'>Prennent ses intérêts, et négligent les miens.</l>
+	<l id='453'>Le seul Léonatus, qui veut briser ma chaîne,</l>
+	<l id='454'>Redouble de Roxane et la l'amour et la haine,</l>
+	<l id='455'>Et la force à la main, pour me tirer des fers,</l>
+	<l id='456'>Veut contre Perdiccas armer tout l'Univers. </l>
+	<l id='457'>Je tremble qu'il n'expose une si chère tête</l>
+	<l id='458'>À cent périls affreux où sa valeur s'apprête,</l>
+	<l id='459'>Et que pour me venger, ou pour me conquérir ;</l>
+	<l id='460'>Ce Héros ne se mette en danger de périr.</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='461' part='i'>Madame, Cassander vient à nous.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='461' part='f'>Ah ! Cléone,</l>
+	<l id='462' part='i'>Que veut-il ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Cassander, Peucestas, Statira.</head>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='462' part='f'>Je le vois, mon abord vous étonne,</l>
+	<l id='463'>Mais je viens vous apprendre un projet important.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='464' part='i'>Quoi donc ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='464' part='f'>Léonatus, Madame, vous attend,</l>
+	<l id='465'>Un semblable intérêt nous unit l'un et l'autre,</l>
+	<l id='466'>Il m'a dit son secret, et je connais le vôtre, </l>
+	<l id='467'>Il vous faut aujourd'hui rendre la liberté,</l>
+	<l id='468'>Et vous faire savoir ce que j'ai concerté.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='469'>Avec Léonatus qu'allez-vous entreprendre, </l>
+	<l id='470' part='i'>Seigneur ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='470' part='f'>Dans Babylone il doit bientôt se rendre,</l>
+	<l id='471'>J'appuierai ses desseins, et malgré Perdiccas</l>
+	<l id='472'>Dont j'ai depuis longtemps gagné tous les Soldats,</l>
+	<l id='473'>Qui suivant autrefois Antipater mon père,</l>
+	<l id='474'>Tous dévoués à moi, m'ont promis de tout faire.</l>
+	<l id='475'>Je ferai relever la Garde, et dans ce temps</l>
+	<l id='476'>Arbate qui commande à tous les Habitants,</l>
+	<l id='477'>Doit à Léonatus faire ouvrir une Porte,</l>
+	<l id='478'>Vous conduire en secret, et vous servir d'Escorte ;</l>
+	<l id='479'>Votre Garde est à moi, mais il faut amuser</l>
+	<l id='480'>Roxane et Perdiccas, et contre eux tout oser.</l>
+	<l id='481'>Pour mieux les éblouir, je connais l'art de feindre, </l>
+	<l id='482'>Je les flatte tous deux, et je sais me contraindre,</l>
+	<l id='483'>Mais ils pourront connaître avant la fin du jour,</l>
+	<l id='484'>Madame, que je sers ma haine et votre amour.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='485'>Ne vous étonnez pas, Seigneur, de ma surprise,</l>
+	<l id='486'>Cassander est l'auteur d'une telle entreprise, </l>
+	<l id='487' part='i'>Un amant de Roxane !</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='487' part='f'>Un amant outragé,</l>
+	<l id='488'>Oui, Madame, un amant qui veut être vengé ;</l>
+	<l id='489'>Ses mépris (devant vous j'avouerai ma faiblesse)</l>
+	<l id='490'>Loin d'éteindre mes feux, augmentent ma tendresse ;</l>
+	<l id='491'>J'en soupire de rage, et vois Léonatus</l>
+	<l id='492'>Me dérober un coeur l'objet de ses refus,</l>
+	<l id='493'>Et nous n'ignorons pas qu'en ce désordre extrême</l>
+	<l id='494'>Il vous aime, il la hait, elle me hait, je l'aime ;</l>
+	<l id='495'>Ainsi pour me venger et pour mieux l'obtenir,</l>
+	<l id='496'>Avec Léonatus je saurai vous unir ;</l>
+	<l id='497'>Peut-être que Roxane en perdant l'espérance,</l>
+	<l id='498'>Couronnera mes feux et ma persévérance,</l>
+	<l id='499'>Et pour vous engager par de si forts liens,</l>
+	<l id='500'>J'unis vos intérêts, Madame, avec les miens.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='501'>Je respire, Seigneur, et commence à comprendre</l>
+	<l id='502'>Qu'un Homme tel que vous pourra tout entreprendre ;</l>
+	<l id='503'>Vous aimez, il suffit, et vous avez promis...</l>
+	<l id='504'>Mais, Seigneur, contre vous quel nombre d'Ennemis ?</l>
+	<l id='505'>Léonatus peut-il seconder votre attente ?</l>
+	<l id='506'>Perdiccas est jaloux, et Roxane est amante.</l>
+	<l id='507' part='i'>Que de périls, grands Dieux !</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='507' part='m'>Quoi, Madame ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='507' part='f'>Seigneur, </l>
+	<l id='508'>Ce grand projet me trouble et me glace le coeur.</l>
+	<l id='509'>Quand je trace à mes yeux une fidèle image</l>
+	<l id='510'>De mille affreux périls où ce pas vous engage,</l>
+	<l id='511'>Je soupire, je tremble et n'y puis consentir, </l>
+	<l id='512'>Je ne sais quels malheurs mon coeur sait pressentir.</l>
+	<l id='513'>Dieux ! Si Léonatus dans sa funeste envie</l>
+	<l id='514'>Payait ma liberté de son sang, de sa vie,</l>
+	<l id='515'>Qu'il vint tomber sanglant à mes pieds... J'en frémis,</l>
+	<l id='516'>Et ne veux point, Seigneur, être libre à ce prix. </l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='517'>Madame, au nom des Dieux, soyez moins alarmée ;</l>
+	<l id='518'>Vous verrez aujourd'hui le Camp de Ptolomée,</l>
+	<l id='519'>Laissez-moi tout conduire, allez en ce moment,</l>
+	<l id='520'>En attendant Arbate, en votre Appartement,</l>
+	<l id='521'>Là, Madame, dans peu vous le verrez paraître. </l>
+	<l id='522'>Un plus long entretien serait suspect peut-être ;</l>
+	<l id='523'>Si Roxane en ces lieux me trouvait avec vous,</l>
+	<l id='524' part='i'>Sa jalousie...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='524' part='f'>Hé bien, évitons son courroux ;</l>
+	<l id='525'>Mais songez bien, Seigneur, quoi que l'on entreprenne,</l>
+	<l id='526'>À sauver une vie où j'attache la mienne, </l>
+	<l id='527' part='i'>C'est vous en dire trop. Adieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Cassander, Peucestas.</head>
+<sp who='PEUCESTAS'><speaker>PEUCESTAS.</speaker>
+	<l id='527' part='f'>Léonatus</l>
+	<l id='528'>Alarme Statira, rend ses désirs confus ;</l>
+	<l id='529'>Mais, Seigneur, vous devez bientôt briser sa chaîne.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='530'>Mon intérêt est joint à celui de la Reine ;</l>
+	<l id='531'>Vois donc ma politique, et connais mes desseins, </l>
+	<l id='532'>Peucestas, je la sers, cependant je la plains ;</l>
+	<l id='533'>Une telle entreprise aux yeux de sa rivale</l>
+	<l id='534'>Peut enfin être heureuse, ou devenir fatale ;</l>
+	<l id='535'>Mais qu'elle réussisse, ou non, je me promets,</l>
+	<l id='536'>D'en avoir pour mes feux l'infaillible succès. </l>
+	<l id='537'>Léonatus qui craint les ennuis d'un long siège,</l>
+	<l id='538'>Voulant les prévenir, court de lui-même au piège,</l>
+	<l id='539'>Il le veut, je le sers. Si le succès heureux</l>
+	<l id='540'>Lui donne sa Princesse, il couronne mes feux ;</l>
+	<l id='541'>S'il périt, mon rival deviendra ma victime, </l>
+	<l id='542'>Et sa propre valeur va m'épargner un crime ;</l>
+	<l id='543'>Je hais Léonatus, il me fait de l'horreur,</l>
+	<l id='544'>Tu vois que de Roxane il m'enlève le coeur,</l>
+	<l id='545'>Et quoi qu'enfin le sien pour Statira soupire,</l>
+	<l id='546'>De l'amour de Roxane il ne faut pas l'instruire, </l>
+	<l id='547'>Il l'ignore, et je veux qu'il l'ignore toujours,</l>
+	<l id='548'>Ou qu'il n'en soit instruit qu'aux dépens de ses jours ;</l>
+	<l id='549'>Mais Roxane qui craint le pouvoir de mon père,</l>
+	<l id='550'>Qui sait qu'Antipater peut servir ma colère,</l>
+	<l id='551'>Que son Armée avance, a connu que tantôt</l>
+	<l id='552'>Son esprit irrité m'avait parlé trop haut.</l>
+	<l id='553'>Dieux ! Si son coeur pouvait... La voici, la cruelle ;</l>
+	<l id='554'>Cours prendre garde à tout, et me laisse avec elle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Roxane, Cassander.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='555'>Je vous cherchais, Seigneur, vous en êtes surpris,</l>
+	<l id='556'>Mais nous devons quitter l'aigreur et le mépris, </l>
+	<l id='557'>Nos esprits inquiets en avaient l'un et l'autre,</l>
+	<l id='558'>Mon coeur en était plein aussi-bien que le vôtre,</l>
+	<l id='559'>Dans un péril pressant nous devons les bannir,</l>
+	<l id='560'>Et de grands intérêts nous doivent réunir</l>
+	<l id='561'>Je rends à vos vertus un tribut légitime, </l>
+	<l id='562'>Voyons, si vous voulez mériter mon estime.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='563'>Je ferai tout, Madame, et pour la mériter,</l>
+	<l id='564' part='i'>Que faut-il...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='564' part='f'>Un dessein qu'il faut exécuter.</l>
+	<l id='565'>Le fier Léonatus nous brave, nous menace,</l>
+	<l id='566'>Et déjà Ptolomée assiège cette Place, </l>
+	<l id='567'>Il approche ; on l'a vu du haut de nos Remparts</l>
+	<l id='568'>Faire contre nos Murs marcher ses Étendards ;</l>
+	<l id='569'>Nous pourrions d'un seul coup prévenir la tempête,</l>
+	<l id='570'>Il ne faudrait, Seigneur, abattre qu'une Tête,</l>
+	<l id='571'>Punir Léonatus de sa témérité...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='572'>Contre lui votre coeur serait-il irrité,</l>
+	<l id='573'>Madame, et pourriez-vous m'assurer d'une haine...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='574'>De ma haine, Seigneur ! Dieux ! Elle est trop certaine.</l>
+	<l id='575'>Roxane contre lui n'en a point à demi,</l>
+	<l id='576'>Je hais Léonatus en mortel Ennemi, </l>
+	<l id='577'>Lui qui prétend nous faire une sanglante guerre,</l>
+	<l id='578'>Qui contre nous soulève et le Ciel et la Terre,</l>
+	<l id='579'>Léonatus, enfin, que je veux désormais...</l>
+	<l id='580'>Pourquoi me demander, Seigneur, si je le hais ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='581'>Hé bien ? À vous servir ma main est toute prête ;</l>
+	<l id='582'>Mais, Madame, osez vous me demander sa Tête ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='583' part='i'>De qui ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='583' part='f'>D'un Ennemi qui vous est odieux,</l>
+	<l id='584' part='i'>Qui vient...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='584' part='f'>Ce n'est pas là, Seigneur, ce que je veux.</l>
+	<l id='585'>Mais je veux l'attaquer par un autre Lui-même,</l>
+	<l id='586'>Et ne veux le punir que dans l'Objet qu'il aime ; </l>
+	<l id='587'>Il nous faut éblouir et tromper Perdiccas.</l>
+	<l id='588'>Immolons en secret les funestes appas</l>
+	<l id='589' part='i'>Pour qui Léonatus...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='589' part='f'>Je vous entends, Madame,</l>
+	<l id='590'>Vous voulez que je prête un crime à votre flamme ;</l>
+	<l id='591'>Et que mon propre bras à mon amour fatal, </l>
+	<l id='592'>Perde votre rivale, et serve mon Rival ;</l>
+	<l id='593'>Bien loin de le haïr, son amour vous outrage,</l>
+	<l id='594'>Et vous en soupirez de douleur et de rage ;</l>
+	<l id='595'>Faites mieux. Punissez qui vous ose outrager,</l>
+	<l id='596'>Et donnez à mon bras le soin de vous venger ; </l>
+	<l id='597'>Vous l'aimez, et l'Ingrat peut-il en aimer d'autres ?</l>
+	<l id='598'>Peut-on être touché d'autres yeux que des vôtres ?</l>
+	<l id='599'>Madame, si ce Prince adorait vos attraits,</l>
+	<l id='600'>Tout mon rival qu'il est, je lui pardonnerais ;</l>
+	<l id='601'>Mais pour lui pardonner vous n'avez point d'excuse,</l>
+	<l id='602'>Je lui veux arracher ce coeur qu'il vous refuse,</l>
+	<l id='603'>Et pour voir aujourd'hui ses crimes expiez,</l>
+	<l id='604'>Vous l'apporter sanglant, et le mettre à vos pieds.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='605'>Je ne veux point, Seigneur, de pareilles Victimes,</l>
+	<l id='606'>Un soupir seul pourrait expier tous ses crimes, </l>
+	<l id='607'>Vous m'aimez, je vous plains, je ne puis rien de plus.</l>
+<stage>À part.</stage>
+	<l id='608'>Ah Dieux ! Que Cassander n'est-il Léonatus,</l>
+	<l id='609'>Ou que Léonatus, changeant de coeur et d'âme,</l>
+	<l id='610'>N'a-t-il de Cassander les transports et la flamme ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Hésione, Roxane, Cassander.</head>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='611'>Madame, Statira n'est plus dans le Palais, </l>
+	<l id='612'>On vient de l'enlever par des ordres secrets,</l>
+	<l id='613'>Plusieurs Gardes gagnés ont fait cette surprise,</l>
+	<l id='614'>Mais on ne connaît point l'Auteur de l'entreprise.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='615'>Il périra, le Traître. Allons, sortons, Seigneur, </l>
+	<l id='616' part='i'>Empêchons...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='616' part='f'>Demeurez, j'en punirai l'auteur ; </l>
+	<l id='617'>Mais peut-être qu'aussi par de fausses alarmes...</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='618'>Non, Seigneur, Perdiccas a déjà pris les armes,</l>
+	<l id='619' part='i'>Et par un grand Combat prés de la Porte...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='619' part='f'>Hélas !</l>
+	<l id='620'>Seigneur, allez, courez soutenir Perdiccas, </l>
+	<l id='621'>Prenez ma Garde encore, et joignez-y la vôtre, </l>
+	<l id='622' part='i'>Partez...</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='622' part='f'>Votre intérêt n'est que trop joint au nôtre,</l>
+	<l id='623'>Reposez-vous sur moi, Madame, et demeurez,</l>
+	<l id='624' par='i'>J'y cours.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='624' part='f'>Rendez le calme à mes sens égarez ;</l>
+	<l id='625'>Sur tout, si vous m'aimez, Seigneur, quoiqu'il arrive,</l>
+	<l id='626'>S'il se peut, en ces lieux ramenez ma  Captive. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Roxane, Hésione.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='627'>Léonatus sans doute a formé ce dessein,</l>
+	<l id='628'>Ce grand coup, Hésione, est parti de sa main,</l>
+	<l id='629'>Ils s'aiment, avec elle il est d'intelligence,</l>
+	<l id='630'>Et tantôt sa fierté marquait son assurance.</l>
+	<l id='631'>Ciel ! Avec quelle audace il nous a demandé</l>
+	<l id='632'>Ce que déjà lui-même il s'était accordé ?</l>
+	<l id='633'>Et ce Prince content et fier de sa tendresse,</l>
+	<l id='634'>Parlait en amant sûr du coeur de sa Maîtresse ;</l>
+	<l id='635'>Mon amour en partant cent fois m'a su tenter,</l>
+	<l id='636'>Contre le droit des Gens, de le faire arrêter, </l>
+	<l id='637'>Mais il m'a prévenue, et son ardeur fatale</l>
+	<l id='638'>Avec tout mon espoir m'enlève ma rivale ;</l>
+	<l id='639'>Cependant on combat, Hésione, et je crains</l>
+	<l id='640'>Peut-être qu'avec lui Perdiccas est aux mains ;</l>
+	<l id='641'>Peut-être que... Sortons, car je n'ose me dire...</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='642'>Madame, Perdiccas va de tout vous instruire,</l>
+	<l id='643' part='i'>Le voici.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Perdiccas, Roxane, Hésione.</head>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='643' part='f'>Savez-vous que je viens d'arrêter</l>
+	<l id='644'>Un cruel attentat prêt à s'exécuter ?</l>
+	<l id='645' part='i'>J'ai repris Statira, Madame.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='645' part='f'>Quelle joie !</l>
+	<l id='646'>Quoi, vous avez repris une si belle proie ? </l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='647'>Oui, Madame, et la Reine était prête à sortir,</l>
+	<l id='648'>Lorsqu'un Garde fidèle est venu m'avertir :</l>
+	<l id='649'>Aussitôt j'ai couru, suivi de quelque Escorte,</l>
+	<l id='650'>Quand l'infidèle Arbate a fait ouvrir la Porte.</l>
+	<l id='651'>Là plusieurs Gens armés appuyant ses desseins, </l>
+	<l id='652'>Ont avancé vers nous, et sont venus aux mains ;</l>
+	<l id='653'>Mon amour a rendu ma fureur occupée,</l>
+	<l id='654'>Arbate est le premier tombé sous mon épée ;</l>
+	<l id='655'>Mais certain Inconnu, qui le Casque abaissé,</l>
+	<l id='656'>À travers mille dards vers moi s'est élancé,</l>
+	<l id='657'>Glaçant tous nos Soldats de ses cris redoutables,</l>
+	<l id='658'>S'est fait jour parmi nous par des coups effroyables.</l>
+	<l id='659'>La Porte se referme ; alors de toutes parts</l>
+	<l id='660'>On tourne contre lui les piques et les dards ;</l>
+	<l id='661'>Les siens enveloppés de tous côtés succombent,</l>
+	<l id='662'>Mais lui seul soutient tout quand tous les autres tombent :</l>
+	<l id='663'>Aussitôt j'ai couru reprendre Statira,</l>
+	<l id='664' part='i'>Qui toute en pleurs...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='664' part='f'>Mais Dieux ! L'inconnu périra, Seigneur ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='665'>Non, non, Madame, et j'ai dit qu'on l'emmène,</l>
+	<l id='666'>De cette trahison il recevra la peine ; </l>
+	<l id='667'>J'en veux savoir l'Auteur, j'en veux être éclairci,</l>
+	<l id='668'>Sur tout j'ai commandé qu'on l'amenât ici,</l>
+	<l id='669'>Vous l'allez voir. À moins qu'un coup trop légitime</l>
+	<l id='670'>N'ait déjà fait payer la peine de son crime,</l>
+	<l id='671' part='i'>Il était tout couvert de sang.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='671' part='f'>Ciel ! Que d'effroi ! </l>
+	<l id='672'>Je tremble, je frissonne, et je ne sais pourquoi ;</l>
+	<l id='673'>Mais, Hésione, hélas ! D'où vient que j'en soupire ?</l>
+	<l id='674'>Il est couvert de sang, et peut-être il expire,</l>
+	<l id='675'>Il n'en faut plus douter ; ah ! Regrets superflus !</l>
+	<l id='676'>Seigneur, vous-avez fait périr Léonatus. </l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='677' part='i'>Serait-ce lui, Madame ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='677' part='f'>Oui, Seigneur, c'est lui-même ;</l>
+	<l id='678'>Statira, son amour, cette valeur suprême,</l>
+	<l id='679'>Tout me dit que c'est lui qu'on a su trop punir ;</l>
+	<l id='680'>Enfin cet inconnu tarde trop à venir ;</l>
+	<l id='681'>Il faut, pour dissiper mes mortelles alarmes, </l>
+	<l id='682'>Chercher cet ennemi qui me coûte des larmes.</l>
+<stage>Elle sort.</stage>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='683'>Ah ! Dieux, d'un tel dessein je demeure surpris ;</l>
+	<l id='684'>Serait-ce mon rival enfin qui serait pris ?</l>
+	<l id='685'>Suivons Roxane, allons pénétrer ce mystère,</l>
+	<l id='686'>Et voir ce que le Sort ou l'Amour ont pu faire.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Statira, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='687'>Cléone, en cet instant, quel espoir m'est permis ?</l>
+	<l id='688'>Léonatus est seul contre mille Ennemis ;</l>
+	<l id='689'>Pressé de tous côtés, à mille traits en butte,</l>
+	<l id='690'>Quel secours, ou quel Dieu peut retarder sa chute ? </l>
+	<l id='691'>Cassander l'a trahi sans-doute, et Perdiccas</l>
+	<l id='692'>M'enferme en ce Palais, et vole à son trépas ;</l>
+	<l id='693'>Son bras et sa valeur l'ont trop fait reconnaître,</l>
+	<l id='694'>On l'attaque, on le presse, il succombe peut-être ;</l>
+	<l id='695'>Quelle horreur se répand dans mes sens éperdus !</l>
+	<l id='696'>Mon amant est captif, ou peut-être il n'est plus,</l>
+	<l id='697'>Son désespoir marquait sa trop funeste envie,</l>
+	<l id='698'>Il ne combattait plus pour défendre sa vie,</l>
+	<l id='699'>Et si tôt qu'il a vu Perdiccas m'enlever,</l>
+	<l id='700'>Il a voulu la perdre, et non pas la sauver.</l>
+	<l id='701'>Dieux ! Le nombre l'accable, et s'en est fait sans doute ;</l>
+	<l id='702'>Voila ce qu'aujourd'hui sa tendresse lui coûte ;</l>
+	<l id='703'>Cléone, chaque instant redouble mon effroi,</l>
+	<l id='704'>Les traits qui vont à lui semblent tomber sur moi,</l>
+	<l id='705'>C'est moi qui l'ai perdu, malheureuse Princesse,</l>
+	<l id='706'>Pourquoi Léonatus eut-il tant de tendresse ?</l>
+	<l id='707'>Sans mes coupables yeux il n'eut rien entrepris ;</l>
+	<l id='708'>Faut-il qu'il en reçoive un si funeste prix ?</l>
+	<l id='709'>Que son âme ait été pour moi trop enflammée ?</l>
+	<l id='710'>Il n'aurait point péri, s'il m'avait moins aimée.</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='711'>Non, Madame, les Dieux prendront soin de ses jours,</l>
+	<l id='712'>J'ai vu de loin voler Roxane à son secours,</l>
+	<l id='713'>Son coeur (n'en doutez point) dans ce péril extrême,</l>
+	<l id='714'>L'entraîne et la conduit pour sauver ce qu'elle aime ;</l>
+	<l id='715'>Elle saura calmer la fureur des Soldats,</l>
+	<l id='716'>Et dérober sa vie au fer de Perdiccas ;</l>
+	<l id='717' part='i'>Oui, Madame, espérez...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='717' part='f'>Espérance fatale !</l>
+	<l id='718'>Quoi, mon amant devrait la vie à ma rivale ?</l>
+	<l id='719'>Ciel, en me rassurant, tu redoubles ma peur,</l>
+	<l id='720'>Et pour me consoler, tu me perces le coeur.</l>
+	<l id='721'>Cruelle, vois mon âme également atteinte,</l>
+	<l id='722'>Frémir de l'espérance autant que de la crainte,</l>
+	<l id='723'>L'une et l'autre m'accablent, et me font soupirer ;</l>
+	<l id='724'>Hélas ! Que dois-je craindre, ou que dois-je espérer ?</l>
+	<l id='725'>Mais je vois Perdiccas, et je crains de l'entendre,</l>
+<stage>Il vient à nous.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Perdiccas, Statira, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='726'>Seigneur, que venez- vous m'apprendre ?</l>
+	<l id='727'>Avez-vous assouvi votre injuste fureur ?</l>
+	<l id='728'>Avez-vous immolé, grands Dieux ! Mon Défenseur,</l>
+	<l id='729' part='i'>Ce Héros qui pour moi...</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='729' part='f'>Vous le pleuriez, Madame ?</l>
+	<l id='730'>Il est vivant. Je vois le plaisir de votre âme,</l>
+	<l id='731'>Et que vous assurant de ses jours, je prévois</l>
+	<l id='732'>Que vous m'écouterez pour la première fois.</l>
+	<l id='733'>Oui, dans l'heureux instant que je vous ai reprise ;</l>
+	<l id='734'>Et qu'il allait payer sa coupable entreprise,</l>
+	<l id='735'>Que tout couvert du sang de qui l'environnait,</l>
+	<l id='736'>J'ai connu mon rival aux grands coups qu'il donnait,</l>
+	<l id='737'>Madame, je lui dois rendre ce témoignage,</l>
+	<l id='738'>Tout mon rival qu'il est, j'admirais son courage,</l>
+	<l id='739'>Et prêt à le combattre, hélas ! J'étais jaloux</l>
+	<l id='740'>Que tout autre que moi voulut mourir pour vous.</l>
+	<l id='741'>Mais Roxane en ces lieux par l'amour amenée,</l>
+	<l id='742'>A suivi le penchant dont elle est entraînée,</l>
+	<l id='743'>Et malgré mille traits s'étant mise entre nous,</l>
+	<l id='744'>A dérobé sa vie à mon juste courroux ;</l>
+	<l id='745'>Cependant pour ses jours ne soyez plus en peine,</l>
+	<l id='746'>Il sont en sûreté dans les mains de la Reine.</l>
+	<l id='747'>Vous frémissez, Madame, et votre joie enfin</l>
+	<l id='748'>Se dissipe et se change en un sombre chagrin.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='749'>Dans les mains de Roxane il a voulu se rendre,</l>
+	<l id='750'>Lui, qui de mille Bras avait pu se défendre ;</l>
+	<l id='751'>Roxane seule, ah Dieux ! L'a donc su désarmer ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='752'>Par son amour peut-être il s'est laissé charmer,</l>
+	<l id='753'>Et voyant par mes soins son attente trompée,</l>
+	<l id='754'>Dans les mains de Roxane il a mis son épée,</l>
+	<l id='755'>Qui brisée à demi, marque de sa valeur...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='756'>Il s'en devait plonger les restes dans le coeur, </l>
+	<l id='757' part='i'>Plutôt que de la rendre à Roxane.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='757' part='f'>Madame,</l>
+	<l id='758'>Ce Prince doit la vie à l'ardeur de sa flamme,</l>
+	<l id='759'>Sans l'amour de Roxane il allait succomber,</l>
+	<l id='760'>Et sous ce bras peut-être on l'aurait vu tomber ;</l>
+	<l id='761'>Mais il faut qu'il réponde à notre juste envie,</l>
+	<l id='762'>Qu'il lui donne son coeur pour le prix de sa vie ;</l>
+	<l id='763'>Ah Dieux ! Vous pâlissez, Madame, à ce discours.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='764'>Est-ce à vous à régler sa fortune et ses jours ?</l>
+	<l id='765'>Quoi, le sang d'Alexandre est-il donc votre esclave ?</l>
+	<l id='766'>Vous nous parlez en Maître, et votre orgueil nous brave ;</l>
+	<l id='767'>Et depuis quand, Seigneur, êtes-vous notre Roi ?</l>
+	<l id='768'>Vous n'avez aucun droit ni sur lui, ni sur moi,</l>
+	<l id='769'>Sur ses jours cependant vous parlez d'entreprendre,</l>
+	<l id='770'>Vous osez retenir la Veuve d'Alexandre,</l>
+	<l id='771'>Pour me donner des fers de ceux qu'il a vaincus ?</l>
+	<l id='772'>C'est assez que je sois Fille de Darius,</l>
+	<l id='773'>Et bien que je doive être indépendante et Reine,</l>
+	<l id='774'>Le sang de Darius était né pour la chaîne,</l>
+	<l id='775' part='i'>Je le vois.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='775' part='f'>Non, Madame, il est né pour régner,</l>
+	<l id='776'>Le trône de la Perse est-il à dédaigner,</l>
+	<l id='777'>Je vous l'offre... Mais Dieux ! Je vois qu'on me méprise,</l>
+	<l id='778'>Que de Léonatus votre âme est trop éprise,</l>
+	<l id='779'>Il n'en faut plus douter, mon rival est heureux,</l>
+	<l id='780'>J'ai gémi trop longtemps, et j'ai trop fait de voeux,</l>
+	<l id='781'>Je connais votre amour par votre jalousie,</l>
+	<l id='782'>Madame, cet amour lui peut coûter la vie,</l>
+	<l id='783'>Il est entre nos mains ce rival fortuné,</l>
+	<l id='784'>Voyez à quels malheurs il sera destiné,</l>
+	<l id='785'>Il y va d'un Empire, il y va de vous-même,</l>
+	<l id='786'>Je suis le malheureux, on me méprise, on l'aime ;</l>
+	<l id='787'>Mais si vous dédaignez mes soupirs et ma foi,</l>
+	<l id='788'>Je puis ensevelir mon rival avec moi.</l>
+	<l id='789'>Ah ! Je vois que pour lui votre âme est alarmée,</l>
+	<l id='790'>Et la mienne est de rage et d'amour enflammée.</l>
+	<l id='791'>Roxane va venir ; mais sans vous étonner,</l>
+	<l id='792'>Pour lui, suivez l'avis qu'elle doit vous donner,</l>
+	<l id='793'>Il faut que votre coeur désormais l'abandonne,</l>
+	<l id='794'>Et surtout que dans peu Roxane le couronne.</l>
+	<l id='795' part='i'>C'est vous en dire assez. Adieu, Madame.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Statira, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='795' part='f'>Hélas ! </l>
+	<l id='796'>Qu'entends-je ? Que dit-il ? Quel affreux embarras !</l>
+	<l id='797'>Pour ce Prince, Cléone, à peine je respire,</l>
+	<l id='798'>Que l'on m'apprend qu'il faut... Ah ! Mon coeur en soupire,</l>
+	<l id='799'>Et Perdiccas (d'horreur je m'en sens frissonner)</l>
+	<l id='800'>Ne lui laisse le jour que pour m'abandonner.</l>
+	<l id='801'>Vois donc à quels malheurs le Destin me condamne,</l>
+	<l id='802'>Verrai-je mon amant couronnée par Roxane ?</l>
+	<l id='803'>Verrai-je Perdiccas l'immoler... Que d'effroi !</l>
+	<l id='804'>Mais s'il vit pour Roxane, est-il pas mort pour moi ?</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='805'>Ne craignez rien, Madame, il vous sera fidèle,</l>
+	<l id='806' part='i'>Ce Prince, qui pour vous...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='806' part='f'>Hélas, Roxane est belle,</l>
+	<l id='807'>Léonatus a vu pour lui ce qu'elle a fait.</l>
+	<l id='808'>Dieux ! Ne l'a-t-elle pas désarmé tout-à-fait ?</l>
+	<l id='809'>Peut-être qu'ébloui de l'éclat de ses charmes,</l>
+	<l id='810'>Ce n'est qu'à sa beauté qu'il a rendu les armes ;</l>
+	<l id='811'>Peut-être que touché de son empressement,</l>
+	<l id='812'>Il oublie à ses pieds qu'il était mon amant ;</l>
+	<l id='813'>Elle est belle, elle aime ; ah que de jalousie !</l>
+	<l id='814'>Des mains de Perdiccas elle a sauvé sa vie,</l>
+	<l id='815'>Il peut être attendri d'un amour si pressant,</l>
+	<l id='816'>Cléone, si son coeur était reconnaissant ?</l>
+	<l id='817'>Ciel ! De quel souvenir mon âme est combattue !</l>
+	<l id='818'>Ma rivale le sauve, et c'est moi qui le tue,</l>
+	<l id='819'>C'est moi qui l'ai conduit dans cet instant fatal,</l>
+	<l id='820'>Dans les bras d'une amante, et dans ceux d'un rival.</l>
+	<l id='821'>Mais Roxane parait ; que j'en suis alarmée !</l>
+	<l id='822'>Elle a l'air trop content pour n'être pas aimée.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Roxane, Hésione, Statira, Cléone.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='823'>Vous me devez ici quelque remerciement,</l>
+	<l id='824'>Madame, j'ai sauvé le jour à votre amant ;</l>
+	<l id='825'>Vous voyez de quel air pour vous je m'intéresse :</l>
+	<l id='826'>Mais, Madame, d'où vient cette sombre tristesse ?</l>
+	<l id='827'>Était-ce pour vos yeux un spectacle plus doux,</l>
+	<l id='828'>De voir Léonatus prêt à mourir pour vous ?</l>
+	<l id='829'>Il eut mieux par sa mort signalé sa tendresse ;</l>
+	<l id='830'>Mais c'est pousser trop loin votre délicatesse,</l>
+	<l id='831'>Je vous viens d'épargner de sensibles regrets,</l>
+	<l id='832'>Nous avons un otage assuré de la Paix ;</l>
+	<l id='833'>Pour peu qu'à mes desseins sa prudence réponde,</l>
+	<l id='834'>Nous allons disposer de l'Empire du Monde.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='835'>Madame, je prends part à ce rare bonheur,</l>
+	<l id='836'>Mais avez-vous déjà disposé de son coeur ?</l>
+	<l id='837'>Vous êtes généreuse, il est vrai, je l'avoue,</l>
+	<l id='838'>Ce que vous avez fait mérite qu'on vous loue ;</l>
+	<l id='839'>Il vous doit tout enfin... Mais, Madame, entre nous,</l>
+	<l id='840'>Vous l'avez conservé moins pour moi que pour vous.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='841'>J'ai fait ce que j'ai dû, mais à parler sans feindre, </l>
+	<l id='842'>Madame, pour ses jours un rival est à craindre ;</l>
+	<l id='843'>Un rival méprisé, jaloux, et furieux,</l>
+	<l id='844'>Peut le faire expirer malgré nous à nos yeux :</l>
+	<l id='845'>Je l'ai vu, sa fureur m'a paru sans égale,</l>
+	<l id='846'>Et pour moi si j'aimais, que j'eusse une rivale,</l>
+	<l id='847'>Mon plaisir le plus doux, je ne puis le celer,</l>
+	<l id='848'>Ce serait à mes yeux de la faire immoler ;</l>
+	<l id='849'>J'entre dans ses transports, et connais sa tendresse,</l>
+	<l id='850'>C'est pour Léonatus que ma crainte vous presse,</l>
+	<l id='851'>Perdiccas est puissant, Madame, et vos refus</l>
+	<l id='852'>Vont faire malgré nous périr Léonatus.</l>
+	<l id='853'>Je ne réponds de rien dans sa fureur extrême.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='854'>Moi, je réponds de tout, puis que Roxane l'aime,</l>
+	<l id='855'>Il est entre vos mains, Madame, c'est assez,</l>
+	<l id='856'>Il est en sûreté plus que vous ne pensez.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='857'>Non, ce n'est pas assez pour assurer sa vie,</l>
+	<l id='858'>Il faut qu'à Perdiccas Statira soit unie.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='859' part='i'>Moi, Madame ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='859' part='f'>Oui, vous. C'est l'unique moyen</l>
+	<l id='860'>De retenir son bras aussi-bien que le mien ;</l>
+	<l id='861'>Sans balancer, Madame, il faut qu'il vous épouse,</l>
+	<l id='862'>Perdiccas est jaloux, et Roxane est jalouse ;</l>
+	<l id='863'>Mais ce n'est pas assez : je viens vous avertir</l>
+	<l id='864'>Qu'aux yeux de votre amant il y faut consentir ;</l>
+	<l id='865'>J'attends Léonatus, et c'est en ma présence</l>
+	<l id='866'>Qu'il vous faut accepter une telle alliance,</l>
+	<l id='867'>Qu'il faut le recevoir avec un air glacé,</l>
+	<l id='868'>Qu'avec lui le présent démente le passé ;</l>
+	<l id='869'>De concert avec moi Perdiccas sait l'instruire</l>
+	<l id='870'>Que votre coeur consent à l'Hymen qu'il désire ;</l>
+	<l id='871'>Il va venir sans-doute, inquiet, alarmé,</l>
+	<l id='872'>Mais il faut que par vous cet Hymen confirmé...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='873' part='i'>Quoi ? Je pourrais pour lui...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='873' part='f'>Du moins il faut le feindre ;</l>
+	<l id='874'>Pour lui, pour vous, pour moi, vous avez tout à craindre ;</l>
+	<l id='875'>Vous m'entendez, songez qu'en ce fatal moment</l>
+	<l id='876'>Vous allez décider du sort de votre amant ;</l>
+	<l id='877'>Vous avez dans vos mains votre vie et la sienne,</l>
+	<l id='878'>Celle de Perdiccas aussi bien que la mienne,</l>
+	<l id='879'>Et si nous n'avons pas ce que nous chérissons,</l>
+	<l id='880'>Nous pourrons perdre au moins ce que nous haïssons ;</l>
+	<l id='881'>Songez par des froideurs à préparer son âme,</l>
+	<l id='882'>À changer comme vous et d'objet et de flamme,</l>
+	<l id='883' part='i'>Ou tremblez...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='883' part='f'>Hé, mon coeur pourrait il obéir ?</l>
+	<l id='884'>Mes yeux et mes soupirs, tout saura me trahir.</l>
+	<l id='885'>Dois-je faire à mes feux l'indigne violence ?...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='886'>Vos feux, de Perdiccas armeront la vengeance ;</l>
+	<l id='887'>Mais croyez-moi, feignez, il y va de vos jours.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='888'>Cruelle, faudra-t-il que je feigne toujours ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='889'>Peut-être que sa mort saura moins vous contraindre, </l>
+	<l id='890' part='i'>Et Perdiccas...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='890' part='f'>Hé bien ? Il faut tâcher de feindre ;</l>
+	<l id='891' part='i'>Dieux ! Il vient ; ah sortons.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='891' part='f'>Madame, demeurez,</l>
+	<l id='892'>Et songez bien sur tout à ce que vous direz.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Léonatus, Roxane, Statira, Hésione, Cléone, Gardes.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='893'>Je ne suis point, Madame, accablé de ma chute,</l>
+	<l id='894'>À de plus grands malheurs je vois mon âme en butte,</l>
+	<l id='895'>Je perds la liberté, c'est un léger revers ;</l>
+	<l id='896'>Mais, Madame, on m'apprend de plus, que je vous perds.</l>
+	<l id='897'>Vous me voyez surpris d'une étrange nouvelle,</l>
+	<l id='898'>Elle vient cependant d'une bouche fidèle,</l>
+	<l id='899'>Perdiccas me l'assure, et c'est lui dont je tiens</l>
+	<l id='900'>Que l'Hymen doit unir vos feux avec les siens ;</l>
+	<l id='901'>J'aurais peine à le croire, à moins que votre bouche</l>
+	<l id='902'>Ne confirme elle-même un Arrêt qui me touche ;</l>
+	<l id='903'>Parlez qu'en dites-vous ?... Vous ne répondez pas,</l>
+	<l id='904'>Madame... Juste Ciel ! Croirai-je Perdiccas ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='905'>Sans trop vous expliquer ici ce que je pense,</l>
+	<l id='906'>Vous devriez, Seigneur, entendre mon silence.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='907'>Je ne l'entends que trop ce silence odieux,</l>
+	<l id='908'>Mon rival a charmé votre coeur et vos yeux.</l>
+	<l id='909'>Ah ! Tantôt j'en frémis ; avec quelle tendresse</l>
+	<l id='910'>A-t-il volé lui-même auprès de sa Maîtresse ?</l>
+	<l id='911'>De quel feu son visage était-il enflammé !</l>
+	<l id='912'>Il combattait trop bien, pour n'être pas aimé.</l>
+	<l id='913'>Quoi, Madame, ses soins pendant ma longue absence</l>
+	<l id='914'>Ont-ils... Garderez-vous ce funeste silence,</l>
+	<l id='915' part='i'>Madame ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='915' part='m'>Hélas !</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='915' part='f'>Seigneur, elle a d'autres desseins,</l>
+	<l id='916'>Il faut qu'elle aime ailleurs ; vous l'aimez, je vous plains.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='917'>Je vous entends, Madame, et la Reine infidèle</l>
+	<l id='918'>Me sacrifie après ce que j'ai fait pour elle.</l>
+	<l id='919'>Quand on se tait hélas ! C'est parler à demi ;</l>
+	<l id='920'>Dieux ! Elle me préfère un mortel Ennemi,</l>
+	<l id='921'>À son coeur Perdiccas malgré moi peut prétendre,</l>
+	<l id='922'>Moi qui n'eus autrefois pour rival qu'Alexandre ;</l>
+	<l id='923'>À moi-même pour vous je l'avais préféré,</l>
+	<l id='924'>Cependant votre coeur en avait soupiré,</l>
+	<l id='925'>Et ces tendres soupirs, où mon espoir se fonde,</l>
+	<l id='926'>Me rendaient plus heureux que le Maître du Monde.</l>
+	<l id='927'>Il m'en souvient hélas ! Mais vous en soupirez,</l>
+	<l id='928'>Que vois-je, juste Dieux ! Madame, vous pleurez,</l>
+	<l id='929'>Pourquoi me cachez-vous ces larmes que j'adore ?</l>
+	<l id='930'>Mais quel est ce mystère, et faut-il que j'ignore...</l>
+	<l id='931' part='i'>Un secret...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='931' part='f'>Non, Seigneur, ne vous y trompez pas,</l>
+	<l id='932'>Au nom des Dieux, croyez que j'aime Perdiccas.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='933'>Ah ! C'en est trop, cruelle, et cet aveu funeste</l>
+	<l id='934'>Arrache de mon coeur tout l'amour qui lui reste :</l>
+<stage>À Roxane.</stage>
+	<l id='935'>Et Madame, tantôt pourquoi votre secours</l>
+	<l id='936'>Vous fit-il épargner de si malheureux jours ?</l>
+	<l id='937'>On ne m'a conservé, (quelle pitié cruelle !)</l>
+	<l id='938'>Que pour voir aujourd'hui ma Princesse infidèle,</l>
+	<l id='939'>Et l'on prétend encore par un Hymen fatal</l>
+	<l id='940'>M'attacher en triomphe au Char de mon Rival ;</l>
+	<l id='941'>Au lieu de m'accabler d'une importune vie,</l>
+	<l id='942'>Rendez-moi cette mort que vous m'avez ravie.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='943'>Le jour que de ma main vous devez accepter,</l>
+	<l id='944'>Ne vous fut pas rendu, Seigneur, pour vous l'ôter.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='945'>Non, sans-doute la vie a pour vous trop de charmes,</l>
+	<l id='946'>Vous la devez à qui vous rendîtes les armes.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='947'>Madame, mon amour désespéré, jaloux,</l>
+	<l id='948'>Ne m'a rendu captif que pour l'être avec vous ;</l>
+	<l id='949'>J'avais fait mes efforts pour briser votre chaîne,</l>
+	<l id='950'>Je n'ai pu. J'avais crû qu'une mort plus certaine</l>
+	<l id='951'>M'affranchirait du moins des maux que j'ai souffert ;</l>
+	<l id='952'>Mais n'ayant pu mourir, j'ai partagé vos fers,</l>
+	<l id='953'>Et trouvais prés de vous, perdant toute espérance,</l>
+	<l id='954'>L'esclavage, ou la mort, moins cruels que l'absence.</l>
+	<l id='955'>Mais je vous parle en vain, et j'ai beau protester,</l>
+	<l id='956'>Ciel ! Vous ne voulez pas seulement m'écouter,</l>
+	<l id='957'>Cependant vous pleurez, oui, Madame, et je doute...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='958'>Croyez tout, et tremblez que je ne vous écoute.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='959'>Hé bien, je croirai tout, puisque vous le voulez ;</l>
+	<l id='960'>Aux feux de Perdiccas les miens sont immolés,</l>
+	<l id='961'>Vous haïssez la Reine. Ah ! Si j'osais, Madame,</l>
+	<l id='962'>Vous donnez à ses feux et mon coeur et mon âme,</l>
+	<l id='963'>Si ce coeur méprisé ne l'était pas de vous...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='964'>Que faites-vous, Seigneur, dans ce transport jaloux ?</l>
+	<l id='965'>Et n'entendez-vous pas un langage si tendre ?</l>
+	<l id='966'>Mais que dis-je, grands Dieux ! Je me fais trop entendre :</l>
+	<l id='967'>à part. Devrais je cependant irriter son esprit,</l>
+	<l id='968'>Seigneur, ne croyez rien de tout ce que j'ai dit.</l>
+<stage>Elle sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Léonatus, Roxane.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='969'>Dieux ! Que veut-elle dire ? Et quelle est sa contrainte ?</l>
+	<l id='970'>Est-ce une vérité, Madame, est-ce une feinte ?</l>
+	<l id='971'>Elle dit devant vous qu'elle aime Perdiccas,</l>
+	<l id='972'>Mais ses pleurs, ses soupirs, ne me le disent pas ;</l>
+	<l id='973'>De grâce, expliquez-moi cet étrange mystère.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='974'>Elle n'a que trop dit ce qu'elle devait taire,</l>
+	<l id='975'>Et lorsque votre coeur a trop su l'écouter,</l>
+	<l id='976'>Ses pleurs et ses soupirs pourront vous en coûter.</l>
+	<l id='977'>Mais Seigneur, il est temps que Roxane s'explique,</l>
+	<l id='978'>La fière Statira détruit ma politique ;</l>
+	<l id='979'>Si ma haine contre elle a pu vous étonner,</l>
+	<l id='980'>J'aime, j'adore... un fils que je veux couronner :</l>
+	<l id='981'>Elle prétend, Seigneur, régner dans Babylone,</l>
+	<l id='982'>Elle est contre mon fils, ma rivale à ce trône,</l>
+	<l id='983'>Nos desseins sont pareils, nos intérêts égaux,</l>
+	<l id='984'>Mais le trône, Seigneur, ne veut point de Rivaux,</l>
+	<l id='985'>Je ne la puis souffrir, je la hais, et je tremble...</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='986'>Ah ! Madame, je vais vous réunir ensemble,</l>
+	<l id='987'>J'y ferai consentir tous nos Chefs avec nous,</l>
+	<l id='988'>Rendez moi Statira, Babylone est à vous.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='989'>Vous la rendre, Seigneur ? Avant que m'y résoudre,</l>
+	<l id='990'>On verra ce Palais et Babylone en poudre ;</l>
+	<l id='991'>Trahirais-je un Ami qui me prête son bras ? </l>
+	<l id='992'>Ce serait me trahir, que trahir Perdiccas ;</l>
+	<l id='993'>Il aime Statira quand Roxane l'abhorre ;</l>
+	<l id='994'>Elle ne vit qu'autant que Perdiccas l'adore,</l>
+	<l id='995'>Il prend mes intérêts, je dois prendre les siens,</l>
+	<l id='996'>Et sans-doute ils me sont aussi chers que les miens.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='997'>Madame, j'avais cru que cédant Babylone, </l>
+	<l id='998'>Vous borniez vos désirs à l'espoir de ce trône ;</l>
+	<l id='999'>Mais quoi ? de Perdiccas les intérêts trahis</l>
+	<l id='1000'>Vous seront-ils plus chers que ceux de votre fils ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1001'>Seigneur, à ce discours faut-il que je réponde ?</l>
+	<l id='1002'>Un coeur m'était plus cher que l'Empire du Monde ;</l>
+	<l id='1003'>Vous m'entendez... mais non, vous ne m'entendez pas,</l>
+	<l id='1004'>Vos yeux cherchent l'objet des feux de Perdiccas ;</l>
+	<l id='1005'>Égarés et distraits, il vous souvient à peine</l>
+	<l id='1006'>Que je suis devant vous, que je suis votre Reine ;</l>
+	<l id='1007'>Il est vrai, j'oubliais et ma gloire et mon fils, </l>
+	<l id='1008'>Pour le seul Perdiccas mon coeur les a trahis ;</l>
+	<l id='1009'>Mais soutenons le nom de Veuve d'Alexandre,</l>
+	<l id='1010'>À ce grand souvenir Roxane doit se rendre,</l>
+	<l id='1011'>Et pour placer son fils au trône de Cyrus,</l>
+	<l id='1012'>Achevons d'immoler le sang de Darius.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1013'>Eh ! Contre Statira quelle fureur extrême ?</l>
+	<l id='1014'>Vous ne la haïssez que parce que je l'aime ;</l>
+	<l id='1015'>Faisant tomber sur elle un injuste courroux,</l>
+	<l id='1016'>C'est moins elle que moi qu'on veut percer de coups,</l>
+	<l id='1017'>Votre haine pour moi fut toujours sans égale...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1018'>Oui, je te hais, Ingrat, autant que ma rivale :</l>
+	<l id='1019'>Mais que dis-je, grands Dieux ! En ce fatal moment ?</l>
+	<l id='1020'>Quand on hait la rivale, est-ce haïr l'amant ?</l>
+	<l id='1021'>Mais, enfin, devant toi Roxane s'est trahie,</l>
+	<l id='1022'>Perdiccas est haï, j'aime, et je suis haïe ;</l>
+	<l id='1023'>Je vais voir ton Rival ; avant la fin du jour,</l>
+	<l id='1024'>Si nous n'espérons plus du côté de l'Amour,</l>
+	<l id='1025'>Ayant entre nos mains la vengeance certaine,</l>
+	<l id='1026'>Du moins nous jouirons des fureurs de la haine.</l>
+	<l id='1027'>Gardes, qu'on le remmène à son Appartement.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1028'>De grâce, hélas ! Madame, arrêtez un moment ;</l>
+	<l id='1029'>Elle fuit. Je vois trop sa fatale tendresse...</l>
+	<l id='1030'>Ciel ! Perds-moi si tu veux, mais sauve ma Princesse.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Perdiccas, Peucestas.</head>
+<sp who='PEUCESTAS'><speaker>PEUCESTAS.</speaker>
+	<l id='1031'>Oui, Seigneur, Cassander m'envoie auprès de vous,</l>
+	<l id='1032'>Pour apaiser Roxane, et fléchir son courroux ; </l>
+	<l id='1033'>On sait qu'Antipater vient avec une Armée,</l>
+	<l id='1034'>Et qu'ils pourraient tous deux se joindre à Ptolomée ;</l>
+	<l id='1035'>Mais il aime Roxane, et son coeur incertain</l>
+	<l id='1036'>Ne peut contre elle encore former aucun dessein ;</l>
+	<l id='1037'>Cependant Seleucus, Eumenes, et mille autres,</l>
+	<l id='1038'>Prenant ses intérêts, peuvent quitter les vôtres.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1039'>Je le saïs, Peucestas, et le Ciel en courroux</l>
+	<l id='1040'>Dans le même malheur nous enveloppe tous ;</l>
+	<l id='1041'>Alexandre lui-même avoir su le prédire,</l>
+	<l id='1042'>Et s'il n'a pas réglé le destin de l'Empire,</l>
+	<l id='1043'>Ou s'il n'a pas osé nommer son Successeur,</l>
+	<l id='1044'>C'est qu'il n'en pût trouver digne de cet honneur ;</l>
+	<l id='1045'>Il l'avait bien prévu, par des crimes célèbres</l>
+	<l id='1046'>On lui va préparer d'étranges jeux funèbres,</l>
+	<l id='1047'>Quand tous nos Chefs rangés, de différends Partis,</l>
+	<l id='1048'>Du monde chancelant vont hâter le débris ;</l>
+	<l id='1049'>Nous y travaillons tous, en vain tu t'en étonnes,</l>
+	<l id='1050'>Le Ciel ordonne ainsi du destin des Couronnes.</l>
+</sp>
+<sp who='PEUCESTAS'><speaker>PEUCESTAS.</speaker>
+	<l id='1051'>Les Barbares, Seigneur, pourraient bien profiter</l>
+	<l id='1052'>Des troubles dangereux qui vont vous agiter,</l>
+	<l id='1053'>Ils pourraient assembler des Troupes effroyables,</l>
+	<l id='1054' part='i'>Telles que Darius...</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1054' part='f'>Ces Troupes innombrables,</l>
+	<l id='1055'>Qui tant et tant de fois portèrent nos liens,</l>
+	<l id='1056'>N'ont jamais étonné les Macédoniens ;</l>
+	<l id='1057'>Les Barbares, crois-moi, ne peuvent plus nous nuire</l>
+	<l id='1058'>Nous seuls pouvons nous vaincre, et pouvons nous détruire ;</l>
+	<l id='1059'>Mais j'abandonne ici le soin de ma grandeur,</l>
+	<l id='1060'>Statira, je l'avoue, occupe tout mon coeur,</l>
+	<l id='1061'>C'est le seul intérêt où Perdicas s'applique,</l>
+	<l id='1062'>Un amant en fureur est mauvais Politique,</l>
+	<l id='1063'>Et négligeant la guerre en ce funeste jour,</l>
+	<l id='1064'>Je ne suis occupé que des soins de l'amour.</l>
+	<l id='1065'>Mon rival est aimé, ma fatale victoire</l>
+	<l id='1066'>Ne tourne qu'à ma honte, et ne sert qu'à sa gloire,</l>
+	<l id='1067'>Roxane appuie en vain mes projets et les siens,</l>
+	<l id='1068'>Mais il va décider de ses jours et des miens ;</l>
+	<l id='1069'>Roxane pour servir sa flamme et ma tendresse,</l>
+	<l id='1070'>Voudrait sans balancer m'unir à la Princesse,</l>
+	<l id='1071'>Et je voudrais aussi par un hymen fatal</l>
+	<l id='1072'>Unir en ce moment Roxane à mon rival.</l>
+	<l id='1073'>Ah ! Sans plus nous gêner d'une indigne contrainte,</l>
+	<l id='1074'>Au défaut de l'amour, servons-nous de la crainte,</l>
+	<l id='1075'>Ils voudront se sauver l'un et l'autre à leur tour,</l>
+	<l id='1076'>Et leur amour tremblant peut servir notre amour,</l>
+	<l id='1077'>Statira doit venir. J'ai su lui faire entendre</l>
+	<l id='1078'>Que dans peu son amant en ce lieu se doit rendre,</l>
+	<l id='1079'>Je consens qu'il la voit, et vais l'y préparer,</l>
+	<l id='1080'>Mais ils ne se verront que pour se séparer.</l>
+	<l id='1081'>Je la vois, elle vient dans une douce attente.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Statira, Cléone, Perdiccas.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1082'>Ah ! Seigneur, se peut-il que Roxane consente</l>
+	<l id='1083'>À souffrir que je voie un Prince si malheureux ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1084'>Oui, Madame, il est vrai, vous vous verrez tous deux ;</l>
+	<l id='1085'>Cette entrevue à vous, à nous, est nécessaire,</l>
+	<l id='1086'>Il vous en faut ici découvrir le mystère ;</l>
+	<l id='1087'>Roxane vous permet un si doux entretien,</l>
+	<l id='1088'>Mais c'est pour ménager votre sort et le sien ;</l>
+	<l id='1089'>Vos feux ont rallumé tous les feux de la guerre,</l>
+	<l id='1090'>Madame, nous étions les maîtres de la Terre ;</l>
+	<l id='1091'>Vous voyez cependant pour vous ce que je perds,</l>
+	<l id='1092'>Votre amour aujourd'hui me coûte l'Univers ;</l>
+	<l id='1093'>Vous nous faites verser et du sang et des larmes,</l>
+	<l id='1094'>Nous sommes incertains du succès de nos armes,</l>
+	<l id='1095'>Le temps presse, et du moins par un dernier effort</l>
+	<l id='1096'>Il faut Roxane et moi terminer notre sort,</l>
+	<l id='1097'>Roxane est irritée, elle est votre ennemie,</l>
+	<l id='1098'>Vous aimez mon rival, et ma flamme est trahie ;</l>
+	<l id='1099'>Avant que Ptolomée ait pu le secourir,</l>
+	<l id='1100'>Il faut le couronner, ou le faire périr,</l>
+	<l id='1101'>Son salut ou sa mort dépend de sa réponse ;</l>
+	<l id='1102'>Madame, en vous voyant, faites qu'il y renonce,</l>
+	<l id='1103'>Roxane méprisée en cet instant fatal</l>
+	<l id='1104'>Est plus à craindre encore que le bras d'un rival,</l>
+	<l id='1105'>Il faut sans balancer les unir l'un et l'autre,</l>
+	<l id='1106'>Ou que je perce un coeur qui m'arrache le vôtre.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1107'>Ah ! Seigneur, arrêtez ; devais-je me trahir,</l>
+	<l id='1108'>À Roxane irritée il nous faut obéir ;</l>
+	<l id='1109'>Quand je devrais sur moi faire tomber la foudre ;</l>
+	<l id='1110'>Qu'on le fasse venir, et je vais l'y résoudre ;</l>
+	<l id='1111'>Oui, pour tourner son coeur à ce funeste choix,</l>
+	<l id='1112'>Laissez-moi lui parler pour la dernière fois.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1113'>Hé bien ? vous le verrez, mais songez l'un et l'autre ;</l>
+	<l id='1114'>À régler notre sort aussi-bien que le vôtre ;</l>
+	<l id='1115'>Vous pleurez mon rival, ah ! Que j'en suis jaloux !</l>
+	<l id='1116'>Hélas ! Qu'a-t-il à craindre ? Il est aimé de vous,</l>
+	<l id='1117'>Et quoi que ma fureur de la mort le menace,</l>
+	<l id='1118'>Madame, en ce moment que ne suis-je en sa place ?</l>
+	<l id='1119'>Que n'ai-je ses périls et son sort aujourd'hui ?</l>
+	<l id='1120'>Haï de vous, je suis plus à plaindre que lui,</l>
+	<l id='1121' part='i'>Vous l'allez voir, Madame.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Statira, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1121' part='f'>Ah ! Funeste entrevue !</l>
+	<l id='1122'>Je le verrai, Cléone, et ce penser me tue.</l>
+	<l id='1123'>Quoi donc ? ma propre bouche en ce triste moment</l>
+	<l id='1124'>Va prononcer ma mort pour sauver mon amant,</l>
+	<l id='1125'>Ma flamme va parler pour éteindre la sienne,</l>
+	<l id='1126'>Et ma bouche... il en faut une autre que la mienne,</l>
+	<l id='1127'>Et je vais le prier aux dépens de ses jours</l>
+	<l id='1128'>De haïr ma rivale, et de m'aimer toujours.</l>
+	<l id='1129'>Mais Dieux ! s'il ne l'épouse, il va cesser de vivre ;</l>
+	<l id='1130'>Hélas ! s'il était mort, je n'aurais qu'à le suivre ;</l>
+	<l id='1131'>Tantôt, malgré Roxane et mes sens éperdus,</l>
+	<l id='1132'>Il a vu mes soupirs qu'il a trop entendus,</l>
+	<l id='1133'>Il connaît que je l'aime, et malgré ma contrainte</l>
+	<l id='1134'>Il a trop pénétré l'artifice et la feinte,</l>
+	<l id='1135'>Mais je vais maintenant lui parler sans témoins ;</l>
+	<l id='1136'>Quand il verra mes pleurs, m'en aimera-t-il moins ?</l>
+	<l id='1137'>Je connais trop son coeur, et le mien en frissonne,</l>
+	<l id='1138'>Il me sera fidèle, et périra, Cleone ;</l>
+	<l id='1139'>Je me flatte peut-être, il ne périra pas,</l>
+	<l id='1140'>Roxane l'a sauvé, Roxane a des appâts,</l>
+	<l id='1141'>Et quand je lui dirai de n'être plus fidèle,</l>
+	<l id='1142'>S'il m'allait obéir et soupirer pour elle ?</l>
+	<l id='1143'>Ciel ! Que vais-je lui dire ? Ah Dieux ! Il doit venir,</l>
+	<l id='1144'>Quel funeste sujet de nous entretenir ?</l>
+	<l id='1145'>On vient, Cléone, on ouvre, on entre, et c'est lui-même.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Léonatus, Statira, Cléone.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1146'>Madame, quel plaisir de voir ce que l'on aime !</l>
+	<l id='1147'>Je n'osais l'espérer, mais puisqu'il m'est permis,</l>
+	<l id='1148'>Je veux pardonner tout à nos fiers Ennemis ;</l>
+	<l id='1149'>Dans un moment si doux partagez-vous ma joie,</l>
+	<l id='1150'>Roxane et Perdiccas souffrent que je vous vois,</l>
+	<l id='1151'>Quel Dieu les a fléchis ? ma Princesse et vos pleurs</l>
+	<l id='1152'>Auraient-ils attendri ces barbares Vainqueurs ?</l>
+	<l id='1153'>Nous pouvons à présent nous parler sans contrainte,</l>
+	<l id='1154'>Et que n'ai-je tantôt démêlé votre crainte ?</l>
+	<l id='1155'>Vous m'auriez épargné de mortels déplaisirs,</l>
+	<l id='1156'>Si j'avais reconnu vos pleurs et vos soupirs ;</l>
+	<l id='1157'>Roxane était présente, et redoutant sa rage,</l>
+	<l id='1158'>Il fallait me tenir ce funeste langage ;</l>
+	<l id='1159'>Pouvons-nous pas loin d'elle oublier nos douleurs ?</l>
+	<l id='1160'>Mais, Madame, je vois vos yeux baignés de pleurs,</l>
+	<l id='1161'>On dirait à vous voir que mon abord vous gêne,</l>
+	<l id='1162'>Il semble que ma joie augmente votre peine,</l>
+	<l id='1163' part='i'>Parlez.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1163' part='m'>Il faut, Seigneur...</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1163' part='m'>Quoi ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1163' part='f'>Cruel souvenir :</l>
+	<l id='1164' part='i'>Il faut...</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1164' part='m'>Que faut-il donc ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1164' part='f'>Me quitter, ou périr. </l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1165'>Qui moi, Madame, on veut que je vous abandonne ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1166'>Perdiccas vous menace, et Roxane l'ordonne,</l>
+	<l id='1167'>Tout le veut, elle est belle, et peut-être, Seigneur,</l>
+	<l id='1168'>Vous le voudrez bientôt aux dépens de mon coeur.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1169'>Quel étrange discours ! Et depuis quand, Madame,</l>
+	<l id='1170'>Voulez-vous de Roxane autoriser la flamme ?</l>
+	<l id='1171'>Pourriez-vous lui céder mes soupirs et ma foi ?</l>
+	<l id='1172'>Quoi ? parlez-vous pour elle, ou parlez-vous à moi ?</l>
+	<l id='1173'>Roxane veut en vain que je vous abandonne,</l>
+	<l id='1174'>Mais Perdiccas le veut, et c'est lui qui l'ordonne,</l>
+	<l id='1175'>Il vous aime, Madame, et peut-être aujourd'hui</l>
+	<l id='1176'>Votre coeur agit moins pour elle que pour lui.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1177'>Et depuis quand, Seigneur, en voyant mes alarmes,</l>
+	<l id='1178'>Expliquez-vous si mal le langage des larmes ?</l>
+	<l id='1179'>Ne l'entendez-vous plus, et mes soupirs, hélas !</l>
+	<l id='1180'>Ingrat, vous disent-ils que j'aime Perdiccas ?</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1181'>Eh ! Pardonnez, Madame, un peu de jalousie,</l>
+	<l id='1182'>Oubliez Perdiccas autant que je l'oublie ;</l>
+	<l id='1183'>Nos cruels Ennemis en de si chers moments</l>
+	<l id='1184'>Doivent-ils partager nos tendres sentiments ?</l>
+	<l id='1185'>Je vous vois, il suffit, et mon âme contente</l>
+	<l id='1186'>Dédaigne de songer que Roxane est amante.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1187'>Ah ! Quand de Perdiccas mon coeur craint le courroux,</l>
+	<l id='1188'>Je pense moins à lui que je ne pense à vous ;</l>
+	<l id='1189'>Apprenez les horreurs de l'effroi qui me tue,</l>
+	<l id='1190'>Savez-vous les raisons d'une telle entrevue ?</l>
+	<l id='1191'>Nous nous voyons, Seigneur, on nous le souffre, mais</l>
+	<l id='1192'>C'est pour mieux nous résoudre à ne nous voir jamais.</l>
+	<l id='1193'>Dans une heure, Seigneur, Perdiccas vous condamne</l>
+	<l id='1194'>À choisir ou la mort, ou l'hymen de Roxane ;</l>
+	<l id='1195'>Malgré moi, faites-vous un généreux effort,</l>
+	<l id='1196'>Et choisissez plutôt Roxane que la mort.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1197' part='i'>Moi, Madame ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1197' part='f'>Oui, vous. Songez à votre vie,</l>
+	<l id='1198'>Roxane vous rendra le maître de l'Asie,</l>
+	<l id='1199'>Oubliez-moi, Seigneur, laissez-moi dans les fers,</l>
+	<l id='1200'>Un Héros tel que vous se doit à l'Univers,</l>
+	<l id='1201'>Et si vous périssiez par une mort si prompte,</l>
+	<l id='1202'>L'Univers, de vos jours me demanderait compte.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1203'>Ciel ! Que m'osez-vous dire ? Hélas ! Si je vous perds,</l>
+	<l id='1204'>Madame, et que m'importe à moi de l'Univers ?</l>
+	<l id='1205'>Dois-je vivre un moment, si vous m'êtes ravie ?</l>
+	<l id='1206'>Je cède à Perdiccas et la Perse et l'Asie ;</l>
+	<l id='1207'>Le trône est-il l'objet de mes voeux les plus doux,</l>
+	<l id='1208'>Et soupirai-je, enfin, pour l'Empire, ou pour vous ?</l>
+	<l id='1209'>Hélas ! Sans vous, mon coeur dans une paix profonde</l>
+	<l id='1210'>Verrait tranquillement la conquête du monde,</l>
+	<l id='1211'>Je l'abandonne à qui peut en être vainqueur,</l>
+	<l id='1212'>Mais je disputerai celle de votre coeur.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1213'>Et songez-vous, Seigneur, que la triste conquête</l>
+	<l id='1214'>D'un coeur comme le mien vous peut coûter la tête ?</l>
+	<l id='1215'>Ne vous souvient-il plus de ce jour douloureux</l>
+	<l id='1216'>Où les feux d'Alexandre éteignirent nos feux,</l>
+	<l id='1217'>Quand vous-même chargé de son funeste hommage ;</l>
+	<l id='1218'>Vous parûtes, la mort peinte sur le visage,</l>
+	<l id='1219'>Et fîtes pour ma gloire un généreux effort ?</l>
+	<l id='1220'>Mais hélas ! Aujourd'hui que je crains votre mort,</l>
+	<l id='1221'>Que je crains Perdiccas et Roxane en furie,</l>
+	<l id='1222'>J'en veux faire un pareil pour sauver votre vie ;</l>
+	<l id='1223'>L'amour fait votre crime, on presse, on vous attend,</l>
+	<l id='1224'>Si vous ne m'aimez plus, vous serez innocent,</l>
+	<l id='1225'>C'est ce cruel amour, Seigneur, qui vous accable,</l>
+	<l id='1226'>Étouffez-le... Mais non, soyez toujours coupable ;</l>
+	<l id='1227'>Que dis-je ? ce n'est plus Roxane et Perdiccas,</l>
+	<l id='1228'>C'est moi, c'est Statira qui vous mène au trépas ;</l>
+	<l id='1229'>Vous verrais-je périr ? Non, soyez infidèle,</l>
+	<l id='1230'>Allez, sortez plutôt, et soupirez pour elle,</l>
+	<l id='1231'>Je ne puis demeurer après un tel effort,</l>
+	<l id='1232'>Chaque instant près de vous va hâter votre mort,</l>
+	<l id='1233'>Et mon perfide coeur qui se plaint, qui soupire,</l>
+	<l id='1234'>Si je vous vois encore, saura trop m'en dédire.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1235'>Quoi ? vous m'abandonnez en cette extrémité,</l>
+	<l id='1236'>Et de grâce, Madame, un peu de fermeté ?</l>
+	<l id='1237'>Je méprise Roxane, et ma tendresse extrême</l>
+	<l id='1238'>Fait que je hais Roxane autant que je vous aime,</l>
+	<l id='1239' part='i'>Je déteste Roxane, et je veux ...</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Roxane, Léonatus, Statira, Cléone, Peucestas, Gardes.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1239' part='f'>Achevez,</l>
+	<l id='1240'>Et voyez de plus près l'Objet que vous bravez ;</l>
+	<l id='1241'>J'ai trop bien entendu ce qui peut vous confondre,</l>
+	<l id='1242'>Ingrat, dans un moment je vais vous y répondre ;</l>
+	<l id='1243'>Qu'on redouble ma Garde, et surtout, Peucestas,</l>
+	<l id='1244'>Qu'on ferme de ces lieux l'entrée à Perdiccas.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1245' part='i'>Madame, quel dessein ?...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1245' part='f'>Ma vengeance et ma honte,</l>
+	<l id='1246'>De mes justes desseins pourront vous rendre compte.</l>
+	<l id='1247'>Grâce aux Dieux ! Je suis libre, et vais tranquillement</l>
+	<l id='1248'>Immoler ma rivale aux yeux de son amant.</l>
+	<l id='1249'>Je méprise Roxane, et ma tendresse extrême</l>
+	<l id='1250'>Fait que je hais Roxane autant que je vous aime ;</l>
+	<l id='1251'>Ce discours vous charmait, Madame, et ses soupirs</l>
+	<l id='1252'>Aux dépens de Roxane ont flatté vos désirs ;</l>
+	<l id='1253'>Loin de moi, devant vous, c'est donc moi qu'on déteste ?</l>
+	<l id='1254'>Mais vous m'allez payer un plaisir si funeste.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1255' part='i'>Madame, au nom des Dieux, écoutez...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1255' part='f'>Non, Seigneur,</l>
+	<l id='1256'>Laissez, laissez agir librement sa fureur ;</l>
+	<l id='1257'>Depuis un si longtemps, de mon sang altérée,</l>
+	<l id='1258'>À toutes ses fureurs mon âme est préparée.</l>
+<stage>À Roxane.</stage>
+	<l id='1259'>Fille de Cohortan, achève tes desseins,</l>
+	<l id='1260'>Dans le sang de tes Rois ose tremper tes mains,</l>
+	<l id='1261' part='i'>Frappe.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1261' part='f'>Dans un moment vous serez obéie.</l>
+	<l id='1262' part='i'>Approchez-vous.</l>
+<stage>Elle parle bas à un Garde.</stage>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1262' part='f'>Ah Ciel ! Que je crains pour sa vie !</l>
+	<l id='1263'>Calmez votre courroux, Madame, au nom des Dieux ;</l>
+	<l id='1264'>Qu'ordonnez-vous  hélas ! Quel trouble dans vos yeux !</l>
+	<l id='1265'>Madame, c'est sur moi, sur ma coupable tête,</l>
+	<l id='1266'>Que doit ici tomber l'éclat de la tempête,</l>
+	<l id='1267'>Mon amour fait son crime, il le faut expier,</l>
+	<l id='1268'>Et mon sang répandu peut la justifier.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1269'>Oui, Barbare, il est vrai ; ton amour fait ton crime,</l>
+	<l id='1270'>Cependant ma rivale en sera la victime,</l>
+	<l id='1271'>On me déteste, on l'aime, et l'on m'ose outrager,</l>
+	<l id='1272'>Mais enfin, grâce au Ciel, j'ai sur qui m'en venger.</l>
+	<l id='1273'>Pour goûter la douceur à ma vengeance offerte,</l>
+	<l id='1274'>Préparons à tes yeux l'appareil de sa perte ;</l>
+	<l id='1275'>Pour t'en faire sentir l'amertume à longs traits,</l>
+	<l id='1276'>Ma fureur, à pas lents, va servir mes souhaits.</l>
+	<l id='1277'>Ne crois pas cependant au transport qui m'entraîne,</l>
+	<l id='1278'>Que l'amour... Non, Ingrat, je n'ai que de la haine ;</l>
+	<l id='1279'>Il faut la satisfaire, et Roxane le peut,</l>
+	<l id='1280'>Politique, raison, sûreté, tout le veut ;</l>
+	<l id='1281'>Oui, perdons Statira... mais malgré mon envie,</l>
+	<l id='1282'>Léonatus, un mot lui peut sauver la vie.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1283'>Votre refus dût-il me coûter le trépas,</l>
+	<l id='1284'>Ce mot qui m'est si cher, ne le prononcez pas.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+<stage>à Statira.</stage>
+	<l id='1285'>Je crains votre tendresse autant que sa vengeance,</l>
+<stage>à Roxane. </stage>
+	<l id='1286'>Ce n'est point Statira, c'est moi qui vous offense ;</l>
+	<l id='1287'>Ah ! Madame, arrêtez, et détournez sur moi</l>
+	<l id='1288'>Ces regards menaçants qui me glacent d'effroi ;</l>
+	<l id='1289'>Le Ciel nous est témoin que tantôt elle-même,</l>
+	<l id='1290'>En renonçant pour vous à ma tendresse extrême,</l>
+	<l id='1291'>Elle a voulu... mais quoi, mon amour m'a trahi.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1292'>Et pourquoi votre coeur n'a-t-il pas obéi ?</l>
+	<l id='1293'>Je ne dis plus qu'un mot, et veux être obéie ;</l>
+	<l id='1294'>Tu saïs bien qu'un coup d'oeil lui peut coûter la vie,</l>
+	<l id='1295'>Veux-tu la voir périr, veux-tu la conserver ?</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1296'>Que ne ferais-je point, hélas ! Pour la sauver ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE à un Garde.</speaker>
+	<l id='1297'>Qu'on cherche Perdiccas, il faut que tout à l'heure</l>
+	<l id='1298'>Ton rival, à tes yeux, l'épouse, ou qu'elle meure.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1299' part='i'>Épouser Perdiccas ?</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1299' part='f'>Pour calmer son courroux,</l>
+	<l id='1300'>Oubliez-moi, Madame, et ne songez qu'à vous,</l>
+	<l id='1301' part='i'>Donnez à Perdiccas...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1301' part='f'>Votre amour m'y condamne,</l>
+	<l id='1302'>Et vous ne voulez pas vous donner à Roxane ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1303'>Ils sont également ardents à m'offenser,</l>
+	<l id='1304'>Ah perdons-les tous deux, mais par qui commencer ?</l>
+	<l id='1305' part='i'>Oui, je vais...</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1305' part='f'>Ah ! Madame, il faut prendre ma vie,</l>
+	<l id='1306'>Avant que de remplir cette funeste envie ;</l>
+	<l id='1307'>Tout désarmé sans-doute, et tout seul que je suis,</l>
+	<l id='1308'>Mon désespoir pourra bien plus que je ne puis.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Perdiccas, Gardes, Roxane, Léonatus, Statira.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1309'>Venez, venez, Seigneur, secourir la Princesse.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS, à Roxane.</speaker>
+	<l id='1310'>Madame, vous savez jusqu'où va ma tendresse,</l>
+	<l id='1311' part='i'>Retenez...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1311' part='f'>Perdiccas, ton coeur va te trahir,</l>
+	<l id='1312'>Je ne sais plus aimer, je ne sais que haïr ;</l>
+	<l id='1313'>Pour éteindre une ardeur à nos desseins fatale,</l>
+	<l id='1314'>Je te rends ton rival, donne-moi ma rivale.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1315'>Si votre coeur, Madame, en ce funeste jour</l>
+	<l id='1316'>A de la haine, hélas ! Le mien a de l'amour,</l>
+	<l id='1317'>Jusqu'au dernier soupir je défendrai sa vie.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1318'>Vous êtes généreux, et je vous la confie,</l>
+	<l id='1319'>C'est assez qu'un rival lui donne du secours.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1320'>Tout haï que je suis, j'aurai soin de ses jours ;</l>
+	<l id='1321'>Mais quand vous serez libre, en lieu pour vous défendre,</l>
+	<l id='1322'>J'irai la disputer en rival d'Alexandre.</l>
+<stage>À Statira.</stage>
+	<l id='1323' part='i'>Allons, Madame.</l>
+<stage>Il sort.</stage>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1323' part='m'>Hélas !</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1323' part='f'>Je ne crains plus sa mort,</l>
+	<l id='1324'>Vous pouvez maintenant ordonner de mon sort,</l>
+	<l id='1325' part='i'>Je l'attendrai, Madame.</l>
+<stage>Il rentre.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='ROXANE'><speaker>ROXANE, seule.</speaker>
+	<l id='1325' part='f'>Ah ! Quelle vive atteinte ! </l>
+	<l id='1326'>Je puis à ton amour redonnez de la crainte,</l>
+	<l id='1327'>J'ai perdu le moment si propre à me venger,</l>
+	<l id='1328'>Rappelons Cassander. L'espoir peut l'engager,</l>
+	<l id='1329'>Qu'importe ? son amour pourra servir ma haine ;</l>
+	<l id='1330'>Hâtons-nous, attaquons Perdiccas et la Reine,</l>
+	<l id='1331'>À qui n'a point d'espoir, tout le reste est permis ;</l>
+	<l id='1332'>Périssons, mais du moins perdons nos Ennemis.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Roxane, Hésione.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1333'>Je triomphe, Hésione, et n'ai plus de tendresse,</l>
+	<l id='1334'>De ce Palais, enfin, Roxane est la maîtresse,</l>
+	<l id='1335'>Je dois ce grand effort aux soins de Peucestas,</l>
+	<l id='1336'>Et Statira n'est plus aux mains de Perdiccas ;</l>
+	<l id='1337'>Grâce à Cassander, elle est en ma puissance,</l>
+	<l id='1338'>Et j'ai dans son amour une sûre défense ;</l>
+	<l id='1339'>Mais il faut prendre un temps si propre à nous venger,</l>
+	<l id='1340'>Il faut punir l'Ingrat qui nous ose outrager.</l>
+	<l id='1341'>J'ai connu, j'ai trop vu sa tendresse fatale ;</l>
+	<l id='1342'>Occupé tout entier des feux de ma rivale,</l>
+	<l id='1343'>Je lui faisais en pleurs l'offre de mon appui,</l>
+	<l id='1344'>À peine a-t-il songé que je parlais à lui ;</l>
+	<l id='1345'>Mon trouble, en vain mes yeux lui marquaient ma tendresse,</l>
+	<l id='1346'>Pour réponse, il m'a dit d'épargner sa Princesse ;</l>
+	<l id='1347'>J'avais beau par mes feux animer mon discours,</l>
+	<l id='1348'>L'Ingrat, par ses soupirs, m'interrompait toujours ;</l>
+	<l id='1349'>Mais quoi ? sur Statira je vais me satisfaire,</l>
+	<l id='1350'>Je le puis, je le dois, je sais ce qu'il faut faire,</l>
+	<l id='1351'>Je dois ce sacrifice aux soins de ma grandeur,</l>
+	<l id='1352'>L'amour n'a plus de part aux transports de mon coeur,</l>
+	<l id='1353'>La jalousie enfin n'est plus ce qui m'anime,</l>
+	<l id='1354'>À mon ambition je dois cette victime,</l>
+	<l id='1355'>Et lors que je l'immole en ce funeste jour,</l>
+	<l id='1356'>C'est au trône, à mon fils, et non pas à l'amour.</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='1357'>Que vous connaissez peu l'ardeur qui vous entraîne !</l>
+	<l id='1358'>Vous croyez vous livrer tout entière à la haine ;</l>
+	<l id='1359'>Ah ! Que vous vous trompez, Madame, à votre tour !</l>
+	<l id='1360'>Quand on a tant de haine, on n'est pas sans amour.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1361'>Moi ? J'aurais de l'amour, et tu pourrais le croire ?</l>
+	<l id='1362'>Mon coeur pourrait trahir Alexandre et ma gloire ?</l>
+	<l id='1363'>Pardonne, grand Héros, si pour Léonatus</l>
+	<l id='1364'>J'ai soupiré ; J'ai crû qu'il avait tes vertus ;</l>
+	<l id='1365'>J'ai crû que quelque jour pour Roxane sensible,</l>
+	<l id='1366'>Son coeur comme le tien n'était pas invincible ;</l>
+	<l id='1367'>Mais Dieux ! Il porte ailleurs ses soupirs et sa foi,</l>
+	<l id='1368'>Et ne sent pas l'ardeur que tu sentis pour moi.</l>
+	<l id='1369'>Ah ! Pour venger ma gloire il faut tout entreprendre,</l>
+	<l id='1370'>Il faut que tout regrette et tout pleure Alexandre,</l>
+	<l id='1371'>Je l'ai trahi. Je veux réparer mon forfait,</l>
+	<l id='1372'>Et dans ce jour fatal faire plus qu'il n'a fait.</l>
+	<l id='1373'>Quoi ? L'on veut partager ses Veuves, son Empire</l>
+	<l id='1374'>Il vainquit l'Univers, et je veux le détruire ?</l>
+	<l id='1375'>Avec plaisir j'ai vu brûler Persepolis,</l>
+	<l id='1376'>Donnons le même sort à l'orgueil de Memphis,</l>
+	<l id='1377'>Remplissons tout d'horreur, et que toute l'Asie</l>
+	<l id='1378'>Apprenne en frémissant que Roxane est trahie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. STATIRA, ROXANE, CLEONE, HESIONE.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1379'>Madame, Perdiccas par de puissants efforts,</l>
+	<l id='1380'>Déjà de ce Palais a gagné les Dehors.</l>
+	<l id='1381'>Sauvez Léonatus, et contre sa furie</l>
+	<l id='1382'>Allez défendre encore une si chère vie,</l>
+	<l id='1383'>On me croit immolée, et le fier Perdiccas</l>
+	<l id='1384'>Sur ce que vous aimez vengera mon trépas ;</l>
+	<l id='1385'>Envoyez du secours, enfin le péril presse,</l>
+	<l id='1386'>Malgré votre fureur je vois votre tendresse ;</l>
+	<l id='1387'>Conservez ce Héros qui vous a su charmer,</l>
+	<l id='1388'>S'il ne vous aime pas, il pourra vous aimer.</l>
+	<l id='1389'>Madame, allez... mais quoi ? Vous êtes inflexible,</l>
+	<l id='1390'>Hélas ! À ses périls êtes-vous insensible ?</l>
+	<l id='1391'>Vous détournez les yeux, et ne répondez rien.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1392'>C'est votre amant, Madame, et ce n'est pas le mien,</l>
+	<l id='1393' part='i'>Qu'il périsse.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1393' part='f'>Quoi donc ? vous souffrez qu'il périsse ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1394'>À Roxane irritée il faut ce sacrifice ;</l>
+	<l id='1395'>Quand j'ai sauvé l'Ingrat, il fait un autre choix,</l>
+	<l id='1396'>J'en ferais un Ingrat une seconde fois.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1397'>Madame, je réponds de sa reconnaissance.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1398'>Et qui me répondra de son obéissance ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1399'>Pourriez-vous vous résoudre à ne le voir jamais ?</l>
+	<l id='1400'>Où pourra-t-il tenir contre tant de bienfaits ?</l>
+	<l id='1401'>Madame, le temps presse, et Perdiccas peut-être,</l>
+	<l id='1402'>De lui, de ce Palais, va se rendre le maître :</l>
+	<l id='1403'>Hélas ! Qu'est devenue une si belle ardeur ?</l>
+	<l id='1404'>Pour prix de ses jours j'abandonne son coeur.</l>
+	<l id='1405' part='i'>Madame, allez...</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1405' part='f'>En vain le vôtre l'abandonne,</l>
+	<l id='1406'>Vous ne pouvez donner ce coeur, s'il ne se donne ;</l>
+	<l id='1407'>Et si j'en crois encore un mouvement jaloux,</l>
+	<l id='1408'>Pourrait-il être à moi, quand il est tout à vous ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Cassander, Roxane, Statira, Cléone, Hésione.</head>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='1409'>Madame, il faut quitter les Murs de Babylone,</l>
+	<l id='1410'>Et sortir d'un Palais que le Peuple environne ;</l>
+	<l id='1411'>Perdiccas irrité, l'anime contre vous.</l>
+	<l id='1412'>Mais j'ai tous mes Amis prêts à périr pour vous ;</l>
+	<l id='1413'>Antipater approche, allons joindre une armée</l>
+	<l id='1414'>Qui sera par vos yeux et mes feux animée,</l>
+	<l id='1415'>Et là pour soutenir l'honneur de vos appâts, </l>
+	<l id='1416'>Je puis avec mon coeur offrir cent mille bras ;</l>
+	<l id='1417'>Au moindre ordre de vous, le penchant qui m'entraîne,</l>
+	<l id='1418'>M'a fait courir, voler, pour servir votre haine.</l>
+	<l id='1419'>Ne pourrez-vous jamais par un heureux retour,</l>
+	<l id='1420'>Oubliant votre haine, écouter mon amour ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1421'>Seigneur, je dois beaucoup à ce zèle sincère</l>
+	<l id='1422'>Qui m'offre le secours de vous, de votre père.</l>
+	<l id='1423' part='i'>Mais que fait Perdiccas ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='1423' part='f'>Il vient de vous venger</l>
+	<l id='1424'>De l'Ingrat dont l'amour osait vous outrager.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1425' part='i'>Hélas !</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1425' part='m'>Que dites-vous ?</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='1425' part='f'>Oubliez-le, Madame,</l>
+	<l id='1426'>Cet Ingrat, dont l'orgueil méprisait votre flamme,</l>
+	<l id='1427'>Et croyez que les Dieux ont souffert son trépas,</l>
+	<l id='1428'>Puisqu'il a pu vous voir, et ne vous aimer pas.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1429'>C'est assez, et dans peu je m'apprête à vous suivre,</l>
+	<l id='1430' part='i'>Préparez tout.</l>
+</sp>
+<sp who='CASSANDER'><speaker>CASSANDER.</speaker>
+	<l id='1430' part='f'>J'y cours. Si pour vous j'ose vivre,</l>
+	<l id='1431'>Je vais vous préparer un destin glorieux,</l>
+	<l id='1432'>Ou bien j'aurai l'honneur de mourir à vos yeux.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Roxane, Statira, Cléone, Hésione.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1433'>Ah ! Madame, je sens qu'en de telles alarmes</l>
+	<l id='1434'>Malgré moi, comme à vous, il m'échappe des larmes ;</l>
+	<l id='1435' part='i'>Hélas ! Il est donc mort ?</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1435' part='f'>Quoi, sans le secourir,</l>
+	<l id='1436'>Vous le pleurez, Cruelle, et le laissez périr ?</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1437'>Ah ! Je ne sens que trop le feu qui me dévore,</l>
+	<l id='1438'>Je croyais le haïr, et je l'aimais encore ;</l>
+	<l id='1439'>Mais ce n'est pas assez, en de si grands malheurs,</l>
+	<l id='1440'>Il faut verser du sang, c'est trop peu que des pleurs.</l>
+	<l id='1441'>Madame, il vous aimait, n'oserez-vous le suivre ?</l>
+	<l id='1442'>Moi, j'en étais haïe, et ne puis lui survivre ;</l>
+	<l id='1443'>Oui. J'atteste les Dieux, que par un noble effort</l>
+	<l id='1444'>Dans peu je me rendrai maîtresse de mon sort.</l>
+	<l id='1445'>Mais quoi ? de Perdiccas serez vous la victime,</l>
+	<l id='1446'>L'objet de son amour, et le fruit de son crime,</l>
+	<l id='1447'>Et pourrez vous passer dans ce cruel moment</l>
+	<l id='1448'>En des bras dégoûtants du sang de votre amant ?</l>
+	<l id='1449'>Vengeons Léonatus sur vous et sur moi-même,</l>
+	<l id='1450'>Il faut que tout périsse en perdant ce que j'aime.</l>
+	<l id='1451'>Madame, en cet instant, voyons qui de nous deux</l>
+	<l id='1452'>Osera le venger, et qui l'aime le mieux.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1453'>N'en doutez point, Madame, en cet instant funeste</l>
+	<l id='1454'>La mort est le seul bien, ou l'espoir qui me reste ;</l>
+	<l id='1455'>À mes sens éperdus est-il rien de plus doux ?</l>
+	<l id='1456'>C'est l'unique faveur que j'attendais de vous ;</l>
+	<l id='1457'>Mais sans avoir besoin de vous pour l'entreprendre,</l>
+	<l id='1458'>Je ferai mon destin en femme d'Alexandre.</l>
+	<l id='1459'>J'entre. Dans un moment je reviens près de vous,</l>
+	<l id='1460'>Et vous allez jouir d'un spectacle si doux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Roxane, Hésione, Cléone.</head>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1461'>Que vois-je ? Justes Dieux ! Où va-t-elle, Hesione ?</l>
+	<l id='1462'>Son grand coeur me surprend, sa fermeté m'étonne ;</l>
+	<l id='1463'>Tandis que je la vois courir sans s'étonner</l>
+	<l id='1464'>Au devant du trépas que je veux lui donner,</l>
+	<l id='1465'>Elle ne peut survivre au Héros qu'elle adore.</l>
+	<l id='1466'>Quoi ? je l'aimais plus qu'elle, et je respire encore ?</l>
+	<l id='1467'>Elle est venue hélas ! Dans ce triste moment</l>
+	<l id='1468'>Me demander en pleurs les jours de son amant.</l>
+	<l id='1469'>Barbare que je suis ! Ma noire jalousie</l>
+	<l id='1470'>À cet amant si cher laisse perdre la vie ?</l>
+	<l id='1471'>Oui, mon amour devait encore le conserver,</l>
+	<l id='1472'>Et dût-il être ingrat, je devais le sauver.</l>
+	<l id='1473'>Que dis-je ? ma pitié m'aurait été fatale,</l>
+	<l id='1474'>Je l'aurais conservé, pour qui ? pour ma rivale.</l>
+	<l id='1475'>N'importe ? je devais... Ah regrets superflus !</l>
+	<l id='1476'>Je l'aurais vu du moins, et ne le verrai plus.</l>
+	<l id='1477'>Je ne le verrai plus ! Et j'ose lui survivre ?</l>
+	<l id='1478'>Ma rivale m'apprend le chemin qu'il faut suivre ;</l>
+	<l id='1479'>Pleine de son amour, son coeur tranquillement</l>
+	<l id='1480'>Sait mesurer sa vie aux jours de son amant.</l>
+</sp>
+<sp who='HÉSIONE'><speaker>HÉSIONE.</speaker>
+	<l id='1481' part='i'>Madame, elle revient.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Statira, Roxane, Hésione, Cléone.</head>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1481' part='f'>Oserez-vous me suivre ?</l>
+	<l id='1482'>Quand on perd ce qu'on aime, il faut cesser de vivre,</l>
+	<l id='1483'>Je suis, grâces aux Dieux, maîtresse de mon sort,</l>
+	<l id='1484' part='i'>Imitez-moi.</l>
+</sp>
+<sp who='ROXANE'><speaker>ROXANE.</speaker>
+	<l id='1484' part='f'>Madame, un si cruel effort</l>
+	<l id='1485'>M'étonne, me surprend, redouble mes alarmes ;</l>
+	<l id='1486'>Je vous vois, je frémis, et je verse des larmes,</l>
+	<l id='1487'>Je sens mon âme en proie à toutes les horreurs,</l>
+	<l id='1488'>Et votre amour enfin surpasse mes fureurs ;</l>
+	<l id='1489'>Mais ce n'est pas assez que ma vie et la vôtre,</l>
+	<l id='1490'>Pour venger votre amant il nous en faut une autre ; </l>
+	<l id='1491'>Reposez-vous sur moi du soin de mon trépas,</l>
+	<l id='1492'>Mais j'y veux, s'il se peut, entraîner Perdiccas ;</l>
+	<l id='1493'>Et ma douleur, qui veut que ma main se retienne,</l>
+	<l id='1494'>Ne retarde ma mort que pour hâter la sienne.</l>
+	<l id='1495'>Oui, contre Perdiccas j'armerai Cassander,</l>
+	<l id='1496'>Et je vais avec lui rejoindre Antipater.</l>
+	<l id='1497'>Je veux être aujourd'hui le flambeau de la Guerre,</l>
+	<l id='1498'>Le Ciel va par mes mains conduire le Tonnerre,</l>
+	<l id='1499'>Diviser tous nos Chefs par leurs prétentions,</l>
+	<l id='1500'>Et redoubler le feu de leurs divisions,</l>
+	<l id='1501'>Les envelopper tous, détruire l'un par l'autre,</l>
+	<l id='1502'>Pour venger votre amant, mon époux, et le vôtre,</l>
+	<l id='1503'>Et donnant un champ libre à ma juste fureur,</l>
+	<l id='1504'>Faire de l'Univers un Théâtre d'horreur.</l>
+	<l id='1505'>Vous n'aurez pas encore bien du temps à m'attendre ;</l>
+	<l id='1506'>Je vous suivrai, Madame, en Femme d'Alexandre,</l>
+	<l id='1507'>Et si mon triste amour a su vous outrager,</l>
+	<l id='1508'>Voilà, voilà le Bras qui saura vous venger,</l>
+	<l id='1509' part='i'>Je vous suivrai de près, Madame.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Statira, Cléone.</head>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='1509' part='f'>Elle est partie.</l>
+	<l id='1510'>Madame, au nom des Dieux, songez à votre vie,</l>
+	<l id='1511'>Il en est encore temps, et par un prompt secours</l>
+	<l id='1512' part='i'>On peut...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1512' part='f'>Laisse finir mes déplorables jours,</l>
+	<l id='1513'>Je sens qu'à ces malheurs le Ciel m'a condamnée,</l>
+	<l id='1514'>Et tu voudrais en vain tromper ma destinée,</l>
+	<l id='1515'>Pouvais-je faire mieux ? Alexandre n'est plus,</l>
+	<l id='1516'>J'ose encore après lui pleurer Léonatus,</l>
+	<l id='1517'>Et puisque j'ai perdu dans ce moment funeste</l>
+	<l id='1518'>Un époux, un amant, que m'importe le reste ?</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='1519'>Peut-être cet amant a-t-il un sort plus doux,</l>
+	<l id='1520' part='i'>Peut-être que...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1520' part='f'>Non, non, Perdiccas est jaloux,</l>
+	<l id='1521'>Le Cruel a couru sans doute à sa défaite,</l>
+	<l id='1522'>Mais s'il vivait encore, je mourrais satisfaite,</l>
+	<l id='1523'>Je le verrais du moins, Cléone, et plût aux Dieux</l>
+	<l id='1524'>Que ce fidèle amant vint me fermer les yeux.</l>
+	<l id='1525'>Mais veux-tu, n'ayant plus cette douce espérance,</l>
+	<l id='1526'>Que du fier Perdiccas je sois la récompense,</l>
+	<l id='1527'>Que je sois dans les fers de ceux dont autrefois</l>
+	<l id='1528'>Nous avons dédaigné de devenir les Rois ?</l>
+	<l id='1529'>Aux malheurs attachés à ma triste Famille,</l>
+	<l id='1530'>Tu dois de Darius reconnaître la Fille ;</l>
+	<l id='1531'>Mais, grâce au Ciel, je sens la mort qui pas à pas,</l>
+	<l id='1532'>S'avance lentement, et ne m'étonne pas,</l>
+	<l id='1533'>De mes derniers moments je ferai le partage,</l>
+	<l id='1534'>Alexandre et mon père ont mon dernier hommage ;</l>
+	<l id='1535'>Et si j'ose à ta foi confier mes désirs,</l>
+	<l id='1536'>Léonatus, Cléone, à mes derniers soupirs.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Léonatus, Statira, Cléone.</head>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='1537'>Ciel ! Je le vois, Madame, et contre votre attente.</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1538'>Il est vivant, Cléone, et je mourrai contente.</l>
+	<l id='1539'>Sur tout, cache tes pleurs ; hélas ! Son triste coeur</l>
+	<l id='1540'>Ne sera que trop tôt instruit de son malheur.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1541'>Madame, mon amour tremblait pour votre vie,</l>
+	<l id='1542'>Mais enfin, je vous vois, et Roxane est partie ;</l>
+	<l id='1543'>Cassander, pour tromper Roxane et Perdiccas,</l>
+	<l id='1544'>Lui-même a fait semer le bruit de mon trépas,</l>
+	<l id='1545'>Sa feinte a réussi ; vous n'avez rien à craindre,</l>
+	<l id='1546'>Ils sont hors de ces Murs, et sans plus nous contraindre,</l>
+	<l id='1547'>Rendons grâces aux Dieux d'avoir sauvé des jours</l>
+	<l id='1548'>Dont la perte des miens aurait borné le cours ;</l>
+	<l id='1549'>Mon coeur de Perdiccas ne craint plus la furie,</l>
+	<l id='1550'>Il pourra, s'il le veut, attenter sur ma vie,</l>
+	<l id='1551' part='i'>La vôtre en sûreté...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1551' part='f'>Mes voeux sont exaucés,</l>
+	<l id='1552'>Je vous vois, vous vivez, Seigneur, et c'est assez.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1553'>Ah ! Madame, songez à bannir vos alarmes ;</l>
+	<l id='1554'>Mais, justes Dieux ! Pourquoi Cléone toute en larmes ?</l>
+</sp>
+<sp who='CLÉONE'><speaker>CLÉONE.</speaker>
+	<l id='1555' part='i'>Ah ! Seigneur...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1555' part='f'>Je croirai tous mes malheurs finis,</l>
+	<l id='1556'>Lorsque vous n'aurez plus à craindre d'Ennemis.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1557' part='i'>Madame, quel discours...</l>
+</sp>
+<sp who='STATIRA'><speaker>STATIRA.</speaker>
+	<l id='1557' part='f'>J'ai quelque inquiétude</l>
+	<l id='1558'>Qui demande, Seigneur, un peu de solitude.</l>
+	<l id='1559'>Craignez de Perdiccas quelque nouvel effort,</l>
+	<l id='1560'>Vous vivez, et je suis contente de mon sort.</l>
+	<l id='1561'>Je ne puis avec vous demeurer davantage,</l>
+	<l id='1562'>Mes yeux appesantis se couvrent d'un nuage,</l>
+	<l id='1563'>J'entre, vous apprendrez le reste en peu de temps ;</l>
+	<l id='1564'>Mais ne me suivez pas, et je vous le défends.</l>
+	<l id='1565' part='i'>Adieu, Seigneur.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX.</head>
+<sp who='LÉONATUS'><speaker>LÉONATUS, seul.</speaker>
+	<l id='1565' part='f'>Quoi donc ? Que me fait-elle entendre,</l>
+	<l id='1566'>Et quel est ce secret que je ne puis comprendre ?</l>
+	<l id='1567'>Elle craint pour ma vie, et par un doux transport,</l>
+	<l id='1568'>M'ose assurer qu'elle est contente de son sort.</l>
+	<l id='1569'>De quel sort, juste Cie ! Peut elle être contente ?</l>
+	<l id='1570'>Elle me croyait mort, et contre son attente,</l>
+	<l id='1571'>Elle me voit encore à ses pieds... Mais, grands Dieux !</l>
+	<l id='1572'>Quel désordre, quel trouble ai-je vu dans ses yeux ?</l>
+	<l id='1573'>Quel affreux changement marquait sur son visage...</l>
+	<l id='1574'>Je commence à percer ce funeste nuage,</l>
+	<l id='1575'>Et ses yeux, et son teint, et sa sombre pâleur,</l>
+	<l id='1576'>Tout semble sur son front écrire mon malheur.</l>
+	<l id='1577'>Roxane, quoi Roxane, aurait-elle... Je tremble,</l>
+	<l id='1578'>J'entrevois les malheurs que mon destin assemble.</l>
+	<l id='1579'>Allons, sortons, il faut... Mais quand je veux sortir,</l>
+	<l id='1580'>Un long frémissement dont je me sens saisir,</l>
+	<l id='1581'>Dans mes esprits glacés venant à se répandre, </l>
+	<l id='1582'>M'arrête, et me dit trop ce que je n'ose apprendre.</l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE DERNIÈRE. Perdiccas, Léonatus.</head>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1583'>Rempli de désespoir, de fureur, et d'amour,</l>
+	<l id='1584'>Seigneur, je vous cherchais pour vous ravir le jour,</l>
+	<l id='1585'>Et je me vois chargé du soin de votre vie.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1586' part='i'>Quoi, Seigneur ?</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1586' part='f'>La pitié succède à ma furie,</l>
+	<l id='1587'>J'en ai pour vous sans-doute, et par un juste effroi</l>
+	<l id='1588'>Dans un moment peut-être en aurez-vous pour moi.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1589' part='i'>Ciel ! Je tremble.</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1589' part='f'>Incertain du sort de la Princesse,</l>
+	<l id='1590'>Je la cherchais rempli de crainte et de tendresse ;</l>
+	<l id='1591'>Je l'ai trouvée. Ah Dieu ! Elle était dans les bras</l>
+	<l id='1592'>De Cléone. J'ai vu... quel changement, hélas !</l>
+	<l id='1593'>Ses beaux yeux presque éteints sous leur faible paupière,</l>
+	<l id='1594'>À peine jouissaient d'un reste de lumière.</l>
+	<l id='1595'>Elle m'a reconnu, quand par un juste effort</l>
+	<l id='1596'>Le soin de votre vie a retardé sa mort,</l>
+	<l id='1597'>Et par quelques soupirs a d'une voix tremblante</l>
+	<l id='1598'>Tiré ces derniers mots de sa bouche mourante.</l>
+	<l id='1599'>Je meurs, a-t-elle dit, vos soins sont superflus ;</l>
+	<l id='1600'>Seigneur, si vous m'aimez, sauvez Léonatus,</l>
+	<l id='1601'>Empêchez... À ces mots... Mes soupirs et ma rage,</l>
+	<l id='1602' part='i'>Mon désespoir...</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1602' part='f'>Ah Dieux ! Quel funeste langage ?</l>
+	<l id='1603' part='i'>Quoi, Statira n'est plus !</l>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1603' part='f'>Par un poison fatal</l>
+	<l id='1604' part='i'>Vous n'avez plus d'amante.</l>
+</sp>
+<sp who='LÉONATUS'><speaker>LÉONATUS.</speaker>
+	<l id='1604' part='f'>Et vous plus de rival.</l>
+	<l id='1605'>Je veux périr, il faut que la mort nous assemble.</l>
+<stage>Il se veut jeter sur l'épée de Perdiccas.</stage>
+</sp>
+<sp who='PERDICCAS'><speaker>PERDICCAS.</speaker>
+	<l id='1606'>Oui, Seigneur, périssons, mais périssons ensemble,</l>
+	<l id='1607'>Je viens pour la venger, et mourir avec vous,</l>
+	<l id='1608'>Mais perdons Cassander et Roxane avec nous.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

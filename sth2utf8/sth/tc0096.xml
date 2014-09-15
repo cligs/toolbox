@@ -1,0 +1,2081 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ASTARBÉ, TRAGÉDIE</title>
+				<author born='1732' born_location='Janville' death='1776' death_location='Paris' academie='1776'>COLARDEAU, Charles-Pierre</author>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, août 2013</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire romaine</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1751-1760</periode>
+				<taille>1250-1500</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k61132166</permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">ASTARBE</titlePart>
+				<titlePart type="sub">TRAGÉDIE</titlePart>
+			</docTitle> 
+			<docDate value='1758'>M. DCC. LVIII. Avec Approbation et Privilège du Roi</docDate>
+			<docAuthor id='COLARDEAU, Charles-Pierre'  bio='colardeau'>Par M. COLARDEAU.</docAuthor>
+			<docImprint>
+				<approbation id='1758-04-01'><head>Approbation</head>
+					<p>J'ai lu par ordre de Monseigneur le Chancelier, Astarbé, Tragédie, et je crois que l'on peut en permettre l'impression. À Paris, ce 1er Avril 1758.</p>
+					<p>CREBILLON</p>
+				</approbation>
+				<imprimeur id='BORDELET'>À PARIS, Chez la Veuve BORDELET, rue Saint Jacques ; vis-à-vis le Collège des Jésuites.</imprimeur>
+				<acheveImprime id=''></acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='1758-02-27' location='Théâtre de la rue des Fossés Saint-Germain'>Représentée, pour la première fois par les Comédiens français ordinaires du Roi, le 27 février 1758.</premiere>
+			</performance>
+		<dedicace><adresse>À SON ALTESSE SÉRÉNISSIME MONSEIGNEUR LE DUC D'ORLÉANS, PREMIER PRINCE DU SANG,</adresse>
+		<p type="vers">PRINCE, pour qui l'éclat d'une illustre naissance </p>
+		<p type="vers">N'est pas le seul garant de l'amour de la France,</p>
+		<p type="vers">Mais qui né près du trône et du Sang des BOURBONS,</p>
+		<p type="vers">Doit tout à tes vertus et rien aux plus grands noms,</p>
+		<p type="vers">Permets qu'un Citoyen du monde Littéraire,</p>
+		<p type="vers">S'élevant jusqu'à toi dans son vol téméraire,</p>
+		<p type="vers">Dût-il être ébloui, t'admirant de trop près,</p>
+		<p type="vers">Vienne mettre à tes pieds ses timides essais.</p>
+		<p type="vers">Je sais que d'un coup d'oeil tu peux glacer ma Muse ;</p>
+		<p type="vers">Mais ta grandeur se voile, et ta bonté m'excuse.</p>
+		<p type="vers">Né dans ces murs, jadis les défenseurs des Rois,</p>
+		<p type="vers">Où, fiere de rouler son onde sous tes lois,</p>
+		<p type="vers">Et sous ton astre heureux plus superbe et plus vaine,</p>
+		<p type="vers">La Loire, dans son cours, le dispute à la Seine,</p>
+		<p type="vers">Au nom de ma patrie, aux titres les plus chers,</p>
+		<p type="vers">Tu veux bien accepter mon hommage et mes vers.</p>
+		<p type="vers">PRINCE, puissent ces vers, à l'ombre de ta gloire,</p>
+		<p type="vers">Gravés par ton suffrage au Temple de Mémoire,</p>
+		<p type="vers">Apprendre, quelque jour, à la postérité</p>
+		<p type="vers">Que, dirigeant leurs pas vers l'immortalité,</p>
+		<p type="vers">Tu soutins les talents dans leur vaste carrière,</p>
+		<p type="vers">Que du Cirque Français tu m'ouvris la barrière,</p>
+		<p type="vers">Et, que les animant du feu de ses regards,</p>
+		<p type="vers">PHILIPPES fut le père et l'ami des Beaux Arts.</p>
+		</dedicace>
+		<castList><head>ACTEURS.</head>
+			<castItem><role id="PIGMALION" civil='M' type="H" statut="roi" age="A" stat_amour='néant'>PIGMALION</role>, Roi de Tyr, M. Paulin.</castItem>
+			<castItem><role id="ASTARBÉ" civil='F' type="H" statut="roi" age="amoureux" stat_amour='néant'>ASTARBÉ</role>, épouse de Pigmalion, Mlle Clairon.</castItem>
+			<castItem><role id="BACAZAR" civil='M' type="H" statut="prince" age="A" stat_amour='néant'>BACAZAR</role>, fils de Pigmalion, M. Le Kain.</castItem>
+			<castItem><role id="LEUXIS" civil='F' type="H" statut="prince" age="A" stat_amour='néant'>LEUXIS</role>, Princesse, amante de Bacazar, Mlle Gauffin.</castItem>
+			<castItem><role id="NARBAL" civil='M' type="H" statut="gouverneur" age="V" stat_amour='néant'>NARBAL</role>, ancien Gouverneur de Bacazar, M. Brizard.</castItem>
+			<castItem><role id="ZOPIRE" civil='M' type="H" statut="aristocrate" age="A" stat_amour='néant'>ZOPIRE</role>, conjuré, M. Bellecourt.</castItem>
+			<castItem><role id="NADOR" civil='M' type="H" statut="aristocrate" age="A" stat_amour='néant'>NADOR</role>, conjuré, M. Le Grand.</castItem>
+			<castItem><role id="ORCAN" civil='M' type="H" statut="confident" age="A" stat_amour='néant'>ORCAN</role>, Confident d'Astarbé, M. Bonneval.</castItem>
+			<castItem><role id="ARSACE" civil='M' type="H" statut="officier" age="A" stat_amour='néant'>ARSACE</role>, Chef des Gardes de Pigmalion, M. Dubois.</castItem>
+			<castItem><role id="GARDES" civil='G' type="H" statut="garde" age="A" stat_amour='néant'>GARDES de Pigmalion</role>.</castItem>
+			<castItem><role id="GARDES d'Astarbé" civil='G' type="H" statut="garde" age="A" stat_amour='néant'>GARDES d'Astarbé</role>.</castItem>
+			<castItem><role id="TYRIENS" civil='G' type="H" statut="peuple" age="A" stat_amour='néant'>TROUPE DE TYRIENS</role>.</castItem>
+	</castList>
+	<set location='Tyr' country='Syrie' periode='IXème avant JC' link=''>La Scène est à Tyr dans le Palais des Rois.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Narbal, Arsace.</head>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1'>Toi, dans Tyr, toi, Narbal ! Vieillard infortuné,</l>
+	<l id='2'>Marches-tu sans effroi, d'écueils environné ?</l>
+	<l id='3'>Dans ce séjour du crime et de la tyrannie</l>
+	<l id='4' part='i'>Quel motif te conduit ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='4' part='f'>L'amour de ma Patrie,</l>
+	<l id='5'>Les cris attendrissants d'un peuple malheureux,</l>
+	<l id='6'>Les remords de mon Roi ; tout m'appelle en ces lieux.</l>
+	<l id='7'>On dit que,, détestant le jour où l'hyménée</l>
+	<l id='8'>Au sort d'une barbare unit sa destinée,</l>
+	<l id='9'>Pigmalion rougit de ses longues erreurs ;</l>
+	<l id='10'>Qu'Astárbé va sentir ses dernières fureurs :</l>
+	<l id='11'>Sur ce monstre odieux je viens l'instruire encore ;</l>
+	<l id='12'>Je viens lui dévoiler des forfaits qu'il ignore.</l>
+	<l id='13'>La cruelle immola ses déplorables fils,</l>
+	<l id='14'>Ses fils, par mes leçons, dans la vertu nourris.</l>
+	<l id='15'>Que Pigmalion tremble aux noms de ses victimes !</l>
+	<l id='16'>Qu'il connqisse Astarbé, qu'il punisse ses crimes ;</l>
+	<l id='17'>Et que de la perfide à jamais délivré,</l>
+	<l id='18'>Il règne en Souverain de son peuple adoré.</l>
+	<l id='19'>Du fonds de mes déserts, voilà ce qui m'amène.</l>
+	<l id='20'>Tu le vois, mes projets sont d'amour et de haine :</l>
+	<l id='21'>Je viens perdre Astarbé, sauver l'État, mon Roi.</l>
+	<l id='22'>Arsace, j'ai compté sur tes soins, sur ta foi.</l>
+	<l id='23'>Destiné pour veiller sur les jours de son Maître,</l>
+	<l id='24'>Devant lui, sans péril, Arsace peut paraître.</l>
+	<l id='25'>Viens : au pied de son trône il faut guider mes pas ;</l>
+	<l id='26'>Tu le peux... Tu frémis ! Tu ne me réponds pas!</l>
+	<l id='27'>Ah , Dieux ! .... Quoi ! d'un vain bruit mon oreille frappée.</l>
+	<l id='28'>Un faux espoir naît-il dans mon âme trompée ?</l>
+	<l id='29' part='i'>Parle.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='29' part='f'>Imprudent vieillard, tu quittes tes Déserts !</l>
+	<l id='30'>À la Cour d'un tyran viens tu chercher des fers ?</l>
+	<l id='31'>Connais Pigmalion. Monstrueux assemblage</l>
+	<l id='32'>De crimes, de remords, et d'amour, et de rage ,</l>
+<note type="L">Sichée : mari de Didon qui était soeur de Pygmalion ; il  était donc son beau-frère et fut tué par lui.</note>
+	<l id='33'>Teint du sang de Sichée et du sang de son fils,</l>
+	<l id='34'>Monarque environné d'un peuple d'ennemis,</l>
+	<l id='35'>Haï de ses sujets, en horreur à lui-même ,</l>
+	<l id='36'>Esclave infortuné d'une épouse qu'il aime ;</l>
+	<l id='37'>Emporté, furieux dans ses plus doux transports,</l>
+	<l id='38'>Cruel dans ses forfaits, cruel dans ses remords,</l>
+	<l id='39'>Il est à redouter autant qu'il est à plaindre.</l>
+	<l id='40'>Dans son repentir même un tyran est à craindre.</l>
+	<l id='41' part='i'>Ah ! Fuis loin du barbare !</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='41' part='f'>Arrête : écoute moi.</l>
+	<l id='42'>Narbal, dans un Tyran respecte encor son Roi.</l>
+	<l id='43'>Tu l'oses condamner !... Ah ! Quels que soient leurs crimes,</l>
+	<l id='44'>Marchants à pas tremblants à travers mille abîmes,</l>
+	<l id='45'>Il faut plaiudre les Rois dans leurs tristes grandeurs ;</l>
+	<l id='46'>Leurs forfaits bien souvent ne sont que leurs malheurs.</l>
+	<l id='47'>Arrête.... Et cependant seconde ici mon zèle.</l>
+	<l id='48'>Pigmalion soupçonne une épouse infidèle ;</l>
+	<l id='49'>Je le sais. Viens, te dis-je. Il faut tout découvrir,</l>
+	<l id='50' part='i'>Accuser Astarbé.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='50' part='f'>Cruel, tu vas périr.</l>
+	<l id='51'>Astarbé ! Dieux ! Narbal peut-il la méconnaître ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='52'>Je connais son pouvoir, et mes yeux l'ont vu naître.</l>
+	<l id='53'>Conduite par l'amour au trône de nos Rois,</l>
+	<l id='54'>Sa fatale beauté fit seule tous ses droits.</l>
+	<l id='55'>La fortune l'éleve, et le faible l'encense :</l>
+	<l id='56'>Mais je ne puis, foulé du poids de sa puissance,</l>
+	<l id='57'>Tomber aux pieds d'un monstre, auteur des maux divers,</l>
+	<l id='58'>Dont sa rage a rempli ce coin de l'Univers.</l>
+	<l id='59'>Du haut de ses autels renversons cette idole.</l>
+	<l id='60'>Que m'importe, après tout, que sa fureur m'immole ?</l>
+	<l id='61'>Dois-je épargner un sang, dans mes veines, glacé ?</l>
+	<l id='62'>Pour mon Roi, pour l'État il doit être versé.</l>
+	<l id='63'>Arsace, nous touchons au jour de la vengeance.</l>
+	<l id='64'>J'ensevelis encor dans la nuit du silence</l>
+	<l id='65'>Un secret important qu'il faut taire en ces lieux.</l>
+	<l id='66'>Tantôt et loin d'ici je t'en instruirai mieux.</l>
+	<l id='67'>Cependant, apprends-moi le sort d'une Princesse,</l>
+	<l id='68'>Dont le malheur affreux me touche et m'intéresse.</l>
+	<l id='69'>Leuxis, dans ce Palais, voit-elle encor le jour ?</l>
+	<l id='70'>Nourrirait-elle encor un malheureux amour ?</l>
+	<l id='71'>De l'héritier du Trône amante infortunée,</l>
+	<l id='72'>Au jeune Bacazar promise et destinée,</l>
+	<l id='73'>Elle attendait des Dieux, le prix de ses vertus.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='74'>Leuxis remplit ces lieux de regrets superflus.</l>
+	<l id='75'>D'autant plus malheureuse, au sein de ses alarmes,</l>
+	<l id='76'>Que l'impie Astarbé se repaît de ses larmes ,</l>
+	<l id='77'>Que l'auteur de ses maux jouit de sa douleur.</l>
+	<l id='78'>La vertu cependant est toujours dans son coeur.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='79'>Vole vers elle, Arsace ; et dis-lui qu'elle espère :</l>
+	<l id='80'>Ce jour, cet heureux jour finira sa misère.</l>
+	<l id='81' part='i'>Dieux ! Astarbé paraît !</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Astarbé , Narbal , Arsace, Orcan, Gardes.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='81' part='f'>Vous, Narbal, dans ces lieux !</l>
+	<l id='82'>Osez-vous, sans mon ordre , y paraître à mes yeux ?</l>
+	<l id='83'>Vous, qu'à mes volontés j'ai vû toujours contraire,</l>
+	<l id='84'>Vous, qui vous imposant un exil volontaire,</l>
+	<l id='85'>Sur des bords inconnus, en secret, retiré,</l>
+	<l id='86'>Vsivez depuis dix ans, à la Cour ignoré.</l>
+	<l id='87'>Narbal, dans un sujet, la fuite est condamnable,</l>
+	<l id='88'>Et, s'il n'est ordonné, le retour est coupable,</l>
+	<l id='89'>Il faut justifier l'un et l'autre aujourd'hui.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='90'>Le Juste qu'on accuse, a ses vertus pour lui.</l>
+	<l id='91'>Arrêtez vos regards sur le cours de ma vie,</l>
+	<l id='92'>Madame... C'est ainsi que je me justifie.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='93'>Inflexible vieillard, crois-moi, le temps n'est plus.</l>
+	<l id='94'>Où, moi-même admirant tes sauvages vertus,</l>
+	<l id='95'>J'ai souffert que dans Tyr ton audace impunie</l>
+	<l id='96'>Me donnât tous les noms, dont elle m'a noircie ;</l>
+	<l id='97'>De tants d'affronts reçus, et qu'il falloit punir,</l>
+	<l id='98'>Je veux bien aujourd'hui perdre le souvenir.</l>
+	<l id='99'>C'est assez me contraindre ; et je me suis flattée</l>
+	<l id='100'>D'être, dans mes grandeurs, désormais respectée.</l>
+	<l id='101' part='i'>Je le veux, en un mot.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='101' part='f'>La juste autorité</l>
+	<l id='102'>Trouve dans moi le zèle et la docilité :</l>
+	<l id='103'>Mais je ne sus jamais vil esclave du crime</l>
+	<l id='104'>Lui rendre, dans les Cours, un culte illégitime.</l>
+	<l id='105'>Fidèle à ma patrie, aux souverains, aux lois,</l>
+	<l id='106'>C'est sans déplaire aux Dieux que j'obéis aux Rois.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='107' part='i'>Sors, et tremble.</l>
+<stage>Les Gardes sortent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Astarbé, Orcan.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='107' part='f'>En ces lieux quel motif le ramène ?</l>
+	<l id='108'>Du poids de son orgueil il accable sa Reine !</l>
+	<l id='109'>Ici tout m'importune, et depuis quelques jours,</l>
+	<l id='110'>Tout semble de ma vie empoisonner le cours.</l>
+	<l id='111'>Leuxis, de mes grandeurs, orgueilleuse rivale,</l>
+	<l id='112'>Ose usurper mes droits et marcher mon égale.</l>
+	<l id='113'>Pigmalion lui-même, inquiet et jaloux,</l>
+	<l id='114'>Affectant les chagrins d'un maître et d'un époux,</l>
+	<l id='115'>Et ne me parlant plus que la plainte à la bouche,</l>
+	<l id='116'>Verse sur moi le fiel de son âme farouche.</l>
+	<l id='117'>Sur mes sombres projets serait-il éclairé ?</l>
+	<l id='118'>Le voile qui les couvre est-il donc déchiré ?</l>
+	<l id='119'>Je ne sais ; mais tantôt sous ces voûtes sanglantes</l>
+	<l id='120'>Croyant voir de son fils les ombres menaçantes,</l>
+	<l id='121'>Et se plaignant à moi des rigueurs de leur fort,</l>
+	<l id='122'>Le barbare, en ces lieux, m'a reproché leur mort.</l>
+	<l id='123'>Je le connais : il faut prévenir sa furie.</l>
+	<l id='124'>II avance le coup qui menace sa vie,</l>
+	<l id='125'>Ces soldats vigilants, ces gardes assidus,</l>
+	<l id='126'>Ces cent portes d'airain, ces glaives toujours nus,</l>
+	<l id='127'>Ces foudres allumés, qui grondent près du trône,</l>
+	<l id='128'>Ces orgueilleuses tours, que la mort environne,</l>
+	<l id='129'>(Appareil menaçant, mais inutile appui</l>
+	<l id='130'>Qu'un tyran met toujours entre son peuple et lui, )</l>
+	<l id='131'>Rien ne peut ralentir le courroux qui m'anime.</l>
+	<l id='132'>Pigmalion, ce soir, expire ma victime.</l>
+	<l id='133'>Ce projet en un mot trop longtemps concerté.</l>
+	<l id='134'>Dans ce jour de terreur doit être exécuté.</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='135'>Immoler le tyran ! Quels mortels intrépides</l>
+	<l id='136'>Seconderont ici vos fureurs parricides ?</l>
+	<l id='137'>Quels sujets oseront sacrifier leur Roi ?</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='138'>Je n'attends rien du peuple, et j'ai compté sur moi.</l>
+	<l id='139'>N'en doute point, ce bras suffit à ma vengeance.</l>
+	<l id='140'>De mes cruels transports connais la violence.</l>
+	<l id='141'>Le tyran jusqu'ici n'a fait naître en mon coeur</l>
+	<l id='142'>Que des emportements de haine et de fureur :</l>
+	<l id='143'>Et dans ce jour encor, où le cruel m'outrage,</l>
+	<l id='144'>Mon plus doux sentiment est celui de la rage.</l>
+	<l id='145'>Qu'il ne se plaigne point de tant d'inimitié,</l>
+	<l id='146'>La sienne, plus barbare, a tout justifié.</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='147'>Son amour, cependant, vous place au rang de Reine.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='148'>Quel amour, si j'ai dû lui préférer sa haine !</l>
+	<l id='149'>Par l'ordre de mon père attaché près de moi,</l>
+	<l id='150'>L'habitude et le temps m'assurent de ta foi.</l>
+	<l id='151'>Orcan ; je vais t'ouvrir mon âme toute entière,</l>
+	<l id='152'>Cette âme, pour toi seul va souffrir la lumière.</l>
+	<l id='153'>Rappelle-toi le jour où cet affreux Palais,</l>
+	<l id='154'>Retentit tout à coup du bruit de mes attraits ;</l>
+	<l id='155'>Tu sais l'obscurité du rang où je suis née ;</l>
+	<l id='156'>Sans ambition, libre, et du trône éloignée ;</l>
+	<l id='157'>Encor dans l'âge, où fait pour les illusions</l>
+	<l id='158'>Notre coeur méconnaît les grandes passions :</l>
+	<l id='159'>J'aimais ; heureuse alors ; glorieuse et contente</l>
+	<l id='160'>Mon orgueil se bornait au vain titre d'amante ;</l>
+	<l id='161'>Les Dieux allaient m'unir au sort de mon époux,</l>
+	<l id='162'>Et les flambeaux d'hymen brillaient déjà pour nous,</l>
+	<l id='163'>Quand au lit du tyran, malgré moi réservée,</l>
+	<l id='164'>Des bras de mon amant je me vis enlevée :</l>
+	<l id='165'>De cent coups de poignard je vis percer son coeur.</l>
+	<l id='166'>On ajouta bientôt l'outrage à la fureur.</l>
+	<l id='167'>Dans ce Palais funeste on me traîna mourante ;</l>
+	<l id='168'>Pigmalion brava les larmes d'une amante ;</l>
+	<l id='169'>Et voulant me forcer de répondre à ses voeux,</l>
+	<l id='170'>Il serra de l'hymen les détestables noeuds.</l>
+	<l id='171'>Quel hymen ! Le cruel, dans sa rage jalouse,</l>
+	<l id='172'>Venait d'empoisonner sa malheureuse épouse,</l>
+	<l id='173'>Et dans ce jour encor, son frère infortuné ,</l>
+	<l id='174'>Sichée, à nos autels mourut assassiné.</l>
+	<l id='175'>Orcan, il m'inspira la fureur qui m'anime,</l>
+	<l id='176'>Et dans ses bras sanglants, j'ai respiré le crime.</l>
+	<l id='177'>Assise à ses côtés sur le trône des Rois,</l>
+	<l id='178'>Je devins politique et barbare à la fois.</l>
+	<l id='179'>Enfin, que te dirai-je ? À ses destins unie,</l>
+	<l id='180'>Le cruel m'infecta de son fatal génie.</l>
+	<l id='181'>Je voulus l'en punir ; mais pour mieux le frapper,</l>
+	<l id='182'>Il était soupçonneux, il fallait le tromper.</l>
+	<l id='183'>On m'aimait, et bientôt au vain talent de plaire</l>
+	<l id='184'>J'ajoutai l'artifice, il était nécessaire :</l>
+	<l id='185'>Et sans te rappeller ces intrigues de Cour,</l>
+	<l id='186'>Fruit de l'ambition plutôt que de l'amour ;</l>
+	<l id='187'>Je pris sur le tyran cet ascendant suprême</l>
+	<l id='188'>Que donne la beauté sur les souverains même.</l>
+	<l id='189'>J'obtins tout ; je régnai sur son peuple et sur lui.</l>
+	<l id='190'>Mais, Orcan, mon pouvoir l'inquiète aujourd'hui :</l>
+	<l id='191'>Il m'observe, il me craint ; ma faveur diminue,</l>
+	<l id='192'>Et peut être ma perte est déja résolue.</l>
+	<l id='193'>De sa première épouse il m'apprête le sort.</l>
+	<l id='194'>Qu'il frémisse ! Ma crainte est l'arrêt de sa mort.</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='195'>Quel mortel près de vous doit monter sur le trône,</l>
+	<l id='196'>Madame ! Sur quel front mettez-vous la couronne ?</l>
+	<l id='197'>Vous connaissez nos moeurs, nos usages, nos lois ;</l>
+	<l id='198'>Tyr, pour la gouverner n'eût jamais que des Rois.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='199'>Qu'oses-tu m'opposer ? Apprends à me connaître.</l>
+	<l id='200'>Astarbé trop longtemps a gémi sous un maître.</l>
+	<l id='201'>Je méprise un vil peuple, indocile et jaloux.</l>
+	<l id='202'>Orcan, je régnerai sans maître et sans époux.</l>
+	<l id='203'>Par de pénibles soins au trône conservée,</l>
+	<l id='204'>Si je le partageais, je m'en croirais privée.</l>
+	<l id='205'>Je sens enfin, je sens dans le fond de mon coeur</l>
+	<l id='206'>La vaste ambition qui mène à la grandeur.</l>
+	<l id='207'>Vois, jusqu'où j'ai porté mes soins et ma prudence,</l>
+	<l id='208'>Du sang des souverains j'ai proscrit l'espérance.</l>
+	<l id='209'>Un obstacle puissant arrêtait mes projets ;</l>
+	<l id='210'>Le tyran eut deux fils, l'amour de ses sujets,</l>
+	<l id='211'>Faibles, jeunes encor, mais qui pouvaient me nuire ;</l>
+	<l id='212'>Méprisables tous deux, mais qu'il fallait détruire ;</l>
+	<l id='213'>J'avais juré leur mort ; rien ne peut m'effrayer.</l>
+	<l id='214'>D'un complot criminel j'accusai le premier ;</l>
+	<l id='215'>De ses plus noirs poisons j'armai la calomnie.</l>
+	<l id='216'>Le tyran inquiet, qui craignait pour sa vie,</l>
+	<l id='217'>N'éclaircir rien, crut tout, et sur mon seul rapport,</l>
+	<l id='218'>De son malheureux fils il ordonna la mort.</l>
+	<l id='219'>Bacazar restait seul ; plus heureux que son frère,</l>
+	<l id='220'>Il avait pour appui la tendresse d'un père.</l>
+	<l id='221'>Et la pompe et l'éclat dont brillait cette Cour,</l>
+	<l id='222'>De son fatal hymen nous annonçaient le jour ;</l>
+	<l id='223'>Cette même Leuxis, dont la fierté m'offense ,</l>
+	<l id='224'>L'obtenait pour époux, et trompait ma prudence :</l>
+	<l id='225'>Mais du fatal hymen je reculai l'instant,</l>
+	<l id='226'>Et ma main sépara l'amante de l'amant.</l>
+	<l id='227'>II était dans cet âge, où Tyr voit sa jeunesse</l>
+	<l id='228'>Aller chercher les arts dans le sein de la Grèce.</l>
+<note type="L">Samos : île turque de la mer Egée, l'une des Sporades, près de la côte ouest de l'Asie mineure. [B]</note>
+	<l id='229'>J'usai de ce prétexte, il partit pour Samos.</l>
+	<l id='230'>Le Pilote séduit, le plongea dans les flots.</l>
+	<l id='231'>On crut que le vaisseau, surpris par un orage,</l>
+	<l id='232'>Avait enveloppé le Prince en son naufrage ;</l>
+	<l id='233'>Et le peuple crédule, adoptant ce rapport ,</l>
+	<l id='234'>II n'imputa qu'aux Dieux le malheur de sa mort.</l>
+	<l id='235'>Voilà par quels degrés l'adroite politique</l>
+	<l id='236'>M'approche à chaque instant du pouvoir despotique.</l>
+	<l id='237'>Il ne faut plus qu'un pas, je le fais en ce jour :</l>
+	<l id='238'>Je sers l'ambition, et je venge l'Amour.</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='239'>Mais ne craignez-vous point que le peuple indocile</l>
+	<l id='240'>Ne s'oppose au succès d'un projet inutile ?</l>
+	<l id='241'>Vous devez redouter ses noirs ressentiments.</l>
+	<l id='242'>Plus d'un Peuple, Madame, a vangé ses tyrans.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='243'>Je ne m'abuse point, je sais qu'on me déteste ;</l>
+	<l id='244'>Je sais que Tyr me voit comme un monstre funeste,</l>
+	<l id='245'>Artisan de ses maux, destructeur de ses lois,</l>
+	<l id='246'>Ennemi de ses Dieux, et tyran sous ses Rois :</l>
+	<l id='247'>Va, je me rends justice, et n'ai pû me séduire</l>
+	<l id='248'>Jusqu'à me déguiser la haine que j'inspire.</l>
+	<l id='249'>Mais cette inimitié qui t'alarme pour moi,</l>
+	<l id='250'>Redouble ma fureur, et non pas mon effroi,</l>
+	<l id='251'>Moi, redouter, moi, craindre une foule impuissante</l>
+	<l id='252'>De faibles citoyens que mon nom épouvante !</l>
+	<l id='253'>Que m'importe la haine ou l'amour des mortels ?</l>
+	<l id='254'>Orcan, je veux un trône, et non pas des autels.</l>
+	<l id='255'>Poursuivons mes desseins. On dit que dans Carthage,</l>
+	<l id='256'>La superbe Didon forme un nouvel orage,</l>
+	<l id='257'>Et que bientôt ici cette Reine en courroux,</l>
+	<l id='258'>Doit venir pour venger l'ombre de son époux :</l>
+	<l id='259'>Je dois la craindre, Orcan ; la foudre qu'elle apprête,</l>
+	<l id='260'>En frappant le tyran, tomberait sur ma tête ;</l>
+	<l id='261'>Différer, c'est l'attendre : il faut la prévenir.</l>
+	<l id='262'>Je sais de quels ressorts il faudra se servir.</l>
+	<l id='263'>Et toi, va rassembler cette foule importune</l>
+	<l id='264'>Que l'intérêt enchaîne au char de ma fortune :</l>
+	<l id='265'>Tous ces vils courtisans, ces flatteurs corrompus,</l>
+	<l id='266'>Comblés de mes bienfaits, me sont déja vendus.</l>
+	<l id='267'>Mais, fais venir surtout Le farouche Zopire :</l>
+	<l id='268'>Ce Zopire est un traître, et j'ai su le séduire ;</l>
+	<l id='269'>Autrefois vertueux, aujourd'hui criminel ;</l>
+	<l id='270'>Né faible, et cependant politique et cruel ;</l>
+	<l id='271'>C'est un de ces humains guidés par leurs caprices,</l>
+	<l id='272'>Dont on met à profit les vertus ou les vices.</l>
+	<l id='273'>Vole, Orcan ; et surtout renferme dans ton coeur</l>
+	<l id='274'>Des secrets, dont tu vois la sombre profondeur.</l>
+	<l id='275' part='i'>Mais que me veut Leuxis ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Astarbé, Leuxis, Arsace.</head>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='275' part='f'>Vous l'emportez, Madame ;</l>
+	<l id='276'>J'abaisse, en frémissant, la fierté de mon âme ;</l>
+	<l id='277'>Moi, qui ne dûs jamais reconnaître vos lois,</l>
+	<l id='278'>Moi, la soeur de Sichée, et fille de nos Rois ;</l>
+	<l id='279'>Je viens vous implorer : les malheurs de ma vie</l>
+	<l id='280'>M'ont réduite à l'opprobre où je suis avilie.</l>
+	<l id='281'>Assez longtemps vos yeux ont joui de mes pleurs.</l>
+	<l id='282'>Ce Palais a pour moi d'éternelles horreurs ;</l>
+	<l id='283'>J'y frémis, et j'y vois une main meurtrière,</l>
+	<l id='284'>Fumante encor du sang de ma famille entière.</l>
+	<l id='285'>Obtenez de mon Roi qu'abandonnant ces lieux,</l>
+	<l id='286'>Je puisse, avec Didon, sur des bords plus heureux,</l>
+	<l id='287'>Déplorer en secret nos longues infortunes :</l>
+	<l id='288'>L'Hymen unit nos droits ; nos pertes sont communes.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='289'>Madame, je le sais, les mêmes intérêts</l>
+	<l id='290'>Vous livrent l'une et l'autre à de pareils regrets.</l>
+	<l id='291'>Didon, dans le complot d'une injuste vengeance,</l>
+	<l id='292'>Vous a vue avec elle agir d'intelligence ;</l>
+	<l id='293'>Et si Pigmalion écoute mes avis,</l>
+	<l id='294'>Sa main n'unira pas ses plus grands ennemis.</l>
+	<l id='295'>Vous ne verrez jamais les rivages d'Afrique.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='296'>Et voilà donc les soins de votre politique ?</l>
+	<l id='297'>Me peignant à ses yeux sous d'affreuses couleurs,</l>
+	<l id='298'>De votre époux trompé vous armez les fureurs :</l>
+	<l id='299'>Qui de nous, envers lui, se montra plus perfide ?</l>
+	<l id='300'>Ai-je livré son sang à sa main parricide ?</l>
+	<l id='301'>Ah ! Tandis qu'à ses fils on arrachait le jour,</l>
+	<l id='302'>L'un avait mon estime, et l'autre mon amour :</l>
+	<l id='303'>Et cependant c'est moi que l'on traite en coupable ;</l>
+	<l id='304'>Moi, qui dans les apprêts d'un hymen favorable,</l>
+	<l id='305'>De mon frère immolé perdant le souvenir,</l>
+	<l id='306'>Au fils de l'assassin consentait à m'unir.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='307'>Si Bacazar n'est plus, sa mort n'est pas mon crime.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='308'>Je ne sais de quel bras il mourut la victime.</l>
+	<l id='309'>Mon désespoir ne peut en accuser les Dieux ;</l>
+	<l id='310'>Ils aiment les mortels qu'ils ont fait vertueux.</l>
+	<l id='311'>De plus justes soupçons s'élèvent dans mon âme :</l>
+	<l id='312'>J'ai perdu mon amant, et vous régnez, Madame.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='313'>Je ne répondrai point à d'injustes discours,</l>
+	<l id='314'>Dictés par la douleur, et que l'on tient toujours.</l>
+	<l id='315'>Je ne dirai qu'un mot : Oui , Madame, je règne :</l>
+	<l id='316'>Pardonner ou punir, je puis tout... Qu'on me craigne.</l>
+<stage>Elle s'en va.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Leuxis, Arsace.</head>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='317'>L'infortune à ce point peut-elle s'égarer ?</l>
+	<l id='318'>Vous l'avez offensée ; il fallait l'implorer ;</l>
+	<l id='319'>Tout gémit, tout périt sous sa main criminelle.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='320'>Moi, que je tombe aux pieds d'une reine cruelle !</l>
+	<l id='321'>Sans nous déshonorer, cédons à nos malheurs.</l>
+	<l id='322'>Mourrons, brisons des fers arrosés de mes pleurs.</l>
+	<l id='323'>Que mes yeux ne soient plus les témoins de sa rage :</l>
+	<l id='324'>Méprisable dans Tyr, dangereuse à Carthage,</l>
+	<l id='325'>Quand je m'apprête à fuir vers de plus doux climats,</l>
+<note type="L">Barbare : signifie aussi seulement, cruel, impitoyable, qui n'écoute point le pitié, ni la raison. [F]</note>
+	<l id='326'>La barbare en ces lieux veut retenir mes pas.</l>
+	<l id='327'>Sous les lois d'une femme en esclave enchaînée,</l>
+	<l id='328'>C'est traîner trop longtemps ma vie infortunée.</l>
+	<l id='329'>J'ai fatigué le ciel de mes voeux superflus ;</l>
+	<l id='330'>Il est sourd à mes cris, et Bacazar n'est plus !</l>
+	<l id='331' part='i'>Mourons, vous dis-je.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='331' part='f'>Il faut tout espérer encore.</l>
+	<l id='332'>Le jour de la vengeance éclate avec l'aurore.</l>
+	<l id='333'>Le vertueux Narbal, ramené dans ces lieux,</l>
+	<l id='334'>Nous promet ce grand jour, l'annonce au nom des Dieux.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='335'>Je connais ce vieillard : trop sensible à mes peines,</l>
+	<l id='336'>Narbal veut me donner ces espérances vaines,</l>
+	<l id='337'>Dont la pitié souvent amuse la douleur.</l>
+	<l id='338'>L'amertume a rempli le vide de mon coeur.</l>
+	<l id='339'>Ah ! Quand il faut haïr jusqu'à mon existence,</l>
+	<l id='340'>Que je goûterai mal une faible vengeance !</l>
+	<l id='341'>Sans être réparés les crimes sont punis.</l>
+	<l id='342'>Hélas ! Pigmalion me rendra-t'il son fils ?</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='343'>D'un bonheur imprévu, Narbal veut vous instruire ;</l>
+	<l id='344' part='i'>Princesse, il vous attend.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='344' part='f'>Qu'aurait-il à me dire ?</l>
+	<l id='345'>Allons voir, j'y consens, ce mortel vertueux.</l>
+	<l id='346'>Le sage fut toujours l'appui des malheureux.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Zopire, Nador.</head>
+<sp who='NADOR'><speaker>NADOR.</speaker>
+	<l id='347'>Zopire, tu connais les desseins de la Reine :</l>
+	<l id='348'>Dans ce palais sanglant son ordre nous ramène.</l>
+	<l id='349'>Quoi, lorsque ses fureurs devraient nous indigner,</l>
+	<l id='350' part='i'>Nous allons les servir !</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='350' part='f'>Nador, il faut régner.</l>
+	<l id='351'>Tu frémis ? Ce projet te trouble et t'intimide !</l>
+	<l id='352'>Le tyran va tomber sous le glaive homicide.</l>
+	<l id='353'>Seconde mon audace ; et le Peuple étonné</l>
+	<l id='354'>Du bandeau de ses Rois me verra couronné,</l>
+	<l id='355'>Astarbé dans ce jour immole sa victime :</l>
+	<l id='356'>Perdons la criminelle, et jouissons du crime.</l>
+	<l id='357'>Sous un Sceptre de fer trop longtemps accablés,</l>
+	<l id='358'>D'un Sceptre plus pesant craignons d'être foulés ;</l>
+	<l id='359'>Sur les débris du trône et de la tyrannie,</l>
+	<l id='360'>Élevons un pouvoir utile à la Patrie ;</l>
+	<l id='361'>Rappellons dans ces lieux la justice et les moeurs.</l>
+	<l id='362'>C'est pour vous rendre heureux que j'aspire aux grandeurs.</l>
+</sp>
+<sp who='NADOR'><speaker>NADOR.</speaker>
+	<l id='363'>Dans ce vaste projet, je te plains et t'admire.</l>
+	<l id='364'>Astarbé tient ici les rênes de l'Empire ;</l>
+	<l id='365'>Sur elle, sans péril, peux-tu les usurper ?</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='366'>Elle me craint, Nador, et, je puis la tromper.</l>
+	<l id='367'>Tantôt dans ses terreurs, je l'ai vue elle-même</l>
+ <note type="L">Diadème : C'était autrefois un bandeau royal de tissu de fil, de laine, ou de soie, qui était la marque de la royauté, parce que les rois s'en ceignaient le front pour laisser le couronne aux Dieux. [L]</note>
+	<l id='368'>M'offrir, avec sa main l'éclat du diadème ;</l>
+	<l id='369'>Elle veut que mon bras, de cet espoir flatté,</l>
+	<l id='370'>Enchaîne sous ses lois un peuple révolté.</l>
+	<l id='371'>J'accepte tous les dons que me fait sa faiblesse ;</l>
+	<l id='372'>Mais c'est pour les remettre aux mains de la Princesse :</l>
+<note type="L">Rejetton : Nouveau bois qui jette un arbre ; ce qu'une plante pousse de nouveau de sa racine. Se dit figurément en choses morale. Cette maison est illustre, et pousse tous les jours de nouveaux rejettons. [F]</note>
+	<l id='373'>Leuxis, seul rejetton de la tige des rois,</l>
+	<l id='374'>Oppose à mes desseins de légitimes droits :</l>
+	<l id='375'>Heureuse et triomphante, et par moi couronnée ,</l>
+	<l id='376'>Que l'Hymen à mon sort joigne sa destinée.</l>
+	<l id='377'>Ne crois pas cependant qu'un coeur ambitieux,</l>
+	<l id='378'>Asservi par l'amour, en ressente les feux :</l>
+	<l id='379'>Leuxis, sans m'éblouir par l'éclat de ses charmes ,</l>
+	<l id='380'>Me plaît par ses vertus, me touche par ses larmes.</l>
+	<l id='381'>Astarbé sur mon coeur peut moins par ses bienfaits ;</l>
+	<l id='382'>Je vois avec mépris l'orgueil de ses attraits.</l>
+	<l id='383'>Ô vertu ! Telle est donc ta puissance suprême !</l>
+	<l id='384'>On t'aime, on te respecte au sein du crime même.</l>
+</sp>
+<sp who='NADOR'><speaker>NADOR.</speaker>
+	<l id='385'>Tu voudrais réunir, dans ton coeur combattu,</l>
+	<l id='386'>La fureur, la pitié , le crime et la vertu ;</l>
+	<l id='387'>Pour éviter les noms d'usurpateur, de traître,</l>
+	<l id='388'>Tu défends dans Leuxis le sang qui l'a fait naître ;</l>
+	<l id='389'>Cependant, poursuivant ce sang infortuné,</l>
+	<l id='390'>Tu souffres que ton Roi périsse assassiné !</l>
+	<l id='391'>Tu crois que son trépas sauvera cet empire ;</l>
+	<l id='392'>Tu veux perdre Astarbé... Tu veux régner, Zopire.</l>
+	<l id='393'>Ah ! Quels font tes desseins ! Par quel contraste affreux,</l>
+	<l id='394'>Es-tu donc à la fois barbare et généreux ?</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='395'>Je sais des souverains quel est le privilège.</l>
+	<l id='396'>Mon bras n'est point armé d'un couteau sacrilège.</l>
+	<l id='397'>Je voudrais de mon roi prévenir le malheur.</l>
+	<l id='398'>Mais comment l'arracher à fa propre fureur ?</l>
+	<l id='399'>Accuser à ses yeux une épouse qu'il aime ;</l>
+	<l id='400'>Ce n'est point le sauver, c'est me perdre moi-même.</l>
+	<l id='401'>La Barbare, abusant des droits de la beauté,</l>
+	<l id='402'>Saura d'un voile épais couvrir la vérité,</l>
+	<l id='403'>Et d'un amour trompeur employant l'artifice,</l>
+	<l id='404'>Faire tomber sur moi le crime et le supplice.</l>
+	<l id='405'>Que te dirai-je encor ? Sans cesse partagé,</l>
+	<l id='406'>Ami de la vertu, dans le crime engagé,</l>
+	<l id='407'>J'ai balancé longtemps ; mais enfin moins timide,</l>
+	<l id='408'>L'ambition me parle, et sa voix me décide.</l>
+	<l id='409'>De nos amis communs va disposer les coeurs.</l>
+	<l id='410'>Je vais tromper la Reine en servant ses fureurs.</l>
+	<l id='411' part='i'>Elle vient, laisse-nous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Astarbé, Zopire, Orcan.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='411' part='f'>Enfin, brave Zopire,</l>
+	<l id='412'>Ce jour va terminer les malheurs de l'Empire.</l>
+	<l id='413'>Hâtez-vous, rassemblez vos généreux amis.</l>
+	<l id='414'>Servez-moi ; je l'ai dit, le trône est à ce prix.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='415'>Nos conjurés ici s'empressants de se rendre...</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='416'>L'ordre n'est point donné, Zopire.... Il faut l'attendre.</l>
+	<l id='417'>II n'est pas temps encore d'annoncer mes projets ;</l>
+	<l id='418'>On ne les connaîtra qu'au moment du succès.</l>
+	<l id='419'>Vous, que sur mes desseins ma confiance éclaire,</l>
+	<l id='420'>Songez qu'un conjuré doit agir et se taire.</l>
+	<l id='421'>Préparez en secret ces armes, ces poignards,</l>
+	<l id='422'>Ces instruments de mort, cachés en ces remparts.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='423'>Grande Reine, croyez que l'ardeur qui m'inspire,</l>
+	<l id='424' part='i'>Que l'amour...</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='424' part='f'>Arrêtez , vous me trompez, Zopire;</l>
+	<l id='425'>Je connais vos pareils ; la fière ambition</l>
+	<l id='426'>Annéantit en eux toute autre passion :</l>
+	<l id='427'>C'est au soin de régner que leur grand coeur s'applique,</l>
+	<l id='428'>L'amour n'est à leurs yeux qu'un ressort politique,</l>
+	<l id='429'>Qui d'un sexe crédule, objet de leur mépris,</l>
+	<l id='430'>Peut séduire à leur gré les faciles esprits.</l>
+	<l id='431'>Mais vous n'avez point dû, quelque soin qui vous presse,</l>
+	<l id='432'>De ce sexe avili m'imputer la faiblesse.</l>
+	<l id='433'>Par ce lâche détour, enfin vous m'offensez,</l>
+	<l id='434'>Ou vous me croyez faible, ou vous me trahissez.</l>
+	<l id='435'>Allez. Pigmalion près de moi va se rendre :</l>
+	<l id='436'>Je l'attends, et peut-être il pourrait nous surprendre.</l>
+	<l id='437'>Laissez-nous, et songez quand je vous promets ma main,</l>
+	<l id='438'>Qu'un vil adorateur y prétendrait en vain :</l>
+	<l id='439'>Discutez-là, Zopire ; elle est le prix du zèle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Astarbé, Orcan.</head>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='440'>Ainsi, vous couronnez un esclave infidèle !</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='441'>En offrant à ses voeux la suprême grandeur,</l>
+	<l id='442'>De ce vil conjuré j'irrite la fureur.</l>
+	<l id='443'>Séduit par cet espoir, son intérêt l'anime ;</l>
+	<l id='444'>Et l'intérêt, Orcan, facilite le crime.</l>
+	<l id='445'>L'art d'offrir sa parole, et l'art de la trahir,</l>
+	<l id='446'>C'est la vertu des Grands, je saurai m'en servir.</l>
+	<l id='447'>Que Zopire frémisse en trahissant son maître :</l>
+	<l id='448'>C'est de lui que j'apprends à redouter un traître.</l>
+	<l id='449'>Je préviendrai dans lui le crime ou le remord ;</l>
+	<l id='450'>Et mon bras, pour tout prix, lui destine la mort.</l>
+	<l id='451'>Hâtons de nos desseins l'heure trop différée,</l>
+	<l id='452'>Ou craignons du tyran la fureur égarée :</l>
+	<l id='453'>Ce monstre d'épouvante et de trouble, oppressé,</l>
+	<l id='454'>Semble entrevoir le coup dont il est menacé.</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='455' part='i'>Eh ! Qui soupçonne-t-il ?</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='455' part='f'>Moi-même la première ,</l>
+	<l id='456'>Le jour, l'air qu'il respire, et la nature entière.</l>
+	<l id='457'>Rassemblons sur Leuxis ces soupçons odieux ;</l>
+	<l id='458'>Rendons-la criminelle et suspecte à ses yeux.</l>
+	<l id='459'>Il faut la perdre Orcan ; Leuxis pourrait me nuire.</l>
+	<l id='460'>Mais ne nous chargeons pas du soin de la détruire.</l>
+	<l id='461'>Le Phénicien l'aime : attendri sur son sort,</l>
+	<l id='462'>Il punirait sur moi le crime de sa mort.</l>
+	<l id='463'>Que le Tyran l'immole, et par ce coup barbare</l>
+	<l id='464'>Qu'il autorise ici le coup qu'on lui prépare.</l>
+	<l id='465'>Des Peuples indignés qu'il devienne l'horreur.</l>
+	<l id='466'>La politique, Orcan, fait plus que la fureur.</l>
+	<l id='467'>Par la main du tyran j'immole mes victimes ;</l>
+	<l id='468'>Et je veux l'accabler du fardeau de mes crimes.</l>
+	<l id='469' part='i'>Il vient.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Pigmalion, Astarbé, Arsace, Gardes.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='469' part='f'>Seigneur, quel trouble égare ici vos pas !</l>
+	<l id='470'>Où courez-vous ? Pourquoi ces farouches Soldats ?</l>
+	<l id='471'>De quel neuvel effroi votre âme est elle atteinte ?</l>
+	<l id='472' part='i'>Ah ! parlez.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='472' part='f'>Mes pareils sont-ils jamais sans crainte ?</l>
+	<l id='473'>Madame, ces remparts de mes crimes remplis,</l>
+	<l id='474'>D'un Peuple gémissant me répètent les cris :</l>
+	<l id='475'>Hélas ! Et dans ces cris jettés par l'innocence,</l>
+	<l id='476'>J'entends toujours frémir la voix de la vengeance.</l>
+	<l id='477'>Je combats vainement une juste terreur ;</l>
+	<l id='478'>Le remord me détrompe et tonne dans mon coeur.</l>
+	<l id='479'>Tout présente à ma vue une image effrayante.</l>
+	<l id='480'>Je vois loin de ces bords une reine puissante,</l>
+	<l id='481'>De ses vaisseaux nombreux couvrir le sein des mers,</l>
+	<l id='482'>Et chercher des vengeurs dans un autre univers.</l>
+	<l id='483'>Mes sujets dans ces murs, l'Africain dans Carthage,</l>
+	<l id='484'>Les Dieux même irrités accélèrent l'orage.</l>
+	<l id='485'>Je veux les prévenir ; plus juste désormais,</l>
+	<l id='486'>Sur un peuple opprimé régnons par les bienfaits.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='487'>Tels sont donc vos desseins ? Quelle indigne faiblesse !</l>
+	<l id='488'>Une ombre, un vain remord, un fantôme vous blesse !</l>
+	<l id='489'>Hé quoi, d'un Peuple vil craignez-vòus les clameurs ?</l>
+	<l id='490'>Vous allez, dites-vous réparer ses malheurs,</l>
+	<l id='491'>Répandre vos bienfaits sur cette foule obscure :</l>
+	<l id='492'>Ah ! Laissez-lui plutôt la plainte et le murmure.</l>
+	<l id='493'>Qu'importe qu'il gémisse ? Il est né pour servir.</l>
+	<l id='494'>À la rébellion craignez de l'enhardir.</l>
+	<l id='495'>Loin de la relâcher, il faut serrer sa chaîne.</l>
+	<l id='496'>C'est par la fermeté que l'on dompte sa haine.</l>
+	<l id='497'>Enfin, ne souffrez point qu'il élève sa voix,</l>
+	<l id='498'>Qu'il ose sur leur trône interroger ses rois.</l>
+	<l id='499'>Des Dieux que vous craignez imitez les exemples ;</l>
+	<l id='500'>C'est la foudre à la main qu'ils obtiennent des temples :</l>
+	<l id='501'>Le mystère et la crainte entourent leurs autels.</l>
+	<l id='502'>Punissez, et comme eux effrayez les mortels.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='503'>Hé bien, Madame, hé bien ; il faut toujours se rendre,</l>
+	<l id='504'>Toujours suivre vos lois, les chérir, en dépendre.</l>
+	<l id='505'>Cependant Phadaël à la mort condamné,</l>
+	<l id='506'>Mes sujets poursuivis, Sichée assassiné ;</l>
+	<l id='507'>Tant de maux n'ont-ils point assouvi ma furie ?</l>
+	<l id='508'>Faut-il verser encor le sang de ma patrie ?</l>
+	<l id='509'>Quels funestes conseils ! Je les ai trop suivis,</l>
+	<l id='510'>Madame ; et ce sont eux qui perdirent mes fils.</l>
+	<l id='511'>À ce noir souvenir, la voix de la nature</l>
+	<l id='512'>Jette au fond de mon coeur un effrayant murmure.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='513'>J'ignorais jusqu'ici, le but de vos discours,</l>
+	<l id='514'>Seigneur, mais mon esprit en a suivi le cours :</l>
+	<l id='515'>Le reproche les dicte ; et votre âme égarée</l>
+	<l id='516'>S'abandonne aux remords dont elle est déchirée ;</l>
+	<l id='517'>La crainte y verse aussi son funeste poison,</l>
+	<l id='518'>Et l'un et l'autre enfin vous mènent au soupçon.</l>
+	<l id='519'>Vous m'accusez, Cruel ! Apprenez-moi mes crimes.</l>
+	<l id='520'>Cette main fume encor du sang de mes victimes ;</l>
+	<l id='521'>Je ne m'excuse point, j'ai tout osé pour vous.</l>
+	<l id='522'>Des traîtres, des ingrats sont tombés sous mes coups.</l>
+	<l id='523'>Leur sort vous attendrit ! Quelle pitié frivole ,</l>
+	<l id='524'>Quand vous êtes le Dieu pour qui je les immole !</l>
+	<l id='525'>Et quels sont après tout vos crimes et les miens ?</l>
+	<l id='526'>Outrageant la nature et brisant ses liens,</l>
+<note type="L">Tiare : La triple couronne du Pape, qu'on appelle autrement le règne. Ce mot est venu des Parthes, Perses et autres orientaux, chez lequels la tiare était une espèce de coiffure faite en forme de bonnet. </note>
+	<l id='527'>Sichée enorgueilli des droits de sa tiare,</l>
+	<l id='528'>Prêtre séditieux, frère injuste et barbare,</l>
+	<l id='529'>Du Peuple, contre vous, souleva les esprits.</l>
+	<l id='530'>Plus criminel encor le premier de vos fils,</l>
+	<l id='531'>De vos augustes jours détestant la durée,</l>
+	<l id='532'>Osa lever sur vous fa main dénaturée.</l>
+	<l id='533'>Vous les avez punis ; Et vous, qui les plaignez,</l>
+	<l id='534'>Ce n'est que par leur mort qu'aujourd'hui vous régnez.</l>
+	<l id='535'>La violence aux rois est souvent nécessaire.</l>
+	<l id='536'>Dussiez-vous m'en punir, je ne puis plus vous taire</l>
+	<l id='537'>Que dans ce jour encor, dans ces mêmes moments,</l>
+	<l id='538'>Vous êtes menacé des périls les plus grands ;</l>
+	<l id='539'>Qu'il faut les prévenir, ou payer de sa tête.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='540' part='i'>Ô Ciel ! Que dites vous ?</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='540' part='f'>La révolte s'apprête.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='541'>Achevez ; nommez-moi mes lâches ennemis.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='542' part='i'>Il en reste un, Seigneur.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='542' part='m'>Ah ! Quel est-il ?</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='542' part='f'>Leuxis.</l>
+	<l id='543'>Décidez vos soupçons entre elle et votre épouse.</l>
+	<l id='544'>Du noeud qui nous unit, indignement jalouse ,</l>
+	<l id='545'>Leuxis médite ici de criminels desseins ;</l>
+	<l id='546'>Tantôt elle fuyait vers les bords Africains.</l>
+	<l id='547'>Jugez sur cet avis quel intérêt me guide ;</l>
+	<l id='548'>Ou plutôt, je l'ai dit que votre âme décide.</l>
+	<l id='549'>Un abîme profond est ouvert sous vos pas :</l>
+	<l id='550'>Voyez, examinez, et ne m'en croyez pas.</l>
+	<l id='551' part='i'>Je vous laisse, Seigneur.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Pigmalion, Arsace.</head>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='551' part='f'>Elle me fuit, Arsace.</l>
+	<l id='552'>Le fer est suspendu, sa chute me menace ;</l>
+	<l id='553'>Sur le soin de mes jours réveillons son ardeur :</l>
+	<l id='554'>Mes soupçons, mes remords ont irrité son coeur.</l>
+	<l id='555'>Par elle je veux tout, je crains ou je désire.</l>
+	<l id='556'>Quel ascendant vainqueur ! Qu'il lui donne d'empire ?</l>
+	<l id='557'>Quoi, Leuxis me trahit !... Venge un roi malheureux.</l>
+	<l id='558'>Qu'on la charge de fers... Il le faut... Je le veux»</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='559'>Ah, Seigneur, différez ! Aux genoux de son maître,</l>
+	<l id='560' part='i'>Narbal...</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='560' part='f'>Que me veut-il ; Qu'il vienne ; il peut parâitre.</l>
+	<l id='561'>Hélas ! Dans les horreurs de l'état où je suis :</l>
+	<l id='562'>Tout voir et tout entendre est tout ce que je puis.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Pigmalion, Narbal.</head>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='563'>Sage vieillard, approche, et bannis toute crainte,</l>
+	<l id='564'>Narbal peut aujourd'hui s'expliquer sans contrainte.</l>
+	<l id='565'>On parle de complots, de vengeurs, d'assassins.</l>
+	<l id='566'>Tu m'as dit mille fois qu'il n'est point de chemins</l>
+	<l id='567'>Qui mènent jusqu'à nous la vérité sévère ;</l>
+	<l id='568'>On l'enveloppe ici des ombres du mystère.</l>
+	<l id='569'>Réponds : j'attens de toi des éclaircissements,</l>
+	<l id='570' part='i'>Quels sont mes ennemis ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='570' part='f'>Je connais les plus grands,</l>
+	<l id='571'>D'autant plus dangereux, d'autant plus redoutables,</l>
+	<l id='572'>Que voilant leurs fureurs sous des dehors aimables,</l>
+	<l id='573'>Pour les empoisonner, ils séduisent les coeurs.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='574' part='i'>Ces ennemis cruels, qui sont-ils ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='574' part='f'>Vos flatteurs ;</l>
+	<l id='575'>Mortels nés pour corrompre, aussi bien que pour feindre.</l>
+	<l id='576'>Ah ! Plut aux Dieux, qu'un roi n'eût que son peuple à craindre !</l>
+	<l id='577'>Un bienfait le fléchit et peut le désarmer :</l>
+	<l id='578'>Mais le flatteur toujours nuit et se fait aimer.</l>
+	<l id='579'>On vous trompe, Seigneur ; Astarbé vous abuse.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='580'>Téméraire, arrêtez ! Le Tyrien l'accuse,</l>
+	<l id='581'>Je ne consulte point ces sentiments jaloux,</l>
+	<l id='582'>Et je n'en crois, enfin, ni ce Peuple, ni vous.</l>
+	<l id='583'>C'est sur d'autres objets qu'il fallait me répondre.</l>
+	<l id='584'>On dit que sur mes jours l'orage est prêt à fondre.</l>
+	<l id='585'>L'infidèle Leuxis, injuste en sa douleur,</l>
+	<l id='586'>S'est unie en secret aux desseins de ma soeur :</l>
+	<l id='587'>Elle fuyoit, dit-on, vers les rives d'Afrique.</l>
+	<l id='588'>Quels projets trame ici sa vaine politique ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='589'>Je vous réponds, Seigneur, des vertus de Leuxis.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='590' part='i'>Elle pleure Sichée !</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='590' part='f'>Et pleure votre fils !</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+<note type="C">Carthage : ville dans laquelle s'est réfugiée Didon, la soeur de Pigmalion.</note>
+	<l id='591'>Non, je n'approuve point sa fuite dans Carthage.</l>
+	<l id='592'>Vous-même, retiré dans un désert sauvage,</l>
+	<l id='593'>Vous n'avez pû, sans crime, errant et loin de moi,</l>
+	<l id='594'>Ensevelir des jours qui sont à votre roi.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='595'>Dans mon désert, Seigneur, la vieillesse pesante</l>
+	<l id='596'>Dénouait le tissu d'une vie innocente.</l>
+	<l id='597'>Je mourais chaque jour, et mourais sans effort.</l>
+	<l id='598'>Hélss ! M'enviez-vous la douceur de ma mort ?</l>
+	<l id='599'>Quand, sous le faix des ans, ma vieillesse succombe,</l>
+	<l id='600'>Serais-je à redouter sur les bords de ma tombe ?</l>
+	<l id='601'>Le sage ne meurt point sous les lambris des rois :</l>
+	<l id='602'>Loin de ces lieux, Seigneur, sous mes rustiques toits,</l>
+	<l id='603'>Gémissant en secret des crimes de la terre,</l>
+	<l id='604'>Mes prières des Dieux désarmaient la colère.</l>
+	<l id='605'>Ma voix les implorait pour le peuple, pour vous ;</l>
+	<l id='606'>Et je m'étais flatté de suspendre leurs coups.</l>
+	<l id='607'>Ah ! Ne déchirez plus sein de ma patrie/</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='608'>Un Peuple factieux attente sur ma vie !</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='609'>Et le fléchirez-vous par d'indignes fureurs ?</l>
+	<l id='610'>Le règne le plus sûr est le règne des coeurs.</l>
+	<l id='611'>Vous êtes Roi sans doute, et ce titre est auguste ;</l>
+	<l id='612'>Mais il faut être encor humain, généreux, juste,</l>
+	<l id='613'>Offrir aux malheureux des soins compatissants.</l>
+	<l id='614'>Héros, législateurs, monarques, conquerants,</l>
+	<l id='615'>De ces titres pompeux dont la gloire nous nomme,</l>
+	<l id='616'>En est-il un pour nous plus grand que le nom d'homme ?</l>
+	<l id='617'>C'est le premier, Seigneur ; et fans l'humanité,</l>
+	<l id='618'>Tout, jusqu'à la vertu, n'est que férocité.</l>
+	<l id='619'>Vous craignez, dites-vous, le peuple et sa furie :</l>
+	<l id='620'>Abjurez aujourd'hui l'affreuse tyrannie,</l>
+	<l id='621'>Et Narbal vous répond du salut de vos jours.</l>
+	<l id='622'>Combien ce peuple alors en chérirait le cours !</l>
+	<l id='623'>Vos remords, vos terreurs, oui, tout semble vous dire</l>
+	<l id='624'>Qu'il faut pour être heureux dans les soins d'un Empire,</l>
+	<l id='625'>Régner par les bienfaits, par les moeurs, par les lois.</l>
+	<l id='626'>Le malheur des États fait le malheur des Rois.</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='627'>Ôte à la vérité ce langage inflexible :</l>
+	<l id='628'>Tu veux la faire aimer et tu la rends terrible.</l>
+	<l id='629'>Cruel, fuis loin de moi ; tu m'arraches le coeur.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL, aux genoux de Pigmalion.</speaker>
+	<l id='630'>Ainsi vous le fermez aux cris de ma douleur !</l>
+	<l id='631'>Par ces genoux sacrés, ô mon Roi, par vous-même,</l>
+	<l id='632'>N'irritez plus des Dieux la justice suprême.</l>
+	<l id='633'>Ah ! Que ne savez-vous de quel bienfait heureux,</l>
+	<l id='634'>Ils recompenseraient votre retour vers eux.</l>
+	<l id='635'>Il en est un, Seigneur, inespéré sans doute.</l>
+	<l id='636'>Le Ciel sait les désirs et les voeux qu'il me coûte,</l>
+	<l id='637'>Et ne les rendra point et vains et superflus.</l>
+	<l id='638' part='i'>Votre fils malheureux...</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='638' part='f'>Mon fils ! Je n'en ai plus.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='639'>Il est vrai qu'une-Reine implacable et barbare,</l>
+	<l id='640' part='i'>Proscrivit leurs jours ; mais....</l>
+</sp>
+<sp who='PIGMALION'><speaker>PIGMALION.</speaker>
+	<l id='640' part='f'>Ta haine se déclare :</l>
+	<l id='641'>Tu veux perdre Astarbé.... J'entrevois vos raisons :</l>
+	<l id='642'>Sa vigilance a foin d'éclairer mes soupçons.</l>
+	<l id='643'>De vos obscurs desseins je perce le mystère ;</l>
+	<l id='644'>J'y porte le flambeau, mais en juge sévère.</l>
+	<l id='645'>Astarbé vous déplaît, je l'oppose à vos coups,</l>
+	<l id='646'>Et je mets ce rempart entre mon trône et vous.</l>
+	<l id='647'>Je sais jusqu'où vos cris portent leur insolence ;</l>
+	<l id='648'>Vous demandez sa tête ! Ô fureur! Ô vengeance !</l>
+	<l id='649'>Tremble , Peuple indocile et qui m'ose irriter !</l>
+	<l id='650'>C'est elle, pour punir, que je vais consulter.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='651'>Par quel accueil trompeur il savait me sédúire !</l>
+	<l id='652'>Sur son faux repentir ma bouche allait tout dire.</l>
+	<l id='653'>Tout, jusqu'à ses remords, n'est en lui que fureur.</l>
+	<l id='654'>Quel secret le barbare arrachait à mon coeur !</l>
+	<l id='655'>Secret, qu'un malheureux confie à ma prudence.</l>
+	<l id='656'>Grands Dieux, ne trompez point ma plus chere espérance ;</l>
+	<l id='657'>Rendez à la Patrie un Prince vertueux :</l>
+	<l id='658'>Rendez-moi Bacazar... Hélas ! Quels sont mes voeux ?</l>
+	<l id='659'>Au sein de ses remparts une femme cruelle...</l>
+	<l id='660'>Dans quel séjour de sang ma tendresse l'appelle !</l>
+	<l id='661'>Ô Ciel, n'écoute point mes désirs, imprudents,</l>
+	<l id='662'>Et cache la vertu loin de l'oeil des tyrans.</l>
+	<l id='663'>Cher Prince, s'il est vrai que le Ciel favorable,</l>
+	<l id='664'>Ait étendu fur toi sa puissance équitable ;,</l>
+	<l id='665'>Si tu vis, si j'en crois ces traits chers et connus,.</l>
+	<l id='666'>Que ta main a tracés, et que mes yeux ont lus ;</l>
+	<l id='667'>Fuis loin de ce Palais. Dans des climats sauvages,</l>
+	<l id='668'>Sans doute que tes jours sont purs et sans nuages.</l>
+	<l id='669'>L'humanité sensible adoucit tes malheurs.</l>
+	<l id='670'>Et qu'aurois-tu dans Tyr ? Mes soupirs et mes pleurs,</l>
+	<l id='671'>Tribut insuffisant qu'on paye à la misère.</l>
+	<l id='672'>Hélas ! Tu n'aurais pas le coeur même d'un père.</l>
+	<l id='673' part='i'>Arsace ! Que veut-il ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Narbal, Arsace.</head>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='673' part='f'>Leuxis est dans les fers.</l>
+	<l id='674'>Suis-moi, viens l'arracher au plus affreux revers.</l>
+	<l id='675'>À ma fidélité le Tyran la confie :</l>
+	<l id='676'>Mais enfin je crains tout, je tremble pours sa vie.</l>
+	<l id='677'>Pigmalion à peine avait quitté ces lieux,</l>
+	<l id='678'>Parcourant ce Palais , interdit, furieux,</l>
+	<l id='679'>Il menace, il frémit, il me voit et m'appelle :</l>
+	<l id='680'>« Réponds-moi, m'a-t'il dit, d'une esclave infidèle ;</l>
+	<l id='681'>Qu'on arrête Leuxis ; l'ingrate me trahit. »</l>
+	<l id='682'>De ses cris effrayants la voûte retentit.</l>
+	<l id='683'>L'implacable Astarbé, par ses cris attirée,</l>
+	<l id='684'>Terrible et menaçante , aussitôt s'est montrée.</l>
+	<l id='685'>Tout fuit à leur aspect, et frémissant d'horreur,</l>
+	<l id='686'>Moi-même, je les laisse en proie à leur fureur.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='687'>Viens. N'opposons encor que des pleurs à leur rage.</l>
+	<l id='688'>Les prières, les voeux sont les armes du sage ;</l>
+	<l id='689'>Dans le malheur public il invoque les Dieux :</l>
+	<l id='690'>Il plaint ses Rois, les sert, et meurt encore pour eux.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n=''><head>SCÈNE PREMIÈRE. Bacazar, Narbal.</head>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='691'>Cruel Narbal, cessez de retenir mes pas.</l>
+	<l id='692'>Mon père règne ici ; je vole dans ses bras.</l>
+	<l id='693'>N'opposez plus vos pleurs à mon impatience.</l>
+	<l id='694'>Vous frémissez ! Ne puis-je après dix ans d'absence,</l>
+	<l id='695'>Attendre, en ce Palais, un destin plus heureux ?</l>
+	<l id='696' part='i'>Les Dieux m'ont-ils trompé ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='696' part='f'>N'accusez point les Dieux.</l>
+	<l id='697'>Vous vivez, Bacazar, et moi-même j'admire.</l>
+	<l id='698'>À travers quels écueils ils ont su vous conduire.</l>
+	<l id='699'>Prince, vous n'êtes plus sur ces bords étrangers,</l>
+	<l id='700'>Où vos jours coulaient purs, à l'abri des dangers.</l>
+	<l id='701'>Dans ce séjour de sang la mort vous environne.</l>
+	<l id='702'>L'humanité s'y plaint , la nature y frissonne.</l>
+	<l id='703'>Venez, suivez mes pas au fond de mes déserts.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='704'>Qui, moi, languir encore au bout de l'univers !</l>
+	<l id='705'>Quels sont donc les périls que votre âme redoute ?</l>
+	<l id='706'>Leuxis vit, et ces lieux me l'offriront sans doute.</l>
+	<l id='707'>Quand je retrouve un père, une amante, un ami,</l>
+	<l id='708'>Dois-je craindre les coups du destin ennemi ?</l>
+	<l id='709'>Les larmes de Leuxis ont fléchi sa colère,</l>
+	<l id='710' part='i'>N'en doutez point, je vole...</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='710' part='f'>Arrêtez, téméraire !</l>
+	<l id='711'>Au sein de vos malheurs je vous ai méconnu ;</l>
+	<l id='712'>Mais craignez les regards d'un oeil plus prévenu.</l>
+	<l id='713'>Peut-être , à votre aspect, Astarbé détrompée</l>
+	<l id='714'>Connaîtra la victime à ses coups échappée.</l>
+	<l id='715'>Ne vous rassurez point sur un douteux oubli.</l>
+	<l id='716'>De surveillants cruels ce Palais est rempli :</l>
+	<l id='717'>J'ignore les projets de ces âmes obscures ;</l>
+	<l id='718'>Mais tantôt j'ai cru voir de leurs bouches impures</l>
+	<l id='719'>Sortir l'ordre du crime et des assassinats ;</l>
+	<l id='720'>L'implacabie Astarbé semblait armer leurs bras :</l>
+	<l id='721'>De la barbare, enfin, la fureur est extrême.</l>
+	<l id='722'>Je tremble pour Leuxis, pour vous, pour le Roi-même.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='723'>Ô Ciel ! Il est donc vrai que ce monstre odieux</l>
+	<l id='724'>Respire, et souille encor le rang de mes aïeux ?</l>
+	<l id='725'>Astarbé ! Dieux vengeurs, quels sont donc les coupables</l>
+	<l id='726'>Pour qui vous réservez vos foudres redoutables ?</l>
+	<l id='727'>Narbal rappellez-vous ces jours infortunés,</l>
+	<l id='728'>Ces lamentables jours à la mort destinés,</l>
+	<l id='729'>Ces jours cruels, témoins du meurtre de mon frère ;</l>
+	<l id='730'>Où moi-même, banni de la Cour de mon père,</l>
+	<l id='731'>De la tendre Leuxis recevant les adieux ;</l>
+	<l id='732'>Mourant, désespéré, j'abandonnai ces lieux.</l>
+	<l id='733'>Que de maux m'annonçait un exil si funeste !</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='734'>Et que tenta sur vous la main que je déteste ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='735'>Nous partons. De Samos je découvre les bords.</l>
+	<l id='736'>Dévoré d'amertume, en proie à mes transports,</l>
+	<l id='737'>Mon coeur était toujours rempli de mon amante.</l>
+	<l id='738'>De mes vils assassins la rage frémissante,</l>
+	<l id='739'>S'annonce par un cri dans les airs élancé.</l>
+	<l id='740'>De l'impie Astarbé le nom fut prononcé.</l>
+	<l id='741'>Autour de la victime on se presse en tumulte ;</l>
+	<l id='742'>Sur le choix de ma mort on balance, on consulte :</l>
+	<l id='743'>Un reste de pitié détermine ce choix.</l>
+	<l id='744'>Leur fureur n'ose encor verser le sang des rois.</l>
+	<l id='745'>Ces lâches meurtriers, en détournant la vue,</l>
+	<l id='746'>Me plongent, en tremblant, au sein de l'onde émue.</l>
+	<l id='747'>Je roule au gré des flots, et je vois tour à tour</l>
+	<l id='748'>La profondeur des mers et la clarté du jour.</l>
+	<l id='749'>La mort environnait ma fatale existence.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='750' part='i'>Quel bras vous a sauvé ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='750' part='f'>La céleste puissance</l>
+	<l id='751'>Sans doute prit alors pitié de mes malheurs.</l>
+	<l id='752'>La voix de la nature a droit sur tous les coeurs.</l>
+	<l id='753'>J'aperçois tout à coup une barque flottante,</l>
+	<l id='754'>Où des humains m'offr	ient une main bienfasante ;</l>
+	<l id='755'>Ils m'arrachent des flots : dans l'ombre de la nuit,</l>
+	<l id='756'>Sur les bords de Samos leur barque me conduit.</l>
+	<l id='757'>Errant, traînant partout le poids de ma misère,</l>
+	<l id='758'>J'arrosais de mes pleurs cette rive étrangère.</l>
+	<l id='759'>Mais pourquoi rappeller ce souvenir affreux ?</l>
+	<l id='760'>La honte, le mépris suivent les malheureux :</l>
+	<l id='761'>Leur atteinte cruelle a flétri ma jeunesses ;</l>
+	<l id='762' part='i'>Enfin, j'ai tout souffert.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='762' part='f'>Dieux ! Je vois la Princesse.</l>
+	<l id='763' part='i'>Ah ! Cher Prince, fuyez.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Bacazar, Narbal, Leuxis enchaînée, Arsace.</head> 
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='763' part='f'>Où suis-je malheureux ! </l>
+	<l id='764'>Que m'annoncent ces fers ? Leuxis esclave !... Ô Dieux !</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='765'>Arsace, soutiens-moi dans cet état funeste :</l>
+	<l id='766'>Guide mes pas tremblants vers l'appui qui me reste.</l>
+	<l id='767' part='i'>Ah, Narbal !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR, troublé.</speaker>
+	<l id='767' part='f'>Ah, Leuxis !... Ces fers me font horreur.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='768'>Quel est cet inconnu, sensible à mon malheur ?</l>
+	<l id='769'>Ses yeux, à mon aspect, se remplissent de larmes !</l>
+	<l id='770'>Pour les infortunés que ies pleurs ont de charmes !</l>
+	<l id='771'>Mais dites-moi, Narbal : Quel est donc, ce bonheur</l>
+	<l id='772'>Annoncé par vous-même, et promis à mon coeur ?</l>
+	<l id='773'>Et pourquoi ce mortel, indifférent peut-être,</l>
+	<l id='774'>Augmente-t-il l'espoir que vous avez fait naître ?</l>
+<stage>Bacazar se jette aux genoux, de Leuxis.</stage>
+	<l id='775'>Tu tombes à mes pieds, et ton oei enflammé !...</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='776' part='i'>Je suis...</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='776' part='f'>N'achève pas... Va, mon coeur t'a nommé.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='777'>Ah ! Ma chère Leuxis ! Mon âme intimidée</l>
+	<l id='778'>Se refuse au bonheur dont tu me peins l'idée.</l>
+	<l id='779'>Ainsi donc tes malheurs ont égalé les miens ?</l>
+	<l id='780'>Leuxis, je veux briser tes indignes liens.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+<note type="C">Le point d'interrgation qui suit "fers" est conservé bien peu opportun.</note>
+	<l id='781'>Ah ! Qu'importe mes fers ? Va, ma joie est entière ;</l>
+	<l id='782'>Cher Prince, dans tes bras il n'est rien qui l'altère.</l>
+	<l id='783'>C'est par des pleurs de sang que j'ai pleuré ta mort ;</l>
+	<l id='784'>La fureur des humains, les outrages du sort,</l>
+	<l id='785'>Les affronts, les mépris d'une Reine cruelle ;</l>
+	<l id='786'>Leuxis épuisa tout, dans sa douleur mortelle.</l>
+	<l id='787'>J'ai baissé dans l'opprobre un front humilié.</l>
+	<l id='788'>Tu vis, je te revois, et j'ai tout oublié.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='789'>Errant, et fugitif de rivage en rivage,</l>
+	<l id='790'>Mes malheurs n'avaient point ébranlé mon courage.</l>
+	<l id='791'>Je me croyais alors le seul infortuné.</l>
+	<l id='792'>Mais que dans ce Palais, à tes pieds ramené,</l>
+	<l id='793'>Loin d'y finir nos maux et nos communes peines,</l>
+	<l id='794'>Je doive encor me plaindre et pleurer sur tes chaînes ;</l>
+	<l id='795'>Ce dernier coup du sort accable ma vertu.</l>
+	<l id='796' part='i'>Que punit-on dans toi.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='796' part='m'>Ma douleur.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='796' part='f'>Que dis-tu ?</l>
+	<l id='797' part='i'>Quel monstre assez barbare ?...</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='797' part='f'>Arrête : c'est ton père.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='798'>Je vole à ses genoux désarmer sa colère.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='799'>Non, cher Prince, demeure... Ah ! Sait-il pardonner ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='800' part='i'>Il reverra son fils.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='800' part='f'>Il va l'assassiner !</l>
+	<l id='801'>Astarbé dans ses bras te poursuivrait encore.</l>
+	<l id='802'>Tu déchires, cruel, une âme qui t'adore.</l>
+	<l id='803'>Ah ! Ne préfères point la nature à l'amour !</l>
+	<l id='804'>L'écouta-t-on jamais dans cette affreuse cour ?</l>
+	<l id='805'>N'expose point des jours plus chers que mes jours même.</l>
+	<l id='806'>Cher Prince, ton bonheur fait mon bonheur suprême.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='807' part='i'>Ah, Ciel ! Astarbé vient.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='807' part='f'>Son aspect odieux</l>
+	<l id='808' part='i'>Me fait frémir d'horreur.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='808' part='f'>Cher Prince, au nom des Dieux,</l>
+	<l id='809' part='i'>Au nom de notre amour, dissimule.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='809' part='f'>Je tremble.</l>
+	<l id='810' part='i'>Ah ! Ne la bravez point.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Astarbé, Bacazar, Leuxis, Arsace, Zopire, Narbal, Gardes.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='810' part='f'>La haine les rassemble.</l>
+	<l id='811'>Mais, quel est ce mortel inconnu dans ces lieux ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='812'>Le hasard vient ici de l'offrir à nos yeux.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ, à Bacazar.</speaker>
+	<l id='813'>Qui t'amène à la Cour ; et quelle est ta patrie ?</l>
+	<l id='814' part='i'>Réponds-moi.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='814' part='f'>C'est dans Tyr que j'ai reçu la vie :</l>
+	<l id='815'>J'en sortis malheureux, proscrit, abandonné ;</l>
+	<l id='816'>J'y reviens plus à plaindre et plus infortuné.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='817' part='i'>Quels sont donc tes destins ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='817' part='f'>L'opprobre et la misère,</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='818'>Dans ce Palais des Rois que cherches-tu ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='819' part='i'>Mon père.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='819' part='m'>Quel est-il ?</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS, à part.</speaker>
+	<l id='819' part='m'>Je frémis !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='819' part='f'>Arraché de ses bras ,</l>
+	<l id='820'>Loin de lui, dès l'enfance, on entraîna mes pas.</l>
+	<l id='821'>On le dit malheureux : je le plains et je l'aime.</l>
+	<l id='822'>Que l'auteur de nos maux les éprouve lui-même !</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='823'>Ce n'est point me répondre, et ces vagues discours...</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='824' part='i'>Madame, de quels soins...</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='824' part='f'>J'entrevoís vos détours.</l>
+	<l id='825'>Je sais ce qu'en ces lieux prépare votre haine.</l>
+	<l id='826'>Un esclave, courbé sous le poids de fa chaîne,</l>
+	<l id='827'>Contre ses souverains aigri par le malheur,</l>
+	<l id='828'>À la révolte, au crime ouvre aisément son coeur. </l>
+	<l id='829'>Sur vos fronts interdits la terreur est empreinte.</l>
+	<l id='830'>Ma présence vous trouble... Il s'abaisse à la feinte.</l>
+	<l id='831'>Sur vos sombres complots c'est assez m'éclaircir.</l>
+	<l id='832'>Quelque soit ce mortel, c'est un traître à punir.</l>
+	<l id='833' part='i'>Qu'on l'arrête.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='833' part='f'>Madame, à la Cour de leur maître</l>
+	<l id='834'>Les mortels malheureux ne peuvent-ils paraître ?</l>
+	<l id='835'>La demeure des Rois n'est-elle plus pour eux</l>
+	<l id='836'>Un asile aussi sûr que les temples des Dieux ?</l>
+	<l id='837'>Que vous importe, enfin, qu'un malheureux respire !</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='838'>Tout importe à qui sait gouverner un Empire.</l>
+	<l id='839' part='i'>Qu'on l'entraîne, soldats.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='839' part='f'>Ah ! Madame , arrêtez !</l>
+	<l id='840' part='i'>Je répons de sa foi.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+<stage>Aux Gardes.</stage>
+	<l id='840' part='m'>Suivez leurs pas.... </l>
+<stage>À la Princesse.</stage>
+	<l id='840' part='f'>Sortez.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Astarbé, Zopire.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='841'>Que prétendait ici ce mortel téméraire ?</l>
+	<l id='842'>Il unit à la fois l'orgueil et la misère.</l>
+	<l id='843'>J'ai tremblé devant lui ; je ne sais quel effroi</l>
+	<l id='844'>À son fatal aspect s'est emparé de moi !</l>
+	<l id='845'>De sa voix, de ses traits une confuse idée</l>
+	<l id='846'>Frappe et saisit encor mon âme intimidée...</l>
+	<l id='847'>Enfin, pourquoi Narbal et la fière Leuxis ,</l>
+	<l id='848'>Sur ce mortel obscur semblaient-ils attendris ?</l>
+	<l id='849'>Je le mets en vos mains, répondez m'en, Zopire ;</l>
+	<l id='850'>Égalez votre zèle au trouble qu'il m'inqpire.</l>
+	<l id='851'>De soins plus importants mon esprit agité</l>
+	<l id='852'>Vers de plus grands objets est maintenant porté.</l>
+	<l id='853'>Répondez ; est-il temps d'immoler un barbare ?</l>
+	<l id='854'>Méritez-vous enfin, le prix qu'on vous prépare ?</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='855'>J'ai tout prévu, Madame, et tout sert vos projets.</l>
+	<l id='856'>Il est près de ces murs des lieux sûrs et secrets ;</l>
+	<l id='857'>J'ai caché, dans leur ombre, une troupe hardie</l>
+	<l id='858'>De soldats éprouvés, qui m'ont vendu leur vie.</l>
+	<l id='859'>Didon, depuis longtemps arme les Africains ;</l>
+	<l id='860'>Si Carthage tentait quelques nouveaux desseins,</l>
+	<l id='861'>Notre port vomira sur la mer alarmée</l>
+	<l id='862'>Une flotte inombrable, en ses flancs renfermée.</l>
+	<l id='863'>C'est ainsi qu'au dehors j'ai prévu les hasards.</l>
+	<l id='864'>Voyez ce que j'ai fait au sein de ses remparts.</l>
+	<l id='865'>Au fidèle Nador cette ville est livrée.</l>
+	<l id='866'>Maderbal de ces lieux doit défendre l'entrée ;</l>
+	<l id='867'>Cléobule, observer vos ennemis secrets.</l>
+	<l id='868'>Enfin, tout vous répond d'un rapide succès.</l>
+	<l id='869'>Commandez à mon bras ; ces invincibles armes</l>
+	<l id='870'>Répandront dans ces murs les horreurs, les alarmes :</l>
+	<l id='871'>Et digne enfin du prix offert à ma valeur,</l>
+	<l id='872'>Je l'obtiendrai, Madame, à titre de vainqueur.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='873'>Oui, fans doute, la force est ici nécessaire.</l>
+	<l id='874'>Je connais, comme vous, l'indocile vulgaire ;</l>
+	<l id='875'>Il soutiendra les droits de son maître égorgé ;</l>
+	<l id='876'>Il faudra le combattre après l'avoir vengé.</l>
+	<l id='877'>Dans ses divers transports qui pourrait le comprendre ?</l>
+	<l id='878'>D'un tyran, qui n'est plus, il révère la cendre.</l>
+	<l id='879'>On l'a vu conjurer, s'armer contre ses Rois :</l>
+	<l id='880'>Mais ii court les venger, il reconnaît leurs voix</l>
+	<l id='881'>Quand du fond de leur tombe et du sein des ténèbres,</l>
+	<l id='882'>Ils ne lui parlent plus que par des cris funèbres.</l>
+	<l id='883'>La pitié sur son coeur fait plus que le devoir.</l>
+	<l id='884'>Mais, Zopire, à ce peuple enlevons tout espoir.</l>
+	<l id='885'>Le sang des souverains peut m'être encor funeste ;</l>
+	<l id='886'>De ce sang odieux qu'on épuise le reste ;</l>
+	<l id='887' part='i'>Qu'on immole Leuxis.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='887' part='f'>Le sort, a ses retours,</l>
+	<l id='888'>Madame ; de Leuxis il faut sauver les jours.</l>
+	<l id='889'>On parle de Didon, des desseins de Carthage :</l>
+	<l id='890'>Que la Princesse ici vous tienne lieu d'otage.</l>
+	<l id='891'>Puisque vous la tenez captive en ce palais,</l>
+	<l id='892'>Elle ne pourra nuire à vos voeux satisfaits.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='893'>Il est vrai ; je crains peu ses impuissantes larmes ;</l>
+	<l id='894'>Que peut-elle tenter avec, ces foibles armes ?</l>
+	<l id='895'>J'approuve ce conseil ; il faut la conserver :</l>
+	<l id='896'>Je crains peu l'ennemi que je puis observer.</l>
+	<l id='897'>Leuxis de mes succès, répondra sur sa tête.</l>
+	<l id='898' part='i'>Il suffit. Laissez-nous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Astarbé, Orcan.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='898' part='f'>La coupe est-elle prête ?</l>
+	<l id='899'>Et mes ordres en tout sont-ils exécutés ?</l>
+</sp>
+<sp who='ORCAN'><speaker>ORCAN.</speaker>
+	<l id='900'>Dans de sombres détours vos Gardes apostés,</l>
+	<l id='901'>Au moment du triomphe immoleront Zopire.</l>
+	<l id='902' part='i'>Tous ont juré sa mort.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='902' part='f'>Oui, je dois le détruire.</l>
+	<l id='903'>Ce mortel politique, en servant mes desseins,</l>
+	<l id='904'>Veut rendre sa grandeur l'ouvrage de mes mains.</l>
+	<l id='905'>J'ai porté le flambeau dans son âme profonde.</l>
+	<l id='906'>II aspire en secret au premier rang du monde.</l>
+	<l id='907'>Il veut régner : qu'il meure. Et nous, Orcan, et nous,</l>
+	<l id='908'>Allons sur le tyran porter les derniers coups.</l>
+	<l id='909'>L'heure attendue approche, elle m'appelle au crime.</l>
+	<l id='910'>La vengeance à l'autel va traîner ma victime.</l>
+	<l id='911'>Pigmalion, tremblant au fond de ce Palais,</l>
+	<l id='912'>Sous le marbre et l'airain se cache à ses sujets.</l>
+	<l id='913'>J'ai répété les noms de Leuxis, de Carthage :</l>
+	<l id='914'>À ces mots, il frémit. L'épouvante, la rage,</l>
+	<l id='915'>Le désordre, l'horreur, des transports vidolents,</l>
+	<l id='916'>Ressentis par le lâche, et faits pour les tyrans ;</l>
+	<l id='917'>Il les éprouve tous. Au jour il se refuse :</l>
+	<l id='918'>Il invoque les Dieux, que bientôt il accuse.</l>
+	<l id='919'>II m'appelle à grands cris. « Écoutez , m'a-t-il dit,</l>
+	<l id='920'>Le Ciel veut se venger ; mon peuple me trahit.</l>
+	<l id='921'>Votre coeur est-il pur et fidèle à son maître ?</l>
+	<l id='922'>Dissipez un soupçon, trop injuste peut-être.</l>
+	<l id='923'>Tantôt je veux qu'ici, par l'enfer et les cieux</l>
+	<l id='924'>Par le fer de Thémis, par la coupe des Dieux,</l>
+	<l id='925'>Par moi, par notre hymen, par la liqueur sacrée,</l>
+	<l id='926'>Vous confirmiez la foi que vous m'avez jurée. »</l>
+	<l id='927'>Orcan, voilà le but où mon art l'a conduit,</l>
+	<l id='928'>Il se livre à mes coups. Viens, suis-moi : le temps fuit.</l>
+	<l id='929'>Profitons des moments offerts à ma vengeance.</l>
+	<l id='930'>L'intrépide exécute où le faible balance.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Leuxis, Arsace.</head>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='931'>Ah ! Madame, cessez d'errer dans ce palais,</l>
+	<l id='932'>Rendez à vos esprits et le calme et la paix.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='933'>Arsace, c'en est sait, le farouche Zopire</l>
+	<l id='934'>A consommé son crime et Bacazar expire.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='935'>Le Prince est inconnu dans cet affreux séjour</l>
+	<l id='936'>Oublié dans ses fers, vil aux yeux de la Cour</l>
+	<l id='937'>En but au seul mépris, il respire peut-être.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='938'>Arsace, à ses vertus peut-on le méconnaître ?</l>
+	<l id='939'>Mais enfin, s'il vivait ignoré dans ces murs</l>
+	<l id='940'>Croirai-je que caché sous des dehors obscurs,</l>
+	<l id='941'>Et sous le voile affreux de son humble misère,</l>
+	<l id='942'>Au fer des assassins il puisse se soustraire ?</l>
+	<l id='943'>Sa perte en est plus sûre ainsi que mon malheur.</l>
+	<l id='944'>Des barbares humains je connais la fureur ;</l>
+	<l id='945'>Ils versent sans pitié, le sang d'un misérable.</l>
+	<l id='946'>Malheureux le mortel que l'on croit méprisable.</l>
+	<l id='947'>Des intrigues des Grands ressort infortuné,</l>
+	<l id='948'>L'homme vil qui leur nuit est bientôt condamné.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='949'>Espérez tout encor ; un vieillard respectable</l>
+	<l id='950'>Oppose sa prudence au bras qui vous accable.</l>
+	<l id='951'>Soit qu'un Dieu le dérobe aux yeux de nos tyrans,</l>
+	<l id='952'>Soit qu'on méprise en lui la faiblesse des ans ;</l>
+	<l id='953'>Narbal est libre encor. Tranquile dans l'orage,</l>
+	<l id='954'>Et montrant à nos yeux la fermeté du sage,</l>
+	<l id='955'>Des fureurs de la Reine il observe le cours.</l>
+	<l id='956'>Il veille sur le Prince, il veille sur vos jours.</l>
+	<l id='957'>Sans doute un Dieu vengeur et l'éclaire et le guide.</l>
+	<l id='958'>Narbal peut arrêter le fer du parricide.</l>
+	<l id='959'>Narbal verra Zopire, il peut fléchir son coeur.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='960'>Ah ! Connais-tu Zopire et toute sa fureur.</l>
+	<l id='961'>Un faux espoir t'abuse : où le crime est l'arbitre</l>
+	<l id='962'>La vertu ne peut rien et n'est plus qu'un vain titre.</l>
+	<l id='963'>Arsace, si j'en crois mes noirs pressentiments,</l>
+	<l id='964'>Ce jour, ce jour funeste est fait pour les tyrans.</l>
+	<l id='965'>Je lève, en frémissant, les voiles politiques,</l>
+	<l id='966'>Dont on couvre à nos yeux des projets tyranniques.</l>
+	<l id='967'>Pigmalion, tranquile au fond de ce Palais,</l>
+	<l id='968'>Dans les bras d'Astarbé goûte une affreuse paix.</l>
+	<l id='969'>Il semble en ces instants, que leur rage repose.</l>
+	<l id='970'>Repos cruel, Arsace, et dont je vois la cause.</l>
+	<l id='971'>On veut nous abuser par ce calme trompeur.</l>
+	<l id='972'>On prépare en secret le glaive destructeur.</l>
+	<l id='973'>Je vois tout, et bientôt les flambeaux funéraires</l>
+	<l id='974'>Éclaireront la nuit de ces sombres mystères.</l>
+	<l id='975'>Je ne sais, mais endin, je sens couler mes pleurs.</l>
+	<l id='976'>Les Dieux m'ont trop appris à prévoir mes malheurs.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Leuxis, Zopire, Arsace, Gardes.</head>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='977'>De secrets importants je viens pour vous instruire.</l>
+	<l id='978'>Madame, permettez qu'Arface se retire.</l>
+	<l id='979'>Tantôt de l'inconnu vous plaigniez les destins,</l>
+	<l id='980'>L'imprudente Astarbé le confie à mes mains.</l>
+	<l id='981'>Je défendrai ses jours, et je prétends encore</l>
+	<l id='982'>Vous sauver des périls que votre coeur ignore.</l>
+	<l id='983'>Votre perte est jurée, une femme en fureur,</l>
+	<l id='984'>De ses desseins sur vous, va poursuivre l'horreur.</l>
+	<l id='985'>Mais le crime s'aveugle et l'on peut le surprendre.</l>
+	<l id='986'>Au rang de vos aïeux, Princesse osez prétendre.</l>
+	<l id='987'>Dites un mot, parlez et soumis à vos lois,</l>
+	<l id='988'>Zopire vous élève au trône de nos rois.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='989'>Ton maître vit encore et tu m'offres l'Empire.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='990'>On attente à ses jours et peut-être il expire.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='991' part='i'>Pigmalion périt !</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='991' part='f'>Peut-être en ce moment,</l>
+<note type="L">Appareil : Ce qu'on prépare pour faire une chose plus solennelement. [F]</note>
+	<l id='992'>Trompé par l'appareil d'un auguste serment</l>
+	<l id='993'>Dans la coupe fatale, à ses mains présentée,</l>
+	<l id='994'>II boit l'affreuse mort, qu'il a trop méritée.</l>
+	<l id='995' part='i'>Sa parricide épouse...</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='995' part='f'>Ô crime ! Ô jour affreux !</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='996'>Punissons la perfide et régnons en ces lieux.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='997'>Ô ciel ! Je ne vois point ces voûtes ébranlées,</l>
+	<l id='998'>Aux dépens de mes jours, sur ta tête écroulées.</l>
+	<l id='999'>Perfide, voilà donc les secours généreux</l>
+	<l id='1000'>Que ta pitié cruelle offre à des malheureux.</l>
+	<l id='1001'>Pour punir Astarbé, tu te rends son complice.</l>
+	<l id='1002'>Tu permets, pour régner que ton maître périsse !</l>
+	<l id='1003'>D'un oeil indifférent tu le vois égorger !</l>
+	<l id='1004'>Lâche, il faut le défendre et non pas le venger.</l>
+	<l id='1005'>Je connais tes desseins. Fuis loin de moi barbare.</l>
+	<l id='1006' part='i'>Je ne t'écoute plus.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1006' part='f'>Quel trouble vous égare ?</l>
+	<l id='1007'>Et pourquoi ces transports d'un aveugle courroux.</l>
+	<l id='1008'>On immole un tyran ; Madame, oubliez vous</l>
+	<l id='1009'>Qu'il plongea le poignard au sein de vpotre frère ?</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1010'>Mais, j'adorai son fils, il est mon roi, mon père,</l>
+	<l id='1011'>Et toi même, perfide, as tu donc oublié</l>
+	<l id='1012'>Les augustes serments dont ton coeur est lié ?</l>
+	<l id='1013'>Ta rage vainement s'applaudit et se loue,</l>
+	<l id='1014'>Elle me fait horreur et je la désavoue.</l>
+	<l id='1015'>J'en atteste le Ciel ! Ce ciel vengeur des Rois.</l>
+	<l id='1016'>Dieux défendez mon maître, et soutenez ses droits.</l>
+	<l id='1017'>Dieux, dérobez sa tête à la main meurtrière.</l>
+	<l id='1018'>Imprimez sur son frout un si beau caractère,</l>
+	<l id='1019'>Si semblable à celui de la divinité,</l>
+	<l id='1020'>Si grand, qu'il en impose à leur férocité.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1021'>He bien, craignez l'effet de ma fureur extrême.</l>
+	<l id='1022'>J'allais vous élever à la grandeur suprême.</l>
+	<l id='1023'>Vos mépris orgueilleux m'annoncent un refus.</l>
+	<l id='1024'>Ingrate, frémissez ! Je ne balance plus.</l>
+	<l id='1025'>J'appuierai les desseins d'un reine barbare.</l>
+	<l id='1026'>Mais quelque soit le sort que sa main vous prépare,</l>
+	<l id='1027'>Sous quelque coup fatal que tombe l'inconnu,</l>
+	<l id='1028'>Songez alors, songez que vous l'aurez voulu.</l>
+	<l id='1029'>La Couronne n'est point un bien que je dédaigne.</l>
+	<l id='1030'>On me l'offre aujourd'hui, je l'accepte et je règne</l>
+	<l id='1031'>Astarbé mieux que vous confirmera mes droits.</l>
+	<l id='1032'>Qui punit les tyrans sait faire aussi des Rois.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1033'>Consomme ta fureur, va lui porter ma tête.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1034'>Gardes, veillez sur elle, et vous, tremblez.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Narbal, et les Acteurs précédents.</head>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1035'>Qu'ai-je entendu, cruel, ton Maître infortuné,</l>
+	<l id='1036'>Périt au pied du trône et meurt empoisonné !</l>
+	<l id='1037'>De ce lâche attentat, Zopire est le complice !</l>
+	<l id='1038'>Mais non, je te connais et je te rends justice.</l>
+	<l id='1039'>Viens. Craignons qu'Astarbé par de rapides coups...</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1040' part='i'>Oui, Zopire, courons.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1040' part='f'>Que me proposez-vous ?</l>
+	<l id='1041'>Qne je sauve un Barbare et que je rampe encore,</l>
+	<l id='1042'>Sous le joug d'un tyran que l'Univers abhorre !</l>
+	<l id='1043'>Et quel serait le prix d'un zèle infructueux.</l>
+	<l id='1044'>L'esclavage... La Reine offre un trône à mes voeux.</l>
+	<l id='1045'>Je reçois d'elle un don que Leuxis me refuse.</l>
+	<l id='1046' part='i'>Je la sers, je le dois.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1046' part='f'>Mais, Astarbé t'abuse.</l>
+	<l id='1047'>Toi même, penses-tu que le peuple soumis,</l>
+	<l id='1048'>Te laisse sur un Trône où ses mains t'auront mis.</l>
+	<l id='1049'>Que dis-je ? Lâche époux de cette Reine impie,</l>
+	<l id='1050'>Espères-tu régner sur ta triste patrie ?</l>
+	<l id='1051'>Elle régnera seule, ou bien dans ses soupçons,</l>
+	<l id='1052'>Tu la verras encor préparer les poisons,</l>
+	<l id='1053'>Carresser ta faiblesse et colorant son crime,</l>
+	<l id='1054'>Dans ses embrassements étouffer sa victime.</l>
+	<l id='1055'>Quels coeurs plaindront alors tes destins rigoureux ?</l>
+	<l id='1056'>Tu seras criminel autant que malheureux !</l>
+	<l id='1057'>Mais, sais-tu quels dégrés vont te conduire au trône ?</l>
+	<l id='1058'>Songe qu'un peuple entier le défend, l'environne.</l>
+	<l id='1059'>Avant d'y parvenir, il faut l'ensanglanter ;</l>
+	<l id='1060'>Et c'est sur des tombeaux que tu dois y monter.</l>
+	<l id='1061'>Si tu l'oses cruel ; plonge tes mains fumantes</l>
+	<l id='1062'>Au sein de ces époux, de ces mères tremblantes</l>
+	<l id='1063'>De ces faibles enfants, renversés dans leurs bras :</l>
+	<l id='1064'>Non Zopire, ton coeur n'y consentira pas.</l>
+	<l id='1065'>Tu respectes ton Maître et tu vas le défendre.</l>
+	<l id='1066'>Il en est temps encor. Déjà je crois entendre</l>
+	<l id='1067'>Un cri victorieux vers le ciel élancé.</l>
+	<l id='1068'>Je vois autour de toi, tout un peuple empressé,</l>
+	<l id='1069'>Et l'épouse et l'époux, et le fils et le père.</l>
+	<l id='1070'>Tous tes concitoyens, tes amis, Tyr entière,</l>
+	<l id='1071'>Je les entends vanter, consacrer ta valeur,</l>
+	<l id='1072'>Te nommer leur soutien et leur libérateur.</l>
+	<l id='1073'>Que la vertu, Zopire, est douce et consolante !</l>
+	<l id='1074'>Elle parle à ton âme, incertaine et tremblante.</l>
+	<l id='1075'>Sur l'espoir des grandeurs peux-tu la dédaigner ?</l>
+	<l id='1076' part='i'>Qu'aurais-tu résolu ? Répond moi.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1076' part='f'>De régner.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1077'>Implacable mortel, voilà donc ta réponse !</l>
+	<l id='1078'>Je vois tous les malheurs que ta rage m'annonce.</l>
+	<l id='1079'>Mais dans les grands périls il faut tout hasarder.</l>
+	<l id='1080' part='i'>Fais venir l'inconnu.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1080' part='f'>Qu'osez-vous demander ?</l>
+	<l id='1081' part='i'>Cruel, vous le perdez.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1081' part='f'>Il faut sauver son père.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1082'>Quel est donc cet esclave, et que prétends-tu faire ?</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1083'>Qu'il paraisse, te dis-je, et soyons sans témoins.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1084'>Que produiront pour lui ces inutiles soins ?</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1085'>Vorts prenez à son sort un intérêt bien tendre</l>
+	<l id='1086'>Madame ! J'y consens, je veux ici l'entendre,</l>
+	<l id='1087' part='i'>Qu'il vienne.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1087' part='f'>Je verrai jusqu'où va ta fureur</l>
+	<l id='1088'>Esclave ambitieux, farouche usurpateur,</l>
+	<l id='1089'>Tu ne sais pas encor quel sang il faut répandre.</l>
+	<l id='1090'>Ton maître assassiné, son trône mis en cendre</l>
+	<l id='1091'>Ses sujets malheureux, sous le glaive expirants</l>
+	<l id='1092'>Quelque soient ces forfaits, il en est de plus grands.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Bacazar, et les précédents acteurs.</head>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1093'>Paraissez Bacazar ; toi, frappe si tu l'oses.</l>
+	<l id='1094' part='i'>Voilà ton souverain.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1094' part='f'>Qui, lui ? Tu m'en imposes.</l>
+	<l id='1095'>La mort nous a ravi, l'héritier de nos rois.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1096' part='i'>Ah cher Prince !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1096' part='f'>Leuxis ! est-ce vous que je vois ?</l>
+	<l id='1097'>Ciel ! Au fond de mon coeur quel effrayant murmure !</l>
+	<l id='1098'>Un cri de mort, s'y mêle aux cris de la nature !</l>
+	<l id='1099'>Ah ! Narbal, expliquez ces noirs pressentiments !</l>
+	<l id='1100' part='i'>Mon père...</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1100' part='f'>Il meurt peut-être en ces affreux moments !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1101'>Il meurt ! Et l'on permet, on souffre qu'il perisse !</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1102'>Son épouse l'immole et voilà son complice.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1103'>Ce barbare ! Ah ! Cruels, trop cruels ennemis,</l>
+	<l id='1104'>Sur sa cendre fumante assassinez son fils.</l>
+	<l id='1105'>Périssent à la fois le monarque et l'Empire.</l>
+	<l id='1106'>Oui, reconnais moi, frappe infidèle Zopire.</l>
+	<l id='1107'>Ma vie est un tourment que je reproche aux Dieux.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1108' part='i'>Tu demandes la mort !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1108' part='f'>Le jour m'est odieux.</l>
+	<l id='1109'>Quelle foule de maux environnent mon être !</l>
+	<l id='1110'>Je déteste à jamais le jour qui m'a vu naître.</l>
+	<l id='1111'>Les Dieux même ont forcés mon coeur à les hair.</l>
+	<l id='1112'>Ils trahissent mon père, ils le laissent périr.</l>
+	<l id='1113'>Leur privilège est vain s'il ne vengent le nôtre.</l>
+	<l id='1114'>Dieux, la cause des Rois n'est-elle plus la vôtre ?</l>
+	<l id='1115'>Si vous souffrez en paix, les crimes des mortels.</l>
+	<l id='1116'>Si le trône est détruit, tremblez pour vos autels.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1117' part='i'>Zopire !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1117' part='f'>Ciel que vois-je ? À ses pieds ! Vous, Princesse ?</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1118'>Je tremble pour tes jours, pardonne à ma tendresse.</l>
+	<l id='1119'>Et toi, puisque ton coeur vainement combattu,</l>
+	<l id='1120'>À son ambition fait céder sa vertu ,</l>
+	<l id='1121'>Règne, mais en montant à la grandeur suprême,</l>
+	<l id='1122'>N'abuse point d'un rang usurpé sur nous-même ;</l>
+	<l id='1123'>Et n'appesantis point sur cet infortuné,</l>
+	<l id='1124'>Le sceptre de nos Rois, à ses mains destiné.</l>
+	<l id='1125'>Qu'il vive ! Que crains-tu ? Maître de cet Empire,</l>
+	<l id='1126'>Qu'importe à ton bonheur que mon amant respire ?</l>
+	<l id='1127'>L'univers l'abandonne. Enfin, si dans ces lieux,</l>
+	<l id='1128'>Le fils des Souverains épouvante tes yeux,</l>
+	<l id='1129'>Ne peut-il loin de toi jouir de la lumière ?</l>
+	<l id='1130'>Voudrais-tu lui ravir jusqu'au jour qui l'éclaire ?</l>
+	<l id='1131'>Il est, de tous les biens que tu lui veux ôter,</l>
+	<l id='1132'>Le seul qu'aux malheureux on n'ose disputer.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1133' part='i'>Je vais donner mon ordre... Allez.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1133' part='f'>Ô ciel ! Je tremble !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1134'>Chère Leuxis, du moins nous périrons ensemble.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Narbal, Zopire.</head>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1135'>Je ne te quitte point. Où vont-ils ? Tu te tais !</l>
+	<l id='1136'>Ton front est obscurci ; tes regards sont distraits !</l>
+	<l id='1137'>Ces deux infortunés marchent-ils au suplice ?</l>
+	<l id='1138'>Il faut sur tes desseins que ta voix m'éclaircisse.</l>
+	<l id='1139'>Vas-tu perdre Astarbé ? Vas-tu sauver ton Roi ?</l>
+	<l id='1140'>Es-tu juste ou coupable ? Enfin répond.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1141' part='i'>Suis moi.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='LEUXIS'><speaker>LEUXIS, amenée par des Gardes.</speaker>
+	<l id='1141' part='f'>Tandis que l'on poursuit le cours des attentats,</l>
+	<l id='1142'>Zopire veut qu'ici l'on retienne mes pas !</l>
+	<l id='1143'>Zopire ! Ô desespoir ô mortelles alarmes :</l>
+	<l id='1144'>Sans doute le barbare, insensible a mes larmes,</l>
+	<l id='1145'>De ses Maîtres trahis abandonnant les droits,</l>
+	<l id='1146'>De l'impie Astarbé fuit encore les lois.</l>
+	<l id='1147'>Si des pleurs de Leuxis son âme était touchée,</l>
+	<l id='1148'>Des bras de son amant l'aurait-il arrachée ?</l>
+	<l id='1149'>Non, je n'espère plus. Et, pour comble d'horreur,</l>
+	<l id='1150'>On me fuit, on me livre à toute ma douleur.</l>
+	<l id='1151'>Arsace ne vient point. Le cruel m'abandonne !</l>
+	<l id='1152'>Mais je le vois... ô Ciel ! Il soupire, il frissonne !</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Leuxis, Arsace.</head>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1153' part='i'>Que viens-tu m'annoncer ?</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1153' part='f'>Le plus grand des malheurs.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1154'>J'ai perdu Bacazar ! C'en est fait. Je me meurs !</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1155'>II vit ; mais malheureux de survivre à son père.</l>
+	<l id='1156' part='i'>Pigmalion n'est plus !</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1156' part='f'>Un monstre sanguinaire</l>
+	<l id='1157'>A donc vu réussir ses complots détestés.</l>
+	<l id='1158' part='i'>Et le lâche Zopire.,..</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1158' part='f'>Ah ! Madame, arrêtez.</l>
+	<l id='1159'>Zopire, à la vertu rappelé par vos larmes,</l>
+	<l id='1160'>Au parti de ses rois a consacré ses armes.</l>
+	<l id='1161'>Mais éclairé trop tard, et trop longtemps séduit,</l>
+	<l id='1162'>De son lent repentir il a perdu le fruit.</l>
+	<l id='1163'>Zopire, de son roi n'a pu sauver la vie ;</l>
+	<l id='1164'>L'indomptable poison l'avait déjà ravie.</l>
+	<l id='1165'>Quel spectacle effrayant s'est offert à mes yeux !</l>
+	<l id='1166'>Trahi par ses sujets, abandonné des Dieux,</l>
+	<l id='1167'>J'ai vu Pigmalion roulant sur la poussière,</l>
+	<l id='1168'>Soutenant avec peine un reste de lumière :</l>
+	<l id='1169'>Dans cet état où l'homme, au moment de périr,</l>
+	<l id='1170'>Joint le tourment de vivre à l'horreur de mourir,</l>
+	<l id='1171'>Astarbé, près de lui, jouissant de son crime ,</l>
+	<l id='1172'>D'un regard satisfait parcourait sa victime,</l>
+	<l id='1173'>Et du breuvage affreux précipitant l'effort,</l>
+	<l id='1174'>Avec des cris de rage elle appellait la mort.</l>
+	<l id='1175'>Du front de son époux je l'ai vue elle-même</l>
+	<l id='1176'>Arracher d'une main le sacré Diadème,</l>
+	<l id='1177'>Et de l'autre tenir le vase empoisonné ,</l>
+	<l id='1178'>À des meurtres nouveaux sans doute destiné.</l>
+	<l id='1179'>Enfin, cédant au feu dont l'ardeur le dévore,</l>
+	<l id='1180'>Le Roi meurt, Astarbé le contemplait encore ;</l>
+	<l id='1181'>Quand Zopire, suivi de ses amis troublés,</l>
+	<l id='1182'>Au milieu du tumulte avec peine assemblés,</l>
+	<l id='1183'>Vers son maître immolé, vole et se précipice.</l>
+	<l id='1184'>Des obstacles offerts vainement il s'irrite.</l>
+	<l id='1185'>Le péril était sûr, et que peut la valeur</l>
+	<l id='1186'>Contre la force unie à l'aveugle fureur ?</l>
+	<l id='1187'>Moi-même, abandonné d'une garde infidèle,</l>
+	<l id='1188'>Je n'ai pu prévenir cette Reine cruelle :</l>
+	<l id='1189'>« Un peuple d'assassins, de farouches soldats,</l>
+	<l id='1190'>D'une enceinte de fer environnait ses pas.</l>
+	<l id='1191'>Grands Dieux ! Les criminels ont-ils tant de prudence ?</l>
+	<l id='1192'>Sur les murs du Palais la barbare s'élance ;</l>
+	<l id='1193'>L'épouvante et l'horreur semblaient la devancer. »</l>
+	<l id='1194'>Contente de son crime elle ose l'annoncer.</l>
+	<l id='1195'>Alors, vous eussiez vu tout le peuple en alarmes,</l>
+	<l id='1196'>Fondre sur ce palais, courir, voler aux armes.</l>
+	<l id='1197'>L'étendart de la mort flotte au pied de ces murs.</l>
+	<l id='1198'>Mais sortant tout à coup, par des détours obscurs,</l>
+	<l id='1199'>Des Soldats furieux, animés au carnage,</l>
+	<l id='1200'>Précédés du tumulte, et suivis du ravage,</l>
+	<l id='1201'>Sur ce peuple éperdu fondent de toutes parts.</l>
+	<l id='1202'>Le sang des citoyens inonde ces remparts.</l>
+	<l id='1203'>Madame, c'est alors qu'informé que Zopire</l>
+	<l id='1204'>Dans ces lieux retirés vous avait fait conduire,</l>
+	<l id='1205'>J'ai revolé vers vous, plein de trouble et d'effroi,</l>
+	<l id='1206'>Pour veiller sur des jours confiés à ma foi.</l>
+	<l id='1207'>Tel est l'ordre sacré, que le Prince lui-même...</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1208'>Hélas ! Quel soin l'occupe en ce péril extrême !</l>
+	<l id='1209'>A-t-il cru que mes jours me seraient précieux,</l>
+	<l id='1210'>Quand les siens menacés me font craindre pour eux ?</l>
+	<l id='1211'>Quand son Père n'est plus, qu'espère-t-il encore ?</l>
+	<l id='1212' part='i'>Quels seraient ses desseins ? Réponds.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1212' part='f'>Je les ignore.</l>
+	<l id='1213'>Anéanti du coup dont son père est frappé,</l>
+	<l id='1214'>Dans un morne silence, il reste enveloppé ;</l>
+	<l id='1215'>Et s'il sort quelquefois du trouble de son âme,</l>
+	<l id='1216'>Parmi de longs sanglots, il vous nomme, Madame.</l>
+	<l id='1217'>Mais, Narbal et Zopire, ( ou mes yeux sont trompés,)</l>
+	<l id='1218'>D'un projet important paraissaient occupés :</l>
+	<l id='1219'>Sans doute ils méditaient le salut de l'Empire.</l>
+	<l id='1220'>On ignore en ces lieux les desseins de Zopire :</l>
+	<l id='1221'>La Reine croit toujours qu'à sa fuite entraîné,</l>
+	<l id='1222'>Qu'au char de sa fortune, en esclave enchaîné,</l>
+	<l id='1223'>Faible, et s'abandonnant à son puissant génie,</l>
+	<l id='1224'>Zopire, sur ses pas, marche à la tyrannie.</l>
+	<l id='1225' part='i'>Mais, Madame, il paraît.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Leuxis, Zopire, Arsace.</head>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1225' part='f'>Ah ! Princesse, tremblez !</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1226' part='i'>Que dites-vous, ô Ciel !</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1226' part='f'>Nos malheurs sont comblés !</l>
+	<l id='1227'>À l'amour de mes Rois mon âme ramenée</l>
+	<l id='1228'>N'aspirait qu'à sauver leur vie infortunée :</l>
+	<l id='1229'>Cet espoir me flattait, les Dieux me l'ont ravi.</l>
+	<l id='1230'>De mes Soldats, du Prince et de Narbal suivi,</l>
+	<l id='1231'>J'allais aux Tyriens faire enfin reconnaître</l>
+	<l id='1232'>L'Héritier de l'Empire, et le Sang de leur Maître.</l>
+	<l id='1233'>Le Peuple sous ses murs, combattait pour ses Rois.</l>
+	<l id='1234'>Au nom des Dieux vengeurs j'élève enfin ma voix ;</l>
+	<l id='1235'>Je nomme Bacazar, et plein de confiance,</l>
+	<l id='1236'>Du fils des souverains j'annonce la présence.</l>
+	<l id='1237'>Mais, soit, que prévenu, qu'indigné contre moi,</l>
+	<l id='1238'>Le Tyrien séduit, ait soupçonné ma foi,</l>
+	<l id='1239'>Ou soit que dans le choc des débris et des armes,</l>
+	<l id='1240'>Ma voix fut étouffée au sein de tant d'alarmes ;</l>
+	<l id='1241'>Le Peuple furieux s'est élancé sur nous.</l>
+	<l id='1242'>En vain nous résistons à l'effort de ses coups.</l>
+	<l id='1243'>Jugez du trouble affreux de mon âme éperdue,</l>
+	<l id='1244'>Le Prince enveloppé disparait à ma vue.</l>
+	<l id='1245'>Accusant à la fois et les Dieux et le sort,</l>
+	<l id='1246'>Au travers des poignards je cours chercher la mort.</l>
+	<l id='1247'>Mais de nos vains amis le déplorable reste,</l>
+	<l id='1248'>Malgré moi me ramène en ce palais funeste.</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1249'>Peut-être que le Prince à la mort échappé...</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1250'>Je le croyais Arsace, et je me fuis trompé.</l>
+	<l id='1251'>Oui, ce jour n'est marqué que par des parricides ;</l>
+	<l id='1252'>Autant qu'ils sont cruels nos malheurs sont rapides.</l>
+	<l id='1253'>On nomme Astarbé Reine, et le peuple empressé</l>
+	<l id='1254'>Court au devant du joug dont il est menacé.</l>
+	<l id='1255'>Au pied de ces remparts tout a changé de face :</l>
+	<l id='1256'>La paix succède au trouble, et la crainte à l'audace.</l>
+	<l id='1257'>Fuyons ; tout autre espoir nous devient superflus.</l>
+	<l id='1258'>Puisqu'on trahit les Rois, le Prince ne vit plus.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1259'>Que dites-vous ? Moi, fuir de ce palais funeste.</l>
+	<l id='1260'>Si Bacazar n'est plus, quel azile me reste ?</l>
+	<l id='1261'>Il n'en est plus pour moi. Dans l'horreur de mon sort,</l>
+	<l id='1262'>Je n'attends rien des Dieux, je ne veux que la mort.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1263'>« Vivez , ne souffrez pas qu'Astarbé sur le trône</l>
+	<l id='1264'>Avilisse en ses mains le sceptre et la couronne.</l>
+<stage>Aux genoux de Leuxis.</stage>
+	<l id='1265'>Au nom de vos aïeux , qu'elle a deshonorés ;</l>
+	<l id='1266'>Au nom de votre amant, par ses mânes sacrés ; » </l>
+	<l id='1267'>Vivez, jettez sur vous un coup d'oeil plus tranquille ;</l>
+	<l id='1268'>Sauvez de tant de Rois l'héritière et la fille.</l>
+	<l id='1269'>L'implacable Astarbé va rentrer dans ces lieux ;</l>
+	<l id='1270'>Fuyons, et prévenons ce monstre furieux.</l>
+	<l id='1271' part='i'>C'est elle ! Sort cruel.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Astarbé, Leuxis, Zopire, Arsace, Gardes.</head>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ, aux Gardes.</speaker>
+	<l id='1271' part='f'>Arrêtez ce perfide,</l>
+<stage>À Leuxis.</stage>
+	<l id='1272'>Entre nous aujourd'hui la fortune décide,</l>
+	<l id='1273'>Orgueilleuse Princesse, et tes lâches mépris</l>
+	<l id='1274'>Dans le sein de la mort vont recevoir leur prix.</l>
+	<l id='1275'>Ta faction gémit sous mes mains triomphantes :</l>
+	<l id='1276'>J'ai vu fuir devant moi ces légions tremblantes</l>
+	<l id='1277'>D'indociles sujets, d'esclaves mutinés ;</l>
+	<l id='1278'>Mon triomphe est écrit sur leurs fronts prosternés.</l>
+	<l id='1279'>Pour me jurer la foi, que j'ai droit d'en attendre,</l>
+	<l id='1280'>Les chefs des Tyriens doivent ici se rendre.</l>
+	<l id='1281'>Tremblez ! À mes succès mesurez vos revers.</l>
+	<l id='1282'>Mon trône est préparé ; vos tombeaux sont ouverts.</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1283'>À d'injurieux cris pourquoi borner ta rage ?</l>
+	<l id='1284'>On n'anéantit point la vertu qu'on outrage.</l>
+	<l id='1285'>Frappe : de tous les coups que ton bras m'a portés,</l>
+	<l id='1286'>Ceux que j'attends encor font les moins redoutés.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1287'>Eh bien, Perfide, eh bien, il faut te satisfaire.</l>
+	<l id='1288'>C'est assez balancer les traits de ma colère.</l>
+	<l id='1289'>Gardes, obéissez : qu'au sortir de ces lieux,</l>
+	<l id='1290'>De leur vue importune on délivre mes yeux.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1291'>Barbare ! Connais donc les remords de Zopire.</l>
+	<l id='1292'>Ta politique habile avoit su me séduire :</l>
+	<l id='1293'>Mais mon coeur, indigné de tes lâches forfaits,</l>
+	<l id='1294'>A bientôt détesté jusques à tes bienfaits.</l>
+	<l id='1295'>Le mortel, que tantôt tu n'as pu reconnaître,</l>
+	<l id='1296'>Couronné par mes mains, aurait été ton maître :</l>
+	<l id='1297'>La Princesse, rendue au rang de ses aïeux ,</l>
+	<l id='1298'>Aurait fini le cours de ton règne odieux,</l>
+	<l id='1299'>Mais l'aveugle destin autrement en ordonne.</l>
+	<l id='1300'>Nos rois sont dans la tombe, et tu montes au trône.</l>
+	<l id='1301'>Je vais subir leur sort, et je suis trop heureux,</l>
+	<l id='1302'>Puisqu'enfin, malgré toi, je mourrai vertueux.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+<stage>Aux Gardes.</stage>
+	<l id='1303'>Obéissez, sortez... Mais le Peuple s'avance.</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE V. Bacazar, Leuxis, Astarbé, Narbal, Zopire, Arsace, Troupe de Tyriens, Gardes.</head>
+<stage>Le fond du Théâtre doit paraître rempli d'un grès de Syriens, qui, en se développant laisse voir Bacazar ; il s'avance vers les Gardes qui emmènent la Princesse et Zopire.</stage>
+<sp who='BACAZAR'><speaker>BACAZAR, aux Gardes.</speaker>
+	<l id='1304' part='i'>Perfides, arrêtez !</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1304' part='f'>Ô céleste puissance !</l>
+	<l id='1305' part='i'>Ah ! Cher Prince, est-ce vous ?</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1305' part='f'>Reconnaissons les Dieux...</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1306' part='i'>L'inconnu !... Sort cruel !</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+<stage>À Astarbé.</stage>
+	<l id='1306' part='m'>Tremble !...</l>
+<stage>À Zopire et à Arsace.</stage>
+	<l id='1306' part='f'>Soyez heureux.</l>
+</sp>
+<sp who='ZOPIRE'><speaker>ZOPIRE.</speaker>
+	<l id='1307' part='i'>Ô mon Prince ?</l>
+</sp>
+<sp who='ARSACE'><speaker>ARSACE.</speaker>
+	<l id='1307' part='m'>Ô mon Roi ?</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1307' part='f'>Cet esclave, leur maître !</l>
+<stage>Au peuple.</stage>
+	<l id='1308'>Défendez votre Reine, et punissez ce traître.</l>
+</sp>
+<sp who='NARBAL'><speaker>NARBAL.</speaker>
+	<l id='1309'>Reconnais Bacazar, à tes coups échappé.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1310'>Ô destin !... De quels traits mon oeil est-il frappé ?</l>
+	<l id='1311'>Sur les mers de Samos le sort m'a-t-il trahie ?</l>
+</sp>
+<sp who='LEUXIS'><speaker>LEUXIS.</speaker>
+	<l id='1312'>C'est lui, n'en doute point, trop barbare ennemie ;</l>
+	<l id='1313'>C'est l'héritier des Rois par le Ciel éprouvé ;</l>
+	<l id='1314'>Au peuple, à mon amour, par le Ciel conservé.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1315'>Deux fois j'ai vu ta rage à me perdre occupée ;</l>
+	<l id='1316'>Le Ciel est équitable, et deux fois t'a trompée.</l>
+	<l id='1317'>Ce Peuple par Narbal, sur mon sort éclairé,</l>
+	<l id='1318'>A tourné contre toi son bras désespéré ;</l>
+	<l id='1319'>Il voulait de ces lieux renverser les barrières :</l>
+	<l id='1320'>Je l'avouerai, j'ai craint tes fureurs meurtrières ;</l>
+	<l id='1321'>Je n'ai pu, sans frémir, entrevoir des succès,</l>
+	<l id='1322'>Qu'il fallait acheter du sang de mes sujets.</l>
+	<l id='1323'>J'ai tremblé pour Leuxis, en tes fers retenue ;</l>
+	<l id='1324'>Mais enfin, j'ai vaincu sans t'avoir combattue.</l>
+	<l id='1325'>Je t'ai fait annoncer la Victoire et la Paix :</l>
+	<l id='1326'>Tu viens de nous ouvrir les portes du palais.</l>
+	<l id='1327'>Vers cet écueil caché les Dieux t'ont entraînée ;</l>
+	<l id='1328'>Et c'est pour t'immoler que l'on t'a couronnée.</l>
+	<l id='1329'>Tu frémis... Le remord succède à ta fureur !</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1330'>Tu te trompes. La rage est seule dans mon coeur.</l>
+	<l id='1331'>L'Univers m'abandonne en ce péril extrême :</l>
+	<l id='1332'>Mais va, qui ne craint rien se suffit à soi-même.</l>
+	<l id='1333'>J'ai su donner la mort, et je saurai mourir.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1334' part='i'>Qu'on l'immole, Soldats.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ, se poignardant.</speaker>
+	<l id='1334' part='f'>Je vais te prévenir.</l>
+</sp>
+<sp who='BACAZAR'><speaker>BACAZAR.</speaker>
+	<l id='1335' part='i'>Sortons.</l>
+</sp>
+<sp who='ASTARBÉ'><speaker>ASTARBÉ.</speaker>
+	<l id='1335' part='f'>« Pourquoi me fuir ? Craindrais-tu ma présence ?</l>
+	<l id='1336'>Lâche, tu ne sais pas jouir de ta vengeance.</l>
+	<l id='1337'>J'ai vu mourir ton père, et mon oeil à loisir</l>
+	<l id='1338'>D'un spectacle si doux a goûté le plaisir :</l>
+	<l id='1339'>Imite des fureurs, dont j'ai donné l'exemple.</l>
+	<l id='1340'>Un ennemi mourant vaut bien qu'on le contemple.</l>
+	<l id='1341'>Mon aspect désormais peut-il t'inquiéter ?</l>
+	<l id='1342'>Oui, tremble ; en expirant je vais t'épouvanter. »</l>
+	<l id='1343'>Ne crois pas que ma perte assure ta puissance :</l>
+	<l id='1344'>L'abîme est à tes pieds, creusé par la vengeance.</l>
+	<l id='1345'>Je laisse autour de toi mille ennemis secrets,</l>
+	<l id='1346'>Cruels, dissimulés, et pleins de mes projets :</l>
+	<l id='1347'>Au trône des tyrans tu montes sur ma cendre ;</l>
+	<l id='1348'>Va, j'espère qu'un jour, ils t'en feront descendre.</l>
+	<l id='1349'>Mais, c'en est fait... Je meurs !... Qu'on m'ôte de ces lieux.</l>
+	<l id='1350'>« J'ai bravé les mortels ; est-il encor des Dieux ? »</l>
+<stage>On l'emmène.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI et dernière. Bacazar, Leuxis, Narbal, Zopire, Arsace.</head>
+<sp who='BACAZAR'><speaker>BACAZAR, au Peuple.</speaker>
+	<l id='1351'>Amis, et Citoyens, vous l'avez entendue.</l>
+	<l id='1352'>Je n'en crois point les cris de sa fureur émue.</l>
+	<l id='1353'>Mon père par vos coups n'est point mort égorgé ;</l>
+	<l id='1354'>Vous couronnez son fils, et vous l'avez vengé.</l>
+	<l id='1355'>À soupçonner vos coeurs rien ne peut me contraindre.</l>
+	<l id='1356'>Je règne. J'aime mieux vous aimer que vous craindre.</l>
+	<l id='1357'>Leuxis, ce jour de pleurs n'est point fait pour nos feux.</l>
+	<l id='1358'>La nature gémit, quand l'amour est heureux.</l>
+	<l id='1359'>Plaignons l'ombre d'un père, et donnons à sa cendre</l>
+	<l id='1360'>Des honneurs, des devoirs, qu'il est affreux de rendre.</l>
+	<l id='1361'>Allons, et puissions-nous, dans le sein de la paix,</l>
+	<l id='1362'>Oublier d'Astarbé le règne et les forfaits.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

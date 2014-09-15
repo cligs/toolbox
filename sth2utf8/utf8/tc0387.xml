@@ -1,0 +1,1146 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LA MAGICIENNE ÉTRANGÈRE, TRAGÉDIE.</title>
+				<author born='1563' born_location='Salins' death='1621' death_location='Toulouse' academie=''>MATHIEU, Pierre</author>
+				<date>1617</date>
+			</titleStmt>
+			<publicationStmp>
+				<authority>publié par Paul FIEVRE, Septembre 2008</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire française</inspiration>
+				<structure>Quatre actes</structure>
+				<type>vers</type>
+				<periode>1611-1620</periode>
+				<taille>500-750</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">LA MAGICIENNE ÉTRANGÈRE</titlePart>
+				<titlePart type="sub">TRAGÉDIE</titlePart>
+				<titlePart type="sub">En laquelle on voit les tyranniques comportements, origine, entreprises, dessein, sortilèges, arrêt, mort et supplice, tant du Marquis d'Ancre que de Léonor Galligay sa femme, avec l'aventureuse rencontre de leurs funestes ombres.</titlePart>
+			</docTitle>
+			<docDate value='1617'>M. DC. XVII.</docDate>
+			<docAuthor id='MATHIEU, Pierre' bio='mathieu'>Par un bon français neveu de Rotomagus.</docAuthor>
+			<docImprint>
+				<privilege id='16**-**-**'></privilege>
+				<imprimeur id='BESONGNE'>À ROUEN, Par David Geoffroy, et Jacques Besongne, rue des Cordeliers joignant Saint Pierre.</imprimeur>
+				<acheveImprime id='17**-**-**'></acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='(non représentée)' location='(non représentée)'></premiere>
+			</performance>
+			
+<dedicace><adresse>À la louange du très chrétien et victorieux Louis de Bourbon roi de France et de Navarre.</adresse>
+<l>Voici le siècle d'or qui vient encore revoir la France,</l>
+<l>Après que tout ainsi qu'un Hercule généreux,</l>
+<l>Vous avez étouffé ces hydres rigoureux,</l>
+<l>Que semblaient nous tenir sous leur frein en souffrance.</l>
+<l>Astrée d'autre part voyant votre vaillance,</l>
+<l>Rendre la France heureuse et les Français heureux,</l>
+<l>Quitte le Ciel astré et d'un coeur amoureux,</l>
+<l>Vient subir sous le joug de votre obéissance.</l>
+<l>Mais qui du ciel ou vous envoya au cercueil,</l>
+<l>Ce typhon qui voulait s'égaler au Soleil</l>
+<l>Ce fut vous par Victry, si on croit le vulgaire.</l>
+<l>Mais moi cet argument (Sire) ainsi je ne crois,</l>
+<l>Car le ciel par Victry vous émut à le faire,</l>
+<l>Pour délivrer la France et le peuple Français.</l>
+</dedicace>
+
+<preface><head>Introduction</head>
+<p>Cette pièce décrit des évènements survenus en 1617 et contemporains de la rédaction du texte. Concino Concini [Conchine] (1575-1617), petit noble italien, fut le favori de la régente Marie de Médicis (1575-1642) veuve d'Henri IV (1553-1610) et mère de jeune Louis XIII (1601-1643). Elle s'entoure du couple Concini qui l'influença durablement. Le couple se fit détester du peuple et des nobles de France. Puissant et riche personnage, Concini fut assassiné par le Baron de Vitry (Victry), capitaine de la garde du corps, sur ordre de Louis XIII, le 2 avril 1617 dans la cour du Louvre. La femme de Concini, dite la Galligay de son nom Léonora Dori (1571-1517) était la soeur de lait de Catherine de Médicis ; ellle fut condamné et exécutée pour sorcellerie le 8 juillet 1617. </p>
+<p>PF, 2012.</p>
+</preface>
+<castList><head>NOM des ACTEURS</head>
+	<castItem><role id='PAN' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>LE GRAND PAN FRANÇAIS</role>.</castItem>
+	<castItem><role id='AYMELIS' civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>AYMELIS DE L.</role></castItem>
+	<castItem><role id='LEONTINE' civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>LÉONTINE DE V.</role></castItem>
+	<castItem><role id='ALMINDOR' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ALMINDOR DE N.</role></castItem>
+	<castItem><role id='ARGANTE' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ARGANTE DE M.</role></castItem>
+	<castItem><role id='LUCIDOR' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>LUCIDOR DE L.</role></castItem>
+	<castItem><role id='SOLON' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>LE SOLON FRANÇAIS</role>.</castItem>
+	<castItem><role id='ALECTON' civil='F' type="N" statut='furie' age='A' stat_amour='néant'>ALECTON</role>, furie.</castItem>
+	<castItem><role id='THESIPHONE' civil='F' type="N" statut='furie' age='A' stat_amour='néant'>THESIPHONE</role>, furie.</castItem>
+	<castItem><role id='MEGERE' civil='F' type="N" statut='furie' age='A' stat_amour='néant'>MÉGÈRE</role>, furie.</castItem>
+	<castItem><role id='ANGE' civil='N' type="A" statut='ange' age='A' stat_amour='néant'>L'ANGE GARDIEN DE LA FRANCE</role>.</castItem>
+	<castItem><role id='GALLIGAY' civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>GALLIGAY</role>.</castItem>
+	<castItem><role id='PREMIER-CONSEILLER' civil='H' type="H" statut='aristocrate' age='A' stat_amour='néant'>UN CONSEILLER</role>.</castItem>
+	<castItem><role id='SECOND-CONSEILLER' civil='H' type="H" statut='aristocrate' age='A' stat_amour='néant'>UN AUTRE CONSEILLER</role>.</castItem>
+	<castItem><role id='EXÉCUTEUR' civil='M' type="H" statut='bourreau' age='A' stat_amour='néant'>L'EXÉCUTEUR</role>.</castItem>
+	<castItem><role id='OMBRE-CONCHINE' civil='M' type="S" statut='fantôme' age='A' stat_amour='néant'>L'OMBRE DE CONCHINE</role>.</castItem>
+	<castItem><role id='TENECRION' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>TÉNÉCRION</role>.</castItem>
+	<castItem><role id='PREMIER-DOCTEUR' civil='M' type="H" statut='docteur' age='A' stat_amour='néant'>UN DOCTEUR</role>.</castItem>
+	<castItem><role id='SECOND-DOCTEUR' civil='M' type="H" statut='docteur' age='A' stat_amour='néant'>UN AUTRE DOCTEUR.</role>.</castItem>
+	<castItem><role id='OMBRE-DE-GALLIGAY' civil='M' type="S" statut='fantôme' age='A' stat_amour='néant'>L'OMBRE DE GALLIGAY</role>.</castItem>
+</castList>
+<set location='Paris' country='France' periode='XVIIème' link=''>[La scène se situe à Paris.]</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le grand Pan français, Aymelys, Léontine, Almidor, Argante, Lucidor, le Solon français.</head>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='1'>Grand Dieu qui fut sur Oreb donna jadis tes lois</l>
+	<l id='2'>Et qui dedans tes main régis le coeur des rois,</l>
+	<l id='3'>Reçois sur tes autels cet hymne que j'entonne,</l>
+	<l id='4'>Pour avoir préféré ma française couronne,</l>
+	<l id='5'>D'un parjure couard, qui sans foi et sans coeur,</l>
+	<l id='6'>Voulait de mon État demeurer le vainqueur :</l>
+	<l id='7'>Après avoir de moi fait exiler mes prince,</l>
+	<l id='8'>Et semé cent discords dans mes riches provinces,</l>
+<note type="L">Discord : désunion, dispute, querelle. [F]</note>
+	<l id='9'>Dont l'émail embâumé et les glorieux champs,</l>
+<note type="L">Émail : signifie figurément et poétiquement, la variété, la diversité des fleurs. [Ac. 1762]</note>
+	<l id='10'>Ont été arrosés de ses propres enfants,</l>
+	<l id='11'>Qui séduits finement de ce lâche Conchine,</l>
+	<l id='12'>S'en allaient abîmer dans leur propre ruine,</l>
+	<l id='13'>Imitant en cela le peu rusé poisson,</l>
+	<l id='14'>Qui se donne la mort accrochant l'hameçon :</l>
+	<l id='15'>Toutefois aux malheurs qui pendant mon jeune âge,</l>
+	<l id='16'>À l'envi menaçait le France du naufrage,</l>
+	<l id='17'>Je bénis ta puissance, et ton bras redouté </l>
+	<l id='18'>Qui m'a fait châtié l'inique impiété</l>
+	<l id='19'>De ce second Typhé, qui plein d'outrecuidance</l>
+<note type="L">Echeler : (escheler) Vieux mot, au lieu duquel on dit escalader.[F]</note>
+	<l id='20'>Désirait écheler l'Olympe de la France :</l>
+	<l id='21'>Contrecarrer ma gloire envahir ma splendeur,</l>
+	<l id='22'>Et bâtir mon tombeau sur ma propre grandeur,</l>
+	<l id='23'>Qui voulait de la Seine ensanglanter la rive</l>
+	<l id='24'>Et changer en cyprès notre agréable olive,</l>
+	<l id='25'>Qui aimant le désordre avait partout produit</l>
+	<l id='26'>Des vautours qui mangeaient de mes sujets le fruit :</l>
+	<l id='27'>Qui ne désirait rien que subites nouvelles</l>
+	<l id='28'>Qui faisaient remparer mes fortes citadelles,</l>
+<note type="L">Remparer : (...) Se terrasser, se fortifier par un rempart ou autre défense. [F]</note>
+	<l id='29'>Qui faisait des accords avec mes ennemis,</l>
+	<l id='30'>Qui voulait commander aux mignons de Thémis,</l>
+	<l id='31'>Qui a fait dessous lui gémir la Picardie,</l>
+	<l id='32'>Qui voulait esclaver toute la Normandie,</l>
+<note type="L">Esclaver : soumettre à l'esclavage.</note>
+	<l id='33'>Qui de mes bons sujets remplissait les prisons,</l>
+	<l id='34'>Qui voulait mes cités grever de garnisons,</l>
+	<l id='35'>Qui fit assassiner le Seigneur de Prouville,</l>
+	<l id='36'>Qui cuida faire occire le Duc de Longueville,</l>
+<note type="L">Cuider : vieux mot qui signifiait autrefois « penser ». [F]</note>
+	<l id='37'>Qui était le chaos de la confusion,</l>
+	<l id='38'>Qui était l'argument de la division,</l>
+	<l id='39'>Qui était le pivot des discordes civiles,</l>
+	<l id='40'>Qui était le tison qui embrasait mes villes :</l>
+	<l id='41'>Bref qui fut le chaos, l'argument et l'auteur,</l>
+	<l id='42'>De cela que Pandore a versé de malheureux</l>
+<note type="L">Pandore : première femme, créée par Zeus. Curieuse, elle ouvrit la jarre qui contenait tous les maux et les laissa s'échapper sauf l'espérance qui n'eut pas le temps de s'enfuir.</note>
+	<l id='43'>Dessus les lys français, dû depuis que l'envie,</l>
+	<l id='44'>L'enhardit sourdement d'attenter sur ma vie :</l>
+	<l id='45'>Mais puisque ses desseins ont été sans effet,</l>
+	<l id='46'>Puisqu'un Mars de Victry l'a bravement défait,</l>
+	<l id='47'>Éteignons en ce siècle à jamais sa mémoire.</l>
+</sp>
+<sp who='AYMELIS'><speaker>AYMELIS.</speaker>
+	<l id='48'>Victry pour ce beau coup mérite de la gloire,</l>
+	<l id='49'>Aussi son nom, sa race et sa dextérité,</l>
+	<l id='50'>Ne dureront pas moins que la postérité :</l>
+	<l id='51'>Mais par-dessus Victry, Sire, les rois étranges,</l>
+	<l id='52'>Vous donnes pour ce coup mille belles louanges,</l>
+	<l id='53'>Exaltant votre nom, lequel d'un butin d'or,</l>
+	<l id='54'>Ils gravent dans le marbre et dans le bronze encore,</l>
+	<l id='55'>Pendant que d'autre part la fameuse Victoire,</l>
+	<l id='56'>Le grave de sa main au temple de Mémoire.</l>
+</sp>
+<sp who='LEONTIDE'><speaker>LÉONTIDE.</speaker>
+	<l id='57'>Sire. Conchine est mort, mais ce n'est pas assez,</l>
+	<l id='58'>Il faut faire à sa femme en bref temps son procès,</l>
+	<l id='59'>C'est la source du mal , la fille de Mégère,</l>
+	<l id='60'>Et celle-là que la le venin de Cerbère</l>
+	<l id='61'>Épandu en nos champs, dont sont nés les discords,</l>
+	<l id='62'>Desquels on suscité aux français mille mort.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='63'>Avant qu'il soit trois jours cette affreuse sorcière,</l>
+	<l id='64'>Ira voir de Pluton la puante tanière,</l>
+	<l id='65'>Hé quoi ? Et quel honneur pourrait -on acquérir ?</l>
+	<l id='66'>De là garder ainsi sans la faire mourir ?</l>
+	<l id='67'>Non, non, il faut de bref que le fer et la flamme,</l>
+	<l id='68'>De son malheureux corps fasse retirer l'âme,</l>
+	<l id='69'>Imitant en cela deux monarques gaulois,</l>
+	<l id='70'>Savoir Philippe Auguste, et Charles roi français,</l>
+	<l id='71'>Neuvième du nom, qui père de justice,</l>
+	<l id='72'>Punirent par le feu la sorcière malice,</l>
+	<l id='73'>Des deux vieilles Circé, qui avaient contrefait,</l>
+<note type="L">Circé : personnage de l'Odyssée d'Homère qui garda prisonnier Ulysse et transforma ses compagnons en pourceaux. (Ovide, Les métamorphose, Livre XIV)</note>
+	<l id='74'>De pure cire vierge en secret sous une froide lame,</l>
+	<l id='75'>Les faisant peu à peu consommer vers la flamme.</l>
+</sp>
+<sp who='ALMINDOR'><speaker>ALMINDOR.</speaker>
+	<l id='76'>Si l'Italie imitant le royaume français,</l>
+	<l id='77'>Vitelle l'empereur et les divines lois,</l>
+	<l id='78'>Faisaient punir ceux-là qui s'engagent au diable,</l>
+	<l id='79'>Elle ne verrait point sa terre déplorable,</l>
+	<l id='80'>Confite de leurs arts, et les peuples voisins,</l>
+	<l id='81'>Ne seraient infectés de leurs sales venins.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='82'>Ils devraient étouffer cette infernale engeance,</l>
+	<l id='83'>Ils devraient par le feu en tarir la semence,</l>
+	<l id='84'>Sacrifier leur vie aux autels de Pluton,</l>
+	<l id='85'>Et leur faire passer le bourbeux Phlegethon.</l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='86'>Il faut Galligay faire réduire en cendre,</l>
+	<l id='87'>Que sert Solon français de davantage attendre,</l>
+	<l id='88'>Conchine l'attend jà, pour elle il meut d'ennui,</l>
+<note type="L">Jà : vieux mot, au lieu duquel on se sert de « maintenant » ou « déjà ». [F]</note>
+	<l id='89'>Et lui tarde beaucoup qu'elle n'est avec lui.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='90'>Si tôt que nous l'aurons derechef confrontée,</l>
+	<l id='91'>Convaincu sa malice et magie infectée,</l>
+	<l id='92'>Nous lui ferons tenir de grève le chemin.</l>
+</sp>
+<sp who='AYMELIS'><speaker>AYMELIS.</speaker>
+	<l id='93'>Ses livres sorciers son vierge parchemin,</l>
+	<l id='94'>Ses chiffres inconnus ses divers caractères,</l>
+	<l id='95'>Sont-ils de sa mort témoins inrefractaires.</l>
+</sp>
+<sp who='LUCIDOR'><speaker>LUCIDOR.</speaker>
+	<l id='96'>Quand d'elle nous n'aurions que ce seul argument,</l>
+	<l id='97'>C'est assez pour lui faire un juste jugement,</l>
+	<l id='98'>Vu que l'on peut juger, voyant telles répliques,</l>
+	<l id='99'>Qu'elle se démentait d'user des arts magiques,</l>
+	<l id='100'>Condamnés de Moïse et de l'antiquité.</l>
+</sp>
+<sp who='LEONTIDE'><speaker>LÉONTIDE.</speaker>
+	<l id='101'>Parlant de la façon vous dites vérité,</l>
+	<l id='102'>Car les lois du passé profanes ou divines</l>
+	<l id='103'>Commandent d'étouffer de semblables vermines,</l>
+	<l id='104'>Comme indignes de vivre avecque les mortels,</l>
+	<l id='105'>Qui adorent de Dieu purement les autels.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='106'>Comme l'arche de Dieu des Philistins ravie,</l>
+	<l id='107'>Avec leur Dieu Dagon n'avait de sympathie,</l>
+	<l id='108'>Comme le plomb et l'or, n'ont aucun aliment, </l>
+	<l id='109'>Comme le feu et l'eau n'ont rien ensemblement,</l>
+	<l id='110'>Ainsi ces fils ainés des rives avernales, </l>
+<note type="L">Avernales : nymphes des fleuves infernaux.</note>
+	<l id='111'>Dont l'art, le filtre amer et les propos thessalles,</l>
+	<l id='112'>Empoisonnent les uns, les autres font mourir,</l>
+	<l id='113'>N'ayant rien avec nous doivent par feu mourir.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='114'>Sire, pour ses forfaits quand elle aurait cent vies,</l>
+	<l id='115'>Elle mériterait qu'elles fussent ravies,</l>
+	<l id='116'>Pour expier le mal qu'elle a fait aux humains,</l>
+	<l id='117'>Qui n'ont voulu ramer au port de ses desseins.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='118'>C'est par trop délayé faites en un vide.</l>
+</sp>
+<sp who='AGRAVIE'><speaker>AGRAVIE.</speaker>
+	<l id='119'>Elle dût être jà en l'antre ténaride,</l>
+<note type="L">Antre ténaride : une des entrées des enfers. Se situe à l'extrême sud de la Grèce (cap Matapan).</note>
+	<l id='120'>Afin de recevoir à son époux sans foi,</l>
+	<l id='121'>Que Louis de Bourbon (n'est moins juste que roi)</l>
+	<l id='122'>En l'ayant fait passer par un honteux supplice,</l>
+	<l id='123'>Après avoir prudent remarqué sa malice.</l>
+</sp>
+<sp who='ALMIDOR'><speaker>ALMIDOR.</speaker>
+	<l id='124'>L'on ne peut exprimer combine Dieu nous fait d'heur</l>
+	<l id='125'>Et combien aux français il montre de faveur,</l>
+	<l id='126'>D'avoir précipité au gouffre ténaride;</l>
+	<l id='127'>Celui-là qui voulait nous retenir en bride.</l>
+</sp>
+<sp who='LUCIDOR'><speaker>LUCIDOR.</speaker>
+	<l id='128'>Ce coup n'a pas été aux français moins heureux,</l>
+	<l id='129'>Que celui de Goliath aux gens d'armes hébreux,</l>
+	<l id='130'>Ainsi Abimelec qui mettait tout en crainte,</l>
+	<l id='131'>Vit d'un bras moins vaillant sa pauvre vie éteinte,</l>
+	<l id='132'>Ainsi le fier Aman enviant Mardochée,</l>
+<note type="L">Aman : et Mardochée : référence au livre d'Esther de la Bible.</note>
+	<l id='133'>Si vit à son gibet comme d'ancre attaché.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='134'>C'est assez discouru ici de cette affaire</l>
+	<l id='135'>L'Éternel par Victry ce beau coup m'a fait faire,</l>
+	<l id='136'>Or donc du passé n'allons plus discourant,</l>
+	<l id='137'>Mais allons de ce pas faire le demeurant.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Alecton, Thésyphore, Mégère, L'Ange.</head>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='138'>Quoi, filles de la nuit, monstres épouvantables,</l>
+	<l id='139'>Dont les fers, dont les fouets,et les fléaux effroyables</l>
+	<l id='140'>Étonnent le front d'Hécate, au corps le sang glacer,</l>
+	<l id='141'>Et en un mot livrant au genre humain la guerre,</l>
+	<l id='142'>Trembler le ciel, l'enfer et la mer et la terre,</l>
+	<l id='143'>Quoi à qui songez-vous qui vous va occupant,</l>
+	<l id='144'>Quel Mome deceveur  vous va à l'esprit triomphant,</l>
+	<l id='145'>Comment ignorez-vous que voici la journée,</l>
+	<l id='146'>Que Galligay doit être en Cour condamnée,</l>
+	<l id='147'>Non, non, quittez le Styx et l'antre de Pluton</l>
+	<l id='148'>Et venez assister votre soeur Alecton,</l>
+<note type="L">Sisyphe : Titan, fils d'Eole, malin et fourbe, échappé des Enfers Mercure le punit à remonter éternellement une lourde pierre au sommet d'une montagne qui retombait.</note>
+<note type="L">Prométhée : Titan qui offrit le feu aux hommes et qui fut enchaîné au sommet du Caucase par Jupiter : un aigle dévorait son foie qui se régénérait sans cesse.</note>
+	<l id='149'>Devancez les éclaires (véritables prophètes)</l>
+	<l id='150'>Des orages du ciel, des foudres et tempêtes,</l>
+	<l id='151'>Délaissez le Tantale, Sisyphe, Prométhée,</l>
+<note type="L">Tantale : Titan, ayant commit plusieurs crimes envers les hommes et les dieux et puni par eux au supplice de la faim et de la soif inextinguible.</note>
+	<l id='152'>Ixion et l'amant de sa propre beauté,</l>
+	<l id='153'>Et tenant en vos mains vos torches pétillantes,</l>
+	<l id='154'>Vos fouets envenimés, vos couleuvres sifflantes,</l>
+	<l id='155'>Venez s'il est possible avec moi empêcher,</l>
+	<l id='156'>Que notre soeur ne soit le butin d'un bûcher.</l>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='157'>Ô rages, ô fureurs, ô démons, ô Cerbère !</l>
+	<l id='158'>Suivez-moi promptement, tout est perdu, Mégère, </l>
+	<l id='159'>Ignorez-vous les cris que fait naître Alecton,</l>
+	<l id='160'>Allons et devançant les ailes d'Aquilon,</l>
+	<l id='161'>Sachons ce qui l'émeut à faire un tel esclandre.</l>
+</sp>
+<sp who='MEGERE'><speaker>MÉGÈRE.</speaker>
+	<l id='162'>Allons je veux aussi ce sujet d'elle apprendre,</l>
+	<l id='163'>Et bien quoi Alecton qui vous fait contrister ?</l>
+<note type="L">Contrister : donner du chagrin, de l'affliction. [F]</note>
+	<l id='164'>Qui vous fait de la sorte en ce lieu lamenter,</l>
+	<l id='165'>Vient-on sur nos amis attenter quelque chose ?</l>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='166'>Vous le jugez ainsi, comme je le suppose.</l>
+</sp>
+<sp who='MEGERE'><speaker>MÉGÈRE.</speaker>
+	<l id='167'>Qu'avez-vous entendu errant par l'univers ?</l>
+</sp>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='168'>Un bruit, lequel mettra nos desseins à l'envers.</l>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='169'>Dites pour tout cela encor je ne m'effraye.</l>
+</sp>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='170'>On dresse le procès à notre Galligaye,</l>
+	<l id='171'>Tellement que je crois qu'avant qu'il soit peu,</l>
+	<l id='172'>Que son corps passera par le fer et le feu.</l>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='173'>Hé, n'a-t-elle pas bien mérité ce supplice ?</l>
+</sp>
+<sp who='MEGERE'><speaker>MÉGÈRE.</speaker>
+	<l id='174'>Oui da, mais elle était notre intime complice,</l>
+	<l id='175'>Qui faisait abreuvant les hommes de ses sorts,</l>
+	<l id='176'>Dévaler mille esprits aux royaume des morts.</l>
+</sp>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='177'>Ne souffrons donc mes soeurs que cette brave dame,</l>
+	<l id='178'>Éclipse son beau jour au milieu de sa flamme,</l>
+	<l id='179'>Ou que son chef qui fut des orgueilleux l'Atlas,</l>
+	<l id='180'>Soit distrait de son corps d'une tranchant coutelas,</l>
+	<l id='181'>Faisons plutôt grêler forçant l'effet des astres,</l>
+	<l id='182'>Dedans les champs français mille piteux désastres,</l>
+	<l id='183'>Que le père aveuglé égorge son enfant,</l>
+	<l id='184'>Que du père le fils doit cruel triomphant,</l>
+	<l id='185'>Que le frère insolent couche au tombeau son frère,</l>
+	<l id='186'>Comme Thèbes jadis vit par ma main meurtrière,</l>
+	<l id='187'>Bref faisons tant d'horreur par le feu et le fer,</l>
+	<l id='188'>Que le monde aux humains ne soit plus qu'un enfer;</l>
+</sp>
+<sp who='L-ANGE'><speaker>L'ANGE GARDIEN.</speaker>
+	<l id='189'>Quoi, fille des enfers excrément du Cocyte ?</l>
+<note type="L">Cocyte : ruisseau d'Épire (Grèce), tombait dans le lac d'Achérusie ; il roulait des eaux noires et bourbeuses, ce qui le fit placer au nombre des fleuves des Enfers. [B]</note>
+	<l id='190'>Peste de l'univers, quel démon vous irrite,</l>
+	<l id='191'>Quelle rage vous point quels venins vous infernaux,</l>
+	<l id='192'>Vous forcent à vouloir subsister tant de maux,</l>
+	<l id='193'>Non arrêtez vos pas n'allez point en la France,</l>
+	<l id='194'>Pour penser aux français donner de la nuisance,</l>
+	<l id='195'>C'est bâtir dans les airs, c'est semer sur la mer,</l>
+	<l id='196'>Ou vouloir dans un sac tous les vents enfermer,</l>
+	<l id='197'>L'Éternel maintenant veille pour ce Empire,</l>
+	<l id='198'>Le reste des humains ne la peuvent détruire,</l>
+	<l id='199'>Puis qu'une Galligay empêcher le procès,</l>
+	<l id='200'>C'est vers sa majesté exercer des excès,</l>
+	<l id='201'>Non retournez vous en dedans de votre demeure,</l>
+	<l id='202'>L'Éternel juste en tout veut qu'injuste elle meure,</l>
+	<l id='203'>Non, qu'il veuille la mort d'un malheureux pêcheur,</l>
+	<l id='204'>Ou lui faire sentir sa divine fureur :</l>
+	<l id='205'>Mais pour autoriser les lois de la justice</l>
+	<l id='206'>Et expirer sa faute endurant le supplice.</l>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='207'>Pourquoi désirez vous ce jourd'hui triompher,</l>
+	<l id='208'>Ô ange radieux, des forces de l'Enfer,</l>
+	<l id='209'>Qui vous porte à cela qui a ce vous convit </l>
+	<l id='210'>Est-ce l'ambition ou la mordante envie,</l>
+	<l id='211'>Qu'où portez vos démons de depuis que des Cieux</l>
+	<l id='212'>Ils furent culbutés aux paluds stygieux,</l>
+<note type="L">Paluds stygieux : On dit aussi en burlesque « le styrgien palus », pour dire l'Enfer. [F]</note>
+	<l id='213'>Non, ne vous mêlés point des négoces mondains,</l>
+	<l id='214'>Laissez rouler le cours des affaires humains,</l>
+	<l id='215'>Au moins de faire éclore en ce mortel pourpris,</l>
+<note type="L">Pourpris : vieux mot qui signifiait enceinte, clôture de quelque lieu seigneurial. [F]</note>
+	<l id='216'>Le dessein inouï de nous trois entrepris.</l>
+</sp>
+<sp who='L-ANGE'><speaker>L'ANGE.</speaker>
+	<l id='217'>C'est se peiner en vain que de lever la orne,</l>
+	<l id='218'>Contre le souverain qui toute la mer borne,</l>
+	<l id='219'>(Qui peut tout ce qu'il veut,) qui se donne la loi,</l>
+	<l id='220'>(Et ne voit sinon lui) qui soit égal à sa foi,</l>
+	<l id='221'>Que désirez-vous plus vomir dessus la France,</l>
+	<l id='222'>Plus vous êtes armés de rageet d'arrogance,</l>
+	<l id='223'>Et plus vous souhaitez sa perte et son malheur,</l>
+	<l id='224'>Plus elle est indomptable et féconde en bonheur.</l>
+	<l id='225'>Hé ! Quoi voudriez-vous pour une Galligaye,</l>
+	<l id='226'>La Pandore du monde, et de France la plaie,</l>
+	<l id='227'>Faire faner les lys cet état renverser,</l>
+<note type="C">On lit «fanir» au lieu de faner dans l'édition originale.</note>
+	<l id='228'>Et les bons et mauvais, pèle-mêle offenser,</l>
+	<l id='229'>Non, non, le souverain qui connait vos malices,</l>
+	<l id='230'>Vous fera retrouver  en vos noirs précipices,</l>
+	<l id='231'>Si vous osez troubler de France le repos,</l>
+	<l id='232'>Et métamorphoser la monde en un chaos,</l>
+	<l id='233'>Hé ! Quoi ignorez-vous que se toute puissance,</l>
+	<l id='234'>Depuis treize ans me fait garder la France ?</l>
+	<l id='235'>Du Turc, de l'Espagnol, du Germain, du Grégeois,</l>
+	<l id='236'>Du Breton, du flamand, du Hongre et de l'Anglais,</l>
+	<l id='237'>Et de cent nations dont l'épée inhumaine</l>
+	<l id='238'>Pensait du sang français faire rougir la Seine,</l>
+	<l id='239'>Rompez donc noires soeurs vos desseins entrepris,</l>
+	<l id='240'>Et retournez gêner les malheureux esprits :</l>
+	<l id='241'>Où avec Saint Denis apôtre de la France,</l>
+	<l id='242'>Je vous ferai sentir ma divine vaillance.</l>
+</sp>
+<sp who='MEGERE'><speaker>MÉGÈRE.</speaker>
+	<l id='243'>Puisque le Tout-puissant combat pour les Français,</l>
+	<l id='244'>Nous ne désirons pas annihiler ses lois,</l>
+	<l id='245'>D'attenter autrement se serait téméraire,</l>
+	<l id='246'>Conter les feux du ciel, dessus Thétis pour traire,</l>
+	<l id='247'>Car s'il commande au ciel, en terre, en l'air, ès eaux,</l>
+	<l id='248'>Il commande aussi même ès paluds infernaux.</l>
+<note type="C">Voir supra note « paluds styrgieux ».</note>
+</sp>
+<sp who='L-ANGE'><speaker>L'ANGE.</speaker>
+	<l id='249'>L'on ne peut escrimer avec honneur et gloire,</l>
+	<l id='250'>Contre cil dont dépend la mort ou la victoire.</l>
+</sp>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='251'>J'ai cent fois plus de peur de ces rouges éclats,</l>
+	<l id='252'>Que Galligay n'a d'un violent trépas,</l>
+	<l id='253'>Combattre qui voudra contre sa sainte dextre,</l>
+	<l id='254'>Pour moi je ne veux pas jouer à mon maître,</l>
+	<l id='255'>Car sans compter Conchine on vit Montgomery,</l>
+	<l id='256'>Par un pareil sujet sur le dessert marri.</l>
+<note type="C">« Dessert » est ici dans le sens de desservir.</note>
+</sp>
+<sp who='THESIPHONE'><speaker>THÉSIPHONE.</speaker>
+	<l id='257'>Ma foi je ne veux pas être de la partie.</l>
+</sp>
+<sp who='MEGERE'><speaker>MÉGÈRE.</speaker>
+	<l id='258'>Vous eussiez peu laisser en la grève la vie;</l>
+	<l id='259'>Si vous eussiez toujours été de son côté.</l>
+</sp>
+<sp who='ALECTON'><speaker>ALECTON.</speaker>
+	<l id='260'>Allons c'est trop longtemps en ce lieu caqueté,</l>
+	<l id='261'>Retournons voir Pluton et laissons Galligay,</l>
+	<l id='262'>Puisque l'enfer en vain de lui aider s'effraye.</l>
+</sp>
+<sp who='L-ANGE'><speaker>L'ANGE.</speaker>
+	<l id='263'>Allez fatales soeurs au Cocyte infecté.</l>
+	<l id='264'>Jamais ne puissiez vous repasser le Léthé,</l>
+<note type="L">Léthé : c-à-d. En grec Oubli, un des rivières des Enfers chez les païens ; ceux qui s'y désaltéraient oubliaient le passé. [B]</note>
+	<l id='265'>Ni les portes de fer que va gardant Cerbère,</l>
+	<l id='266'>Pour venir à la France et aux Français mal faire.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Solon français, Galligay, Premier Conseiller, Second Conseiller, Exécuteur.</head>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='267'>Voici le jour venu qu'il vous faut confesser</l>
+	<l id='268'>Le mal qui vous fera par le fer trépasser,</l>
+	<l id='269'>Confessez votre faute accusez votre vice,</l>
+	<l id='270'>Et ne cachez le vrai à la sainte justice,</l>
+	<l id='271'>Qui construite de Dieu pour punir les fauteurs,</l>
+	<l id='272'>Par un secret instinct peut lire dans les coeurs,</l>
+	<l id='273'>Prévoir la vérité, connaître l'imposture,</l>
+	<l id='274'>Et châtier chacun selon sa forfaiture,</l>
+	<l id='275'>Dites donc à Galligay est-il pas vérité ?</l>
+	<l id='276'>Que vous avez souvent dans le Franc excité</l>
+	<l id='277'>Plusieurs divisions ? Fait retirer les princes ?</l>
+	<l id='278'>Et sème cent discords aux françaises provinces ?</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='279'>Mes esprits sont de moi tellement envolés,</l>
+	<l id='280'>Que je ne peux juger de quoi vous me perlez,</l>
+	<l id='281'>Et quoi Solon français aurais-je eu l'assurance,</l>
+	<l id='282'>D'enfanter des malheurs dans le sein de la France ?</l>
+	<l id='283'>À qui je dois mon heur et mon autorité :</l>
+	<l id='284'>Non, non, c'est faire tort à la fidélité,</l>
+	<l id='285'>Que d'accuser ainsi une innocente Dame,</l>
+	<l id='286'>Qui n'eut jamais empreint autre dessein dans l'âme,</l>
+	<l id='287'>Que l'honneur de la France, et la Gloire du Roi.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='288'>Madame, vous savez de ce pays la loi,</l>
+	<l id='289'>Si donc plus vous voilez vos malfaits d'une feinte,</l>
+	<l id='290'>La justice sera par vous-même contrainte</l>
+	<l id='291'>De vous bailler la gêne avec sûreté,</l>
+	<l id='292'>N'endurez pas cela, mais dites la vérité.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='293'>Et quoi voulez-vous messieurs que je vous die ?</l>
+</sp>
+<sp who='PREMIER-CONSEILLER'><speaker>PREMIER CONSEILLER.</speaker>
+	<l id='294'>Les desseins machinés par votre perfidie.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='295'>Que pourrait une femme en France machiner,</l>
+	<l id='296'>Alors qu'elle ne veut au mal s'abandonner ?</l>
+<note type="L">Phèdre : file de Minos et Pasiphaé, épousa Thésée, roi d'Athènes. Tomba amoureuse de son beau-fils Hippolyte. Ce dernier la refusa. Elle se vengea en l'accusant de vouloir la séduire et causa sa mort. Poursuivie par le remords, elle s'étrangla par désespoir.</note>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='297'>Que peut faire Phèdre, Pasiphaé et Médée ?</l>
+<note type="L">Pasiphaé : fille d'Appolllon, mariée à Minos, mère d'Androgée, Ariane et Phèdre. Elle connut commerce monstrueux avec un taureau blanc dont elle eut le Minotaure.</note>
+	<l id='298'>Ne pouvant pas brider leur rage outrecuidée.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+<note type="L">Médée : soeur de Circé, magicienne de la mythologie grecque, elle égorgea ses enfants pour se venger d'avoir été abandonnée par son mari Jason.</note>
+	<l id='299'>Non, non, ne sera point de la sorte, ô Dieux !</l>
+</sp>
+<sp who='SECOND-CONSEILLER'><speaker>SECOND CONSEILLER.</speaker>
+	<l id='300'>Peut-être plus encor étant bien pire qu'eux.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='301'>Mon âme de leur mal, n'est nullement souillée.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='302'>Vous devez être à eux justement égalée.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='303'>Il n'importe monsieur vous pouvez dire tout.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='304' part='i'>Dites tout comme moi.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='304' part='f'>Mon coeur ne s'y résout.</l>
+</sp>
+<sp who='PREMIER-CONSEILLER'><speaker>PREMIER CONSEILLER.</speaker>
+	<l id='305'>Elle ne dire rien si ce n'est par la gêne;</l>
+</sp>
+<sp who='SECOND-CONSEILLER'><speaker>SECOND CONSEILLER.</speaker>
+	<l id='306' part='i'>Il les lui faut bailler.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='306' part='f'>Puisque c'est une choses vaine,</l>
+	<l id='307'>Que de penser celer ma grand impiété,</l>
+	<l id='308'>Je veux en déclarer toute le vérité.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='309'>Et bien n'est-il pas vrai que vous êtes coupable,</l>
+	<l id='310' part='i'>Des malheurs advenus.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='310' part='f'>Celle est véritable.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='311'>N'aviez-vous pas dessein vous et votre mari,</l>
+	<l id='312'>Du monarque français si doucement chéri,</l>
+	<l id='313'>D'envahir peu à peu ses plus fortes provinces,</l>
+	<l id='314'>De proscrire les Grands de faire occire les princes,</l>
+	<l id='315'>Et après tout cela briguant de Dieu la loi,</l>
+	<l id='316'>De ravir la couronne et le sceptre du Roi.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='317'>Oui, nous avions au coeur une semblable envie.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='318'>Avez-vous pas usé aussi de la magie ?</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='319'>Nenni, je n'ai jamais pratiqué ce métier.</l>
+</sp>
+<sp who='PREMIER-CONSEILLER'><speaker>PREMIER CONSEILLER.</speaker>
+	<l id='320'>Et quoi osez-vous bien cette chose nier ?</l>
+	<l id='321'>La vierge parchemin, les divers caractères,</l>
+	<l id='322'>Les chiffres inconnus les simples pestifères,</l>
+<note type="L">Simples : c'est un terme général qu'on donne à toutes les herbes et plantes, parce qu'elle ont chacune leur vertu particulière pour servir d'un remède simple. [F]</note>
+	<l id='323'>Les statues de cire et maint livre secret,</l>
+	<l id='324'>Trouvez de la justice en votre cabinet ?</l>
+	<l id='325'>Ne sont-ils pas témoins du tout inréfutables,</l>
+	<l id='326'>Que vous étiez savants en ces arts détestables ?</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='327'>Nous voilà convaincus par ce seul argument.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='328'>Vous ne gagneriez rien de parler autrement.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='329'>Il est vrai, il est vrai trop hardie le confesse,</l>
+	<l id='330'>Comme une autre Saga, j'ai été la Princesse</l>
+	<l id='331'>Des malheureux forciers, qui sans aucun débat,</l>
+	<l id='332'>Fléchissaient le genoux devant moi au sabbat.</l>
+	<l id='333'>En l'âge de douze ans ma perfide nourrice,</l>
+	<l id='334'>Enclina mon esprit à ce vil exercice,</l>
+	<l id='335'>Tellement que depuis je quittai le Sauveur,</l>
+	<l id='336'>Pour avoir des démons tout support et faveur :</l>
+	<l id='337'>Puis pendant que la nuit à la robe étoilée, </l>
+	<l id='338'>Clamait tout l'univers, j'étais échevelée,</l>
+	<l id='339'>Aux bois thessaliens, sur Osse et Pelion,</l>
+<note type="L">Pélion : Montage de Thessalie en Grèce.</note>
+	<l id='340'>Pour des simples trouver à ma dévotion,</l>
+	<l id='341'>Tantôt les loups-garous j'amassais les entrailles,</l>
+	<l id='342'>De la graine de Chus, des têtes de corneilles,</l>
+	<l id='343'>Du duvet de Lanier, du myrthe paphien,</l>
+	<l id='344'>Du pavot endormant, du sable égyptien,</l>
+	<l id='345'>De l'encens masculin, des pépins de citrouilles,</l>
+	<l id='346'>Du suaire de mort, et des os de grenouilles,</l>
+	<l id='347'>De quoi en moins d'un rien je faisais par mes vers,</l>
+	<l id='348'>Pâlir le clair Titan en trembler l'univers.</l>
+	<l id='349'>Je pouvais mêmement immolant pour victime,</l>
+	<l id='350'>Aux autels de Pluton un bouc de peu d'estime,</l>
+	<l id='351'>Retirer les esprits du centre de l'enfer,</l>
+	<l id='352'>Je faisais par mes arts Hécate sembler pâle,</l>
+<note type="L">Hécate : déesse de la lune, de l'ombre et des morts dans la mythologie grecque.</note>
+	<l id='353'>Je remplissais d'horreur la contrée avernale,</l>
+	<l id='354'>Je faisais rebrousser les fleuves contre monts,</l>
+	<l id='355'>Je pouvais réchauffer un corps plus froid que glace,</l>
+	<l id='356'>Je pouvais faire ouvrir les flancs de cette masse,</l>
+	<l id='357'>Je faisais mêmement pas mes charmeurs efforts,</l>
+	<l id='358'>Les morts sembler vivants, et les vifs sembler morts :</l>
+	<l id='359'>Je pouvais des neufs cieux détacher les étoiles,</l>
+	<l id='360'>Je faisais abîmer les vaisseaux porte voiles</l>
+	<l id='361'>Voire quand je voulais battre ensemble en duel,</l>
+	<l id='362'>La terre, l'air, le mer, et les vents et le ciel.</l>
+</sp>
+<sp who='SOLON'><speaker>LE SOLON FRANÇAIS.</speaker>
+	<l id='363'>Ces actes de Satan, ces oeuvres diaboliques,</l>
+	<l id='364'>De quoi vous infectiez toutes les républiques,</l>
+	<l id='365'>Sont plus que suffisants suivant les saintes lois</l>
+	<l id='366'>Pour vous faire expose sur un bûcher de bois :</l>
+	<l id='367'>Néanmoins ne voulant balancer votre vice,</l>
+	<l id='368'>À l'implacable poids d'une rude justice,</l>
+	<l id='369'>J'ordonne que vous ayez le chef décapité,</l>
+	<l id='370'>Et que votre corps soit dedans un feu jeté.</l>
+	<l id='371'>Sus donc exécuteur, prenez cette sorcière,</l>
+	<l id='372'>Et la faites rentrer en sa prison première,</l>
+	<l id='373'>En attendant le temps que son corps soit conduit,</l>
+	<l id='374'>Au supplice apprêté pour être à rien réduit.</l>
+</sp>
+<sp who='ECXECUTEUR'><speaker>L'EXÉCUTEUR.</speaker>
+	<l id='375'>Venez Galligay voici l'heure dernière,</l>
+	<l id='376'>Que vous verrez briller du soleil la lumière,</l>
+	<l id='377'>Que vous machinerez contre notre bon roi,</l>
+	<l id='378'>Que vous mépriserez du créateur la loi,</l>
+	<l id='379'>Et que par vos brevets et votre ignorance,</l>
+	<l id='380'>vous diviserez plus le royaume de France.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Conchine, Tenebrion.</head>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='381'>Sortant du noir séjour des malheureux esprits,</l>
+	<l id='382'>je viens derechef voir ce terrestre pourpris,</l>
+	<l id='383'>Esclave de cent fers captif de mille chaînes,</l>
+	<l id='384'>Qui redoublent mes maux et accroissent mes peines,</l>
+	<l id='385'>Entre donc maintenant  par ce large circuit,</l>
+	<l id='386'>Sous la seule faveur du manteau la nuit,</l>
+	<l id='387'>Erre donc à jamais, ô ombre malheureuse !</l>
+	<l id='388'>Puante, inaccostable, impie et ténébreuse,</l>
+<note type="L">Inaccostable : Qui est fier, bourru et difficile d'accès, avec qui il est difficile de faire connaissance ou de lier conversation. [F]</note>
+	<l id='389'>Digne de supporter plus de maux et de fers,</l>
+	<l id='390'>Que ne t'en a inscrit le juge des enfers.</l>
+	<l id='391'>Et quoi osais-tu bien vivant dedans le France,</l>
+	<l id='392'>Entreprendre un dessein de si grande importance,</l>
+	<l id='393'>Toi ingrat étranger qui ainsi qu'une fleur</l>
+	<l id='394'>A vu naître et mourir, en un rien ta grandeur,</l>
+	<l id='395'>N'étais-tu pas content, dis-moi Myme profane ?</l>
+	<l id='396'>D'être un Sybaris d'un chétif Téléphane,</l>
+<note type="L">Sybaris : ville de l'Italie méridionale qui prospéra sous l'influence grecque (VIIIème siècle avant JC) puis qui déclina dans le luxe et la mollesse. Le terme sybarite est synonyme d'efféminé.</note>
+	<l id='397'>D'un pauvre Antipater d'un abject Abdolin,</l>
+	<l id='398'>Ou d'un serf d'un bouffon et cercleur de jardin;</l>
+	<l id='399'>Monté jusqu'au sommet d'une si belle grade,</l>
+	<l id='400'>Nenni mais je voulais surpassant Encelade,</l>
+	<l id='401'>Et les autres Titans en furie et orgueil,</l>
+	<l id='402'>Mon roi faire descendre au profond d'un cercueil :</l>
+	<l id='403'>Toutefois l'Éternel rempli de providence,</l>
+	<l id='404'>Oeilladant mon orgueil, mon coeur, mon indolence,</l>
+	<l id='405'>Toucha le coeur du roi lequel en un moment,</l>
+	<l id='406'>Donna de m'arrêter exprès commandement,</l>
+	<l id='407'>Mais ne voulant céder à sa juste ordonnance,</l>
+	<l id='408'>Je fus renversé mort par mon outrecuidance,</l>
+	<l id='409'>Peu après mon épouse et ceux que j'ai aimés,</l>
+	<l id='410'>Furent dans la Bastille avec droit enfermés,</l>
+	<l id='411'>Pour découvrir  au roi et à son conseil même,</l>
+	<l id='412'>Le mystère secret de mon fin stratagème :</l>
+	<l id='413'>Pourquoi dans Quilleboeuf je faisais travailler,</l>
+<note type="L">Quilleboeuf : [Quillebeuf] commune de Normandie sur la Seine en amont du dernier méandre du fleuve.</note>
+	<l id='414'>Pourquoi plusieurs châteaux je faisais manteler,</l>
+<note type="L">Manteler : terme de blason, dans le sens de construire ou renforcer les défenses.</note>
+	<l id='415'>Pourquoi dedans Rouen comme souverain maître,</l>
+	<l id='416'>Je voulais sans sujet plusieurs garnisons mettre,</l>
+	<l id='417'>Et bref pourquoi ingrat des trésors de mon roi,</l>
+	<l id='418'>J'acquerais des français la faveur et la foi.</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='419'>Iô courage Enfer ! La victoire est acquise,</l>
+	<l id='420'>C'est ce jour que l'on doit décoller la marquise,</l>
+	<l id='421'>Et devant le public jeter dedans les feux,</l>
+	<l id='422'>Par un très saint arrêt, son vil corps odieux,</l>
+	<l id='423'>Au ciel aux étrangers, aux français à la France,</l>
+	<l id='424'>Et à ceux qui avaient de ses arts connaissance,</l>
+	<l id='425'>Mais voici son époux je l'en veux avertir,</l>
+	<l id='426'>Non, de l'en imbuer je me veux divertir,</l>
+<note type="L">Imbuer : verbe construit sur le mot "imbue" qui signifie imbibé.</note>
+	<l id='427'>Il m'en saurait mal gré et peut-être de rage,</l>
+	<l id='428'>Il me voudrait courir la moitié du visage,</l>
+	<l id='429'>Mais vienne qui pourra je vais lui réciter.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='430'>Et bien Ténébrion que viens-tu m'apporter ?</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='431'>Je vous viens annoncer des nouvelles fatales.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='432'>Comment ma Léonor de France maréchale,</l>
+	<l id='433'>Exposée au public a-t-elle fait le saut ?</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='434'>Nenni, nenni encore, mais guère ne s'en faut.</l>
+	<l id='435'>Car j'ai ouï dans le Cour un bruit qu'elle est jugée.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='436'>La France par sa mort sera de nous vengée,</l>
+	<l id='437'>Mais par quelle mort doit-elle ici prendre son vol ?</l>
+	<l id='438'>L'exécuteur lui doit premier couper le col,</l>
+	<l id='439'>Puis faisant sa carcasse à un de ses gens pendre,</l>
+	<l id='440'>Il la doit dans le feu faire réduire en cendre.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='441'>Mais quoi pour sa magie et par son vil péché,</l>
+	<l id='442'>Dites-moi mon ami n'est-ce pas bon marché ?</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='443'>Oui, certes, et pour moi j'estimais que son vice,</l>
+	<l id='444'>Se verrait expié d'un plus cruel supplice.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='445'>La Cour lui a usé en cela la faveur</l>
+	<l id='446'>N'ignorant que la honte et le grand déshonneur,</l>
+	<l id='447'>Qu'elle endure mourant au lieu patibulaire,</l>
+<note type="L">Patibulaire : Qui appartient au gibet. [F]</note>
+	<l id='448'>Lui est plus que cent morts vigoureux et contraires.</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='449'>Si elle eut cru ramer au havre de la mort,</l>
+	<l id='450'>Des lacts de ses rubens elle se fut fait tort.</l>
+<note type="C">Lacts : sans doute équivalent à lacet.</note>
+<note type="L">Ruben : [ruban] un ruben de tête de quoi les femmes entortillent leurs chapeaux. (Dict. Nicot 1606)</note>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='451'>Elle avait pour ce coup l'âme trop généreuse.</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='452'>Jamais femme ne fut de la mort tant peureuse.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='453'>Si tu devais mourir tu n'aurais moins de peur.</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='454'>La mort ne peut tromper un si subtil trompeur,</l>
+	<l id='455'>Puis d'ailleurs de par nous la mort domine le monde.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='456'>Fais-moi Ténébrion du Styx esquiver l'onde,</l>
+	<l id='457'>Et me portant sur toi, fais-moi le jour revoir.</l>
+</sp>
+<sp who='TENEBRION'><speaker>TÉNÉBRION.</speaker>
+	<l id='458'>De céder à tes voeux je n'ai pas le pouvoir :</l>
+	<l id='459'>Puis il faut d'ifs semer notre contrée,</l>
+<note type="L">If : grand arbre qui est toujours vert, et dont on ornait autrefois les mausolées et pompes funèbres, aussi bine que le cyprès. [F]</note>
+	<l id='460'>Pour quand ta Léonor y fera son entrée.</l>
+</sp>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='461'>Je te veux assister, car au lieu de tombeau,</l>
+	<l id='462'>L'Enfer lui doit offrir ce qu'il a de plus beau.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Galligay, Premier docteur, Second Docteur, Exécuteur.</head>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='463'>Ô Vaine ambition ! Ô téméraire envie !</l>
+	<l id='464'>Me voilà au zénith de la fin de ma vie.</l>
+	<l id='465'>Me voilà jà penchant au centre du tombeau,</l>
+	<l id='466'>Le sinistre ornement d'un malheureux couteau :</l>
+	<l id='467'>Non moins digne pourtant de la mort temporelle,</l>
+	<l id='468'>Que mon indigne esprit de la gêne éternelle :</l>
+	<l id='469'>Quel châtiment pourra mon péché égaler,</l>
+	<l id='470'>Quel repentir pourra mon offense exceller.</l>
+	<l id='471'>Je vais, je vais mourir, mais l'être de ma vie</l>
+	<l id='472'>De celle de la mort devait être suivie,</l>
+	<l id='473'>Car le jour qui naissant me fut le jour premier,</l>
+	<l id='474'>Me devait pour mon bien être aussi le dernier,</l>
+	<l id='475'>Pour le moins à présent d'un langard populaire</l>
+<note type="L">Langard : celui qui ne tient rien de secret et dit tout. (Dict. Nicot, 1606)</note>
+	<l id='476'>Triste je ne serais, la fable et l'exemplaire,</l>
+	<l id='477'>Ainsi comme je suis, et mes humides yeux,</l>
+	<l id='478'>Ne verraient m'apprêter un supplice odieux,</l>
+	<l id='479'>Mais c'est fait il ne faut désormais que ma langue,</l>
+	<l id='480'>Pour allonger ma vie allègue des harangues,</l>
+	<l id='481'>Il suffit seulement qu'elle m'aille servant,</l>
+	<l id='482'>À déceler les arts dont j'allais décevant,</l>
+	<l id='483'>Les Argus plus voyant du Royaume de France,</l>
+<note type="L">Argus : monstre de la mythologie grecque ayant cent yeux, Héra lui demanda de garder Io transformée en génisse. Hermès l'endormit au son de sa flute. Il fut tranformé en paon suite à son échec. (Ovide, Métamorphoses. I, 606)</note>
+	<l id='484'>Vous mes yeux servez moi à laver mon offense,</l>
+	<l id='485'>Vous mon coeur pour le peu que j'ai à respirer,</l>
+	<l id='486'>Faites-moi mes malheurs et mon mal soupirer,</l>
+	<l id='487'>Puisque mon corps la base et l'égout de tout vice,</l>
+	<l id='488'>Doit servir de spectacle à ce juste supplice,</l>
+	<l id='489'>Mais éclusons ses pleurs, étouffons ces soupirs,</l>
+	<l id='490'>Qui s'envolent en l'air sur l'aile des zéphirs,</l>
+	<l id='491'>La mort hâte mes pas, la nuit presse ma vie,</l>
+	<l id='492'>Se voyant par le ciel d'un noir manteau suivie,</l>
+	<l id='493'>Adieu donc pour jamais Phénix des autres rois,</l>
+	<l id='494'>Adieu donc pour jamais grand royaume français,</l>
+	<l id='495'>Où j'ai jadis régné en tout si absolue,</l>
+	<l id='496'>Que j'étais des petits et des grand mal voulues.</l>
+</sp>
+<sp who='PREMIER-DOCTEUR'><speaker>PREMIER DOCTEUR.</speaker>
+	<l id='497'>Ne songez plus madame, à ce terrestre lieu,</l>
+	<l id='498'>Tenez les yeux au ciel, retournez vous à Dieu,</l>
+	<l id='499'>Qui seul vous veut garder de l'infernale flamme,</l>
+	<l id='500'>Et ôter la noirceur qui enlaidit votre âme,</l>
+	<l id='501'>Il ne faut plus pleurer il ne faut plus gémir,</l>
+	<l id='502'>Il ne faut sangloter il ne faut point blêmir,</l>
+	<l id='503'>Mais il vous faut mourant paraître aussi constante</l>
+	<l id='504'>Que vous avez été à faire mal vaillante.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='505'>Monsieur, la pâle mort n'aura point le pouvoir,</l>
+	<l id='506'>De me faire manquer à mon juste devoir,</l>
+	<l id='507'>Car encore que mon mal soit quasi sans remède,</l>
+	<l id='508'>Le regret que j'en ai en moi même l'excède,</l>
+	<l id='509'>Tant qu'en priant mon Dieu avant mon châtiment,</l>
+	<l id='510'>J'espère parvenir au divin firmament,</l>
+	<l id='511'>Car vous n'ignorez pas que Dieu peut plus remettre</l>
+	<l id='512'>D'offenses et péchés qu'on n'en saurait commettre.</l>
+</sp>
+<sp who='SECOND-DOCTEUR'><speaker>SECOND DOCTEUR.</speaker>
+	<l id='513'>N'ayez donc maintenant d'autre soin ni souci</l>
+	<l id='514'>Que de lui demander d'un coeur dévot merci,</l>
+	<l id='515'>Il est à tous capable et ne met en arrière</l>
+	<l id='516'>Des pécheurs plains d'horreur la tremblante prière,</l>
+	<l id='517'>Mais va ouvrant les bras et donne du secours</l>
+	<l id='518'>À celui qui le prie à la fin de ses jours.</l>
+</sp>
+<sp who='PREMIER-DOCTEUR'><speaker>PREMIER DOCTEUR.</speaker>
+	<l id='519'>Ayez toujours les yeux vers la voûte étoilée.</l>
+</sp>
+<sp who='ECXECUTEUR'><speaker>L'EXÉCUTEUR.</speaker>
+	<l id='520'>Ne désirez-vous pas, Madame, être voilée.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='521'>Mon ami permets-moi que sans bander mes yeux</l>
+	<l id='522'>Je fasse ma prière au Créateur des cieux,</l>
+	<l id='523'>N'éclipse point encore la clarté de ma vie,</l>
+	<l id='524'>De ton fer inhumain car j'ai au coeur envie</l>
+	<l id='525'>Avant que de quitter ce terrestre élément</l>
+	<l id='526'>De donner à mon fils quelque admonestement.</l>
+<note type="L">Admonestement : de Admonstrer, terme de Palais. Faire une correction en jusitce. [F]</note>
+</sp>
+<sp who='ECXECUTEUR'><speaker>L'EXÉCUTEUR.</speaker>
+	<l id='527'>Parlez tout à loisir je vous jure Madame,</l>
+	<l id='528'>De n'exercer sur vous le devoir de ma lame,</l>
+	<l id='529'>Que quand vous en aurez au coeur à volonté.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='530'>Ô Soleil nous voici pareils en qualité,</l>
+	<l id='531'>Tu vas noyer tes feux dans le centre de l'onde,</l>
+	<l id='532'>Et moi je vais quitter les plaisirs de ce monde,</l>
+	<l id='533'>De vrai pour n'être plus tu ne me quitte pas,</l>
+	<l id='534'>Mais pour n'être jamais je m'en vais au trépas,</l>
+	<l id='535'>Arrête toutefois à ma triste prière</l>
+	<l id='536'>Ton pénible Phlégmon, ton char et ta lumière,</l>
+	<l id='537'>Pour comme tu me vis naître dans l'univers,</l>
+	<l id='538'>Me voir finir mes jours d'un vigoureux revers</l>
+	<l id='539'>Toi sauveur qui me sauve au milieu de ma perte,</l>
+	<l id='540'>Tu as seul décelé mon emprise couverte,</l>
+	<l id='541'>Afin qu'en recevant un juste châtiment,</l>
+	<l id='542'>Je n'eusse pour guerdon un éternel tourment,</l>
+<note type="L">Guerdon : Vieux mot qui signifie, récompense ou salaire de quelque travail ou bon office qu'on a rendu. [F]</note> 
+	<l id='543'>Ô heureux châtiment, ô mort bine peu cruelle,</l>
+	<l id='544'>Puisque tu n'as le nom de la mort éternelle,</l>
+	<l id='545'>Et que par toi je vais revivre dans le ciel,</l>
+	<l id='546'>Délaissant des mondains et du monde le fiel,</l>
+	<l id='547'>Recevez donc mon âme, ô soleil de justice</l>
+	<l id='548'>Que je vais immolant pour expier mon vice,</l>
+	<l id='549'>Encor que sans laver mes péchés en mon sang,</l>
+	<l id='550'>Le vôtre pur et saint soit plus que très puissant</l>
+	<l id='551'>Pour effacer mon mal et nettoyer l'offense</l>
+	<l id='552'>Que j'ai faite en vivant devant votre présence,</l>
+	<l id='553'>Vous mon fils bien aimé par un gauche destination</l>
+	<l id='554'>De renom et de biens je vous laisse orphelin,</l>
+	<l id='555'>Toutefois pour avoir la faveur opportune,</l>
+	<l id='556'>N'allez jamais tentant le sort de la fortune,</l>
+	<l id='557'>Car si ainsi que vous vous êtes ambitieux,</l>
+	<l id='558'>Vous ne vivrez longtemps sous la chape des cieux,</l>
+	<l id='559'>Toi seigneur immortel auteur de tant de choses,</l>
+	<l id='560'>Créateur incréé cause de toutes causes,</l>
+	<l id='561'>Principe de ce tout qui peux ce que tu peux,</l>
+	<l id='562'>Exauce ce jourd'hui ma prière et mes voeux,</l>
+	<l id='563'>Efface mes péchés seconde mon envie,</l>
+	<l id='564'>Et me donne en la mort une immortelle vie.</l>
+</sp>
+<sp who='PREMIER-DOCTEUR'><speaker>PREMIER DOCTEUR.</speaker>
+	<l id='565'>N'abjurez vous pas même en la fin de vos jours</l>
+	<l id='566'>Les démons qui souvent vous prêtaient leur secours.</l>
+</sp>
+<sp who='GALLIGAY'><speaker>GALLIGAY.</speaker>
+	<l id='567'>Oui, je vais abjurant l'enfer et les complices</l>
+	<l id='568'>Qui m'ont fait enfanter dix mille maléfices,</l>
+	<l id='569'>Dont je demande à Dieu au roi Louis pardon,</l>
+	<l id='570'>Et aux princes sortis du beau sang des Bourbon ;</l>
+	<l id='571'>C'est assez discouru ami fais ton office</l>
+	<l id='572'>Puisque j'ai mérité cent fois ce doux supplice.</l>
+</sp>
+<sp who='SECOND-DOCTEUR'><speaker>SECOND DOCTEUR.</speaker>
+	<l id='573'>Élevez votre esprit devers le firmament.</l>
+</sp>
+<sp who='ECXECUTEUR'><speaker>L'EXÉCUTEUR.</speaker>
+	<l id='574'>Recevez de vos maux doncques le paiement,</l>
+	<l id='575'>Sus, sus, montez en haut et venez ce corps prendre</l>
+	<l id='576'>Pour le jetant au feu le consommer en cendre.</l>
+</sp>
+<sp who='SECOND-DOCTEUR'><speaker>SECOND DOCTEUR.</speaker>
+	<l id='577'>Retirons nous Monsieur puisqu'avec gravité</l>
+	<l id='578'>Nous voyons de la Cour l'arrêt exécuté.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. L'ombre de Conchine et l'ombre de Galligay.</head>
+<sp who='CONCHINE'><speaker>CONCHINE.</speaker>
+	<l id='579'>Puisque de cent tourments mon âme est traversée,</l>
+	<l id='580'>Que n'ai-je exécuté ma maudite pensée,</l>
+	<l id='581'>Que n'ai-je à mon désir Quilleboeuf achevé,</l>
+	<l id='582'>Que n'ai-je en Normandie et Rouen esclavé,</l>
+	<l id='583'>Que n'ai-je ruiné de France les provinces,</l>
+	<l id='584'>Que n'ai-je le fait meurtrir injustement les Princes,</l>
+	<l id='585'>Que n'ai je subjugué le sceptre de mon roi,</l>
+	<l id='586'>Que n'ai-je en l'univers autorisé ma loi,</l>
+	<l id='587'>Que n'ai-je ensanglanté la rivière de Seine,</l>
+	<l id='588'>Que n'ai-je des français jonché toute la plaine,</l>
+	<l id='589'>Bref que n'ai-je en un coup d'un barbare couteau</l>
+	<l id='590'>Mis la France et son peuple en un même tombeau :</l>
+	<l id='591'>He je l'aurais voulu, hé j'aurais en moi-même </l>
+	<l id='592'>Éclos et arrêté ce sanglant stratagème,</l>
+	<l id='593'>Mais l'Argus immortel, mais le Dieu souverain</l>
+	<l id='594'>A réduit à néant mon perfide dessein,</l>
+	<l id='595'>Dessein si odieux et si cruel en somme,</l>
+	<l id='596'>Que le pareil jamais n'eut place en aucun homme,</l>
+	<l id='597'>De vrai homme jamais n'acquit sous les cieux</l>
+	<l id='598'>Plus que moi détestable ingrat et odieux,</l>
+	<l id='599'>Mais changeant de propos hé quelle ombre chétive</l>
+	<l id='600'>Est-ce là que je vois le long d cette rive,</l>
+	<l id='601'>N'est-ce point Perséphone ou l'hideuse Alecton,</l>
+	<l id='602'>Mégère ou Proserpine épouse de Pluton,</l>
+	<l id='603'>Nenni celle n'eut point des trois Parques affreuses</l>
+	<l id='604'>Qui gênent de leurs fléaux les âmes malheureuses,</l>
+	<l id='605'>C'est plutôt quelque esprit qui a quitté le jour</l>
+	<l id='606'>Pour venir faire ici son douloureux séjour.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='607'>Comment mon cher époux, comment mon cher Conchine</l>
+	<l id='608'>Argument de ma perte auteur de ma ruine,</l>
+	<l id='609'>Est-ce là le guerdon, les attraits et l'appas</l>
+	<l id='610'>De quoi vous désirez revancher mon trépas.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='611'>Excusez-moi mon coeur votre idée difforme</l>
+	<l id='612'>Me faisant oublier votre première forme,</l>
+	<l id='613'>M'a engendré aussi ce méconnaissement</l>
+	<l id='614'>Ainsi que vous pouvez reonnaître aisément.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='615'>Je vous en crois mon fils sans autre témoignage.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='616'>Qui vous a fait venir sur ce maigre rivage.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='617'>Celui qui à Paris guérit du mal des dents.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='618'>Que nous sommes sujets à beaucoup d'accidents,</l>
+	<l id='619'>Et quoi donc vous avez été décapitée.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='620'>Oui et morte en après dedans un feu jetée.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='621'>C'était pour vous tenir un peu plus chaudement</l>
+	<l id='622'>Que le Cour vous a fait bailler ce châtiment.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='623'>Le peuple a mis ma cendre en après dans la Seine.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='624'>Je me plains de cela car j'aurai de la peine</l>
+	<l id='625'>À retrouver nos os ça et là dispersés</l>
+	<l id='626'>Quand Dieu réveillera les peuples trépassés.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='627'>On aura de la peine à les rejoindre ensemble</l>
+	<l id='628' part='i'>Ayant été brulés.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='628' part='f'>C'est cela qui me semble,</l>
+	<l id='629'>Mais vous ne parlez point de notre pauvre fils.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='630'>Il erre maintenant chétif par le pays</l>
+	<l id='631'>Étant désanobli au Royaume de France.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='632'>Encore est-ce pour nous quelque réjouissance</l>
+	<l id='633'>De ce qu'il n'a suivi notre fatal chemin.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='634'>Le Roi lui a été toujours doux et bénin.</l>
+</sp>
+<sp who='OMBRE-de-CONCHINE'><speaker>L'OMBRE de CONCHINE.</speaker>
+	<l id='635'>C'est assez discouru suivez moi Léonore,</l>
+	<l id='636'>Il faut passer à gué cet infecté Bosphore,</l>
+	<l id='637'>Et puis nuis parviendrons au Palais de Pluton,</l>
+	<l id='638'>Où vos fidèles soeurs Mégère et Alecton,</l>
+	<l id='639'>Et tous les escadrons de la noire contrée</l>
+	<l id='640'>Désirent honorer votre célèbre entrée.</l>
+</sp>
+<sp who='OMBRE-de-GALLIGAY'><speaker>L'OMBRE de GALLIGAY.</speaker>
+	<l id='641'>Non, non, Conchine, non, avant que d'entrer céans,</l>
+	<l id='642'>Suivant l'Antiquité je dois être cent ans</l>
+	<l id='643'>Partout cet univers errant à l'aventure,</l>
+	<l id='644'>N'ayant eu à ma fin tombeau ni sépulture.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Grand Pan Français, Léontine , Aymelis, Almidor, Argente, Lucidor.</head>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='645'>Quelles harpes, quels luths mariés à nos voix,</l>
+	<l id='646'>Chanteront maintenant l'honneur du roi des Rois</l>
+	<l id='647'>Dont le bras redouté et la sainte puissances</l>
+	<l id='648'>Favorisant nos voeux à délivrer le France</l>
+	<l id='649'>D'un Busire inhumain qui voulait insolent</l>
+<note type="L">Busire : [busiris] roi cruel d'Egypte, tué par Héraclès [Hercule] (Ovide, Métamophoses, IX, 182).</note>
+	<l id='650'>Empiéter mon État d'un orgueil violent,</l>
+	<l id='651'>Mais qui pourrait jamais assez donner de gloire</l>
+	<l id='652'>Au sauveur immortel auteur de ma victoire,</l>
+	<l id='653'>Qui fait d'un Goliath l'arrogance abaisser,</l>
+	<l id='654'>Pour un petit David saintement exaucer.</l>
+<note type="L">Goliath : personnage biblique, géant qui fut vaincu par David.(Bible, Premier livre de Samuel, chap. 17)</note>
+</sp>
+<sp who='LEONTINE'><speaker>LÉONTINE.</speaker>
+	<l id='655'>Quand tout le monde ensemble aurait joint la sagesse</l>
+	<l id='656'>Pour bénir su Seigneur la divine hautesse,</l>
+<note type="L">Hautesse : titre d'honneur qu'on donne en ses quartiers aux Empereurs d'Orient. [F]</note>
+	<l id='657'>Si est-ce toutefois que ses soeurs amassées </l>
+	<l id='658'>Et ces diverses voix ne seraient pas assez,</l>
+	<l id='659'>Car ce coup fut si grand que sans aucun obstacle</l>
+	<l id='660'>Ce fut pour les Français et la France un miracle.</l>
+</sp>
+<sp who='AYMELYS'><speaker>AYMELYS.</speaker>
+	<l id='661'>La France est bienheureuse et les Français heureux</l>
+	<l id='662'>De n'alimenter plus ses hydres venimeux.</l>
+<note type="L">Hydre : monstre de a mythologie grecque possédant plusieurs têtes, Héraclès le terrassa, ce fut l'un de ses douze travaux. </note>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='663'>J'en dois à l'Éternel un immortel Cantique.</l>
+</sp>
+<sp who='ALMIDOR'><speaker>ALMIDOR.</speaker>
+	<l id='664'>Ils eussent remis Franc en un chaos antique.</l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='665'>Pâris le pastoureau fut le fatal tison</l>
+<note type="L">Pâris : prince troyen qui enleva Hélène, ce qui déclencha la guerre de Troie selon Homère.</note>
+	<l id='666'>Qui brûla le Pergame et les murs d'Illion,</l>
+	<l id='667'>Mais ce lâche Thersite empoulé d'arrogance</l>
+<note type="L">Thersite : guerrier achéen de la guerre de Trois; Homère le décrit comme laid, insolent, menteur et railleur. Il est tué par Achille.</note>
+	<l id='668'>Eût été le tison de Paris et de France.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='669'>Si,l'ange qui me garde et le bon Saint-Denis</l>
+	<l id='670'>N'y eussent mis la main, nos invincibles lys</l>
+	<l id='671'>Eussent flétri leur teint sous ce grondant orage</l>
+	<l id='672'>Qui me menaçait jà d'un éternel naufrage.</l>
+</sp>
+<sp who='LUCIDOR'><speaker>LUCIDOR.</speaker>
+	<l id='673'>Ce mutin ignorait l'exemple d'un Aman,</l>
+	<l id='674'>Le Plaute, de Morus, d'Alvare, de Séjan,</l>
+<note type="L">Séjan : consul romain du Ier siècle, mort en octobre 31 (voir Suétone, Vie de Tibère).</note>
+	<l id='675'>De Guast, de Marigny, et de mille infidèles</l>
+	<l id='676'>Qui furent chassés comme traîtres rebelles.</l>
+</sp>
+<sp who='AYMELIS'><speaker>AYMELIS.</speaker>
+	<l id='677'>Leur exemple notable et leur impiété</l>
+	<l id='678'>Sera vue à jamais de la postérité.</l>
+</sp>
+<sp who='LEONTINE'><speaker>LÉONTINE.</speaker>
+	<l id='679'>Quand on aurait vu que leurs livres magiques,</l>
+	<l id='680'>Leurs statues de cire et cahiers judaïques</l>
+	<l id='681'>Auxquels ils apprenaient dix mille absurdités,</l>
+	<l id='682'>Ils devaient dans le feu tous vifs être jetés.</l>
+</sp>
+<sp who='ALMIDOR'><speaker>ALMIDOR.</speaker>
+	<l id='683'>Quand il n'y aurait eu que les intelligences</l>
+	<l id='684'>Qu'ils machinaient avec les ennemis de France;</l>
+	<l id='685'>Ils étaient atteints de lèse-majesté.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='686'>Je n'ignore que d'eux la moindre impiété</l>
+	<l id='687'>Méritait justement éprouver cent supplices,</l>
+	<l id='688'>Mais je ne veux donner la mort égale aux vices.</l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='689'>Ainsi Henri le grand votre preux géniteur,</l>
+<note type="L">Henri : il s'agit d'Henri IV, près de Louis XIII, assassiné en 1610.</note>
+	<l id='690'>Mariait la justice avecque la douceur.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='691'>C'est la gloire d'un roi quand sans être sévère</l>
+	<l id='692'>Il est fléau des mauvais et des humbles le père.</l>
+</sp>
+<sp who='LUCIDOR'><speaker>LUCIDOR.</speaker>
+	<l id='693'>Le roi a fait cet acte apparaître en Conchine</l>
+	<l id='694'>Qui voulait de la France et de nous la ruine.</l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='695'>Son nom aussi sera pour ce plus renommé</l>
+	<l id='696'>Qu'on n'a jamais Achille et César estimé,</l>
+	<l id='697'>Votre Pompée le Grand, Auguste et Alexandre,</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='698'>De cela à Dieu seule honneur on en doit rendre.</l>
+</sp>
+<sp who='ALMIDOR'><speaker>ALMIDOR.</speaker>
+	<l id='699'>Il n'importe pourtant un Louis de Bourbon,</l>
+<note type="L">Louis de bourbon : Louis XIII (1601-1643) fils d'Henri IV (1553-1610) et père de Louis XIV (1638-1715).</note>
+	<l id='700'>De tout siècle aura la gloire et le renom.</l>
+</sp>
+<sp who='GRAND-PAN-FRANCAIS'><speaker>LE GRAND PAN FRANCAIS.</speaker>
+	<l id='701'>C'est ici trop tardé allons d'ardeur bellique</l>
+<note type="L">Ardeur bellique : dans le sens « ardeur belliqueuse » qui cherche le querelle, la guerre.</note>
+	<l id='702'>Manier un cheval, ébranler une pique,</l>
+	<l id='703'>Faire quelque surprise un assaut inventer,</l>
+	<l id='704'>Pour au métier de Mars nous expérimenter.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

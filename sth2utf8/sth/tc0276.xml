@@ -1,0 +1,2827 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LOTHAIRE, ROI DE LORRAINE, TRAGÉDIE</title>
+				<author born='1738' born_location='Paris' death='1820' death_location='Paris' academie=''>GUDIN de la BRENELLERIE, Paul-Philippe</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, septembre 2013</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire française</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1751-1760</periode>
+				<taille>1500-1750</taille>
+				<permalien></permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">LOTHAIRE et VALRADE</titlePart>
+			<titlePart type="sub">OU LE ROYAUME MIS EN INTERDIT.</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1759'>M DC. XCV.</docDate>
+		<docAuthor id='GUDIN de la BRENELLERIE, Paul-Philippe' bio='boyer'>Par GUDIN de la BRENELLERIE.</docAuthor>
+		<docImprint>
+			<privilege id=""></privilege>
+			<acheveImprime id=""></acheveImprime>
+	<printer id=''>À GENÈVE.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='1768' location='(inconnu)'>Représenté pour la première fois en 1768.</premiere>
+		</performance>
+<preface>
+<head>AVERTISSEMENT.</head>
+<p>La personne des Rois n'est pas moins sacrée que celle des Papes : Le ministère des évêques n'est pas plus saint que celui du grand prêtre des Juifs ; cependant on représente ce grand prêtre sur le théâtre ; on y met les Rois. Dans les pièces républicaines on s'élève contre le pouvoir monarchique avec autant de hardiesse que si elles ne devaient être représentées que dans des républiques. Aucun roi ne s'est abaissé jusqu'à blâmer cette liberté, jusqu'à trouver mauvais qu'on appelle ses prédécesseurs tyrans, et qu'on leur donne la mort. Si donc quelque âme plus pieuse qu'éclairée, et qui surtout ne connaitrait point le théâtre, se trouvait scandalisée de quelques vers qui semblent blâmer l'ambition du Clergé, qu'elle lise dans l'Histoire de l'Église, ou dans celle des Papes, les lettres de Philippe le Bel à Boniface VIII et la bulle de Clément VI à Louis de Bavière datée du 13 Avril 1346. Elle apprendra que loin de fortifier les caractères et les expressions selon l'usage de tous les auteurs dramatiques, on s'est cru obligé de les affaiblir, de rester bien au dessous de la vérité, et de ne pas faire dialoguer Arsène et Lothaire avec la même énergie que les Empereurs et les Papes s'écrivaient.</p>
+<p>Le Public demande des nouveautés ; il est las de voir représenter les mêmes choses sous cent titres différents. Les déclarations d'amour, les conjurations, les pères prêts à tuer leurs fils, ou les fils prêts à tuer leurs pères et arrêtés par une reconnaissance, sont devenus des lieux communs ; c'est ce qui a obligé un auteur à prendre pour ses personnages les solitaires de la Trappe ; les derniers venus ne trouvent que ce qu'on leur a laissé : et le devoir de tout artiste est de reculer les bornes de son art et de tenter des entreprises nouvelles. C'est surtout rappeler la Tragédie à sa première institution, à ses véritables principes, que de mettre sur la Scène les grands évènements de l'histoire, que d'y peindre des moeurs réelles, et d'y marquer l'esprit qui caractérise chaque siècle.</p>
+</preface>
+<castList>
+<head>ACTEURS</head>
+				<castItem><role id='LOTHAIRE' civil='M' type="H" statut="roi" age="A" stat_amour='néant'>LOTHAIRE</role>, Roi de Lorraine.</castItem>
+				<castItem><role id='RAIMOND' civil='M' type="H" statut="duc" age="A" stat_amour='néant'>RAIMOND</role>, Duc Souverain d'Aquitaine.</castItem>
+				<castItem><role id='EMRÈNE' civil='M' type="H" statut="roi" age="A" stat_amour='néant'>EMIRENE</role>, épouse de Lothaire, mais répudiée.</castItem>
+				<castItem><role id='VALRADE' civil='M' type="H" statut="roi" age="A" stat_amour='néant'>VALRADE</role>, épouse de Lothaire.</castItem>
+				<castItem><role id='ARSÈNE' civil='M' type="H" statut="Légat du Pape" age="A" stat_amour='néant'>ARSÈNE</role>, Légat du Pape.</castItem>
+				<castItem><role id='GONTIER' civil='M' type="H" statut="officier" age="A" stat_amour='néant'>GONTIER</role>, Officier de Lothaire.</castItem>
+				<castItem><role id='MORANGE' civil='F' type="H" statut="suivante" age="A" stat_amour='néant'>MORANGE</role>, femme de la suite de Valrade.</castItem>
+				<castItem><role id='GARDES' civil='G' type="H" statut="soldat" age="A" stat_amour='néant'>GARDES</role>.</castItem>
+				<castItem><role id='LE PEUPLE' civil='G' type="H" statut="peuple" age="A" stat_amour='néant'>LE PEUPLE</role>.</castItem>
+				<castItem><role id='PRÊTRES' civil='G' type="H" statut="prêtre" age="A" stat_amour='néant'>PRÊTRES</role>.</castItem>
+</castList>
+<set location='Metz' country='France' periode='XIVème' link=''>La scène est à Metz dans le palais de Lothaire.</set> 
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIERE. Lothaire, Raimons, Gontier, et quelques officiers de Lothaire.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1'>Ces timides conseils ne sont pas faits pour moi.</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='2' part='i'>Préférez-vous la mort ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='2' part='f'>Oui, mourons, mais en roi.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='3' part='i'>Roi, sauvez votre peuple.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='3' part='f'>Ami, sauve ma gloire.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='4' part='i'>Fuyez donc une amante.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='4' part='m'>Eh quoi !</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='4' part='f'>Daignez nous croire.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='5'>Je retiendrai Valrade, en dussai-je périr.</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='6' part='i'>Seigneur...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='6' part='m'>Obéissez.</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='6' part='f'>Ce serait vous trahir.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='7' part='i'>Osez-vous ?</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='7' part='f'>Mais songez qu'en ce péril extrême....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='8'>N'importe : je le veux. Allez ; à l'instant même</l>
+	<l id='9'>Que l'on ferme ces murs., qu'on soit prêt aux combats ;</l>
+	<l id='10'>Je m'abandonne au sort, je me voue au trépas.</l>
+	<l id='11'>Qu'on éloigne surtout cotte femme inhumaine,</l>
+	<l id='12'>Qui se dit mon épouse, et se croit votre reine :</l>
+	<l id='13'>Que ce prélat guerrier qui ravit mes états,</l>
+	<l id='14'>Dans les remparts de Metz ne porte point ses pas.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='15'>Mais vous avez promis de terminer la guerre.</l>
+	<l id='16' part='i'>Ce traité.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='16' part='m'>Je le romps.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='16' part='f'>Il est trop nécessaire. </l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='17' part='i'>Il m'est trop odieux.</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='17' part='f'>Il conserve vos jours.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='18'>Je préfère la mort à son fatal secours.</l>
+	<l id='19'>Mais j'entends vos refus ; Quand rien ne peut m'abattre,</l>
+	<l id='20'>Sous mes tristes drapeaux vous craignes de combattre ;</l>
+	<l id='21'>Les menaces de Rome épouvantent vos coeurs.</l>
+	<l id='22'>Eh bien, faibles amis, comblez tous mes malheurs ;</l>
+<note type='L'>Anathème : Excommunication, qui se dit proprement chez les auteurs eccélsiastiques. Se dit figurément pour des exclusions, et des malédictions prononcées par des particuliers qui chassent ou qui détestent quelqu'un. [F]</note>
+	<l id='23'>Quittez moi pour ce prêtre, et fuyant l'anathème,</l>
+	<l id='24'>Livrez à ce pontife et Valrade et moi-même.</l>
+</sp>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='25'>Avant de vous trahir nous recevrons la mort.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND, aux officiers.</speaker>
+	<l id='26'>Allez, fermez ces murs, cédons à son transport.</l>
+	<l id='27'>Laissez-moi lui parler ; il faut fléchir son âme,</l>
+	<l id='28'>Et sauver cet état qu'il immole à sa flamme.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Lothaire, Raimond.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='29'>Ainsi tout se révolte ; et toi, Raimond, et toi,</l>
+	<l id='30'>Tu te joins avec eux, tu les sers contre moi.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='31'>Prince, on vous obéit ; mais moi loin d'y souscrire....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='32'>Ah courons à Valrade, allons, il faut lui dire,</l>
+	<l id='33'>Que rien de ses attraits ne me peut éloigner.  </l>
+	<l id='34'>Que ce traité fatal, que tu m'as fait signer,</l>
+	<l id='35'>Ne s'accomplira pas ; qu'il est rompu pour elle.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='36'>Allez : mais ajoutez qu'au seul amour fidèle,</l>
+	<l id='37'>Sans pitié, dans le sang baignant vos bras cruels,</l>
+	<l id='38'>Et cédant, sans remords, à vos feux criminels,</l>
+	<l id='39'>Vous livrez au carnage un peuple qui vous aime ;</l>
+	<l id='40'>Que vous sacrifiez vos amis et vous même,</l>
+	<l id='41'>Non pour sauver ses jours, vous ne l'espérez pas,</l>
+	<l id='42'>Mais pour l'abandonner elle-même au trépas,</l>
+	<l id='43'>Pour la livrer mourante aux mains de sa rivale.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='44'>Ma rage à mes tyrans sera du moins fatale.</l>
+	<l id='45'>Nous mourrons, je le sais, mais peut-être ma main</l>
+	<l id='46'>De mes persécuteurs déchirera le sein.</l>
+	<l id='47'>C'est mon dernier espoir. — Sois sûr que si la crainte</l>
+	<l id='48'>Pouvait à mon amour porter la moindre atteinte,</l>
+	<l id='49'>M'arracher à Valrade et remettre en mon lit</l>
+	<l id='50'>L'épouse que la haine à jamais en bannit,</l>
+	<l id='51'>Valrade loin de moi, de ma foi peu certaine,</l>
+	<l id='52'>N'en périrait pas moins victime d'Emirène.</l>
+	<l id='53'>Il faut que mon audace, il faut que mes fureurs,</l>
+	<l id='54'>Immolent sous ces murs mes fiers persécuteurs,</l>
+	<l id='55'>Ou que mêlant mon sang au sang de mon amante,</l>
+	<l id='56'>Je l'embrasse en mourant de ma main défaillante.</l>
+	<l id='57'>Mais toi, que l'amitié force à suivre mes pas,</l>
+	<l id='58'>Prince trop généreux, retourne en tes états,</l>
+	<l id='59'>Va revoir tes vassaux et l'heureuse Aquitaine,</l>
+	<l id='60'>Sors des champs dévastés de la triste Lorraine.</l>
+	<l id='61'>Ces citoyens cruels révoltés contre moi,</l>
+	<l id='62'>Vengent par leurs forfaits les forfaits de leur roi.</l>
+	<l id='63'>Ta mâle austérité, ta sévère justice,  </l>
+	<l id='64'>Ne te permettent pas de vivre mon complice,</l>
+	<l id='65'>Tes conseils ont sans fruit augmenté mes regrets ;</l>
+	<l id='66'>Tu n'as pu me changer, fui moi donc à jamais ;</l>
+	<l id='67'>Abandonne un ami dont l'amour seul est maitre,</l>
+	<l id='68'>Qui sait qu'il est coupable, et qui pourtant veut l'être.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='69'>Lothaire, que dis-tu ? Qui ? Moi t'abandonner ?</l>
+	<l id='70'>Moi te fuir, quand la mort parait t'environner ?</l>
+	<l id='71'>Que le même tombeau tous les deux nous rassemble ;</l>
+	<l id='72'>Nous vécûmes unis, nous périrons ensemble.</l>
+	<l id='73'>Embrasse moi, cruel. Mais si je te chéris,</l>
+	<l id='74'>Si pour toi je fais tout, accorde m'en le prix ;</l>
+	<l id='75' part='i'>Sois heureux.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='75' part='m'>Eh ! Le puis-je ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='75' part='f'>Oui : règne sur ton âme :</l>
+	<l id='76'>Éteins, ou cache au moins ta criminelle flamme.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='77' part='i'>L'amour.....</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='77' part='f'>Si vous étiez un prince sans vertu,</l>
+	<l id='78'>Par de lâches flatteurs en naissant corrompu,</l>
+	<l id='79'>Nourri dans la mollesse, injuste, impitoyable,</l>
+	<l id='80'>D'une femme sans moeurs esclave méprisable,</l>
+	<l id='81'>Je ne vous dirais pas, domptez vos passions,</l>
+	<l id='82'>Sur l'ordre et l'équité réglez vos actions :</l>
+	<l id='83'>Et je ne croirais pas qu'en vous ma voix fit naitre</l>
+	<l id='84'>Des vertus que jamais, vous n'auriez su connaitre :</l>
+	<l id='85'>Et mon coeur qui toujours vous eût mésestimé,</l>
+	<l id='86'>Mon coeur qui vous, chérit, ne vous eÛt point aimé.</l>
+	<l id='87'>Mais mon ami longtemps si prudent et si sage,  </l>
+	<l id='88'>Si cher par ses bienfaits, si craint par son courage,</l>
+	<l id='89'>Juste, clément, heureux, se voyait à la fois</l>
+	<l id='90'>L'amour des nations et l'exemple des rois.</l>
+	<l id='91'>Pourquoi ne l'est-il plus ? Pourquoi prompt à s'abattre,</l>
+	<l id='92'>Contre un feu qui le perd n'ose-t-il plus combattre ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='93'>Eh que n'ai-je point fait ? Va, j'ai trop combattu ;</l>
+	<l id='94'>J'ai trop, pour mon malheur, écouté la vertu.</l>
+	<l id='95'>Non, je ne devais point, esclave téméraire,</l>
+	<l id='96'>M'imposer le fardeau d'un joug involontaire,</l>
+	<l id='97'>Épouser Emirène, et lui donner ma foi,</l>
+	<l id='98'>Tandis qu'un autre objet régnait encor sur moi.</l>
+	<l id='99'>Mais d'un père irrité le pouvoir despotique,</l>
+	<l id='100'>L'intérêt de l'état, une erreur politique,</l>
+	<l id='101'>L'espoir de me dompter, la folle ambition</l>
+	<l id='102'>De vivre sans faiblesse et sans illusion,</l>
+	<l id='103'>L'amour de mon pays, l'orgueil du diadème,</l>
+	<l id='104'>Tout égara mes voeux, et me trompa moi-même.</l>
+	<l id='105'>Mais enfin quand un noeud fatal et solennel,</l>
+	<l id='106'>De l'amour le plus pur fit un feu criminel ;</l>
+	<l id='107'>Quand la triste Emirène, envieuse, emportée,</l>
+	<l id='108'>Voulut tyranniser mon âme épouvantée ;</l>
+	<l id='109'>Lorsque je comparai la modeste douceur</l>
+	<l id='110'>De sa tendre rivale à son âpre hauteur ;</l>
+	<l id='111'>Quand cédant à l'effort de se vaincre sans-cesse,</l>
+	<l id='112'>Valrade périssait pour prix de sa tendresse ;</l>
+	<l id='113'>Si je n'écoutai rien, si secondant mes voeux,</l>
+	<l id='114'>Le divorce rompit mes détestables noeuds,</l>
+	<l id='115'>Sépara mes destins des destins d'Emirène,</l>
+	<l id='116'>Et me laissa former une plus douce chaine,</l>
+	<l id='117'>Je n'ai fait que céder à la fatalité,</l>
+	<l id='118'>Par qui, malgré ses soins, tout homme est emporté.  </l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='119'>Jusqu'à sa mort un père assoupit votre flamme.</l>
+	<l id='120'>Que l'état, comme lui, soit puissant sur votre âme :</l>
+	<l id='121'>De ce nouvel hymen les flambeaux usurpés</l>
+	<l id='122'>Embrasent ces climats et de sang sont trempés.</l>
+	<l id='123'>Vous ne m'avez pas cru lorsque ma prévoyance</l>
+	<l id='124'>Vous montra les dangers d'une telle alliance,</l>
+	<l id='125'>Instruit par les malheurs, sachez les réparer.</l>
+	<l id='126'>Vous voyez vos sujets contre vous conspirer ;</l>
+	<l id='127'>Vingt rois de vos états disputent le partage ;</l>
+	<l id='128'>Du fond de l'Italie Adrien vous outrage,</l>
+	<l id='129'>Il vous a défendu l'approche de l'autel,</l>
+	<l id='130'>Il soulève ce peuple, il l'arme au nom du ciel.</l>
+	<l id='131'>Arsène ce légat député par lui-même,</l>
+	<l id='132'>Employant contre vous le glaive et l'anathême,</l>
+	<l id='133'>Arsène vous assiège en ces murs entrouverts,</l>
+	<l id='134'>Il peut dans un moment vous mettre dans les fers.</l>
+	<l id='135'>Mais vous pouvez d'un mot dissiper cette guerre ;</l>
+	<l id='136'>Vous pouvez être encor l'arbitre de la terre,</l>
+	<l id='137'>Si vous domptez l'amour qui vous tient subjugué.</l>
+	<l id='138'>Le superbe Adrien par l'Arabe attaqué,</l>
+	<l id='139'>À son tour opprimé tandis qu'il vous opprime,</l>
+	<l id='140'>A besoin d'un vengeur, et non d'une victime ;</l>
+	<l id='141'>Il faut le secourir. Vos peuples à sa voix,</l>
+	<l id='142'>Révoltés par lui seul, rentreront sous vos lois :</l>
+	<l id='143'>Et ces rois imprudents trop soumis à des prêtres,</l>
+	<l id='144'>De vos états conquis ne seront plus les maitres,</l>
+	<l id='145'>Lorsque Adrien changé deviendra votre appui ;</l>
+	<l id='146'>Ils l'ont rendu puissant, ils fléchiront sous lui.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='147'>Que de ses pieds sacrés ils baisent la poussiére :</l>
+	<l id='148'>Pour fléchir devant lui mon ame est trop altiére ;  </l>
+	<l id='149'>Et c'est trop exiger de vouloir qu'en ce jour</l>
+	<l id='150'>Mon coeur dompte à la fois et la haine et l'amour.</l>
+	<l id='151'>Non ; je n'aurai jamais la honteuse faiblesse</l>
+	<l id='152'>D'immoler mon amante au tyran qui m'oppresse.</l>
+	<l id='153'>La guerre est préférable ; et peut-être ce bras</l>
+<note type='L'>Prélat : Supérieur écclésiastique constitué dans une éminente dignité de l'Eglise. Ce qui rend les prélats vénérables, c'est la sainteté de la vie, et leur application à s'acquitter de leurs fonctions. [F]</note>
+	<l id='154'>Qui vainquit des héros peut vaincre des prélats.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='155'>Vos troupes à leurs pieds tomberont prosternées.</l>
+	<l id='156'>Ces Pontifes guerriers conduisant des armées,</l>
+<note type='L'>Mitre : Ornement pontifical que les évêques, et les abbés réguliers ont sur leur tête, quand ils marchent, ou officient pontificalement. [F]</note>
+	<l id='157'>Leurs mitres se mêlant aux casques des héros,</l>
+	<l id='158'>Et la croix s'élevant au milieu des drapeaux,</l>
+	<l id='159'>Font un spectacle saint qui répand les alarmes,</l>
+	<l id='160'>Qui glace vos soldats, qui fait tomber leurs armes.</l>
+	<l id='161'>Ces soldats éperdus et fuyants en tout lieu,</l>
+	<l id='162'>Vaincus par leur terreur, pensent l'être par Dieu.</l>
+	<l id='163'>Ils sont tous convaincus que Dieu lui-même approuve,</l>
+	<l id='164'>Que l'on détrône un roi que le Pape réprouve ;</l>
+	<l id='165'>Et quelqu'un d'eux peut-être en ce fatal instant,</l>
+	<l id='166'>Cherche à gagner le ciel en vous assassinant :</l>
+	<l id='167'>Que peut votre valeur ? C'est à la politique</l>
+	<l id='168'>À savoir diriger leur rage fanatique,</l>
+	<l id='169'>Jusqu'au jour ou ses soins éclairant les mortels,</l>
+	<l id='170'>Détruiront sans retour ces préjugés cruels.</l>
+	<l id='171'>Quel que soit le courroux que ton âme ressente,</l>
+	<l id='172'>Il faut sauver tes jours, ton peuple et ton amante ;</l>
+	<l id='173'>Et ce traité fatal qui te fait tant d'horreur,</l>
+	<l id='174'>Peut lui seul mettre un terme au cours de ton malheur.</l>
+	<l id='175'>Il te rend tes états : il rappelle Emirène ;</l>
+	<l id='176'>Valrade pour jamais quittera la Lorraine ;</l>
+	<l id='177'>Je réponds de sa vie, elle est en sureté ;</l>
+	<l id='178'>Loin de toi, loin du monde, en un temple écarté,</l>
+	<l id='179'>Ses jours que poursuivaient nos discordes civiles,  </l>
+	<l id='180'>S'ils ne sont pas heureux, seront du moins tranquilles.</l>
+	<l id='181' part='i'>Les tiens...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='181' part='f'>Les miens seraient plus affreux que la mort.</l>
+	<l id='182'>Quoi ? Rien ne peut changer mon détestable sort.</l>
+	<l id='183'>S'il faut que l'amour cède à l'intérêt du trône,</l>
+	<l id='184'>À mes tyrans sacrés dérobons ma couronne ;</l>
+	<l id='185'>Un jour, un jour peut-être... Ah Valrade... ! Ah grands Dieux !</l>
+	<l id='186'>Eh quoi ! Valrade est prête à sortir de ces lieux !</l>
+	<l id='187'>Ah ! songe qu'à toi seul mon amour la confie,</l>
+	<l id='188'>Que ma vie est entière attachée à sa vie,</l>
+	<l id='189'>Que mon coeur... Mais pourquoi, pourquoi précipiter</l>
+	<l id='190'>L'instant où nous devons tous les trois nous quitter ?</l>
+	<l id='191'>Retardons d'un seul jour ce départ si funeste.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='192'>Tu perdrais dans ce jour la force qui te reste ;</l>
+	<l id='193'>Hâte, hâte l'instant qui doit t'en séparer :</l>
+	<l id='194'>À tes fiers ennemis crains de te voir livrer.</l>
+	<l id='195'>Si le coeur irrité de tant de résistance,</l>
+	<l id='196'>Arsène en ce moment courait à la vengeance ;</l>
+	<l id='197'>Dédaignant les combats pour des moyens plus surs,</l>
+	<l id='198'>Si son Dieu dans les mains il marchait vers ces murs,</l>
+	<l id='199'>Crois-tu, qu'en le voyant, tes tremblantes cohortes</l>
+	<l id='200'>De ces murs à sa voix n'ouvriraient pas les portes ?</l>
+	<l id='201'>Je frémis... Ne perds plus des instants précieux.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='202'>Il le faut donc... Eh bien... Elle vient vers ces lieux,</l>
+	<l id='203'>Les pleurs qu'elle répand inondent son visage.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lothaire, Valrade, Raimond.</head>
+<sp who='VALRADE'><speaker>VALRADE, au fond du Théâtre.</speaker>
+	<l id='204'>Ô toi que j'offensai ! Ciel, soutien mon courage !</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+<stage>À Lothaire. </stage>
+	<l id='205' part='i'>Persiste en tes desseins... </l>
+<stage>À Valrade.</stage>
+	<l id='205' part='m'>Madame....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='205' part='f'>Eh bien, Seigneur,</l>
+	<l id='206'>S'il faut partir, allons, c'est mon dernier malheur,</l>
+	<l id='207' part='i'>Bientôt....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='207' part='f'>Eh quoi ? Tu pars : ah Valrade ! Pardonne ;</l>
+	<l id='208'>Ne crois pas qu'aujourd'hui ton amant t'abandonne.</l>
+	<l id='209'>À ce départ affreux si j'ai pu consentir,</l>
+	<l id='210'>Ce n'est que pour sauver tes jours prêts à périr ;</l>
+	<l id='211'>Jours chéris, jours sacrés que je ne puis défendre.</l>
+	<l id='212'>Mon peuple est révolté, mon pays est en cendre,</l>
+	<l id='213'>Ces murs sont entr'ouverts, mes soldats mutinés,</l>
+	<l id='214'>Par un arrêt du ciel nous croyant condamnés,</l>
+	<l id='215'>Pensent commettre un crime en secourant leur maître.</l>
+	<l id='216'>Leur zèle de mon sein t'arracherait peut-être ;</l>
+	<l id='217'>Prévenons leurs complots, évite leurs fureurs......</l>
+	<l id='218'>Mais qui peut donc causer ces soudaines clameurs ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='219'>Eh quoi, serait-ce encor des révoltes nouvelles ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='220'>Allons plonger ce fer dans le sein des rebelles.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND, l'arrêtant.</speaker>
+	<l id='221'>Attendez mon retour, ne vous exposez pas.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, le retenant.</speaker>
+	<l id='222'>Ah Lothaire ! Arrêtez : où portez-vous vos pas ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Lothaire, Valrade.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, revenant.</speaker>
+	<l id='223'>JE dois rester sans doute, et veiller sur ta vie.</l>
+	<l id='224'>Je ne crains que pour toi ; tu peux m'être ravie...</l>
+	<l id='225'>Que je périsse au moins en défendant tes jours.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='226'>Ah ! ne prodigue plus pour moi de vains secours,</l>
+	<l id='227'>Ne combats plus ici ma triste destinée ;</l>
+	<l id='228'>Je suis de tes malheurs la cause infortunée....</l>
+	<l id='229'>Juste ciel ! Je t'adore, et c'est moi qui te perds !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='230'>Ah ! toi seule adoucis l'horreur de mes revers,</l>
+	<l id='231'>Consoles tous mes maux ; la paix qui nous sépare</l>
+	<l id='232'>Est un supplice affreux, mille sois plus barbare</l>
+	<l id='233'>Que n'eût été pour moi le plus cruel trépas.</l>
+	<l id='234'>Mais cette paix longtemps ne subsistera pas ;</l>
+	<l id='235'>Je jure de punir ce prêtre qui me brave,</l>
+	<l id='236'>Qui m'insulte en ma cour, qui m'y traite en esclave,</l>
+	<l id='237'>Qui veut que mes désirs soient réglés par ses lois,</l>
+	<l id='238'>Que je pense, que j'aime, et haïsse à son choix.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='239'>Ne bravons plus le ciel que notre amour offense ;</l>
+	<l id='240'>Laisse, laisse à mes pleurs désarmer sa vengeance ;</l>
+	<l id='241'>Il veut que je te quitte, il y faut consentir.</l>
+	<l id='242'>Mon coeur de tant d'amour ne peut se repentir.</l>
+	<l id='243'>J'adorerai Lothaire aux autels de Dieu même.</l>
+	<l id='244'>Mais du moins à ce Dieu qui défend que je t'aime,</l>
+	<l id='245'>Mon coeur en frémissant soumet sa volonté ;</l>
+	<l id='246'>Je voudrais faire plus, j'espère en sa bonté.</l>
+	<l id='247'>Je vais le supplier qu'en poursuivant le crime,</l>
+	<l id='248'>Il ne prenne du moins que moi pour sa victime,</l>
+	<l id='249'>Qu'il conserve tes jours si cher, si précieux,</l>
+	<l id='250'>Qu'il ramène à tes lois ce peuple furieux :</l>
+	<l id='251'>Que vainqueur de l'amour, tout entier à la gloire,</l>
+	<l id='252'>Tu ne garde, de moi qu'une faible mémoire,</l>
+	<l id='253'>Qui n'empoisonne pas le bonheur de tes jours...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='254'>Ah ! mon coeur déchiré conservera toujours,</l>
+	<l id='255'>Et l'amour qui m'embrase, et l'horreur de ta perte.</l>
+	<l id='256'>Mon âme en tous les temps au désespoir ouverte...</l>
+	<l id='257'>Mais on vient... C'est Raimond... Quel trouble est dans ses yeux !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Lothaire, Valrade, Raimond.</head>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='258' part='i'>Arsène suit mes pas.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='258' part='m'>Arsène !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='258' part='m'>Lui !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='258' part='f'>Grands Dieux ?...</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='259'>Je vous l'avis prédit... Arsène sans escorte</l>
+	<l id='260'>A su de ces remparts se faire ouvrir la porte.</l>
+	<l id='261'>Il s'est présenté seul ; vos soldats interdits</l>
+	<l id='262'>Comme un Dieu tutélaire en ces murs l'ont admis.</l>
+	<l id='263'>Il vient, il va paraitre, il ramène Emirène,</l>
+	<l id='264'>Que ce peuple environne et qu'il regarde eu reine.</l>
+	<l id='265'>Retirez vous tous deux, je vais les recevoir.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='266' part='i'>Ô ciel ! Je suis perdue.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, à Valrade.</speaker>
+	<l id='266' part='f'>Ils sont en mon pouvoir,</l>
+	<l id='267' part='i'>Suis moi.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND, seul.</speaker>
+	<l id='267' part='f'>Dans ces moments, ô ciel ! Que dois-je faire ?</l>
+	<l id='268'>Comment les aborder ? Comment sauver Lothaire ?</l>
+	<l id='269'>Et comment détourner les maux que je prévois ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Arsène, Emirène, Raimond, Peuple.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='270'>Reine, ce peuple est juste, il reconnait vos lois ;</l>
+	<l id='271'>Sur votre trône ainsi par Dieu même remise,</l>
+	<l id='272'>Qu'à ses décrets toujours votre âme soit soumise.</l>
+	<l id='273'>Les superbes remparts, les trésors, les soldats,</l>
+	<l id='274'>Frivole appui des Rois, ne les défendent pas.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='275'>Madame ; et vous, Seigneur, votre auguste présence</l>
+	<l id='276'>De ce peuple éperdu ranime l'espérance,</l>
+	<l id='277'>Ses peines vont finir, ce traité proposé...</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='278'>Je rejette un traité par le Roi méprisé.</l>
+	<l id='279'>Il m'a fermé ces murs que Dieu m'ouvre lui-même.</l>
+	<l id='280'>J'apporte de ce Dieu la volonté suprême :</l>
+	<l id='281'>Lothaire vainement s'arme contre sa loi ;</l>
+	<l id='282'>L'ange exterminateur qui marche devant moi,</l>
+	<l id='283'>Qui m'a de ces remparts assuré la conquête,</l>
+	<l id='284'>Tient le glaive vengeur suspendu sur sa tête ;</l>
+	<l id='285'>Et les faibles roseaux dont il fait son appui,</l>
+	<l id='286'>Seront tous dans sa chute écrasés avec lui.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='287'>Je vous entends, Seigneur ; vainqueur de la Lorraine,</l>
+	<l id='288'>Vous prétendez passer aux champs de l'Aquitaine ;</l>
+	<l id='289'>En servant mon ami j'ai prévu ces combats.</l>
+	<l id='290'>Mais si l'amour le perd, il ne m'aveugle pas :</l>
+	<l id='291'>Quand je cherche la paix, vous demandez la guerre.</l>
+	<l id='292'>Vos fureurs ont accru la fureur de Lothaire.</l>
+	<l id='293'>Vous voulez qu'aujourd'hui sa chute, ou son trépas ;</l>
+	<l id='294'>Soit un nouvel exemple à tous les potentats,</l>
+	<l id='295'>Qui les frappant de crainte à vos pieds les enchaine ;</l>
+	<l id='296'>Mais malgré vos complots j'attends tout d'Emirène.</l>
+	<l id='297'>J'ai défendu vos droits auprès de votre époux,</l>
+	<l id='298'>Madame, et malgré moi, je le sers contre vous.</l>
+	<l id='299'>Mais non, ce n'est point vous que je cherche à combattre ;</l>
+	<l id='300'>C'est vos fiers alliés que je voulais abattre ;</l>
+	<l id='301'>C'est Rome, dont l'orgueil prétend comme autrefois,</l>
+	<l id='302'>Asservir l'univers et régner sur les rois.</l>
+	<l id='303'>Et quand j'ai combattu ce qu'elle ose entreprendre.</l>
+	<l id='304'>C'est la cause des rois que j'ai voulu défendre.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='305'>Sage et prudent Raimond, dans ce jour de courroux,</l>
+	<l id='306'>Me sera-t-il permis de revoir mon époux ?</l>
+	<l id='307'>Ou ma rivale encor m'en éloignera-t-elle ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='308'>Je vous promets du moins d'employer tout mon zèle</l>
+	<l id='309'>À vous rendre ce coeur par l'amour égaré :</l>
+	<l id='310'>Mais songez de quels traits ce coeur est déchiré.</l>
+	<l id='311'>Que de tous vos discours la plainte soit bannie ;</l>
+	<l id='312'>Montrez lui de l'amour, non de la jalousie ;</l>
+	<l id='313'>Les reproches encore aigriraient ses esprits.</l>
+	<l id='314'>Gardez vous d'offenser, par le moindre mépris,</l>
+	<l id='315'>La fatale beauté qui loin de vous l'entraine ;</l>
+	<l id='316'>Vous n'en recueilleriez qu'une éternelle haine :</l>
+	<l id='317'>Tout ce que vous diriez contre elle à votre époux,</l>
+	<l id='318'>Dans son coeur prévenu tournerait contre vous.</l>
+	<l id='319'>Je dois vous l'avouer, Valrade infortunée,</l>
+	<l id='320'>Far vous seule au malheur à jamais condamnée,</l>
+	<l id='321'>Par vos cris outragée aux yeux de l'univers,</l>
+	<l id='322'>Sans se plaindre de vous supporte ses revers ;</l>
+	<l id='323'>Ne vous blâmant jamais, et s'accusant soi-même,</l>
+	<l id='324'>Sans intrigue, sans art dans sa tendresse extrême,</l>
+	<l id='325'>Vous excusant toujours, n'oppose à vos fureurs,</l>
+	<l id='326'>Que sa seule beauté, ses vertus et ses pleurs.</l>
+	<l id='327'>Afin d'en triompher imitez la, Madame.</l>
+	<l id='328'>Vous cherchez votre époux, vous voulez de son âme</l>
+	<l id='329'>Arracher un objet qui fait tout son bonheur,</l>
+	<l id='330'>Rendez le plus heureux, vous fixerez son coeur.</l>
+	<l id='331'>je vais à vos genoux, s'il se peut, le conduire.</l>
+	<l id='332'>Votre destin, le sien, celui de cet empire,</l>
+	<l id='333'>Dépendront de vous seule : Assurez vos succès,</l>
+	<l id='334'>En n'écoutant que vous et vos vrais intérêts.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Arsène, Emirène.</head>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='335'>Ah ! Mes vrais intérêts sont ceux de ma vengeance,</l>
+	<l id='336'>Et l'on prétend en vain me forcer au silence.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='337'>Les plaintes et les cris ne vous vengeront pas.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='338'>Je veux de ma rivale assurer le trépas.</l>
+	<l id='339'>Quand vos soins redoublés, Seigneur, m'ont arrachée</l>
+	<l id='340'>À la retraite obscure où, je vivais cachée,</l>
+	<l id='341'>Quand vous m'avez conduite à la cour de ces rois,</l>
+	<l id='342'>Par la religion réunis sous vos lois,</l>
+	<l id='343'>Vous m'avez tous promis la mort de ma rivale.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='344'>La mort doit de sa vie expier le scandale,</l>
+	<l id='345'>Sans doute : mais ici nous sommes sans soldats ;</l>
+	<l id='346'>On tremble, on me révère, on ne m'obéit pas.</l>
+	<l id='347'>Sur ce peuple incertain Lothaire encor domine ;</l>
+	<l id='348'>Dieu qui tient tous les coeurs à son gré les incline.</l>
+	<l id='349'>Votre cause est trop juste, ils seront tous pour vous,</l>
+	<l id='350'>Et la religion les entrainera tous.</l>
+	<l id='351'>Venez, à vos sujets présentez vous en reine ;</l>
+	<l id='352'>Réclamez hautement les droits de Souveraine,</l>
+	<l id='353'>Et du pied des autels dont Lothaire est banni,</l>
+	<l id='354'>Appelez tout ce peuple, armez le contre lui ;</l>
+	<l id='355'>Qu'abandonné de tous, privé de sa maitresse,</l>
+	<l id='356'>Changé par ses malheurs, ce prince reconnaisse</l>
+	<l id='357'>L'épouse qu'il trahit, le Dieu qu'il oublia,</l>
+	<l id='358'>Et la religion que son coeur profana.  </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II.</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIERE. Lothaire, Valrade, Raimond.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='359'>Je ne puis plus longtemps résister à vos voeux ;</l>
+	<l id='360'>Vous le voulez, je cède, et je vous crois tous deux.</l>
+	<l id='361'>Mais nous perdons ainsi l'instant de la vengeance.</l>
+	<l id='362'>C'est au pied des autels, où sapant ma puissance,</l>
+	<l id='363'>Ce prélat orgueilleux soulève mes sujets,</l>
+	<l id='364'>Qu'il fallait dans son sang étouffer ses projets :</l>
+	<l id='365'>C'est sa tête à la main, qu'attaquant son armée,</l>
+	<l id='366'>Il fallait délivrer cette ville opprimée,</l>
+	<l id='367'>Et montrer aux mortels que Dieu n'approuve, pas</l>
+	<l id='368'>Leur fanatisme aveugle, et leurs saints attentats.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='369'>Crois moi loin d'écarter l'erreur qui les engage,</l>
+	<l id='370'>Ce meurtre d'un pontife eût enflammé leur rage ;</l>
+	<l id='371'>On croit ses jours sacrés ; on sait qu'exempt des lois,</l>
+	<l id='372'>Un prêtre n'est jugé, ni puni par ses rois.</l>
+	<l id='373'>Gardons nous d'inspirer a des coeurs peu fidèles,</l>
+	<l id='374'>Par des crimes, nouveaux, des révoltes nouvelles.</l>
+	<l id='375'>Arsène veut te voir, il le faut écouter :</l>
+	<l id='376'>Si sa demande est juste, il la faut accepter.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE étouffant des sanglots qui échappent malgré elle.</speaker>
+	<l id='377'>Que sert de se flatter d'une espérance vaine ?</l>
+	<l id='378'>Notre amour les irrite, et ma perte est certaine.</l>
+	<l id='379'>Tu n'en obtiendras rien qu'en renonçant à moi,</l>
+	<l id='380'>Je te rends tes serments, qu'Emirène ait ta foi.</l>
+	<l id='381'>À tes jours, à ta gloire, à la paix renaissante,</l>
+	<l id='382'>Au bonheur de l'État immole ton amante.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='383'>Ah cruelle !... Ah Raimond !... écoutez moi tous deux.</l>
+	<l id='384'>Cessez de déchirer votre ami malheureux.</l>
+	<l id='385'>Je suivrai vos conseils, je vais revoir Arsène.</l>
+	<l id='386'>Vous connaissez l'orgueil de son âme inhumaine,</l>
+	<l id='387'>Et vous savez l'excès de mes emportements ;</l>
+	<l id='388'>Je ne puis, maitriser mes premiers mouvements :</l>
+	<l id='389'>De ce grand entretien la fin sera sinistre.</l>
+	<l id='390'>Au nom au Dieu vengeur dont on le croit ministre,</l>
+	<l id='391'>Il armera mon peuple, et courants aux combats,</l>
+	<l id='392'>Nous voudrons tous les deux nous porter le trépas.</l>
+	<l id='393'>Dans ces moments affreux d'horreur et de carnage,</l>
+	<l id='394'>Que l'amitié pour moi n'arme point ton courage.</l>
+	<l id='395'>Au destin de la guerre abandonne mes jours ;</l>
+	<l id='396'>Et loin de m'apporter d'inutiles secours,</l>
+	<l id='397'>Veille sur cet objet de ma tendresse extrême,</l>
+	<l id='398'>Conserve moi des jours plus chers que les miens même ;</l>
+	<l id='399'>Ou si d'un coup fatal mortellement frappé,</l>
+	<l id='400'>Dans la nuit du tombeau je reste enveloppé,</l>
+	<l id='401'>Rempli mes derniers voeux ; qu'une amante si chère</l>
+	<l id='402'>Retrouve en mon ami son protecteur, son père.</l>
+	<l id='403'>Que tes soins appliqués à lui prouver ma foi</l>
+	<l id='404'>Réparent tous les maux qu'elle souffrit pour moi.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='405' part='i'>Je meurs si tu péris.....</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='405' part='f'>Reçois-en ma promesse.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, les embrassant.</speaker>
+	<l id='406'>Allez : votre douleur accroitrait ma faiblesse. </l>
+<stage>À un garde.</stage>
+	<l id='407' part='i'>Qu'Arsenne vienne ici.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='407' part='f'>Modère ce transport :</l>
+	<l id='408'>Songe que nos destins dépendent de ton sort.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='409'>Pour vous -- pour vous sauver je ferai tout sans doute.</l>
+	<l id='410' part='i'>Allez.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, tandis que Raimond l'emmène.</speaker>
+	<l id='410' part='m'>Lothaire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Lothaire, Arsène.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='410' part='f'>Ô Ciel ! ô jour que je redoute !</l>
+	<l id='411'>Le voici... Calmons nous. — Venez, venez, Seigneur ;</l>
+	<l id='412'>Je dois prendre vos lois ; vous êtes mon vainqueur.</l>
+	<l id='413'>Dans ces murs assiégés entré malgré moi-même,</l>
+	<l id='414'>Vous venez sous vos pieds fouler mon diadème,</l>
+	<l id='415'>Diviser mes sujets, et braver mon courroux ;</l>
+	<l id='416'>Mais ne me forcez pas à me venger de vous.</l>
+	<l id='417'>De nous deux aujourd'hui dépend le sort du monde ;</l>
+	<l id='418'>Unissons les chrétiens dans une paix profonde ;</l>
+	<l id='419'>Délivrons Adrien de ses persécuteurs,</l>
+	<l id='420'>Ce sont là nos devoirs : Ces brigands destructeurs,</l>
+	<l id='421'>Nés aux sables mouvants de l'aride Arabie,</l>
+	<l id='422'>Ont envahi l'Espagne, ont pillé l'Italie ;</l>
+	<l id='423'>L'Europe peut tomber sous ces maitres cruels,</l>
+	<l id='424'>Rome craint de les voir profaner ses autels ;  </l>
+	<l id='425'>Mais rendez moi la paix, secondez mon courage,</l>
+	<l id='426'>Et bientôt vos vainqueurs fuiront votre rivage.</l>
+	<l id='427'>Au lieu de m'opposer au cours de leurs exploits,</l>
+	<l id='428'>Si j'embrassais, Seigneur, et leur culte et leurs lois,</l>
+	<l id='429'>Cet amour partagé dont on me fait un crime,</l>
+	<l id='430'>Autorisé chez eux deviendrait légitime.</l>
+	<l id='431'>Loin de vous voir alors dévaster mes états,</l>
+	<l id='432'>Dans Rome mite aux fers je guiderais leurs pas ;</l>
+	<l id='433'>Mais malgré l'intérêt qui me parle contre elle,</l>
+	<l id='434'>Né parmi les chrétiens, je lui reste fidèle ;</l>
+	<l id='435'>Faut-il m'en repentir ? Dans son austérité,</l>
+	<l id='436'>L'Église eut autrefois moins de sévérité ;</l>
+	<l id='437'>Les enfants de Clovis ont entre plusieurs femmes,</l>
+	<l id='438'>Sans être criminels, pu partager leurs flammes ;</l>
+	<l id='439'>Pourquoi ne puis-je donc disposer de mon coeur ?</l>
+	<l id='440'>Est-ce moi qui vous nuit ? C'est l'Arabe vainqueur :</l>
+	<l id='441'>Usurpant vos autels le fortuné Calife,</l>
+	<l id='442'>Du ciel, comme Adrien, le dit le vrai pontife.</l>
+	<l id='443'>Écartez de vos murs les soldats triomphants ;</l>
+	<l id='444'>Voila des intérêts pour vous plus importants</l>
+	<l id='445'>Que l'étrange intérêt de venger une femme,</l>
+	<l id='446'>Dont un jeune inconstant a dédaigné la flamme ;</l>
+	<l id='447'>Et sans doute aujourd'hui vous n'immolerez pas</l>
+	<l id='448'>Au soin de la servir le soin de tant d'états.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='449'>Sans prétendre à régir les destins de la terre,</l>
+	<l id='450'>Je me borne aux devoirs de mon saint ministère,</l>
+	<l id='451'>Seigneur ; je laisse à Dieu le soin de l'univers ;</l>
+	<l id='452'>Il maintient son Église au milieu des revers.</l>
+	<l id='453'>L'Arabe en vain de Rome environnait les portes,</l>
+	<l id='454'>La voix du Tout-puissant a chassé ses cohortes.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='455' part='i'>Ce malheur me manquait.  </l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='455' part='f'>Ce bonheur dés chrétiens</l>
+	<l id='456'>Est encore ignoré de tous vos citoyens.</l>
+	<l id='457'>Dans ces murs assiégés vous ne pouviez l'apprendre.</l>
+	<l id='458'>Mais quand j'en sus instruit, Seigneur, croyant entendre</l>
+	<l id='459'>La volonté de Dieu contre ses ennemis,</l>
+	<l id='460'>J'ai marché vers ces murs, ces murs furent soumis.</l>
+	<l id='461'>L'Éternel sous mes pas a brisé leur barrière ;</l>
+	<l id='462'>Vos soldats prosternés le front dans la poussière,</l>
+	<l id='463'>Vos peuples éperdus l'encensoir à la main,</l>
+	<l id='464'>Jusques dans ce palais m'ont ouvert-un chemin :</l>
+	<l id='465'>Je n'y viens point braver la majesté royale ;</l>
+	<l id='466'>Mais j'y viens de la tare effacer le scandale</l>
+	<l id='467'>De la religion faire entendre la voix,</l>
+	<l id='468'>Rétablir les vertus, et les moeurs et les lois,</l>
+	<l id='469'>Détourner loin de nous la mort et l'anathème,</l>
+	<l id='470'>Raffermi votre sceptre et vous rendre à vous-même.</l>
+	<l id='471'>Les ordres d'Adrien vous ont paru cruels,</l>
+	<l id='472'>Vous rendrez grâce un jour à ses soins paternels ;</l>
+	<l id='473'>Sans écouter vos cris, il doit d'une main sure ;</l>
+	<l id='474'>De votre sein ouvert augmenter la blessure,</l>
+	<l id='475'>Afin d'en arracher le trait empoisonneur</l>
+	<l id='476'>Qui distille la mort au fond de votre coeur.</l>
+	<l id='477'>Si vous lui résistez, quand tout vous abandonne,</l>
+	<l id='478'>Tremblez, Prince ; c'est peu de perdre la couronne,</l>
+	<l id='479'>De mourir en horreur à vous, à vos états,</l>
+	<l id='480'>Vos-malheurs vous suivront au delà du trépas.</l>
+	<l id='481'>Du Dieu qui vous poursuit déplorable victime,</l>
+	<l id='482'>Dans l'abime éternel préparé pour le crime,</l>
+	<l id='483'>Dans ces lieux de remords, de rage et de tourments...</l>
+	<l id='484'>Cette effrayante idée accable tous mes sens....</l>
+	<l id='485'>Grâce, Dieu tout-puissant ! pardonne à la faiblesse.  </l>
+	<l id='486'>Cédez, Prince cédez au trouble qui vous presse.</l>
+	<l id='487'>Abjurez votre erreur et votre passion,</l>
+	<l id='488'>Sauvez vous dais les bras de la religion ;</l>
+	<l id='489'>Et que tout votre coeur aujourd'hui s'abandonne</l>
+	<l id='490'>Au Dieu juste et clément qui frappe et qui pardonne !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='491'>Ce discours fanatique et ce zèle imposteur,</l>
+	<l id='492'>Loin de m'en imposer irrite ma fureur.</l>
+	<l id='493'>Voila comme effrayant un peuple trop crédule,</l>
+	<l id='494'>Vous l'avez aux forfaits entrainé sans scrupule.</l>
+	<l id='495'>Par vos tableaux affreux le remplissant d'effroi,</l>
+	<l id='496'>La crainte de son Dieu lui fait haïr son roi.</l>
+	<l id='497'>Il croit Dieu, comme vous, avide de vengeance :</l>
+	<l id='498'>Mais Dieu que votre orgueil, plus que ma flamme, offense ;</l>
+	<l id='499'>Dans le fond de mon coeur a mis ma passion ;</l>
+	<l id='500'>Il me livre à l'amour, vous à l'ambition.</l>
+	<l id='501'>Devant lui tous les deux également coupables,</l>
+	<l id='502'>Ne soyons pas du moins l'un pour l'autre implacables</l>
+	<l id='503'>Dans nos emportements gardons l'humanité ;</l>
+	<l id='504'>Si l'amour que je sens pouvait être domptés,</l>
+	<l id='505'>se n'aurais pas sans doute, éprouvant tant d'alarmes,</l>
+	<l id='506'>Fait verser tant de sang, ni couler tant de larmes :</l>
+	<l id='507'>Mais tel est de mon feu l'épouvantable excès,</l>
+	<l id='508'>Que si pour voir encore un moment tant d'attraits,</l>
+	<l id='509'>Il me fallait, proscrit, sans trône et sans patrie,</l>
+	<l id='510'>Passer dans les malheurs le reste de ma vie,</l>
+	<l id='511'>Endurer un trépas aussi long que cruel,</l>
+	<l id='512'>Et trouver en mourant un supplice éternel,</l>
+	<l id='513'>Je n'hésiterais pas : ma flamme triomphante</l>
+	<l id='514'>M'entrainerait soudain aux pieds de mon amante ;</l>
+	<l id='515'>Je me croirais heureux de la voir à ce prix.</l>
+	<l id='516'>Mais malgré les transports dont mon coeur est épris,  </l>
+	<l id='517'>Je fais, en frémissant, les malheurs d'Emirène.</l>
+	<l id='518'>Et vous qui soulevez sa colère et sa haine,</l>
+	<l id='519'>Faites-vous ceux du monde avec tranquillité ?</l>
+	<l id='520'>Seigneur, mettons un terme à tant d'adversité.</l>
+	<l id='521'>De mon peuple éperdu la voix plaintive et tendre,</l>
+	<l id='522'>À mes sens déchirés se fait trop bien entendre ;</l>
+	<l id='523'>L'amitié de Raimond, l'amour même, l'amour</l>
+	<l id='524'>M'a contraint, malgré moi, de vous voir en ce jour.</l>
+	<l id='525'>Parlez donc, à quel prix, donnant la paix au monde,</l>
+	<l id='526'>Puis-je arrêter les flots du sang qui nous inonde ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='527'>Dans les remparts de Rome il faut aller, Seigneur,</l>
+	<l id='528'>Aux genoux d'Adrien expier votre erreur,</l>
+	<l id='529'>Renouer dans ses mains votre première chaine,</l>
+	<l id='530'>Avouer pour épouse et reprendre Emirène,</l>
+	<l id='531'>Me livrer la beauté qui trouble vos états,</l>
+	<l id='532'>Et signant son arrêt souffrir que son trépas</l>
+	<l id='533'>Épouvante à jamais ces femmes orgueilleuses,</l>
+	<l id='534'>Qui bravant la pudeur, par cent brigues honteuses,</l>
+	<l id='535'>En séduisant les rois corrompent leurs sujets,</l>
+	<l id='536'>Et donnent aux humains l'exemple des forfaits.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='537'>De quelque atrocité que vous soyez coupable,</l>
+	<l id='538'>Je n'aurais jamais cru que votre âme implacable</l>
+	<l id='539'>M'eût osé proposer un tel assassinat.</l>
+	<l id='540'>Je devrais à l'instant punir cet attentat :</l>
+	<l id='541'>Si mon mépris pour vous n'arrêtait ma vengeance,</l>
+	<l id='542' part='i'>Votre sang....</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='542' part='f'>Sur mes jours vous êtes sans puissance,</l>
+	<l id='543'>Dieu seul peut m'en priver : Et votre cruauté</l>
+	<l id='544'>Ne peut porter atteinte à ma sécurité.  </l>
+	<l id='545'>Tremblez, vous qui bravez l'éternelle justice ;</l>
+	<l id='546'>Étendu sur la cendre et couvert d'un cilice,</l>
+	<l id='547'>Le fils de Charlemagne au pied de son clergé</l>
+	<l id='548'>Tomba du rang des rois pour l'avoir outragé.</l>
+	<l id='549'>Il était votre aïeul, et son sort vous menace.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='550'>Charlemagne du moins réprima tant d'audace.</l>
+	<l id='551'>Il imposa des lois aux ministres des deux ;</l>
+	<l id='552'>Jamais il n'eût rampé, ni fléchi devant eux.</l>
+	<l id='553'>Ce prince avec son sang m'a transmis son courage.</l>
+	<l id='554'>Fuyez ; si vous m'osez résister davantage,</l>
+	<l id='555' part='i'>Votre mort est certaine.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='555' part='f'>Emirène, Seigneur,</l>
+	<l id='556'>Dissipera bientôt cette vaine fureur ;</l>
+	<l id='557' part='i'>Elle doit à vos pieds...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='557' part='f'>Gardez qu'elle n'avance :</l>
+	<l id='558'>J'ai causé ses malheurs, je n'ai pas l'impudence</l>
+	<l id='559'>De braver, comme vous, ceux que je fais souffrir.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='560'>Ses pleurs, son désespoir pourront vous attendrir.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='561' part='i'>Qu'on l'éloigne ou craignez...</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='561' part='f'>Venez, venez, Madame.</l>
+	<l id='562'>Revoyez votre époux et fléchissez son âme.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lothaire, Emirène.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='563' part='i'>C'est elle-même, ô ciel ! où suis-je ?</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='563' part='f'>Ô mon époux !</l>
+	<l id='564' part='i'>Puis-je enfin à vos pieds....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='564' part='f'>Emirène, est-ce vous ?</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='565' part='i'>Tremblante....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='565' part='m'>Levez vous.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='565' part='f'>À vos pieds que j'embrasse</l>
+	<l id='566'>Je périrai, Seigneur, ou j'obtiendrai ma grâce.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, avec trouble, et faisant effort sur lui-meme pour cacher ses transports.</speaker>
+	<l id='567'>Levez-vous : et croyez que ce coeur malheureux...</l>
+	<l id='568'>Ah ! Pouvez-vous chercher un époux furieux,</l>
+	<l id='569'>Qui trahit votre foi, qui méconnut vos charmes,</l>
+	<l id='570'>Qui malgré ses remords vous livre à tant d'alarmes ?</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='571'>Vous, cruel ! des remords... en eûtes-vous jamais ?</l>
+	<l id='572'>Non, non, n'affectez point ici de vains regrets :</l>
+	<l id='573'>Mes maux font vos plaisirs, et votre âme infidèle</l>
+	<l id='574'>Se plait à m'immoler à votre amour nouvelle :</l>
+	<l id='575'>Mes cris, mon désespoir, mes désirs rebutés,</l>
+	<l id='576'>Sous un encens flatteur que vous lui présentez.  </l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='577' part='i'>Ô ciel ! pourriez-vous croire.....</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='577' part='f'>Ah Seigneur ! Ah Lothaire !</l>
+	<l id='578'>Qu'ai-je donc fait ? Pourquoi ne vous suis-je plus chère ?</l>
+	<l id='579'>Que me reprochez-vous, que de vous trop aimer ?</l>
+	<l id='580'>Et qu'a fait ma rivale afin de vous charmer ?</l>
+	<l id='581'>Son coeur est il plus pur ? A-t-il plus de tendresse ?</l>
+	<l id='582'>Le ciel de plus d'attraits orna-t-il sa jeunesse ?...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='583'>Elle fut moins jalouse, elle eut plus de douceur.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='584' part='i'>La perfide !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='584' part='f'>Écoutez. N'irritez plus mon coeur.</l>
+	<l id='585'>Tous les trois malheureux, et tous les trois coupables,</l>
+	<l id='586'>Pardonnons nous tous trois : cessons d'être implacables.</l>
+	<l id='587'>Si de mes ennemis vous suivîtes la loi,</l>
+	<l id='588'>Je crois que l'amour seul vous aima contre moi ;</l>
+	<l id='589'>Je sais trop à quel point souvent il nous entraine ;</l>
+	<l id='590'>J'excuse ses fureurs, non celles de la haine.</l>
+	<l id='591'>Je ne me souviens plus de vos emportements,</l>
+	<l id='592'>Oubliez avec moi mes vains égarements.</l>
+	<l id='593'>Sur mon trône aujourd'hui reprenez votre place,</l>
+	<l id='594'>Mais que votre rivale obtienne, aussi sa grâce ;</l>
+	<l id='595'>Souffrez que loin de nous, en paix dans ses malheurs,</l>
+	<l id='596'>Elle passe ses jours dans l'exil et les pleurs.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='597'>Je la verrais bientôt reprendre ma couronne,</l>
+	<l id='598'>Ou du fond de l'exil m'accabler sur le trône.</l>
+	<l id='599'>Eh ! qu'importe aujourd'hui le trône à ma douleur ?</l>
+	<l id='600'>Perfide, mon amour ne veut rien que ton coeur.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='601'>Croyez vous par sa mort me devenir plus chère ?</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='602'>Non, cruel : Il n'est rien que mon amour espère.</l>
+	<l id='603'>Je ne puis rien sur toi : mais je ne prétends pas</l>
+	<l id='604'>Qu'une autre à mes douleurs insulte dans tes bras.</l>
+	<l id='605'>Il faut qu'elle périsse : Insensible à mes larmes,</l>
+	<l id='606'>Pour elle seulement tu ressens des alarmes ;</l>
+	<l id='607'>Mes plaintes, mes malheurs ne peuvent t'attendrir.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='608'>Ne me contraignez pas du moins à vous haïr.</l>
+	<l id='609'>Ces refus obstinés, cette soif de vengeance,</l>
+	<l id='610'>Pourraient justifier enfin mon inconstance.</l>
+	<l id='611'>Ne me repoussez pas quand je reviens à vous.</l>
+	<l id='612'>Consultez la prudence, et non votre courroux.</l>
+	<l id='613'>Je ne dois pas vous faire une prière vaine.</l>
+	<l id='614'>Du tyran qui m'opprime il faut fléchir la haine ;</l>
+	<l id='615'>Il fomente en secret notre division,</l>
+	<l id='616'>Vous servez de prétexte à son ambition ;</l>
+	<l id='617'>Et vous ne devez pas, quelque erreur qui m'engage,</l>
+	<l id='618'>Devenir contre moi l'instrument de sa rage.</l>
+	<l id='619'>Il me hait ; il sent trop que je perdrai le jour</l>
+	<l id='620'>Avant que d'immoler l'objet de tant d'amour.</l>
+	<l id='621'>C'est lui dont les conseils, c'est lui dont l'artifice</l>
+	<l id='622'>Vous force à m'imposer ce cruel sacrifice.</l>
+	<l id='623'>Mais si je vous suis cher, s'il est vrai que vos voeux</l>
+	<l id='624'>Ne cherchent qu'à fixer mes désirs et mes feux,</l>
+	<l id='625'>Ne souillez pas vos mains du sang de cette femme...</l>
+	<l id='626'>Sa grâce, pour jamais, peut vous rouvrir mon âme ;</l>
+	<l id='627'>Oui, je sens que mon coeur à jamais revenu,</l>
+	<l id='628'>Si vous sauvez ses jours va vous être rendu.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='629'>Peux-tu mettre ce prix aux jours de ma rivale ?</l>
+	<l id='630'>Va, ton amour t'abuse, et toujours plus fatale</l>
+	<l id='631' part='i'>Sa cruauté barbare.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='631' part='f'>Ah, ne le croyez pas ;</l>
+	<l id='632'>Jamais tant de douceur n'embellit tant d'appas,</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='633' part='i'>J'entends.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='633' part='m'>Parlez.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='633' part='m'>Cruel !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='633' part='f'>Dictez l'arrêt suprême.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='634'>Frappe, immole à l'instant ou Valrade ou moi-même.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='635'>Ainsi donc m'insultant et bravant mon courroux,</l>
+	<l id='636'>Barbare, mes bontés ne peuvent rien sur vous,</l>
+	<l id='637'>Loin d'immoler Valrade à votre aveugle rage,</l>
+	<l id='638'>De ses jours menacés vous deviendrez l'otage.</l>
+	<l id='639'>Holà ! Gardes, partout accompagnez ses pas,</l>
+	<l id='640'>Et que de ce palais elle ne sorte pas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Lothaire, Emirène, Valrade.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+<stage>Aux Gardes.</stage>
+	<l id='641' part='i'>Ciel !;.. Arrêtez...</l>
+<stage>À Lothaire.</stage>
+	<l id='641' part='f'>Seigneur, Eh quoi votre vengeance...  </l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='642'>Perfide, il vous sied bien de prendre ma défense.</l>
+	<l id='643'>Opprobre de mes jours, tu m'oses protéger ?</l>
+	<l id='644'>De cet horrible affront je saurai me venger.</l>
+	<l id='645'>Tu triomphes, poursuis, qu'à l'instant je périsse,</l>
+	<l id='646'>Ou bientôt cette main te trainant au supplice....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='647' part='i'>Tu l'entends.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='647' part='m'>Juste ciel !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='647' part='f'>Qu'on l'éloigne, soldats,</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Lothaire, Valrade.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='648'>Ah ! Du moins à ses jours, Seigneur, n'attentez pas.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='649'>Va, de tes ennemis la fureur est trop grande.</l>
+	<l id='650'>Ce n'est plus ton exil, c'est ta mort qu'on demande.</l>
+	<l id='651'>Leurs complots sont tout prêts, je les dois prévenir.</l>
+	<l id='652'>Je les tiens tous les deux, et tous deux vont périr.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='653'>Tous deux veulent ma mort ? Quoi, le pontife Arsène...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='654'>Il excite en secret le courroux d'Emirène.</l>
+	<l id='655'>En vantant les vertus il sème les forfaits,</l>
+	<l id='656'>Et trouble l'univers au nom d'un Dieu de paix.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='657'>Je ne les croyais pas si cruels l'un et l'autre....</l>
+	<l id='658'>Mais si ma vie enfin peut conserver la vôtre....</l>
+	<l id='659'>Emirène... ma mort la pourrait apaiser.</l>
+	<l id='660' part='i'>Elle doit la vouloir....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='660' part='f'>Quoi, tu peux l'excuser !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='661'>Oui, je dois excuser sa fureur vengeresse :</l>
+	<l id='662'>Sans moi, sans mon amour elle aurait ta tendresse ;</l>
+	<l id='663'>Je sens qu'un tel forfait ne peut se pardonner.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Lothaire, Valrade, Gontier.</head>
+<sp who='GONTIER'><speaker>GONTIER.</speaker>
+	<l id='664'>Seigneur, à ses soldats Arsène ose donner</l>
+	<l id='665'>Du haut de vos remparts le signal du carnage.</l>
+	<l id='666'>Tandis que contre nous il anime leur rage,</l>
+	<l id='667'>Il parle à vos guerriers, il présence à leurs yeux</l>
+	<l id='668'>L'ange exterminateur prêt à fondre sur eux.</l>
+	<l id='669'>La moitié s'épouvante, et le peuple en alarmes,</l>
+	<l id='670'>S'oppose à tous nos soins, veut arracher nos armes.</l>
+	<l id='671'>Raimond réprime en vain, paries plus grands efforts,</l>
+	<l id='672'>La révolte au dedans, les assauts au dehors.</l>
+	<l id='673'>Le désordre, l'effroi, le fanatisme règne.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='674'>Pourvu que je nie venge, il n'est rien que je craigne.</l>
+	<l id='675' part='i'>Allons.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='675' part='f'>Lothaire !... Ô Ciel !... Ô Dieu dont le courroux</l>
+	<l id='676'>De moment en moment s'appesantit sur nous,</l>
+	<l id='677'>Que mes pleurs, mes remords, mon malheur te fléchisse ;</l>
+	<l id='678'>Je ne demande point qu'arrêtant ta justice,</l>
+	<l id='679'>Tu détournes les traits prêts à nous accabler :</l>
+	<l id='680'>Sur ma tête, sur moi daigne les rassembler ;</l>
+	<l id='681'>Que ma rivale règne, et que moi je périsse,</l>
+	<l id='682'>Aux yeux de l'univers armé pour mon supplice.</l>
+	<l id='683'>Mais épargne Lothaire, ô ciel ! et me permets</l>
+	<l id='684'>D'effacer en mourant tous les maux que j'ai faits.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='685'>Ces cris tumultueux mêlés au bruit des armes,</l>
+	<l id='686'>Ont encore augmenté l'horreur de mes alarmes.</l>
+	<l id='687'>Lothaire, es-tu vainqueur, ou péris-tu pour moi ?</l>
+	<l id='688'>Ah mon incertitude ajoute à mon effroi !</l>
+	<l id='689'>Sachons si le destin m'est propice ou contraire....</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Valrade, Morange.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='690'>Morange, que fait-on, qu'est devenu Lothaire ?</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='691'>On dit que sa valeur, par des coups inouïs,</l>
+	<l id='692'>À trois fois des remparts chassé les ennemis ;</l>
+	<l id='693'>Mais tandis qu'il combat, tout ce peuple en furie</l>
+	<l id='694'>Par Arsène excité demande votre vie.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='695'>Qu'il soit juste du-moins, qu'en s'armant contre moi,</l>
+	<l id='696'>Qu'en punissant mon crime, il respect son roi.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='697'>De Raimond cependant la sage vigilance</l>
+	<l id='698'>De ces séditieux réprime l'insolence ;</l>
+	<l id='699'>À Lothaire, Madame, il donne des secours,</l>
+	<l id='700'>Il veille sur Arsène, il assure vos jours.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='701'>Il me défend en vain, le ciel qui veut ma perte</l>
+	<l id='702'>Déjà devant mes yeux tient ma tombe entr'ouverte,</l>
+	<l id='703' part='i'>Mon Dieu ! j'y descendrai.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='703' part='f'>Vous me faites frémir ;</l>
+	<l id='704' part='i'>Quel projet formez-vous, Madame ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='704' part='f'>De mourir,</l>
+	<l id='705'>D'éteindre par ma mort un feu trop condamnable.</l>
+	<l id='706'>Je me flatte en mourant que ce Dieu qui m'accable,</l>
+	<l id='707'>Satisfait des remords qui troublent mon repos,</l>
+	<l id='708'>Au delà du trépas n'étendra point mes maux.</l>
+	<l id='709'>Il fait que si sur moi j'avais plus de puissance,</l>
+	<l id='710'>J'aurais anéanti ce feu dès sa naissance,</l>
+	<l id='711'>Que jamais par mes soins il ne fut excité :</l>
+	<l id='712'>Larmes, fuite, prière, en vain j'ai tout tenté.</l>
+	<l id='713'>Dieu me voit et m'entend, il fait si j'en imposes</l>
+	<l id='714'>Si je ne vainquis pas, le sort en est la cause ;</l>
+	<l id='715'>J'ai fait ce que j'ai dû. Grand Dieu ! combien de fois</l>
+	<l id='716'>Parlant pour ma rivale et défendant ses droits,</l>
+	<l id='717'>Ai-je irrité Lothaire et déchiré mon âme !</l>
+	<l id='718'>Et même en ce moment où cédant à sa flamme</l>
+	<l id='719'>J'allais m'unir à lui par d'éternels serments,</l>
+	<l id='720'>L'effroi glaça mon coeur, je perdis tous mes sens.</l>
+	<l id='721'>Dans ses bras à l'autel il m'emporta mourante.</l>
+	<l id='722'>Quand il joignit sa main à ma main défaillante,</l>
+	<l id='723'>Qu'il prononça ses voeux et qu'il reçut ma foi,</l>
+	<l id='724'>Des remords dévorants s'élevèrent en moi ;</l>
+	<l id='725'>Que n'ai-je fait depuis pour effacer ces crimes ;</l>
+	<l id='726'>Pour faire aimer du moins ces noeuds illégitimes,</l>
+	<l id='727'>Pour m'attacher ce peuple et pour le rendre heureux ?</l>
+	<l id='728'>Le ciel, qui me poursuit, a trompé tous mes voeux :</l>
+	<l id='729'>Des fléaux les plus grands il accable Lothaire,</l>
+	<l id='730'>Il souffle en ses états la révolte et la guerre,</l>
+	<l id='731'>Il rappelle Emirène, il soulève vingt rois.</l>
+	<l id='732'>Ce peuple qui m'aimait, qui fit voir autrefois</l>
+	<l id='733'>Des transports si touchants quand je devins sa reine,</l>
+	<l id='734'>Veut me livrer lui-même aux fureurs d'Emirène.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='735'>Non, il ne vous hait pas, non ; Ce peuple aujourd'hui,</l>
+	<l id='736'>Loin de son caractère emporté malgré lui,</l>
+	<l id='737'>Pénétré des remords qui déchirent votre âme,</l>
+	<l id='738'>Vous chérit, et vous plaint en blâmant votre flamme.</l>
+	<l id='739'>Par la religion en secret alarmé,</l>
+	<l id='740'>À regret contre vous ce peuple s'est armé.</l>
+	<l id='741'>Il pleure, il en gémit ; mais frappé d'anathème,</l>
+	<l id='742'>Il craint en vous servant de combattre Dieu même.</l>
+	<l id='743'>Hélas ! Et qui pourrait de la religion</l>
+	<l id='744'>Dans ces moments d'effroi, de désolation,</l>
+	<l id='745'>Ne pas appréhender la fatale colère ?</l>
+	<l id='746'>Ah ! jugez à nos coeurs combien vous êtes chère :</l>
+	<l id='747'>Tous ceux à vous servir qui resteront constants</l>
+	<l id='748'>Déjà sont dévoués aux éternels tourments :</l>
+	<l id='749'>Et pointant qui de nous a fui votre présence ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='750'>Ciel, n'accable que moi du poids de ta vengeance.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='751'>Je respecte mon Dieu, je crains de l'irriter ;</l>
+	<l id='752'>Mais s'il faut vous trahir, mais s'il faut vous quitter,</l>
+	<l id='753'>Tout mon coeur révolté frémit et se déchire...</l>
+	<l id='754' part='i'>Non....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='754' part='f'>Obéis aux lois qu'on a dû te prescrire. </l>
+	<l id='755'>Mais si quelque pitié te parle en ma faveur,</l>
+	<l id='756'>Morange, en me quittant, en voyant ma douleur,</l>
+	<l id='757'>Daigne à mas pleurs au moins rendre un dernier service.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='758'>Parlez ; il n'est pour vous rien que je n'accomplisse.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='759'>Mon âme, malgré moi, se remplit de terreur...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='760'>Parlez, vous pâlissez, une sombre fureur</l>
+	<l id='761'>Dans vos yeux égarés brille au travers des larmes ;</l>
+	<l id='762' part='i'>Madame...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='762' part='m'>Oui, je le dois.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='762' part='f'>Apaisez vos alarmes.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='763' part='i'>Oui, je l'ai résolu.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='763' part='f'>Quel est donc ce dessein ?</l>
+	<l id='764'>Tout votre corps frémit, vous pleurez dans mon sein...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='765'>C'en est trop : il est temps de finir ma misère,</l>
+	<l id='766'>De sauver Emirène, et ce peuple, et Lothaire.</l>
+	<l id='767'>Cours, Morange... Emirène !... Elle est en ce palais...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='768' part='i'>On y retient ses pas.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='768' part='f'>Va, dis-lui... non jamais...</l>
+	<l id='769' part='i'>Il le faut cependant...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='769' part='f'>Mais qu'espérez-vous d'elle ?...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='770'>Morange, prends pitié de ma peine cruelle.</l>
+	<l id='771'>Si Lothaire évitait la mort dans ces combats...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='772'>Ne craignez rien, Madame, il porte ici ses pas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lothaire, Valrade.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='773'>J'ai combattu pour toi, j'ai fixé la victoire ;</l>
+	<l id='774'>Le ciel en m'accablant m'accorde un peu de gloire.</l>
+	<l id='775'>Nos ennemis n'ont pu soutenir ma fureur ;</l>
+	<l id='776'>Mais ce combat fatal augmente mon malheur.</l>
+	<l id='777'>De mes braves guerriers je perds, les plus fidèles,</l>
+	<l id='778'>Je ne suis entouré que de sujets rebelles ;</l>
+	<l id='779'>Arsène en est plus fier, ainsi que plus puissant.</l>
+	<l id='780'>Il dit avec audace à ce peuple tremblant,</l>
+	<l id='781'>Que Dieu pour me punir d'un orgueil téméraire,</l>
+	<l id='782'>N'a pas besoin d'armer les princes de la terre,</l>
+	<l id='783'>Qu'il prétend m'accabler par d'invisibles traits.</l>
+	<l id='784'>Il est temps d'arrêter le cours de ses forfaits,</l>
+	<l id='785'>De punir son audace et d'assurer ta tête.</l>
+	<l id='786'>Permets que loin de toi j'écarte la tempête,</l>
+	<l id='787'>Tandis que cette nuit nous porterons l'horreur</l>
+	<l id='788'>Au camp de ces guerriers qu'a vaincu ma valeur.</l>
+	<l id='789'>Par les détours cachés d'une route secrète,</l>
+	<l id='790'>Gontier hors de ces murs doit guider ta retraite.</l>
+	<l id='791'>Je m'arrache le coeur en te laissant partir,</l>
+	<l id='792'>Mais tu ne peux rester dans ces lieux sans périr.  </l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='793'>Si j'ai brisé les noeuds qui liaient nos destins,</l>
+	<l id='794'>Je meurs, tout est changé, reprend la de mes mains.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='795'>Moi, je la recevrais de ton sang dégoutante !</l>
+	<l id='796'>Moi ?... Je pourrais... Grands Dieux !... Cruelle et chère amante,</l>
+	<l id='797'>Ne livre point ton âme à tant de désespoir ;</l>
+	<l id='798'>Laisse moi m'enivrer du bonheur de te voir :</l>
+	<l id='799'>Laisse moi me flatter encor de l'espérance</l>
+	<l id='800'>De vaincre, ou de mourir au moins pour ta défense.</l>
+	<l id='801'>Cesse de m'affliger ; tes larmes, ton effroi,</l>
+	<l id='802'>Ces regards douloureux, que tu fixes sur moi,</l>
+	<l id='803'>Dans mon coeur pénétré porte trop d'épouvante :</l>
+	<l id='804'>Il semble autour de toi que la mort soit errante.</l>
+	<l id='805' part='i'>Que crains-tu ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='805' part='m'>Ton amour.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='805' part='f'>Il doit te rassurer.</l>
+	<l id='806'>Du tyran qui t'opprime il va te délivrer.</l>
+	<l id='807'>Calme-toi, ne crains rien, ma vengeance s'apprête.</l>
+	<l id='808'>Je vais tout préparer pour garantir ta tete ;</l>
+	<l id='809'>Je reviens sur mes pas, attend moi dans ces lieux.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='810' part='i'>Tu me quittes déjà.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='810' part='m'>Valrade !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='810' part='f'>Justes cieux !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='811'>Je-m'éloigne un moment pour assurer ta vie,</l>
+	<l id='812'>Pour t'arracher des mains qui t'ont trop poursuivie.  </l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='813' part='i'>Eh quoi.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='813' part='m'>Le temps est cher.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='813' part='f'>Je ne puis te quitter.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='814'>Tes jours sont en péril ; puis-je trop me hâter ?</l>
+	<l id='815' part='i'>Adieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='815' part='f'>C'en est donc fait, il me fuit, il m'échappe,</l>
+	<l id='816'>Je le perds pour jamais... Ô Dieu terrible, frappe,</l>
+	<l id='817'>Frappe, mais que ma mort expiant tant d'erreur,</l>
+	<l id='818'>De Lothaire du moins soit le dernier malheur.</l>
+	<l id='819'>Si l'amour fit ses maux, que l'amour les finisse....</l>
+	<l id='820'>Implorons ma rivale... Ô céleste justice !</l>
+	<l id='821'>Quel froid saisissement succède à mon transport ?</l>
+	<l id='822'>Je succombe... Ô mon Dieu ! Je ne crains point la mort...</l>
+	<l id='823'>Emirène !... Ah comment soutenir ses approches,</l>
+	<l id='824'>Sa fierté, ses mépris, ses outrageants reproches ?</l>
+	<l id='825'>Je ne pourrai jamais... Que plutôt tout mon sang...</l>
+	<l id='826'>Mais que dis-je ?... Lothaire ! On va percer ton flanc ;</l>
+	<l id='827'>Et quand je puis parer le coup que l'on t'apprête,</l>
+	<l id='828'>La crainte du reproche et me glace et m'arrête ?...</l>
+	<l id='829'>Est-il temps de le craindre ?... Ah remords !... Ah douleur !</l>
+	<l id='830'>Ah j'ai bravé pour toi dans ma fatale ardeur</l>
+	<l id='831'>Les jugements humains et le courroux céleste...  </l>
+	<l id='832'>Oui, je dois tout braver dans ce monde funesTe ;</l>
+	<l id='833'>Pourvu que du tombeau tes jours soient arrachés.</l>
+	<l id='834'>Les outrages, les fers, les tourments recherchés,</l>
+	<l id='835'>endurés pour toi seul n'auront point d'amertume.</l>
+	<l id='836'>Je frissonne ... et malgré l'horreur qui me consume,</l>
+	<l id='837'>Je cours, je vais cherche cette rivale... Ô cieux ?</l>
+	<l id='838' part='i'>La voici... Je me meurs.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Emirène, Valrade évanouie.</head>
+<sp who='EMIRENE'><speaker>EMIRENE, entrant avec précipitation.</speaker>
+	<l id='838' part='f'>Quoi ? Partout en ces lieux</l>
+	<l id='839'>Je porte vainement ma démarche incertaine :</l>
+	<l id='840'>Quoi, ces murs dont je fus autrefois souveraine,</l>
+	<l id='841'>Ces murs sont ma prison. De barbares soldats</l>
+	<l id='842'>Aux portes du palais ont arrêtés mes pas.</l>
+	<l id='843'>Arsène m'abandonne : inquiète égarée,</l>
+	<l id='844'>Je cours tout ce palais à la terreur livrée.</l>
+	<l id='845'>On s'est battu longtemps sur ces remparts ouverts,</l>
+	<l id='846'>Les combats sont cessés, et je suis dans le sfers !</l>
+	<l id='847'>Lothaire est-il vainqueur ? Valrade triomphante</l>
+	<l id='848'>Va-t-elle après son char me traîner expirante ?</l>
+	<l id='849'>Je veux, s'ils sont vainqueurs, les immolant tous deux,</l>
+	<l id='850'>Je veux... Ciel ! Quel objet se présente à mes yeux !...</l>
+	<l id='851'>Est-ce elle que je vois mourante, inanimée !...</l>
+	<l id='852'>Ah ! Pourquoi cette main est-elle désarmée !...</l>
+<stage>S'approchant de Valrade avec fureur.</stage>
+	<l id='853' part='i'>Perfide.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE liassant échapper ce soupie avec oppression et avec douleur.</speaker>
+	<l id='853' part='m'>Ah ! </l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='853' part='m'>Répondez.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='853' part='m'>Ah !</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='853' part='f'>Ses accents plaintifs,</l>
+	<l id='854'>Tout ce corps agité de tourments convulsifs,</l>
+	<l id='855'>La livide pâleur qui couvre son visage,</l>
+	<l id='856'>Ses soupirs, ses sanglots étouffés au passage,</l>
+	<l id='857'>Tout me peint la nature à son dernier effort,</l>
+	<l id='858'>Qui tombe et se débat dans les bras de la mort.</l>
+	<l id='859'>Si c'était mon époux qui me l'eût immolée !...</l>
+	<l id='860'>Quel espoir vient flatter mon âme désolée ?...</l>
+	<l id='861'>Que ne puis-je avançant l'instant de son trépas,</l>
+	<l id='862' part='i'>Assouvir ma vengeance ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='862' part='f'>Ô ciel ! Où suis-je ?... Hélas !</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='863'>Elle reprend ses sens, mon espérance est vaine.</l>
+	<l id='864' part='i'>Ô fureur !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE se levant et s'appuyant sur le dos de son fauteuil.</speaker>
+	<l id='864' part='f'>Je frissonne, et me soutiens à peine.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='865'>Elle frémit : ses yeux n'osent me regarder ;</l>
+	<l id='866'>Ma présence en effet la doit intimider.</l>
+	<l id='867'>Tremble : mais répond moi, toi de qui l'insolence</l>
+	<l id='868'>Osait contre Lothaire embrasser ma défense,</l>
+	<l id='869'>Es-tu donc aujourd'hui l'arbitre de mon sort ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, se jetant à genoux.</speaker>
+	<l id='870'>Moi, Madame ? À vos pieds je viens chercher la mort.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='871' part='i'>Toi ?...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='871' part='m'>Daignez m'écouter.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE s'asseyant et laissant Valrade à ses pieds.</speaker>
+	<l id='871' part='f'>Parle, mais sois certaine</l>
+	<l id='872'>Que tes larmes en vain voudraient fléchir ma haine.</l>
+	<l id='873'>Mon coeur trop indigné ne te pourra jamais</l>
+	<l id='874'>Pardonner mes affronts, ni tes lâches forfaits.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, à genoux.</speaker>
+	<l id='875'>Je n'espère de vous, ni ne veux point de grâce :</l>
+	<l id='876'>Si je suis à vos pieds, si ma main les embrasse,</l>
+	<l id='877'>Ce n'est pas pour sauver des jours infortunés,</l>
+	<l id='878'>À l'opprobre, aux malheurs, aux remords condamnés.</l>
+	<l id='879'>Poursuivie en tous lieux, livrée à l'anathème,</l>
+	<l id='880'>En scandale aux humains, en horreur à moi-même,</l>
+	<l id='881'>En bute à tous les maux, à tous les traits du sort,</l>
+	<l id='882'>Mon unique refuge est le sein de la mort.</l>
+	<l id='883'>Mais prête à m'y plonger, j'ose venir moi-même,</l>
+	<l id='884'>Vous implorer ici pour le héros que j'aime.</l>
+	<l id='885'>Lothaire mon amant, Lothaire votre époux,</l>
+	<l id='886'>Consolé par mes soins, persécuté par vous.</l>
+	<l id='887'>Sans secours, sans appui, même sans espérance,</l>
+	<l id='888'>Malgré moi, contre vous embrassant ma défense,</l>
+	<l id='889'>Lothaire au désespoir, Lothaire va périr.</l>
+	<l id='890'>À mon juste trépas il ne peut consentir.</l>
+	<l id='891'>Ne l'y contraignez point : et je me sacrifie,</l>
+	<l id='892'>Madame, vengez vous, disposez de ma vie ;</l>
+	<l id='893'>Signalez par ma mort toute votre fureur ;</l>
+	<l id='894'>Enfoncez à longs traits le poignard dans mon coeur ;</l>
+	<l id='895'>Arrachez moi le jour au milieu des tortures ;</l>
+	<l id='896'>Par des tourments sans nombre effacez vos injures ;</l>
+	<l id='897'>je me livre à vos coups ; pourvu que mon trépas</l>
+	<l id='898'>Garantisse ses jours, je ne me plaindrai pas.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='899'>Ah qu'entends-je ?... Barbare, et perfide ennemi !</l>
+	<l id='900'>Ce sacrifice encore accroit ma jalousie.</l>
+	<l id='901'>C'est un nouvel affront que me fait ton amour.</l>
+	<l id='902'>Tu prétends à ses yeux m'avilir sans retour ;</l>
+	<l id='903'>Et je la sauverais, pour l'entendre sans cesse,</l>
+	<l id='904'>Me reprocher ta mort, me vanter ta tendresse ?</l>
+	<l id='905' part='i'>Non, que plutôt tous trois...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='905' part='f'>Que dites-vous ? Ô Dieux !</l>
+	<l id='906'>Pour m'avoir été’ cher vous est-il odieux ?</l>
+	<l id='907'>Sensible-seulement aux malheurs, à l'offense,</l>
+	<l id='908'>Sans éprouver l'amour suivez-vous la vengeance ?</l>
+<stage>Se relevant.</stage>
+	<l id='909'>Ah Lothaire est perdu ; je n'espérais qu'en vous.</l>
+	<l id='910'>Est-il temps d'écouter des sentiments jaloux ?</l>
+	<l id='911'>Si vous l'aimiez, Madame, autant que je l'adore.....</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE se levant.</speaker>
+	<l id='912'>Vos feux égalent-ils le feu qui me dévore ?</l>
+	<l id='913'>Le sang que j'ai versé, les maux de cet État,</l>
+	<l id='914'>Tous ces rois par mes cris ligués contre l'ingrat,</l>
+	<l id='915'>Ces meurtres, ces combats, ces preuves de ma flamme.....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='916'>Quelles preuves d'amour vous lui donnez, Madame !</l>
+	<l id='917'>Vous déchirez son coeur, je m'immole pour lui.</l>
+	<l id='918'>Qu'il vive, qu'il vous aime, et m'oublie aujourd'hui ;</l>
+	<l id='919'>Qu'il soit heureux sans moi, je mourrai trop contente.</l>
+	<l id='920'>Hâtez vous, de ces murs arrachez moi mourantes,</l>
+	<l id='921'>Mais prévenez Arsène, arrêtez ses desseins.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='922'>Il n'agit que pour moi, j'ai seule armé ses mains,</l>
+	<l id='923'>Je les désarmerai... Mais quelle erreur grossière !</l>
+	<l id='924'>Nous régnez dans ces lieux, et j'y suis prisonnière.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='925'>Arsène seul domine en ces tristes remparts,</l>
+	<l id='926'>Et vos gardes fuiront à ses premiers regards.</l>
+	<l id='927'>Si vous me promettez de fléchir sa colère,</l>
+	<l id='928'>S'il cesse d'opprimer le malheureux Lothaire,</l>
+	<l id='929' part='i'>Je me livre en vos mains.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='929' part='f'>J'y consens, ton trépas</l>
+	<l id='930'>Vengera mes tourments s'il ne les finit pas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Emirène, Valrade, Arsène, Peuple.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='931'>Venez, Reine, sortez de ce palais impie,</l>
+	<l id='932' part='i'>Soyez libre.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='932' part='f'>Ah Lothaire ! As-tu perdu la vie ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='933'>Ces zélés citoyens, fidèles à leur Dieu,</l>
+	<l id='934'>Ont dirigé mes pas, et m'ont ouvert ce lieu.</l>
+	<l id='935'>Daignez les suivre au temple, où mon ordre rallie</l>
+	<l id='936'>Tous ceux de qui la foi ne s'est pas démentie.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='937'>Seigneur, tout va changer : Valrade à mon courroux,</l>
+	<l id='938'>Valrade vient s'offrir pour sauver mon époux.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='939'>Oui, mais que mon trépas obtienne au moins sa grâce ;</l>
+	<l id='940'>Détournez loin de lui la mort qui le menace.  </l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='941'>Je voulais son salut ; votre amour généreux,</l>
+	<l id='942'>Ce noble dévouement peut déciller les yeux.</l>
+	<l id='943' part='i'>Ne craignez rien pour lui.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='943' part='f'>J'en crois votre promesse :</l>
+	<l id='944'>Expiez dans mon sang ma fatale tendresse.</l>
+	<l id='945'>Du Dieu que vous servez je bénis la rigueur.</l>
+	<l id='946'>Madame... pardonnez... excluez ma douleur.</l>
+	<l id='947'>Hélas ! quand il saura que j'ai perdu la vie,</l>
+	<l id='948'>Sensible à mon trépas si son âme attendrie,</l>
+	<l id='949'>S'abandonne aux regrets et plaint trop mon malheur.</l>
+	<l id='950'>D'un reproche cruel n'affligez point son coeur.</l>
+	<l id='951'>Et vous, Seigneur, et vous, montrez votre justice,</l>
+	<l id='952'>Délivrez ces remparts et hâtez mon supplice.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='953'>Madame... Serviteurs des lois de l'Éternel,</l>
+	<l id='954'>Accompagnez ses pas aux marches de l'autel ;</l>
+	<l id='955'>De vous et du clergé que la garde fidèle</l>
+	<l id='956'>La retienne en ces lieux, et me réponde d'elle.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, tandis qu'on l'emmène.</speaker>
+	<l id='957'>Tout est fini pour moi, je ne le verrai plus.</l>
+	<l id='958'>Ô jour du désespoir ! Ô regrets superflus !</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='959'>Valrade se dévoue... Elle cède à sa flamme...</l>
+	<l id='960'>N'ai-je armé l'univers que pour perdre une femme ?</l>
+	<l id='961'>Mes desseins sont trompés par ce grand incident ;</l>
+	<l id='962'>Mais non, de son danger instruisons son amant,</l>
+	<l id='963'>Qu'il cherche à la sauver et périsse lui-même.</l>
+	<l id='964'>Le crime trop longtemps souilla son diadème.</l>
+	<l id='965'>Dieu juge également les rois et les sujets ;</l>
+	<l id='966'>D'un supplice sans borne il punit les forfaits.</l>
+	<l id='967'>Frappons à son exemple, imitons ses vengeances,</l>
+	<l id='968'>Ce Roi pour être absous a commis trop d'offenses ;</l>
+	<l id='969'>Terminons aujourd'hui, par son juste trépas,</l>
+	<l id='970'>Des Rois et du clergé les éternels combats,</l>
+	<l id='971'>Et que dans Rome enfin le monde entier révère</l>
+	<l id='972'>Un pouvoir au dessus du pouvoir de la guerre.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Arsène, Lothaire.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, à un garde qui le suit.</speaker>
+	<l id='973'>Que l'on cherche Valrade, allez... J'espère enfin</l>
+	<l id='974'>L'arracher aux complots d'un brigand inhumain.</l>
+<stage>Apercevant Arsène.</stage>
+	<l id='975' part='i'>Ciel ! C'est vous.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='975' part='f'>Oui ; Dieu même à vos yeux me ramène ;</l>
+	<l id='976'>Je viens vous consulter sur vous, sur Emirène.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='977'>Je me sacrifiais pour changer ses destins ;</l>
+	<l id='978'>Mais s'il faut immoler Valrade à vos desseins,</l>
+	<l id='979'>Vous et les partisans de vos ligues sanglantes,</l>
+	<l id='980'>Vous mourrez avec moi sous ces voutes brulantes.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='981'>Des complots de l'impie, et du fer des méchants,</l>
+	<l id='982'>Le Dieu qui les confond sauvera ses enfants :  </l>
+	<l id='983'>Et malgré vos Fureurs, sans combats, sans défense,</l>
+	<l id='984'>Vous tomberez bientôt vous-même en ma puissance.</l>
+	<l id='985'>Dieu qui trompe vos voeux, hâte ses grands desseins,</l>
+	<l id='986'>Il a déjà remis Valrade entre mes mains.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='987' part='i'>Valrade est dans vos mains ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='987' part='f'>Oui : tremblez pour vous-même</l>
+	<l id='988'>Malheureux qui bravez la puissance suprême.</l>
+	<l id='989'>Nous verrons si forcé de choisir entre nous,</l>
+	<l id='990'>Ce peuple aimera mieux s'immoler avec vous,</l>
+	<l id='991'>Que de vivre avec moi sous la garde éternelle</l>
+	<l id='992'>Du Dieu maitre des Rois que ma voix lui révèle.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Lothaire, Raimond.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='993'>Valrade est en ses mains... L'ai-je bien entendu ?...</l>
+	<l id='994'>Et mes sens interdits... Suivons-le... J'aurais dû...</l>
+	<l id='995'>Dieu puissant... Ah Raimond ! Partage ma furie,</l>
+	<l id='996'>Partage mes douleurs, Valrade m'est ravie.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='997' part='i'>Qui vous l'enlève !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='997' part='f'>Arsène : et par ses attentats...</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='998'>Où l'a-t-il emmenée ? Où retient-il ses pas ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='999'>Je sais qu'il l'enleva ; j'ignore tout le reste.</l>
+	<l id='1000'>Séparons nous, va, cours, sa rage est manifeste ;</l>
+	<l id='1001'>Il demande sa mort, il la fera périr....</l>
+	<l id='1002'>Maisons, temple, palais, il faut tout parcourir.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1003' part='i'>Écoute.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1003' part='f'>En cet instant elle expire peut-être.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1004' part='i'>Tes soldats.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1004' part='f'>Il en est qui défendront leur maitre.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1005' part='i'>Ton peuple le seconde.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1005' part='f'>Il tremble devant lui ;</l>
+	<l id='1006'>Plein d'une sainte horreur il croit Dieu son appui ;</l>
+	<l id='1007'>Mais en me trahissant je vois encor qu'il m'aime ;</l>
+	<l id='1008'>Il sera pénétré de ma douleur extrême.</l>
+	<l id='1009'>Et quel coeur si timide et si glacé d'effroi,</l>
+	<l id='1010'>Craindra de partager le péril de son roi ?</l>
+	<l id='1011'>Sa superstition sans doute peut séduire,</l>
+	<l id='1012'>Mais l'honneur, la raison n'auraient-ils plus d'empire ?</l>
+	<l id='1013'>Non, je ne le crois pas, non, ce peuple égaré,</l>
+	<l id='1014'>Puisqu'il suit un faux jour voudrait être éclairé :</l>
+	<l id='1015'>Et je ne puis penser que pour servir ce prêtre,</l>
+	<l id='1016'>De leurs sanglantes mains ils massacrent leur maitre.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<stage>Le Théâtre représente la nef d'une église : La porte ouverte laisse voir au fond du théâtre une place publique, au milieu de laquelle est un échafaud. Sur un des côtés du théâtre il y a un autel éclairé par des cierges : un glaive et un bandeau sont posés sur l'autel. Des chapelles font autour de la nef.</stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE, parlant aux prêtres et au peuple que l'entourent.</speaker>
+	<l id='1017'>Raimond vient dans ce temple ; il le faut écouter.</l>
+	<l id='1018'>Sa vertu, son génie est trop à redouter.</l>
+	<l id='1019'>Allez, et suspendez ces apprêts formidables,</l>
+	<l id='1020'>Ce funeste appareil de la mort des coupables.</l>
+	<l id='1021'>Ne hâtez pas l'instant favorable et cruel,</l>
+	<l id='1022'>Où Valrade expiera son amour criminel.</l>
+	<l id='1023'>Quand Raimond quittera ce sacré sanctuaire,</l>
+	<l id='1024'>Je vous dirai du ciel la volonté dernière.</l>
+	<l id='1025' part='i'>Qu'il vienne.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1025' part='f'>Ce Raimond, qui cherche à me parler,</l>
+	<l id='1026'>S'il défend son ami se doit-il immoler ?</l>
+	<l id='1027'>Que ne puis-je enchainer ce sage trop austère</l>
+	<l id='1028'>Sur le tombeau sanglant du malheureux Lothaire !</l>
+	<l id='1029'>Si la religion dont il brava la loi</l>
+	<l id='1030'>Pouvait au fond du coeur lui causer quelque effroi !...</l>
+	<l id='1031'>Tous les faibles humains frémissent devant elle.</l>
+	<l id='1032'>Pour le soumettre au joug employons tout mon zèle,</l>
+	<l id='1033'>Qu'il tombe à nos genoux ; mais si trop endurci</l>
+	<l id='1034'>De Rome et de l'Église il demeure ennemi,</l>
+	<l id='1035'>Au pied de cet autel qu'il tombe en sacrifice ;</l>
+	<l id='1036'>Que ce peuple étonné tremble de son supplice ;</l>
+	<l id='1037'>Et par ce grand exemple épouvantons enfin</l>
+	<l id='1038'>Tous ceux de qui l'esprit au doute est trop enclin.</l>
+	<l id='1039'>Le voici : par quel art captiver sa sagesse,</l>
+	<l id='1040'>S'il est sans préjugé, sans crainte, et sans faiblesse ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Arsène, Raimond.</head>
+<sp who='RAIMOND'><speaker>RAIMOND, entrant avec précipitation.</speaker>
+	<l id='1041'>Seigneur, au nom du Dieu dont vous vantez les lois ;</l>
+	<l id='1042'>Au nom d'un peuple entier, au nom de tous les rois,</l>
+	<l id='1043'>Détournez les malheurs que ce moment prépare.</l>
+	<l id='1044'>Choisi pour fléchir Dieu, vous n'êtes point barbare.</l>
+	<l id='1045'>Pourquoi cet échafaud, ce glaive, ce bandeau ?</l>
+	<l id='1046'>Vous, Seigneur, d'une femme êtes-vous le bourreau ?</l>
+	<l id='1047'>Par quel prix pourrions-nous l'arracher au supplice ?...</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1048'>L'arrêt est prononcé, Dieu veut qu'il s'accomplisse.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1049'>Eh quoi ?... Lorsque Lothaire à son devoir rendu,</l>
+	<l id='1050'>Cousent à renouer le noeud qu'il a rompu,</l>
+	<l id='1051'>Vous voulez que sa main dans le sang soit trempée ?</l>
+	<l id='1052'>Qu'Emirène jalouse en le voyant trompée,  </l>
+	<l id='1053'>Appelle le trépas, et le veuille imposer ?</l>
+	<l id='1054'>La passion l'aveugle, on la doit excuser.</l>
+	<l id='1055'>Mais vous, qui des humains condamnant la faiblesse,</l>
+	<l id='1056'>Contre nos passions vous élevez sans cesse,</l>
+	<l id='1057'>Indifférent à tout dans votre austérité,</l>
+	<l id='1058'>Foulez-vous sous vos pieds avec tranquillité,</l>
+	<l id='1059'>Les champs couverts de morts, les cendres dispersées,</l>
+	<l id='1060'>Et les débris sanglants des villes embrasées ?</l>
+	<l id='1061'>Ah ! rendez nous la paix, laissez vous émouvoir</l>
+	<l id='1062'>Aux lamentables cris d'un peuple au désespoir.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1063'>Vous seul causez ses maux, défenseur de Lothaire ;</l>
+	<l id='1064'>Votre génie a seul prolongé cette guerre.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1065'>Je cherche à la finir ; je voudrais que ma main.</l>
+<note type='L'>Pépin le Bref [715-768] : fils de Chales Martel et père de Charlemagne, fut roi des Francs de 751 à 768.</note>
+	<l id='1066'>Pût rassembler en paix les enfants de Pépin.</l>
+	<l id='1067'>Vous ministre du Dieu que l'Europe révère,</l>
+	<l id='1068'>Fléchissez leur courroux, pacifiez la terre.</l>
+	<l id='1069'>Pouvez-vous aux fureurs de leur ambition</l>
+	<l id='1070'>Joindre encor les fureurs de la religion ?</l>
+	<l id='1071'>Seigneur, si mon ami dans sa faiblesse extrême</l>
+	<l id='1072'>Trahit la foi jurée aux autels de Dieu même,</l>
+	<l id='1073'>Devez-vous engager ses crédules sujets</l>
+	<l id='1074'>À trahir les serments qu'à ses pieds ils ont faits ?</l>
+	<l id='1075'>Le parjure pour eux est-il plus légitime ?</l>
+	<l id='1076'>Ou pour punir l'erreur ordonnez-vous le crime ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1077'>Dieu qui reçut leurs voeux, peut les rompre à son gré.</l>
+	<l id='1078'>Un Roi, s'il trahit Dieu, cesse d'être sacré,</l>
+	<l id='1079'>L'Église le condamne, elle peut le proscrire.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1080'>Quoi, Seigneur, vous croyez... Mais qu'allais-je vous dire ?... </l>
+	<l id='1081'>Je sais trop qu'en secret votre coeur vous dément ;</l>
+	<l id='1082'>Vous pensez comme moi, vous parlez autrement.</l>
+	<l id='1083'>Mais si tous nos malheurs vous trouvent inflexible,</l>
+	<l id='1084'>Votre propre intérêt doit vous rendre sensible.</l>
+	<l id='1085'>Consultez-le, Seigneur, tandis qu'au nom de Dieu,</l>
+	<l id='1086'>Vous portez le carnage et la flamme en tout lieu ;</l>
+	<l id='1087'>Nos sujets révoltés deviennent vos esclaves ;</l>
+	<l id='1088'>Vous voulez que leurs mains soulevant leurs entraves,</l>
+	<l id='1089'>Des fers qu'ils ont reçus enchainent tous les rois,</l>
+	<l id='1090'>Que ces rois à genoux fléchissent sous vos lois ;</l>
+	<l id='1091'>Vous les avez déjà rendu vos tributaires ;</l>
+	<l id='1092'>Mais ces projets trop grands deviennent téméraires :</l>
+	<l id='1093'>On les connait : bientôt vous verrez détrompés</l>
+	<l id='1094'>Tous ceux qu'un zèle aveugle a trop préoccupés.</l>
+	<l id='1095'>Prévenez ces retours ; pour que le Pape règne,</l>
+	<l id='1096'>Faites qu'on le chérisse, et non pas qu'on le craigne.</l>
+	<l id='1097'>Entre les Souverains entretenez la paix,</l>
+	<l id='1098'>Gouvernez l'univers par le droit des bienfaits,</l>
+	<l id='1099'>C'est là le droit divin, et le seul légitime.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1100'>Croyez, qu'en tous les temps l'intérêt qui m'anime,</l>
+	<l id='1101'>Est l'intérêt sacré de la religion.</l>
+	<l id='1102'>C'est de mon coeur brulant la seule passion.</l>
+	<l id='1103'>Que la terre aujourd'hui me blâme et me reprouve,</l>
+	<l id='1104'>Je mourrai satisfait pourvu que Dieu m'approuve :</l>
+	<l id='1105'>Loin d'asservir les rois, la palme des martyrs</l>
+	<l id='1106'>Est le sceptre qui seul peut flatter mes désirs ;</l>
+	<l id='1107'>Prêt à mourir pour Dieu sans crainte et sans colère,</l>
+	<l id='1108'>Je m'expose aux fureurs des tyrans de la terre.</l>
+	<l id='1109'>Votre ami malheureux esclave de l'amour,</l>
+	<l id='1110'>S'endurcit dans le crime et se perd sans retour.</l>
+	<l id='1111'>Je n'ai point dans le cours de nos longues alarmes  </l>
+	<l id='1112'>Employé contre lui mes plus terribles armes,</l>
+	<l id='1113'>Ma clémence attendait toujours son repentir.</l>
+	<l id='1114'>Mais vous, de ses malheurs daignez vous garantir ;</l>
+	<l id='1115'>Adrien vous estime, il vous chérit en père ;</l>
+	<l id='1116'>Il n'a point disposé du trône de Lothaire,</l>
+	<l id='1117'>Par Dieu même éclaire, si vous l'abandonnez,</l>
+	<l id='1118'>Peut-être ses états vous seront-ils donnés.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1119'>Qui ? Moi ! De mon ami je ravirais l'empire ?</l>
+	<l id='1120'>Vous connaissez Raimond et pensez le séduire !</l>
+	<l id='1121'>Ô ciel ! L'osez vous croire ?... N'avez-vous pas su</l>
+	<l id='1122'>Qu'à vos agents secrets j'ai déjà répondu</l>
+	<l id='1123'>Que peut-être ils pourraient me renverser du trône,</l>
+	<l id='1124'>Me mettre dans les fers, me ravir la couronne,</l>
+	<l id='1125'>Ou me faire plonger un poignard dans le sein,</l>
+	<l id='1126'>Mais non pas m'engager à servir leur dessein ?</l>
+	<l id='1127'>Quoi ? C'est peut qu'en ce jour votre rage jalouse.</l>
+	<l id='1128'>Ait armé contre lui son peuple et son épouse,</l>
+	<l id='1129'>Vous voulez maintenant lui ravir son ami !</l>
+	<l id='1130'>Mais contre vos complots mon coeur s'est affermi.</l>
+	<l id='1131'>À son sort attaché jusqu'à ma dernière heure,</l>
+	<l id='1132'>Il faut que je le sauve, ou qu'avec lui je meure.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1133'>J'admire ce courage et ce zèle étonnant !</l>
+	<l id='1134'>Se peut-il qu'un grand coeur ait tant d'aveuglement ?</l>
+	<l id='1135'>Vous, l'ami des vertus, vous protégez les crimes ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1136'>Prêtre d'un Dieu clément, vous cherchez des victimes ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1137' part='i'>Je punis l'adultère.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1137' part='f'>Et vous assassinez.  </l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1138'>Dans le sang des proscrits les juges sont baignés.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1139' part='i'>Jugez-vous donc les Rois ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1139' part='f'>L'éternelle justice</l>
+	<l id='1140'>Leur impose souvent un éternel supplice.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1141'>Mais veut-elle qu'un peuple esclave de sa foi,</l>
+	<l id='1142'>Périsse tout entier pour la faute d'un roi ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1143'>Qu'importe qu'un royaume ou périsse ou subsiste,</l>
+	<l id='1144'>Pourvu que la vertu dans tous les temps existe ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1145'>Ainsi l'humanité sur vous n'a point de droits ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1146'>Je n'écoute que Dieu, je n'entends que sa voix.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1147' part='i'>Qu'exige-t-il enfin ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1147' part='f'>Que Lothaire fléchisse,</l>
+	<l id='1148'>Qu'il observe ses lois, que Valrade périsse....</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1149' part='i'>Quoi ? Dieu...</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1149' part='f'>Que pour punir tant de crimes commis</l>
+	<l id='1150'>Sou sceptre et sa couronne en mes mains soient remis :</l>
+	<l id='1151'>Dans les remparts de Rome il ira les reprendre,</l>
+	<l id='1152'>Aux genoux d'Adrien, s'il daigne les lui rendre.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1153'>Avant que de subir une semblable loi,</l>
+	<l id='1154'>L'infortuné Lothaire, et son amante et moi,  </l>
+	<l id='1155'>Au milieu des débris, dés morts et du carnage,</l>
+	<l id='1156'>Dans ce temple brulant, ouvert à votre rage,</l>
+	<l id='1157'>Nous périrons tous trois : et si d'un peuple entier,</l>
+	<l id='1158'>Si d'un peuple innocent ce jour est le dernier,</l>
+	<l id='1159'>Égorgé par vous seul, par vous que rien n'arrête,</l>
+	<l id='1160'>Puisse son sang tomber sur vous, sur votre tête.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE, seul.</speaker>
+	<l id='1161'>Ne ménageons plus rien, montrons à tous les rois,</l>
+	<l id='1162'>Qu'ils voudraient vainement se soustraire à nos lois.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Arsène, Emirène, Prêtres, Peuple.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1163'>Venez, vengeurs de Dieu, le ciel qui vous contemple,</l>
+	<l id='1164'>Veut aux rois, par vos mains, donner un grand exemple.</l>
+	<l id='1165'>Secondez son courroux qu'ils ont trop attiré ;</l>
+	<l id='1166'>À punir les forfaits ce jour est consacré.</l>
+	<l id='1167'>De Valrade à l'instant que le trépas s'apprête,</l>
+	<l id='1168'>Vous dont le bras vengeur doit abattre sa tête,</l>
+	<l id='1169'>Aux pieds de nos autels, allez, préparez vous</l>
+	<l id='1170'>En recevant Dieu même, à ces illustres coups.</l>
+<stage>En disant ces vers il prend sur l'autel le glaive et le bandeau, et les donne à des Prêtres.</stage>
+	<l id='1171'>Vous, plein d'un saint respect, préparez en silence</l>
+	<l id='1172'>Ces instruments sacrés de mort et de vengeance ;</l>
+	<l id='1173'>Que près de ce bandeau ce glaive soit placé.</l>
+	<l id='1174'>Au pied de l'échafaud qu'un bucher soit dressé :</l>
+	<l id='1175'>Qu'à l'instant ou le glaive aura puni ion crime.  </l>
+	<l id='1176'>Un feu saint et vengeur consume la victime ;</l>
+	<l id='1177'>Et qu'il soit allumé par Ces flambeaux sacrés,</l>
+	<l id='1178'>Au service de Dieu sur l'autel préparés.</l>
+	<l id='1179'>Que sa cendre fumante et de sang arrosée,</l>
+	<l id='1180'>Abandonnée aux vents soit enfin dispersée,</l>
+	<l id='1181'>Et qu'il ne reste plus de tant d'iniquité,</l>
+	<l id='1182'>Qu'un souvenir affreux à jamais détesté.</l>
+	<l id='1183'>Allez, servez ce Dieu terrible en sa vengeance ;</l>
+	<l id='1184'>Qui lit au fond des coeurs la plus secrète offense.</l>
+	<l id='1185'>Ne craignez que lui seul, n'obéissez qu'à lui,</l>
+	<l id='1186'>Songez que sa faveur vous choisit aujourd'hui,</l>
+	<l id='1187'>Qu'il faut en être digne ; et qu'il veut qu'un saint zèle</l>
+	<l id='1188'>Du monde par vos mains retranche l'infidèle.</l>
+<stage>Le peuple se retire. À la Reine.</stage>
+	<l id='1189'>Et vous de qui le ciel exauce les souhaits,</l>
+	<l id='1190'>Rendez grâce et tremblez de l'irriter jamais.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1191'>Je révère en tremblant sa sévère justice ;</l>
+	<l id='1192'>Mais, Seigneur, osez-vous préparer ce supplice,</l>
+	<l id='1193'>Sous les yeux indignés d'un monarque jaloux ?</l>
+	<l id='1194'>Osez-vous à ce point insulter mon époux ?</l>
+	<l id='1195'>Ah ! quand même en ce jour une foule insolente</l>
+	<l id='1196'>Empêcherait ce roi de sauver son amante,</l>
+	<l id='1197'>Si Valrade périt, vous le sentez, Seigneur,</l>
+	<l id='1198'>De mon époux trahi je deviendrai l'horreur.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1199'>Mais vous-même, Madame, exigiez son supplice.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1200'>Oui ; ma rage a longtemps voulu qu'elle périsse,</l>
+	<l id='1201'>Et mon coeur déchiré par d'éternels combats,</l>
+	<l id='1202'>Même en vous implorant désire son trépas.</l>
+	<l id='1203'>Je le sens ; mais au moins sensible à mes alarmes,  </l>
+	<l id='1204'>Ne me condamnez pas à de nouvelles larmes.</l>
+	<l id='1205'>Qu'elle parte, et s'il faut qu'elle périsse enfin,</l>
+	<l id='1206'>En des lieux éloignés terminez son destin.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1207'>Reine, ce châtiment si grand, si légitime,</l>
+	<l id='1208'>Doit éclater ici comme éclata son crime.</l>
+	<l id='1209'>On l'amène ; au trépas je vais la préparer.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1210'>D'horreur en la voyant je me sens pénétrer....</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1211'>Dans ces moments de mort, permettez moi, Madame,</l>
+	<l id='1212'>D'apaiser ses terreurs, de veiller sur son âme.</l>
+	<l id='1213' part='i'>Laissez nous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Arsène, Valrade, Peuple, Pretres qui amènent Valrade de l'intérieur de l'Eglise.</head>
+<sp who='VALRADE'><speaker>VALRADE, en s'avançant.</speaker>
+	<l id='1213' part='f'>Ô mon Dieu ! j'implore ta bonté,</l>
+	<l id='1214'>Daigne me soutenir dans mon adversité :</l>
+<stage>À Arsène.</stage>
+	<l id='1215'>Pardonne à mes remords... Votre prompte justice</l>
+	<l id='1216'>A déjà fait, Seigneur, préparer mon supplice...</l>
+	<l id='1217'>Dieu vous a fait mon juge... et vous devez punir :</l>
+	<l id='1218'>Mais la soumission, les pleurs, le repentir,</l>
+	<l id='1219'>Ont du ciel quelquefois désarmé la vengeance ;</l>
+	<l id='1220'>Le ciel vous a remis la suprême puissance</l>
+	<l id='1221'>D'absoudre, de punir, d'effacer les forfaits...</l>
+<stage>Se jetant à ses genoux.</stage>
+	<l id='1222'>Seigneur... absolvez moi des crimes que j'ai faits...</l>
+	<l id='1223'>Que j'expire du moins avec quelque espérance.  </l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1224'>Dieu reçoit et vos pleurs et votre repentance.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, se relevant.</speaker>
+	<l id='1225'>Je cours donc avec joie à la mort qui m'attend.</l>
+	<l id='1226'>Mais refuseriez-vous à mon dernier moment,</l>
+	<l id='1227'>De m'instruire du sort d'un prince trop à plaindre ?</l>
+	<l id='1228'>D'un peuple révolté n'a-t-il plus rien à craindre ?</l>
+	<l id='1229'>Est-il libre ! Du moins vos soldats éloignés</l>
+	<l id='1230'>N'environnent-ils plus ces murs où vous régnez ?</l>
+	<l id='1231'>Vous voyez la douleur qui déchire mon âme,</l>
+	<l id='1232' part='i'>Permettez qu'en mourant...</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1232' part='f'>Quittez ce soin, Madame ;</l>
+	<l id='1233'>Dans ces moments marqués par le ciel en courroux,</l>
+	<l id='1234'>Le monde, l'univers n'existe plus pour vous ;</l>
+	<l id='1235'>Oubliez ses erreurs, n'en soyez plus frappée,</l>
+	<l id='1236' part='i'>Ne pensez qu'à Dieu seul...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1236' part='f'>Ah ! m'auriez-vous trompée ?</l>
+	<l id='1237'>De mon dernier espoir me verrais-je priver ?</l>
+	<l id='1238'>En me livrant pour lui ne puis-je le sauver ?</l>
+	<l id='1239'>Vous qui m'aviez promis... Seigneur... Ah malheureuse !</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1240'>Entendez-vous ces cris ? On vient, cette heure affreuse</l>
+	<l id='1241'>Peut-être est la dernière ; au pied de ces autels</l>
+	<l id='1242'>Implorez avec moi le juge des mortels.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1243'>Ô mon Dieu ! Je te fais une unique prière.</l>
+	<l id='1244'>Frappe, extermine moi, mais conserve Lothaire.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1245' part='i'>Eh quoi...</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE VI. Arsène, Emirène, Valrade, Prêtres et Peuple.</head>
+<sp who='EMIRENE'><speaker>EMIRENE, accourant avec effroi.</speaker>
+	<l id='1245' part='f'>Fuyez, Seigneur, Lothaire furieux</l>
+	<l id='1246'>Suivi de ses soldats s'avance vers ces lieux.</l>
+	<l id='1247'>Il vient le glaive eu main vous ravir son amante ;</l>
+	<l id='1248'>Craignez qu'il ne l'arrache à votre main tremblante,</l>
+	<l id='1249'>Et que sous l'échafaud que vos soins ont dressé,</l>
+	<l id='1250'>Vous ne tombiez vous-même à ses pieds écrasé.</l>
+	<l id='1251'>Tout fuit devant ses coups rien ne peut vous défendre.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1252'>Ah grand Dieu ! Que veut-il ? Qu'ose-t-il entreprendre ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1253'>Reine, rassurez-vous, ne redoutez que Dieu.</l>
+	<l id='1254'>Qu'on éloigne à l'instant Valrade, de ce lieu.</l>
+	<l id='1255'>Vous, qu'on la suive, et vous, imites mon exemple.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Arsène, Emirène, Prêtres, Peuple d'un dôt du Théâtre : Lothaire, Raimond, Gontier, Soldats tous armés, tous le glaive à la main, entrant par la grande porte de l'église au fond du théâtre : au moment où l'on entraine Valrade dans une des Chapelles qui sont sur les côtés de la nef.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE s'avançant au-devant de Lothaire.</speaker>
+	<l id='1256'>Profanes, arrêtez, osez-vous dans ce Temple...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE traversant le théâtre le glaive à la main, écartant Arsène, Emirène, et la foule qui se précipite devant lui, et suivant Valrade.</speaker>
+	<l id='1257'>Perfides, vainement vous voulez m'en priver,</l>
+	<l id='1258'>Mon bras de vos fureurs saura la préserver.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Arsène, Emirène, Prêtres, Peuple.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1259'>Eh bien ! Puisqu'à ce point sa rage sacrilège</l>
+	<l id='1260'>Ose de nos autels braver le privilège,</l>
+	<l id='1261'>Ô vous qui m'écoutez, ô vous dont le grand coeur</l>
+	<l id='1262'>Brule pour l'Éternel d'une sainte serveur,</l>
+	<l id='1263'>Soyez ici témoins de toute sa puissance,</l>
+	<l id='1264'>Voyez comme des rois il confond l'arrogance.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1265' part='i'>Ciel ! Qu'allez-vous tenter ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE IX. Arsène, Emirène, Prêtres, Peuple d'un côté du Théâtre : Lothaire tenant Valrade d'une main et son épée an l'autre : Raimond, Gontier, Soldats.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, à Valrade.</speaker>
+	<l id='1265' part='f'>Viens, suis-moi, suis mes pas ;</l>
+	<l id='1266'>Tes vils persécuteurs ne t'immoleront pas.</l>
+	<l id='1267'>Conseil de révoltés, peuple ingrat et perfide,</l>
+	<l id='1268'>Prêtre lâche et cruel, de sang toujours avide,  </l>
+	<l id='1269'>Dans ce temple, à vos yeux, sur cet autel sacré,</l>
+	<l id='1270'>Où son trépas par vous fut aujourd'hui juré,</l>
+	<l id='1271'>Je lui donne ma foi, ma bouche renouvelle</l>
+	<l id='1272'>Tous ces serments si chers qui m'ont joint avec elle.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1273'>Téméraire ! est-ce ainsi que votre impiété</l>
+	<l id='1274'>Ose du Roi des Rois braver la majesté,</l>
+	<l id='1275'>Insulter son ministre, et profanant son temple,</l>
+	<l id='1276'>Du plus grand des forfaits donner l'horrible exemple ?</l>
+	<l id='1277'>De vos mains à jamais le sceptre est arraché.</l>
+	<l id='1278'>Dieu du nombre des rois, Dieu vous a retranchés ;</l>
+	<l id='1279'>Votre règne est fini, vous n'avez plus d'empire.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, voulant le percer de son épée.</speaker>
+	<l id='1280' part='i'>Traitre, oses-tu....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, l'arrêtant.</speaker>
+	<l id='1280' part='m'>Lothaire !</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1280' part='m'>Eh quoi....</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE, à Arsène.</speaker>
+	<l id='1280' part='f'>Qu'osez-vous dire ?</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1281'>Peuple, prêtres, guerriers, vous dont il fut le roi,</l>
+	<l id='1282'>Il vous est défendu d'obéir à sa loi.</l>
+	<l id='1283'>Fuyez le, abandonnez le à son crime, à lui-même ;</l>
+	<l id='1284'>Aux malédictions qui suivent l'anathème,</l>
+	<l id='1285'>Au bras d'un Dieu vengeur, aux tourments des enfers.</l>
+	<l id='1286'>Il n'est plus votre maitre, il n'est plus qu'un pervers ;</l>
+	<l id='1287'>Adrien a donné son trône et sa puissance,</l>
+	<l id='1288'>À Charles, à ce héros qui gouverne la France,</l>
+	<l id='1289'>Si quelqu'un sert encor ce prince détrôné,</l>
+	<l id='1290'>Dévoué comme lui, qu'il soit exterminé.</l>
+	<l id='1291'>Chrétiens, obéissez, voici tordre suprême</l>
+	<l id='1292'>De ce pontife roi que Dieu choisit lui-même.</l>
+<stage>Il déploye la bulle d'Adrien et la pose sur l'autel.</stage>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, la prenant, la déchirant et la foulant aux pieds.</speaker>
+	<l id='1293'>Traitre, qui m'apportez ces ordres imposteurs,</l>
+	<l id='1294'>Lothaire les déchire et brave vos fureurs.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, voulant le retenir.</speaker>
+	<l id='1295' part='i'>Arrete.</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1295' part='m'>Ô jour horrible !</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1295' part='m'>Ô terreur !</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1295' part='f'>Ô vengeance !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, aux siens qui le retiennent.</speaker>
+	<l id='1296'>Laissez ; qu'un tel excès d'audace et d'impudence</l>
+	<l id='1297' part='i'>Soit puni par sa mort.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE, au peuple qui se jette entre eux.</speaker>
+	<l id='1297' part='f'>Pourquoi l'arrêtez-vous ?</l>
+	<l id='1298'>Doutez-vous que mon Dieu ne détourne ses coups ?</l>
+	<l id='1299'>Qu'en efforts impuissants sa rage se consume ?</l>
+	<l id='1300'>Le feu vengeur du ciel sur sa tête s'allume.</l>
+	<l id='1301'>Je lance l'interdit sur ces climats affreux ;</l>
+	<l id='1302'>Dieu ne veut plus souffrir qu'on l'implore en ces lieux,</l>
+	<l id='1303'>En ces lieux trop souillés ; le culte, la prière,</l>
+	<l id='1304'>Les offrandes, les voeux accroitraient sa colère.</l>
+	<l id='1305'>Chrétiens, ne priez pas, mais vengez votre Dieu :</l>
+	<l id='1306'>Par le sang des tyrans purifiez ce lieu.</l>
+	<l id='1307'>Voilà l'hommage seul, voila l'unique offrande,</l>
+	<l id='1308'>Qu'en, ce jour des forfaits son courroux vous demande.</l>
+	<l id='1309'>Qu'ainsi tout autre hommage en ces lieux soit proscrit,</l>
+	<l id='1310'>Et les temples fermés, et tout culte interdit,</l>
+	<l id='1311'>Jusqu'au jour effroyable, et cependant propice,  </l>
+	<l id='1312'>Où Ange de la mort armé par la justice ;</l>
+	<l id='1313'>Du monarque des cieux remplissant les décrets,</l>
+	<l id='1314'>Dans le sang de Lothaire expiera ses forfaits.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, allant se jeter sur lui, et toujours arrêté par le peuple;</speaker>
+	<l id='1315'>Ah traitre ! tu mourras. Ce peuple téméraire</l>
+	<l id='1316'>Veut t'arracher en vain à ma juste colère.</l>
+	<l id='1317'>Raimond. Gontier, Soldats, amis, secondez moi...</l>
+	<l id='1318'>À ce prêtre menteur livrez-vous votre Roi ?...</l>
+	<l id='1319'>M'abandonnerez-vous à sa rage infernale ?</l>
+	<l id='1320'>Ne connaissez - vous plus l'autorité royale ?...</l>
+	<l id='1321'>Vous pâlissez d'horreur, n'osez-vous le punir ?...</l>
+	<l id='1322'>Dieu qui créa les Rois saura les maintenir.</l>
+	<l id='1323'>Dieu que ta bouche insulte avec tant d'insolence</l>
+	<l id='1324'>Te livrera bientôt à toute ma vengeance.</l>
+<stage>Allant au fond au Théâtre et s'avançant sur la porte de l'Église.</stage>
+	<l id='1325'>Aux armes, Citoyens, aux armes, accourez,</l>
+	<l id='1326'>Que des feux dévorants ces murs soient entourés.</l>
+<stage>Rentrant dans l'Église et s'adressant au Légat.</stage>
+	<l id='1327'>Si ces lâches guerriers, si ce peuple stupide,</l>
+	<l id='1328'>Surpris de ton audace, à ta voix s'intimide,</l>
+	<l id='1329'>Il est déplus grands coeurs, plus prompts à me servir,</l>
+	<l id='1330'>Qui vengeront leur maitre et sauront te punir.</l>
+	<l id='1331'>Je reviens à leur tête ; et sur cet autel même</l>
+	<l id='1332'>Tout ton sang expiera l'exécrable anathème,</l>
+	<l id='1333'>Que ta bouche infernale a vomi contre moi.</l>
+	<l id='1334'>Peuples, obéissez et suivez votre Roi.</l>
+<stage>Il sort emmenant Valrade et suivi du seul Raimond.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Arsène, Emirène, Gontier, Prêtres, Peuple, Soldats.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1335'>Eh quoi ? Sans le punir, sans trembler pour vous-mêmes,</l>
+	<l id='1336'>Vous avez entendu ses horribles blasphèmes ?</l>
+	<l id='1337'>Attendez - vous ici que son bras criminel</l>
+	<l id='1338'>Vienne embraser ce temple et briser cet autel ?</l>
+	<l id='1339'>Allez, Chrétiens sans foi, Citoyens sans prudence,</l>
+	<l id='1340'>Esclaves insensés d'un monarque en démence,</l>
+	<l id='1341'>Vous souffrez ses forfaits, souffrez ses châtiments.</l>
+	<l id='1342'>Dieu soumit la nature à mes commandements.</l>
+	<l id='1343'>Ô mort ! lance tes traits sur ce peuple indocile,</l>
+	<l id='1344'>Cieux, devenez d'airain, Terre, soyez stérile ;</l>
+	<l id='1345'>Que vengeant les autels et la Religion,</l>
+	<l id='1346'>La famine, la guerre et la contagion,</l>
+	<l id='1347'>Unissent leurs fléaux contre un peuple infidèle,</l>
+	<l id='1348'>Qui respecte monarque à Dieu même rebelle.</l>
+	<l id='1349'>Prêtres, moines, prélats, ministres des autels,</l>
+	<l id='1350'>Vous qui devez l'exemple au reste des mortels,</l>
+	<l id='1351'>Quittez l'ombre du cloitre, et vos saints exercices,</l>
+	<l id='1352'>Armez-vous, l'Éternel veut d'autres sacrifices :</l>
+	<l id='1353'>L'épouvante et la mort précéderont vos pas :</l>
+	<l id='1354'>Frappez, ne craignez rien, et livrez au trépas,</l>
+	<l id='1355'>Et ce prince endurci dans ion impénitence,</l>
+	<l id='1356'>Et tout homme insensé qui pendra sa défense.</l>
+	<l id='1357'>Songez qu'Aod, Baza, Judith et Samuel,</l>
+	<l id='1358'>En massacrant des rois ont obtenu le ciel.</l>
+	<l id='1359'>Osez, comme eux, d'un Dieu mériter l'indulgence.  </l>
+	<l id='1360'>Les erreurs, les forfaits, le meurtre, la licence,</l>
+	<l id='1361'>Tout sera pardonné, tout au zélé Chrétien</l>
+	<l id='1362'>Qui de ce roi proscrit pourra percer le sein ;</l>
+	<l id='1363'>Qu'il tombe avec Valrade, et qu'avec eux périsse</l>
+	<l id='1364'>L'incrédule Raimond ce protecteur du vice :</l>
+	<l id='1365'>Dévoués à la mort, que leurs jours soient éteints,</l>
+	<l id='1366'>Ainsi que ces flambeaux vont l'être par nos mains.</l>
+<stage>En disant ces paroles il prend deux cierges sur l'autel, les renverse et les éteint ; tout le Clergé qui le suit prend les autres cierges, et les éteint en les renversant : ensuite Arsène continue ainsi.</stage>
+	<l id='1367'>Marchons en invoquant ce Dieu qui nous contemple ;</l>
+	<l id='1368'>Peuple, suivez nos pas, et nous fermons ce temple,</l>
+	<l id='1369'>Et qu'il ne soit rouvert que quand il sera temps</l>
+	<l id='1370'>De rendre grâce à Dieu de la mort des méchants.</l>
+<stage>Le Peuple et le Clergé sortent du temple : et Arsène qui se retire le dernier en ferme les portes.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<stage>La Scène se passe dans le palais de Lothaire.</stage>
+<div2 type='scene' n='1'><head>SCÈNE PREMIERE. Lothaire, Valrade.</head>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1371'>Eh quoi ! Ce peuple entier abandonne son maitre !</l>
+	<l id='1372'>Tout fuit, tout se disperse en me voyant paraitre !</l>
+	<l id='1373'>Nul ne s'arme à mes, cris, nul ne s'offre à mes yeux !</l>
+	<l id='1374' part='i'>Mon palais est désert !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1374' part='f'>Secourez nous, ô cieux !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1375'>Tous ces vils citoyens me laissent sans défense ;</l>
+	<l id='1376'>Un prêtre en un moment a détruit ma puissance.....</l>
+	<l id='1377' part='i'>Un prêtre....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1377' part='m'>Ah Dieu puissant !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1377' part='f'>Tu vois qu'il faut mourir ;</l>
+	<l id='1378'>Ton malheureux amant ne peut te secourir...</l>
+	<l id='1379'>Mais je veux avant nous que ce prêtre périsse ;</l>
+	<l id='1380'>Ma main, ma seule main suffit pour son supplice.</l>
+	<l id='1381' part='i'>Adieu.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1381' part='m'>Demeure.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1381' part='f'>Non, ne retiens point mes pas.</l>
+	<l id='1382'>Laisse-moi recevoir et donner le trépas...  </l>
+	<l id='1383'>Cette heure est consacrée au crime, à la vengeance,</l>
+	<l id='1384'>À punir un barbare, à laver ton offense...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1385'>Ah du moins, de Raimond attendons le retour.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1386' part='i'>Je dois le prévenir.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1386' part='f'>Au nom de nôtre amour !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1387' part='i'>Il guidera mes coups.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1387' part='f'>Termine donc ma vie.</l>
+	<l id='1388'>Ne m'abandonne point à ce prêtre en furie.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1389'>Jusqu'au dernier moment je défendrai tes jours.</l>
+	<l id='1390'>Abandonné, proscrit, sans espoir, sans secours,</l>
+	<l id='1391'>Je ne puis que mourir dans leur foule sanglante.....</l>
+	<l id='1392'>Je ne puis te soustraire à leur rage insultante ;</l>
+	<l id='1393'>Mais du moins mon trépas précédera ta mort.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1394'>Ah cruel ! Qu'as-tu fait ?.... Quel fruit d'un vain effort ?...</l>
+	<l id='1395'>Pourquoi quand leur courroux voulait que je périsse,</l>
+	<l id='1396'>Pourquoi m'arrachais-tu, cruel, à mon supplice ?</l>
+	<l id='1397'>Mes malheurs finissaient, je conservais tes jours,</l>
+	<l id='1398'>Des maux que tu souffrais je terminais le cours ;</l>
+	<l id='1399'>Mourant pour te sauver j'eusse été trop heureuse ;</l>
+	<l id='1400'>Le ciel me réservait une mort plus affreuse.....</l>
+	<l id='1401' part='i'>Je te perds... Ah grand Dieu !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1401' part='f'>Ne pleure point sur moi :</l>
+	<l id='1402'>Je suis trop fortuné, puisque je meurs pour toi.</l>
+	<l id='1403'>Proscrit, privé de tout, mon amour seul me reste,  </l>
+	<l id='1404'>Il semble s'augmenter dans ce moment funeste ;</l>
+	<l id='1405'>Environné des feux qui brident mes états,</l>
+	<l id='1406'>Sur les débris du trône attendant le trépas,</l>
+	<l id='1407'>Teint du sang de mon peuple et baigné de tes larmes,</l>
+	<l id='1408'>Quelque joie adoucit l'horreur de mes alarmes ;</l>
+	<l id='1409'>Je rends grâce à l'amour, appui de mes travaux,</l>
+	<l id='1410'>Il soutint mon courage, il soulagea mes maux ;</l>
+	<l id='1411'>Sans toi, sans mon amour, j'aurais, j'aurais peut-être ;</l>
+	<l id='1412'>Ainsi que tant de rois, trop indignes de l'être,</l>
+	<l id='1413'>Soumis ma tête au joug de ce chef des romains,</l>
+	<l id='1414'>Déprédateur du monde, effroi des souverains.</l>
+	<l id='1415'>Tyran de nos esprits, dont l'audace insensée</l>
+	<l id='1416'>Prétend assujettir jusqu'à notre pensée.</l>
+	<l id='1417'>Grâces à mon amour, exempt d'un tel affront,</l>
+	<l id='1418'>Sous ses pieds orgueilleux je n'ai point mis mon front.</l>
+	<l id='1419'>J'ai soutenu mon rang, j'ai conservé ma gloire ;</l>
+	<l id='1420'>Et si le sort jaloux m'envia la victoire,</l>
+	<l id='1421'>J'ai mérité de vaincre. En mourant sans fléchir.</l>
+	<l id='1422'>Aux rois, à l'univers, aux siècles avenir,</l>
+	<l id='1423'>J'enseigne à préférer la mort à l'esclavage,</l>
+	<l id='1424'>À redouter l'écueil couvert de mon naufrage,</l>
+	<l id='1425'>À briser ce colosse ouvrage de l'erreur,</l>
+	<l id='1426'>Qui les écrasera sous son poids destructeur.</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE II. Lothaire, Valrade, Raimond.</head>
+<sp who='RAIMOND'><speaker>RAIMOND, à Lothaire.</speaker>
+	<l id='1427' part='i'>Viens, suis mes pas.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1427' part='m'>Raimond...  </l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1427' part='f'>Consommant tous ses crimes,</l>
+	<l id='1428'>De ce fourbe sacré sommes-nous les victimes ?</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1429'>Ami, j'ai peu d'espoir ; mais tu connais mon coeur.</l>
+	<l id='1430'>Son intrépidité s'accroit dans le malheur.....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1431'>Ah mon coeur est flétri, mon courage succombe,</l>
+	<l id='1432'>Quand je vois que tous deux vous mourrez sur ma tombe.</l>
+	<l id='1433'>Mon ami, mon amante, idoles de mon coeur,</l>
+	<l id='1434'>Vous sans-cesse appliqués aux soins de mon bonheur,</l>
+	<l id='1435' part='i'>C'est moi qui, vous immole !</l>
+</sp>
+<sp who='RAIMOND'><speaker>RAIMOND.</speaker>
+	<l id='1435' part='f'>Ami, laisse la plainte,</l>
+	<l id='1436'>Elle affaiblit trop l'âme, elle augmente la crainte.</l>
+	<l id='1437'>Unis par l'amitié contre les coups du sort,</l>
+	<l id='1438'>N'étions-nous pas tous trois prêts à subir la mort ?</l>
+	<l id='1439'>Dans ces périls nouveaux prends un nouveau courage ;</l>
+	<l id='1440'>Voyons si d'un tyran tout respire la rage,</l>
+	<l id='1441'>Si de son souffle impair tout coeur est infecté,</l>
+	<l id='1442'>S'il te prive en effet de ton autorité.</l>
+	<l id='1443'>Déjà quelques guerriers apprenant ton offense,</l>
+	<l id='1444'>Et d'un prêtre imposteur détestant l'arrogance,</l>
+	<l id='1445'>Réunis par mes soins ont fermé ce palais :</l>
+	<l id='1446'>Sois, sûr que leur grand coeur fléchira jamais.</l>
+	<l id='1447'>Viens te mettre à leur tête, et nous pourrons peut-être,</l>
+	<l id='1448'>Imposer à ce peuple et triompher d'un prêtre.</l>
+	<l id='1449'>Que s'il nous faut trouver un trépas trop certain,</l>
+	<l id='1450'>Mourons, mais en héros, les armes à la main,</l>
+	<l id='1451'>Sur les membres épars du fourbe qui t'outrage ;</l>
+	<l id='1452'>Que la terre en tremblant admire ton courage ;</l>
+	<l id='1453'>Et puisse nôtre mort, indignant l'univers,</l>
+	<l id='1454'>De ces tyrans sacrés rompre à jamais les fers !  </l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1455'>Allons... Sur ma fureur tout mon espoir se fonde....</l>
+	<l id='1456' part='i'>Valrade. Adieu...</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1456' part='m'>Tu pars !...</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Valrade, Morange.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1456' part='f'>Tout m'abandonne au monde....</l>
+	<l id='1457'>Que deviendrai-je ?... Ô ciel !... Ah Morange, est-ce toi</l>
+	<l id='1458'>Lorsque chacun me fuit me gardes-tu la foi ?</l>
+	<l id='1459'>Ton coeur qui me chérit depuis que je respire,</l>
+	<l id='1460'>Ne partage-t-il point cette horreur que j'inspire ?</l>
+	<l id='1461' part='i'>Te suis-je chère encor ?</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE, s'approchant avec effroi, et la voix étouffée par la crainte.</speaker>
+	<l id='1461' part='f'>Si vous l'êtes ?... Jamais</l>
+	<l id='1462'>Je n'ai de tant d'amour payé tous vos bienfaits...</l>
+	<l id='1463'>Vos vertus, vos remords, et vos malheurs eux-mêmes...</l>
+	<l id='1464'>Oui, tout m'attache à vous... croyez que je vous aime...</l>
+	<l id='1465'>Croyez que je voudrais, sensible à vos douleurs,</l>
+	<l id='1466'>En répandant mon sang pouvoir tarir vos pleurs.</l>
+	<l id='1467'>Mais.. Madame... excusez.. vous parler est un crime...</l>
+	<l id='1468'>Du courroux de mon Dieu craignant d'être victime,</l>
+	<l id='1469'>Je n'osais approcher... je pleurais loin de vous...</l>
+	<l id='1470'>L'ordre sacré du ciel m'amène à vos genoux....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1471' part='i'>L'ordre du ciel ?...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1471' part='m'>Hélas !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1471' part='m'>Que me veut-on ?</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1471' part='f'>Je tremble.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1472' part='i'>Parle.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1472' part='f'>Dans ce palais déjà Lothaire assemble</l>
+	<l id='1473' part='i'>Quelques guerriers....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1473' part='m'>Eh bien....</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1473' part='f'>Le ciel combat contre eux ;</l>
+	<l id='1474'>Ils périront... changez vos destins malheureux.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1475' part='i'>Que faut-il ?... Tu frémis.</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE, se jetant à genoux.</speaker>
+	<l id='1475' part='f'>Je crains vôtre colère....</l>
+	<l id='1476'>Ouvrez ces murs... souffrez qu'on arrête Lothaire.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1477' part='i'>On veut que je trahisse.....</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1477' part='m'>Eh madame !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1477' part='f'>Et c'est toi</l>
+	<l id='1478' part='i'>Qui m'ose proposer....</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1478' part='f'>Non : je viens malgré moi.</l>
+	<l id='1479'>Mais que vous reste-t-il ?... Elle est votre espérance ?</l>
+	<l id='1480'>Du ciel autour de vous éclate la vengeance ;  </l>
+	<l id='1481'>Par la voix du Légat le Ciel mime a parlé :</l>
+	<l id='1482'>Si quelqu'un vous défend, il doit être immolé.</l>
+	<l id='1483'>Entre nous et ce Dieu toute paix est bannie.</l>
+	<l id='1484'>On refuse aux mortels qui terminent leur vie</l>
+	<l id='1485'>De la religion les secours consolants,</l>
+	<l id='1486'>La sépulture aux morts, le baptême aux enfants ;</l>
+	<l id='1487'>Tout culte est interdit à ce peuple en alarmes,</l>
+	<l id='1488'>Les temples sont fermés, les prêtres sont en armes :</l>
+	<l id='1489'>Vos soldats ont choisi, glacés d'un saint effroi,</l>
+	<l id='1490'>La croix pour étendait et le Pape pour Roi.</l>
+	<l id='1491'>Ce peuple est convaincu que Dieu dans sa colère</l>
+	<l id='1492'>Veut le forcer enfin de massacrer Lothaire ;</l>
+	<l id='1493'>Et ce qui doit surtout prouver à votre coeur,</l>
+	<l id='1494'>Que Dieu veut son trépas, c'est que votre oppresseur</l>
+	<l id='1495'>N'a point gagné l'amour du peuple qu'il entraine :</l>
+	<l id='1496'>Il sème la terreur et recueille la haine.</l>
+	<l id='1497'>C'est Lothaire, c'est vous qu'on aime, et l'on vous fuit,</l>
+	<l id='1498'>Et c'est en détestant ce prêtre qu'on le suit :</l>
+	<l id='1499'>On voit trop qu'un pouvoir suprême, irrésistible,</l>
+	<l id='1500'>Donne à tous ses discours une force invincible ;</l>
+	<l id='1501'>Il parle, et tout frémit ; chacun rempli d'effroi,</l>
+	<l id='1502'>Obéit à son ordre et le sert malgré soi....</l>
+	<l id='1503'>Et moi-même éprouvant l'horreur qui m'environne,</l>
+	<l id='1504'>Moi, qui ne peux, penser que ce Dieu nous ordonne</l>
+	<l id='1505'>De trahir nos serments, de renverser les lois,</l>
+	<l id='1506'>De fuir, de détrôner, de proscrire nos rois,</l>
+	<l id='1507'>Je n'ose cependant vous demeurer fidèle,</l>
+	<l id='1508'>Je crains de l'offenser quand j'ai pour vous du zèle.</l>
+	<l id='1509'>Je vois qu'il veut punir : je viens en frémissant</l>
+	<l id='1510'>Proposer par son ordre un crime révoltant ;</l>
+	<l id='1511'>Mais ces rois, quand sur eux sa fureur se déploie,</l>
+	<l id='1512'>Aux tourments des enfers comme nous sont en proie.  </l>
+	<l id='1513'>Sauvez vos jours proscrits, vos jours trop criminels,</l>
+	<l id='1514'>Des supplices tout prêts et des feux éternels.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1515' part='i'>Va, cesse...</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1515' part='m'>Croyez moi....</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1515' part='f'>Non, je ne puis t'entendre.</l>
+	<l id='1516'>Moi, trahir-un héros qui meurt pour me défendre !</l>
+	<l id='1517'>Non, tu ne l'as pas cru J'excuse tes terreurs ;</l>
+	<l id='1518'>Mais peux-tu, contre moi servir mes oppresseurs ?</l>
+	<l id='1519' part='i'>Morange, prend pitié....</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE.</speaker>
+	<l id='1519' part='f'>Ma pitié les irrite.</l>
+	<l id='1520'>Si vous me refusez, souffrez que je vous quitte....</l>
+	<l id='1521'>Il ne m'est plus permis d'entendre vos discours.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1522'>Ils veulent me priver même de tes secours !</l>
+	<l id='1523'>Quoi ? Rien ne peut lasser leur active poursuite ?</l>
+	<l id='1524'>Les maitres des humains, les femmes de ma suite,</l>
+	<l id='1525'>Princes, sujets, soldats, tout est séduit par eux ?</l>
+	<l id='1526'>Tout me fuit, tout s'unit contre mes jours affreux....</l>
+	<l id='1527' part='i'>Ah Morange !... Ainsi donc tu me laisses ?</l>
+</sp>
+<sp who='MORANGE'><speaker>MORANGE revenant, et s'arrêtant tout à coup avec terreur.</speaker>
+	<l id='1527' part='f'>Madame....</l>
+	<l id='1528'>Un Dieu retient mes pas et fait frémir mon âme.</l>
+	<l id='1529'>Je ne puis m'avancer... Mais vous voyez mes pleurs...</l>
+	<l id='1530'>Si la mort terminait les célestes rigueurs,</l>
+	<l id='1531'>Hélas ! j'aimerais mieux perdre à vos pieds la vie,</l>
+	<l id='1532'>Que d'aller partager ou flatter leur furie.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1533'>Ainsi tout m'abandonne, ainsi dans mon malheur,</l>
+	<l id='1534'>À l'univers entier je suis donc en horreur :</l>
+	<l id='1535'>Moi-même je me crains, moi-même je m'abhorre.</l>
+	<l id='1536'>Quels affronts, quels tourments dois-je souffrir encore ?</l>
+	<l id='1537'>Arsène est triomphant... Ma rivale ! Ô destins !</l>
+	<l id='1538'>Ô ciel ! garanti moi de tomber en ses mains.....</l>
+	<l id='1539'>Ah Lothaire !... Il combat... et peut-être il expire...</l>
+	<l id='1540'>Et moi... La mort me fuit... Cette mort ou j'aspire...</l>
+	<l id='1541'>Ah ! Faut-il si longtemps au bord de son tombeau,</l>
+	<l id='1542'>En attendant là mort rester sous le couteau ?</l>
+	<l id='1543'>Oui, jetais destinée... Oui j'ai reçu la vie</l>
+	<l id='1544'>Pour la destruction de ma triste patrie,</l>
+	<l id='1545'>Pour immoler mon roi, pour troubler l'univers,</l>
+	<l id='1546'>Et pour faire périr tous ceux qui m'étaient chers.</l>
+<stage>Avec le plus grand effroi.</stage>
+	<l id='1547'>Ciel ! qui s'avance ici ?... Dieu des deux je t'implore !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Lothaire le glaive à la main, Valrade.</head>
+<sp who='VALRADE'><speaker>VALRADE, courant à lui.</speaker>
+	<l id='1548'>Cher prince, cher amant, cher époux que j'adore,</l>
+	<l id='1549'>Est-ce toi que je vois, que je presse en mes bras ?...</l>
+	<l id='1550'>Tu trembles... Tu pâlis... Tu ne me réponds pas...</l>
+	<l id='1551'>Cruel... À mes transports qui te rend insensible ?...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1552' part='i'>Ciel !... qui retient me pas ?</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1552' part='f'>Quel désespoir horrible</l>
+	<l id='1553'>Éclate Sur ton front, et Se peint dans tes yeux ?</l>
+	<l id='1554' part='i'>Lothaire ! Cher amant !....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1554' part='m'>Laisse moi.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1554' part='f'>Justes Cieux !</l>
+	<l id='1555'>Pourquoi te dérober à ma main défaillante ?</l>
+	<l id='1556'>Ou portes-tu tes pas ?... Veux-tu fuir ton amante ?</l>
+	<l id='1557'>Parle, parle, apprend moi l'excès de ton malheur,</l>
+	<l id='1558'>Ce funeste silence augmente ma terreur.....</l>
+	<l id='1559'>Cruel !... Ah quels regards son désespoir m'adresse !</l>
+	<l id='1560'>Barbare, est-ce donc là le prix de ma tendresse ?....</l>
+	<l id='1561'>Je me jette à tes pieds... Tu détournes tes pas....</l>
+	<l id='1562'>Te serais-je en horreur ?... Ces farouches Prélats</l>
+	<l id='1563'>M'ont-ils ravi ton coeur ?... Ah cette idée affreuse,</l>
+	<l id='1564'>Plus que tous mes tourments me serait douloureuse...</l>
+	<l id='1565' part='i'>Cruel !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1565' part='f'>Quoi ? Je n'ai pu te venger en mourant !</l>
+	<l id='1566'>Je n'ai pu l'immoler sur ton corps expirant !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1567' part='i'>Que dis-tu ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1567' part='f'>Les cruels !... Déjà leur foule impie</l>
+	<l id='1568'>S'empresse avec plaisir à m'arracher la vie.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1569' part='i'>Lothaire !... Hélas !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+<stage>Il tombe assis.</stage>
+	<l id='1569' part='f'>Je sens mes forces s'affaiblir,</l>
+	<l id='1570'>Je ne me soutiens plus, je suis prêt à mourir.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1571'>Ah Morange ! Avec moi, venez le secourir.</l>
+	<l id='1572'>...............................................</l>
+	<l id='1573'>Lothaire ! Ah malheureux ! Contemple ton amante,</l>
+	<l id='1574'>Vois Valrade à tes pieds, vois Valrade expirante !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1575'>Qui ? Valrade ! Ah combien mon coeur la doit haïr !</l>
+	<l id='1576'>Elle a fait tous mes maux, pour elle avec plaisir</l>
+	<l id='1577'>J'ai prodigué mon sang, j'ai perdu ma couronne,</l>
+	<l id='1578'>Et dans mon désespoir l'ingrate m'abandonne,</l>
+	<l id='1579'>Elle me quitte ainsi que ce peuple sans foi.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1580'>Qui ?... Moi t'abandonner, moi qui mourais pour toi !</l>
+	<l id='1581' part='i'>Ne me connais-tu plus !... Lothaire !....</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, revenant à lui.</speaker>
+	<l id='1581' part='f'>Qui m'appelle ?</l>
+	<l id='1582'>Où suis-je ?... D'où renait cette clarté nouvelle ?</l>
+	<l id='1583'>Ah Valrade !... Est-ce foi qui parais à mes yeux ?</l>
+	<l id='1584'>Ah je ne suis, donc pas tout-à-fait malheureux !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1585' part='i'>Hélas ! Quel est ton sort ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1585' part='f'>Le sort le plus terrible.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1586' part='i'>Comment ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1586' part='m'>Raimond n'est plus.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1586' part='f'>Quoi, le ciel inflexible...</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1587'>Le ciel m'a tout ravi... Rangés autour de moi,</l>
+	<l id='1588'>Quelques guerriers en vain fidèles à leur roi,</l>
+	<l id='1589'>Repoussant les efforts d'une foule égarée,  </l>
+	<l id='1590'>Des portes du palais lui défendaient l'entrée.</l>
+	<l id='1591'>Par cent prêtres guidé ce peuple frémissant,</l>
+	<l id='1592'>Contre nous à regret marchait en gémissant.</l>
+	<l id='1593'>Au devant de leurs coups en me voyant paraitre,</l>
+	<l id='1594'>Ils craignaient de frapper, ils respectaient leur maitre.</l>
+	<l id='1595'>J'ai vu dans ces moments de carnage et d'horreur,</l>
+	<l id='1596'>J'ai vu des citoyens détestant leur fureur,</l>
+	<l id='1597'>Se jeter à mes pieds, les tremper de leurs larmes,</l>
+	<l id='1598'>Me jurer qu'à regret ils avaient pris les armes,</l>
+	<l id='1599'>Me supplier au nom du Dieu qui les guidait,</l>
+	<l id='1600'>De me soumettre aux lois que l'Église imposait ;</l>
+	<l id='1601'>D'accorder ton trépas devenu nécessaire.</l>
+	<l id='1602'>Touché de leur respect, rejetant leur prière ;</l>
+	<l id='1603'>J'ai vanté tes vertus, j'ai dépeint tes malheurs ;</l>
+	<l id='1604'>Sur toi, sur ton destin j'attendrissais les coeurs.</l>
+	<l id='1605'>La pitié les touchait, ils prenaient ta défense.</l>
+	<l id='1606'>À pas précipités en ce moment s'avance</l>
+	<l id='1607'>Ce terrible prélat, cet oppresseur des rois,</l>
+	<l id='1608'>Ce fantôme sacré qui nous dicte des lois.</l>
+	<l id='1609'>Des prêtres, des soldats, un peuple frénétique,</l>
+	<l id='1610'>Enivrés des fureurs d'un zèle fanatique,</l>
+	<l id='1611'>Le suivaient en triomphe, et portaient dans leurs mains</l>
+	<l id='1612'>Les restes consacrés de ceux qu'on nomme saints ;</l>
+	<l id='1613'>Ces vases, cette croix, ces pieuses images,</l>
+	<l id='1614'>Symboles qui du peuple excitent les hommages :</l>
+	<l id='1615'>Ils marchaient en tumulte, ils mêlaient à leurs chants,</l>
+	<l id='1616'>Le son de la trompette et des cris menaçants.</l>
+	<l id='1617'>Ces cris, cet appareil, ces armes meurtrières,</l>
+	<l id='1618'>Ces drapeaux déployés flottants sur ces bannières,</l>
+	<l id='1619'>De ce peuple soudain raniment les terreurs ;</l>
+	<l id='1620'>Le feu du fanatisme embrase tous les coeurs.</l>
+	<l id='1621'>Ceux même à mes genoux qui répandaient des larmes,</l>
+	<l id='1622'>Se relèvent alors et reprennent leurs armes.</l>
+	<l id='1623'>Le courroux m'emportait, égaré, curieux,</l>
+	<l id='1624'>Ne cherchant qu'à mourir j'allais fondre sur eux.</l>
+	<l id='1625'>Raimond retient mes pas, son âme inébranlable</l>
+	<l id='1626'>Observant nos périls d'un oeil inaltérable,</l>
+	<l id='1627'>Songeait à triompher du peuple et du Légat.</l>
+	<l id='1628'>Suivez-moi, nous dit-il, attaquons ce prélat,</l>
+	<l id='1629'>Entrainons-le en ces murs, et qu'il soit notre otage.</l>
+	<l id='1630'>À ces mots s'élançant au milieu du carnage,</l>
+	<l id='1631'>Écartant l'ennemi par des coups toujours surs,</l>
+	<l id='1632'>Il joint, il prend Arsène, il regagnait ces murs,</l>
+	<l id='1633'>Le peuple nous entoure avec des cris de rage,</l>
+	<l id='1634'>On arrête sa course, on ferme son passage.</l>
+	<l id='1635'>Pour sauver mon ami, que ne tentai-je pas ?</l>
+	<l id='1636'>Percé de mille coups il tombe entre mes bras,</l>
+	<l id='1637'>Il meurt, je le vengeais, j'allais frapper Arsène,</l>
+	<l id='1638'>On se jette entre nous, on l'écarte, on m'entraine,</l>
+	<l id='1639'>Mes tristes défenseurs sont massacrés soudain.</l>
+	<l id='1640'>Malgré l'excès des morts immolés par ma main,</l>
+	<l id='1641'>On épargne mes jours ; ce peuple ingrat et traitre</l>
+	<l id='1642'>Eut pourtant quelque horreur d'assassiner son maitre ;</l>
+	<l id='1643'>Et moi couvert de sang, désespéré, confus,</l>
+	<l id='1644'>Invoquant le trépas, ne me connaissant plus,</l>
+	<l id='1645'>Accablé sous le poids de mon malheur extrême,</l>
+	<l id='1646'>Frémissant d'être pris, craignant tout pour toi-même,</l>
+	<l id='1647'>J'ai rentré dans ces murs, où plein de ma douleur,</l>
+	<l id='1648'>Sans savoir où j'étais j'errais avec terreur.</l>
+	<l id='1649'>Je te cherchais : sans toi, n'écoutant que ma rage,</l>
+	<l id='1650'>J'aurais percé ce coeur en bute à tant d'outrage ;</l>
+	<l id='1651'>Mais seul dans l'univers je te reste aujourd'hui,</l>
+	<l id='1652'>Jusqu'au dernier instant je serai ton appui.</l>
+	<l id='1653'>Il faut que sous les coups de ce pontife impie, </l>
+	<l id='1654'>En défendant tes jours je perde ici vie ;</l>
+	<l id='1655'>Je me livre à mon sort, je mourrai sans effroi,</l>
+	<l id='1656'>Et mes derniers regards seront fixés sur toi.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1657'>Ils me déchireront avant ce parricide.</l>
+	<l id='1658'>Ton épouse, ton peuple et ce prêtre perfide,</l>
+	<l id='1659'>Auraient-ils en effet résolu ton trépas ?</l>
+	<l id='1660'>Leur coeur est-il ouvert aux plus grands attentats ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1661'>Des cris de mes tyrans ces voutes retentissent ;</l>
+	<l id='1662' part='i'>On vient, la mort s'avance.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1662' part='f'>Ah tous mes sens frémissent !</l>
+	<l id='1663' part='i'>Grand Dieu !</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1663' part='f'>Voici l'instant où nous allons périr ;</l>
+	<l id='1664'>Encor si je pouvais, avant que de mourir.</l>
+	<l id='1665'>Me baigner dans le sang du tyran qui me brave,</l>
+	<l id='1666'>Qui m'enlève mon peuple et le rend son esclave !</l>
+	<l id='1667'>Mais que puis-je ?.... Valrade, en ce dernier moment,</l>
+	<l id='1668'>Prend ce fer, arme toi, meurs en te défendant.</l>
+	<l id='1669'>C'est le don, le seul don qui me reste à te faire.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, prenant le poignard qu'il lui présente.</speaker>
+	<l id='1670'>Et c'est le seul qui puisse aussi me satisfaire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Lothaire l'épée à la main, et Valrade seul sur un des côtés du théâtre ; Emirène au milieu ; Arsène de l'autre côté. Peuple, Prêtres, Soldats, portant des chasses, des drapeaux, des bannières, environnant Arsène et remplissant le fond du théâtre.</head>
+<sp who='ARSÈNE'><speaker>ARSÈNE, aux soldats qui le suivent.</speaker>
+	<l id='1671' part='i'>Environnez ces lieux.  </l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1671' part='f'>Venez, accoures tous ;</l>
+	<l id='1672'>Arrachez ma rivale à mon perfide époux.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, se jetant au devant de Valrade, le glaive levé, et dans l'attitude de la défendre</speaker>
+	<l id='1673'>Venez, peuple sans foi, vil esclave d'un prêtre,</l>
+	<l id='1674'>Sous vos pieds teints de sang déchirez votre maitre.</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, s'élançant vers le peuple et retenue par Lothaire.</speaker>
+	<l id='1675'>Prenez moi pour victime, épargnez votre roi.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1676'>Suspendez vos fureurs, peuples, écoutez moi.</l>
+<stage>À Lothaire.</stage>
+	<l id='1677'>Prince, si de mon Dieu la clémence infinie</l>
+	<l id='1678'>Dans ces derniers combats a sauvé votre vie,</l>
+	<l id='1679'>Il voulait vous donner le temps du repentir.</l>
+	<l id='1680'>La mort a frappé ceux qui vous osaient servir ;</l>
+	<l id='1681'>Et réduit à vous seul sans espoir, sans défense,</l>
+	<l id='1682'>Vos jours et vos destins sont dans ma dépendance.</l>
+	<l id='1683'>Je puis en souverain d'un mot ou d'un coup d'oeil,</l>
+	<l id='1684'>Vous trainer dans un cloitre ; ou vous mettre au cercueil ;</l>
+	<l id='1685'>De tout autre ennemi vous seriez la victime.</l>
+	<l id='1686'>Mais l'Église indulgente, en poursuivant le crime,</l>
+	<l id='1687'>Punit sans passion, et pardonne au remord ;</l>
+	<l id='1688'>Vous même choisissez ou la vie, ou la mort :</l>
+	<l id='1689'>Vôtre peuple entrainé par l'ordre du ciel même,</l>
+<stage>Il montre le sceptre et la couronne qui sont dans les mains d'un prêtre de sa suite.</stage>
+	<l id='1690'>M'a remis votre sceptre et votre diadème.</l>
+	<l id='1691'>Remettez moi ce glaive inutile ornement ;</l>
+	<l id='1692'>Soumettez vous aux lois d'un Dieu juste et clément ;</l>
+	<l id='1693'>Cédez à mes conseils, rendez à ma justice</l>
+<stage>En montrant Valrade.</stage>
+	<l id='1694'>Cette victime en vain arrachée au supplice.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1695'>Traitre, ainsi donc ta rage, et ton inimitié,</l>
+	<l id='1696'>Affectant avec faste une fausse pitié,</l>
+	<l id='1697'>Prétendent me forcer de proscrire ma vie,</l>
+	<l id='1698'>Ou de la racheter à force d'infamie.</l>
+	<l id='1699' part='i'>Tu connais trop mon choix.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1699' part='m'>Eh quel est-il ?</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1699' part='f'>La mort.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1700'>Peuples, vous l'entendez, je le livre à son sort.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1701' part='i'>Traitre !</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1701' part='m'>Ô ciel !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE.</speaker>
+	<l id='1701' part='f'>Arrêtez : ô peuple trop coupable !</l>
+	<l id='1702'>Si c'est moi qui vous force à ce meurtre exécrable,</l>
+	<l id='1703'>Cessez de le vouloir, cabriez vôtre fureur,</l>
+	<l id='1704'>J'ai consacré ma vie aux soins de son bonheur,</l>
+	<l id='1705'>Je consacre ma mort à lui sauver la vie.</l>
+<stage>À Emirène.</stage>
+	<l id='1706'>Il n'est plus de prétexte à votre jalousie,</l>
+	<l id='1707' part='i'>Je m'immole pour lui.</l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE, voulant l'arrêter.</speaker>
+	<l id='1707' part='m'>Toi, Valrade !</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1707' part='f'>Grands Dieux !</l>
+</sp>
+<sp who='VALRADE'><speaker>VALRADE, à Emirène, aux pieds de laquelle elle est tombée mourante.</speaker>
+	<l id='1708'>Je meurs, sauvez ses jours, et rendez les heureux.  </l>
+</sp>
+<sp who='LOTHAIRE'><speaker>LOTHAIRE.</speaker>
+	<l id='1709'>Valrade !... Qu'as-tu fait ?... Elle meurt... Ah perfides !</l>
+	<l id='1710'>De mon sang et du sien monstres toujours avides,</l>
+	<l id='1711'>Qu'attendez-vous ?... Frappez, donnez moi le trépas ;</l>
+	<l id='1712'>De mes flancs déchirés eu retirant vos bras,</l>
+	<l id='1713'>Levez les vers le ciel, et d'une main sanglante</l>
+	<l id='1714'>Bénissez des humains la foule pâlissante ;</l>
+	<l id='1715'>Arrosez les du sang des rois assassinés,</l>
+	<l id='1716'>Et régnez par l'effroi sur les coeurs consternés.</l>
+	<l id='1717'>Par de tels attentats fondez vôtre puissance,</l>
+	<l id='1718'>Semez par-tout l'erreur, la crainte, l'ignorance.</l>
+	<l id='1719'>Vous verrez tous les rois frémissants, effrayés,</l>
+	<l id='1720'>Vous servir en public et tombera à vos pieds ;</l>
+	<l id='1721'>Tandis que combattant en secret votre empire,</l>
+	<l id='1722'>Ils mettront tous leurs soins à pouvoir le détruire.</l>
+	<l id='1723'>Vos glaives, vos buchers, vôtre rapacité,</l>
+	<l id='1724'>Soulèveront enfin l'univers irrité.</l>
+	<l id='1725'>Aujourd'hui jouissez du fruit de tous vos crimes ;</l>
+	<l id='1726'>À l'ombre des autels dévorez vos victimes.</l>
+	<l id='1727'>Mon ami malheureux est tombé sous vos coups,</l>
+	<l id='1728'>Mon amante à vos pieds expire devant vous ;</l>
+	<l id='1729'>Je n'ai pu les venger dans vôtre sang, perfides,</l>
+	<l id='1730'>Dans le meurtre hardis, dans les combats timides :</l>
+	<l id='1731'>Mais, Valrade, au tombeau ton amant te suivra,</l>
+	<l id='1732'>Et son sang dans ton sang au moins se confondra.</l>
+<stage>Il se jette sur son épée et tombe mort auprès de Valrade.</stage>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1733' part='i'>Qu'on l'arrête.</l>
+</sp>
+<sp who='EMIRENE'><speaker>EMIRENE.</speaker>
+	<l id='1733' part='f'>Ah grands Dieux ! il s'arrache la vie,</l>
+	<l id='1734'>En voulant me venger c'est moi qui suis punie.</l>
+	<l id='1735' part='i'>Je me meurs.</l>
+</sp>
+<sp who='ARSÈNE'><speaker>ARSÈNE.</speaker>
+	<l id='1735' part='f'>Juste ciel ! Qu'ai-je fait ?... Je frémis</l>
+	<l id='1736'>À l'aspect des forfaits qu'en ces lieux j'ai commis.</l>
+<stage>Après un instant de silence.</stage>
+	<l id='1737'>Ô vous ! peuples témoins du crime et du supplice,</l>
+	<l id='1738'>Adorez l'Éternel, et craignez sa justice.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

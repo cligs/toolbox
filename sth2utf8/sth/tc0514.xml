@@ -1,0 +1,2929 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>AGESILAN de COLCHOS, TRAGI-COMÉDIE</title>
+				<author born='1609' born_location='Dreux' death='1650' death_location='Dreux' academie=''>ROTROU, Jean</author>
+				<date>1637</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Ernest FIEVRE, mars 2007</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>histoire grecque</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">AGESILAN de COLCHOS</titlePart>
+				<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+			</docTitle>
+			<docDate value='1637'>M. DC. XXXVII. AVEC PRIVILÈGE DU ROI.</docDate>
+			<docAuthor id='ROTROU, Jean' bio='rotrou'>DE ROTROU</docAuthor>
+			<docImprint>
+				<privilege id='1637-02-07'><head>Extrait du privilège du Roi</head>
+				<p>Par grace et privilège du Roi donné à Paris le 7 février 1637; Signé, par le Roi en son conseil DE MONCEAUX, il est permis à Antoine de SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de théâtre, intitulée Agésilan de Colchos, par le sieur Rotrou, tragi-comédie, durant le temps et espace de neuf ans, à compter du jour qu'elle sera achevée d'imprimer. Et défense sont faites à tous imprimeurs, libraires et autres de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine de trois mille livres d'amende, de tous les dépens, dommages et intérêts, ainsi qu'il est amplement porté par lesdites Lettres qui sont en vertu du présent extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p></privilege>
+				<imprimeur id='SOMMAVILLE'>Chez Anthoine de Sommaville, au Palais, dans la petite salle, à l'Ecu de France.</imprimeur>
+				<acheveImprime id='1637-08-12'>Achevé d'imprimer pour la première fois, le 12ème jour d'août mille six cent trente sept.</acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='1635' location='(inconnue)'>Représenté pour le première fois en 1635.</premiere>
+			</performance>
+<dedicace><head>À MADAME DE COMBALET</head>
+<P>MADAME,</P>
+<P>Ce n'est ni à votre grandeur, ni à votre pouvoir, ni à ces charmes inévitables que la nature a mis sur votre visage, que je rends cette reconnaissance, et que j'apporte mon Agesilan, c'est seulement à cette incomparable vertu, qui sait si longtemps durer avec la fortune, et à ce grand esprit qui vous fait reconnaître si digne nièce, de ce digne Oncle, à qui toute la France est si obligée, que le reste de l'Europe redoute, et que tout le monde admire. En effet Madame, cette Illustre vertu, et ce divin esprit vous font des biens si naturels et si propres qu'il semble que de vouloir faire après vous profession de ces qualités, soit entreprendre sur vous, et vous les dérober ; je craindrais que votre modestie, ne s'offensât de cette vérité, si je ne savais qu'elle est si généralement publiée de toute la Cour, que vous êtes enfin obligée de le souffrir, et que ce vous serait trop de peine, que de fermer tant de bouches ; C'est seulement en ce témoignage qu'elles vous rendent, qu'elles ne sont point courtisanes, et que la Cour n'est point en la Cour même ; Aussi, MADAME, cette créance est si juste, qu'il est impossible qu'elle ait des hérétiques, et qu'Agesilan même vient de Colchos, apporter à vos pieds cette confession, et se sacrifier, à ces adorables qualités ; Faites-lui l'honneur de le protéger, et à moi MADAME, celui de souffrir que je me dise, DE VOTRE GRANDEUR,</P>
+<P>Votre très humble et très obéissant serviteur, ROTROU.</P>
+</dedicace>
+<privilege><head>Extrait du Privilège du Roi.</head>
+<p>Par grâce et Privilège du Roi donné à Paris le 7 février 1637. Signé ; par le Roi en son Conseil, DE MONÇEAUX, il est permis à ANTHOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre, intitulée Agesilan de Colchos, par le Sieur de Rotrou, Tragi-comédie, durant le temps et espace de neuf ans, à compter du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous Imprimeurs, Libraires, et autres de contrefaire la dite pièce, ni en vendre, ou exposer en vente de contrefaite, à peine de trois mille livres d'amende, de tous les dépens, dommages et intérêts, ainsi qu'il est plus amplement porté par les dites Lettres qui sont en vertu du présent Extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p></privilege>
+<acheveImprimer>Achevé d'Imprimer pour la première fois, le 12èmejour d'août mille six cent trente sept.</acheveImprimer >
+
+<castList><head>ACTEURS</head>
+	<castItem><role id='FLORISEL' civil='M'>FLORISEL de Niquée</role>, Empereur de Grèce, Père de Diane.</castItem>
+	<castItem><role id='BRUNEO' civil='M'>BRUNEO</role>, Cavalier aventurier de Diane.</castItem>
+	<castItem><role id='AGESILAN' civil='M'>AGESILAN</role>, Roi de Colchos, amoureux de Diane.</castItem>
+	<castItem><role id='DARINEL' civil='M'>DARINEL</role>, serviteur bouffon d'Agesilan.</castItem>
+	<castItem><role id='ARLANDES' civil='M'>ARLANDES</role>, Confident de Florisel.</castItem>
+	<castItem><role id='ROSARAN' civil='M'>ROSARAN</role>, Cavalier extravagant.</castItem>
+	<castItem><role id='DARAIDE' civil='M'>DARAIDE</role>, ou Agesilan déguisé en fille.</castItem>
+	<castItem><role id='DIANE' civil='F'>DIANE</role>, fille de Florisel et de Sydonie.</castItem>
+	<castItem><role id='ARDENIE' civil='F'>ARDENIE</role>, cousine de Diane.</castItem>
+	<castItem><role id='SYDONIE' civil='F'>SYDONIE</role>, Reine de Guindaye.</castItem>
+	<castItem><role id='PAGE' civil='M'>UN PAGE</role> de Sydonie.</castItem>
+	<castItem><role id='ANAXERTE' civil='M'>ANAXARTE</role>, Cavalier amoureux de Lucelle.</castItem>
+	<castItem><role id='CAVALIERS' civil='G'>Trois CAVALIERS</role> amoureux de Diane.</castItem>
+	
+</castList>
+<set location='(non indiqué)' country='Grèce' periode='(inconnue)' link=''></set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Florisel, Brunéo se battant.</head>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='1'>Puisque de ce combat l'issue est incertaine,</l>
+	<l id='2'>Et l'avantage égal ; prenons un peu d'haleine ;</l>
+	<l id='3'>Qu'un moment de repos ranime nos esprits.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='4'>Non non, en un duel dont ma tête est le prix,</l>
+	<l id='5'>Il serait trop honteux à ma main d'être lasse ;</l>
+	<l id='6'>Je ne compose point, et ne fait point de grâce.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='7'>La grâce que j'implore est commune à tous deux,</l>
+	<l id='8'>Et tu partagerais le repos que je veux ;</l>
+	<l id='9'>Mais ne relâchons point, trop de vigueur me reste,</l>
+	<l id='10'>Pour rendre ce refus à son auteur funeste.</l>
+<stage>Là ils recommencent le combat plus vivement.</stage>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL en le désarmant et l'ayant blessé.</speaker>
+	<l id='11'>Si plus d'ardeur n'anime tes rivaux,</l>
+	<l id='12'>Qu'ils aient moins d'espérance, et cessent leurs travaux ;</l>
+	<l id='13'>Crois qu'ils ont pour objet une vaine conquête,</l>
+	<l id='14'>Si Diane se donne au seul prix de ma tête.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='15'>Ta valeur me privant du fruit de mon amour,</l>
+	<l id='16'>Qu'elle achève ma perte, et me prive du jour ;</l>
+	<l id='17'>Tranche heureux Florisel le fil de cette vie,</l>
+	<l id='18'>Qui sous un si beau joug ne peut être asservie,</l>
+	<l id='19'>Et Diane devant me nier ses attraits,</l>
+	<l id='20'>Que le soleil aussi ne m'éclaire jamais.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='21'>Par la loi de ton sort, soumis à ma puissance</l>
+	<l id='22'>Je ne veux point ton sang, mais ton obéissance,</l>
+	<l id='23'>Et puisque le vainqueur, d'un Empire absolu,</l>
+	<l id='24'>Peut prescrire au vaincu, quoi qu'il ait résolu, </l>
+	<l id='25'>Promets d'effectuer la loi que je t'impose.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='26'>Celle de mon malheur m'oblige à toute chose ;</l>
+	<l id='27' part='i'>Ordonnez seulement.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='27' part='f'>Va de ce même pas,</l>
+	<l id='28'>Où cet astre d'amour fait briller ses appas,</l>
+	<l id='29'>Publier ta défaite, et conter à la Reine,</l>
+	<l id='30'>Qu'un succès malheureux rend ton attente vaine,</l>
+	<l id='31'>Dis-lui que son courroux peut agir librement,</l>
+	<l id='32'>Et que je me prépare à tout Evénement ;</l>
+	<l id='33'>Qu'à tous mes ennemis ma tête est exposée,</l>
+	<l id='34'>Mais qu'ils ne tentent pas une Conquête aisée</l>
+	<l id='35'>Et que je prétends bien la sauver de leurs coups</l>
+	<l id='36'>N'étant pas un objet digne de son courroux.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='37'>Cet arrêt me fait grâce, ce ne m'est pas contraire,</l>
+	<l id='38'>Puisqu'au moins de la fille, il me donne à la mère ;</l>
+	<l id='39'>Ô ciel, sacré témoin du serment que je fais,</l>
+	<l id='40'>Si je ne l'accomplis ne m'éclaire jamais ;</l>
+	<l id='41'>Je jure par Diane, et son rare mérite,</l>
+	<l id='42'>D'observer de tout point la loi qui m'est prescrite,</l>
+	<l id='43'>Et que ce seul dessein me chasse de ce lieu,</l>
+	<l id='44' part='i'>Que désires-tu plus ?</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL s'en allant.</speaker>
+	<l id='44' part='f'>Le Ciel te guide, adieu.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO, seul</speaker>
+	<l id='45'>Pareil à cet audacieux,</l>
+	<l id='46'>Dans la témérité fut telle,</l>
+	<l id='47'>Qu'il voulut s'éloigner de la troupe mortelle,</l>
+	<l id='48'>Et voler jusques dans les Cieux ;</l>
+	<l id='49'>Trop téméraire, et trop profane,</l>
+	<l id='50'>J'éprouve même sort en même occasion,</l>
+	<l id='51'>Et voulant m'approcher des beautés de Diane,</l>
+	<l id='52'>Je tombe dans la mer de ma confusion ;</l>
+	<l id='53'>Tel qu'épris d'un feu violent,</l>
+	<l id='54'>Au lieu d'une Déesse nue,</l>
+	<l id='55'>Ixion autrefois n'embrassa qu'une nue,</l>
+	<l id='56'>Et devint honteux, d'insolent ;</l>
+	<l id='57'>Trop téméraire, et trop profane,</l>
+	<l id='58'>Après m'être flatté d'un espoir décevant,</l>
+	<l id='59'>Quand je crois me trouver dans les bras de Diane,</l>
+	<l id='60'>Je sens moins que son ombre, et ne tiens que du vent.</l>
+	<l id='61'>À qui méritait un autel,</l>
+	<l id='62'>J'osais destiner des caresses ;</l>
+	<l id='63'>Pour les dieux seulement le Ciel fait des déesses,</l>
+	<l id='64'>J'ai trop osé pour un mortel ;</l>
+	<l id='65'>Trop téméraire, et trop profane</l>
+	<l id='66'>Je vois mes voeux suivis d'un triste événement,</l>
+	<l id='67'>Et j'ai pour tout profit d'avoir servi Diane</l>
+	<l id='68'>La satisfaction de mourir seulement :</l>
+	<l id='69'>Meurs donc, puisque le Ciel a résolu ta perte,</l>
+	<l id='70'>Meurs, et que de ton sang Diane soit couverte,</l>
+	<l id='71'>Répands sur son portrait, comme sur un autel</l>
+	<l id='72'>Tout ce que peut offrir le pouvoir d'un mortel ;</l>
+	<l id='73'>Ce sang ne suffit pas, ouvre encore ta blessure,</l>
+	<l id='74'>Et privé de son corps, meurs dessus sa peinture ;</l>
+	<l id='75'>Mais sans passer hélas ! à ce dernier effort,</l>
+	<l id='76'>Mes yeux perdent le jour, je tombe, je suis mort.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Agesilan de Colchos, Darinel son valet.</head>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='77'>Enfin (cher Darinel) il reste de te dire</l>
+	<l id='78'>Que de tous les sujets de l'amoureux Empire,</l>
+	<l id='79'>Je suis ou le plus vain ou le plus fortuné ;</l>
+	<l id='80'>Qu'ayant le moins d'amour, j'en ai le plus donné ;</l>
+	<l id='81'>Qu'aux plus heureux amants j'ai causé de l'ennuie, [sic]</l>
+	<l id='82'>Et puis être avec droit satisfait de ma vie.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='83'>Votre seule beauté charme tout l'Univers,</l>
+	<l id='84'>Et le Ciel sur vous seul tient tous ses yeux ouverts :</l>
+	<l id='85'>Il n'est rien d'adorable après votre visage.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='86' part='i'>J'en présume un peu moins.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='86' part='f'>Peut-être davantage,</l>
+	<l id='87'>Croyez-vous regarder un objet de bon oeil,</l>
+	<l id='88'>Sans tirer pour le moins une âme du cercueil ?</l>
+	<l id='89'>Je connais vos pareils, qu'une Dame soupire,</l>
+	<l id='90'>Qu'à quelque souvenir elle vienne à sourire,</l>
+	<l id='91'>Ou qu'elle ait le regard de nature amoureux,</l>
+	<l id='92'>Ils disent qu'elle en tient, et prennent tout pour eux,</l>
+	<l id='93'>Lors d'un geste affecté, certes Mademoiselle,</l>
+	<l id='94'>Le Ciel, leur disent-ils, en vous faisant si belle,</l>
+	<l id='95'>Eut de mauvais desseins pour notre liberté.</l>
+	<l id='96'>Lors ils expliquent tout selon leur vanité,</l>
+	<l id='97'>Si la Dame rougit, c'est d'un amour extrême,</l>
+	<l id='98'>Qu'elle réponde ou non, c'est d'amour tout de même.</l>
+	<l id='99'>Ils s'estiment reçus dès qu'ils se sont offerts,</l>
+	<l id='100'>Et dans leur sentiment la plus libre est aux fers.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='101' part='i'>Tu nous peins savamment.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='101' part='f'>Libre et franc de nature,</l>
+	<l id='102'>Aux objets que je peins j'égale la peinture ;</l>
+	<l id='103'>Je dis ce que je pense, et suis fâché pour vous</l>
+	<l id='104'>De vous voir conformer à l'humeur de ces fous.</l>
+	<l id='105'>Mais quel funeste objet à mes yeux se présente</l>
+	<l id='106'>La terre sous nos pas en chaque endroit sanglante,</l>
+	<l id='107'>Me fait mal présumer de l'état de ce corps,</l>
+	<l id='108'>Et croire que l'esprit croît le nombre des morts.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='109'>Sans doute il ne vit plus, quelle est cette aventure ?</l>
+	<l id='110'>Attends, du sang qui coule encore de sa blessure,</l>
+	<l id='111'>Fait voir qu'il n'est pas mort, et qu'un peu de secours</l>
+	<l id='112'>Peut-être de sa vie allongera le cours ;</l>
+	<l id='113'>Il faut bander sa plaie.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL, tire une petite bouteille de sa poche.</speaker>
+	<l id='114'>Et j'ai la médecine,</l>
+	<l id='115'>En quoi le ciel a mis une vertu divine,</l>
+	<l id='116'>Qui guérit de tous maux, qui conforte le coeur,</l>
+	<l id='117'>Et des plus languissants rétablit la vigueur.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='118' part='i'>Ce sont là tes amours ?</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='118' part='f'>C'est la seule maîtresse</l>
+	<l id='119'>Qui possède mes voeux, à qui je fais caresse,</l>
+	<l id='120'>Je la porte partout, et ne la puis quitter,</l>
+	<l id='121'>Pour le pouvoir qu'elle a de me ressusciter,</l>
+	<l id='122'>Je l'éprouve toujours propice à mon ennuie,</l>
+	<l id='123'>Et ses moindres baisers peuvent rendre la vie.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='124' part='i'>Essayons sa vertu.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='124' part='f'>Voyez le changement,</l>
+	<l id='125'>Que produit sur un mort ce nectar si charmant,</l>
+	<l id='126'>Voyez comme à ses yeux le ciel rend la lumière,</l>
+	<l id='127'>Et lui fait entrouvrir sa débile paupière,</l>
+	<l id='128'>Qu'à mon tour je la baise, ô charmes infinis !</l>
+	<l id='129'>Telle ne fut jamais Vénus pour Adonis.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='130' part='i'>Ô, Dieux qu'un prompt effet !</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='130' part='f'>Quelle pitié Cruelle</l>
+	<l id='131'>Redonne à mon esprit sa dépouille mortelle,</l>
+	<l id='132'>Et quelle charité vous fait mal à propos,</l>
+	<l id='133'>Me rendre à la douleur, et troubler mon repos.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='134'>Mais qui vous rend plutôt à vous-même contraire</l>
+	<l id='135'>Si vous fuyez le jour, quel objet vous peut plaire ?</l>
+	<l id='136'>Ranimez, ranimez ce courage abattu,</l>
+	<l id='137'>Qui laisse à votre mal céder votre vertu,</l>
+	<l id='138'>Quelle que soit pour nous l'humeur de la fortune,</l>
+	<l id='139'>La vie aux gens de coeur n'est jamais importune,</l>
+	<l id='140'>Contez-nous en deux mots, par quelle adversité,</l>
+	<l id='141'>Le ciel vous a réduit à cette extrémité.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO penché sur les genoux d'Agesilan.</speaker>
+	<l id='142'>Je vous veux obéir, au moins si ma faiblesse,</l>
+	<l id='143'>Encor assez de voix, et de vigueur me laisse :</l>
+	<l id='144'>Voyez brave guerrier, en cet écu fatal,</l>
+	<l id='145'>Sous les traits d'un portrait, la cause de mon mal.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='146'>Ô rare, et divine merveille !</l>
+	<l id='147'>Telle n'est la mère d'amour,</l>
+	<l id='148'>Quand à l'univers qui sommeille,</l>
+	<l id='149'>Elle vient annoncer le jour.</l>
+	<l id='150'>Telle ne vient, ni si brillante,</l>
+	<l id='151'>Au fond du cor et de la voix,</l>
+	<l id='152'>Du jeune chasseur qui l'enchante,</l>
+	<l id='153'>L'illustre courrière des mois.</l>
+	<l id='154'>Et telle n'est au Ciel l'amante</l>
+	<l id='155'>De cet homicide innocent,</l>
+	<l id='156'>Que la mort de Procris tourmente</l>
+	<l id='157'>Autant que l'amour qu'il ressent.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='158'>S'il vous est agréable apprenez en deux mots,</l>
+	<l id='159'>Quelle est cette beauté fatale à mon repos,</l>
+	<l id='160'>Sydonie, est un nom connu de tout le monde,</l>
+	<l id='161'>Au printemps de ses jours elle était sans seconde,</l>
+	<l id='162'>Sa beauté fut l'aimant des princes d'alentour,</l>
+	<l id='163'>Qui jadis tous en foule, abordaient en sa cour,</l>
+	<l id='164'>La Guindaye est une île à son pouvoir soumise,</l>
+	<l id='165'>Où cent Rois chaque jour apportaient leur franchise,</l>
+	<l id='166'>Mais un seul rendit sien à la honte de tous,</l>
+	<l id='167'>L'objet de tant d'amants, et de tant de jaloux :</l>
+	<l id='168'>Florisel, c'est son nom, sous les fausses promesses</l>
+	<l id='169'>D'un futur Hyménée, attira les caresses,</l>
+	<l id='170'>Toutes les privautés que l'on peut commencer,</l>
+	<l id='171'>Et tout ce qu'une amante a moyen d'avancer,</l>
+	<l id='172'>Tout ce peut permettre une ardeur infinie,</l>
+	<l id='173'>Le jeune Florisel, l'obtint de Sydonie,</l>
+	<l id='174'>Mais elle apprit bientôt à sa confusion</l>
+	<l id='175'>Qu'il nuit d'être prodigue en cette occasion,</l>
+	<l id='176'>Qu'à tort avant l'Hymen, la fille s'abandonne,</l>
+	<l id='177'>Et perd ce qu'elle a pris alors qu'elle se donne,</l>
+	<l id='178'>Souvent de la rigueur dépend la sûreté,</l>
+	<l id='179'>Le captif que l'on plaint songe à sa liberté.</l>
+	<l id='180'>Tel comblé des faveurs d'une amante indiscrète,</l>
+	<l id='181'>Cet infidèle enfin pratique sa retraite</l>
+	<l id='182'>Et chacun reposant, par des lieux inconnus,</l>
+	<l id='183'>Se soustrait au pouvoir de sa jeune Vénus.</l>
+	<l id='184'>Jamais si vivement l'amante de Thésée,</l>
+	<l id='185'>Ne ressentit l'affront de se voir abusée ;</l>
+	<l id='186'>Et Didon autrefois, porta plus doucement</l>
+	<l id='187'>De son beau fugitif, l'ingrat éloignement,</l>
+	<l id='188'>Elle crie, elle pleure, une rage soudaine,</l>
+	<l id='189'>D'une extrême amitié fait un objet de haine,</l>
+	<l id='190'>Rien ne la peut résoudre, et sa juste fureur</l>
+	<l id='191'>Ne médita, que sang, que carnage, et qu'horreur,</l>
+	<l id='192'>Mais son ressentiment n'a point d'autre allégeance,</l>
+	<l id='193'>La fuite du coupable empêche sa vengeance,</l>
+	<l id='194'>Et ce jeune inconstant trop ingrat, et trop vain,</l>
+	<l id='195'>Ne considère point l'effet de son dédain,</l>
+	<l id='196'>Enfin de leurs baisers naquit une Princesse,</l>
+	<l id='197'>Souffrez, qu'ici ma vie, et ma parole cesse ;</l>
+	<l id='198'>Il m'est honteux de vivre à ce ressouvenir,</l>
+	<l id='199'>Et d'elle, ce portrait vous peut entretenir,</l>
+	<l id='200'>Diane fut le nom de cet ange visible</l>
+	<l id='201'>Où le temps a fait voir par un cours insensible,</l>
+	<l id='202'>Tant de trésors puisés des richesses des Cieux,</l>
+	<l id='203'>Que qui ne l'aime pas, est sans coeur, ou sans yeux.</l>
+	<l id='204'>Tout ce qu'on fait de rare, et l'art et la Nature,</l>
+	<l id='205'>Tous les efforts du Ciel sont moins que sa peinture,</l>
+	<l id='206'>Et jamais ne parut entre les immortels,</l>
+	<l id='207'>Une divinité digne de tant d'autels,</l>
+	<l id='208'>Elle est de mille rois l'amour et les délices,</l>
+	<l id='209'>Tous vont à ses beautés, offrir leurs sacrifices,</l>
+	<l id='210'>Et Sydonie enfin, suivant sa passion,</l>
+	<l id='211'>Use pour se venger de cette invention :</l>
+	<l id='212'>Diane en une tour par ses soins retenue,</l>
+	<l id='213'>Et de qui le Soleil à peine obtient la vue,</l>
+	<l id='214'>Par édit qu'elle a fait, doit être un instrument,</l>
+	<l id='215'>Pour immoler ce traître à son ressentiment.</l>
+	<l id='216'>Elle est par cet édit promise pour conquête,</l>
+	<l id='217'>À qui de Florisel lui portera la tête :</l>
+	<l id='218'>Elle en fait disperser un nombre de portraits,</l>
+	<l id='219'>Et quiconque les voit, charmé de tant d'attraits,</l>
+	<l id='220'>Flatte sa passion d'une espérance vaine,</l>
+	<l id='221'>Et cherche en Florisel le secours de sa peine :</l>
+	<l id='222'>Mais ce prince inconstant toujours victorieux,</l>
+	<l id='223'>Ne fait que ses jouets de ces audacieux, </l>
+	<l id='224'>Fait éprouver à tous sa valeur infinie,</l>
+	<l id='225'>Et captifs les envoie aux pieds de Sydonie,</l>
+	<l id='226'>Tel puisqu'il plaît au sort, quoique d'illustre sang,</l>
+	<l id='227'>Vaincu de Florisel, je vais croître leur rang,</l>
+	<l id='228'>Forcé de renoncer par le malheur des armes,</l>
+	<l id='229'>A la prétention de posséder ces charmes.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='230'>Votre malheur est grand, mais la confiance en fin</l>
+	<l id='231'>Adoucit le plus rude, et le pire destin,</l>
+	<l id='232'>Une inutile amour doit tôt être bannie,</l>
+	<l id='233'>Et savoir mépriser ce que le sort vous nie,</l>
+	<l id='234'>Est contre ses assauts un effort glorieux :</l>
+	<l id='235'>Et c'est en quelque sorte être victorieux,</l>
+	<l id='236'>Mais ô brave guerrier, puis-je sans vous déplaire,</l>
+	<l id='237'>Vous demander un bien, à votre bien contraire,</l>
+	<l id='238'>Qui blesse vos regards et peut à tout propos,</l>
+	<l id='239'>Si vous le conservez troubler votre repos.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='240'>Que vous puis-je accorder, disposez de ma vie,</l>
+	<l id='241'>Vous méditez des yeux l'objet de votre ennuie, [sic]</l>
+	<l id='242'>Ce portrait en qui l'art ne se peut trop louer,</l>
+	<l id='243' part='i'>Est-ce qui vous plaît tant ?</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='243' part='f'>Je n'osais l'avouer</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='244'>Il est à vous adieu, mais en ce don funeste,</l>
+	<l id='245'>Vous prenez un serpent, un poison, une peste,</l>
+	<l id='246'>Encore deux regards vous enchantent les sens,</l>
+	<l id='247'>Et vous font adorer ces meurtriers innocents,</l>
+	<l id='248'>Florisel est vaillant, j'éprouve à mon dommage,</l>
+	<l id='249'>Combien il a d'adresse, et quel est son courage,</l>
+	<l id='250'>Veuille pour vous le Ciel avoir plus de bonté,</l>
+	<l id='251'>Que de vous exposer à son bras indompté.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='252'>Pareil au criminel dont un mortel breuvage,</l>
+	<l id='253'>D'un effort inconnu tranche le cours de l'âge</l>
+	<l id='254'>Je me sens consommer d'une invisible ardeur,</l>
+	<l id='255'>Qui tout d'un coup attaque, et consume mon coeur,</l>
+	<l id='256'>Pareille ne fut pas à ce feu qui me tue,</l>
+	<l id='257'>L'amour de l'artisan qui servit sa statue.</l>
+	<l id='258'>Et dont les innocents, et sensibles transports</l>
+	<l id='259'>Firent répandre aux dieux une âme dans son corps,</l>
+	<l id='260'>De quel effort ô Dieux ! est mon âme agitée ?</l>
+	<l id='261'>Par quel sort est si tôt ma raison enchantée ?</l>
+	<l id='262'>Cessez, dédains, froideurs, repos, orgueil, plaisirs,</l>
+	<l id='263'>Et cédez à l'ardeur de mes nouveaux désirs.</l>
+	<l id='264'>Si l'art de la nature imite cet ouvrage,</l>
+	<l id='265'>Et si cette merveille égale son image,</l>
+	<l id='266'>Quel dieu peut justement lui refuser l'honneur,</l>
+	<l id='267'>D'établir en ces voeux sa gloire, et son bonheur,</l>
+	<l id='268'>Heureux Agesilan, si pour de si doux charmes,</l>
+	<l id='269'>Il t'est permis un jour de répandre des larmes.</l>
+	<l id='270'>Heureux qui peut l'aimer, et plus heureux encor,</l>
+	<l id='271'>Ceux qui posséderont un si rare trésor :</l>
+	<l id='272'>Adore Darinel ce miracle visible,</l>
+	<l id='273'>Peux-tu voir ces beautés, et paraître insensible,</l>
+	<l id='274'>Adore impie adore, un objet si charmant</l>
+	<l id='275'>Montre en cette action un peu de jugement,</l>
+	<l id='276'>Que ton âme est tranquille, et n'en est pas ravie.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='277'>Mais me répondez-vous du repos de ma vie ?</l>
+	<l id='278'>Sentirez-vous mes fers, et quand je serai pris</l>
+	<l id='279'>Tâcherez-vous pour moi de toucher ses esprits,</l>
+	<l id='280'>Je me flatterais bien d'une espérance vaine</l>
+	<l id='281'>Chacun ferait pour soi, chacun ressent sa peine,</l>
+	<l id='282'>J'aurais des confidents, bien moins que de jaloux,</l>
+	<l id='283'>Et la pouvant donner vous la prendre pour vous.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='284'>Trêve cher Darinel, à tout dessein de rire</l>
+	<l id='285'>Quand mon coeur est touché d'un si cruel martyre,</l>
+	<l id='286'>Trêve pour un moment de tes belles humeurs,</l>
+	<l id='287'>Et trêve au passe-temps, quand tu vois que je meurs ;</l>
+	<l id='288'>Quelles inventions, et quel moyen possible,</l>
+	<l id='289'>Peut à des yeux mortels rendre un Ange visible,</l>
+	<l id='290'>Quel utile conseil peut inspirer l'amour,</l>
+	<l id='291'>Pour tromper ce jaloux, et forcer une tour,</l>
+	<l id='292'>Si tu peux m'assister d'un avis salutaire,</l>
+	<l id='293' part='i'>Tu me seras un Dieu.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='293' part='f'>Qu'avez-vous tant à faire ?</l>
+	<l id='294'>Déguisez votre sexe, et sous de faux habits,</l>
+	<l id='295'>Comme on dit que les Dieux en ont usé jadis,</l>
+	<l id='296'>Usez des privautés qu'un autre habit vous nie,</l>
+	<l id='297'>Allez servir Diane, et tromper Sydonie,</l>
+	<l id='298'>Que ne charmerez-vous avecque tant d'appas,</l>
+	<l id='299'>Et quels yeux si subtils ne tromperez-vous pas,</l>
+	<l id='300'>D'homme devenez fille, et maîtresse de maître,</l>
+	<l id='301'>À peine seulement vous pourrais-je connaître.</l>
+</sp>
+<sp who='AGESILAN'><speaker>AGESILAN</speaker>
+	<l id='302'>Ô rare invention ! favorable conseil ?</l>
+	<l id='303'>Est-il un autre esprit, à ton esprit pareil ?</l>
+	<l id='304'>Partons avant la nuit, et cherchons en Guindaye,</l>
+	<l id='305'>Sous de faux vêtements l'appareil de ma plaie,</l>
+	<l id='306'>D'une si douce ardeur, mon coeur est embrasé,</l>
+	<l id='307'>Que tout dessein me tarde, et que tout m'est aisé.</l>
+<stage>Il s'en va.</stage>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='308'>Que vois-je, de quel genre est sa mélancolie ?</l>
+	<l id='309'>Quel est ce feu qu'il vante, et qu'il trouve si doux ?</l>
+	<l id='310'>Ô Dieux dont le pouvoir préside à la folie,</l>
+	<l id='311'>Jetez les yeux sur lui, il a besoin de vous.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Florisel, Arlandes son ami.</head>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='312'>Il est vrai qu'elle a droit de vouloir mon supplice,</l>
+	<l id='313'>Que son ressentiment a beaucoup de justice,</l>
+	<l id='314'>Et que pouvoir si tôt dégager mes esprits,</l>
+	<l id='315'>Semblait de la froideur passer jusqu'au mépris ;</l>
+	<l id='316'>Mais lorsque de faveurs une âme est assouvie,</l>
+	<l id='317'>Et qu'enfin les dégoûts succèdent à l'ennuie,</l>
+	<l id='318'>Veux-tu qu'on se procure auprès d'une beauté</l>
+	<l id='319'>La honte du silence, et de l'oisiveté,</l>
+	<l id='320'>La fuite en ce besoin est un remède honnête,</l>
+	<l id='321'>Et dût-elle coûter la perte de la tête.</l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='322'>Mais vous obtîntes d'elle un traitement si doux,</l>
+	<l id='323'>Par la foi seulement qu'elle tenait de vous.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='324'>On veut par ces discours divertir une Dame,</l>
+	<l id='325'>Et non pas exprimer les mouvements de l'âme,</l>
+	<l id='326'>Et comme par son art on n'a qu'un faux plaisir,</l>
+	<l id='327'>Qui le poursuit aussi, joint la feinte au désir,</l>
+	<l id='328'>Il loue, il flatte, il vante, il promet, il s'engage,</l>
+	<l id='329'>Et parfois réussit avec ce vain langage ;</l>
+	<l id='330'>Quelque dupe aux dépens de son honnêteté</l>
+	<l id='331'>Lui fait preuve parfois de sa simplicité.</l>
+	<l id='332'>Mais qu'elle est abusée, et que la plus divine,</l>
+	<l id='333'>Lorsqu'elle donne tout, est près de sa ruine.</l>
+	<l id='334'>En deux mots seulement, apprend comme je vis,</l>
+	<l id='335'>Quand un objet est beau, mes yeux en sont ravis,</l>
+	<l id='336'>Je me laisse attirer à de douces amorces,</l>
+	<l id='337'>Et j'ai des passions égales à mes forces ;</l>
+	<l id='338'>Mais cette ardeur s'éteint, et la seconde nuit</l>
+	<l id='339'>Je songe à mon repos, qui me charmait, me nuit ;</l>
+	<l id='340'>Telle avec qui le soir je parlais de servage,</l>
+	<l id='341'>Et qui me paraissait dessous un beau visage,</l>
+	<l id='342'>Connaît bien le matin que j'en suis rebuté,</l>
+	<l id='343'>Et le jour me retrouve avec la liberté,</l>
+	<l id='344'>Je trouve des enfers, où j'ai vu des délices</l>
+	<l id='345'>Le lieu de mes plaisirs m'est un lieu de supplices,</l>
+	<l id='346'>Et tant d'aversion me chasse de ce lieu,</l>
+	<l id='347'>Que même bien souvent j'oublie à dire adieu.</l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='348'>Cet affront justement afflige Sydonie,</l>
+	<l id='349'>Et sa douleur hélas doit bien être infinie,</l>
+	<l id='350'>Puisqu'avec un dessein si ferme, et si constant,</l>
+	<l id='351'>Elle poursuit la mort de ce qu'elle aime tant.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='352'>Quoique mes propres jours soient l'objet de sa rage,</l>
+	<l id='353'>Je ne la puis haïr, j'estime son courage,</l>
+	<l id='354'>L'équité présidait aux édits qu'elle a faits,</l>
+	<l id='355'>Et son ressentiment a de justes effets.</l>
+	<l id='356'>Mais que par cent combats j'ai fait à ses ministres</l>
+	<l id='357'>Avoir de leur amour des présages sinistres ;</l>
+	<l id='358'>Que Diane pour eux est un objet fatal,</l>
+	<l id='359'>Et qu'au dessein qu'ils ont, il leur succède mal.</l>
+	<l id='360'>La Guindaye en rougit, et je remplis ses rives</l>
+	<l id='361'>De l'hommage honteux de ses troupes captives ;</l>
+	<l id='362'>La Reine peut dompter l'ennui qu'elle ressent</l>
+	<l id='363'>Pour un seul qu'elle perd elle en rencontre cent.</l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='364'>Je ne puis toutefois voir sans beaucoup de peine</l>
+	<l id='365'>Les dangers continus, que vous produit sa haine,</l>
+	<l id='366'>Le démon des guerriers n'est pas toujours égal,</l>
+	<l id='367'>Et cent combats sont vains, quand un succède mal ;</l>
+	<l id='368'>Vous commencez encor après tant de conquêtes,</l>
+	<l id='369'>Cette Hydre chaque jour a de nouvelles têtes :</l>
+	<l id='370'>Et de tant d'ennemis, l'un à peine est à bas,</l>
+	<l id='371'>Que l'autre à même instant se trouve sur vos pas :</l>
+	<l id='372'>Ne vois-je pas encor quelque nouveau Thiphae,</l>
+	<l id='373'>Chercher en votre tête un utile Trophée :</l>
+	<l id='374'>Ô fatale inconstance, un soudain tremblement</l>
+	<l id='375' part='i'>Glace tous mes esprits.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='375' part='f'>Écoutons seulement.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Arlandes, Florisel, Rosaran.</head>
+<sp who='ROSARAN'><speaker>ROSARAN, faisant le brave.</speaker>
+	<l id='376'>Tyran des volontés, Dieu de fers, et de flammes</l>
+	<l id='377'>Enfant malicieux, petit bourreau des âmes ;</l>
+	<l id='378'>Maître le plus cruel, qui respire le jour,</l>
+	<l id='379'>Peste de mon repos, et pour tout dire amour :</l>
+	<l id='380'>Quelle soumission, quel devoir, quel hommage</l>
+	<l id='381'>Quel injuste tribut veux-tu de mon courage ?</l>
+	<l id='382'>Par quel secret pouvoir engages-tu ma foi,</l>
+	<l id='383'>Fait révérer tes lois aux enfants comme toi :</l>
+	<l id='384'>Ou si mon mal te plaît, au moins fais-toi connaître,</l>
+	<l id='385'>Tu blesses lâchement, tu frappes sans paraître,</l>
+	<l id='386'>Tu n'oses éprouver la valeur d'un mortel,</l>
+	<l id='387'>Tu te rends invisible et ton renom est tel :</l>
+	<l id='388'>Plût au ciel d'accorder ma généreuse ennuie,</l>
+	<l id='389'>De nous voir main à main, disputer de la vie,</l>
+	<l id='390'>Combien je vengerais de malheureux amants,</l>
+	<l id='391'>Et que ta mort plairait à leurs ressentiments.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='392'>Que sa folie est rare, ô rencontre plaisante !</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='393'>Quelqu'un de mes rivaux à mes yeux se présente,</l>
+	<l id='394'>Ô ciel de tant d'amants quel sera le destin,</l>
+	<l id='395'>Et qui doit remporter ce précieux butin ?</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='396'>Il le faut aborder, flattons son arrogance,</l>
+	<l id='397'>Et tirons du plaisir de son extravagance,</l>
+	<l id='398' part='i'>Généreux Cavalier.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='398' part='f'>La qualité me plaît.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='399' part='i'>Vous cherchez Florisel.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='399' part='f'>Oui, sais-tu quel il est ?</l>
+	<l id='400'>Un aveugle, un tyran me demande sa tête,</l>
+	<l id='401'>Et je dois accorder son injuste requête.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='402'>Animé de l'ardeur dont vous êtes épris,</l>
+	<l id='403'>De vos moindres efforts elle sera le prix.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='404'>Sans l'aide des enfers, à sa défense offerte, </l>
+	<l id='405'>Je crois qu'il ne peut pas en éviter la perte.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='406'>On dit qu'il est vaillant, mais votre seul aspect</l>
+	<l id='407'>Impose aux plus hardis, la crainte, et le respect.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='408'>Vaillant, dieux le faux bruit, et que la renommée,</l>
+	<l id='409'>D'une seule étincelle engendre de fumée,</l>
+	<l id='410'>En mille occasions, j'ai vu sans vanité,</l>
+	<l id='411'>Florisel dépourvu de cette qualité.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='412' part='i'>Quoi vous l'avez déjà battu ?</l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='412' part='f'>Que mon âme est ravie.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='413'>Il a de ma pitié tenu cent fois la vie,</l>
+	<l id='414'>Et je l'ai cent fois mis aux termes du devoir,</l>
+	<l id='415'>Où ma compassion me la fait recevoir.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='416'>Vous allez de sa mort accroître votre gloire ?</l>
+	<l id='417'>Et remporter sur lui la dernière victoire ?</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='418'>Puisqu'il plaît à l'amour Florisel doit périr,</l>
+	<l id='419'>Et le ciel vainement le voudrait secourir.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='420' part='i'>Où le trouverez-vous ?</l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='420' part='f'>Errant en ses provinces,</l>
+	<l id='421'>Où sa timidité le cache à mille princes,</l>
+	<l id='422'>Qui veulent acheter Diane de son sang,</l>
+	<l id='423'>Et parmi qui mon nom tient un honnête rang,</l>
+	<l id='424'>Mais toi-même animé de passion pareille,</l>
+	<l id='425'>Prétends à posséder cette rare merveille,</l>
+	<l id='426'>Tu cherches Florisel, et ne lui promets pas</l>
+	<l id='427'>Si le sort est pour toi, moins qu'un honteux trépas.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='428'>La beauté de Diane a de trop faibles charmes,</l>
+	<l id='429'>Elle a trop peu d'attraits, et j'estime insensé,</l>
+	<l id='430'>Qui veut d'un si bas prix être récompensé.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='431'>Ô sacrilège impie, ô téméraire audace,</l>
+	<l id='432'>Dont l'aveugle mépris profane tant de grâce,</l>
+	<l id='433'>Diane, ce soleil des dieux, et des mortels,</l>
+	<l id='434'>De ton affection n'obtient pas des autels ;</l>
+	<l id='435'>Ô mépris criminel, juge par sa peinture.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='436'>Je vois le moindre objet, qu'ait formé la nature,</l>
+	<l id='437'>Ce visage est grossier, je n'y vois rien de doux,</l>
+	<l id='438'>Et tiens tous ses amants en qualité de fous.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='439'>On nomme aussi l'amour une mélancolie,</l>
+	<l id='440'>Un beau trouble d'esprit, une douce folie,</l>
+	<l id='441'>Tu les qualifieras du titre que tu veux,</l>
+	<l id='442' part='i'>Mais moi qui suis du rang.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='442' part='f'>Plus fou que pas un d'eux.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='443'>J'aime ta belle humeur, presque à ma honte même,</l>
+	<l id='444'>Et ne te puis ouïr sans un plaisir extrême.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='445' part='i'>Si j'étais Florisel ?</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='445' part='f'>Le ciel t'en garde, hélas ?</l>
+	<l id='446' part='i'>Dans un moment, ou moins.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='446' part='m'>Quoi ?</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='446' part='f'>Tu ne vivrais pas </l>
+	<l id='447'>Sa tête que je cherche et que veut Sydonie</l>
+	<l id='448'>Reconnaîtrait bien tôt ma valeur infinie.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL, mettant l'épée à la main.</speaker>
+	<l id='449'>Voilà, voilà ce don que tu lui dois porter,</l>
+	<l id='450'>Mais pour en être maître il le faut disputer,</l>
+	<l id='451'>Accepte de ce prix le bien qu'elle te nie.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN à Arlandes.</speaker>
+	<l id='452'>Retenez, la fureur, dieux quelle est sa manie,</l>
+	<l id='453'>Pourquoi s'expose-t-il sous un nom emprunté,</l>
+	<l id='454'>À l'invincible effort de ce bras indompté ? </l>
+</sp>
+<sp who='ARLANDES'><speaker>ARLANDES</speaker>
+	<l id='455' part='i'>Dieux l'agréable fou :</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='455' part='f'>Toi qui cherches ma tête,</l>
+	<l id='456'>Toi de qui Florisel fut cent fois la conquête,</l>
+	<l id='457'>Aux pieds de qui cent fois il mit ses armes bas,</l>
+	<l id='458'>Tu délibères lâche, et ne le connais pas.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='459'>Vous êtes Florisel ? Ô rencontre propice,</l>
+	<l id='460'>Que le sort aujourd'hui me rend un bon office,</l>
+	<l id='461'>Le Ciel me soit témoin que le but de mes pas,</l>
+	<l id='462'>N'est que de vous offrir le secours de mon bras,</l>
+	<l id='463'>Que jamais à mortel je n'offre d'assistance,</l>
+	<l id='464'>Si je me suis armé que pour votre défense,</l>
+	<l id='465'>Vous connaîtrez en moi par d'utiles effets,</l>
+	<l id='466'>Le plus sincère ami que vous eûtes jamais.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='467'>Le ciel montre les soins qu'il a de l'innocence,</l>
+	<l id='468'>Et me voilà pourvu d'un ami d'importance,</l>
+	<l id='469'>Adieu, puisses-tu voir ma tête entre tes mains,</l>
+	<l id='470'>Si tu n'es (cher ami) le plus fou des humains.</l>
+</sp>
+<stage>Il s'en va.</stage>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='471'>Serait-ce Florisel, qui me le peut apprendre :</l>
+	<l id='472'>Laissai-je aller un bien qui n'eût coûté qu'à prendre.</l>
+	<l id='473'>Je le cherche, le trouve, et ne l'attaque pas,</l>
+	<l id='474'>Délibérai-je encor ? Il faut suivre ses pas :</l>
+	<l id='475'>Non, domptons la fureur de ce bouillant courage,</l>
+	<l id='476'>À la compassion, faisons céder la rage,</l>
+	<l id='477'>Et renonçons plutôt aux atteintes d'amour,</l>
+	<l id='478'>Qu'offenser l'innocent, et le priver du jour,</l>
+	<l id='479'>Tyran des libertés, amour, peste des âmes</l>
+	<l id='480'>Je brise tous tes fers, j'éteins toutes tes flammes,</l>
+	<l id='481'>Et plutôt que jamais relever de tes lois,</l>
+	<l id='482'>Je romprai ton bandeau, ton arc, et ton carquois.</l>
+<stage>Il s'en va.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Daraide, Darinel.</head>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='483'>Je souhaite, je crains, je meurs, je ressuscite,</l>
+	<l id='484'>À l'abord du pays, où ce bel astre habite ;</l>
+	<l id='485'>Tant de lieux que j'ai vus, tant de pays divers,</l>
+	<l id='486'>Tant de rochers affreux, tant de monts, tant de mers,</l>
+	<l id='487'>La colère des vents, le péril du naufrage,</l>
+	<l id='488'>N'ont que d'un vain effort assailli mon courage,</l>
+	<l id='489'>Et je tremble à l'aspect du glorieux séjour,</l>
+	<l id='490'>Où je vais adorer ce miracle d'amour,</l>
+	<l id='491'>En ces cruels assauts que le respect me livre,</l>
+	<l id='492'>À qui faut-il parler ? Quel conseil dois-je suivre ?</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='493'>Vous allez à la Reine offrir sans mandement</l>
+	<l id='494'>C'est agir (ce me semble) un peu légèrement ;</l>
+	<l id='495'>L'offre que vous ferez précédant son ennuie,</l>
+	<l id='496'>D'un refus de sa part pourrait être suivie ;</l>
+	<l id='497'>Vous devez mieux conduire, et couvrir votre jeu,</l>
+	<l id='498'>Qui s'offre, c'est à charge, et l'on l'estime peu.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='499'>Quel salutaire avis me peux-tu donc prescrire ?</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='500'>Au lieu de vous offrir faites qu'on vous désire,</l>
+	<l id='501' part='i'>En voici le moyen, écoutez !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='501' part='f'>Dis donc tôt.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='502' part='i'>Que vous êtes pressé.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='502' part='f'>Je te prie en un mot.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='503'>Diane, de ce pas où sa chambre regarde,</l>
+	<l id='504'>(Comme nous avons su d'un des gens de sa garde,)</l>
+	<l id='505'>Pourra peut-être ouïr les aimables accents</l>
+	<l id='506'>Dont votre belle voix sait enchanter les sens,</l>
+	<l id='507'>Ses accords mariés à ceux de la guitare,</l>
+<note>La transcription originale de la rime est 'guiterre' pour rimer avec 'terre'</note>
+	<l id='508'>Peuvent si vous voulez charmer toute la terre ;</l>
+	<l id='509'>Quoiqu'il arrive aussi vous ne la quittez pas, </l>
+	<l id='510'>Et voulez qu'elle et moi, suivions toujours vos pas,</l>
+	<l id='511'>Jointe à vos doux accents, votre voix sans pareille,</l>
+	<l id='512'>Peut-être de Diane attirera l'oreille ;</l>
+	<l id='513'>Et peut-être ses yeux, en qui vos doux attraits,</l>
+	<l id='514'>Feront naître un dessein de vous voir de plus près ;</l>
+	<l id='515'>Alors vous lui rendrez le service fidèle,</l>
+	<l id='516'>Que vous lui fit vouer, le seul bruit qu'on fait d'elle,</l>
+	<l id='517'>Cet avis ce me semble est le plus à propos,</l>
+	<l id='518'>Et pour votre assurance, et pour votre repos.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='519'>Quelque secret démon que ton âme consulte,</l>
+	<l id='520'>Fait que de tes avis toujours l'effet résulte,</l>
+	<l id='521'>Essayons le succès de cette invention.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL, lui baillant sa guitare.</speaker>
+	<l id='522' part='i'>Tenez !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='522' part='f'>Et par mon chant, apprend ma passion ;</l>
+<stage>Chanson de Daraide </stage>
+	<l id='523'>Ô ciel, si ta Diane eut de mêmes appas,</l>
+	<l id='524'>Qu'on peint ceux de celle que j'aime,</l>
+	<l id='525'>Ce qu'on dit de Vénus, et de Pâris n'est pas,</l>
+	<l id='526'>Ou son aveuglement, en jugeant fut extrême.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Diane dans une galerie, Darine, Daraide.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='527'>Quelle agréable voix a frappé mon oreille ?</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='528'>La voilà qui paraît, ô divine merveille !</l>
+	<l id='529' part='i'>Voyez !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='529' part='f'>Je n'ose ; ô ciel en quel état je suis !</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='530' part='i'>Achevez donc.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='530' part='m'>Je tremble.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='530' part='m'>Achevez !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='530' part='f'>Je ne puis.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='531' part='i'>Qui sont ces gens ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE, continue sa chanson.</speaker>
+	<l id='531' part='f'>S'il n'eût été privé de l'usage des yeux</l>
+	<l id='532'>Elle eût eu la fatale pomme,</l>
+	<l id='533'>Qui fit tomber les murs bâtis des mains des Dieux,</l>
+	<l id='534'>Pour l'amour d'une femme, et le crime d'un homme.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='535'>Jamais de si douce harmonie</l>
+	<l id='536'>Mes sens ne furent enchantés,</l>
+	<l id='537'>Outre la voix, sa grâce est infinie,</l>
+	<l id='538'>Et son visage a d'extrêmes beautés,</l>
+	<l id='539'>Elle a des qualités à charmer tous les sens.</l>
+	<l id='540'>Un mot belle étrangère, attendez, je descends.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='541'>Que désirez-vous plus ? elle vient elle-même.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='542'>Ô mon cher Darinel, en ce bonheur extrême,</l>
+	<l id='543'>Je demeure interdit, immobile, confus,</l>
+	<l id='544'>Et je ne sais que craindre, ou souhaiter de plus,</l>
+	<l id='545'>Épargne-moi l'affront de rester sans parole,</l>
+	<l id='546' part='i'>Fuyons, n'attendons point.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='546' part='f'>Ô la crainte frivole !</l>
+	<l id='547'>Aimant bien vous douter de pouvoir cajoler,</l>
+	<l id='548'>Ce seul habit suffit à vous faire parler,</l>
+	<l id='549'>Si son portrait au reste a d'agréables charmes,</l>
+	<l id='550'>Que n'allez-vous point voir, que je prévois de larmes,</l>
+	<l id='551'>Que d'adorations, et que de vains regrets,</l>
+	<l id='552'>Vous vont coûter ses yeux pourvus de d'attraits,</l>
+	<l id='553'>L'ouvrier qui la peignit, n'en fit de fausses traces,</l>
+	<l id='554'>Et n'a pas imité la moindre de ses grâces,</l>
+	<l id='555' part='i'>J'entends du bruit, c'est elle.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='555' part='f'>Ô dieux ! qu'à cet aspect,</l>
+	<l id='556'>J'éprouve ce que peut la crainte, et le respect !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Diane, Ardenie, Daraide, Darinel.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='557'>Quelle heureuse aventure, agréable merveille,</l>
+	<l id='558'>Vient de me faire ouïr votre voix sans pareille,</l>
+	<l id='559'>Sachant à qui je dois un passe-temps si doux,</l>
+	<l id='560'>Quel état justement ne ferais-je de vous :</l>
+	<l id='561'>Et de quelle faveur ne suis-je redevable</l>
+	<l id='562'>À qui m'a fait jouir d'un bien si délectable ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='563'>Mais quelle voix plutôt, et fût-elle d'un Dieu,</l>
+	<l id='564'>Peut mériter l'honneur qui m'arrive en ce lieu,</l>
+	<l id='565'>Pour acheter un mot d'une bouche si rare, </l>
+	<l id='566'>Que peut-on posséder dont on put être avare.</l>
+	<l id='567'>Si contre la nature on murmura jamais,</l>
+	<l id='568'>C'est aujourd'hui, Madame, et c'est moi qui le fais.</l>
+	<l id='569'>Plût au ciel sussiez-vous avec combien d'ennui</l>
+	<l id='570'>J'oserais vous offrir mon service, et ma vie,</l>
+	<l id='571'>Si l'avare qu'elle est, m'avait fait mériter</l>
+	<l id='572'>Ce qu'elle a bien osé me faire souhaiter :</l>
+	<l id='573'>Mais peut-on souhaiter cette faveur insigne,</l>
+	<l id='574'>À moins que de vous plaire, et que d'en être indigne ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE, à Diane.</speaker>
+	<l id='575'>Certes vous ne pouvez faire un plus juste choix,</l>
+	<l id='576'>Et son esprit est rare encor plus que sa voix.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='577'>Que n'obtiendrez-vous pas avec tant d'éloquence,</l>
+	<l id='578'>Je commençais déjà de craindre votre absence,</l>
+	<l id='579'>Chaque moment vous peint plus charmante à mes yeux,</l>
+	<l id='580'>Ma mère par dessein ne pourrait choisir mieux,</l>
+	<l id='581'>Et je n'obtiendrai pas une faveur légère,</l>
+	<l id='582'>Si son consentement accorde ma prière ;</l>
+	<l id='583'>Mais ma fille en deux mots tirez-moi de souci</l>
+	<l id='584'>Qu'elle est votre pays, et qui vous mène ici ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='585'>La Crète est le séjour, où j'ai pris la naissance,</l>
+	<l id='586'>Là j'appris à chanter dès ma plus tendre enfance,</l>
+	<l id='587'>Cet unique exercice occupait mon loisir,</l>
+	<l id='588'>Sinon utilement, du moins avec plaisir :</l>
+	<l id='589'>Demeurant libre enfin par la mort de mon père,</l>
+	<l id='590'>Et sachant à quel point le siècle vous révère,</l>
+	<l id='591'>Que vous éternisez la gloire de ces lieux,</l>
+	<l id='592'>Et qu'on dit plus de vous, qu'on ne dit pas des dieux.</l>
+	<l id='593'>Cette voix que l'usage, et le Ciel m'ont donnée,</l>
+	<l id='594'>Par un secret instinct s'est pour vous destinée :</l>
+	<l id='595'>J'ai forcé tout respect de parents, et d'amis,</l>
+	<l id='596'>Et les quittant mes biens en leur garde commis,</l>
+	<l id='597'>Avecque peu d'espoir, mais un désir extrême</l>
+	<l id='598'>De vous voir accepter mon service, et moi-même :</l>
+	<l id='599'>Ciel tu sais si je mens, sois témoin de l'ardeur,</l>
+	<l id='600'>Qui me fait pour esclave offrir à sa grandeur :</l>
+	<l id='601' part='i'>Mon nom est Daraide.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='601' part='f'>Il faut qu'elle soit vôtre.</l>
+	<l id='602'>Et que votre amitié la préfère à toute autre,</l>
+	<l id='603'>Ses charmes infinis par des efforts secrets,</l>
+	<l id='604'>Me font être de part, dedans les intérêts,</l>
+	<l id='605' part='i'>Ne délibérez point.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='605' part='f'>Par quelle tyrannie,</l>
+	<l id='606'>Me voulez-vous ravir, ô ma chère Ardenie,</l>
+	<l id='607'>Le pouvoir de montrer un peu de jugement</l>
+	<l id='608'>En l'acquisition d'un objet si charmant ?</l>
+	<l id='609'>Votre peur n'est pas tant que je ne la reçoive,</l>
+	<l id='610'>Comme votre désir est que je vous la doive,</l>
+	<l id='611'>Oui vivez parmi nous, seule je vous reçois,</l>
+	<l id='612'>Et veux pour mon honneur, ne vous devoir qu'à moi :</l>
+	<l id='613'>Aimez-moi seulement, j'obtiendrai de la Reine,</l>
+	<l id='614'>L'aveu que je désire, avec fort peu de peine.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='615'>Tout rit, et tout succède à notre amant transi.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Sydonie, Ardenie, Daraide, Diane, Darinel.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='616'>Entrons ; mais non, la Reine, à propos vient ici,</l>
+	<l id='617' part='i'>Je vais parler pour vous.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='617' part='f'>Quelle est cette Etrangère ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='618'>Mienne, si je reçois la faveur que j'espère,</l>
+	<l id='619'>Ne me refusez pas ce bien si souhaité :</l>
+	<l id='620'>Que j'allais demander à votre Majesté.</l>
+	<l id='621'>Son repos méprisé, ses biens, de longs voyages,</l>
+	<l id='622'>Du bien qu'elle me veut me sont des témoignages ;</l>
+	<l id='623'>Le seul bruit de mon nom attire ici ses pas,</l>
+	<l id='624'>Et sa voix seulement a de si doux appas :</l>
+	<l id='625'>Qu'il ne faut que l'ouïr, pour en être charmée,</l>
+	<l id='626'>Et que vous me louerez de l'avoir estimée.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='627'>Puis-je avoir à mon tour ce divertissement ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='628'>Elle vous ravira, commandez seulement.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='629'>Je ne me flatte pas de l'espoir de vous plaire,</l>
+	<l id='630'>Mais j'obéis au moins ne pouvant satisfaire.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='631' part='i'>Que de grâce.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='631' part='m'>Écoutons !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE, chante</speaker>
+	<l id='631' part='f'>Enfin par le vouloir des dieux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Sydonie, Le Page.</head>
+<sp who='PAGE'><speaker>UN PAGE entre qui dit à la Reine.</speaker>
+	<l id='632'>Madame, un étranger vient d'entrer en ces lieux,</l>
+	<l id='633'>Qui parle d'un Combat dont il veut rendre compte,</l>
+	<l id='634' part='i'>À votre Majesté.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='634' part='f'>Quelle frayeur si prompte,</l>
+	<l id='635'>Quelle soudaine horreur vient glacer mes esprits,</l>
+	<l id='636'>Ha Florisel est mort, n'en as-tu rien appris ?</l>
+</sp>
+<sp who='PAGE'><speaker>LE PAGE</speaker>
+	<l id='637' part='i'>Je crois qu'il l'a nommé.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='637' part='m'>Sans dire davantage.</l>
+</sp>
+<sp who='PAGE'><speaker>LE PAGE</speaker>
+	<l id='638' part='i'>Je n'ai rien entendu.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='638' part='f'>Qu'il vienne, enfin ma rage,</l>
+	<l id='639'>Enfin t'a servie, on accomplit tes voeux,</l>
+	<l id='640'>Et l'on apporte ici la tête que tu veux</l>
+	<l id='641'>On t'a sacrifié cet amant infidèle,</l>
+	<l id='642'>Ô sensible douleur ! ô vengeance cruelle !</l>
+	<l id='643'>Ô détestable effet d'un amour enragé !</l>
+	<l id='644'>Qu'à tel qui se plaignait il nuit d'être vengé,</l>
+	<l id='645'>Plutôt que de passer à cet effort extrême,</l>
+	<l id='646'>Que n'oubliais-je hélas ! mon honneur et moi-même ;</l>
+	<l id='647'>Quel repos, quel honneur, et quel bien m'est rendu,</l>
+	<l id='648'>Et que me revient-il de ce qu'il a perdu ?</l>
+	<l id='649'>Quel effet vont avoir les traits qui m'enflammèrent,</l>
+	<l id='650'>Et quels me paraîtront les yeux qui me charmèrent :</l>
+	<l id='651'>Je verrai des oeillets que la mort a déteints,</l>
+	<l id='652'>Des lys ensanglantés, et des soleils éteints,</l>
+	<l id='653'>Un oubli fut son crime, une mort est sa peine :</l>
+	<l id='654'>Il ne fut qu'inconstant, et je suis inhumaine :</l>
+	<l id='655'>Il cesse de m'aimer, et moi je l'ai haï,</l>
+	<l id='656'>Il ne m'a que laissée, et moi je l'ai trahi.</l>
+<stage>À Ardenie</stage>
+	<l id='657'>Détournez de mes yeux ce funeste spectacle,</l>
+	<l id='658'>À sa venue hélas ! mettez un prompt obstacle :</l>
+	<l id='659'>À ceux qu'on a vengés comme ils ont souhaité,</l>
+	<l id='660'>Vouloir voir leur vengeance, est une cruauté.</l>
+<stage>En la retenant.</stage>
+	<l id='661'>Mais simple, cette mort est encore incertaine,</l>
+	<l id='662'>Elle peut être fausse, et ta plainte être vaine,</l>
+	<l id='663'>Outre que je ne puis sans trop d'aveuglement,</l>
+	<l id='664'>Envier cette gloire à mon ressentiment,</l>
+	<l id='665'>Ton amour tâche en vain à déguiser son crime,</l>
+	<l id='666'>Ton regret est honteux, ta plainte illégitime.</l>
+	<l id='667'>Après un tel affront, qui plaint son suborneur,</l>
+	<l id='668'>Une seconde fois offense son honneur ;</l>
+	<l id='669'>Pressez, pressez plutôt qu'empêcher sa venue,</l>
+	<l id='670'>Mon honneur outragé demande cette vue,</l>
+	<l id='671'>Celui ne hait pas bien qui pleure un ennemi,</l>
+	<l id='672'>Et qui ne le voit mort, n'est vengé qu'à demi,</l>
+<stage>Elle l'arrête encore. </stage>
+	<l id='673'>Attendez Ardenie, hélas, en cette peine,</l>
+	<l id='674'>Qui le doit emporter, ou l'amour, ou la haine ? </l>
+	<l id='675'>Je souhaite, et je crains d'apprendre son trépas,</l>
+	<l id='676'>Je tremble, et suis de feu, je veux, et ne veux pas,</l>
+	<l id='677'>Je demande sa mort, et désire sa vie,</l>
+	<l id='678'>Et ne puis sur laquelle arrêter mon ennuie,</l>
+	<l id='679'>Toutes deux sur mon coeur font un égal effort :</l>
+	<l id='680'>Mais il vient, et je meurs, Florisel est-il mort ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Bruneo, Sydonie, Diane, Ardenie, Daraide, Darinel.</head>
+<sp who='BRUNEO'><speaker>BRUNEO, mettant son épée aux pieds de la Reine, et un genou en terre.</speaker>
+	<l id='681'>Envoyé pour hommage à vos célestes charmes,</l>
+	<l id='682'>Je vous viens annoncer le succès de ses armes,</l>
+	<l id='683'>Tous flattés de l'objet de votre Majesté,</l>
+	<l id='684'>Attaquent, mais en vain, ce courage indompté ;</l>
+	<l id='685'>Il profite du mal, sa peine accroît sa gloire,</l>
+	<l id='686'>Chaque coup de sa main lui gagne une victoire ;</l>
+	<l id='687'>Mars plus fort que l'amour nous range à son pouvoir,</l>
+	<l id='688'>Et ce ne lui fut qu'un, que me vaincre, et me voir ;</l>
+	<l id='689'>Je viens par son arrêt vous offrir mon service,</l>
+	<l id='690'>Et le commandement m'est un heureux supplice.</l>
+<stage>En montrant Diane.</stage>
+	<l id='691'>Puisqu'il m'acquiert le bien, que j'ai tant souhaité,</l>
+	<l id='692'>De voir cette charmante, et divine beauté.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='693'>Heur malheureux, heureux malheur,</l>
+	<l id='694'>Agréable, et triste nouvelle,</l>
+	<l id='695'>Tu me plais, et déplais, tu m'es douce et cruelle,</l>
+	<l id='696'>Et je maudis, ensemble, et bénis ta valeur.</l>
+	<l id='697'>J'aime qu'il soit victorieux,</l>
+	<l id='698'>Et voudrais qu'il fût ma conquête,</l>
+	<l id='699'>Je souhaite sa vie, et demande sa tête,</l>
+	<l id='700'>J'ai pour lui des desseins, et doux, et furieux.</l>
+	<l id='701'>Mon honneur dépend de sa mort,</l>
+	<l id='702'>Et ma mort dépend de la sienne,</l>
+	<l id='703'>Entrons, n'y pensons plus, et quoi qu'il en advienne,</l>
+	<l id='704'>Laissons-nous gouverner aux volontés du sort.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Diane, Ardenie.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='705'>Admire les beautés dont la terre est pourvue,</l>
+	<l id='706'>Vois de combien de fleurs elle enchante la vue,</l>
+	<l id='707'>Cette diversité qu'elle présente aux yeux,</l>
+	<l id='708'>Peut disputer du prix avec celle des Cieux,</l>
+	<l id='709'>Que ne vient avec nous méditer Daraide,</l>
+	<l id='710'>Sur les bords émaillés de ce cristal humide ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='711'>Connaissant son humeur, je m'étonne comment</l>
+	<l id='712'>Elle peut mépriser ce divertissement,</l>
+	<l id='713'>Elle est seule en la tour, et je suis peu sensée,</l>
+	<l id='714'>Ou quelque inquiétude occupe sa pensée.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='715' part='i'>Qui la peut traverser ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='715' part='f'>Je ne le puis savoir.</l>
+	<l id='716'>Mais je vous dirai bien ce que j'en ai pu voir,</l>
+	<l id='717'>L'allant entretenir (ce matin) je l'ai vue</l>
+	<l id='718'>Les yeux mouillés de pleurs sur son lit étendue :</l>
+	<l id='719'>Et sans porter la vue aux endroits d'alentour,</l>
+	<l id='720'>S'écrier quelque fois, ô bel astre d'amour.</l>
+	<l id='721'>À ces mots vers le ciel ses belles mains haussées</l>
+	<l id='722'>Semblaient muettement exprimer ses pensées :</l>
+	<l id='723'>Moi pour la laisser libre, et ne la fâcher pas,</l>
+	<l id='724'>Pleine d'étonnement, j'ai rebroussé mes pas.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='725' part='i'>Quel est ton sentiment ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='725' part='m'>Mais le vôtre.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='725' part='f'>Qu'elle aime.</l>
+	<l id='726' part='i'>Mais qui ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='726' part='f'>Que savons-nous, c'est peut-être vous-même,</l>
+	<l id='727'>Ne remarquez-vous pas l'honneur qu'elle vous rend,</l>
+	<l id='728'>Les discours qu'elle tient, et le soin qu'elle prend ?</l>
+	<l id='729'>Jamais un serviteur a-t-il pour une dame</l>
+	<l id='730'>Témoigné plus de zèle, et montré plus de flamme ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='731'>Mais quel serait le fruit de cette passion ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='732'>Le bien d'avoir suivi son inclination,</l>
+	<l id='733'>Et le plaisir d'aimer la beauté dans l'extrême,</l>
+	<l id='734'>Qu'elle ne peut trouver que dans son sexe même ;</l>
+	<l id='735'>En effet la Nature a d'un pinceau si doux</l>
+	<l id='736'>Tiré les moindres traits que l'on remarque en vous,</l>
+	<l id='737'>Et voulant à plaisir composer ce visage,</l>
+	<l id='738'>A si bien réussi dans ce parfait ouvrage</l>
+	<l id='739'>Qu'il faut qu'également, les dieux et les mortels,</l>
+	<l id='740'>Confessent, que jamais ils n'en ont vu de tels ;</l>
+	<l id='741'>Vous charmez tout le monde, et plût au Ciel qu'au Temple,</l>
+	<l id='742'>On portât pour nos dieux l'oeil dont on vous contemple,</l>
+	<l id='743'>Combien seraient chéris leurs mystères sacrés,</l>
+	<l id='744'>Et combien leurs autels seraient plus révérés.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='745'>Si ton intention est de me rendre vaine,</l>
+	<l id='746'>Tu le peux ma cousine avec fort peu de peine ;</l>
+	<l id='747'>Encor un mot, encor un compliment pareil,</l>
+	<l id='748'>Et tu mettras Diane au-dessus du Soleil ;</l>
+	<l id='749'>Je croirai que tout cède à mon mérite extrême,</l>
+	<l id='750'>Et je m'estimerai seule égale à moi-même,</l>
+	<l id='751'>Tu ne vois qu'un défaut, où tout est si charmant,</l>
+	<l id='752'>C'est que je ne te puis rendre ton Compliment,</l>
+	<l id='753'>Que je ne puis parler, comme je le désire,</l>
+	<l id='754'>Et que m'ayant tout dit je n'ai plus rien à dire ;</l>
+	<l id='755'>Mais changeons de discours ; ne confesses-tu pas,</l>
+	<l id='756'>Qu'à tes yeux Daraide, a de charmants appas,</l>
+	<l id='757'>Qu'elle porte un regard, rie, discoure, chante,</l>
+	<l id='758'>A-t-on oreilles, yeux, ni coeur qu'elle n'enchante ?</l>
+	<l id='759'>Combien vaut un esprit rare comme le sien ?</l>
+	<l id='760'>Combien sa belle humeur, combien son entretien ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='761'>Moi sans vous la nommer, ni rare, ni divine,</l>
+	<l id='762'>Je voudrais que l'amant que le ciel me destine,</l>
+	<l id='763'>Si je mérite assez pour en espérer un,</l>
+	<l id='764'>Eût tout, hormis le sexe, avec elle commun :</l>
+	<l id='765'>Elle n'a rien en soi, qui ne me satisfasse,</l>
+	<l id='766'>Et ne fait action, ni pas qui n'ait sa grâce :</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='767'>Voilà tout exprimer, mais en termes si doux,</l>
+	<l id='768'>Que je te vois déjà, d'un oeil un peu jaloux :</l>
+	<l id='769'>Il me fâche déjà d'avoir une rivale.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='770'>Pour la craindre, il faudrait qu'elle nous fût égale ;</l>
+	<l id='771'>Quelque si forte ardeur qui m'embrasât le sein,</l>
+	<l id='772'>Que pourrais-je espérer, où vous avez dessein ?</l>
+	<l id='773'>Et qui vous peut aimer, sans vous être fidèle.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='774'>Un duel en tout cas, finirait la querelle.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='775' part='i'>Un duel de baisers.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='775' part='f'>Et je l'entends ainsi :</l>
+	<l id='776'>Mais tu sais le dessein qui m'amenait ici,</l>
+	<l id='777'>De donner un moment au bord de ces fontaines,</l>
+	<l id='778'>Que friser les Zéphyrs de leurs fraîches haleines :</l>
+	<l id='779' part='i'>Où vas-tu cependant ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='779' part='f'>Parmi ces belles fleurs,</l>
+	<l id='780'>Vous choisir un bouquet de diverses couleurs :</l>
+	<l id='781'>Mais de roses surtout, et dont l'odeur soit rare,</l>
+	<l id='782'>Car de vous en faire un à dessein qu'il vous pare :</l>
+	<l id='783'>On sait, que vous pouvez en porter, seulement</l>
+	<l id='784'>Pour la honte des fleurs, non pour votre ornement.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE, se couche près de la fontaine.</speaker>
+	<l id='785' part='i'>Fais, tu m'obligeras.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE, cueillant des fleurs.</speaker>
+	<l id='785' part='f'>Cueillons les moins écloses,</l>
+	<l id='786'>Commençons par l'oeillet, ajoutons-y les roses,</l>
+	<l id='787'>Que cet émail est rare, et que l'oeil enchanté</l>
+	<l id='788'>S'égare doucement dans la diversité.</l>
+	<l id='789'>Mais, ô beaux ornements dont la terre est parée,</l>
+	<l id='790'>Que votre éclat si doux est de courte durée,</l>
+	<l id='791'>À peine seulement saurait-on vous toucher,</l>
+	<l id='792'>Sans gâter votre teint, et sans le voir sécher :</l>
+<stage>Elle se perd dans les palissades en cueillant des fleurs.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Daraide, Darinel.</head>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='793'>Plût au Ciel, Darinel, visses-tu dans mon âme</l>
+	<l id='794'>Ces divers mouvements de respect, et de flamme,</l>
+	<l id='795'>Je ne puis un moment supporter ses regards,</l>
+	<l id='796'>J'attache en rougissant les yeux de toutes parts,</l>
+	<l id='797'>Et je dis bien souvent en la voyant si belle,</l>
+	<l id='798'>Me peut-elle souffrir, je suis indigne d'elle :</l>
+	<l id='799'>Là j'entrouvre les yeux, mais les ferme aussitôt,</l>
+	<l id='800'>Si j'ose lui parler, je manque au premier mot,</l>
+	<l id='801'>Mon discours se confond, et souvent elle explique</l>
+	<l id='802'>Ce qui, s'il est bien pris, n'a ni sens, ni réplique.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='803'>Me puis-je déclarer, et parler librement,</l>
+	<l id='804'>Je n'eus jamais d'amour où j'aimai froidement,</l>
+	<l id='805'>Mais il faut avouer que Diane a des charmes,</l>
+	<l id='806'>Contre qui la raison a d'inutiles armes,</l>
+	<l id='807'>Je perds en la voyant par un secret effort,</l>
+	<l id='808'>La qualité de libre, et le titre de fort :</l>
+	<l id='809'>Je confesse mon faible, et publie à ma honte,</l>
+	<l id='810'>Q'une fille me blesse, et qu'un enfant me dompte.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='811'>À ce compte j'en tiens, et tu me veux ravir,</l>
+	<l id='812'>Par l'offre de tes voeux, l'honneur de la servir.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='813'>Non que plutôt ma mort prévienne cet ennuie,</l>
+	<l id='814'>Mes yeux en sont charmés, mon âme en est ravie,</l>
+	<l id='815'>Mais je conserve encor trop de pouvoir sur moi</l>
+	<l id='816'>Pour ne vous rendre pas l'honneur que je vous dois,</l>
+	<l id='817'>Je sais que la plus froide, et la plus inhumaine</l>
+	<l id='818'>Ne me peut opposer qu'une défense vaine.</l>
+	<l id='819'>Je sais l'art de régner sur ces jeunes esprits,</l>
+	<l id='820'>Mais prenez s'il se peut, puisque vous êtes pris :</l>
+	<l id='821'>Car je n'aurai jamais, ni de bonnes fortunes,</l>
+	<l id='822'>Ni de prétentions avecque vous communes :</l>
+	<l id='823'>Vous ne me trouverez, ni rival, ni jaloux,</l>
+	<l id='824'>J'ai de l'amour pour elle, et du respect pour vous.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='825'>Ô généreux ami, la violence extrême,</l>
+	<l id='826'>Que pour servir autrui, tu fais dessus toi-même</l>
+	<l id='827'>Qu'ayant un tel rival, j'espérais vainement,</l>
+	<l id='828'>Je dois tout mon espoir à ton renoncement :</l>
+	<l id='829'>Mais trêve à ce discours : un rayon de lumière</l>
+	<l id='830'>Découvre à mes regards cette douce meurtrière,</l>
+	<l id='831'>Approchons-en sans bruit, un sommeil gracieux,</l>
+	<l id='832'>Pour m'épargner des coups a fermé ses beaux yeux,</l>
+	<l id='833'>Ménage heureux amant, à cette heure opportune</l>
+<stage>Elle met un genou en terre. </stage>
+	<l id='834'>La belle occasion que t'offre la fortune,</l>
+	<l id='835'>Et prend mille baisers, sur ses divines mains,</l>
+	<l id='836'>Qui tiennent enchantés, les coeurs de tant d'humains</l>
+	<l id='837'>Mais que mes voeux sont purs, et que j'ai d'innocence ?</l>
+	<l id='838'>Mon amour entreprend, et mon respect s'offense,</l>
+	<l id='839'>Tout en brûlant, je tremble, et prête d'approcher</l>
+	<l id='840'>Ma bouche se retire, et n'ose les toucher :</l>
+	<l id='841'>Ha ! ne t'oppose plus, importune contrainte,</l>
+	<l id='842'>Et laisse à mon désir forcer un peu ma crainte.</l>
+<stage>Il lui baise les mains.</stage>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='843'>Quand on donne aux amants le titre d'insensé</l>
+	<l id='844'>On les épargne encor, on n'en dit pas assez,</l>
+	<l id='845'>Il veut, il ne veut pas, s'approche, se retire,</l>
+	<l id='846'>Quelle pure manie, et quel plaisant martyre,</l>
+	<l id='847'>Ne sauriez-vous former un généreux dessein,</l>
+	<l id='848'>Aller jusqu'à la bouche, et donner jusqu'au sein ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='849' part='i'>Je tremble Darinel.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='849' part='f'>C'est bien ce qui me semble,</l>
+	<l id='850' part='i'>Est-ce là paraître homme ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE, en se retirant.</speaker>
+	<l id='850' part='f'>Éloignons-nous, je tremble.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='851'>Ô la plaisante amour craindre pour un baiser !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='852'>Mais si je l'éveillais, attends, le dois-je oser.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='853'>Plus belle occasion ne vous peut être offerte,</l>
+	<l id='854' part='i'>Les honteux perdent tout.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='854' part='f'>Tu causeras ma perte ;</l>
+	<l id='855'>Je brûle toutefois de suivre ton conseil,</l>
+	<l id='856'>Je ne m'en puis défendre, ô plaisir sans pareil ?</l>
+<stage>Lui baisant la bouche. </stage>
+	<l id='857'>Une si glorieuse et si douce licence,</l>
+	<l id='858'>À mes travaux passés est trop de récompense ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Daraide, Ardenie, Diane, Darinel.</head>
+<sp who='ARDENIE'><speaker>ARDENIE, tenant son bouquet achevé </speaker>
+	<l id='859'>Enfin je l'ai rendu si beau, si précieux,</l>
+	<l id='860'>Que Flore de ses mains ne l'aurait pas fait mieux,</l>
+	<l id='861' part='i'>Mais que vois-je ?</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='861' part='m'>On vous voit.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='861' part='f'>Que fait là Daraide ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='862'>Marchez plus doucement, et d'un pas plus timide,</l>
+	<l id='863'>Voyez que tout est calme, et que ces doux Zéphyrs,</l>
+	<l id='864'>De peur de l'éveiller retiennent leurs soupirs,</l>
+<stage>Darinel s'en va.</stage>
+	<l id='865'>Tel reposait l'amour, la nuit que la nature,</l>
+	<l id='866'>D'un peu d'huile brûlant lui fait une blessure,</l>
+	<l id='867'>Telle, ayant mis un Cerf ou la biche aux abois,</l>
+	<l id='868'>Diane se repose à l'ombrage des bois.</l>
+<stage>Daraide se lève.</stage>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='869'>Enfin je dois parler, et c'est trop me contraindre</l>
+	<l id='870'>Dans le juste sujet que je vois de me plaindre,</l>
+	<l id='871'>Vos devoirs, vos respects, votre civilité,</l>
+	<l id='872'>Tout se tourne à Diane, et rien de mon côté.</l>
+	<l id='873'>A peine de vos yeux puis-je avoir une oeillade,</l>
+	<l id='874'>Mon esprit, Daraide, en est un peu malade,</l>
+	<l id='875'>Et je tâche à vous plaire avec trop de souci,</l>
+	<l id='876'>Pour ne souhaiter pas que vous m'aimiez aussi,</l>
+	<l id='877'>J'ai cent fois là-dessus ma glace consultée,</l>
+	<l id='878'>Et crois ne devoir point être tant rebutée,</l>
+	<l id='879'>Sans vous faire de honte, et sans présomption,</l>
+	<l id='880'>Je puis entrer en tiers, en votre affection.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='881'>On ne le peut nier belle, et sage, Ardenie,</l>
+	<l id='882'>Vos attraits sont puissants, votre grâce infinie,</l>
+	<l id='883'>Je ne vous saurais voir sans beaucoup de plaisir,</l>
+	<l id='884'>Et mon sexe changé, j'irais jusqu'au désir,</l>
+	<l id='885'>Mais en dussiez-vous prendre un peu de jalousie :</l>
+	<l id='886'>Je vous veux déclarer quelle est ma fantaisie,</l>
+	<l id='887'>Si je voyais Diane entre les immortels,</l>
+	<l id='888'>Pour elle seulement je ferais des autels,</l>
+	<l id='889'>Tous mes voeux seraient siens, elle aurait tout mon zèle,</l>
+	<l id='890'>Et je ne brûlerais de l'encens que pour elle,</l>
+	<l id='891'>N'en déplaise à Vénus, n'en déplaise à Junon,</l>
+	<l id='892'>Je se célébrerais leur pouvoir, ni leur nom.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='893'>Et moi que Daraide, ou m'aime, ou me rebute.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE s'éveille.</speaker>
+	<l id='894'>Dieux j'ai longtemps dormi, quelle est votre dispute ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='895'>Voulez-vous être arbitre en notre différent ?</l>
+	<l id='896'>Mais je prépare bien mon malheur apparent.</l>
+	<l id='897'>Je ne puis espérer d'arrêt qu'à mon dommage,</l>
+	<l id='898'>Car le gain de sa cause, est à votre avantage.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='899'>Si votre cause est juste, et si je l'entreprends,</l>
+	<l id='900'>Je vous rendrai Justice à mes propres dépends :</l>
+	<l id='901'>S'agit-il d'un forfait, d'un vol, d'un homicide,</l>
+	<l id='902'>Qu'ait commis Ardenie, ou qu'ait fait Daraide ?</l>
+	<l id='903'>Je saurai balancer et le mal, et le bien.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='904' part='i'>C'est un procès d'amour.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='904' part='f'>Je n'y connais donc rien.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='905'>Diane toutefois a bien part en la cause.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='906'>Éprouvez au hasard, si j'y sais quelque chose.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE, lui donnant un bouquet.</speaker>
+	<l id='907'>Que ce bouquet si rare, et si bien assorti,</l>
+	<l id='908'>Aide à vous disposer à prendre mon parti.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='909'>Quel espoir me demeure, où sera mon refuge,</l>
+	<l id='910'>Si ma partie essaye à corrompre mon Juge ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='911'>Non, non, pour vous prouver qu'on ne me corrompt point,</l>
+	<l id='912'>Parlez-vous, car trop d'art à son discours est joint,</l>
+	<l id='913'>Et je veux découvrir la vérité sans feinte.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='914'>Sachez donc en deux mots le sujet de sa plainte.</l>
+	<l id='915'>Votre gloire lui nuit, et son esprit jaloux</l>
+	<l id='916'>Veut éteindre l'encens que je brûle pour vous,</l>
+	<l id='917'>Pareille à ces faux dieux, dont l'arrogance est telle,</l>
+	<l id='918'>Qu'ils dérobent des voeux à la troupe immortelle,</l>
+	<l id='919'>Elle vous veut ravir ce qu'on vous a donné</l>
+	<l id='920'>Et partager un coeur, qui vous est destiné :</l>
+	<l id='921'>Elle accuse en un mot ma froideur, et mon zèle,</l>
+	<l id='922'>Mais mon zèle pour vous, et ma froideur pour elle.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='923'>Belle, et prudente arbitre, écoutez en deux mots.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='924'>Elle vous va charmer de mille vains propos.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='925'>Il nuit de savoir trop, l'éloquence est suspecte,</l>
+	<l id='926'>Je suis juste, et de plus vous respecte :</l>
+	<l id='927'>Je sais qu'on doit toujours balancer l'équité,</l>
+	<l id='928'>Avec plus de douceur, que de sévérité,</l>
+	<l id='929'>Donc puisqu'à toutes trois l'affaire est d'importance,</l>
+	<l id='930'>D'une oreille attentive, oyez votre sentence.</l>
+	<l id='931'>J'ordonne qu'à toutes deux,</l>
+	<l id='932'>Daraide offre des voeux,</l>
+	<l id='933'>Et qu'elle aime beaucoup, étant beaucoup aimée,</l>
+	<l id='934'>(Je laisse toutefois à la discrétion,</l>
+	<l id='935'>Ne pouvant disposer de l'inclination)</l>
+	<l id='936'>D'être pour qui lui plaît, plus ou moins enflammée.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='937'>J'obtiens ce que je veux, et je ne prétends pas,</l>
+	<l id='938'>Vous égaler en gloire, inégale d'appas.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='939'>Et moi j'accomplirai cet arrêt favorable,</l>
+	<l id='940'>Je la trouve charmante, et Diane adorable.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='941'>Je l'égale au soleil, et vous aux immortels,</l>
+	<l id='942'>J'aurai des voeux pour elle, et pour vous des autels.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='943'>Enfin ce beau présent ne m'a point corrompue,</l>
+	<l id='944'>La justice est sans yeux, je n'avais plus de vue,</l>
+	<l id='945'>Je porte un coeur égal qu'elle tentait en vain,</l>
+	<l id='946'>Et pour punition de ce mauvais dessein,</l>
+<stage>Le donnant à Daraide. </stage>
+	<l id='947' part='i'>Ce bouquet est pour vous.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='947' part='f'>Ô Dieux qu'il a de charmes !</l>
+	<l id='948'>Qu'elle me combattait avec de douces armes !</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='949'>Ainsi donc tout retourne à ma confusion,</l>
+	<l id='950'>Je saurai m'en venger dedans l'occasion ;</l>
+	<l id='951'>Il me souviendra bien d'un traitement si rude.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='952'>Elle relâchera de cette ingratitude.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='953'>Je ne pardonne point à moins que d'un baiser.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='954'>Qu'elle en ait plutôt deux, il la faut apaiser.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+<stage>Daraide baise Ardenie.</stage>
+	<l id='955'>Encore un, ma peine est beaucoup soulagée.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='956' part='i'>N'en désirez-vous plus ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='956' part='f'>Je suis assez vengée.</l>
+	<l id='957'>Qu'il sert d'importuner, et d'être un peu jaloux !</l>
+	<l id='958'>Que l'ennemi, le juge, et le combat sont doux ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='ARDENIE'><speaker>SYDONIE seule.</speaker>
+	<l id='959'>Quel succès séchera mon oeil toujours humide ?</l>
+	<l id='960'>Donc pour prix de moi-même, un ingrat, un perfide,</l>
+	<l id='961'>Triomphe insolemment de mes affections,</l>
+	<l id='962'>Et met son crime au rang de belles actions :</l>
+	<l id='963'>Il trouve de la gloire, à m'avoir méprisée,</l>
+	<l id='964'>Et sa tête au hasard des armes exposée,</l>
+	<l id='965'>Tire de mes desseins moins de peur que d'orgueil,</l>
+	<l id='966'>Mes édits n'ont rien fait que publier ma honte,</l>
+	<l id='967'>Il n'a point d'ennemis que son bras ne surmonte :</l>
+	<l id='968'>Et je semble au dessein, d'alléger ma douleur,</l>
+	<l id='969'>N'avoir eu que celui d'exercer sa valeur :</l>
+	<l id='970'>Mais il se plaît encor d'irriter mon martyre</l>
+	<l id='971'>M'envoyant ses vaincus, ne me veut-il pas dire,</l>
+	<l id='972'>Vois comme ta fureur s'exerce vainement,</l>
+	<l id='973'>Je ne fais qu'un jouet de ton ressentiment :</l>
+	<l id='974'>Je suis comme de toi, maître de la fortune,</l>
+	<l id='975'>Les combats me sont doux, et tu m'es importune.</l>
+	<l id='976'>Devant perdre le jour, ou paraître à tes yeux,</l>
+	<l id='977'>Et mourir, ou t'aimer, la mort me plairait mieux :</l>
+	<l id='978'>Voilà de cet ingrat la superbe pensée,</l>
+	<l id='979'>Et c'est ce que mérite une ardeur insensée,</l>
+	<l id='980'>Qui fait contre ma haine encore un tel effort,</l>
+	<l id='981'>Que j'ai de la contrainte à désirer sa mort.</l>
+	<l id='982'>Quoi mon aversion est encore douteuse,</l>
+	<l id='983'>Ô trop basse faiblesse, ô lâcheté honteuse !</l>
+	<l id='984'>Qu'il meure ce tyran de mes jeunes désirs,</l>
+	<l id='985'>Qu'il meurt, et qu'en sa mort renaissent mes plaisirs.</l>
+	<l id='986'>C'est mériter mon mal que de craindre sa peine,</l>
+	<l id='987'>Dieux, vengeurs des forfaits, satisfaites ma haine.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Sydonie, Anaxarte, Le Page.</head>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='988'>Des pays reculés où se lève le jour,</l>
+	<l id='989'>Après de longs travaux, j'arrive en cette Cour,</l>
+	<l id='990'>Où le bruit des beautés dont l'Infante est pourvue,</l>
+	<l id='991'>Me fait à vos genoux en implorer la vue :</l>
+	<l id='992'>J'ai l'heur d'être né Prince, et cette qualité</l>
+	<l id='993'>Me promet cet honneur de votre Majesté.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='994'>Je vous suis obligée, et sa gloire est insigne,</l>
+	<l id='995'>D'avoir causé ces pas dont vous la jugez digne,</l>
+	<l id='996' part='i'>Page amenez Diane !</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='996' part='f'>A quel ravissement</l>
+	<l id='997'>Se disposent mes yeux en cet heureux moment,</l>
+	<l id='998'>Tout l'Orient charmé du bruit de ses merveilles,</l>
+	<l id='999'>A pour son seul renom des voix et des oreilles,</l>
+	<l id='1000'>Sans guerre elle a vaincu tant de Princes divers,</l>
+	<l id='1001'>Qu'elle a fait son pays de ces univers,</l>
+	<l id='1002'>Et pareille aux moteurs de la voûte azurée,</l>
+	<l id='1003'>Sans se rendre visible, est partout adorée,</l>
+	<l id='1004'>Mycènes est mon pays, Anaxarte mon nom,</l>
+	<l id='1005'>Et je viens attiré par un si beau renom,</l>
+	<l id='1006'>Offrir d'humbles devoirs, et rendre un juste hommage,</l>
+	<l id='1007'>A ce jeune soleil, miracle de notre âge.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Diane, Sydonie, Anaxarte, Daraide, Ardenie, Le Page, Bruneo.</head>
+<sp who='ANAXARTE'><speaker>ANAXARTE, continue.</speaker>
+	<l id='1008'>Mais quel soudain éclat vient éblouir mes yeux ?</l>
+	<l id='1009'>Telle n'est pas Diane en la voûte des Cieux,</l>
+	<l id='1010'>Et telles ne sont pas les clartés de son frère,</l>
+	<l id='1011'>Quand les plus beaux rayons dorent notre hémisphère.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1012'>Elle reçoit Monsieur votre civilité,</l>
+	<l id='1013'>Si ce n'est sans plaisir, au moins sans vanité.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1014'>Et moi qui sans la voir, crut que la renommée,</l>
+	<l id='1015'>En ayant tant parlé, l'avait trop estimée.</l>
+	<l id='1016'>J'accuse de froideur ces acclamations,</l>
+	<l id='1017'>Elle est avare encor à ses perfections :</l>
+	<l id='1018'>Et c'est avec regret qu'il faut que mon courage,</l>
+	<l id='1019'>En une juste cause obstinément s'engage,</l>
+	<l id='1020'>Apprenez le dessein qui m'a conduit ici,</l>
+	<l id='1021'>Et puisse-t-il finir ma vie, et mon souci.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1022' part='i'>Quel est donc ce dessein ?</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1022' part='f'>Lucelle une princesse</l>
+	<l id='1023'>À qui cède en beauté le reste de la Grèce.</l>
+	<l id='1024'>M'engage en un duel, et pouvant tout sur moi,</l>
+	<l id='1025'>Me promettant ses voeux, m'a prescrit cette loi,</l>
+	<l id='1026'>Elle veut que je prouve au hasard de ma vie,</l>
+	<l id='1027'>Qu'elle est le seul objet dont toute âme est ravie,</l>
+	<l id='1028'>Et je dois obéir à ce commandement,</l>
+	<l id='1029'>Et de sa vanité, tenter l'événement :</l>
+	<l id='1030'>Si quelqu'un ose ici disputer du contraire,</l>
+	<l id='1031'>Contre son sentiment, je lui veux satisfaire,</l>
+	<l id='1032'>Je soutiens que Diane a de moindres appas,</l>
+	<l id='1033'>Et prétends en un mot prouver ce qui n'est pas.</l>
+</sp>
+<sp who='BRUNEO'><speaker>BRUNEO</speaker>
+	<l id='1034'>Mon bras disputera cette heureuse victoire.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE ôtant une épée au Page.</speaker>
+	<l id='1035'>C'est à moi seule, à moi qu'appartient cette gloire,</l>
+	<l id='1036'>Que j'obtienne ce bien de votre Majesté,</l>
+	<l id='1037'>Je l'implore sans crainte, et sans témérité,</l>
+	<l id='1038'>Ce différend me touche, autant qu'il vous regarde,</l>
+	<l id='1039'>Si mon sexe est suspect, mon honneur se hasarde,</l>
+	<l id='1040'>Et s'il est au besoin permis de se vanter,</l>
+	<l id='1041'>A la honte de tous, je m'en puis acquitter :</l>
+	<l id='1042'>Ailleurs que sur un luth, ma main s'est occupée,</l>
+	<l id='1043'>Et fille je sais l'art de régir une épée,</l>
+	<l id='1044'>Telle fut pour mon bien, l'humeur de mes parents,</l>
+	<l id='1045'>De m'y faire exercer dès mes plus jeunes ans.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1046'>Ma chère Daraide, en quel danger extrême.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1047'>Je puis pour votre gloire affronter la mort même,</l>
+	<l id='1048'>Ne croyez point par moi perdre un illustre rang,</l>
+	<l id='1049'>L'on a vu d'autres fois ces mains teintes de sang,</l>
+	<l id='1050'>Et j'entreprends (Madame) au péril de ma tête,</l>
+	<l id='1051'>Le soin de le priver de sa folle conquête.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1052' part='i'>Dieux ! qu'est-ce que je vois ?</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1052' part='f'>Si vous désirez tant</l>
+	<l id='1053'>De tenter ce combat, quoiqu'il soit important,</l>
+	<l id='1054'>J'abandonne à vos soins l'honneur de la victoire,</l>
+	<l id='1055'>Qui nous réussissant en aura plus de gloire.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1056'>Je ne me défends point contre un bras inégal.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1057'>Craignez que tel qu'il est, il ne vous traite mal.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1058'>Vos yeux m'obligeraient à bien plus de défense.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1059'>Il n'est pas temps ici d'éprouver leur puissance.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1060'>Je crains un ennemi qui frappe droit au coeur.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1061'>Le plaisir de railler, sera libre au vainqueur.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1062'>Vous nous vaincrez toujours, ou s'emploieront vos charmes ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1063'>Je le ferai peut-être, où s'emploieront mes armes.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1064'>Oui bien, si de ce nom vos attraits sont nommés.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1065'>Je fais tort à Lucelle, et crois que vous m'aimez.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1066'>Allez, pour épargner une si belle vie.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1067'>C'est un soin qui m'importe, et c'est bien mon ennuie.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1068'>Vous ne devez donc pas l'exposer à mes coups ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1069'>Si vous parler pour moi j'ai des effets pour vous, </l>
+	<l id='1070'>En ces occasions que l'honneur nous propose,</l>
+	<l id='1071'>Discourir, et trembler, me semble même chose,</l>
+	<l id='1072'>Ce bras vous répondras, je dis moins, et fais plus :</l>
+	<l id='1073'>Vous observez pour vous, ces regrets superflus,</l>
+	<l id='1074'>Mon sexe à votre peur est une excuse heureuse,</l>
+	<l id='1075'>Je suis fille, il est vrai, mais assez généreuse,</l>
+	<l id='1076'>Pour vous faire sentir vos mépris insolents,</l>
+	<l id='1077'>Et pour mettre la peur au sein des plus vaillants,</l>
+	<l id='1078'>De toutes les beautés, Diane est la première,</l>
+	<l id='1079'>Toutes autres clartés cèdent à sa lumière,</l>
+	<l id='1080'>Ce miracle d'amour à soi seul est pareil,</l>
+	<l id='1081'>Lucelle est moins qu'un ombre, auprès de ce soleil ;</l>
+	<l id='1082'>C'est un indigne objet des voeux d'un honnête homme,</l>
+	<l id='1083'>Et quiconque d'amour pour elle se consomme,</l>
+	<l id='1084'>Ne sait pas s'élever à de nobles souhaits,</l>
+	<l id='1085'>A le courage bas, et les yeux fort mauvais.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1086'>Enfin c'est trop mêler l'outrage à l'arrogance,</l>
+	<l id='1087'>Donnons, et que ce coup t'impose le silence.</l>
+<stage>Là ils se battent. </stage>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1088'>Dieux ! quel Mars autrefois, sous l'habit de Cypris,</l>
+	<l id='1089'>Avec tant de courage eut disputé des prix.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1090'>Quelle adresse est égale à sa valeur extrême ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1091'>Que ce prodige est rare, et que le ciel vous aime.</l>
+	<l id='1092'>La victoire à la fin penche de son côté.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE, tombant et lui rendant l'épée.</speaker>
+	<l id='1093'>Je suis vaincu deux fois, adorable beauté,</l>
+	<l id='1094'>Par deux divers effets une fille me brave,</l>
+	<l id='1095'>Et vos yeux, et vos mains, me rendre votre esclave.</l>
+	<l id='1096'>D'un pouvoir plus qu'humain ce bras est soutenu,</l>
+	<l id='1097'>Mars sous ces vêtements veut régner inconnu,</l>
+	<l id='1098'>Et je protesterai devant toute la terre,</l>
+	<l id='1099'>Que j'ai vu dans ces lieux le démon de la guerre.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1100'>Avouez seulement que cet astre d'amour,</l>
+	<l id='1101'>Est le plus digne objet qui respire le jour.</l>
+</sp>
+<sp who='ANAXARTE'><speaker>ANAXARTE</speaker>
+	<l id='1102'>Je devais prévenir cette juste requête,</l>
+	<l id='1103'>Pour cette vérité j'exposerai ma tête ;</l>
+	<l id='1104'>Madame, pardonnez à cet aveuglement,</l>
+	<l id='1105'>Qui ravit la raison à l'esprit d'un amant,</l>
+	<l id='1106'>À ma honte, partout, vantez cette victoire,</l>
+	<l id='1107'>Et faites publier votre commune gloire.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE, embrassant Daraide.</speaker>
+	<l id='1108'>Appui de mon honneur, ma Daraide, ô dieux !</l>
+	<l id='1109'>Quel miracle, inconnu, nous est venu des cieux.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1110'>C'est le moindre devoir que mon bras vous destine,</l>
+	<l id='1111'>Que ne peut faire oser une beauté divine ?</l>
+	<l id='1112'>Diane m'animant, je me puis acquitter,</l>
+	<l id='1113'>De ce qu'à peine un Dieu pourrait exécuter.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1114'>Ici ma passion le ciel t'offre des armes,</l>
+	<l id='1115'>C'est trop m'être inutile, et me causer des larmes :</l>
+	<l id='1116'>Le sang de Florisel doit enfin t'assouvir,</l>
+	<l id='1117'>Daraide a la main qui te pourra servir ;</l>
+	<l id='1118'>Le Démon de tes jours à ton affront sensible,</l>
+	<l id='1119'>T'envoie avec dessein ce miracle visible,</l>
+	<l id='1120'>C'est le dernier espoir qui reste à ta douleur,</l>
+	<l id='1121'>Et rien n'est impossible à sa rare valeur.</l>
+	<l id='1122'>Par ce qui t'est plus cher, rends-moi belle guerrière,</l>
+	<l id='1123'>De ton affection cette preuve dernière :</l>
+	<l id='1124'>Punis d'un orgueilleux l'invincible dédain,</l>
+	<l id='1125'>Que je doive sa tête à ta divine main ;</l>
+	<l id='1126'>Je sens un mouvement, par qui le ciel m'assure,</l>
+	<l id='1127'>Que c'est toi qu'il destine à venger mon injure.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1128'>Qu'une si grande Reine implore mon secours,</l>
+	<l id='1129'>J'égale au sort des Dieux le destin de mes jours :</l>
+	<l id='1130'>Madame, espérez tout de mon obéissance,</l>
+	<l id='1131'>Pour vous mes actions passeront ma puissance ; </l>
+	<l id='1132'>Je brûle de le suivre, et si j'atteins ses pas,</l>
+	<l id='1133'>Tous les efforts du ciel ne le sauveraient pas.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Diane, Ardenie.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1134' part='i'>Bons Dieux ! Que m'as-tu dit ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1134' part='f'>Ce que je viens d'apprendre,</l>
+	<l id='1135'>Et qu'il m'a sans dessein lui-même fait entendre,</l>
+	<l id='1136'>Mais écoutez comment : à peine du Soleil,</l>
+	<l id='1137'>L'aurore à l'horizon annonçait le réveil ;</l>
+	<l id='1138'>Que déjà hors du lit, rêvant à la fenêtre,</l>
+	<l id='1139'>J'ai vu dans le jardin Daraide paraître :</l>
+	<l id='1140'>Mais Dieux ! en quel état ? tenant longtemps les yeux</l>
+	<l id='1141'>Tantôt dessus la terre, et tantôt vers les Cieux ;</l>
+	<l id='1142'>Tantôt marchant un pas, et tantôt arrêtée,</l>
+	<l id='1143'>Enfin de tant de soins paraissant agitée.</l>
+	<l id='1144'>Que je suis descendue, avec intention</l>
+	<l id='1145'>D'apprendre le sujet de son affliction.</l>
+	<l id='1146'>Elle a rêvé longtemps sur le bord d'une allée</l>
+	<l id='1147'>Où je m'étais sans bruit adroitement coulée,</l>
+	<l id='1148'>Et croisant sans dessein ses bras à tous propos,</l>
+	<l id='1149'>Enfin d'une voix basse a proféré ces mots ;</l>
+	<l id='1150'>Ô Reine du désordre ? inconstante fortune,</l>
+	<l id='1151'>Mon repos vient de naître, et déjà t'importune,</l>
+	<l id='1152'>Ce jeune astre d'amour luit à peine à mes yeux,</l>
+	<l id='1153'>Que ta bizarre humeur, me chasse de ces lieux ;</l>
+	<l id='1154'>Le ciel jusqu'ici m'était si favorable,</l>
+	<l id='1155'>Ô triste Agesilan ! ô Diane adorable !</l>
+	<l id='1156'>Amant infortuné, combien vas-tu souffrir,</l>
+	<l id='1157'>Si tu peux de ces lieux t'éloigner sans mourir,</l>
+	<l id='1158'>Là deux ruisseaux de pleurs ont mouillé son visage</l>
+	<l id='1159'>Des sanglots, à sa voix, ont fermé le passage ;</l>
+	<l id='1160'>Et contre un espalier tristement accoudé,</l>
+	<l id='1161'>Il a d'un oeil mourant vers le ciel regardé ;</l>
+	<l id='1162'>Jugez si cependant j'avais l'âme égarée ;</l>
+	<l id='1163'>D'un pas tremblant enfin, je me suis retirée,</l>
+	<l id='1164'>Brûlante de vous voir, et de vous réjouir,</l>
+	<l id='1165'>De ce que le hasard m'avait permis d'ouïr ;</l>
+	<l id='1166'>Son mérite est extrême, il est sage, il est Prince,</l>
+	<l id='1167'>Falanges est son père, et Colchos sa province,</l>
+	<l id='1168'>Toutes ces qualités font un parfait amant,</l>
+	<l id='1169'>Vous offenseriez-vous de ce déguisement ?</l>
+	<l id='1170'>Ne pourriez-vous l'aimer, et souffrir ses visites,</l>
+	<l id='1171'>Et voudriez-vous punir, l'effet de vos mérites ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1172'>Je le devrais, hélas ! mais il n'est plus de saison,</l>
+	<l id='1173'>De vouloir sur mes sens rétablir ma raison ;</l>
+	<l id='1174'>Un amour trop puissant sur mes desseins préside</l>
+	<l id='1175'>Pour le pouvoir haïr, j'aime trop Daraide ;</l>
+	<l id='1176'>Et de la même ardeur dont mon coeur l'honora,</l>
+	<l id='1177'>J'honore Agesilan, elle l'eut, il l'aura ;</l>
+	<l id='1178'>Elle plaisait, il plaît, j'eus de l'amour pour elle,</l>
+	<l id='1179'>Et j'en aurai pour lui, s'il sait m'être fidèle.</l>
+	<l id='1180'>Mais ne t'offense pas de ma discrétion,</l>
+	<l id='1181'>Si tu me vois d'abord cacher ma passion ;</l>
+	<l id='1182'>S'il s'ose découvrir, je saurai si bien feindre,</l>
+	<l id='1183'>Qu'il sera quelque temps en état de se plaindre,</l>
+	<l id='1184'>Mais l'ayant fait souffrir à mes propres dépens,</l>
+	<l id='1185'>L'amour après l'honneur, enfin aura son temps.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1186'>La voilà, mais bons Dieux ! voyez combien de larmes,</l>
+	<l id='1187'>Ternissent de son teint les agréables charmes ;</l>
+	<l id='1188'>Ces témoins de sa peine, et de votre beauté,</l>
+	<l id='1189'>Pourraient-ils vous laisser la moindre cruauté ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Diane, Daraide, Ardenie.</head>
+<sp who='DARAIDE'><speaker>DARAIDE, ayant l'épée au côté.</speaker>
+	<l id='1190'>Jugez par ma tristesse avec combien de peine,</l>
+	<l id='1191'>Je vais exécuter la fureur de la Reine ;</l>
+	<l id='1192'>Ce n'est pas qu'en effet l'honneur ne m'en soit doux ;</l>
+	<l id='1193'>Mais, ô belle Diane ! je m'éloigne de vous ;</l>
+	<l id='1194'>Plût au ciel qu'à vos yeux il me fallut combattre,</l>
+	<l id='1195'>Ce serait beaucoup moins me battre, que m'ébattre,</l>
+	<l id='1196'>J'attaquerais sans peur le monstre le plus fier,</l>
+	<l id='1197'>Et je ne craindrais pas un bataillon entier ;</l>
+	<l id='1198'>Mais cet éloignement m'est un combat funeste,</l>
+	<l id='1199'>Où mes plaisirs mourront, si la clarté me reste ;</l>
+	<l id='1200'>Il faut que je vous quitte, et c'est le seul dessein,</l>
+	<l id='1201'>Qui m'a pu jusqu'ici mettre la peur au sein.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1202'>Mon visage te dit au défaut de ma bouche,</l>
+	<l id='1203'>Combien sensiblement cette absence me touche,</l>
+	<l id='1204'>Si je ne me flattais de l'espoir du retour,</l>
+	<l id='1205'>Je crois que ce départ me coûterait le jour.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1206'>Sans trop de vanité, puis-je espérer la gloire,</l>
+	<l id='1207'>De conserver un lieu dedans votre mémoire ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1208'>Ma chère fille, hélas ! te puis-je exprimer</l>
+	<l id='1209'>Le violent instinct qui me porte à t'aimer ?</l>
+	<l id='1210'>Appelle si tu veux ces ardeurs insensées,</l>
+	<l id='1211'>Mais tu fais tous mes soins, et toutes mes pensées,</l>
+	<l id='1212'>Ma peine est incroyable, et j'éprouve en ce jour</l>
+	<l id='1213'>Qu'il est des amitiés plus fortes que l'amour ;</l>
+	<l id='1214'>Quoi qu'il puisse advenir, souviens-toi que je t'aime,</l>
+	<l id='1215'>Et crois qu'en t'oubliant, je m'oublierais moi-même,</l>
+	<l id='1216'>Tu m'aurais offensée au-delà du trépas,</l>
+	<l id='1217'>Que ta Diane encor ne te haïrait pas.</l>
+	<l id='1218'>Mais pour d'autres raisons cette absence m'afflige,</l>
+	<l id='1219'>Quelle est cette action, où ma mère t'oblige :</l>
+	<l id='1220'>Tu ne peux sans la mort de mon père, ou de toi,</l>
+	<l id='1221'>Et peut-être la sienne accomplir cette loi.</l>
+	<l id='1222'>Éviter l'une, ou l'autre excède ton possible,</l>
+	<l id='1223'>Et l'une, et l'autre m'est également sensible :</l>
+	<l id='1224'>N'achever pas aussi ce que tu lui promets,</l>
+	<l id='1225'>Serait de cette Cour te bannir pour jamais,</l>
+	<l id='1226'>Dieux ! Quel est ce dédale, il faut que Daraide</l>
+	<l id='1227'>Tue, ou perde le jour, meure, ou soit homicide,</l>
+	<l id='1228'>Qu'elle me soit cruelle, ou renonce à sa foi,</l>
+	<l id='1229'>Qu'elle m'offre mon père, ou ne soit plus à moi.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1230'>Laissez-moi tous ces soins, ici belle Diane,</l>
+	<l id='1231'>Votre amour me sera le filet d'Ariane,</l>
+	<l id='1232'>Souvent avec honneur, d'autres se sont tirés</l>
+	<l id='1233'>De malheurs qui semblaient aussi désespérés.</l>
+	<l id='1234'>Préparez seulement votre esprit à ma grâce,</l>
+	<l id='1235'>Sur la confession qu'il faut que je vous fasse,</l>
+	<l id='1236'>Mais sans que ces bontés se laissent altérer,</l>
+	<l id='1237'>Ô secret important, te puis-je déclarer ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1238'>Celle dont Daraide absolument dispose,</l>
+	<l id='1239'>Ne lui peut-elle pas remettre toute chose ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1240'>Ce discours toutefois, si vous ne m'aimez bien.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1241'>Il ne me peut changer, ne me déguise rien.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1242'>Si j'avais fait outrage à vos célestes charmes,</l>
+	<l id='1243'>Poussé de faux soupirs, versé de feintes larmes,</l>
+	<l id='1244'>Et de lâches mépris souillé votre renom,</l>
+	<l id='1245'>M'aimeriez-vous assez pour signer mon pardon ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1246'>Diane à t'obliger sera toujours si prête,</l>
+	<l id='1247'>Que tu verrais ce don précéder ta requête.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1248'>Mais si je m'accusais de quelque trahison,</l>
+	<l id='1249'>Si j'avais pour vous perdre employé du poison :</l>
+	<l id='1250'>Ou de quelque autre effort menacé votre vie,</l>
+	<l id='1251'>Me pardonneriez-vous cette damnable ennuie ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1252'>Mon inclination m'y ferait consentir,</l>
+	<l id='1253'>Sans même t'obliger au moindre repentir.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1254'>Il est besoin encor d'une bonté plus rare.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1255' part='i'>Quelle ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1255' part='f'>Si j'avais fait un acte plus barbare :</l>
+	<l id='1256'>Engagé votre sang, votre honneur, vos pays,</l>
+	<l id='1257'>Vos sujets révoltés, et vos parents trahis.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1258'>Je t'aimerais encor, et perdant la lumière,</l>
+	<l id='1259'>J'accorderais ta grâce à ta moindre prière ;</l>
+	<l id='1260'>Un seul point me pourrait toucher si vivement</l>
+	<l id='1261'>Que l'on me verrait vaincre à mon ressentiment.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1262' part='i'>Quel est ce dernier point ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1262' part='f'>La mort de Daraide,</l>
+	<l id='1263'>Je ne pourrais assez haïr son homicide :</l>
+	<l id='1264'>Je punirais de mort et sans exception,</l>
+	<l id='1265'>Quiconque aurait osé tenter cette action.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1266'>Mais si pour obliger un rival qui vous aime,</l>
+	<l id='1267'>Daraide voulait se défaire soi-même.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1268'>Je l'aurais en horreur, et même après sa mort,</l>
+	<l id='1269'>Voudrais tirer raison de ce brutal effort.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1270'>Cessez donc de l'aimer, préparez son supplice,</l>
+	<l id='1271'>Car voici le moment qu'il faut qu'elle périsse :</l>
+	<l id='1272'>Ce rival est jaloux des chastes privautés,</l>
+	<l id='1273'>Dont il la juge indigne, et dont vous la traitez,</l>
+	<l id='1274'>Souffrez qu'aucun obstacle à ses voeux ne demeure,</l>
+	<l id='1275'>Et que pour un amant, une importune meure.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE lui voulant ôter son épée.</speaker>
+	<l id='1276'>Ô Dieux ! quel sort l'oblige à ce sanglant dessein,</l>
+	<l id='1277'>Arrachons-lui ce fer, sauvons-la de sa main.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1278'>Non, non, que craignez-vous, ce coup ne peut paraître,</l>
+	<l id='1279'>Et moi, vivant encor, elle peut ne plus être :</l>
+	<l id='1280'>Cessez, rare beauté ces efforts superflus,</l>
+	<l id='1281'>Je suis Agesilan, Daraide n'est plus :</l>
+	<l id='1282'>Ne vous étonnez pas de l'adresse guerrière,</l>
+	<l id='1283'>Dont ce bras aux plus fiers fait mordre la poussière,</l>
+<stage>Il est à genoux devant Diane. </stage>
+	<l id='1284'>Je suis amant, et Prince, et ce déguisement,</l>
+	<l id='1285'>S'il vous est une injure attend son châtiment.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1286'>Traître et lâche affronteur, dont l'impudente audace,</l>
+	<l id='1287'>Ne peut être égalée, et toute autre surpasse,</l>
+	<l id='1288'>Tu ne changes pas seul, et mon affection,</l>
+	<l id='1289'>Convertie en fureur change comme ton nom,</l>
+	<l id='1290'>Excuse, ni raison, ne me peut satisfaire,</l>
+	<l id='1291'>Et si pour mon honneur, il m'importait de taire,</l>
+	<l id='1292'>Ce qui trouble si fort mes sens, et mes esprits ;</l>
+	<l id='1293'>Crois que ton insolence aurait déjà son prix :</l>
+	<l id='1294'>Adieu, suis ton heureuse, ou mauvaise fortune,</l>
+	<l id='1295'>Après cette action, jamais ne m'importune :</l>
+	<l id='1296'>Qu'il ne t'arrive plus de paraître à mes yeux,</l>
+	<l id='1297'>Et ne fuis pas l'enfer à l'égal de ces lieux.</l>
+<stage>Elle s'en va. </stage>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE tombant évanouie.</speaker>
+	<l id='1298'>Ô mort dernier espoir qui reste au misérable,</l>
+	<l id='1299'>Si ce coup vient de toi, que tu m'es favorable.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1300'>Dieux ! combien d'artifice à son amour est joint ?</l>
+	<l id='1301'>Qui ne dirait qu'elle aime, et qu'elle n'aime point.</l>
+	<l id='1302'>Que l'amour, et la haine, en son coeur trouvent place,</l>
+	<l id='1303'>Et qu'une même chose est de flamme, et de glace :</l>
+	<l id='1304'>Qu'elle a ce beau vainqueur mortellement atteint,</l>
+	<l id='1305'>D'une sombre couleur son visage se peint :</l>
+	<l id='1306'>Telle était Adonis aux pieds de Cythérée,</l>
+	<l id='1307'>Quand de son corps si beau l'âme fut séparée.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Sydonie, Ardenie.</head>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1308'>Quel est cet accident, qu'a Daraide, ô Dieux !</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1309'>Prenant congé de nous au partir de ces lieux,</l>
+	<l id='1310'>Diane (qui rêvait) contre son espérance,</l>
+	<l id='1311'>A semblé la traiter d'un peu d'indifférence,</l>
+	<l id='1312'>Et c'est ce qui la met au point que vous voyez,</l>
+	<l id='1313'>D'une source de pleurs ses yeux se sont noyés,</l>
+	<l id='1314'>Et j'ai vu sous le faix de l'ennui qui la presse,</l>
+	<l id='1315'>Sans qu'elle dise un mot, succomber sa faiblesse.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1316'>D'où lui peut procéder ce refroidissement ?</l>
+	<l id='1317'>Faites qu'elle descende, allez, et promptement.</l>
+<stage>Ardenie va quérir Diane, Sydonie continue. </stage>
+	<l id='1318'>Son oeil entrouvre enfin sa débile paupière,</l>
+	<l id='1319'>Et tout baigné de pleurs, il revoit la lumière.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1320'>Dieux ! Qu'est-ce que je vois ? Quelle est votre bonté !</l>
+	<l id='1321'>Et quel indigne soin prend votre Majesté ;</l>
+	<l id='1322'>Que peut vous profiter le jour que je respire,</l>
+	<l id='1323'>Pour empêcher la mort d'accroître son Empire ?</l>
+	<l id='1324'>Mes jours sont une vie, et ma mort un trépas,</l>
+	<l id='1325'>Que votre Majesté ne considère pas.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1326'>Quand l'insigne faveur que vous m'avez offerte</l>
+	<l id='1327'>Ne m'obligerait pas à craindre votre perte ;</l>
+	<l id='1328'>Votre mérite aurait des charmes assez forts,</l>
+	<l id='1329'>Pour me faire pour vous employer mes efforts ;</l>
+	<l id='1330'>D'où naît cette douleur, si forte et si soudaine.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1331'>Peut-on quitter Diane avecques moins de peine ?</l>
+	<l id='1332'>S'éloigner sans douleur de ce fatal aimant,</l>
+	<l id='1333'>Et faire voir un coeur privé de sentiment.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Diane, Sydonie, Ardenie, Daraide.</head>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1334'>Quoi la froideur succède à cette ardeur extrême,</l>
+	<l id='1335'>Vous aimiez Daraide à l'égal de vous-même :</l>
+	<l id='1336'>Quelle dissension divise vos esprits ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1337'>Je n'ai pour son sujet, ni froideur, ni mépris,</l>
+	<l id='1338'>Les Dieux me sont témoins qu'elle m'est toujours chère,</l>
+	<l id='1339'>Et que de mon amour procède ma colère :</l>
+	<l id='1340'>Elle voit ma cousine avec des yeux si doux,</l>
+	<l id='1341'>Que mon coeur, je l'avoue, en est un peu jaloux,</l>
+	<l id='1342'>Je rends ce qu'on me donne, alors qu'on me partage,</l>
+	<l id='1343'>Je ne veux rien du tout, ou je veux avantage ;</l>
+	<l id='1344'>Elle peut faire choix d'Ardenie, ou de moi,</l>
+	<l id='1345'>Mais je veux si je l'aime avoir seule sa foi.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1346'>Après cette faveur contraire à mon attente,</l>
+	<l id='1347'>Je reste sans souhaits, et je pars trop contente :</l>
+	<l id='1348'>Calmez, hélas ! calmez ce funeste courroux,</l>
+	<l id='1349'>Mon coeur vous aime entier, entier il est à vous :</l>
+	<l id='1350'>Il n'a pas d'autre objet, c'est son unique ennuie,</l>
+	<l id='1351'>Il faut pour vous l'ôter, m'ôter aussi la vie,</l>
+	<l id='1352'>On ne voit plus en vous ces ornements divers</l>
+	<l id='1353'>Qui vous rendent l'honneur de tout cet univers.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1354'>A ces conditions Daraide m'est chère,</l>
+	<l id='1355'>Autant qu'elle l'est aux fleurs cette douce lumière,</l>
+	<l id='1356'>Qui leur fait à mes yeux étaler leurs beautés,</l>
+	<l id='1357'>Et met en leurs couleurs tant de diversités.</l>
+<stage>La baisant. </stage>
+	<l id='1358'>Adieu prend sur mon âme une entière puissance,</l>
+	<l id='1359'>Et pardonne à l'amour cette légère offense,</l>
+	<l id='1360'>Les querelles souvent ont un heureux succès,</l>
+	<l id='1361'>Et faillir de la sorte est prouver son succès.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1362'>Adieu, bientôt le Ciel, ma chère Daraide,</l>
+	<l id='1363'>Te fasse pour mon bien rencontrer ce perfide :</l>
+	<l id='1364'>Le temps accroît mon mal, et mon soulagement</l>
+	<l id='1365'>Dépend ou de la mort, ou de toi seulement.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1366'>Si mes voeux sont suivis du succès que j'espère,</l>
+	<l id='1367'>Madame, ils serviront votre juste colère,</l>
+	<l id='1368'>Croyez que je tiendrai plus cher que la clarté,</l>
+	<l id='1369'>L'honneur de satisfaire à votre Majesté.</l>
+<stage>Elle s'en va, suivie de Darinel.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='FLORISEL'><speaker>FLORISEL, au bord de la mer en Guindaye.</speaker>
+	<l id='1370'>Où m'a jeté des vents l'impétueuse rage,</l>
+	<l id='1371'>Sous quel Ciel respirai-je, et quel est ce rivage ;</l>
+	<l id='1372'>Tous mes gens sont péris, et la faveur du sort</l>
+	<l id='1373'>N'a soustrait que leur maître au pouvoir de la mort :</l>
+	<l id='1374'>Leurs corps joints pêle-mêle au débris du navire,</l>
+	<l id='1375'>Ont payé les tributs de son fatal Empire,</l>
+	<l id='1376'>Arlandes ne vit plus, et ce cher confident</l>
+	<l id='1377'>Éprouve un sort pareil, en pareil accident,</l>
+	<l id='1378'>Arlandes cher témoin de mes courses diverses,</l>
+	<l id='1379'>Qui partageait mes biens ainsi que mes traverses,</l>
+	<l id='1380'>Toi qui sus tant de fois affronter le malheur,</l>
+	<l id='1381'>Et charmer l'Univers du bruit de ta valeur ;</l>
+	<l id='1382'>Toi dont a si souvent l'insolence du Thrace,</l>
+	<l id='1383'>A sa honte éprouvé la généreuse audace :</l>
+	<l id='1384'>Toi contre qui la mort, eut agi vainement,</l>
+	<l id='1385'>A moins que d'un tonnerre ou que d'un élément,</l>
+	<l id='1386'>Puissent être à jamais tes conquêtes prisées,</l>
+	<l id='1387'>Cependant qu'à l'abri des myrtes Elysées,</l>
+	<l id='1388'>Entre les mânes saints d'un nombre de héros,</l>
+	<l id='1389'>Ton esprit jouira des douceurs du repos ;</l>
+	<l id='1390'>Et vous qui me serviez, ô troupe infortunée,</l>
+	<l id='1391'>Vous dont un même coup tranche la destinée,</l>
+	<l id='1392'>Puisse le vieux Nocher du noir fleuve des morts</l>
+	<l id='1393'>Vous faire peu de temps attendre sur ses bords ;</l>
+	<l id='1394'>Quelle rencontre enfin me tirera de peine</l>
+	<l id='1395'>Errant au gré des vents sur cette humide plaine,</l>
+	<l id='1396'>Nous n'avons observé pays, routes, ni Cieux ;</l>
+	<l id='1397'>Des nuages épais les cachaient à nos yeux,</l>
+	<l id='1398'>Et sans en être instruit, je ne puis reconnaître,</l>
+	<l id='1399'>En quel port, quelle Terre, et quel lieu je puis être,</l>
+	<l id='1400'>Mais si je ne m'abuse un confus souvenir</l>
+	<l id='1401'>De ce plaisant séjour vient de me revenir,</l>
+	<l id='1402'>A voir ces bâtiments dont la haute structure,</l>
+	<l id='1403'>Semble relever l'art, et braver la nature,</l>
+	<l id='1404'>A voir ces grandes tours dont le superbe front</l>
+	<l id='1405'>Va chercher dans les airs, où les éclairs se font,</l>
+	<l id='1406'>Je reforme une Idée en mon esprit tracée,</l>
+	<l id='1407'>Que la force du temps en a presque effacée,</l>
+	<l id='1408'>Mais dans la quantité de tant de lieux divers,</l>
+	<l id='1409'>Que l'honneur m'a fait voir dans ce vaste Univers :</l>
+	<l id='1410'>Ce confus souvenir reste sans assurance,</l>
+	<l id='1411'>Et ne peut de ce lieu faire la différence :</l>
+	<l id='1412'>Telle n'est pas Zatyr, Samothrace, Lemnos,</l>
+	<l id='1413'>Tel, mais ô souvenir fatal à mon repos !</l>
+	<l id='1414'>Ce palais est celui de cette triste Reine,</l>
+	<l id='1415'>Dont mes déloyautés m'ont suscité la haine :</l>
+	<l id='1416'>Je reconnais ces lieux, et ces superbes tours,</l>
+	<l id='1417'>Ont été les témoins de nos jeunes amours :</l>
+	<l id='1418'>Mille fois dans ce parc, paisible, et solitaire,</l>
+	<l id='1419'>Nous avons vu l'amour, tel qu'il est en Cythère,</l>
+	<l id='1420'>Franc d'artifice, nu, beau, rempli de douceur,</l>
+	<l id='1421'>Et de nos jeunes coeurs absolu possesseur :</l>
+	<l id='1422'>Jeté par ton malheur en un lieu si funeste,</l>
+	<l id='1423'>Quelle assurance, hélas ! Et quel pouvoir te reste,</l>
+	<l id='1424'>Fuis triste Florisel, si tu ne hais le jour,</l>
+	<l id='1425'>On n'attend que ta tête en ce fatal séjour :</l>
+	<l id='1426'>Et ce qui fut jadis le lieu de tes délices,</l>
+	<l id='1427'>Sera si tu ne fuis, celui de tes supplices :</l>
+	<l id='1428'>Mais dépourvu de biens, de gens, et de vaisseaux,</l>
+	<l id='1429'>Qui commettra mes jours à l'Empire des eaux :</l>
+	<l id='1430'>Quel sera mon recours en ce danger extrême ?</l>
+	<l id='1431'>A peine je me trouve assuré de moi-même :</l>
+	<l id='1432'>Mon ombre : mais quelqu'un adresse ici ses pas,</l>
+	<l id='1433'>L'attendrai-je, fuirai-je, ou ne fuirai-je pas ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Florisel, Daraide, Darinel.</head>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1434'>Que vois-je ? Quel effet d'un furieux orage</l>
+	<l id='1435'>Nous peint ici des vents l'insolence, et la rage ;</l>
+	<l id='1436'>Et quel est ce guerrier, qu'un destin si cruel,</l>
+	<l id='1437'>N'a pu : le dois-je croire ? Ô dieux ? C'est Florisel !</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1438'>Ô l'heureuse rencontre, incroyable merveille !</l>
+	<l id='1439'>Je vois Agesilan, s'il est vrai que je veille,</l>
+	<l id='1440'>Ce visage a des traits à mes yeux trop connus,</l>
+	<l id='1441'>Et Mars respire ici sous l'habit de Vénus.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1442'>Quel mépris de la vie, ou quel malheur grand Prince,</l>
+	<l id='1443'>Vous a fait aborder dedans cette province ;</l>
+	<l id='1444'>Où la fin de vos jours est un souhait si cher,</l>
+	<l id='1445'>Venez-vous m'apporter ce que j'allais chercher,</l>
+	<l id='1446'>Sydonie à mon bras a remis sa vengeance,</l>
+	<l id='1447'>Et pour ma propre perte, ou pour son allégeance,</l>
+	<l id='1448'>J'allais en vous cherchant faire le même tour,</l>
+	<l id='1449'>Dont le soleil commence, et termine le jour.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1450'>Apprenez en deux mots quelle est mon aventure,</l>
+	<l id='1451'>Et j'apprendrai de vous celle qui m'est future,</l>
+	<l id='1452'>J'allais en Sylésie, où depuis quelques jours,</l>
+	<l id='1453'>Sa princesse assiégée implore mon secours,</l>
+	<l id='1454'>Mais mes vaisseaux battus d'un furieux orage,</l>
+	<l id='1455'>Et poussés par les vents, ont ici fait naufrage,</l>
+	<l id='1456'>J'en suis échappé seul, et peut-être mon sort,</l>
+	<l id='1457'>M'a voulu réserver pour une pire mort,</l>
+	<l id='1458'>De vos mains toutefois elle me sera chère,</l>
+	<l id='1459'>Et si pour votre amour ma tête est nécessaire,</l>
+	<l id='1460'>Je l'offre sans contrainte à vos moindres efforts,</l>
+	<l id='1461'>Et j'irai trop content, croître le rang des morts.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1462'>Vidons votre querelle aux yeux de Sydonie</l>
+	<l id='1463'>Que j'obtienne de vous cette grâce infinie ;</l>
+	<l id='1464'>Et recevez ma foi, que si victorieux,</l>
+	<l id='1465'>Après notre combat, vous restez en ces lieux ;</l>
+	<l id='1466'>Tous desseins cesseront de la part de la Reine,</l>
+	<l id='1467'>Et que ce seul duel satisfera sa haine.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1468'>Attendons à demain à paraître à la Cour,</l>
+	<l id='1469'>Laissez-moi de repos le reste de ce jour ;</l>
+	<l id='1470'>Je me trouve si las des efforts de l'orage,</l>
+	<l id='1471'>Qu'à peine je pourrai partir de ce rivage ;</l>
+	<l id='1472'>Faites que sûrement, et sans me faire voir</l>
+	<l id='1473'>Je puisse en quelque lieu reposer tout le soir.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1474'>Suivez-moi seulement ; Dieux ! L'heureuse aventure.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1475'>J'implore pour mes gens encor la sépulture.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1476'>Durant votre sommeil, je ferai sur ces bords</l>
+	<l id='1477'>Rendre d'un zèle saint cet office à leur corps.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1478'>Enfin cruel honneur on poursuit ton injure,</l>
+	<l id='1479'>Je te dois satisfaire, et ta perte m'est dure,</l>
+	<l id='1480'>Mais qu'il m'est dur aussi de perdre Florisel,</l>
+	<l id='1481'>Et combien cher j'achète un regret éternel,</l>
+	<l id='1482'>Si contre cet ingrat mon dessein s'effectue,</l>
+	<l id='1483'>C'est moi que je poursuis, et c'est moi que je tue,</l>
+	<l id='1484'>Qu'il m'ait abandonnée, et qu'il m'ait pu trahir,</l>
+	<l id='1485'>Il me plaît toutefois, je ne le puis haïr,</l>
+	<l id='1486'>Ma rage, mon mépris, ma fureur, et ma peine</l>
+	<l id='1487'>Sont un excès d'amour, qui prend le nom de haine ;</l>
+	<l id='1488'>Lorsque plus il me fuit, j'ai pour lui plus de voeux,</l>
+	<l id='1489'>Il semble que sa glace, ait augmenté mes feux,</l>
+	<l id='1490'>Que mon affection s'excite par son crime,</l>
+	<l id='1491'>Et qu'en moi ses défauts accroissent son estime ;</l>
+	<l id='1492'>Ce cruel m'est plus cher, qu'alors que dans mes bras,</l>
+	<l id='1493'>Il poussait autrefois, un amoureux hélas !</l>
+	<l id='1494'>L'amour dont à ses voeux ma couche fut offerte,</l>
+	<l id='1495'>Fut moindre que celui qui procure sa perte,</l>
+	<l id='1496'>Ce dessein furieux, ce funeste souhait,</l>
+	<l id='1497'>Prouve mieux son pouvoir, que mes faveurs n'ont fait ;</l>
+	<l id='1498'>Il mourra toutefois, si l'on sert ton ennuie,</l>
+	<l id='1499'>Cet amour est cruel, qui lui coûte la vie,</l>
+	<l id='1500'>Et qui doit quelque jour exposer à tes yeux, </l>
+	<l id='1501'>Les siens privés par toi de la clarté des cieux,</l>
+	<l id='1502'>Quelle constance alors ne mettra bas les armes,</l>
+	<l id='1503'>Quel rocher est ton coeur, si tu ne fonds en larmes ;</l>
+	<l id='1504'>Quelles sont ces ardeurs, et quel est cet amour</l>
+	<l id='1505'>S'il t'est possible alors de conserver le jour,</l>
+	<l id='1506'>Ha ? Défends d'accomplir cet arrêt homicide,</l>
+	<l id='1507'>Force ta passion, fais suivre Daraide ;</l>
+	<l id='1508'>Mais bons Dieux ? Qu'à propos elle revient ici,</l>
+	<l id='1509'>Et qu'elle me guérit d'un extrême souci.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Daraide, Sydonie.</head>
+<sp who='SYDONIE'><speaker>SYDONIE continue</speaker>
+	<l id='1510'>Ne sert point ma fureur, agréable guerrière,</l>
+	<l id='1511'>Mon esprit adouci rétracte sa prière,</l>
+	<l id='1512'>Qu'il vive cet ingrat, ce détestable amant,</l>
+	<l id='1513'>Et de ma passion triomphe insolemment,</l>
+	<l id='1514'>Si son crime fut grand, mon amour est extrême,</l>
+	<l id='1515'>Et sa mort me ferait, plus mourir, que lui-même,</l>
+	<l id='1516'>M'obéir est me nuire, un amant irrité</l>
+	<l id='1517'>Cesse tôt de vouloir ce qu'il a souhaité :</l>
+	<l id='1518'>De savoir l'abuser, dépend l'art de lui plaire,</l>
+	<l id='1519'>Et son aveuglement rend cet art nécessaire.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1520'>Ô fille malheureuse ! Ô rigueur de mon sort ?</l>
+<stage>Donnant son épée à la reine. </stage>
+	<l id='1521'>Portez contre mon sein l'instrument de sa mort :</l>
+	<l id='1522'>Madame il ne vit plus, ce bras et cette lame</l>
+	<l id='1523'>Ont à ce jeune Prince, ôté la tête, et l'âme :</l>
+	<l id='1524'>Que par le même fer le jour me soit ôté</l>
+	<l id='1525'>Puisque j'ai pu déplaire à votre Majesté.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1526'>Tous mes sens sont troublés, mon jugement s'égare</l>
+	<l id='1527'>Et presque de mon corps mon âme se sépare :</l>
+	<l id='1528'>Un glaçon qui me gèle, en mes veines s'étend</l>
+	<l id='1529'>Et cette prompte horreur tout mon corps entreprend,</l>
+	<l id='1530'>Ô Dieux ! Que me dis-tu ! S'il est vrai Daraide</l>
+	<l id='1531'>Que je vois le bras meurtrier de ce perfide,</l>
+	<l id='1532'>Qu'il ne me laisse pas respirer un moment :</l>
+	<l id='1533'>Qu'il défasse l'amante ayant défait l'amant :</l>
+	<l id='1534'>Mais Dieux te puis-je croire, car sur quelle apparence</l>
+	<l id='1535'>Dois-je de cette mort établir l'assurance</l>
+	<l id='1536'>En quel pays si proche, en quel port, sous quel cieux</l>
+	<l id='1537'>L'as-tu pu rencontrer, toi qui pars de ces lieux.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1538'>Il tirait vers la Thrace, et la fureur de l'onde</l>
+	<l id='1539'>A fait ici l'écueil de sa nef vagabonde :</l>
+	<l id='1540'>Je l'ai vu sur la rive au partir de ce lieu</l>
+	<l id='1541'>D'un moment sa rencontre a suivi mon adieu,</l>
+	<l id='1542'>Il a senti, plutôt, qu'entendu votre ennuie</l>
+	<l id='1543'>Et deux coups ont fini ce duel, et sa vie,</l>
+	<l id='1544'>J'ai laissé ce sujet de votre désespoir</l>
+	<l id='1545'>En la chambre prochaine, où vous le pourrez voir,</l>
+	<l id='1546'>Car d'exposer sa tête aux yeux de tout le monde.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1547'>Ô fatale vengeance ! Ô douleur sans seconde</l>
+	<l id='1548'>J'apprends cette nouvelle, et je ne mourrai pas !</l>
+	<l id='1549'>Il faut cher Florisel, il faut suivre tes pas ?</l>
+	<l id='1550'>J'ai dû pour mon honneur poursuivre ton supplice,</l>
+	<l id='1551'>Je dois pour mon amour, t'offrir ce sacrifice,</l>
+	<l id='1552'>Attends, que ton esprit séparé de ton corps,</l>
+	<l id='1553'>Ne marche pas sans suite aux Royaumes des morts,</l>
+	<l id='1554'>Tu ne mourras pas seul, et la main dont la parque,</l>
+	<l id='1555'>Ose porter le coup dans le sein d'un Monarque,</l>
+	<l id='1556'>Ne calme pas sitôt la fureur qui la meut,</l>
+	<l id='1557'>Mais bouillante qu'elle est abat ce qu'elle peut,</l>
+	<l id='1558'>Elle me doit encor au ténébreux Empire,</l>
+	<l id='1559'>C'est moi qui l'ai poussée, et moi qui la désire ;</l>
+	<l id='1560'>Allons perdre la vie aux pieds de mon vainqueur</l>
+	<l id='1561'>Qu'une seconde fois, il me perce le coeur,</l>
+	<l id='1562'>Mais non plus par ses yeux dépourvus de leurs charmes,</l>
+	<l id='1563'>Ce n'est plus à l'amour à lui prêter des armes,</l>
+	<l id='1564'>Il faut, s'il veut sur moi faire un dernier effort,</l>
+	<l id='1565'>Qu'il se serve de traits empruntés de la mort.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Ardenie, Darinel.</head>
+<sp who='ARDENIE'><speaker>ARDENIE appelant Darinel.</speaker>
+	<l id='1566'>Écoute Darinel, quelle triste nouvelle,</l>
+	<l id='1567'>Excite en ton esprit cette douleur cruelle.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='1568'>Il se passe un mystère où je ne comprends rien,</l>
+	<l id='1569'>On fait un homme mort qui se porte fort bien,</l>
+	<l id='1570'>Cette feinte est un jeu dont j'ignore la cause,</l>
+	<l id='1571'>Florisel endormi dessus un lit repose.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1572' part='i'>Ô Dieux que me dis-tu !</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='1572' part='f'>Je suis mon maître, adieu.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1573'>Quel dessein a conduit Florisel en ce lieu,</l>
+	<l id='1574' part='i'>Contente mon désir.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='1574' part='f'>Il s'est par un naufrage,</l>
+	<l id='1575'>Parmi ses gens péris, trouvé sur le rivage ;</l>
+	<l id='1576'>Et comme nous partions, nous l'avons reconnu, </l>
+	<l id='1577'>Sur la foi de mon maître, il est ici venu ;</l>
+	<l id='1578'>Et je crois qu'un combat doit aux yeux de la Reine,</l>
+	<l id='1579'>Exercer leur valeur, et contenter sa haine.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1580'>Viens, faisons mort encor celui qui ne l'est point,</l>
+	<l id='1581'>Il faut tromper Diane, accorde-moi ce point :</l>
+	<l id='1582'>Elle aime Agesilan, quoi qu'elle dissimule,</l>
+	<l id='1583'>Je reconnais assez le feu dont elle brûle,</l>
+	<l id='1584'>Mais pour mieux l'éprouver, annonce-lui sa mort,</l>
+	<l id='1585'>Nous verrons quel effet produira ce rapport,</l>
+	<l id='1586'>Dis-lui qu'ayant au Ciel poussé de longues plaintes,</l>
+	<l id='1587'>Qui prouvaient de son coeur les mortelles atteintes,</l>
+	<l id='1588'>Et blâmant la rigueur dont elle l'a traité</l>
+	<l id='1589'>Dedans le sein de l'onde, il s'est précipité,</l>
+	<l id='1590'>Allons tu connaîtras si son amour la touche,</l>
+	<l id='1591'>Tu verras que ses yeux démentiront sa bouche,</l>
+	<l id='1592'>Elle traitait tantôt un si parfait amant,</l>
+	<l id='1593'>Avec trop de mépris, et trop indignement :</l>
+	<l id='1594'>Il faut savoir au vrai combien elle est atteinte.</l>
+</sp>
+<sp who='DARINEL'><speaker>DARINEL</speaker>
+	<l id='1595'>Laissez-moi seulement conduire cette feinte.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Sydonie, Daraide, Florisel.</head>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1596'>Le voir privé de vie, et j'ai causé sa mort,</l>
+	<l id='1597'>Vous pouvez-vous (mes yeux) résoudre à cet effort !</l>
+	<l id='1598'>Ô passion barbare, importune vengeance ?</l>
+	<l id='1599'>Pernicieux remède, homicide allégeance ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE en lui baillant son épée, et tirant le rideau.</speaker>
+	<l id='1600'>Voilà ce beau vainqueur de votre liberté ;</l>
+	<l id='1601'>Sa vie est au pouvoir de votre Majesté ;</l>
+	<l id='1602'>Vous voulez son trépas, vous demandez sa tête,</l>
+	<l id='1603'>Et mon bras vous remet, l'honneur de sa conquête :</l>
+	<l id='1604'>La mort n'a pas cueilli ce butin précieux</l>
+	<l id='1605'>Son frère seulement a fermé ses beaux yeux :</l>
+	<l id='1606'>Il sert sa soeur, et vous, et laisse à votre ennuie</l>
+	<l id='1607'>Le pouvoir de résoudre, ou sa mort, ou sa vie.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE tenant l'épée.</speaker>
+	<l id='1608'>Comment, il n'est pas mort, ma Daraide, ô Dieux !</l>
+	<l id='1609'>Dois-je ajouter croyance au rapport de mes yeux,</l>
+	<l id='1610'>Florisel endormi désarmé sans défense,</l>
+	<l id='1611'>Quand je l'attends le moins tombe sous ma puissance ?</l>
+	<l id='1612'>Vois-je ce beau sujet de mon cruel tourment ?</l>
+	<l id='1613'>Le puis-je sans miracle, ou sans enchantement ?</l>
+	<l id='1614'>Oui je reconnais trop aux traits de ce visage,</l>
+	<l id='1615'>Ce qui de la raison m'ôta jadis l'usage,</l>
+	<l id='1616'>Voilà ce qui m'a fait si longtemps soupirer,</l>
+	<l id='1617'>Le temps qui change tout n'a pu les altérer,</l>
+	<l id='1618'>Ils captivent mon coeur avec les mêmes forces,</l>
+	<l id='1619'>Et pour plaire à mes yeux, ont les mêmes amorces.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1620'>Il prétend, que demain un combat entre nous,</l>
+	<l id='1621'>Aux yeux de votre cour calme votre courroux :</l>
+	<l id='1622'>Et moi j'attends vos lois prête à vous satisfaire</l>
+	<l id='1623'>Si dans cette action j'ai l'honneur de vous plaire.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1624'>Quoi le Ciel ne peut faire à cet ingrat amant</l>
+	<l id='1625'>Avoir en ma faveur un remords seulement ?</l>
+	<l id='1626'>Il faut pour l'arrêter que ce perfide meurt,</l>
+	<l id='1627'>Et je ne puis vivant le posséder une heure ?</l>
+	<l id='1628'>Quel sujet de mépris, et quelle aversion,</l>
+	<l id='1629'>Le rendent insensible à mon affection ?</l>
+	<l id='1630'>Par quel secret pouvoir, par quelle destinée,</l>
+	<l id='1631'>Conservai-je pour lui cette ardeur obstinée ?</l>
+	<l id='1632'>Quel invincible charme enchante mes esprits,</l>
+	<l id='1633'>Tout perfide qu'il est, insensible, intraitable,</l>
+	<l id='1634'>Avec ces qualités, il m'est encor aimable,</l>
+	<l id='1635'>Et s'il me pouvait rendre un amour mutuel,</l>
+	<l id='1636'>Je lui serais humaine, autant qu'il m'est cruel,</l>
+	<l id='1637'>Mais il fait vanité du titre d'infidèle</l>
+	<l id='1638'>Il me fuit, et la mort à ses yeux est plus belle,</l>
+	<l id='1639'>Cet aimable inconstant, et ce doux inhumain,</l>
+	<l id='1640'>Se défend de m'aimer les armes à la main.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1641'>A vos ressentiments le sommeil l'abandonne,</l>
+	<l id='1642'>L'amour vous le refuse, et le sort vous le donne,</l>
+	<l id='1643' part='i'>Sa vie est en vos mains.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1643' part='f'>Je tente un vain effort,</l>
+	<l id='1644'>Je crains également, et sa vie, et sa mort,</l>
+	<l id='1645'>L'une, et l'autre m'est dure, et l'une et l'autre est douce,</l>
+	<l id='1646'>Mon amour me retient, quand ma fureur me pousse,</l>
+	<l id='1647'>L'une sait m'irriter, et l'autre m'apaiser,</l>
+	<l id='1648'>Je voudrais le frapper, et voudrais le baiser,</l>
+	<l id='1649'>Ô mouvements divers, peur, désir, amour, haine,</l>
+	<l id='1650'>Que tous également vous me causez de peine,</l>
+	<l id='1651'>Étant bien amoureux, peut-on être inhumain,</l>
+	<l id='1652'>Puis-je exercer ensemble, et ma bouche, et ma main,</l>
+	<l id='1653'>Le baisant, l'outrager, et l'outrageant, le plaindre,</l>
+	<l id='1654'>Vouloir, ne vouloir pas, et désirer, et craindre,</l>
+	<l id='1655'>Plût à nos Dieux hélas ! que ce doux ennemi,</l>
+	<l id='1656'>Le reste de mes jours pût rester endormi,</l>
+	<l id='1657'>Quoiqu'il s'acquittât mal de l'amour qui m'est dû, </l>
+	<l id='1658'>Je jouirais au moins du plaisir de sa vue,</l>
+	<l id='1659'>Comme une autre Psyché, je viendrais nuit et jour,</l>
+	<l id='1660'>Sue ce lit précieux, contempler mon amour,</l>
+	<l id='1661'>Mais à mes tristes yeux, si je souffre sa vie,</l>
+	<l id='1662'>Cette félicité sera bientôt ravie,</l>
+	<l id='1663'>Il faut pour l'arrêter, résoudre son trépas,</l>
+	<l id='1664'>Et perdre ce cruel, pour ne le perdre pas ;</l>
+	<l id='1665'>Sus donc faut-il venger une amour méprisée,</l>
+	<l id='1666'>Et ma main de son sang doit-elle être arrosée,</l>
+	<l id='1667'>Il est cruel, ingrat, perfide suborneur,</l>
+	<l id='1668'>Il m'a coûté des voeux, mon repos, mon honneur,</l>
+	<l id='1669'>Le traître doit périr : mais las il a des charmes</l>
+	<l id='1670'>Qui me le font aimer, et m'arrachent les armes :</l>
+	<l id='1671'>Qu'il vive cet ingrat, qu'il vive, et que les Dieux,</l>
+	<l id='1672'>Soumettent mille coeurs au pouvoir de ses yeux :</l>
+	<l id='1673'>Mourons, et que pour preuve à sa force infinie,</l>
+	<l id='1674'>Aux objets de ses voeux, il nomme Sydonie ;</l>
+	<l id='1675'>Signalons ses attraits, qu'il les puisse vanter,</l>
+	<l id='1676'>Et qu'il doive sa vie, à qui va me l'ôter ;</l>
+	<l id='1677'>Peut-être que ses yeux, ces vainqueurs si barbares</l>
+	<l id='1678'>De quelques pleurs au moins ne seront pas avares,</l>
+	<l id='1679'>Des vainqueurs quelquefois ont pleuré des vaincus,</l>
+	<l id='1680'>Je dois mourir pour lui, si pour lui je vécus ;</l>
+	<l id='1681'>Prouvons tout ce que peut, une amour dans l'extrême, </l>
+	<l id='1682'>Et recouvrons l'honneur en nous perdons nous-même,</l>
+	<l id='1683' part='i'>Souffrez !</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1683' part='f'>Madame, ô Dieux ! Que délibérez-vous !</l>
+	<l id='1684'>Tournez contre mon sein, tournez votre courroux ;</l>
+	<l id='1685'>De votre désespoir je suis la seule cause,</l>
+	<l id='1686'>C'est moi qui cet objet à vos regards expose ;</l>
+	<l id='1687'>C'est moi seul qui fis renaître vos soucis</l>
+	<l id='1688'>Que l'absence et le temps, vous avaient adoucis ;</l>
+	<l id='1689' part='i'>Seule je dois mourir.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1689' part='f'>Ô défense importune !</l>
+	<l id='1690'>Laisse achever ma vie, ou change ma fortune,</l>
+	<l id='1691'>Un coup m'affranchira des rigueurs de sa loi,</l>
+	<l id='1692' part='i'>Un coup m'ôte le jour.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL s'éveillant.</speaker>
+	<l id='1692' part='f'>Dieux ! Qu'est-ce que je vois !</l>
+	<l id='1693'>Que fait la Reine, ô ciel ! Quelle funeste ennui</l>
+	<l id='1694'>Arme son propre bras contre sa propre vie,</l>
+	<l id='1695'>Aidons à détourner ce dessein furieux.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1696'>Agréable ennemi, doux charmes de mes yeux ?</l>
+	<l id='1697'>Invincible vainqueur des plus nobles franchises,</l>
+	<l id='1698'>Pourquoi veux-tu sauver celle que tu méprises ?</l>
+	<l id='1699'>Qui te fait, Florisel, détourner mon trépas ?</l>
+	<l id='1700'>Laisse prendre à la mort ce que tu ne veux pas ?</l>
+	<l id='1701'>J'en fuis, en la suivant, cent que tu me destines,</l>
+	<l id='1702'>Elle a pour moi des fleurs, et toi que des épines ;</l>
+	<l id='1703'>Tu m'as abandonnée, elle m'offre sa main</l>
+	<l id='1704'>Elle me sera douce, et tu m'es inhumain.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1705'>Puis-je estimer hélas qu'une beauté si rare,</l>
+	<l id='1706'>Pour mon sujet puisse être à soi-même barbare ;</l>
+	<l id='1707'>Plutôt, plutôt vos mains tournent contre mon sein,</l>
+	<l id='1708'>(Puisque seul j'ai failli,) ce funeste dessein.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1709'>J'avais conclu, ta mort, et je l'ai souhaitée</l>
+	<l id='1710'>Jusqu'à cette fureur, mon amour m'a portée :</l>
+	<l id='1711'>Mais ma main sait trouver agréable vainqueur</l>
+	<l id='1712'>Aussi si peu que mes yeux le chemin de ton coeur,</l>
+	<l id='1713'>Haussant à ce dessein elle tombe engourdie,</l>
+	<l id='1714'>Contre mon sein tournée, elle est bien plus hardie,</l>
+	<l id='1715'>Laisse lui témoigner ce reste de vigueur,</l>
+	<l id='1716'>Pourquoi lui défends-tu, ce que veut ta rigueur.</l>
+	<l id='1717'>Contre mes jours hélas ! tu l'as seul animée</l>
+	<l id='1718'>C'est toi qui veux ma mort, c'est toi qui l'as armée :</l>
+	<l id='1719'>C'est de ce traître prix que tu payes mes voeux,</l>
+	<l id='1720'>Souffre ce que tu fais, permets ce que tu veux,</l>
+	<l id='1721'>Je ne te presse point, par mon amour extrême</l>
+	<l id='1722'>Par mes longues faveurs, par le fruit de toi-même :</l>
+	<l id='1723'>(Diane, ce présent, que nous tenons des cieux)</l>
+	<l id='1724'>De m'être plus humain de rester en ces lieux :</l>
+	<l id='1725'>Tes charmes ont leur prix, mes défauts ont leur peine,</l>
+	<l id='1726'>Tu mérites mes voeux, je mérite ta haine,</l>
+	<l id='1727'>Mais puisque ta pitié ne me peut secourir,</l>
+	<l id='1728'>Qu'elle me laisse au moins les moyens de mourir,</l>
+	<l id='1729'>Puisqu'avant mon trépas, et contre mon attente,</l>
+	<l id='1730'>J'ai revu Florisel, je mourrai trop contente.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL à genoux.</speaker>
+	<l id='1731'>Tenir contre un objet si rare, et si charmant,</l>
+	<l id='1732'>C'est tenir, Florisel, contre le jugement :</l>
+	<l id='1733'>De trop doux ennemis te forcent de te rendre,</l>
+	<l id='1734'>Ton coeur, contre leurs coups, ne peut plus se défendre ;</l>
+	<l id='1735'>Et sans être toi-même, à toi-même cruel,</l>
+	<l id='1736'>Tu ne lui peux nier un amour mutuel :</l>
+	<l id='1737'>Fermez la bonde aux pleurs, et prenez grande Reine</l>
+	<l id='1738'>Dessus mes volontés le nom de souveraine ;</l>
+	<l id='1739'>S'il vous est doux encor d'asservir ma raison,</l>
+	<l id='1740'>Et si mon repentir est encor de saison.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1741'>Ô frivole discours, dont tu flattes ma peine ?</l>
+	<l id='1742'>Que tu peux m'abuser d'une espérance vaine,</l>
+	<l id='1743'>Tu promets sans dessein, je dois à la pitié</l>
+	<l id='1744'>Ce faux soulagement bien plus qu'à l'amitié.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1745'>Je cède à toutes deux votre force absolue,</l>
+	<l id='1746'>En moi ne trouvez plus une âme irrésolue,</l>
+	<l id='1747'>Auteurs des bons désirs, Dieux soyez-moi témoins,</l>
+	<l id='1748'>Qu'à ces beautés, je rends, et mes voeux, et mes soins :</l>
+	<l id='1749'>Et toi dont le pouvoir préside aux hyménées,</l>
+	<l id='1750'>D'un lien éternel conjoins nos destinées.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1751'>Ô divin changement ! que mes sens sont ravis.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1752'>Puis-je ouïr ce discours, sans douter si je vis ?</l>
+	<l id='1753'>Quoi, mon amour chez toi ne trouve plus d'obstacle,</l>
+	<l id='1754'>Qui le pourrait juger ? qui croirait ce miracle ?</l>
+	<l id='1755' part='i'>Ô mon cher Florisel.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1755' part='f'>Un si doux traitement,</l>
+	<l id='1756'>Adorable merveille, est-il mon châtiment ?</l>
+	<l id='1757'>Que plaisants sont mes fers, que doux sont mes supplices,</l>
+	<l id='1758'>Et que de Dieux voudraient y changer leurs délices,</l>
+	<l id='1759'>Maintenant allons voir cher objet de mes voeux,</l>
+	<l id='1760'>Le fruit que nous tenons de notre amour, et d'eux,</l>
+	<l id='1761'>Voyons cette beauté, qui seule vous seconde,</l>
+	<l id='1762'>Et qui fait ses captifs des coeurs de tout le monde.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1763'>Elle tient de vous seul le pouvoir de charmer,</l>
+	<l id='1764'>D'asservir les esprits, et de se faire aimer :</l>
+	<l id='1765'>Que vous l'allez ravir, ô divine merveille !</l>
+	<l id='1766'>Que j'ai de peine encor, à croire que je veille.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Diane, Ardenie, Daraide.</head>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1767'>Ô frivoles discours, ô conseils superflus,</l>
+	<l id='1768'>Mon seul remède, hélas ! est de ne vivre plus.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1769'>Que serviront vos pleurs à ses muettes ombres.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1770'>A m'envoyer moi-même en leurs rivages sombres.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1771'>Oui l'espérance nuit, et n'est plus de saison,</l>
+	<l id='1772'>Chacun doit ce me semble écouter la raison :</l>
+	<l id='1773'>Elle peut soulager les pires infortunes.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1774'>Et vous, et la raison vous m'êtes importunes,</l>
+	<l id='1775'>Agesilan n'est plus, tous mes plaisirs sont morts,</l>
+	<l id='1776'>Un moment de confiance excède mes efforts :</l>
+	<l id='1777'>Troublez-vous mes esprits, mes yeux fondez en larmes.</l>
+	<l id='1778'>Altère-toi mon teint, mes mains prenez des armes :</l>
+	<l id='1779'>N'avoir que des regrets pour ce parfait amant</l>
+	<l id='1780'>Est un trop doux effort de mon ressentiment :</l>
+	<l id='1781'>J'ai causé son trépas, moi-même je m'en prive,</l>
+	<l id='1782'>Et tu veux importune, et tu veux que je vive.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1783'>Et bien ne vivez plus, si vous voulez mourir ?</l>
+	<l id='1784'>Et si temps, ni raison, ne vous peut secourir ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1785' part='i'>Ma douleur le fera ;</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+<stage>Elle va vers la porte et revient lui dire. </stage>
+	<l id='1785' part='f'>Quelqu'un heurte à la porte,</l>
+	<l id='1786'>Hélas ? Préparez-vous ? C'est son corps qu'on apporte.</l>
+	<l id='1787' part='i'>Armez-vous de vertu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Diane, Ardenie, Darinel, Daraide, Florisel, Sydonie.</head>
+<sp who='DIANE'><speaker>DIANE comme furieuse et se fermant les yeux.</speaker>
+	<l id='1787' part='f'>Qui l'envoie en ces lieux ?</l>
+	<l id='1788'>Ha détournez cruels, cet objet de mes yeux,</l>
+	<l id='1789'>Le puis-je voir hélas, puis-je souffrir sa vue,</l>
+	<l id='1790'>Sans de tout sentiment paraître dépourvue ?</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1791'>Pour quelle occasion, courant de toutes parts,</l>
+	<l id='1792'>Semble-t-elle nous fuir, et craindre vos regards,</l>
+	<l id='1793' part='i'>Dieux qu'est-ce que je vois ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1793' part='f'>La force qui me reste,</l>
+	<l id='1794'>Ne pourrait pas souffrir, ce spectacle funeste ;</l>
+	<l id='1795' part='i'>Éloignez-le d'ici.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1795' part='f'>Beau charme de mes sens</l>
+	<l id='1796'>Qui vous fait altérer ces attraits innocents ?</l>
+	<l id='1797'>Pourquoi de tant de pleurs mouillez-vous ce visage,</l>
+	<l id='1798'>Et pourquoi vos beaux yeux n'ont-ils plus d'autre usage ?</l>
+	<l id='1799'>Est-ce moi qui les blesse ; et suspend leur pouvoir,</l>
+	<l id='1800'>Ma Diane est-ce moi que vous craignez de voir ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE la regardant.</speaker>
+	<l id='1801'>Quoi c'est toi que j'entends, ma chère Daraide ?</l>
+	<l id='1802'>Quel Dieu t'a pu tirer de cette plaine humide</l>
+	<l id='1803'>Ou deux guides sans yeux la fureur et l'amour,</l>
+	<l id='1804'>Tout fait précipiter pour y perdre le jour.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1805'>Que dit-elle bons Dieux ! Ne suis-je pas moi-même,</l>
+	<l id='1806' part='i'>Ai-je ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1806' part='f'>Pour la punir de la froideur extrême,</l>
+	<l id='1807'>Qu'elle vous a fait voir quand vous partiez d'ici,</l>
+	<l id='1808'>Je me suis divertie à l'abuser ainsi.</l>
+	<l id='1809'>Obtenez mon pardon, puisque par cette feinte,</l>
+	<l id='1810'>Elle vous fait juger, combien elle est atteinte.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1811'>Que je te veux de mal, Dieux ! Combien ce rapport,</l>
+	<l id='1812'>M'a fait souffrir de morts, pour la peur d'une mort.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1813'>Pour rester tous contents, accordez-moi sa grâce.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1814' part='i'>Donc à condition.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1814' part='f'>Que faut-il que je fasse ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1815'>Qu'à moins que me déplaire on n'y retourne plus.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1816'>Cessons enfin, cessons, ces propos superflus,</l>
+	<l id='1817'>Apprends ma chère fille une heureuse aventure,</l>
+	<l id='1818'>Qui te devrait assez enseigner la nature,</l>
+	<l id='1819'>Par un secret instinct, ne reconnais-tu pas,</l>
+	<l id='1820'>Celui qui te contemple, et qui te tends les bras.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL l'allant embrasser.</speaker>
+	<l id='1821'>Je ne puis plus forcer l'ardeur qui me consomme.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1822'>Je vois, je vois mon père, et le sang me le nomme.</l>
+	<l id='1823' part='i'>Ô mon père !</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1823' part='m'>Ô ma fille !</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1823' part='f'>Ô puissant coup des cieux !</l>
+	<l id='1824'>Quel bonheur est pareil à celui de ces lieux ?</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1825'>Recouvrer un enfant et d'un noeud légitime,</l>
+	<l id='1826'>Me joindre à Sydonie est la peine d'un crime !</l>
+	<l id='1827'>Ô Dieux ! ô protecteurs du destin des mortels</l>
+	<l id='1828'>Quelles sont vos faveurs, puisque vos coups sont tels ?</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1829'>Combien à nos désirs la Fortune est prospère,</l>
+	<l id='1830'>A qui dois-je le bien de recouvrer mon père ?</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1831'>Daraide à nos voeux procure un bien si doux,</l>
+	<l id='1832'>Elle vous rend un père, et me rend un époux.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1833'>Puisqu'enfin les effets passent votre requête,</l>
+	<l id='1834'>Et qu'ayant Florisel, vous possédez sa tête,</l>
+	<l id='1835'>Je demande, Madame, à votre majesté,</l>
+	<l id='1836'>Le prix qu'elle a promis, et que j'ai mérité.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1837' part='i'>Quel ?</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1837' part='f'>L'heur de posséder cette beauté divine,</l>
+	<l id='1838'>Que trop visiblement, mon bonheur me destine,</l>
+	<l id='1839'>Puisqu'en si peu de temps, tout succède à propos,</l>
+	<l id='1840'>Et pour ma passion, et pour votre repos.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1841'>Oui, ce prix est dû ; mais ô belle guerrière</l>
+	<l id='1842'>Que peut-elle pour vous ? quelle est votre prière,</l>
+	<l id='1843'>De quel aveuglement ne vous dois-je accuser,</l>
+	<l id='1844'>Et que servent les biens, dont on ne peut user.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1845'>Si vous la refusez aux voeux de Daraide</l>
+	<l id='1846'>Qu'à ceux d'Agesilan, ce bel astre préside,</l>
+	<l id='1847'>Pour ses jeunes attraits, ce Prince meurt d'amour,</l>
+	<l id='1848'>Et depuis quelques jours, il est en cette cour.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1849'>Puisque vous l'ordonnez, que ce prince l'obtienne,</l>
+	<l id='1850'>Elle aura trop de gloire en l'honneur d'être sienne.</l>
+	<l id='1851'>Un Royaume puissant relève de ses lois,</l>
+	<l id='1852'>Et les plus envieux parlent de ses exploits.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1853'>Je suis ce Prince, heureux sur tous les autres Princes,</l>
+	<l id='1854'>Puisque ce beau Soleil doit luire en mes provinces,</l>
+	<l id='1855'>Grande Reine, c'est moi, qui sous ce vêtement,</l>
+	<l id='1856'>Suis venu rendre hommage à cet objet charmant.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1857'>Dieux ! qu'est ce que j'entends ! ô divine merveille !</l>
+	<l id='1858'>Ô bonheur, ô fortune ! à nulle autre pareille !</l>
+	<l id='1859'>Oui, grand Prince, obtenez la fin de vos désirs,</l>
+	<l id='1860'>Puisque d'eux, seulement, naissent tous mes plaisirs.</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1861'>Mon respect cède enfin à l'ardeur qui me presse,</l>
+	<l id='1862'>Il faut qu'Agesilan embrasse sa maîtresse,</l>
+	<l id='1863' part='i'>Daraide n'est plus.</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1863' part='f'>Ô divin changement !</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1864'>Quelle joie est pareille à mon ravissement ?</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1865'>Sus, que jusqu'au Ciel s'élèvent les fumées,</l>
+	<l id='1866'>Que vont produire nos encens,</l>
+	<l id='1867'>Et que d'un saint brasier nos âmes consommées,</l>
+	<l id='1868'>Goûtent en liberté des plaisirs innocents,</l>
+	<l id='1869'>Ne les différons point, et que deux Hyménées,</l>
+	<l id='1870'>Avant la fin du jour joignent nos destinées.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Trois cavaliers vaincus par Florisel, conduits par Bruneo.</head>
+<sp who='BRUNEO'><speaker>BRUNEO, à la Reine.</speaker>
+	<l id='1871'>Ces Princes, compagnons de ma triste fortune,</l>
+	<l id='1872'>S'acquittent d'une dette avecque moi commune,</l>
+	<l id='1873'>Ils viennent à vos pieds, vaincus de Florisel,</l>
+	<l id='1874'>S'exposer aux rigueurs d'un servage éternel.</l>
+</sp>
+<sp who='PREMIER_CAVALIER'><speaker>Premier CAVALIER</speaker>
+	<l id='1875'>Par arrêt du vainqueur, j'apporte ici l'épée,</l>
+	<l id='1876'>Qui fut contre son bras vainement occupée,</l>
+	<l id='1877'>La loi de mon malheur m'a mis en son pouvoir,</l>
+	<l id='1878'>Et m'oblige, Madame, à ce honteux devoir.</l>
+</sp>
+<sp who='SECOND_CAVALIER'><speaker>Second CAVALIER</speaker>
+	<l id='1879'>Vaincu par sa valeur, qui toute autre surpasse,</l>
+	<l id='1880' part='i'>Je viens pour même fin.</l>
+</sp>
+<sp who='TROISIEME_CAVALIER'><speaker>Troisième CAVALIER</speaker>
+	<l id='1880' part='f'>Et telle est ma disgrâce,</l>
+	<l id='1881'>Ce glorieux auteur de ma captivité</l>
+	<l id='1882'>M'envoie humble captif à votre Majesté ;</l>
+	<l id='1883'>Mais ou mon oeil s'abuse ou ce généreux Prince,</l>
+	<l id='1884'>A devancé nos pas dedans cette province ;</l>
+	<l id='1885' part='i'>C'est lui que nous voyons.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1885' part='f'>Joignez, braves guerriers,</l>
+	<l id='1886'>Joignez avecques moi la myrte à mes lauriers,</l>
+	<l id='1887'>Et tous d'un chant commun d'allégresse infinie,</l>
+	<l id='1888'>Bénissons à l'envi, Diane, et Sydonie,</l>
+	<l id='1889'>Par un heureux malheur, qui nous a réunis,</l>
+	<l id='1890'>Vos liens sont rompus, et vos travaux finis.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE DERNIÈRE. Sydonie, Florisel, Daraide, Diane, Ardenie, Rosaran, cavalier étranger.</head>
+<sp who='ROSARAN'><speaker>ROSARAN, aux pieds de la Reine.</speaker>
+	<l id='1891'>Grâce à ma valeur, le traître a rendu l'âme,</l>
+	<l id='1892'>Et son sang a fumé sous cette heureuse lame,</l>
+	<l id='1893'>L'édit est consommé, nos soins sont superflus</l>
+	<l id='1894'>Votre amour est vengée, et Florisel n'est plus,</l>
+	<l id='1895'>Ce bras propice aux bons, et fatal aux superbes,</l>
+	<l id='1896'>L'a laissé pâle, et froid étendu sur les herbes.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1897' part='i'>Dieux ! Quel est-ce discours,</l>
+</sp>
+<sp who='DARAIDE'><speaker>DARAIDE</speaker>
+	<l id='1897' part='f'>Ô qu'il est insensé !</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL se cache.</speaker>
+	<l id='1898'>C'est un esprit d'amour profondément blessé</l>
+	<l id='1899'>Et dont aucun orgueil, n'égale l'arrogance,</l>
+	<l id='1900'>Tirez quelque plaisir de son extravagance.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1901'>Généreux Cavalier, si Florisel est mort,</l>
+	<l id='1902'>Pourquoi ne joignez-vous sa tête à ce rapport,</l>
+	<l id='1903'>Cette vue en ses lieux eût prouvé votre gloire</l>
+	<l id='1904'>Et Diane eut été le prix de la victoire.</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='1905'>Je n'ai pu me résoudre à cette cruauté,</l>
+	<l id='1906'>Et j'ai plus de valeur, que d'inhumanité,</l>
+	<l id='1907'>Mais bientôt cette mort vous sera confirmée,</l>
+	<l id='1908'>Par la voix de la gloire, et de la renommée,</l>
+	<l id='1909'>Les bruits, dans peu de jours, s'en répandront ici.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL se montrant</speaker>
+	<l id='1910'>Veux-tu que par ma voix, je la confirme aussi,</l>
+	<l id='1911' part='i'>Passé-je pour un mort ?</l>
+</sp>
+<sp who='ARDENIE'><speaker>ARDENIE</speaker>
+	<l id='1911' part='f'>Ô plaisante aventure !</l>
+</sp>
+<sp who='ROSARAN'><speaker>ROSARAN</speaker>
+	<l id='1912'>Ô merveille incroyable à toute la Nature ?</l>
+	<l id='1913'>Quel charme en un moment le transporte en tous lieux ?</l>
+	<l id='1914'>Partout cet ennemi se présente à mes yeux ?</l>
+	<l id='1915'>Partout cet importun d'un seul regard me dompte,</l>
+	<l id='1916'>Et partout me remplit de frayeur et de honte,</l>
+	<l id='1917'>Honneur, Diane, amour, je brise vos liens,</l>
+	<l id='1918'>Et ne reconnais plus de charmes que les miens.</l>
+</sp>
+<sp who='SYDONIE'><speaker>SYDONIE</speaker>
+	<l id='1919' part='i'>Ô le doux passe-temps.</l>
+</sp>
+<sp who='DIANE'><speaker>DIANE</speaker>
+	<l id='1919' part='f'>L'agréable folie.</l>
+</sp>
+<sp who='FLORISEL'><speaker>FLORISEL</speaker>
+	<l id='1920'>Il n'est pas déplaisant en sa mélancolie,</l>
+	<l id='1921'>Mais déjà de ces lieux l'ombre chasse le jour,</l>
+	<l id='1922'>Allons sacrifier au pouvoir de l'amour.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

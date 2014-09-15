@@ -1,0 +1,2492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+<teiHeader>
+
+	<fileDesc>
+
+		<titleStmt>
+
+			<title>LE PRINCE CORSAIRE, TRAGI-COMÉDIE.</title>
+
+			<author born='1610' born_location='Paris' death='1660' death_location='Paris' academie=''>SCARRON, Paul</author>
+
+		</titleStmt>
+
+		<publicationStmp>
+
+			<p>publié par Paul FIEVRE mars 2011</p>
+
+		</publicationStmp>
+
+		<SourceDesc>
+
+			<genre>Comédie</genre>
+
+			<inspiration>moeurs chypriotes</inspiration>
+
+			<structure>Cinq actes</structure>
+
+			<type>vers</type>
+
+			<periode>1641-1650</periode>
+
+			<taille>1500-1750</taille>
+
+			<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k74957t</permalien>
+
+		</SourceDesc>
+
+		<edStmt></edStmt>
+
+</fileDesc>
+
+</teiHeader>
+
+<text>
+
+<front>
+
+	<docTitle>
+
+		<titlePart type="main">LE PRINCE CORSAIRE.</titlePart>
+
+		<titlePart type="sub">TRAGI-COMÉDIE.</titlePart>
+
+	</docTitle>
+
+	<docDate value='1650'>M DC L. AVEC PRIVILÈGE DU ROI. </docDate>
+
+	<docAuthor id='SCARRON, Paul' bio='scarron'>par Monsieur SCARRON</docAuthor>
+
+	<docImprint>
+
+		<approbation value=''></approbation>
+
+			<privilege value='1649-11-10'><head>EXTRAIT DU PRIVILÈGE DU ROI.</head>
+
+			<p>Par grâce et Privilège du Roi donné à Paris le 10. jour de novembre 1649. Signé, Par le Roi en son Conseil, Le Brun. Il est permis à Toussaint Quinet Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre intitulée, L'Héritier Ridicule, Comédie du Sieur Scarron, pendant le temps de cinq ans entiers et accomplis. Et défenses sont faites à tous Imprimeurs, Libraires et autres, de contrefaire ledit Livre, ni le vendre ou exposer en vente d'autre impression que de celle qu'il a fait faire, à peine de trois mil livres d'amende, et de tous dépens dommages et intérêts, ainsi qu'il est plus amplement porté pas lesdites Lettres, qui sont en vertu du présent Extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>			</privilege>
+
+			<acheveImprime value=''></acheveImprime>
+
+			<printer id=''>À PARIS, Suivant la copie imprimée.</printer>
+
+	</docImprint>
+
+	<performance>
+
+		<premiere date='1658' location='(inconnue)'>Réprésenté pour la première fois le 1 août 1659 au théâtre du Petit Bourbon.</premiere>
+
+	</performance>
+
+	<castList><head>ACTEURS.</head>
+
+		<castItem><role id="OROSMANE" civil="M">OROSMANE</role>, Prince Corsaire, amant de la Princesse Élise, et enfin reconnu, sous le nom d'Alcandre, pour fils de Nicanor.</castItem>
+
+		<castItem><role id="ÉLISE" civil="F" type="H" statut="prince" age="A" stat_amour='amoureux'>ÉLISE</role>, Princesse de Chypre, Maîtresse d'Orosmane.</castItem>
+
+		<castItem><role id="ALCIONNE" civil="F" type="H" statut="prince" age="A" stat_amour='amoureux'>ALCIONNE</role>, autre Princesse de Chypre, Soeur d'Élise, maîtresse d'Amintas.</castItem>
+
+		<castItem><role id="AMINTAS" civil="M" type="H" statut="prince" age="A" stat_amour='amoureux'>AMINTAS</role>, fils de Nicanor, frère d'Orosmane, amant de la Princesse Alcionne. </castItem>
+
+		<castItem><role id="NICANOR" civil="M" type="H" statut="prince" age="A" stat_amour='amoureux'>NICANOR</role>, père d'Orosmane, et d'Amintas, et Oncle des Princesses.</castItem>
+
+		<castItem><role id="SÉBASTE" civil="M" type="H" statut="confident" age="A" stat_amour='néant'>SÉBASTE</role>, Confident d'Orosmane.</castItem>
+
+		<castItem><role id="ARGANTE" civil="M" type="H" statut="lieutenant" age="A" stat_amour='néant'>ARGANTE</role>, lieutenant du même Orosmane.</castItem>
+
+		<castItem><role id="CLARICE" civil="F" type="H" statut="confident" age="A" stat_amour='néant'>CLARICE</role>, confidente des Princesses.</castItem>
+
+		<castItem><role id="CRITON" civil="M" type="H" statut="confident" age="A" stat_amour='néant'>CRITON</role>, confident d'Amintas.</castItem>
+
+		<castItem><role id="LICAS" civil="M" type="H" statut="capitaine" age="A" stat_amour='néant'>LICAS</role>, capitaine des Gardes de Nicanor.</castItem>
+
+		<castItem><role id="GARDES" civil="G" type="H" statut="garde" age="A" stat_amour='néant'>GARDES de Nicanor</role>.</castItem>
+
+		<castItem><role id="CORSAIRES" civil="G" type="H" statut="corsaire" age="A" stat_amour='néant'>CORSAIRES de la flotte d'Orosmane</role>.</castItem>
+
+	</castList>
+
+<set location='Paphos' country='Chypre' periode='XVIIème' link=''>La Scène est à Paphos, Ville de l'Île de Chypre, dans le Palais.</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head>ACTE I</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Sébaste, Clarice. </head>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='1'>Vous pleurez un Grand Roi dont les heureuses armes, </l>
+	<l id='2'>Tenaient la Chypre en paix, et l'Asie en alarmes. </l>
+	<l id='3'>Les Peuples éloignés qu'il vous avait soumis, </l>
+	<l id='4'>Las d'être vos sujets seront vos ennemis. </l>
+	<l id='5'>Le trépas d'un Monarque ébranle ses conquêtes, </l>
+	<l id='6'>Et dans l'État plus calme excite des tempêtes ; </l>
+	<l id='7'>Le vôtre se divise en partis opposés ; </l>
+	<l id='8'>Et doit craindre le sort des États divisés ; </l>
+	<l id='9'>Mais du Roi qui n'est plus les restes adorables</l>
+	<l id='10'>Ces Astres de la Chypre aux amants redoutables ; </l>
+	<l id='11'>Perdant le Roi leur père ont-elles tout perdu ? </l>
+	<l id='12'>Leur refuseriez-vous le rang qui leur est dû ? </l>
+	<l id='13'>Seriez-vous leurs Tyrans, leurs vassaux que vous êtes ? </l>
+	<l id='14'>Ou des Filles d'un Roi feriez-vous les sujettes ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='15'>La Chypre a conservé constante dans la Foi, </l>
+	<l id='16'>Le respect qu'elle doit aux Filles de son Roi, </l>
+	<l id='17'>Et de l'une des deux se va faire une Reine. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='18' part='i'>D'Élise... </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='18' part='f'>Jusqu'ici, la chose est incertaine, </l>
+	<l id='19'>Elle aura la couronne épousant Amintas. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='20' part='i'>Et ne l'épousant point ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='20' part='f'>Elle ne l'aura pas. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='21'>Et qui lui peut ravir un droit en la couronne. </l>
+	<l id='22'>Que sa vertu mérite, et que le sang lui donne ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='23'>Quand la mort qui confond les Rois, et leurs sujets, </l>
+	<l id='24'>De Pisandre eut fini la vie, et les projets, </l>
+	<l id='25'>On ne publia point sa volonté dernière, </l>
+	<l id='26'>Son frère Nicanor eut la puissance entière, </l>
+	<l id='27'>Et son fils Amintas la partage avec lui, </l>
+	<l id='28'>De l'État l'un, et l'autre, et la force, et l'appui : </l>
+	<l id='29'>Pisandre avant sa mort en paroles expresses, </l>
+	<l id='30'>Avait réglé le sort de nos belles Princesses, </l>
+	<l id='31'>Et cet ordre du Roi caché soigneusement, </l>
+	<l id='32'>Est manifeste à tous d'aujourd'hui seulement, </l>
+	<l id='33'>J'en garde une copie, et je puis vous la lire, </l>
+	<l id='34' part='i'>Si vous le souhaitez. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='34' part='f'>Je n'osais vous le dire. </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='35'>J'ordonne que ma fille Élise, </l>
+	<l id='36'>Règne en Chypre après mon trépas, </l>
+	<l id='37'>Et je veux aussi qu'elle élise, </l>
+	<l id='38'>Pour Époux le Prince Amintas. </l>
+	<l id='39'>Si méprisant ce que j'ordonne </l>
+	<l id='40'>Sur un Prince étranger elle jette les yeux, </l>
+	<l id='41'>Je veux que sa soeur Alcionne, </l>
+	<l id='42'>Épousant Amintas succède à ma Couronne ; </l>
+	<l id='43'>C'est mon dernier vouloir après celui des Dieux. </l>
+	<l id='44'>Élise ne s'est point sur son choix déclarée, </l>
+	<l id='45'>Encore qu'elle soit de ce Prince adorée, </l>
+	<l id='46'>Et ce fidèle amant de ce choix incertain, </l>
+	<l id='47'>Attendant son mauvais ou son heureux Destin, </l>
+	<l id='48'>Ne sait à qui des deux d'Élise ou d'Alcionne, </l>
+	<l id='49'>Il devra le bonheur d'une double Couronne ; </l>
+	<l id='50'>Chypre, et la Cilicie, où nous donnons des Lois, </l>
+	<l id='51'>Où Pisandre a vaincu le dernier de ses Rois </l>
+	<l id='52'>Et s'il eût eu du Ciel une plus longue vie, </l>
+	<l id='53'>Il eût poussé plus loin sa conquête en Asie. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='54'>Des peuples asservis le zèle est toujours feint, </l>
+	<l id='55'>Et naturellement l'on hait ce que l'on craint, </l>
+	<l id='56'>Comme Cilicien je sais qu'en cette terre </l>
+	<l id='57'>Pisandre eût eu bientôt à soutenir la guerre. </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='58'>Son frère Nicanor politique et prudent : </l>
+	<l id='59'>Ferme dans ses desseins ; ambitieux ; ardent, </l>
+	<l id='60'>Chef d'un parti puissant ; absolu dans les villes, </l>
+	<l id='61'>Peut jeter cet État en des guerres civiles, </l>
+	<l id='62'>Si méprisant son fils, et les ordres du Roi, </l>
+	<l id='63'>Élise disposait du Royaume, et de soi. </l>
+	<l id='64'>Elle est incessamment de Nicanor pressée, </l>
+	<l id='65'>De découvrir enfin sa secrète pensée, </l>
+	<l id='66'>Et pour la découvrir elle a choisi ce jour, </l>
+	<l id='67'>En peu de mots, voilà l'État de notre Cour. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='68'>Cet Hymen peut avoir sa raison politique ; </l>
+	<l id='69'>Élise peut aussi le trouver tyrannique, </l>
+	<l id='70'>Si cet objet forcé de son affection, </l>
+	<l id='71'>N'a jamais attiré que son aversion, </l>
+	<l id='72'>Ou si quelque autre amant règne en son coeur fidèle </l>
+	<l id='73'>Amintas pourrait-il être heureux avec elle ; </l>
+	<l id='74'>Et quand elle tiendrait son sceptre d'Amintas, </l>
+	<l id='75'>D'un époux qui déplaît les dons ne plaisent pas, </l>
+	<l id='76'>Contrainte en son amour, et contrainte en sa haine, </l>
+	<l id='77'>Amante malheureuse, et malheureuse Reine, </l>
+	<l id='78'>D'un choix violenté le souvenir cruel, </l>
+	<l id='79'>Lui ferait de son Trône un supplice éternel. </l>
+	<l id='80'>Le sceptre, et les trésors qu'apporte un hyménée </l>
+	<l id='81'>N'en fait point ici-bas l'heureuse Destinée, </l>
+	<l id='82'>On n'est pas moins captif pour l'être avec éclat, </l>
+	<l id='83'>Et les raisons d'amour ne le sont point d'État. </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='84'>Amintas est bien fait, généreux ; plein de gloire, </l>
+	<l id='85'>Son bras s'est signalé par plus d'une victoire, </l>
+	<l id='86'>Il est aimé du peuple, adoré de la Cour, </l>
+	<l id='87'>De moindres qualités donneraient de l'amour. </l>
+	<l id='88'>Mais la Princesse vient, retirez-vous ; possible </l>
+	<l id='89'>Vais-je la disposer à vous être visible. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Élise, Clarice. </head>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='90' part='i'>Quel est cet étranger ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='90' part='f'>C'est un Cilicien, </l>
+	<l id='91'>Pour qui je vous demande un secret entretien. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='92'>Et que peut me vouloir cet étranger, Clarice ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='93'>Vous rendre à ce qu'il dit un important service. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='94'>Qu'il vienne ; mais s'il veut quelque grâce de moi, </l>
+	<l id='95'>Je n'ai plus de pouvoir depuis la mort du Roi. </l>
+	<l id='96'>Faites-lui donc savoir qu'Amintas, et son père </l>
+	<l id='97'>Sont aujourd'hui les Dieux que la Chypre révère. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE III.</head>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+
+	<l id='98'>Princesse malheureuse, et qu'un indigne sort, </l>
+	<l id='99'>Contraint dès sa jeunesse à souhaiter sa mort : </l>
+	<l id='100'>Le Ciel ne te fit donc d'une illustre naissance, </l>
+	<l id='101'>Que pour faire aux mortels redouter sa puissance, </l>
+	<l id='102'>Il te ravit un Trône à ta naissance acquis : </l>
+	<l id='103'>De tes propres sujets il fait tes ennemis, </l>
+	<l id='104'>Et du choix d'un époux t'ôtant le privilège, </l>
+	<l id='105'>Il te rend vers ton père ingrate, et sacrilège ; </l>
+	<l id='106'>Mais des ordres d'un père on se peut dispenser, </l>
+	<l id='107'>Quand une foi promise, est honteuse à fausser, </l>
+	<l id='108'>On me peut faire choir d'un Trône héréditaire, </l>
+	<l id='109'>Mais me rendre inconstante, on ne le saurait faire : </l>
+	<l id='110'>Je t'aimerai toujours, soit que loin de ces lieux, </l>
+	<l id='111'>Ton âme dans le Ciel ait place entre les Dieux, </l>
+	<l id='112'>Soit qu'entre les mortels, où tu vis plein de gloire </l>
+	<l id='113'>Tu conserves encore Élise en ta mémoire ; </l>
+	<l id='114'>Soit qu'un ingrat oubli la chasse de ton coeur, </l>
+	<l id='115'>Je t'aimerai toujours d'une constante ardeur, </l>
+	<l id='116'>Prince qui méritais une autre destinée, </l>
+	<l id='117'>Prince le seul espoir d'Élise infortunée. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Clarice, Élise, Sébaste. </head>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='118' part='i'>Voici cet étranger. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='118' part='f'>Que voulez-vous de moi ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='119'>Orosmane des mers le redoutable roi, </l>
+	<l id='120'>Qui sur mille vaisseaux portant partout la guerre, </l>
+	<l id='121'>Fait respecter son nom aux Maîtres de la terre, </l>
+	<l id='122'>Vous offre sa valeur contre vos ennemis, </l>
+	<l id='123'>Et vingt mille soldats à vos ordres soumis, </l>
+	<l id='124'>Quand vous l'ordonnerez, d'une puissante Armée, </l>
+	<l id='125'>Vous verrez à l'instant cette ville enfermée ; </l>
+	<l id='126'>Vous verrez les Tyrans qui vous donnent la loi, </l>
+	<l id='127'>La recevoir de vous, et trembler sous mon Roi. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='128'>On a mal informé votre vaillant corsaire, </l>
+	<l id='129'>Et son secours ici ne m'est point nécessaire ; </l>
+	<l id='130'>Mais d'où peuvent venir les soins officieux, </l>
+	<l id='131'>D'un homme si funeste à la paix de ces lieux, </l>
+	<l id='132'>Plus craint de nos vaisseaux que les plus grands orages, </l>
+	<l id='133'>Qui tient nos ports bloqués, désole nos rivages, </l>
+	<l id='134'>Et qui laissant en paix le reste des humains, </l>
+	<l id='135'>Nous choisit pour l'objet de ses faits inhumains. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='136'>Orosmane n'est pas tout ce qu'il paraît être, </l>
+	<l id='137'>Et possible le temps le fera mieux connaître, </l>
+	<l id='138'>Mais troublât-il Chypre encor plus qu'il ne fait, </l>
+	<l id='139'>Il vous distingue fort de ces peuples qu'il hait, </l>
+	<l id='140'>Il n'est soin ni devoir qu'il ne veuille vous rendre, </l>
+	<l id='141'>Et de fortes raisons (que vous allez apprendre.) </l>
+	<l id='142'>Dans vos seuls intérêts l'engagent tellement, </l>
+	<l id='143'>Qu'il fait ses ennemis des vôtres seulement : </l>
+	<l id='144'>Un Prince incomparable, et dont l'illustre vie, </l>
+	<l id='145'>À vos yeux ses vainqueurs fut toujours asservie, </l>
+	<l id='146'>Et qui jusqu'au trépas constant en son Amour, </l>
+	<l id='147'>Ne regretta que vous quand il perdit le jour, </l>
+	<l id='148'>Eut longtemps la fortune à ses voeux favorable ; </l>
+	<l id='149'>Mais se fier en elle est bâtir sur le sable. </l>
+	<l id='150'>Ce Prince malheureux vit son Trône envahi, </l>
+	<l id='151'>Il fut de ses sujets abandonné, trahi, </l>
+	<l id='152'>Et réduit à la fin de quitter une Terre, </l>
+	<l id='153'>Où tout semblait d'accord à lui faire la guerre, </l>
+	<l id='154'>Il fonda sur les flots l'espoir de son salut, </l>
+	<l id='155'>N'ayant plus qu'un vaisseau de tant d'autres qu'il eût, </l>
+	<l id='156'>Sa galère en ces mers tombant dans notre Armée, </l>
+	<l id='157'>Se vit en un moment des nôtres enfermée, </l>
+	<l id='158'>Mais lui loin de céder à l'ennemi plus fort, </l>
+	<l id='159'>De vos meilleurs soldats se fit craindre d'abord, </l>
+	<l id='160'>Et fit seul contre nous en sa seule galère, </l>
+	<l id='161'>Ce que le Dieu de Thrace en sa place eût pu faire, </l>
+	<l id='162'>Repoussant plusieurs fois de son bord investi, </l>
+	<l id='163'>Les nombreux ennemis de son faible parti. </l>
+	<l id='164'>Orosmane ravi de sa rare vaillance, </l>
+	<l id='165'>Fait cesser le combat ; vers ce guerrier s'avance ; </l>
+	<l id='166'>Lui présente à la fois, et la paix, et la main, </l>
+	<l id='167'>Et ne reçoit de lui que fierté, que dédain, </l>
+	<l id='168'>Il offense Orosmane, il l'attaque, il le presse, </l>
+	<l id='169'>De tout ce qu'il lui reste ; et de force, et d'adresse ; </l>
+	<l id='170'>Irrite son courroux par son sang répandu : </l>
+	<l id='171'>Mais faible par celui qu'il a déjà perdu, </l>
+	<l id='172'>Enfin il tombe aux pieds d'Orosmane invincible, </l>
+	<l id='173'>Et trouva son vainqueur à son malheur sensible, </l>
+	<l id='174' part='i'>Il s'appelait Alcandre. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='174' part='f'>Hélas ! Il est donc mort, </l>
+	<l id='175' part='i'>Alcandre ? Mon Alcandre. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='175' part='f'>Il a changé de sort. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='176'>Et le fier Orosmane est meurtrier d'Alcandre ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='177'>Il se croirait heureux, s'il pouvait vous le rendre. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='178' part='i'>Hélas ! </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='178' part='f'>Alcandre donc ce Prince malheureux, </l>
+	<l id='179'>Expirant, conjura son vainqueur généreux, </l>
+	<l id='180'>Son vainqueur, qu'il voyait près de lui tout en larmes, </l>
+	<l id='181'>Maudire ; mais trop tard, ses trop heureuses Armes, </l>
+	<l id='182'>De vous offrir son bras, sa flotte, et son pouvoir, </l>
+	<l id='183'>Et d'apaiser par là son juste désespoir, </l>
+	<l id='184'>De voir ainsi finir son Amour, et sa vie, </l>
+	<l id='185'>Dans un temps où peut-être il vous aurait servie, </l>
+	<l id='186'>Et c'est d'où sont venus les soins officieux, </l>
+	<l id='187'>D'un guerrier sans pareil qui vous est odieux ; </l>
+	<l id='188'>Mais sur qui vous régnez ; en qui revit Alcandre, </l>
+	<l id='189'>Qui voudrait comme lui pour vous tout entreprendre, </l>
+	<l id='190'>Et de qui la valeur ne veut point d'autre prix, </l>
+	<l id='191'>Que la gloire d'avoir pour vous tout entrepris. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='192'>Ha plutôt qu'un Barbare ait part en mon estime, </l>
+	<l id='193'>Un corsaire Insolent qui me propose un crime, </l>
+	<l id='194'>Plutôt que d'attirer le reproche éternel, </l>
+	<l id='195'>D'armer en ma faveur un bras si criminel. </l>
+	<l id='196'>Que les plus grands malheurs que l'on craint sur la Terre, </l>
+	<l id='197'>Me fassent sans relâche une cruelle guerre, </l>
+	<l id='198'>Que ces mêmes Tyrans, dont trop officieux </l>
+	<l id='199'>Il m'offre d'abaisser l'orgueil ambitieux. </l>
+	<l id='200'>Exercent contre moi toute la violence, </l>
+	<l id='201'>Qu'inspire à des sujets une aveugle insolence ; </l>
+	<l id='202'>Hé que peut-il me rendre après m'avoir ôté, </l>
+	<l id='203'>Le seul bien qui manquait à ma félicité ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='204'>Orosmane sait bien que vous êtes gênée, </l>
+	<l id='205'>Dans la libre action du choix d'un hyménée, </l>
+	<l id='206'>Qu'il vous fait perdre Alcandre un amant généreux, </l>
+	<l id='207'>De qui le seul défaut fut d'être malheureux ; </l>
+	<l id='208'>Que tout son sang versé, toute sa flotte offerte, </l>
+	<l id='209'>Peut réparer à peine une si grande perte. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='210'>Et sait-il que mon coeur ne peut trop détester, </l>
+	<l id='211'>Celui qui m'ôte Alcandre, et s'en ose vanter ; </l>
+	<l id='212'>Veut-il du sang encore après celui d'Alcandre, </l>
+	<l id='213'>Et m'offre-t-il le fer qui vient de le répandre ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='214' part='i'>Orosmane... </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='214' part='f'>Ôtez-vous étranger odieux, </l>
+	<l id='215'>Ce qui vient d'Orosmane est horrible à mes yeux. </l>
+	<l id='216'>Ha ne les ouvrons plus que pour verser des larmes, </l>
+	<l id='217'>Renonçons pour jamais aux objets pleins de charmes, </l>
+	<l id='218'>Donnons-nous toute entière à nos tristes ennuis, </l>
+	<l id='219'>Et faisons de nos jours des éternelles nuits. </l>
+	<l id='220'>C'était donc de nos feux la trompeuse espérance, </l>
+	<l id='221'>C'est donc ce que le Ciel gardait à sa constance, </l>
+	<l id='222'>Dans un temps où son bras secondant sa valeur, </l>
+	<l id='223'>Était prêt d'établir notre commun bonheur ; </l>
+	<l id='224'>De lui rendre un Royaume usurpé par mon père, </l>
+	<l id='225'>Et de me conserver la Chypre héréditaire ? </l>
+	<l id='226'>Ne viens donc plus espoir, de tes trompeurs appas, </l>
+	<l id='227'>Adoucir des tourments que tu ne guéris pas, </l>
+	<l id='228'>Puisque je pers Alcandre, et que je le veux suivre, </l>
+	<l id='229'>De quoi peux-tu servir à qui ne veut plus vivre ? </l>
+	<l id='230'>Oui bientôt dans le Ciel où tu vis loin de moi, </l>
+	<l id='231'>Je t'y joindrai bientôt pour n'être plus qu'à toi, </l>
+	<l id='232'>Belle âme qui quittas, et fis tout pour Élise, </l>
+	<l id='233'>Et seule eus le pouvoir d'asservir sa franchise. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Élise, Alcionne. </head>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='234'>Ô ma soeur ! Vous voyez mes yeux mouillés de pleurs, </l>
+	<l id='235'>Ils ne sont point causés par nos communs malheurs. </l>
+	<l id='236'>J'ai pleuré comme vous une perte commune ; </l>
+	<l id='237'>Mais le Ciel ennemi me cause une infortune, </l>
+	<l id='238'>À moi seule funeste, à moi seule à pleurer, </l>
+	<l id='239'>Et que tout son pouvoir ne saurait réparer. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='240'>Le sujet de vos pleurs ne se peut-il apprendre ; </l>
+	<l id='241'>Et le temps, et la part qu'une soeur y peut prendre, </l>
+	<l id='242'>Une soeur qui voudrait tous nos maux partager. </l>
+	<l id='243'>Ne pourront-ils du moins votre esprit soulager. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='244'>Le temps, et la raison quand on perd ce qu'on aime, </l>
+	<l id='245'>Servent de peu de chose en ce malheur extrême, </l>
+	<l id='246'>Et qui peut espérer de s'en voir soulagé, </l>
+	<l id='247'>A mérité le mal dont il est affligé. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='248'>Hé quoi ma chère soeur avez-vous quelque affaire, </l>
+	<l id='249'>Ou quelque déplaisir que vous me deviez taire. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='250'>Ce jeune cavalier, ce vaillant étranger, </l>
+
+<note type="C">v.250, l'original porte "secouant" au lieu de "secouru", nous corrigeons.</note>
+	<l id='251'>Qui secourut mon père en un mortel danger, </l>
+	<l id='252'>Dans ce fameux combat où d'un Prince rebelle, </l>
+	<l id='253'>Rhodes contre Pisandre entreprit la querelle, </l>
+	<l id='254'>Alcandre. Ah ! Ce beau nom est tout ce qui de lui, </l>
+	<l id='255'>Peut-être resterait sur la terre aujourd'hui, </l>
+	<l id='256'>S'il vivait encore en l'amoureuse idée, </l>
+	<l id='257'>Que pour ce cher amant ma mémoire a gardée. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='258' part='i'>Et quoi le brave Alcandre ? ... </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='258' part='f'>Est le Prince charmant, </l>
+	<l id='259'>Que même après sa mort j'aime si tendrement, </l>
+	<l id='260'>Peut-être blâmez-vous ma faible résistance ; </l>
+	<l id='261'>Mais si jamais l'amour vous met sous sa puissance, </l>
+	<l id='262'>Si vous savez jamais ce que c'est que d'aimer, </l>
+	<l id='263'>Vous me plaindrez ma soeur, au lieu de me blâmer. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='264'>Pour être sans amour, on n'est pas sans tendresse, </l>
+	<l id='265'>Et je n'ai jamais cru l'amour une faiblesse, </l>
+	<l id='266'>Mais ce vaillant Alcandre en Chypre parvenu, </l>
+	<l id='267'>Jusqu'où peut s'élever un mérite connu, </l>
+	<l id='268'>Et puisque vous l'aimiez d'une ardeur non commune, </l>
+	<l id='269'>Heureux dans son amour plus que dans sa fortune, </l>
+	<l id='270'>Pourquoi s'éloigna-t-il ? Et s'il vous fut si cher, </l>
+	<l id='271' part='i'>L'avez-vous dû souffrir ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='271' part='f'>J'eusse pu l'empêcher ; </l>
+	<l id='272'>Mais loin de m'opposer au voyage d'Alcandre, </l>
+	<l id='273'>Mon seul commandement le lui fit entreprendre. </l>
+	<l id='274'>Vous saurez les raisons de son éloignement, </l>
+	<l id='275'>Et de nos feux cachés le triste événement. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='276'>Ne me différez pas cette faveur extrême. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='277'>Je ne refuse rien aux personnes que j'aime. </l>
+	<l id='278'>Mon Alcandre était donc un Prince malheureux, </l>
+	<l id='279'>Mais qui n'eut pas d'abord un destin rigoureux, </l>
+	<l id='280'>D'une illustre Princesse il reçut la naissance, </l>
+	<l id='281'>Et monta sur le Trône au sortir de l'enfance, </l>
+	<l id='282'>Sa mère eut de l'amour pour un Prince étranger, </l>
+	<l id='283'>Aimable ; mais ingrat ; infidèle, et léger, </l>
+	<l id='284'>Et dont elle se vit depuis abandonnée, </l>
+	<l id='285'>Bien qu'unie avec lui par un saint hyménée ; </l>
+	<l id='286'>Mais qui peut s'assurer d'un esprit inconstant ? </l>
+	<l id='287'>Ce Prince abandonna celle qui l'aimait tant, </l>
+	<l id='288'>Et lui laissant un fils, cher ; mais funeste gage, </l>
+	<l id='289'>Alla peut-être ailleurs offrir son coeur volage. </l>
+	<l id='290'>Elle espéra longtemps de le voir de retour, </l>
+	<l id='291'>Que n'espère-t-on point, quand on brûle d'amour ? </l>
+	<l id='292'>Mais de son vain espoir enfin désabusée, </l>
+	<l id='293'>Et d'un perfide époux se voyant méprisée, </l>
+	<l id='294'>Elle laissa tout faire à sa juste douleur, </l>
+	<l id='295'>Et prête de finir sa vie, et son malheur, </l>
+	<l id='296'>Assembla ses sujets, et leur fit reconnaître, </l>
+	<l id='297'>Le fils de son ingrat pour leur souverain Maître, </l>
+	<l id='298'>Elle meurt, et mourant cache même à son fils, </l>
+	<l id='299'>De son père inconstant le nom, et le pays, </l>
+	<l id='300'>Elle ne voulut pas qu'après sa foi faussée, </l>
+	<l id='301'>Un infidèle Époux d'une Reine laissée, </l>
+	<l id='302'>Sût qu'il en eût un fils ; que ce fils fût un Roi, </l>
+	<l id='303'>Et qu'il fît gloire ainsi d'avoir manqué de foi. </l>
+	<l id='304'>Son fils donc lui succède, et son adolescence, </l>
+	<l id='305'>Des Rois les plus prudents égale la prudence, </l>
+	<l id='306'>Il est brave, il est juste, et de son peuple aimé ; </l>
+	<l id='307'>Il est de ses voisins craint autant qu'estimé. </l>
+	<l id='308'>Mon malheureux portrait le ravit, et l'enflamme, </l>
+	<l id='309'>Il me fait demander à mon père pour femme, </l>
+	<l id='310'>Mon père le refuse, et même avec dédain, </l>
+	<l id='311'>Lui mande sur le bruit de son père incertain, </l>
+	<l id='312'>Qu'on peut lui reprocher que la Reine sa Mère, </l>
+	<l id='313'>Fut femme sans Époux, et qu'il est fils sans père, </l>
+	<l id='314'>Alcandre refusé, mais Alcandre amoureux, </l>
+	<l id='315'>Loin de se rebuter d'un refus rigoureux, </l>
+	<l id='316'>Vint en Chypre où l'amour me fit bientôt connaître, </l>
+	<l id='317'>Le feu que dans son coeur ma beauté faisait naître, </l>
+	<l id='318'>Vous vouliez tout savoir, et je vous ai tout dit. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='319'>Je ne vous quitte pas d'un plus ample récit, </l>
+	<l id='320'>Je veux savoir comment vous eûtes connaissance, </l>
+	<l id='321'>Du secret important de sa haute naissance, </l>
+	<l id='322'>Mais ne serait-ce point aigrir votre douleur ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='323'>Un malheureux se plaît à conter son malheur, </l>
+	<l id='324'>Il m'aimait donc ma soeur, et ne me l'osait dire ? </l>
+	<l id='325'>Mais sa langueur enfin découvrit son martyre, </l>
+	<l id='326'>Et les tristes soupirs de son coeur enflammé, </l>
+	<l id='327'>Le firent soupçonner d'aimer sans être aimé. </l>
+	<l id='328'>La pitié par l'estime est souvent excitée, </l>
+	<l id='329'>De son mal dangereux la Chypre est attristée ; </l>
+	<l id='330'>En lui l'État perdait un guerrier généreux, </l>
+	<l id='331'>Mon père lui devait plus d'un combat heureux, </l>
+	<l id='332'>Et la Cour autrefois pleine de barbarie, </l>
+	<l id='333'>Devait sa politesse à sa galanterie ; </l>
+	<l id='334'>Pour moi je lui devais des soins, et des respects, </l>
+	<l id='335'>Que sa condition ne rendait point suspects, </l>
+	<l id='336'>La pitié de son mal dans son mal m'intéresse, </l>
+	<l id='337'>Je veux savoir le nom de sa fière Maîtresse ; </l>
+	<l id='338'>Je le presse en secret de me le découvrir, </l>
+	<l id='339'>Si j'avais, me dit-il, quelque espoir de guérir, </l>
+	<l id='340'>Vous ne sauriez jamais que par la mort d'Alcandre </l>
+	<l id='341'>La cause de son mal que vous voulez apprendre. </l>
+	<l id='342'>Le malheureux vous aime ; à ce mot échappé, </l>
+	<l id='343'>Déjà de vos beaux yeux les foudres l'ont frappé, </l>
+	<l id='344'>Il voit d'un fier dédain s'armer votre visage, </l>
+	<l id='345'>Et dans ce fier dédain de sa mort le présage ; </l>
+	<l id='346'>Mais ayant obéi si vous l'en haïssez, </l>
+
+<note type="C">v.347, l'original porte "aux mains" au lieu de "au moins", nous corrigeons.</note>
+	<l id='347'>Daignez connaître au moins ce que vous punissez, </l>
+	<l id='348'>Il est Prince Madame, et les Rois de sa race, </l>
+	<l id='349'>N'ont point mis dans son coeur sa téméraire audace</l>
+	<l id='350'>Un feu respectueux, une immuable foi, </l>
+	<l id='351'>Font vivre son espoir plus que le nom de Roi ; </l>
+	<l id='352'>Mais si cet humble aveu de sa flamme insensée, </l>
+	<l id='353'>Paraît un nouveau crime à votre âme offensée, </l>
+	<l id='354'>Un regard menaçant de vos yeux en courroux, </l>
+	<l id='355'>Le feront à l'instant expirer devant vous</l>
+	<l id='356'>Lorsque j'allais punir ce discours téméraire, </l>
+	<l id='357'>Sa qualité de Roi suspendit ma colère, </l>
+	<l id='358'>Je la sentis s'éteindre au lieu de s'allumer, </l>
+	<l id='359'>Peut-on longtemps haïr ce que l'on doit aimer ; </l>
+	<l id='360'>L'union de deux coeurs dans le Ciel déjà faite, </l>
+	<l id='361'>Leur inspire à s'aimer une pente secrète ; </l>
+	<l id='362'>Elle prévient leur choix, et tel est son pouvoir, </l>
+	<l id='363'>Que l'on s'aime souvent avant que de se voir, </l>
+	<l id='364'>J'écoutai donc ma soeur tout ce qu'il voulu dire, </l>
+	<l id='365'>Il m'apprit que l'amour le mit sous mon Empire, </l>
+	<l id='366'>Sur mon simple portrait, sur le bruit de mon nom, </l>
+	<l id='367'>Que vous dirai-je encore ; il obtint son pardon. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='368'>L'orgueil qu'un sang illustre à nos âmes inspire, </l>
+	<l id='369'>En vain malgré l'amour veut garder son Empire, </l>
+	<l id='370'>Les soupirs d'un amant agréable à nos yeux, </l>
+	<l id='371'>Triomphent tôt ou tard d'un coeur impérieux, </l>
+	<l id='372'>Et selon qu'un amant est capable de plaire, </l>
+	<l id='373'>Il se rend le destin favorable ou contraire. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='374'>Ha ma soeur ! Ce n'est pas ce qui nous rend heureux, </l>
+	<l id='375'>La fortune peut tout dans l'Empire amoureux, </l>
+	<l id='376'>Et souvent son caprice a fait des misérables, </l>
+	<l id='377'>Des plus rares beautés des aimants plus aimables, </l>
+	<l id='378'>Que le calme est à craindre aux plus heureux Amants ! </l>
+	<l id='379'>Que leur sort est sujet à de grands changements ! </l>
+	<l id='380'>Le Soleil a deux fois enrichi les campagnes, </l>
+	<l id='381'>Et deux fois a fondu la neige des montagnes, </l>
+	<l id='382'>Depuis qu'amour fait voir entre ce Prince, et moi, </l>
+	<l id='383'>Les plus rares effets d'une constante foi, </l>
+	<l id='384'>Hélas ! De quoi nous sert d'avoir été fidèles ? </l>
+	<l id='385'>En avons-nous moins eu de traverses cruelles ? </l>
+	<l id='386'>Un Prince que le Ciel avait fait si charmant, </l>
+	<l id='387'>Si constant à m'aimer, que j'aimai constamment, </l>
+	<l id='388'>Par un indigne sort, sous une main barbare, </l>
+	<l id='389'>Tombe, et me laisse aux maux que sa mort me prépare. </l>
+	<l id='390'>Ha ! Sa perte m'apprend que la fidélité, </l>
+	<l id='391'>Est une vertu vaine, et sans utilité, </l>
+	<l id='392'>Mais il temps, ma soeur, d'aller où nous appelle </l>
+	<l id='393'>De nos propres sujets, l'assemblée infidèle ; </l>
+	<l id='394'>Allons voir Nicanor, d'un prétexte pieux </l>
+	<l id='395'>Déguiser les desseins d'un coeur ambitieux ; </l>
+	<l id='396'>Et son fils Amintas qu'un même esprit inspire, </l>
+	<l id='397'>Couvrir de son amour son dessein pour l'Empire. </l>
+	<l id='398'>Mais leur ambition outre l'ordre du Roi, </l>
+	<l id='399'>Aura besoin encore, et de vous et de moi, </l>
+	<l id='400'>Si vous voulez ma soeur être d'intelligence, </l>
+	<l id='401'>Et comme moi contre eux vous armer de constance, </l>
+	<l id='402'>Nous les obligerons ces Tyrans odieux, </l>
+	<l id='403'>De recourir au crime, et d'offenser les Dieux, </l>
+	<l id='404'>Et peut-être le Ciel qu'irrite le Coupable, </l>
+	<l id='405'>D'ennemi qu'il nous est, deviendra favorable. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Nicanor, Élise, Alcionne, Amintas. </head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='406'>Madame, je veux bien ici vous répéter, </l>
+
+<note type="L">Protester : signifie encore, Promettre, assurer fortement quelque chose. Il a protesté hautement qu'il se vangerait de cette injure. Il a protesté qu'il voulait vivre et mourir dans la Foi. Il a juré et protesté qu'il n'avait eu aucune part en cette action. [F]</note>
+	<l id='407'>Ce que dans le Conseil je viens de protester, </l>
+	<l id='408'>Que mon fils Amintas vous aime, et vous adore, </l>
+	<l id='409'>Et qu'il mourra plutôt du feu qui le dévore, </l>
+	<l id='410'>Que de se prévaloir des volontés du Roi, </l>
+	<l id='411'>Pour un bien qu'il n'attend que de sa seule foi. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='412'>Je vous l'ai déjà dit, et je vous le répète, </l>
+	<l id='413'>J'ai du ressentiment de sa flamme discrète, </l>
+	<l id='414'>Et c'est de tout mon coeur que je voudrais aimer, </l>
+	<l id='415'>Celui dont la vertu ne peut trop s'estimer : </l>
+	<l id='416'>Mais j'atteste les Dieux que je ne le puis faire, </l>
+	<l id='417'>Et s'il n'est point aimé, que c'est sans me déplaire. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='418'>Cependant Orosmane à la côte paraît, </l>
+	<l id='419'>Vous savez ce qu'il peut, hasardeux comme il est, </l>
+	<l id='420'>Entre un ennemi que la Chypre appréhende, </l>
+	<l id='421'>Que nous avons besoin d'un Roi qui la défende, </l>
+	<l id='422'>Et vous savez aussi que Pisandre en mourant... </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='423'>Je sais tout, et de plus, qu'il est indifférent, </l>
+	<l id='424'>De la querelle des soeurs, d'Élise, ou d'Alcionne, </l>
+	<l id='425'>Votre fils Amintas reçoive la couronne, </l>
+	<l id='426'>Ma soeur peut comme moi couronner Amintas. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='427' part='i'>Mais il n'aime que vous. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='427' part='f'>Mais je ne l'aime pas. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='428'>Amintas ne veut point de sceptre sans Élise. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='429'>Je veux encore moins d'Amintas qu'on méprise. </l>
+</sp>
+
+<sp who='ÉLISE'><speaker>ÉLISE, se tournant vers Alcionne.</speaker>
+
+	<l id='430'>Ha je l'ai refusé ; mais sans le mépriser. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='431'>Et sans mépris aussi je le puis refuser, </l>
+	<l id='432'>Je le sépare assez des hommes du vulgaire : </l>
+	<l id='433'>Je trouve assez en lui ce qui me pourrait plaire ; </l>
+	<l id='434'>J'estime sa vertu ; j'admire sa valeur : </l>
+	<l id='435'>Mais à votre refus il m'offrirait son coeur, </l>
+	<l id='436'>Et quoique son amour puisse être son excuse, </l>
+	<l id='437'>Je ne puis accepter ce qu'un autre refuse. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='438'>Vous pourrez entre vous terminer ces débats, </l>
+	<l id='439' part='i'>Mais mon fils doit régner. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='439' part='f'>Et ne règne-t-il pas, </l>
+	<l id='440'>Puisque vous dont il tient la vie, et la lumière, </l>
+	<l id='441'>Avez sur cet État une puissance entière ? </l>
+	<l id='442'>Du moins tout sans réserve y dépendrait de vous</l>
+	<l id='443'>Si vous pouviez aussi nous marier sans nous : </l>
+	<l id='444'>À l'ordre du Roi qui du Sceptre dispose, </l>
+	<l id='445'>De grâce examinons s'il manque quelque chose, </l>
+	<l id='446'>L'intention du Roi (vous en serez d'accord) </l>
+	<l id='447'>Est que l'une de nous soit Reine après sa mort, </l>
+	<l id='448'>Et s'il veut qu'Amintas ait part en la Couronne, </l>
+	<l id='449'>C'est comme époux d'Élise, ou celui d'Alcionne : </l>
+	<l id='450'>Mais de l'aimer jamais mon s'est éloigné ; </l>
+	<l id='451'>Il dédaigne ma soeur ; il en est dédaigné, </l>
+	<l id='452'>Perdrons-nous elle et moi pour cette antipathie, </l>
+	<l id='453'>Chypre, que nos aïeux nous ont assujettie ? </l>
+	<l id='454'>Et pourra-t-il régner votre fils Amintas, </l>
+	<l id='455'>Puisque ma soeur ni moi ne l'épouserons pas ? </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='456'>Mon fils peut succéder à Pisandre mon frère. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='457'>Ce frère fut son Roi ; mais ce Roi fut mon père. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='458' part='i'>Puis-je parler Seigneur ? </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='458' part='f'>Oui parle ; mais en Roi. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='459'>À ces divines soeurs qui peuvent tout sur moi, </l>
+	<l id='460'>Comment puis-je parler qu'en esclave fidèle, </l>
+	<l id='461'>Dont le moindre murmure en ferait un rebelle ? </l>
+	<l id='462'>Conserver son respect heureux ou malheureux, </l>
+	<l id='463'>C'est comme doit agir un amant généreux, </l>
+	<l id='464'>J'aime Élise, et mon âme à ses fers asservie, </l>
+	<l id='465'>N'en sortira jamais qu'en sortant de la vie, </l>
+	<l id='466'>Et toute autre beauté par des ceptres offerts, </l>
+	<l id='467'>La tenterait en vain de sortir de ses fers, </l>
+	<l id='468'>Pourrais-je donc, Seigneur, épousant Alcionne, </l>
+	<l id='469'>À sa soeur que j'adore ôter une couronne ? </l>
+	<l id='470'>Quand vous l'ordonneriez, vous devrais-je obéir ; </l>
+
+<note type="L">Tout d'un temps : aussitôt, sans tarder. [L]</note>
+	<l id='471'>Tout d'un temps, puis-je aimer Élise, et la trahir ? </l>
+	<l id='472'>Ha ! Que l'ambition ne nous fasse rien faire, </l>
+	<l id='473'>Dont nous puissions rougir, qui lui puisse déplaire </l>
+	<l id='474'>N'exigez rien d'un fils, qu'il doive refuser, </l>
+	<l id='475'>Et dont un père un jour le puisse mépriser. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='476'>Et de ton père aussi ne trompe pas l'attente, </l>
+	<l id='477'>Mais quel homme inconnu ordre se présente ? </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Sébaste, Élise, Nicanor, Alcionne, Amintas. </head>
+<sp who='SÉBASTE'><speaker>SÉBASTE,  parlant à Amintas.</speaker>
+
+	<l id='478'>Je vous cherchais Seigneur ; en ces mots vous verrez, </l>
+	<l id='479'>Ce que veut Orosmane, et vous lui répondrez. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='480'>Et que peuvent avoir mon fils, et ce corsaire, </l>
+	<l id='481' part='i'>À démêler ensemble ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='481' part='f'>Une importante affaire. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='482'>Amintas me regarde, et rougit, et pâlit. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='483'>Quelque chose le trouble en ce billet qu'il lit. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='484'>Ce billet est pour vous plus que pour moi, Madame, </l>
+	<l id='485'>Que de troubles divers s'élèvent dans mon âme ! </l>
+</sp>
+
+<sp who='ÉLISE'><speaker>ÉLISE, après avoir lu.</speaker>
+
+	<l id='486'>Vous me gardiez encore un si cruel malheur. </l>
+	<l id='487'>Grands Dieux ! Et vous souffrez qu'un pirate, un voleur, </l>
+	<l id='488'>Noirci déjà d'un crime à mon repos funeste, </l>
+	<l id='489'>Attaque mon honneur le seul bien qui me reste ; </l>
+	<l id='490'>Amintas, vous pourriez douter de ma vertu, </l>
+	<l id='491'>Si je ne publiais ce que vous avez tu. </l>
+<stage>Lettre. </stage>
+	<l id='492'>En vain Prince Amintas tu brûles pour Élise, </l>
+	<l id='493'>Et tu veux devenir son époux, et son Roi : </l>
+	<l id='494'>Elle a depuis longtemps disposé de sa foi ; </l>
+	<l id='495'>Depuis longtemps elle est éprise, </l>
+	<l id='496'>D'un Prince digne d'elle, et plus heureux que toi. </l>
+<stage>Fin de la lettre.</stage>
+
+	<l id='497'>Un Prince qui n'est plus, il est vrai, m'a servie, </l>
+	<l id='498'>Il m'aimait, je l'aimais, et s'il étai en vie, </l>
+	<l id='499'>Je l'aimerais encore ; il serait mon Époux, </l>
+	<l id='500'>Et je n'aurais jamais que des dédains pour vous. </l>
+	<l id='501'>La douleur de sa mort m'avait déterminée, </l>
+	<l id='502'>À ne vivre jamais sous les lois d'Hyménée ; </l>
+	<l id='503'>Je change de dessein ; mais je me mets à prix, </l>
+	<l id='504'>D'Orosmane sans vie, ou d'Orosmane pris, </l>
+	<l id='505'>La tête criminelle à ma fureur promise, </l>
+	<l id='506'>Vous laisse encor l'espoir d'un Royaume, et d'Élise, </l>
+	<l id='507'>Un tel présent vous fait son époux, et son Roi, </l>
+	<l id='508'>Songez-y Prince, ou bien ne songez plus à moi. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='509'>Ne songer plus en vous ? Ha que plutôt ma vie,</l>
+	<l id='510'>Dans les fers du Pirate à jamais asservie, </l>
+	<l id='511'>Assure son salut, achève mon malheur, </l>
+	<l id='512'>Et que désespéré je meure de douleur, </l>
+	<l id='513'>Si le Ciel qui vous fit si charmante, et si belle ; </l>
+	<l id='514'>Mais aussi qui vous fit si fière, et si cruelle, </l>
+	<l id='515'>Accordait à mes voeux l'honneur de vous venger, </l>
+	<l id='516'>Quand bien votre fierté constante à m'outrager, </l>
+	<l id='517'>Par d'injustes rigueurs troubleraient ma victoire, </l>
+	<l id='518'>Tout ce qui vient de vous fait ma joie, et ma gloire. </l>
+	<l id='519'>Je chéris tout en vous jusqu'à votre fierté ; </l>
+	<l id='520'>Je ne me plaindrais point d'être si mal traité ; </l>
+	<l id='521'>Et quand vous fausseriez la parole promise, </l>
+	<l id='522'>Je me plaindrais du Ciel sans me plaindre d'Élise. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='523'>Non, non Prince, espérez, puisque je le permets, </l>
+	<l id='524'>Vengez-moi, je tiendrai tout que je promets, </l>
+	<l id='525'>Ce n'est pas je l'avoue, une basse entreprise, </l>
+	<l id='526'>Que de vaincre Orosmane, et faire aimer Élise, </l>
+	<l id='527'>Vous allez attaquer un prodige en valeur, </l>
+	<l id='528'>Heureux dan les combats, et trop pour mon malheur </l>
+<note type="C">Le vers suivant n'a pas de rime correspondante. </note>
+	<l id='529'>Mais quoi, que la victoire en soit presque impossible, </l>
+	<l id='530'>Servez-vous donc du temps tandis qu'il est pour vous. </l>
+	<l id='531'>Et que n'avez-vous point encore de jaloux ; </l>
+	<l id='532'>Car quand seul vous seriez capable de me plaire, </l>
+	<l id='533'>Je ne me donnerai qu'au vainqueur du Corsaire ; </l>
+	<l id='534'>Je vous l'ai déjà dit, sa prise ou son trépas, </l>
+	<l id='535'>Laissent tout espérer au vaillant Amintas, </l>
+	<l id='536'>Allez donc, allez vaincre, et cependant mes larmes, </l>
+	<l id='537'>Vont demander aux dieux le bonheur de vos armes. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='538'>Avec votre secours qui me peut résister ? </l>
+	<l id='539'>À quel hardi dessein ne me puis-je porter ? </l>
+	<l id='540'>Vous verrez abattu l'orgueil qui vous outrage, </l>
+	<l id='541'>Et vous me plaindrai mort ou louerai mon courage. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='542'>Avant qu'avoir vaincu vous triomphez, Seigneur, </l>
+	<l id='543'>Je pardonne la fougue à votre jeune ardeur : </l>
+	<l id='544'>Mais si l'excès bouillant d'une amour non commune, </l>
+	<l id='545'>Et le prix qu'un combat offre à votre fortune, </l>
+
+<note type="C">v. 546, l'original porte "à tel point", nous remplaçons par "à un tel point".</note>
+	<l id='546'>Enflamme à un tel point votre coeur amoureux, </l>
+	<l id='547'>Qu'il ne peut différer ce combat dangereux, </l>
+	<l id='548'>Celui qu'on traite ici de voleur, de corsaire, </l>
+	<l id='549'>Et qui se rend pourtant plus d'un Roi tributaire, </l>
+	<l id='550'>Ne sera pas longtemps d'Amintas attendu, </l>
+	<l id='551'>Seul dans une chaloupe en vos bords descendu, </l>
+	<l id='552'>Il viendra contenter le désir qui vous presse, </l>
+	<l id='553'>Et vous pourrez ainsi contenter la Princesse, </l>
+	<l id='554'>Donnez votre parole, et fiez-vous en moi, </l>
+	<l id='555'>Que vous pourrez bientôt vous battre avec mon Roi. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='556'>Quoi ! La Chypre verrait une telle aventure ? </l>
+	<l id='557'>J'offenserais ainsi l'honneur, et la nature, </l>
+	<l id='558'>J'exposerais un fils si vaillant et si cher, </l>
+	<l id='559'>Au hasard d'un combat qu'on lui peut reprocher, </l>
+	<l id='560'>D'un combat, dont la fin serait toujours honteuse, </l>
+	<l id='561'>Quand même sa valeur pourrait la rendre heureuse ; </l>
+	<l id='562'>Dans mille occasions que le temps peut donner, </l>
+	<l id='563'>Pour obtenir Élise, et pour te couronner, </l>
+	<l id='564'>Tu trouveras assez de quoi te satisfaire, </l>
+	<l id='565'>Sans aller te commettre avecque ce corsaire. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='566'>Dira-t-on que vous seul ne m'ayez pas permis, </l>
+	<l id='567'>De vaincre le plus grand de tous vos ennemis, </l>
+	<l id='568'>De mériter la Chypre, à ma valeur promise, </l>
+	<l id='569'>Et bien plus que la Chypre, une divine Élise, </l>
+	<l id='570'>Sans qui je ne puis vivre, et sans qui mon trépas, </l>
+	<l id='571'>Que vous redoutez tant, dépendra de mon bras ? </l>
+	<l id='572'>Car enfin, la perdant, je n'écouterai guère, </l>
+	<l id='573'>Ni les sages conseils, ni les ordres d'un Père ; </l>
+	<l id='574'>Et quand vous m'opposer ces ordres rigoureux, </l>
+	<l id='575'>Vous vous rendez, Seigneur, pour moi plus dangereux, </l>
+	<l id='576'>Que ne fera jamais la valeur du Pirate, </l>
+</sp>
+
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+
+<stage>Il sort.</stage>
+	<l id='577'>Va donc, suis ton destin, je ne te retiens plus. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='578'>Vous perdez bien du temps en discours superflus. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='579'>Allons donc au combat sans tarder davantage. </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='580'>Allons Prince, un vaisseau m'attend près du rivage </l>
+	<l id='581'>Orosmane à la rade en peu de temps saura, </l>
+	<l id='582'>Ce que vous lui voulez et vous satisfera. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='583'>Amintas ! Ô mon coeur, que me faites-vous faire. </l>
+	<l id='584'>Vous vous exposez donc à la foi d'un Corsaire ! </l>
+	<l id='585'>Un Prince comme vous se devrait ménager. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='586'>Élise est offensée, et je la veux venger, </l>
+	<l id='587'>Qui n'en est pas aimé, n'est pas digne de vivre, </l>
+	<l id='588'>Il faut qu'un prompt trépas de mes soins la délivre, </l>
+	<l id='589'>Ou qu'un combat heureux change son coeur ingrat. </l>
+	<l id='590'>Et ce bonheur vaut bien qu'on hasarde un combat. </l>
+<stage>Il sort. </stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Alcionne, Clarice. </head>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='591'>Hélas ! Ce n'est pas là ce que je voulais dire, </l>
+	<l id='592'>À l'innocent auteur de mon cruel martyre, </l>
+	<l id='593'>Je lui voulais ouvrir les secrets de mon coeur, </l>
+	<l id='594'>Lui dire qu'il y règne en aimable vainqueur ; </l>
+	<l id='595'>Lui révéler les maux qu'il ignore, et qu'il cause, </l>
+
+<note type="C">v. 596, remplacement de "tous" par "tout" plus conforme.</note>
+	<l id='596'>Clarice l'as-tu vu ! J'ai fait tout autre chose, </l>
+	<l id='597'>Ainsi le criminel de son remords pressé, </l>
+	<l id='598'>Se coupe, et ne dit rien de ce qu'il a pensé </l>
+	<l id='599'>Ainsi ce cher vainqueur de mon âme soumise, </l>
+	<l id='600'>Dont ma faible raison les armes favorise, </l>
+	<l id='601'>Ne sait point sa conquête, et ne la saura point, </l>
+	<l id='602'>Tant un destin cruel à mon amour est joint : </l>
+	<l id='603'>Et quand bien il saurait qu'il cause ma souffrance </l>
+	<l id='604'>M'en devrais-je flatter de la moindre espérance ? </l>
+	<l id='605'>Ce Prince aime ma soeur, il ne peut donc m'aimer </l>
+	<l id='606'>Et quand il changerait, le pourrais-je estimer ? </l>
+	<l id='607'>Pensant gagner mon coeur, il perdrait mon estime, </l>
+	<l id='608'>Et son amour pour moi me paraîtrait un crime, </l>
+	<l id='609'>Cependant il se jette en un mortel danger ; </l>
+	<l id='610'>Ai-je à m'en réjouir ? Ai-je à m'en affliger ? </l>
+	<l id='611'>Si ce Prince est vaincu, ce Prince perd sa gloire, </l>
+	<l id='612'>Et je dois faire ainsi des voeux pour sa victoire : </l>
+	<l id='613'>Mais sa victoire aussi lui donnera ma soeur, </l>
+	<l id='614'>Et je dois craindre ainsi de le voir vainqueur, </l>
+	<l id='615'>L'un et l'autre succès favorable ou contraire, </l>
+	<l id='616'>S'oppose également à tout ce que j'espère ; </l>
+	<l id='617'>Où plutôt je crains tout, et je n'espère rien, </l>
+	<l id='618'>Est-il un désespoir plus juste que le mien ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='619'>Mais Amintas lassé d'aimer qui le méprise, </l>
+	<l id='620'>Peut un jour vous offrir ce que refuse Élise. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='621'>Après les sentiments d'une noble fierté, </l>
+	<l id='622'>Où mon coeur contre lui s'est tantôt emporté, </l>
+	<l id='623'>Après avoir promis à ma soeur qui m'est chère, </l>
+	<l id='624'>De résister comme elle aux volontés d'un père, </l>
+	<l id='625'>Lâche puis-je trahir la fierté de mon coeur, </l>
+	<l id='626'>Et plus lâche manquer de parole à ma soeur ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='627'>Il saurait mon amour si j'étais Alcionne. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='628'>Que pourrait-il penser d'une âme qui se donne ? </l>
+	<l id='629'>Ha ! Si de là dépend tout l'heure de mon Destin, </l>
+	<l id='630'>Résolvons-nous plutôt d'en avancer la fin, </l>
+	<l id='631'>Craignons l'état honteux d'une amante qui prie, </l>
+	<l id='632'>Mais à quoi songes-tu, mon aveugle furie ? </l>
+	<l id='633'>Hé n'ai-je pas voulu dans ce même moment, </l>
+	<l id='634'>Lui découvrir ma flamme, et mon cruel tourment, </l>
+	<l id='635'>Et découvrir sa flamme à celui quoi la cause ? </l>
+	<l id='636'>Si ce n'est le prier, il s'en faut peu de chose. </l>
+	<l id='637'>Ô Dieux ! Quand je reproche à mon esprit confus, </l>
+	<l id='638'>Que je viens de courir le danger d'un refus ; </l>
+	<l id='639'>Qu'il n'est rien de plus bas qu'une inutile plainte, </l>
+	<l id='640'>Qu'aisément je m'engage aux lois de la contrainte, </l>
+	<l id='641'>À ne croire jamais mes désirs trop ardents ; </l>
+	<l id='642'>À défendre à mon coeur ses soupirs imprudents. </l>
+	<l id='643'>Mais en vain on le cache ; un air triste au visage, </l>
+	<l id='644'>Une langueur aux yeux, sont un muet langage, </l>
+	<l id='645'>Qui trahit le secret d'un soupir retenu, </l>
+	<l id='646'>Et le feu de l'amour tôt ou tard est connu. </l>
+	<l id='647'>Non, non, triste Princesse, il faut cesser de vivre, </l>
+	<l id='648'>C'est le meilleur conseil que tu peux jamais suivre. </l>
+	<l id='649'>Choisis, choisis la mort plutôt que de rougir ; </l>
+	<l id='650'>Laisse à ton désespoir la liberté d'agir, </l>
+	<l id='651'>Et soit que ton amant vainque, ou perde la vie, </l>
+	<l id='652'>Meurs de ton déplaisir, ou de ta jalousie. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='3'><head>ACTE III</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Nicanor, Criton.</head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='653'>Le corsaire Orosmane a donc pris terre ainsi ? </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='654'>Et renvoyé sa barque et ses soldats aussi. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='655' part='i'>Et mon fils ? </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='655' part='f'>Et le Prince a de la même sorte, </l>
+	<l id='656'>Renvoyé les Soldats qui lui servaient d'escorte. </l>
+	<l id='657'>Ils se sont allés battre au pied d'un grand rocher, </l>
+	<l id='658'>Où sans se faire voir on ne peut approcher : </l>
+	<l id='659'>Mais Seigneur, consentir à ce combat funeste... </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='660'>J'ai fait ce que j'ai dû, les Dieux feront le reste. </l>
+	<l id='661'>La victoire en dépend, et non pas notre coeur, </l>
+	<l id='662'>Qui doit être invincible en cédant au vainqueur, </l>
+	<l id='663'>Mais la flotte corsaire à notre rade ancrée, </l>
+	<l id='664'>S'est à l'aube du jour en deux parts séparée. </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='665'>Dont l'une, vent en poupe a pris la haute mer, </l>
+	<l id='666'>Pendant qu'on a vu l'autre en bonne ordre ramer, </l>
+	<l id='667'>Vers l'Occident de l'Île où l'abord est facile, </l>
+	<l id='668'>Et qui n'est défendue ni de Fort ni de Ville. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='669'>Ils ont quelque dessein qui nous est inconnu, </l>
+	<l id='670' part='i'>Mais que veut Licas ? </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Licas, Nicanor.</head>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='670' part='f'>Le Prince est revenu </l>
+	<l id='671' part='i'>Seigneur ! </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='671' part='f'>De son combat il revient plein de gloire </l>
+	<l id='672' part='i'>Qu'en est-il ? </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='672' part='f'>Il n'a point parlé de sa victoire. </l>
+	<l id='673' part='i'>Le Prince est modéré. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='673' part='f'>Le Prince est donc vaincu, </l>
+	<l id='674'>Et s'il l'est avec honte, il n'a que trop vécu. </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='675'>Le corsaire, Seigneur, a surpris Amatonte. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='676'>Ô Dieux ! Ajoutez-vous cette perte à ma honte ? </l>
+	<l id='677'>Et si votre secours me veut abandonner, </l>
+	<l id='678'>Quel remède assez prompt y pourrai-je donner ? </l>
+	<l id='679'>Mais sait-on le détail d'une telle aventure. </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='680'>Ce que j'ai pu tirer d'un Peuple qui murmure, </l>
+	<l id='681'>Et vous savez, Seigneur, ce qu'on en peut tirer, </l>
+	<l id='682'>C'est ce qu'en peu de mots je vais vous déclarer. </l>
+	<l id='683'>Les troupes d'Orosmane en terre descendues, </l>
+	<l id='684'>Se sont en divers corps dans l'Île répandues, </l>
+	<l id='685'>L'on a pris Amatonte, et le plus fort de tous, </l>
+	<l id='686'>Que les autres suivront, marche, et vient droit à nous. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='687' part='i'>C'est assez. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Nicanor, Élise, Licas.</head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='687' part='f'>Savez-vous qu'Amatonte est surprise, </l>
+	<l id='688'>Madame, et qu'on s'en prend à la Princesse Élise ; </l>
+	<l id='689'>Qu'on dit qu'elle s'entend avec nos Ennemis, </l>
+	<l id='690'>Puisqu'elle a refusé de couronner mon fils ; </l>
+	<l id='691'>Que par ce fier refus une guerre imprévue, </l>
+	<l id='692'>Trouve Chypre alarmée, et de Roi dépourvue, </l>
+	<l id='693'>Et qu'à nous qui pourrions les esprits rassurer, </l>
+	<l id='694'>Elle ne permet pas seulement d'espérer ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='695'>Je permets d'espérer au vainqueur du corsaire. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='696'>Mais Amintas vaincu, perd l'espoir de vous plaire, </l>
+	<l id='697'>Ce Prince qui vous aime, et que vous méprisez, </l>
+	<l id='698'>Pour conserver un bien que vous lui refusez, </l>
+	<l id='699'>Pour défendre la Chypre à d'autres destinée, </l>
+	<l id='700'>Ira-t-il exposer sa vie infortunée ? </l>
+	<l id='701'>Ha ! Puisqu'à son amour l'espoir est défendu, </l>
+	<l id='702'>Que Chypre soit perdue autant qu'il est perdu. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='703'>Ce n'est pas la saison de faire des reproches, </l>
+	<l id='704'>Quand de nos ennemis nous craignons les approches, </l>
+	<l id='705'>N'y de laisser ainsi tout un Peuple effrayé, </l>
+	<l id='706'>Qui n'espère qu'en vous, qui vous a tout fié. </l>
+	<l id='707'>Que fait donc en vos mains la régence remise, </l>
+	<l id='708'>Et vous en servez-vous seulement contre Élise ; </l>
+	<l id='709'>J'aurais donc bien choisi pour Époux et pour Roi, </l>
+	<l id='710'>Un Prince qui craindrait de s'exposer pour moi. </l>
+	<l id='711'>Ce n'est qu'en défendant, en forçant des murailles, </l>
+	<l id='712'>Marchant vers l'ennemi ; lui donnant des batailles, </l>
+	<l id='713'>Quand on n'est pas né Roi qu'on se peut couronner. </l>
+	<l id='714'>À de moindres exploits je ne me puis donner. </l>
+	<l id='715'>Quand ce que j'ai juré pourrait un jour s'enfreindre, </l>
+	<l id='716'>Et dans mon coeur changé la vengeance s'éteindre. </l>
+	<l id='717'>Mais le Prince Amintas, ne s'est-il pas battu ? </l>
+	<l id='718'>Tient-on secret s'il est, ou vainqueur ou vaincu ? </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='719' part='i'>Il vous cherche, Madame. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='719' part='f'>Ha ! Qu'il vienne m'apprendre </l>
+	<l id='720'>Le succès du combat que je brûle d'entendre. </l>
+	<l id='721'>Je vous demandais, Prince ! Est-il mort, est-il pris </l>
+	<l id='722'>Le barbare corsaire, et suis-je votre prix ? </l>
+	<l id='723'>Ou vaincu, venez-vous en affliger Élise, </l>
+	<l id='724'>Assez triste déjà, d'Amatonte surprise ? </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Amintas, Élise, Nicanor.</head>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='725'>Je suis vaincu, Princesse, et je cède à mon sort. </l>
+	<l id='726'>Mon bras blessé n'a fait qu'un inutile effort, </l>
+	<l id='727'>Et les longues rigueurs de votre fier courage, </l>
+	<l id='728'>Ont enfin accompli leur malheureux présage. </l>
+	<l id='729'>Je vous perds belle Élise, et je ne cherche plus, </l>
+	<l id='730'>D'où venaient vos mépris, vos froideurs, vos refus : </l>
+	<l id='731'>Qui pour vous acquérir a manqué de vaillance, </l>
+	<l id='732'>A bien plus mérité que votre indifférence. </l>
+	<l id='733'>Dois-je vous l'avouer ? Un illustre vainqueur, </l>
+	<l id='734'>Tout ennemi qu'il est, aurait gagné mon coeur. </l>
+	<l id='735'>Mon âme aurait été de la sienne charmée, </l>
+	<l id='736'>Dans le temps que sa main la mienne a désarmée, </l>
+	<l id='737'>Si je pouvais aimer ce que vous n'aimez pas, </l>
+	<l id='738'>Lorsque j'ai succombé sous l'effort de son bras, </l>
+	<l id='739'>Va Prince, m'a-t-il dit, vis pour aimer Élise ; </l>
+	<l id='740'>Un Dieu ne ferait pas de plus belle entreprise ; </l>
+	<l id='741'>Qui par de tels desseins fait envier son sort, </l>
+	<l id='742'>En mérite un meilleur que mes fers, ou la mort. </l>
+	<l id='743'>De si beaux sentiments si conformes aux nôtres, </l>
+	<l id='744'>N'adouciront-ils point la cruauté des vôtres ? </l>
+	<l id='745'>Quoique par lui vaincu, que par lui malheureux, </l>
+	<l id='746'>Je dois cette justice à son coeur généreux, </l>
+	<l id='747'>Que sa vaillante main ne m'a laissé la vie, </l>
+	<l id='748'>Qu'à cause que l'amour vous l'avait asservie. </l>
+	<l id='749'>Vous souhaitez sa mort ; mais j'atteste les Cieux, </l>
+	<l id='750'>Qu'il ne parle de vous que comme on fait des Dieux ; </l>
+	<l id='751'>Qu'il n'est point de mortel plus digne de vous plaire, </l>
+	<l id='752'>Et que l'on connaît mal cet illustre corsaire. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='753'>Ajoute, Amintas, que cet heureux vainqueur, </l>
+	<l id='754'>Vous ôte à même temps a victoire et le coeur. </l>
+	<l id='755'>D'autres guerriers que vous dans l'Asie ou la Grèce, </l>
+	<l id='756'>Prendront les intérêts d'une jeune Princesse, </l>
+	<l id='757'>Combattront Orosmane, et s'ils en sont vaincus, </l>
+	<l id='758'>Ne lui parleront point de ses rares vertus. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='759'>Vous me blâmez, Madame, à cause que j'estime, </l>
+	<l id='760'>En mon ennemi même, un vainqueur magnanime </l>
+	<l id='761'>Jugez plutôt par là, combien c'est vous aimer, </l>
+	<l id='762'>Que de haïr pour vous ce qu'on doit estimer : </l>
+	<l id='763'>Obligé de la vie à ce vaillant corsaire, </l>
+	<l id='764'>Je préfère à l'honneur la gloire de vous plaire ; </l>
+	<l id='765'>Car ingrate beauté, quand mon noble vainqueur, </l>
+	<l id='766'>Me devrait reprocher que je suis sans honneur, </l>
+	<l id='767'>Dans son Camp, dans sa tente, au péril de ma vie, </l>
+	<l id='768'>J'irai par son trépas assouvir votre envie ; </l>
+	<l id='769'>Privé même d'espoir de vous plus posséder, </l>
+	<l id='770'>Je veux pour vous encore aller tout hasarder. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='771'>Un si beau désespoir, Prince, plus qu'autre chose, </l>
+	<l id='772'>Pourrait faire cesser le malheur qui le cause. </l>
+	<l id='773'>Vaincre au milieu des siens mon ennemi cruel, </l>
+	<l id='774'>C'est bien un autre exploit que le vaincre en duel. </l>
+	<l id='775'>Pour les biens de l'amour comme de la fortune, </l>
+	<l id='776'>Ce qu'on manque une fois se doit tenter plus d'une : </l>
+	<l id='777'>On s'expose pour vaincre, on vainc en combattant, </l>
+	<l id='778'>Et la guerre et l'amour, veulent qu'on soit constant. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='779'>Mais la guerre et l'amour couronnent la constance. </l>
+	<l id='780'>Et des plus malheureux font vivre l'espérance. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='781'>Mais un coeur généreux, de malheurs combattu, </l>
+	<l id='782'>Pour perdre son espoir ne perd point sa vertu. </l>
+	<l id='783'>Songez, songez plutôt à l'Armée ennemie, </l>
+	<l id='784'>Qui menace Paphos par la Paix endormie ; </l>
+	<l id='785'>Songez à nos remparts en danger d'être pris, </l>
+	<l id='786'>Et songez qu'il faut vaincre avant qu'avoir un prix </l>
+	<l id='787'>Tandis que notre encens brûlera dans nos Temples, </l>
+	<l id='788'>Allez aux Chypriens donner de beaux exemples ; </l>
+	<l id='789'>Ils vous rendent les bras, courez les secourir, </l>
+	<l id='790'>Et pour vous-même enfin, allez vaincre ou mourir. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Nicanor, Amintas.</head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='791'>Défions-nous, mon fils, de cette âme cachée : </l>
+	<l id='792'>Quand du commun danger elle paraît touchée, </l>
+	<l id='793'>Et nous porte au combat pour le salut de tous, </l>
+	<l id='794'>Elle veut seulement se défaire de nous. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='795'>Quelque dessein qu'elle ait, cette belle Princesse, </l>
+	<l id='796'>Sa volonté toujours de la mienne Maîtresse, </l>
+	<l id='797'>Et de mes actions seule, et fatale Loi, </l>
+	<l id='798'>Dispose absolument de moi-même sans moi. </l>
+	<l id='799'>Heureux qu'en ce rencontre elle ne me propose, </l>
+	<l id='800'>Qu'une bonne action, à quoi rien ne s'oppose, </l>
+	<l id='801'>Et qu'elle ne se sert de son divin pouvoir, </l>
+	<l id='802'>Qu'à porter mon courage à faire son devoir. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='803'>Qu'aveuglement tu suis une amour insensée ! </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='804'>Vous m'en avez Seigneur, inspiré la pensée. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='805'>On change de dessein selon l'utilité. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='806'>On ne suit pas ainsi l'exacte probité. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='807'>Ha ! Ne te pique point de ces vertus frivoles. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='808'>C'est perdre temps, Seigneur, en de vaines paroles, </l>
+	<l id='809'>Tandis que de Paphos tout le peuple étonné, </l>
+	<l id='810'>Se croit avec raison de nous abandonné. </l>
+	<l id='811'>Donnons pour son salut les ordres nécessaires ; </l>
+	<l id='812'>Envoyant des partis observer les Corsaires. </l>
+	<l id='813'>Tandis que vous veillez à défendre nos Murs, </l>
+	<l id='814'>Employez ma valeur aux travaux les plus durs. </l>
+	<l id='815'>Rendez-moi digne enfin de ces hautes pensées, </l>
+	<l id='816'>Que vos conseils hardis dans mon âme ont laissées. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='817'>Allez donc faire encore des ingrats dans Paphos. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Amintas, Criton.</head>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='818'>Prends mes armes, Criton, et deux de mes chevaux, </l>
+	<l id='819'>Sur le bord de la mer je te joins dans une heure ; </l>
+	<l id='820'>Mais ne te lasse point de ma longue demeure. </l>
+	<l id='821'>Les Princes éclairés, et suivis en tous lieux, </l>
+	<l id='822'>Ont dans leurs actions à tromper bien des yeux, </l>
+	<l id='823'>Et ce monde empressé qui ne les quitte guère, </l>
+	<l id='824'>Les rend plus malheureux que ne croit le vulgaire, </l>
+	<l id='825'>Je veux aller combattre Orosmane en son Camp ; </l>
+	<l id='826'>Nous sommes peu, Criton, pour un dessein si grand. </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='827'>Un semblable dessein n'en veut pas davantage. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='828'>Je voulais éprouver ton sens, et ton courage. </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='829' part='i'>Mon zèle ? ... </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='829' part='f'>Il m'est connu va vite, et sois adroit. </l>
+</sp>
+<sp who='CRITON'><speaker>CRITON.</speaker>
+	<l id='830' part='i'>Seigneur... </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='830' part='f'>Je la vois bien, va, dis-je, et soit secret. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Alcionne, Amintas.</head>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='831'>Ha Prince ! Il est donc vrai que ma soeur vous engage, </l>
+	<l id='832'>À verser votre sang pour venger un outrage, </l>
+	<l id='833'>Et vous expose encore à ce honteux duel ; </l>
+	<l id='834'>À l'incertaine foi d'un corsaire cruel ; </l>
+	<l id='835'>Des charmes de ses yeux, ceux de son diadème, </l>
+	<l id='836'>Vous jettent donc encore en ce péril extrême ; </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='837'>Que pensez-vous de moi, Madame ? Ah ! Jugez mieux</l>
+	<l id='838'>D'un Prince descendu de vos nobles Aïeux. </l>
+	<l id='839'>Un coeur que la beauté de votre soeur inspire, </l>
+	<l id='840'>Fait aller ses désirs plus loin que son Empire, </l>
+	<l id='841'>Et ne fait point servir sa noble ambition, </l>
+	<l id='842'>À l'avare intérêt d'une autre passion. </l>
+	<l id='843'>Quand je devins d'Élise esclave volontaire, </l>
+	<l id='844'>Son Trône à m'asservir lui fut peu nécessaire, </l>
+	<l id='845'>Il prit dans ses beaux yeux l'éclat qu'il eut pour moi, </l>
+	<l id='846'>Et son mérite seul me rangea sous sa loi. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='847'>Devez-vous hasarder des jours comme les vôtres, </l>
+	<l id='848'>Quand de votre salut dépend celui des autres, </l>
+	<l id='849'>Et quand par votre mort l'État aura perdu, </l>
+	<l id='850'>L'unique Protecteur qui l'aurait défendu. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='851'>Je me connais, Madame, et lorsque je m'expose, </l>
+	<l id='852'>Je crois n'exposer rien, ou du moins peu de chose. </l>
+	<l id='853'>Élise m'apprend trop par d'éternels mépris, </l>
+	<l id='854'>Que mes jours malheureux ne sont pas de grands prix. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='855'>Un injuste mépris n'ôte rien du mérite, </l>
+	<l id='856'>Or la fière beauté que votre amour irrite, </l>
+	<l id='857'>Pour avoir eu pour vous d'injustes cruautés, </l>
+	<l id='858'>Sans avoir ignoré ce que vous méritez. </l>
+	<l id='859'>Mais amant malheureux, vous savez d'elle-même, </l>
+	<l id='860'>D'où son coeur a pour vous cette froideur extrême, </l>
+	<l id='861'>Et que ce coeur fidèle aux cendres d'un amant, </l>
+
+<note type="L">Monument : signifie encore le tombeau, et particulièrement en poésie. Le corps du Sauveur fut mis dans un monument tout neuf. Tous les anciens conquerants sont dans le monument. [F]</note>
+	<l id='862'>Vous suscite un rival au fond d'un monument. </l>
+	<l id='863'>Tel que Chypre aujourd'hui vous admire, et vous prise ; </l>
+	<l id='864'>Car tout n'est pas dans Chypre injuste autant qu'Élise, </l>
+	<l id='865'>Vous méritez un coeur qui vous sut estimer, </l>
+	<l id='866'>Un coeur qui pour vous seul eût commencé d'aimer. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='867'>Élise rigoureuse, Élise pitoyable, </l>
+	<l id='868'>Elle est toujours Élise, elle est toujours aimable, </l>
+	<l id='869'>Et toujours Amintas méprisé, malheureux, </l>
+	<l id='870'>Sera toujours fidèle et toujours amoureux. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='871'>Un plus sage que vous en aimerait une autre, </l>
+	<l id='872'>Qui ferait son bonheur d'un coeur du prix du vôtre, </l>
+	<l id='873'>Un autre aussi bien qu'elle a droit de vous donner ; </l>
+	<l id='874'>Le titre qui vous manque à vous voir couronner. </l>
+	<l id='875'>Car enfin vous seriez. Ô Dieux ! Que vais-je dire ? </l>
+	<l id='876'>Vous seriez plus heureux, si vous saviez dire. </l>
+	<l id='877' part='i'>Adieu Prince. </l>
+<stage>Elle sort.</stage>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='877' part='f'>Ha ! J'entends, je serais plus heureux, </l>
+	<l id='878'>Si je pouvais forcer un destin malheureux, </l>
+	<l id='879'>Qui me force d'aimer celle qui me méprise, </l>
+	<l id='880'>Et me fait mépriser celle qui m'est acquise. </l>
+	<l id='881'>Mais, ô vous ! Qui m'offrez un sceptre, et votre Foi, </l>
+	<l id='882'>Pourriez-vous bien changer, si vous n'aimiez que moi ? </l>
+	<l id='883'>Jugez, jugez, ô vous dont je crains la colère, </l>
+	<l id='884'>Par ce que vous feriez, de ce que je puis faire. </l>
+	<l id='885'>Je voudrais vous aimer, et ne le devant pas, </l>
+	<l id='886'>J'en souffre des tourments pires que le trépas. </l>
+	<l id='887'>Pouvoir tant pour un autre, et si peu pour moi-même, </l>
+	<l id='888'>C'est bien encore un coup de mon malheur extrême, </l>
+	<l id='889'>Et c'est bien sans raison que j'ose demander, </l>
+	<l id='890'>Ce que je ne veux pas ni ne dois accorder. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII. Nicanor, Amintas.</head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='891'>La fortune est pour nous, cessons de nous en plaindre, </l>
+	<l id='892'>Ce fier corsaire est pris ; nous n'avons plus à craindre ; </l>
+	<l id='893'>La tempête a brisé son vaisseau contre un banc ; </l>
+	<l id='894'>Tu te vois son vainqueur, sans répandre de sang ; </l>
+	<l id='895'>Le Princesse est à toi ; la Chypre est secourue, </l>
+	<l id='896' part='i'>Réjouis-toi mon fils. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='896' part='f'>Ô disgrâce imprévue ! </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='897' part='i'>Tu soupires. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='897' part='f'>La joie a ses excès, Seigneur, </l>
+	<l id='898'>Surprend, et nous trouble autant que la douleur. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='899'>Sa flotte ne sait point quelle perte elle a faite : </l>
+	<l id='900'>Si nous savons bien vaincre, elle est déjà défaite. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='901'>Mais sur notre parole, Orosmane est venu, </l>
+	<l id='902' part='i'>A-t-on pu l'arrêter ? </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='902' part='f'>Pourquoi ne l'a-t-on pu ? </l>
+	<l id='903'>Sa flotte nous surprend ; assiège ; attaque ; vole. </l>
+	<l id='904'>Ne nous montre-t-il pas à manquer de parole ? </l>
+	<l id='905'>Lorsque les deux guerriers au combat déjà prêts, </l>
+	<l id='906'>Le fer doit terminer les divers intérêts, </l>
+	<l id='907'>La moindre hostilité cesse de part et d'autre. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='908'>Son manquement de foi n'excuse pas le nôtre. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='909'>Il a pris Amatonte, et cette hostilité, </l>
+	<l id='910'>Nous rend notre parole, et finit tout traité. </l>
+	<l id='911'>Il faut que le trépas de ce Roi des Corsaires </l>
+	<l id='912'>Nous venge, et tant de Rois qu'il s'est fait tributaires. </l>
+	<l id='913'>Je veux faire périr par le feu, par le fer, </l>
+	<l id='914'>Ces ennemis communs, ces Tyrans de la mer, </l>
+	<l id='915'>Et toi, va donner ordre à garder le corsaire. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='916'>Pour son salut plutôt tout oser, et tout faire. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n=''><head>ACTE IV</head>
+
+<div2 type='scene' n=''><head>SCÈNE PREMIÈRE. Orosmane.</head>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+
+	<l id='917'>Maître absolu de l'Empire de l'onde, </l>
+	<l id='918'>Par mille beaux exploits, </l>
+	<l id='919'>De mon Trône flottant j'ai fait trembler des Rois, </l>
+	<l id='920'>Et ma puissance vagabonde, </l>
+	<l id='921'>En a vu soumis à ses lois, </l>
+	<l id='922'>Qui voyaient à leurs pieds tout le reste du monde. </l>
+	<l id='923'>De ce lieu si voisin des Cieux, </l>
+	<l id='924'>Où le destin capricieux, </l>
+	<l id='925'>Avait ma fortune portée, </l>
+	<l id='926'>En un moment elle tombe aux Enfers, </l>
+	<l id='927'>Et languit sous d'indignes fers, </l>
+	<l id='928'>Quand loin de la voir arrêtée, </l>
+	<l id='929'>Je ne la croyais limitée, </l>
+	<l id='930'>Que des bornes de l'Univers. </l>
+	<l id='931'>J'ai vu cent fois au fort de la tempête, </l>
+	<l id='932'>L'onde aux Cieux se mêler ; </l>
+	<l id='933'>Le foudre étincelant, fendre, abattre, brûler, </l>
+	<l id='934'>Des voiles, des mâts sur ma tête. </l>
+	<l id='935'>Je l'ai vu des rocs ébranler, </l>
+	<l id='936'>Et faire mille éclats du débris de leur faîte. </l>
+	<l id='937'>Cent fois dans ma noble fureur, </l>
+	<l id='938'>Portant la guerre et la terreur, </l>
+	<l id='939'>Aussi loin qu'allait mon courage, </l>
+	<l id='940'>J'ai vu la mort s'opposer à mes pas ; </l>
+	<l id='941'>Mais qu'un visage plein d'appas, </l>
+	<l id='942'>Fait souvent trembler davantage, </l>
+	<l id='943'>Que le foudre, que le naufrage, </l>
+	<l id='944'>Que la guerre, et que le trépas ! </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Élise, Clarice.</head>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='945'>Approche mon vainqueur ; mais vainqueur sans combattre. </l>
+	<l id='946'>Viens voir si dans ses maux mon coeur se laisse abattre, </l>
+	<l id='947'>Ou plutôt si mes fers sont aisés à briser. </l>
+	<l id='948'>Ô des Princes ingrats le plus à mépriser, </l>
+	<l id='949'>Viens pour ne me plus craindre, être mon homicide ; </l>
+	<l id='950'>Tu peux bien être lâche, ayant été perfide. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='951'>Je ne reconnais plus ce vainqueur modéré, </l>
+	<l id='952'>De qui j'avais tantôt le courage admiré. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='953'>Et je reconnais moins ce vaincu magnanime, </l>
+	<l id='954'>De qu le faux éclat a surpris mon estime. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='955'>Je suis tel que j'étais quand tu fus mon vainqueur. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='956'>Manquer à sa parole, est-ce avoir de l'honneur ; </l>
+	<l id='957'>Quand ton père insolent et fier de ma disgrâce, </l>
+	<l id='958'>A déchaîné sur moi toute une populace ; </l>
+	<l id='959'>Quand après mon naufrage il m'a mis dans les fers ; </l>
+	<l id='960'>Toi qui dus t'opposer à tant d'affronts soufferts, </l>
+	<l id='961'>Me viens d'une insolence, à nulle autre semblable, </l>
+	<l id='962'>Repaître tes regards des fers dont on m'accable. </l>
+	<l id='963'>Par ce procédé lâche, injuste et rigoureux, </l>
+	<l id='964'>Croit-on venger l'affront d'un combat malheureux </l>
+	<l id='965'>Avancer d'un Hymen la célèbre journée, </l>
+	<l id='966'>Et crois-tu voir plutôt ta tête couronnée ? </l>
+	<l id='967'>On a vu des vainqueurs insulter aux vaincus, </l>
+	<l id='968'>Insulter aux vainqueurs, ha ! C'est bien faire plus. </l>
+	<l id='969'>Tu mérites par là, de posséder Élise, </l>
+	<l id='970'>Quand on ne l'aurait pas à ta valeur promise. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='971'>Tu m'insultes toi-même, et tu sais en ton coeur, </l>
+	<l id='972'>Que j'ai peu mérité ce reproche moqueur, </l>
+	<l id='973'>Tu sais bien que je perds l'espérance d'Élise, </l>
+	<l id='974'>Et qu'à ton seul vainqueur elle s'était promise, </l>
+	<l id='975'>Et ne reproche point de noire lâcheté, </l>
+	<l id='976'>Toi qui viens de commettre une infidélité, </l>
+	<l id='977'>Pendant notre combat avoir pris une place. </l>
+	<l id='978'>Quelque injustice après que la Chypre te fasse, </l>
+	<l id='979'>Tu l'auras attirée en lui manquant de foi, </l>
+	<l id='980'>Et tu te plains à tort de mon père et de moi, </l>
+	<l id='981'>Mais je te dois la vie, et l'honneur me conseille, </l>
+	<l id='982'>De rendre à mon vainqueur une grâce pareille, </l>
+	<l id='983'>Pour reprendre sur lui sans passer pour ingrat, </l>
+	<l id='984'>L'honneur que m'a fait perdre un malheureux combat. </l>
+	<l id='985'>Ta mort et ta fortune à nos fers asservie, </l>
+	<l id='986'>Peut pourtant m'assurer le bonheur de ma vie ; </l>
+	<l id='987'>Mais je ne veux ne devoir mon bonheur qu'à mon bras ? </l>
+	<l id='988'>Mériter la victoire, et ne la voler pas. </l>
+	<l id='989'>De quelque rare prix que soit la récompense, </l>
+	<l id='990'>Dont tes fers resserrés flattent mon espérance, </l>
+	<l id='991'>Je les briserai tous au lieu d'en profiter ; </l>
+	<l id='992'>Je te conserverai ce que je veux t'ôter, </l>
+	<l id='993'>Mais pourtant sans cesser après de te poursuivre. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='994'>Va ! Ni moi de te vaincre, et de te laisser vivre. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='995'>Que veux-tu cependant que je fasse pour toi. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='996'>Me laisser, si tu veux, ici seul avec moi, </l>
+	<l id='997'>Le travail du combat, de la mer, du naufrage, </l>
+	<l id='998'>Les efforts que j'ai faits à gagner le rivage, </l>
+	<l id='999'>M'accablent de sommeil, et de soin combattu, </l>
+	<l id='1000'>Mon esprit cède enfin à mon corps abattu. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1001' pat='i'>À l'instant si tu veux... </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1001' part='f'>Je ne veux autre chose ; </l>
+	<l id='1002'>Adieu Prince, et du moins permets que je repose. </l>
+<stage>Amintas s'endort. </stage>
+	<l id='1003'>Ô ! Qu'avec tous soins qui me vont combattant, </l>
+	<l id='1004'>Je suis bien éloigné d'en pouvoir faire autant. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Licas, Amintas.</head>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='1005'>Je vous vais révéler un secret d'importance ; </l>
+	<l id='1006'>Mais promettez-moi donc de garder le silence, </l>
+	<l id='1007' part='i'>Seigneur. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1007' part='m'>Achève donc. </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='1007' part='f'>La Princesse a voulu, </l>
+	<l id='1008'>Et me l'a commandé d'un pouvoir absolu, </l>
+	<l id='1009'>Que je lui fasse voir cette nuit le corsaire, </l>
+	<l id='1010'>Et vous savez, Seigneur, si j'ose lui déplaire, </l>
+	<l id='1011'>La nuit est avancée, elle s'en va venir. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1012'>Hé ! Voudrait-elle donc de sa main le punir ? </l>
+	<l id='1013'>Je la veux observer, et quoiqu'elle s'en fâche, </l>
+	<l id='1014'>Telle action pourrait lui laisser une tache, </l>
+	<l id='1015'>Reprochable à moi seul, puisque je l'aurais su. </l>
+</sp>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='1016'>De cet endroit, Seigneur, sans en être aperçu, </l>
+	<l id='1017'>Vous verrez... Mais j'entends du bruit ; c'est elle-même ; </l>
+	<l id='1018' part='i'>Cachez-vous. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1018' part='f'>Ô que tout mon malheur est extrême ! </l>
+	<l id='1019'>Ce n'est peut-être ici que l'effet d'un courroux, </l>
+	<l id='1020'>Et j'en ai toutefois des sentiments jaloux. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Licas, Élise.</head>
+<sp who='LICAS'><speaker>LICAS.</speaker>
+	<l id='1021'>Madame, vous voyez où pour vous je m'expose, </l>
+	<l id='1022'>Le fier corsaire est seul, et je crois qu'il repose, </l>
+	<l id='1023'>Vous avez souhaité de le trouver ainsi. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1024'>Ô vengeance ! Ô fureur, que vais-je faire ici ? </l>
+	<l id='1025'>Et toi d'entre les Dieux, dont je te crois du nôtre </l>
+	<l id='1026'>Viens conduire mes coups dans l'obscurité sombre ; </l>
+	<l id='1027'>Viens donner, cher Alcandre, à ma tremblante main. </l>
+	<l id='1028'>La force de percer le coeur de l'inhumain. </l>
+	<l id='1029' part='i'>Viens donner à mon coeur... </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Orosmane, Élise, Amintas.</head>
+<sp who='OROSMANE'><speaker>OROSMANE, dormant.</speaker>
+
+	<l id='1029' part='f'>À moi, cruelle Élise ; </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1030' part='i'>Ô Dieux ! Il m'a nommée ! </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1030' part='f'>Après la foi promise ? </l>
+	<l id='1031' part='i'>Hélas ! </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1031' part='f'>N'écoutons point un songe suborneur </l>
+	<l id='1032'>Qu'un Démon tutélaire oppose à ma fureur. </l>
+	<l id='1033' part='i'>Achevons... </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1033' part='f'>Ha ! Madame, et que voulez-vous faire ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1034'>Amintas contre moi protéger le Corsaire ? </l>
+	<l id='1035' part='i'>Amintas m'épier ? </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1035' part='f'>Ma Princesse, est-ce vous ? </l>
+	<l id='1036'>Et puis-je donc encore embrasser vos genoux ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1037'>Où suis-je ? Ô Dieux ! Que vous-je ? Et que viens-je d'entendre ? </l>
+	<l id='1038'>Dois-je croire à mes yeux ? Est-ce une ombre ? Est-ce Alcandre ? </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1039'>Oui, Princesse, je suis cet amant trop heureux, </l>
+	<l id='1040'>Si dans les longs malheurs d'un exil rigoureux, </l>
+	<l id='1041'>La seule Déité de mon coeur adorée, </l>
+	<l id='1042'>M'a conservé la foi qu'elle m'avait jurée : </l>
+	<l id='1043'>Mais je suis des Amants le plus infortuné, </l>
+	<l id='1044'>Si je n'ai plus un coeur que vous m'avez donné. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1045'>Hélas ! Ce qu'à l'instant pour venger mon Alcandre, </l>
+	<l id='1046'>Mon bras contre lui-même était prêt d'entre prendre, </l>
+	<l id='1047'>M'empêche de douter, que ma fidélité </l>
+	<l id='1048'>Ne soit toujours pour toi ce qu'elle avait été. </l>
+	<l id='1049'>Dieux ! Si dans la fureur dont j'étais prévenue, </l>
+	<l id='1050'>Votre puissante main ne m'avait retenue </l>
+	<l id='1051'>Si la mienne eut donné par un barbare effort, </l>
+	<l id='1052'>À tout ce qui m'est cher, une sanglante mort, </l>
+	<l id='1053'>En quel abîme affreux te serais-tu jetée, </l>
+	<l id='1054'>Amante trop crédule, et trop précipitée ? </l>
+	<l id='1055'>Et quel crime une erreur maîtresse de nos sens, </l>
+	<l id='1056'>Ne peut faire commettre aux feux plus innocents ? </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1057'>Si vous m'aimez encore, ô divine Princesse ? </l>
+	<l id='1058'>De tous ces longs malheurs qui me suivaient sans cesse, </l>
+	<l id='1059'>Je ne conserve pas le moindre souvenir, </l>
+	<l id='1060'>Je perds même la peur de tous maux à venir, </l>
+	<l id='1061'>Et puisque enfin le Ciel permet que je vous voie, </l>
+	<l id='1062'>Je ne m'en plaindrai plus quelque mal qu'il m'envoie. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1063'>Ne craignons rien du Ciel après un bien si doux, </l>
+	<l id='1064'>Ce ne peut-être en vain qu'il s'est changé pour nous </l>
+	<l id='1065'>Nos fidèles amours si longtemps tourmentées, </l>
+	<l id='1066'>Nos peines, nos douleurs à la fin surmontées, </l>
+	<l id='1067'>Témoignent que le Ciel en nous faisant souffrir, </l>
+	<l id='1068'>N'a voulu qu'éprouver ce qu'il voulait chérir. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1069'>Un malheureux amant, trop heureuse Princesse, </l>
+	<l id='1070'>Ne peut plus être ici qu'un objet de tristesse, </l>
+	<l id='1071'>La sienne troublerait vos mutuels plaisirs. </l>
+	<l id='1072'>Et toi puissant obstacle à mes justes désirs, </l>
+	<l id='1073'>Et de qui le bonheur achève mon désastre, </l>
+	<l id='1074'>Par quel charme secret, quel ascendant, quel Astre </l>
+	<l id='1075'>As-tu pu suborner mon coeur à me trahir, </l>
+	<l id='1076'>À t'aimer malgré moi, toi qu'il devrait haïr ? </l>
+	<l id='1077'>Je te devais la vie ; Élise peut t'apprendre, </l>
+	<l id='1078'>En quelle occasion je viens de te le rendre. </l>
+	<l id='1079'>Je veux briser tes fers, puisque je l'ai promis : </l>
+	<l id='1080'>Mais, ô le plus mortel de tous mes ennemis, </l>
+	<l id='1081'>Il faut que j'obéisse au sort qui me maîtrise ; </l>
+	<l id='1082'>Il faut qu'encore un coup je te dispute Élise, </l>
+	<l id='1083'>Et quoique sans espoir de jamais l'acquérir, </l>
+	<l id='1084'>Que je l'afflige au moins ne pouvant l'attendrir. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1085'>Ha ! N'attends rien de moi par une telle voie, </l>
+	<l id='1086'>Ni d'Alcandre ennemi que jamais je te voie. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1087'>N'espérez pas aussi qu'amant désespéré, </l>
+	<l id='1088'>Je laisse mon Rival dans un calme assuré. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1089'>Il t'offre une amitié qui n'est point méprisable. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1090'>C'est son défaut pour moi d'être trop estimable ; </l>
+	<l id='1091'>C'est parce qu'elle a pu la vôtre mériter, </l>
+	<l id='1092'>Que mon coeur s'en éloigne, et ne peut l'accepter. </l>
+	<l id='1093'>Oui, dangereux Rival, il faut que je t'estime, </l>
+	<l id='1094'>Quand un juste sujet à ta perte m'anime, </l>
+	<l id='1095'>Et que mon coeur n'ait rien tant à craindre que moi </l>
+	<l id='1096'>Dans le dessein que j'ai de me battre avec toi ; </l>
+	<l id='1097'>Mais le temps que je perds à ma plainte frivole, </l>
+	<l id='1098'>Se peut mieux employer à tenir ma parole. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Élise, Orosmane.</head>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1099'>Amintas, généreux même à ses ennemis, </l>
+	<l id='1100'>Te tirera des fers comme il te l'a promis. </l>
+	<l id='1101'>Mais, cher Prince, il est temps qu'Élise impatiente, </l>
+	<l id='1102'>Cesse enfin d'ignorer ta fortune inconstante, </l>
+	<l id='1103'>Et pourquoi si longtemps, et si proche de moi, </l>
+	<l id='1104'>Le faux nom d'Orosmane abusa de ma foi. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1105'>Quand la parfaite Élise aussi juste que belle, </l>
+	<l id='1106'>M'eut appris les desseins de son père infidèle, </l>
+	<l id='1107'>Qui sur de spécieux, mais frivoles sujets, </l>
+	<l id='1108'>Avait fait contre moi révolter mes Sujets, </l>
+	<l id='1109'>Et qui pour mieux cacher où marchait son Armée, </l>
+	<l id='1110'>En menaçait les bords de la Grèce alarmée, </l>
+	<l id='1111'>Elle vit que mon coeur ne pouvant la quitter, </l>
+	<l id='1112'>Pour la première fois osa lui résister, </l>
+	<l id='1113'>J'abandonnais mon Trône à votre injuste père, </l>
+	<l id='1114'>Votre coeur généreux s'en mettait en colère, </l>
+	<l id='1115'>La crainte de languir un moment loin de vous, </l>
+	<l id='1116'>Me faisait mépriser cet obligeant courroux : </l>
+	<l id='1117'>Mais vos yeux se servant de toute leur puissance, </l>
+	<l id='1118'>Il se fallut résoudre à cette longue absence, </l>
+	<l id='1119'>Courir au moins pressé de deux maux dangereux. </l>
+	<l id='1120'>Sur la mer, mon destin ne fut pas plus heureux, </l>
+	<l id='1121'>Je fus battu des vents, et dans la Cilicie, </l>
+	<l id='1122'>J'eus à tous mes desseins la fortune ennemie. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1123'>Je sais que la fortune accablant la valeur, </l>
+	<l id='1124'>En un dernier combat vous eûtes du malheur, </l>
+	<l id='1125'>Et qu'un jeune guerrier tué dans la bataille, </l>
+	<l id='1126' part='i'>Fut pris pour mon Alcandre. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1126' part='f'>Il était de ma taille, </l>
+	<l id='1127'>Et l'on ne connut point son visage blessé, </l>
+	<l id='1128'>Sous un de mes harnais qu'il avait endossé. </l>
+	<l id='1129'>Ce faux bruit de ma mort ardemment désirée, </l>
+	<l id='1130'>Outre les miens, trompa ceux qui l'avaient jurée, </l>
+	<l id='1131'>Et me fit oublier aux puissants ennemis, </l>
+	<l id='1132'>À qui tout contre moi semblait être permis. </l>
+	<l id='1133'>Accablé de malheurs, et par mer, et par terre, </l>
+	<l id='1134'>Il me restait encore un seul vaisseau de guerre, </l>
+	<l id='1135'>Et j'avais conservé des amis généreux, </l>
+	<l id='1136'>Qui loin de mépriser un Prince malheureux, </l>
+	<l id='1137'>D'une fidélité qui ne s'est point lassée, </l>
+	<l id='1138'>Respectèrent toujours ma dignité passée. </l>
+	<l id='1139'>Nous montâmes en mer de la terre chassés ; </l>
+	<l id='1140'>La vague était émue, et les flots courroucés ;</l>
+	<l id='1141'>Mais c'était le parti qui nous restait à prendre, </l>
+	<l id='1142'>Suivis que nous étions des troupes de Pisandre. </l>
+	<l id='1143'>Le barbare Orosmane un corsaire inhumain, </l>
+	<l id='1144'>Attaqua mon navire, et mourut de ma main, </l>
+	<l id='1145'>Aigri des longs malheurs de mon sort déplorable, </l>
+	<l id='1146'>Aux Corsaires vaincus je fus inexorable, </l>
+	<l id='1147'>Tout tremblant sous le fer, ou dans l'onde jeté, </l>
+	<l id='1148'>Éprouva la rigueur du vainqueur irrité. </l>
+	<l id='1149'>De massacre et d'horreur ma colère assouvie, </l>
+	<l id='1150'>Aux tremblants matelots fit grâce de la vie. </l>
+	<l id='1151'>J'achevais de les vaincre, et de les désarmer, </l>
+	<l id='1152'>Quand je vis mon vaisseau tout à coup abîmer. </l>
+	<l id='1153'>Ce péril évité me fut de bon présage ; </l>
+	<l id='1154'>Réveilla mon espoir ; anima mon courage, </l>
+	<l id='1155'>Je prends le nom fameux du corsaire détruit. </l>
+	<l id='1156'>Ce nom en peu de temps est un nom de grand bruit, </l>
+	<l id='1157'>Et me fait espérer qu'auprès de votre père, </l>
+	<l id='1158'>Un corsaire fera ce qu'un Roi ne put faire. </l>
+	<l id='1159'>Lors je vous détrompai du faux bruit de ma mort ; </l>
+	<l id='1160'>Mais sans vous révéler le secret de mon sort. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1161'>Pourquoi me cachais-tu que ta rare vaillance, </l>
+	<l id='1162'>Faisait aux plus grands Rois redouter ta puissance ; </l>
+	<l id='1163'>Pourquoi n'ai-je pas su que l'Empire des Mers, </l>
+	<l id='1164'>Dépendait d'un Esclave arrêté dans mes fers ; </l>
+	<l id='1165'>Ô que de ce penser ma vanité flattée, </l>
+	<l id='1166'>Eût calmé pour un temps mon âme inquiétée, </l>
+	<l id='1167'>Que les Dieux qu'à ta perte implorait mon courroux, </l>
+	<l id='1168'>M'eussent été cruels, s'ils m'eussent été doux ! </l>
+	<l id='1169'>Mais à quoi te servit, une histoire, une feinte, </l>
+	<l id='1170'>Qui pouvait me donner une mortelle atteinte ; </l>
+	<l id='1171'>Quel plaisir as-tu pris à te faire haïr ; </l>
+	<l id='1172'>Et qui trompe en amour, ne peut-il pas trahir ; </l>
+	<l id='1173'>Pourquoi de nos amours rompais-tu le silence ? </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1174'>Je voulus d'un Rival éprouver la vaillance, </l>
+	<l id='1175'>Et chercher dans sa mort le funeste plaisir, </l>
+	<l id='1176'>D'accuser votre coeur, d'avoir su mal choisir, </l>
+	<l id='1177'>La crainte d'un Rival, qu'un père favorable...</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1178'>Prince n'achève pas un discours si coupable. </l>
+	<l id='1179'>Alcandre a pu douter d'Élise, et de sa foi ; </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1180' part='i'>Hé ! Qui n'est pas jaloux quand il aime ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1180' part='f'>Et c'est moi, </l>
+	<l id='1181'>Qui n'ai jamais douté de ta persévérance, </l>
+	<l id='1182'>Quand j'avais plus à craindre une ingrate inconstance ; </l>
+	<l id='1183'>Car les beautés d'Asie ont des charmes puissants, </l>
+	<l id='1184'>Et je sais qu'on oublie aisément les absents. </l>
+	<l id='1185'>Oui, Prince ingrat, pendant que tu fus en Asie, </l>
+	<l id='1186'>Je n'eus jamais pour toi la moindre jalousie ; </l>
+	<l id='1187'>Je ne crus point de coeur plus ferme que le tien : </l>
+	<l id='1188'>Mais tu ne rendais pas cette justice au mien, </l>
+	<l id='1189'>Tu me croyais ingrate, infidèle, et coupable, </l>
+	<l id='1190'>Quand pour toi j'irritais un pouvoir redoutable</l>
+	<l id='1191'>Crois donc que c'est un crime, et le plus grand de tous, </l>
+	<l id='1192'>Que d'être sans sujet un ingrat, un jaloux, </l>
+	<l id='1193'>Et qu'une telle excuse en la bouche d'Alcandre, </l>
+	<l id='1194'>Multiplie une erreur au lieu de la défendre. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1195'>Percez donc, belle Élise, un coeur méconnaissant. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1196'>Un coupable qui plaît est bientôt innocent. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1197'>Je ne saurais souffrir de trépas assez rude, </l>
+	<l id='1198'>Si j'ai pu vous donner la moindre inquiétude. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1199'>Et le moindre tourment que tu pourrais souffrir. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1200' part='i'>Vengerais ma Princesse. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1200' part='f'>Il la ferait mourir. </l>
+	<l id='1201'>Songeons plutôt aux maux qui pressent davantage. </l>
+	<l id='1202'>Ta vie est dans les mains d'un homme plein de rage, </l>
+	<l id='1203'>Qui croit que pour venger, tous crimes sont permis : </l>
+	<l id='1204'>Mais taisons-nous, sachons ce qu'aura fait son fils, </l>
+	<l id='1205' part='i'>Hé bien ! Prince. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Amintas, Élise, Orosmane.</head>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1205' part='f'>J'ai fait tout ce que j'ai pu faire, </l>
+	<l id='1206'>Mais les Gardes doublés par l'ordre ce mon père </l>
+	<l id='1207'>Que de l'humeur qu'il est je ne saurais changer, </l>
+	<l id='1208'>Laissent mon âme en peine, et ta vie en danger ; </l>
+	<l id='1209'>Mais où la force est faible, employons-y l'adresse ; </l>
+	<l id='1210'>Sous mes habits connus sors avec la Princesse, </l>
+	<l id='1211'>Si l'entreprise manque, au mépris de la mort, </l>
+	<l id='1212'>Je briserai tes fers par un dernier effort. </l>
+	<l id='1213'>Licas que j'ai gagné, mon dessein favorise : </l>
+	<l id='1214'>À quoi donc se résout l'heureux amant d'Élise. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1215'>Nous suivrons ton conseil, Ô Prince généreux ! </l>
+	<l id='1216'>Prince que malgré moi j'ai rendu malheureux. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1217'>Ce Prince malheureux, et qui vous importune, </l>
+	<l id='1218'>Ne se prend qu'à lui seul de sa longue infortune. </l>
+	<l id='1219'>Allons changer d'habits où Licas nous attend, </l>
+	<l id='1220' part='i'>Viens-tu donc ? </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1220' part='f'>Je te suis ; n'espère pas pourtant, </l>
+	<l id='1221'>Qu'en me tirant des fers de ton injuste père, </l>
+	<l id='1222'>J'en sois moins ton Rival, ton cruel adversaire. </l>
+	<l id='1223'>Tant qu'Élise vivra sous vos indignes lois ; </l>
+	<l id='1224'>Que vous lui ravirez la liberté du choix, </l>
+	<l id='1225'>Orosmane et les siens périront pour Élise. </l>
+	<l id='1226'>Paphos suivra de près Amatonte surprise. </l>
+	<l id='1227'>Et ne me blâme plus de tes hostilités, </l>
+	<l id='1228'>Ou manque pour Élise à des formalités ; </l>
+	<l id='1229'>Pour mériter Élise, on peut, on doit tout faire. </l>
+</sp>
+<sp who='AMINTAS'><speaker>AMINTAS.</speaker>
+	<l id='1230'>C'est pour cette raison, vaillant Prince, ou corsaire, </l>
+	<l id='1231'>Puisqu'on doit tout oser pour un bien d'un tel prix, </l>
+	<l id='1232'>Que je veux achever le dessein que j'ai pris. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='5'><head>ACTE V</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Alcionne, Élise.</head>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='1233'>Eh quoi ! D'une si juste et si longue tristesse, </l>
+	<l id='1234'>Votre âme en un moment passe dans l'allégresse ! </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1235'>Mon Alcandre, ma soeur, est vivant, est trouvé, </l>
+	<l id='1236'>Et le grand Orosmane, est fidèle, est sauvé, </l>
+	<l id='1237'>Jugez à quel excès me doit porter la joie, </l>
+	<l id='1238'>D'un bien longtemps perdu, que le Ciel me renvoie ; </l>
+	<l id='1239'>Mais ma bouche qu'emporte un premier mouvement, </l>
+	<l id='1240'>Veut tout dire à la fois, et parle obscurément, </l>
+	<l id='1241'>Alcandre donc, ma soeur, est cet homme admirable, </l>
+	<l id='1242'>Ce guerrier si vaillant, si grand, si redoutable... </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Clarice, Élise, Alcionne.</head>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1243'>Ha Princesses ! Pleurez l'accident malheureux, </l>
+	<l id='1244'>Qui ravit à la Chypre un Prince généreux. </l>
+	<l id='1245'>Amintas ayant su que son barbare père, </l>
+	<l id='1246'>Redoutait Orosmane, et s'en voulait défaire, </l>
+	<l id='1247'>Lui donnant ses habits pendant l'obscurité, </l>
+	<l id='1248'>L'avait heureusement remis en liberté, </l>
+	<l id='1249'>Quand son père endurci dans son dessein sinistre, </l>
+	<l id='1250'>S'est servi de la main d'un barbare Ministre, </l>
+	<l id='1251'>Qui blessant Amintas par ses habits trompé, </l>
+	<l id='1252'>Ne l'a point reconnu qu'après l'avoir frappé. </l>
+	<l id='1253'>On sait de l'assassin, que l'on mène au supplice, </l>
+	<l id='1254'>Que Nicanor du crime est auteur et complice. </l>
+	<l id='1255'>Et le Prince plaint moins la rigueur de son sort, </l>
+	<l id='1256'>Qu'Orosmane repris qu'on destine à la mort. </l>
+	<l id='1257'>Nicanor l'a jurée, et sa douleur extrême, </l>
+	<l id='1258'>Du funeste accident qu'il a causé lui-même, </l>
+	<l id='1259'>Le porte à des transports indignes de son rang, </l>
+	<l id='1260'>Et déjà d'Orosmane il eut versé le sang ; </l>
+	<l id='1261'>Mais jusques à son trépas Amintas magnanime, </l>
+	<l id='1262'>Retient son cruel père, et s'oppose à son crime. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1263' part='i'>Clarice, que dis-tu ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1263' part='f'>Je dis la vérité. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1264'>Mon cher Alcandre, hélas ! M'est donc encore ôté ; </l>
+	<l id='1265' part='i'>Mais dis-tu qu'il est pris ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1265' part='f'>Sa prise est assurée. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1266'>Ô Ciel ! Que tes faveurs sont de peu de durée, </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='1267' part='i'>Et le Prince, Clarice ? </l>
+</sp>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1267' part='f'>Il attend le trépas. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1268' part='i'>Ha ! Ma soeur mon Alcandre ! </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='1269' part='i'>Ha ! Ma soeur Amintas ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1269' part='f'>Et l'aimiez-vous ? </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='1270'>Hélas ! N'était-il pas aimable ? </l>
+	<l id='1271'>Oui ma soeur, je l'aimais ce Prince misérable. </l>
+	<l id='1272'>J'ai souffert dès le temps qu'il entra dans vos fers, </l>
+	<l id='1273'>Les mêmes maux pour lui qu'il a pour vous soufferts.</l>
+	<l id='1274'>Mais, ô ma chère soeur, comme vous désolée, </l>
+	<l id='1275'>Et plus que vous d'ennuis, et de maux accablée, </l>
+	<l id='1276'>Les vôtres par les miens se pourraient augmenter. </l>
+	<l id='1277'>Que le Ciel cesse enfin de vous persécuter, </l>
+	<l id='1278'>Et qu'à vous favorable, autant qu'à moi contraire, </l>
+	<l id='1279'>Il conserve à vos feux votre aimable corsaire. </l>
+	<l id='1280'>Conduis-moi donc Clarice, où je vais faire voir, </l>
+	<l id='1281'>Ce que peut sur mon coeur un juste désespoir. </l>
+</sp>
+<sp who='ALCIONNE'><speaker>ALCIONNE.</speaker>
+	<l id='1282'>Allons, allons, ma soeur, par nos morts généreuses, </l>
+	<l id='1283'>Rendre illustres les feux de deux soeurs malheureuses </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Nicanor, Élise, Gardes. </head>
+<stage>Alcionne sort. </stage>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1284'>Où courez-vous, Princesse ? Arrêtez un moment. </l>
+	<l id='1285'>Le pirate est repris, et gardé sûrement, </l>
+	<l id='1286'>Et s'il faut que mon fils meure de ses blessures, </l>
+	<l id='1287'>Il mourra le Barbare après mille tortures, </l>
+	<l id='1288'>À ce discours je vois votre teint se changer, </l>
+	<l id='1289'>Il court pourtant encore un plus pressant danger. </l>
+	<l id='1290'>Si Paphos qu'on assiège, est enfin emportée, </l>
+	<l id='1291'>La vie au prisonnier sera bientôt ôtée. </l>
+	<l id='1292'>Ni vous qui le sauviez, ni mon fils qui m'est cher, </l>
+	<l id='1293'>Ni nul autre ici-bas ne pourrait l'empêcher. </l>
+	<l id='1294'>Son métier de voleur laisse un grand privilège, </l>
+	<l id='1295'>Aux Princes qui l'ont pris, et pourtant qu'il assiège, </l>
+	<l id='1296'>Et l'on peut bien punir un corsaire, ô Cieux ! </l>
+	<l id='1297'>Sans attirer sur soi la colère des Dieux ; </l>
+	<l id='1298'>Mais par mon fils sauvé, par Paphos délivrée, </l>
+	<l id='1299'>Sa mort est seulement pour un temps différée, </l>
+	<l id='1300'>Si ne s'opposant plus au bonheur d'un Rival, </l>
+	<l id='1301'>Il ne consent sans feinte à cet Hymen fatal, </l>
+	<l id='1302'>Qui rend mon fils heureux en possédant Élise, </l>
+	<l id='1303'>Autrement contre lui toute chose est permise. </l>
+	<l id='1304'>Tandis qu'à ce parti vous le disposerez ; </l>
+	<l id='1305'>Car Licas vous l'amène, et vous lui parlerez, </l>
+	<l id='1306'>Je cours où de Paphos la défense m'appelle, </l>
+	<l id='1307'>Gardes, suivez mon ordre, et qu'on me soit fidèle. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+
+	<l id='1308'>Va Tyran ! N'attends pas d'Orosmane et de moi, </l>
+	<l id='1309'>Que la crainte nous rende aussi lâches que toi, </l>
+	<l id='1310'>Dieux ! Qui de Nicanor souffrant les injustices, </l>
+	<l id='1311'>Semblez ses protecteurs, ou plutôt ses complices, </l>
+	<l id='1312'>Par de rares vertus être semblable à vous, </l>
+	<l id='1313'>Est-ce donc s'attirer votre injuste courroux ? </l>
+	<l id='1314'>Est-ce avoir mérité votre haine mortelle, </l>
+	<l id='1315'>Que de m'avoir aimée et m'être fidèle ? </l>
+	<l id='1316'>Ô Prince ! Qui sans moi serais moins malheureux ; </l>
+	<l id='1317'>À quoi donc nous réserve un destin rigoureux ? </l>
+	<l id='1318'>Et d'un heureux moment de joie inespérée, </l>
+	<l id='1319'>D'un espoir aussi vain que de peu de durée, </l>
+	<l id='1320'>A-t-il voulu flatter ceux qu'il voulait punir ; </l>
+	<l id='1321'>Mon cher Alcandre enfin, qu'allons-nous devenir. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Orosmane, Élise.</head>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1322'>Il veut unir, Madame, un amant téméraire, </l>
+	<l id='1323'>Un insensé, qui crût mériter de vous plaire ; </l>
+	<l id='1324'>Dont la vie est funeste au bonheur de vos jours. </l>
+	<l id='1325'>Mais finit-il des miens le long et triste cours, </l>
+	<l id='1326'>Puisque nos ennemis souffrent que je vous voie ? </l>
+	<l id='1327'>Tout rigoureux qu'ils sont ils me comblent de joie. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1328'>Que tu les connais mal, ces communs ennemis, </l>
+	<l id='1329'>Quand tu leur sais bon gré de ce qu'ils t'ont permis. </l>
+	<l id='1330'>La faveur dont tu crois leur être redevable, </l>
+	<l id='1331'>De leurs méchancetés est la plus redoutable, </l>
+	<l id='1332'>Et tu le vas bien voir par les rudes effets </l>
+	<l id='1333'>Des maux qu'elle va joindre aux maux qu'on nous a faits.</l>
+	<l id='1334'>Te le dirai-je ? On veut qu'Orosmane choisisse, </l>
+	<l id='1335'>Où d'être sans Élise, ou d'aller au supplice ; </l>
+	<l id='1336'>On me donne à choisir, ou d'aimer Amintas, </l>
+	<l id='1337'>Que je ne puis aimer, ou de voir ton trépas. </l>
+	<l id='1338'>Laisserai-je périr un amant que j'adore ? </l>
+	<l id='1339'>Ferai-je mon époux d'un Prince que j'abhorre ? </l>
+	<l id='1340'>Parle, ouvre-moi ton coeur, et sans dissimuler, </l>
+	<l id='1341'>Fais voir à mon amour où le tien peut aller. </l>
+	<l id='1342'>Choisis sans hésiter de la vie, ou d'Élise ; </l>
+	<l id='1343'>À ton choix, quel qu'il soit, elle sera soumise. </l>
+	<l id='1344'>Si ton âme s'étonne et redoute la mort, </l>
+	<l id='1345'>Quand le Prince qui m'aime, et que je hais si fort. </l>
+	<l id='1346'>Des monstres plus affreux serait le plus horrible, </l>
+	<l id='1347'>J'en ferai mon époux, pour toi tout m'est possible ; </l>
+	<l id='1348'>Mais si ton coeur fidèle et transporté d'amour, </l>
+	<l id='1349'>Peut mépriser pour moi la lumière du jour, </l>
+	<l id='1350'>Il n'est d'humain pouvoir qui sur mon âme obtienne, </l>
+	<l id='1351'>Que ma fidélité ne réponde à la tienne, </l>
+	<l id='1352'>Non pas même les Dieux me pourraient empêcher, </l>
+	<l id='1353'>De joindre après ta mort ce que j'eus de plus cher ; </l>
+	<l id='1354'>Et je le ferais bien plus, ô malheureux Alcandre ! </l>
+	<l id='1355'>Si l'on pouvait pour toi davantage entreprendre. </l>
+	<l id='1356'>Fais, fais donc nos Destins, ils dépendent de toi, </l>
+	<l id='1357'>Fais-nous mourir ensemble, ou vis heureux sans moi. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1358'>C'est m'offenser, Madame, et c'est mal me connaître, </l>
+	<l id='1359'>Mal juger d'un amour que vous avez fait naître, </l>
+	<l id='1360'>Que me donner le choix de la vie ou de vous, </l>
+	<l id='1361'>En pouvez-vous douter sans haine et sans courroux ? </l>
+	<l id='1362'>Et quand bien je serais, un ingrat, un parjure ; </l>
+	<l id='1363'>Auriez-vous dû me faire une plus grande injure ? </l>
+	<l id='1364'>Hélas ! S'il ne fallait pour augmenter vos jours, </l>
+	<l id='1365'>Ou pour les rendre heureux en leur tranquille cours, </l>
+	<l id='1366'>Que souffrir qu'un Rival obtînt votre Hyménée, </l>
+	<l id='1367'>Vous m'en verriez hâter la cruelle journée ; </l>
+	<l id='1368'>Et s'il manquait ma vie à cet Hymen fatal, </l>
+	<l id='1369'>Je l'offrirais moi-même à cet heureux Rival. </l>
+	<l id='1370'>Mais que pour la sauver, vous me soyez ravie ? </l>
+	<l id='1371'>Quel remède, grands Dieux ! Pour assurer ma vie ? </l>
+	<l id='1372'>Et qu'il la ravirait bien plus cruellement, </l>
+	<l id='1373'>À votre inconsolable et malheureux amant, </l>
+	<l id='1374'>Que ne ferait jamais en sa plus grande rage, </l>
+	<l id='1375'>Du cruel Nicanor le barbare courage. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1376'>Mourons donc, cher Alcandre, et ne résistons plus </l>
+	<l id='1377'>À l'injuste pouvoir des Destins absolus. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1378'>Un malheureux, qu'opprime une indigne fortune, </l>
+	<l id='1379'>Vous aime, et souffrira qu'elle vous soit commune ; </l>
+	<l id='1380'>Un Prince trop heureux d'avoir porté vos fers, </l>
+	<l id='1381'>Et trop récompensé des maux qu'il a soufferts, </l>
+	<l id='1382'>Pour peu qu'en ses malheurs vous preniez part encore, </l>
+	<l id='1383'>Verra mourir pour lui la beauté qu'il adore ? </l>
+	<l id='1384'>Ô Dieux ! Ce seul penser dans l'esprit d'un amant, </l>
+	<l id='1385'>Est son plus véritable, et plus cruel tourment. </l>
+	<l id='1386'>Songez, songez, Princesse à mes maux trop sensible, </l>
+	<l id='1387'>Que votre mort rendrait la mienne plus horrible, </l>
+	<l id='1388'>Et songez que mourant et pour vous, et sans vous, </l>
+	<l id='1389'>Le plus cruel trépas me peut devenir doux. </l>
+	<l id='1390'>Et qui sait si le Ciel sur ma funeste vie, </l>
+	<l id='1391'>N'a pas toute son ire, et sa rage assouvie, </l>
+	<l id='1392'>Et qu'ayant sur ma tête épuisé ses rigueurs, </l>
+	<l id='1393'>Il n'ait gardé pour vous ses plus rares faveurs : </l>
+	<l id='1394'>Vos célestes beautés par les Dieux achevées, </l>
+	<l id='1395'>À de meilleurs Destins sont par eux réservées,</l>
+	<l id='1396'>Et s'ils ont le pouvoir d'exempter du Tombeau, </l>
+	<l id='1397'>Qui serait-ce, que vous, leur ouvrage le plus beau ; </l>
+	<l id='1398'>Vivez, vivez heureuse, et qu'un Prince fidèle, </l>
+	<l id='1399'>Avec plus de mérite, et non pas tant de zèle, </l>
+	<l id='1400'>Succède en votre coeur au malheureux amant, </l>
+	<l id='1401'>Qui ne vous fut jamais qu'un sujet de tourment, </l>
+	<l id='1402'>Et qui ne peut avoir de fin plus glorieuse, </l>
+	<l id='1403'>Que de perdre pour vous une vie ennuyeuse. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1404'>Et moi pourrai-je avoir de plus honteuse fin, </l>
+	<l id='1405'>Que de survivre en ingrate, à ton triste Destin ? </l>
+	<l id='1406'>Mais comment oses-tu me proposer de vivre ; </l>
+	<l id='1407'>Me donner des conseils que tu ne veux pas suivre ; </l>
+	<l id='1408'>Cesse Prince cruel ! Cesse de m'attendrir ; </l>
+	<l id='1409'>Ne me rends point la mort difficile à souffrir ; </l>
+	<l id='1410'>Laisse-moi partager la gloire de la tienne ; </l>
+	<l id='1411'>Songe que mes malheurs finiront par la mienne, </l>
+	<l id='1412'>Et songe que l'amour n'en a point de plus grand, </l>
+	<l id='1413'>Que d'aimer, d'être aimée, et de perdre un amant.</l>
+	<l id='1414'>Mais où court, et que veut Clarice épouvantée. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Clarice, Élise, Orosmane.</head>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1415'>Le Ciel nous abandonne, et la Ville emportée, </l>
+	<l id='1416'>Est le triste butin de l'avare étranger, </l>
+	<l id='1417'>Vous n'êtes pas vous-même hors du commun danger, </l>
+	<l id='1418'>Dans le Palais tout manque, et le Soldat barbare, </l>
+	<l id='1419'>Déjà pour le forcer ses machines prépare. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1420'>Hélas ! Au bruit confus que j'entends augmenter, </l>
+	<l id='1421'>De ce premier malheur il ne faut plus douter. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1422'>Vous n'avez rien à craindre où je serai, Madame. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1423'>Que tu me connais mal, si tu crois que mon âme, </l>
+	<l id='1424'>Dans le péril s'étonne, et même auprès de toi ; </l>
+	<l id='1425'>Mais on peut pour autrui craindre plus que pour soi. </l>
+	<l id='1426'>Si tu m'aimes cher Prince, Amintas, et son père, </l>
+	<l id='1427'>Quoique indignes objets de ta juste colère, </l>
+	<l id='1428' part='i'>Connaîtront... </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1428' part='f'>Jugez mieux d'un coeur où vous régnez, </l>
+	<l id='1429'>Et qui n'a d'ennemis que ceux que vous craignez, </l>
+	<l id='1430' part='i'>Nicanor, et son fils vivront. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Argante, Orosmane, Élise, Clarice, Corsaires.</head>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='1430' part='f'>Que la licence </l>
+	<l id='1431'>Ne vous emporte pas à la moindre insolence. </l>
+	<l id='1432'>Soldats, cherchons partout notre invincible Roi ; </l>
+	<l id='1433'>Mais nos voeux sont ouïs, et c'est lui que je vois. </l>
+	<l id='1434'>Cher Seigneur, que le Ciel à la fin nous renvoie. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1435'>Suspendons mes amis notre commune joie. </l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='1436' part='i'>Grand Prince ! </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1436' part='f'>Cher Argante, il faut sans différer, </l>
+	<l id='1437' part='i'>Empêcher le désordre. </l>
+</sp>
+<sp who='ARGANTE'><speaker>ARGANTE.</speaker>
+	<l id='1437' part='f'>Il faut donc vous montrer </l>
+	<l id='1438'>Sébaste en vain l'essaye, et tel excès de rage, </l>
+	<l id='1439'>Des plus sages Soldats maîtrise le courage, </l>
+	<l id='1440'>Qu'il est à redouter, que l'incendie enfin, </l>
+	<l id='1441'>N'achève de Paphos le malheureux Destin. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1442' part='i'>Ô quel malheur. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1442' part='f'>Allons Argante, allons sans cesse, </l>
+	<l id='1443'>Mourir, ou contenter ma divine Princesse. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII. Clarice, Élise.</head>
+<sp who='CLARICE'><speaker>CLARICE.</speaker>
+	<l id='1444'>Le plus grand, le plus fier de tous vos ennemis, </l>
+	<l id='1445'>Est donc ainsi Madame, à vos ordres soumis ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1446'>Prépare-toi, Clarice, à voir d'autres merveilles, </l>
+	<l id='1447'>Qui surprendront bien plus les yeux et les oreilles. </l>
+	<l id='1448'>Chypre ne verra plus la fille de ses Rois, </l>
+	<l id='1449'>Redouter des tyrans, et gémir sous leurs lois, </l>
+	<l id='1450'>Ma puissance en ces lieux ne sera plus bornée, </l>
+	<l id='1451'>Et j'y disposerai de mon libre Hyménée ; </l>
+	<l id='1452' part='i'>Mais que vois-je, Grands Dieux ? </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Nicanor, Élise.</head>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1452' part='f'>Le Ciel me venge enfin, </l>
+	<l id='1453'>Et met entre mes mains ta vie et ton Destin. </l>
+	<l id='1454'>Déshonneur de ton sang, Peste de ta Patrie, </l>
+	<l id='1455'>De mon lâche Amintas la basse idolâtrie, </l>
+	<l id='1456'>Ne s'opposera plus à ma juste fureur, </l>
+	<l id='1457'>Et je te confondrai dans mon dernier malheur. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1458'>Achève ! Est-ce à moi, lâche, à t'en donner l'audace, </l>
+	<l id='1459'>Qu'attends-tu ? Que mon coeur s'effraye à ta menace ? </l>
+	<l id='1460'>Il est trop dès longtemps aux maux accoutumé, </l>
+	<l id='1461'>Pour avoir peur de toi, ni de ton bras armé, </l>
+	<l id='1462'>Frappe donc, vieux tyran, immole ta victime ; </l>
+	<l id='1463'>Hâte les châtiments que mérite ton crime. </l>
+	<l id='1464'>Sois ingrat à ton frère, et perfide à ton Roi, </l>
+	<l id='1465'>Sois Nicanor enfin ; mais méchant, hâte-toi ; </l>
+	<l id='1466'>D'un vengeur offensé crains la juste colère. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1467'>Qu'il vienne à ton secours, qu'il vienne ton corsaire, </l>
+	<l id='1468'>Il ne manque plus rien à mon ressentiment, </l>
+	<l id='1469'>Que de t'ôter la vie aux yeux de cet amant. </l>
+	<l id='1470'>Il te verra périr au plus fort de ta joie. </l>
+	<l id='1471'>Mon âme à ce penser dans le plaisir se noie, </l>
+	<l id='1472'>Et si j'ai différé de te faire mourir, </l>
+	<l id='1473'>C'est pour plaire à ma haine, et te faire souffrir. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1474'>Et moi pour te parler dans la même franchise, </l>
+	<l id='1475'>Je te hais beaucoup moins que je ne te méprise. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1476'>Amante d'un Pirate, après ta lâcheté, </l>
+	<l id='1477'>Peux-tu parler encore avec tant de fierté. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1478'>Hé ! Qu'étais donc tantôt la tienne devenue, </l>
+	<l id='1479'>Quand tu gardais Paphos, et que tu l'as perdue</l>
+	<l id='1480'>Que faisait ta valeur dans les murs de Paphos, </l>
+	<l id='1481'>Quand des Soldats sans Chef t'ont fait tourner le dos. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Orosmane, Élise, Nicanor, Sébaste, Corsaires.</head>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1482' part='i'>Il nous a prévenus, ô Dieux ! </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1482' part='f'>Hélas ! Alcandre, </l>
+	<l id='1483'>Ta valeur désormais ne peut plus me défendre ; </l>
+	<l id='1484'>Mais punis un tyran, quoi qu'il puisse arriver ; </l>
+	<l id='1485'>Préfère ma vengeance au soin de me sauver. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1486'>Tigre affamé de sang, que penses-tu donc faire ; </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1487'>Me venger d'une ingrate, en dépit d'un corsaire. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1488' part='i'>Verser le sang d'Élise ? </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1488' part='f'>Arrête, où tu feras, </l>
+	<l id='1489'>De cette chère Élise, avancer le trépas. </l>
+	<l id='1490'>Arrête, dis-je, et vois cette main toute prête, </l>
+	<l id='1491'>À troubler par sa mort l'aise de ta conquête. </l>
+	<l id='1492'>Tremble, songeant au sang que ce fer va verser. </l>
+	<l id='1493'>Si tu veux qu'elle vive, il y faut renoncer ; </l>
+	<l id='1494'>Il faut quitter la Chypre, et loin de cette terre, </l>
+	<l id='1495'>Aller porter ailleurs tes crimes, et la guerre. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1496'>Hé ! N'es-tu point touché de cet objet charmant ; </l>
+	<l id='1497' part='i'>Barbare ! </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1497' part='f'>Ha ! Je suis sourd aux plaintes d'un amant. </l>
+	<l id='1498' part='i'>Prends parti si tu veux. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1498' part='f'>En puis-je prendre un autre, </l>
+	<l id='1499'>Que de sauver sa vie, et de perdre la nôtre ? </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1500'>Garde-t'en bien, Alcandre, et que par mon danger, </l>
+	<l id='1501'>Ton coeur plutôt s'irrite, et songe à me venger. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1502'>Hélas ! Il est trop tard, ma divine Princesse. </l>
+	<l id='1503'>En vain, mon triste coeur me conseillait sans cesse, </l>
+	<l id='1504'>De ne la point quitter ; mon respect m'a trahi, </l>
+	<l id='1505'>Et je suis malheureux pour avoir obéi ; </l>
+	<l id='1506'>Mais pouvant la sauver par un trépas funeste, </l>
+	<l id='1507'>Hâtons-nous de jouir du seul bien qui nous reste. </l>
+	<l id='1508'>Prends ce fer, cruel Prince ! Et maître de mon sort, </l>
+	<l id='1509'>Sauve ma chère Élise, et me donne la mort. </l>
+</sp>
+
+<sp who='SÉBASTE'><speaker>SÉBASTE, à l'oreille d'Orosmane.</speaker>
+
+	<l id='1510' part='i'>Seigneur ? ... </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1510' part='f'>Et d'où lui vient cette fatale épée ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='1511'>Tant plus à l'observer ma vue est occupée, </l>
+	<l id='1512'>Tant plus je m'y confirme, et je le reconnais. </l>
+	<l id='1513'>Nicanor ! Connais-tu mon visage et ma voix ? </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1514' part='i'>Et serais-tu Sébaste ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='1514' part='f'>Ô l'heureuse journée ! </l>
+	<l id='1515'>Que je revois l'Époux d'Aminte infortunée. </l>
+	<l id='1516'>Vois ton fils Nicanor ; mais q'un bizarre sort, </l>
+	<l id='1517'>Obligea plusieurs fois à souhaiter ta mort. </l>
+	<l id='1518'>Il fut ce vaillant Roi qu'a refusé pour Gendre, </l>
+	<l id='1519'>Et qu'a depuis détruit l'ambitieux Pisandre, </l>
+	<l id='1520'>Il est fils de la jeune, et charmante beauté, </l>
+	<l id='1521'>Que quitta sans objet ton infidélité. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1522'>Hélas ! Je la quittai : mais sans être infidèle, </l>
+	<l id='1523'>Et sans les longs malheurs d'une prison cruelle;</l>
+	<l id='1524'>Le courroux de son père, ou la peur du trépas, </l>
+	<l id='1525'>N'eussent pu m'empêcher de revoir ses appas. </l>
+	<l id='1526'>Mais serait-il mon fils, ce corsaire invincible ? </l>
+	<l id='1527'>Et croirai-je qu'Aminte à l'oubli trop sensible, </l>
+	<l id='1528'>Ait pu sitôt changer en dédains rigoureux, </l>
+	<l id='1529'>Les terribles sentiments de son coeur amoureux ? </l>
+	<l id='1530'>Me dérober un fils si grand par son mérite, </l>
+	<l id='1531'>Qui semble que la terre est pour lui trop petite ; </l>
+	<l id='1532'>Pourquoi me le ravir après l'avoir donné ? </l>
+	<l id='1533'>Pourquoi laisser sans père un fils infortuné ? </l>
+	<l id='1534'>Le crime se doit-il punir sur l'innocence ; </l>
+	<l id='1535'>De combien d'actions pleines de violence, </l>
+	<l id='1536'>Noircit-elle mon nom par cette longue erreur, </l>
+	<l id='1537'>Et doit-on croire ainsi son aveugle fureur ? </l>
+</sp>
+<sp who='SÉBASTE'><speaker>SÉBASTE.</speaker>
+	<l id='1538'>De quoi me servirait une pareille feinte ? </l>
+	<l id='1539'>De quoi servirait-elle, au vaillant fils d'Aminte ? </l>
+	<l id='1540'>En l'avouant pour fils qui gagne plus que toi. </l>
+	<l id='1541'>Et n'as que trop douté, crois-moi Prince, crois-moi. </l>
+</sp>
+
+<sp who='NICANOR'><speaker>NICANOR, à part.</speaker>
+
+	<l id='1542'>Il est vrai que je trouve en ce noble visage, </l>
+	<l id='1543'>De la Reine et de moi, la ressemblante image, </l>
+	<l id='1544'>Ô son fils ! Ô le mien ! Car je n'en doute plus, </l>
+	<l id='1545'>Pardonne généreux à ton père confus, </l>
+	<l id='1546'>Qui t'a longtemps haï sous le nom d'un corsaire, </l>
+	<l id='1547'>Et fait gloire aujourd'hui d'être connu ton père, </l>
+	<l id='1548'>Approche-toi de moi sans haine, et sans courroux. </l>
+	<l id='1549' part='i'>Viens dans mes bras, mon fils. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1549' part='f'>Ou plutôt qu'à genoux, </l>
+	<l id='1550'>J'obtienne le pardon d'une aveugle ignorance... </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1551'>Il ne faut plus songer qu'à la réjouissance ; </l>
+	<l id='1552'>Et vous, ô belle Élise, oubliez le passé ; </l>
+	<l id='1553'>Excusez les transports d'un courroux insensé, </l>
+	<l id='1554'>Agréez un époux qu'un ennemi vous donne, </l>
+	<l id='1555'>Et que mon Amintas soit celui Alcionne. </l>
+	<l id='1556'>Mais, hélas ! Sa blessure au fort de mes plaisirs, </l>
+	<l id='1557'>Fait sortir de mon coeur d'inutiles soupirs. </l>
+</sp>
+<sp who='OROSMANE'><speaker>OROSMANE.</speaker>
+	<l id='1558'>Si je perdais ainsi ce frère incomparable, </l>
+	<l id='1559'>Mon âme de sa mort serait inconsolable. </l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1560'>Les Dieux nous traiteront plus favorablement ; </l>
+	<l id='1561'>Mais il faut l'informer de l'heureux changement, </l>
+	<l id='1562'>Qui donne à cet État une face nouvelle. </l>
+</sp>
+<sp who='NICANOR'><speaker>NICANOR.</speaker>
+	<l id='1563'>Allons tous lui porter cette grande nouvelle. </l>
+	<l id='1564'>Différons le récit de ma funeste amour, </l>
+	<l id='1565'>Et que Chypre à jamais célèbre l'heureux jour </l>
+	<l id='1566'>Qui donne un père au fils, rend le fils à son père, </l>
+	<l id='1567'>Et finit les malheurs d'un grand Prince corsaire. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

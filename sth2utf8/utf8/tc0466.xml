@@ -1,0 +1,3661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+	<teiHeader>
+
+	<fileDesc>
+
+		<titleStmt>
+
+			<title>PROSERPINE, TRAGÉDIE</title>
+
+			<author born='1635' born_location='Paris' death='1688' death_location='Paris' academie='1670'>QUINAULT, Philippe</author>
+
+			<date>1680</date>
+
+		</titleStmt>
+
+		<publicationStmp>	
+
+		<p>publié par Paul FIEVRE, juin 2011.</p>
+
+		</publicationStmp>
+
+		<SourceDesc>
+
+			<genre>Tragédie</genre>
+
+			<inspiration>mythe grec</inspiration>
+
+			<structure>Cinq actes, un prologue</structure>
+
+			<type>vers</type>
+
+			<periode>1671-1680</periode>
+
+			<taille>1000-1250</taille>
+
+			<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k56993297</permalien>
+
+		</SourceDesc>
+
+	</fileDesc>
+
+	</teiHeader>
+
+	<text>
+
+	<front>
+
+		<docTitle>
+
+			<titlePart type="main">PROSERPINE</titlePart>
+
+			<titlePart type="sub">TRAGÉDIE en musique, ornée d'entrées de ballet, de machines et de changements de théâtre</titlePart>
+
+		</docTitle> 
+
+		<docDate value="1680">M. DC. LXXX.</docDate>
+
+		<docAuthor id="QUINAULT, Philippe" bio='quinault'>Philippe Quinault</docAuthor>
+
+		<docImprint>
+
+			<privilege id="16**-**-**"></privilege>
+
+			<acheveImprime id="16**-**-**"></acheveImprime>
+
+			<printer id="BALLARD">À Paris, par Christophe Ballard, seul imprimeur du roi pour la musique, rue Saint jean de Beauvais, au Mont-Parnasse.</printer>
+
+		</docImprint>
+
+		<performance>
+
+			<premiere date="1680-02-03" location='Château de Saint-Germain-en-Laye'>Représenté pour la première fois le troisième février 1680 devant S. M., à Saint-Germain en Laye.</premiere>
+
+		</performance>
+
+		<castList><head>ACTEURS DU PROLOGUE</head>
+
+			<castItem><role id="LA_PAIX" civil="A">LA PAIX</role>.</castItem>
+
+			<castItem><role id="SUITE_PAIX" civil="G">Suite de la Paix</role>.</castItem>
+
+			<castItem><role id="FELICITE" civil="A">LA FÉLICITÉ</role>.</castItem>
+
+			<castItem><role id="ABONDANCE" civil="A">L'ABONDANCE</role>.</castItem>
+
+			<castItem><role id="JEUX" civil="G">LES JEUX</role>.</castItem>
+
+			<castItem><role id="PLAISIRS" civil="G">LES PLAISIRS</role>.</castItem>
+
+			<castItem><role id="JEUX_CHANTANTS" civil="G">JEUX chantants.</role></castItem>
+
+			<castItem><role id="PLAISIRS_CHANTANTS" civil="G">PLAISIRS chantants</role>.</castItem>
+
+			<castItem><role id="JEUX_DANSANTS" civil="G">JEUX dansants</role>.</castItem>
+
+			<castItem><role id="PLAISIRS_DANSANTS" civil="G">PLAISIRS dansants</role>.</castItem>
+
+			<castItem><role id="DISCORDE" civil="A">LA DISCORDE</role>.</castItem>
+
+			<castItem><role id="SUITE_DISCORDE" civil="G">Suite de la Discorde</role>.</castItem>
+
+			<castItem><role id="JALOUSIE" civil="A">LA JALOUSIE</role>.</castItem>
+
+			<castItem><role id="HAINE" civil="A">LA HAINE</role>.</castItem>
+
+			<castItem><role id="DÉPIT" civil="A">LE DÉPIT</role>.</castItem>
+
+			<castItem><role id="RAGE" civil="A">LA RAGE</role>.</castItem>
+
+			<castItem><role id="DESESPOIR" civil="A">LE DESESPOIR</role>.</castItem>
+
+			<castItem><role id="CHAGRINS" civil="G">LES CHAGRINS</role>.</castItem>
+
+			<castItem><role id="SUIVANTS_DISCORDE_CHANTANTS" civil="G">Suite de la Discorde chantants</role>.</castItem>
+
+			<castItem><role id="SUIVANTS_DISCORDE_DANSANTS" civil="G">Suite de la Discordre dansants</role>.</castItem>
+
+			<castItem><role id="VICTOIRE" civil="A">LA VICTOIRE</role>.</castItem>
+
+			<castItem><role id="SUITE_VICTOIRE" civil="G">Suite de la Victoire</role>.</castItem>
+
+			<castItem><role id="TROUPE_VICTOIRES" civil="G">Troupe de Victoires et de Héros</role>.</castItem>
+
+		</castList>
+
+		<castList><head>ACTEURS DE LA TRAGÉDIE</head>
+
+			<castItem><role id="CERES" civil="D">CERES</role>.</castItem>
+
+			<castItem><role id="CYANE" civil="D">CYANE</role>, nymphe de Sicile, confidente de Ceres.</castItem>
+
+			<castItem><role id="CRINISE" civil="D">CRINISE</role>, dieu de fleuve de Sicile.</castItem>
+
+			<castItem><role id="MERCURE" civil="D">MERCURE</role>.</castItem>
+
+			<castItem><role id="ARETHUSE" civil="D">ARETHUSE</role>, nymphe aimée d'Alphée.</castItem>
+
+			<castItem><role id="ALPHEE" civil="D">ALPHÉE</role>, dieu de fleuve, amant d'Arethuse.</castItem>
+
+			<castItem><role id="PROSERPINE" civil="D">PROSERPINE</role>, fille de Jupiter et de Ceres.</castItem>
+
+			<castItem><role id="NYMPHES" civil="G">Troupe de Nymphes</role>.</castItem>
+
+			<castItem><role id="DIEUX_BOIS" civil="G">Troupe de dieux des bois</role>.</castItem>
+
+			<castItem><role id="HABITANTS_SICILE" civil="G">Troupe d'habitants de Sicile</role>.</castItem>
+
+			<castItem><role id="PLUTON" civil="G">PLUTON</role>, dieu des Enfers.</castItem>
+
+			<castItem><role id="ASCALAPHE" civil="G">ASCALAPHE</role>, fils du fleuve Achéron, et confident de Pluton.</castItem>
+
+			<castItem><role id="DIVINITES_INFERNALES" civil="G">Troupe de divinités infernales</role>.</castItem>
+
+			<castItem><role id="SUIVANTS_CERES" civil="G">Troupe de suivants de Ceres</role>.</castItem>
+
+			<castItem><role id="OMBRES_HEUREUSES" civil="G">Ombres heureuses</role>.</castItem>
+
+			<castItem><role id="TROIS_JUGES" civil="G">Les trois juges des Enfers</role>.</castItem>
+
+			<castItem><role id="TROIS_FURIES" civil="G">Les trois furies</role>.</castItem>
+
+			<castItem><role id="JUPITER" civil="D">JUPITER</role>.</castItem>
+
+			<castItem><role id="AMOUR" civil="D">L'AMOUR</role>.</castItem>
+
+			<castItem><role id="HYMENEE" civil="D">L'HYMENÉE</role>.</castItem>
+
+			<castItem><role id="VENUS" civil="D">VÉNUS</role>.</castItem>
+
+			<castItem><role id="PALLAS" civil="D">PALLAS</role>.</castItem>
+
+			<castItem><role id="APOLLON" civil="D">APOLLON</role>.</castItem>
+
+			<castItem><role id="MARS" civil="D">MARS</role>.</castItem>
+
+			<castItem><role id="DIVINITES_CELESTES" civil="G">Troupe de divinités célestes</role>.</castItem>
+
+			<castItem><role id="DIVINITES_SUITE_PLUTON" civil="G">Troupe de divinités de la suite de Pluton</role>.</castItem>
+
+			<castItem><role id="VERTUMNE" civil="D">VERTUMNE</role>.</castItem>
+
+			<castItem><role id="FLORE" civil="D">FLORE</role>.</castItem>
+
+			<castItem><role id="POMONE" civil="D">POMONE</role>.</castItem>
+
+			<castItem><role id="DIVINITES_TERRE" civil="G">Troupe de divinités de la Terre</role>.</castItem>
+
+		</castList>
+
+	<set location='Palais de Cérès' country='Pays mythologique' periode='Temps mythologiques' link=''>Le théâtre représente la Palais de Cérès.</set>
+
+</front>
+
+<body>
+
+<div1 type="prologue" n="0"><head>PROLOGUE</head>
+
+<div2 type="scene" n="1"><head/>
+
+<stage>Le théâtre représente l'antre de la Discorde, on y voit la Paix enchaînée : la Félicité, l'Abondance, les Jeux et les Plaisirs y accompagnent la Paix, et sont enchaînés comme elle.</stage>
+
+<sp who="LA-PAIX"><speaker>LA PAIX.</speaker>
+
+	<l id="1">Héros, dont la valeur étonne l'univers,</l>
+
+	<l id="2">Ah ! Quand briserez-vous nos fers ?</l>
+
+	<l id="3">La discorde nous tient ici sous sa puissance ;</l>
+
+	<l id="4">La barbare se plaît à voir couler nos pleurs ;</l>
+
+	<l id="5">Soyez touché de nos malheurs,</l>
+
+	<l id="6">Vous êtes dans nos maux notre unique espérance ;</l>
+
+	<l id="7">Héros, dont la valeur étonne l'univers,</l>
+
+	<l id="8">Ah quand briserez-vous nos fers !</l>
+
+<stage>La suite de la Paix repète ces deux derniers vers. La haine, la Rage, les Chagrins, la Jalousie, le Dépit, le Désespoir, et toute la suite de la Discorde, témoignent les douceurs qu'ils trouvent dans l'esclavage où ils ont reduit la Paix.</stage>
+
+</sp>
+
+<sp who="LA-DISCORDE"><speaker>LA DISCORDE.</speaker>
+
+	<l id="9">Soupirez, triste paix, malheureuse captive,</l>
+
+	<l id="10">Gémissez, et n'espérez-pas</l>
+
+	<l id="11">Qu'un héros que j'engage en de nouveaux combats</l>
+
+	<l id="12">Écoute votre voix plaintive.</l>
+
+	<l id="13">Plus il moissonne de lauriers,</l>
+
+	<l id="14">Plus j'offre de matière à ses travaux guerriers.</l>
+
+	<l id="15">J'anime les vaincus d'une nouvelle audace ;</l>
+
+	<l id="16">J'oppose à la vive chaleur</l>
+
+	<l id="17">De son indomptable valeur</l>
+
+	<l id="18">Mille fleuves profonds, cent montagnes de glace.</l>
+
+	<l id="19">La victoire empressée à conduire ses pas</l>
+
+	<l id="20">Se prépare à voler aux plus lointains climats ;</l>
+
+	<l id="21">Plus il la suit, plus il la trouve belle ;</l>
+
+	<l id="22">Il oublie aisément pour elle</l>
+
+	<l id="23">La paix et ses plus doux appas.</l>
+
+</sp>
+
+<sp who="LA-PAIX_SA-SUITE"><speaker>LA PAIX et sa suite.</speaker>
+
+	<l id="24">Ô rigueurs inhumaines !</l>
+
+	<l id="25">Faut-il ne voir jamais finir le triste cours</l>
+
+	<l id="26">De nos malheurs, et de nos peines ?</l>
+
+</sp>
+
+<sp who="LA-DISCORDE_SA-SUITE"><speaker>LA DISCORDE et sa suite.</speaker>
+
+	<l id="27">Vos plaintes seront vaines</l>
+
+	<l id="28">N'espérez jamais de secours.</l>
+
+</sp>
+
+<sp who="LA-PAIX_SA-SUITE"><speaker>LA PAIX et sa suite.</speaker>
+
+	<l id="29">Quel tourment de languir toujours</l>
+
+	<l id="30">Sous de cruelles chaînes !</l>
+
+</sp>
+
+<sp who="LA-DISCORDE_SA-SUITE"><speaker>LA DISCORDE et sa suite.</speaker>
+
+	<l id="31">Vos plaintes seront vaines</l>
+
+	<l id="32">N'espérez jamais de secours.</l>
+
+<stage>On entend un bruit de trompettes et de tymbales.</stage>
+
+</sp>
+
+<sp who="LA-DISCORDE"><speaker>LA DISCORDE.</speaker>
+
+	<l id="33">Ce bruit que la victoire en ces lieux fait entendre.</l>
+
+	<l id="34">M'avertit qu'elle y va descendre.</l>
+
+	<l id="35">Quel plaisir de lui faire voir</l>
+
+	<l id="36">Mon ennemie au désespoir !</l>
+
+<stage>La victoire descend, elle est accompagnée d'un grand nombre de victoires, et de héros.</stage>
+
+</sp>
+
+<sp who="LA-VICTOIRE"><speaker>LA VICTOIRE</speaker>
+
+	<l id="37">Venez aimable paix, le vainqueur vous appelle,</l>
+
+	<l id="38">La victoire devient votre guide fidèle ;</l>
+
+	<l id="39">Venez dans un heureux séjour.</l>
+
+	<l id="40">Vous, discorde affreuse et cruelle,</l>
+
+	<l id="41">Portez ses fers à votre tour.</l>
+
+</sp>
+
+<sp who="LA-VICTOIRE_SA-SUITE"><speaker>LA VICTOIRE et sa suite.</speaker>
+
+	<l id="42">Venez, aimable paix, le vainqueur vous appelle.</l>
+
+<stage>La suite de la Victoire déchaîne la Paix et les divinités qui l'accompagnent, et enchaîne la Discorde et sa suite.</stage>
+
+</sp>
+
+<sp who="LA-PAIX_SA-SUITE"><speaker>LA PAIX et sa suite.</speaker>
+
+	<l id="43">Ah ! Quel bonheur charmant !</l>
+
+</sp>
+
+<sp who="LA-DISCORDE_SA-SUITE"><speaker>LA DISCORDE et sa suite.</speaker>
+
+	<l id="44">Ah ! Quel affreux tourment !</l>
+
+</sp>
+
+<sp who="LA-DISCORDE"><speaker>LA DISCORDE enchaînée.</speaker>
+
+	<l id="45">Orgueilleuse victoire, est-ce à toi d'entreprendre</l>
+
+	<l id="46">De mettre la Discorde aux fers ?</l>
+
+	<l id="47">À quels honneurs sans moi peux-tu jamais prétendre ?</l>
+
+</sp>
+
+<sp who="LA-VICTOIRE"><speaker>LA VICTOIRE.</speaker>
+
+	<l id="48">Ah ! Qu'il est beau de rendre</l>
+
+	<l id="49">La Paix à l'univers.</l>
+
+</sp>
+
+<sp who="LA-DISCORDE"><speaker>LA DISCORDE.</speaker>
+
+	<l id="50">Tes soins pour le vainqueur pouvaient plus loin s'étendre ?</l>
+
+	<l id="51">Que ne conduisais-tu le héros que tu sers,</l>
+
+	<l id="52">Où cent lauriers nouveaux lui sont encore offerts ?</l>
+
+	<l id="53">La gloire au bout du monde aurait été l'attendre.</l>
+
+</sp>
+
+<sp who="LA-VICTOIRE"><speaker>LA VICTOIRE.</speaker>
+
+	<l id="54">Ah ! Qu'il est beau de rendre la paix à l'univers.</l>
+
+	<l id="55">Après avoir vaincu mille peuples divers,</l>
+
+	<l id="56">Quand on ne voit plus rien qui puisse se défendre,</l>
+
+	<l id="57">Ah ! Qu'il est beau de rendre la paix à l'univers.</l>
+
+<stage>La suite de la victoire et la suite de la paix, répètent ces derniers vers.</stage>
+
+</sp>
+
+<sp who="LA-DISCORDE"><speaker>LA DISCORDE.</speaker>
+
+	<l id="58">Ô ! Cruel esclavage !</l>
+
+	<l id="59">Je ne verrai donc plus de sang et de carnage ?</l>
+
+	<l id="60">Ah ! Pour mon désespoir faut-il que le vainqueur</l>
+
+	<l id="61">Ait triomphé de son courage ?</l>
+
+	<l id="62">Faut-il qu'il ne laisse à ma rage</l>
+
+	<l id="63">Rien à dévorer que mon coeur ?</l>
+
+	<l id="64">Ô ! Cruel esclavage !</l>
+
+<stage>La suite de la Discorde répète ce dernier vers.</stage>
+
+</sp>
+
+<sp who="LA-VICTOIRE"><speaker>LA VICTOIRE.</speaker>
+
+	<l id="65">Au fond d'un gouffre plein d'horreur,</l>
+
+	<l id="66">Que sous des fers pesants la discorde gémisse.</l>
+
+	<l id="67">Partagez son supplice</l>
+
+	<l id="68">Vous qui partagez sa fureur.</l>
+
+	<l id="69">Et vous triste sejour, changez, que tout ressente</l>
+
+	<l id="70">Le pouvoir plein d'appas de la Paix triomphante.</l>
+
+<stage>La Discorde et sa suite s'abîment dans des gouffres qui s'ouvrent sous leurs pas, et l'affreuse retraite de la Discorde se change en un palais agréable.</stage>
+
+</sp>
+
+<sp who="LA-PAIX_SA-SUITE"><speaker>LA PAIX et sa suite.</speaker>
+
+	<l id="71">Ah quel bonheur charmant !</l>
+
+</sp>
+
+<sp who="LA-DISCORDE_SA-SUITE"><speaker>LA DISCORDE et sa suite en s'abîmant.</speaker>
+
+	<l id="72">Ah ! Quel affreux tourment !</l>
+
+</sp>
+
+<sp who="LA-VICTOIRE_LA-PAIX"><speaker>LA VICTOIRE et LA PAIX.</speaker>
+
+	<l id="73">Le vainqueur est comblé de gloire,</l>
+
+	<l id="74">On doit l'admirer à jamais :</l>
+
+	<l id="75">Il s'est servi de la victoire</l>
+
+	<l id="76">Pour faire triompher la paix.</l>
+
+<stage>La suite de la victoire et la suite de la paix répètent ces quatre vers. La suite de la paix témoigne sa joie en dansant et en chantant.</stage>
+
+</sp>
+
+<sp who="LA-FÉLICITÉ_L-ABONDANCE"><speaker>LA FÉLICITÉ et L'ABONDANCE chantent ensemble.</speaker>
+
+	<l id="77">Il est temps que l'amour nous enchaîne,</l>
+
+	<l id="78">Il sait vaincre les plus fiers vainqueurs.</l>
+
+	<l id="79">Rendons-nous, la fuite est vaine,</l>
+
+	<l id="80">Ce dieu charme tous les coeurs :</l>
+
+	<l id="81">Il n'a point de bien sans peine,</l>
+
+	<l id="82">Mais peut-on trop payer ses douceurs.</l>
+
+	<l id="83">Dans les fers qu'Amour veut que l'on prenne,</l>
+
+	<l id="84">Tout est doux jusqu'aux plus tristes pleurs.</l>
+
+	<l id="85">Rendons-nous, la fuite est vaine,</l>
+
+	<l id="86">Ce dieu charme tous les coeurs, etc.</l>
+
+</sp>
+
+<sp who="LA-PAIX"><speaker>LA PAIX.</speaker>
+
+	<l id="87">On a quitté les armes.</l>
+
+	<l id="88">Voici le temps heureux</l>
+
+	<l id="89">Des plaisirs pleins de charmes,</l>
+
+	<l id="90">Voici le temps heureux</l>
+
+	<l id="91">Des plaisirs et des jeux.</l>
+
+	<l id="92">On ne versera plus de larmes,</l>
+
+	<l id="93">Tous les coeurs seront sans alarmes ;</l>
+
+	<l id="94">Et si l'on craint encor des tourments rigoureux</l>
+
+	<l id="95">Ce sera seulement dans l'empire amoureux.</l>
+
+	<l id="96">On a quitté les armes</l>
+
+	<l id="97">Voici le temps heureux</l>
+
+	<l id="98">Des plaisirs pleins de charmes,</l>
+
+	<l id="99">Voici le temps heureux</l>
+
+	<l id="100">Des plaisirs et des jeux.</l>
+
+<stage>Le choeur répète ces derniers vers.</stage>
+
+</sp>
+
+<sp who="LA-FÉLICITÉ"><speaker>LA FÉLICITÉ.</speaker>
+
+	<l id="101">Que l'amour est doux à suivre !</l>
+
+	<l id="102">Quel plaisir de s'enflammer !</l>
+
+	<l id="103">Un jeune coeur ne commence de vivre</l>
+
+	<l id="104">Que du moment qu'il commence d'aimer.</l>
+
+	<l id="105">Malheureux qui se délivre</l>
+
+	<l id="106">D'un tourment qui sait charmer.</l>
+
+	<l id="107">On reconnaît que l'on cesse de vivre</l>
+
+	<l id="108">En même temps que l'on cesse d'aimer.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR</speaker>
+
+	<l id="109">On a quitté les armes</l>
+
+	<l id="110">Voici le temps heureux</l>
+
+	<l id="111">Des plaisirs pleins de charmes,</l>
+
+	<l id="112">Voici le temps heureux</l>
+
+	<l id="113">Des plaisirs et des jeux.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="1"><head>ACTE I</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Ceres, Cyané, Crinise.</head>
+
+<stage>Le théâtre représente le palais de Ceres.</stage>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="114">Goûtons dans ces aimables lieux</l>
+
+	<l id="115">Les douceurs d'une paix charmante.</l>
+
+	<l id="116">Les superbes géants armés contre les dieux</l>
+
+	<l id="117">Ne nous donnent plus d'épouvante :</l>
+
+	<l id="118">Ils sont ensevelis sous la masse pesante</l>
+
+	<l id="119">Des monts qu'ils entassaient pour attaquer les cieux</l>
+
+	<l id="120">Nous avons vu tomber leur chef audacieux</l>
+
+	<l id="121">Sous une montagne brûlante ;</l>
+
+	<l id="122">Jupiter la contraint de vomir à nos yeux</l>
+
+	<l id="123">Les restes enflamés de sa rage mourante,</l>
+
+	<l id="124">Jupiter est victorieux,</l>
+
+	<l id="125">Et tout cède à l'effort de sa main foudroyante.</l>
+
+	<l id="126">Goûtons dans ces aimables lieux</l>
+
+	<l id="127">Les douceurs d'une paix charmante.</l>
+
+</sp>
+
+<sp who="CERES_CYANE_CRINISE"><speaker>CERES, CYANÉ, et CRINISE.</speaker>
+
+	<l id="128">Goûtons dans ces aimables lieux</l>
+
+	<l id="129">Les douceurs d'une paix charmante.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="130">Prenez soin d'assembler tout ce qui suit mes lois,</l>
+
+	<l id="131">Honnorons le vainqueur d'une commune voix.</l>
+
+</sp>
+
+<sp who="CERES_CYANE_CRINISE"><speaker>CERES, CYANÉ, et CRINISE.</speaker>
+
+	<l id="132">Honnorons le vainqueur d'une commune voix.</l>
+
+<stage>Cyané et Crinise vont de deux côtés différents appeller les divinités et les peuples de la Sicile, pour venir ensemble célébrer la victoire de Jupiter.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Mercure, Ceres.</head>
+
+<stage>Mercure descend du ciel.</stage>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="133">Mercure, quel dessein vous fait ici descendre ?</l>
+
+</sp>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="134">Jupiter près de vous m'ordonne de me rendre.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="135">Non, non, à vos discours je n'ose ajouter foi.</l>
+
+	<l id="136">Jupiter aprés sa victoire</l>
+
+	<l id="137">Songe à tenir en paix l'univers sous sa loi ;</l>
+
+	<l id="138">Il est trop occupé de sa nouvelle gloire,</l>
+
+	<l id="139">Eh ! Le moyen de croire</l>
+
+	<l id="140">Qu'il songe encore à moi ?</l>
+
+</sp>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="141">Dans les soins les plus grands dont son âme est remplie</l>
+
+	<l id="142">Il se souvient toujours que vous l'avez charmé ;</l>
+
+	<l id="143">Il est mal-aisé qu'on oublie</l>
+
+	<l id="144">Ce qu'on a tendrement aimé,</l>
+
+	<l id="145">Il admire les dons que vous venez de faire</l>
+
+	<l id="146">En cent climats divers,</l>
+
+	<l id="147">L'abondante Sicile heureuse de vous plaire</l>
+
+	<l id="148">De vos riches moissons voit tous ses champs couverts :</l>
+
+	<l id="149">Mais la mère des dieux se plaint que la Phrygie</l>
+
+	<l id="150">Quelle a toujours chérie,</l>
+
+	<l id="151">Ne se ressente pas de vos soins bienfaisants ;</l>
+
+	<l id="152">Et c'est Jupiter qui vous prie</l>
+
+	<l id="153">D'y porter vos divins présents.</l>
+
+	<l id="154">Quelle gloire de voir qu'un dieu si grand implore</l>
+
+	<l id="155">Votre favorable secours !</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="156">Peut-être qu'il m'estime encore,</l>
+
+	<l id="157">Mais il m'avait promis qu'il m'aimerait toujours.</l>
+
+	<l id="158">L'amour qui pour lui m'anime</l>
+
+	<l id="159">Devient plus fort chaque jour,</l>
+
+	<l id="160">Est-ce assez d'un peu d'estime</l>
+
+	<l id="161">Pour le prix de tant d'amour.</l>
+
+</sp>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="162">Il sent l'ardeur qu'un tendre amour inspire,</l>
+
+	<l id="163">Avec plaisir il se laisse enflammer ;</l>
+
+	<l id="164">Mais un amant chargé d'un grand empire</l>
+
+	<l id="165">N'a pas toujours le temps de bien aimer.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="166">Quand de son coeur je devins souveraine</l>
+
+	<l id="167">N'avait-il pas le monde à gouverner,</l>
+
+	<l id="168">Et ne trouvait-il pas sans peine</l>
+
+	<l id="169">Du temps de reste à me donner.</l>
+
+	<l id="170">Je l'ai vu sous mes lois ce dieu si redoutable.</l>
+
+	<l id="171">Je l'ai vu plein d'empressement ;</l>
+
+	<l id="172">Ah ! Qu'il serait aimable,</l>
+
+	<l id="173">S'il aimait constamment !</l>
+
+</sp>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="174">Son amour craint de trop paraître,</l>
+
+	<l id="175">Dans le ciel on l'observe avec des yeux jaloux.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="176">De quels dieux n'est-il pas le maître ?</l>
+
+	<l id="177">Ne les fait-il pas trembler tous ?</l>
+
+	<l id="178">Que vous l'excusez mal quand mon amour l'accuse ;</l>
+
+	<l id="179">S'il pouvait avoir quelque excuse,</l>
+
+	<l id="180">Mon coeur la trouverait mille fois mieux que vous.</l>
+
+	<l id="181">Allez, à ses desirs il faut que je réponde.</l>
+
+	<l id="182">Je quitte une paix profonde,</l>
+
+	<l id="183">Qui m'offre ici mille appas :</l>
+
+	<l id="184">Que ne quitterait-on pas</l>
+
+	<l id="185">Pour plaire au maître du monde ?</l>
+
+<stage>Mercure répète ces deux derniers vers avec Céres, et s'envole pour aller au ciel retrouver Jupiter.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Arethuse, Ceres.</head>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="186">La Phrygie a besoin de mes dons précieux,</l>
+
+	<l id="187">Et je laisse avec vous Proserpine en ces lieux,</l>
+
+	<l id="188">J'ai peine à la quitter, cette fille si chère...</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="189">Je suis dans la Sicile une nymphe étrangère,</l>
+
+	<l id="190">Je viens vous conjurer de m'en laisser partir.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="191">Non, Arethuse, non, je n'y puis consentir.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="192">Alphée à mon repos a declaré la guerre :</l>
+
+	<l id="193">Diane propice à mes voeux,</l>
+
+	<l id="194">En vain pour me cacher à ce fleuve amoureux,</l>
+
+	<l id="195">Fit ouvrir le sein de la terre :</l>
+
+	<l id="196">Il n'est point de détours dans l'ombre des enfers</l>
+
+	<l id="197">Que son amour n'ait découverts :</l>
+
+	<l id="198">Je l'ai trouvé partout, et sous des mers profondes</l>
+
+	<l id="199">J'ai vu ses flots brûlants suivre mes froides ondes ;</l>
+
+	<l id="200">Je veux le fuir encore au bout de l'univers.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="201">Les soins d'un amour extrême</l>
+
+	<l id="202">Devraient moins vous allarmer :</l>
+
+	<l id="203">Vous craignez trop qu'on vous aime,</l>
+
+	<l id="204">Ne craignez vous point d'aimer ?</l>
+
+	<l id="205">Vous rougissez, Arethuse ;</l>
+
+	<l id="206">Votre rougeur vous accuse.</l>
+
+	<l id="207">Il est aisé de voir dans ce trouble fatal</l>
+
+	<l id="208">Le péril où l'amour en ces lieux vous expose.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="209">Le dangereux amour ! Que je lui veux de mal</l>
+
+	<l id="210">Du trouble qu'il me cause !</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="211">Avec Alphée ici je veux vous arrêter.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="212">Eh ! De grâce, aidez-moi plutôt à l'éviter.</l>
+
+	<l id="213">Je crains enfin qu'il ne m'engage,</l>
+
+	<l id="214">Et sa constance me fait peur :</l>
+
+	<l id="215">Non, si je le vois davantage,</l>
+
+	<l id="216">Je ne réponds plus de mon coeur.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="217">Aimez sans vous contraindre,</l>
+
+	<l id="218">Aimez à votre tour.</l>
+
+	<l id="219">C'est déja ressentir l'amour</l>
+
+	<l id="220">Que de commencer à le craindre.</l>
+
+<stage>Arethuse chante ces deux derniers vers avec Ceres.</stage>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="221">Je vais voir Proserpine, et partir promptement.</l>
+
+	<l id="222">Demeurez avec elle en un lieu si charmant</l>
+
+	<l id="223">Pour fuir l'amour qui vous appelle</l>
+
+	<l id="224">Ne cherchez plus de vains détours :</l>
+
+	<l id="225">Aimez un amant fidèle,</l>
+
+	<l id="226">On n'en trouve pas toujours</l>
+
+<stage>Ceres va voir Proserpine avant que de partir pour aller en Phrygie.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE, seule.</speaker>
+
+	<l id="227">Vaine fierté, faible rigueur,</l>
+
+	<l id="228">Que vous avez peu de puissance</l>
+
+	<l id="229">Contre l'amour et la constance !</l>
+
+	<l id="230">Vaine fierté, faible rigueur,</l>
+
+	<l id="231">Ah ! Que vous gardez mal mon coeur !</l>
+
+	<l id="232">En vain, par vos conseils je me fais violence :</l>
+
+	<l id="233">Je combats vainement une douce langueur :</l>
+
+	<l id="234">Hélas ! Vous m'engagez à faire résistance,</l>
+
+	<l id="235">Et vous me laissez sans défense,</l>
+
+	<l id="236">Au pouvoir de l'amour vainqueur ?</l>
+
+	<l id="237">Vaine fierté, faible rigueur,</l>
+
+	<l id="238">Que vous avez peu de puissance</l>
+
+	<l id="239">Contre l'amour et la constance !</l>
+
+	<l id="240">Vaine fierté, faible rigueur,</l>
+
+	<l id="241">Ah ! Que vous gardez mal mon coeur !</l>
+
+	<l id="242">Je vois Alphée, ô dieux ! Où sera mon asile !</l>
+
+	<l id="243">Mon coeur est déjà charmé,</l>
+
+	<l id="244">Et ma fuite est inutile ;</l>
+
+	<l id="245">Hélas ! Qu'il est difficile</l>
+
+	<l id="246">De fuir un amant aimé !</l>
+
+	<l id="247">Il approche, je tremble. Ah faut-il qu'il jouisse</l>
+
+	<l id="248">Du trouble honteux où je suis ?</l>
+
+	<l id="249">Pardonne, amour, si je le fuis,</l>
+
+	<l id="250">J'en ressens un cruel supplice ;</l>
+
+	<l id="251">Mais n'importe, je veux l'éviter si je puis.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Alphée, Aréthuse.</head>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="252">Arrêtez, nymphe trop sevère,</l>
+
+	<l id="253">Ne fuyez plus d'une course legère</l>
+
+	<l id="254">Les soins trop empressés de mon coeur amoureux ;</l>
+
+	<l id="255">N'ayez plus contre moi ni chagrin ni colère,</l>
+
+	<l id="256">J'ai résolu de ne vous plus déplaire,</l>
+
+	<l id="257">Et je vais étouffer mon amour malheureux.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="258" part="i">Alphée...</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="258" part="f">Alphée enfin vous arrête, inhumaine,</l>
+
+	<l id="259">Mais vous vous arrêtez pour voir briser sa chaîne.</l>
+
+	<l id="260">C'en est fait, mes fers sont rompus.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="261">Alphée, est-il bien vrai ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="262">N'en doutez point, cruelle,</l>
+
+	<l id="263">Je le reprends ce coeur trop tendre et trop fidèle,</l>
+
+	<l id="264">Ce coeur trop rebutté par de cruels refus.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="265">Alphée, est-il bien vrai que vous ne m'aimiez plus ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="266">Ingrate il est trop vrai, mon coeur rompt avec peine</l>
+
+	<l id="267">Des noeuds qu'il a trouvé si beaux ;</l>
+
+	<l id="268">Mais de peur qu'il ne les reprenne</l>
+
+	<l id="269">Je le veux engager en des liens nouveaux.</l>
+
+	<l id="270">J'ai vu l'aimable Proserpine :</l>
+
+	<l id="271">On connait à l'éclat de sa beauté divine</l>
+
+	<l id="272">Que du maître des dieux elle a recçu le jour.</l>
+
+	<l id="273">Rendez-lui grâce,</l>
+
+	<l id="274">C'est elle qui vous débarasse</l>
+
+	<l id="275">De mon fâcheux amour.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="276">Si Proserpine est belle,</l>
+
+	<l id="277">Son coeur est fier et rigoureux :</l>
+
+	<l id="278">Votre chaîne nouvelle</l>
+
+	<l id="279">Ne vous rendra pas plus heureux.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="280">N'importe je veux bien souffrir sous son empire.</l>
+
+	<l id="281">Vous ne m'avez déjà que trop accoutumé</l>
+
+	<l id="282">Au rigoureux martyre</l>
+
+	<l id="283">D'aimer sans être aimé.</l>
+
+	<l id="284">Proserpine vous aime, et j'ose au moins prétendre</l>
+
+	<l id="285">Que vous me servirez dans cet engagement.</l>
+
+	<l id="286">Vous savez si mon coeur est tendre,</l>
+
+	<l id="287">Vous avez éprouvé s'il aime constamment...</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE voulant fuir Alphée qui la suit.</speaker>
+
+	<l id="288">Non je ne veux jamais entendre</l>
+
+	<l id="289">Parler ni d'amour ni d'amant.</l>
+
+	<l id="290">Me suivrez-vous sans cesse ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="291">Me fuirez-vous toujours ?</l>
+
+	<l id="292">L'ingrate Arethuse me laisse</l>
+
+	<l id="293">Sans espoir de secours ?</l>
+
+	<l id="294">C'est un feu nouveau qui me presse...</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="295">Me suivrez-vous sans cesse ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="296">Me fuirez-vous toujours ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Proserpine, Alphée, Arethuse, Cyané, Crinise, troupes de divinités et de peuples de Sicile, quatorze nymphes chantantes, six divinités des bois chantantes, six divinités des eaux chantantes, six habitants de Sicile chantants, un conducteur de la fête dansant, six habitants de Sicile dansants...</head>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="297">Ceres va nous ôter sa divine présence,</l>
+
+	<l id="298">Ces lieux vont perdre leurs attraits,</l>
+
+	<l id="299">Ceres, favorable Ceres,</l>
+
+	<l id="300">Faites cesser bientôt votre cruelle absence,</l>
+
+	<l id="301">Ceres, favorable Ceres</l>
+
+	<l id="302">Écoutez nos tristes regrets.</l>
+
+<stage>Le choeur répète ces derniers vers.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Ceres, Proserpine, Alphée, Arethuse, Cyané, Crinise, troupes de divinités et de peuples.</head>
+
+<sp who="CERES"><speaker>CERES sur son char tiré par des dragons ailés.</speaker>
+
+	<l id="303">Vous qui voulez pour moi signaler votre zèle</l>
+
+	<l id="304">Ne troublez point la paix de cet heureux séjour,</l>
+
+	<l id="305">Je presse mon depart pour hâter mon retour ;</l>
+
+	<l id="306">Accompagnez ma fille avec un soin fidèle.</l>
+
+	<l id="307">Changez vos tristes chants en de charmants concerts ;</l>
+
+	<l id="308">Que j'entende en partant dans le milieu des airs</l>
+
+	<l id="309">Éclater la gloire nouvelle</l>
+
+	<l id="310">Du plus grand dieu de l'univers.</l>
+
+<stage>Ceres fait partir son char volant.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Proserpine, Alphée, Arethuse, Cyané, Crinise, troupe de divinités, troupe de peuples.</head>
+
+<sp who="PROSERPINE_LE-CHOEUR"><speaker>PROSERPINE et LE CHOEUR.</speaker>
+
+	<l id="311">Célébrons la victoire</l>
+
+	<l id="312">Du plus puissant des dieux.</l>
+
+	<l id="313">Qu'un trophée éternel conserve la mémoire</l>
+
+	<l id="314">D'un triomphe si glorieux.</l>
+
+	<l id="315">Célébrons la victoire</l>
+
+	<l id="316">Du plus puissant des dieux ;</l>
+
+	<l id="317">Faisons retentir jusqu'aux cieux</l>
+
+	<l id="318">Le bruit éclatant de sa gloire :</l>
+
+	<l id="319">Célébrons la victoire</l>
+
+	<l id="320">Du plus puissant des dieux.</l>
+
+<stage>On danse autour d'un trophée qu'on élève à l'honneur de Jupiter, et que l'on forme du débris des armes monstrueuses des gens vaincus. Sur la fin de cette fête on entend un tremblement de terre qui fait tomber une partie du palais de Ceres.</stage>
+
+	<l id="321">Ce palais va tomber ; ô dieux ! La terre s'ouvre !</l>
+
+	<l id="322">Quels tremblements affreux !</l>
+
+	<l id="323">L'enfer découvre</l>
+
+	<l id="324">Ses gouffres ténébreux.</l>
+
+	<l id="325">Jupiter lancez le tonnerre,</l>
+
+	<l id="326">Renversez par de nouveaux coups</l>
+
+	<l id="327">Le chef audacieux des enfants de la terre :</l>
+
+	<l id="328">Il veut se relever pour s'armer contre vous,</l>
+
+	<l id="329">Achevez d'étouffer la guerre.</l>
+
+	<l id="330">Jupiter : lancez le tonnerre.</l>
+
+<stage>Le tonnerre tombe sur le mont Aetna, qui paraît dans l'éloignement ; et ce coup achève d'accabler le chef des géants, qui s'efforçait de se relever.</stage>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="2"><head>ACTE II</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Crinise, Alphée.</head>
+
+<stage>Le théâtre, change et représente les jardins de Ceres.</stage>
+
+<sp who="CRINISE"><speaker>CRINISE.</speaker>
+
+	<l id="331">Jupiter a dompté les Géants pour jamais.</l>
+
+	<l id="332">Ce beau séjour brille de nouveaux charmes,</l>
+
+	<l id="333">Tout y ressent le retour de la paix :</l>
+
+	<l id="334">Ah ! Que le repos a d'attraits</l>
+
+	<l id="335">Après de mortelles alarmes.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="336">La paix dans ces beaux lieux m'offre en vain mille appas.</l>
+
+	<l id="337">L'amour en rend pour moi la douceur inutile ;</l>
+
+	<l id="338">Cruel amour, hélas !</l>
+
+	<l id="339">Que me sert-il de voir tout le monde tranquille</l>
+
+	<l id="340">Si mon coeur ne l'est pas ?</l>
+
+</sp>
+
+<sp who="CRINISE"><speaker>CRINISE.</speaker>
+
+	<l id="341">Vous changez, vous quittez une nymphe inhumaine.</l>
+
+	<l id="342">Votre coeur ne risque rien</l>
+
+	<l id="343">À choisir une autre chaîne,</l>
+
+	<l id="344">C'est toujours un bien</l>
+
+	<l id="345">De changer de peine.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="346">Heureux qui peut être inconstant !</l>
+
+	<l id="347">Rebuté des rigueurs d'une haine éternelle,</l>
+
+	<l id="348">J'ai voulu la quitter cette beauté cruelle,</l>
+
+	<l id="349">Et j'éprouve qu'en la quittant</l>
+
+	<l id="350">Mon coeur est encor moins content.</l>
+
+	<l id="351">J'ai feint de ressentir une flamme nouvelle,</l>
+
+	<l id="352">J'ai fait voir à ses yeux un dépit éclatant ;</l>
+
+	<l id="353">Mais hélas ! Dans le même instant</l>
+
+	<l id="354">Je brûlais en secret, je languissais pour elle,</l>
+
+	<l id="355">Et je ne l'aimai jamais tant.</l>
+
+	<l id="356">Qu'il coûte cher d'être fidèle !</l>
+
+	<l id="357">Heureux qui peut être inconstant !</l>
+
+<stage>Crinise et Alphée répètent ensemble ces deux derniers vers.</stage>
+
+</sp>
+
+<sp who="CRINISE"><speaker>CRINISE.</speaker>
+
+	<l id="358">Quelqu'un vient, gardez le silence.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="359">C'est Ascalaphe qui s'avance</l>
+
+	<l id="360">Pour quelque soin pressant il quitte les enfers :</l>
+
+	<l id="361">Il n'a de mon amour que trop de connaissance,</l>
+
+	<l id="362">Où n'ai-je point porté la honte de mes fers ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Ascalaphe, Alphée.</head>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="363">Venez goûter ici le doux air qu'on respire.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="364">Je dois suivre le dieu de l'infernal empire.</l>
+
+	<l id="365">La terre par ses tremblements</l>
+
+	<l id="366">Vient d'ébranler les fondements</l>
+
+	<l id="367">De nos demeures sombres :</l>
+
+	<l id="368">Pluton a voulu voir si la clarté des cieux</l>
+
+	<l id="369">Ne s'ouvre point de passage en ces lieux</l>
+
+	<l id="370">Pour aller aux enfers effaroucher les ombres.</l>
+
+	<l id="371">Il me permet de voir Arethuse un moment.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="372">D'où vous vient tant d'empressement ?</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="373">Je l'ai vue aux enfers ; que je la trouvais belle !</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="374">L'ingrate me fuyait, elle est toujours cruelle.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="375">Ses cruautés pour vous, ses soins pour fuir vos pas</l>
+
+	<l id="376">Ont encore à mes yeux augmenté ses appas.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="377">Les flammes amoureuses</l>
+
+	<l id="378">Descendent-elles jusqu'à vous ?</l>
+
+	<l id="379">L'amour veut un séjour plus doux</l>
+
+	<l id="380">Que vos demeures ténébreuses.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="381">L'astre brillant qui vous luit</l>
+
+	<l id="382">Finit son cours dans les ondes,</l>
+
+	<l id="383">Il ne peut percer la nuit</l>
+
+	<l id="384">De nos demeures profondes ;</l>
+
+	<l id="385">Mais il n'est point de séjour</l>
+
+	<l id="386">Impénétrable à l'amour.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="387">Qu'espérez-vous d'une âme si sévère ?</l>
+
+	<l id="388">Mon amour ne peut l'émouvoir.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="389">Si vous ne savez pas le secret de lui plaire</l>
+
+	<l id="390">Un autre pourra le savoir.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="391">Saurez-vous de son coeur vaincre la résistance ?</l>
+
+	<l id="392">Est-ce aux enfers qu'on apprend ce secret ?</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="393">On apprend aux enfers à garder le silence,</l>
+
+	<l id="394">Et l'on y sait être discret ;</l>
+
+	<l id="395">La nymphe que je cherche avec soin vous évite,</l>
+
+	<l id="396">Pour la trouver, il faut que je vous quitte.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE, seul.</speaker>
+
+	<l id="397">Amants qui n'êtes point jaloux,</l>
+
+	<l id="398">Que votre sort est doux !</l>
+
+	<l id="399">L'amour m'a fait gêmir sous une dure chaîne ;</l>
+
+	<l id="400">Mais quand je me plaignais de ses funestes coups</l>
+
+	<l id="401">Je ne connaissais pas le plus cruel de tous.</l>
+
+	<l id="402">Un autre aime Arethuse et ne craint point sa haine ;</l>
+
+	<l id="403">Et je vois sur moi seul tomber tout son courroux :</l>
+
+	<l id="404">C'était peu du malheur d'aimer une inhumaine,</l>
+
+	<l id="405">Le bonheur d'un rival a redoublé ma peine.</l>
+
+	<l id="406">Amants qui n'êtes point jaloux,</l>
+
+	<l id="407">Que votre sort est doux !</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Alphée, Arethuse.</head>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="408">Ingrate, écoutez-moi, je ne veux plus me plaindre,</l>
+
+	<l id="409">Je ne vous dirai rien qui vous puisse alarmer.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="410">Vous cessez de m'aimer,</l>
+
+	<l id="411">Je cesse de vous craindre.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="412">Ascalaphe vous cherche ici,</l>
+
+	<l id="413">Bientôt vous le verrez paraître ;</l>
+
+	<l id="414">Arethuse, peut-être,</l>
+
+	<l id="415">Vous le cherchez aussi.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="416">L'aimable Proserpine en votre âme a fait naître</l>
+
+	<l id="417">Une nouvelle ardeur ;</l>
+
+	<l id="418">Si vous ne m'aimez plus, que vous sert de connaître</l>
+
+	<l id="419">Le secret de mon coeur ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="420">Faut-il que votre coeur à l'amour moins rebelle</l>
+
+	<l id="421">Récompense un amant sans éprouver sa foi ?</l>
+
+	<l id="422">Si ce bien eût été le prix du plus fidèle,</l>
+
+	<l id="423">Ah ! Vous savez, cruelle,</l>
+
+	<l id="424">Qu'il n'était dû qu'à moi.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="425">Votre nouvelle chaîne est si belle et si forte !</l>
+
+	<l id="426">Pourquoi songer encore à des liens rompus.</l>
+
+	<l id="427">Que vous importe</l>
+
+	<l id="428">Qu'un autre emporte</l>
+
+	<l id="429">Un prix qui ne vous touche plus ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="430">Vous avez fui les soins de mon amour extrême,</l>
+
+	<l id="431">Vous m'avez osté tout espoir :</l>
+
+	<l id="432">Si je disais que je vous aime,</l>
+
+	<l id="433">Vous m'ôteriez encor le plaisir de vous voir.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ARÉTHUSE et ALPHÉE.</speaker>
+
+	<l id="434">C'est une autre que moi qui règne dans votre âme,</l>
+
+	<l id="435">C'est un autre que moi qui règne dans votre âme,</l>
+
+	<l id="436">Vous trouvez d'autres noeuds plus doux :</l>
+
+	<l id="437">En vain je veux cacher ma flamme,</l>
+
+	<l id="438">Mon amour paraît trop dans mes transports jaloux ;</l>
+
+	<l id="439">Non, je ne puis aimer que vous.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Ascalaphe, Aréthuse, Alphée.</head>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="440">Est-il vrai que mon coeur soit en votre puissance ?</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="441">Je vous aime sans espérance ;</l>
+
+	<l id="442">J'ai voulu soulager mon mal</l>
+
+	<l id="443">Par le chagrin de mon rival.</l>
+
+	<l id="444">Dans les enfers, c'est ainsi qu'on en use :</l>
+
+	<l id="445">Mes maux n'ont pu trouver d'autre adoucissement.</l>
+
+	<l id="446">Pardonnez-moi, belle Arethuse,</l>
+
+	<l id="447">Je ne suis pas le seul qui se vante en aimant</l>
+
+	<l id="448">De posséder un coeur qu'on lui refuse.</l>
+
+	<l id="449">Mais Alphée aujourd'hui n'est plus tant rebutté ?</l>
+
+	<l id="450">Vous ne fuyez plus sa présence ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="451">Pour punir votre vanité</l>
+
+	<l id="452">Je veux que vous voyez triompher sa constance.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="453">En lui donnant la préférence,</l>
+
+	<l id="454">Vous me rendez la liberté.</l>
+
+	<l id="455">Le dépit qui me possède</l>
+
+	<l id="456">Me guérira promptement,</l>
+
+	<l id="457">Vous en faites mon tourment,</l>
+
+	<l id="458">Et j'en ferai mon remède.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="459">Pour être heureux, il faut qu'on aime bien.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="460">Pour être heureux il faut qu'on n'aime rien.</l>
+
+	<l id="461">Mais Pluton va bientôt rentrer dans son empire :</l>
+
+	<l id="462">Il passe en ces lieux, il admire</l>
+
+	<l id="463">Les charmes d'un séjour si doux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Pluton, Aréthuse, Ascalaphe, Alphée.</head>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="464">Demeurez Arethuse, Alphée éloignez-vous.</l>
+
+	<l id="465">Alphée se retire, et Pluton continue à parler.</l>
+
+	<l id="466">Les efforts d'un géant qu'on croyait accablé</l>
+
+	<l id="467">Ont fait encor frémir le ciel, la terre, et l'onde</l>
+
+	<l id="468">Mon Empire s'en est troublé ;</l>
+
+	<l id="469">Jusqu'au centre du monde</l>
+
+	<l id="470">Mon trône en a tremblé.</l>
+
+	<l id="471">L'affreux Typhoée avec sa vaine rage</l>
+
+	<l id="472">Trébuche enfin dans des gouffres sans fonds.</l>
+
+	<l id="473">L'éclat du jour ne s'ouvre aucun passage</l>
+
+	<l id="474">Pour pénétrer les royaumes profonds</l>
+
+	<l id="475">Qui me sont échus en partage.</l>
+
+	<l id="476">Le ciel ne craindra plus que ses fiers ennemis</l>
+
+	<l id="477">Se relèvent jamais de leur chute mortelle,</l>
+
+	<l id="478">Et du monde ébranlé par leur fureur rebelle</l>
+
+	<l id="479">Les fondements sont raffermis :</l>
+
+	<l id="480">Je puis faire goûter une paix éternelle</l>
+
+	<l id="481">Aux peuples souterrains que le sort m'a soumis.</l>
+
+	<l id="482">Mais par vos soins puis-je voir Proserpine</l>
+
+	<l id="483">Avant que de quitter cet aimable séjour ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="484">Cette fiere beauté s'obstine</l>
+
+	<l id="485">À fuir les amants et l'amour.</l>
+
+	<l id="486">Dans l'innocent repos de cette solitude</l>
+
+	<l id="487">Elle évite les dieux</l>
+
+	<l id="488">De la terre et des cieux :</l>
+
+	<l id="489">Jugez de son inquiétude</l>
+
+	<l id="490">Si le dieu des enfers paraisaoit à ses yeux.</l>
+
+	<l id="491">Caché sous cet épais feuillage</l>
+
+	<l id="492">Vous pourriez la voir un moment.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="493">Allez, il suffira que votre soin l'engage</l>
+
+	<l id="494">À venir dans ce lieu charmant,</l>
+
+	<l id="495">Et si je puis la voir il n'importe comment.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Pluton, Ascalaphe.</head>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="496">J'ai peine à concevoir d'où vient le trouble extrême</l>
+
+	<l id="497">Où le coeur de Pluton semble s'abandonner.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="498">Tu peux t'en étonner,</l>
+
+	<l id="499">J'en suis surpris moi-même</l>
+
+	<l id="500">J'ai trouvé Proserpine en visitant ces lieux.</l>
+
+	<l id="501">Les pleurs coulaient de ses beaux yeux :</l>
+
+	<l id="502">Elle fuyait, interdite, et tremblante ;</l>
+
+	<l id="503">Pour implorer l'assistance des dieux</l>
+
+	<l id="504">Elle tournait ses regards vers les cieux :</l>
+
+	<l id="505">Sa douleur et son épouvante</l>
+
+	<l id="506">Rendaient encor sa beauté plus touchante.</l>
+
+	<l id="507">Les accents plaintifs de sa voix</l>
+
+	<l id="508">Ont ému mon coeur inflexible ;</l>
+
+	<l id="509">Qu'un coeur fier est troublé quand il devient sensible</l>
+
+	<l id="510">Pour la première fois !</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="511">Contre l'amour quel coeur peut se défendre ?</l>
+
+	<l id="512">Le temps d'aimer n'est pas connu,</l>
+
+	<l id="513">Il faut l'attendre ;</l>
+
+	<l id="514">Quand ce temps fatal est venu,</l>
+
+	<l id="515">Il faut se rendre.</l>
+
+	<l id="516">Contre l'amour quel coeur peut se défendre ?</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="517">De ce dieu si puissant je méprisais les feux,</l>
+
+	<l id="518">J'éprouve enfin sa vengeance cruelle.</l>
+
+	<l id="519">Je l'ai vu ce dieu dangereux,</l>
+
+	<l id="520">Il suivait Proserpine, il volait après elle.</l>
+
+	<l id="521">J'ai vu de sa fatale main</l>
+
+	<l id="522">Partir un trait de flamme,</l>
+
+	<l id="523">J'ai voulu l'éviter en vain,</l>
+
+	<l id="524">Le coup a pénétré jusqu'au fond de mon âme.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="525">L'amour a surmonté le maître des enfers ;</l>
+
+	<l id="526">Il n'a plus rien à vaincre après cette victoire.</l>
+
+</sp>
+
+<sp who="PLUTON-ASCALAPHE"><speaker>Pluton et Ascalaphe.</speaker>
+
+	<l id="527">L'amour comblé de gloire</l>
+
+	<l id="528">Triomphe de tout l'univers.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Proserpine, Cyané, Arethuse, Pluton, Ascalaphe, troupe de nymphes, quatorze nymphes de la suite de Proserpine chantantes, huit nymphes dansantes.</head>
+
+<sp who="PROSERPINE_SES-NYMPHES"><speaker>PROSERPINE et ses NYMPHES.</speaker>
+
+	<l id="529">Les beaux jours et la paix</l>
+
+	<l id="530">Sont revenus ensemble.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="531">La troupe des nymphes s'assemble,</l>
+
+	<l id="532">Retirons-nous sous ce feuillage épais.</l>
+
+<stage>Pluton et Ascalaphe se retirent et se cachent, et Proserpine et ses nymphes s'avancent en dansant et en chantant.</stage>
+
+</sp>
+
+<sp who="PROSERPINE_SES-NYMPHES"><speaker>PROSERPINE et ses NYMPHES.</speaker>
+
+	<l id="533">Les beaux jours et la paix</l>
+
+	<l id="534">On ne voit plus de coeur qui tremble,</l>
+
+	<l id="535">Tout rit dans ces lieux pleins d'attraits.</l>
+
+	<l id="536">Les beaux jours et la paix</l>
+
+	<l id="537">Sont revenus ensemble.</l>
+
+<stage>Proserpine et ses nymphes continuent leurs danses et leurs chants.</stage>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="538">Belles fleurs, charmant ombrage</l>
+
+	<l id="539">Il ne faut aimer que vous.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="540">On ne trouve rien de doux</l>
+
+	<l id="541">Quand on est dans l'esclavage.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="542">Belles fleurs, charmant ombrage</l>
+
+	<l id="543">Il ne faut aimer que vous.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="544">Les amants n'ont en partage</l>
+
+	<l id="545">Que langueurs, que soins jaloux.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="546">Belles fleurs, charmant ombrage</l>
+
+	<l id="547">Il ne faut aimer que vous.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="548">Belles fleurs charmant ombrage,</l>
+
+	<l id="549">Il ne faut aimer que vous.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="550">Quand un coeur est trop sensible,</l>
+
+	<l id="551">Rien ne peut le rendre heureux.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="552">Dans les plus aimables noeuds</l>
+
+	<l id="553">On n'a point de bien paisible.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="554">Quand un coeur est trop sensible,</l>
+
+	<l id="555">Rien ne peut le rendre heureux.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="556">C'est toujours un mal terrible</l>
+
+	<l id="557">Que l'ardeur des plus beaux feux.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="558">Quand un coeur est trop sensible,</l>
+
+	<l id="559">Rien ne peut le rendre heureux.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="560">Quand un coeur est trop sensible</l>
+
+	<l id="561">Rien ne peut le rendre heureux.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="562">Que notre vie</l>
+
+	<l id="563">Doit faire envie !</l>
+
+	<l id="564">Le vrai bonheur</l>
+
+	<l id="565">Est de garder son coeur.</l>
+
+	<l id="566">Le jour n'éclaire</l>
+
+	<l id="567">Que pour nous plaire,</l>
+
+	<l id="568">Ces arbres verts.</l>
+
+	<l id="569">Ont leur plus beau feuillage,</l>
+
+	<l id="570">Et mille oiseaux divers</l>
+
+	<l id="571">Dans ce boccage</l>
+
+	<l id="572">Imitent nos concerts</l>
+
+	<l id="573">Par leur ramage ;</l>
+
+	<l id="574">Que notre vie</l>
+
+	<l id="575">Doit faire envie !</l>
+
+	<l id="576">Le vrai bonheur</l>
+
+	<l id="577">Est de garder son coeur.</l>
+
+	<l id="578">Tout s'intéresse</l>
+
+	<l id="579">Dans nos désirs,</l>
+
+	<l id="580">Jamais l'amour ne nous blesse,</l>
+
+	<l id="581">Les doux plaisirs</l>
+
+	<l id="582">Sont pour les coeurs sans faiblesse.</l>
+
+	<l id="583">Que notre vie</l>
+
+	<l id="584">Doit faire envie !</l>
+
+	<l id="585">Le vrai bonheur</l>
+
+	<l id="586">Est de garder son coeur.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="587">Que notre vie</l>
+
+	<l id="588">Doit faire envie !</l>
+
+	<l id="589">Le vrai bonheur</l>
+
+	<l id="590">Est de garder son coeur.</l>
+
+	<l id="591">Pour nous défendre</l>
+
+	<l id="592">D'un amour tendre,</l>
+
+	<l id="593">Avec fierté,</l>
+
+	<l id="594">Nous avons pris les armes :</l>
+
+	<l id="595">Nos biens n'ont point coûté</l>
+
+	<l id="596">De tristes larmes,</l>
+
+	<l id="597">La liberté</l>
+
+	<l id="598">N'a jamais que des charmes :</l>
+
+	<l id="599">Que notre vie, etc.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="600">Nous reverrons bientôt Ceres dans ces beaux lieux,</l>
+
+	<l id="601">Il faut lui préparer des guirlandes nouvelles.</l>
+
+	<l id="602">Séparons-nous ; voyons qui sait le mieux</l>
+
+	<l id="603">Assortir les fleurs les plus belles.</l>
+
+</sp>
+
+<sp who="CHOEUR-DE-NYMPHES"><speaker>CHOEUR DE NYMPHES.</speaker>
+
+	<l id="604">Voyons qui sait le mieux</l>
+
+	<l id="605">Assortir les fleurs les plus belles.</l>
+
+<stage>Les nymphes s'écartent, Proserpine et Cyané cueillent des fleurs.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="9"><head>SCÈNE IX. Pluton, Proserpine, Ascalaphe, Cyané, troupe de divinités des enfers, huit divinités infernales chantantes.</head>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="606">Infernales divinités</l>
+
+	<l id="607">Secondez mon amour, sortez.</l>
+
+<stage>Une troupe de divinités infernales sort de la terre, et le char de Pluton paraît en même temps.</stage>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="608">Ciel ! Prenez ma défense !</l>
+
+</sp>
+
+<sp who="PROSERPINE_CYANÉ"><speaker>PROSERPINE et CYANÉ.</speaker>
+
+	<l id="609">Ô ciel ! Protégez l'innocence !</l>
+
+</sp>
+
+<sp who="PLUTON_ASCALAPHE_DIVINITES-INFERNALES"><speaker>PLUTON, ASCALAPHE, et les divinités infernales.</speaker>
+
+	<l id="610">Proserpine ne craignez pas</l>
+
+	<l id="611">Un dieu charmé de vos appas.</l>
+
+</sp>
+
+<sp who="CYANÉ"><speaker>CYANÉ retenant Proserpine.</speaker>
+
+	<l id="612">Qu'elle barbare violence !</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="613">Nymphe, crains ma vangeance :</l>
+
+	<l id="614">Sur peine de perdre la voix.</l>
+
+	<l id="615">Garde-toi de parler de tout ce que tu vois.</l>
+
+<stage>L'écharpe de Proserpine demeure dans les mains de Cyané, et Pluton fait placer Proserpine près de lui sur son char.</stage>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="616">Ciel ! Prenez ma défense !</l>
+
+</sp>
+
+<sp who="PROSERPINE_CYANÉ"><speaker>PROSERPINE et CYANÉ.</speaker>
+
+	<l id="617">Ô ciel ! Protégez l'innocence !</l>
+
+</sp>
+
+<sp who="PLUTON_ASCALAPHE_DIVINITES-INFERNALES"><speaker>PLUTON, ASCALAPHE, et les divinités infernales descendant aux enfers avec Proserpine.</speaker>
+
+	<l id="618">Proserpine, ne craignez pas,</l>
+
+	<l id="619">Un dieu charmé de vos appas.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="3"><head>ACTE III</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Alphée, Aréthuse, Crinise, troupe de nymphes, troupe de dieux des bois.</head>
+
+<stage>Le théâtre change, et représente le mont Aetna vomissant des flammes, et les lieux d'alentour.</stage> 
+
+<sp who="TOUS-ENSEMBLE"><speaker>TOUS ENSEMBLE.</speaker>
+
+	<l id="620">Proserpine ? Répondez-nous ?</l>
+
+	<l id="621">Hélas ! En quels lieux êtes-vous ?</l>
+
+	<l id="622">Ô disgrâce cruelle !</l>
+
+	<l id="623">L'écho fidèle</l>
+
+	<l id="624">Au fond des bois</l>
+
+	<l id="625">Répond à notre voix ;</l>
+
+	<l id="626">Proserpine ? Ah faut-il qu'en vain on vous appelle !</l>
+
+	<l id="627">Proserpine ? Répondez-nous ?</l>
+
+	<l id="628">Hélas ! En quels lieux êtes-vous ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Arethuse, Alphée.</head>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="629">N'aurais-je point innocemment</l>
+
+	<l id="630">Causé tant de cris et de larmes ?</l>
+
+	<l id="631">D'un désir curieux je n'ai point pris d'alarmes ;</l>
+
+	<l id="632">Qui croirait que Pluton put devenir amant !</l>
+
+	<l id="633">Il demandait à voir Proserpine un moment,</l>
+
+	<l id="634">Je crains qu'il n'ait trop vu ses charmes,</l>
+
+	<l id="635">Ce n'est que par mes soins que Ceres peut savoir</l>
+
+	<l id="636">Si le dieu des enfers tient sa fille captive ;</l>
+
+	<l id="637">Il m'est permis d'aller sur l'infernale rive :</l>
+
+	<l id="638">Adieu, dans peu de temps j'espère vous revoir.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="639">Pouvez-vous oublier qu'il faut que je vous suive ?</l>
+
+	<l id="640">J'ai sans cesse suivi vos pas</l>
+
+	<l id="641">Quand j'excitais votre colère :</l>
+
+	<l id="642">Quand j'ai cessé de vous déplaire</l>
+
+	<l id="643">Pourrais-je ne vous suivre pas ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="644">Du maître des enfers je veux aller me plaindre,</l>
+
+	<l id="645">Craignez en me suivant d'attirer son courroux.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="646">Pour moi rien n'est tant à craindre</l>
+
+	<l id="647">Que d'être éloigné de vous.</l>
+
+	<l id="648">Que l'absence de ce qu'on aime</l>
+
+	<l id="649">Est un supplice rigoureux !</l>
+
+	<l id="650">Pour les coeurs amoureux,</l>
+
+	<l id="651">Tout autre mal cède à ce mal extrême,</l>
+
+	<l id="652">Et l'enfer même</l>
+
+	<l id="653">N'a rien de plus affreux</l>
+
+	<l id="654">Que l'absence de ce qu'on aime.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="655">Le bonheur est partout où l'amour est en paix,</l>
+
+	<l id="656">Ne nous quittons jamais.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Alphée, Aréthuse, Crinise, troupes de nymphes et de dieux des bois.</head>
+
+<sp who="TOUS-ENSEMBLE"><speaker>TOUS ENSEMBLE.</speaker>
+
+	<l id="657">Ceres revient ! Ah qu'elle peine !</l>
+
+	<l id="658">Cachons-nous à ses yeux.</l>
+
+	<l id="659">Sa fille n'est plus dans ces lieux ;</l>
+
+	<l id="660">Son espérance est vaine.</l>
+
+	<l id="661">Que lui pourrons-nous dire, ô dieux !</l>
+
+	<l id="662">Ceres revient ; ah quelle peine !</l>
+
+	<l id="663">Cachons-nous à ses yeux,</l>
+
+<stage>Les nymphes et les dieux des bois se cachent, Alphée et Arethuse descendent aux enfers, le char volant de Ceres s'arrête, et la déesse en descend.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="664">Je vais revoir ma fille, elle est dans ces campagnes :</l>
+
+	<l id="665">Je viens d'y voir les nymphes ses compagnes.</l>
+
+	<l id="666">Je vais goûter près d'elle un sort doux et charmant.</l>
+
+	<l id="667">Hélas ! Qu'un tendre amour accroît l'empressement</l>
+
+	<l id="668">De la tendresse maternelle.</l>
+
+	<l id="669">Proserpine est pour moi le gage précieux</l>
+
+	<l id="670">De l'amour le plus grand des dieux,</l>
+
+	<l id="671">C'est Jupiter que j'aime en elle.</l>
+
+	<l id="672">J'ai rendu les humains heureux,</l>
+
+	<l id="673">Mes travaux ont comblé leurs voeux ;</l>
+
+	<l id="674">Il m'est permis enfin d'être heureuse moi-même :</l>
+
+	<l id="675">Après avoir acquis un immortel honneur,</l>
+
+	<l id="676">Quand chacun par mes soins goûte un bonheur extrême</l>
+
+	<l id="677">Qu'il m'est doux de songer à mon propre bonheur.</l>
+
+	<l id="678">Les nymphes de ces lieux semblent fuir ma présence :</l>
+
+	<l id="679">Proserpine ? Ma fille ? Ah quel triste silence !</l>
+
+	<l id="680">Est-ce ainsi qu'on devait dans cet heureux séjour</l>
+
+	<l id="681">Se réjouir de mon retour ?</l>
+
+	<l id="682">Venez, nymphes, venez, que ma fille s'avance.</l>
+
+	<l id="683">Venez, dieux des bois, venez-tous.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Ceres, Crinise, troupes de nymphes et de dieux des bois.</head>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="684">Ma fille n'est pas avec vous !</l>
+
+	<l id="685">Quoi, donc, est-ce le soin que vous en deviez prendre ?</l>
+
+	<l id="686">Rendez-moi Proserpine. Au lieu de me la rendre,</l>
+
+	<l id="687">Vous m'offrez seulement des soupirs et des pleurs ?</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="688">Ô Ceres ! Ô mère trop tendre !</l>
+
+	<l id="689">Ah quelles seront vos douleurs.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="690">Ciel ! On m'ôte ma fille ! Et qui l'ose entreprendre ?</l>
+
+</sp>
+
+<sp who="DEUX-NYMPHES"><speaker>DEUX NYMPHES.</speaker>
+
+	<l id="691">Nous n'avons pu l'apprendre,</l>
+
+	<l id="692">Et l'on a pris le temps que nous cueillions des fleurs.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="693">J'ai cru qu'un doux repos devait ici m'attendre,</l>
+
+	<l id="694">Et je n'y trouve, hélas ! Que de cruels malheurs.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="695">Ô Ceres ! Ô mère trop tendre !</l>
+
+	<l id="696">Ah ! Quelles seront vos douleurs !</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Cyané, Ceres, Crinise, troupes de nymphes et de dieux champêtres.</head>
+
+<sp who="CYANÉ"><speaker>CYANÉ.</speaker>
+
+	<l id="697">Je ressens vos ennuis, et j'en suis trop atteinte,</l>
+
+	<l id="698">Quoiqu'il puisse arriver, vous allez tout savoir.</l>
+
+	<l id="699">Il faut que mon devoir</l>
+
+	<l id="700">L'emporte sur ma crainte.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="701">Parle, ma chere Cyané ;</l>
+
+	<l id="702">Soulage un coeur infortuné.</l>
+
+</sp>
+
+<sp who="CYANÉ"><speaker>CYANÉ.</speaker>
+
+	<l id="703">J'ai suivi Proserpine, et j'ai pris sa défense !</l>
+
+	<l id="704">Hélas tous mes efforts pour elle ont été vains !</l>
+
+	<l id="705">Son écharpe est entre mes mains...</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="706">Ce cher et triste objet presse encore ma vangeance.</l>
+
+	<l id="707">Hâte-toi de nommer l'ennemi qui m'offense.</l>
+
+</sp>
+
+<sp who="CYANÉ"><speaker>CYANÉ.</speaker>
+
+	<l id="708" part="i">C'est... c'est...</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="708" part="m">Achève.</l>
+
+</sp>
+
+<sp who="CYANÉ"><speaker>CYANÉ.</speaker>
+
+	<l id="708" part="m">C'est...</l>
+
+</sp>
+
+<sp who="CERES_LE-CHOEUR"><speaker>CERES et LE CHOEUR.</speaker>
+
+	<l id="708" part="f">Ah ! Quel malheur nouveau !</l>
+
+<stage>Cyané perd la voix et n'est plus qu'un ruisseau.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Ceres, Crinise, troupe de nymphes, et de dieux des bois.</head>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="709">Ô malheureuse mère !</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="710">Ô trop malheureuse Ceres !</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="711">Les dieux n'ont pu souffrir qu'une nymphe sincère</l>
+
+	<l id="712">M'ait découvert mes ennemis secrets.</l>
+
+	<l id="713">Je ne saurai donc pas sur qui lancer les traits</l>
+
+	<l id="714">De ma juste colère ?</l>
+
+	<l id="715">On me ravit une fille si chère !</l>
+
+	<l id="716">Jupiter dans les cieux sourd à mes vains regrets</l>
+
+	<l id="717">Ne ressent plus qu'il est son père !</l>
+
+	<l id="718">Ô malheureuse mère !</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="719">Ô trop malheureuse Ceres !</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="720">Ah ! Qu'elle injustice cruelle !</l>
+
+	<l id="721">Ô dieux pourquoi m'arrachez-vous</l>
+
+	<l id="722">Un bien que je trouvais si doux ?</l>
+
+	<l id="723">De cette audace criminelle</l>
+
+	<l id="724">Est-ce Apollon ou Mars que je dois soupçonner ?</l>
+
+	<l id="725">Leurs mères en fureur n'ont pu me pardonner</l>
+
+	<l id="726">D'avoir une fille si belle.</l>
+
+	<l id="727">Dois-je accuser l'amour, et sert-il aujourd'hui</l>
+
+	<l id="728">À me ravir un bien que je tenais de lui ?</l>
+
+	<l id="729">Trahirait-il mon coeur fidèle ?</l>
+
+	<l id="730">Ah ! Quelle injustice cruelle !</l>
+
+	<l id="731">Ô dieux ! Pourquoi m'arrachez-vous</l>
+
+	<l id="732">Un bien que je trouvais si doux ?</l>
+
+	<l id="733">Par mes soins, les champs de Cybele</l>
+
+	<l id="734">De fruits, et de moissons viennent d'être couverts ;</l>
+
+	<l id="735">De mes dons précieux la richesse nouvelle</l>
+
+	<l id="736">Brille par mes travaux en cent climats divers,</l>
+
+	<l id="737">Et quand de tant de biens j'ai comblé l'univers,</l>
+
+	<l id="738">Les dieux percent mon coeur d'une douleur mortelle.</l>
+
+	<l id="739">Ah ! Quelle injustice cruelle !</l>
+
+	<l id="740">Ô dieux pourquoi m'arrachez-vous</l>
+
+	<l id="741">Un bien que je trouvais si doux.</l>
+
+	<l id="742">Après un si sensible outrage,</l>
+
+	<l id="743">Mon coeur désespéré s'abandonne à la rage.</l>
+
+	<l id="744">Du monde trop heureux je veux troubler la paix :</l>
+
+	<l id="745">Brûlons, ravageons-tout, détruisons mes bienfaits.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Ceres, troupes de nymphes et de dieux champêtres, troupe de suivants de Ceres, troupe de peuples de Sicile.</head>
+
+<stage>Les suivants de Ceres rompent les arbres et en prennent des branches et en font des flambeaux qu'ils allument au feu qui sort du mont Aetna. Ils en brûlent les bleds, malgré les efforts et les cris des nymphes, des dieux champêtres, et des peuples. Huit suivants de Ceres portants des flambeaux allumés dansants, quatre habitants de Sicile dansants.</stage>
+
+<sp who="CERES"><speaker>CERES tenant deux flambeaux allumez.</speaker>
+
+	<l id="746">Que tout se ressente</l>
+
+	<l id="747">De la fureur que je sens.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR des dieux champestres et des peuples.</speaker>
+
+	<l id="748">Quel crime avons-nous fait ? Divinité puissante,</l>
+
+	<l id="749">Écoutez les clameurs des peuples gémissants.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="750">J'ai fait du bien à tous, ma fille est innocente,</l>
+
+	<l id="751">Et pour toucher les dieux, nos cris sont impuissants ;</l>
+
+	<l id="752">J'entendrai sans pitié les cris des innocents :</l>
+
+	<l id="753">Que tout se ressente</l>
+
+	<l id="754">De la fureur que je sens.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="755">Ah ! Quelle épouvantable flamme !</l>
+
+	<l id="756">Ah ! Quel ravage affreux !</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="757">Portons partout l'horreur qui règne dans mon âme.</l>
+
+	<l id="758">Portons partout d'horribles feux.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="759">Ah ! Quelle épouvantable flamme !</l>
+
+	<l id="760">Ah ! Quel ravage affreux !</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="4"><head>ACTE IV</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Ombres heureuses, quatorze ombres heureuses chantantes, six ombres jouants la flute.</head>
+
+<stage>Le théâtre change, et représente les champs élysées.</stage>
+
+<sp who="LE-CHOEUR-DES-OMBRES"><speaker>CHOEUR DES OMBRES HEUREUSES.</speaker>
+
+	<l id="761">Loin d'ici, loin de nous,</l>
+
+	<l id="762">Tristes ennuis, importunes alarmes :</l>
+
+	<l id="763">Gardez-vous, gardez-vous</l>
+
+	<l id="764">D'interrompre la paix dont nous goûtons les charmes ;</l>
+
+	<l id="765">Gardez-vous, gardez-vous</l>
+
+	<l id="766">De troubler un bonheur si doux.</l>
+
+</sp>
+
+<sp who="DEUX-OMBRES"><speaker>DEUX OMBRES HEUREUSES.</speaker>
+
+	<l id="767">Ô ! Bienheureuse vie !</l>
+
+	<l id="768">Vous ne nous serez point ravie.</l>
+
+	<l id="769">Ô ! Doux plaisirs dont nos voeux sont comblés !</l>
+
+	<l id="770">Vous ne serez jamais troublés.</l>
+
+</sp>
+
+<sp who="DEUX-OMBRES"><speaker>DEUX AUTRES OMBRES HEUREUSES.</speaker>
+
+	<l id="771">Ah que ces demeures sont belles !</l>
+
+	<l id="772">Que nous y passons d'heureux jours !</l>
+
+	<l id="773">Quelle félicité pour les amants fidèles !</l>
+
+	<l id="774">Ici les amours éternelles</l>
+
+	<l id="775">Ont toujours les douceurs des nouvelles amours.</l>
+
+	<l id="776">Ah que ces demeures sont belles !</l>
+
+	<l id="777">Que nous y passons d'heureux jours.</l>
+
+</sp>
+
+<sp who="DEUX-OMBRES"><speaker>DEUX AUTRES OMBRES HEUREUSES.</speaker>
+
+	<l id="778">Dans ces beaux lieux, tout nous enchante,</l>
+
+	<l id="779">Les plaisirs y suivent nos pas ;</l>
+
+	<l id="780">Et plus on en jouit, plus le désir augmente</l>
+
+	<l id="781">D'en goûter les appas.</l>
+
+</sp>
+
+<sp who="LE-CHOEUR-DES-OMBRES"><speaker>LE CHOEUR des OMBRES HEUREUSES.</speaker>
+
+	<l id="782">Ô bien-heureuse vie !</l>
+
+	<l id="783">Vous ne nous serez point ravie.</l>
+
+	<l id="784">Ô ! Doux plaisirs dont nos voeux sont comblés !</l>
+
+	<l id="785">Vous ne serez jamais troublés.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Proserpine, Ascalaphe, les ombres heureuses.</head>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="786">Ma chere liberté que vous aviez d'attraits !</l>
+
+	<l id="787">En vous perdant, hélas ! Que mon âme est atteinte</l>
+
+	<l id="788">De douleur, de trouble, et de crainte !</l>
+
+	<l id="789">Ma chère liberté que vous aviez d'attraits !</l>
+
+	<l id="790">Faut-il vous perdre pour jamais ?</l>
+
+	<l id="791">Ombres que j'interromps, souffrez ma triste plainte,</l>
+
+	<l id="792">Ce n'est pas pour mon coeur que vos plaisirs sont faits :</l>
+
+	<l id="793">Plaignez-vous avec moi du dieu qui m'a contrainte</l>
+
+	<l id="794">De troubler la douceur de votre heureuse paix.</l>
+
+	<l id="795">Ma chère liberté que vous aviez d'attraits !</l>
+
+	<l id="796">En vous perdant, hélas ! Que mon âme est atteinte !</l>
+
+	<l id="797">De douleur, d'amour, et de crainte !</l>
+
+	<l id="798">Ma chère liberté que vous aviez d'attraits !</l>
+
+	<l id="799">Faut-il vous perdre pour jamais ?</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="800">Aimez qui vous aime,</l>
+
+	<l id="801">Rien n'est si charmant.</l>
+
+	<l id="802">Pluton n'est pas un dieu sujet au changement,</l>
+
+	<l id="803">Il vous offre son coeur avec son diadême.</l>
+
+	<l id="804">Aimez qui vous aime,</l>
+
+	<l id="805">Rien n'est si charmant.</l>
+
+<stage>Les ombres répètent ces deux derniers vers.</stage>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="806">Que n'est-il satisfait de sa grandeur suprême,</l>
+
+	<l id="807">J'étais heureuse sans amant ;</l>
+
+	<l id="808">Mon coeur se contentait de régner sur lui-mesme.</l>
+
+</sp>
+
+<sp who="LES-OMBRES"><speaker>LES OMBRES.</speaker>
+
+	<l id="809">Rien n'est si charmant.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="810">Ah ! Sans la liberté, sans sa douceur extrême,</l>
+
+	<l id="811">Tout autre bien est un cruel tourment.</l>
+
+</sp>
+
+<sp who="LES-OMBRES"><speaker>LES OMBRES.</speaker>
+
+	<l id="812">Aimez qui vous aime,</l>
+
+	<l id="813">Rien n'est si charmant.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Aréthuse, Alphée, Proserpine, Ascalaphe.</head>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="814">Est-ce une illusion dont le charme m'abuse,</l>
+
+	<l id="815">Est-ce toi, ma chère Arethuse ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ARÉTHUSE et ALPHÉE.</speaker>
+
+	<l id="816">Pluton veut qu'avec vous nous demeurions ici ;</l>
+
+	<l id="817">Nous suivons sans effort la loi qu'il nous impose.</l>
+
+	<l id="818">Ce dieu veut soulager le chagrin qu'il vous cause,</l>
+
+	<l id="819">Et croit que par nos soins il peut être adouci.</l>
+
+	<l id="820">Il attend pour vous voir que de votre colère</l>
+
+	<l id="821">Les premiers transports soient calmés.</l>
+
+	<l id="822">Le dieu que vous charmez</l>
+
+	<l id="823">Ne songe qu'à vous plaire.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="824">Que devient pour l'amour ton mépris éclatant ?</l>
+
+	<l id="825">Cet amant près de toi goûte un bonheur paisible.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="826">Rien n'est impossible</l>
+
+	<l id="827">À l'amour constant.</l>
+
+	<l id="828">En vain je présumais tant</l>
+
+	<l id="829">D'avoir un coeur invincible,</l>
+
+	<l id="830">Rien n'est impossible</l>
+
+	<l id="831">À l'amour constant.</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="832">Qu'un amant fidèle est content</l>
+
+	<l id="833">D'engager ce qu'il aime à devenir sensible !</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="834">Rien n'est impossible</l>
+
+	<l id="835">À l'amour constant.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="836">Pluton pourra trouver un favorable instant</l>
+
+	<l id="837">Ou son amour pour vous deviendra moins terrible.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE_ASCALAPHE"><speaker>ASCALAPHE, ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="838">Rien n'est impossible</l>
+
+	<l id="839">À l'amour constant.</l>
+
+	<l id="840">Voyez ce beau séjour, ces charmantes campagnes,</l>
+
+	<l id="841">Ces vallons écartés, ces paisibles forêts.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="842">Ne reverrai-je plus Ceres ?</l>
+
+	<l id="843">Ne reverrai-je plus mes fidèles compagnes ?</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="844">Vous avez par malheur goûté de quelques grains</l>
+
+	<l id="845">D'un fruit de ces lieux souterrains.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="846">Pluton le sait, il vient de nous le dire.</l>
+
+</sp>
+
+<sp who="ASCALAPHE"><speaker>ASCALAPHE.</speaker>
+
+	<l id="847">J'ai pris soin de l'en avertir.</l>
+
+	<l id="848">Par l'arrêt du destin, le dieu de cet empire</l>
+
+	<l id="849">Peut vous voir désormais autant qu'il le désire.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE_ASCALAPHE"><speaker>ASCALAPHE, ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="850">Jamais s'il n'y veut consentir,</l>
+
+	<l id="851">Du séjour des enfers vous ne pourrez sortir.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="852">Je ne verrai jamais la lumière céleste !</l>
+
+	<l id="853">Dans une ardente soif, par un secours funeste,</l>
+
+	<l id="854">C'est toi qui m'as montré ce fruit si dangereux :</l>
+
+	<l id="855">Tu m'as caché l'arrêt du destin rigoureux ;</l>
+
+	<l id="856">Perfide, c'est toi qui m'abuse,</l>
+
+	<l id="857">Et c'est toi-même qui m'accuse ?</l>
+
+	<l id="858">Ah ! Du moins, le destin exaucera les voeux</l>
+
+	<l id="859">De ma juste vangeance :</l>
+
+	<l id="860">Tu ne surprendras plus la crédule innocence ;</l>
+
+	<l id="861">Tu seras un objet affreux,</l>
+
+	<l id="862">Et d'un présage malheureux ;</l>
+
+	<l id="863">Va, cruel, va languir dans l'horreur des ténèbres ;</l>
+
+	<l id="864">Va, deviens, s'il se peut, aussi triste que moi.</l>
+
+	<l id="865">Que tes cris soient des cris funèbres ;</l>
+
+	<l id="866">Que le sombre chagrin, que le mortel effroi ;</l>
+
+	<l id="867">Ne se lassent jamais de voler après toi.</l>
+
+	<l id="868">Ascalaphe se transforme en hibou, et s'envole.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Pluton, Proserpine.</head>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="869">Venez-vous contre moi défendre un téméraire ?</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="870">Votre pouvoir ici ne sera point borné ;</l>
+
+	<l id="871">On n'est point innocent quand on peut vous déplaire :</l>
+
+	<l id="872">Épuisez, s'il se peut sur cet infortuné,</l>
+
+	<l id="873">Tous les traits de votre colère.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="874">Tout ressent ici bas mon trouble et ma terreur :</l>
+
+	<l id="875">Les ombres sans trembler ne peuvent plus m'entendre,</l>
+
+	<l id="876">Ne souffrez pas que ma fureur</l>
+
+	<l id="877">De cet heureux séjour, fasse un séjour d'horreur,</l>
+
+	<l id="878">À la clarté du ciel, hâtez-vous de me rendre.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="879">Ne regrettez point tant la lumière des cieux.</l>
+
+	<l id="880">Des astres faits pour nous éclairent ces beaux lieux ;</l>
+
+	<l id="881">Jamais un verdoyant feuillage</l>
+
+	<l id="882">Ne cesse de parer les arbres de nos bois,</l>
+
+	<l id="883">Sans cesse dans nos champs nous trouvons à la fois</l>
+
+	<l id="884">Des fruits, des fleurs, et de l'ombrage,</l>
+
+	<l id="885">Et le temps affreux des frimas</l>
+
+	<l id="886">Est la seule saison que l'on n'y connaît pas.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="887">Mon triste coeur ne peut connaître</l>
+
+	<l id="888">La douceur des appas qu'on voit ici paraître,</l>
+
+	<l id="889">Hélas ! Ces lieux si beaux où je frémis d'effroi,</l>
+
+	<l id="890">Sont toujours les enfers pour moi.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="891">Je suis roi des enfers, Neptune est le roi de l'onde,</l>
+
+	<l id="892">Nous regardons avec des yeux jaloux</l>
+
+	<l id="893">Jupiter plus heureux que nous ;</l>
+
+	<l id="894">Son sceptre est le premier des trois sceptres du monde.</l>
+
+	<l id="895">Mais si de votre coeur j'étais victorieux,</l>
+
+	<l id="896">Je serais plus content d'adorer vos beaux yeux</l>
+
+	<l id="897">Au milieu des enfers dans une paix profonde,</l>
+
+	<l id="898">Que Jupiter le plus heureux des dieux</l>
+
+	<l id="899">N'est content d'être roi de la terre et des cieux.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="900">Que deviendra Ceres à qui je suis si chère ?</l>
+
+	<l id="901">Qu'elle surprise ! Hélas ! Quelle douleur amère !</l>
+
+	<l id="902" part="i">Hélas !</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="902" part="f">Ne donnerez-vous</l>
+
+	<l id="903">Des soupirs qu'à votre mère ?</l>
+
+	<l id="904">Aimez, beauté trop sevère,</l>
+
+	<l id="905">Les soupirs d'amour sont doux.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="906">D'un insensible coeur que pouvez-vous attendre ?</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="907">J'ignorais le pouvoir des traits qui m'ont surpris,</l>
+
+	<l id="908">Mon coeur ne connoissait rien de doux ni de tendre.</l>
+
+	<l id="909">Ne pourrai-je vous apprendre</l>
+
+	<l id="910">Ce que vous m'avez appris ?</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="911">Dieu cruel ! Vous n'aimez que les pleurs et les cris.</l>
+
+	<l id="912">Deviez-vous aux enfers me contraindre à descendre ?</l>
+
+	<l id="913">Vous m'ôtez le bonheur qui m'était destiné ?</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="914">Est-ce à moi qu'il faut vous en prendre ?</l>
+
+	<l id="915">Accusez-en l'amour que vous m'avez donné.</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="916">Voulez-vous me causer d'éternelles alarmes ?</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="917">Voulez-vous me causer d'éternels déplaisirs ?</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="918">Laissez-moi suivre en paix mes innocents désirs.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="919">Laissez-moi la douceur de voir toujours vos charmes</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="920">Voyez couler mes larmes.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="921">Écoutez mes soupirs.</l>
+
+<stage>Pluton et Proserpine ensemble.</stage>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="922">Mon amour fidèle</l>
+
+	<l id="923">Ne touche point votre coeur ?</l>
+
+	<l id="924">Ah ! Quelle rigueur !</l>
+
+</sp>
+
+<sp who="PROSERPINE"><speaker>PROSERPINE.</speaker>
+
+	<l id="925">Ma douleur mortelle</l>
+
+	<l id="926">Ne touche point votre coeur ?</l>
+
+	<l id="927">Ah ! Quelle rigueur !</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="928">N'importe, fussiez-vous cent fois plus inhumaine,</l>
+
+	<l id="929">Mon amour entreprend de vaincre votre haine.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Pluton, Proserpine, choeur d'ombres bienheureuses, choeur de divinités infernales, quatorze divinités infernales de la suite de Pluton chantantes, les trois juges des enfers, quatre divinités infernales dansantes, quatre ombres heureuses dansantes.</head>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="930">Que l'on suspende ici les tourments éternels</l>
+
+	<l id="931">Des plus criminels :</l>
+
+	<l id="932">Qu'aux enfers en ce jour tout soit exempt de peine.</l>
+
+	<l id="933">Vous qu'un heureux repos suit après le trépas,</l>
+
+	<l id="934">Et vous, dieux, mes sujets, venez, hâtez vos pas,</l>
+
+	<l id="935">Rendez hommage à votre reine :</l>
+
+	<l id="936">Admirez ses divins appas.</l>
+
+	<l id="937">Régnez aimable souveraine,</l>
+
+	<l id="938">Régnez à jamais ici bas.</l>
+
+</sp>
+
+<sp who="LES-CHOEURS"><speaker>Les CHOEURS des OMBRES HEUREUSES et des DIVINITÉS INFERNALES.</speaker>
+
+	<l id="939">Rendons hommage à nostre reine,</l>
+
+	<l id="940">Admirons ses divins appas.</l>
+
+	<l id="941">Régnez, aimable souveraine,</l>
+
+	<l id="942">Régnez à jamais ici-bas.</l>
+
+</sp>
+
+<stage>Les ombres heureuses et les divinités infernales rendent hommage à Proserpine, et lui apportent de riches presens : elles témoignent leur joie par leurs danses et par leurs chansons.</stage>
+
+<sp who="CHOEUR-DES-OMBRES"><speaker>CHOEUR DES OMBRES HEUREUSES.</speaker>
+
+	<l id="943">C'est assez de regrets ;</l>
+
+	<l id="944">C'est verser trop de larmes,</l>
+
+	<l id="945">Goûtez les attraits</l>
+
+	<l id="946">Du destin plein de charmes,</l>
+
+	<l id="947">Pluton aime mieux que Ceres.</l>
+
+	<l id="948">Une mère</l>
+
+	<l id="949">Vaut-elle un époux ?</l>
+
+	<l id="950">L'amour doit toujours plaire,</l>
+
+	<l id="951">Les soins en sont doux.</l>
+
+	<l id="952">Un coeur est trop sauvage</l>
+
+	<l id="953">S'il change l'usage</l>
+
+	<l id="954">D'un bien si charmant,</l>
+
+	<l id="955">Et c'est grand dommage</l>
+
+	<l id="956">D'en faire un tourment.</l>
+
+	<l id="957">Triomphez dans ces lieux :</l>
+
+	<l id="958">C'est pour vous que soupire</l>
+
+	<l id="959">L'un des plus grands dieux,</l>
+
+	<l id="960">Possédez son empire.</l>
+
+	<l id="961">Tout cède au pouvoir de vos yeux.</l>
+
+	<l id="962">Une mère</l>
+
+	<l id="963">Vaut-elle un époux, etc.</l>
+
+</sp>
+
+<sp who="LES-CHOEURS"><speaker>Les CHOEURS des DIVINITÉS INFERNALES et des OMBRES HEUREUSES.</speaker>
+
+	<l id="964">Dans les enfers</l>
+
+	<l id="965">Tout rit, tout chante ;</l>
+
+	<l id="966">On vous doit, beauté charmante,</l>
+
+	<l id="967">La douceur de nos concerts.</l>
+
+	<l id="968">Un dieu sévère</l>
+
+	<l id="969">Par vos yeux est enflammé,</l>
+
+	<l id="970">Tout son empire vous révère ;</l>
+
+	<l id="971">Qu'il est doux d'avoir charmé</l>
+
+	<l id="972">Un coeur qui n'a jamais aimé.</l>
+
+	<l id="973">Que vos appas</l>
+
+	<l id="974">Auront de gloire !</l>
+
+	<l id="975">Ils étendent leur victoire</l>
+
+	<l id="976">Jusqu'où règne le trépas.</l>
+
+	<l id="977">Un dieu sévère, etc.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="5"><head>ACTE V</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Pluton, les trois juges des enfers, les trois furies, troupe de divinités infernales, Les trois furies.</head>
+
+<stage>Le théâtre change, et représente le palais de Pluton.</stage>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="978">Vous qui reconnaissez ma suprême puissance,</l>
+
+	<l id="979">Donnez-moi des conseils, donnez-moi du secours.</l>
+
+	<l id="980">L'orgueilleux Jupiter m'offense,</l>
+
+	<l id="981">Il veut rompre aujourd'hui l'heureuse intelligence</l>
+
+	<l id="982">Que nous avions juré de conserver toujours.</l>
+
+	<l id="983">Les dieux ont aimé tous, et le Dieu du ciel-même</l>
+
+	<l id="984">S'est laissé cent fois enflammer.</l>
+
+	<l id="985">C'est la première fois que j'aime,</l>
+
+	<l id="986">Et l'on veut me ravir ce qui ma su charmer.</l>
+
+	<l id="987">Ah ! C'est une rigueur extrême</l>
+
+	<l id="988">De condamner un coeur à ne jamais aimer.</l>
+
+	<l id="989">C'est votre reine qu'on demande :</l>
+
+	<l id="990">Jupiter veut que je la rende,</l>
+
+	<l id="991">Et Mercure prétend l'enlever d'ici bas.</l>
+
+	<l id="992">Pouvons-nous endurer que l'on nous la ravisse ?</l>
+
+</sp>
+
+<sp who="LE-CHOEUR"><speaker>LE CHOEUR.</speaker>
+
+	<l id="993">Non, non, c'est une injustice</l>
+
+	<l id="994">Que nous ne souffrirons-pas.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="995">Et par quel droit faut-il que Jupiter s'obstine</l>
+
+	<l id="996">À troubler le bonheur que l'amour me destine ?</l>
+
+	<l id="997">Mon pouvoir n'est-il pas indépendant du sien ?</l>
+
+	<l id="998">Gardons Proserpine,</l>
+
+	<l id="999">Les enfers ne rendent rien.</l>
+
+<stage>Le choeur répète ces deux vers.</stage>
+
+</sp>
+
+<sp who="LES-TROIS-JUGES-DES-ENFERS"><speaker>LES TROIS JUGES DES ENFERS.</speaker>
+
+	<l id="1000">Proserpine a goûté des fruits de votre empire,</l>
+
+	<l id="1001">Elle est à vous, on ne peut vous l'ôter.</l>
+
+	<l id="1002">Aux arrêts du destin les dieux doivent souscrire,</l>
+
+	<l id="1003">C'est vainement qu'on y veut résister.</l>
+
+</sp>
+
+<sp who="PLUTON"><speaker>PLUTON.</speaker>
+
+	<l id="1004">Que le ciel menace, qu'il tonne ;</l>
+
+	<l id="1005">Il faut que rien ne nous étonne,</l>
+
+	<l id="1006">Nous avons pour nous en ce jour,</l>
+
+	<l id="1007">Les destins et l'amour.</l>
+
+<stage>Le choeur repète ces quatre vers.</stage>
+
+</sp>
+
+<sp who="LES-TROIS-FURIES"><speaker>LES TROIS FURIES.</speaker>
+
+	<l id="1008">Plutôt que de souffrir l'injure</l>
+
+	<l id="1009">Que le ciel veut faire aux enfers,</l>
+
+	<l id="1010">Renversons toute la nature</l>
+
+	<l id="1011">Périsse l'univers.</l>
+
+<stage>Le choeur répète les deux derniers vers.</stage>
+
+</sp>
+
+<sp who="UNE-DES-FURIES"><speaker>UNE DES FURIES.</speaker>
+
+	<l id="1012">Retirons les géants de leur prison obscure ;</l>
+
+	<l id="1013">Des titans enchainés il faut briser les fers :</l>
+
+</sp>
+
+<sp who="LES-FURIES_LE-CHOEUR"><speaker>LES FURIES et LE CHOEUR.</speaker>
+
+	<l id="1014">Renversons toute la nature,</l>
+
+	<l id="1015">Périsse l'univers.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II.</head>
+
+<stage>Le théâtre change, et représente une solitude.</stage>
+
+<sp who="CERES"><speaker>CERES seule.</speaker>
+
+	<l id="1016">Déserts écartés, sombres lieux,</l>
+
+	<l id="1017">Cachez mes soupirs et mes larmes.</l>
+
+	<l id="1018">Mon désespoir a trop de charmes</l>
+
+	<l id="1019">Pour les impitoyables dieux.</l>
+
+	<l id="1020">Déserts écarté, sombres lieux,</l>
+
+	<l id="1021">Cachez mes soupirs, et mes larmes.</l>
+
+	<l id="1022">Les dieux étaient jaloux de mon sort glorieux ;</l>
+
+	<l id="1023">C'est un doux spectacle à leurs yeux</l>
+
+	<l id="1024">Que les malheurs cruels dont je suis poursuivie :</l>
+
+	<l id="1025">Ils se font un plaisir de mes cris furieux ;</l>
+
+	<l id="1026">Jupiter m'a livrée à leur barbare envie :</l>
+
+	<l id="1027">Jupiter me trahit, ma fille m'est ravie.</l>
+
+	<l id="1028">Je perds ce que j'aimais le mieux ;</l>
+
+	<l id="1029">Infortunée, hélas ! Le jour m'est odieux,</l>
+
+	<l id="1030">Et je suis pour jamais condamnée à la vie.</l>
+
+	<l id="1031">Ah ! Je ne puis souffrir la lumière des cieux !</l>
+
+	<l id="1032">Mon désespoir a trop de charmes</l>
+
+	<l id="1033">Pour les impitoyables dieux ;</l>
+
+	<l id="1034">Déserts écartés, sombres lieux,</l>
+
+	<l id="1035">Cachez mes soupirs, et mes larmes.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Ceres, Voix infernales.</head>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1036">Quels abîmes se sont ouverts ?</l>
+
+	<l id="1037">Qu'entends-je ? Quel affreux murmure !</l>
+
+</sp>
+
+<sp who="VOIX-INFERNALES"><speaker>VOIX INFERNALES.</speaker>
+
+	<l id="1038">Renversons toute la nature.</l>
+
+	<l id="1039">Périsse l'univers.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1040">Le ciel n'est point touché des maux que j'ai soufferts,</l>
+
+	<l id="1041">L'enfer prendrait-il part aux peines que j'endure.</l>
+
+</sp>
+
+<sp who="VOIX-INFERNALES"><speaker>VOIX INFERNALES.</speaker>
+
+	<l id="1042">Renversons toute la nature.</l>
+
+	<l id="1043">Périsse l'univers.</l>
+
+<stage>Ceres répète ce dernier vers.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Alphée, Arethuse, Ceres.</head>
+
+<stage>Alphée et Arethuse sortent des enfers.</stage>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1044">Ne m'aprendrez-vous point où ma fille peut être ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="1045">Votre ennemi secret veut se faire connaître ;</l>
+
+	<l id="1046">Enfin vous pouvez tout savoir.</l>
+
+	<l id="1047">De l'empire infernal le redoutable maître</l>
+
+	<l id="1048">Tient votre fille en son pouvoir.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1049">L'enfer retient ma fille ! ô ciel ! ô sort barbare !</l>
+
+	<l id="1050">L'éternelle nuit nous sépare !</l>
+
+	<l id="1051">Ma chère Proserpine... ô regrets superflus !</l>
+
+	<l id="1052">Hélas ! Je ne la verrai plus !</l>
+
+	<l id="1053">Dieux ! Ma fille n'est point coupable,</l>
+
+	<l id="1054">Pourquoi Pluton inexorable</l>
+
+	<l id="1055">Veut-il dans les enfers l'accabler de douleur ?</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="1056">C'est quelquefois un grand malheur</l>
+
+	<l id="1057">Que d'être trop aimable.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1058">Pluton l'aime ! Et l'amour pour me désespérer</l>
+
+	<l id="1059">Fait soupirer un coeur qui doit être inflexible !</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="1060">Quel coeur se peut assurer</l>
+
+	<l id="1061">D'être toujours insensible ?</l>
+
+	<l id="1062">Quel coeur se peut assurer.</l>
+
+	<l id="1063">De ne jamais soupirer ?</l>
+
+</sp>
+
+<sp who="ALPHÉE"><speaker>ALPHÉE.</speaker>
+
+	<l id="1064">Le dieu qui pour elle soupire</l>
+
+	<l id="1065">Est un des trois grands dieux, maîtres de l'univers.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE"><speaker>ARÉTHUSE.</speaker>
+
+	<l id="1066">Elle est reine d'un vaste empire.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="1067">Il est beau de régner même dans les enfers.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1068">Quelque honneur qu'aux enfers on s'empresse à lui rendre,</l>
+
+	<l id="1069">Elle n'en peut sortir, et je n'y puis descendre :</l>
+
+	<l id="1070">Je la perds, je perds tout espoir</l>
+
+	<l id="1071">Je ne pourrai jamais la voir.</l>
+
+</sp>
+
+<sp who="ARÉTHUSE_ALPHÉE"><speaker>ALPHÉE et ARÉTHUSE.</speaker>
+
+	<l id="1072">Jupiter la demande, et l'enfer plein d'alarmes</l>
+
+	<l id="1073">Pour la garder a pris les armes.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1074">Jupiter n'est donc pas insensible aux regrets</l>
+
+	<l id="1075">De la malheureuse Ceres ?</l>
+
+	<l id="1076">Obtenez Dieu puissant que ma fille revienne ;</l>
+
+	<l id="1077">Sans troubler votre paix j'irais suivre ses pas</l>
+
+	<l id="1078">Si je pouvais passer dans la nuit du trépas :</l>
+
+	<l id="1079">Ne souffrez plus que l'enfer la retienne,</l>
+
+	<l id="1080">Grand dieu, c'est votre fille aussi bien que la mienne,</l>
+
+	<l id="1081">C'est votre fille, hélas !</l>
+
+	<l id="1082">Ne l'abandonnez pas.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Mercure, Ceres, Alphée, Arethuse.</head>
+
+<stage>Mercure descend du ciel.</stage>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="1083">Tous les dieux sont d'accord, pour vous tout s'interesse,</l>
+
+	<l id="1084">Proserpine verra le jour,</l>
+
+	<l id="1085">Elle suivra Ceres et Pluton tour à tour,</l>
+
+	<l id="1086">Elle partagera son temps et sa tendresse</l>
+
+	<l id="1087">Entre la nature et l'amour.</l>
+
+	<l id="1088">Vous verrez votre fille, et Jupiter lui-même</l>
+
+	<l id="1089">A pris soin qu'à vos voeux le sort ait répondu.</l>
+
+</sp>
+
+<sp who="CERES"><speaker>CERES.</speaker>
+
+	<l id="1090">Après une peine extrême</l>
+
+	<l id="1091">Qu'un bien qu'on avait perdu</l>
+
+	<l id="1092">Est doux quand il est rendu</l>
+
+	<l id="1093">Par les soins de ce qu'on aime.</l>
+
+</sp>
+
+<sp who="MERCURE"><speaker>MERCURE.</speaker>
+
+	<l id="1094">L'hymen assemble tous les dieux</l>
+
+	<l id="1095">De l'empire infernal de la terre et des cieux.</l>
+
+<stage>Le ciel s'ouvre, et Jupiter paraist accompagné des divinités célestes. Pluton et Proserpine, sortent des enfers assis sur un trône, ou Ceres, va prendre place près de sa fille. Une troupe de divinités infernales richement parées, accompagnent Pluton. Et une troupe de divinités de la terre viennent prendre part à la joie de Ceres, et à la gloire de Proserpine.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Jupiter, Pluton, Proserpine, Ceres, Mercure, Alphée, Aréthuse, troupes de divinités célestes, terrestres, et infernales, six divinités qui jouent de divers instruments, et qui accompagnent Jupiter dans la gloire, Divinités celestes qui chantent dans des machines, Venus, Pallas, Hercule, Apollon, L'Amour, L'Hymenée, Troupe de divinités de la terre chantantes, Pomone, Flore, Vertumne, Troupe de divinités de la terre chantantes, Troupe de divinités infernales chantantes, Troupe de divinités infernales dansantes.</head>
+
+<sp who="JUPITER"><speaker>JUPITER.</speaker>
+
+	<l id="1096">Ceres, que de vos pleurs le triste cours finisse ;</l>
+
+	<l id="1097">Qu'avec Pluton Proserpine s'unisse.</l>
+
+	<l id="1098">Que l'on enchaîne pour jamais</l>
+
+	<l id="1099">La discorde et la guerre,</l>
+
+	<l id="1100">Dans les enfers, dans les cieux, sur la terre,</l>
+
+	<l id="1101">Tout doit jouir d'une éternelle paix.</l>
+
+<stage>Les choeurs répètent ces quatre derniers vers, et les divinités celestes, terrestres et infernales, témoignent par leurs chants et par leurs danses la joie qu'ils ont de voir l'intelligence rétablie entre les plus grands dieux du monde, par le mariage de Pluton et de Proserpine.</stage>
+
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

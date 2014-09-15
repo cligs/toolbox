@@ -1,0 +1,2910 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>AMARILLIS, PASTORALE.</title>
+				<author born='1609' born_location='Dreux' death='1650' death_location='Dreux' academie=''>ROTROU, Jean</author>
+				<date>1637</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Ernest FIEVRE, mars 2007</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Pastorale</genre>
+				<inspiration>pastorale</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1651-1660</periode>
+				<taille>1500-1750</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">AMARILLIS</titlePart>
+				<titlePart type="sub">PASTORALE</titlePart>
+			</docTitle>
+			<docDate value="1653">M. DC. LIII </docDate>
+			<docAuthor id="ROTROU, Jean" bio='rotrou'>par Mr DE ROTROU </docAuthor>
+			<docImprint>
+				<privilege id="1636-09-30"><head></head>
+				<p>Par grâce et privilège du Roi donné à Roye, en date du dernier septembre 1636, et signé par le Roi en son conseil, De Monceaux. Il est permis à Antoine de Sommaville marchand libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de théâtre, de la composition du Sieur de Rotrou, intitulée la Célimène durant le temps et espace de sept ans, à compter qu'elle sera achevée d'imprimer. Et défenses sont faites à tous imprimeurs, libraire et autres de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine de trois mille livres d'amende, et de tous dépens, dommages et intérêts ainsi qu'il est plus amplement porté par lesdites lettres, qui sont en vertu du présent extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
+				<p>Le dit Sommaville a associé au privilège ci-dessus Augustin Courbé, aussi marchand-libraire, pour moitié, suivant l'accord fait entre eux.</p></privilege>
+				<imprimeur id="SOMMAVILLE">Chez ANTOINE DE SOMMAVILLE, à l'Écu de France et AUGUSTIN COURBE, au Palais, dans la salle des Merciers, à la Palme.</imprimeur>
+				<acheveImprime id="1653-03-10">Achevé d'imprimer pour la première fois le 10 mars 1653. Les exemplaire sont été livrés.</acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date="1652" location='Hôtel de Bourgogne'>Représenté pour la première fois en 1652 au théâtre de l'Hôtel de Bourgogne.</premiere>
+			</performance>
+		<avertissement><head>AVERTISSEMENT de l'Imprimeur au Lecteur. </head>
+		<p>Il y a dix-huit ou vingt ans que feu Monsieur de Rotrou ébaucha cette Pastorale, qu'il se proposait dès lors de donner au Théâtre. Mais comme ce genre Dramatique n'était guère du temps, il s'avisa de l'habiller en Comédie, et la fit depuis mettre au jour sous le nom de Célimène. Depuis la mort de ce célèbre Auteur, quelques-uns de ses Amis ayant rencontré le premier crayon de la Pastorale imparfaite, ont cru que c'était un Ouvrage qui pourrait plaire au public pourvu qu'il fut achevé par quelque agréable plume. Un bel esprit à leur prière, fit les stances les scènes des satyres, et quelques autres endroits que vous verrez. Si bien que c'est ici un Tableau où deux différents Pinceaux ont contribué, et fait une union assez belle, puisque généralement le Peuple et la Cour, y trouvent beaucoup de divertissement, et confessent que c'eût été dommage que cette Pastorale n'eût point été mise en lumière. Ce bruit m'a persuadé qu'elle méritait bien d'être imprimée, et je vous l'offre, afin que votre curiosité soit entièrement satisfaite. Adieu.</p>
+		</avertissement>
+	<castList><head>PERSONNAGES</head>
+		<castItem><role id="LISIMÈNE" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>LISIMÈNE</role>.</castItem>
+		<castItem><role id="BÉLISE" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>BÉLISE</role>, nièce le Lisimène.</castItem>
+		<castItem><role id="TYRENE" civil='M' type="H" statut='berger' age='A' stat_amour='amoureux'>TYRENE</role>, amoureux d'Amarillis.</castItem>
+		<castItem><role id="AMARILLIS" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>AMARILLIS</role>, bergère.</castItem>
+		<castItem><role id="PHILIDAS" civil='M' type="H" statut='berger' age='A' stat_amour='amoureux'>PHILIDAS</role>, amoureux d'Amarillis.</castItem>
+		<castItem><role id="DAPHNÉ" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>DAPHNÉ</role>, soeur d'Amarillis.</castItem>
+		<castItem><role id="CELIDAN" civil='M' type="H" statut='berger' age='A' stat_amour='amoureux'>CELIDAN</role>, amoureux de Daphné.</castItem>
+		<castItem><role id="SATYRES" civil='M' type="G" statut='satyre' age='A' stat_amour='néant'>Trois SATYRES</role>, fille de Florisel et de Sydonie.</castItem>
+		<castItem><role id="CLIMANTE" civil='M' type="H" statut='domestique' age='A' stat_amour='néant'>CLIMANTE</role>, domestique de Daphné.</castItem>
+	</castList>
+	<set location='Forez' country='France' periode='(inconnue)' link=''>La scène est au bord du Lignon.</set>
+</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE I </head>
+<div2 type="scene" n="1"><head>SCÈNE  PREMIÈRE. Lisimène, Bélise. </head>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="1">Je commence à vous voir, et vous n'avez qu'à peine</l>
+	<l id="2">Visité ce grand bois et cette riche plaine,</l>
+	<l id="3">Vous arrivez, ma nièce, en cet heureux séjour,</l>
+	<l id="4">Et vous osez déjà me parler du retour ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="5">Je confesse qu'ici sans haine et sans ennui</l>
+	<l id="6">On goûte les plaisirs les plus purs de la vie,</l>
+	<l id="7">La cabane me plaît bien plus que nos maisons ;</l>
+	<l id="8">Les villes à mes yeux ne sont que des prisons,</l>
+	<l id="9">Le hais des Courtisans une foule insolente,</l>
+	<l id="10">Ici tout m'entretient, tout me rit, tout m'enchante,</l>
+	<l id="11">Et de quelque côté que je tourne mes pas</l>
+	<l id="12">J'y rencontre toujours quelques nouveaux appas.</l>
+	<l id="13">Ce lieu comme Lyon est rempli de délices.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="14">La Cour n'a rien de plus que des soins et des vices,</l>
+<note type='L'>Gondebaud, roi (4??-516) : roi des Bourguignons. À la mort de son père, il n'eut en partage que le pays de Génèe, mais il dépouilla et mis à mort ses trois frères, Gondemar, Godésigile et Chilpéric, et étendit ainsi son royaume depuis le Heut-rhin, jusqu'à la Méditerannés et depuis la Haute-Loire jusqu'aux Alpes. Clovie qui avitépou" Clotilde, fille de Chilpéric, une des frères dépouillés, déclara la guerrre à Gonbedaud et le vainquit en 502.</note>
+	<l id="15">Celle de Gondebaud où brûlent tant d'amants</l>
+	<l id="16">Ne saurait égaler nos divertissements.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="17">Mais partout la discorde a suscité la guerre.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="18">Le Ciel va redonner la Paix à cette Terre ;</l>
+	<l id="19">Mais quand on en viendrait à cette extrémité,</l>
+<note type='L'>Issoire : Ville du Massif Central, sous-préfecture du Puy-de-Dome.</note>
+	<l id="20">Dans les Palais d'Issoire on est en sûreté,</l>
+	<l id="21">Nous en sommes voisins, et pouvons dans une heure</l>
+	<l id="22">Choisir une retraite en leur belle demeure ;</l>
+	<l id="23">Veuillez donc demeurer en ce lieu désormais,</l>
+	<l id="24">Contemplez tous nos biens, et les goûtez en paix ;</l>
+	<l id="25">Mille jeunes beautés parent cette contrée,</l>
+	<l id="26">On n'y voit rien d'égal, Philis, Diane, Astrée,</l>
+	<l id="27">Amarillis sa soeur, et mille autres encor</l>
+	<l id="28">Font dans ce doux climat revoir le siècle d'or.</l>
+	<l id="29">On y voit des Bergers, on y voit des Bergères,</l>
+	<l id="30">De qui les qualités ne sont pas ordinaires,</l>
+	<l id="31">Entre eux un jeune Amant ne vous déplaira pas,</l>
+	<l id="32">Il a beaucoup d'esprit, de grâces et d'appas :</l>
+	<l id="33">Et si vous n'enviez l'honneur de sa maîtresse</l>
+	<l id="34">Il est bien mal aisé qu'un autre objet vous blesse,</l>
+	<l id="35" part='i'>Pourquoi rougissez-vous ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="35" part='f'>Ce défaut indécent</l>
+	<l id="36">Paraît sans mon aveu sur ce front innocent ;</l>
+	<l id="37">Je rougis, quoi qu'on die, et quoi qu'on me propose,</l>
+	<l id="38">Sans en pouvoir moi-même imaginer la cause.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="39">Vous la savez, pourtant ; c'est que jusqu'à ce jour,</l>
+	<l id="40">On ne vous a parlé ni d'Amant, ni d'Amour ;</l>
+	<l id="41">Vous ignorez ces noms, et dans cette innocence,</l>
+	<l id="42">Le discours que j'en fais vous trouble, et vous offense.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE, bas.</speaker>
+	<l id="43" part='i'>Que n'est-il vrai Tyrène ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="43" part='f'>Haussez un peu la voix.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="44">Je dis qu'il fait beau voir l'épaisseur de ce bois,</l>
+	<l id="45">Et ces oiseaux divers dont la douce musique,</l>
+	<l id="46">Réjouirait l'esprit le plus mélancolique.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="47">Ô Dieux qu'elle est adroite ! Il est vrai que leurs chants</l>
+	<l id="48">Rendent Lion jaloux de la beauté des champs.</l>
+	<l id="49">Aussi mille Amoureux, en cette solitude</l>
+	<l id="50">Viennent perdre leurs soins, et leur inquiétude :</l>
+	<l id="51">Ces lieux ont chaque jour de nouveaux habitants,</l>
+	<l id="52">Ils y viennent fâchés, et s'y trouvent contents.</l>
+	<l id="53">Les coeurs sont enchantés de l'air qu'on y respire,</l>
+	<l id="54">Chacun y fait l'Amour, peu de monde y soupire.</l>
+	<l id="55">Ce Dieu de tous ses traits y choisit les meilleurs,</l>
+	<l id="56">Il est Roi parmi nous, il est Tyran ailleurs.</l>
+	<l id="57">Mais entre les Amants, qui viennent sur ces rives,</l>
+	<l id="58">Aux doux chants des oiseaux, joindre leurs voix plaintives,</l>
+	<l id="59">Tyrène, un Cavalier de qui les qualités</l>
+	<l id="60">Ont du Ciel et du sort les efforts limités?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="61" part='i'>Comment le nommez-vous ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="61" part='m'>Tyrène.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="61" part='f'>Ah le perfide !</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="62">Toujours triste et pensif, et toujours l'oeil humide,</l>
+	<l id="63">Rend tous les coeurs atteints d'amour, et de pitié,</l>
+	<l id="64">Si le Ciel les a faits capables d'amitié.</l>
+	<l id="65">La plus grande froideur, cède à son éloquence,</l>
+	<l id="66">Et contre ses écrits une âme est sans défense :</l>
+	<l id="67" part='i'>J'en lirai quelques-uns, écoutez.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="67" part='f'>Ô malheur !</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="68">Son visage à ces mots a changé de couleur.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="69" part='i'>On m'a pris mes papiers.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="69" part='f'>Je suis comme à la géhenne.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="70" part='i'>Ô Dieux !</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="70" part='f'>Écoutez donc comme il conte sa peine.</l>
+<stage>Lettre.</stage>
+	<l id="71">Je suis comme à la gêne</l>
+	<l id="72">Absent de vos beaux yeux qui m'embrasent si fort,</l>
+	<l id="73">Et jusqu'à la mort,</l>
+	<l id="74">Je dois porter ma chaîne :</l>
+	<l id="75">C'est un arrêt de l'Amour et du sort.</l>
+	<l id="76">TYRENE</l>
+	<l id="77">A-t-il bien exprimé la douleur qui le presse ?</l>
+	<l id="78">Et sait-il bien toucher le coeur d'une maîtresse ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="79">Si bien, que ce perfide est le seul qui lui plaît,</l>
+	<l id="80">Et qu'elle l'aime encor, tout volage qu'il est,</l>
+	<l id="81">Tous les jours ses écrits lui font verser des larmes,</l>
+	<l id="82">Et l'ingrat porte ailleurs son amour, et ses charmes.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="83" part='i'>Vous savez donc son nom ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="83" part='f'>Vous le savez aussi ;</l>
+	<l id="84">Je n'ai pas le dessein de cachez mon souci.</l>
+	<l id="85">Je vous dois confesser le mal qui me possède ;</l>
+	<l id="86">Je sais qu'il faut parler pour trouver du remède.</l>
+	<l id="87">Et c'est l'intention de mon coeur désolé ;</l>
+	<l id="88">Je ne me taisais pas, mes yeux vous ont parlé.</l>
+	<l id="89">Mon mal a sur mon front écrit sa violence,</l>
+	<l id="90">Et l'on ne peut qu'à tort condamner mon silence.</l>
+	<l id="91">Il est vrai que Tyrène a mon coeur enflammé ;</l>
+	<l id="92">J'aime, je le confesse, hé qui n'a pas aimé !</l>
+	<l id="93">Alors que je voyais mes compagnes atteintes,</l>
+	<l id="94">Je blâmais leurs soupirs, et j'accusais leurs plaintes,</l>
+	<l id="95">Mais j'ignorais le mal qui m'était destiné,</l>
+	<l id="96">J'autorise à présent ce que j'ai condamné.</l>
+	<l id="97">Je crois qu'on me doit plaindre, et que sans injustice,</l>
+	<l id="98">La plus froide ne peut accuser mon caprice.</l>
+	<l id="99">Dieux ! combien je perdrais, en perdant ces écrits,</l>
+	<l id="100">Qui vous les a donnés ? et qui me les a pris ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="101">Moi-même en vos habits, quand vous fûtes couchée,</l>
+	<l id="102">Et c'est où j'ai connu, qu'amour vous a touchée.</l>
+	<l id="103">Certes je fais état de votre élection,</l>
+	<l id="104">On ne peut condamner votre inclination.</l>
+	<l id="105">Tyrène est d'un esprit, et d'une humeur aimable,</l>
+	<l id="106">Et sa condition à la vôtre est sortable.</l>
+	<l id="107">Il mérite beaucoup : mais en peu de discours,</l>
+	<l id="108">Contez-moi de vos feux l'origine, et le cours?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="109">Durant mes plus beaux jours, en sortant de l'enfance,</l>
+	<l id="110">Dans l'âge de la joie, et de l'indifférence ;</l>
+<note type='L'>Armagedon : Mont de Galilée au nord d'Israël où se déroula le bataille finale entre le Bien et le Mal selon la Bible.</note>
+	<l id="111">Le sage Armagedon qui me donna le jour,</l>
+	<l id="112">Sous le saint nom d'hymen, fit naître mon amour :</l>
+	<l id="113">Et jusques à ce temps j'avais toujours blâmée</l>
+	<l id="114">La violente ardeur dont je suis enflammée ;</l>
+	<l id="115">Alors que dans un jour à mon repos fatal,</l>
+	<l id="116">Chez mon oncle à Lyon, je vis Tyrène au bal.</l>
+	<l id="117">J'étais si jeune encor qu'on ne me parlait guère :</l>
+	<l id="118">Je lui plus toutefois, sans penser à lui plaire.</l>
+	<l id="119">Quelques traits de mes yeux lancés innocemment,</l>
+	<l id="120">À la première vue en firent mon Amant,</l>
+	<l id="121">Il me jura d'abord une immortelle flamme,</l>
+	<l id="122">Et me voulut donner l'Empire de son âme,</l>
+	<l id="123">J'étais tout son espoir et son plus cher souci,</l>
+	<l id="124">Mais si je le vainquis, il voulut vaincre aussi,</l>
+	<l id="125">Et donnant de ses feux une preuve bien claire,</l>
+	<l id="126">Il fit de notre hymen entretenir mon Père,</l>
+	<l id="127">Pour gagner ce vieillard il ne lui manquait rien,</l>
+	<l id="128">Il avait le mérite, et l'esprit et le bien ;</l>
+	<l id="129">Ce dernier suffisait pour le pouvoir surprendre,</l>
+	<l id="130">Quiconque est riche, enfin partout peut être gendre,</l>
+	<l id="131">De ce Siècle pervers c'est le plus riche don,</l>
+	<l id="132">Par là Tyrène sut gagner Armagedon.</l>
+	<l id="133">Mon Père m'ordonna de souffrir sa visite,</l>
+	<l id="134">Il l'aimait pour son bien, et moi pour son mérite,</l>
+	<l id="135">Et son profond respect sut si bien m'émouvoir</l>
+	<l id="136">Que je prenais plaisir à suivre mon devoir.</l>
+	<l id="137">Ensuite une querelle à mes voeux importune,</l>
+	<l id="138">Vint traverser le cours de ma bonne fortune.</l>
+	<l id="139">Tyrène en un combat fit périr Dorilas.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="140">Qui brûlait comme lui de vos jeunes appas ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="141" part='i'>C'est ainsi qu'on le dit.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="141" part='f'>Après cette querelle</l>
+	<l id="142" part='i'>Il fallut s'absenter.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="142" part='f'>Depuis cet infidèle</l>
+	<l id="143">Ne se souvenant plus de ses feux ni de moi,</l>
+	<l id="144">Après un peu d'absence a violé sa foi,</l>
+	<l id="145">Je voudrais imiter ce volage Tyrène.</l>
+	<l id="146">Mais comme notre sexe aime avec plus de peine,</l>
+	<l id="147">Il se dégage aussi plus difficilement,</l>
+	<l id="148">Et ne peut sans rougir courir au changement.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="149" part='i'>Le voici.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="149" part='f'>Cachons-nous de peur qu'il ne nous voie.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="150">Je sonderai tandis sa tristesse, ou sa joie.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Tyrène, Lisimène, Bélise.</head>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+<stage>Stances.</stage>
+	<l id="151">Fût-il jamais un malheureux</l>
+	<l id="152">Sous l'empire amoureux</l>
+	<l id="153">Dont l'ennui fût égal à ma douleur extrême ?</l>
+	<l id="154">Je charmais autre part, ici je suis charmé,</l>
+	<l id="155">J'aime, et je suis aimé,</l>
+	<l id="156">Mais ce n'est pas de ce que j'aime.</l>
+	<l id="157">De mes maux Bélise a pitié,</l>
+	<l id="158">Elle en sent la moitié,</l>
+	<l id="159">Malgré cette rigueur et malgré notre absence ;</l>
+	<l id="160">Et lâche que je suis, j'aime de tout mon coeur</l>
+	<l id="161">Celle dont la rigueur</l>
+	<l id="162">Semble punir mon inconstance.</l>
+	<l id="163">Est-il possible, ô Dieux !</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="164">Oyez comme il se plaint ;</l>
+	<l id="165">On connaît à sa voix que son coeur est atteint.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="166">Doux ennui toutefois, et bienheureuse haine ?</l>
+	<l id="167">Si je touche à la fin le coeur de l'inhumaine.</l>
+	<l id="168">La peine et les efforts de l'acquisition,</l>
+	<l id="169">Sont un doux souvenir en la possession.</l>
+	<l id="170">Mais qui me vient parler ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="171">Bannis cette tristesse ;</l>
+	<l id="172">Et donne un peu de trêve au tourment qui te presse.</l>
+	<l id="173" part='i'>Tout succède à tes voeux.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="173" part='f'>Ô Dieux ! qu'ai-je entendu ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="174">Et l'on veut t'accorder le bonheur qui t'est dû.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="175">Épargnez mes ennuis, aimable Lisimène,</l>
+	<l id="176">Avez-vous vu l'objet qui fait naître ma peine ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="177" part='i'>Oui, et j'ai vu plus encor.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="177" part='m'>Et quoi ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="177" part='f'>Certains écrits</l>
+	<l id="178">Qu'elle tenait bien chers, et qui m'ont tout appris.</l>
+	<l id="179">Ô le charmant esprit que celui de Tyrène !</l>
+	<l id="180">Il pourrait triompher de l'âme la plus vaine,</l>
+	<l id="181">Et que cette beauté montre de jugement</l>
+	<l id="182">Dans le choix qu'elle a fait d'un si parfait Amant.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="183">Voulez-vous que j'espère, et cette âme inhumaine</l>
+	<l id="184">Me défend seulement de parler de ma peine ?</l>
+	<l id="185">L'insensible causant ce qui me fait mourir,</l>
+	<l id="186">A peur de le savoir, de peur de le guérir.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="187">Tyrène, une maîtresse est d'humeur plus discrète,</l>
+	<l id="188">Que de pouvoir si tôt avouer sa défaite ;</l>
+	<l id="189">La tienne se déclare, et ne me crois jamais,</l>
+	<l id="190">Si ton coeur n'est l'objet de ses plus doux souhaits ;</l>
+	<l id="191">Me remercieras-tu, si de ma propre bouche</l>
+	<l id="192">Tu sais dans un moment que ton amour la touche ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="193" part='i'>Je vous adorerais.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE lui montrant Bélise.</speaker>
+	<l id="193" part='f'>Adore ses appas,</l>
+	<l id="194">La voici ; que fais-tu ? tu ne l'abordes pas ?</l>
+	<l id="195">Quelle humeur a si tôt ton âme refroidie ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Bélise, Tyrène, Lisimène.</head>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="196">Traître, que tu sais mal cacher ta perfidie !</l>
+	<l id="197">Es-tu sans artifice ? et puis-je avoir surpris</l>
+	<l id="198">L'excellence, et l'honneur, des plus rares esprits ?</l>
+	<l id="199">Au moins qu'un ris forcé te change le visage,</l>
+	<l id="200">Témoigne du plaisir, et bénis mon voyage.</l>
+	<l id="201">Dis que tu souhaitais ce bonheur sans pareil ;</l>
+	<l id="202">Approche, appelle-moi ta Reine et ton Soleil.</l>
+	<l id="203">Quoi, tu ne peux forcer cette inutile honte ?</l>
+	<l id="204">Et ta voix quelquefois se donne à si bon compte,</l>
+	<l id="205">Tu trouvais à Lyon des traits si délicats,</l>
+	<l id="206">Et tu m'as si bien su prouver ce qui n'est pas.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="207" part='i'>Ô Dieux ! Je vois Bélise.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="207" part='f'>Il va conter merveille,</l>
+	<l id="208">Et sa fidélité n'aura point de pareille.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="209">Quoi Bélise, est-ce vous que je trouve en ces lieux ?</l>
+	<l id="210">Et dois-je croire ici mon oreille et mes yeux.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="211">Je suis toujours la même, et ne suis point changeante,</l>
+	<l id="212">Il n'en est point ainsi de ton âme inconstante ;</l>
+	<l id="213">Tu n'es plus ce Tyrène autrefois si charmant,</l>
+	<l id="214">En toi tout est changé jusqu'à l'habillement,</l>
+	<l id="215">Tu n'as rien conservé de ce qui me sut plaire,</l>
+	<l id="216">Tu n'es plus qu'un Berger digne d'une Bergère.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="217">Les Bergers de ces lieux sont d'illustres Héros</l>
+	<l id="218">Qui dans un sain asile ont cherché du repos,</l>
+	<l id="219">Mais ne m'accuse point d'être à tort infidèle,</l>
+	<l id="220">Puisque tu la causas, tu sais bien ma querelle,</l>
+	<l id="221">Dorilas étant mort, sans longtemps consulter</l>
+	<l id="222">Pour venir en ces lieux il fallut s'absenter,</l>
+	<l id="223">Tandis que mes parents s'employant pour ma grâce,</l>
+	<l id="224">Par je ne sais quel sort, m'en allant à la chasse,</l>
+	<l id="225">Je vis Amarillis, dont l'éclat me ravit,</l>
+	<l id="226">Elle me fit changer de maîtresse et d'habit.</l>
+	<l id="227">J'accorde, que je quitte un bien incomparable,</l>
+	<l id="228">Pour semer sur du vent, et bâtir sur du sable,</l>
+	<l id="229">Je recevais chez vous des traitements meilleurs ;</l>
+	<l id="230">Mais un secret destin porte mes voeux ailleurs.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="231">Dis qu'un secret destin porte ailleurs ta folie.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="232">Bélise est toujours gaie, et sans mélancolie.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="233">Non, non, crois qu'en riant je dis la vérité,</l>
+	<l id="234">Hé qui ne rirait pas de ta légèreté ?</l>
+	<l id="235">Quelle plaisante humeur agite ainsi ton âme ?</l>
+	<l id="236">On pourrait l'excuser dans l'esprit d'une femme,</l>
+	<l id="237">Puisque selon l'erreur de votre jugement,</l>
+	<l id="238">Elle est de son instinct sujette au changement.</l>
+	<l id="239">Mais que ces Esprits forts, ces miroirs de constance,</l>
+	<l id="240">Fassent au moindre vent si peu de résistance,</l>
+	<l id="241">Que leur fidélité manque aux premiers effets,</l>
+	<l id="242">C'est un sujet d'en rire ou l'on n'en eut jamais.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="243">Si tu considérais combien l'absence est forte,</l>
+	<l id="244">On ne te verrait pas discourir de la sorte.</l>
+	<l id="245">Ta présence aurait pu divertir ce malheur :</l>
+	<l id="246">Car qui voit le Soleil, sent toujours la chaleur.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="247">Il est vrai ta constance est digne qu'on t'adore !</l>
+	<l id="248">Traître, j'étais absente, et je t'aimais encore,</l>
+	<l id="249">J'avais les mêmes feux, et le même souci :</l>
+	<l id="250">J'ai vécu sans te voir, et sans changer aussi.</l>
+	<l id="251">Sans te voir ! je m'abuse, et ma triste pensée</l>
+	<l id="252">M'a toujours de Tyrène une image tracée :</l>
+	<l id="253">Je t'ai vu tous les jours, je t'ai parlé cent fois.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="254" part='i'>Il ne m'en souvient point.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="254" part='f'>Mais sans yeux et sans voix,</l>
+	<l id="255">Je n'étais pour mon mal que trop ingénieuse,</l>
+	<l id="256">Ma mémoire est trop bonne, et trop officieuse.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="257">Et moi je ne saurais me vanter de ce point,</l>
+	<l id="258">J'ai bien tôt oublié ce que je ne vois point.</l>
+	<l id="259">Excuse en ce malheur ma mémoire inféconde,</l>
+	<l id="260">Ou que de ce défaut la Nature réponde.</l>
+	<l id="261">Mais voici ma Bergère, admire sa beauté,</l>
+	<l id="262">Et ne condamne plus mon infidélité.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="263">Va, barbare à mes yeux, lui conter ton martyre,</l>
+	<l id="264">Obtiens de cet objet ce que ton coeur désire ;</l>
+	<l id="265">J'y consens infidèle, adore ses appas.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="266">Tu profiterais peu de n'y consentir pas.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="267" part='i'>Cachons-nous pour l'ouïr.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Tyrène, Amarillis.</head>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="267" part='f'>Adorable merveille,</l>
+	<l id="268">En beauté sans seconde, en rigueur sans pareille,</l>
+	<l id="269">Quand voulez-vous tarir la source de mes pleurs ?</l>
+	<l id="270">Quand sera votre esprit sensible à mes douleurs ?</l>
+	<l id="271">Ces rochers orgueilleux en des ruisseaux se fondent,</l>
+	<l id="272">Ils entendent mes cris, leurs échos me répondent,</l>
+	<l id="273">Et quand j'ai demandé si mon mal inouï</l>
+	<l id="274">Finirait quelque jour, elles m'ont dit oui.</l>
+	<l id="275">Vous conservez pourtant votre rigueur extrême,</l>
+	<l id="276">Et je n'ose espérer que vous parliez de même.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="277" part='i'>Où peut être ma soeur ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="277" part='f'>J'implore du secours,</l>
+	<l id="278">Aimable Amarillis entendez mes discours.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="279" part='i'>L'avez-vous vue ici ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="279" part='f'>Vous me fermez l'oreille,</l>
+	<l id="280">Pour ne pas avouer mon ardeur sans pareille.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="281" part='i'>Où la puis-je trouver ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="281" part='f'>Dieux que de cruauté !</l>
+	<l id="282">Je parle de mon mal, inhumaine beauté.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="283" part='i'>Je la cherche partout.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="283" part='f'>Cruelle, oyez ma plainte,</l>
+	<l id="284">Donnez un mot au mal dont mon âme est atteinte.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="285">Dieux que ces importuns me dérobent de temps,</l>
+	<l id="286">Je les fais tous souffrir, ils sont tous mécontents.</l>
+	<l id="287">Ce n'est que de mon coeur que leurs plaisirs dépendent,</l>
+	<l id="288">Je n'en possède qu'un, et tous me le demandent.</l>
+	<l id="289">Qui le doit obtenir ? qui seront les jaloux ?</l>
+	<l id="290">Nul de vous ne l'aura, pour vous accorder tous.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="291">Comparez nos tourments, considérez nos peines,</l>
+	<l id="292">S'ils ont versé des pleurs, j'en verse des fontaines,</l>
+	<l id="293">S'ils sentent quelque ardeur, je me sens consumer,</l>
+	<l id="294">Ils aiment froidement, et je sais seul aimer.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="295" part='i'>Tous en disent de même.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="295" part='f'>Et seul je le dois dire,</l>
+	<l id="296">Si la plainte est plus juste, où la fortune est pire,</l>
+	<l id="297">Tyrène sait mourir, s'ils savent endurer,</l>
+	<l id="298">Son inclination ne se peut comparer.</l>
+	<l id="299">Pour vous j'ai violé l'amitié la plus sainte</l>
+	<l id="300">Dont jamais ici-bas une âme fut atteinte,</l>
+	<l id="301">Il n'était rien d'égal à mes contentements,</l>
+	<l id="302">Je causais de l'ennui aux plus heureux Amants.</l>
+	<l id="303">Je pouvais loin de vous défier la fortune,</l>
+	<l id="304">J'obligeais trop Bélise, et je vous importune ;</l>
+	<l id="305">Tous mes voeux l'honoraient, et vous les refusez,</l>
+	<l id="306">Je les voyais chéris, je les vois méprisés.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="307">Adieu, je hais l'amour d'un esprit infidèle,</l>
+	<l id="308">Et je ne prétends rien au bien de cette Belle.</l>
+	<l id="309">Reportez-lui ce coeur que vous me présentez ;</l>
+	<l id="310">Vous me pourriez quitter comme vous la quittez.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Bélise, Tyrène.</head>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="311">Ô qu'il est satisfait et qu'il profite au change,</l>
+	<l id="312">Soi-même il se punit, et m'offensant me venge,</l>
+	<l id="313">Tyrène, qui méprise est enfin méprisé.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="314">Je n'attendais pas mieux que d'être refusé.</l>
+	<l id="315">Ah ! je jure le Ciel, que s'il m'était possible,</l>
+	<l id="316">Je me dégagerais de cette âme insensible.</l>
+	<l id="317">Que ce coeur brûlerait de ses feux anciens,</l>
+	<l id="318">Que je m'enchaînerais de mes premiers liens,</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="319">Oui, si la chaîne aussi t'était encor offerte ;</l>
+	<l id="320">Et si je désirais de recouvrer ma perte.</l>
+	<l id="321">Mais ce soin me travaille assez légèrement,</l>
+	<l id="322">Un bien que chacun fuit se conserve aisément ;</l>
+	<l id="323">J'ai vu le peu d'état qu'on fait de ton service,</l>
+	<l id="324">Et je ne crains pas fort qu'aucune te ravisse.</l>
+	<l id="325">J'éprouve qu'il est vrai que l'Amour n'a point d'yeux,</l>
+	<l id="326">Je réputais jadis mon destin glorieux,</l>
+	<l id="327">Quand ton affection s'offrait à ma mémoire,</l>
+	<l id="328">Je croyais tout Lyon envieux de ma gloire.</l>
+	<l id="329">Que Tyrène écrivît, que Tyrène parlât,</l>
+	<l id="330">Je ne croyais jamais qu'un autre l'égalât.</l>
+	<l id="331">Opinion bien fausse, et que je n'ai plus eue,</l>
+	<l id="332">Depuis que la raison m'a dessillé la vue.</l>
+	<l id="333">Je n'estime plus tant les charmes de ta voix,</l>
+	<l id="334">Je m'étonne bien plus de l'erreur où j'étais.</l>
+	<l id="335">Mon âme s'est rendue à de faibles atteintes,</l>
+<note type="L">Galantiser : Courtiser les Dames. [F]</note>
+	<l id="336">Tu galantises mal, et tu fais mal des plaintes.</l>
+	<l id="337">Ne figurant pas mieux ta peine et ton souci,</l>
+	<l id="338">Amarillis fait bien de te traiter ainsi.</l>
+	<l id="339">Tu lui parlais de pleurs pour exprimer ta peine,</l>
+	<l id="340">Mais cet abaissement est honteux à Tyrène.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="341">Épargne un malheureux, et quelque qualité</l>
+	<l id="342">Dont jadis son esprit ait le mien enchanté.</l>
+	<l id="343">Crois que tu pourrais peu sur cette âme inhumaine,</l>
+	<l id="344">Qu'en mon lieu tu serais en une même peine.</l>
+	<l id="345">Elle n'estime rien que ses propres appas,</l>
+	<l id="346">Vénus sous mes habits ne la toucherait pas.</l>
+	<l id="347">On ne peut rien gagner sur cette âme insensible.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="348" part='i'>Et si je lui plaisais ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="348" part='f'>Tu ferais l'impossible.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="349">Si tu veux en avoir les divertissements</l>
+	<l id="350">Tu n'as qu'à m'envoyer un de tes vêtements.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="351">Je t'en fais présent d'un dont l'étoffe éclatante</l>
+	<l id="352">Doit être avantageux à ta beauté charmante,</l>
+	<l id="353">Sa broderie est riche, et jette des éclats</l>
+	<l id="354">Qui pourront rehausser celui de tes appas.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="355">Tu riras de la feinte, et je suis assez vaine</l>
+	<l id="356">Pour espérer l'honneur de fléchir l'inhumaine</l>
+	<l id="357">Sous le nom de ton frère, et sous celui d'amant</l>
+	<l id="358">Je percerai son coeur plus dur qu'un diamant.</l>
+	<l id="359">Je n'arrivai qu'hier, et n'étant pas connue,</l>
+	<l id="360">Il m'est aisé de feindre, et de tromper sa vue.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="361">Ce divertissement ne peut être que doux,</l>
+	<l id="362">De voir Cléonte Amant, et Tyrène jaloux.</l>
+	<l id="363">Mais après cet effet, que je trouve admirable,</l>
+	<l id="364">Tu ne me seras plus qu'un objet adorable ;</l>
+	<l id="365">De tes voeux dépendra tout mon contentement,</l>
+	<l id="366">Et je mépriserai l'Amante pour l'Amant.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="367">Je ne t'oblige à rien, et fais cette entreprise,</l>
+	<l id="368">Sans dessein que ton coeur me rende sa franchise.</l>
+	<l id="369">Ne dis point qui je suis aux beautés de ce lieu,</l>
+	<l id="370" part='i'>Et m'envoie un habit.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="370" part='m'>Dans un moment.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="370" part='f'>Adieu.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Trois Satyres.</head>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="371">As-tu vu dans ce fond ces deux belles bergères ?</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="372">Trop pour leur intérêt, fussent-elles légères,</l>
+	<l id="373">Plus que les jeunes Daims qu'en courant j'atterrai,</l>
+	<l id="374">Avant qu'il soit longtemps je les attraperai.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="375">Pour se mieux délasser, au bord d'une fontaine,</l>
+	<l id="376">De se laver les pieds elles prenaient la peine ;</l>
+	<l id="377">Et lorsque librement, et sans penser à nous,</l>
+	<l id="378">Elles se retroussaient jusque sur les genoux,</l>
+	<l id="379">Je voyais une cuisse aussi blanche, aussi ronde</l>
+	<l id="380">Que jamais la Nature en forma dans le monde.</l>
+	<l id="381">Ô quels friands morceaux pour les Princes des bois !</l>
+	<l id="382">Ô qu'ils sont délicats ! j'en lèche encor mes doigts.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="383">De l'endroit où j'étais, j'ai vu d'autres merveilles.</l>
+	<l id="384">Ah ! ah ! pour m'écouter vous dressez les oreilles.</l>
+	<l id="385">J'ai vu, j'ai vu, j'ai vu par le reflet de l'eau,</l>
+	<l id="386">Si je ne suis trompé, quelque chose de beau.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="387">À t'entendre parler tu n'en as vu que l'ombre,</l>
+	<l id="388">Moi j'ai vu tout à nu des Beautés en grand nombre.</l>
+	<l id="389">Qu'elles avaient d'appas ! mais c'était de la chair</l>
+	<l id="390">À qui pas un de nous n'aurait osé toucher.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="391" part='i'>Je me doute de qui.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="391" part='f'>Des Nymphes de Diane</l>
+	<l id="392">Que je voyais baigner, monté sur un platane.</l>
+	<l id="393">Ah ! depuis Actéon le profane mortel</l>
+	<l id="394">J'oserais bien jurer qu'on n'a rien vu de tel.</l>
+	<l id="395">C'était dans un ruisseau, dont l'eau tranquille et claire,</l>
+	<l id="396">À ces jeunes beautés sert d'hôtesse ordinaire.</l>
+	<l id="397">Là je voyais à nu montrer de si beaux corps,</l>
+	<l id="398">Que me dût-on changer en un cerf de dix cors</l>
+	<l id="399">Et les chiens de ma peau, se dussent-ils repaître,</l>
+	<l id="400">J'irais les voir encor, s'ils y devaient paraître.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="401">Compagnon si la troupe alors t'eut aperçu,</l>
+	<l id="402">De nouveaux cornichons ton front serait bossu.</l>
+	<l id="403">Ah ! que de coups de poing ! ah ! que de coups de gaules</l>
+	<l id="404">Auraient bien aplani le poil de tes épaules.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="405">L'une qui sur le bord marchait comme à tâtons,</l>
+	<l id="406">Laissant ses vêtements montrait ses beaux tétons,</l>
+	<l id="407">Et touchant de son pied cette onde cristalline,</l>
+	<l id="408">Faisait voir au grand jour une jambe poupine,</l>
+	<l id="409">Une cuisse bien faite, un ventre potelé.</l>
+	<l id="410">Pour qui notre Dieu Pan lui-même aurait brûlé,</l>
+	<l id="411">Je dis comme un tison fait d'une vieille souche.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="412">Tu me fais enrager, l'eau m'en vient à la bouche.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="413">L'autre qui sur le ventre en grenouille nageait</l>
+	<l id="414">Retirait ses deux bras, et puis les allongeait,</l>
+	<l id="415">Et parfois soufflant l'eau d'une bouche vermeille,</l>
+	<l id="416">Folâtrait d'une grâce à nulle autre pareille,</l>
+	<l id="417">Et dans ses beaux cheveux attiraient les zéphyrs,</l>
+	<l id="418">Et faisait soulever mille amoureux soupirs.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="419">Cette peinture est belle, et je te prie achève.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="420">Une autre toute nue était dessus la grève,</l>
+	<l id="421">Mais assise en posture à te faire pitié,</l>
+	<l id="422">Car elle se tirait une épine du pied,</l>
+	<l id="423">Une jambe assez haut sur sa cuisse croisée,</l>
+	<l id="424" part='i'>Et qui.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="424" part='f'>Ah ! je t'entends ; était bien disposée.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="425">Une autre s'allant seoir sur un prochain gazon</l>
+	<l id="426">S'essuyait en tous lieux, comme c'est la raison.</l>
+	<l id="427">Ah ! qu'elle avait d'appas ! ah ! que de belles choses,</l>
+	<l id="428">Tout son corps n'était fait que de lys et de roses.</l>
+	<l id="429">Un certain vermillon, dont l'éclat était doux,</l>
+	<l id="430">Colorait tendrement sa fesse et ses genoux.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="431">Ouf, arrête-toi là, n'en dis pas davantage,</l>
+<note tyep="C">Au début du vers 431, on lit 'Vf' que nous transcrivons 'Ouf'.</note>
+	<l id="432">Tu me ferais crever d'une amoureuse rage.</l>
+	<l id="433">Ah ! que n'étais-je là, je l'eusse prise au corps,</l>
+	<l id="434">Eussé-je dû souffrir un million de morts.</l>
+	<l id="435">Dans le plus fort du bois je vous l'aurais fourrée,</l>
+	<l id="436">Comme un Renard qui prend une poule égarée</l>
+	<l id="437">J'aurais eu le plaisir de contenter mon feu.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="438">C'est le fils de Luxure ; ou du moins son Neveu.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="439">Pour les plaisirs d'amour, il est insatiable.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="440">Pour être si petit, il est ribaud en Diable.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="441">Pour vous, honnêtes gens, à vous regarder</l>
+	<l id="442">Quelqu'un vous donnerait une fille à garder ;</l>
+	<l id="443">On a qu'à remarquer vos mines et vos gestes,</l>
+	<l id="444">On vous prendra tous deux pour bouquins fort modestes.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="445">Mais il faut revenir enfin à nos moutons,</l>
+	<l id="446">Ces filles vont partir, marchons et nous hâtons.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="447">Si nous les attrapons, pour contenter nos flammes,</l>
+	<l id="448">Comment en ferons-nous, nous n'avons que deux femmes</l>
+	<l id="449" part='i'>Pour trois.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="449" part='f'>Dessus ce point il sera débattu,</l>
+	<l id="450">Nous pourrons, les ayant, tirer au court fétu,</l>
+	<l id="451">La plus petite paille ira chercher fortune ;</l>
+	<l id="452">Et les deux plus heureux en prendront chacun une.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="453">Il n'est point de fétu, de paille, ou de hasard,</l>
+<note type='L'>Gourmer : Battre à coups de poings. [F]</note>
+	<l id="454">Nous nous gourmerons bien, ou j'en aurai ma part.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="455">Il faut prendre devant ces Animaux sauvages,</l>
+	<l id="456">Puis après de leurs peaux nous ferons les partages.</l>
+	<l id="457" part='i'>Allons de ce côté.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="457" part='f'>Courons, quelqu'un nous suit,</l>
+	<l id="458">Quelque fâcheux berger près de nous fait ce bruit.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Amarillis, Daphné.</head>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="459">Pourquoi m'accusez-vous de trop de retenue ?</l>
+	<l id="460">Je ne déguise rien, j'ai l'humeur ingénue.</l>
+	<l id="461">Qui peut, si ce n'est vous, chérir mes intérêts ?</l>
+	<l id="462">Et qui doit que ma soeur partager mes secrets ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="463">Quelque si libre humeur dont un esprit puisse être,</l>
+	<l id="464">Il est bien malaisé qu'il fasse tout paraître ;</l>
+	<l id="465">Toujours quelque secret se referme au-dedans,</l>
+	<l id="466">Qui même n'est pas su des plus chers confidents.</l>
+	<l id="467">Mais surtout en amour la plus libre est secrète,</l>
+	<l id="468">Et comme elle est aveugle, elle est aussi muette.</l>
+	<l id="469">On ne s'ose fier à son meilleur ami,</l>
+	<l id="470">Et le coeur le plus franc ne s'ouvre qu'à demi.</l>
+	<l id="471">Posséder tant d'attraits, être si recherchée ;</l>
+	<l id="472">Captiver mille esprits, et n'être point touchée,</l>
+	<l id="473">Ha ma soeur ! pensez-vous qu'on le puisse estimé ?</l>
+	<l id="474">Le Ciel vous a-t-il faite incapable d'aimer ?</l>
+	<l id="475">Évitez-vous les coups dont toutes sont blessées ?</l>
+	<l id="476">Et n'eûtes-vous jamais de pareilles pensées ?</l>
+	<l id="477">L'Amour est un archer qui n'a jamais failli,</l>
+	<l id="478">Si le coeur ne se rend quand il est assailli,</l>
+	<l id="479">Il prend une autre voie, il le force, il le blesse,</l>
+	<l id="480">Et l'orgueilleuse enfin reconnaît sa faiblesse.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="481">Il est maître des coeurs qui se laissent dompter,</l>
+	<l id="482">Mais quand on le veut fuir on le peut éviter.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="483">Ce Dieu, comme il lui plaît atteint les plus cruelles ;</l>
+	<l id="484">On prend la fuite en vain, ma soeur, il a des ailes.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="485">Mais les ailes qu'il a sont courtes quand il naît,</l>
+	<l id="486">Cet enfant vole-t-il, faible encor comme il est ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="487">On ne sent pas l'Amour au point de sa naissance,</l>
+	<l id="488">Et qui ne le sent pas, ne craint point sa puissance.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="489">Mais alors qu'on le sent, on l'évite aisément.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="490">Alors il sait voler, on s'enfuit vainement.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="491">Aussi n'ai-je jamais sa force méprisée,</l>
+	<l id="492">Et mon âme à ses traits est toute disposée.</l>
+	<l id="493">Mais de les prévenir, les prendre en son carquois,</l>
+	<l id="494">Et de ma propre main, me ranger sous ses lois,</l>
+	<l id="495">Qui me voudrait, ma soeur, conseiller de le faire,</l>
+	<l id="496">Ne me donnerait pas un avis salutaire.</l>
+	<l id="497">J'approuve qu'un esprit mette les armes bas ;</l>
+	<l id="498">J'approuve même aussi qu'il ne se rende pas.</l>
+	<l id="499">Je n'aimerai jamais, qu'Amour ne m'ait blessée,</l>
+	<l id="500">Si je lui dois céder, j'y veux être forcée.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="501">Avouez, toutefois que parmi tant d'Amants</l>
+	<l id="502">Qui révèrent en vous des attraits si charmants,</l>
+	<l id="503">Il s'en trouve quelqu'un qui vous plaît davantage,</l>
+	<l id="504">Et dont plus volontiers vous agréeriez l'hommage.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="505" part='i'>Philidas vaut beaucoup.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="505" part='f'>Que ces attraits sont doux.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="506">Mais je le vois qui vient, ma soeur retirons-nous.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="507" part='i'>Craignez-vous son abord ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="507" part='f'>Je la vois l'inhumaine.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ à Philidas.</speaker>
+	<l id="508">Je travaillais pour vous, mais j'ai perdu ma peine.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Philidas, Célidan.</head>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="509">Hélas cruel ami que ma douleur te plaît !</l>
+	<l id="510">Vois comme elle me fuit, l'insensible qu'elle est</l>
+	<l id="511">Et tu dis que le temps la rendra plus traitable,</l>
+	<l id="512">Tu diffères l'arrêt de mon sort lamentable,</l>
+	<l id="513">Tu me retiens le bras, tu diffères ma mort,</l>
+	<l id="514">Tu connais, Célidan, si je me plains à tort.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="515">Philidas elle est fille, et la fille est changeante,</l>
+	<l id="516">Nous la verrons un jour t'être plus indulgente,</l>
+	<l id="517">Le temps amollira ce courage inhumain,</l>
+	<l id="518">Elle fuit aujourd'hui, tu l'atteindras demain.</l>
+	<l id="519">Ne l'avoir pas suivie, est un pas pour l'atteindre,</l>
+	<l id="520">Si tu la veux fléchir, il faut mieux te contraindre.</l>
+	<l id="521">Tu ne sais pas bien l'art qui la peut engager.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="522">Enseigne-le moi donc, si tu veux m'obliger.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="523">Il faut paraître froid pour toucher les Bergères,</l>
+	<l id="524">Et montrer à leurs yeux des blessures légères.</l>
+	<l id="525">Ce sexe que toujours nous avons respecté,</l>
+	<l id="526">A tiré son orgueil de notre humilité ;</l>
+	<l id="527">Et si nous paraissions plus hommes et plus graves,</l>
+	<l id="528">Ces superbes vainqueurs deviendraient nos esclaves,</l>
+	<l id="529">Et si nous les traitions d'un air indifférent</l>
+	<l id="530">Nous rendraient tous les soins qu'en nos jours on leur rend.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="531">Mais comment étouffer la plainte quand on brûle ?</l>
+	<l id="532">Quiconque n'aime pas, aisément dissimule.</l>
+	<l id="533">Toi-même avec ton art n'es-tu pas enchaîné ?</l>
+	<l id="534">Te peux-tu garantir des beaux yeux de Daphné ?</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="535">Je me peux excuser sur son mérite extrême.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="536">L'Amant de son Amante en dit toujours de même.</l>
+	<l id="537">Crois-moi, cher Célidan, alors qu'on aime bien</l>
+	<l id="538">La feinte est mal aisée, et ne nous sert de rien.</l>
+	<l id="539">Pour moi je souffre trop, je ne m'en saurais taire.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="540">Flatte donc cette ingrate, et tâche de lui plaire ;</l>
+	<l id="541">Fais des vers sur son teint, son esprit et sa voix,</l>
+	<l id="542">Puisque c'est le dessein qui t'amène en ces bois,</l>
+	<l id="543">Ne crains point de faillir, ni de perdre ta peine,</l>
+	<l id="544">On estime aujourd'hui que les fruits de ta veine.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="545">Il est vrai que j'ai l'art de flatter qui me plaît,</l>
+	<l id="546">Je peints, quand bon me semble, un oeil plus beau qu'il n'est.</l>
+	<l id="547">Je dore des cheveux, et ma plume se joue</l>
+	<l id="548">À noircir un sourcil, ou farder une joue.</l>
+	<l id="549">J'ai toujours de la neige, et quelquefois j'en mets</l>
+	<l id="550">Sur un sein qui n'en eut, et n'en aura jamais.</l>
+	<l id="551">Je prête à qui je veux des oeillets et des roses,</l>
+	<l id="552">Et j'ai fait estimer cent visages divers</l>
+	<l id="553">Qui n'avaient toutefois rien de beau qu'en mes vers.</l>
+	<l id="554">Mais tout est au-dessous de sa beauté parfaite :</l>
+	<l id="555">Ma Muse en ce travail est timide et muette ;</l>
+	<l id="556">J'admire les effets de cet oeil mon vainqueur</l>
+	<l id="557">Qui me glace la veine, et m'échauffe le coeur.</l>
+	<l id="558">Toujours le premier mot à ma plume arrêtée,</l>
+	<l id="559">Je l'ai mille fois prise, et mille fois quittée,</l>
+	<l id="560">Mon jugement s'égare en ses moindres appas,</l>
+	<l id="561">J'écrirai toutefois, mais ne t'éloigne pas.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="562">J'attendrai cependant en ce lieu frais et proche,</l>
+	<l id="563">Mais vois si tu n'as point quelques vers en ta poche,</l>
+	<l id="564">Je me divertirai par ce doux entretien,</l>
+	<l id="565">Je ne puis estimer de style que le tien.</l>
+<stage>Célidan lit.</stage>
+	<l id="566">Rochers effroyables déserts,</l>
+	<l id="567">Où de la beauté que je sers</l>
+	<l id="568">Je fais des plaintes inutiles,</l>
+	<l id="569">Mon mal près d'elle a toujours empiré,</l>
+	<l id="570">Et vos sablons ne sont pas si stériles</l>
+	<l id="571">Que mon mal est désespéré.</l>
+	<l id="572">Mes esprits sont tous languissants,</l>
+	<l id="573">Mes faibles et timides sens</l>
+	<l id="574">N'ont plus de clarté ni de force,</l>
+	<l id="575">Et mon malheur est sans comparaison,</l>
+	<l id="576">Depuis qu'Amour a semé le divorce</l>
+	<l id="577">Entre mon âme et ma raison.</l>
+	<l id="578">Tous remèdes sont superflus,</l>
+	<l id="579">Et rien ne me console plus</l>
+	<l id="580">Au fort d'une douleur si grande,</l>
+	<l id="581">Si dans mon mal j'ai quelque réconfort,</l>
+	<l id="582">Absolument il faut que je l'attende</l>
+	<l id="583">D'Amarillis, ou de la mort.</l>
+	<l id="584">Mais je crains qu'après mon trépas</l>
+	<l id="585">Au milieu des Ombres là-bas</l>
+	<l id="586">Son Amour encor me poursuive ;</l>
+	<l id="587">Objet Céleste, au jugement de tous,</l>
+	<l id="588">Soit que je meure, ou bien soit que je vive,</l>
+	<l id="589">Je veux toujours brûler pour vous.</l>
+	<l id="590">Que ces vers sont coulants, ô l'admirable veine,</l>
+	<l id="591">Il en a déjà fait plus de vingt d'une haleine,</l>
+	<l id="592" part='i'>As-tu bien réussi ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="592" part='f'>Jamais pauvre rimeur</l>
+	<l id="593">N'eut tant d'ambition, et moins de bonne humeur.</l>
+	<l id="594">J'ai fait ce peu de vers depuis que travaille,</l>
+	<l id="595">Écoute si j'ai rien imaginé qui vaille.</l>
+<stage>STANCES</stage>
+	<l id="596">Divine Amarillis, honneur de nos Bergères,</l>
+	<l id="597">Modérez tant soit peu la rigueur de vos lois,</l>
+	<l id="598">Si dans ma passion l'excès de mes misères</l>
+	<l id="599">Ne m'interdisait point l'usage de la voix,</l>
+	<l id="600">J'élèverais si haut vos beautés sans exemple,</l>
+	<l id="601">Que vous auriez un Temple.</l>
+	<l id="602">Votre nom qui toujours occupe ma mémoire,</l>
+	<l id="603">Pourrait pompeusement éclater dans mes vers,</l>
+	<l id="604">Et rien n'empêcherait le bruit de votre gloire</l>
+	<l id="605">D'étonner notre siècle et remplir l'Univers,</l>
+	<l id="606">Aimez-vous mieux ma mort, ô beauté trop aimée !</l>
+	<l id="607">Que votre Renommée ?</l>
+	<l id="608">S'il faut que mon trépas contente votre ennuie,</l>
+	<l id="609">Avant qu'il soit longtemps je ferai voir à tous,</l>
+	<l id="610">Que j'ai pris jusqu'ici quelque soin de ma vie,</l>
+	<l id="611">À dessein seulement de l'employer pour vous.</l>
+	<l id="612">Mais s'il faut qu'un beau coup finisse ma misère,</l>
+	<l id="613">Mon amour me fournit mille pensers divers,</l>
+	<l id="614">Et je n'en puis trouver pour achever ce vers.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="615">Ce style est au-dessus de ton style ordinaire,</l>
+	<l id="616">Je me vais retirer de peur de te distraire ;</l>
+	<l id="617">Achève, cher ami, c'est trop bien commencé,</l>
+	<l id="618">Ce feu grand et subtil est aussi tôt passé.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS, seul.</speaker>
+	<l id="619">Quitte, triste Berger, ce pénible exercice,</l>
+	<l id="620">De tes pleurs seulement écris son injustice.</l>
+	<l id="621">Seuls ils peuvent prouver tes transports innocents ;</l>
+	<l id="622">Seuls ils peuvent parler des ennuis que tu sens.</l>
+	<l id="623">Et c'est bien vainement qu'un malheureux présume</l>
+	<l id="624">De fendre un coeur si dur avec des traits de plume.</l>
+	<l id="625">Arbres soyez atteints au récit de mes maux,</l>
+	<l id="626">Est-il quelque martyre égal à mes travaux ?</l>
+	<l id="627">Mais que mon oeil est las de souffrir la lumière,</l>
+	<l id="628">Quel assoupissement me ferme la paupière ?</l>
+	<l id="629">Dieux ! appelant mon âme en cet heureux sommeil</l>
+	<l id="630">Accordez à mes yeux un dormir sans réveil.</l>
+<stage>Il s'endort.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Amarillis, Daphné, Philidas.</head>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="631">Dieux que ces importuns ont peu de complaisance,</l>
+	<l id="632">Et qu'il est malaisé d'éviter leur présence.</l>
+	<l id="633" part='i'>Ma soeur n'y sont-ils plus ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="633" part='f'>Oui, je les vois là-bas.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="634" part='i'>Adieu.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="634" part='f'>Reviens, je ris, et je ne les vois pas.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="635">Je m'aime aujourd'hui seule, et si pas un se montre?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="636" part='i'>Dieux ! Quelle peur as-tu ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="636" part='f'>Celle de leur rencontre.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="637">Philidas te déplaît, cruelle tu le fuis.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="638">Parfois selon l'humeur et le temps où je suis,</l>
+	<l id="639">En de certains moments j'aime d'ouïr sa plainte,</l>
+	<l id="640">Je lui réponds des yeux, et je flatte sa crainte ;</l>
+	<l id="641">Je vante son esprit, j'estime ses discours ;</l>
+	<l id="642">Mais cette belle humeur ne dure pas toujours.</l>
+	<l id="643">J'abhorre bien souvent un si triste langage,</l>
+	<l id="644">Et quelque Amant plus gai me plairait davantage.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="645" part='i'>Tu le peux rendre tel.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="645" part='m'>Comment.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="645" part='f'>Par ta pitié.</l>
+	<l id="646">Paye ce que tu dois à sa chaste amitié ;</l>
+	<l id="647">Je le paye à l'amour que son ami me porte ;</l>
+	<l id="648">Imite mon humeur, traite-le de la sorte.</l>
+	<l id="649">Célidan autrefois n'était pas si joyeux,</l>
+	<l id="650">Alors que je trouvais son abord ennuyeux.</l>
+	<l id="651">Mais je vois Philidas sous cet épais feuillage ;</l>
+	<l id="652">Vois comme les ennuis ont changé son visage ;</l>
+	<l id="653">Le Ciel ferme ses yeux pour arrêter ses pleurs,</l>
+	<l id="654">Et tu ne seras pas sensible à ses douleurs ?</l>
+	<l id="655" part='i'>Lis ces vers qu'il t'adresse.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="655" part='f'>Ô Dieux ! cette importune</l>
+	<l id="656">M'imputera toujours ma mauvaise fortune.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="657">Et bien je vais les lire, au moins en ma faveur</l>
+	<l id="658" part='i'>Écoute seulement.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="658" part='f'>Dépêche donc ma soeur.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ lit.</speaker>
+	<l id="659">Divine Amarillis, honneur de nos Bergères,</l>
+	<l id="660">Modérez tant soit peu la rigueur de vos lois,</l>
+	<l id="661">Si dans ma passion l'excès de mes misères</l>
+	<l id="662">Ne m'interdisait point l'usage de la voix,</l>
+	<l id="663">J'élèverais si haut vos beautés sans exemple,</l>
+	<l id="664">Que vous auriez un Temple.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="665" part='i'>Il faut ouïr le reste.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="665" part='f'>Fais vite, ou je te laisse.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="666">Qu'elle sait bien cacher le tourment qui la presse.</l>
+	<l id="667">Votre nom qui sans cesse occupe ma mémoire,</l>
+	<l id="668">Pourrait pompeusement éclater dans mes vers,</l>
+	<l id="669">Et rien n'empêcherait le bruit de votre gloire</l>
+	<l id="670">D'étonner notre siècle et remplir l'Univers,</l>
+	<l id="671">Aimez-vous mieux ma mort, ô beauté trop aimée !</l>
+	<l id="672">Que votre Renommée ?</l>
+	<l id="673">S'il faut que mon trépas contente votre ennuie,</l>
+	<l id="674">Avant qu'il soit longtemps je ferai voir à tous,</l>
+	<l id="675">Que j'ai pris jusqu'ici quelque soin de ma vie,</l>
+	<l id="676">À dessein seulement de l'employer pour vous.</l>
+	<l id="677">Mais s'il faut qu'un beau coup finisse ma misère,</l>
+	<l id="678">Vois-tu comme ta grâce a touché ses esprits,</l>
+	<l id="679">En composant ces vers, le sommeil l'a surpris.</l>
+	<l id="680">Par deux mots ajoutés, tu peux finir sa peine,</l>
+	<l id="681">Et perdre en le sauvant le titre d'inhumaine.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="682" part='i'>Écris-les de ta main.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="682" part='f'>La tienne l'a blessé.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="683" part='i'>Donne donc j'écrirai.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="683" part='m'>Quoi ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="683" part='f'>Qu'il est insensé,</l>
+	<l id="684">Qu'il a peu de raison d'aimer ce qui le blesse,</l>
+	<l id="685">Que mon peu de dessein témoigne sa faiblesse.</l>
+	<l id="686" part='i'>Enfin.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="686" part='f'>N'achève pas, donne-moi cet écrit.</l>
+	<l id="687">Bons Dieux on ne peut rien sur ce farouche esprit.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="688" part='i'>Qu'y mets-tu ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="688" part='m'>Qu'il espère.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="688" part='f'>Espérances frivoles.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="689">Et si je te veux faire avouer ces paroles,</l>
+	<l id="690">Je veux à cet amant procurer ta pitié.</l>
+	<l id="691">Je gagnerai ta haine, ou lui ton amitié.</l>
+	<l id="692">Je jure à ton humeur une éternelle guerre ;</l>
+	<l id="693">Cruelle, as-tu dessein de dépeupler la terre ?</l>
+	<l id="694">Et seras-tu constante en ce rigoureux point</l>
+	<l id="695">De blesser tous les coeurs, et de n'en guérir point ?</l>
+	<l id="696">Espère-tu du prix à ta froideur extrême ?</l>
+	<l id="697">Et vaux-je moins que toi pour avouer que j'aime ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="698">L'Amour te paye-t-il du souci que tu prends</l>
+	<l id="699">De le rendre adorable aux coeurs indifférents ?</l>
+	<l id="700">Te charges-tu du soin d'établir son empire ?</l>
+	<l id="701">Ta voix peut-elle plus que les traits qu'il nous tire ?</l>
+	<l id="702">Si j'aimais Alcidor, il devrait son secours</l>
+	<l id="703">À ses propres appas, et non à tes discours,</l>
+	<l id="704">Son pouvoir t'est suspect, prenant pour lui les armes,</l>
+	<l id="705">Et pensant l'obliger tu fais tort à ces charmes,</l>
+	<l id="706">Son humeur seulement a de puissants appas,</l>
+	<l id="707" part='i'>Et peut plus que ta voix.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="707" part='f'>Et tu ne t'y rends pas ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="708" part='i'>En voudrais-tu jurer ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="708" part='f'>Ouïs, si je te dois croire.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="709">Il peut beaucoup sans toi, n'ôte rien à sa gloire.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="710" part='i'>Qu'elle est dissimulée.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS, rêvant.</speaker>
+	<l id="710" part='f'>Ha ! tu fais mon tourment ;</l>
+	<l id="711">Un mot, belle inhumaine, un regard seulement.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="712" part='i'>Il rêve, écoutons-le.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="712" part='f'>Je pourrais toute chose,</l>
+	<l id="713">Tu ne peux m'échapper, mais quoi que je propose.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="714" part='i'>Je crains peu ce danger.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="714" part='f'>Je tremble à ton aspect,</l>
+	<l id="715">Quoi ? rien à mon amour ? quoi ? rien à mon respect ?</l>
+	<l id="716">Cruelle ! ôte-moi donc ta présence fatale,</l>
+	<l id="717">Et ne m'oblige plus au tourment de Tantale.</l>
+	<l id="718" part='i'>Adieu, laisse-moi seul.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="718" part='f'>Vois combien il me plaît,</l>
+	<l id="719">Je lui veux obéir, tout endormi qu'il est.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="720" part='i'>Attendons son réveil.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="720" part='f'>Pour moi je me retire ;</l>
+	<l id="721">Et tu m'as obligée à beaucoup de martyre.</l>
+	<l id="722">Mais j'aperçois Tyrène, et quelqu'un qui le suit.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Tyrène, Bélise sous le nom de Cléonte, Amarillis, Daphné.</head>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="723">Je l'avise à propos, et le Ciel nous conduit.</l>
+	<l id="724">Nous allions vous trouver, agréez la visite</l>
+	<l id="725">Que ce jeune étranger doit à votre mérite ;</l>
+	<l id="726">C'est mon frère en ces lieux arrivé fraîchement.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="727" part='i'>Il m'oblige beaucoup.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="727" part='f'>Ô Dieux qu'il est charmant !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="728">Surpris, saisi, confus auprès tant d'excellence,</l>
+	<l id="729">Mon meilleur compliment dépend de mon silence ;</l>
+	<l id="730">Je vois d'un oeil charmé vos divines beautés,</l>
+	<l id="731">Et je crois me trouver en des lieux enchantés ;</l>
+	<l id="732">Dès que j'ai commencé de marcher sur vos traces,</l>
+	<l id="733">Mon esprit enchanté vous a pris pour les Grâces ;</l>
+	<l id="734">Vous avez leur même air, leur éclat, leur douceur,</l>
+	<l id="735">Il ne s'y manque rien, que la troisième soeur.</l>
+	<l id="736">Ce discours est fondé sur beaucoup d'apparence,</l>
+	<l id="737">Puisque le nombre seul en fait la différence.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="738">Vous nous voulez railler par ce discours flatteur.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="739">On le pourrait nommer l'agréable menteur.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="740">Vous voir sans soupirer, cela n'est pas possible,</l>
+	<l id="741">Je ne suis pas de roche, et mon coeur est sensible.</l>
+	<l id="742">Dieux ! que mon frère a tort de m'amener ici</l>
+	<l id="743">Pour perdre ma franchise, et gagner du souci.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="744" part='i'>Je vous l'avais bien dit.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="744" part='f'>Il est trop vrai, mon frère,</l>
+	<l id="745">Mais quoi, je me tairai, de peur de vous déplaire.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="746">L'on trouve en vos discours de si charmants appas,</l>
+	<l id="747">Que vous désobligez quand vous ne parlez pas.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="748">Le silence sied bien aux bouches peu disertes ;</l>
+	<l id="749">Aux soupirs, malgré moi, mes lèvres sont offertes.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="750" part='i'>L'on ne peut dire mieux.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="750" part='f'>Mais ma timide voix</l>
+	<l id="751">De vos commandements prendra toujours des lois.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="752">Nous oserons toujours envers vous de prière.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ, bas.</speaker>
+	<l id="753">Voici pour mes ennuis de nouvelles matières.</l>
+	<l id="754">Que ses yeux sont charmants, que sa voix a d'attraits !</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="755">Nous souffrons le Soleil, et le logis est près,</l>
+	<l id="756" part='i'>Vous plaît-il de le voir ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="756" part='f'>Acceptez ma conduite.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="757">L'heureux effet ! Amour favorise la suite.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI.</head>
+<sp who="PHILIDAS"><speaker>PHILIDAS, éveillé.</speaker>
+	<l id="758">Sommeil, heureux charmeur des ennuis que je sens,</l>
+	<l id="759">Pourquoi m'as-tu rendu la liberté des sens ?</l>
+	<l id="760">Hélas par ta faveur je voyais ma Bergère,</l>
+	<l id="761">Et tâchais d'adoucir son humeur trop sévère,</l>
+	<l id="762">Et quoique sa rigueur étouffât mon espoir,</l>
+	<l id="763">Je jouissais pourtant du bonheur de la voir.</l>
+	<l id="764">J'ai malgré ses efforts sa belle main pressée ;</l>
+	<l id="765">Cet agréable songe a flatté ma pensée ;</l>
+	<l id="766">De ce bien maintenant mes désirs sont privés,</l>
+	<l id="767">Mais, ô Dieux ! quelle main a mes vers achevés ?</l>
+	<l id="768">Mais s'il faut qu'un beau coup finisse ma misère,</l>
+	<l id="769">Et l'on a mis ici ; Non, Philidas, espère.</l>
+	<l id="770">Pourrais-je désormais voir le Ciel sans mépris,</l>
+	<l id="771">Si la main de ma Belle avait ces mots écrits ?</l>
+	<l id="772">Non Philidas espère, ô Dieux le puis-je croire ?</l>
+	<l id="773">Puis-je sans vanité me donner cette gloire ?</l>
+	<l id="774">Non, quelqu'un qui passait touché par mon tourment</l>
+	<l id="775">A ces vers achevés, par divertissement.</l>
+	<l id="776">Je ne me flatte point de ce bonheur insigne,</l>
+	<l id="777">L'oser imaginer, c'est en paraître indigne.</l>
+	<l id="778">J'espérerai pourtant, et croirai que le sort</l>
+	<l id="779">Se sers de ce moyen pour divertir ma mort.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Philidas, Amarillis.</head>
+<sp who="AMARILLIS"><speaker>AMARILLIS chante.</speaker>
+<stage>CHANSON.</stage>
+	<l id="780">Mépris, orgueilleuse fierté,</l>
+	<l id="781">Nous avons assez disputé</l>
+	<l id="782">Contre l'effort de tant de charmes.</l>
+	<l id="783">Après un combat glorieux</l>
+	<l id="784">Amour, si je quitte les armes</l>
+	<l id="785">Je les rends au plus grand des Dieux.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="786">Ô divine Chanson ! mes voeux sont approuvés,</l>
+	<l id="787">Et sa divine main a mes vers achevés.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS continue à chanter.</speaker>
+	<l id="788">Je sais quel empire tu prends</l>
+	<l id="789">Dessus les coeurs indifférents</l>
+	<l id="790">Avec des soupirs et des larmes ;</l>
+	<l id="791">Après tant d'efforts glorieux,</l>
+	<l id="792">Amour, je dois quitter les armes</l>
+	<l id="793">Et les rendre au plus grand des Dieux.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="794">Abordons-la sans crainte. Obligé désormais</l>
+	<l id="795">À vous offrir des voeux, si je le fis jamais,</l>
+	<l id="796">Que je baise à genoux cette main favorable,</l>
+	<l id="797">Qui vient de relever l'espoir d'un misérable :</l>
+	<l id="798">Donc ces beaux yeux sont las de me voir soupirer ?</l>
+	<l id="799">Donc il m'est ordonné de vivre et d'espérer ?</l>
+	<l id="800">Et comme un doux vainqueur suspecte sa conquête,</l>
+	<l id="801">Vous avez diverti la mort qui m'était prête ;</l>
+	<l id="802">Oui, je vis, et j'espère un destin plus humain,</l>
+	<l id="803">Puisqu'il faut obéir à cette belle main.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="804">Quoi ? j'ai tracé ces mots ? la croyance indiscrète !</l>
+	<l id="805">Voyez comme aisément on croit ce qu'on souhaite,</l>
+	<l id="806">Perdez un peu, Berger, de cette vanité,</l>
+	<l id="807">Et ne me louez point de tant de charité.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="808">Voulez-vous plus longtemps prolonger mon supplice ?</l>
+	<l id="809">Et vous repentez-vous d'un acte de Justice ?</l>
+	<l id="810">Suis-je trop peu discret pour cacher vos bienfaits ?</l>
+	<l id="811">Quand même vous rendriez mes désirs satisfaits ?</l>
+	<l id="812">Dieux ! qu'à se déclarer une fille a de peine,</l>
+	<l id="813">Vous ne défendez pas qu'on vous nomme inhumaine,</l>
+	<l id="814">Quand je vous appelais sourde, ingrate et sans yeux,</l>
+	<l id="815">C'était là vous donner des titres glorieux,</l>
+	<l id="816">Vous trouviez des appas en mon sort lamentable,</l>
+	<l id="817">Et vous vous offensez du titre d'équitable.</l>
+	<l id="818">Vous n'osez avouer une bonne action,</l>
+	<l id="819">Que vous avez rendue à mon affection.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="820">Je n'en puis avouer, ni mauvaise, ni bonne,</l>
+	<l id="821">Je n'ordonne la vie, et ne l'ôte à personne.</l>
+	<l id="822">C'est assez, Philidas, que chacun songe à soi,</l>
+	<l id="823">Je ne conserve point ce qui n'est point à moi.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="824">Amarillis pourtant a mon coeur en otage.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="825">Elle vous rend à vous avecque votre gage,</l>
+	<l id="826">Vous savez mon humeur, je fuis ces passions,</l>
+	<l id="827">Et je suis seulement mes inclinations.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="828">Quoi ? toujours insensible, et sourde à mes prières ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="829">Toujours ferme et constante en mes humeurs premières.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="830" part='i'>Un peu moins qu'autrefois.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="830" part='f'>Toujours également.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="831" part='i'>Philidas n'est pas sourd.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="831" part='f'>Ni moi pareillement.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="832">Non, car vous m'entendez, Adieu, vivez heureuse,</l>
+	<l id="833">Soyez impitoyable à ma peine amoureuse ;</l>
+	<l id="834">Étouffez tout l'espoir qui me peut secourir,</l>
+	<l id="835">Je porte dans ma main le moyen de guérir.</l>
+<stage>Il s'en va.</stage>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="836">Ô Dieux ! cet importun a ma voix entendue</l>
+	<l id="837">Alors que j'avouais que je me suis rendue.</l>
+	<l id="838">Il a reçu pour lui cette confession ;</l>
+	<l id="839">Et croit être l'objet de mon affection.</l>
+	<l id="840">Mais las ! Quoi que je doive à son amour extrême,</l>
+	<l id="841">Il est bien abusé quand il croit que je l'aime.</l>
+	<l id="842">Un amant bien plus rare occupe mes esprits,</l>
+	<l id="843">Il me demande un coeur qu'un autre a déjà pris.</l>
+	<l id="844">Cléonte l'a forcé, mais avec tant de gloire</l>
+	<l id="845">Qu'il n'a que d'un moment acheté sa victoire,</l>
+	<l id="846">Et qu'ayant jusqu'ici méprisé tant d'Amours</l>
+	<l id="847">Je me rends à l'appas de ses premiers discours.</l>
+	<l id="848">Mais quelqu'un vient ici. Mes plus chères pensées</l>
+	<l id="849">Par cet autre importun sont toujours traversées.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Tyrène, Amarillis.</head>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="850" part='i'>Qui vous rend si pensive ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="850" part='f'>Un autre objet que vous.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="851" part='i'>Alcidor, ou Tirfis.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="851" part='f'>Non, un objet plus doux.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="852" part='i'>Pâris, ou Philidor ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="852" part='m'>Non.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="852" part='f'>Timandre, ou Géronde ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="853">Vous le pourriez trouver, en nommant tout le monde.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="854">Que j'apprenne son nom, et mes voeux sont contents.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="855">Adieu, devinez-le, je vous donne du temps,</l>
+	<l id="856" part='i'>Vous pouvez y penser.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE l'arrêtant.</speaker>
+	<l id="856" part='f'>Un mot belle bergère,</l>
+	<l id="857">Je sais que vous avez des bontés pour mon frère,</l>
+	<l id="858">Et prends part à l'honneur qu'il a reçu de vous.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="859">Je l'estime beaucoup, en êtes-vous jaloux ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="860">Vous devez avouer qu'il est fort agréable.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="861">Il a l'esprit divin, charmant, incomparable.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="862" part='i'>C'est en dire beaucoup.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="862" part='f'>Vous parlez, froidement.</l>
+	<l id="863" part='i'>Il est la vertu même.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="863" part='f'>En un mot votre Amant.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="864">Tyrène, parlez mieux. Vous rire, et me déplaire,</l>
+	<l id="865">Ne sont pas les moyens d'avancer votre affaire.</l>
+	<l id="866">On arrive autrement à notre affection</l>
+	<l id="867">Que par la raillerie, et l'indiscrétion.</l>
+	<l id="868">Il est vrai que la mienne est un but, où Tyrène</l>
+	<l id="869">Avec tous ses effets perdra toujours sa peine.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="870">Je l'aperçois qui vient ; ô Dieu ! qu'il est charmant.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="871" part='i'>Plus que vous.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="871" part='m'>Je le crois.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="871" part='f'>Mais plus infiniment.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE s'en allant dit à Cléonte.</speaker>
+	<l id="872">On attend votre vue avec impatience.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="873">Toi tu fais l'orgueilleux, et tu fuis ma présence.</l>
+<stage>Tyrène se cache et les entend.</stage>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Amarillis, Cléonte.</head>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="874" part='i'>Que Cléonte est chagrin !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="874" part='f'>Et qu'il l'est justement.</l>
+	<l id="875" part='i'>Ha ! séjour malheureux.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="875" part='f'>Ha Dieu quel changement !</l>
+	<l id="876">Ces plaines que tantôt vous avez tant prisées,</l>
+	<l id="877">Et que vous préfériez aux plaines Elysées,</l>
+	<l id="878">N'ont-elles pas encor leur première beauté ?</l>
+	<l id="879">D'où vient à votre humeur cette inégalité ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="880">Que ce lieu soit charmant, qu'il soit incomparable,</l>
+	<l id="881">Bergère, sa beauté m'est peu considérable ;</l>
+	<l id="882">Ce sont des appas morts, sujets au moindre vent,</l>
+	<l id="883">Et qui touchent les yeux, sans passer plus avant ;</l>
+	<l id="884" part='i'>Mais j'en trouve?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="884" part='m'>Achevez.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="884" part='f'>Hélas que puis-je dire ?</l>
+	<l id="885">Lorsque je veux parler, il faut que je soupire.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="886">Que Cléonte sait bien feindre des passions.</l>
+	<l id="887">Ô Dieux ! comme il contraint toutes ses actions.</l>
+	<l id="888">Que la franchise est rare en ce siècle où nous sommes !</l>
+	<l id="889">La feinte seulement est la vertu des hommes,</l>
+	<l id="890">Surtout l'art de tromper est fréquent à la Cour ;</l>
+	<l id="891">Qui dit un Courtisan, dit un fourbe en amour.</l>
+	<l id="892">L'un pour se divertir se fait une Maîtresse ;</l>
+	<l id="893">L'autre fait le galant pour montrer son adresse ;</l>
+	<l id="894">L'un par coutume agit, l'autre par intérêt ;</l>
+	<l id="895">Enfin tous sont Amants, et si pas un ne l'est.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="896">Ne vous offensez point divin charme des âmes,</l>
+	<l id="897">Je ne vous dirai rien de mes nouvelles flammes.</l>
+	<l id="898">Dans mes plus vifs accès, je ne me plaindrai pas,</l>
+	<l id="899">Et pour votre repos j'éviterai vos pas.</l>
+	<l id="900">Je n'augmenterai point cette troupe importune</l>
+	<l id="901">Dont vous tenez en main l'espoir et la fortune,</l>
+	<l id="902">Je ne réclamerai ni vos voeux, ni vos soins,</l>
+	<l id="903">Je saurai mieux aimer, et le témoigner moins.</l>
+	<l id="904">C'est déjà trop parler Dieux quelle ardeur me presse !</l>
+	<l id="905">Que même en promettant j'enfreigne ma promesse.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="906">Las d'exercer ailleurs cette éloquente voix,</l>
+	<l id="907">La venez-vous, Cléonte, exercer dans ces bois !</l>
+	<l id="908">Épargnez nos esprits, dont les moeurs inciviles</l>
+	<l id="909">Ont bien peu de rapport avec celles des Villes.</l>
+	<l id="910">Et ne m'obligez point aux mêmes compliments</l>
+	<l id="911">Que celles de Lyon rendent à leurs Amants,</l>
+	<l id="912">Ils seraient mal fondés, et je reçois les vôtres</l>
+	<l id="913">Comme un propos commun que vous tenez à d'autres.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE feignant de s'en aller.</speaker>
+	<l id="914">J'ai promis de me taire, adieu. Mais quelque jour</l>
+	<l id="915">On ne vous verra plus douter de mon amour.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="916">Non, non, encor un mot, ô Dieux ! qu'il sait bien feindre,</l>
+	<l id="917">On dirait qu'en effet son coeur se laisse atteindre.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="918">Il est atteint déjà, cruelle, et permettez,</l>
+	<l id="919">Puisque ma voix vous plaît, et que vous l'écoutez,</l>
+	<l id="920">Que j'atteste le Ciel et toute la Nature,</l>
+	<l id="921">Que vous êtes l'objet du tourment que j'endure,</l>
+	<l id="922">Si vous n'avez causé la misère où je suis,</l>
+	<l id="923">Si votre occasion ne fait tous mes ennuis,</l>
+	<l id="924">Si je ne connais que vous pour objet de ma peine,</l>
+	<l id="925">Puissé-je être des Dieux et l'horreur, et la haine ?</l>
+	<l id="926">Et qu'après mille maux une éternelle mort</l>
+	<l id="927">Fasse endurer mon âme, et déplorer mon sort ?</l>
+	<l id="928">Mais que je pousse en vain d'inutiles paroles ;</l>
+	<l id="929">Vous tiendrez mes serments pour des serments frivoles !</l>
+	<l id="930">Car on dit que les Dieux imposant des tourments,</l>
+	<l id="931">N'en ordonnèrent point aux parjures Amants.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="932">C'est qu'ils n'en trouvent pas d'égaux à leur offense,</l>
+	<l id="933">Et ce point seulement a borné leur puissance.</l>
+	<l id="934">Aussi quel honnête homme a ces crimes conçus ?</l>
+	<l id="935">Mais allons au logis discourir là-dessus ;</l>
+	<l id="936">Le Soleil en ces lieux ne laisse plus d'ombrage.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="937" part='i'>Que je reçois d'honneur !</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="937" part='f'>J'en reçois davantage.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp who="TYRÈNE"><speaker>TYRÈNE seul les ayant écoutés.</speaker>
+	<l id="938">Dieux avec quelle grâce elle fait le transi,</l>
+	<l id="939">La Bergère est touchée, et je le suis aussi.</l>
+	<l id="940">Il n'est rien de pareil à son rare mérite,</l>
+	<l id="941">Contre moi-même enfin, moi-même je m'irrite.</l>
+	<l id="942">Pesant ces qualités, d'un esprit plus rassis,</l>
+	<l id="943">J'aurais bientôt changé mes rôles en soucis,</l>
+	<l id="944">Elle présiderait à ma flamme amoureuse,</l>
+	<l id="945">Et ma condition serait beaucoup heureuse.</l>
+	<l id="946" part='i'>Mais que voudrait Daphné ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Daphné, Tyrène.</head>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="946" part='f'>Elle n'est pas ici.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="947" part='i'>Que cherchez-vous ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="947" part='m'>Ma soeur.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="947" part='f'>Elle a bien du souci.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="948" part='i'>Et d'où lui provient-il ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="948" part='m'>D'amour.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="948" part='f'>Qu'elle vous porte.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="949">Non, je serais bien vain de parler de la sorte,</l>
+	<l id="950">Car jamais un regard, ni la moindre action,</l>
+	<l id="951">Ne m'a fait espérer son inclination.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="952" part='i'>À qui donc ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="952" part='f'>À l'objet le plus parfait du monde,</l>
+	<l id="953">Dont l'esprit est charmant, la beauté sans seconde,</l>
+	<l id="954" part='i'>C'est à Cléonte, enfin.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="954" part='m'>Qui vous l'a dit ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="954" part='f'>Leur voix,</l>
+	<l id="955">Et tous deux fraîchement ils sortent de ce bois.</l>
+	<l id="956">Ces feuillages épais me cachaient à leur vue,</l>
+	<l id="957">Et j'ai fort clairement votre soeur entendue.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="958">Qu'un jaloux a de peine, il croit tout ce qu'il craint.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="959">Vos yeux vous diront mieux si son coeur est atteint.</l>
+	<l id="960">Adieu, craignez vous-même une pareille peine,</l>
+	<l id="961">Puisqu'il a bien touché cette belle inhumaine.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="962">Ô conseil inutile à mon coeur languissant !</l>
+	<l id="963">On ne craint plus un mal alors qu'on le ressent.</l>
+	<l id="964">Cet aimable vainqueur a mon âme charmée ;</l>
+	<l id="965">Ô rigoureux malheur ! Ma soeur en est aimée,</l>
+	<l id="966">Et sa rare beauté me défend d'espérer</l>
+	<l id="967">Le fruit de le chérir, et de le révérer.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Célidan, Daphné.</head>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN, la surprenant.</speaker>
+	<l id="968" part='i'>À quoi pense Daphné ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="968" part='f'>Je pensais à vous-même.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="969">Que je suis redevable à ton amour extrême,</l>
+	<l id="970">Combien tu fais d'efforts pour un indigne Amant ?</l>
+	<l id="971">Et que peu de ton sexe aiment si constamment.</l>
+	<l id="972">Mille font vanité du titre de parjure,</l>
+	<l id="973">Ce nom est maintenant une honorable injure,</l>
+	<l id="974">Toutes changent sans honte, et ta seule beauté</l>
+	<l id="975">A de l'aversion pour l'infidélité.</l>
+	<l id="976">Mais je ne te vois point en l'humeur ordinaire,</l>
+	<l id="977">Et même dès l'abord j'ai semblé te déplaire.</l>
+	<l id="978" part='i'>T'importunai-je ici ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="978" part='f'>Je ne m'y tiendrais pas.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="979">Quelque souci change ces doux appas,</l>
+	<l id="980">Tu me vois à regret, veux-tu que je le die ?</l>
+	<l id="981">Je crois que ton amour est un peu refroidie.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="982">Je rirais comme toi, mais un mal de côté.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="983">Dis que ton humeur souffre, et non pas ta santé.</l>
+	<l id="984">On laisse rarement promener les malades ;</l>
+	<l id="985">Leurs chambres et leurs lits bornent leurs promenades,</l>
+	<l id="986">Tu tiens les yeux baissés, tu parles froidement.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="987" part='i'>Ô le jaloux esprit !</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="987" part='m'>Peut-être justement.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="987" part='f'>Adieu, mon mal s'accroît.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="988" part='i'>Je te suis.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="988" part='f'>Non, demeure ;</l>
+	<l id="989">Permets-moi seulement de reposer une heure,</l>
+	<l id="990">Peut-être en ce sommeil, mon mal s'apaisera.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="991" part='i'>Je ne te quitte point.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="991" part='F'>Fais ce qu'il te plaira.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="992">Je ne te suivrai point pour conter mon martyre.</l>
+	<l id="993">Mais pour te garantir des aguets du Satyre,</l>
+	<l id="994">Qui rôde effrontément tout à l'entour d'ici,</l>
+	<l id="995" part='i'>J'en ai tantôt vu trois.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="995" part='f'>Je les ai vus aussi.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN bas.</speaker>
+	<l id="996">Ô Dieux ! divertissez les sujets de ma crainte,</l>
+	<l id="997">Et ne trahissez pas une amitié si sainte.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Daphné, Cléonte.</head>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="998">Cléonte a beau se plaindre, il a beau soupirer,</l>
+	<l id="999">De son amour pourtant je ne puis m'assurer.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1000">Je vous atteste, ô Dieux ! Mais qu'est-il nécessaire</l>
+	<l id="1001">De prouver par serment une flamme si claire ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1002">Non, non, ne jurez point, et redoutez les Dieux.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1003">La foudre que je crains est celle de vos yeux.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1004">Je sais que sur ce front des passions sont peintes,</l>
+	<l id="1005">Et je connais parfois que vous poussez des plaintes.</l>
+	<l id="1006">Si je crois vos discours, vous êtes tout de feu.</l>
+	<l id="1007">Enfin vous feignez bien, ou vous aimez un peu.</l>
+	<l id="1008">Mais vous-même paissez d'un espoir inutile</l>
+	<l id="1009">Vous n'en aimez pas une, ou vous en aimez mille.</l>
+	<l id="1010">Vous tenez à ma soeur de semblables discours.</l>
+	<l id="1011">Je vous ai vu moi-même implorer son secours.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1012">Si ma voix parle bien, mes regards parlent mieux,</l>
+	<l id="1013">Ou vous entendez mal le langage des yeux.</l>
+	<l id="1014">Lui jurant que je sens des ardeurs si parfaites,</l>
+	<l id="1015">Mon oeil vous dit-il pas que c'est vous qui les faites ?</l>
+	<l id="1016">Alors qu'on aime bien, souffre-t-on des témoins ?</l>
+	<l id="1017">Craindrais-je qu'on nous vît, si je vous aimais moins ?</l>
+	<l id="1018">Non, je ne tiendrais pas mon amour si secrète,</l>
+	<l id="1019">Et je vous traiterais ainsi que je la traite.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN caché avec Philidas.</speaker>
+	<l id="1020" part='i'>Dieux ! Qu'est-ce que j'entends ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1020" part='f'>Vos affaires vont mal.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1021">Prépare-toi mon bras, à punir ce rival.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1022">Cléonte, les effets prouveront vos promesses ;</l>
+	<l id="1023">Faites-lui cependant un peu moins de caresses ;</l>
+	<l id="1024">Si vous l'aimez si peu, ne lui parlez point tant,</l>
+	<l id="1025">Elle a des qualités à faire un inconstant.</l>
+	<l id="1026">Toute froide qu'elle est, je sais qu'elle vous prise,</l>
+	<l id="1027">Et ne craindrait pas fort de me ravir ma prise.</l>
+	<l id="1028" part='i'>Adieu.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1028" part='m'>Je vous conduis.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1028" part='f'>Non, retournez chez vous,</l>
+	<l id="1029">Ne faisons point d'ombrage à cet esprit jaloux.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1030" part='i'>Je vous obéis donc.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1030" part='f'>Dieux qui l'eût jugé d'elle !</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ, s'en allant.</speaker>
+	<l id="1031">C'est me bien obéir, que de m'être fidèle.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1032">Ah Daphné ! Je renonce au bien de la clarté,</l>
+	<l id="1033">Si rien est comparable à ma fidélité.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Célidan, Cléonte, Philidas.</head>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1034">Fais-en voir une preuve en montrant ton courage.</l>
+	<l id="1035" part='i'>Mets l'épée à la main.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1035" part='f'>Quoi deux ? pas davantage ?</l>
+	<l id="1036">Contre Cléonte seul vous n'êtes pas assez.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1037">Arrête, Célidan, nous sommes offensés,</l>
+	<l id="1038">Et prendre un Cavalier avec cet avantage,</l>
+	<l id="1039">Ce serait lâchement repousser un outrage,</l>
+	<l id="1040">Il nous en faut user avec moins de rigueur :</l>
+	<l id="1041">Son frère a témoigné qu'il est homme de coeur,</l>
+	<l id="1042">Il s'en pourra servir, et le moindre intervalle</l>
+	<l id="1043">Fera voir entre nous une partie égale.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1044">Il faut, ô Philidas, qu'il meure de ma main.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1045">Cela peut arriver, mais ce sera demain,</l>
+	<l id="1046">Car un tiers tel que moi ne vous peut laisser battre.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1047">J'ai parfois dégainé contre deux, contre quatre,</l>
+	<l id="1048">J'ai donné, j'ai paré d'assez dangereux coups,</l>
+	<l id="1049">Non pas avec des gens si généreux que vous.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1050">Que dis-tu, Philidas, de cette humeur altière ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1051">Il parait assez fier, et ne s'ébranle guère.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1052">Il se moque, il se joue, il se rit, Philidas.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1053">Je me ris, je me joue en faisant des combats.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1054" part='i'>Ô le vaillant guerrier !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1054" part='f'>Oui vaillant, mais modeste.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1055">Cherche un de tes amis, nous ferons ce qui reste.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1056">Votre témérité s'apprête un châtiment ;</l>
+	<l id="1057">Je ne tire jamais ce fer impunément.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1058">Ne te vante pas trop, si tu veux qu'on te croie.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1059">Lorsque j'entre en courroux, je détruis, je foudroie ;</l>
+	<l id="1060">Tu devrais à genoux me demander pardon.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1061">Est-il donc insensé ? parle-t-il tout de bon ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1062">Ce sont traits d'une humeur audacieuse et vaine.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1063">Enfin c'est trop railler, et vous laisser en peine ;</l>
+	<l id="1064">Je sais quelle raison excite ce courroux ;</l>
+	<l id="1065">C'est l'effet, Célidan, de vos soupçons jaloux.</l>
+	<l id="1066">Daphné charme votre âme, et sachant qu'elle m'aime,</l>
+	<l id="1067">Croyez que je réponds à son amour extrême,</l>
+	<l id="1068">Mais qu'on me traite ainsi qu'un lâche suborneur,</l>
+	<l id="1069">Comme un homme sans foi, sans coeur, et sans honneur,</l>
+	<l id="1070">Si devant que la nuit demain vienne à paraître?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1071" part='i'>Le terme n'est pas long.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1071" part='f'>Je ne vous fais connaître</l>
+	<l id="1072">Que pour votre intérêt nous avons gouverné</l>
+	<l id="1073">L'esprit d'Amarillis, et celui de Daphné.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1074">Comment à toutes deux vous contez des fleurettes ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1075">Oui à toutes deux, pour des raisons secrètes.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1076" part='i'>Comment à toutes deux ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1076" part='f'>Vous vous troublez de rien,</l>
+	<l id="1077">Il est vrai, Philidas, mais c'est pour votre bien.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1078">Ah ! Célidan, j'ai peine à souffrir cet outrage.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1079">Lorsque je m'emportais tu t'es montré si sage.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1080">Mais qu'appréhendez-vous, mettez les armes bas,</l>
+	<l id="1081">Vous dussiez souhaiter de la voir dans mes bras,</l>
+	<l id="1082">Vous bénirez bientôt mes soins et mon adresse,</l>
+	<l id="1083">Lorsque vous recevrez l'effet de mes promesses,</l>
+	<l id="1084">De ce mal apparent le bien vous sera doux,</l>
+	<l id="1085">En travaillant pour moi je travaille pour vous.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1086">Je ne puis rien comprendre en cet obscur langage.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1087">Vous me dispenserez d'en dire davantage.</l>
+	<l id="1088">Si vous les possédez serez-vous satisfaits,</l>
+	<l id="1089">Rien ne peut divertir le dessein que j'en fais,</l>
+	<l id="1090">Vous serez obligés à ces heureuses feintes,</l>
+	<l id="1091">Et les remerciements succéderont aux plaintes.</l>
+	<l id="1092">J'aurai mis du remède à vos communs ennuis ;</l>
+	<l id="1093">Vous louerai mon esprit, et saurai qui je suis,</l>
+	<l id="1094">Votre mal et le mien également me touche,</l>
+	<l id="1095">La peur ne me met point ce discours en la bouche,</l>
+	<l id="1096">Si dans peu les effets ne surpassent vos voeux,</l>
+	<l id="1097">Unissez vos efforts, et m'attaquez tous deux.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1098">Qu'en dis-tu, Célidan, le pouvons-nous bien croire ?</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1099">À garder sa parole, il aura de la gloire ;</l>
+	<l id="1100">Et s'il advient aussi qu'il ne la garde pas,</l>
+	<l id="1101">Il pourra rencontrer sa honte et son trépas.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1102">J'accepte l'un et l'autre en cas de perfidie.</l>
+	<l id="1103">Mais ne doutez tous deux de rien que je vous die.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Cléonte, Tyrène.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1104">Ah ! Comme tout succède à mon ardent désir,</l>
+	<l id="1105">Peut-on faire une intrigue avec plus de plaisir ?</l>
+	<l id="1106">Ah ! Tyrène, tu vois un homme de courage,</l>
+	<l id="1107">Qui pour tes intérêts dans les duels s'engage,</l>
+	<l id="1108">Et peu s'en est fallu que deux Amants jaloux</l>
+	<l id="1109">Ne soient venus sur moi des injures aux coups,</l>
+	<l id="1110">Tu devais te hâter, tu m'aurais secondée.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1111" part='i'>Et la querelle enfin ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1111" part='f'>Nous l'avons accordée.</l>
+	<l id="1112">Admire mon esprit, reconnais mon pouvoir,</l>
+	<l id="1113">Ce n'est qu'un en ces lieux que m'aimer et me voir,</l>
+	<l id="1114">Je fais mille jaloux, et toutes vos Maîtresses</l>
+	<l id="1115">Sont prodigues pour moi, de voeux et de caresses,</l>
+	<l id="1116">Les esprits les plus froids se sont laissés dompter,</l>
+	<l id="1117">Tyrène est bien heureux, s'il s'en peut exempter.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1118">Je le cède, Bélise, à ton mérite extrême.</l>
+	<l id="1119">Et crois que tu sais mieux mon métier que moi-même.</l>
+	<l id="1120">Tu traites mieux l'Amour avec moins de souci ;</l>
+	<l id="1121">Mais Amarillis vient, sa soeur la suit aussi.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1122" part='i'>Adieu.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1122" part='f'>Quoi ! Tu les crains, Dieux que de retenue !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1123">Cette règle d'amour t'est encore inconnue.</l>
+	<l id="1124">Je trompe l'une et l'autre, et toutes deux m'aimant,</l>
+	<l id="1125">Je dois à toutes deux parler séparément.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Daphné, Amarillis.</head>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1126">Vous ne méprisez plus l'amour ni son enfance,</l>
+	<l id="1127">Je ne vous entends plus défier sa puissance.</l>
+	<l id="1128">Vous aimez à rêver, ce visage est changé.</l>
+	<l id="1129">Je m'abuse, ma soeur, ou l'amour s'est vengé ;</l>
+	<l id="1130">Et ne se fiant pas au pouvoir de ses charmes,</l>
+	<l id="1131">Cléonte son second a pris pour lui les armes.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1132">Je ne vous entends plus estimer vos liens,</l>
+	<l id="1133">Célidan n'a plus part en tous vos entretiens,</l>
+	<l id="1134">Votre humeur chaque jour devient plus solitaire,</l>
+	<l id="1135">Je m'abuse ma soeur, ou cette amour s'altère,</l>
+	<l id="1136">Et l'humeur de Cléonte a de certains appas,</l>
+	<l id="1137">Qui, si vous l'avouez, ne vous déplaisent pas.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1138" part='i'>Il plaît à tout le monde.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1138" part='f'>Il faut donc qu'il me plaise.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1139">Mais ne craignez-vous plus ce tyran de notre aise,</l>
+	<l id="1140">Cet aveugle démon, ce poison des esprits,</l>
+	<l id="1141">Dont les fausses douceurs vous étaient à mépris ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1142" part='i'>Le craignez-vous, ma soeur ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1142" part='f'>J'ai franchi cet orage.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1143">Pour le franchir de même ai-je moins de courage ?</l>
+	<l id="1144">Dois-je avoir en horreur ce que vous approuvez ?</l>
+	<l id="1145">Et ne pourrais-je pas tout ce que vous pouvez ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1146">Pourquoi donc mille Amis, qui vous ont tant aimée</l>
+	<l id="1147" part='i'>N'ont-ils rien profité ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1147" part='f'>Vous m'en avez blâmée,</l>
+	<l id="1148">Vous me peigniez l'Amour plein d'appas et d'attraits,</l>
+	<l id="1149">Je vous crois maintenant, et je cède à ces traits.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1150">Ainsi Cléonte enfin a votre âme touchée,</l>
+	<l id="1151" part='i'>Son mérite vous plaît ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1151" part='f'>En êtes-vous fâchée ?</l>
+	<l id="1152">Au moins ce choix est juste, et mon coeur enflammé</l>
+	<l id="1153">N'en quitte point un autre, après l'avoir aimé.</l>
+	<l id="1154">Je n'ai point d'autre Amant dont la flamme fidèle</l>
+	<l id="1155">De ma première amour doive être le modèle,</l>
+	<l id="1156">Je n'ai point engagé mes inclinations,</l>
+	<l id="1157">Le choix est libre encor à mes affections.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1158">J'approuve ce dessein, et pense que votre âme</l>
+	<l id="1159">Ne se peut ennuyer d'une si belle flamme,</l>
+	<l id="1160">J'estime comme vous ses rares qualités.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1161">Vous les estimez tant, que vous les ressentez.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1162" part='i'>Non pas fort.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1162" part='m'>Plus que moi.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1162" part='f'>J'aurais beaucoup d'affaires.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1163">Vous en avez aussi plus que les ordinaires,</l>
+	<l id="1164">Vous considérez trop toutes mes actions,</l>
+	<l id="1165">Et vous m'importunez de trop de questions,</l>
+	<l id="1166" part='i'>Pourquoi m'épiez-vous ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1166" part='f'>Ô la folle créance !</l>
+	<l id="1167">Voyez combien l'Amour cause de défiance,</l>
+	<l id="1168">Mais ne vous plaignez point, je vous laisse en ce lieu.</l>
+	<l id="1169" part='i'>Et ne vous suivrai plus.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1169" part='f'>Vous m'obligez. Adieu.</l>
+<stage>Étant seule.</stage>
+	<l id="1170">Elle a beau se contraindre, on voit en son visage</l>
+	<l id="1171">De sa nouvelle flamme un trop clair témoignage,</l>
+	<l id="1172">Depuis que cet Amant s'est fait voir en ces lieux,</l>
+	<l id="1173">Célidan l'importune, et déplaît à ses yeux,</l>
+	<l id="1174">Elle ne peut cacher le souci qui la touche,</l>
+	<l id="1175">Son coeur à tous moments est trahi par sa bouche,</l>
+	<l id="1176">Et tant de questions font assez présumer</l>
+	<l id="1177">Le déplaisir qu'elle a de me le voir aimer.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Cléonte, Amarillis.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1178">Que ce teint est changé ! Quelle douleur vous presse ?</l>
+	<l id="1179" part='i'>Dieux ! qu'est-ce que je vois ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1179" part='f'>Vous causez ma tristesse.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1180" part='i'>Quoi ? vous suis-je importun ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1180" part='f'>Votre civilité</l>
+	<l id="1181">Ne peut jamais passer pour importunité,</l>
+	<l id="1182">Et l'on souhaite plus, qu'on ne hait, vos visites,</l>
+	<l id="1183">Depuis qu'on a connu de vos rares mérites.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1184">Bergère, épargnez-moi, puisque les compliments</l>
+	<l id="1185">Doivent être bannis d'entre les vrais Amants.</l>
+	<l id="1186">Ma seule affection vous est considérable,</l>
+	<l id="1187">Et le moindre mérite est au mien préférable ;</l>
+	<l id="1188">Je connais mes défauts ; pour me bien estimer</l>
+	<l id="1189">Avouez seulement que je sais bien aimer.</l>
+	<l id="1190">J'ai peu de vanité, mais au soin de vous plaire</l>
+	<l id="1191">Il faut que tout me cède, et que tout me défère.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1192" part='i'>Vous promettez beaucoup.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1192" part='f'>Je fais encore plus,</l>
+	<l id="1193">Mais tenez pour suspects ces propos superflus.</l>
+	<l id="1194">Doutez si je vous aime ! Ordonnez à mon âme</l>
+	<l id="1195">De prouver à vos yeux cette immortelle flamme.</l>
+	<l id="1196">Quel effet de valeur vous en peut assurer ?</l>
+	<l id="1197">Baiserai-je vos pas ? Vous faut-il adorer ?</l>
+	<l id="1198">M'ouvrirai-je le sein ? Savez-vous quelque signe</l>
+	<l id="1199">Qui prouvât mieux encor ma passion insigne ?</l>
+	<l id="1200">J'attesterais en vain les hommes et les Dieux,</l>
+	<l id="1201">Je ne désire point de témoins que vos yeux.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1202">J'en veux pourtant avoir un autre témoignage,</l>
+	<l id="1203">À quelques pas d'ici dans un sacré bocage,</l>
+	<l id="1204">Où luit avec respect le clair flambeau du jour,</l>
+	<l id="1205">Est la fontaine enfin des vérités d'amour.</l>
+	<l id="1206">Là de ce puissant Dieu les décrets équitables</l>
+	<l id="1207">D'une soudaine mort punissent les coupables,</l>
+	<l id="1208">Je crois qu'Amarillis y conduisant vos pas,</l>
+	<l id="1209">Après tant de serments, ne vous expose pas.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1210">Si la fidélité se fait voir dans cette onde,</l>
+	<l id="1211">La mienne y paraîtra la plus belle du monde,</l>
+	<l id="1212">Jusqu'à l'heureux moment de l'assignation,</l>
+	<l id="1213">Accordez quelque gage à mon affection,</l>
+	<l id="1214">Ce bracelet me charme, oserai-je le prendre ?</l>
+	<l id="1215">Ce soir au rendez-vous je promets de le rendre.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1216" part='i'>Vous me le rendrez donc ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1216" part='f'>Faveur digne d'un Dieu,</l>
+	<l id="1217" part='i'>Je n'y manquerai pas.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1217" part='m'>Je vous en prie.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1217" part='f'>Adieu.</l>
+	<l id="1218">La Bergère qui vient est à mon autre Amante.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Climante, Cléonte.</head>
+<sp who="CLIMANTE"><speaker>CLIMANTE.</speaker>
+	<l id="1219" part='i'>Je vous cherchais partout.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1219" part='f'>Que me voudrait Climante ?</l>
+</sp>
+<sp who="CLIMANTE"><speaker>CLIMANTE.</speaker>
+	<l id="1220">Vous donner cette Lettre.</l>
+</sp>
+<stage>Lettre de Daphné à Cléonte.</stage>
+<sp who="CLÉONTE"><speaker>CLÉONTE lit.</speaker>
+	<l id="1221">Cléonte, si tu veux me plaire extrêmement,</l>
+	<l id="1222">Accorde-moi ce jour le bien de ta présence,</l>
+	<l id="1223">Ma prière t'oblige à cette complaisance,</l>
+	<l id="1224">Je veux t'entretenir une heure seulement.</l>
+	<l id="1225">J'irai me rendre seule au bord de la fontaine</l>
+	<l id="1226">Afin de m'assurer de ton affection ;</l>
+	<l id="1227">Là, si comme mes feux ton amour est certaine,</l>
+	<l id="1228">Tu me la prouveras par ta discrétion.</l>
+	<l id="1229" part='i'>DAPHNÉ</l>
+<stage>Il continue.</stage>
+	<l id="1229" part='f'>Adieu, je l'irai voir.</l>
+</sp>
+<sp who="CLIMANTE"><speaker>CLIMANTE.</speaker>
+	<l id="1230">Il faudrait que ce fût à sept heures du soir,</l>
+	<l id="1231">Comme entre chien et loup, environ sur la brune.</l>
+	<l id="1232">Mais ne négligez pas votre bonne fortune ;</l>
+	<l id="1233">Bien que vous soyez jeune, avec beaucoup d'appas,</l>
+	<l id="1234">On voit de vos pareils qui pourtant n'en ont pas.</l>
+	<l id="1235">Enfin, dans ce bonheur soyez discret, fidèle,</l>
+	<l id="1236">Et couvrez bien surtout l'honneur de cette belle.</l>
+	<l id="1237" part='i'>Prenez bien garde à tout.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1237" part='f'>Je n'y manquerai point.</l>
+</sp>
+<sp who="CLIMANTE"><speaker>CLIMANTE.</speaker>
+	<l id="1238">Soyez, ainsi qu'heureux, discret au dernier point.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1239">Qu'un facile moyen à leur âme abusée !</l>
+	<l id="1240">Que toucher une fille est une chose aisée !</l>
+	<l id="1241">Et qu'un Amant bien fait a peu d'invention</l>
+	<l id="1242">Quand il n'attire pas son inclination.</l>
+	<l id="1243">Si jamais j'eus sujet d'accuser la Nature,</l>
+	<l id="1244">Étant ce que je suis, c'est en cette aventure.</l>
+	<l id="1245">Je suis leur seul espoir, et leur unique bien.</l>
+	<l id="1246">Je leur promets beaucoup, et ne puis donner rien.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Les trois Satyres.</head>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1247">Je pense qu'un Démon les cache à notre vue,</l>
+	<l id="1248">Et quand nous les voyons les couvre d'une nue.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="1249">N'importe, Tyresie a dit que je suis né</l>
+	<l id="1250" part='i'>Pour prendre Amarillis.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1250" part='f'>Moi pour prendre Daphné.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1251">Et moi, quelque Prophète aussi grand que le vôtre,</l>
+	<l id="1252">Dis que j'aurai le bien d'employer l'une et l'autre.</l>
+	<l id="1253">Seul je les rangerai sous l'amoureuse loi.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1254" part='i'>Tout beau, c'est un peu trop.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1254" part='f'>Ce n'est pas trop pour moi.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="1255">Mais garde Philidas, ce fol mélancolique,</l>
+	<l id="1256">Qui frappe comme un sourd, et les coups qu'il applique</l>
+	<l id="1257">Sont de poids d'ordinaire, et fracassent les os.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1258">Ce péril n'est pas grand pour un homme dispos.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1259">Déjà plus d'un Satyre en est sur la litière.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1260">Ayant trois pas d'avance, on ne le craindrait guère.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1261">Mais il lance le dard plus de cinquante pas.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1262">À lui servir de but je ne m'expose pas.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1263">Tu crains peu Célidan, et les cailloux qu'il jette.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1264">J'aime peu ses cailloux, j'aime peu sa houlette.</l>
+	<l id="1265">Mais s'il dormait bien fort, après un bon repas,</l>
+	<l id="1266">En enlevant Daphné, je ne le craindrais pas.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1267">Ah ! qu'il est dangereux pour les gens qui sommeillent.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1268">Ah ! qu'il est redoutable à ceux qui se réveillent.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1269">L'autre jour un Berger te fit gagner le haut.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1270">L'autre jour un Bouvier t'époudra comme il faut.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="1271">Trêve à tous ces discours, quittons la raillerie,</l>
+	<l id="1272">Et sur notre dessein raisonnons je vous prie.</l>
+	<l id="1273">Celles que nous suivons iront voir en ce jour</l>
+	<l id="1274">La fontaine qui rend les vérités d'amour.</l>
+	<l id="1275">Coupons adroitement le chemin qu'elles prennent,</l>
+	<l id="1276">Elles s'écarteront des Bergers qui les mènent,</l>
+	<l id="1277">Lors nous prendrons le temps pour les aller saisir,</l>
+	<l id="1278">Et puis après cela nous aurons du plaisir.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1279">Mais aiguisons nos doigts ; mais affilons nos pouces,</l>
+	<l id="1280">Moi sur mon instrument, vous sur vos flûtes douces.</l>
+</sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN, seul.</speaker>
+	<l id="1281">C'est bien manquer, et mériter son mal.</l>
+	<l id="1282">Que s'attendre en amour à son propre rival !</l>
+	<l id="1283">Qu'il me rende les voeux d'une ingrate maîtresse</l>
+	<l id="1284">Me les ayant ôtés ? Ô la vaine promesse !</l>
+	<l id="1285">Il est adoré d'elle, et son intention</l>
+	<l id="1286">Est d'arriver par feinte à sa possession.</l>
+	<l id="1287">Et puis après l'honneur de cette jouissance</l>
+	<l id="1288">Abandonner ces lieux, et vanter sa puissance,</l>
+	<l id="1289">Mais qu'il craigne l'effet de mon juste courroux,</l>
+	<l id="1290">Et qu'il n'irrite pas un amoureux jaloux.</l>
+	<l id="1291">Le voilà qui sourit, puis change de visage,</l>
+	<l id="1292">Hé bien qu'avez-vous fait ? Avancez-vous l'ouvrage ?</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Cléonte, Célidan.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1293">Je fais tous mes efforts, mais je travaille en vain,</l>
+	<l id="1294">Elle demeure ferme en son premier dessein,</l>
+	<l id="1295">Je blâme son humeur, j'excite sa colère,</l>
+	<l id="1296">Et par tous ces moyens, je ne lui puis déplaire,</l>
+	<l id="1297">Je vous plains de servir cette ingrate beauté,</l>
+	<l id="1298">Pour moi sont les faveurs, et pour vous la fierté.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1299">Je ne puis plus aussi différer le supplice</l>
+	<l id="1300">Que mon juste courroux doit à ton artifice,</l>
+	<l id="1301">Par ton invention mes voeux sont méprisés,</l>
+	<l id="1302">Traître, tu plains mes maux, et tu les as causés ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1303">Ne vous hâtez pas tant, vous entrez en furie,</l>
+	<l id="1304">Ce que je vous ai dit, n'est qu'une raillerie,</l>
+	<l id="1305">Vous êtes plus heureux que vous ne pensez pas,</l>
+	<l id="1306">Pour me remercier, mettez les armes bas,</l>
+	<l id="1307">C'est tenir trop longtemps votre esprit en balance.</l>
+	<l id="1308">Je connais votre amour, j'en sais la violence,</l>
+	<l id="1309">Et veux que vous deviez à ma compassion</l>
+	<l id="1310">Le fruit que vous aurez de votre affection.</l>
+<stage>Montrant la lettre.</stage>
+	<l id="1311">Voyez ce qu'en deux mots m'ordonne cette Belle,</l>
+	<l id="1312">Et recevez de moi ce que j'ai reçu d'elle.</l>
+	<l id="1313">Allez la voir ce soir, montrez-lui cet écrit,</l>
+	<l id="1314">Dites qu'un prompt effet a changé mon esprit,</l>
+	<l id="1315">Qu'elle a tort de me croire, et de ne rien promettre.</l>
+	<l id="1316">Que moi-même en vos mains j'ai remis cette lettre.</l>
+	<l id="1317">Jurez-lui que je ris de ses voeux superflus,</l>
+	<l id="1318">Je confesserai tout, quand vous en direz plus.</l>
+	<l id="1319">Jugez après cela si Cléonte vous aime,</l>
+	<l id="1320">Et si je vous sers mieux que je ne fais moi-même.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1321" part='i'>Que je lise ces mots.</l>
+<stage>Il lit tout bas, ayant lu il dit.</stage>
+	<l id="1321" part='f'>L'infidèle beauté</l>
+	<l id="1322">Sans doute je vous dois le bien de la clarté,</l>
+	<l id="1323">Et je suis tout confus d'avoir eu la pensée</l>
+	<l id="1324">Que ma fidèle amour fût par vous traversée ;</l>
+	<l id="1325">Je ne saurais payer un si rare plaisir.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1326">Allez, il en faudra parler plus à loisir,</l>
+	<l id="1327">Il faut que Philidas après un long martyre</l>
+	<l id="1328">Arrive par mes soins à l'hymen qu'il désire ;</l>
+	<l id="1329">J'ai fait à cet Amant espérer du repos,</l>
+	<l id="1330">Il le mérite bien. Mais il vient à propos.</l>
+</sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Philidas, Cléonte.</head>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1331">Enfin sans m'abuser d'inutiles paroles,</l>
+	<l id="1332">Flattez-vous pas mon mal d'espérances frivoles ?</l>
+	<l id="1333">Amarillis veut-elle approuver mes douleurs ?</l>
+	<l id="1334">Et prendre enfin pitié de voir couler mes pleurs ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1335">Vous pouvez espérer puisque tout vous succède,</l>
+	<l id="1336">Et qu'on a pour vos maux préparé du remède,</l>
+	<l id="1337">J'ai disposé son coeur à n'estimer que vous.</l>
+	<l id="1338">Vous causez maintenant ses pensers les plus doux,</l>
+	<l id="1339">Et vous verrez ce soir l'effet de ma promesse,</l>
+	<l id="1340">Si l'Amour vous permet assez de hardiesse.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1341">Pour servir cette belle il n'est point de danger</l>
+	<l id="1342">Où mon affection ne me fit engager ;</l>
+	<l id="1343">Et les chastes ardeurs dont j'ai l'âme enflammée,</l>
+	<l id="1344">Disposeraient ce bras à combattre une armée.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1345">La voyant au milieu des lions, et des ours,</l>
+	<l id="1346">Pourriez-vous l'en tirer, et conserver ses jours ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1347">J'emploierais mes efforts, et je vaincrais leur rage,</l>
+	<l id="1348">Si la force et l'adresse égalaient mon courage.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1349">Et si vous la voyez dans un brasier ardent ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1350">Je m'irais exposer à cet autre accident.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1351" part='i'>Il est besoin de plus.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1351" part='f'>De rien que je ne fisse.</l>
+	<l id="1352">Pour elle je voudrais franchir un précipice.</l>
+	<l id="1353">Mais ne me celez rien, et m'ôtez de souci.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1354">Amarillis ce soir vous attend seule ici,</l>
+	<l id="1355">Cette rare beauté chérit votre servage,</l>
+	<l id="1356">Et le soin que j'ai pris vous procure ce gage.</l>
+<stage>Lui donnant le bracelet.</stage>
+	<l id="1357">Amenez seulement à l'assignation</l>
+	<l id="1358">L'amour, la retenue, et la discrétion.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1359" part='i'>Ô Dieux que dites-vous ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1359" part='f'>Que je tiens ma promesse,</l>
+	<l id="1360">Servez fidèlement cette belle Maîtresse.</l>
+	<l id="1361">Adieu, vivez content, et gardez ces cheveux.</l>
+<stage>Il s'en va.</stage>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1362">Si mon bonheur n'est faux, que je vous dois de voeux !</l>
+	<l id="1363">Avoir tant obtenu de cette âme de roche ;</l>
+	<l id="1364">Mais déjà la soirée, et mon repos approche,</l>
+	<l id="1365">Attendant le bonheur de recevoir ses Lois</l>
+	<l id="1366">Allons rêver une heure au profond de ce bois.</l>
+</sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp who="AMARILLIS"><speaker>AMARILLIS, seule.</speaker>
+	<l id="1367">Le Ciel laisse à nos yeux paraître ses étoiles,</l>
+	<l id="1368">Et la Nuit sur la Terre a déployé ses voiles ;</l>
+	<l id="1369">Il est déjà bien tard, et mon fidèle Amant</l>
+	<l id="1370">Pour marquer son amour viendra dans un moment.</l>
+	<l id="1371">Dans ce miroir flottant, dedans cette fontaine,</l>
+	<l id="1372">Je verrai son image à côté de la mienne.</l>
+	<l id="1373">Là nos yeux, à nos yeux des traits se lanceront,</l>
+	<l id="1374">Mes timides regards sans peur s'expliqueront,</l>
+	<l id="1375">Je pourrai sans parler lui dire que je l'aime,</l>
+	<l id="1376">Ces eaux m'exempteront de lui dire moi-même,</l>
+	<l id="1377">Cette onde lui peignant l'excès de mon ardeur,</l>
+	<l id="1378">Ne fera point de tort à ma chaste pudeur.</l>
+</sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Les trois Satyres, Amarillis.</head>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1379">Après tant de travaux il faut faire curée ;</l>
+	<l id="1380">Courage, Ami, voici notre poule égarée.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1381" part='i'>Infâmes laissez-moi ?</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1381" part='f'>Nous ne vous laissons pas.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1382">Vous aurez beau crier, vous passerez le pas.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1383">Au secours mes Amis ? on m'enlève ? on m'emporte ?</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="1384" part='i'>Allons il faut venir.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1384" part='f'>Ah bons Dieux ! je suis morte.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1385">Ah vous n'en mourrez pas, suivez-nous promptement.</l>
+</sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Philidas, Les Satyres, Amarillis.</head>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+<note type='L'>Bouquin : Vieux bouc. On appelle figurément un vieux bouquin, un homme puant et lascif, qui a passe sa vie dans la débauche. En terme de poésie, on appelle les satyres, les dieux chevrepieds, de bouquins, à cause qu'on les peint avec des pieds de bouc. [F]</note>
+	<l id="1386">Bouquins je suis à vous ? Attendez seulement ?</l>
+	<l id="1387">Vous mourrez de ma main, ou vous lâcherez prise.</l>
+</sp>
+<sp who="DEUXIÈME SATYRE"><speaker>DEUXIÈME SATYRE.</speaker>
+	<l id="1388">Diable de ce grand coup j'ai la hanche démise.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1389" part='i'>Quoi ? vous me résistez ?</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1389" part='f'>Peste qu'il frappe fort.</l>
+</sp>
+<sp who="TROISIÈME SATYRE"><speaker>TROISIÈME SATYRE.</speaker>
+	<l id="1390" part='i'>Il se faut retirer.</l>
+</sp>
+<sp who="PREMIER SATYRE"><speaker>PREMIER SATYRE.</speaker>
+	<l id="1390" part='f'>Ha bons Dieux je suis mort ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1391">Sans moi, belle bergère, ils vous auraient ravie.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1392">J'avoue, ô Philidas, que je vous dois la vie.</l>
+	<l id="1393">Mais quel si grand bonheur guidant ici vos pas</l>
+	<l id="1394">M'a prêté ce secours que je n'attendais pas ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1395">C'est l'effet seulement de mon obéissance,</l>
+	<l id="1396">Et vous ne m'en devez aucune reconnaissance.</l>
+	<l id="1397">Mais que suggérez-vous de mon affection</l>
+	<l id="1398">M'étant trouvé si tard à l'assignation ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1399" part='i'>Quelle assignation ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1399" part='f'>Vous semblez étonnée</l>
+	<l id="1400">À l'assignation que vous m'avez donnée.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1401">Mais je vous ai donné quelque assignation ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1402">Et d'où vous peut venir cette confusion ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1403" part='i'>Quoi je vous attendais ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1403" part='f'>La chose est très certaine.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1404" part='i'>En quel endroit encor ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1404" part='f'>Au bord de la fontaine.</l>
+	<l id="1405">Soyez un peu sensible aux rigueurs de mon sort,</l>
+	<l id="1406">Vous connaissez Cléonte, il m'a fait ce rapport.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1407" part='i'>Et que vous a-t-il dit ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1407" part='f'>Qu'à la fin mon martyre</l>
+	<l id="1408">Vous avait disposée à l'Hymen où j'aspire.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1409">Vous croyez, Philidas, un peu légèrement,</l>
+	<l id="1410">Je ne l'ai point chargé de ce commandement,</l>
+	<l id="1411">L'amour ne permet pas à votre rêverie</l>
+	<l id="1412">De discerner le vrai, d'avec la raillerie,</l>
+	<l id="1413" part='i'>Cléonte vous gaussait.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1413" part='f'>Ces cheveux toutefois</l>
+	<l id="1414">Me doivent confirmer le rapport de sa voix,</l>
+	<l id="1415">Il a reçu pour moi ce favorable gage</l>
+	<l id="1416">Par qui vous témoignez de chérir mon servage.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1417" part='i'>Donnez que je le vois.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1417" part='m'>Il vient de vous.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1417" part='f'>Ô Dieux !</l>
+	<l id="1418">Dois-je avouer ici mon oreille, et mes yeux ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1419">D'où naissent vos soupirs et votre inquiétude ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1420">Est-il un crime égal à ton ingratitude ?</l>
+	<l id="1421">Traître ? Lâche Tyran de mes affections,</l>
+	<l id="1422">Tu reconnais ainsi mes chastes passions ?</l>
+	<l id="1423">Barbare ? Indigne du séjour où nous sommes ?</l>
+	<l id="1424">Peste de l'Univers ? le plus méchant des hommes !</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1425">Ô Dieux ! qui rend ainsi votre esprit furieux ?</l>
+	<l id="1426">Pourquoi me donnez-vous ces noms injurieux ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1427">Je ne vous parle pas, j'adresse ces injures</l>
+	<l id="1428">Au pire des mortels, au plus grand des parjures ;</l>
+	<l id="1429">Qui méritait le moins l'honneur de mon amour,</l>
+	<l id="1430">Et le plus beau pourtant qui respire le jour.</l>
+</sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Cléonte, Tyrène, Amarillis. Philidas.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1431">Tu n'en peux plus douter, entends d'ici sa plainte,</l>
+	<l id="1432">Et loue avecque moi cette agréable feinte.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1433">Quelle rage est pareille à mon ressentiment ?</l>
+	<l id="1434">Et qui me vengera de ce perfide Amant ?</l>
+	<l id="1435">Si vous servez, Berger, mon amour outragée,</l>
+	<l id="1436">Et si par votre bras je puis être vengée,</l>
+	<l id="1437">Vous ne pousserez plus d'inutiles soupirs,</l>
+	<l id="1438">Mon inclination se range à vos désirs ;</l>
+	<l id="1439">Un hymen bienheureux terminera vos plaintes,</l>
+	<l id="1440">Si comme ses ardeurs les vôtres ne sont feintes,</l>
+	<l id="1441">Percer ce lâche sein que je n'ai su blesser ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE venant à elle.</speaker>
+	<l id="1442">Il m'obligerait fort s'il s'en pouvait passer.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1443">Quoi tu parais encor, détestable parjure ?</l>
+	<l id="1444">Et tu n'espères pas qu'on venge mon injure ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1445">Vous m'accusez, à tort, adorable beauté,</l>
+	<l id="1446">Tyrène répondra de ma fidélité,</l>
+	<l id="1447">Il est l'unique objet de l'ardeur qui m'enflamme,</l>
+	<l id="1448">Il possède tout seul mon coeur, et mon âme.</l>
+	<l id="1449">Nos destins sont unis par un même lien,</l>
+	<l id="1450">Et si quelqu'un m'attaque, il défendra son bien.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1451" part='i'>A-t-il perdu le sens ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1451" part='f'>Oui, car j'aime un volage,</l>
+	<l id="1452">Qui trahissait pour vous une fois qui l'engage,</l>
+	<l id="1453">Mais il ressent enfin sa première amitié.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1454">Dieux qu'il est insensé ? Croit-il être Bergère ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1455" part='i'>Jugez-le par ce sein.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1455" part='f'>Ô merveilleux mystère !</l>
+	<l id="1456">Qu'une agréable feinte a nos yeux abusés !</l>
+	<l id="1457">J'excuse maintenant si vous me méprisez.</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1458" part='i'>Ô Dieux qui l'eût pensé !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1458" part='f'>Pour bannir ma tristesse,</l>
+	<l id="1459">J'ai voulu dans ces lieux éprouver mon adresse,</l>
+	<l id="1460">Et Tyrène doutait sachant votre rigueur,</l>
+	<l id="1461">Que j'eusse assez d'attraits pour toucher votre coeur.</l>
+	<l id="1462">Par divertissement j'entrepris cette feinte,</l>
+	<l id="1463">Avouez, sans rougir, que vous étiez atteinte.</l>
+	<l id="1464">Mais quels sont vos désirs, je ne puis rien pour vous,</l>
+	<l id="1465">Philidas vous promet des passe-temps plus doux,</l>
+	<l id="1466">Et par le doux lien d'une ardeur mutuelle</l>
+	<l id="1467">Vous devez reconnaître un Amant si fidèle.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1468">Je reçois, Philidas, votre coeur de sa main,</l>
+	<l id="1469">Vous n'accuserez plus ni rigueur, ni dédain,</l>
+	<l id="1470">Me voilà disposée à vous rendre justice,</l>
+	<l id="1471">Et vous devez ce bien à ce doux artifice.</l>
+	<l id="1472">Adieu, retirons-nous, et vivons tous contents.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1473">Il faut encor jouir d'un autre passe-temps.</l>
+	<l id="1474">Aimable Amarillis, si j'ai su vous surprendre</l>
+	<l id="1475">De mes ruses Daphné n'a pas su se défendre,</l>
+	<l id="1476" part='i'>Il faut l'aller chercher.</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII.</head>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ seule.</speaker>
+	<l id="1476" part='f'>Ma soeur est endormie,</l>
+	<l id="1477">Et je puis maintenant tromper cette ennemie,</l>
+	<l id="1478">Cléonte en cet instant se viendra rendre ici,</l>
+	<l id="1479">Afin de me conter son amoureux souci.</l>
+	<l id="1480" part='i'>J'entends du bruit, c'est lui.</l>
+</sp>
+</div2>
+<div2 type="scene" n="9"><head>SCÈNE IX. Célidan, Daphné.</head>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1480" part='f'>J'aperçois cette belle.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1481" part='i'>Cher Cléonte, est-ce vous ?</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1481" part='f'>Et vous m'êtes fidèle,</l>
+	<l id="1482">Je plais seul à vos yeux, vous m'aimez constamment ?</l>
+	<l id="1483">Et ma jalouse humeur n'a point de fondement ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1484" part='i'>Ô dieux c'est Célidan !</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1484" part='f'>Cléonte vient, méchante,</l>
+	<l id="1485">Afin de vous conter son amour violente,</l>
+	<l id="1486">Et pour vous divertir j'ai devancé ses pas,</l>
+	<l id="1487">Vous le verrez bientôt, ne vous ennuyez pas.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1488" part='i'>Que dit cet insensé ?</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1488" part='f'>Faut-il que je le die,</l>
+	<l id="1489">Le Ciel, âme sans foi, punit ta perfidie,</l>
+	<l id="1490">Cléonte s'est moqué, ce vainqueur glorieux</l>
+	<l id="1491">Te fait servir de fable aux Amants de ces lieux,</l>
+	<l id="1492">Il rit de tes faveurs, méprise tes caresses,</l>
+	<l id="1493">Et ne te daigne mettre au rang de ses Maîtresses ?</l>
+	<l id="1494">Le superbe qu'il est ne considère pas</l>
+	<l id="1495">Entre tant de beautés de si faibles appas,</l>
+	<l id="1496">Il te plaint en son coeur quand tu crois qu'il t'adore,</l>
+	<l id="1497" part='i'>Vois cette Lettre.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1497" part='m'>Ô Dieux !</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1497" part='f'>Et tu m'aimes encore ?</l>
+	<l id="1498">Je me plaignais à tort, la constante beauté !</l>
+	<l id="1499">Ô miracle d'amour et de fidélité !</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1500" part='i'>Il t'a donné la Lettre ?</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1500" part='f'>Oui, c'est lui-même, et je jure,</l>
+	<l id="1501">L'éclat de tes beaux yeux qui m'ont fait cette injure,</l>
+	<l id="1502">Et pensant obliger ma chaste affection</l>
+	<l id="1503">Il m'envoie à sa place à l'assignation.</l>
+	<l id="1504">Fais état maintenant du beau noeud qui t'arrête ;</l>
+	<l id="1505">Vois s'il t'est glorieux de vanter ta conquête,</l>
+	<l id="1506" part='i'>Je l'aperçois qui vient.</l>
+</sp>
+</div2>
+<div2 type="scene" n="10"><head>SCÈNE DERNIÈRE. Daphné, Cléonte, Célidan, Tyrène, Philidas, Amarillis, Lisimène, Climante.</head>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1506" part='f'>Que j'arrache son coeur,</l>
+	<l id="1507">Et que je foule aux pieds ce superbe vainqueur.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1508" part='i'>Qu'est-ce ? que voulez-vous ?</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1508" part='f'>Ce que je veux, infâme ?</l>
+	<l id="1509">Laissez, donnez ce fer, ou m'en arrachez l'âme,</l>
+	<l id="1510">Mon affront vous plaît-il, et me déniez-vous</l>
+	<l id="1511">Le moyen d'alléger un si juste courroux ?</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1512">Quoi vous ? est-ce un affront que mon indifférence ?</l>
+	<l id="1513">Qu'est-ce qu'un inconnu doit à votre espérance ?</l>
+	<l id="1514">Dois-je aimer à la fois mille jeunes beautés</l>
+	<l id="1515">Dont mes yeux sans dessein forcent les libertés ?</l>
+	<l id="1516">Espérez-vous l'effet de mes vaines promesses ?</l>
+	<l id="1517">Voulez-vous qu'un seul homme épouse cent Maîtresses ?</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1518" part='i'>Dieux ! qu'elle sait bien feindre !</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1518" part='f'>Ah ma soeur ! c'est assez,</l>
+	<l id="1519">Avoir de vains discours vos désirs traversés,</l>
+	<l id="1520">Cléonte vous adore, et quoi qu'il dissimule,</l>
+	<l id="1521">L'effet vous prouvera le beau feu qui le brûle ;</l>
+	<l id="1522">L'honneur de vos baisers est son bien le plus doux,</l>
+	<l id="1523">Et cette même nuit il couche avec vous.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1524">Ce qui vous serait bon, ne l'offrez point à d'autres,</l>
+	<l id="1525">Et ne préférez point mes intérêts aux vôtres.</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1526">Quoi vos feux sont éteints ? et vos fers sont usés ?</l>
+	<l id="1527">Je l'accepterai donc si vous le refusez ;</l>
+	<l id="1528">Çà prenons cent baisers sur cette belle bouche,</l>
+	<l id="1529">Je suis à vous, Cléonte, et vous offre ma couche.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1530">Elle a perdu l'esprit ! Dieux qu'est-ce que j'entends ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1531" part='i'>Je parle tout de bon.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1531" part='f'>Ô le doux passe-temps !</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id="1532">Madame, j'aime aussi cette rare merveille,</l>
+	<l id="1533">Et pour vos deux beautés mon ardeur est pareille,</l>
+	<l id="1534">Vous devez toutes deux accorder à mes maux</l>
+	<l id="1535">De pareilles faveurs, et des plaisirs égaux.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1536" part='i'>Que dit cet insensé ?</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="1536" part='f'>Dites cette insensée,</l>
+	<l id="1537">Reconnaissez l'erreur dont votre âme est blessée,</l>
+	<l id="1538">Ce cavalier est fille, et ce soir mêmement</l>
+	<l id="1539">Pourrait avecque vous coucher innocemment.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1540">Ô Dieux ! Je doute ici si je vois la lumière ?</l>
+</sp>
+<sp who="AMARILLIS"><speaker>AMARILLIS.</speaker>
+	<l id="1541">Il se faut consoler, j'ai failli la première,</l>
+	<l id="1542">Pour le même que vous nous l'avons estimé,</l>
+	<l id="1543">Certes un tel Amant pouvait bien être aimé ;</l>
+	<l id="1544">Une faute si belle est toujours pardonnable.</l>
+</sp>
+<sp who="DAPHNÉ"><speaker>DAPHNÉ.</speaker>
+	<l id="1545">Je suis toute confuse ! Ô l'erreur agréable !</l>
+	<l id="1546">Excuse, Célidan, mon infidélité,</l>
+	<l id="1547">Ou bien de cette offense accuse sa beauté.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1548">Je rentre en ma prison sans en avoir de honte.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1549">Pour moi tous mes desseins retournent à Cléonte,</l>
+	<l id="1550">Je ne troublerai plus votre contentement ;</l>
+	<l id="1551">Je ne passerai plus pour importun Amant ;</l>
+	<l id="1552">Mon coeur a pour Bélise une ardeur sans pareille,</l>
+	<l id="1553">Me pardonnez-vous pas, adorable merveille ?</l>
+	<l id="1554">Nos parents là-dessus nous donnerons conseil.</l>
+</sp>
+<sp who="LISMÈNE"><speaker>LISIMÈNE.</speaker>
+	<l id="1555">Et bien espériez-vous un changement pareil ?</l>
+</sp>
+<sp who="PHILIDAS"><speaker>PHILIDAS.</speaker>
+	<l id="1556">Je vanterai partout votre feinte agréable.</l>
+</sp>
+<sp who="CÉLIDAN"><speaker>CÉLIDAN.</speaker>
+	<l id="1557">Lignon n'en a point vu qui lui soit comparable.</l>
+</sp>
+<sp who="TYRÈNE"><speaker>TYRÈNE.</speaker>
+	<l id="1558">Puisque ce doux effet nous comble de plaisirs,</l>
+	<l id="1559">Et que notre bonheur égale nos désirs.</l>
+	<l id="1560">Afin de couronner tant d'amoureux mystères,</l>
+	<l id="1561">Il faut heureux bergers, il faut belles bergères,</l>
+	<l id="1562">Sur les autels d'hymen demain au point du jour,</l>
+	<l id="1563">De cet événement rendre grâce à l'amour.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

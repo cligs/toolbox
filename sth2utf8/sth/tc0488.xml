@@ -1,0 +1,3427 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DÉMOCRITE, COMÉDIE</title>
+				<author born='1655' born_location='Paris' death='1709' death_location='Château de Grillon, Dourdan' academie=''>REGNARD, Jean-François</author>
+				<date>1692</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, mai 2011</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs antiques</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1691-1700</periode>
+				<taille>1500-1750</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k5628494x</permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">DÉMOCRITE</titlePart>
+				<titlePart type="sub">COMÉDIE</titlePart>
+				</docTitle> 
+			<docDate value="1700">M. DCC. AVEC PRIVILÈGE DU ROI.</docDate>
+			<docAuthor id="REGNARD, Jean-Francois" bio='regnard'>Jean-François Regnard</docAuthor>
+			<docImprint>
+				<privilege id="1700-02-21"><head>EXTRAIT DU PRIVILÈGE DU ROI</head>
+				<p>Par grâce et privilège du Roi, donné à Versailles le vingt-unième février 1700. Signé, par le roi en son conseil, LE FEVRE. Il est permis à PIERRE RIBOU Marchand Libraire à Paris, de faire imprimer le Recueil des pièces de Théâtre du Sieur R*** pendant le temps de six années, à compter du jour que chaque pièce sera achevée d'imprimer pour la première fois ; pendant lequel temps faisons très expresses défenses à toutes personnes de quelque qualité et condition quu'elle soient, de faire imprimer, vendre ni débiter d'autre édition que de celle de l'exposant, ou de ceux qui auront droit de lui, à peine de quinze cent livres d'amende, payables sans déport par chacun des contrevenants, et de tous dépens, dommages et intérêts, et autres peines portées plus au long par lesdites lettres de privilège.</p>
+				<p>Registré sur le livre de la communauté des imprimeurs et marchands libraires de Paris le 22 février 1700.</p>
+				<p>Signé C. BALLARD, Syndic.</p>
+				</privilege>
+				<acheveImprime id="1700-03-03">Achevé d'imprimer pour la première fois de 3 mars 1700.</acheveImprime>
+				<printer id="RIBOU">À PARIS, Chez Pierre Ribou, proche les Augustins à la descente du Pont Neuf, à l'image Saint-Louis.</printer>
+			</docImprint>
+			<performance>
+				<premiere date="1700-01-12" location='Théâtre de la rue des Fossés Saint-Germain'>Représentée pour la première fois le mardi 12 janvier 1700 au Théâtre de la rue des Fossés Saint-Germain.</premiere>
+			</performance>
+<preface><head>AVERTISSEMENT SUR DÉMOCRITE.</head>
+<p>Cette comédie a été représentée, pour la première fois, le mardi 12 janvier 1700, sous le titre de Démocrite amoureux. Son succès a été complet ; elle a eu, dans sa nouveauté, dix-sept représentations : depuis elle a été très souvent reprise, et est restée au théâtre. </p>
+<p>Malgré ce succès, la comédie de Démocrite a été vivement critiquée, surtout dans sa nouveauté ; mais le goût constant du public pour cette pièce a fait taire enfin les critiques : on ne peut nier cependant que plusieurs de leurs observations ne soient fondées. </p>
+<p>On a reproché, au poète avec quelque justice, d'avoir travesti Démocrite en un pédant ridicule et peu sensé ; s'il raisonne, c'est d'une manière inintelligible, et en employant un jargon digne des Marphurius et des Pancrace ; c'est un vrai docteur de la comédie italienne qui n'a d'un savant que les dehors empruntés, et cache son ignorance en affectant un langage obscur, hérissé de termes que personne ne comprend, et qu'il ne comprend pas lui-même. Si Démocrite fait l'amour, c'est alors que le ridicule et l'extravagance sont à leur comble ; c'est une caricature digne du théâtre sur lequel Regnard a fait ses premiers essais. </p>
+<p>On convient que les critiques ont à cet égard quelque fondement ; cependant Regnard n'est pas tout à fait inexcusable. Il n'a point cherché à nous peindre Démocrite tel qu'il était ; il a voulu seulement nous représenter sous ce nom un faux philosophe, ou plutôt un visionnaire, censeur impitoyable des défauts de ses semblables, quoiqu'il soit sujet à des faiblesses de même nature, et qu'il soit tout au moins aussi ridicule que ceux aux dépens de qui il ne cesse de rire. On ne pourrait que lui reprocher d'avoir nommé ce fou Démocrite, chose qui peut déplaire à ceux qui conservent quelque respect pour la mémoire de cet ancien philosophe. </p>
+<p>Les autres critiques sont injustes, et le poète a bien fait de n'y avoir aucun égard. On conseillait à Regnard de retrancher le premier acte de sa pièce, pour conserver l'unité de lieu ; on l'accusait aussi d'avoir fait revivre à Athènes l'état monarchique pendant la vie de Démocrite, quoiqu'il fût éteint alors depuis plus de sept cents ans. </p>
+<p>L'unité de lieu ne blesse ouvertement les règles que lorsqu'une partie de l'action se passe à une distance très éloignée de l'autre ; cette unité est subordonnée à celle du temps, et toutes les deux ont pour fondement la vraisemblance. </p>
+<p type='v'>Mais nous que la raison à ses règles engage, </p>
+<p type='v'>Nous voulons qu'avec art l'action se ménage ; </p>
+<p type='v'>Qu'en un lieu, qu'en un jour, un seul fait accompli </p>
+<p type='v'>Tienne jusqu'à la fin le théâtre rempli. </p>
+<p type='v'>Jamais au spectateur n'offrez rien d'incroyable. </p>
+<p>Boileau, Art poétique, Chant iii. </p>
+<p>On ne peut donc point dire que l'unité de lieu soit violée, lorsque l'endroit où commence l'action est à si peu de distance de celui où elle finit, que cette distance puisse être franchie dans un espace de quelques heures, parce qu'alors il n'y a rien qui choque la vraisemblance. Tel est le premier acte de Démocrite. Il se passe à la proximité d'Athènes, dans un endroit écarté et solitaire où Démocrite s'était retiré. Le roi, qui s'était égaré à la chasse, découvre la retraite du philosophe. Les quatre autres actes se passent à Athènes, dans le palais du prince ; et comme peu d'heures ont suffi pour y transporter le philosophe et sa suite, il n'est rien qui ne soit dans les règles de la vraisemblance. </p>
+<p>On trouve fréquemment des exemples de semblables licences, si c'en est une, et la critique la plus sévère ne s'est point permis d'en faire des reproches à plusieurs de nos poètes modernes. </p>
+<p>Quant à l'anachronisme, Regnard n'a point prétendu que sa comédie servit à fixer des dates et à apprendre l'histoire ; et l'on ne peut raisonnablement lui faire un reproche d'une licence que l'usage et les règles de la comédie autorisent. </p>
+<p>Un autre poète a mis aussi Démocrite sur la scène ; en 1730, Autreau fit représenter sur le théâtre de la Comédie italienne, Démocrite prétendu fou, comédie charmante rejetée par les comédiens français, et qui a fait un des principaux ornements du théâtre italien. </p>
+<p>Le caractère de Démocrite, dans cette pièce, est mieux soutenu, et répond mieux à l'idée que nous nous sommes faite de ce philosophe ; mais il faut convenir aussi que la pièce est bien moins comique que celle de Regnard ; le dialogue est facile et plein d'esprit, niais un peu froid ; le caractère de Démocrite est le plus soigné, le mieux fait de tous, le seul qui soutienne la pièce. </p>
+<p>Dans Regnard, au contraire, c'est celui qui est le plus négligé. Il a tellement craint que ce personnage ne se ressentît de la froideur philosophique, que, non content de l'avoir travesti en un pédant ridicule, il l'a accompagné d'une espèce de valet philosophe, extrêmement plaisant : nous parlons du personnage de Strabon ; les saillies de cette espèce d'arlequin contrastent admirablement avec les boutades de Démocrite et les naïvetés de Thaler, le seul paysan que Regnard ait introduit sur la scène. </p>
+<p>Nous ne disons rien des deux scènes épisodiques de Strabon et de Cléanthis ; on les regarde, quant à l'idée et quant à l'exécution, comme un chef-d'oeuvre comique. </p>
+<p>Le jeu de théâtre de ces deux personnages, au moment de leur reconnaissance, disent les auteurs de l'Histoire du Théâtre français, fut inventé par mademoiselle Beauval, chargée du rôle de Cléanthis, et par le sieur La Thorillière, chargé de celui de Strabon, et il a été religieusement observé par les acteurs et les actrices qui leur ont succédé. </p>
+<p>On ne sait pourquoi les comédiens sont dans l'usage de supprimer, à la représentation, la scène iv du second acte. Démocrite, récemment arrivé à la cour du roi d'Athènes, paraît suivi d'un Intendant, d'un Maître d'hôtel et de quatre grands Laquais. Ce cortége excite l'humeur cynique du philosophe ; et sa situation présente, comparée à sa vie passée, lui donne matière à rire. Chacun des officiers qui le suit lui fait part des volontés du roi et de la nature des fonctions qu'il doit remplir auprès du philosophe, ce qui fournit une matière nouvelle à ses ris et à ses critiques. </p>
+<p>La scène finit d'une manière très comique : l'Intendant et le Maître d'hôtel, qui ont l'air d'être amis et semblent chercher à se rendre mutuellement service, vantent réciproquement et à voix haute au philosophe leur intelligence et leur savoir-faire, tandis qu'ils s'approchent de son oreille ; pour démentir tout bas ces éloges exagérés. Démocrite rit de tout son coeur de ce manége si ordinaire dans les cours, et les congédie en les raillant l'un et l'autre sur leur candeur, leur amitié, et l'estime qu'ils se témoignent réciproquement. </p>
+<p>Cette scène est très comique ; il nous semble qu'elle devrait produire de l'effet à la représentation, et nous ne pouvons imaginer la raison qui l'a fait supprimer. </p>
+</preface>
+<preface><head>NOMS DES ACTEURS </head>
+<p>Qui ont joué dans la comédie de Démocrite, dans sa nouveauté, en 1700. </p>
+<p>Démocrite, le sieur Poisson. Agélas, roi d'Athènes, le sieur Baron. Agénor, le sieur Dufey [1]. Criséis, Mlle Mimi-Dancourt [2]. Ismène, Mlle Dancourt sa mère. Strabon, le sieur La Thorillière, Cléanthis, Mlle Beauval, Thaler, le sieur Desmares. </p>
+<p>Nota. Le sieur Poisson ne plut pas dans le rôle de Démocrite, et l'abandonna après quelques représentations. Il a été remplacé par le sieur Dancourt [3]. </p>
+<p>1 Pierre-Louis Villot-Dufey, comédien français, débuta par le rôle de Nicomède en 1694. Il jouait les seconds rôles dans le tragique et dans le comique : il s'est retiré en 1712, et il est mort en 1736, âgé de soixante-douze ans. </p>
+<p>2 Cette actrice était fille de Florent Carton-Dancourt, et a débuté, en 1699, dans les rôles d'amoureuses pour la comédie : elle a joué aussi les soubrettes. Elle a épousé Samuel Boulignon-des-Hayes, et s'est retirée du théâtre en 1724 : c'était une actrice médiocre. </p>
+<p>3 Florent Carton-Dancourt, auteur et acteur, débuta au Théâtre français en 1685, et mérita les applaudissements du public dans les rôles du haut comique, à manteau et raisonnés : il est cependant plus connu aujourd'hui par les pièces qu'il a laissées au théâtre, qui sont en très grand nombre, et qui ont été recueillies d'abord eu huit volumes, puis en dix volumes in-12. Dancourt a quitté le théâtre en 1718, et est mort en 1725, âgé de soixante-quatre ans. </p>
+</preface>
+<castList><head>PERSONNAGES</head>
+	<castItem><role id="DÉMOCRITE" civil="M">DÉMOCRITE</role>.</castItem>
+	<castItem><role id="AGÉLAS" civil="M">AGÉLAS</role>, roi d'Athènes.</castItem>
+	<castItem><role id="AGÉNOR" civil="M">AGÉNOR</role>, prince d'Athènes.</castItem>
+	<castItem><role id="ISMÈNE" civil="F">ISMÈNE</role>, princesse promise Agélas.</castItem>
+	<castItem><role id="STRABON" civil="M">STRABON</role>, suivant de Démocrite.</castItem>
+	<castItem><role id="CLÉANTHIS" civil="F">CLÉANTHIS</role>, suivante d'lsmène..</castItem>
+	<castItem><role id="CRISÉIS" civil="F">CRISÉIS</role>, crue fille de Thaler.</castItem>
+	<castItem><role id="THALER" civil="M">THALER</role>, paysan.</castItem>
+	<castItem><role id="UN-INTENDANT" civil="M">Un Intendant</role>.</castItem>
+	<castItem><role id="UN-MAÎTRE-D-HÔTEL" civil="M">Un Maître d’hôtel</role>.</castItem>
+	<castItem><role id="OFFICIERS-DU-ROI" civil="G">Officiers du Roi</role>.</castItem>
+	<castItem><role id="LAQUAIS" civil="G">Laquais</role>.</castItem>
+</castList>
+<set location='Athènes' country='Grèce' periode='Vème avant JC' link=''>La scène est à Athènes.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<stage>Le Théâtre représente un désert, et une caverne dans l’enfoncement. </stage>
+<div2 type='scene' n='1'><head>SCÈNE I. </head>
+<sp who='STRABON'><speaker>STRABON, seul.</speaker>
+	<l id='1'>Que maudit soit le jour où j'eus la fantaisie </l>
+	<l id='2'>D'être valet de pied de la philosophie ! </l>
+	<l id='3'>Depuis près de deux ans je vis en cet endroit, </l>
+	<l id='4'>Mal vêtu, mal couché, buvant chaud, mangeant froid. </l>
+	<l id='5'>Suivant de Démocrite, en cette solitude, </l>
+	<l id='6'>Ce n'est qu'avec des ours que j'ai quelque habitude : </l>
+	<l id='7'>Pour un homme d'esprit comme moi, ce sont gens </l>
+<note>Morigéné : Dont les moeurs se sont améliorées. Qui a reçu une réprimande. [L]</note>
+	<l id='8'>Fort mal morigénés, et peu divertissants. </l>
+	<l id='9'>Quand je songe d'ailleurs à la méchante femme </l>
+	<l id='10'>Dont j'étais le mari... Dieu veuille avoir son âme ! </l>
+	<l id='11'>Je la crois bien défunte ; et, s'il n'était ainsi, </l>
+	<l id='12'>Le diable n'eût manqué de l'apporter ici. </l>
+	<l id='13'>Depuis vingt ans et plus son extrême insolence </l>
+	<l id='14'>Me fit quitter Argos, le lieu de ma naissance : </l>
+	<l id='15'>J'erre depuis ce temps, de climats en climats, </l>
+	<l id='16'>Et j'ai dans ce désert enfin fixé mes pas. </l>
+	<l id='17'>Quelques maux que j'endure en ce lieu solitaire, </l>
+	<l id='18'>Je me tiens trop heureux d'avoir pu m'en défaire ; </l>
+	<l id='19'>Et je suis convaincu que nombre de maris </l>
+	<l id='20'>Voudraient de leur moitié se voir loin à ce prix. </l>
+	<l id='21'>Thaler vient. Le manant, pour notre subsistance, </l>
+	<l id='22'>Chaque jour du village apporte la pitance. </l>
+	<l id='23'>Il nous fait bien souvent de fort mauvais repas : </l>
+	<l id='24'>Il faut prendre ou laisser, et l'on ne choisit pas. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Strabon, Thaler.</head>
+<sp who='THALER'><speaker>THALER, portant une sporte de jonc et une grosse bouteille garnie d'osier.</speaker>
+	<l id='25' part='i'>Bonjour, Strabon. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='25' part='m'>Bonjour. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='25' part='f'>Voici votre ordinaire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='26'>Bon, tant mieux. Aujourd'hui ferons-nous bonne chère ? </l>
+	<l id='27'>Depuis deux ans je jeûne en ce désert maudit. </l>
+	<l id='28'>Un jeûne de deux ans cause un rude appétit. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Morgué : Sorte de juron de paysan.</note>
+	<l id='29'>Morgué, pour aujourd'hui, j'ons tout mis par écuelle, </l>
+	<l id='30' part='i'>Et c'est pis qu'une noce. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='30' part='f'>Ah ! La bonne nouvelle ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='31'>Voici dans mon panier des dattes, des pignons, </l>
+	<l id='32'>Des noix, des raisins secs et quantité d'oignons. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='33'>Quoi ! Toujours des oignons ? Esprit philosophique, </l>
+	<l id='34'>Que vous coûtez de maux à ce cadavre étique ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='35'>Je vous apporte aussi cette bouteille d'eau, </l>
+	<l id='36'>Que j'ai prise en passant dans le plus clair ruisseau. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='37'>Une bouteille d'eau ! Le breuvage est ignoble. </l>
+	<l id='38'>Ce n'est donc point chez vous un pays de vignoble ? </l>
+	<l id='39'>Tout est-il en oignons ? N'y croît-il point de vin ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='40'>Oui-da : mais Démocrite, habile médecin, </l>
+	<l id='41'>Dit que du vin l'on doit surtout faire abstinence </l>
+	<l id='42' part='i'>Quand on veut mourir tard. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='42' part='f'>Ah, ciel ! Quelle ordonnance ! </l>
+	<l id='43'>C'est mourir tous les jours que de vivre sans vin. </l>
+	<l id='44'>Mais laisse Démocrite achever son destin : </l>
+	<l id='45'>C'est un homme bizarre, ennemi de la vie, </l>
+	<l id='46'>Qui voudrait m'immoler à la philosophie, </l>
+	<l id='47'>Me voir comme un fantôme ; et, quand tu reviendras, </l>
+	<l id='48'>De grâce, apporte-m'en le plus que tu pourras, </l>
+	<l id='49'>Mais du meilleur au moins, car c'est pour un malade ; </l>
+	<l id='50'>Et je boirai pour toi la première rasade. </l>
+	<l id='51' part='i'>Entends-tu, mon enfant ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='51' part='f'>Je n'y manquerai pas. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='52'>Où donc est Criséis, qui suit parfois tes pas ? </l>
+	<l id='53' part='i'>J'aime encore le sexe. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='53' part='f'>Elle est, morgué, gentille ; </l>
+	<l id='54' part='i'>Et Démocrite... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='54' part='f'>Étant, comme je crois, ta fille, </l>
+	<l id='55'>Ayant de plus tes traits et cet air si charmant, </l>
+	<l id='56'>Elle ne peut manquer de plaire, assurément. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='57'>Oh ! Ce sont des effets de votre complaisance. </l>
+	<l id='58'>Mais elle n'est pas tant ma fille que l'on pense. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='59' part='i'>Comment donc ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Tretous : Vieux mot. Tous. [Th.]</note>
+	<l id='59' part='f'>Bon ! Qui sait d'où je venons tretous ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='60'>C'est donc la mode aussi d'en user parmi vous </l>
+	<l id='61'>Comme on fait à la ville, où l'on voit d'ordinaire </l>
+	<l id='62'>Qu'on ne se pique pas d'être enfant de son père ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='63'>Suffit, je m'entends bien. Mais enfin, m'est avis </l>
+	<l id='64'>Que votre Démocrite en tient pour Criséis. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='65' part='i'>Pour Criséis ?... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Tantet : Terme familier. Une petite quantité, un peu, tant soit peu. Un tantet de pain, de vin. [L]</note>
+<note>Férue : Terme de vétérinaire. Blessé d'un coup. Fig. Être féru d'une personne, d'une chose, en être très épris.</note>
+	<l id='65' part='f'>Il a l'âme un tantet férue. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='66' part='i'>Bon ! Bon ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Grue : Gros oiseau de passage qui vole en troupes rangées en triangle, et qui a un col fort long. [F]</note>
+	<l id='66' part='f'>Je vous soutiens que je ne suis pas grue : </l>
+	<l id='67'>Je flaire un amoureux, voyez-vous, de cent pas. </l>
+	<l id='68'>Je vois qu'il est fâché quand il ne la voit pas. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='69'>Il est tout occupé de la philosophie. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='70'>Qu'importe ? Quand on voit une fille jolie... </l>
+	<l id='71'>Le diable est bien malin, et fait souvent son coup. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+<note>Parbleu : Sorte de jurement. Ethym. Altération de par Dieu. </note>
+	<l id='72'>Parbleu, je le voudrais, m'en coûtât-il beaucoup. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='73'>Mais vous, qui près de lui passez ainsi la vie, </l>
+	<l id='74' part='i'>Que diantre faites-vous tout le jour ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='74' part='f'>Je m'ennuie : </l>
+	<l id='75' part='i'>Voilà tout mon emploi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='75' part='f'>Bon ! Vous vous moquez bien : </l>
+	<l id='76'>Eh ! Peut-on s'ennuyer lorsque l'on ne fait rien ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='77'>Animé d'une ardeur vraiment philosophique, </l>
+	<l id='78'>Je m'étais figuré que, dans ce lieu rustique, </l>
+	<l id='79'>Je vivrais affranchi du commerce des sens, </l>
+	<l id='80'>Et n'aurais pour mon corps nuls soins embarrassants ; </l>
+	<l id='81'>Qu'entièrement défait de femme et de ménage, </l>
+	<l id='82'>Les passions sur moi n'auraient nul avantage : </l>
+	<l id='83'>Mais je me suis trompé, ma foi, bien lourdement ; </l>
+	<l id='84'>Le corps contre l'esprit regimbe à tout moment. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='85'>Et que fait Démocrite en cette grotte obscure ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='86' part='i'>Il rit. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='86' part='m'>Il rit ! De quoi ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='86' part='f'>De l'humaine nature. </l>
+	<l id='87'>Il soutient par raisons, que les hommes sont tous </l>
+	<l id='88'>Sots, vains, extravagants, ridicules et fous. </l>
+	<l id='89'>Pour les fuir, tout le jour il est dans sa caverne : </l>
+	<l id='90'>Et la nuit, quand la lune allume sa lanterne, </l>
+	<l id='91'>Nous grimpons l'un et l'autre au sommet des rochers, </l>
+	<l id='92'>Plus élevés cent fois que les plus hauts clochers. </l>
+	<l id='93'>Aux astres, en ces lieux, nous rendons nos visites ; </l>
+	<l id='94'>Nous voyons Jupiter avec ses satellites ; </l>
+	<l id='95'>Nous savons ce qui doit arriver ici-bas ; </l>
+	<l id='96'>Et je m'instruis pour faire un jour des almanachs. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='97'>Des almanachs ! Morgué, j'en voudrais savoir faire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='98'>Hé bien, changeons d'état ; ce n'est pas une affaire. </l>
+	<l id='99'>Demeure dans ces lieux ; et moi, j'irai chez toi. </l>
+	<l id='100'>Tu deviendrais savant ; tu saurais, comme moi, </l>
+	<l id='101'>Que rien ne vient de rien ; et que des particules... </l>
+	<l id='102'>Rien ne retourne en rien ; de plus, les corpuscules... </l>
+	<l id='103'>Les atomes, d'ailleurs, par un secret lien, </l>
+	<l id='104' part='i'>Accrochés dans le vide... Entends-tu bien ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='104' part='f'>Fort bien. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='105'>Que l'âme et que I'esprit n'est qu'une même chose, </l>
+	<l id='106'>Et que la vérité, que chacun se propose, </l>
+	<l id='107' part='i'>Est dans le fond d'un puits. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='107' part='f'>Elle peut s'y cacher ; </l>
+	<l id='108'>Je ne crois pas, tout franc, que j'aille l'y chercher. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='109'>Mais, raillerie A part, achète mon office ; </l>
+	<l id='110'>Tu pourrais dès ce jour entrer en exercice : </l>
+	<l id='111' part='i'>J'en ferai bon marché. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='111' part='f'>C'est bien l'argent, ma foi, </l>
+	<l id='112'>Qui nous arrêterait ! J'ai, si je veux, de quoi </l>
+	<l id='113'>Faire aller un carrosse, et rouler à mon aise. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='114'>Et comment as-tu fait, cela ne te déplaise ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='115' part='i'>Comment ? Je le sais bien, il suffit. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='115' part='f'>Mais encor ; </l>
+	<l id='116'>Aurais-tu par hasard trouvé quelque trésor ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='117' part='i'>Que sait-on ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='117' part='f'>Un trésor ! En quel lieu peut-il être ? </l>
+	<l id='118' part='i'>Dis-moi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='118' part='f'>Bon ! Quelque sot !... Vous jaseriez peut-être ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='119' part='i'>Non, ma foi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='119' part='m'>Votre foi ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='119' part='f'>Je veux être un maraud, </l>
+	<l id='120' part='i'>Si... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='120' part='m'>Vous me promettez ?... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='120' part='f'>Parle donc au plus tôt. </l>
+	<l id='121' part='i'>Est-il loin d'ici ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER, tirant un riche bracelet.</speaker>
+	<l id='121' part='f'>Non ; le voilà dans ma poche. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='122'>Le coquin dans le bois a volé quelque coche. </l>
+<stage>À Thaler. </stage>
+	<l id='123'>Juste ciel ! D'où te vient ce bijou plein de feu ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='124' part='i'>De notre femme. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='124' part='f'>Ah, ah ! De ta femme ? À quel jeu </l>
+	<l id='125' part='i'>L'a-t-elle donc gagné ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='125' part='f'>Bon ! Est-ce mon affaire ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Démocrite, Strabon, Thaler.</head>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='126'>Mais Démocrite vient. Motus, il faut se taire. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='127'>Suivant les anciens, et ce qu'ils ont écrit, </l>
+	<l id='128'>L'homme est, de sa nature, un animal qui rit ; </l>
+	<l id='129'>Cela se voit assez : mais pour moi, sans scrupule, </l>
+	<l id='130'>Je veux le définir animal ridicule. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Thaler.</speaker>
+	<l id='131' part='i'>Ce début n'est pas mal. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='131' part='f'>Il est, à tout moment, </l>
+	<l id='132'>La dupe de lui-même et de son changement. </l>
+	<l id='133'>Il aime, il hait, il craint, il espère, il projette ; </l>
+	<l id='134'>Il condamne, il approuve, il rit, il s'inquiète ; </l>
+	<l id='135'>Il se fâche, il s'apaise, il évite, il poursuit ; </l>
+	<l id='136'>Il veut, il se repent, il élève, il détruit: </l>
+	<l id='137'>Plus léger que le vent, plus inconstant que l'onde, </l>
+	<l id='138'>Il se croit en effet le plus sage du monde : </l>
+	<l id='139'>Il est sot, orgueilleux, ignorant, inégal. </l>
+	<l id='140'>Je puis rire, je crois, d'un pareil animal. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Démocrite.</speaker>
+	<l id='141'>Dans ce panégyrique où votre esprit s'aiguise, </l>
+	<l id='142'>La femme, s'il vous plaît, n'est-elle pas comprise ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='143' part='i'>Oui, sans doute. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='143' part='f'>En ce cas, je suis de votre avis. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='144'>Ah ! Vous voilà, bon homme ! Où donc est Criséis ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='145'>Je l'attendais ici ; j'en ai le coeur en peine : </l>
+	<l id='146'>Elle s'est amusée au bord de la fontaine. </l>
+	<l id='147'>Elle tarde, et cela commence à me fâcher. </l>
+	<l id='148'>Elle viendra bientôt, car je vais la chercher. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Démocrite, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='149'>Nous sommes, dans ces lieux, à l'abri des visites </l>
+<note>Ecornifleur : Celui, celle qui écornifle. c'est à dire Prendre, se faire donner çà et là de l'argent, un dîner, etc.</note>
+	<l id='150'>Des sots écornifleurs et des froids parasites ; </l>
+	<l id='151'>Car je ne pense pas que nul d'entre eux jamais </l>
+	<l id='152'>Y puisse être attiré par i'odeur de nos mets. </l>
+	<l id='153'>Voudriez-vous tâter, dans cette conjoncture, </l>
+	<l id='154'>D'un repas apprêté par la seule nature? </l>
+<note>Dîné ou dîner : est le repas qu'on fait ordinairement à midi. Rem. On dit le dîné, ou le dîner : il est même plus usité de retrancher cette lettre en écrivant : et même quand on l'écrit, on ne la prononce pas.[FC]</note>
+<stage>Il tire son dîné. </stage>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='155'>Toujours boire et manger ! Carnassier animal, </l>
+	<l id='156'>C'est bien fait ; suis toujours ton appétit brutal. </l>
+	<l id='157'>Le corps, ce poids honteux, où l’âme est asservie, </l>
+	<l id='158'>T'occupera-t-il seul le reste de ta vie? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='159'>Quand je nourris le corps, l'esprit s'en porte mieux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='160' part='i'>Âme stupide et grasse ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='160' part='f'>Elle est grasse à vos yeux ; </l>
+	<l id='161'>Mais mon corps, en revanche, est maigre, dont j'enrage. </l>
+	<l id='162'>Je suis las à la fin de tout ce badinage ; </l>
+	<l id='163'>Et si vous ne quittez les lieux où nous voilà, </l>
+	<l id='164'>Je serai bien contraint, moi, de vous planter là. </l>
+	<l id='165'>Je suis un parchemin ; mon corps est diaphane. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='166'>Va, fuis de devant moi ; retire-toi, profane, </l>
+	<l id='167'>Puisque ton coeur est plein de sentiments si bas : </l>
+	<l id='168'>Assez d'autres, sans toi, suivront ici mes pas. </l>
+	<l id='169'>Je voulais te guérir de tes erreurs funestes, </l>
+	<l id='170'>Te mener par la main aux régions célestes, </l>
+	<l id='171'>Affranchir ton esprit de l'empire des sens : </l>
+	<l id='172'>Tu ne mérites pas la peine que je prends, </l>
+	<l id='173'>Animal sensuel, qui n'oserais me suivre ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='174'>Sensuel, j'en conviens ; j'aime à manger pour vivre : </l>
+	<l id='175'>Mais on ne dira pas que je sois amoureux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='176' part='i'>Qu'entends-tu donc par là? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='176' part='f'>J'entends ce que je veux </l>
+	<l id='177' part='i'>Et vous ce qu'il vous plaît. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='177' part='f'>Saurait-il ma faiblesse ?</l>
+<stage>Haut.</stage>
+	<l id='178'>Mais ce n'est pas à moi que ce discours s'adresse ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='179'>Êtes-vous amoureux, pour relever ce mot? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='180' part='i'>Démocrite amoureux ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='180' part='f'>Seriez-vous assez sot </l>
+	<l id='181'>Pour donner, comme un autre, en l'erreur populaire ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='182' part='i'>Cela n'est que trop vrai. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='182' part='f'>Vous chercheriez à plaire, </l>
+	<l id='183'>Et feriez le galant ! J'en rirais tout mon soûl. </l>
+	<l id='184'>Mais je vous connais trop ; vous n'êtes pas si fou. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='185'>Que je souffre en dedans, et qu'il me mortifie ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='186'>Vous avez le rempart de la philosophie ; </l>
+	<l id='187'>Et, lorsque le coeur veut s'émanciper parfois, </l>
+	<l id='188'>La raison aussitôt lui donne sur les doigts. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='189'>Il est des passions que l'on a beau combattre, </l>
+	<l id='190'>On ne saurait jamais tout à fait les abattre: </l>
+	<l id='191'>Sous la sagesse en vain on se met à couvert ; </l>
+	<l id='192'>Toujours par quelque endroit notre coeur est ouvert. </l>
+	<l id='193'>L'homme fait, malgré lui, souvent ce qu'il condamne. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='194'>Va, fuis de devant moi ; retire-toi, profane, </l>
+	<l id='195'>Puisque ton coeur est plein de sentiments si bas : </l>
+	<l id='196'>Assez d'autres, sans toi, suivront ailleurs nies pas. </l>
+	<l id='197' part='i'>Animal sensuel ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='197' part='f'>Quoi ! Tu crois donc que j'aime ? </l>
+<stage>À part.</stage>
+	<l id='198'>Je voudrais me cacher ce secret à moi-même. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='199'>Le ciel m'en garde ! Mais j'ai cru m'apercevoir </l>
+	<l id='200'>Que les filles vous font encor plaisir à voir. </l>
+	<l id='201'>Votre humeur ne m'est pas tout à fait bien connue, </l>
+	<l id='202'>Ou Criséis parfois vous réjouit la vue. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='203'>D'accord : son coeur, novice à l'infidélité, </l>
+	<l id='204'>Par le commerce humain n'est point encor gâté : </l>
+	<l id='205'>La vérité se voit en elle toute pure ; </l>
+	<l id='206'>C'est une fleur qui sort des mains de la nature. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='207'>Vous avez fait divorce avec le genre humain ; </l>
+	<l id='208'>Mais vous vous raccrochez encore au féminin. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='209'>Tu te moques de moi. Mais Criséis s'avance. </l>
+	<l id='210'>Sur son front pudibond brille son innocence. </l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE V. Criséis, Démocrite, Strabon.</head>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='211'>Je cherche ici mon père, et ne le trouve pas ; </l>
+	<l id='212'>Jusqu'assez près d'ici j'avais suivi ses pas. </l>
+	<l id='213'>Ne l'avez-vous point vu? Dites-moi, je vous prie, </l>
+	<l id='214' part='i'>Serait-il retourné ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='214' part='f'>Dans mon âme attendrie </l>
+	<l id='215'>Je sens, en la voyant, la raison et l'amour, </l>
+	<l id='216'>L'homme et le philosophe, agités tour à tour. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='217'>N'avez-vous point, la belle, en votre promenade, </l>
+	<l id='218'>Donné, sans y penser, près de quelque embuscade ? </l>
+	<l id='219'>On trouve quelquefois, au milieu des forêts, </l>
+	<l id='220'>Des Sylvains pétulants, des Faunes indiscrets, </l>
+	<l id='221'>Qui, du soir au matin, vont à la picorée, </l>
+	<l id='222'>Et n'ont nulle pitié d'une fille égarée. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='223'>Jamais je ne m'égare ; et, grâce à mon destin, </l>
+<note>Gens : il est masculin, quand l'adjectif le suit, et féminin, quand il le précède. [FC]</note>
+	<l id='224'>Je ne rencontre point telles gens en chemin. </l>
+	<l id='225'>Je m'étais arrêtée au bord d'une fontaine </l>
+	<l id='226'>Dont le charmant murmure et l'onde pure et saine </l>
+	<l id='227'>M'invitaient à laver mon visage et mes mains. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='228'>C'est aussi tout le fard dont j'use les matins. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='229'>Tu vois, Strabon, tu vois ; c'est la pure nature : </l>
+	<l id='230'>Son teint n'est point encor nourri dans l'imposture ; </l>
+	<l id='231'>Elle doit son éclat à sa seule beauté. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='232'>Son visage est tout neuf, et n'est point frelaté. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Criséis.</speaker>
+	<l id='233'>Ce fard que vous prenez au bord d'une onde claire </l>
+	<l id='234'>Fait voir que vous avez quelque dessein de plaire. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='235'>D'autres soins en ces lieux m'occupent tout le jour. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='236' part='i'>Sauriez-vous, par hasard, ce que c'est... </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='236' part='m'>Quoi ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='236' part='f'>L’amour. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='237' part='i'>L'amour ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='237' part='m'>Oui, l'amour. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='237' part='m'>Non. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='237' part='f'>Je veux vous en instruire. </l>
+<stage>À part.</stage>
+	<l id='238'>Je tremble, et je ne sais ce que je vais lui dire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part, à Démocrite.</speaker>
+	<l id='239'>Quoi ! Vous qui raisonnez philosophiquement, </l>
+	<l id='240'>Qui parlez à vos sens impérativement, </l>
+	<l id='241'>Qui voyez face à face étoiles et planètes, </l>
+	<l id='242'>Une fille vous met en l'état où vous êtes ! </l>
+	<l id='243'>Vous tremblez ! Allons donc, montrez de la vigueur. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='244'>Tant de trouble jamais ne régna dans mon coeur. </l>
+<stage>À Criséis.</stage>
+	<l id='245'>L'amour est, en effet, ce qu'on a peine à dire ; </l>
+	<l id='246'>C'est une passion que la nature inspire, </l>
+	<l id='247'>Un appétit secret dans le coeur répandu, </l>
+	<l id='248'>Qui meut la volonté de chaque individu </l>
+	<l id='249'>À se perpétuer et rendre son espèce... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part, à Démocrite.</speaker>
+	<l id='250'>Pour un homme d'esprit vous parlez mal tendresse. </l>
+<stage>À Criséis.</stage>
+	<l id='251'>L'amour, ne vous déplaise, est un je ne sais quoi, </l>
+	<l id='252'>Qui vous prend, je ne sais ni par où, ni pourquoi ; </l>
+	<l id='253'>Qui va je ne sais où ; qui fait naître en notre âme </l>
+	<l id='254'>Je ne sais quelle ardeur que l'on sent pour la femme : </l>
+	<l id='255'>Et ce je ne sais quoi, qui paraît si charmant, </l>
+	<l id='256'>Sort enfin de nos coeurs, et je ne sais comment. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='257'>Vous me parlez tous deux une langue étrangère ; </l>
+	<l id='258'>Et moins qu'auparavant je connais ce mystère. </l>
+	<l id='259'>L'amour n'est pas, je crois, facile à pratiquer, </l>
+	<l id='260'>Puisqu'on a tant de peine à pouvoir l'expliquer. </l>
+	<l id='261'>Mon esprit est borné : je ne veux point apprendre </l>
+	<l id='262'>Les choses qui me font tant de peine à comprendre. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='263'>En exerçant l'amour, vous le comprendrez mieux. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Agélas et Agénor en habits de chasseurs, Démocrite, Criséis, Strabon. </head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='264'>Qui peut si brusquement nous surprendre en ces lieux? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Agénor.</speaker>
+	<l id='265'>Demeurons dans ce bois ; laissons aller la chasse ; </l>
+	<l id='266'>Attendons quelque temps que la chaleur se passe. </l>
+<stage>Il aperçoit Criséis. </stage>
+	<l id='267' part='i'>Mais que vois-je ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part, à Démocrite et à Criséis.</speaker>
+	<l id='267' part='f'>Voilà peut-être de ces gens </l>
+	<l id='268'>Qui vont par les forêts détrousser les passants. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS, à part, à Strabon.</speaker>
+	<l id='269'>Pour moi, je ne vois rien dans leur air qui m'étonne. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Agénor.</speaker>
+	<l id='270'>Approchons. Que d'appas ! Ciel ! L'aimable personne ! </l>
+	<l id='271'>Et comment se peut-il que ces sombres forêts </l>
+	<l id='272'>Renferment un objet si doux, si plein d'attraits ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part, à Démocrite et à Criséis.</speaker>
+	<l id='273'>Tout cela ne vaut rien. Ces gens-ci, dans leur course, </l>
+	<l id='274'>Paraissent en vouloir plus au coeur qu'à la bourse. </l>
+	<l id='275' part='i'>Sauvons-nous. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Criséis.</speaker>
+	<l id='275' part='f'>Permettez qu'en ce sauvage endroit </l>
+	<l id='276'>On rende à vos appas l'hommage qu'on leur doit ; </l>
+	<l id='277' part='i'>Souffrez... </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Agélas.</speaker>
+	<l id='277' part='f'>Plus long discours serait fort inutile. </l>
+	<l id='278'>Vous êtes égarés du chemin de la ville ; </l>
+	<l id='279'>Cela se voit assez ; mais, quand il vous plaira, </l>
+	<l id='280'>Dans la route bientôt Strabon vous remettra. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='281'>Un cerf que nous poussons depuis trois ou quatre heures </l>
+	<l id='282'>Nous a, par les détours, conduits dans ces demeures ; </l>
+	<l id='283'>Et j'ai mis pied à terre en ces lieux détournés... </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='284' part='i'>Vous êtes donc chasseurs ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='284' part='f'>Des plus déterminés. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='285'>Ah ! Je m'en réjouis. Prendre bien de la peine, </l>
+	<l id='286'>Se tuer, s'excéder, se mettre hors d'haleine ; </l>
+	<l id='287'>Interrompre au matin un tranquille sommeil ; </l>
+	<l id='288'>Aller dans les forêts prévenir le soleil ; </l>
+	<l id='289'>Fatiguer de ses cris les échos des montagnes ; </l>
+	<l id='290'>Passer en plein midi les guérets, les campagnes ; </l>
+	<l id='291'>Dans les plus creux vallons fondre en désespérés, </l>
+	<l id='292'>Percer rapidement les bois les plus fourrés ; </l>
+	<l id='293'>Ignorer où l'on va, n'avoir qu'un chien pour guide, </l>
+	<l id='294'>Pour faire fuir un cerf qu'une feuille intimide ; </l>
+	<l id='295'>Manquer la bête enfin, après avoir couru, </l>
+	<l id='296'>Et revenir bien tard, mouillé, las et recru, </l>
+	<l id='297'>Estropié souvent : dites-moi, je vous prie, </l>
+	<l id='298'>Cela ne vaut-il pas la peine qu'on en rie ? </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='299'>Ces occupations et ces nobles travaux </l>
+	<l id='300'>Sont les amusements des plus fameux héros ; </l>
+	<l id='301'>Et lorsqu'à leurs souhaits ils ont calmé la terre, </l>
+	<l id='302'>Ils mêlent dans leurs jeux l'image de la guerre. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='303'>Mais, sans trop témoigner de curiosité, </l>
+	<l id='304'>Peut-on savoir quelle est cette jeune beauté ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='305' part='i'>De quoi vous mêlez-vous ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='305' part='f'>On ne peut voir paraître </l>
+	<l id='306'>Un si charmant objet sans vouloir le connaître. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='307' part='i'>Allez courir vos cerfs, s'il vous plaît. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='307' part='f'>Sais-tu bien </l>
+	<l id='308' part='i'>À qui tu parles là ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='308' part='f'>Moi ? Non, je n'en sais rien. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='309' part='i'>Sais-tu que c'est le roi ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='309' part='f'>Le roi ! Soit. Que m'importe ? </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='310'>Mais voyez ce maraud, de parler de ln sorte ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='311'>Maraud ! Sachez, monsieur, que ce n'est point mon nom : </l>
+	<l id='312'>Et, si vous l'ignorez, je m'appelle Strabon, </l>
+	<l id='313'>Philosophe sublime autant qu'on le peut être, </l>
+	<l id='314'>Suivant de Démocrite ; et vous voyez mon maître. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='315'>Quoi ! Je verrais ici cet homme si divin, </l>
+	<l id='316'>Cet esprit si vanté, ce Démocrite, enfin, </l>
+	<l id='317'>Que son profond savoir jusques aux cieux élève ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Démocrite.</speaker>
+	<l id='318'>Oui, seigneur, c'est lui-même ; et voilà son élève. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Démocrite.</speaker>
+	<l id='319'>Pardonnez, s'il vous plaît, mes indiscrétions ; </l>
+	<l id='320'>Je trouble avec regret vos méditations : </l>
+	<l id='321'>Mais la longue fatigue et le chaud qui m'accable... </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='322'>Vous venez à propos ; nous nous mettions à table : </l>
+	<l id='323'>Vous prendrez votre part d'un très frugal repas : </l>
+	<l id='324'>Mais il faut excuser, on ne vous attend pas. </l>
+	<l id='325'>Ce sera de bon coeur, et sans cérémonie. </l>
+<note>Dans l’édition originale, c’est Démocrite qui dit ce dernier vers. Depuis il a été mis dans la bouche de Strabon, sans doute par l’acteur chargé de ce rôle. (G.A.C.)</note>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='326'>De manger à présent je ne sens nulle envie ; </l>
+	<l id='327'>Mais je veux toutefois, sortant de ce désert, </l>
+	<l id='328'>Vous rendre le repas que vous m'avez offert. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='329' part='i'>Sire, vous vous moquez. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='329' part='f'>Je veux que dans une heure </l>
+	<l id='330'>Vous quittiez tous les deux cette triste demeure </l>
+	<l id='331' part='i'>Pour venir à ma cour. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='331' part='m'>Qui ? Nous, seigneur ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='331' part='f'>Oui, vous. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='332' part='i'>Que je m'en vais manger ! </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='332' part='f'>Vous viendrez avec nous. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='333'>Moi, que j'aille à la cour ! Grands dieux ! Qu'irais-je faire ? </l>
+	<l id='334'>Mon esprit peu liant, mon humeur trop sincère, </l>
+	<l id='335'>Ma manière d'agir, ma critique et mes ris, </l>
+	<l id='336'>M'attireraient bientôt un monde d'ennemis. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Démocrite.</speaker>
+	<l id='337'>Je serai votre appui, quoi qu'on dise ou qu'on fasse. </l>
+	<l id='338'>Je vous demande encore une seconde grâce, </l>
+	<l id='339'>Et votre coeur, je crois, n'y résistera pas : </l>
+	<l id='340'>C'est que ce jeune objet accompagne vos pas. </l>
+<stage>À Criséis.</stage>
+	<l id='341' part='i'>Y répugneriez-vous ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='341' part='f'>Je dépends de mon père : </l>
+	<l id='342'>Sans son consentement je ne saurais rien faire : </l>
+	<l id='343'>Mais j'aurais grand plaisir de le suivre en des lieux </l>
+	<l id='344'>Où l'on dit que tout rit, que tout est somptueux ; </l>
+	<l id='345'>Où les choses qu'on voit sont pour moi si nouvelles, </l>
+	<l id='346' part='i'>Les hommes si bien faits ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='346' part='f'>Les femmes si fidèles ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Criséis.</speaker>
+	<l id='347'>Que vous connaissez mal les lieux dont vous parlez ! </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS, à Démocrite.</speaker>
+	<l id='348'>Je les connaîtrai mieux bientôt, si vous voulez. </l>
+	<l id='349'>Vous avez sur mon père une entière puissance ; </l>
+	<l id='350' part='i'>Vous n'avez qu'à parler. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='350' part='f'>Vous vous moquez, je pense. </l>
+	<l id='351'>Examinez-moi bien ; ai-je, du bas en haut, </l>
+	<l id='352'>Pour être courtisan, la taille et l'air qu'il faut ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='353'>J'attends de vos bontés cette faveur extrême : </l>
+	<l id='354' part='i'>Ne me refusez pas. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='354' part='f'>Pourquoi faut-il que j'aime ? </l>
+<stage>À Agélas. </stage>
+	<l id='355' part='i'>Mais, seigneur... </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Démocrite.</speaker>
+	<l id='355' part='f'>À mes voeux daignez tout accorder ; </l>
+	<l id='356'>Songez qu'en vous priant, j'ai droit de commander. </l>
+	<l id='357' part='i'>Je le veux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='357' part='m'>Il suffit. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='357' part='f'>La résistance est vaine. </l>
+	<l id='358'>J'ai des gens, des chevaux dans la route prochaine ; </l>
+	<l id='359'>Pour se rendre en ces lieux on va les avertir. </l>
+	<l id='360'>Toi, prends soin, Agénor, de les faire partir. </l>
+<stage>À Démocrite, à Agénor, à part.</stage>
+	<l id='361'>Je vous laisse. Surtout, cette aimable personne... </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉNOR, à Agélas.</speaker>
+	<l id='362'>Qu'à mes soins diligents votre coeur s'abandonne. </l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE VII. Démocrite, Agénor, Thaler, Criséis, Strabon.</head>
+<sp who='THALER'><speaker>THALER, à Criséis.</speaker>
+	<l id='363'>Morgué, je n'en puis p1us ; je vous cherche partout: </l>
+	<l id='364'>J'ai couru la forêt de l'un à l'autre bout, </l>
+	<l id='365' part='i'>Sans pouvoir... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Thaler.</speaker>
+	<l id='365' part='f'>Paix, tais-toi, va plier ton bagage : </l>
+	<l id='366'>Nous allons à la cour ; on t'a mis du voyage. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='367' part='i'>À la cour ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='367' part='m'>Oui, parbleu. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Gausser : terme familier. Se railler. [L]</note>
+	<l id='367' part='f'>Tu te gausses de moi. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='368'>Non : le roi veut te voir ; il a besoin de toi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Pargué : Parguenne ou Parguienne interj. Jurements patois de l'ancienne comédie, pour pardieu.</note>
+	<l id='369'>Pargué, j'irai fort bien, sans répugnance aucune: </l>
+	<l id='370'>Pourquoi non ? M'est avis que j'y ferai fortune. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR, à Criséis.</speaker>
+	<l id='371'>Ne perdons point de temps, suivons notre projet. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='372'>Partons quand vous voudrez ; mon paquet est tout fait. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part, à Criséis.</speaker>
+	<l id='373'>Quel voyage, grands dieux ! C'est à votre prière </l>
+	<l id='374'>Que je fais une chose à mon coeur si contraire. </l>
+	<l id='375'>Mais pour vous, Criséis, que ne ferait-on pas ? </l>
+<stage>À part. </stage>
+	<l id='376'>Que je sens là-dedans de trouble et de combats ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. </head>
+<sp who='STRABON'><speaker>STRABON, seul.</speaker>
+	<l id='377'>Adieu, forêts ; rochers ; adieu, caverne obscure, </l>
+	<l id='378'>Insensibles témoins de la faim que j'endure ; </l>
+<note>Variante : Insensibles témoins des peines que j'endure.</note>
+	<l id='379'>Adieu, tigres, ours, cerfs, daims, sangliers et loups. </l>
+	<l id='380'>Si, pour philosopher, je reviens parmi vous, </l>
+	<l id='381'>Je veux qu'une panthère, avec sa dent gloutonne, </l>
+	<l id='382'>Ne fasse qu'un repas de toute ma personne. </l>
+	<l id='383'>Je suis votre valet. Loin de ce triste lieu, </l>
+	<l id='384'>Je vais boire et manger. Bonjour, bonsoir, adieu. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<stage>Le Théâtre représente le palais d’Agélas, roi d’Athènes. </stage>
+<div2 type='scene' n='1'><head>SCÈNE I. Ismène, Cléanthis.</head>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='385'>Si j'avais le secret de deviner la cause </l>
+	<l id='386'>Du chagrin qu'à mes yeux votre visage expose, </l>
+	<l id='387'>De cet ennui soudain qui vous tient sous ses lois, </l>
+	<l id='388'>Nous nous épargnerions deux peines à la fois ; </l>
+	<l id='389'>Moi, de le demander, et vous de me le dire. </l>
+	<l id='390'>Mais, puisque sans parler je ne puis m'en instruire, </l>
+	<l id='391'>Dites-moi, s'il vous plaît, depuis une heure ou deux, </l>
+	<l id='392'>Quel nuage a troublé l'éclat de vos beaux yeux ? </l>
+	<l id='393'>Quel sujet vous oblige à répandre des larmes ? </l>
+	<l id='394'>Le roi plus que jamais est épris de vos charmes ; </l>
+	<l id='395'>Il vous aime ; et, de plus, une suprême loi </l>
+	<l id='396'>L'oblige à vous donner et sa main et sa foi : </l>
+	<l id='397'>Et quand même il romprait une si douce chaîne, </l>
+	<l id='398'>Agénor est un prince assez digne d'Ismène. </l>
+	<l id='399'>Je sais qu'il vous adore, et qu'il n'ose à vos yeux, </l>
+	<l id='400'>Par respect pour le roi, faire éclater ses feux. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='401'>Je veux bien avouer qu'un manque de couronne </l>
+	<l id='402'>Est l'unique défaut qui soit en sa personne, </l>
+	<l id='403'>Et qu'Agénor aurait tous les voeux de mon coeur, </l>
+	<l id='404'>S'il était un peu moins sensible à la grandeur. </l>
+	<l id='405'>Mais enfin un chagrin que je ne puis comprendre, </l>
+	<l id='406'>Ma chère Cléanthis, est venu me surprendre : </l>
+	<l id='407'>Je le chasse, il revient ; et je ne sais pourquoi, </l>
+	<l id='408'>Ce jour plus qu'aucun autre, il cause mon effroi. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='409'>On ne peut vous ôter le sceptre et la couronne ; </l>
+	<l id='410'>Et le rang glorieux que le destin vous donne, </l>
+	<l id='411'>Je vous l'apprends encor, si vous ne le savez, </l>
+	<l id='412'>J'en suis un peu la cause, et vous me le devez, </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='413' part='i'>Comment ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='413' part='f'>Écoutez-moi. La reine votre mère, </l>
+	<l id='414'>Abandonnant Argos, où mourut votre père, </l>
+	<l id='415'>Par un second hymen épousa le feu roi </l>
+	<l id='416'>Qui régnait en ces lieux, mais avec cette loi, </l>
+	<l id='417'>Que, si d'aucun enfant il ne devenait père, </l>
+	<l id='418'>Du trône athénien vous seriez l'héritière, </l>
+	<l id='419'>Et que son successeur deviendrait votre époux. </l>
+	<l id='420'>La reine eut une fille ; et, l'aimant moins que vous, </l>
+	<l id='421'>Elle trouva moyen de changer cette fille, </l>
+	<l id='422'>Et de mettre un enfant, pris d'une autre famille, </l>
+	<l id='423'>De même âge à peu près, mais moribond, malsain, </l>
+	<l id='424'>Et qui mourut aussi, je crois, le lendemain. </l>
+	<l id='425'>Moi, j'allai cependant, sans tarder davantage, </l>
+	<l id='426'>Porter nourrir l'enfant dans un lointain village. </l>
+	<l id='427'>Un pauvre paysan, que l'or sut engager, </l>
+	<l id='428'>De ce fardeau pour moi voulut bien se charger. </l>
+	<l id='429'>Je lui dis que l'enfant tenait de moi naissance, </l>
+	<l id='430'>Qu'il devait avec soin élever son enfance: </l>
+	<l id='431'>Je lui cachai toujours son nom et son pays. </l>
+	<l id='432'>Le pâtre crût enfin tout ce que je lui dis. </l>
+	<l id='433'>Quinze ans se sont passés depuis cette aventure. </l>
+	<l id='434'>Votre mère a payé les droits à la nature ; </l>
+	<l id='435'>Et depuis ce long temps aucun mortel, je crois, </l>
+	<l id='436'>N'a pu de cette fille avoir ni vent ni voix. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='437'>Je sais depuis longtemps ce que tu viens de dire ; </l>
+	<l id='438'>Ta bouche avait déjà pris soin de m'en instruire ; </l>
+	<l id='439'>Ce souvenir encore augmente ma terreur, </l>
+	<l id='440'>Et vient justifier le trouble de mon coeur. </l>
+	<l id='441'>N'as-tu point remarqué qu'au retour de la chasse, </l>
+	<l id='442'>Le roi, rêveur, distrait, a paru tout de glace ? </l>
+	<l id='443'>Ses regards inquiets m'ont dit son embarras : </l>
+	<l id='444'>II semblait m'éviter et détourner ses pas. </l>
+	<l id='445'>Ah, Cléanthis ! Je crains que quelque amour nouvelle </l>
+	<l id='446' part='i'>Ne lui fasse... </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='446' part='f'>Ah ! Voilà l'ordinaire querelle. </l>
+	<l id='447'>C'est une étrange chose ! Il faut que les amants </l>
+	<l id='448'>Soient toujours de leurs maux les premiers instruments. </l>
+	<l id='449'>Qu'un homme par hasard ait détourné la vue </l>
+	<l id='450'>Sur quelque objet nouveau qui passe dans la rue ; </l>
+	<l id='451'>Qu'il ait paru rêveur, enjoué, gai, chagrin ; </l>
+	<l id='452'>Qu'il n'ait pas ri, pleuré, parlé, que sais-je enfin ? </l>
+	<l id='453'>Voilà la jalousie aussitôt en campagne. </l>
+	<l id='454'>D'une mouche on lui fait une grosse montagne : </l>
+	<l id='455'>C'est un traître, un ingrat ; c'est un monstre odieux, </l>
+	<l id='456'>Et digne du courroux de la terre et des cieux. </l>
+	<l id='457'>Il faut aller plus doux dans le siècle où nous sommes. </l>
+	<l id='458'>On doit, parfois, passer quelque fredaine aux hommes. </l>
+	<l id='459'>Fermer souvent les yeux ; bien entendu, pourtant, </l>
+<note>D'autant : de cette quantité, dans la même proportion. 
+Familièrement. À la charge, à charge d'autant, à condition de rendre la pareille. [L]</note>
+	<l id='460'>Que tout cela se fait à la charge d'autant. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='461'>Pour un coeur délicat, qu'un tendre amour engage, </l>
+	<l id='462'>Un calme si tranquille est d'un pénible usage. </l>
+	<l id='463'>Toujours quelque soupçon renaît pour l'alarmer. </l>
+	<l id='464'>Ah ! Que tu connais mal ce que c'est que d'aimer ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+<note>Licencier : signifie aussi, Prendre de soi-même des libertés ; s'emanciper, sortir de son devoir. [T]</note>
+	<l id='465'>Oui ! Je me suis d'aimer parfois licenciée ; </l>
+	<l id='466'>J'ai fait pis ; dans Argos je me suis mariée. </l>
+<note>Variante : J'ai fait pis ; je me suis dans Argos mariée. Il est bon de faire observer encore que les variantes ne sont pas tirées de plusieurs éditions corrigées par l'auteur, mais qu'elles appartiennent à divers éditeurs. (G. A. C.). </note>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='467' part='i'>Toi, mariée ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='467' part='f'>Oui, moi ; mais à mon grand regret. </l>
+	<l id='468'>Autant que je le puis, je tiens le cas secret. </l>
+	<l id='469'>Avant que les destins, touchés de ma misère, </l>
+	<l id='470'>Eussent fixé mon sort auprès de votre mère, </l>
+	<l id='471'>J'avais fait ce beau coup ; mais, à vous dire vrai, </l>
+	<l id='472'>Ce mariage-là n'était qu'un coup d'essai. </l>
+	<l id='473'>J'avais pris un mari brutal, jaloux, bizarre, </l>
+	<l id='474'>Gueux, joueur, débauché, capricieux, avare, </l>
+	<l id='475'>Comme ils sont presque tous : je l'ai tant tourmenté, </l>
+	<l id='476'>Excédé, maltraité, rebuté, molesté, </l>
+	<l id='477'>Qu'enfin il m'a privé de sa vue importune ; </l>
+<note>Variante : Pour rétablir l'exactitude grammaticale, qui voudrait le participe privé au féminin dans ce vers, des éditeurs modernes l'ont ainsi retourné : "Qu'il m'a privée enfin de sa vue importune ;" ce qui procure deux élisions, j'ai presque dit deux hiatus de la même lettre dans le même vers ; mais ce changement serait-il plus heureux, il n'est pas de l'auteur, et le vers adopté est conforme à l'édition originale. (G. A. C.) </note>
+	<l id='478'>Le diable l'a mené chercher ailleurs fortune. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='479' part='i'>Est-il mort ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+<note>Autant : Sans complément, également, semblablement. [L]</note>
+	<l id='479' part='f'>Autant vaut. Depuis vingt ans et plus </l>
+	<l id='480'>Qu'il a pris son parti, nous ne nous sommes vus ; </l>
+	<l id='481'>Et quand même en ces lieux il viendrait à paraître, </l>
+	<l id='482'>Nous nous verrions, je crois, tous deux sans nous connaître. </l>
+	<l id='483'>J'ai bien changé d'état ; et lorsqu'il s'en alla, </l>
+	<l id='484'>Je n'étais qu'un enfant haute comme cela. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='485'>Ta belle humeur pourrait me sembler agréable, </l>
+	<l id='486'>Si de quelque plaisir mon coeur était capable. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='487'>Pour chasser le chagrin, madame, où je vous vois, </l>
+	<l id='488'>Consentez, je vous prie, à venir avec moi, </l>
+	<l id='489'>Pour voir un animal qu'en ces lieux on amène, </l>
+	<l id='490'>Et que le prince a pris dans la forêt prochaine. </l>
+	<l id='491'>Il tient, à ce qu'on dit, et de l'homme et de l'ours ; </l>
+	<l id='492'>Il parle quelquefois, et rit presque toujours. </l>
+	<l id='493'>On appelle cela, je pense... un Démocrite. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='494'>Tu rends assurément peu d'honneur au mérite. </l>
+	<l id='495'>L'animal dont tu fais un portrait non commun </l>
+	<l id='496' part='i'>Est un grand philosophe. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='496' part='f'>Eh ! N'est-ce pas tout un ? </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='497'>Tu peux aller le voir ; mais pour moi, je te prie, </l>
+	<l id='498'>Laisse-moi quelque temps tout à ma rêverie ; </l>
+	<l id='499'>J'en fais mon seul plaisir. Tout ce que tu m'as dit, </l>
+	<l id='500'>Et mes jaloux soupçons, m'occupent trop l'esprit. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='501'>Quelqu'un s'avance ici. Je m'en vais vous conduire, </l>
+	<l id='502'>Et reviendrai pour voir cet homme qu'on admire. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. </head>
+<sp who='STRABON'><speaker>STRABON, seul, en habit de cour.</speaker>
+	<l id='503'>Quand on a de l'esprit, ma foi, vive la cour ! </l>
+	<l id='504'>C'est là qu'il faut venir se montrer au grand jour ; </l>
+	<l id='505'>Et c'est mon centre, à moi. Bon vin, bonne cuisine ; </l>
+	<l id='506'>J'ai calmé les fureurs d'une guerre intestine. </l>
+	<l id='507'>J'ai, d'abord, pris ma part de deux repas exquis ; </l>
+	<l id='508'>Et me voilà déjà vêtu comme un marquis. </l>
+	<l id='509'>Cela me sied bien. Mais quelqu'un ici s'avance... </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Thaler, en habit de cour par dessus son habit de paysan, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='510'>C'est Thaler. Justes dieux ! Quelle magnificence ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER, vers la porte d'où il sort, à des domestiques qui éclatent de rire.</speaker>
+	<l id='511'>Oh ! Dame, voyez-vous, tout franc, je n'aime pas </l>
+	<l id='512'>Qu'on se rie à mon nez, et qu'on suive mes pas ; </l>
+<note>Se Gausser : Terme familier. Se railler. [L]</note>
+	<l id='513'>Si quelqu'un vient encor se gausser davantage, </l>
+<note>Sangler : Familièrement. Appliquer avec force un coup. [L]</note>
+	<l id='514'>Je lui sangle d'abord mon poing par le visage. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='515'>D'où te vient, mon enfant, l'humeur où te voilà ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER, Strabon.</speaker>
+	<l id='516'>Morgué ! Je ne sais pas quelle graine c'est là. </l>
+	<l id='517'>Ils sont un régiment de diverses figures ; </l>
+	<l id='518'>Jaune, gris, vert, enfin de toutes les peintures, </l>
+	<l id='519'>Qui sont tous après moi comme des possédés. </l>
+<stage>Allant vers la porte. </stage>
+<note>Palsangué : Jurement de paysan, dans l'ancienne comédie. Corruption de par le sang Dieu. [L]</note>
+	<l id='520' part='i'>Palsangué, le premier... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='520' part='f'>C'est qu'ils sont enchantés </l>
+	<l id='521'>De voir un gentilhomme avec si bonne mine, </l>
+	<l id='522'>Un port si gracieux, une taille si fine. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, revenant à Strabon.</speaker>
+	<l id='523' part='i'>Me voilà. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='523' part='m'>Je te vois. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='523' part='f'>Je n'ai pas méchant air, </l>
+	<l id='524' part='i'>N'est-ce pas ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='524' part='f'>Je me donne au grand diable d'enfer </l>
+	<l id='525'>Si seigneur à la cour, dans ses airs de conquête, </l>
+	<l id='526'>Est mieux paré que toi des pieds jusqu'à la tête. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='527'>Je suis, sans vanité, bien tourné quand je veux, </l>
+	<l id='528'>Et j'ai, quand il me plaît, tout autant d'esprit qu'eux, </l>
+	<l id='529'>Qui fait le bel oiseau ? C'est, dit-on, le plumage. </l>
+	<l id='530'>Notre fille est, de même, en fort bon équipage. </l>
+	<l id='531'>Allons, faut dire vrai, je suis content du roi ; </l>
+	<l id='532'>Morguenne, il en agit rondement avec moi. </l>
+	<l id='533'>Ils m'ont bien fait dîner : c'est un plaisir extrême </l>
+	<l id='534'>D'avoir grand appétit, et l'estomac de même, </l>
+	<l id='535'>Lorsque l'on peut tous deux les contenter, s'entend. </l>
+	<l id='536'>J'ai mangé comme quatre, et j'ai trinqué d'autant. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='537'>Tu te trouves donc bien en cette hôtellerie ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='538'>J'y serais volontiers tout le temps de ma vie. </l>
+	<l id='539'>L'état où je me vois me fait émerveiller : </l>
+	<l id='540'>M'est avis que je rêve, et crains de m'éveiller. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='541'>Malgré tes beaux habits, ton air gauche et sauvage </l>
+	<l id='542'>Tient encore, à mes yeux, quelque peu du village. </l>
+	<l id='543'>Plante-toi sur tes pieds ; te voilà comme un sot. </l>
+	<l id='544'>L'on aurait plus d'honneur d'habiller un fagot. </l>
+	<l id='545'>Des airs développés ; allons, fais-toi de fête. </l>
+	<l id='546'>Remue un peu les bras ; balance-toi la tête. </l>
+	<l id='547'>De la vivacité. Danse. Prends du tabac. </l>
+	<l id='548'>Ne tends pas tant le dos. Renfonce l'estomac. </l>
+<stage>Il lui donne un coup dans le dos, et un autre dans l'estomac.</stage>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='549'>Oh ! Morgué, bellement ; comme vous êtes rude ! </l>
+	<l id='550' part='i'>J'ai l'estomac démis. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='550' part='f'>Ce n'est là qu'un prélude. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='551' part='i'>Achevez donc tout seul. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='551' part='f'>Paix, Démocrite vient : </l>
+	<l id='552'>Prends d'un jeune seigneur la taille et le maintien. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='553'>Non, morgué, je m'en vais : aussi bien je pétille, </l>
+	<l id='554'>Mis comme me voilà, d'aller voir notre fille. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Démocrite, suivi d’un Intendant, d’un Maître d’hôtel et de quatre grands Laquais ; Strabon.</head>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='555'>En ces lieux, comme ailleurs, je vois de toutes parts </l>
+	<l id='556'>Mille plaisants objets attirer mes regards. </l>
+	<l id='557'>Les grands et les petits, la cour comme la ville, </l>
+	<l id='558'>Pour rire à mon plaisir tout m'offre un champ fertile ; </l>
+	<l id='559'>Et me voyant aussi dans un riche palais, </l>
+	<l id='560'>Entouré d'officiers, escorté de valets, </l>
+	<l id='561'>Transporté tout d'un coup de mon séjour paisible, </l>
+	<l id='562'>Je me trouve moi-même un sujet fort risible. </l>
+	<l id='563'>Vous qui suivez mes pas, que voulez-vous de moi ? </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT, à Démocrite.</speaker>
+	<l id='564'>Je suis auprès de vous par l'ordre exprès du roi, </l>
+	<l id='565'>Il prétend, s'il vous plaît, m'accorder cette grâce, </l>
+	<l id='566'>Que de votre intendant je prenne ici la place ; </l>
+	<l id='567'>Et je viens vous offrir mes soins et mon savoir. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='568'>Mais je n'ai nulle affaire, et n'en veux point avoir, </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT.</speaker>
+	<l id='569'>C'est aussi pour cela qu'officier nécessaire, </l>
+	<l id='570'>Réglant votre maison, j'aurai soin de tout faire. </l>
+	<l id='571'>J'afferme, je reçois, je dispose des fonds, </l>
+	<l id='572' part='i'>Des valets... </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='572' part='f'>Ah ! Tant mieux. Puisque dans les maisons </l>
+	<l id='573'>Vous avez sur les gens un pouvoir despotique, </l>
+	<l id='574'>De grâce, réformez tout ce vain domestique. </l>
+	<l id='575'>Je ne saurais souffrir toujours à mes côtés </l>
+	<l id='576'>Ces quatre grands messieurs droit sur leurs pieds plantés. </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT.</speaker>
+	<l id='577'>Il est de la grandeur d'avoir un gros cortége. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='578'>Quoi ! Si je veux tousser, cracher, moucher, que sais-je ?</l>
+	<l id='579'>Et le jour, et la nuit, faudra-t-il que quelqu'un </l>
+	<l id='580'>Tienne de tous mes faits un registre importun ? </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT.</speaker>
+	<l id='581'>Des gens de qualité c'est l'ordinaire usage. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='582'>Cet usage, à mon gré, n'est ni prudent ni sage. </l>
+	<l id='583'>Les hommes, qui souvent font tout mal à propos, </l>
+	<l id='584'>Et qui devraient cacher leur faible et leurs défauts, </l>
+	<l id='585'>Sont toujours les premiers à montrer leurs bêtises. </l>
+	<l id='586'>Pour faire à tout moment, et dire des sottises, </l>
+	<l id='587'>A quoi bon, s'il vous plaît, payer tant de témoins ? </l>
+	<l id='588'>Messieurs, laissez-moi seul, et trêve de vos soins. </l>
+<stage>Au Maître d'hôtel.</stage>
+	<l id='589' part='i'>Et vous, que vous plaît-il ? </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL, à Démocrite.</speaker>
+	<l id='589' part='f'>Le prince à vous m'envoie, </l>
+	<l id='590'>Et pour maître d'hôtel il veut que je m'emploie. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='591' part='i'>Bon ! Voici le meilleur. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='591' part='f'>C'est, entre vous et moi, </l>
+	<l id='592'>Auprès d'un philosophe un fort chétif emploi. </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='593'>J'espère avec honneur remplir mon ministère, </l>
+	<l id='594'>Et vous n'aurez, je crois, nul reproche à me faire. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='595' part='i'>J'en suis persuadé de reste. </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT, à Démocrite.</speaker>
+	<l id='595' part='f'>Ce n'est point </l>
+	<l id='596'>Parce que l'amitié l'un à l'autre nous joint, </l>
+	<l id='597'>Mais je réponds de lui ; c'est un très honnête homme, </l>
+	<l id='598'>Fidèle, incorruptible, équitable, économe. </l>
+<stage>Bas, à Démocrite.</stage>
+	<l id='599'>Ne vous y fiez pas, je vous en avertis. </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL, à L'Intendant.</speaker>
+	<l id='600'>Quand je ne serais pas au rang de vos amis, </l>
+	<l id='601'>Je publierais partout que l'on ne trouve guères </l>
+	<l id='602'>D'homme plus entendu que vous dans les affaires, </l>
+	<l id='603'>Plus désintéressé, plus actif, plus adroit. </l>
+<stage>Bas, à Démocrite.</stage>
+	<l id='604'>Prenez-y garde au moins, car il ne va pas droit. </l>
+</sp>
+<sp who='L-INTENDANT'><speaker>L’INTENDANT, au maître d'hôtel.</speaker>
+	<l id='605'>Monsieur, en vérité, vous êtes trop honnête. </l>
+	<l id='606'>On sait votre bon goût pour conduire une fête ; </l>
+	<l id='607'>Nul n'entend mieux que vous à donner un repas, </l>
+	<l id='608'>En aussi peu de temps, sans bruit, sans embarras. </l>
+<stage>Bas, à Démocrite. </stage>
+	<l id='609'>C'est un homme qui n'a l'âme, ni la main nette, </l>
+	<l id='610'>Et qui gagne moitié sur tout ce qu'il achète. </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL, à L'Intendant.</speaker>
+	<l id='611'>Tout le monde connaît votre esprit éclairé ' </l>
+	<l id='612'>À gagner le procès le plus désespéré, </l>
+	<l id='613'>À nettoyer un bien, à liquider des dettes </l>
+	<l id='614'>Que dans une maison un long désordre a faites. </l>
+<stage>Bas, à Démocrite. </stage>
+	<l id='615'>C'est un homme sans foi, qui prend de toute main, </l>
+	<l id='616'>Et ne fait pas un bail qu'il n'ait un pot-de-vin. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='617'>Messieurs, je suis ravi qu'en vous rendant service, </l>
+	<l id='618'>Tous deux, en même temps, vous vous rendiez justice. </l>
+	<l id='619'>Allez, continuez, aimez-vous bien toujours, </l>
+	<l id='620'>Et servez-vous ainsi le reste de vos jours : </l>
+	<l id='621'>Cette rare amitié, cette candeur sublime </l>
+	<l id='622'>Me fait naître pour vous encore plus d'estime. </l>
+	<l id='623' part='i'>Adieu. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Démocrite, Strabon.</head>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='623' part='f'>Tu ne ris pas de ces deux bons amis ? </l>
+	<l id='624'>Tu peux juger, Strabon, des grands par les petits. </l>
+	<l id='625'>De ces 1âches flatteurs qui hautement vous louent, </l>
+	<l id='626'>Et dans l'occasion tout bas se désavouent ; </l>
+	<l id='627'>De ces menteurs outrés, ces caractères bas, </l>
+	<l id='628'>Qui disent tout le bien et le mal qui n'est pas ; </l>
+	<l id='629'>Des faux amis du temps reconnais les manières : </l>
+	<l id='630'>Peut-être ces deux-là sont-ils des plus sincères. </l>
+	<l id='631'>Mais changeons de propos. Que dis-tu de la cour ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='632'>Toutes sortes de biens. Et vous, à votre tour, </l>
+	<l id='633'>Parlez à coeur ouvert, qu'en dites-vous vous-même ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='634'>Tu t'imagines bien que ma joie est extrême </l>
+	<l id='635'>D'y voir certaines gens tout fiers de leur maintien, </l>
+<note>Déparler : Discontinuer de parler. Il ne s'emploie qu'avec la négation.</note>
+	<l id='636'>Qui ne déparlent pas, et qui ne disent rien ; </l>
+	<l id='637'>D'y rencontrer partout des visages d'attente, </l>
+	<l id='638'>Qui n'ont que l'espérance et les désirs pour rente ; </l>
+	<l id='639'>D'autres dont les dehors affectés et pieux </l>
+	<l id='640'>S'efforcent de duper les hommes et les dieux ; </l>
+	<l id='641'>Des complaisants en charge, et payés pour sourire </l>
+	<l id='642'>Aux sottises qu'un autre est toujours prêt à dire ; </l>
+	<l id='643'>Celui-ci qui, bouffi du rang de son aïeul, </l>
+	<l id='644'>Se respecte soi-même, et s'admire tout seul. </l>
+	<l id='645'>Je te laisse à juger si, de tant de matière, </l>
+	<l id='646'>J'ai, pour rire à plaisir, une vaste carrière. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='647' part='i'>Je m'en rapporte à vous. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='647' part='f'>Dans ce nouveau pays, </l>
+	<l id='648'>Dis-moi, que dit, que fait, que pense Criséis ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='649'>Si l'on en peut juger à l'air de son visage, </l>
+	<l id='650'>Elle se plaît ici bien mieux qu'en son village. </l>
+	<l id='651'>Elle a pris, comme moi, d'abord les airs de cour ; </l>
+	<l id='652'>Elle veut déjà plaire et donner de l'amour. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='653' pat='i'>Que dis-tu? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='653' part='f'>Vous savez qu'en princesse on la traite. </l>
+	<l id='654'>Je la voyais tantôt devant une toilette, </l>
+<note>Mouche : est aussi un petit morceau de taffetas ou de velours noir, que les Dames mettent sur leur visage par ornement, ou pour faire paraître leur teint plus blanc. Les dévots crient fort contre les mouches, comme étant une marque de grande coquetterie. [F]</note>
+	<l id='655'>D'une mouche assassine irriter ses attraits. </l>
+	<l id='656'>Elle donne déjà le bon tour aux crochets. </l>
+	<l id='657'>Elle montre, avec art, quoique novice encore, </l>
+	<l id='658'>Une gorge timide et qui voudrait éclore. </l>
+	<l id='659'>Agélas l'observait d'un oeil plein de désirs. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='660' part='i'>Agélas ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='660' part='f'>Oui. Parfois il poussait des soupirs ; </l>
+	<l id='661'>Et je suis fort trompé, si le roi, pour la belle, </l>
+	<l id='662'>Ne ressent de l'amour quelque vive étincelle. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='663' part='i'>Juste ciel ! Quoi ! Déjà ?... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='663' part='f'>L'on va vite en ces lieux, </l>
+	<l id='664'>Et l'air de ce pays est fort contagieux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='665'>Et comment Criséis prend-elle cet hommage ? </l>
+	<l id='666'>Semble-t-elle répondre à ce muet langage ? </l>
+	<l id='667' part='i'>Montre-t-elle l'entendre ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='667' part='f'>Oh ! Vraiment, je le crois. </l>
+	<l id='668'>Elle l'entend déjà mieux que vous et que moi. </l>
+	<l id='669'>Elle a de certains yeux, de certaines manières, </l>
+	<l id='670'>Des souris attrayants, des mines meurtrières... </l>
+	<l id='671' part='i'>Oh ! Vive la nature ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='671' part='f'>En savoir déjà tant ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='672'>Si le prince l'aimait, le cas serait plaisant. </l>
+	<l id='673' part='i'>Euh ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='673' part='m'>Oui. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='673' part='f'>Que diriez-vous, qu'un roi cherchant à plaire, </l>
+	<l id='674'>Comme un aventurier donnât dans la bergère ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='675' part='i'>J'en rirais tout à fait. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='675' part='f'>Que nous serions heureux ! </l>
+	<l id='676'>Notre fortune ici serait faite à tous deux. </l>
+	<l id='677'>L'amour est, je l'avoue, une belle manie: </l>
+	<l id='678'>Les hommes sont bien fous ! Rions-en, je vous prie : </l>
+	<l id='679'>Je les trouve à présent presque aussi sots que vous. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='680'>Il ne me manquait plus que d'être encor jaloux. </l>
+	<l id='681'>J'étouffe, et je sens là... certain poids qui m'oppresse. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='682'>D'où vous vient, s'il vous plaît, cette sombre tristesse ? </l>
+	<l id='683'>Du bien de Criséis n'êtes-vous pas content ? </l>
+	<l id='684'>Pourquoi cet air chagrin, à vous qui riez tant ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='685'>Ces feux pour Criséis me donnent quelque ombrage. </l>
+	<l id='686'>Son éducation est mon heureux ouvrage ; </l>
+	<l id='687'>Elle est sous ma conduite arrivée en ces lieux, </l>
+	<l id='688' part='i'>Et j'en dois prendre soin. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='688' part='f'>On ne peut faire mieux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='689'>Agélas a grand tort d'employer sa puissance </l>
+	<l id='690'>À vouloir d'un enfant surprendre l'innocence, </l>
+	<l id='691'>Qui doit être en sa cour en toute sûreté. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='692'>C'est violer les droits de l'hospitalité. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='693'>Mais il faut empêcher que cet amour n'augmente ; </l>
+	<l id='694'>Et, pour mieux étouffer cette flamme naissante, </l>
+	<l id='695'>Je vais le conjurer de nous laisser partir. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='696'>Parlez pour vous ; d'ici je ne veux point sortir ; </l>
+	<l id='697' part='i'>Je m'y trouve trop bien. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+<sp who='STRABON'><speaker>STRABON, seul.</speaker>
+	<l id='697' part='f'>Ma foi, le philosophe </l>
+	<l id='698'>D'un feu long et discret dans son harnois s'échauffe. </l>
+	<l id='699'>Le pauvre diable en a tout autant qu'il en faut, </l>
+	<l id='700'>Et toute sa morale a, parbleu, fait le saut. </l>
+	<l id='701' part='i'>Allons sur ses pas... </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Cléanthis, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='701' part='f'>Mais quelle est cette égrillarde </l>
+	<l id='702'>Qui d'un oeil curieux me tourne et me regarde ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='703'>Voilà, certes, quelqu'un de ces nouveaux venus ; </l>
+	<l id='704'>Et ces traits-là me sont tout à fait inconnus. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='705'>Mon port lui paraît noble, et ma mine assez bonne ; </l>
+	<l id='706'>La princesse a, je crois, dessein sur ma personne. </l>
+	<l id='707'>Il ne faut point ici perdre le jugement, </l>
+	<l id='708'>Mais en homme d'esprit tourner un compliment. </l>
+<stage>Haut. </stage>
+	<l id='709'>Madame, s'il est vrai, selon nos axiomes, </l>
+	<l id='710'>Que tous corps ici-bas sont composés d'atomes, </l>
+	<l id='711'>Chacun doit convenir, en voyant vos attraits, </l>
+	<l id='712'>Que le vôtre est formé d'atomes bien parfaits. </l>
+	<l id='713'>Ces organes subtils, d'où votre esprit transpire, </l>
+	<l id='714'>Avant que vous parliez, font que je vous admire. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='715'>À votre air étranger, on devine aisément... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='716'>À mon air étranger ! Parlez plus congrûment. </l>
+	<l id='717'>Je suis homme de cour ; et, pour la politesse, </l>
+	<l id='718'>J'en ai, sans me vanter, de la plus fine espèce. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='719'>Un esprit méprisant ne m'a point fait parler ; </l>
+	<l id='720'>Et tous nos courtisans voudraient vous ressembler. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='721' part='i'>Je le crois. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='721' part='f'>Je voulais par vous-même m'instruire </l>
+	<l id='722'>Que1 sujet, quelle affaire ici la cour vous attire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='723'>C'est par l'ordre du roi que j'y viens aujourd'hui ; </l>
+	<l id='724'>Je suis, sans me vanter, assez bien avec lui : </l>
+	<l id='725'>Le plaisir de nous voir quelquefois nous rassemble ; </l>
+	<l id='726'>Et nous devons, je crois, ce soir souper ensemble. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='727'>C'est un honneur qu'il fait à peu de courtisans. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='728'>D'accord ; mais il sait vivre, et connaît bien ses gens. </l>
+	<l id='729'>Pour convive, je suis d'une assez bonne étoffe, </l>
+	<l id='730'>Suivant de Démocrite, et garçon philosophe. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='731'>On le voit ; votre esprit éclate dans vos yeux. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='732' part='i'>Madame... </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='732' part='f'>Tout en vous est noble et gracieux. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='733'>Madame, à bout portant vous tirez la louange. </l>
+	<l id='734'>Je veux être un maraud, si mes sens, en échange, </l>
+	<l id='735'>Auprès de vos appas ne sont tout stupéfaits. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='736'>Peu de coeurs devant vous ont conservé leur paix. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='737'>Ah, madame ! Il est vrai qu'on est fait d'un modèle </l>
+	<l id='738'>À ne pas attaquer vainement une belle. </l>
+	<l id='739'>On sait de son esprit se servir à propos ; </l>
+	<l id='740'>Se plaindre, se brouiller, écrire quatre mots, </l>
+	<l id='741'>Revenir, s'apaiser, se remettre en colère ; </l>
+	<l id='742'>Faire bien le jaloux, et vouloir se défaire ; </l>
+	<l id='743'>Commander à ses pleurs de sortir au besoin ; </l>
+	<l id='744'>Être un jour sans manger, bouder seul en un coin ; </l>
+	<l id='745'>Redoubler quelquefois de tendresses nouvelles. </l>
+	<l id='746'>Lorsque l'on sait jouer ce rôle auprès des belles, </l>
+	<l id='747'>On est bien malheureux et bien disgracié, </l>
+	<l id='748'>Quand on manque, à la fin, d'en tirer aile ou pied. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='749'>La nature, en naissant, vous fit l'âme sensible. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='750'>Le soufre préparé n'est pas plus combustible. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='751'>Ainsi donc votre coeur s'est souvent enflammé ? </l>
+	<l id='752' part='i'>Vous aimiez autrefois ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='752' part='f'>Non, mais j'étais aimé. </l>
+	<l id='753'>Je me suis signalé par plus d'une victoire. </l>
+	<l id='754'>Mais si de vous aimer vous m'accordiez la gloire, </l>
+	<l id='755'>Vous verriez tout mon coeur, par des soins éternels, </l>
+	<l id='756'>Faire fumer l'encens au pied de vos autels. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='757'>Mon bonheur serait pur, et ma gloire trop grande, </l>
+	<l id='758'>De recevoir ici vos voeux et votre offrande ; </l>
+	<l id='759'>Mais certaine raison, qui murmure en mon coeur, </l>
+	<l id='760'>M'empêche de répondre à toute votre ardeur. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='761'>À mes désirs aussi j'en ai quelqu'un contraire ; </l>
+<note>Ce vers est conforme à l'édition originale, et à celles qui l'ont suivie de prés ; mais son incorrection n'a pas échappé à d'habiles éditeurs plus modernes, qui ont ainsi changé le vers entier, en faisant remarquer dans une note que le solécisme de l'auteur est réparé pour la première fois (édit. de 1784, petit in-12) : J'en ai quelqu'une aussi qui me serait contraire. (G. A. C.)</note>
+	<l id='762'>Mais où parle I'amour, la raison doit se taire. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='763'>Si mon traître d'époux par bonheur était mort... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='764'>Si ma méchante femme avait fini son sort... </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='765'>Que je me serais fait un bonheur de lui plaire ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='766'>Que nous aurions bientôt terminé notre affaire ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à Strabon.</speaker>
+	<l id='767'>Votre abord est si tendre et si persuasif... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Cléanthis.</speaker>
+	<l id='768'>Vous avez un abord tellement attractif... </l>
+<note>L'édition originale offre cette répétition du mot abord dans les deux vers ; plusieurs éditeurs lui ont substitué le mot aspect dans le second. (G. A. C.)</note>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='769'>Que d'un charme puissant on se sent ravir l'âme. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='770'>Qu'en vous voyant paraître, aussitôt on se pâme. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='771'>Je sens que ma vertu combat mal avec vous ; </l>
+<stage>À part.</stage>
+	<l id='772'>Il faut nous séparer. Ah, ciel ! Si mon époux </l>
+	<l id='773'>Avait été formé sur un pareil modèle, </l>
+	<l id='774' part='i'>Qu'il m'eût donné d'amour ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='774' part='f'>Adieu, charmante belle : </l>
+	<l id='775'>Auprès de vos appas je défends mal mon coeur. </l>
+<stage>À part.</stage>
+	<l id='776'>Ah, ciel ! Si j'avais eu femme de cette humeur, </l>
+	<l id='777'>Quelles félicités ! Et qu'en sa compagnie </l>
+	<l id='778'>J'aurais avec plaisir passé toute ma vie ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who='STRABON'><speaker>STRABON, seul.</speaker>
+	<l id='779'>Cela ne va pas mal. J'arrive dans la cour, </l>
+	<l id='780'>Une belle me voit, je suis requis d'amour. </l>
+	<l id='781'>Courage, mon garçon ; continue ; encore une, </l>
+	<l id='782'>Et te voilà passé maître en bonne fortune. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Agélas, Agénor, Suite du Roi.</head>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='783'>Criséis, par votre ordre, en ces lieux va se rendre ; </l>
+	<l id='784'>Et vous pouvez bientôt et la voir et l'entendre. </l>
+	<l id='785'>Mais si je puis, seigneur, avec vous m'exprimer, </l>
+	<l id='786'>Votre coeur me paraît bien prompt à s'enflammer. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='787'>Je ne te cache rien de l'état de mon âme. </l>
+	<l id='788'>Tu vis naître tantôt cette nouvelle flamme : </l>
+	<l id='789'>Sois témoin du progrès ; mes feux sont parvenus, </l>
+	<l id='790'>En moins d'un jour, au point de ne s'accroître plus. </l>
+	<l id='791'>J'adore Criséis : à chaque instant, en elle </l>
+	<l id='792'>Je découvre, je vois quelque grâce nouvelle. </l>
+	<l id='793'>Ne remarques-tu point, comme moi, ses beautés ? </l>
+	<l id='794'>Ses airs dans cette cour ne sont point empruntés ; </l>
+	<l id='795'>Son esprit se fait voir, même dans son silence : </l>
+	<l id='796'>Elle n'a rien des bois que la seule naissance. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='797'>De ces feux violents .quelle sera la fin ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='798' part='i'>Je ne sais. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='798' part='f'>Mais, seigneur, quel est votre dessein ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='799' part='i'>D’aimer. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='799' part='f'>Quel sera donc le sort de la princesse ? </l>
+	<l id='800'>Athènes, par un choix où chacun s'intéresse, </l>
+	<l id='801'>Vous a fait souverain, sans aucune autre loi </l>
+	<l id='802'>Que d'épouser Ismène, alliée au feu roi. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='803'>Mon coeur jusqu’à ce jour, sans nulle répugnance, </l>
+	<l id='804'>Suivait de cette loi la douce violence. </l>
+	<l id='805'>Ce coeur même, en secret, souvent s'applaudissait </l>
+	<l id='806'>De la nécessité que le sort m’imposait : </l>
+	<l id='807'>Mais depuis le moment qu'une jeune bergère </l>
+	<l id='808'>M'a charmé, sans avoir nul dessein de me plaire, </l>
+	<l id='809'>Mon penchant pour Ismène aussitôt m'a quitté. </l>
+	<l id='810'>Je me sens entraîner tout d'un autre côté. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR, à part.</speaker>
+	<l id='811'>Ciel, qui sais mon amour, fais si bien, qu'en son âme </l>
+	<l id='812'>Puisse à jamais régner cette nouvelle flamme ! </l>
+<stage>À Agélas. </stage>
+	<l id='813'>Ce n'est pas d'aujourd'hui que les champs et les bois </l>
+	<l id='814'>Ont produit des objets dignes des plus grands rois ; </l>
+	<l id='815'>Et le sort prend plaisir, d'une chaîne secrète, </l>
+	<l id='816'>D'allier quelquefois le sceptre et la houlette. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='817'>Cette inégalité, ce défaut de grandeur, </l>
+	<l id='818'>Pour Criséis encore irrite mon ardeur. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='819'>Je ne sais ce qu'annonce une telle aventure ; </l>
+	<l id='820'>Mais un des miens m'a dit qu'en changeant de parure, </l>
+	<l id='821'>Ce paysan, de joie ou de vin transporté, </l>
+	<l id='822'>A laissé, dans l'habit qu'il avait apporté, </l>
+	<l id='823'>Un bracelet d'un prix qui passe sa puissance : </l>
+	<l id='824'>On doit me l'apporter. Mais Criséis s'avance. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Criséis, Thaler, Agélas, Agénor, Suite du Roi.</head>
+<sp who='THALER'><speaker>THALER, à part, à Criséis.</speaker>
+	<l id='825'>Je suis trop en chagrin, je vais lui dire, moi ; </l>
+	<l id='826'>Arrive qui pourra, n'importe. Je le vois : </l>
+	<l id='827'>Je m'en vais, palsangué, lui débrider ma chance. </l>
+<stage>À Agélas. </stage>
+<note>Importunance : Terme inusité. Action d'importuner. [L]</note>
+	<l id='828'>Sire, excusez l'affront de notre importunance. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='829' part='i'>Qu'avez-vous donc ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='829' part='f'>J'avons... Mais c’est trop de faveur, </l>
+	<l id='830' part='i'>Sire, mettez dessus. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='830' part='m'>Parlez. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='830' part='f'>C'est votre honneur. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='831' part='i'>Poursuivez... quel sujet ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='831' part='f'>Je ne veux point poursuivre, </l>
+	<l id='832'>Si vous n'êtes couvert ; je savons un peu vivre. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='833'>Je suis en cet état pour ma commodité. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='834'>Ali ! Vous pouvez vous mettre à votre liberté, </l>
+	<l id='835'>Et je ne sommes pas dignes de contredire. </l>
+	<l id='836'>Ici j'ons plus d'honneur que je ne saurais dire ; </l>
+	<l id='837'>Je sons nourris, vêtus mieux qu'à nous n'appartient ; </l>
+	<l id='838'>Mais on nous fait un tour qui, tout franc, ne vaut rien. </l>
+	<l id='839'>C'est pis qu'un bois ; vos gens n'ont point de conscience. </l>
+	<l id='840'>J'ai, dans mon autre habit, laissé, par oubliance... </l>
+	<l id='841'>Avec tout mon esprit, morgué, je suis un sot, </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='842' part='i'>Quoi donc ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='842' part='f'>Ils m'avont fait bian payer mon écot. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='843' part='i'>Qui ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='843' part='f'>Vos valets de chambre. Ah, la maudite engeance ! </l>
+	<l id='844'>En me déshabillant en toute diligence </l>
+	<l id='845'>L'un un pied, l'autre un bras (ils ont eu bientôt fait), </l>
+	<l id='846'>Ils m'ont pris un bijou, morgué, dans mon gousset : </l>
+	<l id='847'>Il est de votre honneur de les faire tous pendre. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='848'>Ne vous alarmez point, je vous le ferai rendre ; </l>
+	<l id='849'>Je veux que l'on le trouve, et je vous en réponds. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='850'>Tous les honnêtes gens d'ici sont des fripons : </l>
+	<l id='851'>Je sais pourtant fort bien que ce n'est pas vous, sire ; </l>
+	<l id='852'>Je vous crois honnête homme, et je sais bien qu'en dire : </l>
+	<l id='853'>Mais tout chacun ici ne vous ressemble pas. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Agénor.</speaker>
+	<l id='854'>Que l'on aille avec lui le chercher de ce pas, </l>
+	<l id='855'>Et qu'ici les plaisirs, les jeux, la bonne chère, </l>
+	<l id='856'>Suivent ces étrangers qu'Agélas considère. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='857'>Ahi ! Vous êtes, seigneur, par trop considérant. </l>
+	<l id='858'>Mais, parlant par respect, l’honneur que l'on me rend </l>
+	<l id='859'>Me confond ; car, tout franc, sans tant de préambule... </l>
+<stage>À Criséis. </stage>
+	<l id='860'>Palsangué, te voilà comme une ridicule ! </l>
+	<l id='861'>Que ne réponds-tu, toi ? Je m'embrouille toujours, </l>
+	<l id='862'>Lorsque d'un compliment j'entreprends le discours. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Thaler.</speaker>
+	<l id='863'>Allez, et n'ayez point de chagrin davantage. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='864'>Que je suis malheureux ! J’ai fait un beau voyage ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Agélas, Criséis.</head>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='865'>Je ne sais, Criséis, si l'éclat de ces lieux </l>
+	<l id='866'>Avec quelque plaisir peut arrêter vos yeux ; </l>
+	<l id='867'>Je ne sais si la cour vous plaît, vous dédommage </l>
+	<l id='868'>De 1a tranquillité que l'on goûte au village : </l>
+	<l id='869'>Mais je voudrais qu'ici vous pussiez recevoir </l>
+	<l id='870'>Tout au tant de plaisir que j'ai de vous y voir. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='871'>Seigneur, de vos bontés, qu'on aura peine à croire, </l>
+	<l id='872'>Le souvenir toujours vivra dans ma mémoire ; </l>
+	<l id='873'>Et j'aurais mauvais goût, si, sortant des forêts, </l>
+	<l id='874'>Je ne me plaisais pas en des lieux pleins d'attraits, </l>
+	<l id='875'>Où chacun du plaisir fait son unique affaire, </l>
+	<l id='876'>Où les dames surtout ne s'occupent qu'à plaire, </l>
+	<l id='877'>Font briller leur esprit, ont un air si charmant, </l>
+	<l id='878'>Et font de leur beauté tout leur amusement. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='879'>Parmi les courtisans dont la foule épandue </l>
+	<l id='880'>Brille dans cette cour et s'offre à votre vue, </l>
+	<l id='881'>Ne s'en trouve-t-il point quelqu'un assez heureux </l>
+	<l id='882'>Pour pouvoir s'attirer un regard de vos yeux ? </l>
+	<l id='883'>Pourriez-vous les voir tous avec indifférence ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='884'>On dit qu'il ne faut point qu'avec trop de licence </l>
+	<l id='885'>Une fille s'arrête à voir de tels objets, </l>
+	<l id='886'>Et dise de son coeur les sentiments secrets. </l>
+	<l id='887'>Il en est un pourtant, si j'ose ici le dire, </l>
+	<l id='888'>Qui, d’un charme flatteur que sa présence inspire, </l>
+	<l id='889'>Se distingue aisément, et qui de toutes parts </l>
+	<l id='890'>S'attire, sans effort, les coeurs et les regards. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='891'>Vous prenez du plaisir en le voyant paraître ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='892'>Oh ! Beaucoup. À son air on voit qu'il est le maître, </l>
+	<l id='893'>Les autres, devant lui, timides et défaits, </l>
+	<l id='894'>Ne paraissent plus rien, et deviennent si laids </l>
+	<l id='895'>Qu'on ne regarde plus tout ce qui l'environne. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='896'>Aimeriez-vous un peu cette heureuse personne ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='897'>Je ne sais point, seigneur, ce que c'est que d'aimer. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='898'>Aucun objet encor n'a pu vous enflammer ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='899'>Non : l'on est dans les bois d'une froideur extrême. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='900'>Si cet heureux mortel vous disait qu'il vous aime ?... </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='901'>Qu'il m'aime, moi, seigneur ! Je me garderais bien, </l>
+	<l id='902'>S'il me parlait ainsi, d'en croire jamais rien : </l>
+	<l id='903'>On parle dans ces lieux autrement qu'on ne pense ; </l>
+	<l id='904'>Les plus sincères coeurs... Mais Démocrite avance. </l>
+<note>Ces deux derniers vers manquent dans l'édition originale de 1700 ; ils se trouvent dans l'édition de 1714. Ils ont été interpolés sans doute pour rompre les quatre rimes masculines de suite. Aussi ont-ils été changés par plusieurs éditeurs qui ont imprimé les suivants. "On parle ici, dit-on, autrement qu'on ne pense. Il faut bien se garder... Mais Démocrite avance." (G. A. C.) </note>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Démocrite, Agélas, Criséis, Agénor, Strabon.</head>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Démocrite.</speaker>
+	<l id='905'>Avec bien du plaisir je vous vois à ma cour. </l>
+	<l id='906'>Comment vous trouvez-vous de ce nouveau séjour ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='907' part='i'>Fort mal. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='907' part='f'>J'ai commandé, par un ordre suprême, </l>
+	<l id='908'>Qu'on vous y respectât à l'égal de moi-même. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='909'>Cela n'empêche pas qu'avec tout votre soin, </l>
+	<l id='910'>Seigneur, je ne voulusse être déjà bien loin. </l>
+	<l id='911'>On me croit en ces lieux placé hors de ma sphère, </l>
+	<l id='912'>Un animal venu d'une terre étrangère : </l>
+	<l id='913'>Chacun ouvre les yeux, et me prend pour un ours. </l>
+	<l id='914'>Je ne suis point taillé pour habiter les cours. </l>
+	<l id='915'>Que dirait-on de voir un homme de mon âge </l>
+	<l id='916'>Des airs d'un courtisan faire l'apprentissage ? </l>
+	<l id='917'>Non, seigneur, à tel point je ne puis m'oublier, </l>
+	<l id='918'>Ni jusqu'à cet excès descendre et me plier. </l>
+	<l id='919'>Ainsi pour faire bien, permettez que sur l’heure </l>
+	<l id='920'>Nous allions tous revoir notre ancienne demeure : </l>
+	<l id='921'>Strabon, Criséis, moi, nous vous en prions tous. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Démocrite.</speaker>
+	<l id='922'>Halte là, s'il vous plaît ; ne parlez que pour vous. </l>
+	<l id='923'>En ce lieu, plus qu'ailleurs, je suis, moi, dans ma sphère. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='924'>Si Criséis le veut, je consens à tout faire. </l>
+<stage>À Criséis.</stage>
+	<l id='925' part='i'>Parlez, expliquez-vous. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='925' part='f'>Seigneur, l'obscurité </l>
+	<l id='926'>Conviendrait beaucoup mieux à ma simplicité : </l>
+	<l id='927'>Mais, s'il faut devant vous dire ce que l'on pense, </l>
+	<l id='928'>Ce beau lieu me retient sans nulle violence ; </l>
+	<l id='929'>Et, s'il m’était permis de me faire un séjour, </l>
+	<l id='930'>Je n’en choisirais point d'autre que votre cour. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='931'>Quel heureux naturel ! Le charmant caractère ! </l>
+	<l id='932'>Je ne répondrais pas mieux qu'elle vient de faire. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Criséis.</speaker>
+	<l id='933'>C'est fort bien fait ! La cour a pour vous des appas ? </l>
+	<l id='934'>Quoi ! Vous pourriez vous plaire en un lieu de fracas, </l>
+	<l id='935'>Où l'envie a choisi sa demeure ordinaire, </l>
+	<l id='936'>Où l'on ne fait jamais ce que l'on voudrait faire, </l>
+	<l id='937'>Où l'humeur se contraint, où le coeur se dément, </l>
+	<l id='938'>Où tout le savoir-faire est un raffinement, </l>
+	<l id='939'>Où les grands, les petits, sont, d'une ardeur commune, </l>
+	<l id='940'>Attelés jour et nuit au char de In fortune ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Démocrite.</speaker>
+	<l id='941'>La cour, qu'en ce tableau vous nous représentez, </l>
+	<l id='942'>Vous ne la prenez pas par ses plus beaux côtés. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='943' part='i'>Hé ! Non, non. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='943' part='f'>Quelque aigreur que cette cour vous laisse, </l>
+	<l id='944'>Convenez que toujours l'esprit, la politesse, </l>
+	<l id='945'>Le bon air naturel, et le goût délicat, </l>
+	<l id='946'>Plus qu'en nul autre endroit, y sont dans leur éclat. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='947' part='i'>Sans doute. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='947' part='f'>Que le sexe y tient un doux empire ; </l>
+	<l id='948'>Qu'on rend à la beauté les respects qu'elle attire ; </l>
+	<l id='949'>Et que deux yeux charmants, tels qu'à présent j'en vois, </l>
+	<l id='950'>Peuvent prétendre ici les honneurs dûs aux rois. </l>
+	<l id='951'>Mais une autre raison, que près de vous j'emploie, </l>
+	<l id='952'>Et qui vous comblera d'une parfaite joie, </l>
+	<l id='953'>Doit, malgré vos dégoûts, vous fixer à la cour. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='954'>Et quelle est, s'il vous plaît, cette raison ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='955' part='i'>L'amour. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='955' part='f'>L'amour ! De passions me croyez-vous capable ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='956'>Me préserve le ciel d'un jugement semblable ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='957'>Démocrite est-il homme à se laisser toucher ? </l>
+<stage>À part. </stage>
+	<l id='958'>Je ne le suis que trop ! J'ai peine à me cacher. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='959'>Libre de passions, dégagé de faiblesse, </l>
+	<l id='960'>Votre coeur, je le sais, se ferme à la tendresse. </l>
+	<l id='961'>Chacun ne parvient pas à cet état heureux. </l>
+	<l id='962'>C'est de moi dont je parle, et je suis amoureux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='963' part='i'>Vous êtes amoureux ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='963' part='m'>Oui. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='963' part='f'>Mais, dans cette affaire, </l>
+	<l id='964'>Ma présence, je crois, n'est pas trop nécessaire. </l>
+	<l id='965'>Absent, comme présent, vous pouvez, à loisir, </l>
+	<l id='966'>Suivre les mouvements de ce tendre désir. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='967'>S'adore Criséis, puisqu'il faut vous le dire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='968' part='i'>Ah ! Ah ! Nous y voilà. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='968' part='f'>Bon ! Bon ! Vous voulez rire ! </l>
+<note>Dans un exemplaire du Théâtre français ce vers est ainsi changé, et Strabon le prononce seul. "Bas, à Démocrite. Ha ! Ha ! Nous y voilà. Belle matière à rire !" (G. A. C.) </note>
+	<l id='969'>Un grand roi comme vous, au milieu de sa cour, </l>
+	<l id='970'>Voudrait-il s'abaisser à cet excès d'amour ? </l>
+	<l id='971'>Que dirait, s'il vous plaît, tout votre aréopage ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='972'>Pour me déterminer j'attends peu son suffrage. </l>
+	<l id='973'>Oui, belle Criséis, je sens pour vous un feu </l>
+	<l id='974'>Dont je fais avec joie un éclatant aveu. </l>
+	<l id='975'>Mais un coeur bien épris veut être aimé de même. </l>
+	<l id='976' part='i'>Vous ne répondez rien. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='976' part='f'>Ma surprise est extrême, </l>
+	<l id='977'>D'entendre cet aveu de la bouche d'un roi : </l>
+	<l id='978'>Mon silence, seigneur, répond assez pour moi. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='979'>Ce silence douteux à trop de maux m'expose. </l>
+<stage>À Démocrite. </stage>
+	<l id='980'>Vous, qui voyez le rang que l'amour lui propose, </l>
+	<l id='981'>Secondez mes désirs, parlez en ma faveur. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='982' part='i'>Moi, seigneur ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='982' part='f'>Oui, je veux de vous tenir son coeur : </l>
+	<l id='983'>Vos conseils ont sur elle une entière puissance ; </l>
+	<l id='984'>Vantez-lui mon amour bien plus que ma naissance. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='985'>Par grâce, de ce soin, seigneur, dispensez-moi : </l>
+	<l id='986'>Je n'ai point les talents propres à cet emploi. </l>
+	<l id='987'>Je suis un faible agent auprès d'une maîtresse ; </l>
+	<l id='988'>J'ignore le grand art qui surprend la tendresse. </l>
+	<l id='989'>Votre amour, où vos soins veulent m'intéresser, </l>
+	<l id='990'>Reculerait, seigneur, plutôt que d'avancer. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='991'>Non, j'attends tout de vous ; je connais votre zèle, </l>
+	<l id='992'>Un soin m'appelle ailleurs ; je vous laisse avec elle. </l>
+	<l id='993'>Puis-je, pour couronner mes amoureux desseins. </l>
+	<l id='994'>Mettre mes intérêts en de meilleures mains ? </l>
+	<l id='995' part='i'>Je vous quitte. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Démocrite, Criséis, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='995' part='f'>Voilà, je vous le certifie, </l>
+	<l id='996'>Un fâcheux argument pour la philosophie. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Criséis.</speaker>
+	<l id='997'>Le roi me charge ici d'un fort honnête emploi, </l>
+	<l id='998'>Et je n'attendais pas l'honneur que je reçois. </l>
+	<l id='999'>Il vient de m’ordonner de disposer votre âme, </l>
+	<l id='1000'>Et la rendre sensible à sa nouvelle flamme : </l>
+<note>La correction grammaticale exigerait la répétition de l'article de. Pour faire disparaître cette tache, le vers a été ainsi changé par de modernes éditeurs : "Il vient de m'ordonner de disposer votre âme  À devenir sensible à sa nouvelle flamme." Ces deux prépositions "à" font admirablement ! (G. A. C.) </note>
+	<l id='1001'>La charge est vraiment belle ; et, pour un tel dessein, </l>
+<note>Caducée : verge entrelacée de deux serpents, qui est l'attribut de Mercure. Le caducée est un des symboles de la paix. Bâton couvert de velours et fleurdelisé, porté par le roi d'armes et les hérauts d'armes dans les grandes cérémonies.[L]</note>
+	<l id='1002'>Il ne me faudrait plus qu'un caducée en main. </l>
+	<l id='1003'>Quels sont vos sentiments ? Que prétendez-vous faire ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1004'>C'est de vous que j'attends un avis salutaire. </l>
+	<l id='1005'>Que me conseillez-vous de faire en cas pareil ? </l>
+	<l id='1006'>Car je prétends toujours suivre votre conseil. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1007' part='i'>Ce que je vous conseille ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1007' part='m'>Oui. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à part.</speaker>
+	<l id='1007' part='f'>Je ne sais que dire. </l>
+<stage>Haut. </stage>
+	<l id='1008'>Suivez les mouvements que le coeur vous inspire. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1009'>Ah ! Que j'ai de plaisir que cet avis flatteur </l>
+	<l id='1010'>Se rapporte si bien au penchant de mon coeur ! </l>
+	<l id='1011'>J'étais, je vous l'avoue, en une peine extrême, </l>
+	<l id='1012'>Et n'osais tout à fait me fier à moi-même. </l>
+	<l id='1013'>Je sentais pour le prince un mouvement secret, </l>
+	<l id='1014'>Et je ne savais pas si c'est bien ou ma1 fait : </l>
+	<l id='1015'>Maintenant que je vois le parti qu'il faut prendre, </l>
+	<l id='1016'>Je puis, par votre avis, suivre un penchant si tendre. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1017'>Pour lui vous sentez donc cet appétit secret.... </l>
+<stage>À part.</stage>
+	<l id='1018'>J'ai bien peur d'être ici curieux indiscret. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1019'>Quand le prince tantôt s'est offert à ma vue, </l>
+	<l id='1020'>J'ai senti dans mon coeur une flamme inconnue ; </l>
+	<l id='1021'>Tout ce qu'il me disait me donnait du plaisir ; </l>
+	<l id='1022'>Ma bouche a laissé même échapper un soupir. </l>
+	<l id='1023'>En cessant de le voir, une tristesse affreuse </l>
+	<l id='1024'>Tout d'un coup m'a rendue inquiète et rêveuse ; </l>
+	<l id='1025'>À son air, à ses traits, j'ai pensé tout le jour : </l>
+	<l id='1026'>Je l'aime, si c'est là ce qu'on appelle amour. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1027'>Oui, voilà ce que c'est. Peste ! Quelle ignorante ! </l>
+	<l id='1028'>Vous êtes devenue en un jour bien savante ! </l>
+	<l id='1029'>Vous n'aviez pas besoin tantôt de nos leçons ; </l>
+	<l id='1030'>Ni nous, de nous étendre en définitions. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1031' part='i'>Enfin donc vous aimez ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1031' part='m'>Moi ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1031' part='f'>Voilà, je vous jure, </l>
+	<l id='1032'>Les symptômes d'amour que cause la nature. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1033' part='i'>Quoi ! C'est 1à ce qu'on nomme amour ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1033' part='f'>Et vraiment oui. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1034'>Si j'aime, en vérité, ce n'est que d'aujourd'hui. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1035'>Vous m'aviez tant promis qu'aucun homme, en votre âme, </l>
+	<l id='1036'>N'exciterait jamais une amoureuse flamme. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1037'>Je n'en connaissais point ; et je les croyais tous </l>
+	<l id='1038'>Tels que vous le disiez, et formés comme vous. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, bas, à Démocrite.</speaker>
+	<l id='1039'>Cette sincérité devrait vous rendre sage. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1040'>Je sens qu'elle a raison, et cependant j'enrage. </l>
+	<l id='1041'>J'ai tort de m'emporter ; reprenons désormais </l>
+	<l id='1042'>L'esprit qui nous convient ; rions sur nouveaux frais. </l>
+	<l id='1043'>Les hommes, en effet, ont bien peu de prudence, </l>
+	<l id='1044'>Sont bien vides de sens, bien pleins d'extravagance, </l>
+	<l id='1045'>De se laisser mener par de tels animaux, </l>
+	<l id='1046'>Connaissant, comme ils font, leur faible et leurs défauts. </l>
+	<l id='1047'>Il n'en est presque point qui, vingt fois en sa vie, </l>
+	<l id='1048'>N'ait senti les effets de quelque perfidie ; </l>
+	<l id='1049'>Cependant on les voit, de nouveaux feux épris, </l>
+	<l id='1050'>Redonner dans le piège où l'on les a vus pris : </l>
+	<l id='1051'>À grand-peine échappés de leurs derniers naufrages, </l>
+	<l id='1052'>Ils vont, tout de nouveau, défier les orages. </l>
+	<l id='1053'>Continuez, messieurs ; soyez encor plus fous ; </l>
+	<l id='1054'>Justifiez toujours mes ris et mes dégoûts. </l>
+	<l id='1055'>Ces ris, dans l'avenir, porteront témoignage </l>
+	<l id='1056'>Que je n'ai point été la dupe de mon âge, </l>
+	<l id='1057'>Et que je comprends bien que tout homme, en un mot, </l>
+	<l id='1058'>Est, sans m'en excepter, l'animal le plus sot. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS, à Démocrite.</speaker>
+	<l id='1059'>J'aime à voir que, malgré votre austère caprice, </l>
+	<l id='1060'>Comme aux autres humains vous vous rendiez justice. </l>
+	<l id='1061'>Je vais trouver le prince, et lui dire l'ardeur </l>
+	<l id='1062'>Dont vous avez voulu parler en sa faveur. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Démocrite, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1063'>Vous ne riez plus tant : quel chagrin vous tourmente ? </l>
+	<l id='1064'>La chose me parait cependant fort plaisante. </l>
+	<l id='1065'>La peste ! Quel enfant ! Pour moi je suis surpris </l>
+	<l id='1066'>Comme aux filles l'esprit vient vite en ce pays. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1067'>Commerce humain, pour moi plus mortel que la peste, </l>
+	<l id='1068'>Ce n'est pas sans raison que mon coeur te déteste. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Démocrite, Strabon, Le Maître d’Hôtel.</head>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='1069'>Messieurs, servira-t-on ? Le dîner est tout prêt. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1070'>Oui ; qu'on mette à l'instant sur table, s'il vous plaît. </l>
+	<l id='1071'>Allez vite. Écoutez : ferons-nous bonne chère ? </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='1072'>Vingt cuisiniers ont fait de leur mieux pour vous plaire, </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1073' part='i'>Vingt cuisiniers ! </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='1073' part='m'>Autant. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1073' part='f'>Mais c'est bien peu, vraiment ! </l>
+</sp>
+<sp who='LE-MAÎTRE-D-HÔTEL'><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='1074'>Ils ont mis de leur art tout le raffinement. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1075'>Qui ne rirait de voir qu'avec un soin extrême </l>
+	<l id='1076'>L'homme ait inventé l'art de se tuer lui-même ! </l>
+	<l id='1077'>À force de ragoûts et de mets succulents, </l>
+	<l id='1078'>Il creuse son tombeau sans cesse avec ses dents. </l>
+	<l id='1079'>Il sait le peu de jours qu'il a des destinées, </l>
+	<l id='1080'>Et tâche, autant qu'il peut, d'abréger ses années. </l>
+	<l id='1081'>Vous êtes, dans votre art, tous de francs assassins, </l>
+	<l id='1082'>Produits par les enfers, payés des médecins ; </l>
+	<l id='1083'>Et, si l'on agissait en bonne politique, </l>
+	<l id='1084'>On vous bannirait tous de chaque république. </l>
+<stage>Il sort. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Le Maître d’Hôtel, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1085'>Il faut le laisser dire, aller toujours son train, </l>
+	<l id='1086'>Et, si vous le pouvez, faire encor mieux demain. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Thaler, Criséis.</head>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1087'>En jase qui voudra, j'ai fait en homme sage </l>
+	<l id='1088'>De quitter bravement les bois et le village. </l>
+	<l id='1089'>On a, morgué, raison, et c'est bien mon avis, </l>
+	<l id='1090'>Un homme ne fait point fortune en son pays ; </l>
+	<l id='1091'>Il n'y sera qu'un sot tout le temps de sa vie : </l>
+	<l id='1092'>Il a biau se sentir du talent, du génie, </l>
+	<l id='1093'>Être bien fait, avoir le discours bien pendu ; </l>
+	<l id='1094'>Bon ! C'est, comme dit l'autre, autant de bien perdu. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1095'>Vous avez le goût bon, je vous en félicite. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1096'>Ici, du premier coup, on connaît le mérite. </l>
+	<l id='1097'>D'aussi loin qu'on me voit, on m'ôte son chapeau. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1098'>Vous vous trouvez donc bien de ce séjour nouveau ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Goberger : Se moquer, ou se réjouir. Il est populaire dans les deux sens... [FC]</note>
+	<l id='1099'>Si je m'y trouve bien ! Je ris, je me goberge. </l>
+	<l id='1100'>Que je sommes échus dans une bonne auberge ! </l>
+	<l id='1101'>Notre bijou s'en va nous être rapporté. </l>
+	<l id='1102'>Notre hôte est bon vivant, disons la vérité. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1103'>Vous ne devriez pas tenir un tel langage : </l>
+	<l id='1104'>Ces termes-là, mon père, étaient bons au village. </l>
+	<l id='1105'>Si l'on vous entendait parler ainsi du roi, </l>
+	<l id='1106'>On pourrait se moquer et de vous et de moi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1107'>Dame ! Je sis fâché que mon discours vous choque ; </l>
+	<l id='1108'>Chacun parle à sa guise, et qui voudra s'en moque : </l>
+	<l id='1109'>J'ai pourtant, m'est avis, plus d'esprit que vous tous. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1110'>Excusez si je prends cet air libre avec vous. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1111'>Tu prétends donc apprendre à parler à ton père ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1112'>Je ne dis pas cela pour vous mettre en colère. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1113'>Morgué, cela m'y met. Écoute, vois-tu bien, </l>
+	<l id='1114'>Dame ! On n'est pas un sot, quoiqu'on ne sache rien. </l>
+	<l id='1115'>Parce que te voilà de bout en bout dorée, </l>
+	<l id='1116'>Ne va pas envers moi faire la mijaurée. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1117' part='i'>Je sais trop... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1117' part='f'>Je prétends qu'on me respecte, moi. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1118'>Je ne manquerai point à ce que je vous dois. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1119'>C'est bien fait ; quand je parle, il faut que l'on m'écoute. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1120' pat='i'>D'accord. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1120' part='m'>Qu'on m'estime. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1120' part='m'>Oui. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1120' part='m'>Me révère. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1120' part='f'>Sans doute. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1121'>Or donc, pour rattraper le fil de mon discours, </l>
+	<l id='1122'>Que c'est un bel emploi que de hanter les cours ! </l>
+	<l id='1123'>Tous ces grands monsieurs-là sont des gens bien honnêtes. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1124'>Démocrite n'est pas si charmé que vous 1'êtes. </l>
+	<l id='1125'>Il voudrait bien déjà se voir loin de ces lieux. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1126' part='i'>Pourquoi donc, s'il vous plaît ? </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1126' part='f'>Tout y blesse ses yeux ; </l>
+	<l id='1127'>Son coeur n'est pas content ; quelque soin l'embarrasse. </l>
+	<l id='1128'>Il dit qu'en ce pays ce n'est rien que grimace : </l>
+	<l id='1129'>Que les hommes y sont cachés et dangereux, </l>
+	<l id='1130'>Et les femmes encor bien plus à craindre qu'eux ; </l>
+	<l id='1131'>Que ce n'est que par art qu'elles paraissent belles, </l>
+	<l id='1132' part='i'>Que leur coeur... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1132' part='f'>Ne va pas te gâter avec elles, </l>
+	<l id='1133'>Ni pour quelque monsieur te prendre ici d'amour. </l>
+	<l id='1134'>Elles peuvent tout faire, elles sont de la cour, </l>
+	<l id='1135'>Ces madames-là. Mais j'aperçois Démocrite. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Démocrite, Criséis, Strabon. </head>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1136'>Ah ! Te voilà, Thaler ! Ta mine hétéroclite </l>
+	<l id='1137'>Me réjouit l'esprit. Serviteur, Criséis. </l>
+	<l id='1138'>Dans ce riche attirail, sous ces pompeux habits, </l>
+	<l id='1139' part='i'>Dirais-tu que c'est là ta fille ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1139' part='f'>En ces matières, </l>
+	<l id='1140'>Tous les plus clairvoyants, ma foi, n'y voyont guères. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1141'>Cela lui sied fort bien ; et cet air dédaigneux </l>
+	<l id='1142'>Qu'elle a pris la cour, lui sied encore mieux. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1143' part='i'>Je m'en suis aperçu déjà. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS, à Démocrite.</speaker>
+	<l id='1143' part='f'>Je suis bien aise </l>
+	<l id='1144'>Que mon air, quel qu'il soit, vous contente et vous plaise. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Criséis.</speaker>
+	<l id='1145'>À de plus hauts desseins vous aspirez ici, </l>
+	<l id='1146'>Et me plaire n'est pas votre plus grand souci. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1147'>Morguenne, elle aurait tort. J'entends, je veux, j'ordonne </l>
+	<l id='1148'>Qu'elle vous y respecte autant que ma personne : </l>
+	<l id='1149' part='i'>Je suis maître... une fois. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS, à Thaler.</speaker>
+	<l id='1149' part='f'>Je vois avec plaisir </l>
+	<l id='1150'>Vos ordres s'accorder à mon juste désir. </l>
+	<l id='1151'>J'obéis de grand coeur : j'aurai toute ma vie </l>
+	<l id='1152'>Un très profond respect pour la philosophie. </l>
+	<l id='1153'>Pour d'autres sentiments, je puis m'en dispenser, </l>
+	<l id='1154'>Sans blesser mon devoir, ni sans vous offenser. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Démocrite, Thaler.</head>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1155'>Quelle mouche la pique ? À qui diable en a-t-elle ? </l>
+	<l id='1156'>Alle a, comme cela, des vapeurs de cervelle. </l>
+	<l id='1157'>Je ne sais ; mais depuis qu'elle est en ce pays, </l>
+	<l id='1158'>Elle fait peu de cas de ce que je lui dis. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1159'>Un soin plus important à présent la tourmente. </l>
+	<l id='1160'>Aurait-on jamais cru que cette jeune plante, </l>
+	<l id='1161'>Que j'avais pris plaisir d'élever de mes mains, </l>
+	<l id='1162'>Eût trompé mon espoir, et trahi mes desseins ? </l>
+	<l id='1163'>Agélas s'est épris, en la voyant paraître, </l>
+	<l id='1164' part='i'>Du feu le plus ardent... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1164' part='f'>Morgué, le tour est traître ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1165'>La pompe de la cour, et son éclat flatteur, </l>
+	<l id='1166'>A de ses faux brillants séduit son jeune coeur. </l>
+	<l id='1167'>De son malheur nous sommes les complices, </l>
+	<l id='1168'>Nous l'avons amenée au bord des précipices : </l>
+	<l id='1169'>Car, sans t'en dire plus, tu t'imagines bien </l>
+	<l id='1170' part='i'>Le but de cet amour. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1170' part='f'>Oui, cela ne vaut rien. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1171'>Il faut abandonner la cour tout au plus vite. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1172' part='i'>Abandonner la cour ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1172' part='m'>Oui. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1172' part='f'>C'est un si bon gîte ! </l>
+	<l id='1173' part='i'>Je m'y trouve si bien ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1173' part='f'>Il n'importe, il le faut. </l>
+	<l id='1174'>Tu dois tirer d'ici Criséis au plus tôt ; </l>
+	<l id='1175'>C'est à toi que le roi fait la plus grande offense. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1176'>Je le vois bien ; pour faire ici sa manigance, </l>
+	<l id='1177'>Morgué, le prince a tort de s'adresser à moi : </l>
+	<l id='1178'>II s'imagine donc que parce qu'il est roi... </l>
+	<l id='1179' part='i'>Suffit, je ne dis mot. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1179' part='f'>II y va de ta gloire. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1180'>C'est, morgué, pour cela qu'ils m'avont tant fait boire: </l>
+	<l id='1181'>Mais ils n'en croqueront, ma foi, que d'une dent. </l>
+	<l id='1182'>Je vais faire beau bruit. Serviteur cependant. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1183'>Dieux ! Que fais-je ? Où m'emporte une indigne tendresse ? </l>
+	<l id='1184'>Suis-je donc Démocrite ? Et quelle est ma faiblesse ! </l>
+	<l id='1185'>Pendant que je suis seul, laissons agir mon coeur, </l>
+	<l id='1186'>Et tirons le rideau qui cache mon ardeur. </l>
+	<l id='1187'>Depuis assez longtemps, mon rire satirique </l>
+	<l id='1188'>Sur les autres répand une bile cynique : </l>
+	<l id='1189'>Je veux sans nuls témoins rire à présent de moi ; </l>
+	<l id='1190'>Il ne faut point ailleurs aller chercher de quoi. </l>
+	<l id='1191'>J'aime ! C'est bien à toi, philosophe rigide, </l>
+	<l id='1192'>De sentir l'aiguillon d'une flamme perfide ! </l>
+	<l id='1193'>Et quel est cet objet qui t'apprend l'art d'aimer ? </l>
+	<l id='1194'>Un enfant de quinze ans ! Tu prétends la charmer, </l>
+	<l id='1195'>Adonis suranné ?... Mais un pouvoir suprême </l>
+	<l id='1196'>Me commande, m'entraîne en dépit de moi-même. </l>
+	<l id='1197'>Ah ! C'est où je t'attends, le plus lâche des coeurs ! </l>
+	<l id='1198'>Il te faut des chemins tout parsemés de fleurs. </l>
+	<l id='1199'>Tu ne saurais saisir ces haines rigoureuses </l>
+	<l id='1200'>Que sentent pour l'amour les âmes généreuses </l>
+	<l id='1201'>Tu ne peux gourmander un penchant trop fatal, </l>
+	<l id='1202'>Homme pusillanime, imbécile, brutal ! </l>
+	<l id='1203'>Ce n'est pas encor tout ; vois où va ta folie. </l>
+	<l id='1204'>Toi qui veux te targuer de la philosophie, </l>
+	<l id='1205'>Tu conduis Criséis... en quels lieux ? À la cour. </l>
+	<l id='1206'>Ah ! Qu'ensemble on voit peu la prudence et l'amour ! </l>
+	<l id='1207'>Mais on vient. Finissons un discours si fantasque ; </l>
+	<l id='1208'>Pour sauver notre honneur, remettons notre masque. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Cléanthis, Démocrite.</head>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1209'>On voit assez, à l'air dont il est habillé, </l>
+	<l id='1210'>Que c'est l'original dont on nous a parlé. </l>
+<stage>Haut. </stage>
+	<l id='1211'>Vous qui dans les forêts avez passé la vie, </l>
+	<l id='1212'>Uniquement touché de la philosophie, </l>
+	<l id='1213'>Quel noir démon vous pousse à causer notre ennui ? </l>
+	<l id='1214'>Et que venez-vous faire à la cour aujourd'hui ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1215'>Je n'en sais vraiment rien : ce que je puis vous dire, </l>
+	<l id='1216'>C'est qu'ici, malgré moi, le roi m'a fait conduire, </l>
+	<l id='1217'>M'a voulu transplanter, et me faire, en un jour, </l>
+	<l id='1218'>D'un philosophe actif, un oisif de la cour. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1219'>Savez-vous bien qu'ici votre face équivoque, </l>
+	<l id='1220'>Et rare en son espèce, étrangement nous choque ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1221'>Je le crois ; sur ce point j'ai peu de vanité, </l>
+	<l id='1222'>Et mon dessein n'est point de plaire, en vérité. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1223'>Vous auriez tort : il n'est, je veux bien vous le dire, </l>
+	<l id='1224'>Prince, ni galopin, que vous ne fassiez rire. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1225'>Pourquoi non ? C'est un droit qu'on acquiert en naissant ; </l>
+	<l id='1226'>Et rire l'un de l'autre est fort divertissant. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1227'>Ismène ici m'envoie, et vous dit par ma bouche, </l>
+	<l id='1228'>Que votre aspect ici l'alarme et l'effarouche. </l>
+	<l id='1229'>Le roi lui doit sa foi ; cependant, à ses yeux, </l>
+	<l id='1230'>On sait qu'à Criséis il adresse ses voeux : </l>
+	<l id='1231'>Par de lâches conseils dont vous êtes prodigue, </l>
+	<l id='1232'>C'est vous, à ce qu'on dit, qui menez cette intrigue. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1233' part='i'>Moi ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1233' part='f'>Vous... C'est une honte, à l’âge où vous voilà, </l>
+	<l id='1234'>De vouloir commencer ce vilain métier-là ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1235'>Le reproche est plaisant et nouveau, je vous jure: </l>
+	<l id='1236'>Je ne m'attendais pas à pareille aventure. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1237' part='i'>Riez ! </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1237' part='f'>Si vous saviez l'intérêt que j'y prends, </l>
+	<l id='1238'>Vous m'accuseriez peu de ces soins obligeants. </l>
+	<l id='1239'>Vous me connaissez mal. C'est une chose étrange, </l>
+	<l id='1240'>Comme dans ce pays on prend toujours le change ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1241'>Quoi ! Le prince tantôt ne vous a pas commis </l>
+	<l id='1242'>Le soin officieux d'attendrir Criséis ? </l>
+	<l id='1243'>Et vous, n'avez-vous pas pris soin de la réduire ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1244'>Cela peut être vrai ; mais bien loin de vous nuire, </l>
+	<l id='1245'>Ce jour verrait Ismène entre les bras du roi, </l>
+	<l id='1246'>S'il voulait de son choix se rapporter à moi : </l>
+	<l id='1247' part='i'>C'est un fait très constant. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1247' part='f'>Je veux bien vous en croire. </l>
+	<l id='1248'>Mais pour ne point donner d'atteinte à votre gloire, </l>
+	<l id='1249' part='i'>Partez. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1249' part='f'>Soit : j'ai pourtant de quoi rire à mon goût, </l>
+	<l id='1250'>En ces lieux plus qu'ailleurs, et des femmes surtout. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1251' part='i'>Et de qui ririez-vous ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1251' part='f'>Mais de vous la première, </l>
+	<l id='1252'>De votre air. Vos habits, vos moeurs, votre manière, </l>
+	<l id='1253'>Tout en vous, haut et bas, est artificieux. </l>
+	<l id='1254'>Pour paraître plus grande, et pour tromper les yeux ; </l>
+	<l id='1255'>On voit sur votre tête une longue coiffure, </l>
+	<l id='1256'>Et sur de hauts patins vos pieds à la torture ; </l>
+	<l id='1257'>En sorte qu'en ôtant ces secours superflus, </l>
+	<l id='1258'>Il ne resterait pas un tiers de femme au plus. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1259'>Il nous en reste assez pour, telles que nous sommes, </l>
+	<l id='1260'>Faire, quand nous voulons, bien enrager les hommes. </l>
+	<l id='1261'>Mais partez, s'il vous plaît, demain avant le jour : </l>
+	<l id='1262'>Vous ferez sagement ; car aussi bien la cour, </l>
+	<l id='1263'>Dont vous faites toujours quelque plainte nouvelle, </l>
+	<l id='1264' part='i'>Est bien lasse de vous. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1264' part='f'>Et moi bien plus las d'elle ; </l>
+	<l id='1265'>Et je vais de ce pas préparer avec soin </l>
+	<l id='1266'>Que l'aurore en naissant m'en trouve déjà loin. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. </head>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, seule.</speaker>
+	<l id='1267'>L'affaire est en bon train pour la princesse Ismène : </l>
+	<l id='1268'>Mais pour mon compte à moi, je suis assez en peine. </l>
+	<l id='1269'>Je voudrais arrêter le disciple en ces lieux : </l>
+	<l id='1270'>Il a touché mon coeur en s'offrant à mes yeux ; </l>
+	<l id='1271'>Son tour d'esprit me charme ; il fait tout avec grâce : </l>
+	<l id='1272'>Il n'est rien que pour lui de bon coeur je ne fasse. </l>
+	<l id='1273'>Le ciel me le devait, pour me récompenser </l>
+	<l id='1274'>De mon premier mari. Je le vois s'avancer. </l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE VII. Cléanthis, Strabon.</head>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+<note>Guedé : rassasié, bien rempli.</note>
+	<l id='1275'>Ouf ! Je suis bien guedé ! Par ma foi, la science </l>
+	<l id='1276'>Ne s'acquiert point du tout à force d'abstinence. </l>
+	<l id='1277'>C'est mon système à moi : l'esprit croit dans le vin ; </l>
+	<l id='1278'>Je m'en sens déjà plus trois fois que ce matin. </l>
+	<l id='1279'>Je me venge à longs traits de la philosophie. </l>
+<stage>À Cléanthis. </stage>
+	<l id='1280'>Hé ! Vous voilà, princesse, infante de ma vie ! </l>
+	<l id='1281'>Vous voyez un seigneur fort satisfait de soi, </l>
+	<l id='1282'>Un convive échappé de la table du roi : </l>
+	<l id='1283'>Il tient bon ordinaire, et je l'en félicite. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1284'>Au disciple fameux du savant Démocrite, </l>
+	<l id='1285'>Plus qu'à nul autre humain, cet honneur était dû. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1286'>C'est un petit repas que le roi m'a rendu : </l>
+	<l id='1287' part='i'>Nous nous traitons parfois. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1287' part='f'>Vous ne sauriez mieux faire : </l>
+	<l id='1288'>Rien ne fait des amis comme la bonne chère, </l>
+	<l id='1289'>Quoiqu'on embrasse ici des gens de tous métiers, </l>
+	<l id='1290'>Bien moins pour l'amour d'eux que de leurs cuisiniers. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1291'>Cet honneur, quoique grand, ne me toucherait guère, </l>
+	<l id='1292'>Si je n'étais bien sûr du bonheur de vous plaire. </l>
+	<l id='1293'>Vous aimer est un bien pour moi plus précieux </l>
+	<l id='1294'>Qu'être admis à la table et des rois et des dieux ; </l>
+	<l id='1295'>Et l'on ne leur sert point, même en des jours de fêtes, </l>
+	<l id='1296'>De morceau si friand à mon goût que vous l’êtes. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1297'>N'êtes-vous point de ceux dont l'usage est connu, </l>
+	<l id='1298'>Qui ne sont amoureux que quand ils ont bien bu ; </l>
+	<l id='1299'>À qui beaucoup de vin fait sortir la tendresse ; </l>
+	<l id='1300'>Qui vont en cet état aux pieds de leur maîtresse </l>
+	<l id='1301'>Exhaler les transports de leurs brûlants désirs, </l>
+	<l id='1302'>Et pousser des hoquets en guise de soupirs ? </l>
+	<l id='1303'>De nos jeunes seigneurs c'est assez là manière. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1304'>Ma tendresse n'est point d'un pareil caractère. </l>
+	<l id='1305'>Bacchus n'est point chez moi I'interprète d'amour. </l>
+	<l id='1306'>J'ai près du sexe, enfin, l'air de la vieille cour. </l>
+	<l id='1307'>Mon coeur s'est laissé prendre en vous voyant paraître, </l>
+	<l id='1308'>Et de ses mouvements n'a plus été le maître. </l>
+	<l id='1309'>L'esprit, la belle humeur, la grâce, la beauté, </l>
+	<l id='1310'>Tout en vous s'est uni contre ma liberté. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1311'>Ce n'est point un retour de pure complaisance </l>
+	<l id='1312'>Qui me fait hasarder la même confiance ; </l>
+	<l id='1313'>Mais je vous avouerai qu'à vos premiers regards </l>
+	<l id='1314'>Mon faible coeur s'est vu percé de toutes parts. </l>
+	<l id='1315'>Je ne sais quel attrait, et quel charme invisible </l>
+	<l id='1316'>En un instant a pu me rend~e si sensible ; </l>
+	<l id='1317'>Et je n'ai point senti de transports aussi doux </l>
+	<l id='1318'>Pour tout autre mortel que j'en ressens pour vous. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1319'>En vous réciproquant, vous êtes, je vous jure, </l>
+	<l id='1320'>De ces heureux transports payés avec usure. </l>
+	<l id='1321'>L'on n'a jamais senti de feux si violents </l>
+	<l id='1322'>Que ceux qu'auprès de vous et pour vous je ressens. </l>
+	<l id='1323'>Mais ne puis-je savoir, en voyant tant de charmes, </l>
+	<l id='1324'>Quel est l'aimable objet à qui je rends les armes ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1325'>Bon ! Que vous servirait de savoir qui je suis ? </l>
+	<l id='1326'>Ce nous serait peut-être une source d'ennuis, </l>
+	<l id='1327'>Après vous avoir fait l'aveu de ma faiblesse. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1328'>Ah ! Que cette pudeur augmente ma tendresse ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1329'>Je devrais bien plutôt songer à me cacher. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1330'>Rien de vous découvrir ne doit vous empêcher. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1331'>L'homme est d'un naturel si volage et si traître... </l>
+	<l id='1332' part='i'>Qui le sait mieux que moi ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1332' part='f'>Vous en avez peut-être </l>
+	<l id='1333'>Été souvent trahie ? Ici, comme en tous lieux, </l>
+	<l id='1334'>La femme, à mon avis, ne vaut pas beaucoup mieux. </l>
+	<l id='1335'>J'en ai, pour mes péchés, quelquefois fait l'épreuve. </l>
+	<l id='1336' part='i'>Êtes-vous fille ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1336' part='m'>Non. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1336' part='m'>Femme ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1336' part='m'>Point du tout. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1336' part='f'>Veuve ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1337' part='i'>Je ne sais. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1337' part='f'>Oh, parbleu ! Vous vous moquez de nous. </l>
+	<l id='1338'>De quelle espèce donc, s'il vous plaît, êtes-vous ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1339'>Je fus fille autrefois, et pour telle employée. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1340' part='i'>Je le crois. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1340' part='f'>A quinze ans je me suis mariée : </l>
+	<l id='1341'>Mais, depuis le long temps que sans époux je vis, </l>
+	<l id='1342'>Je ne saurais passer pour femme, à mon avis ; </l>
+	<l id='1343'>Ni pour veuve non plus, puisqu'en effet j'ignore </l>
+	<l id='1344'>Si le mari que j’eus est mort, ou vit encore. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1345'>Ce discours, quoique abstrait, me paraît assez bon. </l>
+	<l id='1346'>Je ne suis, comme vous, homme, veuf, ni garçon : </l>
+	<l id='1347'>Et mon sort, de tout point, est si conforme au vôtre, </l>
+	<l id='1348'>Qu'il semble que le ciel nous ait faits l'un pour l'autre. </l>
+<note>Après ce vers, il en manque deux de rime masculine qui n'existent dans aucune édition. </note>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1349' part='i'>Homme, veuf, ni garçon ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1349' part='f'>Fille, femme, ni veuve ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1350' pat='i'>Le cas est tout nouveau. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1350' part='f'>L'aventure est très neuve. </l>
+<stage>À Cléanthis.</stage>
+	<l id='1351'>Depuis quand, s'il vous plaît, vivez-vous sans époux ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1352'>Depuis près de vingt ans je goûte un sort si doux. </l>
+	<l id='1353'>J'avais pris un mari fourbe, plein d'injustices, </l>
+	<l id='1354'>Qui d'aucune vertu ne rachetait ses vices, </l>
+	<l id='1355'>Ivrogne, débauché, scélérat, outrageux. </l>
+	<l id='1356'>Pour sa mort je faisais tous les jours mille voeux. </l>
+	<l id='1357'>Enfin, le ciel plus doux, touché de ma misère, </l>
+	<l id='1358'>Lui fit naître en l'esprit un dessein salutaire ; </l>
+	<l id='1359'>Il partit, me laissant, par bonheur, sans enfants. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1360'>C'est tout comme chez nous. Depuis le même temps, </l>
+	<l id='1361'>Inspiré par le ciel, je quittai ma patrie, </l>
+	<l id='1362'>Pour fuir loin de ma femme, ou plutôt ma furie. </l>
+	<l id='1363'>Jamais un tel démon ne sortit des enfers. </l>
+	<l id='1364'>C'était un vrai lutin, un esprit de travers, </l>
+	<l id='1365'>Un vieux singe en malice, insolente, revêche, </l>
+	<l id='1366'>Coquette, sans esprit, menteuse, pie-grièche. </l>
+	<l id='1367'>À la noyer cent fois je m'étais attendu ; </l>
+	<l id='1368'>Mais je n'en ai rien fait, de peur d'être pendu. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1369'>Cette femme vous est vraiment bien obligée ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1370'>Bon ! Tout autre que moi ne l'eût point ménagée, </l>
+	<l id='1371' part='i'>Elle aurait fait le saut. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1371' part='f'>Et de grâce, en quels lieux </l>
+	<l id='1372'>Aviez-vous épousé ce chef-d'oeuvre des cieux ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1373' part='i'>Dans Argos. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1373' part='m'>Dans Argos ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1373' part='f'>Où la fortune a-t-elle </l>
+	<l id='1374'>Mis en vos mains l'époux d'un si rare modèle ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1375' part='i'>Dans Argos. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1375' part='m'>Dans Argos ! </l>
+<stage>Haut.</stage>
+	<l id='1375' part='f'>Et s'il vous plaît, quel nom </l>
+	<l id='1376' part='i'>Portait ce cher époux ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1376' part='f'>Il se nommait Strabon. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1377' part='i'>Strabon ! Haï ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1377' part='f'>Pourrait-on aussi, sans vous déplaire, </l>
+	<l id='1378'>Savoir quel nom portait cette épouse si chère ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1379' part='i'>Cléanthis. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1379' part='m'>Cléanthis ! C'est lui. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1379' part='f'>C'est elle, ô dieux ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1380'>Ses traits n'en disent rien ; mais je le sens bien mieux, </l>
+	<l id='1381'>Au soudain changement qui se fait dans mon âme. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1382'>Madame, par hasard, n'êtes-vous point ma femme ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1383'>Monsieur, par aventure, êtes-vous mon époux ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1384'>Il faut que cela soit ; car je sens que pour vous </l>
+	<l id='1385'>Dans mon coeur tout à coup ma flamme est amortie, </l>
+	<l id='1386'>Et fait en ce moment place à l'antipathie. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1387'>Ah ! Te voilà donc, traître ! Après un si long temps, </l>
+	<l id='1388'>Qui t'amène en ces lieux ? Qu'est-ce que tu prétends ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1389'>M'en aller au plus tôt. Que ma surprise est forte ! </l>
+	<l id='1390'>Dis-moi, ma chère enfant, pourquoi n'es-tu pas morte ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1391'>Pourquoi n'es-tu pas morte ! Indigne, scélérat, </l>
+	<l id='1392'>Déserteur de ménage, et maudit renégat, </l>
+	<l id='1393' part='i'>Pour t'arracher les yeux... </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1393' part='f'>Ali ! Doucement, madame. </l>
+<stage>À part. </stage>
+	<l id='1394'>Ô pouvoir de l'hymen, quel retour en mon âme ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1395'>Je ressentais pour lui les transports les plus doux, </l>
+	<l id='1396'>Hélas ! Qu'allais-je faire ? Il était mon époux. </l>
+<stage>Haut.</stage>
+	<l id='1397'>Va, fuis. Que le démon, qui te prit en ton gîte </l>
+	<l id='1398'>Pour t'amener ici, t'y remporte au plus vite. </l>
+	<l id='1399'>Évite ma fureur ; retourne dans tes bois. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1400'>Il ne vous faudra pas me le dire deux fois. </l>
+	<l id='1401'>J'aime mieux être ermite, et brouter des racines, </l>
+	<l id='1402'>Revoyager vingt ans, nu-pieds, sur des épines, </l>
+	<l id='1403' part='i'>Que de vivre avec vous. Adieu. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1403' part='f'>Que je le hais ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1404'>Qu'elle est laide à présent ! Et qu'elle a l'air mauvais ! </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I. </head>
+<sp who='STRABON'><speaker>STRABON, seul.</speaker>
+	<l id='1405'>Je suis tout confondu. Quelle étrange aventure ! </l>
+	<l id='1406'>Ma femme en ce pays, et dans cette figure ! </l>
+	<l id='1407'>La coquine aura su, par quelque ami présent, </l>
+	<l id='1408'>Se faire consoler de son époux absent : </l>
+	<l id='1409'>Mais elle n'aura pas plus longtemps l'avantage </l>
+	<l id='1410'>D'anticiper les droits d'un prétendu veuvage. </l>
+	<l id='1411'>J'ai fait réflexion sur son sort et le mien ; </l>
+	<l id='1412'>Je ne veux point quitter des lieux où je suis bien. </l>
+	<l id='1413'>Assez et trop longtemps un chagrin domestique </l>
+	<l id='1414'>M'a fait souffrir les maux d'un exil tyrannique ; </l>
+	<l id='1415'>Et puisque mon destin m'amène en ce séjour, </l>
+	<l id='1416'>Je veux sur mes foyers demeurer à mon tour. </l>
+	<l id='1417'>De me voir en ces lieux si mon épouse gronde, </l>
+	<l id='1418'>Elle peut à son tour aller courir le monde. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Strabon, Thaler.</head>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1419'>Palsangué, je commence à me mettre en souci ; </l>
+	<l id='1420'>Mon bijou ne vient point. Voyez-vous ! Ces gens-ci </l>
+	<l id='1421'>Vous promettont assez, mais ils ne tenont guère. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1422' part='i'>Quoi ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1422' part='f'>Vous ne savez pas ce qu'on me vient de faire ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1423' part='i'>Non. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1423' part='m'>Vous avez grand tort. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1423' part='f'>Soit ; mais je n'a sais rien, </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1424' part='i'>Vous avez vu tantôt ce bracelet ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1424' part='f'>Hé bien ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1425' part='i'>Bon ! Ne me l'ont-ils pas déjà pris ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1425' part='f'>Comment diable ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1426'>Ils m'ont mis sur le corps cet habit honorable, </l>
+	<l id='1427'>Disant que l'autre était trop ignominieux. </l>
+	<l id='1428'>Je me suis vu si brave, et j'étais si joyeux, </l>
+	<l id='1429'>Que je n'ai pas songé de fouiller dans ma poche : </l>
+	<l id='1430' part='i'>Ils I'avont fait. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1430' part='f'>Le tour est digne de reproche. </l>
+	<l id='1431'>Ta mémoire t'a là joué d'un vilain trait. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Partoubler : Troubler extrêmement.</note>
+	<l id='1432'>On est si partroublé, qu'on ne sait ce qu'on fait. </l>
+	<l id='1433'>Mais le roi m'a promis de me le faire rendre : </l>
+	<l id='1434'>Pour cela, tout exprès, je viens ici l'attendre, </l>
+	<l id='1435'>Après quoi, je dirons serviteur à la cour. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1436'>Le serpent sous les fleurs se cache en ce séjour : </l>
+	<l id='1437'>J’y viens d'en trouver un... Mais qui peut t'y déplaire ? </l>
+	<l id='1438' part='i'>T'a-t-on fait quelque pièce encor ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1438' part='f'>Tout au contraire ; </l>
+	<l id='1439'>C'est à qui me fera tout le plus d'amiquié : </l>
+	<l id='1440'>L'un me baille un soufflet, et l'autre un coup de pied ; </l>
+<note>Croquignole : Espece de chiquenaude ou de nasarde. C'est un coup qui se donne sur le visage, en lâchant avec violence un doigt qu'on a posé sur un autre. [F]</note>
+	<l id='1441'>L'autre une croquignole, enfin chacun s'empresse, </l>
+	<l id='1442'>Tout du mieux qu'il le peut, à me faire caresse : </l>
+	<l id='1443'>On me fait plus d'honneur que je ne vaux cent fois. </l>
+	<l id='1444'>J'ai vu manger le roi, tout comme je te vois, </l>
+	<l id='1445' part='i'>Et tout de bout en bout. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1445' part='m'>Tu l'as vu ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1445' part='f'>Face à face : </l>
+	<l id='1446'>Comme ces gros monsieurs, je tenais là ma place ; </l>
+<note>Stapendant : altération pour cependant.</note>
+	<l id='1447'>Et, stapendant, j'avais du chagrin dans le coeur. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1448' part='i'>Du chagrin ! Et pourquoi ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1448' part='f'>Morgué, j'ons de l'honneur ; </l>
+	<l id='1449'>Et l'on dit qu'Agélas en veut à notre fille. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1450' part='i'>Voyez le grand malheur ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1450' part='f'>Morgué, dans la famille, </l>
+	<l id='1451'>J'ons toujours été droit, hors notre femme, da, </l>
+	<l id='1452'>Qui faisait jaser d'elle un peu par-ci par-là. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1453'>Te voilà bien malade ! Elle tient de sa mère. </l>
+	<l id='1454'>Prétends-tu réformer cet usage ordinaire ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1455' part='i'>Ce serait un affront. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1455' part='f'>Je suis en même cas, </l>
+	<l id='1456'>Et l'on ne m'entend point faire tant de fracas. </l>
+	<l id='1457'>C'est tant mieux, animal, si le sort favorable </l>
+	<l id='1458'>Veut élever ta fille en un rang honorable. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1459' part='i'>Tant mieux ? Qui dit cela ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1459' part='f'>C'est moi qui te le dis. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1460'>Les uns disent tant mieux, et les autres tant pis. </l>
+	<l id='1461' part='i'>Dame ! Accordez-vous donc. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1461' part='f'>Crois-moi, n'en fais que rire. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1462'>Si j'avais mon joyau, je les laisserais dire. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1463'>La fortune m'a bien joué d'un autre tour ; </l>
+	<l id='1464'>J'ai bien plus de sujet de me plaindre à mon tour. </l>
+	<l id='1465'>Un chagrin différent s'empare de notre âme: </l>
+	<l id='1466'>Tu perds ton bracelet, moi je trouve ma femme. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1467'>Comment donc votre femme ! Êtes-vous marié ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1468'>Hélas ! Mon pauvre enfant, je l’avais oublié ; </l>
+	<l id='1469'>Mais le diable en ces lieux (qui l’eût pu jamais croire !) </l>
+	<l id='1470'>M'en a subitement rafraîchi la mémoire. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Cléanthis, Strabon, Thaler.</head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1471'>Ah ! La voilà qui vient ; c'est elle, je la vois. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1472' part='i'>Qu'elle a de beaux habits ! </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1472' part='f'>Ils ne sont pas de moi. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à Strabon.</speaker>
+	<l id='1473'>Quoi ! Malgré les transports dont mon âme est émue, </l>
+	<l id='1474'>Oses-tu bien encor te montrer à ma vue ? </l>
+	<l id='1475'>Et pourquoi n'es-tu pas déjà bien loin d'ici ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1476'>Vous vous y trouvez bien, et moi fort bien aussi. </l>
+	<l id='1477'>Si mon fatal aspect ici vous importune, </l>
+	<l id='1478'>Je vous permets d'aller chercher ailleurs fortune. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1479'>Où puis-je aller, pour fuir un si funeste objet ? </l>
+<stage>Thaler regarde Cléanthis avec attention. </stage>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1480'>Vous pouvez voyager vingt ans comme j'ai fait ; </l>
+	<l id='1481'>Ou, si de la sagesse un beau feu vous excite, </l>
+	<l id='1482'>Allez dans les déserts, et suivez Démocrite : </l>
+	<l id='1483'>De vous voir avec lui je serai peu jaloux. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1484'>Sors vite de ces lieux, redoute mon courroux. </l>
+<stage>À Thaler. </stage>
+	<l id='1485'>As-tu bientôt assez contemplé ma figure ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à part.</speaker>
+	<l id='1486'>J'ai quelque souvenir de cette créature. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1487'>C'est là que l'on apprend à corriger ses moeurs, </l>
+	<l id='1488'>Et d'un flegme moral réprimer les aigreurs. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1489'>Je veux, quand il me plaît, moi, me mettre en colère. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à part.</speaker>
+	<l id='1490'>C'est elle ; je le vois, plus je la considère. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1491'>N'adoucirez-vous point cet esprit pétulant ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à part.</speaker>
+	<l id='1492'>Voilà celle qui vint m'apporter son enfant. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1493'>Ma haine, en te voyant, s'irrite dans mon âme, </l>
+	<l id='1494' part='i'>Lâche, perfide époux ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Strabon.</speaker>
+	<l id='1494' part='f'>C'est donc là votre femme ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1495' part='i'>Hélas ! Oui. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Cléanthis, la prenant par le bras.</speaker>
+	<l id='1495' part='f'>Payez-moi ce que vous me devez. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1496' part='i'>Ce que je vous dois ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1496' part='m'>Oui, s'il vous plaît. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1496' part='f'>Vous rêvez. </l>
+	<l id='1497'>Je ne vous connais point, mon ami, je vous jure. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1498'>Je vous connais bien, moi. Quinze ans de nourriture </l>
+	<l id='1499' part='i'>Pour un de vos enfants. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1499' part='f'>Pour un de mes enfants ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1500'>Pour un de nos enfants ! Ciel ! Qu'est-ce que j'entends ? </l>
+	<l id='1501'>Je n'en eus jamais d'elle ; et c'est nous faire honte. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Strabon.</speaker>
+	<l id='1502'>Elle n'a pas laissé d'en avoir, à bon compte. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1503'>D'en avoir ! Justes dieux ! Verrai-je d'un oeil sec </l>
+	<l id='1504'>Le front d'un philosophe endurer tel échec ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à Thaler.</speaker>
+	<l id='1505'>Quoi ! Tu pourrais, maraud, avec pareille audace, </l>
+<stage>À part. </stage>
+	<l id='1506'>Me soutenir... J'ai vu quelque part cette face. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Cléanthis.</speaker>
+	<l id='1507'>Oui, je le soutiendrai. C'est, palsanguenne, vous </l>
+	<l id='1508'>Qui vint, par un matin, mettre un enfant cheux nous, </l>
+	<l id='1509'>Si bien que vous disiez que vous étiez sa mère. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1510' part='i'>Qui, moi ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Strabon.</speaker>
+	<l id='1510' part='f'>Je suis ravi que vous soyez son père ; </l>
+	<l id='1511' part='i'>C'est un gentil enfant. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à Cléanthis.</speaker>
+	<l id='1511' part='f'>M'avoir joué ce trait, </l>
+	<l id='1512'>Sans t'en avoir donné jamais aucun sujet ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1513' part='i'>Vous êtes fous tous deux. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1513' part='f'>Me donner, infidèle, </l>
+	<l id='1514'>Un enfant clandestin !... Est-il mâle ou femelle ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1515'>C'est une belle fille, et laquelle, ma foi, </l>
+	<l id='1516' part='i'>Ne vous ressemble guère. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1516' part='f'>Oh ! Vraiment, je le crois. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Agélas, Démocrite, Criséis, Strabon, Cléanthis, Thaler.</head>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Agélas.</speaker>
+	<l id='1517'>Seigneur, il ne faut pas m'arrêter davantage : </l>
+	<l id='1518'>Je joue en votre cour un fort sot personnage ; </l>
+	<l id='1519'>Et quand vous me forcez à rester dans ces lieux, </l>
+	<l id='1520'>Je sais que ce n'est point du tout pour mes beaux yeux. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1521'>Votre rare mérite en est l'unique cause. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1522'>Mon mérite ? Ah ! Vraiment, c'est bien prendre la chose. </l>
+	<l id='1523'>Si vous le connaissiez en effet tel qu'il est, </l>
+	<l id='1524'>Vous verriez qu'il n'est pas tout ce qu'il vous paraît. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1525'>Ici votre présence est encor nécessaire. </l>
+	<l id='1526'>Je veux que vous voyiez terminer une affaire ; </l>
+	<l id='1527'>Après quoi vous pourrez, libres dans vos desseins, </l>
+	<l id='1528'>Vous, Thaler, et Strabon, chercher d'autres destins, </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1529' part='i'>Quelle affaire ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1529' part='f'>Je veux qu'un heureux mariage </l>
+	<l id='1530'>Par des noeuds éternels à Criséis m'engage. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à part.</speaker>
+	<l id='1531'>À ma fille ? Morgué, ces courtisans de cour </l>
+<note>Vartigos : altération de vertigo. Terme familier. Caprice, fantaisie. [L]</note>
+	<l id='1532'>Ont tous, comme cela, des vartigos d'amour. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1533'>Il ne faut point, seigneur, surprendre ma faiblesse </l>
+	<l id='1534'>Par le flatteur aveu d'une feinte tendresse. </l>
+	<l id='1535'>Je connais votre rang ; de plus, je me connais : </l>
+	<l id='1536'>Vous respecter, seigneur, est tout ce que je dois. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1537'>Les dieux et les destins en vain, par la naissance, </l>
+	<l id='1538'>Ont mis entre nous deux une vaste distance, </l>
+	<l id='1539'>J'en appelle à l'amour ; il est beaucoup plus fort </l>
+	<l id='1540'>Que le sang, que les lois, que les dieux et le sort. </l>
+	<l id='1541'>Je veux sur votre front mettre le diadème. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Criséis.</speaker>
+	<l id='1542'>Ne va pas t'y fier ; ce n'est qu'un stratagème. </l>
+<note>Il manque deux rimes masculines dans le passage d'une scène à l'autre. C'est sans doute une omission de l'auteur.</note>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Ismène, Agélas, Agénor, Criséis, Démocrite, Cléanthis, Strabon, Thaler.</head>
+<sp who='ISMÈNE'><speaker>ISMÈNE, à Agélas.</speaker>
+	<l id='1543'>Seigneur, il court un bruit que je ne saurais croire ; </l>
+	<l id='1544'>Il intéresse trop mes droits et votre gloire : </l>
+	<l id='1545'>J'apprends que, vous laissant séduire par l'amour, </l>
+	<l id='1546'>Vous voulez épouser Criséis en ce jour. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1547'>Le bruit qui se répand ne me fait nul outrage : </l>
+	<l id='1548'>Un inconnu pouvoir à cet hymen m'engage ; </l>
+	<l id='1549'>Et mon choix, l'élevant dans ce rang glorieux, </l>
+	<l id='1550'>Peut réparer assez l'injustice des dieux. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Agélas.</speaker>
+	<l id='1551'>Vous voulez tout de bon en faire votre femme ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1552'>Jamais aucun espoir n'a tant flatté mon âme. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à part.</speaker>
+<note>Tatigué ou Tetigué : Altération de tête-dieu dans la bouche des paysans des anciennes comédies. On trouve aussi tatigué et tatigoin. [L]</note>
+	<l id='1553' part='i'>Tatigué, queu malin !</l>
+<stage>À Agélas. </stage>
+	<l id='1553' part='f'>Rendez-moi mon bijou, </l>	
+	<l id='1554'>Et je prends, pour partir, mes jambes à mon cou. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, donnant le bracelet an roi.</speaker>
+	<l id='1555'>Par les soins que j'ai pris, on vient de me le rendre, </l>
+	<l id='1556' part='i'>Seigneur, je vous l'apporte. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1556' part='f'>On m'a bien fait attendre. </l>
+	<l id='1557' part='i'>N'en a-t-on rien ôté ? </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1557' part='f'>Les yeux sont éblouis </l>
+<stage>À Thaler. </stage>
+	<l id='1558'>Des traits de feu qu'on voit... Mais d'où vient ce rubis ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1559'>Du pays des rubis. Il est à notre fille. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1560' part='i'>Comment ? </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1560' part='f'>Oui ; c'est, seigneur, un bijou de famille. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1561'>Éclaircis-nous le fait sans feinte et sans détour. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1562'>Mais tout ce que je dis est plus clair que le jour. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1563'>Ce discours ambigu cache quelque mystère: </l>
+	<l id='1564' part='i'>Explique-toi. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1564' part='f'>Morgué, je ne suis point son père, </l>
+	<l id='1565'>Puisqu'il faut vous le dire et parler tout de bon. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1566' part='i'>Juste ciel ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1566' part='f'>Je ne fais que lui prêter mon nom, </l>
+	<l id='1567' part='i'>Comme bien d'autres font. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS, à part.</speaker>
+	<l id='1567' part='f'>Le dénouement s'avance. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1568'>Et quel est donc celui qui lui donna naissance ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1569' part='i'>Ce n'est pas moi, toujours. </l>
+</sp>
+<sp who='THALER'><speaker>THALER, montrant Cléanthis.</speaker>
+	<l id='1569' part='f'>Cette femme, je crois, </l>
+	<l id='1570'>Si vous l'interrogez, le dira mieux que moi : </l>
+	<l id='1571'>La drôlesse, un matin, s'en vint, bon jour, bonne oeuvre, </l>
+	<l id='1572'>Jusqu'à notre maison porter ce biau chef-d'oeuvre. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1573' part='i'>Moi ! Quelle calomnie ! </l>
+</sp>
+<sp who='THALER'><speaker>THALER, à Cléanthis.</speaker>
+	<l id='1573' part='f'>Oh ! Je vous connais bien. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1574' part='i'>Qui ? Moi, j'aurais... </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+	<l id='1574' part='m'>Oui, vous. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Cléanthis.</speaker>
+	<l id='1574' part='f'>Ne dissimule rien. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1575'>Seigneur, j'ai satisfait aux ordres de la reine, </l>
+	<l id='1576'>Qui de son premier lit n'ayant pour fruit qu'Ismène, </l>
+	<l id='1577'>Et lui voulant au trône assurer tous les droits, </l>
+	<l id='1578'>M'obligea de porter sa fille dans les bois. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1579'>Puis-je croire, grands dieux ! Cette étrange aventure ? </l>
+	<l id='1580'>Mais, hélas ! N'est-ce point une heureuse imposture ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1581'>Seigneur, ce bracelet avecque ce rubis </l>
+	<l id='1582' part='i'>Rendent le fait constant. </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON, à part.</speaker>
+	<l id='1582' part='f'>Je reprends mes esprits. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Criséis.</speaker>
+	<l id='1583'>Il est temps qu'à présent, puisque le ciel i'ordonne, </l>
+	<l id='1584'>Je remette à vos pieds le sceptre et la couronne. </l>
+	<l id='1585'>Je vous rends votre bien, madame ; et désormais </l>
+	<l id='1586'>Je ne le puis tenir que de vos seuls bienfaits. </l>
+</sp>
+<sp who='CRISÉIS'><speaker>CRISÉIS.</speaker>
+	<l id='1587'>Je ne me plaignais point du sort où j'étais née : </l>
+	<l id='1588'>Maintenant que le ciel, changeant ma destinée, </l>
+	<l id='1589'>Veut réparer les maux qu'il m'avait fait souffrir, </l>
+	<l id='1590'>Je me plains de n'avoir qu'un coeur à vous offrir. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Ismène.</speaker>
+	<l id='1591'>Madame, vous voyez mon destin et le vôtre ; </l>
+	<l id='1592'>Le ciel ne nous a point fait naître l'un pour I'autre ; </l>
+	<l id='1593'>Mais ce prince pourra, sensible à vos attraits, </l>
+	<l id='1594'>De la perte du trône adoucir les regrets. </l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='1595'>Agénor à mes yeux vaut bien une couronne. </l>
+</sp>
+<sp who='AGÉNOR'><speaker>AGÉNOR.</speaker>
+	<l id='1596' part='i'>Seigneur... </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Thaler.</speaker>
+	<l id='1596' part='f'>Vous, dont je tiens cette aimable personne, </l>
+	<l id='1597'>Demandez ; je ne puis trop vous récompenser. </l>
+</sp>
+<sp who='THALER'><speaker>THALER.</speaker>
+<note>Maltôtier : Celui qui fait la maltôte. c'est à dire qu'i ls se disent d'une exaction indûe, et de celui qui la fait. On le dit abusivement de ceux qui lèvent les impositions. [FC]</note>
+	<l id='1598'>Faites-moi maltôtier toujours pour commencer. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE, à Agélas.</speaker>
+	<l id='1599'>Seigneur, depuis longtemps je garde le silence ; </l>
+	<l id='1600'>Un tel événement étourdit ma prudence : </l>
+	<l id='1601'>Interdit et confus de tout ce que je vois, </l>
+	<l id='1602'>J'ai peine à retrouver l'usage de la voix. </l>
+	<l id='1603'>II est temps cependant de me faire connaître. </l>
+	<l id='1604'>Je n'ai point été tel que j'ai voulu paraître ; </l>
+	<l id='1605'>Vraiment faible au dedans, philosophe au dehors, </l>
+	<l id='1606'>L'esprit était la dupe et l'esclave du corps. </l>
+	<l id='1607'>Deux yeux, deux yeux charmants, avaient, pour ma ruine, </l>
+	<l id='1608'>Détraqué les ressorts de toute la machine. </l>
+	<l id='1609'>De la philosophie en vain on suit les lois ; </l>
+	<l id='1610'>La nature en nos coeurs ne perd jamais ses droits ; </l>
+	<l id='1611'>Et, comptant nos défauts, je vois, plus je calcule, </l>
+	<l id='1612'>Qu'il n'est point de mortel qui n'ait son ridicule : </l>
+	<l id='1613'>Le plus sage est celui qui le cache le mieux. </l>
+	<l id='1614' part='i'>J'étais amoureux. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1614' part='m'>Vous ! </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1614' part='f'>Vous étiez amoureux ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1615'>L'amour m'avait forcé, pour traverser ma vie, </l>
+	<l id='1616'>Dans les retranchements de la philosophie. </l>
+<stage>Montrant Criséis. </stage>
+	<l id='1617'>Voilà l'objet fatal, le véritable écueil </l>
+	<l id='1618'>Où la fière sagesse a brisé son orgueil. </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1619' part='i'>Vous aimiez Criséis ? </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1619' part='f'>La partie animale </l>
+	<l id='1620'>Avait pris, malgré moi, le pas sur la morale ; </l>
+	<l id='1621'>La nature perverse entraînait la raison. </l>
+	<l id='1622'>À l'univers entier j'en demande pardon. </l>
+	<l id='1623' part='i'>Adieu. </l>
+</sp>
+<sp who='AGÉLAS'><speaker>AGÉLAS.</speaker>
+	<l id='1623' part='f'>Ne partez point ; il y va de ma gloire. </l>
+</sp>
+<sp who='DÉMOCRITE'><speaker>DÉMOCRITE.</speaker>
+	<l id='1624'>Faut-il que j'orne encor votre char de victoire ? </l>
+	<l id='1625'>Je ne me trouve pas assez bien de la cour, </l>
+	<l id='1626'>Seigneur, pour y vouloir faire un plus long séjour. </l>
+	<l id='1627'>J'ai fait, en m'y montrant, une folie extrême ; </l>
+	<l id='1628'>J'y vins comme un franc sot, et je m'en vais de même ; </l>
+	<l id='1629'>Trop heureux d'en partir libre de passion, </l>
+	<l id='1630'>Et d'avoir de critique ample provision ! </l>
+	<l id='1631'>J'en ai fait à la cour un recueil à bon titre ; </l>
+	<l id='1632'>Je me mets, je l'avoue, en tête du chapitre </l>
+	<l id='1633'>De ceux que l'amour fait à l'excès s'oublier ; </l>
+	<l id='1634'>Mais, sans le bracelet, vous étiez le premier. </l>
+	<l id='1635'>Je vais chercher des lieux où la philosophie </l>
+	<l id='1636'>Ne soit plus exposée à cette épilepsie. </l>
+	<l id='1637'>Dans un antre plus creux, achevant mon emploi, </l>
+	<l id='1638'>Je vais rire de vous ; riez aussi de moi. </l>
+<stage>Il sort. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Ismène, Agélas, Agénor, Criséis, Cléanthis, Strabon, Thaler.</head>
+<sp who='AGÉLAS'><speaker>AGÉLAS, à Criséis.</speaker>
+	<l id='1639'>Tâchons de l'arrêter. Nous cependant, madame, </l>
+	<l id='1640'>Allons pour couronner une si belle flamme. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Cléanthis, Strabon. </head>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1641'>Hé bien, que dirons-nous ? Partirai-je avec lui ? </l>
+</sp>
+<sp who='CLÉANTHIS'><speaker>CLÉANTHIS.</speaker>
+	<l id='1642'>Je suis bien en courroux : si pourtant aujourd'hui </l>
+	<l id='1643' part='i'>Tu voulais un peu mieux m'aimer ? </l>
+</sp>
+<sp who='STRABON'><speaker>STRABON.</speaker>
+	<l id='1643' part='f'>Déjà, coquine, </l>
+	<l id='1644'>Tu voudrais me tenir, je le vois à ta mine. </l>
+	<l id='1645'>Je te pardonne tout, fais-moi grâce à ton tour ; </l>
+	<l id='1646'>Oublions le passé, renouvelons d'amour. </l>
+	<l id='1647'>Je ne serai pas seul qui, d'une âme enchantée, </l>
+	<l id='1648'>Aura repris sa femme après l'avoir quittée. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>OH ! VOILÀ BIEN LE DIABLE ! COMÉDIE</title>
+			<author born='' born_location='' death='' death_location='' academie=''>(anonyme)</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE SEPTEMBRE 2012.</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<type>mixte</type>
+				<structure>Un acte</structure>
+				<periode>1771-1780</periode>
+				<taille>(mesure non pertinente)</taille>
+				<permalien></permalien>
+
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">OH ! VOILÀ BIEN LE DIABLE !</titlePart>
+			<titlePart type="sub">PETITE PIÈCE EN UN ACTE ET EN PROSE MELÉE D'AIRS.</titlePart>
+		</docTitle> 
+		<docDate value='1772'>M. DCC. LXXII.</docDate>
+		<docAuthor id='[Anonyme]' bio=''></docAuthor>
+		<docImprint>
+			<privilege id=''></privilege>
+			<acheveImprime id=''></acheveImprime>
+			<printer id='DELALAIN'>À PARIS, Chez DELALAIN, Libraire, rue de la Comédie Française.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='(non représentée)' location='(non représentée)'></premiere>
+		</performance>
+<preface><head>ÉPITRE A MADAME LA COMTESSE DE B***** D*****.</head>
+	<p>VOUS m'avez permis, MADAME, d'offrir, à une des plus aimables personnes, l'hommage aui méritait le moins cette grace. Une Préface est très - souvent consacrée par l'Auteur à s'entretenir de lui-même avec complaisance. Dans ces Vers, qui en tiennent lieu, je n'ai rien annoncé de mon très petit Ouvrage sur ce ton-là, parce qu'il n'y avait rien de bon à en dire. Dans l'Épître dédicatoire, où naturellement votre éloge doit se opposée à celle qui m'a mpêché de parler de mes talents.</p>
+	<p type="v">J'use de la faveur à mes voeux accordée ; </p>
+	<p type="v">Cent bijoux furent rejettés ;</p>
+	<p type="v">Mais vous louer ! Je ne suis pas si sot : </p>
+	<p type="v">Tout le monde dirait, choqué de cette idée, </p>
+	<p type="v">Ce sont les Dieux peints par Calot.</p>
+	<p>J'ai l'honneur d'être, avec le plus sincere et le plus respectueux attachement, MADAME,</p>
+	<p>Votre très-humble, et très-obéissant serviteur, LE MARQUIS DE F***  </p>
+</preface>
+
+<preface><head>AU PUBLIC.</head>
+	<p>Mes moeurs d'un vrai sauvage unissent tous les traits.</p>
+	<p>Un séjour solitaire, au fond de la Champagne,</p>
+	<p>Est à mes yeux rempli d'attraits ;</p>
+	<p>Pour mon Théatre seul, Théatre de campagne,</p>
+	<p>J'ai produit ces faibles essais.</p>
+	<p>Soigneusement ailleurs je les cachais.</p>
+	<p>Sans vouloir jamais en démordre,</p>
+	<p>J'ai suivi, quelque tems, cette prudente loi.</p>
+	<p>Jusques-là tout était dans l'ordre ;</p>
+	<p>Mais peut-on répondre de soi ?</p>
+	<p>Un certain jour n'ai-je pas eu l'idée</p>
+	<p>De courir chez les Imprimeurs !</p>
+	<p>Puis la voilà contrariée</p>
+	<p>Par la plus juste des frayeurs.</p>
+	<p>De vous plaire, Messieurs, la flatteuse espérance</p>
+	<p>S'éloignait de mon coeur à la crainte livré ;</p>
+	<p>Deux minutes plus tard l'Ouvrage était serré.</p>
+	<p>Lors j'ai pensé que l'ignorance</p>
+	<p>Facilement se gendarme et s'offense,</p>
+	<p>Et que d'un esprit éclairé</p>
+	<p>Le caractère est l'indulgence :</p>
+	<p>Cette réslexion m'a bientôt rassuré ;</p>
+	<p>Je n'ai plus craint votre présence,</p>
+	<p>Et me voilà donc imprimé.</p>
+	<p>Si cet hommage est agréé,</p>
+	<p>Je pourrai vous en offrir d'autres.</p>
+	<p>Plus d'un Écrivain glorieux</p>
+	<p>Croit, en s'applaudissant, faire tout pour le mieux.</p>
+	<p>Quant à moi, les faveurs que j'aime sont les vôtres ;</p>
+	<p>Et de tous les Auteurs dont vous comblez les voeux,</p>
+	<p>En accordant un accueil gracieux</p>
+	<p>Aux nouveautés qu'ils font paraître,</p>
+	<p>Si je trouve grace à vos yeux,</p>
+	<p>Je jure qu'il n'en peut pas être</p>
+	<p>Un plus sensible, un plus heureux.</p>
+</preface>
+	
+		<castList><head>PERSONNAGES.</head>
+			<castItem><role id="MONSIEUR-POT-DE-VIN" civil='M' type="H" statut='bourgeois' age='A' stat_amour='marié'>MONSIEUR POT-DE-VIN</role>, Bourgeois de Paris.</castItem> 
+			<castItem><role id="MADAME-POT-DE-VIN" civil='F' type="H" statut='bourgeois' age='A' stat_amour='marié'>MADAME POT-DE-VIN</role>, sa Femme.</castItem> 
+			<castItem><role id="MADAME-LA-COMTESSE-DE-LA-BICOQUETTE" civil='F' type="H" statut='comte' age='A' stat_amour='néant'>MADAME LA COMTESSE DE LA BICOQUETTE</role>.</castItem> 
+			<castItem><role id="MONSIEUR-LE-MARQUIS-DE-CINQ-ARPENS" civil='M' type="H" statut='marquis' age='A' stat_amour='néant'>MONSIEUR LE MARQUIS DE CINQ-ARPENS</role>.</castItem> 
+			<castItem><role id="MADEMOISELLE-ADÉLAÏDE" civil='F' type="H" statut='bourgeois' age='J' stat_amour='néant'>MADEMOISELLE ADÉLAÏDE</role>.</castItem> 
+			<castItem><role id="MONSIEUR-DE-PODOLIE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>MONSIEUR DE PODOLIE</role>.</castItem> 
+			<castItem><role id="MONSIEUR-L-ABBÉ-PATELIN" civil='M' type="H" statut='abbé' age='A' stat_amour='néant'>MONSIEUR L'ABBÉ PATELIN</role>, neveu de la maison.</castItem> 
+			<castItem><role id="BABET" civil='F' type="H" statut='servante' age='A' stat_amour='néant'>BABET</role>, servante.</castItem> 
+	</castList>
+<set location='Sèves' country='France' periode='XVIIIème' link=''>La Scene est chez Madame Pot-de-vin, dans un village, près Séves.</set>
+<note>Cette pièce est issue du reccueil : TRÈS-PETITES PIÈCES, QUI ne peuvent être jouées que sur un très petit Théatre, que j'aurai certainement faites pour mon plaisir, si elles contribuent à celui de mes Lecteurs.</note>
+</front>
+<body>
+<div1 type='acte' n='1'><head></head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Monsieur Pot-de-vin, Babet.</head>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN entre seul et appelle.</speaker>
+<p id='1'>
+	<s id='1'>Babet !</s>
+</p>
+</sp>
+<sp who='BABET'><speaker>Babet répond, en entrant de l'autre côté.</speaker>
+<p id='2'>
+	<s id='1'>Monsieur.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='3'>
+	<s id='1'>Mais... </s>
+	<s id='2'>Ayez donc l'air occupé de ce que je vais vous dire. Ce n'est point ici une soirée comme les autres.</s>
+</p>
+<stage>Il soupire. </stage>
+<note type="C">Croix de Saint-Louis : décoration</note>
+<p id='4'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Babet ! </s>
+	<s id='3'>Il faut convenir que, s'il est flatteur pour nous autres bourgeois, de recevoir des Croix de Saint-Louis, et des Dames de condition, on paie cet honneur bien cher par toutes les attentions qu'il exige : aujourd'hui cependant, loin de les regretter, je n'en saurais avoir autant que la circonstance le mérite.</s>
+</p>
+<stage>AIR : Babet que t'es gentille !</stage>
+	<l id='1'>Écoutez-moi, Babet ;</l>
+	<l id='2'>Dans une heure précise</l>
+	<l id='3'>Que le souper soit prêt,</l>
+	<l id='4'>Et la nappe bien mise.</l>
+	<l id='5'>Sur tout le vin frais ;</l>
+	<l id='6'>Tous les verres nets ;</l>
+	<l id='7'>Chaque serviette blanche ;</l>
+	<l id='8'>Une bougie en deux moitiés,</l>
+	<l id='9'>Dans mes deux flambeaux argentés.</l>
+	<l id='10'>Je ne puis te le dire assez,</l>
+	<l id='11'>Rôtis mieux ton éclanche,</l>
+	<l id='12'>Que celle de Dimanche...</l>
+</sp>
+<sp who='BABET'><speaker>BABET.</speaker>
+<p id='5'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>S'il plaît à Dieu, Monsieur, vous serez content ; mais vous avez, ma foi, bien envie de l'être ; je ne vous ai jamais vu vous trémousser comme cela.</s>
+</p>
+<stage>Même Air que le précédent.</stage>
+	<l id='13'>En bonne vérité...</l>
+	<l id='14'>Jamais la bouche close !</l>
+	<l id='15'>Vous m'avez répété</l>
+	<l id='16'>Cent fois la même chose.</l>
+	<l id='17'>Allez, je le sais,</l>
+	<l id='18'>Même vous n'aurez</l>
+	<l id='19'>Qu'assiettes bien choisies ;</l>
+	<l id='20'>Et comme vous en avez peu</l>
+	<l id='21'>Le Chaudron reste sur le feu,</l>
+	<l id='22'>Et j'aurai soin (pour ôter lieu</l>
+	<l id='23'>À toutes railleries)</l>
+	<l id='24'>Qu'elles soient refroidies.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='6'>
+	<s id='1'>C'est fort bien, mon enfant : je suis tout réjoui de te voir répondre à mes vues avec autant d'intelligence.</s>
+</p>
+<stage>Même Air que les deux Couplets précédents.</stage>
+	<l id='25'>Lorsque je n'ai céans</l>
+	<l id='26'>Que le cercle ordinaire,  </l>
+	<l id='27'>Madame Petitjeans,</l>
+	<l id='28'>Et Lebrun, mon compère;</l>
+	<l id='29'>Le soin que je prends,</l>
+	<l id='30'>Pour ces bonnes gens</l>
+	<l id='31'>N'est pas fort nécessaire:</l>
+	<l id='32'>Mais j'aurai, Babet, en ce jour</l>
+	<l id='33'>Les deux plus beaux yeux de la Cour.</l>
+	<l id='34'>Est-ce l'instant de rester court,</l>
+	<l id='35'>Et pouvons-nous trop faire</l>
+	<l id='36'>Pour tâcher de leur plaire?</l>
+</sp>
+<sp who='BABET'><speaker>BABET.</speaker>
+<p id='7'>
+	<s id='1'>Cela est à merveille ; mais si Madame arrivait ; ne serait-elle pas fâchée de voir tout ce tracas chez elle sans en avoir été prévenue ?</s>
+</p>
+<stage>AIR: Philis, vous voulez un portrait.</stage>
+	<l id='37'>Dans le plus beau jour de l'été,</l>
+	<l id='38'>Tout-à-coup un orage,</l>
+	<l id='39'>Troublant les jeux et la gaité,</l>
+	<l id='40'>Fait un affreux tapage;</l>
+	<l id='41'>Chacun fuit précipitamment,</l>
+	<l id='42'>La frayeur est extrême :</l>
+	<l id='43'>Madame ici nous surprenant,</l>
+	<l id='44'>Il en serait de même.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<stage>Même air que le Couplet précédent.</stage>
+	<l id='45'>Prenons un air de dignité ;</l>
+	<l id='46'>Ne suis-je pas le Maître ?</l>
+	<l id='47'>Le pouvoir est de mon côté ;</l>
+	<l id='48'>Je le ferai paraître.</l>
+</sp>
+<sp who='BABET'><speaker>BABET, à part. Suite du Couplet.</speaker>
+	<l id='49'>Oui-dà, pour le croire, il faudrait </l>
+	<l id='50'>Ne vous guere connaître.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN. Même couplet.</speaker>
+<note type="L">Marmoter : mot bas qui signifie parler entre les dents, remuer les lèvres sans se fair entendre. [F]</note>
+<p id='8'>
+	<s id='1'>Que marmotez-vous là, Babet ?</s>
+</p>
+</sp>
+<sp who='BABET'><speaker>BABET. Fin du Couplet.</speaker>
+	<l id='51'>Je dis que ça doit être.</l>
+<p id='9'>
+	<s id='1'>Monsieur n'a plus rien à me dire. Je vais à ma cuisine...</s>
+</p>
+<stage>À part en s'en allant. </stage>
+<p id='10'>
+	<s id='1'>Rire tout à mon aise de l'air d'assurance qu'il a, tandis qu'il tremble comme un voleur.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN, seul.</speaker>
+<p id='1'>
+	<s id='1'>Il est, parbleu, bien difficile d'être d'accord, quand on est deux à partager l'autorité ; et ne vaut-il pas mieux la céder, que d'entretenir des querelles éternelles ? </s>
+	<s id='2'>Heureusement, me voilà seul aujourd'hui chez moi: c'est-là où je brille. </s>
+	<s id='3'>C'est alors que je suis le souverain le plus absolu... </s>
+	<s id='4'>Mais quelle heure est-il ?... </s>
+	<s id='5'>La Galiote ne pourrait-elle pas encore ?...</s>
+</p>
+<stage>AIR : Chers amis, etc que ce jus nous inonde.</stage>
+	<l id='52'>Je suis comme un enfant</l>
+	<l id='53'>À qui, le soir, sa bonne</l>
+	<l id='54'>Parle de revenant.</l>
+	<l id='55'>S'il séveille, il frissonne;</l>
+	<l id='56'>Il croit voir un Esprit</l>
+	<l id='57'>Vers son lit s'approcher ;</l>
+	<l id='58'>Sa frayeur le grandit.</l>
+	<l id='59'>D'abord jusqu'au plancher.</l>
+	<l id='60'>Le petit malheureux crie,</l>
+	<l id='61'>Se tourmente, se croit mort :</l>
+	<l id='62'>Arrive la sotte Mie :</l>
+	<l id='63'>Elle seule a tout le tort ;</l>
+	<l id='64'>Mais la faiblesse est punie</l>
+	<l id='65'>Suivant la loi du plus fort.</l>
+<stage>Second Couplet.</stage>
+	<l id='66'>Ah ! Quel mal tu me fais !</l>
+	<l id='67'>Babet, ce noir présage.</l>
+	<l id='68'>Des plaisirs de la paix</l>
+	<l id='69'>Détruit la douce image...</l>
+	<l id='70'>Hélas ! N'entends-je pas</l>
+	<l id='71'>Le bruit de mon Lutin,</l>
+	<l id='72'>De sa voix, les éclats ?...</l>
+	<l id='73'>Eh, non, non, ce n'est rien ;</l>
+	<l id='74'>Non, rien... Ma crainte est frivole.</l>
+<stage>bis.</stage>
+	<l id='75'>Cessons de nous y livrer ;</l>
+	<l id='76'>Sur le propos d'une folle</l>
+	<l id='77'>Dois-je à ce point m'effrayer ?</l>
+<p id='2'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Non. </s>
+	<s id='3'>Ma femme m'aurait écrit si elle avait dû revenir. </s>
+	<s id='4'>Jouissons en repos du pouvoir sans concurrence... </s>
+	<s id='5'>Voici ce que j'en aime le plus. </s>
+</p>
+<stage>Il tire et montre une grosse clé.</stage>
+<stage>AIR : La bonne aventure, ô gué.</stage>
+	<l id='78'>Un sceptre d'or est un bien</l>
+	<l id='79'>Fort mêlé de peine ;</l>
+	<l id='80'>Plus facilement le mien</l>
+	<l id='81'>Au bonheur nous mène.</l>
+	<l id='82'>La gaité suit le bon vin :</l>
+	<l id='83'>Contre les traits du chagrin,</l>
+	<l id='84'>Il est le remède</l>
+	<l id='85'>Certain,</l>
+	<l id='86'>Il est le remède.</l>
+<stage>Second Couplet.</stage>
+	<l id='87'>Souvent un Maître puissant</l>
+	<l id='88'>Dans les pleurs se baigne :</l>
+	<l id='89'>Moi toujours paisiblement</l>
+	<l id='90'>Avec toi je règne ;</l>
+	<l id='91'>Si, sans efforts, sous ma loi,</l>
+	<l id='92'>J'ai Malaga, Beaune, Arboi,</l>
+	<l id='93'>Je tiens ma puissance</l>
+	<l id='94'>De toi,</l>
+	<l id='95'>Je tiens ma puissance.</l>
+<stage>Troisieme Couplet.</stage>
+	<l id='96'>Tu reproduis l'âge d'or</l>
+	<l id='97'>En tous lieux chérie:</l>
+	<l id='98'>Sous ta garde est le trésor</l>
+	<l id='99'>Des biens de la vie.</l>
+	<l id='100'>Mes plaisirs seraient complets,</l>
+	<l id='101'>Si du destin j'obtenais</l>
+	<l id='102'>De ne te plus perdre</l>
+	<l id='103'>Jamais,</l>
+	<l id='104'>De ne te plus perdre.</l>
+<p id='3'>
+	<s id='1'>Enfin, chère amie, te voilà dans ma poche au moins jusqu'à demain. C'est toi qui joueras ce soir le personnage intéressant, et ta gloire sera la mienne. </s>
+	<s id='2'>Va, charmante clé, tu ne peux appartenir à personne qui sente mieux que moi ce que tu vaux.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Monsieur Pot-De-Vin, Babet.</head>
+<stage>Elle ne paraît que pour annoncer.</stage>
+<sp who='BABET'><speaker>BABET.</speaker>
+<p id='1'>
+	<s id='1'>Madame la Comtesse de la Bicoquette, Mademoiselle Adélaîde, Monsieur le Marquis de Cinq-Arpens et Monsieur de Podolie.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Monsieur Pot-De-Vin, Les Quatre Personnages annoncés.</head>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN, s'avançant vers Madame la Comtesse.</speaker>
+<stage>AIR: Nous passons doucement la vie.</stage>
+<stage>À part.</stage>
+<p id='1'>
+	<s id='1'>Mon coeur... </s>
+</p>
+<stage>Haut.</stage>
+	<l id='105'>Je suis troublé... Mon âme</l>
+	<l id='106'>Ne peut exprimer sa gaité ;</l>
+	<l id='107'>Sa dose, voyez-vous ! Madame,</l>
+	<l id='108'>Est celle de votre beauté.</l>
+<stage>Second Couplet.</stage>
+	<l id='109'>Si la volupté la plus pure</l>
+	<l id='110'>Est de pouvoir faire un heureux,</l>
+	<l id='111'>Le Ciel ici vous la procure ;</l>
+	<l id='112'>Car, vous y comblez tous mes voeux.</l>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>MADAME LA COMTESSE.</speaker>
+<p id='2'>
+	<s id='1'>En vérité, Monsieur Pot-de-vin, vous êtes trop honnête : on ne s'attend pas à être reçu avec autant de grâce.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='3'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Assurément, Madame plaisante : je ne suis point gracieux ; mais j'ai du goût et de la franchise. </s>
+	<s id='3'>Cela suffit pour vous trouver charmante et pour vous le dire. </s>
+	<s id='4'>Il ne manque à mon bonheur que d'avoir un Palais à offrir à Madame la Comtesse.</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='4'>
+	<s id='1'>Bon ! </s>
+	<s id='2'>Un Palais ! </s>
+	<s id='3'>Il n'y a rien de si triste, Monsieur Pot-de-vin : une maison petite et commode est cent fois plus agréable.</s>
+</p>
+<stage>AIR: Dans ces lieux tout rit sans cesse.</stage>
+	<l id='113'>L'artiste le plus habile</l>
+	<l id='114'>Étale en vain les beautés :</l>
+	<l id='115'>Si le coeur n'est point tranquille,</l>
+	<l id='116'>Quels biens, par lui, pourront être goûtés ?</l>
+<stage>Second Couplet.</stage>
+	<l id='117'>Sous ces arcades dorées,</l>
+	<l id='118'>Dans ces Palais, que voit-on ?</l>
+	<l id='119'>Des victimes immolées</l>
+	<l id='120'>Par l'intérêt, ou par l'ambition.</l>
+<stage>Troisième Couplet.</stage>
+	<l id='121'>S'il existe quelque sage,</l>
+	<l id='122'>C'est dans un réduit pareil ;</l>
+	<l id='123'>On peut y braver l'orage,</l>
+	<l id='124'>Et s'endormir sans craindre le réveil.</l>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='5'>
+	<s id='1'>Il est certain que vous auriez tort, mais le plus grand tort, Monsieur Pot-de-vin, de vous plaindre de la manière dont vous êtes logé ; c'est une retraite délicieuse.</s>
+</p>
+<stage>AIR: Nous passons doucement la vie.</stage>
+	<l id='125'>Votre Maison est fort jolie ;</l>
+	<l id='126'>Mais, d'honneur, jolie à ravir :</l>
+	<l id='127'>Je l'aimerais à la folie ;</l>
+	<l id='128'>Tout annonce ici le plaisir.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN. Même Air.</speaker>
+	<l id='129'>Madame, il est à votre suite ;</l>
+	<l id='130'>Ses pas sont ceux que vous tracez :</l>
+	<l id='131'>Mon logis a, pour tout mérite,</l>
+	<l id='132'>Les moments que vous y passez.</l>
+<p id='6'>
+	<s id='1'>La bonne santé de Mademoiselle Adélaïde ajoute encore à ma satisfaction ; je craignais de n'avoir pas l'honneur de la voir: elle devrait se dissiper, s'égayer ; oui, en peu de temps, vous seriez tout-à-fait bien.</s>
+</p>
+<stage>AIR: Dans ma cabane obscure.</stage>
+	<l id='133'>Préceptes ridicules,</l>
+	<l id='134'>Que ceux des médecins :</l>
+	<l id='135'>Laissez-là les pilules,</l>
+	<l id='136'>L'Ether, et tous ces riens.</l>
+	<l id='137'>D'une aimable figure</l>
+	<l id='138'>Prenez vîte un époux ;</l>
+	<l id='139'>La recette est plus sûre,</l>
+	<l id='140'>L'usage en est plus doux.</l>
+</sp>
+<sp who='MADEMOISELLE-ADÉLAÏDE'><speaker>MADEMOISELLE ADÉLAÏDE.</speaker>
+<p id='6'>
+	<s id='1'>Vous me faites une querelle d'Allemand, Monsieur Pot-de-vin; je ne suis point triste, et je n'ai jamais eu moins envie de l'être.</s>
+</p>
+<stage>AIR: L'autre jour étant assis.</stage>
+	<l id='141'>Un tel projet serait vain,</l>
+	<l id='142'>En eussé-je eu la pensée ;</l>
+	<l id='143'>Chez vous, Monsieur Pot-de-vin,</l>
+	<l id='144'>Je l'aurais abandonnée.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN, achevant le Couplet.</speaker>
+	<l id='145'>Un grand remerciment,</l>
+	<l id='146'>Madame la Comtesse ;</l>
+	<l id='147'>Ce joli compliment</l>
+	<l id='148'>À vous seule s'adresse.</l>
+<p id='7'>
+	<s id='1'>Ces Messieurs ne voudraient-ils pas boire un doigt de vin, en attendant le souper ? </s>
+	<s id='2'>Ils en seront bien les maîtres; car, pour le coup, j'ai la clé de la cave.</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='8'>
+	<s id='1'>Pour moi, je vous rends mille graces... </s>
+	<s id='2'>Monsieur de Podolie ne vous refusera peut-être point.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-PODOLIE'><speaker>MONSIEUR DE PODOLIE.</speaker>
+<p id='9'>
+	<s id='1'>Je vous demande pardon, Monsieur le Marquis; je ne bois jamais entre mes repas.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='10'>
+	<s id='1'>Monsieur de Podolie regarde tout ceci en pitié, lui dont les yeux sont accoutumés au faste des Seigneurs Polonais.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-PODOLIE'><speaker>MONSIEUR DE PODOLIE.</speaker>
+<note type="L">Héducs : ou Authunois, memebre d'une tribu gauloise qui était installée non loin de Nevers.</note>
+<p id='11'>
+	<s id='1'>Je vous jure, Monsieur Pot-de-vin, qu'à mon gré vous êtes plus heureux que le Grand Maréchal de la Couronne. </s>
+	<s id='2'>Je pense comme Monsieur le Marquis. De riches tapis, des appartemens vastes, des esclaves infortunés peuvent-ils contribuer à notre bonheur ? </s>
+	<s id='3'>C'est la société qui fait le prix du lieu que l'on habite, et parmi nous autres gourmands, la bonne chère, inconnue en Pologne, est aussi comptée pour quelque chose. </s>
+	<s id='4'>On ne mange ni les Héducs, ni les Gardes du Maître de la maison.</s>
+</p>
+<stage>AIR: Vous qui du Vulgaire stupide.</stage>
+	<l id='149'>À quoi me sert tout l'étalage</l>
+	<l id='150'>De celui qui donne à dîner,</l>
+	<l id='151'>Si chaque mets, jusqu'au potage,</l>
+	<l id='152'>Est d'espèce à m'empoisonner ?</l>
+	<l id='153'>Les traits de cet orgueil extrême</l>
+	<l id='154'>N'ont rien dont je puisse jouir ;</l>
+	<l id='155'>À table, un bon ragoût que j'aime,</l>
+	<l id='156'>Est le véritable plaisir.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='12'>
+	<s id='1'>Monsieur de Podolie a raison. </s>
+</p>
+<stage>La porte s'ouvre avec bruit.</stage>
+<p id='13'>
+	<s id='1'>Mais, eh! mais...Eh! bon Dieu!</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Les mêmes Personnages, Madame Pot-de-Vin, Monsieur L'Abbé Patelin.</head>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<stage>AIR: De la Turque.</stage>
+	<l id='157'>Je suis toute en eau...</l>
+	<l id='158'>Jusqu'aux genoux j'ai de la crotte ;</l>
+	<l id='159'>Le tour est fort beau,</l>
+	<l id='160'>Et le procédé tout nouveau.</l>
+	<l id='161'>Benêt, tu savais</l>
+	<l id='162'>Que j'arrivais</l>
+	<l id='163'>Par la Galiotte:</l>
+	<l id='164'>Au lieu d'être là,</l>
+	<l id='165'>Ce gentil Galant que voilà</l>
+	<l id='166'>Causait,</l>
+	<l id='167'>Jouait,</l>
+	<l id='168'>Chantait,</l>
+	<l id='169'>Riait,</l>
+	<l id='170'>Lorgnait.</l>
+	<l id='171'>Oh ! vous l'entendez.</l>
+	<l id='172'>On me prend donc pour une sotte !...</l>
+	<l id='173'>Allons, dépêchez ;</l>
+	<l id='174'>Rendez vîte toutes mes clés.</l>
+<stage>Madame Pot-de-vin s'essuie, et fait des gestes menaçants à son Mari.</stage>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='1'>
+	<s id='1'>Madame, je vais les chercher dans toutes mes poches.</s>
+</p>
+<stage>AIR: Ciel! l'Univers va-t-il donc se dissoudre ?</stage>
+<stage>À part.</stage>
+	<l id='175'>Me voilà pris!... Hélas ! Comment donc faire !</l>
+	<l id='176'>Que dira-t-on ? Si je répondais....Mais !</l>
+	<l id='177'>Loin d'arranger mon affaire,</l>
+	<l id='178'>J'y gagnerais des soufflets.</l>
+</sp>
+<sp who='MADEMOISELLE-ADÉLAIDE'><speaker>MADEMOISELLE ADÉLAIDE, bas à Monsieur de Podolie.</speaker>
+<stage>Suite du Couplet.</stage>
+	<l id='179'>D'une Mégère</l>
+	<l id='180'>Elle a les traits.</l>
+	<l id='181'>L'effroi</l>
+	<l id='182'>Eteint ma voix. Quelle furie !</l>
+	<l id='183'>Je suis saisie:</l>
+	<l id='184'>Je vous en prie!</l>
+	<l id='185'>Ah! Monsieur cachez-moi.</l>
+<stage>Monsieur de Podolie se place devant Mlle. Adélaide.</stage>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN, à son Mari.</speaker>
+<p id='2'>
+	<s id='1'>Finirons-nous ?  </s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN, tirant différentes clés.</speaker>
+<p id='3'>
+	<s id='1'>Voici la clé de l'office, et puis celle du garde-meuble, et puis celle du fruitier...</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='4'>
+	<s id='1'>Et la clé de la cave ? </s>
+	<s id='2'>Il fallait commencer par elle.....</s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN, à part.</speaker>
+<p id='5'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Voilà bien le Diable!</s>
+</p>
+<stage>AIR : Dieu des âmes.</stage>
+	<l id='186'>Je succombe :</l>
+	<l id='187'>Quand il tombe,</l>
+	<l id='188'>Le tonnerre est moins affreux.</l>
+	<l id='189'>Ah ! Te rendre !</l>
+	<l id='190'>Puis-je entendre</l>
+	<l id='191'>Un arrêt plus rigoureux?</l>
+<stage>Haut.</stage>
+<p id='6'>
+	<s id='1'>Permettez, je vous en prie, ma chère femme.</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='6'>
+	<s id='1'>Comment, Monsieur ! </s>
+	<s id='2'>Vous vous le faites dire deux fois ! </s>
+	<s id='3'>J'ai de la patience, cela est vrai : mais il est des circonstances où elle échappe... </s>
+	<s id='4'>Tenez, Monsieur Pot-de-vin, n'achevez pas de me pousser à bout.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<p id='7'>
+	<s id='1'>Eh ! </s>
+	<s id='2'>Mon Dieu ! </s>
+	<s id='3'>Madame, prenez ; et, sur toutes choses, la paix: écoutez ma justification.</s>
+</p>
+<stage>AIR : Des fraises.</stage>
+	<l id='192'>L'Albâtre paraît noir,</l>
+	<l id='193'>Quand la colère enflamme ;</l>
+	<l id='194'>Eh! quoi, pouvais-je prévoir</l>
+	<l id='195'>Que vous reveniez ce soir,</l>
+	<l id='196'>Madame,</l>
+	<l id='197'>Ma Femme,</l>
+	<l id='198'>Madame ?</l>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='8'>
+	<s id='1'>Qu'appellez-vous de la colère ? </s>
+	<s id='2'>Ah ! </s>
+	<s id='3'>Si j'en avais, je ne me posséderais pas comme je fais, et votre perruque, Monsieur Pot-de-vin, ne serait plus sur votre tête.</s>
+</p>
+<stage>AIR : C'est ce qui vous enrhume.</stage>
+	<l id='199'>Ma douceur, partout, a fait tant de bruit...</l>
+	<l id='200'>Il n'est point de femme, a-t-on toujours dit,</l>
+	<l id='201'>D'une aussi bonne pâte.</l>
+	<l id='202'>D'avoir été douce, hélas ! Il m'en cuit ;</l>
+	<l id='203'>Car c'est ce qui vous gâte.</l>
+<note type="L">Séves : il existe une petite commune dans le Cotentin au sud-ouest de Carentan nommée Séves.</note>
+<p id='9'>
+	<s id='1'>Je me corrigerai, je me corrigerai à l'avenir ; si je vous eusse traité avec un peu moins de complaisance, vous ne manqueriez pas à un devoir aussi essentiel... </s>
+	<s id='2'>Vous seriez venu trente fois pour une à Séves, savoir si j'y étais.</s>
+</p>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>LA COMTESSE, au Marquis, à part.</speaker>
+<p id='10'>
+	<s id='1'>La surprise m'a pétrifiée au point de pouvoir à peine ouvrir la bouche.</s>
+</p>
+<stage>AIR: Des fraises.</stage>
+	<l id='204'>Marquis qu'en dites-vous ?</l>
+	<l id='205'>La petite personne</l>
+	<l id='206'>A le ton modeste et doux :</l>
+	<l id='207'>Cette scene devant nous</l>
+	<l id='208'>Est bonne ;</l>
+	<l id='209'>Mais bonne,</l>
+	<l id='210'>Très-bonne.  </l>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS, à la Comtesse.</speaker>
+<p id='11'>
+	<s id='1'>C'est de l'excellent comique. </s>
+	<s id='2'>Oh ! </s>
+	<s id='3'>En honneur ! </s>
+	<s id='4'>Ce ne peut pas être là Madame Pot-de-vin ; ce sont bien ses traits ; mais vous verrez que ce sera quelqu'homme travesti, et caché sous un masque qui rend à merveille toute sa laideur.</s>
+</p>
+<stage>Même air que le Couplet précédent.</stage>
+	<l id='211'>De ce Sexe charmant</l>
+	<l id='212'>Jusques dans ces caprices,</l>
+	<l id='213'>Elle n'est pas, sûrement.....</l>
+	<l id='214'>Elle a tout l'air d'un Sergent</l>
+	<l id='215'>Des Suisses,</l>
+	<l id='216'>Des Suisses,</l>
+	<l id='217'>Des Suisses.</l>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>LA COMTESSE, à part, à sa Société.</speaker>
+<p id='12'>
+	<s id='1'>Je n'y tiens pas, cela est excédent.... </s>
+	<s id='2'>Cette bourgeoise nous connaît et se conduit ainsi ! </s>
+	<s id='3'>Elle se moque de nous, sortons.</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='13'>
+	<s id='1'>Je suis à vos ordres.</s>
+</p>
+</sp>
+<sp who='MADEMOISELLE-ADÉLAÏDE'><speaker>MADEMOISELLE ADÉLAÏDE.</speaker>
+<p id='14'>
+	<s id='1'>Il y a longtemps que je voudrais être dehors.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-PODOLIE'><speaker>MONSIEUR DE PODOLIE.</speaker>
+<p id='15'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Mesdames, par grâce demeurez ; ce malheureux homme serait au désespoir... </s>
+</p>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>LA COMTESSE, finissant cet A parte.</speaker>
+<p id='16'>
+	<s id='1'>Voyons donc ce que cela deviendra.</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN,</speaker>
+<stage>Qui pendant ce dialogue doit souffler, s'éventer, menacer son mari.</stage>
+<p id='17'>
+	<s id='1'>Demandez à mon neveu ce que j'ai souffert : il me donnait le bras ; j'aurais pris aussi le vôtre, imbécille, et j'eusse été bien moins fatiguée... </s>
+	<s id='2'>Je fais mes excuses à ces Dames et à ces Messieurs ; l'agitation dans laquelle vous m'avez mise, m'a empêchée de les saluer plutôt.</s>
+</p>
+</sp>
+<sp who='MADAME-LA-COMTESSE'><speaker>LA COMTESSE.</speaker>
+<p id='18'>
+	<s id='1'>Nous ne nous en sommes aperçus, Madame, que par l'intérêt que nous avons pris à l'aventure désagréable qui vous est arrivée.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-L-ABBÉ-PATELIN'><speaker>MONSIEUR L'ABBÉ PATELIN.</speaker>
+<p id='19'>
+	<s id='1'>Désagréable au possible, Madame.</s>
+</p>
+<stage>AIR: Cela m'en bien dur.</stage>
+	<l id='218'>Comme j'ai plaint ma chère Tante !...</l>
+	<l id='219'>J'en avais les larmes aux yeux :</l>
+	<l id='220'>C'est la chaleur qui la tourmente ;</l>
+	<l id='221'>Puis, ce sont des chemins affreux !</l>
+	<l id='222'>Ah ! Mon Oncle !... Vous avez tort.</l>
+	<l id='223'>Je pense</l>
+	<l id='224'>Que ce trait l'offense,</l>
+	<l id='225'>Et bien fort ;</l>
+	<l id='226'>Mais son coeur est bon :</l>
+	<l id='227'>Demandez pardon.</l>
+	<l id='228'>Vous l'obtiendrez, j'en suis sûr, mon cher oncle.</l>
+</sp>
+<sp who='MONSIEUR-POT-DE-VIN'><speaker>MONSIEUR POT-DE-VIN.</speaker>
+<note type="L">Butor : Gros oiseau, espèce de héron fainéant et poltron. On dit figurément d'un homme stupide et maladroit que c'est un butor. [F]</note>
+<p id='20'>
+	<s id='1'>Peste soit du butor ! Mais il faut filer doux. </s>
+</p>
+<stage>Haut.</stage>
+<p id='21'>
+	<s id='1'>Qu'à cela ne tienne, pourvu que je ne sois plus grondé; que nous soupions bien, et que la compagnie soit contente.</s>
+</p>
+<stage>AIR : Quoi ! vous partez, etc.</stage>
+	<l id='229'>Et que, surtout, ma femme me promette,</l>
+	<l id='230'>Que cette nuit on approche du mien</l>
+	<l id='231'>Son lit jumeau ; qu'en un mot on les mette</l>
+	<l id='232'>Tous deux unis comme mon coeur au sien.</l>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='22'>
+	<s id='1'>Peut-on sans indiscrétion vous demander, Madame, l'histoire des lits jumeaux ; elle doit être intéressante.</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='23'>
+	<s id='1'>Cela est tout simple. </s>
+	<s id='2'>Nous avons chacun notre lit dans la même chambre, et ils sont jumeaux... </s>
+	<s id='3'>Vous savez mieux que personne, Monsieur le Marquis, que les femmes et les maris d'une certaine façon ne couchent plus ensemble... </s>
+	<s id='4'>Il a fallu s'assujettir à l'usage ; mais on y déroge quelquefois et ce souvenir-là est une petite gaillardise de Monsieur Pot-de-vin, qu'il aurait dû réserver pour un autre temps.</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='24'>
+	<s id='1'>Votre morale est trop sévère, Madame Pot-de-vin, c'est une misère exactement, dont personne ne peut se formaliser.</s>
+</p>
+<stage>AIR: Ne v'là-t-t-il pas que j'aime ?</stage>
+	<l id='233'>Votre sexe l'excusera,</l>
+	<l id='234'>En faveur de l'idée :</l>
+	<l id='235'>Et chacun de nous y verra</l>
+	<l id='236'>Ses voeux et sa pensée.</l>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='25'>
+	<s id='1'>Vous êtes trop aimable, Monsieur le Marquis ; Vous ne perdez jamais l'occasion de dire une chose honnête.</s>
+</p>
+<stage>Même Air que le précédent.</stage>
+	<l id='237'>Ce que Maman m'a souvent dit,</l>
+	<l id='238'>Vous le prouvez sans cesse :</l>
+	<l id='239'>Combien la naissance et l'esprit</l>
+	<l id='240'>Donnent de politesse !</l>
+<stage>Le Marquis fait la révérence.</stage>
+</sp>
+<sp who='MADEMOISELLE-ADÉLAÏDE'><speaker>MADEMOISELLE ADÉLAÏDE, à part à la Comtesse.</speaker>
+<p id='26'>
+	<s id='1'>La Maman de Madame Pot-de-vin ; c'est un trait de mémoire unique : car il y a quarante ans que la bonne femme doit être morte.</s>
+</p>
+</sp>
+<sp who='MONSIEUR-DE-PODOLIE'><speaker>MONSIEUR DE PODOLIE, à part, à Madame la Comteesse et à Mademoiselle Adélaïde.</speaker>
+<p id='27'>
+	<s id='1'>J'espère, Mesdames, que vous ne serez point fâchées d'être restées. </s>
+	<s id='2'>L'arrangement des lits, les douceurs de Monsieur le Marquis ; voilà pour Madame Pot-de-vin de l'utile et de l'agréable ; son front est déjà plus serein.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE DERNIÈRE. Les Personnages Précédents, Babet.</head>
+<sp who='BABET'><speaker>BABET.</speaker>
+<p id='1'>
+	<s id='1'>Madame est servie.</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN.</speaker>
+<p id='2'>
+	<s id='1'>Monsieur Pot-de-vin, suppliez Madame la Comtesse d'accepter votre main, Mademoiselle Adélaïde prendra celle de Monsieur de Podolie.  </s>
+</p>
+<stage>Monsieur Pot-de-vin donne le bras à la Comtesse ; Monsieur de Podolie à Mademoiselle Adélaïde, et ils sortent.</stage>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS, offrant sa main à Madame Pot-de-vin.</speaker>
+<p id='3'>
+	<s id='1'>Et moi, Madame, je vous demanderai la même grâce.</s>
+</p>
+</sp>
+<sp who='MADAME-POT-DE-VIN'><speaker>MADAME POT-DE-VIN, l'acceptant.</speaker>
+<p id='4'>
+	<s id='1'>Monsieur le Marquis, c'est bien de l'honneur que vous me faites. </s>
+</p>
+<stage>Et à son neveu, en s'en allant.</stage>
+<p id='5'>
+	<s id='1'>L'Abbé, fermez la porte...</s>
+</p>
+</sp>
+<sp who='MONSIEUR-L-ABBÉ-PATELIN'><speaker>L'ABBÉ.</speaker>
+<p id='6'>
+	<s id=''>Oui, ma chère Tante. </s>
+</p>
+<stage>Et il la ferme.</stage>
+<stage>Qui a Compagnon, a Maître.  </stage>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

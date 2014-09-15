@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ROLAND, TRAGÉDIE EN MUSIQUE</title>
+				<author born='1635' born_location='Paris' death='1688' death_location='Paris' academie='1670'>QUINAULT, Philippe</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, Septembre 2013.</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Opéra</genre>
+				<inspiration>Histoire française</inspiration>
+				<structure>Cinq actes, un prologue</structure>
+				<type>vers</type>
+				<periode>1681-1690</periode>
+				<taille>1000-1250</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k55025402</permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">ROLAND</titlePart>
+			<titlePart type="sub">Tragédie en musique</titlePart>
+			<titlePart type="sub">Représentée devant S. M., à Versailles, le huitième janvier 1685</titlePart>
+		</docTitle> 
+		<docDate value='1685'>M. DCC. IX. Avec Privilège de Sa Majesté.</docDate>
+		<docAuthor id='QUINAULT, Philippe' bio='quinault'></docAuthor>
+		<docImprint>
+				<privilege id=''></privilege>
+				<acheveImprime id=''></acheveImprime>
+				<printer id=''>À PARIS, Chez Christophe Ballard, seul imprimeur du Roi pour la Musique, rue Saint-Jean de Beauvais, à Mont-Parnasse.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='1685-01-18' location='Château de Versailles'>Représenté par l'Académie royale de musique, le 17 avril 1782 à Versailles. Et remise au théâtre le quinzième Novembre 1709.</premiere>
+		</performance>
+		<castList><head>ACTEURS DU PROLOGUE</head>
+			<castItem><role id="DÉMOGORGON" civil='M' type="F" statut='roi' age='A' stat_amour='néant'>DÉMOGORGON</role>, roi des Fées. Monsieur Hardouin</castItem>
+		
+			<castItem><role id="TROUPE DE FÉES" civil='F' type="F" statut='fée' age='A' stat_amour='néant'>TROUPE DE FÉES</role>.</castItem>
+			<castItem><role id="TROUPE DE GÉNIES DE LA TERRE" civil='G' type="G" statut='génie' age='A' stat_amour='néant'>TROUPE DE GÉNIES DE LA TERRE</role>.</castItem>
+			<castItem><role id="LA PRINCIPALE FÉE" civil='F' type="F" statut='fée' age='A' stat_amour='néant'>LA PRINCIPALE FÉE</role>. Mademoiselle Dujardin</castItem>
+			<castItem><role id="UNE FÉE" civil='F' type="F" statut='fée' age='A' stat_amour='néant'>UNE FÉE</role>. Mademoiselle d'Huqueville</castItem>
+	</castList>
+	<castList><head>ACTEURS DE LA TRAGÉDIE</head>
+		<castItem><role id="ANGÉLIQUE" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>ANGÉLIQUE</role>, Reine de Catay. Mademoiselle Journet</castItem>
+		<castItem><role id="TÉMIRE" civil='F' type="H" statut='confident' age='A' stat_amour='néant'>TÉMIRE</role>, confidente d'Angélique. Mademoiselle Poussin</castItem>
+		<castItem><role id="MÉDOR" civil='M' type="H" statut='suivant' age='A' stat_amour='néant'>MÉDOR</role>, suivant d'un des Rois Africains. Monsieur Chopelet</castItem>
+		<castItem><role id="ZILIANTE" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>ZILIANTE</role>, Prince des îles orientales. Monsieur Dun</castItem>
+		<castItem><role id="TROUPE D'INSULAIRES" civil='G' type="H" statut='suite' age='A' stat_amour='néant'>TROUPE D'INSULAIRES</role> de la suite de Ziliante.</castItem>
+		<castItem><role id="INSULAIRES" civil='M' type="H" statut='peuple' age='A' stat_amour='néant'>INSULAIRES</role>. Messieurs Mantienne et Beaufort</castItem>
+		<castItem><role id="ROLAND" civil='M' type="H" statut='paladin' age='A' stat_amour='néant'>ROLAND</role>, neveu de Charlemagne et le plus renommé des Paladins. Monsieur Thévenard</castItem>
+		<castItem><role id="TROUPE D'AMOURS" civil='M' type="D" statut='amour' age='A' stat_amour='néant'>TROUPE D'AMOURS</role>.</castItem>
+		<castItem><role id="DEUX AMANTES ENCHANTÉES" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>DEUX AMANTES ENCHANTÉES</role>, Mesdemoiselles d'Huqueville, et Véron.</castItem>
+		<castItem><role id="TROUPES DE SIRÈNES" civil='F' type="D" statut='sirène' age='A' stat_amour='néant'>TROUPES DE SIRÈNES</role>.</castItem>
+		<castItem><role id="TROUPES DE DIEUX DE FLEUVES" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>TROUPES DE DIEUX DE FLEUVES</role>.</castItem>
+		<castItem><role id="TROUPES DE SILVAINS" civil='G' type="D" statut='silvain' age='A' stat_amour='néant'>TROUPES DE SILVAINS</role>.</castItem>
+		<castItem><role id="TROUPE D'AMANTS ENCHANTÉS et D'AMANTES ENCHANTÉES" civil='G' type="H" statut='berger' age='A' stat_amour='néant'>TROUPE D'AMANTS ENCHANTÉS et D'AMANTES ENCHANTÉES</role>.</castItem>
+		<castItem><role id="TROUPE DE PEUPLES DE CATAY" civil='G' type="H" statut='peuple' age='A' stat_amour='néant'>TROUPE DE PEUPLES DE CATAY</role>, Sujets d'Angélique.</castItem>
+		<castItem><role id="SUIVANTE D'ANGÉLIQUE" civil='F' type="H" statut='suivant' age='A' stat_amour='néant'>SUIVANTE D'ANGÉLIQUE</role>. Mademoiselle Véron.</castItem>
+		<castItem><role id="SUIVANTS D'ANGÉLIQUE" civil='M' type="H" statut='suivant' age='A' stat_amour='néant'>SUIVANTS D'ANGÉLIQUE</role>. Messieurs Grasnet et Buzeau.</castItem>
+		<castItem><role id="ASTOLFE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ASTOLFE</role>, ami de Roland. Monsieur Buzeau</castItem>
+		<castItem><role id="CORIDON" civil='M' type="H" statut='berger' age='A' stat_amour='néant'>CORIDON</role>, berger, amant de Bélise. Monsieur Cochereau </castItem>
+		<castItem><role id="BÉLIZE" civil='F' type="H" statut='berger' age='A' stat_amour='néant'>BÉLIZE</role>, bergère, amante de Coridon. Mademoiselle Poussin</castItem>
+		<castItem><role id="TERSANDRE" civil='M' type="H" statut='berger' age='A' stat_amour='néant'>TERSANDRE</role>, berger, Père de Bélise. Monsieur Desvoyes</castItem>
+		<castItem><role id="TROUPE DE BERGERS" civil='G' type="H" statut='berger' age='A' stat_amour='néant'>TROUPE DE BERGERS</role>.</castItem>
+		<castItem><role id="TROUPE DE BERGÈRES" civil='G' type="H" statut='berger' age='A' stat_amour='néant'>TROUPE DE BERGÈRES</role>.</castItem>
+		<castItem><role id="LOGISTILLE" civil='F' type="F" statut='fée' age='A' stat_amour='néant'>LOGISTILLE</role>, l'une des puissantes fées, et celle qui a la Sagesse en partage. Mademoiselle Dujardin</castItem>
+		<castItem><role id="TROUPE DE FÉES" civil='G' type="F" statut='fée' age='A' stat_amour='néant'>TROUPE DE FÉES</role> de la suite de Logistille.</castItem>
+		<castItem><role id="TROUPE D'OMBRES D'ANCIENS HÉROS" civil='G' type="F" statut='fantôme' age='A' stat_amour='néant'>TROUPE D'OMBRES D'ANCIENS HÉROS</role>.</castItem>
+		<castItem><role id="LA GLOIRE" civil='F' type="A" statut='allégorie' age='A' stat_amour='néant'>LA GLOIRE</role>, Mademoiselle Boisé.</castItem>
+		<castItem><role id="SUITE DE LA GLOIRE" civil='G' type="A" statut='suite' age='A' stat_amour='néant'>SUITE DE LA GLOIRE</role>.</castItem>
+		<castItem><role id="LA TERREUR" civil='F' type="A" statut='allégorie' age='A' stat_amour='néant'>LA TERRUR</role>.</castItem>
+		<castItem><role id="LA RENOMÉE" civil='F' type="A" statut='allégorie' age='A' stat_amour='néant'>LA RENOMÉE</role>.</castItem>
+
+		</castList>
+	<set location='Lieu mythologique' country='Pays mythologique' periode='Temps mythologiques' link=''></set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>PROLOGUE</head>
+<div2 type='scene' n='1'><head></head>
+<stage>Le théâtre représente le palais de Démogorgon. Demogorgon est sur son trône, accompagné d'une troupe de génies, et d'une troupe de fées.</stage>
+<sp who='DÉMOGORGON'><speaker>DÉMOGORGON.</speaker>
+	<l id="1">Le ciel qui m'a fait votre roi,</l>
+	<l id="2">Dans votre destin m'intéresse :</l>
+	<l id="3">Je vous assemble ici pour calmer votre effroi ;</l>
+	<l id="4">Il est temps que les jeux chassent votre tristesse.</l>
+	<l id="5">La paix fuyait au bruit des terribles combats,</l>
+	<l id="6">Mais la voix du vainqueur la rappelle ici bas.</l>
+	<l id="7">La guerre impitoyable, et ses fureurs affreuses,</l>
+	<l id="8">Ne ravageront point vos retraites heureuses.</l>
+	<l id="9">Tout cède au plus grand des héros,</l>
+	<l id="10">En vain l'Envie et la Rage s'assemblent,</l>
+	<l id="11">Il ne punit ses ennemis qui tremblent,</l>
+	<l id="12">Qu'en les condamnant au repos.</l>
+</sp>
+<sp who='DÉMOGORGON'><speaker>DÉMOGORGON, La Principale Fée, et Les Choeurs Des Génies et des Fées.</speaker>
+	<l id="13">On n'entend plus le bruit des armes.</l>
+	<l id="14">Doux plaisirs, reprenez vos charmes.</l>
+	<l id="15">Jeux innocents, venez vous rassembler ;</l>
+	<l id="16">Rien ne vous peut troubler.</l>
+<stage>Les Fées témoignent leur joie en dansant et en chantant.</stage>
+</sp>
+<sp who='LE CHOEUR DES FÉES'><speaker>LE CHOEUR DES FÉES.</speaker>
+	<l id="17">Que la guerre est effroyable !</l>
+	<l id="18">Quel bien est plus doux que la paix ?</l>
+	<l id="19">Peut-on trop chérir ses attraits ?</l>
+	<l id="20">Que son règne est aimable !</l>
+	<l id="21">Qu'il dure à jamais !</l>
+	<l id="22">Nous n'aurons que de beaux jours.</l>
+	<l id="23">Que de jeux vont paraître !</l>
+	<l id="24">Que nous verrons naître</l>
+	<l id="25">De tendres amours !</l>
+	<l id="26">Tout rit, tout enchante :</l>
+	<l id="27">Chantons la paix charmante,</l>
+	<l id="28">Chantons le sort heureux</l>
+	<l id="29">Qui va combler nos voeux.</l>
+	<l id="30">Chantons tous la paix charmante,</l>
+	<l id="31">Chantons le sort heureux</l>
+	<l id="32">Qui va combler nos voeux.</l>
+</sp>
+<sp who='LA PRINCIPALE FÉE'><speaker>LA PRINCIPALE FÉE.</speaker>
+	<l id="33">Au milieu d'une paix profonde,</l>
+	<l id="34">Offrons des jeux nouveaux au héros glorieux,</l>
+	<l id="35">Qui prend soin du bonheur du monde.</l>
+	<l id="36">Allons nous transformer pour paraître à ses yeux.</l>
+</sp>
+<sp who="DÉMOGORGON"><speaker>DÉMOGORGON.</speaker>
+	<l id="37">Du célèbre Roland renouvelons l'histoire.</l>
+	<l id="38">La France lui donna le jour :</l>
+	<l id="39">Montrons les erreurs où l'amour</l>
+	<l id="40">Peut engager un coeur qui néglige la gloire.</l>
+</sp>
+<sp who="DÉMOGORGON, LA PRINCIPALE FÉE"><speaker>DÉMOGORGON et LA PRINCIPALE FÉE.</speaker>
+	<l id="41">Allons faire entendre nos voix</l>
+	<l id="42">Sur les bords heureux de la Seine,</l>
+	<l id="43">Allons faire entendre nos voix</l>
+	<l id="44">Au vainqueur dont tout suit les lois.</l>
+</sp>
+<sp who="DÉMOGORGON"><speaker>DÉMOGORGON.</speaker>
+	<l id="45">Il avait mis aux fers la Discorde inhumaine ;</l>
+	<l id="46">En vain elle a rompu sa chaîne,</l>
+	<l id="47">Il l'enchaîne encore une fois.</l>
+</sp>
+<sp who="DÉMOGORGON, LA PRINCIPALE FÉE, LES CHOEURS"><speaker>DÉMOGORGON, LA PRINCIPALE FÉE ET LES CHOEURS.</speaker>
+	<l id="48">Allons faire entendre nos voix</l>
+	<l id="49">Sur les bords heureux de la Seine,</l>
+	<l id="50">Allons faire entendre nos voix</l>
+	<l id="51">Au vainqueur dont tout suit les lois.</l>
+<stage>Les Génies et les Fées font un essai des danses et des chansons qu'ils veulent préparer.</stage>
+</sp>
+<sp who='UNE FÉE'><speaker>UNE FÉE chante, et les ch?urs des génies et des fées lui répondent.</speaker>
+	<l id="52">C'est l'amour qui nous menace ;</l>
+	<l id="53">Que de coeurs sont en danger !</l>
+	<l id="54">Quelques maux que l'Amour fasse,</l>
+	<l id="55">On ne peut s'en dégager.</l>
+	<l id="56">Il revient quand on le chasse,</l>
+	<l id="57">Il se plaît à se venger.</l>
+	<l id="58">C'est l'amour qui nous menace ;</l>
+	<l id="59">Que de coeurs sont en danger !</l>
+</sp>
+<sp who="DÉMOGORGON, LA PRINCIPALE FÉE, LES CHOEURS"><speaker>DÉMOGORGON, LA PRINCIPALE FÉE, et LES CHOEURS DES GÉNIES et des FÉES, chantent ensemble.</speaker>
+	<l id="60">Le vainqueur a contraint la guerre</l>
+	<l id="61">D'éteindre son flambeau : </l>
+	<l id="62">Il rend le repos à la terre,</l>
+	<l id="63">Quel triomphe est plus beau !</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I.</head>
+<stage>Le théâtre représente un hameau.</stage>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="64">Ah ! Que mon coeur est agité !</l>
+	<l id="65">L'amour y combat la fierté,</l>
+	<l id="66">Je ne sais qui des deux l'emporte ;</l>
+	<l id="67">Quelquefois la fierté demeure la plus forte,</l>
+	<l id="68">Quelquefois l'amour est vainqueur ;</l>
+	<l id="69">De moment en moment une guerre mortelle</l>
+	<l id="70">Dans mon âme se renouvelle.</l>
+	<l id="71">Quel trouble ! Hélas ! Quelle rigueur !</l>
+	<l id="72">Funeste amour, fierté cruelle,</l>
+	<l id="73">Ne cesserez-vous point de déchirer mon coeur ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Angélique, Temire.</head>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="74">Vous avez peu d'impatience</l>
+	<l id="75">de voir le riche don qu'on va vous pr2senter.</l>
+	<l id="76">C'est un prix que Roland vous a fait apporter</l>
+	<l id="77">Des rivages lointains où le jour prend naissance.</l>
+	<l id="78">Pour vous par mille exploits il a su l'acheter,</l>
+	<l id="79">Serez-vous sans reconnaissance ?</l>
+	<l id="80">Faut-t-il que tant d'amour ne puisse mériter</l>
+	<l id="81">Qu'une éternelle indifférence ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="82">L'invincible Roland n'a que trop fait pour moi,</l>
+	<l id="83">Fais-moi ressouvenir de ce que je lui dois.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="84">Pourriez-vous oublier l'ardeur dont il vous aime ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="85">Je songe, autant que je le puis,</l>
+	<l id="86">À sa rare valeur, à son amour extrême :</l>
+	<l id="87">Mais malgré tous mes soins, dans le trouble où je suis</l>
+	<l id="88">Je crains de m'oublier moi-même.</l>
+	<l id="89">Je crains que ma fierté ne succombe en ce jour.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="90">Aimez Roland à votre tour,</l>
+	<l id="91">Il n'est point de climats où sa gloire ne vole.</l>
+	<l id="92">Du moins, la fierté se console</l>
+	<l id="93">Quand la gloire l'oblige à céder à l'amour.</l>
+	<l id="94">Roland reverse tout par l'effort de ses armes,</l>
+	<l id="95">Son bras sait affermir un trône chancelant...</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="96">Hélas ! Hélas ! Que Médor a de charmes !</l>
+	<l id="97">Ah ! Que n'a-t-il la gloire de Roland !</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="98" part='i'>Médor !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="98" part='f'>Ma faiblesse t'étonne.</l>
+	<l id="99">Ne me déguise rien, parle, je te l'ordonne,</l>
+	<l id="100">Représente à mon coeur la honte de son choix.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="101">Médor d'un sang obscur a reçu la lumière.</l>
+	<l id="102">Pourrait-il être aimé d'une reine si fière ?</l>
+	<l id="103">D'une reine qui sous ses lois</l>
+	<l id="104">Ne voit qu'avec mépris les héros et les rois ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="105">Mon coeur était tranquille, et croyait toujours l'être,</l>
+	<l id="106">Quand je trouvai Médor, blessé, près de mourir.</l>
+	<l id="107">La pitié dans ce lieu champêtre</l>
+	<l id="108">M'arrêta pour le secourir.</l>
+	<l id="109">Le prix de mon secours est le mal que j'endure ;</l>
+	<l id="110">La pitié pour Médor a su trop m'attendrir.</l>
+	<l id="111">Ma funeste langueur s'augmentait à mesure</l>
+	<l id="112">Qu'il guérissait de sa blessure,</l>
+	<l id="113">Si je suis en danger de ne jamais guérir.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="114">Éloignez de vos yeux ce qui peut trop vous plaire.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="115">Ma gloire le demande, il faut la satisfaire :</l>
+	<l id="116">Il faut bannir Médor... Bannir Médor ? Hélas !</l>
+	<l id="117">C'est me condamner au trépas.</l>
+	<l id="118">Il n'importe... Il le faut... Qu'il parte... Qu'il me quitte.</l>
+<stage>Elle aperçoit Médor.</stage>
+	<l id="119">Il rêve, il tourne ici ses pas.</l>
+	<l id="120">Que je suis interdite !</l>
+	<l id="121">Ne m'abandonne pas.</l>
+<stage>Angélique et Temire se retirent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="122">Ah ! Quel tourment</l>
+	<l id="123">De garder en aimant</l>
+	<l id="124">Un éternel silence !</l>
+	<l id="125">Ah ! Quel tourment </l>
+	<l id="126">D'aimer sans espérance !</l>
+	<l id="127">J'aime une reine, hélas ! Par quel enchantement</l>
+	<l id="128">Ai-je oublié son rang et ma naissance,</l>
+	<l id="129">Et combien entre nous le sort met de distance !</l>
+	<l id="130">Malheureux que je suis, j'aime un objet charmant</l>
+	<l id="131">Que tant de rois ont aimé vainement !</l>
+	<l id="132">Je dois cacher un amour qui l'offense ;</l>
+	<l id="133">Il faut me faire à tout moment</l>
+	<l id="134">Une cruelle violence.</l>
+	<l id="135">Ah ! Quel tourment</l>
+	<l id="136">De garder en aimant</l>
+	<l id="137">Un éternel silence !</l>
+	<l id="138">Ah ! Quel tourment</l>
+	<l id="139">D'aimer sans espérance !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCENE IV. Médor, Angélique, Temire.</head>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="140">De la part de Roland, on vient jusqu'en ces lieux</l>
+	<l id="141">Vous offrir un don précieux.</l>
+	<l id="142">Il vous aime, il vous sert, son amour peut paraître,</l>
+	<l id="143">Et tout absent qu'il est, il vous le fait connaître :</l>
+	<l id="144">Ses travaux quels qu'ils soient sont trop récompensés,</l>
+	<l id="145" part='i'>Ô trop heureux Roland !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="145" part='f'>Roland sera peut-être</l>
+	<l id="146">Moins heureux que vous ne pensez.</l>
+	<l id="147">Plus son amour éclate, et plus il m'importune,</l>
+	<l id="148">J'ai honte de lui trop devoir.</l>
+	<l id="149">Non, n'enviez point sa fortune.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="150">Il est vrai qu'il n'a pas le plaisir de vous voir.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="151">Je le fuis, et sans lui désormais je n'aspire</l>
+	<l id="152">Qu'à retourner dans mon empire.</l>
+	<l id="153">Enfin, Médor, enfin, je veux savoir</l>
+	<l id="154">Si j'ai sur vous un absolu pouvoir.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="155">Vous êtes de mon sort maîtresse souveraine.</l>
+	<l id="156">Je servais un grand roi, j'avais suivi ses pas</l>
+	<l id="157">Des rivages du Nil jusqu'aux bords de la Seine.</l>
+	<l id="158">Il est mort en cherchant la gloire et les combats ;</l>
+	<l id="159">Sans vous j'allais le suivre au delà du trépas.</l>
+	<l id="160">Vous servir est ma seule envie,</l>
+	<l id="161">J'en fais mon espoir le plus doux ;</l>
+	<l id="162">Vous m'avez conservé la vie,</l>
+	<l id="163">Heureux si je la perds pour vous !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="164">Médor, vous avez lieu de croire</l>
+	<l id="165">Que je m'intéresse en vos jours :</l>
+	<l id="166">J'en ai pris soin, le ciel a béni mon secours,</l>
+	<l id="167">À la fin il est temps d'avoir soin de ma gloire.</l>
+	<l id="168">Par pitié, près de vous, j'ai voulu demeurer,</l>
+	<l id="169">Tandis que mon secours vous était nécessaire :</l>
+	<l id="170">Ma pitié n'a plus rien à faire,</l>
+	<l id="171">Il est temps de nous séparer.</l>
+	<l id="172" part='i'>Partez Médor.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="172" part='m'>Ô ciel !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="172" part='f'>Partez sans différer.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="173">Hélas ! Ai-je pu vous déplaire ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="174">Non, non, je n'ai point de colère...</l>
+	<l id="175">Laissons des discours superflus.</l>
+	<l id="176" part='i'>Partez.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="176" part='f'>Je ne vous verrai plus !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="177">Choisissez ou vous voulez vivre,</l>
+	<l id="178">Je prendrai soin de votre sort.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="179">Vous me défendez de vous suivre,</l>
+	<l id="180">Je ne veux chercher que la mort.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="181">Vivez, conservez mon ouvrage,</l>
+	<l id="182">Songez que c'est me faire outrage</l>
+	<l id="183">De voir vos jours avec mépris,</l>
+	<l id="184">Après le soin que j'en ai pris.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="185">Vous voulez que je vive, et votre arrêt me chasse,</l>
+	<l id="186">Mes jours à vous servir ne sont pas réservés.</l>
+	<l id="187">Eh que voulez-vous que je fasse</l>
+	<l id="188">De ces jours malheureux que vous m'avez sauvés ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="189">Puissiez-vous loin de moi jouir d'un sort paisible.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="190">Loin de vous ! Ciel ! Est-t-il possible ?</l>
+	<l id="191">Ah ! Fallait-t-il me secourir ?</l>
+	<l id="192">Que ne me laissiez-vous mourir ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="193">Terminons des regrets qui pourraient trop s'étendre :</l>
+	<l id="194">Ne me dites plus rien, je ne veux rien entendre.</l>
+	<l id="195">Il est temps de nous séparer ;</l>
+	<l id="196" part='i'>Partez Médor.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="196" part='m'>Ô ciel !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="196" part='f'>Partez sans différer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Angélique, Temire.</head>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="197">Je ne verrai plus ce que j'aime.</l>
+	<l id="198">Conçois-tu bien l'effort extrême</l>
+	<l id="199">Que pour bannir Médor je me fais aujourd'hui ?</l>
+	<l id="200">Il part désespéré, tu vois où je l'expose :</l>
+	<l id="201">Il va mourir, j'en suis la cause,</l>
+	<l id="202">Je mourrai bientôt après lui.</l>
+	<l id="203">Non, un trop tendre amour dans ses jours m'intéresse.</l>
+	<l id="204">Non, qu'il ne parte point, allons le rappeler...</l>
+	<l id="205">Infortunée ! Où veux-je aller ?</l>
+	<l id="206">Je vais trahir ma gloire, et montrer ma faiblesse.</l>
+	<l id="207">Ciel ! Quel est mon malheur !</l>
+	<l id="208">S'il faut que l'amour me surmonte,</l>
+	<l id="209">Je dois mourir de honte ;</l>
+	<l id="210">S'il faut l'arracher de mon coeur,</l>
+	<l id="211">Je mourrai de douleur.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="212">Le secours de l'absence</l>
+	<l id="213">Est un puissant secours.</l>
+	<l id="214">C'est l'unique espérance</l>
+	<l id="215">Des coeurs qui veulent fuir les funestes amours.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="216">Le secours de l'absence</l>
+	<l id="217">Est un cruel secours.</l>
+	<l id="218">Ah ! Quelle violence</l>
+	<l id="219">De fuir incessamment ce qui charme toujours.</l>
+</sp>
+<sp who="TEMIRE, ANGÉLIQUE"><speaker>TEMIRE et ANGÉLIQUE.</speaker>
+	<l id="220" part='i'>Le secours de l'absence</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="220" part='m'>Est un cruel secours.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="220" part='f'>Est un puissant secours.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="221">Quoi ! Médor pour jamais d'avec moi se sépare !</l>
+	<l id="222">Devais-tu m'inspirer un dessein si barbare ?</l>
+	<l id="223">Temire, j'ai suivi tes conseils rigoureux.</l>
+	<l id="224">Fais revenir Médor ; que rien ne te retienne,</l>
+	<l id="225">Va, cours... Mais s'il revient... n'importe, qu'il revienne...</l>
+	<l id="226">Attend... Je veux... Hélas ! Sais-je ce que je veux ?</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="227">Voyez ces étrangers, contraignez-vous pour eux.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="228">Ne puis-je en liberté soupirer et me plaindre ?</l>
+	<l id="229">Faudra-t-il toujours me contraindre ?</l>
+	<l id="230">Sans Médor, tout me semble affreux.</l>
+	<l id="231">Va le voir, et du moins console un malheureux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Ziliante. Troupe d'insulaires orientaux.</head>
+<sp who='ZILIANTE'><speaker>ZILIANTE, présentant un bracelet à Angélique.</speaker>
+	<l id="232">Au généreux Roland je dois ma délivrance ;</l>
+	<l id="233">D'un charme affreux sa valeur m'a sauvé ;</l>
+	<l id="234">Il n'a voulu de ma reconnaissance</l>
+	<l id="235">Que ce présent qu'il vous a réservé.</l>
+	<l id="236">Je viens, pour vous l'offrir, du rivage où l'aurore</l>
+	<l id="237">Ouvre la barrière du jour.</l>
+	<l id="238">Vous embrasez Roland d'un feu qui le dévore,</l>
+	<l id="239">Mais qui peut voir la beauté qu'il adore</l>
+	<l id="240">Voit sans étonnement l'excès de son amour.</l>
+	<l id="241">Triomphez, charmante reine,</l>
+	<l id="242">Triomphez des plus grands coeurs.</l>
+	<l id="243">Ce n'est qu'aux plus fameux vainqueurs</l>
+	<l id="244">Qu'il est permis de porter votre chaîne.</l>
+	<l id="245">Triomphez, charmante reine,</l>
+	<l id="246">Triomphez des plus grands coeurs.</l>
+<stage>Le ch?ur des insulaires chante ces derniers vers dans le temps que Ziliante présente le bracelet à Angélique, et les autres insulaires dansent à la manière de leur pays.</stage>
+</sp>
+<sp who='LE CHOEUR DES INSULAIRES'><speaker>LE CHOEUR DES INSULAIRES.</speaker>
+	<l id="247">Triomphez, charmante reine,</l>
+	<l id="248">Triomphez des plus grands coeurs.</l>
+	<l id="249">Ce n'est qu'aux plus fameux vainqueurs</l>
+	<l id="250">Qu'il est permis de porter votre chaîne.</l>
+	<l id="251">Triomphez, charmante reine,</l>
+	<l id="252">Triomphez des plus grands coeurs.</l>
+</sp>
+<sp who='DEUX INSULAIRES'><speaker>DEUX INSULAIRES.</speaker>
+	<l id="253">Dans nos climats</l>
+	<l id="254">Sans chagrin on soupire,</l>
+	<l id="255">L'amour dont nous suivons l'empire</l>
+	<l id="256">N'a que des appas.</l>
+	<l id="257">Fuyons les belles</l>
+	<l id="258">Cruelles,</l>
+	<l id="259">Craignons leur pouvoir,</l>
+	<l id="260">Que sert-t-il de les voir ?</l>
+	<l id="261">Ah ! Gardons-nous d'un amour sans espoir.</l>
+	<l id="262">Quelle peine !</l>
+	<l id="263">Quel tourment !</l>
+	<l id="264">D'être amant</l>
+	<l id="265">D'une inhumaine !</l>
+	<l id="266">Si nous devenons amoureux</l>
+	<l id="267">Aimons pour être heureux.</l>
+	<l id="268">Sans les amours</l>
+	<l id="269">On s'ennuierait de vivre,</l>
+	<l id="270">Mais nous devons cesser de suivre</l>
+	<l id="271">Qui nous fuit toujours.</l>
+	<l id="272">Fuyons les belles</l>
+	<l id="273">Cruelles,</l>
+	<l id="274">Craignons leur pouvoir,</l>
+	<l id="275">Que sert-t-il de les voir ?</l>
+	<l id="276">Ah ! Gardons-nous d'un amour sans espoir.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Angélique, Temire, suite d'Angélique.</head>
+<stage>Le théâtre change, et représente la fontaine enchantée de l'amour, au milieu d'une forêt.</stage>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="277">Un charme dangereux dans ces bois vous attire,</l>
+	<l id="278">Il faut en détourner vos pas</l>
+	<l id="279">L'amour règne en ces lieux, évitez ses appas,</l>
+	<l id="280">Heureux qui peut fuir son empire !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="281">Je porte au fond du coeur mon funeste martyre.</l>
+	<l id="282">Hélas ! Où puis-je aller ? Où puis-je fuir ? Hélas !</l>
+	<l id="283">Où l'amour ne me suive pas ?</l>
+	<l id="284">Ah ! J'ai banni Médor, ma tristesse est mortelle,</l>
+	<l id="285">Que ne le pressais-tu de me désobéir ?</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="286">Je devais vous être fidèle.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="287">Pour empêcher ma mort n'osais-tu me trahir ?</l>
+	<l id="288">Ô fidélité trop cruelle !</l>
+	<l id="289">Le trouble de mon coeur ne peut plus se calmer,</l>
+	<l id="290">Non, je n'espère plus de remède à mes peines.</l>
+	<l id="291">Merlin, dans ces forêts enchanta deux fontaines</l>
+	<l id="292">Dont l'une fait haïr, et l'autre fait aimer.</l>
+	<l id="293">C'est la fontaine de la haine</l>
+	<l id="294">Que je veux chercher en ce jour ;</l>
+	<l id="295">Hélas ! Que me sert-t-il de prendre un long détour !</l>
+	<l id="296">Je m'égare en ces bois, et ma recherche est vaine :</l>
+	<l id="297">Toujours un sort fatal malgré moi me ramène</l>
+	<l id="298">À la fontaine de l'amour.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="299">Vous devez vous guérir du mal qui vous possède,</l>
+	<l id="300">N'ayez rien à vous reprocher.</l>
+	<l id="301">Vous en trouverez le remède</l>
+	<l id="302">Si vous le voulez bien chercher.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="303">Non, je ne cherche plus la fontaine terrible</l>
+	<l id="304">Qui fait d'un tendre amour une haine inflexible ;</l>
+	<l id="305">C'est un secours cruel, je n'y puis recourir.</l>
+	<l id="306">Je haïrais Médor ! Non, il n'est pas possible,</l>
+	<l id="307">Par ce remède affreux je ne veux point guérir,</l>
+	<l id="308">Je consens plutôt à mourir.</l>
+</sp>
+<sp who="TEMIRE, SUIVANTS"><speaker>TEMIRE chante avec un suivant et une suivante d'Angelique.</speaker>
+	<l id="309">Non, on ne peut trop plaindre</l>
+	<l id="310">Un coeur qui se laisse enflammer :</l>
+	<l id="311">Ah ! Quel tourment d'aimer !</l>
+	<l id="312">Que le feu d'amour est à craindre !</l>
+	<l id="313">Qu'il est aisé de l'allumer !</l>
+	<l id="314">Qu'il est malaisé de l'éteindre !</l>
+	<l id="315">Non, on ne peut trop plaindre</l>
+	<l id="316">Un coeur qui se laisse enflammer ;</l>
+	<l id="317">Ah ! Quel tourment d'aimer !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="318">Quelqu'un vient, c'est Roland.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="319">Ce guerrier invincible</l>
+	<l id="320">Abandonne tout pour vous voir.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="321">Il se flatte d'un vain espoir.</l>
+	<l id="322">Cet anneau quand je veux peut me rendre invisible.</l>
+<stage>Angelique met dans sa bouche un anneau dont la puissance magique la rend invisible.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Roland, Angélique devenue invisible, Temire, Suite d'Angélique.</head>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="323">Belle Angélique, enfin, je vous trouve en ces lieux</l>
+	<l id="324">Ciel ! Quel enchantement vous dérobe à mes yeux !</l>
+	<l id="325">Angélique, charmante reine.</l>
+	<l id="326">Mes cris font vainement retentir ces forêts.</l>
+	<l id="327">Angélique, ingrate, inhumaine.</l>
+	<l id="328">Quel plaisir trouvez-vous dans mes tristes regrets ?</l>
+	<l id="329">Angélique, ingrate, inhumaine,</l>
+	<l id="330">Quel barbare plaisir trouvez-vous dans ma peine ?</l>
+<stage>Roland, parle à Temire.</stage>
+	<l id="331">Quelle cruauté ! Quel mépris !</l>
+	<l id="332">Tu sais ce que j'ai fait pour elle,</l>
+	<l id="333">Tu connais mon amour fidèle,</l>
+	<l id="334">Et tu vois quel en est le prix.</l>
+	<l id="335">Quelle cruauté ! Quel mépris !</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="336">Peut-on vous mépriser sans crime ?</l>
+	<l id="337">La valeur vous a fait un mérite éclatant.</l>
+	<l id="338">Si vous n'aviez jamais voulu que de l'estime,</l>
+	<l id="339">Quel mortel serait plus content !</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="340">Que devient ma vertu ? Ma force est inutile.</l>
+	<l id="341">Eh ! Que me sert-t-il aujourd'hui</l>
+	<l id="342">D'avoir les dons du ciel qu'eut autrefois Achille ?</l>
+	<l id="343">Je laisse mon roi sans appui.</l>
+	<l id="344">Il n'a plus désormais que Paris pour asile ;</l>
+	<l id="345">Les cruels africains vont triompher de lui.</l>
+	<l id="346">Je vois le sort affreux de ma triste patrie ;</l>
+	<l id="347">Elle est prête à tomber sous de barbares lois :</l>
+	<l id="348">J'entends sa gémissante voix :</l>
+	<l id="349">Mais c'est vainement qu'elle crie,</l>
+	<l id="350">Un malheureux amour m'enchante dans ces bois.</l>
+	<l id="351">Angélique. En vain je l'appelle ;</l>
+	<l id="352">Elle est sans pitié la cruelle,</l>
+	<l id="353">Eh ! Pourquoi tant souffrir ! Pourquoi</l>
+	<l id="354">N'aurai-je pas pitié de moi ?</l>
+	<l id="355">C'en est fait, et je veux que l'ingrate le sache :</l>
+	<l id="356">C'en est fait pour jamais, mes liens sont rompus ;</l>
+	<l id="357">Non, je ne la chercherai plus,</l>
+	<l id="358">C'est vainement qu'elle se cache.</l>
+	<l id="359">Non, je ne veux plus voir sa fatale beauté,</l>
+	<l id="360">Il ne m'en a que trop coûté.</l>
+	<l id="361">Le dépit éteint ma flamme :</l>
+	<l id="362">Heureuse la cruauté</l>
+	<l id="363">Qui rend la paix à mon âme !</l>
+	<l id="364">Heureuse la cruauté</l>
+	<l id="365">Qui me rend la liberté !</l>
+	<l id="366">Malheureux ! Je me flatte, et ma colère est vaine.</l>
+	<l id="367">Lâche ! Ne puis-je rompre une honteuse chaîne ?</l>
+	<l id="368">Que je sens de troubles secrets !</l>
+	<l id="369">Mon coeur suit malgré moi de funestes attraits,</l>
+	<l id="370">Je cède au charme qui m'entraîne.</l>
+	<l id="371">Angélique, ingrate, inhumaine,</l>
+	<l id="372">Quel plaisir trouvez-vous dans mes tristes regrets ?</l>
+	<l id="373">Angélique, ingrate, inhumaine,</l>
+	<l id="374">Quel barbare plaisir trouvez-vous dans ma peine ?</l>
+<stage>Angélique voyant Roland éloigné ôte son anneau magique de sa bouche, et se montre à Temire.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Angelique, Temire.</head>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="375">Où dois-je aller ?... Je vous revois.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="376">Je ne me cache pas pour toi.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="377">Roland vous cherche en vain dans ce lieu solitaire.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="378">Mon coeur est engagé, Roland ne peut me plaire,</l>
+	<l id="379">Quel espoir lui pourrais-je offrir ?</l>
+	<l id="380">Je le fuis par pitié, je ne saurais mieux faire</l>
+	<l id="381">Que de l'aider à se guérir.</l>
+	<l id="382">Où peut être Médor ? Le désespoir le presse.</l>
+	<l id="383">Que ne puis-je le retrouver !</l>
+	<l id="384">Au moins j'y veux songer sans cesse.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="385">Votre coeur pour Roland devait se réserver...</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="386">Parle-moi de Médor, ou laisse-moi rêver.</l>
+	<l id="387">C'est l'amour qui prend soin lui-même</l>
+	<l id="388">D'embellir ces aimables lieux ;</l>
+	<l id="389">Mais je n'y vois pas ce que j'aime,</l>
+	<l id="390">Rien n'y saurait plaire à mes yeux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Médor, Angélique, Temire.</head>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="391">Agréables retraites,</l>
+	<l id="392">L'amour qui vous a faites</l>
+	<l id="393">Vous destine aux amants contents.</l>
+	<l id="394">Je trouble vos douceurs secrètes,</l>
+	<l id="395">Mais dans mon désespoir mes plaintes indiscrètes</l>
+	<l id="396">Ne vous troubleront pas longtemps.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="397">C'est Médor que je viens d'entendre ! </l>
+	<l id='398' part='i'>Ciel !</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE, voulant arrêter Angélique.</speaker>
+	<l id="398" part='m'>Quoi, vous le verrez ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="398" part='f'>Eh ! Puis-je m'en défendre ?</l>
+	<l id="399">C'est trop suivre un cruel devoir ;</l>
+	<l id="400">Je retrouve Médor, l'amour veut me le rendre,</l>
+	<l id="401">Je ne puis vivre sans le voir.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="402">Fontaine, qui d'une eau si pure</l>
+	<l id="403">Arrosez ces brillantes fleurs,</l>
+	<l id="404">En vain, votre charmant murmure</l>
+	<l id="405">Flatte le tourment que j'endure.</l>
+	<l id="406">Rien ne peut enchanter mes mortelles douleurs.</l>
+	<l id="407">Ce que j'aime me fuit, et je fuis tout le monde :</l>
+	<l id="408">Pourquoi traîner plus loin ma vie et mes malheurs,</l>
+	<l id="409">Ruisseaux, je vais mêler mon sang avec votre onde,</l>
+	<l id="410">C'est trop peu d'y mêler mes pleurs.</l>
+<stage>Médor tire son épée pour s'en frapper et Angélique l'arrête.</stage>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="411" part='i'>Vivez, Medor.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="411" part='f'>Reine adorable,</l>
+	<l id="412">Vous avez trop de soin des jours d'un misérable.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="413">Pourquoi courez-vous au trépas ?</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="414">C'est un supplice insupportable</l>
+	<l id="415">De vivre et de ne vous voir pas.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="416">Je croyais que sur vous j'avais plus de puissance.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="417">Hélas ! Si vous pouviez savoir</l>
+	<l id="418">Jusqu'à quel point je vous offense...</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="419">Rien ne m'offense tant que votre désespoir.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="420">Je vivrai, si c'est votre envie ;</l>
+	<l id="421">Je vous vois, mon sort est trop doux :</l>
+	<l id="422">Mais s'il faut m'éloigner de vous,</l>
+	<l id="423">Je ne réponds pas de ma vie.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="424">Prenez soin de vos jours, Médor, vous le devez,</l>
+	<l id="425">Il m'en coûte assez cher de les avoir sauvés :</l>
+	<l id="426">Ils me sont précieux, je vous l'ai fait connaître.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="427">Généreuse reine, achevez,</l>
+	<l id="428" part='i'>Sans vous puis-je vivre ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="428" part='f'>Vivez</l>
+	<l id="429">À quelque prix que ce puisse être.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="430" part='i'>Ô ciel ! Qu'entends-je !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="430" part='f'>Il n'est plus temps</l>
+	<l id="431">Que nous craignions tous deux de nous en trop apprendre :</l>
+	<l id="432">Nous n'en disons que trop, Médor, je vous entends,</l>
+	<l id="433">Et je vous permets de m'entendre.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="434" part='i'>À vos pieds...</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="434" part='f'>Levez-vous, j'ai droit de faire un roi.</l>
+	<l id="435">Je veux unir sous même loi</l>
+	<l id="436">Votre destinée et la mienne.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="437">Ah ! Plus vous oubliez votre grandeur pour moi,</l>
+	<l id="438">Plus il faut que je m'en souvienne.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="439">Ma gloire murmure en ce jour,</l>
+	<l id="440">Je vois mon sort trop au dessus du vôtre :</l>
+	<l id="441">Mais qui peut empêcher l'amour</l>
+	<l id="442">D'unir deux coeurs qu'il a faits l'un pour l'autre ?</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="443">Témoins du désespoir dont mon coeur fut pressé,</l>
+	<l id="444">Lieux ou la mort fut mon unique attente,</l>
+	<l id="445">Qui l'aurait dit ! Qui l'eut jamais pensé</l>
+	<l id="446">Que vous seriez témoins du bonheur qui m'enchante.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. L'Amour, troupe d'Amours, troupe de Sirènes, troupe de Dieux des eaux, troupe de Nymphes et de Sylvains, troupe d'Amants enchantés, et d'Amantes enchantées.</head>
+<sp who='CHOEUR DES AMOURS'><speaker>CHOEUR DES AMOURS, qui sont autour de la fontaine.</speaker>
+	<l id="447">Aimez, aimez-vous.</l>
+</sp>
+<sp who='ANGÉLIQUE, MÉDOR, et LES CHOEURS'><speaker>ANGÉLIQUE, MÉDOR, et LES CHOEURS.</speaker>
+	<l id="448">Aimons, aimons-nous.</l>
+</sp>
+<sp who='CHOEUR DES AMOURS'><speaker>CHOEUR DES AMOURS.</speaker>
+	<l id="449">L'amour vous appelle.</l>
+	<l id="450">Que sa flamme est belle !</l>
+	<l id="451">L'amour vous appelle tous.</l>
+	<l id="452">Aimez, aimez-vous.</l>
+</sp>
+<sp who='ANGÉLIQUE, MÉDOR, et LES CHOEURS'><speaker>ANGÉLIQUE, MÉDOR, et LES CHOEURS.</speaker>
+	<l id="453">L'amour nous appelle,</l>
+	<l id="454">Que sa flamme est belle !</l>
+	<l id="455">L'amour nous appelle tous.</l>
+	<l id="456">Aimons, aimons-nous.</l>
+</sp>
+<sp who='CHOEUR DES AMOURS'><speaker>CHOEUR DES AMOURS.</speaker>
+	<l id="457">Il punit un coeur rebelle</l>
+	<l id="458">On n'évite point ses coups.</l>
+</sp>
+<sp who='ANGÉLIQUE, MÉDOR, et LES CHOEURS'><speaker>ANGÉLIQUE, MÉDOR, et LES CHOEURS.</speaker>
+	<l id="459">Quel bien est plus doux</l>
+	<l id="460">Qu'un amour fidèle ?</l>
+</sp>
+<sp who='CHOEUR DES AMOURS'><speaker>CHOEUR DES AMOURS.</speaker>
+	<l id="461">Aimez, aimez-vous.</l>
+</sp>
+<sp who='ANGÉLIQUE, MÉDOR, et LES CHOEURS'><speaker>ANGÉLIQUE, MÉDOR, et LES CHOEURS.</speaker>
+	<l id="462">Aimons, aimons-nous :</l>
+	<l id="463">L'amour nous appelle.</l>
+	<l id="464">Que sa flamme est belle !</l>
+	<l id="465">L'amour nous appelle tous :</l>
+	<l id="466">Aimons, aimons-nous.</l>
+<stage>Les amants enchantés, et les amantes enchantées dansent autour de Medor et d'Angélique.</stage>
+	<l id="467">Deux amantes enchantées.</l>
+	<l id="468">Qui goûte de ces eaux ne peut plus se défendre</l>
+	<l id="469">De suivre d'amoureuses lois :</l>
+	<l id="470">Goûtons en, mille et mille fois,</l>
+	<l id="471">Quand on prend de l'amour, on n'en saurait trop prendre.</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="472">Que pour jamais un noeud charmant nous lie.</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="473">Tendres amours,</l>
+	<l id="474">Enchantez-nous toujours.</l>
+	<l id="475">Triste raison nous fuyons ton secours.</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="476">Ô douce vie,</l>
+	<l id="477">Digne d'envie !</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="478">Ô jours heureux, que l'on vous trouve courts !</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="479">Sans rien aimer comment peut-on vivre ?</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="480">Que de plaisirs, que de jeux vont nous suivre !</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="481">Tendres amours,</l>
+	<l id="482">Enchantez-nous toujours.</l>
+	<l id="483">Fermons nos coeurs à des flammes nouvelles.</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="484">Gardons nous bien d'éteindre un feu si beau.</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="485">Vivons heureux dans des chaînes si belles.</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="486">Portons nos fers jusques dans le tombeau.</l>
+</sp>
+<sp who='LE PETIT CHOEUR'><speaker>LE PETIT CHOEUR.</speaker>
+	<l id="487">Ô douce vie,</l>
+	<l id="488">Digne d'envie !</l>
+</sp>
+<sp who='LE GRAND CHOEUR'><speaker>LE GRAND CHOEUR.</speaker>
+	<l id="489">Tendres amours,</l>
+	<l id="490">Enchantez-nous toujours.</l>
+<stage>Les amants enchantés, et les amantes enchantées, accompagnent en dansant, Médor et Angélique ; l'Amour et les Amours volent, et leur servent de guides.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Médor, Temire.</head>
+<stage>Le theatre change, et représente un port de mer.</stage>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="491">Non, je n'entends vos conseils qu'avec peine,</l>
+	<l id="492">Pour nuire à mon amour, vous avez tout tenté.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="493">Vos jours sont en péril, ils sont chers à ma reine,</l>
+	<l id="494">Ne doutez point de ma fidélité.</l>
+	<l id="495">Roland est dans ces lieux, c'est un rival terrible,</l>
+	<l id="496">Et votre perte est infaillible</l>
+	<l id="497">Si vous vous exposez à son fatal courroux.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="498">Un malheureux doit voir le trépas sans alarmes.</l>
+	<l id="499">Votre bonheur fera mille jaloux,</l>
+	<l id="500">Une fière beauté vous a rendu les armes,</l>
+	<l id="501">Vos deux coeurs sont unis, par les noeuds les plus doux.</l>
+	<l id="502">Ah ! Si la vie est sans appas pour vous,</l>
+	<l id="503">Pour qui peut-elle avoir des charmes ?</l>
+	<l id="504">Regardez le glorieux sort</l>
+	<l id="505">Que la reine avec vous partage.</l>
+	<l id="506">Ses plus zélés sujets, l'attendaient dans ce port ;</l>
+	<l id="507">Avant que d'en partir, son ordre les engage</l>
+	<l id="508">À vous rendre un pompeux hommage.</l>
+	<l id="509">Comme leur souverain, ils vont vous recevoir...</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="510">La reine m'a quitté, Roland est avec elle.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="511">Il la verra fière, et cruelle.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="512">N'importe, c'est toujours la voir,</l>
+	<l id="513">Mon inquiétude est mortelle :</l>
+	<l id="514">Eh ! Ne craint-elle point, Roland au désespoir ?</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="515">Elle le craint pour vous, c'est son unique envie</l>
+	<l id="516">De mettre en l'éloignant, vos jours en sûreté.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="517">S'il faut que ma félicité</l>
+	<l id="518">Par mon rival me soit ravie,</l>
+	<l id="519">C'est une cruauté</l>
+	<l id="520">D'avoir soin de ma vie.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="521">De ces sombres chagrins, il faut vous délivrer.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="522">Je n'osais pas espérer</l>
+	<l id="523">Le bien que l'amour me donne ;</l>
+	<l id="524">Un si grand bonheur m'étonne,</l>
+	<l id="525">Et j'ai peine à m'assurer</l>
+	<l id="526">Qu'il puisse longtemps durer.</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="527">Retirons-nous, Roland s'avance.</l>
+	<l id="528">S'il a de votre amour la moindre connaissance</l>
+	<l id="529">Rien ne vous pourra secourir.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="530">Je le veux observer, en dussai-je périr.</l>
+<stage>Médor se tient à l'écart, et écoute Roland et Angélique.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Roland, Angélique.</head>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="531">Faut-t-il encor que je vous aime ?</l>
+	<l id="532">Je dois rougir de ma faiblesse extrême ;</l>
+	<l id="533">Ingrate, vous en abusez :</l>
+	<l id="534">Plus je vous sers, plus vous me méprisez :</l>
+	<l id="535">Qu'elle honte à mon coeur d'être encor si fidèle !</l>
+	<l id="536">Pourquoi vous trouvai-je si belle ?</l>
+	<l id="537">Non, avec tant d'attraits si charmants et si doux,</l>
+	<l id="538">Vous ne méritez pas, cruelle,</l>
+	<l id="539">L'amour que j'ai pour vous.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="540">Je n'ai point perdu la mémoire</l>
+	<l id="541">De ce que je vous dois.</l>
+	<l id="542">Vous seriez délivré du trouble ou je vous vois</l>
+	<l id="543">Si vous aviez voulu me croire.</l>
+	<l id="544">Vous le savez, c'est malgré moi</l>
+	<l id="545">Qu'un si grand coeur s'obstine à languir sous ma loi,</l>
+	<l id="546">J'ai fait ce que j'ai pu pour le rendre à la gloire.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="547">Ah ! Je ne sais que trop avec quelle rigueur</l>
+	<l id="548">Vous punissez mon lâche coeur ;</l>
+	<l id="549">Votre mépris éclate, il n'est plus temps de feindre,</l>
+	<l id="550">Tous les déguisements sont vains.</l>
+	<l id="551">Je pardonne au mépris du reste des humains,</l>
+	<l id="552">Je l'ai bien mérité, j'aurais tort de m'en plaindre.</l>
+	<l id="553">J'abandonne ma gloire, et la laisse ternir,</l>
+	<l id="554">Je chéris le trait qui me blesse,</l>
+	<l id="555">De mon égarement je ne puis revenir ;</l>
+	<l id="556">Mais vous causez ma faiblesse,</l>
+	<l id="557">Est-ce à vous de m'en punir ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="558" part='i'>Hélas !</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="558" part='f'>Dans ce soupir quelle part puis-je prendre ?</l>
+	<l id="559">Peut-être un soupir si tendre</l>
+	<l id="560">S'adresse à quelque autre amant :</l>
+	<l id="561">Me le faites vous entendre</l>
+	<l id="562">Pour redoubler mon tourment ?</l>
+	<l id="563">Inhumaine ! Ah s'il est possible</l>
+	<l id="564">Qu'au mépris d'un amour qui n'eut jamais d'égal</l>
+	<l id="565">Pour un autre que moi vous deveniez sensible,</l>
+	<l id="566">Tremblez pour mon heureux rival.</l>
+	<l id="567">Dans vos yeux inquiets je lis mon infortune.</l>
+	<l id="568">Ma présence vous importune ?</l>
+	<l id="569">Vous ne songez qu'à me quitter ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="570">Si je voulais vous fuir, qui pourrait m'arrêter ?</l>
+	<l id="571">Je vous ai déjà fait connaître</l>
+	<l id="572">Qu'il m'est aisé de disparaître</l>
+	<l id="573">Aux regards importuns que je veux éviter.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="574">Ah ! Du moins, laissez-moi le seul bien qui me reste ;</l>
+	<l id="575">Laissez-moi la douceur funeste</l>
+	<l id="576">De voir de si charmants appas.</l>
+	<l id="577">C'est sans espoir que je suivrai vos pas ;</l>
+	<l id="578">Vous ne serez jamais à mes voeux favorable,</l>
+	<l id="579">Je vous verrai toujours impitoyable,</l>
+	<l id="580">Mais le plus grand des maux est de ne vous voir pas.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="581">Que ne puis-je vous fuir encore ?</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="582">Pourquoi craindre qui vous adore ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="583">Hélas ! Pourquoi m'aimez vous tant ?</l>
+	<l id="584">Un héros indomptable</l>
+	<l id="585">N'est que trop redoutable</l>
+	<l id="586">Avec un amour si constant.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="587">Ciel ! Ô ciel ! C'est pour moi qu'Angélique soupire !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="588">Vous me contraignez d'en trop dire.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="589">Vous m'aimez !</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="590">Je ne puis l'avouer qu'à regret.</l>
+	<l id="591">Votre constance est triomphante,</l>
+	<l id="592">N'en faites point un éclat indiscret,</l>
+	<l id="593">Épargnez ma fierté mourante</l>
+	<l id="594">Contentez-vous d'un triomphe secret.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="595">En des lieux écartés, dans une paix profonde,</l>
+	<l id="596">Allons jouir du sort qui va combler nos voeux.</l>
+	<l id="597">Que deux coeurs unis sont heureux</l>
+	<l id="598">D'oublier le reste du monde.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="599">Laissez-moi renvoyer des peuples empressés</l>
+	<l id="600">Dont nous serions embarrassés ;</l>
+	<l id="601">Attendez-moi plus loin, j'irai partout vous suivre,</l>
+	<l id="602">C'est pour vous seul que je veux vivre.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Angélique, Médor, Temire.</head>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="603">Ah ! Je souffre un tourment plus cruel que la mort !</l>
+</sp>
+<sp who="TEMIRE"><speaker>TEMIRE.</speaker>
+	<l id="604">Où voulez-vous aller ? Que pouvez-vous prétendre ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="605">Laisse-moi calmer son transport,</l>
+	<l id="606">Vois, si Roland ne peut point nous entendre.</l>
+<stage>Temire va du côté où Roland est passé.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Angélique, Médor.</head>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="607">Se peut-t-il qu'à ses voeux vous ayez répondu ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="608">Voulez-vous m'offenser quand vous devez me plaindre ?</l>
+	<l id="609">Pour éblouir Roland je suis réduite à feindre,</l>
+	<l id="610">Il le faut éloigner, ou vous êtes perdu.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="611">Vous le suivrez ? Non, non, que plutôt je périsse.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="612">Hélas ! Tout le pouvoir humain</l>
+	<l id="613">Contre lui s'armerait en vain,</l>
+	<l id="614">Ne nous armons que d'artifice.</l>
+	<l id="615">Médor, je tremble pour vos jours,</l>
+	<l id="616">Ils sont dans un péril extrême :</l>
+	<l id="617">À quoi n'a-t-on pas recours</l>
+	<l id="618">Pour sauver ce que l'on aime ?</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="619">Roland va m'ôter</l>
+	<l id="620">L'objet que j'adore,</l>
+	<l id="621">Qu'ai-je à redouter</l>
+	<l id="622">Que de vivre encore ?</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="623">C'est à vous que mon coeur pour jamais s'est donné ;</l>
+	<l id="624">Je ne rendrai Roland que trop infortuné ;</l>
+	<l id="625">L'amour lui vendra cher une vaine espérance.</l>
+	<l id="626">Je puis par cet anneau disparaître à ses yeux ;</l>
+	<l id="627">Bientôt, vous me verrez ; bientôt, loin de ces lieux,</l>
+	<l id="628">Nos fidèles amours seront en assurance,</l>
+	<l id="629">Je veux mettre en vos mains ma suprême puissance.</l>
+</sp>
+<sp who="MÉDOR, ANGÉLIQUE"><speaker>MÉDOR et ANGÉLIQUE, ensemble.</speaker>
+	<l id="630">Je ne veux que votre coeur,</l>
+	<l id="631">C'est l'unique empire</l>
+	<l id="632">Pour qui je soupire,</l>
+	<l id="633">Je ne veux que votre coeur,</l>
+	<l id="634">C'est assez pour mon bonheur.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="635">Vous me quittez, et je demeure</l>
+	<l id="636">Troublé du chagrin le plus noir :</l>
+	<l id="637">Ma vie est attachée au plaisir de vous voir ;</l>
+	<l id="638">Ne vaut-il pas mieux que je meure</l>
+	<l id="639">Par la main de Roland que par mon désespoir.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="640">Vivez pour moi, qu'il vous souvienne</l>
+	<l id="641">Que votre destinée est unie à la mienne,</l>
+	<l id="642">Ma mort suivrait votre trépas :</l>
+	<l id="643">Évitons un destin tragique ;</l>
+	<l id="644">Médor ne veut-t-il pas</l>
+	<l id="645">Vivre pour Angélique ?</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="646">Si je ne vivais pas pour vous,</l>
+	<l id="647">Je ne pourrais souffrir la vie.</l>
+</sp>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE.</speaker>
+	<l id="648">Vivons, l'amour nous y convie,</l>
+	<l id="649">Réservons-nous</l>
+	<l id="650">Pour nous aimer malgré l'envie ;</l>
+	<l id="651">Réservons-nous</l>
+	<l id="652">Pour vivre heureux loin des jaloux.</l>
+	<l id="653">Je ne pourrais souffrir la vie,</l>
+	<l id="654">Si je ne vivais pas pour vous.</l>
+</sp>
+<sp who="MÉDOR"><speaker>MÉDOR.</speaker>
+	<l id="655">Vivons l'amour nous y convie,</l>
+	<l id="656">Réservons-nous</l>
+	<l id="657">Pour un amour si doux.</l>
+</sp>
+<sp who="MÉDOR, ANGÉLIQUE"><speaker>MÉDOR et ANGÉLIQUE, répetent ensemble ces trois derniers vers.</speaker>
+	<l id="658">Vivons l'amour nous y convie,</l>
+	<l id="659">Réservons-nous</l>
+	<l id="660">Pour un amour si doux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Troupe de peuples de Catay, sujets d'Angélique, Angélique, Médor.</head>
+<sp who="ANGÉLIQUE"><speaker>ANGÉLIQUE parlant à ses sujets.</speaker>
+	<l id="661">Vous qui voulez faire paraître</l>
+	<l id="662">Le zèle ardent que vous avez pour moi,</l>
+	<l id="663">Reconnaissez Médor pour votre maître,</l>
+	<l id="664">Rendez hommage à votre roi.</l>
+<stage>Angelique va retrouver Roland pour l'éloigner du port ou elle veut venir s'embarquer avec Médor.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Les peuples de Catay, sujets d'Angélique, rendent hommage à Médor.</head>
+<stage>Ils l'élèvent sur un trône, et témoignent par leurs chants et par leurs danses la joie qu'ils ont de le reconnaître pour leur souverain.</stage>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+	<l id="665">C'est Médor qu'une reine si belle</l>
+	<l id="666">A choisi pour régner avec elle.</l>
+	<l id="667">Plus heureux que lui ?</l>
+	<l id="668">Un des sujets d'Angélique.</l>
+	<l id="669">Malgré l'orgueil du grand nom de reine,</l>
+	<l id="670">Elle se rend, et l'amour l'enchaîne ;</l>
+	<l id="671">De mille et mille amants son coeur s'était sauvé,</l>
+	<l id="672">Pour l'aimable Médor il était réservé.</l>
+</sp>
+<sp who="UNE DES SUIVANTES D'ANGÉLIQUE"><speaker>UNE DES SUIVANTES D'ANGÉLIQUE.</speaker>
+	<l id="673">Trop heureux un amant qui s'exempte</l>
+	<l id="674">Des chagrins d'une ennuyeuse attente !</l>
+	<l id="675">Que l'amour pour Médor a fait d'aimables noeuds !</l>
+	<l id="676">À peine est-t-il amant qu'il est amant heureux.</l>
+</sp>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+	<l id="677">Ses rivaux n'ont plus rien à prétendre,</l>
+	<l id="678">Que de plaintes se vont faire entendre !</l>
+	<l id="679">Au premier bruit d'un choix si doux</l>
+	<l id="680">Que de rois seront jaloux !</l>
+	<l id="681">Nous venons tous</l>
+	<l id="682">Vous présenter notre hommage ;</l>
+	<l id="683">Régner sur nous</l>
+	<l id="684">Est votre moindre avantage.</l>
+	<l id="685">L'amour donne un bonheur qui vaut mieux mille fois</l>
+	<l id="686">Que la pompe qui suit les plus superbes rois.</l>
+</sp>
+<sp who="UN DES SUJETS D'ANGÉLIQUE"><speaker>UN DES SUJETS D'ANGÉLIQUE.</speaker>
+	<l id="687">Angélique n'est plus insensible,</l>
+	<l id="688">Sa fierté se croyait invincible :</l>
+	<l id="689">Elle fuyait l'amour, et le fuirait encor</l>
+	<l id="690">Sans le charme puissant des regards de Médor.</l>
+</sp>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+	<l id="691">Heureux Médor ! Quelle gloire</l>
+	<l id="692">D'avoir remporté</l>
+	<l id="693">Une entière victoire</l>
+	<l id="694">Sur tant de fierté !</l>
+	<l id="695">Quel bonheur est plus rare !</l>
+	<l id="696">Que vos feux sont beaux !</l>
+	<l id="697">Que l'amour vous pr2pare</l>
+	<l id="698">De plaisirs nouveaux !</l>
+	<l id="699">C'est pour vous que sont faits</l>
+	<l id="700">Les plus doux de ses traits.</l>
+</sp>
+<sp who="UNE DES SUIVANTES D'ANGÉLIQUE"><speaker>UNE DES SUIVANTES D'ANGÉLIQUE.</speaker>
+	<l id="701">Un coeur si fier est à son tour</l>
+	<l id="702">Sensible et tendre :</l>
+	<l id="703">Médor l'obtient quand son amour</l>
+	<l id="704">N'osait l'attendre.</l>
+	<l id="705">Mais un bonheur qu'on n'attend pas</l>
+	<l id="706">N'en a que plus d'appas.</l>
+</sp>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+	<l id="707">Vous portez une riche couronne</l>
+	<l id="708">Un objet plein d'attraits vous la donne.</l>
+</sp>
+<sp who="UN DES SUJETS D'ANGÉLIQUE"><speaker>UN DES SUJETS D'ANGÉLIQUE.</speaker>
+	<l id="709">Qu'il est doux d'accorder l'amour et la grandeur !</l>
+	<l id="710">Quand on peut les unir c'est un parfait bonheur.</l>
+</sp>
+<sp who="UNE DES SUIVANTES D'ANGÉLIQUE"><speaker>UNE DES SUIVANTES D'ANGÉLIQUE.</speaker>
+	<l id="711">Tendres coeurs, puissiez vous aimer tranquillement :</l>
+	<l id="712">Il n'est point de sort plus charmant.</l>
+</sp>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+	<l id="713">Que l'amour en tous lieux vous enchante.</l>
+	<l id="714">Qu'à jamais votre ardeur soit constante.</l>
+	<l id="715">Oubliez vos grandeurs plutôt que vos amours,</l>
+	<l id="716">Votre bonheur dépend de vous aimer toujours.</l>
+</sp>
+<sp who='LE CHOEUR DE CATAY'><speaker>LE CHOEUR DE CATAY.</speaker>
+<note type="C">Les deux dernières répliques sont attribuées au même locuteurs : le choeur.</note>
+	<l id="717">Aimez, régnez, en dépit de l'envie,</l>
+	<l id="718">Goûtez les biens les plus doux de la vie ;</l>
+	<l id="719">La fortune et l'amour, la gloire et les plaisirs,</l>
+	<l id="720">Puissent-ils à jamais combler tous vos désirs.</l>
+	<l id="721">Dans la paix, dans la guerre,</l>
+	<l id="722">Dans tous les climats,</l>
+	<l id="723">Jusqu'au bout de la terre,</l>
+	<l id="724">Nous suivrons vos pas.</l>
+	<l id="725">Puisse l'heureux Médor être un des plus grands rois.</l>
+	<l id="726">Puisse-t-il rendre heureux ceux qui suivront ses lois.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Roland, Astolfe.</head>
+<stage>Le théâtre change, et représente une grotte au milieu d'un bocage.</stage>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="727">Va, ton soin m'importune, Astolfe, laisse-moi.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="728">Quel charme vous retient dans ce lieu solitaire ?</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="729">Ami, je n'ai point pour toi</l>
+	<l id="730">De secret, ni de mystère.</l>
+	<l id="731">Angélique ne me fuit plus.</l>
+	<l id="732">J'étais content de voir sa rigueur adoucie,</l>
+<note type="L">Circassie : contrée de la Russie située sur les deux versants du Caucase, entre la mer Noire à l'ouest et la mer Caspienne à l'Est. [B]</note>
+	<l id="733">Quand nous avons trouvé le roi de Circassie,</l>
+	<l id="734">Et le superbe Ferragus.</l>
+	<l id="735">Tous deux jaloux de mon bonheur extrême,</l>
+	<l id="736">M'ont abordé les armes à la main :</l>
+	<l id="737">J'allais les en punir, mais la beauté que j'aime</l>
+	<l id="738">Par son anneau magique a disparu soudain.</l>
+	<l id="739">Mes rivaux l'ont suivie en vain.</l>
+	<l id="740">Elle avait eu soin de m'apprendre</l>
+	<l id="741">Le chemin qu'elle voulait prendre.</l>
+	<l id="742">Nous nous sommes promis d'être à la fin du jour</l>
+	<l id="743">À la fontaine de l'amour ;</l>
+	<l id="744">Je suis venu trop tôt m'y rendre :</l>
+	<l id="745">Je vais au devant d'elle, ennuyé de l'attendre,</l>
+	<l id="746">Je parcours les lieux d'alentour.</l>
+	<l id="747">L'objet qui m'enchante</l>
+	<l id="748">Ne m'a jamais tant charmé :</l>
+	<l id="749">Que l'amour s'augmente,</l>
+	<l id="750">Par le plaisir d'être aimé.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="751">Cet empire en vous seul a mis son espérance :</l>
+	<l id="752">Si vous ne prenez sa défense,</l>
+	<l id="753">Il tombera dans peu de temps</l>
+	<l id="754">Sous une barbare puissance.</l>
+	<l id="755">Songez que vous perdez de précieux instants.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="756">Je songe au bonheur que j'attends.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="757">Venez couronner votre tête</l>
+	<l id="758">Du laurier immortel qui vous est présenté.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="759">Je vois l'amour qui s'apprête</l>
+	<l id="760">À combler ma félicité ;</l>
+	<l id="761">Je vais jouir de la conquête</l>
+	<l id="762">D'un coeur qui m'a tant coûté.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="763">Le grand coeur de Roland n'est fait que pour la gloire,</l>
+	<l id="764">Peut-t-il languir dans un honteux repos ?</l>
+	<l id="765">Triomphez de l'amour, il n'est point de victoire</l>
+	<l id="766">Qui montre mieux la vertu d'un héros.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="767">Lorsque des rigueurs inhumaines</l>
+	<l id="768">Ont payé mon amour d'un si cruel tourment,</l>
+	<l id="769">Je n'ai pu sortir de mes chaînes :</l>
+	<l id="770">Puis-je me dégager d'un lien si charmant,</l>
+	<l id="771">Quand je touche à l'heureux moment</l>
+	<l id="772">Où je dois recevoir le prix de tant de peines ?</l>
+	<l id="773">Va, laisse-moi seul dans ces lieux,</l>
+	<l id="774">Angélique pour moi sensible,</l>
+	<l id="775">Veut pour tout autre être invisible ;</l>
+	<l id="776">Va, ne l'empêche point de paraître à mes yeux.</l>
+<stage>Astolfe se retire et Roland cherche Angélique.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='ROLAND'><speaker>ROLAND, seul.</speaker>
+	<l id="777">Ah ! J'attendrai longtemps ! La nuit est loin encore.</l>
+	<l id="778">Quoi le soleil veut-il luire toujours ?</l>
+	<l id="779">Jaloux de mon bonheur, il prolonge son cours,</l>
+	<l id="780">Pour retarder la beauté que j'adore.</l>
+	<l id="781">Ô nuit, favorisez mes désirs amoureux.</l>
+	<l id="782">Pressez l'astre du jour de descendre dans l'onde ;</l>
+	<l id="783">Dépliez dans les airs vos voiles ténébreux :</l>
+	<l id="784">Je ne troublerai plus par mes cris douloureux</l>
+	<l id="785">Votre tranquillité profonde :</l>
+	<l id="786">Le charmant objet de mes voeux</l>
+	<l id="787">N'attend que vous pour rendre heureux</l>
+	<l id="788">Le plus fidèle amant du monde ;</l>
+	<l id="789">Ô nuit, favorisez mes désirs amoureux.</l>
+	<l id="790">Que ces gazons sont verts ! Que cette grotte est belle ?</l>
+<stage>Roland lit tout bas des vers écrits sur la grotte.</stage>
+	<l id="791">Ce que je lis m'apprend que l'amour a conduit</l>
+	<l id="792">Dans ce bocage, loin du bruit,</l>
+	<l id="793">Deux amants qui brûlaient d'un ardeur mutuelle.</l>
+	<l id="794">J'espère qu'avec moi l'amour bientôt ici</l>
+	<l id="795">Conduira la beauté que j'aime.</l>
+	<l id="796">Enchantez d'un bonheur extrême,</l>
+	<l id="797">Sur ces grottes bientôt nous écrirons aussi ?</l>
+<stage>Roland répète tout haut ce qu'il a lu tout bas.</stage>
+	<l id="798">Beau lieu, doux asile</l>
+	<l id="799">De nos heureuses amours,</l>
+	<l id="800">Puissiez-vous être toujours</l>
+	<l id="801">Charmant et tranquille.</l>
+	<l id="802">Voyons tout... qu'est-ce que je vois !</l>
+	<l id="803">Ces mots semblent tracés de la main d'Angélique...</l>
+<stage>Roland lit tout bas deux vers qu'Angélique a écrits.</stage>
+	<l id="804">Ciel c'est pour un autre que moi</l>
+	<l id="805">Que son amour s'explique.</l>
+<stage>Roland répète tout haut ce qu'il a leu tout bas.</stage>
+	<l id="806">« Angélique engage son coeur ?</l>
+	<l id="807">Médor en est vainqueur ! »</l>
+	<l id="808">Elle m'aurait flatté d'une vaine espérance ?</l>
+	<l id="809">L'ingrate !... N'est-ce point un soupçon qui l'offense ?</l>
+	<l id="810">Médor en est vainqueur ! Non, je n'ai point encor</l>
+	<l id="811">Entendu parler de Médor.</l>
+	<l id="812">Mon amour aurait lieu de prendre des alarmes,</l>
+	<l id="813">Si je trouvais ici le nom</l>
+	<l id="814">De l'intrépide fils d'Aymon,</l>
+	<l id="815">Où d'un autre guerrier célèbre par les armes.</l>
+	<l id="816">Angélique n'a pas osé</l>
+	<l id="817">Avouer de son coeur le véritable maître,</l>
+	<l id="818">Et je puis aisément connaître,</l>
+	<l id="819">Qu'elle parle de moi sous un nom supposé.</l>
+	<l id="820">C'est pour moi seul qu'elle soupire,</l>
+	<l id="821">Elle me l'a trop dit et j'en suis trop certain.</l>
+	<l id="822">Lisons ces autres mots ; ils sont d'une autre main...</l>
+<stage>Roland lit deux vers que Médor a écrits.</stage>
+	<l id="823">Qu'ai-je lu... Ciel... Il faut relire...</l>
+<stage>Roland répète tout haut ce qu'il a leu tout bas.</stage>
+	<l id="824">Que Médor est heureux !</l>
+	<l id="825">Angélique a comblé ses voeux.</l>
+	<l id="826">Ce Médor, quel qu'il soit, se donne ici la gloire</l>
+	<l id="827">D'être l'heureux vainqueur d'un objet si charmant.</l>
+	<l id="828">Angélique a comblé les voeux d'un autre amant !</l>
+	<l id="829">Elle a pu me trahir !... Non, je ne le puis croire.</l>
+	<l id="830">Non, non, quelque envieux a voulu par ces mots</l>
+	<l id="831">Noircir l'objet que j'aime, et troubler mon repos.</l>
+<stage>On entend un bruit de musettes et Roland continue.</stage>
+	<l id="832">J'entends un bruit de musique champêtre.</l>
+	<l id="833">Il faut chercher Angélique en ces lieux.</l>
+	<l id="834">Au premier regard de ses yeux</l>
+	<l id="835">Mes noirs soupçons vont disparaître.</l>
+	<l id="836">Elle s'arrêtera, peut-être,</l>
+ <note type="L">Chalumeau : se dit aussi d'un instrument de musique champêtre, soit d'un, soit de plusieurs tuyaux de blé, soit de quelque matière déliée. [F]</note>
+	<l id="837">À voir danser au son des chalumeaux</l>
+	<l id="838">Les bergers des prochains hameaux.</l>
+<stage>Une troupe de bergers et de bergères, prend part à la joie de Coridon et de Bélise, qui doivent être mariés le lendemain, et s'approche de la grotte en dansant et en chantant. Roland n'aperçoit point Angélique, et va la chercher dans les lieux d'alentour.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Coridon, Bélise, Troupe de bergers et de bergères.</head> 
+<sp who='LE CHOEUR'><speaker>LE CHOEUR.</speaker>
+	<l id="839">Quand on vient dans ce bocage,</l>
+	<l id="840">Peut-on s'empêcher d'aimer ?</l>
+	<l id="841">Que l'amour sous cet ombrage</l>
+	<l id="842">Sait bientôt nous désarmer !</l>
+	<l id="843">Sans effort il nous engage</l>
+	<l id="844">Dans les noeuds qu'il veut former.</l>
+	<l id="845">Quand on vient dans ce bocage,</l>
+	<l id="846">Peut-on s'empêcher d'aimer ?</l>
+	<l id="847">Que d'oiseaux sur ce feuillage !</l>
+	<l id="848">Que leur chant nous doit charmer.</l>
+	<l id="849">Nuit et jour par leur ramage</l>
+	<l id="850">Leur amour veut s'exprimer.</l>
+	<l id="851">Quand on vient dans ce bocage,</l>
+	<l id="852">Peut-on s'empêcher d'aimer ?</l>
+	<l id="853">Un berger et une bergère.</l>
+	<l id="854">Vivez en paix,</l>
+	<l id="855">Amants, soyez fidèles,</l>
+	<l id="856">Aimez-vous à jamais.</l>
+	<l id="857">Vos ardeurs mutuelles</l>
+	<l id="858">Combleront vos souhaits.</l>
+	<l id="859">C'est un bonheur extrême</l>
+	<l id="860">D'obtenir ce qu'on aime</l>
+	<l id="861">Sans languir trop longtemps.</l>
+	<l id="862">Soyez constants,</l>
+	<l id="863">Aimez toujours de même</l>
+	<l id="864">Vivez toujours contents.</l>
+	<l id="865">Que les amours sont belles</l>
+	<l id="866">Quand elles sont nouvelles !</l>
+	<l id="867">Quel bien à plus d'attraits ?</l>
+	<l id="868">Vivez en paix,</l>
+	<l id="869">Amants, soyez fidèles,</l>
+	<l id="870">Aimez vous à jamais.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="871">J'aimerai toujours ma bergère.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="872">J'aimerai toujours mon berger.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="873">Mon amour est sincère,</l>
+	<l id="874">J'aimerai toujours ma bergère.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="875">Mon coeur ne peut changer,</l>
+	<l id="876">J'aimerai toujours mon berger.</l>
+</sp>
+<sp who="CORIDON, BÉLISE"><speaker>CORIDON et BÉLISE.</speaker>
+	<l id="877">Mon amour est sincère,</l>
+	<l id="878">Mon coeur ne peut changer.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="879">J'aimerai toujours ma bergère.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="880">J'aimerai toujours mon berger.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Roland, Coridon, Bélise, troupe de bergers et de bergères.</head> 
+<stage>Roland n'ayant point trouvé Angélique, revient pour en demander des nouvelles aux bergers.</stage>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="881">Angélique est reine, elle est belle,</l>
+	<l id="882">Mais ses grandeurs ni ses appas</l>
+	<l id="883">Ne me rendraient point infidèle,</l>
+	<l id="884">Je ne quitterais pas</l>
+	<l id="885">Ma bergère pour elle.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="886">Quand des riches pays arrosés de la Seine</l>
+	<l id="887">Le charmant Médor serait roi,</l>
+	<l id="888">Quand il pourrait quitter Angélique pour moi,</l>
+	<l id="889">Et me faire une grande reine,</l>
+	<l id="890">Non, je ne voudrais pas encor</l>
+	<l id="891">Quitter mon berger pour Médor.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="892">Que dites-vous ici de Médor, d'Angélique ?</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="893">Ce sont d'heureux amants dont l'histoire est publique</l>
+	<l id="894">Dans tous les hameaux d'alentour.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="895">Ils ont avec regret quitté ce beau séjour ;</l>
+	<l id="896">Ces arbres, ces rochers, cette grotte rustique</l>
+	<l id="897">Tout parle ici de leur amour.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="898">Ah ! Je succombe au tourment que j'endure.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="899">Reposez-vous sur ce lit de verdure.</l>
+	<l id="900">Vous paraissez chagrin ; écoutez à loisir</l>
+	<l id="901">De ces heureux amants l'agréable aventure,</l>
+	<l id="902">Vous l'entendrez avec plaisir.</l>
+<stage>Roland accablé de douleur s'assied sur un gazon, et écoute avec inquiétude ce que Coridon et Bélise lui racontent.</stage>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="903">En des lieux où Médor mourait sans assistance</l>
+	<l id="904">Angélique adressa ses pas.</l>
+	<l id="905">Elle sut se servir d'un art dont la puissance</l>
+	<l id="906">Garantit Médor du trépas.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="907">D'un grand empire Angélique est maîtresse</l>
+	<l id="908">Elle est charmante, elle avait à son choix</l>
+	<l id="909">Cent des plus riches rois ;</l>
+	<l id="910">Médor est sans biens, sans noblesse ;</l>
+	<l id="911">Mais Médor est si beau qu'elle l'a préféré</l>
+	<l id="912">À cent rois qui pour elle ont en vain soupiré.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="913">On ne peut s'aimer davantage,</l>
+	<l id="914">Jamais bonheur ne fut plus doux.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="915">Ils se sont donnés devant nous</l>
+	<l id="916">La foi de mariage.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="917">Quand le festin fut prêt, il fallut les chercher ;</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="918">Ils étaient enchantés dans ces belles retraites.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="919">On eut peine à les arracher</l>
+	<l id="920">De l'endroit charmant où vous êtes.</l>
+</sp>
+<sp who='ROLAND'><speaker>ROLAND, se levant avec précipitation.</speaker>
+	<l id="921">Où suis-je ? Juste ciel ! Où suis-je malheureux.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="922">Demeurez, et voyez nos danses et nos jeux.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="923">On m'a promis cette belle bergère ;</l>
+	<l id="924">Honorez notre noce, on la fera demain.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="925" part='i'>Où vont-ils ces amants ?</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="925" part='f'>Ils ont prié mon père</l>
+	<l id="926">De les conduire au port le plus prochain.</l>
+	<l id="927">Le voici. Demeurez, si vous me voulez croire,</l>
+	<l id="928">Vous apprendrez de lui le reste de l'histoire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Tersandre. Roland, Coridon, Belise, le Choeur.</head>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="929">Allez, laissez-nous, soins fâcheux,</l>
+	<l id="930">Éloignez-vous de nos paisibles jeux.</l>
+	<l id="931">Nous possédons un bien inestimable</l>
+	<l id="932">Qui comblera nos voeux</l>
+	<l id="933">Laissez couler nos jours heureux</l>
+	<l id="934">Dans un loisir doux et durable.</l>
+	<l id="935">Allez, laissez-nous, soins fâcheux</l>
+	<l id="936">Éloignez-vous de nos paisibles jeux.</l>
+</sp>
+<sp who='CORIDON, BÉLISE, LE CHOEUR'><speaker>CORIDON, BÉLISE, et LE CHOEUR.</speaker>
+	<l id="937">Allez, laissez-nous, soins fâcheux,</l>
+	<l id="938">Éloignez-vous de nos paisibles jeux.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="939">J'ai vu partir du port cette reine si belle...</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="940" part='i'>Angélique est partie !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="940" part='f'>Et Médor avec elle.</l>
+	<l id="941">Elle en fait un grand roi, c'est son unique soin.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="942" part='i'>Ils sont partis ensemble !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="942" part='f'>Ils sont déjà bien loin.</l>
+	<l id="943">Dans les climats les plus heureux du monde</l>
+	<l id="944">Ils vont en paix goûter mille plaisirs.</l>
+	<l id="945">Jusqu'au vent qui règne sur l'onde</l>
+	<l id="946">Tout favorise leurs désirs.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND, à part.</speaker>
+	<l id="947">Ils se sont dérobés tous deux à ma vengeance !</l>
+</sp>
+<sp who='TERSANDRE'><speaker>TERSANDRE, parle à Coridon et à Bélise.</speaker>
+	<l id="948">Angélique a voulu passer notre espérance.</l>
+	<l id="949" part='i'>Voyez ce bracelet.</l>
+</sp>
+<sp who='ROLAND'><speaker>ROLAND, regardant le bracelet.</speaker>
+	<l id="949" part='f'>Que vois-je infortuné !</l>
+	<l id="950">J'ai fait mettre en ses mains ce prix de mon courage ;</l>
+	<l id="951">De mon fidèle amour c'est un précieux gage.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="952">Pour le prix de nos soins elle nous l'a donné.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="953" part='i'>Ciel !</l>
+</sp>
+<sp who='CORIDON, BÉLISE'><speaker>CORIDON et BÉLISE.</speaker>
+	<l id="953" part='m'>Ô ciel !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="953" part='f'>J'ai reçu ce don de sa main même</l>
+	<l id="954">Nous fûmes les témoins de son bonheur extrême</l>
+	<l id="955">Elle a voulu nous rendre heureux.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="956">Ciel ! Puis-je être accablé par un coup plus affreux !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="957">Mais quel est ce guerrier ? Aisément on devine</l>
+	<l id="958">Qu'il sort d'une illustre origine.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="959">Nous l'avons trouvé dans ces lieux.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="960">Le trouble de son coeur se montre dans ses yeux.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="961" part='i'>Il s'agite.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="961" part='m'>Il menace.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="961" part='m'>Il pâlit.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="961" part='f'>Il soupire.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="962">Son coeur souffre peut-être un amoureux martyre</l>
+	<l id="963">Je suis touché de ses douleurs.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="964" part='i'>Quels terribles regards !</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="964" part='m'>La perfide !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="964" part='f'>Il murmure.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="965" part='i'>Il frémit !</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="965" part='f'>Il répand des pleurs.</l>
+	<l id="966">Tant de serments ! Ah la parjure !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="967">Ne l'abandonnons pas dans un chagrin si noir.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="968">Elle rit de mon désespoir.</l>
+	<l id="969">Je l'aimais d'une amour si tendre, si fidèle.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="970" part='i'>Ses regards sont plus doux.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="970" part='f'>Il est moins agité.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="971">J'ai crû vivre heureux avec elle</l>
+	<l id="972">Hélas ! Quelle félicité !</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="973">Non, je n'en doute point c'est l'amour qui le blesse.</l>
+</sp>
+<sp who="BÉLISE"><speaker>BÉLISE.</speaker>
+	<l id="974">L'amour peut-il causer cette sombre tristesse ?</l>
+	<l id="975">On a vu des amants si contents dans ces bois.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="976">Qui suit les amoureuses lois</l>
+	<l id="977">S'expose à des maux redoutables.</l>
+	<l id="978">Pour deux amants heureux qu'amour fait quelquefois,</l>
+	<l id="979">Il en fait tous les jours plus de cent misérables.</l>
+</sp>
+<sp who="CORIDON"><speaker>CORIDON.</speaker>
+	<l id="980" part='i'>Son trouble est apaisé.</l>
+</sp>
+<sp who="TERSANDRE"><speaker>TERSANDRE.</speaker>
+	<l id="980" part='f'>J'espère qu'à la fin</l>
+	<l id="981">Nous pourrons adoucir son funeste chagrin.</l>
+	<l id="982">Bénissons l'amour d'Angélique,</l>
+	<l id="983">Bénissons l'amour de Médor.</l>
+	<l id="984">Dans le riche séjour d'une cour magnifique,</l>
+	<l id="985">Puissent-t-ils sur un trône d'or</l>
+	<l id="986">S'aimer comme ils s'aimaient dans ce séjour rustique.</l>
+</sp>
+<sp who='CORIDON, BÉLISE, LE CHOEUR'><speaker>CORIDON, BÉLISE, et Le Choeur.</speaker>
+	<l id="987">Bénissons l'amour d'Angélique</l>
+	<l id="988">Bénissons l'amour de Médor.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="989">Taisez-vous, malheureux ; oserez-vous sans cesse</l>
+	<l id="990">Percer mon triste coeur des plus horribles coups ?</l>
+	<l id="991">Malheureux, taisez-vous.</l>
+	<l id="992">Rendez grâce à votre bassesse</l>
+	<l id="993">Qui vous dérobe à mon courroux.</l>
+</sp>
+<sp who='TERSANDRE, CORIDON, ANGÉLIQUEE, LE CHOEUR'><speaker>CORIDON, BÉLISE, et Le Choeur.</speaker>
+	<l id="994">Ah ! Fuyons, fuyons tous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='ROLAND'><speaker>ROLAND, seul.</speaker>
+	<l id="995">Je suis trahi ! Ciel ! Qui l'aurait pû croire !</l>
+	<l id="996">Ô ciel ! Je suis trahi par l'ingrate beauté</l>
+	<l id="997">Pour qui l'amour m'a fait trahir ma gloire.</l>
+	<l id="998">Ô doux espoir dont j'étais enchanté,</l>
+	<l id="999">Dans quel abîme affreux m'as-tu précipité !</l>
+	<l id="1000">Témoins d'une odieuse flamme</l>
+	<l id="1001">Vous avez trop blessé mes yeux.</l>
+	<l id="1002">Que tout ressente dans ces lieux</l>
+	<l id="1003">L'horreur qui règne dans mon âme.</l>
+<stage>Roland brise les inscriptions, et arrache des branches d'arbres, et des morceaux de rochers.</stage>
+	<l id="1004">Ah ! Je suis descendu dans la nuit du tombeau !</l>
+	<l id="1005">Faut-il encor que l'amour me poursuive ?</l>
+	<l id="1006">Ce fer n'est plus qu'un vain fardeau</l>
+	<l id="1007">Pour une ombre plaintive.</l>
+<stage>Roland jette ses armes, et se met dans un grand désordre.</stage>
+	<l id="1008">Quel gouffre s'est ouvert ! Qu'est ce-que j'aperçois !</l>
+	<l id="1009">Quelle voix funèbre s'écrie !</l>
+	<l id="1010">Les enfers arment contre moi</l>
+	<l id="1011">Une impitoyable furie.</l>
+<stage>Roland croit voir une furie : il lui parle, et s'imagine qu'elle lui répond.</stage>
+	<l id="1012">Barbare ! Ah ! Tu me rends au jour ?</l>
+	<l id="1013">Que prétends-tu ? Parle... Ô supplice horrible !</l>
+	<l id="1014">Je dois montrer un exemple terrible</l>
+	<l id="1015">Des tourments d'un funeste amour.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='6'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Astolfe, Logistille.</head>
+<stage>Le théâtre change, et représente le palais de la sage fée Logistille.</stage>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1016">Sage et divine fée à qui tout est possible,</l>
+	<l id="1017">Vous dont le généreux secours</l>
+	<l id="1018">Pour les infortunés se déclare toujours,</l>
+	<l id="1019">Au malheur de Roland serez-vous insensible ?</l>
+	<l id="1020">Ce héros que l'amour a rendu furieux</l>
+	<l id="1021">Traîne une déplorable vie :</l>
+	<l id="1022">Son sort qui fût si glorieux</l>
+	<l id="1023">Fait autant de pitié qu'il avait fait d'envie.</l>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1024">Vos justes voeux sont prévenus ;</l>
+	<l id="1025">Déjà par des chemins aux mortels inconnus</l>
+	<l id="1026">J'ai fait passer Roland dans cet heureux asile.</l>
+	<l id="1027">Le charme d'un sommeil tranquille</l>
+	<l id="1028">Suspend le mal de ce héros ;</l>
+	<l id="1029">Mais il est difficile</l>
+	<l id="1030">De lui rendre un parfait repos.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1031">Je sais votre pouvoir, il faut que tout lui cède.</l>
+	<l id="1032">Votre soin m'a sauvé de cent périls affreux.</l>
+	<l id="1033">N'offririez vous qu'un vain remède</l>
+	<l id="1034">Au trouble fatal qui possède</l>
+	<l id="1035">Le plus grand des héros et le plus malheureux ?</l>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1036">Je puis des éléments interrompre la guerre,</l>
+	<l id="1037">Ma voix fait trembler les Enfers.</l>
+	<l id="1038">J'impose silence au tonnerre,</l>
+	<l id="1039">Et j'éteins le feu des éclairs.</l>
+	<l id="1040">Mais je calme avec moins de peine</l>
+	<l id="1041">Les vents échappés de leur chaîne,</l>
+	<l id="1042">Et j'apaise plutôt l'Océan irrité</l>
+	<l id="1043">Qu'un coeur par l'amour agité.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1044">J'attends tout pour Roland de vos soins salutaires.</l>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1045">Nos efforts vont se redoubler :</l>
+	<l id="1046">Allez, éloignez-vous de nos secrets mystères,</l>
+	<l id="1047">Vos regards pourraient les troubler.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Logistille, Roland endormi, Troupe de feés.</head>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1048">Par le secours d'une douce harmonie</l>
+	<l id="1049">Calmons ce grand coeur pour jamais.</l>
+	<l id="1050">Rendons-lui sa première paix,</l>
+	<l id="1051">Puisse-t-elle chasser l'amour qui la bannie.</l>
+	<l id="1052">Heureux qui se défend toujours</l>
+	<l id="1053">Du charme fatal des amours !</l>
+<stage>Le choeur des Fées répète ces deux derniers vers.</stage>
+</sp>
+<sp who='LE CHOEUR DES FÉES'><speaker>LE CHOEUR DES FÉES.</speaker>
+	<l id="1054">Heureux qui se défend toujours</l>
+	<l id="1055">Du charme fatal des amours !</l>
+<stage>Les feés dansent autour de Roland, et font des cérémonies mystérieuses, pour lui rendre la raison.</stage>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1056">Rendez à ce héros votre clarté céleste,</l>
+	<l id="1057">Divine raison, revenez.</l>
+	<l id="1058">Qu'un coeur est malheureux quand vous l'abandonnez</l>
+	<l id="1059">Dans un égarement funeste.</l>
+</sp>
+<sp who='LOGISTILLE, LE CHOEUR DES FÉES'><speaker>LOGISTILLE et LE CHOEUR DES FÉES.</speaker>
+	<l id="1060">Heureux qui se défend toujours</l>
+	<l id="1061">Du charme fatal des amours !</l>
+<stage>Les feés continuent leurs danses autour de Roland, et Logistille évoque les ombres des anciens héros, pour l'aider à faire sortir Roland de son égarement.</stage>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1062">Ô vous dont le nom plein de gloire</l>
+	<l id="1063">Dans la nuit du trépas n'est point enseveli,</l>
+	<l id="1064">Vous dont la célèbre mémoire</l>
+	<l id="1065">Triomphe pour jamais du temps et de l'oubli.</l>
+	<l id="1066">Venez, héroïques ombres,</l>
+	<l id="1067">Venez seconder nos efforts :</l>
+	<l id="1068">Sortez des retraites sombres</l>
+	<l id="1069">Du profond empire des morts.</l>
+<stage>Les ombres des anciens héros paraissent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Logistille, Troupe de Feés, Troupe d'Ombres de Héros.</head>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1070">Roland, courez aux armes.</l>
+	<l id="1071">Que la gloire a de charmes !</l>
+	<l id="1072">L'amour de ses divins appas</l>
+	<l id="1073">Fait vivre au delà du trépas.</l>
+</sp>
+<sp who='LOGISTILLE, LE CHOEUR DES OMBRES DES HÉROS'><speaker>LOGISTILLE et LE CHOEUR DES OMBRES DES HÉROS.</speaker>
+	<l id="1074">Roland, courez aux armes.</l>
+	<l id="1075">Que la gloire a de charmes !</l>
+<stage>À la voix des héros, Roland sort de son sommeil, et recommence à se servir de sa raison.</stage>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="1076">Quel secours vient me dégager</l>
+	<l id="1077">De ma fatale flamme ?</l>
+	<l id="1078">Ciel ! Sans horreur puis-je songer</l>
+	<l id="1079">Au désordre où l'amour avait réduit mon âme !</l>
+	<l id="1080">Errant, insensé, furieux,</l>
+	<l id="1081">J'ai fait de ma faiblesse un spectacle odieux ;</l>
+	<l id="1082">Quel reproche à jamais ne dois-je point me faire ?</l>
+	<l id="1083">Malheureux ! La raison m'éclaire</l>
+	<l id="1084">Pour offrir ma honte à mes yeux !</l>
+	<l id="1085">Que survivre à ma gloire est un supplice extrême !</l>
+	<l id="1086">Infortuné Roland, cherche un antre écarté,</l>
+	<l id="1087">Va, s'il se peut, te cacher à toi-même</l>
+	<l id="1088">Dans l'éternelle obscurité.</l>
+</sp>
+<sp who='LOGISTILLE'><speaker>LOGISTILLE, arrêtant Roland.</speaker>
+	<l id="1089">Modérez la tristesse</l>
+	<l id="1090">Qui saisit votre coeur :</l>
+	<l id="1091">Quel héros, quel vainqueur</l>
+	<l id="1092">Est exempt de faiblesse ?</l>
+</sp>
+<sp who='LE CHOEUR DES OMBRES ET DES HÉROS'><speaker>LE CHOEUR DES OMBRES ET DES HÉROS.</speaker>
+	<l id="1093">Sortez pour jamais en ce jour</l>
+	<l id="1094">Des liens honteux de l'amour.</l>
+</sp>
+<sp who="LOGISTILLE"><speaker>LOGISTILLE.</speaker>
+	<l id="1095">Allez, suivez la gloire.</l>
+</sp>
+<sp who="ROLAND"><speaker>ROLAND.</speaker>
+	<l id="1096">Allons, courons aux armes.</l>
+	<l id="1097">Que la gloire a de charmes !</l>
+</sp>
+<sp who='LE CHOEUR DES FÉES, LE CHOEUR DES OMBRES ET DES HÉROS'><speaker>LE CHOEUR DES FÉES et LE CHOEUR DES OMBRES ET DES HÉROS.</speaker>
+	<l id="1098">Roland, courez aux armes</l>
+	<l id="1099">Que la gloire a de charmes.</l>
+<stage>Les fées, et les ombres des héros, témoignent par des danses, la joie qu'elles ont de la guérison de Roland, la Gloire suivie de la Renommée et précédée de la Terreur vient presser Roland d'aller délivrer son pays.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. La Gloire, la Renommée, la Terreur, suite de la Gloire, Roland, Logistille, troupe de Feés, Troupe d'Ombres de Héros.</head>
+<sp who='LA GLOIRE'><speaker>LA GLOIRE.</speaker>
+	<l id="1100">Roland il faut armer votre invincible bras.</l>
+	<l id="1101">La Terreur se prépare à devancer vos pas</l>
+	<l id="1102">Sauvez votre pays d'une guerre cruelle</l>
+	<l id="1103">Ne suivez plus l'amour c'est un guide infidèle</l>
+	<l id="1104">Non, n'oubliez jamais</l>
+	<l id="1105">Les maux que l'amour vous a faits.</l>
+<stage>Roland reprend ses armes que les fées et les héros lui présentent, il témoigne l'impatience qu'il a de partir pour obéir à la Gloire, et la Terreur vole devant lui. Les fées et les héros dansent pour témoigner leur joie ; et Logistille, le choeur de la suite de la Gloire, les choeurs des fées et des héros chantent ensemble.</stage>
+</sp>
+<sp who='LOGISTILLE ET LES CHOEURS'><speaker>LOGISTILLE ET LES CHOEURS.</speaker>
+	<l id="1106">La gloire vous appelle,</l>
+	<l id="1107">Ne soupirez plus que pour elle,</l>
+	<l id="1108">Non, n'oubliez jamais</l>
+	<l id="1109">Les maux que l'amour vous a faits.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

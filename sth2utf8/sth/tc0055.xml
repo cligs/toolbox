@@ -1,0 +1,1626 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L'OMBRE DE MOLIÈRE</title>
+				<author born='1638' born_location='Paris' death='1685' death_location='Paris' academie=''>BRÉCOURT, Guillaume MARCOUREAU de</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE juillet 2012</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Un acte</structure>
+				<type>prose</type>
+				<periode>1671-1680</periode>
+				<taille>(mesure non pertinente)</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/btv1b86</permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>	
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">L'OMBRE DE MOLIÈRE</titlePart>
+			<titlePart type="sub">COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1674">M. DC. LXXIV. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="BRÉCOURT, Guillaume MARCOUREAU de" bio='brecourt'>Par Brécourt</docAuthor>
+		<docImprint>
+		<privilege date="1674-04-12"><head>EXTRAIT DU PRIVILÈGE du ROI.</head>
+				<p>Par grâce et privilège du Roi, donné à Versailles le douzième Avril 1674. Signé, Par le Roy en son Conseil, LE NORMANT : Et scellé du grand Sceau de cire jaune. Il est permis à CLAUDE BARBIN, Marchand Libraire à Paris, d'imprimer, faire imprimer, vendre et débiter une Pièce de Théâtre, intitulée L'OMBRE DE MOLIÈRE, Comédie en Prose : Et défenses sont faites à toutes personnes, de quelque qualité et condition qu'elles soient, d'imprimer ou faire imprimer, vendre ni débiter ladite pièce de théâtre, sans le consentement de l'exposant, ou de ceux qui auront droit de lui, pendant le temps et espace de cinq années, entières et accomplies, à compter du jour que ladite pièce sera achevée d'imprimer pour la première fois, à peine contre chacun des contrevenants, de trois mille livres d'amende, confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêts, ainsi que plus au long il est porté lesdites Lettres de Privilège. </p>
+				<p>Registré sur le Livre de la Communauté, suivant l'Arrêt de la Cour.</p>
+				<p>D. THIERRY. Syndic.</p>
+		</privilege>
+			<acheveImprime id="1674-05-02">Achevé d'imprimé pour la première fois le 2 Mai 1674.</acheveImprime>
+			<printer id='BARBIN'>À PARIS, chez CLAUDE BARBIN, sur le second Perron de la Sainte Chapelle. </printer>
+		</docImprint>
+		<performance>
+			<premiere date="1674-03" location='Hôtel de Bourgogne'>Représenté pour la première fois en mars 1674 à l'Hôtel de Bourgogne</premiere>
+		</performance>
+		<dedicace><adresse>À SON ALTESSE SERENISSIME MONSEIGNEUR LE DUC D'ENGUIEN.</adresse>
+			<head>MONSEIGNEUR,</head>
+			<p>Voici l'Ombre de Molière ; c'est une comédie dont le bonheur sera parfait, si V. A. S. l'honore du moindre coup d'oeil. Sans l'autorité que me donne un long usage, je ne hasarderais pas de mettre votre illustre nom à la tête d'un Livre, lorsqu'il va si glorieusement éclater à la tête des armées. Alexandre mettait Homère sous son chevet ; Scipion et Lélie honorèrent Térence de leur estime : mais sans le secours de ces exemples, il suffit de celui de V. A. S. pour justifier que les armes et les Lettres n'ont rien d'incompatible, et que le Cabinet et le camp peuvent être amis. Souffrez donc, MONSEIGNEUR, que les OEuvres de Molière tiennent quelque rang dans votre bibliothèque, et que ma comédie soit une espèce de table pour les siennes.</p>
+			<p>DE V.A.S.</p>
+			<p>MONSEIGNEUR, Le très humble et très obéissant serviteur,</p>
+			<signature>BRECOURT.</signature>
+
+		</dedicace>
+	<castList><head>ACTEURS.</head>
+			<castItem><role id="DEUX-OMBRES" civil='M' type="F" statut="fantôme" age="A" stat_amour='néant'>DEUX OMBRES</role>.</castItem>
+			<castItem><role id="CARON" civil='M' type="D" statut="gardien des enfers" age="A" stat_amour='néant'>CARON</role>.</castItem>
+			<castItem><role id="LE-POÈTE" civil='M' type="H" statut="poète" age="A" stat_amour='néant'>LE POÈTE</role>.</castItem>
+			<castItem><role id="PLUTON" civil='M' type="D" statut="dieu" age="A" stat_amour='néant'>PLUTON</role>.</castItem>
+			<castItem><role id="RADAMANTE" civil='M' type="D" statut="dieu" age="A" stat_amour='néant'>RADAMANTE</role>.</castItem>
+			<castItem><role id="MINOS" civil='M' type="D" statut="dieu" age="A" stat_amour='néant'>MINOS</role>.</castItem>
+			<castItem><role id="MOLIÈRE" civil='M' type="H" statut="poète" age="A" stat_amour='néant'>MOLIÈRE</role>, poète Comique.</castItem>
+			<castItem><role id="LA PRÉCIEUSE" civil='F' type="H" statut="bourgeois" age="A" stat_amour='néant'>LA PRÉCIEUSE</role>, de la Comédie des Précieuses.</castItem>
+			<castItem><role id="MASCARILLE" civil='M' type="H" statut="bourgeois" age="A" stat_amour='néant'>LE MARQUIS DE MASCARILLE</role>, de la même Comédie.</castItem>
+			<castItem><role id="LE-COCU" civil='M' type="H" statut="bourgeois" age="A" stat_amour='néant'>LE COCU</role>, du Cocu Imaginaire.</castItem>
+			<castItem><role id="NICOLE" civil='F' type="H" statut="bourgeois" age="A" stat_amour='néant'>NICOLE</role>, du Bourgeois Gentilhomme.</castItem>
+			<castItem><role id="POURCEAUGNAC" civil='M' type="H" statut="bourgeois" age="A" stat_amour='néant'>POURCEAUGNAC</role>, de la Comedie de Pourceaugnac.</castItem>
+			<castItem><role id="MADAME JOURDAIN" civil='F' type="H" statut="bourgeois" age="A" stat_amour='néant'>MADAME JOURDAIN</role>, du Bourgeois Gentilhomme.</castItem>
+			<castItem><role id="QUATRE-MEDECINS" civil='G' type="H" statut="bourgeois" age="A" stat_amour='néant'>QUATRE MEDECINS</role>, de la Comédie des Médecins.</castItem>
+			<castItem><role id="L-ENVIE" civil='F' type="A" statut="allégorie" age="A" stat_amour='néant'>L'ENVIE</role>.</castItem>
+		</castList>
+	<set location="Champs Elysées" country='Pays mythologique' periode='Temps mythologiques' link=''>La Scène est dans les Champs Elysées.</set>
+	</front>
+<body> 
+<div1 type='acte' n='1'><head>PROLOGUE DE L'OMBRE DE MOLIERE.</head>
+<div2 type='scene' n='1'><head>ORONTE, CLÉANTE.</head>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='1'>
+	<s id='1'>Point, vous dis-je ; c'est une raillerie qu'on vous a faite de moi.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='2'>
+	<s id='1'>Je vous dis que je suis sûr de la chose.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='3'>
+	<s id='1'>C'est quelqu'un qui a voulu se divertir à mes dépens, vous dis-je.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='4'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Que vous êtes réservé !</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<note type="L">Madrigal : petite poésie amoureuse composée d'un petit nombre de vers libres inégaux, qui n'a ni la gêne d’un sonnet, ni la subtilité d’une épigramme, mais qui se contente d’une pensée tendre et agréable. [F]</note>
+<p id='5'>
+	<s id='1'>Mais que vous êtes folâtre avec votre comédie ! </s>
+	<s id='2'>C'est bien à moi à entreprendre de ces ouvrages ? </s>
+	<s id='3'>Non, non, Cléante, je me connais ; et si parmi mes Amis je me laisse aller à produire quelque épigramme, quelque madrigal, ou de semblables bagatelles, croyez que cela ne m'a point donné assez bonne opinion de moi pour entreprendre un ouvrage que l'on puisse appeler comédie. </s>
+	<s id=''>C'est un pas, à la vérité, que presque tous les gens franchissent aisément ; et il semble qu'il suffise d'avoir fait à plusieurs reprises une certaine quantité de médiocres ou de méchants vers pour se donner avec beaucoup d'impunité le nom d'auteur ; et sous ce titre, on hasarde librement un assemblage de caractères bien ou mal fondés, d'incidents amenés à force, et de galimatias redoublés, que l'on baptise effrontément du nom de comédie. </s>
+	<s id=''>Voilà par où plusieurs honnêtes gens ont échoué dans le monde ; et sur leur exemple, je ne hasarderai point, mon cher Cléante, de perdre un peu d'estime que d'autres talents que la poésie m'ont acquise. </s>
+	<s id=''>Quand on peut faire quelque chose de mieux qu'une méchante pièce, on ne doit point travailler à cet ouvrage ; et quoi qu'on entreprenne, si l'on ne peut y réussir parfaitement, il vaudrait encore mieux ne rien faire du tout.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='6'>
+	<s id='1'>Je vous trouve admirable, Oronte, avec tous ces justes et beaux raisonnements ! </s>
+	<s id='2'>Mais ce qui m'en plaît le plus, c'est de vous voir si bien condamner aux autres une démangeaison dont vous n'avez pu vous défendre.</s>
+	<s id='3'>Oui, morbleu, je vous dis que vous avez fait une comédie.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='7'>
+	<s id='1'>Moi ?</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='8'>
+	<s id='1'>Vous l'avez donnée à étudier déjà.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='9'>
+	<s id='1'>Encore ?</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='10'>
+	<s id='1'>C'est une petite pièce en prose.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='11'>
+	<s id='1'>Bon.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='12'>
+	<s id='1'>Et les Comédiens qui la représenteront, sont cachés là-haut dans votre chambre, pour la répéter aujourd'hui. </s>
+	<s id=''>Là, rougissez à présent qu'on vous met le doigt sur la pièce. </s>
+	<s id=''>Hé ? </s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='13'>
+	<s id='1'>Comment avez-vous su cela ?</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='14'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Comment je l'ai su ? </s>
+	<s id='3'>Que me donnerez-vous, et je vous le dirai ?</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='15'>
+	<s id='1'>Hé, de grâce, dites-moi qui m'aurait pu trahir. </s>
+	<s id=''>C'est une chose que je n'ai confiée qu'à mon frère et à ma femme.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='16'>
+	<s id='1'>Socrate se repentit d'avoir dit son secret à la sienne : mais ce n'est point de la vôtre dont j'ai appris ceci ; et pour vous tirer d'inquiétude, sachez que le hasard, et votre peu de soin, m'ont appris que vous aviez fait une comédie. </s>
+	<s id='2'>Vous connaissez votre écriture apparemment, puisque je la connais aussi. </s>
+	<s id='3'>Tenez. </s>
+	<s id='4'>L'OMBRE DE MOLIÈRE, petite comédie en Prose. </s>
+	<s id='5'>Eh ?</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='17'>
+	<s id='1'>Ah Cléante ! </s>
+	<s id='2'>je vous l'avoue, puisque vous le savez : je m'y suis laissé aller ; il est vrai, vous tenez mon ouvrage ; c'est une petite pièce de ma façon, et vous êtes trop de mes amis, pour ne pas vous le dire.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='18'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Je vous suis trop obligé vraiment ; et vous m'avez confié ce secret de trop bonne grâce, pour ne vous en pas témoigner ma reconnaissance.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='19'>
+	<s id='1'>Que vous êtes fou ! </s>
+	<s id='2'>Donnez donc. </s>
+	<s id='3'>C'est une bagatelle que je n'ai pas jugé digne d'entrer dans votre confidence ; et pour vous le dire franchement, c'est l'effet de quelques heures de mélancolie qui m'ont fait griffonner ce petit ouvrage. </s>
+	<s id='4'>Vous savez que j'estimais Molière ; et cette pièce n'est autre chose qu'un monument de mon amitié que je consacre à sa mémoire. </s>
+	<s id='5'>La manière dont il paraît dans ma comédie, le représente naturellement comme il était, c'est-à-dire comme le censeur de toutes les choses déraisonnables, blâmant les sottises, l'ignorance, et les vices de son siècle.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='20'>
+	<s id='1'>Il est vrai qu'il a heureusement joué toutes sortes de matières ; et son théâtre nous a servi longtemps d'une divertissante et profitable école.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='21'>
+	<s id='1'>Il était dans son particulier, ce qu'il paraissait dans la morale de ses pièces ; honnête, judicieux, humain, franc, généreux ; et même, malgré ce qu'en ont cru quelques esprits mal faits, il tenait un si juste milieu dans de certaines matières, qu'il s'éloignait aussi sagement de l'excès, qu'il savait se garder d'une dangereuse médiocrité. </s>
+	<s id='2'>Mais la chaleur de notre ancienne amitié m'emporte, et je m'aperçois qu'insensiblement je ferais son panégyrique, au lieu de vous demander quartier ; j'ai plus besoin de grâce, que sa mémoire de louanges. </s>
+	<s id='3'>C'est pourquoi, cher Cléante, je vous redemande ma pièce : mais puisque vous êtes ici, honorez-la de votre attention, et ne la regardez, je vous prie, que comme une chose que j'ai dédiée à la seule mémoire de mon ami.</s>
+</p>
+</sp>
+<sp who='CLÉANTE'><speaker>CLÉANTE.</speaker>
+<p id='22'>
+	<s id='1'>Allez, Oronte, quelque chose que ce soit, le seul sentiment qui vous l'a fait entreprendre, vous doit assurer de la réussite de votre ouvrage ; et rien n'est plus honnête à vous, que de montrer au public avec quelle justice vous estimiez un si grand homme.</s>
+</p>
+</sp>
+<sp who='ORONTE'><speaker>ORONTE.</speaker>
+<p id='23'>
+	<s id='1'>Ne me faites pas rougir davantage, Cléante ; et venez seulement donner votre avis sur notre répétition.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>L'OMBRE  DE MOLIÈRE.</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<stage>Le théâtre s'ouvre par DEUX OMBRES, qui, en dansant, apportent chacune un morceau de tout ce qui peut former un tribunal ; et après l'avoir dressé, elles se disputent un balai pour nettoyer ce lieu, où Pluton se doit venir rendre bientôt.</stage>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='1'>
+	<s id='1'>Donne, donne-moi ce balai.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='2'>
+	<s id='1'>Je n'en ferai rien, c'est à moi à balayer ici : Pluton y va venir, et je veux que tout soit net, et propre comme il faut.</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='3'>
+	<s id='1'>Oui, mais je te dispute cet honneur ; cela m'appartient mieux qu'à toi.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='4'>
+	<s id='1'>Et par quelle raison ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='5'>
+	<s id='1'>Par la raison que quand j'étais dans l'autre Monde, je me suis si bien acquitté de mon emploi, que je mérite bien en celui-ci l'honneur de l'exercer encore.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='6'>
+	<s id='1'>Et quel mérite avais-tu plus que moi en l'autre Monde ? </s>
+	<s id='2'>N'étions-nous pas laquais tous deux ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='7'>
+	<s id='1'>Oui, mais il y a laquais, et laquais.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='8'>
+	<s id='1'>Et qu'as-tu à me reprocher ? </s>
+	<s id='2'>N'ai-je pas fidèlement servi tous les maîtres à qui j'ai été ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<note type="L">Friponner : voler, tromper, escroquer. [F]</note>
+<p id='9'>
+	<s id='1'>Ai-je manqué en rien, moi, à tout ce que les miens m'ont commandé ? </s>
+	<s id='2'>Et quand je servais, par exemple, cet illustre et fameux tailleur, m'a-t-on jamais vu lui friponner la moindre guenille des choses qu'il dérobait ?</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<note type="L">Partie : en termes de Palais, se dit de tous les plaideurs. [F].</note>
+<p id='10'>
+	<s id='1'>Et quand je servais, moi, mon petit grison de Procureur, m'a-t-on jamais vu abuser des secrets qu'il me confiait, ni révéler aucune des friponneries qu'il faisait à ses parties ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='11'>
+	<s id='1'>M'a-t-on vu manquer jamais à la fidélité que j'ai due à une maîtresse coquette que je servais, ni avertir son mari que je portais tous les jours des billets-doux à ses galants ?</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<note type="L">Empirique : terme de médecine. Celui qui tient que la médecine ne consiste que dans l’expérience. [R]</note>
+<p id='12'>
+	<s id='1'>Et, durant les quatre années que j'ai servi ce fameux empirique, m'a-t-on jamais oui dire le moindre mot des poisons qu'il composait, et de toutes les vies qu'il vendait par ce moyen au plus offrant et dernier enchérisseur ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='13'>
+	<s id='1'>Tout beau ; le secret de faire mourir les gens a quelque rapport avec la médecine, et nous ne serions pas bien venus à enfiler ce discours. </s>
+	<s id='2'>Nous nous échapperions peut-être à parler contre les médecins en parlant des morts. </s>
+	<s id='3'>Tu sais que ces messieurs sont un peu vindicatifs, et que depuis quelque temps surtout, nous en avons ici qui ne prêchent que la vengeance de ceux qui n'ont pas voulu mourir par leurs mains ; et s'il arrive que notre grand Pluton leur accorde quelque empire en ces lieux, comme ils le prétendent, ils pourraient bien étendre leur colère jusques sur nous, pour n'avoir pas parlé d'eux avec tout le respect qu'ils attendent. </s>
+	<s id='4'>C'est pourquoi nous ferons mieux de nous taire.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='14'>
+	<s id='1'>À propos, c'est donc pour ces Messieurs que la fête se fait, et que nous venons tout préparer ici ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='15'>
+	<s id='1'>Je ne sais si c'est pour d'autres, ou pour eux ; mais je sais bien que Pluton s'y doit rendre bientôt pour juger une grande affaire. </s>
+	<s id='2'>C'est pourquoi, si tu m'en crois, au lieu de quereller, et de disputer de nos avantages, nous prendrons chacun un balai, et nous nettoierons ensemble, pour avoir plus tôt fait. </s>
+	<s id='3'>Aussi bien je vois trop d'ordures ici pour un seul balayeur.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='16'>
+	<s id='1'>Tu as raison ; mais j'entends du bruit ; serait-ce déja Pluton ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<note tyep="C">Le poète Doucet est une référence au dramaturge Quinault qui, dit-on, « a  passé pour la douceur mesme », ce que Brécourt rappelle à la scène II. [CRHT]</note>
+<p id='17'>
+	<s id='1'>Attends : Non, non ce n'est pas lui encore ; c'est Caron avec le génie du poète Doucet. </s>
+	<s id='2'>Je crois qu'ils n'auront jamais fini leur querelle.</s>
+</p>
+</sp>
+<sp who='DEUXIÈME OMBRE'><speaker>DEUXIÈME OMBRE.</speaker>
+<p id='18'>
+	<s id='1'>À qui en a Caron aussi, de tourmenter incessamment ce pauvre génie ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='19'>
+	<s id='1'>Il faut bien qu'il lui ait fait quelque chose.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Caron, Le Poète, Les Deux Ombres.</head>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Que font là ces Coquins ? </s>
+	<s id='2'>Allons, tout est-il net ?</s>
+</p>
+</sp>
+<sp who='PREMIÈRE OMBRE'><speaker>PREMIÈRE OMBRE.</speaker>
+<p id='2'>
+	<s id='1'>Oui, Messieurs, et vous pouvez quereller ici fort proprement.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Tu ne me laisseras pas en repos ? </s>
+	<s id='3'>Veux-tu te retirer ?</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='4'>
+	<s id='1'>Hélas, Caron ! </s>
+	<s id='2'>Hélas !</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON, le raillant sur le même ton.</speaker>
+<p id='5'>
+	<s id='1'>Hélas, Caron ! </s>
+	<s id=''>Hélas ! </s>
+	<s id=''>À qui diable en as-tu avec tes piteux hélas ?</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='6'>
+	<s id='1'>Quoi ! </s>
+	<s id=''>Me laisser sécher ainsi dans les Champs-Elysées ! </s>
+	<s id=''>N'as-tu point quelque endroit à me mettre, et dois-je rester parmi les Ombres errantes ? </s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='7'>
+	<s id='1'>Et où veux-tu que je te fourre, malheureux Génie que tu es ? </s>
+	<s id='2'>Veux-tu que je te mette parmi les poètes ? </s>
+	<s id='3'>Cela est indigne de ton mérite. </s>
+	<s id='4'>Que je t'aille nicher aussi parmi des héros ? </s>
+	<s id='5'>Ma foy, tu les as un peu trop bien accommodés, pour croire qu'ils s'accommodassent de toi.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='8'>
+	<s id='1'>Et quel outrage leur ai-je fait ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='9'>
+	<s id='1'>Ce que tu leur as fait ? </s>
+	<s id='2'>Ma foi, tu en as fait de forts jolis garçons ; et principalement les héros grecs ont grand sujet de se louer de toi. </s>
+	<s id='3'>Tu les as si bien barbouillés, qu'ils n'ont plus besoin de masques de carnaval pour se déguiser.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='10'>
+	<s id='1'>Que tu fais le plaisant mal à propos !</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<note tyep="L">Virgile [70 av. JC- 19 av. JC]: poète latin auteur entre autres, des Bucoliques, des Géorgiques et de L'Enéide.</note>
+<p id='11'>
+	<s id='1'>Tu as raison, mais ce n'est que depuis que nous nous voyons. </s>
+	<s id='2'>Ce faquin, sans me connaître, m'a si bien traduit en diseur de bons mots, que l'on me chante en l'autre Monde comme un opérateur grotesque, moi qui à force d'entendre des lamentations, dois être triste comme un bonnet de nuit sans coiffe. </s>
+	<s id='3'>Hé bien, tenez, ne voilà-t-il pas encore ? </s>
+	<s id='4'>Un Bonnet de nuit sans coiffe ! </s>
+	<s id='5'>Depuis que je connais cet animal, je ne dis que des sottises. </s>
+	<s id='6'>Il me prend envie de te mettre aux mains avec Virgile, il t'apprendra à me connaître.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='12'>
+	<s id='1'>Hélas, Caron ! </s>
+	<s id='2'>Hélas !</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<note type="L">Bailler : donner, mettre la main. [F]</note>
+<p id='13'>
+	<s id='1'>Encore ? </s>
+	<s id='2'>Ma foi, je te baillerai de ma rame sur les oreilles.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='14'>
+	<s id='1'>Peux-tu traiter avec tant de rigueur un génie qui a passé pour la douceur même ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='15'>
+	<s id='1'>Hé tu n'étais que trop doux, mon enfant, et un peu de sel t'aurait fait grand bien. </s>
+	<s id=''>Mais je suis las de t'entendre ; nous avons bien d'autres affaires ; adieu, va te promener. </s>
+	<s id=''>Ne va pas gâter nos belles allées au moins, ni t'amuser à cueillir nos lauriers. </s>
+	<s id=''>Ce n'est pas viande pour tes oiseaux.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='16'>
+	<s id='1'>Où veux-tu donc que j'aille ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='17'>
+	<s id='1'>Promène-toi sur l'égout ; et si la faim te prend, on te permet de manger quelques chardons pour te rafraîchir la bouche.</s>
+</p>
+</sp>
+<sp who='LE-POÈTE'><speaker>LE POÈTE.</speaker>
+<p id='18'>
+	<s id='1'>Hélas, car...</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='19'>
+	<s id='1'>Ah, le Bourreau ! </s>
+	<s id='2'>Tu ne sortiras pas ? </s>
+	<s id='3'>Allons, Balayeurs, faites votre charge ; voici Pluton ; et cet animal n'a que faire ici. </s>
+</p>
+<stage>Les Ombres chassent le poète avec le manche de leurs balais.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Pluton, Radamate, MINOS, L'ENVIE, CARON.</head>
+<sp who='PLUTON'><speaker>PLUTON assis dans son Tribunal.</speaker>
+<p id='1'>
+	<s id='1'>Ça, il est donc question de rendre justice aujourd'hui. </s>
+	<s id='2'>Fais venir l'Accusé, Caron ; et que l'Envie amène les complaignants. </s>
+	<s id='3'>Nous avons donc bien des affaires, Messieurs ?</s>
+</p>
+</sp>
+<sp who='RADAMANTE'><speaker>RADAMANTE.</speaker>
+<p id='2'>
+	<s id='1'>Sans-doute, et il nous est arrivé aujourd'hui une Ombre qui nous va bien donner de la besogne.</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='3'>
+	<s id='1'>Ce ne sera pas une bagatelle que cette affaire-ci.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Comment ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='5'>
+	<s id='1'>Je vais vous instruire de tout, afin que vous n'ayez pas la peine tantôt d'interroger les parties. </s>
+	<s id='2'>Il y avait autrefois là-haut un certain homme qui se mêlait d'écrire, à ce qu'on dit ; mais il s'était rendu si difficile, que rien ne lui semblait parfait. </s>
+	<s id='3'>Il se mit d'abord à critiquer les façons de parler particulières ; ensuite il donna sur les habillements ; de là il attaqua les moeurs, et se mit inconsidérément à blâmer toutes les sottises du monde : il ne put jamais se résoudre à souffrir tous les abus qui s'y glissaient. </s>
+	<s id='4'>Il dévoila le mystère de chaque chose, fit connaître publiquement quel intérêt faisait agir les hommes, et fit si bien enfin, que par les lumières qu'il en donnait, on commençait de bonne-foi à trouver presque toutes les choses de la vie un peu ridicules. </s>
+	<s id='5'>Il n'y eut pas jusqu'à la médecine même qui n'eut part à sa censure ; et ce fut une des choses qu'il toucha le plus souvent, et sut si bien réussir en cette matière, que pour peu qu'il l'eut traitée encore, il y aurait eu lieu de craindre pour les médecins qu'ils n'eussent accompli pour une seconde fois quelque petit bannissement de six cents années.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='6'>
+	<s id='1'>Cela nous aurait fait grand tort.</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='7'>
+	<s id='1'>Et c'est son arrivée ici qui cause cette audience, qui sans doute ne sera pas sans difficulté. </s>
+	<s id=''>Chacun prétend avoir sujet de se plaindre de lui ; lui prétend n'avoir offensé personne ; au contraire, de la manière dont il parle, il semble que tout le monde lui soit obligé, et même il en donne d'assez bonnes raisons, et voilà qui est embarrassant.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='8'>
+	<s id='1'>Tu l'as donc vu ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='9'>
+	<s id='1'>Je viens de l'entretenir il n'y a qu'un moment.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='10'>
+	<s id='1'>Où l'as-tu laissé ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<note type="L">Térence : poète comique latin, né probablement à Carthage vers 200 avant JC, fut esclave du sénateur Terentius Lucanus, qui l'affranchit et lui fit donner une bonne éducation, et dont le poète prit le nom par reconnaissance. (...) On a de Térence six comédies. Molière a tiré les Fourberies de Scapin du Phormion et Baron a imité l'Adrienne. (...) [B]</note>
+<note type="L">Plaute : poète comique latin, né vers 227 avant JC à Sarsine (Ombrie), mort en 183, était directeur de troupe en même temps qu'auteur, et jouait souvent lui-même. (...) Plaute avait composé, dit-on, jusqu'à 120 pièces, mais on lui en attribuait beaucoup qui n'étaient pas de lui. Nous n'avons plus que 20 de ses pièces dont Meneschmes. [B]</note>
+<p id='11'>
+	<s id='1'>Dans l'allée des Poètes, où il a trouvé l'esprit de Térence et de Plaute, avec qui il se divertit.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='12'>
+	<s id='1'>Il faudra entendre les raisons de chacun. </s>
+	<s id='2'>Qu'on les fasse venir ; mais faites-les moi paraître sous les mêmes figures qu'ils avoient dans l'autre Monde, afin de les mieux discerner.</s>
+</p>
+</sp>
+<sp who='RADAMANTE'><speaker>RADAMANTE.</speaker>
+<p id='13'>
+	<s id='1'>Voici déjà l'accusé que Caron vous amène.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='14'>
+	<s id='1'>Où sont les complaignants ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='15'>
+	<s id='1'>L'Envie les doit conduire ici.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Molière, Caron, Pluton, Radam, Minos.</head>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Je n'y puis plus tenir ; jamais il ne s'est vu tant d'Ombres en un jour ; et la porte va rompre si vous n'y donnez ordre.</s>
+</p>
+</sp>
+<sp who='LES-ÂMES'><speaker>TOUTES LES ÂMES.</speaker>
+<p id='2'>
+	<s id='1'>Caron...</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Entendez-vous comme on m'appelle ? </s>
+	<s id='2'>Dés qu'ils ont vu que je faisais entrer cette Ombre, ils ont pensé me dévorer.</s>
+</p>
+</sp>
+<sp who='LES-ÂMES'><speaker>TOUTES LES ÂMES.</speaker>
+<p id='4'>
+	<s id='1'>Caron...</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='5'>
+	<s id='1'>On y va. </s>
+	<s id='2'>Ordonnez donc ce que vous voulez que je laisse entrer.</s>
+</p>
+</sp>
+<sp who='LES-ÂMES'><speaker>TOUTES LES ÂMES.</speaker>
+<p id='6'>
+	<s id='1'>Caron...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='7'>
+	<s id='1'>Hé patience. </s>
+	<s id='2'>Qui sont-ils tous ces gens là ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='8'>
+	<s id='1'>Ce sont des précieuses, des bourgeoises, des marquis ridicules, des femmes savantes, des avares, des hypocrites, des jaloux, des cocus, et des médecins.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='9'>
+	<s id='1'>En voilà trop pour un jour : qu'il n'en vienne qu'une partie.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='10'>
+	<s id='1'>J'oubliais encore un Limousin, dont l'esprit est assez matériel pour servir de corps en un besoin.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id=''>
+	<s id='1'>Fais-les entrer selon le rang qu'ils auront à la porte. </s>
+	<s id='2'>Radamante, prends le rôle pour écrire le nom des complaignants. </s>
+	<s id=''>Çà, qui est celle-ci ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. La Précieuse, Caron, Pluton, Molière, Minos, Radam.</head>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Vous l'allez reconnaître à son langage.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<p id='2'>
+	<s id='1'>Grand Monarque des sombres habitations, plaise aux destins que vous prêtiez attentivement le sens auriculaire de votre Justice aux éloquentes articulations de nos clameurs, et que par le triste visage de notre âme vous puissiez être pénétré de nos unanimes sentiments.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='3'>
+	<s id='1'>Quel langage est-ce là ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='4'>
+	<s id='1'>C'est le franc précieux.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='5'>
+	<s id='1'>Voila un beau jargon, vraiment. </s>
+	<s id='2'>Écoutons.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<p id='6'>
+	<s id='1'>La surprenante horreur de notre accablement coûtera, sans-doute, quelque égarement à la grandeur de votre âme. </s>
+	<s id='2'>Vous voyez à vos genoux une addition de Précieuses qui vous en représente le Corps, pour faire pencher en leur faveur l'équilibre de votre Justice contre le matériel échappement de ce chronologiste scandaleux. </s>
+	<s id=''>Bien que la vengeance ne soit pas d'une âme du premier Ordre, lorsque l'outrage a pris le vif, c'est une faiblesse de se laisser aller aux tendres émulations d'une pitié séduite par les vaines erreurs de l'ostentation.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='7'>
+	<s id='1'>Ma foi, je n'y entends goutte.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<p id='8'>
+	<s id='1'>La férocité de cet esprit sauvage a si bien donné la chasse au gibier de notre éloquence, que l'indigestion de nos pensées n'ose plus trouver le supplément de nos expressions. </s>
+	<s id='2'>Il nous a si bien atteintes du crime d'absurdité, que nous en paraissons presque convaincues partout le piédestal du bas-monde. </s>
+	<s id='3'>Pardonnez, grand Monarque, si j'ose vous parler si vulgairement, et si toutes nos pensées ne sont pas revêtues d'expressions nobles et vigoureuses.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='9'>
+	<s id='1'>Hé, il n'y a point de mal à cela ; au contraire, on ne se pique pas ici de beau langage. </s>
+	<s id='2'>Dites un peu naturellement votre affaire, car foi de Dieu d'ici-bas je n'y ai rien compris encore.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<note type="C">Voir Les Précieuses ridicules de Molière, scène IV, Cathos, première réplique.</note>
+<p id='10'>
+	<s id='1'>Se peut-il faire que votre noire Majesté ait la forme si enfoncée dans la matière ?</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='11'>
+	<s id='1'>Ma foi, je ne vous entends pas.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<p id='12'>
+	<s id='1'>Quoi ! </s>
+	<s id=''>La dureté de votre compréhension ne peut être amollie par le concert éclatant des rares qualités de vos vertus sublimes ?</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='13'>
+	<s id='1'>Je ne sais ce que c'est que tout cela, mais j'aurai soin de vous rendre justice. </s>
+	<s id=''>Passez sur les ailes de mon trône.</s>
+</p>
+</sp>
+<sp who='LA-PRÉCIEUSE'><speaker>LA PRÉCIEUSE.</speaker>
+<p id='14'>
+	<s id='1'>Quoi, Monarque enfumé ! </s>
+	<s id='2'>Vous répandrez de vos propres bontés sur le gémissement de nos altercations ?</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='15'>
+	<s id='1'>Cela se pourra bien ; mais laissez-nous un peu travailler à d'autres jugements. </s>
+	<s id='2'>Minos, écrits-la sur le rôle, et me fais ressouvenir de tout ce qu'elle a dit. </s>
+	<s id='3'>Allons, que répons-tu à cette accusation ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='16'>
+	<s id='1'>Rien, et cette matière est indigne de moi.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='17'>
+	<s id='1'>Hé bien, que quelqu'autre entre donc, on jugera tout ensemble.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='18'>
+	<s id='1'>Allons, que le plus proche de la porte vienne.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Marquis, Caron, Pluton, Minos, Radamante, Molière.</head>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='19'>
+	<s id='1'>Ça, qui est celui-ci ?</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS, à Molière sur un ton de fausset.</speaker>
+<note tyep="C">Voir le personnage de Mascarille dans les Précieuses ridicules de Molière.</note>
+<p id='20'>
+	<s id='1'>Ah parbleu ! </s>
+	<s id='2'>Mon petit Monsieur, je suis bien-aise de vous trouver ici.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='21'>
+	<s id='1'>Qui es-tu, toi, pour me parler ainsi ?</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<p id='22'>
+	<s id='1'>Je suis un de ces Marquis, mon ami, que vous tournez en ridicule.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<note type="L">Canon : est un ornement de toile rond fort large, et souvent orné de dentelle qu'on attache au-dessus du genoux, qui prend jusqu'à moitié jambe pour la couvrir. [F]</note>
+<p id='23'>
+	<s id='1'>Et où sont les grands canons que je t'avais donnés ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='24'>
+	<s id='1'>Ils sont restés à la porte, qui était trop étroite pour les faire passer.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='25'>
+	<s id='1'>Çà, que demandez-vous ?</s>
+</p>
+</sp>
+<sp who='LE-MARQUIS'><speaker>LE MARQUIS.</speaker>
+<note type="L">Fausset : terme de musicien. Voix aigüe qui contrefait le dessus en un concert, et qui est d'ordinaire est désagréable et discordante, parce qu'elle n'est pas naturelle. Se dit aussi de celui qui fait le fausset. [F]</note>
+<p id='26'>
+	<s id='1'>Je demande justice pour mes rubans, mes plumes, ma perruque, ma calèche, et mon fausset, qu'il a joués publiquement.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='27'>
+	<s id='1'>Que réponds-tu ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE chagrin.</speaker>
+<p id='28'>
+	<s id='1'>Rien.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='29'>
+	<s id='1'>Aux autres ; passez, on vous jugera à loisir.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON, à l'entrée de la porte.</speaker>
+<p id='30'>
+	<s id='1'>Arrêtez donc, vous n'entrerez pas.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='31'>
+	<s id='1'>Qu'est-ce ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<note type="L">Gaulis : terme de vénerie. Branche d'arbre qu'il faut que les veneurs plient ou détournent quand ils percent dans le fort d'un bois. [F]</note>
+<p id='32'>
+	<s id='1'>C'est le plus fâcheux de tous nos morts. </s>
+	<s id='2'>Un Chasseur qui s'est cassé la tête sur son cheval Alezan, et qui ne parle à tout le monde que de gaulis, de gigots, de pieds, de croupe, et d'encolure.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='33'>
+	<s id='1'>Fais donc venir qui tu voudras. </s>
+	<s id='2'>Je commence à me lasser de tout ceci.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='34'>
+	<s id='1'>Entrez, vous.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='35'>
+	<s id='1'>Çà, qu'est-ce encore que cette grosse ombre-ci ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='36'>
+	<s id='1'>C'est l'Ombre d'un Cocu.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id=''>
+	<s id='1'>L'Ombre d'un Cocu ? </s>
+	<s id=''>Il faut que ce soit un furieux corps ! </s>
+	<s id=''>Parle, que veux-tu ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Cocu Imaginaire, Molière, Pluton, Caron, Minos, Radamante.</head>
+<sp who='LE-COCU'><speaker>LE COCU.</speaker>
+<p id='1'>
+	<s id='1'>Vous voyez en ma seule Ombre tout le corps des cocus ; vous les voyez ici en moi, dis-je, affligés, outragés, et tout contrits des affronts publics que ce grand corps a reçus depuis que malicieusement cet ennemi juré de notre repos nous a rendus le jouet de tout le monde. </s>
+	<s id='2'>Il n'est presque aucun mari qui n'ait senti les traits piquants de sa Satire ; et depuis qu'il s'est mêlé d'annexer le cocuage à de certains maris, il se voit peu de familles où l'on ne soit persuadé de trouver des cocus de père en fils. </s>
+	<s id='3'>Ce soupçon outrageant est devenu par son moyen comme un titre de maison ; et il en a excepté si peu de gens, que si je ne parle pour tout le monde, il ne s'en faut guère du moins. </s>
+	<s id=''>Voila de quoi se plaint notre illustre corps, qui avant sa scandaleuse médisance vivait dans l'état de la première innocence. </s>
+	<s id=''>Chacun vivait content de sa petite réputation ; le scandale ne régnait point publiquement comme il fait ; et si l'on avait le malheur d'être cocu, on avait du moins la douceur de l'être en son petit particulier. </s>
+	<s id=''>Mais depuis qu'il a dévoilé les mystères secrets, ce n'est plus partout qu'une gorge chaude des pauvres maris. </s>
+	<s id=''>On en va à la moutarde, et plusieurs honnêtes gens même ont pris en dot le titre de cocus en signant leur contrat de mariage. </s>
+	<s id=''>Si la discrétion des notaires n'était grande, quelqu'un de ces Messieurs en pourrait parler avec beaucoup de sûreté. </s>
+	<s id=''>Voilà le désordre et le dérèglement qu'il a mis en l'autre monde, dont nous demandons en celui-ci justice, vengeance, et réparation.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON à Molière.</speaker>
+<p id='2'>
+	<s id='1'>Qu'avez-vous à dire là-dessus ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='3'>
+	<s id='1'>Rien ; je passe condamnation pour les cocus, et j'ai trop mal réussi dans cette affaire pour me pouvoir défendre. </s>
+	<s id='2'>Quelque soin que j'aie pris de faire horreur du cocuage, j'avoue de bonne-foi que c'est un vice dont je n'ai pu corriger mon siècle.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Minos, mets-le sur le Rôle. </s>
+	<s id='2'>Allez, on va vous écrire. </s>
+	<s id='3'>Qu'est-ce ? </s>
+	<s id='4'>Qu'y a-t-il de nouveau ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Caron, Pluton, Molière, Minos, Radamante.</head>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Je ne sais d'où nous est venue encore une plaisante espèce d'Ombre : mais je crois, si l'on pouvait trépasser deux fois, qu'elle ferait mourir de rire tous les morts d'ici-bas.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='2'>
+	<s id='1'>Comment donc ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Elle rit de tout, et ne s'afflige de rien, pas même d'être venue ici à la fleur de son âge.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Cela est de bon sens ; y venir tôt ou tard, c'est toujours y venir ; et comme l'usage de la mort est un peu de durée, on fait bien de s'y accoutumer de bonne heure. </s>
+	<s id='2'>Mais qui est-elle, cette Ombre ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='5'>
+	<s id='1'>Ce n'est qu'une servante.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='6'>
+	<s id='1'>N'importe, fais-la entrer, il faut entendre tout le monde.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='7'>
+	<s id='1'>Allons, la Rieuse, entrez.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Nicole, Pluton, Molière, Minos, Radam, Caron.</head>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<note type="C">Voir le Bourgeois Gentilhomme, Acte III, Scène 2, Nicole rit aux éclats.</note>
+<p id='1'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>C'est Nicole.</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE, riant à gorge déployée.</speaker>
+<p id='2'>
+	<s id='1'>Hé, oui, c'est moi. </s>
+	<s id=''>Quand j'ai appris que vous étiez ici, par ma figue, ai-je dit en moi-même, il faut que j'aille voir ce pauvre Homme qui m'a tant fait rire en l'autre Monde.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='3'>
+	<s id='1'>Tu es donc bien-aise d'être en celui-ci, Nicole, puis que tu ris si fort ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE.</speaker>
+<p id='4'>
+	<s id='1'>C'est que vous m'avez appris à me moquer de tout : et puis franchement je ne suis pas trop fâchée d'être ici, et je ne trouve pas que la mort soit si dégoûtante que l'on se l'imagine.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='5'>
+	<s id='1'>Et d'où vient que tu t'accommodes si aisément d'une chose que les hommes trouvent si peu aimable ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE.</speaker>
+<p id='6'>
+	<s id='1'>C'est que je ne me souciais guère de vivre.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='7'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Tu n'étais pas bien-aise de voir la lumière ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE.</speaker>
+<note type="L">Endéver : être fort fâché de quelques action, en avoir grand dépit, enrager. [F]</note>
+<note type="L">Carême-prenant : Le jour du mardi qui précède le carême et quelquefois tout le temps du carnaval depuis les rois. (...) On appelle aussi des Carêmes-prenants, des gens du peuple qui se masquent de façon ridicules, et qui courent les rues. [F] </note>
+<p id='8'>
+	<s id='1'>Non, car je ne faisais tous les jours que la même chose, dormir, boire, et manger ; et il me semble que le plaisir de la vie est de changer quelquefois. </s>
+	<s id='2'>À cette heure, voulez-vous que je vous dise, il y a une certaine égalité parmi les morts qui ne me déplaît pas. </s>
+	<s id='3'>Je ne vois personne ici qui soit plus grand Seigneur l'un que l'autre ; et j'ai pensé étouffer de rire quand j'ai rencontré en venant mille sortes de gens qui se désespéraient. </s>
+	<s id='4'>Un riche banquier pâle et maigre, qui endévait de s'être laissé mourir de faim. </s>
+	<s id='5'>Un Amoureux qui s'est tué pour une maîtresse qui ne l'aimait point. </s>
+	<s id='6'>Un Alchimiste qui enrageait d'avoir passé sa vie en fumée ; mais, entre-autres choses, des Dames qui pleuraient de me voir assise auprès d'elles. </s>
+	<s id='7'>D'autres qui s'affligeaient de n'avoir plus de toilettes, de miroirs, et de petites boîtes. </s>
+	<s id='8'>Il n'y a rien de plus plaisant que de les voir sans rouge, sans mouches, et sans cheveux ; avec leur grand front chauve, leurs yeux creusés, et leurs joues décharnées ; vous les prendriez pour des carême-prenants. </s>
+	<s id=''>Enfin la plus belle et la plus laide se ressemblent comme deux gouttes d'eau.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='9'>
+	<s id='1'>Il n'est pas question de cela. </s>
+	<s id='2'>Qu'avez-vous à dire contre l'accusé ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE.</speaker>
+<p id='10'>
+	<s id='1'>Moi ? </s>
+	<s id='2'>Par ma figue, je n'ai rien à dire contre lui, c'est une bonne Ombre ; et tenez, Monsieur Pluton, c'est peut-être la meilleure pièce de votre sac.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='11'>
+	<s id='1'>Que voulez-vous donc ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE, riant.</speaker>
+<p id='12'>
+	<s id='1'>Monsieur, je viens vous prier...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='13'>
+	<s id='1'>Hé ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE, riant.</speaker>
+<p id='14'>
+	<s id='1'>Je viens vous prier, Monsieur...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='15'>
+	<s id='1'>Et là, dites donc ?</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE, riant toujours.</speaker>
+<p id='16'>
+	<s id='1'>Je viens vous prier, Monsieur... </s>
+	<s id='2'>de me... </s>
+	<s id='3'>laisser... </s>
+	<s id='4'>de me laisser... </s>
+	<s id='5'>de me laisser...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON, la contrefaisant.</speaker>
+<p id='17'>
+	<s id='1'>Et moi, ma Mie, je vous prie de nous laisser... </s>
+	<s id='2'>de nous laisser... </s>
+	<s id='3'>de nous laisser... </s>
+	<s id='4'>de nous laisser en repos, s'il vous plaît.</s>
+</p>
+</sp>
+<sp who='NICOLE'><speaker>NICOLE, éclatant de rire.</speaker>
+<p id='18'>
+	<s id='1'>Monsieur, je vous prie... </s>
+	<s id='2'>S'il vous plaît... </s>
+	<s id='3'>De m'accorder le plaisir... </s>
+	<s id='4'>Le plaisir de rire tout mon saoul, de vous, et de votre royaume.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='19'>
+	<s id='1'>Ôtez-moi cette impudente. </s>
+	<s id='2'>Qu'est-ce encore ? </s>
+	<s id='3'>Je n'en veux plus entendre ; qu'on me laisse en repos ; l'audience est finie, et je vais prononcer.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='20'>
+	<s id='1'>Hé, c'est l'Ombre de Pourceaugnac, ce brave Limousin ; elle n'a qu'un mot à vous dire.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='21'>
+	<s id='1'>Hé bien, qu'il entre. </s>
+	<s id='2'>Ah quelle peine ! </s>
+	<s id='3'>Ne sera-ce jamais fait ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Pourceaugnac, Pluton, Molière, Minos, Radam, Caron.</head>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='1'>
+	<s id='1'>Grand Roi des Morts, vous me voyez ici, Député de la part de tous les Limousins trépassés, qui vous demandent qu'il leur soit permis ajourner cette Ombre, leur partie, par-devant vous, à trois jours, pour se voir condamner à réparation d'honneur envers les Pourceaugnacs passés, présents, et futurs, tant des affronts reçus, que de ceux qu'ils recevront. </s>
+	<s id='2'>À quoi je conclus.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON, à Moliere.</speaker>
+<p id='2'>
+	<s id='1'>Répondez.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='3'>
+	<s id='1'>Hé Monsieur de Pourceaugnac ! </s>
+	<s id='2'>Quel sujet avez-vous de vous plaindre de moy ? </s>
+	<s id='3'>Si vous preniez bien les choses, ne me loueriez-vous pas, au lieu de me blâmer, d'avoir rendu votre nom aussi célèbre que j'ai fait ? </s>
+	<s id='4'>Car dites-moi un peu ; ne vous ai-je pas déterré du fond du Limousin, et à force de tourmenter ma cervelle, ne vous ai-je pas amené dans la plus illustre Cour du Monde ? </s>
+	<s id='5'>Raisonnons un peu de bonne foi ; ne m'avez-vous pas quelque obligation de vous avoir fait faire un si beau voyage ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='4'>
+	<s id='1'>Hé... </s>
+	<s id='2'>Oui.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='5'>
+	<s id='1'>N'est-ce pas moi qui vous ai fait connaître ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='6'>
+	<s id='1'>D'accord.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='7'>
+	<s id='1'>Ne vous a-t-on pas vu avec beaucoup de plaisir ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='8'>
+	<s id='1'>Cela est vrai, car chacun riait dès qu'on me voyait.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='9'>
+	<s id='1'>Vous a-t-on jamais banni des lieux publics ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='10'>
+	<s id='1'>Au contraire, on y donnait de l'argent pour me voir.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='11'>
+	<s id='1'>Et enfin n'ai-je pas rendu votre nom immortel pour tout votre royaume ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='12'>
+	<s id='1'>Et comment immortel ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='13'>
+	<s id='1'>Comment ? </s>
+	<s id='2'>Hé dés qu'il arrive en France quelqu'un qui ait tant-soit-peu votre air, de vos gentillesses, et de vos petites façons de faire, fût-ce un Prince, ne dit-on pas, voila un vrai Pourceaugnac ? </s>
+	<s id='3'>Et n'est-ce pas un honneur considérable pour vous, et pour votre province, que votre nom quelquefois puisse servir d'une qualité aux gens de la plus haute naissance ?</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<p id='14'>
+	<s id='1'>Il a quelque raison au fond.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='15'>
+	<s id='1'>Hé, prenons toujours les choses du bon côté ; n'allons point envenimer les intentions, et croyons tout à notre avantage : je n'ai jamais rien fait qu'à votre honneur et gloire, et serais bien fâché, Monsieur de Pourceaugnac, que les choses eussent tourné autrement.</s>
+</p>
+</sp>
+<sp who='POURCEAUGNAC'><speaker>POURCEAUGNAC.</speaker>
+<note type="L">Fariboles : choses vaines qui ne éritet aucune considération. [F]</note>
+<p id='16'>
+	<s id='1'>Ma foi, après tout, je pense en effet que j'ai tort de m'être fâché contre lui. </s>
+	<s id='2'>Qui diantre sont les sottes Ombres aussi qui s'avisent de me mettre des fariboles dans la tête ? </s>
+	<s id='3'>Allez, vous êtes des bêtes : Monsieur est une honnête Ombre, qui a pris la peine de me faire connaître, et vous ne savez pas prendre les choses du bon côté. </s>
+	<s id='4'>Monsieur, je suis fâché de tout ceci, et je vous demande pardon pour les Ombres de Limoges. </s>
+	<s id='5'>Je suis votre valet, tout à vous, votre serviteur, et votre ami. </s>
+	<s id='6'>Je vais chercher mon cousin l'assesseur, et mon neveu le chanoine, afin que nous buvions ensemble quelques verres d'oubli, pour ne nous plus souvenir du passé.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='17'>
+	<s id='1'>Adieu, Monsieur de Pourceaugnac.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='18'>
+	<s id='1'>Messieurs, il est tard, et je vais lever le siège.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Madame Jourdain, Pluton, Molière, Caron, Radam, Minos.</head>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN tout essoufflée.</speaker>
+<p id='1'>
+	<s id='1'>Justice, justice, justice, justice, justice.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='2'>
+	<s id='1'>Qui est-ce encore ici ? </s>
+	<s id='2'>Je ne veux plus entendre personne, et je suis las de tant d'impertinentes plaintes. </s>
+	<s id='3'>Pourquoi l'as-tu laissée entrer ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Elle a forcé la porte.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Prends donc bien garde aux autres, et qu'il n'en entre plus. </s>
+	<s id='2'>Je n'ai jamais vu tant de canailles en un jour. </s>
+	<s id='3'>Çà, que demandez-vous ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN, d'un air chagrin et brusque.</speaker>
+<p id='5'>
+	<s id='1'>Ce que je n'aurai pas.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='6'>
+	<s id='1'>Que vous faut il ? </s>
+	<s id='2'>Hé ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<p id='7'>
+	<s id='1'>Il me faut ce qui me manque.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='8'>
+	<s id='1'>Quelle nouvelle espèce est-ce encore ici ? </s>
+	<s id='2'>Dites-nous donc ce que vous avez ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<note type="C">Voir le Bourgeois Gentilhomme de Molière, acte III, scène IV, Madame Jourdain, seconde réplique. </note>
+<p id='9'>
+	<s id='1'>J'ai la tête plus grosse que le poing, et si je ne l'ai pas enflée.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='10'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>C'est Madame Jourdain, je la reconnais : et comment êtes-vous ici, Madame Jourdain ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<p id='11'>
+	<s id='1'>Sur mes pieds comme une oie.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='12'>
+	<s id='1'>Ah quelle femme !</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='13'>
+	<s id='1'>Vous venez vous plaindre de moi, n'est-ce pas, Madame Jourdain ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<p id='14'>
+	<s id='1'>Ça non ; j'aurais beau me plaindre, beau me plaindre j'aurais.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='15'>
+	<s id='1'>Encore ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='16'>
+	<s id='1'>Madame Jourdain est un peu en courroux.</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<p id='17'>
+	<s id='1'>Oui, Jean Ridoux.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='18'>
+	<s id='1'>Courage. </s>
+	<s id=''>Hé bien, qu'avez-vous à me dire ?</s>
+</p>
+</sp>
+<sp who='MADAME-JOURDAIN'><speaker>MADAME JOURDAIN.</speaker>
+<p id='19'>
+	<s id='1'>Oui, qu'avez-vous à me frire ?</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='20'>
+	<s id='1'>Diable soit la Masque ; Que l'on me l'ôte d'ici, et que d'aujourd'hui personne ne me parle. </s>
+	<s id='2'>Je suis las de tous ces extravagants, et me voilà dans une colère que je ne me sens pas. </s>
+	<s id='3'>Qu'est-ce encore ? </s>
+	<s id='4'>Qu'y a-t-il ? </s>
+	<s id='5'>Que veut-on ? </s>
+	<s id='6'>Serai-je toujours troublé, persécuté, accablé d'affaires ? </s>
+	<s id='7'>Hé, quelle misère est-ce ci ? </s>
+	<s id='8'>A-t-on jamais vu un Dieu plus fatigué que moi ?</s>
+</p>
+<stage>Pluton se lève de son tribunal.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Caron, Pluton, Minos, Radam.</head>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Grand Roi...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON, marchant en colère.</speaker>
+<p id='2'>
+	<s id='1'>Non, je crois que tout cet embarras me fera renoncer à mon Empire. </s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Ce sont...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Quoi, sans repos !</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='5'>
+	<s id='1'>Il y a...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='6'>
+	<s id='1'>Sans plaisir !</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='7'>
+	<s id='1'>Ce sont...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='8'>
+	<s id='1'>Sans relâche ! </s>
+	<s id='2'>Non, je ne veux plus rien entendre. </s>
+	<s id='3'>Que tout soit renversé, bouleversé, sans-dessus-dessous, je n'écoute personne ; Qu'on ne m'en parle plus.</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='9'>
+	<s id='1'>Ce sont des médecins qui viennent d'arriver, et qui voudraient vous demander un moment d'audience.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='10'>
+	<s id='1'>Des ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='11'>
+	<s id='1'>Des Medecins.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON courant se remettre sur son Tribunal.</speaker>
+<p id='12'>
+	<s id='1'>Des médecins ! </s>
+	<s id='2'>Ho ! </s>
+	<s id='3'>qu'on les fasse entrer : ce sont nos meilleurs Amis ; qu'ils viennent, qu'ils viennent. </s>
+	<s id='4'>D'honnêtes gens, à qui je dois trop pour leur rien refuser. </s>
+	<s id='5'>Ils ont augmenté le nombre de mes sujets, et je leur en dois sans doute une ample reconnaissance. </s>
+	<s id='6'>Mais les voici.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. Quatre Médecins, Pluton, Radam, Minos,Molière, Caron.</head> 
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='1'>
+	<s id='1'>Ha, voici de mes gens. </s>
+	<s id='2'>Écoutons-les parler, et puis nous répondrons.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='2'>
+	<s id='1'>Messieurs, soyez les bienvenus. </s>
+	<s id='2'>Vous visitez un Prince qui vous honore fort ; je sais toutes les obligations que je vous ai, et que dans ce vaste Empire des Morts vous pouvez vous vanter avec raison d'y avoir aussi bonne part que moi : Aussi en revanche de tout vos bons et fidèles services, je ne prétends pas vous rien refuser. </s>
+	<s id=''>Demandez seulement.</s>
+</p>
+</sp>
+<sp who='PREMIER-MÉDECIN'><speaker>PREMIER MÉDECIN.</speaker>
+<p id='3'>
+	<s id='1'>Grand Monarque des Morts, vous voyez ici la fleur de vos plus fidèles pensionnaires.</s>
+</p>
+</sp>
+<sp who='SECOND-MÉDECIN'><speaker>SECOND MÉDECIN, bredouillant.</speaker>
+<p id='4'>
+	<s id='1'>Jamais nous n'avons laissé échapper la moindre occasion de vous donner des marques de notre obéissance et fidélité.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<note type="L">Emetique : est un remède qui purge avec violence par haut et par bas, fait de la poudre et du beurre d'antimoine préparé, dont on a séparé les sels corrosifs par plusieurs lotions. [F]</note>
+<p id='5'>
+	<s id='1'>J'en suis persuadé. </s>
+	<s id='2'>L'opium, l'émétique, et la saignée, m'ont rendu témoignage que vous m'avez fidèlement servi.</s>
+</p>
+</sp>
+<sp who='TROISIÈME-MÉDECIN'><speaker>TROISIÈME MÉDECIN.</speaker>
+<p id='6'>
+	<s id='1'>Nous avons fait notre devoir.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='7'>
+	<s id='1'>Beaucoup de gens sont venus ici de votre part, qui m'en ont assuré.</s>
+</p>
+</sp>
+<sp who='QUATRIÈME-MÉDECIN'><speaker>QUATRIÈME MÉDECIN.</speaker>
+<p id='8'>
+	<s id='1'>C'est avec plaisir que l'on sert un si grand Monarque.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<note type="L">Parques : divinités des Enfers chargées de filer la vie des hommes, étaient au nombre de trois, Clotho, Lachésis, Atropos : Chlotho préside à la naissance et tient le fuseau, Lachésis le tourne et file, Atropos coupe le fil. [B]</note>
+<p id='9'>
+	<s id='1'>Je vous suis obligé, et j'ai bien de la joie de vous voir. </s>
+	<s id=''>Ce n'est pas que vous ne m'eussiez été encore un peu nécessaires là-haut, et j'ai eu quelque chagrin quand les Parques m'ont dit que vous veniez ici : mais je m'en suis néanmoins consolé lorsque j'ai appris que vous aviez laissé de grands enfants qui savaient assez bien leur métier, et que même il était déjà venu ici quelques morts de leurs amis, qui en avaient fait une expérience fort raisonnable. </s>
+	<s id='2'>Mais que souhaitez-vous de moi ?</s>
+</p>
+</sp>
+<sp who='TROISIÈME-MÉDECIN'><speaker>TROISIÈME MÉDECIN.</speaker>
+<p id='10'>
+	<s id='1'>Nous venons vous demander justice d'un téméraire qui prétend traiter la médecine d'imposture, et de charlatanerie.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='11'>
+	<s id='1'>C'est donc quelqu'un qui la connaît ?</s>
+</p>
+</sp>
+<sp who='QUATRIÈME-MÉDECIN'><speaker>QUATRIÈME MÉDECIN.</speaker>
+<p id='12'>
+	<s id='1'>C'est une rage sans fondement, une simple avidité de tout satiriser, et une animosité envenimée par la seule envie d'écrire, et de former des cabales contre nous.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE, à part.</speaker>
+<p id='13'>
+	<s id='1'>Je vous confondrai dans peu, superbes imposteurs.</s>
+</p>
+</sp>
+<sp who='TROISIÈME-MÉDECIN'><speaker>TROISIÈME MÉDECIN.</speaker>
+<p id='14'>
+	<s id='1'>Il s'est même déjà glissé jusques dans ces lieux une médisance secrète qui nous regarde. </s>
+	<s id=''>Tous les morts semblent se liguer contre nous ; il leur échappe des satires piquantes, et des injures calomnieuses contre les médecins ; et nous venons ici, Grand Monarque, vous remontrer humblement, de la part de notre Illustre Corps, de quelle importance il est, pour l'accroissement de votre Empire, que vous réprimiez l'audace et l'insolence de tous ces morts.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='15'>
+	<s id='1'>On apprendra à vivre à ces morts-là. </s>
+	<s id=''>J'entends et je pretends qu'on vous regarde comme les plus fermes appuis de mon État. </s>
+	<s id=''>Mais qui sont ces morts-là qui ont l'impudence d'aller gâter vostre métier ? </s>
+	<s id=''>Nommez, nommez-les moi ; j'en veux faire un bon exemple.</s>
+</p>
+</sp>
+<sp who='QUATRIÈME-MÉDECIN'><speaker>QUATRIÈME MÉDECIN.</speaker>
+<note type="L">Caton : surnommé l'Ancien ou le Censeur, romain célèbre par ses vertus, né à Tusculum, l'an 24 av. J.-C. d'une famille obscure. Il mourut l'an 149 avec J.-C. à 85 ans. Censeur, il exerça ses fonctions avec une sévérité qui passa en proverbe. </note>
+<p id='16'>
+	<s id='1'>C'est un nombre infini de petits esprits qui se sont laissés emporter au torrent, et qui n'ont poussé leur plainte que comme les échos qui répètent les peines des autres sans les avoir senties. </s>
+	<s id=''>Mais c'est à l'auteur de nos maux que nous en voulons ; c'est à celui qui comme un nouveau Caton, s'est venu déchaîner contre nous et qui, après le mépris évident qu'il a fait de notre illustre corps, a poussé son audace encore jusqu'à nous tourner en ridicules ; en nous rendant la fable et la risée du public. </s>
+	<s id=''>C'est cette Ombre, en un mot, cet insolent fléau de notre faculté, dont nous vous demandons une vengeance authentique.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='17'>
+	<s id='1'>Répondez.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='18'>
+	<s id='1'>C'est donc à moi à qui vous en voulez, Messieurs ? </s>
+	<s id='2'>Vous demandez vengeance du mépris que j'ai fait de votre illustre corps : Je vous ai tourné en ridicules, je vous ai rendus la fable et la risée du Public ? </s>
+	<s id='3'>Hé bien, il faut vous répondre, et tracer  plus naturellement vos traits, afin de vous bien faire connaître. </s>
+	<s id=''>Pluton, je jure ici par le respect que je te dois, que ce n'est point contre ce grand art de la médecine que je prétends me déchaîner. </s>
+	<s id=''>J'en adore l'étude, j'en révère la judicieuse pratique, mais j'en abhorre et déteste le pernicieux et méchant usage qu'en font par leur négligence des fourbes ignorants, que la seule robe fait appeler médecins ; et ce n'est qu'à ceux qui abusent de ce nom que je vais répondre.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='19'>
+	<s id='1'>Ah ! </s>
+	<s id=''>Voici une conversation raisonnable celle-ci.</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='20'>
+	<s id='1'>Imposteurs ! </s>
+	<s id='2'>Qui peut mieux prouver votre ignorance, et l'incertitude de vos projets, que vos contrariétés perpétuelles ? </s>
+	<s id='3'>Vous trouvez-vous jamais d'accord ensemble ? </s>
+	<s id='4'>Et jusqu'à vos moindres Ordonnances, a-t-on jamais vu un médecin suivre celle de l'autre, sans y ajoûter ou diminuer quelque chose ? </s>
+	<s id='5'>Quant à leurs opinions, elles sont encore plus différentes que leurs pratiques. </s>
+	<s id='6'>Les uns disent que la cause des maux est dans les humeurs ; les autres dans le sang. </s>
+	<s id='7'>Quelques-uns, par un  pompeux galimatias, l'imputent aux atomes invisibles, qui entrent dans les pores. </s>
+	<s id='8'>Celui-ci soutient, que les maladies viennent du défaut des forces corporelles : celui-là, qu'elles procèdent de l'inégalité des éléments du corps, et de la qualité de l'air que nous respirons, ou de l'abondance, crudité, et corruption de nos aliments. </s>
+	<s id='9'>Ah que cette diversité d'opinions marque bien l'ignorance des médecins ; mais encore plus la faiblesse ou la témérité des malades qui s'abandonnent aux agitations de tant de vents contraires !</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON, aux médecins.</speaker>
+<p id='21'>
+	<s id='1'>Messieurs, hé ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='22'>
+	<s id='1'>Ce qu'ils ont de plus unanime dans leur école, et où ils s'entendent le mieux, c'est que tous tant qu'ils sont vous assurent que dans la composition d'une médecine, une chose purge le cerveau, celle-ci échauffe l'estomac, celle-là rafraîchit le foie, et font partir un breuvage à bride abattue, comme si dans ce mélange chaque remède portait son étiquette, et que tous n'allassent pas ensemble séjourner au même lieu. </s>
+	<s id=''>Il faut que ces Messieurs soient bien assurés de l'obéissance et de la sagesse de leurs drogues : car enfin, si par mégarde l'une allait prendre le chemin de l'autre, et que la partie qui doit être échauffée vint par méprise à être refroidie, voyez un peu où le pauvre malade en serait !</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='23'>
+	<s id='1'>Messieurs, hé ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='24'>
+	<s id='1'>Mais quoi, les imposteurs abusant de l'occasion, usurpent effrontément une autorité tyrannique sur de pauvres âmes affaiblies et abattues par le mal, et par la crainte de la mort. </s>
+	<s id='2'>Il prennent si bien leur avantage de nos faiblesses, que de notre aveu même, dans ce dangereux moment, ils hasardent effrontément aux dépens de nos vies toutes les épreuves que leur suggèrent leurs ambitieuses imaginations. </s>
+	<s id='3'>Les scélérats osent tout tenter, sur cette confiance que le Soleil éclairera leurs succès et que la Terre couvrira leurs fautes.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='25'>
+	<s id='1'>Messieurs, hé ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<note type="L">Hydropisie : enflure des membres du corps causée par une eau qui se coule entre cuir et chair lorsque le foie ne fait plus ses fonctions. [F]</note>
+<note type="C">Voir Le Médecin malgré lui de Molière, Acte III scène 1.</note>
+<p id='26'>
+	<s id='1'>Il me souvient ici, avec quelque douleur, de la faiblesse d'un de mes amis qui s'était sottement confié par leurs noires séductions à l'expérience d'un remède. </s>
+	<s id='2'>Deux heures après l'avoir pris, le médecin qui l'avait ordonné, lui en vint demander l'effet, et comment il s'en était trouvé. </s>
+	<s id='3'>J'ai fort sué, lui répondit le malade. </s>
+	<s id='4'>Cela est bon, dit le médecin. </s>
+	<s id='5'>Trois heures en suite, il lui vint demander comment il s'était porté depuis. </s>
+	<s id='6'>J'ai senti, dit le Patient, un froid extrême, et j'ai fort tremblé. </s>
+	<s id='7'>Cela est bon, suivit le charlatan. </s>
+	<s id='8'>Et sur le soir, pour la troisième fois, il revint s'informer encore de l'état où il se trouvait. </s>
+	<s id='9'>Je me sens, dit le Malade, enfler partout, comme d'hydropisie. </s>
+	<s id='10'>Tout cela est bien, répondit le bourreau. </s>
+	<s id='11'>Le lendemain j'allai voir ce pauvre Malade ; et lui ayant demandé en quel état il était : Hélas ! </s>
+	<s id='12'>Mon cher ami, dit-il, en rendant le dernier soupir, à force d'être bien, je sens que je me meurs. </s>
+	<s id='13'>Ah ! </s>
+	<s id='14'>M'écriai-je alors tout percé de douleur, qu'heureux sont les animaux que la simple nature sait guérir sans le secours de leur consultations ! </s>
+	<s id='15'>Que l'être brutal serait à souhaiter, quand on devient malade ! </s>
+	<s id='16'>Mais aussi qu'il serait à craindre, s'il se trouvait autant de médecins parmi les bêtes, que de bêtes parmi les médecins !</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='27'>
+	<s id='1'>Messieurs ?</s>
+</p>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+<p id='28'>
+	<s id='1'>Qu'ils se plaignent maintenant de moi, et que ton équité, Grand Monarque, paraisse dans tes jugements.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='14'><head>SCÈNE DERNIÈRE. Caron, Les Ombres, Pluton, Radam, Minos, Molière.</head>
+<note type="C">Barque : Caron fait traverser le Styx sur sa barque. Les morts peuvent ainsi rejoindre les Champs Elysées.</note>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='1'>
+	<s id='1'>Oh ! </s>
+	<s id='2'>Je n'y puis plus tenir. </s>
+	<s id='3'>Depuis que je conduits la barque, je n'ai jamais tant vu de morts pour un jour ; et si vous n'y venez donner ordre, je ne sais pas ce que nous en ferons.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='2'>
+	<s id='1'>Comment ? </s>
+	<s id='2'>Nous avons donc bien des gens ?</s>
+</p>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='3'>
+	<s id='1'>Tout crève à la porte.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='4'>
+	<s id='1'>Puisque nous avons tant de morts ici-bas, il faut qu'il y ait encore bien des médecins là-haut. </s>
+	<s id='2'>Mais qu'ils attendent à un autre jour, je ne juge d'aujourd'hui, et voici ma dernière sentence. </s>
+	<s id='3'>Retirez-vous un peu, que je prenne les opinions. </s>
+	<s id='4'>Minos, qu'en dis-tu ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='5'>
+	<s id='1'>Moi ? </s>
+	<s id='2'>Que cette Ombre est de bon sens, et qu'elle mérite bien quelque jugement avantageux.</s>
+</p>
+</sp>
+<sp who='RADAMANTE'><speaker>RADAMANTE.</speaker>
+<p id='6'>
+	<s id='1'>Il n'y a qu'honneur à juger en sa faveur.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='7'>
+	<s id='1'>J'en demeure d'accord ; mais aussi les obligations que nous avons à ces messieurs m'embarrassent ; et je crois qu'un arbitrage conviendrait mieux à cette affaire qu'un jugement dans les formes. </s>
+	<s id='2'>Ne trouvez-vous point à propos de leur proposer un accommodement ?</s>
+</p>
+</sp>
+<sp who='MINOS'><speaker>MINOS.</speaker>
+<p id='8'>
+	<s id='1'>Hé, oui-da ; car il est vrai que nous avons quelque mesure à garder avec la Faculté.</s>
+</p>
+</sp>
+<sp who='RADAMANTE'><speaker>RADAMANTE.</speaker>
+<p id='9'>
+	<s id='1'>Je suis de cet avis.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='10'>
+	<s id='1'>Je m'en vais leur parler. </s>
+	<s id='2'>Ça, Messieurs ; Qu'est-ce ? </s>
+	<s id='3'>N'y a-t-il pas moyen de vous rapatrier ? </s>
+	<s id='4'>Je vois de part et d'autre que les raisons peuvent subsister ; d'accord ; mais à les bien peser, entre nous, la balance penchera de son côté ; et sans l'alliance jurée entre nous, franchement, Messieurs, vous seriez tondus. </s>
+	<s id='5'>C'est pourquoi si vous m'en croyez, tâchez de vous accommoder ensemble ; et pour faciliter l'affaire, j'aime mieux relâcher de mes intérêts, et consentir que vous m'en envoyiez quelques millions de morts moins qu'à votre ordinaire.</s>
+</p>
+</sp>
+<sp who='LES-MÉDECINS'><speaker>LES MÉDECINS.</speaker>
+<p id='11'>
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Notre ennemi juré ? </s>
+	<s id='3'>Non, non...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='12'>
+	<s id='1'>Ho, ho, Messieurs, si vous n'êtes contents, prenez des cartes. </s>
+	<s id='2'>J'y perds plus que vous, et si je ne me plains pas.</s>
+</p>
+</sp>
+<sp who='LES-MÉDECINS'><speaker>LES MÉDECINS.</speaker>
+<p id='13'>
+	<s id='1'>Quoi, Pluton...</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='14'>
+	<s id='1'>Quoi ! </s>
+	<s id=''>Vos Ombres téméraires m'osent répliquer, moi, qui puis vous faire évanouir d'un souffle seulement ?</s>
+</p>
+</sp>
+<sp who='LES-MÉDECINS'><speaker>LES MÉDECINS.</speaker>
+<p id='15'>
+	<s id='1'>Nous demandons justice, justice.</s>
+</p>
+</sp>
+<sp who='PLUTON'><speaker>PLUTON.</speaker>
+<p id='16'>
+	<s id='1'>Encore ? </s>
+	<s id='2'>Ah je m'en vais souffler. </s>
+	<s id='3'>Fu, fu. </s>
+</p>
+	<l id='1'>Mais il est temps de prononcer</l>
+	<l id='2'>En quel endroit je dois placer</l>
+	<l id='3'>Ton Ombre avecque ta mémoire.</l>
+	<l id='4'>Que la Postérité t'en choisisse le lieu ;</l>
+	<l id='5'>Et tandis qu'elle ira travailler à ta Gloire,</l>
+	<l id='6'>Entre Térence et Plaute occupe le milieu.</l>
+<stage>Le carillon se fait.</stage>
+</sp>
+<sp who='CARON'><speaker>CARON.</speaker>
+<p id='17'>
+	<s id='1'>Messieurs, Pluton se va coucher ; son Bonnet de nuit l'attend ; Vous avez ouï la retraite. </s>
+	<s id='2'>Bonsoir.</s>
+</p>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

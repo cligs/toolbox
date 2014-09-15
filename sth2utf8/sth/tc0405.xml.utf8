@@ -1,0 +1,3663 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LES FEMMES SAVANTES, COMÉDIE</title>
+				<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
+				<date>1672</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE</p><p>Juillet 2008</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1671-1680</periode>
+				<taille>1750-2000</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/btv1b8610790n</permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">LES FEMMES SAVANTES</titlePart>
+			<titlePart type="sub">COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1672">M. DC. LXXII. AVEC PRIVILÈGE DU ROI</docDate>
+		<docAuthor id="MOLIERE" bio='moliere'>Par J.B.P. MOLIÈRE</docAuthor>
+		<docImprint>
+			<privilege id="1670-12-31"><head>Extrait du privilège du Roi.</head>
+			<p>Par grâce et privilège du Roi, donné à Paris le 31 décembre 1670. Signé par le Roi en son conseil, GUITONNEAU. Il est permis à J.B.P. MOLIERE, de faire imprimer par tel,imprimeur ou libraire qu'il voudra choisir, une pièce de théâtre de sa composition, intitulé Les FEmmes Savantes, et ce pendant le temps et espace de dix ans, à compter du jour que ladite pièce sera achevée d'imprimer pour le première fois : Et défenses sont faites à toutes personnes de quelque qualité et condition, qu'il soient, d'imprimer, ou faire imprimer ladite pièce, sans le consentement de l'exposant, ou de ceux qui auront droit de lui, à peine de six mille livres d'amende, et de tous dépens, dommages et intérêts, ainsi que plus au long il porté audit privilège. </p>
+			<p>Registré sur le Livre de la Communauté, le 13 mars 1671.</p>
+			<p>Signé, L. SEVESTRE, Syndic.</p>
+			
+			</privilege>
+			<acheveImprime id="1672-12-10">Achevé d'imprimer le 10 décembre 1672.</acheveImprime>
+			<printer id='PROME'>Et se vend pour l'auteur. À PARIS, au Palais, et Chez PIERRE PROME, sur le Quai des Grands-Augustins, à la Charité.</printer>
+		</docImprint>
+		<performance>
+			<premiere date="1672-03-11" location='Théâtre du Palais-Royal'>Représentée la première fois le 11 mars 1672 par la Troupe du Roi, à Paris sur le Théâtre de la salle du Palais-Royal.</premiere>
+		</performance>
+		<castList><head>ACTEURS</head>
+			<castItem><role id="CHRYSALE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>CHRYSALE</role>, bon bourgeois.</castItem>
+			<castItem><role id="PHILAMINTE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>PHILAMINTE</role>, femme de Chrysale.</castItem>
+			<castItem><role id="ARMANDE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>ARMANDE</role>fille de Chrysale et de Philaminte.</castItem>
+			<castItem><role id="HENRIETTE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>HENRIETTE</role>fille de Chrysale et de Philaminte.</castItem>
+			<castItem><role id="ARISTE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>ARISTE</role>, frère de Chrysale.</castItem>
+			<castItem><role id="BÉLISE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>BÉLISE</role>, soeur de Chrysale.</castItem>
+			<castItem><role id="CLITANDRE" civil='M' type="H" statut='bourgeois' age='A' stat_amour='Henriette'>CLITANDRE</role>, amant d'Henriette.</castItem>
+			<castItem><role id="TRISSOTIN" civil='M' type="H" statut='bel esprit' age='A' stat_amour='néant'>TRISSOTIN</role>, bel esprit.</castItem>
+			<castItem><role id="VADIUS" civil='M' type="H" statut='savant' age='A' stat_amour='néant'>VADIUS</role>, savant.</castItem>
+			<castItem><role id="MARTINE" civil='F' type="H" statut='servante' age='A' stat_amour='néant'>MARTINE</role>, servante de cuisine.</castItem>
+			<castItem><role id="L'ÉPINE" civil='M' type="H" statut='laquais' age='A' stat_amour='néant'>L'ÉPINE</role>, laquais.</castItem>
+			<castItem><role id="JULIEN" civil='M' type="H" statut='valet' age='A' stat_amour='néant'>JULIEN</role>, valet de Vadius.</castItem>
+			<castItem><role id="LE NOTAIRE" civil='M' type="H" statut='notaire' age='A' stat_amour='néant'>LE NOTAIRE</role>.</castItem>
+		</castList>
+	<set location="Paris" country='France' periode='XVIIème' link=''>La scène est à Paris. </set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Armande, Henriette.</head>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1'>Quoi ? Le beau nom de fille est un titre, ma soeur,</l>
+	<l id='2'>Dont vous voulez quitter la charmante douceur,</l>
+	<l id='3'>Et de vous marier vous osez faire fête ?</l>
+	<l id='4'>Ce vulgaire dessein vous peut monter en tête ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='5' part='i'>Oui, ma soeur.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='5' part='f'>Ah ! Ce « oui » se peut-il supporter,</l>
+	<l id='6'>Et sans un mal de coeur saurait-on l'écouter ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='7'>Qu'a donc le mariage en soi qui vous oblige,</l>
+	<l id='8' part='i'>Ma soeur... ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+<note type="L">Fi : interj. Exprime le blâme, le dédain, le mépris. [L]</note>
+	<l id='8' part='m'>Ah, mon Dieu ! Fi !</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='8' part='m'>Comment ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='8' part='f'>Ah, fi ! Vous dis-je.</l>
+	<l id='9'>Ne concevez-vous point ce que, dès qu'on l'entend,</l>
+	<l id='10'>Un tel mot à l'esprit offre de dégoûtant ?</l>
+	<l id='11'>De quelle étrange image on est par lui blessée ?</l>
+	<l id='12'>Sur quelle sale vue il traîne la pensée ?</l>
+	<l id='13'>N'en frissonnez-vous point ? et pouvez-vous, ma soeur,</l>
+	<l id='14'>Aux suites de ce mot résoudre votre coeur ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='15'>Les suites de ce mot, quand je les envisage,</l>
+	<l id='16'>Me font voir un mari, des enfants, un ménage ;</l>
+	<l id='17'>Et je ne vois rien là, si j'en puis raisonner,</l>
+	<l id='18'>Qui blesse la pensée et fasse frissonner.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='19'>De tels attachements, ô Ciel ! Sont pour vous plaire ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='20'>Et qu'est-ce qu'à mon âge on a de mieux à faire,</l>
+	<l id='21'>Que d'attacher à soi, par le titre d'époux,</l>
+	<l id='22'>Un homme qui vous aime et soit aimé de vous,</l>
+	<l id='23'>Et de cette union, de tendresse suivie,</l>
+	<l id='24'>Se faire les douceurs d'une innocente vie ?</l>
+	<l id='25'>Ce noeud, bien assorti, n'a-t-il pas des appas ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='26'>Mon Dieu, que votre esprit est d'un étage bas !</l>
+	<l id='27'>Que vous jouez au monde un petit personnage,</l>
+	<l id='28'>De vous claquemurer aux choses du ménage,</l>
+	<l id='29'>Et de n'entrevoir point de plaisirs plus touchants</l>
+	<l id='30'>Qu'un idole d'époux et des marmots d'enfants !</l>
+	<l id='31'>Laissez aux gens grossiers, aux personnes vulgaires,</l>
+	<l id='32'>Les bas amusements de ces sortes d'affaires ;</l>
+	<l id='33'>À de plus hauts objets élevez vos désirs,</l>
+	<l id='34'>Songez à prendre un goût des plus nobles plaisirs,</l>
+	<l id='35'>Et traitant de mépris les sens et la matière,</l>
+	<l id='36'>À l'esprit comme nous donnez-vous toute entière.</l>
+	<l id='37'>Vous avez notre mère en exemple à vos yeux,</l>
+	<l id='38'>Que du nom de savante on honore en tous lieux :</l>
+	<l id='39'>Tâchez ainsi que moi de vous montrer sa fille,</l>
+	<l id='40'>Aspirez aux clartés qui sont dans la famille,</l>
+	<l id='41'>Et vous rendez sensible aux charmantes douceurs</l>
+	<l id='42'>Que l'amour de l'étude épanche dans les coeurs ;</l>
+	<l id='43'>Loin d'être aux lois d'un homme en esclave asservie,</l>
+	<l id='44'>Mariez-vous, ma soeur, à la philosophie,</l>
+	<l id='45'>Qui nous monte au-dessus de tout le genre humain,</l>
+	<l id='46'>Et donne à la raison l'empire souverain,</l>
+	<l id='47'>Soumettant à ses lois la partie animale,</l>
+	<l id='48'>Dont l'appétit grossier aux bêtes nous ravale.</l>
+	<l id='49'>Ce sont là les beaux feux, les doux attachements,</l>
+	<l id='50'>Qui doivent de la vie occuper les moments ;</l>
+	<l id='51'>Et les soins où je vois tant de femmes sensibles</l>
+	<l id='52'>Me paraissent aux yeux des pauvretés horribles.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='53'>Le Ciel, dont nous voyons que l'ordre est tout-puissant,</l>
+	<l id='54'>Pour différents emplois nous fabrique en naissant ;</l>
+	<l id='55'>Et tout esprit n'est pas composé d'une étoffe</l>
+	<l id='56'>Qui se trouve taillée à faire un philosophe.</l>
+	<l id='57'>Si le vôtre est né propre aux élévations</l>
+	<l id='58'>Où montent des savants les spéculations,</l>
+	<l id='59'>Le mien est fait, ma soeur, pour aller terre à terre,</l>
+	<l id='60'>Et dans les petits soins son faible se resserre.</l>
+	<l id='61'>Ne troublons point du ciel les justes règlements,</l>
+	<l id='62'>Et de nos deux instincts suivons les mouvements :</l>
+	<l id='63'>Habitez, par l'essor d'un grand et beau génie,</l>
+	<l id='64'>Les hautes régions de la philosophie,</l>
+	<l id='65'>Tandis que mon esprit, se tenant ici-bas,</l>
+	<l id='66'>Goûtera de l'hymen les terrestres appas.</l>
+	<l id='67'>Ainsi, dans nos desseins l'une à l'autre contraire,</l>
+	<l id='68'>Nous saurons toutes deux imiter notre mère :</l>
+	<l id='69'>Vous, du côté de l'âme et des nobles désirs,</l>
+	<l id='70'>Moi, du côté des sens et des grossiers plaisirs ;</l>
+	<l id='71'>Vous, aux productions d'esprit et de lumière,</l>
+	<l id='72'>Moi, dans celles, ma soeur, qui sont de la matière.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='73'>Quand sur une personne on prétend se régler,</l>
+	<l id='74'>C'est par les beaux côtés qu'il lui faut ressembler ;</l>
+	<l id='75'>Et ce n'est point du tout la prendre pour modèle,</l>
+	<l id='76'>Ma soeur, que de tousser et de cracher comme elle.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='77'>Mais vous ne seriez pas ce dont vous vous vantez,</l>
+	<l id='78'>Si ma mère n'eût eu que de ces beaux côtés ;</l>
+	<l id='79'>Et bien vous prend, ma soeur, que son noble génie</l>
+<note type="L">Vaquer : Signifie aussi, s'abstenir de travailler aux affaires, suspendre ses études. [F]</note>
+	<l id='80'>N'ait pas vaqué toujours à la philosophie.</l>
+	<l id='81'>De grâce, souffrez-moi, par un peu de bonté,</l>
+	<l id='82'>Des bassesses à qui vous devez la clarté ;</l>
+	<l id='83'>Et ne supprimez point, voulant qu'on vous seconde,</l>
+	<l id='84'>Quelque petit savant qui veut venir au monde.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='85'>Je vois que votre esprit ne peut être guéri</l>
+	<l id='86'>Du fol entêtement de vous faire un mari ;</l>
+	<l id='87'>Mais sachons, s'il vous plaît, qui vous songez à prendre ;</l>
+	<l id='88'>Votre visée au moins n'est pas mise à Clitandre ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='89'>Et par quelle raison n'y serait-elle pas ?</l>
+	<l id='90'>Manque-t-il de mérite ? Est-ce un choix qui soit bas ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='91'>Non ; mais c'est un dessein qui serait malhonnête,</l>
+	<l id='92'>Que de vouloir d'un autre enlever la conquête ;</l>
+	<l id='93'>Et ce n'est pas un fait dans le monde ignoré</l>
+	<l id='94'>Que Clitandre ait pour moi hautement soupiré.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='95'>Oui ; mais tous ces soupirs chez vous sont choses vaines,</l>
+	<l id='96'>Et vous ne tombez point aux bassesses humaines ;</l>
+	<l id='97'>Votre esprit à l'hymen renonce pour toujours,</l>
+	<l id='98'>Et la philosophie a toutes vos amours :</l>
+	<l id='99'>Ainsi, n'ayant au coeur nul dessein pour Clitandre,</l>
+	<l id='100'>Que vous importe-t-il qu'on y puisse prétendre ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='101'>Cet empire que tient la raison sur les sens</l>
+	<l id='102'>Ne fait pas renoncer aux douceurs des encens,</l>
+	<l id='103'>Et l'on peut pour époux refuser un mérite</l>
+	<l id='104'>Que pour adorateur on veut bien à sa suite.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='105'>Je n'ai pas empêché qu'à vos perfections</l>
+	<l id='106'>Il n'ait continué ses adorations ;</l>
+	<l id='107'>Et je n'ai fait que prendre, au refus de votre âme,</l>
+	<l id='108'>Ce qu'est venu m'offrir l'hommage de sa flamme.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='109'>Mais à l'offre des voeux d'un amant dépité</l>
+	<l id='110'>Trouvez-vous, je vous prie, entière sûreté ?</l>
+	<l id='111'>Croyez-vous pour vos yeux sa passion bien forte,</l>
+	<l id='112'>Et qu'en son coeur pour moi toute flamme soit morte ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='113'>Il me le dit, ma soeur, et, pour moi, je le crois.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='114'>Ne soyez pas, ma soeur, d'une si bonne foi,</l>
+	<l id='115'>Et croyez, quand il dit qu'il me quitte et vous aime,</l>
+	<l id='116'>Qu'il n'y songe pas bien et se trompe lui-même.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='117'>Je ne sais ; mais enfin, si c'est votre plaisir,</l>
+	<l id='118'>Il nous est bien aisé de nous en éclaircir :</l>
+	<l id='119'>Je l'aperçois qui vient, et sur cette matière</l>
+	<l id='120'>Il pourra nous donner une pleine lumière.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Clitandre, Armande, Henriette.</head>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='121'>Pour me tirer d'un doute où me jette ma soeur,</l>
+	<l id='122'>Entre elle et moi, Clitandre, expliquez votre coeur ;</l>
+	<l id='123'>Découvrez-en le fond, et nous daignez apprendre</l>
+	<l id='124'>Qui de nous à vos voeux est en droit de prétendre.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='125'>Non, non : je ne veux point à votre passion</l>
+	<l id='126'>Imposer la rigueur d'une explication ;</l>
+	<l id='127'>Je ménage les gens, et sais comme embarrasse</l>
+	<l id='128'>Le contraignant effort de ces aveux en face.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='129'>Non, Madame, mon coeur, qui dissimule peu,</l>
+	<l id='130'>Ne sent nulle contrainte à faire un libre aveu ;</l>
+	<l id='131'>Dans aucun embarras un tel pas ne me jette,</l>
+	<l id='132'>Et j'avouerai tout haut, d'une âme franche et nette,</l>
+	<l id='133'>Que les tendres liens où je suis arrêté,</l>
+	<l id='134'>Mon amour et mes voeux sont tout de ce côté.</l>
+	<l id='135'>Qu'à nulle émotion cet aveu ne vous porte :</l>
+	<l id='136'>Vous avez bien voulu les choses de la sorte.</l>
+	<l id='137'>Vos attraits m'avaient pris, et mes tendres soupirs</l>
+	<l id='138'>Vous ont assez prouvé l'ardeur de mes désirs ;</l>
+	<l id='139'>Mon coeur vous consacrait une flamme immortelle ;</l>
+	<l id='140'>Mais vos yeux n'ont pas cru leur conquête assez belle.</l>
+	<l id='141'>J'ai souffert sous leur joug cent mépris différents,</l>
+	<l id='142'>Ils régnaient sur mon âme en superbes tyrans,</l>
+	<l id='143'>Et je me suis cherché, lassé de tant de peines,</l>
+	<l id='144'>Des vainqueurs plus humains et de moins rudes chaînes :</l>
+	<l id='145'>Je les ai rencontrés, Madame, dans ces yeux,</l>
+	<l id='146'>Et leurs traits à jamais me seront précieux ;</l>
+	<l id='147'>D'un regard pitoyable ils ont séché mes larmes,</l>
+	<l id='148'>Et n'ont pas dédaigné le rebut de vos charmes ;</l>
+	<l id='149'>De si rares bontés m'ont si bien su toucher,</l>
+	<l id='150'>Qu'il n'est rien qui me puisse à mes fers arracher ;</l>
+	<l id='151'>Et j'ose maintenant vous conjurer, Madame,</l>
+	<l id='152'>De ne vouloir tenter nul effort sur ma flamme,</l>
+	<l id='153'>De ne point essayer à rappeler un coeur</l>
+	<l id='154'>Résolu de mourir dans cette douce ardeur.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='155'>Eh ! Qui vous dit, Monsieur, que l'on ait cette envie,</l>
+	<l id='156'>Et que de vous enfin si fort on se soucie ?</l>
+	<l id='157'>Je vous trouve plaisant de vous le figurer,</l>
+	<l id='158'>Et bien impertinent de me le déclarer.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='159'>Eh ! Doucement, ma soeur. Où donc est la morale</l>
+	<l id='160'>Qui sait si bien régir la partie animale,</l>
+	<l id='161'>Et retenir la bride aux efforts du courroux ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='162'>Mais vous qui m'en parlez, où la pratiquez-vous,</l>
+	<l id='163'>De répondre à l'amour que l'on vous fait paraître</l>
+	<l id='164'>Sans le congé de ceux qui vous ont donné l'être ?</l>
+	<l id='165'>Sachez que le devoir vous soumet à leurs lois,</l>
+	<l id='166'>Qu'il ne vous est permis d'aimer que par leur choix.</l>
+	<l id='167'>Qu'ils ont sur votre coeur l'autorité suprême,</l>
+	<l id='168'>Et qu'il est criminel d'en disposer vous-même.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='169'>Je rends grâce aux bontés que vous me faites voir</l>
+	<l id='170'>De m'enseigner si bien les choses du devoir ;</l>
+	<l id='171'>Mon coeur sur vos leçons veut régler sa conduite ;</l>
+	<l id='172'>Et pour vous faire voir, ma soeur, que j'en profite,</l>
+	<l id='173'>Clitandre, prenez soin d'appuyer votre amour</l>
+	<l id='174'>De l'agrément de ceux dont j'ai reçu le jour ;</l>
+	<l id='175'>Faites-vous sur mes voeux un pouvoir légitime,</l>
+	<l id='176'>Et me donnez moyen de vous aimer sans crime.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='177'>J'y vais de tous mes soins travailler hautement,</l>
+	<l id='178'>Et j'attendais de vous ce doux consentement.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='179'>Vous triomphez, ma soeur, et faites une mine</l>
+	<l id='180'>À vous imaginer que cela me chagrine.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='181'>Moi, ma soeur, point du tout : je sais que sur vos sens</l>
+	<l id='182'>Les droits de la raison sont toujours tout-puissants ;</l>
+	<l id='183'>Et que par les leçons qu'on prend dans la sagesse,</l>
+	<l id='184'>Vous êtes au-dessus d'une telle faiblesse.</l>
+	<l id='185'>Loin de vous soupçonner d'aucun chagrin, je crois</l>
+	<l id='186'>Qu'ici vous daignerez vous employer pour moi,</l>
+	<l id='187'>Appuyer sa demande, et de votre suffrage</l>
+	<l id='188'>Presser l'heureux moment de notre mariage.</l>
+	<l id='189'>Je vous en sollicite ; et pour y travailler...</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='190'>Votre petit esprit se mêle de railler,</l>
+	<l id='191'>Et d'un coeur qu'on vous jette on vous voit toute fière.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='192'>Tout jeté qu'est ce coeur, il ne vous déplaît guère ;</l>
+	<l id='193'>Et si vos yeux sur moi le pouvaient ramasser,</l>
+	<l id='194'>Ils prendraient aisément le soin de se baisser.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='195'>À répondre à cela je ne daigne descendre,</l>
+	<l id='196'>Et ce sont sots discours qu'il ne faut pas entendre.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='197'>C'est fort bien fait à vous, et vous nous faites voir</l>
+	<l id='198'>Des modérations qu'on ne peut concevoir.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Clitandre, Henriette.</head>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='199'>Votre sincère aveu ne l'a pas peu surprise.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='200'>Elle mérite assez une telle franchise,</l>
+	<l id='201'>Et toutes les hauteurs de sa folle fierté</l>
+	<l id='202'>Sont dignes tout au moins de ma sincérité.</l>
+	<l id='203'>Mais puisqu'il m'est permis, je vais à votre père,</l>
+	<l id='204' part='i'>Madame...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='204' part='f'>Le plus sûr est de gagner ma mère :</l>
+	<l id='205'>Mon père est d'une humeur à consentir à tout,</l>
+	<l id='206'>Mais il met peu de poids aux choses qu'il résout ;</l>
+	<l id='207'>Il a reçu du Ciel certaine bonté d'âme,</l>
+	<l id='208'>Qui le soumet d'abord à ce que veut sa femme ;</l>
+	<l id='209'>C'est elle qui gouverne, et d'un ton absolu</l>
+	<l id='210'>Elle dicte pour loi ce qu'elle a résolu.</l>
+	<l id='211'>Je voudrais bien vous voir pour elle, et pour ma tante,</l>
+	<l id='212'>Une âme, je l'avoue, un peu plus complaisante,</l>
+	<l id='213'>Un esprit qui, flattant les visions du leur,</l>
+	<l id='214'>Vous pût de leur estime attirer la chaleur.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='215'>Mon coeur n'a jamais pu, tant il est né sincère,</l>
+	<l id='216'>Même dans votre soeur flatter leur caractère,</l>
+	<l id='217'>Et les femmes docteurs ne sont point de mon goût.</l>
+	<l id='218'>Je consens qu'une femme ait des clartés de tout ;</l>
+	<l id='219'>Mais je ne lui veux point la passion choquante</l>
+	<l id='220'>De se rendre savante afin d'être savante ;</l>
+	<l id='221'>Et j'aime que souvent, aux questions qu'on fait,</l>
+	<l id='222'>Elle sache ignorer les choses qu'elle sait ;</l>
+	<l id='223'>De son étude enfin je veux qu'elle se cache,</l>
+	<l id='224'>Et qu'elle ait du savoir sans vouloir qu'on le sache,</l>
+	<l id='225'>Sans citer les auteurs, sans dire de grands mots,</l>
+	<l id='226'>Et clouer de l'esprit à ses moindres propos.</l>
+	<l id='227'>Je respecte beaucoup Madame votre mère ;</l>
+	<l id='228'>Mais je ne puis du tout approuver sa chimère,</l>
+	<l id='229'>Et me rendre l'écho des choses qu'elle dit,</l>
+	<l id='230'>Aux encens qu'elle donne à son héros d'esprit.</l>
+	<l id='231'>Son Monsieur Trissotin me chagrine, m'assomme,</l>
+	<l id='232'>Et j'enrage de voir qu'elle estime un tel homme,</l>
+	<l id='233'>Qu'elle nous mette au rang des grands et beaux esprits</l>
+	<l id='234'>Un benêt dont partout on siffle les écrits,</l>
+	<l id='235'>Un pédant dont on voit la plume libérale,</l>
+	<l id='236'>D'officieux papiers fournir toute la halle.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='237'>Ses écrits, ses discours, tout m'en semble ennuyeux.</l>
+	<l id='238'>Et je me trouve assez votre goût et vos yeux ;</l>
+	<l id='239'>Mais, comme sur ma mère il a grande puissance,</l>
+	<l id='240'>Vous devez vous forcer à quelque complaisance.</l>
+	<l id='241'>Un amant fait sa cour où s'attache son coeur,</l>
+	<l id='242'>Il veut de tout le monde y gagner la faveur ;</l>
+	<l id='243'>Et, pour n'avoir personne à sa flamme contraire</l>
+	<l id='244'>Jusqu'au chien du logis il s'efforce de plaire.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='245'>Oui, vous avez raison ; mais Monsieur Trissotin</l>
+	<l id='246'>M'inspire au fond de l'âme un dominant chagrin.</l>
+	<l id='247'>Je ne puis consentir, pour gagner ses suffrages,</l>
+	<l id='248'>À me déshonorer en prisant ses ouvrages ;</l>
+	<l id='249'>C'est par eux qu'à mes yeux il a d'abord paru,</l>
+	<l id='250'>Et je le connaissais avant que l'avoir vu.</l>
+	<l id='251'>Je vis, dans le fatras des écrits qu'il nous donne,</l>
+	<l id='252'>Ce qu'étale en tous lieux sa pédante personne :</l>
+	<l id='253'>La constante hauteur de sa présomption,</l>
+	<l id='254'>Cette intrépidité de bonne opinion,</l>
+	<l id='255'>Cet indolent état de confiance extrême</l>
+	<l id='256'>Qui le rend en tout temps si content de soi-même,</l>
+	<l id='257'>Qui fait qu'à son mérite incessamment il rit,</l>
+	<l id='258'>Qu'il se sait si bon gré de tout ce qu'il écrit,</l>
+	<l id='259'>Et qu'il ne voudrait pas changer sa renommée</l>
+	<l id='260'>Contre tous les honneurs d'un général d'armée.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='261'>C'est avoir de bons yeux que de voir tout cela.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='262'>Jusques à sa figure encor la chose alla,</l>
+	<l id='263'>Et je vis par les vers qu'à la tête il nous jette,</l>
+	<l id='264'>De quel air il fallait que fût fait le poète ;</l>
+	<l id='265'>Et j'en avais si bien deviné tous les traits,</l>
+	<l id='266'>Que rencontrant un homme un jour dans le Palais,</l>
+	<l id='267'>Je gageai que c'était Trissotin en personne,</l>
+	<l id='268'>Et je vis qu'en effet la gageure était bonne.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='269' part='i'>Quel conte !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='269' part='f'>Non ; je dis la chose comme elle est.</l>
+	<l id='270'>Mais je vois votre tante. Agréez, s'il vous plaît,</l>
+	<l id='271'>Que mon coeur lui déclare ici notre mystère,</l>
+	<l id='272'>Et gagne sa faveur auprès de votre mère.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE IV. Clitandre, Bélise.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='273'>Souffrez, pour vous parler, Madame, qu'un amant</l>
+	<l id='274'>Prenne l'occasion de cet heureux moment,</l>
+	<l id='275'>Et se découvre à vous de la sincère flamme...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='276'>Ah ! Tout beau, gardez-vous de m'ouvrir trop votre âme :</l>
+	<l id='277'>Si je vous ai su mettre au rang de mes amants,</l>
+	<l id='278'>Contentez-vous des yeux pour vos seuls truchements,</l>
+	<l id='279'>Et ne m'expliquez point par un autre langage</l>
+	<l id='280'>Des désirs qui chez moi passent pour un outrage ;</l>
+	<l id='281'>Aimez-moi, soupirez, brûlez pour mes appas,</l>
+	<l id='282'>Mais qu'il me soit permis de ne le savoir pas :</l>
+	<l id='283'>Je puis fermer les yeux sur vos flammes secrètes,</l>
+	<l id='284'>Tant que vous vous tiendrez aux muets interprètes ;</l>
+	<l id='285'>Mais si la bouche vient à s'en vouloir mêler,</l>
+	<l id='286'>Pour jamais de ma vue il vous faut exiler.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='287'>Des projets de mon coeur ne prenez point d'alarme :</l>
+	<l id='288'>Henriette, Madame, est l'objet qui me charme,</l>
+	<l id='289'>Et je viens ardemment conjurer vos bontés</l>
+	<l id='290'>De seconder l'amour que j'ai pour ses beautés.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='291'>Ah ! Certes le détour est d'esprit, je l'avoue :</l>
+	<l id='292'>Ce subtil faux-fuyant mérite qu'on le loue,</l>
+	<l id='293'>Et, dans tous les romans où j'ai jeté les yeux,</l>
+	<l id='294'>Je n'ai rien rencontré de plus ingénieux.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='295'>Ceci n'est point du tout un trait d'esprit, Madame,</l>
+	<l id='296'>Et c'est un pur aveu de ce que j'ai dans l'âme.</l>
+	<l id='297'>Les Cieux, par les liens d'une immuable ardeur,</l>
+	<l id='298'>Aux beautés d'Henriette ont attaché mon coeur ;</l>
+	<l id='299'>Henriette me tient sous son aimable empire,</l>
+	<l id='300'>Et l'hymen d'Henriette est le bien où j'aspire :</l>
+	<l id='301'>Vous y pouvez beaucoup, et tout ce que je veux,</l>
+	<l id='302'>C'est que vous y daigniez favoriser mes voeux.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='303'>Je vois où doucement veut aller la demande,</l>
+	<l id='304'>Et je sais sous ce nom ce qu'il faut que j'entende ;</l>
+	<l id='305'>La figure est adroite, et, pour n'en point sortir</l>
+	<l id='306'>Aux choses que mon coeur m'offre à vous repartir,</l>
+	<l id='307'>Je dirai qu'Henriette à l'hymen est rebelle,</l>
+	<l id='308'>Et que sans rien prétendre il faut brûler pour elle.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='309'>Eh ! Madame, à quoi bon un pareil embarras,</l>
+	<l id='310'>Et pourquoi voulez-vous penser ce qui n'est pas ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='311'>Mon Dieu ! Point de façons ; cessez de vous défendre</l>
+	<l id='312'>De ce que vos regards m'ont souvent fait entendre :</l>
+	<l id='313'>Il suffit que l'on est contente du détour</l>
+	<l id='314'>Dont s'est adroitement avisé votre amour,</l>
+	<l id='315'>Et que, sous la figure où le respect l'engage,</l>
+	<l id='316'>On veut bien se résoudre à souffrir son hommage,</l>
+	<l id='317'>Pourvu que ses transports, par l'honneur éclairés,</l>
+	<l id='318'>N'offrent à mes autels que des voeux épurés.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='319' part='i'>Mais...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='319' part='f'>Adieu, pour ce coup, ceci doit vous suffire,</l>
+	<l id='320'>Et je vous ai plus dit que je ne voulais dire.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='321' part='i'>Mais votre erreur...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='321' part='f'>Laissez, je rougis maintenant,</l>
+	<l id='322'>Et ma pudeur s'est fait un effort surprenant.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='323'>Je veux être pendu si je vous aime, et sage...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='324'>Non, non, je ne veux rien entendre davantage.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='325'>Diantre soit de la folle avec ses visions !</l>
+	<l id='326'>A-t-on rien vu d'égal à ces préventions ?</l>
+	<l id='327'>Allons commettre un autre au soin que l'on me donne,</l>
+	<l id='328'>Et prenons le secours d'une sage personne.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='329'>Oui, je vous porterai la réponse au plus tôt ;</l>
+	<l id='330'>J'appuierai, presserai, ferai tout ce qu'il faut.</l>
+	<l id='331'>Qu'un amant, pour un mot, a de choses à dire !</l>
+	<l id='332'>Et qu'impatiemment il veut ce qu'il désire !</l>
+	<l id='333' part='i'>Jamais...</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Chrysale, Ariste.</head>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='333' part='m'>Ah ! Dieu vous gard', mon frère !</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='333' part='f'>Et vous aussi,</l>
+	<l id='334' part='i'>Mon frère.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='334' part='f'>Savez-vous ce qui m'amène ici ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='335'>Non ; mais, si vous voulez, je suis prêt à l'apprendre.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='336'>Depuis assez longtemps vous connaissez Clitandre ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='337'>Sans doute, et je le vois qui fréquente chez nous.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='338'>En quelle estime est-il, mon frère, auprès de vous ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='339'>D'homme d'honneur, d'esprit, de coeur, et de conduite ;</l>
+	<l id='340'>Et je vois peu de gens qui soient de son mérite.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='341'>Certain désir qu'il a conduit ici mes pas,</l>
+	<l id='342'>Et je me réjouis que vous en fassiez cas.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='343'>Je connus feu son père en mon voyage à Rome.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='344' part='i'>Fort bien.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='344' part='f'>C'était, mon frère, un fort bon gentilhomme.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='345' part='i'>On le dit.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='345' part='f'>Nous n'avions alors que vingt-huit ans,</l>
+<note type="L">Vert galant : jeune homme sain, et vigoureux, qui est propre à l'amour. [F]</note>
+	<l id='346'>Et nous étions, ma foi ! Tous deux de verts galants.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='347' part='i'>Je le crois.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='347' part='f'>Nous donnions chez les dames romaines,</l>
+<note type="L">Fredaine : action folle, emportée. [F]</note>
+	<l id='348'>Et tout le monde là parlait de nos fredaines :</l>
+	<l id='349' part='i'>Nous faisions des jaloux.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='349' part='f'>Voilà qui va des mieux.</l>
+	<l id='350'>Mais venons au sujet qui m'amène en ces lieux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Bélise, Chrysale, Ariste.</head>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='351'>Clitandre auprès de vous me fait son interprète,</l>
+	<l id='352'>Et son coeur est épris des grâces d'Henriette.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='353' part='i'>Quoi, de ma fille ?</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='353' part='f'>Oui, Clitandre, en est charmé,</l>
+	<l id='354'>Et je ne vis jamais amant plus enflammé.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='355'>Non, non : je vous entends, vous ignorez l'histoire,</l>
+	<l id='356'>Et l'affaire n'est pas ce que vous pouvez croire.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='357' part='i'>Comment, ma soeur ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='357' part='f'>Clitandre abuse vos esprits,</l>
+	<l id='358'>Et c'est d'un autre objet que son coeur est épris.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='359'>Vous raillez. Ce n'est pas Henriette qu'il aime ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='360' part='i'>Non ; j'en suis assurée.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='360' part='f'>Il me l'a dit lui-même.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='361' part='i'>Eh, oui !</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='361' part='f'>Vous me voyez, ma soeur, chargé par lui</l>
+	<l id='362'>D'en faire la demande à son père aujourd'hui.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='363' part='i'>Fort bien.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='363' part='f'>Et son amour même m'a fait instance</l>
+	<l id='364'>De presser les moments d'une telle alliance.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='365'>Encor mieux. On ne peut tromper plus galamment.</l>
+	<l id='366'>Henriette, entre nous, est un amusement,</l>
+	<l id='367'>Un voile ingénieux, un prétexte, mon frère,</l>
+	<l id='368'>À couvrir d'autres feux, dont je sais le mystère ;</l>
+	<l id='369'>Et je veux bien tous deux vous mettre hors d'erreur.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='370'>Mais, puisque vous savez tant de choses, ma soeur,</l>
+	<l id='371'>Dites-nous, s'il vous plaît, cet autre objet qu'il aime.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='372' part='i'>Vous le voulez savoir ?</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='372' part='m'>Oui. Quoi ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='372' part='m'>Moi.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='372' part='m'>Vous ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='372' part='f'>Moi-même.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='373' part='i'>Hay, ma soeur !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='373' part='f'>Qu'est-ce donc que veut dire ce « hay »,</l>
+	<l id='374'>Et qu'a de surprenant le discours que je fais ?</l>
+	<l id='375'>On est faite d'un air, je pense, à pouvoir dire</l>
+	<l id='376'>Qu'on n'a pas pour un coeur soumis à son empire ;</l>
+	<l id='377'>Et Dorante, Damis, Cléonte et Lycidas</l>
+	<l id='378'>Peuvent bien faire voir qu'on a quelques appas.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='379' part='i'>Ces gens vous aiment ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='379' part='f'>Oui, de toute leur puissance.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='380' part='i'>Ils vous l'ont dit ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='380' part='f'>Aucun n'a pris cette licence :</l>
+	<l id='381'>Ils m'ont su révérer si fort jusqu'à ce jour,</l>
+	<l id='382'>Qu'ils ne m'ont jamais dit un mot de leur amour ;</l>
+	<l id='383'>Mais pour m'offrir leur coeur et vouer leur service,</l>
+<note type="L">Truchement : Interprète nécessaire aux personnes qui perlent diverses langues pour se faire entendre les unes des autres. [F]</note>
+	<l id='384'>Les muets truchements ont tous fait leur office.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='385'>On ne voit presque point céans venir Damis.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='386'>C'est pour me faire voir un respect plus soumis.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='387'>De mots piquants partout Dorante vous outrage.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='388'>Ce sont emportements d'une jalouse rage.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='389'>Cléonte et Lycidas ont pris femme tous deux.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='390'>C'est par un désespoir où j'ai réduit leurs feux.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='391'>Ma foi ! Ma chère soeur, vision toute claire.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='392'>De ces chimères-là vous devez vous défaire.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='393'>Ah, chimères ! Ce sont des chimères, dit-on !</l>
+	<l id='394'>Chimères, moi ! Vraiment chimères est fort bon !</l>
+	<l id='395'>Je me réjouis fort de chimères, mes frères,</l>
+	<l id='396'>Et je ne savais pas que j'eusse des chimères.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Chrysale, Ariste.</head>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='397' part='i'>Notre soeur est folle, oui.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='397' part='f'>Cela croît tous les jours.</l>
+	<l id='398'>Mais, encore une fois, reprenons le discours.</l>
+	<l id='399'>Clitandre vous demande Henriette pour femme :</l>
+	<l id='400'>Voyez quelle réponse on doit faire à sa flamme.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='401'>Faut-il le demander ? J'y consens de bon coeur,</l>
+	<l id='402'>Et tiens son alliance à singulier honneur.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='403'>Vous savez que de bien il n'a pas l'abondance,</l>
+	<l id='404' part='i'>Que...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='404' part='f'>C'est un intérêt qui n'est pas d'importance :</l>
+	<l id='405'>Il est riche en vertu, cela vaut des trésors,</l>
+	<l id='406'>Et puis son père et moi n'étions qu'un en deux corps.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='407'>Parlons à votre femme, et voyons à la rendre</l>
+	<l id='408' part='i'>Favorable...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='408' part='f'>Il suffit : je l'accepte pour gendre.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='409'>Oui ; mais pour appuyer votre consentement,</l>
+	<l id='410'>Mon frère, il n'est pas mal d'avoir son agrément ;</l>
+	<l id='411' part='i'>Allons...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='411' part='f'>Vous moquez-vous ? Il n'est pas nécessaire :</l>
+	<l id='412'>Je réponds de ma femme, et prends sur moi l'affaire.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='413' part='i'>Mais...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='413' part='f'>Laissez faire, dis-je, et n'appréhendez pas :</l>
+	<l id='414'>Je la vais disposer aux choses de ce pas.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='415'>Soit. Je vais là-dessus sonder votre Henriette,</l>
+	<l id='416' part='i'>Et reviendrai savoir...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='416' part='f'>C'est une affaire faite,</l>
+	<l id='417'>Et je vais à ma femme en parler sans délai.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Martine, Chrysale.</head>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='418'>Me voilà bien chanceuse ! Hélas ! L'an dit bien vrai :</l>
+	<l id='419'>Qui veut noyer son chien l'accuse de la rage,</l>
+	<l id='420'>Et service d'autrui n'est pas un héritage.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='421' part='i'>Qu'est-ce donc ? Qu'avez-vous, Martine ?</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='421' part='f'>Ce que j'ai ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='422' part='i'>Oui.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='422' part='f'>J'ai que l'on me donne aujourd'hui mon congé,</l>
+	<l id='423' part='i'>Monsieur.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='423' part='m'>Votre congé !</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='423' part='f'>Oui, Madame me chasse.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='424' part='i'>Je n'entends pas cela. Comment ?</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='424' part='f'>On me menace,</l>
+<note type="L">Bailler : En termes de pratique, donner, mettre en main. Bailler à ferme, bailler par contrat.</note>
+	<l id='425'>Si je ne sors d'ici, de me bailler cent coups.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='426'>Non, vous demeurerez : je suis content de vous.</l>
+	<l id='427'>Ma femme bien souvent a la tête un peu chaude,</l>
+	<l id='428' part='i'>Et je ne veux pas, moi...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Philaminte, Bélise, Chrysale, Martine.</head>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='428' part='f'>Quoi ? Je vous vois, maraude ?</l>
+	<l id='429'>Vite, sortez, friponne ; allons, quittez ces lieux,</l>
+	<l id='430'>Et ne vous présentez jamais devant mes yeux.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='431' part='i'>Tout doux.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='431' part='m'>Non, c'en est fait.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='431' part='m'>Eh !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='431' part='f'>Je veux qu'elle sorte.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='432'>Mais qu'a-t-elle commis, pour vouloir de la sorte...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='433' par='i'>Quoi ? vous la soutenez ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='433' part='f'>En aucune façon.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='434' part='i'>Prenez-vous son parti contre moi ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='434' part='f'>Mon Dieu ! Non :</l>
+	<l id='435'>Je ne fais seulement que demander son crime.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='436'>Suis-je pour la chasser sans cause légitime ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='437'>Je ne dis pas cela ; mais il faut de nos gens...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='438'>Non ; elle sortira, vous dis-je, de céans.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='439'>Hé bien ! Oui : vous dit-on quelque chose là contre ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='440'>Je ne veux point d'obstacle aux désirs que je montre.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='441' part='i'>D'accord.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='441' part='f'>Et vous devez, en raisonnable époux,</l>
+	<l id='442'>Être pour moi contre elle, et prendre mon courroux.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='443'>Aussi fais-je. Oui, ma femme avec raison vous chasse,</l>
+	<l id='444'>Coquine, et votre crime est indigne de grâce.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='445' part='i'>Qu'est-ce donc que j'ai fait ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='445' part='f'>Ma foi ! Je ne sais pas.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='446'>Elle est d'humeur encore à n'en faire aucun cas.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='447'>A-t-elle, pour donner matière à votre haine,</l>
+	<l id='448'>Cassé quelque miroir ou quelque porcelaine ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='449'>Voudrais-je la chasser, et vous figurez-vous</l>
+	<l id='450'>Que pour si peu de chose on se mette en courroux ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='451'>Qu'est-ce à dire ? L'affaire est donc considérable ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='452'>Sans doute. Me voit-on femme déraisonnable ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='453'>Est-ce qu'elle a laissé, d'un esprit négligent,</l>
+<note type="L">Aiguière : Vaisseau rond, et quelquefois couvert, propre à servir de l'eau sur la table. [L]</note>
+	<l id='454'>Dérober quelque aiguière ou quelque plat d'argent ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='455' part='i'>Cela ne serait rien.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='455' part='f'>Oh, oh ! Peste, la belle !</l>
+	<l id='456'>Quoi ? L'avez-vous surprise à n'être pas fidèle ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='457' part='i'>C'est pis que tout cela.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='457' part='m'>Pis que tout cela ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='457' part='f'>Pis.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+<note type="L">Fripon : Méchant, maraud, fourbe, coquin ; qui dérobe secrètement ; qui tâche à tromper ceux qui ont affaire à lui ; qui fait des gains illictes au jeu, ou dans le négoce, et qui est sans honneur et sans bonne foi. [F]</note>
+	<l id='458'>Comment diantre, friponne ! Euh ? A-t-elle commis...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='459'>Elle a, d'une insolence à nulle autre pareille</l>
+	<l id='460'>Après trente leçons, insulté mon oreille</l>
+	<l id='461'>Par l'impropriété d'un mot sauvage et bas</l>
+<note type="L">Vaugelas, Claude Favre, Seigneur de [1585-1650] : célèbre grammairien français, un des premiers membres de l'Académie française. On lui doit : "Remarques sur la langue française" où il définit le bon usage.</note>
+	<l id='462'>Qu'en termes décisifs condamne Vaugelas.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='463' part='i'>Est-ce là...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='463' part='f'>Quoi ? toujours, malgré nos remontrances,</l>
+	<l id='464'>Heurter le fondement de toutes les sciences,</l>
+	<l id='465'>La grammaire, qui sait régenter jusqu'aux rois,</l>
+	<l id='466'>Et les fait la main haute obéir à ses lois ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='467'>Du plus grand des forfaits je la croyais coupable.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='468'>Quoi ? Vous ne trouvez pas ce crime impardonnable ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='469' part='i'>Si fait.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='469' part='f'>Je voudrais bien que vous l'excusassiez.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='470' part='i'>Je n'ai garde.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='470' part='f'>Il est vrai que ce sont des pitiés :</l>
+	<l id='471'>Toute construction est par elle détruite,</l>
+	<l id='472'>Et des lois du langage on l'a cent fois instruite.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='473'>Tout ce que vous prêchez est, je crois, bel et bon ;</l>
+	<l id='474'>Mais je ne saurais, moi, parler votre jargon.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+<note type="L">Jargon : Langage vicieux, et corrompu du peuple, ou des paysans, qu'on a de la peine à entendre. Se dit aussi d'une certaine affectation dans le langage, d'une certaine singularité dans les manières de parler. [F]</note>
+	<l id='475'>L'impudente ! Appeler un jargon le langage</l>
+	<l id='476'>Fondé sur la raison et sur le bel usage !</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='477'>Quand on se fait entendre, on parle toujours bien,</l>
+	<l id='478'>Et tous vos biaux dictons ne servent pas de rien.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='479'>Hé bien ! Ne voilà pas encore de son style ?</l>
+	<l id='480' part='i'>Ne servent pas de rien !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='480' part='f'>Ô cervelle indocile !</l>
+	<l id='481'>Faut-il qu'avec les soins qu'on prend incessamment,</l>
+<note type="L">Congrûment : D'une manière congrue et à propos. [F]</note>
+<note type="L">Congru : au masculin, est un terme de grammaire qui se dit d'un discours ou d'un thème où il n'y a point de faute contre le grammaire, ni contre le syntaxe. [F]</note>
+	<l id='482'>On ne te puisse apprendre à parler congrûment ?</l>
+	<l id='483'>De pas mis avec rien tu fais la récidive,</l>
+	<l id='484'>Et c'est, comme on t'a dit, trop d'une négative.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='485'>Mon Dieu ! Je n'avons pas étugué comme vous,</l>
+	<l id='486'>Et je parlons tout droit comme on parle cheux nous.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='487' part='i'>Ah ! Peut-on y tenir ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='487' part='f'>Quel solécisme horrible !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='488'>En voilà pour tuer une oreille sensible.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='489'>Ton esprit, je l'avoue, est bien matériel.</l>
+	<l id='490'>Je n'est qu'un singulier, avons est pluriel.</l>
+	<l id='491'>Veux-tu toute ta vie offenser la grammaire ?</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='492'>Qui parle d'offenser grand'mère ni grand-père ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='493' part='i'>Ô Ciel !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='493' part='f'>Grammaire est prise à contre-sens par toi,</l>
+	<l id='494' part='i'>Et je t'ai dit déjà d'où vient ce mot.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='494' part='f'>Ma foi !</l>
+	<l id='495'>Qu'il vienne de Chaillot, d'Auteuil, ou de Pontoise,</l>
+	<l id='496' part='i'>Cela ne me fait rien.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='496' part='f'>Quelle âme villageoise !</l>
+	<l id='497'>La grammaire, du verbe et du nominatif,</l>
+	<l id='498'>Comme de l'adjectif avec le substantif,</l>
+	<l id='499' part='i'>Nous enseigne les lois.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='499' part='f'>J'ai, Madame, à vous dire</l>
+	<l id='500' part='i'>Que je ne connais point ces gens-là.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='500' part='f'>Quel martyre !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='501'>Ce sont les noms des mots, et l'on doit regarder</l>
+	<l id='502'>En quoi c'est qu'il les faut faire ensemble accorder.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='503'>Qu'ils s'accordent entr'eux, ou se gourment, qu'importe ?</l>
+<note type="L">Gourmer : Se battre à coups de poings. [F]</note>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE, à sa soeur.</speaker>
+	<l id='504'>Eh ! Mon Dieu ! Finissez un discours de la sorte.</l>
+<stage>À son mari.</stage>
+	<l id='505'>Vous ne voulez pas, vous, me la faire sortir ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='506'>Si fait. À son caprice il me faut consentir.</l>
+	<l id='507'>Va, ne l'irrite point : retire-toi, Martine.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='508'>Comment ? Vous avez peur d'offenser la coquine ?</l>
+	<l id='509'>Vous lui parlez d'un ton tout à fait obligeant ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='510'>Moi ? Point. Allons, sortez.</l>
+<stage>Bas.</stage>
+	<l id='510' part='f'>Va-t'en, ma pauvre enfant.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Philaminte, Chrysale, Bélise.</head>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='511'>Vous êtes satisfaite, et la voilà partie ;</l>
+	<l id='512'>Mais je n'approuve point une telle sortie ;</l>
+	<l id='513'>C'est une fille propre aux choses qu'elle fait,</l>
+	<l id='514'>Et vous me la chassez pour un maigre sujet.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='515'>Vous voulez que toujours je l'aie à mon service</l>
+	<l id='516'>Pour mettre incessamment mon oreille au supplice ?</l>
+	<l id='517'>Pour rompre toute loi d'usage et de raison,</l>
+<note type="L">Oraison : Terme de grammaire. Assemblage de mots construits suivants les règles de la grammaire. Dans le langage didactique, ouvrage d'éloquence composé pour être prononcé en public. [L] </note>
+	<l id='518'>Par un barbare amas de vices d'oraison,</l>
+	<l id='519'>De mots estropiés, cousus par intervalles,</l>
+	<l id='520'>De proverbes traînés dans les ruisseaux des Halles ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='521'>Il est vrai que l'on sue à souffrir ses discours :</l>
+	<l id='522'>Elle y met Vaugelas en pièces tous les jours ;</l>
+	<l id='523'>Et les moindres défauts de ce grossier génie</l>
+	<l id='524'>Sont ou le pléonasme, ou la cacophonie.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='525'>Qu'importe qu'elle manque aux lois de Vaugelas,</l>
+	<l id='526'>Pourvu qu'à la cuisine elle ne manque pas ?</l>
+	<l id='527'>J'aime bien mieux, pour moi, qu'en épluchant ses herbes,</l>
+	<l id='528'>Elle accommode mal les noms avec les verbes,</l>
+	<l id='529'>Et redise cent fois un bas ou méchant mot,</l>
+	<l id='530'>Que de brûler ma viande, ou saler trop mon pot.</l>
+	<l id='531'>Je vis de bonne soupe, et non de beau langage.</l>
+	<l id='532'>Vaugelas n'apprend point à bien faire un potage ;</l>
+<note type="L">Balzac, Jean-Louis Guez de [1597-1654] : auteur célèbre de son temps, ses Lettres parurent en 1624, il est aussi l'auteur d'une satire nommée Le Prince. Un des premiers académiciens.</note>
+<note type="L">Malherbe, François [1555-1628] : poète français, il chercha à épurer le langue française. Loué par Boileau dans son Art Poétique : "Enfin Malherbe vint ..."</note> 
+	<l id='533'>Et Malherbe et Balzac, si savants en beaux mots,</l>
+	<l id='534'>En cuisine peut-être auraient été des sots.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='535'>Que ce discours grossier terriblement assomme !</l>
+	<l id='536'>Et quelle indignité pour ce qui s'appelle homme</l>
+	<l id='537'>D'être baissé sans cesse aux soins matériels,</l>
+	<l id='538'>Au lieu de se hausser vers les spirituels !</l>
+<note type="L">Guenille : Habit déchiré, et tombant par lambeaux. On le dit aussi de ces même lambeaux détachés, et de toutes sortes de vieux haillons. S'emploie aussi figurément, quand on veut marquer le mépris qu'on fait d'une chose. [F]</note>
+	<l id='539'>Le corps, cette guenille, est-il d'une importance,</l>
+	<l id='540'>D'un prix à mériter seulement qu'on y pense,</l>
+	<l id='541'>Et ne devons-nous pas laisser cela bien loin ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='542'>Oui, mon corps est moi-même, et j'en veux prendre soin.</l>
+	<l id='543'>Guenille si l'on veut, ma guenille m'est chère.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='544'>Le corps avec l'esprit fait figure, mon frère ;</l>
+	<l id='545'>Mais si vous en croyez tout le monde savant,</l>
+	<l id='546'>L'esprit doit sur le corps prendre le pas devant ;</l>
+	<l id='547'>Et notre plus grand soin, notre première instance,</l>
+	<l id='548'>Doit être à le nourrir du suc de la science.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='549'>Ma foi ! Si vous songez à nourrir votre esprit,</l>
+	<l id='550'>C'est de viande bien creuse, à ce que chacun dit,</l>
+	<l id='551'>Et vous n'avez nul soin, nulle sollicitude</l>
+	<l id='552' part='i'>Pour...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='552' part='f'>Ah ! Sollicitude à mon oreille est rude :</l>
+	<l id='553'>Il put étrangement son ancienneté.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='554'>Il est vrai que le mot est bien collet monté.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='555'>Voulez-vous que je dise ? Il faut qu'enfin j'éclate,</l>
+	<l id='556'>Que je lève le masque, et décharge ma rate :</l>
+	<l id='557'>De folles on vous traite, et j'ai fort sur le coeur...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='558' part='i'>Comment donc ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='558' part='f'>C'est à vous que je parle, ma soeur.</l>
+	<l id='559'>Le moindre solécisme en parlant vous irrite ;</l>
+	<l id='560'>Mais vous en faites, vous, d'étranges en conduite.</l>
+	<l id='561'>Vos livres éternels ne me contentent pas,</l>
+<note type="L">Rabat : Pièce de toile que les hommes mettent autour du collet de leur pourpoint, tant pour l'ornement que pour la propreté. [L]</note>
+<note type="L">Plutarque : Biographe et moraliste grec, né en 48 ou 50 à Chénorée en Boétie. (...) On a de lui les Vies parallèles des hommes illustres (de la Grèce et de Rome), et une foule de traités de morale, de politique, d'histoire que l'on désigne commun d'oeuvres morales. (...) [B]</note>
+	<l id='562'>Et hors un gros Plutarque à mettre mes rabats,</l>
+	<l id='563'>Vous devriez brûler tout ce meuble inutile,</l>
+	<l id='564'>Et laisser la science aux docteurs de la ville ;</l>
+	<l id='565'>M'ôter, pour faire bien, du grenier de céans</l>
+	<l id='566'>Cette longue lunette à faire peur aux gens,</l>
+<note type="L">Brimborions : terme de mépris qui sert à exprimer des curiosités légères et de peu de valeur. (...) [F]</note>s
+	<l id='567'>Et cent brimborions dont l'aspect importune ;</l>
+	<l id='568'>Ne point aller chercher ce qu'on fait dans la lune,</l>
+	<l id='569'>Et vous mêler un peu de ce qu'on fait chez vous,</l>
+	<l id='570'>Où nous voyons aller tout sens dessus dessous.</l>
+	<l id='571'>Il n'est pas bien honnête, et pour beaucoup de causes,</l>
+	<l id='572'>Qu'une femme étudie et sache tant de choses.</l>
+	<l id='573'>Former aux bonnes moeurs l'esprit de ses enfants,</l>
+	<l id='574'>Faire aller son ménage, avoir l'oeil sur ses gens,</l>
+	<l id='575'>Et régler la dépense avec économie,</l>
+	<l id='576'>Doit être son étude et sa philosophie.</l>
+	<l id='577'>Nos pères sur ce point étaient gens bien sensés,</l>
+	<l id='578'>Qui disaient qu'une femme en sait toujours assez</l>
+	<l id='579'>Quand la capacité de son esprit se hausse</l>
+	<l id='580'>À connaître un pourpoint d'avec un haut de chausse.</l>
+	<l id='581'>Les leurs ne lisaient point, mais elles vivaient bien ;</l>
+	<l id='582'>Leurs ménages étaient tout leur docte entretien,</l>
+	<l id='583'>Et leurs livres un dé, du fil et des aiguilles,</l>
+	<l id='584'>Dont elles travaillaient au trousseau de leurs filles.</l>
+	<l id='585'>Les femmes d'à présent sont bien loin de ces moeurs :</l>
+	<l id='586'>Elles veulent écrire, et devenir auteurs.</l>
+	<l id='587'>Nulle science n'est pour elles trop profonde,</l>
+	<l id='588'>Et céans beaucoup plus qu'en aucun lieu du monde :</l>
+	<l id='589'>Les secrets les plus hauts s'y laissent concevoir,</l>
+	<l id='590'>Et l'on sait tout chez moi, hors ce qu'il faut savoir ;</l>
+	<l id='591'>On y sait comme vont lune, étoile polaire,</l>
+	<l id='592'>Vénus, Saturne et Mars, dont je n'ai point affaire ;</l>
+	<l id='593'>Et, dans ce vain savoir, qu'on va chercher si loin,</l>
+	<l id='594'>On ne sait comme va mon pot, dont j'ai besoin.</l>
+	<l id='595'>Mes gens à la science aspirent pour vous plaire,</l>
+	<l id='596'>Et tous ne font rien moins que ce qu'ils ont à faire ;</l>
+	<l id='597'>Raisonner est l'emploi de toute ma maison,</l>
+	<l id='598'>Et le raisonnement en bannit la raison :</l>
+	<l id='599'>L'un me brûle mon rôt en lisant quelque histoire ;</l>
+	<l id='600'>L'autre rêve à des vers quand je demande à boire ;</l>
+	<l id='601'>Enfin je vois par eux votre exemple suivi,</l>
+	<l id='602'>Et j'ai des serviteurs, et ne suis point servi.</l>
+	<l id='603'>Une pauvre servante au moins m'était restée,</l>
+	<l id='604'>Qui de ce mauvais air n'était point infectée,</l>
+	<l id='605'>Et voilà qu'on la chasse avec un grand fracas,</l>
+	<l id='606'>À cause qu'elle manque à parler Vaugelas.</l>
+	<l id='607'>Je vous le dis, ma soeur, tout ce train-là me blesse,</l>
+	<l id='608'>(Car c'est, comme j'ai dit, à vous que je m'adresse),</l>
+	<l id='609'>Je n'aime point céans tous vos gens à latin,</l>
+	<l id='610'>Et principalement ce Monsieur Trissotin :</l>
+<note type="L">Tympaniser : signifie crier hautement et publiquement contre quelqu'un. Voir "La Fausse antipathie" de Nivelle la Chaussée et L'Ecole des Femmes de Molière. </note>
+	<l id='611'>C'est lui qui dans des vers vous a tympanisées ;</l>
+<note type="L">Billevesée : se dit figurément des paroles ou des choses vaines qui n'ont aucune apparence ni solidité. [F]</note>
+	<l id='612'>Tous les propos qu'il tient sont des billevesées ;</l>
+	<l id='613'>On cherche ce qu'il dit après qu'il a parlé,</l>
+	<l id='614'>Et je lui crois, pour moi, le timbre un peu fêlé.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='615'>Quelle bassesse, ô Ciel, et d'âme, et de langage !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='616'>Est-il de petits corps un plus lourd assemblage !</l>
+	<l id='617'>Un esprit composé d'atomes plus bourgeois !</l>
+	<l id='618'>Et de ce même sang se peut-il que je sois !</l>
+	<l id='619'>Je me veux mal de mort d'être de votre race,</l>
+	<l id='620'>Et de confusion j'abandonne la place.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Philaminte, Chrysale.</head>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='621'>Avez-vous à lâcher encore quelque trait ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='622'>Moi ? Non. Ne parlons plus de querelle : c'est fait.</l>
+	<l id='623'>Discourons d'autre affaire. À votre fille aînée</l>
+	<l id='624'>On voit quelque dégoût pour les noeuds d'hyménée :</l>
+	<l id='625'>C'est une philosophe enfin, je n'en dis rien,</l>
+	<l id='626'>Elle est bien gouvernée, et vous faites fort bien.</l>
+	<l id='627'>Mais de toute autre humeur se trouve sa cadette,</l>
+	<l id='628'>Et je crois qu'il est bon de pourvoir Henriette,</l>
+	<l id='629' part='i'>De choisir un mari...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='629' part='f'>C'est à quoi j'ai songé,</l>
+	<l id='630'>Et je veux vous ouvrir l'intention que j'ai.</l>
+	<l id='631'>Ce Monsieur Trissotin dont on nous fait un crime,</l>
+	<l id='632'>Et qui n'a pas l'honneur d'être dans votre estime,</l>
+	<l id='633'>Est celui que je prends pour l'époux qu'il lui faut,</l>
+	<l id='634'>Et je sais mieux que vous juger de ce qu'il vaut :</l>
+	<l id='635'>La contestation est ici superflue,</l>
+	<l id='636'>Et de tout point chez moi l'affaire est résolue,</l>
+	<l id='637'>Au moins ne dites mot du choix de cet époux :</l>
+	<l id='638'>Je veux à votre fille en parler avant vous ;</l>
+	<l id='639'>J'ai des raisons à faire approuver ma conduite,</l>
+	<l id='640'>Et je connaîtrai bien si vous l'aurez instruite.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Ariste, Chrysale.</head>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='641'>Hé bien ? La femme sort, mon frère, et je vois bien</l>
+	<l id='642'>Que vous venez d'avoir ensemble un entretien.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='643' part='i'>Oui.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='643' part='f'>Quel est le succès ? Aurons-nous Henriette ?</l>
+	<l id='644'>A-t-elle consenti ? L'affaire est-elle faite ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='645' part='i'>Pas tout à fait encor.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='645' part='m'>Refuse-t-elle ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='645' part='f'>Non.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='646' part='i'>Est-ce qu'elle balance ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='646' part='m'>En aucune façon.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='646' part='f'>Quoi donc ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='647'>C'est que pour gendre elle m'offre un autre homme.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='648' part='i'>Un autre homme pour gendre !</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='648' part='m'>Un autre.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='648' part='f'>Qui se nomme ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='649' part='i'>Monsieur Trissotin.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='649' part='f'>Quoi ? Ce Monsieur Trissotin...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='650'>Oui, qui parle toujours de vers et de latin.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='651' part='i'>Vous l'avez accepté ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='651' part='f'>Moi, point, à Dieu ne plaise.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='652' part='i'>Qu'avez-vous répondu ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='652' part='f'>Rien ; et je suis bien aise</l>
+	<l id='653'>De n'avoir point parlé, pour ne m'engager pas.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='654'>La raison est fort belle, et c'est faire un grand pas.</l>
+	<l id='655'>Avez-vous su du moins lui proposer Clitandre ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='656'>Non ; car, comme j'ai vu qu'on parlait d'autre gendre,</l>
+	<l id='657'>J'ai cru qu'il était mieux de ne m'avancer point.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='658'>Certes votre prudence est rare au dernier point !</l>
+	<l id='659'>N'avez-vous point de honte avec votre mollesse ?</l>
+	<l id='660'>Et se peut-il qu'un homme ait assez de faiblesse</l>
+	<l id='661'>Pour laisser à sa femme un pouvoir absolu,</l>
+	<l id='662'>Et n'oser attaquer ce qu'elle a résolu ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='663'>Mon Dieu ! Vous en parlez, mon frère, bien à l'aise,</l>
+	<l id='664'>Et vous ne savez pas comme le bruit me pèse.</l>
+	<l id='665'>J'aime fort le repos, la paix, et la douceur,</l>
+	<l id='666'>Et ma femme est terrible avecque son humeur.</l>
+	<l id='667'>Du nom de philosophe elle fait grand mystère ;</l>
+	<l id='668'>Mais elle n'en est pas pour cela moins colère ;</l>
+	<l id='669'>Et sa morale, faite à mépriser le bien,</l>
+	<l id='670'>Sur l'aigreur de sa bile opère comme rien.</l>
+	<l id='671'>Pour peu que l'on s'oppose à ce que veut sa tête,</l>
+	<l id='672'>On en a pour huit jours d'effroyable tempête.</l>
+	<l id='673'>Elle me fait trembler dès qu'elle prend son ton ;</l>
+	<l id='674'>Je ne sais où me mettre, et c'est un vrai dragon ;</l>
+	<l id='675'>Et cependant, avec toute sa diablerie,</l>
+	<l id='676'>Il faut que je l'appelle et « mon coeur » et « ma mie ».</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='677'>Allez, c'est se moquer. Votre femme, entre nous,</l>
+	<l id='678'>Est par vos lâchetés souveraine sur vous.</l>
+	<l id='679'>Son pouvoir n'est fondé que sur votre faiblesse,</l>
+	<l id='680'>C'est de vous qu'elle prend le titre de maîtresse ;</l>
+	<l id='681'>Vous-même à ses hauteurs vous vous abandonnez,</l>
+	<l id='682'>Et vous faites mener en bête par le nez.</l>
+	<l id='683'>Quoi ? Vous ne pouvez pas, voyant comme on vous nomme,</l>
+	<l id='684'>Vous résoudre une fois à vouloir être un homme ?</l>
+	<l id='685'>À faire condescendre une femme à vos voeux,</l>
+	<l id='686'>Et prendre assez de coeur pour dire un : « Je le veux » ?</l>
+	<l id='687'>Vous laisserez sans honte immoler votre fille</l>
+	<l id='688'>Aux folles visions qui tiennent la famille,</l>
+	<l id='689'>Et de tout votre bien revêtir un nigaud,</l>
+	<l id='690'>Pour six mots de latin qu'il leur fait sonner haut,</l>
+	<l id='691'>Un pédant qu'à tous coups votre femme apostrophe</l>
+	<l id='692'>Du nom de bel esprit, et de grand philosophe,</l>
+	<l id='693'>D'homme qu'en vers galants jamais on n'égala,</l>
+	<l id='694'>Et qui n'est, comme on sait, rien moins que tout cela ?</l>
+	<l id='695'>Allez, encore un coup, c'est une moquerie,</l>
+	<l id='696'>Et votre lâcheté mérite qu'on en rie.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='697'>Oui, vous avez raison, et je vois que j'ai tort.</l>
+	<l id='698'>Allons, il faut enfin montrer un coeur plus fort,</l>
+	<l id='699' part='i'>Mon frère.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='699' part='m'>C'est bien dit.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='699' part='f'>C'est une chose infâme</l>
+	<l id='700'>Que d'être si soumis au pouvoir d'une femme.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='701' part='i'>Fort bien.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='701' part='f'>De ma douceur elle a trop profité.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='702' part='i'>Il est vrai.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='702' part='f'>Trop joui de ma facilité.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='703' part='i'>Sans doute.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='703' part='f'>Et je lui veux faire aujourd'hui connaître</l>
+	<l id='704'>Que ma fille est ma fille, et que j'en suis le maître</l>
+	<l id='705'>Pour lui prendre un mari qui soit selon mes voeux.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='706'>Vous voilà raisonnable, et comme je vous veux.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='707'>Vous êtes pour Clitandre, et savez sa demeure :</l>
+	<l id='708'>Faites-le-moi venir, mon frère, tout à l'heure.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='709' part='i'>J'y cours tout de ce pas.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='709' part='f'>C'est souffrir trop longtemps,</l>
+	<l id='710'>Et je m'en vais être homme à la barbe des gens.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Philaminte, Armande, Bélise, Trissotin, L'Épine.</head>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='711'>Ah ! Mettons-nous ici, pour écouter à l'aise</l>
+	<l id='712'>Ces vers que mot à mot il est besoin qu'on pèse.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='713' part='i'>Je brûle de les voir.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='713' part='f'>Et l'on s'en meurt chez nous.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='714'>Ce sont charmes pour moi que ce qui part de vous.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='715'>Ce m'est une douceur à nulle autre pareille.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='716'>Ce sont repas friands qu'on donne à mon oreille.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='717'>Ne faites point languir de si pressants désirs.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='718' part='i'>Dépêchez.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='718' part='f'>Faites tôt, et hâtez nos plaisirs.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='719'>À notre impatience offrez votre épigramme.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='720'>Hélas ! C'est un enfant tout nouveau-né, Madame.</l>
+	<l id='721'>Son sort assurément a lieu de vous toucher,</l>
+	<l id='722'>Et c'est dans votre cour, que j'en viens d'accoucher.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='723'>Pour me le rendre cher, il suffit de son père.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='724'>Votre approbation lui peut servir de mère.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='725' part='i'>Qu'il a d'esprit !</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Henriette, Philaminte, Armande, Bélise, Trissotin, L'Épine.</head>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE, à Henriette qui veut se retirer.</speaker>
+	<l id='725' part='f'>Holà ! Pourquoi donc fuyez-vous ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='726'>C'est de peur de troubler un entretien si doux.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='727'>Approchez, et venez, de toutes vos oreilles,</l>
+	<l id='728'>Prendre part au plaisir d'entendre des merveilles.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='729'>Je sais peu les beautés de tout ce qu'on écrit,</l>
+	<l id='730'>Et ce n'est pas mon fait que les choses d'esprit.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='731'>Il n'importe : aussi bien ai-je à vous dire ensuite</l>
+	<l id='732'>Un secret dont il faut que vous soyez instruite.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN, à Henriette.</speaker>
+	<l id='733'>Les sciences n'ont rien qui vous puisse enflammer,</l>
+	<l id='734'>Et vous ne vous piquez que de savoir charmer.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='735'>Aussi peu l'un que l'autre, et je n'ai nulle envie...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='736'>Ah ! Songeons à l'enfant nouveau-né, je vous prie.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE, à l'Épine.</speaker>
+	<l id='737'>Allons, petit garçon, vite de quoi s'asseoir.</l>
+<stage>L'Épine se laisse tomber.</stage>
+	<l id='738'>Voyez l'impertinent ! Est ce que l'on doit choir,</l>
+	<l id='739'>Après avoir appris l'équilibre des choses ?</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='740'>De ta chute, ignorant, ne vois-tu pas les causes,</l>
+	<l id='741'>Et qu'elle vient d'avoir du point fixe écarté</l>
+	<l id='742'>Ce que nous appelons centre de gravité ?</l>
+</sp>
+<sp who='L-EPINE'><speaker>L'ÉPINE.</speaker>
+	<l id='743'>Je m'en suis aperçu, Madame, étant par terre.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='744' part='i'>Le lourdaud !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='744' part='f'>Bien lui prend de n'être pas de verre.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='745' part='i'>Ah ! De l'esprit partout !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='745' part='f'>Cela ne tarit pas.</l>
+<stage>Ils s'asseyent.</stage>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='746'>Servez-nous promptement votre aimable repas.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='747'>Pour cette grande faim qu'à mes yeux on expose,</l>
+	<l id='748'>Un plat seul de huit vers me semble peu de chose,</l>
+	<l id='749'>Et je pense qu'ici je ne ferai pas mal</l>
+<note type="L">Epigramme : c'est une espèce de poésie courte, qui finit par quelque pointe ou pensée sublime. [F] Elle exprime souvent une pensée mordante envers une personne ou une oeuvre.</note>
+<note type="L">Madrigal : petite poésie amoureuse composée d'un petit nombre de vers libres inégaux, qui n'a ni la gêne d'un sonnet, ni la subtilité d'une épigramme, mais qui se contente d'une pensée tendre et agréable. [F]</note>
+	<l id='750'>De joindre à l'épigramme, ou bien au madrigal,</l>
+	<l id='751'>Le ragoût d'un sonnet, qui chez une princesse</l>
+	<l id='752'>A passé pour avoir quelque délicatesse.</l>
+	<l id='753'>Il est de sel attique assaisonné partout,</l>
+	<l id='754'>Et vous le trouverez, je crois, d'assez bon goût.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='755' part='i'>Ah ! Je n'en doute point.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='755' part='f'>Donnons vite audience.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE, interrompant Trissotin chaque fois qu'il se dispose à lire.</speaker>
+	<l id='756'>Je sens d'aise mon coeur tressaillir par avance.</l>
+	<l id='757'>J'aime la poésie avec entêtement,</l>
+	<l id='758'>Et surtout quand les vers sont tournés galamment.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='759'>Si nous parlons toujours, il ne pourra rien dire.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='760' part='i'>So ...</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='760' part='m'>Silence ! Ma nièce.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='760' part='f'>Ah ! Laissez-le donc lire.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<p id='1'>
+	<s id='1'>Sonnet à la Princesse Uranie sur sa fièvre</s>
+</p>
+	<l id='761'>Votre prudence est endormie,</l>
+	<l id='762'>De traiter magnifiquement,</l>
+	<l id='763'>Et de loger superbement</l>
+	<l id='764'>Votre plus cruelle ennemie.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='765' part='i'>Ah ! Le joli début !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='765' part='f'>Qu'il a le tour galant !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='766'>Lui seul des vers aisés possède le talent !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='767'>À prudence endormie il faut rendre les armes.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='768'>Loger son ennemie est pour moi plein de charmes.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='769'>J'aime superbement et magnifiquement :</l>
+	<l id='770'>Ces deux adverbes joints font admirablement.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='771'>Prêtons l'oreille au reste.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='772'>Votre prudence est endormie,</l>
+	<l id='773'>De traiter magnifiquement,</l>
+	<l id='774'>Et de loger superbement</l>
+	<l id='775'>Votre plus cruelle ennemie.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='776'>Prudence endormie !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='777'>Loger son ennemie !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='778'>Superbement et magnifiquement !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='779'>Faites-la sortir, quoi qu'on die,</l>
+	<l id='780'>De votre riche appartement,</l>
+	<l id='781'>Où cette ingrate insolemment</l>
+	<l id='782'>Attaque votre belle vie.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='783'>Ah ! Tout doux, laissez-moi, de grâce, respirer.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='784'>Donnez-nous, s'il vous plaît, le loisir d'admirer.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='785'>On se sent à ces vers, jusques au fond de l'âme,</l>
+	<l id='786'>Couler je ne sais quoi qui fait que l'on se pâme.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='787'>Faites-la sortir, quoi qu'on die,</l>
+	<l id='788'>De votre riche appartement.</l>
+	<l id='789'>Que riche appartement est là joliment dit !</l>
+	<l id='790'>Et que la métaphore est mise avec esprit !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='791'>Faites-la sortir, quoi qu'on die.</l>
+	<l id='792'>Ah ! Que ce quoi qu'on die est d'un goût admirable !</l>
+	<l id='793'>C'est, à mon sentiment, un endroit impayable.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='794'>De quoi qu'on die aussi mon coeur est amoureux.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='795'>Je suis de votre avis, quoi qu'on die est heureux.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='796' part='i'>Je voudrais l'avoir fait.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='796' part='f'>Il vaut toute une pièce.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='797'>Mais en comprend-on bien, comme moi, la finesse ?</l>
+</sp>
+<sp who='ARMANDE-BELISE'><speaker>ARMANDE et BÉLISE.</speaker>
+	<l id='798' part='i'>Oh, oh !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='798' part='f'>Faites-la sortir, quoi qu'on die :</l>
+	<l id='799'>Que de la fièvre, on prenne ici les intérêts :</l>
+	<l id='800'>N'ayez aucun égard, moquez-vous des caquets.</l>
+	<l id='801'>Faites-la sortir, quoi qu'on die.</l>
+	<l id='802'>Quoi qu'on die, quoi qu'on die.</l>
+	<l id='803'>Ce quoi qu'on die en dit beaucoup plus qu'il ne semble.</l>
+	<l id='804'>Je ne sais pas, pour moi, si chacun me ressemble ;</l>
+	<l id='805'>Mais j'entends là-dessous un million de mots.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='806'>Il est vrai qu'il dit plus de choses qu'il n'est gros.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='807'>Mais quand vous avez fait ce charmant quoi qu'on die,</l>
+	<l id='808'>Avez-vous compris, vous, toute son énergie ?</l>
+	<l id='809'>Songiez-vous bien vous-même à tout ce qu'il nous dit,</l>
+	<l id='810'>Et pensiez-vous alors y mettre tant d'esprit ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='811' part='i'>Hay, hay.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='811' part='f'>J'ai fort aussi l'ingrate dans la tête :</l>
+	<l id='812'>Cette ingrate de fièvre, injuste, malhonnête,</l>
+	<l id='813'>Qui traite mal les gens qui la logent chez eux.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='814'>Enfin les quatrains sont admirables tous deux.</l>
+<note type="L">Tiercet : S'est dit pour tercet. Couplet ou strophe de trois vers. [L] Les deux dernières strophes d'un sonnet sont des tercets.</note>
+	<l id='815'>Venons-en promptement aux tiercets, je vous prie.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='816'>Ah ! S'il vous plaît, encore une fois quoi qu'on die.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='817'>Faites-la sortir, quoi qu'on die,</l>
+</sp>
+<sp who='PHILAMINTE-ARMANDE-BELISE'><speaker>PHILAMINTE, ARMANDE et BÉLISE.</speaker>
+	<l id='818'>Quoi qu'on die !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='819'>De votre riche appartement,</l>
+</sp>
+<sp who='PHILAMINTE-ARMANDE-BELISE'><speaker>PHILAMINTE, ARMANDE et BÉLISE.</speaker>
+	<l id='820'>Riche appartement !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='821'>Où cette ingrate insolemment</l>
+</sp>
+<sp who='PHILAMINTE-ARMANDE-BELISE'><speaker>PHILAMINTE, ARMANDE et BÉLISE.</speaker>
+	<l id='822'>Cette ingrate de fièvre ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='823'>Attaque votre belle vie.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='824'>Votre belle vie !</l>
+</sp>
+<sp who='ARMANDE-BELISE'><speaker>ARMANDE et BÉLISE.</speaker>
+	<l id='825' part='i'>Ah !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='825' part='f'>Quoi ? Sans respecter votre rang,</l>
+	<l id='826'>Elle se prend à votre sang,</l>
+</sp>
+<sp who='PHILAMINTE-ARMANDE-BELISE'><speaker>PHILAMINTE, ARMANDE et BÉLISE.</speaker>
+	<l id='827' part='i'>Ah !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='827' part='f'>Et nuit et jour vous fait outrage !</l>
+	<l id='828'>Si vous la conduisez aux bains,</l>
+	<l id='829'>Sans la marchander davantage,</l>
+	<l id='830'>Noyez-la de vos propres mains.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='831' part='i'>On n'en peut plus.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='831' part='m'>On pâme.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='831' part='f'>On se meurt de plaisir.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='832'>De mille doux frissons vous vous sentez saisir.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='833'>Si vous la conduisez aux bains,</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='834'>Sans la marchander davantage,</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='835'>Noyez-la de vos propres mains :</l>
+	<l id='836'>De vos propres mains, là, noyez-la dans les bains.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='837'>Chaque pas dans vos vers rencontre un trait charmant.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='838'>Partout on s'y promène avec ravissement.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='839'>On n'y saurait marcher que sur de belles choses.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='840'>Ce sont petits chemins tout parsemés de roses.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='841' part='i'>Le sonnet donc vous semble...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='841' part='f'>Admirable, nouveau,</l>
+	<l id='842'>Et personne jamais n'a rien fait de si beau.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='843'>Quoi ? Sans émotion pendant cette lecture ?</l>
+	<l id='844'>Vous faites là, ma nièce, une étrange figure !</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='845'>Chacun fait ici-bas la figure qu'il peut,</l>
+	<l id='846'>Ma tante ; et bel esprit, il ne l'est pas qui veut.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='847'>Peut-être que mes vers importunent Madame.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='848' part='i'>Point : je n'écoute pas.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='848' part='f'>Ah ! Voyons l'épigramme.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='849'>Sur un carrosse de couleur amarante,</l>
+	<l id='850'>Donné à une dame de ses amies.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='851'>Ces titres ont toujours quelque chose de rare.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='852'>À cent beaux traits d'esprit leur nouveauté prépare.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='853'>L'Amour si chèrement m'a vendu son lien,</l>
+</sp>
+<sp who='PHILAMINTE-ARMANDE-BELISE'><speaker>PHILAMINTE, ARMANDE et BÉLISE.</speaker>
+	<l id='854' part='i'>Ah !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='854' part='f'>Qu'il m'en coûte déjà la moitié de mon bien ;</l>
+	<l id='855'>Et quand tu vois ce beau carrosse,</l>
+	<l id='856'>Où tant d'or se relève en bosse,</l>
+	<l id='857'>Qu'il étonne tout le pays,</l>
+	<l id='858'>Et fait pompeusement triompher ma Laïs,</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='859'>Ah ! Ma Laïs ! Voilà de l'érudition.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='860'>L'enveloppe est jolie, et vaut un million.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='861'>Et quand tu vois ce beau carrosse,</l>
+	<l id='862'>Où tant d'or se relève en bosse,</l>
+	<l id='863'>Qu'il étonne tout le pays,</l>
+	<l id='864'>Et fait pompeusement triompher ma Laïs,</l>
+	<l id='865'>Ne dis plus qu'il est amarante :</l>
+	<l id='866'>Dis plutôt qu'il est de ma rente.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='867'>Oh, oh, oh ! Celui-là ne s'attend point du tout.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='868'>On n'a que lui qui puisse écrire de ce goût.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='869'>Ne dis plus qu'il est amarante :</l>
+	<l id='870'>Dis plutôt qu'il est de ma rente.</l>
+	<l id='871'>Voilà qui se décline : ma rente, de ma rente, à ma rente.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='872'>Je ne sais, du moment que je vous ai connu,</l>
+	<l id='873'>Si sur votre sujet j'ai l'esprit prévenu,</l>
+	<l id='874'>Mais j'admire partout vos vers et votre prose.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='875'>Si vous vouliez de vous nous montrer quelque chose,</l>
+	<l id='876'>À notre tour aussi nous pourrions admirer.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='877'>Je n'ai rien fait en vers, mais j'ai lieu d'espérer</l>
+	<l id='878'>Que je pourrai bientôt vous montrer, en amie,</l>
+	<l id='879'>Huit chapitres du plan de notre académie.</l>
+	<l id='880'>Platon s'est au projet simplement arrêté,</l>
+	<l id='881'>Quand de sa République il a fait le traité ;</l>
+	<l id='882'>Mais à l'effet entier je veux pousser l'idée</l>
+	<l id='883'>Que j'ai sur le papier en prose accommodée.</l>
+	<l id='884'>Car enfin je me sens un étrange dépit</l>
+	<l id='885'>Du tort que l'on nous fait du côté de l'esprit,</l>
+	<l id='886'>Et je veux nous venger, toutes tant que nous sommes.</l>
+	<l id='887'>De cette indigne classe où nous rangent les hommes,</l>
+	<l id='888'>De borner nos talents à des futilités,</l>
+	<l id='889'>Et nous fermer la porte aux sublimes clartés.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='890'>C'est faire à notre sexe une trop grande offense,</l>
+	<l id='891'>De n'étendre l'effort de notre intelligence</l>
+	<l id='892'>Qu'à juger d'une jupe et de l'air d'un manteau,</l>
+	<l id='893'>Ou des beautés d'un point, ou d'un brocart nouveau.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='894'>Il faut se relever de ce honteux partage,</l>
+	<l id='895'>Et mettre hautement notre esprit hors de page.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='896'>Pour les dames on sait mon respect en tous lieux ;</l>
+	<l id='897'>Et, si je rends hommage aux brillants de leurs yeux,</l>
+	<l id='898'>De leur esprit aussi j'honore les lumières :</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='899'>Le sexe aussi vous rend justice en ces matières ;</l>
+	<l id='900'>Mais nous voulons montrer à de certains esprits,</l>
+	<l id='901'>Dont l'orgueilleux savoir nous traite avec mépris,</l>
+	<l id='902'>Que de science aussi les femmes sont meublées ;</l>
+	<l id='903'>Qu'on peut faire comme eux de doctes assemblées,</l>
+	<l id='904'>Conduites en cela par des ordres meilleurs,</l>
+	<l id='905'>Qu'on y veut réunir ce qu'on sépare ailleurs,</l>
+	<l id='906'>Mêler le beau langage et les hautes sciences,</l>
+	<l id='907'>Découvrir la nature en mille expériences,</l>
+	<l id='908'>Et sur les questions qu'on pourra proposer</l>
+	<l id='909'>Faire entrer chaque secte, et n'en point épouser.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='910'>Je m'attache pour l'ordre au péripatétisme.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='911'>Pour les abstractions, j'aime le platonisme.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='912'>Épicure me plaît, et ses dogmes sont forts.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='913'>Je m'accommode assez pour moi des petits corps ;</l>
+	<l id='914'>Mais le vuide à souffrir me semble difficile,</l>
+	<l id='915'>Et je goûte bien mieux la matière subtile.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='916'>Descartes pour l'aimant donne fort dans mon sens.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='917' part='i'>J'aime ses tourbillons.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='917' part='f'>Moi, ses mondes tombants.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='918'>Il me tarde de voir notre assemblée ouverte,</l>
+	<l id='919'>Et de nous signaler par quelque découverte.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='920'>On en attend beaucoup de vos vives clartés,</l>
+	<l id='921'>Et pour vous la nature a peu d'obscurités.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='922'>Pour moi, sans me flatter, j'en ai déjà fait une,</l>
+	<l id='923'>Et j'ai vu clairement des hommes dans la lune.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='924'>Je n'ai point encor vu d'hommes, comme je crois ;</l>
+	<l id='925'>Mais j'ai vu des clochers tout comme je vous vois.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='926'>Nous approfondirons, ainsi que la physique,</l>
+	<l id='927'>Grammaire, histoire, vers, morale et politique.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='928'>La morale a des traits dont mon coeur est épris,</l>
+	<l id='929'>Et c'était autrefois l'amour des grands esprits ;</l>
+	<l id='930'>Mais aux Stoïciens je donne l'avantage,</l>
+	<l id='931'>Et je ne trouve rien de si beau que leur sage.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='932'>Pour la langue, on verra dans peu nos règlements,</l>
+	<l id='933'>Et nous y prétendons faire des remuements.</l>
+	<l id='934'>Par une antipathie ou juste, ou naturelle,</l>
+	<l id='935'>Nous avons pris chacune une haine mortelle</l>
+	<l id='936'>Pour un nombre de mots, soit ou verbes ou noms,</l>
+	<l id='937'>Que mutuellement nous nous abandonnons ;</l>
+	<l id='938'>Contre eux nous préparons de mortelles sentences,</l>
+	<l id='939'>Et nous devons ouvrir nos doctes conférences</l>
+	<l id='940'>Par les proscriptions de tous ces mots divers</l>
+	<l id='941'>Dont nous voulons purger et la prose et les vers.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='942'>Mais le plus beau projet de notre académie,</l>
+	<l id='943'>Une entreprise noble, et dont je suis ravie,</l>
+	<l id='944'>Un dessein plein de gloire, et qui sera vanté</l>
+	<l id='945'>Chez tous les beaux esprits de la postérité,</l>
+	<l id='946'>C'est le retranchement de ces syllabes sales,</l>
+	<l id='947'>Qui dans les plus beaux mots produisent des scandales,</l>
+	<l id='948'>Ces jouets éternels des sots de tous les temps,</l>
+	<l id='949'>Ces fades lieux communs de nos méchants plaisants,</l>
+	<l id='950'>Ces sources d'un amas d'équivoques infâmes,</l>
+	<l id='951'>Dont on vient faire insulte à la pudeur des femmes.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='952'>Voilà certainement d'admirables projets !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='953'>Vous verrez nos statuts, quand ils seront tous faits.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='954'>Ils ne sauraient manquer d'être tous beaux et sages.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='955'>Nous serons par nos lois les juges des ouvrages ;</l>
+	<l id='956'>Par nos lois, prose et vers, tout nous sera soumis ;</l>
+	<l id='957'>Nul n'aura de l'esprit hors nous et nos amis ;</l>
+	<l id='958'>Nous chercherons partout à trouver à redire,</l>
+	<l id='959'>Et ne verrons que nous qui sache bien écrire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. L'Epine, Trissotin, Philaminte, Bélise, Armande, Henriette, Vadius.</head>
+<sp who='L-EPINE'><speaker>L'ÉPINE.</speaker>
+	<l id='960'>Monsieur, un homme est là qui veut parler à vous ;</l>
+	<l id='961'>Il est vêtu de noir, et parle d'un ton doux.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='962'>C'est cet ami savant qui m'a fait tant d'instance</l>
+	<l id='963'>De lui donner l'honneur de votre connéissance.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='964'>Pour le faire venir vous avez tout crédit.</l>
+	<l id='965'>Faisons bien les honneurs au moins de notre esprit.</l>
+	<l id='966'>Holà ! Je vous ai dit en paroles bien claires,</l>
+	<l id='967' part='i'>Que j'ai besoin de vous.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='967' part='f'>Mais pour quelles affaires ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='968'>Venez, on va dans peu vous les faire savoir.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='969'>Voici l'homme qui meurt du désir de vous voir.</l>
+	<l id='970'>En vous le produisant, je ne crains point le blâme</l>
+	<l id='971'>D'avoir admis chez vous un profane, Madame :</l>
+	<l id='972'>Il peut tenir son coin parmi de beaux esprits.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='973'>La main qui le présente en dit assez le prix.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='974'>Il a des vieux auteurs la pleine intelligence,</l>
+	<l id='975'>Et sait du grec, Madame, autant qu'homme de France.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='976'>Du grec, ô Ciel ; du grec ! Il sait du grec, ma soeur !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='977' part='i'>Ah ! Ma nièce, du grec !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='977' part='f'>Du grec ! Quelle douceur !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='978'>Quoi ? Monsieur sait du grec ? Ah ! Permettez, de grâce,</l>
+	<l id='979'>Que pour l'amour du grec, Monsieur, on vous embrasse.</l>
+<stage>Il les baise toutes, jusques à Henriette, qui le refuse.</stage>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='980'>Excusez-moi, Monsieur, je n'entends pas le grec.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='981'>J'ai pour les livres grecs un merveilleux respect.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='982'>Je crains d'être fâcheux par l'ardeur qui m'engage</l>
+	<l id='983'>À vous rendre aujourd'hui, Madame, mon hommage,</l>
+	<l id='984'>Et j'aurai pu troubler quelque docte entretien.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='985'>Monsieur, avec du grec on ne peut gâter rien.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='986'>Au reste, il fait merveille en vers ainsi qu'en prose,</l>
+	<l id='987'>Et pourrait, s'il voulait, vous montrer quelque chose.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='988'>Le défaut des auteurs, dans leurs productions,</l>
+	<l id='989'>C'est d'en tyranniser les conversations,</l>
+	<l id='990'>D'être au Palais, au Cours, aux ruelles, aux tables,</l>
+	<l id='991'>De leurs vers fatigants lecteurs infatigables.</l>
+	<l id='992'>Pour moi, je ne vois rien de plus sot à mon sens</l>
+	<l id='993'>Qu'un auteur qui partout va gueuser des encens,</l>
+	<l id='994'>Qui des premiers venus saisissant les oreilles,</l>
+	<l id='995'>En fait le plus souvent les martyrs de ses veilles.</l>
+	<l id='996'>On ne m'a jamais vu ce fol entêtement ;</l>
+	<l id='997'>Et d'un Grec là-dessus je suis le sentiment,</l>
+	<l id='998'>Qui, par un dogme exprès, défend à tous ses sages</l>
+	<l id='999'>L'indigne empressement de lire leurs ouvrages.</l>
+	<l id='1000'>Voici de petits vers pour de jeunes amants,</l>
+	<l id='1001'>Sur quoi je voudrais bien avoir vos sentiments.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1002'>Vos vers ont des beautés que n'ont point tous les autres.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1003'>Les Grâces et Vénus règnent dans tous les vôtres.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1004'>Vous avez le tour libre, et le beau choix des mots.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+<note type="L">Pathos : Terme de rhétorique, figures propres à toucher fortement l'âme des auditeurs. [L]</note>
+<note type="L">Ithos : Ancien terme de rhétorique qui traite des moeurs pa opposition au pathos, expression des passions. [L]</note>
+	<l id='1005'>On voit partout chez vous l'ithos et le pathos.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<note type="L">Eglogue : espèce de poésie pastorale, où on introduit des bergers qui s'entretiennent. L'églogue n'est qu'une image de a vie des bergers. [F]</note>
+	<l id='1006'>Nous avons vu de vous des églogues d'un style</l>
+	<l id='1007'>Qui passe en doux attraits Théocrite et Virgile.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1008'>Vos odes ont un air noble, galant et doux,</l>
+	<l id='1009'>Qui laisse de bien loin votre Horace après vous.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1010'>Est-il rien d'amoureux comme vos chansonnettes ?</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1011'>Peut-on voir rien d'égal aux sonnets que vous faites ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<note type="L">Rondeau : Est une espèce de poésie ancienne. Le commun est composé de treize vers, dont il y en a huit d'une rime, et cinq de l'autre. Il est divisé en trois couplets, et à la fin du second, et du troisième, le commencement du rondeau est répété en sens équivoque, s'il est possible. [F]</note>
+	<l id='1012'>Rien qui soit plus charmant que vos petits rondeaux ?</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1013'>Rien de si plein d'esprit que tous vos madrigaux ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1014'>Aux ballades surtout vous êtes admirable.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+<note type="L">Bouts-rimés : Rimes données pour terminer des vers, qu'il faut ensuite remplir, c'est à dire pour lesquels il faut trouver et la pensée qu'on y exprimera et les mots à joindre aux rimes déjà données. [L]</note>
+	<l id='1015'>Et dans les bouts-rimés je vous trouve adorable.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1016'>Si la France pouvait connaître votre prix.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1017'>Si le siècle rendait justice aux beaux esprits.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1018'>En carrosse doré vous iriez par les rues.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1019'>On verrait le public vous dresser des statues.</l>
+<note type="L">Hom : Qui exprime le doute, la défiance. [L]</note>
+	<l id='1020'>Hom ! C'est une ballade, et je veux que tout net</l>
+	<l id='1021' part='i'>Vous m'en...</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1021' part='f'>Avez-vous vu certain petit sonnet</l>
+	<l id='1022'>Sur la fièvre qui tient la princesse Uranie ?</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1023'>Oui, hier il me fut lu dans une compagnie.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1024' part='i'>Vous en savez l'auteur ?</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1024' part='f'>Non ; mais je sais fort bien</l>
+	<l id='1025'>Qu'à ne le point flatter son sonnet ne vaut rien.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1026'>Beaucoup de gens pourtant le trouvent admirable.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1027'>Cela n'empêche pas qu'il ne soit misérable ;</l>
+	<l id='1028'>Et, si vous l'avez vu, vous serez de mon goût.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1029'>Je sais que là-dessus je n'en suis point du tout,</l>
+	<l id='1030'>Et que d'un tel sonnet peu de gens sont capables.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1031'>Me préserve le ciel d'en faire de semblables !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1032'>Je soutiens qu'on ne peut en faire de meilleur ;</l>
+	<l id='1033'>Et ma grande raison, c'est que j'en suis l'auteur.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1034' part='i'>Vous !</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1034' part='m'>Moi.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1034' part='f'>Je ne sais donc comment se fit l'affaire.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1035'>C'est qu'on fut malheureux de ne pouvoir vous plaire.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1036'>Il faut qu'en écoutant j'aie eu l'esprit distrait,</l>
+	<l id='1037'>Ou bien que le lecteur m'ait gâté le sonnet.</l>
+	<l id='1038'>Mais laissons ce discours et voyons ma ballade.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<note type="L">Ballade : C'est un poème de trois strophes de huit ou dix vers chacune, dont  le dernier vers est répété, et toujours le même. On y doit garder les même rimes, te dans le même ordre en tous les trois couplets. Au bout il y a un envoi composé de quatre ou cinq vers, où on répète encore le refrain. [F]</note>
+	<l id='1039'>La ballade, à mon goût, est une chose fade.</l>
+	<l id='1040'>Ce n'en est plus la mode ; elle sent son vieux temps.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1041'>La ballade pourtant charme beaucoup de gens.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1042'>Cela n'empêche pas qu'elle ne me déplaise.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1043'>Elle n'en reste pas pour cela plus mauvaise.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1044'>Elle a pour les pédants de merveilleux appas.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1045'>Cependant nous voyons qu'elle ne vous plaît pas.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1046'>Vous donnez sottement vos qualités aux autres.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1047'>Fort impertinemment vous me jetez les vôtres.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<note type="L">Grimaud : Petit écolier. Terme injurieux dont les grands écoliers se servent pour injurier les petits. [F]</note>
+	<l id='1048'>Allez, petit grimaud, barbouilleur de papier.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1049'>Allez, rimeur de balle, opprobre du métier.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1050'>Allez, fripier d'écrits, impudent plagiaire.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1051' part='i'>Allez, cuistre...</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1051' part='f'>Eh ! Messieurs, que prétendez-vous faire ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1052'>Va, va restituer tous les honteux larcins</l>
+	<l id='1053'>Que réclament sur toi les Grecs et les Latins.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1054'>Va, va-t'en faire amende honorable au Parnasse</l>
+<note type="L">Horace : poète romain du Ier siècle avec JC, auteur de Satires, épodes, odes et épîtres. Son épître au Pisons est aussi nommé Art poétique.</note>
+	<l id='1055'>D'avoir fait à tes vers estropier Horace.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1056'>Souviens-toi de ton livre et de son peu de bruit.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1057'>Et toi, de ton libraire à l'hôpital réduit.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1058'>Ma gloire est établie ; en vain tu la déchires.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+
+	<l id='1059'>Oui, oui, je te renvoie à l'auteur des Satires.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1060' part='i'>Je t'y renvoie aussi.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1060' part='f'>J'ai le contentement</l>
+	<l id='1061'>Qu'on voit qu'il m'a traité plus honorablement :</l>
+	<l id='1062'>Il me donne, en passant, une atteinte légère,</l>
+	<l id='1063'>Parmi plusieurs auteurs qu'au Palais on révère ;</l>
+	<l id='1064'>Mais jamais, dans ses vers, il ne te laisse en paix,</l>
+	<l id='1065'>Et l'on t'y voit partout être en butte à ses traits.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1066'>C'est par là que j'y tiens un rang plus honorable.</l>
+	<l id='1067'>Il te met dans la foule, ainsi qu'un misérable.</l>
+	<l id='1068'>Il croit que c'est assez d'un coup pour t'accabler,</l>
+	<l id='1069'>Et ne t'a jamais fait l'honneur de redoubler ;</l>
+	<l id='1070'>Mais il m'attaque à part, comme un noble adversaire</l>
+	<l id='1071'>Sur qui tout son effort lui semble nécessaire ;</l>
+	<l id='1072'>Et ses coups contre moi redoublés en tous lieux</l>
+	<l id='1073'>Montrent qu'il ne se croit jamais victorieux.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1074'>Ma plume t'apprendra quel homme je puis être.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1075'>Et la mienne saura te faire voir ton maître.</l>
+</sp>
+<sp who='VADIUS'><speaker>VADIUS.</speaker>
+	<l id='1076'>Je te défie en vers, prose, grec, et latin.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+<note type="L">Barbin : imprimeur libraire célèbre au XVIIème.</note>
+	<l id='1077'>Hé bien, nous nous verrons seul à seul chez Barbin.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Trissotin, Philaminte, Armande, Bélise, Henriette.</head>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1078'>À mon emportement ne donnez aucun blâme :</l>
+	<l id='1079'>C'est votre jugement que je défends, Madame,</l>
+	<l id='1080'>Dans le sonnet qu'il a l'audace d'attaquer.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1081'>À vous remettre bien je me veux appliquer.</l>
+	<l id='1082'>Mais parlons d'autre affaire. Approchez, Henriette.</l>
+	<l id='1083'>Depuis assez longtemps mon âme s'inquiète</l>
+	<l id='1084'>De ce qu'aucun esprit en vous ne se fait voir,</l>
+	<l id='1085'>Mais je trouve un moyen de vous en faire avoir.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1086'>C'est prendre un soin pour moi qui n'est pas nécessaire :</l>
+	<l id='1087'>Les doctes entretiens ne sont point mon affaire ;</l>
+	<l id='1088'>J'aime à vivre aisément, et, dans tout ce qu'on dit,</l>
+	<l id='1089'>Il faut se trop peiner pour avoir de l'esprit.</l>
+	<l id='1090'>C'est une ambition que je n'ai point en tête ;</l>
+	<l id='1091'>Je me trouve fort bien, ma mère, d'être bête,</l>
+	<l id='1092'>Et j'aime mieux n'avoir que de communs propos,</l>
+	<l id='1093'>Que de me tourmenter pour dire de beaux mots.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1094'>Oui, mais j'y suis blessée, et ce n'est pas mon conte</l>
+	<l id='1095'>De souffrir dans mon sang une pareille honte.</l>
+	<l id='1096'>La beauté du visage est un frêle ornement,</l>
+	<l id='1097'>Une fleur passagère, un éclat d'un moment,</l>
+	<l id='1098'>Et qui n'est attaché qu'à la simple épiderme ;</l>
+	<l id='1099'>Mais celle de l'esprit est inhérente et ferme.</l>
+	<l id='1100'>J'ai donc cherché longtemps un biais de vous donner</l>
+	<l id='1101'>La beauté que les ans ne peuvent moissonner,</l>
+	<l id='1102'>De faire entrer chez vous le désir des sciences,</l>
+	<l id='1103'>De vous insinuer les belles connaissances ;</l>
+	<l id='1104'>Et la pensée enfin où mes voeux ont souscrit,</l>
+	<l id='1105'>C'est d'attacher à vous un homme plein d'esprit ;</l>
+	<l id='1106'>Et cet homme est Monsieur, que je vous détermine</l>
+	<l id='1107'>À voir comme l'époux que mon choix vous destine.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1108' part='i'>Moi, ma mère ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1108' part='f'>Oui, vous. Faites la sotte un peu.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='1109'>Je vous entends : vos yeux demandent mon aveu,</l>
+	<l id='1110'>Pour engager ailleurs un coeur que je possède.</l>
+	<l id='1111'>Allez, je le veux bien. À ce noeud je vous cède :</l>
+	<l id='1112'>C'est un hymen qui fait votre établissement.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1113'>Je ne sais que vous dire en mon ravissement,</l>
+	<l id='1114'>Madame, et cet hymen dont je vois qu'on m'honore</l>
+	<l id='1115' part='i'>Me met...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1115' part='f'>Tout beau, Monsieur, il n'est pas fait encore :</l>
+	<l id='1116' part='i'>Ne vous pressez pas tant.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1116' part='f'>Comme vous répondez !</l>
+	<l id='1117'>Savez-vous bien que si... Suffit, vous m'entendez.</l>
+	<l id='1118'>Elle se rendra sage ; allons, laissons-la faire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Henriette, Armande.</head>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1119'>On voit briller pour vous les soins de notre mère,</l>
+	<l id='1120'>Et son choix ne pouvait d'un plus illustre époux...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1121'>Si le choix est si beau, que ne le prenez-vous ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1122'>C'est à vous, non à moi, que sa main est donnée.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1123'>Je vous le cède tout, comme à ma soeur aînée.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1124'>Si l'hymen, comme à vous, me paraissait charmant,</l>
+	<l id='1125'>J'accepterais votre offre avec ravissement.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1126'>Si j'avais, comme vous, les pédants dans la tête,</l>
+	<l id='1127'>Je pourrais le trouver un parti fort honnête.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1128'>Cependant, bien qu'ici nos goûts soient différents,</l>
+	<l id='1129'>Nous devons obéir, ma soeur, à nos parents :</l>
+	<l id='1130'>Une mère a sur nous une entière puissance,</l>
+	<l id='1131'>Et vous croyez en vain par votre résistance...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Chrysale, Ariste, Clitandre, Henriette, Armande.</head>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1132'>Allons, ma fille, il faut approuver mon dessein :</l>
+	<l id='1133'>Otez ce gant ; touchez à Monsieur dans la main,</l>
+	<l id='1134'>Et le considérez désormais dans votre âme</l>
+	<l id='1135'>En homme dont je veux que vous soyez la femme.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1136'>De ce côté, ma soeur, vos penchants sont fort grands.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1137'>Il nous faut obéir, ma soeur, à nos parents.</l>
+	<l id='1138'>Un père a sur nos voeux une entière puissance.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1139'>Une mère a sa part à notre obéissance.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1140' part='i'>Qu'est-ce à dire ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1140' part='f'>Je dis que j'appréhende fort</l>
+	<l id='1141'>Qu'ici ma mère et vous ne soyez pas d'accord ;</l>
+	<l id='1142' part='i'>Et c'est un autre époux...</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+<note type="L">Péronelle : terme injurieux qu'on dit à une femme, où à une fille de basse condition, ou servante. [F]</note>
+	<l id='1142' part='f'>Taisez-vous, péronnelle !</l>
+	<l id='1143'>Allez philosopher tout le soûl avec elle,</l>
+	<l id='1144'>Et de mes actions ne vous mêlez en rien.</l>
+	<l id='1145'>Dites-lui ma pensée, et l'avertissez bien</l>
+	<l id='1146'>Qu'elle ne vienne pas m'échauffer les oreilles :</l>
+	<l id='1147' part='i'>Allons vite.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1147' part='f'>Fort bien : vous faites des merveilles.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1148'>Quel transport ! Quelle joie ! Ah ! Que mon sort est doux !</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1149'>Allons, prenez sa main, et passez devant nous,</l>
+	<l id='1150'>Menez-là dans sa chambre. Ah ! Les douces caresses !</l>
+	<l id='1151'>Tenez, mon coeur s'émeut à toutes ces tendresses,</l>
+	<l id='1152'>Cela ragaillardit tout à fait mes vieux jours,</l>
+	<l id='1153'>Et je me ressouviens de mes jeunes amours.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Armande, Philaminte </head>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1154'>Oui, rien n'a retenu son esprit en balance :</l>
+	<l id='1155'>Elle a fait vanité de son obéissance.</l>
+	<l id='1156'>Son coeur, pour se livrer, à peine devant moi</l>
+	<l id='1157'>S'est-il donné le temps d'en recevoir la loi,</l>
+	<l id='1158'>Et semblait suivre moins les volontés d'un père,</l>
+	<l id='1159'>Qu'affecter de braver les ordres d'une mère.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1160'>Je lui montrerai bien aux lois de qui des deux</l>
+	<l id='1161'>Les droits de la raison soumettent tous ses voeux.</l>
+	<l id='1162'>Et qui doit gouverner, ou sa mère ou son père,</l>
+	<l id='1163'>Ou l'esprit ou le corps, la forme ou la matière.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1164'>On vous en devait bien au moins un compliment ;</l>
+	<l id='1165'>Et ce petit Monsieur en use étrangement,</l>
+	<l id='1166'>De vouloir malgré vous devenir votre gendre.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1167'>Il n'en est pas encore où son coeur peut prétendre.</l>
+	<l id='1168'>Je le trouvais bien fait, et j'aimais vos amours ;</l>
+	<l id='1169'>Mais dans ses procédés il m'a déplu toujours.</l>
+	<l id='1170'>Il sait que, Dieu merci, je me mêle d'écrire,</l>
+	<l id='1171'>Et jamais il ne m'a prié de lui rien lire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Clitandre, Armande, Philaminte.</head>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1172'>Je ne souffrirais point, si j'étais que de vous,</l>
+	<l id='1173'>Que jamais d'Henriette il pût être l'époux.</l>
+	<l id='1174'>On me ferait grand tort d'avoir quelque pensée</l>
+	<l id='1175'>Que là-dessus je parle en fille intéressée,</l>
+	<l id='1176'>Et que le lâche tour que l'on voit qu'il me fait</l>
+	<l id='1177'>Jette au fond de mon coeur quelque dépit secret :</l>
+	<l id='1178'>Contre de pareils coups l'âme se fortifie</l>
+	<l id='1179'>Du solide secours de la philosophie,</l>
+	<l id='1180'>Et par elle on se peut mettre au-dessus de tout.</l>
+	<l id='1181'>Mais vous traiter ainsi, c'est vous pousser à bout :</l>
+	<l id='1182'>Il est de votre honneur d'être à ses voeux contraire,</l>
+	<l id='1183'>Et c'est un homme enfin qui ne doit point vous plaire.</l>
+	<l id='1184'>Jamais je n'ai connu, discourant entre nous,</l>
+	<l id='1185'>Qu'il eût au fond du coeur de l'estime pour vous.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1186' part='i'>Petit sot !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1186' part='f'>Quelque bruit que votre gloire fasse,</l>
+	<l id='1187'>Toujours à vous louer il a paru de glace.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1188' part='i'>Le brutal !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1188' part='f'>Et vingt fois, comme ouvrages nouveaux,</l>
+	<l id='1189'>J'ai lu des vers de vous qu'il n'a point trouvé beaux.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1190' part='i'>L'impertinent !</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1190' part='f'>Souvent nous en étions aux prises ;</l>
+	<l id='1191'>Et vous ne croiriez point de combien de sottises...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1192'>Eh ! Doucement, de grâce : un peu de charité,</l>
+	<l id='1193'>Madame, ou tout au moins un peu d'honnêteté.</l>
+	<l id='1194'>Quel mal vous ai-je fait ? Et quelle est mon offense,</l>
+	<l id='1195'>Pour armer contre moi toute votre éloquence ?</l>
+	<l id='1196'>Pour vouloir me détruire, et prendre tant de soin</l>
+	<l id='1197'>De me rendre odieux aux gens dont j'ai besoin ?</l>
+	<l id='1198'>Parlez, dites, d'où vient ce courroux effroyable ?</l>
+	<l id='1199'>Je veux bien que Madame en soit juge équitable.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1200'>Si j'avais le courroux dont on veut m'accuser,</l>
+	<l id='1201'>Je trouverais assez de quoi l'autoriser :</l>
+	<l id='1202'>Vous en seriez trop digne, et les premières flammes</l>
+	<l id='1203'>S'établissent des droits si sacrés sur les âmes,</l>
+	<l id='1204'>Qu'il faut perdre fortune, et renoncer au jour,</l>
+	<l id='1205'>Plutôt que de brûler des feux d'un autre amour ;</l>
+	<l id='1206'>Au changement de voeux nulle horreur ne s'égale,</l>
+	<l id='1207'>Et tout coeur infidèle est un monstre en morale.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1208'>Appelez-vous, Madame, une infidélité</l>
+	<l id='1209'>Ce que m'a de votre âme ordonné la fierté ?</l>
+	<l id='1210'>Je ne fais qu'obéir aux lois qu'elle m'impose ;</l>
+	<l id='1211'>Et si je vous offense, elle seule en est cause.</l>
+	<l id='1212'>Vos charmes ont d'abord possédé tout mon coeur ;</l>
+	<l id='1213'>Il a brûlé deux ans d'une constante ardeur ;</l>
+	<l id='1214'>Il n'est soins empressés, devoirs, respects, services,</l>
+	<l id='1215'>Dont il ne vous ait fait d'amoureux sacrifices.</l>
+	<l id='1216'>Tous mes feux, tous mes soins ne peuvent rien sur vous ;</l>
+	<l id='1217'>Je vous trouve contraire à mes voeux les plus doux.</l>
+	<l id='1218'>Ce que vous refusez, je l'offre au choix d'une autre.</l>
+	<l id='1219'>Voyez : est-ce, Madame, ou ma faute, ou la vôtre ?</l>
+	<l id='1220'>Mon coeur court-il au change, ou si vous l'y poussez ?</l>
+	<l id='1221'>Est-ce moi qui vous quitte, ou vous qui me chassez ?</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1222'>Appelez-vous, Monsieur, être à vos voeux contraire,</l>
+	<l id='1223'>Que de leur arracher ce qu'ils ont de vulgaire,</l>
+	<l id='1224'>Et vouloir les réduire à cette pureté</l>
+	<l id='1225'>Où du parfait amour consiste la beauté ?</l>
+	<l id='1226'>Vous ne sauriez pour moi tenir votre pensée</l>
+	<l id='1227'>Du commerce des sens nette et débarrassée ?</l>
+	<l id='1228'>Et vous ne goûtez point, dans ses plus doux appas,</l>
+	<l id='1229'>Cette union des coeurs où les corps n'entrent pas ?</l>
+	<l id='1230'>Vous ne pouvez aimer que d'une amour grossière ?</l>
+	<l id='1231'>Qu'avec tout l'attirail des noeuds de la matière ?</l>
+	<l id='1232'>Et pour nourrir les feux que chez vous on produit,</l>
+	<l id='1233'>Il faut un mariage, et tout ce qui s'ensuit ?</l>
+	<l id='1234'>Ah ! Quel étrange amour ! Et que les belles âmes</l>
+	<l id='1235'>Sont bien loin de brûler de ces terrestres flammes !</l>
+	<l id='1236'>Les sens n'ont point de part à toutes leurs ardeurs,</l>
+	<l id='1237'>Et ce beau feu ne veut marier que les coeurs ;</l>
+	<l id='1238'>Comme une chose indigne, il laisse là le reste.</l>
+	<l id='1239'>C'est un feu pur et net comme le feu céleste ;</l>
+	<l id='1240'>On ne pousse, avec lui, que d'honnêtes soupirs,</l>
+	<l id='1241'>Et l'on ne penche point vers les sales désirs ;</l>
+	<l id='1242'>Rien d'impur ne se mêle au but qu'on se propose ;</l>
+	<l id='1243'>On aime pour aimer, et non pour autre chose ;</l>
+	<l id='1244'>Ce n'est qu'à l'esprit seul que vont tous les transports,</l>
+	<l id='1245'>Et l'on ne s'aperçoit jamais qu'on ait un corps.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1246'>Pour moi, par un malheur, je m'aperçois, Madame,</l>
+	<l id='1247'>Que j'ai, ne vous déplaise, un corps tout comme une âme :</l>
+	<l id='1248'>Je sens qu'il y tient trop, pour le laisser à part ;</l>
+	<l id='1249'>De ces détachements je ne connais point l'art :</l>
+	<l id='1250'>Le Ciel m'a dénié cette philosophie,</l>
+	<l id='1251'>Et mon âme et mon corps marchent de compagnie.</l>
+	<l id='1252'>Il n'est rien de plus beau, comme vous avez dit,</l>
+	<l id='1253'>Que ces voeux épurés qui ne vont qu'à l'esprit,</l>
+	<l id='1254'>Ces unions de coeurs, et ces tendres pensées</l>
+	<l id='1255'>Du commerce des sens si bien débarrassées.</l>
+	<l id='1256'>Mais ces amours pour moi sont trop subtilisés ;</l>
+	<l id='1257'>Je suis un peu grossier, comme vous m'accusez ;</l>
+	<l id='1258'>J'aime avec tout moi-même, et l'amour qu'on me donne</l>
+	<l id='1259'>En veut, je le confesse, à toute la personne.</l>
+	<l id='1260'>Ce n'est pas là matière à de grands châtiments ;</l>
+	<l id='1261'>Et, sans faire de tort à vos beaux sentiments,</l>
+	<l id='1262'>Je vois que dans le monde on suit fort ma méthode,</l>
+	<l id='1263'>Et que le mariage est assez à la mode,</l>
+	<l id='1264'>Passe pour un lien assez honnête et doux,</l>
+	<l id='1265'>Pour avoir désiré de me voir votre époux,</l>
+	<l id='1266'>Sans que la liberté d'une telle pensée</l>
+	<l id='1267'>Ait dû vous donner lieu d'en paraître offensée.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1268'>Hé bien, Monsieur ! Hé bien ! Puisque, sans m'écouter,</l>
+	<l id='1269'>Vos sentiments brutaux veulent se contenter ;</l>
+	<l id='1270'>Puisque, pour vous réduire à des ardeurs fidèles,</l>
+	<l id='1271'>Il faut des noeuds de chair, des chaînes corporelles,</l>
+	<l id='1272'>Si ma mère le veut, je résous mon esprit</l>
+	<l id='1273'>À consentir pour vous à ce dont il s'agit.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1274'>Il n'est plus temps, Madame : une autre a pris la place ;</l>
+	<l id='1275'>Et par un tel retour j'aurais mauvaise grâce</l>
+	<l id='1276'>De maltraiter l'asile et blesser les bontés</l>
+	<l id='1277'>Où je me suis sauvé de toutes vos fiertés.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1278'>Mais enfin comptez-vous, Monsieur, sur mon suffrage,</l>
+	<l id='1279'>Quand vous vous promettez cet autre mariage ?</l>
+	<l id='1280'>Et, dans vos visions, savez-vous, s'il vous plaît,</l>
+	<l id='1281'>Que j'ai pour Henriette un autre époux tout prêt ?</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1282'>Eh, Madame ! Voyez votre choix, je vous prie :</l>
+	<l id='1283'>Exposez-moi, de grâce, à moins d'ignominie,</l>
+	<l id='1284'>Et ne me rangez pas à l'indigne destin</l>
+	<l id='1285'>De me voir le rival de Monsieur Trissotin.</l>
+	<l id='1286'>L'amour des beaux esprits, qui chez vous m'est contraire,</l>
+	<l id='1287'>Ne pouvait m'opposer un moins noble adversaire.</l>
+	<l id='1288'>Il en est, et plusieurs, que pour le bel esprit</l>
+	<l id='1289'>Le mauvais goût du siècle a su mettre en crédit ;</l>
+	<l id='1290'>Mais Monsieur Trissotin n'a pu duper personne,</l>
+	<l id='1291'>Et chacun rend justice aux écrits qu'il nous donne :</l>
+	<l id='1292'>Hors céans, on le prise en tous lieux ce qu'il vaut ;</l>
+	<l id='1293'>Et ce qui m'a vingt fois fait tomber de mon haut,</l>
+	<l id='1294'>C'est de vous voir au ciel élever des sornettes</l>
+	<l id='1295'>Que vous désavoueriez, si vous les aviez faites.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1296'>Si vous jugez de lui tout autrement que nous,</l>
+	<l id='1297'>C'est que nous le voyons par d'autres yeux que vous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Trissotin, Armande, Philaminte, Clitandre.</head>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1298'>Je viens vous annoncer une grande nouvelle.</l>
+	<l id='1299'>Nous l'avons en dormant, Madame, échappé belle :</l>
+	<l id='1300'>Un monde près de nous a passé tout du long,</l>
+	<l id='1301'>Est chu tout au travers de notre tourbillon ;</l>
+	<l id='1302'>Et s'il eût en chemin rencontré notre terre,</l>
+	<l id='1303'>Elle eût été brisée en morceaux comme verre.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1304'>Remettons ce discours pour une autre saison :</l>
+	<l id='1305'>Monsieur n'y trouverait ni rime, ni raison ;</l>
+	<l id='1306'>Il fait profession de chérir l'ignorance,</l>
+	<l id='1307'>Et de haïr surtout l'esprit et la science.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1308'>Cette vérité veut quelque adoucissement.</l>
+	<l id='1309'>Je m'explique, Madame, et je hais seulement</l>
+	<l id='1310'>La science et l'esprit qui gâtent les personnes.</l>
+	<l id='1311'>Ce sont choses de soi qui sont belles et bonnes ;</l>
+	<l id='1312'>Mais j'aimerais mieux être au rang des ignorants,</l>
+	<l id='1313'>Que de me voir savant comme certaines gens.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1314'>Pour moi, je ne tiens pas, quelque effet qu'on suppose,</l>
+	<l id='1315'>Que la science soit pour gâter quelque chose.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1316'>Et c'est mon sentiment qu'en faits, comme en propos,</l>
+	<l id='1317'>La science est sujette à faire de grands sots.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1318' part='i'>Le paradoxe est fort.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1318' part='f'>Sans être fort habile,</l>
+	<l id='1319'>La preuve m'en serait, je pense, assez facile :</l>
+	<l id='1320'>Si les raisons manquaient, je suis sûr qu'en tout cas</l>
+	<l id='1321'>Les exemples fameux ne me manqueraient pas.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1322'>Vous en pourriez citer qui ne concluraient guère.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1323'>Je n'irais pas bien loin pour trouver mon affaire.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1324'>Pour moi, je ne vois pas ces exemples fameux.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1325'>Moi, je les vois si bien, qu'ils me crèvent les yeux.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1326'>J'ai cru jusques ici que c'était l'ignorance</l>
+	<l id='1327'>Qui faisait les grands sots, et non pas la science.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1328'>Vous avez cru fort mal, et je vous suis garant</l>
+	<l id='1329'>Qu'un sot savant est sot plus qu'un sot ignorant.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1330'>Le sentiment commun est contre vos maximes,</l>
+	<l id='1331'>Puisque ignorant et sot sont termes synonymes.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+<note type="L">Pédant : Se dit aussi d'une savant mal poli, grossier, opiniâtre ; qui fait un mauvais usage des sciences ; qui les tourne mal, qui fait de méchantes critiques , et observations; comme font la plupart des gens de Collège. [F]</note>
+	<l id='1332'>Si vous le voulez prendre aux usages du mot,</l>
+	<l id='1333'>L'alliance est plus grande entre pédant et sot.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1334'>La sottise dans l'un se fait voir toute pure.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1335'>Et l'étude dans l'autre ajoute à la nature.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1336'>Le savoir garde en soi son mérite éminent.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1337'>Le savoir dans un fat devient impertinent.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1338'>Il faut que l'ignorance ait pour vous de grands charmes,</l>
+	<l id='1339'>Puisque pour elle ainsi vous prenez tant les armes.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1340'>Si pour moi l'ignorance a des charmes bien grands,</l>
+	<l id='1341'>C'est depuis qu'à mes yeux s'offrent certains savants.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1342'>Ces certains savants-là peuvent, à les connaître,</l>
+	<l id='1343'>Valoir certaines gens que nous voyons paraître.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1344'>Oui, si l'on s'en rapporte à ces certains savants ;</l>
+	<l id='1345'>Mais on n'en convient pas chez ces certaines gens.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1346' part='i'>Il me semble, Monsieur...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1346' part='f'>Eh, Madame ! De grâce :</l>
+	<l id='1347'>Monsieur est assez fort, sans qu'à son aide on passe ;</l>
+	<l id='1348'>Je n'ai déjà que trop d'un si rude assaillant,</l>
+	<l id='1349'>Et si je me défends, ce n'est qu'en reculant.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1350'>Mais l'offensante aigreur de chaque repartie</l>
+	<l id='1351' part='i'>Dont vous...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1351' part='f'>Autre second : je quitte la partie.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1352'>On souffre aux entretiens ces sortes de combats,</l>
+	<l id='1353'>Pourvu qu'à la personne on ne s'attaque pas.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1354'>Eh, mon Dieu ! Tout cela n'a rien dont il s'offense :</l>
+	<l id='1355'>Il entend raillerie autant qu'homme de France ;</l>
+	<l id='1356'>Et de bien d'autres traits il s'est senti piquer,</l>
+	<l id='1357'>Sans que jamais sa gloire ait fait que s'en moquer.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1358'>Je ne m'étonne pas, au combat que j'essuie,</l>
+	<l id='1359'>De voir prendre à Monsieur la thèse qu'il appuie.</l>
+	<l id='1360'>Il est fort enfoncé dans la cour, c'est tout dit :</l>
+	<l id='1361'>La cour, comme l'on sait, ne tient pas pour l'esprit ;</l>
+	<l id='1362'>Elle a quelque intérêt d'appuyer l'ignorance,</l>
+	<l id='1363'>Et c'est en courtisan qu'il en prend la défense.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1364'>Vous en voulez beaucoup à cette pauvre cour,</l>
+	<l id='1365'>Et son malheur est grand de voir que chaque jour</l>
+	<l id='1366'>Vous autres beaux esprits vous déclamiez contre elle,</l>
+	<l id='1367'>Que de tous vos chagrins vous lui fassiez querelle,</l>
+	<l id='1368'>Et, sur son méchant goût lui faisant son procès,</l>
+	<l id='1369'>N'accusiez que lui seul de vos méchants succès.</l>
+	<l id='1370'>Permettez-moi, Monsieur Trissotin, de vous dire,</l>
+	<l id='1371'>Avec tout le respect que votre nom m'inspire,</l>
+	<l id='1372'>Que vous feriez fort bien, vos confrères et vous,</l>
+	<l id='1373'>De parler de la cour d'un ton un peu plus doux ;</l>
+	<l id='1374'>Qu'à le bien prendre, au fond, elle n'est pas si bête</l>
+	<l id='1375'>Que vous autres Messieurs vous vous mettez en tête ;</l>
+	<l id='1376'>Qu'elle a du sens commun pour se connaître à tout ;</l>
+	<l id='1377'>Que chez elle on se peut former quelque bon goût ;</l>
+	<l id='1378'>Et que l'esprit du monde y vaut, sans flatterie,</l>
+	<l id='1379'>Tout le savoir obscur de la pédanterie.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1380'>De son bon goût, Monsieur, nous voyons des effets.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1381'>Où voyez-vous, Monsieur, qu'elle l'ait si mauvais ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1382'>Ce que je vois, Monsieur, c'est que pour la science</l>
+*******************
+	<l id='1383'>Rasius et Baldus font honneur à la France,</l>
+	<l id='1384'>Et que tout leur mérite, exposé fort au jour,</l>
+	<l id='1385'>N'attire point les yeux et les dons de la cour.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1386'>Je vois votre chagrin, et que par modestie</l>
+	<l id='1387'>Vous ne vous mettez point, Monsieur, de la partie ;</l>
+	<l id='1388'>Et pour ne vous point mettre aussi dans le propos,</l>
+	<l id='1389'>Que font-ils pour l'État vos habiles héros ?</l>
+	<l id='1390'>Qu'est-ce que leurs écrits lui rendent de service,</l>
+	<l id='1391'>Pour accuser la cour d'une horrible injustice,</l>
+	<l id='1392'>Et se plaindre en tous lieux que sur leurs doctes noms</l>
+	<l id='1393'>Elle manque à verser la faveur de ses dons ?</l>
+	<l id='1394'>Leur savoir à la France est beaucoup nécessaire,</l>
+	<l id='1395'>Et des livres qu'ils font la cour a bien affaire.</l>
+	<l id='1396'>Il semble à trois gredins, dans leur petit cerveau,</l>
+	<l id='1397'>Que, pour être imprimés, et reliés en veau,</l>
+	<l id='1398'>Les voilà dans l'État d'importantes personnes ;</l>
+	<l id='1399'>Qu'avec leur plume ils font les destins des couronnes ;</l>
+	<l id='1400'>Qu'au moindre petit bruit de leurs productions</l>
+	<l id='1401'>Ils doivent voir chez eux voler les pensions ;</l>
+	<l id='1402'>Que sur eux l'univers a la vue attachée ;</l>
+	<l id='1403'>Que partout de leur nom la gloire est épanchée,</l>
+	<l id='1404'>Et qu'en science ils sont des prodiges fameux,</l>
+	<l id='1405'>Pour savoir ce qu'ont dit les autres avant eux,</l>
+	<l id='1406'>Pour avoir eu trente ans des yeux et des oreilles,</l>
+	<l id='1407'>Pour avoir employé neuf ou dix mille veilles</l>
+	<l id='1408'>À se bien barbouiller de grec et de latin,</l>
+	<l id='1409'>Et se charger l'esprit d'un ténébreux butin</l>
+	<l id='1410'>De tous les vieux fatras qui traînent dans les livres :</l>
+	<l id='1411'>Gens qui de leur savoir paraissent toujours ivres,</l>
+	<l id='1412'>Riches, pour tout mérite, en babil importun,</l>
+	<l id='1413'>Inhabiles à tout, vides de sens commun,</l>
+	<l id='1414'>Et pleins d'un ridicule et d'une impertinence</l>
+	<l id='1415'>À décrier partout l'esprit et la science.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1416'>Votre chaleur est grande, et cet emportement</l>
+	<l id='1417'>De la nature en vous marque le mouvement :</l>
+	<l id='1418'>C'est le nom de rival qui dans votre âme excite...</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Julien, Trissotin, Philaminte, Clitandre, Armande.</head>
+<sp who='JULIEN'><speaker>JULIEN.</speaker>
+	<l id='1419'>Le savant qui tantôt vous a rendu visite,</l>
+	<l id='1420'>Et de qui j'ai l'honneur de me voir le valet,</l>
+	<l id='1421'>Madame, vous exhorte à lire ce billet.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1422'>Quelque important que soit ce qu'on veut que je lise,</l>
+	<l id='1423'>Apprenez, mon ami, que c'est une sottise</l>
+	<l id='1424'>De se venir jeter au travers d'un discours,</l>
+	<l id='1425'>Et qu'aux gens d'un logis il faut avoir recours,</l>
+	<l id='1426'>Afin de s'introduire en valet qui sait vivre.</l>
+</sp>
+<sp who='JULIEN'><speaker>JULIEN.</speaker>
+	<l id='1427'>Je noterai cela, Madame, dans mon livre.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE, lit.</speaker>
+<note tyep="L">Virgile [70 av. JC- 19 av. JC]: poète latin auteur entre autres, des Bucoliques, des Géorgiques et de L'Enéide.</note>
+<note type="L">Térence : poète comique latin, né probablement à Carthage vers 200 avant JC, fut esclave du sénateur Terentius Lucanus, qui l'affranchit et lui fit donner une bonne éducation, et dont le poète prit le nom par reconnaissance. (...) On a de Térence six comédies. Molière a tiré les Fourberies de Scapin du Phormion et Baron a imité l'Adrienne. (...) [B]</note>
+<p id='1'>
+	<s id='1'>Trissotin s'est vanté, Madame, qu'il épouserait votre fille. </s>
+	<s id='2'>Je vous donne avis que sa philosophie n'en veut qu'à vos richesses, et que vous ferez bien de ne point conclure ce mariage que vous n'ayez vu le poème que je compose contre lui. </s>
+	<s id='3'>En attendant cette peinture, où je prétends vous le dépeindre de toutes ses couleurs, je vous envoie Horace, Virgile, Térence, et Catulle, où vous verrez notés en marge tous les endroits qu'il a pillés.</s>
+</p>
+	<l id='1428'>Voilà sur cet hymen que je me suis promis</l>
+	<stage>Philaminte poursuit.</stage>
+<note type="L">Catulle (Valérius Catullus) : Poète latin né en 87 avec J.-C. à V2rone ou à Sirmio. Réussit surtout dans l'épigramme et dans le genre érotique. On a aussi de lui quelques morceaux d'un genre plus sérieux. Il mourut jeune, à 30 ans selon les uns, à 40 ans selon les autres. [B] </note>
+	<l id='1429'>Un mérite attaqué de beaucoup d'ennemis ;</l>
+	<l id='1430'>Et ce déchaînement aujourd'hui me convie</l>
+	<l id='1431'>À faire une action qui confonde l'envie,</l>
+	<l id='1432'>Qui lui fasse sentir que l'effort qu'elle fait,</l>
+	<l id='1433'>De ce qu'elle veut rompre aura pressé l'effet.</l>
+	<l id='1434'>Reportez tout cela sur l'heure à votre maître,</l>
+	<l id='1435'>Et lui dites qu'afin de lui faire connaître</l>
+	<l id='1436'>Quel grand état je fais de ses nobles avis</l>
+	<l id='1437'>Et comme je les crois dignes d'être suivis,</l>
+	<l id='1438'>Dès ce soir à Monsieur je marierai ma fille.</l>
+	<l id='1439'>Vous, Monsieur, comme ami de toute la famille,</l>
+	<l id='1440'>À signer leur contrat vous pourrez assister,</l>
+	<l id='1441'>Et je vous y veux bien, de ma part, inviter.</l>
+	<l id='1442'>Armande, prenez soin d'envoyer au notaire,</l>
+	<l id='1443'>Et d'aller avertir votre soeur de l'affaire.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1444'>Pour avertir ma soeur, il n'en est pas besoin,</l>
+	<l id='1445'>Et Monsieur que voilà saura prendre le soin</l>
+	<l id='1446'>De courir lui porter bientôt cette nouvelle,</l>
+	<l id='1447'>Et disposer son coeur à vous être rebelle.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1448'>Nous verrons qui sur elle aura plus de pouvoir,</l>
+	<l id='1449'>Et si je la saurai réduire à son devoir.</l>
+<stage>Elle s'en va.</stage>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1450'>J'ai grand regret, Monsieur, de voir qu'à vos visées</l>
+	<l id='1451'>Les choses ne soient pas tout à fait disposées.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1452'>Je m'en vais travailler, Madame, avec ardeur,</l>
+	<l id='1453'>À ne vous point laisser ce grand regret au coeur.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1454'>J'ai peur que votre effort n'ait pas trop bonne issue.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1455'>Peut-être verrez-vous votre crainte déçue.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1456' part='i'>Je le souhaite ainsi.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1456' part='f'>J'en suis persuadé.</l>
+	<l id='1457'>Et que de votre appui je serai secondé.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1458'>Oui, je vais vous servir de toute ma puissance.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1459'>Et ce service est sûr de ma reconnaissance.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Chrysale, Ariste, Henriette, Clitandre.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1460'>Sans votre appui, Monsieur, je serai malheureux :</l>
+	<l id='1461'>Madame votre femme a rejeté mes voeux,</l>
+	<l id='1462'>Et son coeur prévenu veut Trissotin pour gendre.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1463'>Mais quelle fantaisie a-t-elle donc pu prendre ?</l>
+	<l id='1464'>Pourquoi diantre vouloir ce Monsieur Trissotin ?</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1465'>C'est par l'honneur qu'il a de rimer à latin</l>
+	<l id='1466'>Qu'il a sur son rival emporté l'avantage.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1467'>Elle veut dès ce soir faire ce mariage.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1468' part='i'>Dès ce soir ?</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1468' part='m'>Dès ce soir.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1468' part='f'>Et dès ce soir je veux.</l>
+	<l id='1469'>Pour la contrecarrer, vous marier vous deux.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1470'>Pour dresser le contrat, elle envoie au Notaire.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1471'>Et je vais le quérir pour celui qu'il doit faire.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1472'>Et Madame doit être instruite par sa soeur</l>
+	<l id='1473'>De l'hymen où l'on veut qu'elle apprête son coeur.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1474'>Et moi, je lui commande avec pleine puissance</l>
+	<l id='1475'>De préparer sa main à cette autre alliance.</l>
+	<l id='1476'>Ah ! Je leur ferai voir si, pour donner la loi,</l>
+	<l id='1477'>Il est dans ma maison d'autre maître que moi.</l>
+	<l id='1478'>Nous allons revenir, songez à nous attendre.</l>
+	<l id='1479'>Allons, suivez mes pas, mon frère, et vous, mon gendre.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1480'>Hélas ! Dans cette humeur conservez-le toujours.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1481'>J'emploierai toute chose à servir vos amours.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1482'>Quelque secours puissant qu'on promette à ma flamme,</l>
+	<l id='1483'>Mon plus solide espoir, c'est votre coeur, Madame.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1484'>Pour mon coeur, vous pouvez vous assurer de lui.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1485'>Je ne puis qu'être heureux, quand j'aurai son appui.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1486'>Vous voyez à quels noeuds on prétend le contraindre.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1487'>Tant qu'il sera pour moi, je ne vois rien à craindre.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1488'>Je vais tout essayer pour nos voeux les plus doux :</l>
+	<l id='1489'>Et si tous mes efforts ne me donnent à vous,</l>
+	<l id='1490'>Il est une retraite où notre âme se donne</l>
+	<l id='1491'>Qui m'empêchera d'être à toute autre personne.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1492'>Veuille le juste Ciel me garder en ce jour</l>
+	<l id='1493'>De recevoir de vous cette preuve d'amour !</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Henriette, Trissotin.</head>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1494'>C'est sur le mariage où ma mère s'apprête</l>
+	<l id='1495'>Que j'ai voulu, Monsieur, vous parler tête à tête ;</l>
+	<l id='1496'>Et j'ai cru, dans le trouble où je vois la maison,</l>
+	<l id='1497'>Que je pourrais vous faire écouter la raison.</l>
+	<l id='1498'>Je sais qu'avec mes voeux vous me jugez capable</l>
+	<l id='1499'>De vous porter en dot un bien considérable ;</l>
+	<l id='1500'>Mais l'argent, dont on voit tant de gens faire cas,</l>
+	<l id='1501'>Pour un vrai philosophe a d'indignes appas ;</l>
+	<l id='1502'>Et le mépris du bien et des grandeurs frivoles</l>
+	<l id='1503'>Ne doit point éclater dans vos seules paroles.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1504'>Aussi n'est-ce point là ce qui me charme en vous ;</l>
+	<l id='1505'>Et vos brillants attraits, vos yeux perçants et doux,</l>
+	<l id='1506'>Votre grâce, et votre air, sont les biens, les richesses,</l>
+	<l id='1507'>Qui vous ont attiré mes voeux et mes tendresses :</l>
+	<l id='1508'>C'est de ces seuls trésors que je suis amoureux.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1509'>Je suis fort redevable à vos feux généreux :</l>
+	<l id='1510'>Cet obligeant amour a de quoi me confondre,</l>
+	<l id='1511'>Et j'ai regret, Monsieur, de n'y pouvoir répondre.</l>
+	<l id='1512'>Je vous estime autant qu'on saurait estimer ;</l>
+	<l id='1513'>Mais je trouve un obstacle à vous pouvoir aimer :</l>
+	<l id='1514'>Un coeur, vous le savez, à deux ne saurait être,</l>
+	<l id='1515'>Et je sens que du mien Clitandre s'est fait maître.</l>
+	<l id='1516'>Je sais qu'il a bien moins de mérite que vous,</l>
+	<l id='1517'>Que j'ai de méchants yeux pour le choix d'un époux,</l>
+	<l id='1518'>Que par cent beaux talents vous devriez me plaire ;</l>
+	<l id='1519'>Je vois bien que j'ai tort, mais je n'y puis que faire ;</l>
+	<l id='1520'>Et tout ce que sur moi peut le raisonnement,</l>
+	<l id='1521'>C'est de me vouloir mal d'un tel aveuglement.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1522'>Le don de votre main où l'on me fait prétendre</l>
+	<l id='1523'>Me livrera ce coeur que possède Clitandre ;</l>
+	<l id='1524'>Et par mille doux soins j'ai lieu de présumer</l>
+	<l id='1525'>Que je pourrai trouver l'art de me faire aimer.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1526'>Non : à ses premiers voeux mon âme est attachée,</l>
+	<l id='1527'>Et ne peut de vos soins, Monsieur, être touchée.</l>
+	<l id='1528'>Avec vous librement j'ose ici m'expliquer,</l>
+	<l id='1529'>Et mon aveu n'a rien qui vous doive choquer.</l>
+	<l id='1530'>Cette amoureuse ardeur qui dans les coeurs s'excite</l>
+	<l id='1531'>N'est point, comme l'on sait, un effet du mérite :</l>
+	<l id='1532'>Le caprice y prend part, et quand quelqu'un nous plaît,</l>
+	<l id='1533'>Souvent nous avons peine à dire pourquoi c'est.</l>
+	<l id='1534'>Si l'on aimait, Monsieur, par choix et par sagesse,</l>
+	<l id='1535'>Vous auriez tout mon coeur et toute ma tendresse ;</l>
+	<l id='1536'>Mais on voit que l'amour se gouverne autrement.</l>
+	<l id='1537'>Laissez-moi, je vous prie, à mon aveuglement,</l>
+	<l id='1538'>Et ne vous servez point de cette violence</l>
+	<l id='1539'>Que pour vous on veut faire à mon obéissance.</l>
+	<l id='1540'>Quand on est honnête homme, on ne veut rien devoir</l>
+	<l id='1541'>À ce que des parents ont sur nous de pouvoir ;</l>
+	<l id='1542'>On répugne à se faire immoler ce qu'on aime,</l>
+	<l id='1543'>Et l'on veut n'obtenir un coeur que de lui-même.</l>
+	<l id='1544'>Ne poussez point ma mère à vouloir par son choix</l>
+	<l id='1545'>Exercer sur mes voeux la rigueur de ses droits ;</l>
+	<l id='1546'>Otez-moi votre amour, et portez à quelque autre</l>
+	<l id='1547'>Les hommages d'un coeur aussi cher que le vôtre.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1548'>Le moyen que ce coeur puisse vous contenter ?</l>
+	<l id='1549'>Imposez-lui des lois qu'il puisse exécuter.</l>
+	<l id='1550'>De ne vous point aimer peut-il être capable,</l>
+	<l id='1551'>À moins que vous cessiez, Madame, d'être aimable,</l>
+	<l id='1552'>Et d'étaler aux yeux les célestes appas...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1553'>Eh, Monsieur ! Laissons-là ce galimatias.</l>
+	<l id='1554'>Vous avez tant d'Iris, de Philis, d'Amarantes,</l>
+	<l id='1555'>Que partout dans vos vers vous peignez si charmantes,</l>
+	<l id='1556'>Et pour qui vous jurez tant d'amoureuse ardeur...</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1557'>C'est mon esprit qui parle, et ce n'est pas mon coeur.</l>
+	<l id='1558'>D'elles on ne me voit amoureux qu'en poète ;</l>
+	<l id='1559'>Mais j'aime tout de bon l'adorable Henriette.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1560' part='i'>Eh ! De grâce, Monsieur...</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1560' part='f'>Si c'est vous offenser,</l>
+	<l id='1561'>Mon offense envers vous n'est pas prête à cesser.</l>
+	<l id='1562'>Cette ardeur, jusqu'ici de vos yeux ignorée,</l>
+	<l id='1563'>Vous consacre des voeux d'éternelle durée ;</l>
+	<l id='1564'>Rien n'en peut arrêter les aimables transports ;</l>
+	<l id='1565'>Et, bien que vos beautés condamnent mes efforts,</l>
+	<l id='1566'>Je ne puis refuser le secours d'une mère</l>
+	<l id='1567'>Qui prétend couronner une flamme si chère ;</l>
+	<l id='1568'>Et pourvu que j'obtienne un bonheur si charmant,</l>
+	<l id='1569'>Pourvu que je vous aye, il n'importe comment.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1570'>Mais savez-vous qu'on risque un peu plus qu'on ne pense</l>
+	<l id='1571'>À vouloir sur un coeur user de violence ?</l>
+	<l id='1572'>Qu'il ne fait pas bien sûr, à vous le trancher net,</l>
+	<l id='1573'>D'épouser une fille en dépit qu'elle en ait,</l>
+	<l id='1574'>Et qu'elle peut aller, en se voyant contraindre,</l>
+	<l id='1575'>À des ressentiments que le mari doit craindre ?</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1576'>Un tel discours n'a rien dont je sois altéré</l>
+	<l id='1577'>À tous événements le sage est préparé ;</l>
+	<l id='1578'>Guéri par la raison des faiblesses vulgaires,</l>
+	<l id='1579'>Il se met au-dessus de ces sortes d'affaires,</l>
+	<l id='1580'>Et n'a garde de prendre aucune ombre d'ennui</l>
+	<l id='1581'>De tout ce qui n'est pas pour dépendre de lui.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1582'>En vérité, Monsieur, je suis de vous ravie ;</l>
+	<l id='1583'>Et je ne pensais pas que la philosophie</l>
+	<l id='1584'>Fût si belle qu'elle est, d'instruire ainsi les gens</l>
+	<l id='1585'>À porter constamment de pareils accidents.</l>
+	<l id='1586'>Cette fermeté d'âme, à vous si singulière,</l>
+	<l id='1587'>Mérite qu'on lui donne une illustre matière,</l>
+	<l id='1588'>Est digne de trouver qui prenne avec amour</l>
+	<l id='1589'>Les soins continuels de la mettre en son jour ;</l>
+	<l id='1590'>Et comme, à dire vrai, je n'oserais me croire</l>
+	<l id='1591'>Bien propre à lui donner tout l'éclat de sa gloire,</l>
+	<l id='1592'>Je le laisse à quelque autre, et vous jure entre nous</l>
+	<l id='1593'>Que je renonce au bien de vous voir mon époux.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1594'>Nous allons voir bientôt comment ira l'affaire,</l>
+	<l id='1595'>Et l'on a là-dedans fait venir le Notaire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Chrysale, Clitandre, Martine, Henriette.</head>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1596'>Ah, ma fille ! Je suis bien aise de vous voir.</l>
+	<l id='1597'>Allons, venez-vous-en faire votre devoir,</l>
+	<l id='1598'>Et soumettre vos voeux aux volontés d'un père.</l>
+	<l id='1599'>Je veux, je veux apprendre à vivre à votre mère,</l>
+	<l id='1600'>Et, pour la mieux braver, voilà, malgré ses dents,</l>
+	<l id='1601'>Martine que j'amène, et rétablis céans.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1602'>Vos résolutions sont dignes de louange.</l>
+	<l id='1603'>Gardez que cette humeur, mon père, ne vous change,</l>
+	<l id='1604'>Soyez ferme à vouloir ce que vous souhaitez,</l>
+	<l id='1605'>Et ne vous laissez point séduire à vos bontés ;</l>
+	<l id='1606'>Ne vous relâchez pas, et faites bien en sorte</l>
+	<l id='1607'>D'empêcher que sur vous ma mère ne l'emporte.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1608'>Comment ? Me prenez-vous ici pour un benêt ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1609' part='i'>M'en préserve le Ciel !</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+<note type="L">Fat : Sot, sans esprit, qui ne dit que des fadaises. [F]</note>
+	<l id='1609' part='f'>Suis-je un fat, s'il vous plaît ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1610' part='i'>Je ne dis pas cela.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1610' part='f'>Me croit-on incapable</l>
+	<l id='1611'>Des fermes sentiments d'un homme raisonnable ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1612' part='i'>Non, mon père.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1612' part='f'>Est-ce donc qu'à l'âge où je me vois,</l>
+	<l id='1613'>Je n'aurais pas l'esprit d'être maître chez moi ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1614' part='i'>Si fait.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1614' part='f'>Et que j'aurais cette faiblesse d'âme,</l>
+	<l id='1615'>De me laisser mener par le nez à ma femme ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1616' part='i'>Eh ! Non, mon père.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1616' part='f'>Ouais ! Qu'est-ce donc que ceci ?</l>
+	<l id='1617'>Je vous trouve plaisante à me parler ainsi.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1618'>Si je vous ai choqué, ce n'est pas mon envie.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1619'>Ma volonté céans doit être en tout suivie.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1620' part='i'>Fort bien, mon père.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1620' part='f'>Aucun, hors moi, dans la maison,</l>
+	<l id='1621' part='i'>N'a droit de commander.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1621' part='f'>Oui, vous avez raison.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1622'>C'est moi qui tiens le rang de chef de la famille.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1623' part='i'>D'accord.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1623' part='f'>C'est moi qui dois disposer de ma fille.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1624' part='i'>Eh ! Oui.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1624' part='f'>Le Ciel me donne un plein pouvoir sur vous.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1625' part='i'>Qui vous dit le contraire ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1625' part='f'>Et pour prendre un époux,</l>
+	<l id='1626'>Je vous ferai bien voir que c'est à votre père</l>
+	<l id='1627'>Qu'il vous faut obéir, non pas à votre mère.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1628'>Hélas ! Vous flattez là les plus doux de mes voeux.</l>
+	<l id='1629'>Veuillez être obéi, c'est tout ce que je veux.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1630'>Nous verrons si ma femme à mes désirs rebelle...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1631'>La voici qui conduit le notaire avec elle.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1632' part='i'>Secondez-moi bien tous.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1632' part='f'>Laissez-moi, j'aurai soin</l>
+	<l id='1633'>De vous encourager, s'il en est de besoin.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Philaminte, Bélise, Armande, Trissotin, le Notaire, Chrysale, Clitandre, Henriette, Martine.</head>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1634'>Vous ne sauriez changer votre style sauvage,</l>
+	<l id='1635'>Et nous faire un contrat qui soit en beau langage ?</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1636'>Notre style est très bon, et je serais un sot,</l>
+	<l id='1637'>Madame, de vouloir y changer un seul mot.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='1638'>Ah ! Quelle barbarie au milieu de la France !</l>
+	<l id='1639'>Mais au moins, en faveur, Monsieur, de la science,</l>
+	<l id='1640'>Veuillez, au lieu d'écus, de livres et de francs,</l>
+	<l id='1641'>Nous exprimer la dot en mines et talents,</l>
+	<l id='1642'>Et dater par les mots d'ides et de calendes.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1643'>Moi ? Si j'allais, Madame, accorder vos demandes,</l>
+	<l id='1644'>Je me ferais siffler de tous mes compagnons.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1645'>De cette barbarie en vain nous nous plaignons.</l>
+	<l id='1646'>Allons, Monsieur, prenez la table pour écrire.</l>
+	<l id='1647'>Ah ! Ah ! Cette impudente ose encor se produire ?</l>
+	<l id='1648'>Pourquoi donc, s'il vous plaît, la ramener chez moi ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1649'>Tantôt, avec loisir, on vous dira pourquoi.</l>
+	<l id='1650'>Nous avons maintenant autre chose à conclure.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1651'>Procédons au contrat. Où donc est la future ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1652' part='i'>Celle que je marie est la cadette.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1652' part='f'>Bon.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1653'>Oui. La voilà, Monsieur ; Henriette est son nom.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1654' pat='i'>Fort bien. Et le futur ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1654' part='f'>L'époux que je lui donne</l>
+	<l id='1655' part='i'>Est Monsieur.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1655' part='f'>Et celui, moi, qu'en propre personne</l>
+	<l id='1656' part='i'>Je prétends qu'elle épouse, est Monsieur.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1656' part='f'>Deux époux !</l>
+	<l id='1657' part='i'>C'est trop pour la coutume.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1657' part='f'>Où vous arrêtez-vous ?</l>
+	<l id='1658'>Mettez, mettez, Monsieur, Trissotin pour mon gendre.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1659'>Pour mon gendre, mettez, mettez, Monsieur, Clitandre.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1660'>Mettez-vous donc d'accord, et d'un jugement mûr</l>
+	<l id='1661'>Voyez à convenir entre vous du futur.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1662'>Suivez, suivez, Monsieur, le choix où je m'arrête.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1663'>Faites, faites, Monsieur, les choses à ma tête.</l>
+</sp>
+<sp who='LE-NOTAIRE'><speaker>LE NOTAIRE.</speaker>
+	<l id='1664'>Dites-moi donc à qui j'obéirai des deux ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1665'>Quoi donc ? Vous combattez les choses que je veux ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1666'>Je ne saurais souffrir qu'on ne cherche ma fille</l>
+	<l id='1667'>Que pour l'amour du bien qu'on voit dans ma famille.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1668'>Vraiment à votre bien on songe bien ici,</l>
+	<l id='1669'>Et c'est là pour un sage un fort digne souci !</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1670'>Enfin pour son époux j'ai fait choix de Clitandre.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1671'>Et moi, pour son époux, voici qui je veux prendre :</l>
+	<l id='1672'>Mon choix sera suivi, c'est un point résolu.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1673'>Ouais ! Vous le prenez là d'un ton bien absolu ?</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1674'>Ce n'est point à la femme à prescrire, et je sommes</l>
+	<l id='1675'>Pour céder le dessus en toute chose aux hommes.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1676' part='i'>C'est bien dit.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+<note type="L">Hoc : sorte de jeu de cartes. Fig. Ce qui est assuré à quelqu'un. [L]</note>
+	<l id='1676' part='f'>Mon congé cent fois me fût-il hoc,</l>
+	<l id='1677'>La poule ne doit point chanter devant le coq.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1678' part='i'>Sans doute.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1678' part='f'>Et nous voyons que d'un homme on se gausse,</l>
+	<l id='1679'>Quand sa femme chez lui porte le haut-de-chausse.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1680' part='i'>Il est vrai.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1680' part='f'>Si j'avais un mari, je le dis,</l>
+	<l id='1681'>Je voudrais qu'il se fît le maître du logis ;</l>
+<note type="L">Jocrisse : terme injurieux et populaire, qui se dit en sette phrase provebiale, "C'est un jocrisse qui mène les poules pisser", en se moquant d'un homme qui s'amuse au menus soins du ménage, qui est faible, et avare. [F]</note>
+	<l id='1682'>Je ne l'aimerais point, s'il faisait le jocrisse ;</l>
+	<l id='1683'>Et si je contestais contre lui par caprice,</l>
+	<l id='1684'>Si je parlais trop haut, je trouverais fort bon</l>
+	<l id='1685'>Qu'avec quelques soufflets il rabaissât mon ton.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1686' part='i'>C'est parler comme il faut.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1686' part='f'>Monsieur est raisonnable</l>
+	<l id='1687'>De vouloir pour sa fille un mari convenable.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1688' part='i'>Oui.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1688' part='f'>Par quelle raison, jeune et bien fait qu'il est,</l>
+	<l id='1689'>Lui refuser Clitandre ? Et pourquoi, s'il vous plaît,</l>
+	<l id='1690'>Lui bailler un savant, qui sans cesse épilogue ?</l>
+	<l id='1691'>Il lui faut un mari, non pas un pédagogue ;</l>
+<note type="C">Grais : maladresse de Martine pour grec. </note>
+	<l id='1692'>Et ne voulant savoir le grais, ni le latin,</l>
+	<l id='1693'>Elle n'a pas besoin de Monsieur Trissotin.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1694' part='i'>Fort bien.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1694' part='f'>Il faut souffrir qu'elle jase à son aise.</l>
+</sp>
+<sp who='MARTINE'><speaker>MARTINE.</speaker>
+	<l id='1695'>Les savants ne sont bons que pour prêcher en chaise ;</l>
+	<l id='1696'>Et pour mon mari, moi, mille fois je l'ai dit,</l>
+	<l id='1697'>Je ne voudrais jamais prendre un homme d'esprit.</l>
+	<l id='1698'>L'esprit n'est point du tout ce qu'il faut en ménage ;</l>
+	<l id='1699'>Les livres cadrent mal avec le mariage ;</l>
+	<l id='1700'>Et je veux, si jamais on engage ma foi,</l>
+	<l id='1701'>Un mari qui n'ait point d'autre livre que moi,</l>
+	<l id='1702'>Qui ne sache A ne B, n'en déplaise à Madame,</l>
+	<l id='1703'>Et ne soit en un mot docteur que pour sa femme.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1704'>Est-ce fait ? Et sans trouble ai-je assez écouté</l>
+	<l id='1705' part='i'>Votre digne interprète ?</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1705' part='f'>Elle a dit vérité.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1706'>Et moi, pour trancher court toute cette dispute,</l>
+	<l id='1707'>Il faut qu'absolument mon désir s'exécute.</l>
+	<l id='1708'>Henriette et Monsieur seront joints de ce pas :</l>
+	<l id='1709'>Je l'ai dit, je le veux : ne me répliquez pas ;</l>
+	<l id='1710'>Et si votre parole à Clitandre est donnée,</l>
+	<l id='1711'>Offrez-lui le parti d'épouser son aînée.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1712'>Voilà dans cette affaire un accommodement.</l>
+	<l id='1713'>Voyez, y donnez-vous votre consentement ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1714' part='i'>Eh, mon père !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1714' part='m'>Eh, Monsieur !</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='1714' part='f'>On pourrait bien lui faire</l>
+	<l id='1715'>Des propositions qui pourraient mieux lui plaire :</l>
+	<l id='1716'>Mais nous établissons une espèce d'amour</l>
+	<l id='1717'>Qui doit être épuré comme l'astre du jour :</l>
+	<l id='1718'>La substance qui pense y peut être reçue,</l>
+	<l id='1719'>Mais nous en bannissons la substance étendue.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Ariste, Chrysale, Philaminte, Bélise, Henriette, Armande, Trissotin, Le Notaire, Clitandre, Martine.</head>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1720'>J'ai regret de troubler un mystère joyeux</l>
+	<l id='1721'>Par le chagrin qu'il faut que j'apporte en ces lieux.</l>
+	<l id='1722'>Ces deux lettres me font porteur de deux nouvelles,</l>
+	<l id='1723'>Dont j'ai senti pour vous les atteintes cruelles :</l>
+	<l id='1724'>L'une, pour vous, me vient de votre procureur ;</l>
+	<l id='1725' part='i'>L'autre, pour vous, me vient de Lyon.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1725' part='f'>Quel malheur,</l>
+	<l id='1726'>Digne de nous troubler, pourrait-on nous écrire ?</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1727'>Cette lettre en contient un que vous pouvez lire.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+<p id='1'>
+	<s id='1'>Madame, j'ai prié Monsieur votre frère de vous rendre cette lettre, qui vous dira ce que je n'ai osé vous aller dire. </s>
+	<s id='2'>La grande négligence que vous avez pour vos affaires a été cause que le clerc de votre rapporteur ne m'a point averti, et vous avez perdu absolument votre procès que vous deviez gagner.</s>
+</p>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1728' part='i'>Votre procès perdu !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1728' part='f'>Vous vous troublez beaucoup !</l>
+	<l id='1729'>Mon coeur n'est point du tout ébranlé de ce coup.</l>
+	<l id='1730'>Faites, faites paraître une âme moins commune,</l>
+	<l id='1731'>À braver, comme moi, les traits de la fortune.</l>
+<p id='2'>
+	<s id=''>Le peu de soin que vous avez vous coûte quarante mille écus, et c'est à payer cette somme, avec les dépens, que vous êtes condamnée par arrêt de la Cour.</s>
+</p>
+	<l id='1732'>Condamnée ! Ah ! Ce mot est choquant, et n'est fait</l>
+	<l id='1733' part='i'>Que pour les criminels.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1733' part='f'>Il a tort en effet,</l>
+	<l id='1734'>Et vous vous êtes là justement récriée.</l>
+	<l id='1735'>Il devait avoir mis que vous êtes priée,</l>
+	<l id='1736'>Par arrêt de la Cour, de payer au plus tôt,</l>
+	<l id='1737'>Quarante mille écus, et les dépens qu'il faut.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1738' part='i'>Voyons l'autre.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE, lit.</speaker>
+<p id='3'>
+	<s id='1'>Monsieur, l'amitié qui me lie à Monsieur votre frère me fait prendre intérêt à tout ce qui vous touche. </s>
+	<s id='2'>Je sais que vous avez mis votre bien entre les mains d'Argante et de Damon, et je vous donne avis qu'en même jour ils ont fait tous deux banqueroute.</s>
+</p>
+	<l id='1738' part='f'>Ô Ciel ! Tout à la fois perdre ainsi tout mon bien !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1739'>Ah ! Quel honteux transport ! Fi ! Tout cela n'est rien.</l>
+	<l id='1740'>Il n'est pour le vrai sage aucun revers funeste,</l>
+	<l id='1741'>Et perdant toute chose, à soi-même il se reste.</l>
+	<l id='1742'>Achevons notre affaire, et quittez votre ennui :</l>
+	<l id='1743'>Son bien nous peut suffire, et pour nous, et pour lui</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1744'>Non, Madame : cessez de presser cette affaire.</l>
+	<l id='1745'>Je vois qu'à cet hymen tout le monde est contraire,</l>
+	<l id='1746'>Et mon dessein n'est point de contraindre les gens.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1747'>Cette réflexion vous vient en peu de temps !</l>
+	<l id='1748'>Elle suit de bien près, Monsieur, notre disgrâce.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1749'>De tant de résistance à la fin je me lasse.</l>
+	<l id='1750'>J'aime mieux renoncer à tout cet embarras,</l>
+	<l id='1751'>Et ne veux point d'un coeur qui ne se donne pas.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1752'>Je vois, je vois de vous, non pas pour votre gloire,</l>
+	<l id='1753'>Ce que jusques ici j'ai refusé de croire.</l>
+</sp>
+<sp who='TRISSOTIN'><speaker>TRISSOTIN.</speaker>
+	<l id='1754'>Vous pouvez voir de moi tout ce que vous voudrez,</l>
+	<l id='1755'>Et je regarde peu comment vous le prendrez.</l>
+	<l id='1756'>Mais je ne suis point homme à souffrir l'infamie</l>
+	<l id='1757'>Des refus offensants qu'il faut qu'ici j'essuie ;</l>
+	<l id='1758'>Je vaux bien que de moi l'on fasse plus de cas,</l>
+	<l id='1759'>Et je baise les mains à qui ne me veut pas.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1760'>Qu'il a bien découvert son âme mercenaire !</l>
+	<l id='1761'>Et que peu philosophe est ce qu'il vient de faire !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1762'>Je ne me vante point de l'être, mais enfin</l>
+	<l id='1763'>Je m'attache, Madame, à tout votre destin.</l>
+	<l id='1764'>Et j'ose vous offrir avecque ma personne</l>
+	<l id='1765'>Ce qu'on sait que de bien la fortune me donne.</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1766'>Vous me charmez, Monsieur, par ce trait généreux,</l>
+	<l id='1767'>Et je veux couronner vos dasirs amoureux.</l>
+	<l id='1768'>Oui, j'accorde Henriette à l'ardeur empressée...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1769'>Non, ma mère : je change à présent de pensée.</l>
+	<l id='1770'>Souffrez que je résiste à votre volonté.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1771'>Quoi ? Vous vous opposez à ma félicité ?</l>
+	<l id='1772'>Et lorsqu'à mon amour je vois chacun se rendre...</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1773'>Je sais le peu de bien que vous avez, Clitandre,</l>
+	<l id='1774'>Et je vous ai toujours souhaité pour époux,</l>
+	<l id='1775'>Lorsqu'en satisfaisant à mes voeux les plus doux,</l>
+	<l id='1776'>J'ai vu que mon hymen ajustait vos affaires ;</l>
+	<l id='1777'>Mais lorsque nous avons les destins si contraires,</l>
+	<l id='1778'>Je vous chéris assez dans cette extrémité,</l>
+	<l id='1779'>Pour ne vous charger point de notre adversité.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='1780'>Tout destin, avec vous, me peut être agréable ;</l>
+	<l id='1781'>Tout destin me serait, sans vous, insupportable.</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1782'>L'amour dans son transport parle toujours ainsi.</l>
+	<l id='1783'>Des retours importuns évitons le souci :</l>
+	<l id='1784'>Rien n'use tant l'ardeur de ce noeud qui nous lie,</l>
+	<l id='1785'>Que les fâcheux besoins des choses de la vie ;</l>
+	<l id='1786'>Et l'on en vient souvent à s'accuser tous deux</l>
+	<l id='1787'>De tous les noirs chagrins qui suivent de tels feux.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1788'>N'est-ce que le motif que nous venons d'entendre</l>
+	<l id='1789'>Qui vous fait résister à l'hymen de Clitandre ?</l>
+</sp>
+<sp who='HENRIETTE'><speaker>HENRIETTE.</speaker>
+	<l id='1790'>Sans cela, vous verriez tout mon coeur y courir,</l>
+	<l id='1791'>Et je ne fuis sa main que pour le trop chérir.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='1792'>Laissez-vous donc lier par des chaînes si belles.</l>
+	<l id='1793'>Je ne vous ai porté que de fausses nouvelles ;</l>
+	<l id='1794'>Et c'est un stratagème, un surprenant secours,</l>
+	<l id='1795'>Que j'ai voulu tenter pour servir vos amours,</l>
+	<l id='1796'>Pour détromper ma soeur, et lui faire connaître</l>
+	<l id='1797'>Ce que son philosophe à l'essai pouvait être.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1798' part='i'>Le Ciel en soit loué !</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1798' part='f'>J'en ai la joie au coeur,</l>
+	<l id='1799'>Par le chagrin qu'aura ce lâche déserteur.</l>
+	<l id='1800'>Voilà le châtiment de sa basse avarice,</l>
+	<l id='1801'>De voir qu'avec éclat cet hymen s'accomplisse.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1802'>Je le savais bien, moi, que vous l'épouseriez.</l>
+</sp>
+<sp who='ARMANDE'><speaker>ARMANDE.</speaker>
+	<l id='1803'>Ainsi donc à leurs voeux vous me sacrifiez ?</l>
+</sp>
+<sp who='PHILAMINTE'><speaker>PHILAMINTE.</speaker>
+	<l id='1804'>Ce ne sera point vous que je leur sacrifie,</l>
+	<l id='1805'>Et vous avez l'appui de la philosophie,</l>
+	<l id='1806'>Pour voir d'un oeil content couronner leur ardeur.</l>
+</sp>
+<sp who='BÉLISE'><speaker>BÉLISE.</speaker>
+	<l id='1807'>Qu'il prenne garde au moins que je suis dans son coeur :</l>
+	<l id='1808'>Par un prompt désespoir souvent on se marie,</l>
+	<l id='1809'>Qu'on s'en repent après tout le temps de sa vie.</l>
+</sp>
+<sp who='CHRYSALE'><speaker>CHRYSALE.</speaker>
+	<l id='1810'>Allons, Monsieur, suivez l'ordre que j'ai prescrit,</l>
+	<l id='1811'>Et faites le contrat ainsi que je l'ai dit.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+<bottom>
+<div1 type='' n=''><head>Annexe </head>
+<div2 type='citations' n='1'><head>Les adages et dictons de MARTINE</head>
+<p>MArtine représente le bon sens populaire et campagnard. Elle se distingue du discours savant qui l'environne par une ensemble de proverbes, adages ou dictons dont voici le liste.</p>
+<p>vers 419 et 420</p>
+	<p type='v'>Qui veut noyer son chien l'accuse de la rage,</p>
+	<p type='v'>Et service d'autrui n'est pas un héritage.</p>
+
+<p>vers 477</p>
+	<p type='v'>Quand on se fait entendre, on parle toujours bien,</p>
+
+<p>vers 1677</p>
+	<p type='v'>La poule ne doit point chanter devant le coq.</p>
+	
+<p>vers 1678 et 1679</p>
+	<p type='v'>Et nous voyons que d'un homme on se gausse,</p>
+	<p type='v'>Quand sa femme chez lui porte le haut-de-chausse.</p>
+<p>vers 1695</p>
+	<p type='v'>Les savants ne sont bons que pour prêcher en chaise ;</p>
+</div2>
+<div2 type='oeuvres' n='2'><head>Liste des oeuvres théâtrales de Molière</head>
+	<p>Le corpus théâtral de Molière se compose de trente-quatre pièces dont le texte est connu dont des farces, une Pastorale et des comédies, comédies héroïques, comédies ballets et une tragi-comédie. Le Docteur amoureux est considérée comme perdue. On notera l'existence d'une comédie pastorale héroïque - Amphytrion - et une comédie galante - La princesse d'Elide.</p>
+	<p>Concernant les farces, Molière en avait composé plusieurs petites farces, comme le Docteur amoureux ; le Docteur pédant ; les Trois docteurs rivaux ; le Maître d'école ; le Médecin volant ; la Jalousie du Barbouillé ; le Jalousie de Gros-René ; Gorgibus dans le sac ; le Fagoteux ; le Grand benêt de fils ; Gros René petit enfant ; la Casaque, etc qui n'ont pas été imprimées. Psyché, Tragi-comédie (1671) fut écrit en collaboration avec Pierre Corneille et Philippe Quinault.</p>
+	<p>Les pièces de Molière ont toutes été crées par sa troupe : L'Illustre théâtre. À Paris, ils ont représentés leurs spectacles au au Théâtre du Petit-Bourbon, situé en face de l'Eglise Saint-Germain de l'Auxerrois, jusqu'à ce que celui-ci soit démantelé, puis ils jouèrent au Palais-Royal, jusqu'à la mort de Molière en le 17 février 1673. </p>
+
+	<p>ANNÉES 50</p>
+	<p>1. Jalousie du barbouillé (la), Farce, représenté pour le première fois en 1650, en province</p>
+	<p>2. Médecin volant (le), Comédie, représenté pour le première fois le 01/10/1650 au Théâtre du Petit-Bourbon</p>
+	<p>3. Dépit amoureux (le), Comédie, représenté pour le première fois le 14/06/1656 au Théâtre du Petit-Bourbon</p>
+	<p>4. Étourdi (l') ou les Contre-temps, Comédie, représenté pour le première fois en novembre 1658 au Théâtre du Petit-Bourbon</p>
+	<p>5. Docteur amoureux (le), Comédie, représenté pour le première fois le 24/10/1658 au Château du Louvre (disparue)</p>
+	<p>6. Précieuses ridicules (les), Comédie, représenté pour le première fois le 18/11/1659 au Théâtre du Petit-Bourbon</p>
+
+	<p>ANNÉES 60</p>
+	<p>7. Sganarelle ou Le Cocu Imaginaire, Comédie, représenté pour le première fois le 28/05/1660 au Théâtre du Petit-Bourbon</p>
+	<p>8. Dom Garcie de Navarre ou le prince jaloux, Comédie héroïque, représenté pour le première fois le 04/02/1661 au Théâtre du Palais-Royal</p>
+	<p>9. École des maris (l'), Comédie, représenté pour le première fois le 24/06/1661 au Théâtre du Palais-Royal</p>
+	<p>10. Fâcheux (les), Comédie ballet, représenté pour le première fois le 17/08/1661 au Château de Vaux-le-Vicomte</p>
+	<p>11. École des femmes (l'), Comédie, représenté pour le première fois le 26/12/1662 au Théâtre du Palais-Royal</p>
+	<p>12. Critique de l'Ecole des femmes (la), Comédie, représenté pour le première fois le 01/06/1663 au Théâtre du Palais-Royal</p>
+	<p>13. Impromptu de Versailles, Comédie, représenté pour le première fois le 20/10/1663 au Château de Versailles</p>
+	<p>14. Mariage forcé (le), Comédie ballet, représenté pour le première fois le 29/02/1664 au Château du Louvre</p>
+	<p>15. Princesse d'Elide (la), Comédie galante, représenté pour le première fois le 08/05/1664 au Château de Versailles</p>
+	<p>16. Tartuffe (le) ou l'Iimposteur, Comédie, représenté pour le première fois le 12/05/1664 au Château de Versailles</p>
+	<p>17. Dom Juan ou le Festin de pierre, Comédie, représenté pour le première fois le 15/02/1665 au Théâtre du Palais-Royal</p>
+	<p>18. Amour médecin (l'), Comédie, représenté pour le première fois le 14/09/1665 au Château de Versailles</p>
+	<p>19. Misanthrope (le) ou l'Atrabilaire amoureux, Comédie, représenté pour le première fois le 04/06/1666 au Théâtre du Palais-Royal</p>
+	<p>20. Médecin malgré lui (le), Comédie, représenté pour le première fois le 06/08/1666 au Théâtre du Palais-Royal</p>
+	<p>21. Mélicerte, Comédie héroïque, représenté pour le première fois le 02/12/1666 au Château de Saint-Germain-en-Laye</p>
+	<p>22. Sicilien (le) ou l'Amour peintre, Comédie ballet, représenté pour le première fois le 05/01/1667 au Château de Saint-Germain-en-Laye</p>
+	<p>23. Pastorale comique, Pastorale, représenté pour le première fois le 05/01/1667 au Château de Saint-Germain-en-Laye</p>
+	<p>24. Amphytrion, Comédie pastorale héroïque, représenté pour le première fois le 13/01/1668 au Théâtre du Palais-Royal</p>
+	<p>25. Georges Dandin ou le Mari confondu, Comédie ballet, représenté pour le première fois le 18/07/1668 au Château de Versailles</p>
+	<p>26. Avare (l'), Comédie, représenté pour le première fois le 09/09/1668 au Théâtre du Palais-Royal</p>
+	<p>27. Monsieur de Pourceaugnac, Comédie ballet, représenté pour le première fois le 06/10/1669 au Château de Chambord</p>
+
+	<p>ANNÉES 70</p>
+
+	<p>28. Amants magnifiques (les), Comédie, représenté pour le première fois le 04/02/1670 au Château de Saint-Germain-en-Laye.</p>
+	<p>29. Bourgeois gentilhomme (le), Comédie ballet, représenté pour le première fois le 14/10/1670 au Château de Chambord</p>
+	<p>30. Fourberies de Scapin (les), Comédie, représenté pour le première fois le 24/05/1671 au Théâtre du Palais-Royal</p>
+	<p>31. Psyché (écrit en collaboration avec Pierre Corneille et Quinault), Tragi-comédie avec intermèdes et ballets, représenté pour le première fois le 24/07/1671 à La Salle des Machines aux Tuilleries.</p>
+	<p>32. Comtesse d'Escarbagnas (la), Comédie, représenté pour le première fois le 02/12/1671 au Château de Saint-Germain-en-Laye</p>
+	<p>33. Femmes savantes (les), Comédie, représenté pour le première fois le 11/03/1672 au Théâtre du Palais-Royal</p>
+	<p>34. Malade imaginaire (le), Comédie ballet, représenté pour le première fois le 10/02/1673 au Théâtre du Palais-Royal</p>
+</div2>
+</div1>
+</bottom>
+</TEI.2>

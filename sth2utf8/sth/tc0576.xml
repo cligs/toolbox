@@ -1,0 +1,2178 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>L'ENVIEUX, COMÉDIE</title>
+				<author born='1694' born_location='Paris' death='1778' death_location='Paris' academie='1746'>VOLTAIRE</author>
+				<date>1738</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, Septembre 2009</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire romaine</inspiration>
+				<structure>Trois actes</structure>
+				<type>vers</type>
+				<periode>1731-1740</periode>
+				<taille>1000-1250</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">L'ENVIEUX</titlePart>
+				<titlePart type="sub">COMÉDIE EN TROIS ACTES</titlePart>
+			</docTitle> 
+			<docDate value='1738'>1738</docDate>
+			<docAuthor id='VOLTAIRE' bio='voltaire'>Voltaire</docAuthor>
+			<docImprint>
+				<privilege id=''></privilege>
+				<imprimeur id=''></imprimeur>
+				<acheveImprime id=''></acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='(non représentée)' location='(non représentée)'>.</premiere>
+			</performance>
+<preface>
+<head>AVERTISSEMENT DE BEUCHOT.</head>
+<p>L'abbé de Lamare étant venu passer quelque temps à Cirey, dans les derniers mois de 1738, Voltaire, qui lui avait souvent envoyé de l'argent, ne put lui donner que cent livres ; mais il lui remit le manuscrit d'une comédie dont il devait partager le produit avec un jeune homme plus sage et plus pauvre que lui. Cette comédie était celle de "l'Envieux". Voltaire croyait n'avoir fait qu'une action de bon chrétien, et non un bon ouvrage, en peignant l'abbé Desfontaines sous le nom de "l'Envieux".</p>
+<p>Mme du Châtelet n'approuvait pas cet ouvrage, puisqu'elle désirait qu'il ne parût point. Il n'était question de rien moins que de le faire représenter sur le Théâtre-Français ; Voltaire tenait beaucoup à ce projet ; Mme du Châtelet voulait qu'on l'abandonnât.</p>
+<p>Voltaire était malade lorsque Lamare envoya à Cirey un gros paquet que Mme du Châtelet, par sollicitude pour Voltaire, ouvrit à son insu : il contenait le manuscrit de l'Envieux.</p>
+<p>Mme du Châtelet parle encore de "l'Envieux" dans ses lettres des 7 janvier et 10 janvier 1739. Ce qu'elle désirait eut lieu : cette comédie ne fut pas représentée. L'auteur la perdit totalement de vue, et longtemps on la crut anéantie. Les éditeurs de Kehl n'avaient pu se la procurer. Mais longtemps après l'édition terminée, feu Decroix, l'un de ces éditeurs, constant dans ses recherches sur tout ce qui concernait Voltaire, parvint à la trouver.</p>
+<p>Elle devait faire partie d'un supplément qu'il préparait pour les éditions de Kehl. Il est mort en 1827 sans exécuter ce projet. Quelques heures avant de mourir, il m'envoya la copie qu'il avait faite de l‘Envieux, et c'est sur cette copie unique que j'imprime cette pièce, qui n'avait pas encore vu le jour.</p>
+<p>Paris, ce 14 décembre 1833.</p>
+</preface>
+<castList><head>PERSONNAGES</head>
+	<castItem><role id='CLÉON' civil='M' type="H" statut='commandant' age='A' stat_amour='néant'>CLÉON</role>, officier général commandant de la province.</castItem>
+	<castItem><role id='HORTENSE' civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>HORTENSE</role>, épouse de Cléon.</castItem>
+	<castItem><role id='ARISTON' civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>ARISTON</role>, ami de Cléon et d'Hortense.</castItem>
+	<castItem><role id='CLITANDRE' civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>CLITANDRE</role>, ami d'Ariston.</castItem>
+	<castItem><role id='ZOILIN' civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>ZOÏLIN</role>, écrivain de feuilles littéraires périodiques, introduit et accueilli chez Cléon sous les auspices d'Ariston.</castItem>
+	<castItem><role id='NICODON' civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>NICODON</role>, neveu de Zoïlin.</castItem>
+	<castItem><role id='LAURE' civil='F' type="H" statut='suivante' age='A' stat_amour='néant'>LAURE</role>, suivante de Hortense.</castItem>
+	<castItem><role id='EXEMPT' civil='M' type="H" statut='exempt' age='A' stat_amour='néant'>UN EXEMPT</role> de maréchaussée.</castItem>
+	<castItem><role id='LA-FLEUR' civil='M' type="H" statut='valet' age='A' stat_amour='néant'>LA FLEUR</role>, valet de chambre d'Hortense.</castItem>
+	<castItem><role id='LAQUAIS' civil='M' type="H" statut='laquais' age='A' stat_amour='néant'>UN LAQUAIS</role>.</castItem>
+	<castItem><role id='GARDES' civil='G' type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
+	<castItem><role id='PLUSIEURS_VALETS' civil='G' type="H" statut='valet' age='A' stat_amour='néant'>PLUSIEURS VALETS</role> de la suite de Cléon.</castItem>
+</castList>
+<set location='(non indiqué)' country='France' periode='XVIIIème' link=''>La scène est dans le château de Cléon.</set>
+<note>Selon Henri Lagrave, dans l'article "L'Envieux" de l'Inventaire Voltaire (Paris, Gallimard, 1995, p. 481-482), il s'agit d'une pièce "en trois actes en vers (1738)". C'est aussi une pièce à clefs dont voici les principaux personnages : Ariston est Voltaire, Cléon est M. Du Châtelet, Hortense est Mme Du Châtelet, Zoïlin est abbé Desfontaines. "Prête dès le mois de juillet, la pièce devait être jouée à la Comédie-Française, sous le nom d'emprunt de Lamarre. Elle eût servi de réponse à la terrible Voltairomanie de l'abbé, si Emilie, d'accord avec d'Argental, n'avait tout fait pour en empêcher la représentation avec succès. L'Envieux ne fut imprimé qu'en 1833." [information isuue du site ceasar.org.uk]</note>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN, une gazette à la main, se promenant dans l'antichambre d'Hortense.</speaker>
+	<l id='1'>Que ces gazettes-là sont des choses cruelles !</l>
+	<l id='2'>J'y vois presque toujours d'affligeantes nouvelles.</l>
+	<l id='3'>A de plats écrivains l'on donne pension,</l>
+	<l id='4'>A Valère un emploi, des honneurs à Damon ;</l>
+	<l id='5'>Le petit monsieur Pince est de l'Académie ;</l>
+	<l id='6'>A la riche Chloé Dalinval se marie.</l>
+	<l id='7'>De parvenir comme eux n'aurais-je aucun moyen ?</l>
+	<l id='8'>Ô Fortune bizarre ! ils ont tout, et moi rien.</l>
+	<l id='9'>Aujourd'hui le mérite à cent dégoûts s'expose.</l>
+	<l id='10'>Autrefois, au bon temps, c'était tout autre chose...</l>
+	<l id='11' part='i'>Voyons, tâchons d'entrer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Zoïlin, La Fleur sortant de l'appartement d'Hortense. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='11' part='f'>Bonjour, monsieur La Fleur.</l>
+	<l id='12'>Puis-je vous demander si j'obtiendrai l'honneur</l>
+	<l id='13'>D'entrer à la toilette, et si madame Hortense</l>
+	<l id='14'>Voudra bien agréer mon humble révérence ?</l>
+</sp>
+<sp who='LA-FLEUR'><speaker>LA FLEUR.</speaker>
+	<l id='15' part='i'>Non, monsieur Zoïlin.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='15' part='m'>Je n'entrerai point ?</l>
+</sp>
+<sp who='LA-FLEUR'><speaker>LA FLEUR.</speaker>
+	<l id='15' part='f'>Non ;</l>
+	<l id='16'>Madame en ce moment est avec Ariston.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='17'>Ce monsieur Ariston est heureux, je l'avoue :</l>
+	<l id='18'>Partout on le reçoit, on le fête, on le loue.</l>
+	<l id='19'>Le maître de céans, Cléon, est son appui,</l>
+	<l id='20'>Et laisse, en tout honneur, son épouse avec lui.</l>
+	<l id='21'>Je ne suis point jaloux, mais je sens qu'à mon âge</l>
+	<l id='22'>Piquer une antichambre est d'un bas personnage ;</l>
+	<l id='23'>Tandis que mon égal, du haut de sa faveur,</l>
+	<l id='24'>Se donne encor les airs d'être mon protecteur.</l>
+	<l id='25'>Cette amitié d'Hortense est pour moi fort suspecte...</l>
+	<l id='26'>Je sais que le public l'estime et la respecte...</l>
+	<l id='27'>Le public est un sot ; j'appelle, sans détour,</l>
+	<l id='28'>Une telle amitié le masque de l'amour.</l>
+	<l id='29'>Que le sort d'Ariston m'humilie et m'outrage !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Zoïlin, Un Laquais, porteur d'une lettre. </head>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='30' part='i'>Monsieur...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='30' part='m'>Que me veux-tu ?</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='30' part='f'>C'est, monsieur, un message.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='31' part='i'>Pour moi ?</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='31' part='f'>Non pas, c'est pour Ariston, votre ami.</l>
+	<l id='32'>Le duc d'Elbourg l'attend à quelques pas d'ici.</l>
+	<l id='33'>On doit souper ce soir chez madame Tullie,</l>
+	<l id='34'>Qui nous donne le bal avec la comédie.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='35' part='i'>Et moi, je n'en suis point ?</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='35' part='f'>Non, monsieur. Dites-moi</l>
+	<l id='36' part='i'>Où je pourrai trouver votre ami.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='36' part='f'>Par ma foi,</l>
+	<l id='37' part='i'>Je n'en sais rien. Cours, cherche.</l>
+<stage>Le laquais sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN, seul.</speaker>
+	<l id='37' part='f'>Ha ! je perds patience.</l>
+	<l id='38'>Que je souffre en secret ! quels dégoûts ! Plus j'y pense,</l>
+	<l id='39'>Moins je puis concevoir comment certaines gens,</l>
+	<l id='40'>Avec très peu d'esprit, nul savoir, sans talents,</l>
+	<l id='41'>Ont trouvé le secret d'éblouir le vulgaire,</l>
+	<l id='42'>De captiver des grands la faveur passagère,</l>
+	<l id='43'>De faire adroitement leur réputation.</l>
+	<l id='44'>Chacun veut réussir, veut percer, cherche un nom.</l>
+	<l id='45'>Le plus petit gredin, dans l'estime du monde,</l>
+	<l id='46'>Croit s'ériger un trône où son orgueil se fonde ;</l>
+	<l id='47'>Et ce trône si vain, ce règne des esprits,</l>
+	<l id='48'>Ce crédit, ces honneurs, de quoi sont-ils le prix ?</l>
+	<l id='49'>Je vois qu'on y parvient par cent brigues secrètes,</l>
+	<l id='50'>Par de mauvais dîners que l'on donne aux poètes</l>
+	<l id='51'>Qui font bruit au Pont-Neuf, aux cafés, aux tripots.</l>
+	<l id='52'>Réussir quelquefois est le grand art des sots.</l>
+	<l id='53'>Pour moi, depuis trente ans j'intrigue, je compose,</l>
+	<l id='54'>J'écris tous les huit jours quelque pamphlet en prose.</l>
+	<l id='55'>Quels tours n'ai-je pas faits ? que n'ai-je point tenté ?</l>
+	<l id='56'>Cependant je croupis dans mon obscurité.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Zoïlin, Laure, sortant de l'appartement d'Hortense. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='57' part='i'>Eh bien, pourrai-je entrer ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='57' part='f'>Non, monsieur, pas encore.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='58'>Du moins, en attendant, parlez-moi, belle Laure.</l>
+	<l id='59'>Faut-il que le destin, qui comble de ses dons</l>
+	<l id='60'>Tant d'illustres faquins, tant de fières laidrons,</l>
+	<l id='61'>Puisse au méchant métier d'une fille suivante</l>
+	<l id='62'>Réduire une beauté si fine et si piquante !</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='63'>Servir auprès d'Hortense est un sort assez doux.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='64'>Allez, vous vous moquez ; il n'est pas fait pour vous.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='65' part='i'>Vous le croyez, monsieur ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='65' part='f'>De vous avec Hortense,</l>
+	<l id='66'>Savez-vous, entre nous, quelle est la différence ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='67' part='i'>Eh mais, oui.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='67' part='f'>L'avantage est de votre côté.</l>
+	<l id='68'>Vous avez tout, jeunesse, esprit, grâces, beauté.</l>
+	<l id='69'>Elle n'a, croyez-moi, que son rang, sa richesse.</l>
+	<l id='70'>Le hasard qui fait tout la fit votre maîtresse.</l>
+	<l id='71'>Moins aveugle, il eût pu la rabaisser très bien</l>
+	<l id='72'>À l'état de suivante, et vous placer au sien.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='73'>Je n'avais jamais eu cette bonne pensée.</l>
+	<l id='74'>Je la trouve, en effet, très juste et très sensée.</l>
+	<l id='75'>Vous m'éclairez beaucoup, vous me faites sentir</l>
+	<l id='76'>Que j'étais dès longtemps très lasse de servir.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='77'>Qui, vous, servir Hortense ? et pourquoi, je vous prie ?</l>
+	<l id='78'>Ce monde-ci, ma fille, est une loterie ;</l>
+	<l id='79'>Chacun y met : on tire, et tous les billets blancs</l>
+	<l id='80'>Sont, je ne sais pourquoi, pour les honnêtes gens.</l>
+	<l id='81'>Voyez monsieur Cléon, ce fier mari d'Hortense,</l>
+	<l id='82'>Qui nous écrase ici du poids de sa puissance ;</l>
+	<l id='83'>Dont l'insolent accueil est un rire outrageant ;</l>
+	<l id='84'>Qui m'avilit encor, même en me protégeant ;</l>
+	<l id='85'>Qui croit que la raison n'est rien que son caprice ;</l>
+	<l id='86'>Qui nomme impudemment sa dureté, justice :</l>
+	<l id='87'>Cet homme si puissant, entre nous, quel est-il ?</l>
+	<l id='88'>Un ignare, un pauvre homme, un esprit peu subtil.</l>
+	<l id='89'>Cependant vous voyez, il est chéri du maître ;</l>
+	<l id='90'>Chacun est son esclave, ou cherche à le paraître ;</l>
+	<l id='91'>Et moi, dans sa maison, je rampe comme un ver.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='92'>Pour moi, je n'ai jamais pu supporter son air.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='93' part='i'>Son front toujours se ride.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='93' part='f'>Il est dur, difficile,</l>
+	<l id='94' part='i'>Parlant peu.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='94' part='m'>Pensant moins.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='94' part='m'>Sombre.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='94' part='f'>Pétri de bile.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='95' part='i'>Si sérieux !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='95' part='m'>Si noir !</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='95' part='f'>De madame jaloux,</l>
+	<l id='96'>Maître assez peu commode, et très fâcheux époux.</l>
+	<l id='97' part='i'>Je le planterai là.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='97' part='f'>Vous ferez à merveille.</l>
+	<l id='98'>Il faut vous établir, et je vous le conseille.</l>
+	<l id='99'>Cléon depuis longtemps me promet un emploi ;</l>
+	<l id='100'>Mais dès que je l'aurai, je vous jure ma foi</l>
+	<l id='101'>Que monseigneur Cléon reverra peu ma face.</l>
+	<l id='102'>J'ai fait assez ma cour, je veux qu'on me la fasse.</l>
+	<l id='103'>Aidez-moi seulement, je vous promets dans peu</l>
+	<l id='104'>De vous faire épouser Nicodon, mon neveu.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='105' part='i'>C'est trop d'honneur.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='105' part='f'>L'amour sous votre loi l'engage.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='106'>Bon, bon ! c'est un jeune homme à son apprentissage,</l>
+	<l id='107'>Qui ne sait ce qu'il veut, et qui n'est point formé.</l>
+	<l id='108'>Il est si neuf, si gauche ! il n'a jamais aimé.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='109'>Il en aimera mieux. Oui, mon enfant, j'espère</l>
+	<l id='110'>Entre vous deux bientôt terminer cette affaire ;</l>
+	<l id='111'>Mais à condition que vous m'avertirez</l>
+	<l id='112'>De ce qu'on fait ici, de ce que vous verrez ;</l>
+	<l id='113'>De ce qu'on dit de moi chez monsieur, chez madame :</l>
+	<l id='114'>Je veux savoir par vous tout ce qu'ils ont dans l'âme.</l>
+	<l id='115'>Rapportez mot pour mot les propos d'Ariston,</l>
+	<l id='116'>Et les moindres secrets de toute la maison.</l>
+	<l id='117'>Pour voire bien, ma fille, il faut de tout m'instruire ;</l>
+	<l id='118'>Ne parlez qu'à moi seul et laissez-vous conduire.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='119'>Très volontiers, monsieur ; et tout présentement</l>
+<stage>On entend la sonnette de l'appartement.</stage>
+	<l id='120'>Je veux... Madame sonne,... et voici mon amant.</l>
+<stage>À Nicodon qui entre.</stage>
+	<l id='121'>Bonjour, mon beau garçon ; votre oncle est adorable.</l>
+	<l id='122'>Ah, quel oncle ! il médite un projet admirable !</l>
+	<l id='123'>Il veut... croyez, suivez, faites ce qu'il voudra :</l>
+	<l id='124'>Plaisir, fortune, honneur, tout de vous dépendra.</l>
+<stage>On entend encore la sonnette, Laure s'enfuit précipitamment.</stage>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='125'>Il est bon de gagner cette franche étourdie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Zoïlin, Nicodon. </head>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='126' part='i'>Toi, que viens-tu chercher ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='126' part='f'>Mon oncle, je vous prie,</l>
+	<l id='127' part='i'>L'auriez-vous déjà vu ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='127' part='m'>Qui ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='127' part='f'>Notre cher patron,</l>
+	<l id='128' part='i'>Mon protecteur, le vôtre ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='128' part='m'>Eh, qui donc ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='128' part='f'>Ariston.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='129' part='i'>Pourquoi ? que lui veux-tu ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='129' part='f'>Ce que je veux ? lui plaire...</l>
+	<l id='130'>Je voudrais pour beaucoup prendre son caractère ;</l>
+	<l id='131'>L'étudier du moins, lui ressembler un peu.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='132'>Dites-moi, s'il vous plaît, mon nigaud de neveu,</l>
+	<l id='133'>Bel-esprit de collège, imbécile cervelle,</l>
+	<l id='134'>Pourquoi voulez-vous prendre Ariston pour modèle ?</l>
+	<l id='135' part='i'>Pourquoi pas moi ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='135' part='f'>Pardon, mais, c'est, mon oncle, c'est...</l>
+	<l id='136'>Qu'Ariston chaque jour se voit fêté, qu'il plaît,</l>
+	<l id='137'>Qu'il réussit partout ; c'est que, sans peine aucune,</l>
+	<l id='138'>Le chemin du plaisir le mène à la fortune ;</l>
+	<l id='139'>Que chacun le recherche, et profite avec lui ;</l>
+	<l id='140'>Tandis que toujours seul vous périssez d'ennui.</l>
+	<l id='141'>Je sens que je pourrais, pour peu qu'on me seconde,</l>
+	<l id='142'>Devenir à mon tour un homme du beau monde(8).</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='143' part='i'>Pauvre garçon !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='143' part='f'>Comment en trouver le moyen ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='144'>Le plaisant animal ! il a, je le vois bien,</l>
+	<l id='145'>Juste l'esprit qu'il faut pour faire des sottises.</l>
+	<l id='146'>Par sa simplicité poussons nos entreprises.</l>
+<stage>À Nicodon.</stage>
+	<l id='147'>Mon ami, du beau monde avant peu tu seras ;</l>
+	<l id='148'>Suis mes conseils en tout, et tu réussiras.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='149' part='i'>Vous n'avez qu'à parler.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='149' part='f'>Il faut, sur toute chose,</l>
+	<l id='150'>Lorsqu'au grand jour du monde un jeune homme s'expose,</l>
+	<l id='151'>Il faut, pour débuter, aimer quelque beauté</l>
+	<l id='152'>Un peu sur le retour, riche, et de qualité ;</l>
+	<l id='153' part='i'>Hortense, par exemple.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='153' part='f'>Ah ! c'est me faire injure</l>
+	<l id='154' part='i'>De penser...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='154' part='f'>Non, ma foi ! c'est la vérité pure.</l>
+	<l id='155'>Je sais cent jeunes gens plus sots, plus mal tournés,</l>
+	<l id='156'>De leur bonne fortune eux-mêmes étonnés.</l>
+	<l id='157' part='i'>Tout le secret consiste...</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='157' part='f'>Ah ! c'est madame Hortense.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='158'>Oui, son cher Ariston avec elle s'avance.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='159' part='i'>Qu'ils me plaisent tous deux !</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Hortense, Ariston, Zoïlin, Nicodon.</head>
+<sp who='HORTENSE'><speaker>HORTENSE, à Zoïlin et à Nicodon.</speaker>
+	<l id='159' part='f'>Avec plaisir vraiment</l>
+	<l id='160'>Je vous rencontre ici tous deux en ce moment.</l>
+	<l id='161'>Apprenez de ma bouche une heureuse nouvelle,</l>
+	<l id='162' part='i'>Qui doit vous réjouir.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, faisant une grande révérence.</speaker>
+	<l id='162' part='f'>Madame, quelle est-elle ?</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Zoïlin.</speaker>
+	<l id='163'>Vous connaissez, monsieur, ce beau poste vacant,</l>
+	<l id='164'>Et que tant de rivaux briguaient avidement ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='165' part='i'>Oui, madame, et j'ai cru...</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='165' part='f'>La brigue était bien forte :</l>
+	<l id='166'>Enfin c'est Ariston, votre ami, qui l'emporte.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, bas à Zoïlin.</speaker>
+	<l id='167' part='i'>Vous pâlissez, mon oncle !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à Ariston, avec contrainte.</speaker>
+	<l id='167' part='f'>Ah ! recevez, monsieur,</l>
+<stage>Bas, à part.</stage>
+	<l id='168' part='i'>Mes compliments...</l>
+<stage>Haut.</stage>
+	<l id='168' part='f'>J'enrage. Et c'est du fond du coeur.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='169'>Je veux bien l'avouer ; la part si peu commune</l>
+	<l id='170'>Que chacun daigne prendre à ma bonne fortune</l>
+	<l id='171'>Est un très grand honneur, un bien plus cher pour moi,</l>
+	<l id='172'>Un plaisir plus touchant que cet illustre emploi ;</l>
+	<l id='173'>Et ce qui plus encor flatte en secret mon âme,</l>
+	<l id='174'>C'est qu'un tel choix n'est dû qu'aux bontés de madame.</l>
+	<l id='175'>Mais elle sait aussi que la seule amitié</l>
+	<l id='176'>Peut remplir tout mon coeur, à ses bienfaits lié.</l>
+	<l id='177'>Touché, reconnaissant de lui devoir ma place,</l>
+	<l id='178'>J'ose lui demander encore une autre grâce.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, avec étonnement.</speaker>
+	<l id='179' part='i'>Oh, oh !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='179' part='f'>C'est de souffrir qu'on puisse y renoncer</l>
+	<l id='180'>En faveur d'un ami qu'on voudrait y placer.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, d'un air satisfait.</speaker>
+	<l id='181' part='i'>Bon, cela.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='181' part='f'>C'est pourquoi je parlais à madame.</l>
+	<l id='182'>Un tel bienfait, sans doute, est digne de son âme ;</l>
+	<l id='183'>Car enfin cet emploi, l'objet de tant de voeux,</l>
+	<l id='184'>Si je le peux céder, rend deux hommes heureux.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='185'>Deux heureux à la fois ! votre âme est généreuse :</l>
+	<l id='186'>Cette noble action sera très glorieuse.</l>
+	<l id='187'>J'ai bien pensé d'abord que ce poste, entre nous,</l>
+	<l id='188'>Quelque beau qu'il puisse être, est au-dessous de vous.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Ariston.</speaker>
+	<l id='189'>Non, gardez cette place : elle en sera plus belle.</l>
+	<l id='190'>Et pourquoi la quitter ? c'est le prix du vrai zèle,</l>
+	<l id='191'>C'est le prix des talents ; et les coeurs vertueux</l>
+	<l id='192'>(Car il en est encor) joignaient pour vous leurs voeux.</l>
+	<l id='193'>Ce choix les satisfait, il remplit leur idée.</l>
+	<l id='194'>Songez qu'au vrai mérite une place accordée</l>
+	<l id='195'>Est un bienfait du roi, pour tous les gens de bien.</l>
+	<l id='196'>Je vous ai toujours vu penser en citoyen,</l>
+	<l id='197'>Et vous savez assez qu'à son devoir docile,</l>
+	<l id='198'>Il faut rester au poste où l'on peut être utile.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='199'>J'en demeure d'accord ; mais ce n'est pas à moi</l>
+	<l id='200'>De penser que moi seul puisse être utile au roi.</l>
+	<l id='201'>Je sais qu'un honnête homme est né pour la patrie ;</l>
+	<l id='202'>Mais, sans vouloir m'armer de fausse modestie,</l>
+	<l id='203'>Je connais bien des gens dont l'esprit, dont l'humeur</l>
+	<l id='204'>De ce fardeau brillant soutiendraient mieux l'honneur.</l>
+	<l id='205'>Enfin, je l'avouerai, ces places désirées</l>
+	<l id='206'>Ne seraient à mes yeux que des chaînes dorées.</l>
+	<l id='207'>Mon esprit est trop libre, il craint trop ces liens :</l>
+	<l id='208'>On ne vit plus alors pour soi ni pour les siens.</l>
+	<l id='209'>L'homme (on le voit souvent) se perd dans l'homme en place.</l>
+	<l id='210'>Je vis auprès de vous tout le reste est disgrâce.</l>
+	<l id='211'>La tranquille amitié, voilà ma passion :</l>
+	<l id='212'>Je suis heureux sans faste et sans ambition.</l>
+	<l id='213'>Sans que le sort m'élève et sans qu'il me renverse,</l>
+	<l id='214'>Je suis né pour jouir d'un sage et doux commerce,</l>
+	<l id='215'>Pour vous, pour mes amis, pour la société.</l>
+	<l id='216'>Dès longtemps rien ne manque à ma félicité :</l>
+	<l id='217'>Votre noble amitié, sur qui mon sort se fonde,</l>
+	<l id='218'>Me tient lieu de fortune et des honneurs du monde.</l>
+	<l id='219'>Que me vaudrait de plus un illustre fardeau ?</l>
+	<l id='220'>Qu'obtiendrai-je de mieux de l'emploi le plus beau ?</l>
+	<l id='221'>Dans les soins qu'il entraîne, et les pas qu'il nous coûte,</l>
+	<l id='222'>Que pourrait-on chercher ? c'est le bonheur sans doute ;</l>
+	<l id='223'>Mais ce bonheur enfin, je l'ai sans tout cela.</l>
+	<l id='224'>Qui sait toucher au but ira-t-il par delà ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='225'>Vous parlez bien. Cédez à votre noble envie :</l>
+	<l id='226'>Il ne faut pas, monsieur, se gêner dans la vie.</l>
+	<l id='227'>Dans vos justes dégoûts sagement affermi,</l>
+	<l id='228'>Faites de cet emploi le bonheur d'un ami.</l>
+	<l id='229'>Vous saurez le choisir prudent, discret, capable.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='230' part='i'>Oui.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='230' part='m'>Plein d'esprit.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='230' part='m'>Assez.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='230' part='f'>Qui soit d'âge sortable.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='231' part='i'>D'un âge mûr.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='231' part='f'>Qui sache écrire noblement.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='232' part='i'>Oui, très bien.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, bas à part</speaker>
+	<l id='232' part='f'>Ma fortune est faite en ce moment.</l>
+<stage>À Ariston.</stage>
+	<l id='233' part='i'>Ainsi donc votre choix, monsieur, est...</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='233' part='f'>Pour Clitandre.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, stupéfait, les derniers mots à part.</speaker>
+	<l id='234' part='i'>Clitandre !... Ouf, ouf !</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Ariston, après un moment de silence.</speaker>
+	<l id='234' part='f'>Eh bien, puisqu'il faut condescendre</l>
+	<l id='235'>À ce que vous voulez, je me console : au moins</l>
+	<l id='236'>L'amitié désormais obtiendra tous vos soins.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='237'>Oh ! que de cet ami je voudrais la défaire !</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='238'>Votre présence ici m'était bien nécessaire :</l>
+	<l id='239'>Je trouve en vous toujours des consolations,</l>
+	<l id='240'>Des conseils, du soutien dans les afflictions ;</l>
+	<l id='241'>Un ami vertueux, éclairé, doux, et sage,</l>
+	<l id='242'>Est un présent du ciel, et son plus digne ouvrage.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, à Zoïlin.</speaker>
+	<l id='243'>Oh ! comme en l'écoutant mon coeur est transporté !</l>
+	<l id='244'>Que de grâce, mon oncle, et que de dignité !</l>
+	<l id='245'>Quel bonheur ce serait que de vivre auprès d'elle !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, bas à Nicodon.</speaker>
+	<l id='246'>Ce monsieur Ariston lui tourne la cervelle.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Ariston.</speaker>
+	<l id='247'>C'est par exemple encore un trait digne de vous,</l>
+	<l id='248'>D'avoir, par vos conseils, engagé mon époux</l>
+	<l id='249'>À jeter dans le feu l'injurieux libelle</l>
+	<l id='250'>Dont hier, en secret, un flatteur infidèle</l>
+	<l id='251'>Avait voulu, sous main, rallumer son courroux</l>
+	<l id='252'>Contre le vieux Ergaste, en procès avec nous.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='253'>Eh ! madame, en cela quelle était donc ma gloire ?</l>
+	<l id='254'>J'ai trop facilement gagné cette victoire :</l>
+	<l id='255'>L'ouvrage était si plat, si dur, si mal écrit !</l>
+	<l id='256'>Sans doute il fut forgé par quelque bel-esprit,</l>
+	<l id='257'>Quelque bas écrivain dont la main mercenaire</l>
+	<l id='258'>Va vendre au plus vil prix son encre et sa colère(9).</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, bas à part</speaker>
+	<l id='259'>Ah ! morbleu ! c'était moi... Connaîtrait-il l'auteur ?</l>
+	<l id='260'>Fuyons ! je suis rempli de honte et de fureur.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à Zoïlin.</speaker>
+	<l id='261'>Vous ne connaissez pas ce misérable ouvrage ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='262' part='i'>Moi ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='262' part='f'>Je souhaiterais qu'on pût guérir la rage</l>
+	<l id='263'>De ces lâches esprits tout remplis de venin.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='264' part='i'>Oui.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='264' part='f'>Qui, toujours cachés, bravent le genre humain ;</l>
+	<l id='265'>De ces oiseaux de nuit que la lumière irrite,</l>
+	<l id='266'>De ces monstres formés pour noircir le mérite.</l>
+	<l id='267' part='i'>Que je les hais, monsieur !</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Ariston.</speaker>
+	<l id='267' part='f'>Vous avez bien raison.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à Nicodon.</speaker>
+	<l id='268' part='i'>Sortons.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='268' part='m'>Eh non, mon oncle.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, A Nicodon.</speaker>
+	<l id='268' part='f'>Écoutez, Nicodon ;</l>
+	<l id='269'>Gardez-vous pour jamais de ces traîtres cyniques.</l>
+	<l id='270'>Vous hantez les cafés où ces pestes publiques</l>
+	<l id='271'>Vont, dit-on, quelquefois faire les beaux-esprits,</l>
+	<l id='272'>Ramasser les poisons qu'on voit dans leurs écrits.</l>
+	<l id='273'>Vous êtes jeune, et simple, et sans expérience ;</l>
+	<l id='274'>Le monde jusqu'ici n'est pas votre science ;</l>
+	<l id='275'>Vous pouvez avec eux aisément vous gâter :</l>
+	<l id='276'>Madame vous protège, il le faut mériter.</l>
+	<l id='277'>Étudiez beaucoup, acquérez des lumières</l>
+	<l id='278'>Pour entrer au barreau, pour régir les affaires ;</l>
+	<l id='279'>Rendez-vous digne enfin de quelque honnête emploi.</l>
+	<l id='280'>Surtout ne prenez point votre exemple sur moi.</l>
+<stage>À Hortense.</stage>
+	<l id='281'>Madame, pardonnez cette leçon diffuse ;</l>
+	<l id='282'>Mais vous le protégez, et c'est là mon excuse.</l>
+	<l id='283'>Permettez qu'avec vous j'aille trouver Cléon,</l>
+	<l id='284'>Pour résigner l'emploi dont vous m'avez fait don.</l>
+<stage>Hortense sort avec Ariston.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Zoïlin, Nicodon.</head>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='285'>Je hais mon sort... Je hais cet homme davantage ;</l>
+	<l id='286'>Sans même le savoir, à toute heure il m'outrage.</l>
+	<l id='287' part='i'>Oui, je l'abaisserai.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='287' part='f'>Mon oncle, en vérité,</l>
+	<l id='288'>Madame Hortense et lui m'ont tous deux enchanté.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='289'>Dis-moi, ne sens-tu pas un peu de jalousie</l>
+	<l id='290'>Contre cet Ariston ? Là... quelque noble envie ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='291'>Vous voulez vous moquer ; il me sied bien à moi</l>
+	<l id='292'>D'oser être jaloux ! Et puis d'ailleurs sur quoi ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='293'>Comment sur quoi, mon fils ? Tu ne sais pas, te dis-je,</l>
+	<l id='294'>Tout le mal qu'il te fait, et tout ce qui t'afflige.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='295'>Rien ne doit m'affliger, et je suis fort content.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='296'>Et moi, je te soutiens qu'il n'en est rien.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='297' part='i'>Comment ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='297' part='f'>Ton coeur est ulcéré par un mal incurable ;</l>
+	<l id='298'>Il est jaloux, te dis-je, et jaloux comme un diable.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='299' part='i'>Est-il possible ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='299' part='f'>Eh oui ; je le vois dans tes yeux :</l>
+	<l id='300'>Car n'es-tu pas déjà de madame amoureux ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='301'>Eh, mon Dieu, point du tout. Moi ! je n'ai, de ma vie,</l>
+	<l id='302'>Osé penser, mon oncle, à semblable folie.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='303' part='i'>Tu l'es, mon cher enfant.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='303' part='f'>Je n'en savais donc rien.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='304'>Amoureux comme un fou ; je m'y connais fort bien.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='305' part='i'>Oh, oh ! vous le croyez ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='305' part='f'>La chose est assez claire.</l>
+	<l id='306'>Quoi ! ne serais-tu pas très aise de lui plaire ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='307' part='i'>Très aise assurément.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='307' part='f'>Si ton heureux destin</l>
+	<l id='308'>Te faisait parvenir jusqu'à baiser su main,</l>
+	<l id='309'>N'est-il pas vrai, mon cher, que tu serais en proie</l>
+	<l id='310'>À de tendres désirs, à des transports de joie ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='311' part='i'>Oui, j'en conviens, mon oncle.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='311' part='f'>Et si cette beauté</l>
+	<l id='312'>Daignait pour ta personne avoir quelque bonté !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='313' part='i'>Quel conte faites-vous !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='313' part='f'>Tu serais plein de zèle,</l>
+	<l id='314'>Aussi tendre qu'heureux, aussi vif que fidèle.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='315'>Ah ! je deviendrais fou de ma félicité.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='316'>Eh bien, tu l'aimes donc ? c'est sans difficulté ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='317' part='i'>Eh mais...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='317' part='f'>T'ayant prouvé ton amour sans réplique,</l>
+	<l id='318'>Tu conçois tout d'un coup, sans trop de rhétorique,</l>
+	<l id='319'>Que de cet Ariston tu dois être jaloux,</l>
+	<l id='320' part='i'>Que tu l'es, qu'il le faut.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='320' part='f'>Ariston, dites-vous,</l>
+	<l id='321'>En serait amoureux ? Ariston sait lui plaire ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='322'>Sans doute ; ils sont amants : c'est une vieille affaire.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='323'>Voyez donc ! je croyais qu'ils n'étaient rien qu'amis.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='324'>Dans quelle sotte erreur ta jeunesse t'a mis !</l>
+	<l id='325'>Apprends, pauvre écolier, à connaître les hommes.</l>
+	<l id='326'>Il n'est point d'amitié dans le siècle où nous sommes ;</l>
+	<l id='327'>Et pour peu qu'une femme ait quelques agréments,</l>
+	<l id='328'>Ses amis prétendus sont de secrets amants.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='329'>Eh bien, je pourrais donc à mon tour aussi l'être ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='330'>Sans doute, et sur les rangs je te ferai paraître.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='331' part='i'>Moi ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='331' part='f'>Toi-même, et pour toi je lui crois quelque amour.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='332' part='i'>Quoi ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='332' part='f'>Mais chez Ariston lorsque tu fais ta cour,</l>
+	<l id='333'>As-tu dans ses papiers, ouverts par négligence,</l>
+	<l id='334'>Ramassé par hasard quelques lettres d'Hortense ?</l>
+	<l id='335'>C'est un conseil prudent que je t'ai répété ;</l>
+	<l id='336'>Car tu sais qu'elle écrit avec légèreté,</l>
+	<l id='337'>Avec esprit, d'un air si tendre et si facile !</l>
+	<l id='338'>Et tout ce que j'en dis, c'est pour former ton style.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='339'>Oui, j'ai, mon très cher oncle, à cette intention</l>
+	<l id='340' part='i'>Pris, pour vous obéir, ces deux lettres.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='340' part='f'>Bon, bon.</l>
+	<l id='341'>Donne ; lisons un peu. Voyons si l'on y trouve</l>
+	<l id='342'>Quelques mots un peu vifs, et ce que cela prouve ;</l>
+	<l id='343' part='i'>Ce qu'on peut en tirer.</l>
+<stage>Il lit.</stage>
+	<l id='343' part='f'>« L'amour... » Ah ! L'y voilà !</l>
+	<l id='344' part='i'>« L'amour... »</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='344' part='f'>Oui, mais lisez ; le mot d'amour est là</l>
+	<l id='345'>Dans un tout autre sens que vous semblez le croire.</l>
+	<l id='346'>Tournez, voyez plutôt : c'est l'amour de la gloire,</l>
+	<l id='347' part='i'>L'amour de la vertu.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, tirant un cahier de sa poche.</speaker>
+	<l id='347' part='f'>Va, va, jeune innocent,</l>
+	<l id='348'>Tais-toi. Pour ton bonheur, obéis seulement.</l>
+	<l id='349'>Porte chez Ariston ce paquet d'importance,</l>
+	<l id='350'>Et parmi ses papiers le glisse avec prudence.</l>
+	<l id='351' part='i'>Ta fortune en dépend.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='351' part='f'>Mais, mon oncle, l'honneur...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='352'>Eh oui, l'honneur ! mon Dieu ! j'ai l'honneur fort à coeur.</l>
+	<l id='353'>Faisons d'abord fortune, et puis je te proteste</l>
+	<l id='354'>Qu'à la suite du bien l'honneur viendra de reste.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='355'>Mais enfin vous savez jusqu'où va sa bonté ;</l>
+	<l id='356' part='i'>Il nous protège.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='356' part='f'>Bon, par pure vanité.</l>
+	<l id='357'>Il est jaloux de toi dans le fond de son âme.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='358' part='i'>Vous croyez ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='358' part='f'>Il voit bien que tu plais à madame.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='359'>Je ne me croyais pas, ma foi, si dangereux.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='360'>Tu l'es. Adieu, te dis-je, et fais ce que je veux.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Nicodon, Laure.</head>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='361'>Oh çà, mon cher enfant, à quand le mariage ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='362' part='i'>Avec qui ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='362' part='f'>Comment donc, votre coeur tendre et sage</l>
+	<l id='363'>N'est pas tout résolu de me donner sa foi,</l>
+	<l id='364'>Avec un bon contrat qui vous soumette à moi ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='365'>Et sur quoi fondez-vous cette plaisante idée ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='366'>Sur l'aveu dont cent fois vous m'avez excédée,</l>
+	<l id='367'>Sur l'amour, sur l'honneur qui vous tient engagé !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='368'>Oh ! Tout cela, ma mie, est, ma foi, bien changé</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='369' part='i'>Bien changé ! comment donc ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='369' part='f'>Oui, c'est tout autre chose.</l>
+	<l id='370'>Lorsqu'au jour du grand monde un jeune homme s'expose,</l>
+	<l id='371'>Il faut, pour débuter, aimer quelque beauté</l>
+	<l id='372'>Un peu sur le retour, riche, et de qualité.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='373' part='i'>Seriez-vous à l'instant devenu fou !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='373' part='f'>La belle,</l>
+	<l id='374'>Quelquefois, par hasard, perdez-vous la cervelle ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='375'>Apprenti petit-maître, oubliez-vous souvent</l>
+	<l id='376'>Vos serments, votre honneur, et votre engagement ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='377'>Allez, allez, j'ai bien une autre idée en tête.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='378'>Vous ne m'aimez donc plus ? Je ne sais qui m'arrête</l>
+	<l id='379'>Que deux larges soufflets, avec cinq doigts marqués,</l>
+	<l id='380'>Ne soient sur ton beau teint d'un bras ferme appliqués</l>
+<stage>À son geste, Nicodon effrayé s'enfuit.</stage>
+	<l id='381'>Allons, je vais trouver son chien d'oncle, et lui dire</l>
+	<l id='382'>Ce qu'un dépit très juste en pareil cas inspire.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Laure, Zoïlin.</head>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='383'>Votre neveu, monsieur, en un mot, est un fat.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='384' part='i'>Je le crois.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='384' part='m'>Un méchant.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='384' part='m'>Pourquoi non ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='384' part='f'>Un ingrat,</l>
+	<l id='385'>Un effronté. Comment ! sans honte il m'ose dire</l>
+	<l id='386'>Qu'à mon coeur, à ma main, il est faux qu'il aspire,</l>
+	<l id='387'>Qu'à tâter de l'hymen il n'avait point songé !</l>
+	<l id='388'>À peine encore amant, me donner mon congé !</l>
+	<l id='389'>Pourquoi m'amusiez-vous par ces vaines sornettes ?</l>
+	<l id='390'>Écoutez c'est un traître, ou bien c'est vous qui l'êtes ;</l>
+	<l id='391'>Le fait est net et clair. Prenez votre parti ;</l>
+	<l id='392'>Ou votre neveu ment, ou vous avez menti.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='393'>Ce n'est ni l'un ni l'autre. Écoutez-moi, la belle :</l>
+	<l id='394'>Je ne garantis pas qu'il vous soit bien fidèle,</l>
+	<l id='395'>Mais je vous garantis que vous seriez à lui,</l>
+	<l id='396'>Que je vous marierais, et peut-être aujourd'hui,</l>
+	<l id='397' part='i'>Si...</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='397' part='m'>Si... quoi ? qui l'empêche ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='397' part='f'>Ariston, qui s'oppose</l>
+	<l id='398'>A tout ce que l'on veut, et qui de vous dispose.</l>
+	<l id='399' part='i'>Ariston ne veut pas qu'on vous épouse.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='399' part='f'>Ô ciel !</l>
+	<l id='400' part='i'>Ne vouloir pas qu'on m'aime !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='400' part='f'>Oui, le trait est cruel.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='401' part='i'>Ne pas permettre que...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, d'un ton railleur.</speaker>
+	<l id='401' part='f'>Non, il ne peut permettre</l>
+	<l id='402'>Que dans vos bras charmants mon neveu s'aille mettre.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='403'>Le traître ! Et que dit-il, monsieur, pour sa raison ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='404'>Des raisons ! Bon, ma fille, il me parle d'un ton...</l>
+	<l id='405'>Il dit de vous hier... il faisait une histoire...</l>
+	<l id='406'>Un conte à faire rire, et que je ne peux croire.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='407' part='i'>Voyons, que disait-il ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='407' part='f'>Eh mais, vous jugez bien</l>
+	<l id='408'>Ce que disent les gens quand ils ne savent rien.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='409' part='i'>Encore ?...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='409' part='m'>Il nous faisait des contes.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='409' part='f'>Je défie</l>
+	<l id='410'>Tous vos plaisants conteurs avec leur calomnie.</l>
+	<l id='411'>Ne vous parlait-il point de ce jeune commis</l>
+	<l id='412'>Qui fut, à mon insu, dans mon armoire admis,</l>
+	<l id='413'>Qu'on rencontra deux fois dans cette allée obscure ?</l>
+	<l id='414'>J'ai fait tirer au clair cette belle aventure ;</l>
+	<l id='415' part='i'>J'en suis très nette.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='415' part='f'>Et puis, il nous disait vraiment</l>
+	<l id='416' part='i'>Bien autre chose encor.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='416' part='f'>Je sais ; apparemment</l>
+	<l id='417'>Il voulait vous parler d'un étourdi de page...</l>
+	<l id='418'>Il est vraiment aimable, et fort grand pour son âge ;</l>
+	<l id='419'>Mais nous ne croyons rien... Ah ! n'est-ce pas aussi</l>
+	<l id='420'>Ce petit écuyer, cet amoureux transi... ?</l>
+	<l id='421'>Attendez, m'y voilà : c'est le neveu d'Hortense.</l>
+	<l id='422'>Ah ! je puis hautement braver la médisance.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='423'>Çà, vous voyez mon coeur et ma naïveté ;</l>
+	<l id='424'>Tout ce qu'on dit de vous, je vous l'ai rapporté.</l>
+	<l id='425'>Votre tour est venu : c'est à vous de m'apprendre</l>
+	<l id='426'>Tout ce que sur mon compte on vous a fait entendre.</l>
+	<l id='427'>Parlez, que pense-t-on de moi dans la maison ?</l>
+	<l id='428'>Expliquez-vous nûment, sans détour, sans façon.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='429'>Volontiers : aujourd'hui, trois ou quatre personnes</l>
+	<l id='430'>Vous drapaient joliment ; qu'ils en disaient de bonnes !</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='431' part='i'>Comment ? Sachons un peu...</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='431' part='f'>D'abord certain Damis</l>
+	<l id='432'>Assurait que jamais vous n'aviez eu d'amis.</l>
+	<l id='433'>Hélas ! s'il disait vrai que vous seriez à plaindre !</l>
+	<l id='434'>Il ajoutait encor qu'il faut toujours vous craindre.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='435' part='i'>C'est peu de chose.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='435' part='f'>Eh oui ; mais monsieur Lisimon</l>
+	<l id='436'>Vous tranchait hardiment certain mot de fripon.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='437' part='i'>Bagatelle. Est-ce tout ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='437' part='f'>Non. Un certain Henrique</l>
+	<l id='438'>Disait que vous n'étiez qu'un pédant satirique,</l>
+<note type="L">Vergogne : Vieux mot qui signifie honte, et qui ne s'employe plus que dans le burlesque. [F]</note>
+	<l id='439'>Un menteur sans vergogne, un fourbe, un plat auteur,</l>
+	<l id='440'>Jaloux de tout succès jusques à la fureur ;</l>
+	<l id='441'>Haï des gens de bien, des beaux-esprits, des belles</l>
+<note type="L">Libelle : Ecrit qui contient des injures, des reproches, des accusations contre l'honneur et la réputation de quelqu'un. [F]</note>
+	<l id='442'>Il barbouillait par an trente mauvais libelles,</l>
+	<l id='443' part='i'>Si grossiers, disait-il, si sots... </l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='443' part='f'>Ce dernier trait</l>
+	<l id='444'>Me blesse, je l'avoue, et j'en suis stupéfait.</l>
+	<l id='445'>Que sur mes goûts, mes moeurs, mon coeur et ma personne,</l>
+<note type="L">Gloser : Signifie aussi commenter. Signifie encore Ajouter quelque cose à une histoire qu'on raconte. [F]</note>
+	<l id='446'>On glose librement, tout cela se pardonne ;</l>
+	<l id='447'>Mais dénigrer mon style, attaquer mon esprit !</l>
+	<l id='448'>Oh ! Parbleu, c'en est trop ; j'en crève de dépit.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='449'>Attendez : Libermont, qui très peu vous honore,</l>
+	<l id='450'>En ricanant beaucoup, nous ajoutait encore</l>
+	<l id='451' part='i'>Qu'en un certain enclos...</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, l'interrompant brusquement.</speaker>
+	<l id='451' part='f'>Il suffit, mon enfant ;</l>
+	<l id='452'>C'est assez m'éclairer ; je suis plus que content.</l>
+	<l id='453'>Mais à tous ces discours que répondait Hortense ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='454'>Hortense ? Elle lisait, en gardant le silence.</l>
+	<l id='455' part='i'>Elle hait ces propos.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='455' part='f'>Et monsieur Ariston ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='456'>Il n'a pas seulement prononcé votre nom.</l>
+	<l id='457'>Mais peut-être il vous hait, et de plus vous méprise.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='458' part='i'>Me mépriser ! pourquoi ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='458' part='f'>Ne faut-il pas qu'il dise</l>
+	<l id='459'>Beaucoup de mal de vous, puisqu'il en dit de moi ?</l>
+	<l id='460'>S'opposer à ma noce ? ah ! si je le revoi,</l>
+	<l id='461'>Je vous le traiterai de la bonne manière.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='462' part='i'>Modérez-vous.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='462' part='f'>Non, non ! je saurai la première</l>
+	<l id='463'>Ici le démasquer ; et je veux aujourd'hui</l>
+	<l id='464'>Lui prouver tous ses torts, et me venger de lui.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Hortense, Laure, Zoïlin.</head>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='465'>Mon Dieu ! que tout ceci me surprend et m'afflige !</l>
+	<l id='466'>Que l'on cherche Ariston ; courez partout, vous dis-je.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='467' part='i'>Madame...</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='467' part='f'>Absolument je veux l'entretenir.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='468'>Non, madame, jamais il n'osera venir.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='469'>Ah ! que me dis-tu là ? Tu le croirais coupable !</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='470'>Sans doute, je le crois : de tout il est capable.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='471'>Il n'est point imprudent, il connaît son devoir.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='472'>Il a tous les défauts que l'on saurait avoir.</l>
+	<l id='473'>Je lui dirai son fait vertement, je vous jure.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='474'>Ariston m'exposer à pareille aventure !</l>
+	<l id='475'>Lui, mon intime ami ! non, je n'y conçois rien :</l>
+	<l id='476'>Il est trop raisonnable, et trop homme de bien.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='477' part='i'>Il ne l'est point du tout.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Zoïlin.</speaker>
+	<l id='477' part='f'>Mais vous pourriez m'instruire</l>
+	<l id='478'>Mieux qu'un autre, monsieur, de ce que j'entends dire.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='479' part='i'>Moi ?</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='479' part='f'>Vous. Votre neveu perd-il le sens commun ?</l>
+	<l id='480'>Que prétend donc de moi ce petit importun,</l>
+	<l id='481'>En me suivant partout, en me faisant cortège,</l>
+	<l id='482'>Cent fois m'affadissant de phrases de collège ?</l>
+	<l id='483'>Il me soutient à moi qu'il a vu, lu, tenu,</l>
+	<l id='484'>Un billet de ma main qu'Ariston a reçu.</l>
+	<l id='485'>Enfin, si je l'en crois, mes lettres sont publiques.</l>
+	<l id='486'>Et je serai bientôt l'entretien des critiques.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='487'>Si ce n'est que cela, calmez votre douleur ;</l>
+	<l id='488'>Ce petit accident vous fera grand honneur.</l>
+	<l id='489'>De vos moindres billets la grâce naturelle</l>
+	<l id='490'>Du style épistolaire est un charmant modèle.</l>
+	<l id='491'>Les femmes, j'en conviens, entendent mieux que nous</l>
+	<l id='492'>Cet art si délicat, si naïf et si doux.</l>
+	<l id='493'>Leur coeur avec esprit sait peindre leurs pensées,</l>
+	<l id='494'>Des mains de la nature ingénument tracées ;</l>
+	<l id='495'>Les hommes ont toujours trop d'art dans leurs écrits,</l>
+	<l id='496'>J'aime mieux Sévigné que trente beaux-esprits.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='497'>De ce flatteur encens je ne suis point la dupe.</l>
+	<l id='498'>Quelques lettres sans fard, où mon esprit s'occupe,</l>
+	<l id='499'>Sont pour Ariston seul, et non pour d'autres yeux.</l>
+	<l id='500'>Je hais un vain éclat, je crains les curieux.</l>
+	<l id='501'>Oui, de quelque haut rang que l'on soit décorée,</l>
+	<l id='502'>La plus heureuse femme est la plus ignorée.</l>
+	<l id='503'>Je sais bien que ma main jamais n'a pu tracer</l>
+	<l id='504'>Un billet dont personne eût lieu de s'offenser,</l>
+	<l id='505'>Et que jamais mon coeur ne conçut de pensée</l>
+	<l id='506'>Dont ma gloire un instant dût se sentir blessée ;</l>
+	<l id='507'>Mais je sais trop aussi que le public malin</l>
+	<l id='508'>Sur les femmes se plaît à jeter son venin.</l>
+	<l id='509'>Quoi qu'il en soit, monsieur, d'une telle imprudence,</l>
+	<l id='510'>J'en vois avec douleur toute la conséquence ;</l>
+	<l id='511'>Et surtout je ressens un très juste courroux</l>
+	<l id='512'>De voir qu'un jeune fat, aux yeux de mon époux,</l>
+	<l id='513'>Sans égard au bon sens, s'en vienne à ma toilette</l>
+	<l id='514'>De ce bruit dangereux débiter la gazette.</l>
+	<l id='515'>Auprès de nous admis par les soins d'Ariston,</l>
+	<l id='516'>Vous démêlez assez l'air de notre maison ;</l>
+	<l id='517'>Vous connaissez Cléon, et sa délicatesse ;</l>
+	<l id='518'>Votre air mystérieux le surprend et le blesse.</l>
+	<l id='519'>Il fallait lui parler. Je n'en dirai pas plus ;</l>
+	<l id='520'>Vous aimez Ariston : réglez-vous là-dessus.</l>
+	<l id='521'>Quelquefois un seul mot, dit par un homme sage,</l>
+	<l id='522'>Porte avec soi la paix, et détourne l'orage.</l>
+	<l id='523'>L'oncle réparera la faute du neveu :</l>
+	<l id='524'>Il le peut, il le doit, j'ose y compter ; adieu.</l>
+<stage>Elle sort.</stage>
+</sp>
+<sp who='LAURE'><speaker>LAURE, à Zoïlin.</speaker>
+	<l id='525'>En grondant le neveu, songez bien, je vous prie,</l>
+	<l id='526'>Que sans perdre de temps il faut qu'il se marie.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='527'>Je suis embarrassé, je serai découvert ;</l>
+	<l id='528'>Ariston saura tout ; s'il paraît, il me perd...</l>
+	<l id='529'>Quel que soit le danger, il faut que je m'en tire.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Laure, Nicodon.</head>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='530'>Ah ! voici mon ingrat, il se trouble, il soupire.</l>
+	<l id='531' part='i'>Sentirait-il son tort ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, d'un air confus et embarrassé.</speaker>
+	<l id='531' part='f'>Il est vrai, cette fois</l>
+	<l id='532'>Je fus un grand benêt, et je m'en aperçois.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='533'>Dis que tu l'es, mon cher, et la chose est plus sûre.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='534'>Hélas ! comme dans moi palissait la nature !</l>
+	<l id='535'>Quel maudit embarras ! quel excès de tourment !</l>
+	<l id='536'>Et qu'il m'en a coûté pour être impertinent !</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='537'>Très peu... Mais qu'as-tu donc qui gêne ainsi ton âme ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='538'>J'ai... que je n'aimerai jamais de grande dame.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='539'>Vraiment, je le crois bien. C'est moi seule en effet</l>
+	<l id='540'>Qu'il te convient d'aimer : c'est moi qui suis ton fait.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, à part.</speaker>
+	<l id='541'>Hélas ! Elle a raison, car elle est jeune et belle,</l>
+	<l id='542'>Elle est à mon niveau, je suis libre avec elle ;</l>
+	<l id='543'>L'autre force au respect par son air imposant,</l>
+	<l id='544'>Et me fait d'un coup d'oeil rentrer dans mon néant.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='545' part='i'>Traître, quelle est cette autre ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='545' part='f'>Eh ! C'est madame Hortense.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='546'>Miséricorde ! Quoi ! Vous auriez l'impudence,</l>
+	<l id='547'>En abusant ici des bontés de Cléon,</l>
+	<l id='548' part='i'>D'oser aimer sa femme ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='548' part='f'>Aimer madame ! Oh non ;</l>
+	<l id='549'>Je n'ai pu, je l'avoue, assez me méconnaître</l>
+	<l id='550'>Pour en être amoureux ; seulement j'ai cru l'être.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='551'>Innocent ! qui vous a de la sorte entêté ?</l>
+	<l id='552' part='i'>D'où vous vient cette erreur ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='552' part='f'>D'où ? de la vanité.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='553' part='i'>Vraiment, c'est bien à vous d'être vain !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='553' part='f'>Non, non, Laure.</l>
+	<l id='554'>Je me garderai bien d'y retomber encore.</l>
+	<l id='555'>Ah ! si vous m'aviez vu, je me sentais si sot !</l>
+	<l id='556'>Je cherchais à parler sans pouvoir dire un mot ;</l>
+	<l id='557'>J'ouvrais la bouche à peine, et dans ma lourde extase</l>
+	<l id='558'>Je bégayais tout bas, en cherchant une phrase.</l>
+	<l id='559'>Quand sur moi de madame un regard s'échappait,</l>
+	<l id='560'>C'était comme un éclair qui soudain me frappait ;</l>
+	<l id='561'>J'étais plus mort que vif, j'étais cent pieds sous terre ;</l>
+	<l id='562'>On raillait ma figure, on me faisait la guerre ;</l>
+	<l id='563'>Un page et des valets, voyant mon embarras,</l>
+	<l id='564'>Pour rire à mes dépens ne se contraignaient pas ;</l>
+<note type="L">Etrivière : Courroie de cuir, par laquelle les étriers sont suspendus. Donner les étrivières, c'est châtier des valets de livrée, les fouetter avec les étrivières. [F]</note>
+	<l id='565'>Enfin, j'aurais voulu que cent coups d'étrivière</l>
+	<l id='566'>M'eussent chassé de là, pour me tirer d'affaire...</l>
+	<l id='567' part='i'>Ce n'est pas tout encore.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='567' part='f'>Oh ! qu'avez-vous donc fait ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='568'>Ces lettres d'Ariston font un méchant effet.</l>
+	<l id='569'>Je crois que là-dessus il est quelque mystère.</l>
+	<l id='570'>Madame en a pleuré, monsieur est en colère ;</l>
+	<l id='571'>Il gronde entre ses dents, dit qu'il se vengera,</l>
+	<l id='572' part='i'>Que bientôt...</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='572' part='f'>Et c'est vous qui causez tout cela ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='573'>Oui, très innocemment. Mon oncle me console,</l>
+	<l id='574'>Dit que c'est pour un bien il m'a donné parole</l>
+	<l id='575'>Qu'en abandonnant tout à sa discrétion,</l>
+	<l id='576'>Il obtiendrait bientôt le poste d'Ariston,</l>
+	<l id='577'>Et que du même instant ma fortune était faite.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='578' part='i'>Et la mienne avec vous ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='578' part='f'>Vraiment je le souhaite.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='579'>Il est juste, après tout, qu'Ariston soit puni</l>
+	<l id='580'>Du mal que ses conseils nous auraient fait ici.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='581' part='i'>Quel mal ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='581' part='f'>Mon cher enfant, il faut que je vous donne</l>
+	<l id='582'>Un conseil plus sensé : ne croyez plus personne,</l>
+	<l id='583'>Défiez-vous de tout, ne vous mêlez de rien,</l>
+	<l id='584'>Aimez-moi tendrement, et le reste ira bien.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='585'>Ah ! ce n'est plus qu'à vous que je prétendrai plaire.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='586'>Ce sera pour tous deux une très bonne affaire.</l>
+	<l id='587'>Pour vous conduire en tout avec discernement,</l>
+	<l id='588'>N'être point dans le monde un servile instrument</l>
+	<l id='589'>Avec quoi les fripons travailleraient pour nuire ;</l>
+	<l id='590'>Je veux prendre sur moi le soin de vous instruire :</l>
+	<l id='591' part='i'>Je vous dirai d'abord...</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='591' part='f'>Oui, vos sages avis,</l>
+	<l id='592'>Chaque jour avec zèle écoutés et suivis,</l>
+	<l id='593'>M'auront bientôt changé, grâce à votre science.</l>
+	<l id='594'>Déjà même à présent j'en fais l'expérience :</l>
+	<l id='595'>Mon esprit se dégage, et sans doute mon coeur</l>
+	<l id='596'>Profite encore mieux sous un tel précepteur.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='597'>Oui, c'est bien profiter que me fermer la bouche,</l>
+	<l id='598' part='i'>Lorsque pour votre bien...</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='598' part='f'>Tant de bonté me touche ;</l>
+	<l id='599' part='i'>L'attrait de vos leçons...</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='599' part='f'>Trêve de compliments ;</l>
+	<l id='600'>Au lieu de leur parler, laissez parler les gens.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='601' part='i'>Soit.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='601' part='f'>Ne présumez pas qu'en sortant du collège,</l>
+	<l id='602'>On ait de parler seul acquis le privilège,</l>
+	<l id='603'>Ni que ce soit toujours au beau pays latin</l>
+	<l id='604'>Qu'on puise un grand savoir, qu'on a l'esprit très fin :</l>
+	<l id='605'>On peut l'avoir très faux : c'est à son verbiage</l>
+	<l id='606'>Qu'on reconnaît d'abord un fâcheux personnage,</l>
+	<l id='607'>Qui se fait sottement mépriser ou haïr</l>
+	<l id='608'>De ceux dont les bontés ont daigné l'accueillir.</l>
+	<l id='609'>Faut-il vous répéter un conseil salutaire ?</l>
+	<l id='610'>Observez, écoutez, sachez longtemps vous taire.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='611'>C'est en vous écoutant que je veux être instruit.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='612' part='i'>Il y paraît !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='612' part='f'>Dans peu vous en verrez le fruit.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='613'>Vous le dites du moins, j'en accepte l'augure ;</l>
+	<l id='614'>Mais l'art ne peut toujours corriger la nature.</l>
+	<l id='615'>Votre oncle, par exemple, est vieux, et cependant</l>
+	<l id='616'>Est-il moins qu'autrefois orgueilleux et pédant ?</l>
+	<l id='617'>Jamais de ses défauts rien n'a pu le défaire.</l>
+	<l id='618'>S'il sait en imposer, et surtout au vulgaire,</l>
+	<l id='619'>C'est pure hypocrisie ; il faut, pour être heureux,</l>
+	<l id='620'>Se former sur des gens plus vrais, plus vertueux.</l>
+	<l id='621'>Si mon futur époux s'en rapporte à mon zèle,</l>
+	<l id='622'>Je peux lui proposer un excellent modèle,</l>
+	<l id='623' part='i'>L'opposé de votre oncle.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='623' part='m'>Et c'est... ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='623' part='f'>C'est Ariston.</l>
+	<l id='624'>Ah ! Si vous acquériez ses manières, son ton,</l>
+	<l id='625'>Dès lors jamais d'ennui, de froideur en ménage,</l>
+	<l id='626'>Et l'on vous aimerait chaque jour davantage.</l>
+	<l id='627'>En dépit du beau tour qu'il croyait nous jouer,</l>
+	<l id='628'>Cet homme, malgré lui, me force à le louer.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='629'>Il est vrai, près de lui... Mais j'aperçois Hortense.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='630' part='i'>Adieu, je cours la joindre.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, à part.</speaker>
+	<l id='630' part='f'>Évitons sa présence.</l>
+<stage>Il sort précipitamment.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Hortense, Laure.</head>
+<sp who='HORTENSE'><speaker>HORTENSE, sortant de son appartement.</speaker>
+	<l id='631'>Laure, il n'est plus pour moi de paix ni de bonheur,</l>
+	<l id='632'>Je ne peux soutenir l'excès de ma douleur.</l>
+	<l id='633' part='i'>Partons, fuyons ces lieux.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='633' part='f'>Eh ! qui peut donc, madame,</l>
+	<l id='634'>Troubler en ce moment le calme de votre âme ?</l>
+	<l id='635'>Rien ne semblait encor l'altérer ce matin.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='636'>Oui, chacun prenait part à notre heureux destin.</l>
+	<l id='637'>Ariston parmi nous répandait l'allégresse ;</l>
+	<l id='638'>De l'époux qui m'est cher l'amitié, la tendresse,</l>
+	<l id='639'>Partageaient nos beaux jours et remplissaient mon coeur ;</l>
+	<l id='640'>Sous nos yeux éclataient la joie et le bonheur.</l>
+	<l id='641'>Entourés des vertus, du travail, de l'aisance,</l>
+	<l id='642'>Et des accents si doux de la reconnaissance,</l>
+	<l id='643'>Au comble de nos voeux, quel démon en fureur</l>
+	<l id='644'>Jette ici tout à coup le désordre et l'horreur ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='645'>Des envieux peut-être, à l'ombre du mystère...</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='646'>Écoute : tu connais ce noble monastère</l>
+	<l id='647'>Où, délaissant le monde et ses plaisirs trompeurs,</l>
+	<l id='648'>D'un calme inaltérable on goûte les douceurs,</l>
+	<l id='649'>Loin de la calomnie et de la médisance ;</l>
+	<l id='650'>Eh bien ! j'ai résolu, connaissant ta constance,</l>
+	<l id='651'>D'aller en cet asile, avec toi seulement,</l>
+	<l id='652'>Cacher à tous les yeux ma honte et mon tourment.</l>
+	<l id='653'>Je n'ai point d'autre espoir : échappée au naufrage,</l>
+	<l id='654'>Dans ce port tutélaire, à l'abri de l'orage,</l>
+	<l id='655'>Sans regrets, sans remords, j'irai vivre et mourir.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='656'>Mais, madame, avant tout ne peut-on découvrir</l>
+	<l id='657'>Quels sont les ennemis dont la soudaine rage</l>
+	<l id='658'>Avec tant d'injustice aujourd'hui nous outrage ?</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='659'>Du jour les malfaiteurs redoutent la clarté,</l>
+	<l id='660'>Et c'est dans le silence et dans l'obscurité</l>
+	<l id='661'>Qu'ils forgent sans danger leurs armes criminelles,</l>
+	<l id='662'>Inventent des noirceurs, composent des libelles.</l>
+	<l id='663'>Semés adroitement ; ces écrits imposteurs</l>
+	<l id='664'>Égarent le public au gré de leurs auteurs,</l>
+	<l id='665'>Et trop souvent, hélas ! timide et sans défense,</l>
+	<l id='666'>Sous d'invincibles traits succombe l'innocence.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='667'>Quelque vil scélérat, excité contre vous,</l>
+	<l id='668'>Avec un art perfide abusant votre époux,</l>
+	<l id='669'>Aurait-il réveillé sa triste jalousie ?</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='670'>Hélas ! ce seul défaut empoisonne sa vie.</l>
+	<l id='671'>Mais ce défaut enfin, grâce à mes heureux soins,</l>
+	<l id='672'>S'il n'était pas détruit, s'était caché du moins.</l>
+	<l id='673'>Du sincère Ariston l'esprit doux, sympathique,</l>
+	<l id='674'>Cimentait chaque jour notre paix domestique.</l>
+	<l id='675'>Cette paix est rompue, et le sort ennemi</l>
+	<l id='676'>Vient m'ôter à la fois mon époux, mon ami,</l>
+	<l id='677'>Mon repos, mon bonheur, et ma gloire peut-être !</l>
+	<l id='678'>C'en est fait, je ne peux, je ne veux plus paraître ;</l>
+	<l id='679' part='i'>Je mourrai de douleur.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='679' part='f'>Mais c'est mourir vraiment</l>
+	<l id='680'>Que d'aller s'enterrer dans le fond d'un couvent.</l>
+	<l id='681'>Il faudra vous y suivre, et j'en suis fort fâchée.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='682'>Que des hommes, bon Dieu ! l'âme est fausse et cachée !</l>
+	<l id='683'>Aurais-tu pu penser que mon affection,</l>
+	<l id='684'>Que mes calamités me viendraient d'Ariston ?</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='685'>Oui, je vous l'avais dit, et vous deviez l'entendre.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='686'>Non, cet événement ne saurait se comprendre.</l>
+	<l id='687'>Honneur, raison, devoir, est-ce donc vainement</l>
+	<l id='688'>Que mon coeur vous aima ? qu'il suivit constamment</l>
+	<l id='689'>Vos lois, celles du monde, et de la bienséance ?</l>
+	<l id='690'>Nos vertus, je le vois, sont en notre puissance ;</l>
+	<l id='691'>Notre félicité ne dépend pas de nous.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='692'>Laissez ; je vais parler à monsieur votre époux.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='693'>Non, non, gardez-vous bien d'irriter sa colère.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='694'>Dites-moi, s'il vous plaît, ce qu'il convient de faire.</l>
+	<l id='695'>Ce maudit Ariston pourrait tout éclaircir ;</l>
+	<l id='696' part='i'>Vous le cherchiez.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='696' part='f'>Qui, moi ? ce serait me noircir.</l>
+	<l id='697'>J'ai promis à Cléon d'éviter sa présence.</l>
+	<l id='698'>La vertu seule nuit, il en faut l'apparence.</l>
+	<l id='699'>Les soupçons d'un époux manquaient à mon tourment !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Hortense, Clitandre, Laure.</head>
+<sp who='ARISTON'><speaker>ARISTON, à Hortense.</speaker>
+	<l id='700'>Vous me voyez saisi d'un juste étonnement ;</l>
+	<l id='701'>Chez votre époux, madame, empressé de me rendre,</l>
+	<l id='702'>Je venais vous prier d'y présenter Clitandre.</l>
+	<l id='703'>On m'annonce un refus, on me dit que Cléon</l>
+	<l id='704'>Me défend pour toujours l'accès de sa maison.</l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='705'>Cléon, et vous, et moi, je vous le dis sans feindre,</l>
+	<l id='706'>Plus que vous ne pensez nous sommes tous à plaindre.</l>
+	<l id='707'>Vous devez par raison, surtout par probité,</l>
+	<l id='708'>Rompre avec moi, monsieur, toute société.</l>
+	<l id='709'>Gardez-vous de venir chez Cléon davantage ;</l>
+	<l id='710'>Évitez tout éclat, dans un silence sage.</l>
+	<l id='711'>À ces tristes conseils prompt à vous conformer,</l>
+	<l id='712'>Fuyez-moi, plaignez-moi, mais sachez m'estimer.</l>
+<stage>Elle sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Ariston, Clitandre, Laure.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='713'>Je suis confus pour vous d'une telle incartade.</l>
+	<l id='714'>Quelle réception ! quelle étrange boutade !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='715'>Je suis épouvanté, saisi, pétrifié.</l>
+<stage>À Laure, qui sortait, et qu'il arrête.</stage>
+	<l id='716'>Ma belle enfant, parlez, dites-moi, par pitié,</l>
+	<l id='717'>Quel crime j'ai commis, ce que cela veut dire,</l>
+<stage>Elle veut sortir.</stage>
+	<l id='718'>Ce que j'ai fait. Un mot... arrêtez !... Quel délire</l>
+	<l id='719'>Semble être répandu sur toute la maison !</l>
+	<l id='720' part='i'>De grâce, instruisez-moi.</l>
+</sp>
+<sp who='LAURE'><speaker>LAURE.</speaker>
+	<l id='720' part='f'>Vous êtes un fripon.</l>
+	<l id='721'>Il vous appartient bien de critiquer ma vie,</l>
+	<l id='722'>De vouloir empêcher que l'on ne me marie !</l>
+	<l id='723'>Ah ! je me marierai, je vous braverai tous,</l>
+	<l id='724'>Et je ferai très bien mes affaires sans vous.</l>
+<stage>Elle sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Ariston, Clitandre.</head>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='725'>Elle est folle. On ne peut comprendre ce langage.</l>
+	<l id='726'>Que veut-elle nous dire avec son mariage ?</l>
+	<l id='727'>Quelle sottise étrange, et quel galimatias !</l>
+	<l id='728' part='i'>Hortense est en courroux...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='728' part='f'>Cela ne s'entend pas.</l>
+	<l id='729'>Serait-ce une gageure, ou bien quelque méprise ?</l>
+	<l id='730'>Car, enfin, de tout temps Cléon vous favorise ;</l>
+	<l id='731'>On sait qu'Hortense et lui dans vous avaient trouvé</l>
+	<l id='732'>Un ami tendre et sûr, et d'un zèle éprouvé.</l>
+	<l id='733'>Quel ennemi secret, quelles sourdes menées</l>
+	<l id='734'>Corrompraient en un jour le fruit de tant d'années ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='735'>Je m'examine à fond : j'ai beau tourner, fouiller,</l>
+	<l id='736'>C'est une énigme obscure à ne pas débrouiller.</l>
+	<l id='737'>Je tâcherai pourtant d'en percer les mystères.</l>
+	<l id='738'>Ah ! S'ils étaient tous deux des amis ordinaires,</l>
+	<l id='739'>Je pourrais justement, piqué de leur humeur,</l>
+	<l id='740'>A leur caprice indigne opposer la froideur.</l>
+	<l id='741'>Tranquille, et renfermé dans ma pure innocence,</l>
+	<l id='742'>Je laisserais leurs coeurs à leur propre inconstance.</l>
+	<l id='743'>Mais Hortense et Cléon m'ont cent fois protégé ;</l>
+	<l id='744'>De leurs nouveaux bienfaits je suis encor chargé.</l>
+	<l id='745'>Ils ont toujours des droits à ma reconnaissance ;</l>
+	<l id='746'>Le souvenir du bien l'emporte sur l'offense.</l>
+	<l id='747'>C'est à moi d'adoucir leur injuste courroux :</l>
+	<l id='748'>Oui, je vais de ce pas embrasser leurs genoux.</l>
+	<l id='749'>L'amour-propre se tait : j'écoute la tendresse.</l>
+	<l id='750'>Ami, quand le coeur parle, il n'est pas de bassesse.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Ariston, Clitandre.</head>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='751'>Ma disgrâce est complète autant qu'elle fut prompte.</l>
+	<l id='752'>Tout mon coeur est flétri de douleur et de honte ;</l>
+	<l id='753'>Et je rougis surtout que ma crédulité</l>
+	<l id='754'>Vous ait de cet emploi si faussement flatté.</l>
+	<l id='755'>Je n'avais accepté cette charge honorable</l>
+	<l id='756'>Que pour en revêtir un ami véritable.</l>
+	<l id='757'>Hélas ! de mon crédit j'étais trop prévenu.</l>
+	<l id='758'>A cet honneur trop haut malgré moi parvenu,</l>
+	<l id='759'>Soudain on me l'arrache, on m'outrage, et j'ignore</l>
+	<l id='760'>Quel est l'heureux mortel que le prince en honore.</l>
+	<l id='761'>Ami, ce n'est pas moi, c'est vous qu'on a perdu.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='762'>Je reconnais en tout votre aimable vertu ;</l>
+	<l id='763'>Ariston, vous savez qu'à vous seul attachée,</l>
+	<l id='764'>Des honneurs et du bien mon âme est peu touchée.</l>
+	<l id='765'>Rien ne m'afflige ici que votre seul chagrin.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='766'>De ce coup imprévu quelle est la cause ? En vain</l>
+	<l id='767'>Je veux la pénétrer ; je m'y perds quand j'y pense.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='768'>Ne vous rebutez point. Voyez Cléon, Hortense.</l>
+	<l id='769'>Songez qu'en s'expliquant on réussit bien mieux.</l>
+	<l id='770'>Croyez qu'un honnête homme a toujours dans les yeux</l>
+	<l id='771'>Un secret ascendant dont le pouvoir impose ;</l>
+	<l id='772'>Un air de vérité sur ses lèvres repose ;</l>
+	<l id='773'>Son coeur est sur sa bouche, et jusque dans son ton</l>
+	<l id='774'>Il a je ne sais quoi que n'a point un fripon.</l>
+	<l id='775'>En un mot, voyez-les ; leurs caprices frivoles</l>
+	<l id='776'>Disparaîtront sans doute à vos seules paroles.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='777'>Pour les revoir tous deux, j'ai tout fait, tout tenté ;</l>
+	<l id='778'>L'humiliation ne m'a point rebuté ;</l>
+	<l id='779'>De deux refus cruels j'ai dévoré l'outrage ;</l>
+	<l id='780'>Cléon s'est détourné quand j'étais au passage ;</l>
+	<l id='781'>Enfin, de deux billets j'ai hasardé l'envoi :</l>
+	<l id='782'>Je pleurais, je l'avoue, en écrivant. Je voi</l>
+	<l id='783'>Que l'on a repoussé ma démarche importune.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='784'>Que disent-ils au moins ? quelle réponse ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='785' part='i'>Aucune.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='785' part='f'>Il faut vous l'avouer, cette obstination</l>
+	<l id='786'>Jette au fond de mon coeur un étrange soupçon :</l>
+	<l id='787'>J'entrevois contre vous quelque orage sinistre.</l>
+	<l id='788'>Tout à l'heure on disait que contre un grand ministre</l>
+	<l id='789'>Il courait dans la ville un mémoire imposteur,</l>
+	<l id='790'>Écrit très offensant dont on vous fait auteur.</l>
+	<l id='791'>J'ai d'abord regardé cette absurde nouvelle</l>
+	<l id='792'>Comme un fruit avorté d'une folle cervelle,</l>
+	<l id='793'>Comme un discours en l'air des oisifs de Paris ;</l>
+	<l id='794'>Mais ce discours commence à frapper mes esprits :</l>
+	<l id='795'>La chose est sérieuse, on ourdit votre perte,</l>
+	<l id='796'>Et je vois que la haine acharnée et couverte</l>
+	<l id='797'>De quelque scélérat, avec un art subtil,</l>
+	<l id='798'>D'une trame si noire aura tissu le fil.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='799'>Voyons quels ennemis j'aurai donc lieu de craindre.</l>
+	<l id='800'>Je crois qu'on ne m'a vu médire, ni me plaindre,</l>
+	<l id='801'>Nuire, ni cabaler, ni des traits d'un bon mot</l>
+	<l id='802'>Blesser dans un souper l'amour-propre d'un sot.</l>
+	<l id='803'>Ma seule ambition était celle de plaire ;</l>
+	<l id='804'>La haine est pour mon coeur une chose étrangère.</l>
+	<l id='805'>Quoi ! je ne hais personne, et l'on peut me haïr !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='806'>Quoi qu'il en soit, on cherche à vous faire périr :</l>
+	<l id='807'>Moins vous le méritez, plus on veut vous détruire.</l>
+	<l id='808'>Ariston, faut-il donc être ennemi pour nuire ?</l>
+	<l id='809'>Ah ! c'est assez d'être homme. Un obscur envieux,</l>
+	<l id='810'>Dont l'éclat qui vous suit importune les yeux,</l>
+	<l id='811'>Sans qu'avec vous jamais il ait eu de querelle,</l>
+	<l id='812'>Sans intérêt présent, sans haine personnelle,</l>
+	<l id='813'>Osera bien souvent ce qu'un homme insulté</l>
+	<l id='814'>À peine en sa colère aurait exécuté.</l>
+	<l id='815'>Toujours la jalousie aux crimes aiguillonne ;</l>
+	<l id='816'>L'ennemi le plus fier avec le temps pardonne,</l>
+	<l id='817'>Mais le lâche envieux ne pardonne jamais.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='818'>Non, non ; sur moi l'envie aurait perdu ses traits.</l>
+	<l id='819'>Jaloux de moi ? comment ? de quoi pourrait-on l'être ?</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='820'>De ce goût que pour vous Hortense a fait paraître,</l>
+	<l id='821'>De votre emploi nouveau, de cent traits généreux,</l>
+	<l id='822'>De ce qu'on vous estime, et qu'on vous croit heureux.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='823'>Ah ! vous mettez le comble à ma douleur profonde !</l>
+	<l id='824'>La vie est un fardeau ; je vois que dans le monde</l>
+	<l id='825'>On est comme en un camp par des Turcs assiégé,</l>
+	<l id='826'>Toujours guetté, surpris, au point d'être égorgé ;</l>
+	<l id='827'>Qu'il faut prévoir sans cesse une embûche nouvelle,</l>
+	<l id='828'>Être armé jusqu'aux dents, et vivre en sentinelle.</l>
+	<l id='829'>Ô malheureux humains ! Un antre et des déserts</l>
+	<l id='830'>Seraient cent fois plus doux que ce monde pervers !</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE II. Ariston, Clitandre, Un Laquais.</head>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='831'>Venez, monsieur, venez ; cachez-vous au plus vite,</l>
+	<l id='832'>Changez d'habit, de train, gagnez un autre gîte.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='833' part='i'>Que veux-tu ?</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='833' part='m'>Que dis-tu ?</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS, à Ariston.</speaker>
+	<l id='833' part='f'>D'un pas délibéré</l>
+	<l id='834'>Esquivez-vous, vous dis-je ; ou vous êtes coffré.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='835' part='i'>Ô ciel !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='835' part='f'>Mes ennemis auraient-ils bien la rage... ?</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='836'>Vingt monstres bleus là-bas vous guettent au passage.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='837' part='i'>Quelle horreur !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='837' part='f'>Essayons si l'on peut vous cacher.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='838'>Non, mon ami, sans doute on a su l'empêcher.</l>
+	<l id='839'>Croyez qu'on y prend garde, et qu'une vaine fuite</l>
+	<l id='840'>Servirait seulement à noircir ma conduite.</l>
+	<l id='841'>Clitandre, je veux voir à quelle extrémité</l>
+	<l id='842'>Un homme vertueux sera persécuté.</l>
+	<l id='843'>Je connaîtrai du moins quel est mon caractère ;</l>
+	<l id='844'>Je n'étais point bouffi d'un sort assez prospère ;</l>
+	<l id='845'>Et puisque le bonheur ne m'avait point gâté,</l>
+	<l id='846'>Peut-être je saurai souffrir l'adversité.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='847'>Je ne vous quitte point ; il faut que je partage</l>
+	<l id='848'>Dans l'horreur des prisons le sort qui vous outrage.</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS, à part.</speaker>
+	<l id='849'>Voilà de sottes gens ! quelle démangeaison</l>
+	<l id='850'>Leur a pris à tous deux d'aller vivre en prison ?</l>
+<stage>Il sort.</stage>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='851'>Je ne le peux souffrir. Autrefois ma fortune</l>
+	<l id='852'>En me favorisant dut nous être commune :</l>
+	<l id='853'>Il faut que mon malheur soit pour moi tout entier.</l>
+	<l id='854'>Restez heureux au monde où l'on va m'oublier.</l>
+<stage>Il aperçoit Nicodon.</stage>
+	<l id='855' part='i'>Ah ! vous voici, jeune homme !</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Ariston, Clitandre, Nicodon.</head>
+<sp who='NICODON'><speaker>NICODON, balbutiant, et les yeux baissés.</speaker>
+	<l id='855' part='f'>Oui, monsieur, on m'ordonne</l>
+	<l id='856' part='i'>De vous donner... Je viens...</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='856' part='f'>Qu'est-ce qui vous étonne ?</l>
+	<l id='857'>De quoi rougissez-vous ? pourquoi baisser les yeux ?</l>
+	<l id='858'>N'osez-vous voir en face un homme malheureux ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='859'>C'est que l'on m'a, monsieur, chargé de la réponse</l>
+	<l id='860' part='i'>De monseigneur Cléon.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='860' part='f'>Voyons ce qu'elle annonce.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, donnant la lettre.</speaker>
+	<l id='861' part='i'>Pardon, monsieur.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON lit.</speaker>
+	<l id='861' part='f'>« ... Rien ne pourra me désarmer ;</l>
+	<l id='862'>Et mon coeur sait haïr autant qu'il sait aimer. »</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='863'>Je reconnais son style en cet aveu sincère ;</l>
+	<l id='864'>Il ne déguise rien, tel est son caractère.</l>
+	<l id='865'>Son coeur est inflexible autant que généreux ;</l>
+	<l id='866'>Juge intègre, ami vif, ennemi dangereux.</l>
+	<l id='867'>S'il est préoccupé, vous avez tout à craindre.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='868'>Je vois de tous côtés combien je suis à plaindre.</l>
+	<l id='869'>Un de mes grands chagrins c'est qu'étant opprimé,</l>
+	<l id='870'>Je ne pourrai plus rien pour ceux qui m'ont aimé.</l>
+	<l id='871'>Voyez-vous ce jeune homme ? Il m'aimait ; il m'inspire</l>
+	<l id='872'>Plus de compassion que je ne saurais dire.</l>
+	<l id='873'>Il est sans bien, sans père ; il ferait quelque effort</l>
+	<l id='874'>Pour percer dans le monde, et corriger le sort.</l>
+	<l id='875'>C'est un plaisir bien doux d'animer la culture</l>
+	<l id='876'>D'un champ qu'on croit fertile, et d'aider la nature ;</l>
+	<l id='877'>Je me fis un devoir de prendre soin de lui,</l>
+	<l id='878'>Je voulais lui servir et de père et d'appui ;</l>
+	<l id='879'>Nous lui gardions tous deux une assez bonne place</l>
+	<l id='880'>Dans cet emploi nouveau ravi par ma disgrâce.</l>
+	<l id='881'>Sur mes secours encore il a droit de compter,</l>
+	<l id='882'>C'est une juste dette, il la faut acquitter.</l>
+<stage>Il tire un portefeuille de sa poche.</stage>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+	<l id='883'>Faut-il qu'un tel mérite ait un sort si funeste !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à Clitandre.</speaker>
+	<l id='884'>Un seul instant, ami, peut-être ici me reste</l>
+	<l id='885'>Pour vivre encore en homme, et pour faire du bien.</l>
+	<l id='886'>En subissant mon sort, je veux pourvoir au sien.</l>
+<stage>À Nicodon.</stage>
+	<l id='887'>Approchez-vous, prenez ces billets sur la place ;</l>
+	<l id='888'>Daignez les accepter, et sans me rendre grâce :</l>
+	<l id='889'>C'est de l'argent comptant, il faut vous en servir</l>
+	<l id='890'>Pour un travail utile, et non pour le plaisir.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='891' part='i'>Ah, monsieur !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='891' part='f'>Achetez les livres nécessaires</l>
+	<l id='892'>Qui puissent de votre âme étendre les lumières.</l>
+	<l id='893'>Songez à vous instruire, et tâchez qu'à la fin</l>
+	<l id='894'>Votre propre vertu fasse votre destin.</l>
+	<l id='895'>Si vous voyez Cléon, si vous voyez Hortense,</l>
+	<l id='896'>Dites-leur, s'il vous plaît, que ma reconnaissance</l>
+	<l id='897'>Survivra dans mon coeur même à leur amitié.</l>
+	<l id='898'>Excepté leurs bienfaits, le reste est oublié.</l>
+	<l id='899' part='i'>Adieu ; mes compliments à votre oncle.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='899' part='f'>Ah ! Qu'entends-je ?</l>
+	<l id='900' part='i'>À mon oncle ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='900' part='m'>À lui-même.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='900' part='f'>Ah, Dieu ! Quel homme étrange !</l>
+<stage>Il se jette aux pieds d'Ariston.</stage>
+	<l id='901'>Monsieur... Mon protecteur... Vertueux Ariston !...</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, le relevant.</speaker>
+	<l id='902' part='i'>Eh bien ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='902' part='f'>Hélas ! À qui faites-vous un tel don ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='903' part='i'>À vous que j'aime.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, à part.</speaker>
+	<l id='903' part='f'>Ô ciel ! Qu'ai-je fait, misérable !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='904'>Mon fils, quelle douleur à mes yeux vous accable ?</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, présentant les billets.</speaker>
+	<l id='905' part='i'>Reprenez...</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE, à Ariston.</speaker>
+	<l id='905' part='f'>Son coeur parle, et sans nul intérêt</l>
+	<l id='906' part='i'>Il s'attendrit pour vous.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à Clitandre.</speaker>
+	<l id='906' part='f'>Et c'est ce qui me plaît :</l>
+	<l id='907'>D'un coeur noblement né c'est le vrai témoignage.</l>
+<stage>À Nicodon.</stage>
+	<l id='908'>Tenez, prenez encor ce diamant, ce gage</l>
+	<l id='909'>Du bien qu'avec raison je vous ai destiné.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON, en pleurs.</speaker>
+	<l id='910'>Hélas ! monsieur, je suis indigne d'être né.</l>
+	<l id='911'>Je vais... Je vais d'ici, la tête la première,</l>
+	<l id='912'>Me jeter, loin de vous, au fond de la rivière.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='913'>De sa naïveté mes sens sont pénétrés.</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='914' part='i'>Si vous saviez, monsieur...</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='914' part='f'>Pauvre enfant, vous pleurez !</l>
+</sp>
+<sp who='NICODON'><speaker>NICODON.</speaker>
+	<l id='915'>Je n'en peux plus, monsieur, il faut bien que je pleure ;</l>
+	<l id='916'>Je suis désespéré... Je m'en vais tout à l'heure...</l>
+	<l id='917'>Je vais... Reprenez tout, billets et diamant.</l>
+	<l id='918' part='i'>Je suis... Adieu, monsieur !</l>
+<stage>Il pose tout sur les bras d'Ariston, et s'enfuit.</stage>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='918' part='f'>Mais il est fou vraiment.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='919'>Pas si fou. Sa douleur, ce refus et ce trouble</l>
+	<l id='920'>Me donnent à penser, et mon soupçon redouble.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='921'>Point, point ; les jeunes gens sont tous compatissants,</l>
+	<l id='922'>Leur coeur est tout de feu : c'est le lot des beaux ans.</l>
+	<l id='923'>L'âge endurcit notre âme ; hélas ! l'indifférence</l>
+	<l id='924'>Est le premier effet de notre décadence.</l>
+</sp>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS, qui, en entrant, a entendu les dernières paroles d'Ariston.</speaker>
+	<l id='925'>Bon, bon, moralisez ; voici près de ce mur</l>
+	<l id='926'>Des coquins, vieux ou non, dont le coeur est plus dur.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Ariston, Clitandre, Un Exempt, Gardes, Le Laquais.</head>
+<sp who='L-EXEMPT'><speaker>L'EXEMPT.</speaker>
+	<l id='927'>Avec bien du regret, monsieur, je vous arrête.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='928'>Monsieur, à cet assaut ma constance était prête.</l>
+	<l id='929' part='i'>Allons.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE, embrassant Ariston.</speaker>
+	<l id='929' part='m'>Ah, mon ami !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='929' part='f'>Je pars, et j'obéis.</l>
+<stage>À l'exempt.</stage>
+	<l id='930'>Mais seulement, monsieur, me serait-il permis,</l>
+	<l id='931'>Sans déroger en rien à vos ordres sévères,</l>
+	<l id='932'>D'aller, pour un moment, mettre ordre à mes affaires,</l>
+	<l id='933'>Escorté de vos gens, avec vous, sous vos yeux ?</l>
+</sp>
+<sp who='L-EXEMPT'><speaker>L'EXEMPT.</speaker>
+	<l id='934'>Non, monsieur ; mon ordre est précis et rigoureux.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='935'>Si la pitié pouvait toucher un peu votre âme !</l>
+	<l id='936'>Je voudrais embrasser mes enfants et ma femme.</l>
+</sp>
+<sp who='L-EXEMPT'><speaker>L'EXEMPT.</speaker>
+	<l id='937' part='i'>Non, monsieur.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='937' part='f'>J'ai mon père au bord de son tombeau.</l>
+	<l id='938'>Hélas ! je suis trop sûr que ce malheur nouveau</l>
+	<l id='939'>Suffit pour l'accabler, va lui coûter la vie.</l>
+</sp>
+<sp who='L-EXEMPT'><speaker>L'EXEMPT.</speaker>
+	<l id='940' part='i'>Il faut marcher.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE, à l'exempt.</speaker>
+	<l id='940' part='f'>Au moins souffrez donc, je vous prie,</l>
+	<l id='941'>Que j'aille de ce pas instruire et consoler</l>
+	<l id='942'>Ses parents malheureux, si je puis leur parler ;</l>
+	<l id='943'>Et qu'en prison soudain je vienne me remettre</l>
+	<l id='944' part='i'>Auprès de mon ami.</l>
+</sp>
+<sp who='L-EXEMPT'><speaker>L'EXEMPT.</speaker>
+	<l id='944' part='f'>Je ne puis le permettre.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='945'>Avec quel front d'airain et quelle dureté</l>
+	<l id='946'>Ces indignes humains traitent l'humanité !</l>
+	<l id='947'>Quoi ! mon cher Ariston, de vos bras on m'entraîne !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='948'>L'inflexible Cléon m'avait promis sa haine :</l>
+	<l id='949'>Il me tient bien parole. Eh ! qui peut deviner</l>
+	<l id='950'>Où mon sort malheureux se pourra terminer ?</l>
+	<l id='951' part='i'>Adieu ! partons.</l>
+<stage>L'exempt et les gardes emmènent Ariston. Cléon paraît à leur rencontre.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Cléon, Ariston, Clitandre, L'Exempt, Gardes, dans le fond, laquais et diverses personnes de la suite de Cléon. </head>
+<sp who='CLÉON'><speaker>CLÉON, à l'exempt et aux gardes.</speaker>
+<stage>À Ariston.</stage>
+	<l id='951' part='f'>Cessez, arrêtez Ah ! de grâce,</l>
+	<l id='952'>Venez, cher Ariston, et que je vous embrasse.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='953' part='i'>Quoi, c'est Cléon !</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='953' part='m'>Qui, vous !</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='953' part='m'>Rêvé-je ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à Cléon.</speaker>
+	<l id='953' part='f'>Hélas ! monsieur,</l>
+	<l id='954'>Venez-vous insulter au comble du malheur ?</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='955'>Non, non : nul n'est ici malheureux que moi-même,</l>
+	<l id='956'>Moi, que l'on a trompé, qui reviens, qui vous aime ;</l>
+	<l id='957'>Moi, qui dans mon erreur ai pu vous outrager,</l>
+	<l id='958'>Qui de moi-même enfin demande à me venger.</l>
+	<l id='959'>Hélas ! je ne pourrai réparer de ma vie</l>
+	<l id='960'>Un trait si détestable et tant de calomnie.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à part.</speaker>
+	<l id='961'>Ô ciel ! que tout ceci me touche et me surprend !</l>
+<stage>À Cléon, avec attendrissement.</stage>
+	<l id='962' part='i'>Monsieur, qu'avez-vous fait ?</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='962' part='f'>Le crime le plus grand</l>
+	<l id='963'>Que pût se reprocher jamais un homme en place :</l>
+	<l id='964'>D'un homme vertueux j'ai causé la disgrâce,</l>
+	<l id='965'>Je l'ai persécuté. Dans l'erreur affermi,</l>
+	<l id='966'>J'ai fait bien plus encor, j'ai perdu mon ami.</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='967' part='i'>Pourquoi le perdiez-vous ?</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='967' part='f'>Désormais l'imposture</l>
+	<l id='968'>N'osera plus ternir une vertu si pure.</l>
+	<l id='969' part='i'>Tout est connu.</l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE, à Cléon.</speaker>
+	<l id='969' part='f'>Monsieur, de grâce, apprenez-nous...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Ariston, Cléon, Hortense, Clitandre, L'Exempt, Gardes dans le fond, suite de Cléon. </head>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='970'>Ariston, grâce au ciel, je viens, aux yeux de tous,</l>
+	<l id='971'>Montrer cette amitié, cette estime épurée</l>
+	<l id='972'>Que l'infâme imposture avait déshonorée.</l>
+	<l id='973'>Hélas ! pardonnez-vous à mon époux, à moi ?</l>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON.</speaker>
+	<l id='974'>Eh ! puis-je rien comprendre à tout ce que je voi ?</l>
+	<l id='975'>J'ignore absolument quel trouble vous anime,</l>
+	<l id='976'>Quelle était votre erreur, votre soupçon, mon crime,</l>
+	<l id='977'>D'où vient ce prompt retour et ce grand changement.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='978'>Vous allez de la chose être instruit pleinement ;</l>
+	<l id='979'>Et je vais faire voir aux yeux de l'innocence</l>
+	<l id='980'>Quel crime l'attaquait, et quelle est la vengeance.</l>
+	<l id='981'>Mettez-vous là, de grâce, et dans cet entretien</l>
+	<l id='982' part='i'>Daignez ne point paraître.</l>
+<stage>Cléon fait entrer Ariston dans un cabinet.</stage>
+	<l id='982' part='f'>On vient, écoutez bien.</l>
+<stage>À l'exempt.</stage>
+	<l id='983'>Vous, monsieur, vous savez quel devoir est le vôtre.</l>
+	<l id='984'>Rendez le premier ordre, et recevez cet autre.</l>
+	<l id='985'>Il est signé du nom de notre souverain.</l>
+	<l id='986'>Quand il en sera temps, obéissez soudain.</l>
+<stage>L'exempt lit te nouvel ordre, et le referme.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Les acteurs précédents, Zoïlin.</head>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='987'>Çà, monsieur Zoïlin, votre amitié prudente</l>
+	<l id='988'>M'a demandé tantôt cette place importante</l>
+	<l id='989'>Dont le prince honorait Ariston votre ami ;</l>
+	<l id='990'>Vous m'avez bien fait voir comme j'en suis trahi ;</l>
+	<l id='991'>Vous m'avez éclairci sur ses moeurs, sur ses vices :</l>
+	<l id='992'>Je ne puis trop payer ces importants services.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='993'>Mes soins, mes sentiments, sont trop récompensés.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='994'>Croyez qu'ils le seront ; mais ce n'est point assez.</l>
+	<l id='995'>Vous connaissez, je crois, quel est mon caractère ;</l>
+	<l id='996'>Je suis reconnaissant, mais je suis très sévère.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='997'>Ah ! monseigneur, il faut vous en estimer plus.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='998'>C'est un devoir sacré de payer les vertus ;</l>
+	<l id='999'>Mais du public aussi l'inflexible service</l>
+	<l id='1000'>Exige sans pitié qu'un crime se punisse.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='1001'>On n'en peut pas douter, c'est la première loi.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1002' part='i'>Vous le croyez ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='1002' part='m'>J'en suis convaincu.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1002' part='f'>Dites-moi,</l>
+	<l id='1003'>Comment traiteriez-vous un ingrat dont l'envie</l>
+	<l id='1004'>Aurait voulu couvrir son ami d'infamie,</l>
+	<l id='1005'>Et qui, jusqu'en ces lieux répandant son poison,</l>
+	<l id='1006'>D'un bienfaiteur trop simple eût troublé la maison ;</l>
+	<l id='1007'>Qui par d'affreux écrits, non moins plats que coupables,</l>
+	<l id='1008'>Eût perdu, sans remords, des hommes estimables ;</l>
+	<l id='1009'>Un hypocrite enfin, dont la fausse candeur</l>
+	<l id='1010'>Du coeur le plus abject eût caché la noirceur ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, bas, à part.</speaker>
+	<l id='1011'>Tout va bien : d'Ariston il veut parler sans doute.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1012' part='i'>Eh bien, que feriez-vous ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, à part.</speaker>
+	<l id='1012' part='f'>À bon droit je redoute</l>
+	<l id='1013'>Qu'Ariston ne revienne ici me démasquer.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1014'>Votre esprit là-dessus craint-il de s'expliquer ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='1015'>Je jugerais trop mal ; et puis votre justice</l>
+	<l id='1016'>Sait assez bien, sans moi, comme on punit le vice.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1017' part='i'>Mais répondez.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='1017' part='f'>Le bien de la société</l>
+	<l id='1018'>Veut le retranchement d'un membre si gâté.</l>
+	<l id='1019'>Peut-être la prison où l'on doit le conduire</l>
+	<l id='1020'>Le mettrait hors d'état de penser à nous nuire.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1021'>C'est très bien dit. Monsieur, c'est donc là votre avis,</l>
+	<l id='1022'>Qu'en un cachot obscur un tel fripon soit mis ?</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN.</speaker>
+	<l id='1023'>Hélas ! je suis toujours pour qu'on fasse justice.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+<stage>En indiquant Zoïlin.</stage>
+	<l id='1024'>Eh bien, moi, je la fais. Gardes, qu'on le saisisse ;</l>
+	<l id='1025'>Que ce monstre perfide aille dans la prison</l>
+	<l id='1026'>Où son intrigue infâme entraînait Ariston.</l>
+</sp>
+<sp who='ZOILIN'><speaker>ZOÏLIN, consterné.</speaker>
+	<l id='1027' part='i'>Ah ! pardon, monseigneur !</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1027' part='f'>Âme lâche et farouche,</l>
+	<l id='1028'>Subis le jugement qu'a prononcé ta bouche ;</l>
+	<l id='1029'>Et, pour te mieux punir, revois ton protecteur,</l>
+	<l id='1030'>Ton ami, dont l'aspect augmente ta rougeur.</l>
+<stage>Ariston paraît.</stage>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE, à Zoïlin.</speaker>
+	<l id='1031'>Votre pauvre neveu, dont votre âme traîtresse</l>
+	<l id='1032'>Avait empoisonné l'imprudente jeunesse,</l>
+	<l id='1033'>Vient d'avouer, aux pieds de Cléon offensé,</l>
+	<l id='1034'>L'ingratitude horrible où vous l'avez forcé.</l>
+	<l id='1035'>Nous lui pardonnons tout ; un vrai remords l'anime ;</l>
+	<l id='1036'>Son coeur est étonné d'avoir pu faire un crime.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+<stage>À l'exempt.</stage>
+	<l id='1037'>Qu'il parte. Allons, monsieur, hâtez-vous d'obéir.</l>
+<stage>On emmène Zoïlin.</stage>
+</sp>
+<sp who='ARISTON'><speaker>ARISTON, à Cléon.</speaker>
+	<l id='1038'>Dédaignez son offense, et laissez-vous fléchir.</l>
+	<l id='1039'>Faut-il, malgré ses torts, qu'un homme méprisable,</l>
+	<l id='1040'>Un homme tel qu'il soit, par moi soit misérable ?</l>
+	<l id='1041'>Cléon, vous me verrez demander à genoux</l>
+	<l id='1042'>Sa grâce au souverain, si je ne l'ai de vous.</l>
+	<l id='1043'>Il a souffert assez puisqu'il connut l'envie ;</l>
+	<l id='1044'>Lui-même il s'est couvert de trop d'ignominie.</l>
+	<l id='1045'>N'est-il pas bien puni, puisque je suis heureux ?</l>
+	<l id='1046'>Ah ! Ce seul châtiment suffit à l'envieux.</l>
+</sp>
+<sp who='CLÉON'><speaker>CLÉON.</speaker>
+	<l id='1047'>Généreux Ariston, vous êtes trop facile.</l>
+	<l id='1048'>Mon coeur admire en vous cette vertu tranquille.</l>
+	<l id='1049'>Étant homme privé, vous pouvez pardonner ;</l>
+	<l id='1050'>Je suis homme public, je le dois condamner.</l>
+	<l id='1051'>Un peuple renommé, dont les moeurs sont l'étude,</l>
+	<l id='1052'>Fit autrefois des lois contre l'ingratitude :</l>
+	<l id='1053'>Je suis ce grand exemple, et je dois vous venger</l>
+	<l id='1054'>Des envieux ingrats qu'on ne peut corriger.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>
+
+

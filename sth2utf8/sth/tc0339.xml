@@ -1,0 +1,1980 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ARTAXERCE, TRAGÉDIE.</title>
+				<author born='1723' born_location='Paris' death='1793' death_location='Saint-Germain-en-Laye' academie='1781'>LE MIERRE, Antoine-Marin</author>
+				<date>1768</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE</p><p>Septembre 2008</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire perse</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1761-1770</periode>
+				<taille>1000-1250</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k57723787</permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">ARTAXERCE</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1768'>M. DCC. LXVIII.</docDate>
+		<docAuthor id='LE MIERRE, Antoine-Marin' bio='lemierre'>Par M. LE MIERRE.</docAuthor>
+		<docImprint>
+ 			<approbation><head>APPROBATION</head>
+<p>J'ai lu par ordre de Monseigneur le Vice-Chancelier, Artaxerte, Tragédie, par M. le Mierre, et je crois qu'on peut en permettre l'impression.</p>
+	<p>À Paris ce 23 Mai 1768. MARIN</p>
+				</approbation>
+			<acheveImprime id=''></acheveImprime>
+			<printer id=''>À PARIS, Chez VALLAT-LA-CHAPELLE, Libraire au grand Escalier de la Sainte-Chapelle.</printer>
+		</docImprint>
+		<performance>
+			<premiere location='Théâtre de la rue des Fossés Saint-Germain' date='1766-08-20'>Représentée par les Comédiens Français le 20 Août 1766, et remise au Théâtre le 17 Décembre 1767.</premiere>
+		</performance>
+		<preface><head>PRÉFACE</head>
+		<p>Cette tragédie n'a de commun avec celle du célèbre Métastase, que le sujet et la catastrophe ; je ne ferai point de réflexions sur le nouvel Artaxerce : j'ai toujours tâché de fondre mes préfaces dans mes pièces, d'ajouter dans la bouche de mes personnages ce qui pouvoir satisfaire aux objections, et de profiter ainsi des critiques au lieu d'y répondre.</p>
+		</preface>
+<castList>
+	<head>PERSONNAGES.</head>
+	<castItem><role id="ARTAXERCE" civil="M" type="H" statut='roi' age='A' stat_amour='néant'>ARTAXERCE</role>, nouveau Roi de Perse.</castItem>
+	<castItem><role id="EMIRENE" civil="F" type="H" statut='prince' age='A' stat_amour='néant'>EMIRENE</role>, soeur d'Artaxerce.</castItem>
+	<castItem><role id="ARTABAN" civil="M" type="H" statut='ministre' age='A' stat_amour='néant'>ARTABAN</role>, Gouverneur d'Artaxerce et ministre.</castItem>
+	<castItem><role id="ARBACE" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>ARBACE</role>, fils d'Artaban.</castItem>
+	<castItem><role id="ÉLISE" civil="F" type="H" statut='confident' age='A' stat_amour='néant'>ÉLISE</role>, Confidente d'Emirene.</castItem>
+	<castItem><role id="MÉGABISE" civil="M" type="H" statut='confident' age='A' stat_amour='néant'>MÉGABISE</role>, Confident d'Artaban.</castItem>
+	<castItem><role id="SATRAPES" civil="G" type="H" statut='soldat' age='A' stat_amour='néant'>SATRAPES</role>.</castItem>
+	<castItem><role id="GARDES" civil="G" type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
+</castList>
+<set location='Suze' country='Iran' periode='Vème avant JC' link=''>La Scène est à Suze.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Artaban, Arbace.</head>
+<stage>La Scène commence vers la fin de la nuit, Artaban tient une épée ensanglantée.</stage>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1'>Les mains teintes de sang ! Ô Dieux ! D'où sortez-vous ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+<note type="L">Suze : capitale de l'empire Perse achéménide. Ses ruines sont situées dans le sud de l'Iran à environ 140 km du fleuve Tigre.</note>
+	<l id='2' part='i'>Toi dans Suze !</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='2' part='m'>Ah ! Mon père !...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='2' part='m'>Éloigne-toi.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='2' part='f'>Quels coups</l>
+	<l id='3' part='i'>Avez-vous donc portés ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='3' part='f'>Mon fils, part, je l'exige ;</l>
+	<l id='4' part='i'>Oui, pars pour ton exil.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='4' part='m'>Mais, Seigneur...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='4' part='f'>Fuis, te dis-je.</l>
+	<l id='5'>Bientôt tu sauras tout ; ne m'interroge pas,</l>
+	<l id='6'>Et seulement au loin précipite tes pas.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='7'>Je ne vous quitte point dans ces moments funestes.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='8'>Il le faut, hâte-toi ; tu me perds si tu restes.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='9'>Donnez donc cette épée, Où suis-je ? Ô jour d'effroi !...</l>
+	<l id='10'>Emirène !... Ah ! Quel trouble emporté-je avec moi !</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='ARTABAN'><speaker>ARTABAN, seul.</speaker>
+	<l id='11'>Impérieux Xercès, enfin ma main hardie</l>
+	<l id='12'>À mon ambition vient d'immoler ta vie.</l>
+	<l id='13'>L'audace, le hasard, le sommeil et la nuit,</l>
+	<l id='14'>Tout a servi mes coups. Mais j'entends quelque bruit ,</l>
+	<l id='15'>Qui porte ici ses pas ? Est-ce toi, Mégabise ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Artaban, Mégabise.</head>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='16'>Je viens vous retrouver, Seigneur. Avec surprise</l>
+	<l id='17'>En passant vers ces lieux mes yeux ont rencontré</l>
+	<l id='18'>Votre fils plein de Trouble, errant, désespéré.</l>
+	<l id='19'>Eh ! comment, exilé par Xercès, par vous-même,</l>
+	<l id='20'>S'arrêtait-il dans Suze ? En quel péril extrême</l>
+	<l id='21' part='i'>Sa présence en ces lieux...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='21' part='f'>Étonné comme toi,</l>
+	<l id='22'>J'ai hâté son départ. Mais toi, parle, dis-moi,</l>
+	<l id='23' part='i'>Sait-on l'évènement ?...</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='23' part='f'>On ne sait rien encore :</l>
+<note type="C">Ahura Mazda est l'un des deux dieux de la mythologie perse ; il s'agit du Dieu de la lumière, créateur du monde, le soleil est son oeil. Ici, il s'agit d'une métaphore de l'aube.</note>
+	<l id='24'>Mais sitôt que le Dieu qu'en Perse l'on adore,</l>
+	<l id='25'>Va de ses premiers feux éclairer ce Palais ,</l>
+<note type="L">Xerxès Ier : ou Assuérus Ier (voir Esther), fils de Darius Ier, roi de Perse de -485 à -465. Il fut tué par Artaban.</note>
+	<l id='26'>J'annonce avec terreur le destin de Xercès.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='27'>Je lui devais la mort : j'ai satisfait ma haine.</l>
+	<l id='28'>C'était trop supporter sa puissance hautaine,</l>
+	<l id='29'>C'était trop dévorer mes désirs inquiets.</l>
+	<l id='30'>Ses fils restent encor ; mais j'ai d'autres projets.</l>
+	<l id='31'>Tu sais si Darius est jaloux d'Artaxerce,</l>
+	<l id='32'>Si, le voyant monter au trône de la Perse,</l>
+	<l id='33'>Cc jeune ambitieux devenu son sujet.</l>
+	<l id='34'>Contre un frère odieux va s'armer en secret ;</l>
+	<l id='35'>L'ambition de l'un, de l'autre les ombrages,</l>
+	<l id='36'>Ami, vont me servir à former les orages.</l>
+	<l id='37'>Je vais, en aigrissant les levains dangereux</l>
+	<l id='38'>Des haines qu'avec art j'ai su nourrir entre eux,</l>
+	<l id='39'>Sur le meurtre du Roi trompant la Perse entière,</l>
+<note type="C">Darius, fils de Xerxès est le frère d'Artaxerce.</note>
+ <l id='40'>Tourner sur Darius les soupçons de son frère,</l>
+ <l id='41'>Détruire l'un par l'autre, et par ces coups hardis</l>
+ <l id='42'>Accomplir mes desseins et couronner mon fils.</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+ <l id='43' part='i'>Lui, Seigneur ! Votre fils !...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+ <l id='43' part='f'>Un tel projet t'étonne :</l>
+ <l id='44'>Rarement pour un autre on envahit un trône :</l>
+ <l id='45'>Mais sous le nom d'un fils je donnerai la loi ;</l>
+ <l id='46'>Le rang sera pour lui, la puissance pour moi.</l>
+ <l id='47'>J'assure ainsi bien mieux cet Empire à ma race ,</l>
+ <l id='48'>Qu'en étant Roi moi-même, en exposant Arbace,</l>
+ <l id='49'>Que sais-je ? À des hasards, à des revers nouveaux</l>
+ <l id='50'>Qui pourraient après moi renverser mes travaux.</l>
+ <l id='51'>Lorsqu'une fois du Trône une race est chassée,</l>
+ <l id='52'>La révolution n'est jamais bien fixée</l>
+ <l id='53'>Que sous un Prince jeune, et qui pour tous les temps</l>
+ <l id='54'>Semble ôter aux esprits l'espoir des changements.</l>
+ <l id='55'>Ainsi, portant mon fils à la grandeur suprême,</l>
+ <l id='56'>L'assurant à mon sang, en jouissant moi-même,</l>
+ <l id='57'>Ami, j'accorde tout ; et dans ma passion,</l>
+ <l id='58'>Mon coeur sert la nature et sert l'ambition.</l>
+ <l id='59'>Xercès dans son orgueil dédaignant ma famille,</l>
+ <l id='60'>Osait punir mon fils d'aspirer à sa fille,</l>
+	<l id='61'>Sans songer que les Rois par de pareils liens</l>
+	<l id='62'>S'attachent dans les Grands leurs plus fermes soutiens,</l>
+	<l id='63'>Et que nous valons bien pour leur haute fortune,</l>
+	<l id='64'>L'alliance des Cours, si souvent importune.</l>
+	<l id='65'>Tant d'orgueil m'indigna ; mais mon coeur offensé</l>
+	<l id='66'>Sut renfermer le trait dont il était blessé.</l>
+	<l id='67'>Persécuteur d'Arbace autant que le Roi même,</l>
+	<l id='68'>Je pressai le premier l'exil d'un fils que j'aime :</l>
+	<l id='69'>Mais si je secondai la rigueur de Xercès,</l>
+	<l id='70'>Ce fut pour avancer l'effet de mes projets,</l>
+	<l id='71'>L'instant où de sa main couronnant sa maîtresse</l>
+	<l id='72'>Mon Fils tiendra de moi le sceptre et la Princesse.</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='73'>Pourquoi donc l'éloigner, ce fils que vous servez,</l>
+	<l id='74'>Seigneur, ce fils heureux à qui vous réservez</l>
+	<l id='75' part='i'>De si brillants destins...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='75' part='f'>Je sais quel est Arbace.</l>
+	<l id='76'>Je n'aurais jamais pu dans ma superbe audace,</l>
+	<l id='77'>Plier à mon projet dès longtemps concerté,</l>
+	<l id='78'>De son âpre vertu l'inflexibilité.</l>
+	<l id='79'>Je l'écarte aujourd'hui, de crainte, Mégabise,</l>
+	<l id='80'>Qu'il n'osât en secret troubler mon entreprise :</l>
+	<l id='81'>Mais lorsque mes efforts auront tout achevé,</l>
+	<l id='82'>Arbace se voyant à l'Empire élevé,</l>
+	<l id='83'>Ne se reprochant rien dans sa grandeur suprême,</l>
+	<l id='84'>Et couronnant enfin la Princesse qu'il aime,</l>
+	<l id='85'>Au comble de ses voeux bénira son destin.</l>
+	<l id='86'>Tout concourt au succès de mon vaste dessein,</l>
+	<l id='87'>Mon crédit dans l'État ; ce que mes mains propices,</l>
+	<l id='88'>Dans la paix, dans la guerre, ont rendu de services ;</l>
+	<l id='89'>Le soldat qui par tout n'obéit qu'à mes lois ;</l>
+	<l id='90'>Les premiers de l'État dont j'ai gagné les voix.</l>
+	<l id='91'>Je fais plus, Mégabise, et du sang que je verse</l>
+	<l id='92'>Je cimente à jamais le trône de la Perse.</l>
+	<l id='93'>Des longtemps, tu le vois , l'Empire de Cyrus,</l>
+	<l id='94'>Privé de la splendeur ne se ressemblait plus ;</l>
+	<l id='95'>De ce peuple avili je voyais la faiblesse</l>
+	<l id='96'>Prête à baisser le front sous le joug de la Grèce,</l>
+<note type="L">Salamine : Île de la Mer Egée, Thémistocle, général athénien, y battit les Perses en 480 avant JC. </note>
+	<l id='97'>Et devant Salamine il semblait qu'abattu</l>
+	<l id='98'>Le Perse avec sa flotte eût laissé sa vertu.</l>
+	<l id='99'>Autre Maître, autres jours. Un plus heureux génie</l>
+	<l id='100'>Efface nos malheurs et notre ignominie,</l>
+	<l id='101'>Et ma première excuse, en ce grand attentat,</l>
+	<l id='102'>Est d'avoir prévenu la chute de l'État.</l>
+	<l id='103'>Mais sur ces lieux, ami, déjà le jour se montre,</l>
+	<l id='104'>Va, cours vers Artaxerce avant qu'il nous rencontre,</l>
+	<l id='105'>Et par le voile adroit d'une feinte terreur,</l>
+	<l id='106'>Épaissis sur ses yeux la nuit de son erreur.</l>
+	<l id='107'>De sa crédulité tout me répond d'avance,</l>
+	<l id='108'>Mon ascendant sur lui, son inexpérience,</l>
+	<l id='109'>Et ce respect de fils que garde encor longtemps</l>
+	<l id='110'>Un coeur dont on forma les premiers sentiments.</l>
+	<l id='111'>Va, sois sûr qu'avec moi la fortune t'appelle,</l>
+	<l id='112'>Qu'au-delà de tes voeux je vais payer ton zèle.</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='113'>Je vous dois déjà tout ; vous connaîtrez ma foi,</l>
+	<l id='114' part='i'>Seigneur.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='114' part='f'>J'entends le Prince , il entre ; laisse-moi.</l>
+<stage>À part.</stage>
+	<l id='115'>Je saurai lui parler sans que je me trahisse ,</l>
+	<l id='116'>Ou par trop d'embarras, ou par trop d'artifice.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE IV. Artaxerce, Artaban, un Officier.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='117' part='i'>Ô crime ! Ô trahison !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='117' part='f'>Seigneur, où courez-vous ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='118'>Savez-vous, Artaban, savez-vous sous quels coups</l>
+	<l id='119' part='i'>Xercès...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='119' part='m'>Eh bien, Seigneur ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='119' part='f'>Un monstre sanguinaire,</l>
+	<l id='120' part='i'>Un barbare !...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='120' part='m'>Achevez.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='120' part='f'>On a tué mon père.</l>
+	<l id='121'>De trois coups de poignard j'ai vu son sein percé.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='122'>Eh ! Qui soupçonne-t-on ? Qui peut avoir versé ?...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='123'>Mon père n'était plus, je n'ai pu rien connaître.</l>
+	<l id='124'>Mes ordres sont donnés, je fais chercher le traître.</l>
+	<l id='125'>Je vais, j'erre, je cours, ces moments sont affreux...</l>
+	<l id='126'>Ah ! Xercès vous aimait : dans mon sort malheureux</l>
+	<l id='127'>Je réclame, Artaban, vos soins, votre prudence....</l>
+	<l id='128'>Qui soupçonner, ô Dieux ? Où porter ma vengeance ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='129'>Aveugle ambition, mère des attentats,</l>
+	<l id='130'>Quels noms respectes-tu ? Quels freins ne romps-tu pas ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='131'>Comment ? Vous luirait-il quelque clarté soudaine ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='132'>Mon esprit au soupçon ne s'ouvre qu'avec peine,</l>
+	<l id='133'>D'un semblable forfait plus je cherche l'auteur,</l>
+	<l id='134'>Plus je crains d'irriter votre vive douleur.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='135'>Parlez, expliquez-vous, ce discours la redouble,</l>
+	<l id='136'>Dans mon malheur au moins délivrez moi du trouble.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='137'>Hé Seigneur, qui peut-on justement soupçonner,</l>
+	<l id='138'>Quel autre à ce grand crime a pu s'abandonner,</l>
+	<l id='139'>Que celui qui pouvait avec quelque avantage</l>
+	<l id='140'>Vous disputer du Roi le brillant héritage ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='141'>Je n'ose interpréter ce langage cruel,</l>
+	<l id='142' part='i'>Quoi ! Vous soupçonneriez...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='142' part='m'>Darius.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='142' part='f'>Juste ciel !</l>
+	<l id='143' part='i'>Lui ! Mon frère!</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='143' part='f'>Le sang n'a point de privilège ,</l>
+	<l id='144'>Dénaturé, perfide, assassin, sacrilège,</l>
+	<l id='145' part='i'>Quand l'ambition parle, on devient tout.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='145' part='f'>Ah ! Dieux !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='146'>Je verse le poison sur vos jours malheureux,</l>
+	<l id='147'>Je le nomme à regret, mais je connais son âme,</l>
+	<l id='148'>Oui, Seigneur, dès longtemps l'ambition l'enflamme,</l>
+	<l id='149'>J avais su pénétrer ses sentiments cachés ,</l>
+	<l id='150'>J'avais surpris ses yeux sur le trône attachés,</l>
+	<l id='151'>Et ce Prince inhumain, du rang suprême avide</l>
+	<l id='152'>Était au fond du coeur dès longtemps parricide,</l>
+	<l id='153'>Tel fut, n'en doutez point, dans ce frère inquiet,</l>
+	<l id='154'>De la haine pour vous le principe secret.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='155'>Quoi ! Je pourrais penser ?... Il aurait !... Sur un père ?</l>
+	<l id='156'>Non, je ne le crois pas ; c'est outrager mon frère.</l>
+	<l id='157'>Je sais que dans son Père il haïssait son Roi ;</l>
+	<l id='158'>Mais le chemin doit être encor long, croyez-moi,</l>
+	<l id='159'>De la haine à la rage, et de l'injure au crime :</l>
+	<l id='160'>Plein d'une inimitié, peut-être légitime,</l>
+	<l id='161'>Mon coeur désespéré dans ces cruels moments,</l>
+	<l id='162'>Ne prend point ses soupçons dans ses ressentiments</l>
+	<l id='163'>Qui soupçonne aisément, s'expose aux injustices.</l>
+	<l id='164'>Pour accuser un frère il faut d'autres indices ;</l>
+	<l id='165'>Et je rougirais trop aux yeux de tout l'État,</l>
+	<l id='166'>Si j'avais au hasard fait cet indigne éclat.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='167'>Hé bien ! Craignez, Seigneur, de lui faire un outrage :</l>
+	<l id='168'>Mais ce frère ennemi qu'Arraxerce ménage, ;</l>
+	<l id='169'>Peut-être n'aura pas pour vous le même égard.</l>
+	<l id='170'>Vous me croirez un jour, mais peut-être trop tard.</l>
+	<l id='171'>Ah ! Seigneur, ah ! plutôt craignez sa jalousie ,</l>
+	<l id='172'>Craignez l'ambition dont son âme est saisie.</l>
+	<l id='173'>Si d'un pareil forfait il a souillé ses mains,</l>
+	<l id='174'>Qui respectera-t-il pour remplir ses desseins ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='175'>Je ne puis, Artaban, trop prompt dans ma vengeance,</l>
+	<l id='176'>Me livrer contre un frère à tant de défiance ;</l>
+	<l id='177'>Sur vos soupçons, enfin, quoiqu'il puisse arriver,</l>
+	<l id='178'>Mes soins vont se borner à le faire observer :</l>
+	<l id='179'>Cependant dès ce jour je romps l'exil d'Arbace,</l>
+	<l id='180'>Ce jour verra du moins la fin de sa disgrâce,</l>
+<stage>Aux gardes.</stage>
+	<l id='181'>Oui, qu'on rappelle Arbace, et qu'il vienne en ces lieux.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='182' part='i'>Ah ! Prince !...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='182' part='m'>Hâtez-vous.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN, à part.</speaker>
+	<l id='182' part='f'>Qu'ordonne-t-il, ô Dieux !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='183'>Sans sortir du respect pour les mânes d'un père,</l>
+	<l id='184'>Mon coeur peut révoquer une loi trop sévère ;</l>
+	<l id='185'>Arbace m'est trop cher, ses services, sa foi...</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Emirène, Artaxerce, Artaban, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='186'>Hélas ! Dans ces moments tout me remplit d'effroi,</l>
+	<l id='187'>Mon frère ; des grands coups portés par un barbare,</l>
+	<l id='188'>De nos malheurs déjà la fuite se déclare.</l>
+	<l id='189'>Je ne sais quel parti, quels secrets intérêts,</l>
+	<l id='190'>Divisent les esprits et troublent le Palais.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='191'>Vous le voyez ; Seigneur ; et de si promptes brigues...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='192' part='i'>Allons les prévenir.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='192' part='f'>Quelles sont ces intrigues ,</l>
+	<l id='193'>Seigneur ? Qu'avez-vous su ? Quel indice est donné ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='194'>De ce noir attentat mon frère est soupçonné.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='195' part='i'>Est-ce vous, Artaban, qui l'accusez ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='195' part='f'>Madame,</l>
+	<l id='196'>Le temps dévoilera cette funeste trame :</l>
+	<l id='197'>C'est un coup inouï, c'est un crime que doit</l>
+	<l id='198'>Expier de son sang l'assassin, quel qu'il soit</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='199'>Non : la nature encor prend en moi la défense.</l>
+	<l id='200'>Je vais de ma douleur, je vais de ma présence</l>
+	<l id='201'>Sur lui, de ce pas même, observer les effets :</l>
+	<l id='202'>Mais contre mon espoir, s'il avait pu jamais.</l>
+	<l id='203'>Je frémis d'y penser. Je dois tout à mon père,</l>
+	<l id='204'>Il faut qu'il soit vengé : quelque jour qui m'éclaire,</l>
+	<l id='205'>Des mânes paternels je n'entends que la voix,</l>
+	<l id='206'>Et livre un parricide à la rigueur des lois.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Emirène, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='207'>Élise, qu'ai-je appris ! Et quel soupçon sinistre !</l>
+	<l id='208'>On accuse mon frère ! Un superbe ministre,</l>
+	<l id='209'>Dans son ambition emploie insolemment</l>
+	<l id='210'>À diviser les miens cet horrible moment.</l>
+	<l id='211'>Sans doute il a nourri ces haines intestines,</l>
+	<l id='212'>Qui déjà dans leurs coeurs n'ont que trop de racines,</l>
+	<l id='213'>Et l'État aujourd'hui sous mes yeux effrayés,</l>
+	<l id='214'>Va s'embraser du choc de leurs inimitiés.</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='215'>Eh ! Qu'espère Artaban d'un soupçon téméraire ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='216'>Abuser de ses droits sur l'esprit de mon frère ,</l>
+	<l id='217'>Le gouverner enfin, régner dès aujourd'hui :</l>
+	<l id='218'>Ah ! Mon sort fut toujours infortuné par lui...</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='219' part='i'>Arbace est rappelé.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='219' part='m'>Lui !</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='219' part='f'>Peut-être, Madame ;</l>
+	<l id='220'>Son retour calmera les troubles de votre âme.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='221'>Ô ciel ! Dans quels instants revient-il en ces lieux ;</l>
+	<l id='222'>Lorsque Emirène, hélas ! Doit éviter ses yeux,</l>
+	<l id='223'>À mes nouveaux malheurs quand je dois être entière ?</l>
+	<l id='224'>Ah ! J'espérais qu'un jour je fléchirais mon père :</l>
+	<l id='225'>Mais peut-être, étant mort dans ces moments affreux,</l>
+	<l id='226'>Sans révoquer l'arrêt qui condamnait mes voeux,</l>
+	<l id='227'>Loin de me dégager de mon obéissance ,</l>
+	<l id='228'>Sa cendre doit pour moi consacrer sa défense ;</l>
+	<l id='229'>Peut-être du tombeau plus que jamais mon Roi,</l>
+	<l id='230'>Il parle avec empire et m'enchaîne à sa loi.</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='231'>Madame, votre esprit sens doute s'exagère</l>
+	<l id='232' part='i'>Des maux......</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='232' part='f'>Ah ! j'ai cent fois murmuré contre un père,</l>
+	<l id='233'>Je ne connaissais pas, excitant son courroux ,</l>
+	<l id='234'>Tout ce que la nature a d'empire sur nous.</l>
+	<l id='235'>Il est des temps, Élise, où sa voix nous rappelle,</l>
+	<l id='236'>Où tous les sentiments sont suspendus par elle,</l>
+	<l id='237'>Où le coeur reconnaît, tout à coup éclairé,</l>
+	<l id='238'>Que de tous nos liens c'est là le plus sacré.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Artaxerce, Emirène, Élise.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='239'>Ma soeur, à mes chagrins chaque moment ajoute,</l>
+	<l id='240'>Darius m'évitait, et me trahit sans doute :</l>
+	<l id='241'>Mes yeux l'ont vu pensif, inquiet, incertain,</l>
+	<l id='242'>Son esprit agité roulait un grand dessein,</l>
+	<l id='243'>À peine il déguisait toute sa violence.</l>
+	<l id='244'>Après quelques moments d'un farouche silence,</l>
+	<l id='245'>II a donné soudain quelques ordres secrets,</l>
+	<l id='246'>Et détourne ses pas pour sortir du Palais.</l>
+	<l id='247'>Je ne l'accuse point d'un forfait exécrable,</l>
+	<l id='248'>Même à l'en soupçonner je me croirais coupable :</l>
+	<l id='249'>Mais d'une ambition, dont je ne puis douter,</l>
+	<l id='250'>Peut-être en ces moments j'ai tout à redouter ;</l>
+	<l id='251'>Et je crains bien qu'ici son audace nouvelle</l>
+	<l id='252'>Ne me force en mon frère à punir un rebelle.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='253'>Je vois trop les horreurs qui vont suivre ce jour,</l>
+	<l id='254'>Je ne puis plus rester dans cet affreux séjour.</l>
+	<l id='255'>Non, je ne verrai point le crime qu'il projette,</l>
+	<l id='256'>Tout m'écarte de Suze ; assurez ma retraite,</l>
+	<l id='257'>Laissez-moi fuir l'aspect d'un Trône ensanglanté,</l>
+	<l id='258'>Qui par le sang encor doit être cimenté,</l>
+	<l id='259'>Où d'un meurtre inouï recherchant les complices,</l>
+	<l id='260'>Vous allez vous asseoir entouré de supplices ;</l>
+	<l id='261'>La Perse a des déserts, l'Asie a des rochers ;</l>
+	<l id='262'>Loin du spectacle affreux des fers et des bûchers,</l>
+	<l id='263'>J'irai pleurer en paix et la mort de mon père,</l>
+	<l id='264'>Et l'exil d'un héros, et les complots d'un frère.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='265'>Vous me fuir ! Vous, ma soeur, de ma Cour vous bannir ?</l>
+	<l id='266'>L'un à l'autre plus chers songeons à nous unir ;</l>
+	<l id='267'>Quittez une pensée à tous deux trop funeste.</l>
+	<l id='268'>Darius me trahit ; mais Arbace me reste.</l>
+	<l id='269'>Dans le rang où je monte encor mal affermi,</l>
+	<l id='270'>Parmi tant de malheurs, j'ai besoin d'un ami :</l>
+	<l id='271'>Si Darius n'est plus qu'un sujet téméraire,</l>
+	<l id='272'>Je veux que pour jamais mon ami soit mon frère.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Artaban, Mégabise.</head>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='273'>Quoi ! Dans votre entreprise un progrès si rapide !</l>
+	<l id='274'>Seigneur, le sort pour vous jusques-là se décide.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='275'>Par l'ordre de son frère on courrait l'arrêter ;</l>
+	<l id='276'>Les siens au même instant, prompts à se révolter,</l>
+	<l id='277'>À pas précipités volent à sa défense.</l>
+	<l id='278'>Il résiste à la garde, et par la résistance,</l>
+	<l id='279'>Lorsque l'on ne voulait qu'écarter les mutins,</l>
+	<l id='280'>Il rencontre le fer qui tranche ses destins.</l>
+	<l id='281'>Ainsi, ce qu'on a vu, donne à ce qu'on ignore</l>
+	<l id='282'>Plus de poids désormais et d'apparence encore ;</l>
+	<l id='283'>Et sa défense, ami, sur un crime secret</l>
+	<l id='284'>Ne peut plus être entière, et trahir mon projet.</l>
+	<l id='285'>J'étais bien assuré qu'inspirant à son frère</l>
+	<l id='286'>Un acte de rigueur devenu nécessaire,</l>
+	<l id='287'>Je verrais aussitôt Darius irrité</l>
+	<l id='288'>Se livrer aux excès de la témérité.</l>
+	<l id='289'>Va, porte à nos amis cette grande nouvelle :</l>
+	<l id='290'>Qu'elle excite au succès leur courage et leur zèle.</l>
+<stage>Seul.</stage>
+	<l id='291'>Et toi, dont mon génie éprouve le secours,</l>
+	<l id='292'>Fortune, épargne-moi tes perfides retours.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Artaban, Artaxerce.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='293'>Qu'ai-je fait, Artaban, par mon ordre barbare ?...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='294'>Que dites-vous, Seigneur ? Quel remord vous égare !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='295'>Hélas ! C'était mon frère, et son crime est douteux.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='296'>Sa révolte était sûre et ses jours dangereux ;</l>
+	<l id='297'>Sa défense obstinée autant qu'illégitime,</l>
+	<l id='298'>Elle-même, Seigneur, est l'indice du crime.</l>
+	<l id='299'>Eh ! Pourquoi méprisant vos ordres souverains,</l>
+	<l id='300'>Darius a-t-il craint de se mettre en vos mains ?</l>
+	<l id='301'>Quand votre défiance aurait été trop prompte,</l>
+	<l id='302'>De sa conduite enfin ne devait-il pas compte ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='303'>Il fut ambitieux, ses complots m'auraient nui :</l>
+	<l id='304'>Mais enfin par le sort si j'eus des droits sur lui,</l>
+	<l id='305'>Si j'eus, de plus que lui la grandeur souveraine,</l>
+	<l id='306'>C'était à moi peut-être à maîtriser la haine ;</l>
+	<l id='307'>Plus il me haïssait, plus mon juste courroux</l>
+	<l id='308'>Me dut être un motif pour mesurer mes coups.</l>
+	<l id='309'>Quelque fut son dessein, de quoi qu'il fût coupable,</l>
+	<l id='310'>De son sang à l'État étais-je moins comptable ?</l>
+	<l id='311'>La loi dut le punir. Comment justifier</l>
+	<l id='312'>Tout autre châtiment aux yeux du monde entier ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='313'>La loi, Prince ! Et c'est lui qui se montrant rebelle,</l>
+	<l id='314'>Lui-même a refusé d être jugé par elle.</l>
+	<l id='315'>Ses efforts imprudents précipitent sa mort,</l>
+	<l id='316'>Loin de vous reprocher son déplorable sort ,</l>
+	<l id='317'>Rendez grâces aux Dieux, qui par ce coup propice,</l>
+	<l id='318'>Vous épargnent l'horreur d'ordonner son supplice.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Artaxerce, Artaban, Emirène, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE, arrivant avec précipitation.</speaker>
+	<l id='319'>Ah ! Seigneur, quelle erreur vous rendait inhumain !</l>
+	<l id='320'>Darius de Xercès n'était point l'assassin ;</l>
+	<l id='321' part='i'>On vient de l'arrêter.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='321' part='f'>Eh ! Quel est le perfide ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='322'>J'ignore encor, Seigneur, le nom du parricide :</l>
+	<l id='323'>Mais le reste est connu, le barbare a jeté</l>
+	<l id='324'>Loin de lui, dans sa suite, un fer ensanglanté ;</l>
+	<l id='325'>Et cette même épée encor sanglante et nue,</l>
+	<l id='326'>Pour celle de Xercès vient d'être reconnue.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN, à part.</speaker>
+	<l id='327' part='i'>Qu'entends-je ! Quel revers !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='327' part='f'>Dans son saisissement,</l>
+	<l id='328'>Pâle, interdit, sans voix, presque sans mouvement,</l>
+	<l id='329'>Ne sachant où cacher le plus affreux des crimes,</l>
+	<l id='330'>Il restait arrêté comme entre deux abîmes,</l>
+	<l id='331'>Tant la terreur sur lui tombant du haut des cieux</l>
+	<l id='332'>Manifestait déjà les vengeances des Dieux.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE, aux gardes.</speaker>
+	<l id='333'>Allez, que devant moi l'on amène le traître.</l>
+	<l id='334'>Quels horribles complots, ô ciel ! Je vais connaître !...</l>
+	<l id='335' part='i'>Eh ! Mon frère a péri.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='335' part='f'>Seigneur que dites vous ?</l>
+	<l id='336'>Déjà dans votre esprit qui peut l'avoir absous ?</l>
+	<l id='337'>Hé, Prince! savez-vous si d'un barbare frère,</l>
+	<l id='338'>Celui qu'on a saisi n'était pas l'émissaire ?</l>
+	<l id='339'>Dans ce grand repentir, avant de vous plonger,</l>
+	<l id='340'>Commencez par le voir et par l'interroger ;</l>
+	<l id='341'>Suspendez vos remords ; vous les perdrez peut-être.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='342'>Juste ciel ! Que d'horreurs ! Et qu'il tarde à paraître !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Artaxerce, Artaban, Emirène, Élise, Un Officier, Un soldat qui dent l'épée du Roi assassiné.</head>
+<sp who='UN-OFFICIER'><speaker>UN OFFICIER.</speaker>
+	<l id='343'>On amène, Seigneur, l'assassin à vos yeux.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+<stage>Tombant dans les bras d'Élise.</stage>
+	<l id='344' part='i'>Traître !... Arbace !... Je meurs.</l>
+<stage>On entraîne Emirène.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Artaxerce, Artaban, Arbace.</head>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='344' part='m'>Erimène !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='344' part='f'>Grands Dieux !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='345' part='i'>Mon Fils !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='345' part='f'>Ah ! Quel objet ! Quelle horreur m'environne !</l>
+	<l id='346'>Plus que le crime encor, le coupable m'étonne.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='347'>Seigneur, son attentat a décidé mon sort.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='348' part='i'>Ciel ! Où m'as-tu réduit !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='348' part='f'>Vous me devez la mort,</l>
+	<l id='349'>C'est à moi d'expier sa fureur et son crime ;</l>
+	<l id='350'>Frappez , et que je sois la première victime.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='351'>Meurtrier de ton Roi, viens, approche, inhumain,</l>
+	<l id='352'>Réponds moi : quelle rage avait armé ta main ?</l>
+	<l id='353'>Parle. Je crois encor qu'un vain songe m'abuse.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='354'>Mon père !... Outragez-moi, Prince, ici tout m'accuse.</l>
+	<l id='355'>Dans cet étrange état, dans ce péril pressant,</l>
+	<l id='356'>Je n'ai qu'un mot à dire : Arbace est innocent.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='357'>Toi malheureux ! Hé quoi, contre un ordre suprême ;</l>
+	<l id='358'>N'étais-tu pas dans Suze et dans ce Palais même ?</l>
+	<l id='359'>Dis-moi, quoiqu'exilé, ne t'y cachais-tu pas ?</l>
+	<l id='360'>Ne t'a-t-on pas surpris précipitant tes pas ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='361' part='i'>Je fuyais, il est vrai.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='361' part='f'>Tu tenais cette épée ,</l>
+	<l id='362'>Celle de Xercès même, et dans son sang trempée,</l>
+	<l id='363'>Dans ta fuite aperçu, tu l'as jetée au loin ;</l>
+	<l id='364'>Vous, Soldat, approchez : démens-tu ce témoin  ?</l>
+	<l id='365'>Ce fer fut dans ta nain : démens-tu cet indice ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='366'>Je n'en puis dire plus, et c'est là mon supplice.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='367'>Tu ne le peux, sans doute, et ton crime est prouvé.</l>
+	<l id='368'>Mon père t'exilait, tu te voyais privé</l>
+	<l id='369'>D'un Hymen désormais horrible à ma pensée.</l>
+	<l id='370'>Hélas ! Où m'emportait ma tendresse insensée ?</l>
+	<l id='371'>Barbare ! En mes malheurs je te fais rappeler,</l>
+	<l id='372'>Je cherche un coeur de plus qui vint me consoler,</l>
+	<l id='373'>Je m'abandonne entier à l'espoir qui m'anime,</l>
+	<l id='374'>Je vole dans ton sein, et j'y trouve le crime !</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='375'>Qui ? Moi ! Dans votre sang j'aurais trempé ma main ;</l>
+	<l id='376'>Je me serais surpris même en ce noir dessein !</l>
+	<l id='377'>Ma venu jusques-là se serait démentie !</l>
+	<l id='378'>Moi, Seigneur, qui pour vous aurais donné ma vie,</l>
+	<l id='379'>Moi que pour prix d'un zèle à vos jours consacré,</l>
+	<l id='380'>Du nom de votre ami vous aviez honoré ;</l>
+	<l id='381'>Voilà dans les horreurs de mon destin funeste,</l>
+	<l id='382'>Et le coeur qui m'accuse et l'appui qui me reste.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='383'>Eh ! Le Prince peut-il ne te pas soupçonner</l>
+	<l id='384'>Lorsque tout à ses yeux sert à te condamner ?</l>
+	<l id='385'>Crois-tu par tes discours balancer l'apparence ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='386'>Et vous aussi, grands Dieux ! Ah ! Toute ma constance</l>
+	<l id='387' part='i'>Cède à ce dernier trait.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN, à Artaxerce.</speaker>
+	<l id='387' part='f'>Prononcez notre arrêt,</l>
+	<l id='388'>Seigneur. S'il est coupable autant qu'il le paraît,</l>
+	<l id='389'>Ne considérez plus mon sang dans un perfide :</l>
+	<l id='390'>La nature outragée est ici votre guide,</l>
+	<l id='391'>C'est elle seulement qu'il vous faut consulter,</l>
+	<l id='392'>Vous l'allez satisfaire et je vais la dompter.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE, aux Gardes.</speaker>
+	<l id='393' part='i'>Qu'on l'éloigne.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='393' part='f'>Malgré le crime de ma race</l>
+	<l id='394'>Oserai-je, Seigneur, espérer une grâce ?</l>
+	<l id='395'>Souffrez que de son coeur je sonde les replis :</l>
+	<l id='396'>Dans le funeste état où le destin m'a mis,</l>
+	<l id='397' part='i'>C'est mon devoir. Souffrez.....</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='397' part='f'>Ah ! Le cruel déchire</l>
+	<l id='398'>Ce coeur infortuné qu'il trompa, qui désire</l>
+	<l id='399'>Peut-être autant que vous, mais hélas ! Sans espoir ;</l>
+	<l id='400'>Qu'il ne soit point souillé d'un attentat si noir.</l>
+	<l id='401'>Hé, que vous dira-t-il après sa résistance !</l>
+	<l id='402'>Vous voyez devant moi qu'il s'obstine au silence ,</l>
+	<l id='403'>Que ce mystère encore augmentant mes soupçons,</l>
+	<l id='404'>Sert sans doute de voile à d'autres trahisons.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='405'>Dans la confusion où son crime le jette,</l>
+	<l id='406'>La contrainte l'arrête et sa bouche est muette,</l>
+	<l id='407'>Devant moins de regards peut-être en liberté,</l>
+	<l id='408'>Il laissera, Seigneur, parler la vérité.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='409'>Écoutez, Artaban. L'équité qui m'anime,</l>
+	<l id='410'>Ne peut confondre ici votre zèle et son crime ;</l>
+	<l id='411'>Vous voyez les combats dont je suis agité ,</l>
+	<l id='412'>Et de son attentat quelle est l'énormité :</l>
+	<l id='413'>Servez-vous du pouvoir, de l'ascendant d'un père</l>
+	<l id='414'>Pour éclaircir enfin cet horrible mystère,</l>
+	<l id='415'>Entendez sa défense, arrachez son aveu,</l>
+	<l id='416' part='i'>Je vous laisse avec lui...</l>
+<stage>Aux Gardes.</stage>
+	<l id='416' part='f'>Vous, veillez en ce lieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Artaban, Arbace.</head>
+<sp who='ARBACE'><speaker>ARBACE, avec impétuosité.</speaker>
+	<l id='417'>Ah ! Je respire enfin dans ma fureur extrême,</l>
+	<l id='418' part='i'>Je puis, barbare...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='418' part='m'>Écoute.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='418' part='f'>Écoutez-moi vous-même ;</l>
+	<l id='419'>J'ai droit de l'exiger : assez je me suis tu,</l>
+	<l id='420'>Assez j'ai pu laisser outrager ma vertu.</l>
+	<l id='421'>J'ai gardé le silence en ce comble d'injure,</l>
+	<l id='422'>J'ai payé plus qu'un fils ne doit à la nature :</l>
+	<l id='423'>Arbace maintenant vous doit la vérité.</l>
+	<l id='424'>Qu'avez-vous fait, cruel ! Quel abus détesté</l>
+	<l id='425'>De l'immense pouvoir que votre rang vous donne !</l>
+	<l id='426'>Le second de l'État, vous n'approchez du Trône</l>
+	<l id='427'>Que peut atteindre au coeur que vous avez percé ;</l>
+	<l id='428'>Au coeur de votre maître à vos pieds renversé !</l>
+	<l id='429'>C'est peu : quand votre fils que la nature anime,</l>
+	<l id='430'>Vous arrache le fer, cet indice du crime ;</l>
+	<l id='431'>Quand je frémis pour vous, quand je prends malgré moi,</l>
+	<l id='432'>Barbare, cette part au meurtre de mon Roi,</l>
+	<l id='433'>Accusé devant vous de ce grand parricide,</l>
+	<l id='434'>Vous pouvez abuser de mon respect timide</l>
+	<l id='435'>Pour me calomnier, pour noircir votre fils</l>
+	<l id='436'>Du soupçon d'un forfait que vous avez commis !</l>
+	<l id='437'>Je serai cru l'auteur d'un crime abominable ;</l>
+	<l id='438'>Ou si tout est connu, je suis fils d'un coupable,</l>
+	<l id='439'>Dans la publique horreur avec vous confondu ;</l>
+	<l id='440'>Et de tous les côtés mon honneur est perdu.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='441'>Ingrat ! Eh, c'est pour toi que j'ai commis ce crime.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='442' part='i'>Pour moi !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='442' part='f'>Pour t'agrandir je crus tout légitime.</l>
+	<l id='443'>Te jetant dans les fers le destin m'a trompé :</l>
+	<l id='444'>Mais de maux sans ressource il ne t'a point frappé.</l>
+	<l id='445'>Quelques indignités que ton honneur essuie,</l>
+	<l id='446'>Quelque soit ce soupçon, il faut que je l'appuie.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='447' part='i'>Quelle trame odieuse !...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='447' part='f'>Au déclin de mes ans</l>
+	<l id='448'>La couronne à ce prix souillait mes cheveux blancs ;</l>
+	<l id='449'>C'est sur ton jeune front qu'aujourd'hui je l'attache ;</l>
+	<l id='450'>Si je l'y vois briller, elle sera sans tache.</l>
+	<l id='451'>Voilà de quel espoir mon orgueil s'est flatté,</l>
+	<l id='452'>Et l'excuse, et le prix du coup que j'ai porté.</l>
+	<l id='453'>Eh ! Qui rend à tes yeux cette trame si noire ?</l>
+	<l id='454'>Je n'ai frappé qu'un Roi déjà mort à la gloire ;</l>
+	<l id='455'>Fantôme couronné dont le monde était las ;</l>
+	<l id='456'>Et qui même envers toi le plus grands des ingrats ;</l>
+	<l id='457'>Suivant pour toute loi ses superbes caprices,</l>
+	<l id='458'>Des rigueurs de l'exil a payé tes services ;</l>
+	<l id='459'>Désespérais sa fille en pressant ton départ,</l>
+	<l id='460'>Dans ton coeur, dans le sien enfonçait le poignard.</l>
+	<l id='461'>Moi-même, en apparence ennemi de ta flamme,</l>
+	<l id='462'>J'affligeai ta maîtresse, et j'accablai ton âme.</l>
+	<l id='463'>Tout change déformais, et tes voeux sont remplis ;</l>
+	<l id='464'>Je te venge du père, et je trompe le fils ;</l>
+	<l id='465'>Je sers et ton amour et sans doute ta haine ;</l>
+	<l id='466'>Je te fais Souverain , je couronne Emirène,</l>
+	<l id='467'>Je prends de mon projet tout le crime sur moi,</l>
+	<l id='468'>Ose me reprocher ce que je fais pour toi.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='469'>Oui, je l'ose ; et ce coup manquait à ma disgrâce.</l>
+	<l id='470'>Vous êtes criminel, et c'était pour Arbace !</l>
+	<l id='471'>Ah ! Sachez de quel oeil je vois votre attentat ;</l>
+	<l id='472'>Ma gloire est d'en gémir , ma vertu d'être ingrat ;</l>
+	<l id='473'>Mais après tant d'excès si la vôtre est éteinte,</l>
+	<l id='474'>Pour être sans remords, êtes-vous donc sans crainte ?</l>
+	<l id='475'>Ou comment votre coeur, libre loin du repos,</l>
+	<l id='476'>Faut-il encor courir à des forfaits nouveaux ?</l>
+	<l id='477'>Arrêtez-vous, tremblez d'avancer dans le crime ;</l>
+	<l id='478'>Peut-être un pas de plus, vous tombez dans l'abîme.</l>
+	<l id='479'>Cruel ! Sous le bûcher dressé pour mon trépas,</l>
+	<l id='480'>Sous ma cendre du moins cachez vos attentats.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='481'>Il n'est plus temps, crois-moi, ce que j'ai fait m'engage :</l>
+ <l id='482'>Ne crains rien : je puis tout ; jouis de mon ouvrage.</l>
+ <l id='483'>C'est tout ce que je veux, mon espoir est comblé.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='484'>Jusqu'où l'ambition vous a-t-elle aveuglé ?</l>
+	<l id='485'>Grands Dieux ! Eh ! Quel espoir sur Arbace vous reste ?</l>
+	<l id='486'>Hé ! Quand j'accepterais un sceptre si funeste,</l>
+	<l id='487'>Les Perses indignés recevront-ils la loi</l>
+	<l id='488'>D'un mortel qu'ils croiront teint du sang de leur Roi ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='489'>Hé ! Ne suffit-il pas que ma main te couronne ?</l>
+	<l id='490'>Qui t'osera juger une fois sur le trône ?</l>
+	<l id='491'>Je t'aplanirai tout, rien ne doit t'arrêter ;</l>
+	<l id='492'>L'art de s'ouvrir le trône est le droit d'y monter,</l>
+<note type="L">Semiramis : reine d'Assyrie, célèbre pour son génie et sa beauté, avait d'abord été esclave. [...] Selon une tradition elle demanda un jour à son époux de lui céder pour un moment tout le pouvoir : celui-ci y ayant consenti, elle en usa pour le faire massacrer par ses gardes. [B]</note>
+	<l id='493'>Sémiramis en paix régna dans l'Assyrie.</l>
+	<l id='494'>Bannis un vain scrupule, embrasse mon génie ;</l>
+	<l id='495'>Tu trembles de régner ! Tremble, si tu n'es roi,</l>
+	<l id='496'>Ce n'est qu'avec ce rang qu'Emirène est à toi.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='497'>Emirène ! Ah ! Pensée accablante et cruelle ?</l>
+	<l id='498'>Ah ! Xercès n'avait fait que m'exiler loin d'elle ;</l>
+	<l id='499'>Vous plus tyran que lui, vous mon accusateur,</l>
+	<l id='500'>Vous m'avez tout ôté, son estime et son coeur.</l>
+	<l id='501'>Oui, j'adore, Seigneur, j'idolâtre Emirène :</l>
+	<l id='502'>Mais fallût-il la perdre et m'attirer sa haine,</l>
+	<l id='503'>Votre courroux, jamais, quelqu'en soit le malheur,</l>
+	<l id='504'>Vous ne verrez le crime approcher de mon coeur.</l>
+	<l id='505'>N'attendez pas qu'Arbace à ce point s'avilisse ;</l>
+	<l id='506'>Je suis votre victime, et non votre complice ;</l>
+	<l id='507'>Je pleure sur vos soins, j'abjure vos bienfaits ;</l>
+	<l id='508'>Je déteste le trône acquis par des forfaits,</l>
+	<l id='509'>Je préfère la mort et honteuse et cruelle,</l>
+	<l id='510'>Je me sauve en ses bras de l'amour paternelle,</l>
+	<l id='511'>L'honneur était un bien dont j'eusse été jaloux,</l>
+	<l id='512'>Mais qu'on pouvait m'ôter, qui ne tient point à nous ;</l>
+	<l id='513'>Ma vertu n'est qu'à moi ; si dans ce jour funeste</l>
+	<l id='514'>J'en perds la renommée, elle-même me reste.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='515'>Hé bien ! Puisque ton coeur se refuse à mes voeux,</l>
+	<l id='516'>J'accomplirai pour moi ce dessein dangereux.</l>
+	<l id='517'>Si mon ambition était illégitime,</l>
+	<l id='518'>L'esprit qui m'animait anoblissait mon crime.</l>
+	<l id='519'>Ce n'est point mon projet, c'est ton refus, cruel,</l>
+	<l id='520'>Oui, c'est ton seul refus qui me rend criminel,</l>
+	<l id='521'>Qui de mes attentats rend mon âme confuse ;</l>
+	<l id='522'>Tu m'en ôtes le fruit, pour m'en ôter l'excuse,</l>
+	<l id='523'>Et loin de concourir à me justifier,</l>
+	<l id='524'>Tu veux de mon forfait m'accabler tout entier.</l>
+	<l id='525'>Hé bien, péris ingrat, péris, je t'abandonne ;</l>
+	<l id='526'>Monte sur le bûcher, quand je t'offre le trône,</l>
+	<l id='527'>Préfère à mes bontés le sort le plus affreux ;</l>
+	<l id='528'>Je puis voir d'un oeil sec... Écoute, malheureux :</l>
+	<l id='529'>Malgré toi, malgré moi je sens que je fuis père :</l>
+	<l id='530' part='i'>Viens, suis mes pas.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='530' part='m'>Comment ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='530' part='f'>C'est ma seule prière</l>
+	<l id='531'>Je puis tromper ta garde, et sais près de ces lieux</l>
+	<l id='532'>Une secrète issue inconnue à leurs yeux ;</l>
+	<l id='533'>Viens ; et ne prenant plus que ma pitié pour guide ;</l>
+	<l id='534'>Sauve toi du supplice, et moi d'un parricide.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='535'>Moi fuir ! Moi de ces lieux en coupable sortir !</l>
+	<l id='536'>J'ai fait un désaveu, j'irais le démentir ;</l>
+	<l id='537'>Jusques-là renoncer à ma propre défense,</l>
+	<l id='538'>Par un nouvel indice appuyer l'apparence !</l>
+	<l id='539'>Moi fuir loin de ces lieux que vous ensanglantez,</l>
+	<l id='540'>Pour ouvrir un champ libre à d'autres cruautés,</l>
+	<l id='541'>Souffrir que sous mon nom courant de crime en crime,</l>
+	<l id='542'>Vous alliez prendre encor mon ami pour victime !</l>
+	<l id='543'>Non, je reste en ces lieux, vos fureurs contre un roi,</l>
+	<l id='544'>Nc pourraient rien oser, qu'il ne punit sur moi ;</l>
+	<l id='545'>Par là je vous arrête ; ou si c'est peu, barbare,</l>
+	<l id='546'>Je fais tout pour parer le coup qu'on lui prépare ;</l>
+	<l id='547'>Oui, sans vous accuser, me faisant son appui,</l>
+	<l id='548'>II n'est rien que ma foi n'entreprenne pour lui,</l>
+	<l id='549'>Rien que ne tente ici ma tendresse et ma crainte.</l>
+	<l id='550'>Si le sang a ses droits, l'amitié non moins sainte,</l>
+	<l id='551'>La justice a les siens ; je remplirai leurs lois.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='552'>Malheureux ! Peux-tu bien résister à ma voix ?</l>
+	<l id='553'>Peux-tu dans ces moments combattre ma tendresse ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='554'>Ah ! Trop tard à mon fort votre coeur s'intéresse.</l>
+	<l id='555'>Cruel ! Était-ce ainsi qu'il fallait me chérir ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='556'>Tu résistes en vain, en vain tu veux périr.</l>
+	<l id='557'>Suis moi, te dis-je, ingrat, ou je vais t'y contraindre.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='558'>Arrêtez. C'est à vous peut-être de me craindre.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='559'>Tu m'oses menacer !... Obéis, suis mes pas.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='560' part='i'>Soldats, approchez vous.</l>
+<stage>Les Gardes avancent.</stage>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='560' part='f'>Ô dépit !... Tu mourras.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='561'>Adieu, barbare !... Allons, Gardes qu'on me ramène.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='562'>Ma fureur est au comble, et j'en fuis maître à peine.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Emirène, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='563'>Ciel ! Où fuisse ? Au sortir d'un sommeil de douleurs,</l>
+	<l id='564'>Mes yeux se sont rouverts, mais sur quelles horreurs !</l>
+	<l id='565'>Que vois-je autour de moi dans ce séjour funeste ?</l>
+	<l id='566'>De mon père égorgé le déplorable reste,</l>
+	<l id='567'>Arbace dans les fers et cru son assassin,</l>
+	<l id='568'>Conçois-tu ces hasards et ces coups du destin !</l>
+	<l id='569'>Cette épée en sa main trouvée encor sanglante ?</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='570'>Madame , ces horreurs me glacent d'épouvante,</l>
+	<l id='571'>Je doute d'un forfait qu'il persiste à nier ;</l>
+	<l id='572'>Cependant il hésite à se justifier ;</l>
+	<l id='573'>Ne redoutez-vous point un effrayant indice ?...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='574'>Je douterais d'Arbace ! Ah ! Le ciel me punisse !...</l>
+	<l id='575'>Ne vois point dans les soins dont j'ose m'occuper</l>
+	<l id='576'>L'effet d'un sentiment qui pourrait me tromper.</l>
+	<l id='577'>Je l'estime il suffit, il faut que l'erreur cesse,</l>
+	<l id='578'>Il faut que malgré lui la vérité paraisse,</l>
+	<l id='579'>Crois qu'un premier indice est un mauvais témoin,</l>
+	<l id='580'>Qui veut la vérité, doit la chercher plus loin ;</l>
+	<l id='581'>On noircit aisément une vertu commune,</l>
+	<l id='582'>La sienne est au-dessus des jeux de la fortune ;</l>
+	<l id='583' part='i'>Viendra-t-il ?</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='583' part='f'>Par le Roi l'ordre est déjà donné,</l>
+	<l id='584'>Devant vous dans ces lieux il doit être amené ;</l>
+	<l id='585'>Mais, Madame, pour vous que je crains sa présence,</l>
+	<l id='586'>S'il s'obstine avec vous dans un fatal silence !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='587'>Ah ! Ne m'accable point. J'ai dans ce grand danger,</l>
+	<l id='588'>Et la cendre d'un père et moi-même à venger.</l>
+	<l id='589'>Ce soin sacré pour moi demande que j'embrasse</l>
+	<l id='590'>La défense des jours et de l'honneur d'Arbace.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Arbace, enchaîné, Emirène.</head>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='591'>Madame ! Au désespoir je suis abandonné :</l>
+	<l id='592'>Rassurez-moi d'un mot : m'avez-vous soupçonné ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='593'>Je demande à te voir, je soutiens ta présence ;</l>
+	<l id='594'>C'est te montrer un coeur sur de ton innocence.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='595'>Je suis moins malheureux ; vous calmez mon effroi.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='596'>Oui, l'apparence en vain dépose contre toi ;</l>
+	<l id='597'>Je sais qu'il est des coeurs trop étrangers au crime,</l>
+	<l id='598'>Pour perdre un seul moment leur place en notre estime.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='599' part='i'>Ah ! J'atteste les Dieux...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='599' part='f'>Laisse-là le serment,</l>
+	<l id='600'>Dans ce moment affreux réponds-moi seulement.</l>
+	<l id='601'>On t'accuse à mes yeux du meurtre de mon père.</l>
+	<l id='602'>Pourquoi dans tes discours ce trouble, ce mystère ?</l>
+	<l id='603'>Vertueux, innocent à tes yeux comme aux miens,</l>
+	<l id='604'>Tu parais devant moi sous d'infâmes liens :</l>
+	<l id='605'>Au rang des scélérats veux-tu que l'on te compte ?</l>
+	<l id='606'>Que prétends-tu ? Quel terme as-tu mis à ta honte ?</l>
+	<l id='607' part='i'>Réponds.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='607' part='f'>Tel est mon sort, telle est l'étrange loi ,</l>
+	<l id='608'>Que le ciel me prescrit et n'imposa qu'à moi,</l>
+	<l id='609'>De ne pouvoir d'un mot prouver mon innocence ;</l>
+	<l id='610'>D'être exempt de remords et privé de défense ;</l>
+	<l id='611'>De chérir mon honneur, et de l'abandonner ;</l>
+	<l id='612'>De mourir du silence, et de m'y condamner.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='613' part='i'>Toi, mourir !</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='613' part='f'>Ah ! Madame, à ces pleurs d'une amante</l>
+	<l id='614'>Tout horrible qu'il est mon désespoir augmente,</l>
+	<l id='615'>Il m'est affreux d'avoir troublé votre repos,</l>
+	<l id='616'>Quittez cet intérêt qui vous lie à mes maux,</l>
+	<l id='617'>Laissez à ses malheurs un coeur irréprochable</l>
+	<l id='618'>Forcé par son destin à paraître coupable,</l>
+	<l id='619'>Qui craint tout, qui perd tout, qui de tous les côtés,</l>
+	<l id='620'>Sans relâche frappé par les Dieux irrités,</l>
+	<l id='621'>Sans consolation comme sans espérance,</l>
+	<l id='622'>Ne peut plus rien goûter.... pas même l'innocence ;</l>
+	<l id='623'>Mais qui malgré le sort de sa vertu jaloux,</l>
+	<l id='624'>Sous le fer des bourreaux mourra digne de vous.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='625'>Non, tu ne mourras point ; non, ton âme inhumaine</l>
+	<l id='626'>Ne peut vouloir ma mort qui va suivre la tienne.</l>
+	<l id='627'>Au mépris de nos noeuds, tu cours à ton trépas.</l>
+	<l id='628'>Tu meurs chargé d'un crime, et tu ne songes pas</l>
+	<l id='629'>Qu'ici ma renommée à la tienne est unie,</l>
+	<l id='630'>Que c'est m'environner de ton ignominie.</l>
+	<l id='631'>On dira qu'Emirène a son père à venger ,</l>
+	<l id='632'>Et que c'est son bourreau qu'elle ose protéger.</l>
+	<l id='633'>Je ne te quitte point, cruel, que je n'arrache</l>
+	<l id='634'>De ton coeur endurci le secret qu'il me cache.</l>
+	<l id='635'>Me peux-tu refuser ? Ou peux-tu m'envier</l>
+	<l id='636'>Ce bien si doux pour moi de te justifier ?</l>
+	<l id='637'>Veux tu m'ôter enfin, t'obstinant au mystère,</l>
+	<l id='638'>L'espoir de te sauver, et de venger mon père ?</l>
+	<l id='639'>Tu détournes les yeux : tu crains de t'attendrir :</l>
+	<l id='640'>Ah ! Cède à mes douleurs, ose tout découvrir.</l>
+	<l id='641'>Vois mon horrible état, vois tes périls extrêmes :</l>
+	<l id='642'>Ingrat ! As-tu pour moi des secrets, si tu m'aimes ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='643'>Cessez, cessez, Madame, épargnez à tous deux...</l>
+	<l id='644'>Je ne puis résister, ni céder à vos voeux.</l>
+	<l id='645'>Ne me présentez plus, trop sensible à ma peine,</l>
+	<l id='646'>Une félicité trop amère et trop vaine ;</l>
+	<l id='647'>Et ne surchargez point des regrets de l'amour,</l>
+	<l id='648'>Un coeur par tant de maux déchiré tour à tour.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='649'>C'en est assez barbare ; et ta prière altière,</l>
+	<l id='650'>Dans mon coeur incertain porte enfin la lumière ;</l>
+	<l id='651'>Malgré toi-même enfin j'ai pénétré ton coeur.</l>
+	<l id='652'>Cet intérêt caché qui résiste à l'honneur,</l>
+	<l id='653'>Qui résiste à l'amour, ce secret qui te touche,</l>
+	<l id='654'>Qui prêt à s'échapper s'arrêtait sur ta bouche,</l>
+	<l id='655'>Éclate par le soin qui le tient renfermé.</l>
+	<l id='656'>Par ton silence même un perfide est nommé.</l>
+	<l id='657' part='i'>Le coupable est ton père.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='657' part='f'>Ô ciel ! Qu'osez-vous dire ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='658'>Va, ta surprise est feinte, et ne peut me séduire.</l>
+	<l id='659'>Lui seul de tant d'horreurs, lui seul est l'artisan.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='660' part='i'>Lui, coupable !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='660' part='f'>En secret, je l'ai vu ton tyran ;</l>
+	<l id='661'>Le mien ; et ce n'est pas d'aujourd'hui qu'il m'opprime ;</l>
+	<l id='662'>II pressa ton exil, il te prend pour victime,</l>
+	<l id='663'>Toi, son fils ! Son aveugle et barbare transport</l>
+	<l id='664'>Sema dans le Palais la discorde et la mort.</l>
+	<l id='665'>La rigueur qu'il affecte et ton sang qu'il prodigue,</l>
+	<l id='666'>Non moins que ton silence expliquent cette intrigue.</l>
+	<l id='667' part='i'>Je cours de ce pas même...</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='667' part='f'>Ah ! Madame, arrêtez.</l>
+	<l id='668'>Vous ne connaissez pas... Quelles extrémités !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='669'>À mes soupçons encor ta frayeur même ajoute.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='670'>Je frémis des erreurs que votre esprit écoute.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='671'>La nature t'arrête, et je vois ton respect.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='672'>La haine vous égare et vous le rend suspect.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='673'>Il voulut ma ruine en ordonnant la tienne.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='674'>Non, ce n'est qu'à regret qu'il aura fait la mienne.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='675'>Non, sa fureur le trompe et je le préviendrai,</l>
+	<l id='676'>Ce père qui te hait, ce coeur dénaturé,</l>
+	<l id='677'>J'en jure ici ma haine et le pouvoir céleste.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='678'>Et par ce même ciel, que devant vous j'atteste,</l>
+	<l id='679'>Je jure que sensible aux horreurs de mon sort,</l>
+	<l id='680'>Mon père était bien loin de demander ma mort :</l>
+	<l id='681'>II n'est votre ennemi, ni le mien : c'est moi-même,</l>
+	<l id='682'>Oui, c'est moi qui le force à sa rigueur extrême.</l>
+	<l id='683'>Ô jour de sang, ce jour marqué par la fureur.</l>
+	<l id='684'>Ainsi que pour le crime était fait pour l'erreur.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='685'>Ô mystère inouï ! Langage inconcevable !</l>
+	<l id='686'>Tu veux donc me forcer à te croire coupable ?</l>
+	<l id='687'>Man non, tu ne l'es point. Loin d'être combattu,</l>
+	<l id='688'>Mon coeur plus que jamais compte sur ta vertu.</l>
+	<l id='689'>Dans ce même moment, Emirène compare ,</l>
+	<l id='690'>Ingrat, ton caractère et celui d'un barbare,</l>
+	<l id='691'>Ta franchise, ton âme ouverte à tous les yeux,</l>
+	<l id='692'>Et l'esprit d'Artaban sombre, artificieux.</l>
+	<l id='693'>Ne te flatte donc plus que ton âme oppressée</l>
+	<l id='694'>Puisse donner le change à ma triste pensée i</l>
+	<l id='695'>Ne crois pas que mon coeur éclairé par l'amour</l>
+	<l id='696'>Prenne de tels soupçons et les quitte en un jour.</l>
+	<l id='697'>Quelle que soit enfin la cause politique</l>
+	<l id='698'>Du piège où t'a conduit un destin tyrannique,</l>
+	<l id='699'>Demande à voir ton père, et songe à le fléchir ;</l>
+	<l id='700'>De tes indignes fers qu'il sache t'affranchir,</l>
+	<l id='701'>Qu'il détrompe mon frère et tous ceux qu'il abuse,</l>
+	<l id='702'>En un mot qu'il te sauve, ou c'est moi qui l'accuse.</l>
+	<l id='703'>Et si tu n'es pas cru vertueux sur ma foi,</l>
+	<l id='704'>Je mets du moins le crime entre un barbare et toi.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='ARBACE'><speaker>ARBACE, seul.</speaker>
+	<l id='705'>En est-ce assez, destin ? On soupçonne mon père !</l>
+	<l id='706'>À force de cacher son crime je l'éclaire.</l>
+	<l id='707'>Peut-être, l'avertir d'un soupçon si fatal,</l>
+	<l id='708'>De nouvelles fureurs c'est donner le signal :</l>
+	<l id='709'>Ne le point avertir, c'est le livrer moi-même.</l>
+	<l id='710'>Dieux ! Comment le servir, et le Prince que j'aime ?</l>
+	<l id='711'>Les sauva l'un de l'autre ? Eh ! Quel courage humain</l>
+	<l id='712'>Sous tant d'assauts divers ne tombe pas enfin ?</l>
+	<l id='713'>Résister à l'amour, quelle affreuse contrainte !</l>
+	<l id='714'>Ne savoir où fixer mon devoir ni ma crainte ;</l>
+	<l id='715'>Sentir à tout moment mes fers s'appesantir ;</l>
+	<l id='716'>Voir l'accès de ma honte, et trembler d'en sortir !...</l>
+	<l id='717'>Quel état ! Ô tyrans d'une âme toujours pure,</l>
+	<l id='718'>Laissez-moi respirer, honneur, amour, nature,</l>
+	<l id='719'>Amitié, laissez-moi dans ce flux et reflux</l>
+	<l id='720'>Recueillir un moment mes voeux irrésolus.</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE IV. Artaxerce, Artaban, Arbase.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='721'>Pour la dernière fois je parais à ta vue.</l>
+	<l id='722'>J'ai laissé trop longtemps ta peine suspendue,</l>
+	<l id='723'>Pour te justifier tu n'as plus qu'un moment,</l>
+	<l id='724'>Parle, ou de ton forfait subis le châtiment,</l>
+	<l id='725'>Songe bien qu'il n'est plus qu'une prompte défense</l>
+	<l id='726'>Qui puisse te soustraire à ma juste vengeance.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='727'>Non, vous ne savez pas qui vous interrogez,</l>
+	<l id='728'>Qui vous blessez, Seigneur, et qui vous outragez ;</l>
+	<l id='729'>Vous ne connaissez pas quelle terreur me glace,</l>
+	<l id='730'>CE que souffre pour vous le malheureux Arbace,</l>
+	<l id='731'>Pour vous qui l'accusez, qui soupçonnez sa foi</l>
+	<l id='732'>Quelqu'indice inouï qui parle contre moi,</l>
+	<l id='733'>Vous avez fait un crime en me croyant un traître,</l>
+	<l id='734'>Qu'un jour vous ne pourrez vous pardonner peut-être,</l>
+	<l id='735'>La vie est pour Arbace un trop pesant fardeau,</l>
+	<l id='736'>Frappez, mais demandez aux Dieux que le bandeau</l>
+	<l id='737'>Dont vos yeux font couverts, à jamais y demeure ;</l>
+	<l id='738'>Souhaitez qu'avec moi cette vérité meure :</l>
+	<l id='739'>Confus, désespéré de m'avoir outragé,</l>
+	<l id='740'>Par votre repentir je serais trop vengé.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='741'>Hé bien ! Explique toi, montre ton innocences</l>
+	<l id='742'>Ne parais plus coupable en gardant le silence,</l>
+	<l id='743'>Et sans dissimuler, sans parler à demi,</l>
+	<l id='744'>Rends-toi l'honneur, Arbace, et rends-moi mon ami.</l>
+	<l id='745'>Tu restes interdit, tu n'oses me répondre,</l>
+	<l id='746'>Et ta fausse vertu ne sert qu'à te confondre,</l>
+	<l id='747'>Et je pourrais douter encor de ta fureur !</l>
+	<l id='748' part='i'>Lorsque par ton silence...</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='748' part='f'>Ah ! Prince, à votre soeur</l>
+	<l id='749'>Je n'en ai pas dit plus, et dans mon sort funeste,</l>
+	<l id='750'>Dans ce grand déshonneur, son estime me reste.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='751'>Son estime ! Ah ! Plutôt dis sa prévention.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN, à Arbace.</speaker>
+	<l id='752'>Quel espoir fondes-tu sur cette illusion ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE, très lentement.</speaker>
+	<l id='753'>Craignes de l'offenser, respectez ses alarmes,</l>
+	<l id='754'>Trop d'indignation se mêlait à ses larmes,</l>
+	<l id='755'>Ce n'est qu'avec l'excès du plus ardent courroux</l>
+	<l id='756'>Qu'elle a pu voir qu'un fils soit accusé par vous.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+<stage>À part.</stage>
+	<l id='757' part='i'>Qu'a-t-il dit !</l>
+<stage>Haut.</stage>
+	<l id='757' part='f'>Ainsi donc le même esprit t'anime ;</l>
+	<l id='758' part='i'>Tu veux...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='758' part='f'>Eh ! Connais-tu les suites de ton crime ?</l>
+	<l id='759'>Sais-tu bien dans quels maux tu viens de m'engager,</l>
+	<l id='760'>Cruel ; sais-tu sur qui, trop prompt à me venger,</l>
+	<l id='761'>Déjà ma défiance a porté ma colère ?</l>
+	<l id='762'>Ici, plutôt que toi, j'ai soupçonné mon frère.</l>
+	<l id='763' part='i'>Darius a péri.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='763' part='m'>Darius !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='763' part='f'>Tu pâlis !</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='764'>Ô Dieux ! De quel effroi tous mes sens sont remplis ;</l>
+	<l id='765' part='i'>Qui l'accusa ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='765' part='m'>Moi-même.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='765' part='m'>Ah ciel !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='765' part='f'>Son sort t'étonne.</l>
+	<l id='766'>Je n'ai rien respecté pour assurer le trône.</l>
+	<l id='767'>Plus ennemi que lui, tu persistes, cruel !</l>
+	<l id='768'>Je ne te connais plus : ton refus criminel...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARBACE, à Artaban.</speaker>
+<stage>À part.</stage>
+	<l id='769' part='i'>Barbare !</l>
+<stage>Haut.</stage>
+	<l id='769' part='f'>Ah ! Si je suis à vos yeux si coupable ,</l>
+	<l id='770'>Rougissez donc d'un fils de tant d'horreurs capable.</l>
+	<l id='771'>Odieux désormais à la Perse par moi,</l>
+	<l id='772'>Comment dans cet état approchez-vous du Roi ?</l>
+	<l id='773'>Restez-vous dans un rang d'où ma honte vous chasse ?</l>
+	<l id='774'>Couvert de mon opprobre, est-ce ici votre place ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='775'>J'y reste encore, ingrat ; peur-être je le dois</l>
+	<l id='776'>Pour être le premier à me venger de toi.</l>
+<stage>À Artaxerce.</stage>
+	<l id='777'>Non, Seigneur, il n'a plus qu'un juge dans son père.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='778'>Et mon père immolé par ta main meurtrière,</l>
+	<l id='779'>Ne criant que ta mort dans le fond de mon coeur,</l>
+	<l id='780'>Déjà de ma vengeance accuse la lenteur.</l>
+	<l id='781'>Il est temps que ton sang satisfasse à ses mânes,</l>
+	<l id='782'>Et plus que moi, cruel, c'est toi qui te condamnes,</l>
+	<l id='783' part='i'>Qu'on l'ôte de mes yeux.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+<note type="C">Aucun autre vers ne rime avec le vers 783.</note>
+	<l id='783' part='f'>Méprisez mes tourments,</l>
+	<l id='784'>...........................................</l>
+	<l id='785'>Prince, condamnez-moi, voyez-moi comme un traître,</l>
+	<l id='786'>Un sacrilège, un monstre, ... à vos yeux je dois l'être...</l>
+	<l id='787'>Mais que mon sang versé ne vous rassure pas,</l>
+	<l id='788'>Seigneur, changez la garde, et craignez mon trépas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Artaxerce, Artaban.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='789'>Que dit-il, et pour moi quel intérêt l'anime !</l>
+	<l id='790' part='i'>Quel soin ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+<stage>À part.</stage>
+	<l id='790' part='m'>Parons ce coup.</l>
+<stage>Haut.</stage>
+	<l id='790' part='f'>Seigneur, quoiqu'il supprime ;</l>
+	<l id='791'>De son faux désaveu le perfide sorti,</l>
+	<l id='792'>Vient de montrer enfin qu'il connaît un parti</l>
+	<l id='793'>Puissant, nombreux, formé depuis longtemps sans doute ;</l>
+	<l id='794'>Puisqu'il est des dangers que pour vous on redoute,</l>
+	<l id='795'>Puisque même à vos yeux son chef déjà frappé,</l>
+	<l id='796'>En tombant sous le fer ne l'a point dissipé.</l>
+	<l id='797'>Arbace était dans Suze... Il a vu la Princesse...</l>
+	<l id='798'>Elle est la seule ici qui pour lui s'intéresse.....</l>
+	<l id='799'>Vous la voyez , Seigneur, le défendre à vos yeux.</l>
+	<l id='800'>Vous la voyez pleurer un Prince factieux...</l>
+	<l id='801'>Pardonnez ; mais pour vous Arbace paraît craindre...</l>
+	<l id='802'>Serait-ce le remords d'un coeur lassé de feindre ?...</l>
+	<l id='803'>Eut il pris le poignard de la main de l'amour ?...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='804'>Arrêtez, Artaban : eh ! Quel horrible jour</l>
+	<l id='805'>Croyez-vous donc porter dans mon âme éperdue ?</l>
+	<l id='806'>Non, de ce jour affreux n'éclairez point ma vue,</l>
+	<l id='807'>Sur les miens désormais cessez de m'alarmer ;</l>
+	<l id='808'>Dois-je prendre en horreur tout ce qu'il faut aimer ?</l>
+	<l id='809'>Je suis bien malheureux ! Non laissez-moi, vous dis-je ;</l>
+	<l id='810'>Je ne croirai jamais à cet affreux prodige ,</l>
+	<l id='811'>Que tout conspire ici pour me percer le flanc,</l>
+	<l id='812'>Et que le même crime ait gagné tout mon sang.</l>
+	<l id='813'>Allez, dans ce moment que le conseil s'assemble,</l>
+	<l id='814'>Qu'Arbace soit jugé, que le perfide tremble ;</l>
+	<l id='815'>Plus il surprit mon coeur par un faux sentiment ;</l>
+	<l id='816'>Plus je dois aujourd'hui marquer son châtiment.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Artaban, Mégabise.</head>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='817'>Ciel ! Qu'ai-je entendu ! Seigneur, qu'allez-vous faire ?</l>
+	<l id='818'>Ce moment dangereux permet-il qu'on diffère ?</l>
+	<l id='819'>On va juger Arbace , êtes-vous sans effroi ?</l>
+	<l id='820' part='i'>L'abandonnerez-vous à son destin ?</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='820' part='f'>Suis moi.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Artaxerce, Artaban.</head>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='821'>Inflexible ennemi des crimes de ma race,</l>
+	<l id='822'>Au rang des Juges même oui, Seigneur, j'ai pris place ;</l>
+	<l id='823'>C'était trop peu pour moi que de l'abandonner,</l>
+	<l id='824'>À la mort le premier j'ai dû le condamner,</l>
+	<l id='825'>Je devais à l'État un si grand sacrifice,</l>
+	<l id='826'>C'en est fait, et mon fils va marcher au supplice.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='827'>Ainsi donc son silence est un crime de plus...</l>
+	<l id='828'>Que de freins à la fois il faut qu'il ait rompus !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='829'>C'est son crime, Seigneur, non sa mort qui m'accable.</l>
+	<l id='830'>Comment prévoir qu'un jour il devint si coupable,</l>
+	<l id='831'>Et qu'un bras qui pour vous s'est armé tant de fois,</l>
+	<l id='832'>Souillerait jusques là l'honneur de ses exploits :</l>
+	<l id='833'>De l'État en ces lieux les chefs prêts à paraître</l>
+	<l id='834'>Vont fléchir le genou devant leur nouveau maître ;</l>
+	<l id='835'>II ne m'appartient pas dans mon sort malheureux,</l>
+	<l id='836'>De joindre devant vous mon hommage à leurs voeux.</l>
+	<l id='837'>J'ai signé de mon fils la sentence mortelle,</l>
+	<l id='838'>C'est là qu'en traits de sang ma foi se renouvelle.</l>
+	<l id='839'>Je n'ai plus qu'à quitter ces funestes remparts,</l>
+	<l id='840'>Où je vois mon opprobre écrit de toutes parts,</l>
+	<l id='841'>Je cours ensevelir mon horrible disgrâce,</l>
+	<l id='842'>Et plût aux Dieux encor la honte de ma race.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='843'>Je me sens déchiré. Une indigne pitié</l>
+	<l id='844'>Vient saisir malgré moi mon esprit effrayé.</l>
+	<l id='845'>Ô jour affreux ! Il faut que le traître périsse</l>
+	<l id='846'>Dans l'opprobre, grands Dieux ! Dans le dernier supplice,</l>
+	<l id='847'>Ah ! Si dans les excès de sa témérité,</l>
+	<l id='848'>Il avait à mes jours seulement attenté,</l>
+	<l id='849'>J'aurais laissé briser des mains de la clémence</l>
+	<l id='850'>Le glaive dont les lois ont armé ma puissance.</l>
+	<l id='851'>Ô de mon coeur trahi sentiments superflus !</l>
+	<l id='852'>Charme qui m'abusiez, qu'êtes-vous devenus ?</l>
+	<l id='853'>Quand sujets tous les deux et sous des lois communes ;</l>
+	<l id='854'>Un sort moins inégal rapprochait nos fortunes,</l>
+	<l id='855'>Sur quelle foi trompeuse hélas ! Trop endormi,</l>
+	<l id='856'>J'avais cru pour le trône acquérir un ami !</l>
+	<l id='857'>Au lieu de ce trésor, je ne vois plus qu'un traître.</l>
+	<l id='858'>Il semblait cependant notre point fait pour l'être ;</l>
+	<l id='859'>Fatalité bizarre ! Affreux destin des Rois !</l>
+	<l id='860'>Tout le corrompt-il donc auprès d'eux par leur choix ?</l>
+	<l id='861'>Lui que j'ai vu fidèle autant que magnanime,</l>
+	<l id='862'>Un coeur change à ce point ! Un moment mène au crime !</l>
+	<l id='863'>À qui donc se livrer ? Où placer l'amitié ?</l>
+	<l id='864'>Et toi vertu d'un jour, à qui je me fiais,</l>
+	<l id='865'>Tu m'as trompé ; j'ai cru qu'un pas dans ta carrière</l>
+	<l id='866'>Devait être un attrait pour la remplir entière.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Artaxerce, Emirène, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='867'>Arbace !... Qu'ai-je appris ? Arbace est condamné !</l>
+	<l id='868'>Au supplice, à l'opprobre Arbace abandonné !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='869'>Je ne suis plus son Roi que pour être son juge.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='870'>Je le crois innocent, et je fuis son refuge ;</l>
+	<l id='871'>Contre vous, contre tous, je viens le secourir,</l>
+	<l id='872'>C'est un crime pour moi de le laisser périr.</l>
+	<l id='873'>Son danger m'affranchit d'une vaine réserve,</l>
+	<l id='874'>Et l'honneur, l'équité, tout veut que je le serve.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='875'>Eh ! De son crime encor vous doutez aujourd'hui ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='876' part='i'>Son crime ! Est-il prouvé ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='876' part='f'>Quoi ! Lorsque contre lui</l>
+	<l id='877'>Vous voyez qu'à la fois tout dépose et l'accuse ;</l>
+	<l id='878'>Ce séjour ignoré qu'il prolongea dans Suze,</l>
+	<l id='879'>Ce silence obstiné, ce désaveu menteur</l>
+	<l id='880'>Du crime dont il est le complice, ou l'auteur,</l>
+	<l id='881'>Lorsque le fer sanglant... Écoutez, Emirene ,'</l>
+	<l id='882'>Une aveugle pitié trop longtemps vous entraîne.</l>
+	<l id='883'>Est-ce ainsi qu'oubliant la plus auguste loi,</l>
+	<l id='884'>Vous outragez la cendre et d'un père et d'un Roi.</l>
+	<l id='885' part='i'>Vous osez...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='885' part='f'>Arrêtez, n'insultez pas vous-même</l>
+	<l id='886'>Aux pleurs, au désespoir d'une soeur qui vous aime.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='887'>Cessez donc de douter encor de ses forfaits ;</l>
+	<l id='888'>Soyez ma soeur, soyez la fille de Xercès.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='889'>Xercès périt, Seigneur, il attend la vengeance ;</l>
+	<l id='890'>C'est là mon premier soin, c'est ma triste espérance ;</l>
+	<l id='891'>Et qu'un long châtiment soit préparé pour moi,</l>
+	<l id='892'>Si, m'osant écarter de la plus sainte loi,</l>
+	<l id='893'>À mon coupable amant lâchement asservie.</l>
+	<l id='894'>Je lui vendais le sang qui m'a donné la vie.</l>
+	<l id='895'>Mais ce sang, où sans crainte on osa se plonger ;</l>
+	<l id='896'>Si l'innocent périt, reste encor à venger.</l>
+	<l id='897'>Plus l'apparence ici déposant contre Arbace ;</l>
+	<l id='898'>Des soupçons à lui seul semble arrêter la trace ;</l>
+	<l id='899'>Plus dans son désaveu ce mortel affermi,</l>
+	<l id='900'>Exige d'examen dans le coeur d'un ami.</l>
+	<l id='901'>Qui, lui, Seigneur ! Qu'après tant de preuves de zèle ;</l>
+	<l id='902'>Tant d'horreur ait souillé cette âme si fidèle !</l>
+	<l id='903'>Il eut pu, par le crime, élever aujourd'hui</l>
+	<l id='904'>Cette affreuse barrière entre Emirène et lui !</l>
+	<l id='905'>Non ; du crime jamais il n'eut conçu l'idée ;</l>
+	<l id='906'>Les armes à la main il m'aurait demandée ;</l>
+	<l id='907'>Il eut, poussant l'audace au plus terrible éclat,</l>
+	<l id='908'>Soulevé tout ce peuple et renversé l'État ;</l>
+	<l id='909'>Son amour, son dépit, sa fierté naturelle,</l>
+	<l id='910'>Son audace emportée en eut fait un rebelle,</l>
+	<l id='911' part='i'>Jamais un lâche.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='911' part='f'>En vain vous lui servez d'appui ;</l>
+	<l id='912'>Mon père n'eut jamais d'autre ennemi que lui.</l>
+	<l id='913'>Dans votre aveuglement vous seule pouvez croire...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='914'>Tout, avant de penser qu'il ait souillé sa gloire.</l>
+	<l id='915'>Par les mêmes soupçons indignement flétri,</l>
+	<l id='916'>Par votre ordre déjà votre frère a péri.</l>
+	<l id='917'>Je veux croire avec vous que la haine inquiète</l>
+	<l id='918'>Préparait contre vous quelque trame secrète,</l>
+	<l id='919'>Que pour troubler l'État peut-être il eut vécu :</l>
+	<l id='920'>Mais enfin de son crime est-il mort convaincu ?</l>
+	<l id='921'>Lui sur qui la loi seule avait un droit suprême.</l>
+	<l id='922'>Après l'oubli des lois, redoutez les lois même...</l>
+	<l id='923'>Le crime à leur regard souvent s'est dérobé,</l>
+	<l id='924'>L'innocent méconnu sous leur glaive est tombé,</l>
+	<l id='925'>Vous condamnez Arbace ! Ah ! Craignez l'injustice,</l>
+	<l id='926'>Redoutez le faux jour d'un dangereux indice.</l>
+	<l id='927'>Une haute vertu quand l'éclat solennel</l>
+	<l id='928'>A consacré le nom et les moeurs d'un mortel,</l>
+	<l id='929'>De sa seule vertu l'autorité suprême</l>
+	<l id='930'>Suffit pour balancer l'évidence elle-même.</l>
+	<l id='931'>Du temps, juge infaillible, attendez le flambeau.</l>
+	<l id='932'>D'un frère et d'un ami tour à tour le bourreau,</l>
+	<l id='933'>Sans venger votre père, irez-vous par des crimes,</l>
+	<l id='934'>Sur sa cendre trompée entasser les victimes ;</l>
+	<l id='935'>Et verser au hasard, précipitant vos coups,</l>
+	<l id='936'>Un sang qui vous fut cher, et qui coula pour vous ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='937'>Dans un crime d'État, c'en est un de se taire ;</l>
+	<l id='938'>De n'en pas tout entier révéler le mystère ;</l>
+	<l id='939'>Des indices ainsi le secours rejeté</l>
+	<l id='940'>Aurait plus d'une fois produit l'impunité.</l>
+	<l id='941'>Ces preuves contre lui sont assez authentiques :</l>
+	<l id='942'>Ne me parlez donc plus de hasards chimériques,</l>
+	<l id='943'>D'une innocence ou fausse, ou qu'il veut nous cacher ;</l>
+	<l id='944'>S'il se tait, il mourra. Qu'ai-je à me reprocher ?</l>
+	<l id='945'>J'ai moi-même aujourd'hui combattant l'évidence ;</l>
+	<l id='946'>Dans le fond de son coeur cherché son innocence ,</l>
+	<l id='947'>J'ai permis, espérant de le revoir absous,</l>
+	<l id='948'>Qu'il fut interrogé par son père et par vous ;</l>
+	<l id='949'>D'un complot ténébreux qu'il dévoile la trame ,</l>
+	<l id='950'>Qu'il s'explique, qu'il parle : ou vous-même j Madame»</l>
+	<l id='951'>Trouvez d'autres moyens de le justifier.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='952'>Il n'en est qu'un, Seigneur, c'est de vous défier...</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='953' part='i'>Et de qui ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='953' part='m'>D'Artaban.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='953' part='f'>Quelle erreur vous égare ?</l>
+	<l id='954' part='i'>Comment ? D'où savez-vous !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='954' part='f'>Je crains tout du barbare,</l>
+	<l id='955'>Avant de le nommer j'ai longtemps combattu,</l>
+	<l id='956'>De son malheureux fils j'afflige la vertu ,</l>
+	<l id='957'>L'ingrat va repousser, pour courir au supplice,</l>
+	<l id='958'>La main que je lui tends au bord du précipice,</l>
+	<l id='959'>Mais il y va tomber, mais tout est contre lui,</l>
+	<l id='960'>Lui-même il s'abandonne, il n'a que moi d'appui,</l>
+	<l id='961'>Sauvons le malgré lui des coups de l'imposture,</l>
+	<l id='962'>S'il peut sacrifier l'honneur à la nature,</l>
+	<l id='963'>Si sans voir que du crime il se fait le soutien,</l>
+	<l id='964'>Il se tait par devoir, le sauver est le mien.</l>
+	<l id='965'>Vous voyez la douleur et l'effroi qui me glace,</l>
+	<l id='966'>Un si funeste avis ne me rend point Arbace,</l>
+	<l id='967'>Je le perdrai de même, ah ! Du moins qu'aujourd'hui !</l>
+	<l id='968'>Emirène le sauve en renonçant à lui.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='969'>Vous craignez ? Vous voulez qu'une crainte si vaine,</l>
+	<l id='970'>Qu'un soupçon seulement fondé sur votre haine.</l>
+	<l id='971'>Balance dans mon coeur d'invincibles raisons,</l>
+	<l id='972'>Qui sur le traître Arbace attachent mes soupçons ;</l>
+	<l id='973'>Vous voulez, qu'oubliant quarante ans de services,</l>
+	<l id='974'>Sur de vagues terreurs, sans preuves, sans indices...</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Artaban, Artaxerce, Emirène, Elise.</head>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='975'>Seigneur, dans le moment je viens d'être averti</l>
+	<l id='976'>Que bientôt le Palais devait être investi.</l>
+	<l id='977'>De Darius, dit-on, les complices perfides ,</l>
+	<l id='978'>Craignant d'être punis et de vengeance avides,</l>
+	<l id='979'>Sans doute soulevaient les esprits contre vous ;</l>
+	<l id='980'>Et mon zèle aura même excité leur courroux.</l>
+	<l id='981'>Depuis que j'ai signé la sentence d'Arbace</l>
+	<l id='982'>Ils avancent l'instant que marqua leur audace :</l>
+	<l id='983'>Mais j'ai dans le moment fait de cet attentat</l>
+	<l id='984'>Avertir votre garde et les chefs de l'État.</l>
+	<l id='985'>Vous ne craindrez plus rien d'une telle entreprise ;</l>
+	<l id='986'>Et l'art des conjurés n'est que dans la surprise.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='987' part='i'>Eh bien ! Ma soeur.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='987' part='f'>Seigneur, le trône vous attend,</l>
+	<l id='988'>Il le faut affermir, et c'est en y montant.</l>
+	<l id='989'>Les serments prononcés, l'alliance sacrée</l>
+	<l id='990'>Du peuple avec son Roi sur les autels jurée,</l>
+	<l id='991'>Tout rappelle au devoir les esprits révoltés,</l>
+	<l id='992'>Tout servira de frein à leurs témérités.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='993'>Grands Dieux ! Ah ! Si les Rois sont vos vives images,</l>
+	<l id='994'>Deviez-vous sur leur tête assembler tant d'orages ?</l>
+	<l id='995'>Allons, voyons quels coups, il nous faut prévenir.</l>
+	<l id='996'>Ciel ! Être à peine au trône, et n'avoir qu'à punir !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Emirène, Élise.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='997'>Ô Dieux ! Avec quel art le traître dissimule !</l>
+	<l id='998'>Que la fourbe est habile, et l'amitié crédule !</l>
+	<l id='999'>Par quel coup politique et par quel ascendant</l>
+	<l id='1000'>Il trompe un jeune roi forcé d'être imprudent !</l>
+	<l id='1001'>Peut-être j'aurais dû.... mais qu'aurais-je pu dire ,</l>
+	<l id='1002'>Que le traître déjà n'eut eu l'art de détruire ?</l>
+	<l id='1003'>Quoi ! De notre entretien tout le fruit est perdu ,</l>
+	<l id='1004'>Je vois en un moment mon espoir confondu.</l>
+</sp>
+<sp who='ÉLISE'><speaker>ÉLISE.</speaker>
+	<l id='1005'>Quoi ! Son zèle n'a point dans votre âme surprise</l>
+	<l id='1006' part='i'>Ébranlé les soupçons...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1006' part='f'>Il les confirme, Élise.</l>
+	<l id='1007'>Plus son zèle pour nous cherche à se signaler,</l>
+	<l id='1008'>Et plus ce zèle est faux, plus il me fait trembler,</l>
+	<l id='1009'>Il n'a que trop de droits d'imposer à mon frère :</l>
+	<l id='1010'>Mais il ne peut tromper mon regard plus sévère,</l>
+	<l id='1011'>C'est un monstre : courons, employons ce moment</l>
+	<l id='1012'>À tenter les moyens de sauver mon amant.</l>
+	<l id='1013'>Toi qui connais Arbace, ô ciel, prends sa défense ;</l>
+	<l id='1014'>Je croirais t'offenser d'implorer ta clémence,</l>
+	<l id='1015'>J'invoque ta justice, éclate, qu'attends-tu</l>
+	<l id='1016'>Pour frapper le coupable et sauver la vertu ?</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='ARTABAN'><speaker>ARTABAN, seul.</speaker>
+	<l id='1017'>Enfin à mes desseins voici l'instant propice ;</l>
+<note type="L">Auspice : C'était chez les anciens une espèce d'augure, de vaine superstition, lorsqu'ils considéraient le vol et le chant des oiseaux, pour savoir si quelque entreprise que l'on commençait devait être heureuse ou malheureuse. [F]</note>
+	<l id='1018'>Je vois le sort d'un fils sous un plus doux auspice,</l>
+	<l id='1019'>J'ai dû l'épouvanter n'ayant pu l'attendrir,</l>
+	<l id='1020'>Je ne le verrai plus s'obstiner à périr.</l>
+	<l id='1021'>J'ai craint, je l'avouerai, l'entretien d'Emirene ;</l>
+	<l id='1022'>Les regards de l'amour, les soupçons de la haine,</l>
+	<l id='1023'>J'ai tremblé que le frère alarmé par la soeur,</l>
+	<l id='1024'>De quelque vérité n'entrevit la lueur ;</l>
+	<l id='1025'>Mais en le prévenant par une heureuse adresse</l>
+	<l id='1026'>Des coups qu'à son insu je prépare et je presse,</l>
+	<l id='1027'>Vers sa perte à ce trône il s'avance égaré,</l>
+	<l id='1028'>Et le piège l'attend sur le premier degré.</l>
+	<l id='1029'>Infaillible ressource, et nouveau stratagème,</l>
+	<l id='1030'>J'aurai su le tromper par la vérité même.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Artaban, Mégabise.</head>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1031'>J'ai délivré mon fils, il est en sûreté,</l>
+	<l id='1032'>Et nous pouvons enfin agir en liberté.</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='1033'>Quel prestige à ses yeux a donc pu vous absoudre ?</l>
+	<l id='1034'>À sortir de ses fers qui l'a donc pu résoudre,</l>
+	<l id='1035' part='i'>Lui, Seigneur, qui tantôt...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1035' part='f'>Ce n'est pas sans effort ;</l>
+	<l id='1036'>En vain je lui montrais les horreurs de son sort,</l>
+	<l id='1037'>L'appareil de la mort préparé dans la place,</l>
+	<l id='1038'>Un infâme bûcher élevé pour Arbace,</l>
+	<l id='1039'>Rien n'ébranlait son coeur, il était sans effroi ;</l>
+	<l id='1040'>Le moment de sa mort n'approchait que pour moi ;</l>
+	<l id='1041'>Et de tous mes desseins détestant l'artifice,</l>
+	<l id='1042'>L'ingrat à mes bontés préférait le supplice ;</l>
+	<l id='1043'>Il m'échappait enfin et courait au trépas</l>
+	<l id='1044'>La fureur me saisit et j'arrête ses pas :</l>
+	<l id='1045'>Obéis, ai-je dit, ou crains pour ton amante,</l>
+	<l id='1046'>Soudain il n'a plus vu qu'Emirene expirante :</l>
+	<l id='1047'>À cette affreuse image il a pâli, tremblé,</l>
+	<l id='1048'>Les périls d'Emirene enfin l'ont ébranlé,</l>
+	<l id='1049'>Et j'ai su le forcer par sa frayeur extrême,</l>
+	<l id='1050'>À sortir de ses fers, pour sauver ce qu'il aime.</l>
+	<l id='1051'>Mais les Grands à l'Autel vont joindre ici le Roi.</l>
+	<l id='1052'>Dis moi, cher Mégabise, as-tu rempli ma loi ?</l>
+	<l id='1053'>As-tu versé la mort dans la coupe sacrée,</l>
+	<l id='1054'>Pour le serment du trône en ces lieux préparée ?</l>
+</sp>
+<sp who='MÉGABISE'><speaker>MÉGABISE.</speaker>
+	<l id='1055'>Oui, j'ai choisi l'instant, et loin de tous les yeux,</l>
+	<l id='1056'>J'ai su prendre, Seigneur, ce soin mystérieux ;</l>
+	<l id='1057'>Cependant d'Artaxerce écartez Emirène,</l>
+	<l id='1058'>Je redoute toujours la douleur qui l'entraîne,</l>
+	<l id='1059'>Si par elle aux soupçons peut-être ramené...</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1060'>Je tiens à mon génie Artaxerce enchaîné,</l>
+	<l id='1061'>Et sa crédulité bien moins que mon adresse</l>
+	<l id='1062'>Sur ses propres périls aveugle sa jeunesse,</l>
+	<l id='1063'>L'Autel, le trône est prêt, rien ne peut l'arrêter,</l>
+	<l id='1064'>Dans de si courts instants qu'aurais-je à redouter !</l>
+	<l id='1065'>Au succès de mes voeux quel revers pourrait nuire ?</l>
+	<l id='1066'>De ce moment, ami, seulement je respire,</l>
+	<l id='1067'>Tout ce que j'ai souffert ! Dans quels maux aujourd'hui,</l>
+	<l id='1068'>Dans quel péril mon fils me jetait avec lui,</l>
+	<l id='1069'>Le voir prêt à périr sans pouvoir le défendre,</l>
+	<l id='1070'>Tantôt presser se mort, et tantôt la suspendre,</l>
+	<l id='1071'>Détester sa vertu, devant tout à sa foi,</l>
+	<l id='1072'>Dans le fond de mon coeur l'admirer malgré moi ;</l>
+	<l id='1073'>Moi-même être jaloux de la paix consolante</l>
+	<l id='1074'>Qui tenait lieu de tout à son âme innocente,</l>
+	<l id='1075'>Que j'ai senti de trouble, ami ! Mais ne crois pas</l>
+	<l id='1076'>Qu'en mon ambition je recule d'un pas,</l>
+	<l id='1077'>Plus j'ai tenté pour elle et plus elle redouble,</l>
+	<l id='1078'>Ne prends point pour remords quelques moments de trouble,</l>
+	<l id='1079'>Et de tous mes malheurs crois que le plus affreux,</l>
+	<l id='1080'>Ce serait de laisser mon crime infructueux :</l>
+	<l id='1081'>Sors, rejoins mon parti, j'aperçois Artaxerce.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Artaxerce, Artaban, Les Satrapes, Gardes.</head>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1082'>Demeurez, Artaban, vous, soutiens de la Perse ,</l>
+	<l id='1083'>Écoutez ; si les Rois sont sujets à l'erreur</l>
+	<l id='1084'>Leur équité du moins doit avoir en horreur</l>
+	<l id='1085'>Ce préjugé honteux que ma justice efface,</l>
+	<l id='1086'>De flétrir un mortel des crimes de sa race.</l>
+	<l id='1087'>Dans ces moments de trouble et de soulèvements</l>
+	<l id='1088'>Votre Roi s'est hâté d'exiger vos serments.</l>
+	<l id='1089'>Puisse mon règne ouvert sous de si noirs auspices ;</l>
+	<l id='1090'>Vous donner d'autres jours plus doux que ces prémices !</l>
+	<l id='1091'>Je jure le premier sur la coupe des Rois,</l>
+	<l id='1092'>Je jure d'être juste et d'obéir aux lois,</l>
+	<l id='1093'>De me croire engagé par ma grandeur suprême</l>
+	<l id='1094'>À rendre heureux ce peuple, à mériter qu'il m'aime ;</l>
+	<l id='1095'>Et que le Dieu du jour par ma voix attesté</l>
+	<l id='1096'>À mes yeux pour jamais refuse la clarté,</l>
+	<l id='1097'>Que la mort dans mon sein passe avec ce breuvage,</l>
+	<l id='1098'>Si je dois violer le serment qui m'engage.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Les Acteurs précédens, Emirène.</head>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1099'>Ouvrez-moi les chemins, qui l'aurait crû, Seigneur,</l>
+	<l id='1100' part='i'>Arbace est hors des fers.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1100' part='f'>Que dites-vous, ma soeur ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1101'>Seigneur sa délivrance autant que vous m'étonne,</l>
+	<l id='1102'>Les rebelles... Arbace... et c'est lui qu'on soupçonne ?</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1103' part='i'>Comment ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1103' part='f'>Ce même Arbace accusé devant vous ;</l>
+	<l id='1104'>L'objet infortuné de tout votre courroux,</l>
+	<l id='1105'>Que dans ces lieux hors moi tout a pu méconnaître,</l>
+	<l id='1106'>S'il eût voulu, Seigneur, il était roi peut-être,</l>
+	<l id='1107' part='i'>Par lui tout est calmé.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN, à part.</speaker>
+	<l id='1107' part='f'>Qu'entends-je ? Quel revers !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1108'>Arbace !... Quelle main a donc brisé ses fers ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1109'>J'ignore. Mais Seigneur, il en sortait à peine,</l>
+	<l id='1110'>Il s'élève à sa vue une émeute soudaine,</l>
+	<l id='1111'>Il voit les conjurés, et de quelques soldats</l>
+	<l id='1112'>Qu'il désarme lui-même il fait suivre ses pas.</l>
+	<l id='1113'>Il s'élance, il s'écrie, ah ! Calmez mes alarmes,</l>
+	<l id='1114'>Cessez, qui que ce soit qui vous appelle aux armes ;</l>
+	<l id='1115'>Qui de ce zèle affreux vous remplisse pour moi</l>
+	<l id='1116'>Quittez-le, osez me suivre aux pieds de votre Roi ;</l>
+	<l id='1117'>Versez pour une cause illustre et légitime</l>
+	<l id='1118'>Un sang que vous alliez prodiguer pour le crime,</l>
+	<l id='1119'>Barbares, choisissez l'infamie ou l'honneur.</l>
+	<l id='1120'>La honte de céder agite encor leur coeur ;</l>
+	<l id='1121'>Il insiste, il obtient, il enchaîne l'audace,</l>
+	<l id='1122'>Les rebelles vaincus tombent aux pieds d'Arbace.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Artaxerce, Artaban, Emirène, Les Grands de la Perse.</head>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1123'>Seigneur j'ai rempli mon devoir,</l>
+	<l id='1124'>J'ai saisi ce moment qui fut en mon pouvoir.</l>
+	<l id='1125'>De ramener l'audace à votre obéissance.</l>
+	<l id='1126'>Ce succès que le ciel dût à mon innocence,</l>
+	<l id='1127'>Ce bien inespéré que je goûte en ce jour</l>
+	<l id='1128'>Doit peut-être m'absoudre aux yeux de votre Cour,</l>
+	<l id='1129'>Mais si ce prompt effet de la foi la plus pure,</l>
+	<l id='1130'>Si mon zèle trop vain n'a rien qui vous rassure,</l>
+	<l id='1131'>Si plus sévère enfin comme fils, comme roi,</l>
+	<l id='1132'>Tous vos soupçons encor sont arrêtés sur moi,</l>
+	<l id='1133'>Qu'on me rende mes fers, le malheureux Arbace</l>
+	<l id='1134'>Est absous devant vous, on ne veut point de grâce.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1135'>Je ne sais où je suis ! Hé qui t'a délivré ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1136'>Le sort, le même sort contre moi déclaré</l>
+	<l id='1137' part='i'>N'exigez rien de plus.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1137' part='f'>Ô prodige ! Ô mystère</l>
+	<l id='1138'>Chaque mot me confond ; est-ce ainsi qu'il m'éclaire ?</l>
+	<l id='1139'>Toi me défendre ! Toi ! Tu m'aurais pu servir,</l>
+	<l id='1140'>Est-ce innocence ? Ô ciel ! N'est-ce qu'un repentir ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1141'>Le crime est trop horrible, et qui l'eut pu commettre,</l>
+	<l id='1142'>Entre vos mains, Seigneur, viendrait-il se remettre ?</l>
+	<l id='1143'>Sûr qu'il n'est point de grâce en un tel attentat,</l>
+	<l id='1144'>Que le moindre pardon révolterait l'État,</l>
+	<l id='1145'>Le coupable aux forfaits dévoue alors la vie ;</l>
+	<l id='1146'>Et pour mieux les cacher, souvent les multiplie.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1147'>Que dois-je soupçonner ! Il échappe à ses fers,</l>
+	<l id='1148'>II réprime lui seul des complots si pervers,</l>
+	<l id='1149'>Par un zèle apparent si pour sauver sa gloire...</l>
+	<l id='1150'>Sa fureur... à l'autel... plus couverte... plus noire...</l>
+	<l id='1151'>Hé bien prends à témoin dans ce lieu redouté,</l>
+	<l id='1152'>Et de ton innocence et de la vérité</l>
+	<l id='1153'>Le Dieu dont la puissance est dans Suze adorée ;</l>
+	<l id='1154'>Viens, jure à cet autel sur la coupe sacrée.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1155' part='i'>Ah ! Je suis prêt, donnez.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1155' part='m'>Mon fils !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1155' part='m'>Artaban !</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1155' part='f'>Ciel !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1156' part='i'>Pourquoi l'arrêtez-vous ?</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1156' part='m'>Ô crime !</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE, à part.</speaker>
+	<l id='1156' part='f'>Sort cruel !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1157' part='i'>Quel est donc votre effroi ? Parlez.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1157' part='f'>Tout vous éclaire,</l>
+	<l id='1158'>Le ciel ouvre vos yeux. Redoutez tout, mon frère.</l>
+	<l id='1159'>Trop longtemps le perfide a surpris votre soi.</l>
+	<l id='1160' part='i'>Artaban nous trahit.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1160' part='m'>Quoi, Madame !...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE, à Artaban.</speaker>
+	<l id='1160' part='f'>Tais toi.</l>
+	<l id='1161'>Va, je reconnais trop ta fourbe abominable,</l>
+	<l id='1162'>Ton crime est avéré : si tu n'es pas coupable,</l>
+	<l id='1163' part='i'>Bois dans la coupe.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1163' part='f'>Hé bien !... Oui, je l'empoisonnai.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1164' part='i'>Quel aveu !</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1164' part='m'>Quoi, perfide !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1164' part='f'>Et te la destinai,</l>
+	<l id='1165'>J'ai tout fait pour Arbace, il n'est point mon complice ;</l>
+	<l id='1166'>Mon fils du fer sanglant craignit pour moi l'indice,</l>
+	<l id='1167' part='i'>Sa main me l'arracha.</l>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1167' part='m'>Qu'on l'arrête.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1167' part='f'>Frémis ;</l>
+	<l id='1168'>J'ai su gagner ta garde et tout n'est pas soumis.</l>
+	<l id='1169' part='i'>Amis , meure Artaxerce.</l>
+<stage>Il tire son épée pour signal.</stage>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE, l'épée à la main.</speaker>
+	<l id='1169' part='f'>Osez-vous bien, perfides ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE, se jetant au devant du Roi.</speaker>
+	<l id='1170'>C'est à travers mon sein que vos coups parricides...</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1171' part='i'>Ah ! Dieux !</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1171' part='m'>N'écoutez rien.</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE , se jetant sur l'autel prenant la coupe.</speaker>
+	<l id='1171' part='f'>Frémissez, inhumain,</l>
+	<l id='1172'>Vous m'aimez, ce poison va passer dans mon sein.</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1173' part='i'>Que fais-tu ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1173' part='f'>Jetez donc ces armes criminelles ;</l>
+	<l id='1174'>Donnez du repentir cet exemple aux rebelles</l>
+	<l id='1175' part='i'>Ou cette coupe....</l>
+</sp>
+<sp who='ARTABAN'><speaker>ARTABAN.</speaker>
+	<l id='1175' part='f'>Ingrat ! Tu fais mon désespoir.</l>
+	<l id='1176'>Va rampe aux pieds du trône, où tu pouvais t'asseoir ;</l>
+	<l id='1177'>Esclave malheureux d'une vertu timide,</l>
+	<l id='1178'>Vis dans l'abaissement, chargé d'un parricide.</l>
+</sp>
+<sp who='EMIRÈNE'><speaker>EMIRÈNE.</speaker>
+	<l id='1179'>Hé bien ! Vous le voyez, me trompais-je, Seigneur ?</l>
+</sp>
+<sp who='ARBACE'><speaker>ARBACE.</speaker>
+	<l id='1180'>Ah ! Mon père ! À quel prix me rendez-vous l'honneur ?</l>
+<stage>Arbace veut suivre son père, Artaxerce le retient.</stage>
+</sp>
+<sp who='ARTAXERCE'><speaker>ARTAXERCE.</speaker>
+	<l id='1181'>Dieu ! Quel jour m'est rendu, que l'erreur est cruelle !</l>
+	<l id='1182'>Moi qui te soupçonnais je dois tout à ton zèle...</l>
+	<l id='1183'>Viens partager ce rang d'où je tombais sans toi,</l>
+	<l id='1184'>Et retrouve à jamais ton ami dans ton Roi.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,2246 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>CÉLINE ou LES FRÈRES RIVAUX, TRAGI-COMÉDIE</title>
+				<author born='1610' born_location='' death='1659' death_location='Paris' academie=''>BEYS, Charles de</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, novembre 2008</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>histoire danoise</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1250-1500</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k72144s</permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">CÉLINE ou LES FRÈRES RIVAUX.</titlePart>
+			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1637'>M.DC.XXXVII. AVEC PRIVILEGE DU ROI.</docDate>
+		<docAuthor id='BEYS, Charles de' bio='beys'>de Beys</docAuthor>
+		<docImprint>
+			<privilege id="1637-01-27"><head>Extrait du privilège du Roi</head>
+				<p>Louis par la grâce de Dieu Roi de France et de Navarre, à nos âmes et féaux Conseillers les gens tenants nos cours de Parlement, maître des requêtes ordinaires de notre Hôtel, baillifs, Seneschaux, Prevosts, leurs lieutenants ; et autres nos justiciers, et Officiers qu'il appartiendra, salut. Notre bien aimé TOUSSAINCT QUINET marchand Libraire, nous a fait remontrer qu'il désirait imprimer un livre, intitulé, « Céline, ou les Frères Rivaux », ce qu'il ne peut faire sans avoir sur ce nos Lettres humblement requérant icelles : à ces causes, désirant favorablement traiter ledit exposant, Nous lui avons permis et permettons par ces présentes de faire imprimer, vendre et débiter lesdits livres en tous les lieux et terres de notre obéissance, par tels Imprimeurs, en telles marges et caractères, et autant de fois qu'il voudra durant le temps et espace de neuf ans entiers et accomplis, à compter du jour qu'il sera achevé d'imprimer. Faisant défenses à tous imprimeurs, libraires et autres de quelques condition qu'ils soient d'imprimer, vendre ni distribuer ledit livre sans le consentement de l'exposant, ou de ceux qui auront droit de lui en vertu des présentes, ni même d'en prendre le titre ou les contrefaire en telles sortes et manière que ce soit sous couleur de fausse marge ou autre déguisement, sur peine aux contrevenants de trois mil livres d'amende, applicable un tiers à nous, un tiers à l'Hôtel-Dieu de Paris, et l'autre tiers à l'exposant ; de confiscation des exemplaires contrefaits, et de tous les dépens dommages et intérêts, ainsi qu'il est plus au long contenu à l'original du présent privilège. Donné à Paris le vingt-septième jour de janvier, l'an de grâce mil six cents trente sept. Et de notre règne le vingt-septième. Par le Roi en son Conseil, DEMONCEAUX. Et sellé du grand seau de cire jaune.</p>
+				<p>Les exemplaires ont été fournis.</p>
+			</privilege>
+			<acheveImprime id="1637-02-13">Achevé d'imprimer pour la première fois le 13. Février 1637.</acheveImprime>
+			<printer id='QUINET, Toussaint'>À PARIS, Chez TOUSSAINCT QUINET, au Palais dans la petite salle, sous la montée de la Cour des Aydes.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='1633' location='(inconnue)'>Représenté pour la première fois en 1633.</premiere>
+		</performance>
+		<castList><head>ACTEURS</head>
+		<castItem><role id="LISANOR" civil='F' type="H" statut="prince" age="A" stat_amour='amoureux'>LISANOR</role>, fils du roi de Danemark.</castItem>
+		<castItem><role id="CELINE" civil='F' type="H" statut="aristocrate" age="A" stat_amour='amoureux'>CÉLINE</role>, fille du duc de Moscovie, amoureuse de Lisanor.</castItem>
+		<castItem><role id="THERSANDRE" civil='M' type="H" statut="aristocrate" age="A" stat_amour='néant'>THERSANDRE</role>, fils du duc de Moscovie.</castItem>
+		<castItem><role id="LISIDAS" civil='M' type="H" statut="aristocrate" age="A" stat_amour='néant'>LISIDAS</role>, fils du duc de Moscovie.</castItem>
+		<castItem><role id="AGANTE" civil='F' type="H" statut="prince" age="A" stat_amour='néant'>AGANTE</role>, fille du roi du Danemark.</castItem>
+		<castItem><role id="CALISTE" civil='F' type="H" statut="prince" age="A" stat_amour='néant'>CALISTE</role>, fille du roi du Danemark.</castItem>
+		<castItem><role id="LE-ROI" civil='M' type="H" statut="roi" age="A" stat_amour='néant'>Le ROI du Danemark</role>.</castItem>
+		<castItem><role id="ALCIRE" civil='M' type="H" statut="aristocrate" age="A" stat_amour='néant'>ALCIRE</role>, gentilhomme chez le roi de Danemark.</castItem>
+		<castItem><role id="CHRISANTE" civil='M' type="H" statut="ambassadeur" age="A" stat_amour='néant'>CHRISANTE</role>, ambassadeur du Duc de Moscovie.</castItem>
+		<castItem><role id="CLARIN" civil='M' type="H" statut="berger" age="V" stat_amour='néant'>CLARIN</role>, vieux berger nourricier de Lisanor.</castItem>
+	</castList>
+	<set location='Danemark' country='Danemark' periode='(inconnue)' link=''>[La scène se situe au Danemark.]</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Agante, Céline.</head>
+<sp who='AGANTE'><speaker>AGANTE dans son cabinet.</speaker>
+	<l id='1'>Un violent désir me presse et m'importune,</l>
+	<l id='2'>Pour apprendre ta bonne ou mauvaise fortune.</l>
+	<l id='3'>Tu portes, ce me semble, un habit emprunté,</l>
+	<l id='4'>Pour cacher à nos yeux beaucoup de majesté.</l>
+	<l id='5'>Je tire sans mentir des traits de ton visage, </l>
+	<l id='6'>D'une heureuse naissance un certain témoignage :</l>
+	<l id='7'>J'en vois dans ton maintien des signes apparents ;</l>
+	<l id='8'>Apprends-moi ton dessein, ton pays, tes parents.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='9'>Madame, le malheur m'en ôte la puissance,</l>
+	<l id='10'>Je ne connais point ceux dont je tiens ma naissance :</l>
+	<l id='11'>Il m'en souvient bien peu, des voleurs inhumains</l>
+	<l id='12'>Me ravirent sur mer, jeune d'entre leurs mains.</l>
+	<l id='13'>Alsen, est le pays, où je fus enlevée,</l>
+<note type="L">Alsen : ou Als, est une île du sud du Danemark dans la mer Baltique.</note>
+	<l id='14'>Où d'honnêtes Bergers, m'ont depuis élevée.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='15'>Hélas ! mais quel dessein te poussa dans ces lieux ?</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='16'>Un voeu que j'avais fait au plus grand de nos Dieux.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='17'>Céline, si tu veux contenter mon envie,</l>
+	<l id='18'>Ne songe qu'à regret à ta première vie ;</l>
+	<l id='19'>Le pénible métier que ce peuple t'apprit</l>
+	<l id='20'>Ne mérita jamais d'occuper ton esprit,</l>
+	<l id='21'>Les Dieux à ce travail ne t'ont point destinée, </l>
+<note type="L">Inclination : Se dit figurément en choses spirituelles des affections de l'âme ; de l'humeur de la pente, de la disposition naturelle à faire quelque chose. [F]</note>
+	<l id='22'>Suis l'inclination d'une fille bien née,</l>
+	<l id='23'>Élève ton espoir, tes pensers, tes désirs,</l>
+	<l id='24'>Et prends dorénavant de plus nobles plaisirs.</l>
+	<l id='25'>Sans mentir les appas dont tu me vois pourvue,</l>
+	<l id='26'>Ne contentent-ils pas ton esprit et ta vue ?</l>
+	<l id='27'>La grâce ou la beauté des dames de la Cour,</l>
+	<l id='28'>A-t-elle pas le don de causer de l'amour ?</l>
+	<l id='29'>Et quoi que tu sois fille, en es-tu pas atteinte ?</l>
+	<l id='30'>Votre naïveté, vaut elle bien leur feinte ?</l>
+	<l id='31'>Prise ces raretés, admire ces portraits,</l>
+	<l id='32'>Dis-moi, ta solitude a-t-elle tant d'attraits ?</l>
+	<l id='33'>Vos fleurs sont elles pas moins belles qu'en peinture ?</l>
+	<l id='34'>Et l'art ne plaît-il pas bien plus que la Nature ?</l>
+	<l id='35'>Nous trouvons à la Cour de quoi nous contenter,</l>
+	<l id='36'>Les plus charmants plaisirs nous peuvent arrêter,</l>
+	<l id='37'>Et nous doutons souvent parmi tant de merveilles,</l>
+	<l id='38'>S'il nous faut employer nos yeux ou nos oreilles ;</l>
+	<l id='39'>Mille divers objets charment en même temps,</l>
+	<l id='40'>Le nombre rend souvent nos désirs mal contents,</l>
+	<l id='41'>Et pour les bien goûter il nous faut, ce nous semble,</l>
+	<l id='42'>Le même nombre d'yeux, et d'oreilles ensemble ;</l>
+	<l id='43'>Mais ne diras-tu pas que c'est trop nous louer,</l>
+	<l id='44'>Et qu'un moindre discours t'aurait fait avouer,</l>
+	<l id='45'>Que l'on passe à la Cour une si douce vie,</l>
+	<l id='46'>Qu'elle attire des Dieux et l'amour et l'envie ?</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE. </speaker>
+	<l id='47'>Madame, si Céline en ce lieu ne vous plaît,</l>
+	<l id='48'>Elle fuira la cour toute heureuse qu'elle est.</l>
+	<l id='49'>Les plus charmants plaisirs lui seront des supplices,</l>
+	<l id='50'>Si vous n'y recevez ses très humbles services.</l>
+	<l id='51'>Mais si vous désirez me faire cet honneur,</l>
+	<l id='52'>Vous pourrez d'un coup d'oeil achever mon bonheur.</l>
+	<l id='53'>Votre contentement sera ma récompense.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='54'>Obéis-moi toujours avec cette espérance,</l>
+	<l id='55' part='i'>Et me suis maintenant.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE tout bas.</speaker>
+	<l id='55' part='f'>Je la veux suivre exprès,</l>
+	<l id='56'>Afin d'entretenir Lisanor de plus prés .</l>
+<stage>Elles sortent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Thersandre, Alcide, Lisidas.</head>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='57'>Quoique Prince étranger, il faut que je soupire </l>
+	<l id='58'>Du malheur imprévu de ce puissant Empire.</l>
+</sp>
+<sp who='ALCIRE'><speaker>ALCIRE.</speaker>
+	<l id='59'>Grands Princes, apprenez des destins conjurés,</l>
+	<l id='60'>Que les plus puissants rois sont les moins assurés</l>
+	<l id='61'>Avouez maintenant qu'il n'est que trop croyable</l>
+	<l id='62'>Que le lieu le plus haut est le plus effroyable.</l>
+	<l id='63'>L'Empire des Danois s'allait borner des Cieux,</l>
+	<l id='64'>Mon Prince dessus lui ne voyait que les Dieux ;</l>
+	<l id='65'>Apprenant le respect, on oubliait la guerre,</l>
+	<l id='66'>On ne le nommait plus que le roi de la terre,</l>
+	<l id='67'>Et je crois que les Dieux, craignants que son pouvoir</l>
+	<l id='68'>Ne chassât de nos coeurs la crainte et le devoir,</l>
+	<l id='69'>Pour troubler son ?tat ont troublé la Nature,</l>
+	<l id='70'>Faisans un monstre auteur de sa triste aventure.</l>
+	<l id='71'>Ce Tyran fait chez nous de furieux efforts,</l>
+	<l id='72'>Il gagne des combats, il s'empare des forts ;</l>
+	<l id='73'>Et comme vous voyez son coeur enflé de gloire, </l>
+	<l id='74'>Veut que ses gens oisifs lui doivent la victoire ;</l>
+	<l id='75' part='i'>Il veut combattre seul.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='75' part='f'>Ce combat est l'objet,</l>
+	<l id='76'>De la valeur d'un Prince, et non pas d'un sujet ;</l>
+	<l id='77'>Nous avons depuis peu quitté notre province,</l>
+	<l id='78'>Pour montrer notre force en servant ce grand Prince,</l>
+	<l id='79'>Et lui même aujourd'hui nous ravit ce bonheur.</l>
+</sp>
+<sp who='ALCIRE'><speaker>ALCIRE.</speaker>
+	<l id='80'>Je sais bien que le Roi chérit votre valeur,</l>
+	<l id='81'>Mais qu'il ne veut pas perdre une si belle vie,</l>
+	<l id='82'>Et tâche d'épargner le sang de Moscovie.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='83'>Brise là ce discours, Alcire, mais dis-moi,</l>
+	<l id='84'>Quel est ce Lisanor tant estimé du Roi ?</l>
+</sp>
+<sp who='ALCIRE'><speaker>ALCIRE.</speaker>
+	<l id='85'>C'est un jeune étranger, inconnu de naissance,</l>
+	<l id='86'>Qui fait de sa vertu dépendre sa puissance,</l>
+	<l id='87'>Qui méprise les biens, et qui chérit l'honneur.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='88'>Cette vertu n'est rien que beaucoup de bonheur.</l>
+	<l id='89'>Cet étranger est grand, quoiqu'il vienne de naître, </l>
+	<l id='90'>Mais quelle occasion l'a si bien fait connaître ?</l>
+</sp>
+<sp who='ALCIRE'><speaker>ALCIRE.</speaker>
+	<l id='91'>Il ne fut pas plutôt arrivé dans le port,</l>
+	<l id='92'>Que passant la forêt, par la faveur du sort,</l>
+	<l id='93'>Il vit contre mon Prince une laie enragée,</l>
+	<l id='94'>Et sa Majesté seule au combat engagée ;</l>
+	<l id='95'>Je vins bientôt après, emmenant avec moi</l>
+	<l id='96'>Une jeune beauté que je fis voir au roi ;</l>
+	<l id='97'>Mais lui me regardant l'âme d'aise ravie,</l>
+	<l id='98'>Vous voyez, me dit-il, à qui je dois la vie ;</l>
+	<l id='99'>Je contemplai ce Mars en habit de berger,</l>
+	<l id='100'>Et le monstre abattu m'assura du danger.</l>
+	<l id='101'>Mon Prince comparant ces deux rares merveilles,</l>
+	<l id='102'>Pareilles en habits, en beauté sans pareilles ;</l>
+	<l id='103'>Alcire, me dit-il, je vois dedans leurs yeux,</l>
+	<l id='104'>Je ne sais quoi de grand et de prodigieux :</l>
+	<l id='105'>Il aima Lisanor d'une amitié puissante,</l>
+	<l id='106'>Et présenta la fille à la Princesse Agante.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='107' part='i'>Comment la nomme-t-on ?</l>
+</sp>
+<sp who='ALCIRE'><speaker>ALCIRE.</speaker>
+	<l id='107' part='m'>Céline.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='107' part='f'>Alcire, adieu ! </l>
+	<l id='108'>Nous te remercions, laisse-nous en ce lieu.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='109'>Et c'est ce Lisanor si digne de louanges !</l>
+	<l id='110'>Voit-on dans les Romans des choses plus étranges ?</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='111'>Ce puissant Fondateur de l'Empire Romain</l>
+	<l id='112'>Fut conduit toutefois d'une pareille main.</l>
+	<l id='113'>La fortune se plaît à ces métamorphoses,</l>
+	<l id='114'>D'une basse origine on voit de grandes choses.</l>
+	<l id='115'>Un heureux aveuglé souvent rencontre mieux,</l>
+	<l id='116'>Qu'un malheureux conduit avecque de bons yeux ;</l>
+	<l id='117'>Le hasard nous a mis dans le trône où nous sommes,</l>
+	<l id='118'>La fortune se rit de la raison des hommes,</l>
+	<l id='119'>L'un cherchant son bonheur en détourne ses pas,</l>
+	<l id='120'>Et l'autre le rencontre en ne le cherchant pas.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='121'>Qu'il gagne des combats sur la terre et sur l'onde,</l>
+	<l id='122'>Et qu'il se rende enfin maître de tout le monde.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='123'>Je ne suis pas fâché qu'il soit dans cet état,</l>
+	<l id='124'>S'il ne me privait point de l'honneur du combat,</l>
+	<l id='125'>Et des moyens de plaire à la Princesse Agante. </l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='126' part='i'>Moi de plaire à sa soeur.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='126' part='f'>Mais perdons cette attente,</l>
+	<l id='127'>Et cherchons maintenant par des soins curieux ,</l>
+	<l id='128'>Ce qui peut rendre un Prince agréable à leurs yeux.</l>
+	<l id='129'>Mon frère jetons nous aux rets qu'elles nous tendent,</l>
+	<l id='130'>Peu d'hommes dans le monde à bon droit y prétendent,</l>
+	<l id='131'>On ne saurait trouver de partis plus égaux,</l>
+	<l id='132'>On ne voit point ici de troupes de Rivaux.</l>
+	<l id='133'>Tous les peuvent aimer, mais il faut qu'ils se taisent,</l>
+	<l id='134'>Et puis elles n'ont pas les amants qui leur plaisent.</l>
+	<l id='135'>Nous n'osons pas aimer toutes sortes d'objets,</l>
+	<l id='136'>Et toujours notre hymen dépend de nos sujets.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='137'>Rendons nous donc, mon frère, et doux et nécessaires,</l>
+	<l id='138'>Et dans leur entretien, et parmi leurs affaires,</l>
+	<l id='139'>Et joignons s'il se peut pour les avoir un jour,</l>
+	<l id='140'>La faveur de ce peuple avecque leur amour.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lisanor, Céline.</head>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='141'>Quoi peux-tu bien encor espérer du secours ? </l>
+	<l id='142'>Crois-tu que ma raison se rende à tes discours,</l>
+	<l id='143'>Et que passionné pour la gloire des armes,</l>
+	<l id='144'>Je soumette ma force au pouvoir de tes larmes ?</l>
+	<l id='145'>J'ai repris ton amour avecque tant d'aigreur,</l>
+	<l id='146'>Et de tant de raisons combattu ton erreur.</l>
+	<l id='147'>Toi-même as déploré ton espérance vaine,</l>
+	<l id='148'>Et vu sans aucun fruit tes soupirs et ta peine ;</l>
+	<l id='149'>Après tant de froideur, de refus, de mépris,</l>
+	<l id='150'>Pense-tu résister au dessein que j'ai pris ?</l>
+	<l id='151'>Dessein dont les effets témoignent la puissance,</l>
+	<l id='152'>Dessein qui m'a tiré du lieu de ma naissance.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='153'>Mon amour a produit de si rares effets,</l>
+	<l id='154'>Que ceux de ta valeur me semblent imparfaits ;</l>
+	<l id='155'>J'ai quitté comme toi nos bois et nos campagnes,</l>
+	<l id='156'>J'ai perdu l'amitié de mes chères compagnes.</l>
+	<l id='157'>J'ai méprisé pour toi tant de biens apparents, </l>
+	<l id='158'>Et ceux qui me rendaient les devoirs de parents ;</l>
+	<l id='159'>Mais nous avons tous deux dédaigné ce partage :</l>
+	<l id='160'>Je te veux maintenant faire voir l'avantage,</l>
+	<l id='161'>Que ma fidèle amour a dessus ta valeur.</l>
+	<l id='162'>Dieux ! m'en puis-je vanter sans changer de couleur ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='163'>Si ta moindre action peut obliger mon âme,</l>
+	<l id='164'>Je suis déjà tout prêt de céder à ta flamme.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='165'>Ce qui seul est l'objet des bonnes actions,</l>
+	<l id='166'>Qui seul nous fait forcer nos inclinations,</l>
+	<l id='167'>Pour qui nous étouffons notre amoureuse plainte,</l>
+	<l id='168'>Et pour qui notre esprit se forme plus de crainte.</l>
+	<l id='169'>Ce qui nous conduit mieux que l'exemple et les lois,</l>
+	<l id='170'>Qui passe la grandeur et le pouvoir des rois,</l>
+	<l id='171'>Dont le penser plus fort que l'horreur du supplice,</l>
+	<l id='172'>Met une âme en repos et la sauve du vice,</l>
+	<l id='173'>C'est ce que j'ai quitté pour te suivre en ces lieux.</l>
+	<l id='174' part='i'>C'est l'honneur.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='174' part='f'>Ce mépris est un crime odieux,</l>
+	<l id='175'>Différente d'humeur lors que tu me veux plaire,</l>
+	<l id='176'>Au lieu de mon amour tu gagnes ma colère,</l>
+	<l id='177'>L'honneur sur ton esprit a bien peu de pouvoir, </l>
+	<l id='178'>Pour l'avoir je te fuis, tu le fuis pour m'avoir,</l>
+	<l id='179'>Ce que j'aime est ici le sujet de ta fuite.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='180'>Que dis-tu de l'objet de ma longue poursuite ?</l>
+	<l id='181'>Tu me dois confesser que tu l'aimes aussi ;</l>
+	<l id='182'>Car c'est toi seulement que je recherche ici ;</l>
+	<l id='183'>Au moins en cet endroit tu chéris ce que j'aime.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='184'>Certes si je pouvais, je me fuirais moi-même.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='185'>Quoi n'estime-tu pas un esprit généreux ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='186'>Je blâme justement un esprit amoureux.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='187'>Au moins si mon amour mérite cet outrage,</l>
+	<l id='188'>Tu ne te défends pas d'honorer mon courage.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='189'>Ton courage t'a fait mépriser ton honneur.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='190'>Enfin si je ne puis lui devoir mon bonheur,</l>
+	<l id='191'>Si ta témérité ma constance méprise, </l>
+	<l id='192'>Que la peur du trépas rompe ton entreprise.</l>
+	<l id='193'>Maintenant tes discours sont faux ou superflus ;</l>
+	<l id='194'>Notre plus grand malheur c'est de ne vivre plus.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='195'>Quand après le tombeau la gloire nous doit suivre,</l>
+	<l id='196'>C'est un plus grand bonheur de mourir que de vivre ;</l>
+	<l id='197'>Ce trépas qui nous vient d'un sujet glorieux,</l>
+	<l id='198'>Nous doit rendre immortels aussi bien que les Dieux.</l>
+	<l id='199'>Ces honneurs éternels où mon espoir se fonde,</l>
+	<l id='200'>Étaient l'unique prix des conquérants du monde,</l>
+	<l id='201'>Qui méprisants leurs biens, cherchaient dans le trépas</l>
+	<l id='202'>Un bonheur qu'en vivant ils ne possedaient pas.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='203'>Tu fais Ambition, des biens imaginaires,</l>
+	<l id='204'>Tu mets dessous les pieds les grandeurs ordinaires ;</l>
+	<l id='205'>Et laissant ce qu'on voit sur la terre de beau,</l>
+	<l id='206'>Tu cherches des plaisirs jusques dans le tombeau.</l>
+	<l id='207'>Tu nourris, Lisanor, une fausse espérance,</l>
+	<l id='208'>Tu cherches un bonheur de bien peu d'apparence ;</l>
+	<l id='209'>Fuis, fuis, si tu me crois ces folles visions,</l>
+	<l id='210'>Les biens des trépassés sont des illusions,</l>
+	<l id='211'>Ne penses pas forcer les lois de la Nature,</l>
+	<l id='212'>Et vivre encor heureux après ta sépulture.</l>
+	<l id='213'>Cette gloire immortelle, et ces champs éternels, </l>
+	<l id='214'>C'est dont on va flattant les pauvres criminels.</l>
+	<l id='215'>Ce qui nous fait trouver la mort moins adversaire,</l>
+	<l id='216'>Et qui fait agréer un malheur nécessaire.</l>
+	<l id='217'>Quand la mort approchant nous force à soupirer,</l>
+	<l id='218'>Et que l'on nous voit craindre, on nous fait espérer,</l>
+	<l id='219'>Contents de nous tromper, nous croyons des mensonges,</l>
+	<l id='220'>Et nous voulons changer nos biens avec des songes.</l>
+	<l id='221'>N'espères pas aussi ces honneurs immortels,</l>
+	<l id='222'>Que l'on rend tous les jours sur ces riches autels.</l>
+	<l id='223'>Qu'au milieu de la ville on t'élève une image,</l>
+	<l id='224'>Qu'en ce lieu tous les jours on aille rendre hommage,</l>
+	<l id='225'>Et qu'un Roi si puissant, te fasse à l'avenir</l>
+	<l id='226'>Revivre après ta mort dedans son souvenir.</l>
+	<l id='227'>Mais quand cela serait, comme avant ta naissance,</l>
+	<l id='228'>Tes sens ensevelis n'auront point de puissance.</l>
+	<l id='229'>Tes yeux ne verront pas ces marbres élevés,</l>
+	<l id='230'>Et dessus un tombeau de vains titres gravez.</l>
+	<l id='231'>Tu n'auras pas le bien d'ouir la voix commune,</l>
+	<l id='232'>Qui doit un jour louer et plaindre ta fortune,</l>
+	<l id='233'>Et jamais ton esprit ne sera satisfait,</l>
+	<l id='234'>De l'exploit généreux que ton bras aura fait.</l>
+	<l id='235'>Hélas ! que ton courage abaisse ta prudence !</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='236'>Mon trépas seulement sera ma récompense.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE. </speaker>
+	<l id='237'>À ces mots, mon discours est en confusion,</l>
+	<l id='238'>Tu n'as pour me punir que trop d'occasion,</l>
+	<l id='239'>Tu ne peux en mourant m'empêcher de te suivre,</l>
+	<l id='240'>Mais tu peux si tu veux, et me punir et vivre,</l>
+	<l id='241'>Tu vivras pour haïr et pour te faire aimer,</l>
+	<l id='242'>Et tu me pourras voir, et vivre et consommer.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='243'>Adieu, car voici l'heure au combat assignée,</l>
+	<l id='244'>Un meilleur entretien doit finir la journée. </l>
+<stage>Il sort.</stage>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='245'>Puissant Dieu, juste auteur de mon affection,</l>
+	<l id='246'>Empêche les effets de son ambition.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Thersandre, Lisidas.</head>
+<sp who='THERSANDRE'><speaker>THERSANDRE seul.</speaker>
+	<l id='247'>Céline sur Agante emporte la victoire, </l>
+	<l id='248'>Auprès de tant d'attraits le sceptre perd sa gloire,</l>
+	<l id='249'>Sa beauté me plaît mieux que la grandeur des rois,</l>
+	<l id='250'>Et je prise bien moins leurs présents que ses lois.</l>
+	<l id='251'>Amour seul ennemi de ma bonne fortune,</l>
+	<l id='252'>Pourquoi m'as-tu rendu la Couronne importune,</l>
+	<l id='253'>D'où me vient ce refus de tant d'honneurs offerts,</l>
+	<l id='254'>Et qu'un Sceptre en mes mains pèse plus que mes fers ?</l>
+	<l id='255'>Céline me ravit, ses attraits incroyables</l>
+	<l id='256'>Rendent mes biens fâcheux, et mes maux agréables,</l>
+	<l id='257'>Et font sur mon esprit un effort si puissant,</l>
+	<l id='258'>Qu'il semble que mon coeur s'élève en s'abaissant.</l>
+	<l id='259'>Malgré tous les effets de son humeur farouche, </l>
+	<l id='260'>J'adore ses beaux yeux, j'idolâtre sa bouche,</l>
+	<l id='261'>Et tous ces vains honneurs rendus à sa beauté,</l>
+	<l id='262'>Lui changent sa couleur et non sa cruauté ;</l>
+	<l id='263'>Je l'appelle mon coeur, et mon tout et ma Reine,</l>
+	<l id='264'>En blâmant sa rigueur, je lui conte ma peine.</l>
+	<l id='265'>Mais l'inhumaine feint que ma soumission</l>
+	<l id='266'>Vient plutôt du mépris que de l'affection ;</l>
+	<l id='267'>Si je dis le pouvoir que ma grandeur me donne,</l>
+	<l id='268'>Si je conte les biens qui suivent ma couronne,</l>
+	<l id='269'>En m'estimant plus grand, elle me tient suspect,</l>
+	<l id='270'>Et les yeux abaissez témoigne du respect.</l>
+	<l id='271'>Amour, auprès de toi les rois n'ont rien d'auguste,</l>
+	<l id='272'>Nous sommes impuissants quand tu veux être injuste,</l>
+	<l id='273'>Tu nous fais préférer des ténèbres au jour,</l>
+	<l id='274'>Une houlette au Sceptre, et des bois à la Cour ?</l>
+	<l id='275'>Quoi tu tires encor tes traits à l'aventure,</l>
+	<l id='276'>Comme au siècle où chacun cédait à la nature,</l>
+	<l id='277'>Où pour se gouverner on n'avait que ses lois,</l>
+	<l id='278'>Où les hommes étaient leurs Juges et leurs Rois ;</l>
+	<l id='279'>On n'avait point alors d'inutiles pensées,</l>
+	<l id='280'>Les amitiés n'étaient ni feintes, ni forcées.</l>
+	<l id='281'>Personne en ce temps-là ne te voulait de mal,</l>
+	<l id='282'>Ton pouvoir était juste, où tout était égal ;</l>
+	<l id='283'>Mais puisque la fortune a borné les provinces,</l>
+	<l id='284'>Qu'elle a voulu créer des sujets et des princes,</l>
+	<l id='285'>Qu'elle nous a rendus aux autres étrangers, </l>
+	<l id='286'>Et sépare les rois d'avecque les bergers,</l>
+	<l id='287'>Pourquoi veux-tu mêler la nuit à la lumière,</l>
+	<l id='288'>Et remettre le monde en sa forme première ?</l>
+	<l id='289'>Mutin tu ne veux-pas abolissant ta loi,</l>
+	<l id='290'>Céder à la Fortune aveugle comme toi ;</l>
+	<l id='291'>Mais comme ton pouvoir précède sa naissance,</l>
+	<l id='292'>Tu veux que sa grandeur révère ta puissance,</l>
+<stage>Lisidas paraît.</stage>
+	<l id='293'>Je vois venir ici mon frère tout pensif</l>
+	<l id='294'>Son visage fait voir son tourment excessif ;</l>
+	<l id='295'>Que ma douleur au prix devrait être légère,</l>
+	<l id='296'>Il aime une Princesse et j'aime une bergère.</l>
+	<l id='297'>Thersandre ces soupirs ne sont plus de saison,</l>
+	<l id='298'>Qui les veut excuser, manque un peu de raison.</l>
+	<l id='299'>Je ne veux pas du tout désapprouver ces larmes,</l>
+	<l id='300'>Qu'un bel oeil dans l'abord attire par ses charmes.</l>
+	<l id='301'>Je sais que la raison ne peut rien sur ces pleurs,</l>
+	<l id='302'>Même qu'elle permet nos premières douleurs ;</l>
+	<l id='303'>Qu'à ce commencement le respect et la crainte,</l>
+	<l id='304'>Obligent à bon droit les amants à la plainte.</l>
+	<l id='305'>Mais quand on est aimé, les pleurs sont superflus,</l>
+	<l id='306'>Lors que nous possédons nous ne soupirons plus.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='307'>Vous supposez, mon frère, une chose impossible,</l>
+	<l id='308'>Ah si cette beauté n'était pas insensible !</l>
+	<l id='309'>Si j'étais seulement flatté d'un peu d'espoir, </l>
+	<l id='310'>Que mes pleurs quelque jour la pussent émouvoir,</l>
+	<l id='311'>Que vous verriez bientôt mes actions changées,</l>
+	<l id='312'>Et dessous le pouvoir de mon âme rangées ;</l>
+	<l id='313'>Mais sa rigueur à voir naît de mon amitié,</l>
+	<l id='314'>Et ma douleur me rend indigne de pitié ;</l>
+	<l id='315'>Elle hait mes discours, se rit de mon silence,</l>
+	<l id='316'>Et ne donne à mes voeux que le nom d'insolence,</l>
+	<l id='317'>Enfin ce même amour qui fait aimer me nuit.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='318'>Que me dites vous là, quoi Caliste vous fuit ?</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='319' part='i'>Non c'est moi qui la fuis.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='319' part='f'>D'où naît donc votre plainte.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='320'>Qu'à découvrir son mal on souffre de contrainte !</l>
+	<l id='321'>Voici le seul sujet du malheur qui me suit,</l>
+	<l id='322'>Je la fuis pour aimer une autre qui me fuit.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='323'>Vous méprisez, mon frère, une grande Princesse.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='324'>Devant un si grand Dieu, cette grandeur s'abaisse,</l>
+	<l id='325'>L'amour ne connaît point les règles du devoir. </l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE tout bas.</speaker>
+	<l id='326'>L'amour d'une bergère a sur moi ce pouvoir.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='327'>Enfin ne croyez pas ma bouche mensongère,</l>
+	<l id='328'>Quand elle vous dira que j'aime une bergère.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='329'>Ô Dieux, qu'ai-je entendu ! Mais quel est cet objet</l>
+	<l id='330'>Qui peut d'un si grand Prince, en faire son sujet ?</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='331'>Celle qu'on vous montrait aujourd'hui dans le temple ;</l>
+	<l id='332'>Céline, confessez qu'elle n'a point d'exemple,</l>
+	<l id='333'>Et que cette beauté qui méprise le fard,</l>
+	<l id='334'>Fait voir que la nature est au dessus de l'art.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE tout bas.</speaker>
+	<l id='335'>Faisons-lui mépriser ces attraits véritables.</l>
+	<l id='336'>Mon frère, sommes-nous dans le siècle des fables,</l>
+	<l id='337'>Où tous les Dieux jaloux du bonheur des humains,</l>
+	<l id='338'>Prenaient pour être aimés la houlette en leurs mains,</l>
+	<l id='339'>Et parez seulement de grâces étrangères,</l>
+	<l id='340'>Venaient parmi les bois adorer des bergères ?</l>
+	<l id='341'>Si vous estes jamais de ces pauvres amants, </l>
+	<l id='342'>Vous ferez augmenter le nombre des Romans.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='343'>Pourvu que sa beauté ne passe point pour fable,</l>
+	<l id='344'>Sans doute on jugera mon amour véritable.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='345'>Je ne puis approuver ses traits, ni vos liens,</l>
+	<l id='346'>Et je trouve vos yeux plus mauvais que les siens.</l>
+	<l id='347'>Cette vaine beauté dont votre âme est saisie,</l>
+	<l id='348'>N'est rien qu'un pur effet de votre fantaisie,</l>
+	<l id='349'>Et ces yeux impuissants qui vous donnent le jour,</l>
+	<l id='350'>Tirent tous leurs attraits de votre seul amour.</l>
+	<l id='351'>Ainsi les amoureux honorent la Nature,</l>
+	<l id='352'>Des beautés que leur sens produit à l'aventure.</l>
+	<l id='353'>Voulez-vous voir en elle un triste changement ?</l>
+	<l id='354'>Faites que l'amour cède à votre jugement,</l>
+	<l id='355'>Et vos yeux dégagez de cette erreur première,</l>
+	<l id='356'>Verront ce beau Soleil privé de sa lumière.</l>
+	<l id='357'>La même erreur se voit en ces coeurs enflammez,</l>
+	<l id='358'>De certains corps mouvants et non pas animez.</l>
+	<l id='359'>Leur beauté fait jeter des soupirs et des larmes ;</l>
+	<l id='360'>Mais on la voit bientôt finir avec les charmes,</l>
+	<l id='361'>Dont les démons trompaient nos esprits et nos yeux,</l>
+	<l id='362'>Et comme ils semblaient beaux, ils nous sont odieux.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS. </speaker>
+	<l id='363'>Ah que ces vains discours font souffrir mes oreilles !</l>
+	<l id='364'>Que mon esprit ait fait ces divines merveilles.</l>
+	<l id='365'>Et que pour augmenter lui même sa douleur</l>
+	<l id='366'>Il donne à ces beaux yeux les traits et la chaleur ?</l>
+	<l id='367'>Il ne pourrait avoir une si belle image,</l>
+	<l id='368'>Si mes yeux autrefois n'avaient vu son visage,</l>
+	<l id='369'>Réservons seulement cette puissance aux Dieux,</l>
+	<l id='370'>Ici bas notre esprit ne voit que par nos yeux,</l>
+	<l id='371'>Ce sens qui fait chez nous tant de métamorphoses,</l>
+	<l id='372'>Doit recevoir d'ailleurs les images des choses,</l>
+	<l id='373'>Et ne peut composer ces visages divers,</l>
+	<l id='374'>Que des traits différents qu'on voit en l'univers ;</l>
+	<l id='375'>Il ne fait qu'un portrait de toutes les idées,</l>
+	<l id='376'>Des charmantes beautés que l'oeil a regardées.</l>
+	<l id='377'>Comme un Peintre qui tire ou des eaux, ou des fleurs</l>
+	<l id='378'>Ne fait qu'une couleur de diverses couleurs.</l>
+	<l id='379'>Mais pour représenter ses grâces non-pareilles,</l>
+	<l id='380'>Tout le monde n'a pas d'assez rares merveilles.</l>
+	<l id='381'>Les Dieux devraient changer les roses et les lys,</l>
+	<l id='382'>Et les plus beaux objets devraient être embellis.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='383'>De toutes ces raisons, mon esprit se défie,</l>
+	<l id='384'>Mais donnons quelque chose à la Philosophie.</l>
+	<l id='385'>J'ai peu de passion pour les grâces du corps : </l>
+	<l id='386'>Comme on n'a point d'amour pour la beauté des morts,</l>
+	<l id='387'>Je ne suis point charmé regardant une souche,</l>
+	<l id='388'>De la proportion des mains ni de la bouche,</l>
+	<l id='389'>Je voudrais qu'une fille, eut un esprit heureux ;</l>
+	<l id='390'>C'est la perfection qui me rend amoureux.</l>
+	<l id='391'>Comme elle est par l'esprit éternellement belle,</l>
+	<l id='392'>Je tâche à lui porter une amour éternelle.</l>
+	<l id='393'>Jamais d'autre beauté mon âme ne surprit,</l>
+	<l id='394'>Mon esprit seulement est charmé par l'esprit,</l>
+	<l id='395'>Voyant qu'elle n'a rien de beau que le visage,</l>
+	<l id='396'>Je l'aime de l'amour dont j'aime son image.</l>
+	<l id='397'>Je ne saurais jamais l'appeler mon vainqueur,</l>
+	<l id='398'>Elle retient mes sens, mais je retiens mon coeur.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='399'>Aussi bien que son corps son esprit est aimable,</l>
+	<l id='400'>Je n'y reconnais rien qui ne soit admirable,</l>
+	<l id='401'>Tous deux sont accomplis, leur pouvoir est égal,</l>
+	<l id='402'>Si vous aimez l'esprit vous estes mon rival.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE tout bas.</speaker>
+	<l id='403'>Il n'est rien de plus vrai que cette conjecture,</l>
+	<l id='404'>Dissimulons pourtant. Je sais que la nature,</l>
+	<l id='405'>De son seul mouvement accorde le pouvoir,</l>
+	<l id='406'>A nos yeux de charmer aussi bien que de voir.</l>
+	<l id='407'>Que sans se faire aider des forces de l'usage, </l>
+	<l id='408'>Elle fait aisément les beaux traits d'un visage,</l>
+	<l id='409'>Et sans tirer de l'art quelque ornement nouveau,</l>
+	<l id='410'>Elle compose un corps tout parfait et tout beau.</l>
+	<l id='411'>Mais elle ne peut faire un esprit sans étude,</l>
+	<l id='412'>Il ne se polit point dans une solitude,</l>
+	<l id='413'>Il faut pour l'achever un meilleur entretien,</l>
+	<l id='414'>Elle aurait plus de peine à nous donner ce bien :</l>
+	<l id='415'>Si nous ne fréquentions que des fleurs et des arbres ;</l>
+	<l id='416'>Qu'à faire discourir les rochers et les marbres :</l>
+	<l id='417'>L'art même fait du corps le maintien gracieux,</l>
+	<l id='418'>La majesté du front, et la douceur des yeux ;</l>
+	<l id='419'>Ce corps est comme l'or qu'on tire d'une mine,</l>
+	<l id='420'>La Nature l'a fait, mais l'étude l'affine ;</l>
+	<l id='421'>Et l'esprit de Céline a causé votre amour ;</l>
+	<l id='422'>Chérissez, chérissez quelque objet à la Cour.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='423'>En ce lieu les esprits sont trop pleins d'artifices,</l>
+	<l id='424'>Leurs plus grandes vertus sont pour moi de grands vices,</l>
+	<l id='425'>Je ne vois rien que feinte en tous leurs compliments,</l>
+	<l id='426'>Et le crime toujours succède à leur serments.</l>
+	<l id='427'>Céline en sa froideur me fait voir sa franchise,</l>
+	<l id='428'>Je crois qu'en me fuyant elle me favorise,</l>
+	<l id='429'>J'estime ses dédains, je chéris ma langueur,</l>
+	<l id='430'>Et trouve des appas même dans sa rigueur ;</l>
+	<l id='431'>Je vois dans ses mépris, sa bonté naturelle, </l>
+	<l id='432'>Et l'aime également amoureuse et cruelle.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='433'>Puisque de ses mépris vous estes si content,</l>
+	<l id='434'>Allez ; vous mérités d'être appelé constant.</l>
+	<l id='435'>Et pour vous maintenir dans votre patience ;</l>
+	<l id='436'>Je dis que j'ai parlé contre ma conscience ;</l>
+	<l id='437'>Céline a tous les yeux, et les coeurs de la Cour,</l>
+	<l id='438'>C'est le plus bel objet qui respire le jour ;</l>
+	<l id='439'>Les traits de son esprit, et ceux de son visage</l>
+	<l id='440'>Ont sur tous les mortels un pareil avantage,</l>
+	<l id='441'>Je vois dans sa froideur assez de quoi charmer,</l>
+	<l id='442'>Sa haine a le pouvoir de me la faire aimer ;</l>
+	<l id='443'>Enfin nous la devons admirer et nous taire.</l>
+	<l id='444'>Avez vous maintenant de quoi vous satisfaire ?</l>
+	<l id='445'>Ai-je assez là dessus contenté vos esprits ?</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='446'>Gardez bien qu'en raillant vous n'en soyez épris,</l>
+	<l id='447'>Et qu'ayant dans le coeur sa belle image empreinte,</l>
+	<l id='448'>Enfin la vérité ne succède à la feinte.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='449'>Je veux l'entretenir et paraître discret,</l>
+	<l id='450'>Et toujours mon rival me dira son secret.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Agante, Caliste.</head>
+<sp who='AGANTE'><speaker>AGANTE. </speaker>
+	<l id='451'>Hélas notre grandeur est bien mal assurée,</l>
+	<l id='452'>Et nos plus grands plaisirs de bien peu de durée !</l>
+	<l id='453'>Bons Dieux ! Que dans la Cour on éprouve d'ennuis,</l>
+	<l id='454'>Et que les plus heureux ont de mauvaises nuits !</l>
+	<l id='455'>Ah ! que j'ai bien prévu cette inutile plainte !</l>
+	<l id='456'>Que mes premiers tourments me donnèrent de crainte !</l>
+	<l id='457'>Et que je connus bien ce triste changement,</l>
+	<l id='458'>Aussitôt que j'eus vu Lisanor seulement !</l>
+	<l id='459'>Je sentis aussitôt je ne sais quelle flamme,</l>
+	<l id='460'>Qui presque sans effort se glissa dans mon âme,</l>
+	<l id='461'>Et ces petits soupirs sans pleurs et sans douleur,</l>
+	<l id='462'>Furent les messagers de mon prochain malheur.</l>
+	<l id='463'>Mes yeux de tous côtés suivaient son beau visage ;</l>
+	<l id='464'>Et ma voix ne pouvant recouvrer son usage,</l>
+	<l id='465'>Hélas ! combien de fois ai-je dit à part moi</l>
+	<l id='466'>Que ne suis-je bergère, ou bien que n'es-tu roi ?</l>
+	<l id='467'>Ah ! Respects importuns qui causez mon silence,</l>
+	<l id='468'>Et qui faites passer un mot pour insolence ;</l>
+	<l id='469'>Pourquoi sans lui parler verrai-je ses appas ?</l>
+	<l id='470'>Je lui parlerais bien, si je ne l'aimais pas ;</l>
+	<l id='471'>Pourquoi puissant amour, me rends-tu si craintive ? </l>
+	<l id='472'>Ne retiens pas ma voix et mon âme captive,</l>
+	<l id='473'>Peut-être qu'en parlant je le pourrai charmer ;</l>
+	<l id='474'>Tu ne veux pas qu'il aime, et tu me fais aimer,</l>
+	<l id='475'>Tu mets devant mes yeux et la honte et le blâme,</l>
+	<l id='476'>De crainte que ma voix ne dégage mon âme ;</l>
+	<l id='477'>Tu sais qu'on souffre plus en souffrant lentement,</l>
+	<l id='478'>Et qu'éloignant les feux on accroît le tourment.</l>
+	<l id='479'>Mais je nomme cela de faibles rêveries,</l>
+	<l id='480'>Voyant ce qu'ont produit mes dernières furies.</l>
+	<l id='481'>J'avais au premier coup de libres sentiments,</l>
+	<l id='482'>Et mes feux sans mentir n'étaient pas des tourments.</l>
+	<l id='483'>Jamais en le voyant je ne versais de larmes,</l>
+	<l id='484'>Je trouvais dans ses yeux du remède et des charmes.</l>
+	<l id='485'>Je n'y cherchais encor que de petits plaisirs,</l>
+	<l id='486'>Eux-mêmes ils causaient et bornoient mes désirs,</l>
+	<l id='487'>Que je souffre aujourd'hui de perte en sa victoire !</l>
+	<l id='488'>Qu'il augmente mes maux, en augmentant sa gloire !</l>
+	<l id='489'>Ah ! que dans ce combat il m'a blessé le coeur !</l>
+	<l id='490'>Que je dois justement l'appeler mon vainqueur !</l>
+	<l id='491'>Et qu'il faut à bon droit que sa vertu se vante,</l>
+	<l id='492'>En tuant le tyran, de triompher d'Agante !</l>
+	<l id='493'>Le moyen qu'à présent j'approuve son dessein,</l>
+	<l id='494'>Puisque du même fer il m'a percé le sein ?</l>
+	<l id='495'>Mon chagrin suit ici l'allégresse commune,</l>
+	<l id='496'>J'aime nos maux passez, et je hais sa fortune,</l>
+	<l id='497'>Notre ennemi donnait de la crainte à la Cour, </l>
+	<l id='498'>Mais j'aime encore mieux la crainte que l'amour :</l>
+	<l id='499'>Et puis ne dois-je pas donner un moindre blâme</l>
+	<l id='500'>Au tyran de mon bien qu'au tyran de mon âme ?</l>
+	<l id='501'>Mais qui me vient chercher en des lieux si secrets ;</l>
+	<l id='502'>Celui m'ôte beaucoup, qui m'ôte mes regrets.</l>
+	<l id='503' part='i'>C'est ma soeur qui s'approche.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE tout bas.</speaker>
+	<l id='503' part='f'>Il faut être discrète.</l>
+	<l id='504'>Quoi ma soeur votre joie est elle si secrète ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='505'>Après que tant d'objets ont contenté mes sens,</l>
+	<l id='506'>Je donne à mon esprit des plaisirs innocents :</l>
+	<l id='507'>J'ai vu de mille attraits toute la Cour pourvue</l>
+	<l id='508'>Et tous également ont arrêté ma vue.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='509'>Si vous eussiez pu voir ces objets de mes yeux,</l>
+	<l id='510'>Tous leurs attraits ma soeur vous seraient odieux.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='511' part='i'>Mais qui vous a donc plu ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='511' part='f'>Le plus digne de plaire.</l>
+	<l id='512'>N'achevons point le reste, il est temps de se taire. </l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='513' part='i'>Dites donc ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE, tout bas.</speaker>
+	<l id='513' part='f'>Mais pourquoi ne lui dirais-je pas ?</l>
+	<l id='514' part='i'>C'est Lisanor.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE, tout bas.</speaker>
+	<l id='514' part='f'>Ô Dieux ! il a quelques appas.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='515' part='i'>Qui me le font aimer.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='515' part='f'>Mais comme le roi l'aime,</l>
+	<l id='516'>Le bien commun m'oblige à le chérir de même.</l>
+	<l id='517'>Pour rompre tout d'un coup ces discours superflus,</l>
+	<l id='518' part='i'>Vous aimez sa valeur :</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='518' part='f'>Mais j'aime encore plus.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='519'>Ah ! N'entretenez point ces amours indiscrètes,</l>
+	<l id='520'>Regardez ce qu'il est, voyez ce que vous estes.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='521'>Sa bassesse ne peut dégager ma raison,</l>
+	<l id='522'>Ses vertus ont trop bien établi ma prison.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE. </speaker>
+	<l id='523'>Ces vertus qu'à vos yeux la passion fait naître,</l>
+	<l id='524'>Montrent bien qu'en aimant on ne saurait connaître,</l>
+	<l id='525'>Votre raison captive ignore les défauts,</l>
+	<l id='526'>Ma soeur votre pensée ou vos discours sont faux.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='527'>Ils sont faux, si je perds une si belle envie.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='528'>Je veux que sans l'amour on ait perdu la vie,</l>
+	<l id='529'>Qu'aux amants chaque jour des plaisirs soient offerts,</l>
+	<l id='530'>Et que la liberté soit pire que les fers ;</l>
+	<l id='531'>Mais il faut que l'aimé soit égal à l'amante,</l>
+	<l id='532'>Afin que cette amour s'entretienne et s'augmente.</l>
+	<l id='533'>Songez à vous ma soeur, et voyez ce qu'il est.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='534'>L'aimé nous est égal aussitôt qu'il nous plaît,</l>
+	<l id='535'>L'amour d'un plus puissant me serait importune,</l>
+	<l id='536'>Je ne l'aimerais pas, j'aimerais sa fortune.</l>
+	<l id='537'>Et quels tourments après nous seraient préparés,</l>
+	<l id='538'>Ayant nos biens unis, et nos coeurs séparés ?</l>
+	<l id='539'>Je ferais tous les jours des voeux pour son absence,</l>
+	<l id='540'>Je vivrais avec lui sans paix et sans licence,</l>
+	<l id='541'>Il n'aurait à mes yeux que son sceptre de beau, </l>
+	<l id='542'>Et je fuirais plutôt son lit que mon tombeau ;</l>
+	<l id='543'>Mais, Dieux ! de quels plaisirs ne voit on point comblées,</l>
+	<l id='544'>Deux âmes que l'amour a lui même assemblées ?</l>
+	<l id='545'>Quel sceptre est comparable au bien de deux amants ;</l>
+	<l id='546'>Son poids est importun, leurs plaisirs sont charmants.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='547' part='i'>Ah ! si c'était un roi !</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='547' part='f'>Mon coeur lui sert de trône,</l>
+	<l id='548'>Et ses lauriers acquis lui servent de couronne.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='549'>Que vous estes subtile à tromper la raison !</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='550'>Mais que vous êtes faible à rompre ma prison !</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='551'>Je blâme votre amour d'autant que je vous aime.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='552'>Si vous m'aimez, ma soeur, vous l'aimerez de même.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='553'>Je perdrai mes raisons à vous persuader.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE. </speaker>
+	<l id='554'>Où l'amour est aussi, la raison doit céder.</l>
+<stage>Elle sort.</stage>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='555'>Que j'ai fait de discours contre ma conscience :</l>
+	<l id='556'>Qu'ils sont bien démentis par mon expérience !</l>
+	<l id='557'>Je blâme en même temps et chéris ses appas,</l>
+	<l id='558'>Et donne des raisons dont je ne me sers pas.</l>
+	<l id='559'>Pardonne, Lisanor, et crois pour ma défense,</l>
+	<l id='560'>Qu'afin de t'aimer seule, aujourd'hui je t'offense.</l>
+	<l id='561'>Je consens que tu sois agréable à mes yeux,</l>
+	<l id='562'>Et que devant ma soeur tu sembles odieux.</l>
+	<l id='563'>Voulant parler d'amour, je veux qu'elle s'en taise,</l>
+	<l id='564'>Et si ton oeil me plaît, je veux qu'il lui déplaise ;</l>
+	<l id='565'>Je m'en vais à ma soeur présenter du secours,</l>
+	<l id='566'>Pour assurer mon bien et trahir ses amours.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='CELINE'><speaker>CÉLINE, seule.</speaker>
+	<l id='567'>Dieux que par une étrange et funeste aventure,</l>
+	<l id='568'>Nous voyons pervertir l'ordre de la Nature !</l>
+	<l id='569'>Qu'une horrible fureur tyrannise nos sens !</l>
+	<l id='570'>Et qu'on doit regretter les siècles innocents !</l>
+	<l id='571'>On était autrefois exempt de cette flamme,</l>
+	<l id='572'>On tirait ses plaisirs du repos de son âme :</l>
+	<l id='573'>On ne connaissait point la haine et le mépris,</l>
+	<l id='574'>Mais l'amour mutuel enflammait les esprits ;</l>
+	<l id='575'>Les pleurs et les soupirs n'étaient point en usage,</l>
+	<l id='576'>Quand on avait dépeint l'amour sur son visage,</l>
+	<l id='577'>L'aimé tout à l'instant se sentait enflammer,</l>
+	<l id='578'>Et pour se faire aimer, il ne fallait qu'aimer.</l>
+	<l id='579'>Qu'aujourd'hui ce démon tient un cruel Empire !</l>
+	<l id='580'>Et qu'inutilement tous les jours je soupire !</l>
+	<l id='581'>Que j'ai fait de desseins, que j'ai versé de pleurs ! </l>
+	<l id='582'>Hélas ! combien de fois ai-je dit mes douleurs,</l>
+	<l id='583'>Dans la plus reculée et triste solitude,</l>
+	<l id='584'>Sans trouver de remède à mon inquiétude ?</l>
+	<l id='585'>Ah ! je vois bien qu'en vain je la viens implorer ;</l>
+	<l id='586'>Ce silence profond m'invite à soupirer,</l>
+	<l id='587'>Il semble que ces bois se plaisent à m'entendre,</l>
+	<l id='588'>Ces branches à les voir ont bien peur de s'étendre,</l>
+	<l id='589'>Le vent en s'approchant tâche de s'alentir,</l>
+	<l id='590'>De peur que son doux bruit vienne me divertir,</l>
+	<l id='591'>Et l'eau qui va baignant cette aimable verdure,</l>
+	<l id='592'>Évite les cailloux de crainte du murmure,</l>
+	<l id='593'>Toi-même Lisanor que je viens rechercher,</l>
+	<l id='594'>Je ne t'éprouve pas moins dur que ce rocher .</l>
+	<l id='595'>Le voici, je suis d'aise, et de crainte ravie,</l>
+<stage>Lisanor paraist.</stage>
+	<l id='596'>Si sa voix fait mourir, ses yeux rendent la vie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Lisanor, Céline.</head>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='597'>Mon songe du matin n'a pas été trompeur,</l>
+	<l id='598'>Je vois cet ennemi qui m'a tant fait de peur,</l>
+	<l id='599'>Si mes justes raisons n'arrêtent sa poursuite,</l>
+	<l id='600'>Il faut dorénavant le vaincre par ma fuite.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE. </speaker>
+	<l id='601'>Dieux comme il se retire ! attends encor un peu,</l>
+	<l id='602'>Je n'ai plus à pousser qu'un petit trait de feu.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='603'>Hélas ! j'ai tant blâmé votre persévérance,</l>
+	<l id='604'>Ne me poursuivez plus, perdez votre espérance.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='605'>Des présages certains me forcent d'espérer,</l>
+	<l id='606'>Songez qu'aucun malheur n'a pu nous séparer,</l>
+	<l id='607'>La mer en nous portant ne fut jamais émue,</l>
+	<l id='608'>Jamais je ne perdis votre vaisseau de vue ;</l>
+	<l id='609'>Il semblait que Neptune aplanissait les eaux,</l>
+	<l id='610'>Et qu'un pilote seul gouvernait deux vaisseaux,</l>
+	<l id='611'>Les rames aux Zéphirs cédèrent leur usage,</l>
+	<l id='612'>Et ce triste élément fit toujours bon visage,</l>
+	<l id='613'>Votre navire fut devant le nôtre à bord,</l>
+	<l id='614'>Et dans cette forêt qui va jusques au port,</l>
+	<l id='615'>M'égarant je cherchais le chemin de la ville,</l>
+	<l id='616'>Et dans le même lieu je trouvai mon asile ;</l>
+	<l id='617'>Là le roi nous connut, et dés le même jour,</l>
+	<l id='618'>Sa libéralité nous retint à la Cour.</l>
+	<l id='619'>Si l'onde, l'air, le vent, si le roi nous assemble,</l>
+	<l id='620'>Ne souffrirez vous pas que nous soyons ensemble ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR. </speaker>
+	<l id='621'>On prend de la façon plaisir à s'abuser :</l>
+	<l id='622'>Un songe quoi que faux, vous peut favoriser,</l>
+	<l id='623'>Et telle qui se croit de mille appas pourvue,</l>
+	<l id='624'>Pense en captiver cent qui ne l'ont jamais vue,</l>
+	<l id='625'>Enfin vous pouvez bien vous abuser aussi,</l>
+	<l id='626'>Si je m'amuse encor à discourir ici.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='627'>Ah ! mes discours sont faux, et mes plaintes sont vaines,</l>
+	<l id='628'>Si j'appelle ses yeux les auteurs de mes peines,</l>
+	<l id='629'>Comme pour me guérir, il cesse de me voir,</l>
+	<l id='630'>Et sa fuite aussitôt m'en ôte le pouvoir.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lisidas, Céline, Thersandre.</head>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='631'>Je vous y prends rêveuse : ah ce respect me tue !</l>
+	<l id='632'>Et quel morne chagrin te cause ici ma vue ?</l>
+	<l id='633'>Quitte ces vains honneurs, néglige tous ces soins,</l>
+	<l id='634'>Tu me plairas bien plus en me respectant moins ;</l>
+	<l id='635'>Traite de la façon ces glorieux courages,</l>
+	<l id='636'>Et crois que tes respects me sont autant d'outrages.</l>
+	<l id='637'>Montre pour m'obliger un visage plus doux. </l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='638'>Je sais ce que je dois aux princes comme vous.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='639'>Tu les dois fuir, Céline ? Ah ! Grandeur importune ?</l>
+	<l id='640'>En quoi différent donc l'une et l'autre fortune,</l>
+	<l id='641'>Si l'on doit fuir aussi ceux qui sont bienheureux ?</l>
+	<l id='642'>Traite moi, traite moi comme un pauvre amoureux.</l>
+	<l id='643'>Vois moi par où je puis te paraître agréable,</l>
+	<l id='644'>Et non pas par l'endroit qui me rend effroyable :</l>
+	<l id='645'>Ôte-moi si tu veux les rares qualités,</l>
+	<l id='646'>Qui peuvent t'obliger à ces civilités,</l>
+	<l id='647'>Change dans ton esprit l'image de ce Prince,</l>
+	<l id='648'>Vois le sans majesté, sans sceptre, sans province,</l>
+	<l id='649'>Efface dessous lui les Royaumes unis,</l>
+	<l id='650'>Les tyrans abattus, les rebelles punis ;</l>
+	<l id='651'>Que si tu ne peux pas le voir sans cette marque,</l>
+	<l id='652'>Considère le donc, comme un faible monarque,</l>
+	<l id='653'>Lâchement abattu sous les pieds d'un enfant ;</l>
+	<l id='654'>Et qu'une chaîne attache à son char triomphant,</l>
+	<l id='655'>Vois-le dans ton esprit, dépouillé de ses armes,</l>
+	<l id='656'>Le visage abattu, les yeux mouillez de larmes,</l>
+	<l id='657'>Pâle, faible, tremblant, et proche du trépas.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='658'>Sans mentir ce portrait ne ressemblerait pas,</l>
+	<l id='659'>Et puis j'ai toujours eu l'impression bien forte, </l>
+	<l id='660'>Je ne pourrais jamais me tromper de la sorte ;</l>
+	<l id='661'>Vraiment si je croyais l'excès de votre amour,</l>
+	<l id='662'>Vous auriez de quoi faire un bon conte à la Cour.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='663'>Tu ne le sais que trop, injurieuse, ingrate,</l>
+	<l id='664'>Pour croire maintenant que mon discours te flatte !</l>
+	<l id='665'>Mais tu feins de douter de cette vérité</l>
+	<l id='666'>Pour te rendre excusable en ta sévérité ;</l>
+	<l id='667'>Pour me faire trouver ta rigueur légitime,</l>
+	<l id='668'>Enfin pour m'empêcher de t'accuser d'un crime ;</l>
+	<l id='669'>Mais ton humilité se montre vainement,</l>
+	<l id='670'>Je sais que mes soupirs t'ont parlé clairement,</l>
+<stage>Thersandre paraît. </stage>
+	<l id='671'>Et que la passion trop vivement me touche,</l>
+	<l id='672'>Pour ne paraître pas en mes yeux, en ma bouche.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE tout bas.</speaker>
+	<l id='673'>Il la faut délivrer d'une importunité.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE, apercevant Thersandre.</speaker>
+	<l id='674'>Excusez s'il vous plaît mon incivilité. </l>
+<stage>Elle sort.</stage>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='675'>Mon frère, l'on dirait qu'une jalouse envie</l>
+	<l id='676'>Vous porte à traverser le repos de ma vie :</l>
+	<l id='677'>Quel plaisir prenez vous à me chercher ici ? </l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='678'>Pour moi je suis fâché que l'on vous traite ainsi.</l>
+	<l id='679'>Vous devriez avoir un peu de retenue ;</l>
+	<l id='680'>Quel plaisir avez vous d'aimer une inconnue</l>
+	<l id='681'>Qui vous traite en esclave, et commande en vainqueur ?</l>
+	<l id='682'>Quoi vous oubliez vous, n'avez vous plus de coeur ?</l>
+	<l id='683'>Et ne savez vous pas maintenant qui vous estes ?</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='684'>Ô Dieux si vous saviez le tort que vous me faites !</l>
+	<l id='685'>Elle ne m'aime pas ! Laissez-moi donc jouir</l>
+	<l id='686'>Du bien de lui parler, de la voir, de l'ouir. </l>
+<stage>Il sort.</stage>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='687'>Il est vrai Lisidas que ma poursuite est vaine,</l>
+	<l id='688'>Je perds en te suivant et mon temps et ma peine,</l>
+	<l id='689'>Ton amour quoi que juste à ton frère déplaît,</l>
+	<l id='690'>J'estime ton dessein tout nuisible qu'il m'est ;</l>
+	<l id='691'>Encore as-tu le bien de lui parler sans craindre,</l>
+	<l id='692'>Et moi je suis contraint de me taire et de feindre,</l>
+	<l id='693'>Je n'ose découvrir ce que je t'ai celé,</l>
+	<l id='694'>Et je te venge ainsi de ce dissimulé ;</l>
+	<l id='695'>Essayons d'approcher de cette âme de roche ;</l>
+	<l id='696'>Je le détournerai si je vois qu'il s'approche.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. </head>
+<sp who='CLARIN'><speaker>CLARIN, seul.</speaker>
+	<l id='697'>Quand le Ciel a conclu d'exercer sa fureur,</l>
+	<l id='698'>Il a bientôt ravi l'espoir d'un laboureur ;</l>
+	<l id='699'>Ses biens où tous les ans sa famille se fonde,</l>
+	<l id='700'>Sont des trésors ouverts aux yeux de tout le monde ;</l>
+	<l id='701'>Il les avait hier, il les perd aujourd'hui,</l>
+	<l id='702'>Comme ils viennent du temps, ils changent comme lui,</l>
+	<l id='703'>Qui les a sur les champs n'en a que l'espérance,</l>
+	<l id='704'>Ils sont en cet endroit des biens en apparence,</l>
+	<l id='705'>Le chaud gâte les bleds, un petit vent leur nuit,</l>
+	<l id='706'>Pour perdre une moisson, il ne faut qu'une nuit :</l>
+	<l id='707'>Tel revenant des champs sur le clair de la Lune,</l>
+	<l id='708'>Est rempli de l'espoir de sa bonne fortune ;</l>
+	<l id='709'>Qui sur ses bons pensers ayant fait son sommeil,</l>
+	<l id='710'>Ouvrant un peu les yeux ne voit point de Soleil,</l>
+	<l id='711'>Sautant nu de son lit, dans un épais nuage,</l>
+	<l id='712'>Il remarque en tremblant les signes de l'orage,</l>
+	<l id='713'>Et s'en allant aux champs, voit ses bleds renversez,</l>
+	<l id='714'>Des flots impétueux que le Ciel a versez ;</l>
+	<l id='715'>Confus, il croit que l'air est troublé par des charmes,</l>
+	<l id='716'>Il mouille de nouveau ses guérets de ses larmes,</l>
+	<l id='717'>A cause qu'il les voit submergez par les eaux, </l>
+	<l id='718'>Et ses épics mouillés autant que ses roseaux.</l>
+	<l id='719'>Voilà des changements que le Ciel m'a fait naître,</l>
+	<l id='720'>Depuis que mon bon astre a cessé de paraître ;</l>
+	<l id='721'>Lisanor, que chacun nommait avec raison,</l>
+	<l id='722'>L'espoir et le bonheur, de ma pauvre maison.</l>
+	<l id='723'>Depuis que je l'eus vu bien-loin des yeux du monde</l>
+	<l id='724'>Dans un riche berceau, tenant le bord de l'onde</l>
+	<l id='725'>Que je l'eus transporté chez moi secrètement,</l>
+	<l id='726'>Tous mes jours sont coulez à mon contentement ;</l>
+	<l id='727'>Mes voisins étonnés de voir couvrir la plaine,</l>
+	<l id='728'>En moins de quinze mois de mes bêtes à laine</l>
+	<l id='729'>Crûrent assurément, et le croient encor</l>
+	<l id='730'>Que mon sort m'avait fait découvrir un trésor.</l>
+	<l id='731'>J'achetais aisément les maisons et les terres,</l>
+	<l id='732'>De ceux qui se sentaient du malheur de nos guerres,</l>
+	<l id='733'>Et le plus sec terroir dés le commencement</l>
+	<l id='734'>Au lieu de ses chardons me donnait du froment.</l>
+	<l id='735'>Lors que je cultivais mes champs à l'aventure</l>
+	<l id='736'>Sans chercher avec soin les secrets de Nature,</l>
+	<l id='737'>Ils passaient leurs voisins de la meilleure part ;</l>
+	<l id='738'>Les autres me suivants se moquaient de leur art :</l>
+	<l id='739'>Le décours n'était plus l'auteur de leurs désastres,</l>
+	<l id='740'>Ils ne consultaient plus ni le temps, ni les astres,</l>
+	<l id='741'>Leur travail ne suivait ni coutume ni loi,</l>
+	<l id='742'>Mais labourant leurs champs en même temps que moi,</l>
+	<l id='743'>Ils défiaient sans peur le Ciel et ses injures, </l>
+	<l id='744'>Et ne redoutaient plus ni chaleurs ni froidures :</l>
+	<l id='745'>Depuis qu'il est sorti de ma triste maison,</l>
+	<l id='746'>Je n'ai pas vu les fruits d'une bonne saison.</l>
+	<l id='747'>Il semble que le Ciel ne s'est plu qu'à me nuire,</l>
+	<l id='748'>Mon troupeau s'est gâté, mes champs n'ont pu produire,</l>
+	<l id='749'>La grêle a fait tomber mes fruits et mes raisins :</l>
+	<l id='750'>Le Soleil épargnant les champs de mes voisins,</l>
+	<l id='751'>A ramassé ses feux, pour en brûler mes terres,</l>
+	<l id='752'>Et deux jours de chaleur m'ont plus nui que les guerres.</l>
+	<l id='753'>O Dieux ! injustes Dieux ! ô malheureux destin !</l>
+	<l id='754'>Je n'ai plus que l'espoir d'un bonheur incertain ;</l>
+	<l id='755'>C'est de mon Lisanor, l'appui de ma vieillesse</l>
+	<l id='756'>Que je chercherai tant que la force me laisse :</l>
+	<l id='757'>Je ne me plaindrai plus de mes malheurs passez,</l>
+	<l id='758'>Ils seront pour jamais de mon âme effacés ;</l>
+	<l id='759'>Pourvu qu'ayant couru quelque temps par le monde</l>
+	<l id='760'>Je rencontre celui que je trouvai sur l'onde.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Agante, Caliste.</head>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='761'>Puisque vous m'honorez de votre confidence, </l>
+	<l id='762'>Je veux vous obliger de toute la prudence,</l>
+	<l id='763'>Que mes soins curieux m'ont acquis à la Cour,</l>
+	<l id='764'>Laissez-moi seulement gouverner votre amour.</l>
+	<l id='765'>Accordez le repos à vos tristes pensées.</l>
+	<l id='766'>Que de la moindre crainte elles ne soient blessées :</l>
+	<l id='767'>Je toucherai son coeur avec des traits bien doux.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='768'>Mais sans feindre, ma soeur, comment lui direz vous ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE. </speaker>
+	<l id='769'>D'abord je tâcherai de disposer son âme</l>
+	<l id='770'>A brûler sans sujet d'une amoureuse flamme.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='771'>Le moyen de glisser cette amour dans son sein ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='772'>Je veux un peu parler de beauté sans dessein,</l>
+	<l id='773'>Puis je l'entretiendrai de quelqu'une qui l'aime</l>
+	<l id='774'>Que comme sa beauté, son amour est extrême.</l>
+	<l id='775'>Et que seul il ravit toute sa liberté.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='776'>Discourez un peu plus d'amour que de beauté.</l>
+	<l id='777'>Toute notre beauté, peut tomber sous la vue :</l>
+	<l id='778'>Mais jamais notre amour ne saurait être vue.</l>
+	<l id='779'>C'est une passion que l'on feint aisément,</l>
+	<l id='780'>Que votre esprit conçoive un amoureux tourment,</l>
+	<l id='781'>Qu'il me fasse endurer les plus cruelles gênes,</l>
+	<l id='782'>Jetez-moi dans les feux, mettez moi dans les chaînes,</l>
+	<l id='783'>Imaginez un peu ces ennuis languissants,</l>
+	<l id='784'>Qui font perdre l'esprit et l'usage des sens,</l>
+	<l id='785'>Enfin découvrez lui des douleurs que j'ignore.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='786'>Vous n'avez pas tout dit, j'en imagine encore.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='787'>Que je vous importune avec ma passion ! </l>
+	<l id='788'>Mais j'ai, ma chère soeur, trop de discrétion,</l>
+	<l id='789'>Je feindrais pour un autre un amoureux martyre :</l>
+	<l id='790'>Mais je ne puis avoir de l'amour et le dire.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='791'>Je le dirai pour vous, mais laissez moi rêver.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='792'>Dans une heure au plus tard je vous viens retrouver :</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='793'>Comment ! que je lui sois et rivale et fidèle !</l>
+	<l id='794'>Que j'aie de l'amour, et la fasse pour elle !</l>
+	<l id='795'>Que j'offre en même temps et son âme et son coeur,</l>
+	<l id='796'>J'aime trop Lisanor, pour obliger ma soeur :</l>
+	<l id='797'>Si cette ruse, Amour, te semble légitime,</l>
+	<l id='798'>Achève-la : sinon, pardonne moi mon crime,</l>
+	<l id='799'>Mais je pense qu'à tort tu me voudrais blâmer</l>
+	<l id='800'>D'un péché qui n'a point d'autre fin que d'aimer.</l>
+	<l id='801'>Alors que ton pouvoir nos volontés transporte,</l>
+	<l id='802'>On oublie aisément l'amitié la plus forte,</l>
+	<l id='803'>Elle ne saurait plus captiver notre foi,</l>
+	<l id='804'>De reine elle est esclave et sujette à ta loi,</l>
+	<l id='805'>Si donc pour t'obéir, ma trahison la blesse, </l>
+	<l id='806'>Accuse ton pouvoir, et non pas ma faiblesse :</l>
+	<l id='807'>Mais doit-on pas permettre à l'amoureux tourment</l>
+	<l id='808'>De tromper une soeur, pour servir un amant ?</l>
+	<l id='809'>Le voici ; voudrais-tu me venger d'un outrage ? </l>
+<stage>Lisanor paraît.</stage>
+	<l id='810'>Pourrai-je disposer de ce puissant courage ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Lisanor, Agante.</head>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='811'>Madame, c'est à tort que vous me demandez,</l>
+	<l id='812'>Un bien que je n'ai plus, et que vous possédez.</l>
+	<l id='813'>Un jour votre grandeur permit que je lui fisse</l>
+	<l id='814'>Le voeu particulier d'un éternel service.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='815'>Mais il faudrait quitter cet aimable séjour.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='816'>Pour vous, je quitterai la lumière du jour,</l>
+	<l id='817'>J'irai dans ces pays, que le Soleil abhorre,</l>
+	<l id='818'>Pour vous promettre plus, que promettrai-je encore ?</l>
+	<l id='819'>Vous ne pouvez pas moins dessus moi que les Dieux, </l>
+	<l id='820'>Et pour vous obéir, je laisserai ces lieux,</l>
+	<l id='821'>Si mon bannissement, vous contente, il m'oblige.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='822'>Ton courage me plaît, mais la crainte m'afflige,</l>
+	<l id='823'>J'appréhende sur tout de te mettre en danger.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='824'>C'est croître le désir, que j'ai de vous venger.</l>
+	<l id='825'>Je dédaigne pour vous les vents, et le tonnerre,</l>
+	<l id='826'>Les naufrages, les feux, les tremblements de terre,</l>
+	<l id='827'>Enfin ce que le monde a de plus rigoureux,</l>
+	<l id='828'>En ce lieu n'a pour moi qu'un visage amoureux.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='829'>Ne crois pas mon dessein suivi de ces supplices,</l>
+	<l id='830'>Ne pense pas trouver ni feux ni précipices,</l>
+	<l id='831'>Ne te proposes point de monstres à dompter,</l>
+	<l id='832'>L'ennemi que l'on craint est facile à traiter,</l>
+	<l id='833'>Sans armes, et tout seul tu le pourras combattre,</l>
+	<l id='834'>On le veut apaiser, on ne veut pas l'abattre.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='835'>Madame, je ne puis vous servir qu'à demi.</l>
+	<l id='836'>Puisque vous me donnez un si faible ennemi,</l>
+	<l id='837'>Sans mentir j'attendais quelque chose de pire. </l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='838'>Traite le seulement, comme je le désire,</l>
+	<l id='839'>Et tu m'obligeras, sans sortir de la Cour.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='840' part='i'>Que je sache son nom ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='840' part='f'>Je le veux : c'est l'amour.</l>
+	<l id='841'>Celle pour qui je parle, endure un mal étrange,</l>
+	<l id='842'>Sous les cruelles lois où ce tyran la range,</l>
+	<l id='843'>On voit à tous moments sa pauvre âme aux abois,</l>
+	<l id='844'>Tous les jours sans mourir elle meurt mille fois ;</l>
+	<l id='845'>D'elle même tantôt je la crois séparée,</l>
+	<l id='846'>Je vois sa bouche ouverte, et sa vue égarée,</l>
+	<l id='847'>Son visage défait, ses membres languissants,</l>
+	<l id='848'>Tantôt la passion lui redonne les sens,</l>
+	<l id='849'>Pour lui faire souffrir un tourment qui la brûle</l>
+	<l id='850'>Selon que sa fureur, s'approche, ou se recule.</l>
+	<l id='851'>Qu'elle se rend plus forte, ou perd de sa rigueur,</l>
+	<l id='852'>Je crois que son corps laisse, ou reçoit sa vigueur.</l>
+	<l id='853'>L'esprit suit la fureur, ou bien plutôt j'estime,</l>
+	<l id='854'>Au lieu de son espoir que sa fureur l'anime.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='855'>Vous parlez du plus grand de tous mes ennemis,</l>
+	<l id='856'>Mais que j'ai toutefois à mon pouvoir soumis :</l>
+	<l id='857'>Elle même qui brûle a ces puissantes armes,</l>
+	<l id='858'>Qui m'ont fait résister au pouvoir de ses charmes.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='859' part='i'>Quelles ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='859' part='m'>C'est la raison.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='859' part='f'>Elle est bien faible ; joint,</l>
+	<l id='860'>Qu'on ne se peut servir, de ce que l'on n'a point.</l>
+	<l id='861'>Crois-tu qu'avec l'amour, la raison se conserve ?</l>
+	<l id='862'>D'abord il la ravit, de peur qu'on ne s'en serve.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='863'>Quoi qu'une âme s'égare en ce fâcheux tourment,</l>
+	<l id='864'>Elle jouit parfois de quelque bon moment.</l>
+	<l id='865'>Une fureur extrême a fort peu de durée,</l>
+	<l id='866'>Et l'esprit est rassis quand elle est modérée.</l>
+	<l id='867'>Lors donc que ses soupirs seraient moins irritez,</l>
+	<l id='868'>Son visage plus gai, ses sens plus arrêtez,</l>
+	<l id='869'>Et que je penserais sa fureur apaisée,</l>
+	<l id='870'>Ses esprits plus rassis, son âme plus posée,</l>
+	<l id='871'>Enfin qu'elle serait capable de raison,</l>
+	<l id='872'>Alors je tâcherais de rompre sa prison.</l>
+	<l id='873'>Et voulant ramener son esprit à lui même, </l>
+	<l id='874'>Je le détournerais de cet objet qu'elle aime.</l>
+	<l id='875'>Je lui découvrirais sa laideur, ses défauts,</l>
+	<l id='876'>Et s'il n'en avait point j'en trouverais de faux,</l>
+	<l id='877'>Je ferais bien commun, ce qui serait bien rare,</l>
+	<l id='878'>D'un esprit bien subtil, j'en ferais un barbare :</l>
+	<l id='879'>Au plus beau je peindrais un visage odieux.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='880'>cela n'est pas mauvais pour ceux qui n'ont point d'yeux.</l>
+	<l id='881' part='i'>Mais poursuivez ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='881' part='f'>Après je dirais la tristesse,</l>
+	<l id='882'>Qui punit les amants ; la douleur qui les presse.</l>
+	<l id='883'>Ces larmes, ces soupirs, ces craintes, ces transports,</l>
+	<l id='884'>Qui changent à la fois leurs âmes, et leurs corps.</l>
+	<l id='885'>Que l'on voit leurs plaisirs troublez de jalousie ;</l>
+	<l id='886'>Que toujours leur esprit est dans la frénésie,</l>
+	<l id='887'>Et qu'on ne souffre point de peines aux enfers,</l>
+	<l id='888'>Qui puissent égaler leurs flammes et leurs fers.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='889'>Ce n'est pas en ce lieu que l'on en fait accroire,</l>
+	<l id='890'>Ne pense pas ainsi remporter la victoire :</l>
+	<l id='891'>Je veux bien te montrer une autre invention,</l>
+	<l id='892'>Mais sache le sujet de cette affection. </l>
+	<l id='893' part='i'>C'est toi qu'elle aime.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='893' part='f'>Ô Dieux ! que cette amour m'irrite :</l>
+	<l id='894'>Je m'en défendrai bien sur mon peu de mérite.</l>
+	<l id='895'>Mais comment son effet se peut-il réprimer ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='896'>Le moyen d'apaiser cette amour c'est d'aimer,</l>
+	<l id='897'>Une amour mutuel cause de doux supplices,</l>
+	<l id='898'>Et convertit ces fers, et ces feux en délices.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='899'>Mais je trouve pour moi que c'est être imprudent,</l>
+	<l id='900'>Que de penser ainsi le vaincre en lui cédant ;</l>
+	<l id='901'>Madame, vos discours implorent mon courage,</l>
+	<l id='902'>Pour me faire endurer un si sensible outrage ;</l>
+	<l id='903'>C'est me rendre vainqueur pour entrer en prison.</l>
+	<l id='904'>Et montrer ma valeur pour trahir ma raison.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='905'>Afin que ta raison à mes discours consente,</l>
+	<l id='906'>Je te veux découvrir qui t'aime. C'est Agante.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='907'>Justes Dieux, que d'ennuis m'arrivent à la fois !</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='908'>Il perd dans ce transport la couleur, et la vois.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='909'>Je suis votre sujet adorable Princesse, </l>
+	<l id='910'>Songez à votre gloire et voyez ma bassesse.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='911'>Ne pense pas ici relever mon bonheur,</l>
+	<l id='912'>N'use point de ces noms de respect et d'honneur,</l>
+	<l id='913'>Dédaigne si tu veux l'éclat qui m'environne,</l>
+	<l id='914'>Et songe que je n'ai ni sceptre ni couronne,</l>
+	<l id='915'>Appelle moi plutôt ou ton âme, ou ton coeur :</l>
+	<l id='916'>Et ne te nomme plus esclave, mais vainqueur !</l>
+	<l id='917'>Lors que sur tes esprits je serai souveraine,</l>
+	<l id='918'>Tu pourras m'appeler ta princesse et ta reine.</l>
+	<l id='919'>Considère le bien, le rang, la qualité,</l>
+	<l id='920'>Sans cela ta valeur, n'est qu'une lâcheté.</l>
+	<l id='921'>La plus rare vertu nous passe pour commune,</l>
+	<l id='922'>Quand elle n'est pas jointe avecque la fortune.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='923'>La fortune jamais ne retint mes désirs,</l>
+	<l id='924'>Et jamais mon esprit n'y trouva ses plaisirs.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='925'>Quoi donc ? Ne suis-je pas de grâce assez pourvue ?</l>
+	<l id='926'>Ai-je quelque défaut qui déplaise a ta vue ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='927'>Je ne puis discerner ce qui me plaît le mieux,</l>
+	<l id='928'>Des mains, du sein, du front, de la bouche ou des yeux :</l>
+	<l id='929'>Vos biens n'égalent point encore vos mérites, </l>
+	<l id='930'>Et s'ils les égalaient ils seraient sans limites :</l>
+	<l id='931'>Mais ils n'ont point rendu mes esprits aveuglez,</l>
+	<l id='932'>J'ai pour vous seulement des mouvements réglez :</l>
+	<l id='933'>Je ne suis point ému de ces puissants orages,</l>
+	<l id='934'>Qui troublent des amants les sens, et les courages.</l>
+	<l id='935'>Non que j'aie jamais par un profond discours,</l>
+	<l id='936'>De cette passion interrompu le cours :</l>
+	<l id='937'>La nature m'en a la puissance ravie,</l>
+	<l id='938'>Dés le jour malheureux que je reçus la vie :</l>
+	<l id='939'>Mais je souhaiterais qu'elle-même en ce jour,</l>
+	<l id='940'>M'eut arraché les yeux, ou donné de l'amour.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='941'>Ne crois pas que les Dieux méritent ce reproche,</l>
+	<l id='942'>Et qu'en faisant un homme, ils fassent une roche,</l>
+	<l id='943'>Ils ont même permis aux plus lourds animaux,</l>
+	<l id='944'>De souhaiter les biens, et de craindre les maux.</l>
+	<l id='945'>Accuse les plutôt avec juste colère,</l>
+	<l id='946'>De ce qu'ils m'ont ôté les moyens de te plaire,</l>
+	<l id='947'>Qu'ils n'ont pas assez mis de flammes dans mes yeux,</l>
+	<l id='948'>Que leur haine a rendu mon visage odieux.</l>
+	<l id='949'>Enfin, qu'ils m'ont privé, de mérite et de grâce.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='950'>Non, vos yeux sont de flamme, et mon coeur est de glace,</l>
+	<l id='951'>Madame mon esprit ne peut dissimuler ; </l>
+	<l id='952'>S'il vous plaît je dirai que je me sens brûler,</l>
+	<l id='953'>Que l'excès de l'amour ma volonté transporte,</l>
+	<l id='954'>Qu'on n'éprouva jamais de passion plus forte.</l>
+	<l id='955'>Enfin que ces tourments vont causer mon trépas,</l>
+	<l id='956'>Mais je vous promettrai ce qui ne sera pas.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='957'>Quoi, celui qui tantôt en m'offrant son service,</l>
+	<l id='958'>Voulait souffrir pour moi le plus cruel supplice,</l>
+	<l id='959'>À qui les flots émus ne faisaient point de peur :</l>
+	<l id='960'>À qui les feux du Ciel n'étaient qu'une vapeur,</l>
+	<l id='961'>Qui dédaignant les maux de la terre et de l'onde,</l>
+	<l id='962'>Promettait d'en chercher dedans un autre monde</l>
+	<l id='963'>Ne veut pas endurer le moindre feu d'amour !</l>
+	<l id='964'>Quoi ! m'aimer être pis que de perdre le jour !</l>
+	<l id='965'>M'aimer être chercher une mort plus funeste,</l>
+	<l id='966'>Que celle du poison, des feux, et de la peste ! </l>
+<stage>Voyant venir Caliste.</stage>
+	<l id='967' part='i'>Que dirai-je ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Agante, Lisanor, Caliste.</head>
+<sp who='AGANTE'><speaker>AGANTE. </speaker>
+	<l id='967' part='f'>Ma soeur, vous voyez un rocher</l>
+	<l id='968'>Que les meilleurs discours n'ont jamais peu toucher.</l>
+	<l id='969'>Jamais un beau dessein n'entra dans sa pensée.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR, tout bas.</speaker>
+	<l id='970'>Ô Dieux quel monstre c'est qu'une femme offensée ! </l>
+<stage>Parlant à Agante.</stage>
+	<l id='971' part='i'>Madame ? </l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='971' part='f'>Va cruel tu n'as que trop parlé.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR, sort.</speaker>
+<stage>Tout bas.</stage>
+	<l id='972'>Il m'eut pu découvrir s'il ne s'en fut allé. </l>
+<stage>À sa soeur.</stage>
+	<l id='973'>Ce barbare jamais ne m'a voulu complaire.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='974'>Dieux que ma passion vous a mise en colère !</l>
+	<l id='975'>Ce n'était pas à vous à faire ces regrets,</l>
+	<l id='976'>Vous prenez trop de part dedans mes intérêts :</l>
+	<l id='977'>Laissez-moi détester cette âme rigoureuse, </l>
+	<l id='978'>Caliste seulement doit être malheureuse.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='979'>Ce Tigre, ce tyran, d'un front audacieux,</l>
+	<l id='980'>A poussé, sans respect, des traits injurieux</l>
+	<l id='981'>Le sang à ce penser au visage me monte,</l>
+	<l id='982'>Et je rougis pour vous de colère, et de honte.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='983'>Mais avez vous bien dit ma douleur, mon ennui,</l>
+	<l id='984'>Que je fondais en pleurs, que je brûlais pour lui,</l>
+	<l id='985'>Que lui seul maintenant occupait ma mémoire ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='986'>Ma soeur, j'en ai tant dit, qu'il n'en a pu rien croire.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='987'>Tentez encore un coup ce courage inhumain,</l>
+	<l id='988'>Lui voulez-vous donner cet écrit de ma main ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='989'>Non j'y veux employer quelque autre aussi fidèle.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='990' part='i'>Mais qui ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='990' part='f'>Céline, on peut s'en reposer sur elle.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='991' part='i'>Je le veux.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='991' part='f'>Laissez moi seulement ce papier :</l>
+	<l id='992' part='i'>Allez.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='992' part='f'>Vous me ferez un plaisir singulier. </l>
+<stage>Caliste rentre.</stage>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE lit la lettre de Caliste.</speaker>
+	<l id='993'>Lisanor depuis cet instant,</l>
+	<l id='994'>Que tes vertus me plurent tant ;</l>
+	<l id='995'>Toujours le même feu me plaît et m'importune,</l>
+	<l id='996'>Je ne saurais aimer ni les champs ni la cour,</l>
+	<l id='997'>Mais combien que je voie accroître ta fortune,</l>
+	<l id='998'>Je ne ressens jamais accroître mon amour.</l>
+	<l id='999'>Dès lors par l'avis de mes yeux,</l>
+	<l id='1000'>Qui te virent si gracieux,</l>
+	<l id='1001'>Je te voulus donner mon âme toute entière :</l>
+	<l id='1002'>Offre moi maintenant ta constance et ta foi ;</l>
+	<l id='1003'>Repens toi si tu veux de ta froideur première,</l>
+	<l id='1004'>Tu n'as rien d'avantage à désirer de moi.</l>
+	<l id='1005'>Elle a dit sans mentir ce que je voulais dire,</l>
+	<l id='1006'>Ces vers me serviront, je m'en vais les récrire,</l>
+	<l id='1007'>Je ne pouvais trouver de discours plus charmants : </l>
+	<l id='1008'>J'ai le même dessein, les mêmes sentiments.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1009'>À la fin c'est trop vivre en ma persévérance,</l>
+	<l id='1010'>Le moyen que je puisse aimer sans espérance ?</l>
+	<l id='1011'>Et quel juste sujet puis-je avoir d'espérer,</l>
+	<l id='1012'>Un bien où la raison me défend d'aspirer ?</l>
+	<l id='1013'>Si quitter pour le voir le lieu de ma naissance,</l>
+	<l id='1014'>Sur ce barbare esprit n'a point eu de puissance :</l>
+	<l id='1015'>Si ce que j'ai souffert parmi des étrangers ;</l>
+	<l id='1016'>Si mes pertes, mes maux, mes craintes, mes dangers,</l>
+	<l id='1017'>Pour attirer son coeur n'ont jamais eu de charmes,</l>
+	<l id='1018'>Que pourront maintenant mes soupirs, et mes larmes ?</l>
+	<l id='1019'>Hélas ! s'il s'est moqué de mon affection,</l>
+	<l id='1020'>Lorsque je l'égalais en sa condition :</l>
+	<l id='1021'>Lui doit-elle pas être encor plus importune,</l>
+	<l id='1022'>Depuis que sa valeur élève sa fortune.</l>
+	<l id='1023'>Dieux ! punissez un peu ses mépris rigoureux,</l>
+	<l id='1024'>Que je sois plus aimée, et qu'il soit moins heureux.</l>
+	<l id='1025'>Il faut à ma douleur faire un peu de contrainte, </l>
+	<l id='1026'>J'ai peur que la Princesse ait écouté ma plainte.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Agante, Céline.</head>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1027'>Tu me sembles, Céline, assez triste aujourd'hui,</l>
+	<l id='1028'>Quelque accident nouveau te donne de l'ennui ?</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1029'>Puisque votre grandeur approuve mon service,</l>
+	<l id='1030'>Je pus bien m'exempter de ce fâcheux supplice.</l>
+	<l id='1031'>Madame, votre esprit m'offre des fers si doux ;</l>
+	<l id='1032'>Que je promets ici de n'obéir qu'à vous :</l>
+	<l id='1033'>Si mes fidèles soins vous peuvent satisfaire.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1034'>Je les vais reprouver dans une bonne affaire :</l>
+	<l id='1035'>Présente à Lisanor cet écrit de ma part.</l>
+	<l id='1036'>Mais je veux que d'un mot, d'un souris, d'un regard,</l>
+	<l id='1037'>Ta curiosité découvre sa pensée,</l>
+	<l id='1038'>Et le secret tourment dont son âme est blessée.</l>
+	<l id='1039'>Du port, des actions, du front, de la couleur,</l>
+	<l id='1040'>On connaît aisément la joie ou la douleur.</l>
+	<l id='1041'>Et si l'amour sur nous exerce quelque empire, </l>
+	<l id='1042'>Tu m'entends bien ? Après, qu'ai-je encor à te dire ?</l>
+	<l id='1043'>Ah ! lors que tu verras ma soeur avecque moi,</l>
+	<l id='1044'>Feins bien que Lisanor s'est fâché contre toi.</l>
+	<l id='1045'>Aussitôt que la lettre en tes mains il a vue,</l>
+	<l id='1046'>Qu'il a passé dessus légèrement la vue,</l>
+	<l id='1047'>Jetant à tous moments des regards furieux,</l>
+	<l id='1048'>Enfin que sa colère a paru dans ses yeux ;</l>
+	<l id='1049'>Mais parle comme si cet écrit venait d'elle,</l>
+	<l id='1050'>Et sur tout en ce point tâche à m'être fidèle.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1051'>Madame, vous pouvez vous fier sur ma foi.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1052'>Tu sais quelles faveurs on peut avoir de moi.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1053'>L'honneur de vous servir a borné mon envie,</l>
+	<l id='1054'>Vous m'offrez des faveurs, et vous m'ôtez la vie.</l>
+	<l id='1055'>En vain espoir trompeur tu me viens secourir ;</l>
+	<l id='1056'>Agante a de l'amour, Céline doit mourir ;</l>
+	<l id='1057'>Que me faut-il choisir du fer, ou de la flamme ?</l>
+	<l id='1058'>Hélas ! le moindre mot me peut arracher l'âme.</l>
+<stage>Elle lit la lettre de Caliste, ré-écrite de la main d'Agante.</stage>
+	<l id='1059'>Lisanor depuis cet instant ;</l>
+	<l id='1060'>Que tes vertus me plurent tant,</l>
+	<l id='1061'>Toujours le même feu me plaît et m'importune, </l>
+	<l id='1062'>Je ne saurais aimer ni les champs, ni la Cour,</l>
+	<l id='1063'>Mais combien que je voie accroître ma fortune,</l>
+	<l id='1064'>Je ne ressens jamais accroître mon amour.</l>
+	<l id='1065'>Cela suffit-il pas pour me priver du jour ?</l>
+	<l id='1066'>Dès lors par l'avis de mes yeux,</l>
+	<l id='1067'>Qui te virent si gracieux,</l>
+	<l id='1068'>Je te voulus donner mon âme toute entière.</l>
+	<l id='1069'>Offre moi maintenant ta constance et ta foi,</l>
+	<l id='1070'>Repens-toi si tu veux de ta froideur première,</l>
+	<l id='1071'>Tu n'as rien d'avantage à désirer de moi,</l>
+	<l id='1072'>Ah sortons de ses fers, puis qu'elle est sous sa loi !</l>
+	<l id='1073'>Sachons auparavant si cette amour le touche,</l>
+	<l id='1074'>J'entendrai mon arrêt prononcé de sa bouche,</l>
+	<l id='1075'>Et j'aurai ses beaux yeux pour témoins de ma mort !</l>
+	<l id='1076'>Montrons notre douleur par un dernier effort,</l>
+	<l id='1077'>Chassons de notre esprit le respect et la crainte,</l>
+	<l id='1078'>Et ne retenons plus l'amour dans sa contrainte.</l>
+	<l id='1079'>Agante dans ces vers lui présente sa foi,</l>
+	<l id='1080'>C'est le même présent qu'il a reçu de moi,</l>
+	<l id='1081'>Elle dit que l'amour a causé son martyre,</l>
+	<l id='1082'>Et ce puissant amour les mêmes traits me tire,</l>
+	<l id='1083'>Puisque nous nous plaignons de ce même démon,</l>
+	<l id='1084'>Son billet doit porter et sa plainte et mon nom.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='LISANOR'><speaker>LISANOR, seul.</speaker>
+	<l id='1085'>Quel pays servira de retraite à ma fuite,</l>
+	<l id='1086'>Comment m'échapperai-je, Amour, de ta poursuite ?</l>
+	<l id='1087'>En quel antre secret porterai-je ces yeux</l>
+	<l id='1088'>Dont tu fais tous les jours quelque esprit furieux ?</l>
+	<l id='1089'>Irai-je derechef vivre en la solitude ?</l>
+	<l id='1090'>Mais j'y fus autrefois en même inquiétude,</l>
+	<l id='1091'>Que je suis maintenant en ces lieux étrangers :</l>
+	<l id='1092'>Tu tourmentes autant les rois que les Bergers,</l>
+	<l id='1093'>Et qui serait tout seul dans un pays sauvage,</l>
+	<l id='1094'>Tu lui ferais aimer une fleur, un rivage.</l>
+	<l id='1095'>Une fontaine, un bois ravirait ses esprits ;</l>
+	<l id='1096'>Et de son ombre même il se verrait épris :</l>
+	<l id='1097'>Un tronc te servirait, pour amollir les âmes,</l>
+	<l id='1098'>Avecque des glaçons, tu produirais des flammes,</l>
+	<l id='1099'>Tu nous rendrais à nous d'adorables objets, </l>
+	<l id='1100'>Et nous mêmes serions à nous mêmes sujets :</l>
+	<l id='1101'>Je ne te vaincrai donc jamais par mon absence ;</l>
+	<l id='1102'>Je devrai ma victoire à ma seule puissance.</l>
+	<l id='1103'>Qu'Agante, que Céline entrent dans ta prison :</l>
+	<l id='1104'>La pitié ne saurait ébranler ma raison. </l>
+<stage>Il voit Céline.</stage>
+	<l id='1105'>Ne voici pas encor un sujet de ma gloire ?</l>
+	<l id='1106'>Ta honte, faible amour, va suivre ma victoire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1107'>Je ne vous tiendrai point de discours superflus ;</l>
+	<l id='1108'>Répondez un seul mot, et je ne parle plus : </l>
+	<l id='1109'>Jetez un peu les yeux dessus cette écriture ; </l>
+	<l id='1110'>Ce qu'Agante vous dit, c'est mon coeur qui l'endure. </l>
+<stage>Elle lui présente la lettre de Caliste ré-écrite de la main d'Agante, au bas de laquelle Céline avait son nom.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE III. Thersandre, Céline, Lisanor.</head>
+<stage>Lisanor lit.</stage>
+<sp who='THERSANDRE'><speaker>THERSANDRE. </speaker>
+	<l id='1111'>Ah ! voici le rival qui trouble mon repos ; </l>
+	<l id='1112'>Je romps peut-être ici vos amoureux propos.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1113'>Jamais un tel dessein n'occupa ma pensee.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1114'>Si vous n'êtes menteur, Céline est offensée,</l>
+	<l id='1115'>Mais lisons : Est-ce à vous qu'elle donne son coeur ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1116' part='i'>Oui.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1116' part='f'>Ce riche présent sera pour le vainqueur,</l>
+	<l id='1117'>Lisanor tu le dois acquérir par l'épée.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1118'>La mienne en ces sujets ne peut être occupée,</l>
+	<l id='1119'>Ce dessein tient du lâche ou bien du furieux.</l>
+	<l id='1120'>Votre fer n'a-t-il point d'objet plus glorieux ?</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE, parlant à Céline.</speaker>
+	<l id='1121'>Je veux vous témoigner que je vous suis fidèle. </l>
+<stage>Il met la main à l'épée.</stage>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1122' part='i'>Ô Dieux !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Céline, Lisidas, Thersandre, Lisanor.</head>
+<sp who='CELINE'><speaker>CÉLINE, voyant venir Lisidas, qui met la main à l'épée pou secourir son frère.</speaker>
+	<l id='1122' part='f'>Hélas, sachez l'auteur de la querelle.</l>
+	<l id='1123'>Faites un peu cesser ce combat hasardeux. </l>
+<stage>Elle se met entre Lisanor et les deux princes.</stage>
+	<l id='1124'>Quoi mon amour peut-il vous obliger tous deux ? </l>
+	<l id='1125'>Que ferai-je en ce lieu ? qui voulez vous que j'aime ? </l>
+	<l id='1126'>Si vous me poursuivez, il me poursuit de même. </l>
+	<l id='1127'>Il commence à se plaindre alors que vous cessez.</l>
+	<l id='1128'>Vous venez, il me laisse : il vient, vous me laissez. </l>
+<stage>En montrant Lisidas à Thersandre.</stage>
+	<l id='1129' part='i'>Qui recevra mes voeux ? </l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='1129' part='f'>Dieux, cela peut-il être ?</l>
+	<l id='1130'>Esprit dissimulé, lâche, perfide, traître, </l>
+	<l id='1131'>Compare ma douceur avec ta cruauté,</l>
+	<l id='1132'>Sois honteux de ta feinte, et de ma privauté :</l>
+	<l id='1133'>N'as-tu pas par ma voix ma passion connue ?</l>
+	<l id='1134'>Ne t'ai-je pas montré mon âme toute nue ?</l>
+	<l id='1135'>Ai-je fait malgré toi quelque amoureux dessein ?</l>
+	<l id='1136'>Et n'as-tu pas reçu mes larmes dans ton sein ?</l>
+	<l id='1137'>Tu savais tous les jours mes secrètes visites,</l>
+	<l id='1138'>Tu voyais dans mes vers mes passions décrites.</l>
+	<l id='1139'>Et les voeux que j'offrais à ces divins appas ;</l>
+	<l id='1140'>Enfin je te contais mes soupirs et mes pas ;</l>
+	<l id='1141'>Tu désirais brûler d'une pareille flamme,</l>
+	<l id='1142'>Et ton discours tâchait d'en retirer mon âme,</l>
+	<l id='1143'>Tu méprisais l'amour, en adorant ses traits.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1144'>Mon frère, condamnez ces aimables attraits,</l>
+	<l id='1145'>Cette bouche, ses yeux sont auteurs de mes feintes.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='1146'>Et puis elle n'a rien qui nous réduise aux plaintes,</l>
+	<l id='1147'>Ce visage n'est pas un objet précieux :</l>
+	<l id='1148'>L'amour ne tire point de flammes par ses yeux.</l>
+	<l id='1149'>On ne voit point d'appas sur ce front qui nous touche,</l>
+	<l id='1150'>Sa neige manque au sein, le corail à la bouche,</l>
+	<l id='1151'>Par ces termes un jour vouliez vous l'honorer ?</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE. </speaker>
+	<l id='1152'>Je dédaignais un dieu que j'allais adorer.</l>
+	<l id='1153'>Mon âme est innocente, et ma bouche coupable.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1154'>Ah ! ne condamnez pas un discours véritable.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1155'>L'amour m'avait réduit au point de vous blâmer.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1156'>Il ne me peut réduire au point de vous aimer.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1157'>Mon frère pour loyer de vos peines passées,</l>
+	<l id='1158'>Et puisque j'ai connu vos secrètes pensées,</l>
+	<l id='1159'>Je vous fais un présent de mes prétentions.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1160'>Et moi de cet objet de vos affections.</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='1161'>Parmi tant de refus tu recevras mon âme.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1162'>Parmi tant de froideur apaisez votre flamme.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR, à Lisidas. </speaker>
+	<l id='1163'>Quelque jour vous verrez son courage soumis : </l>
+<stage>Il rend la lettre à Céline.</stage>
+	<l id='1164'>Venez, je crains de faire encor des ennemis. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Céline, Agante, Caliste.</head>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1165' part='i'>Ô Dieux je suis perdue !</l>
+<stage>Pour ce qu'Agante arrive et lui voit recevoir la lettre des mains de Lisanor où le nom de Céline était.</stage>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1165' part='f'>Ah ! Je suis découverte.</l>
+<stage>Pour ce que Caliste voit cette même lettre où était l'écriture d'Agante.</stage>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1166'>J'attends de sa réponse ou ma vie ou ma perte ;</l>
+	<l id='1167'>De tant de vains soupçons délivrés mes esprits.</l>
+<stage>Croit que c'est une réponse à sa lettre. d'autant que Céline refusait de lui donner.</stage>
+	<l id='1168'>J'ai disposé mon âme à souffrir ses mépris : </l>
+<stage>Elle ouvre la lettre.</stage>
+	<l id='1169'>L'écriture d'Agante, et le nom de Céline ! </l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1170' part='i'>Ma soeur que dites vous ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1170' part='f'>Ne faites plus la fine.</l>
+	<l id='1171'>La feinte est reconnue, et le même discours, </l>
+	<l id='1172'>Qui découvrait mon mal, m'a fait voir vos amours :</l>
+	<l id='1173'>Vous m'êtes tout d'un coup rivale et confidente.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE, à Céline après avoir vu. son nom au bas de sa lettre.</speaker>
+	<l id='1174'>Que peux-tu maintenant me répondre impudente ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE, à Agante.</speaker>
+	<l id='1175'>Et vous ne recherchez que les amours d'un roi.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE, à Céline.</speaker>
+	<l id='1176'>Et tu m'avais juré que tu n'aimais que moi.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE, à Agante.</speaker>
+	<l id='1177' part='i'>Est-ce ainsi qu'on m'abuse ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE, à Céline.</speaker>
+	<l id='1177' part='f'>Est-ce ainsi qu'on m'affronte ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE, à Agante.</speaker>
+	<l id='1178' part='i'>Vous n'en rougissez point ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE, à Céline.</speaker>
+	<l id='1178' part='f'>Tu n'en as point de honte ?</l>
+	<l id='1179'>Infâme ! mais dis moi quel était ton dessein. </l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1180'>Celui que la fureur peut mettre dans le sein.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1181'>J'implorais tous les jours vos soins, et ma franchise</l>
+	<l id='1182'>Avait entre vos mains, ma liberté remise.</l>
+	<l id='1183'>Je ne vous cachais point mes soupirs ni mes pleurs :</l>
+	<l id='1184'>Vos yeux étaient témoins de mes justes douleurs,</l>
+	<l id='1185'>Votre feinte pitié suivait mes tristes plaintes,</l>
+	<l id='1186'>Et votre âme semblait se troubler de mes craintes :</l>
+	<l id='1187'>Vous rompiez mes desseins en m'offrant du support :</l>
+	<l id='1188'>Vous prolongiez ma vie, en conspirant ma mort :</l>
+	<l id='1189'>Et votre esprit jaloux déguisant sa souffrance,</l>
+	<l id='1190'>En ravissant mon bien, m'en laissait l'espérance :</l>
+	<l id='1191' part='i'>Ô détestable feinte !</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1191' part='f'>Ô dangereux appas ?</l>
+	<l id='1192' part='i'>Ma soeur que peut l'amour ?</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1192' part='f'>Mais que ne peut-il pas ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1193'>Perfide tu sauras, la présence d'un père,</l>
+	<l id='1194'>Empêche les effets de ma juste colère. </l>
+<stage>Le Roi paraît suivi de Lisidas et Lisanor.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Roi, Lisidas, Chrisante, Céline, Lisanor, Thersandre, Agante, Caliste.</head>
+<sp who='LE-ROI'><speaker>LE ROI. </speaker>
+	<l id='1195'>Vraiment je ne pouvais venir plus à propos,</l>
+	<l id='1196'>Céline voulez-vous nous ravir le repos ?</l>
+	<l id='1197'>Avez-vous résolu de nous faire la guerre ?</l>
+	<l id='1198'>Nous n'avons plus que vous d'ennemis sur la terre.</l>
+	<l id='1199'>Vos attraits sont auteurs des troubles de la Cour :</l>
+	<l id='1200'>Redonnez-nous la paix, ayez un peu d'amour,</l>
+	<l id='1201'>Et si votre espérance en quelque objet se fonde,</l>
+	<l id='1202'>N'aimez que celui-là, contentez tout le monde :</l>
+	<l id='1203'>Que tous pensent vous vaincre, et qu'un seul soit vainqueur ;</l>
+	<l id='1204'>Gardez les pleurs pour l'un, et pour l'autre le coeur,</l>
+	<l id='1205'>Que lui seul le possède, et que chacun l'espère.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1206'>Sire, c'est un courrier de la part de mon père. </l>
+<stage>Thersandre fait approcher Chrisante.</stage>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1207' part='i'>Que désire le Duc ?</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE. </speaker>
+	<l id='1207' part='f'>Sire, il m'a député,</l>
+	<l id='1208'>Pour porter cette lettre à votre Majesté. </l>
+<stage>Le Roy lit la lettre.</stage>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI, parlant aux deux Princes.</speaker>
+	<l id='1209'>Votre père craignant l'effort des destinées,</l>
+	<l id='1210'>Qui menacent le cours de ses vieilles années,</l>
+	<l id='1211'>Devant que son trépas ait rompu ses projets,</l>
+	<l id='1212'>Il désire vous voir gouverner ses sujets,</l>
+	<l id='1213'>Et mourir satisfait, assuré qu'il leur donne</l>
+	<l id='1214'>Des fils qu'il a rendus dignes de sa couronne.</l>
+	<l id='1215'>Un Prince comme lui qui chérit bien les siens,</l>
+	<l id='1216'>Doit assurer ainsi leur repos et leurs biens :</l>
+	<l id='1217'>Doit craindre qu'avec lui leur paix ne soit ravie,</l>
+	<l id='1218'>Qu'ils ne perdent leurs biens, alors qu'il perd sa vie.</l>
+	<l id='1219'>Il les exemptera de regret et de peur.</l>
+	<l id='1220'>S'il laisse après sa mort quelque bon successeur,</l>
+	<l id='1221'>Il n'a point tant d'horreur de sa perte prochaine,</l>
+	<l id='1222'>Il quitte sa couronne avecque moins de peine,</l>
+	<l id='1223'>Et je ne doute point qu'abandonnant ces lieux,</l>
+	<l id='1224'>Il n'en soit plus cheri des hommes et des Dieux.</l>
+	<l id='1225'>Mais approuverez vous l'hymen qu'il vous conseille ? </l>
+<stage>Il tire à part Thersandre et Lisidas et leur montre la lettre.</stage>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE, considérant Chrisante.</speaker>
+	<l id='1226'>Je ne sentis jamais une froideur pareille :</l>
+	<l id='1227'>Dans cet étonnement, je ne sais si je vis, </l>
+	<l id='1228'>Mon esprit m'abandonne, et mes sens sont ravis :</l>
+	<l id='1229'>Plus je vois ce vieillard, plus je le considère ;</l>
+	<l id='1230'>Plus je me sens contrainte à l'appeler mon père ;</l>
+	<l id='1231'>Je ne puis résister à ce puissant transport ;</l>
+	<l id='1232'>Oui : c'est là son visage, et sa voix et son port :</l>
+	<l id='1233'>Mon cher père, est-ce vous que je revois encore ?</l>
+	<l id='1234'>Ah ! Que je vous embrasse ou que je vous adore :</l>
+	<l id='1235'>Accordez ces faveurs à ma sainte amitié ;</l>
+	<l id='1236'>Pleurez en me voyant, ou d'aise ou de pitié.</l>
+	<l id='1237'>Je suis celle qui fut d'entre vos mains ravie,</l>
+	<l id='1238'>Et c'est à vous Chrysante à qui je dois la vie.</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE.</speaker>
+	<l id='1239'>Chrysante c'est mon nom, mais j'ignore le sien.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1240'>Vous ignorez mon nom, et je vous dois mon bien !</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE.</speaker>
+	<l id='1241' part='i'>Dieux ! que je suis surpris ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1241' part='f'>Contentons leur envie :</l>
+	<l id='1242' part='i'>Quel est votre pays ?</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE.</speaker>
+	<l id='1242' part='f'>Sire, c'est Moscovie.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI. </speaker>
+	<l id='1243'>Je ne sais pas, Céline, où vous l'avez pu voir.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1244'>Sire, pour mon pays, je ne le puis savoir.</l>
+	<l id='1245'>Je n'en ai dans l'esprit qu'une image confuse,</l>
+	<l id='1246'>L'âge auquel j'en sortis me doit servir d'excuse :</l>
+	<l id='1247'>Mais je me ressouviens à peu prés du danger,</l>
+	<l id='1248'>Qui m'a poussé depuis chez un peuple étranger.</l>
+	<l id='1249'>Je frémis quand je pense aux efforts d'un Corsaire,</l>
+	<l id='1250'>Qui me prit sur la mer dans les bras de mon père.</l>
+	<l id='1251'>Pour lors je ne pouvais ressentir mes malheurs,</l>
+	<l id='1252'>Mais les pleurs qu'il versa provoquèrent mes pleurs</l>
+	<l id='1253'>Ce danger seulement me reste en la mémoire.</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE.</speaker>
+	<l id='1254'>C'est elle assurément ! Bons Dieux le dois-je croire ?</l>
+	<l id='1255'>Le penser seulement rend mon esprit confus.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1256'>Vous pouvez, Lisanor, l'éclaircir là dessus :</l>
+	<l id='1257'>Et nous faire savoir la suite de l'histoire.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1258'>Le jour qu'on emporta cette heureuse victoire,</l>
+	<l id='1259'>Et que tant de voleurs périrent sur les eaux, </l>
+	<l id='1260'>Un soldat la trouva dans un de leurs vaisseaux,</l>
+	<l id='1261'>Et l'a depuis ce temps fait nourrir dans notre île.</l>
+</sp>
+<sp who='CHRISANTE'><speaker>CHRISANTE.</speaker>
+	<l id='1262'>Sire, un plus long discours vous serait inutile.</l>
+	<l id='1263'>Ceux de qui le destin à son sort est pareil,</l>
+	<l id='1264'>Ne se peuvent cacher non plus que le soleil.</l>
+	<l id='1265'>Et cette majesté qu'ils ont dés leur naissance,</l>
+	<l id='1266'>Se fait bien adorer sans sceptre et sans puissance.</l>
+	<l id='1267'>Grand Prince, s'il vous plaît d'excuser mon péché,</l>
+	<l id='1268'>Je vous vais rendre un bien que je vous ai caché.</l>
+	<l id='1269'>Écoutez seulement : le Duc de Moscovie,</l>
+	<l id='1270'>Dont aussi bien que vous elle a reçu la vie,</l>
+	<l id='1271'>Aussitôt qu'elle pût apercevoir le jour</l>
+	<l id='1272'>La fit nourrir chez nous assez prés de la Cour :</l>
+	<l id='1273'>La plaisance du lieu, la vertu de ma femme,</l>
+	<l id='1274'>Qui devait gouverner cet objet de son âme,</l>
+	<l id='1275'>Attira la Duchesse, et l'y fit consentir :</l>
+	<l id='1276'>Mais elle en eut bientôt un juste repentir :</l>
+	<l id='1277'>De son âge en ce temps nous avions une fille,</l>
+	<l id='1278'>Le bien le plus chéri de toute ma famille.</l>
+	<l id='1279'>Je dirai pour louer ce trésor précieux ;</l>
+	<l id='1280'>Qu'elle lui ressemblait de la bouche et des yeux :</l>
+	<l id='1281'>Pour la voir seulement, je chérissais ma vie,</l>
+	<l id='1282'>Et je crois que les Dieux m'en portèrent envie.</l>
+	<l id='1283'>Un jour comme elle était dans un profond sommeil, </l>
+	<l id='1284'>L'air à coup se troublant obscurcit le Soleil :</l>
+	<l id='1285'>Les éclairs en son lieu chassèrent les ténèbres,</l>
+	<l id='1286'>Pour étonner nos yeux de mille objets funèbres ;</l>
+	<l id='1287'>Mais on connut après, que ce dérèglement</l>
+	<l id='1288'>Avait pronostiqué mon malheur seulement ;</l>
+	<l id='1289'>Lors que chacun tremblant, les yeux fichez en terre,</l>
+	<l id='1290'>Tâchait par de saints voeux d'éloigner le tonnerre.</l>
+	<l id='1291'>Le Ciel qui m'avait fait l'objet de sa fureur,</l>
+	<l id='1292'>Retira par mon mal tout le monde d'horreur.</l>
+	<l id='1293'>Un toit de mon logis fut bientôt mis en poudre,</l>
+	<l id='1294'>Et ma fille au berceau reçut le coup de foudre.</l>
+	<l id='1295'>Après mille regrets, voyant que mes vieux ans,</l>
+	<l id='1296'>M'ôtaient presque l'espoir d'avoir d'autres enfants.</l>
+	<l id='1297'>J'aimais cette beauté d'une amitié si forte,</l>
+	<l id='1298'>Que pour elle à la Cour je supposai la morte.</l>
+	<l id='1299'>Le Duc en soupira ; la Cour en prit le deuil,</l>
+	<l id='1300'>Et comme une Princesse on la mit au cercueil.</l>
+	<l id='1301'>Il me crût aisément, car l'effort de l'orage</l>
+	<l id='1302'>Avait du tout changé les traits de son visage,</l>
+	<l id='1303'>Et la compassion, les larmes, la douleur</l>
+	<l id='1304'>L'empêchaient bien de voir cet objet de malheur.</l>
+	<l id='1305'>Cependant la Princesse à mon coeur fut bien chère,</l>
+	<l id='1306'>Ma femme lui rendit les devoirs d'une mère,</l>
+	<l id='1307'>Et le monde ignorant de ma mauvaise foi,</l>
+	<l id='1308'>Venait de mon bonheur s'éjouir avec moi.</l>
+	<l id='1309'>Mais que l'on perd bientôt, malgré son artifice, </l>
+	<l id='1310'>Un bien que l'on possède avec tant d'injustice !</l>
+	<l id='1311'>Une sainte coutume, oblige les parents,</l>
+	<l id='1312'>Lorsqu'ils ont une fille à l'âge de cinq ans,</l>
+	<l id='1313'>De la mener bien loin vers la chaste déesse,</l>
+	<l id='1314'>Comme père en ce temps j'y menais la Princesse.</l>
+	<l id='1315'>Mais un Pirate affreux l'arrachant de mon sein,</l>
+	<l id='1316'>Détourna le succès de ce pieux dessein.</l>
+	<l id='1317'>Elle se vit bientôt de secours dépourvue,</l>
+	<l id='1318'>Car presque en ce moment je la perdis de vue.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1319'>Elle avait sur le bras la marque d'une fleur,</l>
+	<l id='1320' part='i'>C'est elle assurément : ô merveille !</l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='1320' part='m'>Ô bonheur !</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1320' part='f'>Ma soeur !</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1321'>Vit-on jamais des fortunes pareilles ?</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1322'>Me fierai-je à mes yeux ? Croirai-je mes oreilles ?</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE. </speaker>
+	<l id='1323'>Mais pourquoi différer tant de contentements ?</l>
+	<l id='1324'>Nous ne t'embrassons pas en qualité d'amants.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1325' part='i'>Modérez ces transports.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1325' part='f'>J'ai des regrets extrêmes,</l>
+	<l id='1326'>De ne t'avoir traitée, autrement que nous mêmes.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1327'>Madame, obligez-moi de laisser ce discours,</l>
+	<l id='1328'>Je fais encore voeu de vous servir toujours.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1329'>Remercions le ciel du bien qu'il nous envoie,</l>
+	<l id='1330'>Quelqu'un vient-il ici pour troubler notre joie ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Roi, Le Prévôt, Clarin, Lisanor, Agante, Caliste, Céline, Thersandre, Lisidas.</head>
+<sp who='LE-ROI'><speaker>LE ROI. </speaker>
+	<l id='1331' part='i'>Quel crime a-t-il commis ?</l>
+</sp>
+<sp who='LE-PREVOST'><speaker>LE PREVOST.</speaker>
+	<l id='1331' part='f'>Nous l'avons arrêté, </l>
+<stage>Il présente une chaîne au roi.</stage>
+	<l id='1332'>Sur un juste soupçon, et votre Majesté </l>
+	<l id='1333'>Verra des noms ici qui nous mettent en peine.</l>
+	<l id='1334' part='i'>Sire, il l'avait sur lui.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1334' part='f'>Je connais cette chaîne.</l>
+	<l id='1335'>Qu'en ce moment je souffre une vive douleur !</l>
+	<l id='1336'>Voici le vrai témoin de mon plus grand malheur.</l>
+	<l id='1337'>Ne dissimulez point, où l'avez-vous trouvée ?</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN.</speaker>
+	<l id='1338'>Sire, voici comment l'affaire est arrivée.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR, reconnaissant Clarin.</speaker>
+	<l id='1339' part='i'>Il me reconnaîtrait.</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN. </speaker>
+	<l id='1339' part='f'>Grand Prince, si je mens,</l>
+	<l id='1340'>Qu'on invente pour moi de nouveaux châtiments.</l>
+	<l id='1341'>Sire, me promenant un jour sur le rivage,</l>
+	<l id='1342'>Après un fort longtemps de tonnerre, et d'orage,</l>
+	<l id='1343'>J'aperçus d'assez loin dessus le bord de l'eau,</l>
+	<l id='1344'>Au gré d'un petit vent remuer un berceau,</l>
+	<l id='1345'>Où paraissaient en or des lettres enlacées,</l>
+	<l id='1346'>Mais que l'eau de la mer avait presque effacées.</l>
+	<l id='1347'>J'y pouvais remarquer encore en quelques parts,</l>
+	<l id='1348'>Les mêmes ornements que l'on donne au Dieu Mars.</l>
+	<l id='1349'>Les armes avec quoi l'on bâtit un trophée,</l>
+	<l id='1350'>Et la rébellion sous leur poids étouffée,</l>
+	<l id='1351'>Ayant vu de plus prés ce berceau précieux,</l>
+	<l id='1352'>Un objet au dedans y convia mes yeux.</l>
+	<l id='1353'>C'était un jeune enfant, que je voyais sourire,</l>
+	<l id='1354'>Qui des yeux, de la bouche, et des mains semblait dire,</l>
+	<l id='1355'>Qu'il était bien content après un grand danger,</l>
+	<l id='1356'>De rencontrer quelqu'un qui le put soulager,</l>
+	<l id='1357'>J'étends bien loin mes bras, et n'y pouvant atteindre,</l>
+	<l id='1358'>J'y porte mon bâton : les ondes semblaient craindre</l>
+	<l id='1359'>De perdre ce trésor qu'elles tenaient bien cher,</l>
+	<l id='1360'>Et ne se voulaient plus du rivage approcher :</l>
+	<l id='1361'>Je le retire enfin ; ses mains et son visage,</l>
+	<l id='1362'>Étaient mouillés de l'eau qu'avait ému l'orage.</l>
+	<l id='1363'>Je l'essuie aussitôt avecque mon mouchoir,</l>
+	<l id='1364'>Et lui d'un doux souris m'invite à ce devoir.</l>
+	<l id='1365'>Dieux qu'en ce petit corps j'admirai de merveilles !</l>
+	<l id='1366'>Je n'ai point vu d'attraits ni de grâces pareilles,</l>
+	<l id='1367'>Presque tout le matin je ne pus me lasser,</l>
+	<l id='1368'>À lui baiser les mains, le plaindre et l'embrasser.</l>
+	<l id='1369'>Ses beautés à l'envi demandaient des louanges</l>
+	<l id='1370'>Il avait des cheveux comme on les peint aux anges.</l>
+	<l id='1371'>Le teint blanc et vermeil, et montrait dans ses yeux,</l>
+	<l id='1372'>Cette vive couleur qui paraît dans les cieux.</l>
+	<l id='1373'>Alentour de son col cette admirable chaîne</l>
+	<l id='1374'>Me fut de sa grandeur une marque certaine,</l>
+	<l id='1375'>Tout son accoutrement était digne d'un roi,</l>
+	<l id='1376'>Je le prends sur mes bras, je le porte chez moi,</l>
+	<l id='1377'>Où je l'ai gouverné vingt ans mieux que moi-même,</l>
+	<l id='1378'>Je crois qu'il fut auteur de mon bonheur extrême,</l>
+	<l id='1379'>Car quand je l'eus porté dans ma pauvre maison,</l>
+	<l id='1380'>Les biens de tous côtés me vinrent à foison,</l>
+	<l id='1381'>Mais hélas ! puissant roi je vous parle sans feinte.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1382'>Je suis en même temps ému d'aise et de crainte.</l>
+	<l id='1383'>Mon fils avait ces yeux, ces cheveux, et ce teint,</l>
+	<l id='1384'>Je pense encor le voir, comme il me l'a dépeint.</l>
+	<l id='1385'>Pour rendre le Dieu Mars à ses armes propice,</l>
+	<l id='1386'>Je l'envoyais sur mer lui faire un sacrifice.</l>
+	<l id='1387'>Et depuis ce temps là j'ai vieilli de vingt ans </l>
+	<l id='1388' part='i'>Mais en quelle saison ?</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN.</speaker>
+	<l id='1388' part='f'>Sire, vers le printemps,</l>
+	<l id='1389'>Quand l'aurore nous donne encor de la froidure,</l>
+	<l id='1390'>Et le soleil levant voit blanchir la verdure.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1391'>Vers la même saison je l'envoyais sur mer,</l>
+	<l id='1392'>Que pour lors aucun vent n'empêchait de calmer.</l>
+	<l id='1393'>Et ne menaçait plus ses vaisseaux de naufrage.</l>
+	<l id='1394'>Mais les flots par après grossirent de l'orage,</l>
+	<l id='1395'>Et furent attaquez d'un vent si furieux,</l>
+	<l id='1396'>Qu'ils semblaient s'élever, et descendre des Cieux.</l>
+	<l id='1397'>Le moindre vent au port me donnait de la crainte,</l>
+	<l id='1398'>Un murmure, un éclair, me tirait une plainte.</l>
+	<l id='1399'>Je pensais à tous coups que la mer s'élevant,</l>
+	<l id='1400'>En des gouffres profonds engloutit mon enfant.</l>
+	<l id='1401'>Après deux jours entiers de ce cruel orage,</l>
+	<l id='1402'>Un des miens retournant sans voile et sans cordage,</l>
+	<l id='1403'>Me dit qu'il avait vu mon fils dans un berceau,</l>
+	<l id='1404'>Voguer assez long-temps à la merci de l'eau,</l>
+	<l id='1405'>Mais que la mer enfin s'étant plus fort ému,</l>
+	<l id='1406'>L'avait en un instant détourne de sa vue.</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN.</speaker>
+	<l id='1407'>Ne serait-ce point lui que j'aurais élevé ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1408'>Quel nom porte celui que vous avez trouvé ? </l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN.</speaker>
+	<l id='1409'>Le nom de Lisanor gravé dessus la chaîne.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1410'>Bons Dieux ! que ce discours met mon esprit en peine !</l>
+	<l id='1411'>Lisanor c'est mon fils qui s'appelait ainsi ?</l>
+	<l id='1412' part='i'>Est-il encor chez vous ?</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1412' part='f'>Non, Sire, le voici.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1413'>Vous qui m'avez rendu ma gloire et ma puissance.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1414'>Vous devais-je grand Roi, le bien de ma naissance ?</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1415' part='i'>C'est mon frère ?</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1415' part='m'>Ô merveille !</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN. </speaker>
+	<l id='1415' part='f'>Ô Dieux ! c'est Lisanor.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1416'>Oui c'est toi mon cher fils, que je revois encor.</l>
+	<l id='1417'>Tes exploits glorieux sont témoins de ta race,</l>
+	<l id='1418'>Ton courage est Royal : viens çà que je t'embrasse.</l>
+	<l id='1419' part='i'>Le reconnaissez-vous ?</l>
+</sp>
+<sp who='CLARIN'><speaker>CLARIN.</speaker>
+	<l id='1419' part='f'>Hélas, Sire, c'est lui.</l>
+	<l id='1420'>Ah ! Prince généreux qui fûtes mon appui,</l>
+	<l id='1421'>Si je vous ai rendu ma pauvreté commune,</l>
+	<l id='1422'>Ne m'en accusez pas, accusez la fortune.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1423' part='i'>Espérez seulement.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1423' part='m'>Mon cher frère.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1423' part='f'>Ma soeur.</l>
+	<l id='1424' part='i'>Que de biens à la fois !</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1424' part='f'>Mon frère, mon bonheur.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE. </speaker>
+	<l id='1425'>Oubliez s'il vous plaît nos actions passées.</l>
+</sp>
+<sp who='CALISTE'><speaker>CALISTE.</speaker>
+	<l id='1426'>Nous avons maintenant de plus justes pensées.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1427'>Oubliez mes dédains, oubliez mes refus.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1428'>Que fais-je ! Où suis-je ? Ô Dieux ! Que j'ai l'esprit confus.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1429'>Mais pour mieux célébrer cette insigne journée,</l>
+	<l id='1430'>Vous pouvez approuver un heureux hyménée.</l>
+	<l id='1431'>Qui plaît à votre père, et que j'approuve aussi, </l>
+<stage>Le Roi leur  montre la lettre du Duc de Moscovie leur père.</stage>
+	<l id='1432'>Approchez vous tous deux, vous le verrez ici.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE.</speaker>
+	<l id='1433'>Grand Prince un tel bonheur passe notre espérance,</l>
+	<l id='1434'>Et je n'en puis avoir encore d'assurance.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1435'>Je vous en veux donner, Agante, approchez vous,</l>
+	<l id='1436'>Reconnaissez ici ce Prince pour époux.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE. </speaker>
+	<l id='1437'>Madame le Roi seul vous force à lui complaire.</l>
+</sp>
+<sp who='AGANTE'><speaker>AGANTE.</speaker>
+	<l id='1438'>Thersandre assurément peut autant que mon père.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1439'>Nous avons, Lisidas, de quoi vous contenter. </l>
+<stage>Le Roi présente Caliste à Lisidas.</stage>
+	<l id='1440'>Je vous fais ce présent, voulez-vous l'accepter ? </l>
+</sp>
+<sp who='LISIDAS'><speaker>LISIDAS.</speaker>
+	<l id='1441'>Grand roi, je vous dois plus qu'à ceux qui m'ont fait naître,</l>
+	<l id='1442'>Et crains de ne pouvoir assez le reconnaître.</l>
+</sp>
+<sp who='THERSANDRE'><speaker>THERSANDRE à Lisanor.</speaker>
+	<l id='1443'>Monsieur, quoi que je tienne un bien si précieux,</l>
+	<l id='1444'>Permettez que je sois encor ambitieux,</l>
+	<l id='1445'>Je ne suis point content, si Céline soupire,</l>
+	<l id='1446'>Donnez lui s'il vous plaist le bien qu'elle desire.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1447'>Monsieur, j'en reçois plus que je n'en puis donner.</l>
+	<l id='1448'>Victorieux amour, il te faut couronner. A Céline :</l>
+	<l id='1449'>Beauté que je fuyais, et qu'aujourd'hui j'adore,</l>
+	<l id='1450'>Dois-je pas être honteux si tu m'aimes encore ?</l>
+	<l id='1451'>Puis-je sans t'offenser prétendre à tes amours, </l>
+	<l id='1452'>Et dois-tu pas haïr ma vue et mes discours ?</l>
+	<l id='1453'>Appelle moi cruel, traître, perfide, lâche.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1454' part='i'>Mes délices, mon tout.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1454' part='f'>Ton amitié me fâche.</l>
+	<l id='1455'>Mon crime et ta faveur me viennent affliger,</l>
+	<l id='1456'>Mon coeur en m'obligeant c'est me désobliger.</l>
+	<l id='1457'>Tu m'offres un bonheur dont je suis incapable.</l>
+</sp>
+<sp who='CELINE'><speaker>CÉLINE.</speaker>
+	<l id='1458'>Chéris moi seulement, et tu n'es plus coupable.</l>
+</sp>
+<sp who='LISANOR'><speaker>LISANOR.</speaker>
+	<l id='1459'>Songes que si l'amour que je porte en mon sein,</l>
+	<l id='1460'>A commencé bien tard, il n'aura point de fin.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='1461'>Il est vrai, justes Dieux, que jamais vos Oracles</l>
+	<l id='1462'>N'ont prédit en ces lieux de semblables miracles,</l>
+	<l id='1463'>Nous ne les tenons pas de la faveur du sort,</l>
+	<l id='1464'>Mais de votre pouvoir, et plus juste, et plus fort.</l>
+	<l id='1465'>Aussi comme tous seuls vous nous estes propices, </l>
+	<l id='1466'>Vous recevrez tous seuls nos humbles sacrifices,</l>
+	<l id='1467'>Faisons voir notre joie au service des Dieux,</l>
+	<l id='1468'>Et dans un long excès de festins et de jeux.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

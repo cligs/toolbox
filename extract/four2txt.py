@@ -28,15 +28,17 @@
 from lxml import etree
 import re
 import glob
+import os
 
 ###############################
 # Actual text processing
 ###############################
 
 def tei2txt(file): 
-    """Load TEI files from folder, extract selected text, save to new TXT files"""                                      
+    """Load TEI files from folder, extract selected text, save to new TXT files""" 
+    print(file)
     xmltree = etree.parse(file)                          # Loads and parses the XML input file.
-#    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
+#   namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
     
 #   xpathexpr = '//text()'                                      # Default XPath expression: all text from XML (activate only one!)
 #   xpathexpr = '//body//p//text()'                     # Or: All text of p in body in prose texts.
@@ -53,8 +55,8 @@ def tei2txt(file):
     textonly = re.sub(r'\t',"",textonly)                 # Removes unnecessary indents.
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (activate if useful)    
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)    
-    textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)    
-    txtoutput = file[:-4] + ".txt"                       # Builds filename for outputfile from original filenames but correct extension.
+    textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful) 
+    txtoutput = "txt/" + file[5:-4] + ".txt"           # Builds filename for outputfile from original filenames but correct extension.
     with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
 
@@ -63,7 +65,11 @@ def tei2txt(file):
 ###############################
 
 def main(inputpath): 
+    numberoffiles = 0
     for file in glob.glob(inputpath): 
         tei2txt(file)
+        numberoffiles +=1
+    print("total number of files treated: " + str(numberoffiles))
+        
 
-main('./test/*.xml')                                    # Enter absolute or relative path to folder with XML files and define filename filter.
+main('./tei/*.xml')                                    # Enter absolute or relative path to folder with XML files and define filename filter.

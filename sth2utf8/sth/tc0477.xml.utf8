@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding='iso-8859-1'?>
+<TEI.2>
+<teiHeader>
+	<fileDesc>
+		<titleStmt>
+			<title>IPHIGÉNIE, TRAGÉDIE.</title>
+			<author born='1639' born_location='La Ferté Millon' death='1699' death_location='Paris' academie='1673'>RACINE, Jean</author>
+			<date>1674</date>
+		</titleStmt>
+		<publicationStmp>	
+			<p>publié par Paul FIEVRE</p><p>Mai 2002</p>
+		</publicationStmp>
+		<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1671-1680</periode>
+				<taille>1750-2000</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k70413v</permalien>
+				<sources>
+					<source id='1'><author>Lucrèce</author><text>De la Nature</text></source>
+					<source id='2'><author>Pausanias</author><text>Corinthiques</text></source>
+					<source id='3'><author>Euripide</author><text>Alceste</text></source>
+				</sources>	
+		</SourceDesc>
+	</fileDesc>
+	</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type='main'>IPHIGÉNIE</titlePart>
+			<titlePart type='sub'>TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1674'>M. DC. LXXV. AVEC PRIVILEGE DU ROI.</docDate>
+		<docAuthor id='RACINE, Jean' bio='racine'>par Mr Racine</docAuthor>
+		<docImprint>
+<privilege id='1675-01-28'>
+<p>Par grâce et privilège du roi, donné à Saint-Germain-en-Laye le vingt-huitème jour de janvier 1675, signé par le Roi en son conseil DALENCE, il est permis au sieur Racine, trésorier de France, de faire imprimer, vendre et débiter par tel libraire ou imprimeur qu'il aura choisi, une pièce de théâtre par lui composée, intitulé Iphigénie; Tragédie : et ce pendant le temps et espace de dix années, avec défense à toute personne de quelque qualité ou condition qu'elle soient, d'en vendre ou d'en débiter aucun exemplaire, que de ceux qui auront été imprimés de son consentement, à peine de trois mille livres d'amende, confiscation des exemplaires, et autres peines, portées par le dit privilège.</p>
+<p>Le dit Sieur Racine a cédé le droit du dit privilège à Claude Barbin, pour en jouïr suivant le contenur en icelui.</p>
+<p>Registré sur le livre de la communauté</p>
+</privilege>
+			<acheveImprime id=''></acheveImprime>
+			<printer id='Barbin'>À Paris chez Claude Barbin, au Palais, sur le second perron de la Sainte Chapelle.</printer>
+		</docImprint>
+		<performance>
+		<premiere date='1674-08-18' location='Château de Versailles'>Représentée pour la première fois le 18 août 1674 à Versailles</premiere>
+		<premiere date='1674-12-31' location='Hôtel de Bourgogne'>Représentée pour la premiuère fois en public à l'Hôtel de Bourgogne le 31 décenre 1674.</premiere>
+		</performance>
+		<preface><head>Préface</head>
+<p type='p'>Il n'y a rien de plus célèbre dans les poètes que le sacrifice d'Iphigénie. Mais ils ne s'accordent pas tous ensemble sur les plus importantes particularités de ce sacrifice. Les uns, comme Eschyle dans "Agamemnon", Sophocle dans "Electra", et après eux Lucrece, Horace, et beaucoup d'autres, veulent qu'on ait en effet répandu le sang d'Iphigénie fille d'Agamemnon, et qu'elle soit morte en Aulide. Il ne faut que lire Lucrece au commencement de son premier livre,</p>
+<p type='v'>Aulide quo pacto Triviaï Virginis aram</p>
+<p type='v'>Iphianassaï turparunt sanguine foedè</p>
+<p type='v'>Ductores ûm etc.</p>
+<p type='p'>Et Clytemnestre dit dans Eschyle, qu'Agamemnon son mari qui vient d'expirer, rencontrera dans les Enfers Iphigénie sa fille qu'il a autrefois immolée.</p>
+<p type='p'>D'autres ont feint que Diane ayant eu pitié de cette jeune princesse, l'avait enlevée et portée dans la Tauride, au moment qu'on l'allait sacrifier, et que la déesse avait fait trouver en sa place ou une biche, ou une autre victime de cette nature. Euripide a suivi cette fable, et Ovide l'a mise au nombre des Métamorphoses.</p>
+<p type='p'>Il y a une troisième opinion, qui n'est pas moins ancienne que les deux autres, sur Iphigénie. Plusieurs auteurs, et entre autres Stesichorus, l'un des plus fameux et des plus anciens poètes lyriques, ont écrit qu'il était bien vrai qu'une Princesse de ce nom avait été sacrifiée, mais que cette Iphigénie était une fille qu'Hélène avait eu de Thesée. Hélène, disent ces auteurs, ne l'avait osé avouer pour sa fille, parce qu'elle n'osait déclarer à Ménélas, qu'elle eut été mariée en secret avec Thesée. Pausanias rapporte te le témoignage et les noms des poètes qui ont été de ce sentiment. Et il ajoute que c'était la créance commune de tout le pays d'Argos.</p>
+<p type='p'>Homère enfin le père des poètes a si peu prétendu qu'Iphigénie fille d'Agamemnon eut été ou sacrifiée en Aulide, ou transportée dans la Scythie, que dans le neuvième livre de l'Iliade, c'est à dire prés de dix ans depuis l'arrivée des Grecs devant Troie, Agamemnon fait offrir en mariage à Achille, sa fille Iphigénie, qu'il a, dit-il, laissée à Mycène dans sa maison.</p>
+<p type='p'>J'ai rapporté tous ces avis si différents, et surtout le passage de Pausanias, parce que c'est à cet Auteur que je dois l'heureux personnage d'Eriphile, sans lequel je n'aurais jamais osé entreprendre cette tragédie. Quelle apparence que j'eusse souillé la scène par le meurtre horrible d'une personne aussi vertueuse et aussi aimable qu'il fallait représenter Iphigénie ? Et quelle apparence encore de dénouer ma Tragédie par le secours d'une déesse et d'une machine, et par une métamorphose qui pouvait bien trouver quelque créance du temps d'Euripide, mais qui serait trop absurde et trop incroyable parmi nous ?</p>
+<p type='p'>Je puis dire donc que j'ai été très heureux de trouver dans les Anciens cette autre Iphigénie, que j'ai pu représenter telle qu'il m'a plu, et qui tombant dans le malheur où cette amante jalouse voulait précipiter sa rivale, mérite en quelque façon d'être punie, sans être pourtant tout-à-fait indigne de compassion. Ainsi le dénouement de la pièce est tiré du fond même de la pièce. Et il ne faut que l'avoir vu représenter, pour comprendre quel plaisir j'ai fait au spectateur, et en sauvant à la fin une princesse vertueuse pour qui il s'est si fort interessé dans le cours de la tragédie, et en la sauvant par une autre voie que par un miracle, qu'il n'auroit pû souffrir, parce qu'il ne le saurait jamais croire.</p>
+<p type='p'>Le voyage d'Achille à Lesbos, dont ce héros ce rend maître et d'où il enlève Eriphile avant que de venir en Aulide, n'est pas non plus sans fondement. Euphorion de Chalcide, poète très connu parmi les Anciens, et dont Virgile et Quintilien font une mention honorable, parlait de ce voyage de Lesbos. Il disait dans un de ses poèmes, au rapport de Parthenius, qu'Achille avait fait la conquête de cette île avant que de joindre l'armée des Grecs, et qu'il y avait même trouvé une princesse qui s'était éprise d'amour pour lui.</p>
+<p type='p'>Voilà les principales choses en quoi, en quoi je me suis un peu éloigné de l'économie et de la fable d'Euripide. Pour ce qui regarde les passions, je me suis attaché à le suivre plus exactement. J'avoue que je lui dois un bon nombre des endroits qui ont été les plus approuvés dans ma Tragédie. Et je l'avoue d'autant plus volontiers, que ces approbations m'ont confirmé dans l'estime et dans la vénération que j'ai toujours eu pour les ouvrages qui nous restent de l'Antiquité. J'ai reconnu avec plaisir par l'effet qu'à produit sur notre théâtre tout ce que j'ai imité ou d'Homère, ou d'Euripide, que le bon sens et la raison étaient les mêmes dans tous les siècles. Le goût de Paris s'est trouvé conforme à celui d'Athènes. Mes spectateurs ont été émus des mêmes choses qui ont mis autrefois en larmes le plus savant peuple de la Grèce, et qui ont fait dire, qu'entre les poètes, Euripide était extrêmement tragique, c'est à dire qu'il savait merveilleusement exciter la compassion et la terreur, qui sont les véritables effets de la tragédie.</p>
+<p type='p'>Je m'étonne après cela que des Modernes aient témoigné depuis peu tant de dégoût pour ce grand poète dans le jugement qu'ils ont fait de son Alceste. Mais en vérité j'ai trop d'obligation à Euripide pour ne pas prendre quelque soin de sa mémoire, et pour laisser échapper l'occasion de le réconcilier avec ces messieurs. Je m'assure qu'il n'est si mal dans leur esprit, que parce qu'ils n'ont pas bien lu l'ouvrage sur lequel ils l'ont condamné. J'ai choisi la plus importante de leurs objections pour leur montrer que j'ai raison de parler ainsi. Je dis la plus importante de leur objections. Car ils la répètent à chaque page, et ils ne soupçonnent pas seulement que l'on y puisse répliquer.</p>
+<p type='p'>Il y a dans l'Alceste d'Euripide une scène merveilleuse, où Alceste qui se meurt et qui ne peut plus se soutenir, dit à son mari les derniers Adieux. Admete tout en larmes la prie de reprendre ses forces et de ne se point abandonner elle-même. Alceste qui a l'image de la mort devant les yeux, lui parle ainsi,</p>
+		<p type='v'>	Je vois déjà la rame, et la barque fatale.</p>
+		<p type='v'>J'entends le vieux Nocher sur la rive infernale.</p>
+		<p type='v'>Impatient il crie ; On t'attend ici bas,</p>
+		<p type='v'>Tout est prêt, descends, viens, ne me retarde pas.</p>
+<p type='p'>J'aurais souhaité de pouvoir exprimer dans ces vers les grâces qu'ils ont dans l'original. Mais au moins en voilà le sens. Voici comme ces messieurs les ont entendus. Il leur est tombé entre les mains une malheureuse édition d'Euripide, où l'imprimeur a oublié de mettre dans le latin, à côté de ces vers un Al. qui signifie que c'est Alceste qui parle, et à côté des vers suivants un Ad. qui signifie que c'est Admete qui répond. Là dessus il leur est venu dans l'esprit la plus étrange pensée du monde. Ils ont mis dans la bouche d'Admete les paroles qu'Alceste dit à Admete, et celles qu'elle se fait dire par Charon. Ainsi ils supposent qu'Admete (quoiqu'il soit en parfaite santé) pense voir Charon qui le vient prendre. Et au lieu que dans ce passage d'Euripide, Charon impatient presse Alceste de le venir trouver ; selon ces Messieurs c'est Admete effrayé qui est l'impatient, et qui presse Alceste d'expirer de peur que Charon ne le prenne. Il l'exhorte,ce sont leurs termes, à avoir courage, à ne pas faire une lâcheté, et à mourir de bonne grâce, il interrompt les adieux d'Alceste pour lui dire de se dépêcher de mourir. Peu s'en faut à les entendre, qu'il ne la fasse mourir lui-même. Ce sentiment leur a paru fort vilain. Et ils ont raison. Il n'y a personne qui n'en fût très scandalisé. Mais comment l'ont-ils pu attribuer à Euripide ? En vérité, quand toutes les autres éditions où cet Al. n'a point été oublié, ne donneraient pas un démenti au malheureux Imprimeur qui les a trompés ; la suite de ces quatre vers et tous les discours qu'Admete tient dans le même scène, étaient plus que suffisants pour les empêcher de tomber dans une erreur si déraisonnable. Car Admete bien éloigné de presser Alceste de mourir, s'écrie "que toutes les morts ensemble lui seraient moins cruelles, que de la voir dans l'état où il la voit. Il la conjure de l'entraîner avec elle. Il ne peut plus vivre si elle meurt. Il vit en elle. Il ne respire que pour elle."</p> 
+<p type='p'>Il ne sont pas plus heureux dans les autres objections. Ils disent, par exemple, qu'Euripide a fait deux époux surannés d'Admete et d'Alceste, que l'un est un vieux mari, et l'autre une princesse déjà sur l'âge. "Euripide a pris soin de leur répondre en un seul vers, où il fait dire par le Choeur, qu'Alceste toute jeune et dans la première fleur de son âge expire pour son jeune époux."</p>
+<p type='p'>Ils reprochent encore à Alceste qu'elle a deux grands enfants à marier. Comment n'ont-ils point lu le contraire en cent endroits, et surtout dans ce beau récit, "où l'on dépeint Alceste mourante au milieu de ses deux petits enfants qui la tirent en pleurant par la robe, et qu'elle prend sur ses bras l'un après l'autre pour les baiser."</p> 
+<p type='p'>Tout le reste de leurs critiques est à peu près de la force de celles-ci. Mais je crois qu'en voilà assez pour la défense de mon auteur. Je conseille à ces messieurs de ne plus décider si légèrement sur les ouvrages des Anciens. Un homme tel qu'Euripide méritait au moins qu'ils l'examinassent puisqu'ils avaient envie de le condamner. Ils devaient se souvenir de ces sages paroles de Quitilien ; "Il faut être extrêmement circonspect et très retenu à prononcer sur les ouvrages de ces grands hommes, de peur qu'il ne nous arrive, comme à plusieurs, de condamner ce que nous n'entendons pas. Et s'il faut tomber dans quelque excès, encore vaut-il mieux pécher en admirant tout dans leurs écrits, qu'en y blâmant beaucoup de choses." Modestè tamen et circumspectio judicio de tantis viris pornuntiandum est, ne ( quod plerisque accedit ) damnent quae non intelligunt. Ac si necesse est in alteram errare partem, omnia eorum legentibus placere, quàm multa displicere paluerim.</p>
+</preface>
+		<castList><head>ACTEURS</head>
+			<castItem><role id="AGAMEMNON" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>AGAMEMNON</role>.</castItem>
+			<castItem><role id="ACHILLE" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>ACHILLE</role>.</castItem>
+			<castItem><role id="ULYSSE" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>ULYSSE</role>.</castItem>
+			<castItem><role id="CLYTEMNESTRE" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>CLYTEMNESTRE</role>, femme d'Agamemnon.</castItem>
+			<castItem><role id="IPHIGENIE" civil='F' type="H" statut='prince' age='A' stat_amour='néant'>IPHIGENIE</role>, fille d'Agamemnon.</castItem>
+			<castItem><role id="ERIPHILE" civil='F' type="H" statut='prince' age='A' stat_amour='néant'>ERIPHILE</role>, fille d'Hélène et de Thésée.</castItem>
+			<castItem><role id="ARCAS" civil='M' type="H" statut='domestique' age='A' stat_amour='néant'>ARCAS</role>, domestique d'Agamemnon.</castItem>
+			<castItem><role id="EURYBATE" civil='M' type="H" statut='domestique' age='A' stat_amour='néant'>EURYBATE</role>, domestique d'Agamemnon.</castItem>
+			<castItem><role id="AEGINE" civil='F' type="H" statut='suite' age='A' stat_amour='néant'>AEGINE</role>, femme de la suite de Clystemnestre.</castItem>
+			<castItem><role id="DORIS" civil='F' type="H" statut='confident' age='A' stat_amour='néant'>DORIS</role>, confidente d'Ériphile.</castItem>
+			<castItem><role id="TROUPE DE GARDES" civil='M' type="H" statut='garde' age='A' stat_amour='néant'>TROUPE DE GARDES</role>.</castItem>
+		</castList>
+		<set location='Aulide' country='Grèce' periode='Temps mythologiques' link=''>La scène est en Aulide, dans la tente d'Agamemnon.</set>
+		<note>Le texte est celui de l'édition 1697. Les variantes sont indiquées.</note>
+	</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Agamemnon, Arcas.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1'>Oui, c'est Agamemnon, c'est ton roi qui t'éveille.</l>
+	<l id='2'>Viens, reconnais la voix qui frappe ton oreille.</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='3'>C'est vous-même, Seigneur ! quel important besoin </l>
+	<l id='4'>Vous a fait devancer l'aurore de si loin ? </l>
+	<l id='5'>À peine un faible jour vous éclaire et me guide. </l>
+	<l id='6'>Vos yeux seuls et les miens sont ouverts dans l'Aulide.</l>
+	<l id='7'>Avez-vous dans les airs entendu quelque bruit ? </l>
+	<l id='8'>Les vents nous auraient-ils exaucés cette nuit ? </l>
+	<l id='9'>Mais tout dort, et l'armée, et les vents, et Neptune.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='10'>Heureux ! Qui satisfait de son humble fortune, </l>
+	<l id='11'>Libre du joug superbe où je suis attaché, </l>
+<note type="L">État : Position sociale. Il ne faut pas avoir des goûts au-dessus de son état. [L]</note>
+	<l id='12'>Vit dans l'état obscur où les dieux l'ont caché.</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='13'>Et depuis quand, Seigneur, tenez-vous ce langage ?</l>
+	<l id='14'>Comblé de tant d'honneurs, par quel secret outrage</l>
+	<l id='15'>Les dieux à vos désirs toujours si complaisants, </l>
+	<l id='16'>Vous font-ils méconnaître, et haïr leurs présents ?</l>
+	<l id='17'>Roi, père, époux heureux, fils du puissant Atrée,</l>
+	<l id='18'>Vous possédez des Grecs la plus riche contrée. </l>
+	<l id='19'>Du sang de Jupiter issu de tous côtés,</l>
+	<l id='20'>L'hymen vous lie encore aux dieux dont vous sortez. </l>
+	<l id='21'>Le jeune Achille enfin vanté par tant d'oracles,</l>
+	<l id='22'>Achille à qui le ciel promet tant de miracles,</l>
+	<l id='23'>Recherche votre fille, et d'un hymen si beau</l>
+	<l id='24'>Veut dans Troie embrasée allumer le flambeau.</l>
+	<l id='25'>Quelle gloire, Seigneur, quels triomphes égalent</l>
+	<l id='26'>Le spectacle pompeux que ces bords vous étalent,</l>
+	<l id='27'>Tous ces mille vaisseaux, qui chargés de vingt rois</l>
+	<l id='28'>N'attendent que les vents pour partir sous vos lois ?</l>
+	<l id='29'>Ce long calme, il est vrai, retarde vos conquêtes.</l>
+	<l id='30'>Ces vents depuis trois mois enchaînés sur nos têtes</l>
+	<l id='31'>D'Ilion trop longtemps vous ferment le chemin.</l>
+	<l id='32'>Mais parmi tant d'honneurs vous êtes homme enfin.</l>
+	<l id='33'>Tandis que vous vivrez, le sort qui toujours change,</l>
+	<l id='34'>Ne vous a point promis un bonheur sans mélange.</l>
+	<l id='35'>Bientôt... Mais quels malheurs dans ce billet tracés</l>
+	<l id='36'>Vous arrachent, Seigneur, les pleurs que vous versez ?</l>
+	<l id='37'>Votre Oreste au berceau va-t-il finir sa vie ?</l>
+	<l id='38'>Pleurez-vous Clystemnestre, ou bien Iphigénie ?</l>
+	<l id='39'>Qu'est ce qu'on vous écrit ? Daignez m'en avertir.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='40'>Non, tu ne mourras point, je n'y puis consentir. </l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='41' part="i">Seigneur...</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='41' part="f">Tu vois mon trouble. Apprends ce qui le cause,</l>
+	<l id='42'>Et juge s'il est temps, ami, que je repose.</l>
+	<l id='43'>Tu te souviens du jour qu'en Aulide assemblés</l>
+	<l id='44'>Nos vaisseaux par les vents semblaient être appelés.</l>
+	<l id='45'>Nous partions. Et déjà par mille cris de joie </l>
+	<l id='46'>Nous menacions de loin les rivages de Troie.</l>
+	<l id='47'>Un prodige étonnant fit taire ce transport.</l>
+	<l id='48'>Le vent qui nous flattait nous laissa dans le port.</l>
+	<l id='49'>Il fallut s'arrêter, et la rame inutile</l>
+	<l id='50'>Fatigua vainement une mer immobile. </l>
+	<l id='51'>Ce miracle inouï me fit tourner les yeux</l>
+	<l id='52'>Vers la divinité qu'on adore en ces lieux.</l>
+	<l id='53'>Suivi de Ménélas, de Nestor, et d'Ulysse,</l>
+	<l id='54'>J'offris sur ses autels un secret sacrifice.</l>
+	<l id='55'>Quelle fut sa réponse ! et quel devins-je, Arcas, </l>
+	<l id='56'>Quand j'entendis ces mots prononcés par Calchas !</l>
+	<l id='57'>"Vous armez contre Troie une puissance vaine,</l>
+	<l id='58'>Si dans un sacrifice auguste et solennel</l>
+	<l id='59'>Une fille du sang d'Hélène</l>
+	<l id='60'>De Diane en ces lieux n'ensanglante l'autel.</l>
+	<l id='61'>Pour obtenir les vents que le ciel vous dénie,</l>
+	<l id='62'>Sacrifiez Iphigénie."</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='63' part="i">Votre fille !</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='63' part="f">Surpris, comme tu peux penser,</l>
+	<l id='64'>Je sentis dans mon corps tout mon sang se glacer,</l>
+	<l id='65'>Je demeurai sans voix, et n'en repris l'usage, </l>
+	<l id='66'>Que par mille sanglots qui se firent passage.</l>
+	<l id='67'>Je condamnai les dieux, et sans plus rien ouïr,</l>
+	<l id='68'>Fis voeu sur leurs autels de leur désobéir.</l>
+	<l id='69'>Que n'en croyais-je alors ma tendresse alarmée ?</l>
+	<l id='70'>Je voulais sur-le-champ congédier l'armée.</l>
+	<l id='71'>Ulysse en apparence approuvant mes discours,</l>
+	<l id='72'>De ce premier torrent laissa passer le cours.</l>
+	<l id='73'>Mais bientôt rappelant sa cruelle industrie,</l>
+	<l id='74'>Il me représenta l'honneur et la patrie,</l>
+	<l id='75'>Tout ce peuple, ces rois à mes ordres soumis, </l>
+	<l id='76'>Et l'empire d'Asie à la Grèce promis.</l>
+	<l id='77'>De quel front immolant tout l'État à ma fille,</l>
+	<l id='78'>Roi sans gloire, j'irais vieillir dans ma famille !</l>
+	<l id='79'>Moi-même ( je l'avoue avec quelque pudeur )</l>
+	<l id='80'>Charmé de mon pouvoir, et plein de ma grandeur, </l>
+	<l id='81'>Ces noms de roi des rois, et de chef de la Grèce </l>
+	<l id='82'>Chatouillaient de mon coeur l'orgueilleuse faiblesse. </l>
+	<l id='83'>Pour comble de malheur, les dieux toutes les nuits, </l>
+	<l id='84'>Dès qu'un léger sommeil suspendait mes ennuis,</l>
+	<l id='85'>Vengeant de leurs autels le sanglant privilège, </l>
+	<l id='86'>Me venaient reprocher ma pitié sacrilège, </l>
+	<l id='87'>Et présentant la foudre à mon esprit confus,</l>
+	<l id='88'>Le bras déjà levé, menaçaient mes refus. </l>
+	<l id='89'>Je me rendis, Arcas, et vaincu par Ulysse,</l>
+	<l id='90'>De ma fille en pleurant j'ordonnai le supplice. </l>
+	<l id='91'>Mais des bras d'une mère il fallait l'arracher. </l>
+	<l id='92'>Quel funeste artifice il me fallut chercher ! </l>
+	<l id='93'>D'Achille, qui l'aimait, j'empruntai le langage, </l>
+	<l id='94'>J'écrivis en Argos, pour hâter ce voyage,</l>
+	<l id='95'>Que ce guerrier, pressé de partir avec nous, </l>
+	<l id='96'>Voulait revoir ma fille, et partir son époux.</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='97'>Et ne craignez-vous point l'impatient Achille ?</l>
+	<l id='98'>Avez-vous prétendu que muet, et tranquille</l>
+	<l id='99'>Ce héros, qu'armera l'amour et la raison,</l>
+	<l id='100'>Vous laisse pour ce meurtre abuser de son nom ? </l>
+	<l id='101'>Verra-t-il à ses yeux son amante immolée ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='102'>Achille était absent. Et son père Pélée,</l>
+	<l id='103'>D'un voisin ennemi redoutant les efforts,</l>
+	<l id='104'>L'avait, tu t'en souviens, rappelé de ces bords.</l>
+	<l id='105'>Et cette guerre, Arcas, selon toute apparence, </l>
+	<l id='106'>Aurait dû plus longtemps prolonger son absence.</l>
+	<l id='107'>Mais qui peut dans sa course arrêter ce torrent ?</l>
+	<l id='108'>Achille va combattre, et triomphe en courant.</l>
+	<l id='109'>Et ce vainqueur suivant de près sa renommée,</l>
+	<l id='110'>Hier avec la nuit arriva dans l'armée. </l>
+	<l id='111'>Mais des noeuds plus puissants me retiennent le bras.</l>
+	<l id='112'>Ma fille qui s'approche, et court à son trépas,</l>
+	<l id='113'>Qui loin de soupçonner un arrêt si sévère,</l>
+	<l id='114'>Peut-être s'applaudit des bontés de son père,</l>
+	<l id='115'>Ma fille... Ce nom seul dont les droits sont si saints,</l>
+	<l id='116'>Sa jeunesse, mon sang, n'est pas ce que je plains.</l>
+	<l id='117'>Je plains mille vertus, une amour mutuelle,</l>
+	<l id='118'>Sa piété pour moi, ma tendresse pour elle,</l>
+	<l id='119'>Un respect, qu'en son coeur rien ne peut balancer,</l>
+	<l id='120'>Et que j'avais promis de mieux récompenser. </l>
+	<l id='121'>Non, je ne croirai point, ô ciel ! que ta justice </l>
+	<l id='122'>Approuve la fureur de ce noir sacrifice. </l>
+	<l id='123'>Tes oracles sans doute ont voulu m'éprouver, </l>
+	<l id='124'>Et tu me punirais si j'osais l'achever.</l>
+	<l id='125'>Arcas, je t'ai choisi pour cette confidence. </l>
+	<l id='126'>Il faut montrer ici ton zèle et ta prudence.</l>
+	<l id='127'>La reine qui dans Sparte avait connu ta foi,</l>
+	<l id='128'>T'a placé dans le rang que tu tiens près de moi.</l>
+	<l id='129'>Prends cette lettre. Cours au devant de la reine.</l>
+	<l id='130'>Et suis sans t'arrêter, le chemin de Mycènes. </l>
+	<l id='131'>Dès que tu la verras défends-lui d'avancer ;</l>
+	<l id='132'>Et rends-lui ce billet que je viens de tracer.</l>
+	<l id='133'>Mais ne t'écarte point. Prends un fidèle guide.</l>
+	<l id='134'>Si ma fille une fois met le pied dans l'Aulide,</l>
+	<l id='135'>Elle est morte. Calchas qui l'attend en ces lieux, </l>
+	<l id='136'>Fera taire nos pleurs, fera parler les dieux ;</l>
+	<l id='137'>Et la religion contre nous irritée,</l>
+	<l id='138'>Par les timides Grecs sera seule écoutée.</l>
+	<l id='139'>Ceux même dont ma gloire aigrit l'ambition,</l>
+	<l id='140'>Réveilleront leur brigue et leur prétention, </l>
+	<l id='141'>M'arracheront peut-être un pouvoir qui les blesse... </l>
+	<l id='142'>Va, dis-je, sauve-la de ma propre faiblesse. </l>
+	<l id='143'>Mais surtout ne va point par un zèle indiscret</l>
+	<l id='144'>Découvrir à ses yeux mon funeste secret. </l>
+	<l id='145'>Que s'il se peut, ma fille à jamais abusée</l>
+	<l id='146'>Ignore à quel péril je l'avais exposée. </l>
+	<l id='147'>D'une mère en fureur épargne-moi les cris, </l>
+	<l id='148'>Et que ta voix s'accorde avec ce que j'écris. </l>
+	<l id='149'>Pour renvoyer la fille et la mère offensée</l>
+	<l id='150'>Je leur écris qu'Achille a changé de pensée, </l>
+	<l id='151'>Et qu'il veut désormais jusques à son retour </l>
+	<l id='152'>Différer cet hymen, que pressait son amour. </l>
+	<l id='153'>Ajoute, tu le peux, que des froideurs d'Achille </l>
+	<l id='154'>On accuse en secret cette jeune Ériphile,</l>
+	<l id='155'>Que lui-même captive amena de Lesbos, </l>
+	<l id='156'>Et qu'auprès de ma fille on garde dans Argos.</l>
+	<l id='157'>C'est leur en dire assez. Le reste, il le faut taire.</l>
+	<l id='158'>Déjà le jour plus grand nous frappe et nous éclaire.</l>
+	<l id='159'>Déjà même l'on entre, et j'entends quelque bruit.</l>
+	<l id='160'>C'est Achille. Va, pars. Dieux ! Ulysse le suit. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Agamemnon, Achille, Ulysse.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='161'>Quoi ! Seigneur, se peut-il que d'un cours si rapide</l>
+	<l id='162'>La victoire vous ait ramené dans l'Aulide ? </l>
+	<l id='163'>D'un courage naissant sont-ce là les essais ? </l>
+	<l id='164'>Quels triomphes suivront de si nobles succès ! </l>
+	<l id='165'>La Thessalie entière, ou vaincue, ou calmée, </l>
+	<l id='166'>Lesbos même conquise en attendant l'armée, </l>
+	<l id='167'>De toute autre valeur éternels monuments, </l>
+	<l id='168'>Ne sont d'Achille oisif que les amusements. </l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='169'>Seigneur, honorez moins une faible conquête.</l>
+	<l id='170'>Et que puisse bientôt le ciel, qui nous arrête, </l>
+	<l id='171'>Ouvrir un champ plus noble à ce coeur excité </l>
+	<l id='172'>Par le prix glorieux dont vous l'avez flatté. </l>
+	<l id='173'>Mais cependant, Seigneur, que faut-il que je croie </l>
+	<l id='174'>D'un bruit qui me surprend, et me comble de joie ? </l>
+	<l id='175'>Daignez-vous avancer le succès de mes voeux ? </l>
+	<l id='176'>Et bientôt des mortels suis-je le plus heureux ? </l>
+	<l id='177'>On dit qu'Iphigénie en ces lieux amenée</l>
+	<l id='178'>Doit bientôt à son sort unir ma destinée. </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='179'>Ma fille ! qui vous dit qu'on la doit amener ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='180'>Seigneur, qu'a donc ce bruit qui vous doive étonner ? </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON, à Ulysse.</speaker>
+	<l id='181'>Juste ciel ! Saurait-il mon funeste artifice ?</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='182'>Seigneur, Agamemnon s'étonne avec justice. </l>
+	<l id='183'>Songez-vous aux malheurs qui nous menacent tous ? </l>
+	<l id='184'>Ô ciel ! Pour un hymen quel temps choisissez-vous ? </l>
+	<l id='185'>Tandis qu'à nos vaisseaux la mer toujours fermée </l>
+	<l id='186'>Trouble toute la Grèce, et consume l'armée,</l>
+	<l id='187'>Tandis que pour fléchir l'inclémence des dieux</l>
+	<l id='188'>Il faut du sang peut-être, et du plus précieux, </l>
+	<l id='189'>Achille seul, Achille à son amour s'applique ?</l>
+	<l id='190'>Voudrait-il insulter à la crainte publique, </l>
+	<l id='191'>Et que le chef des Grecs, irritant les destins,</l>
+	<l id='192'>Préparât d'un hymen la pompe et les festins ? </l>
+	<l id='193'>Ah Seigneur ! est-ce ainsi que votre âme attendrie </l>
+	<l id='194'>Plaint le malheur des Grecs, et chérit la patrie ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='195'>Dans les champs phrygiens les effets feront foi, </l>
+	<l id='196'>Qui la chérit le plus ou d'Ulysse ou de moi.</l>
+	<l id='197'>Jusque-là je vous laisse étaler votre zèle.</l>
+	<l id='198'>Vous pouvez à loisir faire des voeux pour elle.</l>
+	<l id='199'>Remplissez les autels d'offrandes et de sang.</l>
+	<l id='200'>Des victimes vous-même interrogez le flanc. </l>
+	<l id='201'>Du silence des vents demandez-leur la cause.</l>
+	<l id='202'>Mais moi, qui de ce soin sur Calchas me repose,</l>
+	<l id='203'>Souffrez, Seigneur, souffrez que je coure hâter </l>
+	<l id='204'>Un hymen, dont les dieux ne sauraient s'irriter. </l>
+	<l id='205'>Transporté d'une ardeur qui ne peut être oisive, </l>
+	<l id='206'>Je rejoindrai bientôt les Grecs sur cette rive. </l>
+	<l id='207'>J'aurais trop de regret si quelque autre guerrier </l>
+	<l id='208'>Au rivage troyen descendait le premier.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='209'>Ô ciel ! pourquoi faut-il que ta secrète envie </l>
+	<l id='210'>Ferme à de tels héros le chemin de l'Asie ? </l>
+	<l id='211'>N'aurai-je vu briller cette noble chaleur,</l>
+	<l id='212'>Que pour m'en retourner avec plus de douleur !</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='213' part="i">Dieux ! qu'est-ce que j'entends ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='213' part="f">Seigneur, qu'osez-vous dire ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='214'>Qu'il faut, Princes, qu'il faut que chacun se retire,</l>
+	<l id='215'>Que d'un crédule espoir trop longtemps abusés, </l>
+	<l id='216'>Nous attendons les vents, qui nous sont refusés. </l>
+	<l id='217'>Le ciel protège Troie. Et par trop de présages </l>
+	<l id='218'>Son courroux nous défend d'en chercher les passages.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='219'>Quels présages affreux nous marquent son courroux ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='220'>Vous-même consultez ce qu'il prédit de vous. </l>
+	<l id='221'>Que sert de se flatter ? On sait qu'à votre tête </l>
+	<l id='222'>Les dieux ont d'Ilion attaché la conquête.</l>
+	<l id='223'>Mais on sait que pour prix d'un triomphe si beau</l>
+	<l id='224'>Ils ont aux champs troyens marqué votre tombeau,</l>
+	<l id='225'>Que votre vie ailleurs et longue, et fortunée, </l>
+	<l id='226'>Devant Troie en sa fleur doit être moissonnée.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='227'>Ainsi pour vous venger tant de rois assemblés</l>
+	<l id='228'>D'un opprobre éternel retourneront comblés. </l>
+	<l id='229'>Et Pâris couronnant son insolente flamme</l>
+	<l id='230'>Retiendra sans péril la soeur de votre femme. </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='231'>Hé quoi ! votre valeur, qui nous a devancés, </l>
+	<l id='232'>N'a-t-elle pas pris soin de nous venger assez ? </l>
+	<l id='233'>Les malheurs de Lesbos par vos mains ravagée</l>
+	<l id='234'>Épouvantent encor toute la mer Égée.</l>
+	<l id='235'>Troie en a vu la flamme. Et jusque dans ses ports </l>
+	<l id='236'>Les flots en ont poussé le débris et les morts. </l>
+	<l id='237'>Que dis-je ? Les Troyens pleurent une autre Hélène,</l>
+	<l id='238'>Que vous avez captive envoyée à Mycènes.</l>
+	<l id='239'>Car je n'en doute point, cette jeune beauté </l>
+	<l id='240'>Garde en vain un secret que trahit sa fierté, </l>
+	<l id='241'>Et son silence même accusant sa noblesse, </l>
+	<l id='242'>Nous dit qu'elle nous cache une illustre princesse.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='243'>Non, non, tous ces détours sont trop ingénieux.</l>
+	<l id='244'>Vous lisez de trop loin dans le secret des dieux.</l>
+	<l id='245'>Moi, je m'arrêterais à de vaines menaces ? </l>
+	<l id='246'>Et je fuirais l'honneur qui m'attend sur vos traces ?</l>
+	<l id='247'>Les Parques à ma mère, il est vrai, l'ont prédit,</l>
+	<l id='248'>Lorsqu'un époux mortel fut reçu dans son lit.</l>
+	<l id='249'>Je puis choisir, dit-on, ou beaucoup d'ans, sans gloire,</l>
+	<l id='250'>Ou peu de jours suivis d'une longue mémoire. </l>
+	<l id='251'>Mais puisqu'il faut enfin que j'arrive au tombeau,</l>
+	<l id='252'>Voudrais-je, de la terre inutile fardeau,</l>
+	<l id='253'>Trop avare d'un sang reçu d'une déesse,</l>
+	<l id='254'>Attendre chez mon père une obscure vieillesse,</l>
+	<l id='255'>Et toujours de la gloire évitant le sentier, </l>
+	<l id='256'>Ne laisser aucun nom, et mourir tout entier ?</l>
+	<l id='257'>Ah ! Ne nous formons point ces indignes obstacles.</l>
+	<l id='258'>L'honneur parle, il suffit, ce sont là nos oracles.</l>
+	<l id='259'>Les dieux sont de nos jours les maîtres souverains.</l>
+	<l id='260'>Mais, Seigneur, notre gloire est dans nos propres mains.</l>
+	<l id='261'>Pourquoi nous tourmenter de leurs ordres suprêmes ?</l>
+	<l id='262'>Ne songeons qu'à nous rendre immortels comme eux-mêmes,</l>
+	<l id='263'>Et laissant faire au sort, courons où la valeur </l>
+	<l id='264'>Nous promet un destin aussi grand que le leur. </l>
+	<l id='265'>C'est à Troie, et j'y cours. Et quoi qu'on me prédise, </l>
+	<l id='266'>Je ne demande aux dieux, qu'un vent qui m'y conduise.</l>
+	<l id='267'>Et quand moi seul enfin il faudrait l'assiéger, </l>
+	<l id='268'>Patrocle et moi, Seigneur, nous irons vous venger.</l>
+	<l id='269'>Mais non, c'est en vos mains que le destin la livre.</l>
+	<l id='270'>Je n'aspire en effet qu'à l'honneur de vous suivre. </l>
+	<l id='271'>Je ne vous presse plus d'approuver les transports </l>
+	<l id='272'>D'un amour, qui m'allait éloigner de ces bords :</l>
+	<l id='273'>Ce même amour soigneux de votre renommée,</l>
+	<l id='274'>Veut qu'ici mon exemple encourage l'armée,</l>
+	<l id='275'>Et me défend surtout de vous abandonner </l>
+	<l id='276'>Aux timides conseils qu'on ose vous donner.</l></sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Agamemnon, Ulysse.</head>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='277'>Seigneur, vous entendez. Quelque prix qu'il en coûte,</l>
+	<l id='278'>Il veut voler à Troie et poursuivre sa route. </l>
+	<l id='279'>Nous craignions son amour. Et lui-même aujourd'hui </l>
+	<l id='280'>Par une heureuse erreur nous arme contre lui. </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='281' part="i">Hélas !</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='281' part="f">De ce soupir que faut-il que j'augure ? </l>
+	<l id='282'>Du sang qui se révolte est-ce quelque murmure ? </l>
+	<l id='283'>Croirai-je qu'une nuit a pu vous ébranler ? </l>
+	<l id='284'>Est-ce donc votre coeur qui vient de nous parler ? </l>
+	<l id='285'>Songez-y. Vous devez votre fille à la Grèce, </l>
+	<l id='286'>Vous nous l'avez promise. Et sur cette promesse</l>
+	<l id='287'>Calchas par tous les Grecs consulté chaque jour</l>
+	<l id='288'>Leur a prédit des vents l'infaillible retour. </l>
+	<l id='289'>À ses prédictions si l'effet est contraire,</l>
+	<l id='290'>Pensez-vous que Calchas continue à se taire, </l>
+	<l id='291'>Que ses plaintes, qu'en vain vous voudrez apaiser, </l>
+	<l id='292'>Laissent mentir les dieux, sans vous en accuser ? </l>
+	<l id='293'>Et qui sait ce qu'aux Grecs frustrés de leur victime</l>
+	<l id='294'>Peut permettre un courroux, qu'ils croiront légitime ? </l>
+	<l id='295'>Gardez-vous de réduire un peuple furieux, </l>
+	<l id='296'>Seigneur, à prononcer entre vous, et les dieux. </l>
+	<l id='297'>N'est-ce pas vous enfin, de qui la voix pressante </l>
+	<l id='298'>Nous a tous appelés aux campagnes du Xante ?</l>
+	<l id='299'>Et qui de ville en ville attestiez les serments </l>
+	<l id='300'>Que d'Hélène autrefois firent tous les amants, </l>
+	<l id='301'>Quand presque tous les Grecs, rivaux de votre frère </l>
+	<l id='302'>La demandaient en foule à Tyndare son père ? </l>
+	<l id='303'>De quelque heureux époux que l'on dût faire choix, </l>
+	<l id='304'>Nous jurâmes dès lors de défendre ses droits ; </l>
+	<l id='305'>Et si quelque insolent lui volait sa conquête, </l>
+	<l id='306'>Nos mains du ravisseur lui promirent la tête. </l>
+	<l id='307'>Mais sans vous, ce serment que l'amour a dicté, </l>
+	<l id='308'>Libres de cet amour, l'aurions-nous respecté ? </l>
+	<l id='309'>Vous seul nous arrachant à de nouvelles flammes</l>
+	<l id='310'>Nous avez fait laisser nos enfants et nos femmes. </l>
+	<l id='311'>Et quand de toutes parts assemblés en ces lieux, </l>
+	<l id='312'>L'honneur de vous venger brille seul à nos yeux, </l>
+	<l id='313'>Quand la Grèce déjà vous donnant son suffrage </l>
+	<l id='314'>Vous reconnaît l'auteur de ce fameux ouvrage, </l>
+	<l id='315'>Que ses rois qui pouvaient vous disputer ce rang, </l>
+	<l id='316'>Sont prêts pour vous servir de verser tout leur sang,</l>
+	<l id='317'>Le seul Agamemnon refusant la victoire, </l>
+	<l id='318'>N'ose d'un peu de sang acheter tant de gloire ? </l>
+	<l id='319'>Et dès le premier pas se laissant effrayer, </l>
+	<l id='320'>Ne commande les Grecs, que pour les renvoyer ? </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='321'>Ah, Seigneur, qu'éloigné du malheur qui m'opprime</l>
+	<l id='322'>Votre coeur aisément se montre magnanime !</l>
+	<l id='323'>Mais que si vous voyiez ceint du bandeau mortel</l>
+	<l id='324'>Votre fils Télémaque va pprocher de l'autel, </l>
+	<l id='325'>Nous vous verrions troublé de cette affreuse image</l>
+	<l id='326'>Changer bientôt en pleurs ce superbe langage,</l>
+	<l id='327'>Éprouver la douleur que j'éprouve aujourd'hui, </l>
+	<l id='328'>Et courir vous jeter entre Calchas et lui !</l>
+	<l id='329'>Seigneur, vous le savez, j'ai donné ma parole,</l>
+	<l id='330'>Et si ma fille vient, je consens qu'on l'immole ; </l>
+	<l id='331'>Mais malgré tous mes soins si son heureux destin </l>
+	<l id='332'>La retient dans Argos, ou l'arrête en chemin,</l>
+	<l id='333'>Souffrez que sans presser ce barbare spectacle,</l>
+	<l id='334'>En faveur de mon sang j'explique cet obstacle, </l>
+	<l id='335'>Que j'ose pour ma fille accepter le secours</l>
+	<l id='336'>De quelque dieu plus doux qui veille sur ses jours.</l>
+	<l id='337'>Vos conseils sur mon coeur n'ont eu que trop d'empire ; </l>
+	<l id='338' part="i">Et je rougis...</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Agamemnon, Ulysse, Eurybate.</head>
+<sp who="EURYBATE"><speaker>EURYBATE.</speaker>
+	<l id='338' part="m">Seigneur...</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='338' part="f">Ah ! Que vient-on me dire ?</l>
+</sp>
+<sp who="EURYBATE"><speaker>EURYBATE.</speaker>
+	<l id='339'>La reine, dont ma course a devancé les pas,</l>
+	<l id='340'>Va remettre bientôt sa fille entre vos bras. </l>
+	<l id='341'>Elle approche. Elle s'est quelque temps égarée </l>
+	<l id='342'>Dans ces bois, qui du camp semblent cacher l'entrée. </l>
+	<l id='343'>À peine nous avons dans leur obscurité</l>
+	<l id='344'>Retrouvé le chemin que nous avions quitté.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='345' part="i">Ciel !</l>
+</sp>
+<sp who="EURYBATE"><speaker>EURYBATE.</speaker>
+	<l id='345' part="f">Elle amène aussi cette jeune Ériphile, </l>
+	<l id='346'>Que Lesbos a livrée entre les mains d'Achille,</l>
+	<l id='347'>Et qui de son destin, qu'elle ne connaît pas, </l>
+	<l id='348'>Vient, dit-elle, en Aulide interroger Calchas. </l>
+	<l id='349'>Déjà de leur abord la nouvelle est semée,</l>
+	<l id='350'>Et déjà de soldats une foule charmée, </l>
+	<l id='351'>Surtout d'Iphigénie admirant la beauté,</l>
+	<l id='352'>Pousse au ciel mille voeux pour sa félicité. </l>
+	<l id='353'>Les uns avec respect environnaient la reine,</l>
+	<l id='354'>D'autres me demandaient le sujet qui l'amène. </l>
+	<l id='355'>Mais tous ils confessaient, que si jamais les dieux </l>
+	<l id='356'>Ne mirent sur le trône un roi plus glorieux, </l>
+	<l id='357'>Également comblé de leurs faveurs secrètes,</l>
+	<l id='358'>Jamais père ne fut plus heureux que vous l'êtes.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='359'>Eurybate, il suffit. Vous pouvez nous laisser. </l>
+	<l id='360'>Le reste me regarde et je vais y penser. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Agamemnon, Ulysse.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='361'>Juste ciel, c'est ainsi qu'assurant ta vengeance</l>
+	<l id='362'>Tu romps tous les ressorts de ma vaine prudence !</l>
+	<l id='363'>Encor si je pouvais, libre dans mon malheur, </l>
+	<l id='364'>Par des larmes au moins soulager ma douleur ! </l>
+	<l id='365'>Triste destin des rois ! esclaves que nous sommes </l>
+	<l id='366'>Et des rigueurs du sort, et des discours des hommes.</l>
+	<l id='367'>Nous nous voyons sans cesse assiégés de témoins, </l>
+	<l id='368'>Et les plus malheureux osent pleurer le moins.</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='369'>Je suis père, Seigneur. Et faible comme un autre,</l>
+	<l id='370'>Mon coeur se met sans peine en la place du vôtre, </l>
+	<l id='371'>Et frémissant du coup qui vous fait soupirer,</l>
+	<l id='372'>Loin de blâmer vos pleurs, je suis prêt de pleurer.</l>
+	<l id='373'>Mais votre amour n'a plus d'excuse légitime.</l>
+	<l id='374'>Les dieux ont à Calchas amené leur victime.</l>
+	<l id='375'>Il le sait, il l'attend : et s'il la voit tarder, </l>
+	<l id='376'>Lui-même à haute voix viendra la demander.</l>
+	<l id='377'>Nous sommes seuls encor. Hâtez-vous de répandre</l>
+	<l id='378'>Des pleurs que vous arrache un intérêt si tendre.</l>
+	<l id='379'>Pleurez ce sang, pleurez. Ou plutôt sans pâlir,</l>
+	<l id='380'>Considérez l'honneur qui doit en rejaillir. </l>
+	<l id='381'>Voyez tout l'Hellespont blanchissant sous nos rames,</l>
+	<l id='382'>Et la perfide Troie abandonnée aux flammes,</l>
+	<l id='383'>Ses peuples dans vos fers, Priam à vos genoux,</l>
+	<l id='384'>Hélène par vos mains rendue à son époux.</l>
+	<l id='385'>Voyez de vos vaisseaux les poupes couronnées</l>
+	<l id='386'>Dans cette même Aulide avec vous retournées,</l>
+	<l id='387'>Et ce triomphe heureux, qui s'en va devenir </l>
+	<l id='388'>L'éternel entretien des siècles à venir.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='389'>Seigneur, de mes efforts je connais l'impuissance. </l>
+	<l id='390'>Je cède, et laisse aux dieux opprimer l'innocence, </l>
+	<l id='391'>La victime bientôt marchera sur vos pas, </l>
+	<l id='392'>Allez. Mais cependant faites taire Calchas.</l>
+	<l id='393'>Et m'aidant à cacher ce funeste mystère, </l>
+	<l id='394'>Laissez-moi de l'autel écarter une mère.</l></sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Eriphile, Doris.</head>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='395'>Ne les contraignons point, Doris, retirons-nous, </l>
+	<l id='396'>Laissons-les dans les bras d'un père et d'un époux,</l>
+	<l id='397'>Et tandis qu'à l'envi leur amour se déploie, </l>
+	<l id='398'>Mettons en liberté ma tristesse et leur joie.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='399'>Quoi, Madame ! toujours irritant vos douleurs,</l>
+	<l id='400'>Croirez-vous ne plus voir que des sujets de pleurs ? </l>
+	<l id='401'>Je sais que tout déplaît aux yeux d'une captive,</l>
+	<l id='402'>Qu'il n'est point dans les fers de plaisir qui la suive. </l>
+	<l id='403'>Mais dans le temps fatal que repassant les flots</l>
+	<l id='404'>Nous suivions malgré nous le vainqueur de Lesbos,</l>
+	<l id='405'>Lorsque dans son vaisseau prisonnière timide</l>
+	<l id='406'>Vous voyiez devant vous ce vainqueur homicide,</l>
+	<l id='407'>Le dirai-je ? Vos yeux de larmes moins trempés </l>
+	<l id='408'>À pleurer vos malheurs étaient moins occupés. </l>
+	<l id='409'>Maintenant tous vous rit. L'aimable Iphigénie </l>
+	<l id='410'>D'une amitié sincère avec vous est unie. </l>
+	<l id='411'>Elle vous plaint, vous voit avec des yeux de soeur, </l>
+	<l id='412'>Et vous seriez dans Troie avec moins de douceur. </l>
+	<l id='413'>Vous vouliez voir l'Aulide, où son père l'appelle,</l>
+	<l id='414'>Et l'Aulide vous voit arriver avec elle.</l>
+	<l id='415'>Cependant par un sort que je ne conçois pas, </l>
+	<l id='416'>Votre douleur redouble, et croît à chaque pas.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='417'>Hé quoi ! te semble-t-il que la triste Ériphile </l>
+	<l id='418'>Doive être de leur joie un témoin si tranquille ? </l>
+	<l id='419'>Crois-tu que mes chagrins doivent s'évanouir </l>
+	<l id='420'>À l'aspect d'un bonheur, dont je ne puis jouir ? </l>
+	<l id='421'>Je vois Iphigénie entre les bras d'un père. </l>
+	<l id='422'>Elle fait tout l'orgueil d'une superbe mère. </l>
+	<l id='423'>Et moi, toujours en bute à de nouveaux dangers,</l>
+	<l id='424'>Remise dès l'enfance en des bras étrangers,</l>
+	<l id='425'>Je reçus, et je vois le jour que je respire, </l>
+	<l id='426'>Sans que mère ni père ait daigné me sourire. </l>
+	<l id='427'>J'ignore qui je suis. Et pour comble d'horreur,</l>
+	<l id='428'>Un oracle effrayant m'attache à mon erreur,</l>
+	<l id='429'>Et quand je veux chercher le sang qui m'a fait naître,</l>
+	<l id='430'>Me dit, que sans périr, je ne me puis connaître. </l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='431'>Non non, jusques au bout vous devez le chercher. </l>
+	<l id='432'>Un oracle toujours se plaît à se cacher. </l>
+	<l id='433'>Toujours avec un sens il en présente un autre. </l>
+	<l id='434'>En perdant un faux nom vous reprendrez le vôtre.</l>
+	<l id='435'>C'est là tout le danger que vous pouvez courir, </l>
+	<l id='436'>Et c'est peut-être ainsi que vous devez périr.</l>
+	<l id='437'>Songez que votre nom fut changé dès l'enfance.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='438'>Je n'ai de tout mon sort que cette connaissance ;</l>
+	<l id='439'>Et ton père, du reste infortuné témoin,</l>
+	<l id='440'>Ne me permit jamais de pénétrer plus loin. </l>
+	<l id='441'>Hélas ! dans cette Troie où j'étais attendue, </l>
+	<l id='442'>Ma gloire, disait-il, m'allait être rendue : </l>
+	<l id='443'>J'allais en reprenant et mon nom et mon rang,</l>
+	<l id='444'>Des plus grands rois en moi reconnaître le sang. </l>
+	<l id='445'>Déjà je découvrais cette fameuse ville, </l>
+	<l id='446'>Le ciel mène à Lesbos l'impitoyable Achille.</l>
+	<l id='447'>Tout cède, tout ressent ses funestes efforts.</l>
+	<l id='448'>Ton père enseveli dans la foule des morts, </l>
+	<l id='449'>Me laisse dans les fers à moi-même inconnue. </l>
+	<l id='450'>Et de tant de grandeurs, dont j'étais prévenue, </l>
+	<l id='451'>Vile esclave des Grecs, je n'ai pu conserver </l>
+	<l id='452'>Que la fierté d'un sang, que je ne puis prouver.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='453'>Ah ! que perdant, Madame, un témoin si fidèle,</l>
+	<l id='454'>La main qui vous l'ôta vous doit sembler cruelle ! </l>
+	<l id='455'>Mais Calchas est ici. Calchas si renommé, </l>
+	<l id='456'>Qui des secrets des dieux fut toujours informé.</l>
+	<l id='457'>Le ciel souvent lui parle. Instruit par un tel maître,</l>
+	<l id='458'>Il sait tout ce qui fut, et tout ce qui doit être. </l>
+	<l id='459'>Pourrait-il de vos jours ignorer les auteurs ? </l>
+	<l id='460'>Ce camp même est pour vous tout plein de protecteurs. </l>
+	<l id='461'>Bientôt Iphigénie en épousant Achille</l>
+	<l id='462'>Vous va sous son appui présenter un asile. </l>
+	<l id='463'>Elle vous l'a promis, et juré devant moi, </l>
+	<l id='464'>Ce gage est le premier qu'elle attend de sa foi.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='465'>Que dirais-tu, Doris, si passant tout le reste</l>
+	<l id='466'>Cet hymen de mes maux était le plus funeste ?</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='467' part="i">Quoi ! Madame ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='467' part="f">Tu vois avec étonnement </l>
+	<l id='468'>Que ma douleur ne souffre aucun soulagement. </l>
+	<l id='469'>Ecoute. Et tu te vas étonner que je vive.</l>
+	<l id='470'>C'est peu d'être étrangère, inconnue, et captive. </l>
+	<l id='471'>Ce destructeur fatal des tristes Lesbiens,</l>
+	<l id='472'>Cet Achille l'auteur de tes maux et des miens,</l>
+	<l id='473'>Dont la sanglante main m'enleva prisonnière, </l>
+	<l id='474'>Qui m'arracha d'un coup ma naissance et ton père,</l>
+	<l id='475'>De qui jusques au nom tout doit m'être odieux, </l>
+	<l id='476'>Est de tous les mortels le plus cher à mes yeux.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='477' part="i">Ah ! que me dites-vous !</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='477' part="f">Je me flattais sans cesse</l>
+	<l id='478'>Qu'un silence éternel cacherait ma faiblesse.</l>
+	<l id='479'>Mais mon coeur trop pressé m'arrache ce discours,</l>
+	<l id='480'>Et te parle une fois, pour se taire toujours. </l>
+	<l id='481'>Ne me demande point sur quel espoir fondée</l>
+	<l id='482'>De ce fatal amour je me vis possédée.</l>
+	<l id='483'>Je n'en accuse point quelques feintes douleurs</l>
+	<l id='484'>Dont je crus voir Achille honorer mes malheurs.</l>
+	<l id='485'>Le ciel s'est fait sans doute une joie inhumaine</l>
+	<l id='486'>À rassembler sur moi tous les traits de sa haine.</l>
+	<l id='487'>Rappellerai-je encor le souvenir affreux</l>
+	<l id='488'>Du jour qui dans les fers nous jeta toutes deux ? </l>
+	<l id='489'>Dans les cruelles mains, par qui je fus ravie,</l>
+	<l id='490'>Je demeurai longtemps sans lumière et sans vie. </l>
+	<l id='491'>Enfin mes tristes yeux cherchèrent la clarté ;</l>
+<note type="V">Variante éd. 1675 et 1676 : v.491, "mes faibles yeux" au lieu de "mes tristes yeux".</note>	
+	<l id='492'>Et me voyant presser d'un bras ensanglanté,</l>
+	<l id='493'>Je frémissais, Doris, et d'un vainqueur sauvage </l>
+	<l id='494'>Craignais de rencontrer l'effroyable visage. </l>
+	<l id='495'>J'entrai dans son vaisseau, détestant sa fureur, </l>
+	<l id='496'>Et toujours détournant ma vue avec horreur. </l>
+	<l id='497'>Je le vis. Son aspect n'avait rien de farouche.</l>
+	<l id='498'>Je sentis le reproche expirer dans ma bouche.</l>
+	<l id='499'>Je sentis contre moi mon coeur se déclarer,</l>
+	<l id='500'>J'oubliai ma colère, et ne sus que pleurer. </l>
+	<l id='501'>Je me laissai conduire à cet aimable guide. </l>
+	<l id='502'>Je l'aimais à Lesbos, et je l'aime en Aulide. </l>
+	<l id='503'>Iphigénie en vain s'offre à me protéger,</l>
+	<l id='504'>Et me tend une main prompte à me soulager :</l>
+	<l id='505'>Triste effet des fureurs dont je suis tourmentée ! </l>
+	<l id='506'>Je n'accepte la main qu'elle m'a présentée,</l>
+	<l id='507'>Que pour m'armer contre elle, et sans me découvrir, </l>
+	<l id='508'>Traverser son bonheur, que je ne puis souffrir.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='509'>Et que pourrait contre elle une impuissante haine ? </l>
+	<l id='510'>Ne valait-il pas mieux, renfermée à Mycènes, </l>
+	<l id='511'>Éviter les tourments que vous venez chercher,</l>
+	<l id='512'>Et combattre des feux contraints de se cacher ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='513'>Je le voulais, Doris. Mais quelque triste image </l>
+	<l id='514'>Que sa gloire à mes yeux montrât sur ce rivage,</l>
+	<l id='515'>Au sort qui me traînait il fallut consentir. </l>
+	<l id='516'>Une secrète voix m'ordonna de partir, </l>
+	<l id='517'>Me dit qu'offrant ici ma présence importune</l>
+	<l id='518'>Peut-être j'y pourrais porter mon infortune,</l>
+	<l id='519'>Que peut-être approchant ces amants trop heureux,</l>
+	<l id='520'>Quelqu'un de mes malheurs se répandrait sur eux. </l>
+	<l id='521'>Voilà ce qui m'amène, et non l'impatience</l>
+	<l id='522'>D'apprendre à qui je dois une triste naissance. </l>
+	<l id='523'>Ou plutôt leur hymen me servira de loi. </l>
+	<l id='524'>S'il s'achève, il suffit, tout est fini pour moi. </l>
+	<l id='525'>Je périrai, Doris, et par une mort prompte</l>
+	<l id='526'>Dans la nuit du tombeau j'enfermerai ma honte,</l>
+	<l id='527'>Sans chercher des parents si longtemps ignorés, </l>
+	<l id='528'>Et que ma folle amour a trop déshonorés.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='529'>Que je vous plains, Madame ! Et que la tyrannie...</l>
+<note type="V">Variante éd. 1677 à 1687 : v.529, "Et que pour votre vie" au lieu de "Et que la tyrannie".</note>	
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='530'>Tu vois Agamemnon avec Iphigénie. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Agamemnon, Iphigénie, Eriphile, Doris.</head>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='531'>Seigneur, où courez-vous ? Et quels empressements</l>
+	<l id='532'>Vous dérobent sitôt à nos embrassements ?</l>
+	<l id='533'>À qui dois-je imputer cette fuite soudaine ?</l>
+	<l id='534'>Mon respect a fait place aux transports de la reine.</l>
+	<l id='535'>Un moment à mon tour ne vous puis-je arrêter ? </l>
+	<l id='536'>Et ma joie à vos yeux n'ose-t-elle éclater ?</l>
+	<l id='537' part="i">Ne puis-je...</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='537' part="f">Hé bien, ma fille, embrassez votre père.</l>
+	<l id='538' part="i">Il vous aime toujours.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='538' part="f">Que cette amour m'est chère ! </l>
+	<l id='539'>Quel plaisir de vous voir, et de vous contempler,</l>
+	<l id='540'>Dans ce nouvel éclat dont je vous vois briller ! </l>
+	<l id='541'>Quels honneurs ! quel pouvoir ! déjà la renommée </l>
+	<l id='542'>Par d'étonnants récits m'en avait informée.</l>
+	<l id='543'>Mais que voyant de près ce spectacle charmant,</l>
+	<l id='544'>Je sens croître ma joie et mon étonnement ! </l>
+	<l id='545'>Dieux ! avec quel amour la Grèce vous révère ! </l>
+	<l id='546'>Quel bonheur de me voir la fille d'un tel père !</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='547'>Vous méritiez, ma fille, un père plus heureux.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='548'>Quelle félicité peut manquer à vos voeux ?</l>
+	<l id='549'>À de plus grands honneurs un roi peut-il prétendre ?</l>
+	<l id='550'>J'ai cru n'avoir au ciel que des grâces à rendre. </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='551'>Grands dieux ! à son malheur dois-je la préparer ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='552'>Vous vous cachez, Seigneur, et semblez soupirer.</l>
+	<l id='553'>Tous vos regards sur moi ne tombent qu'avec peine.</l>
+	<l id='554'>Avons-nous sans votre ordre abandonné  Mycènes ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='555'>Ma fille, je vous vois toujours des mêmes yeux. </l>
+	<l id='556'>Mais les temps sont changés aussi bien que les lieux.</l>
+	<l id='557'>D'un soin cruel ma joie est ici combattue.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='558'>Hé ! mon père, oubliez votre rang à ma vue.</l>
+	<l id='559'>Je prévois la rigueur d'un long éloignement.</l>
+	<l id='560'>N'osez-vous sans rougir être père un moment ? </l>
+	<l id='561'>Vous n'avez devant vous qu'une jeune princesse,</l>
+	<l id='562'>À qui j'avais pour moi vanté votre tendresse.</l>
+	<l id='563'>Cent fois lui promettant mes soins, votre bonté,</l>
+	<l id='564'>J'ai fait gloire à ses yeux de ma félicité.</l>
+	<l id='565'>Que va-t-elle penser de votre indifférence ? </l>
+	<l id='566'>Ai-je flatté ses voeux d'une fausse espérance ?</l>
+	<l id='567'>N'éclaircirez-vous point ce front chargé d'ennuis ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='568' part="i">Ah, ma fille !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='568' part="m">Seigneur, poursuivez.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='568' part="f">Je ne puis.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='569'>Périsse le Troyen auteur de nos alarmes !</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='570'>Sa perte à ses vainqueurs coûtera bien des larmes. </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='571'>Les dieux daignent surtout prendre soin de vos jours.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='572'>Les dieux depuis un temps me sont cruels et sourds.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='573'>Calchas, dit-on, prépare un pompeux sacrifice.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='574'>Puissé-je auparavant fléchir leur injustice !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='575' part="i">L'offrira-t-on bientôt ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='575' part="f">Plus tôt que je ne veux. </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='576'>Me sera-t-il permis de me joindre à vos voeux ? </l>
+	<l id='577'>Verra-t-on à l'autel votre heureuse famille ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='578' part="i">Hélas !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='578' part="m">Vous vous taisez ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='578' part="f">Vous y serez, ma fille.</l>
+	<l id='579' part="i">Adieu.</l></sp>
+</div2><div2 type='scene' n='3'><head>SCÈNE III. Iphigénie, Eriphile, Doris.</head>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='579' part="f">De cet accueil que dois-je soupçonner ? </l>
+	<l id='580'>D'une secrète horreur je me sens frissonner. </l>
+	<l id='581'>Je crains malgré moi-même un malheur que j'ignore. </l>
+	<l id='582'>Justes dieux, vous savez pour qui je vous implore.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='583'>Quoi ! parmi tous les soins qui doivent l'accabler,</l>
+	<l id='584'>Quelque froideur suffit pour vous faire trembler ?</l>
+	<l id='585'>Hélas ! à quels soupirs suis-je donc condamnée, </l>
+	<l id='586'>Moi, qui de mes parents toujours abandonnée,</l>
+	<l id='587'>Étrangère partout, n'ai pas même en naissant </l>
+	<l id='588'>Peut-être reçu d'eux un regard caressant ?</l>
+	<l id='589'>Du moins si vos respects sont rejetés d'un père,</l>
+	<l id='590'>Vous en pouvez gémir dans le sein d'une mère. </l>
+	<l id='591'>Et de quelque disgrâce enfin que vous pleuriez,</l>
+	<l id='592'>Quels pleurs par un amant ne sont point essuyés ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='593'>Je ne m'en défends point. Mes pleurs, belle Ériphile,</l>
+	<l id='594'>Ne tiendraient pas longtemps contre les soins d'Achille.</l>
+	<l id='595'>Sa gloire, son amour, mon père, mon devoir</l>
+	<l id='596'>Lui donnent sur mon âme un trop juste pouvoir. </l>
+	<l id='597'>Mais de lui-même ici que faut-il que je pense ? </l>
+	<l id='598'>Cet amant, pour me voir brûlant d'impatience,</l>
+	<l id='599'>Que les Grecs de ces bords ne pouvaient arracher,</l>
+	<l id='600'>Qu'un père de si loin m'ordonne de chercher, </l>
+	<l id='601'>S'empresse-t-il assez pour jouir d'une vue </l>
+	<l id='602'>Qu'avec tant de transports je croyais attendue ? </l>
+	<l id='603'>Pour moi, depuis deux jours, qu'approchant de ces lieux</l>
+	<l id='604'>Leur aspect souhaité se découvre à nos yeux,</l>
+	<l id='605'>Je l'attendais partout, et d'un regard timide </l>
+	<l id='606'>Sans cesse parcourant les chemins de l'Aulide,</l>
+	<l id='607'>Mon coeur pour le chercher volait loin devant moi, </l>
+	<l id='608'>Et je demande Achille à tout ce que je voi.</l>
+	<l id='609'>Je viens, j'arrive enfin sans qu'il m'ait prévenue. </l>
+	<l id='610'>Je n'ai percé qu'à peine une foule inconnue. </l>
+	<l id='611'>Lui seul ne paraît point. Le triste Agamemnon </l>
+	<l id='612'>Semble craindre à mes yeux de prononcer son nom. </l>
+	<l id='613'>Que fait-il ? Qui pourra m'expliquer ce mystère ? </l>
+	<l id='614'>Trouverai-je l'amant glacé comme le père ? </l>
+	<l id='615'>Et les soins de la guerre auraient-ils en un jour </l>
+	<l id='616'>Éteint dans tous les coeurs la tendresse et l'amour ?</l>
+	<l id='617'>Mais non. C'est l'offenser par d'injustes alarmes. </l>
+	<l id='618'>C'est à moi que l'on doit le secours de ses armes. </l>
+	<l id='619'>Il n'était point à Sparte entre tous ces amants,</l>
+	<l id='620'>Dont le père d'Hélène a reçu les serments. </l>
+	<l id='621'>Lui seul de tous les Grecs, maître de sa parole,</l>
+	<l id='622'>S'il part contre Ilion, c'est pour moi qu'il y vole,</l>
+	<l id='623'>Et satisfait d'un prix qui lui semble si doux,</l>
+	<l id='624'>Il veut même y porter le nom de mon époux.</l></sp>
+</div2><div2 type='scene' n='4'><head>SCÈNE IV. Clytemnestre, Eriphile, Doris.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='625'>Ma fille, il faut partir sans que rien nous retienne, </l>
+	<l id='626'>Et sauver, en fuyant, votre gloire et la mienne. </l>
+	<l id='627'>Je ne m'étonne plus qu'interdit et distrait </l>
+	<l id='628'>Votre père ait paru nous revoir à regret. </l>
+	<l id='629'>Aux affronts d'un refus craignant de vous commettre, </l>
+	<l id='630'>Il m'avait par Arcas envoyé cette lettre. </l>
+	<l id='631'>Arcas s'est vu trompé par notre égarement,</l>
+	<l id='632'>Et vient de me la rendre en ce même moment. </l>
+	<l id='633'>Sauvons encore un coup notre gloire offensée. </l>
+	<l id='634'>Pour votre hymen Achille a changé de pensée,</l>
+	<l id='635'>Et refusant l'honneur qu'on lui veut accorder, </l>
+	<l id='636'>Jusques à son retour il veut le retarder.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='637' part="i">Qu'entends-je ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='637' part="f">Je vous vois rougir de cet outrage,</l>
+	<l id='638'>Il faut d'un noble orgueil armer votre courage. </l>
+	<l id='639'>Moi-même de l'ingrat approuvant le dessein,</l>
+	<l id='640'>Je vous l'ai dans Argos présenté de ma main ; </l>
+	<l id='641'>Et mon choix que flattait le bruit de sa noblesse</l>
+	<l id='642'>Vous donnait avec joie au fils d'une déesse.</l>
+	<l id='643'>Mais puisque désormais son lâche repentir </l>
+	<l id='644'>Dément le sang des dieux, dont on le fait sortir, </l>
+	<l id='645'>Ma fille, c'est à nous de montrer qui nous sommes, </l>
+	<l id='646'>Et de ne voir en lui que le dernier des hommes. </l>
+	<l id='647'>Lui ferons-nous penser par un plus long séjour,</l>
+	<l id='648'>Que vos voeux de son coeur attendent le retour ? </l>
+	<l id='649'>Rompons avec plaisir un hymen qu'il diffère. </l>
+	<l id='650'>J'ai fait de mon dessein avertir votre père. </l>
+	<l id='651'>Je ne l'attends ici que pour m'en séparer,</l>
+	<l id='652'>Et pour ce prompt départ je vais tout préparer. </l>
+<stage rend="italic">(À Ériphile)</stage>
+	<l id='653'>Je ne vous presse point, Madame, de nous suivre.</l>
+	<l id='654'>En de plus chères mains ma retraite vous livre. </l>
+	<l id='655'>De vos desseins secrets on est trop éclairci, </l>
+	<l id='656'>Et ce n'est pas Calchas que vous cherchez ici.</l></sp>
+</div2><div2 type='scene' n='5'><head>SCÈNE V. Iphigénie, Eriphile, Doris.</head>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='657'>En quel funeste état ces mots m'ont-ils laissée !</l>
+	<l id='658'>Pour mon hymen Achille a changé de pensée.</l>
+	<l id='659'>Il me faut sans honneur retourner sur mes pas ;</l>
+	<l id='660'>Et vous cherchez ici quelque autre que Calchas ? </l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='661'>Madame, à ce discours je ne puis rien comprendre.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='662'>Vous m'entendez assez, si vous voulez m'entendre. </l>
+	<l id='663'>Le sort injurieux me ravit un époux.</l>
+	<l id='664'>Madame, à mon malheur m'abandonnerez-vous ? </l>
+	<l id='665'>Vous ne pouviez sans moi demeurer à Mycènes. </l>
+	<l id='666'>Me verra-t-on sans vous partir avec la reine ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='667'>Je voulais voir Calchas avant que de partir.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='668'>Que tardez-vous, Madame, à le faire avertir ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='669'>D'Argos, dans un moment, vous reprenez la route.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='670'>Un moment quelquefois éclaircit plus d'un doute. </l>
+	<l id='671'>Mais, Madame, je vois que c'est trop vous presser.</l>
+	<l id='672'>Je vois ce que jamais je n'ai voulu penser.</l>
+	<l id='673'>Achille... Vous brûlez que je ne sois partie.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='674'>Moi ? Vous me soupçonnez de cette perfidie ? </l>
+	<l id='675'>Moi j'aimerais, Madame, un vainqueur furieux, </l>
+	<l id='676'>Qui toujours tout sanglant se présente à mes yeux,</l>
+	<l id='677'>Qui la flamme à la main, et de meurtres avide</l>
+	<l id='678' part="i">Mit en cendres Lesbos...</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='678' part="f">Oui vous l'aimez, perfide.</l>
+	<l id='679'>Et ces mêmes fureurs que vous me dépeignez, </l>
+	<l id='680'>Ses bras que dans le sang vous avez vus baignés, </l>
+	<l id='681'>Ces morts, cette Lesbos, ces cendres, cette flamme, </l>
+	<l id='682'>Sont les traits dont l'amour l'a gravé dans votre âme,</l>
+	<l id='683'>Et loin d'en détester le cruel souvenir,</l>
+	<l id='684'>Vous vous plaisez encore à m'en entretenir. </l>
+	<l id='685'>Déjà plus d'une fois dans vos plaintes forcées</l>
+	<l id='686'>J'ai dû voir, et j'ai vu le fond de vos pensées. </l>
+	<l id='687'>Mais toujours sur mes yeux ma facile bonté </l>
+	<l id='688'>A remis le bandeau que j'avais écarté. </l>
+	<l id='689'>Vous l'aimez. Que faisais-je ? Et quelle erreur fatale </l>
+	<l id='690'>M'a fait entre mes bras recevoir ma rivale ? </l>
+	<l id='691'>Crédule je l'aimais. Mon coeur même aujourd'hui</l>
+	<l id='692'>De son parjure amant lui promettait l'appui. </l>
+	<l id='693'>Voilà donc le triomphe où j'étais amenée. </l>
+	<l id='694'>Moi-même à votre char je me suis enchaînée.</l>
+	<l id='695'>Je vous pardonne, hélas ! des voeux intéressés, </l>
+	<l id='696'>Et la perte d'un coeur, que vous me ravissez. </l>
+	<l id='697'>Mais que sans m'avertir du piège qu'on me dresse</l>
+	<l id='698'>Vous me laissiez chercher jusqu'au fond de la Grèce </l>
+	<l id='699'>L'ingrat, qui ne m'attend que pour m'abandonner, </l>
+	<l id='700'>Perfide, cet affront se peut-il pardonner ? </l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='701'>Vous me donnez des noms qui doivent me surprendre,</l>
+	<l id='702'>Madame. On ne m'a pas instruite à les entendre.</l>
+	<l id='703'>Et les dieux contre moi dès longtemps indignés</l>
+	<l id='704'>À mon oreille encor les avaient épargnés.</l>
+	<l id='705'>Mais il faut des amants excuser l'injustice. </l>
+	<l id='706'>Et de quoi vouliez-vous que je vous avertisse ?</l>
+	<l id='707'>Avez-vous pu penser qu'au sang d'Agamemnon</l>
+	<l id='708'>Achille préférât une fille sans nom,</l>
+	<l id='709'>Qui de tout son destin ce qu'elle a pu comprendre,</l>
+	<l id='710'>C'est qu'elle sort d'un sang qu'il brûle de répandre ? </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='711'>Vous triomphez, cruelle, et bravez ma douleur. </l>
+	<l id='712'>Je n'avais pas encor senti tout mon malheur.</l>
+	<l id='713'>Et vous ne comparez votre exil et ma gloire,</l>
+	<l id='714'>Que pour mieux relever votre injuste victoire. </l>
+	<l id='715'>Toutefois vos transports sont trop précipités. </l>
+	<l id='716'>Ce même Agamemnon à qui vous insultez,</l>
+	<l id='717'>Il commande à la Grèce, il est mon père, il m'aime ;</l>
+	<l id='718'>Il ressent mes douleurs beaucoup plus que moi-même. </l>
+	<l id='719'>Mes larmes par avance avaient su le toucher.</l>
+	<l id='720'>J'ai surpris ses soupirs qu'il me voulait cacher. </l>
+	<l id='721'>Hélas ! de son accueil condamnant la tristesse,</l>
+	<l id='722'>J'osais me plaindre à lui de son peu de tendresse.</l></sp>
+</div2><div2 type='scene' n='6'><head>SCÈNE VI. Achille, Eriphile, Doris.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='723'>Il est donc vrai, Madame, et c'est vous que je vois.</l>
+	<l id='724'>Je soupçonnais d'erreur tout le camp à la fois. </l>
+	<l id='725'>Vous en Aulide ? Vous ? Hé ! qu'y venez-vous faire ? </l>
+	<l id='726'>D'où vient qu'Agamemnon m'assurait le contraire ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='727'>Seigneur, rassurez-vous. Vos voeux seront contents.</l>
+	<l id='728'>Iphigénie encor n'y sera pas longtemps.</l></sp>
+</div2><div2 type='scene' n='7'><head>SCÈNE VII. Achille, Eriphile, Doris.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='729'>Elle me fuit ! veillé-je ? Ou n'est-ce point un songe ? </l>
+	<l id='730'>Dans quel trouble nouveau cette fuite me plonge ! </l>
+	<l id='731'>Madame, je ne sais si sans vous irriter</l>
+	<l id='732'>Achille devant vous pourra se présenter.</l>
+	<l id='733'>Mais si d'un ennemi vous souffrez la prière,</l>
+	<l id='734'>Si lui-même souvent a plaint sa prisonnière,</l>
+	<l id='735'>Vous savez quel sujet conduit ici leurs pas. </l>
+	<l id='736' part="i">Vous savez...</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='736' part="f">Quoi, Seigneur ! ne le savez-vous pas ?</l>
+	<l id='737'>Vous, qui depuis un mois brûlant sur ce rivage,</l>
+	<l id='738'>Avez conclu vous-même, et hâté leur voyage ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='739'>De ce même rivage absent depuis un mois,</l>
+	<l id='740'>Je le revis hier pour la première fois. </l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='741'>Quoi ! Lorsque Agamemnon écrivait à Mycènes,</l>
+	<l id='742'>Votre amour, votre main n'a pas conduit la sienne ?</l>
+	<l id='743'>Quoi ! vous qui de sa fille adoriez les attraits...</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='744'>Vous m'en voyez encore épris plus que jamais,</l>
+	<l id='745'>Madame. Et si l'effet eût suivi ma pensée, </l>
+	<l id='746'>Moi-même dans Argos je l'aurais devancée.</l>
+	<l id='747'>Cependant on me fuit. Quel crime ai-je commis ?</l>
+	<l id='748'>Mais je ne vois partout que des yeux ennemis. </l>
+	<l id='749'>Que dis-je ? En ce moment Calchas, Nestor, Ulysse, </l>
+	<l id='750'>De leur vaine éloquence employant l'artifice, </l>
+	<l id='751'>Combattaient mon amour, et semblaient m'annoncer </l>
+	<l id='752'>Que si j'en crois ma gloire il y faut renoncer. </l>
+	<l id='753'>Quelle entreprise ici pourrait être formée ? </l>
+	<l id='754'>Suis-je sans le savoir la fable de l'armée ? </l>
+	<l id='755'>Entrons. C'est un secret qu'il leur faut arracher. </l></sp>
+</div2><div2 type='scene' n='8'><head>SCÈNE VIII. Eriphile, Doris.</head>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='756'>Dieux, qui voyez ma honte, où me dois-je cacher ? </l>
+	<l id='757'>Orgueilleuse rivale, on t'aime, et tu murmures ?</l>
+	<l id='758'>Souffrirai-je à la fois ta gloire et tes injures ?</l>
+	<l id='759'>Ah ! plutôt... Mais, Doris, ou j'aime à me flatter, </l>
+	<l id='760'>Ou sur eux quelque orage est tout prêt d'éclater. </l>
+	<l id='761'>J'ai des yeux. Leur bonheur n'est pas encor tranquille. </l>
+	<l id='762'>On trompe Iphigénie. On se cache d'Achille.</l>
+	<l id='763'>Agamemnon gémit. Ne désespérons point ;</l>
+	<l id='764'>Et si le sort contre elle à ma haine se joint,</l>
+	<l id='765'>Je saurai profiter de cette intelligence </l>
+	<l id='766'>Pour ne pas pleurer seule, et mourir sans vengeance.</l></sp>
+</div2>
+</div1><div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Agamemnon, Clytemnestre.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='767'>Oui, Seigneur, nous partions. Et mon juste courroux</l>
+	<l id='768'>Laissait bientôt Achille et le camp loin de nous.</l>
+	<l id='769'>Ma fille dans Argos courait pleurer sa honte.</l>
+	<l id='770'>Mais lui-même étonné d'une fuite si prompte, </l>
+	<l id='771'>Par combien de serments, dont je n'ai pu douter,</l>
+	<l id='772'>Vient-il de me convaincre, et de nous arrêter ?</l>
+	<l id='773'>Il presse cet hymen, qu'on prétend qu'il diffère,</l>
+	<l id='774'>Et vous cherche brûlant d'amour et de colère.</l>
+	<l id='775'>Prêt d'imposer silence à ce bruit imposteur, </l>
+	<l id='776'>Achille en veut connaître et confondre l'auteur.</l>
+	<l id='777'>Bannissez ces soupçons qui troublaient notre joie.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='778'>Madame, c'est assez. Je consens qu'on le croie.</l>
+	<l id='779'>Je reconnais l'erreur qui nous avait séduits,</l>
+	<l id='780'>Et ressens votre joie autant que je le puis. </l>
+	<l id='781'>Vous voulez que Calchas l'unisse à ma famille.</l>
+	<l id='782'>Vous pouvez à l'autel envoyer votre fille.</l>
+	<l id='783'>Je l'attends. Mais avant que de passer plus loin,</l>
+	<l id='784'>J'ai voulu vous parler un moment sans témoin.</l>
+	<l id='785'>Vous voyez en quels lieux vous l'avez amenée. </l>
+	<l id='786'>Tout y ressent la guerre, et non point l'hyménée.</l>
+	<l id='787'>Le tumulte d'un camp, soldats et matelots,</l>
+	<l id='788'>Un autel hérissé de dards, de javelots,</l>
+	<l id='789'>Tout ce spectacle enfin, pompe digne d'Achille,</l>
+	<l id='790'>Pour attirer vos yeux n'est point assez tranquille, </l>
+	<l id='791'>Et les Grecs y verraient l'épouse de leur roi </l>
+	<l id='792'>Dans un état indigne et de vous et de moi. </l>
+	<l id='793'>M'en croirez-vous ? Laissez de vos femmes suivie</l>
+	<l id='794'>À cet hymen sans vous marcher Iphigénie.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='795'>Qui ? moi ? Que remettant ma fille en d'autres bras, </l>
+	<l id='796'>Ce que j'ai commencé je ne l'achève pas ? </l>
+	<l id='797'>Qu'après l'avoir d'Argos amenée en Aulide,</l>
+	<l id='798'>Je refuse à l'autel de lui servir de guide ? </l>
+	<l id='799'>Dois-je donc de Calchas être moins près que vous ? </l>
+	<l id='800'>Et qui présentera ma fille à son époux ? </l>
+	<l id='801'>Quelle autre ordonnera cette pompe sacrée ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='802'>Vous n'êtes point ici dans le palais d'Atrée. </l>
+	<l id='803' part="i">Vous êtes dans un camp...</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='803' part="f">Où tout vous est soumis,</l>
+	<l id='804'>Où le sort de l'Asie en vos mains est remis, </l>
+	<l id='805'>Où je vois sous vos lois marcher la Grèce entière, </l>
+	<l id='806'>Où le fils de Thétis va m'appeler sa mère. </l>
+	<l id='807'>Dans quel palais superbe et plein de ma grandeur,</l>
+	<l id='808'>Puis-je jamais paraître avec plus de splendeur ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='809'>Madame, au nom des dieux auteurs de notre race,</l>
+	<l id='810'>Daignez à mon amour accorder cette grâce. </l>
+	<l id='811' part="i">J'ai mes raisons.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='811' part="f">Seigneur, au nom des mêmes dieux,</l>
+	<l id='812'>D'un spectacle si doux ne privez point mes yeux. </l>
+	<l id='813'>Daignez ne point ici rougir de ma présence.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='814'>J'avais plus espéré de votre complaisance. </l>
+	<l id='815'>Mais puisque la raison ne vous peut émouvoir, </l>
+	<l id='816'>Puisque enfin ma prière a si peu de pouvoir, </l>
+	<l id='817'>Vous avez entendu ce que je vous demande,</l>
+	<l id='818'>Madame. Je le veux, et je vous le commande. </l>
+	<l id='819' part="i">Obéissez.</l>
+</sp>
+</div2><div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE, seule.</speaker>
+	<l id='819' part="f">D'où vient que d'un soin si cruel</l>
+	<l id='820'>L'injuste Agamemnon m'écarte de l'autel ? </l>
+	<l id='821'>Fier de son nouveau rang m'ose-t-il méconnaître ? </l>
+	<l id='822'>Me croit-il à sa suite indigne de paraître ? </l>
+	<l id='823'>Ou de l'empire encor timide possesseur,</l>
+	<l id='824'>N'oserait-il d'Hélène ici montrer la soeur ? </l>
+	<l id='825'>Et pourquoi me cacher ? Et par quelle injustice </l>
+	<l id='826'>Faut-il que sur mon front sa honte rejaillisse ? </l>
+	<l id='827'>Mais n'importe, il le veut, et mon coeur s'y résout. </l>
+	<l id='828'>Ma fille, ton bonheur me console de tout :</l>
+	<l id='829'>Le ciel te donne Achille, et ma joie est extrême </l>
+	<l id='830'>De t'entendre nommer... Mais le voici lui-même. </l></sp>
+</div2><div2 type='scene' n='3'><head>SCÈNE III. Achille, Clytemnestre.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='831'>Tout succède, Madame, à mon empressement. </l>
+	<l id='832'>Le roi n'a point voulu d'autre éclaircissement.</l>
+	<l id='833'>Il en croit mes transports; et sans presque m'entendre, </l>
+	<l id='834'>Il vient en m'embrassant de m'accepter pour gendre. </l>
+	<l id='835'>Il ne m'a dit qu'un mot. Mais vous a-t-il conté </l>
+	<l id='836'>Quel bonheur dans le camp vous avez apporté ? </l>
+	<l id='837'>Les dieux vont s'apaiser. Du moins Calchas publie </l>
+	<l id='838'>Qu'avec eux dans une heure il nous réconcilie, </l>
+	<l id='839'>Que Neptune et les vents, prêts à nous exaucer, </l>
+	<l id='840'>N'attendent que le sang que sa main va verser. </l>
+	<l id='841'>Déjà dans les vaisseaux la voile se déploie. </l>
+	<l id='842'>Déjà sur sa parole ils se tournent vers Troie. </l>
+	<l id='843'>Pour moi, quoique le ciel au gré de mon amour,</l>
+	<l id='844'>Dût encore des vents retarder le retour, </l>
+	<l id='845'>Que je quitte à regret la rive fortunée </l>
+	<l id='846'>Où je vais allumer les flambeaux d'hyménée !</l>
+	<l id='847'>Puis-je ne point chérir l'heureuse occasion </l>
+	<l id='848'>D'aller du sang troyen sceller notre union,</l>
+	<l id='849'>Et de laisser bientôt sous Troie ensevelie</l>
+	<l id='850'>Le déshonneur d'un nom, à qui le mien s'allie ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Achille, Clytemnestre, Iphigénie, Eriphile, Doris, AEgine.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='851'>Princesse, mon bonheur ne dépend que de vous. </l>
+	<l id='852'>Votre père à l'autel vous destine un époux.</l>
+	<l id='853'>Venez-y recevoir un coeur qui vous adore.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='854'>Seigneur, il n'est pas temps que nous partions encore.</l>
+	<l id='855'>La reine permettra que j'ose demander</l>
+	<l id='856'>Un gage à votre amour, qu'il me doit accorder.</l>
+	<l id='857'>Je viens vous présenter une jeune princesse.</l>
+	<l id='858'>Le ciel a sur son front imprimé sa noblesse.</l>
+	<l id='859'>De larmes tous les jours ses yeux sont arrosés.</l>
+	<l id='860'>Vous savez ses malheurs, vous les avez causés. </l>
+	<l id='861'>Moi-même ( où m'emportait une aveugle colère ! )</l>
+	<l id='862'>J'ai tantôt sans respect affligé sa misère.</l>
+	<l id='863'>Que ne puis-je aussi bien par d'utiles secours</l>
+	<l id='864'>Réparer promptement mes injustes discours !</l>
+	<l id='865'>Je lui prête ma voix, je ne puis davantage. </l>
+	<l id='866'>Vous seul pouvez, Seigneur, détruire votre ouvrage.</l>
+	<l id='867'>Elle est votre captive, et ses fers que je plains,</l>
+	<l id='868'>Quand vous l'ordonnerez tomberont de ses mains.</l>
+	<l id='869'>Commencez donc par là cette heureuse journée.</l>
+	<l id='870'>Qu'elle puisse à nous voir n'être plus condamnée. </l>
+	<l id='871'>Montrez que je vais suivre au pied de nos autels</l>
+	<l id='872'>Un roi, qui non content d'effrayer les mortels,</l>
+	<l id='873'>À des embrasements ne borne point sa gloire,</l>
+	<l id='874'>Laisse aux pleurs d'une épouse attendrir sa victoire,</l>
+	<l id='875'>Et par les malheureux quelquefois désarmé, </l>
+	<l id='876'>Sait imiter en tout les dieux qui l'ont formé.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='877'>Oui, Seigneur, des douleurs soulagez la plus vive. </l>
+	<l id='878'>La guerre dans Lesbos me fit votre captive. </l>
+	<l id='879'>Mais c'est pousser trop loin ses droits injurieux,</l>
+	<l id='880'>Qu'y joindre le tourment que je souffre en ces lieux. </l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='881' part="i">Vous, Madame ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='881' part="f">Oui, Seigneur, et sans compter le reste,</l>
+	<l id='882'>Pouvez-vous m'imposer une loi plus funeste,</l>
+	<l id='883'>Que de rendre mes yeux les tristes spectateurs </l>
+	<l id='884'>De la félicité de mes persécuteurs ? </l>
+	<l id='885'>J'entends de toutes parts menacer ma patrie. </l>
+	<l id='886'>Je vois marcher contre elle une armée en furie.</l>
+	<l id='887'>Je vois déjà l'hymen, pour mieux me déchirer, </l>
+	<l id='888'>Mettre en vos mains le feu qui la doit dévorer. </l>
+	<l id='889'>Souffrez que loin du camp, et loin de votre vue,</l>
+	<l id='890'>Toujours infortunée, et toujours inconnue, </l>
+	<l id='891'>J'aille cacher un sort si digne de pitié, </l>
+	<l id='892'>Et dont mes pleurs encor vous taisent la moitié.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='893'>C'est trop, belle princesse. Il ne faut que nous suivre. </l>
+	<l id='894'>Venez, qu'aux yeux des Grecs Achille vous délivre ;</l>
+	<l id='895'>Et que le doux moment de ma félicité </l>
+	<l id='896'>Soit le moment heureux de votre liberté.</l></sp>
+</div2><div2 type='scene' n='5'><head>SCÈNE V. Clytemnestre, Achille, Iphigénie, Eriphile, Arcas, AEgine, Doris.</head>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='897'>Madame, tout est prêt pour la cérémonie,</l>
+	<l id='898'>Le roi près de l'autel attend Iphigénie.</l>
+	<l id='899'>Je viens la demander. Ou plutôt contre lui,</l>
+	<l id='900'>Seigneur, je viens pour elle implorer votre appui. </l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='901' part="i">Arcas, que dites-vous ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='901' part="f">Dieux ! Que vient-il m'apprendre ?</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS, à Achille.</speaker>
+	<l id='902'>Je ne vois plus que vous qui la puisse défendre.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='903' part="i">Contre qui ?</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='903' part="f">Je le nomme et l'accuse à regret.</l>
+	<l id='904'>Autant que je l'ai pu, j'ai gardé son secret.</l>
+	<l id='905'>Mais le fer, le bandeau, la flamme est toute prête : </l>
+	<l id='906'>Dût tout cet appareil retomber sur ma tête,</l>
+	<l id='907' part="i">Il faut parler.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='907' part="f">Je tremble. Expliquez-vous, Arcas.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='908'>Qui que ce soit, parlez, et ne le craignez pas. </l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='909'>Vous êtes son amant, et vous êtes sa mère,</l>
+	<l id='910'>Gardez-vous d'envoyer la princesse à son père. </l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='911' part="i">Pourquoi le craindrons-nous ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='911' part="f">Pourquoi m'en défier ?</l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='912'>Il l'attend à l'autel pour la sacrifier.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='913' part="i">Lui !</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='913' part="m">Sa fille !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='913' part="m">Mon père !</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='913' part="f">Ô ciel ! quelle nouvelle !</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='914'>Quelle aveugle fureur pourrait l'armer contre elle ?</l>
+	<l id='915'>Ce discours sans horreur se peut-il écouter ? </l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='916'>Ah, Seigneur ! plût au ciel que je pusse en douter.</l>
+	<l id='917'>Par la voix de Calchas l'oracle la demande.</l>
+	<l id='918'>De toute autre victime il refuse l'offrande ;</l>
+	<l id='919'>Et les dieux, jusque-là protecteurs de Pâris,</l>
+	<l id='920'>Ne nous promettent Troie et les vents qu'à ce prix. </l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='921'>Les dieux ordonneraient un meurtre abominable ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='922'>Ciel ! pour tant de rigueur de quoi suis-je coupable ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='923'>Je ne m'étonne plus de cet ordre cruel</l>
+	<l id='924'>Qui m'avait interdit l'approche de l'autel.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE, à Achille.</speaker>
+	<l id='925'>Et voilà donc l'hymen où j'étais destinée ! </l>
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='926'>Le roi pour vous tromper feignait cet hyménée. </l>
+	<l id='927'>Tout le camp même encore est trompé comme vous.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='928'>Seigneur, c'est donc à moi d'embrasser vos genoux.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE, la relevant.</speaker>
+	<l id='929' part="i">Ah, Madame !</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='929' part="f">Oubliez une gloire importune.</l>
+	<l id='930'>Ce triste abaissement convient à ma fortune. </l>
+	<l id='931'>Heureuse si mes pleurs vous peuvent attendrir,</l>
+	<l id='932'>Une mère à vos pieds peut tomber sans rougir. </l>
+	<l id='933'>C'est votre épouse, hélas ! qui vous est enlevée.</l>
+	<l id='934'>Dans cet heureux espoir je l'avais élevée. </l>
+	<l id='935'>C'est vous que nous cherchions sur ce funeste bord. </l>
+	<l id='936'>Et votre nom, Seigneur, l'a conduite à la mort.</l>
+<note type="V">Variante éd. 1675 : v.936, "la conduit à la mort" au lieu de "l'a conduite à la mort".</note>		
+	<l id='937'>Ira-t-elle des dieux implorant la justice</l>
+	<l id='938'>Embrasser leurs autels parés pour son supplice ? </l>
+	<l id='939'>Elle n'a que vous seul. Vous êtes en ces lieux </l>
+	<l id='940'>Son père, son époux, son asile, ses dieux. </l>
+	<l id='941'>Je lis dans vos regards la douleur qui vous presse. </l>
+	<l id='942'>Auprès de votre époux, ma fille, je vous laisse. </l>
+	<l id='943'>Seigneur, daignez m'attendre, et ne la point quitter. </l>
+	<l id='944'>À mon perfide époux je cours me présenter.</l>
+	<l id='945'>Il ne soutiendra point la fureur qui m'anime. </l>
+	<l id='946'>Il faudra que Calchas cherche une autre victime. </l>
+	<l id='947'>Ou si je ne vous puis dérober à leurs coups, </l>
+	<l id='948'>Ma fille, ils pourront bien m'immoler avant vous.</l></sp>
+</div2><div2 type='scene' n='6'><head>SCÈNE VI. Achille, Iphigénie.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='949'>Madame, je me tais, et demeure immobile. </l>
+	<l id='950'>Est-ce à moi que l'on parle, et connaît-on Achille ? </l>
+	<l id='951'>Une mère pour vous croit devoir me prier ;</l>
+	<l id='952'>Une reine à mes pieds se vient humilier.</l>
+	<l id='953'>Et me déshonorant par d'injustes alarmes, </l>
+	<l id='954'>Pour attendrir mon coeur on a recours aux larmes.</l>
+	<l id='955'>Qui doit prendre à vos jours plus d'intérêt que moi ? </l>
+	<l id='956'>Ah ! sans doute on s'en peut reposer sur ma foi. </l>
+	<l id='957'>L'outrage me regarde. Et quoi qu'on entreprenne, </l>
+	<l id='958'>Je réponds d'une vie, où j'attache la mienne. </l>
+	<l id='959'>Mais ma juste douleur va plus loin m'engager, </l>
+	<l id='960'>C'est peu de vous défendre, et je cours vous venger, </l>
+	<l id='961'>Et punir à la fois le cruel stratagème </l>
+	<l id='962'>Qui s'ose de mon nom armer contre vous-même.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='963'>Ah ! demeurez, Seigneur, et daignez m'écouter.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='964'>Quoi, Madame ! un barbare osera m'insulter ?</l>
+	<l id='965'>Il voit que de sa soeur je cours venger l'outrage. </l>
+	<l id='966'>Il sait que le premier lui donnant mon suffrage,</l>
+	<l id='967'>Je le fis nommer chef de vingt rois ses rivaux ;</l>
+	<l id='968'>Et pour fruit de mes soins, pour fruit de mes travaux,</l>
+	<l id='969'>Pour tout le prix enfin d'une illustre victoire,</l>
+	<l id='970'>Qui le doit enrichir, venger, combler de gloire, </l>
+	<l id='971'>Content et glorieux du nom de votre époux,</l>
+	<l id='972'>Je ne lui demandais que l'honneur d'être à vous. </l>
+	<l id='973'>Cependant aujourd'hui sanguinaire, parjure, </l>
+	<l id='974'>C'est peu de violer l'amitié, la nature ; </l>
+	<l id='975'>C'est peu que de vouloir sous un couteau mortel</l>
+	<l id='976'>Me montrer votre coeur fumant sur un autel.</l>
+	<l id='977'>D'un appareil d'hymen couvrant ce sacrifice, </l>
+	<l id='978'>Il veut que ce soit moi qui vous mène au supplice ? </l>
+	<l id='979'>Que ma crédule main conduise le couteau ?</l>
+	<l id='980'>Qu'au lieu de votre époux je sois votre bourreau ? </l>
+	<l id='981'>Et quel était pour vous ce sanglant hyménée,</l>
+	<l id='982'>Si je fusse arrivé plus tard d'une journée ? </l>
+	<l id='983'>Quoi donc ! à leur fureur livrée en ce moment </l>
+	<l id='984'>Vous iriez à l'autel me chercher vainement, </l>
+	<l id='985'>Et d'un fer imprévu vous tomberiez frappée, </l>
+	<l id='986'>En accusant mon nom qui vous aurait trompée ? </l>
+	<l id='987'>Il faut de ce péril, de cette trahison,</l>
+	<l id='988'>Aux yeux de tous les Grecs lui demander raison. </l>
+	<l id='989'>À l'honneur d'un époux vous-même intéressée,</l>
+	<l id='990'>Madame, vous devez approuver ma pensée. </l>
+	<l id='991'>Il faut que le cruel qui m'a pu mépriser </l>
+	<l id='992'>Apprenne de quel nom il osait abuser.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='993'>Hélas ! si vous m'aimez, si pour grâce dernière </l>
+	<l id='994'>Vous daignez d'une amante écouter la prière, </l>
+	<l id='995'>C'est maintenant, Seigneur, qu'il faut me le prouver. </l>
+	<l id='996'>Car enfin ce cruel, que vous allez braver, </l>
+	<l id='997'>Cet ennemi barbare, injuste, sanguinaire, </l>
+	<l id='998'>Songez, quoi qu'il ait fait, songez qu'il est mon père.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='999'>Lui, votre père ? Après son horrible dessein</l>
+	<l id='1000'>Je ne le connais plus que pour votre assassin. </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1001'>C'est mon père, Seigneur, je vous le dis encore,</l>
+	<l id='1002'>Mais un père que j'aime, un père que j'adore,</l>
+	<l id='1003'>Qui me chérit lui-même, et dont jusqu'à ce jour</l>
+	<l id='1004'>Je n'ai jamais reçu que des marques d'amour.</l>
+	<l id='1005'>Mon coeur dans ce respect élevé dès l'enfance, </l>
+	<l id='1006'>Ne peut que s'affliger de tout ce qui l'offense ;</l>
+	<l id='1007'>Et loin d'oser ici par un prompt changement</l>
+	<l id='1008'>Approuver la fureur de votre emportement,</l>
+	<l id='1009'>Loin que par mes discours je l'attise moi-même,</l>
+	<l id='1010'>Croyez qu'il faut aimer autant que je vous aime, </l>
+	<l id='1011'>Pour avoir pu souffrir tous les noms odieux,</l>
+	<l id='1012'>Dont votre amour le vient d'outrager à mes yeux.</l>
+	<l id='1013'>Et pourquoi voulez-vous qu'inhumain, et barbare,</l>
+	<l id='1014'>Il ne gémisse pas du coup qu'on me prépare ?</l>
+	<l id='1015'>Quel père de son sang se plaît à se priver ? </l>
+	<l id='1016'>Pourquoi me perdrait-il, s'il pouvait me sauver ?</l>
+	<l id='1017'>J'ai vu, n'en doutez point, ses larmes se répandre.</l>
+	<l id='1018'>Faut-il le condamner avant que de l'entendre ?</l>
+	<l id='1019'>Hélas ! de tant d'horreurs son coeur déjà troublé</l>
+	<l id='1020'>Doit-il de votre haine être encore accablé ? </l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1021'>Quoi, Madame ! parmi tant de sujets de crainte,</l>
+	<l id='1022'>Ce sont là les frayeurs dont vous êtes atteinte ?</l>
+	<l id='1023'>Un cruel ( comment puis-je autrement l'appeler ? )</l>
+	<l id='1024'>Par la main de Calchas s'en va vous immoler ;</l>
+	<l id='1025'>Et lorsque à sa fureur j'oppose ma tendresse, </l>
+	<l id='1026'>Le soin de son repos est le seul qui vous presse ?</l>
+	<l id='1027'>On me ferme la bouche ? On l'excuse ? On le plaint ?</l>
+	<l id='1028'>C'est pour lui que l'on tremble, et c'est moi que l'on craint ?</l>
+	<l id='1029'>Triste effet de mes soins ! Est-ce donc là, Madame, </l>
+	<l id='1030'>Tout le progrès qu'Achille avait fait dans votre âme ? </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1031'>Ah, cruel ! cet amour dont vous voulez douter,</l>
+	<l id='1032'>Ai-je attendu si tard pour le faire éclater ? </l>
+	<l id='1033'>Vous voyez de quel oeil, et comme indifférente,</l>
+	<l id='1034'>J'ai reçu de ma mort la nouvelle sanglante.</l>
+	<l id='1035'>Je n'en ai point pâli. Que n'avez-vous pu voir </l>
+<note type="V">Variante éd. antérieures à 1697 : suivant le v.1035, "Quel trouble ! Quel torrent de mots injurieux//Accusait à la fois les hommes et les dieux !// Ah ! Que vous auriez-vu, sans que je vous le die,// De combien votre amour m'est plus cher que la vie".</note>	
+	<l id='1036'>À quel excès tantôt allait mon désespoir,</l>
+	<l id='1037'>Quand presque en arrivant un récit peu fidèle </l>
+	<l id='1038'>M'a de votre inconstance annoncé la nouvelle !</l>
+	<l id='1039'>Qui sait même, qui sait si le ciel irrité </l>
+	<l id='1040'>A pu souffrir l'excès de ma félicité ? </l>
+	<l id='1041'>Hélas ! il me semblait qu'une flamme si belle </l>
+	<l id='1042'>M'élevait au-dessus du sort d'une mortelle.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1043'>Ah ! si je vous suis cher, ma Princesse, vivez.</l></sp>
+</div2><div2 type='scene' n='7'><head>SCÈNE VII. Clytemnestre, Iphigénie, Achille, AEgine.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1044'>Tout est perdu, Seigneur, si vous ne nous sauvez. </l>
+	<l id='1045'>Agamemnon m'évite, et craignant mon visage, </l>
+	<l id='1046'>Il me fait de l'autel refuser le passage, </l>
+	<l id='1047'>Des gardes, que lui-même a pris soin de placer, </l>
+	<l id='1048'>Nous ont de toutes parts défendu de passer. </l>
+	<l id='1049'>Il me fuit. Ma douleur étonne son audace.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1050'>Hé bien ! c'est donc à moi de prendre votre place. </l>
+	<l id='1051'>Il me verra, Madame, et je vais lui parler.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1052'>Ah ! Madame... Ah, Seigneur ! Où voulez-vous aller ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1053'>Et que prétend de moi votre injuste prière ? </l>
+	<l id='1054'>Vous faudra-t-il toujours combattre la première ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1055' part="i">Quel est votre dessein, ma fille ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1055' part="f">Au nom des dieux, </l>
+	<l id='1056'>Madame, retenez un amant furieux. </l>
+	<l id='1057'>De ce triste entretien détournons les approches. </l>
+	<l id='1058'>Seigneur, trop d'amertume aigrirait vos reproches. </l>
+	<l id='1059'>Je sais jusqu'où s'emporte un amant irrité,</l>
+	<l id='1060'>Et mon père est jaloux de son autorité. </l>
+	<l id='1061'>On ne connaît que trop la fierté des Atrides.</l>
+	<l id='1062'>Laissez parler, Seigneur, des bouches plus timides. </l>
+	<l id='1063'>Surpris, n'en doutez point, de mon retardement, </l>
+	<l id='1064'>Lui-même il me viendra chercher dans un moment.</l>
+	<l id='1065'>Il entendra gémir une mère oppressée. </l>
+	<l id='1066'>Et que ne pourra point m'inspirer la pensée </l>
+	<l id='1067'>De prévenir les pleurs que vous verseriez tous,</l>
+	<l id='1068'>D'arrêter vos transports, et de vivre pour vous ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1069'>Enfin vous le voulez. Il faut donc vous complaire. </l>
+	<l id='1070'>Donnez-lui l'un et l'autre un conseil salutaire. </l>
+	<l id='1071'>Rappelez sa raison, persuadez-le bien, </l>
+	<l id='1072'>Pour vous, pour mon repos, et surtout pour le sien. </l>
+	<l id='1073'>Je perds trop de moments en des discours frivoles.</l>
+	<l id='1074'>Il faut des actions, et non pas des paroles. </l>
+<stage><hi rend="italic">(À Clystemnestre.)</hi></stage>
+	<l id='1075'>Madame, à vous servir je vais tout disposer. </l>
+	<l id='1076'>Dans votre appartement allez vous reposer. </l>
+	<l id='1077'>Votre fille vivra, je puis vous le prédire. </l>
+	<l id='1078'>Croyez du moins, croyez que tant que je respire,</l>
+	<l id='1079'>Les dieux auront en vain ordonné son trépas ; </l>
+	<l id='1080'>Cet oracle est plus sûr que celui de Calchas. </l></sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Eriphile, Doris.</head>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='1081'>Ah ! que me dites-vous ? Quelle étrange manie</l>
+	<l id='1082'>Vous peut faire envier le sort d'Iphigénie ?</l>
+	<l id='1083'>Dans une heure elle expire ; et jamais, dites-vous,</l>
+	<l id='1084'>Vos yeux de son bonheur ne furent plus jaloux.</l>
+	<l id='1085'>Qui le croira, Madame ? Et quel coeur si farouche... </l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1086'>Jamais rien de plus vrai n'est sorti de ma bouche.</l>
+	<l id='1087'>Jamais de tant de soins mon esprit agité</l>
+	<l id='1088'>Ne porta plus d'envie à sa félicité.</l>
+	<l id='1089'>Favorables périls ! espérance inutile !</l>
+	<l id='1090'>N'as-tu pas vu sa gloire, et le trouble d'Achille ? </l>
+	<l id='1091'>J'en ai vu, j'en ai fui les signes trop certains.</l>
+	<l id='1092'>Ce héros si terrible au reste des humains,</l>
+	<l id='1093'>Qui ne connaît de pleurs que ceux qu'il fait répandre,</l>
+	<l id='1094'>Qui s'endurcit contre eux dès l'âge le plus tendre,</l>
+	<l id='1095'>Et qui, si l'on nous fait un fidèle discours, </l>
+	<l id='1096'>Suça même le sang des lions et des ours,</l>
+	<l id='1097'>Pour elle de la crainte a fait l'apprentissage : </l>
+	<l id='1098'>Elle l'a vu pleurer et changer de visage. </l>
+	<l id='1099'>Et tu la plains, Doris ? Par combien de malheurs </l>
+	<l id='1100'>Ne lui voudrais-je point disputer de tels pleurs ? </l>
+	<l id='1101'>Quand je devrais comme elle expirer dans une heure...</l>
+	<l id='1102'>Mais que dis-je, expirer ? Ne crois pas qu'elle meure. </l>
+	<l id='1103'>Dans un lâche sommeil crois-tu qu'enseveli </l>
+	<l id='1104'>Achille aura pour elle impunément pâli ? </l>
+	<l id='1105'>Achille à son malheur saura bien mettre obstacle. </l>
+	<l id='1106'>Tu verras que les dieux n'ont dicté cet oracle </l>
+	<l id='1107'>Que pour croître à la fois sa gloire et mon tourment,</l>
+	<l id='1108'>Et la rendre plus belle aux yeux de son amant. </l>
+	<l id='1109'>Hé quoi ! ne vois-tu pas tout ce qu'on fait pour elle ? </l>
+	<l id='1110'>On supprime des dieux la sentence mortelle ; </l>
+	<l id='1111'>Et quoique le bûcher soit déjà préparé,</l>
+	<l id='1112'>Le nom de la victime est encore ignoré.</l>
+	<l id='1113'>Tout le camp n'en sait rien. Doris, à ce silence</l>
+	<l id='1114'>Ne reconnais-tu pas un père qui balance ? </l>
+	<l id='1115'>Et que fera-t-il donc ? Quel courage endurci</l>
+	<l id='1116'>Soutiendrait les assauts qu'on lui prépare ici ? </l>
+	<l id='1117'>Une mère en fureur, les larmes d'une fille, </l>
+	<l id='1118'>Les cris, le désespoir de toute une famille,</l>
+	<l id='1119'>Le sang à ces objets facile à s'ébranler, </l>
+	<l id='1120'>Achille menaçant tout prêt à l'accabler. </l>
+	<l id='1121'>Non, te dis-je, les dieux l'ont en vain condamnée.</l>
+	<l id='1122'>Je suis, et je serai la seule infortunée. </l>
+	<l id='1123' part="i">Ah ! si je m'en croyais !</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='1123' part="f">Quoi ! que méditez-vous ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1124'>Je ne sais qui m'arrête et retient mon courroux, </l>
+	<l id='1125'>Que par un prompt avis de tout ce qui se passe </l>
+	<l id='1126'>Je ne coure des dieux divulguer la menace,</l>
+	<l id='1127'>Et publier partout les complots criminels,</l>
+	<l id='1128'>Qu'on fait ici contre eux et contre leurs autels.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='1129' part="i">Ah ! quel dessein, Madame !</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1129' part="f">Ah ! Doris, quelle joie ! </l>
+	<l id='1130'>Que d'encens brûlerait dans les temples de Troie ! </l>
+	<l id='1131'>Si troublant tous les Grecs, et vengeant ma prison,</l>
+	<l id='1132'>Je pouvais contre Achille armer Agamemnon ;</l>
+	<l id='1133'>Si leur haine, de Troie oubliant la querelle,</l>
+	<l id='1134'>Tournait contre eux le fer qu'ils aiguisent contre elle,</l>
+	<l id='1135'>Et si de tout le camp mes avis dangereux, </l>
+	<l id='1136'>Faisaient à ma patrie un sacrifice heureux.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='1137'>J'entends du bruit, on vient, Clystemnestre s'avance.</l>
+	<l id='1138'>Remettez-vous, Madame, ou fuyez sa présence.</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1139'>Rentrons. Et pour troubler un hymen odieux,</l>
+	<l id='1140'>Consultons des fureurs qu'autorisent les dieux. </l></sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Clytemnestre, AEgine.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1141'>Ægine, tu le vois, il faut que je la fuie. </l>
+	<l id='1142'>Loin que ma fille pleure, et tremble pour sa vie, </l>
+	<l id='1143'>Elle excuse son père, et veut que ma douleur </l>
+	<l id='1144'>Respecte encor la main qui lui perce le coeur. </l>
+	<l id='1145'>Ô constance ! ô respect ! Pour prix de sa tendresse</l>
+	<l id='1146'>Le barbare à l'autel se plaint de sa paresse.</l>
+	<l id='1147'>Je l'attends. Il viendra m'en demander raison, </l>
+	<l id='1148'>Et croit pouvoir encor cacher sa trahison. </l>
+	<l id='1149'>Il vient. Sans éclater contre son injustice,</l>
+	<l id='1150'>Voyons s'il soutiendra son indigne artifice. </l></sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Agamemnon, Clytemnestre, AEgine.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1151'>Que faites-vous, Madame ? Et d'où vient que ces lieux </l>
+	<l id='1152'>N'offrent point avec vous votre fille à mes yeux ? </l>
+	<l id='1153'>Mes ordres par Arcas vous l'avaient demandée. </l>
+	<l id='1154'>Qu'attend-elle ? Est-ce vous qui l'avez retardée ? </l>
+	<l id='1155'>À mes justes désirs ne vous rendez-vous pas ? </l>
+	<l id='1156'>Ne peut-elle à l'autel marcher que sur vos pas ? </l>
+	<l id='1157' part="i">Parlez.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1157' part="f">S'il faut partir, ma fille est toute prête.</l>
+	<l id='1158'>Mais vous, n'avez-vous rien, Seigneur, qui vous arrête ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1159' part="i">Moi, Madame ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1159' part="f">Vos soins ont-ils tout préparé ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1160'>Calchas est prêt, Madame, et l'autel est paré. </l>
+	<l id='1161'>J'ai fait ce que m'ordonne un devoir légitime.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1162'>Vous ne me parlez point, Seigneur, de la victime.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1163'>Que me voulez-vous dire ? Et de quel soin jaloux...</l></sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Iphigénie, Agamemnon, Clytemnestre, AEgine.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1164'>Venez, venez, ma fille, on n'attend plus que vous,</l>
+	<l id='1165'>Venez remercier un père qui vous aime, </l>
+	<l id='1166'>Et qui veut à l'autel vous conduire lui-même.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1167'>Que vois-je ? Quel discours ? Ma fille, vous pleurez,</l>
+	<l id='1168'>Et baissez devant moi vos yeux mal assurés.</l>
+	<l id='1169'>Quel trouble ! mais tout pleure, et la fille, et la mère. </l>
+	<l id='1170' part="i">Ah ! malheureux Arcas, tu m'as trahi. </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1170' part="f">Mon père, </l>
+	<l id='1171'>Cessez de vous troubler, vous n'êtes point trahi. </l>
+	<l id='1172'>Quand vous commanderez, vous serez obéi. </l>
+	<l id='1173'>Ma vie est votre bien. Vous voulez le reprendre,</l>
+	<l id='1174'>Vos ordres sans détour pouvaient se faire entendre. </l>
+	<l id='1175'>D'un oeil aussi content, d'un coeur aussi soumis </l>
+	<l id='1176'>Que j'acceptais l'époux que vous m'aviez promis, </l>
+	<l id='1177'>Je saurai, s'il le faut, victime obéissante,</l>
+	<l id='1178'>Tendre au fer de Calchas une tête innocente, </l>
+	<l id='1179'>Et respectant le coup par vous-même ordonné, </l>
+	<l id='1180'>Vous rendre tout le sang que vous m'avez donné. </l>
+	<l id='1181'>Si pourtant ce respect, si cette obéissance </l>
+	<l id='1182'>Paraît digne à vos yeux d'une autre récompense,</l>
+	<l id='1183'>Si d'une mère en pleurs vous plaignez les ennuis,</l>
+	<l id='1184'>J'ose vous dire ici qu'en l'état où je suis,</l>
+	<l id='1185'>Peut-être assez d'honneurs environnaient ma vie, </l>
+	<l id='1186'>Pour ne pas souhaiter qu'elle me fût ravie,</l>
+	<l id='1187'>Ni qu'en me l'arrachant un sévère destin </l>
+	<l id='1188'>Si près de ma naissance en eût marqué la fin. </l>
+	<l id='1189'>Fille d'Agamemnon, c'est moi qui la première,</l>
+	<l id='1190'>Seigneur, vous appelai de ce doux nom de père. </l>
+	<l id='1191'>C'est moi qui si longtemps le plaisir de vos yeux,</l>
+	<l id='1192'>Vous ai fait de ce nom remercier les dieux, </l>
+	<l id='1193'>Et pour qui tant de fois prodiguant vos caresses,</l>
+	<l id='1194'>Vous n'avez point du sang dédaigné les faiblesses.</l>
+	<l id='1195'>Hélas ! avec plaisir je me faisais conter </l>
+	<l id='1196'>Tous les noms des pays que vous allez dompter ;</l>
+	<l id='1197'>Et déjà d'Ilion présageant la conquête, </l>
+	<l id='1198'>D'un triomphe si beau je préparais la fête. </l>
+	<l id='1199'>Je ne m'attendais pas que pour le commencer,</l>
+	<l id='1200'>Mon sang fût le premier que vous dussiez verser. </l>
+	<l id='1201'>Non que la peur du coup, dont je suis menacée,</l>
+	<l id='1202'>Me fasse rappeler votre bonté passée. </l>
+	<l id='1203'>Ne craignez rien. Mon coeur de votre honneur jaloux, </l>
+	<l id='1204'>Ne fera point rougir un père tel que vous.</l>
+	<l id='1205'>Et si je n'avais eu que ma vie à défendre, </l>
+	<l id='1206'>J'aurais su renfermer un souvenir si tendre. </l>
+	<l id='1207'>Mais à mon triste sort, vous le savez, Seigneur,</l>
+	<l id='1208'>Une mère, un amant attachaient leur bonheur.</l>
+	<l id='1209'>Un roi digne de vous a cru voir la journée </l>
+	<l id='1210'>Qui devait éclairer notre illustre hyménée. </l>
+	<l id='1211'>Déjà sûr de mon coeur à sa flamme promis,</l>
+	<l id='1212'>Il s'estimait heureux, vous me l'aviez permis. </l>
+	<l id='1213'>Il sait votre dessein, jugez de ses alarmes. </l>
+	<l id='1214'>Ma mère est devant vous, et vous voyez ses larmes. </l>
+	<l id='1215'>Pardonnez aux efforts que je viens de tenter, </l>
+	<l id='1216'>Pour prévenir les pleurs que je leur vais coûter.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1217'>Ma fille, il est trop vrai. J'ignore pour quel crime </l>
+	<l id='1218'>La colère des dieux demande une victime.</l>
+	<l id='1219'>Mais ils vous ont nommée. Un oracle cruel </l>
+	<l id='1220'>Veut qu'ici votre sang coule sur un autel. </l>
+	<l id='1221'>Pour défendre vos jours de leurs lois meurtrières,</l>
+	<l id='1222'>Mon amour n'avait pas attendu vos prières. </l>
+	<l id='1223'>Je ne vous dirai point combien j'ai résisté.</l>
+	<l id='1224'>Croyez-en cet amour, par vous-même attesté. </l>
+	<l id='1225'>Cette nuit même encore ( on a pu vous le dire ) </l>
+	<l id='1226'>J'avais révoqué l'ordre où l'on me fit souscrire. </l>
+	<l id='1227'>Sur l'intérêt des Grecs vous l'aviez emporté. </l>
+	<l id='1228'>Je vous sacrifiais mon rang, ma sûreté.</l>
+	<l id='1229'>Arcas allait du camp vous défendre l'entrée.</l>
+	<l id='1230'>Les dieux n'ont pas voulu qu'il vous ait rencontrée. </l>
+	<l id='1231'>Ils ont trompé les soins d'un père infortuné </l>
+	<l id='1232'>Qui protégeait en vain ce qu'ils ont condamné. </l>
+	<l id='1233'>Ne vous assurez point sur ma faible puissance. </l>
+	<l id='1234'>Quel frein pourrait d'un peuple arrêter la licence, </l>
+	<l id='1235'>Quand les dieux nous livrant à son zèle indiscret, </l>
+	<l id='1236'>L'affranchissent d'un joug qu'il portait à regret ? </l>
+	<l id='1237'>Ma fille, il faut céder. Votre heure est arrivée.</l>
+	<l id='1238'>Songez bien dans quel rang vous êtes élevée.</l>
+	<l id='1239'>Je vous donne un conseil, qu'à peine je reçois,</l>
+	<l id='1240'>Du coup qui vous attend vous mourrez moins que moi. </l>
+	<l id='1241'>Montrez en expirant de qui vous êtes née.</l>
+	<l id='1242'>Faites rougir ces dieux qui vous ont condamnée. </l>
+	<l id='1243'>Allez ; et que les Grecs, qui vont vous immoler, </l>
+	<l id='1244'>Reconnaissent mon sang en le voyant couler.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1245'>Vous ne démentez point une race funeste. </l>
+	<l id='1246'>Oui, vous êtes le sang d'Atrée et de Thyeste.</l>
+	<l id='1247'>Bourreau de votre fille, il ne vous reste enfin</l>
+	<l id='1248'>Que d'en faire à sa mère un horrible festin.</l>
+	<l id='1249'>Barbare ! c'est donc là cet heureux sacrifice</l>
+	<l id='1250'>Que vos soins préparaient avec tant d'artifice. </l>
+	<l id='1251'>Quoi ! l'horreur de souscrire à cet ordre inhumain</l>
+	<l id='1252'>N'a pas en le traçant arrêté votre main ?</l>
+	<l id='1253'>Pourquoi feindre à nos yeux une fausse tristesse ?</l>
+	<l id='1254'>Pensez-vous par des pleurs prouver votre tendresse ?</l>
+	<l id='1255'>Où sont-ils ces combats que vous avez rendus ? </l>
+	<l id='1256'>Quels flots de sang pour elle avez-vous répandus ?</l>
+	<l id='1257'>Quel débris parle ici de votre résistance ?</l>
+	<l id='1258'>Quel champ couvert de morts me condamne au silence ?</l>
+	<l id='1259'>Voilà par quels témoins il fallait me prouver,</l>
+	<l id='1260'>Cruel, que votre amour a voulu la sauver. </l>
+	<l id='1261'>Un oracle fatal ordonne qu'elle expire.</l>
+	<l id='1262'>Un oracle dit-il tout ce qu'il semble dire ?</l>
+	<l id='1263'>Le ciel, le juste ciel par le meurtre honoré</l>
+	<l id='1264'>Du sang de l'innocence est-il donc altéré ?</l>
+	<l id='1265'>Si du crime d'Hélène on punit sa famille, </l>
+	<l id='1266'>Faites chercher à Sparte Hermione sa fille.</l>
+	<l id='1267'>Laissez à Ménélas racheter d'un tel prix </l>
+	<l id='1268'>Sa coupable moitié, dont il est trop épris. </l>
+	<l id='1269'>Mais vous, quelles fureurs vous rendent sa victime ? </l>
+	<l id='1270'>Pourquoi vous imposer la peine de son crime ? </l>
+	<l id='1271'>Pourquoi moi-même enfin me déchirant le flanc,</l>
+	<l id='1272'>Payer sa folle amour du plus pur de mon sang ? </l>
+	<l id='1273'>Que dis-je ? Cet objet de tant de jalousie,</l>
+	<l id='1274'>Cette Hélène, qui trouble et l'Europe, et l'Asie, </l>
+	<l id='1275'>Vous semble-t-elle un prix digne de vos exploits ? </l>
+	<l id='1276'>Combien nos fronts pour elle ont-ils rougi de fois ?</l>
+	<l id='1277'>Avant qu'un noeud fatal l'unît à votre frère,</l>
+	<l id='1278'>Thésée avait osé l'enlever à son père. </l>
+	<l id='1279'>Vous savez, et Calchas mille fois vous l'a dit, </l>
+	<l id='1280'>Qu'un hymen clandestin mit ce prince en son lit, </l>
+	<l id='1281'>Et qu'il en eut pour gage une jeune princesse,</l>
+	<l id='1282'>Que sa mère a cachée au reste de la Grèce.</l>
+	<l id='1283'>Mais non, l'amour d'un frère, et son honneur blessé</l>
+	<l id='1284'>Sont les moindres des soins, dont vous êtes pressé.</l>
+	<l id='1285'>Cette soif de régner, que rien ne peut éteindre, </l>
+	<l id='1286'>L'orgueil de voir vingt rois vous servir et vous craindre,</l>
+	<l id='1287'>Tous les droits de l'empire en vos mains confiés,</l>
+	<l id='1288'>Cruel, c'est à ces dieux que vous sacrifiez ; </l>
+	<l id='1289'>Et loin de repousser le coup qu'on vous prépare,</l>
+	<l id='1290'>Vous voulez vous en faire un mérite barbare. </l>
+	<l id='1291'>Trop jaloux d'un pouvoir qu'on peut vous envier</l>
+	<l id='1292'>De votre propre sang vous courez le payer,</l>
+	<l id='1293'>Et voulez par ce prix épouvanter l'audace </l>
+	<l id='1294'>De quiconque vous peut disputer votre place. </l>
+	<l id='1295'>Est-ce donc être père ? Ah ! toute ma raison </l>
+	<l id='1296'>Cède à la cruauté de cette trahison. </l>
+	<l id='1297'>Un prêtre environné d'une foule cruelle,</l>
+	<l id='1298'>Portera sur ma fille une main criminelle ? </l>
+	<l id='1299'>Déchirera son sein ? Et d'un oeil curieux </l>
+	<l id='1300'>Dans son coeur palpitant consultera les dieux ? </l>
+	<l id='1301'>Et moi, qui l'amenai triomphante, adorée, </l>
+	<l id='1302'>Je m'en retournerai, seule, et désespérée ? </l>
+	<l id='1303'>Je verrai les chemins encor tout parfumés</l>
+	<l id='1304'>Des fleurs, dont sous ses pas on les avait semés ? </l>
+	<l id='1305'>Non, je ne l'aurai point amenée au supplice, </l>
+	<l id='1306'>Ou vous ferez aux Grecs un double sacrifice. </l>
+	<l id='1307'>Ni crainte, ni respect ne m'en peut détacher.</l>
+	<l id='1308'>De mes bras tout sanglants il faudra l'arracher. </l>
+	<l id='1309'>Aussi barbare époux qu'impitoyable père, </l>
+	<l id='1310'>Venez, si vous l'osez, la ravir à sa mère. </l>
+	<l id='1311'>Et vous, rentrez, ma fille, et du moins à mes lois </l>
+	<l id='1312'>Obéissez encor pour la dernière fois.</l></sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON, seul.</speaker>
+	<l id='1313'>À de moindres fureurs je n'ai pas dû m'attendre,</l>
+	<l id='1314'>Voilà, voilà les cris que je craignais d'entendre.</l>
+	<l id='1315'>Heureux, si dans le trouble, où flottent mes esprits, </l>
+	<l id='1316'>Je n'avais toutefois à craindre que ses cris !</l>
+	<l id='1317'>Hélas ! en m'imposant une loi si sévère,</l>
+	<l id='1318'>Grands dieux ! me deviez-vous laisser un coeur de père ?</l></sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Achille, Agamemnon.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1319'>Un bruit assez étrange est venu jusqu'à moi,</l>
+	<l id='1320'>Seigneur, je l'ai jugé trop peu digne de foi. </l>
+	<l id='1321'>On dit, et sans horreur je ne puis le redire,</l>
+	<l id='1322'>Qu'aujourd'hui par votre ordre Iphigénie expire.</l>
+	<l id='1323'>Que vous-même étouffant tout sentiment humain,</l>
+	<l id='1324'>Vous l'allez à Calchas livrer de votre main.</l>
+	<l id='1325'>On dit que sous mon nom à l'autel appelée, </l>
+	<l id='1326'>Je ne l'y conduisais que pour être immolée,</l>
+	<l id='1327'>Et que d'un faux hymen nous abusant tous deux,</l>
+	<l id='1328'>Vous voulez me charger d'un emploi si honteux.</l>
+	<l id='1329'>Qu'en dites-vous Seigneur ? Que faut-il que j'en pense ?</l>
+	<l id='1330'>Ne ferez-vous pas taire un bruit qui vous offense ? </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1331'>Seigneur, je ne rends point compte de mes desseins :</l>
+	<l id='1332'>Ma fille ignore encor mes ordres souverains ;</l>
+	<l id='1333'>Et quand il sera temps qu'elle en soit informée,</l>
+	<l id='1334'>Vous apprendrez son sort, j'en instruirai l'armée.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1335'>Ah ! je sais trop le sort que vous lui réservez. </l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1336'>Pourquoi le demander, puisque vous le savez ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1337'>Pourquoi je le demande ? Ô ciel ! le puis-je croire ?</l>
+	<l id='1338'>Qu'on ose des fureurs avouer la plus noire ?</l>
+	<l id='1339'>Vous pensez qu'approuvant vos desseins odieux,</l>
+<note type="V">Variante éd. 1675 à 1687 : v.1339, "Vous croyez" au lieu de "Vous pensez".</note>	
+	<l id='1340'>Je vous laisse immoler votre fille à mes yeux ? </l>
+	<l id='1341'>Que ma foi, mon amour, mon honneur y consente ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1342'>Mais vous, qui me parlez d'une voix menaçante,</l>
+	<l id='1343'>Oubliez-vous ici qui vous interrogez ?</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1344'>Oubliez-vous qui j'aime, et qui vous outragez ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1345'>Et qui vous a chargé du soin de ma famille ? </l>
+	<l id='1346'>Ne pourrai-je sans vous disposer de ma fille ?</l>
+	<l id='1347'>Ne suis-je plus son père ? Êtes-vous son époux ?</l>
+	<l id='1348' part="i">Et ne peut-elle...</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1348' part="f">Non, elle n'est plus à vous.</l>
+	<l id='1349'>On ne m'abuse point par des promesses vaines. </l>
+	<l id='1350'>Tant qu'un reste de sang coulera dans mes veines, </l>
+	<l id='1351'>Vous deviez à mon sort unir tous ses moments :</l>
+	<l id='1352'>Je défendrai mes droits fondés sur vos serments.</l>
+	<l id='1353'>Et n'est-ce pas pour moi que vous l'avez mandée ?</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1354'>Plaignez-vous donc aux dieux qui me l'ont demandée,</l>
+	<l id='1355'>Accusez et Calchas, et le camp tout entier, </l>
+	<l id='1356'>Ulysse, Ménélas, et vous tout le premier.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1357' part="i">Moi !</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1357' part="f">Vous, qui de l'Asie embrassant la conquête,</l>
+	<l id='1358'>Querellez tous les jours le ciel qui vous arrête,</l>
+	<l id='1359'>Vous, qui vous offensant de mes justes terreurs, </l>
+	<l id='1360'>Avez dans tout le camp répandu vos fureurs. </l>
+	<l id='1361'>Mon coeur pour la sauver vous ouvrait une voie.</l>
+	<l id='1362'>Mais vous ne demandez, vous ne cherchez que Troie.</l>
+	<l id='1363'>Je vous fermais le champ, où vous voulez courir.</l>
+	<l id='1364'>Vous le voulez, partez, sa mort va vous l'ouvrir. </l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1365'>Juste ciel ! puis-je entendre, et souffrir ce langage ? </l>
+	<l id='1366'>Est-ce ainsi qu'au parjure on ajoute l'outrage ?</l>
+	<l id='1367'>Moi, je voulais partir aux dépens de ses jours ?</l>
+	<l id='1368'>Et que m'a fait à moi cette Troie où je cours ?</l>
+	<l id='1369'>Au pied de ses remparts quel intérêt m'appelle ? </l>
+	<l id='1370'>Pour qui, sourd à la voix d'une mère immortelle, </l>
+	<l id='1371'>Et d'un père éperdu négligeant les avis,</l>
+	<l id='1372'>Vais-je y chercher la mort, tant prédite à leur fils ?</l>
+	<l id='1373'>Jamais vaisseaux partis des rives du Scamandre</l>
+	<l id='1374'>Aux champs thessaliens osèrent-ils descendre ? </l>
+	<l id='1375'>Et jamais dans Larisse un lâche ravisseur</l>
+	<l id='1376'>Me vint-il enlever ou ma femme, ou ma soeur ?</l>
+	<l id='1377'>Qu'ai-je à me plaindre ? Où sont les pertes que j'ai faites ?</l>
+	<l id='1378'>Je n'y vais que pour vous, barbare que vous êtes,</l>
+	<l id='1379'>Pour vous, à qui des Grecs moi seul je ne dois rien, </l>
+	<l id='1380'>Vous, que j'ai fait nommer et leur chef, et le mien, </l>
+	<l id='1381'>Vous que mon bras vengeait dans Lesbos enflammée,</l>
+	<l id='1382'>Avant que vous eussiez assemblé votre armée.</l>
+	<l id='1383'>Et quel fut le dessein qui nous assembla tous ?</l>
+	<l id='1384'>Ne courons-nous pas rendre Hélène à son époux ? </l>
+	<l id='1385'>Depuis quand pense-t-on qu'inutile à moi-même</l>
+	<l id='1386'>Je me laisse ravir une épouse que j'aime ?</l>
+	<l id='1387'>Seul d'un honteux affront votre frère blessé</l>
+	<l id='1388'>A-t-il droit de venger son amour offensé ?</l>
+	<l id='1389'>Votre fille me plut, je prétendis lui plaire. </l>
+	<l id='1390'>Elle est de mes serments seule dépositaire. </l>
+	<l id='1391'>Content de son hymen, vaisseaux, armes, soldats,</l>
+	<l id='1392'>Ma foi lui promis tout, et rien à Ménélas.</l>
+	<l id='1393'>Qu'il poursuive, s'il veut, son épouse enlevée.</l>
+	<l id='1394'>Qu'il cherche une victoire à mon sang réservée. </l>
+	<l id='1395'>Je ne connais Priam, Hélène, ni Pâris. </l>
+	<l id='1396'>Je voulais votre fille, et ne pars qu'à ce prix.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1397'>Fuyez donc. Retournez dans votre Thessalie.</l>
+	<l id='1398'>Moi-même je vous rends le serment qui vous lie.</l>
+	<l id='1399'>Assez d'autres viendront, à mes ordres soumis, </l>
+	<l id='1400'>Se couvrir des lauriers qui vous furent promis, </l>
+	<l id='1401'>Et par d'heureux exploits forçant la destinée,</l>
+	<l id='1402'>Trouveront d'Ilion la fatale journée.</l>
+	<l id='1403'>J'entrevois vos mépris, et juge à vos discours</l>
+	<l id='1404'>Combien j'achèterais vos superbes secours.</l>
+	<l id='1405'>De la Grèce déjà vous vous rendez l'arbitre, </l>
+	<l id='1406'>Ses rois, à vous ouïr, m'ont paré d'un vain titre.</l>
+	<l id='1407'>Fier de votre valeur, tout, si je vous en crois,</l>
+	<l id='1408'>Doit marcher, doit fléchir, doit trembler sous vos lois.</l>
+	<l id='1409'>Un bienfait reproché tint toujours lieu d'offense.</l>
+	<l id='1410'>Je veux moins de valeur, et plus d'obéissance. </l>
+	<l id='1411'>Fuyez. Je ne crains point votre impuissant courroux.</l>
+	<l id='1412'>Et je romps tous les noeuds, qui m'attachent à vous.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1413'>Rendez grâce au seul noeud qui retient ma colère.</l>
+	<l id='1414'>D'Iphigénie encor je respecte le père.</l>
+	<l id='1415'>Peut-être sans ce nom, le chef de tant de rois</l>
+	<l id='1416'>M'aurait osé braver pour la dernière fois.</l>
+	<l id='1417'>Je ne dis plus qu'un mot, c'est à vous de m'entendre :</l>
+	<l id='1418'>J'ai votre fille ensemble, et ma gloire à défendre.</l>
+	<l id='1419'>Pour aller jusqu'au coeur, que vous voulez percer,</l>
+	<l id='1420'>Voilà par quel chemin vos coups doivent passer. </l></sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON, seul.</speaker>
+	<l id='1421'>Et voilà ce qui rend sa perte inévitable.</l>
+	<l id='1422'>Ma fille toute seule était plus redoutable.</l>
+	<l id='1423'>Ton insolent amour, qui croit m'épouvanter,</l>
+	<l id='1424'>Vient de hâter le coup que tu veux arrêter.</l>
+	<l id='1425'>Ne délibérons plus. Bravons sa violence. </l>
+	<l id='1426'>Ma gloire intéressée emporte la balance.</l>
+	<l id='1427'>Achille menaçant détermine mon coeur.</l>
+	<l id='1428'>Ma pitié semblerait un effet de ma peur.</l>
+	<l id='1429' part="i">Holà, gardes, à moi !</l></sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Agamemnon, Eurybate, Gardes.</head>
+<sp who="EURYBATE"><speaker>EURYBATE.</speaker>
+	<l id='1429' part="m">Seigneur.</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1429' part="f">Que vais-je faire ?</l>
+	<l id='1430'>Puis-je leur prononcer cet ordre sanguinaire ? </l>
+	<l id='1431'>Cruel ! à quel combat faut-il te préparer ?</l>
+	<l id='1432'>Quel est cet ennemi que tu leur vas livrer ?</l>
+	<l id='1433'>Une mère m'attend, une mère intrépide,</l>
+	<l id='1434'>Qui défendra son sang contre un père homicide.</l>
+	<l id='1435'>Je verrai mes soldats, moins barbares que moi, </l>
+	<l id='1436'>Respecter dans ses bras la fille de leur roi.</l>
+	<l id='1437'>Achille nous menace, Achille nous méprise.</l>
+	<l id='1438'>Mais ma fille en est-elle à mes lois moins soumise ? </l>
+	<l id='1439'>Ma fille, de l'autel cherchant à s'échapper,</l>
+	<l id='1440'>Gémit-elle du coup dont je la veux frapper ? </l>
+	<l id='1441'>Que dis-je ? Que prétend mon sacrilège zèle ?</l>
+	<l id='1442'>Quels voeux en l'immolant formerai-je sur elle ?</l>
+	<l id='1443'>Quelques prix glorieux qui me soient proposés,</l>
+	<l id='1444'>Quels lauriers me plairont de son sang arrosés ?</l>
+	<l id='1445'>Je veux fléchir des dieux la puissance suprême. </l>
+	<l id='1446'>Ah ! quels dieux me seraient plus cruels que moi-même ?</l>
+	<l id='1447'>Non, je ne puis. Cédons au sang, à l'amitié,</l>
+	<l id='1448'>Et ne rougissons plus d'une juste pitié.</l>
+	<l id='1449'>Qu'elle vive. Mais quoi ! peu jaloux de ma gloire</l>
+	<l id='1450'>Dois-je au superbe Achille accorder la victoire ? </l>
+	<l id='1451'>Son téméraire orgueil que je vais redoubler,</l>
+	<l id='1452'>Croira que je lui cède, et qu'il m'a fait trembler.</l>
+	<l id='1453'>De quel frivole soin mon esprit s'embarrasse !</l>
+	<l id='1454'>Ne puis-je pas d'Achille humilier l'audace ?</l>
+	<l id='1455'>Que ma fille à ses yeux soit un sujet d'ennui. </l>
+	<l id='1456'>Il l'aime. Elle vivra pour un autre que lui.</l>
+	<l id='1457'>Eurybate, appelez la princesse, la reine.</l>
+	<l id='1458' part="i">Qu'elles ne craignent point.</l></sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Agamemnon, Gardes.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1458' part="f">Grands dieux, si votre haine</l>
+	<l id='1459'>Persévère à vouloir l'arracher de mes mains,</l>
+	<l id='1460'>Que peuvent devant vous tous les faibles humains ? </l>
+	<l id='1461'>Loin de la secourir, mon amitié l'opprime,</l>
+	<l id='1462'>Je le sais. Mais, grands dieux, une telle victime</l>
+	<l id='1463'>Vaut bien que confirmant vos rigoureuses lois,</l>
+	<l id='1464'>Vous me la demandiez une seconde fois.</l></sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Agamemnon, Clytemnestre, Iphigénie, Eriphile, Eurybate, Doris, Gardes.</head>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1465'>Allez, Madame, allez, prenez soin de sa vie. </l>
+	<l id='1466'>Je vous rends votre fille, et je vous la confie.</l>
+	<l id='1467'>Loin de ces lieux cruels précipitez ses pas.</l>
+	<l id='1468'>Mes gardes vous suivront commandés par Arcas.</l>
+	<l id='1469'>Je veux bien excuser son heureuse imprudence.</l>
+	<l id='1470'>Tout dépend du secret et de la diligence. </l>
+	<l id='1471'>Ulysse ni Calchas n'ont point encor parlé.</l>
+	<l id='1472'>Gardez que ce départ ne leur soit révélé.</l>
+	<l id='1473'>Cachez bien votre fille, et que tout le camp croie</l>
+	<l id='1474'>Que je la retiens seule, et que je vous renvoie.</l>
+	<l id='1475'>Fuyez. Puissent les dieux, de mes larmes contents, </l>
+	<l id='1476'>À mes tristes regards ne l'offrir de longtemps !</l>
+	<l id='1477' part="i">Gardes, suivez la reine.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1477' part="m">Ah, Seigneur !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1477' part="f">Ah ! Mon père !</l>
+</sp>
+<sp who="AGAMEMNON"><speaker>AGAMEMNON.</speaker>
+	<l id='1478'>Prévenez de Calchas l'empressement sévère.</l>
+	<l id='1479'>Fuyez, vous dis-je. Et moi, pour vous favoriser,</l>
+	<l id='1480'>Par de feintes raisons je m'en vais l'abuser ; </l>
+	<l id='1481'>Je vais faire suspendre une pompe funeste,</l>
+	<l id='1482'>Et de ce jour au moins lui demander le reste.</l></sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Eriphile, Doris.</head>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1483'>Suis-moi. Ce n'est pas là, Doris, notre chemin.</l>
+</sp>
+<sp who="DORIS"><speaker>DORIS.</speaker>
+	<l id='1484' part="i">Vous ne les suivez pas ?</l>
+</sp>
+<sp who="ERIPHILE"><speaker>ERIPHILE.</speaker>
+	<l id='1484' part="f">Ah ! je succombe enfin.</l>
+	<l id='1485'>Je reconnais l'effet des tendresses d'Achille. </l>
+	<l id='1486'>Je n'emporterai point une rage inutile.</l>
+	<l id='1487'>Plus de raisons. Il faut, ou la perdre, ou périr.</l>
+	<l id='1488'>Viens, te dis-je. À Calchas je vais tout découvrir.</l></sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Iphignéie, AEgine.</head>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1489'>Cesse de m'arrêter. Va, retourne à ma mère,</l>
+	<l id='1490'>Ægine, il faut des dieux apaiser la colère. </l>
+	<l id='1491'>Pour ce sang malheureux qu'on veut leur dérober,</l>
+	<l id='1492'>Regarde quel orage est tout prêt à tomber.</l>
+	<l id='1493'>Considère l'état où la reine est réduite.</l>
+	<l id='1494'>Vois comme tout le camp s'oppose à notre fuite,</l>
+	<l id='1495'>Avec quelle insolence ils ont de toutes parts</l>
+	<l id='1496'>Fait briller à nos yeux la pointe de leurs dards.</l>
+	<l id='1497'>Nos gardes repoussés, la reine évanouie...</l>
+	<l id='1498'>Ah ! c'est trop l'exposer, souffre que je la fuie.</l>
+	<l id='1499'>Et sans attendre ici ses secours impuissants,</l>
+	<l id='1500'>Laisse-moi profiter du trouble de ses sens. </l>
+	<l id='1501'>Mon père même, hélas ! puisqu'il faut te le dire,</l>
+	<l id='1502'>Mon père en me sauvant, ordonne que j'expire.</l>
+</sp>
+<sp who="AEGINE"><speaker>AEGINE.</speaker>
+	<l id='1503'>Lui, Madame ? Quoi donc ? Qu'est ce qui s'est passé ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1504'>Achille trop ardent l'a peut-être offensé.</l>
+	<l id='1505'>Mais le roi, qui le hait, veut que je le haïsse. </l>
+	<l id='1506'>Il ordonne à mon coeur cet affreux sacrifice.</l>
+	<l id='1507'>Il m'a fait par Arcas expliquer ses souhaits,</l>
+	<l id='1508'>Ægine, il me défend de lui parler jamais.</l>
+</sp>
+<sp who="AEGINE"><speaker>AEGINE.</speaker>
+	<l id='1509' part="i">Ah, Madame !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1509' part="f">Ah, sentence ! ah, rigueur inouïe !</l>
+	<l id='1510'>Dieux plus doux ! vous n'avez demandé que ma vie. </l>
+	<l id='1511'>Mourons, obéissons. Mais qu'est ce que je voi ?</l>
+	<l id='1512' part="i">Dieux ! Achille ?</l></sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Achille, Iphigénie.</head>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1512' part="f">Venez, Madame, suivez-moi.</l>
+	<l id='1513'>Ne craignez ni les cris ni la foule impuissante</l>
+	<l id='1514'>D'un peuple qui se presse autour de cette tente.</l>
+	<l id='1515'>Paraissez. Et bientôt, sans attendre mes coups, </l>
+	<l id='1516'>Ces flots tumultueux s'ouvriront devant vous.</l>
+	<l id='1517'>Patrocle, et quelques chefs qui marchent à ma suite,</l>
+	<l id='1518'>De mes Thessaliens vous amènent l'élite.</l>
+	<l id='1519'>Tout le reste, assemblé près de mon étendard,</l>
+	<l id='1520'>Vous offre de ses rangs l'invincible rempart. </l>
+	<l id='1521'>À vos persécuteurs opposons cet asile.</l>
+	<l id='1522'>Qu'ils viennent vous chercher sous les tentes d'Achille.</l>
+	<l id='1523'>Quoi, Madame ! est-ce ainsi que vous me secondez ?</l>
+	<l id='1524'>Ce n'est que par des pleurs que vous me répondez.</l>
+	<l id='1525'>Vous fiez-vous encore à de si faibles armes ? </l>
+	<l id='1526'>Hâtons-nous. Votre père a déjà vu vos larmes.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1527'>Je le sais bien, Seigneur. Aussi tout mon espoir</l>
+	<l id='1528'>N'est plus qu'au coup mortel que je vais recevoir.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1529'>Vous, mourir ? Ah ! cessez de tenir ce langage.</l>
+	<l id='1530'>Songez-vous quel serment vous et moi nous engage ? </l>
+	<l id='1531'>Songez-vous ( pour trancher d'inutiles discours )</l>
+	<l id='1532'>Que le bonheur d'Achille est fondé sur vos jours ?</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1533'>Le ciel n'a point aux jours de cette infortunée,</l>
+	<l id='1534'>Attaché le bonheur de votre destinée.</l>
+	<l id='1535'>Notre amour nous trompait. Et les arrêts du sort</l>
+	<l id='1536'>Veulent que ce bonheur soit un fruit de ma mort.</l>
+	<l id='1537'>Songez, Seigneur, songez à ces moissons de gloire</l>
+	<l id='1538'>Qu'à vos vaillantes mains présente la victoire.</l>
+	<l id='1539'>Ce champ si glorieux, où vous aspirez tous,</l>
+	<l id='1540'>Si mon sang ne l'arrose, est stérile pour vous. </l>
+	<l id='1541'>Telle est la loi des dieux à mon père dictée.</l>
+	<l id='1542'>En vain sourd à Calchas il l'avait rejetée.</l>
+	<l id='1543'>Par la bouche des Grecs contre moi conjurés,</l>
+	<l id='1544'>Leurs ordres éternels se sont trop déclarés.</l>
+	<l id='1545'>Partez. À vos honneurs j'apporte trop d'obstacles. </l>
+	<l id='1546'>Vous-même, dégagez la foi de vos oracles.</l>
+	<l id='1547'>Signalez ce héros à la Grèce promis,</l>
+	<l id='1548'>Tournez votre douleur contre ses ennemis.</l>
+	<l id='1549'>Déjà Priam pâlit. Déjà Troie en alarmes</l>
+	<l id='1550'>Redoute mon bûcher, et frémit de vos larmes. </l>
+	<l id='1551'>Allez, et dans ses murs vides de citoyens,</l>
+	<l id='1552'>Faites pleurer ma mort aux veuves des Troyens.</l>
+	<l id='1553'>Je meurs dans cet espoir satisfaite, et tranquille.</l>
+	<l id='1554'>Si je n'ai pas vécu la compagne d'Achille,</l>
+	<l id='1555'>J'espère que du moins un heureux avenir, </l>
+	<l id='1556'>À vos faits immortels joindra mon souvenir ;</l>
+	<l id='1557'>Et qu'un jour mon trépas, source de votre gloire,</l>
+	<l id='1558'>Ouvrira le récit d'une si belle histoire.</l>
+	<l id='1559'>Adieu, Prince, vivez, digne race des dieux.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1560'>Non, je ne reçois point vos funestes adieux. </l>
+	<l id='1561'>En vain par ce discours votre cruelle adresse</l>
+	<l id='1562'>Veut servir votre père, et tromper ma tendresse.</l>
+	<l id='1563'>En vain vous prétendez, obstinée à mourir,</l>
+	<l id='1564'>Intéresser ma gloire à vous laisser périr.</l>
+	<l id='1565'>Ces moissons de lauriers, ces honneurs, ces conquêtes, </l>
+	<l id='1566'>Ma main, en vous servant, les trouve toutes prêtes.</l>
+	<l id='1567'>Et qui de ma faveur se voudrait honorer,</l>
+	<l id='1568'>Si mon hymen prochain ne peut vous assurer ?</l>
+	<l id='1569'>Ma gloire, mon amour, vous ordonnent de vivre.</l>
+	<l id='1570'>Venez, Madame, il faut les en croire, et me suivre. </l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1571'>Qui ? moi ? Que contre un père osant me révolter,</l>
+	<l id='1572'>Je mérite la mort, que j'irais éviter ?</l>
+	<l id='1573'>Où serait le respect ? Et ce devoir suprême...</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1574'>Vous suivrez un époux avoué par lui-même.</l>
+	<l id='1575'>C'est un titre qu'en vain il prétend me voler. </l>
+	<l id='1576'>Ne fait-il des serments que pour les violer ?</l>
+	<l id='1577'>Vous-même, que retient un devoir si sévère,</l>
+	<l id='1578'>Quand il vous donne à moi, n'est-il point votre père ?</l>
+	<l id='1579'>Suivez-vous seulement ses ordres absolus,</l>
+	<l id='1580'>Quand il cesse de l'être, et ne vous connaît plus ? </l>
+	<l id='1581'>Enfin c'est trop tarder, ma Princesse, et ma crainte...</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1582'>Quoi, Seigneur ! vous iriez jusques à la contrainte ?</l>
+	<l id='1583'>D'un coupable transport écoutant la chaleur,</l>
+	<l id='1584'>Vous pourriez ajouter ce comble à mon malheur ?</l>
+	<l id='1585'>Ma gloire vous serait moins chère que ma vie. </l>
+	<l id='1586'>Ah, Seigneur ! épargnez la triste Iphigénie.</l>
+	<l id='1587'>Asservie à des lois que j'ai dû respecter,</l>
+	<l id='1588'>C'est déjà trop pour moi, que de vous écouter.</l>
+	<l id='1589'>Ne portez pas plus loin votre injuste victoire.</l>
+	<l id='1590'>Ou par mes propres mains immolée à ma gloire, </l>
+	<l id='1591'>Je saurai m'affranchir dans ces extrémités,</l>
+	<l id='1592'>Du secours dangereux que vous me présentez.</l>
+</sp>
+<sp who="ACHILLE"><speaker>ACHILLE.</speaker>
+	<l id='1593'>Hé bien ! n'en parlons plus. Obéissez, cruelle,</l>
+	<l id='1594'>Et cherchez une mort qui vous semble si belle.</l>
+	<l id='1595'>Portez à votre père un coeur, où j'entrevois</l>
+	<l id='1596'>Moins de respect pour lui, que de haine pour moi.</l>
+	<l id='1597'>Une juste fureur s'empare de mon âme.</l>
+	<l id='1598'>Vous allez à l'autel, et moi j'y cours, Madame,</l>
+	<l id='1599'>Si de sang et de morts le ciel est affamé,</l>
+	<l id='1600'>Jamais de plus de sang ses autels n'ont fumé. </l>
+	<l id='1601'>À mon aveugle amour tout sera légitime,</l>
+	<l id='1602'>Le prêtre deviendra la première victime.</l>
+	<l id='1603'>Le bûcher par mes mains détruit et renversé,</l>
+	<l id='1604'>Dans le sang des bourreaux nagera dispersé.</l>
+	<l id='1605'>Et si dans les horreurs de ce désordre extrême</l>
+	<l id='1606'>Votre père frappé tombe, et périt lui-même,</l>
+	<l id='1607'>Alors de vos respects voyant les tristes fruits,</l>
+	<l id='1608'>Reconnaissez les coups, que vous aurez conduits.</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1609'>Ah, Seigneur ! Ah ! cruel... Mais il fuit, il m'échappe.</l>
+	<l id='1610'>Ô toi, qui veux ma mort, me voilà seule, frappe, </l>
+	<l id='1611'>Termine, juste ciel, ma vie, et mon effroi,</l>
+	<l id='1612'>Et lance ici des traits, qui n'accablent que moi.</l></sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Clytemnestre, AEgine, Eurybate, Gardes.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1613'>Oui, je la défendrai contre toute l'armée,</l>
+	<l id='1614'>Lâches, vous trahissez votre reine opprimée !</l>
+</sp>
+<sp who="EURYBATE"><speaker>EURYBATE.</speaker>
+	<l id='1615'>Non, Madame, il suffit que vous me commandiez.</l>
+<note type="V">Variante éd. 1675 à 1687 : v.1615, "vous nous commandiez" au lieu de "vous me commandiez".</note>	
+	<l id='1616'>Vous nous verrez combattre, et mourir à vos pieds.</l>
+	<l id='1617'>Mais de nos faibles mains, que pouvez-vous attendre ?</l>
+	<l id='1618'>Contre tant d'ennemis, qui vous pourra défendre ?</l>
+<note type="V">Variante éd. 1675 à 1687 : v.1618, "qui pourra vous" au lieu de "qui vous pourra".</note>	
+	<l id='1619'>Ce n'est plus un vain peuple en désordre assemblé.</l>
+	<l id='1620'>C'est d'un zèle fatal tout le camp aveuglé. </l>
+	<l id='1621'>Plus de pitié. Calchas seul règne, seul commande.</l>
+	<l id='1622'>La piété sévère exige son offrande.</l>
+	<l id='1623'>Le roi, de son pouvoir se voit déposséder.</l>
+	<l id='1624'>Et lui-même au torrent nous contraint de céder.</l>
+	<l id='1625'>Achille à qui tout cède, Achille à cet orage</l>
+	<l id='1626'>Voudrait lui-même en vain opposer son courage.</l>
+	<l id='1627'>Que fera-t-il, Madame ? Et qui peut dissiper </l>
+	<l id='1628'>Tous les flots d'ennemis prêts à l'envelopper ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1629'>Qu'ils viennent donc sur moi prouver leur zèle impie,</l>
+	<l id='1630'>Et m'arrachent ce peu qui me reste de vie. </l>
+	<l id='1631'>La mort seule, la mort pourra rompre les noeuds</l>
+	<l id='1632'>Dont mes bras nous vont joindre, et lier toutes deux.</l>
+	<l id='1633'>Mon corps sera plutôt séparé de mon âme,</l>
+	<l id='1634' part="i">Que je souffre jamais... Ah ma fille !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1634' part="f">Ah Madame !</l>
+	<l id='1635'>Sous quel astre cruel avez-vous mis au jour</l>
+	<l id='1636'>Le malheureux objet d'une si tendre amour ?</l>
+	<l id='1637'>Mais que pouvez-vous faire en l'état où nous sommes ?</l>
+	<l id='1638'>Vous avez à combattre et les dieux et les hommes.</l>
+	<l id='1639'>Contre un peuple en fureur vous exposerez-vous ?</l>
+	<l id='1640'>N'allez point, dans un camp rebelle à votre époux, </l>
+	<l id='1641'>Seule à me retenir vainement obstinée,</l>
+	<l id='1642'>Par des soldats peut-être indignement traînée,</l>
+	<l id='1643'>Présenter, pour tout fruit d'un déplorable effort,</l>
+	<l id='1644'>Un spectacle à mes yeux, plus cruel que la mort.</l>
+	<l id='1645'>Allez. Laissez aux Grecs achever leur ouvrage, </l>
+	<l id='1646'>Et quittez pour jamais un malheureux rivage.</l>
+	<l id='1647'>Du bûcher, qui m'attend, trop voisin de ces lieux,</l>
+	<l id='1648'>La flamme de trop près viendrait frapper vos yeux.</l>
+	<l id='1649'>Surtout, si vous m'aimez, par cet amour de mère,</l>
+	<l id='1650'>Ne reprochez jamais mon trépas à mon père. </l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1651'>Lui ! par qui votre coeur à Calchas présenté...</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1652'>Pour me rendre à vos pleurs que n'a-t-il point tenté ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1653'>Par quelle trahison le cruel m'a déçue !</l>
+</sp>
+<sp who="IPHIGENIE"><speaker>IPHIGENIE.</speaker>
+	<l id='1654'>Il me cédait aux dieux, dont il m'avait reçue.</l>
+	<l id='1655'>Ma mort n'emporte pas tout le fruit de vos feux. </l>
+	<l id='1656'>De l'amour qui vous joint vous avez d'autres noeuds.</l>
+	<l id='1657'>Vos yeux me reverront dans Oreste mon frère.</l>
+	<l id='1658'>Puisse-t-il être, hélas ! moins funeste à sa mère !</l>
+	<l id='1659'>D'un peuple impatient vous entendez la voix.</l>
+	<l id='1660'>Daignez m'ouvrir vos bras pour la dernière fois, </l>
+	<l id='1661'>Madame, et rappelant votre vertu sublime...</l>
+	<l id='1662'>Eurybate, à l'autel conduisez la victime.</l></sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Clytemnestre, AEgine, Gardes.</head>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1663'>Ah ! vous n'irez pas seule, et je ne prétends pas...</l>
+	<l id='1664'>Mais on se jette en foule au devant de mes pas.</l>
+	<l id='1665'>Perfides, contentez votre soif sanguinaire. </l>
+</sp>
+<sp who="AEGINE"><speaker>AEGINE.</speaker>
+	<l id='1666'>Où courez-vous, Madame, et que voulez-vous faire ?</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1667'>Hélas ! je me consume en impuissants efforts,</l>
+	<l id='1668'>Et rentre au trouble affreux, dont à peine je sors.</l>
+	<l id='1669'>Mourrai-je tant de fois sans sortir de la vie ?</l>
+</sp>
+<sp who="AEGINE"><speaker>AEGINE.</speaker>
+	<l id='1670'>Ah ! savez-vous le crime, et qui vous a trahie, </l>
+	<l id='1671'>Madame ? Savez-vous quel serpent inhumain</l>
+	<l id='1672'>Iphigénie avait retiré dans son sein ?</l>
+	<l id='1673'>Ériphile en ces lieux par vous-même conduite,</l>
+	<l id='1674'>A seule à tous les Grecs révélé votre fuite.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1675'>Ô monstre, que Mégère en ses flancs a porté ! </l>
+	<l id='1676'>Monstre ! que dans nos bras les Enfers ont jeté.</l>
+	<l id='1677'>Quoi ! tu ne mourras point ? Quoi ! pour punir son crime...</l>
+	<l id='1678'>Mais où va ma douleur chercher une victime ?</l>
+	<l id='1679'>Quoi pour noyer les Grecs, et leurs mille vaisseaux,</l>
+	<l id='1680'>Mer, tu n'ouvriras pas des abîmes nouveaux ? </l>
+	<l id='1681'>Quoi ! lorsque les chassant du port qui les recèle,</l>
+	<l id='1682'>L'Aulide aura vomi leur flotte criminelle,</l>
+	<l id='1683'>Les vents, les mêmes vents si longtemps accusés,</l>
+	<l id='1684'>Ne te couvriront pas de ses vaisseaux brisés ?</l>
+<note type="V">Variante éd. 1675 à 1687 : v.1685, "de ces vaisseaux" au lieu de "de ses vaisseaux".</note>	
+	<l id='1685'>Et toi, Soleil, et toi, qui dans cette contrée</l>
+	<l id='1686'>Reconnais l'héritier, et le vrai fils d'Atrée,</l>
+	<l id='1687'>Toi, qui n'osas du père éclairer le festin,</l>
+	<l id='1688'>Recule, ils t'ont appris ce funeste chemin.</l>
+	<l id='1689'>Mais cependant, ô ciel ! ô mère infortunée !</l>
+	<l id='1690'>De festons odieux ma fille couronnée</l>
+	<l id='1691'>Tend la gorge aux couteaux, par son père apprêtés,</l>
+	<l id='1692'>Calchas va dans son sang... Barbares, arrêtez.</l>
+	<l id='1693'>C'est le pur sang du dieu qui lance le tonnerre.</l>
+	<l id='1694'>J'entends gronder la foudre, et sens trembler la terre.</l>
+	<l id='1695'>Un dieu vengeur, un dieu fait retentir ces coups. </l></sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Clytemnestre, AEgine, Arcas, Gardes.</head>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+	<l id='1696'>N'en doutez point, Madame. Un dieu combat pour vous.</l>
+	<l id='1697'>Achille en ce moment exauce vos prières.</l>
+	<l id='1698'>Il a brisé des Grecs les trop faibles barrières.</l>
+	<l id='1699'>Achille est à l'autel. Calchas est éperdu.</l>
+	<l id='1700'>Le fatal sacrifice est encor suspendu. </l>
+	<l id='1701'>On se menace, on court, l'air gémit, le fer brille.</l>
+	<l id='1702'>Achille fait ranger autour de votre fille</l>
+	<l id='1703'>Tous ses amis, pour lui prêts à se dévouer.</l>
+	<l id='1704'>Le triste Agamemnon, qui n'ose l'avouer,</l>
+	<l id='1705'>Pour détourner ses yeux des meurtres qu'il présage, </l>
+	<l id='1706'>Ou pour cacher ses pleurs, s'est voilé le visage.</l>
+	<l id='1707'>Venez, puisqu'il se tait, venez par vos discours</l>
+	<l id='1708'>De votre défenseur appuyer le secours :</l>
+	<l id='1709'>Lui-même de sa main de sang toute fumante</l>
+	<l id='1710'>Il veut entre vos bras remettre son amante. </l>
+	<l id='1711'>Lui-même il m'a chargé de conduire vos pas.</l>
+	<l id='1712' part="i">Ne craignez rien.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1712' part="f">Moi, craindre ! ah ! courons, cher Arcas.</l>
+	<l id='1713'>Le plus affreux péril n'a rien dont je pâlisse.</l>
+	<l id='1714'>J'irai partout. Mais dieux ! ne vois-je pas Ulysse ?</l>
+	<l id='1715'>C'est lui. Ma fille est morte, Arcas, il n'est plus temps. </l></sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE DERNIÈRE. Ulysse, Arcas, AEgine, Gardes.</head>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='1716'>Non, votre fille vit, et les dieux sont contents.</l>
+<note type="V">Variante éd. 1675 à 1687 : v.1716, "Madame, elle vit," au lieu de "votre fille vit,".</note>	
+	<l id='1717'>Rassurez-vous. Le ciel a voulu vous la rendre.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1718'>Elle vit ! Et c'est vous qui venez me l'apprendre !</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='1719'>Oui, c'est moi, qui longtemps contre elle et contre vous</l>
+	<l id='1720'>Ai cru devoir, Madame, affermir votre époux, </l>
+	<l id='1721'>Moi, qui jaloux tantôt de l'honneur de nos armes</l>
+	<l id='1722'>Par d'austères conseils ai fait couler vos larmes,</l>
+	<l id='1723'>Et qui viens, puisqu'enfin le ciel est apaisé,</l>
+	<l id='1724'>Réparer tout l'ennui que je vous ai causé.</l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1725'>Ma fille ! Ah, Prince ! Ô ciel ! je demeure éperdue. </l>
+	<l id='1726'>Quel miracle, Seigneur, quel dieu me l'a rendue ?</l>
+</sp>
+<sp who="ULYSSE"><speaker>ULYSSE.</speaker>
+	<l id='1727'>Vous m'en voyez moi-même en cet heureux moment,</l>
+	<l id='1728'>Saisi d'horreur, de joie, et de ravissement.</l>
+	<l id='1729'>Jamais jour n'a paru si mortel à la Grèce.</l>
+	<l id='1730'>Déjà de tout le camp la Discorde maîtresse</l>
+	<l id='1731'>Avait sur tous les yeux mis son bandeau fatal,</l>
+	<l id='1732'>Et donné du combat le funeste signal.</l>
+	<l id='1733'>De ce spectacle affreux votre fille alarmée</l>
+	<l id='1734'>Voyait pour elle Achille, et contre elle l'armée.</l>
+	<l id='1735'>Mais quoique seul pour elle, Achille furieux</l>
+	<l id='1736'>Épouvantait l'armée, et partageait les dieux.</l>
+	<l id='1737'>Déjà de traits en l'air s'élevait un nuage.</l>
+	<l id='1738'>Déjà coulait le sang prémices du carnage.</l>
+	<l id='1739'>Entre les deux partis Calchas s'est avancé,</l>
+	<l id='1740'>L'oeil farouche, l'air sombre, et le poil hérissé, </l>
+	<l id='1741'>Terrible, et plein du dieu, qui l'agitait sans doute.</l>
+	<l id='1742'>« Vous, Achille, a-t-il dit, et vous Grecs, qu'on m'écoute.</l>
+	<l id='1743'>Le dieu, qui maintenant vous parle par ma voix,</l>
+	<l id='1744'>M'explique son oracle, et m'instruit de son choix.</l>
+	<l id='1745'>Un autre sang d'Hélène, une autre Iphigénie</l>
+	<l id='1746'>Sur ce bord immolée y doit laisser sa vie.</l>
+	<l id='1747'>Thésée avec Hélène uni secrètement</l>
+	<l id='1748'>Fit succéder l'hymen à son enlèvement.</l>
+	<l id='1749'>Une fille en sortit, que sa mère a celée.</l>
+	<l id='1750'>Du nom d'Iphigénie elle fut appelée. </l>
+	<l id='1751'>Je vis moi-même alors ce fruit de leurs amours.</l>
+	<l id='1752'>D'un sinistre avenir je menaçai ses jours.</l>
+	<l id='1753'>Sous un nom emprunté sa noire destinée,</l>
+	<l id='1754'>Et ses propres fureurs ici l'ont amenée.</l>
+	<l id='1755'>Elle me voit, m'entend, elle est devant vos yeux, </l>
+	<l id='1756'>Et c'est elle en un mot que demandent les dieux.»</l>
+	<l id='1757'>Ainsi parle Calchas. Tout le camp immobile</l>
+	<l id='1758'>L'écoute avec frayeur, et regarde Ériphile.</l>
+	<l id='1759'>Elle était à l'autel, et peut-être en son coeur</l>
+	<l id='1760'>Du fatal sacrifice accusait la lenteur. </l>
+	<l id='1761'>Elle-même tantôt d'une course subite</l>
+	<l id='1762'>Était venue aux Grecs annoncer votre fuite.</l>
+	<l id='1763'>On admire en secret sa naissance, et son sort.</l>
+	<l id='1764'>Mais puisque Troie enfin est le prix de sa mort,</l>
+	<l id='1765'>L'armée à haute voix se déclare contre elle, </l>
+	<l id='1766'>Et prononce à Calchas sa sentence mortelle.</l>
+	<l id='1767'>Déjà pour la saisir Calchas lève le bras.</l>
+	<l id='1768'>« Arrête, a-t-elle dit, et ne m'approche pas.</l>
+	<l id='1769'>Le sang de ces héros, dont tu me fais descendre,</l>
+	<l id='1770'>Sans tes profanes mains saura bien se répandre.» </l>
+	<l id='1771'>Furieuse elle vole, et sur l'autel prochain</l>
+	<l id='1772'>Prend le sacré couteau, le plonge dans son sein.</l>
+	<l id='1773'>À peine son sang coule et fait rougir la terre,</l>
+	<l id='1774'>Les dieux font sur l'autel entendre le tonnerre,</l>
+	<l id='1775'>Les vents agitent l'air d'heureux frémissements, </l>
+	<l id='1776'>Et la mer leur répond par ses mugissements.</l>
+	<l id='1777'>La rive au loin gémit blanchissante d'écume.</l>
+	<l id='1778'>La flamme du bûcher d'elle-même s'allume.</l>
+	<l id='1779'>Le ciel brille d'éclairs, s'entr'ouvre, et parmi nous</l>
+	<l id='1780'>Jette une sainte horreur, qui nous rassure tous. </l>
+	<l id='1781'>Le soldat étonné dit que dans une nue</l>
+	<l id='1782'>Jusque sur le bûcher Diane est descendue,</l>
+	<l id='1783'>Et croit que s'élevant au travers de ses feux,</l>
+	<l id='1784'>Elle portait au ciel notre encens et nos voeux.</l>
+	<l id='1785'>Tout s'empresse, tout part. La seule Iphigénie</l>
+	<l id='1786'>Dans ce commun bonheur pleure son ennemie.</l>
+	<l id='1787'>Des mains d'Agamemnon venez la recevoir.</l>
+	<l id='1788'>Venez, Achille et lui brûlants de vous revoir,</l>
+	<l id='1789'>Madame, et désormais tous deux d'intelligence</l>
+	<l id='1790'>Sont prêts à confirmer leur auguste alliance. </l>
+</sp>
+<sp who="CLYTEMNESTRE"><speaker>CLYTEMNESTRE.</speaker>
+	<l id='1791'>Par quel prix, quel encens, ô ciel, puis-je jamais</l>
+	<l id='1792'>Récompenser Achille, et payer tes bienfaits ! </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

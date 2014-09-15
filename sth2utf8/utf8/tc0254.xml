@@ -1,0 +1,5311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>SAÜL, TRAGÉDIE.</title>
+
+				<author born='1605' born_location='Paris' death='1658' death_location='Paris' academie=''>DU RYER, Pierre</author>
+
+				<date>1642</date>
+
+			</titleStmt>
+
+			<publicationStmp>	
+
+				<authority>publié par Ernest FIEVRE, janvier 2009</authority>
+
+			</publicationStmp>
+
+			<SourceDesc>
+
+				<genre>Tragédie</genre>
+
+				<inspiration>bible</inspiration>
+
+				<structure>Cinq actes</structure>
+
+				<type>vers</type>
+
+				<periode>1641-1650</periode>
+
+				<taille>1750-2000</taille>
+
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k71195f</permalien>
+
+				<refNum/>
+
+			</SourceDesc>
+
+		</fileDesc>
+
+	</teiHeader>
+
+<text>
+
+<front>
+
+	<docTitle>
+
+		<titlePart type="main">SAÜL</titlePart>
+
+		<titlePart type="sub">TRAGÉDIE</titlePart>
+
+	</docTitle>
+
+	<docDate value="1642">M. DC. XXXXII. AVEC PRIVILÈGE DU ROI.</docDate>
+
+		<docAuthor id="DU RYER, Pierre" bio='duryer'>DE MR. DU RYER.</docAuthor>
+
+	<docImprint>
+
+	<privilege id="1642-04-08"><head>Extrait du Privilège du Roi.</head>
+
+		<p>Par Grâce et Privilège du Roi, donné à Paris le 8. jour d'Avril 1642. Signé, par le Roi en son Conseil Le Brun: il est permis à Auguste Courbé, Marchand Libraire à Paris, d'imprimer ou faire imprimer une pièce de Théâtre, intitulée, Saül, du Sieur du Ryer, durant cinq ans. Et défenses sont faites à tous autres d'en vendre d'autre impression que de celle qu'aura fait faire ledit Courbé ou ses ayant cause, à peine de trois mille livres d'amende, et de tous ses dépends, dommages et intérêts, ainsi qu'il est plus au long porté par ledit Privilège. </p>
+
+<p>Et ledit Courbé a associé audit Privilège Antoine de Sommaville, aussi Marchand Libraire à Paris, suivant l'accord fait entre eux.</p>
+
+	</privilege>
+
+	<imprimeur id="SOMMAVILLE">À PARIS, Chez Antoine de Sommaville, Au Palais, en la petite salle, à l'Écu de France. et Augustin Courbé, en la même salle, à la Palme.</imprimeur>
+
+	<acheveImprime value='1642-05-30'>Achevé d'imprimer le dernier Mai 1642.</acheveImprime>
+
+	</docImprint>
+
+<dedicace><head>Dédicace</head>
+
+<p>Je ne dédie cet ouvrage à personne, parce que je le dédie à tout le monde. Je le donne aux Grands et aux Petits, aux Profanes et aux Religieux, parce que les uns et les autres peuvent trouver dans son sujet une instruction sans aigreur, et un divertissement sans scandale. Si ces Illustres Personnes à qui nous avons accoutumé de présenter nos ouvrages, et de qui les noms vénérables sont les premiers charmes, et bien souvent les seules beautés que l'on remarque dans nos livres, sont en quelque façon obligées de nous donner leur protection, quand nous leur faisons des hommages, des productions de notre esprit, il semblera sans doute que je veuille intéresser tout le monde en la défense et en la protection de Saül, puisque chacun peut dire que je lui en fais un présent, et que c'est à lui que je le dédie. Mais il ne m'importe pas de quelle façon l'on en juge ; on ne saurait trouver étrange, que je cherche des approbateurs de mon travail : et quelque modestie qu'on affecte, il est bien difficile de persuader qu'on ne cherche pas de la gloire, quand on va se montrer en public, et que l'on entre dans la barrière. Toutefois, comme on s'égare souvent dans le chemin de la gloire, et qu'en pensant y monter on tombe dans le précipice qui n'en est jamais éloigné, je ne demande point qu'on me donne de la réputation pour avoir fait quelques Vers qui peut-être ne déplaisent pas ; je demande seulement qu'on me sache gré d'avoir au moins essayé de faire voir sur notre Théâtre la majesté des Histoires saintes. Comme j'ai eu cet avantage d'y faire paraître le premier des sujets de cette nature avec quelque sorte d'applaudissement ; si j'en ai mérité quelque chose, je souhaite pour ma récompense que je serve en cela d'exemple, et que mes Maîtres, je veux dire ces grands génies qui rendraient l'ancienne Grèce envieuse de la France, deviennent mes imitateurs dans un dessein si glorieux. Ainsi l'on ramènera la poésie à son ancienne institution, on rejoindra l'utilité au plaisir, et l'instruction au divertissement : ainsi les ennemis de nos Muses en deviendront les amants, et le théâtre suspect à ceux qui ne le connaissent pas, deviendra pour tout le monde la plus agréable école où l'on puisse apprendre la Vertu. </p>
+
+</dedicace>
+
+	
+
+		<performance>
+
+			<premiere date="1640" location='(inconnue)'>Représenté par la première fois en 1640.</premiere>
+
+		</performance>
+
+<castList><head>ACTEURS.</head>
+
+	<castItem><role id="SAUL" civil='M'>SAÜL</role>, roi de Judée.</castItem>
+
+	<castItem><role id="JONATHAS" civil='M'>JONATHAS</role>, fils de Saül.</castItem>
+
+	<castItem><role id="MICHOL" civil='F'>MICHOL</role>, fille de Saül.</castItem>
+
+	<castItem><role id="ABNER" civil='M'>ABNER</role>.</castItem>
+
+	<castItem><role id="PHALTI" civil='M'>PHALTI</role>.</castItem>
+
+	<castItem><role id="LA-PYTHONISSE" civil='F'>LA PYTHONISSE</role>.</castItem>
+
+	<castItem><role id="L-OMBRE" civil='P'>L'OMBRE</role>de Samuel.</castItem>
+
+	<castItem><role id="ACHAS" civil='M'>ACHAS</role>, écuyer de Jonathas.</castItem>
+
+	<castItem><role id="ÉCUYER-SAUL" civil='M'>L'ÉCUYER de Saül</role>.</castItem>
+
+</castList>
+
+<set location='Environ du Mont de Gelboé' country='Israël' periode='M. avant JC' link=''>La Scène est aux environs du Mont de Gelboé, en Judée.</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head>ACTE I</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Saül, Michal, Jonathas, et deux autres enfants de Saül.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1'>Cessez, mes chers enfants, de consoler un Père, </l>
+
+	<l id='2'>Que le Ciel met en butte aux coups de sa colère, </l>
+
+	<l id='3'>Quand son bras irrité frappe si rudement </l>
+
+	<l id='4'>Une soudaine mort est un soulagement. </l>
+
+	<l id='5'>Fuyez donc de mes yeux, fuyez d'un misérable, </l>
+
+	<l id='6'>De peur qu'en l'appuyant son sort ne vous accable, </l>
+
+	<l id='7'>Et que d'un Dieu vengeur l'équitable courroux, </l>
+
+	<l id='8'>En tombant dessus lui, ne tombe dessus vous. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='9'>Quoi, vous dépouillez-vous de ce courage extrême </l>
+
+	<l id='10'>Qui dessus votre front assure un Diadème ? </l>
+
+	<l id='11'>Refusez-vous de vaincre et de vivre pour nous ? </l>
+
+	<l id='12'>Et vous-même aujourd'hui vous abandonnez-vous ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='13'>Ha ! Ne me forcez point d'avouer ma faiblesse, </l>
+
+	<l id='14'>Oui, je perds tout espoir, mon courage me laisse ; </l>
+
+	<l id='15'>Quand le Ciel abandonne un esprit combattu, </l>
+
+	<l id='16'>Il est abandonné de sa propre vertu. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='17'>Quel succès, quel prodige effroyable et funeste </l>
+
+	<l id='18'>Marque dans vos États la colère céleste ? </l>
+
+	<l id='19'>A-t-on vu contre vous un peuple révolté, </l>
+
+	<l id='20'>Porter la guerre au trône où vous êtes monté ? </l>
+
+	<l id='21'>Le voit-on murmurer contre l'obéissance, </l>
+
+	<l id='22'>Dont il doit honorer la suprême puissance, </l>
+
+	<l id='23'>Et qui se conservant sans la crainte des Lois, </l>
+
+	<l id='24'>Est le plus fort appui de la grandeur des Rois ? </l>
+
+	<l id='25'>Hé bien, les Philistins vous déclarent la guerre, </l>
+
+	<l id='26'>Ont-ils du Dieu vivant emprunté le tonnerre ? </l>
+
+	<l id='27'>Ont-ils tant de bonheur, ont-ils tant de vertu, </l>
+
+	<l id='28'>Qu'on ne puisse les voir sans en être abattu ? </l>
+
+	<l id='29'>Combien, combien de fois ce barbare adversaire </l>
+
+	<l id='30'>A-t-il fait en Judée un effort téméraire ? </l>
+
+	<l id='31'>En quel temps, en quel lieu tombant dessous nos coups, </l>
+
+	<l id='32'>N'a-t-il pas ressenti que le Ciel est pour nous ? </l>
+
+	<l id='33'>Ses Provinces en feu, ses forces étouffées </l>
+
+	<l id='34'>N'ont-elles pas cent fois enrichi nos trophées ? </l>
+
+	<l id='35'>Bref, ne dirait-on pas qu'il apporte en ces lieux </l>
+
+	<l id='36'>Moins la guerre et l'effroi qu'un butin glorieux ? </l>
+
+	<l id='37'>Et que ses nations tant de fois nos sujettes, </l>
+
+	<l id='38'>De même qu'un tribut nous doivent leurs défaites ? </l>
+
+	<l id='39'>Est-il donc en état de donner de l'effroi ? </l>
+
+	<l id='40'>A-t-il appris à vaincre en fuyant devant moi ? </l>
+
+	<l id='41'>Non, non, mais repentant d'avoir osé paraître, </l>
+
+	<l id='42'>Il est déjà vaincu par la crainte de l'être ? </l>
+
+	<l id='43'>Il sait de quelle ardeur nous sommes animés, </l>
+
+	<l id='44'>Que nous sommes pour vaincre à vaincre accoutumés, </l>
+
+	<l id='45'>Et que si par la gloire, on arrive à la gloire, </l>
+
+	<l id='46'>Par la victoire aussi, l'on monte à la victoire, </l>
+
+	<l id='47'>À quelque extrémité que soient réduits nos jours, </l>
+
+	<l id='48'>Accoutumer de vaincre est un puissant secours </l>
+
+	<l id='49'>Qui peut donc nous troubler ? De quelles tristes craintes, </l>
+
+	<l id='50'>Pouvons-nous justement ressentir les atteintes ? </l>
+
+	<l id='51'>Ha Sire, pardonnez à mon ressentiment, </l>
+
+	<l id='52'>Nous ne craignons plus rien que votre étonnement. </l>
+
+	<l id='53'>C'est par le trouble seul, que vous ferez paraître, </l>
+
+	<l id='54'>Que de nos ennemis les forces peuvent croître, </l>
+
+	<l id='55'>Et par ce même trouble, à votre État vainqueur </l>
+
+	<l id='56'>Vous pouvez arracher la victoire et le coeur. </l>
+
+	<l id='57'>Laissez voler la crainte où l'ennemi s'assemble, </l>
+
+	<l id='58'>Un Roi n'est point troublé, que son trône ne tremble ; </l>
+
+	<l id='59'>Mais il connaît trop tard, quand il a succombé, </l>
+
+	<l id='60'>Que le Trône qui tremble est à demi tombé, </l>
+
+	<l id='61'>Voyez en vos enfants, voyez en leur courage </l>
+
+	<l id='62'>D'un triomphe immortel l'infaillible présage : </l>
+
+	<l id='63'>Dans le sein de la gloire ils ont toujours vécu, </l>
+
+	<l id='64'>Enfin je suis le moindre, et j'ai toujours vaincu. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='65'>Hélas ! Je trouve en vous toutes choses propices, </l>
+
+	<l id='66'>Mais je ne trouve en moi que de tristes auspices. </l>
+
+	<l id='67'>Le signe du malheur où je suis destiné, </l>
+
+	<l id='68'>C'est moi, c'est mon esprit, c'est Saül étonné, </l>
+
+	<l id='69'>Une secrète voix me suit de place en place, </l>
+
+	<l id='70'>En tous lieux m'épouvante, en tous lieux me menace, </l>
+
+	<l id='71'>Chaque heure, chaque instant ajoute à sa rigueur, </l>
+
+	<l id='72'>Et c'est un foudre enfin qui tonne dans mon coeur. </l>
+
+	<l id='73'>Qu'un ennemi superbe attaque mes provinces, </l>
+
+	<l id='74'>Qu'il joigne à ses efforts, les forces de cent princes, </l>
+
+	<l id='75'>Qu'il arme contre moi tous ces peuples divers, </l>
+
+	<l id='76'>De qui les cruautés font trembler l'Univers, </l>
+
+	<l id='77'>Ce n'est pas leur fureur qui trouble mon attente, </l>
+
+	<l id='78'>C'est le Ciel ennemi, c'est Dieu qui m'épouvante. </l>
+
+	<l id='79'>Hélas ! J'ai consulté ce Juge Souverain </l>
+
+	<l id='80'>Pour savoir le succès d'un trouble si soudain. </l>
+
+	<l id='81'>Mais je n'ai rien appris, ni par la voix des songes, </l>
+
+	<l id='82'>Qui nous venant du Ciel sont exempts de mensonges, </l>
+
+	<l id='83'>Ni par la sainte voix des Prêtres révérés. </l>
+
+	<l id='84'>Et pour moi du futur mille fois éclairés, </l>
+
+	<l id='85'>J'ai depuis en tremblant, consulté les prophètes, </l>
+
+	<l id='86'>Mais ces bouches du Ciel sont encore muettes, </l>
+
+	<l id='87'>Leur silence effroyable étonne mes esprits, </l>
+
+	<l id='88'>D'une secrète horreur je m'en trouve surpris, </l>
+
+	<l id='89'>Et sens bien que ce Dieu, qui daigna me défendre, </l>
+
+	<l id='90'>Abandonne celui qu'il refuse d'entendre. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='91'>Ha Sire espérons mieux ; le Ciel a mille voix </l>
+
+	<l id='92'>Dont il veut se servir quand il répond aux rois, </l>
+
+	<l id='93'>S'il n'a pas répondu par ces communs organes, </l>
+
+	<l id='94'>Que leurs propres défauts peuvent rendre profanes, </l>
+
+	<l id='95'>Il répond à vos voeux, ainsi qu'à vos projets </l>
+
+	<l id='96'>Par la fidélité qu'il laisse à vos sujets. </l>
+
+	<l id='97'>Croit-on que leur ardeur, si forte et si puissante, </l>
+
+	<l id='98'>Se puisse conserver que le Ciel n'y consente ? </l>
+
+	<l id='99'>Et croit-on que le Ciel daignât vous le garder, </l>
+
+	<l id='100'>S'il perdait aujourd'hui le soin de vous aider ? </l>
+
+	<l id='101'>Cette sainte union, ce lien des Provinces </l>
+
+	<l id='102'>Est l'ouvrage d'un Dieu qui protège les princes, </l>
+
+	<l id='103'>C'est un signe d'amour qu'il fait luire sur eux, </l>
+
+	<l id='104'>C'est la voix qui prédit les succès bienheureux. </l>
+
+	<l id='105'>Et malgré les brouillards, et malgré les tempêtes </l>
+
+	<l id='106'>Qui tonnent si souvent sur les plus nobles têtes, </l>
+
+	<l id='107'>C'est un divin rayon qui montre aux potentats </l>
+
+	<l id='108'>Que le Ciel les chérit, et soutient leurs États. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='109'>Oui, je sais maintenant ce que le Ciel m'annonce, </l>
+
+	<l id='110'>Si le zèle d'un peuple en est une réponse. </l>
+
+	<l id='111'>Mon peuple est amoureux, de mon autorité </l>
+
+	<l id='112'>J'aperçois de grands biens dans sa fidélité. </l>
+
+	<l id='113' part='i'>Mais. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Saül, Abner, Michol, Jonathas.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='113' part='f'>Mais que veut Abner, il semble qu'il s'étonne ; </l>
+
+	<l id='114'>Quel tonnerre nouveau menace ma couronne ; </l>
+
+	<l id='115' part='i'>Parle. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='115' part='f'>Jérusalem oubliant son devoir. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='116'>Quel coup me donnes-tu ! Que me fais-tu savoir ? </l>
+
+	<l id='117' part='i'>Parle.</l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='117' part='f'>Jérusalem autrefois si fidèle, </l>
+
+	<l id='118'>Semble perdre aujourd'hui son respect et son zèle. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='119'>Un peuple si chéri se serait révolté !</l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='120'>S'il ne sort pas encor de sa fidélité, </l>
+
+	<l id='121'>Au moins en murmurant il y fait une tache. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='122'>Ô Prince misérable ! Ô peuple ! Ô lâche ! </l>
+
+	<l id='123'>Variable, aveuglé, malheureux est un Roi </l>
+
+	<l id='124'>Qui conçoit de l'espoir, et qui le fonde en toi. </l>
+
+	<l id='125'>Il s'est donc repenti de paraître fidèle, </l>
+
+	<l id='126'>Il murmure dis-tu, mais dis qu'il est rebelle, </l>
+
+	<l id='127'>Puisque de son murmure à son soulèvement </l>
+
+	<l id='128'>On ne saurait compter qu'un degré seulement. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='129'>On peut vaincre ce mal, il ne fait que de naître. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='130'>Ce mal, ce mal est grand dès qu'il se fait paraître. </l>
+
+	<l id='131'>Mais sais-tu la raison d'un peuple révolté ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='132'>La raison de tout peuple est sa légèreté. </l>
+
+	<l id='133'>J'ai voulu m'informer des causes de son crime, </l>
+
+	<l id='134'>Mais on lui parle en vain quand la fureur l'anime, </l>
+
+	<l id='135'>Le peuple est incapable en sortant du devoir, </l>
+
+	<l id='136'>De donner des raisons comme d'en recevoir. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+<stage>Saül se promène en rêvant.</stage>
+
+	<l id='137'>Ha ! Sa douleur me tue. Ha ! Mon frère, son geste </l>
+
+	<l id='138'>Est d'un trouble bien grand le signe manifeste. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='139'>Non, non, mais il le faut. Va donc, va Jonathas, </l>
+
+	<l id='140'>Cher et puissant appui de mes tristes États, </l>
+
+	<l id='141'>Va donc, non, non, demeure. Holà que veut-il faire ? </l>
+
+	<l id='142'>Es-tu mon ennemi ? Suis-je ton adversaire ? </l>
+
+	<l id='143'>Qu'as-tu fait contre moi, qu'en as-tu mérité </l>
+
+	<l id='144'>Pour t'exposer aux traits d'un Peuple révolté ? </l>
+
+	<l id='145'>Si lorsque je le sers ce monstre m'abandonne, </l>
+
+	<l id='146'>S'il foule le respect qu'il doit à ma Couronne, </l>
+
+	<l id='147'>S'il me méprise enfin, moi, moi qui le défends, </l>
+
+	<l id='148'>Peut-il en sa fureur respecter mes enfants ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='149'>Sire, dépouillez-vous de l'amour paternelle </l>
+
+	<l id='150'>Qui vous peint des dangers où votre bien m'appelle, </l>
+
+	<l id='151'>Quand même mon malheur m'y pourrait engager, </l>
+
+	<l id='152'>Puis-je mieux vous servir qu'où règne le danger ? </l>
+
+	<l id='153'>Mais c'est trop consulter sur un point nécessaire, </l>
+
+	<l id='154'>Trop de retardement peut vous être contraire. </l>
+
+	<l id='155'>Peut-être que ce mal, qui commençait son cours, </l>
+
+	<l id='156'>Était tantôt encor capable de secours, </l>
+
+	<l id='157'>Et lorsque nous parlons (ô penser effroyable) </l>
+
+	<l id='158'>Peut-être qu'il s'augmente, et devient incurable. </l>
+
+	<l id='159'>Ne vous nuisez donc pas par mon retardement, </l>
+
+	<l id='160'>C'est perdre ici beaucoup que de perdre un moment. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='161'>Irai-je où l'on a vu cette flamme allumée ? </l>
+
+	<l id='162'>Mais il faut que ma vue anime mon armée. </l>
+
+	<l id='163'>Va donc, et tâche enfin de calmer ce grand bruit, </l>
+
+	<l id='164'>Devant que l'ennemi puisse en tirer du fruit. </l>
+
+	<l id='165'>Va mon cher Jonathas ; et rends obéissance </l>
+
+	<l id='166'>À la nécessité plutôt qu'à ma puissance, </l>
+
+	<l id='167'>C'est elle qui s'éloigne et t'ôte de mes bras. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='168'>Qui va servir son Roi ne s'en éloigne pas. </l>
+
+	<l id='169'>Sire, ne doutez point que ma seule présence </l>
+
+	<l id='170'>N'abatte des mutins l'orgueilleuse insolence. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Saül, Michol.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='171'>Un peuple se révolte ! Un peuple infortuné, </l>
+
+	<l id='172'>Que j'avais de la honte à la gloire amené ! </l>
+
+	<l id='173'>Un Peuple de soi-même esclave, misérable, </l>
+
+	<l id='174'>Et par mes seuls travaux devenu redoutable ! </l>
+
+	<l id='175'>Qui ne connaît son Roi que par mille bienfaits, </l>
+
+	<l id='176'>De qui j'ai chaque jour surpassé les souhaits, </l>
+
+	<l id='177'>De qui sans mes efforts toute la terre entière </l>
+
+	<l id='178'>Serait ou la prison, ou bien le cimetière, </l>
+
+	<l id='179'>Et qui de ma bonté voyant tant de témoins </l>
+
+	<l id='180'>Par sa rébellion récompense mes soins ! </l>
+
+	<l id='181'>Ha, ce penser me tue ; ha peuple, engeance, ingrate, </l>
+
+	<l id='182'>Ô monstre redoutable à quiconque le flatte. </l>
+
+	<l id='183'>Trop de facilité le rend impérieux, </l>
+
+	<l id='184'>Trop de prospérité le rend injurieux, </l>
+
+	<l id='185'>Il fallait l'abaisser, il fallait le contraindre, </l>
+
+	<l id='186'>Si le peuple ne craint lui-même il se fait craindre. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='187' part='i'>David est un secours. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='187' part='f'>Quoi ? David, votre époux ? </l>
+
+	<l id='188'>Ha son nom seulement excite mon courroux, </l>
+
+	<l id='189' part='i'>Ne m'en parlez jamais. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='189' part='f'>Vous savez ses services. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='190'>Ne m'en parlez jamais ! Je sais ses artifices. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='191'>Ha Sire, le soupçon qui semble vous saisir </l>
+
+	<l id='192'>Est de ses ennemis l'ouvrage et le plaisir. </l>
+
+	<l id='193'>Mais bien que la vertu soit toujours adorable, </l>
+
+	<l id='194'>Croyez ses ennemis, elle sera coupable ; </l>
+
+	<l id='195'>Elle descend du Ciel qui l'a fait triompher, </l>
+
+	<l id='196'>Croyez ses ennemis, elle vient de l'enfer. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='197' part='i'>Enfin je jugerais. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='197' part='f'>Quoi ! Vous suis-je suspecte ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='198'>Le nom de père est saint, je crois qu'on le respecte. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='199'>Oui, Sire, on le respecte, en juger autrement, </l>
+
+	<l id='200'>C'est pour une innocente ordonner un tourment. </l>
+
+	<l id='201'>Mais comme je ferais ma honte et ma misère </l>
+
+	<l id='202'>D'avoir été suspecte à mon Prince, à mon Père, </l>
+
+	<l id='203'>Je ferais gloire aussi pour un illustre époux, </l>
+
+	<l id='204'>De paraître suspecte à tout autre qu'à vous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='205'>Si David aime encore ou sa femme ou son Maître, </l>
+
+	<l id='206'>Cet orage naissant nous le fera paraître : </l>
+
+	<l id='207'>Son pays apprendra sa générosité ; </l>
+
+	<l id='208'>Sa femme, son amour ; moi, sa fidélité. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Saül, Phalti, Michol.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='209' part='i'>Phalti qu'apprenez-vous ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='209' part='f'>Que l'ennemi s'avance, </l>
+
+	<l id='210'>Redoutable en tous lieux par sa seule insolence. </l>
+
+	<l id='211'>Il brûle, il pille, il tue, il croit tout accabler, </l>
+
+	<l id='212'>Et pense avoir vaincu ceux qui l'on fait trembler. </l>
+
+	<l id='213' part='i'>Mais ce qui le rend fort, c'est. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='213' part='f'>Que l'on vous entende. </l>
+
+	<l id='214' part='i'>Parlez haut, je le veux. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI, en montrant Michol.</speaker>
+
+	<l id='214' part='m'>Mais. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='214' part='f'>Je vous le commande. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='215'>Considérez, Madame, en cette extrémité, </l>
+
+	<l id='216'>Et mon obéissance, et la nécessité. </l>
+
+	<l id='217'>Si la funeste voix que vous allez entendre </l>
+
+	<l id='218'>Vous doit toucher le coeur par l'endroit le plus tendre, </l>
+
+	<l id='219'>Si cette voix enfin vous donne de l'effroi, </l>
+
+	<l id='220'>C'est la voix du public qui parle malgré moi. </l>
+
+	<l id='221'>Oui Sire, et je le dis avec plus de contrainte, </l>
+
+	<l id='222'>Et l'âme de douleur plus vivement atteinte, </l>
+
+	<l id='223'>Que s'il fallait moi-même, à moi-même odieux, </l>
+
+	<l id='224'>M'accuser du forfait que j'expose à vos yeux. </l>
+
+	<l id='225'>David, que ne peut-on s'imaginer le reste, </l>
+
+	<l id='226'>Ou bien me dispenser d'un rapport si funeste, </l>
+
+	<l id='227'>David marche aujourd'hui parmi vos ennemis, </l>
+
+	<l id='228'>Et soutient contre vous ceux qu'il vous a soumis. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='229'>Ô lâche et digne objet d'une haine immortelle, </l>
+
+	<l id='230'>Je te croyais méchant, non toutefois rebelle ; </l>
+
+	<l id='231'>Mais la rébellion dont tu parais atteint, </l>
+
+	<l id='232'>Montre bien qu'un méchant est tout ce que l'on craint. </l>
+
+	<l id='233'>J'ai reçu cet ingrat dedans mon alliance, </l>
+
+	<l id='234'>Je l'ai fait compagnon même de ma puissance, </l>
+
+	<l id='235'>Ha qui peut arrêter des traîtres, des ingrats, </l>
+
+	<l id='236'>Si même les honneurs ne les arrêtent pas. </l>
+
+	<l id='237'>Non, non, ne doutons plus que ma ruine entière </l>
+
+	<l id='238'>À ses voeux criminels n'ait fourni de matière. </l>
+
+	<l id='239'>Et qu'enfin la fureur d'un peuple révolté </l>
+
+	<l id='240'>Ne soit même un effet de son impiété. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='241' part='i'>Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='241' part='f'>N'en doutons plus, son procédé l'exprime, </l>
+
+	<l id='242'>Le coupable qu'il est, a médité ce crime, </l>
+
+	<l id='243'>L'a conçu, l'a formé, l'a nourri dans ma Cour, </l>
+
+	<l id='244'>Et ne fait aujourd'hui que l'exposer au jour, </l>
+
+	<l id='245'>Moins cruel ennemi, moins perfide, moins lâche, </l>
+
+	<l id='246'>Quand il le rend public qu'à l'instant qu'il le cache. </l>
+
+	<l id='247'>Défendez maintenant ce généreux Époux, </l>
+
+	<l id='248'>Croyez qu'il vous protège, et qu'il combat pour nous, </l>
+
+	<l id='249'>Croyez qu'il vous chérit, et qu'il vous considère, </l>
+
+	<l id='250'>Quand il attaque un Trône où règne votre Père ; </l>
+
+	<l id='251'>Si ce n'est que l'amour lui fasse cette loi, </l>
+
+	<l id='252'>Que pour vous faire Reine, il doit se faire Roi. </l>
+
+	<l id='253'>Oui, David veut régner, le traître qui conspire </l>
+
+	<l id='254'>Croit qu'un crime est permis, s'il promet un Empire. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='255'>David a le coeur grand, et non pas inhumain. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='256'>Il faut bien qu'il soit grand avec ce grand dessein. </l>
+
+	<l id='257'>Mais ne m'en parlez plus, il est temps qu'il périsse, </l>
+
+	<l id='258'>Parler pour un rebelle est en être complice, </l>
+
+	<l id='259'>Et la rébellion est le seul des forfaits </l>
+
+	<l id='260'>Qu'un Roi qui veut régner ne pardonne jamais. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='261'>Sire, s'il est coupable, il est temps qu'il périsse, </l>
+
+	<l id='262'>Et sa femme elle-même en ferait la justice. </l>
+
+	<l id='263'>Mais sans parler pour lui, ses services passés </l>
+
+	<l id='264'>Contre de vains soupçons le défendent assez, </l>
+
+	<l id='265'>Ou méritent du moins par leur première estime, </l>
+
+	<l id='266'>Qu'on suspende la foi que l'on donne à ce crime. </l>
+
+	<l id='267'>Ha Sire, un Roi rendra ses sujets malheureux, </l>
+
+	<l id='268'>S'il croit trop promptement ce que l'on dit contre eux, </l>
+
+	<l id='269'>Il facilitera les crimes de l'envie, </l>
+
+	<l id='270'>Lui donnera pouvoir sur la plus belle vie, </l>
+
+	<l id='271'>Montrera de splendeur le vice revêtu, </l>
+
+	<l id='272'>Et fera de la Cour l'écueil de la Vertu. </l>
+
+	<l id='273'>Je ne m'étonne pas que Phalti se déclare, </l>
+
+	<l id='274'>Et qu'il montre à David la haine d'un barbare, </l>
+
+	<l id='275'>Il m'aime, et croit enfin qu'en vous représentant </l>
+
+	<l id='276'>Et David criminel, et David mécontent, </l>
+
+	<l id='277'>Il vous inspirera cette haine couverte </l>
+
+	<l id='278'>Qui lui fait de David solliciter la perte, </l>
+
+	<l id='279'>Et que de cette haine avecques peu d'effort </l>
+
+	<l id='280'>Il vous fera passer au dessein de sa mort. </l>
+
+	<l id='281'>Ainsi Phalti travaille et ne se met en peine </l>
+
+	<l id='282'>Que pour rendre son Roi l'instrument de sa haine, </l>
+
+	<l id='283'>Que pour en obtenir sans règle et sans raison </l>
+
+	<l id='284'>Le prix d'un lâche Amour, et d'une trahison. </l>
+
+	<l id='285'>Gardez-nous donc au moins un regard favorable, </l>
+
+	<l id='286'>Ne croyez pas si tôt que David soit coupable. </l>
+
+	<l id='287'>Doit-il être à son Prince un objet odieux, </l>
+
+	<l id='288'>Quand il n'est accusé que par ses envieux ? </l>
+
+	<l id='289'>Voyez qui le combat, voyez qui le diffame, </l>
+
+	<l id='290'>L'ennemi de sa gloire, et l'amant de sa femme. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='291'>Vous le devez haïr si vous êtes pour moi.</l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL, en regardant Phalti.</speaker>
+
+	<l id='292'>Je hais tous les sujets qui trahissent leur Roi. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='293' part='i'>Je le sers bien Madame. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='293' part='f'>Allons revoir l'armée.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+
+<sp who='MICHOL'><speaker>MICHOL, seule.</speaker>
+
+	<l id='294'>Qu'on le trompe aisément ! Que son âme est charmée ! </l>
+
+	<l id='295'>Ou que l'aversion, cet aveugle transport </l>
+
+	<l id='296'>Le dispose aisément à croire un faux rapport ! </l>
+
+	<l id='297'>Croire David coupable avec si peu de peine ; </l>
+
+	<l id='298'>Cette facilité montre beaucoup de haine. </l>
+
+	<l id='299'>Mais que crois-je moi-même ? Ha mon coeur que fais-tu ? </l>
+
+	<l id='300'>Croiras-tu que David a trahi sa vertu, </l>
+
+	<l id='301'>Et qu'il porte lui-même en cette triste terre </l>
+
+	<l id='302'>Le tragique flambeau dont s'allume la guerre ? </l>
+
+	<l id='303'>Mille outrages reçus avec indignité, </l>
+
+	<l id='304'>Peuvent faire douter de sa fidélité ; </l>
+
+	<l id='305'>Mais aussi sa vertu me rend ce témoignage, </l>
+
+	<l id='306'>Que qui veut en douter lui fait un autre outrage. </l>
+
+	<l id='307'>Mais hélas ! Le plus saint peut même avec horreur </l>
+
+	<l id='308'>Faire de sa constance une injuste fureur. </l>
+
+	<l id='309'>Un grand coeur irrité se sent, se manifeste, </l>
+
+	<l id='310'>Sort enfin de soi-même, et fait ce qu'il déteste. </l>
+
+	<l id='311'>Ô David par les tiens autrefois respecté ! </l>
+
+	<l id='312'>Ô David par les tiens aujourd'hui redouté ! </l>
+
+	<l id='313'>Déplorable sujet d'où procède ma plainte, </l>
+
+	<l id='314'>Autrefois mon espoir ! Et maintenant ma crainte, </l>
+
+	<l id='315'>Quand je parle pour toi dans un mal si pressant, </l>
+
+	<l id='316'>Est-ce pour un coupable, ou pour un innocent. </l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='2'><head>ACTE II</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Phalti, Saül, Abner. </head>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='317'>D'où reviennent encor ces nouvelles ténèbres </l>
+
+	<l id='318'>Qui n'offrent à vos yeux que des objets funèbres ? </l>
+
+	<l id='319'>Vous avez vu le camp, vos chefs, vos soldats </l>
+
+	<l id='320'>Poussés d'un même esprit, marchent d'un même pas. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='321'>Je crains pour Jonathas ; et quand je considère </l>
+
+	<l id='322'>D'un peuple mutiné l'effroyable colère, </l>
+
+	<l id='323'>Ce misérable fils renversé de son rang </l>
+
+	<l id='324'>Ne paraît à mes yeux que couvert de son sang. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='325'>Le peuple le chérit, n'en soyez point en peine. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='326'>Le peuple va bientôt de l'amour à la haine, </l>
+
+	<l id='327'>Mais un autre sujet plus fort et plus pressant, </l>
+
+	<l id='328'>Excite dans mon âme un trouble plus puisant ; </l>
+
+	<l id='329'>Le mal qui dessus moi fait plus de violence </l>
+
+	<l id='330'>C'est du Ciel irrité l'effroyable silence ; </l>
+
+	<l id='331'>L'effet de sa fureur paraît de tous côtés, </l>
+
+	<l id='332'>Je vois dans mes États mes peuples révoltés. </l>
+
+	<l id='333'>Mes ennemis plus forts, même dans mon armée </l>
+
+	<l id='334'>Contre un poison secret l'épouvante est semée. </l>
+
+	<l id='335'>Ceux qui devraient m'aider conspirent contre moi ; </l>
+
+	<l id='336'>L'ennemi de leur Prince, est aujourd'hui leur Roi, </l>
+
+	<l id='337'>Et peut-être qu'aidés dans leurs desseins tragiques, </l>
+
+	<l id='338'>Ils règnent dans mon camp par de sourdes pratiques. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='339'>David était à craindre étant auprès de vous, </l>
+
+	<l id='340'>Malgré lui maintenant on voit venir ses coups, </l>
+
+	<l id='341'>Ne vous plaignez donc pas d'avoir perdu ce traître, </l>
+
+	<l id='342'>Le traître fait un bien quand il se fait connaître. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='343'>Enfin de tous côtés, je ne vois que malheurs ; </l>
+
+	<l id='344'>Mais si le Ciel contraire est sourd à mes douleurs, </l>
+
+	<l id='345'>S'il veut par son silence aujourd'hui me confondre, </l>
+
+	<l id='346'>Cherchons des voix ailleurs qui puissent me répondre. </l>
+
+	<l id='347'>Sachez donc, mais sachez qu'on me doit écouter, </l>
+
+	<l id='348'>Non pour donner conseil, mais pour exécuter. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='349'>Quoi que veuille ordonner votre auguste puissance, </l>
+
+	<l id='350'>Nous ne vous répondrons que par l'obéissance. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='351'>À quoi me résoudrai-je ? Ha c'est trop consulter, </l>
+
+	<l id='352'>L'enfer est le secours que nous devons tenter. </l>
+
+	<l id='353'>Qu'on cherche donc quelqu'un qui puisse par les charmes </l>
+
+	<l id='354'>Me montrer le succès qui doit suivre mes armes. </l>
+
+	<l id='355'>Aidez le plus troublé des Rois infortunés, </l>
+
+	<l id='356'>Que l'on cherche quelqu'un. Quoi, vous vous étonnez ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='357' part='i'>Ah Sire, quel dessein ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='357' part='f'>Ce dessein est un crime, </l>
+
+	<l id='358'>Mais la nécessité le rendra légitime, </l>
+
+	<l id='359'>C'est le dernier espoir d'un Prince malheureux, </l>
+
+	<l id='360'>À soi-même aujourd'hui cruel et dangereux, </l>
+
+	<l id='361'>À qui dans les douleurs, dont son esprit abonde, </l>
+
+	<l id='362'>Du Ciel ou de l'Enfer n'importe qui réponde, </l>
+
+	<l id='363'>Plus accablé d'ennuis qu'un esclave de fers, </l>
+
+	<l id='364'>Si je n'émeus les Cieux, j'émouvrai les enfers. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='365'>Ha Sire, ce dessein sera votre supplice. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='366'>Il faut que dans la nuit, ce dessein s'accomplisse. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='367' part='i'>Mais Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='367' part='f'>Obéissez, et ne répondez pas. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='368'>Vous avez fait punir d'un rigoureux trépas </l>
+
+	<l id='369'>Tous ceux de qui l'esprit et la noire science, </l>
+
+	<l id='370'>Avecques les enfers ont de l'intelligence ; </l>
+
+	<l id='371' part='i'>Le moyen d'en trouver. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='371' part='f'>Va, cherche seulement, </l>
+
+	<l id='372'>Et garde si tu peux de chercher vainement </l>
+
+	<l id='373' part='i'>Feins ce que tu voudras. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='373' part='m'>Mais voici. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='373' part='f'>Que veut-elle ? </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Michol, Saül, Phalti. </head>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='374'>Souffrez que je paraisse où mon devoir m'appelle, </l>
+
+	<l id='375'>Et que j'obtienne encor de votre Majesté </l>
+
+	<l id='376'>De parler une fois avecques liberté. </l>
+
+	<l id='377'>J'animerai sans doute et la haine et l'envie, </l>
+
+	<l id='378'>Ces monstres ennemis des beaux jours de la vie ; </l>
+
+	<l id='379'>Mais je sais qu'un Roi juste, et toujours indompté </l>
+
+	<l id='380'>Ne condamnera pas un acte d'équité. </l>
+
+	<l id='381'>Ainsi dedans mon âme en suspens retenue, </l>
+
+	<l id='382'>L'espérance augmente et la peur diminue ; </l>
+
+	<l id='383'>Craindrais-je que ma voix émeut votre courroux, </l>
+
+	<l id='384'>Vous êtes équitable, et je parle pour vous. </l>
+
+	<l id='385'>Oui, par quelques transports que ma douleur s'exprime, </l>
+
+	<l id='386'>Sire, mon intérêt n'est pas ce qui m'anime, </l>
+
+	<l id='387'>Si ce n'est en ce point, que l'intérêt des Rois </l>
+
+	<l id='388'>Est l'intérêt de ceux qui vivent sous leurs lois. </l>
+
+	<l id='389'>On vous a peint David d'une couleur si noire, </l>
+
+	<l id='390'>Que sa femme elle-même a douté de sa gloire ; </l>
+
+	<l id='391'>Mais enfin, sa vertu qu'on ne saurait tacher, </l>
+
+	<l id='392'>Perce l'obscurité qui voulait la cacher. </l>
+
+	<l id='393'>Quoi Sire, vous fuyez votre fille affligée ; </l>
+
+	<l id='394'>Mais n'abandonnez pas votre cause outragée, </l>
+
+	<l id='395'>Et ne laissez pas croire aux esprits envieux, </l>
+
+	<l id='396'>Que dans leur injustice ils ont un Roi pour eux. </l>
+
+	<l id='397'>Que si ma liberté vous paraît criminelle, </l>
+
+	<l id='398'>Au moins pour l'excuser considérez mon zèle, </l>
+
+	<l id='399'>Que l'État, que le Sang, vous parle ici pour moi, </l>
+
+	<l id='400'>Et que le nom de Père adoucisse mon Roi. </l>
+
+	<l id='401'>Si le soupçon d'un crime, et non pas votre haine, </l>
+
+	<l id='402'>Arme contre David votre main Souveraine, </l>
+
+	<l id='403'>Que votre Majesté qui daigna l'élever, </l>
+
+	<l id='404'>Le rappelle du moins afin de l'éprouver. </l>
+
+	<l id='405'>S'il vient, s'il obéit, il se montre fidèle, </l>
+
+	<l id='406'>Et s'il n'obéit pas il se montre rebelle : </l>
+
+	<l id='407'>Ainsi vous apprendrez si vous êtes trahi, </l>
+
+	<l id='408'>Si David est coupable, ou bien s'il est haï. </l>
+
+	<l id='409'>Ainsi malgré les maux, les périls, les naufrages </l>
+
+	<l id='410'>Qui suivent de si près les plus nobles courages, </l>
+
+	<l id='411'>Je demande David, non pour voir un époux, </l>
+
+	<l id='412'>Mais pour le voir mourir en combattant pour vous. </l>
+
+	<l id='413'>S'il périt pour son Roi, j'aimerai les batailles </l>
+
+	<l id='414'>Qui lui feront trouver d'illustres funérailles ; </l>
+
+	<l id='415'>Et quand je le verrai dans un noble cercueil, </l>
+
+	<l id='416'>La cause de sa mort consolera mon deuil. </l>
+
+	<l id='417'>Enfin comme mon Roi m'est plus cher que moi-même, </l>
+
+	<l id='418'>Je tâche pour mon Roi d'exposer ce que j'aime ; </l>
+
+	<l id='419'>Souffrez donc que David témoigne une autre fois </l>
+
+	<l id='420'>Qu'il sait vaincre pour vous les Géants et les Rois, </l>
+
+	<l id='421'>Ou souffrez qu'en mourant il vous donne une marque </l>
+
+	<l id='422'>Qu'il fut injustement suspect à son Monarque. </l>
+
+	<l id='423'>Veut-on d'autres témoins de constance et de foi, </l>
+
+	<l id='424'>Que le sang d'un sujet répandu pour son Roi. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='425'>J'approuve qu'une femme illustre son courage</l>
+
+	<l id='426'>À défendre un mari que l'infortune outrage, </l>
+
+	<l id='427'>J'approuve qu'elle fasse un effort généreux, </l>
+
+	<l id='428'>Afin de secourir son Père malheureux ; </l>
+
+	<l id='429'>L'un et l'autre dessein est un dessein auguste </l>
+
+	<l id='430'>Et ne pas l'écouter, c'est se montrer injuste. </l>
+
+	<l id='431'>Ainsi me laissant vaincre aux maux que vous sentez, </l>
+
+	<l id='432'>J'ai toujours sans aigreur vos discours écoutés, </l>
+
+	<l id='433'>J'ai cherché des raisons, et j'en cherche à cette heure, </l>
+
+	<l id='434'>Pour rendre votre cause et plus forte et meilleure ; </l>
+
+	<l id='435'>J'ai parlé dans mon coeur pour David et pour vous, </l>
+
+	<l id='436'>Ma justice a longtemps sus pendu mon courroux ; </l>
+
+	<l id='437'>Mais en vain pour David mes faveurs se préparent, </l>
+
+	<l id='438'>Ses propres actions contre lui se déclarent, </l>
+
+	<l id='439'>Et je souhaiterais au bien de mes États, </l>
+
+	<l id='440'>Que l'on pût sans soupçons se servir de son bras. </l>
+
+	<l id='441'>Mais dois-je me servir d'une main criminelle, </l>
+
+	<l id='442'>Qui joint même l'effet au soupçon qu'on a d'elle ? </l>
+
+	<l id='443'>Perdez donc le souci que vous avez pour moi, </l>
+
+	<l id='444'>Vous agissez en femme, et moi j'agis en Roi. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='445'>Ha Sire, en l'accusant on vous fait une injure, </l>
+
+	<l id='446'>Puisqu'on veut vous forcer de croire une imposture. </l>
+
+	<l id='447'>Bien qu'on ait peint David odieux à son Roi, </l>
+
+	<l id='448'>Il est dans Siselec plein d'ardeur et de foi ; </l>
+
+	<l id='449'>Et c'est là qu'il attend que votre ordre l'appelle, </l>
+
+	<l id='450'>Qu'il lui permette encor de témoigner son zèle, </l>
+
+	<l id='451'>Et de montrer enfin qu'en son adversité, </l>
+
+	<l id='452'>Il s'est fait un trésor de sa fidélité. </l>
+
+	<l id='453'>Vous qui le combattez, et dont la noire envie </l>
+
+	<l id='454'>S'efforce de ternir le lustre de sa vie, </l>
+
+	<l id='455'>Si vous ne doutez point que de lâches desseins, </l>
+
+	<l id='456'>Arment contre son Roi ses parricides mains, </l>
+
+	<l id='457'>Si l'ayant accusé vous le croyez rebelle, </l>
+
+	<l id='458'>Demandez avec moi que son Roi le rappelle ; </l>
+
+	<l id='459'>Demandez son retour, feignez de le presser, </l>
+
+	<l id='460'>Votre honneur attaqué semble vous y forcer, </l>
+
+	<l id='461'>Si David a failli, si David est un traître, </l>
+
+	<l id='462'>Il suivra vos désirs, il n'osera paraître ; </l>
+
+	<l id='463'>Alors votre vertu luira pompeusement, </l>
+
+	<l id='464'>Et qui vous blâme à tort, vous louera justement. </l>
+
+	<l id='465'>Mais la peur d'un succès à vos désirs contraire, </l>
+
+	<l id='466'>Malgré vos passions vous oblige à vous taire ; </l>
+
+	<l id='467'>Vous craignez l'innocence, et j'excuse aujourd'hui </l>
+
+	<l id='468'>Qu'un Rival de David ne parle pas pour lui. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='469'>Vous allez trop avant ; si Phalti vous aspire, </l>
+
+	<l id='470'>Sachez que cet espoir ne saurait me déplaire, </l>
+
+	<l id='471'>Sachez que je le veux. Mais David s'est soumis, </l>
+
+	<l id='472'>Il n'est pas, dites-vous, parmi nos ennemis, </l>
+
+	<l id='473'>Mais n'est-ce pas assez qu'il ait servi ce Prince </l>
+
+	<l id='474'>Qui désole aujourd'hui cette triste Province ? </l>
+
+	<l id='475'>Mais qui le contraignit de sortir de ces lieux ? </l>
+
+	<l id='476'>Quelle juste raison l'enleva de mes yeux ? </l>
+
+	<l id='477'>Était-ce le dessein de défendre sa vie ? </l>
+
+	<l id='478'>Ma grâce l'assurait même contre l'envie. </l>
+
+	<l id='479'>Était-ce le dessein de se voir dans l'honneur ? </l>
+
+	<l id='480'>L'honneur faisait ici son souverain bonheur. </l>
+
+	<l id='481'>Il ne choisit pas cette fuite insensée </l>
+
+	<l id='482'>Pour assurer sa vie en ces lieux menacée ; </l>
+
+	<l id='483'>Il ne s'enfuit donc pas chez un Prince odieux </l>
+
+	<l id='484'>Pour assouvir d'honneurs son coeur ambitieux, </l>
+
+	<l id='485'>Que montrait donc alors sa fuite volontaire ? </l>
+
+	<l id='486'>Sinon qu'il commençait d'être notre adversaire, </l>
+
+	<l id='487'>Que son coeur orgueilleux se lassait d'obéir, </l>
+
+	<l id='488'>Que qui fuit de son Roi commence à le trahir. </l>
+
+	<l id='489'>Quand même il aurait vu d'une affreuse disgrâce, </l>
+
+	<l id='490'>Succéder les effets au bruit de la menace, </l>
+
+	<l id='491'>Même dans ce malheur lui serait-il permis </l>
+
+	<l id='492'>D'aller chercher un port parmi mes ennemis ? </l>
+
+	<l id='493'>Non, non, il doit plutôt attendre la tempête, </l>
+
+	<l id='494'>S'il ne peut autre part en garantir sa tête, </l>
+
+	<l id='495'>S'il aime son devoir, s'il le sait respecter, </l>
+
+	<l id='496'>Il périra plutôt que d'en faire douter. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='497'>Si ce sont là des maux dont il souille sa vie, </l>
+
+	<l id='498'>En doit-on accuser ma haine ou mon envie ? </l>
+
+	<l id='499'>Mais je veux qu'il nous offre et son sang et ses jours, </l>
+
+	<l id='500'>Et que l'on doive même accepter son secours, </l>
+
+	<l id='501'>Je veux qu'il donne au Roi le plus grand témoignage </l>
+
+	<l id='502'>Qui puisse signaler un fidèle courage, </l>
+
+	<l id='503'>Semble-t-il désormais que l'on doive écouter </l>
+
+	<l id='504'>Une infidélité dont il a fait douter ? </l>
+
+	<l id='505'>Qu'en peut enfin juger un Prince magnanime, </l>
+
+	<l id='506'>Si donner des soupçons c'est commettre le crime ? </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='507' part='i'>Ah Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='507' part='m'>C'est assez. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='507' part='f'>Oui Sire, c'est assez </l>
+
+	<l id='508'>David est criminel si vous le haïssez. </l>
+
+	<l id='509'>Ô trop heureux Phalti, triomphez à cette heure, </l>
+
+	<l id='510'>Tout le bien est pour vous, tout le mal me demeure. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='511'>Je ne triomphe point des misères d'autrui, </l>
+
+	<l id='512'>Et le sort de David me touche autant que lui. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='513'>Il est digne de mort, si le Roi veut vous croire. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='514'>Ses seules actions font juger de sa gloire. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='515'>Ses seules actions toutes pleines d'éclat </l>
+
+	<l id='516'>Vous font craindre pour vous, et non point pour l'État, </l>
+
+	<l id='517'>L'amour de son pays est le feu qui l'allume, </l>
+
+	<l id='518'>Bien servir est sa gloire, et vaincre est sa coutume, </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='519' part='i'>C'est perdre le respect. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='519' part='f'>Oui Sire, je le perds, </l>
+
+	<l id='520'>Mais le perdant ainsi, je crois que je vous sers, </l>
+
+	<l id='521'>Puisque je vous découvre un secours nécessaire, </l>
+
+	<l id='522'>Et d'autant plus certain qu'il vous fut salutaire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='523'>En David un secours ! Qu'a-t-il fait de si grand </l>
+
+	<l id='524'>Qui ne soit du hasard un effet apparent. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='525'>Si David vous déplaît, ha Sire, je dois taire </l>
+
+	<l id='526'>Ce qu'il a fait de grand de peur de vous déplaire ; </l>
+
+	<l id='527'>Il n'est pas allié de votre illustre sang, </l>
+
+	<l id='528'>Sans avoir par son bras mérité ce haut rang. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='529'>Qu'il ne se vante point d'une alliance auguste. </l>
+
+	<l id='530'>Je saurai lui montrer combien elle est injuste, </l>
+
+	<l id='531'>Et que l'on cesse enfin d'être l'allié des Rois </l>
+
+	<l id='532'>Dès lors qu'on se révolte et qu'on choque leurs droits, </l>
+
+	<l id='533'>Je te promis ce prix, Phalti, je te le donne. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='534'>Moi ! David subsistant, et sans qu'il m'abandonne ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='535'>Le traître s'est couvert d'un opprobre éternel, </l>
+
+	<l id='536'>Et sachez qu'il est mort puisqu'il est criminel. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='537'>Ha Sire, eût-il commis ces détestables crimes, </l>
+
+	<l id='538'>À qui l'on ne fait point de grâces légitimes, </l>
+
+	<l id='539'>Le lien qui nous joint est si juste et si fort, </l>
+
+	<l id='540'>Qu'à peine est-il défait et rompu par la mort. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='541'>Le rompre est un effet qui passe l'ordinaire, </l>
+
+	<l id='542'>Un homme ne le peut, mais un Roi le peut faire. </l>
+
+	<l id='543'>Et c'est en ce dessein que je veux faire voir </l>
+
+	<l id='544'>Que les Rois et la mort ont le même pouvoir. </l>
+
+	<l id='545'>Mais Phalti, suis ton ordre, achève ton voyage, </l>
+
+	<l id='546'>Cherche ce que tu sais sans tarder davantage, </l>
+
+	<l id='547'>Ne me fais point languir, et que devant la nuit </l>
+
+	<l id='548'>De tes soins diligents puisse naître le fruit. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='549' part='i'>J'y vais Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='549' part='f'>Ha douleur, ha douleur trop cruelle, </l>
+
+	<l id='550'>Ne peux-tu t'adoucir, ou te rendre mortelle. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='551' part='i'>Mais voici Jonathas. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Saül, Jonathas, Abner, Michol. </head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='551' part='f'>Hé bien, qu'apprendrons-nous. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='552'>Enfin j'ai de ce peuple apaisé le courroux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='553' part='i'>D'où venait sa fureur. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='553' part='f'>D'une fausse nouvelle, </l>
+
+	<l id='554'>Qu'on rejette David dont il connaît le zèle. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='555' part='i'>Mais enfin que veut-il. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='555' part='f'>Il demande David. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='556'>Ce lâche, cet ingrat, qu'un crime nous ravit ? </l>
+
+	<l id='557'>Doncques pour contenter l'aveugle populace, </l>
+
+	<l id='558'>Je serais lâchement prodigue de ma grâce ! </l>
+
+	<l id='559'>Donc je pourrais souffrir qu'à la honte des Rois, </l>
+
+	<l id='560'>Des sujets révoltés m'imposassent des lois ! </l>
+
+	<l id='561'>Non, non, que de poisons la discorde nourrie </l>
+
+	<l id='562'>Fasse parmi ce peuple éclater sa furie, </l>
+
+	<l id='563'>Qu'il sorte du devoir où le Ciel l'a soumis, </l>
+
+	<l id='564'>Nous avons surmonté de plus grands ennemis. </l>
+
+	<l id='565'>Qu'il se rende à David, où son désir s'envole, </l>
+
+	<l id='566'>Qu'au lieu de son Monarque il s'en fasse une idole, </l>
+
+	<l id='567'>Malgré les attentats de mes persécuteurs, </l>
+
+	<l id='568'>Je ferai choir l'idole et ses adorateurs. </l>
+
+	<l id='569'>Suivriez des avis à l'honneur si contraires ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='570'>Voyez l'extrémité qui touche vos affaires ; </l>
+
+	<l id='571'>C'est quelquefois courage et générosité </l>
+
+	<l id='572'>D'accorder quelque chose à la nécessité. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='573'>Rappellerai-je un traître, auteur de nos misères ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='574'>Non Sire, Mais David, c'est la voix de mes frères. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='575'>Sont-ce là des conseils d'un esprit généreux</l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='576'>Ce sont là des conseils qui vous rendront heureux ; </l>
+
+	<l id='577'>Quoi que l'on entreprenne, un conseil équitable </l>
+
+	<l id='578'>Est toujours généreux, et toujours honorable. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='579'>Je ne m'étonne pas de ce soin nonpareil, </l>
+
+	<l id='580'>Un ami de David doit donner ce conseil. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='581'>Sire, j'aime David, mais parce qu'il vous aime, </l>
+
+	<l id='582'>Et vous parler pour lui, c'est parler pour vous-même. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='583'>Quoi, mes propres enfants ennemis de leur sang, </l>
+
+	<l id='584'>Abandonnent leur père, et leur gloire, et leur rang ? </l>
+
+	<l id='585'>Des sujets révoltés demandent un rebelle, </l>
+
+	<l id='586'>Et mes propres enfants soutiennent leur querelle ! </l>
+
+	<l id='587'>Quels maux à mon esprit ne sont pas préparés, </l>	
+
+	<l id='588'>Quand je vois mes enfants parmi les conjurés ? </l>
+
+<note>Vers 588, nous ajoutons "Quand", pour le nombre de pieds. </note>
+	<l id='589'>Doncques ce Jonathas, autrefois un tonnerre, </l>
+
+	<l id='590'>Aura besoin d'un chef qui le mène à la guerre, </l>
+
+	<l id='591'>Aura besoin d'un chef qui conduise son bras ? </l>
+
+	<l id='592'>Autant de fois vainqueur qu'il tenta de combats. </l>
+
+	<l id='593'>Doncques ce Jonathas amoureux de la gloire </l>
+
+	<l id='594'>À d'autres bras qu'aux siens veut devoir sa victoire. </l>
+
+	<l id='595'>Quel charme, quel poison, quelle froide langueur  </l>
+
+	<l id='596'>Dérobe à Jonathas et la force et le coeur ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='597'>S'il ne s'agissait pas de la cause commune, </l>
+
+	<l id='598'>S'il ne fallait sauver que ma seule fortune, </l>
+
+	<l id='599'>Dans la paix, dans la guerre, incapable d'effroi, </l>
+
+	<l id='600'>Je ne voudrais que moi pour combattre pour moi. </l>
+
+	<l id='601'>Comme cent fois mon bras remporta la victoire, </l>
+
+	<l id='602'>Mon bras seul aujourd'hui me comblerait de gloire. </l>
+
+	<l id='603'>Mais lorsque sans péril on ne peut hasarder, </l>
+
+	<l id='604'>Lorsqu'on voit tout en feu, lorsqu'il faut tout garder, </l>
+
+	<l id='605'>Lorsqu'un trône penchant est près du précipice, </l>
+
+	<l id='606'>Qu'il faut que l'on triomphe, ou qu'il faut qu'on périsse, </l>
+
+	<l id='607'>Enfin quand tout l'État dépend d'un seul effort, </l>
+
+	<l id='608'>Le Roi le plus puissant n'est jamais assez fort. </l>
+
+	<l id='609'>Il n'est jamais honteux aux plus nobles courages </l>
+
+	<l id='610'>De chercher du secours contre les grands orages, </l>
+
+	<l id='611'>Mais trop de confiance en leur propre valeur, </l>
+
+	<l id='612'>A causé bien souvent leur honte et leur malheur. </l>
+
+	<l id='613'>Me blâme qui voudra de trembler dedans l'âme, </l>
+
+	<l id='614'>Mes seules actions me lavent de ce blâme, </l>
+
+	<l id='615'>Plus de force, plus d'heur aux États menacés, </l>
+
+	<l id='616'>Et qui n'est qu'assez fort, ne l'est jamais assez. </l>
+
+	<l id='617'>Si vous alliez chercher des forces étrangères </l>
+
+	<l id='618'>Afin de repousser nos communes misères, </l>
+
+	<l id='619'>Peut-être que l'État, peut-être que nos jours </l>
+
+	<l id='620'>Recevraient de la honte aussitôt qu'un secours. </l>
+
+	<l id='621'>Mais David est à vous, il vous cherche, il vous aime, </l>
+
+	<l id='622'>Il est entre vos fils comme un autre moi-même. </l>
+
+	<l id='623'>Qu'importe donc enfin pour la gloire du Roi, </l>
+
+	<l id='624'>Qui vainque désormais de David ou de moi ? </l>
+
+	<l id='625'>Qu'un autre pour mon Prince obtienne la victoire, </l>
+
+	<l id='626'>Si j'ai bien combattu ce m'est assez de gloire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='627'>Quoi, vous persévérez ! Qu'en dites-vous Abner ? </l>
+
+	<l id='628'>Est-ce là le conseil que l'on doit me donner ? </l>
+
+	<l id='629'>Tiendrez-vous contre moi pour un peuple adversaire ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='630'>Je n'oserais parler de peur de vous déplaire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='631' part='i'>Vous demandez David. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='631' part='f'>C'est la nécessité ; </l>
+
+	<l id='632'>Qui le demande enfin sert votre Majesté. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='633'>Donc chacun me trahit ! Bien, que David revienne, </l>
+
+	<l id='634'>Vous voulez son retour, que le traître l'obtienne : </l>
+
+	<l id='635'>Si l'on me porte ainsi le poignard dans le sein, </l>
+
+	<l id='636'>Je me sers de David pour punir ce dessein. </l>
+
+	<l id='637'>Puisqu'on veut lui devoir une illustre victoire, </l>
+
+	<l id='638'>Puisqu'il doit vous priver de votre propre gloire, </l>
+
+	<l id='639'>Puisque par votre bonté, il se doit signaler, </l>
+
+	<l id='640'>C'est me venger de vous que de le rappeler. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='641'>Ainsi vous commencer à vaincre un adversaire, </l>
+
+	<l id='642'>Qu'on vous rendra bientôt, ou mort, ou tributaire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='643'>Quoi David reviendrait ! N'est-ce pas témoigner </l>
+
+	<l id='644'>Que sans lui désormais nous ne pouvons régner ? </l>
+
+	<l id='645'>N'est-ce pas faire voir que la crainte nous presse ? </l>
+
+	<l id='646'>N'est-ce pas découvrir notre propre faiblesse ? </l>
+
+	<l id='647'>Et dire à l'ennemi superbe et trop content, </l>
+
+	<l id='648'>Que s'il veut attaquer la victoire l'attend ? </l>
+
+	<l id='649'>Quoi David reviendrait, et je pourrais apprendre </l>
+
+	<l id='650'>Que la nécessité me force de me rendre ? </l>
+
+	<l id='651'>Quand je serais réduit à toute extrémité, </l>
+
+	<l id='652'>Devrais-je découvrir cette nécessité ? </l>
+
+	<l id='653'>Non, non, c'est ignorer la science des Princes, </l>
+
+	<l id='654'>Que de montrer le mal qui presse leurs Provinces ; </l>
+
+	<l id='655'>Et qui ne sait couvrir les maux de ses États, </l>
+
+	<l id='656'>Ne tient qu'un rang indigne entre les potentats. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='657'>C'est de cette science un effet légitime </l>
+
+	<l id='658'>De changer à propos de règle et de maxime. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='659'>Il est vrai Jonathas, il est vrai ; mais apprends </l>
+
+	<l id='660'>Qu'il faut avoir régné pour en savoir le temps. </l>
+
+	<l id='661'>Ha mes fils, tant de fois conduits par la victoire, </l>
+
+	<l id='662'>Vous êtes assez forts pour sauver votre gloire. </l>
+
+	<l id='663'>Dirait-on quelque jour de ce siècle éloigné, </l>
+
+	<l id='664'>Si David n'eût vaincu, Saül n'eût pas régné.</l>
+
+	<l id='665'>Non, non, c'est une tache à votre grand courage, </l>
+
+	<l id='666'>Courez, courez vous-même après cet avantage, </l>
+
+	<l id='667'>Et faites dire enfin aux peuples triomphants, </l>
+
+	<l id='668'>Saül n'eût pu régner s'il n'eût point eu d'enfants. </l>
+
+	<l id='669'>Je croirai que mon sort sera digne d'envie </l>
+
+	<l id='670'>Quand je devrai ma gloire à qui me dois la vie. </l>
+
+	<l id='671'>S'il faut donc que je doive et mon sceptre et mon rang </l>
+
+	<l id='672'>Que ce soit à mes fils, que ce soit à mon sang. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='673'>Hé bien, il faut montrer que nous savons combattre, </l>
+
+	<l id='674'>Que sans choir avec nous on ne peut nous abattre, </l>
+
+	<l id='675'>Et que c'est de vos fils le destin le plus doux, </l>
+
+	<l id='676'>Que de vaincre pour vous, ou de mourir pour vous. </l>
+
+	<l id='677'>Mes frères, allons donc poussés de même envie, </l>
+
+	<l id='678'>Ou finir cette guerre, ou finir notre vie. </l>
+
+	<l id='679'>Ce ne sera pas perdre un sang infortuné, </l>
+
+	<l id='680'>Que de pouvoir le rendre à qui nous l'a donné. </l>
+
+	<l id='681'>Vivants, mourants, donnons une éclatante marque ; </l>
+
+	<l id='682'>Que nous méritions bien de naître d'un Monarque : </l>
+
+	<l id='683'>En cette occasion tout est doux, tout est beau, </l>
+
+	<l id='684'>L'honneur de la victoire, ou l'horreur du tombeau. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='685'>Enfants trop, trop aimés, tendresse paternelle, </l>
+
+	<l id='686'>Vous demandez David, hé bien qu'on le rappelle, </l>
+
+	<l id='687'>Ayons, ayons encor cette honte aujourd'hui, </l>
+
+	<l id='688'>De ne pouvoir régner, ni triompher sans lui ; </l>
+
+<stage>En regardant ses enfants. </stage>
+
+	<l id='689'>Au moins si de leurs jours l'infortune dispose</l>
+
+	<l id='690'>On ne publiera point que leur Père en fut cause. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='691'>Ô résolution qui nous rendra contents. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='692'>Dépêchons vers David, ne perdons point de temps. </l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='3'><head>ACTE III</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Jonathas, Abner. </head>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='693'>Ô changement funeste au bien de cet Empire ! </l>
+
+	<l id='694' part='i'>David ne viendra point. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='694' part='f'>Je venais vous le dire. </l>
+
+	<l id='695'>Va, cours, m'a dit le Roi, va dire à Jonathas </l>
+
+	<l id='696'>Que David est ailleurs utile à nos États ; </l>
+
+	<l id='697'>Qu'il pourra secourir la Province opprimée </l>
+
+	<l id='698'>Dessus notre frontière autan qu'en notre armée ; </l>
+
+	<l id='699'>Et qu'il est nécessaire au repos de nos jours, </l>
+
+	<l id='700'>Que de tous les côtés l'État ait du secours. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='701'>Ce n'est là qu'un prétexte à cette défiance </l>
+
+	<l id='702'>Qui n'abandonne point la suprême puissance, </l>
+
+	<l id='703'>Ce n'est là qu'un prétexte à cette passion, </l>
+
+	<l id='704'>Que l'on a pour l'honneur, et pour l'ambition </l>
+
+	<l id='705'>Il regarde la gloire ainsi qu'un avantage </l>
+
+	<l id='706'>Qu'il craint injustement que David ne partage, </l>
+
+	<l id='707'>Comme s'il ignorait qu'après de grands exploits </l>
+
+	<l id='708'>La gloire des sujets est toute pour les Rois. </l>
+
+	<l id='709'>Mais que pensons-nous faire impuissants que nous sommes ? </l>
+
+	<l id='710'>Le Démon qui le pousse est plus fort que les hommes ; </l>
+
+	<l id='711'>En vain nous lui montrons le rivage et le port </l>
+
+	<l id='712'>Il embrasse l'écueil qui lui donne la mort ; </l>
+
+	<l id='713'>Il croit que les enfants sont autant d'adversaires, </l>
+
+	<l id='714'>Il a peur d'écouter des conseils salutaires, </l>
+
+	<l id='715'>Il prend les bons avis pour des dons infectés, </l>
+
+	<l id='716'>Ô présage certain de ses calamités ! </l>
+
+	<l id='717'>Quand un Roi va périr, quand le Ciel l'abandonne, </l>
+
+	<l id='718'>Voilà mon cher Abner, la marque qu'il en donne. </l>
+
+	<l id='719'>Mais il faut avec lui dévaler au tombeau, </l>
+
+	<l id='720'>Choisissons pour le moins le chemin le plus beau. </l>
+
+	<l id='721'>Puisque de notre bras votre Roi se contente, </l>
+
+	<l id='722'>Tâchons d'aller plus loin que ne va son attente ; </l>
+
+	<l id='723'>Conserve lui ton coeur fidèle et généreux, </l>
+
+	<l id='724'>Et fais-en le trésor d'un Prince malheureux. </l>
+
+	<l id='725'>Si ce n'est pas ton Roi qui parle et qui t'excite, </l>
+
+	<l id='726'>C'est son sang qui te parle et qui te sollicite. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='727'>J'écoute avec respect, et mets en même rang </l>
+
+	<l id='728'>Et la voix de mon Prince, et la voix de son sang ; </l>
+
+	<l id='729'>Mais pour garder un coeur généreux et fidèle </l>
+
+	<l id='730'>J'écoute seulement mon devoir et mon zèle </l>
+
+	<l id='731'>Je les aurais trahis, j'en aurais fait douter, </l>
+
+	<l id='732'>Si l'on avait besoin de me solliciter</l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='733'>Aussi mon cher Abner, je t'excite à la gloire </l>
+
+	<l id='734'>Comme on fait un vainqueur qui poursuit sa victoire. </l>
+
+	<l id='735'>Mais entrons chez le Roi, le voilà déguisé, </l>
+
+	<l id='736' part='i'>Seul avecques Phalti. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Saül, Jonathas, Abner, Phalti. </head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='736' part='f'>M'auraient-ils avisé ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='737' part='i'>Ha Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='737' part='f'>C'est assez, Abner vous a pu dire </l>
+
+	<l id='738'>Ce que j'ai résolu pour le bien de l'Empire, </l>
+
+	<l id='739'>Et j'ai donné depuis et l'ordre et le pouvoir </l>
+
+	<l id='740'>Par qui Jérusalem se tienne en son devoir</l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='741'>Je ne veux point douter que par votre prudence </l>
+
+	<l id='742'>Le respect ne retourne où régnait l'insolence, </l>
+
+	<l id='743'>Et que votre dessein inspiré par les Cieux </l>
+
+	<l id='744'>Ne soit en même temps utile et glorieux ; </l>
+
+	<l id='745'>Mais Sire, vous voyant dépouillé de ces marques, </l>
+
+	<l id='746'>Qui font avec respect connaître les Monarques, </l>
+
+	<l id='747'>On serait sans raison en cet événement </l>
+
+	<l id='748'>Si l'on était sans trouble, et sans étonnement. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='749'>Ne vous étonnez point ; ce que l'on me voit faire </l>
+
+	<l id='750'>D'un conseil profitable est l'effet nécessaire. </l>
+
+	<l id='751'>Abner vous l'a pu dire, il sait tout ce secret. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='752'>Oui, Sire, mais Abner n'est pas un indiscret. </l>
+
+	<l id='753'>L'ayant reçu de vous sans ordre de le dire </l>
+
+	<l id='754'>Le cacher est la Loi que j'ai dû me prescrire. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='755'>N'ai-je point mérité de savoir ce dessein ? </l>
+
+	<l id='756'>Croyez-vous qu'un secret soit mal dedans mon sein ? </l>
+
+	<l id='757'>Quand il faut vous servir, quand il est nécessaire, </l>
+
+	<l id='758'>Mon bras sait éclater, et mon coeur sait se taire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='759'>J'ai consulté le Ciel, il n'a point répondu, </l>
+
+	<l id='760'>Je vais voir si l'Enfer m'aura mieux entendu. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='761'>Vous, consulter l'Enfer, vous, chercher des infâmes, </l>
+
+	<l id='762'>Condamnés par vous-même à de si justes flammes ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='763'>Un Censeur me déplaît en cette extrémité. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='764'>Je ne m'oppose point à votre volonté, </l>
+
+	<l id='765' part='i'>Mais Sire, ces Devins...</l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='765' part='f'>Ne t'en mets point en peine. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='766'>Ayant déjà senti votre main souveraine, </l>
+
+	<l id='767'>Si la peur ne les cache à votre Majesté </l>
+
+	<l id='768'>Par un discours trompeur vous en serez flatté ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='769'>Celle que je vais voir n'a point vu mon visage, </l>
+
+	<l id='770'>Et ne peut me connaître en ce triste équipage. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='771'>Voilà donc la raison de ce déguisement ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='772'>Oui, voilà la raison qui fait ce changement. </l>
+
+	<l id='773'>Ainsi de ma grandeur j'ai dû quitter la marque </l>
+
+	<l id='774'>Pour cacher sous ce voile un malheureux monarque ; </l>
+
+	<l id='775'>C'est peut-être un présage horrible, infortuné, </l>
+
+	<l id='776'>Mais il n'importe, allons où je suis destiné. </l>
+
+	<l id='777'>Si du Ciel avisé l'effroyable justice </l>
+
+	<l id='778'>Doit faire de mon trône un affreux précipice, </l>
+
+	<l id='779'>Au moins quand je saurai ce triste événement </l>
+
+	<l id='780'>Je me préparerai de périr noblement. </l>
+
+	<l id='781'>Si la haine des cieux rend ma chute odieuse, </l>
+
+	<l id='782'>Mon courage du moins l'a rendra glorieuse, </l>
+
+	<l id='783'>Et les Rois menacés d'une semblable fin </l>
+
+	<l id='784'>Pourront avec honneur souhaiter mon destin. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='785'>Ha Sire, que l'horreur d'un destin si funeste </l>
+
+	<l id='786'>Aux yeux de votre esprit se rende manifeste, </l>
+
+	<l id='787'>Ce que le Ciel résout, l'attendre constamment, </l>
+
+	<l id='788'>C'est là se préparer de périr noblement. </l>
+
+	<l id='789'>Si nous devons périr, ha périssons sans crime, </l>
+
+	<l id='790'>Laissons sur notre tombe une innocente estime, </l>
+
+	<l id='791'>Penserions-nous trouver un trépas glorieux, </l>
+
+	<l id='792'>Lorsque nous périrons dans la haine des Cieux ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='793' part='i'>Le Conseil en est pris. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='793' part='f'>Mais c'est un sacrilège. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='794'>Si c'est, si c'est un mal, c'est un mal qui m'allège. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='795'>Il peut bien vous flatter, mais enfin il nuira. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='796'>Au moins j'aurai la paix tant qu'il me flattera. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='797'>Mais je veux que sans crime on ait recours aux charmes, </l>
+
+	<l id='798'>Croit-on que les démons sachent le cours des armes, </l>
+
+	<l id='799'>Les succès des combats et les événements </l>
+
+	<l id='800'>D'où dépendent nos maux et nos contentements ? </l>
+
+	<l id='801'>Quel rayon de clarté montrant nos aventures, </l>
+
+	<l id='802'>Les ferait pénétrer dans les choses futures ? </l>
+
+	<l id='803'>Si tout ce qui doit être en tout temps, en tout lieu, </l>
+
+	<l id='804'>Enfin si l'avenir est seulement en Dieu, </l>
+
+	<l id='805'>Pense-t-on que l'enfer, ce lieu plein de blasphème, </l>
+
+	<l id='806'>Sache ce qui se fait dans le sein de Dieu même ? </l>
+
+	<l id='807'>C'est un lâche penser que nous devons bannir, </l>
+
+	<l id='808'>Les démons seraient Dieux s'ils savaient l'avenir, </l>
+
+	<l id='809'>Ou parmi les tourments cette engeance mutine </l>
+
+	<l id='810'>Partagerait au moins la puissance divine, </l>
+
+	<l id='811'>Quand même les démons volant par l'Univers </l>
+
+	<l id='812'>Verraient de l'avenir les secrets découverts, </l>
+	<l id='813'>Eux qui sont des humains les plus grands adversaires</l>
+
+	<l id='814'>Leur annonceraient-ils des succès salutaires ? </l>
+
+	<l id='815'>S'ils annoncent le bien, c'est un appas fatal </l>
+
+	<l id='816'>Qu'ils sèment sous nos pas pour nous conduire au mal ; </l>
+
+	<l id='817'>S'ils annoncent les maux, l'horreur et le tumulte, </l>
+
+	<l id='818'>C'est pour désespérer celui qui les consulte, </l>
+
+	<l id='819'>Et par le désespoir dont son coeur est pressé, </l>
+
+	<l id='820'>Le conduire au malheur qu'ils avaient annoncé. </l>
+
+	<l id='821'>Fuyez donc de ce gouffre où vous allez vous rendre ; </l>
+
+	<l id='822'>Vous courez aux enfers, qu'en pouvez-vous attendre, </l>
+
+	<l id='823'>Si dans l'extrémité qui menace vos jours </l>
+
+	<l id='824'>C'est à vos ennemis demander du secours. </l>
+
+	<l id='825'>Mais enfin pour savoir par quelles destinées </l>
+
+	<l id='826'>Nous verrions terminer le cours de nos années, </l>
+
+	<l id='827'>Pour savoir notre sort ou propice ou fatal, </l>
+
+	<l id='828'>Avançons-nous le bien, reculons-nous le mal ? </l>
+
+	<l id='829'>Est-on plus tôt heureux, ou plus tard misérable ? </l>
+
+	<l id='830'>Et peut-on éviter le ciel inévitable ? </l>
+
+	<l id='831'>Il suffit de combattre en homme généreux, </l>
+
+	<l id='832'>Et d'attendre du Ciel les succès bienheureux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='833'>Tes discours, Jonathas, ont passé dans mon âme, </l>
+
+	<l id='834'>Tu blâmes mon dessein, moi-même je le blâme, </l>
+
+	<l id='835'>Il porte dans mon sein une juste terreur, </l>
+
+	<l id='836'>Il me couvre de honte, il me comble d'horreur, </l>
+
+	<l id='837'>Je reconnais mon mal, et ce qui m'en délivre, </l>
+
+	<l id='838'>Bref, Je sais mon devoir, mais je ne puis le suivre, </l>
+
+	<l id='839'>Un pouvoir que le mien ne saurait ébranler </l>
+
+	<l id='840'>M'entraîne avec horreur où j'ai honte d'aller. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='841' part='i'>Quoi Sire...</l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='841' part='f'>Ha tu me nuis pensant m'être propice, </l>
+
+	<l id='842'>Il faut, il faut aller, fut-ce à mon précipice. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='843' part='i'>Connaissant le danger ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='843' part='f'>Va, va, retire-toi, </l>
+
+	<l id='844'>C'est un commandement et de père, et de roi. </l>
+
+	<l id='845' part='i'>Plus de discours m'offense. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='845' part='f'>Il faut donc que je cède. </l>
+
+	<l id='846'>Au moins ai-je tâché de vous donner de l'aide. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='847' part='i'>Vous, Abner, demeurez. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Saül, Phalti.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='847' part='f'>Enfin voici la nuit, </l>
+
+	<l id='848'>Phalti conduis-moi donc où je dois être instruit. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='849'>Cette savante femme à votre aide appelée, </l>
+
+	<l id='850'>Nous attend dans un bois près de cette vallée, </l>
+
+	<l id='851'>Mais comme vos Édits lui donnent de l'effroi, </l>
+
+	<l id='852'>Elle m'a dit surtout qu'elle craignait le Roi. </l>
+
+	<l id='853'>Enfin elle appréhende, et croit que je lui mène </l>
+
+	<l id='854'>Ou bien des étrangers, ou des amis en peine, </l>
+
+	<l id='855'>Qu'il vous souvienne donc étant dessus les lieux </l>
+
+	<l id='856'>D'aider à votre habit à lui tromper les yeux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='857'>Voyons-la seulement, mais est-elle bien proche ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='858'>Que votre Majesté se rende en cette roche. </l>
+
+	<l id='859'>Ce grand gouffre où la nuit règne éternellement, </l>
+
+	<l id='860'>Est le lieu destiné pour cet enchantement. </l>
+
+	<l id='861'>Je m'en vais l'avertir qu'il est temps qu'elle avance. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='862'>Va, va plus vite encor que mon impatience. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Abner, Saül. </head>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='863'>Mais pensez-vous enfin en tirer du secours ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='864'>Mais pensez-vous en vain me combattre toujours ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='865'>Qui vous combat ainsi, vous sert, vous est propice. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='866'>Et qui me sert ainsi se creuse un précipice. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='867'>Que n'y puis-je tomber pour vous en retirer ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='868'>Votre zèle est aveugle, il vous fait égarer. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='869' part='i'>Puis-je moins pour mon prince ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='869' part='f'>Il faut m'être barbare, </l>
+
+	<l id='870'>Si je veux du poison que l'on me le prépare, </l>
+
+	<l id='871'>Qu'on m'ouvre le tombeau, quand on m'y voit courir, </l>
+
+	<l id='872'>Et si je veux périr, qu'on me laisse périr. </l>
+
+	<l id='873'>Mais voici cette femme, allons, allons apprendre, </l>
+
+	<l id='874'>Ou si je dois monter ou si je dois descendre. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Saül, La Pythonisse. </head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='875'>Vous de qui le savoir fertile en grands effets, </l>
+
+	<l id='876'>Peut annoncer la guerre, ou prédire la paix, </l>
+
+	<l id='877'>Vous de qui la puissance a donné tant de marques </l>
+
+	<l id='878'>Qu'elle s'étend plus loin que celle des Monarques, </l>
+
+	<l id='879'>Hélas ! Si c'est un bien qui reste aux malheureux </l>
+
+	<l id='880'>Que de pouvoir toucher les esprits généreux, </l>
+
+	<l id='881'>Ne vous étonnez pas qu'un inconnu demande </l>
+
+	<l id='882'>Qu'ici votre faveur dessus lui se répande. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='883'>Seigneur pour obtenir ma faveur et mon soin, </l>
+
+	<l id='884'>Il suffit seulement, que l'on en ait besoin. </l>
+
+	<l id='885'>Mais vous n'ignorez pas de combien de tempêtes </l>
+
+	<l id='886'>La fureur de Saül a menacé nos têtes, </l>
+
+	<l id='887'>Vous savez les Édits qu'il a faits contre nous, </l>
+
+	<l id='888'>Combien de mes pareils ont senti son courroux, </l>
+
+	<l id='889'>Et que vous m'exposez au même précipice </l>
+
+	<l id='890'>Quand votre affliction implore mon service. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='891'>Je sais bien les Édits que ce Monarque a faits, </l>
+
+	<l id='892'>Mais je sais mieux encor ce qu'on doit aux bienfaits, </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='893'>Je vous sers d'un esprit qui n'est point mercenaire, </l>
+
+	<l id='894'>Et me cacher au Roi ce sera mon salaire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='895'>Bannissez de votre âme et la crainte et l'effroi, </l>
+
+	<l id='896'>Vous êtes à couvert des poursuites du Roi, </l>
+
+	<l id='897'>Bien que par un destin injuste et déplorable </l>
+
+	<l id='898'>On soupçonne toujours la foi d'un misérable, </l>
+
+	<l id='899'>Celle que dans mon malheur vous recevez de moi, </l>
+
+	<l id='900'>Est un gage aussi saint que le serment d'un Roi. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='901'>Je remets en vos soins toute mon assurance. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='902'>Moi, je remets en vous toute mon espérance. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='903' part='i'>Mais que puis-je pour vous ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='903' part='f'>N'épargnez point d'efforts, </l>
+
+	<l id='904'>Rappelez Samuel de l'empire des morts. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='905' part='i'>Samuel ! Samuel ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='905' part='f'>Samuel, ce Prophète, </l>
+
+	<l id='906'>Des volontés du Ciel le plus noble Interprète. </l>
+
+	<l id='907'>Rappelez ce grand homme avec la même voix </l>
+
+	<l id='908'>Qui faisait l'espérance, ou la crainte des Rois, </l>
+
+	<l id='909'>Enfin si de votre art la force nonpareille </l>
+
+	<l id='910'>Peut éveiller les morts, que Samuel s'éveille. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='911'>Samuel fera voir la force de mon art, </l>
+
+	<l id='912'>Permettez-moi d'entrer dans cet antre à l'écart, </l>
+
+	<l id='913'>Là je dois en secret accomplir les mystères </l>
+
+	<l id='914'>Au dessein que je fais maintenant nécessaires. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='915' part='i'>Allez donc. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='915' part='f'>Mais que fais-je ? Ha ! Retire tes pas, </l>
+
+	<l id='916'>Déjà précipités au chemin du trépas. </l>
+
+	<l id='917'>Sers-toi de tes clartés, évite, fuis le crime, </l>
+
+	<l id='918'>Tandis qu'un peu de jour te découvre l'abîme.</l>
+
+	<l id='919'>Tardif est le remords qui me vient exciter, </l>
+
+	<l id='920'>Mais il est assez prompt s'il peut me profiter. </l>
+
+	<l id='921'>Amis retirons-nous : mais que dis-je timide ? </l>
+
+	<l id='922'>Non, non, suivons la voie où mon malheur nous guide : </l>
+
+	<l id='923'>Sortez, sortez remords de mon coeur agité, </l>
+
+	<l id='924'>En vain vos visions m'avaient épouvanté. </l>
+
+	<l id='925'>Vous naissez seulement de la faiblesse humaine, </l>
+
+	<l id='926'>Vous ne troublez que ceux qu'une ombre met en peine, </l>
+
+	<l id='927'>Ne pensez plus m'atteindre et m'imposer des lois, </l>
+
+	<l id='928'>La crainte et les remords sont indignes des Rois. </l>
+
+	<l id='929'>Que mon dessein soit lâche et passe pour un crime, </l>
+
+	<l id='930'>Puisqu'il me peut aider, je le crois légitime ; </l>
+
+	<l id='931'>S'il est enfin suivi d'un succès fortuné, </l>
+
+	<l id='932'>Il paraîtra louable à qui l'a condamné. </l>
+
+	<l id='933'>Que cette femme, hélas ! fait languir mon attente, </l>
+
+	<l id='934'>Ou que le temps est long à l'âme impatiente ! </l>
+
+	<l id='935'>Allons voir. Mais où vais-je aveugle que je suis ? </l>
+
+	<l id='936'>Veux-je par mes forfaits mériter mes ennuis ? </l>
+
+	<l id='937'>Veux-je par mes forfaits mériter la tempête </l>
+
+	<l id='938'>Que le Ciel foudroyant balance sur ma tête ? </l>
+
+	<l id='939'>Que fais-je, que ferai-je ? Ô Prince infortuné, </l>
+
+	<l id='940'>Par le Ciel, par l'Enfer, par soi-même gêné ! </l>
+
+	<l id='941'>Toi que le crime engendre en une âme abattue, </l>
+
+	<l id='942'>Ô salutaire enfant d'un Père qui nous tue, </l>
+
+	<l id='943'>Remords enlève-moi de ces funestes lieux, </l>
+
+	<l id='944'>Où déjà tout l'Enfer se découvre à mes yeux. </l>
+
+	<l id='945'>S'il faut, s'il faut périr, qu'une mort magnanime </l>
+
+	<l id='946'>Marque notre infortune, et non pas notre crime ; </l>
+
+	<l id='947'>Qu'elle attire des pleurs sur notre monument, </l>
+
+	<l id='948'>Que ce soit une mort, non pas un châtiment. </l>
+
+	<l id='949'>Arrachons-nous enfin de ces lieux détestables, </l>
+
+	<l id='950'>Et soyons malheureux sans nous rendre coupables. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. La Pythonisse, Saül.</head>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='951' part='i'>Seigneur. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='951' part='f'>Ha que ferai-je ? Hé bien le verrons-nous ? </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='952'>Déjà la terre éclate, et s'ouvre devant vous. </l>
+
+	<l id='953' part='i'>Je vois. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='953' part='f'>Que voyez-vous, quoi, la paix ou la guerre ? </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='954'>Je vois, je vois un Dieu qui monte de la terre. </l>
+
+	<l id='955'>Mais sa divine voix montant jusques à moi </l>
+
+	<l id='956'>M'apprend en même temps que vous êtes le Roi. </l>
+
+	<l id='957' part='i'>Hélas ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='957' part='m'>Ne craignez point. </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='957' part='m'>Ha Sire ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='957' part='f'>Je vous jure </l>
+
+	<l id='958'>Que si j'ai du pouvoir, ce pouvoir vous assure. </l>
+
+	<l id='959'>Quelle forme a celui qui vous est présenté ? </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='960'>La forme d'un vieillard rempli de Majesté. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='961'>Ha ! Je le reconnais à cette noble marque </l>
+
+	<l id='962'>Que respecta toujours un malheureux Monarque. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII. L'Ombre de Samuel, Saül.</head>
+
+<sp who='L-OMBRE'><speaker>L'OMBRE.</speaker>
+
+	<l id='963'>Pourquoi, pourquoi fais-tu tant d'injustes efforts </l>
+
+	<l id='964'>Pour m'ôter ce repos que le Ciel donne aux morts ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='965'>Toi qui vois mon désastre, âme pure, âme sainte, </l>
+
+	<l id='966'>Pardonne à mon malheur, pardonne à la contrainte ; </l>
+
+	<l id='967'>Si je commets un crime en cette extrémité, </l>
+
+	<l id='968'>Ce crime est seulement de la nécessité. </l>
+
+	<l id='969'>Hélas ! De tous côtés le péril m'environne, </l>
+
+	<l id='970'>La terre me poursuit, et le ciel m'abandonne, </l>
+
+	<l id='971'>Si ce n'est que son oeil favorable à mes jours </l>
+
+	<l id='972'>Veuille par ton aspect me donner du secours. </l>
+
+	<l id='973'>Ainsi désespérant du côté de la terre, </l>
+
+	<l id='974'>Et du bras immortel qui lance le tonnerre, </l>
+
+	<l id='975'>Je cherche ton secours, et me tourne vers toi </l>
+
+	<l id='976'>Pour apprendre le sort d'un misérable Roi. </l>
+
+</sp>
+
+<sp who='L-OMBRE'><speaker>L'OMBRE.</speaker>
+
+	<l id='977'>Si le Ciel te poursuit, si le Ciel t'abandonne, </l>
+
+	<l id='978'>Crois-tu trouver ailleurs l'appui de ta Couronne ? </l>
+
+	<l id='979'>Penses-tu qu'un esprit dépouillé de son corps </l>
+
+	<l id='980'>Puisse aux arrêts du Ciel opposer ses efforts ? </l>
+
+	<l id='981'>Songe qu'un Dieu vivant te tira de la poudre, </l>
+
+	<l id='982'>Pour te mettre en un rang où l'homme tient la foudre ; </l>
+
+	<l id='983'>Songe qu'il t'éleva dans un Trône adoré, </l>
+
+	<l id='984'>Où tes voeux plus hardis n'eussent pas aspiré : </l>
+
+	<l id='985'>Mais songe en même temps à la méconnaissance </l>
+
+	<l id='986'>Dont Saül trop ingrat a payé sa puissance ; </l>
+
+	<l id='987'>Souviens-toi que le Ciel est ennemi du mal, </l>
+
+	<l id='988'>Et que tu fus ingrat quand il fut libéral. </l>
+
+	<l id='989'>Souviens-toi des forfaits qui souillèrent ta vie, </l>
+
+	<l id='990'>Et tu verras l'horreur dont elle est poursuivie. </l>
+
+	<l id='991'>Pense à ce peuple saint par tes Lois égorgé </l>
+
+	<l id='992'>Pour avoir contre toi l'innocent protégé, </l>
+
+	<l id='993'>Pour avoir fait trouver dans l'enclos de sa ville </l>
+
+	<l id='994'>Au malheureux David la faveur d'un asile. </l>
+
+	<l id='995'>Pense combien de fois ma voix t'a menacé, </l>
+
+	<l id='996'>Et pour voir l'avenir regarde le passé. </l>
+
+	<l id='997'>Le Ciel te commanda, tu te montras rebelle, </l>
+
+	<l id='998'>Tu lui donnas ta foi, tu lui fus infidèle, </l>
+
+	<l id='999'>Et ta rébellion, et ton manque de foi, </l>
+
+	<l id='1000'>Ont allumé les feux qui vont choir dessus toi. </l>
+
+	<l id='1001'>Tu vas tomber du Trône, et quoi que l'on conspire, </l>
+
+	<l id='1002'>David persécuté va monter à l'Empire ; </l>
+
+	<l id='1003'>Ce David, cet objet à toi seul odieux, </l>
+
+	<l id='1004'>Et l'amour éternel de la terre et des Cieux, </l>
+
+	<l id='1005'>Ce David de tes maux le souverain remède, </l>
+
+	<l id='1006'>Que ton peuple inspiré demandait pour ton aide, </l>
+
+	<l id='1007'>Ce David repoussé par d'injustes efforts, </l>
+
+	<l id='1008'>Entrera glorieux au Trône d'où tu sors, </l>
+
+	<l id='1009'>Et les Rois apprendront par sa chute effroyable </l>
+
+	<l id='1010'>Que qui règne en Tyran doit périr en coupable. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1011'>Je reçus la Couronne afin de la quitter, </l>
+
+	<l id='1012'>Le Ciel me la donna, le ciel peut me l'ôter. </l>
+
+</sp>
+
+<sp who='L-OMBRE'><speaker>L'OMBRE.</speaker>
+
+	<l id='1013'>Mais ce n'est pas assez au Ciel qui t'abandonne </l>
+
+	<l id='1014'>D'arracher de ta tête une illustre Couronne. </l>
+
+	<l id='1015'>Il livrera les tiens aux mêmes ennemis </l>
+
+	<l id='1016'>Que son bras tout-puissant t'a si souvent soumis ; </l>
+
+	<l id='1017'>Il veut que ta défaite et ta pompe étouffée </l>
+
+	<l id='1018'>D'un Roi ton adversaire honorent le trophée </l>
+
+	<l id='1019'>Il veut, il veut encore ennemi de tes jours ; </l>
+
+	<l id='1020'>Qu'une effroyable mort en termine le cours. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1021'>Hé bien nous périrons ! Ce n'est une victoire </l>
+
+	<l id='1022'>Que de perdre la vie aussitôt que la gloire. </l>
+
+</sp>
+
+<sp who='L-OMBRE'><speaker>L'OMBRE.</speaker>
+
+	<l id='1023'>Mais ne présume pas, Monarque infortuné, </l>
+
+	<l id='1024'>Que par tant de malheurs ton tourment soit borné. </l>
+
+	<l id='1025'>En donnant à tes jours une fin déplorable, </l>
+
+	<l id='1026'>Le Ciel te fait sentir la peine d'un coupable, </l>
+
+	<l id='1027'>En te privant d'un trône où tu vivais sans Loi, </l>
+
+	<l id='1028'>Le Ciel te fait sentir le châtiment d'un Roi </l>
+
+	<l id='1029'>Mais pour comble d'horreur, de peine et de misère, </l>
+
+	<l id='1030'>Le Ciel veut t'exposer au supplice d'un Père, </l>
+
+	<l id='1031'>Et par un même coup il veut punir en toi </l>
+
+	<l id='1032'>Un Père, un criminel, un misérable Roi. </l>
+
+	<l id='1033'>Ne crois donc pas laisser à ta race naissante </l>
+
+	<l id='1034'>Du trône que tu perds ou la gloire, ou l'attente, </l>
+
+	<l id='1035'>Ne t'imagine pas revivre en tes enfants </l>
+
+	<l id='1036'>Que tu vis tant de fois revenir triomphants : </l>
+
+	<l id='1037'>Mais sache, malheureux, que ce sont des victimes </l>
+
+	<l id='1038'>Que tu verras tomber sous le faix de tes crimes : </l>
+
+	<l id='1039'>Avant qu'une autre nuit obscurcisse les Cieux </l>
+
+	<l id='1040'>Sache que tes enfants périront à tes yeux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1041'>Hélas ! Voilà le coup dont l'atteinte me tue. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Abner, La Pythonisse. Phalti, Saül.</head>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1042' part='i'>Ha Sire ! </l>
+
+</sp>
+
+<sp who='LA-PYTHONISSE'><speaker>LA PYTHONISSE.</speaker>
+
+	<l id='1042' part='f'>Ha relevez votre force abattue. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1043' part='i'>Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1043' part='f'>Fantôme affreux, ne t'enfuis pas sans moi, </l>
+
+	<l id='1044'>Père plus malheureux que misérable Roi. </l>
+
+	<l id='1045'>Mais ce spectre effroyable, et revêtu de flamme </l>
+
+	<l id='1046'>Disparaît de mes yeux pour entrer dans mon âme, </l>
+
+	<l id='1047'>Et ce pâle Démon, ennemi de mon bien </l>
+
+	<l id='1048'>Fait déjà dans mon coeur son enfer, et le mien. </l>
+
+	<l id='1049'>Mes enfants périront, ô douleur, ô manie, </l>
+
+	<l id='1050'>Ô curiosité cruellement punie ! </l>
+
+	<l id='1051'>Mes enfants périront ! Ô toi qui que tu sois, </l>
+
+	<l id='1052'>Samuel ou Démon, prophète ou sainte voix, </l>
+
+	<l id='1053'>Éteins en t'en allant la clarté qui me reste, </l>
+
+	<l id='1054'>Exécute un Arrêt infernal ou Céleste, </l>
+
+	<l id='1055'>Je mourrai trop puni, puisque dans ce transport </l>
+
+	<l id='1056'>Déjà de mes enfants j'ai ressenti la mort ! </l>
+
+	<l id='1057'>Triste espoir de mes jours, enfants trop déplorables ! </l>
+
+	<l id='1058'>Pour être mes enfants, êtes-vous donc coupables ? </l>
+
+	<l id='1059'>Les crimes d'un Saül, indigne de son rang, </l>
+
+	<l id='1060'>Sont-ils, comme à son âme, attachés à son sang ? </l>
+
+	<l id='1061'>Vous m'aimez comme enfants, vous plaignez ma misère, </l>
+
+	<l id='1062'>Est-ce un crime qu'aimer et plaindre votre Père ? </l>
+
+	<l id='1063'>Cependant, quels malheurs aux miens s'égaleront ? </l>
+
+	<l id='1064'>Tes enfants, me dit-on, tes enfants périront. </l>
+
+	<l id='1065'>Ô Justice du Ciel cachée à la Nature, </l>
+
+	<l id='1066'>Étouffe au moins mes jours avant que le murmure. </l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='4'><head>ACTE IV</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Phalti, Abner.</head>
+
+<sp who='PHALTI'><speaker>PHALTI, parlant à quelqu'un de la suite de Saül. </speaker>
+
+	<l id='1067'>Allez chez la Princesse, et lui faites savoir </l>
+
+	<l id='1068'>Qu'elle vienne au plutôt, que le Roi la veut voir. </l>
+
+	<l id='1069'>Abner, en vain le Roi veut montrer son courage, </l>
+
+	<l id='1070'>La douleur de l'esprit éclate en son visage : </l>
+
+	<l id='1071'>Il veut voir ses enfants qu'il croit prêts à périr, </l>
+
+	<l id='1072'>Et par son ordre exprès je m'en vais les quérir ? </l>
+
+	<l id='1073'>Dirai-je à Jonathas le succès de ses charmes </l>
+
+	<l id='1074'>Qui d'un si grand désastre a menacé nos armes ? </l>
+
+	<l id='1075'>Ayant su le dessein que Saül avait fait, </l>
+
+	<l id='1076'>Il en voudra savoir le malheureux effet. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1077'>En cette occasion use de ta prudence. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1078'>Abner, il est besoin qu'il en ait connaissance, </l>
+
+	<l id='1079'>Au moins comme il peut tout dessus l'esprit du Roi. </l>
+
+	<l id='1080'>Il en pourra chasser un si mortel effroi. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1081'>Prends surtout des conseils qui lui soient profitables. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1082'>Enfin, je vais quérir ces Princes déplorables. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER, seul.</speaker>
+
+	<l id='1083'>Ha qu'une illusion peut causer de malheurs ! </l>
+
+	<l id='1084'>Que le trouble du Roi me présage de pleurs ! </l>
+
+	<l id='1085' part='i'>Mais il sort. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Saül et sa suite, Abner.</head>
+
+<sp who='SAUL'><speaker>SAÜL, à sa suite.</speaker>
+
+	<l id='1085' part='f'>Ne bougez. Abner, je te confesse, </l>
+
+	<l id='1086'>J'éprouve ici qu'un Père a beaucoup de faiblesse. </l>
+
+	<l id='1087'>Ô Nature, Nature, outrageuse à ton tour, </l>
+
+	<l id='1088'>N'as-tu mis dans ce coeur une si forte amour, </l>
+
+	<l id='1089'>Que pour être toi-même, impitoyable Mère </l>
+
+	<l id='1090'>Le supplice éternel d'un Monarque, et d'un Père ? </l>
+
+	<l id='1091'>Ha ! La haine du Ciel mon ennemi fatal, </l>
+
+	<l id='1092'>En m'ôtant mes grandeurs me ferait peu de mal, </l>
+
+	<l id='1093'>Si pour rendre ce mal plus grand et plus funeste </l>
+
+	<l id='1094'>La Nature n'aidait à la haine Céleste. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1095'>Croirez-vous donc toujours à cette illusion ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1096'>Je n'en puis effacer l'horrible impression. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1097'>Sire, n'en doutez point, c'est une Ombre infernale </l>
+
+	<l id='1098'>Qui tâche en vous troublant de vous être fatale,</l>
+
+	<l id='1099'>Et qui de Samuel a le port emprunté ; </l>
+
+	<l id='1100'>Pour paraître plus sainte à votre Majesté. </l>
+
+	<l id='1101'>Quoi, Sire, après la mort, dont l'instant nécessaire </l>
+
+	<l id='1102'>De l'homme vertueux termine la misère, </l>
+
+	<l id='1103'>Les plus justes esprits seraient-ils bienheureux </l>
+
+	<l id='1104'>Si la force d'un charme allait jusque sur eux ? </l>
+
+	<l id='1105'>Loin d'avoir une paix d'éternelle durée, </l>
+
+	<l id='1106'>Et que les déplaisirs n'ont jamais altérée, </l>
+
+	<l id='1107'>Eux qu'une belle mort avait fait triompher, </l>
+
+	<l id='1108'>Ne dépendraient-ils pas du pouvoir de l'enfer ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1109'>Comme toi, cher Abner, je crois qu'une imposture, </l>
+
+	<l id='1110'>Ouvrage des Démons, fait le mal que j'endure. </l>
+
+	<l id='1111'>Au moins pour résister à mon adversité </l>
+
+	<l id='1112'>Par cette opinion je veux être flatté : </l>
+
+	<l id='1113'>Mais soit que je regarde, et que je considère </l>
+
+	<l id='1114'>Le titre de Monarque, ou le titre de Père, </l>
+
+	<l id='1115'>Il est de mon devoir de prévoir le danger, </l>
+
+	<l id='1116'>Il est de mon devoir de ne rien négliger.  </l>
+
+	<l id='1117'>Ainsi je tâcherai, trop misérable Père, </l>
+
+	<l id='1118'>De sauver des enfants dont l'âme m'est si chère ; </l>
+
+	<l id='1119'>Ainsi je tâcherai, Monarque malheureux, </l>
+
+	<l id='1120'>De laisser à l'État des Princes généreux. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1121'>On ne saurait blâmer ce que fait la Prudence. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1122'>Mais qu'en dois-je espérer ? Hélas ! Quelle assistance ? </l>
+
+	<l id='1123'>Si le Ciel fait les maux que je crains aujourd'hui, </l>
+
+	<l id='1124'>Peut-elle me servir de rempart et d'appui ? </l>
+
+	<l id='1125'>Elle peut étouffer les complots de la terre, </l>
+
+	<l id='1126'>Mais elle ne peut rien contre un coup de tonnerre. </l>
+
+	<l id='1127'>Elle peut triompher des esprits factieux, </l>
+
+	<l id='1128'>Mais elle cède aux traits que décochent les Cieux. </l>
+
+	<l id='1129'>Crois-je donc détourner par le soin qui me reste </l>
+
+	<l id='1130'>L'épouvantable effet d'un jugement Céleste ? </l>
+
+	<l id='1131'>Si le Ciel me combat, s'il se laisse endurcir, </l>
+
+	<l id='1132'>Ce n'est qu'en lui cédant que je puis l'adoucir. </l>
+
+	<l id='1133'>Avec tous mes efforts que pourrais-je entreprendre ? </l>
+
+	<l id='1134'>Un homme contre un Dieu ! C'est trop il se faut rendre, </l>
+
+	<l id='1135'>Mourez, mourez enfants : mais que dis-je mourez, </l>
+
+	<l id='1136'>Est-ce pour le pays que vous expirerez ? </l>
+
+	<l id='1137'>Si l'Arrêt qui vous juge annonce aussi la perte, </l>
+
+	<l id='1138'>Que servira la mort que vous aurez soufferte ? </l>
+
+	<l id='1139'>Vous exposer sans fruit où le mal est certain, </l>
+
+	<l id='1140'>Ce n'est pas être Père, et c'est être inhumain. </l>
+
+	<l id='1141'>Si quelque fois un Père eût assez de courage </l>
+
+	<l id='1142'>Pour laisser ses enfants au milieu de l'orage, </l>
+
+	<l id='1143'>S'il se plût quelquefois de les y voir courir, </l>
+
+	<l id='1144'>Il n'était pas certain qu'ils y dussent périr. </l>
+
+	<l id='1145'>Faisons donc nos efforts pour sauver notre Race, </l>
+
+	<l id='1146'>Le Ciel punit souvent par la seule menace, </l>
+
+	<l id='1147'>Et ne défend jamais en Tyran insensé, </l>
+
+	<l id='1148'>Qu'on tâche à se sauver quand il est menacé. </l>
+
+	<l id='1149'>Bref, il faut tout tenter avant qu'on désespère, </l>
+
+	<l id='1150'>C'est au moins le devoir d'un Monarque, et d'un Père, </l>
+
+	<l id='1151'>Si nous tentons en vain dans cette extrémité, </l>
+
+	<l id='1152'>Ne laissons rien au moins que nous n'ayons tenté. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1153'>Sire, quoi que le Ciel... Mais voici la Princesse. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1154'>Cache-lui si tu peux la douleur qui te presse. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Michol, Saül, Abner. </head>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1155'>Sire, autant que votre ordre, un grand et juste effroi </l>
+
+	<l id='1156'>Me fait voir maintenant aux genoux de mon Roi. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1157'>Chassez de votre esprit la crainte qui le trouble. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1158'>Devant vous et pour vous ma crainte se redouble. </l>
+
+	<l id='1159'>Ce n'est point pour autrui, c'est seulement pour vous </l>
+
+	<l id='1160'>Que du Ciel irrité je redoute les coups. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1161' part='i'>Quoi donc que craignez-vous ? </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1161' part='f'>Sire, l'on doit tout craindre </l>
+
+	<l id='1162'>Quand le salut du Roi semble nous y contraindre. </l>
+
+	<l id='1163'>Si jusqu'ici le Ciel dédaignant votre encens, </l>
+
+	<l id='1164'>Refusa de répondre à vos tristes accents, </l>
+
+	<l id='1165'>Peut-être qu'aujourd'hui que le malheur vous touche, </l>
+
+	<l id='1166'>Pour vous en détourner, il répond par ma bouche. </l>
+
+	<l id='1167'>Que votre Majesté dont le Ciel est l'appui, </l>
+
+	<l id='1168'>Aux yeux de vos sujets, se dérobe aujourd'hui ; </l>
+
+	<l id='1169'>Sire, ne sortez point, un grand mal vous menace, </l>
+
+	<l id='1170'>N'allez point au devant, et permettez qu'il passe. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1171'>Qu'avez-vous découvert ? Quels funestes projets ? </l>
+
+	<l id='1172'>Sont-ils de l'ennemi ? Sont-ils de mes sujets ? </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1173'>Mais ne négligez rien ; quoi que l'on puisse dire, </l>
+
+	<l id='1174'>Tout doit paraître grand à qui tient un Empire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1175' part='i'>Dites-nous donc le mal. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1175' part='f'>Et les moindres avis </l>
+
+	<l id='1176'>Ont souvent profité quand on les a suivis. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1177'>Qui vous découvre enfin un mal si redoutable ? </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1178'>Ha Sire ! Un songe affreux, un songe épouvantable </l>
+
+	<l id='1179'>Me fait craindre aujourd'hui pour votre Majesté </l>
+
+	<l id='1180'>Tout ce que l'infortune a de plus redouté. </l>
+
+	<l id='1181' part='i'>Hélas ! Je vous ai vu...</l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1181' part='f'>J'estime cette crainte </l>
+
+	<l id='1182'>Dont je vous vois encor si vivement atteinte ; </l>
+
+	<l id='1183'>Comme vous êtes femme, et comme je suis Roi, </l>
+
+	<l id='1184'>Elle est digne de vous, mais indigne de moi. </l>
+
+	<l id='1185'>Cette crainte est en vous une juste tendresse, </l>
+
+	<l id='1186'>Et ne serait en moi qu'une lâche faiblesse. </l>
+
+	<l id='1187'>Me cacher à mon camp ! Lorsque mon seul aspect </l>
+
+	<l id='1188'>Peut inspirer aux miens la force et le respect, </l>
+
+	<l id='1189'>Quelques traits rigoureux qui me puissent atteindre, </l>
+
+	<l id='1190'>Ce serait là le mal qu'un songe vous fait craindre. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1191'>Mais écoutez au moins ce songe plein d'horreur, </l>
+
+	<l id='1192'>Voyez s'il vient du Ciel, ou s'il vient de ma peur. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1193'>Ce n'est pas ma coutume aux troubles de mon âme </l>
+
+	<l id='1194'>De me faire des lois, des songes d'une femme. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1195'>Le Ciel pour nous sauver se sert de tous moyens, </l>
+
+	<l id='1196'>Et par un moindre organe il peut aider les siens. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1197'>Enfin un juste soin te peut rendre importune. </l>
+
+	<l id='1198'>Si le Ciel travaillait contre mon infortune, </l>
+
+	<l id='1199'>Comme il t'exciterait afin de m'assister, </l>
+
+	<l id='1200'>Il m'ouvrirait le coeur afin de t'écouter. </l>
+
+	<l id='1201'>Mais sache maintenant, fille, et femme fidèle, </l>
+
+	<l id='1202'>Et pourquoi tu me vois, et pour quoi je t'appelle, </l>
+
+	<l id='1203'>Tu m'as assez suivi, tu m'as trop combattu, </l>
+
+	<l id='1204'>Et trop longtemps en vain témoigné ta vertu ! </l>
+
+	<l id='1205'>Si jamais la raison n'a vaincu ma colère, </l>
+
+	<l id='1206'>Le Ciel te vengera des injures d'un Père. </l>
+
+	<l id='1207'>Va dans Jérusalem attendre quelque paix ; </l>
+
+	<l id='1208'>Ton Père et ton Époux sont de toi satisfaits, </l>
+
+	<l id='1209'>Tu viens de contenter par l'ardeur de ton zèle, </l>
+
+	<l id='1210'>Et l'amour conjugale, et l'amour paternelle. </l>
+
+	<l id='1211'>Va donc, ne tarde plus ; va, mais console-toi, </l>
+
+	<l id='1212'>Puisque le Ciel plus doux te garde pour un Roi.  </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1213'>Moi, Sire, pour un Roi, donc vous croyez encore </l>
+
+	<l id='1214'>Que par l'ambition David se déshonore. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1215'>Qu'il se propose un trône, il le doit, il le peut, </l>
+
+	<l id='1216'>Puisque pour me punir le Ciel même le veut. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1217'>Sire, que dites-vous, le ciel veut-il un crime ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1218'>Tout ce que veut le Ciel est juste et légitime : </l>
+
+	<l id='1219'>Mais il soulagera le fardeau de mes fers </l>
+
+	<l id='1220'>S'il te laisse une part des grandeurs que je perds. </l>
+
+	<l id='1221'>Va donc attendre ailleurs le bien qu'il te destine, </l>
+
+	<l id='1222'>Mes maux seront moins grands, s'ils en sont l'origine. </l>
+
+	<l id='1223'>Que David règne en paix (s'il est vrai toutefois </l>
+
+	<l id='1224'>Que la paix puisse entrer dedans l'âme des Rois). </l>
+
+	<l id='1225'>Que son bras invincible étende ses Provinces, </l>
+
+	<l id='1226'>Qu'il sache mieux que moi la science des Princes, </l>
+
+	<l id='1227'>Et plus ferme que moi sur un pas dangereux, </l>
+
+	<l id='1228'>Qu'il vive aussi puissant, et meure plus heureux. </l>
+
+</sp>
+
+<sp who='MICHOL'><speaker>MICHOL.</speaker>
+
+	<l id='1229' part='i'>Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1229' part='m'>Retirez-vous. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1229' part='f'>Mais Jonathas arrive. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1230'>Quel art peut empêcher que le Ciel ne m'en prive ? </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Saül, Jonathas. </head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1231'>Vos frères, où sont-ils ? Ne vous suivent-ils pas ? </l>
+
+	<l id='1232' part='i'>Qui les retient ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1232' part='f'>Je crois qu'ils marchent sur mes pas. </l>
+
+	<l id='1233'>Mais d'où vient le souci dont vous portez les marques ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1234'>Toujours de nouveaux soins travaillent les Monarques, </l>
+
+	<l id='1235'>Sache donc qu'un avis qu'on vient de m'apporter </l>
+
+	<l id='1236'>Étant pour notre bien, n'est pas à rejeter. </l>
+
+	<l id='1237'>On vient de m'avertir que des esprits infâmes </l>
+
+	<l id='1238'>Dedans Jérusalem font de secrètes trames, </l>
+
+	<l id='1239'>Et qu'on verra bientôt soulever d'autres flots, </l>
+
+	<l id='1240'>Si mon soin plus puissant n'étouffe leurs complots. </l>
+
+	<l id='1241'>Il est donc nécessaire, ou bien que ton courage, </l>
+
+	<l id='1242'>Ou bien que ta présence écarte cet orage, </l>
+
+	<l id='1243'>Et qu'enfin ton aspect favorisé des Cieux </l>
+
+	<l id='1244'>Ôte jusqu'à l'espoir aux esprits factieux. </l>
+
+	<l id='1245'>Je sais que t'enfermer dans de tristes murailles </l>
+
+	<l id='1246'>Quand la gloire t'appelle au milieu des batailles, </l>
+
+	<l id='1247'>C'est te faire sentir des maux plus inhumains </l>
+
+	<l id='1248'>Que si l'on t'arrachait la victoire des mains. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1249'>Je ne puis maintenant vous cacher ma faiblesse, </l>
+
+	<l id='1250'>Ici l'obéissance est un trait qui me blesse, </l>
+
+	<l id='1251'>C'est m'imposer sans doute une sévère loi. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1252'>Mais qu'importe où l'on serve ou son Père, ou son Roi ? </l>
+
+	<l id='1253'>Que ce soit dans le camp, que ce soit dans la ville, </l>
+
+	<l id='1254'>Il n'importe des lieux pourvu qu'on soit utile. </l>
+
+	<l id='1255'>Dans la paix, dans la guerre, il n'importe du temps, </l>
+
+	<l id='1256'>L'honneur en est égal quand les Rois sont contents. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1257'>Que j'aille dans la gloire, ou dans la servitude, </l>
+
+	<l id='1258'>S'il faut vous obéir, je ne vois rien de rude. </l>
+
+	<l id='1259'>Mais, Sire, j'ai calmé cet orage naissant. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1260'>Il renaît toutefois plus fort et plus puissant. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1261'>S'il renaît plus puissant, votre seule présence </l>
+
+	<l id='1262'>Peut avecques succès calmer sa violence. </l>
+
+	<l id='1263'>Triomphez dans la ville, et par d'heureux efforts </l>
+
+	<l id='1264'>Vos fils vous imitant triompheront dehors : </l>
+
+	<l id='1265'>Laissez-nous donc ici le soin de la victoire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1266'>Tu m'es utile ailleurs, ailleurs sera ta gloire. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1267'>Mais ce mal que l'on craint n'est peut-être qu'un bruit. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1268'>Ne me résiste point, j'en suis assez instruit. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1269'>Mais si de cette mort qui me fut destinée </l>
+
+	<l id='1270'>On voit luire aujourd'hui la fatale journée, </l>
+
+	<l id='1271'>Pensez-vous que vos soins me sauvent du trépas </l>
+
+	<l id='1272'>Plutôt entre des murs qu'au milieu des combats ? </l>
+
+	<l id='1273'>Que je sorte du camp, il me suit dans la ville, </l>
+
+	<l id='1274'>Et sait rendre en tous lieux notre soin inutile. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1275'>Mais pourquoi me tiens-tu ces discours ennuyeux ? </l>
+
+	<l id='1276'>Je sais que le trépas nos poursuit en tous lieux, </l>
+
+	<l id='1277'>Que c'est un vieux Tyran qui règne sur la terre, </l>
+
+	<l id='1278'>Quelquefois dans la paix plus cruel qu'en la guerre, </l>
+
+	<l id='1279'>Et qui cache souvent ces traits ensanglantés </l>
+
+	<l id='1280'>Où l'on croit que ses coups seront moins redoutés. </l>
+
+	<l id='1281'>Ainsi parmi les maux que je lui vois répandre, </l>
+
+	<l id='1282'>Je craindrais t'y conduire au lieu de t'en défendre ; </l>
+
+	<l id='1283'>Est-ce de ton salut se montrer curieux </l>
+
+	<l id='1284'>Que de t'abandonner parmi des factieux ? </l>
+
+	<l id='1285'>Hélas ! Quand je t'oblige à suivre mon envie, </l>
+
+	<l id='1286'>Peut-être veux-je aider à t'arracher la vie. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1287'>Sire, ne croyez pas un fantôme trompeur, </l>
+
+	<l id='1288'>Capable seulement de donner de la peur. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1289'>Sait-il donc... Que dis-tu ? Ne feins pas davantage. </l>
+
+	<l id='1290'>A-t-on d'un nouveau mal quelque nouveau présage ? </l>
+
+	<l id='1291' part='i'>Qu'a-t-on vu, que craint-on ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1291' part='f'>Sire, vous l'avez su. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1292' part='i'>Qu'ai-je su ? Qu'ai-je vu ? Quoi ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1292' part='f'>Vous n'avez rien vu. </l>
+
+	<l id='1293'>Quoi qui rende vos jours si irrités, et si sombres, </l>
+
+	<l id='1294'>Ce n'est avoir rien vu que d'avoir vu des ombres. </l>
+
+	<l id='1295'>Étouffez donc les soins que vous avez pour nous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1296'>Ha ! Malheureux Phalti, digne de mon courroux ! </l>
+
+	<l id='1297'>Il rend donc aujourd'hui mes blessures mortelles, </l>
+
+	<l id='1298'>Il a donc publié ces funestes nouvelles. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1299'>Sire, il n'a point failli en les faisant savoir, </l>
+
+<note>L'original porte "ne les faisant", nous corrigeons par "en les faisant". </note>
+
+	<l id='1300'>Loin d'avoir fait un crime il a fait son devoir. </l>
+
+	<l id='1301'>Il sait bien que la crainte ou l'espérance est vaine, </l>
+
+	<l id='1302'>Lorsqu'un Démon annonce ou le bien, ou la peine : </l>
+
+	<l id='1303'>Mais déjà votre esprit, plus fort que nos discours, </l>
+
+	<l id='1304'>De ses propres clartés a tiré son secours ; </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1305'>Que ce soit Samuel qui montre ma disgrâce, </l>
+
+	<l id='1306'>Que ce soit d'un Démon une vaine menace, </l>
+
+	<l id='1307'>Ce n'est pas là le but que tu dois regarder, </l>
+
+	<l id='1308'>Tu dois oublier tout quand je veux commander, </l>
+
+	<l id='1309'>Quelque bien que ton bras promette à la Province, </l>
+
+	<l id='1310'>Tu ne dois écouter que la voix de ton Prince. </l>
+
+	<l id='1311'>Obéis, obéis, et même à ma rigueur, </l>
+
+	<l id='1312'>Je t'aime obéissant, tout autant que vainqueur. </l>
+
+	<l id='1313'>Dusses-tu me conduire à le plus haute gloire, </l>
+
+	<l id='1314'>Dusses-tu dans mon trône, attacher la victoire, </l>
+
+	<l id='1315'>Elle me déplairait avec tous ses appas </l>
+
+	<l id='1316'>Me venant d'une main qui n'obéirait pas. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1317'>Sire, par votre amour la Nature vous tente, </l>
+
+	<l id='1318'>Mais la Nature aux Rois doit être indifférente, </l>
+
+	<l id='1319'>Ses conseils sont autant de subtils imposteurs </l>
+
+	<l id='1320'>Qu'ils doivent rejeter ainsi que des flatteurs. </l>
+
+	<l id='1321'>Éloignez vos enfants, craindre pour eux l'orage, </l>
+
+	<l id='1322'>N'est-ce pas des soldats abattre le courage ? </l>
+
+	<l id='1323'>N'est-ce pas par vos mains donner les plus grands coups </l>
+
+	<l id='1324'>Par qui nos ennemis triompheraient de nous ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1325'>Pour animer ensemble et soldats et province, </l>
+
+	<l id='1326'>Il suffit aujourd'hui de l'exemple du Prince </l>
+
+	<l id='1327'>Dois-je en un seul combat hasarder tout mon bien ? </l>
+
+	<l id='1328'>Veux-tu qu'exposant tout, il ne me reste rien ?</l>
+
+	<l id='1329'>Après mille succès pleins d'honneur et de gloire, </l>
+
+	<l id='1330'>Ne puis-je pas tomber ou perdre une victoire ? </l>
+
+	<l id='1331'>Et si je sais régner, dois-je perdre le soin </l>
+
+	<l id='1332'>De garder un secours qui me serve au besoin ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1333'>Si vous aimez l'État, comme l'État vous aime, </l>
+
+	<l id='1334'>Pour la nécessité conservez-vous vous-même, </l>
+
+	<l id='1335'>C'est pour l'extrémité qu'un Roi se doit garder, </l>
+
+	<l id='1336'>Et devant qu'il s'expose il doit tout hasarder. </l>
+
+	<l id='1337'>Sire, souvenez-vous que vos jours sont les nôtres, </l>
+
+	<l id='1338'>Que les Rois sont donnés pour conserver les autres, </l>
+
+	<l id='1339'>Et que celui qui veille à conserver autrui, </l>
+
+	<l id='1340'>Celui-là doit veiller premièrement pour lui. </l>
+
+	<l id='1341'>Voulez-vous conserver votre Maison naissante ? </l>
+
+	<l id='1342'>Voulez-vous désormais la rendre plus puissante ? </l>
+
+	<l id='1343'>Conservez votre Empire, en ce commun effroi, </l>
+
+	<l id='1344'>Puisque tout l'Empire est la Maison d'un Roi. </l>
+
+	<l id='1345'>Je sais bien que des Rois les enfants magnanimes </l>
+
+	<l id='1346'>Sont pour eux des trésors, et des biens légitimes, </l>
+
+	<l id='1347'>Mais ce sont de ces biens passagers et mourants </l>
+
+	<l id='1348'>Que l'on doit hasarder pour sauver les plus grands. </l>
+
+	<l id='1349'>Songez donc à sauver vos plus illustres marques, </l>
+
+	<l id='1350'>La victoire et l'honneur sont les biens des Monarques : </l>
+
+	<l id='1351'>Pour vivre glorieux, pour régner triomphants, </l>
+
+	<l id='1352'>Ils doivent exposer amis, femmes, enfants. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1353'>Hé quoi ! Par le refus de ton obéissance </l>
+
+	<l id='1354'>Veux-tu me témoigner que je suis sans puissance ? </l>
+
+	<l id='1355'>Qu'avant même la mort, où tu cours avec moi, </l>
+
+	<l id='1356'>Le Ciel m'ôte le titre, et de Père et de Roi ? </l>
+
+	<l id='1357'>Qu'il entasse sur moi martyre sur martyre, </l>
+
+	<l id='1358'>Qu'il me comble d'horreur, qu'il m'arrache l'Empire, </l>
+
+	<l id='1359'>Mais montre pour le moins, en suivant mes projets, </l>
+
+	<l id='1360'>Que tant que tu vivras j'aurai quelques sujets. </l>
+
+	<l id='1361'>Tâche au moins pour un jour d'oublier ce courage </l>
+
+	<l id='1362'>Dont l'excès me servit, et dont l'excès m'outrage. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1363'>Mais plutôt pour l'honneur plus touché que pour nous, </l>
+
+	<l id='1364'>Oubliez pour un jour que je suis né de vous. </l>
+
+	<l id='1365'>Quoi que fasse pour moi la Fortune prospère, </l>
+
+	<l id='1366'>Oui je serais fâché de vous avoir pour Père, </l>
+
+	<l id='1367'>Si l'amour de mon Père inutile pour moi </l>
+
+	<l id='1368'>Me devait empêcher de périr pour mon Roi. </l>
+
+	<l id='1369'>Quoi vos moindres sujets obtiendront cette gloire, </l>
+
+	<l id='1370'>De chercher pour leur Roi la mort ou la victoire, </l>
+
+	<l id='1371'>Et vos propres enfants, pitoyables objets, </l>
+
+	<l id='1372'>Obtiendront moins d'honneur que vos moindres sujets ? </l>
+
+	<l id='1373'>Le danger vous suivrait au milieu des batailles, </l>
+
+	<l id='1374'>Et nous serions oisifs dans de tristes murailles ! </l>
+
+	<l id='1375'>Ha ! Les enfants des Rois seraient nés malheureux </l>
+
+	<l id='1376'>S'ils ne pouvaient montrer qu'ils sont nos généreux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1377'>Donc le Ciel réservait pour me faire la guerre </l>
+
+	<l id='1378'>Des coups plus rigoureux que ceux de son tonnerre ! </l>
+
+	<l id='1379'>Hélas ! C'est le bonheur d'un Prince malheureux </l>
+
+	<l id='1380'>De voir autour de lui des enfants généreux ; </l>
+
+	<l id='1381'>Et je fais cependant des plaintes légitimes </l>
+
+	<l id='1382'>De trouver dans les miens des coeurs trop magnanimes ! </l>
+
+	<l id='1383'>Et par un sort étrange, et privé de tous biens, </l>
+
+	<l id='1384'>Je suis même gêné par la vertu des miens ! </l>
+
+	<l id='1385'>Tâches-tu d'augmenter une douleur extrême ? </l>
+
+	<l id='1386'>Veux-tu donc me gêner par ton courage même ? </l>
+
+	<l id='1387'>Trop généreux enfants ! Ciel où me réduis-tu </l>
+
+	<l id='1388'>De souhaiter en eux une moindre vertu ? </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1389'>Mais, Sire, où me réduit ma Fortune inhumaine </l>
+
+	<l id='1390'>De me faire aujourd'hui souhaiter votre haine ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1391'>Mais puisque mon repos est pour toi sans appas, </l>
+
+	<l id='1392'>C'est trop faire languir ton courage et tes bras. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1393' part='i'>Ha Sire ! Où courez-vous ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1393' part='f'>Je contente ton zèle, </l>
+
+	<l id='1394'>Je te mène au combat, où ta valeur t'appelle. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1395'>Ne vous exposez point, Sire, conservez-vous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1396'>Ne craignant pas pour toi, dois-tu craindre pour nous ? </l>
+
+	<l id='1397'>T'imaginerais-tu que ce spectre effroyable </l>
+
+	<l id='1398'>Pour toi serait menteur, et pour moi véritable ? </l>
+
+	<l id='1399'>Si sa menace est vaine, ainsi que je le crois, </l>
+
+	<l id='1400'>Elle est vaine pour nous, aussi bien que pour toi. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1401'>Oui, Sire, et ce n'est pas ce spectre méprisable </l>
+
+	<l id='1402'>Qui me rend pour vous seul le danger redoutable ; </l>
+
+	<l id='1403'>Mais je crains le hasard qui dedans les combats </l>
+
+	<l id='1404'>Frappe indifféremment les Rois et les soldats. </l>
+
+	<l id='1405'>Quoi, parce qu'un Démon menace votre tête, </l>
+
+	<l id='1406'>Faut-il vous exposer aux coups de la tempête ? </l>
+
+	<l id='1407'>Vous-même voulez-vous en ce cruel instant </l>
+
+	<l id='1408'>Le rendre véritable en vous précipitant ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1409'>Quoi, parce qu'un Démon me fait une menace, </l>
+
+	<l id='1410'>Je manquerais de coeur, je deviendrais de glace ! </l>
+
+	<l id='1411'>Non, non, je dois montrer, et même en m'exposant, </l>
+
+	<l id='1412'>Que je sais mépriser un Démon menaçant. </l>
+
+	<l id='1413'>Quoi, je rendrais moi-même un lâche témoignage </l>
+
+	<l id='1414'>Qu'en consultant l'enfer j'ai redouté l'orage, </l>
+
+	<l id='1415'>Et que Saül tremblant s'informa de son sort, </l>
+
+	<l id='1416'>Pour vouloir par la fuite échapper de la mort ! </l>
+
+	<l id='1417'>Que la mort aujourd'hui coupe et tranche ma trame, </l>
+
+	<l id='1418'>Nous irons au-devant pour éviter le blâme. </l>
+
+	<l id='1419'>S'exposer dans la guerre à l'horreur des combats, </l>
+
+	<l id='1420'>Incertain de la vie, incertain du trépas, </l>
+
+	<l id='1421'>Incertain des succès que garde la fortune, </l>
+
+	<l id='1422'>C'est l'effet seulement d'une vertu commune. </l>
+
+	<l id='1423'>Mais courir aux combats assuré de son sort, </l>
+
+	<l id='1424'>Mais courir aux combats assuré de sa mort, </l>
+
+	<l id='1425'>La voir, et l'embrasser, quand il est nécessaire </l>
+
+	<l id='1426'>D'animer par l'exemple un peuple tributaire, </l>
+
+	<l id='1427'>Il n'appartient qu'aux Rois, mais aux Rois généreux </l>
+
+	<l id='1428'>Pour qui la honte seule est un mal dangereux. </l>
+
+	<l id='1429'>Va, je ne te tiens plus, j'ai tort je le confesse </l>
+
+	<l id='1430'>D'avoir pour te sauver montré de la tendresse ; </l>
+
+	<l id='1431'>Il faut me souvenir que je suis en un rang </l>
+
+	<l id='1432'>Où je dois à l'État mes enfants et mon sang ; </l>
+
+	<l id='1433'>Il faut vaincre une amour si puissante et si chère, </l>
+
+	<l id='1434'>Un Roi n'est pas vrai Roi quand il est trop bon Père. </l>
+
+	<l id='1435'>Va donc pour ton pays tomber au monument, </l>
+
+	<l id='1436'>Je serai consolé si tu meurs noblement, </l>
+
+	<l id='1437'>Entraîne avecques toi tes misérables frères, </l>
+
+	<l id='1438'>Sers au Ciel d'instrument pour combler mes misères, </l>
+
+	<l id='1439'>Enfin je t'abandonne au bien de cet État, </l>
+
+	<l id='1440'>Meurs pour le secourir, ou meurs avec éclat. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1441'>Nous répondrons au sang de qui nous tenons l'être. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Saül, Phalti, Jonathas.</head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1442'>Mais j'aperçois Phalti, je le perdrai ce traître. </l>
+
+	<l id='1443'>Où sont-ils mes enfants, où sont-ils, indiscret, </l>
+
+	<l id='1444'>Qui reconnais si peu ce que vaut un secret ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1445'>Sire, je tâcherais de vous faire comprendre </l>
+
+	<l id='1446'>Les puissantes raisons qui pourraient me défendre. </l>
+
+	<l id='1447'>Mais quelque passion que l'on est pour son bien, </l>
+
+	<l id='1448'>Sire, votre intérêt m'est plus cher que le mien. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1449'>Vois-tu venir la mort que le Ciel me destine ? </l>
+
+	<l id='1450'>Viens-tu de mes enfants m'annoncer la ruine ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1451'>Sire, pour obéir à votre Majesté, </l>
+
+	<l id='1452'>Ils venaient vous trouver d'un pas précipité, </l>
+
+	<l id='1453'>Mais voyant l'ennemi déjà prêt à combattre, </l>
+
+	<l id='1454'>Le voyant attaquer, le voyant tout abattre, </l>
+
+	<l id='1455'>Ils ont cru qu'ils pouvaient en cette extrémité </l>
+
+	<l id='1456'>Différer d'obéir à votre Majesté. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1457'>Cédons, cédons au Ciel dont les fureurs éclatent, </l>
+
+	<l id='1458'>Nos soins sont impuissants, quand ses traits nous combattent : </l>
+
+	<l id='1459' part='i'>Mais en est-on aux mains ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1459' part='f'>Sire, on doit le juger. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1460' part='i'>Allons. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1460' part='m'>Épargnez-vous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1460' part='f'>Quand tout est en danger ! </l>
+
+	<l id='1461'>N'ayant plus à sauver que l'éclat de ma gloire, </l>
+
+	<l id='1462'>Allons, allons au moins disputer la victoire. </l>
+
+	<l id='1463'>Vous Princesse fuyez de ce funeste lieu, </l>
+
+	<l id='1464'>Et si nous périssons, consolez-vous, Adieu. </l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='5'><head>ACTE V</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. </head>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1465'>Demeurez fugitifs, que l'honneur vous arrête, </l>
+
+	<l id='1466'>Puisque de tous côtés éclate la tempête. </l>
+
+	<l id='1467'>Demeurez fugitifs, vengez vos Princes morts, </l>
+
+	<l id='1468'>Au moins pour les venger, faites quelques efforts, </l>
+
+	<l id='1469'>Mais je leur parle en vain, la frayeur les emporte. </l>
+
+	<l id='1470'>La gloire ne peut rien où la crainte est si forte. </l>
+
+	<l id='1471'>Princes, tristes objets du céleste courroux, </l>
+
+	<l id='1472'>La force des Hébreux est morte avecques vous. </l>
+
+	<l id='1473'>Ha que n'ai-je versé tout le sang qui me reste </l>
+
+	<l id='1474'>Pour n'être pas témoin d'un malheur si funeste ! </l>
+
+	<l id='1475'>Que ne me voyez-vous, ô Princes outragés, </l>
+
+	<l id='1476'>Au malheureux état où je vous vois rangés ? </l>
+
+	<l id='1477' part='i'>Abner, où courez-vous ? </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Abner, Phalti.</head>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1477' part='f'>Phalti, je désespère, </l>
+
+	<l id='1478'>Partout règne la mort, et partout la misère. </l>
+
+	<l id='1479'>Hélas ! Je tâche en vain avec tous mes efforts, </l>
+
+	<l id='1480'>Du soldat qui s'enfuit de faire un petit corps, </l>
+
+	<l id='1481'>En vain je le conjure, en vain je le menace, </l>
+
+	<l id='1482'>Son courage se perd, l'épouvante le glace, </l>
+
+	<l id='1483'>Et si bientôt le Ciel ne prend notre parti, </l>
+
+	<l id='1484'>On verra dans les fers son peuple assujetti. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1485'>A-t-on sauvé le Roi de ce commun naufrage ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1486'>Il est où l'a porté l'ardeur de son courage, </l>
+
+	<l id='1487' part='i'>Ou mort, ou prisonnier. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1487' part='m'>Jonathas ? </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1487' part='f'>Il le suit. </l>
+
+	<l id='1488' part='i'>Mais ses autres enfants ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1488' part='f'>Abner, tout est détruit. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1489' part='i'>Comment, que dites-vous ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI, montre deux enfants du Roi.</speaker>
+
+	<l id='1489' part='f'>Vois ce que je puis dire. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1490'>Ô spectacle effroyable ! Ô malheureux Empire. </l>
+
+	<l id='1491'>Ha ! Phalti par ce sang que nous voyons versé, </l>
+
+	<l id='1492'>Craignons tout le malheur qui nous est annoncé. </l>
+
+	<l id='1493'>Mais par quel accident sont-ils dans ce bocage ? </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1494'>Les trouvant presque morts au milieu du carnage, </l>
+
+	<l id='1495'>Je les ai fait porter en ces paisibles lieux, </l>
+
+	<l id='1496'>Où la main de la mort leur a fermé les yeux. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1497' part='i'>Hélas ! </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1497' part='m'>J'entends du bruit. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Achas, Jonathas, Phalti, Abner.</head>
+
+<sp who='ACHAS'><speaker>ACHAS.</speaker>
+
+	<l id='1497' part='f'>Mais voyez vos blessures. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1498'>Je ressens d'autres maux, et des peines plus dures. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1499' part='i'>Seigneur, que faites-vous ? </l>
+
+</sp>
+
+<sp who='ACHAS'><speaker>ACHAS.</speaker>
+
+	<l id='1499' part='f'>Tout blessé, tout mourant, </l>
+
+	<l id='1500'>Il veut courir encor dans un mal apparent. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1501'>Ha ! Puisqu'il faut mourir privé de la victoire, </l>
+
+	<l id='1502'>Que je meure du moins où je cherchais la gloire ; </l>
+
+	<l id='1503'>Fais reporter ce corps sanglant et déchiré </l>
+
+	<l id='1504'>Dans le carnage affreux d'où ton bras l'a tiré ; </l>
+
+	<l id='1505'>Que le lit de ma mort soit un champ de bataille, </l>
+
+	<l id='1506'>C'est là que le trépas n'a rien qui me travaille ; </l>
+
+	<l id='1507'>Pour soutenir enfin un trône qui va choir, </l>
+
+	<l id='1508'>Montrons notre valeur ou notre désespoir. </l>
+
+	<l id='1509'>Peut-être que mon sang aura cet avantage, </l>
+
+	<l id='1510'>Qu'aux soldats étonnés, il rendra le courage, </l>
+
+	<l id='1511'>Et leur inspirera par un excès d'horreur </l>
+
+	<l id='1512'>Avecques le courage une utile fureur. </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1513' part='i'>Seigneur, pensez à vous. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1513' part='f'>Ha ! Douleur trop cruelle ! </l>
+
+	<l id='1514'>Je vois dans le péril le Roi qui nous appelle, </l>
+
+	<l id='1515'>Je le vois sans défense, il est prêt à périr, </l>
+
+	<l id='1516'>Et mon bras malheureux ne peut le secourir. </l>
+
+	<l id='1517'>Hélas ! De tous les maux dont le fardeau m'accable, </l>
+
+	<l id='1518'>C'est là le plus sensible, et le seul incurable. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1519'>Ne vous figurez point de nouvelles douleurs, </l>
+
+	<l id='1520'>Si le Ciel est pour nous, que peuvent les malheurs ? </l>
+
+	<l id='1521' part='i'>On a sauvé le Roi. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1521' part='f'>Je croirais ce langage </l>
+
+	<l id='1522'>Si je connaissais moins l'ardeur de son courage. </l>
+
+	<l id='1523'>Hélas, s'il est vivant, il combat faible ou fort, </l>
+
+	<l id='1524'>Et s'il ne combat plus, il expire, il est mort. </l>
+
+	<l id='1525'>Vous donc qui le jugez ou mort ou sans défense, </l>
+
+	<l id='1526'>Courez à son secours, ou bien à sa vengeance. </l>
+
+	<l id='1527' part='i'>Ha ! Que ne puis-je. </l>
+
+</sp>
+
+<sp who='ABNER'><speaker>ABNER.</speaker>
+
+	<l id='1527' part='f'>Il perd la voix et la clarté, </l>
+
+	<l id='1528'>Ô jour trop redoutable, et trop peu redouté ! </l>
+
+</sp>
+
+<sp who='PHALTI'><speaker>PHALTI.</speaker>
+
+	<l id='1529'>Mais j'aperçois de loin des soldats adversaires, </l>
+
+	<l id='1530'>Qui semblent s'approcher de ces lieux solitaires. </l>
+
+	<l id='1531'>Tâchons de détourner leurs funestes efforts </l>
+
+	<l id='1532'>De nos Prince mourants et de nos Princes morts. </l>
+
+	<l id='1533' part='i'>Vous Achas, demeurez. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1533' part='f'>Hé quoi, vois-je encore ? </l>
+
+	<l id='1534'>Voulez-vous adoucir le mal qui me dévore, </l>
+
+	<l id='1535' part='i'>Défendez votre Prince. </l>
+
+</sp>
+
+<sp who='ACHAS'><speaker>ACHAS.</speaker>
+
+	<l id='1535' part='f'>Ha, seigneur ! Le voici. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1536'>Voyons-le ; toutefois retire-moi d'ici, </l>
+
+	<l id='1537'>Et de peine d'augmenter la peine que j'endure, </l>
+
+	<l id='1538'>Détourne de ses yeux ma funeste aventure. </l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE DERNIÈRE. Saül, Son Écuyer, Jonathas. </head>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1539'>Enfin, tu vois du trône un Roi précipité. </l>
+
+	<l id='1540'>Le Ciel m'a combattu, le Ciel m'a surmonté, </l>
+
+	<l id='1541'>D'infâmes ennemis m'ont ravi la victoire, </l>
+
+	<l id='1542'>La honte d'Israël fait aujourd'hui leur gloire, </l>
+
+	<l id='1543'>Et le Ciel (ô malheur !) veut que je sois resté </l>
+
+	<l id='1544'>Pour voir et pour sentir cette calamité. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1545'>Vous n'avez rien perdu si malgré cet orage </l>
+
+	<l id='1546'>Vous conservez encore un illustre courage. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1547'>Hélas ! Tout est contraire aux Princes malheureux, </l>
+
+	<l id='1548'>Et leur courage est vain quand le Ciel est contre eux. </l>
+
+	<l id='1549'>Mais où sont mes enfants ? Ô céleste colère, </l>
+
+	<l id='1550'>Si tu peux te fléchir, ne t'adresse qu'au Père, </l>
+
+<stage>Il voit deux de ses enfants. </stage>
+
+	<l id='1551'>Mais que vois-je ici en ce bois ? Du sang ? Ô malheureux ! </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1552'>Ha ! Sire, résistez à ce coup rigoureux. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1553'>Ô comble de mes maux ! Ô tonnerre, ô tempête, </l>
+
+	<l id='1554'>Achève d'éclater sur ma coupable tête. </l>
+
+	<l id='1555'>Est-il quelque malheur dont j'ignore les coups ? </l>
+
+	<l id='1556'>N'ai-je pas épuisé le céleste courroux ? </l>
+
+	<l id='1557'>Soit que je souffre en Roi, soit que je souffre en Père, </l>
+
+	<l id='1558'>Quel mal peut désormais augmenter ma misère, </l>
+
+	<l id='1559'>Si je vois mes enfants le butin du trépas, </l>
+
+	<l id='1560'>Mes ennemis vainqueurs, et mon Empire à bas ? </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1561'>Espérez pour le moins qu'en un mal si funeste </l>
+
+	<l id='1562'>La main de Jonathas est un bien qui vous reste.</l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1563'>Enseigne-moi plutôt à souffrir des tourments </l>
+
+	<l id='1564'>Dont tu ne vois encor que le commencement. </l>
+
+	<l id='1565'>Que ne puis-je oublier cet Arrêt redoutable </l>
+
+	<l id='1566'>Dont j'aperçois déjà l'effet épouvantable ! </l>
+
+	<l id='1567'>Que ne puis-je oublier cette funeste voix ! </l>
+
+	<l id='1568'>Si j'espérais en vain, au moins j'espérerais, </l>
+
+	<l id='1569'>Au moins j'espérerais que le Ciel qui me presse </l>
+
+	<l id='1570'>Me pourrait conserver ma dernière richesse, </l>
+
+	<l id='1571'>Et qu'enfin le salut d'un enfant généreux </l>
+
+	<l id='1572'>Me pourrait consoler de la perte de deux. </l>
+
+	<l id='1573'>Mais je n'espère plus, mais que vois-je paraître ? </l>
+
+	<l id='1574'>Je n'ai qu'à craindre un mal afin de le voir naître. </l>
+
+	<l id='1575' part='i'>Jonathas ! </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1575' part='m'>Ô malheur ! </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1575' part='f'>Jonathas, est-ce vous ? </l>
+
+	<l id='1576'>Enfants qui me livrez de si sensibles coups, </l>
+
+	<l id='1577'>Pour qui premièrement faut-il que mes yeux pleurent ? </l>
+
+	<l id='1578'>Hélas ! Les uns sont morts, et les autres se meurent. </l>
+
+	<l id='1579'>Tombez trône, tombez, et périssez pour moi, </l>
+
+	<l id='1580'>Fuyez avec horreur d'un misérable Roi, </l>
+
+	<l id='1581'>La perte des grandeurs ne fait pas ma misère, </l>
+
+	<l id='1582'>Je suis Roi malheureux parce que je suis Père. </l>
+
+	<l id='1583'>Ô toi que ton courage, aussi bien que mon sort, </l>
+
+	<l id='1584'>Avecques tant d'horreur précipite à la mort, </l>
+
+	<l id='1585'>Ô toi pou qui mon coeur fut capable de craindre, </l>
+
+	<l id='1586'>Dois-je ici, Jonathas, te blâmer ou te plaindre ? </l>
+
+	<l id='1587'>Voulais-je t'imposer d'infructueuses lois ? </l>
+
+	<l id='1588'>Devais-tu préférer ton courage à ma voix ? </l>
+
+	<l id='1589'>Mais pourquoi te blâmer dans ce commun naufrage </l>
+
+	<l id='1590'>D'avoir moins écouté ma voix que ton courage ? </l>
+
+	<l id='1591'>Si le Ciel te poussait, pouvais-tu m'écouter ? </l>
+
+	<l id='1592'>Si le Ciel te poussait, pouvais-je t'arrêter ? </l>
+
+	<l id='1593'>Ha mon cher Jonathas, c'est toi que je dois plaindre, </l>
+
+	<l id='1594' part='i'>Et c'est le Ciel...</l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1594' part='m'>Ha ! Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1594' part='f'>Il faut donc se contraindre. </l>
+
+	<l id='1595'>Hé bien sans murmurer supportons nos malheurs, </l>
+
+	<l id='1596'>Bien qu'on ait murmuré pour de moindres douleurs. </l>
+
+	<l id='1597' part='i'>Ô Père malheureux ! </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1597' part='f'>Ô fils plus déplorable, </l>
+
+	<l id='1598'>De ne pouvoir aider un Père misérable ! </l>
+
+	<l id='1599'>Mais, Sire, sauvez-vous, ainsi soulagez-moi. </l>
+
+	<l id='1600'>L'État n'a rien perdu, s'il ne perd plus son Roi. </l>
+
+	<l id='1601'>Ne pouvant vous servir par ma main impuissante, </l>
+
+	<l id='1602'>Que je vous serve au moins par ma voix languissante ; </l>
+
+	<l id='1603'>Peut-être que le Ciel satisfait et content, </l>
+
+	<l id='1604'>Veut pour votre salut vous donner cet instant. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1605'>Songer à mon salut, quand je perds un Empire ! </l>
+
+	<l id='1606'>Quand le Ciel me poursuit, quand Jonathas expire ! </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1607'>Ma mort est honorable aussi bien que mes coups, </l>
+
+	<l id='1608'>Voulez-vous l'adoucir ? Ha ! Sire, sauvez-vous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1609'>Un Roi qui n'a plus rien à perdre que la vie, </l>
+
+	<l id='1610'>Ne peut trop tôt en perdre, et l'usage et l'envie. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1611'>Un Roi qui se voit libre, et qui porte un grand coeur, </l>
+
+	<l id='1612'>Est toujours en état de vaincre son vainqueur. </l>
+
+	<l id='1613' part='i'>Sauvez-vous. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1613' part='f'>Tout s'oppose au salut de ton Père, </l>
+
+	<l id='1614'>La terre, les enfers, et le Ciel en colère ; </l>
+
+	<l id='1615'>Ce corps même, ce corps, que tu voudras sauver, </l>
+
+	<l id='1616'>Ce corps qu'à l'ennemi tu voudrais enlever, </l>
+
+	<l id='1617'>Ce corps percé de coups, et que la force laisse, </l>
+
+	<l id='1618'>S'oppose à son salut par sa propre faiblesse. </l>
+
+</sp>
+
+<sp who='JONATHAS'><speaker>JONATHAS.</speaker>
+
+	<l id='1619'>Achas appelle Abner, et qu'il vienne au secours. </l>
+
+	<l id='1620' part='i'>Ha ! Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1620' part='f'>Ha ! Ce moment a terminé ses jours, </l>
+
+	<l id='1621'>Il est mort, ils sont morts, déplorables victimes, </l>
+
+	<l id='1622'>Et ce qui plus me gêne, ils sont morts par mes crimes. </l>
+
+	<l id='1623'>Enfants infortunés, je ne vous pleure pas </l>
+
+	<l id='1624'>Pour avoir ressenti les rigueurs du trépas. </l>
+
+	<l id='1625'>Hélas ! De vos vertus votre mort est un gage, </l>
+
+	<l id='1626'>Elle est digne de vous et de votre courage.</l>
+
+	<l id='1627'>C'était pour le pays que vous deviez périr, </l>
+
+	<l id='1628'>Et c'est pour le pays qu'on vous a vu mourir. </l>
+
+	<l id='1629'>Donc cette mort est belle, et vaut mieux que la vie, </l>
+
+	<l id='1630'>Elle n'est pas à plaindre, elle est digne d'envie, </l>
+
+	<l id='1631'>Et telle que des Rois heureux et triomphants </l>
+
+	<l id='1632'>La pourraient souhaiter pour leurs propres enfants. </l>
+
+	<l id='1633'>Non, je ne me plains pas de voir dessus la terre </l>
+
+	<l id='1634'>Votre sang répandu par le sort de la guerre, </l>
+
+	<l id='1635'>Mais si le désespoir s'empare de mon coeur, </l>
+
+	<l id='1636'>S'il chasse ma raison, s'il se rend mon vainqueur, </l>
+
+	<l id='1637'>C'est parce que je vois que de votre ruine </l>
+
+	<l id='1638'>Mes forfaits seulement ont été l'origine, </l>
+
+	<l id='1639'>Et que par un malheur, qui passe les plus grands, </l>
+
+	<l id='1640'>Le châtiment du Père a perdu les enfants. </l>
+
+	<l id='1641'>Épouvantable Arrêt du Ciel inexorable, </l>
+
+	<l id='1642'>Qui perd trois innocents pour punir un coupable, </l>
+
+	<l id='1643'>Et qui pour m'accabler sous un plus rude poids </l>
+
+	<l id='1644'>Semble au moins affecter d'être injuste une fois ! </l>
+
+	<l id='1645'>Pitoyable objets, ce matin mes délices, </l>
+
+	<l id='1646'>Puisque le Ciel le veut maintenant mes supplices, </l>
+
+	<l id='1647'>M'est-il au moins permis d'espérer seulement </l>
+
+	<l id='1648'>D'avoir en nos malheurs un même monument ? </l>
+
+	<l id='1649'>Grandeur toujours à craindre, et toujours désirée, </l>
+
+	<l id='1650'>Grandeur partout funeste, et partout adorée, </l>
+
+	<l id='1651'>Charmante illusion qui flattes, qui séduis, </l>
+
+<stage>Il montre ses enfants. </stage>
+
+	<l id='1652'>On te suit, on te cherche, et voilà de tes fruits. </l>
+
+	<l id='1653'>Quiconque en un Empire a de la confiance, </l>
+
+	<l id='1654'>Qu'il considère en moi sa fatale inconstance, </l>
+
+	<l id='1655'>Qu'il juge si d'un Roi le destin est si beau, </l>
+
+	<l id='1656'>Le matin dans le trône, et le soir au tombeau, </l>
+
+	<l id='1657'>Et le soir si détruit, qu'à l'instant qu'il succombe </l>
+
+	<l id='1658'>À peine seulement attend-il une tombe. </l>
+
+	<l id='1659'>À peine seulement peut-il pour son repos </l>
+
+	<l id='1660'>Espérer que la terre enveloppe ses os. </l>
+
+	<l id='1661'>Ô Ciel, quand vous donnez la grandeur souveraine, </l>
+
+	<l id='1662'>Montrez-vous votre amour, ou plutôt votre haine ? </l>
+
+	<l id='1663'>Puisqu'un trône est rempli de tant d'adversités, </l>
+
+	<l id='1664'>Ô Ciel nous aimez-vous quand vous nous y portez ? </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1665'>Sire, de tous côtés le danger vous menace, </l>
+
+	<l id='1666'>Je vois les ennemis presque sur cette place, </l>
+
+	<l id='1667'>Vous êtes poursuivi, tâchez de vous sauver, </l>
+
+	<l id='1668'>Si le Ciel vous abat, il peut vous relever. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1669'>Juge par les assauts que la terre me donne, </l>
+
+	<l id='1670'>Que le Ciel en courroux me quitte et m'abandonne. </l>
+
+	<l id='1671'>Mais puisqu'il faut périr, et qu'on résiste en vain, </l>
+
+	<l id='1672'>Que ne puis-je périr les armes à la main ? </l>
+
+	<l id='1673'>Mais la perte du sang rend mon bras inutile, </l>
+
+	<l id='1674'>Le coeur ne peut plus rien dans un corps si débile, </l>
+
+	<l id='1675'>Enfin dans mes malheurs, pour comble de tourment,  </l>
+
+	<l id='1676'>Il ne m'est pas permis de mourir noblement. </l>
+
+	<l id='1677'>Mais si l'injuste sort me ravit cette gloire, </l>
+
+	<l id='1678'>Dérobe aux ennemis le fruit de leur victoire, </l>
+
+	<l id='1679'>Empêche que ton Roi, plus gêné qu'aux enfers, </l>
+
+	<l id='1680'>Périsse par leurs mains, ou tombe dans leurs fers ? </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1681'>Commandez, j'obéis, que faut-il entre prendre ? </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1682'>M'ouvrir la sépulture, et m'y faire descendre. </l>
+
+	<l id='1683'>Avance donc la mort où tu me vois courir, </l>
+
+	<l id='1684'>Et que le meurs au moins lorsque je veux mourir. </l>
+
+	<l id='1685'>Achève enfin mes jours, de peur qu'un Roi barbare </l>
+
+	<l id='1686'>N'ajoute la risée aux maux qu'il me prépare ; </l>
+
+	<l id='1687'>Être vaincu d'un Roi dont je fus attaqué, </l>
+
+	<l id='1688'>M'est un moindre malheur que d'en être moqué. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1689' part='i'>Sire. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1689' part='f'>Prête la main à ma force abattue, </l>
+
+	<l id='1690'>Voilà, voilà mon coeur, achève frappe, tue, </l>
+
+	<l id='1691'>Montre en obéissant à ma dernière loi, </l>
+
+	<l id='1692'>Que je porte au tombeau la qualité de Roi. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1693'>Ha Sire ! Commandez des choses légitimes. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1694' part='i'>Ma mort est un bienfait. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1694' part='f'>C'est le plus grand des crimes. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1695'>Si ma mort est un crime en venant de ton bras, </l>
+
+	<l id='1696'>Ton Roi t'en absoudra quand tu le commettras. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1697' part='i'>Permettez...</l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1697' part='f'>Réponds-moi seulement par l'épée. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1698'>Plutôt dedans mon sang elle sera trempée. </l>
+
+</sp>
+
+<sp who='SAUL'><speaker>SAÜL.</speaker>
+
+	<l id='1699'>Dois-je donc aujourd'hui par ton zèle inhumain, </l>
+
+	<l id='1700'>Ou me voir lâche esclave, ou mourir de ma main ? </l>
+
+	<l id='1701'>Veux-tu qu'un ennemi superbe en la victoire </l>
+
+	<l id='1702'>Fasse servir ma honte à l'éclat de sa gloire, </l>
+
+	<l id='1703'>Ou qu'armant contre moi ma dernière fureur </l>
+
+	<l id='1704'>Je me rende moi-même un spectacle d'horreur ? </l>
+
+	<l id='1705'>Privé de tout secours, et parmi tant de gênes, </l>
+
+	<l id='1706'>Que vois-je de certain que la mort ou les chaînes ? </l>
+
+	<l id='1707'>Et dedans un malheur si pressant et si fort, </l>
+
+	<l id='1708'>Que doit choisir un Roi des fers ou de la mort ? </l>
+
+	<l id='1709'>Ha ! Ne me réduis point à ce malheur extrême </l>
+
+	<l id='1710'>De périr par ma main, de me perdre moi-même. </l>
+
+	<l id='1711'>Frappe, voilà de quoi prévenir mon dessein, </l>
+
+	<l id='1712'>Je te fournis d'un fer, fournis-moi d'une main. </l>
+
+	<l id='1713'>Pour ton dernier service épargne-nous un crime, </l>
+
+	<l id='1714'>Ne pouvant me sauver, sauve au moins mon estime ; </l>
+
+	<l id='1715'>En l'état où je suis, crois que mes plus grands biens </l>
+
+	<l id='1716'>Consistent à périr par les armes des miens. </l>
+
+	<l id='1717'>Quoi, tu crains de frapper, et voyant ma faiblesse, </l>
+
+	<l id='1718'>Et voyant de si près l'ennemi qui me presse ! </l>
+
+	<l id='1719'>Abandonner ton Prince à l'ennemi vainqueur, </l>
+
+	<l id='1720'>Est-ce un moindre attentat que de percer son coeur ? </l>
+
+	<l id='1721'>Quelle main pour un Roi te semble plus humaine</l>
+
+	<l id='1722'>Ou celle qui le tue, ou celle qui l'enchaîne ? </l>
+
+	<l id='1723'>Sache, sache insensé, qu'un Prince est beaucoup mieux </l>
+
+	<l id='1724'>Dans un noble cercueil qu'en des fers odieux ; </l>
+
+	<l id='1725'>Sache, sache qu'un Roi constant et raisonnable </l>
+
+	<l id='1726'>Aime autant que le trône un sépulcre honorable. </l>
+
+	<l id='1727'>Mais j'ai tort de prétendre et d'implorer de toi </l>
+
+	<l id='1728'>Ce que mon désespoir peut obtenir de moi. </l>
+
+	<l id='1729'>Il faut, puisque le Ciel ordonne que je tombe, </l>
+
+	<l id='1730'>Que Saül soit le faix sous qui Saül succombe, </l>
+
+	<l id='1731'>Enfants, que n'ai-je au moins ce noble réconfort </l>
+
+	<l id='1732'>De pouvoir en mourant douter de votre mort ? </l>
+
+	<l id='1733'>Mais c'est me plaindre en vain, et par des plaintes vaines </l>
+
+	<l id='1734'>Contribuer moi-même à prolonger mes peines. </l>
+
+	<l id='1735'>Ô vous qui me suivez superbes ennemis, </l>
+
+	<l id='1736'>À qui comme un grand bien mon désastre est promis, </l>
+
+	<l id='1737'>Si par la main du Ciel contre nous animée, </l>
+
+	<l id='1738'>Vous avez triomphé d'une puissante armée, </l>
+
+	<l id='1739'>Apprenez par ce coup qui vous dérobe un Roi, </l>
+
+	<l id='1740'>Que Saül seulement peut triompher de soi. </l>
+
+</sp>
+
+<sp who='L-ECUYER'><speaker>L'ÉCUYER.</speaker>
+
+	<l id='1741'>Ha Sire ! Il est tombé sur sa fatale épée, </l>
+
+	<l id='1742'>Il est mort, ô Fortune, et trompeuse et trompée ! </l>
+
+	<l id='1743'>Mais parmi tant de maux, de carnage et d'effroi, </l>
+
+	<l id='1744'>Mon destin le plus doux est de suivre mon Roi. </l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

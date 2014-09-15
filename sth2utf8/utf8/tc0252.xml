@@ -1,0 +1,4351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>LUCRÈCE. TRAGÉDIE</title>
+
+				<author born='1605' born_location='Paris' death='1658' death_location='Paris' academie=''>DU RYER, Pierre</author>
+
+				<date>1638</date>
+
+			</titleStmt>
+
+			<publicationStmp>	
+
+				<authority>publié par Ernest FIEVRE, août 2008</authority>
+
+			</publicationStmp>
+
+			<SourceDesc>
+
+				<genre>Tragédie</genre>
+
+				<inspiration>histoire romaine</inspiration>
+
+				<structure>Cinq actes</structure>
+
+				<type>vers</type>
+
+				<periode>1631-1640</periode>
+
+				<taille>1500-1750</taille>
+
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k71839w</permalien>
+
+				<refNum/>
+
+			</SourceDesc>
+
+		</fileDesc>
+
+	</teiHeader>
+
+<text>
+
+<front>
+
+	<docTitle>
+
+		<titlePart type="main">LUCRÈCE</titlePart>
+
+		<titlePart type="sub">TRAGÉDIE</titlePart>
+
+	</docTitle>
+
+	<docDate value="1638">M. DC. XXXVIII.  AVEC PRIVILÈGE DU ROI.</docDate>
+
+		<docAuthor id="DU RYER, Pierre" bio='duryer'>Par P. DU RYER. Secrétaire de Monseigneur le Duc de Vendôme.</docAuthor>
+
+	<docImprint>
+
+	<privilege id=""><head>Extrait du Privilège du Roi.</head>
+
+<p>Par grâce et Privilège du Roi donné à Chaliot, le 21. Mai 1638. Signé, Par le Roi en son Conseil, de Monçeaux, Il est permis à Antoine de Sommaville, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de théâtre, intitulée, La Lucrèce, Tragédie  du Sieur du Ryer durant le temps et espace de cinq ans, à compter du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous Imprimeurs, Libraires, et autres de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine de trois mil livres d'amende, de tous ses dépends, dommages et intérêts, ainsi qu'il est plus amplement porté par les dites Lettres, qui sont en vertu du présent Extrait tenues pour bien et dûment signifiées, à ce qu'aucun n'en prétende cause d'ignorance.</p>
+
+</privilege>
+
+	<imprimeur id="Antoine Sommaville">.À PARIS, Chez Antoine de Sommaville, Au Palais, dans la Galerie des Merciers, à l'Écu de France.</imprimeur>
+
+	<acheveImprime value='1638-07-20'>Achevé d'imprimer pour la première fois, le 20. jour de Juillet Mil six cent trente huit. Les Exemplaires ont été fournis.</acheveImprime>
+
+	</docImprint>
+
+		<performance>
+
+			<premiere date="1638" location='Théâtre du Marais'>Représenté pour la première fois en 1638 au Théâtre du Marais.</premiere>
+
+		</performance>
+
+<dedicace><adresse>À MADEMOISELLE DE VENDÔME</adresse>
+
+<head>MADEMOISELLE, </head>
+
+<p>C'est assez que vous ayez une fois loué Lucrèce, pour me faire espérer que vous lui ferez un accueil favorable. Vous ne pouvez rien approuver qui ne mérite des Éloges, et il me semble qu'on ne vous saurait faire de plus agréables hommages, que des choses que vous estimez. Ainsi j'ai rompu tous les obstacles qui pouvaient m'empêcher de vous l'offrir. Votre estime a été plus forte que ma timidité, et je m'imagine enfin qu'il n'est pas moins glorieux d'être approuvé de vous, que d'atteindre à la perfection. À qui devais-je plutôt présenter Lucrèce, et plus justement consacrer cette Image de la Vertu, qu'à la Vertu même ? C'est en vous, MADEMOISELLE, qu'elle a voulu se rendre visible, et que nous la contemplons avec tous ses charmes. Vos beautés et les siennes font un mélange si merveilleux, qu'il n'est pas malaisé de la reconnaître en vous, ni de vous reconnaître en elle. Il ne faut plus consulter les Philosophes, pour apprendre qu'elle est adorable, il faut seulement vous considérer. Et c'est ici que l'on peut dire que jamais la vertu ne fut plus belle, et que jamais la beauté ne fut plus vertueuse. Mais quand je regarde cet éclat qui nous environne, et qui vient autant de vos autres qualités que de votre grandeur, il faut que je confesse que mon présent me tombe des mains, et que si votre bonté ne m'aidait à le relever, je n'aurais pas assez d'assurance pour l'exposer à vos yeux. J'espère donc, MADEMOISELLE, que cette même bonté vous obligera de le recevoir, et qu'elle fera paraître encore que véritable Grandeur ne fut jamais méprisante. Je suis, MADEMOISELLE,</p>
+
+<p>Votre très humble et très obéissant Serviteur. </p>
+
+<signature>DU RYER.</signature>
+
+</dedicace>
+
+<castList><head>LES ACTEURS.</head>
+
+	<castItem><role id="TARQUIN" civil="M">TARQUIN</role>, fils de Tarquin le Superbe.</castItem>
+
+	<castItem><role id="COLLATIN" civil="M">COLLATIN</role>, mari de Lucrèce.</castItem>
+
+	<castItem><role id="LUCRÈCE" civil="F">LUCRÈCE</role>.</castItem>
+
+	<castItem><role id="BRUTE" civil="M">BRUTE</role>, ami de Collatin.</castItem>
+
+	<castItem><role id="LIVIE" civil="F">LIVIE</role>,  demoiselle de Lucrèce.</castItem>
+
+	<castItem><role id="CORNELIE" civil="F">CORNÉLIE</role>, demoiselle de Lucrèce.</castItem>
+
+	<castItem><role id="LIBANE" civil="M">LIBANE</role>, esclave de Tarquin.</castItem>
+
+	<castItem><role id="PROCULE" civil="M">PROCULE</role>, domestique de Lucrèce.</castItem>
+
+	<castItem><role id="LE_PERE" civil="M">LE PÈRE</role> de Lucrèce.</castItem>
+
+</castList>
+
+<set location='Rome' country='Italie' periode='VIème avant JC' link=''>La Scène est le Château de Collatie.</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head>ACTE I</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Tarquin, Brute, Collatin. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1'>Voit-on rien de pareil à son aveuglement ?</l>
+
+	<l id='2'>Tout marié qu'il est il nous parle en amant,</l>
+
+	<l id='3'>À l'entendre parler des beautés de Lucrèce,</l>
+
+	<l id='4'>On doute qu'elle soit sa femme ou sa maîtresse ;</l>
+
+	<l id='5'>Il lui donne l'encens qu'il doit aux Immortels</l>
+
+	<l id='6'>Et si l'on le croyait, elle aurait des autels.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='7'>Oui sa vertu mérite un si noble partage,</l>
+
+	<l id='8'>Et si l'on me croyait elle aurait davantage :</l>
+
+	<l id='9'>Mais s'il vous est permis de vanter votre bien</l>
+
+	<l id='10'>Pourquoi ne veut-on pas que je vante le mien ?</l>
+
+	<l id='11'>La vertu de Lucrèce est-elle moins charmante</l>
+
+	<l id='12'>Que lorsqu'un juste amour en faisait mon amante ?</l>
+
+	<l id='13'>Et pour voir ce trésor en ma possession</l>
+
+	<l id='14'>Dois-je moins de louange à sa perfection ?</l>
+
+	<l id='15'>Par quelle juste loi faut-il que je vous cède</l>
+
+	<l id='16'>Qu'on ne doit plus parler du bien que l'on possède,</l>
+
+	<l id='17'>Et par quel sort inique autant que rigoureux</l>
+
+	<l id='18'>Ne vanterions-nous pas ce qui nous rend heureux ?</l>
+
+	<l id='19'>Lucrèce tient du Ciel son illustre origine</l>
+
+	<l id='20'>Elle fut fille aimable, elle est femme divine,</l>
+
+	<l id='21'>Et j'avouerai sans honte et sans aveuglement</l>
+
+	<l id='22'>Que j'ai pour elle un coeur et d'époux et d'amant.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='23'>Et d'époux et d'amant ! Collatin il me semble</l>
+
+	<l id='24'>Que ces deux qualités ne vont guère ensemble.</l>
+
+	<l id='25'>L'amour récompensé brûle moins ardemment,</l>
+
+	<l id='26'>Et le titre d'Époux chasse celui d'amant.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='27'>La beauté vertueuse est un illustre arbitre</l>
+
+	<l id='28'>Qui sait unir ensemble, et l'un et l'autre titre,</l>
+
+	<l id='29'>On ne se lasse point du soin de la garder</l>
+
+	<l id='30'>Bien qu'on l'ait possédée on la veut posséder,</l>
+
+	<l id='31'>Et par un don du Ciel elle a ce charme en elle</l>
+
+	<l id='32'>Que sa possession paraît toujours nouvelle,</l>
+
+	<l id='33'>Semblable aux grands trésors dont l'espoir réjouit</l>
+
+	<l id='34'>Et qu'on n'aime point tant que lorsqu'on en jouit.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='35'>C'est trop à mon avis discourir d'une affaire,</l>
+
+	<l id='36'>Dont votre oeil seulement est le juge ordinaire.</l>
+
+	<l id='37'>Allons voir ces vertus, contemplons ces beautés</l>
+
+	<l id='38'>Ou plutôt allons voir tes seules déités,</l>
+
+	<l id='39'>Et puisque les Destins t'ont accordé Lucrèce</l>
+
+	<l id='40'>Fais-nous voir que le Ciel manque d'une Déesse.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='41'>Puisqu'à de vrais discours vous résistez si fort</l>
+
+	<l id='42'>Venez voir pour le moins que vous raillez à tort,</l>
+
+	<l id='43'>Et si vous en doutez, surprenez ma Lucrèce</l>
+
+	<l id='44'>Autant par mon conseil que par un peu d'adresse,</l>
+
+	<l id='45'>Ainsi vous apprendrez si ses beautés sans art</l>
+
+	<l id='46'>Sont des dons de Nature, où des présents du fard</l>
+
+	<l id='47'>Voici l'heure à près où l'on met en usage,</l>
+
+	<l id='48'>Ce qui peut réparer les défauts d'un visage,</l>
+
+	<l id='49'>Et donner au moins beaux les attraits éclatants</l>
+
+	<l id='50'>Ou que le Ciel refuse, ou que ravit le temps.</l>
+
+	<l id='51'>Surprenez donc Lucrèce, et contempler en elle</l>
+
+	<l id='52'>Ainsi que la douceur la beauté naturelle,</l>
+
+	<l id='53'>Allez. Nous vous suivrons avecques cet espoir</l>
+
+	<l id='54'>Que vous en verrez plus que je n'en ai fait voir.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='55'>S'il faut qu'à tes discours la vérité réponde</l>
+
+	<l id='56'>Je te croirai bientôt le plus riche du monde,</l>
+
+	<l id='57'>Quels biens te manqueraient si selon tes transports</l>
+
+	<l id='58'>La grâce et la vertu sont entre tes trésors ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Brute, Collatin.</head>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='59'>Ami cet entretien n'est pour moi qu'un mystère</l>
+
+	<l id='60'>De qui la nouveauté m'empêche de me taire,</l>
+
+	<l id='61'>Pourquoi louer ta femme, et pourquoi la vanter</l>
+
+	<l id='62'>Devant un esprit faible et facile à tenter ?</l>
+
+	<l id='63'>Lucrèce est adorable, il faut que je l'avoue</l>
+
+	<l id='64'>Mais je n'approuve pas que son mari la loue,</l>
+
+	<l id='65'>Si l'on doit être instruit de ses perfections,</l>
+
+	<l id='66'>Que ce soit moins par toi, que par ses actions.</l>
+
+	<l id='67'>Mais tandis que la guerre est partout allumée</l>
+
+	<l id='68'>Pourquoi vous voyons-nous de retour de l'armée ?</l>
+
+	<l id='69'>Quelque trêve accordée après tant de hasards</l>
+
+	<l id='70'>A-t-elle suspendu la colère de Mars ?</l>
+
+	<l id='71'>Ou bien Arde rebelle à la force Romaine,</l>
+
+	<l id='72'>De sa témérité reçoit-elle la peine ?</l>
+
+	<l id='73'>Ses Murs bien attaqués, et si bien défendus,</l>
+
+	<l id='74'>Après tant de combats sont-ils pris ou rendus ?</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='75'>Non, non, fidèle Ami, ni trêve, ni victoire</l>
+
+	<l id='76'>Ne nous accorde point de repos ou de gloire ;</l>
+
+	<l id='77'>Arde est toujours debout, et nos soldats campés</l>
+
+	<l id='78'>À battre ses remparts sont toujours occupés.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='79'>Pourquoi donc de retour d'où la gloire est certaine ?</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='80'>Sache qu'une dispute en ce lieu nous ramène.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='81'>Une dispute ! Hé dieux, par nos propres discords</l>
+
+	<l id='82'>Nous rendons bien souvent nos ennemis plus forts,</l>
+
+	<l id='83'>Et nos séditions leur donnent les conquêtes,</l>
+
+	<l id='84'>Qu'un mutuel accord nous rendait toutes prêtes.</l>
+
+	<l id='85'>Arde que les Romains pressent de toutes parts,</l>
+
+	<l id='86'>Avait pour sa défense élevé ses remparts</l>
+
+	<l id='87'>Et croyait que ses murs aussi beaux que rebelles</l>
+
+	<l id='88'>Étaient de son État les forces plus fidèles,</l>
+
+	<l id='89'>Mais vos dissensions plus fortes que vos coups</l>
+
+	<l id='90'>Mieux que murs et remparts l'assurent contre vous.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='91'>Je savais bien qu'un mot échaufferait ton âme,</l>
+
+	<l id='92'>Que ton zèle trop vif nous chargerait de blâme,</l>
+
+	<l id='93'>Et que suivant partout tes sévères humeurs</l>
+
+	<l id='94'>Tu toucherais ici la censure des moeurs.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='95'>Suis-je injuste en ce point, et vous suis-je contraire,</l>
+
+	<l id='96'>Lorsque de vos défauts je ne saurais me taire ?</l>
+
+	<l id='97'>Me blâme qui voudra de ma sévérité,</l>
+
+	<l id='98'>M'accuse qui voudra de trop de liberté,</l>
+
+	<l id='99'>L'on ne me peut blâmer que du vice d'un homme</l>
+
+	<l id='100'>Qui se rend trop sensible à la gloire de Rome,</l>
+
+	<l id='101'>Et qui de son pays seulement amoureux</l>
+
+	<l id='102'>N'a jamais combattu que pour le rendre heureux.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='103'>Le mal n'est pas si grand que Brute s'imagine.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='104'>Il n'est jamais petit alors qu'on se mutine,</l>
+
+	<l id='105'>Ainsi que peu de chose éveille le Lyon</l>
+
+	<l id='106'>Peu de chose fait naître une rébellion,</l>
+
+	<l id='107'>Et l'on a vu souvent de légères querelles,</l>
+
+	<l id='108'>Donner à ce serpent du venin et des ailes :</l>
+
+	<l id='109'>Une dispute, un mot, nous refroidit d'abord</l>
+
+	<l id='110'>Et ce qui fut froideur est à la fin discord.</l>
+
+	<l id='111'>Blâmez, après cela mon humeur trop sévère,</l>
+
+	<l id='112'>Reprochez-moi qu'un mot excite ma colère,</l>
+
+	<l id='113'>Mais sachez qu'elle est sainte, et juste en ses rigueurs</l>
+
+	<l id='114'>Quand le soin du pays l'allume dans nos coeurs.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='115'>Ami, cette dispute est de crime aussi nette</l>
+
+	<l id='116'>Que le Ciel libéral rend sa cause parfaite,</l>
+
+	<l id='117'>On n'en troublera point le repos de la Cour,</l>
+
+	<l id='118'>Et pour te dire tout, ce n'est qu'un jeu d'amour.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='119'>Les Dieux en soient loués mais hélas, il me semble,</l>
+
+	<l id='120'>Qu'on doit songer ailleurs, quand tout le monde tremble,</l>
+
+	<l id='121'>Et que l'amour sans traits doit terminer ses jeux</l>
+
+	<l id='122'>Où son père en courroux ne jette que des feux.</l>
+
+	<l id='123'>Instruis-moi toutefois dessus cette querelle,</l>
+
+	<l id='124'>À qui tu veux donner une face si belle,</l>
+
+	<l id='125'>Et fais enfin ton droit et si bon et si fort</l>
+
+	<l id='126'>Que je m'accuse ici de te blâmer à tort.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='127'>Sache qu'hier au soir d'une troupe Romaine</l>
+
+	<l id='128'>La table de Tarquin se trouva toute pleine,</l>
+
+	<l id='129'>Là chacun se pressa sans prendre garde au rang</l>
+
+	<l id='130'>Que lui donne autre part le mérite, ou le sang,</l>
+
+	<l id='131'>Là le verre à la main, la Noblesse occupée</l>
+
+	<l id='132'>Semble avoir oublié l'usage de l'épée,</l>
+
+	<l id='133'>Et tels jamais de Mars n'avaient été vaincus,</l>
+
+	<l id='134'>Qui firent gloire alors de l'être de Bacchus.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='135'>Jusques-là Collatin, tout est assez croyable,</l>
+
+	<l id='136'>Et c'est toujours ce Dieu qui triomphe à la table.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='137' part='i'>Il est vrai.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='137' part='f'>Mais poursuis, ne me refuse pas</l>
+
+	<l id='138'>L'agréable récit d'un si fameux repas.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='139'>Là comme après le vin on parle avec franchise,</l>
+
+	<l id='140'>Chacun dit son avis, et chacun s'autorise.</l>
+
+	<l id='141'>L'un veut prescrire au camp de nouveaux règlements,</l>
+
+	<l id='142'>L'autre trouve à redire à nos retranchements,</l>
+
+	<l id='143'>Et d'un doigt plus hardi, qu'il n'était profitable,</l>
+
+	<l id='144'>En trace de nouveaux sur les coins d'une table :</l>
+
+	<l id='145'>Cependant on se joue, on exerce ses mains,</l>
+
+	<l id='146'>Et l'on renverse ensemble et tables et desseins.</l>
+
+	<l id='147'>L'un ne parle que sang, et ne souffle que flammes,</l>
+
+	<l id='148'>L'autre moins furieux, ne parle que des Dames ;</l>
+
+	<l id='149'>Et dit sans y songer ce qu'il eût étouffé,</l>
+
+	<l id='150'>Si d'autres Dieux qu'Amour ne l'avaient échauffé.</l>
+
+	<l id='151'>À ce nouveau discours tout le monde s'éveille,</l>
+
+	<l id='152'>Chacun parle d'Amour, ou lui prête l'oreille,</l>
+
+	<l id='153'>Et selon la chaleur, qui soutient ses transports,</l>
+
+	<l id='154'>Vante de ce qu'il aime, ou l'esprit, ou le corps.</l>
+
+	<l id='155'>Là bien plus justement que pas un de la presse</l>
+
+	<l id='156'>Je louai l'un et l'autre en ma chère Lucrèce :</l>
+
+	<l id='157'>Aussi n'est-elle point de ces Dames du temps,</l>
+
+	<l id='158'>Qui n'ont pour la vertu, que des coeurs inconstants :</l>
+
+	<l id='159'>Mais de cette Déesse, à ses yeux si charmante,</l>
+
+	<l id='160'>Elle est la plus fidèle et la plus noble amante.</l>
+
+	<l id='161'>Le bal n'a point d'attraits qui la puissent tenter,</l>
+
+	<l id='162'>Le théâtre n'a rien qu'elle puisse goûter,</l>
+
+	<l id='163'>Mais la seule vertu, dont elle est idolâtre,</l>
+
+	<l id='164'>Est en toute saison son bal et son théâtre ;</l>
+
+	<l id='165'>Et son ambition loin du faste des Rois</l>
+
+	<l id='166'>N'a que pour sa maison des desseins, et des lois.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='167'>Tu t'emportes, Ami, vers l'objet de ta gloire,</l>
+
+	<l id='168'>Et ne te souviens plus d'achever ton histoire,</l>
+
+	<l id='169'>Poursuis donc, et me dis comment elle acheva.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='170'>Je louai donc Lucrèce, et chacun m'approuva,</l>
+
+	<l id='171'>Mais Tarquin qui m'ouit avec impatience</l>
+
+	<l id='172'>À tant de vérités, refusa sa croyance.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='173' part='i'>Que dit-il après tout ?</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='173' part='f'>Il rit, et dit tout haut.</l>
+
+	<l id='174'>Ou qu'elle n'est pas femme, ou qu'elle a son défaut,</l>
+
+	<l id='175'>Et que pour la juger de tant d'attraits pourvue,</l>
+
+	<l id='176'>Il ne se peut fier qu'au rapport de sa vue.</l>
+
+	<l id='177'>Je m'offre en même temps à la lui faire voir,</l>
+
+	<l id='178'>Et crus cette franchise être de mon devoir.</l>
+
+	<l id='179'>Tarquin me prend au mot, moi je le presse encore,</l>
+
+	<l id='180'>On résout de partir à la première Aurore,</l>
+
+	<l id='181'>Le jour vient, nous partons, et sans être attendus,</l>
+
+	<l id='182'>Deux heures de chemin nous ont ici rendus.</l>
+
+	<l id='183'>Ainsi naquit au camp l'agréable dispute</l>
+
+	<l id='184'>Qui vient de provoquer la colère de Brute.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='185'>Qu'elle vienne d'amour, qu'elle vienne de Mars,</l>
+
+	<l id='186'>L'une ou l'autre origine, est féconde en hasards,</l>
+
+	<l id='187'>Si chacun a son vice, et son sujet de blâme,</l>
+
+	<l id='188'>Ami, le tien consiste à trop louer ta femme.</l>
+
+	<l id='189'>Ce n'est pas toutefois qu'un mérite si haut</l>
+
+	<l id='190'>Soit à mon jugement, capable de défaut.</l>
+
+	<l id='191'>Comme une déité je regarde Lucrèce,</l>
+
+	<l id='192'>Ses vertus sont partout, sans tache et sans faiblesse,</l>
+
+	<l id='193'>Mon esprit soupçonneux, ne craint rien de leur part,</l>
+
+	<l id='194'>Mais je redoute tout du côté du hasard.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='195'>Qui des deux a le tort ? Ou qui des deux s'abuse ?</l>
+
+	<l id='196'>Je vante le mérite, et Brute m'en accuse !</l>
+
+	<l id='197'>Veux-tu que de Lucrèce, oubliant les appas,</l>
+
+	<l id='198'>Je t'en fasse un portrait, qu'on ne connaisse pas ?</l>
+
+	<l id='199'>Veux-tu qu'à ses vertus j'oppose quelque voile,</l>
+
+	<l id='200'>Et qu'enfin d'un Soleil je te fasse une Étoile ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='201'>Ami n'en parlons plus, elle est belle, on le croit,</l>
+
+	<l id='202'>Et si c'est un Soleil, tout le monde le voit.</l>
+
+	<l id='203'>Tu nous vantes ta femme, et ne sais pas peut-être,</l>
+
+	<l id='204'>Qu'on hasarde un trésor, quand on le fait paraître ;</l>
+
+	<l id='205'>Si la femme est un bien agréable et charmant,</l>
+
+	<l id='206'>C'est un bien peu durable, et qu'on perd aisément.</l>
+
+	<l id='207'>On le fait désirer aussitôt qu'on le vante,</l>
+
+	<l id='208'>Ce désir est dans l'âme un Démon qui la tente,</l>
+
+	<l id='209'>Et quoi que l'on oppose à cette vérité,</l>
+
+	<l id='210'>Je tiens presque perdu le bien trop souhaité.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='211'>Lorsque par les vertus une âme est possédée,</l>
+
+	<l id='212'>Par les mêmes vertus elle est aussi gardée,</l>
+
+	<l id='213'>Et quoi qu'on fasse agir pour un bien désiré,</l>
+
+	<l id='214'>Si la vertu le garde, il est trop assuré.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='215'>Songe à ce que tu fais, commence à te connaître,</l>
+
+	<l id='216'>Le bien dont nous parlons cesse bientôt de l'être,</l>
+
+	<l id='217'>Et par un sort étrange, autant qu'infortuné,</l>
+
+	<l id='218'>Tel a cru le montrer, qui l'a souvent donné.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='219'>Que de vaines horreurs troublent ta fantaisie !</l>
+
+	<l id='220'>Et que ta sombre humeur penche à la jalousie !</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='221'>Par elle, Collatin, l'on a souvent gardé</l>
+
+	<l id='222'>Ce que trop de franchise eût bientôt hasardé.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='223'>Bien souvent un mari par ce transport infâme</l>
+
+	<l id='224'>Au lieu de la garder, perd une honnête femme :</l>
+
+	<l id='225'>Et de cette cruelle, et lâche passion,</l>
+
+	<l id='226'>Cette perte qu'il fait est la punition.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='227'>Vante ou blâme ta femme au gré de ton caprice,</l>
+
+	<l id='228'>Mais crois qu'en un mari l'un et l'autre est un vice.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='229'>Il est vrai, c'est un vice aux esprits importuns,</l>
+
+	<l id='230'>Qui n'ont rien à vanter que des attraits communs :</l>
+
+	<l id='231'>Mais s'ils avaient du Ciel obtenu des Lucrèces,</l>
+
+	<l id='232'>Ils loueraient justement de si nobles richesses ;</l>
+
+	<l id='233'>Et malgré tes avis un peu trop rigoureux,</l>
+
+	<l id='234'>Le vice que tu dis serait vertu pour eux.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='235'>Que l'amour le plus juste, et le plus raisonnable</l>
+
+	<l id='236'>Produit par son excès un effet condamnable !</l>
+
+	<l id='237'>Chacun tient comme toi pour un point débattu,</l>
+
+	<l id='238'>Que le nombre est petit des femmes de vertu :</l>
+
+	<l id='239'>Et chacun toutefois abusé par une ombre</l>
+
+	<l id='240'>Croit que la sienne a place en un si petit nombre.</l>
+
+	<l id='241'>Mais je veux que Lucrèce y soit au premier rang,</l>
+
+	<l id='242'>Et qu'elle porte un coeur plus noble que son sang ;</l>
+
+	<l id='243'>Penses-tu qu'étant chaste elle en soit moins aimable ?</l>
+
+	<l id='244'>Qu'un front un peu sévère en soit moins estimable ?</l>
+
+	<l id='245'>Et que l'oeil innocent, d'où naissent tes plaisirs,</l>
+
+	<l id='246'>Ne puisse pas donner de coupables désirs ?</l>
+
+	<l id='247'>Assez et trop souvent la chasteté sévère</l>
+
+	<l id='248'>D'un vicieux Amour est l'innocente mère,</l>
+
+	<l id='249'>Et ce fils criminel devenu le plus fort</l>
+
+	<l id='250'>Attaque enfin sa mère, et lui donne la mort.</l>
+
+	<l id='251'>Mais veux-tu que je parle avec cette franchise,</l>
+
+	<l id='252'>Qu'une longue amitié nous a toujours permise,</l>
+
+	<l id='253'>Tarquin est d'une humeur qui s'émeut aisément,</l>
+
+	<l id='254'>Et qui passe bientôt jusqu'au dérèglement,</l>
+
+	<l id='255'>Son désir échauffé ne respecte personne,</l>
+
+	<l id='256'>Il croit que la licence est un droit de Couronne,</l>
+
+	<l id='257'>Que c'est un trait d'esprit de tromper ses amis,</l>
+
+	<l id='258'>Et que quand l'on peut tout, tout est aussi permis.</l>
+
+	<l id='259'>Tu l'as vu, tu le sais, et te trahis toi-même !</l>
+
+	<l id='260'>Tu montres au lion la pâture qu'il aime !</l>
+
+	<l id='261'>Et découvres peut-être à sa brutalité</l>
+
+	<l id='262'>Ce que sans ton discours il n'eût pas souhaité.</l>
+
+	<l id='263'>Quelques fortes raisons qui te puissent défendre</l>
+
+	<l id='264'>Trop vanter de grands biens c'est montrer à les prendre.</l>
+
+	<l id='265'>Tu t'en ris toutefois, et tu n'aperçois pas</l>
+
+	<l id='266'>Les gouffres apparents qui s'ouvrent sous tes pas !</l>
+
+	<l id='267'>Et ton esprit aveugle en pareille rencontre</l>
+
+	<l id='268'>Prendra pour le serpent celui qui te le montre !</l>
+
+	<l id='269'>Que sais-tu si Tarquin n'a pas en d'autres lieux</l>
+
+	<l id='270'>Jeté sur ta Lucrèce un regard vicieux ?</l>
+
+	<l id='271'>Que sais-tu si Tarquin ne cache pas pour elle</l>
+
+	<l id='272'>Une flamme amoureuse, et vieille, et criminelle ?</l>
+
+	<l id='273'>Et pour visiter l'objet de ses amours</l>
+
+	<l id='274'>Il n'a pas à dessein contredit ton discours ?</l>
+
+	<l id='275'>Penses-y de plus près, songe à cet artifice,</l>
+
+	<l id='276'>Mille subtilités accompagnent le vice,</l>
+
+	<l id='277'>Il se porte aisément où jamais il ne fut,</l>
+
+	<l id='278'>Et cent chemins secrets le mènent à son but.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='279'>Un esprit défiant trouve en tout quelque tache,</l>
+
+	<l id='280'>Tout nuit à son repos, ainsi que tout le fâche ;</l>
+
+	<l id='281'>Devant lui fortement à son sens attaché</l>
+
+	<l id='282'>La vertu n'est qu'un voile à couvrir le péché ;</l>
+
+	<l id='283'>Et comme toi toujours à soi-même sévère</l>
+
+	<l id='284'>D'un seul mot sans dessein il se fait un mystère.</l>
+
+	<l id='285'>Me préserve le Ciel de semblables humeurs</l>
+
+	<l id='286'>Qui ne furent jamais que la peste des moeurs.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='287'>Qu'il t'en préserve donc, mais repasse en ton âme</l>
+
+	<l id='288'>Que Tarquin porte un Sceptre, et que Lucrèce est femme.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='2'><head>ACTE II</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+
+<sp who='TARQUIN'><speaker>TARQUIN seul.</speaker>
+
+	<l id='289'>C'est Lucrèce, qu'importe, il la faut emporter,</l>
+
+	<l id='290'>Et je suis en un rang à ne rien respecter,</l>
+
+	<l id='291'>Je puis tout espérer, et je ne dois rien craindre,</l>
+
+	<l id='292'>Il n'est rien de si haut où je ne puisse atteindre,</l>
+
+	<l id='293'>Et partout où le Ciel me promet des plaisirs,</l>
+
+	<l id='294'>Je puis impunément y porter mes désirs.</l>
+
+	<l id='295'>Ne considérons point cette vertu suprême</l>
+
+	<l id='296'>Comme un empêchement à mon amour extrême,</l>
+
+	<l id='297'>La plus haute vertu peut choir en un instant,</l>
+
+	<l id='298'>Et n'est jamais constante en un sexe inconstant.</l>
+
+	<l id='299'>Ce mérite apparent qui relève Lucrèce,</l>
+
+	<l id='300'>N'est peut-être qu'un fard qui cache sa faiblesse,</l>
+
+	<l id='301'>Et dont l'éclat trompeur ne fait qu'épouvanter</l>
+
+	<l id='302'>Quiconque la vaincra s'il ose la tenter :</l>
+
+	<l id='303'>Quelques vains sentiments qu'on oppose au contraire,</l>
+
+	<l id='304'>La vertu d'une femme est un faible adversaire,</l>
+
+	<l id='305'>Et sans mettre en usage et la flamme et le fer</l>
+
+	<l id='306'>Qui n'en triomphe pas n'en veut pas triompher.</l>
+
+	<l id='307'>Mais peut-elle être sainte et chaste réputée</l>
+
+	<l id='308'>Si jamais sa beauté ne fut sollicitée ?</l>
+
+	<l id='309'>La femme n'est pudique et ne s'en peut vanter,</l>
+
+	<l id='310'>Que lorsqu'elle a dompté ce qui la put dompter.</l>
+
+	<l id='311'>Osons donc toute chose, et donnons à Lucrèce</l>
+
+	<l id='312'>De quoi nous faire voir sa force ou sa faiblesse,</l>
+
+	<l id='313'>Triomphons d'un esprit si sévère et si doux,</l>
+
+	<l id='314'>Ou donnons-lui sujet de triompher de nous.</l>
+
+	<l id='315'>Et quand même il faudrait embrasser des supplices</l>
+
+	<l id='316'>Travaillons pour sa gloire ou bien pour mes délices.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Tarquin, Brute. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='317'>Brute, enfin je l'ai vue, et je sais ce qu'elle est.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='318'>Pour le moins sa vertu vous contente et vous plaît.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='319'>Souvent cette vertu n'est qu'un art ridicule,</l>
+
+	<l id='320'>Qui ne sert qu'à tromper un mari trop crédule.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='321'>Seigneur, si c'est un art, c'est un art glorieux,</l>
+
+	<l id='322'>Qui rend Lucrèce illustre, et l'approche des Dieux.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='323'>Oui Brute, c'est un art qui te trompe toi-même.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='324'>Douter de sa vertu c'est commettre un blasphème.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='325'>As-tu battu ce fort, et t'a-t-il résisté ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='326'>L'avez-vous assailli, l'avez-vous emporté ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='327'>Non, non, jusques ici je n'eus jamais d'envie,</l>
+
+	<l id='328'>De ternir la splendeur d'une si belle vie,</l>
+
+	<l id='329'>Et je veux que le Ciel m'ôte du rang des Rois</l>
+
+	<l id='330'>Si jusqu'à ce dessein j'abuse de mes droits.</l>
+
+	<l id='331'>Mais enfin l'on peut rire et sans crime et sans blâme,</l>
+
+	<l id='332'>On peut innocemment attaquer une femme,</l>
+
+	<l id='333'>Et bien que sa vertu ne puisse pas faillir,</l>
+
+	<l id='334'>Pour la mieux faire voir on la peut assaillir.</l>
+
+	<l id='335'>Ainsi par une longue et glorieuse attaque</l>
+
+	<l id='336'>On éprouva jadis la Princesse d'Ithaque,</l>
+
+	<l id='337'>Et si l'on eût jamais son esprit combattu</l>
+
+	<l id='338'>Jamais le monde entier n'eût vanté sa vertu.</l>
+
+	<l id='339'>D'inutiles assauts illustrent sa mémoire,</l>
+
+	<l id='340'>Et ce qui dut l'abattre a soutenu sa gloire.</l>
+
+	<l id='341'>Tentons ainsi Lucrèce, et par de vains efforts</l>
+
+	<l id='342'>Donnons un nouveau lustre à des attraits si forts.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='343'>Figurez-vous Seigneur sa conquête impossible,</l>
+
+	<l id='344'>Laissez à sa vertu le titre d'invincible,</l>
+
+	<l id='345'>Où luit le vrai mérite assez de lustre est joint,</l>
+
+	<l id='346'>Et ne faut point de preuve où l'on ne doute point.</l>
+
+	<l id='347'>Vouloir trop éprouver une vertu si belle</l>
+
+	<l id='348'>Est agir contre vous, aussitôt que contre elle ;</l>
+
+	<l id='349'>Peut-être en assaillant cette pudicité</l>
+
+	<l id='350'>Vous dressez une embûche à votre liberté,</l>
+
+	<l id='351'>Et vous allez en vous découvrir la faiblesse,</l>
+
+	<l id='352'>Que vous cherchez en vain dans l'esprit de Lucrèce.</l>
+
+	<l id='353'>Elle résistera, l'on en saurait douter,</l>
+
+	<l id='354'>Et par sa résistance elle peut vous tenter :</l>
+
+	<l id='355'>L'honnête résistance est de cette nature</l>
+
+	<l id='356'>Qu'elle porte le feu dans l'âme qui l'endure,</l>
+
+	<l id='357'>Et nous rend obstinés à poursuivre des fers</l>
+
+	<l id='358'>Que nous rejetterions s'ils nous étaient offerts.</l>
+
+	<l id='359'>Ainsi par un malheur qui va jusqu'à l'extrême</l>
+
+	<l id='360'>Tel croit brûler autrui qui se brûle soi-même ;</l>
+
+	<l id='361'>Ainsi loin des succès qu'on avait attendus</l>
+
+	<l id='362'>Dans l'épreuve d'autrui beaucoup se sont perdus.</l>
+
+	<l id='363'>Ne croyez pas pourtant que je vous sois contraire,</l>
+
+	<l id='364'>Je prêterais la main à mener cette affaire,</l>
+
+	<l id='365'>Votre dessein est bon, mais il se peut changer,</l>
+
+	<l id='366'>Et d'un semblable jeu l'on peut faire un danger.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='367'>Ne t'étonne de rien, suivons cette entreprise</l>
+
+	<l id='368'>Au dessein que je fais prête ton entremise,</l>
+
+	<l id='369'>Nous aurons travaillé sous un heureux destin</l>
+
+	<l id='370'>Pourvu que le danger regarde Collatin.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='371' part='i'>Quel dessein !</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='371' part='m'>Que dis-tu ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='371' part='f'>Que vous aimez Lucrèce,</l>
+
+	<l id='372'>Et que par ce dessein votre coeur le confesse ;</l>
+
+	<l id='373'>Si vous n'aimiez encor la femme d'un ami,</l>
+
+	<l id='374'>Peut-être croiriez-vous ne l'aimer qu'à demi.</l>
+
+	<l id='375'>Ne dissimulez point Lucrèce est assez belle</l>
+
+	<l id='376'>Pour faire d'un Monarque un esclave chez elle,</l>
+
+	<l id='377'>Et vous êtes aussi de ce tempérament</l>
+
+	<l id='378'>Où les flammes d'amour s'attachent aisément.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='379'>Oui je brûle aisément pour des sujets sensibles,</l>
+
+	<l id='380'>Mais je fuis les beautés que je trouve invincibles.</l>
+
+	<l id='381'>Je ne m'efforce point d'ébranler un Rocher,</l>
+
+	<l id='382'>Et je hais le plaisir qui me coûte trop cher.</l>
+
+	<l id='383'>La faveur d'une femme est un si beau partage</l>
+
+	<l id='384'>Qu'il faille à sa poursuite employer tout notre âge ?</l>
+
+	<l id='385'>Non, non, elle est pour nous un bien trop inconstant ;</l>
+
+	<l id='386'>Et c'est trop l'acheter que d'y perdre un instant ;</l>
+
+	<l id='387'>Que Lucrèce soit belle, elle est peu trop traitable,</l>
+
+	<l id='388'>Et ce point seulement me la rend méprisable.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='389'>Pourquoi résistez-vous, où vous devez céder ?</l>
+
+	<l id='390'>Pourquoi vous cachez-vous à qui vous peut aider ?</l>
+
+	<l id='391'>Ai-je en d'autres secrets montrer quelque imprudence</l>
+
+	<l id='392'>Qui me puisse bannir de votre confidence ?</l>
+
+	<l id='393'>Ai-je manqué pour vous de soin et de respect ?</l>
+
+	<l id='394'>Et quelque occasion me rend-elle suspect ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='395'>Quoi, tu voudrais aider un esprit misérable</l>
+
+	<l id='396'>Qu'une amour si honteuse aurait rendu coupable ?</l>
+
+	<l id='397'>Et tu mépriserais les hommes et les Dieux</l>
+
+	<l id='398'>Pour le contentement d'ami vicieux ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='399'>Oui pour aider son Prince, et pour l'ôter de peine</l>
+
+	<l id='400'>Il n'est rien de si fort que Brute n'entreprenne.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='401'>L'offre que tu me fais me pourrait enflammer,</l>
+
+	<l id='402'>Et si je n'aimais pas, tu me ferais aimer.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='403' part='i'>Vous l'avouez enfin.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='403' part='f'>Oui Brute, je confesse,</l>
+
+	<l id='404'>Qu'Amour est un tribut que l'on doit à Lucrèce,</l>
+
+	<l id='405'>Et qu'il est mal aisé de conserver son coeur,</l>
+
+	<l id='406'>Où règne absolument un si noble vainqueur.</l>
+
+	<l id='407'>J'au vu, j'ai vu Lucrèce, ou bien la beauté même,</l>
+
+	<l id='408'>Et c'est en dire assez pour t'apprendre que j'aime :</l>
+
+	<l id='409'>Ainsi sans y penser, un Ami sans raison</l>
+
+	<l id='410'>Croit chez lui me conduire, et me mène en prison.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='411' part='i'>Vous aimeriez Lucrèce !</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='411' part='f'>Oui je lui rends les armes ;</l>
+
+	<l id='412'>Je suis faible près d'elle, et je cède à ses charmes.</l>
+
+	<l id='413'>Quelle fin bornera ce violent accès ?</l>
+
+	<l id='414'>Je commence à l'aimer, et l'aime avec excès !</l>
+
+	<l id='415'>Qu'à cet Astre qui rend toute chose éclairée</l>
+
+	<l id='416'>La beauté qui nous plaît ne soit plus comparée,</l>
+
+	<l id='417'>Le Soleil en naissant n'a presque point de feu,</l>
+
+	<l id='418'>Et ses premiers rayons ne touchent que fort peu ;</l>
+
+	<l id='419'>Mais la beauté plus forte et plus digne de plaire</l>
+
+	<l id='420'>Brute, enflamme, consume aussitôt qu'elle éclaire,</l>
+
+	<l id='421'>Et ses premiers regards superbes et charmants</l>
+
+	<l id='422'>Font en moins d'un instant de grands embrasements.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='423'>Il est vrai que Lucrèce est le charme de l'âme,</l>
+
+	<l id='424'>Si l'on voit ses beautés on deviendra de flamme,</l>
+
+	<l id='425'>Mais si l'on voit l'esprit qu'elle a reçu des Cieux</l>
+
+	<l id='426'>Ses vertus éteindront ce qu'enflamment ses yeux.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='427'>Je connais ses vertus ainsi que son visage,</l>
+
+	<l id='428'>Et les difficultés m'enflamment davantage :</l>
+
+	<l id='429'>Qu'elle ôte tout espoir aux passions d'un Roi,</l>
+
+	<l id='430'>Que sa pudicité soit plus forte que moi,</l>
+
+	<l id='431'>Mon feu trop violent ne trouve rien à craindre,</l>
+
+	<l id='432'>Et fait son aliment de ce qui peut l'éteindre.</l>
+
+	<l id='433'>Entreprends seulement ce que tu m'as promis</l>
+
+	<l id='434'>Adoucir la prison où Lucrèce m'a mis,</l>
+
+	<l id='435'>Ou si Lucrèce et toi ne voulez pas m'entendre</l>
+
+	<l id='436'>La flamme de l'esprit mettra le corps en cendre.</l>
+
+	<l id='437'>Poursuis donc cher Ami, travaille à mon secours,</l>
+
+	<l id='438'>Et prends pour y venir les chemins les plus courts.</l>
+
+	<l id='439' part='i'>Tu demeures muet !</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='439' part='f'>Il vaut bien mieux se taire,</l>
+
+	<l id='440'>Que donner un conseil qui ne pourrait pas plaire.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='441'>Ravirai-je l'objet dont je me sens ravi ?</l>
+
+	<l id='442'>Si c'est là ton conseil, il plaît, il est suivi.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='443'>Ha Seigneur résistez à ce malheur extrême</l>
+
+	<l id='444'>Dont le coup plus sanglant tomberait sur vous-même,</l>
+
+	<l id='445'>Et songez que l'honneur, dont vous suivez les lois,</l>
+
+	<l id='446'>Doit plutôt que l'amour être le Dieu des Rois.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='447'>J'approuve avec raison cette Auguste parole,</l>
+
+	<l id='448'>L'honneur doit être seul notre plus chère idole :</l>
+
+	<l id='449'>Mais où règne l'amour, ce Dieu des voluptés,</l>
+
+	<l id='450'>On considère peu les autres déités.</l>
+
+	<l id='451' part='i'>Enfin venons au point.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='451' part='f'>Le seul point nécessaire</l>
+
+	<l id='452'>Consiste à triompher d'un si fort adversaire.</l>
+
+	<l id='453'>Qu'un flatteur me condamne et vous parle autrement</l>
+
+	<l id='454'>Brute est accoutumé de parler librement :</l>
+
+	<l id='455'>Vous le vouliez jadis, vous le voudrez encore</l>
+
+	<l id='456'>Puisqu'il s'agit d'éteindre un feu qui vous dévore.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='457'>Veux-tu donc me combattre au lieu de m'assister ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='458'>Ce n'est pas avec vous que je veux résister.</l>
+
+	<l id='459'>Mais vous voyant gêné d'une amour si contraire</l>
+
+	<l id='460'>C'est bien vous assister que de vous en distraire.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='461'>Le traître ! Cher Ami, je connais mon péché,</l>
+
+	<l id='462'>Mais pour m'en dégager j'y suis trop attaché.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='463'>Considérez l'horreur où cet Amour vous porte,</l>
+
+	<l id='464'>Et bientôt la raison se rendra la plus forte.</l>
+
+	<l id='465'>Comment fléchirez-vous cette Illustre beauté,</l>
+
+	<l id='466'>Que vous faîtes l'objet de votre volonté ?</l>
+
+	<l id='467'>Les dons et des discours les forces et les charmes</l>
+
+	<l id='468'>Ne sont pour la gagner que d'inutiles armes ;</l>
+
+	<l id='469'>Les Dons ne tentent point qui méprise le bien,</l>
+
+	<l id='470'>La voix ne touche point quiconque n'entend rien,</l>
+
+	<l id='471'>Et si ces deux moyens pour elle sans amorce</l>
+
+	<l id='472'>Irritent votre amour jusqu'à l'avoir de force,</l>
+
+	<l id='473'>Vous armez contre vous autant de combattants</l>
+
+	<l id='474'>Que l'Empire Romain fournira d'habitants.</l>
+
+	<l id='475'>Lucrèce tient un rang que la gloire environne,</l>
+
+	<l id='476'>Elle est en un degré si près de la Couronne,</l>
+
+	<l id='477'>Qu'on ne peut le choquer sans ébranler celui</l>
+
+	<l id='478'>Qui sert à votre trône et de base et d'appui.</l>
+
+	<l id='479'>Chassez donc cet amour, ou plutôt cette peste,</l>
+
+	<l id='480'>Alors qu'il est injuste il est toujours funeste,</l>
+
+	<l id='481'>Et par ses cruautés on a vu mille fois</l>
+
+	<l id='482'>La Couronne tomber de la tête des Rois.</l>
+
+	<l id='483'>Jadis par lui Paris vit sa gloire flétrie,</l>
+
+	<l id='484'>Par lui ce lâche esprit désola sa patrie,</l>
+
+	<l id='485'>Détruisit ses amis, se ruina comme eux,</l>
+
+	<l id='486'>Et si un grand bûcher d'un Empire fameux,</l>
+
+	<l id='487'>Bref il n'est rien de saint que ce feu ne consomme,</l>
+
+	<l id='488'>Et s'il a brûlé Troie il peut bien brûler Rome.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='489'>Que je suis redevable à cet heureux discours</l>
+
+	<l id='490'>Qui conserve ma gloire et me donne secours !</l>
+
+	<l id='491'>Ami le plus parfait des amis de la terre</l>
+
+	<l id='492'>Tu ne pouvais m'aider qu'en me faisant la guerre.</l>
+
+	<l id='493'>Tu dessilles mes yeux déjà privés du jour,</l>
+
+	<l id='494'>Et tu romps le bandeau dont m'aveuglait l'amour.</l>
+
+	<l id='495'>Enfin par ton travail je vois les précipices,</l>
+
+	<l id='496'>Où m'allaient entraîner de trompeuses délices,</l>
+
+	<l id='497'>Que tu me sers ici d'un puissant défenseur !</l>
+
+	<l id='498'>Et que j'aime un Ami qui se fait mon censeur !</l>
+
+	<l id='499'>Pardon chaste Lucrèce à ma flamme insensée,</l>
+
+	<l id='500'>T'avoir cru conquérir c'est t'avoir offensée,</l>
+
+	<l id='501'>Mais te croire invincible aux passions d'un Roi</l>
+
+	<l id='502'>C'est réparer le mal que j'ai fait contre toi.</l>
+
+	<l id='503'>Cher Ami, qu'une Amour si fatale à ma gloire</l>
+
+	<l id='504'>Ainsi que de mon coeur sorte de ta mémoire,</l>
+
+	<l id='505'>Mets en oubli l'horreur dont j'allais me tacher,</l>
+
+	<l id='506'>Ou ne t'en ressouviens qu'afin de la cacher.</l>
+
+	<l id='507'>Montre-moi des effets d'un zèle légitime</l>
+
+	<l id='508'>Tout autant à courir qu'à détourner mon crime,</l>
+
+	<l id='509'>Cache tout à Lucrèce ainsi qu'à son époux,</l>
+
+	<l id='510'>Et d'un trop libre ami ne fais pas un jaloux.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='511'>Je sais bien mon devoir, mais vous rêvez encore.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='512'>Je pense à ta vertu, que j'aime, et que j'honore.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='513'>Mais c'est à mon avis trop longtemps demeurer</l>
+
+	<l id='514'>Où peut-être l'amour vous eût fait égarer.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='515'>Ami que tes conseils me sont doux et propices !</l>
+
+	<l id='516'>Mais retournons au camp et dans les exercices,</l>
+
+	<l id='517'>Nous sommes de l'amour plus aisément vainqueurs</l>
+
+	<l id='518'>Lorsqu'un noble travail en divertit nos coeurs.</l>
+
+	<l id='519'>Allons nous préparer pour une autre victoire,</l>
+
+	<l id='520'>Et s'il nous fait aimer, n'aimons plus que la gloire.</l>
+
+	<l id='521'>Fais venir mon esclave, il est temps de partir,</l>
+
+	<l id='522'>Va-t-en de ce dessein Collatin avertir.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='523'>Vous ne fîtes jamais de desseins plus Augustes,</l>
+
+	<l id='524'>Ni de commandements mieux suivis, ni plus justes.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+
+<sp who='TARQUIN'><speaker>TARQUIN seul. </speaker>
+
+	<l id='525'>Et toi barbare esprit, qui penses me toucher,</l>
+
+	<l id='526'>Tu ne dis jamais rien qui me coûtât plus cher.</l>
+
+	<l id='527'>Insensé, tes avis sont pour moi des injures,</l>
+
+	<l id='528'>Et le rang où je suis déteste les censures.</l>
+
+	<l id='529'>Lorsque mes passions consultent tes pareils,</l>
+
+	<l id='530'>J'en attends des effets et non pas des conseils ;</l>
+
+	<l id='531'>Je veux voir à mon gré ma volonté suivie,</l>
+
+	<l id='532'>Et qui me contredit estime peu sa vie.</l>
+
+	<l id='533'>Je cède en apparence à ton soin imprudent</l>
+
+	<l id='534'>De peur de faire un traître au lieu d'un confident,</l>
+
+	<l id='535'>Mais de quelques raisons, dont tu veuilles m'instruire,</l>
+
+	<l id='536'>Tu ne me rends savant qu'en l'art de te détruire.</l>
+
+	<l id='537'>Ma fureur est un feu qui ne s'éteint jamais,</l>
+
+	<l id='538'>Et qui porte la guerre où se montre la paix.</l>
+
+	<l id='539'>La lâche s'offre à moi, m'interroge, me presse,</l>
+
+	<l id='540'>Me promet du secours pourvu que je confesse,</l>
+
+	<l id='541'>Et le traître après tout ne me vient gouverner</l>
+
+	<l id='542'>Que comme un criminel que l'on veut condamner.</l>
+
+	<l id='543'>Tu t'en repentiras âme ingrate, âme vaine,</l>
+
+	<l id='544'>Ton sévère discours n'a conclu qu'à ta peine,</l>
+
+	<l id='545'>Et tu sauras qu'un juge est lui-même en danger,</l>
+
+	<l id='546'>Quand celui, qu'il condamne, a droit de le juger.</l>
+
+	<l id='547'>Je réduirai si bas ta fortune et ta vie,</l>
+
+	<l id='548'>Qu'au plus infortuné tu porteras envie.</l>
+
+	<l id='549'>Tu veux à mon amour établir une loi,</l>
+
+	<l id='550'>Mais sache que sa flamme est un foudre pour toi,</l>
+
+	<l id='551'>Sache qu'il a pour lui contre tes rêveries</l>
+
+	<l id='552'>D'un Roi qui le chérit la force et les furies.</l>
+
+	<l id='553'>Il règne, il régnera, tout coupable qu'il est,</l>
+
+	<l id='554'>Si cet mon ennemi, mon ennemi me plaît.</l>
+
+	<l id='555'>Tes généreux conseils ont pour lui des amorces,</l>
+
+	<l id='556'>Ta folle résistance a confirmé ses forces,</l>
+
+	<l id='557'>Et parce qu'il te choque et te semble insensé,</l>
+
+	<l id='558'>Je le rappellerais si je l'avais chassé.</l>
+
+	<l id='559'>Je n'aime plus Lucrèce à cause qu'elle est belle</l>
+
+	<l id='560'>Mais parce que tu veux que je sois froid pour elle,</l>
+
+	<l id='561'>Et je la croirai faible et facile à dompter</l>
+
+	<l id='562'>Puisque pour mes plaisirs tu crains de la tenter.</l>
+
+	<l id='563'>Enfin je la suivrai jusqu'au point de me plaire</l>
+
+	<l id='564'>Plus en dépit de toi que pour me satisfaire,</l>
+
+	<l id='565'>Et j'irai l'assaillir, fut-elle entre les Dieux,</l>
+
+	<l id='566'>Plus irrité par toi que charmé par ses yeux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Tarquin, Libane. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='567'>Libane approche-toi, mais avec un courage</l>
+
+	<l id='568'>Qui ne démente point l'affaire où je t'engage,</l>
+
+	<l id='569'>Et pour le juste prix des biens, qui m'en viendront,</l>
+
+	<l id='570'>Si ta franchise est peu mes faveurs s'y joindront.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='571'>À qui sert par Amour toutes offres sont vaines,</l>
+
+	<l id='572'>Je vous sers librement même avecques ses chaînes,</l>
+
+	<l id='573'>Et ne souhaiterais l'aimable liberté,</l>
+
+	<l id='574'>Que pour vous assurer de cette vérité.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='575'>Libane tu l'auras, ce sera ton salaire,</l>
+
+	<l id='576'>Mais redouble pour moi ton adresse ordinaire,</l>
+
+	<l id='577'>Je brûle pour Lucrèce, et tu me dois servir</l>
+
+	<l id='578'>Ou bien à la gagner ou bien à la ravir.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='579'>Nous en triompherons, cette victoire est prête,</l>
+
+	<l id='580'>Une femme est pour vous de facile conquête.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='581'>Je m'en retourne au camp avecque cet espoir</l>
+
+	<l id='582'>D'y laisser Collatin, et d'être ici ce soir ;</l>
+
+	<l id='583'>Mais pour faciliter le bonheur où j'aspire,</l>
+
+	<l id='584'>Tu feras cependant ce que je te vais dire.</l>
+
+	<l id='585'>Surtout suivant d'abord les chemins les plus doux</l>
+
+	<l id='586'>Il faut donc. À tantôt, Collatin vient à nous.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Tarquin, Collatin. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='587'>Je me rends, cher Ami, je cède, je l'avoue,</l>
+
+	<l id='588'>Qui mérite un autel mérite qu'on le loue ;</l>
+
+	<l id='589'>Après tous les discours dont tu m'as combattu,</l>
+
+	<l id='590'>J'ai cru voir une femme, et j'ai vu la vertu.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='591'>Vous croirez que le sexe a du moins une femme</l>
+
+	<l id='592'>Dont les hautes beautés s'étendent jusqu'à l'âme.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='593'>Je te crois désormais seul favori des Cieux,</l>
+
+	<l id='594'>Puisqu'ils font pour toi seul des biens si précieux.</l>
+
+	<l id='595'>Si le sexe est blâmé pour un peu de faiblesse,</l>
+
+	<l id='596'>Tout le sexe est louable à cause de Lucrèce.</l>
+
+	<l id='597'>Si l'on estime encor des peuples glorieux</l>
+
+	<l id='598'>Parce qu'il en naquit des Héros et des Dieux ;</l>
+
+	<l id='599'>Par un droit aussi fort, et non moins équitable,</l>
+
+	<l id='600'>Puisque Lucrèce en est, tout le sexe est aimable.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Brute, Lucrèce, Tarquin, Collatin. </head>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='601' part='i'>Il veut déjà partir !</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='601' part='f'>Ne le retenez pas.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='602'>Mais elle te suivait, la voici sur tes pas.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='603' part='i'>Partirez-vous si tôt ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='603' part='f'>Au moins je m'y dispose.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='604'>Arriver et partir est-ce en vous même chose ?</l>
+
+	<l id='605'>Si vous traitez ainsi ceux que vous fréquentez,</l>
+
+	<l id='606'>Vous n'importunez pas lorsque vous visitez ;</l>
+
+	<l id='607'>Et l'on vous fait souvent de ces plaintes discrètes</l>
+
+	<l id='608'>Que vous ôtez bientôt les honneurs que vous faites ;</l>
+
+	<l id='609'>Mais vous êtes touché d'un plus noble souci,</l>
+
+	<l id='610'>Et vous perdez le temps que vous donnez ici.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='611'>Par des soins éternels je ferai toujours croire</l>
+
+	<l id='612'>Que mon plus gros souci regarde votre gloire ;</l>
+
+	<l id='613'>Et bien que sur ce point vous m'ayez combattu</l>
+
+	<l id='614'>L'on ne perd point de temps auprès de la vertu.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='615'>Aussi l'allez-vous suivre en ces lieux honorables,</l>
+
+	<l id='616'>Où même les dangers vous semblent désirables.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='617' part='i'>Vous n'êtes pas parti.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='617' part='f'>Le plutôt est le mieux ;</l>
+
+	<l id='618'>Le camp lassé d'un siège a besoin de vos yeux,</l>
+
+	<l id='619'>La présence d'un chef est l'âme d'une armée</l>
+
+	<l id='620'>Qui ne peut subsister sans en être animée.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='621'>Tu t'en repentiras. Partons de bons avis,</l>
+
+	<l id='622'>Ne peuvent ce me semble être trop tôt suivis.</l>
+
+	<l id='623'>Demeure Collatin, ta Lucrèce t'invite</l>
+
+	<l id='624'>De faire plus durer cette heureuse visite,</l>
+
+	<l id='625'>Et je suis assuré que d'une et d'autre part</l>
+
+	<l id='626'>C'est avecque regret qu'on songe à ce départ.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='627'>Je le rendrais coupable, et lui serais rebelle</l>
+
+	<l id='628'>Si je le retenais quand la gloire l'appelle ;</l>
+
+	<l id='629'>C'est le plus noble objet qu'il puisse caresser,</l>
+
+	<l id='630'>Et s'il n'y courait pas je voudrais l'y pousser.</l>
+
+	<l id='631'>Quoi qu'on entende dire à ces esprits infâmes</l>
+
+	<l id='632'>L'homme est fait pour la gloire et non pas pour les femmes.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='633'>Ce généreux discours te donne ton congé.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='634'>Je le prends aisément quand j'y suis obligé.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='635'>Ha, Brute, en cet endroit que de richesse abonde !</l>
+
+	<l id='636'>Et que l'on trouve peu de Lucrèces au monde !</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='3'><head>ACTE III</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Livie, Cornélie. </head>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='637'>Ainsi qu'à mes pensers, je puis à mes discours</l>
+
+	<l id='638'>Donner auprès de vous un long et libre cours :</l>
+
+	<l id='639'>Que mes opinions ridicules et vaines</l>
+
+	<l id='640'>Soient autant sans raison que les vôtres sont saines,</l>
+
+	<l id='641'>Vous m'estimez assez pour cacher mon défaut,</l>
+
+	<l id='642'>Et pour me retenir si je vole trop haut.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='643'>Si ce que vous pensez peut charger de blâme,</l>
+
+	<l id='644'>Vous devez aussitôt l'étouffer dans votre âme.</l>
+
+	<l id='645'>On doit être muet pour une opinion</l>
+
+	<l id='646'>Que l'on craint d'exprimer à sa confusion,</l>
+
+	<l id='647'>Et selon ce conseil à chacun salutaire,</l>
+
+	<l id='648'>Une fille d'esprit doit parler ou se taire.</l>
+
+	<l id='649'>Rêvez sur les propos que vous voudrez tenir,</l>
+
+	<l id='650'>La voix sort aisément, et ne peut revenir.</l>
+
+	<l id='651'>Ce n'est pas qu'entre nous une honnête franchise</l>
+
+	<l id='652'>Ne soit à vos discours par moi-même permise,</l>
+
+	<l id='653'>Dites-moi, qu'avez-vous à me représenter ?</l>
+
+	<l id='654'>Et quel est le sujet qui vous fait hésiter ?</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='655'>Tarquin à mon avis ne porte point les marques,</l>
+
+	<l id='656'>Qui doivent éclater sur le front des Monarques,</l>
+
+	<l id='657'>Il n'a ni la douceur, ni cette Majesté,</l>
+
+	<l id='658'>Qui font d'un Roi mortel une divinité ;</l>
+
+	<l id='659'>Mais toujours orgueilleux, et toujours téméraire</l>
+
+	<l id='660'>Il hérite déjà des humeurs de son père.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='661'>Termine ces discours de tout temps improuvés,</l>
+
+	<l id='662'>Ils sont pour une fille un peu trop relevés,</l>
+
+	<l id='663'>Et ce n'est pas à nous, où la faiblesse abonde,</l>
+
+	<l id='664'>À faire le procès des déités du monde.</l>
+
+	<l id='665'>Les Rois ont été faits des Sceptres possesseurs</l>
+
+	<l id='666'>Pour avoir des sujets, et non pas des censeurs.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Libane, Livie, Cornélie. </head>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='667'>Je rencontre à propos les femmes de Lucrèce,</l>
+
+	<l id='668'>Ici doit commencer l'embûche que je dresse.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='669'>Mais voici son Esclave, était-il demeuré ?</l>
+
+	<l id='670' part='i'>Pourquoi revenez-vous ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='670' part='f'>Je me suis égaré,</l>
+
+	<l id='671'>Et par mille chemins que la nuit m'a fait prendre</l>
+
+	<l id='672'>Je me rends en ce lieu sans dessein de m'y rendre</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='673'>Mais le chemin du camp est assez fréquenté.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='674'>Malgré moi toutefois je m'en suis écarté.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='675' part='i'>Comment s'est fait cela.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='675' part='f'>L'on demande un mystère,</l>
+
+	<l id='676'>Et dangereux à dire, et dangereux à taire.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='677'>Regarde-t-il quelqu'un qui nous doive être cher ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='678'>C'est encore à ce point que je n'ose toucher.</l>
+
+	<l id='679'>Lucrèce est en effet et si chaste et si belle,</l>
+
+	<l id='680'>Qu'à peine croirait-on ce qui se fait contre elle.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='681'>Collatin le sait-il sans montrer son crédit ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='682'>Hélas ! Puisque c'est lui, mais Dieux, j'en ai déjà trop dit.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='683'>Ô Dieux que nous dit-il ? Dois-je croire, Livie ?</l>
+
+	<l id='684'>Que le vice corrompe une si noble vie</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='685' par='i'>Je ne dis pas cela.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='685' part='f'>Ton discours te dément,</l>
+
+	<l id='686'>Et qui feint comme toi parle trop clairement.</l>
+
+	<l id='687'>Que la fidélité souffre au siècle où nous sommes !</l>
+
+	<l id='688'>Et que c'est un trésor que gardent peu les hommes !</l>
+
+	<l id='689' part='i'>Achève.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='689' part='m'>Que dirai-je.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='689' part='f'>Il ne faut point rêver,</l>
+
+	<l id='690'>Tu ne devais rien dire, ou tu dois achever.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Lucrèce, Livie, Cornélie, Libane. </head>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='691'>Qu'a-t-on à contester, et que viens-je d'entendre ?</l>
+
+	<l id='692'>Mais que veut cet Esclave ? Et que peut-il attendre ?</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='693' part='i'>Il cache...</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='693' part='f'>Taisez-vous, et gardez de parler,</l>
+
+	<l id='694'>Ici pour son repos on doit dissimuler.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='695'>Il cache des secrets qui vous touchent sans doute,</l>
+
+	<l id='696' part='i'>Collatin, qu'il achève.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='696' part='f'>Achève, l'on t'écoute,</l>
+
+	<l id='697'>Ne dissimule rien, fais-nous un vrai rapport,</l>
+
+	<l id='698'>Quand cette vérité devrait être ma mort.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='699'>Ne vous figurez point de malheureux auspices,</l>
+
+	<l id='700'>Collatin en repos nage dans les délices,</l>
+
+	<l id='701'>Mais ne me forcez point à vous faire un rapport</l>
+
+	<l id='702'>Qui ne vous peut servir et qui me fera tort.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='703'>Je ne comprends ici qu'un excès d'artifice,</l>
+
+	<l id='704'>Collatin en repos nage dans les délices !</l>
+
+	<l id='705'>Croirai-je en cet endroit ces pensers épineux</l>
+
+	<l id='706'>Que verse en mon esprit un amour soupçonneux</l>
+
+	<l id='707' part='i'>Parle-moi, ne crains rien.</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='707' part='f'>Le voulez-vous, Madame,</l>
+
+	<l id='708'>Collatin vous trahit, vous préfère une infâme,</l>
+
+	<l id='709'>Et malgré les saints noeuds d'hymen et du devoir,</l>
+
+	<l id='710'>Il lui donne le coeur que vous croyez avoir.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='711'>Songe à ce que tu dis, connais-tu l'impudique,</l>
+
+	<l id='712'>Qui trame avecques lui cette infâme pratique ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='713' part='i'>Non, Madame.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='713' part='f'>Sais-tu les endroits infectés,</l>
+
+	<l id='714'>Où ce coeur aveuglé cherche des voluptés ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='715' part='i'>Non, Madame.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='715' part='f'>Et tu sais ce qu'il cache dans l'âme ?</l>
+
+	<l id='716'>Quels Dieux ou quels démons te découvrent sa flamme ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='717'>Le blâme, dont Tarquin le charge tous les jours,</l>
+
+	<l id='718'>Ne m'a que trop appris ses honteuses amours.</l>
+
+	<l id='719'>Encore hier au soir mon Roi, qui vous estime,</l>
+
+	<l id='720'>Par ce juste discours lui reprochait son crime ;</l>
+
+	<l id='721'>Ayant chez vous des biens et vrais et sans défauts,</l>
+
+	<l id='722'>Devez-vous autre part en poursuivre de faux ?</l>
+
+	<l id='723'>Cet impudique objet qui dérobe à Lucrèce</l>
+
+	<l id='724'>Ce que vous lui devez d'amour et de tendresse,</l>
+
+	<l id='725'>Cet oeil, qui vous enchante, a-t-il plus de beauté</l>
+
+	<l id='726'>Que le portrait vivant d'une Divinité ?</l>
+
+	<l id='727'>Ainsi parla Tarquin, mais ces justes paroles</l>
+
+	<l id='728'>Auprès de votre époux passèrent pour frivoles ;</l>
+
+	<l id='729'>Et pour lui ce discours sans force et sans appas</l>
+
+	<l id='730'>Est un vent qui le touche, et qui ne l'émeut pas.</l>
+
+	<l id='731'>L'Hymen n'est rien, dit-il, qu'une chaîne trop dure,</l>
+
+	<l id='732'>Que la police a faite, et non pas la nature.</l>
+
+	<l id='733'>C'est un joug assez rude et plein de passions,</l>
+
+	<l id='734'>Sans le rendre plus dur par nos sujétions.</l>
+
+	<l id='735'>Les Dieux plus forts que nous ne le portent qu'à peine,</l>
+
+	<l id='736'>Ses liens sont pour eux une sorte de gêne,</l>
+
+	<l id='737'>Et pour les rendre aussi plus doux et plus légers,</l>
+
+	<l id='738'>Ils cherchent comme moi des plaisirs étrangers.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='739'>Quel excès de blasphème, et d'extrême artifice,</l>
+
+	<l id='740'>De faire de nos Dieux les excuses du vice !</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='741'>Ce n'est pas tout, Madame, après mille discours</l>
+
+	<l id='742'>Dont Collatin noircit la gloire de ses jours,</l>
+
+	<l id='743'>Lucrèce, acheva-t-il, n'est pas seule charmante,</l>
+
+	<l id='744'>Elle est bonne pour femme, et l'autre pour amante,</l>
+
+	<l id='745'>Mais en cette dernière on admire des traits,</l>
+
+	<l id='746'>Que l'art n'a point donnés aux plus rares portraits.</l>
+
+	<l id='747'>Si vous voulez, dit-il, visiter l'une et l'autre,</l>
+
+	<l id='748'>Bientôt mon jugement sera suivi du vôtre,</l>
+
+	<l id='749'>Et vous confesserez d'un langage amoureux,</l>
+
+	<l id='750'>Que les péchés sont beaux qui nous rendent heureux.</l>
+
+	<l id='751'>On résout aussitôt cet indigne voyage,</l>
+
+	<l id='752'>Ou plutôt on résout de vous faire un outrage ;</l>
+
+	<l id='753'>Ainsi sont-ils venus, ainsi sont-ils passés,</l>
+
+	<l id='754'>Ou le vice est charmant aux esprits insensés,</l>
+
+	<l id='755'>Ou pour comble d'horreur on ne vous considère</l>
+
+	<l id='756'>Que pour vous comparer avec une adultère.</l>
+
+	<l id='757'>Pour moi prenant loin d'eux un sentier inconnu,</l>
+
+	<l id='758'>J'ai cru suivre leurs pas et je suis revenu.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='759'>Si bien que cette lâche, et honteuse pratique</l>
+
+	<l id='760'>Rend à me comparer avec cette impudique.</l>
+
+	<l id='761'>Qu'il cherche ses plaisirs sous un astre plus doux,</l>
+
+	<l id='762'>Il se faut consoler, l'innocence est pour nous.</l>
+
+	<l id='763'>En ce point seulement je puis me satisfaire,</l>
+
+	<l id='764'>Qu'au moins mes actions l'obligent au contraire.</l>
+
+	<l id='765'>Retirez-toi, Libane, assuré désormais,</l>
+
+	<l id='766'>Que ce triste rapport ne te nuira jamais,</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Livie, Lucrèce, Cornélie. </head>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='767'>Donc auprès de ce feu vous paraîtrez de glace ?</l>
+
+	<l id='768'>Et n'opposerez rien au coup qui vous menace !</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='769'>Que veux-tu que je fasse en une extrémité,</l>
+
+	<l id='770'>Où je n'ai rien pour moi que ma fidélité ?</l>
+
+	<l id='771'>Faible et triste vertu contre une âme brutale,</l>
+
+	<l id='772'>Qui n'aime à son malheur qu'une beauté fatale !</l>
+
+	<l id='773'>Veux-tu que par mes pleurs j'aille trop lâchement,</l>
+
+	<l id='774'>Opposer à ces feux un vain empêchement ?</l>
+
+	<l id='775'>Ou que moi-même encor plus folle et plus blessée,</l>
+
+	<l id='776'>J'agisse par raison sur une âme in sensée ?</l>
+
+	<l id='777'>Hélas que la raison peut-elle profiter,</l>
+
+	<l id='778'>Quand l'esprit enchanté ne peut plus l'écouter ?</l>
+
+	<l id='779'>Veux-tu que je me plaigne, et que par mes murmures</l>
+
+	<l id='780'>Je fasse à Collatin d'éternelles injures ?</l>
+
+	<l id='781'>Songe qu'en un malheur, et si grand et si craint,</l>
+
+	<l id='782'>On irrite toujours celui dont on se plaint,</l>
+
+	<l id='783'>Et qu'il est difficile au plus noble mérite</l>
+
+	<l id='784'>D'arrêter de l'amour dans les coeurs qu'on irrite.</l>
+
+	<l id='785'>La plainte la plus juste a cela de fatal,</l>
+
+	<l id='786'>Qu'elle achève d'éteindre un amour conjugal ;</l>
+
+	<l id='787'>Elle endurcit au mal un coeur opiniâtre,</l>
+
+	<l id='788'>Le rend de son péché beaucoup plus idolâtre,</l>
+
+	<l id='789'>Et chasse incessamment le repos souhaité,</l>
+
+	<l id='790'>Qu'un silence discret eût sans doute arrêté.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='791'>Vous devez après tout vous tenir assurée,</l>
+
+	<l id='792'>Qu'une impudique amour n'est jamais de durée.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='793'>Mais elle est comparable aux foudres éclatants,</l>
+
+	<l id='794'>Par qui de grands malheurs viennent en peu de temps.</l>
+
+	<l id='795'>Durant votre silence une amour de la sorte</l>
+
+	<l id='796'>Peut croître insolemment, peut devenir plus forte,</l>
+
+	<l id='797'>Et porter un esprit jusqu'aux derniers transports,</l>
+
+	<l id='798'>Qui troublent de l'Hymen les plus nobles accords.</l>
+
+	<l id='799'>Quelle force n'a point la beauté criminelle</l>
+
+	<l id='800'>Sur l'esprit aveuglé qui se perd auprès d'elle !</l>
+
+	<l id='801'>Qu'elle veuille le coeur qui vous bat dans le sein,</l>
+
+	<l id='802'>On verra réussir cet injuste dessein ;</l>
+
+	<l id='803'>Qu'elle veuille le lit où l'Hymen vous a mise,</l>
+
+	<l id='804'>Bientôt en votre rang nous la verrons assise ;</l>
+
+	<l id='805'>Et pour couvrir enfin de si honteux malheurs</l>
+
+	<l id='806'>On ne manquera point de trompeuses couleurs.</l>
+
+	<l id='807'>Mais je veux que ce mal moins fort que je ne pense</l>
+
+	<l id='808'>Ne se puisse élever jusqu'à cette insolence,</l>
+
+	<l id='809'>Serez-vous en repos tandis que votre époux</l>
+
+	<l id='810'>Pour une autre brûlant s'éloignera de vous ?</l>
+
+	<l id='811'>Soit qu'il vole aux endroits où le Sénat l'engage,</l>
+
+	<l id='812'>Soit qu'une juste guerre occupe son courage,</l>
+
+	<l id='813'>Votre esprit tourmenté croira toujours le voir,</l>
+
+	<l id='814'>Où le porte aujourd'hui l'oubli de son devoir.</l>
+
+	<l id='815'>Un Vautour immortel dévorera votre âme,</l>
+
+	<l id='816'>Votre Amour ne sera qu'une jalouse flamme,</l>
+
+	<l id='817'>Et vous laissant aller à l'excès de l'ennui,</l>
+
+	<l id='818'>Vous porterez le mal de la faute d'autrui :</l>
+
+	<l id='819'>Ou peut-être qu'alors vous aurez ce supplice,</l>
+
+	<l id='820'>Pour avoir trop longtemps dissimulé le vice.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='821'>Madame pensez-y, l'on peut tout doucement</l>
+
+	<l id='822'>Apporter un remède à cet aveuglement ;</l>
+
+	<l id='823'>Une plainte amoureuse, et toutefois secrète,</l>
+
+	<l id='824'>Un tendre sentiment d'une amitié discrète,</l>
+
+	<l id='825'>Quelques pleurs à propos devant lui répandus</l>
+
+	<l id='826'>Vous rendront tous les biens que vous croyez perdus.</l>
+
+	<l id='827'>On irrite un mari lorsque la plainte éclate,</l>
+
+	<l id='828'>Mais la plainte secrète est un son qui le flatte,</l>
+
+	<l id='829'>Et qui montre bientôt que par des traits si doux</l>
+
+	<l id='830'>Une femme peut tout sur le coeur d'un époux.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='831'>Croyez, croyez, Madame, un conseil salutaire,</l>
+
+	<l id='832'>Et ne vous nuisez pas à force de vous taire ;</l>
+
+	<l id='833'>L'homme est assez sujet à fausser ses serments,</l>
+
+	<l id='834'>Sans les porter encor par nos déguisements.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='835'>Rendrai-je contre moi ma tristesse plus forte ?</l>
+
+	<l id='836'>Me fierai-je aux discours qu'un esclave rapporte,</l>
+
+	<l id='837'>Et que trop d'apparence a du rendre douteux</l>
+
+	<l id='838'>Sur le fâcheux récit d'un secret si honteux ?</l>
+
+	<l id='839'>Aujourd'hui que la guerre aux Romains si cruelle</l>
+
+	<l id='840'>A rendu toute chose effroyable comme elle,</l>
+
+	<l id='841'>Collatin ennemi de toutes lâchetés</l>
+
+	<l id='842'>Peut-il hors de l'honneur trouver quelques beautés ?</l>
+
+	<l id='843'>De son propre renom ne faisant plus de compte,</l>
+
+	<l id='844'>Lui qui cherche la gloire il poursuivrait la honte !</l>
+
+	<l id='845'>Et donnerait son temps à des feux insensés,</l>
+
+	<l id='846'>Lui qui pour son honneur n'en eut jamais assez.</l>
+
+	<l id='847'>Non ne lui faisons pas un tort si manifeste,</l>
+
+	<l id='848'>Son courage dément ce message funeste,</l>
+
+	<l id='849'>Je devais le bannir au point qu'il a paru,</l>
+
+	<l id='850'>Et j'ai commis un crime alors que je l'ai cru.</l>
+
+	<l id='851'>Mais supposons ici que Collatin languisse</l>
+
+	<l id='852'>Dans les enchantements de l'amour et du vice,</l>
+
+	<l id='853'>Si Tarquin l'en blâma, ce ne fut qu'en secret,</l>
+
+	<l id='854'>Ainsi l'on est repris par un ami discret,</l>
+
+	<l id='855'>Et dans une censure, et si juste et si grave,</l>
+
+	<l id='856'>On n'aurait pas souffert l'oreille d'un esclave.</l>
+
+	<l id='857'>Quelque mauvais dessein sans doute le conduit</l>
+
+	<l id='858'>En toutes lâchetés un esclave est instruit,</l>
+
+	<l id='859'>Et je juge après tout qu'il m'est plus honorable</l>
+
+	<l id='860'>De le croire imposteur que Collatin coupable.</l>
+
+	<l id='861'>Allez et le pressez sur cet événement,</l>
+
+	<l id='862'>Un esprit criminel se confond aisément.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='863' part='i'>Nous vous obéirons.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE seule.</speaker>
+
+	<l id='863' part='f'>Dieux qui voyez mes peines,</l>
+
+	<l id='864'>Mettez ce que je crains au rang des choses vaines,</l>
+
+	<l id='865'>Ou si l'on m'a fait voir de véritables maux,</l>
+
+	<l id='866'>Faites pour m'alléger qu'ils me paraissent faux.</l>
+
+	<l id='867'>Hélas pour vaincre un mal que je rendrais extrême,</l>
+
+	<l id='868'>Ici je dois aider à me tromper moi-même.</l>
+
+	<l id='869' part='i'>Je dois. Que voulez-vous ?</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='869' part='f'>Tarquin revient ici.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='870' part='i'>Quoi, seul, sans Collatin ?</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='870' part='f'>Tout seul, mais le voici.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Lucrèce, Tarquin. </head>
+
+<stage>Lucrèce pensant se retirer rencontre Tarquin de front. </stage>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='871' part='i'>Je vous croyais au camp.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='871' part='f'>J'y suis peu nécessaire,</l>
+
+	<l id='872'>Qu'y pourrait faire un Chef que l'on vient de défaire ?</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='873'>Que l'on vient de défaire ? Ha qu'aura mon époux,</l>
+
+	<l id='874'>Si d'un sort si cruel vous ressentez les coups ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='875'>Ne plaignez point un mal qui peut avoir de l'aide,</l>
+
+	<l id='876'>Et dont votre faveur peut être le remède.</l>
+
+	<l id='877'>Cette défaite est grande, et m'oblige aux soupirs,</l>
+
+	<l id='878'>Mais si vous le voulez elle aura ses plaisirs ;</l>
+
+	<l id='879'>De ceux qui sont vaincus elle sera la gloire,</l>
+
+	<l id='880'>Et si je l'estimerai bien plus qu'une victoire,</l>
+
+	<l id='881'>Je ferai de mes fers esclave ambitieux,</l>
+
+	<l id='882'>Et de mes seuls vainqueurs je me ferai des Dieux.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='883'>Pardonnez-moi, Seigneur, si mon âme égarée</l>
+
+	<l id='884'>Ne trouve point ici de réponse assurée,</l>
+
+	<l id='885'>Je tremble de l'effroi que vous m'avez donné,</l>
+
+	<l id='886'>Et tout paraît obscur à l'esprit étonné.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='887'>S'il faut plus clairement vous rendre ici les armes,</l>
+
+	<l id='888'>Cette aimable défaite est un coup de vos charmes.</l>
+
+	<l id='889'>Vous voyez le vaincu déjà dans les langueurs,</l>
+
+	<l id='890'>Regardez vos attraits, vous verrez les vainqueurs.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='891'>Que vous m'estimez fort de me croire capable</l>
+
+	<l id='892'>D'écouter un amour qui me rendrait coupable ?</l>
+
+	<l id='893'>Ha Seigneur en un mot, regardez qui je suis.</l>
+
+	<l id='894'>Et n'aimant que l'honneur, jugez ce que je puis.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='895'>Vous pouvez surmonter cette vieille chimère,</l>
+
+	<l id='896'>Ce tyran des douceurs, ce fantôme sévère,</l>
+
+	<l id='897'>Qui toujours rigoureux à soi-même rêvant</l>
+
+	<l id='898'>Nourrit d'opinions son corps qui n'est que vent.</l>
+
+	<l id='899'>N'usez pas contre vous d'un pouvoir tyrannique,</l>
+
+	<l id='900'>Pour aimer une fois on n'est pas impudique,</l>
+
+	<l id='901'>Diane aima jadis un Berger glorieux,</l>
+
+	<l id='902'>Et n'en a pas perdu ses titres spécieux.</l>
+
+	<l id='903'>Mais s'il m'était permis de parler davantage.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='904'>Jusqu'à l'extrémité vous porteriez l'outrage.</l>
+
+	<l id='905'>Qu'un infidèle époux trahisse son devoir,</l>
+
+	<l id='906'>Je suis peu curieuse, et n'en veux rien savoir.</l>
+
+	<l id='907'>Non, non, ne pensez pas qu'à son funeste exemple</l>
+
+	<l id='908'>De la fidélité je profane le Temple.</l>
+
+	<l id='909'>Lorsqu'on suit du péché les dangereux appas,</l>
+
+	<l id='910'>Les exemples d'autrui ne nous excusent pas.</l>
+
+	<l id='911'>Et quand même l'honneur y pourrait condescendre</l>
+
+	<l id='912'>Mon inclination me le viendrait défendre.</l>
+
+	<l id='913'>Si l'on voit autre part Collatin attaché,</l>
+
+	<l id='914'>Mes imperfections excusent son péché.</l>
+
+	<l id='915'>Je blâme mes défauts beaucoup plus que lui-même,</l>
+
+	<l id='916'>Puisqu'ils sont les tyrans qui m'ôtent ce que j'aime.</l>
+
+	<l id='917'>Mais les reconnaissant je les corrigerai,</l>
+
+	<l id='918'>Et peut-être qu'ainsi je le rappellerai ;</l>
+
+	<l id='919'>Ou si de mon repos le destin adversaire</l>
+
+	<l id='920'>Ne payait mon travail que d'un succès contraire,</l>
+
+	<l id='921'>Au moins j'aurai ce bien pour remède à mes maux,</l>
+
+	<l id='922'>Que j'aurai par mes soins corrigé mes défauts.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='923'>Ô vertu sans exemple ! Ha Collatin barbare,</l>
+
+	<l id='924'>Indigne possesseur d'une femme si rare !</l>
+
+	<l id='925'>Peux-tu trouver ailleurs quelque sujet charmant,</l>
+
+	<l id='926'>Si l'on voit des beautés en ce lieu seulement ?</l>
+
+	<l id='927'>Si de même qu'un Dieu je vous crois adorable,</l>
+
+	<l id='928'>D'une infidélité vous croirai-je capable ?</l>
+
+	<l id='929'>Je n'ai feint cette amour que pour le contenter,</l>
+
+	<l id='930'>Lui qui de vos vertus voudrait même douter,</l>
+
+	<l id='931'>Et qui ne peut souffrir qu'on blâme une maîtresse,</l>
+
+	<l id='932'>Qu'il ose injustement comparer à Lucrèce.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='933'>Vous savez donc les lieux qui le charment ainsi.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='934'>Oui, mais dispensez-moi de les nommer ici.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='935'>Il me serait honteux de connaître une infâme.</l>
+
+	<l id='936' part='i'>Mais enfin revient-il ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+<stage>Libane doit entrer</stage>
+
+	<l id='936' part='f'>Il me suivait, Madame,</l>
+
+	<l id='937'>Il ne peut être loin : mais il est déjà tard,</l>
+
+	<l id='938'>Envoyez au devant, je crains quelque hasard.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='939' part='i'>Par quel chemin ?</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='939' part='f'>De Rome, et n'épargnez personne.</l>
+
+	<l id='940'>Il devrait être ici, cela certes m'étonne.</l>
+
+	<l id='941'>Ne perdez point de temps, il ne faut qu'un moment</l>
+
+	<l id='942'>Pour faire ou dissiper un triste événement.</l>
+
+	<l id='943'>Bien que jusqu'au péché sa faiblesse l'entraîne,</l>
+
+	<l id='944'>Il serait trop puni s'il avait votre haine,</l>
+
+	<l id='945'>Il se repentira de sa brutalité,</l>
+
+	<l id='946'>On se lasse bientôt d'une infâme beauté,</l>
+
+	<l id='947'>Et par le repentir qu'il aura de son crime,</l>
+
+	<l id='948'>Vous verrez augmenter son amour légitime.</l>
+
+	<l id='949'>Le Ciel touche bientôt un coeur voluptueux.</l>
+
+	<l id='950'>Et le remords d'un crime a fait des vertueux.</l>
+
+	<l id='951'>Mais envoyez après, ici tout est à craindre,</l>
+
+	<l id='952'>Faites par votre soin que rien n'y soit à plaindre.</l>
+
+	<l id='953'>Allez, et permettez que j'écrive deux mots,</l>
+
+	<l id='954'>Cette encre et ce papier s'offrent tout à propos.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Tarquin, Libane. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='955'>Ainsi j'ai du me rendre à moi-même contraire,</l>
+
+	<l id='956'>Pour ôter le soupçon du coup que je veux faire.</l>
+
+	<l id='957'>Mais selon mes desseins as-tu fait à ses yeux,</l>
+
+	<l id='958'>D'un époux innocent un portrait odieux ?</l>
+
+</sp>
+
+<sp who='LIBANE'><speaker>LIBANE.</speaker>
+
+	<l id='959'>J'ai selon vos désirs fait valoir cette feinte,</l>
+
+	<l id='960'>Lucrèce en est blessée, ou pour le moins atteinte,</l>
+
+	<l id='961'>Son visage fait voir un esprit combattu,</l>
+
+	<l id='962'>Et nous avons au moins ébranlé sa vertu.</l>
+
+	<l id='963'>La haine à son époux l'a déjà dérobée,</l>
+
+	<l id='964'>Et la vertu qui branle est à demi tombée ;</l>
+
+	<l id='965'>Allez donc achever ce que j'ai commencé,</l>
+
+	<l id='966'>Et n'abandonnez pas un ouvrage avancé.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='967'>Nous attaquons en vain cette beauté suprême,</l>
+
+	<l id='968'>C'est un fort imprenable et gardé par soi-même.</l>
+
+	<l id='969'>Elle est belle, elle est chaste, et par de saints efforts</l>
+
+	<l id='970'>La beauté de l'esprit défend celle du corps.</l>
+
+	<l id='971'>C'est ici qu'on la voit comme une autre Diane,</l>
+
+	<l id='972'>Faire une heureuse guerre à tout objet profane,</l>
+
+	<l id='973'>C'est ici que son sexe et sans peine, et sans fin,</l>
+
+	<l id='974'>Apprend par son exemple à se rendre divin.</l>
+
+	<l id='975'>Mais en cet endroit où la force et la ruse</l>
+
+	<l id='976'>Me feront obtenir ce qu'elle me refuse.</l>
+
+	<l id='977'>Libane, je n'ai feint que Collatin me suit,</l>
+
+	<l id='978'>Que pour passer ici le reste de la nuit.</l>
+
+	<l id='979'>Et je n'ai feint encor que le danger le presse,</l>
+
+	<l id='980'>Que pour faire sortir tous les gens de Lucrèce ;</l>
+
+	<l id='981'>Et détourner ainsi tous les empêchements</l>
+
+	<l id='982'>Qui pourraient s'opposer à mes contentements.</l>
+
+	<l id='983'>Enfin pour l'acquérir mettons tout en usage,</l>
+
+	<l id='984'>Ne laissons rien d'exempt de meurtre te de carnage,</l>
+
+	<l id='985'>Attachons en tous lieux l'image de l'horreur,</l>
+
+	<l id='986'>Au lieu d'un vain amour montrons de la fureur,</l>
+
+	<l id='987'>La vertu d'une femme est aisément contrainte,</l>
+
+	<l id='988'>Si ce n'est par faiblesse, elle cède par crainte,</l>
+
+	<l id='989'>Et le monde abusé n'a point de chastetés,</l>
+
+	<l id='990'>Dont ne viennent à bout ces deux infirmités.</l>
+
+	<l id='991'>En vain chaste beauté, tu parais inhumaine,</l>
+
+	<l id='992'>Tu sauras ce que peut une main souveraine,</l>
+
+	<l id='993'>On ne doit refuser aucune liberté,</l>
+
+	<l id='994'>À qui peut tout avoir de son autorité.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='4'><head>ACTE IV</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Lucrèce, Livie, Cornélie.</head>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='995'>Alors qu'il dissimule et qu'il feint de la sorte,</l>
+
+	<l id='996'>Il cache d'une main le feu que l'autre porte,</l>
+
+	<l id='997'>Et pour dire à quel point mon coeur en est gêné,</l>
+
+	<l id='998'>Tarquin n'est à mes yeux qu'un serpent couronné.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='999'>Que vous nous étonnez ! Ô Dieux ! Qui pourrait croire,</l>
+
+	<l id='1000'>Que Tarquin sans respect attaquât votre gloire ?</l>
+
+	<l id='1001'>Et qui sous une langue où le miel est semé,</l>
+
+	<l id='1002'>Cache pour notre honte un coeur envenimé</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1003'>Mais demandez plutôt qui pourrait en douter,</l>
+
+	<l id='1004'>S'il est vrai qu'un brutal ne sait rien respecter.</l>
+
+	<l id='1005'>Non, non, ne doutez plus de ces noires pratiques</l>
+
+	<l id='1006'>D'où l'on a vu sortir tant d'accidents tragiques,</l>
+
+	<l id='1007'>Vous avez, dites-vous, l'Esclave interrogé,</l>
+
+	<l id='1008'>Jusqu'à se démentir vous l'avez engagé,</l>
+
+	<l id='1009'>Vos longues questions l'ont mis à la torture,</l>
+
+	<l id='1010'>Et découvert enfin quelque ombre d'imposture.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1011'>Mais pour avoir trouvé cet Esclave imposteur,</l>
+
+	<l id='1012'>En devez-vous juger le Maître séducteur ?</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1013'>Après les lâchetés que Tarquin me propose,</l>
+
+	<l id='1014'>Je le connaîtrai mal, si j'en juge autre chose.</l>
+
+	<l id='1015'>Tous deux au même crime ont part diversement,</l>
+
+	<l id='1016'>L'un en est l'inventeur, l'autre en est l'instrument ;</l>
+
+	<l id='1017'>Et conspirant tous deux la même violence,</l>
+
+	<l id='1018'>Le Maître a fait le trait, et l'Esclave le lance.</l>
+
+	<l id='1019'>Ainsi l'on me veut rendre un époux odieux,</l>
+
+	<l id='1020'>Pour tirer d'un divorce un gain pernicieux.</l>
+
+	<l id='1021'>Ruse trop ordinaire à ces esprits funestes,</l>
+
+	<l id='1022'>Qui sont de notre honneur les plus mortelles pestes ;</l>
+
+	<l id='1023'>Tyrans de la vertu, noires sources de crimes,</l>
+
+	<l id='1024'>Secrets persécuteurs des couches légitimes,</l>
+
+	<l id='1025'>Qui livrez à l'honneur un combat éternel,</l>
+
+	<l id='1026'>Et de qui le triomphe est toujours criminel,</l>
+
+	<l id='1027'>N'attendez point de fruit de ce lâche artifice,</l>
+
+	<l id='1028'>Lucrèce porte une âme à l'épreuve du vice ;</l>
+
+	<l id='1029'>Et contre toute ruse, et contre tout effort,</l>
+
+	<l id='1030'>Un coeur vraiment fidèle est toujours assez fort.</l>
+
+	<l id='1031'>Quelques subtilités que vous fassiez paraître,</l>
+
+	<l id='1032'>Vous ne pouvez gagner que celle qui veut l'être ;</l>
+
+	<l id='1033'>Et vous lui jetteriez d'inutiles appas,</l>
+
+	<l id='1034'>Si son propre désir ne vous la donnait pas.</l>
+
+	<l id='1035'>Si la femme est fragile, elle l'est par sa faute,</l>
+
+	<l id='1036'>Le bien qu'elle a du Ciel, elle-même se l'ôte,</l>
+
+	<l id='1037'>Et l'on ne trouve point cette fragilité,</l>
+
+	<l id='1038'>Où l'on veut conserver de la fidélité.</l>
+
+	<l id='1039'>Mais que dois-je opposer à cet outrage extrême.</l>
+
+	<l id='1040' part='i'>Collatin le saura.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1040' part='f'>Quoi ? Que Tarquin vous aime ;</l>
+
+	<l id='1041'>Pensez à ce dessein, et qu'il est périlleux</l>
+
+	<l id='1042'>De donner des soupçons aux esprits orgueilleux.</l>
+
+	<l id='1043'>Lorsqu'on attaque ainsi la vertu d'une femme,</l>
+
+	<l id='1044'>Elle doit d'elle-même étouffer cette flamme,</l>
+
+	<l id='1045'>Et n'en peut avertir un mari généreux,</l>
+
+	<l id='1046'>Sans exciter un feu beaucoup plus dangereux.</l>
+
+	<l id='1047'>Des maux imaginés, des craintes domestiques,</l>
+
+	<l id='1048'>Ont souvent excité des tempêtes publiques ;</l>
+
+	<l id='1049'>Et d'un si lâche outrage un grand coeur irrité,</l>
+
+	<l id='1050'>En venge les soupçons comme la vérité ;</l>
+
+	<l id='1051'>Il ne respecte alors ni grandeur ni couronne,</l>
+
+	<l id='1052'>Il laisse aller ses mains où sa colère donne,</l>
+
+	<l id='1053'>Sa fureur le conduit jusqu'à son monument,</l>
+
+	<l id='1054'>Et pourvu qu'il se venge, il se perd librement.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1055'>L'homme sage averti par une femme honnête,</l>
+
+	<l id='1056'>Avecques moins de bruit détourne la tempête,</l>
+
+	<l id='1057'>Et ne peut s'emporter jusqu'où vous l'avez mis</l>
+
+	<l id='1058'>Sans blesser son honneur plus que ses ennemis.</l>
+
+	<l id='1059'>Si malgré les efforts qu'opposerait Madame,</l>
+
+	<l id='1060'>L'injurieux Tarquin laissait croître sa flamme,</l>
+
+	<l id='1061'>Voulez-vous que partout où sa vertu reluit,</l>
+
+	<l id='1062'>Elle ait auprès de soi le serpent qu'elle fuit ?</l>
+
+	<l id='1063'>Tarquin peut-il aimer de si divins mérites,</l>
+
+	<l id='1064'>Sans leur rendre aussitôt d'éternelles visites,</l>
+
+	<l id='1065'>Et de l'humeur qu'il est, nous peut-il visiter,</l>
+
+	<l id='1066'>Qu'il ne donne bientôt un sujet de douter ?</l>
+
+	<l id='1067'>La femme la plus sage est sujette au murmure,</l>
+
+	<l id='1068'>Alors qu'on la poursuit, on croit qu'elle l'endure,</l>
+
+	<l id='1069'>Et si d'un monde entier on suit les jugements,</l>
+
+	<l id='1070'>Tous ses persécuteurs passent pour ses amants.</l>
+
+	<l id='1071'>Pensez donc à ce mal, la médisance est prompte,</l>
+
+	<l id='1072'>Et bientôt ce démon travaille à notre honte.</l>
+
+	<l id='1073'>Cependant par ce bruit qui croît et va toujours,</l>
+
+	<l id='1074'>Un mari peut savoir ces fatales amours.</l>
+
+	<l id='1075'>Que croira-t-il alors d'une femme fidèle,</l>
+
+	<l id='1076'>Si cet infâme bruit l'en instruit plutôt qu'elle ?</l>
+
+	<l id='1077'>Comment traitera-t-il une illustre vertu,</l>
+
+	<l id='1078'>Qui toujours triomphante a le vice abattu ?</l>
+
+	<l id='1079'>C'est alors qu'il croira ses seules fantaisies,</l>
+
+	<l id='1080'>Que son bras furieux suivra ses frénésies,</l>
+
+	<l id='1081'>Et que d'un si grand coup son courage irrité,</l>
+
+	<l id='1082'>Vengera le soupçon comme la vérité.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1083'>Quel conseil prendrons-nous pour le plus salutaire,</l>
+
+	<l id='1084'>Si pour nous l'un et l'autre est un bien nécessaire ?</l>
+
+	<l id='1085'>Que mon esprit confus et soupirant près d'eux,</l>
+
+	<l id='1086'>Ne voit-il un chemin pour les suivre tous deux ?</l>
+
+	<l id='1087'>Mais la nuit est déjà si forte et si profonde,</l>
+
+	<l id='1088'>Qu'elle donne au sommeil les yeux de tout le monde.</l>
+
+	<l id='1089'>Allez voir de ce pas si mes gens de retour</l>
+
+	<l id='1090'>Ont battu les chemins et les lieux d'alentour ;</l>
+
+	<l id='1091'>Sachez s'ils ont trouvé le bonheur que j'espère,</l>
+
+	<l id='1092'>Et laissez-moi rêver sur ce que je dois faire.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1093'>Pour vos contentements, nous n'épargnerons rien.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE seule.</speaker>
+
+	<l id='1094'>Se peut-il voir un coeur plus gêné que le mien ?</l>
+
+	<l id='1095'>Si Collatin ne vient et si Tarquin me reste,</l>
+
+	<l id='1096'>Quel sens peut recevoir un séjour si funeste ?</l>
+
+	<l id='1097'>Hélas ! Le seul abord d'un esprit vicieux</l>
+
+	<l id='1098'>Est aux plus innocents un mal contagieux.</l>
+
+	<l id='1099'>Il n'est rien de si saint, il n'est point d'innocence,</l>
+
+	<l id='1100'>Qui puisse sans soupçon endurer sa présence,</l>
+
+	<l id='1101'>Elle porte partout la honte ou le trépas,</l>
+
+	<l id='1102'>Et tache au moins les lieux qu'elle n'infecte pas.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Tarquin avec son esclave, Lucrèce. </head>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1103' part='i'>Ne dites rien, Madame.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1103' part='f'>Ha ! Quelle est votre envie.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1104'>Ne dites rien, un mot vous coûterait la vie.</l>
+
+	<l id='1105'>Et quiconque viendra m'opposer son effort,</l>
+
+	<l id='1106'>Ne viendra seulement que pour voir votre mort.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1107' part='i'>Ô Dieux !</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1107' part='f'>Chassez d'ici la peur qui vous dévore,</l>
+
+	<l id='1108'>Devez-vous redouter celui qui vous adore ?</l>
+
+	<l id='1109'>C'est Tarquin qui vous aime, et qui n'est bienheureux,</l>
+
+	<l id='1110'>Que par l'aimable trait qui le amoureux.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1111'>Quel amour ! Qui vous perd, et qui ne tend qu'à ma peine,</l>
+
+	<l id='1112'>Et qui se montre ici par des marques de haine.</l>
+
+	<l id='1113'>Ha Seigneur ! Ôtez-moi du haut rang où je suis,</l>
+
+	<l id='1114'>Changez cette maison en un gouffre d'ennuis</l>
+
+	<l id='1115'>Et réduisez mon sort à ce malheur extrême,</l>
+
+	<l id='1116'>Qu'il fasse de l'horreur à la misère même.</l>
+
+	<l id='1117'>Tous ces maux assembles, choquent moins mon bonheur,</l>
+
+	<l id='1118'>Que les moindres assauts qu'on livre à mon honneur.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1119'>Ne vous abusez plus, ne croyez plus aux fables,</l>
+
+	<l id='1120'>L'honneur n'est qu'un faux Dieu qui fait des misérables ;</l>
+
+	<l id='1121'>À savoir ici-bas secrètement aimer,</l>
+
+	<l id='1122'>Consiste la vertu que l'on doit estimer ;</l>
+
+	<l id='1123'>Par elle on est heureux, et ses doux artifices</l>
+
+	<l id='1124'>Avec un beau renom accordent les délices.</l>
+
+	<l id='1125'>Si ce qu'on voit de beau sur la face des Cieux,</l>
+
+	<l id='1126'>Si tout ce que la terre a de plus précieux,</l>
+
+	<l id='1127'>Bref si tous les attraits, dont l'Univers abonde,</l>
+
+	<l id='1128'>Par le vouloir des Dieux sont faits pour tour le monde ;</l>
+
+	<l id='1129'>Suivant l'ordre prescrit et destiné par eux,</l>
+
+	<l id='1130'>Souffrez que pour le moins Lucrèce soit à deux.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1131'>Moi que je sois à deux ! Par quelles apparences,</l>
+
+	<l id='1132'>Ai-je pu vous donner ces vaines espérances ?</l>
+
+	<l id='1133'>Par quelles actions, par quel indigne effet</l>
+
+	<l id='1134'>Ai-je pu mériter l'outrage qu'on me fait ?</l>
+
+	<l id='1135'>Moi que je sois à deux ! Et que sans violence</l>
+
+	<l id='1136'>J'écoute plus longtemps un discours qui m'offense !</l>
+
+	<l id='1137'>Ha Seigneur, pardonnez à mon ressentiment,</l>
+
+	<l id='1138'>Qui prend pour mon tyran quiconque est mon amant.</l>
+
+	<l id='1139'>Je mourrai bien plutôt qu'une amour inhumaine</l>
+
+	<l id='1140'>Fasse d'une Lucrèce une impudique Hélène.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1141'>Ha c'est trop mépriser et ma flamme et mon rang,</l>
+
+	<l id='1142'>Ou j'aurai votre amour, ou j'aurai votre sang ;</l>
+
+	<l id='1143'>Ce poignard m'ouvrira ce coeur toujours austère !</l>
+
+	<l id='1144'>Que ferme à mon amour l'amour d'une chimère.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1145'>Percez, percez ce coeur, et me privez du jour,</l>
+
+	<l id='1146'>Je crains moins ce poignard qu'une impudique amour,</l>
+
+	<l id='1147'>Je ferai si l'on veut ce coup illégitime,</l>
+
+	<l id='1148'>Et ma main à la vôtre épargnera ce crime ;</l>
+
+	<l id='1149'>J'irai pour mon honneur au devant du trépas,</l>
+
+	<l id='1150'>La mort finit nos jours, et ne les ternit pas ;</l>
+
+	<l id='1151'>Et quelque opinion qui vous en fasse accroire,</l>
+
+	<l id='1152'>Je ne fuirai jamais ce qui sauve ma gloire.</l>
+
+	<l id='1153'>Alors qu'il faut défendre un renom glorieux,</l>
+
+	<l id='1154'>Qui ne perd que son sang reste victorieux.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+<stage>Il feint de vouloir donner le poignard à Lucrèce.</stage>
+
+	<l id='1155'>Mourez, voilà de quoi ; mais gardez vous de croire,</l>
+
+	<l id='1156'>Que cette prompte mort sauvera votre gloire ;</l>
+
+	<l id='1157'>Je tuerai cet Esclave auprès de votre corps,</l>
+
+	<l id='1158'>Dessus un même lit on vous trouvera morts ;</l>
+
+	<l id='1159'>Et puis je publierai de celle qui me brave,</l>
+
+	<l id='1160'>Que l'amour la rendit esclave d'un esclave ;</l>
+
+	<l id='1161'>Je dirai que Lucrèce en fit son favori,</l>
+
+	<l id='1162'>Qu'elle lui prodigua les trésors d'un mari,</l>
+
+	<l id='1163'>Et qu'enfin ce poignard par un coup exemplaire.</l>
+
+	<l id='1164'>A noyé dans son sang l'un et l'autre adultère.</l>
+
+	<l id='1165'>Aussi ce vain honneur qui vous semble si beau,</l>
+
+	<l id='1166'>En même temps que vous ira dans le tombeau,</l>
+
+	<l id='1167'>Ainsi l'affreuse mort qu'on attend à son aide,</l>
+
+	<l id='1168'>Doit être son poison, plutôt que son remède.</l>
+
+	<l id='1169'>Vous croyez qu'elle serve à vous faire adorer,</l>
+
+	<l id='1170'>Et ce n'est qu'un secret à vous déshonorer.</l>
+
+	<l id='1171'>Si vous sortez du monde et pudique, et sans blâme,</l>
+
+	<l id='1172'>Dans l'esprit des Romains vous demeurez infâme ;</l>
+
+	<l id='1173'>Et si l'opinion fait la honte ou l'honneur,</l>
+
+	<l id='1174'>Jugez de votre gloire, et de votre bonheur.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1175'>Ô cruauté nouvelle ! Ô violence extrême,</l>
+
+	<l id='1176'>Qui se sert de l'honneur pour perdre le bonheur même.</l>
+
+	<l id='1177'>Mais précipitons-nous puisque c'est là mon sort,</l>
+
+	<l id='1178'>Et donnons pour le moins des témoins à ma mort.</l>
+
+</sp>
+
+<sp who='TARQUIN'><speaker>TARQUIN.</speaker>
+
+	<l id='1179'>Libane allons après, sauvons cette insensée,</l>
+
+	<l id='1180'>Qu'un si prompt désespoir a vivement blessée.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Livie, Procule, Cornélie. </head>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1181' part='i'>Mais j'entends quelque bruit.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1181' part='f'>Je l'entends comme vous.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1182'>N'est-ce point Collatin qui revient après nous.</l>
+
+</sp>
+
+<sp who='PROCULE'><speaker>PROCULE.</speaker>
+
+	<l id='1183'>Ce ne peut être lui que vous venez d'entendre ;</l>
+
+	<l id='1184'>Nous l'avons tant cherché qu'on ne doit plus l'attendre,</l>
+
+	<l id='1185'>Nous n'avons épargné ni peines ni travaux,</l>
+
+	<l id='1186'>Jusqu'aux portes de Rome on a vu nos chevaux,</l>
+
+	<l id='1187'>Cette profonde nuit sur nos pas avancée,</l>
+
+	<l id='1188'>N'a point d'obscurité que n'ayons percée ;</l>
+
+	<l id='1189'>Et pour le rencontrer et ne le faillir pas,</l>
+
+	<l id='1190'>On l'a plus appelé que l'on a fait de pas.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1191'>Ha que cette nouvelle étonnera Lucrèce,</l>
+
+	<l id='1192'>Et qu'elle augmentera le souci qui la presse !</l>
+
+	<l id='1193'>Qu'elle se va former de vains sujets de pleurs,</l>
+
+	<l id='1194'>Et que déjà ses soins me donnent de douleurs !</l>
+
+	<l id='1195'>La crainte ne peut rien sur une âme si belle,</l>
+
+	<l id='1196'>Dans les adversités qui ne regardent qu'elle,</l>
+
+	<l id='1197'>Mais ce grand coeur succombe et tremble comme nous,</l>
+
+	<l id='1198'>Lorsque le moindre mal regarde son époux.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1199'>Mais avez-vous tenu les chemins qu'il doit prendre.</l>
+
+</sp>
+
+<sp who='PROCULE'><speaker>PROCULE.</speaker>
+
+	<l id='1200'>Nous en avons plus fait que l'on n'en peut comprendre.</l>
+
+	<l id='1201'>Il n'est point de détour, de maison, ni de bois,</l>
+
+	<l id='1202'>Où n'ait été mon oeil de même que ma voix,</l>
+
+	<l id='1203'>Et si selon nos voeux le ciel ne le ramène,</l>
+
+	<l id='1204'>En vain l'on emploiera la diligence humaine.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1205'>Tarquin a dit pourtant qu'il était près d'ici.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1206'>Tout cela m'épouvante, et me met en souci.</l>
+
+	<l id='1207'>Faites si voulez un si triste message.</l>
+
+</sp>
+
+<sp who='CORNELIE'><speaker>CORNÉLIE.</speaker>
+
+	<l id='1208'>Il reviendra sans doute, attendons davantage.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1209'>Mais qu'entends-je bons Dieux ! C'est Tarquin qui s'enfuit,</l>
+
+	<l id='1210'>Et le poignard en main Lucrèce qui le suit.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Lucrèce, Livie, Cornélie. </head>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1211'>Monstre sorti d'enfer, achève ta victoire,</l>
+
+	<l id='1212'>Triomphe de ma vie ainsi que de ma gloire ;</l>
+
+	<l id='1213'>Qui laisse respirer un puissant ennemi,</l>
+
+	<l id='1214'>Quoiqu'il l'ait ruiné n'a vaincu qu'à demi.</l>
+
+	<l id='1215'>Usurpateur des biens que l'honneur te refuse,</l>
+
+	<l id='1216'>Ferme avec le poignard la bouche qui t'accuse,</l>
+
+	<l id='1217'>Viens perdre ton témoin, et le mets au tombeau,</l>
+
+	<l id='1218'>Ton salut ne dépend que d'un crime nouveau.</l>
+
+	<l id='1219'>Cette nuit si féconde en accidents funèbres,</l>
+
+	<l id='1220'>Pour couvrir tant de maux fournira ses ténèbres.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1221'>Madame, qu'avez-vous ? Mais elle n'entend pas,</l>
+
+	<l id='1222'>Et la fureur emporte et son sens et ses pas.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1223'>Ne m'interrogez point, la rage me surmonte,</l>
+
+	<l id='1224'>Et je ne puis parler si ce n'est à ma honte.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1225'>Que devons-nous juger à l'entendre, à la voir ?</l>
+
+	<l id='1226'>Et d'où vient ce transport qui tient du désespoir ?</l>
+
+	<l id='1227'>Madame ! Hélas ma soeur, ses soupirs et ses gestes,</l>
+
+	<l id='1228'>Sont de quelque grand mal les signes manifestes.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1229'>Mais c'est trop lâchement s'amuser à des pleurs</l>
+
+	<l id='1230'>Qui montrent ma faiblesse autant que mes douleurs.</l>
+
+	<l id='1231'>Cherchons à nous venger, ce n'est qu'en la vengeance,</l>
+
+	<l id='1232'>Qu'un mal comme le mien trouve de l'allégeance.</l>
+
+	<l id='1233'>Mais où dois-je trouver un vengeur assez fort ?</l>
+
+	<l id='1234'>Qui puisse à mon secours consacrer son effort ?</l>
+
+	<l id='1235'>Si je vais chez le Roi demander la justice,</l>
+
+	<l id='1236'>Que doit un juste Prince au châtiment du vice,</l>
+
+	<l id='1237'>Là comme en un séjour de désordres nouveaux,</l>
+
+	<l id='1238'>Au lieu de mes vengeurs je trouve mes bourreaux</l>
+
+	<l id='1239'>Ô Dieux qui présidez au jugement des crimes,</l>
+
+	<l id='1240'>Sacrés distributeurs des peines légitimes,</l>
+
+	<l id='1241'>Ouvrez, Dieux de l'enfer, vos gouffres éclatants,</l>
+
+	<l id='1242'>Et faites-en sortir les vengeurs que j'attends.</l>
+
+	<l id='1243'>Mais hélas ! C'est en vain que ma faible innocence,</l>
+
+	<l id='1244'>Appelle à son secours l'enfer et sa puissance,</l>
+
+	<l id='1245'>Lui qui sait toujours nuire et jamais contenter,</l>
+
+	<l id='1246'>Punirait-il un mal qu'il voulut inventer ?</l>
+
+	<l id='1247'>Plus vainement encor, mes soupirs et mes larmes,</l>
+
+	<l id='1248'>Imploreraient du Ciel les foudroyantes armes,</l>
+
+	<l id='1249'>Qui soutiendraient ma cause en ce siècle de fer,</l>
+
+	<l id='1250'>Si le Ciel a permis ce qu'inventa l'enfer ?</l>
+
+	<l id='1251'>De l'encre, du papier et qu'on me laisse écrire :</l>
+
+	<l id='1252'>Ô mort tire des fers mon âme qui soupire,</l>
+
+	<l id='1253'>Quelle autre déité me pourrait soulager,</l>
+
+	<l id='1254'>Si je vois contre moi ce qui doit me venger.</l>
+
+</sp>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1255' part='i'>Tout est prêt.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1255' part='f'>Sortez donc jusqu'à ce que j'appelle.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE seule. </speaker>
+
+	<l id='1256'>Mais à qui veux-je écrire, et pour quelle nouvelle ?</l>
+
+	<l id='1257'>Hélas ce seul penser recueille ma fureur,</l>
+
+	<l id='1258'>Et me rend à moi-même une cause d'horreur.</l>
+
+	<l id='1259'>Tracerai-je moi-même un portrait effroyable,</l>
+
+	<l id='1260'>Où l'on ne me peut voir que comme une coupable.</l>
+
+	<l id='1261'>Non, non, cours à la mort ainsi qu'à ton bonheur,</l>
+
+	<l id='1262'>Il faut perdre la vie aussitôt que l'honneur.</l>
+
+	<l id='1263'>Ce poignard destiné pour un coup sanguinaire,</l>
+
+	<l id='1264'>Est le plus beau présent qu'un Tyran puisse faire,</l>
+
+	<l id='1265'>Et parmi tant de maux, dont mon coeur est pressé,</l>
+
+	<l id='1266'>C'est aussi le seul bien qu'un Tyran m'a laissé :</l>
+
+	<l id='1267'>Meurs donc et n'attends pas que l'ennui te consume,</l>
+
+	<l id='1268'>Un funeste poignard te sied mieux qu'une plume,</l>
+
+	<l id='1269'>Et ce coeur aussi pur qu'il est infortuné,</l>
+
+	<l id='1270'>Ne peut plus demeurer dans un lieu profané.</l>
+
+	<l id='1271'>Mais quel triste penser s'oppose à cette envie,</l>
+
+	<l id='1272'>Qui me fait pour mon bien attenter sur ma vie ?</l>
+
+	<l id='1273'>Si d'un coup généreux je borne ici le cours,</l>
+
+	<l id='1274'>Que le destin voulut accorder à mes jours,</l>
+
+	<l id='1275'>Hélas ! Par cette mort, qui paraît honorable,</l>
+
+	<l id='1276'>Je fais croire partout que je me sens coupable,</l>
+
+	<l id='1277'>Et qu'à l'horreur d'un crime indigne du tombeau,</l>
+
+	<l id='1278'>Le remords fut mon juge, et ma main mon bourreau.</l>
+
+	<l id='1279'>Si Lucrèce fut chaste et non pas criminelle,</l>
+
+	<l id='1280'>Pourquoi donc, dira-t-on, Lucrèce mourut-elle ?</l>
+
+	<l id='1281'>Si ses jours furent beaux, son trépas les ternit,</l>
+
+	<l id='1282'>Se crut-elle innocente, elle qui se punit ?</l>
+
+	<l id='1283'>Qu'à mon sort odieux de misère s'attache,</l>
+
+	<l id='1284'>Ce qui doit me laver est tout ce qui me tache,</l>
+
+	<l id='1285'>Je regarde la mort comme un soulagement,</l>
+
+	<l id='1286'>Et ne puis l'embrasser que comme un châtiment.</l>
+
+	<l id='1287'>Mourrons-nous, vivrons-nous, mais aussi puis-je vivre</l>
+
+	<l id='1288'>Qu'un bruit aussi sanglant ne me vienne poursuivre,</l>
+
+	<l id='1289'>Et que l'opinion d'un crime plus pressant</l>
+
+	<l id='1290'>Ne traite en criminel mon renom innocent ?</l>
+
+	<l id='1291'>Si je vis plus longtemps ne ferai-je pas croire</l>
+
+	<l id='1292'>Que pour me conserver j'abandonnai ma gloire,</l>
+
+	<l id='1293'>Et que ce coeur infâme, est digne de son sort</l>
+
+	<l id='1294'>A moins aimé l'honneur que redouté la mort ?</l>
+
+	<l id='1295'>Hélas, de quels malheurs est ma gloire suivie !</l>
+
+	<l id='1296'>Je la perds par ma mort, je la perds par ma vie,</l>
+
+	<l id='1297'>Et sans avoir failli je ne puis seulement,</l>
+
+	<l id='1298'>Ni vivre avec honneur ni mourir noblement.</l>
+
+	<l id='1299'>Où me réduira donc la fortune ennemie,</l>
+
+	<l id='1300'>Si je trouve partout une égale infamie ?</l>
+
+	<l id='1301'>Mais c'est trop consulter, écris à Collatin,</l>
+
+	<l id='1302'>Et de tes propres mains achève ton destin.</l>
+
+	<l id='1303'>Meurs non pour témoigner que tu te sens coupable,</l>
+
+	<l id='1304'>Mais pour rendre aux Romains Tarquin plus détestable.</l>
+
+	<l id='1305'>Meurs, non pour faire voir l'horreur de ton péché,</l>
+
+	<l id='1306'>Et qu'à l'amour des sens ton coeur fut attaché,</l>
+
+	<l id='1307'>Mais meurs, pour témoigner par un coup qui te lave,</l>
+
+	<l id='1308'>Que qui s'en peut priver n'en fut jamais esclave ;</l>
+
+	<l id='1309'>Quiconque s'est privé des sens et des plaisirs,</l>
+
+	<l id='1310'>Et pour l'un et pour l'autre eût de faibles désirs.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='5'><head>ACTE V</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Collatin, Le Père, Brute.</head>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1311'>Brute ne tardons point, mais j'aperçois son père,</l>
+
+	<l id='1312'>Que peut-il voir ici, qui ne le désespère ?</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1313'>Ne t'informe de rien, il ne faut que les voir,</l>
+
+	<l id='1314'>Leur tristesse m'apprend ce que je veux savoir.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1315'>Hélas, qui vous amène en ce lieu misérable,</l>
+
+	<l id='1316'>Où l'on ne peut rien voir qui ne soit déplorable ?</l>
+
+	<l id='1317'>Quel Dieu vous a conduit, quel Dieu vous fait passer,</l>
+
+	<l id='1318'>Où sans l'avoir senti l'on vient de vous blesser ?</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1319'>Nous nous plaignons tous deux d'une même blessure,</l>
+
+	<l id='1320'>Lucrèce par ce mot m'apprend cette aventure,</l>
+
+	<l id='1321'>L'excès de son malheur attire ici mes pas,</l>
+
+	<l id='1322'>Et m'ouvre en même temps le chemin du trépas.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1323'>Et cette lettre aussi, triste don qui vient d'elle,</l>
+
+	<l id='1324'>M'apprend avec horreur cette étrange nouvelle,</l>
+
+	<l id='1325'>Et me fait redouter qu'un tragique dessein,</l>
+
+	<l id='1326'>N'arme contre son coeur son courage et sa main.</l>
+
+<stage>Il lit la fin de la lettre. </stage>
+
+	<l id='1327'>Contente ma dernière envie,</l>
+
+	<l id='1328'>Hâte-toi, viens plaindre mon sort ;</l>
+
+	<l id='1329'>Ne pouvant plus louer ma vie</l>
+
+	<l id='1330'>Viens pour le moins louer ma mort.</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1331' part='i'>Hélas !</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1331' part='f'>Mais pour le moins détournons cet orage,</l>
+
+	<l id='1332'>Que dessus elle-même attire son courage.</l>
+
+	<l id='1333' part='i'>Entrez, ne tardez plus.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE DERNIÈRE. Livie, Collatin, Lucrèce, Le Père, Brute. </head>
+
+<sp who='LIVIE'><speaker>LIVIE.</speaker>
+
+	<l id='1333' part='f'>Madame les voici.</l>
+
+	<l id='1334'>Que le sort est cruel qui les conduit ici !</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1335'>Quelle face d'horreur ont ici toutes choses !</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1336'>Ici tout est horrible et semblable à ses causes.</l>
+
+	<l id='1337'>Ici tout est en deuil, serait-on autrement,</l>
+
+	<l id='1338'>Où l'honneur déplorable est dans le monument ?</l>
+
+	<l id='1339'>Ici tout est sans biens, ici tout est funeste,</l>
+
+	<l id='1340'>Où l'honneur est perdu, quels biens a-t-on de reste ?</l>
+
+	<l id='1341'>D'un si riche trésor Tarquin est le voleur,</l>
+
+	<l id='1342'>Il ne parut ici que pour notre malheur.</l>
+
+	<l id='1343'>Sa force inévitable a vaincu ma faiblesse,</l>
+
+	<l id='1344'>Et Lucrèce par lui n'est rien moins que Lucrèce.</l>
+
+	<l id='1345'>Mais quelques grands succès qui suivent ses efforts,</l>
+
+	<l id='1346'>Le barbare qu'il est n'a vaincu que le corps.</l>
+
+	<l id='1347'>Ce ne fut pas Lucrèce à mourir toute prête,</l>
+
+	<l id='1348'>Qui fut de ce Tyran la honteuse conquête ;</l>
+
+	<l id='1349'>Mais ce ne fut qu'un corps sans âme et sans appas,</l>
+
+	<l id='1350'>Puisque l'âme n'est point où l'on ne consent pas.</l>
+
+	<l id='1351'>Ainsi ce bien me reste au tourment que j'endure,</l>
+
+	<l id='1352'>Que dans un corps souillé, je garde une âme pure,</l>
+
+	<l id='1353'>Comparable au trésor qui ne perd pas son prix,</l>
+
+	<l id='1354'>Pour être enseveli dessous quelque débris.</l>
+
+	<l id='1355'>Oui malgré ce Tyran je garde une âme nette,</l>
+
+	<l id='1356'>Telle que je l'ai prise, et que le Ciel l'a faite,</l>
+
+	<l id='1357'>Telle qu'elle entre au corps et qu'elle part des Dieux,</l>
+
+	<l id='1358'>Telle on doit la juger dans ce corps odieux.</l>
+
+	<l id='1359'>Et bien que dans un siècle et si bas, et si lâche,</l>
+
+	<l id='1360'>Le vice triomphant ne laisse rien sans tache,</l>
+
+	<l id='1361'>Ce corps comme son âme aurait son ornement,</l>
+
+	<l id='1362'>Si Lucrèce eût vécu moins d'un jour seulement.</l>
+
+	<l id='1363'>Mais enfin contemplez Lucrèce désolée,</l>
+
+	<l id='1364'>Voyez-la sans honneur, voyez-la violée ;</l>
+
+	<l id='1365'>Mon sort épouvantable, et comblé de fureurs,</l>
+
+	<l id='1366'>Ne vous appelle ici que pour voir tant d'horreurs.</l>
+
+	<l id='1367'>Lucrèce n'est plus rien, et n'a plus rien d'auguste,</l>
+
+	<l id='1368'>Que les nobles désirs d'une vengeance juste ;</l>
+
+	<l id='1369'>Encore à mon malheur seront-ils imparfaits,</l>
+
+	<l id='1370'>Si vos bras généreux n'en montrent les effets.</l>
+
+	<l id='1371'>Donc si mon mal est grand, s'il est sans allégeance,</l>
+
+	<l id='1372'>Qu'il ne soit pas au moins sans fruit et sans vengeance,</l>
+
+	<l id='1373'>Conservez par le coup que j'attends de vos mains,</l>
+
+	<l id='1374'>Ce qui reste de chaste, où règnent les Romains :</l>
+
+	<l id='1375'>Perdez pour vous sauvez un Tyran redoutable,</l>
+
+	<l id='1376'>Et rendez au pays mon malheur profitable ;</l>
+
+	<l id='1377'>Mes maux bien qu'infinis me sembleront moins grands,</l>
+
+	<l id='1378'>Si l'on les fait servir à perdre des Tyrans.</l>
+
+	<l id='1379'>Regardez qui je suis, regardez qui vous êtes,</l>
+
+	<l id='1380'>Excitez sans respect de sanglantes tempêtes,</l>
+
+	<l id='1381'>Faites par mille horreurs le crime détester,</l>
+
+	<l id='1382'>Où l'on venge l'honneur, rien n'est à respecter.</l>
+
+	<l id='1383'>Que le trône ne serve à ce Démon visible,</l>
+
+	<l id='1384'>Qu'à rendre à l'Univers sa chute plus horrible,</l>
+
+	<l id='1385'>Et qu'enfin ce barbare après de longs tourments,</l>
+
+	<l id='1386'>Ne puisse être connu que par ses châtiments.</l>
+
+	<l id='1387'>Jurez cette vengeance, où luit tant de justice,</l>
+
+	<l id='1388'>Que la foi la commence, et la main l'accomplisse ;</l>
+
+	<l id='1389'>Cet honneur, que je perds, fut aussi votre bien,</l>
+
+	<l id='1390'>Vengez donc d'un seul coup votre honneur, et le mien.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1391'>Paraîtrai-je insensible à cet outrage extrême,</l>
+
+	<l id='1392'>Qui détruit lâchement la moitié de moi-même ?</l>
+
+	<l id='1393'>Non, ma vengeance ira jusqu'aux plus hauts desseins</l>
+
+	<l id='1394'>Où jamais la fureur ait porté les humains,</l>
+
+	<l id='1395'>Et sans besoin que ma bouche le jure,</l>
+
+	<l id='1396'>Le titre que je porte est la voix qui l'assure.</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1397'>Espère de mon bras toute sorte d'effort,</l>
+
+	<l id='1398'>On verra ta vengeance ou l'on verra ma mort,</l>
+
+	<l id='1399'>Ne m'en conjure point, en pareille aventure,</l>
+
+	<l id='1400'>Un Père est trop instruit par la seule nature.</l>
+
+	<l id='1401'>Vois ce que je suis, considère mon rang,</l>
+
+	<l id='1402'>Et si sans m'émouvoir, on corromprait mon sang.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1403'>Ni nature, ni sang, ni lien d'hyménée</l>
+
+	<l id='1404'>N'engagent point ici ma parole donnée ;</l>
+
+	<l id='1405'>Ce n'est point la fureur qui forme mes desseins,</l>
+
+	<l id='1406'>Mais la seule justice engage ici mes mains.</l>
+
+	<l id='1407'>Elle seule rendra mon effort légitime,</l>
+
+	<l id='1408'>Et de votre Tyran fera votre victime.</l>
+
+	<l id='1409'>J'en atteste du Ciel les trônes redoutés,</l>
+
+	<l id='1410'>J'en atteste d'enfer les noires déités,</l>
+
+	<l id='1411'>Aux serments que je fais pour cette juste guerre,</l>
+
+	<l id='1412'>J'appelle autant de Dieux qu'en adore la terre,</l>
+
+	<l id='1413'>Et veux que pour moi seul l'enfer ait des tourments</l>
+
+	<l id='1414'>Si de lâches effets démentent mes serments.</l>
+
+	<l id='1415'>Oui je vous vengerai, je vous le jure encore,</l>
+
+	<l id='1416'>Les serments que je fais sont des lois que j'adore ;</l>
+
+	<l id='1417'>Et pour rendre à vos yeux tant de crimes punis,</l>
+
+	<l id='1418'>De même que nos mains nos coeurs seront unis.</l>
+
+	<l id='1419'>Consolez-vous, Madame, en ce malheur extrême,</l>
+
+	<l id='1420'>La vertu que l'on force est toujours elle-même</l>
+
+	<l id='1421'>L'outrage le plus grand ne la peut démentir,</l>
+
+	<l id='1422'>Et pour perdre sa gloire il y faut consentir.</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1423'>Après tant de serments accordés à mes larmes,</l>
+
+	<l id='1424'>Vous savez où l'honneur doit conduire vos armes,</l>
+
+	<l id='1425'>Et pour rendre le calme à mon esprit gêné,</l>
+
+	<l id='1426'>Je sais ce que je dois à ce corps profané.</l>
+
+	<l id='1427'>Mon honneur offensé vous porte à ma vengeance,</l>
+
+	<l id='1428'>Vous y vouez vos coeurs, et votre diligence,</l>
+
+	<l id='1429'>Mais de plus forts moyens vous pourront obliger,</l>
+
+	<l id='1430'>Quand vous aurez ma gloire, et ma mort à venger.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1431'>Ô Dieux ! Le coup est fait, Ha, Lucrèce, ma vie,</l>
+
+	<l id='1432'>Ne dois-je pas mourir puisque tu m'es ravie ?</l>
+
+	<l id='1433'>Cet injuste poignard est déjà dans mon sein,</l>
+
+	<l id='1434'>Et je meurs comme toi par le coup de ta main.</l>
+
+	<l id='1435'>Peut-on d'un même coeur traversé de la sorte,</l>
+
+	<l id='1436'>Voir une moitié vive, et l'autre déjà morte ?</l>
+
+</sp>
+
+<sp who='LUCRECE'><speaker>LUCRÈCE.</speaker>
+
+	<l id='1437'>Vivez pour me venger, et pour votre intérêt,</l>
+
+	<l id='1438'>Le Ciel, qui nous gouverne, en a donné l'arrêt,</l>
+
+	<l id='1439'>Et son pouvoir plus juste et plus fort que le nôtre,</l>
+
+	<l id='1440'>Veut qu'une moitié vive afin de venger l'autre.</l>
+
+	<l id='1441'>Je sors avec plaisir d'un siècle infortuné,</l>
+
+	<l id='1442'>Où c'est honte de vivre et malheur d'être né ;</l>
+
+	<l id='1443'>Mon esprit, cher époux, n'y peut être qu'en guerre,</l>
+
+	<l id='1444'>Il déteste ce corps, comme une infâme terre,</l>
+
+	<l id='1445'>Et pour être à toi seul il fuit d'un logement,</l>
+
+	<l id='1446'>Qu'on ne peut plus vanter d'être à toi seulement.</l>
+
+	<l id='1447'>Ô vous par qui le Ciel m'a donné la naissance,</l>
+
+	<l id='1448'>Adoucissez mes maux par un peu de constance,</l>
+
+	<l id='1449'>Ne dois-je pas au moins parmi tant de malheurs,</l>
+
+	<l id='1450'>Dérober à vos yeux un sujet de douleurs ?</l>
+
+	<l id='1451'>Pourrais-je en cet état conserver une vie,</l>
+
+	<l id='1452'>Qui de honte et d'horreur ne fut pas poursuivie ?</l>
+
+	<l id='1453'>Et doit-on plaindre un coup heureusement vainqueur</l>
+
+	<l id='1454'>Qui de l'un et de l'autre a délivré mon coeur ?</l>
+
+	<l id='1455'>Mais cessez de pleurer cette étrange aventure,</l>
+
+	<l id='1456'>Contentez la justice, ainsi que la nature,</l>
+
+	<l id='1457'>Et pour faire éclater son illustre courroux,</l>
+
+	<l id='1458'>Souvenez-vous des noms et de père et d'époux.</l>
+
+	<l id='1459'>Adieu, je meurs au moins avec cette allégresse</l>
+
+	<l id='1460'>Que pour vivre pudique, il faut suivre Lucrèce ;</l>
+
+	<l id='1461'>Et qu'en baisant la main, qui s'armera pour moi,</l>
+
+	<l id='1462'>Je vais rendre l'esprit où j'ai donné ma foi.</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1463'>Ô père malheureux, ô déplorable fille,</l>
+
+	<l id='1464'>Ornement profané de ma triste famille,</l>
+
+	<l id='1465'>Que servent des vertus les trésors apparents,</l>
+
+	<l id='1466'>S'ils sont faits aujourd'hui le butin des Tyrans ?</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1467'>Lucrèce malheureuse, et pourtant adorable,</l>
+
+	<l id='1468'>Est-il à mon destin, un destin comparable ?</l>
+
+	<l id='1469'>D'un lâche usurpateur les vicieux efforts,</l>
+
+	<l id='1470'>Commencèrent ici de piller mes trésors,</l>
+
+	<l id='1471'>Et par un coup étrange, autant qu'il m'est funeste,</l>
+
+	<l id='1472'>Ta main et ta vertu me dérobent le reste.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1473'>Malheureuse vertu, déité sans pouvoir,</l>
+
+	<l id='1474'>Qui ne peut conserver ce qui la fait valoir.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1475'>Elle est morte, et je vis ! Ha fortune cruelle,</l>
+
+	<l id='1476'>Ô Dieux, mais c'est en vain que ma plainte en appelle,</l>
+
+	<l id='1477'>Si le vice triomphe, est-il des déités ?</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1478'>Ne joins point le blasphème à tes adversités.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1479'>Fidèle et seul ami, moi-même je confesse,</l>
+
+	<l id='1480'>Que j'accuse les Dieux, que j'ai trahi Lucrèce,</l>
+
+	<l id='1481'>Mais chasse de ce corps un esprit odieux,</l>
+
+	<l id='1482'>Et venge ainsi d'un coup, et Lucrèce et les Dieux.</l>
+
+	<l id='1483'>Ha, ma punition est ici trop certaine,</l>
+
+	<l id='1484'>J'ai trahi ma Lucrèce, et sa perte est ma peine.</l>
+
+	<l id='1485'>Ô Dieux pour châtier un misérable époux,</l>
+
+	<l id='1486'>Fallait-il perdre un sang plus innocent que vous.</l>
+
+	<l id='1487'>Ha cruelle justice étrange et détestable,</l>
+
+	<l id='1488'>Où l'innocent pâtit bien plus que le coupable !</l>
+
+<stage>Il se tourne vers Lucrèce. </stage>
+
+	<l id='1489'>C'est à moi qu'était dû cet effort rigoureux,</l>
+
+	<l id='1490'>Que ton coeur a reçu de ton bras généreux ;</l>
+
+	<l id='1491'>C'est moi qui t'amenai le voleur qui t'outrage,</l>
+
+	<l id='1492'>C'est moi dont les discours ont allumé sa rage,</l>
+
+	<l id='1493'>C'est moi qui le premier travaillai contre toi,</l>
+
+	<l id='1494'>Et tu dois demander qu'on te venge de moi.</l>
+
+	<l id='1495'>Ô succès malheureux autant qu'il est étrange,</l>
+
+	<l id='1496'>J'honorai ta vertu d'une juste louange,</l>
+
+	<l id='1497'>Et par cette louange à toi-même inhumain,</l>
+
+	<l id='1498'>J'ai forgé ce poignard qui t'a percé le sein.</l>
+
+	<l id='1499'>Ha funestes pensers, vertus que j'ai chéries,</l>
+
+	<l id='1500'>Changez-vous dans mon âme en autant de furies,</l>
+
+	<l id='1501'>Et pour me tourmenter avec plus de rigueur,</l>
+
+	<l id='1502'>Faites selon mes voeux un enfer de mon coeur.</l>
+
+	<l id='1503'>Mon âme, ma Lucrèce à qui les destinées</l>
+
+	<l id='1504'>Devaient pour notre bien de plus courtes journées,</l>
+
+	<l id='1505'>Quelle sévère loi t'obligeait aujourd'hui,</l>
+
+	<l id='1506'>De punir dessus toi les offenses d'autrui ?</l>
+
+	<l id='1507'>Que n'as-tu surmonté ton courage indomptable ?</l>
+
+	<l id='1508'>Telle qu'il plaît au sort, tu me serais aimable.</l>
+
+	<l id='1509'>Ton objet m'est toujours un objet précieux,</l>
+
+	<l id='1510'>Que le crime d'autrui ne rend pas odieux.</l>
+
+	<l id='1511'>Vois sous de si grands maux ma constance abattue,</l>
+
+	<l id='1512'>Tu meurs de déplaisir, et le remords me tue.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1513'>C'est trop versé de pleurs, c'est trop de temps perdu,</l>
+
+	<l id='1514'>Et nous devons du sang, à ce sang répandu.</l>
+
+	<l id='1515'>Réveillez vos fureurs au bruit de tant d'orages,</l>
+
+	<l id='1516'>Toute plainte est honteuse aux généreux courages,</l>
+
+	<l id='1517'>Ce sang et cette mort vous doivent enflammer,</l>
+
+	<l id='1518'>Et vous mourrez du coup, qui vous doit animer.</l>
+
+</sp>
+
+<sp who='COLLATIN'><speaker>COLLATIN.</speaker>
+
+	<l id='1519'>En vain à la venger ton ardeur nous invite,</l>
+
+	<l id='1520'>Bien mieux que tes discours ce sang nous sollicite,</l>
+
+	<l id='1521'>Il nous inspire seul de mortelles rigueurs,</l>
+
+	<l id='1522'>Et tout glacé qu'il est, il enflamme nos coeurs.</l>
+
+</sp>
+
+<sp who='LE-PERE'><speaker>LE PÈRE.</speaker>
+
+	<l id='1523'>En vain pour m'accabler, les tristes destinées</l>
+
+	<l id='1524'>Joignent le faix des maux au faix de mes années.</l>
+
+	<l id='1525'>Si le corps a changé, ce coeur ne peut changer,</l>
+
+	<l id='1526'>Et quand je perds mon sang, je le sais bien venger.</l>
+
+</sp>
+
+<sp who='BRUTE'><speaker>BRUTE.</speaker>
+
+	<l id='1527'>Précipitons-nous donc où la foi nous engage,</l>
+
+	<l id='1528'>Cette fatale main commencera l'ouvrage,</l>
+
+	<l id='1529'>J'en jure une autre fois par un objet si saint,</l>
+
+	<l id='1530'>Et par le chaste sang dont ce poignard est teint.</l>
+
+	<l id='1531'>Il servit à sa perte, et pour votre allégeance</l>
+
+	<l id='1532'>Il doit plus justement servir à sa vengeance.</l>
+
+	<l id='1533'>Déjà par mille excès les Tarquins odieux,</l>
+
+	<l id='1534'>Ont sur eux attiré la colère des Dieux :</l>
+
+	<l id='1535'>Leur seule cruauté gagna le diadème,</l>
+
+	<l id='1536'>Ils l'acquirent par crime et le perdront de même,</l>
+
+	<l id='1537'>Rome n'attend qu'un bras qui lui rende ses droits,</l>
+
+	<l id='1538'>Et chasse ses Tyrans du trône de ses Rois.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

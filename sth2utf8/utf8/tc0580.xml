@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>L'INDISCRET, COMÉDIE UN ACTE</title>
+
+				<author born='1694' born_location='Paris' death='1778' death_location='Paris' academie='1746'>VOLTAIRE</author>
+
+				<date>1738</date>
+
+			</titleStmt>
+
+			<publicationStmp>	
+
+				<authority>publié par Paul FIEVRE, juillet 2011/</authority>
+
+			</publicationStmp>
+
+			<SourceDesc>
+
+				<genre>Comédie</genre>
+
+				<inspiration>moeurs françaises</inspiration>
+
+				<structure>Un acte</structure>
+
+				<type>vers</type>
+
+				<periode>1721-1730</periode>
+
+				<taille>500-750</taille>
+
+				<permalien></permalien>
+
+			</SourceDesc>
+
+		</fileDesc>
+
+	</teiHeader>
+
+	<text>
+
+		<front>
+
+			<docTitle>
+
+				<titlePart type="main">L'INDISCRET</titlePart>
+
+				<titlePart type="sub">COMÉDIE EN UN ACTE</titlePart>
+
+			</docTitle> 
+
+			<docDate value='1725'>1725</docDate>
+
+			<docAuthor id='VOLTAIRE' bio='voltaire'>Voltaire</docAuthor>
+
+			<docImprint>
+
+				<privilege id='17**-**-**'></privilege>
+
+				<imprimeur id='***'></imprimeur>
+
+				<acheveImprime id='17**-**-**'></acheveImprime>
+
+			</docImprint>
+
+			<performance>
+
+				<premiere date='1736-08-01' location='Théâtre de la rue des Fossés Saint-Germain'>Représentée pour la première le 1er août 1725.</premiere>
+
+					<casting>Noms des acteurs qui jouèrent dans Mariamne et dans l'Indiscret: La thorillière père, Quinault aîné, Dufresne (Hérode), Duchemin père, Legrand fils, La thorillière fils, Dubreuil, Deshayes; Mmes Lecouvreur, Jouvenot, La Motte (Euphémie), La Bath (Hortense, rôle que Voltaire fit jouer aussi par Mlle Lecouvreur),, Du Boccage (Nérine). 3/4 2,961 livres. (G. A.) </casting>
+
+					<recette value='2961'></recette>
+
+					<nombre value='2'></nombre>
+
+				</performance>
+
+<preface><head>AVERTISSEMENT DE LOUIS MOLAND</head>
+
+<p>Ce fut aux eaux de Forges que Voltaire composa ce petit acte dont « l'impitoyable M. de Richelieu » se montrait assez content. Il fut représenté, avec la Mariamne, le 1er août 1725. « Cette petite pièce fut représentée avant-hier avec assez de succès, écrit Voltaire; mais il me parut que les loges étaient plus contentes que le parterre. Dancourt et Legrand ont accoutumé le parterre au bas comique et aux grossièretés, et insensiblement le public s'est formé le préjugé que les petites pièces en un acte doivent être des farces pleines d'ordures, et non pas des comédies nobles où les moeurs soient respectées. » Marais, avant de l'avoir vue, rapportait ainsi le sentiment public: « Voltaire vient de donner une petite comédie de l'Indiscret, à la suite de sa Mariamne; on dit qu'il y a beaucoup d'esprit cependant elle a déplu à la chambre basse, qui y a trouvé peu de règles du théâtre, et à la chambre haute, qui s'y est trouvée trop bien dépeinte. » La chambre haute, ce sont les loges, la haute société, la cour, un peu mécontentes des libertés que prenait l'auteur.</p> 
+
+<p>L'indiscret n'eut que six représentations en 1725, et fut imprimé la même année. Voici l'approbation du censeur: « J'ai lu, par l'ordre de monseigneur le garde des sceaux, l'Indiscret, comédie, par M. de Voltaire: cette pièce, où règne un comique noble et épuré, qui instruit en amusant, m'a paru très digne de l'impression. Ce 3 septembre 1725. Secousse. » Ce ne fut qu'en 1752 que l'auteur, ainsi qu'on le verra dans les variantes, fit quelques corrections à sa pièce.</p> 
+
+</preface>
+
+<epitre><adresse>A MADAME LA MARQUISE DE PRIE</adresse>
+
+<p type='v'>Vous, qui possédez la beauté,</p>
+
+<p type='v'>Sans être vaine ni coquette, </p>
+
+<p type='v'>Et l'extrême vivacité, </p>
+
+<p type='v'>Sans être jamais indiscrète ; </p>
+
+<p type='v'>Vous, à qui donnèrent les dieux </p>
+
+<p type='v'>Tant de lumières naturelles, </p>
+
+<p type='v'>Un esprit juste, gracieux, </p>
+
+<p type='v'>Solide dans le sérieux, </p>
+
+<p type='v'>Et charmant dans les bagatelles, </p>
+
+<p type='v'>Souffrez qu'on présente à vos yeux </p>
+
+<p type='v'>L'aventure d'un téméraire </p>
+
+<p type='v'>Qui, pour s'être vanté de plaire, </p>
+
+<p type='v'>Perdit ce qu'il aimait le mieux. </p>
+
+<p type='v'>Si l'héroïne de la pièce, </p>
+
+<p type='v'>De Prie, eût eu votre beauté, </p>
+
+<p type='v'>On excuserait la faiblesse </p>
+
+<p type='v'>Qu'il eut de s'être un peu vanté. </p>
+
+<p type='v'>Quel amant ne serait tenté </p>
+
+<p type='v'>De parler de telle maîtresse, </p>
+
+<p type='v'>Par un excès de vanité, </p>
+
+<p type='v'>Ou par un excès de tendresse ?</p>
+
+</epitre>
+
+<castList><head>PERSONNAGES</head>
+
+	<castItem><role id='EUPHÉMIE' civil='F'>EUPHÉMIE</role>.</castItem>
+
+	<castItem><role id='DAMIS' civil='M'>DAMIS</role>.</castItem>
+
+	<castItem><role id='HORTENSE' civil='F'>HORTENSE</role>.</castItem>
+
+	<castItem><role id='TRASIMON' civil='M'>TRASIMON</role>.</castItem>
+
+	<castItem><role id='CLITANDRE' civil='M'>CLITANDRE</role>.</castItem>
+
+	<castItem><role id='NÉRINE' civil='F'>NÉRINE</role>.</castItem>
+
+	<castItem><role id='PASQUIN' civil='M'>PASQUIN</role>.</castItem>
+
+	<castItem><role id='LAQUAIS' civil='G'>Plusieurs laquais de Damis</role>.</castItem>
+
+</castList>
+
+<set location='Cognac' country='France' periode='XVIIIème' link=''>.</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head></head>
+
+<div2 type='scene' n='1'><head>SCÈNE I. Euphémie, Damis.</head>
+
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='1'>N'attendez pas, mon fils, qu'avec un ton sévère </l>
+	<l id='2'>Je déploie à vos yeux l'autorité de mère : </l>
+	<l id='3'>Toujours prête à me rendre à vos justes raisons, </l>
+	<l id='4'>Je vous donne un conseil, et non pas des leçons ; </l>
+	<l id='5'>C'est mon coeur qui vous parle, et mon expérience </l>
+	<l id='6'>Fait que ce coeur pour vous se trouble par avance. </l>
+	<l id='7'>Depuis deux mois au plus vous êtes à la cour : </l>
+	<l id='8'>Vous ne connaissez pas ce dangereux séjour ; </l>
+	<l id='9'>Sur un nouveau venu le courtisan perfide</l>
+	<l id='10'>Avec malignité jette un regard avide, </l>
+	<l id='11'>Pénètre ses défauts, et, dès le premier jour, </l>
+	<l id='12'>Sans pitié le condamne, et même sans retour. </l>
+	<l id='13'>Craignez de ces messieurs la malice profonde. </l>
+	<l id='14'>Le premier pas, mon fils, que l'on fait dans le monde </l>
+	<l id='15'>Est celui dont dépend le reste de nos jours : </l>
+	<l id='16'>Ridicule une fois, on vous le croit toujours ; </l>
+	<l id='17'>L'impression demeure. En vain, croissant en âge, </l>
+	<l id='18'>On change de conduite, on prend un air plus sage, </l>
+	<l id='19'>On souffre encor longtemps de ce vieux préjugé ; </l>
+	<l id='20'>On est suspect encor lorsqu'on est corrigé ; </l>
+	<l id='21'>Et j'ai vu quelquefois payer dans la vieillesse </l>
+	<l id='22'>Le tribut des défauts qu'on eut dans la jeunesse ; </l>
+	<l id='23'>Connaissez donc le monde, et songez qu'aujourd'hui </l>
+	<l id='24'>Il faut que vous viviez pour vous moins que pour lui. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='25'>Je ne sais où peut tendre un si long préambule. </l>
+</sp>
+
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='26'>Je vois qu'il vous paraît injuste et ridicule ; </l>
+	<l id='27'>Vous méprisez des soins pour vous bien importants : </l>
+	<l id='28'>Vous m'en croirez un jour ; il n'en sera plus temps. </l>
+	<l id='29'>Vous êtes indiscret : ma trop longue indulgence </l>
+	<l id='30'>Pardonna ce défaut au feu de votre enfance ; </l>
+	<l id='31'>Dans un âge plus mur il cause ma frayeur. </l>
+	<l id='32'>Vous avez des talents, de l'esprit et du coeur ; </l>
+	<l id='33'>Mais croyez qu'en ce lieu tout rempli d'injustices, </l>
+	<l id='34'>Il n'est point de vertu qui rachète les vices, </l>
+	<l id='35'>Qu'on cite nos défauts en toute occasion, </l>
+	<l id='36'>Que le pire de tous est l'indiscrétion, </l>
+	<l id='37'>Et qu'à la cour, mon fils, l'art le plus nécessaire </l>
+	<l id='38'>N'est pas de bien parler, mais de savoir se taire. </l>
+	<l id='39'>Ce n'est pas en ce lieu que la société </l>
+	<l id='40'>Permet ces entretiens remplis de liberté : </l>
+	<l id='41'>Le plus souvent ici l'on parle sans rien dire ; </l>
+	<l id='42'>Et les plus ennuyeux savent s'y mieux conduire. </l>
+	<l id='43'>Je connais cette cour : on peut fort la blâmer ; </l>
+	<l id='44'>Mais lorsqu'on y demeure, il faut s'y conformer : </l>
+	<l id='45'>Pour les femmes surtout, plein d'un égard extrême, </l>
+	<l id='46'>Parlez-en rarement, encor moins de vous-même. </l>
+	<l id='47'>Paraissez ignorer ce qu'on fait, ce qu'on dit ; </l>
+	<l id='48'>Cachez vos sentiments, et même votre esprit ; </l>
+	<l id='49'>Surtout de vos secrets soyez toujours le maître : </l>
+	<l id='50'>Qui dit celui d'autrui doit passer pour un traître ; </l>
+	<l id='51'>Qui dit le sien, mon fils, passe ici pour un sot. </l>
+	<l id='52' part='i'>Qu'avez-vous à répondre à cela ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='52' part='f'>Pas le mot ; </l>
+	<l id='53'>Je suis de votre avis je hais le caractère</l>
+	<l id='54'>De quiconque n'a pas le pouvoir de se taire ; </l>
+	<l id='55'>Ce n'est pas là mon vice, et, loin d'être entiché </l>
+	<l id='56'>Du défaut qui par vous m'est ici reproché, </l>
+	<l id='57'>Je vous avoue enfin, madame, en confidence </l>
+	<l id='58'>Qu'avec vous trop longtemps j'ai gardé le silence </l>
+	<l id='59'>Sur un fait dont pourtant j'aurais dû vous parler : </l>
+	<l id='60'>Mais souvent dans la vie il faut dissimuler. </l>
+	<l id='61'>Je suis amant aimé d'une veuve adorable, </l>
+	<l id='62'>Jeune, charmante, riche, aussi sage qu'aimable ; </l>
+	<l id='63'>C'est Hortense. À ce nom jugez de mon bonheur ; </l>
+	<l id='64'>Jugez, s'il était su, de la vive douleur </l>
+	<l id='65'>De tous nos courtisans qui soupirent pour elle ; </l>
+	<l id='66'>Nous leur cachons à tous notre ardeur mutuelle : </l>
+	<l id='67'>L'amour depuis deux jours a serré ce lien, </l>
+	<l id='68'>Depuis deux jours entiers ; et vous n'en savez rien. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='69' part='i'>Mais j'étais à Paris depuis deux jours. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='69' part='f'>Madame, </l>
+	<l id='70'>On n'a jamais brûlé d'une si belle flamme. </l>
+	<l id='71'>Plus l'aveu vous en plaît, plus mon coeur est content ; </l>
+	<l id='72'>Et mon bonheur s'augmente en vous le racontant. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='73'>Je suis sûre, Damis, que cette confidence </l>
+	<l id='74'>Vient de votre amitié, non de votre imprudence. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='75' part='i'>En doutez-vous ? </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='75' part='f'>Eh, eh... mais enfin, entre nous, </l>
+	<l id='76'>Songez au vrai bonheur qui vient s'offrir à vous : </l>
+	<l id='77'>Hortense a des appas ; mais de plus cette Hortense </l>
+	<l id='78'>Est le meilleur parti qui soit pour vous en France. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='79' part='i'>Je le sais. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='79' part='f'>D'elle seule elle reçoit des lois, </l>
+	<l id='80'>Et le don de sa main dépendra de son choix. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='81' part='i'>Et tant mieux. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='81' part='f'>Vous saurez flatter son caractère, </l>
+	<l id='82' part='i'>Ménager son esprit. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='82' part='f'>Je fais mieux, je sais plaire. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='83'>C'est bien dit ; mais, Damis, elle fuit les éclats ; </l>
+	<l id='84'>Et les airs trop bruyants ne l'accommodent pas : </l>
+	<l id='85'>Elle peut, comme une autre, avoir quelque faiblesse ; </l>
+	<l id='86'>Mais jusque dans ses goûts elle a de la sagesse, </l>
+	<l id='87'>Craint surtout de se voir en spectacle à la cour, </l>
+	<l id='88'>Et d'être le sujet de l'histoire du jour ; </l>
+	<l id='89'>Le secret, le mystère est tout ce qui la flatte. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='90'>Il faudra bien pourtant qu'enfin la chose éclate. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='91'>Mais près d'elle, en un mot, quel sort vous a produit ? </l>
+	<l id='92'>Nul jeune homme jamais n'est chez elle introduit ; </l>
+	<l id='93'>Elle fuit avec soin, en personne prudente, </l>
+	<l id='94'>De nos jeunes seigneurs la cohue éclatante. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='95'>Ma foi ! chez elle encor je ne suis point reçu ; </l>
+	<l id='96'>Je l'ai longtemps lorgnée, et, grâce au ciel, j'ai plu. </l>
+	<l id='97'>D'abord elle rendit mes billets sans les lire ; </l>
+	<l id='98'>Bientôt elle les lut, et daigne enfin m'écrire. </l>
+	<l id='99'>Depuis près de deux jours je goûte un doux espoir ; </l>
+	<l id='100'>Et je dois, en un mot, l'entretenir ce soir. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='101'>Eh bien ! je veux aussi l'aller trouver moi-même. </l>
+	<l id='102'>La mère d'un amant qui nous plaît, qui nous aime, </l>
+	<l id='103'>Est toujours, que je crois, reçue avec plaisir. </l>
+	<l id='104'>De vous adroitement je veux l'entretenir, </l>
+	<l id='105'>Et disposer son coeur à presser l'hyménée </l>
+	<l id='106'>Qui fera le bonheur de votre destinée. </l>
+	<l id='107'>Obtenez au plus tôt et sa main et sa foi, </l>
+	<l id='108'>Je vous y servirai ; mais n'en parlez qu'à moi. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='109'>Non, il n'est point ailleurs, madame, je vous jure, </l>
+	<l id='110'>Une mère plus tendre, une amitié plus pure : </l>
+	<l id='111'>A vous plaire à jamais je borne tous mes voeux. </l>
+</sp>
+<sp who='EUPHÉMIE'><speaker>EUPHÉMIE.</speaker>
+	<l id='112'>Soyez heureux, mon fils, c'est tout ce que je veux. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='113'>Ma mère n'a point tort ; je sais bien qu'en ce monde </l>
+	<l id='114'>Il faut, pour réussir, une adresse profonde. </l>
+	<l id='115'>Hors dix ou douze amis à qui je puis parler, </l>
+	<l id='116'>Avec toute la cour je vais dissimuler. </l>
+	<l id='117'>Çà, pour mieux essayer cette prudence extrême, </l>
+	<l id='118'>De nos secrets ici ne parlons qu'à nous-même ; </l>
+	<l id='119'>Examinons un peu, sans témoins, sans jaloux, </l>
+	<l id='120'>Tout ce que la fortune a prodigué pour nous. </l>
+	<l id='121'>Je hais la vanité ; mais ce n'est point un vice</l>
+	<l id='122'>De savoir se connaître et se rendre justice. </l>
+	<l id='123'>On n'est pas sans esprit, on plaît ; on a, je crois, </l>
+	<l id='124'>Aux petits cabinets l'air de l'ami du roi. </l>
+	<l id='125'>Il faut bien s'avouer que l'on est fait à peindre ; </l>
+	<l id='126'>On danse, on chante, on boit, on sait parler et feindre. </l>
+	<l id='127'>Colonel à treize ans, je pense avec raison </l>
+	<l id='128'>Que l'on peut à trente ans m'honorer d'un bâton. </l>
+	<l id='129'>Heureux en ce moment, heureux en espérance, </l>
+	<l id='130'>Je garderai Julie, et vais avoir Hortense ; </l>
+	<l id='131'>Possesseur une fois de toutes ses beautés, </l>
+	<l id='132'>Je lui ferai par jour vingt infidélités, </l>
+	<l id='133'>Mais sans troubler en rien la douceur du ménage, </l>
+	<l id='134'>Sans être soupçonné, sans paraître volage ; </l>
+	<l id='135'>Et mangeant en six mois la moitié de son bien,</l>
+	<l id='136'>J'aurai toute la cour sans qu'on en sache rien. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Damis, Trasimon.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='137' part='i'>Hé ! bonjour, commandeur. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='137' part='f'>Aye ! Ouf ! On m'estropie... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='138'>Embrassons-nous encor, commandeur, je te prie. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='139' part='i'>Souffrez... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='139' part='f'>Que je t'étouffe une troisième fois. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='140' part='i'>Mais quoi ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='140' part='f'>Déride un peu ce renfrogné minois ; </l>
+	<l id='141'>Réjouis-toi, je suis le plus heureux des hommes. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='142' part='i'>Je venais pour vous dire... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='142' part='f'>Oh ! Parbleu tu m'assommes </l>
+	<l id='143'>Avec ce front glacé que tu portes ici. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='144'>Mais je ne prétends pas vous réjouir aussi ; </l>
+	<l id='145'>Vous avez sur les bras une fâcheuse affaire. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='146' part='i'>Eh ! eh ! pas si fâcheuse. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='146' part='f'>Erminie et Valère </l>
+	<l id='147'>Contre vous en ces lieux déclament hautement : </l>
+	<l id='148'>Vous avez parlé d'eux un peu légèrement ; </l>
+	<l id='149'>Et même depuis peu le vieux seigneur Horace </l>
+	<l id='150' part='i'>M'a prié... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='150' part='f'>Voilà bien de quoi je m'embarrasse ! </l>
+	<l id='151'>Horace est un vieux fou, plutôt qu'un vieux seigneur, </l>
+	<l id='152'>Tout chamarré d'orgueil, pétri d'un faux honneur, </l>
+	<l id='153'>Assez bas à la cour, important à la ville, </l>
+	<l id='154'>Et non moins ignorant qu'il veut paraître habile. </l>
+	<l id='155'>Pour madame Erminie, on sait assez comment </l>
+	<l id='156'>Je l'ai prise et quittée un peu trop brusquement. </l>
+	<l id='157'>Qu'elle est aigre, Erminie ! Et qu'elle est tracassière ! </l>
+	<l id='158'>Pour son petit amant, mon cher ami Valère, </l>
+	<l id='159'>Tu le connais un peu, parle : as-tu jamais vu </l>
+
+<note>Tortu : qui n'est pas en ligne droite. Se dit au figuré, mais en terme bas, pour signifier, pervers, malin,  méchant, corrompu.  [F]</note>
+	<l id='160'>Un esprit plus guindé, plus gauche, plus tortu ?... </l>
+	<l id='161'>A propos, on m'a dit hier, en confidence, </l>
+	<l id='162'>Que son grand frère aîné, cet homme d'importance, </l>
+	<l id='163'>Est reçu chez Clarice avec quelque faveur ; </l>
+	<l id='164'>Que la grosse comtesse en crève de douleur. </l>
+	<l id='165'>Et toi, vieux commandeur, comment va la tendresse ? </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='166'>Vous savez que le sexe assez peu m'intéresse. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='167'>Je ne suis pas de même ; et le sexe, ma foi, </l>
+	<l id='168'>À la ville, à la cour, me donne assez d'emploi. </l>
+	<l id='169'>Écoute ; il faut ici que mon coeur te confie </l>
+	<l id='170'>Un secret dont dépend le bonheur de ma vie. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='171' part='i'>Puis-je vous y servir ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='171' part='m'>Toi ? point du tout. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='171' part='f'>Eh bien ! </l>
+	<l id='172'>Damis, s'il est ainsi, ne m'en dites donc rien. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='173' part='i'>Le droit de l'amitié... </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='173' part='f'>C'est cette amitié même </l>
+	<l id='174'>Qui me fait éviter avec un soin extrême </l>
+	<l id='175'>Le fardeau d'un secret au hasard confié, </l>
+	<l id='176'>Qu'on me dit par faiblesse, et non par amitié, </l>
+	<l id='177'>Dont tout autre que moi serait dépositaire, </l>
+	<l id='178'>Qui de mille soupçons est la source ordinaire, </l>
+	<l id='179'>Et qui peut nous combler de honte et de dépit, </l>
+	<l id='180'>Moi d'en avoir trop su, vous d'en avoir trop dit. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='181'>Malgré toi, commandeur, quoi que tu puisses dire, </l>
+	<l id='182'>Pour te faire plaisir, je veux du moins te lire </l>
+	<l id='183' part='i'>Le billet qu'aujourd'hui... </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='183' part='f'>Par quel empressement ?... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='184'>Ah ! tu le trouveras écrit bien tendrement. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='185' part='i'>Puisque vous le voulez enfin... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='185' part='f'>C'est l'amour même, </l>
+	<l id='186'>Ma foi, qui l'a dicté. Tu verras comme on m'aime. </l>
+	<l id='187'>La main qui me l'écrit le rend d'un prix... vois-tu... </l>
+	<l id='188'>Mais d'un prix... eh, morbleu ! je crois l'avoir perdu. </l>
+	<l id='189'>Je ne le trouve point... Holà ! La Fleur ! La Brie ! </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Damis, Trasimon, Plusieurs Laquais.</head>
+<sp who='UN-LAQUAIS'><speaker>UN LAQUAIS.</speaker>
+	<l id='190' part='i'>Monseigneur ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='190' part='f'>Remontez vite à la galerie, </l>
+	<l id='191'>Retournez chez tous ceux que j'ai vus ce matin ;</l>
+	<l id='192'>Allez chez ce vieux duc... Ah ! je le trouve enfin ; </l>
+	<l id='193'>Ces marauds l'ont mis là par pure étourderie. </l>
+<stage>À ses gens.</stage>
+	<l id='194'>Laissez-nous. Commandeur, écoute, je te prie. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Damis, Trasimon, Clitandre, Pasquin.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE, à Pasquin, tenant un billet à la main.</speaker>
+	<l id='195'>Oui, tout le long du jour demeure en ce jardin ; </l>
+	<l id='196'>Observe tout, vois tout, redis-moi tout, Pasquin ; </l>
+	<l id='197'>Rends-moi compte, en un mot, de tous les pas d'Hortense </l>
+	<l id='198' part='i'>Ah ! je saurai... </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Damis, Trasimon, Clitandre.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='198' part='f'>Voici le marquis qui s'avance. </l>
+	<l id='199' part='i'>Bonjour, marquis. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, un billet à la main.</speaker>
+	<l id='199' part='m'>Bonjour. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='199' part='f'>Qu'as-tu donc aujourd'hui ? </l>
+	<l id='200'>Sur ton front à longs traits qui diable a peint l'ennui ? </l>
+	<l id='201'>Tout le monde m'aborde avec un air si morne, </l>
+	<l id='202' part='i'>Que je crois... </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, bas.</speaker>
+	<l id='202' part='f'>Ma douleur, hélas ! n'a point de borne. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='203' part='i'>Que marmottes-tu là ? </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, bas.</speaker>
+
+	<l id='203' part='f'>Que je suis malheureux ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='204'>Çà, pour vous égayer, pour vous plaire à tous deux, </l>
+	<l id='205'>Le marquis entendra le billet de ma belle. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, bas, en regardant le billet qu'il a entre les mains.</speaker>
+
+	<l id='206'>Quel congé ! quelle lettre ! Hortense... Ah ! la cruelle ! </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS, à Clitandre.</speaker>
+
+	<l id='207'>C'est un billet à faire expirer un jaloux. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='208'>Si vous êtes aimé, que votre sort est doux ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='209'>Il le faut avouer, les femmes de la ville, </l>
+	<l id='210'>Ma foi, ne savent point écrire de ce style. </l>
+<stage>Il lit.</stage>
+	<l id='211'>Enfin je cède aux feux dont mon coeur est épris ; </l>
+	<l id='212'>Je voulais le cacher, mais j'aime à vous le dire </l>
+	<l id='213'>Eh ! pourquoi ne vous point écrire </l>
+	<l id='214'>Ce que cent fois mes yeux vous ont sans doute appris ? </l>
+	<l id='215'>Oui, mon cher Damis, je vous aime, </l>
+	<l id='216'>D'autant plus que mon coeur, peu propre à s'enflammer, </l>
+	<l id='217'>Craignant votre jeunesse, et se craignant lui-même, </l>
+	<l id='218'>A fait ce qu'il a pu pour ne vous point aimer. </l>
+	<l id='219'>Puissé-je, après l'aveu d'une telle faiblesse, </l>
+	<l id='220'>Ne me la jamais reprocher ! </l>
+	<l id='221'>Plus je vous montre ma tendresse, </l>
+	<l id='222'>Et plus à tous les yeux vous devez la cacher. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='223'>Vous prenez très grand soin d'obéir à la dame, </l>
+	<l id='224'>Sans doute, et vous brûlez d'une discrète flamme. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='225'>Heureux qui, d'une femme adorant les appas, </l>
+	<l id='226'>Reçoit de tels billets, et ne les montre pas ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='227' part='i'>Vous trouvez donc la lettre... </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='227' part='m'>Un peu forte. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='227' part='f'>Adorable. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='228'>Celle qui me l'écrit est cent fois plus aimable. </l>
+	<l id='229'>Que vous seriez charmés si vous saviez son nom ! </l>
+	<l id='230'>Mais dans ce monde il faut de la discrétion. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='231'>Oh ! nous n'exigeons point de telle confidence. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='232'>Damis, nous nous aimons, mais c'est avec prudence. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='233'>Loin de vouloir ici vous forcer de parler... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='234'>Non, je vous aime trop pour rien dissimuler. </l>
+	<l id='235'>Je vois que vous pensez, et la cour le publie, </l>
+	<l id='236'>Que je n'ai d'autre affaire ici qu'avec Julie. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='237'>On le dit d'après vous, mais nous n'en croyons rien.</l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='238'>Oh ! crois... Jusqu'à présent, la chose allait fort bien ; </l>
+	<l id='239'>Nous nous étions aimés, quittés, repris encore : </l>
+	<l id='240' part='i'>On en parle partout. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='240' part='f'>Non, tout cela s'ignore. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='241'>Tu crois qu'à cet oison je suis fort attaché ; </l>
+	<l id='242'>Mais, par ma foi, j'en suis très faiblement touché. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='243'>Ou fort, ou faiblement, il ne m'importe guère. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='244'>La Julie est aimable, il est vrai, mais légère ; </l>
+	<l id='245'>L'autre est ce qu'il me faut, et c'est solidement </l>
+	<l id='246' part='i'>Que je l'aime. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='246' part='f'>Enfin donc cet objet si charmant... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='247'>Vous m'y forcez ; allons, il faut bien vous l'apprendre : </l>
+	<l id='248'>Regarde ce portrait, mon cher ami Clitandre ; </l>
+	<l id='249'>Çà, dis-moi si jamais tu vis de tes deux yeux </l>
+	<l id='250'>Rien de plus adorable et de plus gracieux, </l>
+	<l id='251'>C'est Macé qui l'a peint ; c'est tout dire, et je pense </l>
+
+<note>Macé</note>
+	<l id='252' part='i'>Que tu reconnaîtras... </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='252' part='f'>Juste ciel ! C'est Hortense. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='253' part='i'>Pourquoi t'en étonner ? </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='253' part='f'>Vous oubliez, monsieur, </l>
+	<l id='254'>Qu'Hortense est ma cousine, et chérit son honneur, </l>
+	<l id='255' part='i'>Et qu'un pareil aveu... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='255' part='f'>Vous nous la donnez bonne ; </l>
+	<l id='256'>J'ai six cousines, moi, que je vous abandonne ; </l>
+	<l id='257'>Et je vous les verrais lorgner, tromper, quitter, </l>
+	<l id='258'>Imprimer leurs billets, sans m'en inquiéter. </l>
+	<l id='259'>Il nous ferait beau voir, dans nos humeurs chagrines, </l>
+	<l id='260'>Prendre avec soin sur nous l'honneur de nos cousines ! </l>
+	<l id='261'>Nous aurions trop à faire à la cour ; et, ma foi, </l>
+	<l id='262'>C'est assez que chacun réponde ici pour soi. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='263' part='i'>Mais Hortense, monsieur... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='263' part='f'>Eh bien ! Oui, je l'adore, </l>
+	<l id='264'>Elle n'aime que moi, je vous le dis encore ; </l>
+	<l id='265'>Et je l'épouserai pour vous faire enrager. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+
+	<l id='266'>Ah ! plus cruellement pouvait-on m'outrager ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='267'>Nos noces, croyez-moi, ne seront point secrètes ; </l>
+	<l id='268'>Et vous n'en serez pas, tout cousin que vous êtes. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='269'>Adieu, monsieur Damis : on peut vous faire voir </l>
+	<l id='270'>Que sur une cousine on a quelque pouvoir. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Damis, Clitandre.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='271'>Que je hais ce censeur, et son air pédantesque, </l>
+	<l id='272'>Et tous ces faux éclats de vertu romanesque ! </l>
+	<l id='273'>Qu'il est sec ! qu'il est brut ! et qu'il est ennuyeux ! </l>
+	<l id='274'>Mais tu vois ce portrait d'un oeil bien curieux ? </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+
+	<l id='275'>Comme ici de moi-même il faut que je sois maître ! </l>
+	<l id='276' part='i'>Qu'il faut dissimuler ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='276' part='f'>Tu remarques peut-être </l>
+	<l id='277'>Qu'au coin de cette boîte Il manque un des brillants ? </l>
+	<l id='278'>Mais tu sais que la chasse hier dura longtemps ; </l>
+	<l id='279'>A tout moment on tombe, on se heurte, on s'accroche. </l>
+	<l id='280'>J'avais quatre portraits ballottés dans ma poche ; </l>
+	<l id='281'>Celui-ci, par malheur, fut un peu maltraité ; </l>
+	<l id='282'>La boîte s'est rompue, un brillant a sauté. </l>
+	<l id='283'>Parbleu, puisque demain tu t'en vas à la ville, </l>
+
+<note>La Frenaye : </note>
+	<l id='284'>Passe chez La Frenaye ; il est cher, mais habile ; </l>
+	<l id='285'>Choisis, comme pour toi, l'un de ses diamants : </l>
+	<l id='286'>Je lui dois, entre nous, plus de vingt mille francs. </l>
+	<l id='287'>Adieu : ne montre au moins ce portrait à personne. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+
+	<l id='288' part='i'>Où suis-je ? </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+
+	<l id='288' part='f'>Adieu, marquis : à toi je m'abandonne ; </l>
+	<l id='289' part='i'>Sois discret. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+
+	<l id='289' part='m'>Se peut-il ? </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS, revenant.</speaker>
+	<l id='289' part='f'>J'aime un ami prudent : </l>
+	<l id='290'>Va, de tous mes secrets tu seras confident. </l>
+	<l id='291'>Eh ! peut-on posséder ce que le coeur désire, </l>
+	<l id='292'>Être heureux, et n'avoir personne à qui le dire ? </l>
+	<l id='293'>Peut-on garder pour soi, comme un dépôt sacré, </l>
+	<l id='294'>L'insipide plaisir d'un amour ignoré ? </l>
+	<l id='295'>C'est n'avoir point d'amis qu'être sans confiance ; </l>
+	<l id='296'>C'est n'être point heureux que de l'être en silence.</l>
+	<l id='297'>Tu n'as vu qu'un portrait, et qu'un seul billet doux. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='298' part='i'>Eh bien ? </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+
+	<l id='298' part='f'>L'on m'a donné, mon cher, un rendez-vous. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+
+	<l id='299' part='i'>Ah ! Je frémis. </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+
+	<l id='299' part='f'>Ce soir, pendant le bal qu'on donne, </l>
+	<l id='300'>Je dois, sans être vu ni suivi de personne, </l>
+	<l id='301'>Entretenir Hortense, ici, dans ce jardin. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à part.</speaker>
+	<l id='302'>Voici le dernier coup. Ah je succombe enfin. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='303'>Là, n'es-tu pas charmé de ma bonne fortune ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='304' part='i'>Hortense doit vous voir ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='304' part='f'>Oui, mon cher, sur la brune : </l>
+	<l id='305'>Mais le soleil qui baisse amène ces moments, </l>
+	<l id='306'>Ces moments fortunés, désirés si longtemps. </l>
+	<l id='307'>Adieu. Je vais chez toi rajuster ma parure, </l>
+	<l id='308'>De deux livres de poudre orner ma chevelure, </l>
+	<l id='309'>De cent parfums exquis mêler la douce odeur ; </l>
+	<l id='310'>Puis paré, triomphant, tout plein de mon bonheur, </l>
+	<l id='311'>Je reviendrai soudain finir notre aventure. </l>
+	<l id='312'>Toi, rôde près d'ici, marquis, je t'en conjure. </l>
+	<l id='313'>Pour te faire un peu part de ces plaisirs si doux, </l>
+	<l id='314'>Je te donne le soin d'écarter les jaloux. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='315'>Ai-je assez retenu mon trouble et ma colère ? </l>
+	<l id='316'>Hélas ! après un an de mon amour sincère, </l>
+	<l id='317'>Hortense en ma faveur enfin s'attendrissait ; </l>
+	<l id='318'>Las de me résister, son coeur s'amollissait. </l>
+	<l id='319'>Damis en un moment la voit, l'aime, et sait plaire ; </l>
+	<l id='320'>Ce que n'ont pu deux ans, un moment l'a su faire. </l>
+	<l id='321'>On le prévient ! On donne à ce jeune éventé </l>
+	<l id='322'>Ce portrait que ma flamme avait tant mérité ! </l>
+	<l id='323'>Il reçoit une lettre... Ah ! celle qui l'envoie </l>
+	<l id='324'>Par un pareil billet m'eût fait mourir de joie : </l>
+	<l id='325'>Et, pour combler l'affront dont je suis outragé, </l>
+	<l id='326'>Ce matin par écrit j'ai reçu mon congé. </l>
+	<l id='327'>De cet écervelé la voilà donc coiffée ! </l>
+	<l id='328'>Elle veut à mes yeux lui servir de trophée. </l>
+	<l id='329'>Hortense, ah ! Que mon coeur vous connaissait bien mal ! </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Clitandre, Pasquin.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='330'>Enfin, mon cher Pasquin, j'ai trouvé mon rival. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='331' part='i'>Hélas ! monsieur, tant pis. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='331' part='f'>C'est Damis que l'on aime ; </l>
+	<l id='332' part='i'>Oui, c'est cet étourdi. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='332' part='m'>Qui vous l'a dit ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='332' part='f'>Lui-même. </l>
+	<l id='333'>L'indiscret, à mes yeux de trop d'orgueil enflé, </l>
+	<l id='334'>Vient se vanter à moi du bien qu'il m'a volé. </l>
+	<l id='335'>Vois ce portrait, Pasquin. C'est par vanité pure </l>
+	<l id='336'>Qu'il confie à mes mains cette aimable peinture ; </l>
+	<l id='337'>C'est pour mieux triompher. Hortense ! eh ! qui l'eût cru </l>
+	<l id='338'>Que jamais près de vous Damis m'aurait perdu ? </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='339' part='i'>Damis est bien joli. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, prenant Pasquin à la gorge.</speaker>
+	<l id='339' part='f'>Comment ? Tu prétends, traître, </l>
+	<l id='340' part='i'>Qu'un jeune fat... </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='340' part='f'>Aye ! Ouf ! Il est vrai que peut-être... </l>
+
+<note>Caquet : se dit aussi d'une promesse sans effet. Cette homme promet beaucoup, mais il ne tient rien ; il n'a que du caquet. [F]</note>
+	<l id='341'>Eh, ne m'étranglez pas ! Il n'a que du caquet... </l>
+	<l id='342'>Mais son air... entre nous, c'est un vrai freluquet. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='343'>Tout freluquet qu'il est, c'est lui qu'on me préfère. </l>
+	<l id='344'>Il faut montrer ici ton adresse ordinaire. </l>
+	<l id='345'>Pasquin, pendant le bal que l'on donne ce soir, </l>
+	<l id='346'>Hortense et mon rival doivent ici se voir. </l>
+	<l id='347'>Console-moi, sers-moi, rompons cette partie. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='348' part='i'>Mais, monsieur... </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='348' part='f'>Ton esprit est rempli d'industrie ; </l>
+	<l id='349'>Tout est à toi : voilà de l'or à pleines mains. </l>
+	<l id='350'>D'un rival imprudent dérangeons les desseins ; </l>
+	<l id='351'>Tandis qu'il va parer sa petite personne, </l>
+	<l id='352'>Tâchons de lui voler les moments qu'on lui donne. </l>
+	<l id='353'>Puisqu'il est indiscret, il en faut profiter ; </l>
+	<l id='354'>De ces lieux, en un mot, il le faut écarter. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='355'>Croyez-vous me charger d'une facile affaire ? </l>
+	<l id='356'>J'arrêterais, monsieur, le cours d'une rivière, </l>
+	<l id='357'>Un cerf dans une plaine, un oiseau dans les airs, </l>
+	<l id='358'>Un poète entêté qui récite ses vers, </l>
+	<l id='359'>Une plaideuse en feu qui crie à l'injustice, </l>
+	<l id='360'>Un Manceau tonsuré qui court un bénéfice, </l>
+	<l id='361'>La tempête, le vent, le tonnerre et ses coups, </l>
+	<l id='362'>Plutôt qu'un petit-maître allant en rendez-vous. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='363'>Veux-tu m'abandonner à ma douleur extrême ? </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='364'>Attendez. Il me vient en tête un stratagème. </l>
+	<l id='365' part='i'>Hortense ni Damis ne m'ont jamais vu ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='365' part='f'>Non. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='366' part='i'>Vous avez en vos mains un sien portrait ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='366' part='m'>Oui. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='366' part='f'>Bon. </l>
+	<l id='367'>Vous avez un billet que vous écrit la belle ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='368' part='i'>Hélas ! Il est trop vrai. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='368' part='f'>Cette lettre cruelle </l>
+	<l id='369'>Est un ordre bien net de ne lui parler plus ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='370' part='i'>Eh ! oui, je le sais bien. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='370' part='f'>La lettre est sans dessus ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='371' part='i'>Eh ! Oui, bourreau. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='371' part='f'>Prêtez vite et portrait et lettre. </l>
+	<l id='372' part='i'>Donnez. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='372' part='f'>En d'autres mains, qui, moi, j'irais remettre </l>
+	<l id='373' part='i'>Un portrait confié ?... </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='373' part='f'>Voilà bien des façons : </l>
+	<l id='374'>Le scrupule est plaisant. Donnez-moi ces chiffons. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='375' part='i'>Mais... </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='375' part='f'>Mais reposez-vous de tout sur ma prudence. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='376' part='i'>Tu veux... </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='376' part='f'>Eh ! dénichez. Voici madame Hortense. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Hortense, Nérine.</head>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='377'>Nérine, j'en conviens, Clitandre est vertueux ; </l>
+	<l id='378'>Je connais la constance et l'ardeur de ses feux : </l>
+	<l id='379'>Il est sage, discret, honnête homme, sincère ; </l>
+	<l id='380'>Je le dois estimer ; mais Damis sait me plaire : </l>
+	<l id='381'>Je sens trop, aux transports de mon coeur combattu, </l>
+	<l id='382'>Que l'amour n'est jamais le prix de la vertu. </l>
+	<l id='383'>C'est par les agréments que l'on touche une femme ; </l>
+	<l id='384'>Et pour une de nous que l'amour prend par l'âme, </l>
+	<l id='385'>Nérine, il en est cent qu'il séduit par les yeux. </l>
+	<l id='386'>J'en rougis. Mais Damis ne vient point en ces lieux ! </l>
+</sp>
+<sp who='NÉRINE'><speaker>NÉRINE.</speaker>
+	<l id='387'>Quelle vivacité ! quoi ! cette humeur si fière ?... </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='388'>Non, je ne devais pas arriver la première. </l>
+</sp>
+<sp who='NÉRINE'><speaker>NÉRINE.</speaker>
+	<l id='389'>Au premier rendez-vous vous avez du dépit ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='390'>Damis trop fortement occupe mon esprit. </l>
+	<l id='391'>Sa mère, ce jour même, a su, par sa visite, </l>
+	<l id='392'>De son fils dans mon coeur augmenter le mérite. </l>
+	<l id='393'>Je vois bien qu'elle veut avancer le moment </l>
+	<l id='394'>Où je dois pour époux accepter mon amant ; </l>
+	<l id='395'>Mais je veux en secret lui parler à lui-même, </l>
+	<l id='396' part='i'>Sonder ses sentiments. </l>
+</sp>
+<sp who='NÉRINE'><speaker>NÉRINE.</speaker>
+	<l id='396' part='f'>Doutez-vous qu'il vous aime ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='397'>Il m'aime, je le crois, je le sais. Mais je veux </l>
+	<l id='398'>Mille fois de sa bouche entendre ses aveux ; </l>
+	<l id='399'>Voir s'il est en effet si digne de me plaire ; </l>
+	<l id='400'>Connaître son esprit, son coeur, son caractère ; </l>
+	<l id='401'>Ne point céder, Nérine, à ma prévention, </l>
+	<l id='402'>Et juger, si je puis, de lui sans passion. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='11'><head>SCÈNE XI. Hortense, Nérine, Pasquin.</head>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='403'>Madame, en grand secret, monsieur Damis mon maître... </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='404' part='i'>Quoi ! ne viendrait-il pas ?</l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='404' part='m'>Non. </l>
+</sp>
+<sp who='NÉRINE'><speaker>NÉRINE.</speaker>
+	<l id='404' part='f'>Ah ! Le petit traître ! </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='405' part='i'>Il ne viendra point ? </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='405' part='f'>Non ; mais, par bon procédé, </l>
+	<l id='406'>Il vous rend ce portrait dont il est excédé. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='407' part='i'>Mon portrait ! </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='407' part='f'>Reprenez vite la miniature. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='408' part='i'>Je doute si je veille. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='408' part='f'>Allons, je vous conjure. </l>
+	<l id='409'>Dépêchez-moi, j'ai hâte ; et, de sa part, ce soir, </l>
+	<l id='410'>J'ai deux portraits à rendre, et deux à recevoir. </l>
+	<l id='411' part='i'>Jusqu'au revoir. Adieu. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='411' part='f'>Ciel ! Quelle perfidie ! </l>
+	<l id='412' part='i'>J'en mourrai de douleur. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='412' part='f'>De plus, il vous supplie </l>
+	<l id='413'>De finir la lorgnade, et chercher aujourd'hui, </l>
+	<l id='414'>Avec vos airs pincés, d'autres dupes que lui. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='12'><head>SCÈNE XII. Hortense, Nérine, Damis, Pasquin.</head>
+<sp who='DAMIS'><speaker>DAMIS, dans le fond du théâtre.</speaker>
+	<l id='415'>Je verrai dans ce lieu la beauté qui m'engage. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='416'>C'est Damis. Je suis pris. Ne perdons point courage. </l>
+<stage>Il court à Damis, et le tire à part.</stage>
+	<l id='417'>Vous voyez, monseigneur, un des grisons secrets </l>
+
+<note>Poulet : signifie aussi un petit billet amoureux qu'on envoie aux Dames galantes, ainsi nommé, parce qu'en le pliant on y faisait deux pointes qui representaient les ailes d'un poulet. [F]</note>
+	<l id='418'>Qui d'Hortense partout va portant les poulets. </l>
+	<l id='419'>J'ai certain billet doux de sa part à vous rendre. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='420'>Quel changement ! Quel prix de l'amour le plus tendre ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='421' part='i'>Lisons. </l>
+<stage>Il lit.</stage>
+	<l id='421' part='f'>Hom... hom... « Vous méritez de me charmer. </l>
+	<l id='422'>Je sens à vos vertus ce que je dois d'estime...</l>
+	<l id='423'>Mais je ne saurais vous aimer. » </l>
+
+	<l id='424'>...</l>
+	<l id='425'>Est-il un trait plus noir et plus abominable ? </l>
+	<l id='426'>Je ne me croyais pas à ce point estimable. </l>
+	<l id='427'>Je veux que tout ceci soit public à la cour, </l>
+	<l id='428'>Et j'en informerai le monde dès ce jour. </l>
+	<l id='429'>La chose assurément vaut bien qu'on la publie. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à l'autre bout du théâtre.</speaker>
+	<l id='430'>A-t-il pu jusque-là pousser son infamie ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='431'>Tenez ; c'est là le cas qu'on fait de tels écrits. </l>
+<stage>Il déchire le billet.</stage>
+</sp>
+
+<sp who='PASQUIN'><speaker>PASQUIN, allant à Hortense.</speaker>
+	<l id='432'>Je suis honteux pour vous d'un si cruel mépris. </l>
+	<l id='433'>Madame, vous voyez de quel air il déchire </l>
+	<l id='434'>Les billets qu'à l'ingrat vous daignâtes écrire. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='435'>Il me rend mon portrait ! Ah ! Périsse à jamais </l>
+	<l id='436'>Ce malheureux crayon de mes faibles attraits ! </l>
+<stage>Elle jette son portrait.</stage>
+</sp>
+
+<sp who='PASQUIN'><speaker>PASQUIN, revenant à Damis.</speaker>
+	<l id='437'>Vous voyez devant vous l'ingrate met en pièces </l>
+	<l id='438' part='i'>Votre portrait, monsieur. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='438' part='f'>Il est quelques maîtresses </l>
+	<l id='439'>Par qui l'original est un peu mieux reçu. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='440'>Nérine, quel amour mon coeur avait conçu ! </l>
+<stage>À Pasquin.</stage>
+	<l id='441'>Prends ma bourse. Dis-moi pour qui je suis trahie, </l>
+	<l id='442'>À quel heureux objet Damis me sacrifie. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='443'>A cinq ou six beautés dont il se dit l'amant, </l>
+	<l id='444'>Qu'il sert toutes bien mal, qu'il trompe également ; </l>
+	<l id='445'>Mais surtout à la jeune, à la belle Julie. </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS, s'étant avancé vers Pasquin.</speaker>
+	<l id='446'>Prends ma bague, et dis-moi, mais sans friponnerie, </l>
+	<l id='447'>À quel impertinent, à quel fat de la cour, </l>
+	<l id='448'>Ta maîtresse aujourd'hui prodigue son amour. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='449'>Vous méritez, ma foi, d'avoir la préférence ; </l>
+	<l id='450'>Mais un certain abbé lorgne de près Hortense ; </l>
+	<l id='451'>Et chez elle, de nuit, par le mur du jardin, </l>
+	<l id='452'>Je fais entrer parfois Trasimon son cousin. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='453'>Parbleu, j'en suis ravi. J'en apprends là de belles, </l>
+	<l id='454'>Et je veux en chansons mettre un peu ces nouvelles. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='455'>C'est le comble, Nérine, au malheur de mes feux, </l>
+	<l id='456'>De voir que tout ceci va faire un bruit affreux. </l>
+	<l id='457'>Allons, loin de l'ingrat je vais cacher mes larmes. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='458'>Allons, je vais au bal montrer un peu mes charmes. </l>
+</sp>
+
+<sp who='PASQUIN'><speaker>PASQUIN, à Hortense.</speaker>
+	<l id='459'>Vous n'avez rien, madame, à désirer de moi ? </l>
+<stage>À Damis.</stage>
+	<l id='460'>Vous n'avez nul besoin de mon petit emploi ? </l>
+	<l id='461' part='i'>Le ciel vous tienne en paix. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='13'><head>SCÈNE XIII. Hortense, Damis, Nérine.</head>
+<sp who='HORTENSE'><speaker>HORTENSE, revenant.</speaker>
+	<l id='461' part='f'>D'où vient que je demeure ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='462'>Je devrais être au bal, et danser à cette heure. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='463'>Il rêve. Hélas ! d'Hortense il n'est point occupé. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='464'>Elle me lorgne encore, ou je suis fort trompé. </l>
+	<l id='465' part='i'>Il faut que je m'approche. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='465' part='f'>Il faut que je le fuie. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='466'>Fuir, et me regarder ! ah ! quelle perfidie ! </l>
+	<l id='467'>Arrêtez. A ce point pouvez-vous me trahir ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='468'>Laissez-moi m'efforcer, cruel, à vous haïr. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='469'>Ah ! l'effort n'est pas grand, grâces à vos caprices. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='470'>Je le veux, je le dois, grâce à vos injustices. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='471'>Ainsi, du rendez-vous prompts à nous en aller, </l>
+	<l id='472'>Nous n'étions donc venus que pour nous quereller ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='473'>Que ce discours, ô ciel ! est plein de perfidie, </l>
+	<l id='474'>Alors que l'on m'outrage ; et qu'on aime Julie ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='475'>Mais l'indigne billet que de vous j'ai reçu ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='476'>Mais mon portrait enfin que vous m'avez rendu ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='477'>Moi, je vous ai rendu votre portrait, cruelle ? </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='478'>Moi ! j'aurais pu jamais vous écrire, infidèle, </l>
+	<l id='479'>Un billet, un seul mot, qui ne fût point d'amour ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='480'>Je consens de quitter le roi, toute la cour, </l>
+	<l id='481'>La faveur où je suis, les postes que j'espère, </l>
+	<l id='482'>N'être jamais de rien, cesser partout de plaire, </l>
+	<l id='483'>S'il est vrai qu'aujourd'hui je vous ai renvoyé </l>
+	<l id='484'>Ce portrait à mes mains par l'amour confié. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='485'>Je fais plus. Je consens de n'être point aimée </l>
+	<l id='486'>De l'amant dont mon âme est malgré moi charmée, </l>
+	<l id='487'>S'il a reçu de moi ce billet prétendu. </l>
+	<l id='488'>Mais voilà le portrait, ingrat, qui m'est rendu ; </l>
+	<l id='489'>Ce prix trop méprisé d'une amitié trop tendre, </l>
+	<l id='490' part='i'>Le voilà : pouvez-vous... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='490' part='f'>Ah ! J'aperçois Clitandre. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='14'><head>SCÈNE XIV. Hortense, Damis, Clitandre, Nérine, Pasquin.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='491'>Viens çà, marquis, viens çà. Pourquoi fuis-tu d'ici ? </l>
+	<l id='492'>Madame, il peut d'un mot débrouiller tout ceci. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='493' part='i'>Quoi ! Clitandre saurait... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='493' part='f'>Ne craignez rien, madame ; </l>
+	<l id='494'>C'est un ami prudent à qui j'ouvre mon âme : </l>
+	<l id='495'>Il est mon confident, qu'il soit le vôtre aussi. </l>
+	<l id='496' part='i'>Il faut... </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='496' part='f'>Sortons, Nérine : ô ciel ! quel étourdi ! </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='15'><head>SCÈNE XV. Damis, Clitandre, Pasquin.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='497'>Ah ! marquis, je ressens la douleur la plus vive : </l>
+	<l id='498'>Il faut que je te parle... il faut que je la suive. </l>
+<stage>À Hortense.</stage>
+	<l id='499'>Attends-moi. Demeurez. Ah ! Je suivrai vos pas. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='16'><head>SCÈNE XVI. Clitandre, Pasquin.</head>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='500'>Je suis, je l'avouerai, dans un grand embarras. </l>
+	<l id='501'>Je les croyais tous deux brouillés sur ta parole. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='502'>Je le croyais aussi. J'ai bien joué mon rôle ; </l>
+	<l id='503'>Ils se devraient haïr tous deux assurément : </l>
+	<l id='504'>Mais pour se pardonner il ne faut qu'un moment. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='505'>Voyons un peu tous deux le chemin qu'ils vont prendre. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='506'>Vers son appartement Hortense va se rendre. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='507'>Damis marche après elle ; Hortense au moins le fuit. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='508'>Elle fuit faiblement, et son amant la suit. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='509'>Damis en vain lui parle ; on détourne la tête. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='510'>Il est vrai ; mais Damis de temps en temps l'arrête. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='511'>Il se met à genoux ; il reçoit des mépris. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='512'>Ah ! vous êtes perdu, l'on regarde Damis. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='513'>Hortense entre chez elle enfin, et le renvoie. </l>
+	<l id='514'>Je sens des mouvements de chagrin et de joie, </l>
+	<l id='515'>D'espérance et de crainte, et ne puis deviner </l>
+	<l id='516'>Où cette intrigue-ci pourra se terminer. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='17'><head>SCÈNE XVII. Clitandre, Damis, Pasquin.</head>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='517'>Ah ! marquis, cher marquis, parle ; d'où vient qu'Hortense </l>
+	<l id='518'>M'ordonne en grand secret d'éviter sa présence ? </l>
+	<l id='519'>D'où vient que son portrait, que je fie à ta foi, </l>
+	<l id='520'>Se trouve entre ses mains ? Parle, réponds, dis-moi. </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='521' part='i'>Vous m'embarrassez fort. </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS, à Pasquin.</speaker>
+
+	<l id='521' part='f'>Et vous, monsieur le traître, </l>
+	<l id='522'>Vous, le valet d'Hortense, ou qui prétendez l'être, </l>
+	<l id='523'>Il faut que vous mouriez en ce lieu de ma main. </l>
+</sp>
+
+<sp who='PASQUIN'><speaker>PASQUIN, à Clitandre.</speaker>
+
+	<l id='524' part='i'>Monsieur, protégez-nous. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE, à Damis.</speaker>
+
+	<l id='524' part='m'>Eh ! monsieur... </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='524' part='f'>C'est en vain... </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='525'>Épargnez ce valet, c'est moi qui vous en prie. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='526'>Quel intérêt si grand peux-tu prendre à sa vie ? </l>
+</sp>
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='527'>Je vous en prie encore, et sérieusement. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='528'>Par amitié pour toi je diffère un moment. </l>
+	<l id='529'>Çà, maraud, apprends-moi la noirceur effroyable... </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='530'>Ah ! monsieur, cette affaire est embrouillée en diable ; </l>
+	<l id='531'>Mais je vous apprendrai de surprenants secrets, </l>
+	<l id='532'>Si vous me promettez de n'en parler jamais. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='533'>Non, je ne promets rien, et je veux tout apprendre. </l>
+</sp>
+<sp who='PASQUIN'><speaker>PASQUIN.</speaker>
+	<l id='534'>Monsieur, Hortense arrive, et pourrait nous entendre. </l>
+<stage>À Clitandre.</stage>
+	<l id='535'>Ah ! monsieur, que dirai-je ? Hélas ! je suis à bout. </l>
+	<l id='536'>Allons tous trois au bal, et je vous dirai tout. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='18'><head>SCÈNE XVIII. Hortense, un masque à la main et en domino ; Trasimon, Nérine.</head>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='537'>Oui, croyez, ma cousine, et faites votre compte </l>
+	<l id='538'>Que ce jeune éventé nous couvrira de honte. </l>
+	<l id='539'>Comment ! montrer partout et lettres et portrait ! </l>
+	<l id='540'>En public ! À moi-même ! Après un pareil trait, </l>
+	<l id='541'>Je prétends de ma main lui brûler la cervelle. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à Nérine.</speaker>
+
+	<l id='542'>Est-il vrai que Julie à ses yeux soit si belle </l>
+	<l id='543' part='i'>Qu'il en soit amoureux ? </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='543' part='f'>Il importe fort peu </l>
+	<l id='544'>Mais qu'il vous déshonore, il m'importe, morbleu ! </l>
+	<l id='545'>Et je sais l'intérêt qu'un parent doit y prendre. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à Nérine.</speaker>
+
+	<l id='546'>Crois-tu que pour Julie il ait eu le coeur tendre ? </l>
+	<l id='547' part='i'>Qu'en penses-tu ? dis-moi. </l>
+</sp>
+<sp who='NÉRINE'><speaker>NÉRINE.</speaker>
+	<l id='547' part='f'>Mais l'on peut aujourd'hui </l>
+	<l id='548'>Aisément, si l'on veut, savoir cela de lui. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='549'>Son indiscrétion, Nérine, fut extrême : </l>
+	<l id='550'>Je devrais le haïr ; peut-être que je l'aime. </l>
+	<l id='551'>Tout à l'heure, en pleurant, il jurait devant toi </l>
+	<l id='552'>Qu'il m'aimerait toujours, et sans parler de moi ; </l>
+	<l id='553'>Qu'il voulait m'adorer, et qu'il saurait se taire. </l>
+</sp>
+<sp who='TRASIMON'><speaker>TRASIMON.</speaker>
+	<l id='554'>Il vous a promis là bien plus qu'il ne peut faire. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='555'>Pour la dernière fois je le veux éprouver. </l>
+	<l id='556'>Nérine, il est au bal ; il faut l'aller trouver. </l>
+	<l id='557'>Déguise-toi ; dis-lui qu'avec impatience </l>
+	<l id='558'>Julie ici l'attend dans l'ombre et le silence. </l>
+	<l id='559'>L'artifice est permis sous ce masque trompeur, </l>
+	<l id='560'>Qui du moins de mon front cachera la rougeur : </l>
+	<l id='561'>Je paraîtrai Julie aux yeux de l'infidèle ; </l>
+	<l id='562'>Je saurai ce qu'il pense et de moi-même et d'elle : </l>
+	<l id='563'>C'est de cet entretien que dépendra mon choix. </l>
+<stage>À Trasimon.</stage>
+	<l id='564'>Ne vous écartez point, restez près de ce bois ; </l>
+	<l id='565'>Tâchez auprès de vous de retenir Clitandre : </l>
+	<l id='566'>L'un et l'autre en ces lieux daignez un peu m'attendre ; </l>
+	<l id='567'>Je vous appellerai quand il en sera temps. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='19'><head>SCÈNE XIX.</head>
+<sp who='HORTENSE'><speaker>HORTENSE, seule en domino, et son masque à la main.</speaker>
+	<l id='568'>Il faut fixer enfin mes voeux trop inconstants. </l>
+	<l id='569'>Sachons, sous cet habit, à ses yeux travestie, </l>
+	<l id='570'>Sous ce masque, et surtout sous le nom de Julie, </l>
+	<l id='571'>Si l'indiscrétion de ce jeune éventé </l>
+	<l id='572'>Fut un excès d'amour ou bien de vanité ; </l>
+	<l id='573'>Si je dois le haïr ou lui donner sa grâce. </l>
+	<l id='574' part='i'>Mais déjà je le vois. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='20'><head>SCÈNE XX. Hortense, en domino et masquée ; Damis.</head>
+<sp who='DAMIS'><speaker>DAMIS, sans voir Hortense.</speaker>
+	<l id='574' part='f'>C'est donc ici la place </l>
+	<l id='575'>Où toutes les beautés donnent leurs rendez-vous ? </l>
+	<l id='576'>Ma foi, je suis assez à la mode, entre nous. </l>
+	<l id='577'>Oui, la mode fait tout, décide tout en France ; </l>
+	<l id='578'>Elle règle les rangs, l'honneur, la bienséance, </l>
+	<l id='579' part='i'>Le mérite, l'esprit, les plaisirs. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à part.</speaker>
+	<l id='579' part='f'>L'étourdi ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='580'>Ah ! si pour mon bonheur on peut savoir ceci, </l>
+	<l id='581'>Je veux qu'avant deux ans la cour n'ait point de belle </l>
+	<l id='582'>A qui l'amour pour moi ne tourne la cervelle. </l>
+	<l id='583'>Il ne s'agit ici que de bien débuter. </l>
+	<l id='584'>Bientôt Eglé, Doris... Mais qui les peut compter ? </l>
+	<l id='585' part='i'>Quels plaisirs ! quelle file ! </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à part.</speaker>
+	<l id='585' part='f'>Ah ! la tête légère ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='586'>Ah ! Julie, est-ce vous ? vous qui m'êtes si chère ! </l>
+	<l id='587'>Je vous connais malgré ce masque trop jaloux, </l>
+	<l id='588'>Et mon coeur amoureux m'avertit que c'est vous. </l>
+	<l id='589'>Otez, Julie, ôtez ce masque impitoyable ; </l>
+	<l id='590'>Non, ne me cachez point ce visage adorable, </l>
+	<l id='591'>Ce front, ces doux regards, cet aimable souris, </l>
+	<l id='592'>Qui de mon tendre amour sont la cause et le prix. </l>
+	<l id='593'>Vous êtes en ces lieux la seule que j'adore. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='594'>Non, de vous mon humeur n'est pas connue encore. </l>
+	<l id='595'>Je ne voudrais jamais accepter votre foi, </l>
+	<l id='596'>Si vous aviez un coeur qui n'eût aimé que moi. </l>
+	<l id='597'>Je veux que mon amant soit bien plus à la mode, </l>
+	<l id='598'>Que de ses rendez-vous le nombre l'incommode, </l>
+	<l id='599'>Que par trente grisons tous ses pas soient comptés, </l>
+	<l id='600'>Que mon amour vainqueur l'arrache à cent beautés, </l>
+	<l id='601'>Qu'il me fasse surtout de brillants sacrifices ; </l>
+	<l id='602'>Sans cela je ne puis accepter ses services : </l>
+	<l id='603'>Un amant moins couru ne me saurait flatter. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='604'>Oh ! j'ai sur ce pied-là de quoi vous contenter : </l>
+	<l id='605'>J'ai fait en peu de temps d'assez belles conquêtes ; </l>
+	<l id='606'>Je pourrais me vanter de fortunes honnêtes ; </l>
+	<l id='607'>Et nous sommes couru de plus d'une beauté </l>
+	<l id='608'>Qui pourraient de tout autre enfler la vanité. </l>
+	<l id='609'>Nous en citerions bien qui font les difficiles, </l>
+	<l id='610'>Et qui sont avec nous passablement faciles. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='611' part='i'>Mais encore ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='611' part='f'>Eh !... ma foi, vous n'avez qu'à parler, </l>
+	<l id='612'>Et je suis prêt, Julie, à vous tout immoler. </l>
+	<l id='613'>Voulez-vous qu'à jamais mon coeur vous sacrifie </l>
+	<l id='614'>La petite Isabelle et la vive Erminie, </l>
+	<l id='615' part='i'>Clarice, Églé, Doris ?... </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='615' part='f'>Quelle offrande est-ce là ? </l>
+	<l id='616'>On m'offre tous les jours ces sacrifices-là ? </l>
+	<l id='617'>Ces dames, entre nous, sont trop souvent quittées. </l>
+	<l id='618'>Nommez-moi des beautés qui soient plus respectées, </l>
+	<l id='619'>Et dont je puisse au moins triompher sans rougir. </l>
+	<l id='620'>Ah ! si vous aviez pu forcer à vous chérir </l>
+	<l id='621'>Quelque femme à l'amour jusqu'alors insensible, </l>
+	<l id='622'>Aux manèges de cour toujours inaccessible, </l>
+	<l id='623'>De qui la bienséance accompagnât les pas, </l>
+	<l id='624'>Qui, sage en sa conduite, évitât les éclats, </l>
+	<l id='625'>Enfin qui pour vous seul eût eu quelque faiblesse... </l>
+</sp>
+
+<sp who='DAMIS'><speaker>DAMIS, s'asseyant auprès d'Hortense.</speaker>
+	<l id='626'>Écoutez. Entre nous, j'ai certaine maîtresse </l>
+	<l id='627'>À qui ce portrait-là ressemble trait pour trait : </l>
+	<l id='628'>Mais vous m'accuseriez d'être trop indiscret. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='629' part='i'>Point, point. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='629' part='f'>Si je n'avais quelque peu de prudence, </l>
+	<l id='630'>Si je voulais parler, je nommerais Hortense. </l>
+	<l id='631'>Pourquoi donc à ce nom vous éloigner de moi ? </l>
+	<l id='632'>Je n'aime point Hortense alors que je vous vois ; </l>
+	<l id='633'>Elle n'est près de vous ni touchante ni belle : </l>
+	<l id='634'>De plus, certain abbé fréquente trop chez elle ; </l>
+	<l id='635'>Et de nuit, entre nous, Trasimon son cousin </l>
+	<l id='636'>Passe un peu trop souvent par le mur du jardin. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à part.</speaker>
+	<l id='637'>A l'indiscrétion joindre la calomnie ! </l>
+<stage>Haut.</stage>
+	<l id='638'>Contraignons-nous encore. Écoutez, je vous prie ; </l>
+	<l id='639'>Comment avec Hortense êtes-vous, s'il vous plaît ? </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='640'>Du dernier bien : je dis la chose comme elle est. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à part.</speaker>
+	<l id='641'>Peut-on plus loin pousser l'audace et l'imposture ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='642'>Non, je ne vous mens point ; c'est la vérité pure. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, à part.</speaker>
+
+	<l id='643' part='i'>Le traître ! </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='643' part='f'>Eh ! sur cela quel est votre souci ? </l>
+	<l id='644'>Pour parler d'elle enfin sommes-nous donc ici ? </l>
+	<l id='645' part='i'>Daignez, daignez plutôt... </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='645' part='f'>Non, je ne saurais croire </l>
+	<l id='646'>Qu'elle vous ait cédé cette entière victoire. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='647'>Je vous dis que j'en ai la preuve par écrit. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='648' part='i'>Je n'en crois rien du tout. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='648' part='f'>Vous m'outrez de dépit. </l>
+</sp>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='649' part='i'>Je veux voir par mes yeux. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='649' part='f'>C'est trop me faire injure. </l>
+<stage>Il lui donne la lettre.</stage>
+	<l id='650'>Tenez donc : vous pouvez connaître l'écriture. </l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, se démasquant.</speaker>
+
+	<l id='651'>Oui, je la connais, traître ! et je connais ton coeur. </l>
+	<l id='652'>J'ai réparé ma faute, enfin ; et mon bonheur </l>
+	<l id='653'>M'a rendu pour jamais le portrait et la lettre </l>
+	<l id='654'>Qu'à ces indignes mains j'avais osé commettre. </l>
+	<l id='655'>Il est temps ; Trasimon, Clitandre, montrez-vous. </l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='21'><head>SCÈNE XXI. Hortense, Damis, Trasimon, Clitendre.</head>
+<sp who='HORTENSE'><speaker>HORTENSE, à Clitandre.</speaker>
+	<l id='656'>Si je ne vous suis point un objet de courroux, </l>
+	<l id='657'>Si vous m'aimez encore, à vos lois asservie, </l>
+	<l id='658'>Je vous offre ma main, ma fortune et ma vie. </l>
+</sp>
+
+<sp who='CLITANDRE'><speaker>CLITANDRE.</speaker>
+	<l id='659'>Ah ! madame, à vos pieds un malheureux amant </l>
+	<l id='660'>Devrait mourir de joie et de saisissement. </l>
+</sp>
+
+<sp who='TRASIMON'><speaker>TRASIMON, à Damis.</speaker>
+	<l id='661'>Je vous l'avais bien dit que je la rendrais sage. </l>
+	<l id='662'>C'est moi seul, Mons Damis, qui fais ce mariage. </l>
+	<l id='663'>Adieu : possédez mieux l'art de dissimuler. </l>
+</sp>
+<sp who='DAMIS'><speaker>DAMIS.</speaker>
+	<l id='664S'>Juste ciel ! Désormais à qui peut-on parler ?</l>
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

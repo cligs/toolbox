@@ -1,0 +1,2128 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SPARTACUS, TRAGÉDIE</title>
+				<author born='1706' born_location='Paris' death='1781' death_location='Paris' academie='1761'>SAURIN, Jean de</author>
+				<date>1760</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, décembre 2010</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>histoire romaine</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1751-1760</periode>
+				<taille>1250-1500</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">SPARTACUS</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1760'>1760. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id='SAURIN, Jean de' bio='saurin'>par SAURIN</docAuthor>
+		<docImprint>
+			<privilege id='16**-**-**'></privilege>
+			<acheveImprime id='16**-**-**'></acheveImprime>
+			<printer></printer>
+		</docImprint>
+		<performance>
+			<premiere date='1760' location='Théâtre de la rue des Fossés Saint-Germain'>Représentée, pour la première fois, le 20 février 1760.</premiere>
+		</performance>
+	<preface><head>NOTICE SUR SAURIN.</head>
+	<p>Bernard-Joseph SAURIN naquit à Paris au mois de mai 1706, de Joseph Saurin, géomètre distingué, et membre de l'académie des sciences. Au milieu des savants de tous genres qui entourèrent pour ainsi dire son berceau, le jeune Saurin puisa le goût de la poésie ; mais la modicité de la fortune de son père ne lui permettant pas de se livrer à son penchant, il eut le courage de le vaincre et suivit pendant quinze ans avec succès la carrière du barreau. Avant de se faire connaître pour auteur dramatique, il fit paraître, sous le voile de l'anonyme, les Trois Rivaux, comédie en cinq actes en vers, qui eut six représentations. Il avait entrepris d'y faire des corrections; mais elles ne furent point achevées. Saurin avait quarante quatre ans lorsqu'il donna Aménophis, son premier ouvrage avoué. Cette tragédie, mise au théâtre le 12 novembre 1750, n'eut point de succès. Elle fut suivie de Spartacus. Cette pièce regardée encore aujourd'hui comme la meilleure de son auteur, parut pour la première fois le 20 février 1760, et fut jouée neuf fois. Le 22 décembre de la même année, Saurin fit jouer les Moeurs du Temps, comédie en un acte en prose, qui eut beaucoup de succès.</p>
+<p>Blanche et Guiscard, imitation de Taucrède et Sigismonde, tragédie anglaise de Thompson, parut pour la première fois le 25 septembre 1763, et fut interrompue à la troisième représentation. Elle a été reprise plusieurs fois avec succès.</p>
+<p>L'Anglomane, comédie en un acte en vers libres, jouée avec succès le 23 novembre 1772, est la même pièce que l'Orpheline, léguée, représentée sept ans auparavant en trois actes, et à laquelle l'auteur jugea à propos de retrancher plusieurs scènes.</p>
+<p>Saurin a encore mis au théâtre Béverleï, drame en cinq actes et en vers libres, imité d'une pièce anglaise intitulée the Gamester, le Joueur, dont l'auteur est Edouard Moore. La pièce française parüt pour la première fois le 7 mai 1768, et fut jouée treize fois. On a encore du même auteur le Mariage de Julie, comédie en un acte en prose, qui n'a pas été représentée.</p>
+<p>Saurin avait été reçu à l'académie française le 13 avril 1761 à la place de l'abbé Duresnel, et mourut à Paris le 17 novembre 1781, âgé de soixante-seize ans.</p>
+		</preface>
+<castList>
+<head>PERSONNAGES.</head>
+	<castItem><role id="SPARTACUS" civil="M" type="H" statut='esclave' age='A' stat_amour='néant'>SPARTACUS</role></castItem>
+	<castItem><role id="CHASSUS" civil="M" type="H" statut='consul' age='A' stat_amour='néant'>CRASSUS</role>,consul.</castItem>
+	<castItem><role id="ÉMILIE" civil="F" type="H" statut='consul' age='A' stat_amour='néant'>ÉMILIE</role>, fille du consul.</castItem>
+	<castItem><role id="MESSALA" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>MESSALA</role>, envoyé du consul.</castItem>
+	<castItem><role id="NORICUS" civil="M" type="H" statut='général' age='A' stat_amour='néant'>NORICUS</role>, chef d'un corps de Gaulois.</castItem>
+	<castItem><role id="ALBIN" civil="M" type="H" statut='officier' age='A' stat_amour='néant'>ALBIN</role>, officier de Spartacus.</castItem>
+	<castItem><role id="SUNNON" civil="M" type="H" statut='confident' age='A' stat_amour='néant'>SUNNON</role>, confident de Noricus.</castItem>
+	<castItem><role id="SABINE" civil="M" type="H" statut='confident' age='A' stat_amour='néant'>SABINE</role>, confidente d'Émilie.</castItem>
+	<castItem><role id="UN TRIBUN de SPARTACUS" civil="M" type="H" statut='tribu' age='A' stat_amour='néant'>UN TRIBUN de SPARTACUS</role>.</castItem>
+	<castItem><role id="UN TRIBUN de CRASSUS" civil="M" type="H" statut='tribun' age='A' stat_amour='néant'>UN TRIBUN de CRASSUS</role>.</castItem>
+	<castItem><role id="GARDES" civil="G" type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
+</castList>
+<set location='Tarente' country='Italie' periode='Ier avant JC' link=''>La Scène est dans le camp de Spartacus.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Noricus, Sunnon.</head>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+ <l id='1'>Oui, Sunnon, en secret, démentant sa fierté,</l>
+<note type="L">Insubriens : ou insubres, peuple celte de l'Italie du nord. Ils devinrent citoyens romans en 49 avant JC.</note>
+ <l id='2'>Rome aux Insubriens offre la liberté :</l>
+ <l id='3'>Mais, quoiqu'à Spartacus à regret j'obéisse,</l>
+ <l id='4'>Ne crois pas qu'un moment cette offre m'éblouisse ; </l>
+ <l id='5'>Je le hais, mais je hais encor plus les Romains :</l>
+ <l id='6'>D'un sang, pour moi trop cher ils ont souillé leurs mains.</l>
+ <l id='7'>Les cruels sur un fils, mon unique espérance, </l>
+ <l id='8'>N'ont pas rougi de prendre une lâche vengeance !</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+ <l id='9'>Je plains ce fils si cher que vous avez perdu ;</l>
+ <l id='10'>Mais, pour être vengé, vous sera-t-il rendu ?</l>
+ <l id='11'>Chef d'un corps de Gaulois, prince de l'Insubrie,</l>
+ <l id='12'>Leur liberté, Seigneur, celle de la patrie,</l>
+ <l id='13'>Est-il pour Noricus un intérêt égal ?</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+ <l id='14'>Tu vois que des Romains aussi craint qu'Annibal,</l>
+ <l id='15'>Spartacus s'est couvert d'une immortelle gloire ;</l>
+ <l id='16'>Que, cinq fois couronné des mains de la victoire,</l>
+ <l id='17'>Son bras des légions a moissonné la fleur,</l>
+ <l id='18'>Et que, rien n'arrêtant sa rapide valeur,</l>
+ <l id='19'>Il promet que bientôt, au pied du Capitole,</l>
+ <l id='20' part='i'>Nos drapeaux arborés...</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON, l'interrompant.</speaker>
+ <l id='20' part='f'>Espérance frivole !</l>
+ <l id='21'>Rome, dont le colosse embrasse l'univers,</l>
+ <l id='22'>Écrasera l'esclave échappé de ses fers.</l>
+ <l id='23'>Quelque gloire d'abord que le sort lui destine,</l>
+ <l id='24'>De succès en succès il marche à sa ruine ;</l>
+ <l id='25'>La victoire l'épuise en le favorisant.</l>
+ <l id='26'>Oui, sans se réparer, toujours s'affaiblissant,</l>
+ <l id='27'>Ses lauriers, sous lesquels il faudra qu'il succombe,</l>
+ <l id='28'>Sont un vain ornement qu'il prépare à sa tombe.</l>
+ <l id='29'>Ah ! Pour s'unir à vous par un secret traité,</l>
+ <l id='30'>Lorsque Rome à vos voeux offre la liberté,</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, l'interrompant.</speaker>
+ <l id='31'>Spartacus a ma foi, mon honneur est son gage.</l>
+ <l id='32'>Il faut tout bien peser au moment qu'on s'engage :</l>
+ <l id='33'>Mais lorsqu'en un parti, Sunnon, l'on s'est jeté,</l>
+ <l id='34'>Regarder en arrière est une lâcheté :</l>
+ <l id='35'>On ne peut plus, dès lors l'abandonner sans blâme ;</l>
+ <l id='36'>Qui le quitte est léger, qui le trahit infâme.</l>
+ <l id='37'>Du pouvoir des Romains tu parois effrayé ?</l>
+ <l id='38'>De cent peuples rivaux ce colosse étayé,</l>
+ <l id='39'>S'il n'a plus leur appui, si leur bras nous seconde,</l>
+ <l id='40'>Va bientôt de sa chute épouvanter le monde.</l>
+ <l id='41'>Déjà, dans notre camp, et sous nos étendards,</l>
+ <l id='42'>Aux cris de la victoire on voit de toutes parts</l>
+<note type="L">Samnite : originaire du Samnium qui est une région de l'Italie ancienne, au nord de la Campanie, à l'Est du Latium. [B]</note>
+	<l id='43'>Accourir le Gaulois, le Toscan, le Samnite,</l>
+	<l id='44'>De leur jeunesse enfin toute la brave élite.</l>
+	<l id='45'>Ah ! Réunissons-nous, et le joug est brisé.</l>
+	<l id='46'>Pour tout assujettir Rome a tout divisé ;</l>
+	<l id='47'>De son ambition instruments et victimes,</l>
+	<l id='48'>Notre fureur jalouse a creusé nos abîmes ;</l>
+	<l id='49'>Mais, grâce à Spartacus, nos yeux se sont ouverts,</l>
+	<l id='50'>Et lorsque l'Italie, en secouant ses fers,</l>
+	<l id='51'>Lève un front menaçant, et que sous ce grand homme :</l>
+	<l id='52'>Nos drapeaux réunis déjà marchent à Rome,</l>
+	<l id='53'>Tu veux que rendant vains tant de nobles travaux,</l>
+	<l id='54'>Aux bourreaux de mon fils je vende ce héros !</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='55'>Non ; mais avec chagrin je vois votre fortune</l>
+	<l id='56'>Suivre le sort douteux de la cause commune,</l>
+	<l id='57' part='i'>Et que pour un esclave, un rebelle...</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, l'interrompant.</speaker>
+	<l id='57' part='f'>Laissons</l>
+	<l id='58'>La haine des Romains lui prodiguer ces noms.</l>
+	<l id='59'>De quel droit, à quel titre ont-ils été ses maîtres ?</l>
+	<l id='60'>Fils d'un chef de Germains, né d'illustres ancêtres,</l>
+	<l id='61'>Et parmi ses aïeux comptant même des rois,</l>
+	<l id='62'>Aux Suèves, un jour, il eût donné des lois.</l>
+	<l id='63'>Les Romains, en brigands, fondent sur sa patrie ;</l>
+<note type="L">Arioviste : chef germain (Suève) qui combattit victorieusement les gaulois en Alsace et en Franche-Comté puis fut vaincu par Jules César en 58 avant JC et retourna en Germanie. (Voir Guerre des Gaules)</note>
+	<l id='64'>Son père Arioviste est privé de la vie ; </l>
+ <l id='65'>On enlève la mère et le fils au berceau ;</l>
+	<l id='66'>Ermengarde eût suivi son époux au tombeau :</l>
+	<l id='67'>Femme par la tendresse, héros par le courage,</l>
+	<l id='68'>Elle vit pour son fils, triste et précieux gage,</l>
+	<l id='69'>Qui, nourri par sa mère, élevé sur son sein,</l>
+	<l id='70'>Y suce avec le lait l'horreur du nom romain.</l>
+	<l id='71'>Il croît, et de son front l'auguste caractère,</l>
+	<l id='72'>Démentant de son sort la bassesse étrangère,</l>
+	<l id='73'>Le distingua bientôt du reste des mortels.</l>
+	<l id='74'>Tu connais des Romains les passe-temps cruels ;</l>
+	<l id='75'>Ce spectacle de sang et ces combats atroces,</l>
+	<l id='76'>Où ce peuple vanté repaît ses yeux féroces,</l>
+	<l id='77'>Excite de la voix le triste combattant,</l>
+	<l id='78'>Le regarde tomber, l'observe palpitant.</l>
+	<l id='79'>Veut qu'à lui plaire encore il mette son étude,</l>
+	<l id='80'>Et garde en expirant une noble attitude :</l>
+	<l id='81'>À ces honteux combats Spartacus destiné,</l>
+	<l id='82'>Rappelle en rougissant le sang dont il est né ;</l>
+	<l id='83'>Et de ses compagnons élevant le courage,</l>
+	<l id='84'>Les excite à verser pour un plus noble usage</l>
+	<l id='85'>Ce sang qu'ils prodiguaient dans un vil champ d'honneur.</l>
+	<l id='86'>Ils le prennent pour chef ; ses succès, sa valeur,</l>
+	<l id='87'>La haine des Romains en tous les lieux semée,</l>
+	<l id='88'>Bientôt à Spartacus enfantent une armée :</l>
+	<l id='89'>Il la forme, et toujours combattant à propos,</l>
+	<l id='90'>Les esclaves sous lui deviennent des héros.</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='91'>Mais a-t-il bien pour but la liberté publique ?</l>
+	<l id='92'>La vertu n'est souvent qu'un masque politique ;</l>
+	<l id='93'>Souvent d'un beau dehors l'ambitieux paré</l>
+	<l id='94'>Cache l'ardent désir dont il est dévoré.</l>
+	<l id='95'>Il protégeait le faible, il a vengé le crime ;</l>
+	<l id='96'>Biais à peine il peut tout, que lui-même il opprime.</l>
+	<l id='97'>De Spartacus, seigneur, j'ignore les desseins :</l>
+	<l id='98'>( Eh ! qui peut pénétrer dans le coeur des humains ?)</l>
+	<l id='99'>Mais cette liberté qu'il veut rendre à la terre,</l>
+	<l id='100'>( Que ce soit le prétexte ou l'objet de la guerre)</l>
+	<l id='101' part='i'>Rome vous l'offre sûre.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='101' part='f'>Au prix de mon honneur :</l>
+	<l id='102'>D'ailleurs, que m'offre-t-elle ? Un appât suborneur.</l>
+	<l id='103'>Oui, tant que son pouvoir n'aura point d'équilibre,</l>
+	<l id='104'>Par elle un peuple en vain serait déclaré libre.</l>
+	<l id='105'>Ainsi, pour s'acquérir un utile renom,</l>
+	<l id='106'>Rome aux Grecs assemblés fît présent d'un vain nom.</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='107'>Spartacus cependant ici commande en maître,</l>
+	<l id='108'>Et cette liberté qui par lui doit renaître,</l>
+	<l id='109'>Jusqu'ici dans ses mains a mis tout le pouvoir.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='110'>Ah ! De le partager j'avais conçu l'espoir</l>
+	<l id='111'>Je vois en frémissant que lui seul en dispose,</l>
+	<l id='112'>Et toutefois, Sunnon, sa grande âme m'impose.</l>
+	<l id='113'>On dirait qu'il est né pour n'avoir  point d'égal.</l>
+	<l id='114'>Par. notre libre choix reconnu général, </l>
+	<l id='115'>Il semble avoir sur tous un naturel empire.</l>
+	<l id='116'>Mon coeur, plein de dépit, le respecte et l'admire :</l>
+	<l id='117'>Je te confesse encor, mais non pas sans rougir,,</l>
+	<l id='118'>Que ce dépit jaloux qui me le fait haïr,</l>
+	<l id='119'>En secret dans mon coeur combat avec puissance</l>
+	<l id='120'>Mes nobles sentiments et même les balance,</l>
+	<l id='121'>Qu'enfin... Mais les Romains me sont trop en horreur :</l>
+	<l id='122'>C'est ma haine pour eux, c'est ma juste fureur</l>
+	<l id='123'>Qui contre Spartacus aigrit mon coeur encore :</l>
+	<l id='124'>Il sait de me venger que la soif me dévore ;</l>
+	<l id='125'>Qu'au tombeau de mon fils ma douleur a juré</l>
+	<l id='126'>Une guerre implacable à ce peuple abhorré ;</l>
+	<l id='127'>Et loin d'être comme eux inflexible et barbare,</l>
+	<l id='128'>Du sang de ces cruels Spartacus est avare :</l>
+	<l id='129'>Il n'a pour les vaincus que de l'humanité.</l>
+	<l id='130'>Tu l'as vu, de Tarente épargnant la cité,</l>
+	<l id='131'>Arrêter du soldat les fureurs légitimes, </l>
+	<l id='132'>Et de nos bras sanglants arracher nos victimes.</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='133'>On dit qu'en cette ville une jeune beauté</l>
+	<l id='134'>En secret dans ses fers le tenait arrêté.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='135'>Quelle honte pour lui ! C'était une Romaine !</l>
+	<l id='136'>Un plus noble intérêt cause aujourd'hui sa peine ;</l>
+	<l id='137'>Il tremble pour l'objet respectable et chéri,</l>
+	<l id='138'>Dont le sein le forma, dont le lait l'a nourri.</l>
+	<l id='139'>Les Romains en secret ont ménagé des traîtres ;</l>
+	<l id='140'>D'Ermengarde par eux ils se sont rendus maîtres.</l>
+	<l id='141'>Hier en diligence il fit partir Albin,</l>
+	<l id='142'>Chargé de leur offrir un immense butin,</l>
+	<l id='143'>Avec tous les captifs qu'ont faits sur eux nos armes.</l>
+	<l id='144'>Mais il n'en a pas moins les plus vives alarmes ;</l>
+	<l id='145'>Il connaît les Romains, il sait... Mais le voici,</l>
+	<l id='146'>Du plus sombre chagrin son front est obscurci.</l>
+<stage>Sunnon sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Spartacus, Noricus.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='147'>Albin ne revient point... Affreuse incertitude !</l>
+	<l id='148'>Je succombe au tourment de mon inquiétude ;</l>
+	<l id='149'>Je n'y puis résister, et tremble d'en sortir.</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='150'>À vos offres, Seigneur, Rome doit consentir.</l>
+	<l id='151'>L'avantage est immense et vaut une victoire.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='152'>Non ; le ciel a marqué ce terme à notre gloire :</l>
+	<l id='153'>Rome le sait trop bien, une mère est d'un prix.</l>
+	<l id='154'>À qui tout intérêt doit céder dans un fils.</l>
+	<l id='155'>Eh ! Quelle mère, hélas ! Avec quelle constance ;</l>
+	<l id='156'>Avec quelle tendresse, élevant mon enfance,</l>
+	<l id='157'>Elle sut m'inspirer, par des soins assidus,</l>
+	<l id='158'>La haine des tyrans et l'amour des vertus !</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='159'>Si Spartacus pour Rome eût été plus sévère,</l>
+	<l id='160'>Elle respecterait aujourd'hui votre mère.</l>
+	<l id='161'>La guerre est une loi de sang et de rigueur :</l>
+	<l id='162'>Il fallait à la rage opposer la terreur,</l>
+	<l id='163'>Et rendre sans pitié victime pour victime.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='164'>Mon bras, qui sait combattre et que l'honneur anime,</l>
+	<l id='165'>Ne sait point égorger des vaincus de sang-froid.</l>
+	<l id='166'>Si la guerre autorise un si terrible droit,</l>
+	<l id='167'>Contre lui dans mon coeur l'humanité réclame.</l>
+<stage>À part.</stage>
+	<l id='168'>J'en respecte la voix... Dieux ! Proscrivez la trame</l>
+	<l id='169'>Du féroce mortel, de l'indigne guerrier</l>
+	<l id='170'>Qui souille la victoire et flétrit son laurier !...</l>
+<stage>À Noricus.</stage>
+	<l id='171'>Faut-il donc aggraver les malheurs de la terre ?</l>
+	<l id='172'>Eh ! N'est-ce pas un mal assez grand que la guerre ?</l>
+	<l id='173'>Vous m'accusez, ami, d'en adoucir les lois ;</l>
+	<l id='174'>Et peut-être trop loin j'en ai poussé les droits.</l>
+	<l id='175'>Qui, par nous, sans pitié, Tarente saccagée...</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, l'interrompant.</speaker>
+	<l id='176'>Tarente au sang des siens fut malgré vous plongée.</l>
+	<l id='177'>Irrité d'un assaut sans espoir soutenu,</l>
+	<l id='178'>Le soldat en fureur n'était plus retenu :</l>
+	<l id='179'>Elle poussa trop loin sa résistance vaine.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='180'>Nous fûmes inhumains, et j'en porte la peine....</l>
+	<l id='181'>Dans cette ville, en proie à toutes nos fureurs,</l>
+	<l id='182'>Dans le sein du tumulte, au milieu des horreurs,</l>
+	<l id='183'>Une jeune Romaine... Ô ciel ! Quelle faiblesse !</l>
+	<l id='184' part='i'>Spartacus ! Un soldat !</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='184' part='f'>Quel souvenir vous presse ?</l>
+	<l id='185'>De cet objet fatal à jamais séparé...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='186'>Il n'est que trop présent à mon coeur égaré !</l>
+	<l id='187'>J'en rougis ; mais tremblant sur le sort de ma mère,</l>
+	<l id='188'>Je ne puis écarter une image trop chère :</l>
+	<l id='189'>Jusque dans les combats l'amour me vient chercher ;</l>
+	<l id='190'>Il pèse sur le trait que je veux arracher.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+<note type="L">Capoue : ville d'Italie entre Rome et Naples. Hannibal et ses troupes, après la bataille de Trasimène en -217 s'y installèrent  longuement. Capoue est synomyme de villégiature de plaisirs d'où l'expression "Délices de Capoue".</note>
+	<l id='191'>Ainsi pour vous Tarente est une autre Capoue ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='192'>Non ; n'appréhendez pas que ma fortune échoue</l>
+<note type="L">Annibal [-247,-183] : ou Hannibal, général Carthaginois, héros de guerres puniques. Il est vaincu à Zama par Scipion l'Africain en -202 puis meurt en exil.</note>
+	<l id='193'>À ce honteux écueil des succès d'Annibal :</l>
+	<l id='194'>Non, je triompherai de cet amour fatal.</l>
+	<l id='195'>Les grands coeurs ne sont faits que pour aimer la gloire.</l>
+	<l id='196'>Qu'un vil mortel renonce à vivre en la mémoire, </l>
+	<l id='197'>Pour ramper ici-bas quelques instants de plus ;</l>
+	<l id='198'>Que, mourant consumé de regrets superflus,</l>
+	<l id='199'>Jusqu'au bout inutile au monde, à sa patrie,</l>
+	<l id='200'>Il perde également et sa mort et sa vie :</l>
+	<l id='201'>Si la vie, en effet, n'est qu'un rapide instant,</l>
+	<l id='202'>Employons-la du moins à le rendre éclatant ;</l>
+	<l id='203'>Faisons-en une époque utile et mémorable ;</l>
+	<l id='204'>Laissons à l'univers un monument durable,</l>
+	<l id='205'>Que la vertu consacre aux siècles à venir.</l>
+	<l id='206'>La gloire des Romains fut de tout envahir :</l>
+	<l id='207'>Sur un titre plus beau que la nôtre se fonde ;</l>
+	<l id='208'>Soyons les bienfaiteurs, non les tyrans, du monde</l>
+	<l id='209'>Voilà l'ambition, voilà le grand dessein</l>
+	<l id='210'>Que ma mère conçut, qu'elle mit dans mon sein.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='211'>Vous allez des Romains entendre la réponse,</l>
+	<l id='212' part='i'>Votre envoyé paraît.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Albin, tenant un poignard, Spartacus, Noricus.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='212' part='f'>Je frémis... Que m'annonce</l>
+	<l id='213' part='i'>Sa douleur... ce poignard ?</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='213' part='f'>Je tremble de parler...</l>
+	<l id='214'>Ah ! De quel coup, seigneur, je vais vous accabler !</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='215' part='i'>Ma mère ?...</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='215' part='m'>Elle n'est plus.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, après un silence.</speaker>
+	<l id='215' part='f'>Ils ont tranché sa vie,</l>
+	<l id='216' part='i'>Ces monstres !...</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='216' part='f'>Connaissez toute leur barbarie.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='217' part='i'>Eh bien ?</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='217' part='f'>À mes discours, à vos offres, seigneur,</l>
+	<l id='218'>D'un refus outrageant opposant la hauteur</l>
+	<l id='219'>Ils ont à votre mère annoncé le supplice,</l>
+	<l id='220'>Si, pour elle et pour vous, fléchissant leur justice,</l>
+	<l id='221'>Elle ne se hâtait de désarmer vos mains.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='222'>Et voilà ce que sont aujourd'hui les Romains !</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='223'>On presse votre mère ; elle, sans se confondre :</l>
+	<l id='224'>« Je ne tarderai pas, dit-elle, à vous répondre. »</l>
+	<l id='225'>À ces mots, d'un poignard, que recelait son sein...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='226' part='i'>Dieux !</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='226' part='f'>Elle s'en saisit... On accourt, mais en vain .</l>
+	<l id='227'>Sa main? tout à la fois généreuse et cruelle,</l>
+	<l id='228'>Le plonge dans son flanc : « Je suis libre, dit-elle,</l>
+	<l id='229'>Tyrans ! Qui sait mourir, brave votre pouvoir...</l>
+	<l id='230'>Dis à mon fils, Albin, ce que tu viens de voir.</l>
+	<l id='231'>Porte-lui ce poignard ; et, si je lui fus chère,</l>
+	<l id='232'>Que l'univers soit libre, et qu'il venge sa mère. »</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='233'>Oui, je la vengerai !... Vous périrez, tyrans !...</l>
+<stage>Prenant le poignard des mains d'Albin.</stage>
+	<l id='234'>J'en jure sur ce fer.... Mânes chers et sanglants !...</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Sunnon, un Tribun, Spartacus, Noricus. Albin.</head>
+<sp who='LE-TRIBUN'><speaker>LE TRIBUN, à Spartacus.</speaker>
+	<l id='235'>Le fille du consul est en votre puissance,</l>
+	<l id='236' part='i'>Seigneur.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='236' part='f'>Que dites-vous ?... Ô justice ! Ô vengeance !</l>
+	<l id='237'>Il l'envoyait à Rome : elle était sur un char,</l>
+	<l id='238'>Que de deux légions entourait le rempart.</l>
+	<l id='239'>Soudain nous paraissons, et, d'un cri de menace,</l>
+	<l id='240'>Défiant les Romains, qui se serrent, font face,</l>
+	<l id='241'>De toutes parts, on perce, on enfonce leurs rangs :</l>
+	<l id='242'>Bientôt au pied du char tous les chefs expirants</l>
+	<l id='243'>Ont laissé dans nos mains une si belle proie.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, à Spartacus.</speaker>
+	<l id='244'>Ah ! C'est le ciel vengeur, Seigneur, qui nous l'envoie.</l>
+	<l id='245'>Votre mère et mon fils vous demandent son sang,</l>
+	<l id='246'>Et, sans respect pour l'âge, ou le sexe, ou le rang,</l>
+	<l id='247' part='i'>Il faut....</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='247' part='m'>Oui, je le veux, oui... </l>
+<stage>À part.</stage>
+	<l id='247' part='f'>La douleur m'égare.... </l>
+	<l id='248'>Les Romains m'ont appris à devenir barbare.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='249' part='i'>Ah ! Songez...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant. </speaker>
+	<l id='249' part='f'>Il suffit : qu'on me laisse. Mon coeur</l>
+	<l id='250'>Ne peut dans ce moment que sentir sa douleur.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Émilie, Sabine.</head>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='251'>Eh ! Qui ne frémirait du sort qu'on nous prépare,</l>
+	<l id='252'>Madame ? Spartacus fut toujours un barbare,</l>
+	<l id='253'>Et le sang de sa mère irritant sa fureur....</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='254'>Ah ! Que dis-tu, Sabine ? Et quelle est ton erreur !</l>
+<stage>À part.</stage>
+	<l id='255'>Spartacus un barbare !... Aveugles que nous sommes !</l>
+	<l id='256'>Notre haine souvent juge ainsi les grands hommes ;</l>
+	<l id='257'>De nos propres couleurs nous chargeons leurs portraits,</l>
+	<l id='258'>Et les défigurons en leur prêtant nos traits.</l>
+	<l id='259'>Ah ! Que, pour le repos de la triste Émilie,</l>
+	<l id='260'>N'est-il tel, en effet, que Rome le publie !</l>
+	<l id='261'>Ah ! De l'humanité méconnaissant les droits,</l>
+	<l id='262'>Et, pour toutes vertus, n'offrant que des exploits,</l>
+	<l id='263'>Que ne ressemble-t-il aux héros du vulgaire,</l>
+	<l id='264'>Qu'on admire et qu'on craint, qu'on hait et qu'on révère !</l>
+	<l id='265'>Il eût pu, d'Alexandre émule fortuné,</l>
+	<l id='266'>Remplissant l'univers, et s'y trouvant borné,</l>
+	<l id='267'>Sous son bras triomphant voir la terre asservie,</l>
+	<l id='268'>Tout conquérir enfin.... hors le coeur d'Émilie.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='269' part='i'>Votre coeur !... Quoi ? Madame, il se pourrait...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='269' part='f'>Apprends</l>
+	<l id='270'>Un secret à ta foi dérobé trop longtemps ;</l>
+	<l id='271'>J'aurais voulu pouvoir le cacher à moi-même.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='272'>Le puis-je croire ?... Ô ciel ! Ma surprise est extrême !</l>
+	<l id='273' part='i'>Spartacus ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='273' part='f'>Apprends donc à le connaître mieux.</l>
+	<l id='274'>Sache que des mortels le plus semblable aux dieux,</l>
+	<l id='275'>C'est celui dont pour nous tu crains la barbarie ;</l>
+	<l id='276'>Sache qu'il a sauvé mon honneur et ma vie.</l>
+	<l id='277'>Te dirai-je encor plus ? Sans savoir qui je suis,</l>
+	<l id='278' part='i'>Il m'aime.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='278' part='f'>Eh ! Voilà donc d'où naissaient vos ennuis ?</l>
+	<l id='279'>Rien ne semblait troubler une si belle vie.</l>
+	<l id='280'>Votre mère à Crassus secrètement unie,</l>
+	<l id='281'>Venait de voir enfin cet hymen déclaré.</l>
+	<l id='282'>J'admirais que, passant d'un état ignoré</l>
+	<l id='283'>Dans un rang qui manquait aux vertus d'Émilie,</l>
+	<l id='284'>En un sombre chagrin toujours ensevelie ;</l>
+	<l id='285'>Vous eussiez paru voir d'un oeil indifférent.</l>
+	<l id='286'>L'éclat de la grandeur joint à celui du sang.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='287'>D'un sentiment profond, ah ! Que l'âme occupée,</l>
+	<l id='288'>De cet éclat trompeur ; Sabine, est peu frappée !</l>
+	<l id='289'>Que sont tous ces faux biens pour un sensible coeur ?</l>
+	<l id='290'>Un vain fantôme, hélas ! revêtu de splendeur,</l>
+	<l id='291'>Qui brillant aux regards de la foule éblouie,</l>
+	<l id='292'>D'un malheureux souvent fait un objet d'envie.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='293' part='i'>Mais comment Spartacus...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='293' part='f'>Une action d'éclat,</l>
+	<l id='294'>Qui surprit à la fois le peuple et le sénat,</l>
+	<l id='295'>M'imprima pour toujours ses traits dans la mémoire.</l>
+	<l id='296'>Rome de Lucullus célébrait la victoire ;</l>
+	<l id='297'>Pour la première fois j'assistais à ces jeux,</l>
+	<l id='298'>Où le sang prodigué de tant de malheureux</l>
+	<l id='299'>Coule pour le plaisir d'une foule inhumaine.</l>
+	<l id='300'>Mes yeux, avec horreur, se portaient sur l'arène;</l>
+	<l id='301'>D'affreux cris de douleur, de sourds gémissements,</l>
+	<l id='302'>Se mêlaient à la joie, aux applaudissements.</l>
+<note type="L">Cimbre : peuple germanique issu de la région bavaroise et qui s'intalla au moyen-age au nord de l'Italie, et plus exactement dans le Frioul et la Vénitie.</note>
+	<l id='303'>Un Cimbre, dont le front respirant la menace,</l>
+	<l id='304'>D'une large blessure offrait l'horrible trace,</l>
+	<l id='305'>De deux braves Gaulois avait ouvert le flanc ;</l>
+	<l id='306'>Il les foulait aux pieds ; il nageait dans le sang,</l>
+	<l id='307'>Lorsque, pour le malheur et l'opprobre de Rome,</l>
+	<l id='308'>Sur l'arène soudain on vit paraître un homme,</l>
+	<l id='309'>Dont la stature noble et la mâle beauté</l>
+	<l id='310'>Alliaient la jeunesse avec la majesté.</l>
+	<l id='311'>Cet homme avec dédain sur l'arène se couche ;</l>
+	<l id='312'>Il garde en frémissant un silence farouche :</l>
+	<l id='313'>On voit des pleurs de rage échapper de ses yeux.</l>
+	<l id='314'>Plein d'un brutal orgueil, le Cimbre audacieux</l>
+	<l id='315'>Prend ce noble dédain pour amour de la vie,</l>
+	<l id='316'>Le frappe... Celui-ci s'élance avec furie,</l>
+	<l id='317'>Et, présentant le fer à ses yeux effrayés,</l>
+	<l id='318'>De deux horribles coups il l'étend à ses pieds.</l>
+	<l id='319'>Tout le peuple, à grands cris, applaudit sa victoire.</l>
+	<l id='320'>Cet homme alors s'avance, indigné de sa gloire :</l>
+	<l id='321'>« Peuple Romain, dit-il, vous, consuls et sénat,</l>
+	<l id='322'>Qui me voyez frémir de ce honteux combat,</l>
+	<l id='323'>C'est une gloire à vous bien grande, bien insigne ;</l>
+	<l id='324'>Que d'exposer ainsi, sur une arène indigne,</l>
+	<l id='325'>Le sang d'Arioviste à vos gladiateurs !</l>
+	<l id='326'>Étouffez dans mon sang ma honte et mes fureurs,</l>
+	<l id='327'>Votre opprobre et le mien, ou j'atteste le Tibre</l>
+	<l id='328'>Que, si Spartacus vit et se voit jamais libre,</l>
+	<l id='329'>Des flots de sang romain pourront seuls effacer</l>
+	<l id='330'>La tache de celui que je viens de verser... »</l>
+	<l id='331'>Sabine, il a trop bien acquitté sa promesse.</l>
+<stage>Voyant Sabine en pleurs.</stage>
+	<l id='332'>Mais je vois que pour lui ce récit t'intéresse ?</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='333'>De mes yeux attendris il arrache des pleurs.</l>
+	<l id='334'>Mais votre coeur dès lors sensible à ses malheurs...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='335'>D'une vive pitié je me sentis émue.</l>
+	<l id='336'>Depuis en sa faveur mon âme prévenue,</l>
+	<l id='337'>Avec tout l'univers admira ses hauts faits...</l>
+	<l id='338'>Mais de mon coeur encor rien ne troublait la paix ;</l>
+<note type="L">Tarente : ville d'Italie située dans les Pouilles, dans le talon de la botte.</note>
+	<l id='339'>Tarente en fut l'écueil ; Tarente infortunée,</l>
+	<l id='340'>Aux flammes, au pillage, au meurtre abandonnée.</l>
+	<l id='341'>Jour affreux, du soleil à regret éclairé,</l>
+	<l id='342'>Où ce que les humains ont de plus révéré</l>
+	<l id='343'>Du vainqueur insolent éprouva la furie ;</l>
+	<l id='344'>Où la licence, jointe avec la barbarie,</l>
+	<l id='345'>De sang et de forfaits inonda nos remparts !</l>
+	<l id='346'>Au temple de Vesta, femmes, enfants, vieillard,</l>
+	<l id='347'>Sous la garde des dieux avaient mis leur faiblesse.</l>
+	<l id='348'>Prosternée à l'autel j'implorais la déesse :</l>
+	<l id='349'>Soudain un bruit terrible et d'effroyables cris</l>
+	<l id='350'>Font retentir la voûte et glacent, les esprits ;</l>
+	<l id='351'>On a forcé le temple, et, fondant sur leur proie,</l>
+	<l id='352'>Les yeux étincelants d'une barbare joie,</l>
+	<l id='353'>Des cruels... Écartons ce funeste tableau...</l>
+	<l id='354'>Pour asile l'honneur n'avait que le tombeau ;</l>
+	<l id='355'>Et, les cheveux épars, la gorge demi-nue,</l>
+	<l id='356'>De Vesta, d'une main, embrassant la statue ;</l>
+	<l id='357'>De l'autre, sur mon sein appuyant un poignard,</l>
+	<l id='358'>Je m'adressais au ciel par un dernier regard,</l>
+	<l id='359'>Quand Spartacus parut, comme un dieu secourable.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE, à part.</speaker>
+	<l id='360' part='i'>Je respire !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='360' part='f'>Ah ! Combien, dans ce jour effroyable,</l>
+	<l id='361'>Sa pitié, sa vertu sauva de malheureux !</l>
+	<l id='362'>À quels périls, Sabine, il s'exposa pour eux !</l>
+	<l id='363'>Le soldat, enivré de sang et de furie,</l>
+	<l id='364'>Levait sur lui le fer, et menaçait sa vie.</l>
+	<l id='365'>Eh ! Que, pour secourir la triste humanité,</l>
+	<l id='366'>Il est beau de montrer cette intrépidité,</l>
+	<l id='367'>De ses fiers oppresseurs trop souvent le partage !</l>
+	<l id='368'>C'est ce qu'en Spartacus j'admire davantage.</l>
+	<l id='369'>De tous les temps il fut d'illustres conquérants,</l>
+	<l id='370'>Qui de sang altérés; moins guerriers que brigands,</l>
+	<l id='371'>Pour le malheur du monde ont recherché la gloire,</l>
+	<l id='372'>Parmi tant de héros trop vantés dans l'histoire,</l>
+	<l id='373'>À peine en est-il un qui soit, par sa bonté,</l>
+	<l id='374'>Digne d'être transmis à la postérité ;</l>
+	<l id='375'>Ivres de la victoire, injustes, sanguinaires,</l>
+	<l id='376'>Ils ont tous oublié que les hommes sont frères.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='377'>De Spartacus, Madame, admirez les vertus :</l>
+	<l id='378'>Vous lui devez beaucoup ; mais vous vous devez plus.</l>
+	<l id='379'>C'est trop que de l'aimer, et, si je l'ose dire...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='380'>Sabine, on est bien près d'aimer ce qu'on admire.</l>
+	<l id='381'>Un grand homme eut toujours des droits sur notre coeur,</l>
+	<l id='382'>Soit qu'à notre faiblesse il offre un protecteur,</l>
+	<l id='383'>Ou soit que la conquête illustre la victoire,</l>
+	<l id='384'>Et qu'aimer un héros ce soit aimer la gloire.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+<note type="L">Crassus [-115,-53] : Consul romain, membre du premier triumvirat avec Pompée et Jules César. En -71, écrase la révolte de Spartacus.</note>
+	<l id='385'>Ah ! Songez qu'Émilie est fille de Crassus.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='386'>Je l'ignorais encor quand je vis Spartacus :</l>
+	<l id='387'>Mais au sang dont je sors le sien ne fait pas honte ;</l>
+	<l id='388'>Non, pourtant, que l'amour lâchement me surmonte....</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE, l'interrompant.</speaker>
+	<l id='389'>Mais devant votre père on porte les faisceaux,</l>
+	<l id='390' part='i'>Crassus est un consul.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='390' part='f'>Spartacus un héros.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='391'>Mais il fut notre esclave ; et, quoiqu'on le renomme...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='392'>Va, dès longtemps l'esclave a fait place au grand homme.</l>
+	<l id='393'>Il naquit libre, et ceux dont il reçut le sang </l>
+	<l id='394'>Toujours chez les Germains tinrent le premier rang.</l>
+	<l id='395'>Mais, de lui-même enfin empruntant tout son lustre,</l>
+	<l id='396'>N'eût-il pas, en effet, une origine illustre,</l>
+	<l id='397'>Fût-il formé d'un sang que l'orgueil nomme abject, </l>
+	<l id='398'>Il en serait plus grand, plus digne de respect,</l>
+	<l id='399'>Puisqu'il fait éclater la généreuse audace</l>
+	<l id='400'>De ces premiers héros fondateurs de leur race,</l>
+	<l id='401'>Et dont les descendants, de mollesse abattus,</l>
+	<l id='402'>Trop souvent en orgueil remplacent les vertus.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='403' part='i'>Mais...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='403' part='f'>Qui pensait qu'on dût redouter sa vengeance,</l>
+	<l id='404'>Quand le poids du malheur accablant son enfance,</l>
+	<l id='405'>Interdisait l'essor à ses puissants destins ?</l>
+	<l id='406'>Mais Spartacus est né pour apprendre aux humains</l>
+	<l id='407'>Ce que peut un mortel en qui le ciel allie</l>
+	<l id='408'>La force du courage à celle du génie.</l>
+	<l id='409'>Que l'on naisse monarque, esclave ou citoyen,</l>
+	<l id='410'>C'est l'ouvrage du sort ; un grand homme est le sien.</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE.</speaker>
+	<l id='411'>Eh ! Vous louez le bras armé pour nous détruire ?</l>
+	<l id='412' part='i'>Un ennemi de Rome ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='412' part='f'>Elle-même l'admire.</l>
+	<l id='413'>C'est l'homme le plus grand que le ciel pût former,</l>
+	<l id='414'>Et peut-être Émilie est digne de l'aimer.</l>
+	<l id='415'>Mais je sais mon devoir, et tu dois me connaître;</l>
+	<l id='416'>L'amour est mon tyran, mais il n'est pas mon maître,</l>
+	<l id='417'>Sabine ; et jusqu'ici, renfermé dans mon coeur,</l>
+	<l id='418'>J'ai du moins dérobé sa flamme à mon vainqueur ;</l>
+	<l id='419'>Mais qu'il en coûte, hélas ! d'affliger ce qu'on aime !</l>
+	<l id='420'>Je partis, de Tarente; il s'éloigna lui-même.</l>
+	<l id='421'>On m'apprit que j'étais la fille de Crassus...</l>
+	<l id='422'>Que de raisons, hélas ! d'oublier Spartacus !</l>
+	<l id='423'>D'un souvenir si cher toutefois possédée,</l>
+	<l id='424'>Dans mon coeur, en secret j'en nourrissais l'idée ;</l>
+	<l id='425'>Mais, enfin, me voilà sa captive aujourd'hui.</l>
+	<l id='426'>Et mon nouvel état n'est pas connu de lui.</l>
+	<l id='427'>Dans son coeur étonné quels sentiments vont naître,</l>
+	<l id='428'>Si mes traits, dans ce coeur mal conservés peut-être...</l>
+</sp>
+<sp who='SABINE'><speaker>SABINE, l'interrompant.</speaker>
+	<l id='429' part='i'>Quelqu'un vient...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='429' part='f'>C'est lui-même. Un sombre et fier chagrin</l>
+	<l id='430'>Obscurcit de son front l'air auguste et serein.</l>
+	<l id='431'>Un nuage s'y mêle aux rayons de sa gloire.</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE II. Spartacus, Émilie, Sabine.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à Émilie, d'un air triste et fier, et sans la regarder.</speaker>
+	<l id='432'>Je viens vous rassurer, madame. Je dois croire</l>
+	<l id='433'>Qu'après l'exemple affreux qu'ont donné les Romains,</l>
+	<l id='434'>La fille du consul, tombée entre nos mains,</l>
+	<l id='435' part='i'>Doit craindre...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='435' part='f'>Spartacus, s'il ne faut que ma vie,</l>
+	<l id='436' part='i'>Vous pouvez...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant à son tour.</speaker>
+<stage>La reconnaissant.</stage>
+	<l id='436' part='f'>Quelle voix ! Et quels traits ! Émilie !</l>
+	<l id='437'>Est-ce un songe, Madame ?... En croirai-je mes yeux ?</l>
+	<l id='438'>La fille de Crassus... vous, Émilie ?... Ô Dieux !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='439'>Oui, c'est moi qui par vous secourue à Tarente,</l>
+	<l id='440'>Dans mon état obscur, peut-être, plus contente,</l>
+	<l id='441'>Du sang dont je suis née ignorais la splendeur.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='442'>Ah ! Ce sang odieux manquait à mon malheur.,.</l>
+	<l id='443'>À se percer le sein Rome a forcé ma mère...</l>
+	<l id='444'>Crassus est son consul ! Crassus est votre père !...</l>
+	<l id='445'>Ah ! Parlez, hâtez-vous, éclaircissez mon coeur ;</l>
+	<l id='446'>Ne dois-je désormais vous voir qu'avec horreur ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='447'>Absent de Rome alors, par cette barbarie</l>
+	<l id='448'>Il n'aurait point souillé l'honneur de sa patrie :</l>
+	<l id='449'>Crassus de votre mère a déploré le sort.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='450'>Et bien ! Puisque j'en dois croire votre rapport,</l>
+	<l id='451'>Puisque le ciel enfin veut que je vous revoie,</l>
+	<l id='452'>Pour Spartacus encore il est donc quelque joie !</l>
+	<l id='453'>Oui, je sens qu'à travers une nuit de douleur...</l>
+	<l id='454'>Que dis-je ?... Quelle honte ! Ô ciel ! Et quelle horreur !</l>
+	<l id='455'>Quoi ! Ma mère n'est plus !... Quoi ! Son sang fume encore.</l>
+	<l id='456'>Et vous êtes Romaine, et mon coeur vous adore !...</l>
+	<l id='457' part='i'>Non, je vous dois haïr.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='457' part='f'>Moi qui de vos bienfaits,</l>
+	<l id='458'>Moi qui de vos vertus éprouvai les effets ?</l>
+	<l id='459'>Dût sur moi Spartacus étendre sa vengeance,</l>
+	<l id='460'>Il aura mon estime et ma reconnaissance !</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='461'>Qu'en me parlant ainsi vous me rendez confus !</l>
+	<l id='462' part='i'>Ah ! Madame, excusez...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='462' part='f'>Spartacus, je fais plus ;</l>
+	<l id='463' part='i'>Je vous plains.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='463' part='f'>Vous voyez le trouble de mon âme :</l>
+	<l id='464'>Ma mère, les Romains, et ma haine et ma flamme,</l>
+	<l id='465'>Tout combat à la fois, tout déchire mon coeur.</l>
+	<l id='466'>J'ai pris part à vos maux, je sens votre douleur ;</l>
+	<l id='467'>Mais vous triompherez d'une vaine tendresse ;</l>
+	<l id='468'>Le grand homme n'est pas l'homme exempt de faiblesse.</l>
+	<l id='469' part='i'>C'est celui qui la dompte...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='469' part='f'>Eh ! Qu'il en coûte, hélas !</l>
+	<l id='470'>Si votre coeur savait quels efforts, quels combats !...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='471'>Ne parlons point du coeur d'une faible mortelle ;</l>
+	<l id='472'>Un héros ne doit point prendre l'exemple d'elle.</l>
+	<l id='473'>Songez que vos projets, songez que mon devoir...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='474'>Oui, je sais que le sort m'interdit tout espoir,</l>
+	<l id='475'>Qu'à jamais séparant mon destin et le vôtre,</l>
+	<l id='476'>Le ciel ne voulut pas nous former l'un pour l'autre ;</l>
+	<l id='477'>Que bientôt loin de vous, et peut-être haï....</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='478'>Si mon devoir l'exige, il est mal obéi.</l>
+	<l id='479'>Mon coeur n'embrasse point une vertu farouche :</l>
+	<l id='480'>J'admire le héros, le bienfaiteur me touche ;</l>
+	<l id='481'>Mais un devoir sacré m'attache à mon pays...</l>
+	<l id='482'>Ah ! Spartacus, pourquoi sommes-nous ennemis ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='483'>Pourquoi dans Rome, hélas ! Avez-vous pris naissance ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='484' part='i'>Je lui dois mon amour.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='484' part='f'>Je lui dois ma vengeance.</l>
+	<l id='485'>Ma mère attend de moi le sang de ses bourreaux :</l>
+	<l id='486'>L'univers en attend le terme de ses maux.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='487'>Mais je sais qu'envers vous député par mon père,</l>
+	<l id='488'>Messala doit venir, et peut-être... j'espère...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='489'>Non, n'en espérez rien ; non, je vous tromperais ;</l>
+	<l id='490'>Non, jamais ces cruels n'auront de moi la paix ;</l>
+	<l id='491'>Ils sont tous dévoués au serment qui me lie,</l>
+	<l id='492'>Et ma juste fureur n'excepte qu'Émilie.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='493'>Si Rome doit périr, vous m'exceptez en vain.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Albin, Spartacus, Émilie, Sabine.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, a Albin.</speaker>
+	<l id='494'>Oui vous fait accourir ? Qu'annoncez-vous, Albin ?</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN, à Émilie.</speaker>
+	<l id='495'>Madame, pardonnez, si ne pouvant me taire...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='496' part='i'>Eh bien ?</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='496' part='f'>On veut, Seigneur, que vengeant votre mère,</l>
+	<l id='497'>À ses mânes, à ceux du fils de Noricus,</l>
+	<l id='498'>Vous fassiez immoler la fille de Grassus.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='499' part='i'>Qu'entends-je ? </l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='499' part='f'>Tous les chefs, qu'un même esprit anime,</l>
+	<l id='500'>Viendront vous demander cette grande victime.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='501' part='i'>Les lâches !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='501' part='f'>Contentez, Seigneur, ces furieux :</l>
+	<l id='502'>La mort pour Émilie est un présent des cieux.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='503'>Ne craignez rien, Madame ; entrez dans cette tente...</l>
+	<l id='504'>Ils me verront... Croyez que leur troupe insolente</l>
+	<l id='505'>N'osera qu'en tremblant soutenir mon aspect,</l>
+	<l id='506'>Et que tout rentrera bientôt dans le respect...</l>
+	<l id='507'>Soyez sûre, du moins, que tant que je respire</l>
+	<l id='508'>Contre vos jours, en vain leur lâcheté conspire.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Spartacus, Noricus, Les Chefs de l'armée, Une foule de Soldats.</head>
+<sp who='NORICUS'><speaker>NORICUS, à Spartacus.</speaker>
+	<l id='509'>Daigner leur pardonner un trop juste transport ;</l>
+	<l id='510' part='i'>Ils demandent vengeance.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='510' part='f'>Ils méritent la mort,</l>
+	<l id='511'>Et ceux peut-être aussi qui prennent leur défense,</l>
+	<l id='512'>Qui, faits pour maintenir l'ordre et l'obéissance,</l>
+	<l id='513'>De la sédition loin d'étouffer la voix,</l>
+	<l id='514'>En deviennent l'organe et m'apportent des lois.</l>
+	<l id='515'>N'est-ce donc plus ici Spartacus qui commande ?</l>
+	<l id='516'>Ah ! Je rejetterais la plus juste demande,</l>
+	<l id='517'>Si la rébellion en était le soutien.</l>
+	<l id='518'>Mais qu'ose-t-on vouloir ? Votre opprobre et le mien....</l>
+<stage>Aux chefs de l'armée et aux soldats.</stage>
+	<l id='519'>Guerriers, que de la gloire un noble amour enflamme,</l>
+	<l id='520'>Que me demandez-vous ?... C'est le sang d'une femme.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='521'>Tout l'opprobre aux Romains en doit être imputé :</l>
+	<l id='522'>Ce n'est qu'à leur exemple ; ils l'ont trop mérité.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='523'>Ai-je mérité, moi, de suivre cet exemple ?</l>
+<stage>Aux chefs de l'armée et aux soldats.</stage>
+	<l id='524'>Vous par qui les punit le ciel qui nous contemple,</l>
+	<l id='525'>Serez-vous criminels et barbares comme eux ?</l>
+	<l id='526'>Vous êtes plus vaillants ; soyez plus généreux.</l>
+	<l id='527'>La grandeur d'âme est rare et la valeur commune.</l>
+	<l id='528'>Jusqu'ici nos drapeaux ont fixé la fortune ;</l>
+	<l id='529'>Ah ! Si nous aspirons à des lauriers nouveaux,</l>
+	<l id='530'>Vengeons-nous en soldats, et non pas en bourreaux ;</l>
+	<l id='531'>Et, contre des cruels combattant avec gloire,</l>
+	<l id='532'>Ne déshonorons pas d'avance la victoire.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='533'>Qui combat des cruels doit l'être encor plus qu'eux.</l>
+	<l id='534'>Envers des inhumains se montrer généreux,</l>
+	<l id='535'>C'est, par l'impunité, les enhardir au crime.</l>
+	<l id='536'>Tout votre camp, Seigneur, qu'un même esprit anime,</l>
+	<l id='537'>Vous parle par ma voix, et demande, à grands cris,</l>
+	<l id='538'>Un sang qui doit venger votre mère et mon fils.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='539'>Eh bien ! À vos fureurs moi-même je me livre ;</l>
+	<l id='540'>Spartacus ne veut plus ni commander, ni vivre.</l>
+	<l id='541'>Suivez d'un noir transport l'égarernent fatal,</l>
+	<l id='542'>Et, tout souillés du sang de votre général,</l>
+	<l id='543'>Plongez vos bras fumants dans le sein d'Émilie ;</l>
+	<l id='544'>D'un si grand attentat effrayez l'Italie :</l>
+	<l id='545'>Mais sachez que bientôt, l'un de l'autre jaloux,</l>
+	<l id='546'>La soif de commander vous divisera tous ;</l>
+	<l id='547'>Que par les fondements votre ligue frappée,</l>
+	<l id='548'>Sera dans peu de temps détruite et dissipée ;</l>
+	<l id='549'>Qu'il faut pour être unis le ciment des vertus,</l>
+	<l id='550'>Encore une victoire et Rome n'était plus :</l>
+	<l id='551'>La liberté par vous eut relevé son temple ;</l>
+	<l id='552'>Du monde vous étiez les vengeurs et l'exemple :</l>
+<stage>Découvrant sa poitrine.</stage>
+	<l id='553'>Vous en serez l'horreur... Frappez, voilà mon sein ;</l>
+	<l id='554' part='i'>J'ai trop vécu.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, interdit.</speaker>
+	<l id='554' part='m'>Seigneur !...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='554' part='f'>Qui retient votre main ?</l>
+	<l id='555'>Votre honneur et le mien sont plus chers que ma vie.</l>
+	<l id='556'>Ne demandez-vous pas que je les sacrifie ?</l>
+	<l id='557'>Oubliez, les serments qui vous tiennent liés :</l>
+	<l id='558' part='i'>Je vous les rends. Frappez.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, tombant à ses pieds, ainsi que tous les chefs de l'armée et les soldats.</speaker>
+	<l id='558' part='f'>Nous tombons à vos pieds.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='559'>Eh ! Pensez-vous ainsi désarmer ma colère ?</l>
+	<l id='560'>Jusqu'ici votre chef, bien moins que votre frère,</l>
+	<l id='561'>De nos travaux communs vous laissant tout le fruit,</l>
+	<l id='562'>Pour le repos de tous j'ai veillé jour et nuit...</l>
+	<l id='563'>Mais pour vous commander il faut qu'on vous ressemble ;</l>
+	<l id='564'>Il faut pour obéir que chacun de vous tremble :</l>
+	<l id='565' part='i'>Eh bien !...</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, l'interrompant.</speaker>
+	<l id='565' part='m'>S'il faut verser tout notre sang...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant à son tour.</speaker>
+	<l id='565' part='f'>Ingrats !</l>
+	<l id='566'>J'ai prodigué pour vous le mien dans les combats :</l>
+	<l id='567'>Le vôtre m'est trop cher pour vouloir le répandre...</l>
+	<l id='568'>Ah ! Je sens que mon coeur est pressé de se rendre...</l>
+<stage>Aux chefs de l'armée.</stage>
+	<l id='569' part='i'>Levez-vous, compagnons.... </l>
+<stage>Les chefs de l'armée se relèvent.</stage>
+	<l id='569' part='f'>Mais vous devez savoir</l>
+	<l id='570'>Qu'obéir à la guerre est le premier devoir :</l>
+	<l id='571'>L'autorité périt en souffrant qu'on l'outrage.</l>
+	<l id='572'>Peut-être en ai-je fait un assez digne usage...</l>
+<stage> Aux soldats.</stage>
+	<l id='573'>Vous, soldats, dont les cris et la témérité</l>
+	<l id='574'>Exigeraient de moi plus de sévérité,</l>
+	<l id='575'>Je pourrai pardonner.... Il faut s'en rendre dignes ;</l>
+	<l id='576'>Et, par une valeur, par des exploits insignes,</l>
+	<l id='577'>Désarmant un courroux dont je suspends l'effet,</l>
+	<l id='578'>Dans le sang des Romains laver votre forfait.</l>
+<stage>Les soldats se relèvent. Il fait signe qu'on se retire, et Noricus, les chefs de l'armée et les soldats sortent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, seul.</speaker>
+	<l id='579'>L'indulgence affaiblit et perd la discipline...</l>
+	<l id='580'>Trop de rigueur aussi quelquefois la ruine...</l>
+	<l id='581'>Mon coeur à pardonner aisément se résout.</l>
+	<l id='582'>Que ne puis-je de même, hélas ! Me vaincre en tout !</l>
+	<l id='583'>Ô ma mère ! Combien ton ombre courroucée</l>
+	<l id='584'>Frémit du trait honteux dont mon âme est blessée !</l>
+	<l id='585'>Ah ! Pardonne... À l'amour je suis loin d'obéir :</l>
+	<l id='586'>Non, ton fils jusque-là ne saurait se trahir ;</l>
+	<l id='587'>Mais c'est un ennemi, je l'avoue, à ma honte,</l>
+	<l id='588'>Que toujours je combats, qui toujours me surmonte.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Albin, Spartacus.</head>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='589' part='i'>L'envoyé du consul...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part, l'interrompant.</speaker>
+	<l id='589' part='f'>Ciel vengeur ! Un Romain !...</l>
+<stage>À Albin.</stage>
+	<l id='590' part='i'>J'ai promis de l'entendre...</l>
+<stage>À part.</stage>
+	<l id='590' part='f'>Ô ma mère ! Ô destin !...</l>
+<stage>Albin sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Messala, Spartacus.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='591'>Croirai-je, Messala, que la fierté de Rome</l>
+	<l id='592'>Lui permette aujourd'hui de rechercher un homme,</l>
+	<l id='593'>En esclave, en rebelle indignement traité ?</l>
+	<l id='594'>Mais, lorsque son orgueil, lorsque sa cruauté,</l>
+	<l id='595'>Au fer des assassins abandonne ma tête,</l>
+	<l id='596'>Qu'à ses yeux tout moyen pour me perdre est honnête;</l>
+	<l id='597'>Et, ce que sans horreur je ne puis rappeler,</l>
+	<l id='598'>Quand, venant de forcer ma mère à s'immoler,</l>
+	<l id='599'>À ma juste fureur tout devient légitime,</l>
+	<l id='600'>Certes, de Spartacus c'est faire grande estime</l>
+	<l id='601'>Que d'oser en mon camp vous commettre à ma foi :</l>
+	<l id='602' part='i'>Se craignez pas pourtant.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='602' part='f'>Mon coeur est sans effroi :</l>
+	<l id='603'>Je connais Spartacus ; sa parole est mon gage,</l>
+	<l id='604'>Et ce gage sacré vaut le plus sûr otage.</l>
+	<l id='605'>Quant à Rome, souffrez que je parle sans fard :</l>
+	<l id='606'>Je croirais l'abaisser en venant de sa part.</l>
+	<l id='607'>Le consul m'a chargé d'un autre ministère :</l>
+<note type="L">Députer : envoyer quelqu'un avec commission. Il ne se dit point d'un partculier qui envoie ; mais seulement d'un corps ou d'une personne en autorité. [F]</note>
+	<l id='608'>Il ne députe ici qu'en qualité de père.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='609'>Eh ! Quel espoir encor lui peut être permis,</l>
+<stage>À part.</stage>
+	<l id='610'>Quand ma mère... Ah ! Cruel ! Qu'attendez-vous d'un fils</l>
+	<l id='611'>Qui ne respire plus que pour venger sa perte ?</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='612'>Ce n'est point par Crassus que vous l'avez soufferte.</l>
+	<l id='613' part='i'>Parti de Rome alors, il n'a pu...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='613' part='f'>Si mon coeur</l>
+	<l id='614'>De l'affreux droit de guerre admettait la rigueur,</l>
+	<l id='615'>De cette loi de sang dont l'atroce justice</l>
+	<l id='616'>Fait traîner sans pitié l'innocence au supplice,</l>
+	<l id='617'>Si cet esclave, enfin, ne passait en vertus</l>
+	<l id='618'>Ce que sont en orgueil ses maîtres prétendus,</l>
+	<l id='619'>La fille du consul, à périr condamnée,</l>
+	<l id='620'>Expierait à vos yeux le sang dont elle est née.</l>
+	<l id='621'>Cette leçon terrible apprendrait aux Romains</l>
+	<l id='622'>Que fouler à ses pieds tous les droits des humains,</l>
+	<l id='623'>C'est sous ses propres pas se creuser un abîme.</l>
+	<l id='624'>Rassurez-vous, seigneur ; l'humanité m'anime ;</l>
+	<l id='625'>Je n'outragerai point ses droits pour la venger.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='626'>Le consul pour sa fille a peu craint ce danger :</l>
+	<l id='627'>Il connaît vos vertus ; et sa reconnaissance...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='628'>Ah ! C'est un sentiment dont mon coeur le dispense.</l>
+	<l id='629'>Qu'il rende grâce au ciel qui n'a pas dans mon sein</l>
+	<l id='630'>Mis l'âme d'un barbare... ou plutôt d'un Romain...</l>
+	<l id='631'>Je crois qu'à vous parler avec cette franchise</l>
+	<l id='632'>La cruauté de Rome, aujourd'hui m'autorise ;</l>
+	<l id='633'>Que le sang de ma mère et mes jours mis à prix</l>
+<note type="C">La fin du vers 634 est illisible.</note>
+	<l id='634'>M'ont trop bien dispensé, comme homme et comme ...</l>
+	<l id='635'>D'avoir pour des cruels les égards ordinaires.</l>
+	<l id='636'>Que conservent entre eux de nobles adversaires.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='637'>On dut à votre mère un traitement plus doux,</l>
+	<l id='638'>Et son sang est, sans doute, une tache pour nous ;</l>
+	<l id='639'>Mais, si je puis user à mon tour de franchise ,</l>
+	<l id='640'>Esclave des Romains, permettez qu'on vous dise.... .</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='641'>Leur esclave !... Eh ! Quel droit me mit entre vos mains ?</l>
+	<l id='642'>À quel titre, au berceau, ravi par les Romains,</l>
+	<l id='643'>Le fils d'Arioviste a-t-il porté vos chaînes ?</l>
+	<l id='644'>Rome m'opposera ses fureurs inhumaines !</l>
+	<l id='645'>Elle voudra s'en faire un titre révéré !...</l>
+	<l id='646'>Quoi ! Son ambition, à qui rien n'est sacré,</l>
+	<l id='647'>Désole mon pays et massacre mon père,</l>
+	<l id='648'>Traîne en captivité le fils avec la mère,</l>
+	<l id='649'>Et prétend s'arroger un juste droit sur eux ?...</l>
+	<l id='650'>C'est le droit qu'un brigand a sur le malheureux,</l>
+	<l id='651'>Dont il ose ravir la dépouille sanglante...</l>
+<stage>À part.</stage>
+	<l id='652'>Rome, tu n'as sur lui que d'être plus puissante ;</l>
+	<l id='653'>Mais à la terre, enfin, le ciel donne un vengeur. </l>
+	<l id='654'>Il est temps de marquer un terme à ta fureur,</l>
+	<l id='655'>Il est temps d'écraser une superbe race,</l>
+	<l id='656'>Un peuple de tyrans, dont l'insolente audace</l>
+	<l id='657'>Se vante que les dieux ont formé l'univers</l>
+	<l id='658'>Pour la gloire de Rome et pour porter ses fers.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='659'>La force fonde, étend et maintient un empire ;</l>
+	<l id='660'>Le droit de dominer, où chaque peuple aspire,</l>
+	<l id='661'>De l'habile et du brave est le prix glorieux :</l>
+	<l id='662'>Et si de l'univers Rome fixant les yeux</l>
+	<l id='663'>Passe les nations en génie, en courage,</l>
+	<l id='664'>Le droit de dominer est son juste partage.</l>
+	<l id='665'>Tous ont même désir, mais non même vertu.</l>
+	<l id='666'>La loi de l'univers, c'est malheur au vaincu !</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='667'>Eh ! Malheur donc à Rome !... Autrefois son esclave,</l>
+	<l id='668'>Aujourd'hui son vainqueur, j'ai le droit du plus brave.</l>
+	<l id='669'>Ses titres aujourd'hui sont devenus les miens,</l>
+	<l id='670'>Puisque, de votre aveu, le succès fit les siens. </l>
+	<l id='671'>Qu'était Rome, en effet ? Qui furent vos ancêtres ?...</l>
+	<l id='672'>Un vil amas de serfs, échappés à leurs maîtres,</l>
+	<l id='673'>De femmes et de biens perfides ravisseurs...</l>
+<stage>À part.</stage>
+	<l id='674'>Rome, voilà quels sont les dignes fondateurs !...</l>
+<stage>À Messala.</stage>
+	<l id='675'>Laissez donc là mes fers ; non pas que j'en rougisse ;</l>
+	<l id='676'>La Honte en est à vous, ainsi que l'injustice.</l>
+	<l id='677'>La gloire en est à moi, qui de ce vil état,</l>
+	<l id='678'>Qui du sein de l'opprobre ai tiré mon éclat,</l>
+	<l id='679'>Qui, votre esclave enfin, sus, créant une armée,</l>
+	<l id='680'>Me faire le vengeur de la terre opprimée...</l>
+	<l id='681'>Que Rome quitte donc cette vaine hauteur,</l>
+	<l id='682'>Qui lui sied mal, sans doute, et devant son vainqueur.</l>
+	<l id='683'>En barbares, surtout, ne faites plus la guerre.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='684'>Mais, vous-même de sang inondant cette terre,</l>
+	<l id='685'>N'en avez-vous versé qu'au milieu du combat ?</l>
+	<l id='686'>Tarente, abandonnée aux fureurs du soldat...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='687'>Eh ! Qui peut prévenir tous les maux dont abonde</l>
+	<l id='688'>La guerre en cruautés, en ruines féconde ?</l>
+	<l id='689'>Par un vil intérêt le soldat excité,</l>
+	<l id='690'>Au désir du butin joint la férocité ;</l>
+	<l id='691'>Et ce sont ces cruels, ces âmes sanguinaires,</l>
+	<l id='692'>Des plus nobles projets instruments mercenaires,</l>
+	<l id='693'>Qu'il faut faire servir au bonheur des humains.</l>
+	<l id='694'>Nous avons trop peut-être imité les Romains ;</l>
+	<l id='695'>Mais en plaignant l'abus j'envisage les suites.</l>
+	<l id='696'>Eh ! Que sont en effet quelques cités détruites,</l>
+	<l id='697'>Quelques champs ravages, si j'atteins à mon but,</l>
+	<l id='698'>Si du monde opprimé leur perte est le salut,</l>
+	<l id='699'>Et si des nations par mon bras affranchies,</l>
+	<l id='700'>Les Biens, les libertés, les honneurs et les vies</l>
+	<l id='701'>Ne sont plus le jouet de ces brigands titrés.</l>
+	<l id='702'>De tous ces proconsuls à qui vous les livrez ?</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='703'>Votre projet est grand : mais souffrez qu'on vous dise.</l>
+	<l id='704'>Que le succès encore est loin de l'entreprise ;</l>
+	<l id='705'>Plus d'un obstacle encor vous reste à surmonter,</l>
+	<l id='706' part='i'>Et j'ose...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='706' part='f'>Il faut les vaincre, et non pas les compter :</l>
+	<l id='707'>Tout projet qui n'est pas un projet ordinaire</l>
+	<l id='708'>Veut que l'on exécute, et non qu'on délibère.</l>
+	<l id='709'>J'ose tout espérer : les miracles sont faits</l>
+	<l id='710'>Pour qui veut fermement la mort ou le succès.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='711'>À ces grands sentiments il faut que j'applaudisse ;</l>
+	<l id='712'>J'ose vous dire plus, Rome vous rend justice.</l>
+	<l id='713'>Un accommodement se pourrait pressentir.</l>
+	<l id='714'>Sans craindre par Crassus de m'en voir démentir.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, d'un ton fier et ironique.</speaker>
+	<l id='715'>Mais il n'a député qu'en qualité de père</l>
+	<l id='716'>Ne vous chargez donc point d'un autre ministère...</l>
+	<l id='717'>Vous abaisseriez Rome en me parlant d'accord,</l>
+	<l id='718'>Et ce serait en vain. Sa ruine, ou ma mort,</l>
+	<l id='719' part='i'>Voilà tous nos traités.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='719' part='f'>Que la guerre en décide...</l>
+	<l id='720'>Mais un autre intérêt, dans votre camp me guide.</l>
+	<l id='721'>Je viens pour Émilie offrir une rançon,</l>
+	<l id='722' part='i'>Et vous pouvez vous-même en fixer le prix.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='722' part='f'>Non.</l>
+	<l id='723'>Spartacus ne fait point de la guerre un commerce ;</l>
+	<l id='724'>Dans mes justes projets si le sort me traverse,</l>
+	<l id='725'>Tout est fini pour moi : s'il remplit mon espoir ;</l>
+	<l id='726'>Rome et tous ses trésors seront en mon pouvoir.</l>
+	<l id='727'>Je vous rends Émilie... Oui, ma main la délivre;:</l>
+	<l id='728'>Retournez au consul ; sa fille va vous suivre.</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='729' part='i'>C'en est trop...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='729' part='f'>Il suffit : je n'entends rien de plus.</l>
+	<l id='730'>Vous pouvez cependant annoncer à Crassus</l>
+	<l id='731' part='i'>Qu'il me verra bientôt.</l>
+<stage>Messala sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, seul.</speaker>
+	<l id='731' part='f'>Que cet effort me coûte !</l>
+	<l id='732'>Et j'ai pu m'y résoudre !... Ah ! Je l'ai dû, sans doute...</l>
+	<l id='733'>Il faut, belle Émilie, être digne de vous,</l>
+	<l id='734'>Et vous perdre... Le ciel, de mon bonheur jaloux,</l>
+	<l id='735' part='i'>Se permet pas...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Émilie, Spartacus.</head>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='735' part='f'>Seigneur, notre envoyé vous quitte...</l>
+	<l id='736'>Que de cet entretien je crains la réussite !</l>
+	<l id='737'>Il part.... Ah ! Spartacus, n'est-il donc plus d'espoir ?</l>
+	<l id='738' part='i'>Et mon père...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='738' part='f'>Bientôt vous allez le revoir.</l>
+	<l id='739'>À ce père si cher dans peu d'instants rendue,</l>
+	<l id='740'>Émilie, à loisir, jouira de sa vue.</l>
+	<l id='741'>Je m'arrache à moi-même, et vous rends à Crassus.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='742'>Que mon coeur à ce trait reconnaît Spartacus !</l>
+	<l id='743'>Combien j'en suis touchée !... Eh ! Comment y répondre ?</l>
+	<l id='744'>Tout ce que je vous dois ne sert qu'à me confondre.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='745'>Vous ne me devez rien ; c'est moi qui vous ai dû </l>
+	<l id='746'>L'inestimable honneur de sauver la vertu.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='747' part='i'>Tu combles tes bienfaits.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='747' part='f'>Adorable Émilie,</l>
+	<l id='748'>Vous me cachez des pleurs ; votre âme est attendrie :</l>
+	<l id='749' part='i'>Ah ! Pourrais-je penser ?...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='749' part='f'>Ta magnanimité</l>
+	<l id='750'>Te donne droit au moins à ma sincérité.</l>
+	<l id='751'>Spartacus, ta vertu si hautement éclate,</l>
+	<l id='752'>Je te dois tant, enfin, que je serais ingrate</l>
+	<l id='753'>Si, prête à te quitter, de vains déguisements.</l>
+	<l id='754'>Te dérobaient encor mes secrets sentiments.</l>
+	<l id='755'>Non, d'un trop noble feu je me sens l'âme atteinte</l>
+	<l id='756'>Pour vouloir avec toi m'abaisser à la feinte :</l>
+	<l id='757'>Je t'aime... Reçois-en le généreux aveu, </l>
+	<l id='758'>Qu'au moment de te dire un éternel adieu,</l>
+	<l id='759'>Mon estime te fait, et non pas ma faiblesse.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, faisant un mouvement vers elle.</speaker>
+	<l id='760' part='i'>Ah !...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='760' part='f'>Permets que j'achève... Oui, mon coeur te confesse</l>
+	<l id='761'>Qu'en toi je n'ai pu voir avec tranquillité</l>
+	<l id='762'>Tant d'héroïsme, joint à tant d'humanité ;</l>
+	<l id='763'>Mais tu connais les lois que le devoir m'impose,</l>
+	<l id='764'>Cet obstacle éternel que mon pays t'oppose,</l>
+	<l id='765'>Cet invincible mur qu'il élève entre nous ;</l>
+	<l id='766'>Ce devoir est sacré, c'est le premier de tous.</l>
+	<l id='767'>Je t'aime, Spartacus, et la vertu m'est chère ;</l>
+	<l id='768'>Mais tous mes voeux seront pour Rome et pour mon père.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='769'>Quelle gloire pour moi qu'un aveu si flatteur !</l>
+	<l id='770'>Qu'en me désespérant il console mon coeur !</l>
+	<l id='771'>Qu'il déchire, à la fois, qu'il élève mon âme !</l>
+	<l id='772'>Oui, je sens que l'aveu d'une si noble flamme :</l>
+	<l id='773'>Prête un nouveau courage à ma faible vertu :</l>
+	<l id='774'>Le tourment de vous perdre en est sans doute accru ;</l>
+	<l id='775' part='i'>Mais...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='775' part='f'>J'ai réglé mon sort ; et si Rome succombe,</l>
+	<l id='776'>Le ciel sous ses débris aura marqué ma tombe.</l>
+	<l id='777' part='i'>Mais aussi, Spartacus, si tu péris...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='777' part='f'>Eh bien ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='778'>Ma mort... Mais il suffit : un plus long entretien</l>
+	<l id='779'>Ne ferait voir en nous qu'une faiblesse vaine,</l>
+	<l id='780'>Indigne d'un héros, comme qu'une Romaine...</l>
+	<l id='781'>Séparons-nous... Mes yeux se remplissent de pleurs.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='782' part='i'>Ciel !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='782' part='f'>Ne suis point mes pas, cache-moi tes douleurs.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, voulant la suivre.</speaker>
+	<l id='783' part='i'>Permettez, du moins...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='783' part='f'>Non ; jusqu'au camp de mon père</l>
+	<l id='784'>Albin me conduira. Toi, si je te fus chère...</l>
+	<l id='785' part='i'>Mon coeur se trouble... Adieu, Spartacus.</l>
+<stage>Elle sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, seul.</speaker>
+	<l id='785' part='f'>Elle sort !</l>
+	<l id='786'>Mon âme sur ses pas s'attache avec transport ;</l>
+	<l id='787'>La lumière à mes yeux se dérobe avec elle.</l>
+	<l id='788'>Triste fatalité ! Nécessité cruelle !</l>
+	<l id='789'>Pour la dernière fois je viens donc de la voir !</l>
+	<l id='790'>Ô combien sur un coeur l'amour a de pouvoir !</l>
+	<l id='791'>Je voudrais... Quelle erreur, et quelle honte extrême !...</l>
+	<l id='792'>Ah ! Cesse, Spartacus, de t'abuser toi-même.</l>
+	<l id='793'>Ce pouvoir de l'amour, il le tient des mortels :</l>
+	<l id='794'>C'est notre lâcheté qui dressa ses autels ;</l>
+	<l id='795'>Sous un nom révéré consacrant la mollesse,</l>
+	<l id='796'>L'homme s'est fait un dieu de sa propre faiblesse....</l>
+	<l id='797'>Allons ; et, tout entier âmes nobles desseins,</l>
+	<l id='798'>Ne songeons plus qu'à vaincre, et marchons aux Romains.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Noricus, Sunnon.</head>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='799'>Modérez les transports que vous faites paraître.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='800'>De ma juste fureur comment me rendre maître,</l>
+	<l id='801'>Après l'indigne affront dont je me vois couvert ?</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='802'>Mais évitez, du moins, un éclat qui vous perd</l>
+	<l id='803'>Les Romains sont en proie aux plus vives alarmes,</l>
+	<l id='804'>Serrés de toutes parts, entourés de nos armes ;</l>
+	<l id='805'>Crassus est dans son camp réduit au triste sort</l>
+	<l id='806'>De n'avoir à choisir que les fers ou la mort.</l>
+	<l id='807'>Osez le secourir, et la vengeance est sûre...</l>
+	<l id='808'>Mais que s'est-il passé ? Quelle est donc cette injure ?</l>
+	<l id='809'>Par une faussé attaque occupé loin dé vous,</l>
+	<l id='810' part='i'>J'ignore....</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, l'interrompant.</speaker>
+	<l id='810' part='f'>Apprends ma honte, et frémis de courroux.</l>
+	<l id='811'>Chargé de m'emparer d'une hauteur voisine,</l>
+	<l id='812'>Qui voit le camp romain, le serre et le domine,</l>
+	<l id='813'>Crassus m'a prévenu. Déjà, de toutes parts,</l>
+	<l id='814'>J'y vois des légions flotter les étendards.</l>
+	<l id='815'>De dards, de javelots, une forêt pressée</l>
+	<l id='816'>Offrait partout de fer la cime hérissée,</l>
+	<l id='817'>Et le soleil brûlant dans les yeux du soldat</l>
+	<l id='818'>En renvoyait encor le formidable éclat.</l>
+	<l id='819'>Au péril toutefois opposant le courage,</l>
+	<l id='820'>Je dispose l'attaque, et le combat s'engage :</l>
+	<l id='821'>Mais le lieu, le soleil protègent les Romains ;</l>
+	<l id='822'>Leurs traits lancés d'en-haut portent des coups certains.</l>
+	<l id='823'>Ma troupe est repoussée ; en vain je la ramène.</l>
+	<l id='824'>Bientôt, sourd à ma voix, chacun fuit et m'entraînes</l>
+	<l id='825'>Quand Spartacus accourt, saisit un étendard,</l>
+	<l id='826'>Me présente en fureur la pointe de son dard :</l>
+	<l id='827'>« Lâche ! Arrête, dit-il.... Compagnons, qu'on me suive,</l>
+	<l id='828'>C'est là qu'est l'ennemi. » Cette apostrophe vive,</l>
+	<l id='829'>Sa démarche, sa voix, son oeil étincelant,</l>
+	<l id='830'>Et, s'il faut l'avouer, je ne sais quoi de grand</l>
+	<l id='831'>Et de terrible peint sur ce front qu'on renomme,</l>
+	<l id='832'>Tout en lui nous parut être au-dessus-de l'homme.</l>
+	<l id='833'>Ce n'est point un mortel, un héros ; c'est un dieu.</l>
+	<l id='834'>Aux coeurs les plus glacés il prête un nouveau feu.</l>
+	<l id='835'>Le soldat pousse un cri, sur ses pas s'abandonne :</l>
+	<l id='836'>Nul obstacle n'arrête, aucun péril n'étonne ;</l>
+	<l id='837'>L'on monte, l'on gravit, l'un sur l'autre porte.</l>
+	<l id='838'>Sur la cime déjà l'étendard est planté,</l>
+	<l id='839'>Et l'aigle des Romains fuit et se précipite...</l>
+	<l id='840'>Tu vois qu'à Spartacus je rends ce qu'il mérite ;</l>
+	<l id='841'>Mais, méritais-je, moi, de m'en voir outragé ?</l>
+</sp>
+<sp who='SUNNON'><speaker>SUNNON.</speaker>
+	<l id='842'>L'affront n'existe plus quand l'outrage est vengé.</l>
+	<l id='843'>Hâtez-vous de saisir l'occasion présente,</l>
+	<l id='844'>Tandis que des Gaulois la cohorte puissante</l>
+	<l id='845'>Tient le poste important par eux-même forcé.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='846'>Je ne balance plus... Mon honneur offensé...</l>
+	<l id='847' part='i'>Oui, Sunnon.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Spartacus, Les Chefs de l'Armée, Noricus, Sunnon.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à Noricus.</speaker>
+	<l id='847' part='f'>Noricus, je confesse, à ma honte,</l>
+	<l id='848'>Que tantôt, emporté d'une chaleur trop prompte,</l>
+	<l id='849'>J'ai par un mot cruel blessé votre grand coeur ;</l>
+	<l id='850'>Mais, non moins cruel du mien, jaloux de votre honneur,</l>
+	<l id='851'>Je viens publiquement réparer cet outrage.</l>
+	<l id='852'>Tous ces chefs assemblés vous rendront témoignage</l>
+	<l id='853'>Qu'ici je désavoue, un aveugle transport :</l>
+	<l id='854'>Vous avez vaillamment secondé mon effort,</l>
+	<l id='855'>Quand du poste attaqué je me suis rendu maître ;</l>
+	<l id='856'>Et si j'ai réussi, je ne le dois peut-être</l>
+	<l id='857'>Qu'aux attaques déjà deux fois faites en vain,</l>
+	<l id='858'>Mais qui m'ont du succès aplani le chemin.</l>
+	<l id='859'>Votre haute valeur est partout reconnue.</l>
+	<l id='860'>Calmez le fier courroux dont votre âme est émue ;</l>
+	<l id='861'>Et, sans plus me montrer un visage ennemi,</l>
+<stage>Lui présentant ta main.</stage>
+	<l id='862' part='i'>Touchez dans cette main... </l>
+<stage>L'embrassant.</stage>
+	<l id='862' part='f'>Embrassez votre ami,</l>
+	<l id='863'>Qui, honteux de la faute, et non pas de l'excuse,</l>
+	<l id='864'>Vous demande pardon, et lui-même s'accuse.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS.</speaker>
+	<l id='865'>Spartacus est donc fait pour triompher toujours !</l>
+	<l id='866'>Je ne vous cache pas que, détestant mes jours,</l>
+	<l id='867'>La haine dans le coeur, le désespoir, la rage...</l>
+	<l id='868'>Je brûlais d'égaler la vengeance à l'outrage ;</l>
+	<l id='869'>Mais vous me désarmez, et dans vos bras, Seigneur,</l>
+	<l id='870'>J'abjure la vengeance et reprends mon honneur :</l>
+	<l id='871'>L'ami de Spartacus ne peut être un infâme.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='872'>Non, sans doute... Eh bien ! Donc, je crois qu'au fond de l'âme</l>
+	<l id='873'>Noricus ne me garde aucun triste retour :</l>
+	<l id='874'>Je crois que, comme moi, vous êtes sans détour,</l>
+	<l id='875'>Et que votre amitié vient de m'être rendue :</l>
+	<l id='876'>J'y compte... Le consul demande une entrevue ;</l>
+	<l id='877'>Il va se rendre ici. J'ignore ses desseins ;</l>
+	<l id='878'>Mais que peuvent de nous attendre des Romains ?</l>
+	<l id='879'>Vengeurs des nations, enfants de la victoire,</l>
+	<l id='880'>Le jour approche, enfin, où guidés par la gloire,</l>
+	<l id='881'>Nos mains renverseront ces monts audacieux,</l>
+<note type="L">Aigle : symbole de Rome.</note>
+	<l id='882'>Ces remparts menaçants, d'où l'aigle impérieux</l>
+	<l id='883'>Du nord jusqu'au midi fait retentir sa foudre,</l>
+	<l id='884'>Met tout en servitude, ou réduit tout en poudre.</l>
+	<l id='885'>Le ciel permet enfin cet espoir à mes voeux.</l>
+</sp>
+<sp who='NORICUS'><speaker>NORICUS, voyant approcher Crassus.</speaker>
+	<l id='886' part='i'>Le consul qui paraît...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='886' part='f'>Qu'on nous laisse tous deux.</l>
+<stage>Noricus, Sunnon et les chefs de l'armée sortent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Crassus, sa suite, restant au fond du théâtre, Spartacus.</head>
+<sp who='CRASSUS'><speaker>CRASSUS, à Spartacus.</speaker>
+	<l id='887'>Les dieux vous ont sur nous accordé l'avantage,</l>
+	<l id='888'>Mais à votre valeur je dois ce noble hommage</l>
+	<l id='889'>D'avouer que du ciel, irrité contre nous,</l>
+	<l id='890'>Spartacus a trop bien secondé le courroux :</l>
+	<l id='891'>Un grand coeur rend justice à son ennemi même,</l>
+	<l id='892'>Et je respecte en vous cette valeur suprême</l>
+	<l id='893'>Qui d'un puissant génie empruntant le ressort,</l>
+	<l id='894'>Et jugeant d'un coup d'oeil, indépendant du sort,</l>
+	<l id='895'>Ce que le lieu, le temps, l'occasion demande,</l>
+	<l id='896'>Fixe la destinée, ou plutôt lui commande...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='897'>Souffrez que j'interrompe un discours trop flatteur.</l>
+	<l id='898'>La victoire toujours ne suit pas la valeur :</l>
+	<l id='899'>Du succès trop souvent la fortune dispose.</l>
+	<l id='900'>Le ciel s'est déclaré pour la plus juste cause :</l>
+	<l id='901'>Il a favorisé l'ennemi des tyrans...</l>
+	<l id='902'>Mais, sans plus nous livrer a de vains compliments,</l>
+	<l id='903'>Qu'avez-vous résolu ? Vous voyez votre armée</l>
+	<l id='904'>Sans espoir de secours par la mienne enfermée ?</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='905'>L'avantage du poste est sans doute pour vous ;</l>
+	<l id='906'>Mais sachez, Spartacus, que nous avons pour nous</l>
+	<l id='907'>La nécessité même où nous sommes de vaincre.</l>
+	<l id='908'>Vous savez ( mille faits ont dû vous en convaincre )</l>
+	<l id='909'>Que rien n'est impossible à des coeurs obstinés,</l>
+	<l id='910'>Et que des grands périls les grands efforts sont nés.</l>
+	<l id='911'>Du sort toujours changeant prévenez l'inconstance.</l>
+	<l id='912'>Rome, qui sait priser votre haute vaillance,</l>
+	<l id='913'>À des conditions, que je viens apporter,</l>
+	<l id='914'>Avec vous aujourd'hui me permet de traiter.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='915'>Vous avec moi traiter ? Rome avec un rebelle,</l>
+	<l id='916'>Et dont la tête encore est proscrite par elle ?</l>
+	<l id='917'>D'un semblable traité le sénat rougirait,</l>
+	<l id='918'>En tirerait le fruit et vous désavouerait.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='919'>J'ai le droit de conclure ; il m'en laisse le maître...</l>
+	<l id='920'>Mais des faveurs du sort enorgueilli peut-être...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='921'>Non ; à votre malheur je suis loin d'insulter ;</l>
+	<l id='922'>Mais ces conditions qu'on me vient apporter,</l>
+	<l id='923'>J'avais cru que c'était à moi de les prescrire.</l>
+	<l id='924'>Au vainqueur d'ordonner, aux vaincus de souscrire.</l>
+	<l id='925'>Mais l'orgueil du Sénat ne se peut abaisser.</l>
+	<l id='926'>Je veux bien cependant ne m'en point offenser.</l>
+	<l id='927'>Sachons ce que par vous ce Sénat me propose.</l>
+	<l id='928'>Brisera-t-il le joug qu'à la terre il impose ?</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='929'>Vos soldats, Spartacus, seront faits citoyens ;</l>
+	<l id='930'>Rome à leur subsistance assignera des biens :</l>
+	<l id='931'>On fera chevalier le chef qui vous seconde ;</l>
+	<l id='932'>Avec nous au Sénat vous régirez le monde.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='933'>Du temps des Scipions j'aurais pu l'accepter ;</l>
+	<l id='934'>Rome était digne alors qu'on s'en fit adopter.</l>
+	<l id='935'>D'un perfide ennemi magnanime rivale,</l>
+	<l id='936'>Dans cette guerre, un temps pour elle si fatale,</l>
+	<l id='937'>Où le revers sans cesse amenait le revers,</l>
+	<l id='938'>Quel spectacle elle offrit aux yeux de l'univers !</l>
+	<l id='939'>Aux bords de sa ruine on la vit toujours ferme,</l>
+	<l id='940'>Aux succès d'Annibal marquer enfin leur terme,</l>
+	<l id='941'>Opposer au vainqueur un courage invaincu,</l>
+	<l id='942'>Et lasser le malheur à force de vertu.</l>
+	<l id='943'>Aujourd'hui qu'en son sein les richesses versées</l>
+	<l id='944'>Usurpent tout l'éclat des vertus éclipsées,</l>
+	<l id='945'>Que l'orgueil, l'avarice ont infecté vos coeurs,</l>
+	<l id='946'>Et que de l'univers avides oppresseurs,</l>
+	<l id='947'>Vous en avez conquis les trésors et les vices,</l>
+	<l id='948'>Que m'offrez-vous, sinon d'être un de vos complices ?</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='949'>Spartacus, vous jugez Rome par ses abus :</l>
+	<l id='950'>Croyez qu'on peut encore y trouver des vertus.</l>
+	<l id='951'>Vous connaissez Caton ; et si du grand Pompée</l>
+	<l id='952'>La valeur n'était pas loin de nous occupée,</l>
+	<l id='953' part='i'>Peut-être...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='953' part='f'>Son grand nom ne m'en impose pas ;</l>
+	<l id='954'>Mais tandis qu'en Asie il soumet des États,</l>
+	<l id='955'>Rome peut, dès demain, tomber en ma puissance.</l>
+	<l id='956'>Eh ! De quoi venez-vous flatter mon espérance ?</l>
+	<l id='957'>« Mes soldats, dites-vous, seront fait citoyens ;</l>
+	<l id='958'>Rome à leur subsistance assignera des biens :</l>
+	<l id='959'>Vous serez chevalier le chef qui me seconde ;</l>
+	<l id='960'>Avec vous au Sénat je régirai le monde... »</l>
+	<l id='961'>Mais peut-être demain, sénateurs, citoyens</l>
+	<l id='962'>Seront en mon pouvoir, ainsi que tous vos biens ;</l>
+	<l id='963'>J'ordonnerai du sort de tes maîtres du monde,</l>
+	<l id='964'>Je verrai sur quel droit ce grand titre se fonde,</l>
+	<l id='965'>Et si, soumettant tout aux lois du consulat,</l>
+	<l id='966'>Il faut que Rome soit, et qu'elle ait un sénat.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='967'>Craignez encor, craignez-d'y trouver des obstacles ;</l>
+	<l id='968'>Un noble désespoir enfante des miracles ;</l>
+	<l id='969'>L'espoir le mieux fondé souvent cache un revers ;</l>
+	<l id='970'>Enfin les dieux à Rome ont promis l'univers.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='971'>Du peuple cette fable éleva le courage :</l>
+	<l id='972'>On fit parler les dieux ; mais on leur fit outrage.</l>
+	<l id='973'>Tous les faibles mortels sont égaux à leurs yeux,</l>
+	<l id='974'>Et le droit d'opprimer n'émane point des cieux.</l>
+	<l id='975'>De quelque oracle enfin que Rome s'autorise,</l>
+	<l id='976'>Contre elle jusqu'ici le ciel me favorise,</l>
+	<l id='977' part='i'>Et j'espère...</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS, l'interrompant.</speaker>
+	<l id='977' part='f'>Le sort peut encor vous trahir.</l>
+	<l id='978'>Notre courage, au moins, ne se peut démentir.</l>
+	<l id='979'>Quoi qu'ordonne le ciel, Spartacus doit s'attendre</l>
+	<l id='980'>Que le dernier de nous périra sans se rendre.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='981' part='i'>C'est à vous d'en résoudre.</l>
+<stage>Crassus fait un mouvement pour se retirer, s'arrête, et, après un moment de silence, il revient sur ses pas.</stage>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='981' part='f'>Écoutez, Spartacus.</l>
+	<l id='982'>Vous connaissez les biens et le rang de Crassus ?</l>
+	<l id='983'>Prenez Rome pour mère, avec vous je m'allie.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='984' part='i'>Qu'entends-je ?... </l>
+<stage>À Crassus.</stage>
+	<l id='984' part='f'>Quoi ! Seigneur, votre fille Émilie...</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='985' part='i'>Elle-même.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='985' part='f'>Ah ! Cachons le trouble de mon coeur...</l>
+<stage>À Crassus.</stage>
+	<l id='986'>Crassus abaisserait jusque-là sa hauteur ?</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='987'>On ne s'abaisse point en sauvant sa patrie :</l>
+	<l id='988'>Le plus grand est celui qui plus lui sacrifie ;</l>
+	<l id='989'>Il n'est pour moi d'honneur, d'intérêt que le sien.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='990'>De votre fille ainsi joignant le sort au mien,</l>
+	<l id='991'>Et pour Rome et pour moi vous croiriez beaucoup faire ?...</l>
+	<l id='992'>Mais fussé-je sorti du sang le plus vulgaire ;</l>
+	<l id='993'>Je crois qu'au moins l'honneur est égal entre nous,</l>
+	<l id='994'>Si je daigne allier mes victoires à vous...</l>
+	<l id='995'>Pardonnez cet orgueil que le vôtre a fait naître...</l>
+	<l id='996'>Mais voici ma réponse, et vous m'allez connaître :</l>
+	<l id='997'>Émilie est le bien le plus cher à mes yeux ;</l>
+	<l id='998'>De vertu, de beauté chef-d'oeuvre précieux,</l>
+	<l id='999'>Elle est l'amour du ciel et l'honneur de la terre ;</l>
+	<l id='1000'>Quoique Romaine, enfin, elle m'a trop su plaire ;</l>
+	<l id='1001'>C'est vous dire à quel point je la dois estimer :</l>
+	<l id='1002'>Mais je serais, Seigneur, indigne de l'aimer,</l>
+	<l id='1003'>Elle désavouerait un si honteux empire,</l>
+	<l id='1004'>Si votre offre un moment avait pu me séduire,</l>
+	<l id='1005'>Si vous m'aviez pu faire un moment balancer.</l>
+	<l id='1006'>Pour être digne d'elle il faut y renoncer,</l>
+	<l id='1007'>Et ne point immoler, en m'unissant à Rome,</l>
+	<l id='1008'>La liberté du monde à l'intérêt d'un homme.</l>
+	<l id='1009'>Je n'achèterai point mon bonheur à ce prix.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1010' part='i'>Que résolvez-vous donc ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1010' part='f'>Il n'est que deux partis ;</l>
+	<l id='1011'>Je le dis à regret : ou combattre ou vous rendre.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS, fièrement.</speaker>
+	<l id='1012'>Combattre donc... Adieu... Nous allons vous attendre ;</l>
+	<l id='1013'>Et si notre vertu ne peut nous secourir,</l>
+	<l id='1014'>Il n'est point deux partis : il n'en est qu'un, mourir.</l>
+<stage>	Il sort avec sa suite.</stage>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, seul.</speaker>
+	<l id='1015'>À quelle épreuve, ô ciel ! Il a mis mon courage !...</l>
+	<l id='1016'>Sa fille !... Quel trésor eût été mon partage !</l>
+	<l id='1017'>Il l'offrait à mes voeux ; j'eusse été son époux...</l>
+	<l id='1018'>Qui l'eût dit qu'un mortel refusât d'être à vous,</l>
+	<l id='1019'>Adorable Émilie ?... Ô devoir trop funeste !</l>
+	<l id='1020'>Si je la perds, hélas ! Que m'importe le reste ?...</l>
+	<l id='1021'>Je ne sais ; mais je sens qu'en mon coeur combattu,</l>
+	<l id='1022'>Le consul, sa présence animait ma vertu...</l>
+	<l id='1023'>Que dis-je ?... Ah ! Malheureux ! Souviens-toi de ta mère !</l>
+	<l id='1024'>Tu lui promis vengeance ; il faut la satisfaire,</l>
+	<l id='1025'>Entends les cris plaintifs de ses mânes sanglants,</l>
+	<l id='1026'>Qui du séjour des morts réclament tes serments ;</l>
+	<l id='1027'>Vois d'indignation sa grande ombre éperdue,</l>
+	<l id='1028'>Demander si tu veux que sa mort soit perdue,</l>
+	<l id='1029'>Te montrer ce poignard qui déchira son flanc...</l>
+	<l id='1030'>Je ne serai point sourd au cri de votre sang,</l>
+	<l id='1031'>Ma mère... Votre fils ne sera point parjure.</l>
+	<l id='1032'>Non, vous serez vengée... et, de nouveau, j'en jure,</l>
+	<l id='1033'>Rome, tu périras... On ne te verra plus </l>
+	<l id='1034'>À ton char insolent traîner les rois vaincus,</l>
+	<l id='1035'>T'enivrer de l'opprobre où ta rage les livre,</l>
+	<l id='1036'>Et leur faire, à ce prix, payer l'affront de vivre...</l>
+	<l id='1037'>Et vous à qui j'immole aujourd'hui mon bonheur,</l>
+	<l id='1038'>Vengeance, liberté, remplissez tout mon coeur.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCENE I.</head>
+<sp who='NORICUS'><speaker>NORICUS, seul.</speaker>
+	<l id='1039'>Crassus voulait traiter ; Spartacus s'y refuse :</l>
+	<l id='1040'>Seul il décide en maître... Et quant à son excuse,</l>
+	<l id='1041'>Je ne sais si j'en dois demeurer satisfait.</l>
+	<l id='1042'>Plus il s'est montré grand, et plus mon coeur le hait...</l>
+	<l id='1043'>Oui, mon âme, en secret, combattue, incertaine, </l>
+	<l id='1044'>À lui bien pardonner ne se résout qu'à peine. </l>
+	<l id='1045'>Je sens qu'au fond du coeur le trait est demeuré...</l>
+	<l id='1046'>Crassus me promet tout, Crassus désespérée...</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Spartacus, Les Chefs de l'Armée, Noricus.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1047'>Tout est prêt pour l'attaque ; et, par des cris de rage, </l>
+	<l id='1048'>Du soldat frémissant l'impatient courage</l>
+	<l id='1049'>Appelle le combat, et presse le signal.</l>
+	<l id='1050'>Ce jour aux ennemis ne peut qu'être fatal.</l>
+	<l id='1051'>Rome, Rome aujourd'hui sera notre conquête.</l>
+<stage>À Noricus.</stage>
+	<l id='1052'>Rejoignez vos Gaulois; mettez-vous à leur tête...</l>
+<stage>Aux chefs.</stage>
+	<l id='1053'>Que par chacun de vous, à son poste rendu,</l>
+	<l id='1054'>Le signal du combat, l'ordre soit attendu...</l>
+	<l id='1055' part='i'>Allez.</l>
+<stage>Noricus et les chefs de l'armée sortent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS, seul.</speaker>
+	<l id='1055' part='f'>Enfin mon coeur peut former l'espérance...</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Albin, Spartacus.</head>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='1056'>La fille du consul en ce moment s'avance.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='1057' part='i'>Ciel ! Émilie !...</l>
+<stage>À Albin.</stage>
+	<l id='1057' part='f'>Albin, je ne la veux point voir...</l>
+	<l id='1058' part='i'>Volez, que de ces lieux...</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN, voyant entrer Émilie.</speaker>
+	<l id='1058' part='m'>La voici.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Émilie, Spartacus.</head>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1058' part='f'>Quel espoir,</l>
+	<l id='1059'>Madame, quel dessein en mon camp vous ramène ?</l>
+	<l id='1060'>Le consul se rend-il, quand sa perte est certaine ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1061'>Le plus saint des devoirs commande, et j'obéis.</l>
+	<l id='1062'>Le salut de Crassus, celui de mon pays ;</l>
+	<l id='1063'>Voilà ce qui m'amène ; et la fière Émilie,</l>
+	<l id='1064'>Qui mille fois plutôt prodiguerait sa vie,</l>
+	<l id='1065'>Mais qu'un si grand motif condamne à s'oublier,</l>
+	<l id='1066'>Croit te pouvoir pour eux dignement supplier.</l>
+	<l id='1067'>Je n'ai pour y venir consulté que moi-même...</l>
+	<l id='1068'>Ce que j'ose tenter en ce péril extrême,</l>
+	<l id='1069'>Prête pour ma patrie à me sacrifier,</l>
+	<l id='1070'>Le succès doit l'absoudre, ou ma mort l'expier.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1071'>Votre coeur, Émilie, est grand et magnanime,</l>
+	<l id='1072'>Et si j'ai pu forcer ce coeur à quelque estime,</l>
+	<l id='1073'>Si le mien fut par vous digne d'être vaincu,</l>
+	<l id='1074'>Vous ne voudriez pas lui ravir sa vertu ?</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1075'>Non ; et pour le salut de mon père et de Rome,</l>
+	<l id='1076'>S'il fallait immoler la vertu d'un grand homme,</l>
+	<l id='1077'>J'aurais su, respectant un devoir rigoureux,</l>
+	<l id='1078'>Ne te rien demander, et périr avec eux.</l>
+	<l id='1079'>Mais toi-même, aujourd'hui, crains de souiller ta gloire ;</l>
+	<l id='1080'>Ne prends point pour vertu l'abus de la victoire ;</l>
+	<l id='1081'>Et sache que souvent l'ivresse de l'orgueil</l>
+	<l id='1082'>Égara le vainqueur et marqua son écueil.</l>
+	<l id='1083'>Eh ! Qu'a-t-on proposé dont ta vertu s'offense ?</l>
+	<l id='1084'>Crassus t'offre la pourpre avec son alliance :</l>
+	<l id='1085'>Il s'honore sans doute en s'alliant à toi ;</l>
+	<l id='1086'>Mais que veux-tu de plus (sans te parler de moi)</l>
+	<l id='1087'>Que d'avoir pu forcer les souverains du monde</l>
+	<l id='1088'>À partager ce titre où leur orgueil se fonde,</l>
+	<l id='1089'>Avec ce même esclave, objet de leur mépris,</l>
+	<l id='1090'>Dont ils mettaient la tête indignement à prix ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1091'>Ah ! Loin de Spartacus cet indigne partage !</l>
+	<l id='1092'>J'aurais donc combattu pour mon seul avantage ?</l>
+	<l id='1093'>Je ne mériterais qu'un opprobre éternel,</l>
+	<l id='1094'>Si le vil intérêt d'agrandir un mortel</l>
+	<l id='1095'>M'eût fait rougir de sang vos fleuves et vos plaines :</l>
+	<l id='1096'>Non... Tout est abattu sous les aigles romaines ;</l>
+	<l id='1097'>La terre gémissante appelait un vengeur ;</l>
+	<l id='1098'>J'osai l'être. À son tour Rome craint un vainqueur :</l>
+	<l id='1099'>Je n'aurai point en vain confondu son audace,</l>
+	<l id='1100'>Ni vaincu des tyrans pour me mettre en leur place.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1101'>Ah ! De ce grand projet jugeant sans passion.</l>
+	<l id='1102'>Connais-en, Spartacus, toute l'illusion.</l>
+<note type="L">Tibre : fleuve qui délimitait alors la frontière de la ville de Rome.</note>
+	<l id='1103'>Tu veux voir l'univers indépendant du Tibre ?...</l>
+	<l id='1104'>Mais on veut dominer aussitôt qu'on est libre ;</l>
+	<l id='1105'>Et tu verrais bientôt l'un contre l'autre armés,</l>
+	<l id='1106'>Opprimant tour à tour, tour à tour opprimés,</l>
+	<l id='1107'>Les peuples ravager et désoler la terre.</l>
+	<l id='1108'>Il faut, pour en bannir les malheurs et la guerre,</l>
+	<l id='1109'>Qu'un seul peuple commande et tienne les vaincus</l>
+	<l id='1110'>Soumis par sa puissance, heureux par ses vertus.</l>
+	<l id='1111'>Les Romains sont ce peuple. En grands hommes féconde,</l>
+	<l id='1112'>Bienfaitrice à la fois et maîtresse du monde,</l>
+	<l id='1113'>Si Rome sous ses lois a su tout asservir,</l>
+	<l id='1114' part='i'>C'est pour tout rendre heureux.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1114' part='f'>Dites pour tout ravir.</l>
+	<l id='1115'>La guerre est moins cruelle et fait moins de ravage</l>
+	<l id='1116'>Que cette affreuse paix, fille de l'esclavage ;</l>
+	<l id='1117'>Elle est peur les États le sommeil de la mort.</l>
+	<l id='1118'>Rome, il faut l'avouer, eut des vertus d'abord,</l>
+	<l id='1119'>Fruit de son premier âge et de sa politique ;</l>
+	<l id='1120'>Ce n'est plus aujourd'hui qu'un faste tyrannique :</l>
+	<l id='1121'>Son luxe insatiable engloutit les États ;</l>
+	<l id='1122'>L'univers est sa proie, et ne lui suffit pas.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1123'>Eh bien ! Si le poison de nos destins prospères</l>
+	<l id='1124'>A pu corrompre en nous la vertu de nos pères,</l>
+<note type="L">Caius Fabricius Luscinus : ou Lucinus, consul romain en l'an 282 puis en 278 et enfin consul en 275 avant JC, il était réputé pour sa pauvreté et son intégrité.</note>
+	<l id='1125'>De Fabrice aujourd'hui si ce n'est plus le temps,</l>
+	<l id='1126'>Viens ; par Rome adopté, sois tin de ses enfants </l>
+	<l id='1127'>Viens ; et que parmi nous ton exemple ranime</l>
+	<l id='1128'>Ce noble oubli de soi, cette vertu sublime,</l>
+	<l id='1129'>Où jadis les Romains n'eurent point de rivaux,</l>
+	<l id='1130'>Et qui fit de ce peuple un peuple de héros.</l>
+	<l id='1131'>Tu sus vaincre ; il te reste une plus noble gloire ;</l>
+	<l id='1132'>Fais croître l'olivier au champ de la victoire.</l>
+	<l id='1133'>Rappelle avec la paix nos vertus et nos moeurs :</l>
+	<l id='1134'>Venge-toi des Romains en les rendant meilleurs.</l>
+	<l id='1135'>Tu suis, en furieux, une aveugle colère ;</l>
+	<l id='1136'>Souffre que la raison et te parle et t'éclaire ;</l>
+	<l id='1137'>J'ose t'en conjurer, Spartacus, tu le dois,</l>
+	<l id='1138'>Pour l'intérêt de tous, pour ta gloire, pour toi...</l>
+	<l id='1139'>Pour Émilie enfin ; permets que je me nomme,</l>
+	<l id='1140'>Si tu ne me confonds dans ta haine pour Rome.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1141'>Qui ? Moi, vous y confondre !... Ô ciel ! Moi, vous haïr !</l>
+	<l id='1142'>Ah ! Croyez que mon coeur, tout prêt à se trahir,</l>
+	<l id='1143'>Souffre encor plus que vous de tant de résistance :</l>
+	<l id='1144'>Plût au ciel que ce coeur, qui se fait violence,</l>
+	<l id='1145'>N'eût à sacrifier que son ressentiment !</l>
+	<l id='1146'>Maître de se venger, on pardonne aisément ;</l>
+	<l id='1147'>Mais des peuples sur moi la liberté se fonde,</l>
+	<l id='1148'>Et Rome doit périr pour le salut du monde.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1149'>Cruel ! c'est donc par moi qu'il te faut commencer.</l>
+	<l id='1150'>Tu me vois dans ton camp, mais tu peux bien penser</l>
+	<l id='1151'>Que si, pour l'intérêt de la plus noble cause,</l>
+	<l id='1152'>Franchissant les devoirs que mon sexe m'impose, </l>
+	<l id='1153'>J'ai du salut public fait ma suprême loi,</l>
+	<l id='1154'>La mort ou le succès sont ce que je me dois...</l>
+<stage>Lui montrant un poignard.</stage>
+	<l id='1155' part='i'>Ce poignard....</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='1155' part='m'>Arrêtez... Ciel !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, le poignard levé sur elle.</speaker>
+	<l id='1155' part='f'>J'attends ta réponse.</l>
+	<l id='1156'>Sauve Rome et mon père, ou je péris... Prononce.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1157' part='i'>À quel horrible choix...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCENE VI. Albin, Spartacus, Émilie.</head>
+<sp who='ALBIN'><speaker>ALBIN, à Spartacus.</speaker>
+	<l id='1157' part='f'>Seigneur, tout est perdu ; </l>
+	<l id='1158'>Noricus aux Romains secrètement vendu, </l>
+	<l id='1159'>Fond avec tous les siens, d'un côté ; sur les nôtres, </l>
+	<l id='1160'>Tandis que les Romains attaquent de deux autres.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à part.</speaker>
+	<l id='1161' part='i'>Ciel !</l>
+</sp>
+<sp who='ALBIN'><speaker>ALBIN.</speaker>
+	<l id='1161' part='f'>Déjà dans les rangs le désordre s'est mis.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, à Émilie.</speaker>
+	<l id='1162' part='i'>Perfide !...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1162' part='m'>Vous croiriez ?...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='1162' part='f'>Je vole aux ennemis.</l>
+<stage>Il sort avec Albin.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='ÉMILIE'><speaker>ÉMILIE, seule.</speaker>
+	<l id='1163'>Que j'ai peu mérité ce reproche funeste !...</l>
+	<l id='1164'>Mais, hélas ! On combat, nul espoir ne me reste...</l>
+	<l id='1165'>Malheureux Spartacus !... Ah ! Tu me connais mal...</l>
+	<l id='1166'>Si tu voyais mon coeur en cet instant fatal,</l>
+	<l id='1167'>Tu ne te plaindrais pas de la triste Émilie...</l>
+	<l id='1168'>C'est elle cependant qui t'arrache la vie ;</l>
+	<l id='1169'>En t'arrêtant ici, j'ai causé ton malheur....</l>
+	<l id='1170'>Tu péris, et c'est moi qui te perce le coeur...</l>
+<stage>On entend le bruit d'un combat.</stage>
+	<l id='1171'>Ciel !... Mais tout retentit du bruit affreux des armes...</l>
+	<l id='1172'>Il redouble, il s'approche... Ô mortelles alarmes !</l>
+	<l id='1173'>On force cette tente ; et, le fer à la main,</l>
+	<l id='1174'>Mon père... Ah ! Spartacus, quel sera ton destin ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Crassus, suivi d'un gras de Romains ; Émilie.</head>
+<sp who='CRASSUS'><speaker>CRASSUS, à l'un des Romains.</speaker>
+	<l id='1175'>Allez que la poursuite achève leur défaite :</l>
+	<l id='1176'>Qu'à Spartacus surtout on coupe la retraite.</l>
+	<l id='1177'>S'il n'est en mon pouvoir, ce fatal ennemi,</l>
+	<l id='1178'>Je croirai que mon bras n'a vaincu qu'a demi...</l>
+<stage>À Émilie.</stage>
+	<l id='1179' part='i'>Ah ! Ma fille...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1179' part='f'>Seigneur, peut-être avec surprise...</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS, l'interrompant.</speaker>
+	<l id='1180'>Non ; j'ai connu ton zèle, et vu ton entreprise.</l>
+	<l id='1181'>Ton père, par prudence, a feint de l'ignorer ;</l>
+	<l id='1182'>Aux Gaulois cependant faisant tout espérer,</l>
+	<l id='1183'>J'ai su de Noricus fixer l'âme flottante,</l>
+	<l id='1184'>Et je rentre en vainqueur dans cette même tente</l>
+	<l id='1185'>Où, prête à succomber sous un autre Annibal,</l>
+	<l id='1186'>J'ai vu Rome toucher à son terme fatal.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1187' part='i'>Daignez...</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS, l'interrompant.</speaker>
+	<l id='1187' part='f'>Je t'avouerai qu'à regret je l'accable,</l>
+	<l id='1188'>Que mon coeur envers lui se connaît redevable, </l>
+	<l id='1189'>Et voudrait se montrer généreux à son tour ;</l>
+	<l id='1190'>Mais Rome doit trembler tant qu'il verra le jour...</l>
+	<l id='1191' part='i'>Oui... Messala s'avance.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Messala, Crassus, Émilie, suite.</head>
+<sp who='CRASSUS'><speaker>CRASSUS, à Messala.</speaker>
+	<l id='1191' part='f'>Eh bien ! Quelle nouvelle ?</l>
+	<l id='1192' part='i'>Est-il pris ?</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='1192' part='m'>Oui, Seigneur.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, à part.</speaker>
+	<l id='1192' part='f'>Ô fortune cruelle !</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA, à Crassus.</speaker>
+	<l id='1193'>Devant vous, à l'instant, vous l'allez voir venir;</l>
+	<l id='1194'>Et je me suis hâté pour vous en prévenir.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1195'>Lui vivant, Messala, qu'il se soit laissé prendre!</l>
+	<l id='1196'>Eh ! Comment a-t-on pu le forcer à se rendre ?</l>
+</sp>
+<sp who='MESSALA'><speaker>MESSALA.</speaker>
+	<l id='1197'>D'incroyables efforts ont signalé son bras ;</l>
+	<l id='1198'>Nous l'avons vu trois fois rallier ses soldats ;</l>
+	<l id='1199'>Terrible, et tout couvert de sang et de poussière,</l>
+	<l id='1200'>Des nôtres renverser l'impuissante barrière,</l>
+	<l id='1201'>Et pénétrer enfin jusqu'à nos derniers rangs,</l>
+	<l id='1202'>Entouré d'un rempart de morts et de mourants.</l>
+	<l id='1203'>Mais, presque seul, il voit deux légions nouvelles,</l>
+	<l id='1204'>Qui, pour l'environner, développant leurs ailes,</l>
+	<l id='1205'>Ne laissent à son choix que les fers ou la mort.</l>
+	<l id='1206'>Sa main contre son sein s'allait tourner d'abord,</l>
+	<l id='1207'>Quand le chef des Gaulois s'est offert à sa vue.</l>
+	<l id='1208'>De rage, à cet aspect, sa grande âme est émue ;</l>
+	<l id='1209'>Il pousse un cri, s'élance, et, plus prompt que l'éclair,</l>
+	<l id='1210'>Aux yeux de Noricus il fait briller le fer,</l>
+	<l id='1211'>Le plonge dans son sein : la pointe étincelante</l>
+	<l id='1212'>Perce de part en part, et sort toute sanglante.</l>
+	<l id='1213'>Noricus à ses pieds roule en se débattant ;</l>
+	<l id='1214'>Le fer reste engagé dans son sein palpitant.</l>
+	<l id='1215'>Le bras de Spartacus se trouve sans défense,</l>
+	<l id='1216'>Et ce grand homme alors, cédant avec constance...</l>
+	<l id='1217' part='i'>Mais le voici, Seigneur.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, à part.</speaker>
+	<l id='1217' part='f'>Quel spectacle, grands dieux !</l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Spartacus, Crassus, Émilie, Messala, suite.</head>
+<sp who='CRASSUS'><speaker>CRASSUS, à Spartacus.</speaker>
+	<l id='1218'>Je ne veux point vous faire un reproche odieux,</l>
+	<l id='1219'>Spartacus ; mais votre âme inflexible et superbe</l>
+	<l id='1220'>Voulait voir nos remparts ensevelis sous l'herbe.</l>
+	<l id='1221' part='i'>De tout ce grand projet que reste-t-il ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1221' part='f'>L'honneur.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1222'>Ah ! Si consultant moins une aveugle fureur...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='1223'>Brave-moi ; tu le peux. Réduit à son courage,</l>
+	<l id='1224'>Le malheureux se tait, et le lâche l'outrage.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1225'>Non, Spartacus ; je sais respecter le malheur,</l>
+	<l id='1226' part='i'>Et je vous plains.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1226' part='f'>Crassus, par trahison vainqueur,</l>
+	<l id='1227'>Tout affreux qu'est mon sort, doit l'envier peut-être.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1228'>Au salut des Romains j'ai fait servir un traître ;</l>
+	<l id='1229' part='i'>Je l'ai dû.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1229' part='f'>De Pyrrhus que dirait le vainqueur ?...</l>
+<stage>À part.</stage>
+	<l id='1230'>Que diriez-vous, Romains, dont la vieille candeur</l>
+	<l id='1231'>Imprima le respect à la terre étonnée,</l>
+	<l id='1232'>Et fonda sur l'honneur la haute destinée.</l>
+	<l id='1233'>Sous qui Rome aujourd'hui, tenant tout abattu,</l>
+	<l id='1234'>Croit pouvoir désormais se passer de vertu ?</l>
+</sp>
+</div2>
+<div2 type='acte' n='11'><head>SCÈNE XI. Un Tribun, Spartacus, Crassus, Émilie, Messala, suite.</head>
+<sp who='ÉMILIE'><speaker>ÉMILIE, à Crassus.</speaker>
+	<l id='1235'>Près d'ici ralliée, une troupe ennemie</l>
+	<l id='1236'>Grossit à chaque instant et marche avec furie.</l>
+	<l id='1237'>À ses premiers efforts deux postes ont cédé.</l>
+</sp>
+<sp who='CRASSUS'><speaker>CRASSUS, à quelques soldats de sa suite.</speaker>
+	<l id='1238'>Il faut la voir... Qu'ici Spartacus soit gardé.</l>
+<stage>Il sort avec Messala, le tribun et une partie de sa suite.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Spartacus, Émilie, Gardes.</head>
+<sp who='ÉMILIE'><speaker>ÉMILIE, aux gardes, en leur montrant Spartacus.</speaker>
+	<l id='1239'>Je veux l'entretenir. Sans le perdre de vue,</l>
+	<l id='1240' part='i'>Gardes, éloignez-vous.</l>
+<stage>Les gardes se retirant au fond du théâtre.</stage>
+<stage>À part.</stage>
+	<l id='1240' part='f'>Que je me sens émue !...</l>
+<stage>À Spartacus. </stage>
+	<l id='1241' part='i'>Spartacus !... </l>
+<stage>À part.</stage>
+	<l id='1241' part='f'>Ciel ! Il garde un silence glacé,</l>
+	<l id='1242'>Un morne désespoir sur son front est tracé ;</l>
+	<l id='1243'>Il ne voit, n'entend rien... Ce spectacle me tue...</l>
+<stage>À Spartacus.</stage>
+	<l id='1244'>Spartacus ! Ah ! Sur moi, du moins, tourne la vue.</l>
+	<l id='1245'>L'excès de ma douleur ne peut te consoler ;</l>
+	<l id='1246'>N'importe... Vois mes pleurs, et daigne me parler.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1247'>En l'état où je suis que pourrais-je vous dire ?</l>
+	<l id='1248'>Je suis vaincu, captif... Ô ciel ! Et je respire !</l>
+	<l id='1249'>Me plaindrai-je d'un traître, immolé par mes mains,</l>
+	<l id='1250'>Ou des dieux en courroux, protecteurs des Romains ?</l>
+	<l id='1251'>Non, Madame, la plainte est indigne d'un homme. </l>
+	<l id='1252'>Sans accuser les dieux, ni Noricus, ni Rome,</l>
+	<l id='1253'>Qu'elle soumette tout à ses heureux forfaits :</l>
+	<l id='1254'>Prêt à subir mon sort, je souffre et je me tais.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1255'>Plus ton courage est grand, plus ton malheur me touche ; </l>
+	<l id='1256'>Mais dépose avec moi cet air sombre et farouche...</l>
+	<l id='1257'>De l'amour s'il est vrai que tu sentis les feux...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant.</speaker>
+	<l id='1258'>Écoute-t-on l'amour en ces moments affreux ?</l>
+	<l id='1259' part='i'>Et vous-même osez-vous...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant à son tour.</speaker>
+	<l id='1259' part='f'>Oui, cruel ! On l'écoute :</l>
+	<l id='1260'>Oui, l'aveu que j'en fais n'a plus rien qui me coûte,</l>
+	<l id='1261'>Puisque, hélas ! Cet amour n'offre plus à mon coeur</l>
+	<l id='1262'>De partage avec toi que celui du malheur.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1263' part='i'>Quoi ! De la trahison vous au moins la complice,</l>
+	<l id='1264' part='i'>Vous...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='1264' part='f'>Tu ne le crois pas : non, tu me rends justice.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1265'>Eh bien ! Prouvez-le donc : et si je vous suis cher....</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='1266' part='i'>Parle, qu'exiges-tu ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1266' part='f'>Le poison ; ou le fer.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1267' part='i'>Quelle preuve d'amour !</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1267' part='f'>Ma honte se prépare ;</l>
+	<l id='1268' part='i'>Songez...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1268' part='f'>Ah ! Pour aimer faut-il être barbare ?</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1269'>D'un magnanime amour c'est le plus digne effort ;</l>
+	<l id='1270'>Mais de m'abandonner aux horreurs de mon sort,</l>
+	<l id='1271'>De m'en laisser subir toute l'ignominie,</l>
+	<l id='1272'>Voilà ce qu'il faudrait appeler barbarie !...</l>
+<stage>Avec indignation , en la voyant pleurer.</stage>
+	<l id='1273' part='i'>Vous répandez des pleurs.</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1273' part='f'>Non... Je n'en verse plus,</l>
+	<l id='1274'>Spartacus... Non, tes voeux ne seront point déçus ;</l>
+	<l id='1275'>Mon coeur va les remplir, et tu vas me connaître ; </l>
+	<l id='1276'>Tu vas voir si ce coeur, digne du tien peut-être,</l>
+	<l id='1277'>Dut être soupçonné de t'avoir pu trahir...</l>
+	<l id='1278'>Il ne te reste plus, sans doute, qu'à mourir.</l>
+	<l id='1279'>Annibal s'immola persécute par Rome ;</l>
+	<l id='1280'>Il te faut dans sa fin imiter ce grand homme :</l>
+	<l id='1281'>Ta vie a surpassé sa gloire et ses travaux...</l>
+	<l id='1282'>Je te dois les moyens de mourir en héros.</l>
+<stage>Lui montrant un poignard.</stage>
+	<l id='1283'>Reçois donc ce poignard, dont je m'étais armée</l>
+	<l id='1284'>Quand pour Rome tantôt justement alarmée...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, l'interrompant, et voulant prendre le poignard.</speaker>
+	<l id='1285'>Donnez... Ah ! Ce présent ne se peut trop chérir !</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, se frappant du poignard, et le lui présentant ensuite.</speaker>
+	<l id='1286' part='i'>Tiens...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1286' part='m'>Ciel !...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE.</speaker>
+	<l id='1286' part='f'>Prends !... C'est ainsi que j'ai dû te l'offrir.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, prenant le poignard.</speaker>
+	<l id='1287'>Trop généreuse, hélas !... Trop cruelle Émilie !...</l>
+	<l id='1288'>Qu'avez-vous fait ? Faut-il qu'au prix de votre vie...</l>
+</sp>
+<sp who='ÉMILIE'><speaker>ÉMILIE, l'interrompant.</speaker>
+	<l id='1289'>Tu vois si je t'aimais, Spartacus ?... Je me meurs.</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS, se frappant du poignard.</speaker>
+	<l id='1290' part='i'>Je vous suis...</l>
+<stage>Les gardes, oui sont accourus lorsqu'ils ont vu briller le poignard, les reçoivent tous deux.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. Crassus, Spartacus, Émilie, Gardes.</head>
+<sp who='CRASSUS'><speaker>CRASSUS.</speaker>
+	<l id='1290' part='f'>Tout a fui, nos drapeaux sont vainqueurs...</l>
+<stage>À Spartacus.</stage>
+	<l id='1291'>Que vois-je ? Juste ciel !... Quoi ! Ma fille... Ah ! Barbare...</l>
+</sp>
+<sp who='SPARTACUS'><speaker>SPARTACUS.</speaker>
+	<l id='1292'>D'amour et de vertu ta fille exemple rare, </l>
+	<l id='1293'>Tout fumant de son sang m'a remis ce poignard ;</l>
+	<l id='1294'>Je lui dois le bonheur d'échapper à ton char.</l>
+	<l id='1295'>Spartacus expirant brave l'orgueil du Tibre :</l>
+	<l id='1296'>Il vécut non sans gloire, et meurt en homme libre.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

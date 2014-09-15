@@ -1,0 +1,4401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+<teiHeader>
+
+	<fileDesc>
+
+		<titleStmt>
+
+			<title>THÉSÉE, TRAGÉDIE</title>
+
+			<author born='1635' born_location='Paris' death='1688' death_location='Paris' academie='1670'>QUINAULT, Philippe</author>
+
+			<date>1688</date>
+
+		</titleStmt>
+
+		<publicationStmp>	
+
+			<p>publié par Paul FIEVRE</p><p>Juin 2006</p>
+
+		</publicationStmp>
+
+		<SourceDesc>
+
+				<genre>Tragédie en musique</genre>	
+
+				<inspiration>mythe grec</inspiration>
+
+				<structure>Cinq actes, un prologue</structure>
+
+				<type>vers</type>
+
+				<periode>1681-1690</periode>
+
+				<taille>1250-1500</taille>
+
+				<permalien></permalien>
+
+				<sources>
+
+					<source id="1"/>
+
+				</sources>	
+
+	
+
+		</SourceDesc>
+
+	</fileDesc>
+
+</teiHeader>
+
+<text>
+
+	<front>
+
+		<docTitle>
+
+			<titlePart type="main">THÉSÉE</titlePart>
+
+			<titlePart type="sub">TRAGÉDIE en musique ornée d'entrées de ballets, de machines et de changements de théâtre, représentée devant S. M., à Saint-Germain en Laye, le onzième jour de janvier 1675.</titlePart>
+
+		</docTitle>
+
+		<docDate value='1688'>1688</docDate>
+
+		<docAuthor id='QUINAULT, Philippe' bio='quinault'>Philippe Quinault</docAuthor>
+
+		<docImprint>
+
+			<privilege id='16**-**-**'>**16**</privilege>
+
+			<acheveImprime id='16**-**-**'></acheveImprime>
+
+			<printer id='**'></printer>
+
+		</docImprint>
+
+		<performance>
+
+			<premiere date="1675-01-11" location='Château de Saint-Germain-en-Laye'>Représenté pour la première fois le 11 janvier 1675 au Château de Saint-Germain-en-Laye.</premiere>
+
+		</performance>
+
+		<castList><head>ACTEURS du PROLOGUE.</head>
+
+			<castItem><role id="CHOEUR_GRACES" civil='G'>CHOEUR DE GRÂCES, de plaisirs et de jeux</role>.</castItem>
+
+			<castItem><role id="GRACES" civil='G'>DEUX GRÂCES</role>.</castItem>
+
+			<castItem><role id="PLAISIRS_JEUX" civil='G'>Les plaisirs et les jeux chantants</role>.</castItem>
+
+			<castItem><role id="BACCHUS" civil='D'>BACCHUS</role>.</castItem>
+
+			<castItem><role id="VENUS" civil='D'>VÉNUS</role>.</castItem>
+
+			<castItem><role id="CÉRÈS" civil='F'>CÉRÈS</role>.</castItem>
+
+			<castItem><role id="MARS" civil='M'>MARS</role>.</castItem>
+
+			<castItem><role id="BELLONE" civil='F'>BELLONE</role>.</castItem>
+
+			<castItem><role id="MOISONNEURS" civil='G'>TROUPE DE MOISONNEURS</role>  qui suivent Cérès.</castItem>
+
+			<castItem><role id="SYLVAINS" civil='G'>TROUPE DE SYLVAINS et des BACCHANTES</role> qui suivent Bacchus.</castItem>
+
+			<castItem><role id="FAUNES" civil='G'>FAUNES</role> de la suite de Bacchus dansants.</castItem>
+
+			<castItem><role id="BACCHANTES" civil='G'>BACCHANTES</role> suivantes de Bacchus dansantes.</castItem>
+
+			<castItem><role id="SUIVANTS-DE-CÉRÈS" civil='G'>SUIVANTES de CÉRÈS</role> dansantes.</castItem>
+
+		</castList>
+
+		
+
+		<castList><head>ACTEURS de la TRAGÉDIE</head>
+
+			<castItem><role id="CHOEUR-DE-COMBATTANTS">CHOEUR DE COMBATTANTS</role>.</castItem>
+
+			<castItem><role id="AEGLÉ">AEGLÉ</role>.</castItem>
+
+			<castItem><role id="CLÉONE">CLÉONE</role>, confidente d'AEglé.</castItem>
+
+			<castItem><role id="ARCAS">ARCAS</role>.</castItem>
+
+			<castItem><role id="GRANDE_PRETRESSE">LA GRANDE PRÊTRESSE de MINERVE</role>.</castItem>
+
+			<castItem><role id="AEGÉE">AEGÉE</role>, roi d'Athenes.</castItem>
+
+			<castItem><role id="SUIVANTS-D-AEGÉE">Suivants d'AEGÉE</role>.</castItem>
+
+			<castItem><role id="LE-CHOEUR-DE-PRETRESSES">CHOEUR DE PRÊTRESSES de Minerve</role>.</castItem>
+
+			<castItem><role id="SACRIFICATEURS">Troupe de sacrificateurs de Minerve</role>.</castItem>
+
+			<castItem><role id="MEDEE">MÉDÉE</role>, princesse magicienne.</castItem>
+
+			<castItem><role id="DORINE">DORINE</role>, confidente de Médée.</castItem>
+
+			<castItem><role id="CHOEUR_ATHENES">Choeur de troupes de la populace d'Athènes</role>.</castItem>
+
+			<castItem><role id="THESEE">THÉSÉE</role>, fils inconnu d'AEgée roi d'Athènes.</castItem>
+
+			<castItem><role id="FANTOME">Un fantôme</role>.</castItem>
+
+			<castItem><role id="LUTINS">Troupe de lutins</role>.</castItem>
+
+			<castItem><role id="CHOEUR_ENFER">Choeur des habitants des Enfers</role>.</castItem>
+
+		</castList>
+
+		<set location='Athènes' country='Grèce' periode='Temps mythologiques' link=''>La scène est à Athènes.</set>
+
+	</front>
+
+<body>
+
+<div1 type="prologue" n="0"><head>PROLOGUE</head>
+
+<stage>La scène du prologue est dans les jardins de Versailles. Le théâtre représente les jardins et la façade du palais de Versailles.</stage>
+
+<div2 type="scene" n="1"><head>Choeur d'amours, de grâces, de plaisirs, et de jeux. Les jeux et les amours ne règnent pas toujours.</head>
+
+
+
+<sp who="PLAISIR"><speaker>UN PLAISIR.</speaker>
+
+	<l id="1">Le maître de ces lieux n'aime que la victoire,</l>
+
+	<l id="2">Il en fait ses plus chers désirs :</l>
+
+	<l id="3">Il néglige ici les plaisirs,</l>
+
+	<l id="4">Et tous ses soins sont pour la gloire.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="5">Les jeux et les amours</l>
+
+	<l id="6">Ne règnent pas toujours.</l>
+
+</sp>
+
+<sp who="PLAISIR"><speaker>UN PLAISIR</speaker>
+
+	<l id="7">C'était dans ces jardins, au bord de ces fontaines,</l>
+
+	<l id="8">Que l'aimable mère d'amour</l>
+
+	<l id="9">Espérait d'établir sa bienheureuse cour :</l>
+
+	<l id="10">Mais ses espérances sont vaines.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="11">Les jeux et les amours</l>
+
+	<l id="12">Ne règnent pas toujours.</l>
+
+</sp>
+
+<sp who="JEU"><speaker>UN DES JEUX</speaker>
+
+	<l id="13">Ne nous écartons pas de ces charmantes plaines,</l>
+
+	<l id="14">Allons nous retirer dans les bois d'alentour.</l>
+
+</sp>
+
+<sp who="TROIS_JEUX"><speaker>TROIS DE LA TROUPE DES JEUX</speaker>
+
+	<l id="15">Ah ! Quelles peines</l>
+
+	<l id="16">De quitter un si beau séjour !</l>
+
+</sp>
+
+<sp who="TROIS_PLAISIRS"><speaker>TROIS DE LA TROUPE DES PLAISIRS</speaker>
+
+	<l id="17">Le maître de ces lieux n'aime que la victoire,</l>
+
+	<l id="18">Il en fait ses plus chers désirs :</l>
+
+	<l id="19">Il néglige ici les plaisirs,</l>
+
+	<l id="20">Et tous ses soins sont pour la gloire.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="21">Les jeux et les amours</l>
+
+	<l id="22">Ne règnent pas toujours.</l>
+
+<stage>Les amours, les grâces, les plaisirs et les jeux se retirent.</stage>
+
+</sp>
+
+<sp who="VENUS"><speaker>VÉNUS</speaker>
+
+	<l id="23">Revenez, amours, revenez ;</l>
+
+	<l id="24">Pourquoi quitter ces lieux où l'on est sans alarmes ?</l>
+
+	<l id="25">La beauté perd ses plus doux charmes,</l>
+
+	<l id="26">Sitôt que vous l'abandonnez :</l>
+
+	<l id="27">Revenez, amours, revenez.</l>
+
+	<l id="28">Beaux lieux, où les plaisirs suivaient partout mes pas,</l>
+
+	<l id="29">Que sont devenus vos appas ?</l>
+
+	<l id="30">Qu'un si charmant séjour est triste et solitaire !</l>
+
+	<l id="31">Hélas ! Hélas !</l>
+
+	<l id="32">Les amours n'y sont pas,</l>
+
+	<l id="33">Sans les amours, rien ne peut plaire.</l>
+
+	<l id="34">Revenez, amours, revenez ;</l>
+
+	<l id="35">Quel chagrin si pressant vous a tous emmenés ?</l>
+
+	<l id="36">Est-il quelque danger dont Mars ne vous délivre ?</l>
+
+	<l id="37">Il chasse les fureurs de ces lieux fortunés,</l>
+
+	<l id="38">À la seule victoire il permet de le suivre.</l>
+
+	<l id="39">Revenez, amours, revenez.</l>
+
+<stage>On entend des trompettes et des tambours dont le bruit se mêle au son de plusieurs instruments champêtres. Cependant Mars paraît sur son char avec Bellone.</stage>
+
+</sp>
+
+<sp who="MARS"><speaker>MARS, sur son char..</speaker>
+
+	<l id="40">Que rien ne trouble ici Vénus et les amours.</l>
+
+	<l id="41">Que sous d'aimables lois, dans ces douces retraites,</l>
+
+	<l id="42">On passe en repos d'heureux jours ;</l>
+
+	<l id="43">Que les hautbois, que les musettes</l>
+
+	<l id="44">L'emportent sur les trompettes,</l>
+
+	<l id="45">Et sur les tambours.</l>
+
+	<l id="46">Que rien ne trouble ici Vénus et les amours.</l>
+
+<stage>On n'entend plus le bruit des trompettes et des tambours, et plusieurs instruments champêtres jouent dans le temps que Mars descend.</stage>
+
+</sp>
+
+<sp who="MARS"><speaker>MARS</speaker>
+
+	<l id="47">Partez, allez, volez, redoutable Bellone.</l>
+
+	<l id="48">Laissez en paix ici les amours et les jeux ;</l>
+
+	<l id="49">Que Cérès, que Bacchus, s'avancent avec eux ;</l>
+
+	<l id="50">Éloignez ce qui les étonne.</l>
+
+	<l id="51">Portez aux ennemis de cet empire heureux</l>
+
+	<l id="52">Tout ce que la guerre a d'affreux :</l>
+
+	<l id="53">Vénus le veut, Mars vous l'ordonne.</l>
+
+	<l id="54">Partez, allez, volez, redoutable Bellone.</l>
+
+<stage>Bellone obéit, et s'envole.</stage>
+
+</sp>
+
+<sp who="VENUS"><speaker>VÉNUS</speaker>
+
+	<l id="55">Inexorable Mars, pourquoi déchaînez-vous</l>
+
+	<l id="56">Contre un héros vainqueur tant d'ennemis jaloux ?</l>
+
+	<l id="57">Faut-il que l'univers avec fureur conspire</l>
+
+	<l id="58">Contre ce glorieux empire</l>
+
+	<l id="59">Dont le séjour nous est si doux ?</l>
+
+	<l id="60">Sans une aimable paix peut-on jamais attendre</l>
+
+	<l id="61">De beaux jours ni d'heureux moments ?</l>
+
+	<l id="62">La plainte la plus tendre,</l>
+
+	<l id="63">Les plus doux soupirs des amants,</l>
+
+	<l id="64">Sont le seul bruit qu'on doit entendre</l>
+
+	<l id="65">En des lieux si charmants.</l>
+
+</sp>
+
+<sp who="MARS"><speaker>MARS</speaker>
+
+	<l id="66">Que dans ce beau séjour rien ne vous épouvante,</l>
+
+	<l id="67">Un nouveau Mars rendra la France triomphante.</l>
+
+	<l id="68">Le destin de la guerre en ses mains est remis.</l>
+
+	<l id="69">Et si j'augmente</l>
+
+	<l id="70">Le nombre de ses ennemis,</l>
+
+	<l id="71">C'est pour rendre sa gloire encor plus éclatante.</l>
+
+	<l id="72">Le dieu de la valeur doit toujours l'animer.</l>
+
+</sp>
+
+<sp who="VENUS"><speaker>VÉNUS</speaker>
+
+	<l id="73">Vénus répand sur lui tout ce qui peut charmer.</l>
+
+</sp>
+
+<sp who="MARS"><speaker>MARS</speaker>
+
+	<l id="74">Malheur, malheur à qui voudra contraindre</l>
+
+	<l id="75">Un si grand héros à s'armer.</l>
+
+</sp>
+
+<sp who="VENUS"><speaker>VÉNUS</speaker>
+
+	<l id="76">Tout doit l'aimer.</l>
+
+</sp>
+
+<sp who="MARS"><speaker>MARS</speaker>
+
+	<l id="77">Tout doit le craindre.</l>
+
+</sp>
+
+<sp who="VENUS_MARS"><speaker>VÉNUS et MARS</speaker>
+
+	<l id="78">Tout doit le craindre,</l>
+
+	<l id="79">Tout doit l'aimer.</l>
+
+</sp>
+
+<sp who="MARS_VENUS"><speaker>MARS et VÉNUS</speaker>
+
+	<l id="80">Qu'il passe, au gré de ses désirs,</l>
+
+	<l id="81">De la gloire aux plaisirs,</l>
+
+	<l id="82">Des plaisirs à la gloire.</l>
+
+	<l id="83">Venez, aimables dieux, venez tous dans sa cour.</l>
+
+	<l id="84">Mêlez aux chants de victoire</l>
+
+	<l id="85">Les douces chansons d'amour.</l>
+
+<stage>Bacchus et Cérès suivis de moissonneurs, de sylvains et de bacchantes, ramènent les amours, les Grâces, les plaisirs, et les jeux.</stage>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="86">Mêlons aux chants de victoire</l>
+
+	<l id="87">Les douces chansons d'amour.</l>
+
+</sp>
+
+<sp who="BACCHUS_CERES"><speaker>BACCHUS et CÉRÈS</speaker>
+
+	<l id="88">Que tout le reste de la terre</l>
+
+	<l id="89">Porte envie au bonheur de ces lieux pleins d'attraits.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="90">Que tout le reste de la terre</l>
+
+	<l id="91">Porte envie au bonheur de ces lieux pleins d'attraits.</l>
+
+</sp>
+
+<sp who="MARS_VENUS"><speaker>MARS et VÉNUS..</speaker>
+
+	<l id="92">Au milieu de la guerre</l>
+
+	<l id="93">Goûtons les plaisirs de la paix.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="94">Au milieu de la guerre</l>
+
+	<l id="95">Goûtons les plaisirs de la paix.</l>
+
+<stage>La troupe des moissonneurs commence une danse agréable, et environne Cérès dans le temps qu'elle chante.</stage>
+
+</sp>
+
+<sp who="CERES"><speaker>CÉRÈS..</speaker>
+
+	<l id="96">Trop heureux qui moissonne</l>
+
+	<l id="97">Dans les champs des amours !</l>
+
+	<l id="98">Amants que rien ne vous étonne,</l>
+
+	<l id="99">L'espérance est un grand secours :</l>
+
+	<l id="100">Quand on vient à cueillir les fruits que l'amour donne,</l>
+
+	<l id="101">On est riche à jamais, et content pour toujours,</l>
+
+	<l id="102">Trop heureux qui moissonne</l>
+
+	<l id="103">Dans les champs des amours.</l>
+
+<stage>Bacchus chante au milieu des sylvains et des bacchantes qui dansent.</stage>
+
+</sp>
+
+<sp who="BACCHUS"><speaker>BACCHUS..</speaker>
+
+	<l id="104">Pour les plus fortunés, pour les plus malheureux,</l>
+
+	<l id="105">Dans l'empire amoureux,</l>
+
+	<l id="106">Le dieu du vin est nécessaire :</l>
+
+	<l id="107">S'il prend part aux plaisirs c'est pour les redoubler ;</l>
+
+	<l id="108">Il charme les chagrins des coeurs qu'on désespère :</l>
+
+	<l id="109">Bacchus a de quoi consoler</l>
+
+	<l id="110">De tous les maux qu'amour peut faire.</l>
+
+<stage>La troupe qui suit Cérès, et la troupe des suivants de Bacchus se réunissent, et expriment ensemble leur joie par une danse, que les autres
+
+dieux accompagnent de leurs chants ; et tous enfin se retirent pour faire place, et pour prendre part au magnifique divertissement qui va paraître.</stage>
+
+</sp>
+
+<sp who="MARS_VENUS"><speaker>MARS et VÉNUS..</speaker>
+
+	<l id="111">Qu'il passe au gré de ses désirs</l>
+
+	<l id="112">De la gloire aux plaisirs,</l>
+
+	<l id="113">Des plaisirs à la gloire ;</l>
+
+	<l id="114">Venez, aimables dieux, venez tous, dans sa cour :</l>
+
+	<l id="115">Mêlez aux chants de victoire</l>
+
+	<l id="116">Les douces chansons d'amour.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="117">Mêlons aux chants de victoire</l>
+
+	<l id="118">Les douces chansons d'amour.</l>
+
+</sp>
+
+<sp who="BACCHUS_CERES"><speaker>BACCHUS et CÉRÈS..</speaker>
+
+	<l id="119">Que tout le reste de la terre</l>
+
+	<l id="120">Porte envie au bonheur de ces lieux pleins d'attraits.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="121">Que tout le reste de la terre</l>
+
+	<l id="122">Porte envie au bonheur de ces lieux pleins d'attraits.</l>
+
+</sp>
+
+<sp who="MARS_VENUS"><speaker>MARS et VÉNUS..</speaker>
+
+	<l id="123">Au milieu de la guerre,</l>
+
+	<l id="124">Goûtons les plaisirs de la paix.</l>
+
+</sp>
+
+<sp who="CHOEUR_GRACES"><speaker>Le CHOEUR.</speaker>
+
+	<l id="125">Au milieu de la guerre,</l>
+
+	<l id="126">Goûtons les plaisirs de la paix.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="1"><head>ACTE I</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+
+<stage>La scène est à Athènes. Le théâtre représente le temple de Minerve.</stage>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>Combattants que l'on entend et que l'on ne voit point..</speaker>
+
+	<l id="127">Avançons, avançons ; que rien ne nous étonne ;</l>
+
+	<l id="128">Frappons, perçons, frappons ; qu'on n'épargne personne ;</l>
+
+	<l id="129">Il faut périr, il faut périr ;</l>
+
+	<l id="130">Il faut vaincre, ou mourir.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Aeglé, combattants que l'on entend et que l'on ne voit point.</head>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="131">Quel que soit mon destin, il faut ici l'attendre,</l>
+
+	<l id="132">Minerve, c'est à vous que je viens recourir.</l>
+
+	<l id="133">Divinité qui devez prendre</l>
+
+	<l id="134">Le soin de nous défendre,</l>
+
+	<l id="135">Hâtez-vous de nous secourir.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="136">Il faut vaincre, ou mourir.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="137">Ô ciel ! ô juste ciel ! Vous est-il doux d'entendre</l>
+
+	<l id="138">Ces cris pleins de fureur que je ne puis souffrir ?</l>
+
+	<l id="139">Dieux ! Aimez-vous à voir tant de sang se répandre ?</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="140">Il faut périr, il faut périr,</l>
+
+	<l id="141">Il faut vaincre ou mourir.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Cléone, AEglé, combattants que l'on entend et que l'on ne voit point.</head>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="142">Est-ce aux athéniens, est-ce au parti contraire,</l>
+
+	<l id="143">Que l'avantage est demeuré ?</l>
+
+	<l id="144">Dis-moi pour qui le sort s'est enfin déclaré.</l>
+
+	<l id="145">Ton silence me désespère.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="146">Pardonnez à la peur qui me force à me taire.</l>
+
+	<l id="147">Mes yeux troublés d'effroi n'ont rien considéré :</l>
+
+	<l id="148">Thésée est le dieu tutélaire</l>
+
+	<l id="149">Qui me donne en ce temple un refuge assuré :</l>
+
+	<l id="150">Je ne sais rien de plus, et j'ai cru beaucoup faire</l>
+
+	<l id="151">De gagner en tremblant cet asile sacré.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="152">Au milieu des clameurs, au travers du carnage,</l>
+
+	<l id="153">Thésée a jusqu'ici conduit mes pas errants :</l>
+
+	<l id="154">Son généreux courage</l>
+
+	<l id="155">A fait ses premiers soins de m'ouvrir un passage</l>
+
+	<l id="156">Entre deux effroyables rangs</l>
+
+	<l id="157">De morts et de mourants.</l>
+
+	<l id="158">N'as-tu point admiré l'ardeur noble et guerrière</l>
+
+	<l id="159">Dont il court au péril et s'expose au trépas ?</l>
+
+	<l id="160">Ah qu'un jeune héros dans l'horreur des combats</l>
+
+	<l id="161">Couvert de sang, et de poussière,</l>
+
+	<l id="162">Aux yeux d'une princesse fière</l>
+
+	<l id="163">A de charmants appas !</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="164">Thésée est aimable, il vous aime ;</l>
+
+	<l id="165">Tout cède à sa valeur extrême ;</l>
+
+	<l id="166">Vous pouvez sans rougir souffrir à votre tour</l>
+
+	<l id="167">Que jusqu'à votre coeur il porte sa victoire.</l>
+
+	<l id="168">Il n'est rien de si beau que les noeuds de l'amour</l>
+
+	<l id="169">Quand ils sont formés par la gloire.</l>
+
+</sp>
+
+<sp who="AEGLE_CLEONE"><speaker>AEGLÉ et CLÉONE</speaker>
+
+	<l id="170">Il n'est rien de si beau que les noeuds de l'amour</l>
+
+	<l id="171">Quand ils sont formés par la gloire.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="172">Il faut périr, il faut périr,</l>
+
+	<l id="173">Il faut vaincre, ou mourir.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Arcas, AEglé, Cléone.</head>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="174">Le ciel ne veut-il point mettre fin à nos peines ?</l>
+
+	<l id="175">Éclaircis-nous, Arcas, quel est le sort d'Athènes ?</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="176">Le combat dure encor, il est sanglant, affreux,</l>
+
+	<l id="177">Et le succès en est douteux.</l>
+
+	<l id="178">Le roi m'a commandé de prendre</l>
+
+	<l id="179">Le soin de l'avertir s'il fallait vous défendre,</l>
+
+	<l id="180">Et ce n'est que pour vous qu'il est touché d'effroi...</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="181">Thésée est-il avec le roi ?</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="182">Des plus fiers ennemis il écarte la foule,</l>
+
+	<l id="183">On reconnaît sa trace aux flots du sang qui coule :</l>
+
+	<l id="184">Une grêle de traits ne l'a point retenu.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="185" part="i">Ô dieux ! ...</l>
+
+<stage>Elle dit ce qui suit à Cléone.</stage>
+
+	<l id="185" part="f">Mon secret est connu ;</l>
+
+	<l id="186">Je crains devant Arcas d'en faire trop entendre,</l>
+
+	<l id="187">Cléone, s'il se peut, obtiens qu'il aille apprendre</l>
+
+	<l id="188">Ce que Thésée est devenu.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Cléone, Arcas, combattants que l'on entend et que l'on ne voit point.</head>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="189">Laissons aller la princesse,</l>
+
+	<l id="190">Prier en paix la déesse.</l>
+
+	<l id="191">Arcas, je veux voir en ce jour</l>
+
+	<l id="192">Jusqu'où va pour moi ton amour.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="193">Peux-tu douter de ma tendresse ?</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="194">J'en doute encor, je le confesse.</l>
+
+	<l id="195">Tu m'as fait des serments cent fois</l>
+
+	<l id="196">Que tu suivrais toujours mes lois,</l>
+
+	<l id="197">Et qu'il te serait doux de mourir pour me plaire ;</l>
+
+       <l id="198">Mais la plupart des amants</l>
+
+	<l id="199">Sont sujets à faire</l>
+
+	<l id="200">Bien des faux serments.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="201">Tu n'as qu'à commander, tu seras satisfaite.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="202">Cherche Thésée, et suis ses pas</l>
+
+	<l id="203">Jusqu'à sa victoire parfaite,</l>
+
+	<l id="204">Ou jusqu'à son trépas.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="205">D'où vient qu'en sa faveur ton âme s'inquiète ?</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="206">Si tu veux que je t'aime, Arcas,</l>
+
+	<l id="207">Fais ce que je souhaite,</l>
+
+	<l id="208">Et ne réplique pas.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="209">Pour un autre que moi Cléone s'intéresse ?</l>
+
+	<l id="210">Prétends-tu que je sois un amant qui me presse</l>
+
+	<l id="211">De me charger d'un soin à mon amour fatal ?</l>
+
+	<l id="212">C'est un plaisir charmant de servir sa maîtresse,</l>
+
+	<l id="213">Mais c'est un chagrin sans égal</l>
+
+	<l id="214">De servir son rival.</l>
+
+	<l id="215">L'ordre du roi m'engage</l>
+
+	<l id="216">À prendre soin de vous.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="217">L'ennemi jusqu'ici n'ose porter sa rage.</l>
+
+	<l id="218">Tout le monde est aux mains, veux-tu seul fuir les coups ?</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="219">Ce grand empressement me donne de l'ombrage.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="220">La valeur à mes yeux a des charmes bien doux,</l>
+
+	<l id="221">Et le moindre soupçon m'outrage :</l>
+
+	<l id="222">Je ne veux point avoir d'époux</l>
+
+	<l id="223">Qui soit jaloux,</l>
+
+	<l id="224">Ni d'amant qui soit sans courage.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="225">Faut-il qu'un étranger ait pour toi tant d'appas ?</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="226">Je te l'ai déjà dit, et je te le répète,</l>
+
+	<l id="227">Si tu veux que je t'aime, Arcas</l>
+
+	<l id="228">Fais ce que je souhaite,</l>
+
+	<l id="229">Et ne réplique pas.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="230">Hé bien, je suivrai ton envie,</l>
+
+	<l id="231">J'en veux faire toujours ma loi ;</l>
+
+	<l id="232">La peur de te déplaire est mon plus grand effroi :</l>
+
+	<l id="233">Je crains peu d'exposer ma vie,</l>
+
+	<l id="234">Je ne puis hasarder rien qui ne soit à toi.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="235">Avançons, avançons ; que rien ne nous étonne ;</l>
+
+	<l id="236">Frappons, perçons, frappons, qu'on n'épargne personne ;</l>
+
+	<l id="237">Il faut périr, il faut périr,</l>
+
+	<l id="238">Il faut vaincre, ou mourir.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. La grande prêtresse de Minerve, Aeglé, Cléone, Combattants que l'on entend et que l'on ne voit point</head>
+
+<sp who="PRETRESSE"><speaker>LA GRANDE PRÊTRESSE</speaker>
+
+	<l id="239">Prions, prions la déesse</l>
+
+	<l id="240">De nous dégager</l>
+
+	<l id="241">Du danger</l>
+
+	<l id="242">Qui nous presse</l>
+
+	<l id="243">Prions, prions la déesse.</l>
+
+</sp>
+
+<sp who="PRETRESSE_AEGLE_CLEONE"><speaker>LA PRETRESSE, AEGLÉ, CLÉONE</speaker>
+
+	<l id="244">Prions, prions, la déesse.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="245">Mourez, mourez, perfides coeurs,</l>
+
+	<l id="246">Tombez sous les coups des vainqueurs.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LA GRANDE PRÊTRESSE</speaker>
+
+	<l id="247">Dieux ! Quelle barbarie !</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="248">Entendrons-nous toujours ces horribles clameurs ?</l>
+
+</sp>
+
+<sp who="PRETRESSE_AEGLE_CLEONE"><speaker>LA PRETRESSE, AEGLÉ, CLÉONE</speaker>
+
+	<l id="249">Dieux ! Quelle barbarie !</l>
+
+</sp>
+
+<sp who="COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="250">Mourez, mourez, perfides coeurs,</l>
+
+	<l id="251">Tombez sous les coups des vainqueurs.</l>
+
+</sp>
+
+<sp who="COMBATTANT"><speaker>UN COMBATTANT</speaker>
+
+	<l id="252">Sauve un malheureux qui te prie.</l>
+
+	<l id="253">Ah je meurs ! Ah je meurs !</l>
+
+</sp>
+
+<sp who="PRETRESSE_AEGLE_CLEONE"><speaker>LA PRETRESSE, AEGLÉ, CLÉONE</speaker>
+
+	<l id="254">Dieux ! Quelle barbarie !</l>
+
+</sp>
+
+<sp who="COMBATTANT"><speaker>UN COMBATTANT</speaker>
+
+	<l id="255">Ah je meurs ! Ah je meurs !</l>
+
+	<l id="256">Sauve un malheureux qui te prie.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="257">Mourez, mourez, perfides coeurs,</l>
+
+	<l id="258">Tombez sous les coups des vainqueurs.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LA GRANDE PRÊTRESSE</speaker>
+
+	<l id="259">Ô Minerve ! Arrêtez la cruelle furie</l>
+
+	<l id="260">Qui désole notre patrie :</l>
+
+	<l id="261">Écartez loin de nous la guerre et ses horreurs ;</l>
+
+	<l id="262">Ciel ! Épargnez le sang, contentez-vous de pleurs,</l>
+
+</sp>
+
+<sp who="PRETRESSE_AEGLE_CLEONE"><speaker>LA GRANDE PRÊTRESSE, AEGLE, CLÉONE</speaker>
+
+	<l id="263">Ciel ! Épargnez le sang, contentez-vous de pleurs.</l>
+
+</sp>
+
+<sp who="CHOEUR_COMBATTANTS"><speaker>COMBATTANTS</speaker>
+
+	<l id="264">Liberté, liberté.</l>
+
+	<l id="265">Victoire, victoire, victoire.</l>
+
+	<l id="266">Courons, courons tous à la gloire.</l>
+
+	<l id="267">Combattons avec fermeté.</l>
+
+	<l id="268">Défendons notre liberté.</l>
+
+	<l id="269">Liberté, liberté.</l>
+
+	<l id="270">Emportons la victoire.</l>
+
+	<l id="271">Victoire, victoire, victoire.</l>
+
+	<l id="272">Liberté, liberté.</l>
+
+	<l id="273">Victoire, victoire, victoire.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. AEgée roi d'Athènes, La Grande Prêtresse, AEglé, Cléone, suivants du roi d'Athènes.</head>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="274">Les mutins sont vaincus, leurs chefs sont immolés,</l>
+
+	<l id="275">Leur vaine espérance est détruite.</l>
+
+	<l id="276">Tous les peuples voisins qu'ils avaient appelés</l>
+
+	<l id="277">Sont dans nos fers, ou sont en fuite.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LA GRANDE PRÊTRESSE</speaker>
+
+	<l id="278">Rendons grâces aux dieux.</l>
+
+</sp>
+
+<sp who="ENSEMBLE"><speaker>Tous ensemble</speaker>
+
+	<l id="279">Rendons grâces aux dieux.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LA GRANDE PRÊTRESSE</speaker>
+
+	<l id="280">Puisque le juste ciel à nos voeux est propice,</l>
+
+	<l id="281">Allons, empressons-nous d'offrir un sacrifice</l>
+
+	<l id="282">À la divinité qui protége ces lieux.</l>
+
+	<l id="283">Rendons grâces aux dieux.</l>
+
+</sp>
+
+<sp who="ENSEMBLE"><speaker>Tous ensemble</speaker>
+
+	<l id="284">Rendons grâces aux dieux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Le roi, AEglé.</head>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="285">Cessez, charmante, AEglé, de répandre des larmes,</l>
+
+	<l id="286">Commençons après tant d'alarmes</l>
+
+	<l id="287">À jouir d'un destin plus doux :</l>
+
+	<l id="288">Puisque je vois mon trône affermi par les armes,</l>
+
+	<l id="289">J'y veux joindre de nouveaux charmes</l>
+
+	<l id="290">En le partageant avec vous.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="291">Avec moi ! Vous ! Seigneur !</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="292">Que votre trouble cesse.</l>
+
+	<l id="293">C'est peut-être, un peu tard vouloir plaire à vos yeux,</l>
+
+	<l id="294">Je ne suis plus au temps de l'aimable jeunesse,</l>
+
+	<l id="295">Mais je suis, roi, belle princesse, et roi victorieux.</l>
+
+	<l id="296">Faites grâce à mon âge en faveur de ma gloire,</l>
+
+	<l id="297">Voyez le prix du rang qui vous est destiné :</l>
+
+	<l id="298">La vieillesse sied bien sur un front couronné,</l>
+
+	<l id="299">Quand on y voit briller l'éclat de la victoire.</l>
+
+	<l id="300">Parlez charmante AEglé, parlez à votre tour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="301">Depuis que j'ay perdu mon père</l>
+
+	<l id="302">Vos soins ont prévenu mes voeux dans votre cour.</l>
+
+	<l id="303">Je dois vous respecter, Seigneur, je vous révère...</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="304">Vous parlez de respect quand je parle d'amour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="305">Mais votre foi, Seigneur, à Médée est promise ?</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="306">Je sais que lorsqu'on la méprise</l>
+
+	<l id="307">On s'expose aux fureurs de ses ressentiments.</l>
+
+	<l id="308">Toute la nature est soumise</l>
+
+	<l id="309">À ses affreux commandements,</l>
+
+	<l id="310">L'enfer la favorise,</l>
+
+	<l id="311">Elle confond les éléments,</l>
+
+	<l id="312">Le ciel même est troublé par ses enchantements.</l>
+
+	<l id="313">Mais j'ai fait élever en secret dans Trézene</l>
+
+	<l id="314">Un fils qui peut m'ôter de peine :</l>
+
+	<l id="315">Je veux qu'en épousant Medée au lieu de moi,</l>
+
+	<l id="316">Il dégage ma foi.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="317">Mais si malgré vos soins, Medée ambitieuse,</l>
+
+	<l id="318">Ne s'attache qu'au rang que vous me présentez ?</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="319">Que vous êtes ingenieuse</l>
+
+	<l id="320">À trouver des difficultés !</l>
+
+	<l id="321">Que Medée en fureur, s'arme, menace, tonne,</l>
+
+	<l id="322">Il faut que ma main vous couronne</l>
+
+	<l id="323">Quand il m'en coûterait et l'empire, et le jour.</l>
+
+	<l id="324">Un grand coeur qui se sent animé par l'amour</l>
+
+	<l id="325">Ne doit jamais trouver de péril qui l'étonne.</l>
+
+	<l id="326">J'atteste Minerve à vos yeux,</l>
+
+	<l id="327">J'atteste le maître des cieux,</l>
+
+	<l id="328">Et sa foudroyante justice...</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="329">Tout est prêt pour le sacrifice</l>
+
+	<l id="330">Chacun s'avance dans ces lieux,</l>
+
+	<l id="331">Rendons grâces aux dieux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="9"><head>SCÈNE IX. Le roi, Aeglé, suivants du roi, Cléone, la grande prêtresse de Minerve. Quatre prêtresses. Six hommes chantants desguisez en prêtresses. Six flutes déguisées en femmes. Quatre trompettes. Deux timballiers.</head>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="332">Cet empire puissant que votre soin conserve</l>
+
+	<l id="333">Vient reconnaître ici votre divin secours,</l>
+
+	<l id="334">Favorable Minerve !</l>
+
+	<l id="335">Protégez-nous toujours.</l>
+
+</sp>
+
+<sp who="CHOEUR_PRETRESSES"><speaker>LE CHOEUR DES PRÊTRESSES</speaker>
+
+	<l id="336">Favorable Minerve !</l>
+
+	<l id="337">Protégez-nous toujours.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="338">Le péril était redoutable :</l>
+
+	<l id="339">Mais vous nous inspirez un courage indomptable</l>
+
+	<l id="340">Qui de notre malheur a détourné le cours,</l>
+
+	<l id="341">Ô pallas favorable !</l>
+
+	<l id="342">Protégez-nous toujours.</l>
+
+</sp>
+
+<sp who="CHOEUR_PRETRESSES"><speaker>LE CHOEUR DES PRÊTRESSES</speaker>
+
+	<l id="343">Ô pallas favorable !</l>
+
+	<l id="344">Protégez-nous toujours.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="345">Il faut profiter</l>
+
+	<l id="346">Du bonheur de nos armes.</l>
+
+	<l id="347">C'est trop écouter</l>
+
+	<l id="348">Le bruit des alarmes,</l>
+
+	<l id="349">Le cours de nos larmes</l>
+
+	<l id="350">Se doit arrêter,</l>
+
+	<l id="351">Songeons à goûter</l>
+
+	<l id="352">Un sort plein de charmes ;</l>
+
+	<l id="353">Il faut profiter</l>
+
+	<l id="354">Du bonheur de nos armes.</l>
+
+</sp>
+
+<sp who="CHOEUR_PRETRESSES"><speaker>LE CHOEUR DES PRÊTRESSES</speaker>
+
+	<l id="355">Chantez tous en paix,</l>
+
+	<l id="356">Chantez la victoire,</l>
+
+	<l id="357">Et que la mémoire</l>
+
+	<l id="358">En vive à jamais :</l>
+
+	<l id="359">Chantez les attraits</l>
+
+	<l id="360">Dont brille la gloire ;</l>
+
+	<l id="361">Chantez tous en paix,</l>
+
+	<l id="362">Chantez la victoire.</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="363">Le calme est bien doux</l>
+
+	<l id="364">Après un grand orage.</l>
+
+	<l id="365">La gloire est pour nous,</l>
+
+	<l id="366">La honte et la rage</l>
+
+	<l id="367">Seront le partage</l>
+
+	<l id="368">Des voisins jaloux :</l>
+
+	<l id="369">Tout cède à nos coups,</l>
+
+	<l id="370">Tout cède au courage :</l>
+
+	<l id="371">Le calme est bien doux</l>
+
+	<l id="372">Après un grand orage.</l>
+
+</sp>
+
+<sp who="CH?UR_PRETRESSES"><speaker>LE CH?UR DES PRÊTRESSES</speaker>
+
+	<l id="373">Chantons tour à tour</l>
+
+	<l id="374">Dans ces lieux aimables,</l>
+
+	<l id="375">Des dieux favorables</l>
+
+	<l id="376">Y font leur séjour :</l>
+
+	<l id="377">Les seuls traits d'amour</l>
+
+	<l id="378">Y sont redoutables :</l>
+
+	<l id="379">Chantons tour à tour</l>
+
+	<l id="380">Dans ces lieux aimables.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="10"><head>SCÈNE X. Le roi, AEglé, Cléone, suivants du roi, la grande prêtresse, choeur des prêtresses, sacrificateurs, combattants qui apportent les étendards et les dépouilles des ennemis vaincus. Dix-huit assistants au sacrifice chantants. Sacrificateurs combattants dansants. Six prêtresses dansantes.</head>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="381">Ô Minerve savante !</l>
+
+	<l id="382">Ô guerrière Pallas !</l>
+
+	<l id="383">Que par votre faveur puissante</l>
+
+	<l id="384">Une félicité charmante</l>
+
+	<l id="385">Nous offre chaque jour mille nouveaux appas,</l>
+
+	<l id="386">Ô Minerve savante !</l>
+
+	<l id="387">Ô guerrière Pallas !</l>
+
+</sp>
+
+<sp who="CHOEURS"><speaker>LES CHOEURS</speaker>
+
+	<l id="388">Animez nos coeurs, et nos bras,</l>
+
+	<l id="389">Rendez la victoire constante,</l>
+
+	<l id="390">Conduisez nos soldats,</l>
+
+	<l id="391">Partout, devant leurs pas,</l>
+
+	<l id="392">Jettez le trouble et l'épouvante ;</l>
+
+	<l id="393">Ô Minerve savante !</l>
+
+	<l id="394">Ô guerrière Pallas !</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="395">Souffrez qu'un jeu sacré dans ces lieux vous présente</l>
+
+	<l id="396">Une image innocente</l>
+
+	<l id="397">De guerre et de combats.</l>
+
+</sp>
+
+<sp who="CHOEURS"><speaker>LES CHOEURS</speaker>
+
+	<l id="398">Ô Minerve savante !</l>
+
+	<l id="399">Ô guerriere Pallas !</l>
+
+<stage>On forme un combat à la manière des anciens.</stage>
+
+</sp>
+
+<sp who="CHOEURS"><speaker>LES CHOEURS</speaker>
+
+	<l id="400">Que la guerre sanglante</l>
+
+	<l id="401">Passe en d'autres états,</l>
+
+	<l id="402">Ô Minerve savante !</l>
+
+	<l id="403">Ô guerrière Pallas !</l>
+
+	<l id="404">Que la foudre grondante</l>
+
+	<l id="405">Détourne ses éclats :</l>
+
+	<l id="406">Ô Minerve savante !</l>
+
+	<l id="407">Ô guerrière Pallas !</l>
+
+</sp>
+
+<sp who="PRETRESSE"><speaker>LE GRANDE PRÊTRESSE</speaker>
+
+	<l id="408">Puissions-nous voir toujours Athènes triomphante,</l>
+
+	<l id="409">Puisse son roi vainqueur des plus grands potentats</l>
+
+	<l id="410">La rendre heureuse et florissante.</l>
+
+</sp>
+
+<sp who="CHOEURS"><speaker>LES CHOEURS</speaker>
+
+	<l id="411">Ô Minerve savante !</l>
+
+	<l id="412">Ô guerriere Pallas !</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="2"><head>ACTE II</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Medée, Dorine.</head>
+
+<stage>Le théâtre change et repreésente le Palais d'AEgée roi d'athenes.</stage>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="413">Doux repos, innocente paix,</l>
+
+	<l id="414">Heureux, heureux un coeur qui ne vous perd jamais !</l>
+
+	<l id="415">L'impitoyable amour m'a toujours poursuivie ;</l>
+
+	<l id="416">N'était-ce point assez des maux qu'il m'avait faits !</l>
+
+	<l id="417">Pourquoi ce dieu cruel avec de nouveaux traits</l>
+
+	<l id="418">Vient-il encor troubler le reste de ma vie ?</l>
+
+	<l id="419">Doux repos, innocente paix,</l>
+
+	<l id="420">Heureux, heureux un coeur qui ne vous perd jamais !</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="421">Recommencez d'aimer, reprenez l'espérance ;</l>
+
+	<l id="422">Thesée est un héros charmant,</l>
+
+	<l id="423">Méprisez en l'aimant</l>
+
+	<l id="424">L'ingrat Jason qui vous offense.</l>
+
+	<l id="425">Il faut par le changement</l>
+
+	<l id="426">Punir l'inconstance,</l>
+
+	<l id="427">C'est une douce vengeance</l>
+
+	<l id="428">De faire un nouvel amant.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="429">La gloire de Thésée à mes yeux paraît belle,</l>
+
+	<l id="430">On l'a vu triompher dés qu'il a combattu ;</l>
+
+	<l id="431">Le destin de Médée est d'être criminelle,</l>
+
+	<l id="432">Mais son coeur était fait pour aimer la vertu.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="433">Le dépit veut que l'on s'engage</l>
+
+	<l id="434">Sous de nouvelles lois,</l>
+
+	<l id="435">Quand on s'abuse au premier choix ;</l>
+
+	<l id="436">On n'est pas volage</l>
+
+	<l id="437">Pour ne changer qu'une fois.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="438">Un tendre engagement va plus loin qu'on ne pense ;</l>
+
+	<l id="439">On ne voit pas, lorsqu'il commence,</l>
+
+	<l id="440">Tout ce qu'il doit coûter un jour :</l>
+
+	<l id="441">Mon coeur aurait encor sa première innocence</l>
+
+	<l id="442">S'il n'avait jamais eu d'amour.</l>
+
+	<l id="443">Mon frère et mes deux fils ont été les victimes</l>
+
+	<l id="444">De mon implacable fureur ;</l>
+
+	<l id="445">J'ai rempli l'univers d"horreur,</l>
+
+	<l id="446">Mais le cruel amour a fait seul tous mes crimes.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="447">Espérez de former de plus aimables noeuds.</l>
+
+	<l id="448">Une cruelle expérience</l>
+
+	<l id="449">Vous aprend que l'amour est un mal dangereux ;</l>
+
+	<l id="450">Mais l'ennuyeuse indifférence</l>
+
+	<l id="451">Ne rend pas un coeur plus heureux.</l>
+
+	<l id="452">Aimez, aimez Thésée, aimez sa gloire extrême.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="453">Mais qui me répondra qu'il m'aime ?</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="454">Peut-il trouver un sort plus beau ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="455">Peut-être que mon coeur cherche un malheur nouveau.</l>
+
+	<l id="456">Mon dépit, tu le sais, dédaigne de se plaindre :</l>
+
+	<l id="457">Il est difficile à calmer,</l>
+
+	<l id="458">S'il venait à se rallumer,</l>
+
+	<l id="459">Il faudrait du sang pour l'éteindre.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="460">Que ne peut point Medée avec l'art de charmer ?</l>
+
+	<l id="461">Que puis-je ? Hélas ! Parlons sans feindre.</l>
+
+	<l id="462">Les enfers quand je veux sont contraints à s'armer,</l>
+
+	<l id="463">Mais on ne force point un coeur à s'enflammer ;</l>
+
+	<l id="464">Mes charmes les plus forts ne sauraient l'y contraindre,</l>
+
+	<l id="465">Ah je n'en ai que trop pour forcer à me craindre,</l>
+
+	<l id="466">Et trop peu pour me faire aimer.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Le roi, Medée, Dorine, suivants du roi.</head>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="467">Je vois le succès favorable</l>
+
+	<l id="468">Des soins que vous m'avez promis,</l>
+
+	<l id="469">Medée et son art redoutable</l>
+
+	<l id="470">Ont gardé ce palais contre mes ennemis.</l>
+
+	<l id="471">J'ai differé longtemps de tenir ma promesse,</l>
+
+	<l id="472">Je devrais être votre époux.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="473">L'hymen n'a rien qui presse</l>
+
+	<l id="474">Ni pour moi, ni pour vous.</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="475">Vous pouvez sans chagrin souffrir que je diffère.</l>
+
+	<l id="476">Avec un époux plein d'appas</l>
+
+	<l id="477">L'hymen a de la peine à plaire ;</l>
+
+	<l id="478">Quelle peur ne doit-il pas faire</l>
+
+	<l id="479">Quand l'époux ne plaît pas ?</l>
+
+	<l id="480">Désormais sans péril je puis faire paraître</l>
+
+	<l id="481">Un fils que dans ma cour je n'osais reconnaître.</l>
+
+	<l id="482">Il peut venir dans peu de temps.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="483">Laissons-là votre fils, Seigneur, je vous entends</l>
+
+	<l id="484">La jeune AEglé vous paraît belle,</l>
+
+	<l id="485">Chaque jour, je m'en aperçois ;</l>
+
+	<l id="486">Si vous m'abandonnez pour elle,</l>
+
+	<l id="487">Thesée est seul digne de moi.</l>
+
+</sp>
+
+<sp who="ROI_MEDEE"><speaker>LE ROI et MÉDÉE</speaker>
+
+	<l id="488">Ne nous piquons point de constance ;</l>
+
+	<l id="489">Consentons à nous dégager.</l>
+
+	<l id="490">Goûtons d'intelligence</l>
+
+	<l id="491">La douceur de changer.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="492">Quand on suit une amour nouvelle,</l>
+
+	<l id="493">C'est une trahison cruelle</l>
+
+	<l id="494">De laisser dans l'engagement</l>
+
+	<l id="495">Un coeur tendre et fidèle ;</l>
+
+	<l id="496">Mais rien n'est si charmant</l>
+
+	<l id="497">Qu'une inconstance mutuelle.</l>
+
+</sp>
+
+<sp who="ROI_MEDEE"><speaker>LE ROI et MÉDÉE</speaker>
+
+	<l id="498">Heureux deux amants inconstants,</l>
+
+	<l id="499">Quand ils le sont en même temps.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Arcas, le Roi, Médée, Dorine, suivants du roi.</head>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="500" part="i">Seigneur, songez à vous.</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="500" part="f">Quel malheur nous menace ?</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="501">Thesée est si puissant qu'il peut vous alarmer,</l>
+
+	<l id="502">Ses glorieux exploits charment la populace,</l>
+
+	<l id="503">Au lieu d'un héritier qui manque à votre race,</l>
+
+	<l id="504">Pour votre successeur on le veut proclamer.</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="505">Il faut arrêter cette audace.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Dorine, Arcas.</head>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="506">Demeure, écoute un mot, Arcas.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="507">Mon devoir près du roi m'appelle,</l>
+
+	<l id="508">Il faut que je suive ses pas.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="509">Autrefois tu m'étais fidèle,</l>
+
+	<l id="510">Tu jurais de m'aimer d'une ardeur éternelle.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="511">Nous sommes dans un temps de trouble et de combats.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="512">Cléone a des appas,</l>
+
+	<l id="513">On te voit souvent avec elle,</l>
+
+	<l id="514">N'est-ce point une amour nouvelle</l>
+
+	<l id="515">Qui fait ton embarras ?</l>
+
+	<l id="516">Tu rougis ? Tu ne réponds pas ?</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="517">Mon devoir près du roi m'appelle,</l>
+
+	<l id="518">Il faut que je suive ses pas.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V.</head>
+
+<sp who="DORINE"><speaker>DORINE seule..</speaker>
+
+	<l id="519">C'est donc là tout le prix d'une amour trop sincère.</l>
+
+	<l id="520">N'aimons jamais, ou n'aimons guère :</l>
+
+	<l id="521">Il est dangereux d'aimer tant,</l>
+
+	<l id="522">Ce n'est pas le plus sûr pour plaire.</l>
+
+	<l id="523">Bien souvent on croit faire</l>
+
+	<l id="524">Un amant heureux et content,</l>
+
+	<l id="525">Et l'on ne fait qu'un inconstant.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Dorine, Peuples que l'on entend crier.</head>
+
+<sp who="PEUPLES"><speaker>PEUPLES</speaker>
+
+	<l id="526">Régnez, héros indomptable ;</l>
+
+	<l id="527">Régnez rendez nous heureux.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="528">Le peuple vient ici. Sa faveur est semblable</l>
+
+	<l id="529">Au transport des coeurs amoureux ;</l>
+
+	<l id="530">L'ardeur des plus grands feux</l>
+
+	<l id="531">N'est pas la plus durable.</l>
+
+</sp>
+
+<sp who="PEUPLES"><speaker>PEUPLES</speaker>
+
+	<l id="532">Régnez, héros indomptable,</l>
+
+	<l id="533">Rendez, rendez-nous heureux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Thésée, quatre esclaves qui portent Thesée. La populace d'Athènes chantante. Populace d'Athènes dansante. Quatre hommes grecs. Quatre femmes grecques. Deux vieillards dansants. Deux vieilles dansantes.</head>
+
+<stage>La populace d'Athènes se réjouit de la victoire que la valeur de Thesée vient de remporter, et le veut proclamer pour successeur d'Aegée.</stage>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="534">Que l'on doit être</l>
+
+	<l id="535">Content d'avoir un maître</l>
+
+	<l id="536">Vainqueur des plus grands rois !</l>
+
+	<l id="537">Que l'on entende</l>
+
+	<l id="538">Chanter partout ses exploits :</l>
+
+	<l id="539">Joignons nos voix.</l>
+
+	<l id="540">Que toujours il nous défende,</l>
+
+	<l id="541">Qu'il triomphe, qu'il commande,</l>
+
+	<l id="542">Qu'il jouisse des douceurs</l>
+
+	<l id="543">De régner sur tous les coeurs.</l>
+
+</sp>
+
+<sp who="VIEILLARDS"><speaker>Deux vieillards athéniens..</speaker>
+
+	<l id="544">Pour le peu de bon temps qui nous reste</l>
+
+	<l id="545">Rien n'est si funeste</l>
+
+	<l id="546">Qu'un noir chagrin.</l>
+
+	<l id="547">Le plaisir se présente,</l>
+
+	<l id="548">Chantons quand on chante,</l>
+
+	<l id="549">Vivons au gré du destin.</l>
+
+	<l id="550">L'affreuse vieillesse</l>
+
+	<l id="551">Qui doit voir sans cesse</l>
+
+	<l id="552">La mort s'approcher,</l>
+
+	<l id="553">Trouve assez la tristesse</l>
+
+	<l id="554">Sans la chercher.</l>
+
+	<l id="555">Achevons nos vieux ans sans alarmes ;</l>
+
+	<l id="556">La vie a des charmes</l>
+
+	<l id="557">Jusqu'à la fin.</l>
+
+	<l id="558">Le plaisir se présente,</l>
+
+	<l id="559">Chantons quand on chante,</l>
+
+	<l id="560">Vivons au gré du destin.</l>
+
+	<l id="561">L'affreuse vieillesse</l>
+
+	<l id="562">Qui doit voir sans cesse</l>
+
+	<l id="563">La mort s'approcher,</l>
+
+	<l id="564">Trouve assez la tristesse</l>
+
+	<l id="565">Sans la chercher.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="566">Que la victoire</l>
+
+	<l id="567">Le comble ici de gloire ;</l>
+
+	<l id="568">Suivons, aimons ses lois.</l>
+
+	<l id="569">Que l'on entende</l>
+
+	<l id="570">Chanter partout ses exploits :</l>
+
+	<l id="571">Joignons nos voix.</l>
+
+	<l id="572">Que toujours il nous défende,</l>
+
+	<l id="573">Qu'il triomphe, qu'il commande,</l>
+
+	<l id="574">Qu'il jouisse des douceurs</l>
+
+	<l id="575">De régner sur tous les coeurs.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="576">C'est assez, amis, c'est assez,</l>
+
+	<l id="577">Allez, et que chacun en bon ordre se rende</l>
+
+	<l id="578">Aux endroits qu'au besoin il faudra qu'il défende :</l>
+
+	<l id="579">Allez, je suis content de vos soins empressés,</l>
+
+	<l id="580">Si vous voulez que je commande,</l>
+
+	<l id="581">Allez, allez, obéissez.</l>
+
+<stage>Les peuples se retirent. Thésée veut entrer dans l'appartement du roi, Médée en sort qui arrête Thésée.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Médée, Thesée.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="582">Thésée où courez-vous ? Que prétendez-vous faire ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="583">Chercher le roi, le voir, et calmer sa colère.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="584">Le roi souffrira-t-il que vous donniez la loi ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="585">Il n'aura pas lieu de se plaindre,</l>
+
+	<l id="586">Si l'on a trop d'ardeur pour moi,</l>
+
+	<l id="587">C'est un feu que j'ai soin d'éteindre.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="588">Vous êtes de trop bonne foi ;</l>
+
+	<l id="589">Quand on a fait trembler un roi,</l>
+
+	<l id="590">Apprenez qu'on en doit tout craindre.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="591">Sans un charme puissant qui m'attache à sa cour</l>
+
+	<l id="592">J'irais chercher ailleurs une guerre nouvelle.</l>
+
+	<l id="593">La gloire m'enflamma dès que je vis le jour,</l>
+
+	<l id="594">Tout mon coeur était fait pour elle ;</l>
+
+	<l id="595">Mais dans un jeune coeur, la gloire la plus belle</l>
+
+	<l id="596">Fait aisément place à l'amour.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="597">Un peu d'amoureuse tendresse</l>
+
+	<l id="598">Sied bien aux plus fameux vainqueurs ;</l>
+
+	<l id="599">Si l'amour est une faiblesse,</l>
+
+	<l id="600">C'est la faiblesse des grands coeurs.</l>
+
+	<l id="601">Parlez, que rien ne vous alarme</l>
+
+	<l id="602">J'obligerai le roi de vous tout accorder.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="603">C'est la belle AEglé qui me charme,</l>
+
+	<l id="604">Elle est l'unique prix que je veux demander.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="605">C'est AEglé ? Dites-vous, AEglé, qui vous engage ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="606">Je sais que la grandeur a pour vous des attraits,</l>
+
+	<l id="607">Régnez avec le roi, régnez tous deux en paix,</l>
+
+	<l id="608">AEglé, l'aimable AEglé, n'est qu'un trop beau partage.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="609">Je crains pour votre amour un obstacle fatal.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="610">Si Médée est pour moi qui peut m'être contraire ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="611">Vous avez le roi pour rival.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="612">Malgré sa foi promise, AEglé pourrait lui plaire ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="613">Laissez-moi voir AEglé, laissez-moi voir le roi,</l>
+
+	<l id="614">Vous connaîtrez bientôt les soins que je vais prendre</l>
+
+	<l id="615">Allez, allez, m'attendre,</l>
+
+	<l id="616">Et fiez-vous à moi.</l>
+
+</sp>
+
+<stage>Thésée passe dans l'appartement de Médée.</stage>
+
+</div2>
+
+<div2 type="scene" n="9"><head>SCÈNE IX.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE, seule.</speaker>
+
+	<l id="617">Dépit mortel, transport jaloux,</l>
+
+	<l id="618">Je m'abandonne à vous.</l>
+
+	<l id="619">Et toi, meurs pour jamais, tendresse trop fatale ;</l>
+
+	<l id="620">Que le barbare amour, que j'avais cru si doux,</l>
+
+	<l id="621">Se change dans mon coeur en furie infernale.</l>
+
+	<l id="622">Dépit mortel, transport jaloux,</l>
+
+	<l id="623">Je m'abandonne à vous.</l>
+
+	<l id="624">Inventons quelque peine affreuse, et sans égale :</l>
+
+	<l id="625">Préparons avec soin, nos plus funestes coups.</l>
+
+	<l id="626">Ah ! Si l'ingrat que j'aime échappe à mon couroux,</l>
+
+	<l id="627">Au moins, n'épargnons pas mon heureuse rivale.</l>
+
+	<l id="628">Dépit mortel, transport jaloux,</l>
+
+	<l id="629">Je m'abandonne à vous.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="3"><head>ACTE III</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. Aeglé, Cléone.</head>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="630">Vous allez voir bientôt votre amant dans ces lieux.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="631">Je le verrai victorieux.</l>
+
+	<l id="632">Après de mortelles alarmes</l>
+
+	<l id="633">Qu'un bienheureux retour est doux pour les amants !</l>
+
+	<l id="634">L'amour s'accroît par les tourments,</l>
+
+	<l id="635">Les biens qu'il fait payer avec le plus de larmes</l>
+
+	<l id="636">N'en deviennent que plus charmants.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="637">Thésée est triomphant, chacun le veut pour maître.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="638">Ne verrai-je point paraître</l>
+
+	<l id="639">Un si glorieux vainqueur ?</l>
+
+	<l id="640">Il négligera peut-être</l>
+
+	<l id="641">La conquête de mon coeur.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="642">On n'est pas inconstant pour aimer la victoire.</l>
+
+	<l id="643">Si le passage est beau de l'amour à la gloire,</l>
+
+	<l id="644">Rien n'est si doux que le retour</l>
+
+	<l id="645">De la gloire à l'amour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="646">Non, son amour n'est point extrême :</l>
+
+	<l id="647">Faut-il qu'il trouve ailleurs tant de soins importants ?</l>
+
+	<l id="648">Il n'ignore pas que je l'aime,</l>
+
+	<l id="649">Il doit songer que je l'attends.</l>
+
+</sp>
+
+<sp who="AEGLE_CLEONE"><speaker>AEGLÉ et CLÉONE</speaker>
+
+	<l id="650">La gloire n'est que trop pressante,</l>
+
+	<l id="651">Un héros doit la suivre avec empressement ;</l>
+
+	<l id="652">Mais dès que la gloire est contente,</l>
+
+	<l id="653">L'amour doit promptement</l>
+
+	<l id="654">Ramener un amant.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Arcas, Aeglé, Cléone.</head>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="655">Le roi m'ordonne de vous dire</l>
+
+	<l id="656">Qu'il vous fera bientôt régner :</l>
+
+	<l id="657">Rien ne trouble plus son empire...</l>
+
+	<l id="658">Vous tremblez ? Votre coeur soupire ?</l>
+
+	<l id="659">Le roi tout vieux qu'il est n'est pas à dédaigner.</l>
+
+	<l id="660">Lorsque par le feu du bel âge</l>
+
+	<l id="661">Un jeune coeur se sent pressé,</l>
+
+	<l id="662">Dans une ardente amour sans effort on l'engage :</l>
+
+	<l id="663">On triomphe bien davantage</l>
+
+	<l id="664">Quand on enflamme un coeur que les ans ont glacé.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="665">Si tu connais, Arcas, le trouble qui me presse,</l>
+
+	<l id="666">Ne va point découvrir la peine où tu me vois.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="667">Si tu veux m'obliger oblige la princesse :</l>
+
+	<l id="668">Fais, s'il se peut par ton adresse</l>
+
+	<l id="669">Que le roi tourne ailleurs son choix.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="670">Tu me donnes toujours d'assez fâcheux emplois.</l>
+
+</sp>
+
+<sp who="AEGLE_CLEONE_ARCAS"><speaker>AEGLÉ, CLÉONE et ARCAS..</speaker>
+
+	<l id="671">Il n'est point de grandeur charmante</l>
+
+	<l id="672">Sans l'amour et sans ses douceurs :</l>
+
+	<l id="673">Rien ne plaît, rien n'enchante,</l>
+
+	<l id="674">Sans l'amour et sans ses douceurs :</l>
+
+	<l id="675">Rien ne contente</l>
+
+	<l id="676">Les jeunes coeurs</l>
+
+	<l id="677">Sans l'amour et sans ses douceurs :</l>
+
+	<l id="678">Il n'est point de grandeur charmante</l>
+
+	<l id="679">Sans l'amour et sans ses douceurs.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Médée, Dorine, AEglé, Cléone, Arcas.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="680">Princesse savez-vous ce que peut ma colère</l>
+
+	<l id="681">Quand on l'oblige d'éclater ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="682">Je prétends ne rien faire</l>
+
+	<l id="683">Qui vous doive irriter.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="684">Et n'est-ce rien que de trop plaire ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="685">Je renonce à l'hymen du roi</l>
+
+	<l id="686">Si je lui plais, c'est malgré moi.</l>
+
+	<l id="687">Ce n'est point dans le rang suprême</l>
+
+	<l id="688">Qu'on trouve les plus doux appas,</l>
+
+	<l id="689">Et souvent un bonheur extrême</l>
+
+	<l id="690">Est plus sûr dans un rang plus bas.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="691">Vous aimez donc Thésée ? Ah ! N'en rougissez pas,</l>
+
+	<l id="692">Il n'est que trop digne qu'on l'aime.</l>
+
+	<l id="693">Je m'intéresse en votre amour ;</l>
+
+	<l id="694">Parlez, vous connaîtrez mon coeur à votre tour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="695">J'avais toujours bravé l'amour et sa puissance</l>
+
+	<l id="696">Avant que d'avoir vu ce glorieux vainqueur ;</l>
+
+	<l id="697">Mais la gloire et l'amour tous deux d'intelligence</l>
+
+	<l id="698">Ne sont que trop puissants pour vaincre un jeune coeur.</l>
+
+	<l id="699">Que votre soin au mien réponde,</l>
+
+	<l id="700">J'espère que le roi deviendra votre époux :</l>
+
+	<l id="701">Régnez par son hymen dans une paix profonde,</l>
+
+	<l id="702">Laissez-moi ce héros, mon sort est assez doux ;</l>
+
+	<l id="703">Quand vous posséderiez tout l'empire du monde,</l>
+
+	<l id="704">Mon coeur n'en serait point jaloux.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="705">Mais enfin, si le roi commande,</l>
+
+	<l id="706">Vous êtes soumise à sa loi.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="707">Ma vie est au pouvoir du roi,</l>
+
+	<l id="708">Et je veux bien qu'elle en dépende :</l>
+
+	<l id="709">Mais c'est en vain qu'il demande</l>
+
+	<l id="710">Un coeur qui n'est plus à moi.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="711">Vous m'en avez trop dit, il est temps qu'entre nous</l>
+
+	<l id="712">La confidence soit égale.</l>
+
+	<l id="713">Il faut vous dégager d'une chaîne fatale.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="714">La mort, la seule mort rompra des noeuds si doux.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="715">Je veux que dés demain le roi soit votre époux :</l>
+
+	<l id="716">Vous aimez un héros qui ne peut être à vous,</l>
+
+	<l id="717">Et Médée est votre rivale ;</l>
+
+	<l id="718">Prenez soin d'éviter mon funeste courroux.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="719">Nos deux coeurs sont unis par un amour fidèle.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="720">En dépit de l'amour je les veux diviser.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="721">La chaîne qui nous lie est si forte et si belle.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="722">J'aurai plus de plaisir si je la puis briser.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="723">Non, j'aime mieux la mort qu'une lâche inconstance,</l>
+
+	<l id="724">Tout l'enfer à mes yeux n'aura rien de si noir ;</l>
+
+	<l id="725">Malgré Médée et sa vengeance,</l>
+
+	<l id="726">Mon amour fera son devoir.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="727">Voyons si votre amour est tel qu'il veut paraître,</l>
+
+	<l id="728">Puisque vous le voulez vous allez me connaiître :</l>
+
+	<l id="729">Je vais vous faire voir</l>
+
+	<l id="730">Ce que c'est que Médée et quel est son pouvoir.</l>
+
+<stage>La scène change, et représente un désert épouvantable rempli de monstres furieux.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. AEglé, Cléone, Arcas, Dorine.</head>
+
+<sp who=" AEGLE_CLEONE_ARCAS"><speaker>AEGLÉ, CLÉONE et ARCAS..</speaker>
+
+	<l id="731">Dieux ! Où sommes nous !</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="732">Que d'objets horribles !</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="733">Quels monstres terribles !</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="734">Quel affreux courroux !</l>
+
+</sp>
+
+<sp who=" AEGLE_CLEONE_ARCAS"><speaker>AEGLÉ, CLÉONE et ARCAS..</speaker>
+
+	<l id="735">Dieux ! Où sommes-nous !</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="736">Me laissez-vous, cruelle,</l>
+
+	<l id="737">Dans cette horreur mortelle ?</l>
+
+	<l id="738">Ah cruelle ! Où me laissez-vous ?</l>
+
+</sp>
+
+<sp who=" AEGLE_CLEONE_ARCAS"><speaker>AEGLÉ, CLÉONE et ARCAS..</speaker>
+
+	<l id="739">Dieux ! Où sommes nous ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Cléone, Arcas, Dorine.</head>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="740">Contre ce monstre qui m'alarme</l>
+
+	<l id="741">Viens me défendre Arcas.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="742">Ne crains rien avant mon trépas.</l>
+
+	<l id="743">Ô ciel ! On me désarme !</l>
+
+<stage>Un fantôme emporte l'épée d'Arcas.</stage>
+
+	<l id="744">Tu peux beaucoup ici, belle Dorine, hélas !</l>
+
+	<l id="745">Ne l'abandonne pas.</l>
+
+</sp>
+
+<sp who="CLEONE_ARCAS"><speaker>CLÉONE et ARCAS..</speaker>
+
+	<l id="746">Belle, Dorine, hélas !</l>
+
+	<l id="747">Ne m'abandonne pas.</l>
+
+	<l id="748">Ne l'abandonne pas.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="749">Il est bon d'être nécessaire ;</l>
+
+	<l id="750">C'est un charme puissant pour plaire</l>
+
+	<l id="751">Où peu de coeurs ont résisté :</l>
+
+	<l id="752">Un grand secours qu'on espère</l>
+
+	<l id="753">Est un grand trait de beauté.</l>
+
+</sp>
+
+<sp who="ARCAS"><speaker>ARCAS</speaker>
+
+	<l id="754">Ce n'est pas d'aujourd'hui que je te trouve belle.</l>
+
+</sp>
+
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+
+	<l id="755">Où pourrait-il voir plus d'attraits ?</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="756">Je sais trop votre amour nouvelle.</l>
+
+</sp>
+
+<sp who="CLEONE_ARCAS"><speaker>CLÉONE et ARCAS..</speaker>
+
+	<l id="757">Non, non, je le promets,</l>
+
+	<l id="758">Non, je ne l'aimerai jamais.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="759">Pour se tirer de peine</l>
+
+	<l id="760">Chacun promet assez ;</l>
+
+	<l id="761">Mais la promesse est vaine</l>
+
+	<l id="762">Lorsque les périls sont passés.</l>
+
+</sp>
+
+<sp who="CLEONE_ARCAS"><speaker>CLÉONE et ARCAS..</speaker>
+
+	<l id="763">Ne doute point de ma promesse.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="764">Non, je ne prétends point regagner désormais</l>
+
+	<l id="765">D'un si volage amant la trompeuse tendresse ;</l>
+
+	<l id="766">Non, non, je le promets ;</l>
+
+	<l id="767">Non, je ne l'aimerai jamais.</l>
+
+</sp>
+
+<sp who="CLEONE_ARCAS_DORINE"><speaker>CLÉONE, ARCAS et DORINE..</speaker>
+
+	<l id="768">Non, non, je le promets,</l>
+
+	<l id="769">Non, je ne l'aimerai jamais.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Médée, Cléone, Arcas, Dorine.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="770">Qu'on ne me trouble point, qu'on leur ouvre un passage.</l>
+
+	<l id="771">C'est sur d'autres que vous que doit tomber ma rage,</l>
+
+	<l id="772">Fuyez de ce funeste lieu.</l>
+
+</sp>
+
+<sp who="CLEONE_ARCAS"><speaker>CLÉONE et ARCAS..</speaker>
+
+	<l id="773">Adieu, Dorine, adieu.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Médée invoque les habitants des enfers. la Rage, le Désespoir, vingt-quatre habitants des enfers chantants, douze lutins dansants, un fantôme.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="774">Sortez, ombres, sortez de la nuit éternelle.</l>
+
+	<l id="775">Voyez le jour pour le troubler.</l>
+
+	<l id="776">Hâtez-vous d'obéir quand ma voix vous appelle,</l>
+
+	<l id="777">Que l'affreux désespoir, que la rage cruelle</l>
+
+	<l id="778">Prennent soin de vous assembler.</l>
+
+	<l id="779">Sortez, ombres, sortez de la nuit éternelle.</l>
+
+</sp>
+
+<sp who="CHOEUR_ENFER"><speaker>Choeur des habitans des enfers..</speaker>
+
+	<l id="780">Sortons de la nuit eternelle.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="781">Venez peuple infernal, venez,</l>
+
+	<l id="782">Avancez malheureux coupables,</l>
+
+	<l id="783">Soyez aujourd'hui déchaînés :</l>
+
+	<l id="784">Goûtez l'unique bien des coeurs infortunés,</l>
+
+	<l id="785">Ne soyons pas seuls misérables.</l>
+
+</sp>
+
+<sp who="CHOEUR_ENFER"><speaker>Le CHOEUR.</speaker>
+
+	<l id="786">Goûtons l'unique bien des coeurs infortunés,</l>
+
+	<l id="787">Ne soyons pas seuls miserables.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="788">Redoublez en ce jour le soin que vous prenez</l>
+
+	<l id="789">De mes vengeances redoutables.</l>
+
+</sp>
+
+<sp who="CHOEUR_ENFER"><speaker>Le CHOEUR.</speaker>
+
+	<l id="790">Ordonnez, ordonnez.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="791">Ma rivale m'expose à des maux effroyables ;</l>
+
+	<l id="792">Qu'elle ait part aux tourments qui vous sont destinés :</l>
+
+	<l id="793">Tous les enfers impitoyables</l>
+
+	<l id="794">Auront peine à former des horreurs comparables</l>
+
+	<l id="795">Aux troubles qu'elle m'a donné :</l>
+
+	<l id="796">Goûtons l'unique bien des coeurs infortunés,</l>
+
+	<l id="797">Ne soyons pas seuls misérables.</l>
+
+</sp>
+
+<sp who="CHOEUR_ENFER"><speaker>Le CHOEUR.</speaker>
+
+	<l id="798">Goûtons l'unique bien des coeurs infortunés,</l>
+
+	<l id="799">Ne soyons pas seuls misérables.</l>
+
+<stage>Les habitants des enfers expriment la douceur qu'ils trouvent dans les ordres que Médée leur donne de donner des frayeurs, et de faire de la peine à Aeglé.</stage>
+
+	<l id="800">On nous tourmente</l>
+
+	<l id="801">Sans cesse aux enfers,</l>
+
+	<l id="802">Que l'on ressente</l>
+
+	<l id="803">Nos feux et nos fers.</l>
+
+	<l id="804">Tout doit se troubler,</l>
+
+	<l id="805">Tout doit trembler.</l>
+
+	<l id="806">La colère</l>
+
+	<l id="807">Ne laisse jamais</l>
+
+	<l id="808">Nos coeurs en paix ;</l>
+
+	<l id="809">Les plaintes qu'on peut faire</l>
+
+	<l id="810">Nous doivent toujours plaire,</l>
+
+	<l id="811">Et nous ne plaignons guère</l>
+
+	<l id="812">Les yeux qui sont en pleurs :</l>
+
+	<l id="813">Dans la rage,</l>
+
+	<l id="814">Les maux qu'on partage</l>
+
+	<l id="815">Ne sont pas sans douceurs.</l>
+
+	<l id="816">On nous déchaine,</l>
+
+	<l id="817">Suivons nos fureurs ;</l>
+
+	<l id="818">Dans notre peine</l>
+
+	<l id="819">Troublons tous les coeurs.</l>
+
+	<l id="820">Un grand désespoir</l>
+
+	<l id="821">Est doux à voir.</l>
+
+	<l id="822">La colère</l>
+
+	<l id="823">Ne laisse jamais</l>
+
+	<l id="824">Nos coeurs en paix ;</l>
+
+	<l id="825">Les plaintes qu'on peut faire</l>
+
+	<l id="826">Nous doivent toujours plaire,</l>
+
+	<l id="827">Et nous ne plaignons guère</l>
+
+	<l id="828">Les yeux qui sont en pleurs :</l>
+
+	<l id="829">Dans la rage,</l>
+
+	<l id="830">Les maux qu'on partage</l>
+
+	<l id="831">Ne sont pas sans douceurs.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. AEglé, habitants des enfers.</head>
+
+<stage>Les habitants des enfers épouvantent AEglé. Elle les fuit, et ils la suivent.</stage>
+
+<sp who="CHOEUR_ENFER"><speaker>Le CHOEUR.</speaker>
+
+	<l id="832">Que tout frémisse :</l>
+
+	<l id="833">Qu'avec nous tout gémisse :</l>
+
+	<l id="834">Quelle douceur de voir souffrir !</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="835">Ah quel effroyable supplice !</l>
+
+	<l id="836">Faites-moi promptement mourir.</l>
+
+</sp>
+
+<sp who="CHOEUR_ENFER"><speaker>Le CHOEUR.</speaker>
+
+	<l id="837">Que tout frémisse :</l>
+
+	<l id="838">Qu'avec nous tout gémisse :</l>
+
+	<l id="839">Quelle douceur de voir souffrir !</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="4"><head>ACTE IV</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I. AEglé, Médée.</head>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="840">Cruelle, ne voulez-vous pas</l>
+
+	<l id="841">Faire cesser ma peine ?</l>
+
+	<l id="842">Au moins achevez, inhumaine,</l>
+
+	<l id="843">Achevez mon trépas.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="844">Satisfaites le roi, contentez mon envie,</l>
+
+	<l id="845">Si vous voulez sortir de cet affreux sejour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="846">Hélas ! Laissez-moi mon amour,</l>
+
+	<l id="847">Prenez plutôt ma vie.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="848">Ma rage en vous perdant ne peut être assouvie,</l>
+
+	<l id="849">C'est grâce, c'est pitié de vous ôter le jour.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="850">Vous aurez beau me poursuivre,</l>
+
+	<l id="851">Vous aurez beau m'alarmer,</l>
+
+	<l id="852">Ce n'est qu'en cessant de vivre</l>
+
+	<l id="853">Que je puis cesser d'aimer.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="854">Achevez de savoir de quoi je suis capable ;</l>
+
+	<l id="855">La plus horrible mort n'a rien de comparable</l>
+
+	<l id="856">Au coup qui vous menace en ce fatal instant :</l>
+
+	<l id="857">Moi-méme j'en frémis tant il est effroyable.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="858">Est-ce un crime si punissable</l>
+
+	<l id="859">D'avoir un coeur tendre et constant ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="860">Il n'est que trop aisé de percer un coeur tendre :</l>
+
+	<l id="861">Toute ma rage enfin va paraître à vos yeux.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="862">Quel spectacle vient me surprendre ?</l>
+
+	<l id="863">C'est Thésée endormi qu'on transporte en ces lieux.</l>
+
+</sp>
+
+<stage>Thésée endormi descend conduit par des spectres volants.</stage>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Medée, Aeglé, Thesée endormi.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="864">Venez à mon secours implacables furies.</l>
+
+	<l id="865">Que le sang innocent recommence à couler ;</l>
+
+	<l id="866">Il faut encor nous signaler</l>
+
+	<l id="867">Par de nouvelles barbaries,</l>
+
+	<l id="868">Venez à mon secours implacables furies.</l>
+
+<stage>Les furies sortent tenant un tison ardent d'une main, et un couteau de l'autre.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Medée, AEglé, Thésée endormi, les Furies.</head>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="869">Faut-il voir contre moi tous les enfers armés ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="870">Tremblez en apprenant quel est votre supplice.</l>
+
+	<l id="871">Votre amant va périr, c'est vous qui m'animez</l>
+
+	<l id="872">À m'en faire à vos yeux un affreux sacrifice.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="873">Vous pouvez vouloir qu'il périsse ?</l>
+
+	<l id="874">Et vous dites que vous l'aimez ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="875">Il faut voir qui des deux l'aimera davantage,</l>
+
+	<l id="876">Plutôt que le céder, j'aime mieux que la mort</l>
+
+	<l id="877">En fasse entre nous le partage,</l>
+
+	<l id="878">Et l'amour n'en est que plus fort</l>
+
+	<l id="879">Quand il passe jusqu'à la rage.</l>
+
+<stage>Elle parle aux furies.</stage>
+
+	<l id="880">Dépêchez, achevez votre sanglant ouvrage.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="881">Arrêtez, retenez leurs coups,</l>
+
+	<l id="882">J'épouserai le roi, je suivrai votre envie :</l>
+
+	<l id="883">Je cède ce héros, que son coeur soit à vous,</l>
+
+	<l id="884">Rien ne m'est si cher que sa vie.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="885">Mais aurez-vous bien le pouvoir</l>
+
+	<l id="886">De lui paraître ingrate, insensible, volage ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="887">C'est lui faire un cruel outrage,</l>
+
+	<l id="888">J'aimerais mieux ne le point voir.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="889">Non il faut lui montrer une âme déloyale</l>
+
+	<l id="890">Qui l'immole sans peine à la grandeur royale</l>
+
+	<l id="891">Tandis que je feindrai d'agir en sa faveur :</l>
+
+	<l id="892">Enfin je veux gagner son coeur</l>
+
+	<l id="893">Par le secours de ma rivale.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="894">Dieux ! Quelle contrainte fatale !</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="895">Pour le prix de ses jours attirez ses mépris,</l>
+
+	<l id="896" part="i">Ou je vais...</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="896" part="f">Non, qu'il vive, il n'importe à quel prix :</l>
+
+	<l id="897">Je veux tout, je puis tout pour sauver ce que j'aime ;</l>
+
+	<l id="898">Mon amour vous promet de se trahir lui-même.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="899">Cessez donc de trembler : voyez en un moment</l>
+
+	<l id="900">Changer ces lieux affreux en un séjour charmant.</l>
+
+</sp>
+
+<stage>Les furies rentrent dans les enfers, le théâtre change, et représente une île enchantée.</stage>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Médée, Thésée, AEglé.</head>
+
+<sp who="MEDEE"><speaker>Médée touchant Thésée de sa baguette magique..</speaker>
+
+	<l id="901">Voyez ce que j'i soin de faire</l>
+
+	<l id="902">Pour un trop malheureux amant.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THESÉE éveillé et regardant un habit magnifique et galant dont il est paré..</speaker>
+
+	<l id="903">Où suis-je ? Et d'où me vient ce nouvel ornement ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="904">J'ai voulu vous aider à plaire.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THESÉE se voyant sans épée..</speaker>
+
+	<l id="905">Mon épée ! Ah rendez-la moi.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="906">On va vous l'apporter. Si vous craignez le roi,</l>
+
+	<l id="907">Je serai vos plus fortes armes.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="908">Après tout ce que je vous dois...</l>
+
+<stage>Il aperçoit AEglé.</stage>
+
+	<l id="909">Est-ce vous ? Ma princesse, est-ce vous que je vois ?</l>
+
+	<l id="910">Mais où détournez-vous vos regards pleins de charmes ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="911">Quoy ? Vous ne tournez pas les yeux</l>
+
+	<l id="912">Sur un amant si glorieux ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="913">Belle AEglé, dites-moi, quel crime ai-je pu faire ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="914">N'appreéhendez-vous point qu'on ose se venger ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="915">Non, elle aura beau m'outrager,</l>
+
+	<l id="916">Elle me sera toujours chère.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="917">Tant d'amour ne vous touche pas ?</l>
+
+	<l id="918">Ingrate, croyez-vous qu'un trône ait plus d'appas ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="919">Vous m'aviez tant promis de n'être point légère ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="920">De quoi ne vient point à bout</l>
+
+	<l id="921">Un roi qui veut plaire ?</l>
+
+	<l id="922">La constance ne tient guère</l>
+
+	<l id="923">Contre un amant qui peut tout.</l>
+
+	<l id="924">Le roi doit redouter que mon dépit n'éclate :</l>
+
+	<l id="925">Pour regagner son coeur, je vais encor le voir.</l>
+
+	<l id="926">Essayez, cependant, d'attendrir cette ingrate :</l>
+
+	<l id="927">Si tous nos soins unis ne peuvent l'émouvoir,</l>
+
+	<l id="928">Votre amour seul peut-être aura plus de pouvoir.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Thésée, AEglé.</head>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="929">AEglé ne m'aime plus, et n'a rien à me dire ?</l>
+
+	<l id="930">Qu'avez-vous fait des noeuds que l'amour fit pour nous ?</l>
+
+	<l id="931">Quoi pour les briser tous.</l>
+
+	<l id="932">Un jour, un seul jour peut suffire ?</l>
+
+	<l id="933">J'aurais abandonné le plus puissant empire</l>
+
+	<l id="934">Pour garder des liens si doux.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="935">Cessez d'aimer une volage ;</l>
+
+	<l id="936">Servez-vous de votre courage</l>
+
+	<l id="937">Pour chercher un plus heureux sort.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="938">Je ne m'en servirai que pour chercher la mort.</l>
+
+	<l id="939">Si la belle AEglé m'est ravie</l>
+
+	<l id="940">Je ne prétends plus rien :</l>
+
+	<l id="941">Je perds l'unique bien</l>
+
+	<l id="942">Qui m'aurait fait aimer la vie.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="943" part="i">Hélas !</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="943" part="f">Ah ! Quel soupir échappe à votre coeur !</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="944">Ce soupir échappé n'est que pour la grandeur.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="945">Vos beaux yeux répandent des larmes ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="946">Non, non, sans m'attendrir je verrai vos douleurs.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="947">Vous voulez me cacher vos pleurs ?</l>
+
+	<l id="948">Pourquoi m'en dérober les charmes ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="949">Ah ! Que vous me donnez de mortelles alarmes ?</l>
+
+	<l id="950">On vous a peut-être entendu</l>
+
+	<l id="951">Thésée, et vous êtes perdu.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="952">On ne nous entend point, non, ma belle princesse,</l>
+
+	<l id="953">Si vous m'aimez toujours ne craignez rien pour moi.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="954">Que nous payerons cher l'excès de ma tendresse ?</l>
+
+	<l id="955">Il y va de vos jours, j'espouserai le roi.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="956">C'est trop appréhender que le roi ne s'irrite.</l>
+
+	<l id="957">Il faut vous dire tout, l'amour m'en sollicite ;</l>
+
+	<l id="958" part="i">Je suis fils du roi,</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="958" part="f">Vous, seigneur !</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="959">Je n'ai montré d'abord que ma seule valeur,</l>
+
+	<l id="960">C'était à mon propre mérite</l>
+
+	<l id="961">Que je voulais devoir ma gloire et votre coeur.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="962">Le roi, le monde entier prendraient en vain les armes,</l>
+
+	<l id="963">Il n'est rien de si fort que Médée, et ses charmes,</l>
+
+	<l id="964">Nous sommes les objets de ses transports jaloux.</l>
+
+	<l id="965">S'ils n'en voulaient qu'à moi je les braverais tous,</l>
+
+	<l id="966">Mais ils m'ont su frapper par où je suis sensible.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="967">Quoi, le roi sera votre époux ?</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="968">Je ne puis vous sauver sans cet hymen horrible.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="969">Laissez armer plutôt tout l'enfer en courroux ;</l>
+
+	<l id="970">Le trépas est cent fois plus doux</l>
+
+	<l id="971">Qu'un secours si terrible ;</l>
+
+	<l id="972">Vivez pour moi, s'il est possible,</l>
+
+	<l id="973">Ou laissez-moi mourir pour vous.</l>
+
+</sp>
+
+<sp who="AEGLE_THESEE"><speaker>AEGLÉ et THESÉE</speaker>
+
+	<l id="974">Quel injustice !</l>
+
+	<l id="975">Que de tourments !</l>
+
+	<l id="976">Ah quel supplice</l>
+
+	<l id="977">De briser des noeuds si charmants !</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Médée, Thésée, Aeglé.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE sortant tout à coup d'un nuage..</speaker>
+
+	<l id="978">Finissez vos regrets, c'est trop, c'est trop vous plaindre,</l>
+
+	<l id="979">Je viens d'entendre tout il n'est plus temps de feindre.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="980">Pardonnez à l'amour qui ne m'a pas permis</l>
+
+	<l id="981">De tenir ce que j'ai promis.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="982">Vengez-vous sur moi seul de notre amour extrême.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="983">C'est par mon seul trépas qu'il faut nous désunir.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="984">Sa vie est la faveur que je veux obtenir.</l>
+
+</sp>
+
+<sp who="AEGLE"><speaker>AEGLÉ</speaker>
+
+	<l id="985">Conservez ce héros, sauvez-le pour vous-même.</l>
+
+</sp>
+
+<sp who="AEGLE_THESEE"><speaker>AEGLÉ et THESÉE</speaker>
+
+	<l id="986">Épargnez ce que j'aime,</l>
+
+	<l id="987">C'est moi, c'est moi qu'il faut punir.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="988">Je vous aime, Thésée, et vous l'allez connaître,</l>
+
+	<l id="989">Le crime enfin commence à me paraître affreux,</l>
+
+	<l id="990">Je respecte de si beaux noeuds,</l>
+
+	<l id="991">Ma rage a beau s'armer, vous en êtes le maître ;</l>
+
+	<l id="992">Votre vertu m'inspire un dépit généreux,</l>
+
+	<l id="993">Je rendrai ce que j'aime heureux</l>
+
+	<l id="994">Puisque mon amour ne peut l'être.</l>
+
+</sp>
+
+<sp who="AEGLE_THESEE"><speaker>AEGLÉ et THESÉE</speaker>
+
+	<l id="995">Quel bonheur surprenant pour nos coeurs amoureux !</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="996">Espérez tout de mon secours.</l>
+
+	<l id="997">Vous pouvez reprendre vos armes.</l>
+
+<stage>Thesée reprend son épée. Medée continue.</stage>
+
+	<l id="998">Gardez vos tendres amours,</l>
+
+	<l id="999">Goûtez-en les charmes,</l>
+
+	<l id="1000">Aimez sans alarmes,</l>
+
+	<l id="1001">Aimez-vous toujours.</l>
+
+</sp>
+
+<sp who="AEGLE_THESEE"><speaker>AEGLÉ et THESÉE</speaker>
+
+	<l id="1002">Gardons nos tendres amours,</l>
+
+	<l id="1003">Goûtons-en les charmes,</l>
+
+	<l id="1004">Aimons sans alarmes,</l>
+
+	<l id="1005">Aimons-nous toujours.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1006">Habitants fortunés de ces lieux si charmants ;</l>
+
+	<l id="1007">Commencez les plaisirs de ces heureux amants.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Thésée, AEglé, habitants de l'île enchantée,
+
+quatre bergères de l'île enchantée chantantes, deux habitants de l'île enchantée chantants, un habitant de l'île enchantée, quatorze habitants de l'île Enchantée chantants, douze hautbois, flutes et cromones, six flutes, quatre hautbois, deux cromones, douze habitants de l'ile enchantée dansants, six hommes, six femmes.</head>
+
+<sp who="BERGERES"><speaker>Deux bergères chantent ensemble..</speaker>
+
+	<l id="1008">Que nos prairies</l>
+
+	<l id="1009">Seront fleuries !</l>
+
+	<l id="1010">Les coeurs glacés</l>
+
+	<l id="1011">Pour jamais en sont chassés.</l>
+
+	<l id="1012">Ces lieux tranquilles</l>
+
+	<l id="1013">Sont les asiles</l>
+
+	<l id="1014">Des doux plaisirs,</l>
+
+	<l id="1015">Et des heureux loisirs :</l>
+
+	<l id="1016">La terre est belle,</l>
+
+	<l id="1017">La fleur nouvelle</l>
+
+	<l id="1018">Rit aux zéphirs.</l>
+
+	<l id="1019">Que nos prairies</l>
+
+	<l id="1020">Seront fleuries !</l>
+
+	<l id="1021">Les coeurs glacés</l>
+
+	<l id="1022">Pour jamais en sont chassés.</l>
+
+	<l id="1023">C'est dans nos bois</l>
+
+	<l id="1024">Qu'amour a fait ses lois :</l>
+
+	<l id="1025">Leur vert feuillage</l>
+
+	<l id="1026">Doit toujours durer,</l>
+
+	<l id="1027">Un coeur sauvage</l>
+
+	<l id="1028">N'y doit point entrer.</l>
+
+	<l id="1029">Que nos prairies</l>
+
+	<l id="1030">Seront fleuries !</l>
+
+	<l id="1031">Les coeurs glacés</l>
+
+	<l id="1032">Pour jamais en sont chassés.</l>
+
+	<l id="1033">La seule affaire</l>
+
+	<l id="1034">D'une bergère</l>
+
+	<l id="1035">C'est de songer</l>
+
+	<l id="1036">À l'amour de son berger.</l>
+
+	<l id="1037">Lorsqu'il la mène,</l>
+
+	<l id="1038">Bien qu'elle prenne</l>
+
+	<l id="1039">De longs détours,</l>
+
+	<l id="1040">Tous les chemins sont courts :</l>
+
+	<l id="1041">Sa bergerie</l>
+
+	<l id="1042">Est moins chérie</l>
+
+	<l id="1043">Que ses amours.</l>
+
+	<l id="1044">La seule affaire</l>
+
+	<l id="1045">D'une bergère</l>
+
+	<l id="1046">C'est de songer</l>
+
+	<l id="1047">À l'amour de son berger.</l>
+
+	<l id="1048">Quand son amant</l>
+
+	<l id="1049">La quitte un seul moment,</l>
+
+	<l id="1050">Nos champs pour elle</l>
+
+	<l id="1051">N'ont plus d'autre bien,</l>
+
+	<l id="1052">Elle en querelle</l>
+
+	<l id="1053">Jusques à son chien.</l>
+
+	<l id="1054">La seule affaire</l>
+
+	<l id="1055">D'une bergère</l>
+
+	<l id="1056">C'est de songer</l>
+
+	<l id="1057">À l'amour de son berger.</l>
+
+</sp>
+
+<stage>Les habitans de l'île enchantée forment des danses galantes sur l'air de la chanson des bergères.</stage>
+
+<sp who="BERGERS"><speaker>Deux autres bergères chantent ensemble..</speaker>
+
+	<l id="1058">Aimons, tout nous y convie,</l>
+
+	<l id="1059">On aime ici sans danger,</l>
+
+	<l id="1060">Il est permis de changer,</l>
+
+	<l id="1061">Chacun y suit son envie :</l>
+
+	<l id="1062">Mais, heureux, cent, et cent fois,</l>
+
+	<l id="1063">Un amant qui fait un choix</l>
+
+	<l id="1064">Qui dure autant que sa vie !</l>
+
+	<l id="1065">Fuyons le bruit des villages,</l>
+
+	<l id="1066">Fuyons l'éclat du grand jour,</l>
+
+	<l id="1067">Les fruits charmants de l'amour</l>
+
+	<l id="1068">Sont dans les sombres boccages.</l>
+
+	<l id="1069">N'ayons point de peur des loups,</l>
+
+	<l id="1070">Ne craignons que les jaloux</l>
+
+	<l id="1071">Qui sont encor plus sauvages.</l>
+
+</sp>
+
+<stage>Les habitants de l'île enchantée dansent sur l'air de la chanson des bergères, qui est joué par des instruments champêtres. Un des habitants de l'île enchantée chante au milieu de tous les autres, qui s'assemblent autour de lui, pour chanter, et pour danser.</stage>
+
+<sp who="HABITANT"><speaker>Un des habitants de l'île enchantée..</speaker>
+
+<stage>Première chanson.</stage>
+
+	<l id="1072">Quel plaisir d'aimer</l>
+
+	<l id="1073">Sans contrainte !</l>
+
+	<l id="1074">Nous pouvons former</l>
+
+	<l id="1075">Des voeux sans crainte.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1076">Quel plaisir d'aimer</l>
+
+	<l id="1077">Sans contrainte !</l>
+
+	<l id="1078">Nous pouvons former</l>
+
+	<l id="1079">Des voeux sans crainte.</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitants de l'île enchantée..</speaker>
+
+	<l id="1080">Jusques aux langueurs,</l>
+
+	<l id="1081">Et jusqu'aux larmes,</l>
+
+	<l id="1082">Pour les tendres coeurs</l>
+
+	<l id="1083">Tout a des charmes.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1084">Jusques aux langueurs,</l>
+
+	<l id="1085">Et jusqu'aux larmes,</l>
+
+	<l id="1086">Pour les tendres coeurs</l>
+
+	<l id="1087">Tout a des charmes.</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitants de l'île enchantée..</speaker>
+
+	<l id="1088">C'est le plus discret</l>
+
+	<l id="1089">Qui doit plaire ;</l>
+
+	<l id="1090">Il faut du secret</l>
+
+	<l id="1091">Et du mystère.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1092">C'est le plus discret</l>
+
+	<l id="1093">Qui doit plaire ;</l>
+
+	<l id="1094">Il faut du secret</l>
+
+	<l id="1095">Et du mystère.</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un Des Habitans De L'isle Enchantée..</speaker>
+
+	<l id="1096">On dit les rigueurs</l>
+
+	<l id="1097">De sa bergère,</l>
+
+	<l id="1098">Mais pour les faveurs,</l>
+
+	<l id="1099">On s'en doit taire.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1100">On dit les rigueurs</l>
+
+	<l id="1101">De sa bergère,</l>
+
+	<l id="1102">Mais pour les faveurs,</l>
+
+	<l id="1103">On s'en doit taire.</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitants de l'île enchantée..</speaker>
+
+<stage>Seconde chanson.</stage>
+
+	<l id="1104">L'amour plaît malgré ses peines,</l>
+
+	<l id="1105">L'amour plaît aux coeurs constants :</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1106">L'amour plaît malgré ses peines,</l>
+
+	<l id="1107">L'amour plaît aux coeurs constants :</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitans de l'île enchantée..</speaker>
+
+	<l id="1108">On ne peut porter ses chaînes</l>
+
+	<l id="1109">Assez tôt, ni trop longtemps.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1110">On ne peut porter ses chaînes</l>
+
+	<l id="1111">Assez tôt, ni trop longtemps.</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitans de L'île enchantée..</speaker>
+
+	<l id="1112">Sans amour, tout est sans âme,</l>
+
+	<l id="1113">L'amour seul nous rend contents ;</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1114">Sans amour, tout est sans âme,</l>
+
+	<l id="1115">L'amour seul nous rend contents ;</l>
+
+</sp>
+
+<sp who="HABITANT"><speaker>Un des habitans de l'île enchantée..</speaker>
+
+	<l id="1116">On ne peut sentir sa flamme</l>
+
+	<l id="1117">Assez tôt, ni trop longtemps.</l>
+
+</sp>
+
+<sp who="CHOEUR_HABITANTS"><speaker>Le Choeur..</speaker>
+
+	<l id="1118">On ne peut sentir sa flamme</l>
+
+	<l id="1119">Assez tôt, ni trop longtemps.</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type="acte" n="5"><head>ACTE V</head>
+
+<div2 type="scene" n="1"><head>SCÈNE I.</head>
+
+<stage>Le théâtre change et représente un palais, que les enchantements de Medée font paraître, et où l'on voit les apprêts d'un superbe festin.</stage>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1120">Ah faut-il me venger</l>
+
+	<l id="1121">En perdant ce que j'aime !</l>
+
+	<l id="1122">Que fais-tu ma fureur, où vas-tu m'engager ?</l>
+
+	<l id="1123">Punir ce coeur ingrat c'est me punir moi-même,</l>
+
+	<l id="1124">J'en mourrai de douleur, je tremble d'y songer,</l>
+
+	<l id="1125">Ah faut-il me venger</l>
+
+	<l id="1126">En perdant ce que j'aime !</l>
+
+	<l id="1127">Ma rivale triomphe, et me voit outrager :</l>
+
+	<l id="1128">Quoi, laisser son amour sans peine, et sans danger ?</l>
+
+	<l id="1129">Voir le spectacle affreux de son bonheur extrême ?</l>
+
+	<l id="1130">Non, il faut me venger</l>
+
+	<l id="1131">En perdant ce que j'aime.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="2"><head>SCÈNE II. Dorine, Médée.</head>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="1132">Que Thésée est content de son bienheureux sort !</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1133">Dorine, c'en est fait, tout est prêt pour sa mort.</l>
+
+</sp>
+
+<sp who="DORINE"><speaker>DORINE</speaker>
+
+	<l id="1134">Quoi ce grand appareil est sa mort qu'on prépare ?</l>
+
+	<l id="1135">Le roi le doit choisir ici pour successeur ;</l>
+
+	<l id="1136">Votre soin pour lui se déclare.</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1137">J'ay caché mon dépit sous ma feinte douceur ;</l>
+
+	<l id="1138">La vengeance ordinaire est trop peu pour mon coeur,</l>
+
+	<l id="1139">Je la veux horrible et barbare.</l>
+
+	<l id="1140">Je m'eéloignais tantôt exprès pour tout savoir.</l>
+
+	<l id="1141">Du secret de Thésée il faut me prévaloir,</l>
+
+	<l id="1142">Le roi l'ignore encor, et pour me satisfaire</l>
+
+	<l id="1143">Contre un fils inconnu j'arme son propre père :</l>
+
+	<l id="1144">J'immolai mes enfants, j'osai les égorger ;</l>
+
+	<l id="1145">Je ne serai pas seule inhumaine, et perfide,</l>
+
+	<l id="1146">Je ne puis me venger</l>
+
+	<l id="1147">À moins d'un parricide.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="3"><head>SCÈNE III. Le roi, Médée.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1148">Ce vase par mes soins vient d'être empoisonné ;</l>
+
+	<l id="1149">Vous n'aurez qu'à l'offrir... vous semblez étonné ?</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1150">Ce héros m'a servi, malgré moi je l'estime,</l>
+
+	<l id="1151">Puis-je lui preparer un injuste trépas ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1152">L'espoir de votre amour, la paix de vos états,</l>
+
+	<l id="1153">Tout dépend d'immoler cette grande victime.</l>
+
+	<l id="1154">Contre un rival heureux faut-il qu'on vous anime ?</l>
+
+	<l id="1155">La vengeance a bien des appas,</l>
+
+	<l id="1156">Est-ce trop la payer s'il vous en coûte un crime ?</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1157">Je n'ai rien fait jusqu'à ce jour</l>
+
+	<l id="1158">Qui puisse ternir ma mémoire ;</l>
+
+	<l id="1159">Si près de mon tombeau faut-il trahir ma gloire ?</l>
+
+	<l id="1160">Ne vaudrait-il pas mieux étouffer mon amour ?</l>
+
+</sp>
+
+<sp who="MEDEE"><speaker>MÉDÉE</speaker>
+
+	<l id="1161">Vous avez un fils à Trézene,</l>
+
+	<l id="1162">Il faudra toujours l'éloigner :</l>
+
+	<l id="1163">Votre peuple pour lui n'aura que de la haine,</l>
+
+	<l id="1164">Il adore Thésée, il veut le voir régner.</l>
+
+	<l id="1165">Laisserez-vous un fils sans nom, et sans empire,</l>
+
+	<l id="1166">Tandis qu'un étranger jouira de son sort,</l>
+
+	<l id="1167">Et peut-être osera s'assûrer par sa mort...</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1168">Je cède aux sentimens que la nature inspire,</l>
+
+	<l id="1169">Je me rends, l'amour seul n'était pas assez fort.</l>
+
+</sp>
+
+<sp who="MEDEE_ROI"><speaker>MÉDÉE et LE ROI</speaker>
+
+	<l id="1170">Que la vengeance</l>
+
+	<l id="1171">À d'attrais pour des coeurs jaloux !</l>
+
+	<l id="1172">N'épargnons point qui nous offense,</l>
+
+	<l id="1173">Vengeons-nous, vengeons-nous,</l>
+
+	<l id="1174">L'amour même, n'est pas plus doux</l>
+
+	<l id="1175">Que la vengeance.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="4"><head>SCÈNE IV. Thésée, AEglé, le Roi, Médée, Cléone, Arcas, le choeur, et une troupe d'Athéniens.</head>
+
+<sp who="MEDEE_ROI"><speaker>MÉDÉE et LE ROI</speaker>
+
+	<l id="1176">Ne craignez rien parfaits amants</l>
+
+	<l id="1177">Les plaisirs suivront vos tourments.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>LE CHOEUR..</speaker>
+
+	<l id="1178">Ne craignez rien parfaits amants</l>
+
+	<l id="1179">Les plaisirs suivront vos tourments.</l>
+
+</sp>
+
+<sp who="MEDEE_ROI"><speaker>MÉDÉE et LE ROI</speaker>
+
+	<l id="1180">Recevez la récompence</l>
+
+	<l id="1181">De votre constance.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="1182">Ne craignez rien parfaits amants</l>
+
+	<l id="1183">Les plaisirs suivront vos tourments.</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1184">Oublions le passé, ma colère est finie ;</l>
+
+	<l id="1185">Puisqu'Athènes le veut je consens qu'après moi</l>
+
+	<l id="1186">Ce héros soit un jour son légitime roi.</l>
+
+	<l id="1187">Commençons la cérémonie.</l>
+
+	<l id="1188">Qu'on apprenne à servir Thésée en souverain.</l>
+
+	<l id="1189">Prenez ce vase de ma main.</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE prenant le vase d'une main, et tirant son épée de l'autre..</speaker>
+
+	<l id="1190">Je jure sur ce fer qui m'a comblé de gloire,</l>
+
+	<l id="1191">Que je vous servirai contre vos ennemis,</l>
+
+	<l id="1192">Et que vous n'aurez point de sujet plus soumis...</l>
+
+<stage>Le roi considère avec étonnement l'épée de Thésée, et la reconnaît pour être celle qu'il a laissée pour servir un jour à la reconnaissance de son fils. </stage>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI empêchant Thesée de porter le vase à sa bouche..</speaker>
+
+	<l id="1193">Que vosi-je ? Quelle épée ! Ah qui l'aurait pû croire !</l>
+
+	<l id="1194">Ô ciel ! J'allais perdre mon fils !</l>
+
+	<l id="1195">J'avais laissé ce fer pour ta reconnaissance,</l>
+
+	<l id="1196">Mon fils, ah mon cher fils, où nous exposais-tu ?</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="1197">Ce fer eût dans mes mains trahi votre esperance</l>
+
+	<l id="1198">En vous montrant un fils qui n'eut point combattu,</l>
+
+	<l id="1199">Sans prendre aucun secours d'une illustre naissance</l>
+
+	<l id="1200">Je voulais éprouver jusqu'où va la vertu.</l>
+
+<stage>Médée s'enfuit voyant Thésée reconnu par son père.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="5"><head>SCÈNE V. Le Roi, Thésée, AEglé, Cléone, Arcas, choeur et troupe d'Athéniens.</head>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1201">Ah ! Perfide Médée ! ... elle fuit l'inhumaine,</l>
+
+	<l id="1202">Qu'on la poursuive, allez, ne la respectez plus ;</l>
+
+	<l id="1203">Mais la poursuite en sera vaine,</l>
+
+	<l id="1204">Elle sait des chemins qui nous sont inconnus !</l>
+
+</sp>
+
+<sp who="THESEE"><speaker>THÉSÉE</speaker>
+
+	<l id="1205">C'est assez d'éviter sa haine ;</l>
+
+	<l id="1206">Soyons heureux, Seigneur :</l>
+
+	<l id="1207">Notre parfait bonheur</l>
+
+	<l id="1208">Suffira pour sa peine.</l>
+
+</sp>
+
+<sp who="LE_ROI_THESEE_AEGLE"><speaker>LE ROI, THESÉE et AEGLÉ..</speaker>
+
+	<l id="1209">Notre parfait bonheur</l>
+
+	<l id="1210">Suffira pour sa peine.</l>
+
+</sp>
+
+<sp who="LE_ROI"><speaker>LE ROI</speaker>
+
+	<l id="1211">Je suis charmé de vos appas,</l>
+
+	<l id="1212">Je ne m'en défends pas,</l>
+
+	<l id="1213">Trop aimable AEglé, je vous aime ;</l>
+
+	<l id="1214">Mais je veux être heureux dans un autre moi-même ;</l>
+
+	<l id="1215">Mon rival m'est trop cher pour en être jaloux,</l>
+
+	<l id="1216">Je reconnais mon fils à son amour extrême,</l>
+
+	<l id="1217">C'est le sort de mon sang de s'enflammer pour vous.</l>
+
+	<l id="1218">Que l'hymen prepare</l>
+
+	<l id="1219">Des noeuds pleins d'attraits</l>
+
+	<l id="1220">Soyez unis à jamais,</l>
+
+	<l id="1221">Que l'amour répare</l>
+
+	<l id="1222">Tous les maux qu'il vous a faits</l>
+
+	<l id="1223">Soyez unis à jamais.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="1224">Soyez unis à jamais.</l>
+
+</sp>
+
+<sp who="THESEE_AEGLE"><speaker>THESÉE et AEGLÉ.</speaker>
+
+	<l id="1225">Les plus belles chaînes</l>
+
+	<l id="1226">Coûtent des soûpirs ;</l>
+
+	<l id="1227">Il faut passer par les peines</l>
+
+	<l id="1228">Pour arriver aux plaisirs.</l>
+
+</sp>
+
+<sp who="LE_ROI_CLEONE_ARCAS"><speaker>LE ROI, CLÉONE et ARCAS.</speaker>
+
+	<l id="1229">Que l'hymen prépare</l>
+
+	<l id="1230">Des noeuds pleins d'attraits.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="1231">Soyez unis à jamais.</l>
+
+</sp>
+
+<sp who="LE_ROI_CLEONE_ARCAS"><speaker>LE ROI, CLÉONE et ARCAS.</speaker>
+
+	<l id="1232">Que l'amour répare</l>
+
+	<l id="1233">Tous les maux qu'il vous a faits.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="1234">Soyez unis à jamais.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="6"><head>SCÈNE VI. Médée, Le Roi, Thésée, AEglé, Cléone, Arcas, choeur et troupe d'Athéniens.</head>
+
+<sp who="MEDEE"><speaker>MÉDÉE sur un char tiré par des dragons volants..</speaker>
+
+	<l id="1235">Vous n'êtes pas encor délivrés de ma rage :</l>
+
+	<l id="1236">Je n'ai point préparé la pompe de ces lieux</l>
+
+	<l id="1237">Pour servir au bonheur d'un amour qui m'outrage ;</l>
+
+	<l id="1238">Je veux que les enfers détruisent mon ouvrage,</l>
+
+	<l id="1239">C'est ainsi qu'en partant je vous fais mes adieux.</l>
+
+<stage>Dans le temps que Médée fuit, le palais paraît embrasé, et les mets du festin préparé se convertissent en des animaux horribles.</stage>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="7"><head>SCÈNE VII. Le Roi, Thésée, AEglé, Cléone, Arcas, choeur et troupe d'Athéniens.</head>
+
+<sp who="CHOEUR"><speaker>Le CHOEUR.</speaker>
+
+	<l id="1240">Secourez-nous, justes dieux !</l>
+
+	<l id="1241">Quelle flamme épouvantable !</l>
+
+	<l id="1242">Quels ennemis furieux !</l>
+
+	<l id="1243">Secourez-nous, justes dieux !</l>
+
+	<l id="1244">Une mort inévitable</l>
+
+	<l id="1245">S'offre partout à nos yeux !</l>
+
+	<l id="1246">Secourez-nous, justes dieux !</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="8"><head>SCÈNE VIII. Minerve, choeur de divinités qui accompagnent Minerve, le Roi, Thesée, Aeglé, Cléone, Arcas, Choeur, et troupe d'Athéniens. Six flutes. Deux basses de violon, deux theorbes, quatre trompettes, cinq déesses chantantes, quatre dieux chantants, vingt-six musiciens de la suite des dieux.</head>
+
+<sp who="MINERVE"><speaker>MINERVE dans la gloire..</speaker>
+
+	<l id="1247">Le ciel veut écarter tout ce qui peut vous nuire :</l>
+
+	<l id="1248">Voyez par mon pouvoir élever à l'instant</l>
+
+	<l id="1249">Un palais éclatant</l>
+
+	<l id="1250">Que l'enfer n'osera détruire.</l>
+
+</sp>
+
+<stage>Le théâtre change et représente un palais magnifique et brillant.</stage>
+
+<sp who="MINERVE_DIVINITES"><speaker>MINERVE, et le choeur des divinités, dans la gloire..</speaker>
+
+	<l id="1251">Vivez, vivez contents dans ces aimables lieux.</l>
+
+</sp>
+
+<sp who="CHOEUR"><speaker>CHOEUR d'Atheniens dans le palais.</speaker>
+
+	<l id="1252">Vivons, vivons contents dans ces aimables lieux.</l>
+
+</sp>
+
+<sp who="MINERVE_CHOEUR"><speaker>MINERVE et LES CHOEURS</speaker>
+
+	<l id="1253">Bienheureux qui peut naître</l>
+
+	<l id="1254">Sous un règne si glorieux !</l>
+
+	<l id="1255">Vivez, vivez contents dans ces aimables lieux.</l>
+
+	<l id="1256">Vivons, vivons contents dans ces aimables lieux.</l>
+
+	<l id="1257">Un roi digne de l'être</l>
+
+	<l id="1258">Est le don le plus grand des cieux.</l>
+
+	<l id="1259">Vivez, vivez contents dans ces aimables lieux.</l>
+
+	<l id="1260">Vivons, vivons contents dans ces aimables lieux.</l>
+
+</sp>
+
+</div2>
+
+<div2 type="scene" n="9"><head>SCÈNE IX. Le Roi, Thésée, AEglé, Cléone, Arcas, choeur et troupe d'Athéniens.</head>
+
+<stage>Toutes les voix, et tous les instruments, des deux choeurs se réunissent. Les plus considérables courtisans du roi d'Athènes, environnés d'une troupe d'esclaves, forment une espèce de fête galante pour se réjouir de la reconnaissance de Thésée ; Arcas et Cléone chantent au milieu de leur danse, un grand seigneur de la cour d'AEgée, quatre courtisants, douze esclaves de la suite.</stage>>
+
+<sp who="ARCAS_CLEONE"><speaker>ARCAS et CLÉONE</speaker>
+
+	<l id="1261">Le plus sage</l>
+
+	<l id="1262">S'enflamme, et s'engage,</l>
+
+	<l id="1263">Sans savoir comment,</l>
+
+	<l id="1264">La fierté se dément,</l>
+
+	<l id="1265">Le coeur le plus sauvage</l>
+
+	<l id="1266">Soupire aisément</l>
+
+	<l id="1267">Dans un fatal moment.</l>
+
+	<l id="1268">Le plus sage</l>
+
+	<l id="1269">S'enflamme, et s'engage,</l>
+
+	<l id="1270">Sans savoir comment.</l>
+
+	<l id="1271">Contre un mal si doux, et si charmant</l>
+
+	<l id="1272">Le plus grand courage</l>
+
+	<l id="1273">Combat faiblement.</l>
+
+	<l id="1274">Le plus sage</l>
+
+	<l id="1275">S'enflamme, et s'engage,</l>
+
+	<l id="1276">Sans savoir comment.</l>
+
+	<l id="1277">Quel dommage,</l>
+
+	<l id="1278">Si l'on ne ménage</l>
+
+	<l id="1279">Les moments heureux !</l>
+
+	<l id="1280">Formons d'aimables noeuds ;</l>
+
+	<l id="1281">Faisons un doux usage</l>
+
+	<l id="1282">Du temps où les jeux</l>
+
+	<l id="1283">Suivront partout nos voeux.</l>
+
+	<l id="1284">Quel dommage</l>
+
+	<l id="1285">Si l'on ne ménage</l>
+
+	<l id="1286">Les moments heureux !</l>
+
+	<l id="1287">Qui n'est point dans l'empire amoureux</l>
+
+	<l id="1288">N'aura pour partage</l>
+
+	<l id="1289">Que des soins fâcheux.</l>
+
+	<l id="1290">Quel dommage</l>
+
+	<l id="1291">Si l'on ne ménage</l>
+
+	<l id="1292">Les moments heureux !</l>
+
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

@@ -1,0 +1,2416 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>ANDROMAQUE, TRAGÉDIE</title>
+				<author born="1639" born_location="La Ferté Millon" death="1699" death_location="Paris" academie="1673">RACINE, Jean</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, Mai 2006, revu décembre 2013</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1661-1670</periode>
+				<taille>1500-1750</taille>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k70167z</permalien>
+				<sources>
+					<source id="1">
+						<author>Euripide</author>
+						<text>Andromaque</text>
+					</source>
+					<source id="2">
+						<author>Virgile</author>
+						<text>Enéïde</text>
+					</source>
+				</sources>	
+			</SourceDesc>
+
+		</fileDesc>
+	</teiHeader>
+	<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">ANDROMAQUE.</titlePart>
+			<titlePart type="sub">TRAGÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1668">M. DC. LXVIII. AVEC PRIVILÈGE DU ROI.</docDate>
+		<docAuthor id="RACINE, Jean" bio="racine"></docAuthor>
+		<docImprint>
+			<privilege id="1667-12-28"><head>PRIVILÈGE DU ROI</head>
+<p>[Ce privilège est celui de l'édition 1668 de l'exemplaire Rés. Yf-3206 de la BnF].</p>
+<p>Louis par la Grâce de Dieu, Roi de France et de Navarre ; à nos âmes et féaux Conseillers les gens tenants nos Cours de Parlement ; maîtres de requêtes ordinaires de notre hôtel, Prévôt de Paris, Baillifs, Sénéchaux, leurs lieutenants civils, et autres nos justiciers, et officiers qu'il appartiendra, Salut. Notre bien aimé Jean RACINE, prieur de l'Epinay, nous a fait remontrer qu'il a composé une pièce de théâtre, qu'il désirerait faire imprimer, et donner au public, sous le titre de « l'Andromaque », mais il craint qu'ayant fait la dépense de l'impression de ce livre, d'autres n'entreprissent de l'imprimer à son préjudice, s'il n'avait pour ce nos lettres de privilège, qu'il nous a très humblement fait supplier de lui accorder. À ces causes voulant favorablement traiter l'exposant, Nous lui avons permis et accordé, permettons et accordons par ces présentes, de faire imprimer ledit livre, qui a pour titre « l'Andromaque », par tel libraire ou imprimeur qu'il voudra choisir de ceux par Nous réservés, en tel volume, marge caractères, et autant de fois que bon lui semblera, pendant le temps de cinq années, à commencer du jour qu'il sera achevé d'imprimer, et le vendre et distribuer partout notre royaume. Faisons défenses à tous libraires, imprimeurs, ou autres, d'imprimer, faire imprimer, vendre, et distribuer ledit livre sous quelque prétexte que ce soit, même d'impression étrangère, et autrement, sans le consentement de l'exposant, ou de ses ayants cause, sur peine de confiscation des exemplaires contrefaits, quinze cent livres d'amende, dépens, dommages et intérêts, à la charge d'en mettre deux exemplaires en Notre bibliothèque publique, un autre en notre cabinet des livres en notre château du Louvre, et un autre en la bibliothèque de notre très cher, et féal chevalier, Chancelier de France le sieur Séguier, à peine de nullité des présentes, du contenu desquelles Nous vous mandons, et enjoignons de faire jouir l'exposant, et ses ayants cause, pleinement et paisiblement, cessant, et faisant cesser tous troubles et empêchements au contraire. Voulons qu'en mettant au commencement, où à la fin de chacun des livres l'extrait des présentes, elles soient tenues pour dûment signifiées, et qu'aux copies collationnées par l'un de vos âmes, et féaux conseillers et secrétaires, foi soit ajoutée comme à l'original Mandons au premier huissier ou sergent faire pour l'exécution des présentes, toutes significations, défenses, saisies, et autres actes requis et nécessaires, sans demander autre permission : car tel est notre plaisir. Donné à Paris le vingt-huitième jour de décembre l'an de grâce mille six cent soixante-sept, et de notre règne le vingt-cinquième, par le Roi en son conseil ; Signé DEMALON.</p>
+<p>Et le dit sieur Racine a cédé son droit de Privilège à Théodore Girard, marchand libraire à Paris, suivant l'accord fait entre eux.</p>
+<p>Et le dit Girard a associé au dit privilège Thomas Jolly, et CLaude Barbin, aussi marchands libraires.</p>
+<p>Registré sur le livre de la communauté.</p></privilege>
+			<acheveImprime id="1668-01-20">Achevé d'imprimé seconde quinzaine de janvier 1668.</acheveImprime>
+			<printer id="Théodore GIRARD">À Paris, Chez Théodore Girard, dans la Grand' Salle du Palais, du côté de la cour de Aides, à l'Envie.</printer>
+		</docImprint>
+		<performance>
+			<premiere date="1667-11-17" location="Appartement de la Reine">Représenté la première fois 17 novembre 1667, dans l'Appartement de la Reine, et sans doute reprise le 18 novembre 1667 (selon Georges Forestier) au Théâtre de l'Hôtel de Bourgogne.</premiere>
+		</performance>
+<div type="dedicace">
+<adresse>À MADAME</adresse>
+<head>MADAME,</head>
+<p>Ce n'est pas sans sujet que je mets votre illustre nom à la tête de cet ouvrage. Et de quel autre nom pourrais-je éblouir les yeux de mes lecteurs, que de celui dont mes spectateurs ont été si heureusement éblouis ? On savait que VOTRE ALTESSE ROYALE avait daigné prendre soin de la conduite de ma tragédie ; on savait que vous m'aviez prêté quelques-unes de vos lumières pour y ajouter de nouveaux ornements ; on savait enfin que vous l'aviez honorée de quelques larmes dès la première lecture que je vous en fis. Pardonnez-moi, MADAME, si j'ose me vanter de cet heureux commencement de sa destinée. Il me console bien glorieusement de la dureté de ceux qui ne voudraient pas s'en laisser toucher. Je leur permets de condamner l'Andromaque tant qu'ils voudront, pourvu qu'il me soit permis d'appeler de toutes les subtilités de leur esprit au cœur de VOTRE ALTESSE ROYALE. </p>
+<p>Mais, Madame, ce n'est pas seulement du cœur que vous jugez de la bonté d'un ouvrage, c'est avec une intelligence qu'aucune fausse lueur ne saurait tromper. Pouvons-nous mettre sur la scène une histoire que vous ne possédiez aussi bien que nous ? Pouvons-nous faire jouer une intrigue dont vous ne pénétriez tous les ressorts ? Et pouvons-nous concevoir des sentiments si nobles et si délicats qui ne soient infiniment au-dessous de la noblesse et de la délicatesse de vos pensées ? </p>
+<p>On sait, MADAME, et VOTRE ALTESSE ROYALE a beau s'en cacher, que, dans ce haut degré de gloire où la Nature et la Fortune ont pris plaisir de vous élever, vous ne dédaignez pas cette gloire obscure que les gens de lettres s'étaient réservée. Et il semble que vous ayez voulu avoir autant d'avantage sur notre sexe, par les connaissances et par la solidité de votre esprit, que vous excellez dans le vôtre par toutes les grâces qui vous environnent. La cour vous regarde comme l'arbitre de tout ce qui se fait d'agréable. Et nous qui travaillons pour plaire au public, nous n'avons plus que faire de demander aux savants si nous travaillons selon les règles. La règle souveraine est de plaire à VOTRE ALTESSE ROYALE. </p>
+<p>Voilà sans doute la moindre de vos excellentes qualités. Mais, MADAME, c'est la seule dont j'ai pu parler avec quelque connaissance ; les autres sont trop élevées au-dessus de moi. Je n'en puis parler sans les rabaisser par la faiblesse de mes pensées, et sans sortir de la profonde vénération avec laquelle je suis, </p>
+<p>MADAME, DE VOTRE ALTESSE ROYALE, Le très humble, très obéissant, et très fidèle serviteur, </p>
+<signature>RACINE.</signature>
+</div>
+  
+<div type="preface">
+<head>Première Préface (édition 1668 et 1673)</head>
+<p type="p">Virgile au troisième livre de l'Enéide (c'est Enée qui parle) : </p>
+<p type="v">Littoraque Epiri legimus, portuque subimus </p>
+<p type="v">Chaonio, et celsam Buthroti ascendimus urbem… </p>
+<p type="v">Solemnes tum forte dapes et tristia dona… </p>
+<p type="v">Libabat cineri Andromache, Manesque vocabat </p>
+<p type="v">Hectoreum ad tumulum, viridi quem cespite inanem, </p>
+<p type="v">Et geminas, causam lacrymis, sacraverat aras… </p>
+<p type="v">Dejecit vultum, et demissa voce locuta est : </p>
+<p type="v">"O felix una ante alias Priameïa virgo, </p>
+<p type="v">Hostilem ad tumulum, Trojae sub moenibus altis, </p>
+<p type="v">Jussa mori, quae sortitus non pertulit ullos, </p>
+<p type="v">Nec victoris heri tetigit captiva cubile ! </p>
+<p type="v">Nos, patria incensa, diversa per aequora vectae, </p>
+<p type="v">Stirpis Achilleae fastus, juvenemque superbum, </p>
+<p type="v">Servitio enixae, tulimus, qui deinde secutus </p>
+<p type="v">Ledaeam Hermionem, Lacedaemoniosque hymenaeos… </p>
+<p type="v">Ast illum, ereptae magno inflammatus amore </p>
+<p type="v">Conjugis, et scelerum Furiis agitatus, Orestes </p>
+<p type="p">Voilà, en peu de vers, tout le sujet de cette tragédie. Voilà le lieu de la scène, l'action qui s'y passe, les quatre principaux acteurs, et même leurs caractères, excepté celui d'Hermione dont la jalousie et les emportements sont assez marqués dans l'Andromaque d'Euripide. </p>
+<p type="p">Mais véritablement mes personnages sont si fameux dans l'antiquité, que, pour peu qu'on la connaisse, on verra fort bien que je les ai rendus tels que les anciens poètes nous les ont donnés. Aussi n'ai-je pas pensé qu'il me fût permis de rien changer à leurs mœurs. Toute la liberté que j'ai prise, ç'a été d'adoucir un peu la férocité de Pyrrhus, que Sénèque, dans sa Troade, et Virgile, dans le second livre de l'Enéide, ont poussée beaucoup plus loin que je n'ai cru le devoir faire. </p>
+<p type="p">Encore s'est-il trouvé des gens qui se sont plaints qu'il s'emportât contre Andromaque, et qu'il voulût épouser une captive à quelque prix que ce fût. J'avoue qu'il n'est pas assez résigné à la volonté de sa maîtresse, et que Céladon a mieux connu que lui le parfait amour. Mais que faire ? Pyrrhus n'avait pas lu nos romans. Il était violent de son naturel, et tous les héros ne sont pas faits pour être des Céladons. </p>
+<p type="p">Quoi qu'il en soit, le public m'a été trop favorable pour m'embarrasser du chagrin particulier de deux ou trois personnes qui voudraient qu'on réformât tous les héros de l'antiquité pour en faire des héros parfaits. Je trouve leur intention fort bonne de vouloir qu'on ne mette sur la scène que des hommes impeccables mais je les prie de se souvenir que ce n'est point à moi de changer les règles du théâtre. Horace nous recommande de peindre Achille farouche, inexorable, violent, tel qu'il était, et tel qu'on dépeint son fils. Aristote, bien éloigné de nous demander des héros parfaits, veut au contraire que les personnages tragiques, c'est-à-dire ceux dont le malheur fait la catastrophe de la tragédie, ne soient ni tout à fait bons, ni tout à fait méchants. Il ne veut pas qu'ils soient extrêmement bons, parce que la punition d'un homme de bien exciterait plus l'indignation que la pitié du spectateur ; ni qu'ils soient méchants avec excès, parce qu'on n'a point pitié d'un scélérat. Il faut donc qu'ils aient une bonté médiocre, c'est-à-dire une vertu capable de faiblesse, et qu'ils tombent dans le malheur par quelque faute qui les fasse plaindre sans les faire détester. </p>
+</div>  
+<div type="preface"><head>Seconde Préface (édition 1674 et suivantes)</head> 
+<p>Virgile au troisième livre de l'Enéide ; c'est Enée qui parle : </p>
+<p type="v">Littoraque Epiri legimus, portuque subimus </p>
+<p type="v">Chaonio, et celsam Buthroti ascendimus urbem… </p>
+<p type="v">Solemnes tum forte dapes et tristia dona… </p>
+<p type="v">Libabat cineri Andromache, Manesque vocabat </p>
+<p type="v">Hectoreum ad tumulum, viridi quem cespite inanem, </p>
+<p type="v">Et geminas, causam lacrymis, sacraverat aras… </p>
+<p type="v">Dejecit vultum, et demissa voce locuta est : </p>
+<p type="v">"O felix una ante alias Priameïa virgo, </p>
+<p type="v">Hostilem ad tumulum, Trojae sub moenibus altis, </p>
+<p type="v">Jussa mori, quae sortitus non pertulit ullos, </p>
+<p type="v">Nec victoris heri tetigit captiva cubile ! </p>
+<p type="v">Nos, patria incensa, diversa per aequora vectae, </p>
+<p type="v">Stirpis Achilleae fastus, juvenemque superbum, </p>
+<p type="v">Servitio enixae, tulimus, qui deinde secutus </p>
+<p type="v">Ledaeam Hermionem, Lacedaemoniosque hymenaeos… </p>
+<p type="v">Ast illum, eraptae magno inflammatus amore </p>
+<p type="v">Conjugis, et scelerum Furiis agitatus, Orestes </p>
+<p type="v">Excipit incautum, patriasque obtruncat ad aras". </p>
+<p type="p">Voilà, en peu de vers, tout le sujet de cette tragédie, voilà le lieu de la scène, l'action qui s'y passe, les quatre principaux acteurs, et même leurs caractères, excepté celui d'Hermione dont la jalousie et les emportements sont assez marqués dans l'Andromaque d'Euripide. </p>
+<p type="p">C'est presque la seule chose que j'emprunte ici de cet auteur. Car, quoique ma tragédie porte le même nom que la sienne, le sujet en est cependant très différent. Andromaque, dans Euripide, craint pour la vie de Molossus, qui est un fils qu'elle a eu de Pyrrhus et qu'Hermione veut faire mourir avec sa mère. Mais ici il ne s'agit point de Molossus : Andromaque ne connaît point d'autre mari qu'Hector, ni d'autre fils qu'Astyanax. J'ai cru en cela me conformer à l'idée que nous avons maintenant de cette princesse. La plupart de ceux qui ont entendu parler d'Andromaque ne la connaissaient guère que pour la veuve d'Hector et pour la mère d'Astyanax. On ne croit point qu'elle doive aimer ni un autre mari, ni un autre fils ; et je doute que les larmes d'Andromaque eussent fait sur l'esprit de mes spectateurs l'impression qu'elles y ont faite, si elles avaient coulé pour un autre fils que celui qu'elle avait d'Hector. </p>
+<p type="p">Il est vrai que j'ai été obligé de faire vivre Astyanax un peu plus qu'il n'a vécu ; mais j'écris dans un pays où cette liberté ne pouvait pas être mal reçue. Car, sans parler de Ronsard, qui a choisi ce même Astyanax pour le héros de sa Franciade, qui ne sait que l'on fait descendre nos anciens rois de ce fils d'Hector, et que nos vieilles chroniques sauvent la vie à ce jeune prince, après la désolation de son pays, pour en faire le fondateur de notre monarchie ? </p>
+<p type="p">Combien Euripide a-t-il été plus hardi dans sa tragédie d'Hélène ! Il y choque ouvertement la créance commune de toute la Grèce : il suppose qu'Hélène n'a jamais mis le pied dans Troie, et qu'après l'embrasement de cette ville, Ménélas trouve sa femme en Egypte, d'où elle n'était point partie ; tout cela fondé sur une opinion qui n'était reçue que parmi les Egyptiens, comme on le peut voir dans Hérodote. </p>
+<p type="p">Je ne crois pas que j'eusse besoin de cet exemple d'Euripide pour justifier le peu de liberté que j'ai prise. Car il y a bien de la différence entre détruire le principal fondement d'une fable et en altérer quelques incidents, qui changent presque de face dans toutes les mains qui les traitent. Ainsi Achille, selon la plupart des poètes, ne peut être blessé qu'au talon, quoique Homère le fasse blesser au bras, et ne le croie invulnérable en aucune partie de son corps. Ainsi Sophocle fait mourir Jocaste aussitôt après la reconnaissance d'Oedipe ; tout au contraire d'Euripide qui la fait vivre jusqu'au combat et à la mort de ses deux fils. Et c'est à propos de quelques contrariétés de cette nature qu'un ancien commentateur de Sophocle remarque fort bien "qu'il ne faut point s'amuser à chicaner les poètes pour quelques changements qu'ils ont pu faire dans la fable ; mais qu'il faut s'attacher à considérer l'excellent usage qu'ils ont fait de ces changements, et la manière ingénieuse dont ils ont su accommoder la fable à leur sujet". </p>
+</div>
+   <castList><head>ACTEURS</head>
+		<castItem><role id="ANDROMAQUE" civil="F" type="H" statut="esclave" age="A" stat_amour="néant">ANDROMAQUE</role>, veuve d'Hector, captive de Pyrrhus.</castItem>
+		<castItem><role id="PYRRHUS" civil="M" type="H" statut="roi" age="A" stat_amour="amoureux">PYRRHUS</role>, fils d'Achille roi d'Épire.</castItem>
+		<castItem><role id="ORESTE" civil="M" type="H" statut="prince" age="A" stat_amour="amoureux">ORESTE</role>, fils d'Agamemnon.</castItem>
+		<castItem><role id="HERMIONE" civil="F" type="H" statut="esclave" age="A" stat_amour="amoureux">HERMIONE </role>, fille d'Hélène, accordée avec Pyrrhus.</castItem>
+		<castItem><role id="PYLADE" civil="M" type="H" statut="aristocrate" age="A" stat_amour="néant">PYLADE </role>, ami d'Oreste.</castItem>
+		<castItem><role id="CLEONE" civil="F" type="H" statut="confident" age="A" stat_amour="néant">CLÉONE </role>, confidente d'Hermione.</castItem>
+		<castItem><role id="CEPHISE" civil="F" type="H" statut="condident" age="A" stat_amour="néant">CÉPHISE </role>, confidente d'Andromaque.</castItem>
+		<castItem><role id="PHOENIX" civil="M" type="H" statut="gouverneur" age="A" stat_amour="néant">PHOENIX </role>, gouverneur d'Achille, et ensuite de Pyrrhus.</castItem>
+		<castItem><role id="SUITE D'ORESTE" civil="G" type="H" statut="suite" age="A" stat_amour="néant">Suite d'Oreste</role>.</castItem>
+	   </castList>
+	   <set location="Buthrot" country="Albanie" periode="Temps mythologiques" link="">La scène est à Buthrot, ville d'Épire, dans une salle du palais de Pyrrhus.</set>
+	   <note>Le texte est celui de l'édition 1697.</note>
+	</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Oreste, Pylade.</head>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1">Oui, puisque je retrouve un ami si fidèle,</l>
+	<l id="2">Ma fortune va prendre une face nouvelle :</l>
+	<l id="3">Et déjà son courroux semble s´être adouci,</l>
+	<l id="4">Depuis qu´elle a pris soin de nous rejoindre ici.</l>
+	<l id="5">Qui l´eût dit ? Qu´un rivage à mes vœux si funeste,</l>
+	<l id="6">Présenterait d´abord Pylade aux yeux d´Oreste ;</l>
+	<l id="7">Qu´après plus de six mois que je t´avais perdu,</l>
+	<l id="8">À la Cour de Pyrrhus tu me serais rendu ?</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="9">J´en rends grâces au ciel, qui m´arrêtant sans cesse,</l>
+	<l id="10">Semblait m´avoir fermé le chemin de la Grèce,</l>
+	<l id="11">Depuis le jour fatal que la fureur des eaux</l>
+	<l id="12">Presque aux yeux de l´Épire, écarta nos vaisseaux.</l>
+	<l id="13">Combien dans cet exil ai-je souffert d´alarmes,</l>
+	<l id="14">Combien à vos malheurs ai-je donné de larmes ?</l>
+	<l id="15">Craignant toujours pour vous quelque nouveau danger,</l>
+	<l id="16">Que ma triste amitié ne pouvait partager.</l>
+	<l id="17">Surtout je redoutais cette mélancolie</l>
+	<l id="18">Où j´ai vu si longtemps votre âme ensevelie.</l>
+	<l id="19">Je craignais que le ciel, par un cruel secours,</l>
+	<l id="20">Ne vous offrît la mort, que vous cherchiez toujours.</l>
+	<l id="21">Mais je vous vois, Seigneur, et si j´ose le dire,</l>
+	<l id="22">Un destin plus heureux vous conduit en Épire.</l>
+	<l id="23">Le pompeux appareil qui suit ici vos pas,</l>
+	<l id="24">N´est point d´un malheureux qui cherche le trépas.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="25">Hélas ! Qui peut savoir le destin qui m´amène ?</l>
+<note type="L">Inhumaine : En poésie amoureuse, on appelle une beauté inhumaine, celle qui ne veut écouter aucune déclaration d´amour, ou qui n´y veut point répondre ; celle qui ne se laisse point aller aux caresses, aux prières des amants, qui ne leur accorde aucune faveur. [F]</note>
+	<l id="26">L´amour me fait ici chercher une inhumaine.</l>
+	<l id="27">Mais qui sait ce qu´il doit ordonner de mon sort,</l>
+	<l id="28">Et si je viens chercher, ou la vie, ou la mort ?</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="29">Quoi ! Votre âme à l´amour en esclave asservie,</l>
+	<l id="30">Se repose sur lui du soin de votre vie ?</l>
+	<l id="31">Par quel charme, oubliant tant de tourments soufferts,</l>
+	<l id="32">Pouvez-vous consentir à rentrer dans ses fers ?</l>
+	<l id="33">Pensez-vous qu´Hermione, à Sparte inexorable,</l>
+	<l id="34">Vous prépare en Épire un sort plus favorable ?</l>
+	<l id="35">Honteux d´avoir poussé tant de vœux superflus,</l>
+	<l id="36">Vous l´abhorriez. Enfin, vous ne m´en parliez plus.</l>
+	<l id="37" part="i">Vous me trompiez, Seigneur.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="37" part="f">Je me trompais moi-même.</l>
+	<l id="38">Ami, n´accable point un malheureux qui t´aime.</l>
+	<l id="39">T´ai-je jamais caché mon cœur et mes désirs?</l>
+	<l id="40">Tu vis naître ma flamme et mes premiers soupirs.</l>
+	<l id="41">Enfin quand Ménélas disposa de sa fille</l>
+	<l id="42">En faveur de Pyrrhus, vengeur de sa famille,</l>
+	<l id="43">Tu vis mon désespoir, et tu m´as vu depuis</l>
+	<l id="44">Traîner de mers en mers ma chaîne et mes ennuis.</l>
+	<l id="45">Je te vis à regret en cet état funeste,</l>
+	<l id="46">Prêt à suivre partout le déplorable Oreste,</l>
+	<l id="47">Toujours de ma fureur interrompre le cours,</l>
+	<l id="48">Et de moi-même enfin me sauver tous les jours.</l>
+	<l id="49">Mais quand je me souvins, que parmi tant d´alarmes</l>
+	<l id="50">Hermione à Pyrrhus prodiguait tous ses charmes,</l>
+	<l id="51">Tu sais de quel courroux mon cœur alors épris</l>
+	<l id="52">Voulut, en l´oubliant, punir tous ses mépris.</l>
+	<l id="53">Je fis croire, et je crus ma victoire certaine.</l>
+	<l id="54">Je pris tous mes transports pour des transports de haine ;</l>
+	<l id="55">Détestant ses rigueurs, rabaissant ses attraits,</l>
+	<l id="56">Je défiais ses yeux de me troubler jamais.</l>
+	<l id="57">Voilà comme je crus étouffer ma tendresse.</l>
+	<l id="58">En ce calme trompeur j´arrivai dans la Grèce ;</l>
+	<l id="59">Et je trouvai d´abord ses princes rassemblés,</l>
+	<l id="60">Qu´un péril assez grand semblait avoir troublés.</l>
+	<l id="61">J´y courus. Je pensai que la guerre, et la gloire,</l>
+	<l id="62">De soins plus importants rempliraient ma mémoire ;</l>
+	<l id="63">Que mes sens reprenant leur première vigueur,</l>
+	<l id="64">L´amour achèverait de sortir de mon cœur.</l>
+	<l id="65">Mais admire avec moi le sort dont la poursuite</l>
+	<l id="66">Me fait courir alors au piège que j´évite.</l>
+	<l id="67">J´entends de tous côtés qu´on menace Pyrrhus.</l>
+	<l id="68">Toute la Grèce éclate en murmures confus.</l>
+	<l id="69">On se plaint qu´oubliant son sang, et sa promesse,</l>
+	<l id="70">Il élève en sa cour l´ennemi de la Grèce,</l>
+	<l id="71">Astyanax, d´Hector jeune et malheureux fils,</l>
+	<l id="72">Reste de tant de rois sous Troie ensevelis.</l>
+	<l id="73">J´apprends que pour ravir son enfance au supplice,</l>
+	<l id="74">Andromaque trompa l´ingénieux Ulysse,</l>
+	<l id="75">Tandis qu´un autre enfant arraché de ses bras,</l>
+	<l id="76">Sous le nom de son fils fut conduit au trépas.</l>
+	<l id="77">On dit, que peu sensible aux charmes d´Hermione,</l>
+	<l id="78">Mon rival porte ailleurs son cœur et sa couronne ;</l>
+	<l id="79">Ménélas, sans le croire, en paraît affligé,</l>
+	<l id="80">Et se plaint d´un hymen si longtemps négligé.</l>
+	<l id="81">Parmi les déplaisirs où son âme se noie,</l>
+	<l id="82">Il s´élève en la mienne une secrète joie.</l>
+	<l id="83">Je triomphe ; et pourtant je me flatte d´abord</l>
+	<l id="84">Que la seule vengeance excite ce transport.</l>
+	<l id="85">Mais l´ingrate en mon cœur reprit bientôt sa place,</l>
+	<l id="86">De mes feux mal éteints je reconnus la trace,</l>
+	<l id="87">Je sentis que ma haine allait finir son cours,</l>
+	<l id="88">Ou plutôt je sentis que je l´aimais toujours.</l>
+	<l id="89">Ainsi de tous les Grecs je brigue le suffrage.</l>
+	<l id="90">On m´envoie à Pyrrhus. J´entreprends ce voyage.</l>
+	<l id="91">Je viens voir si l´on peut arracher de ses bras</l>
+	<l id="92">Cet enfant, dont la vie alarme tant d´États.</l>
+	<l id="93">Heureux si je pouvais dans l´ardeur qui me presse,</l>
+	<l id="94">Au lieu d´Astyanax lui ravir ma princesse !</l>
+	<l id="95">Car enfin n´attends pas que mes feux redoublés,</l>
+	<l id="96">Des périls les plus grands puissent être troublés.</l>
+	<l id="97">Puisque après tant d´efforts ma résistance est vaine,</l>
+	<l id="98">Je me livre en aveugle au destin qui m´entraîne,</l>
+	<l id="99">J´aime, je viens chercher Hermione en ces lieux,</l>
+	<l id="100">La fléchir, l´enlever, ou mourir à ses yeux.</l>
+	<l id="101">Toi qui connais Pyrrhus, que penses-tu qu´il fasse ?</l>
+	<l id="102">Dans sa cour, dans son cœur, dis-moi ce qui se passe.</l>
+	<l id="103">Mon Hermione encor le tient-elle asservi ?</l>
+	<l id="104">Me rendra-t-il, Pylade, un bien qu´il m´a ravi ?</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="105">Je vous abuserais, si j´osais vous promettre</l>
+	<l id="106">Qu´entre vos mains, Seigneur, il voulût la remettre.</l>
+	<l id="107">Non que de sa conquête il paraisse flatté.</l>
+	<l id="108">Pour la veuve d´Hector ses feux ont éclaté.</l>
+	<l id="109">Il l´aime. Mais enfin cette veuve inhumaine</l>
+	<l id="110">N´a payé jusqu´ici son amour que de haine ;</l>
+	<l id="111">Et chaque jour encore on lui voit tout tenter,</l>
+	<l id="112">Pour fléchir sa captive, ou pour l´épouvanter.</l>
+	<l id="113">De son fils, qu´il lui cache, il menace la tête,</l>
+	<l id="114">Et fait couler des pleurs, qu´aussitôt il arrête.</l>
+	<l id="115">Hermione elle-même a vu plus de cent fois</l>
+	<l id="116">Cet amant irrité revenir sous ses lois,</l>
+	<l id="117">Et de ses vœux troublés lui rapportant l´hommage,</l>
+	<l id="118">Soupirer à ses pieds moins d´amour que de rage.</l>
+	<l id="119">Ainsi n´attendez pas, que l´on puisse aujourd´hui</l>
+	<l id="120">Vous répondre d´un cœur si peu maître de lui.</l>
+	<l id="121">Il peut, Seigneur, il peut dans ce désordre extrême,</l>
+	<l id="122">Épouser ce qu´il hait et punir ce qu´il aime.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="123">Mais dis-moi, de quel œil Hermione peut voir</l>
+	<l id="124">Son hymen différé, ses charmes sans pouvoir ?</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="125">Hermione, Seigneur, au moins en apparence,</l>
+	<l id="126">Semble de son amant dédaigner l´inconstance,</l>
+	<l id="127">Et croit que trop heureux de fléchir sa rigueur,</l>
+	<l id="128">Il la viendra presser de reprendre son cœur.</l>
+	<l id="129">Mais je l´ai vue enfin me confier ses larmes.</l>
+	<l id="130">Elle pleure en secret le mépris de ses charmes.</l>
+	<l id="131">Toujours prête à partir, et demeurant toujours,</l>
+	<l id="132">Quelquefois elle appelle Oreste à son secours.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="133">Ah ! Si je le croyais, j´irais bientôt, Pylade,</l>
+	<l id="134" part="i">Me jeter…</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="134" part="f">Achevez, Seigneur, votre ambassade.</l>
+	<l id="135">Vous attendez le roi. Parlez, et lui montrez</l>
+	<l id="136">Contre le fils d´Hector tous les Grecs conjurés.</l>
+	<l id="137">Loin de leur accorder ce fils de sa maîtresse,</l>
+	<l id="138">Leur haine ne fera qu´irriter sa tendresse.</l>
+	<l id="139">Plus on les veut brouiller, plus on va les unir.</l>
+	<l id="140">Pressez. Demandez tout, pour ne rien obtenir.</l>
+	<l id="141" part="i">Il vient.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="141" part="f">Hé bien, va donc disposer la cruelle</l>
+	<l id="142">À revoir un amant qui ne vient que pour elle.</l></sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Pyrrhus, Oreste, Phoenix.</head>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="143">Avant que tous les Grecs vous parlent par ma voix,</l>
+	<l id="144">Souffrez que j´ose ici me flatter de leur choix,</l>
+	<l id="145">Et qu´à vos yeux, Seigneur, je montre quelque joie</l>
+	<l id="146">De voir le fils d´Achille, et le vainqueur de Troie.</l>
+	<l id="147">Oui. Comme ses exploits, nous admirons vos coups ;</l>
+	<l id="148">Hector tomba sous lui ; Troie expira sous vous ;</l>
+	<l id="149">Et vous avez montré, par une heureuse audace,</l>
+	<l id="150">Que le fils seul d´Achille a pu remplir sa place.</l>
+	<l id="151">Mais ce qu´il n´eût point fait la Grèce avec douleur</l>
+	<l id="152">Vous voit du sang troyen relever le malheur,</l>
+	<l id="153">Et vous laissant toucher d´une pitié funeste,</l>
+	<l id="154">D´une guerre si longue entretenir le reste.</l>
+	<l id="155">Ne vous souvient-il plus, Seigneur, quel fut Hector ?</l>
+	<l id="156">Nos peuples affaiblis s´en souviennent encor.</l>
+	<l id="157">Son nom seul fait frémir nos veuves, et nos filles,</l>
+	<l id="158">Et dans toute la Grèce, il n´est point de familles,</l>
+	<l id="159">Qui ne demandent compte à ce malheureux fils,</l>
+	<l id="160">D´un père, ou d´un époux, qu´Hector leur a ravis.</l>
+	<l id="161">Et qui sait ce qu´un jour ce fils peut entreprendre ?</l>
+	<l id="162">Peut-être dans nos ports nous le verrons descendre,</l>
+	<l id="163">Tel qu´on a vu son père embraser nos vaisseaux,</l>
+	<l id="164">Et la flamme à la main, les suivre sur les eaux.</l>
+	<l id="165">Oserai-je, Seigneur, dire ce que je pense ?</l>
+	<l id="166">Vous-même de vos soins craignez la récompense,</l>
+	<l id="167">Et que dans votre sein ce serpent élevé</l>
+	<l id="168">Ne vous punisse un jour de l´avoir conservé.</l>
+	<l id="169">Enfin, de tous les Grecs satisfaites l´envie,</l>
+	<l id="170">Assurez leur vengeance, assurez votre vie.</l>
+	<l id="171">Perdez un ennemi d´autant plus dangereux,</l>
+	<l id="172">Qu´il s´essaiera sur vous à combattre contre eux.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="173">La Grèce en ma faveur est trop inquiétée,</l>
+	<l id="174">De soins plus importants je l´ai crue agitée,</l>
+	<l id="175">Seigneur, et sur le nom de son ambassadeur,</l>
+	<l id="176">J´avais dans ses projets conçu plus de grandeur.</l>
+	<l id="177">Qui croirait en effet, qu´une telle entreprise</l>
+	<l id="178">Du fils d´Agamemnon méritât l´entremise ;</l>
+	<l id="179">Qu´un peuple tout entier, tant de fois triomphant,</l>
+	<l id="180">N´eût daigné conspirer que la mort d´un enfant ?</l>
+	<l id="181">Mais à qui prétend-on que je le sacrifie ?</l>
+	<l id="182">La Grèce a-t-elle encor quelque droit sur sa vie ?</l>
+	<l id="183">Et seul de tous les Grecs ne m´est-il pas permis</l>
+	<l id="184">D´ordonner d´un captif que le sort m´a soumis ?</l>
+	<l id="185">Oui, Seigneur, lorsqu´au pied des murs fumants de Troie,</l>
+	<l id="186">Les vainqueurs tout sanglants partagèrent leur proie,</l>
+	<l id="187">Le sort, dont les arrêts furent alors suivis,</l>
+	<l id="188">Fit tomber en mes mains Andromaque et son fils.</l>
+	<l id="189">Hécube, près d´Ulysse, acheva sa misère ;</l>
+	<l id="190">Cassandre, dans Argos, a suivi votre père.</l>
+	<l id="191">Sur eux, sur leurs captifs, ai-je étendu mes droits ?</l>
+	<l id="192">Ai-je enfin disposé du fruit de leurs exploits ?</l>
+	<l id="193">On craint, qu´avec Hector Troie un jour ne renaisse :</l>
+	<l id="194">Son fils peut me ravir le jour que je lui laisse.</l>
+	<l id="195">Seigneur, tant de prudence entraîne trop de soin.</l>
+	<l id="196">Je ne sais point prévoir les malheurs de si loin.</l>
+	<l id="197">Je songe quelle était autrefois cette ville :</l>
+	<l id="198">Si superbe en remparts, en héros si fertile,</l>
+	<l id="199">Maîtresse de l´Asie, et je regarde enfin</l>
+	<l id="200">Quel fut le sort de Troie, et quel est son destin.</l>
+	<l id="201">Je ne vois que des tours, que la cendre a couvertes,</l>
+	<l id="202">Un fleuve teint de sang, des campagnes désertes,</l>
+	<l id="203">Un enfant dans les fers, et je ne puis songer</l>
+	<l id="204">Que Troie en cet état aspire à se venger.</l>
+	<l id="205">Ah ! Si du fils d´Hector la perte était jurée,</l>
+	<l id="206">Pourquoi d´un an entier l´avons-nous différée ?</l>
+	<l id="207">Dans le sein de Priam n´a-t-on pu l´immoler ?</l>
+	<l id="208">Sous tant de morts, sous Troie il fallait l´accabler.</l>
+	<l id="209">Tout était juste alors. La vieillesse et l´enfance</l>
+	<l id="210">En vain sur leur faiblesse appuyaient leur défense.</l>
+	<l id="211">La victoire et la nuit, plus cruelles que nous,</l>
+	<l id="212">Nous excitaient au meurtre, et confondaient nos coups.</l>
+	<l id="213">Mon courroux aux vaincus ne fut que trop sévère.</l>
+	<l id="214">Mais que ma cruauté survive à ma colère ?</l>
+	<l id="215">Que malgré la pitié dont je me sens saisir,</l>
+	<l id="216">Dans le sang d´un enfant je me baigne à loisir ?</l>
+	<l id="217">Non, Seigneur. Que les Grecs cherchent quelque autre proie,</l>
+	<l id="218">Qu´ils poursuivent ailleurs ce qui reste de Troie,</l>
+	<l id="219">De mes inimitiés le cours est achevé,</l>
+<note type="L">Épire : Contrée de l´Ancienne Grèce, située au sud de l´Albanie, bornée au nord par l´Illyrie, à l´ouest par le mer Ionnienne, à l´Est par la Thessalie.</note>
+	<l id="220">L´Épire sauvera ce que Troie a sauvé.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="221">Seigneur, vous savez trop, avec quel artifice</l>
+	<l id="222">Un faux Astyanax fut offert au supplice,</l>
+	<l id="223">Où le seul fils d´Hector devait être conduit.</l>
+	<l id="224">Ce n´est pas les Troyens, c´est Hector qu´on poursuit.</l>
+	<l id="225">Oui, les Grecs sur le fils persécutent le père.</l>
+	<l id="226">Il a par trop de sang acheté leur colère.</l>
+	<l id="227">Ce n´est que dans le sien qu´elle peut expirer,</l>
+	<l id="228">Et jusque dans l´Épire il les peut attirer.</l>
+	<l id="229" part="i">Prévenez-les.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="229" part="f">Non, non. J´y consens avec joie.</l>
+	<l id="230">Qu´ils cherchent dans l´Épire une seconde Troie.</l>
+	<l id="231">Qu´ils confondent leur haine, et ne distinguent plus</l>
+	<l id="232">Le sang qui les fit vaincre, et celui des vaincus.</l>
+	<l id="233">Aussi bien ce n´est pas la première injustice,</l>
+	<l id="234">Dont la Grèce, d´Achille a payé le service.</l>
+	<l id="235">Hector en profita, Seigneur, et quelque jour</l>
+	<l id="236">Son fils en pourrait bien profiter à son tour.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="237">Ainsi la Grèce en vous trouve un enfant rebelle ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="238">Et je n´ai donc vaincu que pour dépendre d´elle ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="239">Hermione, Seigneur, arrêtera vos coups ;</l>
+	<l id="240">Ses yeux s´opposeront entre son père et vous.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="241">Hermione, Seigneur, peut m´être toujours chère,</l>
+	<l id="242">Je puis l´aimer, sans être esclave de son père.</l>
+	<l id="243">Et je saurai peut-être accorder quelque jour</l>
+	<l id="244">Les soins de ma grandeur, et ceux de mon amour.</l>
+	<l id="245">Vous pouvez cependant voir la fille d´Hélène.</l>
+	<l id="246">Du sang qui vous unit je sais l´étroite chaîne.</l>
+	<l id="247">Après cela, Seigneur, je ne vous retiens plus,</l>
+	<l id="248">Et vous pourrez aux Grecs annoncer mon refus.</l></sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Pyrrhus, Phoenix.</head>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="249">Ainsi vous l´envoyez aux pieds de sa maîtresse ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="250">On dit qu´il a longtemps brûlé pour la princesse.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="251">Mais si ce feu, Seigneur, vient à se rallumer,</l>
+	<l id="252">S´il lui rendait son cœur, s´il s´en faisait aimer !</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="253">Ah ! Qu´ils s´aiment, Phoenix, j´y consens. Qu´elle parte.</l>
+	<l id="254">Que charmés l´un de l´autre, ils retournent à Sparte.</l>
+	<l id="255">Tous nos ports sont ouverts et pour elle et pour lui.</l>
+	<l id="256">Qu´elle m´épargnerait de contrainte et d´ennui !</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="257" part="i">Seigneur…</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="257" part="f">Une autre fois je t´ouvrirai mon âme,</l>
+	<l id="258" part="i">Andromaque paraît.</l></sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Pyrrhus, Andromaque, Céphise.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="258" part="f">Me cherchiez-vous, Madame ?</l>
+	<l id="259">Un espoir si charmant me serait-il permis ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="260">Je passais jusqu´aux lieux, où l´on garde mon fils.</l>
+	<l id="261">Puisqu´une fois le jour vous souffrez que je voie</l>
+	<l id="262">Le seul bien qui me reste, et d´Hector et de Troie,</l>
+	<l id="263">J´allais, Seigneur, pleurer un moment avec lui,</l>
+	<l id="264">Je ne l´ai point encore embrassé d´aujourd´hui.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="265">Ah, Madame ! Les Grecs, si j´en crois leurs alarmes,</l>
+	<l id="266">Vous donneront bientôt d´autres sujets de larmes.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="267">Et quelle est cette peur dont leur cœur est frappé,</l>
+	<l id="268">Seigneur ? Quelque Troyen vous est-il échappé ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="269">Leur haine pour Hector n´est pas encore éteinte.</l>
+	<l id="270" part="i">Ils redoutent son fils.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="270" part="f">Digne objet de leur crainte !</l>
+	<l id="271">Un enfant malheureux, qui ne sait pas encor</l>
+	<l id="272">Que Pyrrhus est son maître, et qu´il est fils d´Hector.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="273">Tel qu´il est, tous les Grecs demandent qu´il périsse.</l>
+	<l id="274">Le fils d´Agamemnon vient hâter son supplice.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="275">Et vous prononcerez un arrêt si cruel ?</l>
+	<l id="276">Est-ce mon intérêt qui le rend criminel ?</l>
+	<l id="277">Hélas ! On ne craint point qu´il venge un jour son père.</l>
+	<l id="278">On craint qu´il n´essuyât les larmes de sa mère.</l>
+	<l id="279">Il m´aurait tenu lieu d´un père, et d´un époux.</l>
+	<l id="280">Mais il me faut tout perdre, et toujours par vos coups.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="281">Madame, mes refus ont prévenu vos larmes.</l>
+	<l id="282">Tous les Grecs m´ont déjà menacé de leurs armes ;</l>
+	<l id="283">Mais dussent-ils encore, en repassant les eaux,</l>
+	<l id="284">Demander votre fils, avec mille vaisseaux :</l>
+	<l id="285">Coutât-il tout le sang qu´Hélène a fait répandre,</l>
+	<l id="286">Dussé-je après dix ans voir mon palais en cendre,</l>
+	<l id="287">Je ne balance point, je vole à son secours,</l>
+	<l id="288">Je défendrai sa vie aux dépens de mes jours.</l>
+	<l id="289">Mais parmi ces périls, où je cours pour vous plaire,</l>
+	<l id="290">Me refuserez-vous un regard moins sévère ?</l>
+	<l id="291">Haï de tous les Grecs, pressé de tous côtés,</l>
+	<l id="292">Me faudra-t-il combattre encor vos cruautés ?</l>
+	<l id="293">Je vous offre mon bras. Puis-je espérer encore</l>
+	<l id="294">Que vous accepterez un cœur qui vous adore ?</l>
+	<l id="295">En combattant pour vous, me sera-t-il permis</l>
+	<l id="296">De ne vous point compter parmi mes ennemis ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="297">Seigneur, que faites-vous, et que dira la Grèce ?</l>
+	<l id="298">Faut-il qu´un si grand cœur montre tant de faiblesse ?</l>
+	<l id="299">Voulez-vous qu´un dessein si beau, si généreux,</l>
+	<l id="300">Passe pour le transport d´un esprit amoureux ?</l>
+	<l id="301">Captive, toujours triste, importune à moi-même,</l>
+	<l id="302">Pouvez-vous souhaiter qu´Andromaque vous aime ?</l>
+	<l id="303">Quels charmes ont pour vous des yeux infortunés,</l>
+	<l id="304">Qu´à des pleurs éternels vous avez condamnés ?</l>
+	<l id="305">Non, non, d´un ennemi respecter la misère,</l>
+	<l id="306">Sauver des malheureux, rendre un fils à sa mère,</l>
+	<l id="307">De cent peuples pour lui combattre la rigueur,</l>
+	<l id="308">Sans me faire payer son salut de mon cœur,</l>
+	<l id="309">Malgré moi, s´il le faut, lui donner un asile,</l>
+	<l id="310">Seigneur, voilà des soins dignes du fils d´Achille.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="311">Hé quoi ? Votre courroux n´a-t-il pas eu son cours ?</l>
+	<l id="312">Peut-on haïr sans cesse ? Et punit-on toujours ?</l>
+	<l id="313">J´ai fait des malheureux, sans doute, et la Phrygie</l>
+	<l id="314">Cent fois de votre sang a vu ma main rougie.</l>
+	<l id="315">Mais que vos yeux sur moi se sont bien exercés !</l>
+	<l id="316">Qu´ils m´ont vendu bien cher les pleurs qu´ils ont versés !</l>
+	<l id="317">De combien de remords m´ont-ils rendu la proie ?</l>
+	<l id="318">Je souffre tous les maux que j´ai faits devant Troie.</l>
+	<l id="319">Vaincu, chargé de fers, de regrets consumé,</l>
+	<l id="320">Brûlé de plus de feux que je n´en allumai,</l>
+	<l id="321">Tant de soins, tant de pleurs, tant d´ardeurs inquiètes…</l>
+	<l id="322">Hélas ! Fus-je jamais si cruel que vous l´êtes !</l>
+	<l id="323">Mais enfin, tour à tour, c´est assez nous punir.</l>
+	<l id="324">Nos ennemis communs devraient nous réunir.</l>
+	<l id="325">Madame, dites-moi seulement que j´espère,</l>
+	<l id="326">Je vous rends votre fils, et je lui sers de père.</l>
+	<l id="327">Je l´instruirai moi-même à venger les Troyens.</l>
+	<l id="328">J´irai punir les Grecs de vos maux et des miens.</l>
+	<l id="329">Animé d´un regard, je puis tout entreprendre.</l>
+	<l id="330">Votre Ilion encor peut sortir de sa cendre.</l>
+	<l id="331">Je puis, en moins de temps que les Grecs ne l´ont pris,</l>
+	<l id="332">Dans ses murs relevés couronner votre fils.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="333">Seigneur, tant de grandeurs ne nous touchent plus guère.</l>
+	<l id="334">Je les lui promettais tant qu´a vécu son père.</l>
+	<l id="335">Non, vous n´espérez plus de nous revoir encor,</l>
+	<l id="336">Sacrés murs, que n´a pu conserver mon Hector.</l>
+	<l id="337">À de moindres faveurs des malheureux prétendent,</l>
+	<l id="338">Seigneur. C´est un exil que mes pleurs vous demandent.</l>
+	<l id="339">Souffrez que loin des Grecs, et même loin de vous,</l>
+	<l id="340">J´aille cacher mon fils, et pleurer mon époux.</l>
+	<l id="341">Votre amour contre nous allume trop de haine.</l>
+	<l id="342">Retournez, retournez à la fille d´Hélène.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="343">Et le puis-je, Madame ? Ah, que vous me gênez !</l>
+	<l id="344">Comment lui rendre un cœur que vous me retenez ?</l>
+	<l id="345">Je sais que de mes vœux on lui promit l´empire.</l>
+	<l id="346">Je sais que pour régner elle vint dans l´Épire.</l>
+	<l id="347">Le sort vous y voulut l´une et l´autre amener,</l>
+	<l id="348">Vous pour porter des fers, elle pour en donner.</l>
+	<l id="349">Cependant ai-je pris quelque soin de lui plaire ?</l>
+	<l id="350">Et ne dirait-on pas, en voyant au contraire,</l>
+	<l id="351">Vos charmes tout-puissants, et les siens dédaignés,</l>
+	<l id="352">Qu´elle est ici captive, et que vous y régnez ?</l>
+	<l id="353">Ah ! Qu´un seul des soupirs, que mon cœur vous envoie,</l>
+	<l id="354">S´il s´échappait vers elle, y porterait de joie !</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="355">Et pourquoi vos soupirs seraient-ils repoussés ?</l>
+	<l id="356">Aurait-elle oublié vos services passés ?</l>
+	<l id="357">Troie, Hector, contre vous révoltent-ils son âme ?</l>
+	<l id="358">Aux cendres d´un époux doit-elle enfin sa flamme ?</l>
+	<l id="359">Et quel époux encore ! Ah souvenir cruel !</l>
+	<l id="360">Sa mort seule a rendu votre père immortel.</l>
+	<l id="361">Il doit au sang d´Hector tout l´éclat de ses armes ;</l>
+	<l id="362">Et vous n´êtes tous deux connus que par mes larmes.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="363">Hé bien, Madame, hé bien, il faut vous obéir.</l>
+	<l id="364">Il faut vous oublier, ou plutôt vous haïr.</l>
+	<l id="365">Oui, mes vœux ont trop loin poussé leur violence,</l>
+	<l id="366">Pour ne plus s´arrêter que dans l´indifférence.</l>
+	<l id="367">Songez-y bien. Il faut désormais que mon cœur</l>
+	<l id="368">S´il n´aime avec transport, haïsse avec fureur.</l>
+	<l id="369">Je n´épargnerai rien dans ma juste colère.</l>
+	<l id="370">Le fils me répondra des mépris de la mère,</l>
+	<l id="371">La Grèce le demande, et je ne prétends pas</l>
+	<l id="372">Mettre toujours ma gloire à sauver des ingrats.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="373">Hélas ! Il mourra donc. Il n´a pour sa défense,</l>
+	<l id="374">Que les pleurs de sa mère, et que son innocence.</l>
+	<l id="375">Et peut-être après tout, en l´état où je suis,</l>
+	<l id="376">Sa mort avancera la fin de mes ennuis.</l>
+	<l id="377">Je prolongeais pour lui ma vie, et ma misère.</l>
+	<l id="378">Mais enfin sur ses pas j´irai revoir son père.</l>
+	<l id="379">Ainsi, tous trois, Seigneur, par vos soins réunis,</l>
+	<l id="380" part="i">Nous vous…</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="380" part="f">Allez, Madame, allez voir votre fils.</l>
+	<l id="381">Peut-être en le voyant, votre amour plus timide</l>
+	<l id="382">Ne prendra pas toujours sa colère pour guide.</l>
+	<l id="383">Pour savoir nos destins, j´irai vous retrouver.</l>
+	<l id="384">Madame, en l´embrassant, songez à le sauver.</l></sp>
+</div2>
+</div1>
+<div1 type="acte" n="2"><head>ACTE II</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Hermione, Cléone.</head>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="385">Je fais ce que tu veux. Je consens qu´il me voie,</l>
+	<l id="386">Je lui veux bien encore accorder cette joie.</l>
+	<l id="387">Pylade va bientôt conduire ici ses pas.</l>
+	<l id="388">Mais si je m´en croyais, je ne le verrais pas.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="389">Et qu´est-ce que sa vue a pour vous de funeste ?</l>
+	<l id="390">Madame, n´est-ce pas toujours le même Oreste,</l>
+	<l id="391">Dont vous avez cent fois souhaité le retour,</l>
+	<l id="392">Et dont vous regrettiez la constance et l´amour ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="393">C´est cet amour payé de trop d´ingratitude,</l>
+	<l id="394">Qui me rend en ces lieux sa présence si rude.</l>
+	<l id="395">Quelle honte pour moi ! Quel triomphe pour lui,</l>
+	<l id="396">De voir mon infortune égaler son ennui !</l>
+	<l id="397">Est-ce là, dira-t-il, cette fière Hermione ?</l>
+	<l id="398">Elle me dédaignait, un autre l´abandonne.</l>
+	<l id="399">L´ingrate qui mettait son cœur à si haut prix,</l>
+	<l id="400">Apprend donc à son tour à souffrir des mépris ?</l>
+	<l id="401" part="i">Ah dieux !</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="401" part="f">Ah ! Dissipez ces indignes alarmes.</l>
+	<l id="402">Il a trop bien senti le pouvoir de vos charmes.</l>
+	<l id="403">Vous croyez qu´un amant vienne vous insulter ?</l>
+	<l id="404">Il vous rapporte un cœur qu´il n´a pu vous ôter.</l>
+	<l id="405">Mais vous ne dites point ce que vous mande un père.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="406">Dans ses retardements si Pyrrhus persévère,</l>
+	<l id="407">À la mort du Troyen s´il ne veut consentir,</l>
+	<l id="408">Mon père avec les Grecs m´ordonne de partir.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="409">Hé bien, Madame, hé bien, écoutez donc Oreste.</l>
+	<l id="410">Pyrrhus a commencé, faites au moins le reste.</l>
+	<l id="411">Pour bien faire, il faudrait que vous le prévinssiez.</l>
+	<l id="412">Ne m´avez-vous pas dit que vous le haïssiez ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="413">Si je le hais Cléone ? Il y va de ma gloire,</l>
+	<l id="414">Après tant de bontés dont il perd la mémoire.</l>
+	<l id="415">Lui qui me fut si cher, et qui m´a pu trahir.</l>
+	<l id="416">Ah ! Je l´ai trop aimé pour ne le point haïr.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="417">Fuyez-le donc, Madame. Et puisqu´on vous adore…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="418">Ah ! Laisse à ma fureur le temps de croître encore.</l>
+	<l id="419">Contre mon ennemi laisse-moi m´assurer.</l>
+	<l id="420">Cléone, avec horreur je m´en veux séparer.</l>
+	<l id="421">Il n´y travaillera que trop bien, l´infidèle.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="422">Quoi ! Vous en attendez quelque injure nouvelle ?</l>
+	<l id="423">Aimer une captive, et l´aimer à vos yeux,</l>
+	<l id="424">Tout cela n´a donc pu vous le rendre odieux ?</l>
+	<l id="425">Après ce qu´il a fait, que saurait-il donc faire ?</l>
+	<l id="426">Il vous aurait déplu, s´il pouvait vous déplaire.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="427">Pourquoi veux-tu, cruelle, irriter mes ennuis ?</l>
+	<l id="428">Je crains de me connaître, en l´état où je suis.</l>
+	<l id="429">De tout ce que tu vois tâche de ne rien croire.</l>
+	<l id="430">Crois que je n´aime plus. Vante moi ma victoire.</l>
+	<l id="431">Crois que dans son dépit mon cœur est endurci,</l>
+	<l id="432">Hélas ! Et s´il se peut, fais-le moi croire aussi.</l>
+	<l id="433">Tu veux que je le fuie. Hé bien, rien ne m´arrête.</l>
+	<l id="434">Allons. N´envions plus son indigne conquête.</l>
+	<l id="435">Que sur lui sa captive étende son pouvoir.</l>
+	<l id="436">Fuyons. Mais si l´ingrat rentrait dans son devoir !</l>
+	<l id="437">Si la foi dans son cœur retrouvait quelque place !</l>
+	<l id="438">S´il venait à mes pieds me demander sa grâce !</l>
+	<l id="439">Si sous mes lois, Amour, tu pouvais l´engager,</l>
+	<l id="440">S´il voulait !… Mais l´ingrat ne veut que m´outrager.</l>
+	<l id="441">Demeurons toutefois, pour troubler leur fortune.</l>
+	<l id="442">Prenons quelque plaisir à leur être importune.</l>
+	<l id="443">Ou le forçant de rompre un nœud si solennel,</l>
+	<l id="444">Aux yeux de tous les Grecs rendons-le criminel.</l>
+	<l id="445">J´ai déjà sur le fils attiré leur colère.</l>
+	<l id="446">Je veux qu´on vienne encor lui demander la mère.</l>
+	<l id="447">Rendons-lui les tourments qu´elle me fait souffrir,</l>
+	<l id="448">Qu´elle le perde, ou bien qu´il la fasse périr.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="449">Vous pensez que des yeux toujours ouverts aux larmes,</l>
+	<l id="450">Se plaisent à troubler le pouvoir de vos charmes ?</l>
+	<l id="451">Et qu´un cœur accablé de tant de déplaisirs,</l>
+	<l id="452">De son persécuteur ait brigué les soupirs !</l>
+	<l id="453">Voyez si sa douleur en paraît soulagée.</l>
+	<l id="454">Pourquoi donc les chagrins où son âme est plongée ?</l>
+	<l id="455">Contre un amant qui plaît pourquoi tant de fierté ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="456">Hélas ! Pour mon malheur je l´ai trop écouté.</l>
+	<l id="457">Je n´ai point du silence affecté le mystère.</l>
+	<l id="458">Je croyais sans péril pouvoir être sincère.</l>
+	<l id="459">Et sans armer mes yeux d´un moment de rigueur,</l>
+	<l id="460">Je n´ai pour lui parler, consulté que mon cœur.</l>
+	<l id="461">Et qui ne se serait comme moi déclarée,</l>
+	<l id="462">Sur la foi d´une amour si saintement jurée ?</l>
+	<l id="463">Me voyait-il de l´œil qu´il me voit aujourd´hui ?</l>
+	<l id="464">Tu t´en souviens encor, tout conspirait pour lui.</l>
+	<l id="465">Ma famille vengée, et les Grecs dans la joie,</l>
+	<l id="466">Nos vaisseaux tout chargés des dépouilles de Troie,</l>
+	<l id="467">Les exploits de son père, effacés par les siens,</l>
+	<l id="468">Ses feux que je croyais plus ardents que les miens,</l>
+	<l id="469">Mon cœur, toi-même enfin de sa gloire éblouie,</l>
+	<l id="470">Avant qu´il me trahît, vous m´avez tous trahie.</l>
+	<l id="471">Mais c´en est trop, Cléone, et quel que soit Pyrrhus,</l>
+	<l id="472">Hermione est sensible, Oreste a des vertus.</l>
+	<l id="473">Il sait aimer du moins, et même sans qu´on l´aime ;</l>
+	<l id="474">Et peut-être il saura se faire aimer lui-même.</l>
+	<l id="475" part="i">Allons. Qu´il vienne enfin.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="475" part="f">Madame, le voici.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="476">Ah ! Je ne croyais pas qu´il fût si près d´ici.</l></sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Hermione, Oreste, Cléone.</head>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="477">Le croirai-je, Seigneur, qu´un reste de tendresse</l>
+	<l id="478">Vous fasse ici chercher une triste princesse ?</l>
+	<l id="479">Ou ne dois-je imputer qu´à votre seul devoir,</l>
+	<l id="480">L´heureux empressement qui vous porte à me voir ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="481">Tel est de mon amour l´aveuglement funeste.</l>
+	<l id="482">Vous le savez, Madame, et le destin d´Oreste</l>
+	<l id="483">Est de venir sans cesse adorer vos attraits,</l>
+	<l id="484">Et de jurer toujours qu´il n´y viendra jamais.</l>
+	<l id="485">Je sais que vos regards vont rouvrir mes blessures,</l>
+	<l id="486">Que tous mes pas vers vous sont autant de parjures,</l>
+	<l id="487">Je le sais ; j´en rougis. Mais j´atteste les dieux,</l>
+	<l id="488">Témoins de la fureur de mes derniers adieux,</l>
+	<l id="489">Que j´ai couru partout, où ma perte certaine</l>
+	<l id="490">Dégageait mes serments, et finissait ma peine.</l>
+	<l id="491">J´ai mendié la mort chez des peuples cruels</l>
+	<l id="492">Qui n´apaisaient leurs dieux que du sang des mortels :</l>
+	<l id="493">Ils m´ont fermé leur temple, et ces peuples barbares</l>
+	<l id="494">De mon sang prodigué sont devenus avares.</l>
+	<l id="495">Enfin je viens à vous; et je me vois réduit</l>
+	<l id="496">À chercher dans vos yeux une mort qui me fuit.</l>
+	<l id="497">Mon désespoir n´attend que leur indifférence,</l>
+	<l id="498">Ils n´ont qu´à m´interdire un reste d´espérance.</l>
+	<l id="499">Ils n´ont pour avancer cette mort où je cours,</l>
+	<l id="500">Qu´à me dire une fois ce qu´ils m´ont dit toujours.</l>
+	<l id="501">Voilà depuis un an le seul soin qui m´anime.</l>
+	<l id="502">Madame, c´est à vous de prendre une victime,</l>
+	<l id="503">Que les Scythes auraient dérobée à vos coups,</l>
+	<l id="504">Si j´en avais trouvé d´aussi cruels que vous.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="505">Quittez, Seigneur, quittez ce funeste langage.</l>
+	<l id="506">À des soins plus pressants la Grèce vous engage.</l>
+	<l id="507">Que parlez-vous du Scythe, et de mes cruautés ?</l>
+	<l id="508">Songez à tous ces rois que vous représentez.</l>
+	<l id="509">Faut-il que d´un transport leur vengeance dépende ?</l>
+	<l id="510">Est-ce le sang d´Oreste enfin qu´on vous demande ?</l>
+	<l id="511">Dégagez-vous des soins dont vous êtes chargé.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="512">Les refus de Pyrrhus m´ont assez dégagé,</l>
+	<l id="513">Madame, il me renvoie ; et quelque autre puissance</l>
+	<l id="514">Lui fait du fils d´Hector embrasser la défense.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="515" part="i">L´infidèle !</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="515" part="f">Ainsi donc tout prêt à le quitter,</l>
+	<l id="516">Sur mon propre destin je viens vous consulter.</l>
+	<l id="517">Déjà même je crois entendre la réponse</l>
+	<l id="518">Qu´en secret contre moi votre haine prononce.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="519">Hé quoi ? toujours injuste en vos tristes discours,</l>
+	<l id="520">De mon inimitié vous plaindrez-vous toujours ?</l>
+	<l id="521">Quelle est cette rigueur tant de fois alléguée ?</l>
+	<l id="522">J´ai passé dans l´Épire où j´étais reléguée ;</l>
+	<l id="523">Mon père l´ordonnait. Mais qui sait si depuis,</l>
+	<l id="524">Je n´ai point en secret partagé vos ennuis ?</l>
+	<l id="525">Pensez-vous avoir seul éprouvé des alarmes ?</l>
+	<l id="526">Que l´Épire jamais n´ait vu couler mes larmes ?</l>
+	<l id="527">Enfin, qui vous a dit, que malgré mon devoir,</l>
+	<l id="528">Je n´ai pas quelquefois souhaité de vous voir ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="529">Souhaité de me voir ? Ah divine princesse…</l>
+	<l id="530">Mais de grâce, est-ce à moi que ce discours s´adresse ?</l>
+	<l id="531">Ouvrez vos yeux. Songez qu´Oreste est devant vous,</l>
+	<l id="532">Oreste si longtemps l´objet de leur courroux.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="533">Oui, c´est vous dont l´amour naissant avec leurs charmes,</l>
+	<l id="534">Leur apprit le premier le pouvoir de leurs armes,</l>
+	<l id="535">Vous que mille vertus me forçaient d´estimer,</l>
+	<l id="536">Vous que j´ai plaint, enfin que je voudrais aimer.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="537">Je vous entends. Tel est mon partage funeste.</l>
+	<l id="538">Le cœur est pour Pyrrhus et les vœux pour Oreste.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="539">Ah ! Ne souhaitez pas le destin de Pyrrhus,</l>
+	<l id="540" part="i">Je vous haïrais trop.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="540" part="f">Vous m´en aimeriez plus.</l>
+	<l id="541">Ah ! Que vous me verriez d´un regard bien contraire !</l>
+	<l id="542">Vous me voulez aimer, et je ne puis vous plaire ;</l>
+	<l id="543">Et l´amour seul alors se faisant obéir,</l>
+	<l id="544">Vous m´aimeriez, Madame, en me voulant haïr.</l>
+	<l id="545">Ô dieux ! Tant de respects, une amitié si tendre…</l>
+	<l id="546">Que de raisons pour moi, si vous pouviez m´entendre !</l>
+	<l id="547">Vous seule pour Pyrrhus disputez aujourd´hui,</l>
+	<l id="548">Peut-être malgré vous, sans doute malgré lui.</l>
+	<l id="549">Car enfin il vous hait. Son âme ailleurs éprise</l>
+	<l id="550" part="i">N´a plus…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="550" part="f">Qui vous l´a dit, Seigneur, qu´il me méprise ?</l>
+	<l id="551">Ses regards, ses discours vous l´ont-ils donc appris ?</l>
+	<l id="552">Jugez-vous que ma vue inspire des mépris ?</l>
+	<l id="553">Qu´elle allume en un cœur des feux si peu durables ?</l>
+	<l id="554">Peut-être d´autres yeux me sont plus favorables.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="555">Poursuivez. Il est beau de m´insulter ainsi.</l>
+	<l id="556">Cruelle, c´est donc moi qui vous méprise ici ?</l>
+	<l id="557">Vos yeux n´ont pas assez éprouvé ma constance ?</l>
+	<l id="558">Je suis donc un témoin de leur peu de puissance ?</l>
+	<l id="559">Je les ai méprisés ? Ah ! Qu´ils voudraient bien voir</l>
+	<l id="560">Mon rival, comme moi, mépriser leur pouvoir.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="561">Que m´importe, Seigneur, sa haine, ou sa tendresse ?</l>
+	<l id="562">Allez contre un rebelle armer toute la Grèce.</l>
+	<l id="563">Rapportez-lui le prix de sa rébellion.</l>
+	<l id="564">Qu´on fasse de l´Épire un second Ilion.</l>
+	<l id="565">Allez. Après cela, direz-vous que je l´aime ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="566">Madame, faites plus, et venez-y vous-même.</l>
+	<l id="567">Voulez-vous demeurer pour otage en ces lieux ?</l>
+	<l id="568">Venez dans tous les cœurs faire parler vos yeux.</l>
+	<l id="569">Faisons de notre haine une commune attaque.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="570">Mais, Seigneur, cependant s´il épouse Andromaque ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="571" part="i">Hé Madame !</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="571" part="f">Songez quelle honte pour nous,</l>
+	<l id="572">Si d´une Phrygienne il devenait l´époux.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="573">Et vous le haïssez ? Avouez-le, Madame,</l>
+	<l id="574">L´amour n´est pas un feu qu´on renferme en une âme.</l>
+	<l id="575">Tout nous trahit, la voix, le silence, les yeux,</l>
+	<l id="576">Et les feux mal couverts n´en éclatent que mieux.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="577">Seigneur, je le vois bien, votre âme prévenue</l>
+	<l id="578">Répand sur mes discours le venin qui la tue,</l>
+	<l id="579">Toujours dans mes raisons cherche quelque détour,</l>
+	<l id="580">Et croit qu´en moi la haine est un effort d´amour.</l>
+	<l id="581">Il faut donc m´expliquer. Vous agirez ensuite.</l>
+	<l id="582">Vous savez qu´en ces lieux mon devoir m´a conduite.</l>
+	<l id="583">Mon devoir m´y retient, et je n´en puis partir,</l>
+	<l id="584">Que mon père, ou Pyrrhus ne m´en fasse sortir.</l>
+	<l id="585">De la part de mon père allez lui faire entendre,</l>
+	<l id="586">Que l´ennemi des Grecs ne peut être son gendre.</l>
+	<l id="587">Du Troyen, ou de moi, faites-le décider :</l>
+	<l id="588">Qu´il songe qui des deux, il veut rendre, ou garder.</l>
+	<l id="589">Enfin qu´il me renvoie, ou bien qu´il vous le livre.</l>
+	<l id="590">Adieu, s´il y consent, je suis prête à vous suivre.</l></sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III.</head>
+<sp who="ORESTE"><speaker>ORESTE, seul.</speaker>
+	<l id="591">Oui, oui, vous me suivrez, n´en doutez nullement.</l>
+	<l id="592">Je vous réponds déjà de son consentement.</l>
+	<l id="593">Je ne crains pas enfin que Pyrrhus la retienne,</l>
+	<l id="594">Il n´a devant les yeux que sa chère Troyenne ;</l>
+	<l id="595">Tout autre objet le blesse, et peut-être aujourd´hui</l>
+	<l id="596">Il n´attend qu´un prétexte à l´éloigner de lui.</l>
+	<l id="597">Nous n´avons qu´à parler. C´en est fait. Quelle joie</l>
+	<l id="598">D´enlever à l´Épire une si belle proie !</l>
+	<l id="599">Sauve tout ce qui reste et de Troie, et d´Hector.</l>
+	<l id="600">Garde son fils, sa veuve, et mille autres encor,</l>
+	<l id="601">Épire, c´est assez qu´Hermione rendue</l>
+	<l id="602">Perde à jamais tes bords et ton prince de vue.</l>
+	<l id="603">Mais un heureux destin le conduit en ces lieux.</l>
+	<l id="604">Parlons. À tant d´attraits, Amour, ferme ses yeux.</l></sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Pyrrhus, Oreste, Phoenix.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="605">Je vous cherchais, Seigneur. Un peu de violence</l>
+	<l id="606">M´a fait de vos raisons combattre la puissance,</l>
+	<l id="607">Je l´avoue. Et depuis que je vous ai quitté,</l>
+	<l id="608">J´en ai senti la force, et connu l´équité.</l>
+	<l id="609">J´ai songé comme vous, qu´à la Grèce, à mon père,</l>
+	<l id="610">À moi-même en un mot je devenais contraire ;</l>
+	<l id="611">Que je relevais Troie, et rendais imparfait</l>
+	<l id="612">Tout ce qu´a fait Achille, et tout ce que j´ai fait.</l>
+	<l id="613">Je ne condamne plus un courroux légitime,</l>
+	<l id="614">Et l´on vous va, Seigneur, livrer votre victime.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="615">Seigneur, par ce conseil prudent et rigoureux,</l>
+	<l id="616">C´est acheter la paix du sang d´un malheureux.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="617">Oui, mais je veux, Seigneur, l´assurer davantage.</l>
+	<l id="618">D´une éternelle paix Hermione est le gage.</l>
+	<l id="619">Je l´épouse. Il semblait qu´un spectacle si doux</l>
+	<l id="620">N´attendît en ces lieux qu´un témoin tel que vous.</l>
+	<l id="621">Vous y représentez tous les Grecs et son père,</l>
+	<l id="622">Puisqu´en vous Ménélas voit revivre son frère,</l>
+	<l id="623">Voyez-la donc. Allez. Dites-lui que demain</l>
+	<l id="624">J´attends, avec la paix, son cœur de votre main.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="625" part="i">Ah dieux !</l></sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Pyrrhus, Phoenix.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="625" part="f">Hé bien, Phoenix, l´amour est-il le maître ?</l>
+	<l id="626">Tes yeux refusent-ils encor de me connaître !</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="627">Ah ! Je vous reconnais, et ce juste courroux</l>
+	<l id="628">Ainsi qu´à tous les Grecs, Seigneur vous rend à vous.</l>
+	<l id="629">Ce n´est plus le jouet d´une flamme servile.</l>
+	<l id="630">C´est Pyrrhus. C´est le fils, et le rival d´Achille,</l>
+	<l id="631">Que la gloire à la fin ramène sous ses lois.</l>
+	<l id="632">Qui triomphe de Troie une seconde fois.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="633">Dis plutôt qu´aujourd´hui commence ma victoire.</l>
+	<l id="634">D´aujourd´hui seulement je jouis de ma gloire,</l>
+	<l id="635">Et mon cœur aussi fier que tu l´as vu soumis,</l>
+	<l id="636">Croit avoir en l´amour vaincu mille ennemis.</l>
+	<l id="637">Considère, Phoenix, les troubles que j´évite,</l>
+	<l id="638">Quelle foule de maux l´amour traîne à sa suite,</l>
+	<l id="639">Que d´amis, de devoirs j´allais sacrifier,</l>
+	<l id="640">Quels périls… Un regard m´eût tout fait oublier.</l>
+	<l id="641">Tous les Grecs conjurés fondaient sur un rebelle.</l>
+	<l id="642">Je trouvais du plaisir à me perdre pour elle.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="643">Oui, je bénis, Seigneur, l´heureuse cruauté</l>
+	<l id="644" part="i">Qui vous rend…</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="644" part="f">Tu l´as vu comme elle m´a traité.</l>
+	<l id="645">Je pensais, en voyant sa tendresse alarmée,</l>
+	<l id="646">Que son fils me la dût renvoyer désarmée.</l>
+	<l id="647">J´allais voir le succès de ses embrassements.</l>
+	<l id="648">Je n´ai trouvé que pleurs mêlés d´emportements.</l>
+	<l id="649">Sa misère l´aigrit. Et toujours plus farouche</l>
+	<l id="650">Cent fois le nom d´Hector est sorti de sa bouche.</l>
+	<l id="651">Vainement à son fils j´assurais mon secours,</l>
+	<l id="652">C´est Hector, disait-elle en l´embrassant toujours.</l>
+	<l id="653">Voilà ses yeux, sa bouche, et déjà son audace,</l>
+	<l id="654">C´est lui-même ; c´est toi, cher époux que j´embrasse.</l>
+	<l id="655">Et quelle est sa pensée ? Attend-elle en ce jour</l>
+	<l id="656">Que je lui laisse un fils pour nourrir son amour ?</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="657">Sans doute. C´est le prix que vous gardait l´ingrate.</l>
+	<l id="658" part="i">Mais laissez-la Seigneur.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="658" part="f">Je vois ce qui la flatte.</l>
+	<l id="659">Sa beauté la rassure, et malgré mon courroux,</l>
+	<l id="660">L´orgueilleuse m´attend encore à ses genoux.</l>
+	<l id="661">Je la verrais aux miens, Phoenix, d´un œil tranquille.</l>
+	<l id="662">Elle est veuve d´Hector, et je suis fils d´Achille.</l>
+	<l id="663">Trop de haine sépare Andromaque et Pyrrhus.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="664">Commencez donc, Seigneur, à ne m´en parler plus.</l>
+	<l id="665">Allez voir Hermione, et content de lui plaire,</l>
+	<l id="666">Oubliez à ses pieds jusqu´à votre colère.</l>
+	<l id="667">Vous-même à cet hymen venez la disposer.</l>
+	<l id="668">Est-ce sur un rival qu´il s´en faut reposer ?</l>
+	<l id="669" part="i">Il ne l´aime que trop.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="669" part="f">Crois-tu, si je l´épouse,</l>
+	<l id="670">Qu´Andromaque en son cœur n´en sera pas jalouse ?</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="671">Quoi toujours Andromaque occupe votre esprit ?</l>
+	<l id="672">Que vous importe, ô dieux ! Sa joie, ou son dépit ?</l>
+	<l id="673">Quel charme malgré vous vers elle vous attire ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="674">Non, je n´ai pas bien dit tout ce qu´il lui faut dire.</l>
+	<l id="675">Ma colère à ses yeux n´a paru qu´à demi.</l>
+	<l id="676">Elle ignore à quel point je suis son ennemi.</l>
+	<l id="677">Retournons-y. Je veux la braver à sa vue,</l>
+	<l id="678">Et donner à ma haine une libre étendue.</l>
+	<l id="679">Viens voir tous ses attraits, Phoenix, humiliés.</l>
+	<l id="680" part="i">Allons.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="680" part="f">Allez, Seigneur, vous jeter à ses pieds.</l>
+	<l id="681">Allez, en lui jurant que votre âme l´adore,</l>
+	<l id="682">À de nouveaux mépris l´encourager encore.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="683">Je le vois bien, tu crois que prêt à l´excuser,</l>
+	<l id="684">Mon cœur court après elle, et cherche à s´apaiser.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="685" part="i">Vous aimez, c´est assez.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="685" part="f">Moi l´aimer ? une ingrate,</l>
+	<l id="686">Qui me hait d´autant plus que mon amour la flatte ?</l>
+	<l id="687">Sans parents, sans amis, sans espoir que sur moi ?</l>
+	<l id="688">Je puis perdre son fils ; peut-être je le dois.</l>
+	<l id="689">Étrangère… Que dis-je ? Esclave dans l´Épire,</l>
+	<l id="690">Je lui donne son fils, mon âme, mon empire.</l>
+	<l id="691">Et je ne puis gagner dans son perfide cœur</l>
+	<l id="692">D´autre rang que celui de son persécuteur ?</l>
+	<l id="693">Non, non, je l´ai juré, ma vengeance est certaine.</l>
+	<l id="694">Il faut bien une fois justifier sa haine.</l>
+	<l id="695">J´abandonne son fils. Que de pleurs vont couler !</l>
+	<l id="696">De quel nom sa douleur me va-t-elle appeler ?</l>
+	<l id="697">Quel spectacle pour elle aujourd´hui se dispose !</l>
+	<l id="698">Elle en mourra, Phoenix, et j´en serai la cause.</l>
+	<l id="699">C´est lui mettre moi-même un poignard dans le sein.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="700">Et pourquoi donc en faire éclater le dessein ?</l>
+	<l id="701">Que ne consultiez-vous tantôt votre faiblesse ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="702">Je t´entends. Mais excuse un reste de tendresse.</l>
+	<l id="703">Crains-tu pour ma colère un si faible combat ?</l>
+	<l id="704">D´un amour qui s´éteint c´est le dernier éclat.</l>
+	<l id="705">Allons. À tes conseils, Phoenix, je m´abandonne :</l>
+	<l id="706">Faut-il livrer son fils ? Faut-il voir Hermione ?</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="707">Oui, voyez-la, Seigneur, et par des vœux soumis</l>
+	<l id="708" part="i">Protestez-lui…</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="708" part="f">Faisons tout ce que j´ai promis.</l></sp>
+</div2>
+</div1>
+<div1 type="acte" n="3"><head>ACTE III</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Oreste, Pylade.</head>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="709">Modérez donc, Seigneur, cette fureur extrême.</l>
+	<l id="710">Je ne vous connais plus. Vous n´êtes plus vous-même.</l>
+	<l id="711" part="i">Souffrez…</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="711" part="f">Non, tes conseils ne sont plus de saison,</l>
+	<l id="712">Pylade ; je suis las d´écouter la raison.</l>
+	<l id="713">C´est traîner trop longtemps ma vie et mon supplice.</l>
+	<l id="714">Il faut que je l´enlève, ou bien que je périsse.</l>
+	<l id="715">Le dessein en est pris, je le veux achever.</l>
+	<l id="716" part="i">Oui je le veux.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="716" part="f">Hé bien il la faut enlever,</l>
+	<l id="717">J´y consens. Mais songez cependant où vous êtes.</l>
+	<l id="718">Que croira-t-on de vous à voir ce que vous faites ?</l>
+	<l id="719">Dissimulez. Calmez ce transport inquiet.</l>
+	<l id="720">Commandez à vos yeux de garder le secret.</l>
+	<l id="721">Ces gardes, cette cour, l´air qui vous environne.</l>
+	<l id="722">Tout dépend de Pyrrhus, et surtout Hermione.</l>
+	<l id="723">À ses regards surtout cachez votre courroux.</l>
+	<l id="724">Ô dieux ! En cet état pourquoi la cherchiez-vous ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="725">Que sais-je ? De moi-même étais-je alors le maître ?</l>
+	<l id="726">La fureur m´emportait, et je venais peut-être</l>
+	<l id="727">Menacer à la fois l´ingrate et son amant.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="728">Et quel était le fruit de cet emportement ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="729">Et quelle âme, dis-moi, ne serait éperdue</l>
+	<l id="730">Du coup dont ma raison vient d´être confondue ?</l>
+	<l id="731">Il épouse, dit-il, Hermione demain.</l>
+	<l id="732">Il veut pour m´honorer la tenir de ma main.</l>
+	<l id="733">Ah ! Plutôt cette main dans le sang du barbare…</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="734">Vous l´accusez, Seigneur, de ce destin bizarre ;</l>
+	<l id="735">Cependant, tourmenté de ses propres desseins,</l>
+	<l id="736">Il est peut-être à plaindre, autant que je vous plains.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="737">Non, non, je le connais, mon désespoir le flatte.</l>
+	<l id="738">Sans moi, sans mon amour il dédaignait l´ingrate.</l>
+	<l id="739">Ses charmes jusque-là n´avaient pu le toucher.</l>
+	<l id="740">Le cruel ne la prend que pour me l´arracher.</l>
+	<l id="741">Ah dieux ! C´en était fait. Hermione gagnée</l>
+	<l id="742">Pour jamais de sa vue allait être éloignée.</l>
+	<l id="743">Son cœur entre l´amour et le dépit confus</l>
+	<l id="744">Pour se donner à moi n´attendait qu´un refus.</l>
+	<l id="745">Ses yeux s´ouvraient, Pylade. Elle écoutait Oreste.</l>
+	<l id="746">Lui parlait, le plaignait. Un mot eût fait le reste.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="747" part="i">Vous le croyez.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="747" part="f">Hé quoi ? Ce courroux enflammé</l>
+	<l id="748" part="i">Contre un ingrat…</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="748" part="f">Jamais il ne fut plus aimé.</l>
+	<l id="749">Pensez-vous, quand Pyrrhus vous l´aurait accordée,</l>
+	<l id="750">Qu´un prétexte tout prêt ne l´eût pas retardée ?</l>
+	<l id="751">M´en croirez-vous ? Lassé de ses trompeurs attraits,</l>
+	<l id="752">Au lieu de l´enlever, fuyez-la pour jamais.</l>
+	<l id="753">Quoi ? Votre amour se veut charger d´une furie</l>
+	<l id="754">Qui vous détestera, qui toute votre vie</l>
+	<l id="755">Regrettant un hymen tout prêt à s´achever,</l>
+	<l id="756" part="i">Voudra…</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="756" part="f">C´est pour cela que je veux l´enlever.</l>
+	<l id="757">Tout lui rirait, Pylade ; et moi, pour mon partage,</l>
+	<l id="758">Je n´emporterais donc qu´une inutile rage ?</l>
+	<l id="759">J´irais loin d´elle encor, tâcher de l´oublier ?</l>
+	<l id="760">Non, non, à mes tourments je veux l´associer.</l>
+	<l id="761">C´est trop gémir tout seul. Je suis las qu´on me plaigne.</l>
+	<l id="762">Je prétends qu´à mon tour l´inhumaine me craigne,</l>
+	<l id="763">Et que ses yeux cruels à pleurer condamnés,</l>
+	<l id="764">Me rendent tous les noms, que je leur ai donnés.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="765">Voilà donc le succès qu´aura votre ambassade.</l>
+	<l id="766" part="i">Oreste ravisseur.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="766" part="f">Et qu´importe, Pylade ?</l>
+	<l id="767">Quand nos États vengés jouiront de mes soins,</l>
+	<l id="768">L´ingrate de mes pleurs jouira-t-elle moins ?</l>
+	<l id="769">Et que me servira que la Grèce m´admire,</l>
+	<l id="770">Tandis que je serai la fable de l´Épire ?</l>
+	<l id="771">Que veux-tu ? Mais s´il faut ne te rien déguiser,</l>
+	<l id="772">Mon innocence enfin commence à me peser.</l>
+	<l id="773">Je ne sais de tout temps quelle injuste puissance</l>
+	<l id="774">Laisse le crime en paix, et poursuit l´innocence.</l>
+	<l id="775">De quelque part sur moi que je tourne les yeux,</l>
+	<l id="776">Je ne vois que malheurs qui condamnent les dieux.</l>
+	<l id="777">Méritons leur courroux, justifions leur haine,</l>
+	<l id="778">Et que le fruit du crime en précède la peine.</l>
+	<l id="779">Mais toi, par quelle erreur veux-tu toujours sur toi</l>
+	<l id="780">Détourner un courroux qui ne cherche que moi ?</l>
+	<l id="781">Assez et trop longtemps mon amitié t´accable.</l>
+	<l id="782">Évite un malheureux, abandonne un coupable.</l>
+	<l id="783">Cher Pylade, crois-moi, ta pitié te séduit.</l>
+	<l id="784">Laisse-moi des périls dont j´attends tout le fruit.</l>
+	<l id="785">Porte aux Grecs cet enfant que Pyrrhus m´abandonne.</l>
+	<l id="786" part="i">Va-t´en.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="786" part="f">Allons, Seigneur, enlevons Hermione.</l>
+	<l id="787">Au travers des périls un grand cœur se fait jour.</l>
+	<l id="788">Que ne peut l´amitié conduite par l´amour ?</l>
+	<l id="789">Allons de tous vos Grecs encourager le zèle.</l>
+	<l id="790">Nos vaisseaux sont tout prêts, et le vent nous appelle.</l>
+	<l id="791">Je sais de ce palais tous les détours obscurs.</l>
+	<l id="792">Vous voyez que la mer en vient battre les murs.</l>
+	<l id="793">Et cette nuit sans peine une secrète voie</l>
+	<l id="794">Jusqu´en votre vaisseau conduira votre proie.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="795">J´abuse, cher ami, de ton trop d´amitié.</l>
+	<l id="796">Mais pardonne à des maux, dont toi seul as pitié.</l>
+	<l id="797">Excuse un malheureux, qui perd tout ce qu´il aime.</l>
+	<l id="798">Que tout le monde hait, et qui se hait lui-même.</l>
+	<l id="799">Que ne puis-je à mon tour dans un sort plus heureux…</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="800">Dissimulez, Seigneur, c´est tout ce que je veux,</l>
+	<l id="801">Gardez qu´avant le coup votre dessein n´éclate.</l>
+	<l id="802">Oubliez jusque-là qu´Hermione est ingrate.</l>
+	<l id="803">Oubliez votre amour. Elle vient, je la vois.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="804">Va-t´en. Réponds-moi d´elle, et je réponds de moi.</l></sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Hermione, Oreste, Cléone.</head>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="805">Hé bien ? mes soins vous ont rendu votre conquête.</l>
+	<l id="806">J´ai vu Pyrrhus, Madame, et votre hymen s´apprête.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="807">On le dit. Et de plus, on vient de m´assurer</l>
+	<l id="808">Que vous ne me cherchiez que pour m´y préparer.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="809">Et votre âme à ses vœux ne sera pas rebelle ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="810">Qui l´eût cru, que Pyrrhus ne fût pas infidèle ?</l>
+	<l id="811">Que sa flamme attendrait si tard pour éclater ?</l>
+	<l id="812">Qu´il reviendrait à moi, quand je l´allais quitter ?</l>
+	<l id="813">Je veux croire avec vous, qu´il redoute la Grèce,</l>
+	<l id="814">Qu´il suit son intérêt plutôt que sa tendresse,</l>
+	<l id="815">Que mes yeux sur votre âme étaient plus absolus.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="816">Non, Madame, il vous aime, et je n´en doute plus.</l>
+	<l id="817">Vos yeux ne font-ils pas tout ce qu´ils veulent faire ?</l>
+	<l id="818">Et vous ne vouliez pas sans doute lui déplaire.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="819">Mais que puis-je, Seigneur ? On a promis ma foi.</l>
+	<l id="820">Lui ravirai-je un bien, qu´il ne tient pas de moi ?</l>
+	<l id="821">L´amour ne règle pas le sort d´une princesse.</l>
+	<l id="822">La gloire d´obéir est tout ce qu´on nous laisse.</l>
+	<l id="823">Cependant je partais, et vous avez pu voir</l>
+	<l id="824">Combien je relâchais pour vous de mon devoir.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="825">Ah ! Que vous saviez bien, cruelle… Mais, Madame,</l>
+	<l id="826">Chacun peut à son choix disposer de son âme.</l>
+	<l id="827">La vôtre était à vous. J´espérais. Mais enfin</l>
+	<l id="828">Vous l´avez pu donner sans me faire un larcin.</l>
+	<l id="829">Je vous accuse aussi bien moins que la fortune.</l>
+	<l id="830">Et pourquoi vous lasser d´une plainte importune ?</l>
+	<l id="831">Tel est votre devoir, je l´avoue. Et le mien</l>
+	<l id="832">Est de vous épargner un si triste entretien.</l></sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Hermione, Cléone.</head>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="833">Attendais-tu, Cléone, un courroux si modeste ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="834">La douleur qui se tait n´en est que plus funeste.</l>
+	<l id="835">Je le plains. D´autant plus qu´auteur de son ennui,</l>
+	<l id="836">Le coup qui l´a perdu n´est parti que de lui.</l>
+	<l id="837">Comptez depuis quel temps votre hymen se prépare.</l>
+	<l id="838">Il a parlé, Madame, et Pyrrhus se déclare.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="839">Tu crois que Pyrrhus craint ? Et que craint-il encor ?</l>
+	<l id="840">Des peuples, qui dix ans ont fui devant Hector ?</l>
+	<l id="841">Qui cent fois effrayés de l´absence d´Achille,</l>
+	<l id="842">Dans leurs vaisseaux brûlants ont cherché leur asile,</l>
+	<l id="843">Et qu´on verrait encor, sans l´appui de son fils,</l>
+	<l id="844">Redemander Hélène aux Troyens impunis.</l>
+	<l id="845">Non, Cléone, il n´est point ennemi de lui-même,</l>
+	<l id="846">Il veut tout ce qu´il fait, et s´il m´épouse, il m´aime.</l>
+	<l id="847">Mais qu´Oreste à son gré m´impute ses douleurs.</l>
+	<l id="848">N´avons-nous d´entretien que celui de ses pleurs ?</l>
+	<l id="849">Pyrrhus revient à nous. Hé bien, chère Cléone,</l>
+	<l id="850">Conçois-tu les transports de l´heureuse Hermione ?</l>
+	<l id="851">Sais-tu quel est Pyrrhus ? T´es-tu fait raconter</l>
+	<l id="852">Le nombre des exploits… Mais qui les peut compter ?</l>
+	<l id="853">Intrépide, et partout suivi de la victoire,</l>
+	<l id="854">Charmant, fidèle, enfin, rien ne manque à sa gloire.</l>
+	<l id="855" part="i">Songe…</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="855" part="f">Dissimulez. Votre rivale en pleurs,</l>
+	<l id="856">Vient à vos pieds sans doute apporter ses douleurs.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="857">Dieux ! Ne puis-je à ma joie abandonner mon âme ?</l>
+	<l id="858" part="i">Sortons. Que lui dirais-je ?</l></sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Andromaque, Hermione, Cléone, Céphise.</head>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="858" part="f">Où fuyez-vous, Madame ?</l>
+	<l id="859">N´est-ce point à vos yeux un spectacle assez doux</l>
+	<l id="860">Que la veuve d´Hector pleurante à vos genoux ?</l>
+	<l id="861">Je ne viens point ici par de jalouses larmes,</l>
+	<l id="862">Vous envier un cœur, qui se rend à vos charmes.</l>
+	<l id="863">Par une main cruelle, hélas ! J´ai vu percer</l>
+	<l id="864">Le seul, où mes regards prétendaient s´adresser.</l>
+	<l id="865">Ma flamme par Hector fut jadis allumée,</l>
+	<l id="866">Avec lui dans la tombe elle s´est enfermée.</l>
+	<l id="867">Mais il me reste un fils. Vous saurez quelque jour,</l>
+	<l id="868">Madame, pour un fils jusqu´où va notre amour.</l>
+	<l id="869">Mais vous ne saurez pas, du moins je le souhaite,</l>
+	<l id="870">En quel trouble mortel son intérêt nous jette,</l>
+	<l id="871">Lorsque de tant de biens, qui pouvaient nous flatter,</l>
+	<l id="872">C´est le seul qui nous reste, et qu´on veut nous l´ôter.</l>
+	<l id="873">Hélas ! Lorsque lassés de dix ans de misère,</l>
+	<l id="874">Les Troyens en courroux menaçaient votre mère,</l>
+	<l id="875">J´ai su de mon Hector lui procurer l´appui ;</l>
+	<l id="876">Vous pouvez sur Pyrrhus ce que j´ai pu sur lui.</l>
+	<l id="877">Que craint-on d´un enfant qui survit à sa perte ?</l>
+	<l id="878">Laissez-moi le cacher en quelque île déserte.</l>
+	<l id="879">Sur les soins de sa mère on peut s´en assurer,</l>
+	<l id="880">Et mon fils avec moi n´apprendra qu´à pleurer.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="881">Je conçois vos douleurs. Mais un devoir austère,</l>
+	<l id="882">Quand mon père a parlé, m´ordonne de me taire.</l>
+	<l id="883">C´est lui qui de Pyrrhus fait agir le courroux.</l>
+	<l id="884">S´il faut fléchir Pyrrhus, qui le peut mieux que vous ?</l>
+	<l id="885">Vos yeux assez longtemps ont régné sur son âme.</l>
+	<l id="886">Faites-le prononcer, j´y souscrirai, Madame.</l></sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Andromaque, Céphise.</head>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="887">Quel mépris la cruelle attache à ses refus !</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="888">Je croirais ses conseils, et je verrais Pyrrhus.</l>
+	<l id="889">Un regard confondrait Hermione et la Grèce…</l>
+	<l id="890" part="i">Mais lui-même il vous cherche.</l></sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Pyrrhus, Aandromaque, Phoenix, Céphise.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS, à Phoenix.</speaker>
+	<l id="890" part="f">Où donc est la princesse ?</l>
+	<l id="891">Ne m´avais-tu pas dit qu´elle était en ces lieux ?</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="892" part="i">Je le croyais.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE, à Céphise.</speaker>
+	<l id="892" part="f">Tu vois le pouvoir de mes yeux.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="893" part="i">Que dit-elle, Phoenix ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="893" part="f">Hélas ! Tout m´abandonne.</l>
+</sp>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="894">Allons, Seigneur, marchons sur les pas d´Hermione.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="895">Qu´attendez-vous ? Rompez ce silence obstiné.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="896" part="i">Il a promis mon fils.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="896" part="f">Il ne l´a pas donné.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="897">Non, non, j´ai beau pleurer, sa mort est résolue.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="898">Daigne-t-elle sur nous tourner au moins la vue ?</l>
+	<l id="899" part="i">Quel orgueil !</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="899" part="f">Je ne fais que l´irriter encor.</l>
+	<l id="900" part="i">Sortons.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="900" part="f">Allons aux Grecs livrer le fils d´Hector.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="901">Ah ! Seigneur, arrêtez. Que prétendez-vous faire ?</l>
+	<l id="902">Si vous livrez le fils, livrez-leur donc la mère.</l>
+	<l id="903">Vos serments m´ont tantôt juré tant d´amitié.</l>
+	<l id="904">Dieux ! Ne pourrai-je au moins toucher votre pitié ?</l>
+	<l id="905">Sans espoir de pardon m´avez-vous condamnée ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="906">Phoenix vous le dira, ma parole est donnée.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="907">Vous qui braviez pour moi tant de périls divers !</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="908">J´étais aveugle alors, mes yeux se sont ouverts.</l>
+	<l id="909">Sa grâce à vos désirs pouvait être accordée.</l>
+	<l id="910">Mais vous ne l´avez pas seulement demandée.</l>
+	<l id="911" part="i">C´en est fait.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="911" part="f">Ah ! Seigneur, vous entendiez assez</l>
+	<l id="912">Des soupirs, qui craignaient de se voir repoussés.</l>
+	<l id="913">Pardonnez à l´éclat d´une illustre fortune</l>
+	<l id="914">Ce reste de fierté, qui craint d´être importune.</l>
+	<l id="915">Vous ne l´ignorez pas, Andromaque sans vous</l>
+	<l id="916">N´aurait jamais d´un maître embrassé les genoux.</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="917">Non, vous me haïssez. Et dans le fond de l´âme</l>
+	<l id="918">Vous craignez de devoir quelque chose à ma flamme.</l>
+	<l id="919">Ce fils même, ce fils, l´objet de tant de soins,</l>
+	<l id="920">Si je l´avais sauvé, vous l´en aimeriez moins.</l>
+	<l id="921">La haine, le mépris, contre moi tout s´assemble.</l>
+	<l id="922">Vous me haïssez plus que tous les Grecs ensemble.</l>
+	<l id="923">Jouissez à loisir d´un si noble courroux.</l>
+	<l id="924" part="i">Allons, Phoenix.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="924" part="f">Allons rejoindre mon époux.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="925" part="i">Madame…</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="925" part="f">Et que veux-tu que je lui dise encore ?</l>
+	<l id="926">Auteur de tous mes maux, crois-tu qu´il les ignore ?</l>
+	<l id="927">Seigneur, voyez l´état où vous me réduisez.</l>
+	<l id="928">J´ai vu mon père mort, et nos murs embrasés.</l>
+	<l id="929">J´ai vu trancher les jours de ma famille entière,</l>
+	<l id="930">Et mon époux sanglant traîné sur la poussière,</l>
+	<l id="931">Son fils seul avec moi réservé pour les fers.</l>
+	<l id="932">Mais que ne peut un fils ? Je respire, je sers.</l>
+	<l id="933">J´ai fait plus. Je me suis quelquefois consolée</l>
+	<l id="934">Qu´ici plutôt qu´ailleurs le sort m´eût exilée ;</l>
+	<l id="935">Qu´heureux dans son malheur, le fils de tant de rois,</l>
+	<l id="936">Puisqu´il devait servir, fût tombé sous vos lois.</l>
+	<l id="937">J´ai cru que sa prison deviendrait son asile.</l>
+	<l id="938">Jadis Priam soumis fut respecté d´Achille.</l>
+	<l id="939">J´attendais de son fils encor plus de bonté.</l>
+	<l id="940">Pardonne, cher Hector, à ma crédulité.</l>
+	<l id="941">Je n´ai pu soupçonner ton ennemi d´un crime,</l>
+	<l id="942">Malgré lui-même enfin je l´ai cru magnanime.</l>
+	<l id="943">Ah ! S´il l´était assez, pour nous laisser du moins</l>
+	<l id="944">Au tombeau qu´à ta cendre ont élevé mes soins ;</l>
+	<l id="945">Et que finissant là sa haine et nos misères,</l>
+	<l id="946">Il ne séparât point des dépouilles si chères !</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="947" part="i">Va m´attendre, Phoenix.</l></sp>
+</div2>
+<div2 type="scene" n="7"><head>SCÈNE VII. Pyrrhus, Andromaque, Céphise.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS continue.</speaker>
+	<l id="947" part="f">Madame, demeurez.</l>
+	<l id="948">On peut vous rendre encor ce fils que vous pleurez.</l>
+	<l id="949">Oui, je sens à regret, qu´en excitant vos larmes,</l>
+	<l id="950">Je ne fais contre moi que vous donner des armes.</l>
+	<l id="951">Je croyais apporter plus de haine en ces lieux.</l>
+	<l id="952">Mais, Madame, du moins tournez vers moi les yeux :</l>
+	<l id="953">Voyez si mes regards sont d´un juge sévère,</l>
+	<l id="954">S´ils sont d´un ennemi qui cherche à vous déplaire.</l>
+	<l id="955">Pourquoi me forcez-vous vous-même à vous trahir ?</l>
+	<l id="956">Au nom de votre fils, cessons de nous haïr.</l>
+	<l id="957">À le sauver enfin, c´est moi qui vous convie.</l>
+	<l id="958">Faut-il que mes soupirs vous demandent sa vie ?</l>
+	<l id="959">Faut-il qu´en sa faveur j´embrasse vos genoux ?</l>
+	<l id="960">Pour la dernière fois, sauvez-le, sauvez-vous.</l>
+	<l id="961">Je sais de quels serments je romps pour vous les chaînes,</l>
+	<l id="962">Combien je vais sur moi faire éclater de haines.</l>
+	<l id="963">Je renvoie Hermione, et je mets sur son front,</l>
+	<l id="964">Au lieu de ma couronne, un éternel affront.</l>
+	<l id="965">Je vous conduis au temple, où son hymen s´apprête.</l>
+	<l id="966">Je vous ceins du bandeau préparé pour sa tête.</l>
+	<l id="967">Mais ce n´est plus, Madame, une offre à dédaigner.</l>
+	<l id="968">Je vous le dis, il faut ou périr, ou régner.</l>
+	<l id="969">Mon cœur désespéré d´un an d´ingratitude,</l>
+	<l id="970">Ne peut plus de son sort souffrir l´incertitude.</l>
+	<l id="971">C´est craindre, menacer, et gémir trop longtemps.</l>
+	<l id="972">Je meurs, si je vous perds, mais je meurs si j´attends.</l>
+	<l id="973">Songez-y, je vous laisse, et je viendrai vous prendre,</l>
+	<l id="974">Pour vous mener au temple, où ce fils doit m´attendre.</l>
+	<l id="975">Et là vous me verrez soumis, ou furieux,</l>
+	<l id="976">Vous couronner, Madame, ou le perdre à vos yeux.</l>
+</sp>
+</div2>
+<div2 type="scene" n="8"><head>SCÈNE VIII. Andromaque, Céphise.</head>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="977">Je vous l´avais prédit, qu´en dépit de la Grèce,</l>
+	<l id="978">De votre sort encor vous seriez la maîtresse.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="979">Hélas ! De quel effet tes discours sont suivis !</l>
+	<l id="980">Il ne me restait plus qu´à condamner mon fils.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="981">Madame, à votre époux c´est être assez fidèle.</l>
+	<l id="982">Trop de vertu pourrait vous rendre criminelle.</l>
+	<l id="983">Lui-même il porterait votre âme à la douceur.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="984">Quoi ? je lui donnerais Pyrrhus pour successeur ?</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="985">Ainsi le veut son fils, que les Grecs vous ravissent.</l>
+	<l id="986">Pensez-vous qu´après tout, ses mânes en rougissent ?</l>
+	<l id="987">Qu´il méprisât, Madame, un roi victorieux,</l>
+	<l id="988">Qui vous fait remonter au rang de vos aïeux ;</l>
+	<l id="989">Qui foule aux pieds pour vous vos vainqueurs en colère,</l>
+	<l id="990">Qui ne se souvient plus qu´Achille était son père,</l>
+	<l id="991">Qui dément ses exploits et les rend superflus ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="992">Dois-je les oublier, s´il ne s´en souvient plus ?</l>
+	<l id="993">Dois-je oublier Hector privé de funérailles,</l>
+	<l id="994">Et traîné sans honneur autour de nos murailles ?</l>
+	<l id="995">Dois-je oublier son père à mes pieds renversé,</l>
+	<l id="996">Ensanglantant l´autel qu´il tenait embrassé ?</l>
+	<l id="997">Songe, songe, Céphise, à cette nuit cruelle,</l>
+	<l id="998">Qui fut pour tout un peuple une nuit éternelle.</l>
+	<l id="999">Figure-toi Pyrrhus, les yeux étincelants,</l>
+	<l id="1000">Entrant à la lueur de nos palais brûlants,</l>
+	<l id="1001">Sur tous mes frères morts se faisant un passage,</l>
+	<l id="1002">Et de sang tout couvert échauffant le carnage.</l>
+	<l id="1003">Songe aux cris des vainqueurs, songe aux cris des mourants,</l>
+	<l id="1004">Dans la flamme étouffés, sous le fer expirants.</l>
+	<l id="1005">Peins-toi dans ces horreurs Andromaque éperdue.</l>
+	<l id="1006">Voilà comme Pyrrhus vint s´offrir à ma vue ;</l>
+	<l id="1007">Voilà par quels exploits il sut se couronner,</l>
+	<l id="1008">Enfin voilà l´époux que tu me veux donner.</l>
+	<l id="1009">Non, je ne serai point complice de ses crimes.</l>
+	<l id="1010">Qu´il nous prenne, s´il veut, pour dernières victimes.</l>
+	<l id="1011">Tous mes ressentiments lui seraient asservis.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1012">Hé bien, allons donc voir expirer votre fils.</l>
+	<l id="1013">On n´attend plus que vous. Vous frémissez, Madame.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1014">Ah ! De quel souvenir viens-tu frapper mon âme !</l>
+	<l id="1015">Quoi, Céphise, j´irai voir expirer encor</l>
+	<l id="1016">Ce fils ma seule joie, et l´image d´Hector ?</l>
+	<l id="1017">Ce fils que de sa flamme il me laissa pour gage ?</l>
+	<l id="1018">Hélas ! Je m´en souviens : le jour que son courage</l>
+	<l id="1019">Lui fit chercher Achille, ou plutôt le trépas,</l>
+	<l id="1020">Il demanda son fils, et le prit dans ses bras.</l>
+	<l id="1021">Chère épouse, dit-il, en essuyant mes larmes</l>
+	<l id="1022">J´ignore quel succès le sort garde à mes armes,</l>
+	<l id="1023">Je te laisse mon fils, pour gage de ma foi ;</l>
+	<l id="1024">S´il me perd, je prétends qu´il me retrouve en toi.</l>
+	<l id="1025">Si d´un heureux hymen la mémoire t´est chère,</l>
+	<l id="1026">Montre au fils à quel point tu chérissais le père.</l>
+	<l id="1027">Et je puis voir répandre un sang si précieux ?</l>
+	<l id="1028">Et je laisse avec lui périr tous ses aïeux ?</l>
+	<l id="1029">Roi barbare ! Faut-il que mon crime l´entraîne ?</l>
+	<l id="1030">Si je te hais, est-il coupable de ma haine ?</l>
+	<l id="1031">T´a-t-il de tous les siens reproché le trépas ?</l>
+	<l id="1032">S´est-il plaint à tes yeux des maux qu´il ne sent pas ?</l>
+	<l id="1033">Mais cependant, mon fils, tu meurs, si je n´arrête</l>
+	<l id="1034">Le fer que le cruel tient levé sur ta tête.</l>
+	<l id="1035">Je l´en puis détourner, et je t´y vais offrir ?</l>
+	<l id="1036">Non tu ne mourras point, je ne le puis souffrir.</l>
+	<l id="1037">Allons trouver Pyrrhus. Mais non, chère Céphise,</l>
+	<l id="1038" part="i">Va le trouver pour moi.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1038" part="f">Que faut-il que je dise ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1039">Dis-lui que de mon fils l´amour est assez fort…</l>
+	<l id="1040">Crois-tu que dans son cœur il ait juré sa mort ?</l>
+	<l id="1041">L´amour peut-il si loin pousser sa barbarie ?</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1042">Madame, il va bientôt revenir en furie.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1043" part="i">Hé bien, va l´assurer…</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1043" part="f">De quoi ? De votre foi ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1044">Hélas ! Pour la promettre est-elle encore à moi ?</l>
+	<l id="1045">Ô cendres d´un époux ! Ô Troyens ! Ô mon père !</l>
+	<l id="1046">Ô mon fils, que tes jours coûtent cher à ta mère !</l>
+	<l id="1047" part="i">Allons.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1047" part="f">Où donc, Madame ? Et que résolvez-vous ?</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1048">Allons, sur son tombeau consulter mon époux.</l></sp>
+</div2>
+</div1>
+<div1 type="acte" n="4"><head>ACTE IV</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Andromaque, Céphise.</head>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1049">Ah ! Je n´en doute point. C´est votre époux Madame,</l>
+	<l id="1050">C´est Hector qui produit ce miracle en votre âme.</l>
+	<l id="1051">Il veut que Troie encor se puisse relever,</l>
+	<l id="1052">Avec cet heureux fils, qu´il vous fait conserver.</l>
+	<l id="1053">Pyrrhus vous l´a promis. Vous venez de l´entendre,</l>
+	<l id="1054">Madame, il n´attendait qu´un mot pour vous le rendre.</l>
+	<l id="1055">Croyez en ses transports. Père, sceptre, alliés,</l>
+	<l id="1056">Content de votre cœur, il met tout à vos pieds.</l>
+	<l id="1057">Sur lui, sur tout son peuple il vous rend souveraine.</l>
+	<l id="1058">Est-ce là ce vainqueur digne de tant de haine ?</l>
+	<l id="1059">Déjà contre les Grecs plein d´un noble courroux,</l>
+	<l id="1060">Le soin de votre fils le touche autant que vous,</l>
+	<l id="1061">Il prévient leur fureur, il lui laisse sa garde,</l>
+	<l id="1062">Pour ne pas l´exposer lui-même il se hasarde.</l>
+	<l id="1063">Mais tout s´apprête au temple. Et vous avez promis.</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1064">Oui, je m´y trouverai. Mais allons voir mon fils.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1065">Madame, qui vous presse ? Il suffit que sa vue</l>
+	<l id="1066">Désormais à vos yeux ne soit plus défendue.</l>
+	<l id="1067">Vous lui pourrez bientôt prodiguer vos bontés,</l>
+	<l id="1068">Et vos embrassements ne seront plus comptés.</l>
+<note type="C">v. 1069, à la rime, on lit "craistre" dans l´édition originale qui rime avec maître.</note>
+	<l id="1069">Quel plaisir d´élever un enfant, qu´on voit croître,</l>
+	<l id="1070">Non plus comme un esclave élevé pour son maître,</l>
+	<l id="1071">Mais pour voir avec lui renaître tant de rois !</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1072">Céphise, allons le voir pour la dernière fois.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1073" part="i">Que dites-vous ? Ô dieux !</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1073" part="f">Ô ! Ma chère Céphise,</l>
+	<l id="1074">Ce n´est point avec toi que mon cœur se déguise.</l>
+	<l id="1075">Ta foi dans mon malheur s´est montrée à mes yeux.</l>
+	<l id="1076">Mais j´ai cru qu´à mon tour tu me connaissais mieux.</l>
+	<l id="1077">Quoi donc, as-tu pensé qu´Andromaque infidèle,</l>
+	<l id="1078">Pût trahir un époux qui croit revivre en elle,</l>
+	<l id="1079">Et que de tant de morts réveillant la douleur,</l>
+	<l id="1080">Le soin de mon repos me fît troubler le leur ?</l>
+	<l id="1081">Est-ce là cette ardeur tant promise à sa cendre ?</l>
+	<l id="1082">Mais son fils périssait, il l´a fallu défendre.</l>
+	<l id="1083">Pyrrhus en m´épousant s´en déclare l´appui,</l>
+	<l id="1084">Il suffit. Je veux bien m´en reposer sur lui.</l>
+	<l id="1085">Je sais quel est Pyrrhus. Violent, mais sincère,</l>
+	<l id="1086">Céphise, il fera plus qu´il n´a promis de faire.</l>
+	<l id="1087">Sur le courroux des Grecs je m´en repose encor,</l>
+	<l id="1088">Leur haine va donner un père au fils d´Hector.</l>
+	<l id="1089">Je vais donc, puisqu´il faut que je me sacrifie,</l>
+	<l id="1090">Assurer à Pyrrhus le reste de ma vie.</l>
+	<l id="1091">Je vais, en recevant sa foi sur les autels,</l>
+	<l id="1092">L´engager à mon fils par des nœuds immortels.</l>
+	<l id="1093">Mais aussitôt ma main, à moi seule funeste,</l>
+	<l id="1094">D´une infidèle vie abrégera le reste,</l>
+	<l id="1095">Et sauvant ma vertu, rendra ce que je dois</l>
+	<l id="1096">À Pyrrhus, à mon fils, à mon époux, à moi.</l>
+	<l id="1097">Voilà de mon amour l´innocent stratagème ;</l>
+	<l id="1098">Voilà ce qu´un époux m´a commandé lui-même.</l>
+	<l id="1099">J´irai seule rejoindre Hector et mes aïeux.</l>
+	<l id="1100">Céphise, c´est à toi de me fermer les yeux.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1101">Ah ! Ne prétendez pas que je puisse survivre…</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1102">Non, non, je te défends, Céphise, de me suivre.</l>
+	<l id="1103">Je confie à tes soins mon unique trésor,</l>
+	<l id="1104">Si tu vivais pour moi, vis pour le fils d´Hector.</l>
+	<l id="1105">De l´espoir des Troyens seule dépositaire,</l>
+	<l id="1106">Songe à combien de rois tu deviens nécessaire.</l>
+	<l id="1107">Veille auprès de Pyrrhus. Fais-lui garder sa foi.</l>
+	<l id="1108">S´il le faut, je consens qu´on lui parle de moi.</l>
+	<l id="1109">Fais-lui valoir l´hymen, où je me suis rangée ;</l>
+	<l id="1110">Dis-lui, qu´avant ma mort je lui fus engagée,</l>
+	<l id="1111">Que ses ressentiments doivent être effacés,</l>
+	<l id="1112">Qu´en lui laissant mon fils c´est l´estimer assez.</l>
+	<l id="1113">Fais connaître à mon fils les héros de sa race.</l>
+	<l id="1114">Autant que tu pourras, conduis-le sur leur trace.</l>
+	<l id="1115">Dis-lui, par quels exploits leurs noms ont éclaté,</l>
+	<l id="1116">Plutôt ce qu´ils ont fait, que ce qu´ils ont été.</l>
+	<l id="1117">Parle-lui tous les jours des vertus de son père,</l>
+	<l id="1118">Et quelquefois aussi parle-lui de sa mère.</l>
+	<l id="1119">Mais qu´il ne songe plus, Céphise, à nous venger,</l>
+	<l id="1120">Nous lui laissons un maître, il le doit ménager.</l>
+	<l id="1121">Qu´il ait de ses aïeux un souvenir modeste.</l>
+	<l id="1122">Il est du sang d´Hector, mais il en est le reste.</l>
+	<l id="1123">Et pour ce reste enfin j´ai moi-même en un jour,</l>
+	<l id="1124">Sacrifié mon sang, ma haine et mon amour.</l>
+</sp>
+<sp who="CEPHISE"><speaker>CÉPHISE</speaker>
+	<l id="1125" part="i">Hélas !</l>
+</sp>
+<sp who="ANDROMAQUE"><speaker>ANDROMAQUE</speaker>
+	<l id="1125" part="f">Ne me suis point, si ton cœur en alarmes,</l>
+	<l id="1126">Prévoit qu´il ne pourra commander à tes larmes.</l>
+	<l id="1127">On vient. Cache tes pleurs, Céphise, et souviens-toi</l>
+	<l id="1128">Que le sort d´Andromaque est commis à ta foi.</l>
+	<l id="1129">C´est Hermione. Allons, fuyons sa violence.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Hermione, Cléone.</head>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1130">Non, je ne puis assez admirer ce silence.</l>
+	<l id="1131">Vous vous taisez, Madame, et ce cruel mépris</l>
+	<l id="1132">N´a pas du moindre trouble agité vos esprits ?</l>
+	<l id="1133">Vous soutenez en paix une si rude attaque,</l>
+	<l id="1134">Vous qu´on voyait frémir au seul nom d´Andromaque ?</l>
+	<l id="1135">Vous qui sans désespoir ne pouviez endurer</l>
+	<l id="1136">Que Pyrrhus d´un regard la voulût honorer ?</l>
+	<l id="1137">Il l´épouse. Il lui donne avec son diadème</l>
+	<l id="1138">La foi, que vous venez de recevoir vous-même :</l>
+	<l id="1139">Et votre bouche encor muette à tant d´ennui,</l>
+	<l id="1140">N´a pas daigné s´ouvrir pour se plaindre de lui ?</l>
+	<l id="1141">Ah ! Que je crains, Madame, un calme si funeste !</l>
+	<l id="1142" part="i">Et qu´il vaudrait bien mieux…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1142" part="f">Fais-tu venir Oreste ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1143">Il vient, Madame, il vient. Et vous pouvez juger</l>
+	<l id="1144">Que bientôt à vos pieds il allait se ranger.</l>
+	<l id="1145">Prêt à servir toujours sans espoir de salaire,</l>
+	<l id="1146">Vos yeux ne sont que trop assurés de lui plaire.</l>
+	<l id="1147" part="i">Mais il entre.</l></sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Oreste, Hermione, Cléone.</head>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1147" part="f">Ah Madame ! Est-il vrai qu´une fois</l>
+	<l id="1148">Oreste en vous cherchant obéisse à vos lois ?</l>
+	<l id="1149">Ne m´a-t-on point flatté d´une fausse espérance ?</l>
+	<l id="1150">Avez-vous en effet souhaité ma présence ?</l>
+	<l id="1151">Croirai-je que vos yeux à la fin désarmés</l>
+	<l id="1152" part="i">Veulent…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1152" part="f">Je veux savoir, Seigneur, si vous m´aimez.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1153">Si je vous aime ? Ô dieux ! Mes serments, mes parjures,</l>
+	<l id="1154">Ma fuite, mon retour, mes respects, mes injures,</l>
+	<l id="1155">Mon désespoir, mes yeux de pleurs toujours noyés,</l>
+	<l id="1156">Quels témoins croirez-vous, si vous ne les croyez ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1157" part="i">Vengez-moi, je crois tout.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1157" part="f">Hé bien allons, Madame.</l>
+	<l id="1158">Mettons encore un coup toute la Grèce en flamme.</l>
+	<l id="1159">Prenons, en signalant mon bras et votre nom,</l>
+	<l id="1160">Vous la place d´Hélène, et moi d´Agamemnon.</l>
+	<l id="1161">De Troie en ce pays réveillons les misères,</l>
+	<l id="1162">Et qu´on parle de nous ainsi que de nos pères.</l>
+	<l id="1163" part="i">Partons, je suis tout prêt.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1163" part="f">Non, Seigneur, demeurons,</l>
+	<l id="1164">Je ne veux pas si loin porter de tels affronts.</l>
+	<l id="1165">Quoi de mes ennemis couronnant l´insolence,</l>
+	<l id="1166">J´irais attendre ailleurs une lente vengeance,</l>
+	<l id="1167">Et je m´en remettrais au destin des combats,</l>
+	<l id="1168">Qui peut-être à la fin ne me vengerait pas ?</l>
+	<l id="1169">Je veux qu´à mon départ toute l´Épire pleure.</l>
+	<l id="1170">Mais si vous me vengez, vengez-moi dans une heure.</l>
+	<l id="1171">Tous vos retardements sont pour moi des refus.</l>
+	<l id="1172" part="i">Courez au temple. Il faut immoler…</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1172" part="m">Qui ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1172" part="f">Pyrrhus.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1173" part="i">Pyrrhus, Madame ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1173" part="f">Hé ! Quoi ? Votre haine chancelle ?</l>
+	<l id="1174">Ah ! Courez, et craignez que je ne vous rappelle.</l>
+	<l id="1175">N´alléguez point des droits que je veux oublier.</l>
+	<l id="1176">Et ce n´est pas à vous à le justifier.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1177">Moi, je l´excuserais ? Ah ! Vos bontés, Madame,</l>
+	<l id="1178">Ont gravé trop avant ses crimes dans mon âme.</l>
+	<l id="1179">Vengeons-nous, j´y consens. Mais par d´autres chemins.</l>
+	<l id="1180">Soyons ses ennemis, et non ses assassins.</l>
+	<l id="1181">Faisons de sa ruine une juste conquête.</l>
+	<l id="1182">Quoi pour réponse aux Grecs porterai-je sa tête ?</l>
+	<l id="1183">Et n´ai-je pris sur moi le soin de tout l´État,</l>
+	<l id="1184">Que pour m´en acquitter par un assassinat ?</l>
+	<l id="1185">Souffrez, au nom des dieux, que la Grèce s´explique,</l>
+	<l id="1186">Et qu´il meure chargé de la haine publique.</l>
+	<l id="1187">Souvenez-vous qu´il règne, et qu´un front couronné…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1188">Ne vous suffit-il pas que je l´ai condamné ?</l>
+	<l id="1189">Ne vous suffit-il pas que ma gloire offensée</l>
+	<l id="1190">Demande une victime, à moi seule adressée ;</l>
+	<l id="1191">Qu´Hermione est le prix d´un tyran opprimé,</l>
+	<l id="1192">Que je le hais, enfin, Seigneur, que je l´aimai ?</l>
+	<l id="1193">Je ne m´en cache point. L´ingrat m´avait su plaire,</l>
+	<l id="1194">Soit qu´ainsi l´ordonnât mon amour, ou mon père ;</l>
+	<l id="1195">N´importe. Mais enfin réglez-vous là-dessus.</l>
+	<l id="1196">Malgré mes vœux, Seigneur, honteusement déçus,</l>
+	<l id="1197">Malgré la juste horreur, que son crime me donne,</l>
+	<l id="1198">Tant qu´il vivra, craignez que je ne lui pardonne.</l>
+	<l id="1199">Doutez jusqu´à sa mort d´un courroux incertain,</l>
+	<l id="1200">S´il ne meurt aujourd´hui, je puis l´aimer demain.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1201">Hé bien, il faut le perdre, et prévenir sa grâce.</l>
+	<l id="1202">Il faut… Mais cependant, que faut-il que je fasse ?</l>
+	<l id="1203">Comment puis-je sitôt servir votre courroux ?</l>
+	<l id="1204">Quel chemin jusqu´à lui peut conduire mes coups ?</l>
+	<l id="1205">À peine suis-je encore arrivé dans l´Épire,</l>
+	<l id="1206">Vous voulez par mes mains renverser un empire,</l>
+	<l id="1207">Vous voulez qu´un roi meure, et pour son châtiment,</l>
+	<l id="1208">Vous ne donnez qu´un jour, qu´une heure, qu´un moment.</l>
+	<l id="1209">Aux yeux de tout son peuple, il faut que je l´opprime.</l>
+	<l id="1210">Laissez-moi vers l´autel conduire ma victime.</l>
+	<l id="1211">Je ne m´en défends plus. Et je ne veux qu´aller</l>
+	<l id="1212">Reconnaître la place où je dois l´immoler.</l>
+	<l id="1213">Cette nuit, je vous sers. Cette nuit je l´attaque.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1214">Mais cependant, ce jour il épouse Andromaque.</l>
+	<l id="1215">Dans le temple déjà le trône est élevé.</l>
+	<l id="1216">Ma honte est confirmée, et son crime achevé.</l>
+	<l id="1217">Enfin qu´attendez-vous ? Il vous offre sa tête.</l>
+	<l id="1218">Sans gardes, sans défense il marche à cette fête.</l>
+	<l id="1219">Autour du fils d´Hector il les fait tous ranger.</l>
+	<l id="1220">Il s´abandonne au bras qui me voudra venger.</l>
+	<l id="1221">Voulez-vous, malgré lui, prendre soin de sa vie ?</l>
+	<l id="1222">Armez avec vos Grecs, tous ceux qui m´ont suivie.</l>
+	<l id="1223">Soulevez vos amis. Tous les miens sont à vous.</l>
+	<l id="1224">Il me trahit, vous trompe, et nous méprise tous.</l>
+	<l id="1225">Mais quoi ? Déjà leur haine est égale à la mienne,</l>
+	<l id="1226">Elle épargne à regret l´époux d´une Troyenne.</l>
+	<l id="1227">Parlez. Mon ennemi ne vous peut échapper.</l>
+	<l id="1228">Ou plutôt, il ne faut que les laisser frapper.</l>
+	<l id="1229">Conduisez, ou suivez une fureur si belle.</l>
+	<l id="1230">Revenez tout couvert du sang de l´infidèle.</l>
+	<l id="1231">Allez, en cet état soyez sûr de mon cœur.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1232" part="i">Mais, Madame, songez…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1232" part="f">Ah ! C´en est trop, Seigneur.</l>
+	<l id="1233">Tant de raisonnements offensent ma colère.</l>
+	<l id="1234">J´ai voulu vous donner les moyens de me plaire,</l>
+	<l id="1235">Rendre Oreste content. Mais enfin je vois bien,</l>
+	<l id="1236">Qu´il veut toujours se plaindre, et ne mériter rien.</l>
+	<l id="1237">Partez, allez ailleurs vanter votre constance,</l>
+	<l id="1238">Et me laissez ici le soin de ma vengeance.</l>
+	<l id="1239">De mes lâches bontés mon courage est confus,</l>
+	<l id="1240">Et c´est trop en un jour essuyer de refus.</l>
+	<l id="1241">Je m´en vais seule au temple, où leur hymen s´apprête,</l>
+	<l id="1242">Où vous n´osez aller mériter ma conquête.</l>
+	<l id="1243">Là, de mon ennemi je saurai m´approcher.</l>
+	<l id="1244">Je percerai le cœur que je n´ai pu toucher.</l>
+	<l id="1245">Et mes sanglantes mains sur moi-même tournées,</l>
+	<l id="1246">Aussitôt malgré lui joindront nos destinées,</l>
+	<l id="1247">Et tout ingrat qu´il est, il me sera plus doux</l>
+	<l id="1248">De mourir avec lui, que de vivre avec vous.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1249">Non, je vous priverai de ce plaisir funeste,</l>
+	<l id="1250">Madame, il ne mourra que de la main d´Oreste.</l>
+	<l id="1251">Vos ennemis par moi vont vous être immolés.</l>
+	<l id="1252">Et vous reconnaîtrez mes soins, si vous voulez.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1253">Allez. De votre sort laissez-moi la conduite.</l>
+	<l id="1254">Et que tous vos vaisseaux soient prêts pour notre fuite.</l></sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV. Hermione, Cléone.</head>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1255">Vous vous perdez, Madame. Et vous devez songer…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1256">Que je me perde, ou non, je songe à me venger,</l>
+	<l id="1257">Je ne sais même encor, quoi qu´il m´ait pu promettre,</l>
+	<l id="1258">Sur d´autres que sur moi, si je dois m´en remettre.</l>
+	<l id="1259">Pyrrhus n´est pas coupable à ses yeux comme aux miens,</l>
+	<l id="1260">Et je tiendrais mes coups bien plus sûrs que les siens.</l>
+	<l id="1261">Quel plaisir, de venger moi-même mon injure,</l>
+	<l id="1262">De retirer mon bras teint du sang du parjure,</l>
+	<l id="1263">Et pour rendre sa peine et mes plaisirs plus grands,</l>
+	<l id="1264">De cacher ma rivale à ses regards mourants !</l>
+	<l id="1265">Ah ! Si du moins Oreste, en punissant son crime,</l>
+	<l id="1266">Lui laissait le regret de mourir ma victime !</l>
+	<l id="1267">Va le trouver. Dis-lui qu´il apprenne à l´ingrat,</l>
+	<l id="1268">Qu´on l´immole à ma haine, et non pas à l´État.</l>
+	<l id="1269">Chère Cléone, cours. Ma vengeance est perdue,</l>
+	<l id="1270">S´il ignore, en mourant, que c´est moi qui le tue.</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1271">Je vous obéirai. Mais qu´est-ce que je vois ?</l>
+	<l id="1272">Ô dieux ! Qui l´aurait cru, Madame ? C´est le roi.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1273">Ah ! Cours après Oreste, et dis-lui, ma Cléone,</l>
+	<l id="1274">Qu´il n´entreprenne rien sans revoir Hermione.</l></sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Pyrrhus, Hermione, Phoenix.</head>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="1275">Vous ne m´attendiez pas, Madame, et je vois bien</l>
+	<l id="1276">Que mon abord ici trouble votre entretien.</l>
+	<l id="1277">Je ne viens point armé d´un indigne artifice,</l>
+	<l id="1278">D´un voile d´équité couvrir mon injustice.</l>
+	<l id="1279">Il suffit que mon cœur me condamne tout bas,</l>
+	<l id="1280">Et je soutiendrais mal ce que je ne crois pas.</l>
+	<l id="1281">J´épouse une Troyenne. Oui, Madame, et j´avoue</l>
+	<l id="1282">Que je vous ai promis la foi, que je lui voue.</l>
+	<l id="1283">Un autre vous dirait que dans les champs troyens</l>
+	<l id="1284">Nos deux pères sans nous formèrent ces liens,</l>
+	<l id="1285">Et que sans consulter ni mon choix ni le vôtre,</l>
+	<l id="1286">Nous fûmes sans amour engagés l´un à l´autre.</l>
+	<l id="1287">Mais c´est assez pour moi que je me sois soumis.</l>
+	<l id="1288">Par mes ambassadeurs mon cœur vous fut promis.</l>
+	<l id="1289">Loin de les révoquer, je voulus y souscrire.</l>
+	<l id="1290">Je vous vis avec eux arriver en Épire.</l>
+	<l id="1291">Et quoique d´un autre œil l´éclat victorieux</l>
+	<l id="1292">Eût déjà prévenu le pouvoir de vos yeux,</l>
+	<l id="1293">Je ne m´arrêtai point à cette ardeur nouvelle,</l>
+	<l id="1294">Je voulus m´obstiner à vous être fidèle.</l>
+	<l id="1295">Je vous reçus en reine, et jusques à ce jour</l>
+	<l id="1296">J´ai cru que mes serments me tiendraient lieu d´amour.</l>
+	<l id="1297">Mais cet amour l´emporte. Et par un coup funeste,</l>
+	<l id="1298">Andromaque m´arrache un cœur qu´elle déteste.</l>
+	<l id="1299">L´un par l´autre entraînés, nous courons à l´autel</l>
+	<l id="1300">Nous jurer, malgré nous, un amour immortel.</l>
+	<l id="1301">Après cela, Madame, éclatez contre un traître,</l>
+	<l id="1302">Qui l´est avec douleur, et qui pourtant veut l´être.</l>
+	<l id="1303">Pour moi, loin de contraindre un si juste courroux,</l>
+	<l id="1304">Il me soulagera peut-être autant que vous.</l>
+	<l id="1305">Donnez-moi tous les noms destinés aux parjures,</l>
+	<l id="1306">Je crains votre silence, et non pas vos injures;</l>
+	<l id="1307">Et mon cœur soulevant mille secrets témoins,</l>
+	<l id="1308">M´en dira d´autant plus que vous m´en direz moins.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1309">Seigneur, dans cet aveu dépouillé d´artifice,</l>
+	<l id="1310">J´aime à voir que du moins vous vous rendiez justice.</l>
+	<l id="1311">Et que voulant bien rompre un nœud si solennel,</l>
+	<l id="1312">Vous vous abandonniez au crime en criminel.</l>
+	<l id="1313">Est-il juste après tout, qu´un conquérant s´abaisse</l>
+	<l id="1314">Sous la servile loi de garder sa promesse ?</l>
+	<l id="1315">Non, non, la perfidie a de quoi vous tenter.</l>
+	<l id="1316">Et vous ne me cherchez que pour vous en vanter.</l>
+	<l id="1317">Quoi, sans que ni serment, ni devoir vous retienne,</l>
+	<l id="1318">Rechercher une Grecque, amant d´une Troyenne ?</l>
+	<l id="1319">Me quitter, me reprendre, et retourner encor</l>
+	<l id="1320">De la fille d´Hélène, à la veuve d´Hector ?</l>
+	<l id="1321">Couronner tour à tour l´esclave et la princesse,</l>
+	<l id="1322">Immoler Troie aux Grecs, au fils d´Hector la Grèce ?</l>
+	<l id="1323">Tout cela part d´un cœur toujours maître de soi,</l>
+	<l id="1324">D´un héros qui n´est point esclave de sa foi.</l>
+	<l id="1325">Pour plaire à votre épouse, il vous faudrait peut-être</l>
+	<l id="1326">Prodiguer les doux noms de parjure, et de traître.</l>
+	<l id="1327">Vous veniez de mon front observer la pâleur</l>
+	<l id="1328">Pour aller dans ses bras rire de ma douleur.</l>
+	<l id="1329">Pleurante après son char vous voulez qu´on me voie.</l>
+	<l id="1330">Mais, Seigneur, en un jour ce serait trop de joie.</l>
+	<l id="1331">Et sans chercher ailleurs des titres empruntés,</l>
+	<l id="1332">Ne vous suffit-il pas de ceux que vous portez ?</l>
+	<l id="1333">Du vieux père d´Hector la valeur abattue</l>
+	<l id="1334">Aux pieds de sa famille expirante à sa vue,</l>
+	<l id="1335">Tandis que dans son sein votre bras enfoncé</l>
+	<l id="1336">Cherche un reste de sang que l´âge avait glacé ;</l>
+	<l id="1337">Dans des ruisseaux de sang Troie ardente plongée,</l>
+	<l id="1338">De votre propre main Polyxène égorgée</l>
+	<l id="1339">Aux yeux de tous les Grecs indignés contre vous :</l>
+	<l id="1340">Que peut-on refuser à ces généreux coups ?</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="1341">Madame, je sais trop à quels excès de rage</l>
+	<l id="1342">La vengeance d´Hélène emporta mon courage.</l>
+	<l id="1343">Je puis me plaindre à vous du sang que j´ai versé.</l>
+	<l id="1344">Mais enfin je consens d´oublier le passé.</l>
+	<l id="1345">Je rends grâces au ciel, que votre indifférence</l>
+	<l id="1346">De mes heureux soupirs m´apprenne l´innocence.</l>
+	<l id="1347">Mon cœur, je le vois bien, trop prompt à se gêner,</l>
+	<l id="1348">Devait mieux vous connaître, et mieux s´examiner.</l>
+	<l id="1349">Mes remords vous faisaient une injure mortelle,</l>
+	<l id="1350">Il faut se croire aimé, pour se croire infidèle.</l>
+	<l id="1351">Vous ne prétendiez point m´arrêter dans vos fers.</l>
+	<l id="1352">J´ai craint de vous trahir, peut-être je vous sers.</l>
+	<l id="1353">Nos cœurs n´étaient point faits dépendants l´un de l´autre.</l>
+	<l id="1354">Je suivais mon devoir, et vous cédiez au vôtre.</l>
+	<l id="1355">Rien ne vous engageait à m´aimer en effet.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1356">Je ne t´ai point aimé, cruel ? Qu´ai-je donc fait ?</l>
+	<l id="1357">J´ai dédaigné pour toi les vœux de tous nos princes.</l>
+	<l id="1358">Je t´ai cherché moi-même au fond de tes provinces.</l>
+	<l id="1359">J´y suis encor, malgré tes infidélités,</l>
+	<l id="1360">Et malgré tous mes Grecs honteux de mes bontés.</l>
+	<l id="1361">Je leur ai commandé de cacher mon injure.</l>
+	<l id="1362">J´attendais en secret le retour d´un parjure.</l>
+	<l id="1363">J´ai cru que tôt ou tard à ton devoir rendu,</l>
+	<l id="1364">Tu me rapporterais un cœur qui m´était dû.</l>
+<note type="L">Inconstant : Particulièrement. Qui cesse d´aimer d´amour une personne. [L]</note>
+	<l id="1365">Je t´aimais inconstant, qu´aurais-je fait fidèle ?</l>
+	<l id="1366">Et même en ce moment où ta bouche cruelle</l>
+	<l id="1367">Vient si tranquillement m´annoncer le trépas,</l>
+	<l id="1368">Ingrat, je doute encor si je ne t´aime pas.</l>
+	<l id="1369">Mais, Seigneur, s´il le faut, si le ciel en colère</l>
+	<l id="1370">Réserve à d´autres yeux la gloire de vous plaire,</l>
+	<l id="1371">Achevez votre hymen, j´y consens. Mais du moins</l>
+	<l id="1372">Ne forcez pas mes yeux d´en être les témoins.</l>
+	<l id="1373">Pour la dernière fois je vous parle peut-être,</l>
+	<l id="1374">Différez-le d´un jour, demain vous serez maître.</l>
+	<l id="1375">Vous ne répondez point ? Perfide, je le vois :</l>
+	<l id="1376">Tu comptes les moments que tu perds avec moi.</l>
+	<l id="1377">Ton cœur impatient de revoir ta Troyenne,</l>
+	<l id="1378">Ne souffre qu´à regret qu´un autre t´entretienne.</l>
+	<l id="1379">Tu lui parles du cœur, tu la cherches des yeux.</l>
+	<l id="1380">Je ne te retiens plus, sauve-toi de ces lieux.</l>
+	<l id="1381">Va lui jurer la foi, que tu m´avais jurée.</l>
+	<l id="1382">Va profaner des dieux la majesté sacrée.</l>
+	<l id="1383">Ces dieux, ces justes dieux n´auront pas oublié,</l>
+	<l id="1384">Que les mêmes serments avec moi t´ont lié.</l>
+	<l id="1385">Porte aux pieds des autels ce cœur qui m´abandonne.</l>
+	<l id="1386">Va, cours. Mais crains encor d´y trouver Hermione.</l></sp>
+</div2>
+<div2 type="scene" n="6"><head>SCÈNE VI. Pyrrhus, Phoenix.</head>
+<sp who="PHOENIX"><speaker>PHOENIX</speaker>
+	<l id="1387">Seigneur, vous entendez. Gardez de négliger</l>
+	<l id="1388">Une amante en fureur, qui cherche à se venger.</l>
+	<l id="1389">Elle n´est en ces lieux que trop bien appuyée,</l>
+	<l id="1390">La querelle des Grecs à la sienne est liée.</l>
+	<l id="1391">Oreste l´aime encore. Et peut-être à ce prix…</l>
+</sp>
+<sp who="PYRRHUS"><speaker>PYRRHUS</speaker>
+	<l id="1392">Andromaque m´attend. Phoenix, garde son fils.</l></sp>
+</div2>
+</div1>
+<div1 type="acte" n="5"><head>ACTE V</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE.</head>
+<sp who="HERMIONE"><speaker>HERMIONE, seule.</speaker>
+	<l id="1393">Où suis-je ? Qu´ai-je fait ? Que dois-je faire encore ?</l>
+	<l id="1394">Quel transport me saisit ? Quel chagrin me dévore ?</l>
+	<l id="1395">Errante, et sans dessein, je cours dans ce palais.</l>
+	<l id="1396">Ah ! Ne puis-je savoir si j´aime, ou si je hais ?</l>
+	<l id="1397">Le cruel ! De quel œil il m´a congédiée ?</l>
+	<l id="1398">Sans pitié, sans douleur, au moins étudiée.</l>
+	<l id="1399">L´ai-je vu se troubler, et me plaindre un moment ?</l>
+	<l id="1400">En ai-je pu tirer un seul gémissement ?</l>
+	<l id="1401">Muet à mes soupirs, tranquille à mes alarmes,</l>
+	<l id="1402">Semblait-il seulement qu´il eût part à mes larmes ?</l>
+	<l id="1403">Et je le plains encore ? Et pour comble d´ennui,</l>
+	<l id="1404">Mon cœur, mon lâche cœur s´intéresse pour lui ?</l>
+	<l id="1405">Je tremble au seul penser du coup qui le menace ?</l>
+	<l id="1406">Et prête à me venger je lui fais déjà grâce ?</l>
+	<l id="1407">Non, ne révoquons point l´arrêt de mon courroux.</l>
+	<l id="1408">Qu´il périsse. Aussi bien il ne vit plus pour nous.</l>
+	<l id="1409">Le perfide triomphe, et se rit de ma rage.</l>
+	<l id="1410">Il pense voir en pleurs dissiper cet orage.</l>
+	<l id="1411">Il croit que toujours faible, et d´un cœur incertain,</l>
+	<l id="1412">Je parerai d´un bras les coups de l´autre main.</l>
+	<l id="1413">Il juge encor de moi par mes bontés passées.</l>
+	<l id="1414">Mais plutôt le perfide a bien d´autres pensées.</l>
+	<l id="1415">Triomphant dans le temple, il ne s´informe pas</l>
+	<l id="1416">Si l´on souhaite ailleurs sa vie ou son trépas.</l>
+	<l id="1417">Il me laisse, l´ingrat ! Cet embarras funeste.</l>
+	<l id="1418">Non, non encore un coup, laissons agir Oreste.</l>
+	<l id="1419">Qu´il meure, puisqu´enfin il a dû le prévoir,</l>
+	<l id="1420">Et puisqu´il m´a forcée enfin à le vouloir.</l>
+	<l id="1421">À le vouloir ? Hé quoi ? C´est donc moi qui l´ordonne ?</l>
+	<l id="1422">Sa mort sera l´effet de l´amour d´Hermione ?</l>
+	<l id="1423">Ce prince, dont mon cœur se faisait autrefois,</l>
+	<l id="1424">Avec tant de plaisir redire les exploits,</l>
+	<l id="1425">À qui même en secret je m´étais destinée,</l>
+	<l id="1426">Avant qu´on eût conclu ce fatal hyménée ?</l>
+	<l id="1427">Je n´ai donc traversé tant de mers, tant d´États,</l>
+	<l id="1428">Que pour venir si loin préparer son trépas ?</l>
+	<l id="1429">L´assassiner, le perdre ? Ah ! Devant qu´il expire…</l></sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Hermione, Cléone.</head>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1430">Ah ! Qu´ai-je fait, Cléone ? Et que viens-tu me dire ?</l>
+	<l id="1431" part="i">Que fait Pyrrhus ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1431" part="f">Il est au comble de ses vœux.</l>
+	<l id="1432">Le plus fier des mortels, et le plus amoureux.</l>
+	<l id="1433">Je l´ai vu vers le temple, où son hymen s´apprête,</l>
+	<l id="1434">Mener en conquérant sa nouvelle conquête,</l>
+	<l id="1435">Et d´un œil où brillaient sa joie et son espoir,</l>
+	<l id="1436">S´enivrer, en marchant, du plaisir de la voir.</l>
+	<l id="1437">Andromaque, au travers de mille cris de joie,</l>
+	<l id="1438">Porte jusqu´aux autels le souvenir de Troie :</l>
+	<l id="1439">Incapable toujours d´aimer et de haïr,</l>
+	<l id="1440">Sans joie, et sans murmure elle semble obéir.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1441">Et l´ingrat ? Jusqu´au bout il a poussé l´outrage ?</l>
+	<l id="1442">Mais as-tu bien, Cléone, observé son visage ?</l>
+	<l id="1443">Goûte-t-il des plaisirs tranquilles et parfaits ?</l>
+	<l id="1444">N´a-t-il point détourné ses yeux vers le palais ?</l>
+	<l id="1445">Dis-moi, ne t´es-tu point présentée à sa vue ?</l>
+	<l id="1446">L´ingrat a-t-il rougi, lorsqu´il t´a reconnue ?</l>
+	<l id="1447">Son trouble avouait-il son infidélité ?</l>
+	<l id="1448">A-t-il jusqu´à la fin soutenu sa fierté ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1449">Madame, il ne voit rien. Son salut, et sa gloire</l>
+	<l id="1450">Semblent être avec vous sortis de sa mémoire.</l>
+	<l id="1451">Sans songer qui le suit, ennemis, ou sujets,</l>
+	<l id="1452">Il poursuit seulement ses amoureux projets.</l>
+	<l id="1453">Autour du fils d´Hector il a rangé sa garde,</l>
+	<l id="1454">Et croit que c´est lui seul que le péril regarde.</l>
+	<l id="1455">Phoenix même en répond, qui l´a conduit exprès</l>
+	<l id="1456">Dans un fort éloigné du temple et du palais.</l>
+	<l id="1457">Voilà, dans ses transports, le seul soin qui lui reste.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1458">Le perfide ! Il mourra. Mais que t´a dit Oreste ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1459">Oreste, avec ses Grecs, dans le temple est entré.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1460">Hé bien ? à me venger n´est-il pas préparé ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1461" part="i">Je ne sais.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1461" part="f">Tu ne sais ? Quoi donc Oreste encore,</l>
+	<l id="1462" part="i">Oreste me trahit ?</l>
+</sp>
+<sp who="CLEONE"><speaker>CLÉONE</speaker>
+	<l id="1462" part="f">Oreste vous adore.</l>
+	<l id="1463">Mais de mille remords son esprit combattu</l>
+	<l id="1464">Croit tantôt son amour, et tantôt sa vertu.</l>
+	<l id="1465">Il respecte en Pyrrhus l´honneur du diadème.</l>
+	<l id="1466">Il respecte en Pyrrhus Achille, et Pyrrhus même.</l>
+	<l id="1467">Il craint la Grèce, il craint l´univers en courroux,</l>
+	<l id="1468">Mais il se craint, dit-il, soi-même plus que tous.</l>
+	<l id="1469">Il voudrait en vainqueur vous apporter sa tête.</l>
+	<l id="1470">Le seul nom d´assassin l´épouvante et l´arrête.</l>
+	<l id="1471">Enfin il est entré, sans savoir dans son cœur,</l>
+	<l id="1472">S´il en devait sortir coupable, ou spectateur.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1473">Non, non, il les verra triompher sans obstacle,</l>
+	<l id="1474">Il se gardera bien de troubler ce spectacle.</l>
+	<l id="1475">Je sais de quels remords son courage est atteint.</l>
+	<l id="1476">Le lâche craint la mort, et c´est tout ce qu´il craint.</l>
+	<l id="1477">Quoi ? sans qu´elle employât une seule prière,</l>
+	<l id="1478">Ma mère en sa faveur arma la Grèce entière ?</l>
+	<l id="1479">Ses yeux pour leur querelle, en dix ans de combats,</l>
+	<l id="1480">Virent périr vingt rois, qu´ils ne connaissaient pas ?</l>
+	<l id="1481">Et moi je ne prétends que la mort d´un parjure,</l>
+	<l id="1482">Et je charge un amant du soin de mon injure ;</l>
+	<l id="1483">Il peut me conquérir à ce prix, sans danger,</l>
+	<l id="1484">Je me livre moi-même, et ne puis me venger ?</l>
+	<l id="1485">Allons. C´est à moi seule, à me rendre justice :</l>
+	<l id="1486">Que de cris de douleur le temple retentisse.</l>
+	<l id="1487">De leur hymen fatal troublons l´événement,</l>
+	<l id="1488">Et qu´ils ne soient unis, s´il se peut, qu´un moment.</l>
+	<l id="1489">Je ne choisirai point dans ce désordre extrême.</l>
+	<l id="1490">Tout me sera Pyrrhus, fût-ce Oreste lui-même.</l>
+	<l id="1491">Je mourrai. Mais au moins ma mort me vengera,</l>
+	<l id="1492">Je ne mourrai pas seule, et quelqu´un me suivra.</l></sp>
+</div2>
+<div2 type="scene" n="3"><head>SCÈNE III. Oreste, Hermione, Cléone.</head>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1493">Madame, c´en est fait, et vous êtes servie.</l>
+	<l id="1494">Pyrrhus rend à l´autel son infidèle vie.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1495" part="i">Il est mort ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1495" part="f">Il expire. Et nos Grecs irrités</l>
+	<l id="1496">Ont lavé dans son sang ses infidélités.</l>
+	<l id="1497">Je vous l´avais promis. Et quoique mon courage</l>
+	<l id="1498">Se fît de ce complot une funeste image,</l>
+	<l id="1499">J´ai couru vers le temple, où nos Grecs dispersés</l>
+	<l id="1500">Se sont jusqu´à l´autel dans la foule glissés.</l>
+	<l id="1501">Pyrrhus m´a reconnu. Mais sans changer de face,</l>
+	<l id="1502">Il semblait que ma vue excitât son audace,</l>
+	<l id="1503">Que tous les Grecs bravés en leur ambassadeur</l>
+	<l id="1504">Dussent de son hymen relever la splendeur.</l>
+	<l id="1505">Enfin avec transport prenant son diadème,</l>
+	<l id="1506">Sur le front d´Andromaque il l´a posé lui-même.</l>
+	<l id="1507">"Je vous donne, a-t-il dit, ma couronne, et ma foi,</l>
+	<l id="1508">Andromaque, régnez sur l´Épire et sur moi.</l>
+	<l id="1509">Je voue à votre fils une amitié de père,</l>
+	<l id="1510">J´en atteste les dieux, je le jure à sa mère.</l>
+	<l id="1511">Pour tous mes ennemis je déclare les siens</l>
+	<l id="1512">Et je le reconnais pour le roi des Troyens.</l>
+	<l id="1513">À ces mots, qui du peuple attiraient le suffrage,</l>
+	<l id="1514">Nos Grecs n´ont répondu que par un cri de rage.</l>
+	<l id="1515">L´infidèle s´est vu partout envelopper,</l>
+	<l id="1516">Et je n´ai pu trouver de place pour frapper.</l>
+	<l id="1517">Chacun se disputait la gloire de l´abattre.</l>
+	<l id="1518">Je l´ai vu dans leurs mains quelque temps se débattre,</l>
+	<l id="1519">Tout sanglant à leurs coups vouloir se dérober,</l>
+	<l id="1520">Mais enfin à l´autel il est allé tomber.</l>
+	<l id="1521">Du peuple épouvanté j´ai traversé la presse</l>
+	<l id="1522">Pour venir de ces lieux enlever ma princesse,</l>
+	<l id="1523">Et regagner le port, où bientôt nos amis</l>
+	<l id="1524">Viendront couverts du sang, que je vous ai promis.</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1525" part="i">Qu´ont-ils fait !</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1525" part="f">Pardonnez à leur impatience.</l>
+	<l id="1526">Ils ont, je le vois bien, trahi votre vengeance.</l>
+	<l id="1527">Vous vouliez que ma main portât les premiers coups,</l>
+	<l id="1528">Qu´il sentît en mourant qu´il expirait pour vous.</l>
+	<l id="1529">Mais c´est moi, dont l´ardeur leur a servi d´exemple,</l>
+	<l id="1530">Je les ai pour vous seule entraînés dans le temple,</l>
+	<l id="1531">Madame, et vous pouvez justement vous flatter</l>
+	<l id="1532">D´une mort, que leurs bras n´ont fait qu´exécuter.</l>
+	<l id="1533" part="i">Vous seule avez poussé les coups…</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1533" part="f">Tais-toi, perfide,</l>
+	<l id="1534">Et n´impute qu´à toi ton lâche parricide.</l>
+	<l id="1535">Va faire chez tes Grecs admirer ta fureur,</l>
+	<l id="1536">Va, je la désavoue, et tu me fais horreur.</l>
+	<l id="1537">Barbare qu´as-tu fait ? Avec quelle furie</l>
+	<l id="1538">As-tu tranché le cours d´une si belle vie ?</l>
+	<l id="1539">Avez-vous pu, cruels, l´immoler aujourd´hui,</l>
+	<l id="1540">Sans que tout votre sang se soulevât pour lui ?</l>
+	<l id="1541">Mais parle. De son sort qui t´a rendu l´arbitre ?</l>
+	<l id="1542">Pourquoi l´assassiner ? Qu´a-t-il fait ? À quel titre ?</l>
+	<l id="1543" part="i">Qui te l´a dit ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1543" part="f">Ô dieux ! Quoi ne m´avez-vous pas</l>
+	<l id="1544">Vous-même, ici, tantôt, ordonné son trépas ?</l>
+</sp>
+<sp who="HERMIONE"><speaker>HERMIONE</speaker>
+	<l id="1545">Ah ! Fallait-il en croire une amante insensée ?</l>
+	<l id="1546">Ne devais-tu pas lire au fond de ma pensée ?</l>
+	<l id="1547">Et ne voyais-tu pas dans mes emportements,</l>
+	<l id="1548">Que mon cœur démentait ma bouche à tous moments ?</l>
+	<l id="1549">Quand je l´aurais voulu, fallait-il y souscrire ?</l>
+	<l id="1550">N´as-tu pas dû cent fois te le faire redire,</l>
+	<l id="1551">Toi-même avant le coup me venir consulter,</l>
+	<l id="1552">Y revenir encore, ou plutôt m´éviter ?</l>
+	<l id="1553">Que ne me laissais-tu le soin de ma vengeance ?</l>
+	<l id="1554">Qui t´amène en des lieux où l´on fuit ta présence ?</l>
+	<l id="1555">Voilà de ton amour le détestable fruit.</l>
+	<l id="1556">Tu m´apportais, cruel, le malheur qui te suit.</l>
+	<l id="1557">C´est toi, dont l´ambassade à tous les deux fatale,</l>
+	<l id="1558">L´a fait pour son malheur pencher vers ma rivale.</l>
+	<l id="1559">Nous le verrions encor nous partager ses soins,</l>
+	<l id="1560">Il m´aimerait peut-être, il le feindrait du moins.</l>
+	<l id="1561">Adieu. Tu peux partir. Je demeure en Épire,</l>
+	<l id="1562">Je renonce à la Grèce, à Sparte, à son empire,</l>
+	<l id="1563">À toute ma famille. Et c´est assez pour moi,</l>
+	<l id="1564">Traître, qu´elle ait produit un monstre comme toi.</l></sp>
+</div2>
+<div2 type="scene" n="4"><head>SCÈNE IV.</head>
+<sp who="ORESTE"><speaker>ORESTE, seul.</speaker>
+	<l id="1565">Que vois-je ? Est-ce Hermione ? Et que viens-je d´entendre ?</l>
+	<l id="1566">Pour qui coule le sang que je viens de répandre ?</l>
+	<l id="1567">Je suis, si je l´en crois, un traître, un assassin.</l>
+	<l id="1568">Est-ce Pyrrhus qui meurt ? Et suis-je Oreste enfin ?</l>
+	<l id="1569">Quoi ? J´étouffe en mon cœur la raison qui m´éclaire.</l>
+	<l id="1570">J´assassine à regret un roi que je révère.</l>
+	<l id="1571">Je viole en un jour les droits des souverains,</l>
+	<l id="1572">Ceux des ambassadeurs, et tous ceux des humains ;</l>
+	<l id="1573">Ceux même des autels, où ma fureur l´assiège.</l>
+	<l id="1574">Je deviens parricide, assassin, sacrilège.</l>
+	<l id="1575">Pour qui ? Pour une ingrate, à qui je le promets ;</l>
+	<l id="1576">Qui même, s´il ne meurt, ne me verra jamais,</l>
+	<l id="1577">Dont j´épouse la rage. Et quand je l´ai servie,</l>
+	<l id="1578">Elle me redemande et son sang et sa vie !</l>
+	<l id="1579">Elle l´aime ! Et je suis un monstre furieux !</l>
+	<l id="1580">Je la vois pour jamais s´éloigner de mes yeux,</l>
+	<l id="1581">Et l´ingrate, en fuyant, me laisse pour salaire</l>
+	<l id="1582">Tous les noms odieux que j´ai pris pour lui plaire.</l></sp>
+</div2>
+<div2 type="scene" n="5"><head>SCÈNE V. Oreste, Pylade, Soldats d´Oreste.</head>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="1583">Il faut partir, Seigneur. Sortons de ce palais,</l>
+	<l id="1584">Ou bien résolvons-nous de n´en sortir jamais.</l>
+	<l id="1585">Nos Grecs pour un moment en défendent la porte.</l>
+	<l id="1586">Tout le peuple assemblé nous poursuit à main forte.</l>
+	<l id="1587">Aux ordres d´Andromaque ici tout est soumis,</l>
+	<l id="1588">Ils la traitent en reine, et nous comme ennemis.</l>
+	<l id="1589">Andromaque elle-même à Pyrrhus si rebelle,</l>
+	<l id="1590">Lui rend tous les devoirs d´une veuve fidèle,</l>
+	<l id="1591">Commande qu´on le venge, et peut-être sur nous</l>
+	<l id="1592">Veut venger Troie encore, et son premier époux.</l>
+	<l id="1593">Allons. N´attendons pas que l´on nous environne,</l>
+	<l id="1594">Nos Grecs nous rejoindront. Et tandis qu´Hermione</l>
+	<l id="1595">Tient encore le peuple autour d´elle arrêté,</l>
+	<l id="1596">Voilà notre chemin, sortons en sûreté.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1597">Non, non, c´est Hermione, amis, que je veux suivre,</l>
+	<l id="1598">À son dernier arrêt, je ne puis plus survivre :</l>
+	<l id="1599">Partez, j´ai fait le crime, et je vais l´expier.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="1600">Hermione, Seigneur ? Il la faut oublier.</l>
+	<l id="1601">Quoi ! Toujours l´instrument, et l´objet de sa rage</l>
+	<l id="1602">Cherchez-vous chez les morts quelque nouvel outrage ?</l>
+	<l id="1603">Et parce qu´elle meurt, faut-il que vous mouriez ?</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1604" part="i">Elle meurt ? Dieux ! Qu´entends-je ?</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="1604" part="f">Hé quoi ? vous l´ignoriez ?</l>
+	<l id="1605">En rentrant dans ces lieux nous l´avons rencontrée,</l>
+	<l id="1606">Qui courait vers le temple, inquiète, égarée.</l>
+	<l id="1607">Elle a trouvé Pyrrhus, porté sur des soldats,</l>
+	<l id="1608">Que son sang excitait à venger son trépas.</l>
+	<l id="1609">Sans doute à cet objet sa rage s´est émue.</l>
+	<l id="1610">Mais du haut de la porte enfin nous l´avons vue,</l>
+	<l id="1611">Un poignard à la main, sur Pyrrhus se courber,</l>
+	<l id="1612">Lever les yeux au ciel, se frapper, et tomber.</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1613">Grâce aux dieux ! Mon malheur passe mon espérance :</l>
+	<l id="1614">Oui, je te loue, ô ciel ! De ta persévérance.</l>
+	<l id="1615">Appliqué sans relâche au soin de me punir,</l>
+	<l id="1616">Au comble des douleurs tu m´as fait parvenir.</l>
+	<l id="1617">Ta haine a pris plaisir à former ma misère ;</l>
+	<l id="1618">J´étais né pour servir d´exemple à ta colère,</l>
+	<l id="1619">Pour être du malheur un modèle accompli :</l>
+	<l id="1620">Hé bien, je meurs content, et mon sort est rempli.</l>
+	<l id="1621">Où sont ces deux amants ? Pour couronner ma joie,</l>
+	<l id="1622">Dans leur sang, dans le mien, il faut que je me noie :</l>
+	<l id="1623">L´un et l´autre en mourant je les veux regarder.</l>
+	<l id="1624">Réunissons trois cœurs qui n´ont pu s´accorder.</l>
+	<l id="1625">Mais quelle épaisse nuit tout à coup m´environne ?</l>
+	<l id="1626">De quel côté sortir ? D´où vient que je frissonne ?</l>
+	<l id="1627">Quelle horreur me saisit ? Grâce au ciel, j´entrevois…</l>
+	<l id="1628">Dieu ! Quels ruisseaux de sang coulent autour de moi !</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="1629" part="i">Ah Seigneur !</l>
+</sp>
+<sp who="ORESTE"><speaker>ORESTE</speaker>
+	<l id="1629" part="f">Quoi, Pyrrhus, je te rencontre encore ?</l>
+	<l id="1630">Trouverai-je partout un rival que j´abhorre ?</l>
+	<l id="1631">Percé de tant de coups comment t´es-tu sauvé ?</l>
+	<l id="1632">Tiens, tiens, voilà le coup que je t´ai réservé.</l>
+	<l id="1633">Mais que vois-je ? À mes yeux Hermione l´embrasse ?</l>
+	<l id="1634">Elle vient l´arracher au coup qui le menace ?</l>
+	<l id="1635">Dieux, quels affreux regards elle jette sur moi !</l>
+	<l id="1636">Quels démons, quel serpents traîne-t-elle après soi ?</l>
+	<l id="1637">Hé bien, filles d´enfer, vos mains sont-elles prêtes ?</l>
+	<l id="1638">Pour qui sont ces serpents qui sifflent sur vos têtes ?</l>
+	<l id="1639">À qui destinez-vous l´appareil qui vous suit ?</l>
+	<l id="1640">Venez-vous m´enlever dans l´éternelle nuit ?</l>
+	<l id="1641">Venez, à vos fureurs Oreste s´abandonne.</l>
+	<l id="1642">Mais non, retirez-vous, laissez faire Hermione.</l>
+	<l id="1643">L´ingrate mieux que vous saura me déchirer,</l>
+	<l id="1644">Et je lui porte enfin mon cœur à dévorer.</l>
+</sp>
+<sp who="PYLADE"><speaker>PYLADE</speaker>
+	<l id="1645">Il perd le sentiment. Amis, le temps nous presse,</l>
+	<l id="1646">Ménageons les moments que ce transport nous laisse.</l>
+	<l id="1647">Sauvons-le. Nos efforts deviendraient impuissants,</l>
+	<l id="1648">S´il reprenait ici sa rage avec ses sens.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+<bottom>
+<div1 type='annexe' n=''><head>Résumé de la pièce</head>
+<div2 type="acte I"><head>Acte I</head>
+	<p>Oreste et Pylade se retrouvent avec joie.</p>
+</div2>
+<div2 type='scene' n='acte II'><head>Acte II</head>
+	<p></p>
+</div2>
+<div2 type='scene' n='acte III'><head>Acte III</head>
+	<p></p>
+</div2>
+</div1>
+<div1 type="annexe" n="1"><head></head>	
+<div2 type="oeuvres" n="2"><head>Liste des oeuvres théâtrales de Jean Racine</head>
+	<p>Le corpus théâtral de Jean Racine se compose de douze pièces : onze tragédies et une comédie. Cette production se partage dans le temps en deux parties : la première et principale se situe entre les débuts avec "La Thébaïde" (1664) et la polémique de "Phèdre" (1677), la seconde concerne les deux tragédies religieuses d´"Esther" (1689) et d´ "Athalie" (1691), toutes deux commandées par Mme de Maintenon. Les deux premières tragédies ont été représentées par la troupe de Molière au théâtre du Palais-Royal puis Racine confia ses pièces à la troupe de l´Hôtel de Bourgogne et se brouilla avec Molière. Son unique comédie fut représentée à l´Hôtel Guénégaud et ses dernières tragédies au Collège de Saint-Cyr et jouées par les pensionnaires du collège devant Louis XIV. </p>
+	<p>Les sujets des tragédies sont tirés de la mythologie  grecque (La Thébaïde, Andromaque, Iphigénie, Phèdre), de l´histoire antique grecque (Alexandre) ou romaine (Britannicus, Bérénice, Mithridate), ou de l´histoire récente proche-orientale (Bajazet). Esther et Athalie sont inspirées des livres éponymes de la Bible. La comédie des Plaideurs ironise sur la justice de son temps.</p>
+	
+	<p type="p">La Thébaïde ou les Frères ennemis (1664), représentée pour le première fois le 20 juin 1664 au Théâtre du Palais-Royal</p>
+	<p id="p">Alexandre le Grand (1665), représentée pour le première fois le 4 décembre 1665 au Théâtre du Palais Royal.</p>
+	<p id="p">Andromaque (1667), représentée pour le première fois le 17 novembre 1667 à l´Hôtel de Bourgogne.</p>
+	<p id="p">Les Plaideurs (1668), représentée pour le première fois le 28 mai à l´Hôtel Guénégaud.</p>
+	<p id="p">Britannicus (1669), représentée pour le première fois le 13 décembre 1669 à l´Hôtel de Bourgogne.</p>
+	<p id="p">Bérénice (1670), représentée pour le première fois le à l´Hôtel de Bourgogne.</p>
+	<p id="p">Mithridate (1673), représentée pour le première fois le à l´Hôtel de Bourgogne.</p>
+	<p id="p">Bajazet (1672), représentée pour le première fois le 1er janvier 1672 à l´Hôtel de Bourgogne.</p>
+	<p id="p">Iphigénie, représentée pour le première fois le 18 août 1674 à l´Hôtel de Bourgogne.</p>
+	<p id="p">Phèdre (1677), représentée pour le première fois le 1er janvier 1677 à l´Hôtel de Bourgogne.</p>
+	<p id="p">Esther, représentée pour le première fois le 26 janvier 1689 au Collège de Saint-Cyr.</p>
+	<p id="p">Athalie, représentée pour le première fois le 17 novembre 1691 au Collège de Saint-Cyr.</p>
+</div2>
+</div1>	
+</bottom>
+</TEI.2>

@@ -1,0 +1,4667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI.2>
+
+<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>LE FAUX NOBLE, COMÉDIE.</title>
+
+				<author born='1730' born_location='Saint-omingue' death='1792' death_location='Paris' academie='1780'>CHABANON, Michel Paul Guy de</author>
+
+			</titleStmt>
+
+			<publicationStmp>	
+
+				<p>publié par Paul FIEVRE Mars 2013</p>
+
+			</publicationStmp>
+
+			<SourceDesc>
+
+				<genre>Comédie</genre>
+
+				<inspiration>moeurs françaises</inspiration>
+
+				<structure>Cinq actes</structure>
+
+				<type>vers</type>
+
+				<periode>1781-1790</periode>
+
+				<taille>1500-1750</taille>
+
+				<permalien></permalien>
+
+			</SourceDesc>
+
+		</fileDesc>
+
+</teiHeader>
+
+<text>
+
+	<front>
+
+		<docTitle>
+
+			<titlePart type="main">LE FAUX NOBLE</titlePart>
+
+			<titlePart type="sub">COMÉDIE EN CINQ ACTES ET EN VERS</titlePart>
+
+		</docTitle> 
+
+		<docDate value='1788'>1788. Avec Approbation, et Privilége du Roi.</docDate>
+
+		<docAuthor id='CHABANON, Michel de' bio='chabanon'>Par M. CHABANON, de l'Académie Royale des Inscriptions et Belles-Lettres, et de l'Académie de Lyon.</docAuthor>
+
+		<docImprint>
+
+			<privilege id=""><head></head>
+
+			</privilege>
+
+			<acheveImprime id=""></acheveImprime>
+
+			<printer id='PRAULT'>À PARIS, Chez PRAULT, Imprimeur du Roi, Quai des Augustins, à l'Immortalité., et chez PISOT, Libraire, même quai.</printer>
+
+		</docImprint>
+
+		<performance>
+
+			<premiere date='1788-11-15' location="Théâtre de l'Odéon">Réprésenté pour le première fois le 15 novembre 1788 au Théâtre de l'Odéon.</premiere>
+
+		</performance>
+
+		
+
+	<castList><head>PERSONNAGES</head>
+
+		<castItem><role id="LE MARQUIS DE SAINCENNE" civil="F" type="H" statut='marquis' age='A' stat_amour='néant'>LE MARQUIS DE SAINCENNE</role>.</castItem>
+
+		<castItem><role id="LE COMTE" civil="F" type="H" statut='comte' age='A' stat_amour='néant'>LE COMTE</role>, son fils.</castItem>
+
+		<castItem><role id="LA COMTESSE AURÉLIE" civil="F" type="H" statut='comte' age='A' stat_amour='néant'>LA COMTESSE AURÉLIE</role>, sa fille.</castItem>
+
+		<castItem><role id="HORTENSE" civil="F" type="H" statut='aristocrate' age='A' stat_amour='néant'>HORTENSE</role>, sa nièce.</castItem>
+
+		<castItem><role id="LE BARON DE SAINCENNE" civil="F" type="H" statut='baron' age='A' stat_amour='néant'>LE BARON DE SAINCENNE</role>.</castItem>
+
+		<castItem><role id="CLÉONTE" civil="F" type="H" statut='bourgeois' age='A' stat_amour='néant'>CLÉONTE</role>, amant d'Aurélie.</castItem>
+
+		<castItem><role id="LE DUC D'ALFORT" civil="F" type="H" statut='duc' age='A' stat_amour='néant'>LE DUC D'ALFORT</role>.</castItem>
+
+		<castItem><role id="CLENARD" civil="F" type="H" statut='intendant' age='A' stat_amour='néant'>CLENARD</role>, Intendant du Duc.</castItem>
+
+		<castItem><role id="STEMMATE" civil="F" type="H" statut='généalogiste' age='A' stat_amour='néant'>STEMMATE</role>, Généalogiste.</castItem>
+
+		<castItem><role id="BLONDEL" civil="F" type="H" statut='maître de danse' age='A' stat_amour='néant'>BLONDEL</role>, Maître de Danse.</castItem>
+
+		<castItem><role id="LISE" civil="F" type="H" statut='femme de chambre' age='A' stat_amour='néant'>LISE</role>, femme de chambre d'Aurélie.</castItem>
+
+		<castItem><role id="DAVON" civil="F" type="H" statut='serviteur' age='A' stat_amour='néant'>DAVON</role>, vieux serviteur de la maison.</castItem>
+
+		<castItem><role id="DIMANCHE" civil="F" type="H" statut='tapissier' age='A' stat_amour='néant'>DIMANCHE</role>, Tapissier.</castItem>
+
+		<castItem><role id="UN MAITRE D'HOTEL" civil="F" type="H" statut="maître d'hôtel" age='A' stat_amour='néant'>UN MAITRE D'HOTEL</role>.</castItem>
+
+		<castItem><role id="UN SUISSE" civil="F" type="H" statut='suisse' age='A' stat_amour='néant'>UN SUISSE</role>.</castItem>
+
+		<castItem><role id="UN VALET DE CHAMBRE" civil="F" type="H" statut='valet' age='A' stat_amour='néant'>UN VALET DE CHAMBRE</role>.</castItem>
+
+		<castItem><role id="DES PORTEFAIX" civil="G" type="H" statut='portefaix' age='A' stat_amour='néant'>DES PORTEFAIX</role>.</castItem>
+
+	</castList>
+
+	<set location='Paris' country='France' periode='XVIIIème' link=''>La scène est à Paris, chez le Marquis.</set>
+
+</front>
+
+<body>
+
+<div1 type='acte' n='1'><head>ACTE I</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Comte de Saincenne, Hortense.</head>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1'>Non ma cousine, non je n'y saurais tenir</l>
+	<l id='2'>De vous-même, avec vous, je veux m'entretenir ;</l>
+	<l id='3'>Je veux savoir enfin comment il peut se faire</l>
+	<l id='4'>que vous ayez changé de ton, de caractère,</l>
+	<l id='5'>Et dans l'espace au plus de trois mois écoulés.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, d'un air étourdi.</speaker>
+
+	<l id='6'>Eh bien expliquons-nous, puisque vous le voulez</l>
+	<l id='7'>J'écoute ; allons ; parlez, vous en êtes le maître.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='8'>Ce qu'en venant ici vous avez fait paraître</l>
+	<l id='9'>De solide raison d'esprit mûr et sensé,</l>
+	<l id='10'>Eh ! Comment tout cela s'est-il donc éclipsé ?</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, toujours ètourdiment.</speaker>
+	<l id='11'>J'avais donc l'air bien grave et le ton bien capable ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='12'>Vous aviez... ce qui rend une femme adorable.</l>
+	<l id='13'>J'admirais qu'à votre âge, exempte des travers,</l>
+	<l id='14'>Que l'on veut appeller faussement les bons airs,</l>
+	<l id='15'>Vous eussiez tous les goûts que la raison nous donne,</l>
+	<l id='16'>Quand de nos jeunes ans l'erreur nous abandonne.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='17'>Je crois que mon cousin fait le mauvais plaisant,</l>
+	<l id='18'>Loue en moi le passé, pour blâmer le présent :</l>
+	<l id='19'>J'aurais eu cet instinct de raison naturelle ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='20'>Ah ! Ce portrait n'est pas ce que fut le modèle :</l>
+	<l id='21'>Tenez, ma chere Hortense, un jour, je m'en souviens ;</l>
+	<l id='22'>À cette place , après l'un de ces entretiens</l>
+	<l id='23'>Où nos coeurs s'entendaient, se devinaient l'un l'autre,</l>
+	<l id='24'>Je jurai que mon sort suivrait en tout le vôtre,</l>
+	<l id='25'>Je jurai de n'aimer, de n'épouser que vous.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, gaiement.</speaker>
+
+	<l id='26'>Et moi, que répondis-je à cet aveu si doux ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='27'>Je vis, sur tous vos traits, la douce joie empreinte ;</l>
+	<l id='28'>J'y reconnus aussi la modeste contrainte</l>
+	<l id='29'>D'un plaisir que l'on sent et qu'on n'ose avouer.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, gaiement.</speaker>
+
+	<l id='30'>De mon trouble, cousin, vous dûtes vous louer.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='31'>Il me parut encor ajouter à vos charmes :</l>
+	<l id='32'>De vos yeux attendris je vis tomber des larmes.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='33'>Ah ! ah ! ah ! ah ! Ceci devient exagéré.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='34' part='i'>Pourquoi donc ?</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='34' part='f'>Moi, cousin ! Je n'ai jamais pleuré.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='35'>Ne niez point ces pleurs que vos yeux répandirent ;</l>
+	<l id='36'>Jusqu'au fond de mon coeur vos larmes descendirent :</l>
+	<l id='37'>Avec elles bientôt j'y sentis pénétrer</l>
+	<l id='38'>L'espoir d'un bien suprême où j'osais aspirer.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='39'>Voyons, de ce récit qu'elle sera la suite.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='40'>On vint nous interrompre, en vous faisant visite.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='41'>Eh bien c'est grand dommage ; et j'aurais à coup sûr,</l>
+
+<note type="L">Pathos : Ce mot est grec et signifie passion. Il ne s'emploie que pour signifier les mouvements que l'orateur excite dans les auditeurs, et n'est en usage que dans la conversation, et dans le comique. [F]</note>
+	<l id='42'>De l'humeur dont j'étais, dans un pathos obscur,</l>
+	<l id='43'>Fait l'aveu d'un amour éternel et sincère :</l>
+	<l id='44'>Ces éternités-là souvent ne durent guère.</l>
+	<l id='45'>Oh ! oui : je m'en souviens ; j'étais en ce moment</l>
+	<l id='46'>Dans une telle crise avec le sentiment !...</l>
+	<l id='47'>Je gage, que l'accès chez moi fut éphémère.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='48'>Oui ; ma joie en effet fut courte et passagère.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='49'>Je vous le disais bien ces maux-là n'ont qu'un cours ;</l>
+	<l id='50'>En guérit on ? c'est fait une fois pour toujours.</l>
+	<l id='51'>Eh ! Le jour qui suivit cette touchante scène ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='52'>On ne put vous parler ; vous aviez la migraine.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='53'>Eh bien ! C'était l'effet de tous vos tendres soins :</l>
+	<l id='54'>Cela porte à la tête, et fait bien mal au moins.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='55'>Depuis ce moment-là vous n'êtes plus la méme ;</l>
+	<l id='56'>Courses, fêtes, jeux, goût d'une parure extrême ;</l>
+	<l id='57'>Ce sont là les objets de vos plus chers désirs</l>
+	<l id='58'>Un fol oubli de soi tient donc lieu de plaisirs !</l>
+	<l id='59'>Cousine, observez bien ceci, je vous en prie</l>
+	<l id='60'>D'un grand désir de plaire, à la coquetterie,</l>
+	<l id='61'>Le passage est étroit, et quelque fois glissant.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='62'>Oh ! ça ! Vous voulez donc savoir absolument</l>
+	<l id='63'>Ce qui produit en moi cette métamorphose ?</l>
+	<l id='64'>Vous allez en connaître, en approuver la cause.</l>
+	<l id='65'>Au sortir du couvent, sotte comme un oison,</l>
+	<l id='66'>Les préjugés du cloître offusquaient ma raison</l>
+	<l id='67'>Aujourd'hui, façonnée à l'école du monde....</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='68'>Quoi ! Votre étourderie en principes se fonde ?</l>
+	<l id='69'>Quoi ! Ce goût des travers, chez vous est raisonné ?</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='70'>Oui, vraiment ; c'est un plan mûrement combiné.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='71'>Vous tirez vanité d'une telle conduite ?</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='72'>Je m'en loue ; et s'il est en moi quelque mérite...</l>
+
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, avec ironie.</speaker>
+
+	<l id='73'>Qui, c'est un coeur léger, une tête à l'évent,</l>
+	<l id='74'>De sottise remplie, et qui n'a que du vent.</l>
+<stage>Avec dépit.</stage>
+	<l id='75'>Allez, Mademoiselle à à vosp enchants livrée.</l>
+	<l id='76'>Courez dans la carrière où vous êtes entrée</l>
+	<l id='77'>Elle est vaste, et vos yeux pourront y rencontrer</l>
+	<l id='78'>Maint ridicule encor, dont il faut vous parer.</l>
+	<l id='79'>Pour moi, qui vous aimai, d'un sentiment si tendre,</l>
+	<l id='80'>Je vois bien que de vous je n'ai rien à prétendre :</l>
+	<l id='81'>Un coeur qui méconnait la raison et l'amour,</l>
+	<l id='82'>Est un coeur égaré sans espoir de retour.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='83'>Mjas en effet cousin, je doute, et non sans cause,</l>
+	<l id='84'>Que vous pussiez de moi faire un jour quelque chose.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='85' part='i'>Oh ! Je n'y prétends pas.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='85' part='f'>C'est fort bien fait à vous.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='86'>Je suivrai de si loin vos insipides goûts !</l>
+	<l id='87' part='i'>Je vous verrai si peu</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='87' part='f'>Vous en êtes le maître.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='88' part='i'>Cherchez qui vous adore.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='88' part='f'>En cherchant bien, peut-être</l>
+	<l id='89' part='i'>Je trouverai...</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='89' part='f'>Je romps dès à présent nos noeuds.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='90' part='i'>Bon !</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='90' part='m'>Je me sens à froid.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, en s'en allant.</speaker>
+
+	<l id='90' part='f'>Eh ! c'est.ce que je veux.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE II.</head>
+<sp who='LE COMTE'><speaker>LE COMTE, seul.</speaker>
+	<l id='91'>Quelle tête, bon Dieu quelle folle cervelle !</l>
+	<l id='92'>De ma position si triste, si cruelle,</l>
+	<l id='93'>Seule, elle m'aurait fait supporter la rigueur ;</l>
+	<l id='94'>Je sens que je n'ai plus où reposer mon coeur.</l>
+	<l id='95'>Mon père n'a qu'un mot à la bouche ; noblesse :</l>
+	<l id='96'>C'est là son seul refrain ; il y revient sans cesse ;</l>
+	<l id='97'>Et l'autre jour encor, sans rime ni raison,</l>
+	<l id='98'>Parlant de ses chevaux il citait le blason.</l>
+	<l id='99'>Son Médecin, un jour, scrutant sa maladie,</l>
+	<l id='100'>Cherche si le mal tient quelque noble partie</l>
+	<l id='101'>« N'en doutez pas, répond mon père avec effroi,</l>
+	<l id='102'>N'en doutez pas Monsieur, et tout est noble en moi. »</l>
+	<l id='103'>Je vois d'ici l'instant, (la chose sera neuve)</l>
+	<l id='104'>Où pour entrer céans il faudra faire preuve :</l>
+	<l id='105'>Ma soeur est, sur ce point, plus ridicule encor,</l>
+	<l id='106'>À tout son libre orgueil elle donne l'essor,</l>
+	<l id='107'>Et pour flatter mon père, enchérit sur lui-même.</l>
+	<l id='108'>Je suis hors de ma sphère ici ; j'estime, j'aime,</l>
+	<l id='109'>La franche égalité ; l'honnête homme sans nom</l>
+	<l id='110'>Est encor à mes yeux, d'assez bonne maison : </l>
+	<l id='111'>Pour adoucir mon sort il me fallait Hortense.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE III. Le Comte, Cléonte.</head>
+<sp who='CLÉONTE'><speaker>CLÉONTE, entrant.</speaker>
+	<l id='112'>Qu'on me vante à présent les femmes, leur constance !</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='113' part='i'>Vous savez donc, Cléonte ?</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+	<l id='113' part='f'>Eh parbleu ! Si je sais ;</l>
+	<l id='114'>Plus que je ne voudrais : le coup m'a terrassé.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='115' part='i'>La chose est bien étrange.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='115' part='f'>Elle est, abominable.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='116' part='i'>Le trait est noir.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='116' part='m'>Affreux.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='116' part='m'>Horrible.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='116' part='f'>Épouvantable.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='117'>Que j'aime à vous voir prendre un si vif intérêt</l>
+	<l id='118' part='i'>Aux peines que je sens !</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='118' part='f'>Comment donc, s'il vous plait ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='119'>Vous me plaignez d'aimer alors qu'on m'abandonne !</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='120'>Je peste du congé que votre soeur me donne.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='121' part='i'>Ma soeur !</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='121' part='f'>Oui, votre soeur si jamais un amant</l>
+	<l id='122'>A pu se croire aimé c'est moi certainement ;</l>
+	<l id='123' part='i'>Et vous le savez bien.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='123' part='f'>Mais ma soeur elle-même,</l>
+	<l id='124'>Ne m'a jamais caché combien elle vous aime.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='125'>Eh bien ! De cet amour l'effet pur et constant,</l>
+	<l id='126'>Est un congé formel qu'on me donne à l'instant.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='127' part='i'>Cela ne se peut pas.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='127' part='f'>Oh ! Vous pouvez m'en croire :</l>
+	<l id='128'>Monsieur le Duc d'Arbois a seul toute la gloire</l>
+	<l id='129'>De l'emporter sur nous : n'est-il pas Duc ? Eh bien ?</l>
+	<l id='130'>Près d'un titre si beau tout mon amour n'est rien.</l>
+	<l id='131'>Le ridicule orgueil ! La sotte impertinence !</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='132'>Je n'ai pas fort, non plus, à me louer d'Hortense.</l>
+	<l id='133'>M'en croirez-vous Cléonte ? Unissons nos chagrins : </l>
+	<l id='134'>L'amitié, le malheur rapprochent nos destins,</l>
+	<l id='135'>Cherchons, en voyageant, à charmer notre peine.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='136'>Non, parbleu ! Pas ; je suis votre valet, Saincenne ;</l>
+	<l id='137'>Ce n'est pas mon dessein, certes ! de voyager ;</l>
+	<l id='138' part='i'>J'ai beaucoup mieux à faire.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='138' part='m'>Eh quoi</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='138' part='f'>De me venger.</l>
+	<l id='139'>Oh ! Je suis fait ainsi : sincère auprès des femmes,</l>
+	<l id='140'>Mon faible ne va pas jusqu'à gâter ces dames.</l>
+	<l id='141'>Ont-elles quelques torts ? Je me venge, et punis.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='142' part='i'>Eh comment punit-on ?</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='142' part='f'>Saincenne, en quel pays</l>
+	<l id='143'>Avez-vous donc vécu ? Peste de l'imbécile !</l>
+	<l id='144'>Où domine l'orgueil, la vengeance est facile.</l>
+	<l id='145'>Il n'est pas démontré, d'abord, que votre soeur</l>
+	<l id='146'>En signant mon congé, m'ait banni de son coeur.</l>
+	<l id='147'>Le-titre de Duchesse un moment l'a séduite :</l>
+	<l id='148'>Il se peut... Elle vient, retirons-nous bien vite ; </l>
+	<l id='149'>Je vous expliquerai plus loin tous mes desseins.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Aurélie, Lise.</head>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, en regardant partir Cléonte.</speaker>
+	<l id='150'>Le pauvre malheureux ! Mon Dieu ! Que je le plains!</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+	<l id='151'>Ceci paraît tout neuf ; plaindre ceux qu'on afflige !</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+	<l id='152'>J'aime beaucoup Cléonte ; eh ! Mais, beaucoup, vous dis-je ;</l>
+	<l id='153'>Il est noble, et partout peut disputer le pas...</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='154'>Est-ce que cela fait qu'on aime ou n'aime pas ?</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='155'>Pour un homme de rien brûler de tendres flammes !</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='156'>J'ai vu de ces gens-là fort bien traités des dames : </l>
+	<l id='157'>Quand un jeune homme est leste, et joliment tourné,</l>
+	<l id='158'>On le prend aisément pour un homme bien né ; </l>
+	<l id='159'>Et, se sent-on presser d'une tendre folie ?</l>
+	<l id='160'>Sans trop examiner, le coeur se mésallie.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='161'>Fi ! De pareils penchants sont ignobles et bas ;</l>
+	<l id='162'>C'est déroger, d'aimer ce qui ne nous vaut pas.</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='163'>Cléonte vous vaut bien ; et malgré sa noblesse...</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, vivement.</speaker>
+
+	<l id='164'>C'est pour un Duc et Pair aussi que je le laisse : </l>
+	<l id='165' part='i'>Le Duc d'Arbois.</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='165' part='f'>Ah ! Ciel ! Le fils du Duc d'Alfort ?</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='166'>Lui-même : eh ! Pourquoi donc vous récrier si fort ?</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='167'>Ah par ma foi Madame, excusez la surprise;</l>
+	<l id='168'>Un monstre de laideur ainsi que de bêtise.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='169'>Eh ! Que me font à moi, l'air et l'esprit qu'il a ?</l>
+	<l id='170'>L'honneur du tabouret répare tout cela.</l>
+</sp>
+
+<sp who='LISE'><speaker>LISE.</speaker>
+
+	<l id='171'>Parlez-vous tout de bon, ou si vous voulez rire ?</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='172'>Rien n'est plus sérieux ; que voulez-vous donc dire ?</l>
+</sp>
+<sp who="LISE"><speaker>LISE.</speaker>
+
+	<l id='173'>Mais c'est un talisman qu'un pareil tabouret ;</l>
+	<l id='174'>Il vous fait trouver beau ce que Dieu fit si laid.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='175'>Lise, pour mon hymen dès lors que tout s'empresse,</l>
+	<l id='176'>D'avance appellez-moi, Madame la Duchesse.</l>
+</sp>
+
+<sp who="LISE"><speaker>LISE.</speaker>
+
+	<l id='177' part='i'>Mai oui, pour prendre date.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='177' part='f'>Avec ce titre là,</l>
+	<l id='178' part='i'>Combien de gens de moins à saluer !</l>
+</sp>
+<sp who="LISE"><speaker>LISE.</speaker>
+
+	<l id='178' part='f'>Oui dà !</l>
+	<l id='179'>C'est un profit tout clair ; en devenant Duchesse,</l>
+	<l id='180'>Vous gagnez cent pour cent en frais de politesse.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE V. Les Mêmes, Blondel, Le Valet de chambre.</head>
+<sp who='LE VALET DE CHAMBRE'><speaker>LE VALET DE CHAMBRE, en annonçant.</speaker>
+	<l id='181' part='i'>Le Maitre à danser.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='181' part='f'>Bon ! Monsieur Blondel, bonjour ;</l>
+	<l id='182'>Je me vois au moment de paraître à la cour ;</l>
+	<l id='183'>Je voudrais avec vous faire mes révérences.</l>
+</sp>
+<sp who="BLONDEL"><speaker>BLONDEL.</speaker>
+	<l id='184' part='i'>Très volontiers, Madame.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='184' part='f'>Il est des convenances</l>
+	<l id='185'>Que l'on doit observer, je pense, en pareil cas :</l>
+	<l id='186'>Par exemple, Monsieur, je n'imagine pas</l>
+	<l id='187'>Que la femme d'un Duc salue ainsi qu'une autre.</l>
+</sp>
+
+<sp who="BLONDEL"><speaker>BLONDEL.</speaker>
+
+	<l id='188' part='i'>Pardonnez-moi.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='188' part='f'>Comment un nom tel que le nôtre,</l>
+	<l id='189'>Ne met à tout cela nulles distinctions ?</l>
+</sp>
+
+<sp who="BLONDEL"><speaker>BLONDEL.</speaker>
+
+	<l id='190' part='i'>Aucune, absolument.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='190' part='f'>C'est singulier... Voyons.</l>
+<stage>Elle se met en place pour les révérences.</stage>
+	<l id='191'>Monsieur Blondel, avant que la leçon commence,</l>
+	<l id='192'>Dites au tabouret comment prend-on séance ?</l>
+</sp>
+
+<sp who="BLONDEL"><speaker>BLONDEL.</speaker>
+
+	<l id='193'>Madame... en s'asseyant, comme l'on fait partout.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='194' part='i'>Le cérémonial n'y change rien ?</l>
+</sp>
+
+<sp who="BLONDEL"><speaker>BLONDEL.</speaker>
+
+	<l id='194' part='f'>Du tout.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='195'>Tout cela me paraît bien extraordinaire :</l>
+	<l id='196'>Voilà bien les Français et leur tête légère !</l>
+	<l id='197'>De l'austère étiquette, adoucir les rigueurs,</l>
+	<l id='198'>Et s'asseoir à la Cour, comme on s'asseoit ailleurs !</l>
+	<l id='199'>Certes ! Sur ce point-là nous sommes bien en faute.</l>
+<stage>Elle se place pour les révérences.</stage>
+</sp>
+
+<sp who='BLONDEL'><speaker>BLONDEL, en lui plaçant la tête et les épaules.</speaker>
+	<l id='200'>Moins de décision ; la tête un peu moins haute.</l>
+<stage>Il la fait plier, et très bas.</stage>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='201'>C'est beaucoup trop Monsieur, croyez qu'il ne sied pas</l>
+	<l id='202'>Aux femmes de mon rang de plier aussi bas.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Les Mêmes, Le Marquis de Saincenne, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='203'>Eh bien ! Que fais-tu là, ma Comtesse Aurélie ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='204'>Vous voyez ; aux saluts de Cour je m'étudie.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='205'>C'est toujours fort bien fait je t'en sais gré vraiment ;</l>
+	<l id='206'>Mais Monsieur reviendra dans un autre moment.</l>
+<stage>Le maître sort, et Lise aussi.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCENE VII. Le Marquis, Aurélie, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='207'>Viens ma chère Comtesse, approche ; et que ma joie</l>
+	<l id='208'>Toute entière en ton sein se verse et se déploie :</l>
+	<l id='209'>Père de deux enfants, je crois n'en avoir qu'un.</l>
+	<l id='210'>Tant l'autre, humble, Bourgeois, au-dessous du commun,</l>
+<stage>Il montre le coeur.</stage>
+
+	<l id='211'>Dégénère par-là du sang qui l'a fait naître :</l>
+	<l id='212'>Toi, dont le noble orgueil s'est toujours fait connaître,</l>
+	<l id='213'>Tu vas - te pâmer d'aise en apprenant ici,</l>
+	<l id='214'>Pour notre avancement combien j'ai réussi :</l>
+	<l id='215'>Tu te crois bien heureuse avec ton mariage ; </l>
+	<l id='216'>Pah ! Ce n'est rien, au prix de ce que j'envisage.</l>
+
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='217'>Quelque plus grand Seigneur sollicite ma main ?</l>
+	<l id='218'>Est-il du sang de France, ou Prince Souverain!</l>
+	<l id='219'>Vous n'avez qu'à parler, à tout je me résigne;</l>
+	<l id='220'>Avec moi, le plus noble est toujours le plus digne.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='221'>Écoute, mon enfant ; j'ai, depuis plus d'un jour,</l>
+	<l id='222'>Le projet d'établir les Saincennes en Cour</l>
+	<l id='223'>Toute illustration relève la noblesse.</l>
+	<l id='224'>À servir mon dessein le Duc d'Alfort s'empresse ;</l>
+	<l id='225'>Mon fils épousera sa fille un Régiment,</l>
+	<l id='226' part='i'>La présentation, sont la dot.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='226' part='f'>Mais vraiment</l>
+	<l id='227'>Ce double hymen me plaît, et sur nous il attire...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='228'>À l'une et l'autre dot je ne pourrais suffire ;</l>
+	<l id='229'>J'ai rompu ton hymen l'autre seul se fera.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, avec étonnement.</speaker>
+
+	<l id='230' part='i'>Mon père !</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='230' part='f'>Vois combien ton nom y gagnera.</l>
+	<l id='231'>N'es-tu pas, comme moi rejeton des Saincennes ?</l>
+	<l id='232'>N'est-ce pas même sang qui coule dans nos veines ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='233'>Tout comme il vous plaïra mais chacun vit pour soi ;</l>
+	<l id='234'>Et mon sang n'est mon sang, que lorsqu'il coule en moi.</l>
+	<l id='235'>Du titre de Duchesse à mes yeux rehaussée,</l>
+	<l id='236'>À toute ma maison, comme telle annoncée,</l>
+	<l id='237'>Je... non mon père, non ; cela ne sera pas.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS, en colère.</speaker>
+
+	<l id='238'>Madame, s'il vous plaît, prenez le ton plus bas.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, vivement.</speaker>
+
+	<l id='239' part='i'>Vous prétendez, mon père</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, plus vivement.</speaker>
+	<l id='239' part='f'>Oui, je prétends, Madame,</l>
+	<l id='240'>Dussiez-vous enrager dans le fond de votre âme,</l>
+	<l id='241'>Je prétends ajouter à l'éclat de mon nom.</l>
+	<l id='242'>Sachez sur vos devoirs vous faire une raison,</l>
+	<l id='243'>Prendre les sentiments de mon état, du vôtre :</l>
+	<l id='244'>Eh ! L'on vit dans les siens ; leur grandeur est la nôtre ;</l>
+	<l id='245'>Serai-je Colonel en mariant mon fils ?</l>
+	<l id='246'>Je n'en aime pas moins sa gloire ; j'en jouis.</l>
+	<l id='247'>Au reste, ce serait une peine inutile</l>
+	<l id='248'>De s'armer contre moi d'un esprit indocile : </l>
+	<l id='249'>La parole est donnée, attendez en l'effet.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, à part.</speaker>
+
+	<l id='250'>De tout notre pouvoir traversons ce projet.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE VIII. Le Marquis, Davon.</head>
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='251'>Vous l'aimez tant, Monsieur, que l'on conçoit à peine...</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='252'>Dès qu'il s'agit de rang, il n'est amour qui tienne ;</l>
+	<l id='253'>Cet intérêt prévaut le reste n'est plus rien.</l>
+	<l id='254'>Pour me supposer noble, eh ! J'ai donné mon bien ;</l>
+	<l id='255'>Je me suis à prix d'or créé bon Gentilhomme,</l>
+	<l id='256'>Et ma fille voudrait... Non, non ; qu'elle me nomme</l>
+	<l id='257'>De tous les noms que peut le dépit suggérer ;</l>
+	<l id='258'>J'aime beaucoup mon sang, mais c'est pour l'illustrer.</l>
+	<l id='259'>Tout riche Financier fait, sa fille Duchesse ;</l>
+	<l id='260'>Mais allier mon fils à la haute noblesse,</l>
+	<l id='261'>En faire un Colonel, et le voir présenté !</l>
+	<l id='262'>De cet événement je suis si transporté...</l>
+	<l id='263'>Davon, je ne me plains que d'une seule chose :</l>
+	<l id='264'>Avec la dignité que mon état m'impose,</l>
+	<l id='265'>Je n'ose ouvertement montrer mon âme à nu ;</l>
+	<l id='266'>Et j'étouffe en dedans, d'un plaisir retenu.</l>
+	<l id='267' part='i'>Je te dois tant d'honneurs.</l>
+</sp>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='267' part='m'>À moi !</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='267' part='f'>Chose certaine :</l>
+	<l id='268'>C'est toi qui m'indiquas le Baron de Saincenne ;</l>
+	<l id='269'>De ses vieux parchemins ce Baron m'a fait part ;</l>
+	<l id='270'>Et Stemmate, un beau jour, par un coup de son art,</l>
+	<l id='271'>Établit sur ce nom ma généalogie.</l>
+</sp>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='272'>Sur d'autres fondements je la voudrais bâtie ;</l>
+	<l id='273'>Ce Baron a les moeurs d'un escroc usurier,</l>
+	<l id='274'>Au premier qui le paie il se vend tout entier.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='275'>Je voudrais qu'il vendît sa langue de vipère ;</l>
+	<l id='276'>Je l'achèterais vite afin de m'en défaire.</l>
+	<l id='277'>Un secret avec lui n'est point en sûreté :</l>
+	<l id='278'>Avec un peu d'esprit et plus de vanité,</l>
+	<l id='279'>Sans cesse tourmenté du besoin de médire,</l>
+	<l id='280'>Il sacrifierait tout pour un mot qui fait rire.</l>
+	<l id='281'>Aussi, tu vois Davon, tu vois si j'ai pris soin</l>
+	<l id='282'>De tenir éloigné cet indiscret témoin ; </l>
+	<l id='283'>Mon argent le consigne au fin fond de la France.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+	<l id='284'>Il a mis à haut prix pareille résidence.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='285'>Oh ! Je m'en débarrasse en le payant bien cher ;</l>
+	<l id='286'>Dès qu'il veut venir ; crac, lettres de change en l'air :</l>
+	<l id='287'>Il est si fort escroc, (quoique bon Gentilhomme )</l>
+	<l id='288'>Qu'il n'accuse jamais que le quart de la somme,</l>
+	<l id='289'>Se réservant le droit d'en demander autant.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+<note type="L">Enrayer : Passer une pièce de bois entre deux roues d'un carrosse, ou d'une charrette, ou le snelier avec une corde, pour empêcher qu'elles ne roulent, et retarder leur mouvement à la descente d'une montagne. [F] Ici, sens figuré.</note>
+
+	<l id='290'>Monsieur, m'en croirez-vous ! Enrayez sur l'argent ; </l>
+	<l id='291'>Ce mariage-ci va vous mettre en dépense.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='292'>Il faut bien cheminer suivant la circonstance</l>
+	<l id='293'>Vas, vas, c'est à mon sens faire un marché très bon,</l>
+	<l id='294'>De prodiguer son or pour acquérir un nom ;</l>
+	<l id='295'>Et celui de Ducreux m'a causé tant de peine !</l>
+	<l id='296'>Je ne vis que depuis qu'on m'appelle Saincenne.</l>
+<stage>Bas, d'un ton de confidence.</stage>
+	<l id='297'>Le titre de Marquis a pour moi tant d'appas,</l>
+	<l id='298'>Que je me surprends seul, le répétant tout bas ;</l>
+	<l id='299'>Je sens battre mon coeur sitôt qu'on le prononce ; </l>
+	<l id='300'>Et dans les lieux publics, où, tout haut l'on m'annonce</l>
+	<l id='301'>Je traîne, et reste-là, comme un homme perclus,</l>
+	<l id='302'>Pour m'entendre appeller cinq ou six fois de plus.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+	<l id='303'>Monsieur, l'argent s'en va ; je le vois avec peine.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='304'>As-tu vu sur ma porte écrit hôtel Saincenne ?...</l>
+	<l id='305'>Eh mon Suisse à propos je voudrais lui parler ;</l>
+	<l id='306'>Il faut dans son emploi, tout d'abord l'installer.</l>
+<stage>Davon va chercher le Suisse.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE IX.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='307'>Ceci, dans tout Paris, va faire un bruit du Diable :</l>
+	<l id='308'>Oh ! Rien n'annonce mieux l'homme considérable...</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Le Marquis, Davon, Le Ssuisse.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, au Suisse.</speaker>
+	<l id='309'>Il faut, de ce moment, vous établir là-bas...</l>
+	<l id='310'>Pourquoi sans baudrier ? Cela ne me plaît pas</l>
+	<l id='311'>Cela n'est pas décent : chacun, dès qu'il arrive,</l>
+	<l id='312'>Doit voir de votre état la marque distinctive.</l>
+</sp>
+<sp who="LE SUISSE"><speaker>LE SUISSE.</speaker>
+	<l id='313' part='i'>Monsieur.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='313' part='f'>Non pas Monsieur, mais Monsieur le Marquis :</l>
+	<l id='314'>Monsieur le Comte, alors qu'il s'agit de mon fils ;</l>
+	<l id='315'>Et ma fille en un mot, comme étant Chanoinesse,</l>
+	<l id='316'>A droit de s'appeller Madame la Comtesse,</l>
+</sp>
+<sp who="LE SUISSE"><speaker>LE SUISSE.</speaker>
+	<l id='317' part='i'>Oui, Monsieur le Marquis.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='317' part='f'>C'est fort bien parlé, bon !</l>
+	<l id='318'>Plus d'une fois le jour, montrez-vous au salon ;</l>
+	<l id='319'>A l'heure du Courrier, cela va bien sans dire.</l>
+</sp>
+<sp who="LE SUISSE"><speaker>LE SUISSE.</speaker>
+	<l id='320' part='i'>Oui, Monsieur le Marquis.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='320' part='f'>Allons, qu'on se retire.</l>
+</sp>
+
+<sp who="LE SUISSE"><speaker>LE SUISSE.</speaker>
+
+	<l id='321'>Avec empressement je ferai mon devoir.</l>
+<stage>Il sort.</stage>
+
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS, lui crie de loin.</speaker>
+	<l id='322'>Le plus pressé toujours c'est de vous faire voir.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='11'><head>SCÈNE XI. Le Marquis, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='323'>Il reste à prévenir mon fils sur notre affaire ;</l>
+	<l id='324'>De l'humeur dont il est, elle va lui déplaire.</l>
+	<l id='325'>Il ne peut pas souffrir de paraître au grand jour :</l>
+	<l id='326'>C'est un pauvre sujet bien peu fait pour la Cour.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='327'>Au nom de Dieu ! Monsieur, n'en parlez pas de même ;</l>
+	<l id='328'>Chacun, pour ses vertus, et le respecte, et l'aime ;</l>
+	<l id='329'>II est bon Officier, bon fils, bon citoyen.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='330'>Des qu'il vit sans éclat, à mes yeux il n'est rien.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='331'>Monsieur, sur tous les points sa conduite est parfaite ;</l>
+	<l id='332'>Ce jeune homme jamais n'a fait un sou de dette.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+<note type="L">Rainer : faire des rainures. [L] Ici, sens figuré impropbable.</note>
+	<l id='333'>Morbleu ! Qu'il me raine et qu'il me fasse honneur.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='334'>Vous savez si l'on doit estimer sa valeur,</l>
+	<l id='335'>Et le trait qui l'a fait admirer à la guerre ;</l>
+	<l id='336' part='i'>Sans lui son Régiment périssait.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='336' part='f'>Belle affaire !</l>
+	<l id='337'>Et pour un tel exploit, dis, qu'a-t-il obtenu ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='338' part='i'>Monsieur, est-ce sa faute ?</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='338' part='f'>Il veut vivre inconnu ;</l>
+	<l id='339'>Il craint de se montrer chez lui c'est un système ;</l>
+	<l id='340'>Il voudrait que l'on mît sa grandeur en soi-même :</l>
+	<l id='341'>En soi-même qui diable irait la chercher là ?</l>
+	<l id='342'>Certes ! je ne l'ai pas élevé pour cela.</l>
+	<l id='343'>Dans ma fille et mon fils, j'ai su dès leur enfance,</l>
+	<l id='344'>Fonder l'opinion de leur haute naissance :</l>
+	<l id='345'>Des principes d'orgueil que je leur ai tracés,</l>
+	<l id='346'>Ma Elle en a trop pris ; et mon fils pas assez.</l>
+	<l id='347'>L'un et l'autre aujourd'hui me tiennent à la gêne...</l>
+	<l id='348'>Allons, je veux écrire au Baron de Saincenne,</l>
+	<l id='349'>Sur cet hymen du Comte et le moment d'après,</l>
+	<l id='350'>Le Comte en recevra l'ordre le plus exprès.</l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='351'>bon ! Tandis que ma tante intrigue, agit, manoeuvre,</l>
+	<l id='352'>Manoeuvrons aussi, nous, et mettons tout en oeuvre.</l>
+	<l id='353'>De la petite Hortease il faut bien nous aider ;</l>
+	<l id='354'>Je n'aurai pas de peine à lui persuader</l>
+	<l id='355'>De conserver un coeur que l'on veut lui soustraire :</l>
+	<l id='356'>Sûrement elle aspire à la main de mon frère ;</l>
+	<l id='357'>Dans sa prétention il la faut affermir...</l>
+	<l id='358'>Je vais bien l'étonner en flattant son désir.</l>
+	<l id='359'>Je la traitai toujours de manière assez dure ;</l>
+	<l id='360'>Eh comme on doit traiter de noblesse à roture ;</l>
+	<l id='361'>Surtout en prévenant tout air d'égalité :</l>
+	<l id='362'>( Ma mère est le seul noeud de notre parenté. )</l>
+	<l id='363'>Je vais en lui parlant, lui rendre un peu courage :</l>
+	<l id='364'>Voilà sur ces gens-là, ce qu'on a d'avantage ;</l>
+	<l id='365'>Dès qu'on leur fait accueil, ils en sont tous bouffis ;</l>
+	<l id='366'>De la côte d'Adam ils s'estiment sortis.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE. II. Aurélie, Hortense.</head>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='367' part='i'>Ma petite cousine, approchez.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, d'un air railleur.</speaker>
+	<l id='367' part='f'>Je m'empresse</l>
+	<l id='368'>D'obéir à vos lois. Madame la Comtesse.</l>
+	<l id='369'>Mais d'un titre si cher m'accordant la faveur,</l>
+	<l id='370'>Depuis quand daignez-vous me faire cet honneur ?</l>
+	<l id='371'>J'avais cru qu'en dépit d'une même origine,</l>
+	<l id='372'>Vous ne trouviez pas bon qu'on fût votre cousine.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='373'>Oh ! La petite espiègle ! A-t-elle assez d'esprit ?</l>
+	<l id='374'>Elle met de la grâce à tout ce qu'elle dit.</l>
+	<l id='375'>Ce n'est pas tout encor ; voyez comme elle est belle !</l>
+	<l id='376'>L'homme le moins sensible en perdrait la cervelle :</l>
+	<l id='377'>L'air, le ton, tout en elle est noble et gracieux ; </l>
+	<l id='378'>En vivant à la Cour on ne serait pas mieux.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='379'>Comment vous me gâtez ! Je n'y peux rien comprendre :</l>
+	<l id='380'>Aurais-je par hasard quelqu'office à vous rendre ?</l>
+	<l id='381'>L'intérêt quelquefois rapproche de bien loin ;</l>
+	<l id='382'>La politesse alors est la loi du besoin :</l>
+	<l id='383'>Parlez ; je suis très bonne, et surtout sans rancune.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+	<l id='384'>D'honnenr ce n'est point là la tournure commune ;</l>
+	<l id='385'>On n'a point cet esprit, cette vivacité.</l>
+<stage>Avec poids.</stage>
+	<l id='386'>Mon enfant vous serez femme de qualité.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, riant.</speaker>
+
+	<l id='387'>Moi ! Femme ! Oh !  Pour le coup ! En voici bien d'une autre.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='388'>Allons, ne faites point ici le bon apôtre ;</l>
+	<l id='389'>Je sais que mon frère aime, adore vos appas.</l>
+<stage>En se parlant à elle-même.</stage>
+	<l id='390'>J'en mourrais de chagrin, s'il ne l'épousait pas.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='391'>Le Comte m'épouser ! Quel rêve ! Quelle histoire !</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='392'>Si c'est un rêve, au moins il est permis d'y croire,</l>
+	<l id='393'>Ma petite, écoutez ceci n'est point un jeu ;</l>
+	<l id='394'>Ma tante de Murcé vous donne son aveu.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, gaiement et malignement.</speaker>
+	<l id='395'>Vraiment ? Il n'en faut donc plus qu'un ; mais nécessaire.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='396' part='i'>Quel est-il ?</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='396' part='f'>C'est celui de Monsieur votre père :</l>
+	<l id='397'>Peut-être, je pourrais vous dire aussi le mien.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='398' part='i'>Pour celui-là, j'y compte.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='398' part='f'>En répondez-vous bien ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='399' part='i'>J'en réponds.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='399' part='f'>Eh bien ! Moi, pour un tel mariage,</l>
+	<l id='400'>Je me trouve, à la fois, et trop folle, et trop sage :</l>
+	<l id='401'>Trop folle ; mon humeur au Comte disconvient :</l>
+	<l id='402'>Trop sage ; le devoir sous ses lois me retient.</l>
+	<l id='403'>Lorsqu'aux bontés d'un oncle on doit son existence</l>
+	<l id='404'>On lui doit bien aussi quelque reconnaissance ;</l>
+	<l id='405'>Gêner ses volontés, serait mal en user ;</l>
+	<l id='406'>J'aime mieux rester fille, et de tout m'amuser.</l>
+	<l id='407'>Adieu, cousine, adieu ; je sens que je vous lasse :</l>
+<stage>Malignement.</stage>
+	<l id='408'>Malgré mon sot refus, conservez-moi de grâce,</l>
+	<l id='409'>Les bontés dont j'ai fait un essai si charmant ;</l>
+	<l id='410'>Faites que mon bonheur dure plus d'un moment.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='411'>La voilà bien contente oui, cela s'imagine</l>
+	<l id='412'>Que je vais la traiter désormais de cousine ;</l>
+	<l id='413'>Ce ton d'égalité ne subsistera pas.</l>
+	<l id='414'>Éloignons-nous, mon père ici tourne ses pas.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Marquis, Le Comte.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='415'>Mon fils, asseyons-nous un moment ; prenez place...</l>
+
+<stage>Ils s'assoient.</stage>
+	<l id='416'>On vous a prévenu sur tout ce qui se passe ;</l>
+	<l id='417'>Sans doute vous savez ce qu'on doit à l'honneur.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='418'>Je n'ai, pour le savoir, qu'à descendre en mon coeur.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec impatience.</speaker>
+	<l id='419'>Je ne vous parle pas de l'être imaginaire</l>
+	<l id='420'>Dont vous vous êtes mis en tête la chimère,</l>
+	<l id='421'>Qui vous tourne l'esprit ; autre espèce d'honneur,</l>
+	<l id='422'>Dont un rustre jouit ainsi qu'un grand Seigneur ;</l>
+	<l id='423'>Je parle de l'honneur des grands, enfin du nôtre.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='424'>Celui-là, selon vous, est donc plus vrai que l'autre ?</l>
+	<l id='425'>Moi, j'en juge autrement jamais L'orgueil humain</l>
+	<l id='426'>Ne put accréditer un préjugé plus vain</l>
+	<l id='427'>Que celui qui, fondé sur un droit de naissance,</l>
+	<l id='428'>D'un homme à son semblable a mis tant de distance.</l>
+	<l id='429'>Ce préjugé fatal, chez les humains admis,</l>
+	<l id='430'>En livre un au respect, et dix mille au mépris.</l>
+	<l id='431'>Est-ce ainsi qu'il fallait endoctriner les hommes ?</l>
+	<l id='432'>De tant de passions, vains jouets que nous sommes !</l>
+	<l id='433'>On nous veut, à mal faire, encor autoriser ;</l>
+	<l id='434'>On nous donne le droit de nous mieux mépriser.</l>
+	<l id='435'>J'en parle sans humeur, vous le sentez, mon père ;</l>
+	<l id='436'>Le sort m'a bien traité s'il m'eût été contraire,</l>
+	<l id='437'>Ou dirait que des grands repoussant la hauteur,</l>
+	<l id='438'>Mon orgueil roturier veut se venger du leur ;</l>
+	<l id='439'>Non, c'est l'humanité que je plains ; c'est pour elle</l>
+	<l id='440'>Que je parle ; on lui fait une injure cruelle,</l>
+	<l id='441'>Pair ces distinctions que l'on veut maintenir :</l>
+	<l id='442'>Un sot de qualité pourra tout obtenir ?</l>
+	<l id='443'>Et l'homme de talent, enfant de la nature,</l>
+	<l id='444'>Reste seul accablé du poids de sa roture ;</l>
+	<l id='445'>Il sent flétrir en lui d'inutiles vertus !</l>
+	<l id='446'>Et vous approuveriez de semblables abus ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='447'>Sans les justifier, je pourrais vous répondre,</l>
+	<l id='448'>J'en profite ; mais, non ; je prétends vous confondre.</l>
+	<l id='449'>Ce que vous appelez un préjugé si vain,</l>
+	<l id='450'>Est un sentiment vrai, né dans le cceur humain.</l>
+	<l id='451'>Tous les peuples, ceux même, et de Grèce et de Rome,</l>
+	<l id='452'>Ont su le cas qu'on doit faire d'un Gentilhomme :</l>
+	<l id='453'>Votre grand Cicéron, lui-même, le premier,</l>
+	<l id='454'>N'eut-il pas à rougir d'être né roturier ?</l>
+	<l id='455'>La noblesse est un don que partout on révère</l>
+	<l id='456'>On tient compte aux enfants de ce que fut leur père.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='457'>Fort bien : je n'y vois plus qu'un léger embarras ;</l>
+	<l id='458'>On leur tient compte aussi des vertus qu'ils n'ont pas :</l>
+	<l id='459'>Leur père en eut pour eux ; il se rendit illustre ;</l>
+	<l id='460'>Ses enfants, de son nom ternissent tout le lustre,</l>
+	<l id='461'>Et leur mépris pour tout ce qui n'est pas titré,</l>
+	<l id='462'>S'autorise du nom qu'ils ont deshonoré.</l>
+	<l id='463'>Pour abaisser l'orgueil d'une race si fière,</l>
+	<l id='464'>Je les renvoie à ceux dont la vertu première</l>
+	<l id='465'>Jetta de leur grandeur le fondement heureux : </l>
+	<l id='466'>Ces pères rougiraient de fils indignes d'eux ;</l>
+	<l id='467'>Ils leur disputeraient leur gloire imaginaire :</l>
+	<l id='468'>Eh bien ! Ce qu'ils feraient, ma raison l'ose faire.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec impatience.</speaker>
+
+	<l id='469'>Plus le noble a de droits, plus on doit s'applaudir</l>
+	<l id='470'>D'être du nombre heureux ; plus il faut s'aggrandir,</l>
+	<l id='471'>Et par ses soins actifs rehausser sa noblesse :</l>
+	<l id='472'>Oui, partout où la force écrase la faiblesse,</l>
+	<l id='473' part='i'>Je craindrai d'être faible.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='473' part='f'>Eh ! Que concluez-vous</l>
+	<l id='474' part='i'>De ce raisonnement !</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec impatience.</speaker>
+
+	<l id='474' part='f'>Je conclus, entre nous,</l>
+	<l id='475'>Que vous devez bénir l'hymen qu'on vous propose.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='476'>Les biens de pur éclat som pour moi peu de chose ;</l>
+	<l id='477'>Je tiens à mon bonheur, à mon repos ; je tiens</l>
+	<l id='478'>Au sentiment qui doit former de tels liens.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='479'>Vous voulez que par goût, estime, sympathie,</l>
+	<l id='480'>Ainsi qu'un roturier, un noble se marie ?</l>
+	<l id='481'>Mais c'est mettre ici bas, tout sans-dessus-dessous.</l>
+	<l id='482'>Laissez au roturier son estime et ses goûts :</l>
+	<l id='483'>L'homme de cet état n'a rien de mieux à faire ;</l>
+	<l id='484'>Mais nous, notre grandeur est notre unique affaire :</l>
+	<l id='485'>Estime, aime, qui peut ! Pour l'honneur de mon nom,</l>
+
+<note type="L">Guenon : On appelle aussi guenon, une femme vieille, ou laide, quand on lui veut dire quelque injure. Il est bas. [F]</note>
+	<l id='486'>Je m'associerais, moi, la plus sotte guenon.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='487'>L'honneur gagne beaucoup à de tels mariages !</l>
+	<l id='488'>Les séparations renversent les ménages ;</l>
+	<l id='489'>Les enfants élevés dans ces discors honteux,</l>
+	<l id='490'>Rendent à leurs parents ce qu'ils ont appris d'eux,</l>
+	<l id='491'>La haine et le mépris la race ainsi s'altère ;</l>
+	<l id='492'>Le vice est d'un grand nom la tache héréditaire.</l>
+	<l id='493'>Ah qu'un sage hyménée a bien plus de douceur !</l>
+	<l id='494'>Le sentiment y vit sous les lois du bonheur ;</l>
+	<l id='495'>Et ce bonheur transmis, descend de race en race ;</l>
+	<l id='496'>Voilà la vérité, mon père quoiqu'on fasse,</l>
+	<l id='497'>En dépit de l'orgueil et des prétentions,</l>
+	<l id='498'>La nature survit à nos conventions,</l>
+	<l id='499'>Et qui veut la goûter, en soi n'a qu'à descendre.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='500'>Sans un dépit mortel, je ne saurais l'entendre ;</l>
+	<l id='501'>Et de mon sang formé, je ne sais pas comment...</l>
+	<l id='502'>Ah ça ! Tiens, réponds-moi bien naturellement :</l>
+	<l id='503'>Quoi l'honneur de montrer à la Cour les Saincennes,</l>
+	<l id='504'>Ne fait pas pétiller tout ton sang dans tes veines ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='505'>Sans nulle émotion vous m'y voyez penser.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='506'>Caractère rampant qu'on ne peut rehausser !</l>
+	<l id='507'>Vas, tu seras toujours l'opprobre de ma vie.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='508'>Un fils qui vous respecte, hélas ! Vous humilie !</l>
+	<l id='509'>Un fils qui n'a jamais cessé de vous chérir !</l>
+	<l id='510'>Un fils, dont les devoirs sont le plus doux plaisir !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='511'>La noble dignité du coeur t'est étrangère.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='512'>Permettez à ce mot, je répondrai, mon père.</l>
+	<l id='513'>Je manque, dites-vous, de noble dignité ?</l>
+	<l id='514'>Eh mais, ce sentiment est tout de mon côté.</l>
+	<l id='515'>Qui, de vous, ou de moi lorsqu'un grand se présente,</l>
+	<l id='516'>Sait mieux mettre à son point la hauteur imposante ?</l>
+	<l id='517'>Fuit plus ces petits soins qui, dès lors qu'on les rend,</l>
+	<l id='518'>D'infériorité sont un signe apparent ?</l>
+	<l id='519'>Mais votre intention me semble mal remplie ;</l>
+	<l id='520'>Eh ! Du matin au soir votre orgueil s'humilie !</l>
+	<l id='521'>Le mien marche d'un pas plus ferme et plus égal ;</l>
+	<l id='522'>L'infériorité sans doute, lui sied mal ;</l>
+	<l id='523'>Il ne domine rien et rien ne le domine :</l>
+	<l id='524'>Je suis auprès des grands, l'usage et la routine,</l>
+	<l id='525'>Et descends avec goût jusqu'à l'inférieur : </l>
+	<l id='526'>Voilà ma dignité je la porte en mon coeur.</l>
+	<l id='527'>Quant au projet d'hymen qui paraît tant vous plaire,</l>
+	<l id='528'>Mon père il en est un bien plus facile à faire,</l>
+	<l id='529'>Qui de vos deux enfants comblerait tous les voeux,</l>
+	<l id='530'>Qui, tous deux, les rendrait également heureux.</l>
+	<l id='531' part='i'>Permettez que ma soeur...</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en courroux.</speaker>
+
+	<l id='531' part='f'>Saincence, plus d'instance.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='532' part='i'>Mon père.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en colère.</speaker>
+
+	<l id='532' part='f'>Encore un coup, c'est trop de résistance.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='533'>À ce que vous voulez, il faut bien consentir ;</l>
+	<l id='534'>Plaignez-vous donc d'un fils qui ne sait qu'obéir.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='535'>Moi, me plaindre de toi ! J'aime ton caractère,</l>
+	<l id='536'>Tes vertus et j'en ai la preuve la plus chère.</l>
+	<l id='537'>Crois moi, c'est ton bonheur que tu viens d'accepter :</l>
+	<l id='538'>À l'éclat des grandeurs on ne peut résister :</l>
+	<l id='539'>C'est en les possédant qu'on s'en laisse séduire ;</l>
+	<l id='540'>Tu me remercieras d'avoir su t'y conduire ;</l>
+	<l id='541'>Vas te parer un peu ; j'attends le Duc d'Alfort ;</l>
+	<l id='542'>Sa fille est adorable, et tu lui plairas fort :</l>
+	<l id='543'>Demande - tout mon bien : du Marquis de Saincenne;</l>
+	<l id='544'>Il n'est rien, il n'est rien que ton amour n'obtienne,</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. La Marquis, Davon.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec transport.</speaker>
+	<l id='545'>Il accepte, Davon ; il va se marier.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='546'>À sa soumission vous n'osiez vous fier;</l>
+	<l id='547'>Vous pensiez qu'il faudrait lui faire violence,</l>
+	<l id='548'>Et vous avez d'un mot vaincu sa résistance.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='549'>Oui, je le jugeais mal ; il a beaucoup de bon ;</l>
+	<l id='550'>Et son courage est fait pour porter loin son nom :</l>
+	<l id='551'>Je rappelle à présent ce qu'il fit à la guerre ;</l>
+	<l id='552'>C'est l'acte distingué d'un brave militaire :</l>
+	<l id='553'>Avec tant de valeur, et l'argent à la main,</l>
+	<l id='554'>Un Gentilhomme est sûr de faire son chemin...</l>
+	<l id='555'>Sais-tu depuis qu'il est l'honneur de ma famille,</l>
+	<l id='556'>Je sens que je n'ai plus tant de goût pour ma fille.</l>
+	<l id='557'>J'enrage de lui voir pratiquer mes leçons,</l>
+	<l id='558'>Et s'armer contre moi de mes propres raisons.</l>
+	<l id='559'>Lui, depuis qu'il souscrit à l'hymen, je te jure</l>
+	<l id='560'>Que je lui vois déjà toute une autre tournure...</l>
+	<l id='561'>Tu n'imagines pas tout ce que mon cour sent ;</l>
+	<l id='562'>C'est au point d'en rougir ; je suis comme un enfant :</l>
+	<l id='563'>Ma joie est en dedans, et si grande et si vive,</l>
+	<l id='564'>Que je voudrais tout haut conter ce qui m'arrive ;</l>
+	<l id='565'>Jamais un Duc et Pair ne m'a paru si grand.</l>	
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='566'>II faudrait en public, vous contenir pourtant.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='567'>En bien ! Aide-moi donc ; tire-moi par la manche,</l>
+	<l id='568'>Quand je montre une joie et si vive et si franche.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Les Mêmes, Des Portefaix chargés.</head>
+
+<note type="L">Portefaix : Homme dont le métier est de porter des fardeaux. [L]</note>
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='569'>Que veulent ces gens-ci qui vous dit de monter ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à demi-voix.</speaker>
+	<l id='570'>Ce sont de vieux portraits que j'ai fait apporter,</l>
+	<l id='571'>Et que j'ai ramassés dans des fonds de boutiques.</l>
+	<l id='572'>Je me fais des aïeux de ces minois gothiques.</l>
+	<l id='573'>J'ai soin de les choisir, tous, aux fronts balaffrés,</l>
+	<l id='574'>Tous, d'un costume antique, et d'ordres décorés ;</l>
+	<l id='575'>J'y fais mettre mon nom, et leur noble effigie</l>
+	<l id='576'>Servira d'ornement à cette galerie ;</l>
+	<l id='577'>J'y recevrai le Duc : fais ranger ces portraits,</l>
+	<l id='578'>Et par ordre de date, elle est marquée exprès.</l>
+<stage>Tandis qu'on place les tableaux, le Marquis, marchant à grands pas sur le devant du théâtre.</stage>
+	<l id='579'>Colonel ! Présenté ! De grandes alliances !</l>
+	<l id='580'>Que pourrait désormais borner mes espérances ?</l>
+	<l id='581'>Mon fils peut s'égaler à tous nos grands Seigneurs</l>
+	<l id='582'>Des rubans, vert et bleu, revêtir les couleurs.</l>
+	<l id='583'>Au fait, c'est un beau nom que celui de Saincenne ;</l>
+	<l id='584'>L'ambition du Duc échauffera la sienne :</l>
+	<l id='585'>Et puis, l'ambition, cela vient en un jour ;</l>
+	<l id='586'>Tel qui n'en eut jamais, en acquiert à la Cour...</l>
+	<l id='587'>Il faut en convenir, il est doux d'être père</l>
+	<l id='588'>Lorsqu'un fils gentilhomme, ainsi perce et prospère</l>
+	<l id='589'>Ah ! Dame ! La nature alors parle : comment !</l>
+<stage>Avec transport.</stage>
+	<l id='590'>Elle parle ! Elle crie : ah ! Quel heureux moment !...</l>
+	<l id='591'>Chut ! Si Davon eût vu ce transport d'allégresse,</l>
+	<l id='592'>C'eût bien été le cas du signal de sagesse.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='593'>Monsieur veut-il venir regarder ses tableaux ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en les regardant.</speaker>
+	<l id='594'>À merveille ! Fort bien ! Ces ornements nouveaux</l>
+	<l id='595'>Sont d'un très bon effet ; ils parent ces demeures.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Les Mêmes, Le Duc d'Aalfort, un Valet de chambre qui annonce.</head>
+<sp who='LE VALET DE CHAMBRE'><speaker>LE VALET DE CHAMBRE.</speaker>
+	<l id='596' part='i'>Monsieur le Duc d'Alfort.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, vers la coulisse.</speaker>
+	<l id='596' part='f'>Mon carosse cinq heures.</l>
+	<l id='597'>Bonjour mon cher Marquis ; je ne connaissais pas</l>
+	<l id='598' part='i'>Cet appartement-ci.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='598' part='f'>L'on travaille là bas ;</l>
+	<l id='599'>La lambrissure était presqu'à moitié détruite ;</l>
+	<l id='600'>Et puis, ma foi par goût, c'est ceci que j'habite ;</l>
+	<l id='601'>Les Saincennes sont là tous, peints de père en fils ;</l>
+	<l id='602'>J'aime mieux ces portraits que les plus beaux lambris.</l>
+<stage>Davon s'approche de lui, et le tire par la basque pour l'avertir.</stage>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en se contenant.</speaker>
+	<l id='603'>Ma foi ! Monsieur le Duc, écoutez de tels hommes,</l>
+	<l id='604'>Illustres avant nous, nous font ce que nous sommes.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII. Les Mêmes, Le Valet de chambre.</head>
+<sp who='LE VALET DE CHAMBRE'><speaker>LE VALET DE CHAMBRE, au Duc.</speaker>
+	<l id='605'>Monsieur, votre Intendant demande à vous parler.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, au Marquis.</speaker>
+	<l id='606' part='i'>Permettez-vous ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='606' part='m'>Qu'il entre.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='606' part='f'>Où bien je vais aller...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='607'>De la cave au grenier, du Maître jusqu'au Suisse,</l>
+	<l id='608'>Tout l'hôtel de Saincenne est à votre service.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='609'>De tant d'honnêteté je n'abuserai pas.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+	<l id='610'>Ce Suisse, s'il montait, ce serait bien le cas :</l>
+	<l id='611'>Le Duc, sans l'observer, aura passé, peut-être.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Les Mêmes, Clénard, Stemmate.</head>
+<sp who='LE VALET DE CHAMBRE'><speaker>LE VALET DE CHAMBRE, annonçant.</speaker>
+	<l id='612' part='i'>Monsieur Stemmate.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='612' part='f'>Ah ! Ah ! Bonjour donc mon cher maître.</l>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE.</speaker>
+	<l id='613'>Votre Suisse m'a presque empêché de monter.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='614'>Vous avez très bien fait de ne pas l'écouter.</l>
+	<l id='615'>Tous ces animaux-là sont des bêtes de somme ;</l>
+	<l id='616'>C'est le milieu tout juste entre la brute et l'homme.</l>
+	<l id='617'>Les gens de qualité, sur ma foi sont bien fous :</l>
+	<l id='618'>Les plus simples bourgeois sont mieux servis que nous :</l>
+	<l id='619'>Qu'y faire ? C'est l'usage, il faut bien y souscrire.</l>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE, bas au Marquis.</speaker>
+	<l id='620'>Mon ami, j'ai deux mots très pressés à vous dire.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='621'>Tenez, Monsieur le Duc, avec Monsieur Clénard,</l>
+	<l id='622'>Établissez-vous là, seul, tranquille, à l'écart ;</l>
+	<l id='623'>Rien, je vous en réponds, ne viendra vous distraire</l>
+	<l id='624'>Je vais, de mon côté, m'occuper d'une affaire.</l>
+<stage>Le Duc s'assied sur le devant du théâtre, l'un des coins, le Marquis, au coin opposé Clénard est debout, appuyé sur le fauteuil du Duc, et tournant le dos au Marquis ; Stemmate est assis tout auprès du Marquis, et tournant le dos au Duc. Toute cette scène doit, des deux côtés être jouée à demi-voix.</stage>
+</sp>
+
+<sp who="CLÉNARD"><speaker>CLÉNARD, au Duc.</speaker>
+
+	<l id='625'>Je dois à Monseigneur montrer ce qu'on m'écrit.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id='626' part='i'>En ! Sur quoi ?</l>
+</sp>
+<sp who="CLÉNARD"><speaker>CLÉNARD.</speaker>
+	<l id='626' part='f'>Sur l'hymen dont le projet vous rit;</l>
+	<l id='627' part='i'>L'écrit n'est pas signé.</l>
+<stage>Il remet une lettre au Duc, qui la lit.</stage>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE, bas au Marquis, tn lui donnant une lettre.</speaker>
+	<l id='627' part='f'>Cette lettre anonyme,</l>
+	<l id='628'>Mon cher et tendre ami, rabat de mon estime</l>
+	<l id='629'>Pour l'hymen dont j'avais secondé le projet.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas à Clénard, après avoir lu.</speaker>
+	<l id='630'>Cette lettre me peint comme un mauvais sujet,</l>
+
+<note type="L">Embâter : Garnir d'un bât [charge] d'une bête de somme. Fig. et familièrement, embarrasser ou ennuyer. [L]</note>
+	<l id='631'>Le gendre dont je vais embâter ma famille ;</l>
+	<l id='632'>Par ma foi ce sera l'affaire de ma fille.</l>
+	<l id='633'>Dans cette union-là, je vois beaucoup d'argent,</l>
+	<l id='634'>Je dis, d'argent pour moi ; mon état est urgent.</l>
+	<l id='635'>Depuis assez longtem^ps mes biens sont en déroute :</l>
+	<l id='636'>Faire ce mariage ou faire banqueroute,</l>
+	<l id='637'>Il n'est pas de milieu, j'opte pour le contrat.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas à Stemmate après avoir lu.</speaker>
+	<l id='638'>Comment ! De cet écrit vous faites quelque état !</l>
+	<l id='639'>Oh bien ! Je suis plus brave, il n'a rien qui m'arrête :</l>
+	<l id='640'>Ma bru sera, dit-on, une mauvaise tête ;</l>
+	<l id='641'>On ne pourra jamais en rien la réformer ;</l>
+	<l id='642'>C'est à faire à mon fils de la faire enfermer :</l>
+	<l id='643'>Eh ! Que m'importe à moi tout ce que j'envisage,</l>
+	<l id='644'>C'est l'éclat que doit faire un pareil mariage.</l>
+	<l id='645'>Allons il ne faut pas un moment balancer ;</l>
+	<l id='646'>La Cour, un Régiment, il s'agit de percer.</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD, bas au Duc.</speaker>
+	<l id='647'>Mais, Monseigneur, ces gens sont de basse roture ;</l>
+	<l id='648'>Ce n'est qu'à prix d'argent qu'ils font quelque figure</l>
+<note type="L">Rat de cave : Familièrement et par injure, rats de cave, les commis des aides, et aujourd'hui, des contributions indirectes qui visitent les caves. [L]</note>
+
+	<l id='649'>Et le grand-père étoit rat-de-cave à Béziers.</l>
+<stage>En pesant beaucoup sur ces derniers mots.</stage>
+
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='650'>Tant mieux ! Plus ils seront d'ignobles roturiers,</l>
+	<l id='651'>Plus nous les trouverons empressés à conclure ;</l>
+	<l id='652'>Et plus je leur vendrai ma fille avec usure.</l>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE, bas au Marquis.</speaker>
+	<l id='653'>Sur un fait important prenez votre parti ;</l>
+	<l id='654'>Le Duc est ruiné, je vous en averti.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='655'>Tant mieux je suis alors son unique ressource ;</l>
+	<l id='656'>Mon ami, je le tiens, comme on dit, par la bourse.</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD, au Duc.</speaker>
+
+	<l id='657'>Mais ce prétendu noble affecte les grands airs ;</l>
+	<l id='658'>Il veut représenter comme vos Ducs et Pairs:</l>
+	<l id='659'>Chacun est révolté du grand ton qu'il affiche.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='660'>Tant mieux qu'il soit prodigue, alors qu'il est si riche : </l>
+
+<note type="L">Ladre : Attaqué de ladrerie, de lèpre ou éléphantiasis. Par extension de l'insensibilité morale, excessivement avare. [L]</note>
+	<l id='661'>Ne voudriez-vous pas qu'il fût ladre et vilain  ?</l>
+	<l id='662'>Je ne tirerais pas un écu de sa main.</l>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE, au Marquis.</speaker>
+	<l id='663'>Le Duc d'Alfort, sur rien n'a de principe ferme ;</l>
+	<l id='664'>C'est un de nos roués dans la force du terme.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='665'>Tant mieux ! À ces gens-là, fargent lient lieu d'honneur ;</l>
+	<l id='666'>Et les roués de Cour ne m'ont jamais fait peur.</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD, au Duc.</speaker>
+
+	<l id='667'>Si bien que, Monseigneur, sur tout obstacle passe ?</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='668'>Oui puisons dans la bourse et pour le reste, grace ;</l>
+</sp>
+
+<sp who='STEMMATE'><speaker>STEMMATE, au Marquis.</speaker>
+	<l id='669'>Tout, ce que je vous dis ne vous arrête pas ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='670'>Non, je flaire la Cour et redouble le pas.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='671'>Clénard, il ne faut pas qu'ici, de ma déroute</l>
+	<l id='672'>On ait quelque soupçon, pas le plus léger doute :</l>
+	<l id='673'>Allons mon cher Clénard, mon très digne intendant.</l>
+	<l id='674'>Vous êtes, de mes biens, l'unique répondant ;</l>
+	<l id='675'>Songez qu'il faut en rendre un brillant témoignage ; </l>
+	<l id='676' part='i'>Mentez fort.</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD.</speaker>
+	<l id='676' part='f'>Monseigneur m'a fait à ce langage.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='677'>Restez ; vous me direz riche comme Crésus.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à Stemmate après lui avoir parlé à l'oreille.</speaker>
+	<l id='678'>Vous sentez mes raisons ; il se peut, au surplus,</l>
+	<l id='679'>Que ton discute ici quelques droits de naissance ;</l>
+	<l id='680'>Et votre avis sera d'une grande importance :</l>
+	<l id='681'>Restez ; vous me direz noble comme César.</l>
+<stage>On se lève, et tout le monde se rapproche.</stage>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='682'>Je crains, mon cher Marquis, devoir manqué d'égard.</l>
+	<l id='683' part='i'>Pardon.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='683' part='f'>Vous vous moquez ; liberté pleine, entière.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='684'>On ne peut sur son bien avoir trop de lumière :</l>
+	<l id='685'>Je voulais de la dot assurer mieux les fonds.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='686'>Nos enfants nous ont bien des obligations ;</l>
+	<l id='687'>D'un titre encor obscur j'examinais la date ;</l>
+	<l id='688'>Et par les soins heureux de mon ami Stemmate...</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Les Mêmes, Aurélie, Le Comte.</head>
+<sp who='AURÉLIE'><speaker>AURÉLIE, à part.</speaker>
+	<l id='689'>Sachons ce qu'aura fait ma tante de Murcé ;</l>
+	<l id='690'>Voyons si notre espoir s'est un peu rehaussée</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='691'>Voici le Comte ; il vient saluer son beau père.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+<stage>Le Duc doit être placé entre le père et le fils ; et le vieux Saincenne inspecte son fils et l'interromp : sans cesse.</stage>
+
+	<l id='692'>Je sens comme je dois, l'honneur qu'il veut me faire,</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, au Duc.</speaker>
+	<l id='693'>Son plaisir est si grand qu'il n'ose le montrer.</l>
+<stage>À part.</stage>
+	<l id='694' part='i'>Si ce n'est lui, c'est moi.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+	<l id='694' part='f'>L'on pouvait différer</l>
+	<l id='695'>La célébration de l'hymen qui s'apprête.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas au Duc.</speaker>
+	<l id='696'>Qu'on différât d'un jour, il en perdrait la tête.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+	<l id='697'>Plus d'examen souvent previendrait bien des maux.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas au Duc.</speaker>
+	<l id='698'>De nos vieux Chevaliers il a tous les propos ;</l>
+	<l id='699'>Comme il est de la race, il en suit les usages.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+
+	<l id='700'>Mon père a stipulé pour tous nos avantages ;</l>
+	<l id='701'>Je stipule pour ceux qui dépendent de moi.</l>
+	<l id='702'>Douceur, égalité, candeur et bonne-foi.</l>
+	<l id='703'>Le contrat, je le sais, n'admet point telle clause ;</l>
+	<l id='704'>Mais si le vrai bonheur compte pour quelque chose,</l>
+	<l id='705'>Ce sont là des trésors utilement acquis ;</l>
+	<l id='706'>Et la rareté même y met un nouveau prix.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, haut.</speaker>
+	<l id='707'>Le Comte, comme on voit, suit encor le vieux style ;</l>
+	<l id='708' part='i'>Les Saincennes sont tous faits ainsi.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='708' part='f'>Difficile</l>
+	<l id='709'>Qui s'en plaindrait ! Je l'aime, et je l'estime fort :</l>
+	<l id='710'>On se ressent toujours de ceux de qui l'on sort.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, à part.</speaker>
+	<l id='711'>La rage de l'hymen est en eux bien ancrée ;</l>
+	<l id='712'>Ces gens se marieront malgré vents et marée.</l>
+<stage>On entend des fouets de poste.</stage>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='713'>Qu'est-ce que j'entends ! Ho ! Quelqu'un ! Voyez là bas,</l>
+	<l id='714'>Ce qui peut dans ma cour causer tant de fracas.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='11'><head>SCÈNE XI. Les Mêmes, Davon.</head>
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='715'>Le Baron de Saincenne, ici vient de descendre.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec trouble.</speaker>
+	<l id='716' part='i'>Le Baron !</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='716' part='f'>Tout le bruit que vous venez d'entendre,</l>
+	<l id='717' part='i'>C'est lui seul qui le cause.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+	<l id='717' part='f'>Oh ! Le dur contretemps !</l>
+	<l id='718'>Je crains de ce railleur les propos insultants.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='719' part='i'>Quel est donc ce Baron ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='719' part='f'>Un parent de Province</l>
+	<l id='720'>Un peu rustre, et bavard ; un sujet assez mince.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='12'><head>SCÈNE XII. Les Mêmes, Le Baron en redingote, en bonnet de nuit, un chapeau de voyage par-dessus ; il manque de maintien, il a la vue basse, cligne des yeux, regarde sous le nez, et touche tous ceux a qui il parle..</head>
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='721'>Bonjour, cousin, Bonjour, tu ne m'attendais pas :</l>
+	<l id='722'>Que veux-tu mon ami ? Sur ma foi ! J'étais las</l>
+<stage>Il dit en riant tes derniers mots.</stage>
+
+	<l id='723'>De me voir éloigné de toute ma famille.</l>
+	<l id='724'>Ah ça ! Fais moi connaitre et ton fils et ta fille ;</l>
+
+<stage>Il les regarde met le nez.</stage>
+	<l id='725'>Sans doute, ces Messieurs sont des cousins aussi,</l>
+	<l id='726' part='i'>Cousins, cousins partout.</l>
+
+<stage>Il rit.</stage>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='726' part='f'>Non ; vous voyez ici</l>
+	<l id='727'>Monsieur le Duc d'Alfort ; un Duc et Pair de France,</l>
+	<l id='728'>Avec qui nous allons contracter alliance.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='729'>Comment quelqu'un des tiens va-t-il se marier ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='730' part='i'>Oui.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='730' part='f'>J'arrête les bans, prêts à se publier.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, à part.</speaker>
+
+	<l id='731' part='i'>Bon !</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, bas.</speaker>
+	<l id='731' part='m'>Tant mieux !</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, haut.</speaker>
+	<l id='731' part='m'>Pourquoi donc ?</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='731' part='f'>J'ai mes projets en tête,</l>
+	<l id='732'>Qui pourraient bien chez toi servir de trouble-fête.</l>
+	<l id='733'>Du fond du Périgord, en poste ici j'accours,</l>
+	<l id='734'>Crevant tous les chevaux ; je n'ai mis que trois jours.</l>
+	<l id='735'>Tandis que pour venir, je payais double guide,</l>
+	<l id='736'>Je vois que tu courrais toi-même à toute bride :</l>
+	<l id='737'>Peste ! Quel train tu vas ! D'un hymen si prochain</l>
+	<l id='738'>Tu ne m'instruisais pas, moi, ton noble cousin !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='739' part='i'>La lettre allait partir.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='739' part='f'>Oh, bien bien quelle reste.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, bas.</speaker>
+
+	<l id='740' part='i'>L'heureux événement !</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas.</speaker>
+
+	<l id='740' part='f'>Le contretemps funeste !</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='13'><head>SCÈNE XIII. Les Même, Le Mâitre d'Hôtel.</head>
+<sp who="LE MAÎTRE D'HÔTEL"><speaker>LE MAÎTRE D'HÔTEL.</speaker>
+	<l id='741' part='i'>Ces  Messieurs sont servis.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='741' part='f'>Monsieur le Duc, passons.</l>
+
+<stage>À part.</stage>
+	<l id='742'>J'ai bien peur d'essuyer le plus grand des affronts.</l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Marquis, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='743'>Jamais à mon avis, repas n'a tant duré</l>
+	<l id='744'>Davon, j'en sors à jeun, comme j'étais entré.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='745'>Eh ! pourquoi donc, Monsieur ? Qu'est-ce qui vous arrive ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='746'>Ce Baron, que j'avais tout droit en perspective,</l>
+	<l id='747'>Par ses méchants dictons coup sur conp répétés,</l>
+	<l id='748'>Retenait en suspens toutes mes facultés.</l>
+
+<note type="L">Pétulant : Qui est emporté, fourgueux, insolent, remuant. [F]</note>
+	<l id='749'>Je voulais contenir sa pétulante joie ;</l>
+	<l id='750'>De l'oeil je l'arrêtais, comme un chien fait sa proie.</l>
+	<l id='751'>Pour occuper aussi son gourmand appétit,</l>
+	<l id='752'>Il n'est morceau friand que ma main ne choisit ;</l>
+	<l id='753'>Pah ! Causeur importun, et glouton parasite,</l>
+	<l id='754'>De l'un et l'autre rôle à la fois il s'acquitte :</l>
+	<l id='755'>Il fait feu de la langue aussi bien que des dents.</l>
+	<l id='756'>J'enrage la faim ; oui, je m'en vais là-dedans,</l>
+	<l id='757'>D'un verre de rota sustenter ma faiblesse.</l>
+	<l id='758'>Toi, si le Baron vient tâches avec adresse,</l>
+	<l id='759'>De savoir le dessein qui l'amène à Paris ;</l>
+	<l id='760'>Dis lui, surtout, qu'il traite un peu mieux ses amis :</l>
+	<l id='761'>À sa rapacité lorsque je m'abandonne,</l>
+	<l id='762'>Qu'il tire sur ma bourse, et non sur ma personne.</l>
+<stage>Il s'éloigne et revient.</stage>
+	<l id='763'>À propos ! Conçois-tu ce que disent tout bas,</l>
+	<l id='764'>Le Duc et l'Intendant ; ils n'en finissent pas</l>
+	<l id='765'>De tous ces pourparlers, mais qu'elle est donc la cause ?</l>
+	<l id='766'>Je crains que l'Intendant n'ait appris quelque chose,</l>
+	<l id='767'>Qu'on n'ait de ma naissance au moins quelque soupçon ;</l>
+	<l id='768'>D'avance, je m'en prends à ce chien de Baron :</l>
+	<l id='769'>Oui, sa présence seule est un mauvais augure ;</l>
+	<l id='770'>Je crois voir mon malheur écrit sur sa figure.</l>
+	<l id='771'>Puissé-je en l'éloignant, parer mon deshonneur !</l>
+<stage>Il sort.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='772'>Si c'est pour son plaisir qu'on se fait grand Seigneur,</l>
+	<l id='773'>Je trouve à ce calcul, pour moi, bien du mécompte.</l>
+	<l id='774'>Que leur en revient-il ? Moins d'honneur que de honte.</l>
+	<l id='775'>Qui veut mentir ainsi sert mal son intérêt ;</l>
+	<l id='776'>Le plus sûr est, je crois, de rester ce qu'on est.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Davon, Le Baron.</head>
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='777' part='i'>Où donc est le Marquis ?</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='777' part='f'>Daignez ici l'attendre;</l>
+	<l id='778'>Et tout en l'attendant, veuillez, Monsieur, m'entendre.</l>
+	<l id='779'>Puis-je vous demander, sans vous faire aucun tort,</l>
+	<l id='780'>Ce qui vous fait soudain quitter le Périgord.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en riant.</speaker>
+	<l id='781'>De la part du Marquis, Davon ici me sonde.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+	<l id='782' part='i'>Vos intentions ?</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='782' part='f'>Moi les meilleures du monde :</l>
+	<l id='783'>Chez vous tout est en noce, et prêt à s'égayer ;</l>
+	<l id='784'>Un violon de plus ; je viens me marier.</l>
+</sp>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='785' part='i'>Vous marier ! À qui ?</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='785' part='f'>Mais, dans le fond de l'âme,</l>
+	<l id='786'>Je tiens plus à la dot, encore qu'à la femme ;</l>
+	<l id='787'>Pourtant ta chanoinesse est un friand morceau ;</l>
+	<l id='788'>Son grand oeil est si tendre et son regard si beau !</l>
+	<l id='789'>Je la vois me lorgner, et ce soin là me touche :</l>
+	<l id='790'>Je crois que j'en ferai ma compagne de couche :</l>
+	<l id='791'>Je l'emmène au pays ; nous nous convenons fort :</l>
+	<l id='792'>Ce sera la beauté de tout le Périgord.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+	<l id='793'>Serait-ce par hasard la Comtesse Aurélie</l>
+	<l id='794' part='i'>Dont vous parlez ainsi</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='794' part='f'>De qui donc je te prie ?</l>
+	<l id='795'>La fille de Saincenne, ou je n'y comprends rien :</l>
+	<l id='796'>Est-elle aussi Comtesse ? Allons, je le veux bien</l>
+	<l id='797'>Et Comtes et Marquis, chez vous naissent en foule :</l>
+	<l id='798'>Vous en tenez fabrique ; Eh ! Vous avez le moule,</l>
+	<l id='799'>Et notre cher cousin n'y plaint pas la façon.</l>
+	<l id='800'>Si bien donc que changeant de titre, et pas de nom,</l>
+	<l id='801'>Ta Comtesse bientôt deviendra ma Baronne.</l>
+	<l id='802'>Tu goûtes ce projet ? Il n'a rien qui t'étonne ?</l>
+	<l id='803'>Toi qui sais nos secrets, tu sais qu'un tour de main,</l>
+	<l id='804'>De Ducreux roturier, fit un jour mon cousin :</l>
+	<l id='805'>Un nouveau tour de main en fera mon beau-père ;</l>
+	<l id='806'>Quelques cent mille écus arrangeront l'affaire.</l>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON, avec empressement.</speaker>
+
+	<l id='807' part='i'>Ne parlez pas d'argent je vous en conjure.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='807' part='f'>Ouais ?</l>
+	<l id='808'>Monsieur Davon ! C'est le cas d'en parler où jamais.</l>
+	<l id='809'>Ton d'Alfort me paraît un écumeur de bourses ;</l>
+	<l id='810'>Sur celle du Marquis il fonde ses ressources.</l>
+	<l id='811'>Qu'un grand Seigneur consente à se mésallier,</l>
+	<l id='812'>On est bien sûr qu'il a des dettes à payer.</l>
+	<l id='813'>Le Marquis, à coup sûr, va signer sa ruine ;</l>
+	<l id='814'>Et puisqu'à ce parti, comme un sot il incline,</l>
+	<l id='815'>Tope ; moi, j'y consens ; mais, à parler sans fard,</l>
+	<l id='816'>Je dois bien du pillage avoir aussi ma part.</l>
+	<l id='817'>Tiens ; nous rédigerons en commun les articles,</l>
+
+<note type="L">Besicles : On ne se sert de ce mot que dans le style burlesque. Il signife des lunettes appliquées au deux yeux. [F]</note>
+	<l id='818'>Et pour y voir plus clair, je mettrai mes besicles :</l>
+	<l id='819'>Tu riras ; il n'est Clerc foncé dans son état,</l>
+
+<note type="L">Minuter : Dresser une minute qui ets l'orignial des actes qui se passent chez les notaires (...). Ce contrat est minuté, tout est dressé chez le notaire, il ne reste qu'à le dresser. [F]</note>
+	<l id='820'>Qui sache comme moi minuter un contrat...</l>
+	<l id='821'>Ne vois-je pas vers nous, venir la Chanoinesse ?</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Aurélie, Le Baron.</head>
+<sp who='AURÉLIE'><speaker>AURÉLIE, bas, en entrant.</speaker>
+	<l id='822'>Je puis, sans me manquer, faire ici politesse ;</l>
+	<l id='823'>Cet homme est de mon rang, et j'ai besoin de lui :</l>
+	<l id='824'>Sachons habilement nous en faire un appui.</l>
+<stage>Haut.</stage>
+	<l id='825'>Vous venez du pays où fleurit notre race ;</l>
+	<l id='826'>Ah Monsieur le Baron ! Ah ! Parlez m'en de grâce !</l>
+	<l id='827'>Je voudrais, pour beaucoup, avoir vu de mes yeux,</l>
+	<l id='828'>Cet antique berceau de mes nobles aïeux :</l>
+	<l id='829'>C'est là que ma maison jette son plus grand lustre ;</l>
+	<l id='830'>Ici, j'en aime en vous, le rejetton illustre.</l>
+	<l id='831'>On n'a rien de si cher que les gens de son nom :</l>
+	<l id='832'>Cet intérêt, chez moi, tient de la passion.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='833' part='i'>De la passion !</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='833' part='f'>Oui ; je le répète encore,</l>
+	<l id='834'>On se tient par le nom, quand le nom nous honore :</l>
+	<l id='835'>S'appartenir ainsi, c'est l'attribut des grands ;</l>
+	<l id='836'>Et c'est nous que Dieu fit pour avoir des parents.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='837'>Vous paraissez bien forte en généalogie.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE.</speaker>
+
+	<l id='838'>Ce goût-là va, chez moi, jusques à la manie ;</l>
+	<l id='839'>Des plus grandes maisons, juste, à point, je dirais</l>
+	<l id='840'>L'époque et l'origine à deux ou trois jours près.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='841'>Peste ! Et dans ce travail vous avez je l'espère,</l>
+	<l id='842'>Suivi tous les dégrés de Monsieur votre père ?</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='843'>En doutez vous ? Malheur à tout homme nouveau,</l>
+	<l id='844'>Qui sorti du comptoir, ou du fond d'un bureau,</l>
+	<l id='845'>Croit son nom décrassé par sa grande richesse,</l>
+	<l id='846'>Antidate de loin sa moderne noblesse,</l>
+	<l id='847'>Et peuple un Régiment, de marmots d'Officiers,</l>
+	<l id='848'>Appellés tous, Marquis, Comtes ou Chevaliers :</l>
+	<l id='849'>Il faut, de ces Messieurs, que l'orgueil en rabatte ;</l>
+	<l id='850'>Et leurs titres, par moi, sont mis, juste, à leur date.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='851'>Pah ! Votre austérité fait bien grâce à quelqu'un.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='852'>Non, non point de quartier ; je n'en épargne aucun.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='853'>J'estime ce courage il tient du philosophe :</l>
+	<l id='854'>Mais du vrai noble, en vous, pour renforcer l'étoffe,</l>
+	<l id='855' part='i'>Peut-être peu d'hymen...</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='855' part='f'>Je venais pour cela.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='856'>Je vous ai devancée, et tout est faitd éjà.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='857' part='i'>Fait ! Quoi ! Vous saviez donc...</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='857' part='f'>Oui, de rien je n'ignore.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='858' part='i'>Mon père a-t-il déjà consenti ?</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='858' part='f'>Pas encore ;</l>
+	<l id='859'>Mais je réponds de lui tout autant que de moi.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='860'>Je ne puis exprimer tout ce que je vous dois ;</l>
+	<l id='861'>Car mon bonheur, enfin, tient à cet hyménée.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en lui prenant les mains.</speaker>
+
+	<l id='862'>Vrai trésor de mon coeur ! - Mais, vois, la destinée</l>
+	<l id='863'>Qui veut qu'à point nommé je quitte Périgueux,</l>
+	<l id='864'>Pour m'en venir, en poste, acquiescer à tes voeux !</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, avec dignité.</speaker>
+
+	<l id='865'>Quel est ce tutoiement apostrophe pareille,</l>
+	<l id='866'>Ne s'est pas faite encor entendre à mon oreille.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en la serrant dans ses bras.</speaker>
+	<l id='867'>Tu t'y feras, petite ; on s'accoutume à tout.</l>
+	<l id='868'>Quand j'aurai de plus près intéressé ton goût...</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='869'>Encor un coup, Monsieur, réformez ces manières.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en lui pinçant le menton.</speaker>
+
+	<l id='870'>C'est ce petit nez-là qui les rend familières.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, avec indignation.</speaker>
+
+	<l id='871' part='i'>Je n'y tiens pas, je vais chercher mon père.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en riant.</speaker>
+
+	<l id='871' part='f'>Lui !</l>
+	<l id='872'>Tu te crois donc bien forte avec un tel appui ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='873'>Il sait ce qu'en me doit ; et sa dignité fière</l>
+	<l id='874'>N'entend pas raillerie en pareille matière.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='875'>Du respect pour son sang, il me tient acquité ;</l>
+	<l id='876'>Ce gentilhomme-là me traite avec bonté.</l>
+	<l id='877'>Bien loin qu'il te soutienne en ton humeur farouche,</l>
+	<l id='878'>Je m'en vais parler... Les honneurs de ta couche,</l>
+	<l id='879'>Que je lui fais signer tout ce que je te dis.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='880' part='i'>Je gage le contraire.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='880' part='f'>Eh bien tiens le voici :</l>
+	<l id='881'>La rage dans le coeur, vas lui porter ta plainte.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Les Mêmes, Le Marquis.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='882'>À vos droits les plus chers, mon père, on porte atteinte,</l>
+	<l id='883'>Monsieur vient de manquer au respect qui m'est dû.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='884'>Lui ! Du respect pour vous ! Loin qu'il y soit tenu,</l>
+	<l id='885'>Vous-même lui devez égards et déférence.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en éclatant de rire.</speaker>
+	<l id='886'>Petite fille ! Allons ! Faites la révérence.</l>
+	<l id='887'>Eh ! Tu vois bien mon coeur ; je te l'avais prédit.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, bas.</speaker>
+
+	<l id='888'>Je crois rêver ceci me confond, m'interdit.</l>
+
+<stage>Haut.</stage>
+	<l id='889'>Comment ! Vous supportez que sans autre formule,</l>
+	<l id='890'>D'un ton impertinent, autant que ridicule,</l>
+	<l id='891'>II me parle d'hymen, et qu'un aveu grossier</l>
+	<l id='892'>S'accompagne chez lui du geste familier ?</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='893'>La formule n'est rien le geste pas grand chose ;</l>
+	<l id='894'>Et je suis très flatté de ce qu'il vous propose.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='895'>À quel titre, Monsieur, s'est-il acquis des droits,</l>
+	<l id='896'>Un empire absolu, qu'à peine je conçois ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='897'>Laissez c'est entre nous affaire d'étiquette ;</l>
+	<l id='898'>Il est la branche aînée, et je suis la cadette.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='899'>Et ce qui plus ajoute à l'aveu qu'il te fait,</l>
+	<l id='900'>C'est que l'aîné, de loin, devança le cadet.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='901'>Je demeure immobile, et n'y peux rien comprendre.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='902'>Nous en aurions bien long, là dessus, à t'apprendre :</l>
+	<l id='903'>Vas, vas, si tu savais tout ce que nous savons !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='904'>Suffit qu'il est le chef, et que nous lui devons.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='905' part='i'>Moi devoir à Monsieur !</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='905' part='f'>Ma superbe cousine !</l>
+	<l id='906'>Crois donc ce qu'on te dit, et fais moins la mutine.</l>
+	<l id='907'>Je suis un malin peste, et tels de mes parents,</l>
+	<l id='908'>Se sont vus devant moi de bien petites gens ;</l>
+	<l id='909'>Demande au cher papa ; est-il pas vrai Saincenne ?</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='910' part='i'>Le Baron vous dit vrai.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='910' part='f'>Cela se croit à peine :</l>
+	<l id='911'>Il le faut avoir vu. Ce Monsieur le Baron</l>
+	<l id='912'>Nous ferait roturiers, qu'on ne dirait pas non.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Les Mêmes, Dimanche.</head>
+<sp who='DIMANCHE'><speaker>DIMANCHE, au Marquis.</speaker>
+	<l id='913'>Des portraits enlevés du fond de ma boutique,</l>
+	<l id='914'>Et chez vous apportés, Monsieur, j'en revendique</l>
+	<l id='915'>Un qui n'est pas du compte, et je l'affirme encor,</l>
+	<l id='916'>Que je ne vendrais pas, fût-ce son pesant d'or :</l>
+	<l id='917' part='i'>C'est celui de mon père.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, embarrassé</speaker>
+	<l id='917' part='f'>Hein ! Que voulez vous dire ?</l>
+	<l id='918' part='i'>Je ne vous connais pas ; sortez d'ici.</l>
+</sp>
+
+<sp who='DIMANCHE'><speaker>DIMANCHE.</speaker>
+	<l id='918' part='f'>J'admire</l>
+	<l id='919'>Que vous ne vouliez pas me connaître, en effet</l>
+	<l id='920'>Eh ! Vous-même m'avez demandé le secret...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='921'>Maraud, je te ferai chasser par les épaules.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='922'>Hon ! J'entrevois ici quelque tour des plus drôles.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, à part, toute occupée de l'affront que le Baron lui a fait.</speaker>
+	<l id='923'>Un parent de Province il faut avoir raison.</l>
+</sp>
+
+<sp who='DIMANCHE'><speaker>DIMANCHE, en colère.</speaker>
+	<l id='924' part='i'>Comment !...</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='924' part='m'>Veux-tu sortir ?</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, à part, toujours occupée de son objet.</speaker>
+	<l id='924' part='f'>Un tel outrage ! Oh ! non ;</l>
+	<l id='925' part='i'>J'en mourrais, s'il fallait l'endurer.</l>
+</sp>
+
+<sp who='DIMANCHE'><speaker>DIMANCHE, en criant.</speaker>
+	<l id='925' part='f'>Ça ! J'espère</l>
+	<l id='926'>Que l'on me permettra de remporter mon père.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à Aurélie.</speaker>
+	<l id='927' part='i'>Ma fille, éloignez-vous.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, à part.</speaker>
+	<l id='927' part='f'>Le Marquis est aux champs.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, toujours préoccupée.</speaker>
+	<l id='928' part='i'>Me manquer de la sorte !</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='928' part='f'>Holà oh tous mes gens</l>
+<stage>Ils entrent tous.</stage>
+	<l id='929'>Vite ! Que ce maraud de chez moi déguerpisse.</l>
+</sp>
+
+<sp who='DIMANCHE'><speaker>DIMANCHE.</speaker>
+
+	<l id='930'>Soit ; mais j'ai contre vous mon recours en justice.</l>
+<stage>Il aperçoit le portrait de son père et y court.</stage>
+
+	<l id='931'>Mon pauvre père ! Eh bien le voilà justement !</l>
+
+<note type="L">Carême-prenant : Le jour du mardi qui précède le carême et quelquefois tout le temps du carnaval depuis les rois. (...) On appelle aussi des Carêmes-prenants, des gens du peuple qui se masquent de façon ridicules, et qui courent les rues. [F] </note>
+	<l id='932'>Tenez ; ils m'en ont fait un carême-prenant.</l>
+	<l id='933'>La belle mascarade ! Oui ! Le casque et l'armure !</l>
+	<l id='934'>Il était cent fois mieux sous son habit de bure.</l>
+<stage>Il lit l'inscriprion du portrait.</stage>
+	<l id='935'>César-Timoléon de Saincenne ? non, non ; </l>
+	<l id='936'>Boniface Dimanche : eh ! Voilà son vrai nom.</l>
+<stage>Les gens l'entraînent hors du théâtre, toujours criant et pestant.</stage>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, riant aux éclats.</speaker>
+	<l id='937'>S'il eût continué, je mourais sur la place.</l>
+</sp>
+
+<sp who='AURÉLIE'><speaker>AURÉLIE, roujours rêvant à son idée.</speaker>
+	<l id='938'>Bon ! J'avise un moyen de punir son audace.</l>
+<stage>Elle sort.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Marquis, Le Baon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='939' part='i'>Oui ; riez, riez donc.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+	<l id='939' part='f'>Mais dame que veux-tu ?</l>
+	<l id='940'>Il faut bien s'égayer, puisque tu l'as voulu.</l>
+	<l id='941'>Toi seul t'es attiré cette lourde disgrâce.</l>
+	<l id='942'>Faire d'un fripier borgne, un des chefs de ma race !</l>
+	<l id='943'>Sois sûr que le Public en rira comme moi ;</l>
+	<l id='944'>Car ceci fera bruit, ainsi que je le crois :</l>
+	<l id='945' part='i'>Et vienne le procès...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='945' part='f'>Oh ! ça ! Changeons de thèse ;</l>
+	<l id='946' part='i'>Voulez-vous m'obliger ?</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='946' part='m'>Oui dà.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='946' part='f'>Montez en chaise,</l>
+	<l id='947'>Et retournez aux lieux d'où vous êtes venu.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='948' part='i'>En Périgord ?</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='948' part='m'>Tout droit.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='948' part='f'>À qui Diable en as-tu ?</l>
+	<l id='949'>Comment ! Pour t'embrasser, ingrat, je m'expatrie !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='950'>Votre indiscrétion me coûterait la vie.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='951'>Mais dame si tu veux, je ne parlerai pas.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='952' part='i'>Votre silence parle ; il tue.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='952' part='f'>Or, en ce cas,</l>
+	<l id='953'>La Chanoinesse aussi sera donc du voyage :</l>
+
+<note type="L">Butté : Signifie aussi, fixé à un certain point où on se tient opiniâtrement. [F]</note>
+	<l id='954'>J'y suis butté, je veux en meubler mon ménage.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='955' part='i'>Au lieu d'elle, épousez Hortense.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON.</speaker>
+
+	<l id='955' part='f'>Hortense quoi</l>
+	<l id='956'>Ce petit oeil fripon !... Attends donc : sur ma foi!</l>
+
+<note type="L">Sémillant : Qui est remuant, éveillé, qui ne se peut tenir en place. [F]</note>
+	<l id='957'>Elle me plaît assez, active, sémillante...</l>
+	<l id='958'>En fait de femme, moi, j'ai l'âme accommodante.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='959'>Eh bien ! Partez soudain : ma nièce vous suivra</l>
+	<l id='960'>À la poste prochaine on vous la conduira ;</l>
+	<l id='961'>Vous vous y marierez sans faste, sans tapage...</l>
+	<l id='962'>On publiera les bans après le mariage.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en riant.</speaker>
+
+	<l id='963'>Que mon cousin Ducreux est un drôle de corps !</l>
+	<l id='964'>Il vous bacle, en deux mots, vous conclut des accords ;</l>
+	<l id='965'>Et des deux mots pas un sur la dot qu'on emporte.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, avec poids.</speaker>
+	<l id='966'>Plutôt vous partirez, plus elle sera forte.</l>
+</sp>
+
+<sp who='LE BARON'><speaker>LE BARON, en allant vers la coulisse.</speaker>
+
+	<l id='967'>La Fleur ! Cours à la poste, amène des chevaux.</l>
+<stage>Au Marquis.</stage>
+	<l id='968'>Tu vois ; à tes desirs j'immole mon repos.</l>
+	<l id='969'>Mais je te quitterai le coeur plein d'amertume :</l>
+	<l id='970'>Tu n'imagines pas combien je m'accoutume</l>
+	<l id='971'>À te croire vraiment de mon sang, de mon nom :</l>
+	<l id='972'>Communauté de biens fixe l'opinion.</l>
+	<l id='973'>Le Duc, au même prix, t'adopterait je gage ;</l>
+	<l id='974'>Ça ! Ne vas pour lui nous faire cet outrage :</l>
+	<l id='975'>Mon nom te sied, il faut t'en tenir à cela ;</l>
+	<l id='976'>Et parti de si ioin, tu peux bien rester là.</l>
+<stage>Il l'embrasse.</stage>
+	<l id='977'>Pauvre cher homme ! Vas, ton embarras me touche.</l>
+<stage>Il sort en riant.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='978'>Quel homme ! Quoi ! Toujours le sarcasme à la bouche !</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Marquis, Davon.</head>
+<sp who='DAVON'><speaker>DAVON, dans le plus grand trouble.</speaker>
+	<l id='979' part='i'>Monsieur, tout est perdu.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='979' part='f'>Tout est perdu, Davon ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='980' part='i'>Perdu, perdu, vous dis-je.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='980' part='f'>Eh de quelle façon ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='981'>On sait tout ; l'Intendant à découvert la mèche.</l>
+
+<note type="L">Pie grièche : Est une espèce de pie sauvage de couleur cendrée. [F]</note>
+	<l id='982'>Tout-à-l'heure, haussant sa voix de pie-grieche,</l>
+	<l id='983'>De l'entretien secret qui vous tient en souci,</l>
+	<l id='984' part='i'>II a laissé percer...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='984' part='m'>Quoi ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='984' part='f'>Deux mots les voici.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='985' part='i'>Voyons.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON, après avoir réfléchi.</speaker>
+
+	<l id='985' part='f'>Tout combiné, je n'ose vous les dire :</l>
+	<l id='986' part='i'>Vous en mourrez.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='986' part='f'>D'avance, à peine je respire :</l>
+	<l id='987'>Autant vaut m'achever, et décider mon sort.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON, en traînant la parole.</speaker>
+
+	<l id='988' part='i'>C'est... Rat...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='988' part='m'>Rat ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='988' part='m'>Rat de cave à Béziers.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='988' part='f'>Je suis mort.</l>
+	<l id='989' part='i'>Et ces mots !...</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='989' part='f'>Oui, Mansieur, oui; j'ai cru les entendre.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='990'>Allons, s'il est ainsi, je n'ai plus qu'à me pendre.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='991' part='i'>Ma foi, j'en ai grand peur.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='991' part='f'>Quel funeste incident !</l>
+	<l id='992'>Si je graissais la patte à ce chien d'Intendant !</l>
+	<l id='993'>Avec tous ces gens-là, c'est ainsi que l'on traite :</l>
+	<l id='994'>Comme un effet Marchand, un Intendant s'achète.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='995'>Ils coûtent gros : - suivant ma petite raison,</l>
+	<l id='996'>Il est toujours bien temps d'enrichir un fripon.</l>
+	<l id='997'>Voyez venir le Duc, et sur sa contenance,</l>
+
+	<l id='998' part='i'>Jugez...</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='998' part='f'>Enfuyons-nous le voici qui s'avance.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Le Duc, Clénard.</head>
+<sp who='LE DUC'><speaker>LE DUC, vivement.</speaker>
+	<l id='999'>Vous me faites trembler : Saincenne aurait appris</l>
+	<l id='1000'>L'état abominable où mes biens sont réduits ?</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD.</speaker>
+	<l id='1001' part='i'>Je le crains.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1001' part='m'>Eh ! Sur quoi ?</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD.</speaker>
+
+	<l id='1001' part='f'>Son Généalogiste </l>
+	<l id='1002'>A lâché quelques mots : il nous suit à la piste.</l>
+	<l id='1003'>Je lui crois le coup-d'oeil et sûr et pénétrant :</l>
+	<l id='1004'>Qui sait tromper autrui, croit qu'autrui le lui rend ;</l>
+	<l id='1005'>L'intérêt l'avertit. Sur le faux noble il donne</l>
+	<l id='1006'>De la fausse monnaie, et prend de lui la bonne ;</l>
+	<l id='1007'>Il craint que Monseigneur n'en veuille prendre aussi...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, avec trouble.</speaker>
+	<l id='1008'>Clénard, je suis perdu, si la chose est ainsi.</l>
+	<l id='1009'>L'hymen rompu, le feu se met dans mes affaires :</l>
+	<l id='1010'>Mes mille créanciers, Juifs, Arabes, Corsaires,</l>
+	<l id='1011'>Vont saisir, vont piller ; un incident pareil...</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD.</speaker>
+
+	<l id='1012'>Si j'ose à Monseigneur proposer un conseil,</l>
+	<l id='1013'>Voyez venir votre homme ; il vous sera facile</l>
+	<l id='1014'>De juger ce qu'il pense, à son air, à son style.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1015'>Oui, vous avez raison : l'épreuve est sûre, et si...</l>
+</sp>
+
+<sp who='CLÉNARD'><speaker>CLÉNARD.</speaker>
+
+	<l id='1016'>Il vient ; de tout bientôt vous serez éclairci.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='11'><head>SCÈNE XI. Le Duc, Le Marquis.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, au fond du théâtre.</speaker>
+	<l id='1017'>Il n'est pas trop aisé de risquer l'abordage ;</l>
+	<l id='1018'>Je lui vois, comme Duc, sur moi trop d'avantage.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part, sur le devant.</speaker>
+	<l id='1019'>Qui croirait qu'il fallût, faute d'un million,</l>
+	<l id='1020'>Ménager ces gens-là ! Dure position !</l>
+	<l id='1021'>Il traîne, ce me semble, et tire de l'arrière ;</l>
+	<l id='1022'>Hon ! ce n'est pas trop là son allure ordinaire.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part, en s'avançant.</speaker>
+	<l id='1023'>D'avance, je remarque ( on voit ce que l'on craint )</l>
+	<l id='1024'>Je ne sais quoi de noir, sur son visage empreint.</l>
+<stage>Haut avec embarras.</stage>
+	<l id='1025'>À bien de sots discours, un grand nom nous expose,</l>
+	<l id='1026' part='i'>Monsieur le Duc.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+
+<note type="L">Malepeste : Imprécation qu'on fait contre quelque chose, et quelquefois avec admiration. [F]</note>
+	<l id='1026' part='f'>Malpeste ! Il va droit à la chose.</l>
+
+<stage>Haut.</stage>
+	<l id='1027'>Oui, l'on croit tout savoir ; on veut tout contrôler.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+	<l id='1028'>C'est de mon deshonneur qu'il prétend me parler.</l>
+<stage>Haut avec plus d'embarras.</stage>
+	<l id='1029'>Ce qui m'étonne plus, en fait de médisance...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id='1030'>Je fois s'embarrasser toute sa contenance.</l>
+	<l id='1031' part='i'>Ceci va mal.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas.</speaker>
+	<l id='1031' part='f'>Le Duc cherche à part lui, comment</l>
+	<l id='1032'>Il pourra me tourner son mauvais compliment.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id='1033'>Peut-être il n'osera me parler de rupture.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, haut.</speaker>
+	<l id='1034'>Il serait bien fâcheux, qu'au moment de conclure.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id='1035'>Voilà le mot fatal, je n'ai pu l'éviter ;</l>
+	<l id='1036'>Essayons, par mon air, de le déconcerter.</l>
+<stage>Haut.</stage>
+	<l id='1037'>Vous croyez donc, Monsieur, à force d'impostures.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, vivement.</speaker>
+	<l id='1038'>Impostures, Monsieur la chose est des plus sûres ;</l>
+	<l id='1039' part='i'>Demandez à Stemmate.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, en colère.</speaker>
+
+	<l id='1039' part='f'>Ah parbleu ! Oui ; voilà</l>
+	<l id='1040'>Des garants bien choisis, que vous nous citez-là !</l>
+	<l id='1041'>Oh bien ! Si vous n'avez que des preuves semblables !</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='1042' part='i'>Lesquelles faut-il donc ?</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1042' part='f'>Toutes sont récusables.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1043'>Comment ! Ce que Stemmate a vu, touché, senti !</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1044'>Toujours cet homme-là Stemmate en a menti ;</l>
+	<l id='1045' part='i'>Demandez à Clénard.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1045' part='f'>Pensez-vous qu'on défere</l>
+	<l id='1046' part='i'>À de pareils témoins ?</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1046' part='m'>J'y crois fort.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1046' part='f'>Et moi guère :</l>
+	<l id='1047'>J'ai pour les Intendants, la même aversion</l>
+	<l id='1048'>Que vous ressentez vous, pour les gens de blason,</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, en traînant ses paroles.</speaker>
+	<l id='1049' part='i'>En ce cas.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, de même.</speaker>
+	<l id='1049' part='m'>En ce cas.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à demi-voix.</speaker>
+	<l id='1049' part='f'>Notre afaire est rompue.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+	<l id='1050'>C'en est fait ; et je sens que ce mot là me tue.</l>
+	<l id='1051'>Quoi que je puisse dire, il ne me croira pas.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+
+	<l id='1052'>Tâchons de lui cacher mon mortel embarras.</l>
+<stage>Il se met à marcher dans la chambre.</stage>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+
+	<l id='1053'>Le voilà qui s'en va ne souffrons pas qu'il sorte :</l>
+	<l id='1054'>Je suis perdu, s'il met le pied hors de la porte.</l>
+<stage>Il fuit par derrière le Duc, en marchant sur la pointe du pied : le Duc fait le tour de la chambre, et revient à sa place ; le Marquis revient;à la sienne.</stage>
+<stage>Bas.</stage>
+	<l id='1055' part='i'>Rien n'est désespéré le Duc reste.</l>
+<stage>Ils gardent tous deux le silence, toussant, se mouchant, prenant du tabac, comme des gens embarrassés.</stage>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id='1055' part='f'>Ceci</l>
+	<l id='1056'>File du long : tant mieux ! Tant mieux ! J'en suis ravi.</l>
+	<l id='1057'>Le dernier mot lui coûte, et le respect l'arrête.</l>
+	<l id='1058'>Je voudrais bien ne pas me jetter à sa tête ;</l>
+	<l id='1059'>Faute de s'avancer, pourtant il ne faut pas...</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas.</speaker>
+
+	<l id='1060'>On peut avec un Duc, faire les premiers pas.</l>
+	<l id='1061'>Il faut, coûte qui coûte, enlever tout obstacle.</l>
+<stage>Tous deux en même-temps, se jettant l'un vers l'autre.</stage>
+	<l id='1062' part='i'>Monsieur le Duc. </l>
+
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1062' part='m'>Marquis.</l>
+<stage>En se retirant, à part.</stage>
+	<l id='1062' part='m'>À merveille !</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en se retirant aussi.</speaker>
+	<l id='1062' part='f'>À miracle</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+	<l id='1063' part='i'>Il revient.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas.</speaker>
+
+	<l id='1063' part='m'>Il amène.</l>
+
+<stage>Haut.</stage>
+
+	<l id='1063' part='f'>II faudrait s'expliquer.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1064'>Je n'ai pas prétendu sur un mot me piquer.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1065'>Rien ne manque jamais, que faute de s'entendre.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1066'>Eh que ne parlez-vous aussi sans plus attendre :</l>
+	<l id='1067'>Voyons si, de nous deux, l'un a raison, ou tort.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1068' part='i'>La calomnie...</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1068' part='f'>Oh moi, je la hais à la mort.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1069'>Et moi donc j'en ai peur cent fois plus que du Diable.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1070' part='i'>C'est un fléau d'enfer.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1070' part='f'>Une peste effroyable.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1071'>Avec la calomnie, on ne sait ce qu'on tient.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1072'>Vous rompez un traité, lorsque plus il convient</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+<note type="L">Peste noire : Maladie mortelle qui décida toute l'Europe de 1348 à 1351.</note>
+
+	<l id='1073'>Il faut bien nous garder d'une peste si noire.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1074'>Oh ! Pour moi, j'ai juré de ne jamais rien croire.'</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1075'>Je vous en livre autant ; et, tenez, preuve en main ;</l>
+	<l id='1076'>Ils m'ont fait parvenir un écrit clandestin.</l>
+<stage>Il lui donne la lettre anonyme qu'il a reçue.</stage>
+	<l id='1077'>Où donc en serions-nous, si sottement crédule,</l>
+	<l id='1078'>J'eusse tenu pour vrai cet avis ridicule ?</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en lui remettant aussi la lettre anonyme qui lui a été adressée.</speaker>
+	<l id='1079'>Et vous, croyez-vous donc qu'on vous ait épargné ?</l>
+	<l id='1080'>Ce billet malhonnête, et qu'ils n'ont pas signé...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, déchire le billet.</speaker>
+	<l id='1081'>Voilà le cas qu'on fait de tout papier semblable.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, déchire de son côté.</speaker>
+	<l id='1082'>Les hommes ! Mon cher Duc ! C'est l'engeance du Diable.</l>
+	<l id='1083' part='i'>Qu'on vienne...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1083' part='f'>Au premier mot, je les arrête court.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1084'>Il sauront beau crier, je suis devenu sourd.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1085'>Parbleu ! Voilà traiter avec pleine franchise !</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1086' part='i'>Oui ; le coeur comme on dit, sur les lèvres.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1086' part='f'>J'avise</l>
+	<l id='1087'>Que d'une et d'autre part, tout est bien éclairci.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1088'>Les gens de qualité traitent toujours ainsi.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1089'>Pour gage du traité, recevez l'embrassade.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, en l'embrassant.</speaker>
+	<l id='1090'>Ainsi les Chevaliers se donnent l'accolade.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1091' part='i'>Tout à vous.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1091' part='m'>Pour la vie.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+	<l id='1091' part='f'>Oh ! Du coup, je le tiens.</l>
+<stage>Il sort.</stage>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, bas.</speaker>
+	<l id='1092'>Le voilà de mon nom aussi sûr que du sien.</l>
+<stage>Ils sortent en se faisant de grandes démonstrations.</stage>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='LE COMTE'><speaker>LE COMTE, seul.</speaker>
+	<l id='1093'>J'attends Hortense ici,je la guette au passage /</l>
+	<l id='1094'>Ce que je viens d'entendre ; un ton si vrai, si sage ;</l>
+	<l id='1095'>Ce juste éloignement pour l'hymen du Baron,</l>
+	<l id='1096'>Son refus motivé par la saine raison ;</l>
+	<l id='1097'>Cette raison, de grâce, et de douceur ornée,</l>
+	<l id='1098'>Tout cela ne part point d'une tête tournée /</l>
+	<l id='1099'>Les cerveaux éventés ne parlent point ainsi.</l>
+	<l id='1100'>« Monsieur, lui disAit-elle, à ce sage parti</l>
+	<l id='1101'>Par mes réflexions je me vois décidée ;</l>
+	<l id='1102'>Je me fais de l'hymen une trop haute idée :</l>
+	<l id='1103'>Avant que de songer à des liens si doux,</l>
+	<l id='1104'>Je veux connaître, aimer, estimer, mon époux. »</l>
+	<l id='1105'>S'il se pouvait qu'Hortense en effet moins légère...</l>
+	<l id='1106'>Si son air étourdi cachait quelque mystère !</l>
+	<l id='1107'>Si... je cherche un moyen de pouvoir me flatter.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE II. Le Comte, Hortense.</head>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1108'>Ma cousine, un moment, daigniez vous arrêter.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='1109'>Bon ! Vous allez me dire encor que je suis folle.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1110'>Non ; je ne vous crois plus légère, ni frivole.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1111'>Ah ! Ah ! Depuis quand donc ce changement soudain ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1112'>Depuis que du Baron vous refusez la main,</l>
+	<l id='1113'>Et d'un ton, ah ! D'un ton, bien fait pour me surprendre.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1114' part='i'>Qui vous a dit ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1114' part='f'>C'est moi qui viens de tout entendre ;</l>
+	<l id='1115' part='i'>J'étais caché.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1115' part='f'>Caché mais cela n'est pas bien</l>
+	<l id='1116'>De venir écouter un secret entretien.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1117' part='i'>Oh ! Vous m'avez ravi !</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1117' part='m'>Bon !</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1117' part='f'>Le ton de décence.</l>
+	<l id='1118'>La froide dignité, la juste convenance...</l>
+	<l id='1119'>Tout ce que vous étiez quand je vous vis d'abord.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, en riant.</speaker>
+
+	<l id='1120'>Courage ! Allons cousin, encore un peu plus fort !</l>
+	<l id='1121'>Vous êtes étonnant pour voir tout à l'extrême.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1122'>Hortense, je vous vois ainsi que je vous aime.</l>
+	<l id='1123'>Avec moi désormais plus dedéguisement ;</l>
+	<l id='1124' part='i'>C'est soin perdu ; je sais votre secret.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1124' part='f'>Comment !</l>
+	<l id='1125' part='i'>Que voulez-vous donc dire ? Et...</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1125' part='f'>Tenez, je parie</l>
+	<l id='1126'>Que c'est un jeu joué que votre étourderie.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, témoigne d'abord de la surprise elle se remet ensuite, et reprend son air et son ton gai.</speaker>
+
+	<l id='1127' part='i'>Oui ; c'est un fait exprès.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1127' part='f'>Voilà parler cela :</l>
+	<l id='1128'>Et - le motif secret de ce petit jeu là ?</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1129' part='i'>C'est de vous dégoûter de m'aimer.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1129' part='f'>Ah ! De grâce !</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1130' part='i'>Vrai.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1130' part='f'>De ce persiflage à la fin je me lasse.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1131'>Vous ne me croyez pas ? J'ai tenté cet essai :</l>
+	<l id='1132'>Le vrai, dit en riant, n'en est pas moins le vrai.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1133'>À ce mauvais propos, quoi ! Votre esprit s'attache.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1134' part='i'>Quand quelque chose est là,</l>
+<stage>En montrant sa tête.</stage>
+
+	<l id='1134' part='f'>rien, rien ne l'en arrache.</l>
+
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1135'>Parbleu ! C'est pousser loin le goût de plaisanter.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Le Comte, Hortense, Davon.</head>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='1136'>Monsieur, voulez-vous bien un moment m'écouter ?</l>
+<stage>Il montre un porte-feuille plein de papiers.</stage>
+
+	<l id='1137'>Voici, voici la dot qu'au Baron l'on destine.</l>
+	<l id='1138'>Ce don, de votre père avance la ruine ;</l>
+	<l id='1139' part='i'>Je ne puis le cacher.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1139' part='f'>Donne-moi ces papiers :</l>
+	<l id='1140' part='i'>Le Baron les tiendra de moi.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='1140' part='f'>Très volontiers.</l>
+<stage>Il lui donne le porte-feuille.</stage>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, à Hortense.</speaker>
+
+	<l id='1141'>Vous ne voulez donc pas absolumenmt m'instruire ?</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, en sortant, gaiement.</speaker>
+	<l id='1142'>Cousin, j'en ai trop dit ; je n'ai plus rien à dire.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Comte, Davon.</head>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1143'>Hélas ! D'un vain espoir j'avais su me flatter ;</l>
+	<l id='1144'>Avec ces têtes-là, sur quoi peut-on compter ?</l>
+<stage>Il sort.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='5'><head>SCÈNE V. Le Marquis, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1145' part='i'>As-tu remis la somme ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON, avec embarras.</speaker>
+	<l id='1145' part='f'>Oui ; j'y vais tout-à-l'heure :</l>
+
+	<l id='1146' part='i'>Mais si...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1146' part='f'>Mais si ! Mais quoi ! Tu veux donc qu'il demeure ?</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+	<l id='1147'>Hortense à l'épouser ne veut pas consentir.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1148'>En bien ! Avec la dot, vas le faire partir:</l>
+	<l id='1149' part='i'>C'est tout ce qu'il veut.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON.</speaker>
+
+	<l id='1149' part='m'>Mais...</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1149' part='f'>Quoi qu'il me déshonore!</l>
+	<l id='1150'>Mourir sur le fumier et mourir noble encore.</l>
+	<l id='1151'>Crains-tu que je ne fasse une mauvaise fin ?</l>
+	<l id='1152'>Gentilhomme, crois-moi, jamais n'est mort de faim :</l>
+	<l id='1153' part='i'>Le nom fait vivre. - Pars.</l>
+
+</sp>
+
+<sp who='DAVON'><speaker>DAVON, à part.</speaker>
+	<l id='1153' part='f'>Ah ! Que le ciel nous aime !</l>
+	<l id='1154'>Et lui sauve les maux qu'il se fait à lui-même !</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, seul.</speaker>
+	<l id='1155'>J'affecte du sang-froid, bien plus que je n'en ai ;</l>
+	<l id='1156'>Je vois le précipice où je suis entraîné.</l>
+	<l id='1157'>Mon sort tient au retour du vieux Comte Desborde ;</l>
+	<l id='1158'>Qu'il revienne, du coup, il faut montrer la corde :</l>
+	<l id='1159'>De cinq cents mille francs je me trouve en défaut.</l>
+	<l id='1160'>À cet accident-là, parons tout au plutôt.</l>
+	<l id='1161'>Le moyen, c'est d'unir Cléonte avec ma fille ;</l>
+	<l id='1162'>Il est noble, a du bien : admis dans ma famille,</l>
+	<l id='1163'>Sa générosité me répond au besoin</l>
+	<l id='1164'>D'un secours que, sans lui, j'irais chercher bien loin.</l>
+	<l id='1165'>Ma fille veut un Duc ; au fond, j'en suis la casse :</l>
+	<l id='1166'>Lui donnant de l'orgueil, j'ai poussé trop la dose.</l>
+<stage>Il réfléchit.</stage>
+	<l id='1167'>Oui ? Par un autre orgueil combattons celui-là :</l>
+	<l id='1168'>Jamais je n'obtiendrai rien d'elle que par-là.</l>
+	<l id='1169'>Voici tout justement Cléonte qui s'avance.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Marquis, Cléonte.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='1170'>Venez, mon pauvre ami, me conter votre chance.</l>
+	<l id='1171'>Ma fille vous a donc donné votre congé ?</l>
+	<l id='1172'>Moquez-vous d'elle, allez ; je vous ai bien vengé.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE, avec vivacité.</speaker>
+	<l id='1173' part='i'>Vengé !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1173' part='f'>Vengé, vous dis-je ; et de cette vengeance</l>
+	<l id='1174'>Que le sexe sent mieux, et dont plus il s'offense.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE, transporté de joie.</speaker>
+	<l id='1175'>Voulez-vous bien, Monsieur, m'expliquer tout-à-fait...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1176'>Je vous le dirai ; mais gardez-moi le secret.</l>
+<stage>Avec un air de mystère.</stage>
+	<l id='1177'>La Duchesse d'Ossonne ; ai-je dit, vous épouse.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+	<l id='1178' part='i'>Eh bien ! Marquis ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1178' part='f'>Eh bien ! Ma fille en est jalouse :</l>
+	<l id='1179'>Je l'ai vue, et rougir et pâlir tour-à-tour ;</l>
+
+<note yype="L">Enter : Greffer, faire des entes. Se dit aussi figurément en terme de morale dans cette phrase : une telle maison a été entée dans celle-là ; pour dire, que le bien, le nom et les armes d'une maison est passée dans une autre par quelque alliance. [F]</note>
+	<l id='1180'>Excès d'orgueil, enté sur un excès d'amour,</l>
+	<l id='1181'>La travaille en dedans ; je vous le jure encore :</l>
+	<l id='1182'>De ce dépit jaloux, qui ronge et qui dévore,</l>
+	<l id='1183'>Elle en a, tout autant que femme en peut porter.</l>
+	<l id='1184'>C'est à vous désormais de vous bien comporter ;</l>
+	<l id='1185'>Jouez, en lui parlant, l'humeur et le caprice ;</l>
+	<l id='1186'>Faites de mon propos prospérer la malice.</l>
+	<l id='1187' part='i'>Êtes-vous malin, vous ?</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1187' part='m'>On le dit.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1187' part='f'>Bon tant mieux.</l>
+	<l id='1188'>Quand vous aurez traité la chose au sérieux,</l>
+	<l id='1189'>Je veux en bon accord, tous les deux vous remettre.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1190'>C'est ce que je suis loin, Monsieur, de vous promettre.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1191'>Vous me le tiendrez donc sans me l'avoir promis.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1192' part='i'>Non pas, assurément.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1192' part='m'>Je le veux.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1192' part='f'>Je ne puis.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1193'>J'y compte, et je prends jour pour la cérémonie.</l>
+<stage>À part.</stage>
+	<l id='1194'>Allons piquer d'honneur notre fière Aurélie.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id='1195'>Je cherchais la vengeance, elle vient me trouver ;</l>
+	<l id='1196'>Quel plaisir ! De quel air je m'en vais la braver !</l>
+	<l id='1197'>Double rivalité, d'attraits, et de naissance !</l>
+	<l id='1198'>Oh ! J'acquiers un grand prix par cette concurrence.</l>
+	<l id='1199'>Ce que femme veut moins, une autre le voulant,</l>
+	<l id='1200'>Le lui fera vouloir avec acharnement.</l>
+	<l id='1201'>La voici qui s'avance ; allons, ferme, courage !</l>
+	<l id='1202'>Prenons l'air et le ton de notre personnage.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='9'><head>SCÈNE IX. Cléonte, Aurélie.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1203' part='i'>Monsieur, à quand la noce ?</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1203' part='f'>Au gré de mon désir,</l>
+	<l id='1204'>Le fortuné moment n'en peut trop tôt venir.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1205'>Cette joie empressée est bien peu naturelle.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1206'>Pourquoi donc, s'il vous plaît ? L'affaire est assez belle...</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1207'>Belle ! Où donc, je vous prie, où voyez-vous cela ?</l>
+	<l id='1208'>Moi, je vois tout commun dans cette union-là.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1209' part='i'>Comment ! Une Duchesse.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1209' part='f'>Oh ! La grande merveille !</l>
+	<l id='1210'>De ce mot imposant remplissez-nous l'oreille :</l>
+	<l id='1211'>L'ambition mesquine ! On vous la passerait</l>
+	<l id='1212' part='i'>Si vous étiez d'hier.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1212' part='f'>Eh ! Mais, ce tabouret.</l>
+	<l id='1213' part='i'>Qui vous tourne l'esprit !</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1213' part='f'>En ce tabouret même,</l>
+	<l id='1214'>Jette sur votre hymen un ridicule extrême :</l>
+	<l id='1215'>Votre femme le perd en vous époussant. Fï !</l>
+	<l id='1216'>Le sot rôle à jouer que celui d'un mari,</l>
+	<l id='1217'>Dont le nom doit coûter des honneurs à sa femme !</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1218'>J'admire qu'avec vous, l'hymen ne soit, Madame,</l>
+	<l id='1219'>Qu'un traffic de grandeurs et de rang à la Cour,</l>
+	<l id='1220'>Stipulé par l'orgueil, à l'insu de l'amour.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1221'>L'amour, vous voudriez donc bien me faire accroire</l>
+	<l id='1222'>Qu'il joue un rôle aussi dans toute cette histoire.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1223' part='i'>Un rôle ! Essentiel.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1223' part='m'>Cela n'est pas vrai,</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1223' part='f'>Non ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1224' part='i'>Non.</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id='1224' part='f'>Mais vous l'affirmez avec conviction.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1225'>C'est que je sais juger un coeur tel que le vôtre :</l>
+	<l id='1226'>Allez vous m'aimez trop pour en aimer une autre.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE, d'un ton moqueur.</speaker>
+
+	<l id='1227'>Pour rendre ceci vrai, votre esprit conséquent?</l>
+	<l id='1228'>N'a qu'à mettre au passé ce qu'il met au présent.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1229'>Arrêtez ; grâce au moins du ton d'impertinence..</l>
+
+<stage>Elle feint de pleurer.</stage>
+	<l id='1230'>Aveugle que j'étais ! Ma tendre confiance...</l>
+</sp>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id='1231'>Oh ! non ; dispensez-vous de pleurer, s'il vous plaît ;</l>
+	<l id='1232'>Les larmes du dépit sont d'un faible intérêt.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, avec fierté.</speaker>
+
+	<l id='1233'>Du dépit qui pourrait m'en donner, je vous prie ?</l>
+	<l id='1234'>Votre prétention me paraît bien hardie ;</l>
+	<l id='1235'>Du dépit pour un coeur par moi répudié,</l>
+	<l id='1236'>Et qui s'est, de dépit ailleurs, réfugié !</l>
+	<l id='1237'>Oh ! Vous calculez mal les faiblesses humaines,</l>
+	<l id='1238'>Si vous nous supposez de tels sujets de peines ;</l>
+	<l id='1239'>On n'a point de dépit quand on rompt le premier.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE, à part.</speaker>
+
+	<l id='1240'>Elle a ma foi raison je ne puis le nier :</l>
+	<l id='1241'>En ce cas, tout ceci n'a rien qui l'humilie.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, à part.</speaker>
+
+	<l id='1242' part='i'>Frappons le coup plus fort.</l>
+
+<stage>Haut.</stage>
+	<l id='1242' part='f'>Soyez sûr que Aurélie</l>
+	<l id='1243'>A de quoi remplacer un coeur qu'elle a perdu.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE, à part.</speaker>
+
+	<l id='1244'>Parbleu ! C'est singulier ; je n'aurais jamais cru</l>
+	<l id='1245'>Qu'il fût si mal aisé de se venger des femmes :</l>
+	<l id='1246'>Elles ont des retours qui subjuguent nos âmes.</l>
+<stage>Haut.</stage>
+	<l id='1247'>Écoutez n'allons pas agir en étourdis ;</l>
+	<l id='1248'>Votre père voudrait que nous fussions unis :</l>
+	<l id='1249'>Sans votre ambition qui tient de la manie...</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1250'>Vous me la reprochez ; je vous la sacrifie.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+
+	<l id='1251'>Ce sacrifice-là ne m'est pas démontré.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, tendrement.</speaker>
+
+	<l id='1252'>Dans le fond de-mon coeur il est trop avéré.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+
+	<l id='1253' part='i'>Vraiment ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, bas.</speaker>
+
+	<l id='1253' part='m'>Bon ! Cela prend.</l>
+
+<stage>Haut.</stage>
+	<l id='1253' part='f'>Oui, vous devez m'en croire ;</l>
+	<l id='1254'>Titre et rang, sont des mots sortis de ma mémoire.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+
+	<l id='1255' part='i'>Ô ciel ! S'il était vrai ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1255' part='f'>Mais rien n'est moins douteux.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE, en lui baisant la main.</speaker>
+
+	<l id='1256'>En ce cas, des mortels je suis le plus heureux.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='10'><head>SCÈNE X. Les mêmes, Le Comte, qui entre précipitamment.</head> 
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1257'>Ma soeur écoutez-moi ; le temps , la chose presse :</l>
+	<l id='1258'>Tout va selon vos voeux, et vous serez Duchesse.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, avec vivacité.</speaker>
+
+	<l id='1259' part='i'>Duchesse !</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE.</speaker>
+	<l id='1259' part='f'>Il serait trop long de vous dire comment</l>
+	<l id='1260'>Mon mariage a pu manquer subitement ;</l>
+	<l id='1261'>Il faut à cet accord en suppléer un autre ; </l>
+	<l id='1262'>Et mon hymen rompu, nécessite le vôtre.</l>
+
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, après un peu de réflexion.</speaker>
+
+	<l id='1263'>On m'avait de tout temps prédit le tabouret ;</l>
+	<l id='1264'>Il était fou d'aller contre un pareil décret.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+
+	<l id='1265' part='i'>Quoi ! Vous pourriez encor ?</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1265' part='f'>Fuit-on sa destinée,</l>
+	<l id='1266'>Cléonte ! Par mon sort, je me vois entraînée ;</l>
+	<l id='1267'>L'astre prédominant qui régla mon destin,</l>
+	<l id='1268'>Veut que j'aille à la Cour ; allons, j'y cède enfin :</l>
+<stage>Tendrement.</stage>
+	<l id='1269'>Mais non sans regretter une chaîne si belle.</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+	<l id='1270'>Allez, femme perfide ! Allez, femme infidèle !</l>
+	<l id='1271'>Tristement attachée à votre sot époux,</l>
+	<l id='1272'>Caressez par orgueil l'objet de vos degoûts :</l>
+	<l id='1273'>La honte d'un tel choix vous punit et me venge.</l>
+	<l id='1274'>Sous la loi du destin puisqu'il faut qu'on se range,</l>
+	<l id='1275'>J'adopte ce conseil, et sans plus consulter,</l>
+	<l id='1276'>Mon sort est de vous fuir et de vous détester.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+<note type="L">Dais : Meuble précieux qui sert de parade et de titre d'honneur chez les princes et les ducs. Il est fait en forme du haut d'un lit, composé de trois pentes, d'une fonds et d'un dossier. [F]</note>
+
+	<l id='1277'>Moi, lancée à la Cour, et sous le dais placée,</l>
+	<l id='1278'>Je vous aurai toujours présent à la pensée.</l>
+<stage>Ils sortent tous deux par des côtes différents.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='11'><head>SCÈNE XI. Le Marquis, Le Comte.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1279'>Eh bien ! Mon Colonel ! La noce est en bon train ;</l>
+	<l id='1280'>Je doublerais la dot, et que ce fût demain.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1281'>La noce, croyez-moi, n'est pas prête à se faire.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='1282' part='i'>Pas prête pourquoi donc ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1282' part='f'>Il n'est plus temps, mon père,</l>
+	<l id='1283'>De rien dissimuler ; le Baron m'a tout dit.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='1284'>Je pense, sur ma foi ! qu'il a perdu l'esprit.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1285'>Non ; je n'ai rien perdu que ma noble origine.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1286'>Quelque chose a soudain détraqué la machine.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1287'>Appellez le Baron qu'il prononce entre nous.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1288'>Lui ! Je vous tiens pour fou, mon fils, et des plus fous.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1289'>Une telle folie est du moins estimable ;</l>
+	<l id='1290'>Elle consiste à faire un aveu véritable ;</l>
+	<l id='1291'>A dire qui je suis, avant de m'engager.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1292' part='i'>Ça ! ne badinons pas.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1292' part='f'>Rien ne saurait changer</l>
+	<l id='1293'>La résolution que sur ce point j'ai prise.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1294'>Si vous vous avisiez d'une telle sottise...</l>
+	<l id='1295' part='i'>Ne vous y jouez pas.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1295' part='f'>Mon père, les enfants</l>
+	<l id='1296'>Sont-ils complices nés, des torts de leurs parents ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1297'>Des torts ! C'est bientôt dit la parole est légère :</l>
+	<l id='1298'>Tout devient tort, mon fils, sitôt qu'on l'exagère ;</l>
+	<l id='1299'>Mais ce jugement même est un tort de l'esprit :</l>
+	<l id='1300'>Il faut être du siècle et du monde oùl'on vit.</l>
+	<l id='1301'>Ce que vous supposez, (et qu'il ne faut pas croire)</l>
+	<l id='1302'>Eh bien ! Quand ce serait en effet mon histoire,</l>
+	<l id='1303'>Serais-je le premier qui, maltraité du sort,</l>
+	<l id='1304'>Eût trouvé la noblesse au fond d'un coffre-fort,</l>
+	<l id='1305'>Et se fût fait Marquis avec un peu d'adresse?</l>
+	<l id='1306'>Quel mal fait cet emploi d'une grande richesse ?</l>
+	<l id='1307'>Le pauvre en souffre-t-il est-ce un surcroît d'impôt</l>
+	<l id='1308'>Qui surcharge sa peine, et trouble son repos ?</l>
+	<l id='1309'>Tout en va-t-il plus mal dans la chose publique ?</l>
+	<l id='1310'>Damis a, pour monter, pris cette route oblique,</l>
+	<l id='1311'>Et les grains au marché, n'en ont pas renchéri.</l>
+	<l id='1312'>Que je hais l'esprit dur, le caractère aigri,</l>
+	<l id='1313'>Qui voit partout le mal, où partout le suppose ;</l>
+	<l id='1314'>D'un fétu fait un monstre ; et de rien quelque chose !</l>
+	<l id='1315'>Ce travers, croyez-moi, vous perdrait à la Cour.</l>
+	<l id='1316'>Le Baron sait, à tout, donner un mauvais tour :</l>
+	<l id='1317'>Votre hymen, ( ce point-là doit certes vous suffire )</l>
+	<l id='1318'>Votre hymen détruira ce qu'un fat a pu dire ;</l>
+	<l id='1319'>Et pour croire aux faux bruits dont il veut nous tâcher,</l>
+	<l id='1320'>Qui Diable en Périgord voudra l'aller chercher ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1321'>Mon pere, ce discours n'est qu'un vain subterfuge :</l>
+	<l id='1322'>J'en appelle à vous-même, oui, soyez votre juge,</l>
+	<l id='1323'>Ou plutôt que l'honneur soit le vôtre et le mien ;</l>
+	<l id='1324'>À nos propres regards ne dissimulons rien :</l>
+	<l id='1325'>Tout mensonge est affreux, il blesse la droiture.</l>
+	<l id='1326'>Qu'est-ce donc que vouer sa vie à l'imposture ?</l>
+	<l id='1327'>Admettre le besoin et la nécessité</l>
+	<l id='1328'>D'un mensonge éternel, avec art concerté ?</l>
+	<l id='1329'>De ce que vous signez, rien n'est vrai, légitime ;</l>
+	<l id='1330'>Votre seing est un faux, et tout faux est un crime.</l>
+	<l id='1331'>Eh ! Que prétendez-vous ? Être un peu plus qu'un tel :</l>
+	<l id='1332'>Le bel honneur surtout lorsqu'un mépris réel...</l>
+	<l id='1333'>Pardonnez-moi ce mot, il échappe à ma bouche :</l>
+	<l id='1334'>Je vous aime, mon père, et votre honneur me touche.</l>
+	<l id='1335'>Je ne puis devant vous feindre ni déguiser :</l>
+	<l id='1336'>Au reste, quelque loi qu'on puisse m'imposer,</l>
+	<l id='1337'>Je dois, même avant vous, croire ma conscience ;</l>
+	<l id='1338'>Je me sens affranchi de toute obéissance,</l>
+	<l id='1339'>Dès qu'à vous obéir l'honneur est compromis.</l>
+	<l id='1340'>Moi ! Tromper la famille où je serais admis !</l>
+	<l id='1341'>À chaque instant du jour il faudrait donc me dire,</l>
+	<l id='1342'>Si l'on savait ! Ah Dieu ! Pour me faire souscrire</l>
+	<l id='1343'>À ce plan médité de lâche trahison,</l>
+	<l id='1344'>Il faudra fasciner mes sens et ma raison.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1345'>Non, non ; pour m'assurer de toi, de ton silence,</l>
+	<l id='1346'>J'emploierai la douceur, et non la violence ;</l>
+	<l id='1347'>Je te ferai sentir que ma vie en dépend.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1348' part='i'>Mon père !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1348' part='f'>Calme-toi ; raisonnons un instant.</l>
+	<l id='1349'>Tiens ; je ne prétends plus te cacher ma faiblesse :</l>
+	<l id='1350'>Oui, c'est à prix d'argent que j'acquis la noblesse ;</l>
+	<l id='1351'>Et je l'aurais acquise au prix de tout mon sang,</l>
+	<l id='1352'>Tant l'aveugle désir et du nom et du rang,</l>
+	<l id='1353'>Fut de mon coeur troublé l'inquiète folie !</l>
+	<l id='1354'>Toi, de qui la raison sent, calcule, apprécie</l>
+	<l id='1355'>De l'état roturier l'infâme abjection ;</l>
+	<l id='1356'>Toi, qui m'en as marqué ton indignation,</l>
+	<l id='1357'>Condamne-moi d'avoir, par un heureux mensonge,</l>
+	<l id='1358'>Purgé l'ignominie où cet état nous plonge.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1359'>Loin de vous en laver, vous vous reconnaissez</l>
+	<l id='1360'>Flétri par votre état quand vous en rougissez.</l>
+	<l id='1361'>Lorsqu'un tel préjugé nous foule, nous rabaisse,</l>
+	<l id='1362'>Il faut chercher en soi ses titres, sa noblesse :</l>
+	<l id='1363'>L'aveu de ce qu'on est commande le respect ;</l>
+	<l id='1364'>On releve par là l'état le plus abject :</l>
+	<l id='1365'>C'est la raison alors, qui devient la plus forte,</l>
+	<l id='1366'>Et sur le préjugé, la vérité l'emporte.</l>
+
+<note type="L">Mettre quelqu'un au pis  : se dit par manière de défi pour marquer à un homme qu'on ne le craint point, quelque mauvaise volonté qu'il ait. [L]</note>
+	<l id='1367'>Viennent nos grands Seigneurs ! Je les mets tous au pis,</l>
+	<l id='1368'>Pour me faire rougir d'être ce que je suis :</l>
+	<l id='1369'>Du dédain avec moi, que leur fierté s'avise !</l>
+	<l id='1370'>J'en déconcerterais plus d'un dans l'entreprise.</l>
+	<l id='1371'>Roturier, et pour tel montré de bonne-foi,</l>
+	<l id='1372'>Je ferai reculer le mépris devant moi.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+<note type="L">Étrivière : courroie à laquelle est suspendu l'étrier. Coup d'étrivière, coup donné avec l'étrivière. [L]</note>
+	<l id='1373'>Oh bien ! Moi je m'abonne à cent coups d'étrivière.</l>
+	<l id='1374'>À me jeter, la tête en bas, dans la rivière,</l>
+	<l id='1375'>Si jamais je souscris à cette indignité</l>
+	<l id='1376'>De me salir du nom que mon père a porté.</l>
+	<l id='1377'>Eh ! Lorsque dans la rue un violon résonne,</l>
+	<l id='1378'>Je croirais que c'est moi que la ville chansonne.</l>
+	<l id='1379'>Devant ma fille même, il faudrait me cacher.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+
+	<l id='1380'>Dieu quel aveuglement comment l'en arracher !</l>
+<stage>Haut.</stage>
+	<l id='1381'>Que n'ai-je su plutôt ! J'étais trop jeune encore :</l>
+	<l id='1382' part='i'>Mes conseils.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1382' part='f'>Des conseils ! Je les fuis, les abhorre ;</l>
+	<l id='1383'>Des conseils ! Je n'en prends que de ma passion.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1384' part='i'>Que puis-je donc pour vous ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1384' part='f'>À ta soumission,</l>
+	<l id='1385'>Je ne demande rien de plus que le silence ;</l>
+	<l id='1386'>Modère ta franchise, et fais-toi violence :</l>
+	<l id='1387' part='i'>Conclus le mariage.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1387' part='f'>Eh ! C'est me demander</l>
+	<l id='1388' part='i'>Un sacrifice affreux.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1388' part='f'>Que tu dois m'accorder.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1389' part='i'>C'est celui de l'honneur.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1389' part='f'>Ta gloire la plus chere;</l>
+	<l id='1390'>Sera d'avoir sauvé des affronts à ton père.</l>
+	<l id='1391'>Tu balances ! Faut-il me mettre à tes genoux ?</l>
+	<l id='1392' part='i'>Je m'y mettrai.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, en le relevant.</speaker>
+
+	<l id='1392' part='f'>Mon père ! Ô ciel ! Que faites-vous ?</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='12'><head>SCÈNE XII. Les Mêmes, Aurélie.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1393' part='i'>Qu'est-ce donc que ceci ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1393' part='f'>Je suppliais mon père ; </l>
+	<l id='1394'>Je mettais à ses pieds mon instante prière :</l>
+	<l id='1395'>Mais, ma soeur, il persiste, et s'obstine en son choix.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, à part.</speaker>
+
+	<l id='1396'>Je ne sais que penser de tout ce je vois.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, emmène son fils dans un coin et lui parle tout bas.</speaker>
+	<l id='1397'>Je vous ai confié le destin de ma vie ;</l>
+	<l id='1398'>Si vous me trahissez, Hortense en est punie.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, à demi-voix.</speaker>
+
+	<l id='1399' part='i'>Hortense ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1399' part='f'>Elle est sans bien, sans parents, sans appui ;</l>
+	<l id='1400' part='i'>Je la cloître à jamais.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1400' part='m'>Vous pourriez !...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1400' part='f'>Je le puis,</l>
+	<l id='1401'>Je le veux. Ce n'est pas une menace vaine ;</l>
+	<l id='1402'>C'est elle, de vos torts, qui portera la peine :</l>
+	<l id='1403' part='i'>Pensez-y.</l>
+
+<stage>À part.</stage>
+
+	<l id='1403' part='f'>Ceci peut revenir aux d'Alforts ;</l>
+	<l id='1404'>Allons les prévenir contre de tels rapports.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='13'><head>SCÈNE XIII. Aurélie, Le Comte.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE, à part.</speaker>
+	<l id='1405'>Plus je regarde, et moins je ne puis rien comprendre.</l>
+
+<stage>Haut.</stage>
+	<l id='1406'>Mon frère, au nom de Dieu ! Daignez un peu m'apprendre,</l>
+	<l id='1407'>Ce qui peut entre vous causer tant de rumeur.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, en s'éloignant.</speaker>
+	<l id='1408'>Laissez-moi ; j'ai le monde, et la vie en horreur.</l>
+
+<stage>Il sort.</stage>
+
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, à part.</speaker>
+	<l id='1409'>Ceci va mal ; je crains d'avoir été trop prompte :</l>
+	<l id='1410'>Tâchons de ratrapper, s'il se peut, mon Cléonte.</l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type='acte' n='5'><head>ACTE V</head>
+
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Comte, Hortense.</head>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1411'>Hortense, au nom de Dieu ! Ceci n'est pas plaisant ;</l>
+	<l id='1412'>Abstenez-voudserire, aumoinspouruninstant.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='1413'>Rien qu'en disant cela, vous m'en donnez envie ;</l>
+	<l id='1414'>Vous allez gravement me dire une folie.</l>
+
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1415'>Mon récit n'est pas gai si vous le trouvez tel,</l>
+	<l id='1416'>J'en féliciterai votre heureux naturel.</l>
+	<l id='1417'>Je suis, vous le savez déchu de ma noblesse.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1418'>Voyez le grand malheur ! Auriez-vou la faiblesse</l>
+	<l id='1419' part='i'>D'en être désolé ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1419' part='f'>Dieu m'en préserve, hélas !</l>
+	<l id='1420'>D'un pareil accident, je sais qu'on ne meurt pas :</l>
+	<l id='1421'>Mais il faut détromper le Duc sur ma naissance.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+
+	<l id='1422' part='i'>Oui.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, avec poids.</speaker>
+
+	<l id='1422' part='f'>Mon père m'en fait une expresse défense</l>
+	<l id='1423'>Et si je résistais à son commandement</l>
+	<l id='1424' part='i'>Il vous en punit.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1424' part='m'>Moi !</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1424' part='m'>Vous, vous-même.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1424' part='f'>Eh ! Comment ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1425'>On vous enterre vive, au fond d'un monastère.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE, frappée.</speaker>
+
+	<l id='1426' part='i'>Saincenne, il se pourait ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1426' part='f'>Rien de plus vrai ; mon père...</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1427'>Jusqu'à cette injustice il a pu s'oublier ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1428'>Oui ; c'est moi qui, d'un mot, vais vous sacrifier :</l>
+	<l id='1429'>Ma situation est-elle assez cruelle ?</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1430' part='i'>J'en sens toute l'horreur.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1430' part='f'>Mon courage chancelle ;</l>
+	<l id='1431'>C'est la première fois qu'un devoir m'a coûté.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, après un peu de réflexion.</speaker>
+	<l id='1432'>Armons-nous tous les deux de sage fermeté ; </l>
+	<l id='1433'>Je vous réponds de moi; vous n'avez rien à craindre</l>
+	<l id='1434'>Je n'ai que trop appris à souffrir sans me plaindre</l>
+	<l id='1435'>Tout injuste qu'il est, cet ordre rigoureux</l>
+	<l id='1436'>N'ajoute pas beaucoup à mon malheur affreux.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, vivement.</speaker>
+
+	<l id='1437' part='i'>Hortense, expliquez-vous.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1437' part='f'>L'aveu que je vais faire</l>
+	<l id='1438'>Me rendra votre estime ; elle m'est nécessaire</l>
+	<l id='1439'>Pour adoucir ma peine, et pour me consoler.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1440'>Hortense encore un coup, hâtez-vous de parler.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1441'>Vous me jugiez légere, étourdie et coquette ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1442' part='i'>Eh bien !</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1442' part='f'>Je fus sensible, et prudente, et discrète.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1443' part='i'>Ciel !</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1443' part='f'>Je désespérais d'être à vous quelque jour ;</l>
+	<l id='1444'>J'ai voulu vous guérir d'un dangereux amour,</l>
+	<l id='1445'>Et lever cet obstacle aux volontés prévues</l>
+	<l id='1446'>D'un père ambitieux, qui sur vous a des vues.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1447'>Est-il possible, ô cîel ! L'ai-je bien entendu ?</l>
+	<l id='1448'>Le ridicule en elle était une vertu !</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1449'>J'ai saisi ce moyen ( en était-il quelqu'autre ? )</l>
+	<l id='1450'>Pour régler mon amour, et contenir le vôtre.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1451' part='i'>Votre amour !</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1451' part='f'>Malgré moi, ce mot m'est échappé ;</l>
+	<l id='1452' part='i'>Mais n'en abusez pas.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1452' part='f'>Me serais-je trompé ?</l>
+	<l id='1453'>L'avez-vous prononcé ; ce mot, si doux, si tendre ?</l>
+	<l id='1454'>Répétez-le cent fois cent fois je veux l'entendre :</l>
+	<l id='1455'>Hortense ; vous m'aimez ! Un aveu si flatteur,</l>
+	<l id='1456'>De tous mes sentiments à rallumé l'ardeur :</l>
+	<l id='1457'>Cet aveu va, lui seul, régler ma destinée.</l>
+	<l id='1458'>Qu'on ne me parle plus d'aucun autre hyménée ;</l>
+	<l id='1459'>Plus de Ducs, plus d'honneurs, je les abjure tous :</l>
+	<l id='1460'>Dans l'univers entier je ne vois plus que vous.</l>
+	<l id='1461'>Tout autre noeud me pèse ; il m'est insupportable.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1462'>Insensé ! Croyez-vous qu'une femme capable</l>
+	<l id='1463'>De l'effort que j'ai fait, trahisse son devoir ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+
+	<l id='1464' part='i'>Je suis aimé.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1464' part='f'>Perdez un si funeste espoir.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, plus vivement.</speaker>
+
+	<l id='1465' part='i'>Je suis aimé !</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1465' part='f'>Suivez vos démarches honnêtes ;</l>
+	<l id='1466'>Allez trouver le Duc ; dites-lui qui vous étes :</l>
+	<l id='1467'>S'il persiste, d'un père accomplissez les voeux.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1468' part='i'>Non, jamais.</l>
+</sp>
+
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+
+	<l id='1468' part='m'>Il le faut.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1468' part='m'>Je ne puis.</l>
+</sp>
+
+<sp who='HORTENSE'><speaker>HORTENSE, avec poids.</speaker>
+	<l id='1468' part='f'>Je le veux.</l>
+	<l id='1469'>Saincenne, estimons-nous : le reste s'use, passe ;</l>
+	<l id='1470'>L'amour qui du devoir nous fait quitter la trace,</l>
+	<l id='1471'>Après avoir trompé notre espoir le plus doux,</l>
+	<l id='1472'>S'éteint dans les remords, et meurt dans les dégoûts ;</l>
+	<l id='1473'>Saincenne, estimons-nous ; c'est-là le bien suprême :</l>
+	<l id='1474'>Il nous adoucira notre infortune extrême.</l>
+	<l id='1475'>De tout, remettons-nous aux volontés du ciel;</l>
+	<l id='1476'>Méritons d'être heureux, c'est-là l'essentiel.</l>
+<stage>Elle sort.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='LE COMTE'><speaker>LE COMTE, seul.</speaker>
+	<l id='1477'>Je n'ai pas sur mon sort la plus légère crainte</l>
+	<l id='1478'>Sitôt que j'aurai pu m'expliquer sans contrainte;</l>
+	<l id='1479'>Il n'est point de raisons ni de moyens puissans,</l>
+	<l id='1480'>Qui rapprochent jamais des états si distans;</l>
+	<l id='1481'>Mon vrai nom reconnu, rompt toute convenance:</l>
+	<l id='1482'>Qu'ils gardentleursgrandeurs, j'aimemieuxmonHortensel</l>
+	<l id='1483'>Le sort me traita bien en me donnant le jour;</l>
+	<l id='1484'>il me fit roturier pour servir mon amour.</l>
+	<l id='1485'>Mais si j'expose Hortense au courroux de mon père S</l>
+	<l id='1486'>Bon un pareil propos échappe à la celere</l>
+	<l id='1487'>Mais au moment d'agir, on change, on file doux.</l>
+	<l id='1488'>Voici le Duc eh vîte eh vîte empressons-nous</l>
+	<l id='1489' part='i'>De lui tout raconter.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='3'><head>SCÈNE III. Le Comte, Le Duc, et un moment après, Le Marquis.</head> 
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1489' part='f'>Avec impatience,</l>
+	<l id='1490'>J'attends de vous, Monsieur, un moment d'audience.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, au fonddu théâtre.</speaker>
+	<l id='1491'>Mon fils avec le Duc ! Est-ce pour me trahir ?</l>
+<stage>Il s'approche tout doucement, et se tient à l'entrèe d'une coulisse, d'où il prend part à la scene par ses gestes d'étonnement, de crainte, de désespoir.</stage>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+	<l id='1492'>Je me doute où mon gendre à dessein d'en venir :</l>
+	<l id='1493' part='i'>Son père m'a parlé.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+	<l id='1493' part='f'>Monsieur, de ma naissance</l>
+	<l id='1494'>J'eus longtemps une vague et fausse connaissance.</l>
+<stage>Geste de désespoir du Marquis.</stage>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+
+	<l id='1495'>L'y voilà justement ; je l'avais bien prévu.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1496'>De tout temps appellé Saincenne, j'avaisc ru</l>
+	<l id='1497'>Que ce nom, hautement reconnu pour le nôtre,</l>
+	<l id='1498'>Ne déparerait point un nom tel que le vôtre :</l>
+	<l id='1499'>Mieux instruit de mon sort, sachant ce que je sais...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1500' part='i'>Quoi ! Vous n'êtes pas noble ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1500' part='f'>Hélas ! Rien n'est plus vrai.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1501' part='i'>Je n'en suis pas fâché.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1501' part='f'>Comment ! Vous voulez rire.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1502' part='i'>Non.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1502' part='f'>Je ne comprends pas ce que ceci veut dire.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1503'>Quoi ! Ne venez-vous pas de me signifier</l>
+	<l id='1504' part='i'>Quele sort vous a fait.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1504' part='f'>Oui, Monsieur, roturier,</l>
+	<l id='1505'>Roturier roturier, tout ce qu'on le peut être.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1506'>Eh bien ! Pour tel, je suis charmé de vous connaître ;</l>
+	<l id='1507'>Il est de ses gens-là dont je fais très grand cas ;</l>
+	<l id='1508' part='i'>Vous, tout le premier.</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+
+	<l id='1508' part='f'>Mais vous ne prétendez pas,</l>
+	<l id='1509'>À coup sûr, me railler, ni m'insulter, je pense.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+
+	<l id='1510'>Priser votre personne, est-ce vous faire offense ?</l>
+</sp>
+
+<sp who="LE COMTE"><speaker>LE COMTE, à part.</speaker>
+
+	<l id='1511'>Je m'y perds on dirait que de dessein formé...</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+
+	<l id='1512'>Le voilà bien honteux d'être tant estimé !</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1513'>Encore un coup, Monsieur, expliquons-nous, de grâce :</l>
+	<l id='1514'>Ceci, de votre part, est jeu, feinte, grimace ;</l>
+	<l id='1515'>C'est pour vous égayer que, monté sur ce ton...</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1516'>Oui, sans doute, je ris, et c'est avec raison.</l>
+	<l id='1517'>Vous vous laissez mener comme un enfant crédule :</l>
+	<l id='1518'>Le Baron vous a fait un conte ridicule ;</l>
+	<l id='1519'>II a mis son plaisir à vous persuader</l>
+	<l id='1520'>Que vous n'êtes pas noble ; et, sans y regarder,</l>
+	<l id='1521'>Vous vous en allez, vous, prendre au vrai cette injure.</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1522'>C'est après examen que j'y crois, je vous jure.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1523'>Allez, mon cher ami ; de telles visions</l>
+
+<note type="L">Petites-maisons : Nom donné autrefois à un hôpital de Paris où l'on renfermait les aliénés. [F]</note>
+	<l id='1524'>Vous mèneraient tout droit aux petites-maisons :</l>
+	<l id='1525'>La simplicité même a des bornes prescrites.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC, plus vivement.</speaker>
+
+	<l id='1526'>Mais la chose n'est pas telle que vous la dites.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1527'>C'est drôle : on le fera noble, la force en main,</l>
+	<l id='1528'>Comme on fait Sganarelle apprenti Médecin.</l>
+</sp>
+
+<sp who="LE DUC"><speaker>LE DUC, avec impatience.</speaker>
+
+	<l id='1529' part='i'>Mais, Monsieur, je soutiens.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+
+	<l id='1529' part='f'>Brisons là, je vous prie ;</l>
+	<l id='1530'>Je prendrais mal enfin cette plaisanterie.</l>
+<stage>Gravement.</stage>
+	<l id='1531'>Vous êtes Gentilhomme, et rien n'est plus certain</l>
+	<l id='1532'>Lorsque j'ai pour fille accepté votre main :</l>
+	<l id='1533'>Cela vous sert de preuve, oui, ma seule alliance</l>
+	<l id='1534'>Vous répond de vous-même et de votre naissance :</l>
+	<l id='1535'>Un homme de mon rang, délicat en son choix,</l>
+	<l id='1536'>Pour se donner un gendre, y regarde à deux fois.</l>
+<stage>Plus fort encore.</stage>
+	<l id='1537'>Vous êtes Gentilhomme est-ce assez vous le dire ?</l>
+	<l id='1538'>Gardez-vous bien, Monsieur, d'en plaisanter, d'en rire ;</l>
+	<l id='1539' part='i'>Ce serait me manquer.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='4'><head>SCÈNE IV. Les Mêmes, Le Marquis.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, entrant précipitamment.</speaker>
+	<l id='1539' part='f'>Tenez-le vous pour dit :</l>
+	<l id='1540' part='i'>Vous étes Gentilhomme.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, bas.</speaker>
+	<l id='1540' part='f'>Ah ! J'en perdrai l'esprit.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='1541' part='i'>Vous êtes Gentilhomme.</l>
+<stage>Au Duc.</stage>
+	<l id='1541' part='f'>Une amourette en tête ;</l>
+	<l id='1542'>De la petite Hortense il s'est faït la conquête.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, vivement.</speaker>
+	<l id='1543'>Oui, mon père il est vrai; j'adore ses appas,</l>
+	<l id='1544'>J'adore ses vertus, je ne m'en défends pas.</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1545'>Eh bien l Monsieur le Duc, je ne lui fais pas dire.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, au Comte.</speaker>
+	<l id='1546'>Eh si ce goût vous tient, s'il vous jette en délire,</l>
+	<l id='1547'>Fallait-il pour cela renier votre nom ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+<note type="L">Pharamond : Personnage donné comme le premier des rois de France, ne fut qu'un chef ou Duc de Francs, sil exista véritablement. [B]</note>
+
+	<l id='1548'>Renier des aïeux du temps de Pharamon !</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE.</speaker>
+
+	<l id='1549' part='i'>Mon père...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1549' part='m'>Taisez-vous.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, au Marquis.</speaker>
+	<l id='1549' part='f'>Rien ne change à l'affaire i</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1550' part='i'>J'y tiens plus que jamais.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1550' part='m'>Allons, tant mieux.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n=''><head>SCÈNE V. Les Mêmes, Aurélie, Cléonte, Davon, dans le renfoncement.</head>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1550' part='f'>Mon père,</l>
+	<l id='1551'>Deshorde est de retour ; mais Cléonte aujourd'hui,</l>
+	<l id='1552'>De cinq cent mille francs vous acquitte envers lui.</l>
+	<l id='1553'>Suivant ce qu'on m'a dit, le Baron de Saincenne,</l>
+	<l id='1554' part='i'>En partant, mit à sec vos fonds.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS, à part.</speaker>
+
+<note type="L">Antienne : Paroles qui dans le Service de l'Eglise se chantent alternativement par deux choeurs ; ce mot s'est dit d'abord tant des psaumes que des hymnes.</note>
+	<l id='1554' part='f'>Fâcheuse antienne !</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1555' part='i'>Le mal est réparé.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+	<l id='1555' part='f'>Qu'est-ce donc que j'entends ?</l>
+</sp>
+
+<sp who='CLÉONTE'><speaker>CLÉONTE.</speaker>
+	<l id='1556'>Ce service, Madame, est des moins importans.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, avec hauteur au, Marquis.</speaker>
+	<l id='1557'>Que veut dire ceci ? Quoi ! J'étais votre dupe,</l>
+	<l id='1558'>Monsieur vous me trompiez tandis que je m'occupe</l>
+	<l id='1559'>À couvrir vos affronts ; et, soit dit entre nous,</l>
+	<l id='1560'>Quand je vous fais l'honneur de m'allier à vous.</l>
+	<l id='1561' part='i'>Vous...</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+	<l id='1561' part='f'>Permettez, Monsieur ; un pareil ton m'offense ;</l>
+	<l id='1562'>Et l'on n'insulte pas mon père en ma présence.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1563'>Conçoit-on cet orgueil dans de pareilles gens ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1564'>Monsieur, il en est un qui sied à tous les rangs ;</l>
+	<l id='1565'>C'est de savoir partout faire honorer son père.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1566'>Sortons ; il vaut bien mieux s'éloigner et se taire,</l>
+	<l id='1567'>Que de se compromettre avec des gens de rien.</l>
+<stage>Le Duc veut sortir, le Comte l'arrête.</stage>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, au Duc.</speaker>
+	<l id='1568' part='i'>Tout hymen est rompu ?</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, avec beaucoup de hauteur.</speaker>
+	<l id='1568' part='f'>Vous vous en doutez bien.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, en remettant le portefeuille et les papiers destinés au Baron.</speaker>
+	<l id='1569'>La somme qui vous fut indignement surprise,</l>
+	<l id='1570'>Mon père, la voici ; c'est moi qui l'ai reprise,</l>
+	<l id='1571'>En chaussant comme escroc, votre infâme Baron.</l>
+<stage>En regardant le Duc.</stage>
+	<l id='1572'>C'est d'un homme de rien qu'il tient cette leçon.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, a part.</speaker>
+	<l id='1573'>Me voilà pris pour dupe et ceci me dérange.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, bas.</speaker>
+
+	<l id='1574'>Mais mon frère se donne un titre bien étrange.</l>
+</sp>
+
+<sp who='DAVON'><speaker>DAVON, au Marquis.</speaker>
+	<l id='1575'>Moi, Monsieur, de l'argent au Baron envoyé,</l>
+	<l id='1576'>J'ai, depuis vingt-cinq ans soustrait plus de moitié ;</l>
+	<l id='1577'>C'est ainsi qu'accusant cette faible partie,</l>
+	<l id='1578'>Le Baronse plaignait de votre économie.</l>
+	<l id='1579'>La somme ici prospère, et vous porte intérêt.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='1580'>La nouvelle est très bonne, et ce retour me plait.</l>
+</sp>
+
+<sp who='LE DUC'><speaker>LE DUC, a part.</speaker>
+
+	<l id='1581'>J'enrage ; j'ai trop tôt déclaré la rupture :</l>
+	<l id='1582'>Gare les créanciers après cette aventure.</l>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='6'><head>SCÈNE VI. Les Mêmes.</head>
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id='1583'>Mon offre vous devient inutile, Marquis.</l>
+</sp>
+
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+
+	<l id='1584'>Mon coeur reconnaissant n'en sent pas moins le prix.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+	<l id='1585'>Puis-je obtenir de vous une grâce dernière ?</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE, tendrement.</speaker>
+
+	<l id='1586'>Ma main ? Elle est à vous je vivrai pour vous plaire ;</l>
+	<l id='1587'>Ma seule ambition est de vous rendre heureux.</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+
+	<l id='1588'>Ce n'est plus là le but où tendent tous mes voeux.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1589' part='i'>Comment donc ?</l>
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE.</speaker>
+
+	<l id='1589' part='f'>Du Marquis, la grâce que j'espère,</l>
+	<l id='1590'>C'est qu'il soit mon ami sans être mon beau-père.</l>
+</sp>
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+	<l id='1591'>Quoi vous refuseriez de m'épouser, Monsieur?</l>
+
+</sp>
+
+<sp who="CLÉONTE"><speaker>CLÉONTE, ironiquement.</speaker>
+
+	<l id='1592'>À moi n'appartient pas Madame, tant d'honneur.</l>
+</sp>
+
+<sp who="AURÉLIE"><speaker>AURÉLIE.</speaker>
+
+	<l id='1593'>Ciel ! Quel affront ! Faisons tout au plutôt retraite ;</l>
+
+<note type="L">Anachorete : Hermite, homme dévot qui vit seul dans le désert, et qui s'est ainsi retiré du commerce des hommes, que pour avoir la liberté de tourner ses pensées du côté de Dieu.</note>
+
+<note type="L">Chapitre : La communauté des écclesiastiques qui désservent une église cathédrale, ou collégiale.</note>
+
+	<l id='1594'>Allons vivre au chapitre, en vraie anachorete,</l>
+	<l id='1595'>Jusqu'à ce que le ciel, sur nous, ait acquitté</l>
+	<l id='1596'>Tout ce qu'il doit d'honneurs aux gens de qualité.</l>
+<stage>Elle sort.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Marquis, Le Comte, Hortense, Davon.</head>
+<sp who='HORTENSE'><speaker>HORTENSE.</speaker>
+	<l id='1597' part='i'>Mon oncle...</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1597' part='m'>Eh bien ?</l>
+</sp>
+<sp who="LE COMTE"><speaker>LE COMTE.</speaker>
+	<l id='1597' part='f'>Mon père, agréez je vous prie,</l>
+	<l id='1598'>Qu'à cet objet charmant, je consacre ma vie.</l>
+	<l id='1599'>De vous seul occupés, nous vivrons près de vous ;</l>
+	<l id='1600'>Et vous serez l'objet de nos soins les plus doux.</l>
+</sp>
+
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+	<l id='1601'>Grand merci de ce zèle ; il n'est pas nécessaire.</l>
+<stage>Bas.</stage>
+	<l id='1602'>D'un témoin importun songeons à nous défaire :</l>
+	<l id='1603'>Mon fils à la grandeur met si peu d'intérêt,</l>
+	<l id='1604'>Qu'il s'en irait tout haut confesser ce qu'il est.</l>
+	<l id='1605'>Je vais le confiner dans l'une de mes terres ;</l>
+	<l id='1606'>Là, faute d'écoutants, il ne parlera guère.</l>
+<stage>Haut.</stage>
+	<l id='1607'>Oh ça ! Vous vous aimez ; j'ai pitié de vos feux ;</l>
+	<l id='1608'>Je consens que l'hymen vous unisse tous deux.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE, avec transport.</speaker>
+	<l id='1609' part='i'>Mon père !</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+
+<note type="L">Pétulance : Emportement avec insolence. </note>
+	<l id='1609' part='f'>Un moment donc, et moins de pétulance !</l>
+	<l id='1610'>Sachez ce que j'attends de votre obéissance.</l>
+	<l id='1611'>Je veux que vous viviez dans ma terre d'Ulsaux :</l>
+	<l id='1612'>On est toujours fort bien où l'on a des vassaux ;</l>
+	<l id='1613'>Et, comme chacun sait, tout grand propriétaire,</l>
+	<l id='1614'>Pour le bien du pays, doit habiter sa terre.</l>
+	<l id='1615'>Dans la vôtre, vivez en Seigneurs opulents ;</l>
+	<l id='1616'>Le pauvre se nourrit des dépenses des grands.</l>
+	<l id='1617'>Faites-vous respecter ; qu'on vous nomme Comtesse,</l>
+	<l id='1618'>Ma bru je vous en fais la loi la plus expresse.</l>
+	<l id='1619'>Que vos nobles voisins, chez vous soient seuls admis ;</l>
+	<l id='1620'>Aux voisins roturiers fermez, le Pont-levis.</l>
+	<l id='1621'>Représentez beaucoup, soyez toujours en scène ;</l>
+	<l id='1622'>Tenez le grand couvert un jour de la semaine :</l>
+	<l id='1623'>Rien n'en impose tant. Sitôt qu'ils seront nés,</l>
+	<l id='1624'>Que mes petits enfants me soient tous amenés :</l>
+	<l id='1625'>Je prétends mettre en eux, dès l'âge le plus tendre,</l>
+	<l id='1626'>Tout ce qu'un Gentilhomme, en naissant, doit apprendre.</l>
+	<l id='1627'>À ces conditions, allez, partez ; bonsoir.</l>
+</sp>
+
+<sp who='LE COMTE'><speaker>LE COMTE.</speaker>
+	<l id='1628'>Pouvons-nous quelquefois espérer de vous voir ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1629'>Oui ; j'irai voir, chezvous, si l'on soutient noblesse.</l>
+</sp>
+<sp who="HORTENSE"><speaker>HORTENSE.</speaker>
+	<l id='1630'>Nous vous jurons, respect, zèle, amour et tendresse.</l>
+<stage>Ils sortent.</stage>
+</sp>
+
+</div2>
+
+<div2 type='scene' n='8'><head>SCÈNE VIII ET DERNIÈRE. Le Marquis, Davon.</head>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1631'>Moi pour que tout ceci fasse un peu moins d'éclat,</l>
+	<l id='1632'>Je vais de mon côté, vivre à mon Marquisat.</l>
+	<l id='1633'>À Paris, en huit jours, tout s'efface et s'oublie ;</l>
+	<l id='1634'>On change de nouvelle ainsi que de folie :</l>
+	<l id='1635'>Disparaissez un an puis revenez sur l'eau,</l>
+	<l id='1636'>Le Public vous revoit comme un être nouveau ;</l>
+	<l id='1637'>Il n'a plus contre vous, ni dépit, ni rancune.</l>
+	<l id='1638'>Tiens, je dois rendre grâce à ma bonne fortune,</l>
+	<l id='1639'>De ce que le Baron, expulsé de chez moi,</l>
+	<l id='1640'>En sort, la bourse vide, et tout rempli d'effroi ;</l>
+	<l id='1641'>La crainte lui défend d'y jamais reparaître.</l>
+	<l id='1642'>Allons, mon vieux Davon, soutiens un peu ton maître ;</l>
+	<l id='1643'>Montre-moi du courage, ose tout espérer,</l>
+	<l id='1644'>Et tirons du malheur, ce qu'on peut en tirer.</l>
+	<l id='1645'>Tu ne le croirois pas ; aujourd'hui, ( chose sûre ! )</l>
+	<l id='1646'>J'ai cru de deux degrés, malgré mon aventure.</l>
+</sp>
+<sp who="DAVON"><speaker>DAVON.</speaker>
+	<l id='1647' part='i'>Ces degrés, quels sont-ils ?</l>
+</sp>
+<sp who="LE MARQUIS"><speaker>LE MARQUIS.</speaker>
+	<l id='1647' part='f'>Mon Suisse, et mon hôtel:</l>
+	<l id='1648' part='i'>Le reste s'oubliera ; ceci me reste.</l>
+
+<stage>Il sort.</stage>
+</sp>
+
+<sp who="DAVON"><speaker>DAVON.</speaker>
+
+	<l id='1648' part='f'>Ô ciel!</l>
+	<l id='1649'>Après un tel affront garder tant d'assurance !</l>
+	<l id='1650'>Ce désir des grandeurs suit l'extrême opulence ;</l>
+	<l id='1651'>Vive les pauvres gens pour se passer d'aïeux ! </l>
+	<l id='1652'>On est fils de son père, et cela vaut bien mieux.</l>
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

@@ -1,0 +1,2821 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DOM BERNARD DE CABRERE, TRAGI-COMÉDIE</title>
+				<author born='1609' born_location='Dreux' death='1650' death_location='Dreux' academie=''>ROTROU, Jean</author>
+				<date>1637</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Ernest FIEVRE, avril 2007</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>histoire espagnole</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1641-1650</periode>
+				<taille>1750-2000</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">DOM BERNARD DE CABRERE</titlePart>
+				<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+			</docTitle>
+			<docDate value='1647'>M. DC. XLVII</docDate>
+			<docAuthor id='ROTROU, Jean' bio='rotrou'>de ROTROU</docAuthor>
+			<docImprint>
+				<privilege id='1637-02-07'><head>Extrait du Privilège du Roi.</head>
+				<p>Par grâce et Privilège du Roi donné à Paris le 11 mars 1647. Signé ; par le Roi en son Conseil, LE BRUN, il est permis à ANTOINE DE SOMMAVILLE, Marchand Libraire à Paris, d'imprimer ou faire imprimer une pièce de comédie intitulée, Don Bernard de Cabrere, et ce durant le temps et espace de cinq ans, à compter du jour que le dit livre sera achevé d'imprimer. Et défenses à tous autres d'en vendre ni distribuer d'autre impression de celle qu'aura fait ou fait faire le dit de Sommaville, à peine de cinq cent livres d'amende, ainsi qu'il est plus amplement porté par les dites Lettres ci-dessus datées.</p>
+				<p>Et ledit de Sommaville a associé audit privilège Toussaint Quinet, aussi marchand libraire à Paris, suivant accord fait entr-eux.</p>
+				</privilege>
+				<imprimeur id='Sommaville'>À PARIS, Chez ANTOINE DE SOMMAVILLE, Au Palais, dans la Galerie des Merciers, à l'Écu de France.</imprimeur>
+				<acheveImprimer>Achevé d'Imprimer pour la première fois, le vingt-unième jour d'octobre 1647.</acheveImprimer>
+			</docImprint>
+			<performance>
+				<premiere date='1646' location='(inconnue)'>Représenté pour la première fois en 1646.</premiere>
+			</performance>
+<dedicace><adresse>À MONSEIGNEUR MONSEIGNEUR L'ÉMINENTISSIME CARDINAL MAZARIN</adresse>
+<head>ELEGIE</head>
+<p type='v'>Soeur du Dieu des saisons que la mélancolie, </p>
+<p type='v'>Dans le tombeau d'ARMAND, avait ensevelie ; </p>
+<p type='v'>Et qui malgré l'éclat d'un bruit doux et flatteur ; </p>
+<p type='v'>Ne pus souffrir ton frère, après ton protecteur,</p>
+<p type='v'>Force enfin, ma Clion, cette douleur extrême,</p>
+<p type='v'>Qui te le ravissant, te ravit à toi-même :</p>
+<p type='v'>Et comme son trépas t'excita cet ennui, </p>
+<p type='v'>Aujourd'hui qu'il renaît, ressuscite avec lui. </p>
+<p type='v'>JULES heureux soutien de mon jeune Alexandre, </p>
+<p type='v'>Comme un autre Phoenix engendré de sa cendre, </p>
+<p type='v'>Fait voir par un miracle égal à son renom, </p>
+<p type='v'>Qu'ARMAND a seulement changé d'âge et de nom ; </p>
+<p type='v'>Oui, du divin ARMAND la haute Intelligence, </p>
+<p type='v'>Soutient encore en lui la splendeur de nos lois, </p>
+<p type='v'>Rend encor notre Roi, l'effroi des autres Rois ; </p>
+<p type='v'>Dessus nos ennemis gagne encor des batailles, </p>
+<p type='v'>Sous les herbes encor fait chercher leurs murailles ; </p>
+<p type='v'>De cent climats divers fait encor les destins, </p>
+<p type='v'>Maintient nos alliés, et contient nos mutins ; </p>
+<p type='v'>Sous lui l'Aigle inexperte à défendre ses terres, </p>
+<p type='v'>Comme dessous ARMAND, lâche encore ses serres : </p>
+<p type='v'>Sous lui l'Espagne tremble et son Lion rugit </p>
+<p type='v'>Effrayé de son sang, dont l'Ibère rougit. </p>
+<p type='v'>Depuis qu'enfin du Ciel les bontés tutélaires </p>
+<p type='v'>Ont mis entre ses mains le timon des affaires ; </p>
+<p type='v'>Notre barque craint moins ni sable ni rocher ; </p>
+<p type='v'>Que quand le Grand ARMAND en était le rocher, </p>
+<p type='v'>Et sans se voir briser, voiles, mâts, ni cordages, </p>
+<p type='v'>De tous ses aquilons surmonte les orages : </p>
+<p type='v'>Mais si les intérêts de l'État seulement, </p>
+<p type='v'>En JULES, ma Clion, te remontraient ARMAND, </p>
+<p type='v'>Et si les tiens encor n'y trouvaient ce Grand homme, </p>
+<p type='v'>Je te pourrais souffrir l'ennui qui te consomme ; </p>
+<p type='v'>Et l'éminent éclat dont il est revêtu, </p>
+<p type='v'>Ni le sort qu'il a fait captif de sa vertu, </p>
+<p type='v'>Ni cet art qu'il enseigne aux puissances suprêmes, </p>
+<p type='v'>De faire sur leurs fronts briller leurs diadèmes ; </p>
+<p type='v'>Ne devraient ranimer ni l'ardeur ni l'espoir, </p>
+<p type='v'>Que l'estime d'ARMAND t'avait fait concevoir : </p>
+<p type='v'>Mais si JULES parfois comme lui se délasse, </p>
+<p type='v'>Des travaux de l'État sur les fleurs du Parnasse, </p>
+<p type='v'>Si sous lui d'Hélicon les deux sommets sacrés, </p>
+<p type='v'>Comme sous RICHELIEU, sont encor révérés, </p>
+<p type='v'>Et si j'ai mérité qu'un des fruits de mes veilles, </p>
+<p type='v'>Sans les faire souffrir, ait touché ses oreilles ; </p>
+<p type='v'>Qu'avons-nous plus perdu, qu'as-tu plus à pleurer, </p>
+<p type='v'>Et quel sujet as-tu de plus désespérer ? </p>
+<p type='v'>Viens, il te souffrira la généreuse audace, </p>
+<p type='v'>Qui te doit inviter d'aspirer à sa grâce ; </p>
+<p type='v'>Et j'ose, sans trembler, lui demander pour toi, </p>
+<p type='v'>Une protection commune avec mon Roi. </p>
+<p type='v'>Mais révérant les soins qu'il rend à ce grand Prince, </p>
+<p type='v'>Épargnons-lui le temps de toute la Province ; </p>
+<p type='v'>Et si jusques à nous il se daigne abaisser ; </p>
+<p type='v'>N'occupons son esprit que pour le délasser.</p>
+<p type='v'>Un jour faisons-lui voir sur ce noble théâtre, </p>
+<p type='v'>Dont nos fameux Acteurs font la Cour idolâtre : </p>
+<p type='v'>Son illustre pays, sous Romule naissant, </p>
+<p type='v'>Un autre sous son joug le monde obéissant, </p>
+<p type='v'>Tantôt sous ses Consuls sa vigueur florissante, </p>
+<p type='v'>Tantôt sa liberté sous ses Rois gémissante : </p>
+<p type='v'>Aujourd'hui pour son vice, un Tarquin détrôné, </p>
+<p type='v'>Demain pour ses vertus, un Trajan Couronné : </p>
+<p type='v'>D'autres fois le grand coeur d'un Curse, ou d'un Scevole </p>
+<p type='v'>Dont l'un se précipite, et dont l'autre s'immole. </p>
+<p type='v'>Ainsi sans se lasser d'un art industrieux, </p>
+<p type='v'>Exposons à Paris toute Rome à ses yeux : </p>
+<p type='v'>Cette Rome sa mère en Héros si féconde, </p>
+<p type='v'>Qu'il pourrait rendre encor la maîtresse du monde, </p>
+<p type='v'>Si son zèle inouï, pour notre nation, </p>
+<p type='v'>N'eut honoré Paris de son adoption. </p>
+<p type='v'>Puis quand lassée enfin du travail de la Scène, </p>
+<p type='v'>Ta vigueur quelquefois voudra reprendre haleine, </p>
+<p type='v'>Pour lui faire ta Cour, porte en son Cabinet, </p>
+<p type='v'>Le divertissement d'une Ode, ou d'un Sonnet ; </p>
+<p type='v'>Ou touchant quelque trait de son mérite extrême, </p>
+<p type='v'>Et comme en un tableau le montrant à lui-même, </p>
+<p type='v'>Ce glorieux soutien du trône de mon Roi, </p>
+<p type='v'>Se regarde en passant, et te vois avec soi. </p>
+<p type='v'>Tu trouveras en lui les sujets les plus vastes, </p>
+<p type='v'>Dont jamais nos Héros aient enrichi nos fastes : </p>
+<p type='v'>Tu peux sans le flatter prendre ces grands projets, </p>
+<p type='v'>Qui de tous nos voisins vont faire nos sujets ; </p>
+<p type='v'>Tu peux parler sans fard de cet esprit solide, </p>
+<p type='v'>Dont l'avis au besoin n'est ni lent ni timide ; </p>
+<p type='v'>Et par qui si LOUIS suit tous ses sentiments, </p>
+<p type='v'>Nous verrons sous ses pieds les trônes Ottomans. </p>
+<p type='v'>Tu peux tracer ses moeurs dans la même innocence, </p>
+<p type='v'>Où le Ciel et la terre étaient en leur naissance ; </p>
+<p type='v'>Et sur tout ce portrait peut encor s'enrichir, </p>
+<p type='v'>D'une fidélité qui ne saurait gauchir ; </p>
+<p type='v'>Et d'un zèle si pur que la même imposture, </p>
+<p type='v'>N'en osera médire à la race future. </p>
+<p type='v'>Oui, JULES, la vertu dont tu nous éblouis, </p>
+<p type='v'>Fait autant prospérer les armes de LOUIS, </p>
+<p type='v'>Que ce grand jugement qui jamais ne sommeille, </p>
+<p type='v'>Et dans tous ses besoins l'assiste et le conseille ; </p>
+<p type='v'>Aussi par un visible et juste soin des Cieux, </p>
+<p type='v'>N'ayant point de défaut, tu n'as point d'envieux ; </p>
+<p type='v'>La fortune pour toi sage et judicieuse, </p>
+<p type='v'>Perdra les noms d'aveugle et de capricieuse, </p>
+<p type='v'>Et quoi qu'elle t'acquière et d'estime et de droit, </p>
+<p type='v'>Croit te donner encor moins qu'elle ne te doit ; </p>
+<p type='v'>Que dis-je, te donner ? si sa splendeur extrême, </p>
+<p type='v'>Sa pompe, son pouvoir lui viennent de toi-même ; </p>
+<p type='v'>Si ses bontés pour toi sont ses propres effets, </p>
+<p type='v'>Si tu lui donnes tout, si c'est toi qui la fais : </p>
+<p type='v'>Et si par tes travaux depuis tant de campagnes ; </p>
+<p type='v'>Elle triomphe en France, aux dépends des Espagnes, </p>
+<p type='v'>Fais-lui sous l'étendard de notre Potentat, </p>
+<p type='v'>Achever tes desseins pour le bien de l'État. </p>
+<p type='v'>Et quand la guerre enfin qui depuis tant de lustres, </p>
+<p type='v'>Nous coûte tant de sang, et tant d'hommes Illustres, </p>
+<p type='v'>Par des événements conformes à tes voeux, </p>
+<p type='v'>Aura mis notre gloire au point où tu la veux, </p>
+<p type='v'>Pour comble des succès de ton soin salutaire, </p>
+<p type='v'>Fais pour notre repos, ce qu'ARMAND n'a su faire ; </p>
+<p type='v'>Et content des lauriers que nous avons cueillis, </p>
+<p type='v'>Fais remonter la paix sur le trône des Lys ; </p>
+<p type='v'>Lors si la Seine encor me compte entre ses cygnes, </p>
+<p type='v'>Et si de tes hauts faits mes sentiments sont dignes, </p>
+<p type='v'>J'épuiserai ma veine à te faire un tableau, </p>
+<p type='v'>Dont si l'antiquité vit jamais rien de beau, </p>
+<p type='v'>Et si d'un faux espoir mon zèle ne me flatte, </p>
+<p type='v'>La touche au gré de tous, sera si délicate, </p>
+<p type='v'>Que qui verra l'ouvrage, en louera l'artisan, </p>
+<p type='v'>Et qu'il n'aura rival qui n'en soit partisan.</p>
+</dedicace>
+
+
+<castList><head>LES ACTEURS</head>
+	<castItem><role id='DOM-BERNARD' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>DOM BERNARD DE CABRERE</role>, favori du roi.</castItem>
+	<castItem><role id='DOM-LOPE' civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>DOM LOPE DE LUNE</role>, ami de Dom Bernard.</castItem>
+	<castItem><role id='DOM-PEDRE' civil='M' type="H" statut='roi' age='A' stat_amour='néant'>DOM PEDRE</role>, roi d'Aragon.</castItem>
+	<castItem><role id='INFANTE' civil='F' type="H" statut='prince' age='A' stat_amour='amoureux'>L'INFANTE</role>, sa soeur, maîtresse de Dom Bernard.</castItem>
+	<castItem><role id='LEONOR' civil='F' type="H" statut='aristocrate' age='A' stat_amour='amoureux'>LÉONOR</role>, maîtresse du Roi.</castItem>
+	<castItem><role id='IGNES' civil='F' type="H" statut='suivant' age='A' stat_amour='néant'>IGNES</role>, suivante.</castItem>
+	<castItem><role id='LE_COMTE' civil='M' type="H" statut='capitaine' age='A' stat_amour='néant'>LE COMTE</role>, capitaine des gardes.</castItem>
+	<castItem><role id='PEREZ' civil='M' type="H" statut='secrétaire du roi' age='A' stat_amour='néant'>PEREZ</role>, secrétaire du Roi.</castItem>
+	<castItem><role id='LAZARILLE' civil='M' type="H" statut='suivant' age='A' stat_amour='néant'>LAZARILLE</role>, suivant de Dom Lope.</castItem>
+	<castItem><role id='GOUVERNEUR' civil='M' type="H" statut='gouverneur' age='A' stat_amour='néant'>LE GOUVERNEUR DE SARAGOSSE</role>.</castItem>
+	<castItem><role id='SOLDATS' civil='G' type="H" statut='soorlat' age='A' stat_amour='néant'>SOLDATS</role>.</castItem>
+	<castItem><role id='GARDES' civil='G' type="H" statut='garde' age='A' stat_amour='néant'>GARDES</role>.</castItem>
+</castList>
+<set location='Saragosse' country='Italie' periode="XIVème" link=''>La scène est à Saragosse, dans le Palais du Roi.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Dom Lope de Lune, Lazarille Valet de Chambre.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1'>Enfin, cher Lazarille, un plus heureux Génie</l>
+	<l id='2'>Nous va, de nos destins, forcer la tyrannie,</l>
+	<l id='3'>Et ce bras l'aura mise au rang des ennemis,</l>
+	<l id='4'>Qu'au joug de cet État ses exploits ont soumis.</l>
+	<l id='5'>Dom Bernard rend au Prince un digne témoignage</l>
+	<l id='6'>Des fruits qu'à l'Aragon a produit mon courage,</l>
+	<l id='7'>Qui fera succéder l'espoir que je bâtis,</l>
+	<l id='8'>Sur la destruction des Sardes déconfits ;</l>
+	<l id='9'>Oui, j'ose sur l'espoir que Dom Bernard me donne,</l>
+	<l id='10'>Prétendre à des degrés proches de la Couronne ;</l>
+	<l id='11'>Et si l'âme est prophète en ses pressentiments,</l>
+	<l id='12'>De grands effets suivront ces nobles mouvements ;</l>
+	<l id='13'>Qui ne me flattent pas d'une faveur commune,</l>
+	<l id='14'>Et me font défier l'orgueil de la fortune.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='15'>Le fatal ascendant qui gouverne vos jours,</l>
+	<l id='16'>Sera donc bien changé, de ce qu'il fut toujours ;</l>
+	<l id='17'>Car depuis qu'à vos pas mon mauvais sort m'attache,</l>
+	<l id='18'>Le malheur qui vous suit, n'a guère eu de relâche.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='19'>Il est vrai que jamais les destins rigoureux</l>
+	<l id='20'>N'ont rendu sous le ciel, de jours plus malheureux ;</l>
+	<l id='21'>Et que tous les revers du sort et de l'envie,</l>
+	<l id='22'>Semblent pour seul objet avoir choisi ma vie.</l>
+	<l id='23'>Mes plus heureux succès n'ont jamais vu ce bras,</l>
+	<l id='24'>Sans me coûter du sang, achever de combats ;</l>
+	<l id='25'>Mes plus justes desseins n'ont jamais eu d'issue</l>
+	<l id='26'>Qui remplît mon attente, ou qui ne l'ait déçue.</l>
+	<l id='27'>Je suis encor à voir le seul, et premier fruit</l>
+	<l id='28'>Que jamais, ou l'amour, ou le jeu m'ait produit.</l>
+	<l id='29'>J'espérais à la Cour, vaincre par ma constance,</l>
+	<l id='30'>De cet astre inclément la maligne influence,</l>
+	<l id='31'>Quand avec Dom Bernard, Catalan comme moi,</l>
+	<l id='32'>Je vins avec mes voeux, offrir mon bras au Roi,</l>
+	<l id='33'>Et comme à la valeur, qui m'est héréditaire,</l>
+	<l id='34'>Chercher à succéder aux emplois de mon père ;</l>
+	<l id='35'>Mais toujours quelque obstacle arrêtant mes desseins,</l>
+	<l id='36'>Pour moi fermait au Prince, et l'oreille, et les mains.</l>
+	<l id='37'>Au lieu qu'une fortune à mille autres seconde ;</l>
+	<l id='38'>( Mais à qui Dom Bernard, n'a rien qui ne réponde )</l>
+	<l id='39'>D'abord l'insinuant, en l'estime du Roi</l>
+	<l id='40'>Ouvrait toujours pour lui, ce qu'il fermait pour moi,</l>
+	<l id='41'>Mit bientôt ce grand homme, au plus haut de sa roue ;</l>
+	<l id='42'>Et l'élevant si haut, me laissa dans la boue.</l>
+	<l id='43'>Enfin, ayant acquis, par nos communs tributs,</l>
+	<l id='44'>Lui de telles faveurs, moi de si longs rebuts ;</l>
+	<l id='45'>Les Sardes révoltés nous ont ouvert la lice,</l>
+	<l id='46'>Où je pouvais du sort affronter l'injustice ;</l>
+	<l id='47'>Et me le soumettant, arracher de ce bras,</l>
+	<l id='48'>Les faveurs qu'il me doit, et ne me donne pas.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='49'>À voir de quels dédains la fortune me traite,</l>
+	<l id='50'>Nous devons être nés dessous même planète ;</l>
+	<l id='51'>Jamais occasion d'intérêt, ou d'honneur,</l>
+	<l id='52'>Par son événement n'a marqué mon bonheur ;</l>
+	<l id='53'>Mais surtout, qu'en mon choix le sort me fut contraire,</l>
+	<l id='54'>Quand me donnant à vous, Urfin suivit Cabrere !</l>
+	<l id='55'>Son maître auprès du Roi, possède un rang si haut</l>
+	<l id='56'>Que tout rit à ses voeux, que rien ne lui défaut :</l>
+	<l id='57'>Et dans le triste cours du malheur qui vous presse,</l>
+	<l id='58'>Cette lame enrouillée est toute ma richesse.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='59'>Le service important qu'a rendu ma valeur,</l>
+	<l id='60'>Fera bientôt cesser, ta plainte, et mon malheur ;</l>
+	<l id='61'>Les fruits de l'amitié dont Cabrere m'honore,</l>
+	<l id='62'>Ne peuvent plus tarder et sont tout prêts d'éclore :</l>
+	<l id='63'>J'attends de son paquet, que je viens rendre au Roi,</l>
+	<l id='64'>L'infaillible faveur d'un honorable emploi :</l>
+<stage>Il cherche en sa poche.</stage>
+	<l id='65'>Et puis... mais quelle peine est celle où je me trouve ?</l>
+	<l id='66'>Ô de mon mauvais sort la plus fatale épreuve !</l>
+	<l id='67'>Et qui de mes malheurs, me rend le plus confus ?</l>
+	<l id='68' pat='i'>Ce paquet...</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='68' part='m'>Est perdu.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='68' part='f'>Je ne le trouve plus ;</l>
+	<l id='69'>Ô Négligence insigne ! Et surprise importune !</l>
+	<l id='70'>J'ai joint si peu de soin, à si peu de fortune ?</l>
+	<l id='71'>Et si mal conservé le gage glorieux,</l>
+	<l id='72'>Qui devait rendre au Roi, mon nom si précieux ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='73'>Le sort nous en veut trop, il faut qu'il nous achève,</l>
+	<l id='74'>Et sa haine est pour nous, sans quartier et sans trêve ;</l>
+	<l id='75'>Mais voyez bien, peut être aurez-vous mal cherché ;</l>
+	<l id='76'>Vous l'aviez ce matin, où nous avons couché,</l>
+	<l id='77'>L'auriez-vous oublié ? Cherchez mieux je vous prie.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='78'>Je l'aurai pu laisser dedans l'Hôtellerie,</l>
+	<l id='79'>Mais retourner si loin, ferait un vain souci,</l>
+	<l id='80'>Puisque enfin, aujourd'hui, Cabrere arrive ici ;</l>
+	<l id='81'>Et que sur le chemin, ma blessure r'ouverte,</l>
+	<l id='82'>De trois, ou quatre jours m'ayant coûté la perte,</l>
+	<l id='83'>A fait d'autant de temps, avancer son retour ;</l>
+	<l id='84'>Si bien qu'aujourd'hui même, on l'attend à la Cour,</l>
+	<l id='85'>Ou la voix suppléant la perte de sa lettre,</l>
+	<l id='86'>M'obtiendra les effets, que j'osais m'en promettre :</l>
+	<l id='87'>S'il se peut, toutefois, faisons savoir au Roi,</l>
+	<l id='88'>Quels exploits en Sardaigne, ont établi sa loi ;</l>
+	<l id='89'>Et de ces grands succès lui faisant des peintures,</l>
+	<l id='90'>Sans nous manifester, contons nos aventures ;</l>
+	<l id='91'>Pour donner audience, il se doit rendre ici.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='92' part='i'>Quelqu'un sort de sa chambre.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='92' part='f'>Avançons, le voici.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE DEUXIÈME. Le Roi, Le Comte, Capitaine des Gardes, Suite d'Archers, Dom Lope, Lazarille.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='93'>Vos soins du grand Trajan vous font le vif exemple,</l>
+	<l id='94'>Si les Rois sont des Dieux, leur Palais est un temple,</l>
+	<l id='95'>Où pour tous il est juste, et libre de prier,</l>
+	<l id='96'>Et dont jamais l'accès ne se doit dénier.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='97'>Le plus digne degré de la grandeur d'un maître,</l>
+	<l id='98'>Est d'être égal aux siens, autant qu'il le peut être ;</l>
+	<l id='99'>Il s'élève plus haut par cet abaissement,</l>
+	<l id='100'>C'est de sa dignité le plus sûr fondement,</l>
+	<l id='101'>Et de l'art de régner la plus haute science.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='102'>Chacun peut approcher : le Roi donne audience.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE s'avançant.</speaker>
+	<l id='103'>Si prompt à le servir, je tremble à l'aborder.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='104' part='i'>L'occasion vous rit.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='104' part='f'>Ciel, fais la succéder.</l>
+	<l id='105' part='i'>Mais on m'a prévenu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Dom Sanche, Le Roi.</head>
+<sp who='DOM-SANCHE'><speaker>Dom SANCHE, Gouverneur de Saragosse.</speaker>
+	<l id='105' part='f'>Sire, un bruit populaire,</l>
+	<l id='106'>Jette ici la terreur de l'Infant votre frère ;</l>
+	<l id='107'>L'armée est décampée, et s'avance à grand pas,</l>
+	<l id='108'>L'avantage consiste à ne l'attendre pas ;</l>
+	<l id='109'>Et le mal nous pressant, empêcher qu'il n'empire</l>
+	<l id='110'>Et ne vienne attaquer le coeur de votre Empire :</l>
+	<l id='111'>Vous risquez un grand siège, en attendant plus tard,</l>
+	<l id='112'>Saragosse est au trône un important rempart.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='113'>Mes ordres pourvoiront contre cette disgrâce,</l>
+	<l id='114'>Cependant, travaillez à bien munir la place ;</l>
+	<l id='115'>Et pourvoir de défense aux endroits importants,</l>
+	<l id='116'>Sans semer la frayeur parmi les habitants ;</l>
+	<l id='117' part='i'>Allez qu'un autre approche.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Secrétaire, Le Roi, Le Comte, Dom Lope, Lazarille, Soldats.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE s'avançant.</speaker>
+	<l id='117' part='f'>Ô Sort, sois moi propice !</l>
+	<l id='118'>Ne voilà pas encor, un trait de son caprice !</l>
+	<l id='119'>Vois combien de hasards m'ôtent l'occasion.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='120'>Je forcène de rage et de confusion.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>Le SECRÉTAIRE au Roi, lui donnant une lettre.</speaker>
+	<l id='121'>Sire, aux moindres faveurs, qu'une maîtresse envoie,</l>
+	<l id='122'>C'est trop faire acheter, qu'en retarder la joie.</l>
+<stage>Le Roi la baisant et l'ouvrant.</stage>
+	<l id='123'>Cher gage d'une main pleine de tant d'appas,</l>
+	<l id='124'>Me viens-tu prononcer l'arrêt de mon trépas ?</l>
+	<l id='125'>Ou fléchirai-je enfin la fierté qui rejette</l>
+	<l id='126'>Une âme assujettie au joug de sa sujette ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='127'>Quelqu'un profitera du temps que vous perdez.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE s'avançant.</speaker>
+	<l id='128' part='i'>Prince, rare ornement...</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE le faisant retirer.</speaker>
+	<l id='128' part='f'>Le Roi lit, attendez.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI lisant la lettre.</speaker>
+	<l id='129'>Ne souillez point grand Roi, les glorieuses marques,</l>
+	<l id='130'>Qui sur le reste des monarques,</l>
+	<l id='131'>Font briller votre Majesté,</l>
+	<l id='132'>Par une passion à son repos fatale,</l>
+	<l id='133'>D'un indigne attentat de votre âme Royale,</l>
+	<l id='134'>Sur mon honnêteté.</l>
+	<l id='135'>J'ai trop longtemps souffert à vos ardeurs passées,</l>
+	<l id='136'>Ces frivoles écrits, porteurs de vos pensées,</l>
+	<l id='137'>Ne m'en honorez plus,</l>
+	<l id='138'>On me continuant cet honneur qui m'offense,</l>
+	<l id='139'>Ne vous offensez pas, ou d'un juste silence,</l>
+	<l id='140'>Ou d'un libre refus ;</l>
+<stage>Il dit, ne lisant plus.</stage>
+	<l id='141'>Ô rigueur inhumaine ! ô beauté tyrannique !</l>
+	<l id='142'>Qui causant mon amour, défends qu'elle s'explique,</l>
+	<l id='143'>Beau, mais funeste écueil, insensible rocher.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='144' part='i'>Allez.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='144' part='f'>Il ne lit plus, vous pouvez approcher.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE s'approchant.</speaker>
+	<l id='145'>Enfin tu seras lasse, ô cruelle fortune !</l>
+	<l id='146'>De me persécuter et de m'être importune ;</l>
+	<l id='147'>Prince amour des climats, où vous donnez la loi,</l>
+	<l id='148'>Et de vos ennemis, la terreur et l'effroi ;</l>
+	<l id='149'>Si votre Majesté doit trouver quelques charmes</l>
+	<l id='150'>Au fidèle récit du succès de ses armes ;</l>
+	<l id='151'>J'ose satisfaisant à ma commission,</l>
+	<l id='152'>Me promettre l'honneur de son attention.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI  lit un mot, ou deux, et puis dit.</speaker>
+	<l id='153'>Et vantons orgueilleux, les droits d'une Couronne,</l>
+<note type="C">On lit dans l'édition originale : "les droits d'un Couronne"</note>
+	<l id='154'>Et le faux ascendant que son éclat nous donne ;</l>
+	<l id='155'>Pourrais-je obtenir moins dessous un nom privé,</l>
+	<l id='156'>Quand ce grade éminent, où je suis élevé !</l>
+	<l id='157'>Une ingrate sujette à ce point me dédaigne !</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='158'>L'état où Dom Bernard a réduit la Sardaigne,</l>
+	<l id='159'>Fera trembler l'Europe, et de votre fureur,</l>
+	<l id='160'>Aux lieux plus écartés sèmera la terreur.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI lisant.</speaker>
+	<l id='161'>Ne m'en honorez plus,</l>
+	<l id='162'>Ou me continuant, cet honneur qui m'offense,</l>
+	<l id='163'>Ne vous offensez pas, ou d'un juste silence,</l>
+	<l id='164'>Ou d'un libre refus.</l>
+<stage>Il dit ensuite.</stage>
+	<l id='165'>Traiter de ces froideurs, le feu qui me dévore,</l>
+	<l id='166'>Moi son Prince ! son Roi, mais son Roi qui l'adore.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='167'>Quand l'appareil fut prêt, et que de vos vaisseaux</l>
+	<l id='168'>Dom Bernard eut ouvert l'humide sein des eaux,</l>
+	<l id='169'>Les vents en même instant, furent sans violence,</l>
+	<l id='170'>Et volontairement s'imposèrent silence ;</l>
+	<l id='171'>La mer avec respect porta ce grand fardeau,</l>
+	<l id='172'>Qui des Sardes allait la faire le tombeau.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='173'>Mais, ô trouble frivole et vaine rêverie,</l>
+	<l id='174'>Amoureux je puis craindre, et Monarque je prie ;</l>
+	<l id='175'>J'aime, et puis observer ces respects superflus,</l>
+	<l id='176'>Qui pouvant tout, demande, est digne du refus.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='177'>L'air et la mer, enfin comme vos tributaires,</l>
+	<l id='178'>Prirent votre parti, contre vos adversaires.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='179'>Mais au trouble importun, dont j'étais diverti,</l>
+	<l id='180'>N'ayant rien entendu, je n'ai rien réparti ;</l>
+	<l id='181'>Cette distraction est un défaut aux Princes,</l>
+	<l id='182'>Qui doivent toujours mettre, au bien de leurs Provinces,</l>
+	<l id='183'>Leur plus présent objet, et leur soin le plus haut,</l>
+	<l id='184'>Rappelons notre esprit, et couvrons ce défaut.</l>
+<stage>Se levant.</stage>
+	<l id='185'>Je songe à prévenir le siège qui s'apprête,</l>
+	<l id='186'>Si vous m'avez servi, dressez votre requête,</l>
+	<l id='187'>J'en verrai le mérite, et j'aurai soin de vous.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE le suivant.</speaker>
+	<l id='188'>De nos Astres enfin nous vaincrons le courroux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Roi, Le Comte, Le Secrétaire.</head>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='189'>Quoi je règne, et régnant n'ose dire que j'aime !</l>
+	<l id='190'>Je sers, et ne puis plaire avec un Diadème !</l>
+<stage>Au Secrétaire.</stage>
+	<l id='191'>Toi, de ce triste écrit funeste messager,</l>
+	<l id='192'>Auteur de mon ennui, travaille à l'alléger,</l>
+	<l id='193'>Et si tu veux qu'encor quelque attente me flatte,</l>
+	<l id='194'>Va m'obtenir, Perez, de cette belle ingrate,</l>
+	<l id='195'>La faveur de passer en son appartement,</l>
+	<l id='196'>Et sans l'incommoder, lui parler un moment.</l>
+	<l id='197'>Va j'attends sa réponse : ha comte, est-il possible,</l>
+	<l id='198'>Que ce front couronné cache un coeur si sensible !</l>
+	<l id='199'>Et qu'une dépendante, et sujette beauté,</l>
+	<l id='200'>À de si longs efforts, en cache un indompté ?</l>
+	<l id='201'>Par quel droit vantons-nous malheureux que nous sommes,</l>
+	<l id='202'>L'avantage des Rois, sur le reste des hommes,</l>
+	<l id='203'>Si sujets comme vous à notre passion,</l>
+	<l id='204'>Nous soutenons si mal cette présomption,</l>
+	<l id='205'>Que d'un seul regard, qu'un bel oeil nous envoie,</l>
+	<l id='206'>Nos libertés souvent sont la honteuse proie ?</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='207'>Le malheur de souffrir pour d'aimables objets,</l>
+	<l id='208'>Est le sort aussi bien des Rois que des sujets.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='209'>Ma plus sensible peine, en ce que je propose,</l>
+	<l id='210'>Est que mon dessein même, à mon dessein s'oppose,</l>
+	<l id='211'>Et que pouvant user d'un pouvoir absolu,</l>
+	<l id='212'>Je cesse de vouloir, sitôt que j'ai voulu ;</l>
+	<l id='213'>Que dans la même cause, et criminel, et juge,</l>
+	<l id='214'>De l'objet offensé je deviens le refuge,</l>
+	<l id='215'>Et de quelques efforts que je sois combattu,</l>
+	<l id='216'>N'ai pas assez d'amour pour manquer de vertu.</l>
+	<l id='217'>Ainsi mon coeur pressé par l'un et l'autre extrême,</l>
+	<l id='218'>Est le champ d'un combat de moi contre moi-même,</l>
+	<l id='219'>Qui lâche, ou généreux, faible, ou fort que je suis,</l>
+	<l id='220'>Protège en même temps, l'honneur que je poursuis.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='221'>C'est par ce beau combat, que vous rendez des marques,</l>
+	<l id='222'>Du plus considérable, et plus grand des Monarques ;</l>
+	<l id='223'>L'amour est un doux mal commun à tous les Rois,</l>
+	<l id='224'>Mais peu de la raison lui font suivre les lois,</l>
+	<l id='225'>Peu savent avec lui modérer leur puissance,</l>
+	<l id='226'>Et quand il ose trop, réprimer sa licence ;</l>
+	<l id='227'>Ces qualités aussi vous attirent nos voeux,</l>
+	<l id='228'>De Pedre, et non du Roi, le monde est amoureux ;</l>
+	<l id='229'>Et le surnom de Grand que l'Aragon vous donne,</l>
+	<l id='230'>Vient plus de vos vertus, que de votre Couronne ;</l>
+	<l id='231'>C'est un malheur d'un trône où l'on est élevé,</l>
+	<l id='232'>Qu'être toujours en butte, et toujours observé ;</l>
+	<l id='233'>Qu'il ne soit mur si fort, dans les Palais des Princes,</l>
+	<l id='234'>Que ne puissent percer les yeux de leurs Provinces,</l>
+	<l id='235'>Toutes les actions regardant leurs sujets,</l>
+	<l id='236'>De leurs sujets aussi, sont toujours les objets ;</l>
+	<l id='237'>Avec le peuple enfin ils partagent un titre,</l>
+	<l id='238'>Et juges de l'État, l'État est leur arbitre ;</l>
+	<l id='239'>Pour votre Majesté, c'est un repos bien doux,</l>
+	<l id='240'>De pouvoir sans rien craindre, être jugé de tous ;</l>
+	<l id='241'>Et c'est pour un Monarque une vertu sublime,</l>
+	<l id='242'>De haïr comme vous, jusqu'à l'ombre du crime ;</l>
+	<l id='243'>D'être un si saint exemple, aux yeux de votre Cour,</l>
+	<l id='244'>Et pouvoir accorder l'innocence et l'amour.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='245'>L'intérêt qui m'allie avecques la Navarre,</l>
+	<l id='246'>Pouvait seul me priver d'une beauté si rare ;</l>
+	<l id='247'>Et toute autre raison moins utile à l'État,</l>
+	<l id='248'>La splendeur de mon rang, le nom de Potentat,</l>
+	<l id='249'>Ni tous les fondements d'une haute espérance,</l>
+	<l id='250'>Ne me pourraient ravir l'heur de son alliance.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Dom Lope de Lune, Lazarille, Le Roi, Le Comte, Gardes.</head>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='251'>L'occasion vous rit, mais ne la manquez pas.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='252'>Elle est trop favorable, ô sort guide nos pas !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI prenant la requête.</speaker>
+	<l id='253' part='i'>Donnez.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='253' part='f'>Ce mot, grand Roi, s'il ne vous importune,</l>
+	<l id='254'>Vous fera souvenir de Dom lope de Lune ;</l>
+	<l id='255'>Autrefois par sa charge, illustre en cette Cour,</l>
+	<l id='256'>Sous l'heureux Souverain, dont vous tenez le jour ;</l>
+	<l id='257'>Qui jusqu'à la mort, paya de sa personne,</l>
+	<l id='258'>Et fit de tout son sang, hommage à la Couronne.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI lisant.</speaker>
+	<l id='259' part='i'>Dom Lope de...</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Secrétaire, Le Roi, Dom Lope, Le Comte, Lazarille, Gardes.</head>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRÉTAIRE</speaker>
+	<l id='259' part='f'>Seigneur, Léonor passe ici.</l>
+	<l id='260'>Pour aller chez l'Infante, avancez, la voici.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE à Dom Lope.</speaker>
+	<l id='261' part='i'>Hors.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE sortant.</speaker>
+	<l id='261' part='f'>Ô de mon malheur, cruelle expérience !</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE le suivant.</speaker>
+	<l id='262'>Ô la dure vertu, que tant de patience !</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Léonor, Le Roi, Le Comte, Le Secrétaire, Gardes.</head>
+<sp who='LE-ROI'><speaker>LE ROI relevant Léonor qui en entrant fait un faux pas.</speaker>
+	<l id='263' part='i'>Hé, Madame !</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='263' part='f'>Seigneur, c'est un bonheur pour moi,</l>
+<stage>Le Roi lui donnant la main, laisse tomber la requête par mégarde.</stage>
+	<l id='264'>Qu'ayant à choir, ma chute arrive aux pieds du Roi,</l>
+	<l id='265'>Dont le rang me prescrit l'état où je me trouve.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='266'>C'est de votre mérite une infaillible preuve,</l>
+	<l id='267'>Que pour vous relever et servir au besoin,</l>
+	<l id='268'>À mes mains la fortune , en ait commis le soin ;</l>
+	<l id='269'>Oui, Madame, ce soin tombe en des mains puissantes,</l>
+	<l id='270'>Capables de remplir et passer vos attentes,</l>
+	<l id='271'>Qui vous peuvent donner un rang qui vous défaut,</l>
+	<l id='272'>Et ne relève point, sans élever bien haut.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='273'>Que puis-je désormais craindre de la fortune,</l>
+	<l id='274'>Si me terrassant même elle m'est importune ;</l>
+	<l id='275'>Si ma chute s'élève, et si choir est un saut,</l>
+	<l id='276'>Pour me rendre plus ferme, et m'élever plus haut,</l>
+	<l id='277'>C'est d'un bonheur insigne une preuve constante.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='278' part='i'>Où s'adressent vos pas ?</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='278' part='f'>Je passais chez l'Infante.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='279' part='i'>Je vous y rends.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='279' part='m'>Seigneur !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='279' part='f'>Accordez-moi ce point,</l>
+	<l id='280'>Mandez des cruautés, mais n'en exercez point,</l>
+	<l id='281'>Rebutez, méprisez, tuez dans une lettre,</l>
+	<l id='282'>Mais présente, souffrez ce qui se peut permettre,</l>
+	<l id='283'>Et ne refusez pas une civilité.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='284'>Si j'osais remontrer à votre Majesté,</l>
+	<l id='285'>Qu'à quelque si haut point que sa bonté m'oblige,</l>
+	<l id='286' part='i'>Il m'est de conséquence étant...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='286' part='f'>Allons vous dis-je,</l>
+	<l id='287'>Souffrez que je vous rende en son appartement,</l>
+	<l id='288'>Et là nous en viendrons sur l'éclaircissement.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX.  Dom Lope de Lune, Lazarille, sortant de l'antichambre.</head>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='289'>Qu'attendons-nous encor, malheureux que nous sommes ?</l>
+	<l id='290'>J'ai bien vu du pays, j'ai bien connu des hommes,</l>
+	<l id='291'>Mais je n'en ai point vu, que le ciel en courroux,</l>
+	<l id='292'>Rende par leur malheur si célèbres que nous ;</l>
+	<l id='293'>Et vous deviendrez Grand, vanité ridicule !</l>
+	<l id='294'>Vous pourriez être un Mars, un César, un Hercule</l>
+	<l id='295'>Que le sort enragé qui talonne vos pas,</l>
+	<l id='296'>Vous heurterait encor, et ne vous rirait pas.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='297'>Sa rigueur en effet m'oppose tant d'obstacles,</l>
+	<l id='298'>Que pour les vaincre tous, il faudrait des miracles ;</l>
+	<l id='299'>Mais le Roi peut rentrer, attendons son retour.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='300'>Ô l'importun métier, que celui de la Cour !</l>
+	<l id='301'>Il trouve la requête, et la ramassant dit.</l>
+	<l id='302'>Qu'est-ce ci ? Quelque trait encor de la fortune !</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='303' part='i'>Qu'est-ce ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE lisant.</speaker>
+	<l id='303' part='f'>Requête au Roi de Dom Lope de Lune ; ...</l>
+	<l id='304'>Et votre âme est prophète en ses pressentiments,</l>
+	<l id='305'>De grands effets suivront vos nobles mouvements ?</l>
+<stage>Le lui montrant, il dit.</stage>
+	<l id='306'>Vous pouvez sur l'espoir que Dom Bernard vous donne,</l>
+	<l id='307'>Prétendre à des degrés proches de la Couronne :</l>
+	<l id='308'>Vous êtes fort avant dedans l'esprit du Roi,</l>
+	<l id='309'>Vous ne pouvez manquer d'un honorable emploi :</l>
+	<l id='310'>Pour vous seul désormais, les astres s'intéressent,</l>
+	<l id='311'>Ô de combien de vent les hommes se repaissent !</l>
+<stage>Lui baillant la requête.</stage>
+	<l id='312'>Tenez, votre requête a fait un grand effet,</l>
+	<l id='313'>Et vous avez raison d'être fort satisfait,</l>
+	<l id='314'>Elle a des pieds du Prince essuyé la poussière.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='315'>Dieu ! Jamais désespoir eut-il tant de matière ?</l>
+	<l id='316'>Dom Bernard qui peut tout, en vain me veut du bien,</l>
+	<l id='317'>Ma valeur sert l'État, et ne me produit rien :</l>
+	<l id='318'>Ma parole est soufferte, et n'est point écoutée,</l>
+	<l id='319'>Ma requête est reçue, et puis est rejetée,</l>
+	<l id='320'>J'ai toujours lieu d'espoir, jamais d'événement,</l>
+	<l id='321'>Tout me rit, tout me flatte, et toujours vainement ;</l>
+	<l id='322'>La fortune nous traite avec trop d'injustice,</l>
+	<l id='323'>Pour nous permettre plus de vaincre son caprice.</l>
+	<l id='324'>Ne nous obstinons plus en une ingrate Cour,</l>
+	<l id='325'>Puisque Cabrere arrive, attendons son retour ;</l>
+	<l id='326'>Mais sans plus nous flatter d'une espérance vaine,</l>
+	<l id='327'>Sans que mes intérêts lui coûtent plus de peine ;</l>
+<stage>Déchirant la requête.</stage>
+	<l id='328'>Payons son amitié seulement d'un adieu,</l>
+	<l id='329'>Et fuyons pour jamais de ce funeste lieu.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Dom Bernard, Dom Lope, Lazarille.</head>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='330'>Quoi ce grand coeur s'ébranle, et Dom Lope de Lune</l>
+	<l id='331'>Veut tourner lâchement le dos à la fortune,</l>
+	<l id='332'>Et parmi ses exploits laissera raconter,</l>
+	<l id='333'>Qu'il est un ennemi, qu'il a pu redouter ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='334'>Après une si longue, et si triste aventure,</l>
+	<l id='335'>Après tant de malheurs, et de cette nature ;</l>
+	<l id='336'>Après tant de revers, de rebuts, de mépris</l>
+	<l id='337'>Capables de lasser les plus fermes esprits ;</l>
+	<l id='338'>Quand je ne croirais pas mon malheur invincible,</l>
+	<l id='339'>Je serais insensé, si j'étais insensible.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='340'>Comme les Souverains n'ont pas des droits communs,</l>
+	<l id='341'>Ils veulent quelquefois des devoirs importuns,</l>
+	<l id='342'>Et moins par nos effets que par notre constance,</l>
+	<l id='343'>De nos affections éprouvent l'importance ;</l>
+	<l id='344'>Tel que la Cour rebute ou ne caresse pas,</l>
+	<l id='345'>Souvent mal à propos se lasse au dernier pas ;</l>
+	<l id='346'>Et sans la lâcheté de retourner arrière,</l>
+	<l id='347'>Trouvait une Couronne au bout de sa carrière ;</l>
+	<l id='348'>Je sais que le destin qui dispense les rangs,</l>
+	<l id='349'>Tient pour nous les donner, des moyens différents ;</l>
+	<l id='350'>Par des chemins divers, élève aux grandes choses,</l>
+	<l id='351'>Et les sème à son gré, d'épines, ou de roses,</l>
+	<l id='352'>Je sais que par un heur qui ne se conçoit pas,</l>
+	<l id='353'>Pour arriver si haut, je n'ai pas fait un pas ;</l>
+	<l id='354'>Et que tout mon crédit et toute ma puissance,</l>
+	<l id='355'>Ne sont qu'un simple effet de mon obéissance ;</l>
+	<l id='356'>Que je méritais moins, que vous ne méritez,</l>
+	<l id='357'>Et qu'on m'a tout donné ce que vous achetez ;</l>
+	<l id='358'>Mais ce même destin dont l'aveugle caprice,</l>
+	<l id='359'>Me fait tant de faveur, à vous tant d'injustice,</l>
+	<l id='360'>Peut de la même main, dont il m'a fait monter,</l>
+	<l id='361'>Et vous mettre en ma place, et m'en précipiter ;</l>
+	<l id='362'>De ma part soyez sûr d'une ardeur sans pareille,</l>
+	<l id='363'>Et qu'au point où du Roi je possède l'oreille,</l>
+	<l id='364'>Pour peu que sa bonté réponde à mes souhaits,</l>
+	<l id='365'>Mes soins vous produiront d'infaillibles succès.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='366'>Quelques traits si perçants dont la douleur me touche,</l>
+	<l id='367'>Avec cette bonté vous me fermez la bouche,</l>
+	<l id='368'>Et je tiendrai l'honneur de votre affection,</l>
+	<l id='369'>Pour le plus digne objet de mon ambition.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='370'>Au reste de quel oeil voyez-vous Violante ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='371' part='i'>Ce nom m'est inconnu.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='371' part='f'>Quoi le nom de l'Infante ?</l>
+	<l id='372'>Ce nom, par qui le ciel nous voulut exprimer,</l>
+	<l id='373'>L'invincible pouvoir qui force de l'aimer ?</l>
+	<l id='374'>Et trouve tous les coeurs sans défense, et sans armes ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='375'>J'en confondais le nom, mais j'en connais les charmes ;</l>
+	<l id='376'>Et si mon mauvais sort m'en permet d'en parler,</l>
+	<l id='377'>N'ai rien vu sous le ciel qu'on lui puisse égaler ;</l>
+	<l id='378'>Ni qui soumette une âme avecques plus d'empire</l>
+	<l id='379'>Mais quelque haut dessein que l'amour vous inspire ;</l>
+	<l id='380'>Votre heur et vos vertus, vous la peuvent donner,</l>
+	<l id='381'>Et ce leur serait peu que de vous couronner.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='382'>Traitons avec respect les dignités suprêmes,</l>
+	<l id='383'>Et ne touchons jamais jusqu'aux diadèmes ;</l>
+	<l id='384'>Le Ciel qui les sacra, veut qu'ils soient révérés,</l>
+	<l id='385'>Et n'ouvre point l'oreille aux voeux immodérés.</l>
+	<l id='386'>Allons de nos lauriers faire hommage à ses charmes,</l>
+	<l id='387'>Et rendre compte au Roi du succès de ses armes ;</l>
+	<l id='388'>Venez les vérités que j'y dirai de vous,</l>
+	<l id='389'>Feront de ce récit, les brillants les plus doux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Le Roi, Le Comte, Gardes.</head>
+<sp who='LE-COMTE'><speaker>LE COMTE voyant le Roi assoupi.</speaker>
+	<l id='390'>Quel travail altérant l'air de votre visage,</l>
+	<l id='391'>Presque du mouvement vous dérobe l'usage,</l>
+	<l id='392'>Et vous cause, Seigneur, cet assoupissement ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='393'>Le sommeil nous pressant se vainc malaisément ;</l>
+	<l id='394'>La musique, le jeu, cent tours à la fenêtre,</l>
+	<l id='395'>De cet Astre inhumain, qui m'a daigné paraître,</l>
+	<l id='396'>Cent plaintes à sa porte, et cent soupirs sans fruit,</l>
+	<l id='397'>M'ont ôté le repos de l'âme et de la nuit ;</l>
+	<l id='398'>Tant que m'ayant des sens presque interdit l'usage,</l>
+	<l id='399'>Le jour, veut de la nuit, me réparer l'outrage ;</l>
+	<l id='400'>Mais Dom Bernard arrive, et vient d'un doux réveil,</l>
+	<l id='401'>Guérir ma lassitude, et charmer mon sommeil ;</l>
+	<l id='402'>Il a tant fait pour moi, que pour sa récompense,</l>
+	<l id='403'>Mon pouvoir aujourd'hui connaît son impuissance.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='404'>Les prix qui d'un grand coeur suivent les grands exploits,</l>
+	<l id='405'>Sont les plus clairs brillants des Couronnes des Rois ;</l>
+	<l id='406'>Aux grandes actions leur charme nous invite,</l>
+	<l id='407'>Par eux l'âme s'élève, et la vertu s'excite ;</l>
+	<l id='408'>Par eux il n'est dessein dont on ne vienne à bout,</l>
+	<l id='409'>Et ne rien épargner, est l'art d'acquérir tout ;</l>
+	<l id='410'>Mais si pour un sujet, jamais vos mains Royales,</l>
+	<l id='411'>Ont eu lieu de s'ouvrir, et d'être libérales ;</l>
+	<l id='412'>Dom Bernard si fameux par tant d'occasions,</l>
+	<l id='413'>Est le plus digne objet de vos profusions ;</l>
+	<l id='414'>Puisqu'aux nobles travaux de ce courage illustre,</l>
+	<l id='415'>Les armes d'Aragon doivent leur plus beau lustre ;</l>
+	<l id='416'>Et qu'enfin quelque éclat dont il soit revêtu,</l>
+	<l id='417'>Son rang sera toujours moindre que sa vertu.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='418'>Je connais ma faiblesse, à le bien reconnaître,</l>
+	<l id='419'>Il épuise ma force, à force de l'accroître :</l>
+	<l id='420'>Par nos communs bienfaits, il l'emporte sur moi,</l>
+	<l id='421'>Je lui donne en vassal, et lui me donne en Roi :</l>
+	<l id='422'>Mais l'amitié qui rend toute chose commune,</l>
+	<l id='423'>Lui va comme mon coeur, partager ma fortune,</l>
+	<l id='424'>Et sur son seul mérite appuyer mon pouvoir,</l>
+	<l id='425'>Il arrive, avançons, allons le recevoir,</l>
+	<l id='426'>Et bâtir aujourd'hui le plus haut édifice,</l>
+	<l id='427'>Qu'aient jamais élevé le sort et la justice.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Dom Bernard de Cabrera, Dom Lope, Lazarille, Soldats, Le Roi, Le Comte, Gardes.</head>
+<sp who='DON-BERNARD'><speaker>Don BERNARD, aux pieds du Roi.</speaker>
+	<l id='428' part='i'>Seigneur !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='428' part='f'>Vous à mes pieds ! Gloire de cet État,</l>
+	<l id='429'>Vous de ma dignité le plus brillant éclat ;</l>
+	<l id='430'>Heureux restaurateur et soutien de mon trône,</l>
+	<l id='431' part='i'>Je vous fais Amiral !</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='431' part='m'>Moi, Sire.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI le relevant.</speaker>
+	<l id='431' part='f'>Et Duc d'Ossone.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='432' part='i'>Ô Ciel !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='432' part='f'>Joignez aux miens ces invincibles bras,</l>
+	<l id='433'>Qui par tant de travaux et par tant de combats,</l>
+	<l id='434'>Ont si bien soutenu le faix de mon Empire.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='435'>À ma confusion, ils sont plus chargés, Sire,</l>
+	<l id='436'>Du faix de vos bienfaits, que du faix des lauriers,</l>
+	<l id='437'>Que vous ont moissonnés vos illustres guerriers ;</l>
+	<l id='438'>Bien plus qu'eux, et que moi, votre nom est la foudre,</l>
+	<l id='439'>Qui tonne, étonne, frappe, et réduit tout en poudre ;</l>
+	<l id='440'>Dom Pedre seul, absent, porte plus de terreur,</l>
+	<l id='441'>Que de nos bras présents la plus chaude fureur ;</l>
+	<l id='442'>Et par votre faveur tant de fois confirmée,</l>
+	<l id='443'>Vous me payez les prix de votre renommée,</l>
+	<l id='444'>Et me reconnaissez de vos propres exploits,</l>
+	<l id='445'>Puisque votre seul bruit range tout sous vos lois.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='446'>Faisons qu'avec le temps, l'Aragon puisse apprendre,</l>
+	<l id='447'>Qui de nous saura mieux, ou recevoir, ou rendre ;</l>
+	<l id='448'>Et qui d'affection aura mieux combattu,</l>
+	<l id='449'>Je ne me lasserai qu'après votre vertu ;</l>
+	<l id='450'>Et de ce seul combat, vous envierai la gloire,</l>
+	<l id='451'>De celui de Sardaigne, apprenez-moi l'Histoire,</l>
+<stage>Il se sied et fait seoir Dom Bernard.</stage>
+	<l id='452' part='i'>Donnez un siège au Comte.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='452' part='f'>À peine vos vaisseaux,</l>
+	<l id='453'>Déradés traversaient le vaste champ des eaux,</l>
+	<l id='454'>Que les vents ennemis de cette humide plaine</l>
+	<l id='455'>Selon notre besoin, mesurant leur haleine,</l>
+	<l id='456'>D'irrités qu'ils étaient, aussitôt apaisés,</l>
+	<l id='457'>Firent voir le respect que vous leur imposez ;</l>
+	<l id='458'>Cette sèche forêt, eut enfin de Neptune,</l>
+	<l id='459'>L'inconstante faveur, à tel point opportune,</l>
+	<l id='460'>Qu'avec un seul Soleil, une nuit seulement,</l>
+	<l id='461'>Voit et notre arrivée, et notre embarquement,</l>
+	<l id='462'>L'aurore allait sortir, quand je fis prendre terre</l>
+	<l id='463'>À ces Mars Espagnols, ces démons de la guerre,</l>
+	<l id='464'>Ces fléaux des attentats, et des rebellions,</l>
+	<l id='465'>Que l'honneur d'être à vous, rend autant de Lions.</l>
+	<l id='466'>Comme l'ardeur peut tout, jointe à l'intelligence,</l>
+	<l id='467'>Le temps fut ménagé par tant de diligence ;</l>
+	<l id='468'>Que le camp découvert, les murs des ennemis,</l>
+	<l id='469'>Avant qu'un vent de flamme en eût porté l'avis,</l>
+	<l id='470'>Et que de notre abord Calaris avertie</l>
+	<l id='471'>Pût, où nous prîmes port, faire aucune sortie ;</l>
+	<l id='472'>Nul ne gardait l'accès de ces perfides murs,</l>
+	<l id='473'>Mais pour être déserts, les champs n'étaient pas sûrs.</l>
+	<l id='474'>Car cette ingrate ville en ruses trop experte,</l>
+	<l id='475'>Avait d'arbres couchés la campagne couverte,</l>
+	<l id='476'>Et parsemé de clous les chemins d'alentour,</l>
+	<l id='477'>Qui nous firent besoin et d'adresse, et de jour.</l>
+	<l id='478'>L'un et l'autre à la fin, nous aidant le passage,</l>
+	<l id='479'>Après un long travail du piège nous dégage ;</l>
+	<l id='480'>Et suivant un sentier qui descend d'un coteau,</l>
+	<l id='481'>À son pied verdissant, nous trouvons un ruisseau,</l>
+	<l id='482'>Dans le trouble cristal qui sortait d'une roche,</l>
+	<l id='483'>De gens qui le foulaient, nous fit juger l'approche ;</l>
+	<l id='484'>Là chacun attentif, considérant les lieux,</l>
+	<l id='485'>Un brillant escadron se présente à nos yeux,</l>
+	<l id='486'>Dont le maintien superbe, et le riche équipage,</l>
+	<l id='487'>Loin de nous étonner, nous enfle le courage,</l>
+	<l id='488'>Nous fait sauter de joie, et nous promet le fruit,</l>
+	<l id='489'>Du pénible travail de l'onde et de la nuit.</l>
+	<l id='490'>Il n'est soldat si las, à qui le coeur ne vole,</l>
+	<l id='491'>Et qui n'ait la vigueur comme l'âme Espagnole ;</l>
+	<l id='492'>Et presque en un  instant tous nos rangs disposés,</l>
+	<l id='493'>Séparent les trois corps dont ils sont composés.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI  assoupi et comme endormi.</speaker>
+	<l id='494'>En vain dans cet excès de gloire et d'allégresse,</l>
+	<l id='495'>Je tâche à résister au sommeil qui me presse.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='496'>L'escadron reconnu, lorsque pour l'investir,</l>
+	<l id='497'>Notre avant-garde enfin commença de partir,</l>
+	<l id='498'>Au même instant des arcs de ce peuple rebelle,</l>
+	<l id='499'>Nous vîmes dessus nous fondre une épaisse grêle,</l>
+	<l id='500'>Qui tant que pût durer un choc si violent,</l>
+	<l id='501'>À leur témérité fut un rempart volant</l>
+	<l id='502'>Il semble à cet effort que nos rangs se séparent,</l>
+	<l id='503'>Mais leurs traits épuisés, nos forces se déclarent,</l>
+	<l id='504'>Et nous fondons sur eux plus prompts que les éclairs</l>
+	<l id='505'>Ne nous frappent la vue, et ne percent les airs ;</l>
+	<l id='506'>Le plus hardi s'effraye à ces vives alarmes,</l>
+	<l id='507'>Rien ne résiste plus au torrent de nos armes,</l>
+	<l id='508'>Et nous pavons le champ d'un mélange confus,</l>
+	<l id='509'>De bras, de pieds, de corps, d'arcs, de traits, et d'écus,</l>
+	<l id='510'>Ceux enfin que la fuite a sauvés de l'orage,</l>
+	<l id='511'>À leur ville alarmée annoncent ce naufrage ;</l>
+	<l id='512'>On s'y prépare au siège, on en munit le fort,</l>
+	<l id='513'>Et la rébellion tente un dernier effort ;</l>
+	<l id='514'>Mais, Sire, ce Héros, ce prodige incroyable,</l>
+<stage>Montrant Dom Lope de Lune.</stage>
+	<l id='515'>Admirable aux vainqueurs, aux vaincus effroyable,</l>
+	<l id='516'>Des siècles à venir, futur étonnement,</l>
+	<l id='517'>Et de celui qui court, la gloire et l'ornement ;</l>
+<stage>Le Roi dort.</stage>
+	<l id='518'>Pour tout comprendre enfin, le Grand Lope de Lune,</l>
+	<l id='519'>Par une invention fameuse, et non commune,</l>
+	<l id='520'>Qu'un Grec tenta jadis sur l'empire Latin,</l>
+	<l id='521'>A rendu vain l'effort de ce peuple mutin :</l>
+	<l id='522'>Il se tire du camp, s'étant avec courage,</l>
+	<l id='523'>Découpé d'un poignard, le sein, et le visage,</l>
+	<l id='524'>Et dessus un coureur, qu'il rend presque aux abois,</l>
+	<l id='525'>À leurs murs arrivé, s'écrie à haute voix,</l>
+	<l id='526'>Si chez vous la vertu peut trouver quelque asile,</l>
+	<l id='527'>Ô Sardes généreux ! Ouvrez-moi votre ville,</l>
+	<l id='528'>Si l'homme, encor pour l'homme a quelque humanité,</l>
+	<l id='529'>Sauvez-moi d'un tyran et de sa cruauté,</l>
+	<l id='530'>On ouvre, à sa requête ; il obtient audience,</l>
+	<l id='531'>Et sur l'esprit de tous, gagne tant de créance,</l>
+	<l id='532'>Qu'à la tête souvent de cinq ou six d'entre eux,</l>
+	<l id='533'>Nous venant faire au camp des défis généreux,</l>
+	<l id='534'>En différentes fois, il se fit des plus braves,</l>
+	<l id='535'>Par notre intelligence, un tel nombre d'esclaves,</l>
+	<l id='536'>Qu'enfin tous joints ensemble, et s'étant par moyens,</l>
+	<l id='537'>Pratiqué le secours de quelques citoyens,</l>
+	<l id='538'>Par qui de ce secret je reçus le message,</l>
+	<l id='539'>Dans les murs ennemis, ils se firent passage,</l>
+	<l id='540'>Et Dom Lope, s'acquit un renom glorieux,</l>
+	<l id='541'>Qui fait revivre en lui l'éclat de ses aïeux ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI s'éveillant.</speaker>
+	<l id='542'>Que dira Dom Bernard, d'un si profond silence ?</l>
+	<l id='543'>De ce fâcheux sommeil, forçons la violence :</l>
+	<l id='544'>Et prêtons mieux l'oreille au récit des combats,</l>
+	<l id='545'>De qui si dignement nous a prêté le bras.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='546'>Dom Raimond de Moncade, a dans cette victoire,</l>
+	<l id='547'>Par des faits inouïs éterniser la gloire,</l>
+	<l id='548' part='i'>Et mérite...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='548' part='f'>Oristan, est son gouvernement.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='549'>Le Duc de Ribagorce a servi dignement ;</l>
+	<l id='550'>Et d'un coeur indompté, signalé sa vaillance.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='551'>Sassaris et Sora, seront sa récompense.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='552'>Dom Nugue à notre espoir fut un notable appui,</l>
+	<l id='553' part='i'>Et d'un bras généreux...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='553' part='f'>Calaris est pour lui ;</l>
+	<l id='554'>Et vous restaurateur de la gloire publique,</l>
+	<l id='555'>Je vous fait Duc de Vas, et Comte de Modique.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='556'>De si hauts rangs, Seigneur, pour un sujet si bas !</l>
+	<l id='557'>Semez avec les mains, et ne répandez pas ;</l>
+	<l id='558'>Votre profusion en me chargeant, m'accable,</l>
+	<l id='559'>Et d'un si lourd fardeau ma force est incapable.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='560'>Ce prix me laisse encor la qualité d'ingrat,</l>
+	<l id='561'>Et charge peu le bras qui soutient tout l'État ;</l>
+	<l id='562'>Achevons votre Cour, et passons chez l'Infante,</l>
+	<l id='563'>Où nous consulterons d'une affaire importante,</l>
+	<l id='564'>Pour qui votre retour nous arrive à propos,</l>
+	<l id='565'>Et qui ne peut encor vous souffrir de repos.</l>
+	<l id='566'>Tous s'en vont hormis D. Lope, et Lazarille.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Dom Lope, Lazarille.</head>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='567'>Vous aviez bien raison d'attendre sa venue,</l>
+	<l id='568'>Voilà votre vertu dignement reconnue ;</l>
+	<l id='569'>Votre crédit est grand, on vous de bon oeil,</l>
+	<l id='570'>Et le Roi vous a fait un favorable accueil ;</l>
+	<l id='571' part='i'>Dom Bernard...</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='571' part='f'>Que veux-tu ? Ma raison elle-même,</l>
+	<l id='572'>S'égare et m'abandonne en ce malheur extrême ;</l>
+	<l id='573'>Non tu n'es point pour moi, ( dure fatalité ) !</l>
+	<l id='574'>Fille comme on te croit, de la nécessité ;</l>
+	<l id='575'>Elle n'établit point ton ordre inévitable,</l>
+	<l id='576'>Par ton propre dessein, tu nous es redoutable ;</l>
+	<l id='577'>Ma disgrâce n'est plus un caprice du sort,</l>
+	<l id='578'>Tu ne me heurtes point par un aveugle effort ;</l>
+	<l id='579'>Une haine immortelle, une invincible rage,</l>
+	<l id='580'>Un dessein déclaré, t'obstine à cet outrage :</l>
+	<l id='581'>En vain par tant d'exploits, je m'acquiers tant de bruit,</l>
+	<l id='582'>À qui tu veux du mal, tout travail est sans fruit :</l>
+	<l id='583'>Après tant de soucis, j'espérerais des roses,</l>
+	<l id='584'>Si tu suivais pour moi, l'ordre commun des choses,</l>
+	<l id='585'>Mais tu l'enfreins barbare, et pour moi seulement,</l>
+	<l id='586'>Ton aveugle conduite est sans aveuglement,</l>
+	<l id='587'>Pour moi seul un prodigue, un généreux Monarque,</l>
+	<l id='588'>Jette sur son renom, une honteuse marque,</l>
+	<l id='589'>Et ta vigueur en fait par une injuste loi,</l>
+	<l id='590'>D'un Auguste pour tous, un Tibère pour moi ;</l>
+	<l id='591'>Quoi tant de grands effets, tant d'illustres offices,</l>
+	<l id='592'>Perdent donc en mon bras, le titre de services !</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='593'>Un malheureux enfin, a beau se désoler,</l>
+	<l id='594'>Beau se plaindre des Cieux, et beau les quereller ;</l>
+	<l id='595'>Ils versent sans dessein les plaisirs et les peines,</l>
+	<l id='596'>Ils ne sont point garants des affaires humaines,</l>
+	<l id='597'>Et toute la nature en vain leur veut aider,</l>
+	<l id='598'>À qui naît sans bonheur, rien ne peut succéder,</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Dom Bernard, Le Comte, Dom Lope, Lazarille.</head>
+<sp who='DON-BERNARD'><speaker>Don BERNARD embrassant Dom Lope.</speaker>
+	<l id='599'>Plût au ciel, cher de Lune, et je le dis sans feinte,</l>
+	<l id='600'>Que le sort qui vous livre une si rude atteinte,</l>
+	<l id='601'>Et contre qui pour vous, tous mes souhaits sont vains,</l>
+	<l id='602'>Suivit son inconstance, et nous changeât de mains</l>
+	<l id='603'>La disgrâce du Roi, me serait moins sensible,</l>
+	<l id='604'>Que le mépris qu'il fait de ce bras invincible ;</l>
+	<l id='605'>Qui seul dans la Sardaigne a rétabli ses lois,</l>
+	<l id='606'>Et dont un sceptre seul, peut payer les exploits.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='607'>Votre heur, parfait ami, vous dure autant d'années,</l>
+	<l id='608'>Que m'ont duré d'instants mes tristes destinées ;</l>
+	<l id='609'>Le Roi vous déposant les charges de l'État,</l>
+	<l id='610'>Me fait justice en vous, et ne m'est plus ingrat ;</l>
+	<l id='611'>Quoiqu'une même main vous élève, et m'abaisse,</l>
+	<l id='612'>Le rebut m'en est doux, puisqu'elle vous caresse ;</l>
+	<l id='613'>Et la moitié de moi qu'elle laisse si bas,</l>
+	<l id='614'>Éclate en la moitié, qui régit ses États ;</l>
+	<l id='615'>Vivez donc d'Aragon, et l'amour et la gloire,</l>
+	<l id='616'>Des plus chers favoris effacez la mémoire,</l>
+	<l id='617'>Qu'aucun soin ne vous trouble en vos emplois nouveaux,</l>
+	<l id='618'>Et Souverain des mers, donnez des freins aux eaux</l>
+	<l id='619'>Tandis que de fortune éprouvant l'autre face,</l>
+	<l id='620'>Chétif et triste objet d'opprobre, et de disgrâce,</l>
+	<l id='621'>Je goûterai chez moi pour le moins le bonheur,</l>
+	<l id='622'>De savoir mon ami dans ce haut rang d'honneur ;</l>
+	<l id='623'>Et pouvoir opposer à sa rigueur extrême,</l>
+	<l id='624'>Le bien qu'elle me fait en un autre moi-même.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='625'>Avec plus d'espérance, épargnez ma douleur,</l>
+	<l id='626'>Et croyez que je tiens à sensible malheur,</l>
+	<l id='627'>De pouvoir opposer à sa faveur extrême,</l>
+	<l id='628'>Le mal qu'elle me fait en un autre moi-même.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='629'>Il est vrai que jamais vertu n'avait produit,</l>
+	<l id='630'>De si fameux succès avec si peu de fruit,</l>
+	<l id='631'>Et que d'un art savant, et d'un pinceau fidèle ;</l>
+	<l id='632'>Dom Bernard en a fait la peinture si belle ;</l>
+	<l id='633'>Qu'enfin sans vous flatter, il faut qu'à ce récit,</l>
+	<l id='634'>Quelque grand soin du Prince ait diverti l'esprit ;</l>
+	<l id='635'>Pour en avoir laissé la gloire sans seconde,</l>
+	<l id='636'>Si stérile pour vous et pour lui si féconde.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='637'>Le favorable accès qu'elle a dans vos esprits,</l>
+	<l id='638'>Me la rend trop fertile, et m'est un prix sans prix.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='639'>Nous reverrons le Roi, la prière obstinée,</l>
+	<l id='640'>Succède quelquefois, et vainc la destinée :</l>
+	<l id='641'>Ce vous sera du moins un fruit de son refus,</l>
+	<l id='642'>Si nous n'obtenons rien, que de n'espérer plus ;</l>
+	<l id='643' part='i'>Mais il repose, adieu.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='643' part='f'>Le ciel vous soit propice,</l>
+	<l id='644'>Et me fasse acquitter de cet heureux office !</l>
+	<l id='645'>Ô faiblesse ! Ô contrainte ! Indigne d'un grand coeur,</l>
+	<l id='646'>D'avoir pour la vertu recours à la faveur !</l>
+	<l id='647' part='i'>Lâche, devrais-je encor...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Dom Lope, Dorothée à la fenêtre, Lazarille.</head>
+<sp who='DOROTHEE'><speaker>DOROTHÉE lui jetant une lettre.</speaker>
+	<l id='647' part='f'>Dom Lope, cette lettre,</l>
+	<l id='648'>Qu'en votre propre main j'ai charge de remettre,</l>
+	<l id='649'>Vous invite à mêler du myrte à vos lauriers,</l>
+	<l id='650'>Et des succès d'amour, à vos succès guerriers ;</l>
+	<l id='651'>Soyez discret, adieu, l'objet qui vous l'adresse,</l>
+	<l id='652'>Est d'un rang et d'un sang, digne d'une maîtresse.</l>
+<stage>Elle sort de la fenêtre.</stage>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE ramassant la lettre.</speaker>
+	<l id='653'>Veillons-nous, rêvons-nous ? Puis-je être en même jour,</l>
+	<l id='654'>Si mal avec le sort, et bien avec l'amour !</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='655'>Non non, cet enragé vous étant si contraire,</l>
+	<l id='656'>Quelle est la malheureuse, à qui vous pourriez plaire ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+<stage>Il ouvre la lettre, et lit : À Dom Lope de Lune.</stage>
+	<l id='657'>Au voyage de Vas, où nous suivions le Roi,</l>
+	<l id='658'>Une secrète ardeur, vous engagea ma foi,</l>
+	<l id='659'>Et vous ayant depuis conservé mon hommage,</l>
+	<l id='660'>Vous en veut aujourd'hui confier le secret,</l>
+	<l id='661'>Venez ce soir au parc, seul, fidèle, et discret,</l>
+	<l id='662'>En savoir davantage.</l>
+<stage>VIOLANTE</stage>
+	<stage>Il continue.</stage>
+	<l id='663'>Violante ! Est-ce un songe ! Est-ce une illusion ?</l>
+	<l id='664'>De quoi me flattes-tu chère confusion ?</l>
+	<l id='665'>Violante ! L'Infante, à mon sujet atteinte !</l>
+	<l id='666'>Ô glorieux mélange et d'espoir et de crainte !</l>
+	<l id='667'>Beau songe, qui promets plus que je ne prétends,</l>
+	<l id='668'>Dissipe-toi bien tard, et dure-moi longtemps.</l>
+	<l id='669'>Je vis l'Infante à Vas, ma doute n'est point vaine ;</l>
+	<l id='670'>Des appas innocents n'accusons plus la haine,</l>
+	<l id='671'>Si de cette Princesse ils m'ont acquis les voeux,</l>
+	<l id='672'>L'heur qu'ils m'ont procuré m'élève au-dessus d'eux ;</l>
+	<l id='673'>Mais tirons-nous d'ici, que mon transport n'évente,</l>
+	<l id='674'>Les secrets mouvements d'une ardeur imprudente,</l>
+	<l id='675'>Qui pourrait ruiner le plus heureux espoir,</l>
+	<l id='676'>Que l'amour à mortel fit jamais concevoir.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE le suivant.</speaker>
+	<l id='677'>L'Infante ! Ô qu'il est vain ! Ô quelle extravagance !</l>
+	<l id='678'>Tant de malheur, lui souffre encor tant d'arrogance !</l>
+	<l id='679'>Lui, l'Infante ! Un moment l'avait bien relevé !</l>
+	<l id='680'>Cherchons, cherchons parti, mon maître est achevé.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. L'Infante, Léonor.</head>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='681'>Comtesse, votre esprit trop aisément s'altère,</l>
+	<l id='682'>La plus belle vertu n'est pas la plus austère ;</l>
+	<l id='683'>Les regards, l'entretien de modestes ébats,</l>
+	<l id='684'>Exercent sa candeur et ne l'offensent pas.</l>
+	<l id='685'>Si vous n'aimez l'amant, souffrez-en la personne.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='686'>L'approche en est suspecte avec une Couronne,</l>
+	<l id='687'>Toute honnête qu'elle est, elle fait murmurer.</l>
+	<l id='688'>Et souvent déshonore, à force d'honorer.</l>
+	<l id='689'>Le Roi ne peut déplaire avec toutes les marques,</l>
+	<l id='690'>Qui font considérer les plus parfaits Monarques ;</l>
+	<l id='691'>Mais d'autant plus l'honneur, qu'il me fait de ses voeux,</l>
+	<l id='692'>En jette dans les coeurs, des sentiments douteux.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='693'>Fonder sur des soupçons cette rigueur extrême,</l>
+	<l id='694'>Est bien mal ménager l'espoir d'un diadème ;</l>
+	<l id='695'>Il en peut faire un jour tribut à vos appas,</l>
+	<l id='696'>Ses secrets sentiments ne s'en éloignent pas ;</l>
+	<l id='697'>De moindres passions ont fait des Souveraines.</l>
+	<l id='698'>Et vous êtes d'un sang qui peut donner des Reines.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='699'>Quelques si doux attraits dont on puisse éclater,</l>
+	<l id='700'>Des trônes ne sont pas des prix à mériter.</l>
+	<l id='701'>Le ridicule espoir de cet honneur insigne,</l>
+	<l id='702'>Le devrait rebuter, et m'en rendrait indigne ;</l>
+	<l id='703'>Mais vous sur qui le ciel répand à pleines mains,</l>
+	<l id='704'>Les trésors qu'il départ aux plus heureux humains,</l>
+	<l id='705'>Et dont les ornements et du corps, et de l'âme,</l>
+	<l id='706'>Jettent dans tous les coeurs, le respect, et la flamme ;</l>
+	<l id='707'>Vous dont tout le sang règne, et fait partout des lois,</l>
+	<l id='708'>C'est pour vous que l'amour a destiné des Rois.</l>
+	<l id='709'>La Murcie, et Leon pressent avec instance,</l>
+	<l id='710'>Par leurs ambassadeurs, votre illustre alliance ;</l>
+	<l id='711'>Et quelque si haut trône, où vous vouliez monter</l>
+	<l id='712'>Il sera glorieux de l'heur de vous porter.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='713'>Indifférente encor je n'épouse personne,</l>
+	<l id='714'>Je laisse au Roi mon frère, à choisir ma Couronne,</l>
+	<l id='715'>Et quoi que de mon sort aient ordonné les cieux,</l>
+	<l id='716'>Ne prends que par ses mains, ni vois que par ses yeux.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='717'>Il m'est donc libre enfin de vous ouvrir mon âme,</l>
+	<l id='718'>Puisque votre froideur autorise ma flamme ;</l>
+	<l id='719'>Et qu'encor sans dessein, et sans élection,</l>
+	<l id='720'>Vous pouvez approuver mon inclination ;</l>
+	<l id='721'>Je ne le puis nier, j'ai cru qu'en votre grâce,</l>
+	<l id='722'>Dom Bernard que j'adore, occupait quelque place ;</l>
+	<l id='723'>Et dans ce sentiment tâchais de réprimer</l>
+	<l id='724'>Le mouvement secret qui me force à l'aimer ;</l>
+	<l id='725'>Je sais votre naissance et qu'en ce rang suprême,</l>
+	<l id='726'>On ne vous peut prétendre à moins d'un diadème ;</l>
+	<l id='727'>Mais d'ailleurs son bonheur à son mérite égal,</l>
+	<l id='728'>Fait ( comme par un charme aux libertés fatal, )</l>
+	<l id='729'>Presque de tous les coeurs, des conquêtes secrètes,</l>
+	<l id='730'>Qui me rendaient suspect l'état que vous en faites.</l>
+	<l id='731'>Jalouse, je tenais pour un tribut d'amour,</l>
+	<l id='732'>Le favorable accueil qu'a trouvé son retour ;</l>
+	<l id='733'>Et quoique tant d'honneur lui soit trop légitime,</l>
+	<l id='734'>Ai cru qu'il procédait d'ailleurs que de l'estime ;</l>
+	<l id='735'>Mais grâce à vos froideurs, mes voeux sont accomplis,</l>
+	<l id='736'>Mes doutes résolus, mes maux ensevelis ;</l>
+	<l id='737'>J'ose même espérer que par votre assistance,</l>
+	<l id='738'>Le Roi me permettant l'heur de cette alliance,</l>
+	<l id='739'>Et perdant un espoir qui ne lui produit rien,</l>
+	<l id='740'>Avecques mon repos, rétablira le sien.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='741'>Quoique au choix d'un amant, mon âme irrésolue,</l>
+	<l id='742'>Sur cette passion, soit encor absolue,</l>
+	<l id='743'>Et que ce Dom Bernard, de qui les qualités,</l>
+	<l id='744'>Triomphent ( dites-vous ) de tant de libertés,</l>
+	<l id='745'>Quelques myrtes nouveaux, qui lui couvrent la tête,</l>
+	<l id='746'>N'ait pas sujet encor de vanter ma conquête ;</l>
+	<l id='747'>Je ne puis toutefois sitôt déterminer,</l>
+	<l id='748'>Sur le consentement de vous l'abandonner ;</l>
+	<l id='749'>Que l'état que j'en fais, doive passer l'estime.</l>
+	<l id='750'>Et sur votre créance, ou fausse, ou légitime.</l>
+	<l id='751'>Et le peu de respect que vous me faites voir,</l>
+	<l id='752'>D'avoir eu du dessein, où j'en pouvais avoir,</l>
+	<l id='753'>Mon coeur déjà touché de ses vertus insignes,</l>
+	<l id='754'>Conçoit en sa faveur des sentiments si dignes,</l>
+	<l id='755'>Qu'avant que dans résoudre et d'en rien ordonner,</l>
+	<l id='756'>Avec plus de loisir, je veux l'examiner ;</l>
+	<l id='757'>Qui peut faire d'un Roi négliger le servage,</l>
+	<l id='758'>Se pourra bien trouver digne de mon hommage ;</l>
+	<l id='759'>Et m'est autant qu'à vous, préférable à des Rois,</l>
+	<l id='760'>S'il est assez puissant pour me donner des lois.</l>
+	<l id='761'>C'était manquer à vous, d'adresse et de prudence,</l>
+	<l id='762'>Que de mettre à mes yeux vos feux en évidence,</l>
+	<l id='763'>Sans savoir si mon coeur y pourrait consentir,</l>
+	<l id='764'>Puisque si peu de coeurs s'en peuvent garantir.</l>
+	<l id='765'>Vous avez dû savoir qu'à l'humeur de la femme,</l>
+	<l id='766'>C'était persuader que défendre une flamme ;</l>
+	<l id='767'>Et que la jalousie et surtout dans la Cour,</l>
+	<l id='768'>Est mère aussi souvent, que fille de l'amour.</l>
+	<l id='769'>Le temps me donnera l'avis que je dois prendre,</l>
+	<l id='770'>Sur ce que je vous dois ou permettre, ou défendre ;</l>
+	<l id='771'>Cependant délivrez votre esprit d'un tourment,</l>
+	<l id='772'>Qui lui pourrait durer peut-être vainement.</l>
+	<l id='773'>Elle s'en va la regardant de côté.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='LEONOR'><speaker>LEONOR seule.</speaker>
+	<l id='774'>Non non, je n'ai manqué, ni d'art, ni de prudence,</l>
+	<l id='775'>Quand j'ai mis à vos yeux, mes feux en évidence ;</l>
+	<l id='776'>J'en obtiens les effets que j'en ai souhaités,</l>
+	<l id='777'>Puisque j'ai par les miens les vôtres éventés.</l>
+	<l id='778'>Jusqu'ici l'abusée avait cru me les taire,</l>
+	<l id='779'>Mais l'oeil est aux amants un mauvais secrétaire ;</l>
+	<l id='780'>Et l'on voit aisément un feu bien embrasé,</l>
+	<l id='781'>Au travers du cristal dont il est composé ;</l>
+	<l id='782'>Cent fois dans leurs regards, la rencontre fatale,</l>
+	<l id='783'>M'a fait voir cette flamme, et montré ma rivale ;</l>
+	<l id='784'>Cent soupirs étouffés, et cent gestes confus,</l>
+	<l id='785'>M'avait dit le secret qu'elle ne cache plus ;</l>
+	<l id='786'>J'ai mieux lu qu'elle dans sa propre pensée,</l>
+	<l id='787'>Sa bonté pour le Prince était intéressée,</l>
+	<l id='788'>Et pensant m'éblouir, voulait moins par tant d'art,</l>
+	<l id='789'>Le placer dans mon coeur, qu'en chasser Dom Bernard,</l>
+	<l id='790'>Mais en vain elle attend l'avis qu'elle doit prendre,</l>
+	<l id='791'>Sur ce qu'elle me doit, ou permettre, ou défendre ;</l>
+	<l id='792'>Où le dessein est pris, son ordre est superflu,</l>
+	<l id='793'>Elle n'entreprend pas un coeur irrésolu ;</l>
+	<l id='794'>Et quoi qu'elle présume avecques sa puissance,</l>
+	<l id='795'>Doit craindre mon amour, plus que moi sa défense.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Secrétaire, Léonor.</head>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='796' part='i'>Qu'est-ce Perez ?</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='796' part='f'>Le Roi toujours inquiété,</l>
+	<l id='797'>S'informe à tous moments quelle est votre santé.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='798' part='i'>Ses soins m'honorent trop.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='798' part='f'>Il se plaint, il soupire,</l>
+	<l id='799'>Et vous le possédez, avecques tant d'empire,</l>
+	<l id='800'>Que toute sa splendeur n'a rien de précieux,</l>
+	<l id='801'>À l'égard d'un regard qu'il reçoit de vos yeux ;</l>
+	<l id='802'>Ce trône qu'aujourd'hui tout l'univers révère,</l>
+	<l id='803'>Est un siège, où déjà chacun vous considère ;</l>
+	<l id='804'>Et tous ses entretiens font aisément juger,</l>
+	<l id='805'>Des passions qu'il a de vous le partager.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='806'>Outre que de l'État les raisons importantes,</l>
+	<l id='807'>Au parti de Navarre attachent ses attentes,</l>
+	<l id='808'>Je ne sais quel mépris stupide ou généreux,</l>
+	<l id='809'>Quelque éclat qu'ait un trône, en détourne mes yeux ;</l>
+	<l id='810'>Je t'ai mis à la Cour, et crois sans imprudence,</l>
+	<l id='811'>Pouvoir sur un secret, prendre ta confidence,</l>
+	<l id='812'>Et m'osant reposer sur ta discrétion,</l>
+	<l id='813'>Intéresser tes soins dedans ma passion.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='814'>Si vous m'honorer tant, je chéris moins la vie,</l>
+	<l id='815'>Que je ne ferai l'heur de vous avoir servie.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='816'>Pour Cabrere en un mot, mon coeur brûle d'amour :</l>
+	<l id='817'>Mais comme ses vertus charment toute la Cour ;</l>
+	<l id='818'>Et qu'il trouve partout des voeux si légitimes,</l>
+	<l id='819'>Il compte encor l'Infante au rang de ses victimes,</l>
+	<l id='820'>Dont le dessein du mien traversera le cours,</l>
+	<l id='821'>Si ma flamme en ton art ne trouve un prompt secours.</l>
+	<l id='822'>Tu peux de Dom Bernard imiter l'écriture,</l>
+	<l id='823'>Fais-moi de son amour une vive peinture,</l>
+	<l id='824'>Couchez-y tous les traits, dont la main d'un amant</l>
+	<l id='825'>Nous peut représenter un sensible tourment ;</l>
+	<l id='826'>Et dont on peut toucher le coeur d'une maîtresse,</l>
+	<l id='827'>Souscris-la de son nom, la ferme et me l'adresse.</l>
+	<l id='828'>Prépare à mon espoir cet heureux fondement,</l>
+	<l id='829'>Le reste par mes soins, concerté dextrement :</l>
+	<l id='830'>Si beaucoup de malheur n'évente l'artifice,</l>
+	<l id='831'>De ses prétentions détruiras l'édifice.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='832'>Cent dépêches au Roi, que j'ai de Dom Bernard,</l>
+	<l id='833'>Me feront imiter sa lettre avec tant d'art,</l>
+	<l id='834'>Et si bien succéder le glorieux office</l>
+	<l id='835'>Que je me rends moi-même, en vous rendant service,</l>
+	<l id='836'>Que Dom Bernard lui-même, hésiterait en vain,</l>
+	<l id='837'>Et dedans mon écrit reconnaîtrait sa main.</l>
+</sp>
+<sp who='LEONOR'><speaker>LEONOR s'en allant.</speaker>
+	<l id='838'>Je t'attends, mais surtout, sois discret, et fidèle.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='839'>Ce service à l'instant, aussi prompt que mon zèle,</l>
+	<l id='840'>Dedans ce cabinet vous va prouver ma foi,</l>
+	<l id='841'>Puis sur votre santé, je reverrai le Roi.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRÉTAIRE, seul entant dans le cabinet,
+où il trouve une écritoire, du papier, et des lettres de Dom Bernard.</speaker>
+	<l id='842'>Ma promesse m'engage en un péril extrême,</l>
+	<l id='843'>Je trahis Dom Bernard, l'Infante, et le Roi même,</l>
+	<l id='844'>Mais quel aveugle soin, ne dois-je à qui je dois</l>
+	<l id='845'>Ce que j'ai dans la Cour de crédit et d'emploi ?</l>
+	<l id='846'>Et pour qui puis-je mieux, ( ô frayeur importune ! )</l>
+	<l id='847'>Que pour qui la soutient, hasarder ma fortune ?</l>
+<stage>Il lit une des lettres de Dom Bernard.</stage>
+	<l id='848'>Sire, par le paquet qu'on me rend aujourd'hui,</l>
+<stage>Il continue.</stage>
+	<l id='849'>J'apprends trop... Dom Bernard ; cette lettre est de lui.</l>
+<stage>Il en lit une autre.</stage>
+	<l id='850'>Notre entreprise, Sire, est si prête d'éclore,</l>
+	<l id='851'>Qu'avant que le courrier... cette seconde encore ;</l>
+<stage>Autre.</stage>
+	<l id='852'>Sire, avant mon départ, j'aurais exécuté,</l>
+	<l id='853'>Les ordres que j'avais de votre Majesté ;</l>
+	<l id='854'>Sans l'avis important que je ne vous puis taire.</l>
+<stage>Il continue, ayant lu.</stage>
+	<l id='855'>Sur celle-ci ma main forme ton caractère ;</l>
+	<l id='856'>Ce genre d'écriture, à qui tu peux vanter</l>
+	<l id='857'>La tienne assez conforme, est aisé d'imiter.</l>
+<stage>Il écrit, regardant la lettre de dom Bernard</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Roi, Le Secrétaire.</head>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='858'>N'aurai-je point de trêve, aimable Violence !</l>
+	<l id='859'>Soupirs désavoués qui troubles mon silence,</l>
+	<l id='860'>Que ma raison condamne et ne peut étouffer !</l>
+	<l id='861'>Et d'une ingrate enfin, ne puis-je triompher ?</l>
+	<l id='862'>Dois-je longtemps encor insupportables flammes,</l>
+	<l id='863' part='i'>Sans espoir d'allégeance,</l>
+<stage>Le Secrtaie écrivant.</stage>
+	<l id='863' part='f'>Exercent sur les âmes.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='864'>Mais que fait là Perez ? Il sait ma passion,</l>
+	<l id='865'>Et s'acquitte si mal de sa commission ?</l>
+	<l id='866'>Différant sa réponse, il prolonge mes peines ;</l>
+	<l id='867' part='i'>Qu'écrit-il ? Approchons.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='867' part='f'>Des têtes Souveraines.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='868'>M'ourdit-il quelque trame, et sa fidélité</l>
+	<l id='869'>Se relâcheraient-elle à quelque fausseté ?</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='870'>Mais, belle Léonor, si mon amour extrême.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='871'>Dans un propos d'amour, mêler l'objet que j'aime !</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='872' part='i'>Et les fers glorieux...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='872' part='f'>À celle que je sers,</l>
+	<l id='873'>Parler insolemment et de feux et de fers.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='874' part='i'>L'éclat...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='874' part='f'>Oserait-il sachant que je l'adore,</l>
+	<l id='875'>Prétendre, l'arrogant, aux faveurs que j'implore ?</l>
+	<l id='876'>Aurait-il l'insolence et la témérité,</l>
+	<l id='877' part='i'>De former un dessein...</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='877' part='f'>Et par sa pureté.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI entrant dans le cabinet.</speaker>
+	<l id='878'>Mais en puis-je être en doute, et si longtemps attendre ?</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE écrivant.</speaker>
+	<l id='879' part='i'>Je prétends...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI lui arrachant l'écrit.</speaker>
+	<l id='879' part='f'>Voyons traître, à quoi tu peux prétendre.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE surpris.</speaker>
+	<l id='880' part='i'>À rien, Sire, j'écris...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='880' part='f'>Donne-moi cet écrit.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='881' part='i'>Dieux !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='881' part='f'>Que dois-je inférer de ce trouble d'esprit ?</l>
+	<l id='882'>Perfide ! Quelle foi veux-tu que j'en présume ?</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='883'>J'écrivais sans dessein, que d'éprouver ma plume.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI lit.</speaker>
+	<l id='884'>Je ne demande pas une source de flammes,</l>
+	<l id='885'>Que vous me permettiez une nécessité,</l>
+	<l id='886'>Le pouvoir que vos yeux exercent sur les âmes,</l>
+	<l id='887'>Doit répondre pour moi de ma captivité.</l>
+	<l id='888'>Je sais bien que mon rang déshonore vos chaînes,</l>
+	<l id='889'>Et que votre beau joug aux libertés fatal,</l>
+	<l id='890'>Semble faisant ployer des têtes Souveraines,</l>
+	<l id='891'>Tomber indignement sur le col d'un vassal.</l>
+	<l id='892'>Mais, belle Léonor, si mon amour extrême,</l>
+	<l id='893'>Et les fers glorieux où je suis arrêté ;</l>
+	<l id='894'>Ne brillent par l'éclat que jette un diadème,</l>
+	<l id='895'>Ils brillent par ma flamme et par sa pureté.</l>
+	<l id='896' part='i'>L'hymen où je prétends...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI continue.</speaker>
+	<l id='896' part='f'>Et cette audace, traître !</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='897' part='i'>Seigneur !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='897' part='f'>Est le respect d'un vassal à son maître !</l>
+	<l id='898'>J'ai fait un digne choix, et versais mon secret,</l>
+	<l id='899'>Dans une âme loyale, et dans un sein discret,</l>
+	<l id='900'>Quoi perfide ! une ardeur de sens si dépourvue,</l>
+	<l id='901'>Te fait lever les yeux où je porte la vue,</l>
+	<l id='902'>Et tes feux insolents me donnent pour rival,</l>
+	<l id='903'>L'indigne agent des miens, un Ministre, un vassal</l>
+	<l id='904'>C'est avec juste droit, traître que je te fie</l>
+	<l id='905'>Les secrets concernant mon honneur et ma vie,</l>
+	<l id='906'>Si tu me peux tramer ce détestable tour,</l>
+	<l id='907'>Et si tu m'es perfide en un crime d'amour ;</l>
+	<l id='908'>C'est là ce zèle ardent que tu faisais paraître ?</l>
+	<l id='909' part='i'>Holà Gardes !</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Gardes, Le Roi, Le Secrétaire.</head>
+<sp who='UN-GARDE'><speaker>GARDE</speaker>
+	<l id='909' part='m'>Seigneur !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='909' part='f'>Arrêtez-moi ce traître.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='910' part='i'>Ô Ciel !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='910' part='f'>Et dans l'horreur d'une affreuse prison,</l>
+	<l id='911'>Qui ne sera pas noir, comme sa trahison ;</l>
+	<l id='912'>Menez-le de son crime attendre le supplice.</l>
+</sp>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRETAIRE</speaker>
+	<l id='913' part='i'>Faites-moi grâce, Sire.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='913' part='f'>On te fera justice !</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='LE-ROI'><speaker>LE ROI seul.</speaker>
+	<l id='914'>En ne réprimant par cette témérité,</l>
+	<l id='915'>J'admets des attentats sur mon autorité,</l>
+	<l id='916'>L'offense négligée, à la fin devient nôtre,</l>
+	<l id='917'>Qui souffre une licence, en autorise une autre</l>
+	<l id='918'>Et qui peut sur ses voeux permettre un attentat,</l>
+	<l id='919'>À la même insolence expose son État</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Le Roi, Le Comte, Dom Bernard.</head>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='920'>L'Amiral, et le comte ignorants de son crime,</l>
+	<l id='921'>Tenteront de fléchir mon courroux légitime,</l>
+	<l id='922'>Et priés de sa part, viennent prier pour lui,</l>
+	<l id='923' part='i'>Mais...</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='923' part='f'>Grand Roi, du mérite et l'espoir, et l'appui ;</l>
+	<l id='924'>Dont l'âme généreuse à chaque instant convie,</l>
+	<l id='925'>Les coeurs les moins zélés au mépris de la vie ;</l>
+	<l id='926'>Un devoir d'amitié, d'honneur, de piété,</l>
+	<l id='927'>Nous rend solliciteurs vers votre Majesté.</l>
+	<l id='928' part='i'>Pour...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='928' part='f'>Si vous ignorez le sujet de ma haine,</l>
+	<l id='929'>Vous venez mal instruits du sujet qui vous mène,</l>
+	<l id='930'>Que l'intérêt d'un homme indigne de pitié,</l>
+	<l id='931'>N'entre point en commerce, avec notre amitié ;</l>
+	<l id='932'>Vous plaignez son malheur, moi je sais son audace</l>
+	<l id='933'>Son nom seul vous ferait encourir ma disgrâce ;</l>
+	<l id='934'>S'il a lieu de vanter ses mérites passés,</l>
+	<l id='935'>Sa dernière action les a tous effacés,</l>
+	<l id='936'>Et jette sur sa foi des taches éternelles.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='937' part='i'>Peut-être un faux rapport...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='937' part='f'>Mes yeux me sont fidèles ;</l>
+	<l id='938'>Et juge de soi-même, il sait si j'ai raison.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='939'>Est-ce une offense, Sire, indigne de pardon ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='940'>Ce n'est qu'un attentat, qui s'adresse à moi-même.</l>
+</sp>
+<sp who='DON-BERNARD'><speaker>Don BERNARD bas.</speaker>
+	<l id='941'>C'est un trait, cher ami, de ton malheur extrême,</l>
+	<l id='942'>Qui te faisant tomber dans quelque aveugle erreur,</l>
+	<l id='943'>T'a d'un Prince si juste, excité la fureur !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='944'>Vous savez Amiral, comme en toute autre chose,</l>
+	<l id='945'>Votre vouloir du mien absolument dispose ;</l>
+	<l id='946'>Proposez, ordonnez, prenez, faites, ôtez,</l>
+	<l id='947'>En tout, pour toute loi, suivez vos volontés,</l>
+	<l id='948'>Et de grâce exceptez  cette seule requête,</l>
+	<l id='949'>Sans vous, son attentat lui coûterait la tête ;</l>
+	<l id='950'>Seul j'en sais l'insolence, et sans plus m'exprimer,</l>
+	<l id='951'>Tiens pour mon ennemi qui l'osera nommer ;</l>
+	<l id='952'>Au reste de Carlos, les troupes insolentes,</l>
+	<l id='953'>Par le pays voisin comme un foudre volantes,</l>
+	<l id='954'>Ce soir même, au rapport de quelques espions,</l>
+	<l id='955'>Prétendent s'avancer jusqu'à nos bastions ;</l>
+	<l id='956'>Si rencontre, Amiral, fut jamais opportune,</l>
+	<l id='957'>Faites voir aujourd'hui quelle est votre fortune ;</l>
+	<l id='958'>Tout l'espoir de l'État à vos soins est commis,</l>
+	<l id='959'>Coupez avant la nuit, la marche aux ennemis ;</l>
+	<l id='960'>De vos troupes à peine encore désarmées,</l>
+	<l id='961'>R'alliez sur le champ les ardeurs r'allumées,</l>
+	<l id='962'>Et parmi ce péril me conservant vos jours,</l>
+	<l id='963'>Soyez ce Dom Bernard que vous êtes toujours.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='964'>Je ne me prévaudrai dans aucune aventure,</l>
+	<l id='965'>Que de la qualité de votre créature ;</l>
+	<l id='966'>Mais j'ose me vanter en cette qualité,</l>
+	<l id='967'>Et d'un coeur invincible, et d'un bras indompté.</l>
+	<l id='968'>Le Roi s'en va embrassant D. Bernard.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Dom Bernard, Dom Lope, Lazarille.</head>
+<note type="C">la scène IX est noté DIXIÈME dans l'édition originale.</note>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='969'>Et bien, mon seul recours, est sincère et fidèle,</l>
+	<l id='970'>Ami, des vrais amis le plus parfait modèle,</l>
+	<l id='971'>Ai-je lieu d'espérer ? Qu'avez-vous fait pour moi ?</l>
+	<l id='972'>Qu'a permis ma fortune ? Avez-vous vu le Roi ?</l>
+	<l id='973'>Ha ! J'apprends sa réponse en la vôtre si lente !</l>
+	<l id='974'>Cette douleur muette est une voix parlante,</l>
+	<l id='975'>Parlez parlez, le sort ne frappe plus en nous,</l>
+	<l id='976'>Que des coeurs de longtemps endurcis à ses coups.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='977'>Quelle offense Dom Lope, aveugle ou volontaire,</l>
+	<l id='978'>Vous a si fort du Roi suscité la colère ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='979'>Moi l'offenser hélas ! moi m'adresser au Roi,</l>
+	<l id='980'>À qui par tant de sang j'ai signalai ma foi !</l>
+	<l id='981'>À moi, me reprocher un crime qui le touche !</l>
+	<l id='982'>Et ce reproche encor sortir de votre bouche !</l>
+	<l id='983'>Vous m'étiez trop bénins, ô destins inhumains !</l>
+	<l id='984'>Et voici de vos coups , le seul dont je me plains.</l>
+	<l id='985'>Si c'est un crime hélas ! d'avoir fait de mes veines,</l>
+	<l id='986'>Aux champs de ses combats de sanglantes fontaines ;</l>
+	<l id='987'>Et plus mon ennemi, que tous ses ennemis,</l>
+	<l id='988'>M'être mis en l'état, où mon zèle m'a mis ;</l>
+	<l id='989'>M'être par une ardeur illustre et non commune,</l>
+	<l id='990'>Livré seul en otage aux mains de la fortune,</l>
+	<l id='991'>Et contre mon visage à moi-même inhumain,</l>
+	<l id='992'>Avoir en sa faveur armé ma propre main ;</l>
+	<l id='993'>Si pour ces actions sa haine est légitime,</l>
+	<l id='994'>J'en souffre le reproche, et confesse mon crime ;</l>
+	<l id='995'>Mais ailleurs des bienfaits et des voeux éternels</l>
+	<l id='996'>Seraient le châtiment de pareils criminels.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='997'>Quelque ressort du Ciel où nous ne voyons goutte,</l>
+	<l id='998'>Fait prendre à nos destins cette diverse route,</l>
+	<l id='999'>Fait que par des noeuds d'or, le Roi m'attache à lui</l>
+	<l id='1000'>Et parsemant de fleurs le chemin que je suis,</l>
+	<l id='1001'>Semble épuisé pour moi, d'influences bénignes,</l>
+	<l id='1002'>Ne pouvoir sur vos pas semer que des épines ;</l>
+	<l id='1003'>Mais ses décrets sans doute aussi sages que saints</l>
+	<l id='1004'>Sous un si grand malheur cachent de grands desseins ;</l>
+	<l id='1005'>J'en présume pour vous quelque grande aventure</l>
+	<l id='1006'>Et doute avec raison si ma route est plus sûre.</l>
+	<l id='1007'>Au premier mot enfin que j'ai parlé pour vous,</l>
+	<l id='1008'>Le Roi s'est emporté d'un si bouillant courroux,</l>
+	<l id='1009'>Et pâlissant m'a vu d'un regard si farouche,</l>
+	<l id='1010'>Qu'à peine avais-je ouvert, qu'il m'a fermé la bouche ;</l>
+	<l id='1011'>Ne se plaint pas de moins que d'une trahison,</l>
+	<l id='1012'>Et nous a défendu jusqu'à votre nom ;</l>
+	<l id='1013'>Mais pendant que le temps essuiera sa colère,</l>
+	<l id='1014'>Cher de Lune, et de grâce, acceptez ma prière ;</l>
+	<l id='1015'>Comptez tout mon crédit, mes biens, mes qualités,</l>
+	<l id='1016'>Moins au rang de mes biens que de vos dignités ;</l>
+	<l id='1017'>Tenez malgré le sort dans ce malheur extrême,</l>
+	<l id='1018'>Tous les bienfaits du Roi, comme faits à vous-même ;</l>
+	<l id='1019'>L'heur le mieux établi, n'est assuré de rien,</l>
+	<l id='1020'>Et peut-être qu'un jour vous me le rendrez bien.</l>
+	<l id='1021'>Nul bien n'est immortel qu'après que nous le sommes,</l>
+	<l id='1022'>L'homme est mal assuré, quand il se fie aux hommes.</l>
+	<l id='1023'>Ce qu'on gagne bien tôt, se peut perdre dans peu,</l>
+	<l id='1024'>Tout dépend du hasard et la vie est un feu.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1025'>Là ! Plutôt mon malheur dure autant que ma vie,</l>
+	<l id='1026'>Que jamais aucun trait ou de haine ou d'envie,</l>
+	<l id='1027'>Attaque la plus noble et plus rare vertu,</l>
+	<l id='1028'>Dont jamais conquérant ait été revêtu ?</l>
+	<l id='1029'>Quelque important dessein qu'eut pour moi la fortune,</l>
+	<l id='1030'>Je tiendrais sa faveur à ce prix importune ;</l>
+	<l id='1031'>Le Roi vous fait justice, et parmi ses sujets,</l>
+	<l id='1032'>N'a point pour ses faveurs de si dignes objets,</l>
+	<l id='1033'>Il ne peut plus sans vous régner, qu'il ne succombe,</l>
+	<l id='1034'>Et vous ne pouvez choir que son trône ne tombe.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1035'>Au reste Dom Carlos prêt de nous investir,</l>
+	<l id='1036'>Sans perdre un seul moment nous presse de partit,</l>
+	<l id='1037'>Et de faire marcher nos troupes ramassées,</l>
+	<l id='1038'>Contre ses légions déjà trop avancées ;</l>
+	<l id='1039'>Votre bras peut du Prince y vaincre le courroux,</l>
+	<l id='1040'>Et certain du succès, si je le suis de vous,</l>
+	<l id='1041'>J'ose espérer de voir au retour de l'armée,</l>
+	<l id='1042'>Votre malheur céder à votre renommée ;</l>
+	<l id='1043' part='i'>Mais le temps presse.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1043' part='f'>Hélas cette nécessité,</l>
+	<l id='1044'>De mon destin encor marque la dureté !</l>
+	<l id='1045'>Et suivant de l'honneur l'ordonnance importune,</l>
+	<l id='1046'>Je manque un rendez-vous, d'où dépend ma fortune.</l>
+	<l id='1047'>Mais ô puissants motifs des esprits généreux !</l>
+	<l id='1048'>Gloire, devoir, honneur, triomphez de mes voeux ;</l>
+	<l id='1049'>Pour servir qui nous hait, négligeons qui nous aime,</l>
+	<l id='1050'>Et suivons la vertu pour l'amour d'elle-même.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1051'>Mais si ce rendez-vous, vous importe si fort.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1052'>Laissons-en l'importance au caprice du sort ;</l>
+	<l id='1053'>Et formons-nous plutôt à souffrir ses outrages,</l>
+	<l id='1054'>Qu'à laisser de son gré dépendre nos courages ;</l>
+	<l id='1055'>Faisons tant qu'à la fin de ma gloire confus,</l>
+	<l id='1056'>Il se laisse compter au rang de mes vaincus.</l>
+	<l id='1057'>L'adorable beauté qui flatte mon attente,</l>
+	<l id='1058'>Vaut bien de mon courage une preuve importante :</l>
+	<l id='1059'>Et me priver un soir du beau jour de ses yeux,</l>
+	<l id='1060'>Pour une occasion de l'en mériter mieux.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Roi, Le Comte, Léonor, Suite de gardes.</head>
+<sp who='LEONOR'><speaker>LEONOR venant d'un côté, le Roi de l'autre.</speaker>
+	<l id='1061'>Sire, si cette amour dont vous m'avez flattée,</l>
+	<l id='1062'>Qu'à ma confusion, j'ai si peu méritée ;</l>
+	<l id='1063'>Quoique sans intérêt, a quelque vérité,</l>
+	<l id='1064'>J'en demande une preuve à votre Majesté.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1065'>D'un droit plus absolu sur moi que sur vous-même,</l>
+	<l id='1066'>Sans réserve exercez votre pouvoir suprême ;</l>
+	<l id='1067'>N'employez à votre aide, autre que votre soin,</l>
+	<l id='1068'>Et faites-vous le bien dont vous avez besoin ;</l>
+	<l id='1069'>Vous verrez en effet si cette amour vous flatte,</l>
+	<l id='1070'>Je ferai vanité d'obliger une ingrate ;</l>
+	<l id='1071'>Et de persuader un insensible objet,</l>
+	<l id='1072'>Qu'encor que souverain, je l'adore en sujet ;</l>
+	<l id='1073'>N'ose nourrir pour lui de flamme intéressée,</l>
+	<l id='1074'>Ni jusqu'à vos faveurs élever ma pensée ;</l>
+	<l id='1075'>D'un souverain empire accomplissez vos voeux,</l>
+	<l id='1076'>Et dites seulement je commande et je veux ;</l>
+	<l id='1077' part='i'>Vous-même exaucez-vous.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1077' part='f'>Vous agréerez donc, Sire,</l>
+	<l id='1078'>Qu'en faveur de Perez j'exerce cet empire ;</l>
+	<l id='1079'>Comte, du Secrétaire, allez briser les fers,</l>
+	<l id='1080' part='i'>C'est par mon ordre, allez.</l>
+</sp>
+<sp who='LE-COMTE'><speaker>LE COMTE</speaker>
+	<l id='1080' part='f'>Madame, je vous sers.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE DEUXIÈME. Le Roi, Léonor, Gardes.</head>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1081'>J'ai peine à concevoir quelle humeur inégale,</l>
+	<l id='1082'>Vous faisant maltraiter une flamme royale,</l>
+	<l id='1083'>Vous fait prendre intérêt en l'amour d'un vassal.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1084'>Je comprends beaucoup moins votre esprit inégal</l>
+	<l id='1085'>Qui ne vous souffrant point de flamme intéressée,</l>
+	<l id='1086'>Et dans ce grand respect restreignant sa pensée,</l>
+	<l id='1087'>S'ombrage toutefois d'un acte de pitié,</l>
+	<l id='1088'>Non pas de mon amour, mais de mon amitié.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1089'>Par quel orgueil peut-on mériter votre haine ?</l>
+	<l id='1090'>Si l'amitié vous fait lui remettre sa peine,</l>
+	<l id='1091'>À lui que j'ai surpris vous traçant son amour,</l>
+	<l id='1092'>Que sa main insolente osait bien mettre au jour ;</l>
+	<l id='1093'>Et votre autorité protège son audace,</l>
+	<l id='1094'>Après qu'à Dom Bernard, j'ai refusé sa grâce.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1095'>Sa naissance, Seigneur, et sa condition</l>
+	<l id='1096'>Justifieront toujours mon inclination :</l>
+	<l id='1097'>Et croyant proposer un soupçon légitime,</l>
+	<l id='1098'>Vous auriez mal assis l'honneur de votre estime.</l>
+	<l id='1099'>C'est une peur aussi qui ne me peut frapper,</l>
+	<l id='1100'>Et je prends peu de peine à vous en détromper.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1101'>Ce n'est pas d'à présent, insensible, inhumaine,</l>
+	<l id='1102'>Que pour mes intérêts vous prenez peu de peine ;</l>
+	<l id='1103'>Et que de vos rigueurs mon esprit combattu,</l>
+	<l id='1104'>Est forcé d'exercer une austère vertu.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1105'>Qui peut impunément prendre toute licence,</l>
+	<l id='1106'>Doit d'autant moins vouloir qu'il a plus de puissance :</l>
+	<l id='1107'>Et n'acquiert tous les voeux, qu'en modérant les siens :</l>
+	<l id='1108'>Se posséder soi-même est le plus grand des biens ;</l>
+	<l id='1109'>Aux Rois non plus qu'à nous, tout n'est pas légitime.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1110'>Ô raison incommode ! Importune maxime !</l>
+	<l id='1111'>Qui disposant de nous faites d'un Potentat,</l>
+	<l id='1112'>Moins un Prince absolu qu'un serf de son État ;</l>
+	<l id='1113'>Si vous ne permettez à des mains Souveraines,</l>
+	<l id='1114'>Un libre attachement, et le choix de leurs chaînes,</l>
+	<l id='1115'>Quel est donc notre Empire, et par quelles rigueurs</l>
+	<l id='1116'>Faut-il former des voeux où répugnent nos coeurs !</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1117'>Aussi bien que l'État, l'Honneur a ses maximes,</l>
+	<l id='1118'>Qui font sans notre hymen nos voeux illégitimes ;</l>
+	<l id='1119'>Et l'inégalité de nos conditions,</l>
+	<l id='1120'>N'admet ni notre hymen, ni nos affections.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1121'>Ainsi donc que le mal, donnez la médecine,</l>
+	<l id='1122'>Pour en couper le cours, coupez-en la racine ;</l>
+	<l id='1123'>Et dans l'inquiétude où je languis pour vous,</l>
+	<l id='1124'>Réprimez mes souhaits par le choix d'un époux ;</l>
+	<l id='1125'>Pour m'ôter tout l'espoir pour qui mon coeur soupire,</l>
+	<l id='1126'>Faites un possesseur des faveurs où j'aspire ;</l>
+	<l id='1127'>Faites un homme heureux, si quelqu'un dans ma Cour,</l>
+	<l id='1128'>A des conditions dignes de votre amour.</l>
+	<l id='1129'>Quelque haute splendeur dont l'éclat l'environne,</l>
+	<l id='1130'>En quelque illustre emploi qu'il serve ma Couronne,</l>
+	<l id='1131'>Quoi qu'il possède enfin capable de charmer,</l>
+	<l id='1132'>Il ne vous coûtera qu'un souhait à former,</l>
+	<l id='1133'>Et mon mal de son bien tirera son remède.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1134'>Il n'est point de faveur que cette offre n'excède,</l>
+	<l id='1135'>Et puisqu'il m'est permis de choisir mon vainqueur ;</l>
+	<l id='1136'>J'ose me déclarer, et vous ouvrir mon coeur :</l>
+	<l id='1137'>Le vol quoique élevé, que mon amour se donne,</l>
+	<l id='1138'>N'a point pour but, un front chargé d'une couronne ;</l>
+	<l id='1139'>Mais un bras qui vous sert et qui s'en peut donner,</l>
+	<l id='1140'>Quand son ambition le voudra couronner.</l>
+	<l id='1141'>Un qui veut bien dépendre, et vassal volontaire,</l>
+	<l id='1142'>Sous le joug de vos lois, tient le sort tributaire ;</l>
+	<l id='1143'>Lui seul, si quelque objet peut sur ma liberté,</l>
+	<l id='1144'>Prétendre quelque atteinte, ou quelque autorité ;</l>
+	<l id='1145'>De ce léger honneur peut flatter son attente.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1146' part='i'>Nommez-le donc.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1146' part='f'>Son nom, est... Mais voici l'Infante.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. L'Infante, Le Comte, Le Secrétaire, Le Roi, Léonor, Gardes.</head>
+<sp who='LE-SECRETAIRE'><speaker>LE SECRÉTAIRE à genoux.</speaker>
+	<l id='1147'>Sire, quels voeux rendrai-je à votre Majesté ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1148'>Je n'ai pas ordonné de votre liberté.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1149'>C'est moi qui vous la rends pour vous l'avoir ravie,</l>
+	<l id='1150'>Et sa perte sans moi, vous eut coûté la vie ;</l>
+	<l id='1151'>Soyez-en moins prodigue, et ménagez la mieux.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1152'>Seigneur, ce Dom Bernard ce vainqueur glorieux,</l>
+	<l id='1153'>Qui de tant de Héros efface les Histoires,</l>
+	<l id='1154'>Et qui peut moins compter de jours que de victoires,</l>
+	<l id='1155'>Dont presque les succès précèdent les souhaits,</l>
+	<l id='1156'>Suivi de tout le peuple entre dans le Palais,</l>
+	<l id='1157'>À sa réception sa vertu vous invite.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1158'>Allons et rendons lui l'accueil qu'elle mérite ;</l>
+	<l id='1159'>Faisons-en un exemple illustre à nos neveux,</l>
+	<l id='1160'>Et comme ses travaux, rendons ses prix fameux.</l>
+</sp>
+<sp who='LEONOR'><speaker>LEONOR bas.</speaker>
+	<l id='1161'>Tu m'opposes amour, une forte adversaire,</l>
+	<l id='1162'>Mais j'ai contre la soeur, la promesse du frère ;</l>
+	<l id='1163'>Et ce gage royal assure mon espoir,</l>
+	<l id='1164'>Contre tout ce qu'elle a de charmes et de pouvoir.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Dom Bernard avec le bâton de Général, Dom Lope, Lazarille, Soldats, Le Roi, l'Infante, Léonor.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE entrant dit à l'oreille à Dom Bernard.</speaker>
+	<l id='1165'>Quelque part que mon bras ait en votre victoire,</l>
+	<l id='1166'>Des menaces du Roi conservez la mémoire ;</l>
+	<l id='1167'>Et taisez-lui mon nom au récit du combat.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1168'>Je parlerai de vous, sous le nom de soldat.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI l'embrassant.</speaker>
+	<l id='1169'>Quoi c'est vous Duc d'Alcale, honneur de ma Province,</l>
+	<l id='1170'>Glorieux compagnon des soins de votre Prince !</l>
+	<l id='1171'>Votre retour surprend, et pour vous les instants</l>
+	<l id='1172'>En gloire si féconds, font l'office des ans ;</l>
+	<l id='1173'>Je dois aux actions dont votre histoire est pleine,</l>
+	<l id='1174'>Un triomphe au-dessus de la pompe Romaine :</l>
+	<l id='1175'>Mais attendant ce prix de vos exploits vainqueurs,</l>
+	<l id='1176'>Commencez par celui des esprits et des coeurs ;</l>
+	<l id='1177'>Et lisez sur les fronts l'allégresse publique,</l>
+	<l id='1178'>Dont en votre faveur, toute la Cour s'explique ;</l>
+	<l id='1179'>Possédez votre gloire et cependant comptez,</l>
+	<l id='1180'>Albe, Urgel, et Venosque entre vos qualités.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1181'>Ha, Sire ! À vos bienfaits imposez des limites.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1182'>Ils n'en auront jamais non plus que vos mérites ;</l>
+	<l id='1183'>Apprenez-nous enfin le plus grand des exploits,</l>
+	<l id='1184'>Qui me font le plus grand et le plus craint des Rois.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1185'>D. Bernard salue l'Infante et Léonor.</l>
+	<l id='1186'>Sitôt que j'eus rejoint vos légions fidèles,</l>
+	<l id='1187'>Dégoûtantes encor du sang de vos rebelles,</l>
+	<l id='1188'>Et les coeurs encor pleins de nobles sentiments,</l>
+	<l id='1189'>Qui portent aux progrès des grands événements.</l>
+	<l id='1190'>Ce grand corps pour son chef au travail insensible,</l>
+	<l id='1191'>Cet invincible bras d'un monarque invincible ;</l>
+	<l id='1192'>Marche sous le pouvoir que vous m'aviez commis,</l>
+	<l id='1193'>Et brûle de se rendre au camp des ennemis,</l>
+	<l id='1194'>Nous marchons jusqu'au point que de ses voiles sombres,</l>
+	<l id='1195'>La nuit sur l'univers vient étendre les ombres,</l>
+	<l id='1196'>Et que deux espions surpris à Laugarez,</l>
+	<l id='1197'>M'apprirent effrayés que l'armée était près ;</l>
+	<l id='1198'>À ce bruit épandu le sang bout, le coeur vole,</l>
+	<l id='1199'>Nous trouvons en la nuit un obstacle frivole,</l>
+	<l id='1200'>Nous marchons sans broncher dans les plus sombres lieux,</l>
+	<l id='1201'>Pour y guider nos pas, nos coeurs nous servent d'yeux,</l>
+	<l id='1202'>Et l'ardeur qui conduit nos âmes invincibles,</l>
+	<l id='1203'>Craint d'autant moins les coups, qu'ils seront moins visibles ;</l>
+	<l id='1204'>Enfin dans le silence et l'ombre de la nuit,</l>
+	<l id='1205'>Par un taillis épais, nos rangs filant sans bruit,</l>
+	<l id='1206'>Et de tous les côtés chacun prêtant l'oreille,</l>
+	<l id='1207'>Dans ce calme profond, un bruit sourd nous réveille ;</l>
+	<l id='1208'>Que du commencement nous ne distinguons pas,</l>
+	<l id='1209'>Mais qui s'élève enfin et croît à chaque pas,</l>
+	<l id='1210'>On fait halte, et la doute est bientôt confirmée ;</l>
+	<l id='1211'>Nous discernons au bruit la marche de l'armée ;</l>
+	<l id='1212'>Je cueille les avis en ce besoin instant,</l>
+	<l id='1213'>Autant à notre honneur qu'à l'État important.</l>
+	<l id='1214'>Et le dessein formé, fais donner les alarmes,</l>
+	<l id='1215'>Par un son de tambours, de trompettes et d'armes,</l>
+	<l id='1216'>Capable par son bruit d'exciter tant d'horreur,</l>
+	<l id='1217'>Que parmi tout le Camp il jette la terreur ;</l>
+	<l id='1218'>Pendant qu'il délibère au coup de ce tonnerre,</l>
+	<l id='1219'>Dans un canton du bois le nôtre se resserre ;</l>
+	<l id='1220'>Et chacun ( mais toujours par le soin que j'en prends )</l>
+	<l id='1221'>En état de donner, s'y couche dans ses rangs ;</l>
+	<l id='1222'>Sur ce temps un soldat de mérite et de marque,</l>
+	<l id='1223'>Pour qui j'aurais besoin, ô généreux Monarque,</l>
+	<l id='1224'>De toute l'éloquence et de toutes les voix,</l>
+	<l id='1225'>Dont le Sénat Romain retentit autrefois ;</l>
+	<l id='1226'>Et que l'antiquité donne à la renommée,</l>
+	<l id='1227'>Tirant un Camp volant du gros de notre armée ;</l>
+	<l id='1228'>Descend une colline, et d'un coeur indompté,</l>
+	<l id='1229'>Favorisé des lieux et de l'obscurité,</l>
+	<l id='1230'>Par un sentier secret se jette où l'adversaire,</l>
+	<l id='1231'>Dessus cette surprise, effrayé délibère ;</l>
+	<l id='1232'>Il lâche après le pied, recule en combattant</l>
+	<l id='1233'>Feint de faire retraite, et retourne à l'instant ;</l>
+	<l id='1234'>Suit enfin si longtemps ce généreux caprice,</l>
+	<l id='1235'>Et donne aux ennemis un si long exercice,</l>
+	<l id='1236'>Que les plus aguerris, et les plus gens de coeur,</l>
+	<l id='1237'>Perdent en ce travail leur plus mâle vigueur,</l>
+	<l id='1238'>Pendant que dans le bois à l'abri de l'orage,</l>
+	<l id='1239'>Des nôtres reposants, la force se ménage.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1240'>Sous ce nom de Soldat il parle de ses faits,</l>
+	<l id='1241'>Et veut, taisant le sien, s'épargner mes bienfaits</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1242'>À peine de la nuit, le jour tirait les voiles,</l>
+	<l id='1243'>Et de ses traits dorés faisait fuir les Étoiles,</l>
+	<l id='1244'>Que nos gens rejoignant ce généreux soldat,</l>
+	<l id='1245'>Délassés, frais, dispos, et brûlants du combat,</l>
+	<l id='1246'>Ont paru dans la plaine et fait voir sur leur face,</l>
+	<l id='1247'>Aux ennemis tremblants leur martiale audace ;</l>
+	<l id='1248'>Les deux Camps approchés, enfin ce jeune Mars,</l>
+	<l id='1249'>S'étant saisi d'ardeur, d'un de nos étendards,</l>
+	<l id='1250'>Pour exciter encor nos vigueurs r'affermies,</l>
+	<l id='1251'>Le lançant dans les rangs des troupes ennemies,</l>
+	<l id='1252'>Retirons, a-t-il dit, Coeurs nobles et vaillants,</l>
+	<l id='1253'>Les drapeaux d'Aragon des mains des Castillans ;</l>
+	<l id='1254'>Donnons mes compagnons. À ce mot il s'avance,</l>
+	<l id='1255'>Le Cimeterre en main comme un foudre s'élance,</l>
+	<l id='1256'>Et sans rien redouter passant de rang en rang,</l>
+	<l id='1257'>À tout le Camp qui suit, fraye un chemin de sang,</l>
+	<l id='1258'>Tout l'obstacle où nos bras lancent notre tonnerre,</l>
+	<l id='1259'>Contre notre valeur, ne semble que du verre ;</l>
+	<l id='1260'>À ce choc, l'ennemi déjà demi détruit,</l>
+	<l id='1261'>Par l'incommodité du travail de la nuit,</l>
+	<l id='1262'>Défend si faiblement et sa vie et sa gloire,</l>
+	<l id='1263'>Qu'il semble hors d'espoir, négliger la victoire ;</l>
+	<l id='1264'>Et nous vouloir ôter prévoyant son malheur,</l>
+	<l id='1265'>La gloire que l'obstacle apporte à la valeur.</l>
+	<l id='1266'>Ce noble coeur enfin pour presser sa conquête,</l>
+	<l id='1267'>Du premier qu'il rencontre ayant tranché la tête ;</l>
+	<l id='1268'>Et l'exposant en vue à tous les deux partis,</l>
+	<l id='1269'>Le Ciel ( dit-il ) est juste, et nous a garantis ;</l>
+	<l id='1270'>Ce bras, de Dom Carlos, vient d'expier l'audace,</l>
+	<l id='1271'>Le sang des ennemis à ce discours se glace,</l>
+	<l id='1272'>Et les plus fiers du sort détestant la rigueur,</l>
+	<l id='1273'>À peine pour la fuite ont assez de vigueur ;</l>
+	<l id='1274'>Tout nous fait jour, tout ploie, et par ce stratagème,</l>
+	<l id='1275'>Notre victoire arrive à sa gloire suprême ;</l>
+	<l id='1276'>Je n'ose vous nommer ce démon des combats,</l>
+	<l id='1277'>Mais je le nomme assez en ne le nommant pas :</l>
+	<l id='1278'>Et n'en puis mieux parler que par la violence,</l>
+	<l id='1279'>Qui me ferme la bouche, et m'oblige au silence.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI à l'Infante.</speaker>
+	<l id='1280'>C'est assez le nommer, que de taire son nom.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1281'>Certes sa modestie est sans comparaison.</l>
+</sp>
+<sp who='LEONOR'><speaker>LEONOR bas.</speaker>
+	<l id='1282'>Ô vainqueur fortuné que le ciel me destine !</l>
+	<l id='1283'>Que ne peut point ton bras, si ton oeil assassine !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1284'>Ce que vous avez dit, et que vous avez tu,</l>
+	<l id='1285'>M'apprend de ce soldat, le nom et la vertu ;</l>
+	<l id='1286'>Et mon faible pouvoir sait trop à quoi l'invite,</l>
+	<l id='1287'>L'inestimable excès d'un si rare mérite.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE bas.</speaker>
+	<l id='1288'>Mon coeur est le seul prix digne de sa valeur.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE à Lazarille.</speaker>
+	<l id='1289'>Ma patience enfin lassera mon malheur.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='1290'>Ménagez donc le temps et vous faites connaître.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1291'>Attendons que le Roi m'ordonne de paraître.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1292'>Dom Nugue, et Dom Bernard en ce dernier combat,</l>
+	<l id='1293'>De leur zèle ordinaire ont servi votre État ;</l>
+	<l id='1294'>Et peu dans cette histoire ont mieux gagné leur place.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1295'>Deux comtés, leur seront des arrhes de ma grâce ;</l>
+	<l id='1296'>Mais je cherche, amiral, et ne vois point de quoi</l>
+	<l id='1297'>M'acquitter envers vous de ce que je vous dois.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1298'>Sans plus rêver, Seigneur, ce penser vous acquitte,</l>
+	<l id='1299'>Que de l'heur d'être à vous dépend tout mon mérite ;</l>
+	<l id='1300'>Et c'est de vos bontés que je tiens tout mon bien,</l>
+	<l id='1301'>Que je suis aujourd'hui, qu'hier je n'étais rien ;</l>
+	<l id='1302'>Que mon destin sans vous n'a que l'éclat du verre,</l>
+	<l id='1303'>Et qu'ayant comme Dieu fait un homme de terre,</l>
+	<l id='1304'>Comme Dieu quelque jour, vous le pourrez chasser,</l>
+	<l id='1305'>Et de votre préférence et de votre penser.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1306'>Puis-je à son courroux être à jamais en butte,</l>
+	<l id='1307'>Et mon trône tomber le jour de votre chute.</l>
+	<l id='1308'>Je connais ma faiblesse, et sais que je ne puis,</l>
+	<l id='1309'>Faire rien d'immortel, mortel que je suis ;</l>
+	<l id='1310'>Mais le mettrai mon heur, et ma gloire suprême,</l>
+	<l id='1311'>À me faire un vassal plus puissant que moi-même,</l>
+	<l id='1312'>Et voir par l'union que produiront nos voeux,</l>
+	<l id='1313'>Douter à l'Aragon qui régnera des deux ;</l>
+	<l id='1314'>Puisque ma passion après tant d'aventures,</l>
+	<l id='1315'>Comme votre vertu doit être sans mesures.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE bas.</speaker>
+	<l id='1316'>Sans moi je le crois pauvre avecques tant de bien,</l>
+	<l id='1317'>Et ne me donner pas, c'est ne lui donner rien.</l>
+</sp>
+<sp who='LEONOR'><speaker>LEONOR bas.</speaker>
+	<l id='1318'>Ses bienfaits sont trop peu pour son mérite extrême,</l>
+	<l id='1319'>S'il ne lui fait encor un présent de moi-même.</l>
+<stage>Tous s'en vont, le Roi conduit Léonor, et Dom Bernard l'Infante.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Dom Lope, Lazarille.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1320'>Quoi ! De tant de fumée il flatte mon espoir,</l>
+	<l id='1321'>Et plein de mon estime, il s'en va sans me voir ?</l>
+	<l id='1322'>Quoi ? D'une telle amour j'ose nourrir l'attente,</l>
+	<l id='1323'>Et ne me puis vanter d'un regard de l'Infante ;</l>
+	<l id='1324'>Moi qui des mains du frère et des yeux de la soeur,</l>
+	<l id='1325'>M'étais ( à ce retour ) promis tant de douceurs !</l>
+	<l id='1326'>Est-ce que l'un diffère, et l'autre dissimule !</l>
+	<l id='1327'>Mais, ô frivole espoir vanité ridicule !</l>
+	<l id='1328'>L'un avec tant d'estime, et l'autre tant d'amour,</l>
+	<l id='1329'>N'auraient pas d'un regard, honoré mon retour ;</l>
+	<l id='1330' part='i'>Mais voici...</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Dorothér, Dom Lope.</head>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1330' part='f'>Quoi Dom lope, une ardeur si sensible,</l>
+	<l id='1331'>Rencontre-t-elle en vous une âme inaccessible ?</l>
+	<l id='1332'>Je croyais qu'en amour, traiter si froidement,</l>
+	<l id='1333'>Ne fût une vertu que pour nous seulement ;</l>
+	<l id='1334'>Quel rôle jouerons-nous, chétives que nous sommes,</l>
+	<l id='1335'>Si la rigueur devient la qualité des hommes ?</l>
+	<l id='1336'>S'ils refusent des voeux à des voeux mutuels,</l>
+	<l id='1337'>Vraiment il vous sied bien de faire les cruels ;</l>
+	<l id='1338'>Et vouloir vous mêler de notre personnage,</l>
+	<l id='1339'>Vous que le Ciel n'a faits que pour nous rendre hommage,</l>
+	<l id='1340'>Que pour ployer le col sous notre autorité,</l>
+	<l id='1341'>Et nous faire tribut de votre liberté !</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1342'>Il paraît par l'accueil que m'a fait Violante,</l>
+	<l id='1343'>Que cette qualité me serait messéante</l>
+	<l id='1344'>Et l'on redoute peu la rigueur d'un Amant,</l>
+	<l id='1345'>Qu'on ne daigne honorer d'un regard seulement.</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1346'>Qui manque un rendez-vous, fait bien voir qu'il néglige</l>
+	<l id='1347'>Les plus chères faveurs dont une Amante oblige.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1348'>J'ai différé d'un soir, les offres de mes voeux,</l>
+	<l id='1349'>Pour l'aller mériter par un exploit fameux ;</l>
+	<l id='1350'>Et signalant mon nom en ce combat insigne,</l>
+	<l id='1351'>N'ai manqué de la voir, que pour m'en rendre digne.</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1352'>Je sais bien que l'amour marche après le devoir,</l>
+	<l id='1353'>Votre excuse est de mise, et se peut recevoir :</l>
+	<l id='1354'>Mais pour tout réparer, et voir si l'on vous aime,</l>
+	<l id='1355'>Venez ce soir au parc, la proposer vous-même ;</l>
+	<l id='1356'>Est-ce vous témoigner un coeur assez épris,</l>
+	<l id='1357'>Qu'avec une faveur châtier son mépris.</l>
+	<l id='1358'>Au reste cette amour tendant à l'hyménée,</l>
+	<l id='1359'>Jugez de la grandeur qui vous est destinée.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1360'>Puis-je si malheureux n'avoir pas pour suspect,</l>
+	<l id='1361'>D'un astre si malin ce favorable aspect ?</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1362'>Elle a ce seul regret de n'être pas pourvue,</l>
+	<l id='1363'>De toute la beauté qui peut charmer la vue.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1364'>Quel plus divin objet peut enchanter les sens ?</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1365'>Et de voir que déjà l'avare faux du temps,</l>
+	<l id='1366'>Ait de ses plus beaux jours ravi quelque partie.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1367'>Je ne puis que répondre à tant de modestie,</l>
+	<l id='1368'>Que par tout le respect et la confusion,</l>
+	<l id='1369'>Dont un coeur est capable en cette occasion.</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE</speaker>
+	<l id='1370'>Elle prétend de plus avant que le jour passe,</l>
+	<l id='1371'>Par un gage amoureux vous confirmer sa grâce,</l>
+	<l id='1372'>Lazarille avec moi viendra le recevoir.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1373'>Ô caprices du sort qui vous peut concevoir !</l>
+	<l id='1374'>Contraire il assassine, et favorable accable,</l>
+	<l id='1375'>D'un heur si surprenant, un homme est-il capable ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='1376'>Avec la vanité dont vous vous paissez tous,</l>
+	<l id='1377'>Vous tiendrez pour affront que le Ciel pleut sur vous ;</l>
+	<l id='1378'>De plus puissants que vous, acceptez tout sans honte.</l>
+</sp>
+<sp who='DOROTHEE'><speaker>DOROTHÉE à Lazarille.</speaker>
+	<l id='1379' part='i'>Viens.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE la suivant.</speaker>
+	<l id='1379' part='f'>Je reviens, et vous en rend bon compte.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Dom Bernard, Dom Lope.</head>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1380'>J'admire ( mon cher Lope ) et cet étonnement,</l>
+	<l id='1381'>Me laisse sans discours et sans raisonnement ;</l>
+	<l id='1382'>Le courroux obstiné, dont le Ciel vous outrage,</l>
+	<l id='1383'>Et sa lenteur extrême à vous tourner visage ;</l>
+	<l id='1384' part='i'>Le Roi...</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1384' part='f'>Quelque malheur dont je sois combattu,</l>
+	<l id='1385'>Un fort espoir renaît à ma faible vertu ;</l>
+	<l id='1386'>En suite de mes maux dont le torrent s'écoule,</l>
+	<l id='1387'>Les biens semblent, comme eux, me venir tout en foule,</l>
+	<l id='1388'>Le ciel qui me semblait même plaindre le jour,</l>
+	<l id='1389'>S'épuise en ma faveur par les mains de l'amour ;</l>
+	<l id='1390'>Pardonnez, Amiral, si mon trop lent silence,</l>
+	<l id='1391'>Vous a de ce beau mal caché la violence ;</l>
+	<l id='1392'>Puisque je croyais moins par ma discrétion,</l>
+	<l id='1393'>Vous taire un juste espoir, qu'une présomption ;</l>
+	<l id='1394'>Mais pouvant aujourd'hui fonder cette espérance,</l>
+	<l id='1395'>Sur une trop solide et trop claire apparence ;</l>
+	<l id='1396'>Je vous dois révéler cet important secret,</l>
+	<l id='1397'>Que je ne puis verser dans un sein plus discret :</l>
+	<l id='1398'>Mais craignant d'éventer une si belle flamme,</l>
+	<l id='1399'>Cherchons un lieu plus propre à vous ouvrir mon âme ;</l>
+	<l id='1400'>Et pouvoir modérer par vos sages avis,</l>
+	<l id='1401'>Le transport surprenant dont mes sens sont ravis.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1402'>J'ai bien cru que du ciel la justice future,</l>
+	<l id='1403'>Vous devrait réserver quelque haute aventure ;</l>
+	<l id='1404'>Et que ses jugements aussi sages que saints,</l>
+	<l id='1405'>Sous de si grands malheurs cachaient de grands desseins.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD seul.</speaker>
+	<l id='1406'>Jalouse passion, dangereuse couleuvre,</l>
+	<l id='1407'>Qui pour nuire ou crever, mets tout poison en oeuvre ;</l>
+	<l id='1408'>Fille à qui te fait naître ingrate et sans pitié,</l>
+	<l id='1409'>Au moins tuant l'amour, épargne l'amitié ;</l>
+	<l id='1410'>Et ne m'engendre pas d'une rage commune,</l>
+	<l id='1411'>Et l'oubli de l'Infante, et la haine de Lune !</l>
+	<l id='1412'>De Lune dont les faits m'ont servi de degrés,</l>
+	<l id='1413'>À monter à des rangs de tant d'yeux révérés ;</l>
+	<l id='1414'>Ce de Lune invaincu dont la valeur extrême,</l>
+	<l id='1415'>A tant fait pour ma gloire, et si peu pour lui-même.</l>
+	<l id='1416'>Laissons libres ses voeux à de libres appas,</l>
+	<l id='1417'>Et complice du sort, ne l'entreprenons pas !</l>
+	<l id='1418'>Sa rage assez longtemps contre lui mutinée,</l>
+	<l id='1419'>A sous un mauvais astre ourdi sa destinée :</l>
+	<l id='1420'>Souffrons-lui les aspects de douceur et d'amour,</l>
+	<l id='1421'>Dont l'honore aujourd'hui l'astre de cette Cour :</l>
+	<l id='1422'>La voici, cachons-nous, et détournons la vue,</l>
+	<l id='1423'>De ce beau basilic, qui charme, mais qui tue.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. l'Infante, Dom Bernard.</head>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1424'>Quoi me fuir, Amiral ! quoi vouloir m'éviter !</l>
+	<l id='1425'>Ai-je des qualités à tant épouvanter ?</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1426'>Vous rêviez, et j'ai cru que quelque inquiétude,</l>
+	<l id='1427'>Vous obligeait, Madame, à cette solitude.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1428'>Il est vrai, mais vous seul me pouvez relever,</l>
+	<l id='1429'>Du soin qui m'inquiète et qui me fait rêver</l>
+	<l id='1430'>Aujourd'hui Dom Bernard que la Cour vous contemple,</l>
+	<l id='1431'>Dans le plus haut éclat, d'un Héros sans exemple ;</l>
+	<l id='1432'>Qu'on vous voit avec joie, autant et plus puissant,</l>
+	<l id='1433'>Que fut jamais vassal d'un Roi reconnaissant ;</l>
+	<l id='1434'>Que l'un et l'autre sexe, en votre heur s'intéresse,</l>
+	<l id='1435'>Les Dames sont en peine à qui vos voeux s'adressent,</l>
+	<l id='1436'>Et quels heureux appas, en la guerre des coeurs,</l>
+	<l id='1437'>Remporteront sur vous le titre des vainqueurs ;</l>
+	<l id='1438'>Car vous ne voudriez pas qu'on vous crût invincible</l>
+	<l id='1439'>À la force d'un sexe, à qui tout est possible ;</l>
+	<l id='1440'>Qui se peut tout soumettre, et de qui les regards</l>
+	<l id='1441'>Forçaient les Scipions, et domptaient les Césars.</l>
+	<l id='1442'>Cet honneur s'étant donc fait tant d'ambitieuses ;</l>
+	<l id='1443'>Moi comme la plus jeune et des plus curieuses,</l>
+	<l id='1444'>J'ai voulu me charger de la commission</l>
+	<l id='1445'>De leur faire savoir votre inclination ;</l>
+	<l id='1446'>Et c'était le sujet de mon inquiétude.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1447'>Mon plus ardent désir et ma plus chère étude,</l>
+	<l id='1448'>Sont de servir ce sexe adorable et charmant,</l>
+	<l id='1449'>Dont toujours la conquête honore en désarmant.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1450'>Ces termes généraux me laissant incertaine,</l>
+	<l id='1451'>Me laissent sans moyen de les tirer de peine ;</l>
+	<l id='1452'>Et ne nous obligeant que d'un devoir commun,</l>
+	<l id='1453'>Pour servir trop d'objets, vous n'en servez pas un.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1454'>Vous m'ordonnez, Madame, un excès d'insolence</l>
+	<l id='1455'>Qu'ont assez publié mes yeux et mon silence,</l>
+	<l id='1456'>Et quelque vive ardeur dont on soit enflammé,</l>
+	<l id='1457'>L'importance n'est pas d'aimer mais d'être aimé ;</l>
+	<l id='1458'>Et fonder son espoir dessus quelque apparence.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1459'>Craignez-vous de déplaire ? Aimez sans espérance.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1460'>Restreint dans ce respect je puis vous obéir,</l>
+	<l id='1461'>J'aime donc un objet que nul ne peut haïr ;</l>
+	<l id='1462'>Qui par vos propres yeux vous a cent fois ravie,</l>
+	<l id='1463'>Que seule vous pouvez contempler sans envie.</l>
+	<l id='1464'>Qui vous contemple aussi, sans en être jaloux,</l>
+	<l id='1465'>Et qui n'a rien d'intime et de cher comme vous ;</l>
+	<l id='1466'>Un trésor préférable à toute ma fortune,</l>
+	<l id='1467'>Le seul Soleil enfin digne de cette Lune,</l>
+	<l id='1468'>Qui se fait redouter par tant d'effets divers,</l>
+	<l id='1469'>Et qui peut en son cercle enfermer l'Univers.</l>
+	<l id='1470'>Par votre sage avis souffrant sa préférence,</l>
+	<l id='1471'>J'aime sans intérêt, et sers sans espérance.</l>
+	<l id='1472'>Je vois ce clair soleil, je tremble à son aspect,</l>
+	<l id='1473'>L'amour pour l'amitié s'impose ce respect ;</l>
+<stage>Il s'en va.</stage>
+	<l id='1474'>L'intérêt de l'ami m'éloigne de l'amante,</l>
+	<l id='1475'>Mais le temps éteindra cette ardeur, Violante ;</l>
+	<l id='1476' part='i'>Je l'ai nommée, adieu.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='INFANTE'><speaker>L'INFANTE seule.</speaker>
+	<l id='1476' part='f'>De ce propos confus,</l>
+	<l id='1477'>Qu'ai-je lieu d'inférer ou dessein, ou refus,</l>
+	<l id='1478'>Je cherche des clartés et n'en rencontre aucune,</l>
+	<l id='1479'>Ni dedans ce Soleil, ni dedans cette Lune ;</l>
+	<l id='1480'>Pour me tirer de soin, j'augmente mon tourment,</l>
+	<l id='1481'>Et voulant m'éclaircir, croîs mon aveuglement.</l>
+	<l id='1482'>À chercher toutefois le sens de ce langage,</l>
+	<l id='1483'>Quelque rayon de jour pénètre ce nuage ;</l>
+	<l id='1484'>Cette Lune féconde en tant d'effets divers,</l>
+	<l id='1485'>Et qui peut en son cercle enfermer l'univers,</l>
+	<l id='1486'>Est le Prince mon frère, âme de cet empire,</l>
+	<l id='1487'>Et ce Soleil pour qui l'un et l'autre soupire,</l>
+	<l id='1488'>Est cette Léonor, pour qui toute la Cour</l>
+	<l id='1489'>N'a plus que des regards de respect et d'amour ;</l>
+	<l id='1490'>Mais si la jalousie avec quelque justice,</l>
+	<l id='1491'>A jamais dans une âme exercé son caprice,</l>
+	<l id='1492'>Je rabattrai le vol de sa témérité,</l>
+	<l id='1493'>Avecques tant d'empire et de sévérité,</l>
+	<l id='1494'>Et saurai de tel air ranger ce grand courage,</l>
+	<l id='1495'>Que jamais sa beauté ne causera d'ombrage.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Dom Lope, l'Infante.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1496'>Une fois déclaré le sort nous rit toujours,</l>
+	<l id='1497'>Voici l'Infante, Amour, j'implore ton secours,</l>
+	<l id='1498'>Je tremble à votre approche, et mon respect, Madame,</l>
+	<l id='1499'>Avec tous ses efforts veut retenir ma flamme ;</l>
+	<l id='1500'>Mais ma flamme plus forte enfin que mon respect,</l>
+	<l id='1501'>M'expose à soutenir votre adorable aspect ;</l>
+	<l id='1502'>À l'ardeur de vos feux mon âme accoutumée</l>
+	<l id='1503'>Sait qu'elle ne peut plus en être consommée ;</l>
+	<l id='1504'>Son repos se rencontre en son embrasement,</l>
+	<l id='1505'>Et ce qui la détruit, devient son aliment ;</l>
+	<l id='1506'>Quoique par ma naissance à la vôtre inégale,</l>
+	<l id='1507'>Mon espoir s'élevant aussitôt se ravale,</l>
+	<l id='1508'>Et que je semble prendre un vol trop arrogant...</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE étonnée.</speaker>
+	<l id='1509'>Ô Dieu ! Que veut ce fol ! Et cet extravagant ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1510'>Vos propres mains, Madame, ont avoué l'audace,</l>
+	<l id='1511'>De ce feu qui chez vous rencontre tant de glace ;</l>
+	<l id='1512'>Et m'ont fait espérer quand vos yeux m'ont blessé.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1513'>Qu'entends-je ! Holà, quelqu'un, chassez cet insensé.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1514'>À tort de mes tributs votre beauté s'irrite,</l>
+	<l id='1515'>Je ne suis que la loi que vous m'avez prescrite,</l>
+	<l id='1516'>Je brûle par votre ordre, et par lui je vous sers,</l>
+	<l id='1517'>Il m'allume mes feux, il m'attache mes fers ;</l>
+	<l id='1518'>Et ma soumission plus que mon arrogance...</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1519'>Dieu ! Quelle frénésie, et quelle extravagance !</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1520'>Il ne me manquait plus que cette qualité.</l>
+	<l id='1521'>Mais de quel vain espoir m'avez-vous donc flatté ?</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1522'>La fureur le saisit, je crains quelque disgrâce,</l>
+	<l id='1523'>Aucun ne vient, fuyons et cédons-lui la place.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1524'>Quoi fol et furieux ! Ô ciel ! Mais le Roi vient.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1525'>Sire, oyez quels discours cet insensé me tient.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.  Le Roi, Gardes, Dom Lope, l'Infante.</head>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1526'>Éprouvons aujourd'hui sa haine ou son estime,</l>
+	<l id='1527'>Ouvrons-nous, oyons tout, le désespoir anime.</l>
+	<l id='1528'>Sire, après des rebuts si longtemps éprouvés,</l>
+	<l id='1529'>Je demande audience, et vous me la devez ;</l>
+	<l id='1530'>Tout mon corps vous parlant par de sanglantes bouches,</l>
+	<l id='1531'>Dont il aurait touché les coeurs les plus farouches,</l>
+	<l id='1532'>N'a pu dans votre sein trouvé le coeur d'un Roi,</l>
+	<l id='1533'>N'ayant pu vous résoudre à rien faire pour moi ;</l>
+	<l id='1534'>J'ai donc lieu de tenter si la voix ordinaire,</l>
+	<l id='1535'>N'y rencontrera point un coeur plus débonnaire ;</l>
+	<l id='1536'>La vertu rebutée après tant de mépris,</l>
+	<l id='1537'>Sans ternir  son éclat, peut demander son prix.</l>
+	<l id='1538'>Je pourrais ( il est vrai ) passer pour téméraire,</l>
+	<l id='1539'>Si je vous proposais une vertu vulgaire,</l>
+	<l id='1540'>Mais la mienne est célèbre, et peu sans vanité,</l>
+	<l id='1541'>Ont fait ce que j'ai fait pour votre Majesté :</l>
+	<l id='1542'>Et j'apprends toutefois pour tout fruit de mon zèle,</l>
+	<l id='1543'>Que vous me soupçonnez du titre d'infidèle.</l>
+	<l id='1544'>Moi, traître, moi perfide ! En quoi Roi d'Aragon,</l>
+	<l id='1545'>D'une tache si noire ai-je souillé mon nom ?</l>
+	<l id='1546'>Et mérité de vous l'injuste violence,</l>
+	<l id='1547'>Qui veut l'ensevelir dans la nuit du silence ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1548' part='i'>Que veut cet homme ! Ô Ciel !</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1548' part='f'>Homme ! Oui sans me flatter,</l>
+	<l id='1549'>C'est une qualité dont je me puis vanter :</l>
+	<l id='1550'>Oui, Seigneur, je suis homme, et quelquefois plus qu'homme,</l>
+	<l id='1551'>Quand je crois trop l'ardeur qui pour vous me consomme,</l>
+	<l id='1552'>Et quand dans les dangers où l'on me voit courir,</l>
+	<l id='1553'>Je crois être immortel et ne pouvoir périr.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1554'>Jugez quel embarras me causait sa rencontre ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1555' part='i'>Juste Ciel !</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1555' part='m'>Est-il fol ?</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1555' part='f'>Son geste vous le montre ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE s'approchant du Roi.</speaker>
+	<l id='1556' part='i'>Mon mauvais sort, Grand Roi...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI se retirant/</speaker>
+	<l id='1556' part='f'>Passe, que me veux-tu ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1557'>À quelle épreuve ô Cieux ! Mettez-vous ma vertu ?</l>
+<stage>Au Roi.</stage>
+	<l id='1558'>Si de l'abord des Rois le mérite est indigne...</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1559'>Gardes mettez le hors ! Ô la folie insigne !</l>
+</sp>
+<sp who='GARDES'><speaker>GARDES le tirant par les épaules.</speaker>
+	<l id='1560' part='i'>Tôt dehors.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1560' part='f'>Ô mon coeur ! Ô mes bras indomptés !</l>
+	<l id='1561'>Vous m'avez procuré de belles qualités,</l>
+	<l id='1562'>Pour avoir si bien fait notre fortune est grande,</l>
+	<l id='1563'>Quand on sert on est sage, et fol quand on demande.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Roi, l'Infante.</head>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1564'>Ce fol peint par ces mots, mon destin rigoureux,</l>
+	<l id='1565'>Et me fait le portrait de moi-même amoureux ;</l>
+	<l id='1566'>Je brûle sans espoir, je sers sans récompense,</l>
+	<l id='1567'>Mon service est souffert, et ma prière offense ;</l>
+	<l id='1568'>L'État, ma chère soeur, où Dieu m'a destiné,</l>
+	<l id='1569'>Comme je le régis, m'a toujours gouverné ;</l>
+	<l id='1570'>Y régnant, j'ai suivi les lois qu'il m'a données,</l>
+	<l id='1571'>J'ai dans ses intérêts mes passions bornées ;</l>
+	<l id='1572'>Je les épousais seuls ; mais aujourd'hui l'amour</l>
+	<l id='1573'>Plus absolu que lui, veut régner à son tour.</l>
+	<l id='1574'>Il ne peut plus souffrir qu'en l'ardeur qui me presse,</l>
+	<l id='1575'>Il contraigne son maître au choix de sa maîtresse ;</l>
+	<l id='1576'>Et disposant de moi fasse d'un Potentat,</l>
+	<l id='1577'>Moins un Prince en effet, qu'un serf de son État ;</l>
+	<l id='1578'>En cette passion l'intérêt de Cabrere,</l>
+	<l id='1579'>Seul préférable au mien pourrait m'être contraire ;</l>
+	<l id='1580'>À quoi que Léonor me réduise aujourd'hui,</l>
+	<l id='1581'>Ses mépris me plairaient, ses voeux étant pour lui,</l>
+	<l id='1582'>Et mon respect irait jusqu'à la déférence ;</l>
+	<l id='1583'>De pouvoir, en amour, souffrir sa préférence.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1584'>Ha ! vous pouvez, Seigneur, élever un vassal,</l>
+	<l id='1585'>Au rang d'un favori, mais non pas d'un rival ;</l>
+	<l id='1586'>Si ce respect en vous trouvait tant de faiblesse,</l>
+	<l id='1587'>S'il était si puissant près de votre maîtresse ;</l>
+	<l id='1588'>À quel point son pouvoir ne s'étendrait-il pas,</l>
+	<l id='1589'>Et dessus vos sujets, et dessus vos États ?</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1590'>Dedans les sentiments que sa vertu m'inspire,</l>
+	<l id='1591'>Lui pouvant aussi bien déposer mon Empire,</l>
+	<l id='1592'>Que la prétention d'un objet amoureux,</l>
+	<l id='1593'>Je voudrais couronner son front, comme ses yeux.</l>
+	<l id='1594'>Sondons de qui son coeur reconnaît la puissance,</l>
+	<l id='1595'>Pour m'en faire une loi d'espoir ou de déférence.</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE le suivant.</speaker>
+	<l id='1596'>Enfant père des arts, Ingénieux tourment,</l>
+	<l id='1597'>Fais régner ma rivale et m'acquiers mon amant.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Dom Bernard, Dom Lope.</head>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1598'>Quoi rien ne vous succède ? Et le Prince et l'Infante,</l>
+	<l id='1599'>De cet indigne accueil ont traité votre attente ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1600'>Ils m'ont traité d'un nom que j'ai bien mérité,</l>
+	<l id='1601'>Si quelque espoir encore flatte ma vanité,</l>
+	<l id='1602'>Si sacrifiant plus à mes erreurs passées,</l>
+	<l id='1603'>J'en fais le fondement de mes folles pensées ;</l>
+	<l id='1604'>Et si dans les périls d'une fameuse mort,</l>
+	<l id='1605'>Je ne vais contenter la cruauté du sort.</l>
+	<l id='1606'>J'ai vu cent fois le port ; et la vague plus forte,</l>
+	<l id='1607'>Quand j'y pense arriver à l'instant me r'emporte ;</l>
+	<l id='1608'>J'ai fait tout ce que peut pour preuve de sa foi,</l>
+	<l id='1609'>Un captif pour son maître, un sujet pour son Roi ;</l>
+	<l id='1610'>En mille occasions j'ai la Parque affrontée,</l>
+	<l id='1611'>Même par les mépris ma foi s'est excitée ;</l>
+	<l id='1612'>Et plus j'ai pour l'État achevé de travaux,</l>
+	<l id='1613'>Plus il me fait d'injure, et se rit de mes maux ;</l>
+	<l id='1614'>La terre ainsi de fleurs et de moisson parée,</l>
+	<l id='1615'>Est prodigue à la main, dont elle est déchirée,</l>
+	<l id='1616'>Et d'un servile effort ranimant sa vigueur,</l>
+	<l id='1617'>Donne à qui plus contre elle exerce de rigueur ;</l>
+	<l id='1618'>Mais le plus rude affront dont je ressens l'atteinte,</l>
+	<l id='1619'>Est-ce fatal appas, cette mortelle feinte,</l>
+	<l id='1620'>Dont la superbe Infante a voulu colorer</l>
+	<l id='1621'>L'espoir qu'elle semait, pour me désespérer ;</l>
+	<l id='1622'>Quand je n'ose être Amant, on m'ordonne de l'être,</l>
+	<l id='1623'>Pour me traiter de fol, on me le fait paraître ;</l>
+	<l id='1624'>Et le frère et la soeur tous deux également,</l>
+	<l id='1625'>Font de mes passions un divertissement.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Lazarille, Dom Lope, Dom Bernard.</head>
+<sp who='LAZARILLE'><speaker>LAZARILLE apportant une écharpe de toile d'or, et une lettre à Dom Lope.</speaker>
+	<l id='1626'>Tenez votre fortune est en haute posture,</l>
+	<l id='1627'>Ô le divin objet ! L'aimable créature !</l>
+	<l id='1628'>Ses charmes m'ont surpris, et jamais le Soleil,</l>
+	<l id='1629'>En son oblique tour, n'a rien vu de pareil.</l>
+	<l id='1630'>Ces gages vous font foi de son amour extrême.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1631' part='i'>Qui te les a donnés ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='1631' part='f'>Violante elle-même ;</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1632'>Croirai-je à ses écrits, quand ses yeux inhumains,</l>
+	<l id='1633'>Par un si froid accueil ont démenti ses mains ?</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='1634'>Mais quelle à votre avis est cette Violante ?</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE</speaker>
+	<l id='1635'>J'ai pensé sous ce nom rendre hommage à l'Infante !</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE riant.</speaker>
+	<l id='1636'>À l'Infante ! Écoutez d'un fidèle pinceau,</l>
+	<l id='1637'>Je vais de sa beauté vous faire le tableau ;</l>
+	<l id='1638'>Sous ce nom captieux, je préparais ma vue,</l>
+	<l id='1639'>Aux célestes attraits dont l'Infante est pourvue ;</l>
+	<l id='1640'>Mais pour toute merveille Ignes ne m'a fait voir</l>
+	<l id='1641'>Qu'un Spectre et qu'un fantôme horrible à concevoir,</l>
+	<l id='1642'>La plus belle moitié de ce mouvant squelette,</l>
+	<l id='1643'>Couché dessous son lit, et dessous sa toilette ;</l>
+	<l id='1644'>D'abord que j'ai monté s'ajustant avec soin,</l>
+	<l id='1645'>Elle a pris ses patins pour me voir de plus loin ;</l>
+	<l id='1646'>Pour second ornement, j'ai vu sur ses épaules,</l>
+	<l id='1647'>Un abrégé des monts qui séparent les Gaules ;</l>
+	<l id='1648'>Son front où l'on dirait que le soc a passé,</l>
+	<l id='1649'>S'élève à hauts sillons sur un oeil enfoncé,</l>
+	<l id='1650'>Qu'on peut dire un Soleil non par ce qu'il éclaire,</l>
+	<l id='1651'>Mais par ce qu'il est seul et, qu'il n'a point de frère,</l>
+	<l id='1652'>Le temps a pris plaisir par de longs accidents,</l>
+	<l id='1653'>À ronger et pourrir l'ivoire de ses dents ;</l>
+	<l id='1654'>D'un art mal agencé le plâtre et la peinture,</l>
+	<l id='1655'>Sur sa pendante joue ont caché la nature :</l>
+	<l id='1656'>Rien ne la pare enfin qui ne sois emprunté.</l>
+	<l id='1657'>Pour son poil il est sien, pour l'avoir acheté ;</l>
+	<l id='1658'>Mais il fut autrefois celui d'une autre tête.</l>
+	<l id='1659'>Faites-en bien le vain ; voilà votre conquête</l>
+	<l id='1660'>Qui chez l'Infante au reste a quelque autorité,</l>
+	<l id='1661'>Mais je ne vous puis dire en quelle qualité,</l>
+	<l id='1662'>Sinon qu'elle a son nom, mais non pas son mérite.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1663'>C'est une vieille fille et presque décrépite,</l>
+	<l id='1664'>Qui la sert à la chambre, et dans quelque crédit.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE jetant la lettre et l'écharpe.</speaker>
+	<l id='1665'>Quel mortel à ce point fut jamais interdit ?</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1666'>Moi certes, comme après leur longue expérience,</l>
+	<l id='1667'>Vos maux viennent à bout de votre patience :</l>
+	<l id='1668'>J'en demeure confus et pour leur appareil,</l>
+	<l id='1669'>Me trouve à bout aussi d'adresse et de conseil.</l>
+</sp>
+<sp who='DOM-LOPE'><speaker>Dom LOPE comme désespéré.</speaker>
+	<l id='1670'>Et pour ton faste encor j'exercerais mes armes,</l>
+	<l id='1671'>Et dans ta vanité je trouverais des charmes,</l>
+	<l id='1672'>Et je voudrais encor mordre à tes hameçons,</l>
+	<l id='1673'>Cour ingrate où l'art seul étale ses leçons,</l>
+	<l id='1674'>Et qui hors d'un ami dont la bonté sincère</l>
+	<l id='1675'>Lui fait avoir pour moi des sentiments de frère,</l>
+	<l id='1676'>N'offres dans les malheurs dont je suis combattu,</l>
+	<l id='1677'>Ni secours, ni soutien à ma faible vertu :</l>
+	<l id='1678'>Cour où la valeur même est trop favorisée,</l>
+	<l id='1679'>Alors qu'elle est soufferte, ou n'est que méprisée :</l>
+	<l id='1680'>Cour fantôme pompeux de qui les vanités,</l>
+	<l id='1681'>Engagent la prudence à tant de lâchetés !</l>
+	<l id='1682'>Cour où la vérité passe pour un beau songe,</l>
+	<l id='1683'>Où le plus haut crédit est le prix du mensonge ;</l>
+	<l id='1684'>Qui n'est à bien parler, qu'un servage doré,</l>
+	<l id='1685'>Un supplice agréable, un enfer adoré ;</l>
+	<l id='1686'>Dans tes pièges encor ma raison retenue,</l>
+	<l id='1687'>Me pourrait arrêter, quand tu m'es si connue ?</l>
+	<l id='1688'>Je serais insensible et mes lâches tributs,</l>
+	<l id='1689'>Justifieraient enfin ma honte, et tes rebuts ;</l>
+<stage>Embrassant Dom Bernard.</stage>
+	<l id='1690'>Adieu parfait ami, seul à qui sans caprice,</l>
+	<l id='1691'>La Cour est généreuse, et le sort rend justice.</l>
+	<l id='1692'>Un mortel malheureux au point où je le suis,</l>
+	<l id='1693'>Par une illustre mort doit borner ses ennuis ;</l>
+	<l id='1694'>Ou s'il ne perd au moins, doit cacher une vie,</l>
+	<l id='1695'>À tant d'indignités, et d'affronts asservie ;</l>
+	<l id='1696'>Voyant Lazarille paré de l'écharpe.</l>
+	<l id='1697'>Lâche de mon affront veux-tu porter les marques.</l>
+</sp>
+<sp who='LAZARILLE'><speaker>LAZARILLE</speaker>
+	<l id='1698'>Si vous n'en espérez que de soeurs de Monarques ;</l>
+	<l id='1699'>Et si jamais d'ailleurs nous n'en devons porter,</l>
+	<l id='1700'>Nous avons tout loisir d'aller les mériter.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD voulant retenir Dom Lope.</speaker>
+	<l id='1701'>Le temps peut tout changer, cependant cher de Lune,</l>
+	<l id='1702'>En ma protection bornez votre fortune ;</l>
+<stage>Dom Lope s'en va.</stage>
+	<l id='1703'>Si vous vous éloignez, vous ôtez à l'État,</l>
+	<l id='1704'>Sa plus noble défense et son meilleur soldat ;</l>
+	<l id='1705' part='i'>Écoutez, attendez.</l>
+<stage>Il continue seul.</stage>
+	<l id='1705' part='f'>Ô fatale aventure !</l>
+	<l id='1706'>De la haine du sort effroyable peinture !</l>
+	<l id='1707'>Et leçon importante à ceux qu'il fait puissants,</l>
+	<l id='1708'>De se bien soutenir en des pas si glissants.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Roi, Le Comte, Le Secrétaire, Gardes, Dom Bernard.</head>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1709'>Le voici, prévenons ou fondons son attente,</l>
+<stage>Au Secrétaire.</stage>
+	<l id='1710'>Amenez Léonor, et vous Comte l'Infante ;</l>
+	<l id='1711'>Approchez Dom Bernard, de ce fameux État</l>
+	<l id='1712'>Première créature, et second Potentat ;</l>
+<stage>Embrassant Dom Bernard.</stage>
+	<l id='1713'>Le Ciel qui pour mouvoir a besoin de deux pôles,</l>
+	<l id='1714'>Veut que pour bien régner j'emprunte vos épaules,</l>
+	<l id='1715'>Et que le lourd fardeau de mon Gouvernement,</l>
+	<l id='1716'>Sur vous comme sur moi, trouve son mouvement.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1717'>Sans réserve, Seigneur, je dois tout à l'Empire,</l>
+	<l id='1718'>Mais sous l'autorité du joug où je respire ;</l>
+	<l id='1719'>Sous vos droits absolus mes ordres sont soufferts,</l>
+	<l id='1720'>Mais bien différemment, vous régnez, et je sers.</l>
+	<l id='1721'>Un vassal peut d'un Roi soutenir la puissance,</l>
+	<l id='1722'>Mais s'il se la partage, il prend trop de licence ;</l>
+	<l id='1723'>Et quand de tant d'honneur il se laisse combler,</l>
+	<l id='1724'>Il se charge d'un faix qui le doit accabler :</l>
+	<l id='1725'>Quand d'un oeil trop ardent le Soleil voit la terre,</l>
+	<l id='1726'>Le Ciel s'en obscurcit, il s'en forme un tonnerre,</l>
+	<l id='1727'>Et par l'excès d'ardeur qu'il a mal employé,</l>
+	<l id='1728'>L'objet qu'il caressait, est souvent foudroyé ;</l>
+	<l id='1729'>Peu de pluie en saison rend la terre fertile,</l>
+	<l id='1730'>Où trop d'eau la submerge et la rend inutile ;</l>
+	<l id='1731'>Dans vos faveurs enfin laissez-moi souvenir,</l>
+	<l id='1732'>Que sorti du néant je puis y revenir.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1733'>Si je ne vous chérit d'un amour ordinaire,</l>
+	<l id='1734'>Je n'aime pas en vous une vertu vulgaire,</l>
+	<l id='1735'>Et la veux couronner par un hymen fameux,</l>
+	<l id='1736'>Où même votre choix n'épargne pas mes voeux,</l>
+	<l id='1737'>Sans réserve voyez pour cet hymen insigne,</l>
+	<l id='1738'>Tout ce qu'à vos regards la Cour a de plus digne,</l>
+	<l id='1739'>Tout ce que l'Aragon a de plus éclatant,</l>
+	<l id='1740'>Le présent n'en suivra vos voeux que d'un instant.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1741'>Leur vol trop orgueilleux m'oblige à les restreindre.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1742'>À quoi m'étant égal ne pouvez-vous atteindre !</l>
+	<l id='1743'>Vous pouvez Amiral, je vous le dis encor,</l>
+	<l id='1744'>À mon exclusion prétendre à Léonor :</l>
+	<l id='1745'>Puisqu'à mon propre bien votre heur m'est préférable,</l>
+	<l id='1746'>Et que vous m'êtes cher autant qu'elle adorable.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1747'>Mon coeur quelque respect qu'il vous ait conservé,</l>
+	<l id='1748'>Ose tenter un vol encore plus élevé ;</l>
+	<l id='1749'>Mais taisant cette ardeur qui me fait méconnaître,</l>
+	<l id='1750'>J'aime mieux me punir, que mériter de l'être.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1751'>Ce vol est trop borné, s'il ne va qu'à ma soeur,</l>
+	<l id='1752'>Et cette même nuit vous en rend possesseur :</l>
+	<l id='1753'>Ne me celez donc point si cette amour vous touche.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1754'>Sire, au crime du coeur n'engagez point la bouche ;</l>
+	<l id='1755'>Puisque tous mes travaux et futurs et passés.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1756'>Votre silence parle et me la nomme assez ;</l>
+<stage>L'embrassant.</stage>
+	<l id='1757'>Oui mon frère en son nom, je reçois votre hommage.</l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE DERNIÈRE. l'Infante, Le Comte, Léonor, Le Secrétaire d'un côté, Le Roi, Dom Bernard d'autre côté.</head>
+<sp who='LE-ROI'><speaker>LE ROI à l'infante.</speaker>
+	<l id='1758'>Un amant se déclare à qui je vous engage,</l>
+	<l id='1759'>Ses voeux ( ma chère soeur ) seront-ils rejetés ?</l>
+</sp>
+<sp who='INFANTE'><speaker>L'INFANTE</speaker>
+	<l id='1760'>Non, si de Dom Bernard il a les qualités.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI les faisant embrasser.</speaker>
+	<l id='1761'>Il en a le nom même avecques le mérite.</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1762'>Ô cher et doux transport que cet espoir m'excite !</l>
+	<l id='1763'>Si l'heur que je conçois, n'est une vérité,</l>
+	<l id='1764'>Plutôt qu'un si beau songe, ôte-moi la clarté.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1765'>Que vois-je ! Ô juste Ciel ! Quoi, Seigneur, la parole !</l>
+	<l id='1766'>N'est-elle plus aux Rois, qu'un songe, ou qu'une Idole ?</l>
+	<l id='1767'>Ce matin quelque objet qui ne put enflammer,</l>
+	<l id='1768'>Ne me devait coûter qu'un souhait à former ;</l>
+	<l id='1769'>Et cette offre ce soir, me laisse voir l'Infante,</l>
+	<l id='1770'>Embrassant Dom Bernard, étouffer mon attente.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1771'>Si je manque à ma foi, c'est pour vous la donner,</l>
+<stage>L'embrassant.</stage>
+	<l id='1772'>Pour vous la tenir mieux, et pour vous couronner ;</l>
+	<l id='1773'>Pour accorder, Madame, à votre amour extrême,</l>
+	<l id='1774'>Cet heureux Dom Bernard en un autre lui-même ;</l>
+	<l id='1775'>Et sous un noeud sacré soumette en ce beau jour,</l>
+	<l id='1776'>Les raisons de l'État à celles de l'amour.</l>
+</sp>
+<sp who='LEONOR'><speaker>LÉONOR</speaker>
+	<l id='1777'>L'injure qui d'un Roi partage la puissance,</l>
+	<l id='1778'>Et qui place en son trône, est une heureuse offense.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1779'>Comme sur mon esprit, régnez sur mes États,</l>
+	<l id='1780'>Allons... Mais quel écrit trouvai-je sous mes pas ?</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1781'>D'une vieille suivante à ce Lope de Lune,</l>
+	<l id='1782'>Dont la seule valeur égale l'infortune.</l>
+	<l id='1783'>Ce prodige animé dont les gestes guerriers,</l>
+	<l id='1784'>Vous ont couvert le front de vos plus beaux lauriers ;</l>
+	<l id='1785'>Et de son plus beau lustre embelli votre règne,</l>
+	<l id='1786'>Qui repoussa l'Infant, qui soumit la Sardaigne,</l>
+	<l id='1787'>Et dont la renommée avec tant de succès,</l>
+	<l id='1788'>Dans votre esprit encor n'a su trouver d'accès.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1789'>Quel malheur l'a privé de ma magnificence ?</l>
+</sp>
+<sp who='DOM-BERNARD'><speaker>Dom BERNARD</speaker>
+	<l id='1790'>Sa dernière infortune est encor son absence ;</l>
+	<l id='1791'>Car après tous mes soins en vain officieux,</l>
+	<l id='1792'>Vos longs rebuts enfin l'ont chassé de ces lieux.</l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI</speaker>
+	<l id='1793'>Moyennez son retour ; ma grâce avec usure ;</l>
+	<l id='1794'>Du mérite ignoré réparera l'injure ;</l>
+	<l id='1795'>Puisque j'éprouve en vous qu'un Roi reconnaissant,</l>
+	<l id='1796'>À force de donner, en devient plus puissant.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

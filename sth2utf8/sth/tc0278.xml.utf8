@@ -1,0 +1,3724 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>DOM QUICHOTTE DE LA MANCHE, COMÉDIE.</title>
+				<author born="161?" born_location="" death="1675" death_location="" academie="">GUERIN de BOUSCAL, Daniel</author>
+			</titleStmt>
+			<publicationStmp>
+				<editor>Texte établi par Kevin Annelot (Mémoire de master I sous la direction de M. Georges Forestier U.F.R de Littérature française et comparée, 2011-2012.)</editor>
+				<publisher>publié par Paul FIEVRE mars 2012</publisher>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>meours espagnoles</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1631-1640</periode>
+				<taille>1750-2000</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">DOM QUICHOTTE DE LA MANCHE [suite]</titlePart>
+			<titlePart type="sub">SECONDE PARTIE</titlePart>
+			<titlePart type="sub">COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value='1640'>M. DC. XL. AVEC PRIVILÈGE DU ROY.</docDate>
+		<docAuthor id="GUERIN de BOUSCAL, Daniel" bio='guérin'>de Mr GUÉRIN.</docAuthor>
+		<docImprint>
+			<privilege id='1639-05-28'><head>Extrait du Privilège du Roi.</head>
+			<p>Par grâce et Privilège du Roi, donné à Paris le 28. jour de Mai 1639. Signé par le Roi en son Conseil, DE MONCEAUX : Il est permis à TOUSSAINCT QUINET, Marchand Libraire à Paris, d'imprimer ou faire imprimer, vendre et distribuer une pièce de Théâtre, intitulée Dom Quichotte de la Manche, durant le temps et espace de trois ans, à compter du jour qu'elle sera achevée d'imprimer. Et défenses sont faites à tous Imprimeurs, Libraires et autres, de contrefaire ladite pièce, ni en vendre ou exposer en vente de contrefaite, à peine aux contrevenants de trois mil livres d'amende, et de tous ses dépens, dommages et intérêts, ainsi qu'il est plus au long porté par lesdites lettres, qui sont en vertu du présent Extrait tenues pour bien et dûment signifiées ; à ce qu'aucun n'en prétende cause d'ignorance.</p>
+			<p>Et ledit Quinet a associé au Privilège ci-dessus daté, Antoine de Sommaville aussi Marchand Libraire à Paris, suivant l'accord fait entr'eux.</p>
+			</privilege>
+			<acheveImprime id='1640-07-15'>Achevé d'imprimer pour la première fois, le 15. Juillet mil six cent quarante. Les Exemplaires ont été fournis.</acheveImprime>
+			<printer id='SOMMAVILLE'>À PARIS, Chez ANTOINE DE SOMMAVILLE, au Palais, dans la Galerie des Merciers, à l'Ecu de France.</printer>
+		</docImprint>
+		<performance>	
+			<premiere date='1645' location='(inconnue)'></premiere>
+		</performance>
+		<castList>
+			<head>ACTEURS.</head>
+			<castItem><role id="DOM QUICHOTTE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>DOM QUICHOTTE</role>.</castItem>
+			<castItem><role id="SANCHE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>SANCHE</role>.</castItem>
+			<castItem><role id="LA NIÈCE" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>LA NIÈCE</role> de Dom Quichotte.</castItem>
+			<castItem><role id="THÉRÈSE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>THÉRÈSE</role>, femme de Sanche.</castItem>
+			<castItem><role id="DOM LOPE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>DOM LOPE</role>, ami de Dom Quichotte, et déguisé en chevalier.</castItem>
+			<castItem><role id="LE BARBIER" civil='M' type="H" statut='barbier' age='A' stat_amour='néant'>LE BARBIER</role>.</castItem>
+			<castItem><role id="LE DUC" civil='M' type="H" statut='duc' age='A' stat_amour='néant'>LE DUC</role> et sa suite.</castItem>
+			<castItem><role id="LA DUCHESSE" civil='F' type="H" statut='duc' age='A' stat_amour='néant'>LA DUCHESSE</role>.</castItem>
+			<castItem><role id="L'AUMONIER" civil='M' type="H" statut='aumonier' age='A' stat_amour='néant'>L'AUMONIER</role> du Duc.</castItem>
+			<castItem><role id="RODRIGUE" civil='M' type="H" statut="dame d'honneur" age='A' stat_amour='néant'>RODRIGUE</role>, Dame d'honneur de la Duchesse.</castItem>
+			<castItem><role id="DEUX HÉRAUTS" civil='G' type="H" statut='héraut' age='A' stat_amour='néant'>DEUX HÉRAUTS</role> du Sophy.</castItem>
+			<castItem><role id="DEUX INFANTES" civil='G' type="H" statut='infante' age='A' stat_amour='néant'>DEUX INFANTES</role> de Perse.</castItem>
+			<castItem><role id="UN DÉMON" civil='M' type="D" statut='démon' age='A' stat_amour='néant'>UN DÉMON</role>.</castItem>
+			<castItem><role id="LIRGANDÉE" civil='M' type="H" statut='enchanteur' age='A' stat_amour='néant'>LIRGANDÉE</role>, enchanteur.</castItem>
+			<castItem><role id="ALQUIF" civil='M' type="H" statut='enchanteur' age='A' stat_amour='néant'>ALQUIF</role>, enchanteur.</castItem>
+			<castItem><role id="ARCHELAUS" civil='M' type="H" statut='enchanteur' age='A' stat_amour='néant'>ARCHELAUS</role>, enchanteur.</castItem>
+			<castItem><role id="MERLIN" civil='M' type="H" statut='enchanteur' age='A' stat_amour='néant'>MERLIN</role>, enchanteur.</castItem>
+			<castItem><role id="DULCINÉE" civil='F' type="H" statut='suivante' age='A' stat_amour='néant'>DULCINÉE</role>.</castItem>
+			</castList>
+<set location='La Manche' country='Espagne' periode='XVIème' link=''>La scène est à La Manche.</set>
+
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Dom Quichotte, Sa nièce.</head>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1' part='i'>Ne m'importune plus.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='1' part='m'>Quoi partir ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1' part='f'>Il le faut.</l>
+	<l id='2'>Le monde souffre trop quand ce bras lui défaut.</l>
+	<l id='3'>Depuis que j'ai cessé de courir la campagne,</l>
+	<l id='4'>Les Géants à leur gré pillent toute l'Espagne,</l>
+	<l id='5'>On ne saurait sortir sans voir errer quelque âme</l>
+	<l id='6'>Qui se vient plaindre à moi de cette troupe infâme ;</l>
+	<l id='7'>Et par des cris aigus semble dire à tous coups,</l>
+	<l id='8'>Donnez-moi le repos, vengez-moi, vengez-nous.</l>
+	<l id='9'>Que retardé-je encor de reprendre les armes ?</l>
+	<l id='10'>Allons verser du sang, allons tarir des larmes.</l>
+	<l id='11' part='i'>Qu'on aille quérir Sanche !</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='11' part='f'>Enfin il faut parler :</l>
+	<l id='12'>Le mal est trop pressant pour le dissimuler.</l>
+	<l id='13'>Monsieur, si vous pensez à quitter le village,</l>
+	<l id='14'>J'irai dire par tout que vous n'êtes pas sage :</l>
+	<l id='15'>Même j'en ferai voir tant de bonnes raisons,</l>
+	<l id='16'>Qu'on vous mettra sans doute aux petites Maisons.</l>
+	<l id='17'>Quels transports sont-ce ci ? Quelles mélancolies?</l>
+	<l id='18'>Quels Géants ? Quelles voix ? Plutôt quelles folies ?</l>
+	<l id='19'>Vous avez vu comment on s'est moqué de vous,</l>
+	<l id='20'>Que l'on vous a traité comme on traite les fous.</l>
+	<l id='21' part='i'>Et vous voulez encor.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='21' part='f'>Ah petite friponne !</l>
+	<l id='22'>Vous vous émancipez, mais je vous le pardonne ;</l>
+	<l id='23'>Un esprit bas et vil vous fait parler ainsi,</l>
+	<l id='24'>Vous ignorez comment mon bras a réussi</l>
+	<l id='25'>Dans les derniers combats où m'a porté la gloire,</l>
+	<l id='26'>Comme sur Malembrun j'emportai la victoire,</l>
+	<l id='27'>Comme je délivrai deux amants enchantés,</l>
+	<l id='28'>Qui depuis deux mil ans étaient persécutés ;</l>
+	<l id='29'>Comme je mis à bas des barbes authentiques,</l>
+	<l id='30'>Comme fâché de voir tant de noires pratiques</l>
+	<l id='31'>Je me mis en colère, et par un seul regard</l>
+	<l id='32'>J'en brûlai l'instrument en brûlant Chevillard.</l>
+	<l id='33'>Vous ignorez aussi qu'une charmante Reine</l>
+	<l id='34'>Par son affection m'a bien fait de la peine :</l>
+	<l id='35'>Sanche vous le peut dire, il n'a tenu qu'à moi</l>
+	<l id='36'>D'être en un même jour son Époux et son Roi.</l>
+	<l id='37'>Jugez après cela si je puis tenir conte</l>
+	<l id='38'>De vos lâches conseils sans en rougir de honte ?</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='39'>Quoi mon oncle est-ce ainsi que vous vous emportez</l>
+	<l id='40'>Après les mouvements de tant d'absurdités?</l>
+	<l id='41'>Tout ce dont vous parlez ne fut qu'un artifice</l>
+	<l id='42'>Pour vous faire quitter ce honteux exercice</l>
+	<l id='43'>Qui nous perd tous d'honneur. Dom Lope nous l'a dit,</l>
+	<l id='44' part='i'>Tout le monde en murmure, ah mon oncle !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='44' part='f'>Suffit.</l>
+	<l id='45'>Dom Lope et tout le monde envieux de ma gloire,</l>
+	<l id='46'>Voudraient de mes hauts faits étouffer la mémoire :</l>
+	<l id='47'>Quantité d'Enchanteurs ont le même dessein ;</l>
+	<l id='48'>Mais je leur ferai voir qu'ils travaillent en vain :</l>
+	<l id='49'>Celui qui prend le soin de mes exploits de guerre,</l>
+	<l id='50'>Doit porter mon renom aux deux bouts de la terre,</l>
+	<l id='51'>Vos pleurs et vos conseils sont ici superflus,</l>
+	<l id='52'>Cessez de vous troubler, et ne me troublez plus.</l>
+	<l id='53'>Il faut, il faut que j'aille où la gloire m'appelle,</l>
+	<l id='54'>Infantes je m'en vais prendre votre querelle,</l>
+	<l id='55'>Princes dépossédés je cours vous rétablir,</l>
+	<l id='56'>Orphelins, mon secours ne vous saurait faillir,</l>
+	<l id='57'>En vain pour divertir une si belle envie,</l>
+	<l id='58'>On me veut faire prendre un autre train de vie.</l>
+	<l id='59'>Infantes, Orphelins, Princes ne craignez rien,</l>
+	<l id='60'>On ne peut me forcer, je m'échapperai bien.</l>
+	<l id='61'>Fussé-je dans la tour où la fille d'Acrise</l>
+	<l id='62'>Par le Dieu Jupiter fut autrefois surprise ;</l>
+	<l id='63'>Fussé-je au labyrinthe où logeait autrefois</l>
+<note type="L">Pasiphée : (Pasiphae) fille d'Apollon et d ela nymphe Perséis, fut épousée par Minos, dont elle eut un fis, Androgée, et deux files Ariane et Phèdre. Selon la Fable, elle eut avec un beau taureau blanc un commerce monstrueux d'où provint le Minotaure. [B]</note>
+	<l id='64'>Le fils de Pasifée et l'horreur de Crétois ;</l>
+	<l id='65'>Fussé-je dans le fonds des cachots effroyables</l>
+	<l id='66'>Des corsaires d'Arger, parmi ces misérables</l>
+	<l id='67'>Qui languissent captifs dans la honte des fers</l>
+	<l id='68'>Au bord de la mer Noire ou plutôt aux enfers :</l>
+	<l id='69'>Ce bras, ce puissant bras, ce père de miracles</l>
+	<l id='70'>Sera plus fort cent fois que les plus forts obstacles.</l>
+	<l id='71'>Je vous le dis encor infantes, orphelins,</l>
+	<l id='72'>Vos astres n'auront plus des aspects si malins,</l>
+	<l id='73'>Malgré les enchanteurs qui me livrent la guerre,</l>
+	<l id='74'>De vos persécuteurs j'irai purger la terre ;</l>
+	<l id='75'>Le sort en est jetté, rien ne peut m'arrêter.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Dom Lope, Le Barbier, Dom Quichotte, Sa Nièce.</head>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='76'>Dom Lope et le Barbier vous viennent visiter,</l>
+	<l id='77'>Messieurs, mon oncle sort retenez-le de grâce,</l>
+	<l id='78'>Et sauvez aujourd'hui l'honneur de notre race.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='79' part='i'>Vous m'obligez beaucoup.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='79' part='f'>Vous allez donc partir ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='80'>Vos seuls commandements m'en peuvent divertir,</l>
+	<l id='81'>C'est trop, c'est trop souffrir que l'injuste licence</l>
+	<l id='82'>Des géants orgueilleux opprime l'innocence,</l>
+	<l id='83'>C'est trop rester oisif dans ce siècle maudit,</l>
+	<l id='84'>Où le vice commande avec tant de crédit,</l>
+	<l id='85'>Où l'on ne voit par tout que villes désolées,</l>
+	<l id='86'>Que Princes exilés, qu'infantes violées.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='87'>Mais quel remède enfin pouvez-vous apporter</l>
+	<l id='88' part='i'>À ces malheurs communs ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='88' part='f'>Il n'en faut plus douter,</l>
+	<l id='89'>Le bonhomme mourra dans son extravagance.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='90'>Ma nièce en cet endroit pèche par ignorance,</l>
+	<l id='91'>Elle n'a jamais leu les insignes exploits</l>
+	<l id='92'>Des Chevaliers errants, de qui je suis les lois,</l>
+	<l id='93'>J'en connais plus de cent dont le moindre a fait tête</l>
+	<l id='94'>À dix mille géants armés pour sa défaite,</l>
+	<l id='95'>Et qui sans se peiner à coups de coutelas</l>
+	<l id='96'>Leur a dans un matin coupé jambes et bras.</l>
+	<l id='97'>Que n'a point fait Rolland pour l'amour d'Angélique ?</l>
+	<l id='98'>( Il avait tort pourtant puisqu'elle était lubrique. )</l>
+	<l id='99'>Que n'a point fait encor Renaud de Montauban,</l>
+	<l id='100'>Richard, Roger de Grece, et son frère Artaban ;</l>
+<note type="L">Amadis de Gaule : dit le Chavalier au Lion, Le Beau Brun, héros de Chavalerie, était fis de Périon, roi fabuleux de France. [B]</note>
+	<l id='101'>Mais sur tous Amadis lorsqu'il avait des armes</l>
+	<l id='102'>Qui pouvaient résister à la force des charmes?</l>
+	<l id='103'>On leur a vu souvent abattre à coups de main</l>
+	<l id='104'>Des murs que les béliers avoient battus en vain.</l>
+	<l id='105'>Mais ce n'était que jeu pour les simples novices,</l>
+	<l id='106'>Ils avaient bien encor de plus durs exercices ;</l>
+	<l id='107'>J'ai vu Gerileon à l'âge de quinze ans</l>
+	<l id='108'>Couper d'un petit coup la tête à six géants,</l>
+	<l id='109'>Géants aussi bien faits qu'il en soit dans l'histoire,</l>
+	<l id='110'>Je vous les dépeindrai si j'ai bonne mémoire.</l>
+	<l id='111'>Comme deux grosses tours leurs jambes paraissaient,</l>
+	<l id='112'>Leurs cuisses et leur corps à mesure croissaient ;</l>
+	<l id='113'>Leurs bras longs d'une lieue allaient frappant les nues,</l>
+	<l id='114'>Armés de coutelas et de fortes massues,</l>
+	<l id='115'>Dont la moindre égalait la grandeur d'un clocher :</l>
+	<l id='116'>En chacun de leurs yeux on voyait un bûcher</l>
+	<l id='117'>Tel que celui qu'Hercule en sa fureur extrême</l>
+<note type="L">OEta : Montagne de la Grèce, sur les confins e la Thessalie, de la Phocide et de la Doride, près du Golfe Maliaque et des Thermopyles. C'est là que, selon la Fable, Hercule monta sur un bûcher. [B]</note>
+	<l id='118'>Alluma sur OEta pour se brûler soi-même,</l>
+	<l id='119'>Leurs corps étaient de pierre et leurs armes d'acier ;</l>
+	<l id='120'>Ce jeune homme pourtant les sut humilier,</l>
+	<l id='121'>D'un seul coup de sa main il les mit tous en poudre.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='122' part='i'>Le coup fut bien joli.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='122' part='f'>L'on soupçonna le foudre</l>
+	<l id='123'>D'avoir favorisé ce jeune combattant.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='124' part='i'>Ce n'est pas sans sujet.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='124' part='f'>On se trompait pourtant,</l>
+<note type="L">Osiris : Dieu égyptien, naquit de lui-même, eut pour femme Isis, sa soeur jumelle, et pour fils Horus. [B]</note>
+	<l id='125'>Il est vrai qu'Osiris l'assista par ses charmes.</l>
+	<l id='126'>Je ne vous dirai rien des progrès de mes armes,</l>
+	<l id='127'>Vous les avez pu voir, tout le monde les sait,</l>
+	<l id='128'>Gerileon fit bien, et je n'ai pas mal fait.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='129' part='i'>Il est tout achevé.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='129' part='f'>Ramenez-le de grâce.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='130'>L'ennemi d'Amadis, et de toute sa race,</l>
+	<l id='131'>L'enchanteur Archelaus traverse mes desseins,</l>
+	<l id='132'>Mais ses enchantements sont moins forts que mes mains,</l>
+	<l id='133'>Il changea l'autre jour par un excès d'envie</l>
+	<l id='134'>Trente géants armés, à qui j'ôtai la vie,</l>
+	<l id='135'>En autant de moulins, à dessein d'étouffer</l>
+	<l id='136'>L'honneur que l'on m'eût fait m'en voyant triompher :</l>
+	<l id='137'>Deux jours après cela, je défis une armée,</l>
+	<l id='138'>Déjà de tous côtés volait ma renommée ;</l>
+	<l id='139'>Quand ce traître changea pour me faire enrager</l>
+	<l id='140'>Les soldats en moutons, et leur Chef en berger.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='141' part='i'>Cet enchanteur a tort.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='141' part='f'>Il fait de grands miracles,</l>
+	<l id='142'>Et je crois qu'après tout de si puissants obstacles</l>
+	<l id='143'>Ne vous sont opposés que pour vous divertir</l>
+	<l id='144'>De ce dessein fatal qui vous force à partir :</l>
+	<l id='145'>Vous y devriez penser, et craindre la Magie.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='146'>Barbier, ce fait ici n'est pas de chirurgie,</l>
+	<l id='147'>Et nos armes aussi ne se ressemblent pas,</l>
+	<l id='148'>Vous portez un rasoir, je porte un coutelas.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='149'>Je n'y vois pas pourtant beaucoup de différence,</l>
+	<l id='150'>Je porte la lancette, et vous portez la lance,</l>
+<note type="L">Armet : Casque, ou habillement de tête. Ce mot vient par diminution de helmette par corruption , pour elmet ; ou de elmetto, comme qui diroit, petit heaume. Pasquier dit que ce mot n'est venu en usage que sous François I. [F]</note>
+<note type="L">Bassin de barbier : est un bassin à bord large et échancré, qui lui sert à faire la barbe, et à mettre ses enseignes. On appelle aussi bassin de chambre, un bassin creux propre à recevoir des excréments, particulièrement de smalades. [F]</note>
+	<l id='151'>Et votre digne armet tient fort de mon bassin.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='152'>Ne le prenez pas là, c'est l'armet de Membrin.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='153' part='i'>Suffit, vous le savez.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='153' part='f'>C'est trop vous contredire :</l>
+	<l id='154'>Que le grand Dom Quichotte fasse ce qu'il désire,</l>
+	<l id='155'>Je ne l'arrête plus, allez vaillant Héros,</l>
+	<l id='156'>Ainsi votre travail soit suivi du repos,</l>
+	<l id='157'>Ainsi vos beaux exploits secondent votre attente ;</l>
+	<l id='158'>Ainsi puissiez-vous voir cette bande arrogante</l>
+	<l id='159'>D'enchanteurs mise à bas ; et puisse ainsi toujours</l>
+	<l id='160'>L'Infante Dulcinée approuver vos amours.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='161' part='i'>Monsieur que faites-vous ?</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='161' part='f'>N'en soyez pas en peine,</l>
+	<l id='162' part='i'>Je l'arrêterai bien, écoutez.</l>
+<stage>Il parle à l'oreille de la nièce et du barbier.</stage>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='162' part='f'>Ah ma Reine.</l>
+	<l id='163'>Dois-je attendre ce bien de vos rares bontés ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='164'>Ce dessein me ravit. Partez, Seigneur, partez.</l>
+	<l id='165'>Ainsi Sanche jamais à votre grand dommage</l>
+	<l id='166'>Dans ce casque ou bassin ne mange du fromage !</l>
+	<l id='167'>Ainsi jamais lion ne vous veuille assaillir !</l>
+	<l id='168'>Ainsi jamais le pain ne vous puisse faillir !</l>
+	<l id='169'>Rencontriez-vous toujours ou châteaux ou taverne</l>
+<note type="L">Pelauder : terme bas et populaire, qui signifie, battre à coups de poings, ou de main. [F]</note>
+	<l id='170'>Sans que l'on vous y pelaude, ou que l'on vous y berne !</l>
+	<l id='171'>Ainsi jamais forçats ne vous mettent à nu :</l>
+	<l id='172'>Que le grison de Sanche enfin soit reconnu,</l>
+	<l id='173'>Qu'on le lui rende sain et tout parfumé d'ambre,</l>
+<note type="L">More : [maure] homme noir ou femme noire, nés en une région d'Afrique appelée la Mauritanie. [F]</note>
+	<l id='174'>Jamais more enchanté n'approche votre chambre</l>
+	<l id='175'>Pour vous ravir l'Infante, et troubler le repos !</l>
+	<l id='176'>Que jamais muletier ne vous froisse les os :</l>
+	<l id='177'>Mais qu'enfin triomphant, et suivi d'Hymenée</l>
+	<l id='178'>Vous puissiez revenir couronner Dulcinée.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Sanche, Dom Quichotte, Dom Lope, Le Barbier et la nièce.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='179'>Maudite ambition, que voulez-vous de moi !</l>
+	<l id='180' part='i'>Où me conduisez-vous ?</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='180' part='f'>Ah méchant est-ce toi ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='181'>Je ne suis pas méchant, mais je suis Sanche Pance,</l>
+	<l id='182' part='i'>Vous me connaissez bien.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='182' part='f'>As-tu bien l'impudence</l>
+	<l id='183'>De revenir encor dedans cette maison ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='184' part='i'>Pourquoi m'outragez-vous ?</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='184' part='f'>Parce que j'ai raison,</l>
+	<l id='185' part='i'>N'est-ce pas toi maudit ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='185' part='f'>Ah ! Trêve à ces injures.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='186'>Ne fais-tu point courir après les aventures</l>
+	<l id='187'>Ton maître que voilà ? ne l'as-tu point mené</l>
+	<l id='188'>Dans des déserts affreux comme un esprit damné ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='189'>Ah, n'était le respect que je dois à mon maître,</l>
+	<l id='190'>Deux ou trois coups de poing vous feraient bien connaître</l>
+	<l id='191'>Que vous vous méprenez : c'est lui qui me conduit</l>
+	<l id='192'>Dans des mondes déserts et de jour et de nuit,</l>
+	<l id='193'>Je ne fais que le suivre avec beaucoup de peine</l>
+	<l id='194'>Aux malheureux endroits où le Diable le mène ;</l>
+	<l id='195'>C'est moi qui suis enfin le séduit, le mené,</l>
+	<l id='196'>Le froissé, le trompé, le battu, le berné,</l>
+	<l id='197'>Et tout pour aborder à cett'isle promise</l>
+	<l id='198'>Que je dois gouverner et qui n'est pas conquise ;</l>
+	<l id='199' part='i'>J'enrage quand j'y pense.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='199' part='f'>Ah, Sanche c'est assez,</l>
+	<l id='200'>Vous serez satisfait de vos travaux passés :</l>
+	<l id='201'>Cependant retenez votre langue indiscrète.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='202'>Mais qu'est-ce que cett'île, est-ce donc quelque bête ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='203'>Nenni c'est un Royaume où je dois gouverner :</l>
+	<l id='204'>Mais Monsieur le Barbier, c'est trop nous lanterner,</l>
+	<l id='205'>Vous dussiez respecter des gens de notre sorte.</l>
+	<l id='206'>Monseigneur, commandez que tout le monde sorte.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='207'>Nous allons obéir sans ce commandement.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='208'>Cette civilité m'oblige infiniment.</l>
+</sp>
+<sp who='LA NIÈCE'><speaker>LA NIÈCE.</speaker>
+	<l id='209'>Ils s'en vont comploter leur troisième saillie.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='210'>Nous les suivrons de près pour guérir leur folie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Sanche, Dom Quichotte.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='211'>Enfin après avoir querellé bien des fois,</l>
+	<l id='212'>J'ai disposé ma femme à ce que je voulais,</l>
+	<l id='213'>Elle ne se plaint plus de voir que je la quitte.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='214' part='i'>Nous pouvons donc partir.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='214' part='f'>Non pas encor si vite ;</l>
+	<l id='215'>Elle m'a conseillé qu'au moins à tout hasard</l>
+	<l id='216'>J'écrivisse avec vous avant notre départ,</l>
+	<l id='217'>Et quoi qu'on puisse dire, on est digne de blâme</l>
+	<l id='218'>De mépriser toujours les conseils d'une femme,</l>
+	<l id='219'>La mienne en cet endroit parle avec jugement.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='220'>Mais quel est ce conseil dites-le clairement.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='221'>Vous savez que la mort ne respecte personne,</l>
+	<l id='222'>Et qu'il faut malgré nous vouloir ce qu'elle ordonne, </l>
+<note type="L">Jaquemard : terme d'horlogerie. C'est une figure de fer ou de fonte, représentant un homme armé, qu'on met sur les horloges, avec un marteau à la main, pour frapper le timbre, et marquer les heures. [F]</note>
+	<l id='223'>Fussiez-vous mieux armé que n'est un Jaquemard,</l>
+	<l id='224'>Vous ne sauriez parer la pointe de son dard ;</l>
+	<l id='225'>Lors que moins on y pense elle nous vient surprendre,</l>
+	<l id='226'>Et le même Amadis ne s'en peut pas défendre ;</l>
+	<l id='227'>Tant d'autres Chevaliers que je n'ai pas connus,</l>
+	<l id='228'>Dont vous m'avez parlé, que sont-ils devenus ?</l>
+	<l id='229'>Ils ont subi la loi qu'il nous faudra tous suivre,</l>
+	<l id='230'>On les a vu mourir, si l'on les a vu vivre :</l>
+	<l id='231'>( Car pour ce dernier point, il m'est un peu suspect. )</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='232'>Taisez-vous ou parlez avec plus de respect.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='233'>Je dis donc que la mort cette vieille damnée</l>
+	<l id='234'>Vous peut exterminer dans une matinée,</l>
+	<l id='235'>Et ce coup quoi que grand ne me surprendrait pas ;</l>
+	<l id='236'>Car sa faux tranche mieux que votre coutelas.</l>
+	<l id='237'>En vain contre sa force on oppose les charmes</l>
+	<l id='238'>Que les magiciens marmottent sur les armes,</l>
+<note type="L">Durandal : épée de Roland, paladin de Charlemagne, qui fendit la montagne à Roncevaux.</note>
+	<l id='239'>Le Cimeterre ardent, Flamberge, Durandal</l>
+	<l id='240'>Qui coupaient comme beurre, acier, marbre et métal,</l>
+	<l id='241'>Et tant d'autres encor dont vous parlez sans cesse,</l>
+	<l id='242'>N'ont eu de quoi tenir contre cette diablesse.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='243'>Enfin à quel dessein tendent tous ces discours ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='244'>Tous ceux qui les portaient ont vu finir leurs jours,</l>
+	<l id='245'>Et malgré leurs armets, leurs lances et leurs brettes,</l>
+	<l id='246'>Ces fendeurs de naseaux sont morts comme des bêtes.</l>
+	<l id='247'>Mais ce qui plus m'étonne, est de voir que sans chois</l>
+	<l id='248'>La mort fauche en tout temps les sujets et les Rois,</l>
+	<l id='249'>Le sage avec le fou, le pauvre avec le riche,</l>
+	<l id='250'>Le maître et l'écuyer, le prodigue et le chiche,</l>
+	<l id='251'>Le jeune et le vieillard, le malade et le sain,</l>
+	<l id='252'>Le lâche et le vaillant, le noble et le vilain,</l>
+	<l id='253'>Le plus petit ânon comme le plus grand âne,</l>
+	<l id='254'>Et dedans un château comme en une cabane.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='255'>Sanche venons au point, c'est par trop discourir.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='256'>Ayant donc reconnu qu'il nous faut tous mourir,</l>
+	<l id='257' part='i'>Ma femme trouve bon.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='257' part='f'>Parle donc, que veut-elle ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='258' part='i'>Elle veut.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='258' part='f'>Tes discours me rompent la cervelle,</l>
+	<l id='259' part='i'>Abrège si tu peux ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='259' part='f'>Monsieur, ma femme veut.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='260'>C'est être bien prudent de vouloir ce qu'on peut :</l>
+	<l id='261' part='i'>Mais parle si tu veux.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='261' part='m'>Monsieur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='261' part='m'>Parle.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='261' part='f'>J'enrage ;</l>
+	<l id='262' part='i'>Laissez-moi donc parler.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+<note type="L">Caquet : Abondance de paroles inutiles qui n'ont point de solidité. [F] </note>
+	<l id='262' part='f'>Tant de caquet m'outrage ;</l>
+	<l id='263' part='i'>Achève donc maudit ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='263' part='f'>Laissés-moi commencer :</l>
+	<l id='264' part='i'>Ma femme a donc pensé.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='264' part='f'>Qu'a-t-elle pu penser ?</l>
+	<l id='265' part='i'>Qu'est-ce ? Parle et soi bref.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='265' part='f'>Ah Dieu que j'ai de peine !</l>
+	<l id='266' part='i'>C'est.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='266' part='m'>Quoi ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='266' part='f'>C'est ce que c'est, laissez-moi prendre haleine.</l>
+	<l id='267'>Malheureux que je suis ; j'ai l'esprit tout confus !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='268' part='i'>Mais qu'est-ce parle enfin ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='268' part='f'>Il ne m'en souvient plus ;</l>
+	<l id='269'>Voilà le bel effet de votre impatience.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='270'>Dites plutôt celui de votre impertinence.</l>
+	<l id='271'>Si tout du premier coup vous m'eussiez raconté</l>
+	<l id='272'>Ce qu'on vous avait dit, je vous eusse écouté ;</l>
+	<l id='273'>Mais puisque le désir d'exercer votre langue</l>
+	<l id='274'>Vous a fait dégorger cette belle harangue,</l>
+	<l id='275'>Que vous n'avez rien dit de ce que vous deviez</l>
+	<l id='276'>Lorsque je le voulais et que vous le pouviez :</l>
+	<l id='277'>Votre punition me semble légitime,</l>
+	<l id='278'>Et même de beaucoup moindre que votre crime :</l>
+	<l id='279'>Or parlés à cett'heure en toute liberté.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='280'>C'est, ce n'est pas cela, je me suis mécompté ;</l>
+	<l id='281'>Et de grâce, Monsieur, aidés à ma mémoire.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='282'>Tu parlais de ta femme, et qu'il la fallait croire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='283'>Ah bon ! Je m'en souviens, ma femme m'a donc dit</l>
+	<l id='284'>Que je ne devais pas m'engager à crédit,</l>
+	<l id='285'>Et qu'en attendant l'île ou bien quelque Royaume,</l>
+<note type="L">Dais : meuble précieux qui sert de parade et de titre d'honneur chez les princes et les ducs. [F]</note>
+	<l id='286'>Qui doit changer en dais mon pauvre toit de chaume,</l>
+	<l id='287'>Il serait à propos pour nourrir mes enfants</l>
+	<l id='288'>Que vous m'assignassiez des gages tous les ans.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='289'>Des gages ignorant ! Il est facile à croire</l>
+	<l id='290'>Que ta femme ni toi n'avez point lu l'Histoire ;</l>
+	<l id='291'>Voyez les Amadis, les Platirs, les Renauds,</l>
+	<l id='292'>L'Archevêque Turpin, Tirante, Ronceveaux,</l>
+	<l id='293'>Tous les trois Palmerins, Bernard de Straparole,</l>
+	<l id='294'>El Cavalié del Phoebe, Olivante, Gilpole,</l>
+	<l id='295'>Roland le Furieux, Splendian, Philismard,</l>
+<note type="L">Aymon (le duc) : Prince des Ardennes, saxon d'origine, obtint de Charlemagne le gouvernement du pays dont Albi était la capitale, avec le titre de Duc de Dordogne, et fut père des quatre preux que nos romanciers ont célébré sous les nom des quatre fils d'Aymon. Ils avaient pour nom Renaud, Guichard, Alard, Richardet, il possédaient en commun, selon la légende, un seul cheval ; devenu célèbre sous le nom de Bayard. [B]</note>
+	<l id='296'>Les quatre fils d'Aymon, Jean de Paris, Richard,</l>
+	<l id='297'>Morgand, Robert le Diable, et Pierre de Provence ;</l>
+	<l id='298'>Et vous condamnerez votre crasse ignorance.</l>
+	<l id='299'>Car vous n'y verrés point que jamais Chevalier</l>
+	<l id='300'>Ait traité de la sorte avec son Écuyer,</l>
+	<l id='301'>Et je ne voudrais pas, pour plaire à votre femme,</l>
+	<l id='302'>Contrevenir à l'ordre, et me charger de blâme :</l>
+	<l id='303' part='i'>Non, je n'en ferai rien.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='303' part='m'>Monsieur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='303' part='f'>N'en parlons plus.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='304'>Je me contenterai de deux cens mil écus ;</l>
+	<l id='305'>C'est peu pour un grand Roi, tel que vous devez être.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='306'>Si vous me servez bien je vous dois reconnaître,</l>
+	<l id='307'>Ne vous mêlez de rien, reposez-vous sur moi,</l>
+	<l id='308'>Je vous donnerai l'île, ou je vous ferai Roi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='309'>Dieu le veuille ! À propos, dites-moi je vous prie</l>
+	<l id='310'>Si par quelque accident de la Chevalerie</l>
+	<l id='311'>Je puis devenir Roi, comme je le prétends,</l>
+	<l id='312'>Ma femme sera Reine, et mes fils Infants.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='313' part='i'>Qui doute de cela ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='313' part='f'>Moi, j'en doute et je pense</l>
+	<l id='314'>Que c'est un peu beaucoup pour monsieur Sanche Pance.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='315'>D'une telle façon le dé pourrait tourner</l>
+	<l id='316'>Que j'aurais dans trois jours cent îles à donner ;</l>
+	<l id='317' part='i'>Et si je les avais.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='317' part='f'>Vous m'en donneriez une.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='318'>Assuré que je suis de ma bonne fortune</l>
+	<l id='319' part='i'>Je te donnerais tout.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='319' part='f'>Que de biens à la fois !</l>
+	<l id='320'>Partons Monsieur, partons, allons nous faire Rois.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='321' part='i'>Soyez prêt dans une heure.</l>
+<stage>Dom Quichotte se retire.</stage>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='321' part='f'>Ah le généreux maître !</l>
+	<l id='322'>Ah le brave écuyer si ce qu'il dit peut être !</l>
+	<l id='323'>Mais qui l'empêcherait ? Le Diable qui m'en veut :</l>
+	<l id='324'>Mais comment l'empêcher ? Non cela ne se peut,</l>
+	<l id='325'>Dom Quichotte l'a juré sur le bout de sa lance,</l>
+	<l id='326'>Est-ce assez que cela ? C'est bien ce que je pense :</l>
+	<l id='327' part='i'>Mais voici ma Thérèse.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Thérèse, Sanche.</head>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='327' part='f'>Eh bien tu vas partir ?</l>
+	<l id='328'>Tu vas donc me quitter ! Y peux-tu consentir ?</l>
+	<l id='329'>Que ferai-je sans toi ? Comment pourrai-je vivre ?</l>
+	<l id='330'>Ah ! Ne pars point, mon Sanche, ou laisse-moi te suivre.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='331' part='i'>Apaise tes douleurs.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='331' part='m'>Ah Sanche !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='331' part='f'>Laisse-moi.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='332' part='i'>Où veux-tu donc aller ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='332' part='f'>Je vais me faire Roi :</l>
+	<l id='333'>Nous l'avons résolu, la chose est bien certaine :</l>
+	<l id='334'>Mais comme dans la vie on n'a nul bien sans peine,</l>
+	<l id='335'>Il faut que je te quitte, aimable et cher souci,</l>
+	<l id='336'>Les Écuyers errants doivent parler ainsi.</l>
+	<l id='337'>Le Ciel jaloux de voir nos ardeurs infinies,</l>
+	<l id='338'>Veut séparer les corps de deux âmes unies :</l>
+	<l id='339'>Hélas que ce destin est rempli de rigueur !</l>
+	<l id='340'>Il m'offre une couronne, et m'arrache le coeur :</l>
+	<l id='341'>Ainsi parle mon maître avec la Dulcinée.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='342' part='i'>Mais quand reviendrez-vous ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='342' part='f'>Sur la fin de l'année.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='343'>Songez au moins à moi, songez à vos enfants,</l>
+	<l id='344'>Votre fille Sanchique aura bientôt vingt-ans,</l>
+	<l id='345' part='i'>Il faut la marier.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='345' part='f'>Puisque rien ne nous presse,</l>
+	<l id='346'>Je veux attendre encor pour la faire Comtesse.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='347' part='i'>Comtesse, ah Dieu !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='347' part='m'>Comtesse.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='347' part='f'>Ah gardez-vous-en bien !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='348' part='i'>Et pour quelle raison ?</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='348' part='f'>Pour notre commun bien.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='349'>Quel mal peut procéder d'une belle alliance,</l>
+	<l id='350'>D'avoir des petits fils qu'on traite d'excellence,</l>
+	<l id='351'>D'Altesse, de Grandeur, et de voir tous les jours</l>
+	<l id='352'>Sanchique avec un Comte et parmi le velours ?</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='353'>Les maux que je prévois de ce grand mariage,</l>
+	<l id='354'>Sont un tas de discours qu'en fera le village :</l>
+	<l id='355'>Voyez, dira quelqu'un, cette Comtesse-ci,</l>
+	<l id='356'>Ce n'est que de trois jours qu'elle s'habille ainsi ;</l>
+	<l id='357'>Je l'ai vu se parer d'une toile grossière,</l>
+	<l id='358'>Son père est bûcheron, sa mère lavandière,</l>
+	<l id='359'>Un méchant toit de chaume et deux ânes fort vieux,</l>
+	<l id='360'>Composent tous les biens qu'ils ont de leurs aïeux.</l>
+	<l id='361'>Ah mon Sanche ! Évitons un si sanglant reproche,</l>
+	<l id='362'>Donnons plutôt Sanchique au jeune Lope Toche,</l>
+	<l id='363'>C'est un bon gros garçon qui lui fait les yeux doux,</l>
+	<l id='364'>Son père est bûcheron, et paysan comme vous.</l>
+	<l id='365'>Pensez-y, mon mari, c'est dans cette famille</l>
+	<l id='366'>Qu'il faut que nous tâchions à loger notre fille,</l>
+	<l id='367'>Non pas dans des palais et parmi le tracas,</l>
+	<l id='368'>Où la moitié du temps on ne l'entendrait pas,</l>
+	<l id='369'>Où le Comte sans doute à la moindre colère</l>
+	<l id='370'>Lui mettrait sur le nez sa maison et son père,</l>
+	<l id='371'>L'appellerait paysanne, et de mille autres noms</l>
+	<l id='372'>Qui peuvent convenir aux fils des bûcherons.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='373'>N'as-tu plus rien à dire impertinente femme ?</l>
+	<l id='374'>Et quoi ne vois-tu pas que ce sujet de blâme,</l>
+	<l id='375'>Que le Comte mon fils peut avoir contre moi,</l>
+	<l id='376'>Cesse dès aussitôt qu'on me couronne Roi ?</l>
+	<l id='377'>N'en parlons plus, suffit, elle sera Comtesse,</l>
+	<l id='378'>Et si vous me fâchez je la ferai Princesse.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='379'>Vous pouvez la pourvoir encor plus hautement,</l>
+	<l id='380'>Mais ce ne sera pas de mon consentement,</l>
+	<l id='381'>Et je fais mon état que je la verrai morte</l>
+	<l id='382'>Quand vous me contraindrez de la voir de la sorte.</l>
+	<l id='383' part='i'>Ah Sanche !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='383' part='f'>C'est en vain que vous versez des pleurs.</l>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='384' part='i'>Quoi n'obtiendrai-je rien ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='384' part='f'>Apaisez vos douleurs,</l>
+	<l id='385'>Et ne résistez plus à ce que je projette,</l>
+	<l id='386'>Comme Roi prétendu, vous êtes ma sujette ;</l>
+	<l id='387'>Comme mari ma femme, et je ne dis rien plus.</l>
+<stage>Il se retire.</stage>
+</sp>
+<sp who='THÉRÈSE'><speaker>THÉRÈSE.</speaker>
+	<l id='388'>Tous mes empêchements sont ici superflus,</l>
+	<l id='389'>Il faut pauvre Sanchique, ô comble de tristesse !</l>
+	<l id='390'>Il faut pour mon malheur que vous soyez Comtesse :</l>
+	<l id='391'>Nos maris peuvent tant sur nous et sur nos biens,</l>
+	<l id='392'>Qu'il leur faut obéir quand ils seraient des chiens.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Dom Lope, sous l'habit du Chevalier des Miroirs ; Le Barbier, son Écuyer.</head>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='393'>Il faut l'attendre ici de crainte qu'il s'éloigne.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='394'>Nous allons commencer une étrange besogne.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='395' part='i'>Facile.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='395' part='m'>Que sait-on ?</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='395' part='f'>L'apparence est pour nous.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='396'>La fortune pourtant aide souvent aux fous.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='397'>C'est véritablement la créance commune,</l>
+	<l id='398'>Mais contre nos desseins que pourrait la fortune.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='399'>Mille coups endiablés qu'on ne saurait prévoir.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='400'>Doutez-vous que mon bras ait manqué de pouvoir</l>
+	<l id='401'>Pour vaincre sans effort ce Héros fantastique?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='402'>J'ai peur que vous aurez besoin de ma boutique,</l>
+	<l id='403'>Les fous comme les sourds frappent horriblement.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='404'>Je ne vous en croirai qu'après l'événement.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='405'>Si nous ne nous taisons cette nuit est si sombre</l>
+	<l id='406'>Qu'ils pourraient s'esquiver à la faveur de l'ombre,</l>
+	<l id='407' part='i'>Il faut.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='407' part='m'>Paix, écoutons.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='407' part='m'>Qu'est-ce ?</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='407' part='f'>J'entends du bruit.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='408' part='i'>Il faut se reculer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Dom Quichotte, Sanche, Dom Lope, Le Barbier.</head>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='408' part='f'>Heureuse et belle nuit !</l>
+	<l id='409'>Quel jour peut t'égaler après cette aventure ?</l>
+	<l id='410'>Tu caches l'oeil de la Nature</l>
+	<l id='411'>Pour faire étinceler en cent lieux différents</l>
+	<l id='412'>L'astre des Chevaliers errants.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='413'>Quel jour, ô belle nuit, peut égaler tes ombres,</l>
+	<l id='414'>Tu vois briller dans ces lieux sombres,</l>
+	<l id='415'>Au lieu du beau Soleil qui règle nos saisons,</l>
+	<l id='416'>L'astre des petites Maisons.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='417'>Heureuse et belle nuit ! Mais cert'un peu trop noire :</l>
+	<l id='418'>Quel jour peut t'égaler en gloire ?</l>
+	<l id='419'>Tu fais voir à la terre en dépit des barbiers</l>
+	<l id='420'>La lanterne des écuyers.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='421'>Heureuse et belle nuit !mais cert'un peu trop noire</l>
+	<l id='422'>Pour faire éclater ma victoire,</l>
+	<l id='423'>Non pas pour m'empêcher d'aller mettre en quartiers</l>
+	<l id='424'>Le plus badin des Écuyers.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='425' part='i'>Monsieur qu'avez-vous dit ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='425' part='f'>Trêve à la raillerie.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='426' part='i'>Je n'ai pas dit un mot.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='426' part='f'>Taisez-vous je vous prie.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='427' part='i'>Vous vous moquez fort bien.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='427' part='f'>Vous vous moquez fort mal :</l>
+	<l id='428'>Suffit, n'en parlons plus, c'est là le principal.</l>
+	<l id='429'>Malgré toute la terre ensemble conjurée</l>
+	<l id='430'>La couronne m'est assurée,</l>
+	<l id='431'>Et je vais mettre à fin tant de nobles projets</l>
+	<l id='432'>Que des Rois seront mes sujets.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='433'>Malgré toute ta bande ensemble conjurée</l>
+	<l id='434'>La marotte t'est assurée,</l>
+	<l id='435'>Et si tu ne reprends le chemin du hameau,</l>
+	<l id='436'>On te suivra comme un chameau.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='437'>Malgré toute la Manche, et quoi qu'on puisse dire,</l>
+	<l id='438'>J'aurai l'île que je désire,</l>
+	<l id='439'>Et ma fille Sanchique aura pour son époux</l>
+	<l id='440'>Un Comte aussi brave que nous.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='441'>Malgré Thérèse Pance, et le projet d'une île</l>
+<note type="L">Vaudeville : chanson que le peuple chante, et qui court toutes les rues. [F]</note>
+	<l id='442'>Tu seras mis au vaudeville,</l>
+	<l id='443'>Et l'on bernera tant Sanchique et tous les tiens,</l>
+	<l id='444'>Qu'ils ne seront pas bons aux chiens.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='445'>Enfin, ma patience est à son point extrême :</l>
+	<l id='446'>Jouez vous donc ainsi votre maître et vous-même,</l>
+	<l id='447' part='i'>Que veut dire cela Sanche ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='447' part='f'>Je n'en sais rien.</l>
+	<l id='448'>Mais j'imagine au moins que vous le savez bien :</l>
+	<l id='449'>A d'autres ce discours et votre moquerie.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='450'>Sanche avez-vous fini cette galanterie?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='451'>Mais vous même Monsieur, quand la finirez-vous ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='452' part='i'>Suffit.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='452' part='f'>Ils vont parler, prenons bien garde à nous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='453'>Et toi Reine des coeurs, parfaite Dulcinée,</l>
+	<l id='454'>Ta vertu sera couronnée,</l>
+	<l id='455'>Malgré les enchanteurs qui choquent mon dessein,</l>
+	<l id='456'>Un sceptre chargera ta main.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='457'>Toi Reine des moutons, grossière Dulcinée,</l>
+	<l id='458'>Je te vois certes destinée,</l>
+	<l id='459'>Si quelque bon voisin ne te donne du pain,</l>
+	<l id='460'>À mourir quelque jour de faim.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='461'>Et toi Thérèse Pance, honneur de ton village,</l>
+	<l id='462'>Crois au moins que je suis bien sage,</l>
+	<l id='463'>Et que dans peu de temps je serai Gouverneur,</l>
+	<l id='464'>Et toi même femme d'honneur.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='465'>Et toi grosse Thérèse, horreur de ton village,</l>
+	<l id='466'>Crois que ton Sanche n'est pas sage,</l>
+	<l id='467'>Et que dans peu de temps s'il ne change de peau,</l>
+	<l id='468'>On l'écorchera comme un veau.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='469'>Écorcher comme un veau ! moi qui suis si bon diable,</l>
+	<l id='470'>Ah mon maître évitons ce présage effroyable !</l>
+	<l id='471' part='i'>Donnez-moi mon congé.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='471' part='f'>D'où vient donc cette voix ?</l>
+	<l id='472'>Ah je vois ! c'est l'Echo qui répond dans ces bois.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='473' part='i'>Tout va bien ; cachons nous.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='473' part='f'>Oui, c'est elle sans doute.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='474'>Je m'en vais lui parler, nous l'entendons, écoute.</l>
+	<l id='475'>Fille de l'air qui vis dans les concavités</l>
+	<l id='476'>Des antres les plus noirs et les plus écartés,</l>
+	<l id='477'>Réponds moi je te prie, est-ce toi qui répètes</l>
+	<l id='478' part='i'>Tout ce que nous disons ?</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, Echo.</speaker>
+	<l id='478' part='f'>Oui, c'est moi grosses bêtes.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='479' part='i'>L'Écho nous connaît-elle ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='479' part='f'>Il faut le confesser ;</l>
+	<l id='480'>Son discours me surprend plus qu'on ne peut penser,</l>
+	<l id='481'>Cette voix qui répond aux plaintes ordinaires</l>
+	<l id='482'>Que poussent les amants dans les lieux solitaires,</l>
+	<l id='483'>N'en répète jamais que les derniers accents,</l>
+	<l id='484'>Et celle-ci renverse et les mots et le sens,</l>
+	<l id='485'>Ici l'enchantement pervertit la Nature.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='486'>Je veux bien pour le moins lui rendre son injure,</l>
+	<l id='487'>Laissez-moi lui parler. Coureuse de remparts</l>
+	<l id='488'>Qui te caches la nuit dans les trous des lézards,</l>
+	<l id='489'>Qui n'habites jamais, ni maison ni cabane,</l>
+	<l id='490' part='i'>Qui t'a conduite ici ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, Echo.</speaker>
+	<l id='490' part='f'>Ta sottise gros âne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='491' part='i'>Me voilà bien payé !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='491' part='f'>Dans cet événement</l>
+	<l id='492'>L'enchanteur Archelaus agit certainement.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='493'>Cet'Echo me déplaît : Mais, Monseigneur, de grâce,</l>
+	<l id='494'>Souffrez encore un coup que je me satisfasse,</l>
+	<l id='495'>Je crains la moquerie en ce rencontre ici.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='496' part='i'>Fais ce que tu voudras.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE, met la main sur la bouche de Dom Quichotte.</speaker>
+	<l id='496' part='f'>Demeurez donc ainsi.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='497' part='i'>Ne me presse pas tant.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+<note type="L">Harangère : femme qui vend du hareng, de la morue, du saumon, et autres salines. On appelle figurément et par ressemblance toutes les femmes fortes en geuele, qui disent des parles, ou qui font des actions sales et insolentes. [F]</note>
+	<l id='497' part='f'>Harengère insolente,</l>
+	<l id='498'>Qui brocardes l'honneur de la milice errante,</l>
+	<l id='499'>Maîtresse des crapauds, des lutins, des hiboux,</l>
+	<l id='500'>Que l'horreur a placés dans les plus sales trous,</l>
+	<l id='501'>Taupe, chauve-souris : compagne des sorcières</l>
+	<l id='502' part='i'>Que dois-je attendre enfin ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, Echo.</speaker>
+<note type="L">Etrivières : Courroie à laquelle est suspendu l'étrier. Au plur. Coups d'étrivières. Recevoir les étrivières. Fig. Tout mauvais traitement qui humilie ou déshonore. [L]</note>
+	<l id='502' part='f'>Mille coups d'étrivières.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='503'>C'est elle assurément, il n'en faut plus douter.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE, met la main sur la bouche de Sanche.</speaker>
+	<l id='504'>Par la même raison je me veux contenter.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='505' part='i'>Ah Dieu ! vous m'étouffez.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='505' part='f'>Tais-toi malheureux homme.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='506' part='i'>Monsieur, je n'en puis plus.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='506' part='f'>Écoute, ou je t'assomme.</l>
+	<l id='507'>Rebut du beau Narcisse, hôtesse de ces bois,</l>
+	<l id='508'>Nymphe de qui le corps n'est plus rien qu'une vois</l>
+	<l id='509'>Trop babillarde. Écho, fais-moi savoir encore</l>
+	<l id='510' part='i'>Si c'est toi qui réponds.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='510' part='f'>Oui, oui, c'est moi pécore.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='511' part='i'>Et bien qu'en dites-vous ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='511' part='f'>Je veux un peu rêver.</l>
+	<l id='512'>C'est dans les Amadis que j'en pourrais trouver</l>
+	<l id='513'>Premier, second, troisième , ou dans Robert le Diable.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='514'>Il parle à des démons, que je suis misérable !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='515'>Renauld dans le château, Tirante dans les bois,</l>
+	<l id='516'>Gerileon sous terre est servi par des voix :</l>
+	<l id='517' part='i'>Richard et ses Esprits.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='517' part='f'>Je frissonne ! je tremble !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='518'>Tous ces évènements n'ont rien qui lui ressemble ;</l>
+	<l id='519'>Si je ne suis trompé, je le découvre enfin</l>
+	<l id='520'>Le Chevalier des morts suivi par un lutin.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='521' part='i'>Hélas je suis perdu !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='521' part='f'>La seule différence</l>
+	<l id='522'>Est que son lutin l'aime, et cette voix m'offense.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='523' part='i'>Monsieur, que faites-vous ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='523' part='f'>Je passe de l'esprit</l>
+	<l id='524'>Sur tous les accidents que j'ai vus par écrit,</l>
+	<l id='525'>Pour voir si je pourrais trouver quelque fortune</l>
+	<l id='526'>Semblable à celle-ci, mais je n'en trouve aucune.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='527'>Me voilà délivré de ma nouvelle peur :</l>
+	<l id='528'>Monsieur, éloignons-nous de ce lieu plein d'horreur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='529' part='i'>Je le veux, allons donc.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='529' part='f'>Ils s'échappent sans doute.</l>
+	<l id='530' part='i'>Commencez.</l>
+<stage>Dom Lope joue de la guitare.</stage>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='530' part='m'>Qui va là ? Monsieur !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='530' part='f'>Poltron, écoute.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, chante.</speaker>
+	<l id='531'>Errerai-je toujours dans ce désert sauvage</l>
+	<l id='532'>A la merci des loups</l>
+	<l id='533'>Moins bêtes que vous,</l>
+	<l id='534'>Sans voir fléchir votre courage,</l>
+	<l id='535'>Comme je vois leur rage</l>
+	<l id='536'>Se changer en respect</l>
+	<l id='537'>à mon aspect, à mon aspect, à mon aspect ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='538'>Cett'Echo, cette voix qui demeure sous terre,</l>
+<note type="C">v. 539, on lit "guiterre" à la rime dans l'édition originale.</note>
+	<l id='539'>Et qui parlait tantôt, a-t-elle une guitare ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='540'>Paix, ce n'est pas l'Écho, c'est plutôt un amant</l>
+	<l id='541'>Qui se plaint de sa dame avec cet instrument.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='542'>Pour vous j'ai prodigué tout le sang de mes veines</l>
+	<l id='543'>Dans l'horreur des combats,</l>
+	<l id='544'>J'ai rompu les bras</l>
+	<l id='545'>À plus de mille Capitaines :</l>
+	<l id='546'>J'ai fait mourir des Reines</l>
+	<l id='547'>Qui brûlaient nuit et jour</l>
+	<l id='548'>De mon amour, de mon amour, de mon amour.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='549'>Quel grand Diable voilà, laissons-le je vous prie.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='550'>Ne m'importune plus par ta poltronnerie.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='551'>Si nous ne décampons, il nous rompra les bras.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='552'>Traître, vous êtes mort si vous faites un pas.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='553'>Pour mon amour se meurt l'Infante Dulcinée,</l>
+	<l id='554'>Et le grand Dom Quichotte</l>
+	<l id='555'>Vaincu comme un sot,</l>
+	<l id='556'>Depuis trois jours me l'a donnée ;</l>
+	<l id='557'>Je l'ai pourtant abandonnée</l>
+	<l id='558'>À l'amoureux courroux</l>
+	<l id='559'>De cent filous, de cent filous, de cent filous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='560'>L'imposture en ce point aggrave l'insolence.</l>
+	<l id='561' part='i'>Qui va là ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='561' part='m'>Je suis mort.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='561' part='f'>Qui va là ? ça ma lance.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='562'>Ô vous qui me troublez dans mes tristes soupirs !</l>
+	<l id='563'>Si vous avez un coeur sensible aux déplaisirs,</l>
+	<l id='564'>Approchez-vous de moi pour apprendre une histoire</l>
+	<l id='565'>Dont les siècles futurs garderont la mémoire,</l>
+	<l id='566'>Et qui fera pleurer pendant plus de mille ans</l>
+	<l id='567'>Les femmes de village et les petits enfants.</l>
+<stage>Parlant au Barbier.</stage>
+	<l id='568'>Amusés l'Écuyer, j'écarterai le maître.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='569'>Arrêtez Chevalier, je vous ai vu paraître,</l>
+	<l id='570' part='i'>Où se dressent vos pas ?</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='570' part='f'>Je vais chercher la mort</l>
+	<l id='571'>Comme le seul remède aux rigueurs de mon sort,</l>
+	<l id='572'>Après avoir gagné vingt batailles rangées,</l>
+	<l id='573'>Après avoir forcé cent villes assiégées,</l>
+	<l id='574'>Conservé la couronne à plus de mille Infants,</l>
+	<l id='575'>Blessé des Enchanteurs, assommé des Géants,</l>
+	<l id='576'>Vaincu dans un duel un champion d'élite</l>
+	<l id='577' part='i'>Dom Quichotte de la Manche.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='577' part='f'>Ah ! n'allons pas si vite</l>
+	<l id='578' part='i'>Monsieur le Chevalier.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='578' part='f'>Après tous ces exploits,</l>
+	<l id='579'>Un jeune enfant tout nu m'a rangé sous ses Lois,</l>
+	<l id='580' part='i'>Amour.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='580' part='f'>Laissons l'Amour, et contez-moi l'histoire</l>
+	<l id='581'>De ce fameux duel qui vous comble de gloire,</l>
+	<l id='582'>Que j'en apprenne au vrai l'ordre, le lieu, le temps,</l>
+	<l id='583'>La naissance, la suite et tous les incidents.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='584'>Quoi que dans mes malheurs je géhenne ma pensée,</l>
+	<l id='585'>Si je la réfléchis sur ma gloire passée,</l>
+	<l id='586'>Je veux bien pour vous plaire aggraver ma douleur,</l>
+	<l id='587'>Et faire encore un coup triompher ma valeur ;</l>
+	<l id='588'>Écartons-nous un peu pour parler à notre aise.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='589'>Allons où vous voudrez. Qu'il parle ou qu'il se taise :</l>
+	<l id='590'>Il n'en a que trop dit, mais pour me contenter,</l>
+	<l id='591'>Avant que l'étrangler je le veux écouter.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Barbier, Sanche.</head>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='592' part='i'>Où vas-tu mon ami ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='592' part='f'>Ma foi je n'y vois goutte ;</l>
+	<l id='593' part='i'>Je vais, je n'en sais rien.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='593' part='f'>Parle, où prends-tu ta route ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='594' part='i'>Je vais, je suis mon maître.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='594' part='m'>Et qu'est-il ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='594' part='f'>Chevalier.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='595' part='i'>Errant ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='595' part='m'>Errant.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='595' part='m'>Et toi ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='595' part='f'>Je suis son écuyer.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='596' part='i'>Heureuse et belle nuit !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='596' part='f'>Voici l'Echo sans doute.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='597'>Bienheureux le démon qui m'a montré la route</l>
+	<l id='598'>De ce bois écarté ! puisque je vous y vois</l>
+	<l id='599'>Vous êtes Écuyer ? aussi suis-je bien moi,</l>
+	<l id='600'>Et mon maître est aussi Chevalier d'aventure ;</l>
+	<l id='601'>Mais le plus grand badin qui soit dans la Nature.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='602'>Nos maîtres à ce conte ont beaucoup de rapport,</l>
+	<l id='603'>Sans mépriser le vôtre et sans lui faire tort</l>
+	<l id='604'>J'estime que le mien en fait d'extravagance</l>
+	<l id='605'>Ne trouvera jamais homme qui le devance.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='606' part='i'>Votre maître est donc fol ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='606' part='f'>Oui s'il en fut jamais.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='607'>Si le proverbe est vrai, tels maîtres tels valets,</l>
+	<l id='608'>Monseigneur l'Écuyer, au lieu d'une calotte</l>
+	<l id='609'>Nous pouvons aujourd'hui nous coiffer la marotte,</l>
+	<l id='610'>Et craindre avec raison qu'on s'assure de nous</l>
+	<l id='611'>Pour nous faire chanter dans l'hôpital des fous.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='612'>J'ai souvent à part moi discouru de la sorte,</l>
+	<l id='613'>Mais je ne puis dompter le désir qui m'emporte</l>
+	<l id='614'>De posséder une île avant que de mourir,</l>
+	<l id='615'>Et si je ne suis fou je ne puis l'acquérir :</l>
+	<l id='616'>Au lieu qu'en me rangeant à l'humeur de mon maître,</l>
+	<l id='617'>C'est d'un gouvernement qu'il me doit reconnaître ;</l>
+	<l id='618'>Car dans deux ou trois jours il va se faire Roi,</l>
+	<l id='619'>Et conquérir aussi quelques îles pour moi.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='620'>Si votre maître est fou, comme je veux bien le croire,</l>
+	<l id='621'>Comment parviendra-t-il à ce degré de gloire ?</l>
+	<l id='622'>Et que peut-il donner s'il ne possède rien ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='623'>Ne le prenez pas là, vous vous tromperiez bien,</l>
+	<l id='624'>Je connais mille fous que la fortune flatte,</l>
+	<l id='625'>C'est à nous seulement qu'elle se monstre ingrate :</l>
+	<l id='626'>Mais la grande raison qui me fait espérer,</l>
+	<l id='627'>Est que mon maître a pris la peine de jurer ;</l>
+	<l id='628'>Et je suis bien certain que quand sa foi l'engage</l>
+	<l id='629'>Il fait tout ce qu'il dit, et même davantage :</l>
+	<l id='630'>Apres ce que j'ai vu j'aurais tort d'en douter.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='631'>Le Diable jure ainsi quand il veut nous tenter,</l>
+	<l id='632'>Mon maître m'a trompé par le même artifice,</l>
+	<l id='633'>J'attends depuis cent ans un méchant bénéfice</l>
+	<l id='634'>Par le moyen duquel je puisse sous mon toit</l>
+	<l id='635'>Au moins mourir de faim en quelque temps qu'on soit ;</l>
+	<l id='636'>Il me le promet bien : mais lorsque je le presse</l>
+	<l id='637'>De montrer quelque jour l'effet de sa promesse,</l>
+	<l id='638'>De me donner enfin ce que j'ai mérité,</l>
+	<l id='639'>Il me dit que c'est là qu'est la difficulté,</l>
+	<l id='640'>Qu'il peut promettre tout, et par fois davantage ;</l>
+	<l id='641'>Mais que pour rien donner, il n'en sait pas l'usage.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='642' part='i'>Et vous suivez ce maître ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='642' part='f'>Il le faut malgré moi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='643'>Si dans quatre ou cinq jours le mien ne se fait Roi,</l>
+	<l id='644'>Et par même moyen ne me donne mon île,</l>
+	<l id='645'>Croyez, mon bon Seigneur, qu'il sera difficile</l>
+	<l id='646'>Que je sois entraîné plus loin de ma maison ;</l>
+	<l id='647'>Sanche est un ignorant, mais non pas un oison,</l>
+	<l id='648'>Ce n'est pas les Panças qu'il faut mener en laisse,</l>
+	<l id='649'>S'il fait ma femme Reine, et ma fille Comtesse,</l>
+	<l id='650'>Je le suivrai par tout ainsi que j'ai promis,</l>
+	<l id='651'>Et de cette façon nous vivrons bons amis :</l>
+	<l id='652'>Mais s'il croit me jouer, qu'il craigne ma colère,</l>
+	<l id='653'>On m'a dit que j'étais soldat comme ma mère,</l>
+	<l id='654'>Et je pourrais un jour le lui faire sentir :</l>
+	<l id='655'>J'ai voulu lui parler avant que de partir,</l>
+	<l id='656'>Il ne veut rien entendre, et promet des merveilles.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='657'>Ne vous a-t-il jamais tiré par les oreilles,</l>
+	<l id='658'>Donné des coups de barre, et réduit à la mort ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='659' part='i'>Ah ! Qu'il s'en garde bien.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='659' part='m'>Je m'en étonne fort.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='659' part='f'>Pourquoi ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='660'>Je n'en sais rien, mais mon diable de maître,</l>
+	<l id='661'>Si vous étiez à lui, vous le ferait connaître,</l>
+	<l id='662'>Et pour une vétille, une épingle, un bouton,</l>
+	<l id='663'>Vous donnerait par jour deux cens coups de baston,</l>
+	<l id='664'>Ou peut-être parfois pour mêler les matières,</l>
+	<l id='665'>Il vous partagerait de cent coups d'étrivières,</l>
+	<l id='666'>Soutenant contre tous que ces mets différents</l>
+	<l id='667'>Sont ceux qu'on doit servir aux Écuyers errants.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='668' part='i'>Vous n'êtes donc pas mal.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='668' part='f'>Ce que je viens de dire</l>
+	<l id='669'>Est bien un grand malheur, mais ce n'est pas le pire,</l>
+	<l id='670'>Ce diable court l'Espagne et se bat chaque jour</l>
+	<l id='671'>Pour pouvoir mériter l'objet de son amour :</l>
+	<l id='672'>Il casse, il brise, il rompt testes, bras, nerfs et veines,</l>
+	<l id='673'>Boit le sang des vaincus comme l'eau des fontaines :</l>
+	<l id='674'>Et tandis qu'il se bat avec le Chevalier,</l>
+	<l id='675'>Il me contraint à moi d'égorger l'Écuyer,</l>
+	<l id='676'>Je n'y manque jamais, pourtant quoi que je fasse</l>
+	<l id='677'>Toujours quelque estocade esquive ma cuirasse,</l>
+	<l id='678'>Et me perce le cuir avec tant de douleur</l>
+	<l id='679'>Que j'en pers bien souvent la force et la couleur ;</l>
+	<l id='680'>Cette fatalité me fâche et m'importune ;</l>
+	<l id='681'>Mais qui peut résister aux lois de la fortune ;</l>
+	<l id='682'>Nos maîtres se battront à la pointe du jour,</l>
+	<l id='683'>Et nous devons aussi nous battre à notre tour.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='684'>Je ne me battrai point, quoi que vous puissiez dire.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='685'>Vous perdriez votre honneur, qui vaut mieux qu'un Empire</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='686'>Quand il en vaudrait deux, je le perds sans remords,</l>
+	<l id='687'>Que nous sert cet honneur lorsque nous sommes morts ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='688'>À nous faire estimer par la race suivante.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='689' part='i'>Mais nous n'en savons rien.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='689' part='f'>Toujours cela contente.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='690'>Pour moi j'aime la paix, et ne recule pas</l>
+	<l id='691'>D'acquérir de l'estime avecques mon trépas.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='692'>J'ai charge de mon maître, en cette circonstance,</l>
+	<l id='693'>De vous dire trois fois de vous mettre en défense,</l>
+	<l id='694'>Et quoi que vous fassiez afin de l'éviter,</l>
+	<l id='695'>De vous couper la tête et de la lui porter :</l>
+	<l id='696'>Voyez à quel des deux se résoudra votre âme,</l>
+	<l id='697'>L'un vous rend glorieux, l'autre vous rend infâme.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='698'>Allez porter ailleurs cette belle leçon,</l>
+	<l id='699'>Je ne veux point me battre en aucune façon ;</l>
+	<l id='700'>Mon maître en me donnant la charge que j'exerce,</l>
+	<l id='701'>M'exempta par exprès de ce sanglant commerce,</l>
+	<l id='702'>Il fut dit entre nous qu'il emploierait son bras</l>
+	<l id='703'>Sans le secours du mien dedans tous les combats,</l>
+	<l id='704'>Et que j'aurais le soin d'éloigner les batailles</l>
+	<l id='705'>Pour pourvoir s'il mourait faire ses funérailles,</l>
+	<l id='706'>Et pour porter son coeur et ses derniers soupirs</l>
+	<l id='707'>Aux pieds de Dulcinée objet de ses désirs ;</l>
+	<l id='708'>De sorte qu'il se voit que dans cette querelle</l>
+	<l id='709'>Je ne saurais mourir sans me rendre infidèle,</l>
+	<l id='710'>Et vous n'ignorez pas que l'infidélité</l>
+	<l id='711'>Est pire aux Écuyers que n'est la lâcheté.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='712'>Je ne puis répliquer cette raison m'arrête.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='713'>Sans cela j'ai des mains qui défendront ma tête.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='714'>Suffit : mais le jour vient et nos maîtres aussi,</l>
+	<l id='715'>Pour ne les pas troubler retirons nous d'ici.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Dom Quichotte, Dom Lope ou le Chevalier des Miroirs.</head>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='716'>Je dis encore un coup qu'il a mordu la terre</l>
+	<l id='717'>Ce dompteur de Géants, ce miracle de guerre</l>
+	<l id='718'>Dom Quichotte de la Manche à mes pieds abattu</l>
+	<l id='719'>Condamnant sa faiblesse, admirant ma vertu,</l>
+	<l id='720'>Et confessant tout haut qu'auprès de Calsildée</l>
+	<l id='721'>Dulcinée a le teint d'une vieille ridée.</l>
+	<l id='722'>Et pour vous faire voir que je ne vous mens pas,</l>
+	<l id='723'>Ce Don Quichotte ici, dont on fait tant de cas,</l>
+	<l id='724'>Et dont j'ai surmonté la force et le courage,</l>
+	<l id='725'>Est de moyenne taille, assez beau de visage,</l>
+	<l id='726'>Rêveur, mais si subtil dans toutes ses raisons,</l>
+	<l id='727'>Qu'il peut être Recteur aux petites Maisons :</l>
+	<l id='728'>Il est le vrai falot de la valeur errante,</l>
+	<l id='729'>Et son digne coursier s'appelle Rossinante,</l>
+	<l id='730'>Son Écuyer Dom Sanche, et ce Dom Sanche encor</l>
+	<l id='731'>Monte un grand âne gris qui vaut son pesant d'or.</l>
+	<l id='732'>Qui peut après cela douter de ma victoire ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='733' part='i'>Moi.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='733' part='f'>Je porte en tout cas de quoi la faire croire.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='734'>Cet éclaircissement ne vous saurait manquer.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='735'>C'est par là seulement que je dois m'expliquer.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='736'>Je commence à voir clair dans toute cett'affaire,</l>
+	<l id='737'>Ce Don Quichotte que j'aime à l'égal de mon frère,</l>
+	<l id='738'>A plusieurs enchanteurs qui choquent ses desseins,</l>
+	<l id='739'>Et sans doute ce coup est parti de leurs mains :</l>
+	<l id='740'>Quelqu'un d'eux pour ternir sa gloire et son courage,</l>
+	<l id='741'>Dedans cette rencontre aura pris son image,</l>
+	<l id='742'>Et vous aura trompé, n'en doutez nullement :</l>
+	<l id='743'>Ce que vous avez dit ne peut être autrement.</l>
+<note type="L">Créance : croyance.</note>
+	<l id='744'>Que si vous persistez dedans votre créance,</l>
+	<l id='745'>Sachez que Dom Quichotte est en votre présence</l>
+	<l id='746'>Prêt à vous faire voir qu'il aime trop l'honneur</l>
+	<l id='747'>Pour faire une action indigne de son coeur.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='748' part='i'>C'est donc vous Dom Quichotte.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='748' part='f'>Je suis cet indomptable</l>
+	<l id='749'>Que vous avez dépeint, non pas ce misérable</l>
+	<l id='750'>Que le manque d'adresse, ou de force ou de coeur</l>
+	<l id='751'>Contraint à reconnaître un si faible vainqueur :</l>
+	<l id='752' part='i'>Que si vous en doutez.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='752' part='f'>Arrêtez je vous prie ;</l>
+	<l id='753'>Quoi que par les statuts de la Chevalerie,</l>
+	<l id='754'>Que vous n'ignorez pas et que nous savons tous,</l>
+	<l id='755'>Je pusse refuser de me battre avec vous,</l>
+	<l id='756'>Après mon avantage, après votre défaite.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='757' part='i'>Ah ! trêve à ce discours.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='757' part='f'>Cette main qui l'a faite</l>
+	<l id='758'>Veut bien la maintenir, et vous faire avouer</l>
+	<l id='759'>Que ma sincérité ne se peut trop louer.</l>
+	<l id='760'>Je veux donc qu'un combat vide notre querelle :</l>
+	<l id='761'>Mais de crainte qu'un jour le temps la renouvelle,</l>
+	<l id='762'>Je crois qu'il faut combattre à des conditions</l>
+	<l id='763'>Qui terminent le cours de nos prétentions.</l>
+	<l id='764'>Voici ce qui me semble être très-raisonnable,</l>
+	<l id='765'>Je pourrai m'éclaircir si vous êtes palpable,</l>
+	<l id='766'>De peur qu'un Enchanteur ne trompe encor mes sens,</l>
+	<l id='767'>Et si je suis vainqueur comme je le prétends,</l>
+	<l id='768'>Si vous n'avez recours à la force des charmes,</l>
+	<l id='769'>Je pourrai vous contraindre à mettre bas les armes,</l>
+	<l id='770'>Et demeurer chez vous l'espace de dix ans</l>
+	<l id='771'>Sans lire aucun Roman des Chevaliers errants.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='772'>Vous devez dire aussi que si j'ai la victoire,</l>
+	<l id='773'>Comme il est apparent, vous cesserez de croire</l>
+	<l id='774'>Que jamais votre bras ait pu vaincre mon coeur.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='775'>Je le veux, sachons donc qui sera le vainqueur.</l>
+<stage>Ils se battent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Duc, La Duchesse, Dom Quichotte, Dom Lope.</head>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='776'>Que cett'heure est charmante, et que mon oeil adore</l>
+	<l id='777'>Ces rayons de clarté dont le Ciel se colore !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='778'>Que je prends de plaisir à voir le jour naissant,</l>
+	<l id='779'>Et ce nuage peint d'un pourpre jaunissant !</l>
+	<l id='780'>J'admire cet objet plus je le considère.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Sanche, Le Barbier, Le Duc etc.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='781'>Dieux ! mon maître est aux mains, ah ! que voulez-vous faire ?</l>
+	<l id='782' part='i'>Messieurs arrêtez-vous.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='782' part='f'>Quel bruit ai-je entendu ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, retenant Sanche.</speaker>
+	<l id='783'>Je t'étrangle pendard si tu fais l'entendu.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='784'>Ah ! je vois ce que c'est, heureuse ma sortie</l>
+	<l id='785' part='i'>Si j'évite un malheur.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, se retirant avec le Barbier.</speaker>
+	<l id='785' part='f'>À demain la partie,</l>
+	<l id='786' part='i'>Monsieur le Chevalier.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='786' part='f'>À demain, à tantôt,</l>
+	<l id='787'>À toute heure ; suffit que je suis Dom Quichotte,</l>
+	<l id='788' part='i'>Sanche vous en serez.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='788' part='f'>Ah ! Je me donne au Diable</l>
+	<l id='789' part='i'>Si je me bats jamais.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='789' part='f'>Ô rencontre agréable !</l>
+	<l id='790'>Valeureux Dom Quichotte, est-ce vous que je vois ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='791'>Oui Monsieur c'est lui-même, et je suis aussi moi</l>
+	<l id='792'>Prêt de vous témoigner mes très-humbles services.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='793' part='i'>Voulez-vous m'obliger?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='793' part='f'>Après les bons offices</l>
+	<l id='794'>Que j'ai reçus chez vous, le bien de m'acquitter</l>
+	<l id='795'>Est le plus grand bonheur que je puis souhaiter.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='796'>Faites-moi la faveur de voir notre ermitage</l>
+	<l id='797' part='i'>Qui n'est pas loin d'ici.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='797' part='f'>Ce m'est trop d'avantage.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='798'>Vous y serez reçu selon vos qualités.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='799'>Mais sans doute moins bien que vous ne méritez.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='800'>Ah Madame ! Ah Monsieur ! Cela vous plaît à dire.</l>
+	<l id='801' part='i'>Que je vais me saouler !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='801' part='f'>Hé que nous allons rire.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Duc, La Duchese, Dom Quichotte, Sanche, L'Aaumoner du Duc.</head>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='802'>Je ne puis exprimer l'honneur que je reçois</l>
+	<l id='803'>De me voir avec vous et de vous voir chez moi,</l>
+	<l id='804'>Valeureux Dom Quichotte dont les faits héroïques</l>
+	<l id='805'>Sont hautement chantés dans les places publiques,</l>
+	<l id='806'>Et célébrés par tout comme ceux d'Amadis</l>
+	<l id='807'>Et des autres vaillants qui régnèrent jadis :</l>
+	<l id='808'>Mais je veux seulement vous conjurer de croire</l>
+	<l id='809'>Que je ne fus jamais jaloux de votre gloire,</l>
+	<l id='810'>Et que j'ai pris plaisir à lire les exploits</l>
+	<l id='811'>Que votre bras a faits dedans tous ses emplois.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='812'>C'est le propre d'un coeur purement magnanime.</l>
+	<l id='813'>Je sais bien toutefois que cette haute estime</l>
+	<l id='814'>Dont vous me partagez si libéralement,</l>
+	<l id='815' part='i'>Vous convient mieux qu'à moi.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='815' part='f'>Trêve de compliment.</l>
+	<l id='816'>Nous voici près du lieu de votre pénitence.</l>
+	<l id='817'>Ils arrivent au château du Duc.</l>
+	<l id='818'>Des valets à une galerie sur la porte,</l>
+	<l id='819'>sonnent des trompettes, et disent :</l>
+	<l id='820'>Vive le grand Quichotte, et vive Sanche Pance,</l>
+	<l id='821'>L'un le plus généreux de tous les Chevaliers,</l>
+	<l id='822'>L'autre le plus vaillant de tous les Écuyers.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='823' part='i'>Ce n'est pas là mon vice.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. </head>
+<sp who='DEUX-VALETS'><speaker>DEUX VALETS portant un manteau d'écarlate et un bonnet vert.</speaker>
+	<l id='823' part='f'>Acceptez grand Monarque</l>
+	<l id='824'>De nos soumissions cette honorable marque.</l>
+	<l id='825'>La voix de dessus la galerie.</l>
+	<l id='826'>Vive encore et toujours la fleur des Chevaliers,</l>
+	<l id='827'>Et l'unique falot des vaillants Écuyers.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='828' part='i'>Sanche prends cet armet.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='828' part='f'>Dites-moi je vous prie,</l>
+	<l id='829'>Est-ce encore une loi de la Chevalerie</l>
+	<l id='830'>De donner des manteaux et de riches bonnets</l>
+	<l id='831'>Aux maîtres Chevaliers et non à leurs valets ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='832' part='i'>Sans doute.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='832' part='f'>Cette loi doit être reformée.</l>
+</sp>
+<sp who='LA-VOIX'><speaker>LA VOIX de dessus la galerie.</speaker>
+	<l id='833'>Vive encor Dom Quichotte, vive sa renommée.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='834'>Vous plaît-il donc d'entrer ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='834' part='f'>Je n'entre qu'après vous.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='835' part='i'>Monsieur, allons.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='835' part='m'>Madame.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='835' part='f'>On nous cède chez nous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='836'>Je vous cède par tout, mais en cette occurrence</l>
+	<l id='837'>Je ne le pourrais pas sans faire une insolence.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='838' part='i'>Ah ! Ne contestez plus.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='838' part='f'>Je ne passerai point.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='839'>Un conte que je sais vient ici bien à point.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='840' part='i'>Dites-le Seigneur Sanche.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='840' part='f'>Il doit être agréable.</l>
+	<l id='841' part='i'>Et je le veux savoir.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='841' part='f'>Que je suis misérable !</l>
+	<l id='842' part='i'>Tais-toi traître ou je vais.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='842' part='f'>Monsieur ne craignez rien,</l>
+	<l id='843'>Mon conte est sans reproche, et je le ferai bien.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='844'>Il vous étourdira, commandez qu'il se taise.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='845'>Pourquoi ? votre Écuyer ne dit rien qui ne plaise,</l>
+	<l id='846'>Et j'ai plus de plaisir à l'entendre parler,</l>
+	<l id='847'>Que n'en eut Angélique à se voir cajoler</l>
+	<l id='848'>De ce mignon frisé qu'elle suivait sans cesse,</l>
+	<l id='849'>Dédaignant de Roland l'amour et la noblesse.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='850'>Que votre Majesté vive éternellement !</l>
+	<l id='851'>Madame, ce discours, quoi que sans fondement,</l>
+	<l id='852'>Efface tout le deuil que je faisais paraître</l>
+	<l id='853'>Pour n'avoir un manteau de même que mon maître,</l>
+	<l id='854'>Et craignant de tomber encor une autre fois</l>
+	<l id='855'>Entre les rudes mains de l'Écuyer du Bois ;</l>
+	<l id='856' part='i'>Voici donques mon conte.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='856' part='f'>Abrège-le de grâce.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='857'>Ce n'est pas là du tout ce que je veux qu'il fasse :</l>
+	<l id='858' part='i'>Qu'il l'étende au contraire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='858' part='f'>Assez près de chez moi</l>
+	<l id='859'>Demeurait un Seigneur bon serviteur du Roi,</l>
+	<l id='860'>Ce Seigneur était fils d'un prudent personnage</l>
+	<l id='861'>Qui descendait tout droit de ce fameux lignage</l>
+	<l id='862'>De Medine del Campe : et ce Seigneur aussi</l>
+	<l id='863' part='i'>Était fils de son père.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='863' part='f'>On le croit bien ainsi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='864'>On ne croit en cela que ce qu'on en doit croire :</l>
+	<l id='865'>Ce Gentilhomme donc, dont je vous fais l'histoire,</l>
+	<l id='866'>Et qui s'est marié depuis trois ou quatre ans,</l>
+	<l id='867'>Qu'il est bien marié ! Qu'il a de beaux enfants !</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='868'>Passez, cela suffit, concernant son ménage.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='869'>Il se fit bien du bruit dedans notre village,</l>
+	<l id='870'>Le jour qu'il prit sa femme, on la voulut ravir ;</l>
+	<l id='871'>Mais l'effort qu'on en fit ne put de rien servir.</l>
+	<l id='872'>Vous le savez, Monsieur, vous fustes de la fête,</l>
+	<l id='873'>Et l'on vous en peut voir les marques sur la tête :</l>
+	<l id='874'>Le fils du maréchal, ce mauvais garnement,</l>
+	<l id='875'>A ce que l'on m'a dit, en fut pareillement :</l>
+	<l id='876' part='i'>Dites, n'est-il pas vrai ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='876' part='m'>Passez.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='876' part='f'>On le doit croire.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='877'>Bonhomme c'est assez, achevez votre histoire :</l>
+	<l id='878'>Du train que vous allez, je crains avec raison</l>
+	<l id='879'>Que l'on ne vous verra d'un an dans la maison.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='880'>On pourra nous y voir plutôt sans point de doute.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='881'>Sanche n'abrégez point, mais suivez votre route.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='882'>Ce conte est ravissant, et qui le veut blâmer</l>
+	<l id='883'>N'a jamais bien connu ce qu'on doit estimer.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='884'>Ce Gentilhomme donc était si fort affable,</l>
+	<l id='885'>Qu'il avait bien souvent des paysans à sa table.</l>
+	<l id='886'>Un jour qu'il régalait un pauvre laboureur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='887'>Sans passer plus avant, tire-moi d'une erreur,</l>
+	<l id='888'>Sanche, je n'entends point à moins d'un interprète,</l>
+	<l id='889' part='i'>Qu'est-ce que régaler ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='889' part='f'>C'est un mot de Gazette,</l>
+	<l id='890'>Qui veut dire traiter, accueillir, bien veigner :</l>
+	<l id='891'>Mais vraiment c'est bien vous que je dois enseigner?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='892'>J'ai toujours méprisé des choses si frivoles,</l>
+	<l id='893'>Je m'attache aux effets, et non pas aux paroles.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='894'>Au Diable, pourquoi donc m'avez-vous arrêté ?</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='895'>Monsieur l'Historien, c'est assez contesté,</l>
+<note type="L">Géhenne : ville située au sud de Jérusalem, près de la porte dite des potiers, sur les frontières des tribus de Juda et d eBenjamin. Cette vallée qui était riante et fertile, ayant été souillée par des sacrifices sanglants offerts au dieu Moloch, fut abandonnée ; on y jeta depuis les cadavres des malfaiteurs et des animaux, et elle ne fut plus pour les juifs qu'un lieu d'horreur et le symbole de l'Enfer. [B] Au sens figuré, lieu infernal. </note>
+	<l id='896' part='i'>Tirez-nous de la géhenne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='896' part='f'>Apprenez donc en somme</l>
+	<l id='897'>Comme se comporta ce brave gentilhomme ;</l>
+	<l id='898'>Un jour qu'il régalait un pauvre laboureur,</l>
+	<l id='899'>Grossier en vérité : mais fort homme d'honneur,</l>
+	<l id='900'>Et qui dans sa maison vit de l'air d'un Monarque ;</l>
+	<l id='901'>Il voulut le traiter comme un homme de marque :</l>
+	<l id='902'>Je connais ce paysan comme je me connais,</l>
+	<l id='903'>Il a logé long temps à trois pas de chez moi.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='904'>Ne nous direz-vous point encore son lignage ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='905'>Son père fut le coq de tout le voisinage,</l>
+	<l id='906' part='i'>Son aïeul.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='906' part='m'>C'est assez.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='906' part='f'>Achève promptement.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='907'>Ce conte est magnifique autant qu'il est charmant.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='908'>Étant donques tous deux prêts de se mettre à table,</l>
+	<l id='909'>Écoutez ce que fit ce Seigneur honorable :</l>
+	<l id='910'>Que puisse-t-il jouir d'un éternel repos,</l>
+	<l id='911'>Car il est déjà mort : et l'on dit à propos</l>
+	<l id='912'>Que dans quelques Romans qu'on fit à sa louange</l>
+	<l id='913'>L'on trouve par écrit qu'il fit une mort d'ange :</l>
+	<l id='914'>J'étais alors à Temble, où je ne le vis pas.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='915'>Frère, si vous voulez nous sauver du trépas,</l>
+	<l id='916' part='i'>N'arrêtez point à Tremble.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='916' part='f'>Enfin, que veux-tu dire ?</l>
+	<l id='917'>Abrège ton discours et viens au mot pour rire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='918'>Ce Seigneur voulait donc, puisqu'il faut dire tout,</l>
+	<l id='919'>Que ce pauvre paysan se plaçât au haut bout,</l>
+	<l id='920'>Le paysan bien appris insistait au contraire,</l>
+	<l id='921'>L'un disait je le veux, l'autre le puis-je faire ?</l>
+	<l id='922'>Il me semble d'entendre encor leur compliment.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='923' part='i'>Tu les as donques vus disputer ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='923' part='f'>Nullement.</l>
+	<l id='924'>Mais un valet d'honneur qui m'en a fait l'histoire,</l>
+	<l id='925'>M'a dit non seulement que je pouvais la croire,</l>
+	<l id='926'>Mais encore jurer d'avoir été présent</l>
+	<l id='927' part='i'>Alors qu'elle arriva.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='927' part='f'>Que ce conte est plaisant !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='928'>Ce Seigneur alléguait, pour finir la dispute,</l>
+	<l id='929'>Que chaque Charbonnier est maître dans sa hutte,</l>
+	<l id='930'>Qu'il le voulait enfin, et qu'en mangeant son bien</l>
+	<l id='931'>L'autre ne devait pas le contredire en rien.</l>
+	<l id='932'>Mais toutes ces raisons ne pouvaient pas abattre</l>
+	<l id='933'>Du paysan trop civil l'humeur opiniâtre :</l>
+	<l id='934' part='i'>Que fit-il ?</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='934' part='f'>Finissez ces discours superflus :</l>
+	<l id='935' part='i'>Il fit, je n'en sait rien.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='935' part='f'>Ma foi ni moi non plus :</l>
+	<l id='936'>On m'a bien dit pourtant qu'il se mit en colère,</l>
+	<l id='937'>Ou bien que pour le moins il eut droit de le faire,</l>
+	<l id='938'>Et qu'il dit au paysan, tout bouffi de courroux,</l>
+	<l id='939'>Quelque part où je suis, je suis toujours sur vous :</l>
+	<l id='940'>Apprenez aujourd'hui que lorsqu'un Grand vous traite,</l>
+	<l id='941'>Vous devez obéir, non pas faire la bête :</l>
+	<l id='942'>Le reste du banquet m'est encore inconnu,</l>
+	<l id='943'>Mais je crois que ce conte est ici bien venu.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='944'>Traître, pourrai-je bien retenir ma colère ?</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='945'>Sanche a fait de sa part tout ce qu'il devait faire,</l>
+	<l id='946' part='i'>Je ne le blâme point.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='946' part='f'>Il a plus fait encor.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='947'>Et son conte doit être écrit en lettres d'or :</l>
+	<l id='948' part='i'>Mais il est temps d'entrer.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='948' part='m'>Dieu, tirez-moi de peine !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='948' part='f'>Monsieur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='949'>Je n'entre point, la chose est bien certaine.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='950'>Que vous profitez mal de mes enseignements !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='951'>Si c'est pour obéir à vos commandements,</l>
+	<l id='952' part='i'>Je n'ai point de réplique.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='952' part='f'>Et bien je vous l'ordonne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='953'>Enfin, voilà mon conte, et la pièce est fort bonne.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='954'>Vous n'en fîtes jamais qui fut plus à propos.</l>
+<stage>Ils entrent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Sanche, Dame Rodrigue, suivante de la Duchesse.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='955'>Madame Gonzalez, de grâce quatre mots.</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='956' part='i'>On m'appelle Rodrigue.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='956' part='f'>Et bien soit, mais Madame,</l>
+	<l id='957' part='i'>Voulez-vous m'obliger ?</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='957' part='f'>Oui, de toute mon âme,</l>
+	<l id='958'>Mon honneur à couvert, n'en doutez nullement.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='959'>Votre honneur à couvert ! Il l'est bien hautement :</l>
+	<l id='960'>Car je suis si discret en semblable matières,</l>
+	<l id='961'>Que quand on m'offrirait mille coups d'étrivières</l>
+	<l id='962'>Pour m'en faire manger, fût-il entre deux plats,</l>
+	<l id='963'>Il est bien assuré que je n'en voudrais pas :</l>
+	<l id='964'>Il faut que la raison règle nos convoitises,</l>
+	<l id='965'>Et Sanche ne fait pas de semblables sottises.</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='966' part='i'>Que puis-je donc pour vous ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='966' part='f'>Me tirer de souci.</l>
+	<l id='967'>J'ai laissé mon grison à quatre pas d'ici,</l>
+	<l id='968'>C'est mon âne, Madame, honorable monture</l>
+	<l id='969'>Dont le nom sera cher à la race future :</l>
+	<l id='970'>Je voudrais qu'il vous plût le faire entrer céans,</l>
+	<l id='971'>C'est un pauvre innocent qui n'a que quatorze ans,</l>
+	<l id='972'>Et qui sèche d'ennui dès que je l'abandonne,</l>
+	<l id='973'>Il vous remerciera du soin que je vous donne.</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='974'>Certes si votre maître est aussi fou que vous,</l>
+	<l id='975'>Nous avons aujourd'hui de beau monde chez nous :</l>
+	<l id='976'>Allez, impertinent, avez-vous eu l'audace</l>
+	<l id='977'>De croire que je fisse une action si basse ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='978'>Mon maître toutefois, qui n'est nullement sot,</l>
+	<l id='979'>M'a dit assez souvent, parlant de Lancelot,</l>
+	<l id='980'>Qu'au retour de Bretagne il reçut des caresses</l>
+	<l id='981'>( Leur honneur à couvert ) de cinq ou six Princesses,</l>
+	<l id='982'>Tandis que son cheval mangeait comme un seigneur</l>
+	<l id='983'>Son avoine au giron de leurs Dames d'honneur.</l>
+	<l id='984'>Et qu'a fait mon grison ? qui l'empêche de croire</l>
+	<l id='985'>Qu'il peut avoir un jour une pareille gloire ?</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='986'>Si vous avez dessein de faire le plaisant,</l>
+	<l id='987'>Troussez votre bagage, allez ailleurs, paysan,</l>
+	<l id='988'>Gros vilain, farci d'aulx, vous n'aurez à cett'heure</l>
+	<l id='989' part='i'>Qu'une figue de moi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='989' part='f'>Mais sans doute bien meure :</l>
+	<l id='990'>Car à n'en point mentir, je n'imagine point</l>
+	<l id='991'>Qu'à moins de soixante ans on vous gagne le point.</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='992'>La vieillesse que j'ai ne me fait point de honte,</l>
+	<l id='993'>C'est à Dieu seulement que j'en dois rendre conte :</l>
+	<l id='994'>Allez, fils de putain, faire ailleurs l'entendu,</l>
+	<l id='995' part='i'>Et craignez mon courroux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Duc, La Duchesse, L'Aumonier, Dom Quihotte, etc.</head>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='995' part='f'>Quel bruit ai-je entendu ?</l>
+	<l id='996'>Qu'est-ce qui vous oblige à courir de la sorte,</l>
+	<l id='997' part='i'>Vous voudrait-on forcer ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='997' part='f'>Non, le Diable m'emporte !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='998'>Je vous vois tous émeus, dites-m'en la raison ?</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='999'>Ce vilain me chargeait du soin de son grison,</l>
+	<l id='1000'>Et voulait m'obliger à le panser moi-même.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1001'>L'amour que j'ai pour lui se peut nommer extrême,</l>
+	<l id='1002'>Et j'ai cru l'obliger à voir mes bons desseins</l>
+	<l id='1003'>Lorsque je l'ai remis en de si bonnes mains.</l>
+	<l id='1004'>Que si j'ai mal jugé dans cette circonstance,</l>
+	<l id='1005'>L'amour est mon excuse, et sera ma défense ;</l>
+	<l id='1006'>Puisque je suis amant, je puis dire avec eux,</l>
+	<l id='1007'>Pouvais-je être bien sage étant bien amoureux ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1008'>Sanche parle fort bien, son excuse est valable.</l>
+</sp>
+<sp who='DAME-RODRIGUE'><speaker>DAME RODRIGUE.</speaker>
+	<l id='1009' part='i'>Mais il m'appelait vieille ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1009' part='f'>Ah ! C'est bien là le Diable,</l>
+	<l id='1010'>Ce reproche est fâcheux, et ne vaut du tout rien,</l>
+	<l id='1011'>Dame Rodrigue est jeune et vous le voyez bien.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1012'>Elle a mal entendu, je vous jure Madame</l>
+	<l id='1013' part='i'>Que je n'y pensais pas.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1013' part='f'>Approchez-vous infâme.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1014' part='i'>Et bien qu'est-ce ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1014' part='f'>Parlez, était-ce la saison</l>
+	<l id='1015'>Et le lieu de parler de votre beau grison ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1016'>Monsieur, on peut parler des choses nécessaires</l>
+	<l id='1017'>Par tout où l'on se trouve, et faire ses affaires :</l>
+	<l id='1018'>Dressez ce bonnet vert qui vous couvre le front,</l>
+	<l id='1019'>Et ne censurez pas ce que les autres font.</l>
+	<l id='1020'>Il me souvient ici de mon âne que j'aime,</l>
+	<l id='1021'>M'en souvenant ailleurs, j'en parlerais de même,</l>
+	<l id='1022'>Fût-ce au lit, à la table, à la sale, au marché,</l>
+	<l id='1023'>Par tout, et pour le sûr ce n'est point un péché.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1024' part='i'>Sanche a bonne raison.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1024' part='f'>Votre Grandeur le flatte,</l>
+	<l id='1025'>Et répand ses bontés sur une terre ingrate.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1026'>Brisons là ce discours puisqu'il ne vous plaît pas,</l>
+	<l id='1027'>Et parlons des attraits, des grâces, des appas</l>
+	<l id='1028'>Dont éclate aujourd'hui l'Infante Dulcinée,</l>
+	<l id='1029'>Et des rares vertus dont son âme est ornée.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1030'>Hélas que ce discours me va coûter de pleurs !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1031' part='i'>Et pour quelle raison ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1031' part='f'>Apprenez mes malheurs :</l>
+	<l id='1032'>Cette rare beauté que vous m'avez nommée</l>
+	<l id='1033'>N'est plus ce qu'elle était, elle vit transformée</l>
+	<l id='1034'>En laide villageoise, et je ne sais comment</l>
+	<l id='1035'>De méchants Enchanteurs ont fait ce changement.</l>
+	<l id='1036'>Ô chère Dulcinée ! Ô ma douce geôlière,</l>
+	<l id='1037'>Qui n'as rien aujourd'hui de ta forme première !</l>
+	<l id='1038'>Astre vêtu de deuil, beau Soleil éclipsé,</l>
+	<l id='1039'>Phare qui ne luis plus, miroir ardent cassé,</l>
+	<l id='1040'>Bois qu'on a dégradé, vive source tarie,</l>
+	<l id='1041'>Parterre foudroyé, belle rose flétrie,</l>
+	<l id='1042'>Divin temple détruit, grand autel profané,</l>
+	<l id='1043'>Neige couverte d'encre, ivoire charbonné,</l>
+	<l id='1044'>Portrait sans coloris, brasier qui n'es que cendre,</l>
+	<l id='1045'>Hélas après ce coup quel parti dois-je prendre !</l>
+	<l id='1046'>Par quel heureux moyen te puis-je secourir ?</l>
+	<l id='1047'>S'agit-il de ma mort, tu m'y verras courir.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1048' part='i'>Elle est donc enchantée ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1048' part='f'>Oui Seigneur, et moi-même</l>
+	<l id='1049'>Oculaire témoin de ce malheur extrême.</l>
+	<l id='1050'>Hélas quand je la vis sous cett'étrange peau,</l>
+	<l id='1051'>Je ne pus m'empêcher de pleurer comme un veau !</l>
+	<l id='1052'>Ô pauvre Dulcinée ! ô masure d'Infante !</l>
+	<l id='1053'>Maudit soit à jamais le démon qui t'enchante,</l>
+	<l id='1054'>Lampe qui n'as plus d'huile, horloge démonté,</l>
+	<l id='1055'>Courrier dévalisé, pâturage brouté,</l>
+<note type="L">Débâter : ôter le bât d'un mulet, d'un cheval, d'un âne. [F]</note>
+	<l id='1056'>Épicière sans sucre, ânesse débâtée,</l>
+	<l id='1057'>Village abandonné, campagne dégâtée,</l>
+	<l id='1058'>Belle vigne grêlée, étang plein de limon,</l>
+	<l id='1059'>Chat brûlé, pan sans plume, Ange fait en démon,</l>
+	<l id='1060'>Rose qui n'es plus rien qu'un gratte-cul champêtre,</l>
+	<l id='1061'>Hélas que je te plains maîtresse de mon maître !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1062'>Ce n'est pas sans sujet que vous versez des pleurs,</l>
+	<l id='1063'>On se pend tous les jours pour de moindres malheurs.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1064'>Peut-être quelque fou, mais non pas Sanche Pance.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='1065'>Enfin, la charité me défend le silence,</l>
+	<l id='1066'>Monseigneur j'ai sujet de me plaindre de vous</l>
+	<l id='1067'>De ce que vous traitez avec ces maîtres fous :</l>
+	<l id='1068'>Car outre qu'à la fin vous pourriez rendre conte</l>
+	<l id='1069'>De tout leur procédé, leurs discours me font honte.</l>
+	<l id='1070'>Et vous âme cruche, homme sans jugement,</l>
+	<l id='1071'>Qui peut vous avoir mis dedans l'entendement</l>
+	<l id='1072'>Tout ce qu'on nous a dit de votre rêverie</l>
+	<l id='1073'>Concernant les Romans de la Chevalerie ?</l>
+	<l id='1074'>Où vîtes-vous jamais des Chevaliers errants ?</l>
+	<l id='1075'>En quel lieu de l'Espagne a-t-on vu des Géants ?</l>
+	<l id='1076'>Où sont ces Enchanteurs et cette Dulcinée</l>
+	<l id='1077'>Que vous avez forgés dessous la cheminée ?</l>
+	<l id='1078'>Retournez malheureux, malheureux retournez</l>
+	<l id='1079'>Chercher votre bon sens au lieu d'où vous venez,</l>
+	<l id='1080'>Et cessez de courir après les aventures</l>
+	<l id='1081'>Qui sont à votre honneur de mortelles blessures :</l>
+	<l id='1082'>Allez, car c'est ainsi qu'on doit parler à vous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1083'>Pourrai-je retenir l'excès de mon courroux ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1084'>Ah le malheureux homme ! et qu'il a bien envie</l>
+	<l id='1085'>De perdre en cet instant et la tête et la vie.</l>
+	<l id='1086' part='i'>Il est mort.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1086' part='f'>La rencontre est sans comparaison.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1087'>Si nous étions ailleurs que dans cette maison,</l>
+	<l id='1088'>Et n'était le respect que je porte à votre âge,</l>
+	<l id='1089'>Ma main aurait déjà réparé mon outrage ;</l>
+	<l id='1090'>Mais puisque l'un et l'autre en cet événement</l>
+	<l id='1091'>Me défendent l'effet de mon ressentiment,</l>
+	<l id='1092'>Je veux bien pour le moins combattre de ma langue</l>
+	<l id='1093'>Les discours insolents qui font votre harangue :</l>
+	<l id='1094'>Qu'ai-je fait devant vous que vous puissiez blâmer ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1095'>Monsieur dites plutôt qu'on ne doive estimer.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1096'>Mais quand j'aurais failli, confessez sans contrainte</l>
+	<l id='1097'>Que la correction de qui la fin est sainte</l>
+	<l id='1098'>Se fait plus doucement, et toujours pour le moins</l>
+	<l id='1099'>Sans passer à l'injure, et sans aucuns témoins ;</l>
+	<l id='1100'>Et que m'ayant repris en public en colère</l>
+	<l id='1101'>Vous avez fait du moins ce qu'on ne doit pas faire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1102' part='i'>Il est vrai.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1102' part='f'>Mais au fonds, qu'avez-vous remarqué</l>
+	<l id='1103'>Dedans mon procédé qui vous ait tant choqué ?</l>
+	<l id='1104'>Poussé de mon instinct je vais faire la guerre</l>
+<note type="L">Infracteur : celui qui enfreint, qui rompt un traité, une loi.</note>
+	<l id='1105'>Aux infracteurs des lois et par mer et par terre,</l>
+	<l id='1106'>Comme faisaient jadis les Chevaliers errants,</l>
+	<l id='1107'>Et le chaud et le froid me sont indifférents.</l>
+	<l id='1108'>Je fais du bien à tous, je ne choque personne,</l>
+	<l id='1109'>Je ne prends jamais rien, et sans cesse je donne,</l>
+	<l id='1110'>Ma gloire est sans excès, mon amour sans défaut,</l>
+	<l id='1111'>Et j'aime seulement à cause qu'il le faut.</l>
+	<l id='1112'>Bref, je suis le chemin que m'a tracé la gloire,</l>
+	<l id='1113'>Non pas pour me placer au Temple de mémoire :</l>
+	<l id='1114'>Jamais la vanité ne fit agir ma main,</l>
+	<l id='1115'>Mais c'est pour le salut de tout le genre humain.</l>
+	<l id='1116'>Si vivre de la sorte est vivre dans le crime,</l>
+	<l id='1117'>Votre aigre remontrance est ici légitime ;</l>
+	<l id='1118'>Mais si c'est la vertu qui prescrit cette loi,</l>
+	<l id='1119'>Elle fait contre vous plutôt que contre moi ;</l>
+	<l id='1120'>J'en appelle à témoin Monsieur qui nous écoute.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1121'>La victoire à ce coup ne reçoit point de doute,</l>
+	<l id='1122'>Allez bonhomme, allez, vous serez mieux ailleurs,</l>
+	<l id='1123'>Vos sentiments pour nous ne sont pas des meilleurs,</l>
+	<l id='1124'>Suffit qu'on nous connaît par tout et dans la Manche.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='1125'>N'êtes-vous point encor ce gros maraud de Sanche,</l>
+	<l id='1126'>A qui ce bon Seigneur a promis de donner</l>
+	<l id='1127'>A ce que l'on m'a dit une île à gouverner ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1128'>Je suis celui-là même, et quoi qu'on puisse dire</l>
+	<l id='1129'>Je la mérite mieux que je ne la désire,</l>
+	<l id='1130'>Quoi qu'à la vérité je brûle de l'avoir,</l>
+	<l id='1131'>Et si je l'ai jamais, j'y ferai mon devoir.</l>
+	<l id='1132'>Je suis un Écuyer qui vivra dans l'Histoire,</l>
+	<l id='1133'>Et qui fait ( croyez-le si vous le voulez croire )</l>
+	<l id='1134'>Tout ce dont est capable un Écuyer de bien :</l>
+	<l id='1135'>Ayant mon maître à moi je ne manque de rien.</l>
+	<l id='1136'>Vive lui, vive moi ; car pendant notre vie,</l>
+	<l id='1137'>Malgré les Enchanteurs, malgré vous et l'envie</l>
+	<l id='1138'>Il ne manquera point d'un office de Roi,</l>
+	<l id='1139'>Non plus que d'un Royaume ou d'une île pour moi.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1140'>Pour l'île dès cett'heure elle vous est acquise,</l>
+	<l id='1141'>Vous la devez avoir puisqu'on vous l'a promise,</l>
+	<l id='1142'>Et tout présentement je veux vous la donner,</l>
+	<l id='1143'>Puis dans deux ou trois jours vous l'irez gouverner.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1144'>Recevez à genoux cette faveur insigne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1145'>Je la prends donc, Seigneur, quoi que j'en sois indigne.</l>
+</sp>
+<sp who="L'AUMONIER"><speaker>L'AUMONIER.</speaker>
+	<l id='1146'>Ah Monsieur ! c'est assez, je ne puis plus les voir,</l>
+	<l id='1147'>Je me console au moins que j'ai fait mon devoir.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1148'>Monsieur, où courez-vous ? Il s'en va.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1149' prt='i'>Qu'il s'en aille.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1149' part='f'>Soit, le bonhomme  aussi ne disait rien qui vaille :</l>
+	<l id='1150'>Ah ! s'il avait tenu ce discours insolent</l>
+	<l id='1151'>A quelque Chevalier un peu plus violent,</l>
+	<l id='1152'>Que de coups de baston sur sa jaquette noire !</l>
+	<l id='1153'>Toujours cet accident vivrait dans sa mémoire,</l>
+	<l id='1154'>Renault de Montauban eût été son ballot,</l>
+	<l id='1155'>Il l'aurait étranglé sans lui dire un seul mot.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Dom Lope, ou le Chevalier des Miroirs, Le Barbier, Dom Quichotte, Sanche, Le Duc, La Duchesse.</head>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1156' part='i'>Sanche, où fuyez-vous donc ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1156' part='f'>Ce Diable m'épouvante.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, parlant au Duc.</speaker>
+	<l id='1157'>Généreux protecteur de la milice errante !</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, parlant à Sanche.</speaker>
+	<l id='1158'>Valeureux Écuyer plein de gloire et d'honneur !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1159' part='i'>Levez vous.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1159' part='f'>Laissez-moi, car je suis Gouverneur.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1160' part='i'>Et bien à la bonne heure.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1160' part='f'>Oserai-je prétendre</l>
+	<l id='1161'>Que seul et sans témoins vous daignerez m'entendre ?</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1162' part='i'>Très volontiers, Monsieur.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1162' part='f'>Nous vous laissons donc tous ?</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1163'>Et bien, dans un moment je m'en reviens à vous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1164' part='i'>Nous vous verrons tantôt.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1164' part='f'>C'est bien mon espérance.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1165' part='i'>Vous en serez aussi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1165' part='f'>Ce n'est pas ma créance.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1166' part='i'>Je vous étranglerais.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Duc, Dom Lope, Le Barbier.</head>
+<sp who='DOM LOPE'><speaker>DOM LOPE ôte son armet.</speaker>
+<note type="L">Armet : casque, ou habillement de tête. (...) Pasquier dit que ce mot n'est venu en usage que sous François Ier. [F]</note>
+	<l id='1166' part='f'>Monsieur pardonnez-nous,</l>
+	<l id='1167'>Pour ramener un fou nous avons fait les fous.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1168'>Je vous ai reconnu dessous cet équipage,</l>
+	<l id='1169'>Mais enfin votre fou ne sera jamais sage.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1170' part='i'>Je le crois bien ainsi.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1170' part='f'>Ce n'est pas sans raison.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1171'>Je le veux obliger à tenir la maison :</l>
+	<l id='1172'>Un combat entre nous doit conclure l'affaire,</l>
+	<l id='1173'>Vous nous avez surpris lorsque nous l'allions faire,</l>
+	<l id='1174'>Et je viens vous prier de souffrir qu'aujourd'hui</l>
+	<l id='1175'>Je puisse le combattre et le mener chez lui :</l>
+	<l id='1176'>Ainsi vous achevez une oeuvre commencée,</l>
+	<l id='1177'>Et qui sans votre aveu ne peut être avancée ;</l>
+	<l id='1178'>Et nous nous acquittons de tout notre pouvoir,</l>
+	<l id='1179'>Et de notre promesse et de notre devoir.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1180'>J'emploierai tous mes soins à seconder les vôtres,</l>
+	<l id='1181'>Même, si je le puis, j'en inventerai d'autres :</l>
+	<l id='1182'>Mais je désire aussi qu'auparavant partir,</l>
+	<l id='1183'>Sa rencontre en ce lieu serve à nous divertir.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1184' part='i'>Tout ce qu'il vous plaira.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1184' part='f'>La fourbe est inventée,</l>
+	<l id='1185'>Il pleure nuit et jour sa maîtresse enchantée,</l>
+	<l id='1186'>Je veux la lui montrer dans son enchantement,</l>
+	<l id='1187'>Et faire là dessus cent pièces de roman ;</l>
+	<l id='1188'>Entrons, allons les voir, remettez la salade.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1189'>Nous pourrons bien crier place à la mascarade.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. La Duchesse, Sanche.</head>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1190' part='i'>Sanche, mettez-vous là.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1190' part='f'>Ce serait trop d'honneur</l>
+	<l id='1191' part='i'>Pour un pauvre Écuyer.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1191' part='f'>Vous êtes Gouverneur,</l>
+	<l id='1192'>Et cette qualité vous donne la puissance</l>
+	<l id='1193'>D'en user parmi nous avec toute licence.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1194'>Soit donc puisqu'il vous plaît, je ne conteste plus,</l>
+<stage>Il s'assied.</stage>
+	<l id='1195'>La place où je me vois me rend un peu confus ;</l>
+	<l id='1196'>Car je puis bien jurer qu'une pareille grâce</l>
+	<l id='1197'>N'a jamais été faite à pas un de ma race.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1198'>Aussi valez vous mieux qu'ils n'ont jamais valu.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1199'>Ce n'est pas bien cela, mais vous l'avez voulu.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1200'>Suffit, venons au point. J'ai de la peine à croire</l>
+	<l id='1201'>Plusieurs événements qu'on lit dans votre histoire,</l>
+	<l id='1202'>Et je ne les puis voir sans penser que l'auteur</l>
+	<l id='1203'>Qui les a mis au jour est méchant ou menteur.</l>
+	<l id='1204'>J'ai donques désiré que pour ce qui vous touche,</l>
+	<l id='1205'>Vous m'en donniez raison de votre propre bouche.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1206'>Je le ferai sans doute avec facilité.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1207'>Excusez toutefois mon incivilité.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1208' part='i'>Vous vous moquez de moi.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1208' part='f'>Serait-il bien croyable</l>
+	<l id='1209'>Que Sanche eût relâché de ce titre honorable</l>
+	<l id='1210' part='i'>De fidèle Écuyer ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1210' part='m'>Non Madame.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1210' part='f'>Pourtant</l>
+	<l id='1211'>On nous l'a débité pour de l'argent contant.</l>
+	<l id='1212'>L'histoire dit tout haut que le Gouverneur Sanche,</l>
+	<l id='1213'>Au lieu d'aller trouver Dulcinée à la Manche</l>
+	<l id='1214'>De la part de son maître, et lui faire savoir</l>
+	<l id='1215'>La peine qu'il avait de vivre sans la voir,</l>
+	<l id='1216'>S'arrêta quelques jours dedans une taverne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1217'>Je n'y feus point du tout, je craignais trop la berne</l>
+	<l id='1218'>Qui le jour précèdent m'avait fort mal traité,</l>
+	<l id='1219'>Et qui parle autrement choque la vérité.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1220'>L'histoire dit encor que dans cett'aventure,</l>
+	<l id='1221'>A l'infidélité succéda l'imposture,</l>
+	<l id='1222'>Et qu'étant de retour auprès de Dom Quichotte,</l>
+	<l id='1223'>Sanche son Écuyer le traita comme un sot,</l>
+	<l id='1224'>Feignit une réponse, et mille bagatelles</l>
+	<l id='1225'>Indignes de l'honneur des Écuyers fidèles ;</l>
+	<l id='1226'>Et lui dit qu'il trouva l'objet de son amour</l>
+	<l id='1227'>Criblant un tas de pois dans une basse cour.</l>
+	<l id='1228'>Voilà ce qui m'étonne, et qui me met en doute.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE, se lève, et tenant le doigt dans la bouche regarde par tout ; après, se remet dans sa chaire.</speaker>
+	<l id='1229'>A présent que j'ai vu que nul ne nous écoute,</l>
+	<l id='1230'>Et que je puis parler avecques liberté,</l>
+	<l id='1231'>Je vais faire cesser votre difficulté.</l>
+	<l id='1232'>Déjà depuis longtemps j'ai connu que mon maître</l>
+	<l id='1233'>Était fou par la tête autant qu'on le peut être,</l>
+	<l id='1234'>Quoi que dans ses discours et ses raisonnements</l>
+	<l id='1235'>Il montre quelquefois de si bons sentiments</l>
+	<l id='1236'>Que le Diable en personne aurait bien de la peine</l>
+	<l id='1237'>De juger qu'il n'eût pas la cervelle bien saine ;</l>
+	<l id='1238'>Ainsi pour m'exempter du tracas et du soin</l>
+	<l id='1239'>Qu'il me donne souvent sans qu'il en soit besoin,</l>
+	<l id='1240'>J'ai recours au mensonge, et par cet artifice</l>
+	<l id='1241'>Sans beaucoup me peiner je lui rends du service,</l>
+	<l id='1242'>J'enchantai l'autre jour Dulcinée à ses yeux.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1243' part='i'>Et comme quoi?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1243' part='f'>Le conte en est bien curieux.</l>
+	<l id='1244'>Étant prêt à partir Dom Quichotte de la Manche</l>
+	<l id='1245'>Voulut voir Dulcinée, et donna charge à Sanche,</l>
+	<l id='1246'>Ce Sanche est moi, Madame. Or ce grand Chevalier,</l>
+	<l id='1247'>Comme je vous ai dit, chargea son Écuyer</l>
+	<l id='1248'>( A présent Gouverneur ) d'aller voir sa maîtresse,</l>
+	<l id='1249'>Laquelle devait être une grande Princesse,</l>
+	<l id='1250'>Logée en un Palais d'or et de diamants ;</l>
+	<l id='1251'>Bref mille fois plus beau que tous ceux des Romans :</l>
+	<l id='1252'>Ce fidèle Écuyer dans une nuit obscure</l>
+	<l id='1253'>Cherche ce grand Palais d'admirable structure,</l>
+	<l id='1254'>Mais inutilement, car à ce qu'on lui dit,</l>
+	<l id='1255'>Jamais même en plein jour personne ne le vit.</l>
+	<l id='1256'>Il n'osa pas pourtant l'aller dire à son maître,</l>
+	<l id='1257'>De peur que ce défaut ne lui fit reconnaître</l>
+	<l id='1258'>Qu'il l'avait mal servi dans le premier emploi ;</l>
+	<l id='1259' part='i'>Savez-vous ce qu'il fit ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1259' part='f'>Nenni, dites-le moi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1260'>Il ne fit rien du tout, mais sortit du village</l>
+	<l id='1261'>À l'heure que les boeufs s'en vont au labourage,</l>
+	<l id='1262'>Je ne sais quel chemin son âne aura tenu,</l>
+	<l id='1263'>Mais il s'en retourna comme il était venu.</l>
+	<l id='1264'>Marchant donc sur ses pas, le pauvret rêve et songe</l>
+	<l id='1265'>Pour pouvoir sur le champ trouver quelque mensonge</l>
+	<l id='1266'>Qui le puisse exempter du reproche qu'il craint,</l>
+	<l id='1267'>Mais il n'en trouve aucun, et c'est là qu'il se plaint :</l>
+	<l id='1268'>Le voilà cependant à trois pas de son maître</l>
+	<l id='1269'>Qui lui vient au devant dès qu'il le voit paraître ;</l>
+	<l id='1270'>Si Monsieur l'Écuyer est lors dans l'embarras,</l>
+	<l id='1271'>Je crois certainement que vous n'en doutez pas.</l>
+	<l id='1272'>Que lui pourras-tu dire, Écuyer misérable,</l>
+	<l id='1273'>Qui puisse t'empêcher de paraître coupable ?</l>
+	<l id='1274'>Il se plaignait ainsi tout accablé d'ennui.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1275'>Dans cet événement je crains presque pour lui.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1276'>Quand par quelque miracle il vit trois paysannes</l>
+	<l id='1277'>S'en venir droit à lui sur autant de beaux ânes.</l>
+	<l id='1278'>D'abord quelque démon lui souffla dans l'esprit</l>
+	<l id='1279'>La résolution de faire ce qu'il fit.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1280' part='i'>Qui fut ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1280' part='f'>De soutenir que c'était Dulcinée</l>
+<note type="L">Haquenée : cheval qui a de l'amble. Se dit aussi en termes comiques du bâton que portent ceux qui font des voyages à pied pour se soulager en marchant. [F]</note>
+	<l id='1281'>Qui venait après lui dessus un'haquenée,</l>
+	<l id='1282'>Et deux Dames d'honneur toutes brillantes d'or,</l>
+	<l id='1283'>De qui les seuls chevaux valaient mieux qu'un trésor.</l>
+	<l id='1284'>Dom Quichotte qui le croit ; pique, galope, presse</l>
+	<l id='1285'>Son coursier Roussinant vers sa chère maîtresse ;</l>
+	<l id='1286'>Et rencontre à la fin les Dames des Grisons</l>
+	<l id='1287'>Qui la faux à la main s'en allaient aux moissons.</l>
+	<l id='1288'>Cet objet le surprend, mais son Écuyer jure</l>
+	<l id='1289'>Qu'un méchant Enchanteur a changé leur figure,</l>
+	<l id='1290'>Et ses serments enfin eurent tant de crédit</l>
+	<l id='1291'>Que son maître le crut comme il a déjà dit :</l>
+	<l id='1292'>Voyez après cela s'il n'est pas bien crédule ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1293'>J'ai formé là dessus quelque petit scrupule,</l>
+	<l id='1294'>Si Dom Quichotte est fou comme il paraît ici,</l>
+	<l id='1295'>Dom Sanche qui le suit ne l'est-il pas aussi ?</l>
+	<l id='1296'>Puisque l'on doit juger du valet par le maître.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1297'>Madame, en bonne foi, tout cela peut bien être :</l>
+	<l id='1298'>Ce scrupule est fort juste, et l'Écuyer du Bois,</l>
+	<l id='1299'>Qui m'a fait tant de peur, me l'a dit autrefois.</l>
+	<l id='1300'>Mais je ne sais comment , ni par quelle aventure</l>
+	<l id='1301'>Je me suis embrouillé dedans cette tissure :</l>
+	<l id='1302'>Mon maître m'a longtemps nourri dans sa maison,</l>
+	<l id='1303'>C'est de sa propre main que je tiens le grison.</l>
+	<l id='1304'>Je l'aime, il me chérit, il n'est nullement rude,</l>
+	<l id='1305'>Je ne le puis quitter que par ingratitude :</l>
+	<l id='1306'>Et comme qu'il en soit, je n'imagine pas</l>
+	<l id='1307'>De nous voir séparés que par notre trépas.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1308'>Cela donques passé, j'estime difficile</l>
+	<l id='1309'>Que vous puissiez jamais bien gouverner votre île ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1310'>Si pour cette raison c'est votre sentiment</l>
+	<l id='1311'>De ne pas m'enchâsser dans mon gouvernement,</l>
+	<l id='1312'>Je prétends de montrer par mon indifférence</l>
+	<l id='1313'>Que je le méritais beaucoup mieux qu'on ne pense :</l>
+<stage>Il sort de son siège.</stage>
+	<l id='1314'>Que sais-je si le Diable, ardent à nous tromper,</l>
+	<l id='1315'>Ne me le donnait pas afin de m'attraper?</l>
+	<l id='1316'>Il est plus fin que nous, et je sais par pratique</l>
+	<l id='1317'>Que jamais rien de bon ne sort de sa boutique.</l>
+	<l id='1318'>Qu'ai-je affaire de bien, malheureux que je suis !</l>
+	<l id='1319'>Je puis ce que je veux voulant ce que je puis ;</l>
+	<l id='1320'>Dans la nuit tous les chats sont de même teinture,</l>
+	<l id='1321'>Nous tombons de par tout dedans la sépulture,</l>
+	<l id='1322'>Et tel est sur le bord qui croit en être loin,</l>
+	<l id='1323'>Le ventre se remplit ou de paille ou de foin.</l>
+	<l id='1324'>Quand madame la Mort nous tient en sa puissance,</l>
+	<l id='1325'>On ne reconnaît plus aucune différence,</l>
+	<l id='1326'>Et souvent un bouvier qui vit avec honneur</l>
+	<l id='1327'>Dessous son pauvre toit, meurt mieux qu'un Gouverneur.</l>
+	<l id='1328'>Je dis encor ceci pour vous faire connaître</l>
+	<l id='1329'>Que je m'aime Écuyer autant ou plus que maître,</l>
+	<l id='1330'>Et que je vois sans deuil et sas ressentiment</l>
+	<l id='1331'>Le naufrage prochain de mon Gouvernement.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1332'>Tout Chevalier d'honneur, quand sa foi l'intéresse,</l>
+	<l id='1333'>Sans jamais barguigner accomplit sa promesse,</l>
+	<l id='1334'>Et le Duc Monseigneur est des plus apparents,</l>
+	<l id='1335'>Encor qu'il ne soit pas de l'ordre des errants :</l>
+	<l id='1336'>Partant, quoi que j'en die, il est indubitable</l>
+	<l id='1337'>Qu'il vous illustrera de ce titre honorable.</l>
+	<l id='1338'>Mais revenant au point de votre enchantement,</l>
+	<l id='1339'>Je sais de bonne part qu'il fut réellement,</l>
+	<l id='1340'>Et que Sanche croyant avoir trompé son maître</l>
+	<l id='1341'>Fut lui-même trompé, comme il pourra connaître</l>
+	<l id='1342'>Avant la fin du jour par des objets puissants,</l>
+	<l id='1343'>Qui sans enchantement paraîtront à ses sens.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1344'>Je m'en doutais aussi, car il n'est pas croyable</l>
+	<l id='1345'>Que j'eusse pu forger cette fourbe admirable :</l>
+	<l id='1346'>Mais comme qu'il en soit, cett'affaire se fit</l>
+	<l id='1347'>Comme je désirais ; et cela me suffit.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1348' part='i'>Mais voici Dom Quichotte.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1348' part='f'>Ce Diable l'accompagne,</l>
+	<l id='1349'>Je crois qu'il sera bon de prendre la campagne.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Dom Lope, Le Barbier, Le Duc, Dom Quichotte, Sanche, La Duchesse.</head>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1350' part='i'>Seigneur Sanche, arrêtez.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1350' part='m'>Laissez-moi.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1350' part='f'>Qu'avez-vous ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1351' part='i'>J'ai peur de ce grand nez.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1351' part='f'>Demeurez près de nous,</l>
+	<l id='1352'>Et croyez que mon bras vous en rendra bon conte.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1353'>Je le crois bien ainsi, mais la peur me surmonte.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1354'>Madame, pardonnez mon incivilité,</l>
+	<l id='1355'>Je sais ce que je dois à votre qualité :</l>
+	<l id='1356'>Mais un voeu solennel de montrer mon courage</l>
+	<l id='1357'>En ce rencontre-ici plutôt que mon visage,</l>
+	<l id='1358'>M'empêche d'y répondre, et cloue en ce moment</l>
+	<l id='1359'>Mon armet à mon front avec des clous d'aimant.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1360' part='i'>Ne vous contraignez point.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1360' part='f'>Quoi que vous puissiez faire,</l>
+	<l id='1361'>Je veux qu'encor un peu le combat se diffère.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1362'>Tout ce qui vous plaira ; cela dépend de vous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1363' part='i'>Que ce retardement m'est fâcheux !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1363' part='f'>Qu'il m'est doux !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1364'>Je m'en vais cependant vous conter une histoire</l>
+	<l id='1365'>Que l'on vient de m'apprendre, et que je ne puis croire :</l>
+	<l id='1366'>Deux Infantes de Perse, embrasées d'amour,</l>
+	<l id='1367'>Cherchent un Chevalier dans les lieux d'alentour :</l>
+	<l id='1368'>On les vit l'autre soir dedans notre village ;</l>
+	<l id='1369'>Mais notre historien n'en sait pas davantage.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1370' part='i'>Que crois-tu que ce soit, Sanche ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1370' part='f'>Je n'en sais rien :</l>
+	<l id='1371'>Mais dites-en le vrai, vous vous en doutez bien.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1372' part='i'>C'est à nous qu'on en veut.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1372' part='f'>C'était bien ma créance :</l>
+	<l id='1373'>Mais ce diable de nez m'en ôtait l'espérance,</l>
+	<l id='1374'>En effet je suis mort s'il approche de moi.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1375'>Que nous veulent ces gens ? et qu'est-ce que je vois ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Deux Héraut portant l'image du Soleil, La Duc, La Duchesse, Dom Quichotte, Sanche.</head>
+<sp who='LE-PREMIER-HÉRAULT'><speaker>LE PREMIER HÉRAULT.</speaker>
+	<l id='1376'>Les filles du Sophy que la Perse révère.</l>
+</sp>
+<sp who='LE-SECOND-HÉRAULT'><speaker>LE SECOND HÉRAULT.</speaker>
+	<l id='1377'>C'est moi qui dois parler, j'ai charge de leur père.</l>
+</sp>
+<sp who='LE-PREMIER-HÉRAULT'><speaker>LE PREMIER.</speaker>
+	<l id='1378'>Parlez si vous voulez, je ne dirai plus rien.</l>
+</sp>
+<sp who='LE-SECOND-HÉRAULT'><speaker>LE SECOND.</speaker>
+	<l id='1379'>Je vous cède mes droits, mais au moins parlez bien.</l>
+</sp>
+<sp who='LE-PREMIER-HÉRAULT'><speaker>LE PREMIER.</speaker>
+	<l id='1380'>Les filles du Sophy, ces illustres Princesses</l>
+	<l id='1381'>Que nous reconnaissons pour uniques maîtresses,</l>
+	<l id='1382'>Demandent le bonheur de pouvoir dire un mot</l>
+	<l id='1383'>En préférence de tous au brave Dom Quichotte.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1384' part='i'>Qu'elles entrent.</l>
+<stage>Ce demi vers et le suivant se disent bas.</stage>
+<stage>À Dom Lope et à la Duchesse.</stage>
+	<l id='1384' part='f'>La pièce est assez mal bâtie,</l>
+	<l id='1385'>Mais c'est pour ballotter en attendant partie.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1386' part='i'>Sanche ai-je mal pensé ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1386' part='f'>Nenni, mais croyez-moi,</l>
+	<l id='1387'>Épousez ces deux soeurs, et faites-vous grand roi ;</l>
+	<l id='1388' part='i'>Laissez là Dulcinée.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1388' part='f'>Ah ! ce discours m'offense.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Les Infantes de Perse, avec leurs Hérauts entrent, Le Duc, La Duchesse, Dom Quichotte, Sanche.</head>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1389'>Ah Dieu que de beauté, que de magnificence !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1390'>Jamais rien de pareil n'apparut à mes yeux.</l>
+</sp>
+<sp who='PREMIER-DES-HÉRAUTS'><speaker>PREMIER DES HÉRAUTS.</speaker>
+	<l id='1391'>Miracle de la terre et délice des Cieux,</l>
+	<l id='1392'>Valeureux Dom Quichotte ! ces deux grandes Princesses</l>
+	<l id='1393'>Viennent la larme à l'oeil mendier vos caresses :</l>
+	<l id='1394'>La Nature en naissant leur mit le sceptre en main,</l>
+	<l id='1395'>Elles ont hérité du pouvoir souverain,</l>
+	<l id='1396'>Voyez quelle des deux votre Grandeur désire,</l>
+	<l id='1397'>Vous ne sauriez choisir sans gagner un Empire.</l>
+</sp>
+<sp who='LA-PREMIÈRE-INFANTE'><speaker>LA PREMIÈRE INFANTE.</speaker>
+	<l id='1398'>Tourne vers moi tes yeux, vois quelle est ma beauté,</l>
+	<l id='1399'>Et qu'est-ce que je t'offre avec la royauté,</l>
+	<l id='1400'>Aimes-tu les trésors ? Notre terre en éclate ;</l>
+	<l id='1401'>Aimes-tu les grandeurs ? La vanité me flatte :</l>
+	<l id='1402'>Veux-tu porter ton trône aussi loin que tes pas ?</l>
+	<l id='1403'>Je te suivrai par tout, même dans les combats :</l>
+	<l id='1404'>J'aime l'éclat du sang qui paraît sur la terre,</l>
+	<l id='1405'>J'aime à voir le canon imiter le tonnerre,</l>
+	<l id='1406'>Et mille corps meurtris sur la terre gisant</l>
+	<l id='1407'>Présentent à mes yeux des spectacles plaisants.</l>
+	<l id='1408'>Veux-tu combattre seul , veux-tu quitter ta femme,</l>
+	<l id='1409'>Et n'avoir pour un temps d'autre appui que ta lame ?</l>
+	<l id='1410'>Va ne t'arrête point , contente ton désir,</l>
+	<l id='1411'>Et préfère toujours ta gloire à mon plaisir,</l>
+	<l id='1412'>Attendant ton retour j'irai la main armée</l>
+	<l id='1413'>Étendre notre empire et notre renommée,</l>
+<note type="L">Discord : désunion, dispute , querelle. Il est vieux et hors d'usage.[F]</note>
+	<l id='1414'>Porter chez nos voisins la guerre et le discord,</l>
+	<l id='1415'>La honte du servage ou l'horreur de la mort :</l>
+	<l id='1416'>Et si dans ce chemin la Fortune m'arrête,</l>
+	<l id='1417'>Tu sauras aussitôt ma mort que ma défaite.</l>
+	<l id='1418'>Laisse-moi, Chevalier, non je ne le veux pas.</l>
+	<l id='1419'>Je t'ai vu sur le point de courir dans mes bras,</l>
+	<l id='1420' part='i'>Entends plutôt ma soeur.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1420' part='f'>Il n'est point nécessaire,</l>
+	<l id='1421'>Épousez celle-ci, si vous voulez bien faire,</l>
+	<l id='1422' part='i'>Et ne contestez plus.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1422' part='f'>Taisez-vous, insolent.</l>
+</sp>
+<sp who='LA-SECONDE-INFANTE'><speaker>LA SECONDE INFANTE.</speaker>
+	<l id='1423'>Monstre, monstre mon coeur, ton transport violent.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1424'>Si vous la refusez, vous ferez mal sans doute.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1425' part='i'>Je ne t'écoute plus.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1425' part='f'>Suffit qu'un Duc m'écoute :</l>
+</sp>
+<sp who='LA-SECONDE-INFANTE'><speaker>LA SECONDE INFANTE.</speaker>
+	<l id='1426'>Tourne vers moi ton coeur, vois quelle est ma bonté,</l>
+	<l id='1427'>Ne considère plus ni Grandeur ni beauté,</l>
+	<l id='1428'>La Grandeur n'est qu'un nom qui souvent importune,</l>
+	<l id='1429'>Et qui nous rend sujets aux coups de la Fortune :</l>
+	<l id='1430'>Qu'est-ce que la beauté dont on fait tant de cas ?</l>
+	<l id='1431'>C'est une fleur qui passe et qui ne revient pas,</l>
+	<l id='1432'>Un vent, une vapeur, une ombre, une fumée,</l>
+	<l id='1433'>Une image effacée aussitôt que formée,</l>
+	<l id='1434'>Cet arc que le Soleil peint de tant de couleurs</l>
+	<l id='1435'>Et qui dans un instant, se résout tout en pleurs.</l>
+	<l id='1436'>Aimes-tu les trésors ? J'ai tout ce qui contente,</l>
+	<l id='1437'>Et par là ma richesse est assez abondante.</l>
+	<l id='1438'>Veux-tu porter ton trône aussi loin que tes pas ?</l>
+	<l id='1439'>Pourquoi le voudrais-tu si tu ne le dois pas ?</l>
+	<l id='1440'>Le carnage et le sang peut-il jamais te plaire</l>
+	<l id='1441'>S'il est vrai que le Ciel ne le voit qu'en colère ?</l>
+	<l id='1442'>Et le bruit des canons peut-il te sembler doux</l>
+	<l id='1443'>S'il exprime des Dieux la haine et le courroux ?</l>
+	<l id='1444'>Veux-tu vivre toujours dans un péril extrême ?</l>
+	<l id='1445'>Je te le veux défendre à cause que je t'aime.</l>
+	<l id='1446'>Viens gouverner plutôt et mon âme et ma cour ;</l>
+	<l id='1447'>Avec elles je t'offre et la paix et l'amour,</l>
+	<l id='1448'>Je ne désire point courir la main armée</l>
+	<l id='1449'>Pour mêler mes exploits avec ta renommée :</l>
+	<l id='1450'>Désormais nul désir ne me peut enflammer</l>
+	<l id='1451'>Que celui de te plaire et de te bien-aimer.</l>
+	<l id='1452'>Fortune fais de moi tout ce que tu peux faire,</l>
+	<l id='1453'>Fais-moi tomber du trône à l'extrême misère :</l>
+	<l id='1454'>Irrite mon malheur par de sanglants mépris,</l>
+	<l id='1455'>Mais ne t'oppose point au dessein que j'ai pris :</l>
+	<l id='1456'>En ce point seulement tu me serais funeste,</l>
+	<l id='1457'>Laisse-moi mon amour et prends tout ce qui reste.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1458'>Et bien qu'en dites-vous ? celle-ci me plaît mieux,</l>
+	<l id='1459'>Son discours a tiré des larmes de mes yeux.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1460'>Au secours Dulcinée, ah Dieu que j'ai de peine !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1461'>Vous devez épouser cette dernière Reine.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1462' part='i'>Laisse-moi.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1462' part='f'>L'aventure a fort bien réussi.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1463' part='i'>Monsieur, que ferez-vous ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1463' part='f'>Ah comblé de souci !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1464'>C'est déjà trop rêvé dessus cette matière,</l>
+	<l id='1465' part='i'>Il faut parler Français.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1465' part='f'>Prenez cette dernière.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1466'>Ô Ciel trop libéral à m'ouvrir vos trésors !</l>
+	<l id='1467'>Pourquoi donnâtes-vous tant d'attraits à mon corps ?</l>
+	<l id='1468'>Pourquoi me fîtes-vous une âme si hautaine,</l>
+	<l id='1469'>Si mes perfections ne servent qu'à ma peine ?</l>
+	<l id='1470'>Vois, Sanche, ce que c'est qu'être trop grand Héros,</l>
+	<l id='1471'>Si je méritais moins, j'aurais plus de repos.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1472'>Il est vrai, mais enfin c'est votre destinée,</l>
+	<l id='1473'>Monsieur, choisissez donc la cadette ou l'aînée ;</l>
+	<l id='1474'>Ou bien si l'une et l'autre a pour vous des douceurs,</l>
+	<l id='1475'>Comme je vous ai dit, épousez les deux soeurs :</l>
+	<l id='1476'>J'enrage de vous voir dans cett'indifference,</l>
+	<l id='1477'>Mesdames il y songe, ayez bonne espérance.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1478'>Oui, Dulcinée, enfin mon esprit s'y résout,</l>
+	<l id='1479'>Ne m'importunez plus, je n'en veux point du tout.</l>
+</sp>
+<sp who='LE-HÉRAULT'><speaker>LE HÉRAULT.</speaker>
+	<l id='1480' part='i'>Et bien retirons-nous.</l>
+</sp>
+<sp who='LA-PREMIÈRE-INFANTE'><speaker>LA PREMIÈRE INFANTE.</speaker>
+	<l id='1480' part='f'>Adieu donc coeur de roche.</l>
+</sp>
+<sp who='LA-SECONDE-INFANTE'><speaker>LA SECONDE INFANTE.</speaker>
+	<l id='1481'>Mon amour en ce point me défend le reproche,</l>
+	<l id='1482'>Adieu, je vais mourir, et souhaiter pourtant</l>
+	<l id='1483'>Malgré mon déplaisir que tu vives content.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Dom Quichotte, Sanche, Le Duc, La Duchesse, Dom Lope.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1484'>Le coeur me fend de deuil, ah Monseigneur et maître !</l>
+	<l id='1485'>Ce dernier accident me fait bien reconnaître</l>
+	<l id='1486'>Que j'ai fort bien connu ce qu'on connaît en vous,</l>
+	<l id='1487'>Sans mentir, vous et moi sommes d'étranges fous !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1488' part='i'>Vous perdez le respect.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1488' part='f'>Si je n'avais mon île,</l>
+	<l id='1489'>On entendrait encor plus le bruit dans la ville.</l>
+	<l id='1490'>Encor un coup, Monsieur, rendez mes voeux contents ;</l>
+	<l id='1491'>Prenez cette cadette et sans perdre du temps :</l>
+	<l id='1492'>Elle n'est pas fort loin la pauvre désolée,</l>
+	<l id='1493'>Et je crois que bientôt on l'aurait rappelée :</l>
+	<l id='1494'>Si vous ne pouvez pas par inclination,</l>
+	<l id='1495'>Prenez-la par aumône et par compassion.</l>
+	<l id='1496'>Que s'il advient après qu'elle vous importune,</l>
+	<l id='1497'>Donnez-la moi, Monsieur, j'en ferai ma fortune.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1498'>Taisez-vous impudent, ou bien vous êtes mort.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1499'>Il n'en faut plus parler, c'est le vouloir du sort</l>
+	<l id='1500'>Que le grand Dom Quichotte vive pour sa maîtresse.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1501'>Que pourra devenir cette pauvre Princesse ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1502'>Que pourrait devenir celle que je chéris ?</l>
+	<l id='1503'>Que ferait Dulcinée après un tel mépris ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1504'>Quand elle se pendrait, je me moquerais d'elle</l>
+	<l id='1505'>Si j'avais une Infante, et si riche et si belle.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1506' part='i'>Ne m'en parle jamais.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1506' part='f'>Je ne dirai plus mot,</l>
+	<l id='1507'>Mais on dira par tout que vous êtes un sot ;</l>
+	<l id='1508'>Et c'est ce qui me fâche, et qui m'émeut la bile.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1509'>Qu'il fait le suffisant depuis qu'il a son île !</l>
+	<l id='1510'>Ah si je l'entreprends ! à foi d'homme d'honneur,</l>
+	<l id='1511'>Je vous rangerai bien, Monsieur le Gouverneur.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1512'>Vous-même, Chevalier, songez à vos affaires,</l>
+	<l id='1513' part='i'>Il faut enfin se battre.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1513' part='f'>Ô comble de misères !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1514'>Me parler de combat, c'est flatter ma valeur.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1515'>Ce grand nez que je vois me fait trembler de peur.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1516'>Je pense à vous encor, Infantes malheureuses,</l>
+	<l id='1517'>Et maudis le destin qui vous fit amoureuses.</l>
+	<l id='1518'>Monsieur, vous plaît-il pas que nous allions les voir ?</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1519'>Allons-y, le combat se fera sur le soir.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Duc, La Duchesse, Dom Quichotte, Sanche, Dom Lope ou le Chevalier des Miroirs, Le Barbier.</head>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1520'>Puisque dans ce combat la gloire vous anime,</l>
+	<l id='1521'>Que vous ne voulez point de sanglante victime,</l>
+	<l id='1522'>Recevez de ma main ces armes que voici.</l>
+<stage>Il leur baille des fleurets.</stage>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, Écuyer.</speaker>
+	<l id='1523'>Mais n'en aurons-nous point pour nous frotter aussi</l>
+	<l id='1524' part='i'>Cet Écuyer et moi ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1524' part='f'>Je ne veux point me battre.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1525'>Si vous en désirez je crois que j'en ai quatre.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1526'>Monseigneur l'Écuyer, je vous ai déjà dit</l>
+	<l id='1527'>Que je ne voulais point m'exposer à crédit :</l>
+	<l id='1528'>Qu'il ne s'en parle plus.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1529'>Dieu quel coup de tonnerre !</l>
+<stage>Il se doit faire un grand bruit.</stage>
+	<l id='1530'>Il semble que le Ciel bouleverse la terre,</l>
+	<l id='1531'>Chevaliers, suspendez ce combat furieux.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1532'>Quittez-le tout à fait, vous ferez encor mieux.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1533'>Je ne vis jamais rien de plus épouvantable.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1534' part='i'>Je suis mort.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1534' part='m'>Qui va là ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Un Démon, Le Duc, Dom Quichotte, etc.</head>
+<sp who='LE-DIABLE'><speaker>LE DIABLE.</speaker>
+	<l id='1534' part='f'>Monsieur je suis le Diable,</l>
+	<l id='1535' part='i'>Qui cherche Dom Quichotte.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1535' part='f'>Le voici près de toi.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1536'>Si vous êtes le Diable, ainsi que je le crois,</l>
+	<l id='1537'>Je m'étonne comment avec votre science</l>
+	<l id='1538' part='i'>Vous l'avez méconnu.</l>
+</sp>
+<sp who='LE-DIABLE'><speaker>LE DIABLE.</speaker>
+	<l id='1538' part='f'>Monsieur, en conscience,</l>
+	<l id='1539' part='i'>J'avais l'esprit ailleurs.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1539' part='f'>Ou je n'y connais rien,</l>
+	<l id='1540'>Ou ce monsieur le Diable est fort homme de bien,</l>
+</sp>
+<sp who='LE-DIABLE'><speaker>LE DIABLE.</speaker>
+	<l id='1541'>À toi donc, Chevalier, le passe-temps du monde</l>
+	<l id='1542'>Que le Diable confonde,</l>
+	<l id='1543'>M'envoie un Enchanteur de tes plus grands amis,</l>
+	<l id='1544'>Qui veut te faire voir dedans cette journée</l>
+	<l id='1545'>L'Infante Dulcinée</l>
+	<l id='1546'>Et la désenchanter ainsi qu'il t'a promis.</l>
+	<l id='1547'>Attends-la donc ainsi, mais fais encor que Sanche,</l>
+	<l id='1548'>Qui déjà branle au manche,</l>
+	<l id='1549'>Rassure son courage et l'attende un moment,</l>
+	<l id='1550'>Parce que sa présence est si fort nécessaire</l>
+	<l id='1551'>Dedans tout ce mystère,</l>
+	<l id='1552'>Qu'on ne saurait jamais l'achever autrement.</l>
+	<l id='1553'>Voilà dans peu de mots ce que j'avais à dire,</l>
+	<l id='1554'>Sur quoi je me retire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1555'>Malheureux que je suis ! que sera tout ceci ?</l>
+	<l id='1556' part='i'>Madame, allons-nous-en.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1556' part='f'>Je le voudrais ainsi ;</l>
+	<l id='1557'>Mais je crains qu'en chemin quelque Diable nous prenne.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1558' part='i'>Hélas ! que ferons-nous ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1558' part='f'>J'en suis si fort en peine,</l>
+	<l id='1559'>Que je prendrais la mort pour un souverain bien.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1560'>Ne vous effrayez point, ceci ne sera rien.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+<stage>On fait encore du bruit.</stage>
+	<l id='1561'>Qu'est-ce donc que ceci ? le tonnerre redouble,</l>
+	<l id='1562'>Le bois est tout en feu, l'air se fend et se trouble.</l>
+<stage>Un Chariot sort.</stage>
+	<l id='1563'>Quel horrible spectacle apparaît en ces lieux !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1564'>Pour nous en exempter, Sanche, fermons les yeux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='LIRGANDÉE'><speaker>UN VIEILLARD paraît sur un Chariot, et dit :</speaker>
+	<l id='1565'>Lirgandée est mon nom, je suis ce formidable</l>
+	<l id='1566'>Qui fait trembler le Diable,</l>
+	<l id='1567'>Ennemi conjuré des actes glorieux :</l>
+	<l id='1568'>C'est moi qui l'autre jour transformai Dulcinée</l>
+	<l id='1569'>En paysanne obstinée,</l>
+	<l id='1570'>Et qui privai Quichotte de l'objet de ses yeux.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1571'>Traître, qu'en cet endroit ta malice fut noire !</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+<note type="L">Décroire : Ne croire pas. L'usage de ce mot est fort borné. Il ne se dit que par antithèse, qui exprime l'incetitude de l'opinion d'un homme sur quelque chose. [F]</note>
+	<l id='1572'>Sanche, qu'en dites-vous ? Oseriez-vous décroire</l>
+	<l id='1573'>La pure vérité de cet enchantement,</l>
+	<l id='1574'>Et persuader encor dans votre sentiment?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1575'>Madame, je vois bien qu'il faut que je me rende,</l>
+	<l id='1576'>Et que j'avoue encor que mon erreur fut grande :</l>
+	<l id='1577'>Mais si vous aviez vu comme elle se fit,</l>
+	<l id='1578'>Vous auriez de la peine à croire ce qu'il dit.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+<stage>On fait encore du bruit.</stage>
+	<l id='1579'>Le bruit revient encor et plus épouvantable,</l>
+	<l id='1580' part='i'>Et plus grand que tantôt.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1580' part='f'>Meurs pauvre misérable !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1581' part='i'>Que crains-tu malheureux ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1581' part='f'>Mais que ne crains-je pas ?</l>
+	<l id='1582'>J'en voudrais être quitte à cent coups d'échalas.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='ALQUIF'><speaker>UN AUTRE VIEILLARD, sur un Chariot.</speaker>
+	<l id='1583'>Je suis le grand Alquif, l'Enfer est ma demeure,</l>
+	<l id='1584'>La magie et l'horreur sont mes plus doux ébats :</l>
+	<l id='1585'>Je changeai l'autre jour dans un demi-quart d'heure</l>
+	<l id='1586'>En ânes trois chevaux, et trois selles en bats</l>
+	<l id='1587'>À la barbe de Sanche.</l>
+	<l id='1588'>Qui venait de la Manche.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1589'>Qui pourrait résister contre tant d'ennemis</l>
+	<l id='1590'>Apres ce que tu vois ? Parle Sanche mon fils,</l>
+	<l id='1591'>Douteras-tu jamais de ces métamorphoses</l>
+	<l id='1592'>Que font les Enchanteurs contre l'ordre des choses ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1593'>Je doute encore un peu de celles des moulins.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1594'>Ces Enchanteurs ici sont pourtant des plus fins.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1595'>Pour celle des moutons, je ne la saurais croire.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1596'>Vous n'en sauriez douter sans démentir l'histoire :</l>
+	<l id='1597'>Mais qu'est-ce que j'entends encore dans le bois ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1598' part='i'>Je tremble, je frémis.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1598' part='f'>Que de peurs à la fois !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1599' part='i'>Vous craignez sans raison.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1599' part='f'>Quelle étrange figure !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1600'>Dieu ! Finissez ma vie avec cette aventure.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. </head>
+<sp who='ARCHELAUS'><speaker>UN AUTRE VIEILLARD, sur un Chariot.</speaker>
+	<l id='1601'>Je suis Archelaus, cet insigne Enchanteur,</l>
+	<l id='1602'>De qui le Diable a peur :</l>
+	<l id='1603'>Ennemi d'Amadis et de toute sa race,</l>
+	<l id='1604'>Je changeai l'autre jour trois robes de velours</l>
+	<l id='1605'>En de pauvres lambeaux, trois brides en licous,</l>
+	<l id='1606'>En faucilles trois arcs, trois trousses en filasse.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1607'>Tu vois combien de gens conspirent contre moi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1608'>Si j'en eusse été cru, vous vous fussiez fait Roi,</l>
+	<l id='1609'>Vous eussiez épousé cette dernière Reine,</l>
+	<l id='1610'>Et nous serions tous deux à présent hors de peine.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1611'>Ne me parle jamais de changer de désir.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1612'>Si vous souffrez du mal, c'est pour votre plaisir.</l>
+	<l id='1613'>C'est moi seul que je plains dedans cette aventure,</l>
+	<l id='1614'>Moi, moi que vos péchés mettent à la torture,</l>
+	<l id='1615' part='i'>Et qui souffre par force.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1615' part='f'>Il faut le confesser,</l>
+	<l id='1616'>La pièce réussit mieux qu'on n'eût pu penser :</l>
+	<l id='1617'>Mais par là notre fou s'affermit davantage</l>
+	<l id='1618'>Dans le dessein qu'il a de n'être jamais sage.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1619'>Lui découvrant la fourbe il se corrigera.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1620'>Je pense que Dieu seul connaît ce qu'il fera :</l>
+	<l id='1621'>Mais si nous l'attrapons, il aura de la peine</l>
+	<l id='1622'>A revenir jamais faire le Capitaine.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1623'>Je dois donques savoir en quel temps et comment</l>
+	<l id='1624'>Je pourrai mettre fin à cet enchantement :</l>
+	<l id='1625'>Je te dois donques voir, ma chère Dulcinée,</l>
+	<l id='1626'>Et de grâce et de pompe encore environnée.</l>
+	<l id='1627'>Il me sera permis d'adorer tes appas,</l>
+	<l id='1628'>Et je pourrai baiser la trace de tes pas.</l>
+	<l id='1629'>Heureux tous mes travaux, heureuse ma souffrance,</l>
+	<l id='1630'>Bienheureux mon dédain et ma persévérance,</l>
+	<l id='1631'>S'il est vrai que par eux je dois gagner un bien</l>
+	<l id='1632'>Qui me met en état de ne désirer rien.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1633'>Mais quel est donc ce bien ? est-ce un puissant Empire ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1634'>C'est encor beaucoup plus, c'est ce que je désire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1635'>Je ne vous entends point, mais j'entends dans le bois</l>
+	<l id='1636'>Un concert agréable et de luths et de voix.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1637' part='i'>Vraiment Sanche a raison.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1637' part='f'>L'agréable musique !</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1638'>Elle est à mon avis un peu mélancolique.</l>
+</sp>
+<sp who='DULCINÉE'><speaker>DULCINÉE.</speaker>
+<stage>Dulcinée chante derrière le théâtre.</stage>
+	<l id='1639'>Valons affreux, solitaires montagnes, </l>
+	<l id='1640'>Sources, antres, rochers, où le silence dort,</l>
+	<l id='1641'>Hôtes cruels des bois et des campagnes,</l>
+	<l id='1642'>Vous êtes moins, vous êtes moins sauvages que mon sort.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1643'>Pourtant cette chanson n'est pas trop mal chantée.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1644' part='i'>Elle est bien au contraire.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1644' part='f'>Est-ce notre enchantée ?</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1645' part='i'>C'est elle sans faillir.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1645' part='f'>Donc à ce que je vois,</l>
+	<l id='1646'>Il est quelques démons qui sont de bonne foi ?</l>
+	<l id='1647'>Puisqu'ils tiennent parole, ah ! je sois misérable</l>
+	<l id='1648'>Si je dis jamais plus, menteur comme le Diable.</l>
+	<l id='1649'>Ah qu'elle chante bien ! qu'elle a gagné mon coeur</l>
+	<l id='1650' part='i'>L'Infante du Tobose !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1650' part='f'>Ah qu'elle a de douceur !</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Un chariot paraît où est l'Enchanteur Merlin avec Dulcinée.</head>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1651'>Mais la voici venir sur le Char de l'Aurore.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1652'>Adorable beauté souffre que je t'adore.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1653'>Grace, grâce, Madame, à ce pauvre innocent.</l>
+</sp>
+<sp who='MERLIN'><speaker>MERLIN.</speaker>
+	<l id='1654'>Levez-vous, je le veux, et Madame y consent.</l>
+	<l id='1655'>Je suis ce grand Merlin, qu'on chante dans la fable</l>
+	<l id='1656'>Pour fils aîné du Diable :</l>
+	<l id='1657'>Je fus toujours ami des Chevaliers errants ;</l>
+	<l id='1658'>C'est pour eux que je vis dans le siècle où nous sommes,</l>
+	<l id='1659'>Et tous les autres hommes</l>
+	<l id='1660'>Me sont indifférents.</l>
+	<l id='1661'>J'ai vu du plus profond de mon antre effroyable</l>
+	<l id='1662'>Le destin lamentable</l>
+	<l id='1663'>De cette pauvre Infante et de son cher amant,</l>
+	<l id='1664'>Et je veux aujourd'hui leur apprendre un mystère</l>
+	<l id='1665'>Pour sortir de misère,</l>
+	<l id='1666'>Et finir leur tourment.</l>
+	<l id='1667'>A toi donc Chevalier, la gloire de la Manche,</l>
+	<l id='1668'>Digne maître de Sanche,</l>
+	<l id='1669'>En qui les Enchanteurs ont mis tout ton recours ;</l>
+	<l id='1670'>À toi, dis-je, le Nord des braves de l'Espagne,</l>
+	<l id='1671'>Que l'honneur accompagne,</l>
+	<l id='1672'>S'adressent mes discours.</l>
+	<l id='1673'>Si tu veux délivrer cette charmante Reine,</l>
+	<l id='1674'>Et toi-même de peine,</l>
+	<l id='1675'>Sanche se doit donner dans deux ou trois matins</l>
+	<l id='1676'>Trois mille coups de fouet, ou s'il veut d'étrivière</l>
+	<l id='1677'>Sur son puissant derrière ;</l>
+	<l id='1678'>C'est l'arrêt des Destins.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1679'>Trois mille coups de fouet, me le donner moi-même !</l>
+	<l id='1680'>Qui peut l'imaginer sa folie est extrême,</l>
+	<l id='1681'>Et si le bon Merlin n'a point d'autre moyen</l>
+	<l id='1682'>Pour guérir Dulcinée, il ne tient ma foi rien.</l>
+	<l id='1683'>Quel diable de remède ! ah vénérable Alonse</l>
+	<l id='1684'>Se fouette qui voudra, quant à moi j'y renonce.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1685'>Si votre esprit rebours se plaît à m'irriter,</l>
+	<l id='1686'>Je vous les donnerai premier que vous quitter.</l>
+</sp>
+<sp who='MERLIN'><speaker>MERLIN.</speaker>
+	<l id='1687'>Je l'entends autrement, mais pourtant Sanche Pance</l>
+	<l id='1688'>Dans cette pénitence</l>
+	<l id='1689'>Peut emprunter la main de l'Écuyer du Bois,</l>
+	<l id='1690'>Qui lui sangle le dos d'une belle méthode,</l>
+	<l id='1691'>Mais toujours à sa mode,</l>
+	<l id='1692'>Et par diverses fois.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER, Écuyer.</speaker>
+	<l id='1693'>Je suis prêt d'accepter cette charge honorable.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1694'>Vous êtes, Monseigneur, un peu trop charitable ;</l>
+	<l id='1695'>Mais si vous désirez de me plaire en ce point,</l>
+	<l id='1696'>Allez-vous-en au Diable, et ne revenez point.</l>
+	<l id='1697'>Quant à moi je sais bien qu'il n'est point d'éloquence</l>
+	<l id='1698'>Qui me puisse obliger à cette pénitence :</l>
+	<l id='1699'>Et je redis encor que si le bon Merlin</l>
+	<l id='1700'>N'a rien de plus à nous dire, il n'est pas beaucoup fin.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1701'>N'aurez-vous point pitié d'une Reine si belle ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1702'>Mon maître Dom Quichotte doit s'écorcher pour elle,</l>
+	<l id='1703'>Et non pas moi, maudit, qui ne la connaît pas :</l>
+	<l id='1704'>Il la nomme à tous coups, ma vie, mon trépas,</l>
+	<l id='1705'>Mon âme, mon soutien, mon tout, mon espérance :</l>
+	<l id='1706'>Qu'il la délivre donc par sa propre souffrance,</l>
+	<l id='1707'>Et me laisse jouir de mon gouvernement,</l>
+	<l id='1708'>Sans brouiller mon esprit dans cet enchantement.</l>
+</sp>
+<sp who='DULCINÉE'><speaker>DULCINÉE.</speaker>
+	<l id='1709'>Insensible Écuyer, âme barbare et basse,</l>
+	<l id='1710'>Honte de ton village, et digne de ta race !</l>
+	<l id='1711'>Si l'on te commandait de courir au trépas,</l>
+	<l id='1712'>Ou bien de te jeter d'un haut clocher en bas,</l>
+	<l id='1713'>D'avaler des crapauds, de manger des vipères,</l>
+	<l id='1714'>D'égorger tes enfants et ta femme et tes frères,</l>
+	<l id='1715'>Et d'en humer le sang encore tout fumant,</l>
+	<l id='1716'>La répugnance aurait un peu de fondement.</l>
+	<l id='1717'>Mais faire si grand cas de ce qu'on te propose</l>
+	<l id='1718'>Trois mille coups de fouet, et c'est si peu de chose,</l>
+	<l id='1719'>Il n'est point d'écolier au Collège aujourd'hui</l>
+	<l id='1720'>Qui n'en ait vu tomber trois fois autant sur lui.</l>
+	<l id='1721'>Ah combien nos Neveux auront de peine à croire</l>
+	<l id='1722'>Une si lamentable et si honteuse histoire !</l>
+	<l id='1723'>Et tout par ton défaut, gros larron, gros mâtin,</l>
+	<l id='1724'>Je crois bien qu'après tout tu te rendras enfin,</l>
+	<l id='1725'>Et que les pleurs ardents que je verse sans cesse,</l>
+	<l id='1726'>Amolliront ton coeur, et vaincront ta rudesse :</l>
+	<l id='1727'>C'est aussi pour cela que le sage Merlin</l>
+	<l id='1728'>M'a permis de quitter mon gros habit de lin,</l>
+	<l id='1729'>Et de paraître ici sous ma propre figure :</l>
+	<l id='1730'>Mais si tous les attraits que j'ai de la Nature</l>
+	<l id='1731'>Ne peuvent t'émouvoir, vois d'un oeil de pitié</l>
+	<l id='1732'>Ton maître dont le coeur se fend par la moitié,</l>
+	<l id='1733'>Dont l'âme est sur la langue, et déjà toute preste</l>
+	<l id='1734'>À faire une funeste et piteuse retraite ;</l>
+	<l id='1735'>Réponds-lui malheureux, haste-toi de parler,</l>
+	<l id='1736'>Mais au moins ne dis rien que pour le consoler.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1737'>Dulcinée a raison, mon âme est dans ma bouche ;</l>
+	<l id='1738'>Ainsi qu'un pois sucré je la sens, je la touche.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1739' part='i'>Que dit à cela Sanche ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1739' part='f'>Il dit, il ne dit rien,</l>
+	<l id='1740'>Et fera moins encor, mais il s'étonne bien</l>
+	<l id='1741'>De se voir conjurer par des termes de Diable</l>
+	<l id='1742'>À faire une action purement charitable :</l>
+	<l id='1743'>Je voudrais bien savoir de votre Majesté,</l>
+	<l id='1744'>Madame, de Merlin et du char enchanté,</l>
+	<l id='1745'>D'où vous avez appris cette belle manière</l>
+	<l id='1746'>De résoudre le monde à des coups d'étrivière?</l>
+	<l id='1747'>Qu'ai-je à faire de vous ? quand votre enchantement</l>
+	<l id='1748'>Ne se devrait finir qu'à votre enterrement,</l>
+	<l id='1749'>En serais-je plus pauvre ? et vous ai-je enfantée</l>
+	<l id='1750'>Pour souffrir tant de mal de vous voir enchantée ?</l>
+	<l id='1751'>Demeurez en l'état jusqu'à votre trépas,</l>
+	<l id='1752'>Si je m'en plains jamais, qu'on me rompe les bras.</l>
+</sp>
+<sp who='MERLIN'><speaker>MERLIN.</speaker>
+	<l id='1753'>Puisque le brave Sanche est si fort en colère,</l>
+	<l id='1754'>Et qu'on ne peut rien faire</l>
+	<l id='1755'>Pour l'exécution d'un si noble dessein,</l>
+	<l id='1756'>Achevez le combat, pour moi je me retire,</l>
+	<l id='1757'>Et je m'en vais vous dire</l>
+	<l id='1758'>Adieu jusqu'à demain.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1759'>Quoi vous m'abandonnez, mon âme, ma pensée,</l>
+	<l id='1760'>Et je ne verrai point ma foi récompensée ?</l>
+	<l id='1761'>Beau soleil de mon coeur, me laissez-vous ainsi</l>
+	<l id='1762'>Plongé dans une nuit de deuil et de souci?</l>
+	<l id='1763'>O belle fugitive ! ô passagère Aurore !</l>
+	<l id='1764'>Revenez éclairer celui qui vous adore,</l>
+	<l id='1765'>Rendez-moi le bonheur que vous m'avez ôté,</l>
+	<l id='1766'>Ou souffrez qu'à jamais je perde la clarté,</l>
+	<l id='1767'>Ne m'aborde jamais si tu ne hais la vie.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1768' part='i'>Monsieur, cet Écuyer.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1768' part='f'>Laisse-moi je te prie.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1769' part='i'>À moi, Sanche.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1769' part='f'>Monsieur, je ferai tout pour vous,</l>
+	<l id='1770' part='i'>Mais chassez ce grand nez.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1770' part='f'>Ces armes sont pour nous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1771'>Des-enchanteras-tu la pauvre Dulcinée ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1772' part='i'>Oui.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1772' part='m'>Mais certainement :</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1772' part='f'>Ma parole est donnée.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1773'>Écuyer au grand nez, mettez les armes bas,</l>
+	<l id='1774'>Sanche ne se bat point, car je ne le veux pas.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1775'>Si Monsieur l'eût voulu, vous eussiez pu connaître</l>
+	<l id='1776' part='i'>Que j'ai du sang au front.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1776' part='f'>Cela pourrait bien être.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1777'>Si tu le veux pourtant, je le veux bien aussi.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1778'>Que vous m'entendez mal ! Je le menace ainsi</l>
+	<l id='1779'>Pour faire le méchant ; mais je n'ai d'autre envie</l>
+	<l id='1780'>Que de fuir le combat pour conserver ma vie.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1781' part='i'>Je t'entends maintenant.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1781' part='f'>Écuyer mon ami,</l>
+	<l id='1782'>N'éveillez point le chien lorsqu'il est endormi,</l>
+	<l id='1783'>Vous pourriez éprouver que sa dent est funeste.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1784'>Suffit, paix mes amis, achevons ce qui reste.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1785'>Valeureux Chevaliers, puisqu'un rude combat</l>
+	<l id='1786'>Doit finir aujourd'hui votre fameux débat,</l>
+	<l id='1787'>Et même que Merlin l'a jugé nécessaire,</l>
+	<l id='1788'>Je crois qu'il est fort bon que nous vous laissions faire.</l>
+	<l id='1789'>Adieu donc, et surtout combattez franchement.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Dom Quichotte, Sanche, Dom Lope ou le Chevalier des Miroirs, Le Barbier son Écuyer.</head>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1790'>Il faut en ce combat nous servir de nos armes.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1791'>Tout ce qui vous plaira, mais n'usons point de charmes.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1792' part='i'>Je suis homme de bien.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, à son écuyer.</speaker>
+	<l id='1792' part='f'>Allez plus loin de nous.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE, à Sanche.</speaker>
+	<l id='1793' part='i'>Éloignez-vous aussi.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1793' part='f'>Prenez bien garde à vous.</l>
+<stage>Ils se battent.</stage>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1794' part='i'>Au secours Dulcinée.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1794' part='f'>À moi Calsildée.</l>
+	<l id='1795' part='i'>Je tombe par malheur.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1795' part='f'>La querelle est vidée,</l>
+	<l id='1796' part='i'>Rendez-vous Chevalier.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1796' part='f'>Dieu ! Le coeur me défaut.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1797' part='i'>Que je crains ce Démon !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1797' part='f'>Rendez-vous, il le faut.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1798'>Mais que vois-je ? Mon maître a gagné la victoire.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1799'>Ôtons-lui cet armet. Mes yeux dois-je vous croire ?</l>
+	<l id='1800'>Quoi ? Mon ami Dom Lope, est-ce vous que je vois ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1801'>Il est évanoui, mais c'est lui, je le crois.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1802'>Pers cette opinion, ce n'est que son image,</l>
+	<l id='1803'>Un méchant Enchanteur aura pris son visage</l>
+	<l id='1804'>Pour rompre ma colère et m'amollir le coeur,</l>
+	<l id='1805'>Ayant déjà prévu que je serais vainqueur.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1806'>Si la chose est ainsi, plongez-lui votre lame</l>
+	<l id='1807'>Dans le milieu du corps pour en arracher l'âme :</l>
+	<l id='1808' part='i'>Lui mort, moins d'ennemis.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1808' part='f'>Ton conseil est fort bon.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER se découvrant.</speaker>
+	<l id='1809'>Ah Seigneur Dom Quichotte ! Pardon, Seigneur pardon ;</l>
+	<l id='1810'>C'est votre grand ami, Dom Lope de la Manche,</l>
+	<l id='1811' part='i'>Et je suis le Barbier.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1811' part='f'>Que sera ceci, Sanche ?</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1812' part='i'>Je pense qu'il dit vrai.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1812' part='f'>Voyons-le de plus prés.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1813'>C'est lui, n'en doutez plus, qu'avez-vous fait du nez ?</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1814' part='i'>Je l'ai dans ma pochette.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1814' part='f'>Ah la belle aventure !</l>
+	<l id='1815' part='i'>Mais Dom Lope revient.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1815' part='f'>Va dans la sépulture,</l>
+	<l id='1816'>Ou demeure d'accord de tout ce que j'ai dit.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1817'>Vous me le commandez, et cela me suffit.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1818'>Et bien, après ceci, que dites-vous, Dom Lope ?</l>
+	<l id='1819'>N'avais-je pas tantôt bien fait votre horoscope ?</l>
+	<l id='1820'>Et quand je vous disais qu'il ne faisait pas bon</l>
+	<l id='1821'>Se jouer à des fous, n'avais-je pas raison ?</l>
+	<l id='1822' part='i'>Vous vous en souviendrez.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1822' part='f'>Aidez-moi je vous prie,</l>
+	<l id='1823'>Et ne m'affligez point par votre raillerie :</l>
+	<l id='1824' part='i'>J'ai l'un des bras démis.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Le Duc, La Duchesse, Dom Quichotte, Sanche, Dom Lope, Le Barbier.</head>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1824' part='f'>Le Duc revient ici.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1825'>Enfin, notre combat a fort bien réussi :</l>
+	<l id='1826'>Mais les enchantements s'opposent à ma gloire :</l>
+	<l id='1827' part='i'>On dit que c'est Dom Lope.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1827' part='f'>Il vous le faut bien croire,</l>
+	<l id='1828' part='i'>Puisque c'est lui sans doute.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1828' part='f'>Et ce sien Écuyer,</l>
+	<l id='1829'>À ce que je puis voir, est aussi le Barbier.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1830' part='i'>Il n'en faut point douter.</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1830' part='f'>Quelles métamorphoses !</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1831'>Je prétends bien encor vous montrer d'autres choses :</l>
+	<l id='1832' part='i'>Sortez monsieur le Diable.</l>
+</sp>
+<sp who='LE-DIABLE'><speaker>LE DIABLE.</speaker>
+	<l id='1832' part='f'>On m'a donné ce nom</l>
+	<l id='1833'>Qui ne convenait point avec mon innocence.</l>
+	<l id='1834'>On dit que les laquais sont diables tout de bon,</l>
+	<l id='1835'>Mais ce n'est pas bien ma créance :</l>
+	<l id='1836'>Ainsi valeureux Dom Quichotte,</l>
+	<l id='1837'>Si vous me croyez tel, vous êtes un grand sot.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1838'>Paraissez Lirgandée.</l>
+</sp>
+<sp who='LIRGANDÉE'><speaker>LIRGANDÉE.</speaker>
+	<l id='1839'>Enfin il le faut dire,</l>
+	<l id='1840'>Je ne suis rien moins qu'Enchanteur,</l>
+	<l id='1841'>Je n'en pris l'habit que pour rire ;</l>
+	<l id='1842'>Et quoi que Sanche en eût bien peur,</l>
+	<l id='1843'>Et que sa peur me plût, je désire qu'il sache</l>
+	<l id='1844'>Ce que ce masque cache.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1845'>Montrez-vous grand Alquif.</l>
+</sp>
+<sp who='ALQUIF'><speaker>ALQUIF.</speaker>
+	<l id='1846'>Sous cette barbe blanche</l>
+	<l id='1847'>J'ai trompé Dom Quichotte et Sanche,</l>
+	<l id='1848'>Qui m'ont pris pour un Enchanteur :</l>
+	<l id='1849'>Mais je veux leur faire connaître</l>
+	<l id='1850'>Qu'on peut souvent paraître,</l>
+	<l id='1851'>Et n'être pas Docteur.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1852'>Archelaus, c'est à vous.</l>
+</sp>
+<sp who='ARCHELAUS'><speaker>ARCHELAUS.</speaker>
+	<l id='1853'>Couple de fous célèbres !</l>
+	<l id='1854'>Je me suis déguisé pour me moquer de vous :</l>
+	<l id='1855'>Mais dans les plus noires ténèbres,</l>
+	<l id='1856'>Si vous n'eussiez été des fous,</l>
+	<l id='1857'>Vous pouviez bien me reconnaître,</l>
+	<l id='1858'>Et voir que cette barbe avait eu plus d'un maître.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1859'>Holà ! Seigneur Merlin.</l>
+</sp>
+<sp who='MERLIN'><speaker>MERLIN.</speaker>
+	<l id='1860'>Je ne résiste pas</l>
+	<l id='1861'>À montrer mon corps véritable,</l>
+	<l id='1862'>Je ne suis pas enfant du Diable,</l>
+	<l id='1863'>Ni ce grand Enchanteur dont on fait tant de cas :</l>
+	<l id='1864'>Et qui veut sur ce point en savoir davantage,</l>
+	<l id='1865'>Consulte mon visage.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1866'>Madame Dulcinée.</l>
+</sp>
+<sp who='DULCINÉE'><speaker>DULCINÉE.</speaker>
+	<l id='1867'>On veut que je me montre,</l>
+	<l id='1868'>Et je n'y veux pas résister :</l>
+<stage>Elle découvre une barbe.</stage>
+	<l id='1869'>Mais si dedans cette rencontre</l>
+	<l id='1870'>On voulait encor persister</l>
+	<l id='1871'>À croire que je suis l'Infante du Tobose,</l>
+	<l id='1872'>Ce serait étrange chose.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id='1873'>Sur cela, Dom Quichotte, je vous baise les mains.</l>
+</sp>
+<sp who='LA DUCHESSE'><speaker>LA DUCHESSE.</speaker>
+	<l id='1874'>Ainsi toujours le Ciel réponde à vos desseins.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE.</speaker>
+	<l id='1875'>Puissiez-vous quelque jour devenir un peu sage.</l>
+</sp>
+<sp who='LE BARBIER'><speaker>LE BARBIER.</speaker>
+	<l id='1876'>Vous puissé-je raser dedans notre village.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1877'>Que toujours la victoire accompagne vos pas !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1878'>Sanche en cet accident ne m'abandonne pas.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1879'>Que ferons-nous enfin si tout nous est contraire ?</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1880'>Je crois certainement que dans tout cet affaire</l>
+	<l id='1881'>De méchants Enchanteurs ont fasciné nos yeux,</l>
+	<l id='1882'>Retournons chez le Duc, où nous le saurons mieux.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1883'>Vraiment s'il est ainsi, le pauvre Sanche Pance</l>
+	<l id='1884'>Est à ce que je vois bien loin de ce qu'il pense :</l>
+	<l id='1885'>Je croyais de tenir un bon gouvernement,</l>
+	<l id='1886'>Et sans supercherie et sans enchantement,</l>
+	<l id='1887'>De régner dans une île, où trois de mes paroles</l>
+	<l id='1888'>Me feraient apporter deux cens muids de pistoles,</l>
+	<l id='1889'>Où je pourrais manger et boire tout mon sou</l>
+	<l id='1890'>Sans compter avec l'hôte, et sans payer un sou :</l>
+	<l id='1891'>Mais je ne sais comment mon île est submergée,</l>
+	<l id='1892'>Ou bien pour mes péchés le Diable l'a mangée ;</l>
+	<l id='1893'>Que puisse-t-elle enfin étrangler ce gourmand !</l>
+</sp>
+<sp who='DOM QUICHOTTE'><speaker>DOM QUICHOTTE.</speaker>
+	<l id='1894'>Ne vous tourmentez point, suivez-moi seulement.</l>
+</sp>
+<sp who='SANCHE'><speaker>SANCHE.</speaker>
+	<l id='1895'>Allons où vous voudrez, Sanche n'est pas capable</l>
+	<l id='1896'>De vous abandonner, allassiez-vous au Diable :</l>
+	<l id='1897'>Poursuivez seulement le dessein d'être Roi,</l>
+	<l id='1898'>Je vous réponds toujours de mon âne et de moi.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

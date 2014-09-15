@@ -1,0 +1,2906 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>CASSANDRE COMTESSE DE BARCELONE, TRAGI-COMÉDIE</title>
+			<author born="1589" born_location="Caen" death="1662" death_location="Paris" academie="">BOISROBERT, François Le Métel de </author>
+			</titleStmt>
+			<publicationStmp>	
+				<publisher>publié par Paul FIEVRE, Janvier 2014</publisher>
+				<editor>Texte établi Mémoire de Maîtrise et présenté par dirigé par Georges Forestier Francisco Guevara Quiel Paris, 2002.</editor>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<type>prose</type>
+				<structure>Cinq actes</structure>
+				<periode>1661-1670</periode>
+				<taille>(mesure non pertinente)</taille>
+				<permalien></permalien>
+				<encodage>toto</encodage>
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">CASSANDRE</titlePart>
+			<titlePart type="sub">COMTESSE DE BARCELONE</titlePart>
+			<titlePart type="sub">TRAGI-COMÉDIE</titlePart>
+		</docTitle> 
+		<docDate value="1654">M. DC. LIV. AVEC PRIVILEGE DU ROI.</docDate>
+		<docAuthor id="BOISROBERT, François Le Métel de" bio="boisrobert"></docAuthor>
+		<docImprint>
+			<privilege id="1668-09-30"><head>Extrait du privilège du Roi</head>
+				<p>Le Roi, par ses Lettres Patentes, à permis au Sieur de  Bois-Robert Abbé de Chatillon-sur-Seine, de faire imprimer, vendre et débiter en tous lieux de son obéissance, deux pièces de Théâtre, intitulées la Cassandre, Comtesse de Barcelone, et l'autre, la belle Plaideuse ; et ce, durant dix ans entiers, à compter du jour que chacune desdites pièces sera achevée d'imprimer pour la première fois : avec défenses à toutes personnes de quelque qualité ou condition qu'elles soient, de les imprimer ni vendre, en aucun lieu de l'obéissance de sa Majesté, sans le consentement dudit Sieur de Bois-Robert, ou de ceux qui auront son droit, à peine de deux mille livres d'amende, de confiscation des exemplaires contrefaits, et de tous dépens, dommages et intérêt ; à condition qu'il en sera mis deux exemplaires de chacun desdits livres en la Bibliothèque de sa Majesté, et vn en celle de Monsieur Molé Garde des Seaux de France, avant que les exposer en vente, voulant qu'à l'extrait desdites Lettres qui sera mis au commencement ou à la fin desdits livres, foi soit ajoutée, et aux copies qui en seront dûment  collationnées comme à l'Original. Et que tous huissiers et sergents royaux, fassent pour l'exécution d'icelle tous exploits, et ne ce faire sans demander autre permission, comme il est plus au long porté par lesdites Lettres. DONNÉ à Paris le douzième mars mille six cens cinquante-quatre. Signé par le Roi en son Conseil, CONRARD. Et scellé du grand sceau de cire jaune sur simple queue.</p> 
+				<p>Et ledit Sieur de Bois-Robert Abbé de Chatillon, a cédé et transporté son droit de Privilège, à Augustin Courbé Marchand Libraire à Paris, suivant l'accord fait entre-eux.</p>
+				</privilege>
+				<acheveImprime id='1754-03-15'>Achevé d'imprimer pour la première fois, le quinzième jour du mars 1654. Les Exemplaires ont été fournis.</acheveImprime>
+			<printer id="COURBE">À PARIS, Chez AUGUSTIN COURBÉ, au Palais, en la Galerie des Merciers, à la Palme.</printer>
+		</docImprint>
+		<performance>
+			<premiere date="1653" location="Théâtre du Palais-Royal">Représentée pour la première fois à Paris sur le Théâtre de l'Hôtel de Bourgogne en 1653.</premiere>
+		</performance>
+		<div type="dedicace"><adresse>À MONSEIGNEUR LE DUC DE NEMOURS, ARCHEVEQUE ET DUC DE REIMS, Premier Pair de France.</adresse>
+			<head>MONSEIGNEUR,</head>
+			<p>Si vous vous souvenez que ce fut en votre présence, qu'une grande Princesse souffrit avec plaisir la première lecture qui a été faite de cette tragi-comédie ; Vous vous souviendrez aussi des avis  obligeants qui me furent donnés par Vous et par Elle, pour en augmenter les agréments ; et ainsi vous n'aurez pas été fort surpris de la grande réputation qu'elle s'est acquise. Mais vous aurez sans doute quelque sujet de vous étonner, de ce qu'aujourd'hui 			que je l'expose hardiment, et avec tant de confiance à la vue du monde, après la glorieuse approbation que vous lui avez donnée, j'ose vous demander pour elle une nouvelle protection. je sais bien, MONSEIGNEUR, que ce qui a eu une fois le don de vous plaire, et d'attirer vos louanges, ne doit plus appréhender le blâme ni le mépris. Je sais que cet esprit clairvoyant et judicieux, par lequel vous ne brillez pas moins que par la splendeur de votre naissance, a ses privilèges particuliers qui seraient respectés dans les académies les plus sûres. Aussi quelques couleurs que je donne à la vanité que j'ose montrer ici d'avoir mérité votre estime ; on voit bien que ce n'est pas tant une grâce que je vous demande, puisque j'apprends aux Lecteurs, que je l'ai déjà reçue, qu'un hommage que je vous rends, et que ce n'est pas tant un témoignage que je veux exiger de vous pour ma gloire, puisque vous l'avez déjà si bien établie, qu'un tribut que je cherche à payer à votre Vertu. Mais, MONSEIGNEUR, j'ai 			quelque sujet de craindre encore que ce dernier dessein ne me réussisse pas mieux que l'autre, comme je confesse ingénument, que je dois à vos bontés les principales grâces de cet ouvrage. On ne manquera pas de dire que c'est plutôt une restitution qu'un présent que je vous faits, et que quelque ardeur qui paraisse dans mon zèle, vous n'auriez rien reçu de moi, si vous ne m'aviez rien donné. Si les délicats s'avisent de me faire cette objection, souffrez que 			je leur réponde, que vous avez cela de commun avec les Dieux, dont vous tirez votre origine, que comme ils ne verraient point de fleurs ni de parfums sur leurs autels s'ils ne les avaient donnés aux hommes ; Ainsi, MONSEIGNEVR, si vous n'aviez répandu sur moi quelques rayons de vos propres grâces, je n'en connaissais point d'étrangères qui fussent dignes de vous, ni n'eusse jamais pu vous témoigner assez parfaitement de moi-même avec quel respect, et quelle vénération je suis, </p>
+			<p>MONSEIGNEUR,</p>
+			<p>De V. A.</p>
+			<p>Le très humble et très obéissant serviteur,</p>
+			<p>BOIS-ROBERT, Abbé de Châtillon.</p>
+			</div>
+			
+			<div type="preface"><head>AU LECTEUR.</head>
+			<p>Je m'assure, LECTEUR, que cette tragi-comédie, que toute la Cour et toute la Ville ont trouvée si belle sur le théâtre, ne te paraîtra guère moins agréable sur le papier, et que tu la trouveras aussi bien soutenue par la délicatesse et par la majesté de ses vers, que par la dignité de son sujet. Si Villegas Espagnol assez obscur, qui a été assez heureux pour trouver un si beau noeud, eut eu la même fortune dans le dénouement, cette seule production l'aurait sans doute égalé aux plus fameux inventeurs de sa nation, et de son siècle : Si comme cette pièce est assez rare, il arrive par hasard qu'elle vienne à tomber entre tes mains ; j'ai la vanité d'espérer que tu priseras peut-être moins les richesses et les profusions de l'auteur, que ma petite économie.</p>
+			</div>
+
+		<castList><head>LES NOMS DES ACTEURS</head>
+			<castItem><role id="CASSANDRE" civil="F" type="H" statut="comtesse" age="A" stat_amour="">CASSANDRE</role>, Comtesse de Barcelone.</castItem>
+			<castItem><role id="LE DUC DE CARDONE" civil="M" type="H" statut="régent" age="A" stat_amour="">LE DUC DE CARDONE</role>, Régent de Catalogne.</castItem>
+			<castItem><role id="ASTOLFE" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Cassandre">ASTOLFE</role>, Fils du Duc de Cardone, amoureux de Cassandre.</castItem>
+			<castItem><role id="ISABELLE" civil="F" type="H" statut="aristocrate" age="A" stat_amour="Moncade">ISABELLE</role>, Fille du Duc de Cardone, Amante de Moncade.</castItem>
+			<castItem><role id="DOM REMON DE MONCADE" civil="M" type="H" statut="zristocrate" age="A" stat_amour="Isabelle">DOM REMON DE MONCADE</role>, Amoureux d'Isabelle.</castItem>
+			<castItem><role id="DOM PEDRE D'ARAGON" civil="M" type="H" statut="aristocrate" age="A" stat_amour="Isabelle">DOM PEDRE D'ARAGON</role>, Amoureux d'Isabelle.</castItem>
+			<castItem><role id="DOM LOPE" civil="M" type="H" statut="capitaine" age="A" stat_amour="">DOM LOPE</role>, Capitaine des Gardes de la Princesse.</castItem>
+			<castItem><role id="BERALDE" civil="M" type="H" statut="écuyer" age="A" stat_amour="">BERALDE</role>, écuyer d'Astolfe.</castItem>
+			<castItem><role id="DOM BERNARD DE ROCCAS" civil="M" type="H" statut="gouverneur" age="A" stat_amour="">DOM BERNARD DE ROCCAS</role>, Gouverneur de la Princesse.</castItem>
+		</castList>
+<set location="Barcelone" country="Espagne" periode="XVIIème" link="">La scène est à Barcelone. </set>
+</front>
+<body>
+<div1 type="acte" n="1"><head>ACTE I</head>
+<div2 type="scene" n="1"><head>SCÈNE PREMIÈRE. Le Duc de Cardone, Astrolfe.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1">Enfin voici le jour tant de fois souhaité,</l>
+	<l id="2">Notre Princesse arrive à sa majorité,</l>
+	<l id="3">Mon fils, et de son choix nous attendons un maître,</l>
+	<l id="4">Que les plus clairvoyants encor n'ont pu connaître ;</l>
+	<l id="5"> Son esprit sur ce choix est trop irrésolu, </l>
+	<l id="6">Faisons qu'elle use enfin de son droit absolu ;</l>
+	<l id="7">Faisons qu'elle choisisse un brave et sage Prince,</l>
+	<l id="8">Et par ce digne choix rassurons la Province.</l>
+	<l id="9">Surtout, faisons, mon fils, qu'elle jette les yeux</l>
+	<l id="10"> Sur un Prince étranger qui nous appuiera mieux,</l>
+	<l id="11">Qui plus absolument pourra tout entreprendre,</l>
+	<l id="12">Et contre nos voisins nous saura mieux défendre ;</l>
+	<l id="13">Elle n'a pu souffrir ceux que j'ai proposez,</l>
+	<l id="14">J'ai beau vanter leur gloire, ils sont tous méprisés,</l>
+	<l id="15">Et cette aversion qu'elle a trop fait paraître,</l>
+	<l id="16">Me fait douter encor si nous aurons un maître.</l>
+	<l id="17">Cependant le temps presse, on voit que nos États</l>
+	<l id="18">Ont besoin d'une tête aussi bien que d'un bras ;</l>
+	<l id="19">Que par ce peuple fier l'autorité s'entame,</l>
+	<l id="20">Et qu'il vit à regret sous le joug d'une femme.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="21">Si vos sages conseils pour elle ont été vains,</l>
+	<l id="22">Croyez-vous que les miens renversent ses desseins ?</l>
+	<l id="23">Qu'elle s'explique à moi de toute sa pensée ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="24">Oui ; comme sur ce choix son âme est balancée,</l>
+	<l id="25">Vers le bien de l'État vous la ferez pencher,</l>
+	<l id="26">Et lui pourrez enfin son secret arracher.</l>
+	<l id="27">Avec elle élevé dés la plus tendre enfance</l>
+	<l id="28">Vous serez bien plus propre à cette confidence,</l>
+	<l id="29">Son coeur s'ouvrira mieux sans doute à vous qu'à moi.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE, bas.</speaker>
+	<l id="30">Dirai-je que j'attends des marques de sa foi ?</l>
+	<l id="31">Dirai-je que je l'aime, et que mon feu la touche ?</l>
+	<l id="32">Non, ayons-en devant le congé de sa bouche.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="33">Voyez-la donc, Astolfe, et lui faites juger</l>
+	<l id="34">L'appui qu'attend l'État du choix d'un étranger,</l>
+	<l id="35">Que les Ambassadeurs des Princes qui prétendent,</l>
+	<l id="36">Sont remis à ce jour pour ce choix qu'ils attendent ;</l>
+	<l id="37">Que chacun fait sa brigue, et qu'ils savent pourtant,</l>
+	<l id="38">Qu'elle seule peut tout en ce choix important ;</l>
+	<l id="39">Le brave Roussillon, le moins puissant en terre,</l>
+	<l id="40">A paru le plus âpre à nous faire la guerre.</l>
+	<l id="41">C'est un Prince vaillant qui peut recommencer,</l>
+	<l id="42">Je le préférerais pour moi sans balancer,</l>
+	<l id="43">Si le Roi d'Aragon paraît fier et bizarre,</l>
+	<l id="44">Comme il est plus puissant que le Roi de Navarre,</l>
+	<l id="45">Il nous défendra mieux, celui de Portugal</l>
+	<l id="46">Étant plus éloigné, nous ferait moins de mal :</l>
+	<l id="47">Enfin, elle a reçu les portraits de ces Princes,</l>
+	<l id="48">Elle sait leurs humeurs, et connaît leurs provinces.</l>
+	<l id="49">Ce grand choix dépend d'elle, elle n'en doute pas, </l>
+	<l id="50">Et de ce choix dépend le bien de ses États ;</l>
+	<l id="51">Sauvez-moi par ce choix du soin qui m'embarrasse,</l>
+	<l id="52">Le grand faix de l'État m'importune et me lasse ;</l>
+	<l id="53">Les Grands veulent un Maître, et le Peuple indiscret</l>
+	<l id="54">Croit que je quitterai la Régence à regret ;</l>
+	<l id="55">Sauvez-moi du murmure, et des uns et des autres,</l>
+	<l id="56">Si mes conseils sont bons, secondez-les des vôtres.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE, à part.</speaker>
+	<l id="57">Oui, Seigneur, sur ce point vous serez obéi,</l>
+	<l id="58">N'y réponds, pas mon coeur, ma bouche t'a trahi ;</l>
+	<l id="59">Mais voici la Princesse à qui je ne puis taire.</l>
+</sp>
+</div2>
+<div2 type="scene" n="2"><head>SCÈNE II. Astolfe, Cassandre, Doris.</head>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="60">Qu'on ne m'en parle plus à moins que me déplaire :</l>
+	<l id="61">Ah c'est trop me presser sur ce choix odieux !</l>
+	<l id="62">Ne précipitons rien, laissons-le faire aux Dieux.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE, à part.</speaker>
+	<l id="63">Ô Dieux que ce discours me donne lieu de craindre,</l>
+	<l id="64">Je ne puis plus, Madame, à vos yeux me contraindre,</l>
+	<l id="65">Voyez les maux cruels qui me sont préparés,</l>
+	<l id="66">Mon père et les Destins contre moi conjurés.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="67">Astolfe, allez chercher votre soeur Isabelle.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="68" part='i'>Souffrez qu'auparavant.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="68" part='f'>Vite j'ai besoin d'elle.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="69" part='i'>Sans m'écouter, Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="69" part='f'>Allez-y de ce pas,</l>
+	<l id="70">Obéissez, vous dis-je, et ne répliquez pas.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE, à part.</speaker>
+	<l id="71">Quel accueil, justes Dieux, quelle atteinte à mon âme.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Dom Remond de Moncade, Dom Pedre d'Aragon, Cassandre, Dom Lope, Capitaine des gardes.</head>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="72">Dom Remon de Moncade et Dom Pedre, Madame,</l>
+	<l id="73" part='i'>Viennent vers votre Altesse.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="73" part='f'>Ah je ne doute point</l>
+	<l id="74">Qu'ils ne viennent encor me presser sur ce point ;</l>
+	<l id="75">Rentrons Don Lope, il faut que je les abandonne,</l>
+	<l id="76">En l'humeur où je suis je n'écoute personne.</l>
+</sp>
+<sp who="MONCADE"><speaker>DON REMON DE MONCADE.</speaker>
+	<l id="77">Dom Pedre, je le veux, si le Ciel l'a permis,</l>
+	<l id="78">Nous pouvons demeurer rivaux, et bons amis,</l>
+	<l id="79">Qu'un intérêt d'amour jamais ne désunisse,</l>
+	<l id="80">Deux coeurs tout pleins d'honneur, et qui se font justice.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="81">Suivons doncques l'accord entre-nous arrêté, </l>
+	<l id="82">Moncade, aimons tous deux cette jeune beauté ;</l>
+	<l id="83">Par un mérite égal nous la pouvons prétendre,</l>
+	<l id="84">Le Duc avec plaisir m'accepterait pour gendre ;</l>
+	<l id="85">Je crois qu'avecque joie il vous prendrait aussi,</l>
+	<l id="86">Mais ce n'est pas de là que naît notre souci.</l>
+	<l id="87">Avant que lui parler plaisons à cette belle,</l>
+	<l id="88">Que celui qui sera favorisé par elle</l>
+	<l id="89">S'en prévaille, et l'emporte, et que le malheureux,</l>
+	<l id="90">Cède sans murmurer à son sort rigoureux.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="91">J'accepte le parti, mais si je ne m'abuse,</l>
+	<l id="92">Sans employer près d'elle ou l'adresse ou la ruse,</l>
+	<l id="93">Je puis embarrasser mon généreux rival,</l>
+	<l id="94">Je crois sans vanité que je n'y suis pas mal.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="95">Pour moi, si par ses yeux j'ai pu lire en son âme,</l>
+	<l id="96">Elle n'a rejeté ni mes voeux ni ma flamme ;</l>
+	<l id="97">Encor que mes respects lui cachent mes désirs,</l>
+	<l id="98">Elle en doit deviner l'ardeur par mes soupirs,</l>
+	<l id="99">Et si je ne me trompe elle entend ce langage.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="100">J'ai de son agrément un plus sûr témoignage, </l>
+	<l id="101">Vous lui faites parler vos soupirs et vos yeux,</l>
+	<l id="102">Je faits parler ma bouche, elle s'explique mieux.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="103">Que sert de cajoler une jeune merveille,</l>
+	<l id="104">Si le coeur ne reçoit ce qu'a reçu l'oreille ?</l>
+	<l id="105">Un soupir entendu de l'objet que l'on sert,</l>
+	<l id="106">Est plus fort que la voix qui s'échappe et se perd,</l>
+	<l id="107">Et je suis fort trompé si jamais une oeillade</l>
+	<l id="108">A payé l'éloquence et les soins de Moncade ;</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="109">Je ne sais si ma voix pour elle a des appas,</l>
+	<l id="110">Mais je sais que mes soins ne lui déplaisent pas.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="111">Moi j'ai plus que cela, car je lui puis écrire</l>
+	<l id="112">Ce qu'inutilement Moncade a pu lui dire.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="113">Vous lui pouvez écrire ? Et moi sans vanité</l>
+	<l id="114">J'ai pareil avantage et même liberté,</l>
+	<l id="115">Et dans ce jour la belle aura de mes nouvelles.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="116">Enfin pour m'assurer ce miracle des belles,</l>
+	<l id="117">J'ai gagné chez le Duc un zélé partisan ;</l>
+	<l id="118">Beralde cet adroit et rusé courtisan,</l>
+	<l id="119">Qui les gouverne tous, m'a promis de remettre</l>
+	<l id="120">Dans les mains d'Isabelle aujourd'hui cette lettre,</l>
+	<l id="121">Et par là j'apprendrai si j'y suis bien ou mal,</l>
+	<l id="122">Et si j'ai lieu de craindre ou braver un rival.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="123">Puis que vous me parlez avec tant de franchise</l>
+	<l id="124">Sachez que même chose aujourd'hui m'est promise,</l>
+	<l id="125">Par le même Beralde, et qu'il doit ce matin,</l>
+	<l id="126">Régler par ce billet mon amoureux destin.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="127">Il vient tout à propos ; puisqu'il connaît nos flammes,</l>
+	<l id="128">Et qu'il a su par nous le secret de nos âmes,</l>
+	<l id="129">Qu'on lui découvre aussi quel est ce juste accord,</l>
+	<l id="130">Entre nous arrêté, qui règle notre sort.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="131">Je le veux, apprenons sur son rapport fidelle</l>
+	<l id="132">Qui de vous ou de moi plaist aux yeux d'Isabelle,</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Dom Pedre, Moncade, Beralde.</head>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="133">Beralde se souvient de ce qu'il m'a promis.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="134" part='i'>Oui, Seigneur.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="134" part='f'>Apprenez que nous sommes amis</l>
+	<l id="135">Ce qui dans deux rivaux semble chose assez rare,</l>
+	<l id="136">Que nous ne voulons point que l'amour nous sépare,</l>
+	<l id="137">Qu'esclaves d'Isabelle, et sans être jaloux,</l>
+	<l id="138">Nous lui faisons justice en l'aimant, comme à nous.</l>
+	<l id="139">Comme nous ignorons le fonds de sa pensée,</l>
+	<l id="140">Nous craignons justement qu'elle ne fût blessée,</l>
+	<l id="141">Si mon rival ou moi la faisions demander,</l>
+	<l id="142">Sans savoir si son coeur s'y pourrait accorder ;</l>
+	<l id="143">Car je ne voudrais pas posséder cette belle,</l>
+	<l id="144">Si quelque aversion se rencontrait en elle.</l>
+	<l id="145">Nous nous sommes flattez de ne déplaire pas</l>
+	<l id="146">À ce divin objet rempli de tant d'appas</l>
+	<l id="147">Étalant notre gloire avec assez de pompe :</l>
+	<l id="148">Mais il faut ou que l'un ou que l'autre se trompe,</l>
+	<l id="149">Car il peut être enfin que sa civilité</l>
+	<l id="150">Seule a produit l'éclat de notre vanité.</l>
+	<l id="151">Beralde qui peut tout dans toute la famille,</l>
+	<l id="152">Et qui connaît l'esprit de cette aimable fille,</l>
+	<l id="153">Pourrait bien découvrir qui des deux dans son coeur</l>
+	<l id="154">Aurait plus davantage à s'en rendre vainqueur,</l>
+	<l id="155">S'il veut fidèlement tenter cette aventure,</l>
+	<l id="156">Qui sera malheureux cédera sans murmure.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="157">Oui, s'il se trouve en grâce, et moi dans le malheur,</l>
+	<l id="158">Je cède sans murmure, et non pas sans douleur,</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="159">Certes je suis ravi de voir tant de justice,</l>
+	<l id="160">En deux coeurs amoureux, et si peu de caprice,</l>
+	<l id="161">Comme je vous honore et prise également,</l>
+	<l id="162">J'aime bien à vous voir ce noble sentiment.</l>
+	<l id="163">C'est une belle chose et rare ce me semble,</l>
+	<l id="164">Que voir vivre l'amour et la raison ensemble,</l>
+	<l id="165">Qui possède en tyran contente son désir,</l>
+	<l id="166">Mais il n'a que trois jours de solide plaisir :</l>
+	<l id="167">C'est de là que sont nés tant de mauvais ménages, </l>
+	<l id="168">Et tant de discordants et fâcheux mariages ;</l>
+	<l id="169">Puisque vous consentez que sur mon seul rapport</l>
+	<l id="170">Isabelle décide aujourd'hui votre sort,</l>
+	<l id="171">J'ose vous assurer que d'une âme loyale</l>
+	<l id="172">J'agirai pour tous deux avec adresse égale.</l>
+	<l id="173">Enfin sans votre accord j'étais fort empêché,</l>
+	<l id="174">Car vous m'avez tous deux également touché ;</l>
+	<l id="175">Et n'en pouvant servir l'un, sans déplaire à l'autre</l>
+	<l id="176">Mon embarras était aussi grand que le vôtre.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="177">M'avez vous pas promis de donner ce billet ?</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+<note type="L">Poulet : signifie aussi un petit billet amoureux qu'on envoie aux Dames galantes, ainsi nommé, parce qu'en le pliant on y faisait deux pointes qui representaient les ailes d'un poulet. [F]</note>
+	<l id="178">M'avez vous pas promis de rendre ce poulet ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="179">J'ai promis l'un et l'autre, et suis prêt à le faire.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="180">Puisqu'ils parlent pour nous, Beralde se peut taire ;</l>
+	<l id="181">Mais il peut découvrir aux mouvements des yeux</l>
+	<l id="182">Et par les actions qui lui plaira le mieux.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="183">Je laisse avec le mien, ce diamant pour gage,</l>
+	<l id="184">Que si je suis choisi, vous aurez davantage.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="185">Je laisse avec le mien cet autre diamant :</l>
+	<l id="186">Et je fais à Beralde un solennel serment,</l>
+	<l id="187">Que si l'objet aimé favorise ma flamme,</l>
+	<l id="188">Il peut tout sur mes biens ainsi que sur mon âme.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="189">Je lui fais la même offre, et si je ne la tiens</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="190">Enfin si je vous sers, ce n'est point pour vos biens,</l>
+	<l id="191">C'est pour celui du Duc qu'ici je m'intéresse,</l>
+	<l id="192">L'un ou l'autre ne peut épouser ma maîtresse,</l>
+	<l id="193">Qu'il n'en reçoive honneur, moi je prends seulement</l>
+	<l id="194">Vos présents, pour montrer mon coeur plus franchement ;</l>
+	<l id="195">Et je prends de tous deux, pour vous montrer encore</l>
+	<l id="196">Qu'avec égalité tous deux je vous honore.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="197" part='i'>Allons vers la Princesse.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="197" part='f'>Allons, et découvrons, </l>
+	<l id="198">S'il est possible enfin, quel maître nous aurons.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='BERALDE'><speaker>BERALDE, seul.</speaker>
+	<l id="199">J'ai ce me semble été bien léger à promettre,</l>
+	<l id="200">De rendre à leur maîtresse et l'une et l'autre lettre,</l>
+	<l id="201">Qui prend, s'engage enfin, que sert de contester,</l>
+	<l id="202">Quoi qu'elle en puisse dire, il les faut présenter,</l>
+	<l id="203">Quel péril de servir deux seigneurs d'importance,</l>
+	<l id="204">Dont la haute fortune égale la naissance !</l>
+	<l id="205">Quand Isabelle au fonds aurait autre penser,</l>
+	<l id="206">Le Duc n'y verra rien qui le puisse blesser :</l>
+	<l id="207">Profitons de l'amour de ces deux personnages ;</l>
+	<l id="208">Mais si j'en veux tirer de plus grands avantages,</l>
+	<l id="209">Il faut faire durer la chose adroitement,</l>
+	<l id="210">La cacher à mon maître, et fourber galamment.</l>
+	<l id="211">Je n'en puis servir l'un, que l'autre je n'offense,</l>
+	<l id="212">Desservant l'un aussi, l'autre prend ma défense,</l>
+	<l id="213">Dom Pedre est le plus chaud, si j'en sais bien juger, </l>
+	<l id="214">Il faut donc prendre peine à le mieux ménager.</l>
+	<l id="215">Mais sans suscription ces poulets on envoie,</l>
+	<l id="216">Ils sont égaux de taille, et différent en soie,</l>
+	<l id="217">Que veut dire Dom Pedre avec son bleu mourant ?</l>
+	<l id="218">Le vert de l'autre marque un espoir apparent.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+<sp who='ASTOLFE'><speaker>ASTOLFE, surprenant Beralde lui arrache ces deux lettres.</speaker>
+	<l id="219">De qui sont ces poulets sont-ils d'une maîtresse.</l>
+</sp>
+<sp who='BERALDE'><speaker>BERALDE, surpris.</speaker>
+	<l id="220">On me les a donnés pour rendre à la Princesse.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="221" part='i'>À la Princesse !</l>
+</sp>
+<sp who='BERALDE'><speaker>BERALDE, à part.</speaker>
+	<l id="221" part='f'>Ô dieux ! Que je suis interdit,</l>
+	<l id="222">Ô cruelle surprise, insensé qu'ai-je dit ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="223" part='i'>Pour rendre à la Princesse ? </l>
+</sp>
+<sp who='BERALDE'><speaker>BERALDE, à part.</speaker>
+	<l id="223" part='f'>Ah ! Je lui devais dire,</l>
+	<l id="224">Qu'à sa soeur ces rivaux avaient raison d'écrire,</l>
+	<l id="225" part='i'>Ô maudit intérêt.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, bas.</speaker>
+	<l id="225" part='f'>J'ai lieu d'être jaloux.</l>
+	<l id="226">Je les rendrai moi-même, allez retirez vous.</l>
+	<l id="227">Qui donc si hardiment ose écrire à Cassandre ?</l>
+	<l id="228">En ouvrant ces billets, nous le pourrons apprendre,</l>
+	<l id="229">Voyons, c'est de Moncade, ô dieux ! Qui l'eût pensé !</l>
+	<l id="230">Puisqu'il s'est librement jusques là dispensé,</l>
+	<l id="231">Il faut qu'il soit aimé, sans doute il le doit être,</l>
+	<l id="232">De là naît la froideur qu'elle m'a fait paraître,</l>
+	<l id="233">Et de là vient encor qu'on n'a peu l'engager</l>
+	<l id="234">Au choix déterminé d'aucun Prince étranger,</l>
+	<l id="235">N'osant pas m'annoncer cette dure nouvelle,</l>
+	<l id="236">Pour me la faire entendre elle mande Isabelle.</l>
+	<l id="237">Quoi Moncade, d'écrire a pris la liberté !</l>
+	<l id="238">Quoi, j'aurais un rival, plus chéri, mieux traité ?</l>
+	<l id="239">Relisons ce billet, tâchons d'y mieux connaître.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Cassandre, Moncade, Astolfe.</head>
+<stage>Astolfe, lit toujours, et ne voit point la Princesse.</stage>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="240">Oui, je ferai mon choix, oui, vous aurez un maître.</l>
+	<l id="241" part='i'>Qu'on ne m'en parle plus.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, lit tout haut.</speaker>
+	<l id="241" part='f'>Puisque vous connaissez le sang.</l>
+	<l id="242">De Moncade Madame.</l>
+	<l id="243">Puisque vous connaissez son rang.</l>
+	<l id="244">Daignez connaître aussi son respect et sa flamme.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="245">Ô dieux le lâche tour,</l>
+	<l id="246">C'est ma lettre, et Beralde a trahi mon amour.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, à Moncade.</speaker>
+	<l id="247">Quelle lecture occupe Astolfe de la sorte,</l>
+	<l id="248">Il ne nous a point vus, ce billet le transporte, </l>
+<stage>Elle arrache la lettre à Astolfe. </stage>
+	<l id="249">Il attache son âme aussi bien que ses yeux,</l>
+	<l id="250">Vous savez qu'une fille a l'esprit curieux,</l>
+	<l id="251">D'où vous vient ce billet, voyons qui vous l'envoie,</l>
+	<l id="252">Vous vous fâchez en vain, il faut que je le voie.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, bas.</speaker>
+	<l id="253">L'ingrate de Moncade a reconnu la main,</l>
+	<l id="254" part='i'>Et retire sa lettre.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE,à part.</speaker>
+	<l id="254" part='f'>Il s'est ému soudain,</l>
+	<l id="255">De cette émotion je devine la cause,</l>
+	<l id="256">Astolphe, dans l'esprit, vous avez quelque chose,</l>
+	<l id="257">Répondez sans contrainte, et sans vous étonner.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="258">Mon mal est bien aisé, Madame, à deviner,</l>
+	<l id="259">Et je serais sans coeur si j'étais insensible.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="260">Il condamne mon feu la chose est trop visible,</l>
+	<l id="261">Et veu ma qualité, j'en suis assez surpris.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, bas.</speaker>
+	<l id="262" part='i'>D'où lui vint ce billet.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="262" part='f'>D'où lui vient ce mépris ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="263">Quelque surprise ici vous brouille la cervelle.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="264">Rien ne surprend si fort qu'une flamme nouvelle.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="265">Ce que vous avez lu vous touche fort au coeur.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="266" part='i'>Oui, Madame.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="266" part='f'>Ai-je écrit pour outrager sa soeur ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="267">Je ne puis plus cacher ce que souffre mon âme.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="268">Je devais mieux cacher cette lettre, Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="269">Elle a trop éclaté, n'y pensons plus ; Adieu. </l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="270">Puisque mon feu, Madame, a paru dans ce lieu,</l>
+	<l id="271">Je n'en veux donc plus faire un secret, ni m'en taire.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="272">La déclaration ne peut être plus claire.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, en s'en allant.</speaker>
+	<l id="273" part='i'>Malheureuse Cassandre.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="273" part='f'>Ô malheureux amant.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="274">Suivons-la pour lui dire enfin tout mon tourment :</l>
+	<l id="275">Car je n'attends plus rien de cet injuste frère.</l>
+<stage>Elle emporte ma lettre.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Astolfe, Moncade.</head>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="276">Et je pourrai m'en taire ?</l>
+	<l id="277">Je souffrirai sans bruit ce coup de désespoir ?</l>
+	<l id="278">Moncade, hors d'ici, je désire vous voir.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="279" part='i'>Pourquoi ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="279" part='f'>Pour vous prier de me tirer de peine.</l>
+	<l id="280">Il faut vous désister d'une recherche vaine.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="281">Moi, je mourrais plutôt que de m'en désister,</l>
+<stage>Bas.</stage>
+	<l id="282">Ah ! Ce cruel mépris ne se peut supporter ;</l>
+	<l id="283">Astolfe, suis-je donc de si basse naissance,</l>
+	<l id="284">Que je n'ose aspirer à si haute alliance ?</l>
+	<l id="285">D'où vous naissent enfin ces rigoureux dédains ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="286">Moncade, je ne puis approuver vos desseins, </l>
+	<l id="287">Ni je ne puis ici vous en dire la cause.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="288">Je fondais mon espoir en vous sur toute chose,</l>
+	<l id="289">Je croyais si mes voeux n'étaient pas écoutés,</l>
+	<l id="290">Qu'au moins par votre bouche on les verrait flattés ;</l>
+	<l id="291">J'espérais si l'amour m'étais peu favorable,</l>
+	<l id="292">Qu'en vous je trouverais un ami secourable,</l>
+	<l id="293">Qui voyant perdre en l'air mes pleurs et mes soupirs,</l>
+	<l id="294">Me viendrait consoler de tous mes déplaisirs ;</l>
+	<l id="295">Déjà je regardais Astolfe comme un frère,</l>
+	<l id="296">Et c'est lui cependant qui m'est le plus contraire :</l>
+	<l id="297">Mais comme en cette humeur j'attends du changement,</l>
+	<l id="298">Je n'ose à ses mépris repartir aigrement,</l>
+	<l id="299">Il m'est trop important au dessein qui m'arrête,</l>
+	<l id="300">Que vous m'aidiez, Astolfe, à faire ma conquête ;</l>
+	<l id="301">Il m'est trop important que nous soyons amis.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="302">Vous vous abusez fort de vous l'être promis,</l>
+	<l id="303" part='i'>Je ne puis jamais l'être, adieu.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, seul.</speaker>
+	<l id="303" part='f'>Quelle injustice. </l>
+	<l id="304">D'où lui vient ce mépris, d'où lui naît ce caprice ?</l>
+	<l id="305">Si j'apprends qu'Isabelle ait un mépris pareil,</l>
+	<l id="306">Enfin de la raison nous suivrons le conseil.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='1'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Isabelle, Astolfe.</head>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="307">D'où vous naît ce chagrin, mon frère qu'avez-vous ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="308">Je ne puis résister à de si rudes coups,</l>
+	<l id="309">Et n'ayant plus d'espoir, je n'ai plus de courage :</l>
+	<l id="310">Ma soeur, il faut mourir, la Princesse est volage.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="311">Quelle preuve avez-vous de sa légèreté ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="312">Avec un fier mépris, l'ingrate m'a quitté,</l>
+	<l id="313">J'ai vu dans un billet son amitié nouvelle : </l>
+	<l id="314">Et c'est Moncade enfin qui la rend infidèle.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, bas.</speaker>
+	<l id="315">Moncade ? Ah s'il est vrai je suis au désespoir.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="316">D'où naît l'émotion que vous me faites voir ?</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="317">Votre seul intérêt la fait naître, mon frère,</l>
+	<l id="318">La Princesse changer ? Ce coup me désespère.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="319">Vous avez bien sujet de vous en étonner,</l>
+	<l id="320">On avait cette lettre encor à lui donner,</l>
+	<l id="321">Vous verrez ce que c'est, ma soeur, je vous la laisse.</l>
+<stage>Il voit venir la Princesse.</stage>
+	<l id="322">Adieu, vos propres yeux y verront sa faiblesse.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Isabelle, Cassandre.</head>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="323">Av moment qu'il me voit il s'enfuit brusquement</l>
+	<l id="324">L'ingrat, d'où lui peut naître un si prompt changement ?</l>
+	<l id="325" part='i'>Que vois-je ?</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="325" part='f'>Il est jaloux, Madame, et c'est tout dire ;</l>
+	<l id="326">Le malheureux qu'il est souffre un cruel martyre,</l>
+	<l id="327">Vos mépris ont causé son déplaisir secret,</l>
+	<l id="328">Il s'en va, mais je sais qu'il vous quitte à regret.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="329">Quoi le traître m'accuse, hé ! Qu'est-ce qu'il peut craindre ?</l>
+	<l id="330">Oyez qui de nous deux a sujet de se plaindre,</l>
+	<l id="331">Apprenez, Isabelle, apprenez ses mépris,</l>
+	<l id="332">Il ne s'en peut défendre, enfin je l'ai surpris,</l>
+	<l id="333">Vous savez si j'aimais l'ingrat avec tendresse ;</l>
+	<l id="334">Hélas vous avez vu ma première faiblesse ;</l>
+	<l id="335">Et je n'en puis cacher une autre en confessant</l>
+	<l id="336">Qu'on l'aimerait encor s'il était innocent,</l>
+	<l id="337">Mais qui l'excuserait tenterait l'impossible,</l>
+	<l id="338">J'ai de son inconstance un témoin trop visible.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="339">Un témoin trop visible ? Ah que vous m'étonnez</l>
+	<l id="340">Croyez moi, c'est à tort que vous le soupçonnez.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="341">J'ai tantôt de ses mains cette lettre arrachée,</l>
+	<l id="342">Et j'en ai vu son âme étrangement touchée ;</l>
+	<l id="343">Dans cette émotion son esprit s'est perdu,</l>
+	<l id="344">Que je l'ai vu surpris, qu'il s'est mal défendu.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="345">Mais que dit cette lettre encor, l'avez-vous lue ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="346">Non ; car cent importuns qui m'ont toujours tenue,</l>
+	<l id="347" part='i'>Ne me l'ont peu permettre.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="347" part='f'>Enfin examinons </l>
+	<l id="348">Si c'est avec raison que nous le condamnons.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, lit la lettre de Moncade.</speaker>
+	<l id="349">Avant que de faire éclater,</l>
+	<l id="350">La Passion incomparable,</l>
+	<l id="351">Par qui je me laisse flatter,</l>
+	<l id="352">Voyez si pour vous mériter</l>
+	<l id="353">J'ai quelque qualité qui vous soit agréable.</l>
+	<l id="354">Puisque vous connaissez le sang</l>
+	<l id="355">De Moncade, Madame,</l>
+	<l id="356">Puisque vous connaissez son rang,</l>
+	<l id="357">Daignez connaître aussi son respect et sa flamme.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="358">Madame, qu'est-ce ceci, cette lettre s'adresse</l>
+	<l id="359" part='i'>À vous.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="359" part='f'>De Dom Remon i'y voy la hardiesse.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, bas.</speaker>
+	<l id="360">C'est à moi que l'ingrat devait écrire ainsi.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="361">L'innocence d'Astolfe y paraît claire aussi.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="362">Je vous l'avais bien dit qu'il serait impossible,</l>
+	<l id="363">Que pour un autre objet mon frère fût sensible ;</l>
+	<l id="364">J'ai trop vu ses respects, j'ai trop connu son coeur,</l>
+	<l id="365">Vous en jugiez, Madame, avec trop de rigueur.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="366">Oui je condamne enfin mon injuste caprice ;</l>
+	<l id="367">Et je me veux résoudre à lui faire justice :</l>
+	<l id="368">Mais Moncade sans doute est vain de présumer</l>
+	<l id="369">Qu'il puisse en m'écrivant m'obliger à l'aimer.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="370">Mais, Madame, est-ce à vous que Moncade ose écrire ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="371">Il a plus fait encore ayant osé me dire,</l>
+	<l id="372">Que puis que son amour avait tant éclaté,</l>
+	<l id="373">Admirez cette audace, et cette vanité,</l>
+	<l id="374">Il n'en voulait plus faire un secret, ny s'en taire.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="375">Oui sans doute, Madame, il est trop téméraire, </l>
+	<l id="376">Et mériterait bien qu'on lui fit ressentir,</l>
+	<l id="377">De cette vaine audace un cuisant repentir.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="378">Je suivrai vos conseils, et croyez Isabelle,</l>
+	<l id="379">Qu'Astolfe aura le prix de son amour fidèle,</l>
+	<l id="380">Hola, qu'on cherche Astolfe, et qu'on l'amène ici.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="381">J'admire vos bontés de le traiter ainsi,</l>
+<stage>Un valet vient.</stage>
+	<l id="382">Madame il va passer de la mort à la gloire ;</l>
+	<l id="383">Tantôt, de ses malheurs me racontant l'histoire,</l>
+	<l id="384">Il m'a mis cette lettre encore entre les mains,</l>
+	<l id="385" part='i'>Qu'il croit être pour vous.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="385" part='f'>Voyons la, je le plains.</l>
+<stage>Cassandre lit.</stage>
+	<l id="386">« Souffrez adorable Isabelle,</l>
+	<l id="387">Qu'un amant discret et fidèle</l>
+	<l id="388">Vous découvre sa passion,</l>
+	<l id="389">Vous connaissez le sang illustre d'Aragon. »</l>
+	<l id="390">C'est à vous qu'on l'écrit. </l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+<stage>Elle lit.</stage>
+	<l id="391">« Souffrez que je la voie </l>
+	<l id="392">Dom Pedre d'Aragon est celui qui l'envoie,</l>
+	<l id="393">D'où naît la passion de cet homme imprudent,</l>
+	<l id="394">Et d'où vient que mon frère en est le confident »</l>
+	<l id="395">Sans m'en avoir rien dit ? A-t-il l'âme troublée ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="396">La flamme de Dom Pedre est un peu mieux réglée.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="397">Elle n'est pas plus juste, et ce vain amoureux</l>
+	<l id="398">N'en doit jamais attendre ce succès plus heureux,</l>
+	<l id="399" part='i'>Astolfe vient à nous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Astolfe, Cassandre, Isabelle.</head>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="399" part='f'>Que voulez vous Madame</l>
+	<l id="400">Enfin, prétendez vous arracher de mon âme</l>
+	<l id="401">Cette amour immortelle, et ces feux éternels, </l>
+	<l id="402">Que vous avez trop tard reconnus criminels ?</l>
+	<l id="403">Pourquoi permettiez-vous qu'ils y prissent racines,</l>
+	<l id="404">Pourquoi rendant hommage à vos beautés divines,</l>
+	<l id="405">Me laissiez-vous flatter par un espoir si doux,</l>
+	<l id="406">L'ayant souffert enfin, pourquoi le chassez-vous ?</l>
+	<l id="407">D'où naît cette rigueur, qui vous a fait connaître,</l>
+	<l id="408">Qu'on peut guérir d'un mal que vos yeux ont fait naître ?</l>
+	<l id="409">Pourquoi me préférer un rival glorieux,</l>
+	<l id="410">Si ma flamme a brillé la première à vos yeux ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="411">J'aime bien à vous voir cette noble colère,</l>
+	<l id="412">Ces beaux emportements ne me sauraient déplaire</l>
+	<l id="413">Puis qu'ils sont les témoins d'une immuable ardeur,</l>
+	<l id="414">Dont j'aime la durée ainsi que la grandeur.</l>
+	<l id="415">Sachez, puis qu'à mes yeux votre innocence éclate,</l>
+	<l id="416">Que Cassandre à vos voeux ne fut jamais ingrate,</l>
+	<l id="417">Qu'elle vous crut volage et hors de son pouvoir,</l>
+	<l id="418">Et qu'elle souhaitait, ce qu'elle vient de voir ;</l>
+	<l id="419">Je veux, puis qu'il est vrai que vous m'aimez sans feinte,</l>
+	<l id="420">Vous découvrir aussi mon âme sans contrainte ;</l>
+	<l id="421">Et vous dire moi-même un important secret,</l>
+	<l id="422">Que même à votre soeur je fuyais à regret ;</l>
+	<l id="423">Puisqu'une passion si belle et si connue,</l>
+	<l id="424">Ne doit plus m'engager à tant de retenue.</l>
+	<l id="425">Sachez donc que ce choix dont on nous presse tant,</l>
+	<l id="426">Ce choix, pour nos États, et pour nous important</l>
+	<l id="427">Ne regarde qu'Astolfe, et non pas tous ces Princes,</l>
+	<l id="428">Qui m'offrent leur amour ainsi que leurs provinces,</l>
+	<l id="429">Que votre souveraine a jeté l'oeil sur vous,</l>
+	<l id="430">Et qu'elle entend vous faire aujourd'hui son époux.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="431">Quel heur inespéré ! Quelle gloire ! Ah ! Madame,</l>
+	<l id="432">C'est trop pour mon mérite, et non pas pour ma flamme,</l>
+	<l id="433">Elle emporterait tout, si je la mesurais,</l>
+	<l id="434">Avecques la puissance, et des Dieux, et des Rois.</l>
+	<l id="435">Sachez que c'est l'éclat qui vos yeux environne,</l>
+	<l id="436">Qui me tente et me charme, et non votre couronne,</l>
+	<l id="437">Par lui je suis esclave, et n'étais que sujet,</l>
+	<l id="438">Du sceptre qu'une autre âme aurait eu pour objet.</l>
+	<l id="439">Par lui vous effacez les autres souveraines,</l>
+	<l id="440">Et surpassez l'éclat des plus superbes Reines,</l>
+	<l id="441">Celles de qui l'Empire a paru le plus doux,</l>
+	<l id="442">N'ont jamais mérité tant de sujets que vous,</l>
+	<l id="443">Aussi le suis-je encore, et le veux toujours être,</l>
+	<l id="444">De celle qui m'élève et qui m'érige en maître,</l>
+	<l id="445">Je prendrai quelque part à votre autorité,</l>
+	<l id="446">Pour appuyer le trône où je serai monté ;</l>
+	<l id="447">Mais comme un autre Atlas après cette victoire, </l>
+	<l id="448">J'aurai toute la charge, et vous toute la gloire.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="449">Que ne devons nous point, Madame, à vos bontés.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="450">Ne différons donc plus l'heur que vous méritez.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="451">Souffrez, puis qu'il vous plaît, Madame, que j'espère,</l>
+	<l id="452">Que je puisse annoncer cette gloire à mon père.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="453">C'était bien ma pensée, oui, ne lui cachez rien.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="454">Je crains fort son esprit, le connaissez vous bien,</l>
+	<l id="455" part='i'>Madame ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="455" part='f'>Oui c'est un homme ardent et magnanime,</l>
+	<l id="456">Qui pour sauver l'État s'en ferait la victime,</l>
+	<l id="457">Qui m'aime avec tendresse, et qui d'un même coeur,</l>
+	<l id="458" part='i'>Embrasse mes États.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="458" part='f'>Ces raisons me font peur,</l>
+	<l id="459">Vous connaissez son coeur, moi sa délicatesse,</l>
+	<l id="460">Comme il voit nos voisins nous quereller sans cesse,</l>
+	<l id="461">Il s'est mis dans l'esprit qu'il faut vous engager,</l>
+	<l id="462">Pour nous défendre mieux, au choix d'un étranger.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="463">Il connaît votre coeur dont il doit tout attendre,</l>
+	<l id="464">Vos bras, et ses conseils nous sauront bien défendre ;</l>
+	<l id="465">Comme il aime son sang, et qu'il en sait le pris,</l>
+	<l id="466" part='i'>Il agréera mon choix,</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="466" part='f'>Il en sera surpris ;</l>
+	<l id="467">Madame, excusez moi si j'ose encor vous dire,</l>
+	<l id="468">Que je crains d'autant plus qu'ardemment je désire.</l>
+	<l id="469">Je sais jusqu'à quel point le Duc est délicat,</l>
+	<l id="470">Sur les moindres soupçons qui regardent l'État ;</l>
+	<l id="471">Ce n'est pas, croyez-moi, sans raison que je tremble ;</l>
+	<l id="472">Il me souvient qu'un jour nous discourions ensemble,</l>
+	<l id="473">Sur ce choix, sur votre âge, et sur les soins ardents</l>
+	<l id="474">Que témoignaient déjà les divers prétendants ;</l>
+	<l id="475">Il regardait de l'un le mérite et la grâce </l>
+	<l id="476">Mais appuyant de l'autre, et la force et l'audace,</l>
+	<l id="477">C'est celui-là que doit la Princesse choisir,</l>
+	<l id="478">Dit-il, si sa raison s'accorde à son désir.</l>
+	<l id="479">J'admirai les raisons qu'il dit sur chaque Prince,</l>
+	<l id="480">Ensuite examinant les grands de la Province</l>
+	<l id="481">Qui pouvaient y prétendre, et me nommant entre eux,</l>
+	<l id="482">Notre destin, dit-il, n'est pas assez heureux</l>
+	<l id="483">Pour espérer ce choix quoi que j'en vaille un autre,</l>
+	<l id="484">Ce n'est pas ma pensée, et ce n'est pas la vôtre,</l>
+	<l id="485">Mais si Cassandre avait jeté les yeux sur vous,</l>
+	<l id="486">Je voudrais vous voir mort plutôt que son époux ;</l>
+	<l id="487">Je ne veux pas, dit-il, donner prise à l'envie,</l>
+	<l id="488">Ni que tant de jaloux qui regardent ma vie,</l>
+	<l id="489">Me puissent reprocher d'avoir eu le dessein,</l>
+	<l id="490">En élevant mon fils, d'en faire un souverain ;</l>
+	<l id="491">Je ne réplique point, et n'ose m'en défendre,</l>
+	<l id="492">Tant pour ce qu'en ce temps je n'osais y prétendre,</l>
+	<l id="493">Que pour ce qu'en effet je croyais du danger</l>
+	<l id="494">À ne nous pas soumettre au joug d'un étranger,</l>
+	<l id="495">Jugez après cela si j'ai sujet de craindre.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="496">Il doutait de la gloire où je vous fais atteindre,</l>
+	<l id="497">Ignorant sa fortune, il parlait sagement,</l>
+	<l id="498">Vous lui verrez, Astolfe, un autre sentiment,</l>
+	<l id="499">Sitôt qu'en  liberté vous lui ferez entendre,</l>
+	<l id="500">Que mon choix vous regarde, et qu'il s'y doit attendre.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="501">Sans incrédulité vous n'en pouvez douter,</l>
+	<l id="502" part='i'>Mon frère.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="502" part='f'>Son humeur est fort à redouter,</l>
+	<l id="503">Et toute ma fortune, Adorable Princesse,</l>
+	<l id="504">Enfin peut m'échapper par sa délicatesse.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="505">Pour rassurer Astolfe, et fonder son bon-heur,</l>
+	<l id="506">J'abandonnerais tout excepté mon honneur :</l>
+	<l id="507">Suivez toutes les lois que l'amour vous impose ;</l>
+	<l id="508">Allez, je permets tout, hasardez toute chose.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="509">Ô trop heureux Astolfe, Astolfe glorieux,</l>
+	<l id="510">Cette faveur t'égale à la gloire des Dieux,</l>
+	<l id="511">Voici le Duc mon père, il faut lui faire entendre,</l>
+	<l id="512">Les effets d'un amour et si noble et si tendre,</l>
+	<l id="513">Il est dénaturé s'il n'en est satisfait.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Duc de Cardone, Astolfe.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="514">Qu'avez-vous avancé, mon fils, qu'avez-vous fait ?</l>
+	<l id="515">La Princesse à nos voeux est-elle inexorable ?</l>
+	<l id="516">N'avez-vous point trouvé ce moment favorable ?</l>
+	<l id="517">A-t-on prêté l'oreille à vos sages avis,</l>
+	<l id="518">Et peut-on espérer qu'on les verras suivis ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="519">Nous avons eu, Seigneur, une longue audience,</l>
+	<l id="520">Mais je n'ai rien tiré de cette conférence</l>
+	<l id="521">Qui flatte vos souhaits, et j'ai lieu de juger,</l>
+	<l id="522">Que son choix ne regarde aucun Prince étranger.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="523">Tant pis, vous m'annoncez une triste nouvelle,</l>
+	<l id="524">Car entre ses sujets ce choix qui dépend d'elle,</l>
+	<l id="525">En regardera tel qui pourra nous troubler,</l>
+	<l id="526">Et la peur que j'en ai me fait déjà trembler :</l>
+	<l id="527">D'un État chancelant j'appréhende la chute, </l>
+	<l id="528">Entre les prétendants, tel Prince qu'on rebute,</l>
+	<l id="529">Et qui de la Couronne aurait été l'appui,</l>
+	<l id="530">Peut venger le mépris qu'on aura fait de lui.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="531">Mais puisqu'ils sont plusieurs d'une égale puissance,</l>
+	<l id="532">Et de mérite égal, et d'égale naissance,</l>
+	<l id="533">Sont ils pas tous à craindre, et sait-on l'avenir,</l>
+	<l id="534">Pour juger qui d'eux tous nous peut mieux soutenir ?</l>
+	<l id="535">On n'en peut choisir un, qu'on n'offense les autres ;</l>
+	<l id="536">Je crains donc moins ce choix, s'il tombe sur les nôtres.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="537">Enfin on doit avoir de plus nobles objets,</l>
+	<l id="538">Et pour mille raisons j'exclurais les sujets.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="539">Mais, Seigneur, après tout serait-il bien possible,</l>
+	<l id="540">Que pour pas un d'entre eux vous ne fussiez sensible,</l>
+	<l id="541">N'en savez-vous pas un qui puisse mériter</l>
+	<l id="542">L'honneur qu'aux étrangers vous laissez contester ?</l>
+	<l id="543">Si par un sentiment d'estime, ou de tendresse,</l>
+	<l id="544">Je devenais l'objet du choix de la Princesse ;</l>
+	<l id="545">Dites moi je vous prie, y pourrais-je aspirer, </l>
+	<l id="546">Et serais-je de rang à pouvoir espérer ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="547">Oui, si la par la naissance on méritait Cassandre,</l>
+	<l id="548">Personne mieux que vous n'aurait droit d'y prétendre,</l>
+	<l id="549">Mais ne vous flattez pas de cette ambition,</l>
+	<l id="550">Cherchez un autre objet à votre passion :</l>
+	<l id="551" part='i'>Car cela ne se peut.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="551" part='f'>Et toutefois je pense.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="552">Vous pensez ; moi je sais de certaine science,</l>
+	<l id="553">Que cela ne se peut, vous dis-je, assurément.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="554">Moi, je sais mieux encore, et plus certainement,</l>
+	<l id="555">Que la Princesse m'aime, et m'aime avec tendresse.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="556">Vous vous flattez, mon fils, je plains votre jeunesse,</l>
+	<l id="557">Vous vous l'imaginez par une vanité,</l>
+	<l id="558">Qui vous monte à la tête, et vous a transporté.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="559" part='i'>J'ai plus. </l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="559" part='m'>Et qu'avez-vous.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="559" part='f'>Un plus sûr témoignage.</l>
+	<l id="560">Sa parole et sa foi, m'en faut-il davantage ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="561">Sa parole et sa foi ? Bornez-là vos souhaits,</l>
+	<l id="562">Gardez de passer outre, et n'y pensez jamais ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="563">Comment puis-je oublier la moitié de mon âme,</l>
+	<l id="564">Votre défense est vaine, elle est déjà ma femme.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="565">Votre femme ! Qu'entends-je ? Ô destin rigoureux,</l>
+	<l id="566">Ô père misérable, ô fils trop malheureux.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="567" part='i'>Quel malheur !</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="567" part='f'>Ah mon fils, apprenez une histoire, </l>
+	<l id="568">Qui vous couvre de honte et détruit votre gloire,</l>
+	<l id="569" part='i'>Cassandre est votre soeur.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="569" part='f'>Qu'entends-je ? Ô justes Dieux.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="570">Découvrez si quelqu'un nous écoute en ces lieux,</l>
+	<l id="571">Ce secret revélé dont vous doutez encore,</l>
+	<l id="572">Astolfe, me perdrait, comme il vous déshonore.</l>
+	<l id="573">Lorsque sur la frontière en la fleur de ses ans</l>
+	<l id="574">Le Prince fut blessé parmi ses combattants,</l>
+	<l id="575">Voyant que l'on jugeait sa blessure mortelle,</l>
+	<l id="576">Et que sa moitié chaste autant qu'elle était belle</l>
+	<l id="577">De neuf mois était grosse, et prête à mettre au jour,</l>
+	<l id="578">L'unique et premier fruit qu'eût produit leur amour,</l>
+	<l id="579">Avant que la nouvelle en fût plus loin semée,</l>
+	<l id="580">Il assembla les grands et les chefs de l'armée,</l>
+	<l id="581">Et les fit tous jurer que sa mort arrivant,</l>
+	<l id="582">Ils prêteraient serment à l'enfant survivant,</l>
+	<l id="583">Qu'à la Mère Régente on resterait fidèle,</l>
+	<l id="584">Et me fit Gouverneur de ses États sous elle.</l>
+	<l id="585">Dom Bernard de Rocas que sur tous il aimait,</l>
+	<l id="586">Et qu'à l'égal de moi son Astolfe estimait,</l>
+	<l id="587">Fut encore nommé par ce prévoyant maître,</l>
+	<l id="588">Gouverneur de l'enfant qui devait bientôt naître,</l>
+	<l id="589">N'osant pas me laisser toute l'autorité,</l>
+	<l id="590">Quelque preuve qu'il eût de ma fidélité.</l>
+	<l id="591">Or comme il plut aux Dieux, il en perdit la vie,</l>
+	<l id="592">Et cette perte encor fut d'une autre suivie :</l>
+	<l id="593">La Princesse accoucha parmi tant de douleurs,</l>
+	<l id="594">Que par sa mort cruelle elle accrut nos malheurs,</l>
+	<l id="595">Laissant une orpheline et mourante et plaintive,</l>
+	<l id="596">Qu'on ne crut pas trois jours devoir demeurer vive ;</l>
+	<l id="597">Sa langueur fut connue, et Dom Bernard et moi,</l>
+	<l id="598">Dans un si grand péril nous unîmes de foi :</l>
+	<l id="599">La Duchesse ma femme en la même semaine,</l>
+	<l id="600">Accoucha d'une fille et plus forte et plus saine,</l>
+	<l id="601">Et voyant qu'en l'armée on se mutinait fort,</l>
+	<l id="602">Pour cet enfant mourant qu'on croyait déjà mort,</l>
+	<l id="603">Nous supposâmes l'autre ; et comme on faisait ligue,</l>
+	<l id="604">Et que chaque parti formait déjà sa brigue,</l>
+	<l id="605">Je portai dans mes bras l'enfant vivant et sain,</l>
+	<l id="606">Et Dom Bernard et moi rompîmes leur dessein.</l>
+	<l id="607">Connaissez, disions-nous, ô fidèle noblesse,</l>
+	<l id="608">Et vous braves soldats votre unique maîtresse,</l>
+	<l id="609">Honorez-la vivante et saine entre nos bras,</l>
+	<l id="610">Et que son innocence apaise vos débats.</l>
+	<l id="611">Enfin cette rumeur par nous fut apaisée,</l>
+	<l id="612">Nous laissâmes régner ma fille supposée,</l>
+	<l id="613">Quoi qu'examinant l'autre on put déjà trouver, </l>
+	<l id="614">Des signes évidents qu'on la pourrait sauver :</l>
+	<l id="615">Enfin on la sauva : mais pourtant chose étrange,</l>
+	<l id="616">Nous n'avons plus osé toucher à cet échange,</l>
+	<l id="617">De peur que des sujets prompts à se mutiner,</l>
+	<l id="618">N'eussent en mal jugeant lieu de s'imaginer,</l>
+	<l id="619">Qu'au lieu de replacer au trône l'héritière,</l>
+	<l id="620">On ne la supposât comme on fit la première.</l>
+	<l id="621">Je vois que mon discours vous a percé le coeur :</l>
+	<l id="622">Mais il est vrai, mon fils, Cassandre est votre soeur.</l>
+	<l id="623">Fuyez avec horreur l'objet de votre inceste,</l>
+	<l id="624">Abandonnez, mon fils, un sujet si funeste,</l>
+	<l id="625">L'absence est un remède aux maux les plus cruels,</l>
+	<l id="626">Prés d'elle, vos remords seraient continuels,</l>
+	<l id="627">Fuyez, préparez vous à partir dans une heure,</l>
+	<l id="628">Et ne regardez plus cette horrible demeure.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="629">Hélas ! Qu'avez vous dit, hélas qu'ai je entendu ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="630">Si Dom Bernard captif nous peut être rendu,</l>
+	<l id="631">Il vous confirmera ces vérités cruelles,</l>
+	<l id="632">De qui nous fûmes seuls les témoins trop fidèles.</l>
+	<l id="633">Il s'en va. Partez, fuyez Cassandre, évitez les adieux,</l>
+	<l id="634">Et pour l'ôter du coeur, ôtez-la de vos yeux.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="635">Abandonner Cassandre ! Ôter de ma mémoire,</l>
+	<l id="636">Cet objet de ma vie ainsi que de ma gloire !</l>
+	<l id="637">Perdre à jamais l'espoir d'en être possesseur !</l>
+	<l id="638">Ah que fis-tu Nature en la faisant ma soeur ?</l>
+	<l id="639">M'en priver, m'en bannir, hélas m'est-il possible ?</l>
+	<l id="640">À ce charme divin mon âme est trop sensible,</l>
+	<l id="641">L'éloignement tout seul ne me peut secourir,</l>
+	<l id="642">Je ne vois que la mort qui me puisse guérir.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III.</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Dom Remon de Moncade, Dom Pedred'Aragon.</head> 
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="643">Je vous dis vérité, Dom Pedre, il est certain,</l>
+	<l id="644">Que j'ai vu mon billet dedans la propre main</l>
+	<l id="645">D'Astolfe, qui tout haut en faisait la lecture,</l>
+	<l id="646" part='i'>Beralde m'a trahi.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="646" part='f'>J'ai donc part à l'injure,</l>
+	<l id="647">Le fourbe m'aura fait sans doute un même tour.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="648">Il vient tout à propos ce confident d'Amour,</l>
+	<l id="649">Si je souffre l'affront tenez moi pour un lâche. </l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="650">Il faut savoir l'histoire avant que l'on se fâche,</l>
+	<l id="651" part='i'>Peut-être a-t-il raison.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Dom Pedre, Moncade, Béralde.</head>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="651" part='f'>Que leur dirai-je, ô Dieux.</l>
+</sp>
+<sp who='DOM PEDRE'><speaker>DOM PEDRE, bas.</speaker>
+	<l id="652">Vous verrez qu'on le fourbe, et qu'on me traite mieux.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="653">Dom Pedre, interrogeons-le ensemble je vous prie,</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="654">Nous découvrirons mieux toute la fourberie,</l>
+	<l id="655">Parlants l'un après l'autre, allez mais sans courroux, </l>
+	<l id="656">Découvrir le premier ce qu'il a fait pour vous,</l>
+	<l id="657">Puis nous nous rendrons conte après d'une disgrâce,</l>
+	<l id="658">Que je crains comme vous, je vous quitte la place,</l>
+	<l id="659">Et me tire à l'écart à quatre pas d'ici.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="660">Hé bien, Beralde, enfin avons nous réussi ?</l>
+	<l id="661">A-t-on donné ma lettre, a-t-elle été reçue ?</l>
+	<l id="662">Nos desseins ont ils eu bonne ou mauvaise issue ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="663">Dans les mains d'Isabelle ainsi que j'ai promis,</l>
+	<l id="664">J'ai fort fidèlement votre billet remis.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="665" part='i'>En main propre ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="665" part='m'>En main propre.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="665" part='f'>Ô l'insigne imposture.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="666">Mais, Seigneur, en ceci je plains votre aventure,</l>
+	<l id="667">Son visage aussitôt a changé de couleur,</l>
+	<l id="668">Et dans ses yeux en feu j'ai lu votre malheur :</l>
+	<l id="669">Elle ne pouvait mieux me montrer sa colère,</l>
+	<l id="670">Qu'en donnant devant moi votre lettre à son frère.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="671" part='i'>À son frère ? Ah l'ingrate.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="671" part='f'>Ou je suis abusé ;</l>
+	<l id="672">Ou de quelque autre objet son coeur est embrasé ?</l>
+	<l id="673">De cette aversion je ne suis pas la cause,</l>
+	<l id="674">Et ne pouvais pas mieux exécuter la chose.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="675">Mon ami je vous crois, par là j'ai trop compris,</l>
+	<l id="676">Que ma disgrâce est vraie, ah j'en ai trop appris,</l>
+	<l id="677">Le mépris de la soeur répond bien au caprice,</l>
+	<l id="678">Du frère, dont je viens d'éprouver l'injustice.</l>
+	<l id="679">Puis-je l'aimer encore ? Adieu, quoi qu'outragé,</l>
+	<l id="680">Beralde, je me sens à vos soins obligé.</l>
+</sp>
+<sp who='BERALDE'><speaker>BERALDE, seul.</speaker>
+	<l id="681">Je suis défait de l'un, l'autre est encore à craindre, </l>
+	<l id="682">Mais ne lui disons rien qui l'oblige à se plaindre :</l>
+	<l id="683">C'est un esprit fougueux, traitons-le doucement ;</l>
+	<l id="684">Puisqu'il faut feindre encor, feignons obligeamment.</l>
+	<l id="685" part='i'>Il vient.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Dom Pedre d'Aragon, Beralde.</head>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="685" part='f'>Hé, bien Beralde a-t-il donné ma lettre,</l>
+	<l id="686">Qu'en doit-on espérer, que m'en puis-je promettre ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="687">Seigneur, je l'ai donnée, et me suis aperçu,</l>
+	<l id="688">Qu'on l'a fort bien reçue, ou je suis fort deçu.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="689" part='i'>En main propre, Beralde ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="689" part='f'>Oui je vous en assure. </l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="690">Ce que vous m'assurez, est-ce point imposture ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="691">Pourquoi ? Quelqu'un, Seigneur, vous aurait-il donné</l>
+	<l id="692">Des preuves du contraire, et m'a-t-on soupçonné,</l>
+	<l id="693">Moi qui m'ose vanter sur tout, d'avoir le zèle,</l>
+	<l id="694">Et la sincérité d'un homme fort fidèle.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="695">Non, je crois que Beralde en a fort bien usé,</l>
+	<l id="696">Mais je suis défiant, et crains d'être abusé :</l>
+	<l id="697">Dites donc, cher ami, mais d'un esprit sincère,</l>
+	<l id="698">Et sans déguisement, comme a passé l'affaire ;</l>
+	<l id="699">Quand vous avez rendu ce gage de ma foi,</l>
+	<l id="700">Les beaux yeux d'Isabelle ont ils été pour moi ?</l>
+	<l id="701">Avez-vous observé l'air de son beau visage,</l>
+	<l id="702">N'avez-vous remarqué ni chagrin ni nuage ?</l>
+	<l id="703">Et le ton de la voix, n'a-t-il point démenti</l>
+	<l id="704">Le bien que par cet air vous aurez pressenti ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="705">Si je me sais connaître aux mouvements de l'âme, </l>
+	<l id="706">Seigneur, espérez tout de cette belle Dame ;</l>
+	<l id="707">Elle a pris de ma main la lettre en rougissant,</l>
+	<l id="708">Et l'oeil m'a bien marqué que le coeur y consent :</l>
+	<l id="709">Enfin dans l'air serein d'un visage adorable,</l>
+	<l id="710">Je n'ai rien remarqué qui ne fût favorable.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="711">Si je me trouve heureux et par votre secours,</l>
+	<l id="712">Si l'effet, cher ami, répond à vos discours ;</l>
+	<l id="713">Si je suis préféré, ce que je n'ose croire,</l>
+	<l id="714">Assurez-vous d'avoir bonne part à ma gloire.</l>
+	<l id="715">Adieu ; Pour arriver au but où je prétends,</l>
+	<l id="716">Mettons tout en usage et ne perdons pas temps.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="717">Croyez que j'emploierai toute mon industrie,</l>
+	<l id="718" part='i'>Pour vous rendre content.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="718" part='f'>Ami je vous en prie.</l>
+</sp>
+<sp who='BERALDE'><speaker>BERALDE, à part.</speaker>
+<stage>Il se tire à l'écart.</stage>
+	<l id="719">Je me suis bien tiré d'un pas fort dangereux, </l>
+<note type="L">Fourber : Tromper adroitement, finement. Ceux qui agissent avec sincérité, sont ceux qu'on fourbe le plus aisément. [F]</note>
+	<l id="720">Mais on ne peut longtemps fourber deux amoureux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Moncade, Dom Pedre.</head>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="721">Hé bien qui de nous deux, Moncade, a l'avantage ?</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="722">S'il faut du confident croire le témoignage,</l>
+	<l id="723" part='i'>Mes affaires vont mal.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="723" part='f'>S'il l'en faut croire aussi,</l>
+	<l id="724">Je vois que mon dessein n'a pas mal réussi ;</l>
+	<l id="725">Elle a reçu ma lettre, et d'un oeil favorable.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="726">Vous êtes bienheureux, et moi bien misérable.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="727">Moncade, il faut céder à la rigueur du sort, </l>
+	<l id="728">Et n'y prétendre plus, vous savez notre accord.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="729">Oui, mais je veux avoir un congé de sa bouche,</l>
+	<l id="730">Vous savez à quel point cette affaire me touche :</l>
+	<l id="731">Et vous n'ignorez pas de l'air dont vous vivez</l>
+	<l id="732">Que Beralde est un fourbe et des plus achevez.</l>
+	<l id="733">Dans le bruit qu'il en a, je ne serais pas sage,</l>
+	<l id="734">De céder tout mon bien sur son seul témoignage.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="735">Notre accord toutefois porte qu'on cédera,</l>
+	<l id="736">Sur son seul témoignage, et que l'on l'en croira.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="737">Beralde ne m'a dit rien qui me désespère,</l>
+	<l id="738">Disant qu'elle a donné mon billet à son frère ;</l>
+	<l id="739">Si tant d'impatience est jointe à votre amour,</l>
+	<l id="740">Donnez moi seulement le reste de ce jour,</l>
+	<l id="741">Et je vous céderai l'adorable Isabelle,</l>
+	<l id="742">Sur le moindre mépris que je recevrai d'elle.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="743" part='i'>Votre demande est juste.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="743" part='f'>Ah je la vois venir </l>
+	<l id="744">L'ingrate, et je ne puis ses regards soutenir ;</l>
+	<l id="745" part='i'>Que je crains ses mépris.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="745" part='f'>La voulez vous attendre ?</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+<stage>Il s'en éloigne, et Dom Pedre l'aborde.</stage>
+	<l id="746">Oui, quoi qu'à son amour je n'ose rien prétendre. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Moncade, Dom Pedre, Isabelle, Beralde.</head>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="747">Souffrez qu'avec respect je vous donne la main,</l>
+	<l id="748">Madame, et que mon coeur ait part à ce dessein.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, bas.</speaker>
+	<l id="749">QuoI donc, ce que je hais me cherche, et ce que j'aime,</l>
+	<l id="750" part='i'>Me fuit ?</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="750" part='f'>Vous connaissez ma passion extrême </l>
+	<l id="751" part='i'>Madame,</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="751" part='f'>Oui je la sais Dom Pedre, et sais de plus,</l>
+	<l id="752" part='i'>Que vous m'avez écrit.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE, bas.</speaker>
+	<l id="752" part='f'>Nos billets sont reçus.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="753">Oui, jusque dans mes mains votre lettre est venue,</l>
+	<l id="754">Et pour réponse enfin sachez que je l'ai lue.</l>
+</sp>
+<sp who='DOM PEDRE'><speaker>DOM PEDRE, embrassant Beralde.</speaker>
+	<l id="755">Ah véritable ami, je te croirai toujours,</l>
+	<l id="756">Que ne te dois-je point après un tel secours,</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="757">Je vous l'avais bien dit, je suis franc et fidèle.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, à l'autre bout du théâtre.</speaker>
+	<l id="758">Après cette action que puis-je espérer d'elle ?</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="759">Recevez donc ma main, Madame, et permettez.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="760">Modérez vos transports Dom Pedre et me quittez ;</l>
+	<l id="761" part='i'>Adieu, laissez moi seule.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="761" part='f'>He bien je me retire.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, à part.</speaker>
+<stage>Dom Pedre se tire à un coin pour observer Moncade.</stage>
+	<l id="762">Que tu souffres, mon coeur, un étrange martyre. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, à part.</speaker>
+	<l id="763">Ingrat, que ton mépris me va coûter de pleurs,</l>
+	<l id="764">Cessons de nous flatter, sans doute il aime ailleurs ;</l>
+	<l id="765">S'il approuvait ma flamme, il m'aurait abordée,</l>
+	<l id="766">Hélas son coeur est plein d'une plus noble idée.</l>
+	<l id="767">Il aime la Princesse, il s'est déjà donné.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, à part.</speaker>
+	<l id="768">Romps l'obstacle, mon coeur, qui te tient enchaîné,</l>
+	<l id="769">Quoi que de ton ardeur on face peu de conte ;</l>
+	<l id="770">Que tu n'espères rien que mépris et que honte, </l>
+	<l id="771">Rends un dernier hommage à sa fière beauté,</l>
+	<l id="772">Et donne lui ta vie après ta liberté.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, à part.</speaker>
+	<l id="773" part='i'>Il s'ébranle à la fin.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="773" part='f'>Ô rigoureuse crainte.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, à part.</speaker>
+	<l id="774">Il vient : mais l'action me paraît bien contrainte,</l>
+	<l id="775">La bienséance enfin ne lui permettrait pas,</l>
+	<l id="776">En détournant son coeur de détourner ses pas.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="777">Je n'ose ouvrir la bouche, et tremble devant elle.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="778" part='i'>Qu'il est gêné, bons Dieux.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="778" part='f'>Adorable Isabelle,</l>
+	<l id="779">Souffrez que dans ce lieu je vous parle un moment.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, bas.</speaker>
+	<l id="780">La civilité seule a fait son compliment.</l>
+	<l id="781">Mais comme je connais le sujet qui l'engage,</l>
+	<l id="782">Je ne le puis tenir en suspens davantage.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="783">Je vois déjà sa bouche ouverte à la rigueur.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="784">Moncade je sais bien ce qui vous tient au coeur,</l>
+	<l id="785">Vos secrets sentiments sont connus de la Dame,</l>
+	<l id="786">Qu'en vain vous adorez, elle a lu dans votre âme ;</l>
+	<l id="787">Mais pour elle vos voeux sont des voeux superflus,</l>
+	<l id="788">Et si vous me croyez vous n'y penserez plus.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="789">Hélas vous connaissez son coeur mieux que tout autre.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="790">Suivez donc mes avis, pour dégager le vôtre,</l>
+	<l id="791">Apprenez que l'objet pour qui vous soupirez,</l>
+	<l id="792">S'attache à d'autres fers qui vous sont préférez ;</l>
+	<l id="793">Que cet engagement fait qu'elle vous méprise ;</l>
+	<l id="794">Mais qu'une autre beauté qui vaut bien qu'on la prise,</l>
+	<l id="795">Et dont je vous réponds pour connaître son coeur,</l>
+	<l id="796">Ne vous traitera pas avec tant de rigueur ;</l>
+	<l id="797">Adieu songez en elle, et si vous êtes sage,</l>
+	<l id="798">De votre mal connu tirez votre avantage.</l>
+<stage>À part.</stage>
+	<l id="799">Hélas ! J'en ai trop dit, il m'a bien entendu. </l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="800">J'ai cherché ma ruine, hélas ! Je suis perdu :</l>
+	<l id="801">N'était-ce pas assez, trop ingrate Isabelle,</l>
+	<l id="802">D'accabler de mépris un amant si fidèle ?</l>
+	<l id="803">Sans vouloir ébranler encor sa fermeté,</l>
+	<l id="804">Lui proposant le change et l'infidélité.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Moncade, Dom Pedre.</head>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="805">Enfin vous avez su qui de nous deux la touche,</l>
+	<l id="806">Vous avez tout appris, et de sa propre bouche.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="807">Me proposer le change ! Ah mépris sans pareil.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="808">Vous feriez sagement de suivre son conseil,</l>
+	<l id="809">La beauté qu'on vous offre étant plus favorable,</l>
+	<l id="810" part='i'>Vous rendrait plus heureux.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="810" part='f'>Que je suis misérable.</l>
+</sp>
+<sp who="DOM PEDRE"><speaker>DOM PEDRE.</speaker>
+	<l id="811">Un coeur généreux cède aux volontés du sort,</l>
+	<l id="812">Adieu résolvez vous, vous savez notre accord.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, seul.</speaker>
+	<l id="813">L'objet qu'elle propose est sans doute Cassandre,</l>
+	<l id="814">Ses mots étaient obscurs, mais je les sais comprendre :</l>
+	<l id="815">Et tout autre que moi dégagerait son coeur,</l>
+	<l id="816">Pour s'attacher aux fers d'un plus noble vainqueur ;</l>
+	<l id="817">Oui sans doute Cassandre a pour moi de l'estime,</l>
+	<l id="818">Un amant méprisé peut l'adorer sans crime ;</l>
+	<l id="819">Je devais sans mentir l'observer un peu mieux,</l>
+	<l id="820">J'eusse connu son âme aux mouvements des yeux.</l>
+	<l id="821">La voici ; dans l'air gai qui brille en son visage,</l>
+	<l id="822">Je vois de ma fortune un assuré présage ;</l>
+	<l id="823">Ma rencontre a causé ce transport amoureux,</l>
+	<l id="824">Si j'en sais bien user suis-je pas trop heureux ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Cassandre, Moncade.</head>
+<sp who='CASSANDRE'><speaker>CASSANDRE, à part.</speaker>
+	<l id="825">Astolfe tarde bien, sa longueur importune,</l>
+	<l id="826">Retarde un peu ma joie ainsi que sa fortune ;</l>
+	<l id="827">Mais ce retardement ne peut m'inquiéter,</l>
+	<l id="828">Le Duc a consenti, je n'en saurais douter ;</l>
+	<l id="829">Il aime trop son sang, il aime trop la gloire,</l>
+	<l id="830">Sur tous ses concurrents Astolfe a la victoire :</l>
+	<l id="831">Et l'aise que je sens de sa félicité,</l>
+	<l id="832">Émeut si bien mon coeur qu'il en est transporté.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="833">Avançons nous vers elle, et lui faisons connaître</l>
+	<l id="834">Que l'on n'ignore pas l'amour qu'on a fait naître.</l>
+	<l id="835">Adorable Princesse, oyez et connaissez.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="836">J'en sais trop, brisez là Moncade, c'est assez,</l>
+	<l id="837">Puisque je vous vois seul, il faut que je vous die,</l>
+	<l id="838">Que j'ai quelque pitié de votre maladie :</l>
+	<l id="839">J'ai regret qu'un esprit d'ailleurs très accompli, </l>
+	<l id="840">Se soit si follement de chimères rempli ;</l>
+	<l id="841">On n'écrit pas d'amour si librement aux dames,</l>
+	<l id="842">Sans savoir si leur coeur approuvera vos flammes :</l>
+	<l id="843">Ces choses ont pour prix souvent un repentir,</l>
+	<l id="844">Avant que les tenter, il les faut pressentir,</l>
+	<l id="845">Afin de n'en avoir ni déplaisir ni honte.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, bas.</speaker>
+	<l id="846">C'est d'un illustre sang faire trop peu de conte ;</l>
+	<l id="847">Ah cette amour m'expose à trop de déplaisirs.</l>
+	<l id="848">Quand on n'a dans le coeur que de justes désirs,</l>
+	<l id="849">Madame, à mon avis on n'est pas fort coupable.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="850">Moncade, agissez donc en Amant raisonnable,</l>
+	<l id="851">Car vous ne l'êtes pas de paraître obstiné</l>
+	<l id="852">À servir un objet qui pour vous n'est pas né ;</l>
+	<l id="853">Amour engage ailleurs celle qui vous engage,</l>
+	<l id="854">Changez de sentiment, et si vous estes sage,</l>
+	<l id="855">Servez un autre objet que vous avez charmé,</l>
+	<l id="856">Et dont je vous réponds que vous serez aimé,</l>
+	<l id="857">C'est faiblesse après tout d'aimer qui nous méprise.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="858">Elle s'explique assez, j'admire sa franchise,</l>
+	<l id="859">Je vous obéirai, Madame, aveuglement, </l>
+	<l id="860" part='i'>Je suivrai vos conseils.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="860" part='f'>Vous ferez sagement.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="861">C'est justice, après tout d'aimer quand on nous aime.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="862">Dégageant votre esprit de ce tourment extrême,</l>
+	<l id="863">Vous sentez bien à qui vous serez obligé.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, faisant une profonde révérence.</speaker>
+	<l id="864">Oui je le sens, Madame, et je suis dégagé,</l>
+<stage>Bas.</stage>
+	<l id="865">Elle confirme bien ce qu'a dit Isabelle ;</l>
+	<l id="866">Je la cède à Dom Pedre, il peut disposer d'elle.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+<stage>Elle s'en va.</stage>
+	<l id="867">Adieu, songez Moncade, en revenant ici,</l>
+	<l id="868">D'y revenir plus sage et plus content aussi.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="869">Si mon oeil ne s'ouvrait à si grande lumière,</l>
+	<l id="870">J'aurais l'esprit bien faible, et l'âme bien grossière ;</l>
+	<l id="871">Voila pourquoi sans doute on n'a peu l'obliger,</l>
+	<l id="872">De s'arrêter au choix d'aucun Prince étranger.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Astolfe, Cassandre.</head>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="873">Astolfe enfin paraît, quel chagrin l'accompagne,</l>
+	<l id="874">Et d'où vient qu'il paraît en habit de campagne ?</l>
+	<l id="875">Quel bizarre équipage, Astolfe qu'est-ceci</l>
+	<l id="876">Qu'avez vous, qui vous meut à m'aborder ainsi ?</l>
+	<l id="877">Qu'est-ce, avez-vous querelle ? Et pourrait il bien être,</l>
+	<l id="878">Que dedans un état dont vous êtes le maître,</l>
+	<l id="879">Quelqu'un de mes sujets eût l'audace et le front,</l>
+	<l id="880">De vous oser déplaire ? Il en aurait l'affront.</l>
+	<l id="881">Parlez, car ces soupirs et ce trop long silence ?</l>
+	<l id="882">Enfin à mon esprit font trop de violence.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="883">Plût au Ciel que cet oeil mon unique vainqueur,</l>
+	<l id="884">Pût percer jusqu'au fonds le secret de mon coeur,</l>
+	<l id="885">Et me pût épargner la peine de vous dire,</l>
+	<l id="886">L'excessive douleur qui cause mon martyre. </l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE.</speaker>
+	<l id="887" part='i'>Quelle douleur, qu'entends-je ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="887" part='f'>Ah qu'allez-vous juger,</l>
+	<l id="888">D'un coeur qui vous adore et qui ne peut changer ?</l>
+	<l id="889">Hélas qu'allez-vous dire ? Hélas qu'allez-vous croire ?</l>
+	<l id="890">J'atteste tous les Dieux dont j'ai blessé la gloire,</l>
+	<l id="891">Que mes respects pour vous sont bien moins limités,</l>
+	<l id="892">Que ceux qu'on doit avoir pour leurs divinités ;</l>
+	<l id="893">Que seule vous bornez ma gloire et mon envie ;</l>
+	<l id="894">Que je vous aime plus mille fois que ma vie ;</l>
+	<l id="895">Que hors de votre vue il n'est point de plaisirs,</l>
+	<l id="896">Ni de biens, ni d'honneurs qui flattent mes désirs.</l>
+	<l id="897">Si cette vérité vous peut entrer dans l'âme,</l>
+	<l id="898">Si vous la concevez, vous me plaindrez, Madame,</l>
+	<l id="899">Car vous participez à la bonté des Dieux,</l>
+	<l id="900">Et vous avez le coeur aussi doux que les yeux.</l>
+	<l id="901">Je sais que malgré moi je m'en vais vous déplaire ;</l>
+	<l id="902">Contre mon innocence armez votre colère,</l>
+	<l id="903">Vous m'allez regarder comme un grand criminel,</l>
+	<l id="904">Je vais couvrir mon nom d'un opprobre éternel ;</l>
+	<l id="905">Vous m'allez accabler de reproches, et d'injures,</l>
+	<l id="906">Vous m'allez estimer le plus grand des parjures ;</l>
+	<l id="907">Quoi que j'aie abhorré toujours la trahison,</l>
+	<l id="908">Vous m'allez nommer traître, et vous aurez raison ;</l>
+	<l id="909">Mais sans considérer vos sensibles atteintes,</l>
+	<l id="910">Sourd aux reproches vains qui vont suivre vos plaintes,</l>
+	<l id="911">Il faut que je vous dise un adieu surprenant :</l>
+	<l id="912">Et que je m'abandonne en vous abandonnant.</l>
+	<l id="913">Qui l'eût cru, ma Princesse ? Hélas je vais paraître,</l>
+	<l id="914">À vos sens étonnés, ce que je ne puis être,</l>
+	<l id="915">Vous m'allez croire ingrat sans honneur et sans foi,</l>
+	<l id="916">Mais ce que vos fureurs vont vomir contre moi,</l>
+	<l id="917">Paraîtra d'autant juste en ma cruelle absence,</l>
+	<l id="918">Que je n'ose en partant montrer mon innocence ;</l>
+	<l id="919">Quoi que sans expirer je ne puisse partir,</l>
+	<l id="920">Quoi que mon triste coeur n'y puisse consentir,</l>
+	<l id="921">Quoi que je sente bien qu'en ma douleur extrême,</l>
+	<l id="922">Me séparant de vous je m'arrache à moi-même,</l>
+	<l id="923">Il faut de vos beaux yeux me priver désormais,</l>
+	<l id="924">Princesse, il faut vous dire un adieu pour jamais.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX.</head>
+<sp who='CASSANDRE'><speaker>CASSANDRE seule, comme si elle revenait d'une léthargie.</speaker>
+	<l id="925">Est-ce Astolfe ? Est-ce lui que j'ai vu disparaître,</l>
+	<l id="926">Quoi l'ingrat m'abandonne ? Ah cela ne peut être,</l>
+	<l id="927">Quoi, c'est sa propre voix qui d'un ton de mépris,</l>
+	<l id="928">Ainsi qu'un coup de foudre a frappé mes épris ?</l>
+	<l id="929">Il allait partager mon coeur et ma couronne,</l>
+	<l id="930">Et sans vouloir m'entendre, ô Dieux, il m'abandonne ;</l>
+	<l id="931">Il fuit de ma présence, il part en furieux,</l>
+	<l id="932">Et s'éloigne du coeur ainsi qu'il fait des yeux ;</l>
+	<l id="933">Quel caprice a produit cette fuite soudaine ?</l>
+	<l id="934">Qu'on aille après ce traître, et qu'on me le ramène,</l>
+	<l id="935">Il ne peut s'échapper à mon juste courroux ;</l>
+	<l id="936" part='i'>Hola.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, vient au bruit.</speaker>
+	<l id="936" part='f'>Que vous plaît-il, Madame, et qu'avez-vous ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="937">Renferme dans ton coeur la douleur qui te presse,</l>
+	<l id="938">Et ne fais pas connaître en ce lieu ta faiblesse,</l>
+	<l id="939">Malheureuse Princesse, hélas qu'espères-tu ?</l>
+	<l id="940">Étouffe ton amour, et sauve ta vertu ;</l>
+	<l id="941">C'est ta facilité qui fait qu'on te méprise,</l>
+	<l id="942">J'agis avec ce traître avec trop de franchise,</l>
+	<l id="943">Oui, oui je fus trop prompte à lui donner les mains,</l>
+	<l id="944">Et je mérite bien sa fuite, et ses dédains.</l>
+</sp>
+<sp who='DOM LOPE'><speaker>DOM LOPE, bas.</speaker>
+	<l id="945">Son coeur paraît touché d'une douleur extrême.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="946">Si tu m'aimes, ingrat, si tu vois que je t'aime :</l>
+	<l id="947">Pourquoi ce brusque adieu, dont mon coeur est surpris ?</l>
+	<l id="948">Sans demander ce coeur, ingrat, tu me l'as pris,</l>
+	<l id="949">Tu n'as non plus que lui demandé ma couronne :</l>
+	<l id="950">Et tu vois cependant que je te l'abandonne.</l>
+	<l id="951">Si j'avais possédé l'honneur des Immortels,</l>
+	<l id="952">J'aurais avecque toi partagé mes Autels,</l>
+	<l id="953">Et tu quittes ta gloire, et tu fuis misérable,</l>
+	<l id="954">Un objet adoré quand il t'est favorable.</l>
+	<l id="955">Plus j'en cherche la cause, et plus je me confonds,</l>
+	<l id="956">Reviens pour m'éclaircir, Astolfe, et me réponds ;</l>
+	<l id="957">Est-ce point que ta joie étant démesurée,</l>
+	<l id="958">A causé ces transports dans ton âme égarée ;</l>
+	<l id="959">Oui c'est ce grand excès qui trouble tes esprits, </l>
+	<l id="960">Que dis-je ! Ah je me flatte, il s'en va par mépris.</l>
+	<l id="961">Je ne le puis souffrir, cet affront est étrange,</l>
+	<l id="962">Hola je le veux perdre, il faut que je me venge.</l>
+	<l id="963">Perdre qui de ma vie est l'unique soutien ?</l>
+</sp>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="964" part='i'>Que voulez-vous, Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="964" part='f'>Hélas je ne veux rien.</l>
+</sp>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="965">Son esprit agité souffre une étrange peine.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="966">Qu'on me cherche le Duc vite, et qu'on me l'amène.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Le Duc, Astolfe.</head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="967">Je souffre autant que vous dans cet éloignement,</l>
+	<l id="968">Mais je ne le puis plus différer d'un moment :</l>
+	<l id="969">Embrassez moi, mon fils, adieu fuyez en France :</l>
+	<l id="970">Et dans ce coup du sort montrez votre constance,</l>
+	<l id="971">Votre équipage est prêt, pour votre passeport,</l>
+	<l id="972" part='i'>Je m'en vais le signer.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, à part.</speaker>
+	<l id="972" part='f'>Ah c'est signer ma mort.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Le Duc, Dom Lope, Astolfe.</head>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="973">La Princesse, Seigneur, avec impatience,</l>
+	<l id="974" part='i'>Vous attend.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="974" part='m'>Je vous suis.</l>
+</sp>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="974" part='f'>Mais faites diligence.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="975">Je marche sur vos pas, j'y suis dans un moment.</l>
+</sp>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="976">Elle ne peut souffrir aucun retardement,</l>
+	<l id="977">Seigneur, l'ordre est pressant, donc sans plus de demeure.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="978">Allons, tenez vous prêt, je reviens dans une heure.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='MONCADE'><speaker>MONCADE seul, chez la Princesse.</speaker>
+	<l id="979">Oui, oui, brise tes fers, esclave malheureux,</l>
+	<l id="980">Porte ailleurs tes respects, et tes soins amoureux :</l>
+	<l id="981">Et sans plus t'exposer aux mépris d'Isabelle,</l>
+	<l id="982">Cherche une autre prison et plus noble et plus belle.</l>
+	<l id="983">La fortune te rit aveugle, et tu la fuis,</l>
+	<l id="984">Je sens bien qu'il est temps d'en recueillir les fruits,</l>
+	<l id="985">Elle ne s'est encor qu'à demi déclarée,</l>
+	<l id="986">Mais je vois ma fortune, elle est bien assurée.</l>
+	<l id="987">Oui, je sens qu'elle m'aime, et je viens en ce lieu,</l>
+	<l id="988">Pour tirer de sa bouche un clair et libre aveu,</l>
+	<l id="989">Je plains cette pudeur que j'ai trop reconnuE</l>
+	<l id="990">Qui la gêne, et l'engage à tant de retenue,</l>
+	<l id="991" part='i'>La voici.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Cassandre, Moncade.</head>
+<sp who='CASSANDRE'><speaker>CASSANDRE, à un bout de la chambre qui ne voit point Moncade.</speaker>
+	<l id="991" part='f'>Malheureuse ! Hé n'as tu pas compris,</l>
+	<l id="992">Que ton humeur facile attira ces mépris,</l>
+	<l id="993">Pour m'être à coeur ouvert librement déclarée, </l>
+	<l id="994">Mon amour d'un ingrat est peu considérée :</l>
+	<l id="995">Il détourne son coeur aussi bien que ses pas,</l>
+	<l id="996">Et ma couronne même est pour lui sans appas.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="997">Elle me fait pitié ; que les grands sont à plaindre,</l>
+	<l id="998">Quand leur condition les force à se contraindre.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>LA PRINCESSE CASSANDRE.</speaker>
+	<l id="999">Oui, oui j'en ai trop dit, oui, j'en ai trop fait voir,</l>
+	<l id="1000">Ma bouche m'a trahi, et c'est mon désespoir,</l>
+	<l id="1001">J'ai trop donné de force au Dieu qui me commande.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1002">Ne vous repentez pas d'une bonté si grande,</l>
+	<l id="1003" part='i'>Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1003" part='f'>Quoi Moncade aurait su mon secret.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1004">Vous l'offenseriez trop d'en montrer du regret,</l>
+	<l id="1005">Oui, divine Princesse, oui, j'ai leu dans votre âme,</l>
+	<l id="1006">Vous la croyez cacher cette obligeante flamme ;</l>
+	<l id="1007">Qui me doit élever à la gloire des Dieux :</l>
+	<l id="1008">Mais le secret du coeur a paru dans vos yeux,</l>
+	<l id="1009">Quoi qu'en termes obscurs, j'ai su, j'ai su comprendre,</l>
+	<l id="1010">La force d'un amour où je n'osais prétendre.</l>
+	<l id="1011">Ouvrez donc votre coeur, ses voeux sont exaucez,</l>
+	<l id="1012">Et n'ouvrez plus la bouche, elle en a dit assez,</l>
+	<l id="1013">Une confession nouvelle serait vaine,</l>
+	<l id="1014">Je vous en viens sauver et la honte et la peine.</l>
+	<l id="1015">Si vous croyez Moncade épris de vos appas,</l>
+	<l id="1016">Princesse, assurément vous ne vous trompiez pas,</l>
+	<l id="1017">Il est prêt de répondre à l'espoir qui vous flatte,</l>
+	<l id="1018">Vous ne pouviez semer en terre moins ingrate,</l>
+	<l id="1019">Et ce sceptre hérité de vos braves aïeux,</l>
+	<l id="1020">À moins d'éclat pour lui que n'en ont vos beaux yeux.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, à part.</speaker>
+	<l id="1021">Comme il s'est abusé, je m'étais abusée,</l>
+	<l id="1022">Son nom a trop d'éclat pour servir de risée,</l>
+	<l id="1023">Comme il est homme enfin de mérite, et de coeur,</l>
+	<l id="1024">Je ne veux point nourrir ni flatter son erreur,</l>
+<stage>Haut.</stage>
+	<l id="1025">Vous me plaignez, Moncade, en croyant qu'on vous aime,</l>
+	<l id="1026">Mais vous ferez bien mieux de vous plaindre vous-même,</l>
+	<l id="1027">Mieux que vous ne pensez j'ai compris vos desseins,</l>
+	<l id="1028">Connaissez vous l'écrit que je tiens en mes mains : </l>
+	<l id="1029" part='i'>Et n'est-il pas de vous ! Relisez-le.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1029" part='f'>Oui, Madame,</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, après avoir rompu la lettre, qu'elle lui jette.</speaker>
+	<l id="1030">Adieu tâchez d'en faire autant de votre flamme.</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, à part.</speaker>
+	<l id="1031">Cette colère est juste, et j'ai mal fait ma cour,</l>
+	<l id="1032">Puisqu'elle a vu ma lettre, avant que mon amour,</l>
+	<l id="1033">Avec tant de ferveur se déclarât pour elle,</l>
+	<l id="1034">Je lui devais marquer un oubli d'Isabelle</l>
+	<l id="1035">J'ai connu sa prudence, et je vois mon erreur.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Cassandre, Le Duc, Dom Lope, Moncade.</head>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="1036" part='i'>Voici le Duc, Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1036" part='f'>Éclate ma fureur,</l>
+	<l id="1037">L'amour dessus mon âme avait trop pris d'Empire,</l>
+	<l id="1038">Adieu sortez, Messieurs, que chacun se retire,</l>
+</sp>
+<sp who='MONCADE'><speaker>MONCADE, en faisant une profonde révérence.</speaker>
+<stage>À part.</stage>
+ <note type="L">Heur : rencontre avantageuse. (...) [F] [antonyme de malheur]</note>
+	<l id="1039">Je ne pers pas l'espoir de l'heur où je prétends :</l>
+	<l id="1040">Mais je vois pour ce coup que j'ai mal pris mon temps.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1041">Duc faites moi chercher Astolfe en diligence :</l>
+	<l id="1042">Car nous avons ici besoin de sa présence.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1043">C'est ce qui ne se peut, Madame, il est parti.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1044">Quoi sans mes ordres, Duc, peut-il être sorti ? </l>
+	<l id="1045">Ah je ne vous crois pas, vite qu'on me l'appelle,</l>
+	<l id="1046">Ou je le traiterai comme un sujet rebelle,</l>
+	<l id="1047">Commandez qu'on le cherche et qu'on l'amène ici.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1048">Je crois que vainement j'en prendrai le souci.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1049">Quoi, vous me résistez, me voulez vous déplaire ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1050">À vos commandements je voudrais satisfaire, </l>
+	<l id="1051">Hola qu'on cherche Astolfe, et qu'on coure après lui, </l>
+<stage>Un valet vient à part.</stage>
+	<l id="1052">Hélas s'il est trouvé je vais mourir d'ennui.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE.</speaker>
+<stage>Elle s'assied.</stage>
+	<l id="1053">Enfin nous voici seuls ; vous pouvez prendre un siège,</l>
+<stage>Elle lui fait signe de s'asseoir. Il s'en défend.</stage>
+	<l id="1054">Votre age et votre rang ont un grand privilège,</l>
+	<l id="1055" part='i'>Seyez vous.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1055" part='m'>J'obéis. </l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1055" part='f'>Parlez c'est sans témoins.</l>
+	<l id="1056">Depuis que mes États sont régis pas vos soins,</l>
+	<l id="1057">Me tenez vous pas lieu de tuteur et de père ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1058">Outre qu'en souveraine ici je vous révère,</l>
+	<l id="1059">J'ose vous dire encore avecques vérité,</l>
+	<l id="1060">Si le respect s'accorde avec ma liberté ;</l>
+	<l id="1061">Que comme mon enfant je chéris ma Princesse,</l>
+	<l id="1062">Avec le même amour et la même tendresse.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1063">Puis que mon père est mort, et mort entre vos bras,</l>
+	<l id="1064">Parlez, Duc, aujourd'hui me connaissez vous pas</l>
+	<l id="1065">Pour votre souveraine, et pour son héritière,</l>
+	<l id="1066">Et me devez vous pas obéissance entière.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1067">Je vous ai déjà dit avec sincérité,</l>
+	<l id="1068">Que nous vous reverrons en cette qualité,</l>
+	<l id="1069">Et ne saurions prétendre une gloire plus grande.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1070">Souffrez que je vous fasse encor une demande, </l>
+	<l id="1071">N'est il pas du devoir d'un homme généreux,</l>
+	<l id="1072">Qui des lois de l'honneur est vraiment amoureux,</l>
+	<l id="1073">De protéger l'honneur des Dames qu'on offense.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1074">Quiconque y manque est lâche, et rien ne l'en dispense.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1075">Faites moi donc raison d'un lâche suborneur,</l>
+	<l id="1076">Qui témérairement s'attaque à mon honneur,</l>
+	<l id="1077">Et qui presqu'à vos yeux m'a si fort outragée,</l>
+	<l id="1078">Que je mourrai d'ennui si je n'en suis vengée.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1079">De quelque rang qu'il soit, Madame, il doit mourir,</l>
+	<l id="1080">Nommez-moi donc ce traître, et je le fais périr.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1081">Je n'attendais pas moins de ce noble courage,</l>
+	<l id="1082">Qui mieux que la fortune eut la gloire en partage ;</l>
+	<l id="1083">Et qui d'un esprit ferme adroit et vigilant,</l>
+	<l id="1084">A si bien soutenu mon État chancelant.</l>
+	<l id="1085">Je me dois souvenir tout le temps de ma vie,</l>
+	<l id="1086">De la fidèle ardeur dont vous m'avez servie,</l>
+	<l id="1087">Ce que j'ai de sujets sont autant de témoins,</l>
+	<l id="1088">Que si mon sort est doux, il est doux par vos soins,</l>
+	<l id="1089">Et de ce sentiment mon âme est possédée,</l>
+	<l id="1090">Plus de mes premiers ans je retrace l'idée.</l>
+	<l id="1091">Ah si cette innocence en mon coeur eût duré,</l>
+	<l id="1092">Le dangereux tyran qui s'en est emparé,</l>
+	<l id="1093">Ne me forcerait pas toute honte bannie,</l>
+	<l id="1094">À chercher votre appui contre sa tyrannie.</l>
+	<l id="1095">Vous n'ignorez pas, Duc, qu'avec moi vos enfants,</l>
+	<l id="1096">Se trouvant élevés dès leurs plus jeunes ans,</l>
+	<l id="1097">Sitôt que j'eus connu leur merveilleuse enfance,</l>
+	<l id="1098">Ce que je ne souffrais que par accoutumance,</l>
+	<l id="1099">Je l'aimai par raison et l'aimAI tendrement,</l>
+	<l id="1100">Je croyais les aimer tous deux également :</l>
+	<l id="1101">Mais insensiblement sans cesser de me plaire,</l>
+	<l id="1102">La soeur vint à céder au mérite du frère.</l>
+	<l id="1103">Cet enfant agréable, à toute heure à mes yeux,</l>
+	<l id="1104">Prompt, zélé, complaisant, ardent, officieux,</l>
+	<l id="1105">Si du moindre souci j'avais l'âme pressée,</l>
+	<l id="1106">Prévenait mes désirs, devinait ma pensée,</l>
+	<l id="1107">Ne cherchait qu'à me plaire : et certes ses respects,</l>
+	<l id="1108">Ne pouvaient en cet âge encor m'être suspects.</l>
+	<l id="1109">Comme à me bien servir il mit tout son étude,</l>
+	<l id="1110">Et que j'avais tourné ses soins en habitude,</l>
+	<l id="1111">Je ne m'aperçus pas qu'à ses regards pressants, </l>
+	<l id="1112">Qui lors me paraissaient tous purs, tous innocents,</l>
+	<l id="1113">Il mêla des soupirs dont l'ardeur continue,</l>
+	<l id="1114">En un âge plus mûr enfin me fut connue,</l>
+	<l id="1115">Dirai-je sans rougir qu'au feu qui s'alluma,</l>
+	<l id="1116">Comme à ceux qui brillaient, mon coeur s'accoutuma,</l>
+	<l id="1117">Et que je répondis à cette ardente flamme,</l>
+	<l id="1118">Sans prévoir les malheurs qui menaçaient mon âme ?</l>
+	<l id="1119">Oui, j'aimai cet ingrat, et l'aimai jusqu'au point,</l>
+	<l id="1120">De lui donner un coeur qu'il ne demandait point,</l>
+	<l id="1121">Croyant que son mérite égalait ma naissance,</l>
+	<l id="1122">Je l'ai fait maître enfin de toute ma puissance,</l>
+	<l id="1123">Je l'ai fait triompher des Rois qui m'adoraient,</l>
+	<l id="1124">Et qui mieux qu'à mon sceptre à ce coeur aspiraient.</l>
+	<l id="1125">Oui Duc, ce choix fatal dont on m'a tant pressée,</l>
+	<l id="1126">Pour qui toute l'Espagne était intéressée,</l>
+	<l id="1127">N'a regardé qu'Astolfe au mépris de ces Rois,</l>
+	<l id="1128">Et je ne pouvais faire un plus indigne choix.</l>
+	<l id="1129">Admirez le caprice et l'humeur de ce traître :</l>
+	<l id="1130">Dés que de ma fortune il s'est senti le maître,</l>
+	<l id="1131">Dés qu'il m'a vu soumise, et qu'aux yeux de sa soeur :</l>
+	<l id="1132">Il s'est vu de mon âme absolu possesseur,</l>
+	<l id="1133">Oubliant cette amour si parfaite et si tendre,</l>
+	<l id="1134">Avec un fier mépris que je n'ai pu comprendre,</l>
+	<l id="1135">Le perfide en bizarre est sorti de ce lieu,</l>
+	<l id="1136">Et m'a dit sans m'entendre un éternel adieu.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, à part.</speaker>
+	<l id="1137">Ô Dieux, il l'a revue, et contre ma défense.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1138">C'est contre cet ingrat que butte ma vengeance,</l>
+	<l id="1139">Quoi qu'il soit né de vous cet enfant malheureux,</l>
+	<l id="1140">Vous m'en ferez justice étant né généreux.</l>
+	<l id="1141">Vous avez jusqu'ici, depuis votre Régence,</l>
+	<l id="1142">Tenu sur mes sujets une égale balance,</l>
+	<l id="1143">Le puissant et le faible avec même équité,</l>
+	<l id="1144">Ont senti les effets de votre autorité :</l>
+	<l id="1145">Serais-je en mes États la seule misérable,</l>
+	<l id="1146">A qui cette équité ne fut pas favorable ;</l>
+	<l id="1147">Non Duc, vous m'appuierez, vous me tendrez les bras,</l>
+	<l id="1148">Votre fils est injuste, et vous ne l'êtes pas ;</l>
+	<l id="1149">Je sais que la Justice en cette conjoncture,</l>
+	<l id="1150">Se trouvera plus forte en vous que la nature ;</l>
+	<l id="1151">Vous me ferez raison de ce perfide amant ;</l>
+	<l id="1152">Pouvait-il me traiter plus inhumainement ?</l>
+	<l id="1153">Quoi Duc, vous soupirez ; et n'osez me répondre ?</l>
+	<l id="1154">Quoi ? tout ce que j'ai dit ne sert qu'à me confondre ;</l>
+	<l id="1155">Ah ! Considérez mieux celle qui parle à vous,</l>
+	<l id="1156">C'est votre Souveraine en pleurs à vos genoux,</l>
+	<l id="1157">Qui n'a recours qu'à vous dans sa peine infinie. </l>
+	<l id="1158">Ah Duc, si vous laissez cette offense impunie,</l>
+	<l id="1159">J'aurai lieu de penser que tyran de mon sort,</l>
+	<l id="1160">Vous voulez aujourd'hui profiter de ma mort</l>
+	<l id="1161">Et de mon désespoir, pour usurper en traître,</l>
+	<l id="1162">Un État désolé qui n'aura plus de maître,</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1163">Si j'ai la bouche close, et les sens interdis,</l>
+	<l id="1164">C'est par l'énormité du crime de mon fils ;</l>
+	<l id="1165">L'action me paraît et si lâche et si noire,</l>
+	<l id="1166">Que d'un autre que vous j'aurais peine à la croire.</l>
+	<l id="1167">Quoi donc l'ingrat vous fuit, il est méconnaissant,</l>
+	<l id="1168">D'un honneur dont l'éclat le rendait si puissant ?</l>
+	<l id="1169">En quelque part qu'il aille, il écrira, Madame,</l>
+	<l id="1170">Quel lieu pourrait servir d'asile à cet infâme ?</l>
+	<l id="1171">Où fuira-t-il, le traître, est-il Prince étranger,</l>
+	<l id="1172">Qui n'embrasse avec soin l'honneur de vous venger ?</l>
+	<l id="1173">S'il paraît à mes yeux, Princesse, je vous jure,</l>
+	<l id="1174">Que ma main dans son sang lavera cette injure,</l>
+	<l id="1175">Sa mort est résolue, oui, cette propre main,</l>
+	<l id="1176">De cent coups de poignard lui percera le sein.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1177">Je ne veux point sa mort, vous estes trop sévère,</l>
+	<l id="1178">Comme je suis amante, enfin vous estes père,</l>
+	<l id="1179">Ce serait bien assez s'il me faisait sentir,</l>
+	<l id="1180">De son ingratitude un léger repentir ;</l>
+	<l id="1181">Qu'il vienne en suppliant, sa faute est pardonnée,</l>
+	<l id="1182">Qu'il demande sa grâce, elle est entérinée :</l>
+	<l id="1183">A ce sanglant affront qu'on a fait à mon rang,</l>
+	<l id="1184">Eussiez-vous, dites moi, reconnu votre sang ?</l>
+	<l id="1185">Eussiez vous jamais cru qu'une amitié si rare,</l>
+	<l id="1186">Eut peu trouver un coeur si dur et si barbare ?</l>
+	<l id="1187">Que celui que j'avais jusqu'au trône élevé.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1188" part='i'>Ah l'ingrat, le perfide.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Duc, Astolfe, Cassandre, Dom Lope.</head>
+<sp who="DOM LOPE"><speaker>DOM LOPE.</speaker>
+	<l id="1188" part='f'>Astolfe s'est trouvé,</l>
+	<l id="1189" part='i'>Madame,</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE.</speaker>
+<stage>Ici Cassandre fait signe à Dom Lope de sortir.</stage>
+	<l id="1189" part='m'> Astolfe ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1189" part='m'>Ô Dieux ! </l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1189" part='f'>Qu'il approche, qu'il vienne,</l>
+	<l id="1190" part='i'>L'ingrat,</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1190" part='f'>Quelle disgrâce est pareille à la mienne.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1191">Sa présence a d'abord dissipé mon courroux.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, bas à Astolfe.</speaker>
+	<l id="1192">Dissimulez, mon fils, ou vous nous perdez tous.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1193">Que son visage marque une horrible tristesse.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1194">Viens-ça méchant, dis-moi, connais-tu ta Princesse ?</l>
+	<l id="1195">Sais-tu ce qu'elle peut, et ce que tu lui dois,</l>
+	<l id="1196">Puis que nature enfin t'a soumis à ses lois ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1197">De ce juste devoir perdant la connaissance,</l>
+	<l id="1198">Avecque ma raison j'oublierais ma naissance.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1199">Étant né son sujet tu ne peux ignorer, </l>
+	<l id="1200">Qu'avecque tout respect, tu la dois honorer,</l>
+	<l id="1201">Mais sais-tu que tu dois à sa bonté suprême,</l>
+	<l id="1202">Plus qu'à sa qualité, s'il est vrai qu'elle t'aime,</l>
+	<l id="1203">Et qu'elle ait dédaigné des Princes et des Rois,</l>
+	<l id="1204">Pour s'arrêter à toi par un indigne choix ?</l>
+	<l id="1205" part='i'>Parle donc.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1205" part='f'>Oui, Seigneur je sais toutes ces choses.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1206">Cependant à ce choix on dit que tu t'opposes.</l>
+	<l id="1207">Dis traître, à son vouloir ne t'es-tu pas soumis,</l>
+	<l id="1208">Et te souviens-tu pas de ce que tu promis ?</l>
+	<l id="1209" part='i'>Veux-tu pas l'épouser ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1209" part='f'>S'il est en ma puissance,</l>
+	<l id="1210">J'ai les mêmes respects, la même obéissance.</l>
+	<l id="1211">De ce trésor divin je serai possesseur,</l>
+	<l id="1212" part='i'>Si vous me l'ordonnez.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id="1212" part='f'>Quoi méchant, de ta soeur ? </l>
+<stage>Haut.</stage>
+	<l id="1213">L'extravagance est grande, et je ne la puis taire,</l>
+	<l id="1214">Il dit qu'il ne le peut, et qu'il n'en veut rien faire.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1215">Quoi l'insensé méprise et mon sceptre et ma foi.</l>
+	<l id="1216">Ah c'est trop en souffrir, à moi gardes, à moi,</l>
+	<l id="1217">Qu'on l'enferme en la Tour, que le traître y périsse.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1218">Cet ordre rigoureux est tout plein de Justice,</l>
+	<l id="1219" part='i'>Madame, hola.</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="1219" part='m'>Seigneur.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1219" part='f'>Injuste effet d'amour.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1220">Saisissez-vous de lui, menez le dans la Tour,</l>
+	<l id="1221" part='i'>Et nous en répondez.</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="1221" part='f'>Dieux cet ordre m'étonne.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1222">Faites ce qu'on vous dit, la Princesse l'ordonne.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1223">Oui, oui, c'est par mon ordre, assurez-vous de lui.</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE DES GARDES.</speaker>
+	<l id="1224" part='i'>Rendez moi votre épée.</l>
+</sp>
+<sp who='CASSANDRE'><speaker>CASSANDRE, à part.</speaker>
+	<l id="1224" part='f'>Ah j'en mourrai d'ennui.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1225" part='i'>Prenez la.</l>
+</sp>
+<sp who="LE CAPITAINE DES GARDES"><speaker>LE CAPITAINE.</speaker>
+	<l id="1225" part='m'>Suivez moi.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1225" part='f'>J'obéis sans murmure.</l>
+	<l id="1226">Cette rigueur, mon père, offense la nature,</l>
+	<l id="1227">Si je n'ai point failli, Dieux par quelle raison,</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, bas à Astolfe.</speaker>
+	<l id="1228">Marche, ton seul salut consiste en ta prison. </l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1229">Suivons avec respect l'ordre de ma Princesse.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1230">Cette soumission rappelle ma tendresse,</l>
+	<l id="1231">Que j'ai peine à souffrir cette extrême rigueur,</l>
+	<l id="1232">En lui faisant outrage on m'arrache le coeur ;</l>
+	<l id="1233">Hola, ramenez moi cette âme criminelle,</l>
+	<l id="1234">Je le veux voir à part, ce méchant, ce rebelle,</l>
+	<l id="1235">Je veux l'interroger, car je n'ai pas compris,</l>
+	<l id="1236">D'où peut naître pour moi cet injuste mépris.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1237">Grands Dieux, qu'entends-je ici, puis-je éviter ma perte,</l>
+	<l id="1238">Si par sa bouche enfin la chose est découverte ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1239">Approchez, malheureux, parlez volage amant,</l>
+	<l id="1240">Qui feigniez autrefois d'aimer si constamment ;</l>
+	<l id="1241">Quel plaisir avez-vous de m'avoir offensée ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1242">J'aimerais mieux mourir qu'en avoir la pensée.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1243">Ingrat, s'il est ainsi, pourquoi refusez-vous,</l>
+	<l id="1244">De partager mon sceptre, et d'être mon époux ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1245">Refuser un tel bien, le mépriser, Madame !</l>
+	<l id="1246">Ah sauvez mon honneur, de cet injuste blâme.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1247">Pourquoi donc me quitter, à quoi bons ces adieux ?</l>
+	<l id="1248">Pourquoi si brusquement sortir en furieux ?</l>
+	<l id="1249">Car enfin, malheureux, vous m'avez délaissée,</l>
+<stage>Il jette un soupir.</stage>
+	<l id="1250">Croyez-vous l'avoir fait sans m'avoir offensée ?</l>
+	<l id="1251">D'où naît ce grand soupir, reprenez vos esprits,</l>
+	<l id="1252">Astolfe, si l'on vient à savoir vos mépris ;</l>
+	<l id="1253">Après tant de bienfaits, tant d'amour, tant d'estime,</l>
+	<l id="1254">Si l'on peut seulement soupçonner votre crime ;</l>
+	<l id="1255">Votre mort est certaine, oui, vous étiez perdu,</l>
+	<l id="1256">Songez donc mieux, Astolfe, au respect qui m'est du,</l>
+	<l id="1257">Quand bien vous oublieriez vos tendresses passées,</l>
+	<l id="1258">Ou que vous les auriez de votre âme effacées.</l>
+	<l id="1259">Je jure, et vous verrez l'effet de mon serment, </l>
+	<l id="1260">Si vous ne promettez, mais déterminement,</l>
+	<l id="1261">Que par vous de mon choix la loi sera suivie,</l>
+	<l id="1262">Avant la fin du jour ; vous en perdrez la vie.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1263">Si mon père y consent de bon coeur, je le veux ;</l>
+	<l id="1264">Et ma plus douce gloire est d'accomplir vos voeux.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1265" part='i'>Qui peut l'en empêcher ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1265" part='f'>Sachez-le de sa bouche,</l>
+	<l id="1266">L'obstacle vient de lui, car pour ce qui me touche,</l>
+	<l id="1267">Je jure par l'éclat qui sort de vos beaux yeux,</l>
+	<l id="1268">Que j'ai plus de respect pour vous, que pour les Dieux :</l>
+	<l id="1269">Que je vous aime plus mille fois que ma vie,</l>
+	<l id="1270">Et que suivre vos lois est mon unique envie.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1271">Duc, que vins-je d'entendre, et qu'ai-je découvert,</l>
+	<l id="1272">Pour me jouer tous deux, seriez vous de concert ?</l>
+	<l id="1273">D'où vous naît cette humeur ou bizarre, ou jalouse,</l>
+	<l id="1274">Il ne tient plus qu'à vous, dit-il, qu'il ne m'épouse,</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1275">Ô Dieux ! Le méchant homme, ô l'esprit dangereux,</l>
+	<l id="1276">Ne tiendrait qu'à moi ! l'as tu dit malheureux :</l>
+<stage>Bas.</stage>
+	<l id="1277">Eh songe à notre honneur, songe à ta conscience,</l>
+	<l id="1278">Et tâche d'oublier cette horrible alliance.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, bas.</speaker>
+	<l id="1279">Ce grand mal dans mon âme est trop enraciné,</l>
+	<l id="1280">Je n'en saurais sortir, je suis trop enchaîné.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, Haut.</speaker>
+	<l id="1281">Voyez l'extravagance où l'emporte sa rage,</l>
+	<l id="1282">Il ne dit pas un mot qui ne tende à l'outrage ;</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1283">Ah, nous le châtierons cet insolent moqueur,</l>
+	<l id="1284">Qui déguise sa langue aussi bien que son coeur.</l>
+	<l id="1285">Découvrez, s'il se peut, d'où naît sa frénésie,</l>
+	<l id="1286">Et si quelqu'autre objet trouble sa fantaisie.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1287">Rappelez vos esprits, mon fils, songez à vous :</l>
+	<l id="1288">Et des Dieux irritez évitez le courroux.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, bas.</speaker>
+	<l id="1289">Peuvent-ils condamner une si sainte flamme ? </l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, bas.</speaker>
+	<l id="1290">Mais elle est votre soeur, la voudriez vous pour femme ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1291">Oui, puis que de ce mal je ne saurais guérir :</l>
+	<l id="1292">Je voudrais l'épouser, et puis après mourir.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC, bas à Astolfe.</speaker>
+	<l id="1293">N'attends que la moitié d'un souhait si funeste,</l>
+	<l id="1294">Démon incestueux, n'espère pas le reste,</l>
+<stage>À la Princesse.</stage>
+	<l id="1295">Pressé sur cet hymen, l'ingrat m'a répondu,</l>
+	<l id="1296" part='i'>Qu'il aime mieux mourir.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1296" part='f'>Je l'ai bien entendu,</l>
+	<l id="1297">Mourir ? Ah c'est un songe, et je ne le puis croire,</l>
+	<l id="1298">Quoi préférer la mort à ton bien, à ta gloire,</l>
+	<l id="1299">Méchant ! Quoi je te suis un objet odieux ?</l>
+	<l id="1300">Qu'on l'enlève d'ici, qu'on l'ôte de mes yeux ;</l>
+	<l id="1301">Qu'on l'entraîne en prison cet objet de ma haine, </l>
+	<l id="1302">Qui croit impunément braver sa souveraine,</l>
+	<l id="1303" part='i'>Gardes qu'on s'en saisisse.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1303" part='f'>Ah dure extrémité.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1304">Monstre d'ingratitude et d'infidélité.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1305" part='i'>Hélas vous savez bien mon père.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1305" part='f'>Quoi, barbare ?</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1306">Souffrez que je lui parle avant qu'on m'en sépare.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1307">Non non, tu ne ferais qu'augmenter ses douleurs,</l>
+	<l id="1308">Vite emmenez ce traître auteur de nos malheurs,</l>
+	<l id="1309">Gardes ne souffrez pas qu'il parle davantage.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1310">Duc, vous nous répondrez de cet esprit volage : </l>
+	<l id="1311">Il a voulu la mort, mais j'en aurai le choix ;</l>
+	<l id="1312">J'entends qu'il soit jugé dans la rigueur des lois.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Cassandre, Beraclde</head>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1313">Vous m'étonnez, Beralde, Astolfe ose m'écrire ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1314" part='i'>Pour se justifier.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1314" part='f'>Et que me peut-il dire ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1315">En ouvrant ce paquet qu'il vient de me donner,</l>
+	<l id="1316">Vous ne le pourrez plus de crime soupçonner ;</l>
+	<l id="1317">Va, m'a dit en pleurant ce captif misérable,</l>
+	<l id="1318">Va trouver ma Princesse, elle me croit coupable, </l>
+	<l id="1319">Mais ouvrant ces billets, et jetant l'oeil dessus,</l>
+	<l id="1320">Dis lui que dans son coeur je ne le serai plus,</l>
+	<l id="1321">Pour la dernière fois je prends cette licence,</l>
+	<l id="1322">Et je n'y suis forcé que par mon innocence.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1323">Quelle innocence, ô Dieux. Hé bien voyons que c'est,</l>
+	<l id="1324">Et si j'ai mal jugé révoquons notre arrêt.</l>
+	<l id="1325">Mais je vois deux billets écrits. « À la Princesse » :</l>
+	<l id="1326">Je crois que c'est à moi que ce premier s'adresse,</l>
+	<l id="1327">Lisons. Vous cependant, allez, mais promptement</l>
+	<l id="1328">Me chercher Isabelle en son appartement.</l>
+<stage>Lettre d'Astolfe à la Princesse.</stage>
+	<l id="1329">« Si devant que me condamner,</l>
+	<l id="1330">Vous lisez cet écrit qui me vient de mon père,</l>
+	<l id="1331">Madame, vous aurez quelque peine à le faire ;</l>
+	<l id="1332">Et vous me pourrez pardonner.</l>
+	<l id="1333">Sa juste violence a borné mes souhaits,</l>
+	<l id="1334">Je pars pour éviter le blâme,</l>
+	<l id="1335">Et sors de vos États pour n'y rentrer jamais,</l>
+	<l id="1336">Jugez de la douleur que doit souffrir mon âme. »</l>
+	<l id="1337">Ce sens est bien obscur, ouvrons l'autre, et voyons</l>
+	<l id="1338">S'il n'éclaircira point ce que nous ignorons.</l>
+<stage>LETTRE DU DUC DE CARDONNE À ASTOLFE.</stage>
+	<l id="1339">« Quand j'ai souffert, mon fils, qu'on vous fit violence,</l>
+	<l id="1340">Je me la faisais plus qu'à vous,</l>
+	<l id="1341">Et contre votre résistance,</l>
+	<l id="1342">Je n'ai montré qu'un feint courroux.</l>
+	<l id="1343">Recevez cette clef d'une porte secrète,</l>
+	<l id="1344">Que vous verrez dans le pied de la Tour,</l>
+	<l id="1345">Dérobez-vous avant le jour,</l>
+	<l id="1346">Et dans Paris, cherchez votre retraite,</l>
+	<l id="1347">Votre soeur trop facile à vous donner sa foi,</l>
+	<l id="1348">Doit gêner votre esprit d'une peine terrible,</l>
+	<l id="1349">Ce crime noir m'est bien sensible,</l>
+	<l id="1350">Quoi qu'il ne soit su que de moi.</l>
+	<l id="1351">Fuyez, mon fils, et s'il vous est possible,</l>
+	<l id="1352">Oubliez une amour horrible,</l>
+	<l id="1353">Que je regarde avec effroi. »</l>
+	<l id="1354">...........................</l>
+	<l id="1355">Dans un gouffre nouveau cette lettre me plonge,</l>
+	<l id="1356">Ai-je lu, justes Dieux, ou si j'ai fait un songe.</l>
+	<l id="1357">Ah ! Si j'ai vu l'horreur dont je me sens frémir,</l>
+	<l id="1358">D'un sommeil éternel puissé-je ici dormir,</l>
+	<l id="1359">Mais d'un sens plus rassis relisons cette lettre,</l>
+	<l id="1360">Ô Ciel tu vois son crime, et tu l'as peu permettre,</l>
+<stage>Elle lit.</stage>
+	<l id="1361">De ton foudre vengeur fait il si peu de cas ? </l>
+	<l id="1362">Il gronde sur ce monstre, et ne l'écrase pas :</l>
+	<l id="1363">Ciel tu le laisses vivre, et ta vaine tempête</l>
+	<l id="1364">Se perd sur des rochers pour épargner sa tête.</l>
+<stage>Elle relit.</stage>
+	<l id="1365">« Votre soeur trop facile à vous donner sa foi,</l>
+	<l id="1366">Doit gêner votre esprit d'une peine terrible ?</l>
+	<l id="1367">Fuyez, mon fils, et s'il vous est possible,</l>
+	<l id="1368">Évitez une amour horrible, que je regarde avec effroi. »</l>
+	<l id="1369">La chose est trop visible, il a séduit sa soeur,</l>
+	<l id="1370">Pour elle il m'abandonne, il en est possesseur ;</l>
+	<l id="1371">À sa seule Princesse il n'a pas fait injure,</l>
+	<l id="1372">Ce monstre avec l'amour outrage la nature.</l>
+	<l id="1373">Il étale son crime, il me le fait sentir,</l>
+	<l id="1374">Et croit en être quitte avec un repentir.</l>
+	<l id="1375">Mais, je la vois venir cette impudique femme,</l>
+	<l id="1376">Qui m'a volé le coeur de cet amant infâme.</l>
+	<l id="1377">Avez-vous bien le front de paraître en ces lieux,</l>
+	<l id="1378">Ôtez-vous, misérable, ôtez-vous de mes yeux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Cassandre, Isabelle.</head>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1379">Je ne puis sans pleurer la voir ainsi troublée,</l>
+	<l id="1380">Je souffre les douleurs dont elle est accablée,</l>
+	<l id="1381">Et je serais sans coeur l'aimant si tendrement,</l>
+	<l id="1382">De ne témoigner pas ce grand ressentiment.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1383">Ah ! Je vois de ces pleurs la source criminelle ;</l>
+	<l id="1384">Sa douleur la convainc ; vous pleurez, Isabelle,</l>
+	<l id="1385">Mais vous blâmez en vain les astres rigoureux,</l>
+	<l id="1386">Enfin il est parti ce frère malheureux.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1387">Il est parti, Madame, ah l'infâme, ah le traître.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1388">Et ces emportements que vous faites paraître,</l>
+	<l id="1389">Ces larmes, ces soupirs, ce visage interdit,</l>
+	<l id="1390">Ne confirment que trop ce qu'on m'a déjà dit ;</l>
+	<l id="1391">Ce discours, Isabelle, est facile à comprendre,</l>
+	<l id="1392">Mais vous feindrez encor de ne le pas entendre,</l>
+	<l id="1393">Sans donner avec art le change à vos douleurs :</l>
+	<l id="1394">Pleurez votre disgrâce, et vos propres malheurs,</l>
+	<l id="1395">Plus que l'éloignement de ce frère barbare.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1396">Que dit-elle, grands Dieux, son jugement s'égare,</l>
+	<l id="1397">D'où vient que son venin rejaillit jusqu'à nous,</l>
+	<l id="1398">Qu'est ceci, ma Princesse, où vous emportez vous, </l>
+	<l id="1399">Devez-vous jusqu'à moi porter votre colère ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1400" part='i'>Connaissez cette lettre.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1400" part='f'>Elle est du Duc mon père.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1401">Lisez-la, malheureuse, et voyez si j'ai tort,</l>
+	<l id="1402">De détester l'horreur d'un si funeste sort.</l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, lit.</speaker>
+	<l id="1403">Votre soeur trop facile à vous donner sa foi,</l>
+	<l id="1404">Doit gêner votre esprit d'une peine terrible,</l>
+	<l id="1405">Ce crime noir m'est bien sensible,</l>
+	<l id="1406">Quoi qu'il ne soit su que de moi,</l>
+	<l id="1407">Plus je lis cette lettre, et moins je sais comprendre,</l>
+	<l id="1408">Quel est ce sens caché que vous croyez entendre.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Duc de Cardone, Cassandre, Isabelle.</head>
+<sp who='CASSANDRE'><speaker>CASSANDRE, bas.</speaker>
+	<l id="1409">De ce grand coup de foudre elle a l'esprit frappé.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1410">Je viens vous avertir qu'Astolfe est échappé.</l>
+	<l id="1411">Commandez promptement qu'on courre après ce traître,</l>
+	<l id="1412">J'en suis fort innocent, pour le faire connaître,</l>
+	<l id="1413">Je consens qu'on l'amène en ce lieu vif ou mort,</l>
+	<l id="1414">Qu'il meure s'il résiste, et fait le moindre effort.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1415">Duc, il n'est pas besoin qu'on prenne tant de peine,</l>
+	<l id="1416">Ordonnez qu'on le sauve, et non pas qu'on l'amène.</l>
+	<l id="1417">Connaissez cette lettre, elle est de votre main,</l>
+	<l id="1418">Vous avez ignoré sa fuite et son dessein,</l>
+	<l id="1419">Vous n'y trempez en rien, l'osez vous dire encore ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1420">Puis qu'enfin vous savez son crime que j'abhorre, </l>
+	<l id="1421">Puis que vous connaissez son malheur et le mien,</l>
+	<l id="1422">Madame, il ne faut plus qu'on vous déguise rien,</l>
+	<l id="1423">De cette fuite donc ne soyez point troublée,</l>
+	<l id="1424">Vous avez tout sujet d'en être consolée.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1425">Consolez votre fille, après un tel malheur,</l>
+	<l id="1426">C'est elle qui doit seule en mourir de douleur.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1427">Qu'entends-je ici, grand Dieux ! On s'emporte, on m'outrage,</l>
+	<l id="1428">Ah, Seigneur, hâtez-vous de calmer cet orage,</l>
+	<l id="1429">Expliquez votre Lettre, et la tirez d'erreur ;</l>
+	<l id="1430">Ce fol emportement me fait frémir d'horreur.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1431">Je n'ai rien déguisé, ma lettre est véritable.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1432">Quoi d'un crime si noir, vous me croiriez coupable ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1433">Cassandre est seule à plaindre, et son sort rigoureux,</l>
+	<l id="1434">Déshonore avec-elle un père malheureux,</l>
+	<l id="1435">Puisque la vérité ne se saurait plus taire,</l>
+	<l id="1436">Sachez qu'elle est ma fille, et qu'Astolfe est son frère.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1437" part='i'>Moi je suis votre fille ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1437" part='f'>Oui j'en jure les Dieux.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1438">Croyez vous qu'il en soit, esprit pernicieux ?</l>
+	<l id="1439">Dans une fausseté l'on vient de vous surprendre,</l>
+	<l id="1440">Imposteur, qu'est-ce encor qu'on me veut faire entendre,</l>
+	<l id="1441" part='i'>Moi je suis votre fille ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1441" part='f'>Oui, Madame, écoutez</l>
+	<l id="1442">Un récit surprenant, mais plein de vérités,</l>
+	<l id="1443">Oui vous êtes ma fille, encor je vous le jure,</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1444">Juriez vous pas naguère, esprit fourbe et parjure, </l>
+	<l id="1445">Qu'Astolfe de la Tour sans vous était sorti ?</l>
+	<l id="1446">Et j'avais votre écrit qui vous a démenti,</l>
+	<l id="1447">Vous m'osez soutenir après qu'il est mon frère,</l>
+	<l id="1448">Mon coeur qui vous dément m'assure du contraire.</l>
+	<l id="1449">Il est grand, il est ferme, il est noble, il est franc,</l>
+	<l id="1450">Astolfe est fourbe et lâche, il n'est point de mon sang :</l>
+	<l id="1451">Et je sens malgré vous que j'ai toutes les marques,</l>
+	<l id="1452">Que la nature imprime en l'âme des monarques.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1453">Ne vous emportez pas, Madame, examinez,</l>
+<note type="L">Rassis : Qui est reposé, épuré. Se dit en morale, de ce qui n'est point ému, ni troublé de passion. [F]</note>
+	<l id="1454">D'un esprit plus rassis, ce que vous condamnez,</l>
+	<l id="1455">Si ce que je vous dis était une imposture,</l>
+	<l id="1456">Il faudrait avant moi condamner la Nature,</l>
+	<l id="1457">Ce que j'ôte à mon fils prouve assez clairement.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1458" part='i'>Qui donc m'ôte le sceptre ?</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1458" part='m'>Isabelle.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1458" part='f'>Et comment ? </l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1459">Quand elle vint au monde elle y vint languissante,</l>
+	<l id="1460">Et la frayeur qu'on eut en la voyant mourante,</l>
+	<l id="1461">Faisant parmi les grands un dangereux éclat,</l>
+	<l id="1462">Fit qu'on vous supposa pour le bien de l'État,</l>
+	<l id="1463">Avec plus de santé même jour étant née ;</l>
+	<l id="1464">Par Dom Bernard et moi vous fûtes promenée,</l>
+	<l id="1465">Au Camp parmi nos Chefs qui déjà révoltés,</l>	
+	<l id="1466">Cherchaient sur cette mort parti de tous côtés.</l>
+	<l id="1467">Ainsi l'on fut contraint après la mort du Prince,</l>
+	<l id="1468">D'abandonner son sang pour sauver sa Province,</l>
+	<l id="1469">La Princesse guérit, mais on n'osa toucher,</l>
+	<l id="1470">A ce change fatal qu'on me va reprocher,</l>
+	<l id="1471">Non pas pour l'avoir fait lors qu'il fut nécessaire :</l>
+	<l id="1472">Mais pour avoir depuis manqué de le défaire,</l>
+	<l id="1473">En laissant à ma fille un injuste pouvoir,</l>
+	<l id="1474">J'ai trahi mon honneur, j'ai trahi mon devoir ;</l>
+	<l id="1475">J'ai trahi ma Princesse, et j'ai trahi l'Empire,</l>
+	<l id="1476">Aussi triste et confus chez moi je me retire,</l>
+	<l id="1477">Et n'ai plus en ce lieu de conseils à donner,</l>
+	<l id="1478">Qu'on pourrait d'injustice encore soupçonner. </l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1479">Ce grand coup me surprend, mais plus qu'il ne m'étonne,</l>
+	<l id="1480">Je devais perdre ensemble Astolfe et la Couronne.</l>
+	<l id="1481">Destins qui vous plaisez à me persécuter,</l>
+	<l id="1482">Nous saurons sans faiblesse et sans nous emporter,</l>
+	<l id="1483">Souffrir votre colère et braver votre haine,</l>
+	<l id="1484">Malgré vous sur mes sens je serai souveraine,</l>
+	<l id="1485">Et je vous confondrai par cette fermeté,</l>
+	<l id="1486">De m'avoir fait un trône et me l'avoir ôté.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1487">Quand vous le céderiez après ce témoignage</l>
+	<l id="1488">Madame, malgré vous nous vous rendrions hommage.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1489">Non, non, il faut céder aux lois que nous suivons,</l>
+	<l id="1490">Il faut rendre justice à qui nous la devons,</l>
+	<l id="1491">Le Duc nous a dit vrai, déjà je m'en console,</l>
+	<l id="1492">Mon malheur me le prouve autant que sa parole.</l>
+	<l id="1493">Aurait-il refusé qu'un fils qu'il aime tant,</l>
+	<l id="1494">Reçût avec mon coeur un honneur éclatant,</l>
+	<l id="1495">Dans cette ambition qu'on voit qui le transporte,</l>
+	<l id="1496">Si nature en son coeur n'eût été la plus forte ? </l>
+	<l id="1497">Il m'a laissé régner tant que son attentat,</l>
+	<l id="1498">Et son ambition n'ont blessé que l'Estat,</l>
+	<l id="1499">Mais il n'a peu laisser durer cette imposture,</l>
+	<l id="1500">Au moment qu'il a vu qu'on blessait la nature.</l>
+	<l id="1501">Quoi qu'il aimât sa gloire et son autorité,</l>
+	<l id="1502">Par l'horreur de l'inceste il s'est épouvanté.</l>
+	<l id="1503">Sa retraite fait voir fuyant le diadème,</l>
+	<l id="1504">Qu'il aime la justice encor plus qu'il ne s'aime,</l>
+	<l id="1505">Que la piété borne un coeur ambitieux,</l>
+	<l id="1506">Et que qui ne craint rien, craint quelquefois les Dieux.</l>
+	<l id="1507">Faites dans le Palais assembler la Noblesse</l>
+	<l id="1508">Mon père, il faut céder, voici notre Princesse,</l>
+	<l id="1509">Il faut la replacer dans ce trône usurpé,</l>
+	<l id="1510">Que trop injustement nous avons occupé.</l>
+</sp>
+<sp who='LE DUC'><speaker>LE DUC.</speaker>
+	<l id="1511" part='i'>Je vais vous obéir.</l>
+<stage>Le Duc s'en va.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SÈNE IV. Cassandre, Isabelle.</head>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1511" part='f'>Dans cette obéissance,</l>
+	<l id="1512">Vous allez voir finir mon règne, et ma puissance :</l>
+	<l id="1513">Et vous verrez, Princesse, en vous la remettant,</l>
+	<l id="1514">Et méprisant du sort le caprice inconstant</l>
+	<l id="1515">Dans ma sainte retraite où ma gloire se fonde,</l>
+	<l id="1516">Combien je la préfère à la gloire du monde.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1517">Conservez vous, Madame, en l'état glorieux,</l>
+	<l id="1518">Que vous m'abandonnez contre le gré des Dieux :</l>
+	<l id="1519">Pour un si grand éclat je ne me sens pas née ;</l>
+	<l id="1520">Connaissez vos vertus, qui vous ont couronnée</l>
+	<l id="1521">Plus que votre fortune, et vous font mériter</l>
+	<l id="1522">Ce haut degré de gloire où je n'ose monter.</l>
+	<l id="1523">Toute la Catalogne en est déjà charmée,</l>
+	<l id="1524">Puisqu'à vos douces lois elle est accoutumée,</l>
+	<l id="1525">Ne désespérez pas des sujets bienheureux,</l>
+	<l id="1526">Qui sont si justement de leurs fers amoureux. </l>
+	<l id="1527">Quand vous embrasseriez cette sainte retraite,</l>
+	<l id="1528">Je vous y voudrais suivre encor comme sujette :</l>
+	<l id="1529">Vous ne pouvez quitter l'État sans le trahir,</l>
+	<l id="1530">Ni me faire régner sans me faire haïr.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1531">Prenez des sentiments, généreuse Isabelle,</l>
+	<l id="1532">Plus dignes de la gloire où le Ciel vous appelle,</l>
+	<l id="1533">En vous cédant l'État, je ne vous cède rien,</l>
+	<l id="1534">C'est restitution, je vous rends votre bien :</l>
+	<l id="1535">Mais vous cédant Astolfe, il faut que je confesse,</l>
+	<l id="1536">Que je vous cède tout, excusez ma faiblesse ;</l>
+	<l id="1537">Je ne puis me défaire encor du sentiment,</l>
+	<l id="1538">Qu'inspirait dans mon coeur un si parfait amant,</l>
+	<l id="1539">Il le fut dès l'enfance, et ne le considère,</l>
+	<l id="1540">Que depuis un moment en qualité de frère.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1541">Je renonce à ce bien que vous me présentez ;</l>
+	<l id="1542">Et m'arrête, Madame, où vous vous arrêtez.</l>
+	<l id="1543">Enfin, vous connaissez qu'Astolfe est votre frère ;</l>
+	<l id="1544">Mais je l'ai cru le mien, et ne puis me défaire</l>
+	<l id="1545">De certains mouvements qui viennent malgré moi</l>
+	<l id="1546">M'effrayer de l'horreur que j'aurais de sa foi.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1547">Ce scrupule est bien juste, et s'il gêne votre âme, </l>
+	<l id="1548">Moncade est votre amant, bornez vous à sa flamme,</l>
+	<l id="1549">Enfin, vous estes libre, et vous pouvez choisir,</l>
+	<l id="1550">Celui qui charmera le plus votre désir.</l>
+	<l id="1551">Pour notre souveraine, on va vous reconnaître ;</l>
+	<l id="1552">C'est à vous maintenant à nous donner un maître ;</l>
+	<l id="1553">Et quand vous choisirez ce bienheureux époux,</l>
+	<l id="1554">Je serai la première à fléchir les genoux,</l>
+	<l id="1555">On fait dans le Palais assembler la Noblesse ;</l>
+	<l id="1556">Rentrons, non non, passez vous êtes ma Princesse.</l>
+<stage>Isabelle lui présente la porte.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Cassandre, Isabelle, Beralde.</head>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1557">Je viens vous avertir qu'Astolfe est de retour,</l>
+	<l id="1558">Que Dom Bernard est libre, et le ramène en cour</l>
+	<l id="1559" part='i'>Malgré lui.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1559" part='f'>Dom Bernard ? L'a-t-il pu reconnaître?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1560">Il m'a plutôt connu, qu'il n'a connu mon maître.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1561" part='i'>Bernard depuis quinze ans détenu ? </l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1561" part='f'>Les voici ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1562" part='i'>Où s'est fait leur rencontre ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1562" part='f'>À mille pas d'ici,</l>
+	<l id="1563">Voyant quel désespoir l'emportait vers la France,</l>
+	<l id="1564">Il la fait revenir avecque diligence,</l>
+	<l id="1565">J'en ai fait avertir le Duc diligemment,</l>
+	<l id="1566">Et suis vers votre Altesse accouru promptement.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE, en rentrant.</speaker>
+	<l id="1567">Hé bien, nous les verrons avecque la Noblesse,</l>
+	<l id="1568">Pourrai-je bien le voir sans montrer ma faiblesse ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Dom Bernard, Astolfe.</head>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1569">Pourquoi me ramener malgré moi dans ces lieux ?</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1570">Nous allons contenter votre esprit curieux,</l>
+	<l id="1571">Je vais vous détromper, Astolfe, et vous surprendre ;</l>
+	<l id="1572">Mais je le dis encor, si le Duc et Cassandre</l>
+	<l id="1573">Ne prennent comme vous part à cet entretien,</l>
+	<l id="1574">Vous me pressez en vain, je ne vous dirai rien.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Le Duc, Astolphe, Dom Bernard, Beralde. </head>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1575" part='i'>Quoi mon fils de retour.</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1575" part='f'>La chose est très certaine.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1576">Et le vrai Dom Bernard malgré lui le ramène ?</l>
+	<l id="1577">Captif depuis quinze ans, il revient en ces lieux ?</l>
+</sp>
+<sp who="BERALDE"><speaker>BERALDE.</speaker>
+	<l id="1578" part='i'>Oui, Seigneur, les voici.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1578" part='f'>Quel bonheur, justes Dieux !</l>
+	<l id="1579">Ne suis-je point déçu par une fausse joie,</l>
+	<l id="1580">Est-il vrai, cher ami, qu'encor je vous revoie ?</l>
+	<l id="1581">Embrassez moi, mon fils, vous venez à propos,</l>
+	<l id="1582">Pour rendre à nos espris le calme et le repos.</l>
+</sp>
+<sp who='ASTOLFE'><speaker>ASTOLFE, à part.</speaker>
+	<l id="1583">Et pour combler le mien d'ennuis et de disgrâce,</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1584">Toute notre noblesse est déjà dans la place,</l>
+	<l id="1585">Et je crois, Dom Bernard, que vous ne saurez pas,</l>
+	<l id="1586">Pourquoi nous assemblons ici tous les États. </l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1587">Astolfe en revenant m'en a dit quelque chose,</l>
+	<l id="1588">Et je sais son chagrin dont il m'a dit la cause.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Cassandre tenant Isabelle par la main, Astolfe, Le Duc, Isabelle, Beralde, Dom Bernard.</head>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1589">Voici Cassandre, ô Dieux ! Le puis-je encore revoir,</l>
+	<l id="1590">Cet objet de ma rage et de mon désespoir,</l>
+	<l id="1591" part='i'>Cette soeur que j'adore ?</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1591" part='f'>Ah ! Tout le coeur me tremble,</l>
+	<l id="1592">Puis-je bien voir mon frère, et mon Amant ensemble ?</l>
+	<l id="1593">Ainsi que notre coeur détournons-en nos yeux,</l>
+	<l id="1594">Forçons un mouvement qui blesserait les Dieux.</l>
+	<l id="1595">Et bien, mon père, enfin, sont-ils prêts à paraître,</l>
+	<l id="1596">Ces États assemblez pour recevoir un maître,</l>
+	<l id="1597">Et pour voir couronner plus solennellement,</l>
+	<l id="1598">Celle à qui cet État appartient justement.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1599">Oui, Madame, au Palais ils viennent tous se rendre.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1600">Ils vont voir ma justice, elle les va surprendre,</l>
+	<l id="1601">Et je me réjouis de voir que Dom Bernard,</l>
+	<l id="1602">Chez nous se trouve libre afin d'y prendre part ;</l>
+	<l id="1603">Sortez de mon esprit vanités passagères,</l>
+	<l id="1604">Trônes, Sceptres, Grandeurs, vous m'êtes des chimères :</l>
+	<l id="1605">Je ne vous connais plus faiblesses des mortels ;</l>
+	<l id="1606">Et je n'aspire plus qu'à l'honneur des autels,</l>
+	<l id="1607">De ce fais dangereux j'avais l'âme accablée.</l>
+</sp>
+<sp who='DOM BERNARD'><speaker>DOM BERNARD.</speaker>
+	<l id="1608">Avant que la Noblesse ici soit assemblée,</l>
+	<l id="1609">Madame, et qu'on s'explique en présence de tous,</l>
+	<l id="1610">J'ose vous demander audience entre nous.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1611">Ce n'est plus, Dom Bernard, à moi qu'on la demande ;</l>
+	<l id="1612">Et voici maintenant celle qui nous commande, </l>
+	<l id="1613">Je m'en vais lui remettre et sceptre et dignité.</l>
+</sp>
+<sp who='DOM BERNARD'><speaker>DOM BERNARD.</speaker>
+	<l id="1614">Maintenez vous, Madame, en votre autorité :</l>
+	<l id="1615">Ne plaise aux justes Dieux qu'elle vous soit ravie,</l>
+	<l id="1616">Ni qu'on perde l'éclat d'une si belle vie,</l>
+	<l id="1617">À vous seule appartient de régner justement,</l>
+	<l id="1618">Le Duc vous croit sa fille, et le croit vainement.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1619" part='i'>Dieux que me dites-vous ?</l>
+</sp>
+<sp who='DOM BERNARD'><speaker>DOM BERNARD.</speaker>
+	<l id="1619" part='f'>Une vérité pure,</l>
+	<l id="1620">Et quand vous aurez mieux consulté la nature,</l>
+	<l id="1621">Et goûté mes raisons, vous le sentirez bien.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1622">Astolfe en ce cas là ne me serait donc rien ?</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1623">Non, Madame, écoutez, s'il vous plaît une histoire,</l>
+	<l id="1624" part='i'>Qui vous surprendra tous.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1624" part='f'>Quel moyen de vous croire, </l>
+	<l id="1625">Dites moi, Dom Bernard, ne m'aidâtes vous pas,</l>
+	<l id="1626">À supposer l'enfant qui finit nos débats ?</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1627">Oui, Duc, j'y consentis, le mal de la Princesse</l>
+	<l id="1628">Mettant l'État en proie, oui, je vous le confesse,</l>
+	<l id="1629">Mais vous vous souviendrez, quand pour la garantir,</l>
+	<l id="1630">De l'air contagieux j'eus ordre de partir</l>
+	<l id="1631">Du camp, qu'avec l'Enfant que nous mîmes au trône,</l>
+	<l id="1632">Je menai la malade encore à Barcelone.</l>
+	<l id="1633">Quand je la vis guérie, et vous toujours absent,</l>
+	<l id="1634">Dans son rang je remis cet enfant innocent,</l>
+	<l id="1635">Jugeant qu'on ne pourrait discerner, ni connaître,</l>
+	<l id="1636">Au retour, deux enfants qui ne faisaient que naître.</l>
+	<l id="1637">Les nourrices et moi fîmes secrètement,</l>
+	<l id="1638">Un juste coup d'État faisant ce changement :</l>
+	<l id="1639">Car on n'eût peu laisser dans le trône sans crime,</l>
+	<l id="1640">Celle qui n'en fut pas maîtresse légitime.</l>
+	<l id="1641">Vous revîntes enfin, et ne manquâtes point,</l>
+	<l id="1642">Me faisant confidence encore sur ce point,</l>
+	<l id="1643">Et croyant que Cassandre encor fût votre fille,</l>
+	<l id="1644">De me parler toujours d'intérêts de famille, </l>
+	<l id="1645">Car vous m'aviez promis avant votre retour,</l>
+	<l id="1646">Qu'Astolfe épouserait ma fille quelque jour.</l>
+	<l id="1647">Croyant qu'on m'abusait avec cet artifice,</l>
+	<l id="1648">Et que l'ambition causait cette injustice,</l>
+	<l id="1649">Qui vous faisait sortir des bornes du devoir,</l>
+	<l id="1650">J'entretins votre erreur, craignant votre pouvoir.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1651">Vous me faites vous même une injustice étrange,</l>
+	<l id="1652">Vous savez qu'on n'osa toucher à cet échange,</l>
+	<l id="1653">Voyant tant de mutins, et tant de mécontents.</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1654">Ce furent vos raisons, et qu'il n'était pas temps,</l>
+	<l id="1655">Enfin quoi qu'il en soit, je n'osai vous rien dire,</l>
+	<l id="1656">Et vous laissai flatter des douceurs de l'Empire,</l>
+	<l id="1657">Quand dans ce grand traité qu'on commit à ma foi</l>
+	<l id="1658">Le Roi de Portugal ne demandant que moi,</l>
+	<l id="1659">Le Conseil m'engagea dans ce cruel voyage,</l>
+	<l id="1660">Qui m'a coûté quinze ans de peine et d'esclavage :</l>
+	<l id="1661">Car je fus pris sur mer et mené dans Tunis,</l>
+	<l id="1662">Où l'on m'a fait souffrir des tourments infinis ;</l>
+	<l id="1663">Tant que le nouveau Roi moins dur et plus avare,</l>
+	<l id="1664">Que feu son père Acmat qui me fut si barbare,</l>
+	<l id="1665">Pour ses vaisseaux qu'on prit dont je fus le martyr,</l>
+	<l id="1666">A reçu ma rançon, et m'a laissé partir.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1667">Étant mon gouverneur, et craignant la Régence,</l>
+	<l id="1668">Du Duc dont vous voyez l'éclat et la puissance,</l>
+	<l id="1669">Comment me laissiez vous sous son autorité ?</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1670">Je n'avais rien à craindre en cette extrémité :</l>
+	<l id="1671">Car vous croyant sa fille avec le diadème,</l>
+	<l id="1672">Il n'eût peu vous manquer, sans manquer à soi-même ;</l>
+	<l id="1673">Sur cette confiance enfin je m'embarquai,</l>
+	<l id="1674">Et comme je pouvais sur mer être attaqué,</l>
+	<l id="1675">Prévoyant que de plus en un si long voyage,</l>
+	<l id="1676">Je pouvais être pris, ou bien faire naufrage,</l>
+	<l id="1677">Duc, s'il vous en souvient, je fis mon testament,</l>
+	<l id="1678">Que je crus vous pouvoir laisser confidemment.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1679">Il m'en souvient fort bien, et j'ai votre cassette.</l>
+</sp>
+<sp who="DOM BERNARD"><speaker>DOM BERNARD.</speaker>
+	<l id="1680">Faites-la donc venir, vous serez satisfaite,</l>
+	<l id="1681">Madame, en la voyant, de ma fidélité,</l>
+	<l id="1682">Elle ne contient rien que cette vérité </l>
+	<l id="1683">Qu'alors je n'osai dire, et que je ne pus taire,</l>
+	<l id="1684">Au lieu du testament, que je feignis de faire.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1685">La justice du Ciel visiblement paraît,</l>
+	<l id="1686">Dans ce procédé franc où je prends intérêt,</l>
+	<l id="1687">Elle eût paru toujours après votre voyage,</l>
+	<l id="1688">Si vous m'eussiez plutôt rendu ce témoignage,</l>
+	<l id="1689" part='i'>Que j'en eusse eu de joie.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1689" part='f'>Oublions le passé</l>
+	<l id="1690">Sans condamner l'erreur où l'on vous a laissé,</l>
+	<l id="1691">Vous avez dignement gouverné ma Province,</l>
+	<l id="1692">À votre sang illustre elle devait un Prince,</l>
+	<l id="1693">Au lieu d'une Princesse, aussi veux-je donner,</l>
+	<l id="1694">Mon sceptre à votre fils que l'on va couronner :</l>
+	<l id="1695">Et puis que l'on n'a peu couronner Isabelle,</l>
+	<l id="1696">Je partage ma gloire et mon coeur avec elle,</l>
+	<l id="1697" part='i'>Et lui donne Moncade.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1697" part='f'>Ô ! Règne heureux et doux.</l>
+</sp>
+<sp who="ASTOLFE"><speaker>ASTOLFE.</speaker>
+	<l id="1698" part='i'>Ô bonté sans exemple.</l>
+</sp>
+</div2>
+<div2 type='scene' n=''><head>SCÈNE DERNIÈRE. Moncade, Cassandre, Isabelle, Astolfe, Le Duc.</head> 
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1698" part='f'>On n'attend plus que vous,</l>
+	<l id="1699" part='i'>Madame.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1699" part='f'>Allons, Moncade, on vous a fait justice :</l>
+	<l id="1700">Car de Beralde enfin on a su l'artifice,</l>
+	<l id="1701">Isabelle avait cru que vous pensiez à moi :</l>
+	<l id="1702">Mais elle est détrompée, et reçoit votre foi.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1703" part='i'>Croirai-je ce miracle !</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1703" part='f'>Oui, vous le devez croire.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1704">Aux douceurs de l'amour faisons céder la gloire,</l>
+	<l id="1705">S'il est vrai que nos voeux ne soient pas méprisés. </l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1706">Beralde avant partir nous a désabusé,</l>
+	<l id="1707">Si mon père y consent, que votre peine cesse.</l>
+</sp>
+<sp who="LE DUC"><speaker>LE DUC.</speaker>
+	<l id="1708">Je veux avec plaisir ce que veut ma Princesse.</l>
+</sp>
+<sp who="MONCADE"><speaker>MONCADE.</speaker>
+	<l id="1709">Allons, puis que le Ciel nous veut favoriser,</l>
+	<l id="1710">Et consoler Dom Pedre et le désabuser.</l>
+</sp>
+<sp who="ISABELLE"><speaker>ISABELLE.</speaker>
+	<l id="1711">S'il sent bien les douceurs que le Ciel nous envoie,</l>
+	<l id="1712">Il noiera ses douleurs dans la publique joie.</l>
+</sp>
+<sp who="CASSANDRE"><speaker>CASSANDRE.</speaker>
+	<l id="1713">Puis que tous nos États enfin sont assemblez,</l>
+	<l id="1714">Allons rendre le calme à leurs épris troublez.</l>
+	<l id="1715">Suivez moi, hâtons nous de leur donner un Prince ;</l>
+	<l id="1716">Et par ce digne choix rassurons la Province.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

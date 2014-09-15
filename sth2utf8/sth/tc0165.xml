@@ -1,0 +1,2260 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>PYRRHUS, TRAGÉDIE</title>
+				<author born='1674' born_location='Dijon' death='1762' death_location='Paris' academie='1731'>CRÉBILLON, Prosper J. de</author>
+				<date>1708</date>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, Septembre 2010</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragédie</genre>
+				<inspiration>mythe grec</inspiration>
+				<periode>1721-1730</periode>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<taille>1750-2000</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">PYRRHUS</titlePart>
+				<titlePart type="sub">TRAGÉDIE</titlePart>
+			</docTitle> 
+			<docDate value='1726'>M. DCC. XXVI.</docDate>
+			<docAuthor id='CREBILLON, Prosper Jolyot de' bio='crebillon'>P. J. Crébillon</docAuthor>
+			<docImprint>
+				<privilege id='17**-**-**'></privilege>
+				<acheveImprime id='17**-**-**'></acheveImprime>
+				<printer id='PRAUT'>Praut Fils</printer>
+			</docImprint>
+			<performance>
+				<premiere date='1726-04-29' location ="Théâtre de la rue des Fossés Saint-Germain">Réprésentée pour la première fois le 29 avril 1726 au Théâtre de la Rue des Fossés Saint-Germain..</premiere>
+			</performance>
+<epitre><dedicace>À MONSIEUR PÂRIS, Conseiller du roi en ses conseils d'État privés, ancien garde du trésor royal.</dedicace>
+<head>MONSIEUR,</head>
+<p>Le sort que le public a daigné faire à PYRRHUS, tout brillant qu'il a été, n'est point encore aussi touchant pour moi que le plaisir de vous offrir un ouvrage applaudi, et de pouvoir, par ce présent  ; vous donner une marque plus éclatante des sentiments que j'ai pour vous ; sentiments auxquels vous laissez si peu de carrière, à certains égards, qu'il faut, malgré soi, se conformer à votre façon de penser, trop modeste et trop délicate pour s'accommoder du style ordinaire d'une épître dédicatoire. Vous avez voulu, MONSIEUR, que celle-ci fût seulement un témoignage authentique de l'amitié qui nous lie.! Heureux si, par des preuves plus solides de la mienne, je pouvais un jour vous convaincre qu'on ne peut être avec une estime plus respectueuse et une vénération plus parfaite,</p>
+<p>MONSIEUR, votre très humble et très obéissant serviteur,</p>
+<p>JOLYOT DE CRÉBILLON.</p>
+</epitre>
+
+<castList><head>PERSONNAGES.</head>
+	<castItem><role id="PYRRHUS" civil='M'>PYRRHUS</role>, roi d'Épire, élevé sous le nom d'Hélénus fils de Glaucias.</castItem>
+	<castItem><role id="GLAUCIAS" civil='M'>GLAUCIAS</role>, roi d'Illyrie.</castItem>
+	<castItem><role id="NÉOPTOLÈME" civil='M'>NÉOPTOLÈME</role>, usurpateur de l'Épire, prince du sang de Pyrrhus.</castItem>
+	<castItem><role id="ILLYRUS" civil='M'>ILLYRUS</role>, fils de Glaucias.</castItem>
+	<castItem><role id="ÉRICIE" civil='F'>ÉRICIE</role>, fille de Néoptolème.</castItem>
+	<castItem><role id="ANDROCLIDE" civil='M'>ANDROCLIDE</role>, officier des armées de Glaucias ; et sujet de Pyrrhus.</castItem>
+	<castItem><role id="CYNÉAS" civil='M'>CYNÉAS</role>, confident de Pyrrhus.</castItem>
+	<castItem><role id="ISMÈNE" civil='F'>ISMÈNE</role>, confidente d'Éricie.</castItem>
+	<castItem><role id="GARDES" civil='G'>GARDES</role>.</castItem>
+	<castItem><role id="SUITE" civil='G'>SUITE</role>.</castItem>
+</castList>
+<set location='Byzance' country='Turquie'  periode='Temps mythologiques' link=''>La scène est à Byzance, dans le palais de Lysimachus.</set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I.</head>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS, seul.</speaker>
+	<l id='1'>Vous, à qui j'offre ici tant de voeux inutiles,</l>
+	<l id='2'>Dieux vengeurs des forfaits, protecteurs des asiles,</l>
+	<l id='3'>Que le soin de vous plaire et de vous imiter</l>
+	<l id='4'>Contre un roi généreux semble encore irriter ;</l>
+	<l id='5'>Si les pleurs cruel que j'oppose à vos décrets terribles,</l>
+	<l id='6'>Si ma juste douleur vous éprouve inflexibles,</l>
+	<l id='7'>Du moins ne laissez pas succomber ma vertu</l>
+	<l id='8'>Sous les divers transports dont je suis combattu,</l>
+	<l id='9'>Glaucias ne peut-il, sans cesser d'être père,</l>
+	<l id='10'>Soutenir de son rang l'auguste caractère ?</l>
+	<l id='11'>O mon fils ! Cher espoir ! Malheureux Illyrus !</l>
+	<l id='12'>Faut-il livrer ta tête, ou celle de Pyrrhus ?</l>
+	<l id='13'>Voici le jour fatal qui veut que je décide</l>
+	<l id='14'>Entre l'ami parjure et le père homicide.</l>
+	<l id='15'>Il ne m'est plus permis d'accorder dans mon coeur;</l>
+	<l id='16'>Les droits de la nature avec ceux de l'honneur :</l>
+	<l id='17'>L'une attend tout de moi, ma foi doit tout à l'autre.</l>
+	<l id='18'>J'ai rempli mon devoir : dieux, remplissez le vôtre.</l>
+	<l id='19'>Vous fûtes les garants des serments que je fis ;</l>
+	<l id='20'>Sauvez-moi du parjure, ou me rendez mon fils.</l>
+	<l id='21'>Barbare Cassander, traître Néoptolème,</l>
+	<l id='22'>Est-ce à vous que je dois livrer la vertu même ?</l>
+	<l id='23'>Frappez, dieux tout-puissants : c'est assez protéger</l>
+	<l id='24'>Deux tyrans dont la foudre aurait dû me venger </l>
+	<l id='25'>Laisserez-vous Pyrrhus, votre plus digne ouvrage, </l>
+	<l id='26'>En proie aux noirs projets de leur jalouse rage ?</l>
+	<l id='27'>Est-ce un crime pour lui que d'avoir mérité </l>
+	<l id='28'>De jouir comme vous de l'immortalité ?</l>
+	<l id='29'>Et n'est-ce point assez qu'une main parricide</l>
+	<l id='30'>Ait terminé les jours de l'illustre AEacide ?</l>
+	<l id='31'>Abandonnerez-vous son fils infortuné</l>
+	<l id='32'>Au malheur qui poursuit le sang dont il est né ?</l>
+	<l id='33'>Non, il ne mourra point ; le mien en vain l'ordonne.</l>
+	<l id='34'>Je dois tout à Pyrrhus, ma gloire, ma couronne,</l>
+	<l id='35'>Et la vie ; et, pour dire encor plus pour un roi,</l>
+	<l id='36'>Je lui dois d'un ami le secours et la foi :</l>
+	<l id='37'>Il ne l'éprouvera légère ni perfide.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Glaucias, Androclide.</head>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='38'>Mais qu'est-ce que je vois? N'est-ce point Androclide ?</l>
+	<l id='39'>Et que viens-tu chercher dans ces funestes lieux,</l>
+	<l id='40'>Près d'un roi le jouet du sort injurieux ?</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='41'>Seigneur, un sort plus doux n'a pas servi le zèle</l>
+	<l id='42'>D'un sujet malheureux, et cependant fidèle,</l>
+	<l id='43'>Peu digne des honneurs dont il fut revêtu,</l>
+	<l id='44'>Capitaine sans gloire et soldat sans vertu,</l>
+	<l id='45'>Quel'Illyrie a vu de retraite en retraite</l>
+	<l id='46'>Mendier des secours garants de sa défaite,</l>
+	<l id='47'>Réduit à déclarer la honte et le malheur</l>
+	<l id='48'>D'un combat dont un autre a remporte l'honneur.</l>
+	<l id='49'>Cassander m'a vaincu : sa fureur et ma fuite</l>
+	<l id='50'>N'ont laisse qu'un bûcher dans l'Épire détruite.</l>
+	<l id='51'>Tout ce qu'avait conquis la valeur d'Hélénus,</l>
+	<l id='52'>Tout ce que j'avais fait en faveur de Pyrrhus,</l>
+	<l id='53'>A suivi le succès d'une lâche victoire</l>
+	<l id='54'>Que le tyran obtint et poursuivit sans gloire;</l>
+	<l id='55'>Et pour comble de maux, seigneur, je vous revois</l>
+	<l id='56'>Parmi des ennemis sans honneur et sans foi.</l>
+	<l id='57'>Puis-je, sans succomber à ma frayeur extrême,</l>
+	<l id='58'>Voir le roi d'Illyrie avec Néoptolèlne?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='59'>Calme le vain effroi dont ton coeur est saisi :</l>
+	<l id='60'>Un intérêt plus grand doit le toucher ici.</l>
+	<l id='61'>Mes pertes, mes périls, n'ont rien d'assez terrible</l>
+	<l id='62'>Pour un roi que l'honneur éprouve seul sensible.</l>
+	<l id='63'>Tu ne sais pas encor jusqu'où va mon malheur :</l>
+	<l id='64'>Apprends tout. Mais, avant que de t'ouvrir mon coeur,</l>
+	<l id='65'>Prends garde si quelqu'un ne pourrait nous entendre.</l>
+	<l id='66'>Pyrrhus avec le jour près de moi doit se rendre.</l>
+	<l id='67'>Le soleil va bientôt se montrer à nos yeux,</l>
+	<l id='68'>Et c'est Pyrrhus surtout que je crains en ces lieux.</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='69'>Vous me parlez toujours d'un roi que je révère :</l>
+	<l id='70'>Vous savez à quel point je fus chéri du père.</l>
+	<l id='71'>Lorsque Néoptolème, armé contre ses jours,</l>
+	<l id='72'>Par un noir parricide en eut tranché le cours,</l>
+	<l id='73'>Vous savez que c'est moi qui, trompant le perfide, </l>
+	<l id='74'>Sauvai de sa fureur les enfants d'AEacide :</l>
+	<l id='75'>Je vous remis Pyrrhus encor dans le berceau,</l>
+	<l id='76'>Qui pour lui, sans vos soins, eût été son tombeau :</l>
+	<l id='77'>Pénétré des malheurs qui l'avaient poursuivie,</l>
+	<l id='78'>Vous jurâtes, Seigneur, de défendre sa vie.</l>
+	<l id='79'>Mais, depuis que Pyrrhus est en votre pouvoir,</l>
+	<l id='80'>Il ne m'a pas été permis de le revoir ;</l>
+	<l id='81'>Et c'est des immortels le seul bien que j'implore.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='82'>Tu l'as vu mille fois, tu vas le voir encore.</l>
+	<l id='83'>Tes yeux peuvent-ils bien se méprendre à Pyrrhus ?</l>
+	<l id='84'>Quoi ! Tu peux méconnaître, en voyant Hélénus,</l>
+	<l id='85'>La majesté des traits du redoutable Achille,</l>
+	<l id='86'>Sa fierté, sa valeur, son courage indocile,</l>
+	<l id='87'>Un héros, en un mot, si digne de celui</l>
+	<l id='88'>Dont le nom seul encor fait trembler aujourd'hui ;</l>
+	<l id='89'>Qui n'a point démenti le sang qui l'a fait naître,</l>
+	<l id='90'>( Il en est digne autant qu'un mortel le peut être ; )</l>
+	<l id='91'>Qui reçut dans son coeur, avec le sang des dieux,</l>
+	<l id='92'>Tout l'éclat des vertus que l'on adore en eux ;</l>
+	<l id='93'>Qui fit a l'univers, dès l'âge le plus tendre,</l>
+	<l id='94'>Par un nouvel Achille oublier Alexandre !</l>
+	<l id='95'>Du nom de ses aïeux s'il n'est pas informé,</l>
+	<l id='96'>Son grand coeur se seul bien du sang qui l'a formé.</l>
+	<l id='97'>Il passe pour mon fils, et ma tendresse extrême</l>
+	<l id='98'>Redouble chaque jour pour cet autre moi-même.</l>
+	<l id='99'>Mais, hélas ! Que lui sert ma funeste amitié,</l>
+	<l id='100'>Quand les dieux et le sort sont pour lui sans pitié ?</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='101'>J'ai toujours soupçonné, malgré votre silence,</l>
+	<l id='102'>Que Pyrrhus, en secret élevé dès l'enfance,</l>
+	<l id='103'>Sous le nom d'Hélénus cachait dans votre fils</l>
+	<l id='104'>Le précieux dépôt que je vous ai remis.</l>
+	<l id='105'>Mais, seigneur, quel péril si pressant le menace,</l>
+	<l id='106'>Lui dont tout l'univers craint le bras et l'audace ?</l>
+	<l id='107'>Pyrrhus est-il de ceux pour qui l'on doit trembler?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='108'>Le coup est cependant tout prêt à l'accabler.</l>
+	<l id='109'>Tu sais, lorsqu'Hélénus eut reconquis l'Épire</l>
+	<l id='110'>Qui fut de ses aïeux le légitime empire,</l>
+	<l id='111'>Que je te confiai le soin de conserver</l>
+	<l id='112'>Ces États qu'en secret j'avais fait soulever,</l>
+	<l id='113'>Et dont enfin je fis sortir Néoptolème.</l>
+	<l id='114'>Hélénus, n'écoutant que son ardeur extrême,</l>
+	<l id='115'>Poursuivit l'inhumain qui fuyait devant lui.</l>
+	<l id='116'>Cassander le reçut, et devint son appui ;</l>
+	<l id='117'>Cassander, de tout temps ennemi d'AEacide,</l>
+	<l id='118'>Arma pour soutenir son ami parricide.</l>
+	<l id='119'>Mais ils crurent en vain arrêter le vainqueur :</l>
+	<l id='120'>Hélénus remplit tout de carnage et d'horreur,</l>
+	<l id='121'>Les atteignit enfin vers les murs d'Ambracie ;</l>
+	<l id='122'>Lieu fatal ! Jour funeste au repos de ma vie !</l>
+	<l id='123'>Hélénus, plein d'ardeur et l'oeil étincelant, </l>
+	<l id='124'>N'avait jamais paru ni plus fier ni plus grand.</l>
+	<l id='125'>Mais, s'il fit voir alors Achille formidable,</l>
+	<l id='126'>Il ne nous fit pas voir Achille invulnérable:</l>
+	<l id='127'>Il fut blessé. Mon fils, jaloux de sa valeur,</l>
+	<l id='128'>Crut pouvoir par lui seul réparer ce malheur,</l>
+	<l id='129'>Et poursuivre sans crainte une sûre victoire,</l>
+	<l id='130'>Dont Hélénus devait s'attribuer la gloire ;</l>
+	<l id='131'>Mais ce fut pour servir de triomphe au vainqueur :</l>
+	<l id='132'>Il fut défait et pris. Juge de ma douleur,</l>
+	<l id='133'>Quand je vis Illyrus tomber en la puissance</l>
+	<l id='134'>De ceux qu'au désespoir réduisait ma vengeance.</l>
+	<l id='135'>À peine je rendis un reste de combat.</l>
+	<l id='136'>Hélénus languissait, et manquait au soldat,</l>
+	<l id='137'>Qui, l'ayant vu couvert de sang et de poussière,</l>
+	<l id='138'>Et croyant qu'il touchait à son heure dernière,</l>
+	<l id='139'>Malgré mes vains efforts plia de toutes parts ;</l>
+	<l id='140'>Et je me crus enfin, après mille hasards,</l>
+	<l id='141'>Trop heureux de pouvoir regagner l'Illyrie,</l>
+	<l id='142'>Moi qui me préparais a conquérir l'Asie.</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='143'>L'état où j'ai trouvé votre peuple réduit</l>
+	<l id='144'>De ce cruel revers ne m'a que trop instruit.</l>
+	<l id='145'>Mais, quel que soit ici le sort qui le menace,</l>
+	<l id='146'>Vous pouvez d'Illyrus réparer la disgrâce,</l>
+	<l id='147'>Seigneur : dès qu'Hélénus survit à ce malheur,</l>
+	<l id='148'>Quelle perte pourrait étonner votre coeur ?</l>
+	<l id='149'>Je ne vois point encor ce que vous devez craindre.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='150'>Écoute, et tu verras si mon sort est a plaindre.</l>
+	<l id='151'>Néoptolème, enflé de ses heureux succès,</l>
+	<l id='152'>Prétend s'en assurer le fruit par une paix.</l>
+	<l id='153'>Il sait que Pyrrhus vit, et que j'en suis le maître ;</l>
+	<l id='154'>Que son intérêt seul m'arme contre le traître :</l>
+	<l id='155'>Il m'a fait proposer de lui livrer Pyrrhus ;</l>
+	<l id='156'>Qu'il mettait à ce prix le salut d'Illyrus ;</l>
+	<l id='157'>Mais que, pour épargner mon honneur et ma gloire, </l>
+	<l id='158'>Et ne me point souiller d'une action si noire</l>
+	<l id='159'>Qui décréditerait et mon nom et ma foi,</l>
+	<l id='160'>Cet article serait entre lui seul et moi :</l>
+	<l id='161'>Dans ce cruel séjour voilà ce qui m'amène.</l>
+	<l id='162'>Lysimachus, qui veut terminer notre haine,</l>
+	<l id='163'>S'est de lui-même offert pour garant du traité.</l>
+	<l id='164'>Néoptolène et moi nous l'avons accepté.</l>
+	<l id='165'>Tons deux depuis huit jours dans les murs de Byzance,</l>
+	<l id='166'>Nous nous sommes tous deux remis en sa puissance.</l>
+	<l id='167'>Enfin Lysimachus, garant de notre paix,</l>
+	<l id='168'>À de soldats sans nombre investi ce palais :</l>
+	<l id='169'>Nul n'en saurait sortir sans un ordre suprême</l>
+	<l id='170'>Qui vienne de ma part, ou de Néoptolème</l>
+	<l id='171'>Qu'on laisse cependant disposer de mon fils.</l>
+	<l id='172'>Mais le barbare y met un trop indigne prix.</l>
+	<l id='173'>Il veut plus; il prétend s'unir à ma famille :</l>
+	<l id='174'>Fier du penchant qu'il voit en mon fils pour sa fille,</l>
+	<l id='175'>Il prétend qu'elle soit le lien d'une paix</l>
+	<l id='176'>Qu'aux dépens de Pyrrhus on ne verra jamais.</l>
+	<l id='177'>Non, je ne puis souffrir qu'une si belle vie</l>
+	<l id='178'>Serre les noeuds sanglants de l'hymen d'Éricie :</l>
+	<l id='179'>Et ce même Pyrrhus met au rang de ses dieux</l>
+	<l id='180'>L'objet qui de sou sang est le prix odieux.</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='181'>Pourquoi l'ameniez-vous en ce séjour funeste ?</l>
+	<l id='182'>Quels sont donc vos desseins ? Et quel espoir vous reste ?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='183'>Que veux-tu que je fasse ? On me retient mon fils,</l>
+	<l id='184'>Et Pyrrhus a trop fait trembler mes ennemis.</l>
+	<l id='185'>Néoptolème a craint que, fier de mon absence,</l>
+	<l id='186'>Ce héros n'entreprit de surprendre Byzance ;</l>
+	<l id='187'>Enfin il a voulu qu'il me suivît ici.</l>
+	<l id='188'>Mais je mourrais plutôt... Taisons-nous, le voici.</l>
+	<l id='189'>Garde-toi bien surtout de lui faire connaître</l>
+	<l id='190'>Quel péril le menace, et quel sang l'a fait naître,</l>
+	<l id='191'>Va, ne t'éloigne point de cet appartement.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Glaucias, Hélénus, Cynéas.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS, à Cynéas.</speaker>
+	<l id='192'>Allez, cher Cynéas ; laissez-nous un moment.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='193'>Approchez, Hélénus; venez, fils magnanime,</l>
+	<l id='194'>Unique espoir d'un roi que le destin opprime.</l>
+	<l id='195'>Voici le jour cruel marqué par sa fureur</l>
+	<l id='196'>Pour éclairer ma honte ou me percer le coeur.</l>
+	<l id='197'>Il faut livrer Pyrrhus ou perdre votre frère,</l>
+	<l id='198'>Et je ne puis livrer qu'une tête bien chère.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='199'>Je ne dois point parler en faveur de Pyrrhus,</l>
+	<l id='200'>Ni prononcer, seigneur, sur le sort d'Illyrus :</l>
+	<l id='201'>Je vois que tous les deux vous tiennent en balance,</l>
+	<l id='202'>Et je dois sur tous deux observer le silence.</l>
+	<l id='203'>L'un ne m'est pas connu, mais il a votre foi ;</l>
+	<l id='204'>L'autre doit m'être cher, mais doit être mon roi :</l>
+	<l id='205'>Et je ne puis servir ni perdre l'un ou l'autre,</l>
+	<l id='206'>Sans trahir mon honneur, ou sans blesser le vôtre ;</l>
+	<l id='207'>Sans me rendre, Seigneur, suspect d'ambition,</l>
+	<l id='208'>Ou sans vous conseiller une indigne action.</l>
+	<l id='209'>Un roi né généreux, un père né sensible</l>
+	<l id='210'>Peut lui seul prononcer sur un choix si terrible,</l>
+	<l id='211'>Où l'honneur et le sang doivent seuls vous guider,</l>
+	<l id='212'>Où le père et l'ami doivent seuls décider.</l>
+	<l id='213'>Daignez me dispenser d'en dire davantage</l>
+	<l id='214'>Sur ces combats affreux où votre coeur s'engage.</l>
+	<l id='215'>Seigneur, dès qu'il s'agit de si grands intérêts,</l>
+	<l id='216'>Hélénus craint surtout les reproches secrets.</l>
+	<l id='217'>J'avouerai cependant que ce Pyrrhus m'étonne :</l>
+	<l id='218'>Est-il digne des soins qu'un si grand roi se donne ?</l>
+	<l id='219'>Vous faites tout pour lui : que fait-il donc pour vous ?</l>
+	<l id='220'>Et quel déguisement le cache parmi nous ?</l>
+	<l id='221'>Peut-il être, en ces lieux, si voisin d'un perfide,</l>
+	<l id='222'>Sans le sacrifier aux mânes d'AEacide,</l>
+	<l id='223'>Sans faire pour mon frère un généreux effort ?</l>
+	<l id='224'>Un descendant d'Achille a-t-il peur de la mort ?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='225'>Mon fils, n'insultez point au malheur qui l'opprime :</l>
+	<l id='226'>Pyrrhus n'en est pas moins digne de notre estime.</l>
+	<l id='227'>Dans l'état où je suis, pourrait-il me venger</l>
+	<l id='228'>Sans mettre mon honneur et mes jours en danger ?</l>
+	<l id='229'>Le fier Lysimachus nous tient tous pour otages.</l>
+	<l id='230'>Mais ma foi suffisait sans ces précieux gages :</l>
+	<l id='231'>Mon ennemi lui-même ose s'y confier,</l>
+	<l id='232'>Sûr qu'à sa foi mon coeur sait tout sacrifier.</l>
+	<l id='233'>Adieu; je vais revoir ce tyran que j'abhorre,</l>
+	<l id='234'>Le fléchir s'il se peut, ou le tenter encore.</l>
+	<l id='235'>Que n'offrirai-je point pour Pyrrhus et mon fils ?</l>
+	<l id='236'>Mon coeur pour les sauver ne connaît point de prix.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS, seul.</speaker>
+	<l id='237'>Ô roi trop vertueux ! Un exemple si rare</l>
+	<l id='238'>Puisse-t-il désarmer un ennemi barbare,</l>
+	<l id='239'>Et servir de leçon aux rois peu généreux</l>
+	<l id='240'>À ne pas délaisser leurs amis malheureux !</l>
+	<l id='241'>Hélas ! Que je vous plains et que je vous admire !</l>
+	<l id='242'>Sentiments de vertu que la pitié m'inspire,</l>
+	<l id='243'>Mon frère peut périr, mon frère est mon rival,</l>
+	<l id='244'>Ne vous devrais-je point à mon amour fatal ?</l>
+	<l id='245'>Ah ! N'est-ce point à lui que l'honneur sacrifie ?</l>
+	<l id='246'>Mon frère, ainsi que moi, brûle pour Éricie.</l>
+	<l id='247'>Prends garde qu'en ton coeur, trop sensible Hélénus,</l>
+	<l id='248'>Éricie aujourd'hui ne parle pour Pyrrhus :</l>
+	<l id='249'>Fais-toi d'autres vertus dont le choix légitime</l>
+	<l id='250'>N'offre point avec lui l'apparence du crime.</l>
+	<l id='251'>Quand du moindre intérêt le coeur est combattu,</l>
+	<l id='252'>Sa générosité n'est plus une vertu.</l>
+	<l id='253'>Mon frère est dans les fers d'un ennemi perfide,</l>
+	<l id='254'>Monstre nourri de sang, et de meurtres avide :</l>
+	<l id='255'>Voilà ce qui me doit parler pour Illyrus.</l>
+	<l id='256'>Laissons aux dieux le soin du malheureux Pyrrhus ;</l>
+	<l id='257'>Trop de pitié pour lui me touche et m'intéresse.</l>
+	<l id='258' part='i'>J'entends du bruit : on vient.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Hélénuss, Éricie, Ismène.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='258' part='f'>Ô ciel ! C'est la princesse.</l>
+<stage>À Éricie.</stage>
+	<l id='259'>Madame, eh ! Quel bonheur vous présente à mes yeux,</l>
+	<l id='260'>Lorsqu'à peine le jour vient d'éclairer ces lieux ?</l>
+	<l id='261'>Puisse cet heureux jour confirmer l'avantage</l>
+	<l id='262'>Que me fait espérer un si charmant présage !</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='263'>S'il dépendait de moi de le rendre plus doux,</l>
+	<l id='264'>Seigneur, bientôt la paix règnerait entre nous.</l>
+	<l id='265'>J'allais offrir aux dieux les voeux les plus sincères,</l>
+	<l id='266'>Les prier de fléchir la haine de nos pères.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='267'>Le vôtre avec la paix offre ici votre main ;</l>
+	<l id='268'>Mais, hélas ! Qu'il en fait un présent inhumain !</l>
+	<l id='269'>Juste ciel ! Se peut-il que d'un objet si rare</l>
+	<l id='270'>Une aveugle fureur fasse un présent barbare,</l>
+	<l id='271'>Et que ce même hymen qui comblerait nos voeux</l>
+	<l id='272'>Soit devenu le prix du sang d'un malheureux ?</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='273'>Seigneur, de ce présent j'ignore le mystère,</l>
+	<l id='274'>Et ne me charge point des secrets de mon père.</l>
+<l id='275'>Mais, s'il faut sans détour s'expliquer avec vous,</l>
+	<l id='276'>La paix n'est pas l'objet de vos voeux les plus doux :</l>
+	<l id='277'>Votre coeur, élevé dans le sein des alarmes,</l>
+	<l id='278'>N'interrompt qu'à regret le tumulte des armes ;</l>
+	<l id='279'>Le sang, les cris, les pleurs, cent peuples gémissants,</l>
+	<l id='280'>Voila pour vos pareils les objets ravissants.</l>
+	<l id='281'>Votre nom n'a-t-il pas assez rempli la terre ?</l>
+	<l id='282'>Qu'a-t-il besoin encor des horreurs de la guerre ?</l>
+	<l id='283'>Mon père offre la paix, votre frère y consent ;</l>
+	<l id='284'>Elle trouve en vous seul, un obstacle puissant :</l>
+	<l id='285'>Votre haine pour nous éclate en ma présence,</l>
+	<l id='286'>Sans daigner un moment se contraindre au silence.</l>
+	<l id='287'>Je vois qu'en vain mon père espérait aujourd'hui</l>
+	<l id='288'>Vous trouver pour la paix de concert avec lui :</l>
+	<l id='289'>Ne me déguisez point ce qu'il en doit attendre ;</l>
+	<l id='290'>Du moins accordez-lui la grâce de l'entendre.</l>
+	<l id='291'>Ce prince vous demande un moment d'entretien ;</l>
+	<l id='292'>J'ose vous en prier... Vous ne répondez rien,</l>
+	<l id='293'>Seigneur ; vous frémissez au seul nom de mon père !</l>
+	<l id='294'>Ah ! Je n'exigeais pas un aveu plus sincère.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='295'>D'un reproche cruel accablez moins mon coeur,</l>
+	<l id='296'>Madame ; je sens trop à qui j'en dois l'aigreur.</l>
+	<l id='297'>Je vois que pour la paix le vôtre s'intéresse,</l>
+	<l id='298'>Et je crois entrevoir le motif qui le presse.</l>
+	<l id='299'>Illyrus, avec vous de concert pour la paix,</l>
+	<l id='300'>A remis en vos mains de si chers intérêts :</l>
+	<l id='301'>Mais la guerre pour moi peut seule avoir des charmes,</l>
+	<l id='302'>Et je ne me nourris que de sang et de larmes ;</l>
+	<l id='303'>Je suis un furieux que rien ne peut toucher.</l>
+	<l id='304'>Ah! Madame, est-ce à vous de me le reprocher?</l>
+	<l id='305'>Si j'étais moins suspect de traverser mon frère,</l>
+	<l id='306'>Vous m'accuseriez moins de haïr votre père.</l>
+	<l id='307'>Je ne vous nierai pas que peut-être sans vous</l>
+	<l id='308'>Rien n'eût pu le soustraire à mon juste courroux ;</l>
+	<l id='309'>Que ce même palais, notre commun asile,</l>
+	<l id='310'>N'aurait été pour lui qu'un rempart inutile :</l>
+	<l id='311'>Mais peut-il avec vous craindre des ennemis ?</l>
+	<l id='312'>Les plus fiers ne sont pas ici les moins soumis.</l>
+	<l id='313'>Les coeurs nourris de sang et de projets terribles</l>
+	<l id='314'>N'ont pas toujours été les coeurs les moins sensibles;</l>
+	<l id='315'>Le mien éprouve enfin que les plus grands hasards</l>
+	<l id='316'>Ne se trouvent pas tous sur les traces de Mars.</l>
+	<l id='317'>Dès mes plus jeunes ans enchaîné par la gloire,</l>
+	<l id='318'>Je n'ai connu d'autels que ceux de la victoire ;</l>
+	<l id='319'>Mais vous m'avez appris qu'il n'était point de coeur</l>
+	<l id='320'>Qui ne dût a la fin redouter un vainqueur.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='321'>À cet aveu si prompt j'ai dû si peu m'attendre,</l>
+	<l id='322'>Que l'étonnement seul m'a forcée à l'entendre.</l>
+	<l id='323'>Mon père est en ces lieux, seigneur : c'est avec lui</l>
+	<l id='324'>Qu'il fallait sur ce point s'expliquer aujourd'hui.</l>
+	<l id='325'>Je sais pour vos vertus jusqu'où va son estime,</l>
+	<l id='326'>Et la mienne jamais ne fut plus légitime.</l>
+	<l id='327'>Ainsi, loin d'affecter cet orgueil éclatant</l>
+	<l id='328'>Dont la fierté s'honore et le coeur se repent,</l>
+	<l id='329'>J'avouerai sans détour que j'ai craint votre haine,</l>
+	<l id='330'>Et ne vous ai point vu notre ennemi sans peine,</l>
+	<l id='331'>Vous qui nous apprenez par cent faits glorieux</l>
+	<l id='332'>Qu'on peut voir des mortels aussi grands que les dieux.</l>
+	<l id='333'>Tels enfin qu'à l'amour un grand coeur inflexible</l>
+	<l id='334'>Pourrait les souhaiter pour devenir sensible.</l>
+	<l id='335'>Mais, malgré cet aveu que j'ai cru vous devoir,</l>
+	<l id='336'>L'estime est le seul bien qui soit en mon pouvoir.</l>
+	<l id='337'>Si votre amour ne peut se soumettre au silence,</l>
+	<l id='338'>Songez qu'il doit ailleurs porter sa confidence.</l>
+	<l id='339'>Mou père veut vous voir : quels que soient ses desseins,</l>
+	<l id='340'>Vous savez peu fléchir, Seigneur, et je vous crains.</l>
+	<l id='341'>Daignez vous souvenir que ce prince est mou père ;</l>
+	<l id='342'>Qu'il m'est cher encor plus que je ne lui suis chère ;</l>
+	<l id='343'>Que jamais de son rang on ne fut plus jaloux.</l>
+	<l id='344'>Tout dépend de l'accueil qu'il recevra de vous.</l>
+	<l id='345'>Je crois après ce mot n'avoir rien à vous dire :</l>
+	<l id='346'>J'en ai même trop dit s'il ne peut vous suffire.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS, seul.</speaker>
+	<l id='347'>Ô ciel ! En quel état me trouvé-je réduit !</l>
+	<l id='348'>Cher espoir d'un amour qui m'avait trop séduit,</l>
+	<l id='349'>Vous m'offrez vainement la princesse que j'aime ;</l>
+	<l id='350'>Mon coeur oubliera tout devant Néoptolème.</l>
+	<l id='351'>Qui ? Lui m'entretenir ! Et que veut-il de moi ?</l>
+	<l id='352'>Je ne sentis jamais tant d'horreur ni d'effroi.</l>
+	<l id='353'>J'abhorre ce tyran ; et son aspect farouche</l>
+	<l id='354'>L'emporte dans mon coeur sur l'amour qui le touche.</l>
+	<l id='355'>N'importe, il faut le voir : n'allons point en un jour</l>
+	<l id='356'>Hasarder le succès d'un malheureux amour.</l>
+	<l id='357'>Quels que soient les transports dont mon âme est saisie,</l>
+	<l id='358'>Je sens que les plus grands sont tous pour Éricie.</l>
+	<l id='359' part='i'>Mais Illyrus paraît ; sortons.</l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Illyrus, Hélénus, Gardes.</head>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='359' part='f'>Prince, un moment.</l>
+	<l id='360'>J'ai besoin avec vous d'un éclaircissement.</l>
+<stage>À ses gardes.</stage>
+<l id='361'>Gardes, éloignez-vous. Répondez-moi, mon frère :</l>
+	<l id='362'>Puis-je avec vous ici m'expliquer sans mystère ?</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='363'>Oui, seigneur; vous pouvez parler en liberté.</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='364'>Calmez donc les soupçons dont je suis agité.</l>
+	<l id='365'>Avec empressement vous cherchez Éricie,</l>
+	<l id='366'>Et je ne puis souffrir vos soins sans jalousie.</l>
+	<l id='367'>Vous savez que je l'aime, et vous n'ignorez pas</l>
+	<l id='368'>Que l'hymen a mon sort doit unir tant d'appas.</l>
+	<l id='369'>Avec elle en ces lieux que faisiez-vous encore ?</l>
+	<l id='370' part='i'>Parlez.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='370' part='f'>Je lui disais, Seigneur, que je l'adore,</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='371'>Hélénus, songez-vous que vous parlez à moi,</l>
+	<l id='372'>Et qu'Illyrus un jour doit être votre roi ?</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='373'>Je vous obéirai quand vous serez mon maître,</l>
+	<l id='374'>Si le destin m'abaisse au point d'en reconnaître :</l>
+	<l id='375'>Jusque-là mon amour craint peu votre pouvoir.</l>
+	<l id='376'>Je sais jusqu'où s'étend la règle du devoir ;</l>
+	<l id='377'>Mais j'ignore, Seigneur, ces tristes sacrifices</l>
+	<l id='378'>Qui font gémir un coeur en d'éternels supplices.</l>
+	<l id='379'>Le mien, qui ne connaît ni crainte ni détour,</l>
+	<l id='380'>Regarde d'un même oeil et la guerre et l'amour.</l>
+	<l id='381'>Sans le péril affreux dont le sort vous menace,</l>
+	<l id='382'>Vous verriez sur ce point jusqu'où va mon audace.</l>
+	<l id='383'>Mais Hélénus, sensible autant que généreux,</l>
+	<l id='384'>N'a jamais su, seigneur, braver les malheureux.</l>
+	<l id='385'>Si l'amour vous livrait le coeur de la princesse,</l>
+	<l id='386'>Ma fierté suffirait pour bannir ma tendresse :</l>
+	<l id='387'>Mais si l'amour aussi daigne me l'accorder,</l>
+	<l id='388'>Jusqu'au dernier soupir je saurai le garder.</l>
+	<l id='389' part='i'>Adieu, seigneur.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Illyrus, Gardes.</head>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='389' part='f'>Ingrat ! D'un orgueil qui m'offense</l>
+	<l id='390'>Je te ferai sentir jusqu'où va l'impuissance.</l>
+	<l id='391'>Illyrus, tu le vois, ce n'est plus un secret,</l>
+	<l id='392'>On ose t'avouer un amour indiscret ;</l>
+	<l id='393'>Et l'on te brave encore ! Ah ! Ma perte est jurée,</l>
+	<l id='394'>Mon rival m'a fait voir qu'elle était assurée ;</l>
+	<l id='395'>Glaucias abandonne un fils infortuné,</l>
+	<l id='396'>Qu'on ne braverait pas s'il n'était condamné.</l>
+	<l id='397'>On me voit dans les fers avec indifférence ;</l>
+	<l id='398'>On n'a pour mon rival que de la déférence :</l>
+	<l id='399'>Glaucias à mes yeux le nomme son appui ;</l>
+	<l id='400'>C'est son dieu tutélaire, enfin c'est tout pour lui.</l>
+	<l id='401'>Cependant, si j'en crois ma juste défiance,</l>
+	<l id='402'>Mon père a de ce fils supposé la naissance.</l>
+	<l id='403'>Le mystère profond qu'il me fait de Pyrrhus,</l>
+	<l id='404'>Un respect qu'il ne peut cacher pour Hélénus,</l>
+	<l id='405'>Et sur ce point, malgré sa prévoyance extrême,</l>
+	<l id='406'>Quelques mots échappes à Glaucias lui-même,</l>
+	<l id='407'>N'éclaircissent que trop ses funestes secrets.</l>
+	<l id='408'>Hélénus, tu n'es pas ce que tu nous parais.</l>
+	<l id='409'>Je vois que c'est à toi que l'on me sacrifie,</l>
+	<l id='410'>Et je pourrais d'un mot mettre au hasard ta vie :</l>
+	<l id='411'>Mais un trait si perfide est indigne de moi,</l>
+	<l id='412'>Et je veux être encor plus généreux que toi.</l>
+	<l id='413'>Puisqu'on me l'a permis, allons trouver mon père ;</l>
+	<l id='414'>De ses délais enfin je perce le mystère :</l>
+	<l id='415'>Riais, sans nous prévaloir de son secret fatal,</l>
+	<l id='416'>Montrons-nous aujourd'hui plus grand que mon rival ;</l>
+	<l id='417'>Humilions son coeur en lui faisant connaître</l>
+	<l id='418'>Des sentiments d'honneur qu'il n'aurait pas peut-être.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Néoptolème, Éricie.</head>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='419'>Vous ne m'apprenez rien de cette vive ardeur,</l>
+	<l id='420'>Que je n'eusse déjà pénétré, dans son coeur.</l>
+	<l id='421'>Je n'ai vu qu'une fois ce guerrier invincible,</l>
+	<l id='422'>Qu'on dit partout ailleurs si fier et si terrible,</l>
+	<l id='423'>Mais à votre aspect seul, ma fille, aussi soumis</l>
+	<l id='424'>Qu'il paraît redoutable à tous ses ennemis.</l>
+	<l id='425'>Ainsi, sur cet amour, que je prévois sincère,</l>
+	<l id='426'>Je vais vous découvrir mon âme tout entière.</l>
+	<l id='427'>Je règne ; mais combien m'a coûté ce haut rang !</l>
+	<l id='428'>Et qu'est-ce enfin qu'un sceptre encor souillé de sang ?</l>
+	<l id='429'>Prétexte à mes sujets de recourir aux armes,</l>
+	<l id='430'>Source pour moi d'ennuis, de remords et d'alarmes.</l>
+	<l id='431'>Illyrus est vaillant, mais il n'est que soldat,</l>
+	<l id='432'>Et la seule valeur défend mal un État ;</l>
+	<l id='433'>Héritier d'un grand roi, trop puissant, qui peut-être,</l>
+	<l id='434'>Au lieu d'un défenseur, me donnerait un maître.</l>
+	<l id='435'>J'ai besoin d'un héros qui, tenant tout de moi,</l>
+	<l id='436'>Trouve en mes intérêts de quoi veiller pour soi.</l>
+	<l id='437'>Hélénus, à la fois soldat et capitaine,</l>
+	<l id='438'>N'attend que du destin la grandeur souveraine,</l>
+	<l id='439'>En l'unissant à vous par un sacré lien,</l>
+	<l id='440'>Je m'en fais pour moi-même un éternel soutien ;</l>
+	<l id='441'>Il est né généreux, et sa reconnaissance</l>
+	<l id='442'>Ne m'enviera jamais la suprême puissance.</l>
+	<l id='443'>Voilà le successeur que je me suis choisi,</l>
+	<l id='444'>Et c'est pour l'en presser que je l'attends ici.</l>
+	<l id='445'>D'ailleurs, qui mieux que lui peut engager son père</l>
+	<l id='446'>À sacrifier tout à ma juste colère ?</l>
+	<l id='447'>Chéri de Glaucias, c'est le seul Hélénus</l>
+	<l id='448'>Qui pourra le forcer à me livrer Pyrrhus.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='449'>Seigneur, sur ses projets qu'un grand roi lui confie</l>
+	<l id='450'>Daignera-t-il entendre un moment Éricie ?</l>
+	<l id='451'>Je n'examine point quel sera mon époux :</l>
+	<l id='452'>Son choix, vous le savez, ne dépend que de vous :</l>
+	<l id='453'>Ainsi j'obéirai. Ce qui me reste à dire,</l>
+	<l id='454'>C'est votre gloire ici qui seule me l'inspire.</l>
+	<l id='455'>D'un coeur rempli pour vous d'amour et de respect,</l>
+	<l id='456'>Quel sentiment, Seigneur, pourrait être suspect ?</l>
+	<l id='457'>Souffrez que, m'élevant jusqu'à Néoptotème,</l>
+	<l id='458'>J'aille sans l'offenser le chercher dans lui-même.</l>
+	<l id='459'>C'est l'univers entier qui parle par ma voix,</l>
+	<l id='460'>J'ose l'interpréter pour la première fois.</l>
+	<l id='461'>Vous vous êtes vengé : le meurtre d'AEacide,</l>
+	<l id='462'>Pour tout autre qu'un roi, serait un parricide ;</l>
+	<l id='463'>Mais, si vous répandez le reste infortuné</l>
+	<l id='464'>De ce sang que les dieux vous ont abandonné,</l>
+	<l id='465'>Les intérêts d'État, le trône et ses maximes,</l>
+	<l id='466'>La politique enfin, voile de tant de crimes,</l>
+	<l id='467'>Ne seront désormais que de faibles garants</l>
+	<l id='468'>Pour vous sauver des noms qu'on prodigue aux tyrans :</l>
+	<l id='469'>Quand même à vos désirs son fils pourrait souscrire,</l>
+	<l id='470'>Glaucias voudra-t-il qu'il règne sur l'Épire ;</l>
+	<l id='471'>Que du sang de Pyrrhus il achète ma main,</l>
+	<l id='472'>D'un sang que deux grands rois redemandent en vain ;</l>
+	<l id='473'>Lui qui, pour conserver une tête si chère,</l>
+	<l id='474'>Semble avoir étouffé les sentiments d'un père ?</l>
+	<l id='475'>Si vous vous attachez le grand coeur d'Hélénus,</l>
+	<l id='476'>Que peut vous importer le trépas de Pyrrhus ?</l>
+	<l id='477'>Laissez vivre, Seigneur, un prince dont la vie</l>
+	<l id='478'>D'aucun malheur pour vous ne peut être suivie.</l>
+	<l id='479'>AEacide, ennemi des princes de son sang,</l>
+	<l id='480'>Vous força malgré vous de lui percer le flanc.</l>
+	<l id='481'>Si sa mort fut pour vous un crime involontaire,</l>
+	<l id='482'>Que son inimitié vous rendit nécessaire,</l>
+	<l id='483'>Le salut de son fils, qui peut seul l'expier,</l>
+	<l id='484'>Plus nécessaire encor, doit vous justifier.</l>
+	<l id='485'>Et vous vous attachez à la seule victime</l>
+	<l id='486'>Qui pouvait expier ou consommer le crime !</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='487'>Tant que Pyrrhus vivra, mes sujets ennemis,</l>
+	<l id='488'>À ce funeste nom, se croiront tout permis ;</l>
+	<l id='489'>Et le fier Hélénus, fût-il plus grand encore,</l>
+	<l id='490'>Ne me sauverait point d'un peuple qui m'abhorre.</l>
+	<l id='491'>Les dieux, en me livrant le superbe Illyrus,</l>
+	<l id='492'>Ont prononcé l'arrêt du malheureux Pyrrhus :</l>
+	<l id='493'>Il m'a trop fait trembler, il est temps qu'il périsse.</l>
+	<l id='494'>Glaucias m'en refuse en vain le sacrifice :</l>
+	<l id='495'>Je ne peux qu'à ce prix arrêter ses projets,</l>
+	<l id='496'>Et fixer entre nous une constante paix.</l>
+	<l id='497'>Son coeur en gémira ; mais votre hymen, ma fille,</l>
+	<l id='498'>Unissant pour jamais l'une et l'autre famille,</l>
+	<l id='499'>Calmera la douleur d'un roi trop généreux</l>
+	<l id='500'>Qui peut par cet hymen rendre Hélénus heureux.</l>
+	<l id='501'>Que Glaucias y soit favorable ou contraire,</l>
+	<l id='502'>Du trépas de Pyrrhus rien ne peut me distraire.</l>
+	<l id='503'>Que l'univers alors éclate contre moi :</l>
+	<l id='504'>Un crime nécessaire est pour nous une loi.</l>
+	<l id='505'>Voulez-vous qu'écoutant un discours téméraire</l>
+	<l id='506'>J'asservisse le sceptre aux erreurs du vulgaire ?</l>
+	<l id='507'>Heureux qu'à notre égard son imbécillité</l>
+	<l id='508'>Nous assure du moins de sa docilité !</l>
+	<l id='509'>À tout ce qui nous plaît c'est à lui de souscrire;</l>
+	<l id='510'>Dès que sans le troubler il nous laisse l'empire,</l>
+	<l id='511'>Laissons-lui des discours dont il est si jaloux.</l>
+	<l id='512'>Ce qui fait ses vertus serait vice pour nous.</l>
+	<l id='513'>Le peuple, en ce qui flatte ou choque sa manie,</l>
+	<l id='514'>Trouve de la justice ou de la tyrannie.</l>
+	<l id='515'>Nous ne nous réglons point au gré de ses erreurs.</l>
+	<l id='516'>Les dieux ont leur justice, et le trône a ses moeurs.</l>
+	<l id='517'>Mais Glaucias paraît. Ma fille, allez m'attendre.</l>
+	<l id='518'>Quel dessein le conduit? Et que vient-il m'apprendre?</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Glaucias, Néoptolème.</head>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='519'>Seigneur, vous triomphez : Androclide est défait.</l>
+	<l id='520'>Je ne sais si sa honte est pour vous un secret ;</l>
+	<l id='521'>Mais sous vos lois l'Épire est désormais réduite :</l>
+	<l id='522'>Cassander l'a soumise, ou plutôt l'a détruite.</l>
+	<l id='523'>Je ne vous cache point les pertes que je fais,</l>
+	<l id='524'>Et je vous viens moi-même annoncer vos succès.</l>
+	<l id='525'>Le destin vous élève, et le ciel m'humilie :</l>
+	<l id='526'>J'ai commandé longtemps, aujourd'hui je supplie.</l>
+	<l id='527'>Voyons l'usage enfin qu'en nos succès divers</l>
+	<l id='528'>Vous ferez du triomphé, et moi de mes revers.</l>
+	<l id='529'>L'infortuné Pyrrhus n'est plus pour vous à craindre ;</l>
+	<l id='530'>Sans être trop humain, je crois qu'on peut le plaindre :</l>
+	<l id='531'>La pitié sur ce point, dans un coeur irrité,</l>
+	<l id='532'>N'a pas même besoin de générosité.</l>
+	<l id='533'>J'ai protégé sans fruit ce prince déplorable :</l>
+	<l id='534'>Tout s'arme contre lui, tout vous est favorable ;</l>
+	<l id='535'>Mais vous connaissez trop ma constance et ma foi,</l>
+	<l id='536'>Pour croire que le sort soit au-dessus de moi.</l>
+	<l id='537'>Je ne vous parle point d'une vaste puissance </l>
+	<l id='538'>Qui vous fit si longtemps éprouver ma vengeance :</l>
+	<l id='539'>À peine votre coeur se serait satisfait,</l>
+	<l id='540'>Que vous savez assez quel en serait l'effet.</l>
+	<l id='541'>Régnez donc, puisqu'ainsi le destin en ordonne :</l>
+	<l id='542'>Sans remords et sans droit gardez une couronne</l>
+	<l id='543'>Qu'un autre nommerait le prix de vos forfaits,</l>
+	<l id='544'>Que je vais cependant consacrer par la paix.</l>
+	<l id='545'>Je rends à Cassander la Macédoine entière :</l>
+	<l id='546'>Tout ce que j'ai conquis sera votre frontière :</l>
+	<l id='547'>Je n'armerai jamais en faveur de Pyrrhus,</l>
+	<l id='548'>Et je consens enfin, à l'hymen d'Illyrus.</l>
+	<l id='549'>Je fais plus : je promets, Seigneur, que votre vie</l>
+	<l id='550'>Jamais de mon aveu ne sera poursuivie ;</l>
+	<l id='551'>Qu'à Pyrrhus je tairai son nom et ses aïeux :</l>
+	<l id='552'>J'en jure par ce fer, j'en jure par les dieux.</l>
+	<l id='553' part='i'>J'ai tout dit : répondez.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='553' part='f'>Où donc est l'avantage</l>
+	<l id='554'>D'une paix dont Pyrrhus ne serait point le gage ?</l>
+	<l id='555'>Il est vrai que mon sort, Seigneur, a bien changé ;</l>
+	<l id='556'>Mais, pour vous craindre moins, en suis-je plus vengé ?</l>
+	<l id='557'>L'Épire en sera-t-elle à mes lois plus soumise,</l>
+	<l id='558'>Mes jours plus à couvert d'une lâche entreprise ?</l>
+	<l id='559'>Si Pyrrhus se connaît, pourra-t-il oublier</l>
+	<l id='560'>Que son père fut roi, qu'il eut un meurtrier,</l>
+	<l id='561'>Qu'il vit, et qu'entre nous un coup irréparable</l>
+	<l id='562'>Doit opposer saris cesse un vengeur au coupable ?</l>
+	<l id='563'>Malgré les noeuds du sang dont nous sortions tous deux,</l>
+	<l id='564'>Il fallut m'immoler un roi trop soupçonneux ;</l>
+	<l id='565'>Je ne m'en cache point : si c'est un parricide,</l>
+	<l id='566'>On ne doit l'imputer qu'aux rigueurs d'AEacide.</l>
+	<l id='567'>Son trône, après sa mort, était le seul abri</l>
+	<l id='568'>Que je pusse choisir à mon honneur flétri :</l>
+	<l id='569'>Je ne vis qu'un bandeau qui pût sauver ma tête.</l>
+	<l id='570'>La force en fit le droit, un meurtre la conquête,</l>
+	<l id='571'>Il est vrai : mais combien de trônes sont remplis</l>
+	<l id='572'>Par les usurpateurs qui s'y sont établis !</l>
+	<l id='573'>Votre aïeul en fut un ; j'en nommerais mille autres</l>
+	<l id='574'>Oui n'eurent pour régner d'autres droits que les nôtres.</l>
+	<l id='575'>Quoi qu'il en soit, Seigneur, je demande Pyrrhus, </l>
+	<l id='576'>Et ne peux qu'à ce prix relâcher Illyrus. </l>
+	<l id='577'>De vos soins vertueux outrez moins la chimère, </l>
+	<l id='578'>Et ressouvenez-vous que vous êtes son père ; </l>
+	<l id='579'>Que s'il périt, c'est vous qui le voulez ainsi ; </l>
+	<l id='580'>Que c'est vous plus que moi qui l'immolez ici ; </l>
+	<l id='581'>Enfin, que c'est vous seul qui m'imposez un crime</l>
+	<l id='582'>Que la nécessité va rendre légitime.</l>
+	<l id='583'>Vous m'entendez, Seigneur : adieu. Point de traités, </l>
+	<l id='584'>Si du sang de Pyrrhus vous ne les cimentez.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='585'>Ah ! cruel, arrêtez : puisqu'il vous faut un gage, </l>
+	<l id='586'>Si c'est peu de ma foi, prenez-moi pour otage ; </l>
+	<l id='587'>Je suis prêt à vous suivre en ces mêmes climats</l>
+	<l id='588'>Où j'ai porté cent fois la flamme et le trépas. </l>
+	<l id='589'>Si ce n'est pas assez de vous céder un trône,</l>
+	<l id='590'>Prenez encor le mien, et je vous l'abandonne ; </l>
+	<l id='591'>Mais ne réduisez point un prince vertueux</l>
+	<l id='592'>À trahir en Pyrrhus son honneur et ses dieux.</l>
+	<l id='593'>Quand je reçus ce prince échappé de vos armes,</l>
+	<l id='594'>Son berceau fut longtemps arrosé de mes larmes.</l>
+	<l id='595'>Je regardai Pyrrhus comme un présent divin</l>
+	<l id='596'>Que le ciel m'ordonnait de cacher dans mon sein.</l>
+	<l id='597'>Enfin, Pyrrhus m'est plus que si j'étais son père :</l>
+	<l id='598'>Je répondrais aux dieux d'une tête si chère.</l>
+	<l id='599'>Les serments les plus saints ont répondu de moi,</l>
+	<l id='600'>Et je mourrais plutôt que de trahir ma foi.</l>
+	<l id='601'>Il n'est fils ni sujets que je ne sacrifie</l>
+	<l id='602'>Au soin de conserver sa déplorable vie.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='603'>Hé bien ! Vous pouvez donc au sortir de ce lieu</l>
+	<l id='604'>Aller dire à ce fils un éternel adieu.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='605'>Pour dérober ce fils à ta main meurtrière,</l>
+	<l id='606'>Je me suis abaissé jusques à la prière ;</l>
+	<l id='607'>Mais c'est trop honorer un lâche tel que toi,</l>
+	<l id='608'>Que de lui témoigner le plus léger effroi.</l>
+	<l id='609'>Je brave ta fureur, si tu braves ma plainte.</l>
+	<l id='610'>Un monstre doit causer plus d'horreur que de crainte.</l>
+	<l id='611'>Délivre ou perds mon fils, je le laisse à ton choix,</l>
+	<l id='612'>Et je cours l'embrasser pour la dernière fois.</l>
+	<l id='613'>Oui, barbare, je vole à cet adieu funeste :</l>
+	<l id='614'>Mais toi, tremble en songeant au vengeur qui me reste.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME, seul.</speaker>
+	<l id='615'>Dans quel étonnement laisse-t-il mes esprits !</l>
+	<l id='616'>Peut-on jusqu'à ce point abandonner un fils ?</l>
+	<l id='617'>Est-ce férocité, vertu, devoir, courage ?</l>
+	<l id='618'>De quel nom appeler ce bizarre assemblage ?</l>
+	<l id='619'>Quel oubli de soi-même ! Et quel mélange affreux</l>
+	<l id='620'>De père sans tendresse et d'ami généreux !</l>
+	<l id='621'>Dépouille-t-on ainsi les entrailles de père ?</l>
+	<l id='622'>Quelles sauvages moeurs ! Ou plutôt quel mystère !</l>
+	<l id='623'>Je l'ai trop admiré sur sa fausse vertu :</l>
+	<l id='624'>De soins bien différents un père est combattu.</l>
+	<l id='625'>Glaucias m'abusait ; et son indifférence</l>
+	<l id='626'>Pour un fils sur qui va retomber ma vengeance</l>
+	<l id='627'>Me Tait voir où mon bras doit adresser ses coups ;</l>
+	<l id='628'>Je reconnais enfin l'objet de mon courroux,</l>
+	<l id='629'>Il est entre mes mains : le prince d'Illyrie</l>
+	<l id='630'>N'est autre que Pyrrhus que l'on me sacrifie.</l>
+	<l id='631' part='i'>Puis-je en douter encor ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Hélénus, Néoptolème.</head>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME, à part.</speaker>
+	<l id='631' part='f'>Mais je vois Hélénus.</l>
+	<l id='632'>J'éclairerai bientôt mes soupçons sur Pyrrhus.</l>
+<stage>À Hélénus.</stage>
+	<l id='633'>Héros dont les exploits font revivre Alexandre,</l>
+	<l id='634'>Ou plutôt qui semblez renaître de sa cendre ;</l>
+	<l id='635'>Qui, jeune encore, osez faire voir aux humains</l>
+	<l id='636'>Qu'on peut même prétendre à de plus hauts destins ;</l>
+	<l id='637'>Souffrez qu'un ennemi sorti du sang d'Achille,</l>
+	<l id='638'>Sang qui n'offrit jamais un hommage servile,</l>
+	<l id='639'>S'acquitte cependant des innocents tributs</l>
+	<l id='640'>Que tout coeur généreux doit rendre à vos vertus,</l>
+	<l id='641'>Le mien, quoiqu'irrité d'une guerre inhumaine,</l>
+	<l id='642'>Vous partagea longtemps son estime et sa haine :</l>
+	<l id='643'>Mais l'estime eut toujours de quoi la surpasser ;</l>
+	<l id='644'>Et ce que l'une a fait, l'autre veut l'effacer.</l>
+	<l id='645'>J'ai propose la paix, et la main d'Éricie ;</l>
+	<l id='646'>Je l'ai moi-même offerte au prince d'Illyrie.</l>
+	<l id='647'>Pouvais-je présumer que ses faibles attraits,</l>
+	<l id='648'>D'un triomphe plus beau comblant tous mes souhaits,</l>
+	<l id='649'>Subjugueraient, Seigneur, un guerrier intrépide</l>
+	<l id='650'>Qui de nouveaux lauriers paraît toujours avide ?</l>
+	<l id='651'>C'est à lui que je parle, et je n'ai pas besoin</l>
+	<l id='652'>De rappeler ses traits et son nom de plus loin.</l>
+	<l id='653'>Daignez me confirmer un amour qui me flatte.</l>
+	<l id='654'>Les moments nous sont chers ; que cet amour éclate,</l>
+	<l id='655'>Seigneur : c'est un aveu que j'exige de vous,</l>
+	<l id='656'>Et je n'en puis entendre un qui me soit plus doux.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='657'>Les charmes d'Éricie, et tout ce qu'elle inspire,</l>
+	<l id='658'>En disent plus, seigneur, que je n'en pourrais dire ;</l>
+	<l id='659'>Heureux si les vertus dont vous m'avez flatté</l>
+	<l id='660'>Lui paraissaient d'un prix digne de sa beauté !</l>
+	<l id='661'>Il est vrai que je l'aime, et n'en fais point mystère ;</l>
+	<l id='662'>J'ai cru même devoir l'avouer à mon frère :</l>
+	<l id='663'>Mais Glaucias l'ignore, et du don de ma foi</l>
+	<l id='664'>Je ne puis disposer sans l'aveu de mon roi.</l>
+	<l id='665'>Mon coeur, indépendant du pouvoir arbitraire,</l>
+	<l id='666'>Se livre sans contrainte à ce qui peut lui plaire ;</l>
+	<l id='667'>Mais cette liberté n'étend pas son pouvoir</l>
+	<l id='668'>Jusqu'à braver les lois d'un trop juste devoir.</l>
+	<l id='669'>Je fais gloire du mien, et jamais pour un père</l>
+	<l id='670'>Amour ne fut plus grand, ni respect plus sincère ;</l>
+	<l id='671'>Mais c'est moins en sujet que je lui suis soumis,</l>
+	<l id='672'>Que par des sentiments qui sont plus que d'un fils.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='673'>S'il est vrai qu'Hélénus brûle pour Êricie,</l>
+	<l id='674'>Prince, je réponds d'elle et du roi d'Illyrie.</l>
+	<l id='675'>Glaucias vous chérit, et verra sans regret</l>
+	<l id='676'>Le choix que mon estime et votre amour ont fait.</l>
+	<l id='677'>Quel successeur plus grand et plus digne d'Achille</l>
+	<l id='678'>Pouvais-je présenter à l'Épire indocile ?</l>
+	<l id='679'>Qu'il m'est doux de pouvoir, en couronnant vos feux,</l>
+	<l id='680'>Rendre à la fois ma fille et mes sujets heureux !</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='681'>Cessez de vous flatter d'une espérance vaine :</l>
+	<l id='682'>Glaucias à la paix peut immoler sa haine,</l>
+	<l id='683'>Mais ne souffrira point que je sois possesseur</l>
+	<l id='684'>D'un trône dont Pyrrhus est le seul successeur.</l>
+	<l id='685'>Nos malheurs, il est vrai, vous en ont rendu maître,</l>
+	<l id='686'>Et tant que vous vivrez vous pourrez toujours l'être :</l>
+	<l id='687'>Je doute cependant qu'on vous laisse jamais</l>
+	<l id='688'>Le droit d'en disposer au gré de vos souhaits.</l>
+	<l id='689'>Mon hymen, ou celui du prince d'Illyrie,</l>
+	<l id='690'>Pourra vous garantir et le sceptre et la vie ;</l>
+	<l id='691'>Mais Pyrrhus, après vous reprenant tous ses droits,</l>
+	<l id='692'>À l'Épire, seigneur, doit seul donner des lois.</l>
+	<l id='693'>Qui peut lui disputer alors ce diadème?</l>
+	<l id='694'>Et, malgré mon amour, savez-vous si moi-même</l>
+	<l id='695'>Je pourrais consentir à l'en voir dépouiller,</l>
+	<l id='696'>Et d'un trône usurpé ma gloire se souiller ?</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='697'>Et quel est donc le but de la paix qu'on demande,</l>
+	<l id='698'>S'il faut que de Pyrrhus ma couronne dépende ?</l>
+	<l id='699'>Je n'aurai donc vaincu que pour être soumis,</l>
+	<l id='700'>Et que pour voir sur moi régner mes ennemis ;</l>
+	<l id='701'>Que pour voir un hymen qui dépouille ma fille,</l>
+	<l id='702'>Comme une grâce encor qu'on fait à ma famille !</l>
+	<l id='703'>Le sort, en remettant la victoire en nos mains,</l>
+	<l id='704'>Nous a fait concevoir de plus nobles desseins.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='705'>Oui, vous avez vaincu ; mais l'honneur et la gloire</l>
+	<l id='706'>Ne suivent pas toujours le char de la victoire :</l>
+	<l id='707'>Il en est qu'on ne doit imputer qu'au hasard.</l>
+	<l id='708'>La vôtre est de ce rang : le sort vous en fit part,</l>
+	<l id='709'>Et l'arracha des mains d'un ennemi terrible,</l>
+	<l id='710'>Dont vous n'aviez pas cru la défaite possible.</l>
+	<l id='711'>Si mon sang répandu vous a fait triompher,</l>
+	<l id='712'>Ce n'est pas vous du moins qui le fîtes couler.</l>
+	<l id='713'>Le sort à mes pareils peut garder un outrage ;</l>
+	<l id='714'>Mais l'on n'obtient sur eux de parfait avantage</l>
+	<l id='715'>Qu'on ne les ait privés de la clarté du jour,</l>
+	<l id='716'>Ou l'on n'en peut trop craindre un funeste retour.</l>
+	<l id='717'>Seigneur, je vous ai dit que j'aimais la princesse ;</l>
+	<l id='718'>Ses charmes peuvent seuls égaler ma tendresse :</l>
+	<l id='719'>Mais je n'ai désiré que son coeur et sa main.</l>
+	<l id='720'>Ma valeur peut lui faire un assez haut destin.</l>
+	<l id='721'>Sans que j'aille à Pyrrhus ravir un diadème</l>
+	<l id='722'>Qui déshonorerait votre fille elle-même.</l>
+	<l id='723'>Pour vous, qui vous osez déclarer mon vainqueur,</l>
+	<l id='724'>Montrez des sentiments dignes de tant d'honneur.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='725'>Je vois bien qu'il est temps que je me fasse entendre,-</l>
+	<l id='726'>Et que vous sachiez, vous, ce que j'ose prétendre.</l>
+	<l id='727'>Je ne sais de quel prix Éricie est pour vous ;</l>
+	<l id='728'>Mais, si de l'obtenir votre amour est jaloux,</l>
+	<l id='729'>Si sa main est un bien qui vous semble si rare,</l>
+	<l id='730'>Il faut qu'à me servir votre coeur se prépare.</l>
+	<l id='731'>Je demande Pyrrhus ; ma fille est à ce prix :</l>
+	<l id='732'>Tout autre n'est pour moi que refus ou mépris.</l>
+	<l id='733'>Voilà ce que de vous exige ma vengeance.</l>
+	<l id='734'>Vous, qui sur Glaucias avez tant de puissance,</l>
+	<l id='735'>Portez-le dès ce jour à remplir mes souhaits,</l>
+	<l id='736'>Ou déterminez-vous à ne nous voir jamais.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='737'>Vous-même eussiez en vain tenté cette entrevue</l>
+	<l id='738'>Sans les soins d'Éricie, à qui seule elle est due :</l>
+	<l id='739'>Mais sur cet entretien si l'on m'eût pressenti,</l>
+	<l id='740'>Un mépris éternel m'en aurait garanti.</l>
+	<l id='741'>Barbare ! Voilà donc le fruit de votre estime,</l>
+	<l id='742'>Un hymen qui pour dot m'apporterait un crime !</l>
+	<l id='743'>Dès qu'il faut s'allier à vous par un forfait,</l>
+	<l id='744'>Gardez à Cassander ce funeste bienfait,</l>
+	<l id='745'>Et ne vous vantez plus d'être du sang d'Achille.</l>
+	<l id='746'>Ce sang, qui fut toujours en héros si fertile,</l>
+	<l id='747'>Ne pourrait inspirer des sentiments si bas.</l>
+	<l id='748'>Vous en êtes souillé, mais vous n'en sortez pas.</l>
+	<l id='749'>Si je pouvais penser que la jeune Éricie</l>
+	<l id='750'>Eût reçu vos penchants de vous avec la vie,</l>
+	<l id='751'>Ce ne serait pour moi qu'un objet plein d'horreur.</l>
+	<l id='752'>Cruel ! Si vous voulez lui conserver mon coeur,</l>
+	<l id='753'>Déguisez mieux du moins cet affreux caractère</l>
+	<l id='754'>Qui me ferait rougir de vous nommer mon père ;</l>
+	<l id='755'>Montrez-moi des vertus qui vous fassent aimer,</l>
+	<l id='756'>Et qui dans mon amour puissent me confirmer.</l>
+	<l id='757'>Ce n'est pas votre rang, c'est la vertu que j'aime :</l>
+	<l id='758'>Sans elle, vous m'offrez en vain un diadème.</l>
+	<l id='759'>Dussiez-vous m'élever à des honneurs divins,</l>
+	<l id='760'>Je vous préfèrerais le plus vil des humains.</l>
+	<l id='761'>Je me vois à regret forcé de vous confondre ;</l>
+	<l id='762'>Mais vous deviez prévoir ce que j'ai dû répondre;</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='763'>Hé bien ! Prince, suivez ces transports généreux ;</l>
+	<l id='764'>Mais ressouvenez-vous que pour vous rendre heureux</l>
+	<l id='765'>ï'ai voulu pénétrer jusqu'au fond de votre âme,</l>
+	<l id='766'>Et voir ce que pour nous oserait votre flamme :</l>
+	<l id='767'>Car sans votre secours je serai satisfait.</l>
+	<l id='768'>Vous m'avez de Pyrrhus fait en vain un secret ?</l>
+	<l id='769'>Il est en mon pouvoir : c'est Illyrus lui-même,</l>
+	<l id='770'>Que son triste destin livre a Néoptolème.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='771'>Qui ? Lui Pyrrhus, Seigneur ! Mais non, pensez-y bien...</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='772'>Adieu : vous-même ici pesez notre entretien.</l>
+	<l id='773'>Je n'oublierai jamais un refus qui me blesse,</l>
+	<l id='774'>Et j'en vais de ce pas instruire la princesse.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS, seul.</speaker>
+	<l id='775'>Ah ! Tyran, de quel trait viens-tu frapper mon coeur !</l>
+	<l id='776'>Vertu, dont les transports me coûtent mon bonheur,</l>
+	<l id='777'>Pour le prix de t'avoir sacrifié ma flamme,</l>
+	<l id='778'>Sauve-moi des regrets qui déchirent mon âme ;</l>
+	<l id='779'>Tourne vers mon rival mes soins et ma pitié,</l>
+	<l id='780'>Et ranime pour lui ma première amitié.</l>
+	<l id='781'>Illyrus est Pyrrhus ! Mais d'où vient que mon père</l>
+	<l id='782'>M'en a fait si longtemps un barbare mystère ?</l>
+	<l id='783'>M'aurait-il soupçonné d'être moins généreux,</l>
+	<l id='784'>Et moins touché que lui du sort d'un malheureux ?</l>
+	<l id='785'>Hélas ! Quoi qu'il ait fait pour défendre sa vie,</l>
+	<l id='786'>Tout ce qu'il a perdu valait-il Éricie ?</l>
+	<l id='787'>C'est Pyrrhus qui me l'ôte, et par un sort fatal</l>
+	<l id='788'>Je suis réduit encore à pleurer mon rival !</l>
+	<l id='789'>Allons trouver mon père, et cessons de nous plaindre ;</l>
+	<l id='790'>Étouffons sans regret des feux qu'il faut éteindre :</l>
+	<l id='791'>Voilà des ennemis dignes de mon courroux.</l>
+	<l id='792'>Le triomphe du moins en est beau, s'il n'est doux.</l>
+	<l id='793'>Héros qui pour tout bien recherchez la victoire,</l>
+	<l id='794'>Qu'un peu de sang perdu couvrit souvent de gloire,</l>
+	<l id='795'>Pour en savoir le prix, c'est peu d'être guerrier ;</l>
+	<l id='796'>Il faut avoir un coeur à lui sacrifier.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Éricie, Ismène.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='797'>Tu combats vainement mon désespoir funeste :</l>
+	<l id='798'>La plainte, chère Ismène, est tout ce qui me reste.</l>
+	<l id='799'>Laisse-moi le seul bien des coeurs infortunés</l>
+	<l id='800'>Que sous d'indignes fers l'amour tient enchaînés.</l>
+	<l id='801'>Lieux témoins de ma honte, et d'un perfide hommage</l>
+	<l id='802'>Payé de tout mon coeur, et suivi d'un outrage ;</l>
+	<l id='803'>Lieux où j'ai cru soumettre un héros à mes lois,</l>
+	<l id='804'>Hélas ! je vous vois donc pour la dernière fois !</l>
+	<l id='805'>Pardonne ces transports à mon âme éperdue :</l>
+	<l id='806'>On me méprise, Ismène, et la paix est rompue :</l>
+	<l id='807'>Nous reverrons bientôt, l'acier cruel en main,</l>
+	<l id='808'>Fondre dans nos états un guerrier inhumain ;</l>
+	<l id='809'>Et pour comble de maux il faut partir, Ismène,</l>
+	<l id='810'>Sans pouvoir contre lui faire éclater ma haine :</l>
+	<l id='811'>Je fais pour le trouver des souhaits superflus.</l>
+	<l id='812'>Inutiles transports ! Je ne reverrai plus</l>
+	<l id='813'>Ce cruel Hélénus que ma raison abhorre ,</l>
+	<l id='814'>Que ma gloire déteste, et que mon coeur adore...</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Hélénus, Éricie, Ismène.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='815'>Ismène, je le vois. Ah ! mortelles douleurs !</l>
+	<l id='816'>Je succombe, et n'ai plus que l'usage des pleurs.</l>
+	<l id='817'>Fuyons ; n'exposons point au mépris d'un barbare</l>
+	<l id='818'>Les faiblesses d'un coeur où la raison s'égare.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='819'>Près de voir succéder, peut-être pour jamais,</l>
+	<l id='820'>Les horreurs de la guerre aux douceurs de la paix,</l>
+	<l id='821'>dans ce triste moment où votre âme irritée</l>
+	<l id='822'>Contre un infortuné n'est que trop excitée,</l>
+	<l id='823'>M'est-il encor permis d'offrir à vos beaux yeux</l>
+	<l id='824'>Un amant qui ne peut que vous être odieux ?</l>
+	<l id='825'>Si je ne vous croyais généreuse, équitable,</l>
+	<l id='826'>Madame, je craindrais de paraître coupable ;</l>
+	<l id='827'>Mais que peut craindre un coeur qui remplit son devoir ?</l>
+	<l id='828'>Et qu'ai-je à redouter que de ne vous plus voir ?</l>
+	<l id='829'>Je ne vous dirai point que je vous aime encore :</l>
+	<l id='830'>Malgré ce que j'ai fait, mon âme vous adore.</l>
+	<l id='831'>Mes refus m'ont privé de l'espoir le plus doux,</l>
+	<l id='832'>Mais n'ont point étouffé ma tendresse pour vous.</l>
+	<l id='833'>D'un rigoureux honneur déplorable victime,</l>
+	<l id='834'>Tendre amant sans faiblesse, et coupable sans crime,</l>
+	<l id='835'>D'un vertueux effort touché sans repentir,</l>
+	<l id='836'>Mon coeur sent cependant tout ce qu'il peut sentir ;</l>
+	<l id='837'>Et si, pour exciter le vôtre à la vengeance,</l>
+	<l id='838'>Ma générosité lui parut une offense,</l>
+	<l id='839'>S'il a pu souhaiter de me voir malheureux,</l>
+	<l id='840'>Non, jamais le destin n'a mieux rempli vos voeux.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='841'>Que parlez-vous ici de haine et de vengeance ?</l>
+	<l id='842'>Non, ne redoutez rien de mon indifférence.</l>
+	<l id='843'>Quel désespoir éclate ? Ou que soupçonnez-vous,</l>
+	<l id='844'>Pour oser vous flatter d'un instant de courroux ?</l>
+	<l id='845'>Cessez de vous troubler d'une frayeur si vaine :</l>
+	<l id='846'>C'est supposer l'amour que de craindre la haine ;</l>
+	<l id='847'>Mais jusque-là mon coeur ne sait point s'enflammer.</l>
+	<l id='848'>C'est aux amants chéris, Seigneur, à s'alarmer.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='849'>Je sais que je dois peu ressentir leurs alarmes.</l>
+	<l id='850'>Je craignais d'avoir fait une injure à vos charmes ;</l>
+	<l id='851'>Mais au ressentiment si mon coeur s'est mépris,</l>
+	<l id='852'>C'est qu'il se crut toujours au dessus du mépris.</l>
+	<l id='853'>Ce n'est pas se flatter que de craindre, Madame.</l>
+	<l id='854'>Jamais un faux orgueil n'a corrompu mon âme :</l>
+	<l id='855'>La vertu seule y mit une noble fierté,</l>
+	<l id='856'>Que l'amour laisse agir, même avec dignité;</l>
+	<l id='857'>Qui n'a fait aujourd'hui que ce qu'elle a dû faire.</l>
+	<l id='858'>Heureux d'être un objet peu digne de colère,</l>
+	<l id='859'>Qui, n'osant me flatter de l'honneur d'être aimé,</l>
+	<l id='860'>Crois mériter du moins celui d'être estimé !</l>
+	<l id='861'>Madame, je vois trop qu'un récit peu fidèle</l>
+	<l id='862'>M'a fait de mon devoir une lâche querelle ;</l>
+	<l id='863'>Mais si votre courroux vous paraît trop pour moi,</l>
+	<l id='864'>Songez qu'ici le mien doit causer de l'effroi.</l>
+	<l id='865'>Ceux qui de mes refus ont noirci l'innocence</l>
+	<l id='866'>En recevraient bientôt la juste récompense,</l>
+	<l id='867'>Si mon amour pour vous ne daignait retenir</l>
+	<l id='868'>Un bras qui n'est souvent que trop prompt à punir.</l>
+	<l id='869'>Maigré tous vos mépris, je sens que je vous aime </l>
+	<l id='870'>Mais je n'ai jamais tant haï Néoptolème. </l>
+	<l id='871'>Si jamais votre coeur a pu trembler pour lui, </l>
+	<l id='872'>Dans les murs de Byzance arrêtez-le aujourd'hui.</l>
+	<l id='873'>Je souscris à la paix ; qu'on me rende mon frère : </l>
+	<l id='874'>Osez le demander vous-même a votre père ; </l>
+	<l id='875'>Prévenez sur ce point un amant furieux</l>
+	<l id='876'>Qui, hors vous, n'aura rien de sacré dans ces lieux.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='877'>Cruel ! C'est donc ainsi que votre amour s'exprime !</l>
+	<l id='878'>Voilà ce feu si beau qui pour moi vous anime, </l>
+	<l id='879'>Et l'hommage d'un coeur qui ne se donne à moi</l>
+	<l id='880'>Que pour remplir le mien de douleur et d'effroi ! </l>
+	<l id='881'>On m'aime, et cependant il faut que je fléchisse ! </l>
+	<l id='882'>On m'adore, et c'est moi qui dois le sacrifice !</l>
+	<l id='883'>Il faut de mon devoir que j'étouffe la voix, </l>
+	<l id='884'>Et que de mon amant je subisse les lois !</l>
+	<l id='885'>De l'amour suppliant l'orgueil a pris la place ; </l>
+	<l id='886'>Et je vois à ses soins succéder la menace, </l>
+	<l id='887'>Les refus, les mépris, la fierté, la terreur ;</l>
+	<l id='888'>Vos transports les plus doux ne sont que de fureur.</l>
+	<l id='889'>Impétueux amant, dont l'ardeur téméraire</l>
+	<l id='890'>Ne déclare ses feux qu'en déclarant la guerre.</l>
+	<l id='891'>Inspira-t-on jamais l'amour par la frayeur ?</l>
+	<l id='892'>C'est ainsi qu'Hélénus se rend maître d'un coeur ! </l>
+	<l id='893'>Il ordonne en tyran, il faut le satisfaire !</l>
+	<l id='894'>Barbare ! Ma fierté vous devrait le contraire;</l>
+	<l id='895'>Je devrais n'écouter que mon juste courroux :</l>
+	<l id='896'>Mais je veux me venger plus noblement de vous.</l>
+	<l id='897'>Je veux qu'en gémissant Hélénus me regrette,</l>
+	<l id='898'>Et qu'il sente du moins la perte qu'il a faite.</l>
+	<l id='899'>Il ne tenait qu'à vous de faire mon bonheur :</l>
+	<l id='900'>L'amour à cet espoir ouvrait déjà mon coeur ;</l>
+	<l id='901'>Heureuse de pouvoir offrir un diadème ,</l>
+	<l id='902'>Sans rechercher en vous d'autre bien que vous-même.</l>
+	<l id='903'>Je ne me vengerai de vos refus honteux</l>
+	<l id='904'>Qu'en vous faisant rougir de mes soins généreux.</l>
+	<l id='905'>Puisque vous le voulez, je vais trouver mon père,</l>
+	<l id='906'>Tenter, pour le fléchir, les pleurs et la prière ;</l>
+	<l id='907'>Je vais pour vous, ingrat, tomber à ses genoux,</l>
+	<l id='908'>Et faire ce qu'en vain j’attends ici de vous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS, seul.</speaker>
+	<l id='909'>Ô Devoir ! Ta rigueur est-elle satisfaite ?</l>
+	<l id='910'>Vois ce qui m'est offert, et ce que je rejette ;</l>
+	<l id='911'>Quels bienfaits de ta part me feront oublier</l>
+	<l id='912'>Ce que tu m'as forcé de te sacrifier ?</l>
+	<l id='913'>Ah ! Pyrrhus, que le soin de défendre ta vie</l>
+	<l id='914'>Sera d'un prix cruel, s'il m'en coûte Éricie !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Hélénus, Illirus, Gardes.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='915'>Mais on vient : c'est lui-même. Hélas ! Pour m'attendrir,</l>
+	<l id='916'>Que d'objets à la fois viennent ici s'offrir !</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='917'>Seigneur, car je ne sais si je parle à mon frère,</l>
+	<l id='918'>Tant le sort entre nous a jeté de mystère !</l>
+	<l id='919'>Quoi qu'il en soit, avant que de quitter ce lieu,</l>
+	<l id='920'>J'ai cru devoir vous dire un éternel adieu,</l>
+	<l id='921'>Après avoir reçu ceux du roi d'Illyrie,</l>
+	<l id='922'>Dont je suis plus touché que de sa barbarie.</l>
+	<l id='923'>Quel autre nom donner à sa rigueur pour moi,</l>
+	<l id='924'>Quand je n'y trouve plus mon père ni mon roi ?</l>
+	<l id='925'>Par quel malheur son fils a-t-il cessé de l'être ?</l>
+	<l id='926'>Ai-je déshonoré celui qui m'a fait naître ?</l>
+	<l id='927'>Quel est donc ce Pyrrhus, pour lui d'un si haut prix ?</l>
+	<l id='928'>Encor si c'était vous, j'en serais moins surpris.</l>
+	<l id='929'>Seigneur, vous soupirez ! Je vois couler vos larmes !</l>
+	<l id='930'>Ces pleurs me causeraient de mortelles alarmes,</l>
+	<l id='931'>Si mon coeur était fait pour sentir de l'effroi :</l>
+	<l id='932'>Il s'émeut cependant de tout ce que je vois.</l>
+	<l id='933'>Une douleur si noble a de quoi me surprendre :</l>
+	<l id='934'>Ce n'est pas d'un rival que j'eusse osé l'attendre ,</l>
+	<l id='935'>Ni me flatter qu'il dût être si généreux,</l>
+	<l id='936'>Lorsque tout abandonne un prince malheureux.</l>
+	<l id='937'>Non qu'à votre vertu j'eusse fait l'injustice.</l>
+	<l id='938'>De croire votre amour de ma perte complice ;</l>
+	<l id='939'>Mais, si je n'ai rien craint de votre inimitié,</l>
+	<l id='940'>Je n'en attendais pas non plus tant de pitié.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='941'>Seigneur, quelques transports qu'une maîtresse inspire,</l>
+	<l id='942'>La gloire et le devoir ont aussi leur empire.</l>
+	<l id='943'>Entre ce qui me plaît et ce que je me dois ,</l>
+	<l id='944'>L'honneur seul a toujours déterminé mon choix.</l>
+	<l id='945'>Je n'ai pas, dans les soins d'une ardeur qui m'est chère,</l>
+	<l id='946'>Perdu le souvenir de mon malheureux frère ;</l>
+	<l id='947'>Et dût-il me haïr, même sans m'estimer,</l>
+	<l id='948'>Ses malheurs suffiraient pour me le faire aimer.</l>
+	<l id='949'>Je vois avec douleur le sort qu'on vous prépare,</l>
+	<l id='950'>Sans oser cependant immoler un barbare.</l>
+	<l id='951'>Ce palais est rempli de chefs et de soldats</l>
+	<l id='952'>Qu'un ordre redoutable attache sur mes pas.</l>
+	<l id='953'>Le fier Lysimachus, jaloux de sa puissance,</l>
+	<l id='954'>Ne laisse à mon courroux nul espoir de vengeance ;</l>
+	<l id='955'>Et si je n'en craignais un funeste succès,</l>
+	<l id='956'>J'aurais bientôt troublé l'asile de la paix :</l>
+	<l id='957'>Mais la peur d'exposer la tête de mon père</l>
+	<l id='958'>Me fait, en frémissant, étouffer ma colère ;</l>
+	<l id='959'>Et l'horreur de vous voir dans des fers odieux</l>
+	<l id='960'>La porte à des accès quelquefois furieux.</l>
+	<l id='961'>J'ose tout, je crains tout, sans savoir qu'entreprendre :</l>
+	<l id='962'>Je plains même Pyrrhus, et voudrais le défendre :</l>
+	<l id='963'>Heureux si son secret fût resté dans l'oubli !</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='964'>Vous n'êtes pas le seul qui le sachiez ici,</l>
+	<l id='965'>À qui ce Pyrrhus doit encor plus qu'il ne pense :</l>
+	<l id='966'>Mais on veut lui garder un généreux silence ;</l>
+	<l id='967'>Et pour sauver ses jours on fait plus aujourd'hui</l>
+	<l id='968'>Que jamais Glaucias n'osa faire pour lui</l>
+	<l id='969'>Lorsque tout engageait à le faire connaître.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='970'>Ah! Laissons ce Pyrrhus, Seigneur, quel qu'il puisse être.</l>
+	<l id='971'>Pénétré de son sort jusqu'au saisissement,</l>
+	<l id='972'>Mon coeur n'a pas besoin d'autre éclaircissement.</l>
+	<l id='973'>Je ne connais que vous en ce moment funeste</l>
+	<l id='974'>Où le rival s'oublie et l'ami seul vous reste.</l>
+	<l id='975'>Mais Glaucias paraît : retirez-vous, seigneur ;</l>
+	<l id='976'>Votre aspect ne ferait qu'irriter sa douleur :</l>
+	<l id='977'>Daignez la respecter dans un malheureux père,</l>
+	<l id='978'>Et me laissez le soin d'une tête si chère.</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='979'>Non, non, ce serait trop en exiger de vous :</l>
+	<l id='980'>Je vous exposerais, Seigneur, à son courroux.</l>
+	<l id='981'>Pour la dernière fois souffrez que je le voie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Glaucias, Illyrus, Hélénus, Gardes.</head>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS, dans le fond du théâtre.</speaker>
+	<l id='982'>Dieux cruels, dont sur moi la rigueur se déploie,</l>
+	<l id='983'>Si rien à la pitié ne vous peut émouvoir,</l>
+	<l id='984'>Jouissez de mes pleurs et de mon désespoir !...</l>
+	<l id='985'>Que vois-je ? quels objets ! les deux princes ensemble !</l>
+	<l id='986'>Ah ! Que d'infortunes le sort ici rassemble !</l>
+<stage>À Illyrus.</stage>
+	<l id='987'>Que cherchez-vous, mon fils, en ces funestes lieux,</l>
+	<l id='988'>Où tout doit désormais vous paraître odieux,</l>
+	<l id='989'>Où vous devez me fuir et m'abhorrer moi même ?</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='990'>Vous n'en êtes pas moins, Seigneur, tout ce que j'aime. </l>
+	<l id='991'>À mon frère, il est vrai, je me plaignais de vous, </l>
+	<l id='992'>Et j'en eusse attendu des sentiments plus doux.</l>
+	<l id='993'>Je suis touché de voir, en ce moment terrible,</l>
+	<l id='994'>Que mon rival soit seul à ma perte sensible.</l>
+	<l id='995'>Hélas ! Qui fut jamais plus à plaindre que moi ?</l>
+	<l id='996'>Méprisé d'Éricie, et peu cher à mon roi,</l>
+	<l id='997'>C'est un prince sorti d'une race étrangère</l>
+	<l id='998'>Qui l'emporte sur moi dans le coeur de mon père !</l>
+	<l id='999'>Je ne condamne point sa générosité,</l>
+	<l id='1000'>Mais l'effort en devrait être plus limité :</l>
+	<l id='1001'>La gloire n'admet point de si grands sacrifices,</l>
+	<l id='1002'>Et ce n'est point à moi d'illustrer ses caprices,</l>
+	<l id='1003'>Victime des transports d'un chimérique honneur,</l>
+	<l id='1004'>Sans avoir d'autre crime ici que mon malheur.</l>
+	<l id='1005'>Ce reproche cruel dont votre coeur s'offense</l>
+	<l id='1006'>Ne regarde, Seigneur, que votre indifférence:</l>
+	<l id='1007'>Je ne puis voir mon père abandonner son fils,</l>
+	<l id='1008'>Sans soupçonner pour moi d'injurieux mépris.</l>
+	<l id='1009'>Voilà les seuls regrets dont mon âme est saisie,</l>
+	<l id='1010'>Et j'en suis plus touché que de perdre la vie :</l>
+	<l id='1011'>Mais je n'en ai pas moins souhaité vous revoir.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1012'>Illyrus, mon seul bien et mon unique espoir,</l>
+	<l id='1013'>Ah ! Si c'est ton amour qui vers moi te rappelle,</l>
+	<l id='1014'>Ne m'en refuse point une preuve nouvelle.</l>
+	<l id='1015'>Viens, mon fils, dans les bras d'un père infortuné,</l>
+	<l id='1016'>Dont le coeur ne t'a point encore abandonné ;</l>
+	<l id='1017'>Viens te baigner de pleurs qui couleront sans cesse,</l>
+	<l id='1018'>Et ne m'accuse point de manquer de tendresse.</l>
+	<l id='1019'>Mon fils, je t'aime encor tout ce qu'on peut aimer,</l>
+	<l id='1020'>Et je te connais trop pour ne pas t'estimer.</l>
+	<l id='1021'>Tes reproches honteux, dont ma gloire murmure,</l>
+	<l id='1022'>Outragent plus que moi le sang et la nature.</l>
+	<l id='1023'>Mon coeur de ses retours n'est que trop combattu, </l>
+	<l id='1024'>Et je n'ai plus d'espoir qu'en ta propre vertu.</l>
+	<l id='1025'>Loin de déshonorer mon auguste vieillesse,</l>
+	<l id='1026'>Aide-moi de mon sang à dompter la faiblesse.</l>
+	<l id='1027'>Le malheureux Pyrrhus est maître de ma foi; </l>
+	<l id='1028'>Je ne suis pas le sien, et ta vie est à moi.</l>
+	<l id='1029'>Fais voir, par les efforts d'une vertu suprême, </l>
+	<l id='1030'>La victime au dessus du sacrifice même.</l>
+	<l id='1031'>Adieu : sois généreux autant que je le suis.</l>
+	<l id='1032'>Te pleurer et mourir est tout ce que je puis.</l>
+</sp>
+<sp who='ILLYRUS'><speaker>ILLYRUS.</speaker>
+	<l id='1033'>Oui, je vous ferai voir par un effort insigne </l>
+	<l id='1034'>De quel amour, seigneur, Illyrus était digne ; </l>
+	<l id='1035'>Que ce fils malheureux, sans le faire éclater, </l>
+	<l id='1036'>Des plus rares vertus aurait pu se flatter ; </l>
+	<l id='1037'>Qu'il sait du moins mourir et garder le silence, </l>
+	<l id='1038'>Quand son propre intérêt peut-être l'en dispense. </l>
+	<l id='1039'>Je pourrais d'un seul mot éviter mon malheur, </l>
+	<l id='1040'>Mais ce mot échappé vous percerait le cceur.</l>
+	<l id='1041'>C'est dans le fond du mien qu'enfermant ce mystère </l>
+	<l id='1042'>Je vais sauver Pyrrhus, votre gloire, et me taire.</l>
+	<l id='1043'>Adieu, cher Hélénus : vous apprendrez un jour </l>
+	<l id='1044'>Si j'avais mérité de vous quelque retour.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Glaucias, Hélénus.</head>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1045'>Seigneur, de ce discours que faut-il que je pense ?</l>
+	<l id='1046'>Sur quoi le prince ici vante-t-il son silence ?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1047'>Ah ! Mon fils, ce secret ne regarde que moi ;</l>
+	<l id='1048'>Mais il a d'un seul mot glacé mon coeur d'effroi.</l>
+	<l id='1049'>Hélas ! Que de son sort mon âme est attendrie !</l>
+	<l id='1050'>Pyrrhus, que de vertu ma foi te sacrifie !</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1051'>Le prince va, dit-il, se perdre pour Pyrrhus ;</l>
+	<l id='1052'>Et c'est lui cependant sons le nom d'Illyrus ,</l>
+	<l id='1053'>Si j'en crois les soupçons du tyran de l'Épire.</l>
+	<l id='1054'>Seigneur, de ce secret vous pouvez seul m'instruire.</l>
+	<l id='1055'>Mon respect m'a forcé de cacher jusqu'ici</l>
+	<l id='1056'>Les désirs que j'avais de m'en voir éclairci ;</l>
+	<l id='1057'>Mais, s'il a triomphé de mon impatience,</l>
+	<l id='1058'>Je rougis à la fin de votre défiance.</l>
+	<l id='1059'>Si jamais votre coeur fut sensible pour moi,</l>
+	<l id='1060'>Si mon amour pour vous a signalé ma foi,</l>
+	<l id='1061'>Si j'ai pu m'illustrer en marchant sur vos traces ,</l>
+	<l id='1062'>Et par quelques exploits su mériter des grâces ,</l>
+	<l id='1063'>Du sang que j'ai perdu je n'exige qu'un prix.</l>
+	<l id='1064'>Est-il vrai qu'Illyrus ne soit point votre fils ?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1065'>Je ne suis point surpris qu'un lâche coeur soupçonne</l>
+	<l id='1066'>Qu'Illyrus soit Pyrrhus, dès que je l'abandonne :</l>
+	<l id='1067'>Mais vous, jusqu'à ce jour élevé dans mon sein,</l>
+	<l id='1068'>Vous, à qui des vertus j'aplanis le chemin,</l>
+	<l id='1069'>Que j'instruisis d'exemple, auriez-vous osé croire</l>
+	<l id='1070'>Que d'une lâcheté j'eusse souillé ma gloire ?</l>
+	<l id='1071'>Non, mon cher Hélénus : ce fils abandonné</l>
+	<l id='1072'>N'en est pas moins celui que les dieux m'ont donné,</l>
+	<l id='1073'>Et plût au sort cruel qu'il eût un autre père !</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1074'>Vous n'éclaircissez pas, Seigneur, tout le mystère.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1075'>Prince, c'est trop vouloir pénétrer un secret :</l>
+	<l id='1076'>Offrez à ma douleur un zèle plus discret,</l>
+	<l id='1077'>Et n'en exigez pas plus que je n'en veux dire.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1078'>C'en est assez pour moi, Seigneur ; je me retire ,</l>
+	<l id='1079'>Satisfait qu'lllyrus soit toujours votre fils,</l>
+	<l id='1080'>Et je vais de ce pas trouver ses ennemis.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1081'>Ah ! Cruel, arrêtez : qu'allez-vous entreprendre ?</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1082'>Ce que de ma vertu mon frère doit attendre ;</l>
+	<l id='1083'>Je cours le dérober à son sort inhumain,</l>
+	<l id='1084'>Ou mourir avec lui les armes à la main ;</l>
+	<l id='1085'>Et je n'écoute plus, dans l'ardeur qui me guide,</l>
+	<l id='1086'>Que la soif de verser le sang d'un parricide.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1087'>Barbare ! Immole donc le mien à ta fureur ;</l>
+	<l id='1088'>Cours exposer ma vie et me perdre d'honneur.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1089'>Ah ! Vous ne craignez pas, Seigneur, pour votre vie :</l>
+	<l id='1090'>Ce n'est pas là l'effroi dont votre âme est saisie ;</l>
+	<l id='1091'>Elle est trop au-dessus d'une lâche frayeur.</l>
+	<l id='1092'>Pyrrhus, le seul Pyrrhus occupe votre coeur.</l>
+	<l id='1093'>Indifférent pour nous, pour lui plein de tendresse,</l>
+	<l id='1094'>Voilà, pour m'arrêter, le motif qui vous presse,</l>
+	<l id='1095'>Et l'unique frayeur qui vous trouble aujourd'hui.</l>
+	<l id='1096'>N'avons-nous pas assez versé de sang pour lui ?</l>
+	<l id='1097'>S'il est reconnaissant, que veut-il davantage ?</l>
+	<l id='1098'>Je sais qu'à le sauver votre foi vous engage,</l>
+	<l id='1099'>Que vous lui devez même une sainte amitié ;</l>
+	<l id='1100'>Mais que lui dois-je, moi, qu'une simple pitié</l>
+	<l id='1101'>Qui doit céder aux soins de conserver mon frère ?</l>
+	<l id='1102'>Hé bien ! Qu'a vos deux fils votre honneur le préfère ;</l>
+	<l id='1103'>Consacrez à jamais ces transports vertueux,</l>
+	<l id='1104'>Et me laissez le soin de nous sauver tous deux.</l>
+	<l id='1105'>Que Pyrrhus avec nous vienne aussi se défendre,</l>
+	<l id='1106'>S’il est digne du sang que vous laissez répandre.</l>
+	<l id='1107'>Eh ! De quelle vertu l'ont enrichi les dieux,</l>
+	<l id='1108'>Pour vous rendre, Seigneur, le sien si précieux ?</l>
+	<l id='1109'>Je ne sais ; mais je crains que le grand nom d'Achille</l>
+	<l id='1110'>Ne soit pour lui d'un poids plus onéreux qu'utile,</l>
+	<l id='1111'>Que sans honneur ses jours ne se soient écoulés.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1112'>Ah ! Si vous connaissiez celui dont vous parlez,</l>
+	<l id='1113'>Vous changeriez bientôt de soins et de langage,</l>
+	<l id='1114'>Et je verrais mollir ce superbe courage.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1115'>Seigneur, à ce discours, c'est trop me le cacher :</l>
+	<l id='1116'>Je dois de votre sein désormais l'arracher.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1117'>Quoi ! Ce même Hélénus que l'univers admire,</l>
+	<l id='1118'>Et dont les dieux semblaient lui designer l'Empire,</l>
+	<l id='1119'>L'ennemi des tyrans, l'ami des malheureux,</l>
+	<l id='1120'>Flétrit en un seul jour tant de jours si fameux,</l>
+	<l id='1121'>Et me demande à moi le sang d'un misérable !</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1122'>Ah dieux ! De ces horreurs me croyez-vous capable ?</l>
+	<l id='1123'>Non : vous ne m'imputez ces lâches mouvements</l>
+	<l id='1124'>Que pour vous délivrer de mes empressements.</l>
+	<l id='1125'>C'est le droit d'un refus acquis par une offense,</l>
+	<l id='1126'>Et dont à vos remords je laisse la vengeance.</l>
+	<l id='1127'>Ce jour, qu'on croit des miens avoir flétri le cours,</l>
+	<l id='1128'>Est peut-être, Seigneur, le plus beau de mes jours.</l>
+	<l id='1129'>À ce même Pyrrhus j'ai fait un sacrifice</l>
+	<l id='1130'>Qui sera pour mon coeur un éternel supplice, </l>
+	<l id='1131'>Et dont mon amour seul connaissait tout le prix.</l>
+	<l id='1132'>Mais en vain aux refus vous joignez le mépris :</l>
+	<l id='1133'>Si vous voulez calmer la fureur qui m'agite,</l>
+	<l id='1134'>Cessez de retenir un secret qui m'irrite,</l>
+	<l id='1135'>Ou de sang et d'horreurs je vais remplir ces lieux.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1136'>Ah ! Mon fils, étouffez ces désirs curieux ;</l>
+	<l id='1137'>Et Pyrrhus puisse-t-il pour jamais disparaître !</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1138'>Je commence, seigneur, à ne me plus connaître.</l>
+<stage>Il embrasse avec violence les genoux de Glaucias.</stage>
+	<l id='1139'>Pour la dernière fois j'embrasse vos genoux.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1140'>Ah ! Quel emportement ! C'en est trop, levez-vous.</l>
+	<l id='1141'>Reconnaissez Pyrrhus à ma douleur extrême.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1142' part='i'>Achevez....</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1142' part='f'>Je me meurs ?... Malheureux ! C'est vous-même.</l>
+</sp>
+<sp who='HÉLÉNUS'><speaker>HÉLÉNUS.</speaker>
+	<l id='1143'>Seigneur, c'en est assez, et je suis satisfait.</l>
+<stage>Il veut se retirer.</stage>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS, l’arrêtant.</speaker>
+	<l id='1144'>Arrêtez, prince ingrat : quel est donc le projet</l>
+	<l id='1145'>Qu'en ce triste moment votre fureur médite ?</l>
+	<l id='1146'>Non, ce n'est pas ainsi, Seigneur, que l'on me quitte.</l>
+	<l id='1147'>Je n'en conçois que trop, à vos yeux enflammés...</l>
+	<l id='1148'>Mais je verrai bientôt, cruel, si vous m'aimez.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Pyrrhus, Androclide, Cynéas.</head>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='1149'>Enfin il m'est permis, Seigneur, de vous connaitre,</l>
+	<l id='1150'>Et d'oser embrasser les genoux de mon maître.</l>
+	<l id='1151'>Dieux ! Quel ravissement ! Quelle douceur pour moi</l>
+	<l id='1152'>De trouver un héros dans le fils de mon roi !</l>
+	<l id='1153'>Mais de ce bien si doux que vous troublez la joie</l>
+	<l id='1154'>Par les transports secrets où je vous vois en proie !</l>
+	<l id='1155'>Glaucias, à son tour accablé de douleur,</l>
+	<l id='1156'>Semble plus que jamais ressentir son malheur.</l>
+	<l id='1157'>Seigneur, daignez calmer cette douleur cruelle ;</l>
+	<l id='1158'>Songez qu'un seul instant peut la rendre mortelle :</l>
+	<l id='1159'>Ne l'abandonnez pas en ces tristes moments.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1160'>Je puis avoir pour lui d'autres empressements.</l>
+	<l id='1161'>Androclide, je sais que je vous dois la vie ;</l>
+	<l id='1162'>Que sans vous, en naissant, on me l'aurait ravie :</l>
+	<l id='1163'>Allez, de ce bienfait je saurai m'acquitter.</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='1164'>Le roi m'a commandé de ne vous point quitter.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1165'>Glaucïas est un roi que j'estime et que j'aime ;</l>
+	<l id='1166'>Mais je ne dépends plus ici que de moi-même.</l>
+	<l id='1167'>Pour vous, que le destin a soumis à mes lois,</l>
+	<l id='1168'>Respectez-les du moins une première fois,</l>
+	<l id='1169'>Et cessez d'écouter une crainte frivole.</l>
+	<l id='1170'>Glaucias me connaît : j'ai donné ma parole ;</l>
+	<l id='1171'>J'ai juré d'épargner un tyran odieux,</l>
+	<l id='1172'>Et de ne point troubler l'asile de ces lieux. .</l>
+	<l id='1173'>Que pouvais-je de plus pour le roi d'Illyrie ?</l>
+	<l id='1174'>Allez : si vous m'aimez, prenez soin de sa vie,</l>
+</sp>
+<sp who='ANDROCLIDE'><speaker>ANDROCLIDE.</speaker>
+	<l id='1175' part='i'>Seigneur...</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1175' part='f'>Obéissez. Profitons des instants</l>
+	<l id='1176'>Que j'ai pu dérober à leurs soins vigilants.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Pyrrhus, Cynéas.</head>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1177'>Cynéas, approchez. L'heure fatale presse :</l>
+	<l id='1178'>Puis-je encore espérer de revoir la princesse ?</l>
+	<l id='1179'>Sait-elle qu'Hélénus doit se trouver ici ?</l>
+</sp>
+<sp who='CYNÉAS'><speaker>CYNÉAS.</speaker>
+	<l id='1180'>Oui, Seigneur, et bientôt vous l'y verrez aussi.</l>
+	<l id='1181'>J'ai laissé la princesse avec Néoptolème,</l>
+	<l id='1182'>Qui m'a paru frappé d'une surprise extrême,</l>
+	<l id='1183'>Lorsque je l'ai flatté de l'espoir d'une paix</l>
+	<l id='1184'>Qu'il devait regarder comme un de vos bienfaits.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1185'>Au seul nom de Pyrrhus, j'ai vu sa défiance</l>
+	<l id='1186'>Balancer ses désirs et son impatience.</l>
+	<l id='1187'>« Je douterais, dit-il, qu'on voulût le livrer,</l>
+	<l id='1188'>Si d'autres qu'Hélénus osaient m'en assurer :</l>
+	<l id='1189'>Mais dès que ce héros souscrit à ma demande... »</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1190'>Ami, c'en est assez ; dites-lui qu'il m'attende.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='PYRRHUS'><speaker>PYRRHUS, seul.</speaker>
+	<l id='1191'>Désirs impérieux que je ne puis dompter,</l>
+	<l id='1192'>Et qu'en vain mon devoir s'attache à surmonter ;</l>
+	<l id='1193'>Redoutables moments d'une trop chère vue,</l>
+	<l id='1194'>Que vous allez coûter à mon âme éperdue !</l>
+	<l id='1195'>Pyrrhus, à quels transports oses-tu te livrer ?</l>
+	<l id='1196'>Est-ce l'amour ici qui doit t'en inspirer ?</l>
+	<l id='1197'>Néoptolème vit, et le sang d'AEacide</l>
+	<l id='1198'>S'enflamme pour le sang d'un lâche parricide !</l>
+	<l id='1199'>Mais pour lui mon amour eût en vain combattu,</l>
+	<l id='1200'>Si de plus hauts desseins n'occupaient ma vertu.</l>
+	<l id='1201'>Infortuné Pyrrhus, il est temps qu'elle éclate.</l>
+	<l id='1202'>Non, de quelque valeur que l'univers te flatte,</l>
+	<l id='1203'>Quels que soient tes exploits et tes honneurs passés,</l>
+	<l id='1204'>Illyrus en un jour les a tous effacés ;</l>
+	<l id='1205'>Et telle est aujourd'hui ta triste destinée,</l>
+	<l id='1206'>Qu'il faut que par toi seul elle soit terminée.</l>
+	<l id='1207'>C'est vainement qu'au ciel tu comptes des aïeux,</l>
+	<l id='1208'>Si ta propre vertu ne t'y place avec eux.</l>
+	<l id='1209'>Le sang d'Achille est beau ; mais l'honneur d'en descendra</l>
+	<l id='1210'>Ne vaut pas désormais celui de le répandre.</l>
+	<l id='1211'>Un rival généreux qui s'immolait pour toi</l>
+	<l id='1212'>T'en a tracé l'exemple et prononcé la loi.</l>
+	<l id='1213'>Ah ! Que tant de grandeur me touche et m'humilie !</l>
+	<l id='1214'>Père et fils vertueux, que je vous porte envie !</l>
+	<l id='1215'>Comment vous surpasser ? Dieux, voilà des mortels</l>
+	<l id='1216'>Dignes de partager avec vous les autels ;</l>
+	<l id='1217'>Non ces barbares nés pour l'effroi de la terre,</l>
+	<l id='1218'>Ces idoles de sang, fiers rivaux du tonnerre,</l>
+	<l id='1219'>Qui font de leur valeur un horrible métier,</l>
+	<l id='1220'>Et dont je n'ai que trop suivi l'affreux sentier.</l>
+	<l id='1221'>Cherchons au-dessus d'eux une gloire nouvelle,</l>
+	<l id='1222'>Plus digne des transports que j'eus toujours pour elle.</l>
+	<l id='1223'>Heureux si mon devoir pouvait les redoubler</l>
+	<l id='1224'>À l'aspect d'un objet qui peut seul les troubler !</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Pyrrhus, Éricie.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1225'>Je sors en ce moment d'avec le roi d'Épire :</l>
+	<l id='1226'>En croirai-je, Seigneur, ce qu'il vient de me dire ?</l>
+	<l id='1227'>Est-ce bien Hélénus qui nous donne une paix</l>
+	<l id='1228'>Qu'on croit même devoir à mes faibles attraits ?</l>
+	<l id='1229'>Mais, loin de rappeler le souvenir funeste</l>
+	<l id='1230'>D'un sacrifice affreux que ma vertu déteste,</l>
+	<l id='1231'>Je ne veux m'occuper que du soin généreux</l>
+	<l id='1232'>De pleurer avec vous un prince malheureux.</l>
+	<l id='1233'>Que n'ai-je point tenté près de Néoptolème !</l>
+	<l id='1234'>J'ai regarde Pyrrhus comme un autre vous-même ;</l>
+	<l id='1235'>Non, l'horreur de son sort n'égalera jamais </l>
+	<l id='1236'>Mes regrets de l'avoir défendu sans succès.</l>
+	<l id='1237'>Je sais trop à quel point Pyrrhus vous intéresse, </l>
+	<l id='1238'>Pour ne point partager la douleur qui vous presse :</l>
+	<l id='1239'>Jugez combien mon coeur s'est senti pénétrer </l>
+	<l id='1240'>De vous voir désormais réduit à le livrer.</l>
+	<l id='1241'>Et plût aux dieux, Seigneur, pour comble d'injustice, </l>
+	<l id='1242'>Qu'on ne m'imputât point ce cruel sacrifice, </l>
+	<l id='1243'>Et qu'au bien de la paix l'amour trop indulgent </l>
+	<l id='1244'>N'eût point pris sur lui-même un si triste présent !</l>
+	<l id='1245'>Hélénus eût moins fait pour désarmer ma haine, </l>
+	<l id='1246'>S'il savait qu'un remords en triomphe sans peine. </l>
+	<l id='1247'>Mais quoi ! Vous rougissez et ne répondez rien !</l>
+	<l id='1248'>Pourquoi me demander un secret entretien ?</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1249'>Je rougis, il est vrai, d'un discours qui m'offense, </l>
+	<l id='1250'>Et jamais mon courroux n'eut plus de violence.</l>
+	<l id='1251'>Puis-je voir sans frémir qu'avec un si beau feu</l>
+	<l id='1252'>Ce coeur où j'aspirais m'ait estimé si peu ?</l>
+	<l id='1253'>Puis-je voir, sans rougir de honte et de colère, </l>
+	<l id='1254'>Qu'Éricie ait de moi pensé comme son père, </l>
+	<l id='1255'>Et qu'elle ose imputer aux transports d'Hélénus</l>
+	<l id='1256'>Le funeste présent qu'il vous fait de Pyrrhus ?</l>
+	<l id='1257'>Je ne sais si l'amour peut nous rendre excusables ; </l>
+	<l id='1258'>Mais il ne doit jamais nous rendre méprisables. </l>
+	<l id='1259'>Le crime est toujours crime, et jamais la beauté</l>
+	<l id='1260'>N'a pu servir de voile à sa difformité.</l>
+	<l id='1261'>Peut-être que mon coeur, dans l'ardeur qui l'enflamme,</l>
+	<l id='1262'>Tout vertueux qu'il est, n'est point exempt de blâme ;</l>
+	<l id='1263'>Mais ce qu'à mon devoir je vais sacrifier</l>
+	<l id='1264'>Aux yeux de l'univers va me justifier,</l>
+	<l id='1265'>Éterniser mon nom, expier ma tendresse,</l>
+	<l id='1266'>Et venger ma vertu d'un soupçon qui la blesse.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1267'>Seigneur, daignez calmer un si noble courroux ;</l>
+	<l id='1268'>Je sais ce que je dois attendre ici de vous.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1269'>Dans un moment du moins vous pourrez le connaître,</l>
+	<l id='1270'>Et, loin de me haïr, vous me plaindrez peut-être.</l>
+	<l id='1271'>Connaissez mieux, madame, un coeur où vous régnez,</l>
+	<l id='1272'>Et ne l'outragez point si vous le dédaignez.</l>
+	<l id='1273'>Belle Éricie, enfin croyez que je vous aime ;</l>
+	<l id='1274'>Mais ne le croyez point comme Néoptolème.</l>
+	<l id='1275'>Mon amour n'a jamais soumis à vos beaux yeux</l>
+	<l id='1276'>Qu'un coeur digne de vous, et peut-être des dieux,</l>
+	<l id='1277'>Qui ne sait point offrir pour sacrifice un crime</l>
+	<l id='1278'>Qui déshonorerait l'autel et la victime.</l>
+	<l id='1279'>Je vais à son destin livrer un malheureux,</l>
+	<l id='1280'>Mais ce ne sera point par un traité honteux :</l>
+	<l id='1281'>Ma vertu n'admet point de si lâche injustice,</l>
+	<l id='1282'>Et mon coeur vous devait un autre sacrifice.</l>
+	<l id='1283'>Trop heureux si ce coeur, facile à s'enflammer,</l>
+	<l id='1284'>Au gré de mon devoir l'avait pu consommer !</l>
+	<l id='1285'>Mais, dans l'état cruel où mon malheur me laisse,</l>
+	<l id='1286'>On peut me pardonner un instant de faiblesse ;</l>
+	<l id='1287'>Et vous m'avez offert des soins si généreux,</l>
+	<l id='1288'>Qu'ils m'ont fait oublier qui nous étions tous deux.</l>
+	<l id='1289'>Votre père m'attend. Adieu, belle Éricie.</l>
+	<l id='1290'>J'ai voulu vous revoir ; mais mon âme attendrie</l>
+	<l id='1291'>Ne pourrait soutenir vos pleurs prêts à couler,</l>
+	<l id='1292'>Et qu'un fatal instant va bientôt redoubler.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1293'>Ah ! Seigneur, arrêtez ; et, si je vous suis chère,</l>
+	<l id='1294'>Daignez de vos adieux m'expliquer le mystère.</l>
+	<l id='1295'>Je sens un froid mortel qui me glace le coeur,</l>
+	<l id='1296'>Et la mort n'a jamais causé plus de frayeur.</l>
+	<l id='1297'>Hélas ! Au trouble affreux dont mon âme est saisie,</l>
+	<l id='1298'>Puis-je encor souhaiter de me voir éclaircie ?</l>
+	<l id='1299'>Vous allez, dites-vous, livrer un malheureux,</l>
+	<l id='1300'>Sans cesser d'être grand ni d'être généreux.</l>
+	<l id='1301'>Ah ! Je vous reconnais à cet effort suprême.</l>
+	<l id='1302'>Justes dieux ! C'est Pyrrhus qui se livre lui-même.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1303'>Oui, Madame, c'est lui ; c'est ainsi qu'Hélénus</l>
+	<l id='1304'>Pouvait du moins livrer l'infortuné Pyrrhus,</l>
+	<l id='1305'>Qui sous ce triste nom ne craint plus de paraître,</l>
+	<l id='1306'>Dès qu'à de nobles traits on veut le reconnaître.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1307'>Dites plutôt, Seigneur, qu'à ce coeur sans pitié,</l>
+	<l id='1308'>Dont je n'ai jamais pu fléchir l'inimitié,</l>
+	<l id='1309'>J'aurais dû reconnaître une race ennemie</l>
+	<l id='1310'>Qui ne s'immole ici que pour m'ôter la vie.</l>
+	<l id='1311'>Inhumain ! Consommez vos généreux projets :</l>
+	<l id='1312'>De votre haine, enfin, voilà les derniers traits.</l>
+	<l id='1313'>Quel ennemi, grands dieux , offrez-vous à la mienne ?</l>
+	<l id='1314'>Quel dessein venez-vous d'inspirer à la sienne ?</l>
+	<l id='1315'>Ah ! Si c'est à ce prix que vous donnez la paix,</l>
+	<l id='1316'>Barbare, faites-nous la guerre pour jamais.</l>
+	<l id='1317'>Vous ne démentez point le sang qui vous fit naître;</l>
+	<l id='1318'>Ingrat, vous ne pouviez mieux vous faire connaître</l>
+	<l id='1319'>Que par un noir projet qui n'est fait que pour vous ;</l>
+	<l id='1320'>Je reconnais Pyrrhus à ces funestes coups.</l>
+	<l id='1321'>Quand par des soins trompeurs il a séduit mon âme,</l>
+	<l id='1322'>Des plus cruels refus je vois payer ma flamme ;</l>
+	<l id='1323'>Et quand je crois jouir d'un destin plus heureux,</l>
+	<l id='1324'>Je retrouve Pyrrhus dans l'objet de mes voeux.</l>
+	<l id='1325'>Qui vous a dévoilé, Seigneur, votre naissance?</l>
+	<l id='1326'>Glaucias n'a-t-il plus ni vertu, ni prudence ?</l>
+	<l id='1327'>Devait-il un moment douter de vos desseins,</l>
+	<l id='1328'>Et méconnaître en vous le plus grand des humains ?</l>
+	<l id='1329'>Il faut, pour mon malheur, que le roi d'Illyrie</l>
+	<l id='1330'>Vous ait moins estimé que ne fait Éricie.</l>
+	<l id='1331'>Cruel, songez du moins, en courant à la mort,</l>
+	<l id='1332'>Qu'un amour malheureux me garde un même sort.</l>
+	<l id='1333'>Ne croyez point en moi trouver Néoptolème :</l>
+	<l id='1334'>Vous ne voyez que trop à quel point je vous aime.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1335'>Ah ! Voilà les transports que j'aurais dû prévoir,</l>
+	<l id='1336'>Si l'amour m'eût laissé maître de mon devoir.</l>
+	<l id='1337'>J'ai voulu consacrer à l'objet que j'adore</l>
+	<l id='1338'>Quelques tristes moments qui me restaient encore :</l>
+	<l id='1339'>Je bravais le trépas ; mais je sens, à vos pleurs,</l>
+	<l id='1340'>Qu'il a pour les amants son trouble et ses horreurs.</l>
+	<l id='1341'>Ne m'offrez-vous les soins d'une ardeur mutuelle,</l>
+	<l id='1342'>Que pour me rendre encor ma perte plus cruelle ?</l>
+	<l id='1343'>Quel bien à notre amour peut s'offrir désormais ?</l>
+	<l id='1344'>Un parricide affreux nous sépare à jamais.</l>
+	<l id='1345'>Songez, si je ne meurs, qu'il faut que je punisse ;</l>
+	<l id='1346'>Qu'un coupable avec moi n'est pas loin du supplice :</l>
+	<l id='1347'>Songez enfin, Madame, à ce que je me dois,</l>
+	<l id='1348'>À ce que mon honneur m'impose envers un roi</l>
+	<l id='1349'>À qui je dois un fils son unique espérance,</l>
+	<l id='1350'>Et le plus digne effort de ma reconnaissance.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1351'>Glaucias vous doit-il être plus cher que moi,</l>
+	<l id='1352'>Seigneur ? Ne pouvez-vous récompenser sa foi</l>
+	<l id='1353'>Qu'aux dépens de vos jours et de ma propre vie,</l>
+	<l id='1354'>Que vous sacrifiez au prince d'Illyrie ?</l>
+	<l id='1355'>Ah ! Laissez-moi le soin de vous le conserver,</l>
+	<l id='1356'>Et, par pitié pour moi, songez à vous sauver.</l>
+	<l id='1357'>C'est Éricie en pleurs qui vous demande grâce :</l>
+	<l id='1358'>Verrez-vous sans pitié le sort qui la menace ?</l>
+	<l id='1359'>Est-ce par vous, cruel, qu'elle doit expirer ?</l>
+	<l id='1360'>Ah ! Du moins attendez qu'on ose vous livrer.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1361'>Non, non, au sang d'Achille épargnez cet outrage :</l>
+	<l id='1362'>Je dois d'un si beau sang faire un plus noble usage.</l>
+	<l id='1363'>La mort, pour mes pareils, n'est qu'un léger instant</l>
+	<l id='1364'>Dont la crainte aux humains a fait seule un tourment.</l>
+	<l id='1365'>Je Vous perds pour jamais, adorable Éricie ;</l>
+	<l id='1366'>C'est là pour un amant perdre plus que la vie ;</l>
+	<l id='1367'>Mais ne présumez pas qu'en lâche criminel</l>
+	<l id='1368'>Je souffre que Pyrrhus soit conduit à l'autel.</l>
+	<l id='1369'>D'ailleurs, pour Glaucias j'eus toujours trop d'estime</l>
+	<l id='1370'>Pour lui laisser jamais la honte d'un tel crime.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1371'>C'est-à-dire, Seigneur, qu'il vous paraît plus doux</l>
+	<l id='1372'>D'en rejeter ainsi l'indignité sur nous ;</l>
+	<l id='1373'>Et que vous auriez mieux déshonorer mon père,</l>
+	<l id='1374'>Pour m'en laisser à moi la douleur tout entière,</l>
+	<l id='1375'>Et me faire haïr qui m'a donné le jour.</l>
+	<l id='1376'>Voilà ce que Pyrrhus gardait à tant d'amour !</l>
+	<l id='1377'>Hé bien ! Cruel, allez trouver Néoptolème;</l>
+	<l id='1378'>Puisque vous le voulez, je vous rends à vous-même :</l>
+	<l id='1379'>Mais, dans tous vos transports de générosité,</l>
+	<l id='1380'>Je vois moins de vertu que de férocité.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1381'>Ne me reprochez point une vertu farouche ;</l>
+	<l id='1382'>L'honneur ainsi le veut, et l'honneur seul me touche.</l>
+	<l id='1383'>S'il se pouvait trouver d’accord avec mes jours,</l>
+	<l id='1384'>Vous ne m'en verriez point précipiter le cours.</l>
+	<l id='1385'>Comme mortel, je sens tout le prix de la vie ;</l>
+	<l id='1386'>Comme amant, tout le prix d'être aimé d'Éricie :</l>
+	<l id='1387'>Mais Pyrrhus, en héros épris de vos appas,</l>
+	<l id='1388'>Se met, en immortel, au-dessus du trépas.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1389'>Vous prétendez en vain qu'au gré de votre envie</l>
+	<l id='1390'>Je vous laisse, Seigneur, maître de votre vie.</l>
+	<l id='1391'>Si vous ne rejetez vos projets inhumains,</l>
+	<l id='1392'>Je cours à Glaucias découvrir vos desseins.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1393'>Si vous m'aimez encor, gardez de l'entreprendre.</l>
+	<l id='1394'>Belle Éricie, au nom de l'amour le plus tendre,</l>
+	<l id='1395'>N'abusez point ici des secrets d'un amant</l>
+	<l id='1396'>Qui pourrait de dessein changer m un moment.</l>
+	<l id='1397'>Considérez sur qui tomberait ma colère :</l>
+	<l id='1398'>Vous pleurez un amant, vous pleureriez un père. </l>
+	<l id='1399'>En faveur de Pyrrhus tâchez de le fléchir,</l>
+	<l id='1400'>J'y consens ; mais daignez ne le point découvrir, </l>
+	<l id='1401'>Et ne lui faites point mériter votre haine.</l>
+	<l id='1402'>Qu'espérez-vous enfin d'une pitié si vaine?</l>
+	<l id='1403'>Songez que, dans l'état où m'a réduit le sort, </l>
+	<l id='1404'>Il ne me reste plus que l'honneur de ma mort.</l>
+	<l id='1405'>Ne me l'enviez point, et respectez ma gloire ; </l>
+	<l id='1406'>Vivez pour en garder une tendre mémoire, </l>
+	<l id='1407'>Et cessez de vouloir partager mes malheurs ; </l>
+	<l id='1408'>Laissez mourir Pyrrhus digne enfin de vos pleurs.</l>
+	<l id='1409'>Adieu, madame ; allez trouver Néoplolème :</l>
+	<l id='1410'>J'irai dans un moment le rejoindre moi-même.</l>
+	<l id='1411'>M'exposer plus longtemps a tout ce que je vois,</l>
+	<l id='1412'>C'est moins braver la mort que mourir mille fois.</l>
+<stage>Il sort.</stage>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE, seule.</speaker>
+	<l id='1413'>Quoi ! Seigneur, vous iriez vous livrer à mon père !</l>
+	<l id='1414'>Ah ! puisqu'on vos fureurs votre coeur persévère, </l>
+	<l id='1415'>L'inflexible Pyrrhus, qui déchire le mien,</l>
+	<l id='1416'>Va le voir surpasser la fermeté du sien.</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Glaucias, Éricie.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE, à part.</speaker>
+	<l id='1417'>Mais Glaucias paraît. Quel soin ici l'appelle ?</l>
+	<l id='1418'>Éclatez, vains transports de ma douleur mortelle.</l>
+	<l id='1419'>Et laissez dans mes pleurs lire un triste secret.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1420'>Princesse, un ennemi qui ne l'est qu'à regret,</l>
+	<l id='1421'>Et qui touche peut-être à son heure dernière,</l>
+	<l id='1422'>Osera-t-il ici vous faire une prière ?</l>
+	<l id='1423'>S'il fut longtemps l'objet de votre inimitié,</l>
+	<l id='1424'>Il ne doit plus, hélas ! L'être que de pitié.</l>
+	<l id='1425'>Les dieux viennent sur moi d'épuiser leur colère.</l>
+	<l id='1426'>Je n'ai rien oublié pour fléchir votre père ;</l>
+	<l id='1427'>Mais le cruel qu'il est me redemande un bien</l>
+	<l id='1428'>Que ma pitié protège, et qui n'est pas le mien.</l>
+	<l id='1429'>Il veut Pyrrhus ; il veut que je lui sacrifie</l>
+	<l id='1430'>Le malheureux dépôt que le ciel me confie ;</l>
+	<l id='1431'>Il veut, à mon honneur portant le coup mortel,</l>
+	<l id='1432'>Couvrir mes cheveux blancs d'un affront éternel,</l>
+	<l id='1433'>Et plonger dans l'horreur le reste de ma vie.</l>
+	<l id='1434'>Plaignez mon triste sort, généreuse Éricie :</l>
+	<l id='1435'>Vous êtes désormais mon unique recours ;</l>
+	<l id='1436'>À des infortunés prêtez votre secours.</l>
+	<l id='1437'>Je sais, dans les faveurs dont le ciel vous partage,</l>
+	<l id='1438'>Que la beauté n'est pas votre seul avantage,</l>
+	<l id='1439'>Et que les dieux, sur vous épuisant leurs bienfaits,</l>
+	<l id='1440'>Ont de mille vertus enrichi vos attraits.</l>
+	<l id='1441'>Mon coeur, près de vous voir unie a ma famille,</l>
+	<l id='1442'>Vous prodiguait déjà le tendre nom de fille :</l>
+	<l id='1443'>Mais, puisque le destin me ravit la douceur</l>
+	<l id='1444'>D'un bien qui m'eût comblé de joie et de bonheur,</l>
+	<l id='1445'>Je veux traiter pour vous un plus noble hyménée,</l>
+	<l id='1446'>De vous et de Pyrrhus unir la destinée.</l>
+	<l id='1447'>Je sais que je ne puis former ces tristes noeuds</l>
+	<l id='1448'>Sans outrager les lois, la nature et les dieux ;</l>
+	<l id='1449'>Mais la paix ne veut pas un moindre sacrifice.</l>
+	<l id='1450'>Rendez à cet hymen votre père propice.</l>
+	<l id='1451'>S'il soupçonne ma foi, qu'il emmène Illyrus,</l>
+	<l id='1452'>Et confie à mes soins Éricie et Pyrrhus :</l>
+	<l id='1453'>Vous vous serez tous trois un mutuel otage.</l>
+	<l id='1454'>Néoptolème aura l'Épire pour partage :</l>
+	<l id='1455'>Et je l'en laisserai paisible possesseur,</l>
+	<l id='1456'>Pourvu que votre époux en soit le successeur.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1457'>Ah ! Seigneur, plût aux dieux, et pour l'un et pour l'autre,</l>
+	<l id='1458'>Que tous les coeurs ici fussent tels que le vôtre.</l>
+	<l id='1459'>Et sussent, comme vous, régler sur l'équité</l>
+	<l id='1460'>La vengeance des rois et leur avidité !</l>
+	<l id='1461'>Qui ne serait touché de l'état déplorable</l>
+	<l id='1462'>Où vous réduit le soin du sort d'un misérable ?</l>
+	<l id='1463'>Les dieux, tout grands qu'ils sont, en ont-ils autant fait </l>
+	<l id='1464'>Qu'un père tel que vous est digne de regret !</l>
+	<l id='1465'>Jugez, à ma douleur, si le coeur d'Éricie</l>
+	<l id='1466'>A pu garder pour vous une haine endurcie.</l>
+	<l id='1467'>Seigneur, tant de vertu trouve peu d'ennemis.</l>
+	<l id='1468'>Hélas ! Pour conserver Pyrrhus et votre fils,</l>
+	<l id='1469'>Vous n'aviez pas besoin d'employer la prière.</l>
+	<l id='1470'>Que n'ai-je point déjà tenté près de mon père?</l>
+	<l id='1471'>Rien ne peut désarmer sa haine et sa rigueur.</l>
+	<l id='1472'>Je ne vous dirai point quelle en est ma douleur ;</l>
+	<l id='1473'>Mais Pyrrhus aujourd'hui m'a coûté plus de larmes</l>
+	<l id='1474'>Que le soin de ses jours ne vous causa d'alarmes.</l>
+	<l id='1475'>Plût au ciel que celui de nous unir tous deux</l>
+	<l id='1476'>Put rendre à vos souhaits ce prince malheureux,</l>
+	<l id='1477'>Et que de notre hymen les funestes auspices</l>
+	<l id='1478'>Ne fussent point suivis des plus noirs sacrifices !</l>
+	<l id='1479'>Adieu. Puisse le ciel, attendri par mes pleurs,</l>
+	<l id='1480'>Les faire avec succès parler dans tous les coeurs !</l>
+	<l id='1481'>Vous ne connaissez pas le plus inexorable :</l>
+	<l id='1482'>Mais si je n'obtiens point un aveu favorable,</l>
+	<l id='1483'>Seigneur, au même instant fuyez avec Pyrrhus,</l>
+	<l id='1484'>Et me laissez le soin du destin d'Illyrus.</l>
+	<l id='1485'>Emparez-vous surtout d'un guerrier invincible</l>
+	<l id='1486'>Dont rien ne peut dompter le courage inflexible...</l>
+	<l id='1487'>Que dis-je ? Où mon amour se va-t-il égarer ?</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1488'>Ô ciel ! À quels malheurs faut-il me préparer ?</l>
+	<l id='1489'>Dans l’état où m'a mis la fortune cruelle,</l>
+	<l id='1490'>En ai-je à redouter quelque atteinte nouvelle ?</l>
+	<l id='1491'>Ah ! Madame, daignez ne me le point cacher,</l>
+	<l id='1492'>Si d'un infortuné le sort peut vous toucher.</l>
+	<l id='1493'>Vous avez vu mon fils ; je sais qu'il vous adore,</l>
+	<l id='1494'>Et j'ai cru près de vous le retrouver encore.</l>
+	<l id='1495'>Je venais m'emparer d'un ingrat qui me fuit,</l>
+	<l id='1496'>Et que partout en vain ma tendresse poursuit.</l>
+	<l id='1497'>Ma vie à ce cruel devait être assez chère</l>
+	<l id='1498'>Pour ne point l'arracher à son malheureux père ;</l>
+	<l id='1499'>Mais je vois qu'Hélénus ne s'éloigne de moi</l>
+	<l id='1500'>Que pour mieux me manquer de parole et de foi.</l>
+	<l id='1501'>Il a par ses serments surpris ma vigilance,</l>
+	<l id='1502'>Dissipé mes soupçons, et trompé la prudence</l>
+	<l id='1503'>D'un père en sa faveur toujours trop prévenu.</l>
+	<l id='1504'>Apprenez-moi du moins ce qu'il est devenu.</l>
+	<l id='1505'>Veut-il nous perdre tous, ou se perdre lui-même?</l>
+	<l id='1506'>Grands dieux ! Faudra-t-il voir périr tout ce que j'aime ?</l>
+	<l id='1507'>Madame, ayez pitié de l'état où je suis.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1508'>Ah ! Que demandez-vous ? Et qu'est-ce que je puis ?</l>
+	<l id='1509'>N'ajoutez rien vous-même au trouble qui m'agite.</l>
+	<l id='1510'>Les moments nous sont chers, souffrez que je vous quitte</l>
+	<l id='1511'>Seigneur, il n'est pas temps d'interroger mes pleurs,</l>
+	<l id='1512'>Lorsqu'il faut prévenir le plus grand des malheurs.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Éricie, Ismène.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1513'>Si je n'ai pu toucher un amant qui m'adore ,</l>
+	<l id='1514'>Que pourrai-je obtenir d'un père qui l'abhorre ?</l>
+	<l id='1515'>Malheureuse ! Les dieux ont-ils doué tes pleurs</l>
+	<l id='1516'>De ces charmes puissants qui fléchissent les coeurs?</l>
+	<l id='1517'>Et tu crois attendrir un prince inexorable</l>
+	<l id='1518'>Que la soif de régner va rendre impitoyable ;</l>
+	<l id='1519'>Qui, maître du plus fier de tous ses ennemis,</l>
+	<l id='1520'>Pour ne le craindre plus se croira tout permis !</l>
+	<l id='1521'>Funeste ambition, détestable manie,</l>
+	<l id='1522'>Mère de l'injustice et de la tyrannie,</l>
+	<l id='1523'>Qui de sang la première as rempli l'univers,</l>
+	<l id='1524'>Et jeté les humains dans l'opprobre et les fers.</l>
+	<l id='1525'>C'est toi dont les fureurs toujours illégitimes</l>
+	<l id='1526'>Firent naître à la fois les sceptres et les crimes :</l>
+	<l id='1527'>Sans toi, rien n'eût borné ma gloire et mon bonheur.</l>
+	<l id='1528'>Quel sort plus beau pouvait jamais flatter un coeur ?</l>
+	<l id='1529'>Et mes yeux effrayés verront fumer la terre</l>
+	<l id='1530'>D'un sang qui doit sa source au maître du tonnerre !</l>
+	<l id='1531'>Grand dieu, ne souffre point qu'un père furieux</l>
+	<l id='1532'>S'immole sans pitié le plus pur sang des dieux :</l>
+	<l id='1533'>Daigne, loin d'employer la foudre à sa vengeance,</l>
+	<l id='1534'>Tonner au fond des coeurs, et prévenir l'offense.</l>
+</sp>
+<sp who='ISMÈNE'><speaker>ISMÈNE.</speaker>
+	<l id='1535'>Madame, il faut cacher ce mortel désespoir.</l>
+	<l id='1536'>Glaucias, disiez-vous, demandait à vous voir ?</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1537'>Je ne l'ai que trop vu ce prince déplorable,</l>
+	<l id='1538'>Des rois les plus vantés modèle inimitable,</l>
+	<l id='1539'>Qui n'a que l'honneur seul pour guide et pour objet,</l>
+	<l id='1540'>Père moins malheureux encor qu'ami parfait.</l>
+	<l id='1541'>Que de sou sort cruel mon âme est attendrie !</l>
+	<l id='1542'>Qu'il redouble les maux de la triste Ericie !</l>
+	<l id='1543'>Et ce roi généreux, si digne de pitié,</l>
+	<l id='1544'>De ses malheurs encore ignore la moitié.</l>
+	<l id='1545'>Hélas ! que je le plains ! Que de vertus, Ismèue !</l>
+	<l id='1546'>Est-ce donc là, grands dieux, l'objet de votre haine ?</l>
+	<l id='1547'>Que mon père u'a-t-il un coeur tel que le sien !</l>
+	<l id='1548'>Qu'il aurait épargné de désespoir au mien !</l>
+	<l id='1549'>Ismène, il ne vient point ; et mon impatience</l>
+	<l id='1550'>Commence à soupçonner une si longue absence.</l>
+	<l id='1551'>Quel autre qu'Ilélénus pourrait le retenir ?</l>
+	<l id='1552'>Sans doute le cruel m'a voulu prévenir ;</l>
+	<l id='1553'>Et, si j'en crois mes pleurs, sa triste destinée</l>
+	<l id='1554'>Dans les flots de son sang est déjà terminée.</l>
+	<l id='1555'>Je ne sais quelle horreur me saisit malgré moi î</l>
+	<l id='1556'>Je sens à chaque instant redoubler mon effroi.</l>
+	<l id='1557'>Je demande mon père, et mon âme éperdue</l>
+	<l id='1558'>N'a peut-être jamais tant redouté sa vue.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Néoptalème, Éricie, Ismène.</head>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1559'>Enfin je l'aperçois. Soutenez-moi, grands dieux.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1560'>Hélénus que j'attends va paraître en ces lieux,</l>
+	<l id='1561'>Ma fille. C'en est fait, ce guerrier redoutable,</l>
+	<l id='1562'>Loin d'offrir à Pyrrhus une main secourable,</l>
+	<l id='1563'>Lui-même doit bientôt le livrer à mes coups,</l>
+	<l id='1564'>Et ce spectacle affreux n'a pas besoin de vous.</l>
+	<l id='1565'>Sortez. Quoi ! Vous pleurez ! Qui fait couler vos larmes ?</l>
+	<l id='1566'>D'où peut naître à la fois tant de trouble et d'alarmes ?</l>
+	<l id='1567'>Parlez, c'est trop se taire : après ce que je vois,</l>
+	<l id='1568'>Avez-vous des secrets qui ne soient pas pour moi ?</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE, se jetant aux genoux de Néoptolème.</speaker>
+	<l id='1569'>Non, Seigneur ; mais ce n'est qu'aux genoux de mon père</l>
+	<l id='1570'>Que je puis éclaircir ce funeste mystère.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME, la relevant.</speaker>
+	<l id='1571'>Ma fille, en cet état que me demandez-vous ?</l>
+	<l id='1572'>Et qui peut vous forcer d'embrasser mes genoux ?</l>
+	<l id='1573'>Que craignez-vous enfin d'un père qui vous aime ?</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1574'>Ah ! Seigneur, pardonnez à ma douleur extrême.</l>
+	<l id='1575'>Je sais que vous m'aimez, et ce n'est pas pour moi</l>
+	<l id='1576'>Que je viens implorer les bontés de mon roi.</l>
+	<l id='1577'>Ne vous offensez point si les pleurs d'Éricie</l>
+	<l id='1578'>Osent d'un malheureux vous demander la la vie.</l>
+	<l id='1579'>L'infortuné Pyrrhus va vous être remis....</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1580'>Quoi ! C'est du plus cruel de tous mes ennemis</l>
+	<l id='1581'>Que vous osez, ma fille, embrasser la défense !</l>
+	<l id='1582'>Et ne craignez-vous point vous-même ma vengeance ?</l>
+	<l id='1583'>D'où naissent pour Pyrrhus des sentiments si vains ?</l>
+	<l id='1584'>Est-ce à vous que je dois compte de mes desseins,</l>
+	<l id='1585'>Vous que je dois sur eux ou consulter ou croire?</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1586'>Non, mais vous me devez compte de votre gloire :</l>
+	<l id='1587'>Elle est à moi, Seigneur, autant qu'elle est à vous ;</l>
+	<l id='1588'>Et ce qui la flétrit se partage entre nous.</l>
+	<l id='1589'>Si rien ne peut fléchir votre haine endurcie,</l>
+	<l id='1590'>Songez de quels malheurs elle sera suivie.</l>
+	<l id='1591'>Vous verrez contre vous armer tout l'univers,</l>
+	<l id='1592'>Et Pyrrhus chaque jour renaître des enfers.</l>
+	<l id='1593'>Quoi ! Pour faire oublier le meurtre d’AEacide,</l>
+	<l id='1594'>Vous méditez encore un double parricide !</l>
+	<l id='1595'>Faudra-t-il vous compter au rang des assassins,</l>
+	<l id='1596'>Et vous voir devenir l'opprobre des humains,</l>
+	<l id='1597'>Lorsque vous en pouviez devenir le modèle,</l>
+	<l id='1598'>Si votre ambition eût été moins cruelle ?</l>
+	<l id='1599'>Le ciel vous a comblé de ses dons précieux,</l>
+	<l id='1600'>Et vos vertus pouvaient vous égaler aux dieux,</l>
+	<l id='1601'>La noblesse du sang, la valeur, la prudence :</l>
+	<l id='1602'>En faudra-t-il, Seigneur, excepter la clémence ?</l>
+	<l id='1603'>Malgré mille revers, vous avez vu cent fois</l>
+	<l id='1604'>L'univers vous placer parmi ses plus grands rois ;</l>
+	<l id='1605'>Et de tant de vertus le parfait assemblage</l>
+	<l id='1606'>Deviendrait d'un tyran l'inutile partage !</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1607' part='i'>Ma fille, quels discours !</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1607' part='f'>Je m’égare, Seigneur ;</l>
+	<l id='1608'>Mais daignez pardonner ces transports à mon coeur ;</l>
+	<l id='1609'>Mon respect a toujours égalé ma tendresse :</l>
+	<l id='1610'>Loin de me reprocher un discours qui vous blesse,</l>
+	<l id='1611'>À mes larmes, Seigneur, laissez-vous attendrir,</l>
+	<l id='1612'>Ou du moins écoutez ce qu'on vient vous offrir.</l>
+	<l id='1613'>Glaucias est tout prêt à vous céder l'Épire :</l>
+	<l id='1614'>Pour vous en assurer le légitime empire,</l>
+	<l id='1615'>Ce prince pour Pyrrhus vous demande ma main.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1616'>Pour Pyrrhus ! Glaucias croit m'éblouir en vain.</l>
+	<l id='1617'>Je connais mieux que lui le sang des AEacides :</l>
+	<l id='1618'>Rien ne peut arrêter leurs vengeances perfides.</l>
+	<l id='1619'>Loin que cette union dût assurer mon sort,</l>
+	<l id='1620'>Votre hymen ne serait que l'arrêt de ma mort.</l>
+	<l id='1621'>C'est mettre sous Pyrrhus ma couronne en tutelle,</l>
+	<l id='1622'>Et nourrir entre nous une guerre éternelle.</l>
+	<l id='1623'>Ce n'est point ma fureur qui demande son sang :</l>
+	<l id='1624'>Je règne, et je dois tout a ce superbe rang.</l>
+	<l id='1625'>Si de Pyrrhus enfin je m'immole la vie,</l>
+	<l id='1626'>C'est au bien de la paix que je le sacrifie.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1627'>Si jamais vous osiez lui donner le trépas,</l>
+	<l id='1628'>Quelle guerre, Seigneur, n'allumeriez-vous pas ?</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1629'>Hélénus est le seul dont je crains le courage,</l>
+	<l id='1630'>Et son amour pour vous dissipera l'orage ;</l>
+	<l id='1631'>Mais son courroux bientôt retomberait sur moi,</l>
+	<l id='1632'>Si j'osais à Pyrrhus engager votre foi.</l>
+	<l id='1633'>Vous voyez qu'Hélénus me le livre lui-même ;</l>
+	<l id='1634'>Jugez par ce présent à quel point il vous aime.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1635'>Ah ! Ne vous fiez point au présent qu'il vous fait :</l>
+	<l id='1636'>C'est peut-être, Seigneur, quelque piège secret.</l>
+	<l id='1637'>Ce palais vous met-il à couvert de surprise ?</l>
+	<l id='1638'>Je ne sais ; mais sur vous je crains quelque entreprisz.</l>
+	<l id='1639'>Ne vous exposez point à revoir Hélénus ;</l>
+	<l id='1640'>Et, si vous m'en croyez, emmenez Illyrus.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1641'>Qu'aurais-je a redouter d'une âme généreuse ?</l>
+	<l id='1642'>Votre crainte, ma fille, est trop ingénieuse.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1643'>Votre haine, Seigneur, l'est plus que mon effroi,</l>
+	<l id='1644'>Et vous ferme les yeux sur tout ce que je vois.</l>
+	<l id='1645'>L'ardeur de vous venger vous rend tout légitime,</l>
+	<l id='1646'>Et la soif de régner vous déguise le crime :</l>
+	<l id='1647'>Mais, si mes pleurs en vain combattent vos fureurs,</l>
+	<l id='1648'>Vous allez voir ma mort prévenir tant d'horreurs.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1649'>Ah ! C'en est trop, ma fille, et ce discours m'outrage :</l>
+	<l id='1650'>Pyrrhus n'aurait osé m'en dire davantage.</l>
+	<l id='1651' part='i'>Mais Hélénus paraît</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1651' part='m'>Justes dieux !</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1651' part='f'>Laissez-nous.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1652'>Ah ! Seigneur, par pitié, souffrez-moi près de vous :</l>
+	<l id='1653' part='i'>Je ne vous quitte point.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1653' part='m'>Quels transports !</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1653' part='f'>Ah ! Mon père,</l>
+	<l id='1654'>Si jamais votre fille a pu vous être chère,</l>
+	<l id='1655'>Daignez à ma douleur accorder un moment.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1656'>Fuyez, dérobez-vous a mon ressentiment :</l>
+	<l id='1657'>Je me lasse à la fin d'une douleur si vaine.</l>
+</sp>
+<sp who='ÉRICIE'><speaker>ÉRICIE.</speaker>
+	<l id='1658'>De ces funestes lieux ôte-moi, chère Ismène ;</l>
+	<l id='1659'>Si d'un infortuné je veux sauver les jours,</l>
+	<l id='1660'>C'est à d'autres que lui qu'il faut avoir recours.</l>
+<stage>Elle sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Pyrrhus, Néoptolème, Gardes.</head>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME, à part.</speaker>
+	<l id='1661'>Que de trouble s'élève en mon âme éperdue !</l>
+<stage>À Pyrrhus.</stage>
+	<l id='1662'>Seigneur, enfin la paix si longtemps attendue</l>
+	<l id='1663'>M'est redonnée ici par ce même héros</l>
+	<l id='1664'>Dont la seule valeur nous causa tant de maux.</l>
+	<l id='1665'>Heureux si cette paix qui tous deux nous rapproche,</l>
+	<l id='1666'>Pouvait être entre nous exempte de reproche !</l>
+	<l id='1667'>Mais on doit pardonner aux soins de ma grandeur</l>
+	<l id='1668'>Ce que semble de vous exiger ma fureur.</l>
+	<l id='1669'>Je sais ce qu'il en coûte à des coeurs magnanimes,</l>
+	<l id='1670'>Lorsqu'il faut immoler d'innocentes victimes.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1671'>Ne te sied-il pas bien de t'en justifier,</l>
+	<l id='1672'>Toi qui nous as contraints à les sacrifier?</l>
+	<l id='1673'>Épargne à ton honneur un discours inutile,</l>
+	<l id='1674'>Qui doit faire rougir un descendant d'Achille ;</l>
+	<l id='1675'>Et ne nous fais pas voir pour la seconde fois</l>
+	<l id='1676'>Un sujet altéré du meurtre de ses rois.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1677'>Ai-je bien entendu ? Quel sinistre langage !</l>
+	<l id='1678'>À me l'oser tenir qu'est-ce donc qui t'engage ?</l>
+	<l id='1679'>Pourquoi par Cynéas me faire pressentir</l>
+	<l id='1680'>Sur un espoir trompeur que tu viens démentir ?</l>
+	<l id='1681'>Est-ce en me préparant des injures nouvelles</l>
+	<l id='1682'>Que l'on croit terminer de si grandes querelle ?</l>
+	<l id='1683'>Tu déclares la guerre en demandant la paix.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1684'>Non, cruel, avec moi tu ne l'auras jamais,</l>
+	<l id='1685'>Quoique je vienne ici remettre en ta puissance</l>
+	<l id='1686'>Celui dont tu devrais éprouver la vengeance,</l>
+	<l id='1687'>Cet innocent objet de tes noires fureurs,</l>
+	<l id='1688'>Ce Pyrrhus que ta haine accable de malheurs.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1689'>Hé bien ! Puisque c'est toi qui dois me le remettre,</l>
+	<l id='1690'>Ne diffère donc point, ou cesse de promettre.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1691'>Tu me connais ; tu peux t'en reposer sur moi,</l>
+	<l id='1692'>Et, de plus, relâcher Illyrus sur ma foi.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1693'>Hélénus, tu vas voir combien je m'y confie.</l>
+<stage>À ses gardes.</stage>
+	<l id='1694'>Gardes, faites venir le prince d'Illyrie.</l>
+<stage>À Pyrrhus.</stage>
+	<l id='1695'>Je vais dans un moment te le remettre ici ?</l>
+	<l id='1696'>Mais commande, à ton tour, que Pyrrhus vienne aussi.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1697'>Inhumain, ne crains point qu'on te le fasse attendre ;</l>
+	<l id='1698'>Crains plutôt un aspect qui pourra te surprendre.</l>
+	<l id='1699'>Mais daigne auparavant m'instruire de son sort ;</l>
+	<l id='1700' part='i'>Sois sincère surtout : quel sera-t-il ?</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1700' part='f'>La mort.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1701'>S'il ne craignait que toi, tyran, ta barbarie</l>
+	<l id='1702'>Te coûterait bientôt et le trône et la vie.</l>
+	<l id='1703'>Voyons donc jusqu'où peut aller ta fermeté.</l>
+	<l id='1704'>Mais, pour laisser ta haine agir en liberté,</l>
+	<l id='1705'>Je vais te rassurer contre un fer redoutable</l>
+	<l id='1706'>Qui rendrait dans mes mains ta perte inévitable.</l>
+<stage>Il jette son épée aux pieds de Néoptolème.</stage>
+	<l id='1707' part='i'>Frappe, voilà Pyrrhus.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Pyrrhus, Néoptolème, Illyrus.</head>
+<sp who='ILLYRUS'><speaker>ILLYRUS, entrant.</speaker>
+	<l id='1707' part='f'>Dieux ! Qu'est-ce que je vois ?</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1708'>Je m'acquitte, Illyrus, de ce que je vous dois.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1709'>Où suis-je ? Quel transport de mon âme s'empare !</l>
+	<l id='1710'>Quel soudain mouvement tout-à-coup s'y déclare,</l>
+	<l id='1711'>À l'aspect imprévu de cet audacieux !</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Glaucias, Pyrrhus, Néoptolème, Illyrus, Éricie, Androclide, Gardes.</head>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS, entrant avec Éricie.</speaker>
+	<l id='1712'>Que vois-je ? Quel objet se présente à mes yeux ?</l>
+	<l id='1713'>Hélénus désarmé devant Néoptolème !</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1714'>Tu vois un ennemi qui se livre lui-même,</l>
+	<l id='1715'>Et qui, loin d'essayer de fléchir ma rigueur,</l>
+	<l id='1716'>Ose par sa fierté défier ma fureur ;</l>
+	<l id='1717'>Qui me brave, me hait, me méprise et m'offense.</l>
+</sp>
+<sp who='GLAUCIAS'><speaker>GLAUCIAS.</speaker>
+	<l id='1718'>De quoi va s'occuper ton injuste vengeance ?</l>
+	<l id='1719'>Sont-ce les mouvements qu'il te doit inspirer ?</l>
+	<l id='1720' part='i'>Il se livre à tes coups ; que veux-tu ?</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1720' part='f'>L'admirer.</l>
+	<l id='1721'>Ne juge point de moi par ce que j'ai pu faire.</l>
+	<l id='1722'>Le malheur rend souvent le crime nécessaire ;</l>
+	<l id='1723'>Et le penchant des coeurs ne dépend non plus d'eux,</l>
+	<l id='1724'>Qu'il en dépend de naître heureux ou malheureux.</l>
+	<l id='1725'>C'est dans le sang des rois que j'ai puisé la vie ;</l>
+	<l id='1726'>Mais, quand je serois né des monstres d'Hyrcanie,</l>
+	<l id='1727'>J'aurois été touché d'un trait si généreux.</l>
+	<l id='1728'>Pyrrhus, un même sang nous a formés tous deux;</l>
+	<l id='1729'>Mais les mêmes vertus n'ont point fait mon partage.</l>
+	<l id='1730'>Si j'ai troublé des jours que t'envioit ma rage,</l>
+	<l id='1731'>Je te laisse aujourd'hui maître absolu des miens,</l>
+	<l id='1732'>Et je prodiguerais tout mon sang pour les tiens.</l>
+	<l id='1733'>Je t'ai ravi le sceptre, et je te l'abandonne.</l>
+	<l id='1734'>Un ami tel que toi vaut mieux qu'une couronne ;</l>
+	<l id='1735'>Et je préférerais a l'éclat de mon rang</l>
+	<l id='1736'>L'honneur d'être avoué pour prince de ton sang.</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1737'>Si j'osais me flatter, malgré la mort d'un père,</l>
+	<l id='1738'>Qu'un repentir si grand fût durable et sincère...</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME.</speaker>
+	<l id='1739'>C'est à vous que je dois ce retour vertueux</l>
+	<l id='1740'>Qui me rend à moi-même, à mon prince, à mes dieux></l>
+	<l id='1741'>Seigneur. Je n'ose encor prétendre à votre estime :</l>
+	<l id='1742'>Un bien si glorieux n'est pas le prix d'un crime.</l>
+	<l id='1743'>Trop heureux que Pyrrhus ne m'en punisse pas,</l>
+	<l id='1744'>Et veuille de ma main recevoir ses États !</l>
+</sp>
+<sp who='PYRRHUS'><speaker>PYRRHUS.</speaker>
+	<l id='1745'>À ce noble retour je sens que ma justice,</l>
+	<l id='1746'>Malgré la voix du sang, doit plus d'un sacrifice.</l>
+	<l id='1747'>Puisqu'un remords suffit pour apaiser les dieux,</l>
+	<l id='1748'>Les rois ne doivent pas en exiger plus qu'eux.</l>
+	<l id='1749'>Dès qu'il leur plaît ainsi, jouissez de la vie :</l>
+	<l id='1750'>Moi, je vous rends le sceptre en faveur d'Éricie.</l>
+</sp>
+<sp who='NÉOPTOLÈME'><speaker>NÉOPTOLÈME, lui présentant Éricie.</speaker>
+	<l id='1751'>Daignez donc accepter ce gage de ma foi,</l>
+	<l id='1752'>Seigneur ; c'est le seul bien qui soit encore à moi.</l>
+<stage>À Illyrus.</stage>
+	<l id='1753'>Prince, sur cet hymen je n'ai rien à vous dire :</l>
+	<l id='1754'>Votre coeur est trop grand pour ne point y souscrire</l>
+<stage>À Glaucias.</stage>
+	<l id='1755'>Et vous, digne mortel dont les dieux firent choix</l>
+	<l id='1756'>Pour être le vengeur et l'exemple des rois ,</l>
+	<l id='1757'>Généreux Glaucias, à qui je dois la gloire</l>
+	<l id='1758'>De pouvoir effacer l'action la plus noire,</l>
+	<l id='1759'>Recevez votre fils pour prix d'un si grand bien ;</l>
+	<l id='1760'>Et vous, mon cher Pyrrhus, daignez être le mien.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

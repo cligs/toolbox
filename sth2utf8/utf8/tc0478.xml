@@ -1,0 +1,4418 @@
+<?xml version="1.0" encoding='UTF-8'?>
+
+<TEI.2>
+
+<teiHeader>
+
+	<fileDesc>
+
+		<titleStmt>
+
+			<title>MITHRIDATE, TRAGÉDIE.</title>
+
+			<author born='1639' born_location='La Ferté Millon' death='1699' death_location='Paris' academie='1673'>RACINE, Jean</author>
+
+			<date>1673</date>
+
+		</titleStmt>
+
+		<publicationStmp>	
+
+			<p>publié par Paul FIEVRE, octobre 2008, revu octobre 2011.</p>
+
+		</publicationStmp>
+
+		<SourceDesc>
+
+				<genre>Tragédie</genre>
+
+				<inspiration>histoire romaine</inspiration>
+
+				<structure>Cinq actes</structure>
+
+				<type>vers</type>
+
+				<periode>1671-1680</periode>
+
+				<taille>1500-1750</taille>
+
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k70412h</permalien>
+
+				<sources>
+
+					<source id='1'><author>Appien d'Alexandrie</author><text>***</text></source>
+
+				</sources>	
+
+		</SourceDesc>
+
+	</fileDesc>
+
+</teiHeader>
+
+<text>
+
+	<front>
+
+		<docTitle>
+
+			<titlePart type='main'>MITHRIDATE</titlePart>
+
+			<titlePart type='sub'>TRAGÉDIE</titlePart>
+
+		</docTitle> 
+
+		<docDate value='1673'>1673</docDate>
+
+		<docAuthor id='RACINE, Jean' bio='racine'>Jean Racine</docAuthor>
+
+		<docImprint>
+
+			<privilege id='****-**-**'></privilege>
+
+			<acheveImprime id='****-**-**'></acheveImprime>
+
+			<printer id='***'></printer>
+
+		</docImprint>
+
+		<performance>
+
+			<premiere date='1673-01-13' location='Hôtel de Bourgogne'>Réprésenté pour le première fois le 13 janvier 1673 à l'Hôtel de Bourgogne.</premiere>
+
+		</performance>
+
+<preface><head>Préface</head>
+
+<p type='p'>Il n'y a guère de nom plus connu que celui de Mithridate ; sa vie et sa mort font une partie considérable de l'histoire romaine, et sans compter les victoires qu'il a remportées, on peut dire que ses seules défaites ont fait presque toute la gloire de trois des plus grands capitaines de la république [Note : fin de phrase ajoutée dans l'édition de 1675] : c'est à savoir, de Sylla, de Lucullus et de Pompée. Ainsi je ne pense pas qu'il soit besoin de citer ici mes auteurs ; car, excepté quelque événement que j'ai un peu rapproché par le droit que donne la poésie, tout le monde reconnaîtra aisément que j'ai suivi l'histoire avec beaucoup de fidélité. [Note : les deux phrases qui suivent ont été ajoutées dans l'édtiion de 1675 et suivantes.] En effet, il n'y a guère d'actions éclatantes dans la vie de Mithridate qui n'aient trouvé place dans ma tragédie. J'y ai inséré tout ce qui pouvait mettre en jour les moeurs et les sentiments de ce prince, je veux dire sa haine violente contre les Romains, son grand courage, sa finesse, sa dissimulation, et enfin cette jalousie qui lui était si naturelle, et qui a tant de fois coûté la vie à ses maîtresses.</p>
+
+<p type='p'>La seule chose qui pourrait n'être pas aussi connue que le reste, c'est le dessein que je lui fais prendre de passer dans l'Italie. Comme ce dessein m'a fourni une des scènes qui ont le plus réussi dans ma tragédie, je crois que le plaisir du lecteur pourra redoubler, quand il verra que presque tous les historiens ont dit tout ce que je fais dire ici à Mithridate. </p>
+
+<p type='p'>Florus, Plutarque et Dion Cassius nomment les pays par où il devait passer. Appien d'Alexandrie entre plus dans le détail, et après avoir marqué les facilités et les secours que Mithridate espérait trouver dans sa marche, il ajoute que ce projet fut le prétexte dont Pharnace se servit pour [faire] révolter toute l'armée, et que les soldats, effrayés de l'entreprise de son père, la regardèrent comme le désespoir d'un prince qui ne cherchait qu'à périr avec éclat. Ainsi elle fut en partie cause de sa mort, qui est l'action de ma tragédie. </p>
+
+<p type='p'>J'ai encore lié ce dessein de plus près à mon sujet, et je m'en suis servi pour faire connaître à Mithridate les secrets sentiments de ses deux fils. On ne peut prendre trop de précaution pour ne rien mettre sur le théâtre qui ne soit très nécessaire, et les plus belles scènes sont en danger d'ennuyer, du moment qu'on les peut séparer de l'action et qu'elles l'interrompent au lieu de la conduire vers sa fin. </p>
+
+<p type='p'>[Note : La partie qui suit a été ajoutée à partir de l'éditions de 1673]</p>
+
+<p type='p'>Voici la réflexion que fait Dion Cassius sur ce dessein de Mithridate : "Cet homme était véritablement né pour entreprendre de grandes choses. Comme il avait souvent éprouvé la bonne et la mauvaise fortune, il ne croyait rien au-dessus de ses espérances et de son audace, et mesurait ses desseins bien plus à la grandeur de son courage qu'au mauvais état de ses affaires, bien résolu, si son entreprise ne réussissait point, de faire une fin digne d'un grand roi, et de s'ensevelir lui-même sous les ruines de son empire, plutôt que de vivre dans l'obscurité et dans la bassesse." </p>
+
+<p type='p'>J'ai choisi Monime entre les femmes que Mithridate a aimées. Il paraît que c'est celle de toutes qui a été la plus vertueuse, et qu'il a aimée le plus tendrement. Plutarque semble avoir pris plaisir à décrire le malheur et les sentiments de cette princesse. C'est lui qui m'a donné l'idée de Monime, et c'est en partie sur la peinture qu'il en a faite que j'ai fondé un caractère que je puis dire qui n'a point déplu. Le lecteur trouvera bon que je rapporte ses paroles telles qu'Amyot les a traduites, car elles ont une grâce dans le vieux style de ce traducteur, que je ne crois point pouvoir égaler dans notre langage moderne : </p>
+
+<p type='p'>"Cette-cy estoit fort renommée entre les Grecs, pour ce que quelques sollicitations que lui sceust faire le roy en estant amoureux, jamais ne voulut entendre à toutes ses poursuites jusqu'à ce qu'il y eust accord de mariage passé entre eux, qu'il luy eust envoyé le diadème ou bandeau royal, et appelée royne. La pauvre dame, depuis que ce roy l'eust espousée, avoir vécu en grande desplaisance, ne faisant continuellement autre chose que de plorer la malheureuse beauté de son corps, laquelle, au lieu d'un mari, luy avait donné un maistre, et au lieu de compaignie conjugale et que doibt avoir une dame d'honneur, luy avait baillé une garde et garnison d'hommes barbares, qui la tenoient comme prisonnière loin du doulx pays de la Grèce, en lieu où elle n'avait qu'un songe et une ombre de biens ; et au contraire avait réellement perdu les véritables, dont elle jouissoit au pays de sa naissance. Et quand l'ennuque fut arrivé devers elle et luy eust faict commandement de par le roi qu'elle eust à mourir, adonc elle s'arracha d'alentour de la teste son bandeau royal, et se le nouant alentour du col, s'en pendit. Mais le bandeau ne fut pas assez fort, et se rompit incontinent. Et alors elle se prit à dire : "O maudit et malheureux tissu, ne me serviras-tu point au moins à ce triste service ?" En disant ces paroles, elle le jeta contre terre, crachant dessus, et tendit la gorge à l'eunuque." </p>
+
+<p type='p'>Xipharès était fils de Mithridate et d'une de ses femmes qui se nommait Stratonice. Elle livra aux Romains une place de grande importance, où étaient les trésors de Mithridate, pour mettre son fils Xipharès dans les bonnes grâces de Pompée. Il y a des historiens qui prétendent que Mithridate fit mourir ce jeune prince pour se venger de la perfidie de sa mère. </p>
+
+<p type='p'>Je ne dis rien de Pharnace, car qui ne sait pas que ce fut lui qui souleva contre Mithridate ce qui lui restait de troupes, et qui força ce prince à se vouloir empoisonner, et à se passer son épée au travers du corps pour ne pas tomber entre les mains de ses ennemis ? C'est ce même Pharnace qui fut vaincu depuis par Jules César, et qui fut tué ensuite dans une autre bataille.</p>
+
+</preface>
+
+		<castList><head>ACTEURS</head>
+
+			<castItem><role id="MITHRIDATE" civil='M'>MIHRIDATE</role>, roi de Pont et de quantité d'autres royaumes.</castItem>
+
+			<castItem><role id="MONIME" civil='F'>MONIME</role> accordée avec Mithridate, et déjà déclarée reine.</castItem>
+
+			<castItem><role id="PHARNACE" civil='M'>PHARNACE</role>, fils de Mithridate.</castItem>
+
+			<castItem><role id="XIPHARÈS" civil='M'>XIPHARÈS</role>, fils de Mithridate, mais d'une mère différente.</castItem>
+
+			<castItem><role id="ARBATE" civil='M'>ARBATE</role>, confident de Mithridate, et gouverneur de la place de Nymphée.</castItem>
+
+			<castItem><role id="PHOEDIME" civil='F'>PHOEDIME</role>, confidente de Monime.</castItem>
+
+			<castItem><role id="ARCAS" civil='M'>ARCAS</role>, domestique de Mithridate.</castItem>
+
+			<castItem><role id="GARDES" civil='G'>GARDES</role>.</castItem>
+
+		</castList>
+
+		<set location='Nymphée' country='Crimée' periode='IIème avant JC' link=''>La scene est à Nymphée, port de mer sur le Bosphore Cimmérien, dans la Taurique Chersonèse.</set>
+
+		<note>Le texte est celui de l'édition 1697.</note>
+
+	</front>
+
+<body>
+
+<div1 type ='acte' n='1'><head>ACTE I</head>
+
+<div2 type ='scene' n='1'><head>SCÈNE I. Xipharès, Arbate.</head>
+
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1'>On nous faisait, Arbate, un fidèle rapport. </l>
+
+	<l id='2'>Rome en effet triomphe, et Mithridate est mort.</l>
+
+	<l id='3'>Les Romains vers l'Euphrate ont attaqué mon père,</l>
+
+	<l id='4'>Et trompé dans la nuit sa prudence ordinaire.</l>
+
+	<l id='5'>Après un long combat tout son camp dispersé</l>
+
+	<l id='6'>Dans la foule des morts en fuyant l'a laissé,</l>
+
+	<l id='7'>Et j'ai su qu'un soldat dans les mains de Pompée,</l>
+
+	<l id='8'>Avec son diadème a remis son épée.</l>
+
+	<l id='9'>Ainsi ce roi, qui seul a durant quarante ans</l>
+
+	<l id='10'>Lassé tout ce que Rome eut de chefs importants, </l>
+
+	<l id='11'>Et qui dans l'Orient balançant la fortune</l>
+
+	<l id='12'>Vengeait de tous les rois la querelle commune,</l>
+
+	<l id='13'>Meurt, et laisse après lui pour venger son trépas,</l>
+
+	<l id='14'>Deux fils infortunés qui ne s'accordent pas.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='15'>Vous, Seigneur ! Quoi ? l'ardeur de régner en sa place</l>
+
+	<l id='16'>Rend déjà Xipharès ennemi de Pharnace ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='17'>Non, je ne prétends point, cher Arbate, à ce prix</l>
+
+	<l id='18'>D'un malheureux empire acheter le débris.</l>
+
+	<l id='19'>Je sais en lui des ans respecter l'avantage.</l>
+
+	<l id='20'>Et content des États marqués pour mon partage, </l>
+
+	<l id='21'>Je verrai sans regret tomber entre ses mains</l>
+
+	<l id='22'>Tout ce que lui promet l'amitié des Romains.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='23'>L'amitié des Romains ? Le fils de Mithridate, </l>
+
+	<l id='24' part="i">Seigneur ? Est-il bien vrai ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='24' part="f">N'en doute point, Arbate.</l>
+
+	<l id='25'>Pharnace dès longtemps tout Romain dans le coeur</l>
+
+	<l id='26'>Attend tout maintenant de Rome, et du vainqueur. </l>
+
+	<l id='27'>Et moi plus que jamais à mon père fidèle</l>
+
+	<l id='28'>Je conserve aux Romains une haine immortelle. </l>
+
+	<l id='29'>Cependant et ma haine, et ses prétentions </l>
+
+	<l id='30'>Sont les moindres sujets de nos divisions. </l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='31'>Et quel autre intérêt contre lui vous anime ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='32'>Je m'en vais t'étonner. Cette belle Monime</l>
+
+	<l id='33'>Qui du roi notre père attira tous les voeux,</l>
+
+	<l id='34'>Dont Pharnace après lui se déclare amoureux...</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='35' part="i">Hé bien, Seigneur ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='35' part="f">Je l'aime, et ne veux plus m'en taire</l>
+
+	<l id='36'>Puisqu'enfin pour rival je n'ai plus que mon frère.</l>
+
+	<l id='37'>Tu ne t'attendais pas sans doute à ce discours.</l>
+
+	<l id='38'>Mais ce n'est point, Arbate, un secret de deux jours.</l>
+
+	<l id='39'>Cet amour s'est longtemps accru dans le silence.</l>
+
+	<l id='40'>Que n'en puis-je à tes yeux marquer la violence, </l>
+
+	<l id='41'>Et mes premiers soupirs et mes derniers ennuis ?</l>
+
+	<l id='42'>Mais en l'état funeste où nous sommes réduits,</l>
+
+	<l id='43'>Ce n'est guère le temps d'occuper ma mémoire</l>
+
+	<l id='44'>À rappeler le cours d'une amoureuse histoire.</l>
+
+	<l id='45'>Qu'il te suffise donc, pour me justifier, </l>
+
+	<l id='46'>Que je vis, que j'aimai la reine le premier,</l>
+
+	<l id='47'>Que mon père ignorait jusqu'au nom de Monime, </l>
+
+	<l id='48'>Quand je conçus pour elle un amour légitime. </l>
+
+	<l id='49'>Il la vit. Mais au lieu d'offrir à ses beautés </l>
+
+	<l id='50'>Un hymen, et des voeux dignes d'être écoutés, </l>
+
+	<l id='51'>Il crut que sans prétendre une plus haute gloire, </l>
+
+	<l id='52'>Elle lui céderait une indigne victoire. </l>
+
+	<l id='53'>Tu sais par quels efforts il tenta sa vertu, </l>
+
+	<l id='54'>Et que lassé d'avoir vainement combattu, </l>
+
+	<l id='55'>Absent, mais toujours plein de son amour extrême, </l>
+
+	<l id='56'>Il lui fit par tes mains porter son diadème. </l>
+
+	<l id='57'>Juge de mes douleurs, quand des bruits trop certains,</l>
+
+	<l id='58'>M'annoncèrent du roi l'amour, et les desseins, </l>
+
+	<l id='59'>Quand je sus qu'à son lit Monime réservée</l>
+
+	<l id='60'>Avait pris avec toi le chemin de Nymphée. </l>
+
+	<l id='61'>Hélas ! ce fut encor dans ce temps odieux,</l>
+
+	<l id='62'>Qu'aux offres des Romains ma mère ouvrit les yeux,</l>
+
+	<l id='63'>Ou pour venger sa foi par cet hymen trompée,</l>
+
+	<l id='64'>Ou ménageant pour moi la faveur de Pompée,</l>
+
+	<l id='65'>Elle trahit mon père, et rendit aux Romains</l>
+
+	<l id='66'>La place, et les trésors confiés en ses mains.</l>
+
+	<l id='67'>Quel devins-je au récit du crime de ma mère !</l>
+
+	<l id='68'>Je ne regardai plus mon rival dans mon père.</l>
+
+	<l id='69'>J'oubliai mon amour par le sien traversé.</l>
+
+	<l id='70'>Je n'eus devant les yeux que mon père offensé. </l>
+
+	<l id='71'>J'attaquai les Romains, et ma mère éperdue</l>
+
+	<l id='72'>Me vit, en reprenant cette place rendue,</l>
+
+	<l id='73'>À mille coups mortels contre eux me dévouer,</l>
+
+	<l id='74'>Et chercher en mourant à la désavouer.</l>
+
+	<l id='75'>L'Euxin depuis ce temps fut libre, et l'est encore. </l>
+
+	<l id='76'>Et des rives de Pont, aux rives du Bosphore</l>
+
+	<l id='77'>Tout reconnut mon père, et ses heureux vaisseaux</l>
+
+	<l id='78'>N'eurent plus d'ennemis que les vents et les eaux.</l>
+
+	<l id='79'>Je voulais faire plus. Je prétendais, Arbate,</l>
+
+	<l id='80'>Moi-même à son secours m'avancer vers l'Euphrate, </l>
+
+	<l id='81'>Je fus soudain frappé du bruit de son trépas.</l>
+
+	<l id='82'>Au milieu de mes pleurs, je ne le cèle pas,</l>
+
+	<l id='83'>Monime, qu'en tes mains mon père avait laissée,</l>
+
+	<l id='84'>Avec tous ses attraits revint en ma pensée.</l>
+
+	<l id='85'>Que dis-je ? En ce malheur je tremblai pour ses jours. </l>
+
+	<l id='86'>Je redoutai du roi les cruelles amours.</l>
+
+	<l id='87'>Tu sais combien de fois ses jalouses tendresses</l>
+
+	<l id='88'>Ont pris soin d'assurer la mort de ses maîtresses.</l>
+
+	<l id='89'>Je volai vers Nymphée. Et mes tristes regards</l>
+
+	<l id='90'>Rencontrèrent Pharnace au pied de ses remparts. </l>
+
+	<l id='91'>J'en conçus, je l'avoue, un présage funeste.</l>
+
+	<l id='92'>Tu nous reçus tous deux, et tu sais tout le reste.</l>
+
+	<l id='93'>Pharnace en ses desseins toujours impétueux,</l>
+
+	<l id='94'>Ne dissimula point ses voeux présomptueux.</l>
+
+	<l id='95'>De mon père à la reine il conta la disgrâce, </l>
+
+	<l id='96'>L'assura de sa mort, et s'offrit en sa place. </l>
+
+	<l id='97'>Comme il le dit, Arbate, il veut l'exécuter. </l>
+
+	<l id='98'>Mais enfin à mon tour je prétends éclater. </l>
+
+	<l id='99'>Autant que mon amour respecta la puissance </l>
+
+	<l id='100'>D'un père, à qui je fus dévoué dès l'enfance, </l>
+
+	<l id='101'>Autant ce même amour maintenant révolté</l>
+
+	<l id='102'>De ce nouveau rival brave l'autorité. </l>
+
+	<l id='103'>Ou Monime à ma flamme elle-même contraire</l>
+
+	<l id='104'>Condamnera l'aveu que je prétends lui faire,</l>
+
+	<l id='105'>Ou bien quelques malheurs qu'il en puisse advenir</l>
+
+	<l id='106'>Ce n'est que par ma mort qu'on la peut obtenir.</l>
+
+	<l id='107'>Voilà tous les secrets que je voulais t'apprendre. </l>
+
+	<l id='108'>C'est à toi de choisir quel parti tu dois prendre, </l>
+
+	<l id='109'>Qui des deux te paraît plus digne de ta foi,</l>
+
+	<l id='110'>L'esclave des Romains, ou le fils de ton roi. </l>
+
+	<l id='111'>Fier de leur amitié Pharnace croit peut-être </l>
+
+	<l id='112'>Commander dans Nymphée et me parler en maître. </l>
+
+	<l id='113'>Mais ici mon pouvoir ne connaît point le sien.</l>
+
+	<l id='114'>Le Pont est son partage et Colchos est le mien.</l>
+
+	<l id='115'>Et l'on sait que toujours la Colchide et ses princes </l>
+
+	<l id='116'>Ont compté ce Bosphore au rang de leurs provinces.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='117'>Commandez-moi, Seigneur. Si j'ai quelque pouvoir</l>
+
+	<l id='118'>Mon choix est déjà fait, je ferai mon devoir. </l>
+
+	<l id='119'>Avec le même zèle, avec la même audace</l>
+
+	<l id='120'>Que je servais le père, et gardais cette place, </l>
+
+	<l id='121'>Et contre votre frère, et même contre vous, </l>
+
+	<l id='122'>Après la mort du roi je vous sers contre tous. </l>
+
+	<l id='123'>Sans vous ne sais-je pas que ma mort assurée </l>
+
+	<l id='124'>De Pharnace en ces lieux allait suivre l'entrée ? </l>
+
+	<l id='125'>Sais-je pas que mon sang par ses mains répandu</l>
+
+	<l id='126'>Eût souillé ce rempart contre lui défendu.</l>
+
+	<l id='127'>Assurez-vous du coeur et du choix de la reine. </l>
+
+	<l id='128'>Du reste, ou mon crédit n'est plus qu'une ombre vaine,</l>
+
+	<l id='129'>Ou Pharnace laissant le Bosphore en vos mains, </l>
+
+	<l id='130'>Ira jouir ailleurs des bontés des Romains. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='131'>Que ne devrai-je point à cette ardeur extrême ?</l>
+
+	<l id='132'>Mais on vient. Cours, ami, c'est Monime, elle-même.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='2'><head>SCÈNE II. Monime, Xipharès.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='133'>Seigneur, je viens à vous. Car enfin aujourd'hui</l>
+
+	<l id='134'>Si vous m'abandonnez, quel sera mon appui ?</l>
+
+	<l id='135'>Sans parents, sans amis, désolée, et craintive, </l>
+
+	<l id='136'>Reine longtemps de nom, mais en effet captive,</l>
+
+	<l id='137'>Et veuve maintenant sans avoir eu d'époux,</l>
+
+	<l id='138'>Seigneur, de mes malheurs ce sont là les plus doux.</l>
+
+	<l id='139'>Je tremble à vous nommer l'ennemi qui m'opprime.</l>
+
+	<l id='140'>J'espère toutefois qu'un coeur si magnanime</l>
+
+	<l id='141'>Ne sacrifiera point les pleurs des malheureux</l>
+
+	<l id='142'>Aux intérêts du sang qui vous unit tous deux.</l>
+
+	<l id='143'>Vous devez à ces mots reconnaître Pharnace.</l>
+
+	<l id='144'>C'est lui, Seigneur, c'est lui, dont la coupable audace</l>
+
+	<l id='145'>Veut la force à la main m'attacher à son sort</l>
+
+	<l id='146'>Par un hymen pour moi plus cruel que la mort. </l>
+
+	<l id='147'>Sous quel astre ennemi faut-il que je sois née ?</l>
+
+	<l id='148'>Au joug d'un autre hymen sans amour destinée, </l>
+
+	<l id='149'>À peine je suis libre, et goûte quelque paix,</l>
+
+	<l id='150'>Qu'il faut que je me livre à tout ce que je hais. </l>
+
+	<l id='151'>Peut-être je devrais plus humble en ma misère</l>
+
+	<l id='152'>Me souvenir du moins que je parle à son frère. </l>
+
+	<l id='153'>Mais soit raison, destin, soit que ma haine en lui</l>
+
+	<l id='154'>Confonde les Romains dont il cherche l'appui, </l>
+
+	<l id='155'>Jamais hymen formé sous le plus noir auspice </l>
+
+	<l id='156'>De l'hymen que je crains n'égala le supplice.</l>
+
+	<l id='157'>Et si Monime en pleurs ne vous peut émouvoir, </l>
+
+	<l id='158'>Si je n'ai plus pour moi que mon seul désespoir,</l>
+
+	<l id='159'>Au pied du même autel où je suis attendue,</l>
+
+	<l id='160'>Seigneur, vous me verrez à moi-même rendue</l>
+
+	<l id='161'>Percer ce triste coeur qu'on veut tyranniser,</l>
+
+	<l id='162'>Et dont jamais encor je n'ai pu disposer.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='163'>Madame, assurez-vous de mon obéissance.</l>
+
+	<l id='164'>Vous avez dans ces lieux une entière puissance. </l>
+
+	<l id='165'>Pharnace ira, s'il veut, se faire craindre ailleurs. </l>
+
+	<l id='166'>Mais vous ne savez pas encor tous vos malheurs.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='167'>Hé ! quel nouveau malheur peut affliger Monime, </l>
+
+	<l id='168' part="i">Seigneur ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='168' part="f">Si vous aimer c'est faire un si grand crime, </l>
+
+	<l id='169'>Pharnace n'en est pas seul coupable aujourd'hui,</l>
+
+	<l id='170'>Et je suis mille fois plus criminel que lui. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='171' part="i">Vous !</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='171' part="f">Mettez ce malheur au rang des plus funestes.</l>
+
+	<l id='172'>Attestez, s'il le faut, les puissances célestes </l>
+
+	<l id='173'>Contre un sang malheureux, né pour vous tourmenter,</l>
+
+	<l id='174'>Père, enfants animés à vous persécuter. </l>
+
+	<l id='175'>Mais avec quelque ennui que vous puissiez apprendre </l>
+
+	<l id='176'>Cet amour criminel qui vient de vous surprendre, </l>
+
+	<l id='177'>Jamais tous vos malheurs ne sauraient approcher </l>
+
+	<l id='178'>Des maux que j'ai soufferts en le voulant cacher. </l>
+
+	<l id='179'>Ne croyez point pourtant que semblable à Pharnace</l>
+
+	<l id='180'>Je vous serve aujourd'hui pour me mettre en sa place. </l>
+
+	<l id='181'>Vous voulez être à vous, j'en ai donné ma foi, </l>
+
+	<l id='182'>Et vous ne dépendrez ni de lui, ni de moi. </l>
+
+	<l id='183'>Mais quand je vous aurai pleinement satisfaite, </l>
+
+	<l id='184'>En quels lieux avez-vous choisi votre retraite ? </l>
+
+	<l id='185'>Sera-ce loin, Madame, ou près de mes États ? </l>
+
+	<l id='186'>Me sera-t-il permis d'y conduire vos pas ? </l>
+
+	<l id='187'>Verrez-vous d'un même oeil le crime et l'innocence ? </l>
+
+	<l id='188'>En fuyant mon rival fuirez-vous ma présence ? </l>
+
+	<l id='189'>Pour prix d'avoir si bien secondé vos souhaits, </l>
+
+	<l id='190'>Faudra-t-il me résoudre à ne vous voir jamais ? </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='191' part="i">Ah ! que m'apprenez-vous ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='191' part="f">Hé quoi, belle Monime,</l>
+
+	<l id='192'>Si le temps peut donner quelque droit légitime,</l>
+
+	<l id='193'>Faut-il vous dire ici que le premier de tous</l>
+
+	<l id='194'>Je vous vis, je formai le dessein d'être à vous,</l>
+
+	<l id='195'>Quand vos charmes naissants inconnus à mon père, </l>
+
+	<l id='196'>N'avaient encor paru qu'aux yeux de votre mère ?</l>
+
+	<l id='197'>Ah ! si par mon devoir forcé de vous quitter</l>
+
+	<l id='198'>Tout mon amour alors ne put pas éclater,</l>
+
+	<l id='199'>Ne vous souvient-il plus, sans compter tout le reste,</l>
+
+	<l id='200'>Combien je me plaignis de ce devoir funeste ? </l>
+
+	<l id='201'>Ne vous souvient-il plus, en quittant vos beaux yeux,</l>
+
+	<l id='202'>Quelle vive douleur attendrit mes adieux ?</l>
+
+	<l id='203'>Je m'en souviens tout seul. Avouez-le, Madame.</l>
+
+	<l id='204'>Je vous rappelle un songe effacé de votre âme.</l>
+
+	<l id='205'>Tandis que loin de vous sans espoir de retour, </l>
+
+	<l id='206'>Je nourrissais encor un malheureux amour,</l>
+
+	<l id='207'>Contente et résolue à l'hymen de mon père,</l>
+
+	<l id='208'>Tous les malheurs du fils ne vous affligeaient guère.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='209' part="i">Hélas !</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='209' part="f">Avez-vous plaint un moment mes ennuis ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='210'>Prince... n'abusez point de l'état où je suis. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='211'>En abuser ! Ô ciel ! Quand je cours vous défendre, </l>
+
+	<l id='212'>Sans vous demander rien, sans oser rien prétendre.</l>
+
+	<l id='213'>Que vous dirai-je enfin ? Lorsque je vous promets </l>
+
+	<l id='214'>De vous mettre en état de ne me voir jamais.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='215'>C'est me promettre plus que vous ne sauriez faire. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='216'>Quoi, malgré mes serments vous croyez le contraire ? </l>
+
+	<l id='217'>Vous croyez qu'abusant de mon autorité, </l>
+
+	<l id='218'>Je prétends attenter à votre liberté ! </l>
+
+	<l id='219'>On vient, Madame, on vient... Expliquez-vous de grâce. </l>
+
+	<l id='220' part="i">Un mot.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='220' part="f">Défendez-moi des fureurs de Pharnace. </l>
+
+	<l id='221'>Pour me faire, Seigneur, consentir à vous voir,</l>
+
+	<l id='222'>Vous n'aurez pas besoin d'un injuste pouvoir.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='223' part="i">Ah ! Madame...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='223' part="f">Seigneur, vous voyez votre frère.</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='3'><head>SCÈNE III. Monime, Pharnace, Xipharès.</head>
+
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='224'>Jusques à quand, Madame, attendrez-vous mon père ? </l>
+
+	<l id='225'>Des témoins de sa mort viennent à tous moments </l>
+
+	<l id='226'>Condamner votre doute et vos retardements. </l>
+
+	<l id='227'>Venez, fuyez l'aspect de ce climat sauvage, </l>
+
+	<l id='228'>Qui ne parle à vos yeux que d'un triste esclavage. </l>
+
+	<l id='229'>Un peuple obéissant vous attend à genoux </l>
+
+	<l id='230'>Sous un ciel plus heureux et plus digne de vous. </l>
+
+	<l id='231'>Le Pont vous reconnaît dès longtemps pour sa reine, </l>
+
+	<l id='232'>Vous en portez encor la marque souveraine ;</l>
+
+	<l id='233'>Et ce bandeau royal fut mis sur votre front </l>
+
+	<l id='234'>Comme un gage assuré de l'empire de Pont. </l>
+
+	<l id='235'>Maître de cet État que mon père me laisse, </l>
+
+	<l id='236'>Madame, c'est à moi d'accomplir sa promesse. </l>
+
+	<l id='237'>Mais il faut, croyez-moi, sans attendre plus tard, </l>
+
+	<l id='238'>Ainsi que notre hymen presser notre départ. </l>
+
+	<l id='239'>Nos intérêts communs, et mon coeur le demandent. </l>
+
+	<l id='240'>Prêts à vous recevoir mes vaisseaux vous attendent, </l>
+
+	<l id='241'>Et du pied de l'autel vous y pouvez monter, </l>
+
+	<l id='242'>Souveraine des mers, qui vous doivent porter.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='243'>Seigneur, tant de bontés ont lieu de me confondre. </l>
+
+	<l id='244'>Mais puisque le temps presse, et qu'il faut vous répondre,</l>
+
+	<l id='245'>Puis-je laissant la feinte et les déguisements, </l>
+
+	<l id='246'>Vous découvrir ici mes secrets sentiments ?</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='247' part="i">Vous pouvez tout.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='247' part="f">Je crois que je vous suis connue.</l>
+
+	<l id='248'>Éphèse est mon pays. Mais je suis descendue</l>
+
+	<l id='249'>D'aïeux, ou rois, Seigneur, ou héros, qu'autrefois </l>
+
+	<l id='250'>Leur vertu chez les Grecs mit au dessus des rois. </l>
+
+	<l id='251'>Mithridate me vit. Éphèse et l'Ionie</l>
+
+	<l id='252'>À son heureux empire était alors unie.</l>
+
+	<l id='253'>Il daigna m'envoyer ce gage de sa foi. </l>
+
+	<l id='254'>Ce fut pour ma famille une suprême loi. </l>
+
+	<l id='255'>Il fallut obéir. Esclave couronnée</l>
+
+	<l id='256'>Je partis pour l'hymen où j'étais destinée. </l>
+
+	<l id='257'>Le roi qui m'attendait au sein de ses États, </l>
+
+	<l id='258'>Vit emporter ailleurs ses desseins et ses pas ;</l>
+
+	<l id='259'>Et tandis que la guerre occupait son courage</l>
+
+	<l id='260'>M'envoya dans ces lieux éloignés de l'orage. </l>
+
+	<l id='261'>J'y vins. J'y suis encor. Mais cependant, Seigneur, </l>
+
+	<l id='262'>Mon père paya cher ce dangereux honneur, </l>
+
+	<l id='263'>Et les Romains vainqueurs pour première victime</l>
+
+	<l id='264'>Prirent Philopoemen le père de Monime.</l>
+
+	<l id='265'>Sous ce titre funeste il se vit immoler. </l>
+
+	<l id='266'>Et c'est de quoi, Seigneur, j'ai voulu vous parler. </l>
+
+	<l id='267'>Quelque juste fureur dont je sois animée,</l>
+
+	<l id='268'>Je ne puis point à Rome opposer une armée.</l>
+
+	<l id='269'>Inutile témoin de tous ses attentats, </l>
+
+	<l id='270'>Je n'ai pour me venger ni sceptre, ni soldats. </l>
+
+	<l id='271'>Enfin, je n'ai qu'un coeur. Tout ce que je puis faire,</l>
+
+	<l id='272'>C'est de garder la foi que je dois à mon père, </l>
+
+	<l id='273'>De ne point dans son sang aller tremper mes mains,</l>
+
+	<l id='274'>En épousant en vous l'allié des Romains.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='275'>Que parlez-vous de Rome, et de son alliance ?</l>
+
+	<l id='276'>Pourquoi tout ce discours et cette défiance ?</l>
+
+	<l id='277'>Qui vous dit qu'avec eux je prétends m'allier ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='278'>Mais vous-même, Seigneur, pouvez-vous le nier ? </l>
+
+	<l id='279'>Comment m'offririez-vous l'entrée et la couronne </l>
+
+	<l id='280'>D'un pays que partout leur armée environne, </l>
+
+	<l id='281'>Si le traité secret qui vous lie aux Romains </l>
+
+	<l id='282'>Ne vous en assurait l'empire et les chemins ?</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='283'>De mes intentions je pourrais vous instruire,</l>
+
+	<l id='284'>Et je sais les raisons que j'aurais à vous dire, </l>
+
+	<l id='285'>Si laissant en effet les vains déguisements, </l>
+
+	<l id='286'>Vous m'aviez expliqué vos secrets sentiments.</l>
+
+	<l id='287'>Mais enfin je commence après tant de traverses, </l>
+
+	<l id='288'>Madame, à rassembler vos excuses diverses.</l>
+
+	<l id='289'>Je crois voir l'intérêt que vous voulez celer, </l>
+
+	<l id='290'>Et qu'un autre qu'un père ici vous fait parler. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='291'>Quel que soit l'intérêt qui fait parler la reine, </l>
+
+	<l id='292'>La réponse, Seigneur, doit-elle être incertaine ? </l>
+
+	<l id='293'>Et contre les Romains votre ressentiment </l>
+
+	<l id='294'>Doit-il pour éclater balancer un moment ? </l>
+
+	<l id='295'>Quoi ? nous aurons d'un père entendu la disgrâce ? </l>
+
+	<l id='296'>Et lents à le venger, prompts à remplir sa place, </l>
+
+	<l id='297'>Nous mettrons notre honneur et son sang en oubli ? </l>
+
+	<l id='298'>Il est mort. Savons-nous s'il est enseveli ? </l>
+
+	<l id='299'>Qui sait si dans le temps que votre âme empressée </l>
+
+	<l id='300'>Forme d'un doux hymen l'agréable pensée, </l>
+
+	<l id='301'>Ce roi, que l'Orient tout plein de ses exploits </l>
+
+	<l id='302'>Peut nommer justement le dernier de ses rois,</l>
+
+	<l id='303'>Dans ses propres États privé de sépulture</l>
+
+	<l id='304'>Ou couché sans honneur dans une foule obscure, </l>
+
+	<l id='305'>N'accuse point le ciel qui le laisse outrager, </l>
+
+	<l id='306'>Et des indignes fils qui n'osent le venger ? </l>
+
+	<l id='307'>Ah ! ne languissons plus dans un coin du Bosphore,</l>
+
+	<l id='308'>Si dans tout l'univers quelque roi libre encore, </l>
+
+	<l id='309'>Parthe, Scythe, ou Sarmate, aime sa liberté, </l>
+
+	<l id='310'>Voilà nos alliés. Marchons de ce côté. </l>
+
+	<l id='311'>Vivons ou périssons dignes de Mithridate, </l>
+
+	<l id='312'>Et songeons bien plutôt, quelque amour qui nous flatte, </l>
+
+	<l id='313'>À défendre du joug et nous et nos États, </l>
+
+	<l id='314'>Qu'à contraindre des coeurs, qui ne se donnent pas.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='315'>Il sait vos sentiments. Me trompais-je, Madame ? </l>
+
+	<l id='316'>Voilà cet intérêt si puissant sur votre âme, </l>
+
+	<l id='317'>Ce père, ces Romains que vous me reprochez.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='318'>J'ignore de son coeur les sentiments cachés. </l>
+
+	<l id='319'>Mais je m'y soumettrais, sans vouloir rien prétendre, </l>
+
+	<l id='320'>Si comme vous, Seigneur, je croyais les entendre. </l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='321'>Vous feriez bien, et moi je fais ce que dois. </l>
+
+	<l id='322'>Votre exemple n'est pas une règle pour moi.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='323'>Toutefois en ces lieux je ne connais personne,</l>
+
+	<l id='324'>Qui ne doive imiter l'exemple que je donne.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='325'>Vous pourriez à Colchos vous expliquer ainsi. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='326'>Je le puis à Colchos, et je le puis ici.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='327'>Ici ? Vous y pourriez rencontrer votre perte...</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='4'><head>SCÈNE IV. Monime, Pharnace, Xipharès, Phoedime.</head>
+
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='328'>Princes, toute la mer est de vaisseaux couverte, </l>
+
+	<l id='329'>Et bientôt démentant le faux bruit de sa mort</l>
+
+	<l id='330'>Mithridate lui-même arrive dans le port. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='331' part="i">Mithridate !</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='331' part="m">Mon père !</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='331' part="f">Ah ! que viens-je d'entendre ?</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='332'>Quelques vaisseaux légers sont venus nous l'apprendre,</l>
+
+	<l id='333'>C'est lui-même. Et déjà pressé de son devoir</l>
+
+	<l id='334'>Arbate loin du bord l'est allé recevoir.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='335' part="i">Qu'avons-nous fait !</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME, à Xipharès.</speaker>
+
+	<l id='335' part="f">Adieu, Prince. Quelle nouvelle ! </l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='5'><head>SCÈNE V. Pharnace, Xipharès.</head>
+
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='336'>Mithridate revient ? Ah ! Fortune cruelle !</l>
+
+	<l id='337'>Ma vie et mon amour tous deux courent hasard.</l>
+
+	<l id='338'>Les Romains que j'attends arriveront trop tard.</l>
+
+	<l id='339' part="i">Comment faire ? </l>
+
+<stage><hi rend="italic">(À Xipharès.)</hi></stage>
+
+	<l id='339' part="f">J'entends que votre coeur soupire, </l>
+
+	<l id='340'>Et j'ai conçu l'adieu qu'elle vient de vous dire, </l>
+
+	<l id='341'>Prince. Mais ce discours demande un autre temps. </l>
+
+	<l id='342'>Nous avons aujourd'hui des soins plus importants. </l>
+
+	<l id='343'>Mithridate revient, peut-être inexorable. </l>
+
+	<l id='344'>Plus il est malheureux, plus il est redoutable.</l>
+
+	<l id='345'>Le péril est pressant, plus que vous ne pensez. </l>
+
+	<l id='346'>Nous sommes criminels, et vous le connaissez. </l>
+
+	<l id='347'>Rarement l'amitié désarme sa colère.</l>
+
+	<l id='348'>Ses propres fils n'ont point de juge plus sévère.</l>
+
+	<l id='349'>Et nous l'avons vu même à ses cruels soupçons </l>
+
+	<l id='350'>Sacrifier deux fils pour de moindres raisons. </l>
+
+	<l id='351'>Craignons pour vous, pour moi, pour la reine elle-même.</l>
+
+	<l id='352'>Je la plains, d'autant plus que Mithridate l'aime.</l>
+
+	<l id='353'>Amant avec transport, mais jaloux sans retour</l>
+
+	<l id='354'>Sa haine va toujours plus loin que son amour. </l>
+
+	<l id='355'>Ne vous assurez point sur l'amour qu'il vous porte. </l>
+
+	<l id='356'>Sa jalouse fureur n'en sera que plus forte. </l>
+
+	<l id='357'>Songez-y. Vous avez la faveur des soldats, </l>
+
+	<l id='358'>Et j'aurai des secours que je n'explique pas. </l>
+
+	<l id='359'>M'en croirez-vous ? Courons assurer notre grâce.</l>
+
+	<l id='360'>Rendons-nous vous et moi maîtres de cette place. </l>
+
+	<l id='361'>Et faisons qu'à ses fils il ne puisse dicter </l>
+
+	<l id='362'>Que les conditions qu'ils voudront accepter.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='363'>Je sais quel est mon crime, et je connais mon père.</l>
+
+	<l id='364'>Et j'ai par-dessus vous le crime de ma mère.</l>
+
+	<l id='365'>Mais quelque amour encor qui me pût éblouir, </l>
+
+	<l id='366'>Quand mon père paraît je ne sais qu'obéir.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='367'>Soyons-nous donc au moins fidèles l'un à l'autre. </l>
+
+	<l id='368'>Vous savez mon secret, j'ai pénétré le vôtre. </l>
+
+	<l id='369'>Le roi toujours fertile en dangereux détours</l>
+
+	<l id='370'>S'armera contre nous de nos moindres discours. </l>
+
+	<l id='371'>Vous savez sa coutume, et sous quelles tendresses </l>
+
+	<l id='372'>Sa haine sait cacher ses trompeuses adresses. </l>
+
+	<l id='373'>Allons. Puisqu'il le faut, je marche sur vos pas. </l>
+
+	<l id='374'>Mais en obéissant ne nous trahissons pas.</l>
+</sp>
+
+</div2></div1><div1 type ='acte' n='2'><head>ACTE II</head>
+
+<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Monime, Phoedime.</head>
+
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='375'>Quoi, vous êtes ici quand Mithridate arrive, </l>
+
+	<l id='376'>Quand, pour le recevoir chacun court sur la rive,</l>
+
+	<l id='377'>Que faites-vous, Madame ? Et quel ressouvenir</l>
+
+	<l id='378'>Tout à coup vous arrête, et vous fait revenir ?</l>
+
+	<l id='379'>N'offenserez-vous point un roi qui vous adore,</l>
+
+	<l id='380' part="i">Qui presque votre époux...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='380' part="f">Il ne l'est pas encore, </l>
+
+	<l id='381'>Phoedime, et jusque-là je crois que mon devoir </l>
+
+	<l id='382'>Est de l'attendre ici, sans l'aller recevoir.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='383'>Mais ce n'est point, Madame, un amant ordinaire. </l>
+
+	<l id='384'>Songez qu'à ce grand roi promise par un père, </l>
+
+	<l id='385'>Vous avez de ses feux un gage solennel, </l>
+
+	<l id='386'>Qu'il peut quand il voudra, confirmer à l'autel. </l>
+
+	<l id='387'>Croyez-moi, montrez-vous, venez à sa rencontre.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='388'>Regarde en quel état tu veux que je me montre. </l>
+
+	<l id='389'>Vois ce visage en pleurs, et loin de le chercher, </l>
+
+	<l id='390'>Dis-moi plutôt, dis-moi que je m'aille cacher. </l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='391' part="i">Que dites-vous ? Ô dieux !</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='391' part="f">Ah retour qui me tue ! </l>
+
+	<l id='392'>Malheureuse ! Comment paraîtrai-je à sa vue, </l>
+
+	<l id='393'>Son diadème au front, et dans le fond du coeur, </l>
+
+	<l id='394'>Phoedime... Tu m'entends, et tu vois ma rougeur. </l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='395'>Ainsi vous retombez dans les mêmes alarmes,</l>
+
+	<l id='396'>Qui vous ont dans la Grèce arraché tant de larmes ?</l>
+
+	<l id='397'>Et toujours Xipharès revient vous traverser ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='398'>Mon malheur est plus grand que tu ne peux penser. </l>
+
+	<l id='399'>Xipharès ne s'offrait alors à ma mémoire, </l>
+
+	<l id='400'>Que tout plein de vertus, que tout brillant de gloire. </l>
+
+	<l id='401'>Et je ne savais pas que pour moi plein de feux</l>
+
+	<l id='402'>Xipharès des mortels fût le plus amoureux.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='403'>Il vous aime, Madame ! Et ce héros aimable...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='404'>Est aussi malheureux que je suis misérable. </l>
+
+	<l id='405'>Il m'adore, Phoedime, et les mêmes douleurs </l>
+
+	<l id='406'>Qui m'affligeaient ici le tourmentaient ailleurs.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='407'>Sait-il en sa faveur jusqu'où va votre estime ? </l>
+
+	<l id='408' part="i">Sait-il que vous l'aimez ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='408' part="f">Il l'ignore, Phoedime,</l>
+
+	<l id='409'>Les dieux m'ont secourue, et mon coeur affermi</l>
+
+	<l id='410'>N'a rien dit, ou du moins n'a parlé qu'à demi. </l>
+
+	<l id='411'>Hélas ! si tu savais, pour garder le silence,</l>
+
+	<l id='412'>Combien ce triste coeur s'est fait de violence !</l>
+
+	<l id='413'>Quels assauts, quels combats j'ai tantôt soutenus !</l>
+
+	<l id='414'>Phoedime, si je puis je ne le verrai plus. </l>
+
+	<l id='415'>Malgré tous les efforts que je pourrais me faire, </l>
+
+	<l id='416'>Je verrais ses douleurs, je ne pourrais me taire. </l>
+
+	<l id='417'>Il viendra, malgré moi, m'arracher cet aveu. </l>
+
+	<l id='418'>Mais n'importe, s'il m'aime il en jouira peu.</l>
+
+	<l id='419'>Je lui vendrai si cher ce bonheur qu'il ignore, </l>
+
+	<l id='420'>Qu'il vaudrait mieux pour lui qu'il l'ignorât encore. </l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='421' part="i">On vient. Que faites-vous, Madame ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='421' part="f">Je ne puis. </l>
+
+	<l id='422'>Je ne paraîtrai point dans le trouble où je suis.</l>
+
+</sp>
+
+</div2>
+
+<div2 type='scene' n='2'><head>SCÈNE II. Mithridate, Pharnace, Xipharès, Arbate, Gardes.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='423'>Princes, quelques raisons que vous me puissiez dire</l>
+
+	<l id='424'>Votre devoir ici n'a point dû vous conduire, </l>
+
+	<l id='425'>Ni vous faire quitter en de si grands besoins</l>
+
+	<l id='426'>Vous le Pont, vous Colchos, confiés à vos soins. </l>
+
+	<l id='427'>Mais vous avez pour juge un père qui vous aime. </l>
+
+	<l id='428'>Vous avez cru des bruits que j'ai semés moi-même.</l>
+
+	<l id='429'>Je vous crois innocents puisque vous le voulez. </l>
+
+	<l id='430'>Et je rends grâce au ciel qui nous a rassemblés. </l>
+
+	<l id='431'>Tout vaincu que je suis, et voisin du naufrage, </l>
+
+	<l id='432'>Je médite un dessein digne de mon courage. </l>
+
+	<l id='433'>Vous en serez tantôt instruits plus amplement. </l>
+
+	<l id='434'>Allez, et laissez-moi reposer un moment. </l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='3'><head>SCÈNE III. Mithridate, Arbate.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='435'>Enfin après un an, tu me revois, Arbate, </l>
+
+	<l id='436'>Non plus comme autrefois cet heureux Mithridate,</l>
+
+	<l id='437'>Qui de Rome toujours balançant le destin, </l>
+
+	<l id='438'>Tenais entre elle et moi l'univers incertain. </l>
+
+	<l id='439'>Je suis vaincu. Pompée a saisi l'avantage </l>
+
+	<l id='440'>D'une nuit, qui laissait peu de place au courage. </l>
+
+	<l id='441'>Mes soldats presque nus dans l'ombre intimidés,</l>
+
+	<l id='442'>Les rangs de toutes parts mal pris, et mal gardés, </l>
+
+	<l id='443'>Le désordre partout redoublant les alarmes,</l>
+
+	<l id='444'>Nous-mêmes contre nous tournant nos propres armes, </l>
+
+	<l id='445'>Les cris, que les rochers renvoyaient plus affreux, </l>
+
+	<l id='446'>Enfin toute l'horreur d'un combat ténébreux :</l>
+
+	<l id='447'>Que pouvait la valeur dans ce trouble funeste ? </l>
+
+	<l id='448'>Les uns sont morts, la fuite a sauvé tout le reste.</l>
+
+	<l id='449'>Et je ne dois la vie, en ce commun effroi, </l>
+
+	<l id='450'>Qu'au bruit de mon trépas que je laisse après moi. </l>
+
+	<l id='451'>Quelque temps inconnu j'ai traversé le Phase.</l>
+
+	<l id='452'>Et de là pénétrant jusqu'au pied du Caucase,</l>
+
+	<l id='453'>Bientôt dans des vaisseaux sur l'Euxin préparés </l>
+
+	<l id='454'>J'ai rejoint de mon camp les restes séparés. </l>
+
+	<l id='455'>Voilà par quels malheurs poussé dans le Bosphore</l>
+
+	<l id='456'>J'y trouve des malheurs qui m'attendaient encore. </l>
+
+	<l id='457'>Toujours du même amour tu me vois enflammé.</l>
+
+	<l id='458'>Ce coeur nourri de sang, et de guerre affamé, </l>
+
+	<l id='459'>Malgré le faix des ans et du sort qui m'opprime, </l>
+
+	<l id='460'>Traîne partout l'amour qui l'attache à Monime, </l>
+
+	<l id='461'>Et n'a point d'ennemis, qui lui soient odieux,</l>
+
+	<l id='462'>Plus que deux fils ingrats, que je trouve en ces lieux.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='463' part="i">Deux fils, Seigneur ?</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='463' part="f">Écoute. À travers ma colère</l>
+
+	<l id='464'>Je veux bien distinguer Xipharès de son frère. </l>
+
+	<l id='465'>Je sais que de tout temps à mes ordres soumis</l>
+
+	<l id='466'>Il hait autant que moi nos communs ennemis.</l>
+
+	<l id='467'>Et j'ai vu sa valeur à me plaire attachée</l>
+
+	<l id='468'>Justifier pour lui ma tendresse cachée. </l>
+
+	<l id='469'>Je sais même, je sais avec quel désespoir, </l>
+
+	<l id='470'>À tout autre intérêt préférant son devoir,  </l>
+
+	<l id='471'>Il courut démentir une mère infidèle</l>
+
+	<l id='472'>Et tira de son crime une gloire nouvelle.</l>
+
+	<l id='473'>Et je ne puis encor, ni n'oserais penser </l>
+
+	<l id='474'>Que ce fils si fidèle ait voulu m'offenser. </l>
+
+	<l id='475'>Mais tous deux en ces lieux que pouvaient-ils attendre ? </l>
+
+	<l id='476'>L'un et l'autre à la reine ont-ils osé prétendre ? </l>
+
+	<l id='477'>Avec qui semble-t-elle en secret s'accorder ? </l>
+
+	<l id='478'>Moi-même de quel oeil dois-je ici l'aborder ? </l>
+
+	<l id='479'>Parle. Quelque désir qui m'entraîne auprès d'elle, </l>
+
+	<l id='480'>Il me faut de leurs coeurs rendre un compte fidèle. </l>
+
+	<l id='481'>Qu'est-ce qui s'est passé ? Qu'as-tu vu ? Que sais-tu ? </l>
+
+	<l id='482'>Depuis quel temps, pourquoi, comment t'es-tu rendu ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='483'>Seigneur, depuis huit jours l'impatient Pharnace </l>
+
+	<l id='484'>Aborda le premier au pied de cette place. </l>
+
+	<l id='485'>Et de votre trépas autorisant le bruit </l>
+
+	<l id='486'>Dans ces murs aussitôt voulut être introduit. </l>
+
+	<l id='487'>Je ne m'arrêtai point à ce bruit téméraire.</l>
+
+	<l id='488'>Et je n'écoutais rien, si le prince son frère</l>
+
+	<l id='489'>Bien moins par ses discours, Seigneur, que par ses pleurs</l>
+
+	<l id='490'>Ne m'eût en arrivant confirmé vos malheurs. </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='491' part="i">Enfin que firent-ils ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='491' part="f">Pharnace entrait à peine</l>
+
+	<l id='492'>Qu'il courut de ses feux entretenir la reine,</l>
+
+	<l id='493'>Et s'offrir d'assurer par un hymen prochain</l>
+
+	<l id='494'>Le bandeau qu'elle avait reçu de votre main. </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='495'>Traître ! sans lui donner le loisir de répandre </l>
+
+	<l id='496'>Les pleurs que son amour aurait dûs à ma cendre ! </l>
+
+	<l id='497' part="i">Et son frère ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='497' part="f">Son frère, au moins jusqu'à ce jour,</l>
+
+	<l id='498'>Seigneur, dans ses desseins n'a point marqué d'amour, </l>
+
+	<l id='499'>Et toujours avec vous son coeur d'intelligence </l>
+
+	<l id='500'>N'a semblé respirer que guerre et que vengeance. </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='501'>Mais encor quel dessein le conduisait ici ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='502'>Seigneur, vous en serez tôt ou tard éclairci.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='503'>Parle, je te l'ordonne, et je veux tout apprendre.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='504'>Seigneur, jusqu'à ce jour, ce que j'ai pu comprendre,</l>
+
+	<l id='505'>Ce prince a cru pouvoir après votre trépas</l>
+
+	<l id='506'>Compter cette province au rang de ses États. </l>
+
+	<l id='507'>Et sans connaître ici de lois que son courage,</l>
+
+	<l id='508'>Il venait par la force appuyer son partage.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='509'>Ah ! c'est le moindre prix qu'il se doit proposer,</l>
+
+	<l id='510'>Si le ciel de mon sort me laisse disposer. </l>
+
+	<l id='511'>Oui, je respire, Arbate, et ma joie est extrême.</l>
+
+	<l id='512'>Je tremblais, je l'avoue, et pour un fils que j'aime,</l>
+
+	<l id='513'>Et pour moi, qui craignais de perdre un tel appui,</l>
+
+	<l id='514'>Et d'avoir à combattre un rival tel que lui.</l>
+
+	<l id='515'>Que Pharnace m'offense, il offre à ma colère</l>
+
+	<l id='516'>Un rival dès longtemps soigneux de me déplaire,</l>
+
+	<l id='517'>Qui toujours des Romains admirateur secret</l>
+
+	<l id='518'>Ne s'est jamais contre eux déclaré qu'à regret.</l>
+
+	<l id='519'>Et s'il faut que pour lui Monime prévenue</l>
+
+	<l id='520'>Ait pu porter ailleurs une amour qui m'est due, </l>
+
+	<l id='521'>Malheur au criminel qui vient me la ravir,</l>
+
+	<l id='522'>Et qui m'ose offenser, et n'ose me servir.</l>
+
+	<l id='523' part="i">L'aime-t-elle ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='523' part="f">Seigneur, je vois venir la reine.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='524'>Dieux, qui voyez ici mon amour et ma haine, </l>
+
+	<l id='525'>Épargnez mes malheurs, et daignez empêcher </l>
+
+	<l id='526'>Que je ne trouve encor ceux que je vais chercher. </l>
+
+	<l id='527'>Arbate, c'est assez, qu'on me laisse avec elle.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='4'><head>SCÈNE IV. Mithridate, Monime.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='528'>Madame, enfin le ciel près de vous me rappelle,</l>
+
+	<l id='529'>Et secondant du moins mes plus tendres souhaits</l>
+
+	<l id='530'>Vous rend à mon amour plus belle que jamais. </l>
+
+	<l id='531'>Je ne m'attendais pas que de notre hyménée</l>
+
+	<l id='532'>Je dusse voir si tard arriver la journée,</l>
+
+	<l id='533'>Ni qu'en vous retrouvant mon funeste retour</l>
+
+	<l id='534'>Fît voir mon infortune, et non pas mon amour.</l>
+
+	<l id='535'>C'est pourtant cet amour qui de tant de retraites</l>
+
+	<l id='536'>Ne me laisse choisir que les lieux où vous êtes ;</l>
+
+	<l id='537'>Et les plus grands malheurs pourront me sembler doux</l>
+
+	<l id='538'>Si ma présence ici n'en est point un pour vous.</l>
+
+	<l id='539'>C'est vous en dire assez si vous voulez m'entendre.</l>
+
+	<l id='540'>Vous devez à ce jour dès longtemps vous attendre, </l>
+
+	<l id='541'>Et vous portez, Madame, un gage de ma foi</l>
+
+	<l id='542'>Qui vous dit tous les jours que vous êtes à moi.</l>
+
+	<l id='543'>Allons donc assurer cette foi mutuelle. </l>
+
+	<l id='544'>Ma gloire loin d'ici vous et moi nous appelle, </l>
+
+	<l id='545'>Et sans perdre un moment pour ce noble dessein, </l>
+
+	<l id='546'>Aujourd'hui votre époux, il faut partir demain.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='547'>Seigneur, vous pouvez tout. Ceux par qui je respire </l>
+
+	<l id='548'>Vous ont cédé sur moi leur souverain empire.</l>
+
+	<l id='549'>Et quand vous userez de ce droit tout-puissant, </l>
+
+	<l id='550'>Je ne vous répondrai qu'en vous obéissant. </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='551'>Ainsi, prête à subir un joug qui vous opprime</l>
+
+	<l id='552'>Vous n'allez à l'autel que comme une victime :</l>
+
+	<l id='553'>Et moi, tyran d'un coeur qui se refuse au mien,</l>
+
+	<l id='554'>Même en vous possédant je ne vous devrai rien.</l>
+
+	<l id='555'>Ah Madame ! est-ce là de quoi me satisfaire ? </l>
+
+	<l id='556'>Faut-il que désormais renonçant à vous plaire</l>
+
+	<l id='557'>Je ne prétende plus qu'à vous tyranniser ?</l>
+
+	<l id='558'>Mes malheurs en un mot me font-ils mépriser ?</l>
+
+	<l id='559'>Ah ! pour tenter encor de nouvelles conquêtes</l>
+
+	<l id='560'>Quand je ne verrais pas des routes toutes prêtes, </l>
+
+	<l id='561'>Quand le sort ennemi m'aurait jeté plus bas,</l>
+
+	<l id='562'>Vaincu, persécuté, sans secours, sans États,</l>
+
+	<l id='563'>Errant de mers en mers, et moins roi que pirate,</l>
+
+	<l id='564'>Conservant pour tous biens le nom de Mithridate,</l>
+
+	<l id='565'>Apprenez que suivi d'un nom si glorieux</l>
+
+	<l id='566'>Partout de l'univers j'attacherais les yeux,</l>
+
+	<l id='567'>Et qu'il n'est point de rois, s'ils sont dignes de l'être,</l>
+
+	<l id='568'>Qui sur le trône assis n'enviassent peut-être</l>
+
+	<l id='569'>Au-dessus de leur gloire un naufrage élevé,</l>
+
+	<l id='570'>Que Rome, et quarante ans ont à peine achevé. </l>
+
+	<l id='571'>Vous-même d'un autre oeil me verriez-vous, Madame,</l>
+
+	<l id='572'>Si ces Grecs vos aïeux revivaient dans votre âme ?</l>
+
+	<l id='573'>Et puisqu'il faut enfin que je sois votre époux,</l>
+
+	<l id='574'>N'était-il pas plus noble, et plus digne de vous,</l>
+
+	<l id='575'>De joindre à ce devoir votre propre suffrage, </l>
+
+	<l id='576'>D'opposer votre estime au destin qui m'outrage, </l>
+
+	<l id='577'>Et de me rassurer, en flattant ma douleur, </l>
+
+	<l id='578'>Contre la défiance attachée au malheur ? </l>
+
+	<l id='579'>Hé quoi ? N'avez-vous rien, Madame, à me répondre ? </l>
+
+	<l id='580'>Tout mon empressement ne sert qu'à vous confondre. </l>
+
+	<l id='581'>Vous demeurez muette, et loin de me parler, </l>
+
+	<l id='582'>Je vois malgré vos soins vos pleurs prêts à couler.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='583'>Moi, Seigneur ? Je n'ai point de larmes à répandre.</l>
+
+	<l id='584'>J'obéis. N'est-ce pas assez me faire entendre ?</l>
+
+	<l id='585' part="i">Et ne suffit-il pas...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='585' part="f">Non, ce n'est pas assez. </l>
+
+	<l id='586'>Je vous entends ici mieux que vous ne pensez. </l>
+
+	<l id='587'>Je vois qu'on m'a dit vrai. Ma juste jalousie </l>
+
+	<l id='588'>Par vos propres discours est trop bien éclaircie. </l>
+
+	<l id='589'>Je vois qu'un fils perfide épris de vos beautés </l>
+
+	<l id='590'>Vous a parlé d'amour, et que vous l'écoutez. </l>
+
+	<l id='591'>Je vous jette pour lui dans des craintes nouvelles. </l>
+
+	<l id='592'>Mais il jouira peu de vos pleurs infidèles, </l>
+
+	<l id='593'>Madame, et désormais tout est sourd à mes lois, </l>
+
+	<l id='594'>Ou bien vous l'avez vu pour la dernière fois. </l>
+
+	<l id='595' part="i">Appelez Xipharès.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='595' part="f">Ah ! que voulez-vous faire ? </l>
+
+	<l id='596' part="i">Xipharès...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='596' part="f">Xipharès n'a point trahi son père.</l>
+
+	<l id='597'>Vous vous pressez en vain de le désavouer, </l>
+
+	<l id='598'>Et ma tendre amitié ne peut que s'en louer.</l>
+
+	<l id='599'>Ma honte en serait moindre ainsi que votre crime, </l>
+
+	<l id='600'>Si ce fils en effet digne de votre estime </l>
+
+	<l id='601'>À quelque amour encore avait pu vous forcer.</l>
+
+	<l id='602'>Mais qu'un traître qui n'est hardi qu'à m'offenser,</l>
+
+	<l id='603'>De qui nulle vertu n'accompagne l'audace,</l>
+
+	<l id='604'>Que Pharnace, en un mot, ait pu prendre ma place ? </l>
+
+	<l id='605'>Qu'il soit aimé, Madame, et que je sois haï ? </l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='5'><head>SCÈNE V. Mithridate, Monime, Xipharès.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='606'>Venez, mon fils, venez, votre père est trahi. </l>
+
+	<l id='607'>Un fils audacieux insulte à ma ruine, </l>
+
+	<l id='608'>Traverse mes desseins, m'outrage, m'assassine, </l>
+
+	<l id='609'>Aime la reine enfin, lui plaît, et me ravit </l>
+
+	<l id='610'>Un coeur que son devoir à moi seul asservit. </l>
+
+	<l id='611'>Heureux pourtant, heureux ! que dans cette disgrâce </l>
+
+	<l id='612'>Je ne puisse accuser que la main de Pharnace,</l>
+
+	<l id='613'>Qu'une mère infidèle, un frère audacieux </l>
+
+	<l id='614'>Vous présentent en vain leur exemple odieux.</l>
+
+	<l id='615'>Oui mon fils, c'est vous seul sur qui je me repose, </l>
+
+	<l id='616'>Vous seul qu'aux grands desseins que mon coeur se propose,</l>
+
+	<l id='617'>J'ai choisi dès longtemps pour digne compagnon, </l>
+
+	<l id='618'>L'héritier de mon sceptre, et surtout de mon nom. </l>
+
+	<l id='619'>Pharnace en ce moment, et ma flamme offensée </l>
+
+	<l id='620'>Ne peuvent pas tout seuls occuper ma pensée. </l>
+
+	<l id='621'>D'un voyage important les soins et les apprêts, </l>
+
+	<l id='622'>Mes vaisseaux qu'à partir il faut tenir tout prêts, </l>
+
+	<l id='623'>Mes soldats dont je veux tenter la complaisance</l>
+
+	<l id='624'>Dans ce même moment demandent ma présence. </l>
+
+	<l id='625'>Vous cependant ici veillez pour mon repos. </l>
+
+	<l id='626'>D'un rival insolent arrêtez les complots. </l>
+
+	<l id='627'>Ne quittez point la reine, et s'il se peut vous-même </l>
+
+	<l id='628'>Rendez-la moins contraire aux voeux d'un roi qui l'aime. </l>
+
+	<l id='629'>Détournez-la, mon fils, d'un choix injurieux.</l>
+
+	<l id='630'>Juge sans intérêt vous la convaincrez mieux. </l>
+
+	<l id='631'>En un mot, c'est assez éprouver ma faiblesse.</l>
+
+	<l id='632'>Qu'elle ne pousse point cette même tendresse,</l>
+
+	<l id='633'>Que sais-je ? à des fureurs, dont mon coeur outragé </l>
+
+	<l id='634'>Ne se repentirait qu'après s'être vengé.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='6'><head>SCÈNE VI. Monime, Xipharès.</head>
+
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='635'>Que dirai-je, Madame ? Et comment dois-je entendre</l>
+
+	<l id='636'>Cet ordre, ce discours que je ne puis comprendre ?</l>
+
+	<l id='637'>Serait-il vrai, grands dieux ! que trop aimé de vous</l>
+
+	<l id='638'>Pharnace eût en effet mérité ce courroux ?</l>
+
+	<l id='639'>Pharnace aurait-il part à ce désordre extrême ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='640'>Pharnace ? ô ciel ! Pharnace ? Ah qu'entends-je moi-même ? </l>
+
+	<l id='641'>Ce n'est donc pas assez que ce funeste jour </l>
+
+	<l id='642'>À tout ce que j'aimais m'arrache sans retour, </l>
+
+	<l id='643'>Et que de mon devoir esclave infortunée</l>
+
+	<l id='644'>À d'éternels ennuis je me voie enchaînée ? </l>
+
+	<l id='645'>Il faut qu'on joigne encor l'outrage à mes douleurs. </l>
+
+	<l id='646'>À l'amour de Pharnace on impute mes pleurs.</l>
+
+	<l id='647'>Malgré toute ma haine on veut qu'il m'ait su plaire. </l>
+
+	<l id='648'>Je le pardonne au roi, qu'aveugle sa colère, </l>
+
+	<l id='649'>Et qui de mes secrets ne peut être éclairci. </l>
+
+	<l id='650'>Mais vous, Seigneur, mais vous, me traitez-vous ainsi ? </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='651'>Ah, Madame, excusez un amant qui s'égare, </l>
+
+	<l id='652'>Qui lui-même lié par un devoir barbare, </l>
+
+	<l id='653'>Se voit prêt de tout perdre, et n'ose se venger.</l>
+
+	<l id='654'>Mais des fureurs du roi que puis-je enfin juger ? </l>
+
+	<l id='655'>Il se plaint qu'à ses voeux un autre amour s'oppose. </l>
+
+	<l id='656'>Quel heureux criminel en peut être la cause ? </l>
+
+	<l id='657' part="i">Qui ? Parlez.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='657' part="f">Vous cherchez, Prince, à vous tourmenter. </l>
+
+	<l id='658'>Plaignez votre malheur sans vouloir l'augmenter.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='659'>Je sais trop quel tourment je m'apprête moi-même. </l>
+
+	<l id='660'>C'est peu de voir un père épouser ce que j'aime. </l>
+
+	<l id='661'>Voir encore un rival honoré de vos pleurs, </l>
+
+	<l id='662'>Sans doute c'est pour moi le comble des malheurs.</l>
+
+	<l id='663'>Mais dans mon désespoir je cherche à les accroître. </l>
+
+	<l id='664'>Madame, par pitié, faites-le moi connaître. </l>
+
+	<l id='665'>Quel est-il cet amant ? Qui dois-je soupçonner ? </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='666'>Avez-vous tant de peine à vous l'imaginer ? </l>
+
+	<l id='667'>Tantôt quand je fuyais une injuste contrainte, </l>
+
+	<l id='668'>À qui contre Pharnace ai-je adressé ma plainte ? </l>
+
+	<l id='669'>Sous quel appui tantôt mon coeur s'est-il jeté ? </l>
+
+	<l id='670'>Quel amour ai-je enfin sans colère écouté ? </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='671'>Ô ciel ! Quoi, je serais ce bienheureux coupable </l>
+
+	<l id='672'>Que vous avez pu voir d'un regard favorable ? </l>
+
+	<l id='673'>Vos pleurs pour Xipharès auraient daigné couler ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='674'>Oui, Prince, il n'est plus temps de le dissimuler.</l>
+
+	<l id='675'>Ma douleur pour se taire a trop de violence. </l>
+
+	<l id='676'>Un rigoureux devoir me condamne au silence.</l>
+
+	<l id='677'>Mais il faut bien enfin malgré ses dures lois,</l>
+
+	<l id='678'>Parler pour la première et la dernière fois.</l>
+
+	<l id='679'>Vous m'aimez dès longtemps. Une égale tendresse,</l>
+
+	<l id='680'>Pour vous depuis longtemps m'afflige et m'intéresse. </l>
+
+	<l id='681'>Songez depuis quel jour ces funestes appas</l>
+
+	<l id='682'>Firent naître un amour qu'ils ne méritaient pas.</l>
+
+	<l id='683'>Rappelez un espoir, qui ne vous dura guère, </l>
+
+	<l id='684'>Le trouble où vous jeta l'amour de votre père,</l>
+
+	<l id='685'>Le tourment de me perdre, et de le voir heureux, </l>
+
+	<l id='686'>Les rigueurs d'un devoir contraire à tous vos voeux :</l>
+
+	<l id='687'>Vous n'en sauriez, Seigneur, retracer la mémoire, </l>
+
+	<l id='688'>Ni conter vos malheurs, sans conter mon histoire, </l>
+
+	<l id='689'>Et lorsque ce matin j'en écoutais le cours,</l>
+
+	<l id='690'>Mon coeur vous répondait tous vos mêmes discours. </l>
+
+	<l id='691'>Inutile, ou plutôt funeste sympathie ! </l>
+
+	<l id='692'>Trop parfaite union par le sort démentie ! </l>
+
+	<l id='693'>Ah ! par quel soin cruel le ciel avait-il joint </l>
+
+	<l id='694'>Deux coeurs que l'un pour l'autre il ne destinait point ?</l>
+
+	<l id='695'>Car quel que soit vers vous le penchant qui m'attire, </l>
+
+	<l id='696'>Je vous le dis, Seigneur, pour ne plus vous le dire.</l>
+
+	<l id='697'>Ma gloire me rappelle, et m'entraîne à l'autel </l>
+
+	<l id='698'>Où je vais vous jurer un silence éternel. </l>
+
+	<l id='699'>J'entends, vous gémissez. Mais telle est ma misère. </l>
+
+	<l id='700'>Je ne suis point à vous, je suis à votre père.</l>
+
+	<l id='701'>Dans ce dessein vous-même il faut me soutenir, </l>
+
+	<l id='702'>Et de mon faible coeur m'aider à vous bannir.</l>
+
+	<l id='703'>J'attends du moins, j'attends de votre complaisance,</l>
+
+	<l id='704'>Que désormais partout vous fuirez ma présence. </l>
+
+	<l id='705'>J'en viens de dire assez pour vous persuader </l>
+
+	<l id='706'>Que j'ai trop de raisons de vous le commander. </l>
+
+	<l id='707'>Mais après ce moment, si ce coeur magnanime </l>
+
+	<l id='708'>D'un véritable amour a brûlé pour Monime, </l>
+
+	<l id='709'>Je ne reconnais plus la foi de vos discours,</l>
+
+	<l id='710'>Qu'au soin que vous prendrez de m'éviter toujours. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='711'>Quelle marque, grands dieux ! d'un amour déplorable ! </l>
+
+	<l id='712'>Combien en un moment heureux et misérable ! </l>
+
+	<l id='713'>De quel comble de gloire, et de félicités </l>
+
+	<l id='714'>Dans quel abîme affreux vous me précipitez ! </l>
+
+	<l id='715'>Quoi ! j'aurai pu toucher un coeur comme le vôtre ? </l>
+
+	<l id='716'>Vous aurez pu m'aimer ? Et cependant un autre </l>
+
+	<l id='717'>Possédera ce coeur dont j'attirais les voeux ?</l>
+
+	<l id='718'>Père injuste, cruel, mais d'ailleurs malheureux !</l>
+
+	<l id='719'>Vous voulez que je fuie, et que je vous évite ? </l>
+
+	<l id='720'>Et cependant le roi m'attache à votre suite. </l>
+
+	<l id='721' part="i">Que dira-t-il ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='721' part="f">N'importe, il me faut obéir. </l>
+
+	<l id='722'>Inventez des raisons qui puissent l'éblouir. </l>
+
+	<l id='723'>D'un héros tel que vous c'est là l'effort suprême :</l>
+
+	<l id='724'>Cherchez, Prince, cherchez pour vous trahir vous-même, </l>
+
+	<l id='725'>Tout ce que pour jouir de leurs contentements </l>
+
+	<l id='726'>L'amour fait inventer aux vulgaires amants.</l>
+
+	<l id='727'>Enfin je me connais, il y va de ma vie. </l>
+
+	<l id='728'>De mes faibles efforts ma vertu se défie.</l>
+
+	<l id='729'>Je sais qu'en vous voyant, un tendre souvenir </l>
+
+	<l id='730'>Peut m'arracher du coeur quelque indigne soupir, </l>
+
+	<l id='731'>Que je verrai mon âme en secret déchirée</l>
+
+	<l id='732'>Revoler vers le bien, dont elle est séparée. </l>
+
+	<l id='733'>Mais je sais bien aussi que s'il dépend de vous,</l>
+
+	<l id='734'>De me faire chérir un souvenir si doux,</l>
+
+	<l id='735'>Vous n'empêcherez pas que ma gloire offensée </l>
+
+	<l id='736'>N'en punisse aussitôt la coupable pensée,</l>
+
+	<l id='737'>Que ma main dans mon coeur ne vous aille chercher, </l>
+
+	<l id='738'>Pour y laver ma honte, et vous en arracher. </l>
+
+	<l id='739'>Que dis-je ? En ce moment, le dernier qui nous reste, </l>
+
+	<l id='740'>Je me sens arrêter par un plaisir funeste. </l>
+
+	<l id='741'>Plus je vous parle, et plus, trop faible que je suis, </l>
+
+	<l id='742'>Je cherche à prolonger le péril que je fuis. </l>
+
+	<l id='743'>Il faut pourtant, il faut se faire violence, </l>
+
+	<l id='744'>Et sans perdre en adieux un reste de constance.</l>
+
+	<l id='745'>Je fuis. Souvenez-vous, Prince, de m'éviter, </l>
+
+	<l id='746'>Et méritez les pleurs que vous m'allez coûter.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='747'>Ah ! Madame... Elle fuit, et ne veut plus m'entendre. </l>
+
+	<l id='748'>Malheureux Xipharès, quel parti dois-tu prendre ? </l>
+
+	<l id='749'>On t'aime, on te bannit, toi-même tu vois bien </l>
+
+	<l id='750'>Que ton propre devoir s'accorde avec le sien. </l>
+
+	<l id='751'>Cours par un prompt trépas abréger ton supplice. </l>
+
+	<l id='752'>Toutefois attendons que son sort s'éclaircisse, </l>
+
+	<l id='753'>Et s'il faut qu'un rival la ravisse à ma foi, </l>
+
+	<l id='754'>Du moins, en expirant, ne la cédons qu'au roi.</l>
+</sp>
+
+</div2></div1><div1 type ='acte' n='3'><head>ACTE III</head>
+
+<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Mithridate, Pharnace, Xipharès.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='755'>Approchez, mes enfants. Enfin l'heure est venue</l>
+
+	<l id='756'>Qu'il faut que mon secret éclate à votre vue. </l>
+
+	<l id='757'>À mes nobles projets je vois tout conspirer.</l>
+
+	<l id='758'>Il ne me reste plus qu'à vous les déclarer.</l>
+
+	<l id='759'>Je fuis, ainsi le veut la Fortune ennemie.</l>
+
+	<l id='760'>Mais vous savez trop bien l'histoire de ma vie, </l>
+
+	<l id='761'>Pour croire que longtemps soigneux de me cacher</l>
+
+	<l id='762'>J'attende en ces déserts qu'on me vienne chercher.</l>
+
+	<l id='763'>La guerre a ses faveurs, ainsi que ses disgrâces.</l>
+
+	<l id='764'>Déjà plus d'une fois retournant sur mes traces,</l>
+
+	<l id='765'>Tandis que l'ennemi par ma fuite trompé</l>
+
+	<l id='766'>Tenait après son char un vain peuple occupé,</l>
+
+	<l id='767'>Et gravant en airain ses frêles avantages</l>
+
+	<l id='768'>De mes États conquis enchaînait les images,</l>
+
+	<l id='769'>Le Bosphore m'a vu, par de nouveaux apprêts,</l>
+
+	<l id='770'>Ramener la terreur du fond de ses marais, </l>
+
+	<l id='771'>Et chassant les Romains de l'Asie étonnée</l>
+
+	<l id='772'>Renverser en un jour l'ouvrage d'une année.</l>
+
+	<l id='773'>D'autres temps, d'autres soins. L'Orient accablé</l>
+
+	<l id='774'>Ne peut plus soutenir leur effort redoublé.</l>
+
+	<l id='775'>Il voit plus que jamais ses campagnes couvertes</l>
+
+	<l id='776'>De Romains que la guerre enrichit de nos pertes.</l>
+
+	<l id='777'>Des biens des nations ravisseurs altérés,</l>
+
+	<l id='778'>Le bruit de nos trésors les a tous attirés :</l>
+
+	<l id='779'>Il y courent en foule, et jaloux l'un de l'autre,</l>
+
+	<l id='780'>Désertent leur pays pour inonder le nôtre. </l>
+
+	<l id='781'>Moi seul je leur résiste. Ou lassés, ou soumis</l>
+
+	<l id='782'>Ma funeste amitié pèse à tous mes amis.</l>
+
+	<l id='783'>Chacun à ce fardeau veut dérober sa tête. </l>
+
+	<l id='784'>Le grand nom de Pompée assure sa conquête. </l>
+
+	<l id='785'>C'est l'effroi de l'Asie. Et loin de l'y chercher, </l>
+
+	<l id='786'>C'est à Rome, mes fils, que je prétends marcher. </l>
+
+	<l id='787'>Ce dessein vous surprend, et vous croyez peut-être</l>
+
+	<l id='788'>Que le seul désespoir aujourd'hui le fait naître.</l>
+
+	<l id='789'>J'excuse votre erreur. Et pour être approuvés, </l>
+
+	<l id='790'>De semblables projets veulent être achevés. </l>
+
+	<l id='791'>Ne vous figurez point, que de cette contrée</l>
+
+	<l id='792'>Par d'éternels remparts Rome soit séparée.</l>
+
+	<l id='793'>Je sais tous les chemins par où je dois passer,</l>
+
+	<l id='794'>Et si la mort bientôt ne me vient traverser,</l>
+
+	<l id='795'>Sans reculer plus loin l'effet de ma parole, </l>
+
+	<l id='796'>Je vous rends dans trois mois au pied du Capitole. </l>
+
+	<l id='797'>Doutez-vous que l'Euxin ne me porte en deux jours </l>
+
+	<l id='798'>Aux lieux où le Danube y vient finir son cours,</l>
+
+	<l id='799'>Que du Scythe avec moi l'alliance jurée </l>
+
+	<l id='800'>De l'Europe en ces lieux ne me livre l'entrée ? </l>
+
+	<l id='801'>Recueilli dans leurs ports, accru de leurs soldats</l>
+
+	<l id='802'>Nous verrons notre camp grossir à chaque pas. </l>
+
+	<l id='803'>Daces, Pannoniens, la fière Germanie,</l>
+
+	<l id='804'>Tous n'attendent qu'un chef contre la tyrannie. </l>
+
+	<l id='805'>Vous avez vu l'Espagne, et surtout les Gaulois</l>
+
+	<l id='806'>Contre ces mêmes murs qu'ils ont pris autrefois,</l>
+
+	<l id='807'>Exciter ma vengeance, et jusque dans la Grèce </l>
+
+	<l id='808'>Par des ambassadeurs accuser ma paresse. </l>
+
+	<l id='809'>Ils savent que sur eux prêt à se déborder</l>
+
+	<l id='810'>Ce torrent, s'il m'entraîne, ira tout inonder. </l>
+
+	<l id='811'>Et vous les verrez tous prévenant son ravage,</l>
+
+	<l id='812'>Guider dans l'Italie, et suivre mon passage.</l>
+
+	<l id='813'>C'est là qu'en arrivant, plus qu'en tout le chemin,</l>
+
+	<l id='814'>Vous trouverez partout l'horreur du nom romain,</l>
+
+	<l id='815'>Et la triste Italie encor toute fumante</l>
+
+	<l id='816'>Des feux qu'a rallumés sa liberté mourante.</l>
+
+	<l id='817'>Non, Princes, ce n'est point au bout de l'univers</l>
+
+	<l id='818'>Que Rome fait sentir tout le poids de ses fers ; </l>
+
+	<l id='819'>Et de près inspirant les haines les plus fortes,</l>
+
+	<l id='820'>Tes plus grands ennemis, Rome, sont à tes portes. </l>
+
+	<l id='821'>Ah ! s'ils ont pu choisir pour leur libérateur,</l>
+
+	<l id='822'>Spartacus, un esclave, un vil gladiateur, </l>
+
+	<l id='823'>S'ils suivent au combat des brigands qui les vengent, </l>
+
+	<l id='824'>De quelle noble ardeur pensez-vous qu'ils se rangent </l>
+
+	<l id='825'>Sous les drapeaux d'un roi longtemps victorieux, </l>
+
+	<l id='826'>Qui voit jusqu'à Cyrus remonter ses aïeux ? </l>
+
+	<l id='827'>Que dis-je ? En quel état croyez-vous la surprendre ?</l>
+
+	<l id='828'>Vide de légions qui la puissent défendre,</l>
+
+	<l id='829'>Tandis que tout s'occupe à me persécuter,</l>
+
+	<l id='830'>Leurs femmes, leurs enfants pourront-ils m'arrêter ? </l>
+
+	<l id='831'>Marchons, et dans son sein rejetons cette guerre</l>
+
+	<l id='832'>Que sa fureur envoie aux deux bouts de la terre.</l>
+
+	<l id='833'>Attaquons dans leurs murs ces conquérants si fiers.</l>
+
+	<l id='834'>Qu'ils tremblent à leur tour pour leurs propres foyers.</l>
+
+	<l id='835'>Annibal l'a prédit, croyons-en ce grand homme, </l>
+
+	<l id='836'>Jamais on ne vaincra les Romains que dans Rome.</l>
+
+	<l id='837'>Noyons-la dans son sang justement répandu.</l>
+
+	<l id='838'>Brûlons ce Capitole, où j'étais attendu.</l>
+
+	<l id='839'>Détruisons ses honneurs, et faisons disparaître</l>
+
+	<l id='840'>La honte de cent rois, et la mienne peut-être ; </l>
+
+	<l id='841'>Et la flamme à la main effaçons tous ces noms</l>
+
+	<l id='842'>Que Rome y consacrait à d'éternels affronts.</l>
+
+	<l id='843'>Voilà l'ambition dont mon âme est saisie.</l>
+
+	<l id='844'>Ne croyez point pourtant qu'éloigné de l'Asie,</l>
+
+	<l id='845'>J'en laisse les Romains tranquilles possesseurs. </l>
+
+	<l id='846'>Je sais où je lui dois trouver des défenseurs.</l>
+
+	<l id='847'>Je veux que d'ennemis partout enveloppée</l>
+
+	<l id='848'>Rome rappelle en vain le secours de Pompée.</l>
+
+	<l id='849'>Le Parthe, des Romains comme moi la terreur,</l>
+
+	<l id='850'>Consent de succéder à ma juste fureur. </l>
+
+	<l id='851'>Prêt d'unir avec moi sa haine et sa famille,</l>
+
+	<l id='852'>Il me demande un fils pour époux à sa fille.</l>
+
+	<l id='853'>Cet honneur vous regarde, et j'ai fait choix de vous,</l>
+
+	<l id='854'>Pharnace. Allez, soyez ce bienheureux époux.</l>
+
+	<l id='855'>Demain, sans différer, je prétends que l'aurore</l>
+
+	<l id='856'>Découvre mes vaisseaux déjà loin du Bosphore. </l>
+
+	<l id='857'>Vous que rien n'y retient, partez dès ce moment, </l>
+
+	<l id='858'>Et méritez mon choix par votre empressement. </l>
+
+	<l id='859'>Achevez cet hymen. Et repassant l'Euphrate</l>
+
+	<l id='860'>Faites voir à l'Asie un autre Mithridate. </l>
+
+	<l id='861'>Que nos tyrans communs en pâlissent d'effroi, </l>
+
+	<l id='862'>Et que le bruit à Rome en vienne jusqu'à moi.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='863'>Seigneur, je ne vous puis déguiser ma surprise. </l>
+
+	<l id='864'>J'écoute avec transport cette grande entreprise.</l>
+
+	<l id='865'>Je l'admire. Et jamais un plus hardi dessein </l>
+
+	<l id='866'>Ne mit à des vaincus les armes à la main. </l>
+
+	<l id='867'>Surtout j'admire en vous ce coeur infatigable </l>
+
+	<l id='868'>Qui semble s'affermir sous le faix qui l'accable. </l>
+
+	<l id='869'>Mais si j'ose parler avec sincérité,</l>
+
+	<l id='870'>En êtes-vous réduit à cette extrémité ? </l>
+
+	<l id='871'>Pourquoi tenter si loin des courses inutiles </l>
+
+	<l id='872'>Quand vos États encor vous offrent tant d'asiles, </l>
+
+	<l id='873'>Et vouloir affronter des travaux infinis,</l>
+
+	<l id='874'>Dignes plutôt d'un chef de malheureux bannis,</l>
+
+	<l id='875'>Que d'un roi, qui naguère, avec quelque apparence, </l>
+
+	<l id='876'>De l'aurore au couchant portait son espérance,</l>
+
+	<l id='877'>Fondait sur trente États son trône florissant, </l>
+
+	<l id='878'>Dont le débris est même un empire puissant ? </l>
+
+	<l id='879'>Vous seul, Seigneur, vous seul, après quarante années</l>
+
+	<l id='880'>Pouvez encor lutter contre les destinées ; </l>
+
+	<l id='881'>Implacable ennemi de Rome, et du repos, </l>
+
+	<l id='882'>Comptez-vous vos soldats pour autant de héros ? </l>
+
+	<l id='883'>Pensez-vous que ces coeurs tremblants de leur défaite,</l>
+
+	<l id='884'>Fatigués d'une longue et pénible retraite,</l>
+
+	<l id='885'>Cherchent avidement sous un ciel étranger </l>
+
+	<l id='886'>La mort, et le travail pire que le danger ? </l>
+
+	<l id='887'>Vaincus plus d'une fois aux yeux de la patrie,</l>
+
+	<l id='888'>Soutiendront-ils ailleurs un vainqueur en furie ? </l>
+
+	<l id='889'>Sera-t-il moins terrible, et le vaincront-ils mieux </l>
+
+	<l id='890'>Dans le sein de sa ville, à l'aspect de ses dieux ? </l>
+
+	<l id='891'>Le Parthe vous recherche, et vous demande un gendre.</l>
+
+	<l id='892'>Mais ce Parthe, Seigneur, ardent à nous défendre</l>
+
+	<l id='893'>Lorsque tout l'univers semblait nous protéger,</l>
+
+	<l id='894'>D'un gendre sans appui voudra-t-il se charger ?</l>
+
+	<l id='895'>M'en irai-je moi seul, rebut de la Fortune, </l>
+
+	<l id='896'>Essuyer l'inconstance au Parthe si commune,</l>
+
+	<l id='897'>Et peut-être pour fruit d'un téméraire amour</l>
+
+	<l id='898'>Exposer votre nom au mépris de sa cour ?</l>
+
+	<l id='899'>Du moins s'il faut céder, si contre notre usage</l>
+
+	<l id='900'>Il faut d'un suppliant emprunter le visage, </l>
+
+	<l id='901'>Sans m'envoyer du Parthe embrasser les genoux,</l>
+
+	<l id='902'>Sans vous-même implorer des rois moindres que vous,</l>
+
+	<l id='903'>Ne pourrions-nous pas prendre une plus sûre voie ?</l>
+
+	<l id='904'>Jetons-nous dans les bras qu'on nous tend avec joie.</l>
+
+	<l id='905'>Rome en votre faveur facile à s'apaiser... </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='906'>Rome, mon frère ! ô ciel ! Qu'osez-vous proposer ?</l>
+
+	<l id='907'>Vous voulez que le roi s'abaisse et s'humilie ?</l>
+
+	<l id='908'>Qu'il démente en un jour tout le cours de sa vie ?</l>
+
+	<l id='909'>Qu'il se fie aux Romains, et subisse des lois</l>
+
+	<l id='910'>Dont il a quarante ans défendu tous les rois ? </l>
+
+	<l id='911'>Continuez, Seigneur. Tout vaincu que vous êtes,</l>
+
+	<l id='912'>La guerre, les périls sont vos seules retraites.</l>
+
+	<l id='913'>Rome poursuit en vous un ennemi fatal,</l>
+
+	<l id='914'>Plus conjuré contre elle, et plus craint qu'Annibal.</l>
+
+	<l id='915'>Tout couvert de son sang, quoi que vous puissiez faire, </l>
+
+	<l id='916'>N'en attendez jamais qu'une paix sanguinaire,</l>
+
+	<l id='917'>Telle qu'en un seul jour un ordre de vos mains</l>
+
+	<l id='918'>La donna dans l'Asie à cent mille Romains.</l>
+
+	<l id='919'>Toutefois épargnez votre tête sacrée.</l>
+
+	<l id='920'>Vous-même n'allez point de contrée en contrée</l>
+
+	<l id='921'>Montrer aux nations Mithridate détruit,</l>
+
+	<l id='922'>Et de votre grand nom diminuer le bruit.</l>
+
+	<l id='923'>Votre vengeance est juste, il la faut entreprendre.</l>
+
+	<l id='924'>Brûlez le Capitole, et mettez Rome en cendre.</l>
+
+	<l id='925'>Mais c'est assez pour vous d'en ouvrir les chemins. </l>
+
+	<l id='926'>Faites porter ce feu par de plus jeunes mains,</l>
+
+	<l id='927'>Et tandis que l'Asie occupera Pharnace,</l>
+
+	<l id='928'>De cette autre entreprise honorez mon audace. </l>
+
+	<l id='929'>Commandez. Laissez-nous de votre nom suivis</l>
+
+	<l id='930'>Justifier partout que nous sommes vos fils. </l>
+
+	<l id='931'>Embrasez par nos mains le couchant et l'aurore.</l>
+
+	<l id='932'>Remplissez l'univers, sans sortir du Bosphore.</l>
+
+	<l id='933'>Que les Romains pressés de l'un à l'autre bout</l>
+
+	<l id='934'>Doutent où vous serez, et vous trouvent partout. </l>
+
+	<l id='935'>Dès ce même moment ordonnez que je parte. </l>
+
+	<l id='936'>Ici tout vous retient. Et moi tout m'en écarte. </l>
+
+	<l id='937'>Et si ce grand dessein surpasse ma valeur, </l>
+
+	<l id='938'>Du moins ce désespoir convient à mon malheur. </l>
+
+	<l id='939'>Trop heureux d'avancer la fin de ma misère,</l>
+
+	<l id='940'>J'irai... J'effacerai le crime de ma mère, </l>
+
+	<l id='941'>Seigneur. Vous m'en voyez rougir à vos genoux.</l>
+
+	<l id='942'>J'ai honte de me voir si peu digne de vous.</l>
+
+	<l id='943'>Tout mon sang doit laver une tache si noire. </l>
+
+	<l id='944'>Mais je cherche un trépas utile à votre gloire, </l>
+
+	<l id='945'>Et Rome unique objet d'un désespoir si beau, </l>
+
+	<l id='946'>Du fils de Mithridate est le digne tombeau.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE, se levant.</speaker>
+
+	<l id='947'>Mon fils, ne parlons plus d'une mère infidèle. </l>
+
+	<l id='948'>Votre père est content, il connaît votre zèle,</l>
+
+	<l id='949'>Et ne vous verra point affronter de danger </l>
+
+	<l id='950'>Qu'avec vous son amour ne veuille partager. </l>
+
+	<l id='951'>Vous me suivrez, je veux que rien ne nous sépare. </l>
+
+	<l id='952'>Et vous, à m'obéir, Prince, qu'on se prépare. </l>
+
+	<l id='953'>Les vaisseaux sont tout prêts. J'ai moi-même ordonné </l>
+
+	<l id='954'>La suite, et l'appareil qui vous est destiné. </l>
+
+	<l id='955'>Arbate à cet hymen chargé de vous conduire</l>
+
+	<l id='956'>De votre obéissance aura soin de m'instruire. </l>
+
+	<l id='957'>Allez. Et soutenant l'honneur de vos aïeux, </l>
+
+	<l id='958'>Dans cet embrassement recevez mes adieux.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='959' part="i">Seigneur...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='959' part="f">Ma volonté, Prince, vous doit suffire. </l>
+
+	<l id='960'>Obéissez. C'est trop vous le faire redire. </l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='961'>Seigneur, si pour vous plaire il ne faut que périr,</l>
+
+	<l id='962'>Plus ardent qu'aucun autre on m'y verra courir. </l>
+
+	<l id='963'>Combattant à vos yeux permettez que je meure.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='964'>Je vous ai commandé de partir tout à l'heure. </l>
+
+	<l id='965'>Mais après ce moment... Prince, vous m'entendez, </l>
+
+	<l id='966'>Et vous êtes perdu si vous me répondez.</l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='967'>Dussiez vous présenter mille morts à ma vue, </l>
+
+	<l id='968'>Je ne saurais chercher une fille inconnue. </l>
+
+	<l id='969' part="i">Ma vie est en vos mains.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='969' part="f">Ah ! c'est où je t'attends. </l>
+
+	<l id='970'>Tu ne saurais partir, perfide, et je t'entends. </l>
+
+	<l id='971'>Je sais pourquoi tu fuis l'hymen où je t'envoie.</l>
+
+	<l id='972'>Il te fâche en ces lieux d'abandonner ta proie.</l>
+
+	<l id='973'>Monime te retient. Ton amour criminel </l>
+
+	<l id='974'>Prétendait l'arracher à l'hymen paternel. </l>
+
+	<l id='975'>Ni l'ardeur dont tu sais que je l'ai recherchée, </l>
+
+	<l id='976'>Ni déjà sur son front ma couronne attachée, </l>
+
+	<l id='977'>Ni cet asile même où je la fais garder, </l>
+
+	<l id='978'>Ni mon juste courroux n'ont pu t'intimider. </l>
+
+	<l id='979'>Traître, pour les Romains tes lâches complaisances </l>
+
+	<l id='980'>N'étaient pas à mes yeux d'assez noires offenses. </l>
+
+	<l id='981'>Il te manquait encor ces perfides amours,</l>
+
+	<l id='982'>Pour être le supplice et l'horreur de mes jours. </l>
+
+	<l id='983'>Loin de t'en repentir, je vois sur ton visage </l>
+
+	<l id='984'>Que ta confusion ne part que de ta rage. </l>
+
+	<l id='985'>Il te tarde déjà qu'échappé de mes mains </l>
+
+	<l id='986'>Tu ne coures me perdre, et me vendre aux Romains.</l>
+
+	<l id='987'>Mais avant que partir je me ferai justice.</l>
+
+	<l id='988' part="i">Je te l'ai dit.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='2'><head>SCÈNE II. Mithridate, Pharnace, Xipharès, Gardes.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='988' part="f">Holà, gardes. Qu'on le saisisse. </l>
+
+	<l id='989'>Oui, lui-même, Pharnace. Allez, et de ce pas </l>
+
+	<l id='990'>Qu'enfermé dans la tour on ne le quitte pas. </l>
+
+</sp>
+<sp who="PHARNACE"><speaker>PHARNACE.</speaker>
+
+	<l id='991'>Hé bien ! Sans me parer d'une innocence vaine,</l>
+
+	<l id='992'>Il est vrai mon amour mérite votre haine. </l>
+
+	<l id='993'>J'aime. L'on vous a fait un fidèle récit. </l>
+
+	<l id='994'>Mais Xipharès, Seigneur, ne vous a pas tout dit. </l>
+
+	<l id='995'>C'est le moindre secret qu'il pouvait vous apprendre. </l>
+
+	<l id='996'>Et ce fils si fidèle a dû vous faire entendre,</l>
+
+	<l id='997'>Que des mêmes ardeurs dès longtemps enflammé,</l>
+
+	<l id='998'>Il aime aussi la reine, et même en est aimé.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='3'><head>SCÈNE III. Mithridate, Xipahrès.</head>
+
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='999'>Seigneur, le croirez-vous qu'un dessein si coupable... </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1000'>Mon fils, je sais de quoi votre frère est capable. </l>
+
+	<l id='1001'>Me préserve le ciel de soupçonner jamais </l>
+
+	<l id='1002'>Que d'un prix si cruel vous payez mes bienfaits ;</l>
+
+	<l id='1003'>Qu'un fils, qui fut toujours le bonheur de ma vie, </l>
+
+	<l id='1004'>Ait pu percer ce coeur qu'un père lui confie.</l>
+
+	<l id='1005'>Je ne le croirai point. Allez. Loin d'y songer, </l>
+
+	<l id='1006'>Je ne vais désormais penser qu'à nous venger.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='4'><head>SCÈNE IV.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1007'>Je ne le croirai point ? Vain espoir qui me flatte ! </l>
+
+	<l id='1008'>Tu ne le crois que trop, malheureux Mithridate.</l>
+
+	<l id='1009'>Xipharès mon rival ? Et d'accord avec lui </l>
+
+	<l id='1010'>La reine aurait osé me tromper aujourd'hui ? </l>
+
+	<l id='1011'>Quoi ! De quelque côté que je tourne la vue, </l>
+
+	<l id='1012'>La foi de tous les coeurs est pour moi disparue ? </l>
+
+	<l id='1013'>Tout m'abandonne ailleurs ? Tout me trahit ici ? </l>
+
+	<l id='1014'>Pharnace, amis, maîtresse ? Et toi, mon fils, aussi ? </l>
+
+	<l id='1015'>Toi de qui la vertu consolant ma disgrâce... </l>
+
+	<l id='1016'>Mais ne connais-je pas le perfide Pharnace ? </l>
+
+	<l id='1017'>Quelle faiblesse à moi d'en croire un furieux,</l>
+
+	<l id='1018'>Qu'arme contre son frère un courroux envieux,</l>
+
+	<l id='1019'>Ou dont le désespoir me troublant par des fables,</l>
+
+	<l id='1020'>Grossit pour se sauver le nombre des coupables ? </l>
+
+	<l id='1021'>Non, ne l'en croyons point. Et sans trop nous presser, </l>
+
+	<l id='1022'>Voyons, examinons. Mais par où commencer ? </l>
+
+	<l id='1023'>Qui m'en éclaircira ? Quels témoins ? Quel indice ? </l>
+
+	<l id='1024'>Le ciel en ce moment m'inspire un artifice. </l>
+
+	<l id='1025'>Qu'on appelle la reine. Oui sans aller plus loin, </l>
+
+	<l id='1026'>Je veux l'ouïr. Mon choix s'arrête à ce témoin. </l>
+
+	<l id='1027'>L'amour avidement croit tout ce qui le flatte.</l>
+
+	<l id='1028'>Qui peut de son vainqueur mieux parler que l'ingrate ? </l>
+
+	<l id='1029'>Voyons, qui son amour accusera des deux. </l>
+
+	<l id='1030'>S'il n'est digne de moi, le piège est digne d'eux. </l>
+
+	<l id='1031'>Trompons qui nous trahit. Et pour connaître un traître</l>
+
+	<l id='1032'>Il n'est point de moyens... Mais je la vois paraître.</l>
+
+	<l id='1033'>Feignons. Et de son coeur d'un vain espoir flatté </l>
+
+	<l id='1034'>Par un mensonge adroit tirons la vérité.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='5'><head>SCÈNE V. Mithridate, Monime.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1035'>Enfin j'ouvre les yeux, et je me fais justice. </l>
+
+	<l id='1036'>C'est faire à vos beautés un triste sacrifice, </l>
+
+	<l id='1037'>Que de vous présenter, Madame, avec ma foi</l>
+
+	<l id='1038'>Tout l'âge, et le malheur que je traîne avec moi. </l>
+
+	<l id='1039'>Jusqu'ici la Fortune, et la Victoire mêmes </l>
+
+	<l id='1040'>Cachaient mes cheveux blancs sous trente diadèmes. </l>
+
+	<l id='1041'>Mais ce temps-là n'est plus. Je régnais, et je fuis. </l>
+
+	<l id='1042'>Mes ans se sont accrus. Mes honneurs sont détruits.</l>
+
+	<l id='1043'>Et mon front dépouillé d'un si noble avantage</l>
+
+	<l id='1044'>Du temps, qui l'a flétri, laisse voir tout l'outrage, </l>
+
+	<l id='1045'>D'ailleurs mille desseins partagent mes esprits. </l>
+
+	<l id='1046'>D'un camp prêt à partir vous entendez les cris.</l>
+
+	<l id='1047'>Sortant de mes vaisseaux, il faut que j'y remonte. </l>
+
+	<l id='1048'>Quel temps pour un hymen, qu'une fuite si prompte, </l>
+
+	<l id='1049'>Madame ! Et de quel front vous unir à mon sort, </l>
+
+	<l id='1050'>Quand je ne cherche plus que la guerre et la mort ? </l>
+
+	<l id='1051'>Cessez pourtant, cessez de prétendre à Pharnace, </l>
+
+	<l id='1052'>Quand je me fais justice il faut qu'on se la fasse. </l>
+
+	<l id='1053'>Je ne souffrirai point que ce fils odieux,</l>
+
+	<l id='1054'>Que je viens pour jamais de bannir de mes yeux,</l>
+
+	<l id='1055'>Possédant une amour, qui me fut déniée, </l>
+
+	<l id='1056'>Vous fasse des Romains devenir l'alliée.</l>
+
+	<l id='1057'>Mon trône vous est dû. Loin de m'en repentir, </l>
+
+	<l id='1058'>Je vous y place même, avant que de partir ;</l>
+
+	<l id='1059'>Pourvu que vous vouliez, qu'une main qui m'est chère,</l>
+
+	<l id='1060'>Un fils, le digne objet de l'amour de son père, </l>
+
+	<l id='1061'>Xipharès en un mot devenant votre époux,</l>
+
+	<l id='1062'>Me venge de Pharnace, et m'acquitte envers vous.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1063' part="i">Xipharès ! Lui, Seigneur !</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1063' part="f">Oui lui-même, Madame. </l>
+
+	<l id='1064'>D'où peut naître à ce nom le trouble de votre âme ? </l>
+
+	<l id='1065'>Contre un si juste choix qui peut vous révolter ? </l>
+
+	<l id='1066'>Est-ce quelque mépris qu'on ne puisse dompter ? </l>
+
+	<l id='1067'>Je le répète encor. C'est un autre moi-même,</l>
+
+	<l id='1068'>Un fils victorieux, qui me chérit, que j'aime,</l>
+
+	<l id='1069'>L'ennemi des Romains, l'héritier, et l'appui </l>
+
+	<l id='1070'>D'un empire et d'un nom qui va renaître en lui. </l>
+
+	<l id='1071'>Et quoi que votre amour ait osé se promettre,</l>
+
+	<l id='1072'>Ce n'est qu'entre ses mains que je puis vous remettre.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1073'>Que dites-vous ? Ô ciel ! Pourriez-vous approuver... </l>
+
+	<l id='1074'>Pourquoi, Seigneur, pourquoi voulez-vous m'éprouver ? </l>
+
+	<l id='1075'>Cessez de tourmenter une âme infortunée. </l>
+
+	<l id='1076'>Je sais que c'est à vous que je fus destinée.</l>
+
+	<l id='1077'>Je sais qu'en ce moment pour ce noeud solennel</l>
+
+	<l id='1078'>La victime, Seigneur, nous attend à l'autel. </l>
+
+	<l id='1079' part="i">Venez.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1079' part="f">Je le vois bien, quelque effort que je fasse, </l>
+
+	<l id='1080'>Madame, vous voulez vous garder à Pharnace. </l>
+
+	<l id='1081'>Je reconnais toujours vos injustes mépris,</l>
+
+	<l id='1082'>Ils ont même passé sur mon malheureux fils.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1083' part="i">Je le méprise !</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1083' part="f">Hé bien ! n'en parlons plus, Madame.</l>
+
+	<l id='1084'>Continuez. Brûlez d'une honteuse flamme. </l>
+
+	<l id='1085'>Tandis qu'avec mon fils je vais loin de vos yeux</l>
+
+	<l id='1086'>Chercher au bout du monde un trépas glorieux ; </l>
+
+	<l id='1087'>Vous cependant ici servez avec son frère,</l>
+
+	<l id='1088'>Et vendez aux Romains le sang de votre père. </l>
+
+	<l id='1089'>Venez. Je ne saurais mieux punir vos dédains, </l>
+
+	<l id='1090'>Qu'en vous mettant moi-même en ses serviles mains.</l>
+
+	<l id='1091'>Et sans plus me charger du soin de votre gloire,</l>
+
+	<l id='1092'>Je veux laisser de vous jusqu'à votre mémoire. </l>
+
+	<l id='1093'>Allons, Madame, allons. Je m'en vais vous unir.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1094'>Plutôt de mille morts dussiez-vous me punir.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1095'>Vous résistez en vain, et j'entends votre fuite. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1096'>En quelle extrémité, Seigneur, suis-je réduite ?</l>
+
+	<l id='1097'>Mais enfin je vous crois, et je ne puis penser</l>
+
+	<l id='1098'>Qu'à feindre si longtemps vous puissiez vous forcer.</l>
+
+	<l id='1099'>Les dieux me sont témoins, qu'à vous plaire bornée,</l>
+
+	<l id='1100'>Mon âme à tout son sort s'était abandonnée. </l>
+
+	<l id='1101'>Mais si quelque faiblesse avait pu m'alarmer,</l>
+
+	<l id='1102'>Si de tous mes efforts mon coeur a dû s'armer,</l>
+
+	<l id='1103'>Ne croyez point, Seigneur, qu'auteur de mes alarmes,</l>
+
+	<l id='1104'>Pharnace m'ait jamais coûté les moindres larmes.</l>
+
+	<l id='1105'>Ce fils victorieux que vous favorisez, </l>
+
+	<l id='1106'>Cette vivante image en qui vous vous plaisez,</l>
+
+	<l id='1107'>Cet ennemi de Rome et cet autre vous-même,</l>
+
+	<l id='1108'>Enfin ce Xipharès que vous voulez que j'aime...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1109' part="i">Vous l'aimez ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1109' part="f">Si le sort ne m'eût donnée à vous, </l>
+
+	<l id='1110'>Mon bonheur dépendait de l'avoir pour époux ; </l>
+
+	<l id='1111'>Avant que votre amour m'eût envoyé ce gage,</l>
+
+	<l id='1112'>Nous nous aimions... Seigneur, vous changez de visage.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1113'>Non, Madame. Il suffit. Je vais vous l'envoyer. </l>
+
+	<l id='1114'>Allez. Le temps est cher. Il le faut employer. </l>
+
+	<l id='1115'>Je vois qu'à m'obéir vous êtes disposée. </l>
+
+	<l id='1116' part="i">Je suis content.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME, en s'en allant.</speaker>
+
+	<l id='1116' part="f">Ô ciel ! Me serais-je abusée ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='6'><head>SCÈNE VI.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1117'>Ils s'aiment. C'est ainsi qu'on se jouait de nous. </l>
+
+	<l id='1118'>Ah fils ingrat ! Tu vas me répondre pour tous. </l>
+
+	<l id='1119'>Tu périras. Je sais combien ta renommée, </l>
+
+	<l id='1120'>Et tes fausses vertus ont séduit mon armée. </l>
+
+	<l id='1121'>Perfide, je te veux porter des coups certains,</l>
+
+	<l id='1122'>Il faut, pour te mieux perdre, écarter les mutins,</l>
+
+	<l id='1123'>Et faisant à mes yeux partir les plus rebelles, </l>
+
+	<l id='1124'>Ne garder près de moi que des troupes fidèles. </l>
+
+	<l id='1125'>Allons. Mais sans montrer un visage offensé, </l>
+
+	<l id='1126'>Dissimulons encor, comme j'ai commencé.</l>
+</sp>
+
+</div2>
+
+</div1>
+
+<div1 type ='acte' n='4'><head>ACTE IV</head>
+
+<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Monime, Phoedime.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1127'>Phoedime, au nom des dieux, fais ce que je désire.</l>
+
+	<l id='1128'>Va voir ce qui se passe, et reviens me le dire.</l>
+
+	<l id='1129'>Je ne sais. Mais mon coeur ne se peut rassurer. </l>
+
+	<l id='1130'>Mille soupçons affreux viennent me déchirer. </l>
+
+	<l id='1131'>Que tarde Xipharès ? Et d'où vient qu'il diffère </l>
+
+	<l id='1132'>À seconder des voeux qu'autorise son père ?</l>
+
+	<l id='1133'>Son père en me quittant me l'allait envoyer. </l>
+
+	<l id='1134'>Mais il feignait peut-être, il fallait tout nier. </l>
+
+	<l id='1135'>Le roi feignait ? Et moi découvrant ma pensée... </l>
+
+	<l id='1136'>Ô dieux ! en ce péril m'auriez-vous délaissée ? </l>
+
+	<l id='1137'>Et se pourrait-il bien qu'à son ressentiment</l>
+
+	<l id='1138'>Mon amour indiscret eût livré mon amant ? </l>
+
+	<l id='1139'>Quoi, Prince ! quand tout plein de ton amour extrême, </l>
+
+	<l id='1140'>Pour savoir mon secret tu me pressais toi-même, </l>
+
+	<l id='1141'>Mes refus trop cruels vingt fois te l'ont caché.</l>
+
+	<l id='1142'>Je t'ai même puni de l'avoir arraché ; </l>
+
+	<l id='1143'>Et quand de toi peut-être un père se défie,</l>
+
+	<l id='1144'>Que dis-je ? quand peut-être il y va de ta vie, </l>
+
+	<l id='1145'>Je parle et trop facile à me laisser tromper, </l>
+
+	<l id='1146'>Je lui marque le coeur où sa main doit frapper.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1147'>Ah ! traitez-le, Madame, avec plus de justice.</l>
+
+	<l id='1148'>Un grand roi descend-il jusqu'à cet artifice ? </l>
+
+	<l id='1149'>À prendre ce détour qui l'aurait pu forcer ? </l>
+
+	<l id='1150'>Sans murmure, à l'autel vous l'alliez devancer. </l>
+
+	<l id='1151'>Voulait-il perdre un fils qu'il aime avec tendresse ?</l>
+
+	<l id='1152'>Jusqu'ici les effets secondent sa promesse.</l>
+
+	<l id='1153'>Madame, il vous disait qu'un important dessein</l>
+
+	<l id='1154'>Malgré lui le forçait à vous quitter demain.</l>
+
+	<l id='1155'>Ce seul dessein l'occupe, et hâtant son voyage, </l>
+
+	<l id='1156'>Lui-même ordonne tout présent sur le rivage. </l>
+
+	<l id='1157'>Ses vaisseaux en tous lieux se chargent de soldats,</l>
+
+	<l id='1158'>Et partout Xipharès accompagne ses pas.</l>
+
+	<l id='1159'>D'un rival en fureur est-ce là la conduite ? </l>
+
+	<l id='1160'>Et voit-on ses discours démentis par la suite ? </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1161'>Pharnace cependant par son ordre arrêté</l>
+
+	<l id='1162'>Trouve en lui d'un rival toute la dureté. </l>
+
+	<l id='1163'>Phoedime, à Xipharès fera-t-il plus de grâce ?</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1164'>C'est l'ami des Romains qu'il punit en Pharnace. </l>
+
+	<l id='1165'>L'amour a peu de part à ses justes soupçons. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1166'>Autant que je le puis je cède à tes raisons.</l>
+
+	<l id='1167'>Elles calment un peu l'ennui qui me dévore. </l>
+
+	<l id='1168'>Mais pourtant Xipharès ne paraît point encore.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1169'>Vaine erreur des amants, qui pleins de leurs désirs, </l>
+
+	<l id='1170'>Voudraient que tout cédât au soin de leurs plaisirs ! </l>
+
+	<l id='1171'>Qui prêts à s'irriter contre le moindre obstacle...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1172'>Ma Phoedime, et qui peut concevoir ce miracle ?</l>
+
+	<l id='1173'>Après deux ans d'ennuis, dont tu sais tout le poids,</l>
+
+	<l id='1174'>Quoi ! je puis respirer pour la première fois ? </l>
+
+	<l id='1175'>Quoi, cher Prince ! avec toi je me verrais unie ? </l>
+
+	<l id='1176'>Et loin que ma tendresse eût exposé ta vie,</l>
+
+	<l id='1177'>Tu verrais ton devoir, je verrais ma vertu</l>
+
+	<l id='1178'>Approuver un amour si longtemps combattu ?</l>
+
+	<l id='1179'>Je pourrais tous les jours t'assurer que je t'aime ? </l>
+
+	<l id='1180' part="i">Que ne viens-tu...</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='2'><head>SCÈNE II. Monime, Xipharès, Phoedime.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1180' part="f">Seigneur, je parlais de vous-même. </l>
+
+	<l id='1181'>Mon âme souhaitait de vous voir en ce lieu, </l>
+
+	<l id='1182' part="i">Pour vous...</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1182' part="f">C'est maintenant qu'il faut vous dire adieu.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1183' part="i">Adieu ! Vous ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1183' part="f">Oui, Madame, et pour toute ma vie. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1184'>Qu'entends-je ? On me disait... Hélas ! ils m'ont trahie. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1185'>Madame, je ne sais quel ennemi couvert</l>
+
+	<l id='1186'>Révélant nos secrets vous trahit, et me perd. </l>
+
+	<l id='1187'>Mais le roi, qui tantôt n'en croyait point Pharnace, </l>
+
+	<l id='1188'>Maintenant dans nos coeurs sait tout ce qui se passe. </l>
+
+	<l id='1189'>Il feint, il me caresse, et cache son dessein. </l>
+
+	<l id='1190'>Mais moi, qui dès l'enfance élevé dans son sein, </l>
+
+	<l id='1191'>De tous ses mouvements ai trop d'intelligence, </l>
+
+	<l id='1192'>J'ai lu dans ses regards sa prochaine vengeance. </l>
+
+	<l id='1193'>Il presse, il fait partir tous ceux, dont mon malheur </l>
+
+	<l id='1194'>Pourrait à la révolte exciter la douleur. </l>
+
+	<l id='1195'>De ses fausses bontés j'ai connu la contrainte. </l>
+
+	<l id='1196'>Un mot même d'Arbate a confirmé ma crainte. </l>
+
+	<l id='1197'>Il a su m'aborder, et les larmes aux yeux,</l>
+
+	<l id='1198'>On sait tout, m'a-t-il dit, sauvez-vous de ces lieux. </l>
+
+	<l id='1199'>Ce mot m'a fait frémir du péril de ma reine. </l>
+
+	<l id='1200'>Et ce cher intérêt est le seul qui m'amène. </l>
+
+	<l id='1201'>Je vous crains pour vous-même, et je viens à genoux</l>
+
+	<l id='1202'>Vous prier ma Princesse, et vous fléchir pour vous. </l>
+
+	<l id='1203'>Vous dépendez ici d'une main violente,</l>
+
+	<l id='1204'>Que le sang le plus cher rarement épouvante.</l>
+
+	<l id='1205'>Et je n'ose vous dire à quelle cruauté</l>
+
+	<l id='1206'>Mithridate jaloux s'est souvent emporté. </l>
+
+	<l id='1207'>Peut-être c'est moi seul que sa fureur menace. </l>
+
+	<l id='1208'>Peut-être en me perdant il veut vous faire grâce. </l>
+
+	<l id='1209'>Daignez, au nom des dieux, daignez en profiter. </l>
+
+	<l id='1210'>Par de nouveaux refus n'allez point l'irriter. </l>
+
+	<l id='1211'>Moins vous l'aimez, et plus tâchez de lui complaire. </l>
+
+	<l id='1212'>Feignez. Efforcez-vous. Songez qu'il est mon père.</l>
+
+	<l id='1213'>Vivez, et permettez que dans tous mes malheurs </l>
+
+	<l id='1214'>Je puisse à votre amour ne coûter que des pleurs.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1215' part="i">Ah ! je vous ai perdu !</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1215' part="f">Généreuse Monime, </l>
+
+	<l id='1216'>Ne vous imputez point le malheur qui m'opprime.</l>
+
+	<l id='1217'>Votre seule bonté n'est point ce qui me nuit.</l>
+
+	<l id='1218'>Je suis un malheureux que le destin poursuit.</l>
+
+	<l id='1219'>C'est lui qui m'a ravi l'amitié de mon père,</l>
+
+	<l id='1220'>Qui le fit mon rival, qui révolta ma mère, </l>
+
+	<l id='1221'>Et vient de susciter dans ce moment affreux,</l>
+
+	<l id='1222'>Un secret ennemi pour nous trahir tous deux.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1223'>Hé quoi ? Cet ennemi vous l'ignorez encore ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1224'>Pour surcroît de douleur, Madame, je l'ignore.</l>
+
+	<l id='1225'>Heureux ! si je pouvais avant que m'immoler, </l>
+
+	<l id='1226'>Percer le traître coeur qui m'a pu déceler.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1227'>Hé bien, Seigneur, il faut vous le faire connaître. </l>
+
+	<l id='1228'>Ne cherchez point ailleurs, cet ennemi, ce traître,</l>
+
+	<l id='1229'>Frappez. Aucun respect ne vous doit retenir. </l>
+
+	<l id='1230'>J'ai tout fait. Et c'est moi que vous devez punir. </l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1231' part="i">Vous !</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1231' part="f">Ah ! si vous saviez, Prince, avec quelle adresse</l>
+
+	<l id='1232'>Le cruel est venu surprendre ma tendresse ! </l>
+
+	<l id='1233'>Quelle amitié sincère il affectait pour vous ! </l>
+
+	<l id='1234'>Content, s'il vous voyait devenir mon époux.</l>
+
+	<l id='1235'>Qui n'aurait crû... Mais non, mon amour plus timide </l>
+
+	<l id='1236'>Devait moins vous livrer à sa bonté perfide. </l>
+
+	<l id='1237'>Les dieux qui m'inspiraient, et que j'ai mal suivis, </l>
+
+	<l id='1238'>M'ont fait taire trois fois par de secrets avis. </l>
+
+	<l id='1239'>J'ai dû continuer. J'ai dû dans tout le reste... </l>
+
+	<l id='1240'>Que sais-je enfin ? J'ai dû vous être moins funeste, </l>
+
+	<l id='1241'>J'ai dû craindre du roi les dons empoisonnés, </l>
+
+	<l id='1242'>Et je m'en punirai si vous me pardonnez.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1243'>Quoi ! Madame ? C'est vous, c'est l'amour qui m'expose ?</l>
+
+	<l id='1244'>Mon malheur est parti d'une si belle cause ? </l>
+
+	<l id='1245'>Trop d'amour a trahi nos secrets amoureux ? </l>
+
+	<l id='1246'>Et vous vous excusez de m'avoir fait heureux ? </l>
+
+	<l id='1247'>Que voudrais-je de plus ? Glorieux, et fidèle, </l>
+
+	<l id='1248'>Je meurs. Un autre sort au trône vous appelle. </l>
+
+	<l id='1249'>Consentez-y, Madame, et sans plus résister</l>
+
+	<l id='1250'>Achevez un hymen qui vous y fait monter. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1251'>Quoi vous me demandez que j'épouse un barbare,</l>
+
+	<l id='1252'>Dont l'odieux amour pour jamais nous sépare ?</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1253'>Songez que ce matin, soumise à ses souhaits</l>
+
+	<l id='1254'>Vous deviez l'épouser et ne me voir jamais.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1255'>Et connaissais-je alors toute sa barbarie ? </l>
+
+	<l id='1256'>Ne voudriez-vous point qu'approuvant sa furie, </l>
+
+	<l id='1257'>Après vous avoir vu tout percé de ses coups,</l>
+
+	<l id='1258'>Je suivisse à l'autel un tyrannique époux, </l>
+
+	<l id='1259'>Et que dans une main de votre sang fumante </l>
+
+	<l id='1260'>J'allasse mettre, hélas ! la main de votre amante ? </l>
+
+	<l id='1261'>Allez, de ses fureurs songez à vous garder, </l>
+
+	<l id='1262'>Sans perdre ici le temps à me persuader.</l>
+
+	<l id='1263'>Le ciel m'inspirera quel parti je dois prendre. </l>
+
+	<l id='1264'>Que serait-ce, grands dieux ! s'il venait vous surprendre ? </l>
+
+	<l id='1265'>Que dis-je ? On vient. Allez. Courez. Vivez enfin, </l>
+
+	<l id='1266'>Et du moins attendez quel sera mon destin.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='3'><head>SCÈNE III. Monime, Phoedime.</head>
+
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1267'>Madame, à quels périls il exposait sa vie !</l>
+
+	<l id='1268' part="i">C'est le roi.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1268' part="f">Cours l'aider à cacher sa sortie. </l>
+
+	<l id='1269'>Va, ne le quitte point ; et qu'il se garde bien </l>
+
+	<l id='1270'>D'ordonner de son sort, sans être instruit du mien.</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='4'><head>SCÈNE IV. Mithridate, Monime.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1271'>Allons, Madame, allons. Une raison secrète </l>
+
+	<l id='1272'>Me fait quitter ces lieux, et hâter ma retraite.</l>
+
+	<l id='1273'>Tandis que mes soldats prêts à suivre leur roi </l>
+
+	<l id='1274'>Rentrent dans mes vaisseaux pour partir avec moi, </l>
+
+	<l id='1275'>Venez, et qu'à l'autel ma promesse accomplie </l>
+
+	<l id='1276'>Par des noeuds éternels l'un à l'autre nous lie.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1277' part="i">Nous, Seigneur ?</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1277' part="f">Quoi, Madame ! osez-vous balancer ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1278'>Et ne m'avez-vous pas défendu d'y penser ?</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1279'>J'eus mes raisons alors. Oublions-les, Madame. </l>
+
+	<l id='1280'>Ne songez maintenant qu'à répondre à ma flamme. </l>
+
+	<l id='1281'>Songez que votre coeur est un bien qui m'est dû.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1282'>Hé pourquoi donc, Seigneur, me l'avez-vous rendu ?</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1283'>Quoi ! pour un fils ingrat toujours préoccupée</l>
+
+	<l id='1284' part="i">Vous croiriez...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1284' part="f">Quoi, Seigneur ! vous m'auriez donc trompée ?</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1285'>Perfide ! Il vous sied bien de tenir ce discours, </l>
+
+	<l id='1286'>Vous, qui gardant au coeur d'infidèles amours, </l>
+
+	<l id='1287'>Quand je vous élevais au comble de la gloire</l>
+
+	<l id='1288'>M'avez des trahisons préparé la plus noire. </l>
+
+	<l id='1289'>Ne vous souvient-il plus, coeur ingrat et sans foi, </l>
+
+	<l id='1290'>Plus que tous les Romains conjuré contre moi, </l>
+
+	<l id='1291'>De quel rang glorieux j'ai bien voulu descendre, </l>
+
+	<l id='1292'>Pour vous porter au trône, où vous n'osiez prétendre ? </l>
+
+	<l id='1293'>Ne me regardez point vaincu, persécuté.</l>
+
+	<l id='1294'>Revoyez-moi vainqueur, et partout redouté. </l>
+
+	<l id='1295'>Songez de quelle ardeur dans Éphèse adorée, </l>
+
+	<l id='1296'>Aux filles de cent rois je vous ai préférée,</l>
+
+	<l id='1297'>Et négligeant pour vous tant d'heureux alliés, </l>
+
+	<l id='1298'>Quelle foule d'États je mettais à vos pieds. </l>
+
+	<l id='1299'>Ah ! si d'un autre amour le penchant invincible </l>
+
+	<l id='1300'>Dès lors à mes bontés vous rendait insensible, </l>
+
+	<l id='1301'>Pourquoi chercher si loin un odieux époux ? </l>
+
+	<l id='1302'>Avant que de partir, pourquoi vous taisiez-vous ? </l>
+
+	<l id='1303'>Attendiez-vous pour faire un aveu si funeste</l>
+
+	<l id='1304'>Que le sort ennemi m'eût ravi tout le reste ; </l>
+
+	<l id='1305'>Et que de toutes parts me voyant accabler, </l>
+
+	<l id='1306'>J'eusse en vous le seul bien qui me pût consoler ? </l>
+
+	<l id='1307'>Cependant quand je veux oublier cet outrage,</l>
+
+	<l id='1308'>Et cacher à mon coeur cette funeste image,</l>
+
+	<l id='1309'>Vous osez à mes yeux rappeler le passé,</l>
+
+	<l id='1310'>Vous m'accusez encor, quand je suis offensé. </l>
+
+	<l id='1311'>Je vois que pour un traître un fol espoir vous flatte. </l>
+
+	<l id='1312'>À quelle épreuve, ô ciel ! réduis-tu Mithridate ! </l>
+
+	<l id='1313'>Par quel charme secret laissé-je retenir </l>
+
+	<l id='1314'>Ce courroux si sévère, et si prompt à punir ? </l>
+
+	<l id='1315'>Profitez du moment que mon amour vous donne. </l>
+
+	<l id='1316'>Pour la dernière fois venez, je vous l'ordonne.</l>
+
+	<l id='1317'>N'attirez point sur vous des périls superflus, </l>
+
+	<l id='1318'>Pour un fils insolent que vous ne verrez plus. </l>
+
+	<l id='1319'>Sans vous parer pour lui d'une foi qui m'est due </l>
+
+	<l id='1320'>Perdez-en la mémoire, aussi bien que la vue ; </l>
+
+	<l id='1321'>Et désormais sensible à ma seule bonté, </l>
+
+	<l id='1322'>Méritez le pardon qui vous est présenté.</l>
+
+</sp>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1323'>Je n'ai point oublié quelle reconnaissance,</l>
+
+	<l id='1324'>Seigneur, m'a dû ranger sous votre obéissance. </l>
+
+	<l id='1325'>Quelque rang où jadis soient montés mes aïeux, </l>
+
+	<l id='1326'>Leur gloire de si loin n'éblouit point mes yeux. </l>
+
+	<l id='1327'>Je songe avec respect de combien je suis née </l>
+
+	<l id='1328'>Au-dessous des grandeurs d'un si noble hyménée ;</l>
+
+	<l id='1329'>Et malgré mon penchant, et mes premiers desseins </l>
+
+	<l id='1330'>Pour un fils, après vous, le plus grand des humains, </l>
+
+	<l id='1331'>Du jour que sur mon front on mit ce diadème,</l>
+
+	<l id='1332'>Je renonçai, Seigneur, à ce prince, à moi-même. </l>
+
+	<l id='1333'>Tous deux d'intelligence à nous sacrifier,</l>
+
+	<l id='1334'>Loin de moi par mon ordre il courait m'oublier. </l>
+
+	<l id='1335'>Dans l'ombre du secret ce feu s'allait éteindre ; </l>
+
+	<l id='1336'>Et même de mon sort je ne pouvais me plaindre,</l>
+
+	<l id='1337'>Puisque enfin aux dépens de mes voeux les plus doux,</l>
+
+	<l id='1338'>Je faisais le bonheur d'un héros tel que vous.</l>
+
+	<l id='1339'>Vous seul, Seigneur, vous seul, vous m'avez arrachée</l>
+
+	<l id='1340'>À cette obéissance, où j'étais attachée ; </l>
+
+	<l id='1341'>Et ce fatal amour, dont j'avais triomphé,</l>
+
+	<l id='1342'>Ce feu que dans l'oubli je croyais étouffé,</l>
+
+	<l id='1343'>Dont la cause à jamais s'éloignait de ma vue, </l>
+
+	<l id='1344'>Vos détours l'ont surpris, et m'en ont convaincue. </l>
+
+	<l id='1345'>Je vous l'ai confessé, je le dois soutenir. </l>
+
+	<l id='1346'>En vain vous en pourriez perdre le souvenir, </l>
+
+	<l id='1347'>Et cet aveu honteux, où vous m'avez forcée</l>
+
+	<l id='1348'>Demeurera toujours présent à ma pensée. </l>
+
+	<l id='1349'>Toujours je vous croirais incertain de ma foi ; </l>
+
+	<l id='1350'>Et le tombeau, Seigneur, est moins triste pour moi, </l>
+
+	<l id='1351'>Que le lit d'un époux, qui m'a fait cet outrage,</l>
+
+	<l id='1352'>Qui s'est acquis sur moi ce cruel avantage,</l>
+
+	<l id='1353'>Et qui me préparant un éternel ennui, </l>
+
+	<l id='1354'>M'a fait rougir d'un feu, qui n'était pas pour lui.</l>
+
+</sp>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1355'>C'est donc votre réponse ? Et sans plus me complaire</l>
+
+	<l id='1356'>Vous refusez l'honneur que je voulais vous faire ? </l>
+
+	<l id='1357'>Pensez-y bien. J'attends pour me déterminer.</l>
+
+</sp>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1358'>Non, Seigneur, vainement vous croyez m'étonner. </l>
+
+	<l id='1359'>Je vous connais. Je sais tout ce que je m'apprête, </l>
+
+	<l id='1360'>Et je vois quels malheurs j'assemble sur ma tête. </l>
+
+	<l id='1361'>Mais le dessein est pris. Rien ne peut m'ébranler. </l>
+
+	<l id='1362'>Jugez-en, puisque ainsi je vous ose parler,</l>
+
+	<l id='1363'>Et m'emporte au-delà de cette modestie </l>
+
+	<l id='1364'>Dont jusqu'à ce moment je n'étais point sortie. </l>
+
+	<l id='1365'>Vous vous êtes servi de ma funeste main </l>
+
+	<l id='1366'>Pour mettre à votre fils un poignard dans le sein. </l>
+
+	<l id='1367'>De ses feux innocents j'ai trahi le mystère ;</l>
+
+	<l id='1368'>Et quand il n'en perdrait que l'amour de son père, </l>
+
+	<l id='1369'>Il en mourra, Seigneur. Ma foi, ni mon amour </l>
+
+	<l id='1370'>Ne seront point le prix d'un si cruel détour. </l>
+
+	<l id='1371'>Après cela jugez. Perdez une rebelle.</l>
+
+	<l id='1372'>Armez-vous du pouvoir qu'on vous donna sur elle.</l>
+
+	<l id='1373'>J'attendrai mon arrêt, vous pouvez commander. </l>
+
+	<l id='1374'>Tout ce qu'en vous quittant j'ose vous demander, </l>
+
+	<l id='1375'>Croyez ( à la vertu je dois cette justice ) </l>
+
+	<l id='1376'>Que je vous trahis seule, et n'ai point de complice, </l>
+
+	<l id='1377'>Et que d'un plein succès vos voeux seraient suivis,</l>
+
+	<l id='1378'>Si j'en croyais, Seigneur, les voeux de votre fils.</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='5'><head>SCÈNE V.</head>
+
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1379'>Elle me quitte ! et moi dans un lâche silence,</l>
+
+	<l id='1380'>Je semble de sa fuite approuver l'insolence ? </l>
+
+	<l id='1381'>Peu s'en faut que mon coeur penchant de son côté</l>
+
+	<l id='1382'>Ne me condamne encor de trop de cruauté ! </l>
+
+	<l id='1383'>Qui suis-je ? Est-ce Monime ? Et suis-je Mithridate ? </l>
+
+	<l id='1384'>Non, non, plus de pardon, plus d'amour pour l'ingrate. </l>
+
+	<l id='1385'>Ma colère revient, et je me reconnais. </l>
+
+	<l id='1386'>Immolons en partant trois ingrats à la fois. </l>
+
+	<l id='1387'>Je vais à Rome, et c'est par de tels sacrifices </l>
+
+	<l id='1388'>Qu'il faut à ma fureur rendre les dieux propices. </l>
+
+	<l id='1389'>Je le dois, je le puis, ils n'ont plus de support.</l>
+
+	<l id='1390'>Les plus séditieux sont déjà loin du bord. </l>
+
+	<l id='1391'>Sans distinguer entre eux qui je hais, ou qui j'aime, </l>
+
+	<l id='1392'>Allons, et commençons par Xipharès lui-même.</l>
+
+	<l id='1393'>Mais quelle est ma fureur ? Et qu'est-ce que je dis ? </l>
+
+	<l id='1394'>Tu vas sacrifier, qui, malheureux ! ton fils ! </l>
+
+	<l id='1395'>Un fils que Rome craint ? Qui peut venger son père ? </l>
+
+	<l id='1396'>Pourquoi répandre un sang qui m'est si nécessaire ? </l>
+
+	<l id='1397'>Ah ! dans l'état funeste où ma chute m'a mis,</l>
+
+	<l id='1398'>Est-ce que mon malheur m'a laissé trop d'amis ? </l>
+
+	<l id='1399'>Songeons plutôt, songeons à gagner sa tendresse.</l>
+
+	<l id='1400'>J'ai besoin d'un vengeur, et non d'une maîtresse. </l>
+
+	<l id='1401'>Quoi ! Ne vaut-il pas mieux, puisqu'il faut m'en priver, </l>
+
+	<l id='1402'>La céder à ce fils, que je veux conserver ?</l>
+
+	<l id='1403'>Cédons-la. Vains efforts ! qui ne font que m'instruire </l>
+
+	<l id='1404'>Des faiblesses d'un coeur qui cherche à se séduire !</l>
+
+	<l id='1405'>Je brûle, je l'adore, et loin de la bannir... </l>
+
+	<l id='1406'>Ah ! c'est un crime encor dont je la veux punir. </l>
+
+	<l id='1407'>Quelle pitié retient mes sentiments timides ? </l>
+
+	<l id='1408'>N'en ai-je pas déjà puni de moins perfides ? </l>
+
+	<l id='1409'>Ô Monime ! ô mon fils ! inutile courroux !</l>
+
+	<l id='1410'>Et vous heureux Romains ! quel triomphe pour vous, </l>
+
+	<l id='1411'>Si vous saviez ma honte, et qu'un avis fidèle </l>
+
+	<l id='1412'>De mes lâches combats vous portât la nouvelle !</l>
+
+	<l id='1413'>Quoi ! des plus chères mains craignant les trahisons, </l>
+
+	<l id='1414'>J'ai pris soin de m'armer contre tous les poisons ; </l>
+
+	<l id='1415'>J'ai su par une longue et pénible industrie</l>
+
+	<l id='1416'>Des plus mortels venins prévenir la furie. </l>
+
+	<l id='1417'>Ah ! qu'il eût mieux valu, plus sage, et plus heureux, </l>
+
+	<l id='1418'>Et repoussant les traits d'un amour dangereux, </l>
+
+	<l id='1419'>Ne pas laisser remplir d'ardeurs empoisonnées </l>
+
+	<l id='1420'>Un coeur déjà glacé par le froid des années ? </l>
+
+	<l id='1421'>De ce trouble fatal par où dois-je sortir ?</l>
+
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='6'><head>SCÈNE VI. Mithridate, Arbate.</head>
+
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1422'>Seigneur, tous vos soldats refusent de partir. </l>
+
+	<l id='1423'>Pharnace les retient. Pharnace leur révèle </l>
+
+	<l id='1424'>Que vous cherchez à Rome une guerre nouvelle.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1425' part="i">Pharnace ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1425' part="f">Il a séduit ses gardes les premiers, </l>
+
+	<l id='1426'>Et le seul nom de Rome étonne les plus fiers.</l>
+
+	<l id='1427'>De mille affreux périls ils se forment l'image.</l>
+
+	<l id='1428'>Les uns avec transport embrassent le rivage.</l>
+
+	<l id='1429'>Les autres qui partaient s'élancent dans les flots, </l>
+
+	<l id='1430'>Ou présentent leurs dards aux yeux des matelots. </l>
+
+	<l id='1431'>Le désordre est partout. Et loin de nous entendre</l>
+
+	<l id='1432'>Ils demandent la paix, et parlent de se rendre. </l>
+
+	<l id='1433'>Pharnace est à leur tête, et flattant leurs souhaits</l>
+
+	<l id='1434'>De la part des Romains il leur promet la paix.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1435'>Ah le traître ! Courez. Qu'on appelle son frère, </l>
+
+	<l id='1436'>Qu'il me suive, qu'il vienne au secours de son père.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1437'>J'ignore son dessein. Mais un soudain transport</l>
+
+	<l id='1438'>L'a déjà fait descendre, et courir vers le port. </l>
+
+	<l id='1439'>Et l'on dit que suivi d'un gros d'amis fidèles.</l>
+
+	<l id='1440'>On l'a vu se mêler au milieu des rebelles. </l>
+
+	<l id='1441' part="i">C'est tout ce que j'en sais.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1441' part="f">Ah ! qu'est-ce que j'entends ?</l>
+
+	<l id='1442'>Perfides, ma vengeance a tardé trop longtemps. </l>
+
+	<l id='1443'>Mais je ne vous crains point. Malgré leur insolence</l>
+
+	<l id='1444'>Les mutins n'oseraient soutenir ma présence. </l>
+
+	<l id='1445'>Je ne veux que les voir, je ne veux qu'à leurs yeux </l>
+
+	<l id='1446'>Immoler de ma main deux fils audacieux.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='7'><head>SCÈNE VII. Mithridate, Arbate, Arcas.</head>
+
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+
+	<l id='1447'>Seigneur, tout est perdu. Les rebelles, Pharnace,</l>
+
+	<l id='1448'>Les Romains sont en foule autour de cette place.</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1449' part="i">Les Romains !</l>
+
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+
+	<l id='1449' part="f">De Romains le rivage est chargé.</l>
+
+	<l id='1450'>Et bientôt dans ces murs vous êtes assiégé. </l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1451' part="i">Ciel ! Courons. </l>
+
+<stage>(À Arcas.)</stage>
+
+	<l id='1451' part="f">Ecoutez. Du malheur qui me presse </l>
+
+	<l id='1452'>Tu ne jouiras pas, infidèle princesse.</l>
+</sp>
+
+</div2></div1><div1 type ='acte' n='5'><head>ACTE V</head>
+
+<div2 type ='scene' n='1'><head>SCÈNE PREMIÈRE. Monime, Phoedime.</head>
+
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1453'>Madame, où courez-vous ? Quels aveugles transports </l>
+
+	<l id='1454'>Vous font tenter sur vous de criminels efforts ? </l>
+
+	<l id='1455'>Hé quoi ! vous avez pu trop cruelle à vous-même, </l>
+
+	<l id='1456'>Faire un affreux lien d'un sacré diadème ? </l>
+
+	<l id='1457'>Ah ! ne voyez-vous pas, que les dieux plus humains</l>
+
+	<l id='1458'>Ont eux-mêmes rompu ce bandeau dans vos mains ?</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1459'>Hé ! par quelle fureur obstinée à me suivre</l>
+
+	<l id='1460'>Toi-même malgré moi veux-tu me faire vivre ? </l>
+
+	<l id='1461'>Xipharès ne vit plus. Le roi désespéré </l>
+
+	<l id='1462'>Lui-même n'attend plus qu'un trépas assuré. </l>
+
+	<l id='1463'>Quel fruit te promets-tu de ta coupable audace ? </l>
+
+	<l id='1464'>Perfide, prétends-tu me livrer à Pharnace ?</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1465'>Ah ! du moins attendez qu'un fidèle rapport </l>
+
+	<l id='1466'>De son malheureux frère ait confirmé la mort. </l>
+
+	<l id='1467'>Dans la confusion que nous venons d'entendre, </l>
+
+	<l id='1468'>Les yeux peuvent-ils pas aisément se méprendre ?</l>
+
+	<l id='1469'>D'abord, vous le savez, un bruit injurieux </l>
+
+	<l id='1470'>Le rangeait du parti d'un camp séditieux ; </l>
+
+	<l id='1471'>Maintenant on vous dit que ces mêmes rebelles </l>
+
+	<l id='1472'>Ont tourné contre lui leurs armes criminelles. </l>
+
+	<l id='1473'>Jugez de l'un par l'autre. Et daignez écouter...</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1474'>Xipharès ne vit plus, il n'en faut point douter. </l>
+
+	<l id='1475'>L'événement n'a point démenti mon attente. </l>
+
+	<l id='1476'>Quand je n'en aurais pas la nouvelle sanglante, </l>
+
+	<l id='1477'>Il est mort, et j'en ai pour garants trop certains </l>
+
+	<l id='1478'>Son courage et son nom trop suspects aux Romains. </l>
+
+	<l id='1479'>Ah ! que d'un si beau sang dès longtemps altérée,</l>
+
+	<l id='1480'>Rome tient maintenant sa victoire assurée ! </l>
+
+	<l id='1481'>Quel ennemi son bras leur allait opposer !</l>
+
+	<l id='1482'>Mais sur qui, malheureuse, oses-tu t'excuser ? </l>
+
+	<l id='1483'>Quoi ! tu ne veux pas voir que c'est toi qui l'opprimes,</l>
+
+	<l id='1484'>Et dans tous ses malheurs reconnaître tes crimes ? </l>
+
+	<l id='1485'>De combien d'assassins l'avais-je enveloppé ? </l>
+
+	<l id='1486'>Comment à tant de coups serait-il échappé ? </l>
+
+	<l id='1487'>Il évitait en vain les Romains et son frère.</l>
+
+	<l id='1488'>Ne le livrais-je pas aux fureurs de son père ? </l>
+
+	<l id='1489'>C'est moi, qui les rendant l'un de l'autre jaloux,</l>
+
+	<l id='1490'>Vins allumer le feu qui les embrase tous, </l>
+
+	<l id='1491'>Tison de la discorde, et fatale furie, </l>
+
+	<l id='1492'>Que le démon de Rome a formée et nourrie.</l>
+
+	<l id='1493'>Et je vis ? Et j'attends que de leur sang baigné</l>
+
+	<l id='1494'>Pharnace des Romains revienne accompagné !</l>
+
+	<l id='1495'>Qu'il étale à mes yeux sa parricide joie ? </l>
+
+	<l id='1496'>La mort au désespoir ouvre plus d'une voie. </l>
+
+	<l id='1497'>Oui, cruelles, en vain vos injustes secours </l>
+
+	<l id='1498'>Me ferment du tombeau les chemins les plus courts.</l>
+
+	<l id='1499'>Je trouverai la mort jusque dans vos bras même. </l>
+
+	<l id='1500'>Et toi fatal tissu, malheureux diadème, </l>
+
+	<l id='1501'>Instrument et témoin de toutes mes douleurs,</l>
+
+	<l id='1502'>Bandeau que mille fois j'ai trempé de mes pleurs,</l>
+
+	<l id='1503'>Au moins en terminant ma vie, et mon supplice,</l>
+
+	<l id='1504'>Ne pouvais-tu me rendre un funeste service ? </l>
+
+	<l id='1505'>À mes tristes regards va, cesse de t'offrir. </l>
+
+	<l id='1506'>D'autres armes sans toi sauront me secourir.</l>
+
+	<l id='1507'>Et périsse le jour, et la main meurtrière </l>
+
+	<l id='1508'>Qui jadis sur mon front t'attacha la première.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1509'>On vient, Madame, on vient. Et j'espère qu'Arcas </l>
+
+	<l id='1510'>Pour bannir vos frayeurs porte vers vous ses pas. </l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='2'><head>SCÈNE II. Monime, Phoedime, Arcas.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1511'>En est-ce fait, Arcas ? Et le cruel Pharnace...</l>
+
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+
+	<l id='1512'>Ne me demandez rien de tout ce qui se passe, </l>
+
+	<l id='1513'>Madame. On m'a chargé d'un plus funeste emploi, </l>
+
+	<l id='1514'>Et ce poison vous dit la volonté du roi.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1515' part="i">Malheureuse Princesse !</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1515' part="f">Ah quel comble de joie ! </l>
+
+	<l id='1516'>Donnez. Dites, Arcas, au roi qui me l'envoie,</l>
+
+	<l id='1517'>Que de tous les présents que m'a fait sa bonté</l>
+
+	<l id='1518'>Je reçois le plus cher et le plus souhaité. </l>
+
+	<l id='1519'>À la fin je respire ; et le ciel me délivre </l>
+
+	<l id='1520'>Des secours importuns qui me forçaient de vivre. </l>
+
+	<l id='1521'>Maîtresse de moi-même, il veut bien qu'une fois </l>
+
+	<l id='1522'>Je puisse de mon sort disposer à mon choix.</l>
+
+</sp>
+<sp who="PHOEDIME"><speaker>PHOEDIME.</speaker>
+
+	<l id='1523' part="i">Hélas !</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1523' part="f">Retiens tes cris, et par d'indignes larmes</l>
+
+	<l id='1524'>De cet heureux moment ne trouble point les charmes.</l>
+
+	<l id='1525'>Si tu m'aimais, Phoedime, il fallait me pleurer, </l>
+
+	<l id='1526'>Quand d'un titre funeste on me vint honorer,</l>
+
+	<l id='1527'>Et lorsque m'arrachant du doux sein de la Grèce</l>
+
+	<l id='1528'>Dans ce climat barbare on traîna ta maîtresse.</l>
+
+	<l id='1529'>Retourne maintenant chez ces peuples heureux ;</l>
+
+	<l id='1530'>Et si mon nom encor s'est conservé chez eux, </l>
+
+	<l id='1531'>Dis leur ce que tu vois, et de toute ma gloire,</l>
+
+	<l id='1532'>Phoedime, conte-leur la malheureuse histoire.</l>
+
+	<l id='1533'>Et toi, qui de ce coeur, dont tu fus adoré,</l>
+
+	<l id='1534'>Par un jaloux destin fus toujours séparé.</l>
+
+	<l id='1535'>Héros, avec qui même en terminant ma vie, </l>
+
+	<l id='1536'>Je n'ose en un tombeau demander d'être unie,</l>
+
+	<l id='1537'>Reçois ce sacrifice, et puisse en ce moment</l>
+
+	<l id='1538'>Ce poison expier le sang de mon amant.</l>
+</sp>
+
+</div2>
+<div2 type ='scene' n='3'><head>SCÈNE III. Monime, Phoedime, Arcas.</head>
+
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1539' part="i">Arrêtez, arrêtez.</l>
+
+</sp>
+<sp who="ARCAS"><speaker>ARCAS.</speaker>
+
+	<l id='1539' part="f">Que faites-vous, Arbate ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1540'>Arrêtez. J'accomplis l'ordre de Mithridate. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1541' part="i">Ah ! laissez-moi.</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE, jetant le poison.</speaker>
+
+	<l id='1541' part="f">Cessez, vous dis-je, et laissez-moi, </l>
+
+	<l id='1542'>Madame, exécuter les volontés du roi. </l>
+
+	<l id='1543'>Vivez. Et vous, Arcas, du succès de mon zèle </l>
+
+	<l id='1544'>Courez à Mithridate apprendre la nouvelle.</l>
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='4'><head>SCÈNE IV. Monime, Arbate, Phoedime.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1545'>Ah ! trop cruel Arbate, à quoi m'exposez-vous ? </l>
+
+	<l id='1546'>Est-ce qu'on croit encor mon supplice trop doux ?</l>
+
+	<l id='1547'>Et le roi m'enviant une mort si soudaine</l>
+
+	<l id='1548'>Veut-il plus d'un trépas pour contenter sa haine ?</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1549'>Vous l'allez voir paraître, et j'ose m'assurer</l>
+
+	<l id='1550'>Que vous-même avec moi vous allez le pleurer. </l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1551' part="i">Quoi le roi...</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1551' part="f">Le roi touche à son heure dernière,</l>
+
+	<l id='1552'>Madame, et ne voit plus qu'un reste de lumière.</l>
+
+	<l id='1553'>Je l'ai laissé sanglant, porté par des soldats,</l>
+
+	<l id='1554'>Et Xipharès en pleurs accompagne leurs pas.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1555'>Xipharès ? Ah grands dieux ? Je doute si je veille, </l>
+
+	<l id='1556'>Et n'ose qu'en tremblant en croire mon oreille.</l>
+
+	<l id='1557'>Xipharès vit encor, Xipharès, que mes pleurs...</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1558'>Il vit chargé de gloire, accablé de douleurs.</l>
+
+	<l id='1559'>De sa mort en ces lieux la nouvelle semée</l>
+
+	<l id='1560'>Ne vous a pas vous seule, et sans cause alarmée. </l>
+
+	<l id='1561'>Les Romains, qui partout l'appuyaient par des cris,</l>
+
+	<l id='1562'>Ont par ce bruit fatal glacé tous les esprits.</l>
+
+	<l id='1563'>Le roi trompé lui-même en a versé des larmes.</l>
+
+	<l id='1564'>Et désormais certain du malheur de ses armes,</l>
+
+	<l id='1565'>Par un rebelle fils de toutes parts pressé, </l>
+
+	<l id='1566'>Sans espoir de secours tout prêt d'être forcé,</l>
+
+	<l id='1567'>Et voyant pour surcroît de douleur et de haine</l>
+
+	<l id='1568'>Parmi ses étendards porter l'aigle romaine ;</l>
+
+	<l id='1569'>Il n'a plus aspiré qu'à s'ouvrir des chemins,</l>
+
+	<l id='1570'>Pour éviter l'affront de tomber dans leurs mains. </l>
+
+	<l id='1571'>D'abord il a tenté les atteintes mortelles</l>
+
+	<l id='1572'>Des poisons que lui-même a crus les plus fidèles.</l>
+
+	<l id='1573'>Il les a trouvés tous sans force et sans vertu.</l>
+
+	<l id='1574'>"Vain secours, a-t-il dit, que j'ai trop combattu !</l>
+
+	<l id='1575'>Contre tous les poisons soigneux de me défendre,</l>
+
+	<l id='1576'>J'ai perdu tout le fruit que j'en pouvais attendre.</l>
+
+	<l id='1577'>Essayons maintenant des secours plus certains,</l>
+
+	<l id='1578'>Et cherchons un trépas plus funeste aux Romains."</l>
+
+	<l id='1579'>Il parle, et défiant leurs nombreuses cohortes</l>
+
+	<l id='1580'>Du palais à ces mots, il fait ouvrir les portes. </l>
+
+	<l id='1581'>À l'aspect de ce front, dont la noble fureur</l>
+
+	<l id='1582'>Tant de fois dans leurs rangs répandit la terreur,</l>
+
+	<l id='1583'>Vous les eussiez vu tous, retournant en arrière,</l>
+
+	<l id='1584'>Laisser entre eux et nous une large carrière ;</l>
+
+	<l id='1585'>Et déjà quelques-uns couraient épouvantés, </l>
+
+	<l id='1586'>Jusque dans les vaisseaux qui les ont apportés.</l>
+
+	<l id='1587'>Mais le dirai-je, ô ciel ! rassurés par Pharnace,</l>
+
+	<l id='1588'>Et la honte en leurs coeurs réveillant leur audace,</l>
+
+	<l id='1589'>Ils reprennent courage, ils attaquent le roi, </l>
+
+	<l id='1590'>Qu'un reste de soldats défendait avec moi. </l>
+
+	<l id='1591'>Qui pourrait exprimer, par quels faits incroyables,</l>
+
+	<l id='1592'>Quels coups, accompagnés de regards effroyables,</l>
+
+	<l id='1593'>Son bras se signalant pour la dernière fois,</l>
+
+	<l id='1594'>À de ce grand héros terminé les exploits ?</l>
+
+	<l id='1595'>Enfin las, et couvert de sang et de poussière, </l>
+
+	<l id='1596'>Il s'était fait de morts une noble barrière.</l>
+
+	<l id='1597'>Un autre bataillon s'est avancé vers nous.</l>
+
+	<l id='1598'>Les Romains, pour le joindre, ont suspendu leurs coups.</l>
+
+	<l id='1599'>Ils voulaient tous ensemble accabler Mithridate.</l>
+
+	<l id='1600'>Mais lui, <q who="Mithridate" direct="y"><hi rend="italic">C'en est assez</hi></q>, m'a-t-il dit, <q who="Mithridate" direct="y"><hi rend="italic">cher Arbate.</hi></q></l>
+
+	<l id='1601'><q who="Mithridate" direct="y"><hi rend="italic">Le sang, et la fureur m'emportent trop avant.</hi></q></l>
+
+	<l id='1602'><q who="Mithridate" direct="y"><hi rend="italic">Ne livrons pas surtout Mithridate vivant. </hi></q></l>
+
+	<l id='1603'>Aussitôt dans son sein il plonge son épée.</l>
+
+	<l id='1604'>Mais la mort fuit encor sa grande âme trompée.</l>
+
+	<l id='1605'>Ce héros dans mes bras est tombé tout sanglant, </l>
+
+	<l id='1606'>Faible, et qui s'irritait contre un trépas si lent,</l>
+
+	<l id='1607'>Et se plaignant à moi de ce reste de vie,</l>
+
+	<l id='1608'>Il soulevait encor sa main appesantie,</l>
+
+	<l id='1609'>Et marquant à mon bras la place de son coeur,</l>
+
+	<l id='1610'>Semblait d'un coup plus sûr implorer la faveur. </l>
+
+	<l id='1611'>Tandis que possédé de ma douleur extrême</l>
+
+	<l id='1612'>Je songe bien plutôt à me percer moi-même,</l>
+
+	<l id='1613'>De grands cris ont soudain attiré mes regards. </l>
+
+	<l id='1614'>J'ai vu, qui l'aurait cru ? J'ai vu de toutes parts,</l>
+
+	<l id='1615'>Vaincus, et renversés les Romains, et Pharnace, </l>
+
+	<l id='1616'>Fuyant vers leurs vaisseaux abandonner la place, </l>
+
+	<l id='1617'>Et le vainqueur vers nous s'avançant de plus près, </l>
+
+	<l id='1618'>À mes yeux éperdus a montré Xipharès.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1619' part="i">Juste ciel !</l>
+
+</sp>
+<sp who="ARBATE"><speaker>ARBATE.</speaker>
+
+	<l id='1619' part="f">Xipharès, toujours resté fidèle,</l>
+
+	<l id='1620'>Et qu'au fort du combat une troupe rebelle</l>
+
+	<l id='1621'>Par ordre de son frère avait enveloppé ;</l>
+
+	<l id='1622'>Mais qui d'entre leurs bras à la fin échappé,</l>
+
+	<l id='1623'>Forçant les plus mutins, et regagnant le reste,</l>
+
+	<l id='1624'>Heureux et plein de joie en ce moment funeste,</l>
+
+	<l id='1625'>À travers mille morts, ardent, victorieux, </l>
+
+	<l id='1626'>S'était fait vers son père un chemin glorieux.</l>
+
+	<l id='1627'>Jugez de quelle horreur cette joie est suivie.</l>
+
+	<l id='1628'>Son bras aux pieds du roi l'allait jeter sans vie.</l>
+
+	<l id='1629'>Mais on court, on s'oppose à son emportement.</l>
+
+	<l id='1630'>Le roi m'a regardé dans ce triste moment, </l>
+
+	<l id='1631'>Et m'a dit d'une voix qu'il poussait avec peine :</l>
+
+	<l id='1632'><q who="Mithridate" direct="y"><hi rend="italic">S'il en est temps encor, cours, et sauve la reine.</hi></q></l>
+
+	<l id='1633'>Ces mots m'ont fait trembler pour vous, pour Xipharès.</l>
+
+	<l id='1634'>J'ai craint, j'ai soupçonné quelques ordres secrets.</l>
+
+	<l id='1635'>Tout lassé que j'étais, ma frayeur, et mon zèle, </l>
+
+	<l id='1636'>M'ont donné pour courir une force nouvelle,</l>
+
+	<l id='1637'>Et malgré nos malheurs, je me tiens trop heureux</l>
+
+	<l id='1638'>D'avoir paré le coup qui vous perdait tous deux.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1639'>Ah ! que de tant d'horreurs justement étonnée,</l>
+
+	<l id='1640'>Je plains de ce grand roi la triste destinée ! </l>
+
+	<l id='1641'>Hélas ! et plût aux dieux, qu'à son sort inhumain </l>
+
+	<l id='1642'>Moi-même j'eusse pu ne point prêter la main, </l>
+
+	<l id='1643'>Et que simple témoin du malheur qui l'accable</l>
+
+	<l id='1644'>Je le pusse pleurer sans en être coupable !</l>
+
+	<l id='1645'>Il vient. Quel nouveau trouble excite en mes esprits </l>
+
+	<l id='1646'>Le sang du père, ô ciel, et les larmes du fils !</l>
+</sp>
+
+</div2>
+
+<div2 type ='scene' n='5'><head>SCÈNE DERNIÈRE. MITHRIDATE, MONIME, XIPHARÈS, ARBATE, ARCAS, GARDES qui soutiennent Mithridate.</head>
+
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1647'>Ah que vois-je, Seigneur, et quel sort est le vôtre !</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1648'>Cessez, et retenez vos larmes l'un et l'autre.</l>
+
+<stage><hi rend="italic">(en montrant Xipharès.)</hi></stage>
+
+	<l id='1649'>Mon sort de sa tendresse, et de votre amitié </l>
+
+	<l id='1650'>Veut d'autres sentiments que ceux de la pitié ; </l>
+
+	<l id='1651'>Et ma gloire plutôt digne d'être admirée</l>
+
+	<l id='1652'>Ne doit point par des pleurs être déshonorée.</l>
+
+	<l id='1653'>J'ai vengé l'univers autant que je l'ai pu ; </l>
+
+	<l id='1654'>La mort dans ce projet m'a seule interrompu. </l>
+
+	<l id='1655'>Ennemi des Romains, et de la tyrannie, </l>
+
+	<l id='1656'>Je n'ai point de leur joug subi l'ignominie ;</l>
+
+	<l id='1657'>Et j'ose me flatter qu'entre les noms fameux,</l>
+
+	<l id='1658'>Qu'une pareille haine a signalés contre eux, </l>
+
+	<l id='1659'>Nul ne leur a plus fait acheter la victoire,</l>
+
+	<l id='1660'>Ni de jours malheureux plus rempli leur histoire. </l>
+
+	<l id='1661'>Le ciel n'a pas voulu, qu'achevant mon dessein</l>
+
+	<l id='1662'>Rome en cendre me vît expirer dans son sein.</l>
+
+	<l id='1663'>Mais au moins quelque joie en mourant me console.</l>
+
+	<l id='1664'>J'expire environné d'ennemis, que j'immole.</l>
+
+	<l id='1665'>Dans leur sang odieux j'ai pu tremper mes mains, </l>
+
+	<l id='1666'>Et mes derniers regards ont vu fuir les Romains.</l>
+
+	<l id='1667'>À mon fils Xipharès je dois cette fortune.</l>
+
+	<l id='1668'>Il épargne à ma mort leur présence importune.</l>
+
+	<l id='1669'>Que ne puis-je payer ce service important </l>
+
+	<l id='1670'>De tout ce que mon trône eut de plus éclatant ? </l>
+
+	<l id='1671'>Mais vous me tenez lieu d'empire, de couronne.</l>
+
+	<l id='1672'>Vous seule me restez. Souffrez que je vous donne,</l>
+
+	<l id='1673'>Madame, et tous ces voeux que j'exigeais de vous,</l>
+
+	<l id='1674'>Mon coeur pour Xipharès vous les demande tous.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1675'>Vivez, Seigneur, vivez, pour le bonheur du monde, </l>
+
+	<l id='1676'>Et pour sa liberté qui sur vous seul se fonde.</l>
+
+	<l id='1677'>Vivez, pour triompher d'un ennemi vaincu,</l>
+
+	<l id='1678' part="i">Pour venger...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1678' part="f">C'en est fait, Madame et j'ai vécu.</l>
+
+	<l id='1679'>Mon fils, songez à vous. Gardez-vous de prétendre</l>
+
+	<l id='1680'>Que de tant d'ennemis vous puissiez vous défendre. </l>
+
+	<l id='1681'>Bientôt tous les Romains de leur honte irrités</l>
+
+	<l id='1682'>Viendront ici sur vous fondre de tous côtés.</l>
+
+	<l id='1683'>Ne perdez point le temps que vous laisse leur fuite</l>
+
+	<l id='1684'>À rendre à mon tombeau des soins dont je vous quitte.</l>
+
+	<l id='1685'>Tant de Romains sans vie en cent lieux dispersés</l>
+
+	<l id='1686'>Suffisent à ma cendre, et l'honorent assez.</l>
+
+	<l id='1687'>Cachez leur pour un temps vos noms, et votre vie.</l>
+
+	<l id='1688' part="i">Allez, réservez-vous...</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1688' part="f">Moi, Seigneur, que je fuie !</l>
+
+	<l id='1689'>Que Pharnace impuni, les Romains triomphants</l>
+
+	<l id='1690' part="i">N'éprouvent pas bientôt...</l>
+
+</sp>
+<sp who="MITHRIDATE"><speaker>MITHRIDATE.</speaker>
+
+	<l id='1690' part="f">Non, je vous le défends. </l>
+
+	<l id='1691'>Tôt ou tard il faudra que Pharnace périsse.</l>
+
+	<l id='1692'>Fiez-vous aux Romains du soin de son supplice.</l>
+
+	<l id='1693'>Mais je sens affaiblir ma force, et mes esprits.</l>
+
+	<l id='1694'>Je sens que je me meurs. Approchez-vous, mon fils. </l>
+
+	<l id='1695'>Dans cet embrassement dont la douceur me flatte, </l>
+
+	<l id='1696'>Venez, et recevez l'âme de Mithridate.</l>
+
+</sp>
+<sp who="MONIME"><speaker>MONIME.</speaker>
+
+	<l id='1697' part="i">Il expire.</l>
+
+</sp>
+<sp who="XIPHARÈS"><speaker>XIPHARÈS.</speaker>
+
+	<l id='1697' part="f">Ah, Madame ! unissons nos douleurs,</l>
+
+	<l id='1698'>Et par tout l'univers cherchons-lui des vengeurs. </l>
+</sp>
+
+</div2>
+
+</div1>
+
+</body>
+
+</text>
+
+</TEI.2>

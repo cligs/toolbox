@@ -1,0 +1,1560 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>MOLIÈRE À TOULOUSE, COMÉDIE EN UN ACTE ET EN VERS.</title>
+				<author born='1756' born_location='' death='1828' death_location='' academie=''>PELLET DESBARREAUX, Hiacinthe</author>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, décembre 2013</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>mythe grec</inspiration>
+				<type>vers</type>
+				<structure>Un acte</structure>
+				<taille>1000-1250</taille>
+				<periode>1781-1790</periode>
+				<permalien>http://gallica.bnf.fr/ark:/12148/bpt6k5598024k</permalien>
+		</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+<text>
+<front>
+	<docTitle>
+		<titlePart type="main">MOLIÈRE À TOULOUSE</titlePart>
+		<titlePart type="sub">COMÉDIE EN UN ACTE ET EN VERS LIBRES</titlePart>
+	</docTitle>
+	<docDate value="1787">M. DCC. LXXXVII. AVEC PERMISSION.</docDate>
+		<docAuthor id="PELLET DESBARREUX, Hyacinthe" bio='pellet-desbarreaux'>Par M. PELLET DESBARREAUX</docAuthor>
+	<docImprint>
+	<privilege id="1787-03-08"><head>PERMIS D'IMPRIMER</head>
+	<p>J'ai lu, avec intérêt, la Pièce qui a pour titre ; MOLIÈRE A TOULOUSE, et je ne doute pas qu'elle ne soit accueillie du Public avec le plus grand plaisir. À Toulouse, le 8 Mars 1787. </p>
+	<p>DUROUX, Capitoul.</p>
+	<p>Permis d'imprimer, ce 21 Mars 1787. LARTIGUE, Juge-Mage. </p>
+	</privilege>
+	<printer id="BROULHIET">À TOULOUSE ; Au Magasin général des Pièces de ThéÄtre ; Chez BROULHIET, Libraire, rue Saint-Rome.</printer>
+	<acheveImprime id=""></acheveImprime>
+		</docImprint>
+		<performance>
+			<premiere date="1787-03-15" location="Toulouse">Représentée à Toulouse, pour la première fois le 15 Mars 1787</premiere>
+		</performance>
+	<epitre><head>ÉPITRE DÉDICATOIRE</head>
+		<adresse>À MA MÈRE.</adresse>
+			<p>C'EST sous vos auspices que doit paraître mon premier ouvrage. Jamais il ne sortira rien de ma plume dont la femme sensible qui m'a donné le jour puisse rougir ; ainsi je ne cherche, en vous dédiant ce coup d'essai, qu'à vous prouver que je conserverai jusqu'à la mort l'amour que vous m'avez inspiré pour la vertu.</p>
+			<p>Votre fils respectueux,</p>
+	<signature>Hte. PELLET DESBARREAUX. </signature>
+	</epitre>
+		<preface><head>PRÉFACE.</head>
+		<p>C'est en 1646 que le célèbre Molière vint à Toulouse, muni d'un Privilège du Roi, pour y faire ses premières armes ; il se montra d'autant plus jaloux du suffrage des Toulousains, que les Arts qui fleurissaient déjà dans leur ville, naissaient seulement ailleurs. Je n'ai point prétendu mettre en action ce qui se passa exactement à cette époque ; mon intention a été seulement de rendre hommage à la mémoire de Molière, dans une ville où je n'ai de ressemblance avec ce grand homme, que le vif désir de mériter la bienveillance d'un Public aussi encourageant pour la timide médiocrité, que juste appréciateur de la perfection. Pour célébrer plus dignement la ville de Toulouse, j'aurais pu tirer un trait plus intéressant de son histoire, mais il aurait fallu prendre un vol plus élevé. Et quand j'aurais choisi une époque plus éclatante, qu'aurais-je pu dire aux Toulousains de plus flatteur, que de leur rappeler que c'est aux encouragements qu'ils donnèrent à ses premiers travaux, que la Nation est redevable du plus grand homme qui ait illustré la scène française ?</p>
+		<p>L'accueil qu'on a fait à ce faible essai m'a payé au centuple de mon travail. Je ne répondrai pas aux différentes observations de mes juges les plus sévères. Le rôle de Pirlon en a choqué quelques-uns, mais M. Goldoni m'en a fourni l'idée dans la pièce italienne, qui a pour titre : il Molière. J'ai cru pouvoir transporter sur notre théâtre un caractère dont Molière lui-même est le premier peintre, et qui le frappa tellement dans le monde, dès son aurore, qu'il vint enfin à bout de le démasquer dans son chef-d'œuvre du Tartuffe.</p>
+		<p>Quant aux dates, qui ne paraissent pas exactes a ceux qui y tiennent, le grand Corneille était déjà célèbre, que Molière était encore ignoré. Le Cid fut joué en 1636, et l'Étourdi ne le fut à Paris qu'en 1658. Je n'oublierai jamais l'indulgence du Public à mon égard, non plus que le zèle de mes camarades, qui ont joué dans la pièce ; je voudrais pouvoir donner à chacun d'eux le tribut d'éloges qui leur est dû, par les soins qu'ils ont mis à voiler mes défauts, mais comme j'avais prévu leurs efforts, ils doivent être bien sûrs de la durée de ma reconnaissance.</p>
+		</preface>
+   <castList><head>PERSONNAGES.</head>
+	<castItem><role id="MOLIÈRE" civil='M' type="H" statut='comédien' age='A' stat_amour='néant'>MOLIÈRE</role>.		M. Dumege.</castItem>
+	<castItem><role id="MADAME BÉJART" civil='F' type="H" statut='comédien' age='A' stat_amour='néant'>MADAME BÉJART</role>, actrice de la troupe de Molière, Madame Fleury</castItem>
+	<castItem><role id="MADEMOISELLE BRÉCOUR" civil='F' type="H" statut='comédien' age='A' stat_amour='néant'>MADEMOISELLE BRÉCOUR</role>, actrice de la troupe de Molière, Mademoiselle Valville.</castItem>
+	<castItem><role id="LAGRANGE" civil='M' type="H" statut='comédien' age='A' stat_amour='Brécour'>LAGRANGE</role>, acteur de la troupe de Molière, Monsieur Clavareau.</castItem>
+	<castItem><role id="MONSIEUR DE SAINT-FIRMIN" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR DE SAINT FIRMIN</role>, Citoyen de Toulouse.	M. Dalainville.</castItem>
+	<castItem><role id="LE MARQUIS" civil='M' type="H" statut='marquis' age='A' stat_amour='néant'>LE MARQUIS</role>. Monsieur Fleury.</castItem>
+	<castItem><role id="PIRLON" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>PIRLON</role>, faux Devet, Italien de nation.	M. Morin.</castItem>
+	<castItem><role id="LESBIN" civil='M' type="H" statut='domestique' age='A' stat_amour='néant'>LESBIN</role>, domestique de Molière.	M. Chevalier.</castItem>
+   </castList>
+<set location='Paris' country='France' periode='XVIIIème' link=''>La Scène est à Toulouse, dans l'appartement de Molière.</set> 
+</front> 
+<body>
+<div1 type='acte' n='1'><head></head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Madeleine Béjart, Lagrange.</head>
+<sp who='MADELEINE BÉJART'><speaker>MADAME BÉJART.</speaker>
+	<l id='1'>Savez-vous bien cher Lagrange, aujourd'hui,</l>
+	<l id='2'>Qu'avant que le Soleil commençât sa carrière,</l>
+	<l id='3'>Nous avons vu sortir Molière,</l>
+	<l id='4'>Et qu'il n'est point encor rentré chez lui ?</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='5'>Les Magistrats qu'il sollicite,</l>
+	<l id='6'>Ont peut-être en ce jour voulu le recevoir,</l>
+	<l id='7'>Ils ont dans tous les temps honoré le mérite ;</l>
+	<l id='8'>Molière serait-il éconduit sans espoir ?</l>
+	<l id='9'>Ses talents, il est vrai, ne paraissent encore</l>
+	<l id='10'>Que dans leur plus modeste éclat ;</l>
+	<l id='11'>Mais quoiqu'il soit, à leur aurore,</l>
+	<l id='12'>Je prédis qu'ils feront la gloire de l'État.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='13'>Examinez pourtant quel destin est le nôtre,</l>
+	<l id='14'>Quels infatigables travaux !</l>
+	<l id='15'>Quel sort ! Molière eût pu s'en procurer un autre.</l>
+	<l id='16'>Courant de tréteaux en tréteaux  </l>
+	<l id='17'>Nous promenant de foire en foire,</l>
+	<l id='18'>Portant partout un œil observateur,</l>
+	<l id='19'>Tous les jours il me dit qu'il court après la gloire ;</l>
+	<l id='20'>La gloire rarement conduit l'homme au bonheur.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='21'>Ah ! Madame Béjart jugez mieux je vous prie</l>
+	<l id='22'>De ce que pour les arts l'État fait aujourd'hui ;</l>
+	<l id='23'>De notre entrepreneur si vous êtes l'amie,</l>
+	<l id='24'>Ne vous alarmez pas pour lui.</l>
+	<l id='25'>Si nous vivions encor dans ces temps d'ignorance,</l>
+	<l id='26'>Où les sots commandaient en France ;</l>
+	<l id='27'>Corneille eut été sans appui,</l>
+	<l id='28'>Mais voyez quelle différence !</l>
+	<l id='29'>Partout les Arts sont accueillis,</l>
+	<l id='30'>Leur règne à la fin recommence,</l>
+	<l id='31'>Et Molière ornera le siècle de Louis.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='32'>Lagrange, avec plaisir j'en accepte l'augure.</l>
+	<l id='33'>Les obstacles pourtant qu'il trouve à chaque pas,</l>
+	<l id='34'>Ne sont pas ce qui me rassure.</l>
+	<l id='35'>À jouer en ces lieux s'il ne réussit pas,</l>
+	<l id='36'>À quel sort faut-il nous attendre ?</l>
+	<l id='37'>Comment faire éclater en un mot ce savoir,</l>
+	<l id='38'>Sur qui vous fondez notre espoir,</l>
+	<l id='39'>Si l'on fait en tous lieux refus de nous entendre ?</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='40'>Je me flatte plus que jamais ;</l>
+	<l id='41'>On lui fera sans doute un accueil agréable ;</l>
+	<l id='42'>Mais veuillez me promettre, en cas d'un plein succès,</l>
+	<l id='43'>Que vous me serez favorable,</l>
+	<l id='44'>Pour obtenir de Molière en ce jour,</l>
+	<l id='45'>La main de la beauté que j'aime ;</l>
+	<l id='46'>Que vous l'engagerez vous-même,</l>
+	<l id='47'>À vouloir en ces lieux couronner mon amour.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='48'>Depuis assez longtemps, il vous a fait connaître</l>
+	<l id='49'>Quel intérêt il prend à la jeune Brécour ; </l>
+	<l id='50'>En la lui confiant son père le fit maître</l>
+	<l id='51'>De lui faire choix d'un état ;</l>
+	<l id='52'>S'il craint de faire une imprudence</l>
+	<l id='53'>En couronnant votre constance,</l>
+	<l id='54'>Pourriez-vous le blâmer d'être si délicat ?</l>
+	<l id='55'>Voyez à quels dangers le Théâtre abandonne,</l>
+	<l id='56'>Un jeune cœur à qui d'heureux talents,</l>
+	<l id='57'>Qu'avec plaisir chacun couronne,</l>
+	<l id='58'>Attirant un flatteur encens,</l>
+	<l id='59'>Et dont l'essaim qui l'environne  </l>
+	<l id='60'>Colore ses discours pour enivrer ses sens.</l>
+	<l id='61'>Tant que le cœur se tait ; oui l'actrice sommeille</l>
+	<l id='62'>Dans un agréable repos,</l>
+	<l id='63'>Elle n'est point sensible aux séduisants propos</l>
+	<l id='64'>Dont on étourdit son oreille ;</l>
+	<l id='65'>Mais quand sentant les prix qu'on met à ses travaux,</l>
+	<l id='66'>Son amour propre enfin s'éveille,</l>
+	<l id='67'>Les galants lieux communs lui paraissent nouveaux ;</l>
+	<l id='68'>Elle écoute avec complaisance</l>
+	<l id='69'>L'hommage dangereux des papillons du jour,</l>
+	<l id='70'>Facile et sans expérience</l>
+	<l id='71'>Le plus flatteur pour elle a le moins de détour ;</l>
+	<l id='72'>Et souvent elle perd sa naïve innocence,</l>
+	<l id='73'>Pour ne pas voir que l'on encense</l>
+	<l id='74'>Sa vanité crédule et non pas son amour.</l>
+	<l id='75'>À vous unir si Molière recule,</l>
+	<l id='76'>C'est qu'il connaît ces revers dangereux,</l>
+	<l id='77'>Et veut, faisant s'il peut, le bonheur de tous deux,</l>
+	<l id='78'>La sauver d'un travers et vous d'un ridicule.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='79'>Ainsi vous croyez qu'au bonheur</l>
+	<l id='80'>Dont peuvent jouir tous les hommes,</l>
+	<l id='81'>Dans l'état pénible où nous sommes,</l>
+	<l id='82'>Il faudra fermer notre cœur :</l>
+	<l id='83'>Parce que le vice sans cesse</l>
+	<l id='84'>Par notre organe est combattu,</l>
+	<l id='85'>Il faudra dans mon âme étouffer la tendresse,</l>
+	<l id='86'>Peut-être même encor rougir de la vertu.</l>
+	<l id='87'>Ah ! Madame Béjart, cette idée est affreuse,</l>
+	<l id='88'>Et de notre union détruirait tout l'accord.</l>
+	<l id='89'>Cette peinture douloureuse</l>
+	<l id='90'>Empoisonnerait notre sort.</l>
+	<l id='91'>Écartons à jamais ces images pénibles,</l>
+	<l id='92'>Il serait affligeant même de présumer,</l>
+	<l id='93'>Que les hommes les plus sensibles ;</l>
+	<l id='94'>Doivent le plus craindre d'aimer.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='95'>Vous avez pris trop à la lettre</l>
+	<l id='96'>Ce que je venais d'avancer ;</l>
+	<l id='97'>Pourrais-je, sans me compromettre...</l>
+	<l id='98'>Croire qu'aux bonnes mœurs, il nous faut renoncer ?</l>
+	<l id='99'>À l'honneur parmi nous il n'est rien qui déroge,</l>
+	<l id='100'>Le plus grand de nos Rois vient de le confirmer ;</l>
+	<l id='101'>Il ne m'appartient point de faire notre éloge ;</l>
+	<l id='102'>Mais raisonnablement peut-on mésestimer</l>
+	<l id='103'>Ceux qui penseront bien, suivant notre carrière ?</l>
+	<l id='104'>Répondez aux Censeurs qui pourraient la blâmer,  </l>
+	<l id='105'>Que c'était celle de Molière.</l>
+	<l id='106'>Gardons-nous cependant d'enivrer notre orgueil</l>
+	<l id='107'>De ce que les succès nous donnent d'avantages ;</l>
+	<l id='108'>Quel que soit du public le favorable accueil,</l>
+	<l id='109'>Au moment où l'on croit être exempt des orages.</l>
+	<l id='110'>Souvent on rencontre un écueil.</l>
+	<l id='111'>Ils sont bien plus fréquents pour l'actrice jolie</l>
+	<l id='112'>Que pour tout autre assurément. </l>
+	<l id='113'>Réfléchissez-y mûrement,</l>
+	<l id='114'>N'allez pas altérer le cours de votre vie</l>
+	<l id='115'>Pour le délire d'un moment ;</l>
+	<l id='116'>Et si jamais l'hymen l'un à l'autre vous lie,</l>
+	<l id='117'>Que la raison toujours guide le sentiment ;</l>
+	<l id='118'>Surtout fermez l'oreille aux rapports de l'envie,</l>
+	<l id='119'>Dans le palais de la folie</l>
+	<l id='120'>Les faux rapports souvent à la chaste Thalie,</l>
+	<l id='121'>Ont donné Momus pour amant......</l>
+	<l id='122'>.....</l>
+	<l id='123'>Croyez qu'à vous servir je serai la première,</l>
+	<l id='124'>Vous me feriez tort d'en douter.</l>
+	<l id='125'>Je sors pour quelques soins dont je dois m'acquitter ;</l>
+	<l id='126'>Veuillez attendre ici Molière.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='LAGRANGE'><speaker>LAGRANGE, seul.</speaker>
+	<l id='127'>Non, Madame Béjart, vous ne présumez pas</l>
+	<l id='128'>Que plus longtemps je puisse attendre.</l>
+	<l id='129'>L'amour, jeune Brécour, qui m'enchaîne à vos pas,</l>
+	<l id='130'>À votre main me permet de prétendre.</l>
+	<l id='131'>Pourquoi diffère-t-on de couronner des nœuds,</l>
+	<l id='132'>Qu'un rapport mutuel a formé dès l'enfance ?</l>
+	<l id='133'>Molière se rendra, voyant notre constance,</l>
+	<l id='134'>Son plaisir fut toujours de faire des heureux.</l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Lagrange, Mademoiselle Brecour.</head>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='135'>Ah ! La voilà celle que j'aime !</l>
+	<l id='136'>Savez-vous, charmante Brecour,</l>
+	<l id='137'>Que plus nous avançons, plus ma peine est extrême,</l>
+	<l id='138'>Nul espoir jusqu'ici ne luit à mon amour.</l>
+	<l id='139'>Je viens encor de parler de ma flamme</l>
+	<l id='140'>À votre bonne amie, à Madame Béjart ;</l>
+	<l id='141'>Elle sait à quel point vous régnez sur mon âme,</l>
+	<l id='142'>Mais je vois qu'à mes vœux elle prend peu de part,</l>
+	<l id='143'>Et peut-être vous-même avez-vous peu d'envie,</l>
+	<l id='144'>De voir mes désirs satisfaits ?</l>
+	<l id='145'>Mon attente jamais ne peut être remplie,</l>
+	<l id='146'>Si vous ne secondez les efforts que je fais.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='147'>Pourquoi faut-il que je vous dise,</l>
+	<l id='148'>Que vous avez encor agi sans réfléchir ?</l>
+	<l id='149'>Aujourd'hui qui vous autorise</l>
+	<l id='150'>À dire qu'à mon sort vous voulez vous unir ?</l>
+	<l id='151'>C'est à moi qu'il fallait en parler la première ;</l>
+	<l id='152'>Je vous aurais épargné sûrement,</l>
+	<l id='153'>Une démarche irrégulière,</l>
+	<l id='154'>Qui ne saurait en ce moment</l>
+	<l id='155'>Que beaucoup déplaire à Molière ;</l>
+	<l id='156'>Peut-être ses efforts seront-ils impuissants</l>
+	<l id='157'>Pour surmonter la cabale jalouse</l>
+	<l id='158'>Qui tremble que pour quelque temps</l>
+	<l id='159'>On ne veuille aujourd'hui le fixer à Toulouse.</l>
+	<l id='160'>Quel pays cependant fut plus digne de lui !</l>
+	<l id='161'>Les Arts qui n'ont ailleurs qu'une estime frivole,</l>
+	<l id='162'>Ici trouvant un légitime appui,</l>
+<note type="L">Capitole : Batîment monumental toulousain commençant au XIIème siècle, abritant le théâtre.</note>
+	<l id='163'>Sont couronnés au Capitole. </l>
+	<l id='164'>Ainsi ne pensons en ce jour</l>
+	<l id='165'>Qu'au projet de Molière ou ce qui l'intéresse,</l>
+	<l id='166'>Et par égard pour sa tendresse,</l>
+	<l id='167'>Nous devons un moment oublier notre amour.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+<note type="L">Pétulance : Emportement avec insolence. [F]</note>
+	<l id='168'>J'ai peut-être, il est vrai, trop mis de pétulance ;</l>
+	<l id='169'>En me plaignant de sa rigueur.</l>
+	<l id='170'>Il peut douter de ma constance,  </l>
+	<l id='171'>Mais je rends justice à son cœur.</l>
+	<l id='172'>S'il souffre quelquefois, c'est de voir que le vice</l>
+	<l id='173'>Peur dans ce siècle corrompu,</l>
+	<l id='174'>Semer de fleurs les bords du précipice</l>
+	<l id='175'>Dont il voudrait pouvoir garantir la vertu.</l>
+	<l id='176'>S'il se plaint d'être né dans le siècle où nous sommes ;</l>
+	<l id='177'>C'est que sous un masque trompeur,</l>
+	<l id='178'>Il voit que l'intérêt guide aujourd'hui les hommes,</l>
+	<l id='179'>Où jadis ils étaient attirés par l'honneur.</l>
+	<l id='180'>À sa connaissance profonde</l>
+	<l id='181'>Rien n'échappe, nos mœurs, nos défauts, nos travers,</l>
+	<l id='182'>Les cabales des sots, les intrigues du monde</l>
+	<l id='183'>Les froids discours, les mauvais vers</l>
+<note type="L">Férule : Petite palette de bois assez épaisse ; sceptre de pédant, dont il se sert pour frapper dans la main des écoliers qui ont manqué à leurs devoirs. [F]</note>
+	<l id='184'>Tout est en bute à sa férule ;</l>
+	<l id='185'>Il ne se sert, en dépit des railleurs,</l>
+	<l id='186'>Pour rendre les hommes meilleurs,</l>
+	<l id='187'>Que des armes du ridicule.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='188'>Promettez-moi que désormais,</l>
+	<l id='189'>Vous montrerez plus de prudence,</l>
+	<l id='190'>Quand de vos amoureux projets</l>
+	<l id='191'>Vous ferez une confidence.</l>
+	<l id='192'>Ce Toulousain si vertueux</l>
+	<l id='193'>Qui des arts parcourt la carrière,</l>
+	<l id='194'>Monsieur de Saint-Firmin, qui ne forme des vœux.</l>
+	<l id='195'>Que pour le succès de Molière,</l>
+	<l id='196'>Hier nous assura qu'au gré de nos désirs,</l>
+	<l id='197'>Enfin tout allait se conclure ;</l>
+	<l id='198'>J'en éprouve d'avance une volupté pure.</l>
+	<l id='199'>Molière nous aima toujours sans imposture,</l>
+	<l id='200'>Nous devons bien au moins partager ses plaisirs.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='201'>Mais ce maudit Monsieur Pirlon,</l>
+	<l id='202'>Ce suppôt de l'hypocrisie,</l>
+	<l id='203'>Qui semble être venu du fonds de l'Italie,</l>
+	<l id='204'>Pour semer la division,</l>
+	<l id='205'>Arme, dit-on, la ville entière</l>
+	<l id='206'>Et la soulève adroitement</l>
+	<l id='207'>Contre les projets de Molière.</l>
+	<l id='208'>Il s'est ingénieusement</l>
+	<l id='209'>Introduit jusqu'en cet asile,</l>
+	<l id='210'>Pour semer les soupçons de sa haine subtile,</l>
+	<l id='211'>Mais son plan est trop bien connu de votre amant.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='212'>Du moindre trait d'ingratitude,</l>
+	<l id='213'>On ne vous soupçonna jamais,</l>
+	<l id='214'>Le vice en votre cœur ne peut avoir d'accès,  </l>
+	<l id='215'>Le mien en est la certitude.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='216'>Aussi pour notre ami, je pense comme vous,</l>
+	<l id='217'>C'est en ces lieux qu'il vient se livrer à l'étude ;</l>
+	<l id='218'>S'il se soustrait aux yeux jaloux</l>
+	<l id='219'>Des importuns et de la multitude,</l>
+	<l id='220'>Il s'occupe depuis longtemps</l>
+	<l id='221'>D'un livre qui peindra ses mœurs et sa sagesse ;</l>
+<note type="L">Lucrèce : Poète latin, né vers l'an 95 av. JC, d'une famille de chevaliers, était contemporain et ami d'Atticus, de Cicéron, de Catulle, de Memmius. Il se donna la mort à 44 ans.</note>
+	<l id='222'>Car c'est pour traduire Lucrèce</l>
+	<l id='223'>Qu'il passe seul ici quelques heureux moments.</l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Lagrange, Mademoiselle Br2cour, Lesbin.</head>
+<sp who='LESBIN'><speaker>LESBIN, à Mademoiselle Brécour.</speaker>
+	<l id='224'>Madame Béjart vous demande.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE, impatienté.</speaker>
+	<l id='225'>On ne peut vous voir un moment.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='226' part='i'>Mon amie a des droits.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='226' part='f'>Je le vois bien vraiment.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='227'>Faut-il lui dire qu'elle attende ?</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+<stage>À Lesbin.</stage>
+	<l id='228' part='i'>Non, j'y vais ; </l>
+<stage>À Lagrange.</stage>
+	<l id='228' part='f'>donnez-moi la main.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='229'>Ah ! Pardonnez à ma tendresse.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='230'>Je vois bien qu'il faudra vous pardonner sans cesse.</l>
+	<l id='231'>Ton maître est-il rentré Lesbin ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='232'>Non Mamzelle, bon il trotte ;</l>
+	<l id='233'>Il m'a dit de prendre en partant,</l>
+	<l id='234'>Sa plus grande perruque et d'aller promptement</l>
+<note type="L">Papillote : Est aussi un petit morceau de papier ou de taffetas dans lequel on enferme les cheveux, afin qu'ils se tiennent frisés. [F]</note>
+	<l id='235'>La mettre sous la papillote,</l>
+	<l id='236'>Et je n'ai pas trouvé du papier seulement.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR, en s'en allant.</speaker>
+	<l id='237'>Tu peux en prendre sur la table.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='LESBIN'><speaker>LESBIN seul, allant à une table garnie de livres et de papiers.</speaker>
+	<l id='238'>C'est pas du papier blanc qu'il me faudra choisir ;</l>
+	<l id='239'>Il me paraît plus convenable</l>
+	<l id='240'>D'employer ce cahier qui ne peut plus servir.</l>
+	<l id='241'>Ce griffonnage est d'une étrange espèce,</l>
+	<l id='242'>Il ne doit être bon à rien.</l>
+	<l id='243'>Avant tout, cependant, examinons-le bien.</l>
+	<l id='244'>Poème traduit de Lucrèce.</l>
+	<l id='245'>.................</l>
+	<l id='246' part='i'>Qu'est-ce que c'est que Lucrèce ?...</l>
+	<l id='246' part='f'>Autant que je peux m'y connaître,</l>
+	<l id='247'>Sur la perruque de mon maître,</l>
+	<l id='248'>Ce Lucrèce paraît très propre à figurer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Pirlon, Lesbin.</head>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='249'>Quoique j'aie en ces lieux liberté toute entière,</l>
+	<l id='250'>Veuillez me dire, mon enfant,</l>
+	<l id='251'>S'il serait possible un moment</l>
+	<l id='252'>D'entretenir Monsieur Molière.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='253'>Monsieur il n'est pas au logis,</l>
+	<l id='254'>De ce que vous voulez, vous n'avez qu'à m'instruire.</l>
+	<l id='255'>De ce qu'on me dit de lui dire,</l>
+	<l id='256'>Lorsque je m'en souviens toujours je l'avertis.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='257'>Vous avez donc de la mémoire ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='258'>Mais oui Monsieur, dans certains cas.</l>
+	<l id='259'>Souvent il vient des gens qui m'en font presque accroire,</l>
+	<l id='260'>D'en parler à Monsieur je ne me souviens pas.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='261'>Votre ingénuité me plaît je vous assure.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='262'>Non pas la vôtre ; tenez, car votre tournure,  </l>
+	<l id='263'>Votre ton radouci, votre voix de lenteur,</l>
+	<l id='264'>Votre trop bénigne figure,</l>
+	<l id='265'>Ça ne me gagne pas le cœur.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='266'>Vous changeriez bientôt, mon enfant, de langage,</l>
+	<l id='267'>Si vous saviez qu'ici je viens pour vous servir,</l>
+	<l id='268'>Et que je n'y prétends remplir</l>
+	<l id='269'>Que les devoirs d'un dévot personnage.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='270'>Tant pis, car mon maître m'a dit,</l>
+	<l id='271'>Et pour sa probité partout on le renomme,</l>
+	<l id='272'>Qu'avant d'être dévot il faut être honnête homme.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='273'>Je vois qu'on vous a mal instruit.</l>
+	<l id='274'>Comment avec votre droiture,</l>
+	<l id='275'>De Molière avez-vous adopté les travers ?</l>
+	<l id='276'>Je prétends aujourd'hui vous montrer l'imposture</l>
+	<l id='277'>Et l'esprit dangereux d'un homme aussi pervers.</l>
+	<l id='278'>Vous vous perdez à jamais dans le monde</l>
+	<l id='279'>Si vous gardez encor ce maître corrompu ;</l>
+	<l id='280'>Il n'est de citoyen que son esprit ne fronde.</l>
+	<l id='281'>Dans ses vers tout est combattu ;</l>
+	<l id='282'>Sous prétexte d'armer contre l'hypocrisie,</l>
+	<l id='283'>Il a conçu, dit-on, la criminelle envie</l>
+	<l id='284'>D'oser censurer la vertu.</l>
+	<l id='285'>Gardez-vous bien chez lui de rester davantage ;</l>
+	<l id='286'>Je prétends vous placer ailleurs,</l>
+	<l id='287'>Et si l'on a besoin de votre témoignage,</l>
+	<l id='288'>Pour avoir des détails sur ses goûts, sur ses mœurs ;</l>
+	<l id='289'>Pieusement nous avons lieu d'attendre</l>
+	<l id='290' part='i'>Que vous voudrez alors bien vous prêter.....</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='290' part='f'>À rien.</l>
+	<l id='291'>D'après donc ce qu'ici vous me faites entendre,</l>
+	<l id='292'>Mon maître est le méchant et vous l'homme de bien.</l>
+	<l id='293'>Plus je vous vois, plus ça m'étonne.</l>
+	<l id='294'>À votre ton mystérieux,</l>
+	<l id='295'>Malgré votre roulement d'yeux,</l>
+	<l id='296'>Gageons que cet avis n'est celui de personne.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='297'>Comment donc malheureux, vous oseriez penser....</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='298'>Je pense qu'il est temps, Monsieur, que je vous quitte ;</l>
+	<l id='299'>Pour annoncer votre heureuse visite.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII.</head>
+<sp who='PIRLON'><speaker>PIRLON, seul.</speaker>
+	<l id='300'>Il fera bien de m'annoncer.</l>
+	<l id='301'>Combien ce Molière a d'empire</l>
+	<l id='302'>Sur tous ceux qui sont près de lui !</l>
+	<l id='303'>Si je venais à bout de pouvoir le détruire,</l>
+	<l id='304'>Je l'empêcherais bien de nous nuire aujourd'hui.</l>
+	<l id='305'>Sa morale partout est celle qu'on épouse.</l>
+	<l id='306'>Les sentiments bientôt seront changés ;</l>
+	<l id='307'>En vain j'alléguerai nos anciens préjugés,</l>
+	<l id='308'>Il les anéantit s'il se fixe à Toulouse.</l>
+	<l id='309'>À l'éloigner employons tous nos soins.</l>
+<note type="L">Brigue : Désir ambitieux qu'on a d'obtenir quelque charge [responsabilité ou propriété rémunératrice] ou dignité, où l'on tâche de parvenir plus par adresse que par mérite. [F]</note>
+	<l id='310'>J'ai des intolérants renouvelé la brigue ;</l>
+	<l id='311'>Qu'au moment qu'il prévoit le moins,</l>
+	<l id='312'>Il se trouve écrasé sous le poids de l'intrigue.</l>
+	<l id='313'>Je fais sur lui courir des bruits divers</l>
+	<l id='314'>Que ma cabale fera croire ;</l>
+	<l id='315'>Je perdrais à jamais mon crédit et ma gloire,</l>
+	<l id='316'>Si des faibles humains les yeux étaient ouverts.</l>
+	<l id='317'>Tandis qu'auprès des grands je travaille en silence</l>
+	<l id='318'>Pour m'opposer à ses projets ;</l>
+	<l id='319'>Détruisons, s'il se peut, l'étroite intelligence</l>
+	<l id='320'>Qui règne dans sa troupe et ses divers sujets.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Lagrange, Pirlon.</head>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='321'>Qu'est-ce, Monsieur Pirlon, ici qui vous attire ?</l>
+	<l id='322'>Vous aviez renoncé disiez-vous à nous voir.</l>
+	<l id='323'>Qu'avez-vous encor à nous dire ?</l>
+	<l id='324'>À votre opinion pensez-vous me réduire ?</l>
+	<l id='325'>Perdez à jamais cet espoir.</l>
+	<l id='326'>Vous le savez, nos cœurs coûtent trop à surprendre ;</l>
+	<l id='327'>Ainsi, Monsieur, n'insistez plus,</l>
+	<l id='328'>De vos raisonnements je reconnais l'abus,</l>
+	<l id='329'>Dispensez-moi de les entendre.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='330'>Quoi ! Vous osez ainsi taxer de fausseté</l>
+	<l id='331'>Un cœur pur que le zèle inspire ;</l>
+	<l id='332'>Car quel autre désir auprès de vous m'attire,</l>
+	<l id='333'>Que de vous faire enfin sentir la vérité.</l>
+	<l id='334'>Je ne puis voir, sans une peine extrême,</l>
+	<l id='335'>Que sans égard pour mes avis</l>
+	<l id='336'>Vous partagiez des goûts, que sans doute vous-même</l>
+	<l id='337'>Vous vous repentirez un jour d'avoir suivis.</l>
+	<l id='338'>De quelque façon qu'on le nomme,</l>
+	<l id='339'>D'après ses projets différents,</l>
+	<l id='340'>Il n'en est pas moins vrai que Molière est un homme</l>
+	<l id='341'>Dont on devrait étouffer les talents.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='342'>Monsieur Pirlon, cessez de grâce,</l>
+	<l id='343'>D'oser insulter sans pitié</l>
+	<l id='344'>Un cœur droit, dont toujours j'ai cherché l'amitié ;</l>
+	<l id='345'>Où je vais vous céder la place.</l>
+	<l id='346'>Vous ne fûtes jamais instruit</l>
+	<l id='347'>De ses mœurs, ni de sa droiture,</l>
+	<l id='348'>Mais vous savez les traits qu'il garde à l'imposture ;</l>
+	<l id='349'>Pour lui trouver des torts, cela seul vous suffit.</l>
+	<l id='350'>Sans croire ce qu'ici votre parti publie,</l>
+	<l id='351'>Interrogez les siens, fréquentez sa maison,</l>
+	<l id='352'>Passez chaque acte de sa vie</l>
+	<l id='353'>À l'examen de la raison ;</l>
+	<l id='354'>Vous apprendrez que l'innocence</l>
+	<l id='355'>Trouva souvent un asile chez lui,</l>
+	<l id='356'>Que de la honteuse indigence</l>
+	<l id='357'>Il a toujours été le plus solide appui.</l>
+	<l id='358'>S'est-il montré jaloux d'en vouloir faire accroire ;</l>
+	<l id='359'>En publiant le plus léger bienfait ?</l>
+	<l id='360'>L'avez-vous entendu louer d'une autre gloire</l>
+	<l id='361'>Que de celle qu'il a d'obliger en secret ?</l>
+	<l id='362'>Si sans blesser sa modestie,</l>
+	<l id='363'>Je publiais ici l'exacte vérité,</l>
+	<l id='364'>Sa scrupuleuse loyauté,</l>
+	<l id='365'>Vous rougiriez avec l'envie</l>
+	<l id='366'>De l'avoir osé croire un mortel corrompu ;</l>
+	<l id='367'>Vous l'estimeriez tous, si vous pouviez m'entendre ;</l>
+	<l id='368'>Mais non, car vos discours me font assez comprendre</l>
+	<l id='369'>Que vous estimez tout, excepté la vertu.</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='370'>J'admire cependant le zèle qui vous presse</l>
+	<l id='371'>Pour cet homme de bien, qui vient en ce moment</l>
+	<l id='372'>De soustraire très décemment</l>
+	<l id='373'>À son intime ami, la main de sa maîtresse.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='374'>Que dites-vous, Monsieur Pirlon ?</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='375'>Rien, car sans doute je m'abuse,</l>
+	<l id='376'>Ou peut-être ceci n'est encor qu'une ruse,</l>
+	<l id='377'>Pour surprendre votre raison ;</l>
+	<l id='378'>Mais dussiez-vous me faire un crime</l>
+	<l id='379'>De ma franchise à votre égard,</l>
+	<l id='380'>De votre bonne foi, vous êtes la victime ;</l>
+	<l id='381'>Je crains que seulement vous le sachiez trop tard.</l>
+	<l id='382'>Depuis longtemps de l'ardeur la plus tendre</l>
+	<l id='383'>Vous brûlez, je le sais, pour la jeune Brécour,</l>
+	<l id='384'>Vous êtes même en droit d'attendre</l>
+	<l id='385'>Le prix qu'on doit à votre amour ;</l>
+	<l id='386'>Mais dédaignant votre tendresse,</l>
+	<l id='387'>Molière à votre insu va, d'un cœur inhumain,</l>
+	<l id='388'>À l'un de ses parents unir votre maîtresse,</l>
+	<l id='389'>Qui dans trois jours aura sa main.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='390'>Ce trait, ô ciel ! Est-il croyable ?</l>
+	<l id='391'>Je ne saurais, Monsieur, croire votre rapport ;</l>
+	<l id='392'>Je céderais à mon transport,</l>
+	<l id='393'>Mais d'un tel procédé Molière est incapable.</l>
+	<l id='394'>Si je le soupçonnais de nuire à mon bonheur,</l>
+	<l id='395'>Et de m'avoir trompé, sous un dehors sincère,</l>
+	<l id='396'>Jusqu'où ne pourrait pas m'emporter ma fureur ?</l>
+	<l id='397'>Celui qui jusqu'ici m'a tenu lieu de père,</l>
+	<l id='398'>Aussi cruellement déchirerait mon cœur ?</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON.</speaker>
+	<l id='399'>Vous pouvez là-dessus en croire ma franchise ;</l>
+	<l id='400'>Opposez-vous à ce lien,</l>
+	<l id='401'>Votre bon droit vous autorise,</l>
+	<l id='402'>Et tout ici vous doit en fournir le moyen.</l>
+	<l id='403'>Aujourd'hui, sur le soir, sans rien faire paraître,</l>
+	<l id='404'>Si vous avez l'aveu de la jeune Brécour,</l>
+	<l id='405'>On peut furtivement la faire disparaître,</l>
+	<l id='406'>Et favoriser votre amour.</l>
+	<l id='407'>Adroitement je saurai vous instruire</l>
+	<l id='408'>Du plan que vous aurez à suivre à ce sujet ;</l>
+	<l id='409'>Par mes soins laissez-vous conduire,</l>
+	<l id='410'>Je garantis votre projet.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='411'>Vous feignez d'être mon complice,</l>
+	<l id='412'>Pour pouvoir mieux, en me prêtant les mains,</l>
+	<l id='413'>De Molière aujourd'hui renverser les desseins.</l>
+	<l id='414'>Abjurez croyez-moi, ce grossier artifice ;</l>
+	<l id='415'>Ne souillez plus notre maison ;  </l>
+	<l id='416'>Des faux rapports de l'imposture,</l>
+	<l id='417'>N'y venez plus de votre langue impure</l>
+	<l id='418'>Insolemment distiller le poison :</l>
+	<l id='419'>De mon cœur indigné vous avez tout à craindre.</l>
+	<l id='420'>Redoutez mon juste courroux ;</l>
+	<l id='421'>Tremblez, que las de me contraindre,</l>
+	<l id='422'>Je ne devienne enfin aussi lâche que vous.</l>
+	<l id='423'>Attendez-vous que votre zèle impie...</l>
+</sp>
+<sp who='PIRLON'><speaker>PIRLON, tirant sa montre.</speaker>
+	<l id='424'>Il est, Monsieur, six heures et demie,</l>
+	<l id='425'>Je dois prier le ciel pour votre repentir,</l>
+	<l id='426'>Et ce pieux devoir m'oblige de sortir.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX.</head>
+<sp who='LAGRANGE'><speaker>LAGRANGE, seul.</speaker>
+	<l id='427'>Voilà ceux que Molière a pourtant à combattre ;</l>
+	<l id='428'>Ce sont ces fléaux corrupteurs,</l>
+	<l id='429'>Qui partout cherchent à l'abattre,</l>
+	<l id='430'>Et qui si lâchement insultent à ses mœurs.</l>
+	<l id='431'>Ce parti qui le calomnie,</l>
+	<l id='432'>Et que l'on croit avec légèreté,</l>
+	<l id='433'>Prouve que l'homme de génie</l>
+	<l id='434'>À chaque pas doit être épouvanté,</l>
+	<l id='435'>Lorsqu'il porte dans sa patrie</l>
+	<l id='436'>Le flambeau de la vérité.</l>
+	<l id='437'>Si Molière pourtant avait été capable</l>
+	<l id='438'>De ne se montrer qu'à demi ;</l>
+	<l id='439'>S'il était en effet coupable,</l>
+	<l id='440'>Envers les siens et son ami...</l>
+	<l id='441'>Rejetons à jamais ce soupçon qui l'offense :</l>
+	<l id='442'>Je dois cependant l'aviser</l>
+	<l id='443'>Du tort qu'un tel soupçon fait à son innocence,</l>
+	<l id='444'>Un mot lui suffira pour me désabuser :</l>
+	<l id='445'>Mais justement le voici qui s'avance.</l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Lagrange, Molière.</head>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='446'>Nous sommes, cher Lagrange, encor au même point,</l>
+	<l id='447'>Tout me dénie un sort prospère ;</l>
+	<l id='448'>Je sollicite, on délibère,</l>
+	<l id='449'>On propose, on s'agite et l'on ne conclut point.</l>
+	<l id='450'>J'allègue vainement le motif qui m'attire ;</l>
+	<l id='451'>Rien ne peut désarmer mes hardis détracteurs ;</l>
+	<l id='452'>Le faux zèle qui les inspire</l>
+	<l id='453'>Jette de toute part des soupçons sur mes mœurs.</l>
+	<l id='454'>Qu'ai-je donc fait pour mériter l'orage.</l>
+	<l id='455'>Qu'on veut faire fondre sur moi ?</l>
+	<l id='456'>À la vertu je rends hommage,</l>
+	<l id='457'>Je respecte l'État, ma Patrie et mon Roi.</l>
+	<l id='458'>Le faux goût du siècle où nous sommes,</l>
+	<l id='459'>A quelquefois éprouvé ma rigueur,</l>
+	<l id='460'>Mais jamais je ne parle aux hommes</l>
+	<l id='461'>Que pour leur faire voir le chemin du bonheur.</l>
+	<l id='462'>Pourquoi donc à ce point suis-je en butte à l'envie ?</l>
+	<l id='463'>De ce vice aujourd'hui je serais mieux traité,</l>
+	<l id='464'>Si moins choqué de la difformité,</l>
+	<l id='465'>J'en avais fait l'apologie.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='466'>Eh quoi ! Molière encor... Vous paraissez surpris</l>
+	<l id='467'>Des contrariétés que votre plan éprouve ;</l>
+	<l id='468'>Du mérite souvent, tel est le premier prix :</l>
+	<l id='469'>Mais malgré l'obstacle qu'il trouve,</l>
+	<l id='470'>Il ne doit point fixer ses pas ;</l>
+	<l id='471'>Dès qu'il a franchi la barrière</l>
+	<l id='472'>Les lauriers de la gloire ont pour lui trop d'appas,</l>
+	<l id='473'>Pour qu'il ne vole pas au bout de la carrière.</l>
+	<l id='474'>En vain on entend quelques voix</l>
+	<l id='475'>Qui font des efforts pour vous nuire,</l>
+	<l id='476'>Ne vous rebutez pas vous saurez les réduire ;</l>
+	<l id='477'>Le talent de tout temps à Toulouse eut des droits,</l>
+	<l id='478'>Que ses concitoyens ne laissent pas détruire.</l>
+	<l id='479'>Je viens de voir encor le cher Monsieur Pirlon,</l>
+	<l id='480'>Cet Italien hypocrite</l>
+	<l id='481'>Que sitôt qu'il vous sait dehors de la maison,</l>
+	<l id='482'>Vient vous calomnier en nous rendant visite.  </l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='483'>Aussi pourquoi le recevoir :</l>
+	<l id='484'>J'ai pris depuis longtemps le soin de vous instruire,</l>
+	<l id='485'>Que c'était seulement pour nuire</l>
+	<l id='486'>Que cet homme venait nous voir.</l>
+	<l id='487'>Ouvrez à chaque instant ma demeure tranquille</l>
+	<l id='488'>À l'indigence honnête, à l'homme vertueux,</l>
+	<l id='489'>Surtout quand je pourrai leur devenir utile.</l>
+	<l id='490'>Il est doux d'obliger ceux qu'on sait malheureux ;</l>
+	<l id='491'>Mais les méchants jamais n'y trouveront d'asile,</l>
+	<l id='492'>Qu'on ne la ferme que pour eux.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='493'>Il est venu très poliment me dire,</l>
+	<l id='494'>Que j'aspirais en vain à la jeune Brécour,</l>
+	<l id='495'>Qu'à l'un de vos parents, qui pour elle soupire,</l>
+	<l id='496'>Vous alliez l'allier, pour braver mon amour.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='497'>L'imposteur ! Cependant, cher Lagrange, j'augure</l>
+	<l id='498'>Que malgré cet avis trompeur,</l>
+	<l id='499'>Vous n'avez point douté de ma droiture,</l>
+	<l id='500'>Ni même soupçonné mon cœur.</l>
+	<l id='501'>Je ne fais jamais rien dont je ne vous avise,</l>
+	<l id='502'>Ainsi rassurez-vous sur ce projet cruel ;</l>
+	<l id='503'>Ce procédé serait d'un homme plein de fiel ;</l>
+	<l id='504'>Aussi n'en dois-je point disculper ma franchise.</l>
+	<l id='505'>J'ai bien pu quelque fois mêler à mes discours</l>
+	<l id='506'>D'un peu trop vives incartades ;</l>
+	<l id='507'>Mais mes plus chers amis furent vraiment toujours,</l>
+	<l id='508'>Mes égaux et mes camarades.</l>
+<note type="L">Glapir : Faire un cri dont le son est aigu et perçant. On le dit proprement des petits chiens et des renards. Mais figurément il se dit des personnes qui crient, qui haussent leur voix d'un ton aigre et perçant. [F]</note>
+	<l id='509'>Laissez en paix glapir Monsieur Pirlon,</l>
+	<l id='510'>Qu'il ne puisse entre nous semer aucun soupçon,</l>
+	<l id='511'>Et conservons pour lui, ces haines vigoureuses,</l>
+	<l id='512'>Que doit donner le vice aux âmes vertueuses.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='513'>Convaincu de sa fausseté,</l>
+	<l id='514'>Ainsi que je l'étais de son hypocrisie,</l>
+	<l id='515'>Je veux voir à quel point, masquant la vérité,</l>
+	<l id='516'>Sait se plier la calomnie.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='517'>Non, payez-le, Monsieur, d'un souverain mépris,</l>
+	<l id='518'>De ces complots cruels, tel doit être le prix.</l>
+<note type="C">Voir Molière le Misanthope, Acte Scène 1, v. 141, Alceste. On trouve aussi  l'expression "mortelles alarmes" au vers 1081 de Dom Quixote (suite) (1640) de Guerin de Bouscal au vers 388 de Mariane (1644) de Tristan.</note>
+	<l id='519'>Têtebleu, ce me sont de mortelles blessures</l>
+	<l id='520'>De voir qu'envers cet homme on garde des mesures,</l>
+	<l id='521'>Car dans ce siècle corrompu</l>
+	<l id='522'>Il n'est point pour mon cœur de plus cruel supplice,</l>
+	<l id='523'>Que de voir tous les jours lâchement faire au vice</l>
+	<l id='524'>Le même accueil qu'à la vertu.  </l>
+	<l id='525'>Notre usuelle bienséance,</l>
+	<l id='526'>Dont chacun aujourd'hui paraît s'enorgueillir,</l>
+	<l id='527'>Autorise l'impertinence,</l>
+	<l id='528'>Dont les méchants savent se revêtir.</l>
+	<l id='529'>Êtes-vous vertueux ? Je vous accueille en homme</l>
+	<l id='530'>Intéressant, consolateur.</l>
+	<l id='531'>Vicieux, je vous fuis, et hautement vous nomme</l>
+	<l id='532'>À la société comme son corrupteur.</l>
+</sp>
+<sp who='LAGRANGE'><speaker>LAGRANGE.</speaker>
+	<l id='533'>Vous ne dites rien que mon cœur n'autorise,</l>
+	<l id='534'>Mais cependant cher Molière, entre nous,</l>
+	<l id='535'>N'appréhendez-vous point qu'un excès de franchise</l>
+	<l id='536'>N'indispose en ces lieux bien des gens contre vous ?</l>
+	<l id='537'>Je ne crois pas cela le moyen préférable.</l>
+	<l id='538'>Quand de l'homme du monde on veut être écouté,</l>
+	<l id='539'>Il faut souvent parer des roses de la Fable,</l>
+	<l id='540'>Le miroir de la vérité.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='541'>Je conviens de mon tort, et que mes récidives</l>
+	<l id='542'>Arrivent un peu fréquemment ;</l>
+	<l id='543'>Mais convenez que ces âmes passives</l>
+	<l id='544'>Que rien n'affecte vivement,</l>
+	<l id='545'>Dont l'apathique indifférence</l>
+	<l id='546'>Envisage sans s'émouvoir,</l>
+	<l id='547'>Et du même œil l'homme qui pense,</l>
+	<l id='548'>Ou celui qui trahit et manque à son devoir,</l>
+	<l id='549'>Ne sont pas celles qu'on préfère ;</l>
+	<l id='550'>Tout leur paraît du même ton ;</l>
+	<l id='551'>Mais l'homme de bien au contraire,</l>
+	<l id='552'>Jetant sur chaque objet un regard plus sévère,</l>
+	<l id='553'>Censure ou soumet tout aux lois de la raison.</l>
+	<l id='554'>Soyez sur que mon caractère</l>
+	<l id='555'>N'est pas ce qui pourra renverser mon projet,</l>
+	<l id='556'>Pour s'alarmer on croit avoir un autre objet.</l>
+	<l id='557'>Le théâtre n'est point assez célèbre encore,</l>
+	<l id='558'>Il s'étendra de plus en plus ;</l>
+	<l id='559'>Et comme en France, il n'est qu'à son aurore</l>
+	<l id='560'>On sent son avantage, et l'on craint ses abus.</l>
+	<l id='561'>J'ai peur qu'à ma demande on ne soit sans réponse.</l>
+	<l id='562'>Ou qu'on n'y veuille consentir,</l>
+	<l id='563'>Peut-être qu'à Toulouse il faut que je renonce ;</l>
+	<l id='564'>C'est un des vrais regrets qu'on m'aura fait sentir.</l>
+	<l id='565'>Qu'il eût été flatteur, commençant ma carrière,</l>
+	<l id='566'>Si je dois acquérir quelques célébrités,</l>
+	<l id='567'>De faire dire un jour ; de toutes nos Cités,</l>
+	<l id='568'>Toulouse daigna la première</l>
+	<l id='569'>Accueillir autrefois les essais de Molière.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Lesbin, Lagrange, Molière.</head>
+<sp who='LESBIN'><speaker>LESBIN, accourant.</speaker>
+	<l id='570' part='i'>Monsieur de Saint-Firmin :</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='570' part='f'>Eh bien faites entrer ;</l>
+	<l id='571'>De l'annoncer on n'est pas dans l'usage, </l>
+<stage>Lesbin sort.</stage>
+	<l id='572'>C'est un homme de bien, un philosophe, un sage,</l>
+	<l id='573'>Dont l'entretien me dédommage</l>
+	<l id='574'>Des ennuis qu'autre part on me fait éprouver.</l>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Monsieur de Saint Firmin, Molière, Lagrange, Madeleine Béjart, Mademoiselle Brécour.</head>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='575'>Peut-être mon entrée est chez vous importune,</l>
+	<l id='576'>Si vous vous occupez surtout en cet instant ;</l>
+	<l id='577'>Mais je viens pour votre fortune</l>
+	<l id='578'>Prendre un avis intéressant.</l>
+	<l id='579'>Est-il vrai qu'au regret de la patrie entière,</l>
+	<l id='580'>Malgré les vœux de ceux qu'on doit considérer,</l>
+	<l id='581'>Nous ne pouvons plus espérer</l>
+	<l id='582'>De fixer en ces lieux la troupe de Molière ?</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='583'>Ce bruit est venu jusqu'à nous ;</l>
+	<l id='584'>Comme il est incertain je n'ose encor m'en plaindre.</l>
+	<l id='585'>Nous n'aurions pas un tel revers à craindre,</l>
+	<l id='586'>Si chacun en ces lieux eût pensé comme vous.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='587'>Ne nous affligeons point, ce bruit est faux peut-être :</l>
+	<l id='588'>On n'aura pas eu soin de vous bien informer.</l>
+	<l id='589'>À mon pays c'est peu de vous faire connaître,</l>
+	<l id='590'>Je prétends vous en faire aimer.</l>
+	<l id='591'>Si de quelque crédit je jouis dans la vie,</l>
+	<l id='592'>J'en veux appuyer vos projets ;  </l>
+	<l id='593'>Et je ne m'en servis jamais</l>
+	<l id='594'>Que pour être vraiment utile à ma patrie.</l>
+	<l id='595'>Il est beau d'arrêter au sein de nos remparts</l>
+	<l id='596'>Celui qui de nos mœurs montre l'insuffisance ;</l>
+	<l id='597'>Qui moissonne déjà la palme des beaux arts,</l>
+<note type="L">Térence : poète comique latin, né probablement à Carthage vers 200 avant JC, fut esclave du sénateur Terentius Lucanus, qui l'affranchit et lui fit donner une bonne éducation, et dont le poète prit le nom par reconnaissance. (...) On a de Térence six comédies. Molière a tiré les Fourberies de Scapin du Phormion et Baron a imité l'Adrienne. (...) [B]</note>
+	<l id='598'>Dans les champs qu'autrefois a défriché Térence ;</l>
+	<l id='599'>Un artiste qui sait au nom d'homme de bien,</l>
+	<l id='600'>Réunit comme vous le talent d'être utile ;</l>
+	<l id='601'>Fixer un tel homme en sa Ville,</l>
+	<l id='602'>Est l'acte d'un vrai citoyen.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='603'>Ah ! Louez un peu moins un auteur ordinaire,</l>
+	<l id='604'>Votre esprit je le vois est comme votre cœur,</l>
+	<l id='605'>Indulgent à juger, comme enclin à bien faire :</l>
+	<l id='606'>Je ne mérite pas votre éloge flatteur.</l>
+	<l id='607'>Veuillez m'épargner, je vous prie,</l>
+	<l id='608'>Au poids de la raison, Monsieur, je m'apprécie ;</l>
+	<l id='609'>Je ne marche encor qu'à pas lent,</l>
+	<l id='610'>Et ne regarde qu'en tremblant</l>
+	<l id='611'>Le roc où l'on plaça les lauriers du génie.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='612'>Je vois bien que la modestie</l>
+	<l id='613'>Est l'apanage du talent ;</l>
+	<l id='614'>Aussi, Monsieur, je n'envisage,</l>
+	<l id='615'>En vous arrêtant parmi nous,</l>
+	<l id='616'>Que le glorieux avantage</l>
+	<l id='617'>De prouver que chacun à Toulouse est jaloux</l>
+	<l id='618'>De vous décerner son suffrage.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='619'>Vous me parlez du seul bonheur</l>
+	<l id='620'>Après lequel ma troupe osait prétendre :</l>
+	<l id='621'>Si vous saviez combien il en coûte à mon cœur</l>
+	<l id='622'>De ne pouvoir me faire entendre,</l>
+	<l id='623'>Dans la Ville où les Arts fleurissent aujourd'hui ;</l>
+	<l id='624'>Mais peu connu dans la carrière,</l>
+	<l id='625'>Le franc et modeste Molière</l>
+	<l id='626'>N'a trouvé qu'en vous seul un généreux appui.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='627'>Le monde vous connaît ; il craint votre censure :</l>
+	<l id='628'>Par vous qu'il ne soit point flatté.</l>
+	<l id='629'>Du vice montrez vous le fléau redouté,</l>
+	<l id='630'>Et poursuivez-le sans mesure.</l>
+	<l id='631'>De ses replis toujours nouveaux</l>
+	<l id='632'>Molière, faites-nous justice ;</l>
+	<l id='633'>Ce serait être son complice</l>
+	<l id='634'>Que ne pas enhardir vos utiles travaux.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='635'>Ah ! Du même œil que vous, Monsieur, je l'envisage ;</l>
+	<l id='636'>Mais le cruel a différents soutiens,</l>
+	<l id='637'>Je le voudrais combattre avec courage,</l>
+	<l id='638'>Et l'on m'en ôte les moyens.</l>
+	<l id='639'>Sous différents dehors je le vois qui circule</l>
+	<l id='640'>Et portant en tous lieux un visage apprêté,</l>
+	<l id='641'>Sous le manteau du ridicule</l>
+	<l id='642'>Infecte la société.</l>
+	<l id='643'>De la simplicité le style est trop gothique</l>
+	<l id='644'>Pour nos savantes de renom,</l>
+	<l id='645'>En langage de rhétorique</l>
+	<l id='646'>Elles ordonnent un pompon,</l>
+	<l id='647'>Et leur jargon scientifique</l>
+	<l id='648'>De chaque tête a banni la raison.</l>
+	<l id='649'>En vain d'Agnés Arnolphe estime l'innocence,</l>
+	<l id='650'>Elle sait avec art tromper sa prévoyance</l>
+	<l id='651'>Et le vieillard enfin apprend à ses dépens</l>
+<note typep="C">Sujet de l'Ecole des Femmes de Molière.</note>
+	<l id='652'>Que l'hiver doit toujours faire place au printemps.</l>
+	<l id='653'>Je vois en parcourant le monde,</l>
+	<l id='654'>De sots et de fâcheux que l'univers abonde.</l>
+	<l id='655'>Damon de ses yeux m'étourdit tout un jour,</l>
+	<l id='656'>Et dit qu'avec raison il est bien à la Cour.</l>
+	<l id='657'>Des mœurs du temps Alceste en vain fait la satire ;</l>
+	<l id='658'>Si le vice le choque, il a tort de le dire ;</l>
+	<l id='659'>Soyez dissimulé, complaisant lui dit-on,</l>
+	<l id='660'>Pliez-vous par faiblesse aux règles du bon ton ;</l>
+	<l id='661'>Sa vertu se révolte, il s'emporte, il déclame ;</l>
+	<l id='662'>On rit de sa franchise et son ami l'en blâme,</l>
+	<l id='663'>Il est forcé, lassé d'essuyer des dédains,</l>
+<note type="C">Voir Le Misanthrope de Molière Acte I, Scène 1, v. 144. Alceste</note>
+	<l id='664'>De fuir dans un désert l'approche des humains.</l>
+	<l id='665'>Voit-on sans s'indigner avec quelle bassesse.</l>
+	<l id='666'>De ce vieillard un fourbe a surpris la faiblesse ;</l>
+	<l id='667'>Comme affectant un air pieux,</l>
+	<l id='668'>L'imposteur d'un dehors toujours officieux</l>
+	<l id='669'>Adroitement sait colorer son crime,</l>
+	<l id='670'>Et comme sans parler de ses détours cruels</l>
+	<l id='671'>Il arrive au moment d'entraîner dans l'abîme</l>
+<note typep="C">Sujet du Tartuffe de Molière.</note>
+	<l id='672'>Le plus crédule des mortels.</l>
+	<l id='673'>Cet autre de ses jours ne fait plus qu'un supplice,</l>
+	<l id='674'>Pour trop veiller à son trésor</l>
+	<l id='675'>En proie à sa vile avarice</l>
+<note typep="C">Sujet de L'Avare de Molière.</note>
+	<l id='676'>Tout son mérite est dans son or.</l>
+	<l id='677'>Ce rustre ose trouver son épouse infidèle,</l>
+	<l id='678'>Et l'imbécile ne voit pas</l>
+	<l id='679'>Que quel que soit l'affront qu'il reçoive par elle,</l>
+	<l id='680'>Il y doit trouver des appas,</l>
+	<l id='681'>Puisque sa femme est demoiselle.</l>
+	<l id='682'>Jadis ce bon vieillard était maître chez lui,</l>
+	<l id='683'>Il grondait à son gré sa fille et sa servante,</l>
+	<l id='684'>Mais il n'a plus le droit de parler aujourd'hui,</l>
+<note typep="C">Sujet des Femmes savantes de Molière.</note>
+	<l id='685'>Sa sœur est philosophe et sa femme est savante.</l>
+<note type="L">Engouer : Boucher le passage d gosier : ce qui arrive quand on mange goulûment quelque morceau de viande trop gros qu'on a de la peine à avaler. Se dit figurément en Morale ; pour dire, se préoccuper, s'entêter en faveur de quelque personne, ou de quelque ouvrage. [F]</note>
+	<l id='686'>Ce bourgeois engoué d'une fausse grandeur,</l>
+	<l id='687'>Veut que de quelque titre à la fin on le nomme ;</l>
+	<l id='688'>Il se ruine au profit d'un fade adulateur,</l>
+<note typep="C">Sujet du Borugeois gentilhomme de Molière.</note>
+	<l id='689'>Qui lui dit qu'il pourra passer pour gentilhomme.</l>
+	<l id='690'>Cet autre à chaque instant tremble pour sa santé,</l>
+	<l id='691'>D'après le docte avis de son apothicaire ;</l>
+	<l id='692'>Mais le sot ne voit pas dans son absurdité,</l>
+<note typep="C">Sujet du Malade imaginaire de Molière.</note>
+	<l id='693'>Que son mal est imaginaire.</l>
+	<l id='694'>Que d'oisifs importuns que d'esprits à l'envers !</l>
+	<l id='695'>Je ne suffirais pas à vouloir les décrire,</l>
+	<l id='696'>Mais aux hommes, Monsieur, que ferait ma satire ?</l>
+	<l id='697'>Ils ne les quittent pas ils changent leurs travers.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN, avec émotion.</speaker>
+	<l id='698'>De vos succès ici j'ose presque répondre,</l>
+	<l id='699'>À mes concitoyens je vais ouvrir mon cœur ;</l>
+	<l id='700'>Et de vos ennemis quelle que soit l'aigreur</l>
+	<l id='701'>D'un mot je saurai les confondre.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='702'>Ah ! Voilà bien cette chaleur</l>
+	<l id='703'>Que de votre vertu, j'étais en droit d'attendre ;</l>
+	<l id='704'>L'homme le plus instruit est encor le plus tendre,</l>
+	<l id='705'>Et comme vous, sent les peines d'autrui.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='706'>À mes principes aujourd'hui</l>
+	<l id='707'>Ne croyez pas que je déroge ;</l>
+	<l id='708'>À vos talents je dois servir d'appui,</l>
+	<l id='709'>Et le devoir jamais n'a mérité d'éloge.</l>
+<stage>Il fait une fausse sortie.</stage>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='710' part='i'>Ah Monsieur je vous suis.</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='710' part='f'>Demeurez en ces lieux,</l>
+	<l id='711'>Tous vos moments sont précieux.</l>
+<stage>En montrant Lagrange.</stage>
+	<l id='712'>Monsieur, de ce qu'ici pour vous je sollicite</l>
+	<l id='713'>Viendra vous annoncer le refus malheureux,</l>
+	<l id='714'>Ou vous porter la réussite.</l>
+<stage>Il sort, Molière et Lagrange l’accompagnent.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. Madeleine Béjart, Mademoiselle Brécour.</head>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='715'>Ah ! Madame Béjart, si Monsieur Saint Firmin</l>
+	<l id='716'>Peut avoir réussite entière,</l>
+	<l id='717'>Vous ne vous plaindrez plus du rigoureux destin</l>
+	<l id='718'>Qui, dites-vous, poursuit Molière.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='719'>Je compte beaucoup sur ses soins ;</l>
+	<l id='720'>C'est un homme de bien et que chacun honore ;</l>
+	<l id='721'>Mais ne nous flattons point encore</l>
+	<l id='722'>Tout nous manque souvent, quand on le croit le moins.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='723'>Mais pensez-vous, ma bonne amie,</l>
+	<l id='724'>Si tout se terminait au gré de vos désirs,</l>
+	<l id='725'>Que Molière voudrait couronner nos soupirs,</l>
+	<l id='726'>Et qu'à Lagrange enfin je pourrais être unie.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='727'>Quand Molière est rentré, j'en ai dit quelques mots ;</l>
+	<l id='728'>Mais il ne trouve point cet hymen à propos.</l>
+	<l id='729'>De le trop appuyer sa franchise m'accuse :</l>
+	<l id='730'>Vous prenez, dit-il, en ce jour</l>
+	<l id='731'>Liberté qui vous abuse</l>
+	<l id='732'>Mal-à-propos pour l'amour ;</l>
+	<l id='733'>Et lorsque vous serez en âge de connaître</l>
+	<l id='734'>Et de mieux vous juger tous deux,</l>
+	<l id='735'>Vous vous repentirez peut-être</l>
+	<l id='736'>D'avoir trop tôt serré vos nœuds.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='737'>Ah ! Madame Béjart, jamais je vous assure.</l>
+	<l id='738'>Plus j'écoute la voix de mon penchant flatteur,</l>
+	<l id='739'>Et plus mon jeune amant me fait lire en son cœur,</l>
+	<l id='740'>Moins je lui trouve d'imposture.</l>
+	<l id='741'>L'hymen, ce dieu consolateur,</l>
+	<l id='742'>Qui sous sa chaîne nous appelle,</l>
+	<l id='743'>Reçoit souvent des lois de l'intérêt trompeur,</l>
+	<l id='744'>Mais il en recevra pour faire mon bonheur,</l>
+	<l id='745'>De notre flamme mutuelle.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='746'>Molière jusqu'ici fut seul votre soutien,</l>
+	<l id='747'>Au pouvoir qu'autrefois lui donna votre père,</l>
+	<l id='748'>Peut-être seulement voulez-vous vous soustraire,</l>
+	<l id='749'>Quand vous recherchez ce lien.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='750'>Quand on aurait égard à ma prière</l>
+	<l id='751'>En ce moment, je ne présume pas</l>
+	<l id='752'>Que votre ami, le généreux Molière,</l>
+	<l id='753'>Puisse me supposer des sentiments si bas.</l>
+	<l id='754'>Vous avez tous les deux pris soin de mon enfance ;</l>
+	<l id='755'>Vous avez vu dès mes plus jeunes ans</l>
+	<l id='756'>S'ouvrir mon cœur à la reconnaissance,</l>
+	<l id='757'>Et rien ne changera jamais dans aucun temps,</l>
+	<l id='758'>Votre amitié ni mon obéissance.</l>
+	<l id='759'>Quels que soient de l'hymen les devoirs obligeants,</l>
+	<l id='760'>Ne craignez pas ô mon amie !</l>
+	<l id='761'>Qu'on altère les sentiments,</l>
+	<l id='762'>Qui depuis mon berceau l'un à l'autre nous lie.</l>
+	<l id='763'>Ma mère infortunée, en me donnant le jour,</l>
+	<l id='764'>A vu terminer sa carrière ;</l>
+	<l id='765'>Elle vous transmit son amour,</l>
+	<l id='766'>Et vous avez ouvert mes yeux à la lumière ;</l>
+	<l id='767'>Par l'honneur, votre cœur fut toujours inspiré</l>
+	<l id='768'>Dans ce que j'éprouvai dans notre union pure,</l>
+	<l id='769'>Aussi notre lien n'est il pas moins sacré,</l>
+	<l id='770'>Que s'il avait été formé par la nature.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='771'>Ah ! Conservez toujours ce naturel heureux,</l>
+	<l id='772'>Ne défigurez point ce charmant caractère ;</l>
+	<l id='773'>Comme ma fille enfin je vous traite en tous lieux,</l>
+	<l id='774'>Traitez-moi comme votre mère.</l>
+</sp>
+</div2>
+<div2 type='scene' n='14'><head>SCÈNE XIV. Le Marquis, Madeleine Béjart, Mademoiselle Brécour.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='775'>Mesdames, pardonnez à mon empressement,</l>
+	<l id='776'>Ma démarche peut-être est trop peu régulière,</l>
+	<l id='777'>Mais ceci, m'a-t-on dit, était l'appartement,</l>
+	<l id='778'>Où je devais trouver Molière.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='779'>C'est bien en effet en ces lieux  </l>
+	<l id='780'>Où, s'il se trouve seul, quelquefois il médite ;</l>
+	<l id='781'>Pourrait-on, sans montrer un esprit curieux</l>
+	<l id='782'>Savoir, Monsieur, l'objet d'une telle visite ?</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='783'>Mais s'il est occupé, je pourrai revenir,</l>
+	<l id='784'>Je ne crois rien avoir de pressant à lui dire ;</l>
+	<l id='785'>C'est sa gloire ici qui m'attire,</l>
+	<l id='786'>Et pour son intérêt je veux l'entretenir.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='787'>Souffrez qu'on l'avertisse.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='788'>Oh ! Non pas je vous prie,</l>
+	<l id='789'>Les moments que l'on passe avec lui sont fort doux ;</l>
+	<l id='790'>Mais personne, je le parie,</l>
+	<l id='791'>Ne les préfère à ceux qu'on passe auprès de vous.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='792'>Je ne m'attendais pas à cette repartie,</l>
+	<l id='793'>Aussi l'on devine aisément</l>
+	<l id='794'>À ce ton de galanterie</l>
+	<l id='795'>Que la Cour est votre élément.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='796'>Mais sans vouloir m'en faire accroire</l>
+	<l id='797'>J'y vois citer souvent ma bravoure et mon nom ;</l>
+	<l id='798'>Le Roi, que j'ai suivi dans plus d'une victoire,</l>
+	<l id='799'>Et qui connaît l'éclat de ma maison</l>
+	<l id='800'>Sur moi répand parfois un rayon de sa gloire ;</l>
+	<l id='801'>Aussi c'est un pays où je donne le ton.</l>
+	<l id='802'>Quelque importun toujours m'y sollicite,</l>
+	<l id='803'>Mon suffrage exalte ou détruit ;</l>
+	<l id='804'>Et s'il faut assigner quelque rang au mérite,</l>
+	<l id='805'>C'est moi que l'on consulte et mon goût que l'on suit.</l>
+	<l id='806'>Un artiste paraît, c'est moi qui le conseille,</l>
+	<l id='807'>Je suis assez fêté parmi les beaux esprits ;</l>
+	<l id='808'>Du talent à plusieurs, j'ai décerné le prix,</l>
+<note type="L">Corneille, Pierre [1606-1684] : Poète dramatique et nommé le père de la tragédie française. Commença sa carrière avec Mélite en 1629 et la termina avec Suréna en 1674.</note>
+	<l id='809'>Et j'ai donné souvent des avis à Corneille.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='810'>Comment donc vous résolvez-vous</l>
+	<l id='811'>À vous en éloigner, vous courtisan habile ?</l>
+	<l id='812'>Car de vivre à la Cour il doit être bien doux,</l>
+	<l id='813'>Quand, comme vous, l'on y peut être utile.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='814'>On n'abandonne pas, il est vrai, sans regret</l>
+	<l id='815'>Un pays où l'on joue un certain personnage ;</l>
+	<l id='816'>Mais enfin quel que soit ce flatteur avantage,</l>
+	<l id='817'>Il faut sacrifier au public intérêt ;</l>
+	<l id='818'>Et lui seul en ce jour ordonne mon voyage.</l>
+	<l id='819'>Non loin d'ici mes soins sont appelés  </l>
+	<l id='820'>Dans ce moment auprès du jeune prince</l>
+	<l id='821'>Qui dicte tous les ans aux États assemblés,</l>
+	<l id='822'>Le bonheur de cette province.</l>
+	<l id='823'>J'apprends en promenant mon esprit curieux</l>
+	<l id='824'>Qu'un auteur vient ici commencer sa carrière,</l>
+	<l id='825'>Et je n'ai pas voulu m'éloigner de ces lieux</l>
+	<l id='826'>Sans avoir présenté mon hommage à Molière.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='827'>D'un tel empressement il doit être honoré ;</l>
+	<l id='828'>Quoiqu'il n'attende point, Monsieur, votre visite,</l>
+	<l id='829'>Rien ne flatte autant le mérite,</l>
+	<l id='830'>Que l'accueil d'un homme éclairé.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='831'>Ainsi que vous j'ose le croire.</l>
+	<l id='832'>Mais sans doute entre vous il est quelque rapport ;</l>
+	<l id='833'>Vous êtes sûrement compagnes de sa gloire,</l>
+	<l id='834'>Et l'une de vous deux maîtresse de son sort ?</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='835'>Un simple sentiment l'un à l'autre nous lie,</l>
+	<l id='836'>Aucun autre rapport ne nous attache à lui ;</l>
+	<l id='837'>Il voit en moi sa plus sincère amie,</l>
+	<l id='838'>Comme Mademoiselle en lui trouve un appui.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='839'>Vous cultivez un art dont je suis idolâtre,</l>
+	<l id='840'>Je lui consacre mes loisirs,</l>
+	<l id='841'>Et je ne connais pas de plus piquants plaisirs,</l>
+	<l id='842'>Que ceux que l'on goûte au théâtre ;</l>
+	<l id='843'>J'y fais même, entendre ma voix,</l>
+	<l id='844'>J'ai déclamé plus d'une scène ;</l>
+	<l id='845'>Et la Cour m'a vu plusieurs fois</l>
+<note type="C">L'amant de Chimène est Rodrique dans le Cid (1637) de Pierre Corneille.</note>
+	<l id='846'>Lui répéter les vers de l'amant de Chimène.</l>
+	<l id='847'>J'en ai très bien saisi le ton</l>
+	<l id='848'>La passion, l'idée entière ;</l>
+	<l id='849'>Si jamais à Paris on appelle Molière,</l>
+	<l id='850'>Je lui pourrai donner leçon.</l>
+</sp>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='851'>Nous vous croyons, Monsieur, un esprit infaillible,</l>
+	<l id='852'>Notre ami souscrira sans doute à ce dessein ;</l>
+	<l id='853'>Quand on a, comme vous, un jugement certain,</l>
+	<l id='854'>Rien ne doit sembler impossible ;</l>
+	<l id='855' part='i'>Mais Molière paraît.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='14'><head>SCÈNE XV. Les Précédents et Molière.</head>
+<sp who='MADELEINE BÉJART'><speaker>MADELEINE BÉJART.</speaker>
+	<l id='855' part='f'>Vous êtes en ces lieux</l>
+	<l id='856'>Attendu par Monsieur, courtisan curieux,</l>
+	<l id='857'>Qui des divers talents que son esprit rassemble,</l>
+	<l id='858'>Veut faire un exposé bien modeste à vos yeux,</l>
+	<l id='859'>Et pour le gêner moins nous vous laissons ensemble.</l>
+</sp>
+</div2>
+<div2 type='scene' n='16'><head>SCÈNE XVI. Le Marquis, Molière.</head>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='860'>Moi Monsieur, j'ai voulu visiter le séjour</l>
+	<l id='861'>Où vous devez vous faire entendre ;</l>
+	<l id='862'>Je verrai vos succès et j'en espère rendre</l>
+	<l id='863'>Un compte fidèle à la Cour ;</l>
+	<l id='864'>Et comme elle n'est point ingrate</l>
+	<l id='865'>Envers les talents ni les arts,</l>
+	<l id='866'>Avant peu, du moins je m'en flatte,</l>
+	<l id='867'>Nous vous verrons attirer ses regards.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='868'>D'un sort peu fait pour moi, vous me montrez l'image ;</l>
+	<l id='869'>Si de plaire en ces lieux j'obtenais l'avantage ;</l>
+	<l id='870'>Si Toulouse en un mot me trouvait à son choix,</l>
+	<l id='871'>Croyez que j'aurais le courage</l>
+	<l id='872'>D'aller alors faire entendre ma voix</l>
+	<l id='873'>Aux écho de Paris comme aux palais des Rois ;</l>
+	<l id='874'>Mais quoiqu'ici le goût m'approuve,</l>
+	<l id='875'>Notre art n'a point encor fait assez de progrès,</l>
+	<l id='876'>Pour m'assurer d'un plein succès</l>
+	<l id='877'>Et pour me garantir des ennuis que j'éprouve.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='878'>Quoi ! Vous n'êtes pas sûr de jouer en ces lieux ?</l>
+	<l id='879'>Je croyais la chose finie ;  </l>
+	<l id='880'>Mais votre attente ici sera bientôt remplie,</l>
+	<l id='881'>Je vais leur parler de mon mieux ;</l>
+	<l id='882'>Je crois qu'en me faisant connaître</l>
+	<l id='883'>À mes avis en se rendra ;</l>
+	<l id='884'>Le Roi seul a le droit de s'exprimer en maître ;</l>
+	<l id='885'>Mais je parle en son nom et tout se résoudra.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='886'>Épargnez-vous, Monsieur, ces inutiles peines,</l>
+	<l id='887'>Si je dois réussir, j'ai des cœurs vertueux</l>
+	<l id='888'>Dont le crédit n'est pas douteux</l>
+	<l id='889'>Ni les démarches incertaines,</l>
+	<l id='890'>Et qui me servent de leur mieux.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='891'>Ma démarche parbleu n'eut pas été futile,</l>
+	<l id='892'>Mon ton eut produit son effet ;</l>
+	<l id='893'>Mais au moins sur un autre objet,</l>
+	<l id='894'>J'ai l'orgueil de vouloir vraiment vous être utile.</l>
+	<l id='895'>Le théâtre, Monsieur, demande un plan nouveau ;</l>
+	<l id='896'>Son goût actuel est difforme ;</l>
+	<l id='897'>Seul vous avez le droit d'y porter le flambeau,</l>
+	<l id='898'>Et d'en publier la réforme.</l>
+	<l id='899'>Il est fait, il est vrai, pour corriger nos mœurs ;</l>
+	<l id='900'>Mais il faut braver les scrupules ;</l>
+	<l id='901'>Et si vous y voulez fronder nos ridicules,</l>
+	<l id='902'>Écartez-vous un peu de nos anciens auteurs.</l>
+<note type="L">Plaute : poète comique latin, né vers 227 avant JC à Sarsine (Ombrie), mort en 183, était directeur de troupe en même temps qu'auteur, et jouait souvent lui-même. (...) Plaute avait composé, dit-on, jusqu'à 120 pièces, mais on lui en attribuait beaucoup qui n'étaient pas de lui. Nous n'avons plus que 20 de ses pièces dont Meneschmes. [B]</note>
+<note type="L">Ménandre : Poète comique d'Athènes, né en 342 av. JC, mort en 290, avait composé des pièces d'un genre nouveau, qui, au lieu de personnalités, présentaient le tableau des vices et des ridicules. [B]</note>
+	<l id='903'>Votre Plaute et votre Ménandre</l>
+	<l id='904'>Que l'on nous vante à tous propos</l>
+	<l id='905'>Et dont on cite les bons mots,</l>
+	<l id='906'>Sans avoir l'art de les entendre ;</l>
+	<l id='907'>Ces auteurs froids et réguliers</l>
+	<l id='908'>Pouvaient bien convenir à des peuples grossiers,</l>
+	<l id='909'>Qui n'ayant pas le goût qui nous épure</l>
+	<l id='910'>S'en tenaient bonnement à la simple nature ;</l>
+	<l id='911'>Mais nous, pour qui Monsieur une autre clarté luit,</l>
+	<l id='912'>Nous qui savons fixer les plaisirs sur nos traces,</l>
+	<l id='913'>Et que l'esprit adroitement conduit,</l>
+	<l id='914'>Sous les tentes de Mars, comme aux temples des Grâces,</l>
+	<l id='915'>Nous méritons d'autres censeurs</l>
+	<l id='916'>Qui finement sachent nous faire rire</l>
+	<l id='917'>Et qui répandent sur nos mœurs</l>
+	<l id='918'>Ingénieusement le sel de la satire.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='919'>C'est-à-dire, Monsieur, qu'on voudrait en ce jour</l>
+	<l id='920'>Qu'un Philosophe dramatique</l>
+	<l id='921'>Fît plutôt le panégyrique,</l>
+	<l id='922'>Que le tableau des vices de la Cour.</l>
+	<l id='923'>Je respecte beaucoup sans doute  </l>
+	<l id='924'>Cette Cour dont je vois que l'on fait tant de cas ;</l>
+	<l id='925'>De la fortune elle montre la route,</l>
+	<l id='926'>Mais au bonheur elle ne conduit pas ;</l>
+	<l id='927'>Et l'écrivain, l'homme qui pense</l>
+	<l id='928'>N'est point jaloux d'un triomphe douteux ;</l>
+	<l id='929'>La fortune n'est point sa seule récompense.</l>
+	<l id='930'>C'est aux lauriers que prétendent ses vœux,</l>
+	<l id='931'>Et ces lauriers, Monsieur, le public les dispense.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='932'>Mais cependant le ton par excellence,</l>
+	<l id='933'>Ce ton que l'on cherche partout,</l>
+	<l id='934'>C'est à la Cour qu'en est l'essence,</l>
+	<l id='935'>Ce n'est que là qu'on a du goût,</l>
+	<l id='936'>Quand vous aurez dans votre humeur caustique,</l>
+	<l id='937'>Taché de peindre plusieurs fois,</l>
+	<l id='938'>Du vernis de votre critique,</l>
+	<l id='939'>Le cercle limité de vos héros bourgeois ;</l>
+	<l id='940'>Comptez-vous que par là vous serez dans l'histoire</l>
+	<l id='941'>Chéri de la postérité ?</l>
+	<l id='942'>C'est en parlant de nous qu'on acquiert de la gloire</l>
+	<l id='943'>Et qu'on parvient à la célébrité.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='944'>Trouvez bon en ce cas Monsieur, que j'y renonce.</l>
+	<l id='945'>Chez ces bourgeois que vous mésestimez,</l>
+	<l id='946'>Un caractère se prononce,</l>
+	<l id='947'>Les cœurs y sont tels qu'ils furent formés.</l>
+	<l id='948'>Le fard trompeur de l'imposteur</l>
+	<l id='949'>A moins défiguré leurs traits,</l>
+	<l id='950'>Et comme ils sont encor plus près de la nature,</l>
+	<l id='951'>On peut plus sûrement en faire les portraits.</l>
+	<l id='952'>La censure pour eux rarement est futile,</l>
+	<l id='953'>Ils prisent ses rapports divers ;</l>
+	<l id='954'>Et la morale ailleurs, très souvent inutile,</l>
+	<l id='955'>Les corrige de leurs travers.</l>
+	<l id='956'>Que peut peindre à la Cour un censeur incommode !</l>
+	<l id='957'>Chacun y dit son nom, nul n'y vante ses mœurs,</l>
+	<l id='958'>Dans ce pays tout est de mode</l>
+	<l id='959'>Les vices comme les couleurs ;</l>
+	<l id='960'>Et comme au même but tout homme ose prétendre,</l>
+	<l id='961'>Soit pour être trompé, soit pour être trompeur,</l>
+	<l id='962'>C'est les défauts de ceux que l'on fait en faveur,</l>
+	<l id='963'>Que chacun s'étudie à prendre.</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='964'>Je comptais sur vos soins, mais j'avais tort d'attendre ;</l>
+	<l id='965'>La scène n'aura plus bientôt aucun appui.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='966'>Le théâtre est-il donc si désert aujourd'hui ?</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='967'>Mais on y va, comme ailleurs, par ennui.</l>
+	<l id='968'>On y veut bien prêter l'oreille</l>
+	<l id='969'>Quelquefois par respect aux vers du grand Corneille ;</l>
+	<l id='970'>Il convenait à nos aïeux,</l>
+	<l id='971'>D'écouter une pièce à-peu-près régulière ;</l>
+	<l id='972'>Mais on rirait de moi parmi nos curieux</l>
+	<l id='973'>Si j'en entendais une entière.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='974'>Ainsi donc nos meilleurs auteurs</l>
+<note tpe="L">Femmelette : Terme de mépris. Femme simple, pauvre d'esprit, de petit sens. [F]</note>
+	<l id='975'>Parmi vos juges femmelettes</l>
+<note tpe="L">Caillette : Se dit figurément d'un homme sans coeur, et sans vigueur, qui n'est capable d'aucun travail, d'aucune entreprise. Il se prend aussi dans un sens obscène, et signifie les parties naturelles de l'homme. Il est bas dans les deux sens, et ne peut entrer que dans le burlesque. [F]</note>
+	<l id='976'>Et vos insipides caillettes,</l>
+	<l id='977'>Ne sont plus que de froids rimeurs.</l>
+	<l id='978'>Vous voulez oublier que leur mâle génie</l>
+	<l id='979'>Du siècle en épurant les mœurs</l>
+	<l id='980'>Fait la gloire de la patrie.</l>
+<note type="L">Sybarite : Homme qui mène une vie molle et voluptueuse. [L]</note>
+	<l id='981'>Sybarites efféminés,</l>
+	<l id='982'>Vous détruisez le caractère</l>
+	<l id='983'>Du pays où vous êtes nés,</l>
+	<l id='984'>Indécemment vous persiflez</l>
+	<l id='985'>Des noms que l'Europe révère.</l>
+	<l id='986'>Des anciens écrivains que vous n'entendez pas,</l>
+	<l id='987'>En vain vous faites la satire,</l>
+	<l id='988'>À les imiter, à les lire,</l>
+	<l id='989'>Toujours l'homme de goût trouvera des appas.</l>
+	<l id='990'>Je crois bien qu'en effet dans le siècle où nous sommes,</l>
+	<l id='991'>Leurs vers ne disent rien à vos cœurs corrompus ;</l>
+	<l id='992'>Ils écrivirent pour des hommes</l>
+	<l id='993'>Et parmi vous déjà peut-être il n'en est plus !</l>
+</sp>
+<sp who='LE MARQUIS'><speaker>LE MARQUIS.</speaker>
+	<l id='994'>Vous tenez beaucoup à l'antique ;</l>
+	<l id='995'>Je ne veux point condamner votre goût ;</l>
+	<l id='996'>Je vous dirai pourtant, entre nous, que surtout</l>
+	<l id='997'>Il paraît un peu trop gothique,</l>
+	<l id='998'>Quoique vous blâmiez hautement</l>
+	<l id='999'>L'esprit que j'approuve et que j'aime,</l>
+	<l id='1000'>Je m'abstiens de louer ici mon sentiment,</l>
+	<l id='1001'>Pour moins choquer votre système.</l>
+	<l id='1002'>Comme vous ne traitez que de graves objets,</l>
+	<l id='1003'>Je vais vous quitter la partie,</l>
+	<l id='1004'>Vous reviendrez un jour à mes projets,</l>
+	<l id='1005'>Malgré votre brusque sortie.</l>
+	<l id='1006'>Croyez pourtant, Monsieur, que j'apprécie</l>
+	<l id='1007'>La sagesse et votre raison.</l>
+	<l id='1008'>Je veux vous voir ici triompher de l'envie ;</l>
+	<l id='1009'>À vos admirateurs aujourd'hui je m'allie,</l>
+	<l id='1010'>Et je veux leur prouver en leur donnant le ton</l>
+	<l id='1011'>Vos talents et ma modestie.</l>
+<stage>Il sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='17'><head>SCÈNE XVII.</head>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE, seul.</speaker>
+	<l id='1012'>C'est donc à ce jargon, à ces airs prétendus</l>
+	<l id='1013'>Qu'il n'est plus rien que l'on n'immole.</l>
+	<l id='1014'>Pourquoi donc ô Français ! Sous un dehors frivole</l>
+	<l id='1015'>Cherchez-vous à vouloir étouffer vos vertus ?</l>
+	<l id='1016'>Il allait échauffer ma bile.</l>
+	<l id='1017'>Puisqu'on me laisse seul enfin,</l>
+	<l id='1018'>Appliquons la dernière main</l>
+	<l id='1019'>Au moins à quelque ouvrage utile.</l>
+	<l id='1020'>Que je travaille lentement ! </l>
+<stage>Allant à sa table.</stage>
+	<l id='1021'>Et cependant tout le monde me presse,</l>
+	<l id='1022'>Remettons nous vite un moment</l>
+	<l id='1023'>À traduire mon cher Lucrèce.</l>
+	<l id='1024'>Mais je le cherche vainement</l>
+	<l id='1025'>Je ne le trouve plus : quel funeste présage !</l>
+	<l id='1026'>Quelque indiscret assurément</l>
+	<l id='1027'>M'aura dérobé cet ouvrage.</l>
+	<l id='1028' part='i'>Lesbin, hola Lesbin !</l>
+</sp>
+</div2>
+<div2 type='scene' n='18'><head>SCÈNE XVIII. Lesbin, Molière.</head>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1028' part='f'>Monsieur que voulez-vous ?</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1029'>De ceux qui sont venus chez nous,</l>
+	<l id='1030'>En as-tu vu quelqu'un qui te parût capable</l>
+	<l id='1031'>D'avoir pris sans égard des papiers sur ma table ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1032'>D'abord, Monsieur, je n'ai rien vu.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1033'>Le coquin n'a jamais rien su.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1034'>C'est vrai, mais quel papier, Monsieur, ça peut-il être ?</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1035' part='i'>Tiens, voilà son semblable.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1035' part='f'>Attendez, c'est peut-être</l>
+	<l id='1036' part='i'>Moi qui vous l'aurai pris.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1036' part='f'>Oui reviens sur tes pas.</l>
+	<l id='1037' part='i'>Mais qu'en aurais-tu fait ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1037' part='f'>Oh ne vous fachez pas.</l>
+	<l id='1038'>Il vient de m'être utile on ne peut d'avantage,</l>
+	<l id='1039'>Vous n'en auriez jamais fait un meilleur usage.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1040' part='i'>Explique-toi donc traître.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1040' part='f'>Oh ! Je suis tout uni,</l>
+	<l id='1041'>Mais si vous vous fâchez, Monsieur, tout est fini.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1042' part='i'>Achève donc bourreau.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1042' part='f'>Pourquoi cet air sévère ?</l>
+	<l id='1043'>Vous auriez tout sujet de vous mettre en colère</l>
+	<l id='1044'>Si je m'étais servi de quelque bon papier ;</l>
+	<l id='1045'>Mais j'ai bien pris le soin, Monsieur, de l'employer,</l>
+	<l id='1046'>Parce qu'il était vieux, tout rempli de ratures,</l>
+	<l id='1047'>Allez, je connais bien les bonnes écritures.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1048'>Au moins je puis le voir, pourquoi me le cacher ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1049'>Ah ! Si vous le voulez je vais vous le chercher,</l>
+	<l id='1050'>Vous serez bien content de le voir de la sorte.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1051' part='i'>Mais veux tu donc aller,</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1051' part='f'>Vela que je l'apporte... </l>
+</sp>
+<stage>Il sort.</stage>
+</div2>
+<div2 type='scene' n='19'><head>SCÈNE XIX.</head>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE, seul.</speaker>
+	<l id='1052'>Peut-être je pourrai le rassembler au moins,</l>
+	<l id='1053'>Le retranscrire en y mettant des soins,</l>
+	<l id='1054'>Et ne pas perdre ainsi le fruit de ma jeunesse.  </l>
+</sp>
+</div2>
+<div2 type='scene' n='20'><head>SCÈNE XX. Molière, Lesbin, qui entre avec une grosse perruque toute en papillotes.</head>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1055'>Tenez. Monsieur, voilà votre Lucrèce ;</l>
+	<l id='1056'>Vous en êtes content j'espère cette fois.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1057'>Comment donc insolent, et qu'est-ce que je vois ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1058'>Surtout ce que qu'on me dit, Monsieur, je fais des notes,</l>
+	<l id='1059'>Vous m'en donnâtes l'ordre avant que de sortir</l>
+	<l id='1060'>Et bravement je suis venu quérir</l>
+	<l id='1061'>Ce papier pour pouvoir la mettre en papillotes. </l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1062'>Comment donc traître oser me déchirer ainsi,</l>
+	<l id='1063'>Qui t'a fait me porter un coup aussi funeste ?</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1064'>Dame, j'ai cru bien faire aussi,</l>
+	<l id='1065'>Et fort innocemment j'ai brûlé tout le reste. </l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1066'>Sors d'ici malheureux, redoute mon courroux.</l>
+</sp>
+<sp who='LESBIN'><speaker>LESBIN.</speaker>
+	<l id='1067'>Très volontiers, quand un maître est colère,</l>
+	<l id='1068'>Il est toujours prudent de l'éloigner de nous.</l>
+</sp>
+</div2>
+<div2 type='scene' n='21'><head>SCÈNE XXI.</head>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE, seul.</speaker>
+	<l id='1069'>Cet accident me désespère,</l>
+	<l id='1070'>Un ouvrage soigné, dont depuis si longtemps</l>
+	<l id='1071'>Je m'occupais avec constance,</l>
+	<l id='1072'>Un sot, par ses soins imprudents</l>
+	<l id='1073'>Me fait perdre le fruit de ce travail immense.</l>
+<note type="C">Cette anecdote est tirée de la vie de Molière, c'est réellement à la méprise d'un Valet fort simple, qu'on doit attribuer la perte de la traduction que ce grand homme avait fait de Lucrèce ; il fut si outré de  voir une partie de son poème en papillotes, que dans sa vivacité il jeta l'autre au feu, et priva par là la littérature d'un ouvrage aussi curieux qu'instructif pour ceux qui n'entendent pas la langue latine. M. Mercier a fait usage de la meme anecdote dans la traduction, ou plutôt l'imitation qu'il a faite du Molière de M. Goldoni.</note>
+</sp>
+</div2>
+<div2 type='scene' n='22'><head>SCENE XXII, et dernière. Monsieur de Saint Firmin, Lagrange, Molière, Madeleine Béjart, Mademoiselle Brécour.</head>
+<sp who='LAGRANGE'><speaker>LAGRANGE, accourant.</speaker>
+	<l id='1074'>Vive, vive Molière ; ah ! Quel heureux moment ;</l>
+	<l id='1075'>De jouer en ces lieux vous avez l'agrément.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE, avec la plus grande joie.</speaker>
+	<l id='1076' part='i'>Est-ce vrai cher Lagrange ?</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='1076' part='f'>Oui, j'en ai la parole,</l>
+	<l id='1077'>Et je ne viens ici que pour la confirmer.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1078'>Ah ! De tous mes chagrins ce moment me console ;</l>
+	<l id='1079'>Je n'ai pas attendu cela pour vous aimer,</l>
+	<l id='1080'>Comment vous témoigner que ma reconnaissance...</l>
+</sp>
+<sp who='MONSIEUR DE SAINT FIRMIN'><speaker>MONSIEUR DE SAINT FIRMIN.</speaker>
+	<l id='1081'>Le plaisir de vous voir sera ma récompense ;</l>
+	<l id='1082'>Charmé de vous fixer enfin dans ce séjour,</l>
+	<l id='1083'>Si vous aviez égard à ma prière,</l>
+	<l id='1084'>Vous uniriez Lagrange à la jeune Brécour,</l>
+	<l id='1085'>Et si ce jour est heureux pour Molière,</l>
+	<l id='1086'>Il le serait aussi pour leur amour.</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1087'>Puis-je rien refuser, Monsieur, à votre instance ?</l>
+	<l id='1088'>Souvenez-vous ami du don que je vous fais,</l>
+	<l id='1089'>En couronnant votre constance.</l>
+</sp>
+<sp who='MADEMOISELLE BRECOUR'><speaker>MADEMOISELLE BRECOUR.</speaker>
+	<l id='1090'>Ô vous ! Qui prîtes soin de ma plus tendre enfance ;</l>
+	<l id='1091'>Que puis-je faire après tant de bienfaits ?...</l>
+</sp>
+<sp who='MOLIÈRE'><speaker>MOLIÈRE.</speaker>
+	<l id='1092'>Les mériter toujours, et n'en parler jamais.</l>
+	<l id='1093'>Tous nos vœux sont comblés en ce jour d'allégresse,</l>
+	<l id='1094'>Dans le moment où nous l'espérions moins,</l>
+	<l id='1095'>Je couronne votre tendresse,</l>
+	<l id='1096'>Et j'obtiens le prix de mes soins.</l>
+	<l id='1097'>Puisse-je faire un jour répéter d'âge en âge,</l>
+	<l id='1098'>Pour prix de ce bonheur longtemps inattendu ;</l>
+	<l id='1099'>Toulouse de Molière eut le premier hommage,</l>
+	<l id='1100'>Et reçut, accueillant son plus ancien ouvrage,</l>
+	<l id='1101'>Le premier vœu public qu'il fit pour la vertu.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

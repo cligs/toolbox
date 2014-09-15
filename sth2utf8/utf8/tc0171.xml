@@ -1,0 +1,822 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>LA FÊTE SÉCULAIRE DE CORNEILLE, TRAGÉDIE.</title>
+				<author born='1752' born_location='Paris' death='1823' death_location='Saint-Germain-en-Laye' academie=''>CUBIÈRES-PALMEZEAUX, Michel de</author>
+				
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, Novembre 2013</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Apologie</genre>
+				<inspiration>mythe grec</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1781-1790</periode>
+				<taille>250-500</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">LA FÊTE SÉCULAIRE DE CORNEILLE</titlePart>
+			<titlePart type="sub">COMÉDIE, EN UN ACTE ET EN VERS</titlePart>
+		</docTitle> 
+		<docDate value='1785'>M. DCC. LXXXV.</docDate>
+		<docAuthor id='CUBIÈRES-PALMEZEAUX, Michel de' bio='cubieres'></docAuthor>
+		<docImprint>
+ 			<approbation><head>APPROBATION</head>
+				<p>Lu et approuvé, le 20 Octobre 1785, SUARD. Vu l'Approbation, permis d'imprimer.</p> 
+				<p>À Paris ce 20 Octobre 1785. DE CROSNE.</p>
+			</approbation>
+			<acheveImprime id=''></acheveImprime>
+			<printer id='HARDOUIN'>A PARIS, Chez HARDOUIN et GATTEY, Libraires de S. A. S. Madame la Duchesse de Chartres, au Palais Royal, Nos 13 et 14. Et chez les Marchands de Nouveautés.
+</printer>
+		</docImprint>
+		<performance>
+			<premiere location='(inconnu)' date='(inconnu)'></premiere>
+		</performance>
+		<preface><head>AVERTISSEMENT.</head>
+			<p>Parmi les modes qui nous viennent d'Angleterre, celle de célébrer annuellement les grands Génies qui illustrent les Nations, ne nous est pas encore arrivée. Mais il est possible qu'elle arrive enfin. Tout le monde sait qu'à Londres le Musicien Haendel a sa Fête annuelle ; ainsi il n'y aurait rien de bien étrange, si le père de la scène tragique jouissait un jour à Paris du même honneur.</p>
+			<p>Cette petite pièce concourut avec quelques autres, l'année dernière, pour la Centenaire de Corneille : De ces pièces, l'une a été jouée au Théâtre Français, et deux autres, après avoir été jouées en Province, ont été imprimées.</p>
+			<p>On a donc cru devoir livrer celle-ci à l'impression. Plus les jeunes gens verront que Corneille est célébré, plus ils l'étudieront, pour voir au moins s'il mérite tant d'éloges, et l'art dramatique ne peut rien perdre à une pareille étude.</p>
+			<p>Comme ce petit Ouvrage était destiné au Théâtre Français, on s'est permis d'y mettre les noms des Acteurs. C'étaient eux qui devaient lui concilier, par leurs talents, le suffrage public ; et s'il a quelque succès, quoique privé d'un tel avantage, sa publicité sera suffisamment justifiée.</p>
+		</preface>
+<castList>
+	<head>PERSONNAGES.</head>
+	<castItem><role id="MELPOMÈNE" civil="F" type="H" statut='muse' age='A' stat_amour='néant'>MELPOMÈNE</role>,	Madme Vefstris.</castItem>
+	<castItem><role id="THALIE" civil="F" type="H" statut='muse' age='A' stat_amour='néant'>THALIE</role>,	Melle Contat.</castItem>
+	<castItem><role id="LE TEMPS" civil="M" type="H" statut='allégorie' age='A' stat_amour='néant'>LE TEMPS</role>,	M. Brizard.</castItem>
+	<castItem><role id="ALCIPE" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>ALCIPE</role>,	Personnages du Menteur.	M. Molé.</castItem>
+	<castItem><role id="PHILISTE" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>PHILISTE</role>,	M. Fleury.</castItem>
+	<castItem><role id="ARSITE" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>ARISTE</role>,	M. Vanhove.</castItem>
+	<castItem><role id="CLITON" civil="M" type="H" statut='valet' age='A' stat_amour='néant'>CLITON</role>,	Valet du Menteur,	M. Préville.</castItem>
+	<castItem><role id="UN GREC" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>UN GREC</role>,	M. Saint-Prix.</castItem>
+	<castItem><role id="UN ROMAIN" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>UN ROMAIN</role>,	M. Saint-Phal.</castItem>
+	<castItem><role id="RODRIGUE" civil="M" type="H" statut='aristocrate' age='A' stat_amour='néant'>RODRIGUE</role>,	M. de la Rive.</castItem>
+	<castItem><role id="QUADRILLE DE GRECS" civil="G" type="H" statut='quadrille' age='A' stat_amour='néant'>Un quadrille de Grecs</role>.</castItem>
+	<castItem><role id="QUADRILLE DE ROMAINS" civil="G" type="H" statut='quadrille' age='A' stat_amour='néant'>Un de Romains</role>.</castItem>
+	<castItem><role id="QUADRILLE DE CATILLANS" civil="G" type="H" statut='quadrille' age='A' stat_amour='néant'>Un de Castillans</role>.</castItem>
+	<castItem><role id="QUADRILLE DE FRANÇAIS" civil="G" type="H" statut='quadrille' age='A' stat_amour='néant'>Un de François</role>.</castItem>
+	<castItem><role id="SUIVANTS DE MELPOMÈNE" civil="G" type="H" statut='suivant' age='A' stat_amour='néant'>Suivants de Melpomène et de Thalie</role>.</castItem>
+</castList>
+<set location='France' country='France' periode='XVIIIème avant JC' link=''>Le Théâtre représente une Place publique.</set>
+<note>On a cru pouvoir se dispenser d'imprimer en italique les vers de ce petit Ouvrage, qui ne font pas de l'Auteur. Quand les plagiats font manifestes, il faut s'en accuser soi-même, pour épargner cette peine aux lecteurs.  </note>
+</front>
+<body>
+<div1 type='acte' n='1'><head></head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='ALCIPE'><speaker>ALCIPE, seul, se promenant.</speaker>
+	<l id='1'>Comme Paris me plaît par sa diversité;</l>
+	<l id='2'>Chaque jour est marqué par quelque nouveauté.</l>
+	<l id='3'>À Poitiers, d'où je viens, quelle monotonie !</l>
+	<l id='4'>Il faut bien qu'en Province à la fin l'on s'ennuie ;</l>
+	<l id='5'>Aussi je ne veux plus de ce triste séjour,</l>
+	<l id='6'>Où l'on commente un an, la nouvelle d'un jour ;</l>
+	<l id='7'>Où le goût et l'esprit, gênés dans des lisières,</l>
+	<l id='8'>Ne savent rien aimer que ce qu'aimaient nos pères ;</l>
+	<l id='9'>Où l'amour bien noté sur l'air des vieux romans,</l>
+	<l id='10'>Fait bâiller nos beautés auprès de leurs amants ;</l>
+	<l id='11'>Où tout respire enfin l'ennui de la constance.</l>
+	<l id='12'>Philiste m'a déjà montré la différence,</l>
+	<l id='13'>Des plaisirs de Paris et de nos vieux travers;</l>
+	<l id='14'>Et c'est sous ses drapeaux désormais que je sers.</l>
+	<l id='15'>Ici tout naît, tout meurt, tout va, tout vient, tout vole,</l>
+	<l id='16'>La mode impunément y renverse un idole</l>
+	<l id='17'>De son haut piédestal, pour y porter un nain,</l>
+	<l id='18'>Qu'elle-même et le goût en chasseront demain.</l>
+	<l id='19'>N'importe ; tout est bien, tout est gai, tout varie ;</l>
+	<l id='20'>Le Sage veut en vain crier à la folie</l>
+	<l id='21'>Sur la mode du jour ; elle n'est déjà plus ;</l>
+	<l id='22'>Et ses cris surannés paraîtraient superflus.</l>
+	<l id='23'>Ici chaque plaisir n'a qu'un instant d'ivresse ;</l>
+	<l id='24'>L'instant est-il sonné, chacun fuit et se presse</l>
+	<l id='25'>Vers un autre plaisir qu'indique la beauté,</l>
+	<l id='26'>Dont l'attrait est si vif pour toute nouveauté.</l>
+	<l id='27'>Mais Philiste est longtemps. Je me lasse d'attendre.</l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Philiste et Alcipe.</head>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='28' part='i'>Ah te voilà !</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='28' part='f'>Moulu ! J'ai bien cru que jamais</l>
+	<l id='29'>Auprès de toi je ne pourrais me rendre.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='30' part='i'>Comment ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='30' part='f'>Pour ces billets que je suis allé prendre,</l>
+	<l id='31'>La grille n'était pas d'un bien facile accès.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='32' part='i'>Aux Spectacles forains ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='32' part='f'>Non, c'était aux Français.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='33' part='i'>Tu te moques de moi ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='33' part='f'>Rien n'est plus véritable ;</l>
+	<l id='34'>C'était une foule incroyable ;</l>
+	<l id='35'>Et l'on m'a dit de toutes parts</l>
+	<l id='36'>Que dans le vrai Temple des Arts,</l>
+	<l id='37'>Ce jour est un jour remarquable.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='38'>Parce qu'ils sont reconnaissants,</l>
+	<l id='39'>Les Comédiens vont-ils d'un auteur du vieux temps</l>
+<note type="L">Apothéose : Cérémonie païenne que faisaient les idolâtres pour mettre leurs empereurs au rang des Dieux ; après quoi il leur dressaient des temples et des autels. [F]</note>
+	<l id='40'>Nous faire encor l'apothéose ?</l>
+	<l id='41'>Ils ne savent donc pas que c'est pour les vivants,</l>
+	<l id='42'>Que l'encens doit surtout brûler à forte dose ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='43'>Ce dernier, tout compté, donne plus de profit :</l>
+	<l id='44'>Parmi certaines gens, c'est chose incontestable :</l>
+	<l id='45'>L'éloge d'un vivant nourrit ;</l>
+	<l id='46'>Celui d'un mort est impayable.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='47'>Me diras-tu quel est ce mortel glorieux,</l>
+	<l id='48'>Que la scène aujourd'hui doit offrir à nos yeux ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='49'>Non. Je sais qu'il vivait au siècle mémorable,</l>
+	<l id='50'>Qui sur les Lys François fixait tous les regards,  </l>
+	<l id='51'>Lorsque les talents et les arts,</l>
+	<l id='52'>Trouvaient auprès du trône une main secourable.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='53'>À ce que tu me dis, as-tu donc bien songé ?</l>
+	<l id='54'>Par cette même main, le talent protégé,</l>
+	<l id='55'>Brille et fleurit encor, pour l'honneur de la France ;</l>
+	<l id='56'>Et la beauté, la bienfaisance,</l>
+	<l id='57'>À cet égard n'ont rien changé.</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='58' part='i'>C'est juste.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='58' part='m'>Mais le nom ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='58' part='f'>En très gros caractère,</l>
+	<l id='59'>Sur l'affiche j'ai lu, LA FÉTE SÉCULAIRE,</l>
+	<l id='60'>Pièce nouvelle. Un siècle, c'est cent ans.</l>
+	<l id='61'>J'ai cru que tu saurais à peu près dans ce temps,</l>
+	<l id='62'>Quel grand homme acheva sa brillante carrière.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='63'>Quel ?... C'est le grand Corneille ! Oh ! Je suis enchanté :</l>
+	<l id='64'>De la faiblesse de l'enfance,</l>
+	<l id='65'>À la vigueur de la maturité,</l>
+	<l id='66'>Par lui son art fut tout à coup porté,</l>
+	<l id='67'>Et d'un vrai créateur il montra la puissance.</l>
+	<l id='68'>Ah ! Comme avec transport son nom sera fêté</l>
+	<l id='69'>Par les enfants chéris, à qui dans sa bonté</l>
+	<l id='70'>Il laissa quelque don de son riche héritage !</l>
+	<l id='71'>Courons dans ce grand jour voir cette nouveauté.</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='72'>Attendre an lendemain, quelquefois n'est pas sage.  </l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='73'>À l'entour du bureau parlait-on de l'ouvrage ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='74'>Bien plus, on le jugeait fort prématurément,</l>
+	<l id='75'>Comme l'on juge ailleurs, chez gens de haut parage,</l>
+	<l id='76'>En bref, par ces deux mots, détestable, ou charmant :</l>
+	<l id='77'>Mais un homme d'un certain âge,</l>
+	<l id='78'>Qui le connaît apparemment,</l>
+	<l id='79'>Nous a dit que l'Auteur espérait seulement,</l>
+	<l id='80'>Par le choix du sujet échapper au naufrage.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='81'>D'abord sa modestie a droit à mon suffrage,</l>
+	<l id='82'>Et je l'accorderai peut-être à son talent.</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='83' part='i'>Bien vu...</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='83' part='f'>Nous aurons donc très grande compagnie ?</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='84'>Grande ! Oh ! Jamais on ne vit rien de tel.</l>
+	<l id='85'>Et par mille étrangers cette foule grossie,</l>
+	<l id='86'>S'empresse à partager l'hommage solennel,</l>
+	<l id='87'>Que l'univers entier ne rend qu'au seul génie.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='88'>Tandis que tu perçois cette foule de gens,</l>
+	<l id='89'>Qu'un si noble sujet rassemble,</l>
+	<l id='90'>Non loin d'ici, j'ai vu paraître ensemble,</l>
+	<l id='91'>Trois objets très intéressants ;</l>
+	<l id='92'>L'un était un vieillard ; dessous les cheveux blancs,</l>
+	<l id='93'>Dont s'ombrageait sa tête vénérable,</l>
+	<l id='94'>Brillait le feu de ses regards perçants :  </l>
+	<l id='95'>Il paraissait enfin tel que jadis la fable</l>
+	<l id='96'>Peignit, ou Saturne, ou le Temps ;</l>
+	<l id='97'>À ses côtés marchaient deux Belles;</l>
+	<l id='98'>L'une au minois fripon, l'autre à l'air imposant,</l>
+	<l id='99'>Et du Public en un moment,</l>
+	<l id='100'>Tous les yeux, tous les curs se sont tournés sur elles.</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='101'>Eh ! Quoi tu n'es pas accouru ?</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='102'>En un clin d'il ce groupe a disparu,</l>
+	<l id='103'>Et personne n'a pu m'en dire des nouvelles:</l>
+	<l id='104'>Tu conviendras bientôt, comme moi transporté,</l>
+	<l id='105'>Qu'elles avaient en vérité,</l>
+	<l id='106'>La tournure des Immortelles.</l>
+</sp>
+<sp who='PHILISTE'><speaker>PHILISTE.</speaker>
+	<l id='107'>J'en conviendrai, si tu le veux :</l>
+	<l id='108'>Mais songe donc que je ne peux</l>
+	<l id='109'>Juger de leurs attraits avant de les connaître.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='110'>D'accord, tu parles de bon sens ;</l>
+	<l id='111'>Au Théâtre, à coup sûr, nous les verrons paraître :</l>
+<stage>En tirant sa montre.</stage>
+	<l id='112'>Allons ; dépêchons ; il est temps.</l>
+<stage>Ils sortent ensemble.</stage>
+<stage>Le Théâtre change, et représente un vestibule.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Thalie et Ariste.</head>
+<stage>Thalie entre et épie dans la Salle : elle est appuyée sur la main d'Ariste.</stage>
+<sp who='THALIE'><speaker>THALIE, à Ariste.</speaker>
+ <note type="L">Melpomène : Nom d'une des neuf Muses, à laquelle on attribue l'invention du chant, de l'harmonie musicale et de la tragédie.</note>
+	<l id='113'>Quoi ! Tout ce monde là pour ma sur Melpomène ?</l>
+	<l id='114'>Elle est donc folle ? Elle se plaint toujours,</l>
+	<l id='115'>Qu'elle voit s'éclipser sa gloire et ses beaux jours.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='116'>Vous le savez, Madame, aujourd'hui sur la scène,</l>
+	<l id='117'>Le Temps va couronner l'aîné de ses enfants ;</l>
+	<l id='118'>Et vous voyez que l'amour des talents,</l>
+	<l id='119'>Ici pour Corneille ramène </l>
+	<l id='120'>Les curs reconnaissants et les mâles esprits.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='121'>Eh ! Pourquoi donc m'a-t-on dit qu'à Paris,</l>
+	<l id='122'>Ma sur, pour l'aîné de ses fils,</l>
+	<l id='123'>Avait perdu quelques suffrages,</l>
+	<l id='124'>Et que de secrets ennemis,</l>
+	<l id='125'>Du vif éclat de nos hommages,</l>
+	<l id='126'>Seraient affligés et surpris ? </l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='127'>Rien n'est plus faux, sur ma parole.</l>
+	<l id='128'>Ah ! Si jamais s'échappant de la Cour,</l>
+	<l id='129'>L'envie eût quelque accès chez ce peuple frivole,</l>
+	<l id='130'>Son règne n'y dura qu'un jour,</l>
+	<l id='131'>Comme celui d'une mode étourdie;</l>
+	<l id='132'>Et le Français s'honorera toujours,</l>
+	<l id='133'>Par le culte assidu qu'il décerne au génie.  </l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='134'>Que j'aime à voir justifier</l>
+	<l id='135'>Ce bon peuple que j'idolâtre:</l>
+	<l id='136'>Rire, chanter, aimer, se battre ;</l>
+	<l id='137'>Il sait tout, hormis s'ennuyer ;</l>
+	<l id='138'>Et ne pouvant l'humilier,</l>
+	<l id='139'>L'orgueil cherche avec complaisance,</l>
+	<l id='140'>Dans quelque trait léger de son inconséquence,</l>
+	<l id='141'>Matière à le calomnier.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='142'>Tel se montre le caractère</l>
+	<l id='143'>De nos Anglomanes fougueux ;</l>
+	<l id='144'>Fatigués des talents qui naissent autour d'eux,</l>
+	<l id='145'>Ils ne prisent que ceux d'une terre étrangère ;</l>
+	<l id='146'>Et leur orgueil, plus que leur goût préfère,</l>
+	<l id='147'>Dans la liste des noms fameux,</l>
+	<l id='148'>Shakespeare à Corneille, et Congreve à Molière.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='149'>Que ne vont-ils en Angleterre,</l>
+	<l id='150'>C'est-là qu'ils doivent réussir ;</l>
+	<l id='151'>Et chez le brave Anglais une fête annuelle,</l>
+	<l id='152'>Fait revivre par son souvenir</l>
+	<l id='153'>Les grands noms, revêtus d'une gloire immortelle,</l>
+	<l id='154'>De Haendel et de Shakespeare .</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='155'>Mais cette mode, autant que toute autre, je pense,</l>
+	<l id='156'>Serait bonne sans doute à rapporter en France.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='157'>J'en veux parler à mes Français ;</l>
+	<l id='158' part='i'>Qu'en dites-vous ?</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='158' part='f'>Comptez sur un succès,</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='159'>L'absence de ma sur cependant m'inquiète :</l>
+	<l id='160'>Ne pourrai-je savoir enfin ce qui l'arrête.</l>
+</sp>
+<sp who='ARISTE'><speaker>ARISTE.</speaker>
+	<l id='161'>Ordonnez ; prêt à vous servir,</l>
+	<l id='162' part='i'>Mon zèle...</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='162' part='f'>C'est pour revenir</l>
+	<l id='163'>Paraître à la cérémonie,</l>
+	<l id='164'>Où près de moi tantôt vous devez vous trouver :</l>
+	<l id='165'>Vous me servirez à prouver,</l>
+	<l id='166'>Que des gens de bon sens j'aime la compagnie.</l>
+<stage>Ariste sort.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='THALIE'><speaker>THALIE, seule.</speaker>
+<note type="L">Thalie : Une des neuf muses, présidait à la comédie et à l'épigramme. Thalie est aussi l'une des trois grâces. [B]</note>
+	<l id='167'>Ma sur n'arrive point... Pour me désennuyer,</l>
+	<l id='168'>S'il me venait au moins un écuyer...</l>
+	<l id='169'>Mais n'en est-ce pas un que je crois voir paraître ?</l>
+	<l id='170'>Comme il court... À coup sûr il ne prétend pas être</l>
+	<l id='171'>A cette fête le dernier...</l>
+	<l id='172'>Feignons, pour m'amuser, de ne le pas connaître.</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE, à part, avant d'approcher.</speaker>
+	<l id='173'>C'est Thalie ! Elle feint ; fort bien ; feignons aussi !</l>
+	<l id='174'>Et déployons l'ardeur dans ce projet hardi,</l>
+	<l id='175'>D'un guerrier qui combat sous les yeux de son maître.</l>
+<stage>Il approche.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Alcipe, Thalie.</head>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='176'>Dès le premier instant que vous avez paru,</l>
+	<l id='177'>Ah ! Madame, que n'ai-je pu,</l>
+	<l id='178'>Me rapprocher de vous et de votre compagne ?</l>
+	<l id='179'>Je ne la revois point ? Qu'est aussi devenu</l>
+	<l id='180'>Ce vieillard qui vous accompagne ?</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='181'>Monsieur, la curiosité</l>
+	<l id='182'>Qui vous agite et qui vous presse</l>
+	<l id='183'>A bien de la vivacité...</l>
+	<l id='184'>Je croyais que la politesse...</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='185'>Je suis Français; je vois une beauté,</l>
+	<l id='186'>Et pour elle aussitôt tout mon cur s'intéresse.</l>
+	<l id='187'>Dussiez-vous condamner mon importunité,</l>
+	<l id='188'>Je ne vous quitte plus... vous semblez étrangère ?</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='189' part='i'>Oui... non...</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='189' part='f'>Lequel des deux ?... Vous riez... la colère,</l>
+	<l id='190'>Convenez-en, ne vaut pas la gaieté.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+<stage>À part.</stage>
+	<l id='191' part='i'>Il a raison.</l>
+<stage>À Alcipe qui l'examine.</stage>
+	<l id='191' part='f'>Mais, Monsieur, je vous prie,</l>
+	<l id='192'>Par votre regard indiscret,</l>
+	<l id='193'>M'avez-vous assez poursuivie ? </l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='194'>J'examinais, et mon âme ravie,</l>
+	<l id='195' part='i'>Croyait voir...</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='195' part='f'>Qui donc, s'il vous plaît ?</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='196'>Une Dame que j'ai servie.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='197'>Et cette Dame vous aimait ?</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='198' part='i'>Je me tais...</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='198' part='f'>C'est par modestie...</l>
+	<l id='199'>Comment, elle me ressemblait ?</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='200'>Oh ! C'était vous, Madame, trait pour trait...</l>
+	<l id='201'>Ne vous alarmez pas... Elle était fort jolie.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='202' part='i'>Son nom ?</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='202' part='m'>Son nom ?</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='202' part='m'>Oui, je le veux...</l>
+</sp>
+<sp who='ALCIPE'><speaker>ALCIPE.</speaker>
+	<l id='202' part='f'>Thalie.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='203'>Comment, traître, vous me jouiez ?</l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Thalie et Melpomène.</head>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='204'>Enfin je me vois libre, et je puis sans contrainte,</l>
+	<l id='205'>Vous peindre les transports dont mon âme est atteinte ;</l>
+	<l id='206'>Prêtez, ma chère sur, l'oreille à mes discours,</l>
+	<l id='207'>Et sachez que je vois le plus beau de mes jours.</l>
+<stage>Elles s'asseyent.</stage>
+	<l id='208'>Si mon nom, autrefois honoré dans la Grèce,</l>
+	<l id='209'>Fit fumer un encens qui flatta ma tendresse,</l>
+	<l id='210'>Je ne vous dirai point par quel affreux revers,</l>
+	<l id='211'>Depuis ces jours brillants, j'errai dans l'univers,</l>
+	<l id='212'>Nourrissant ma douleur, et ma triste pensée,</l>
+	<l id='213'>Du cruel souvenir de ma gloire éclipsée ;</l>
+	<l id='214'>Mes autels renversés, mes temples abattus,</l>
+	<l id='215'>Redisaient en tous lieux, Melpomène n'est plus !</l>
+	<l id='216'>Mes pas irrésolus, et ma marche incertaine,</l>
+	<l id='217'>Me conduisent enfin sur les bords de la Seine ;</l>
+	<l id='218'>Mais son peuple égaré connaissait-il alors,</l>
+	<l id='219'>Des passions du cur les terribles ressorts ?</l>
+	<l id='220'>Le Théâtre à ses yeux, dans des scènes barbares,</l>
+	<l id='221'>N'offrait qu'un long tissu d'événements bizarres.</l>
+	<l id='222'>Aux étranges combats des héros et des dieux,</l>
+	<l id='223'>Succédaient brusquement des discours langoureux;</l>
+	<l id='224'>Leurs périls, leurs malheurs, leurs tendresses, leurs flammes,</l>
+	<l id='225'>Ne parlaient point aux curs, n'agitaient point les âmes;</l>
+	<l id='226'>Et dans ces jeux, toujours l'ennui du merveilleux,</l>
+	<l id='227'>Refroidissait la scène en fatiguant les yeux.</l>
+	<l id='228'>J'invoquais (sans espoir) quelque dieu tutélaire,</l>
+	<l id='229'>Qui pût dans ce chaos, débrouiller la lumière :</l>
+	<l id='230'>Ce dieu, ce fut Corneille : il parut ; à sa voix</l>
+	<l id='231'>Je repris tout-à-coup mon empire et mes droits.</l>
+	<l id='232'>Cent ans sont écoulés depuis que sur la scène,</l>
+	<l id='233'>Par ce nom glorieux je règne en souveraine.</l>
+	<l id='234'>Le Cid me l'annonça ; je le vis, et soudain</l>
+	<l id='235'>Je mis, sans balancer, mon sceptre dans sa main :</l>
+	<l id='236'>Ce choix n'a point trompé ma superbe espérance,</l>
+	<l id='237'>Sa gloire chaque jour cimentant ma puissance.</l>
+	<l id='238'>Mille ennemis jaloux, confus, humiliés,</l>
+	<l id='239'>Virent bientôt la France et l'Europe à mes pieds.</l>
+	<l id='240'>Quand il eut médité sur la source profonde,</l>
+	<l id='241'>Des malheurs, des vertus et des crimes du monde,</l>
+	<l id='242'>Alors on entendit son éloquente voix,</l>
+	<l id='243'>Porter la vérité dans l'oreille des Rois,</l>
+	<l id='244'>Et ce siècle fameux, si fertile en merveilles,</l>
+	<l id='245'>Dut son plus grand éclat à l'aîné des Corneilles.</l>
+	<l id='246'>Ah ! Si ce sentiment paraissait une erreur,</l>
+	<l id='247'>C'est une vérité dans le fond de mon cur.</l>
+	<l id='248'>Mais faut-il, en des lieux illustrés par sa gloire,</l>
+	<l id='249'>De ses nombreux travaux rappeler la mémoire ?</l>
+	<l id='250'>Ma voix redira-t-elle à tous les curs émus,</l>
+	<l id='251'>De quel attrait puissant il orna les vertus</l>
+	<l id='252'>De ces nobles héros que la grandeur Romaine,</l>
+	<l id='253'>Permit à ses pinceaux de montrer sur la scène,</l>
+	<l id='254'>Pour l'ornement du monde et l'exemple des Rois ?</l>
+	<l id='255'>De combien de devoirs il fait chérir les lois.</l>
+	<l id='256'>Son art veut-il former un Prince doux et juste ?</l>
+	<l id='257'>Il présente à son cur la clémence d'Auguste.</l>
+	<l id='258'>Ici la même main qui si bien crayonna</l>
+	<l id='259'>L'âme du grand Pompée et celle de Cinna.</l>
+	<l id='260'>Prenant d'autres pinceaux, trace dans Rodogune,</l>
+	<l id='261'>De la soif de régner, la sanglante infortune :</l>
+	<l id='262'>Là le cur agité par de nobles douleurs,</l>
+	<l id='263'>De Chimène admira les combats et les pleurs ;</l>
+	<l id='264'>Et dans ces grands tableaux que sans cesse il varie,</l>
+	<l id='265'>Tantôt tendre, il rend cher l'amour de la patrie,</l>
+	<l id='266'>Et tantôt plus terrible, en des traits effrayants,  </l>
+	<l id='267'>Il peint l'horreur du crime, ou l'effroi des tyrans.</l>
+	<l id='268'>Enfin ce fils chéri, qui terrassa l'envie,</l>
+	<l id='269'>Ne dut rien à son siècle, et tout à son génie.</l>
+	<l id='270'>Aujourd'hui que du temps la sévère équité,</l>
+	<l id='271'>Le ceindra d'un laurier tant de fois mérité,</l>
+	<l id='272'>Partagez les transports d'un peuple qui s'apprête</l>
+	<l id='273'>Au pompeux appareil de cette grande fête.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE, se levant.</speaker>
+	<l id='274'>Mais entre nous, ma sur, c'est un point arrêté,</l>
+	<l id='275'>De ma cour et de moi, disposez je vous prie,</l>
+	<l id='276'>Par mon ordre elle est avertie;</l>
+	<l id='277'>Et dans cette solennité,</l>
+	<l id='278'>Si vous saviez combien mon peuple est enchanté</l>
+	<l id='279'>De rendre à la sur de Thalie</l>
+	<l id='280'>Le secours qu'elle m'a prêté</l>
+	<l id='281'>Dans pareille cérémonie,</l>
+	<l id='282'>Vous l'aimeriez en vérité.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='283'>Que vous connaissez mal votre sur Melpomène,</l>
+	<l id='284'>Si vous la soupçonnez d'être en proie à la haine ;</l>
+	<l id='285'>Ce sentiment affreux gâterait ce beau jour ;</l>
+	<l id='286'>Et quand le cur est plein d'un véritable amour,</l>
+	<l id='287'>Il l'épanche aisément sur ce qui l'environne.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='288'>Vous ne haïssez donc personne ?</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='289' part='i'>Non.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='289' part='f'>Pas même les envieux ?</l>
+	<l id='290'>Dont le ciel lâchement verse sur le génie,</l>
+	<l id='291'>Qui les choque ou les humilie,</l>
+	<l id='292'>Son poison lent et dangereux?</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='293'>Ils sont bien assez malheureux !</l>
+	<l id='294'>Je les plains, et je leur pardonne.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='295'>Je ne vous croyais pas si bonne.</l>
+	<l id='296'>Pour moi ce me serait un déplaisir mortel,</l>
+	<l id='297'>Si dans ce jour si solennel,</l>
+	<l id='298'>Que notre amour consacre au grand nom de Corneille,</l>
+	<l id='299'>Il nous venait des gens d'une espèce pareille.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='300'>Quoi ! Ma sur, la critique à ce point vous aigrit ?</l>
+	<l id='301'>Sachez de moi qu'un bon esprit</l>
+	<l id='302'>Assez rarement s'en afflige :</l>
+	<l id='303'>Est-elle mauvaise, il s'en rit ;</l>
+	<l id='304'>Est-elle bonne, il se corrige.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='305'>Prenez garde, ma sur, que votre gravité</l>
+	<l id='306'>S'égare dans mon apanage.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='307'>Par moi, pour cette fois, mon fils est imité ;</l>
+	<l id='308'>Quand jadis à votre gaieté</l>
+	<l id='309'>Il porta son premier hommage,</l>
+	<l id='310' part='i'>Mon cur...</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='310' part='f'>Le mien en sut infiniment flatté.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='311'>Permettez donc qu'ici, seules, en liberté,</l>
+	<l id='312'>De mon austérité je suspende l'usage,</l>
+	<l id='313'>Et je vais vous parler avec sincérité.</l>
+	<l id='314'>Comment Apollon, je vous prie,</l>
+	<l id='315'>En ce moment, s'est-il donc éloigné ?</l>
+	<l id='316'>Pourrait-il avoir dédaigné</l>
+	<l id='317'>De présider lui-même à la cérémonie ? </l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='318'>Ah ! Ne craignez pas qu'il oublie</l>
+	<l id='319'>Un nom qu'il chérit à jamais ;</l>
+	<l id='320'>Il sait qu'il le couvrit d'une gloire durable,</l>
+	<l id='321'>En répandant sur lui ses plus rares bienfaits,</l>
+	<l id='322'>Et sans doute il jouit d'un plaisir véritable,</l>
+	<l id='323'>En voyant aujourd'hui, par le Temps équitable,</l>
+	<l id='324'>Confirmer les dons qu'il a faits.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='325'>Ce discours dissipe ma crainte</l>
+	<l id='326'>Et vous savez me rassurer.</l>
+	<l id='327'>Mais j'aperçois dans cette enceinte</l>
+	<l id='328'>Quelqu'un qui cherche à pénétrer.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Thalie, Cliton, Melpomène.</head>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='329' part='i'>C'est Cliton...</l>
+<stage>À lui.</stage>
+	<l id='329' part='m'>Que veux-tu ?</l>
+</sp>
+<sp who='CLITON'><speaker>CLITON.</speaker>
+	<l id='329' part='f'>Trois messieurs qui me suivent,</l>
+	<l id='330'>Et qui dans le moment arrivent,</l>
+	<l id='331'>Désireraient entretenir,</l>
+	<l id='332'>Dans une secrète audience,</l>
+	<l id='333'>La dame qu'avec vous ici j'ai vu venir.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='334'>Paraissent-ils gens d'importance ?</l>
+</sp>
+<sp who='CLITON'><speaker>CLITON.</speaker>
+	<l id='335' part='i'>Je les crois étrangers.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='335' part='f'>En toute diligence, </l>
+	<l id='336'>Dites-leur que je suis empressée à les voir.</l>
+<stage>Cliton sort.</stage>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='337'>Ces beaux messieurs ont peut-être à vous dire</l>
+	<l id='338'>Ce que je ne veux pas savoir.</l>
+	<l id='339'>Permettez que je me retire</l>
+	<l id='340'>Pour vous les laisser recevoir.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VII. Un Grec, Un Romain, Un Castillan, Melpomène.</head>
+<sp who='LE GREC'><speaker>LE GREC.</speaker>
+	<l id='341'>Le Temps, ce souverain des Dieux et des mortels,</l>
+	<l id='342'>Ce vieillard dont la main rassemble tous les âges,</l>
+	<l id='343'>Et qui vit notre encens fumer sur vos autels,</l>
+	<l id='344'>Me commande à vos pieds d'apporter des hommages ;</l>
+	<l id='345'>La Grèce est ma patrie, et ce berceau des arts</l>
+	<l id='346'>Éclairé le premier de vos divins regards,</l>
+	<l id='347'>Veut par son député, prendre part à la gloire,</l>
+	<l id='348'>De ce mortel fameux qu'au temple de mémoire,</l>
+	<l id='349'>Sophocle à ses côtés verra bientôt asseoir.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='350'>J'aime le zèle ardent que vous me faites voir ;</l>
+	<l id='351'>Si le temps emporta les dépouilles d'Athènes,</l>
+	<l id='352'>Son génie et ses arts, sur des rives lointaines,</l>
+	<l id='353'>Croyez que les climats où je reçus le jour,</l>
+	<l id='354'>Seront toujours présents et chers à mon amour.</l>
+</sp>
+<sp who='LE ROMAIN'><speaker>LE ROMAIN.</speaker>
+	<l id='355'>J'apporte aussi, Madame, au nom d'un peuple libre,</l>
+	<l id='356'>Le tribut mérité des rivages du Tibre,</l>
+	<l id='357'>Pour celui dont le cur a vu dans les Romains,</l>
+	<l id='358'>Les plus grands des héros et les Rois des humains :</l>
+	<l id='359'>Heureux si cet hommage aux mânes d'un grand homme,</l>
+	<l id='360'>Satisfait à la fois, vous, sa patrie et Rome.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='361'>Seigneur, ce grand honneur qu'il reçoit aujourd'hui,</l>
+	<l id='362'>S'il est digne de vous, est bien digne de lui ;</l>
+	<l id='363'>Mais le culte rendu par le monde au génie,</l>
+	<l id='364'>De cent climats divers ne fait qu'une patrie.</l>
+</sp>
+<sp who='RODRIGUE'><speaker>RODRIGUE.</speaker>
+	<l id='365'>Le dirai-je, Madame ; oui, tout autre que moi,</l>
+	<l id='366'>Au bruit de ce grand nom pourrait trembler d'effroi;</l>
+	<l id='367'>Mais la palme du Cid qui s'élève au Parnasse,</l>
+	<l id='368'>Je l'espère à vos yeux me fera trouver grâce :</l>
+	<l id='369'>Souffrez donc que Rodrigue apporte à vos genoux,</l>
+	<l id='370'>Tout ce qu'il sent d'amour pour Corneille et pour vous :</l>
+	<l id='371'>La Castille le veut, et l'honneur me l'ordonne.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='372'>Jeune et brillant appui de plus d'une Couronne,</l>
+	<l id='373'>Je reçois tous vos dons, ils me sont précieux;</l>
+	<l id='374'>Déployez près de moi le noble caract7re</l>
+	<l id='375'>De ces fameux héros, si grands, si glorieux,</l>
+	<l id='376'>Faits pour servir d'exemple au reste de la terre ;</l>
+	<l id='377'>Corneille en les peignant se montre aussi grand qu'eux.</l>
+	<l id='378'>Mais déjà je vois en ces lieux</l>
+	<l id='379'>Revenir l'aimable Thalie.</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Thalie, sa suite et les précédents.</head>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='380'>Ma sur, vous me voyez suivie</l>
+	<l id='381'>De l'élite de mes enfants ; </l>
+	<l id='382'>Et bientôt avec eux les peuples différents,</l>
+	<l id='383'>De cent climats divers, et nés dans tous les âges,</l>
+	<l id='384'>Conduits près de vous par le Temps,</l>
+	<l id='385'>À la pompe de nos hommages,</l>
+	<l id='386'>Vont mêler leurs tendres accents.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE.</speaker>
+	<l id='387'>Ah ! Mon cur me le dit, déjà je les entends.</l>
+<stage>Annonce d'une marche par l'Orchestre.</stage>
+	<l id='388'>Ces sons harmonieux m'annoncent leur présence.</l>
+<stage>Aux Envoyés.</stage>
+	<l id='389'>Rangez-vous près de moi : que la fête commence.</l>
+<stage>Melpomène sur l'aile droite du Théâtre. Thalie sur l'aile gauche avec sa suite.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Temps, Melpomène, Thalie.</head>
+<stage>Le Temps, une couronne à la main, arrive sur une marche, précédé et suivi de quatre quadrilles, un de Grecs, un de Romains, un de Castillans et un de Français: à la fin de la marche, il se trouve sur le devant de la scène au milieu des deux Muses.</stage>
+<sp who='LE TEMPS'><speaker>LE TEMPS, à tous.</speaker>
+	<l id='390'>Illustres nations que l'ardeur de la gloire</l>
+	<l id='391'>Et l'amour des talents rassemblent sous mes yeux ;</l>
+	<l id='392'>Dans ce sacré parvis du temple de mémoire,</l>
+	<l id='393'>Écoutez les accents du souverain des Dieux.</l>
+<stage>Le Chur répète le dernier vers.</stage>
+	<l id='394'>Ah ! Si sur les travaux de la plus noble vie,</l>
+	<l id='395'>La haine a, trop de fois, attaché ses serpents,</l>
+	<l id='396'>Ma main seule les tue, et ce n'est que le Temps</l>
+	<l id='397'>Qui d'un jour sans nuage éclaire le génie. </l>
+	<l id='398'>Ce jour est arrivé, consacrons aujourd'hui</l>
+	<l id='399'>La gloire du mortel qui le premier en France,</l>
+	<l id='400'>De l'art de Melpomène exerça la puissance,</l>
+	<l id='401'>Et qui forma des Rois pour régner après lui.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE au Temps.</speaker>
+	<l id='402'>Seigneur daignez montrer à la foule éperdue,</l>
+	<l id='403'>Le glorieux séjour par mon fils habité.</l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='404'>Temple de l'immortalité,</l>
+	<l id='405'>Paraissez, brillez à ma vue.</l>
+<stage>Le fond s'ouvre; on voit dans l'endroit le plus élevé du Parnasse la statue de Sophocle ; plus bas, au même rang, celles de Corneille, de Racine, de Voltaire et quelques autres. Alors trois cris de joie se font entendre distinctement. Huzza. Bravo. Vivat.</stage>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='406'>Mais n'entends je pas les accents</l>
+	<l id='407'>De quelques langues étrangères ?</l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='408'>Elles ne le sont point : si l'espace et le temps,</l>
+	<l id='409'>Aux états, aux mortels, ont fixé des barrières</l>
+	<l id='410'>Pour le génie et les talents,</l>
+	<l id='411'>L'amour sait les franchir, tous les hommes sont frères.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE à tous.</speaker>
+	<l id='412'>Ils renaissent pour vous, ces beaux jours où Louis</l>
+	<l id='413'>Se créait des sujets hors du sein de la France,</l>
+	<l id='414'>Lorsque les Arts par lui protégés et chéris,</l>
+	<l id='415'>Vous portaient le tribut de leur reconnaissance.</l>
+	<l id='416'>La gloire des combats offre trop de hasards,</l>
+	<l id='417'>Fait verser trop de sang, répandre trop de larmes:</l>
+	<l id='418'>Mais il est une gloire à l'abri des alarmes,</l>
+	<l id='419'>Une seule durable, et c'est celle des Arts.  </l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='420'>Qu'elle brille en ces lieux, qu'elle nous environne</l>
+	<l id='421'>Cette gloire, l'honneur des sujets et du trône,</l>
+	<l id='422'>Par l'exemple fameux que je vais en donner.</l>
+<stage>À quatre sujets principaux de la Tragédie.</stage>
+	<l id='423'>Vous cependant allez environner</l>
+	<l id='424'>Avec respect cette noble statue:</l>
+	<l id='425'>Approchez-la de moi ; peuples à votre vue</l>
+	<l id='426'>Saturne va la couronner.</l>
+<stage>Sur un pas de quatre, on va chercher la statue qu'on place sur le devant, entre les deux Muses et le Temps. Les ailes du Théâtre bien découvertes.</stage>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS, avant de placer la couronne.</speaker>
+	<l id='427'>Ô vous ! Dont l'âme ambitionne</l>
+	<l id='428'>L'immortalité des succès,</l>
+	<l id='429'>Rappelez-vous cette couronne,</l>
+	<l id='430'>Et sachez qu'un laurier ne se fane jamais,</l>
+	<l id='431'>Lorsque c'est ma main qui le donne.</l>
+<stage>Melpomène, Thalie et leur suite rendent hommage à Corneille. Pas de Ballet.</stage>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='432'>Ramenez ce grand homme au sommet du Parnasse,</l>
+	<l id='433'>À côté de Sophocle où je marque sa place.</l>
+<stage>Autre pas de Ballet. On place la statue à côté de celle de Sophocle.</stage>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='434'>Mais seul au premier rang de l'immortalité,</l>
+	<l id='435'>Si Corneille, Seigneur, est aujourd'hui porté,</l>
+	<l id='436'>A ses nobles rivaux n'est-ce point faire injure ?</l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='437'>Non, non, Madame, et la postérité</l>
+	<l id='438'>Que je guide d'une main sûre,</l>
+	<l id='439'>Doit un jour avec équité,</l>
+	<l id='440'>Au même rang placer à son côté,  </l>
+<stage>En montrant la Statue de Racine.</stage>
+	<l id='441'>Et celui qui peignant l'amour et la nature,</l>
+	<l id='442'>D'un charme si touchant leur prêta la beauté ;</l>
+<stage>En montrant celle de Voltaire.</stage>
+	<l id='443'>Et celui dont la main démasquant l'imposture,</l>
+	<l id='444'>Contre tous ses tyrans, servit l'humanité.</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='445'>Ah ! Je comprends, c'est une galerie...</l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='446'>Vous plaisantez ? Pourquoi donc, je vous prie ?</l>
+</sp>
+<sp who='THALIE'><speaker>THALIE.</speaker>
+	<l id='447'>Le projet n'est pas neuf, et déjà dans Paris...</l>
+</sp>
+<sp who='LE TEMPS'><speaker>LE TEMPS.</speaker>
+	<l id='448'>Madame, je suis peu surpris</l>
+	<l id='449'>De l'éclat de pareils hommages.</l>
+	<l id='450'>Si les Rois ici bas tiennent le rang des Dieux,</l>
+	<l id='451'>Ils se montrent surtout leurs plus dignes images,</l>
+	<l id='452'>Quand ils sont éclairés et bienfaisants comme eux.</l>
+</sp>
+<sp who='MELPOMÈNE'><speaker>MELPOMÈNE, à tous.</speaker>
+	<l id='453'>Vous que rassemblent en ce jour</l>
+	<l id='454'>La reconnaissance et l'amour,</l>
+	<l id='455'>Aux yeux de la France charmée,</l>
+	<l id='456'>Célébrez dans vos chants, consacrez dans vos jeux,</l>
+	<l id='457'>Le nom du mortel glorieux,</l>
+	<l id='458'>Qui ne dut qu'à lui seul toute sa renommée.</l>
+<stage>Un Ballet général termine la fête.</stage>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

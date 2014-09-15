@@ -1,0 +1,3226 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>RAGOTIN OU LE ROMAN COMIQUE, COMÉDIE.</title>
+				<author born='1621' born_location='Château-Thierry' death='1695' death_location='Paris' academie=''>LA FONTAINE, Jean de</author>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, juin 2012</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1681-1690</periode>
+				<taille>1250-1500</taille>
+				<permalien></permalien>
+				<sources>
+					<source id='1'><author></author><text></text></source>
+				</sources>	
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+<front>
+		<docTitle>
+			<titlePart type="main">RAGOTIN OU LE ROMAN COMIQUE </titlePart>
+			<titlePart type="sub">EN CINQ ACTES.</titlePart>
+		</docTitle> 
+		<docDate value='1684'>M. DC. LXXXIV.</docDate>
+		<docAuthor id='LA FONTAINE, Jean de' bio='lafontaine'>Par LA FONTAINE</docAuthor>
+		<docImprint>
+ 			<privilege id=''><head></head>
+				<p></p>
+			</privilege>
+			<acheveImprime id=''></acheveImprime>
+			<printer id='NILSSON'>ÉDITIONS NILSSON, 73, Boulevard Saint-Michel, PARIS.</printer>
+		</docImprint>
+		<performance>
+			<premiere date='(non représentée)' location='(non représentée)'>Cette oeuvre n'a pas été représentée.</premiere>
+		</performance>
+	<preface><head>PREFACE 1883.</head>
+	<p>Le bon La Fontaine est certainement peu connu comme poète dramatique ; le charme indicible de ses Contes et surtout de ses Fables a vite fait oublier la grâce de ses épîtres, de ses poésies badines et légères, de ses petits romans mêlés de vers, et surtout de ses comédies, libres, souriantes, spirituelles, véritablement dignes de ce génial bohème du grand siècle.</p>
+	<p>La Fontaine était né à Château- Thierry, où son père était maître des eaux et forêts; il eut la mauvaise idée de lui remettre sa charge et de le marier ; mais La Fontaine oublia bientôt femme et maîtrise, quitta l'une et l'autre et vint à Paris où, dans la compagnie de joyeux garçons comme lui, il fréquenta les cabarets, les ruelles, les mauvais lieux, mena cette existence facile et légère, grâce à quoi il eut vite fait de manger son fonds avec son revenu, comme il l'a dit dans sa spirituelle épitaphe. </p>
+	<p>C'est de cette époque que date toute cette partie légère et badine de son oeuvre, effacée par les six livres de ses immortelles Fables ; c'est à cette époque qu'il écrit ce joli roman de "Les Amours de Psyché et de Cupidon", qu'il traduit en vers "l'Eunuque" de Térence, qu'il sème à tous vents épîtres, ballades, poèmes légers, qu'il esquisse déjà ses Contes les plus licencieux et que pour plaire à quelques comédiens rencontrés dans des cabarets nocturnes où il s'attarde, il compose "Le Florentin", et "Ragotin" que nous publions aujourd'hui. </p>
+	<p>Ragotin fut écrit en collaboration avec Champmeslé, un joyeux drille, comédien, poète, buveur, bretteur et mari de cette actrice à qui il donna son nom et qui créa les chefs-d'oeuvre de Racine. </p>
+	<p>Ragotin, comme on le verra, est tiré en partie du Roman comique de Scarron.</p>
+	</preface>
+		
+<castList>
+	<head>PERSONNAGES.</head>
+	<castItem><role id="RAGOTIN" civil='M' type="H" statut='avocat' age='A' stat_amour='néant'>RAGOTIN, avocat.</role>.</castItem>
+	<castItem><role id="MONSIEUR-DE-LA-BAGUENAUDIÈRE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR DE LA BAGUENAUDIÈRE.</role>.</castItem>
+	<castItem><role id="ISABELLE" civil='F' type="H" statut='aristocrate' age='A' stat_amour='néant'>ISABELLE, sa fille.</role>.</castItem>
+	<castItem><role id="MADAME-BOUVILLON" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>MADAME BOUVILLON.</role>.</castItem>
+	<castItem><role id="BLAISE-BOUVILLON" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>BLAISE BOUVILLON, son fils.</role>.</castItem>
+	<castItem><role id="MONSIEUR-DE-PRÉRAZÉ" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR de PRÉRAZÉ, gentilhomme provincial.</role>.</castItem>
+	<castItem><role id="MONSIEUR-DE-BOISCOUPÉ" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR de BOISCOUPÉ, gentilhomme provincial. </role>.</castItem>
+	<castItem><role id="MONSIEUR-DES-LENTILLES" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR des LENTILLES, gentilhomme provincial.</role>.</castItem>
+	<castItem><role id="MONSIEUR-DE-MOUSSEVERTE" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>MONSIEUR de MOUSSEVERTE, gentilhomme provincial.</role>.</castItem>
+	<castItem><role id="LE-DESTIN" civil='M' type="H" statut='comédien' age='A' stat_amour='néant'>LE DESTIN</role>, comédien.</castItem>
+	<castItem><role id="LA-RANCUNE" civil='F' type="H" statut='comédien' age='A' stat_amour='néant'>LA RANCUNE</role>, comédien.</castItem>
+	<castItem><role id="L-OLIVE" civil='F' type="H" statut='comédien' age='A' stat_amour='néant'>L'OLIVE</role>, comédien.</castItem>
+	<castItem><role id="LE-DÉCORATEUR" civil='M' type="H" statut='décorateur' age='A' stat_amour='néant'>LE DÉCORATEUR.</role>.</castItem>
+	<castItem><role id="LA-CAVERNE" civil='F' type="H" statut='conmédien' age='A' stat_amour='néant'>LA CAVERNE</role>, comédienne.</castItem>
+	<castItem><role id="L-ÉTOILE" civil='F' type="H" statut='comédien' age='A' stat_amour='néant'>L'ÉTOILE</role>, comédienne.</castItem>
+	<castItem><role id="UN-CHARETTIER" civil='M' type="H" statut='charretier' age='A' stat_amour='néant'>UN CHARETTIER.</role>.</castItem>
+	<castItem><role id="TROIS-PORTEURS" civil='G' type="H" statut='porteur' age='A' stat_amour='néant'>TROIS PORTEURS</role>.</castItem>. 
+	<castItem><role id="UN-LAQUAIS" civil='M' type="H" statut='laquais' age='A' stat_amour='néant'>UN LAQUAIS.</role>.</castItem> 
+</castList>
+<set location='Paris' country='France' periode='XVIIème' link=''></set>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Monsieur de la Baguenaudière, Madame Bouvillon, Isabelle, Blaise Bouvillon.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+<note type="L">Phébus : allegorie du soleil.</note>
+	<l id='1'>Déjà Phébus, voisin de ces moites retraites, </l>
+	<l id='2'>Ne semble plus mener ses chevaux qu'à courbettes ;</l>
+	<l id='3'>Ce dieu porte-lumière, aux yeux vifs, au blond crin, </l>
+	<l id='4'>Ainsi que du tabac respire un air marin, </l>
+<note type="L">Thétis : Une des déesses de la mer, qui fut mère d'Achille. [L]</note>
+	<l id='5'>Et sentant que Thétis apprête sa litière... </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='6'>En vérité, monsieur de La Baguenaudière, </l>
+	<l id='7'>Depuis que la fureur de rimer au hasard </l>
+	<l id='8'>A pris le peu d'esprit dont le ciel vous fit part, </l>
+	<l id='9'>On ne vous entend plus. Pourquoi cette litière, </l>
+	<l id='10' part='i'>Ce Phébus ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='10' part='f'>C'est-à-dire en langage vulgaire, </l>
+	<l id='11'>Madame Bouvillon, que l'horloge six fois </l>
+	<l id='12'>S'est déjà fait entendre aux échos de nos bois, </l>
+	<l id='13'>Et des comédiens dont j'attends la venue </l>
+	<l id='14'>La troupe à mes regards n'est point encor parue. </l>
+	<l id='15'>Que veut dire ceci ? Vous, Biaise Bouvillon, </l>
+	<l id='16'>Pour les voir arriver montez au pavillon,</l>
+	<l id='17'>Allez au cabinet qui face l'avenue, </l>
+	<l id='18'>Ma fille, et quand l'un d'eux vous frappera la vue, </l>
+	<l id='19' part='i'>Vous viendrez me le dire : allez. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='19' part='f'>Que d'embarras ! </l>
+	<l id='20'>Vous moquez-vous d'avoir ici tout ce fracas ? </l>
+	<l id='21'>Pourquoi cette dépense ? Et que voulez-vous faire, </l>
+	<l id='22' part='i'>Vous, des comédiens ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='22' part='f'>Quoi ! Toujours en colère ! </l>
+	<l id='23'>De ces emportements purgez-vous, purgez-vous : </l>
+	<l id='24'>Madame Bouvillon, prenez un ton plus doux ;</l>
+	<l id='25'>Et puisque enfin l'hymen unit notre famille, </l>
+	<l id='26'>Qu'il nous joint vous et moi, votre fils et ma fille, </l>
+	<l id='27'>Le plaisir qu'avec vous je prends de m'allier </l>
+	<l id='28'>Fait que je veux un peu rire sur mon pallier : </l>
+	<l id='29'>Je brûle pour cela que notre troupe vienne. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='30'>Dites que c'est pour voir votre comédienne. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='31' part='i'>Qui ? L'Étoile ? Ah ! Jalouse. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='31' part='f'>Avouez-le entre nous, </l>
+	<l id='32'>Cette brillante Étoile est un astre pour vous : </l>
+	<l id='33'>Vous l'aimez, et votre âme adore sa puissance. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='34'>Je ne veux pas vous rendre offense pour offense, </l>
+	<l id='35'>Mais l'effet de cet astre est sur moi moins certain </l>
+	<l id='36'>Que sur vous l'ascendant de monsieur Le Destin. </l>
+	<l id='37'>C'est un comédien bien fait, courtois, habile. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='38'>Eh ! Quoi donc ! Sans aimer ne puis-je être civile ? </l>
+	<l id='39'>Est-il assez hardi pour présumer de soi ?...</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='40' part='i'>Non. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='40' part='f'>Ce n'est qu'avec vous qu'il est venu chez moi. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='41'>D'accord, je l'y menai, mais à votre prière ;</l>
+	<l id='42'>Et ce soir-là chez vous la chère fut entière ;</l>
+	<l id='43'>Rien ne fut épargné. Si par l'extérieur </l>
+	<l id='44'>On peut probablement juger du fond du coeur, </l>
+	<l id='45'>Le vôtre anx clairvoyants fut trop reconnaissable. </l>
+	<l id='46'>Quand de ce qu'on mettait de meilleur sur la table </l>
+	<l id='47'>Ma main faisait un choix pour le comédien, </l>
+	<l id='48'>Les vôtres, à l'envi, sans examiner rien, </l>
+	<l id='49'>À l'accabler de tout se montrèrent avides, </l>
+	<l id='50'>Tant qu'en un tournemain tous les plats étant vides, </l>
+	<l id='51'>L'assiette du Destin fut si pleine en effet, </l>
+	<l id='52'>Que chacun s'étonna que le hasard eût fait, </l>
+	<l id='53'>De morceaux entassés avec autant d'emphase, </l>
+	<l id='54'>Un si haut monument sur aussi peu de base </l>
+	<l id='55' part='i'>Qu'est le cul d'une assiette. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='55' part='f'>Eh bien ! En ce moment, </l>
+	<l id='56'>Si j'eus à le servir un peu d'attachement, </l>
+	<l id='57'>Qu'en pensez-vous conclure ? En un mot comme en mille, </l>
+	<l id='58'>Ce n'était qu'un effet de mon humeur civile. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='59'>Eh bien ! En ce moment ce qui fait en ces lieux </l>
+	<l id='60'>Cette troupe venir et paraître à vos yeux, </l>
+	<l id='61'>C'est une tragédie ajustée au théâtre </l>
+	<l id='62'>Par moi. Je l'intitule Antoine et Cléopâtre ;</l>
+	<l id='63'>Je brûle de la voir représenter, ainsi... </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Monsieur de la Baguenaduière, Madame Bouvillon, Blaise Bouvillon.</head>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='64'>Ne vous ennuyez plus ; ils viennent, les voici, </l>
+	<l id='65' part='i'>Beau-père. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='65' part='f'>Avez-vous vu toute la troupe entière ? </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='66'>Non, mais j'ai vu de loin une épaisse poussière ;</l>
+	<l id='67'>Ce sont eux, ce sont eux, car mon oeil a su voir </l>
+	<l id='68'>À travers ce brouillard un cheval gris et noir, </l>
+	<l id='69'>Qui tantôt se pavane, et puis qui tantôt trotte : </l>
+	<l id='70'>À chacun de ses flancs est pendue une botte, </l>
+	<l id='71'>Au-dessus de la selle il paraît un chapeau ;</l>
+	<l id='72'>Le chapeau ne vient pas tout à fait au niveau </l>
+	<l id='73'>Et laisse entre la selle et lui quelque distance ;</l>
+	<l id='74'>Je ne sais ce qui peut causer cette éminence ;</l>
+	<l id='75'>C'est pourtant quelque chose, il n'est rien plus certain ;</l>
+	<l id='76' part='i'>Mais je n'ai jamais pu le voir.</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='76' part='f'>C'est Ragotin.</l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='77' part='i'>Qu'est-ce que Ragotin ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='77' part='f'>Ragotin, c'est, madame, </l>
+	<l id='78'>Un petit homme veuf d'une petite femme, </l>
+	<l id='79'>Avocat de naissance et de profession, </l>
+	<l id='80'>Qui, dans une petite et proche élection, </l>
+	<l id='81'>Petitement possède une petite charge ;</l>
+	<l id='82'>D'esprit assez étroit, de conscience large ;</l>
+	<l id='83'>Menteur comme un valet, têtu, présomptueux, </l>
+	<l id='84'>Et vain comme un pédant, sot et fat comme deux, </l>
+	<l id='85'>Poète à mériter de souffrir un supplice, </l>
+	<l id='86'>Si sur les méchants vers on mettait la police ;</l>
+	<l id='87'>Et c'est, pour au portrait mettre les derniers traits, </l>
+	<l id='88'>Le plus grand petit fou qui se soit vu jamais, </l>
+	<l id='89'>Et qui depuis Roland ait couru la campagne. </l>
+	<l id='90'>Sans doute avec la troupe il vient, il l'accompagne ;</l>
+	<l id='91' part='i'>Je cours au-devant d'eux. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='91' part='f'>Et moi, j'y vais aussi. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Madame Bouvillon, Isabelle.</head>
+<sp who='ISABELLE'><speaker>ISABELLE, entrant sans voir madame Bouvillon.</speaker>
+	<l id='92' part='i'>Allons tôt... Que vois-je ? Ah ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='92' part='f'>Que cherchez-vous ici ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='93'>J'y venais pour apprendre à mon père qu'un homme </l>
+	<l id='94' part='i'>Arrive dans la cour. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='94' part='f'>Comme est-ce qu'on le nomme ? </l>
+	<l id='95'>Je ne sais. Je l'ai pris pour ce comédien, </l>
+	<l id='96'>Si jeune, si bien fait, qui déclame si bien, </l>
+	<l id='97'>Qu'on aime tant, et qui, quand la pièce est finie, </l>
+	<l id='98'>Vient toujours saluer toute la compagnie, </l>
+	<l id='99' part='i'>Et faire un compliment. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='99' part='f'>C'est Le Destin, j'y cours ;</l>
+	<l id='100' part='i'>Ne me suivez pas. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='100' part='f'>Quoi ! Des obstacles toujours ! </l>
+	<l id='101'>Je ne puis satisfaire au penchant de mon âme. </l>
+	<l id='102'>N'est-ce point que le ciel désapprouve ma flamme ? </l>
+	<l id='103'>Que, sans l'aveu d'un père, épousant Le Destin... </l>
+	<l id='104'>Mais il a si bon air ! Il m'aime, il est certain. </l>
+	<l id='105' part='i'>Il vient. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Le Destin, Isabelle.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='105' part='f'>Où courez-vous ? Par un transport extrême, </l>
+	<l id='106'>Madame Bouvillon vous prévient elle-même : </l>
+	<l id='107'>Que va-t-elle penser en ne vous trouvant pas ? </l>
+	<l id='108'>Des nobles campagnards la retiennent là-bas ;</l>
+	<l id='109'>Tandis qu'elle s'amuse en compliments frivoles, </l>
+	<l id='110'>Ne perdons point de temps en de vaines paroles. </l>
+	<l id='111'>Vous savez ce qu'au Mans mon coeur vous a promis, </l>
+	<l id='112'>Vous savez ce qu'ici le vôtre m'a permis ;</l>
+	<l id='113'>Pour votre enlèvement tout est prêt, et Léandre </l>
+	<l id='114'>Avec trois bons relais en lieu sûr va nous rendre. </l>
+	<l id='115'>À la porte du parc courons sans hésiter... </l>
+	<l id='116'>Êtes-vous sûr que rien ne nous puisse arrêter ? </l>
+	<l id='117'>Le jour est encor grand, quelqu'un peut nous surprendre ;</l>
+	<l id='118'>De peur de quelque obstacle, il vaudrait mieux attendre ;</l>
+	<l id='119'>La nuit serait un temps propre à notre désir. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='120'>Quel temps plus favorable avons-nous à choisir ? </l>
+	<l id='121'>Madame Bouvillon est là-bas en affaire,</l>
+	<l id='122'>Le soin de notre troupe occupe votre père ;</l>
+	<l id='123'>L'embarras qu'ils auront l'un et l'autre en ces lieux, </l>
+	<l id='124'>Et sur vous et sur moi lui fermera les yeux, </l>
+	<l id='125'>Et nous serons déjà bien loin de leur présence </l>
+	<l id='126'>Avant que quelqu'un d'eux ait appris notre absence. </l>
+	<l id='127'>Est-ce qu'en différant, et par précaution, </l>
+	<l id='128'>Vous voulez donner temps à Blaise Bouvillon </l>
+	<l id='129' part='i'>De vous épouser ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='129' part='f'>Moi ! Que venez-vous me dire ? </l>
+	<l id='130'>De tous les maux pour moi ce serait là le pire ;</l>
+	<l id='131'>J'aimerais mieux mourir que le voir mon époux. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='132'>Et qui vous retient donc ? Parlez ; est-ce, entre nous, </l>
+	<l id='133'>Que ma profession vous tiendrait en balance ? </l>
+	<l id='134'>Ignorez-vous combien on nous estime en France ? </l>
+	<l id='135'>Sans vanité, madame, il est très peu de lieux </l>
+	<l id='136'>Où je ne sois en droit d'oser lever les yeux. </l>
+	<l id='137'>Si vous vous défiez de la foi que j'en donne, </l>
+	<l id='138' part='i'>Il faut... </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='138' part='f'>Je n'ai des yeux que pour votre personne, </l>
+	<l id='139'>Et n'examine rien que vos seuls intérêts. </l>
+	<l id='140'>Madame Bouvillon m'observe ici de près : </l>
+	<l id='141'>Ayant un grand crédit sur l'esprit de mon père, </l>
+	<l id='142'>Par avance elle prend sur moi des droits de mère ;</l>
+	<l id='143'>À ses ordres mon père attache mes destins, </l>
+	<l id='144'>Elle vous voit d'un oeil qui fait que je la crains. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='145' part='i'>Ne craignez rien. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='145' part='f'>Allons... Elle vient. Ah ! Que faire ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Madame Bouvillon, Isabelle, Le Destin.</head>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='146'>Quoi ! Seul dans l'embarras laissez-vous votre père ? </l>
+	<l id='147'>Il veut vous présenter là-bas à ses amis;</l>
+	<l id='148'>Allez faire avec lui les honneurs du logis. </l>
+<stage>Isabelle sort, et tire la porte sur elle.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Madame Bouvillon, Le Destin.</head>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='149'>Vous, monsieur Le Destin, demeurez. L'étourdie, </l>
+	<l id='150'>Je pense, en s'en allant, a d'une main hardie </l>
+	<l id='151'>Fermé sur nous la porte : aveugle à ce point-là, </l>
+	<l id='152' part='i'>Elle... </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='152' part='m'>Je vais l'ouvrir. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='152' part='f'>Je ne dis pas cela, </l>
+	<l id='153'>Monsieur, mais aujourd'hui la médisance est telle... </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='154'>Je vais, pour l'empêcher, rappeler Isabelle,</l>
+	<l id='155' part='i'>Madame, s'il vous plaît. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='155' part='f'>Je ne dis pas cela ;</l>
+	<l id='156'>Mais c'est faire beaucoup qu'en venir jusque-là. </l>
+	<l id='157'>Vous savez, quand les gens sont enfermés ensemble </l>
+	<l id='158'>Tête à tête, qu'ils font tout ce que bon leur semble : </l>
+	<l id='159'>Tout de même à son gré chacun en peut parler. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='160'>Ah ! Ce n'est pas des gens qu'on voit vous ressembler, </l>
+	<l id='161'>Qu'on fait impunément des soupçons téméraires ;</l>
+	<l id='162'>Vous êtes au-dessus des sentiments vulgaires : </l>
+	<l id='163'>Mais pour vous garantir de ces mauvais bruits-là, </l>
+	<l id='164' part='i'>Je vais me retirer. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='164' part='f'>Je ne dis pas cela ;</l>
+	<l id='165'>Mais ce matin monsieur de La Baguenaudière, </l>
+	<l id='166'>Dont l'esprit a des coeurs la connaissance entière, </l>
+	<l id='167'>Me disait, en raillant doucement avec moi, </l>
+	<l id='168'>Qu'il croyait que pour vous certain je ne sais quoi... </l>
+	<l id='169'>D'un ton malicieux il me faisait entendre </l>
+	<l id='170'>Que vous étiez bien fait, qu'on avait le coeur tendre. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='171'>Pour ne point confirmer les sentiments qu'il a, </l>
+	<l id='172' part='i'>Il faut quitter ces lieux. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='172' part='f'>Je ne dis pas cela ;</l>
+	<l id='173'>Mais comme un chaste hymen me doit rendre sa femme,</l>
+	<l id='174' part='i'>Que sais-je ? Il craint peut-être ...</l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Madame Bouvillon, Le Destin, Ragotin.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN, criant derrière le théâtre.</speaker>
+	<l id='174' part='f'>Arrête, arrête, infâme ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='175'>Qu'entends-je ? À quel malheur le sort nous a livrés ! </l>
+	<l id='176' part='i'>C'est La Baguenaudière. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, frappant à la porte. </speaker>
+	<l id='176' part='f'>Ouvrez la porte, ouvrez. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON, au Destin.</speaker>
+	<l id='177' part='i'>Ouvrez tôt. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN, s'embarrassant dans les jupes de madame Bouvillon, tombe.</speaker>
+	<l id='177' part='f'>J'y cours. Ah ! J'ai la jambe rompue. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON, ouvrant elle-même, Ragotin pousse la porte rudement contre elle. </speaker>
+	<l id='178'>Ouvrons nous-même. Ah, ciel ! J'ai la tête fendue. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, entrant brusquement, rencontre les pieds du Destin, qui le font tomber. </speaker>
+<stage>Il a une grande épée, une bandoulière où pend un mousqueton, et des bottes retroussées jusqu'aux cuisses.</stage>
+	<l id='179'>Eh ? Vite, où me cacher ? Ah ! J'ai le nez cassé. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='180' part='i'>Ah ! La tête. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='180' part='m'>Je suis brisé. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, se relevant.</speaker>
+	<l id='180' part='f'>Je suis blessé. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+<note type="L">Godenot : Petite figure, ou marionneyye dont se servent les ccharlatans pour amuser le peuple. Se dit aussi par dérision des personnes laides et mal faites, des figures mal taillées ou dessignées. [F]</note>
+	<l id='181'>Quel est ce godenot fagoté de la sorte ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='182' part='i'>C'est Monsieur Ragotin. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='182' part='f'>Que la fièvre l'emporte ! </l>
+	<l id='183' part='i'>Quel coup ! </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='183' part='m'>Quelle chute ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Madame Bouvillon, Le Destin, Ragotin, La Rancune, un charretier.</head>
+<sp who='LE-CHARRETIER'><speaker>LE CHARRETIER, à la Rancune.</speaker>
+	<l id='183' part='f'>Oh ! Vous m'arrêtez en vain ;</l>
+	<l id='184' part='i'>Laissez que je l'assomme. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='184' part='f'>Ah ! Monsieur Le Destin, </l>
+	<l id='185' part='i'>Séparez-nous. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='185' part='m'>Arrête. </l>
+</sp>
+<sp who='LE-CHARRETIER'><speaker>LE CHARRETIER.</speaker>
+	<l id='185' part='f'>Oh ! Je n'ai crainte aucune. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, prenant le charretier par le bras.</speaker>
+	<l id='186' part='i'>Si... </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='186' part='f'>Ne le lâchez pas, monsieur de La Rancune. </l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Madame Bouvillon, Monsieur de la Baguenaudière, Le Destin, La Rancune, L'Olive, Ragotin.</head>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='187' part='i'>Quel tintamarre ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='187' part='f'>À moi, monsieur L'Olive, à moi ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE, jetant le chapeau du charretier. </speaker>
+	<l id='188'>Quel bruit ! Les armes bas, maraud, de par le Roi ! </l>
+	<l id='189'>Apprends, chétif mortel qui devant moi te couvre, </l>
+	<l id='190'>Qu'on doit à mon château même respect qu'au Louvre. </l>
+</sp>
+<sp who='LE-CHARRETIER'><speaker>LE CHARRETIER.</speaker>
+	<l id='191'>Mon pauvre âne, qui vient d'expirer devant vous, </l>
+	<l id='192'>Morguoy ! M'a mis l'esprit tout sans dessus-dessous. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='193' part='i'>Et qui l'a fait mourir ? </l>
+</sp>
+<sp who='LE-CHARRETIER'><speaker>LE CHARRETIER.</speaker>
+	<l id='193' part='m'>Cet avocat sans cause. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='194' part='i'>Pourquoi ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='194' part='f'>Mal à propos mon arme a fait la chose, </l>
+	<l id='195'>Mais c'est sans mon aveu, demandez-lui plutôt. </l>
+<note type="L">Courtaud : un cheval de moyenne taille à qui on a cupé la queue et les orielles. [F]</note>
+	<l id='196'>J'étais parti du Mans, monté sur un courtaud, </l>
+	<l id='197'>Comme un petit Saint-George avec cet équipage, </l>
+	<l id='198'>Sans avoir le dessein de faire aucun dommage, </l>
+	<l id='199'>Foi d'avocat ! Ayant joint la troupe au faubourg, </l>
+	<l id='200'>Nous avons pris d'ici le chemin le plus court ;</l>
+	<l id='201'>Tantôt caracolant devant, tantôt derrière, </l>
+	<l id='202'>Et tantôt cajolant l'une ou l'autre portière, </l>
+	<l id='203'>Faisant couler le temps, gagnant toujours pays, </l>
+	<l id='204'>En propos gaillardins, réjouissants devis, </l>
+	<l id='205'>Nous nous sommes trouvés proche votre avenue. </l>
+	<l id='206'>D'abord votre présence ayant frappé ma vue, </l>
+	<l id='207'>Pied à terre aussitôt j'ai mis avec eux tous ;</l>
+	<l id='208'>Vous nous avez reçus bras-dessus bras-dessous. </l>
+	<l id='209'>Pour jouir en chemin de votre air amiable, </l>
+	<l id='210'>J'ai voulu remonter à cheval, c'est le diable ! </l>
+	<l id='211'>En montant le matin dans ma cour bien et beau </l>
+	<l id='212'>Je m'étais dextrement aidé d'un escabeau ;</l>
+	<l id='213'>Mais, en pleine campagne étant sans avantage, </l>
+	<l id='214'>La pâleur de han-han m'est montée au visage. </l>
+	<l id='215'>Toutefois prenant coeur pour cet exploit guerrier, </l>
+	<l id='216'>J'ai vaillamment porté mon pied à l'étrier ;</l>
+	<l id='217'>D'une main empoignant le pommeau de la selle, </l>
+	<l id='218'>Pour porter l'autre jambe en l'autre part d'icelle, </l>
+<note type="L">Guinder : terme de marine, c'est hausser et élever les voiles, soit quelque autre chose. [F] </note>
+	<l id='219'>Je me guindais en l'air quand la selle a tourné ;</l>
+	<l id='220'>Au crin tout aussitôt je me suis cramponné ;</l>
+	<l id='221'>Enfin, cahin-caha, j'avais monté ma bête. </l>
+	<l id='222'>La chose jusque-là n'avait rien que d'honnête ;</l>
+<note type="L">Mousqueton : petit mousquet aui est plus court ; mais plus gros de calibre que les mousquets ordinaires. Il se tire avec un fusil composé d'un chien et d'un batterie, au lieu que le mousquet s'exécute avec un mèche. [F]</note>
+	<l id='223'>Mais malheureusement ce maudit mousqueton, </l>
+	<l id='224'>Ayant entortillé mes jambes de son long, </l>
+	<l id='225'>S'est trouvé sur la selle, et juste entre mes fesses. </l>
+	<l id='226'>Pour m'affermir dessus, sensible à ces détresses, </l>
+	<l id='227'>Mes pieds trop courts cherchant mes étriers trop longs, </l>
+	<l id='228'>Ont fait à mon cheval sentir leurs éperons </l>
+	<l id='229'>Dans un endroit douillet où jamais la molette </l>
+	<l id='230'>N'avait piqué cheval. Il part, marche à courbette, </l>
+<note type="L">Phaéton : personnage de la mythologie qui vola le char du soleil et qui en chut.</note>
+	<l id='231'>Plus fort que ne voulait un quasi-Phaéton </l>
+	<l id='232'>Dont le corps ne portait que sur un mousqueton. </l>
+	<l id='233'>Moi, j'ai soudain serré mes deux jambes de crainte ; </l>
+	<l id='234'>L'animal aussitôt, à cette double atteinte, </l>
+	<l id='235'>A levé le derrière, et moi je suis glissé </l>
+	<l id='236'>Aussitôt sur le col où je me suis blessé ;</l>
+	<l id='237'>Car le cheval mutin, après cette ruade, </l>
+<note type="L">Saccade : terme de manège. C'est une secousse violente que le cavalier donne au cheval, en tirant tout à coup les rênes de la bride, quand le cheval pèse à la main : ce qui est une espèce de châtiment, dont il faut user rarement, de peur de gâter la bouche du cheval. [F]</note>
+	<l id='238'>A relevé sa tête, et fait une saccade </l>
+	<l id='239'>Qui du col sur la croupe à l'instant m'a placé, </l>
+	<l id='240'>Du maudit mousqueton toujours embarrassé. </l>
+	<l id='241'>N'y souffrant rien, il a gambadé de plus belle, </l>
+	<l id='242'>Et m'a fait un pivot du pommeau de la selle. </l>
+	<l id='243'>M'étant saisi du crin, et me tenant serré, </l>
+	<l id='244'>Mon cheval galopait, quand mon arme a tiré : </l>
+	<l id='245'>Je me suis cru le coup au travers de la panse ;</l>
+	<l id='246'>Mon cheval en a craint tout autant, que je pense, </l>
+	<l id='247'>Car il en a du coup si rudement bronché, </l>
+	<l id='248'>Que le maudit pommeau qui me tenait bouché </l>
+	<l id='249'>Juste un certain endroit comme un bouchon de liège, </l>
+	<l id='250'>À mon corps chancelant n'a plus servi de siège. </l>
+	<l id='251'>Suspendu donc en l'air, un pied libre et traînant, </l>
+	<l id='252'>L'autre pour mon malheur à l'étrier tenant, </l>
+	<l id='253'>Jamais de mon trépas je ne me crus si proche. </l>
+	<l id='254'>Enfin je fais effort, et mon pied se décroche;</l>
+	<l id='255'>Lors on a vu soudain, comme un fardeau de plomb, </l>
+	<l id='256'>Corps, harnais, baudrier, épée, et mousqueton, </l>
+	<l id='257'>Bandoulière, enfin bref tout l'attirail de guerre, </l>
+	<l id='258'>Donner, non sans douleur, de compagnie à terre ;</l>
+	<l id='259'>Et tout cela s'est fait, ma foi ! sans vanité, </l>
+	<l id='260'>Bien plus adroitement que je n'étais monté. </l>
+	<l id='261'>À peine relevé de cette culbute, </l>
+	<l id='262'>J'avais l'esprit encore étourdi de ma chute, </l>
+	<l id='263'>Quand cet homme a plein poing est venu me charger : </l>
+	<l id='264'>M'étant senti des pieds encor pour déloger, </l>
+	<l id='265'>J'ai promptement cherché du secours dans la fuite ;</l>
+	<l id='266'>Mais il s'est jusqu'ici chargé de ma conduite, </l>
+	<l id='267' part='i'>Toujours la fourche aux reins. </l>
+</sp>
+<sp who='LE-CHARRETIER'><speaker>LE CHARRETIER.</speaker>
+	<l id='267' part='f'>Eh mordienne ! Ai-je tort ? </l>
+	<l id='268'>Du coup qu'il a tiré, monsieur, mon âne est mort ;</l>
+	<l id='269' part='i'>Il me le doit payer. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='269' part='f'>L'ai-je fait par malice ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='270'>Va songer an bagage, on te fera justice. </l>
+	<l id='271' part='i'>Allons tous au-devant des dames. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='271' part='f'>Les voici. </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Mesdemoiselles La Caverne, L'Étoile, Madame Bouvillon, Ragotin, LA Baguenaudière.</head>
+<sp who='MADEMOISELLE-LA-CAVERNE'><speaker>MADEMOISELLE LA CAVERNE.</speaker>
+	<l id='272'>Ah ! Monsieur Ragotin, vous voilà, Dieu merci ! </l>
+	<l id='273'>J'avais de votre chute une douleur interne. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='274'>Je vous suis obligé, madame La Caverne. </l>
+</sp>
+<sp who='MADEMOISELLE-L-ÉTOILE'><speaker>MADEMOISELLE L'ÉTOILE.</speaker>
+	<l id='275'>Avez-vous pu tomber ainsi sans vous blesser ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='276'>Je ne sais, je n'ai pas eu le temps d'y penser, </l>
+	<l id='277'>Charmante Étoile ; il faut, avant que je l'assure, </l>
+	<l id='278'>Y tâter. Grâce au ciel, ma tête est sans fêlure, </l>
+	<l id='279'>Les ressorts de mes bras ne sont point fracassés, </l>
+	<l id='280'>Mes jambes et mes pieds se trémoussent assez, </l>
+	<l id='281'>Hem, hem, l'individu fait encor son office, </l>
+	<l id='282'>Et... tout se porte bien, fort à votre service. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='283'>Je n'en dis pas de même, et votre bras trop prompt </l>
+	<l id='284'>M'a donné de la porte un rude coup au front. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='285'>Excusez-en, Madame, une frayeur mortelle. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='286'>Allons tous au jardin ; donnez-moi la main, belle. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='287'>Souffrez que cette main, pour réparer l'affront </l>
+	<l id='288'>De vous avoir tantôt fait un beignet au front, </l>
+	<l id='289'>Aide à la promenade à soutenir la vôtre ;</l>
+	<l id='290'>Madame La Caverne, approchez, voici l'autre. </l>
+	<l id='291'>Tels jadis les géants, plus grands que moi de corps, </l>
+	<l id='292'>Sous les monts qu'ils traînaient ensevelis... </l>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Madame Bouvillon, La Caverne, Ragotin, trois porteurs, chargés de coffres.</head>
+<sp who='PREMIER-PORTEUR'><speaker>PREMIER PORTEUR.</speaker>
+	<l id='293' part='i'>Hors, hors ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='293' part='f'>Cet homme sous ce faix de la porte s'empare, </l>
+	<l id='294' part='i'>Laissons-le là, passons de l'antre. </l>
+</sp>
+<sp who='SECOND-PORTEUR'><speaker>SECOND PORTEUR.</speaker>
+	<l id='294' part='f'>Gare, gare ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='295'>Ces gens ont entrepris de nous embarrasser ;</l>
+	<l id='296' part='i'>Allons. </l>
+</sp>
+<sp who='TROISIÈME-PORTEUR'><speaker>TROISIÈME PORTEUR.</speaker>
+	<l id='296' part='f'>Rangez-vous vite, et me laissez passer. </l>
+	<l id='297'>Encor ! Quel embarras ! Tous les coffres de France </l>
+	<l id='298'>Se sont ici donné rendez-vous, que je pense. </l>
+</sp>
+<sp who='PREMIER-PORTEUR'><speaker>PREMIER PORTEUR.</speaker>
+	<l id='299' part='i'>Ôtez-vous ! </l>
+</sp>
+<sp who='SECOND-PORTEUR'><speaker>SECOND PORTEUR.</speaker>
+	<l id='299' part='m'>Hors d'ici ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='299' part='m'>Quittez-moi ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='299' part='f'>Je sais bien </l>
+	<l id='300' part='i'>L'honneur qui... </l>
+</sp>
+<sp who='TROISIÈME-PORTEUR'><speaker>TROISIÈME PORTEUR.</speaker>
+	<l id='300' part='m'>Boutons bas ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='300' part='f'>Diable ! N'en faites rien. </l>
+</sp>
+<sp who='PREMIER-PORTEUR'><speaker>PREMIER PORTEUR.</speaker>
+	<l id='301' part='i'>Je n'en puis plus. </l>
+</sp>
+<sp who='SECOND-PORTEUR'><speaker>SECOND PORTEUR.</speaker>
+	<l id='301' part='m'>Ni moi. </l>
+</sp>
+<sp who='TROISIÈME-PORTEUR'><speaker>TROISIÈME PORTEUR.</speaker>
+	<l id='301' part='f'>Sous ce faix je succombe. </l>
+<stage>Tous trois se déchargeant.</stage>
+	<l id='302' part='i'>Hors de là ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='302' part='m'>Ah ! </l>
+</sp>
+<sp who='MADEMOISELLE-LA-CAVERNE'><speaker>LA CAVERNE.</speaker>
+	<l id='302' part='m'>Ah ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='302' part='f'>Ah ! C'est sur moi que tout tombe </l>
+	<l id='303'>La chute du cheval m'a causé moins d'effroi ! </l>
+	<l id='304'>Ah ! Ragotin, ce jour n'est pas heureux pour toi. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Blaise Bouvillon, La Rancune.</head>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='305'>Mon cher La Rancune, oui, je vous trouve admirable ;</l>
+	<l id='306'>Touchez là, vous venez de souper comme un diable ;</l>
+	<l id='307'>J'ai pris tant de plaisir en vous voyant manger, </l>
+	<l id='308'>Qu'avec vous d'amitié je me veux engager : </l>
+	<l id='309'>Embrassons-nous encor. Pour vous faire un peu rire, </l>
+	<l id='310'>Apprenez un secret... c'est... n'allez pas le dire ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='311' part='i'>Oh ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='311' part='f'>Tenez ce flambeau. Vous voyez ce paquet,</l>
+	<l id='312' part='i'>Qu'est-ce ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='312' part='m'>C'est un pétard. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='312' part='f'>Oui, mais point de caquet. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='313' part='i'>Oh ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='313' part='f'>Venez m'éclairer ; motus au moins, pour cause. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='314' part='i'>Oh ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+<stage>Il cloue le pétard à la porte d'Isabelle.</stage>
+	<l id='314' part='f'>Le voilà cloué, Dieu merci ! Bouche close. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='315' part='i'>Oh ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='315' part='f'>Vous ne savez pas pourquoi je le mets là ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='316' part='i'>Non. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='316' part='f'>Apprenez-le ; au moins ne dites pas cela ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='317' part='i'>Oh ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='317' part='f'>Vous venez de voir ma maîtresse Isabelle. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='318' part='i'>Oui. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='318' part='m'>Dites-moi, comment la trouvez-vous ! Hem ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='318' part='f'>Belle. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+<note type="L">Lacs : c'est un ou plusieurs cordons lacés, noués ou entremêlés, pour servir à divers usages. [F] lacs d'hymen : lien du mariage.</note>
+	<l id='319'>Demain un lacs d'hymen me donnera sa foi. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='320' part='i'>Peste ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='320' part='f'>À prendre sans verd nous jouons elle et moi : </l>
+	<l id='321'>D'avoir perdu deux fois j'ai déjà l'infortune ;</l>
+	<l id='322'>Mais avec ce pétard je veux qu'elle en perde une. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='323' part='i'>Comment ? </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='323' part='f'>Sur le minuit j'y viens mettre le feu. </l>
+	<l id='324'>Isabelle, à ce bruit, oubliant notre jeu, </l>
+	<l id='325'>Sortira sans son verd, j'en suis sûr ; sa surprise </l>
+	<l id='326'>Fera que pour ce coup elle se verra prise. </l>
+	<l id='327' part='i'>Le tour n'est-il pas drôle et bien trouvé ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='327' part='f'>Fort bien. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='328'>Adieu, je sors sans faire aucun semblant de rien : </l>
+	<l id='329' part='i'>Chut. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='329' part='m'>Oh ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='329' part='f'>Qu'un campagnard est fat ! Son Isabelle </l>
+	<l id='330'>Plaît au jeune Destin, je le crois aimé d'elle. </l>
+	<l id='331'>J'admire en vérité les femmes d'aujourd'hui ;</l>
+	<l id='332'>J'en vois peu qui ne soient quasi folles de lui. </l>
+	<l id='333'>Du temps que je jouais les premiers personnages, </l>
+	<l id='334'>Il n'aurait pas été propre à jouer les pages ;</l>
+	<l id='335'>Parce qu'il est bien fait, jeune, et brillant d'appas, </l>
+	<l id='336'>De toute l'assemblée il a les brouhahas. </l>
+	<l id='337'>Je l'ai toujours haï, car il a du mérite... </l>
+	<l id='338'>On vient ; c'est Isabelle et lui ; cachons-nous vite. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Le Destin, Isabelle, un flambeau à la main.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='339'>Sortez de votre chambre, et venez en ces lieux. </l>
+	<l id='340'>De peur d'une surprise ici nous serons mieux : </l>
+	<l id='341'>Au moindre bruit rendant la lumière inutile, </l>
+	<l id='342'>Voilà votre retraite, et voici mon asile. </l>
+	<l id='343'>Apprenez le sujet qui m'amène, en deux mots. </l>
+	<l id='344'>Ce soir, après minuit, lorsque par ses pavots </l>
+	<l id='345'>Le sommeil en ces lieux répandra le silence, </l>
+	<l id='346'>Je reviendrai vous prendre, et faisant diligence, </l>
+	<l id='347'>Nous gagnerons la porte où mon valet m'attend, </l>
+	<l id='348'>Et... qu'avez-vous encor ? Ce dessein vous surprend ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+<note type="L">Céler : cacher.</note>
+	<l id='349'>Je ne le cèle point, sur ce fatal voyage </l>
+	<l id='350'>Madame Bouvillon me donne de l'ombrage;</l>
+	<l id='351' part='i'>Elle vous aime. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='351' part='f'>Eh bien ! Craignez-vous son amour ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='352'>Une femme à son âge, et la nuit et le jour, </l>
+	<l id='353'>Curieuse, et sans cesse attachée à sa suite, </l>
+	<l id='354'>D'un amant qu'elle adore observe la conduite. </l>
+	<l id='355'>Pour trouver un temps propre à nous favoriser, </l>
+	<l id='356'>N'avez- vous point quelqu'un qui puisse l'amuser ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='357' part='i'>Qui ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='357' part='f'>La Rancune est homme à vous rendre service. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='358'>Vous le connaissez mal, il a plus de malice </l>
+	<l id='359'>Qu'un vieux singe ; envieux, contredisant, menteur, </l>
+	<l id='360'>Et qui s'éborgnerait du meilleur de son coeur </l>
+	<l id='361'>Pour faire perdre un oeil à son voisin ; faux-frère, </l>
+	<l id='362' part='i'>Médisant .... </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, de l'endroit où il est caché.</speaker>
+	<l id='362' part='m'>Hem ! Hem ! </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, éteint la lumière et fuit, et Le Destin se jette dans la caisse.</speaker>
+	<l id='362' part='f'>Vite, éteignons la lumière ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='363'>Le drôle n'ébauchait pas trop mal mon portrait ;</l>
+	<l id='364'>Un pinceau satirique en peignait chaque trait ;</l>
+	<l id='365'>Il était en humeur de se donner carrière, </l>
+	<l id='366'>Et m'allait achever de la belle manière, </l>
+	<l id='367'>Si je n'avais toussé sortant de mon étui : </l>
+	<l id='368'>Je ne me croyais pas si bien connu de lui;</l>
+	<l id='369'>Mais sa furtive ardeur par moi mise en lumière, </l>
+	<l id='370'>Pourra... Que veut monsieur de La Baguenaudière ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Le Baguenaudière, La Rancune.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='371' part='i'>Ah ! Bonsoir, La Rancune. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='371' part='f'>Ah ! Monsieur, serviteur. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='372'>Vous êtes, sur mon âme, un admirable acteur. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='373' part='i'>Monsieur... </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='373' part='f'>Que dites-vous de mon habit de chasse ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+<note type="C">Le Baron de la Crasse est une comédie en un acte de Raymond Poisson, créée en 1662 à l'Hôtel de Bourgogne. Le Baron de la Crasse est un gentilhomme campagnard.</note>
+	<l id='374'>Qu'il est beau pour jouer un baron de La Crasse.</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='375' part='i'>Je vous en fais présent. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='375' part='f'>Monsieur, en vérité, </l>
+	<l id='376'>Ce surprenant excès de générosité </l>
+	<l id='377' part='i'>Mérite ... </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='377' part='f'>Par ma foi, vos femmes sont fort belles. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='378'>Ah ! Monsieur, vous avez trop de bontés pour elles. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='379'>Heureux qui peut sauver son coeur de leurs appas ! </l>
+	<l id='380' part='i'>Ils blessent jusqu'à l'âme. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='380' part='f'>Oui ; mais on n'en meurt pas. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='381'>Pour moi voudrais-tu bien en apprivoiser une ? </l>
+	<l id='382'>Si tu réussissais je ferais ta fortune. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='383'>Mettre un homme d'honneur à des emplois si bas, </l>
+	<l id='384'>C'est choquer sa pudeur ; mais que ne fait-on pas </l>
+	<l id='385'>Pour des gens comme vous ? Je déchire le voile </l>
+	<l id='386' part='i'>De la mienne ; quelle est cette beauté ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='386' part='f'>L'Étoile ! </l>
+	<l id='387'>Elle a mis dans mon coeur certain trouble intestin. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, bas.</speaker>
+	<l id='388'>J'entends. Voici de quoi me venger du Destin. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='389'>La farouche vertu dont le ciel l'a pourvue, </l>
+	<l id='390'>Me fait appréhender une fâcheuse issue : </l>
+	<l id='391'>Quand je lui peins le feu dont mon coeur se nourrit, </l>
+	<l id='392'>Ou l'ingrate me quitte, ou la friponne rit. </l>
+	<l id='393'>Ne saurait-on toucher ce miracle des belles ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='394'>Vous n'êtes pas de mine à faire des cruelles : </l>
+	<l id='395'>Pour voir selon vos voeux réussir vos desseins, </l>
+	<l id='396'>Vous ne pouviez tomber en de meilleures mains. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='397' part='i'>Est-ce que... </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='397' part='f'>Parlons bas. Ce soir, dans cette place, </l>
+	<l id='398'>Par mes soins vous pourrez vous trouver face à face. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='399' part='i'>Ce soir, je ...</l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='399' part='f'>Parlez bas, dis-je. Oui, ce soir, sans bruit, </l>
+	<l id='400'>Dans ce lieu trouvez-vous environ à minuit : </l>
+	<l id='401' part='i'>Elle y viendra sans faute. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='401' part='f'>Ami, que je t'embrasse ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='402'>De peur de quelque obstacle, il faut que je vous chasse : </l>
+	<l id='403' part='i'>Sortez.</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='403' part='m'>Jusqu'à tantôt. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='403' part='f'>Je vous réponds de tout. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='404'>Cet habit est pour toi, fais-m'en venir à bout. </l>
+	<l id='405' part='i'>Sortez. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='405' part='f'>De me venger j'ai trouvé la manière. </l>
+	<l id='406'>À minuit, ce monsieur de La Baguenaudière,</l>
+	<l id='407'>Croyant trouver l'Étoile, en ces lieux se rendra </l>
+	<l id='408'>Mais, au lieu de trouver sa belle, il surprendra </l>
+	<l id='409'>Le Destin séduisant sa fille. À ce spectacle... </l>
+	<l id='410' part='i'>Mais qu'entends-je ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Destin, Isabelle, La Rancune.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN, sortant de la caisse.</speaker>
+	<l id='410' part='f'>À sortir je n'entends plus d'obstacle. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, sortant de la chambre.</speaker>
+	<l id='411'>Voyons si Le Destin est encore en ces lieux. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='412'>Voici nos deux amants, cachons-nous à leurs yeux. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN, à Isabelle.</speaker>
+	<l id='413' part='i'>Est-ce vous ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='413' part='m'>Oui. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='413' part='m'>Mon coeur... </l>
+<stage>Ragotin chante derrière le théâtre, et vient avec de la lumière.</stage>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, en s'enfuyant </speaker>
+	<l id='413' part='f'>Quelqu'un vient, je vous laisse. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN, se remettant dans la caisse.</speaker>
+	<l id='414' part='i'>Ô Ciel ! Encor ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='414' part='f'>Le drôle est caché dans la caisse. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Ragotin, La Rancune.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='415'>Bonnassère ayant su que nous couchions nous deux, </l>
+	<l id='416'>J'ai fait provision d'un Saint-Laurent fameux, </l>
+	<l id='417'>Pour agréablement achever la journée. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='418'>Ce bachique dessein part d'une âme envinée. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='419'>Avocat plus couvert qu'un jambon de lauriers, </l>
+	<l id='420'>J'ai toujours dans le vin conçu mes plaidoyers ;</l>
+	<l id='421'>Du Cuisinier français juridique interprète, </l>
+	<l id='422'>On me trouve au barreau bien moins qu'à la buvette ;</l>
+<note type="L">Piot : terme burlesque qui signife vin. [F]</note>
+	<l id='423'>Dans notre chambre allons humer ce piot-ci. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='424'>Nous sommes pour cela tout aussi bien ici ;</l>
+	<l id='425'>Employons cette caisse à nous servir de table. </l>
+<stage>À part.</stage>
+	<l id='426'>Le Destin va tout vif enrager comme un diable. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>, buvant.</speaker>
+	<l id='427'>Au plus illustre acteur que l'on voie en ces lieux.</l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, buvant.</speaker>
+	<l id='428'>Au plus grand avocat qui soit devant mes yeux.</l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='429'>Pour un homme meublé d'une âme non commune, </l>
+	<l id='430'>J'ai toujours regardé le savant La Rancune : </l>
+	<l id='431' part='i'>À son génie ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, buvant à son tour de même.</speaker>
+	<l id='431' part='f'>En homme au dernier point lettré, </l>
+	<l id='432'>Ragotin s'est toujours à mes regards montré : </l>
+	<l id='433' part='i'>À sa science !... </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='433' part='f'>Ami, trêve d'apothéose. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='434'>Ah ! Monsieur, entre nous, sans louanges, pour cause. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='435'>Ma pudeur à t'ouïr souffre terriblement. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='436' part='i'>Et la mienne rougit... </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='436' part='f'>Buvons sans compliment ;</l>
+	<l id='437'>Pour t'immortaliser dans un renom extrême, </l>
+	<l id='438'>De tes rares vertus je veux faire un poème. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='439'>Quoi ! Le grand Ragotin, l'ornement d'ici-bas, </l>
+	<l id='440' part='i'>Est poète ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='440' part='f'>Et pourquoi ne le serais-je pas ? </l>
+	<l id='441'>Apollon a passé mon esprit sur la meule : </l>
+<note type="L">Garnier, Robert (1534-1590) : auteur dramatique, né en 1534 à La Ferté-Bernard dans la Sarthe, mort en 1590, est une des premiers en France à écrire des pièces régulières. [B]</note>
+	<l id='442'>Du poète Garnier ma mère était filleule, </l>
+	<l id='443' part='i'>Et tel que tu me vois j'ai son écritoire. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='443' part='f'>Oui, </l>
+	<l id='444'>C'est pour être poète, et poète accompli, </l>
+	<l id='445'>N'auriez-vous point pour nous fait une tragédie ? </l>
+	<l id='446'>Oui ; mais je veux de plus, outre ma poésie, </l>
+	<l id='447' part='i'>Être comédien. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='447' part='m'>Être comédien ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='447' part='f'>Oui. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='448'>Que d'honneur pour nous ! Que d'éclat ! Que de bien ! </l>
+	<l id='449'>Pour voir cet air chez nous en foule on va se rendre. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='450'>J'ai du majestueux, du fier, du doux, du tendre, </l>
+	<l id='451' part='i'>Du galant. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='451' part='f'>Eh ! Morbleu ! Soyez comédien. </l>
+	<l id='452'>Près de vous désormais nous ne serons plus rien. </l>
+	<l id='453'>Ma joie à ce dessein est si peu retenue, </l>
+	<l id='454'>Que j'en vais boire à vous rasade, et tête nue. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+<note type="C">On dit encore à présent : Sabler du Champagne. </note>
+	<l id='455'>Je vais jeter en sable à toi ce petit coup, </l>
+	<l id='456'>Avec rubis sur l'ongle, et la bravoure au bout. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='457'>Quoi ! Vous savez aussi de ces galanteries ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='458'>Entre nous, ce ne sont que des badineries. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='459'>Comment ! C'est le bon goût ; c'est pour marcher de pair </l>
+	<l id='460'>Avec les grands acteurs. Grondez-vous point un air ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='461'>Bon ! Est-il une voix que la mienne ne morgue ? </l>
+	<l id='462'>Je te l'aurais fait voir quand j'accompagnais l'orgue, </l>
+	<l id='463'>Si notre sérénade et nos musiciens </l>
+	<l id='464'>N'avaient été troublés par quinze ou seize chiens </l>
+	<l id='465'>Qui suivaient à l'envi, marchant de compagnie, </l>
+	<l id='466'>Une chienne coquette et de mauvaise vie, </l>
+	<l id='467'>Qui, pour le bien public, désirait travailler </l>
+	<l id='468'>À croître son espèce et la multiplier. </l>
+	<l id='469'>Comme on voit rarement, quand l'amour les assemble, </l>
+	<l id='470'>Un nombre de rivaux être d'accord ensemble, </l>
+	<l id='471'>Ceux-ci, dans leurs désirs, amants immodérés, </l>
+	<l id='472'>Après s'être grondés, houspillés, déchirés, </l>
+	<l id='473'>Renversèrent sur nous, dans leur brute manie, </l>
+	<l id='474'>Orgue, table, tréteaux, et toute l'harmonie, </l>
+	<l id='475'>Chacun, pour s'en sauver, fuyant de son côté, </l>
+	<l id='476'>Tant que notre concert en fut déconcerté. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='477'>Quel dommage ! À propos de cette sérénade, </l>
+	<l id='478'>Personne n'est ici que nous deux, camarade ;</l>
+	<l id='479'>L'assemblage d'un orgue et d'un musicien </l>
+	<l id='480'>Comme vous, tout cela ne se fait pas pour rien : </l>
+	<l id='481'>Ne mentez point ; c'était pour quelque demoiselle </l>
+	<l id='482' part='i'>De notre compagnie. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='482' part='m'>Oui, tu l'as dit. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='482' part='f'>Laquelle ? </l>	
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='483' part='i'>Je n'en sais rien. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='483' part='m'>Ni moi. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='483' part='f'>C'est sans comparaison </l>
+	<l id='484' part='i'>La plus belle. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='484' part='m'>Et qui ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='484' part='m'>C'est... c'est... </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='484' part='f'>Vous avez raison ;</l>
+	<l id='485' part='i'>C'est une belle fille. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='485' part='m'>Est-il pas vrai ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='485' part='f'>L'Étoile. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='486'>L'Étoile, oui, oui, L'Étoile ; à ses regards la moelle </l>
+	<l id='487'>Bout dans mes os, ainsi qu'un feu bien apprêté </l>
+	<l id='488'>Fait bouillir un bouillon... tout comme... À sa santé </l>
+	<l id='489'>Au moins il est cassé : rends-lui ce témoignage </l>
+	<l id='490'>Que ce verre cassé pour elle est mon ouvrage. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='491'>Touchez là : je vous veux servir dans votre amour,</l>
+	<l id='492'>Et vous verrez... Buvons ; demain il sera jour. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='493'>Ainsi soit-il ! Ami, que sens-je ici ? La caisse </l>
+	<l id='494'>De moment en moment sous mon corps hausse et baisse ;</l>
+	<l id='495'>Que veut dire cela ? Je lui résiste en vain ;</l>
+	<l id='496'>Haye, prends garde à moi ; prends garde, Ragotin, </l>
+	<l id='497'>Tu vas tomber : adieu la bouteille et le verre. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='498' part='i'>Qui vous a donc fait choir ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='498' part='f'>Un tremblement de terre, </l>
+	<l id='499' part='i'>Assurément. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='499' part='m'>Bon ! Bon ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='499' part='f'>C'en est un, par ma foi, </l>
+	<l id='500' part='i'>Car je sens que tout tourne. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='500' part='f'>Appuyez-vous sur moi. </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN, sortant de la caisse.</speaker>
+	<l id='501'>Si je n'avais contre eux trouvé cette machine, </l>
+	<l id='502'>Ici jusques au jour, ils eussent pris racine. </l>
+	<l id='503'>Tout est calme ; allons prendre Isabelle ; il est tard. </l>
+<stage>Il frappe à la porte d'Isabelle.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Blaise Bouvillon, Le Destin, Isabelle.</head>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='504'>Allons mettre le feu promptement au pétard. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='505'>Il est temps de partir ; venez, belle Isabelle. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='506'>N'aurons-nous point encor d'aventure nouvelle ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='507' part='i'>Non. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE, entendant tirer le pétard.</speaker>
+	<l id='507' part='m'>Qu'entends-je ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='507' part='m'>D'où part ce grand bruit ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='507' part='f'>Il me perd. </l>
+	<l id='508' part='i'>Où fuir ? Je ne vois rien ; ciel ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON, ouvrant sa lanterne sourde. </speaker>
+	<l id='508' part='f'>Je vous prends sans vert : </l>
+	<l id='509'>En avez-vous ? Montrez, ou j'ai gagné, je jure. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='510' part='i'>Qu'est-ce ? </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='510' part='f'>À prendre sans vert nous avons fait gageure ; </l>
+	<l id='511' part='i'>Elle a perdu. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='511' part='f'>Mon coeur ne reviendra jamais </l>
+	<l id='512'>De la peur qu'il m'a faite ici. Que je vous hais ! </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='513'>C'est à cause qu'elle a perdu, le tour est drôle ;</l>
+	<l id='514' part='i'>Mais que faisiez-vous là ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='514' part='f'>Je repassais un rôle. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='515' part='i'>Comment ? Si tard ! </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='515' part='f'>La nuit, dans le silence, au frais, </l>
+	<l id='516'>L'esprit ayant du jour dissipé les objets, </l>
+	<l id='517' part='i'>Conçoit plus librement. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='517' part='f'>Achevez votre affaire </l>
+	<l id='518' part='i'>Sans obstacle, bonsoir. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='518' part='f'>C'est ce que je vais faire. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='519' part='i'>Enfin, vous me devez... </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='519' part='f'>Je vais en bonne foi </l>
+	<l id='520'>Songer à vous payer de ce que je vous dois. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='521' part='i'>Nous le verrons : adieu. </l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Le Destin, Isabelle.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='521' part='f'>L'impertinent ! Au diable ! </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='522' part='i'>Que j'ai tremblé ! </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='522' part='f'>De peur d'un contretemps semblable, </l>
+	<l id='523'>Ne nous amusons point en discours superflus. </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. La Baguenaudière, Le Destin, Isabelle, Ragotin.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='524' part='i'>Cherchons L'Étoile. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, derrière le théâtre.</speaker>
+	<l id='524' part='f'>À l'aide ! À moi ! Je n'en puis plus. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='525' part='i'>Qu'entends-je ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='525' part='m'>Qu'est-ce encor ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='525' part='f'>Laquais ! De la lumière ! </l>
+	<l id='526' part='i'>Qui crie ainsi ? </l>
+<stage>On apporte de la lumière.</stage>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='526' part='f'>Que vois-je ? Où suis-je ? C'est mon père ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, de même.</speaker>
+	<l id='527' part='i'>Au secours ! Au secours ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='527' part='f'>D'où vient donc cette voix ? </l>
+	<l id='528'>Elle s'est fait entendre à moi cinq ou six fois, </l>
+	<l id='529'>Mon père, et je sortais pour en savoir la cause. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='530'>Ce qui m'amène ici, moi, c'est la même chose. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, encore.</speaker>
+	<l id='531' part='i'>Je me meurs ! Je suis mort !</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='531' part='f'>Quel esprit dévoyé </l>
+	<l id='532' part='i'>Peut crier... mais que vois-je ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, en chemise.</speaker>
+	<l id='532' part='f'>Ah ! Ah ! Je suis noyé. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='533'>D'où naissent vos clameurs ? Quelle est votre infortune ? </l>
+	<l id='534'>De quoi vous plaignez-vous ? De qui ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='535' part='i'>De La Rancune. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='535' part='m'>Quoi ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+<note type="L">Bouge : petite chambre ou garde-robe qui acompagne un plus grande. Les chambes des maisons sont accompagnées d'un bouge pour couher une valet. [F]</note>
+	<l id='535' part='f'>Nous étions couchés dans un bouge ici près. </l>
+	<l id='536'>Le lit, qu'apparemment on avait fait exprès, </l>
+<note type="L">Ruelle : se dit aussi de l'espace qu'on laisse  entre le lit et la muraille.  Se dit aussi des alcôves, et en général les lieux parés où les dames reçoivent leurs visites, soit dans leurs lits, soit sur des sièges.</note>
+	<l id='537'>Était, comme le bouge, étroit et sans ruelle. </l>
+	<l id='538'>M'ayant laissé le soin d'éteindre la chandelle, </l>
+	<l id='539'>La Rancune au milieu s'est couché le premier ;</l>
+	<l id='540'>Je me suis doucement mis au bord le dernier.</l>
+	<l id='541'>J'entonnais, en ronflant, déjà mon premier somme, </l>
+	<l id='542'>Alors que, d'une voix douloureuse, mon homme </l>
+	<l id='543'>M'a tiré par le bras, et s'est plaint, en criant, </l>
+	<l id='544'>D'une difficulté d'uriner, me priant </l>
+	<l id='545'>De lui donner le pot de chambre. À sa prière </l>
+	<l id='546'>Je l'ai fait. Après s'être en vain une heure entière </l>
+	<l id='547'>Efforcé, plaint, crié, juré comme un perdu, </l>
+	<l id='548'>Sans avoir uriné goutte, il me l'a rendu. </l>
+	<l id='549'>Moi, qui porte un bon coeur que le mal d'autrui touche </l>
+	<l id='550'>"Je vous plains", ai-je dit alors, ouvrant la bouche </l>
+	<l id='551'>Aussi grande qu'un four, à force de bâiller ;</l>
+	<l id='552'>Puis je me suis remis plus fort à sommeiller. </l>
+	<l id='553'>Dans ce somme profond la matineuse aurore </l>
+	<l id='554'>M'aurait trouvé gisant, si le perfide encore </l>
+	<l id='555'>Ne m'avait réveillé, me tirant par le bras, </l>
+	<l id='556'>Pour me redemander, avec de grands hélas, </l>
+	<l id='557'>Une seconde fois ce maudit pot du diable. </l>
+	<l id='558'>Une seconde fois, ma pitié charitable </l>
+	<l id='559'>L'a mis entre ses mains : pestant, mordant ses doigts, </l>
+	<l id='560'>N'ayant rien fait non plus que la première fois, </l>
+	<l id='561'>Il me l'a redonné, me priant, hors d'haleine, </l>
+	<l id='562'>De ne me plus donner une semblable peine, </l>
+	<l id='563'>Qu'elle n'était pas juste, et qu'il la prendrait bien : </l>
+	<l id='564'>Et moi, qui n'aime pas de contredire à rien, </l>
+	<l id='565'>J'ai dit qu'à ses désirs il pouvait satisfaire. </l>
+	<l id='566'>Ayant remis le pot à sa place ordinaire, </l>
+	<l id='567'>J'aurais gagé, sentant le sommeil me saisir, </l>
+	<l id='568'>Qu'autant qu'une marmotte on m'allait voir dormir. </l>
+	<l id='569'>Le maudit La Rancune, homme sans conscience, </l>
+	<l id='570'>N'avait pas jusqu'au bout lassé ma patience : </l>
+	<l id='571'>Pour reprendre le pot, lui-même ayant porté </l>
+	<l id='572'>Tout son corps hors du lit, de force il m'a planté </l>
+	<l id='573'>Un coude dans le creux de l'estomac, terrible, </l>
+	<l id='574'>M'éveillant en sursaut à cette masse horrible : </l>
+	<l id='575'>" Morbleu ! me suis-je alors écrié, je suis mort."</l>
+	<l id='576'>" Je vous demande excuse, a-t-il dit, et j'ai tort ;</l>
+	<l id='577'>Mais de peur d'interrompre, en ma douleur extrême, </l>
+	<l id='578'>Votre sommeil encor, j'ai pris le pot moi-même. </l>
+	<l id='579'>Malepeste, ai-je dit, m'étouffer, m'accabler, </l>
+	<l id='580'>M'enfondrer l'estomac, n'est-ce pas le troubler ?" </l>
+	<l id='581'>Mais lui, sans m 'écouter, ni craindre ma colère, </l>
+	<l id='582'>Rendait à la nature un tribut ordinaire. </l>
+	<l id='583'>Je l'en félicitais de mon mieux, quant le sot </l>
+	<l id='584'>Voulant le mettre à terre, a répandu le pot </l>
+	<l id='585'>Plein jusqu'au bord sur moi, me noyant la poitrine, </l>
+	<l id='586'>La barbe, et tout le corps, d'un océan d'urine. </l>
+	<l id='587'>Portant bien loin du lit mes pas précipités, </l>
+	<l id='588'>Je cours, je vais, je viens, tout couvert de... sentez. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='589'>Eh bien ! Pour vous sécher, allez dans la cuisine. </l>
+	<l id='590'>Vous, ma fille, rentrez ; je vois à votre mine </l>
+	<l id='591'>Que vous voulez dormir : de votre appartement </l>
+	<l id='592' part='i'>Je vais prendre la clef. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='592' part='f'>Moi, je vais promptement </l>
+	<l id='593' part='i'>Coucher. Ô Ciel ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='593' part='f'>En vain j'ai cru trouver ma belle :</l>
+	<l id='594'>Ce bruit l'a retenue ; allons au-devant d'elle. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='595'>Eh bien ! es-tu content, Sort ? Suis-je assez berné ? </l>
+	<l id='596'>Malheureux Ragotin, sous quel astre es-tu né ! </l>
+	<l id='597'>Amour, sous ton pouvoir mon coeur est à la laisse ;</l>
+	<l id='598'>Mais cette nuit cherchons un lit dans cette caisse. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Destin, L'Étoile.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='599'>Ma soeur, pour mon dessein ne craignez nullement ;</l>
+	<l id='600'>Isabelle est d'accord de cet enlèvement. </l>
+	<l id='601'>Pour notre hymen prochain ma parole est donnée ;</l>
+	<l id='602'>Son coeur à mes serments soumet sa destinée </l>
+	<l id='603'>Et déjà loin d'ici nous nous verrions tous deux, </l>
+	<l id='604'>À l'abri des censeurs, au comble de nos voeux, </l>
+	<l id='605'>Si le Sort, dont ma flamme attendait des miracles, </l>
+	<l id='606'>N'avait depuis fait naître obstacles sur obstacles. </l>
+	<l id='607'>Sa puissance aujourd'hui ne le peut différer : </l>
+	<l id='608'>Tout est bien concerté, je le puis assurer. </l>
+	<l id='609'>Ce qui me reste à faire est d'instruire Isabelle ;</l>
+	<l id='610'>Mais comme, en m'approchant si souvent auprès d'elle, </l>
+	<l id='611'>Mes desseins d'être sus pourraient courir hasard, </l>
+	<l id='612'>Rendez-vous-y pour moi, voyez-la de ma part : </l>
+	<l id='613'>Pour l'obliger à fuir dans cette conjoncture </l>
+	<l id='614'>Donnez-lui ce billet, dont voici la lecture : </l>
+<p id='1'>
+	<s id='1'>L'incident qui nous sépara hier que nous étions seuls, et tout prêts de profiter de l'occasion, m'oblige de vous prier que nous nous voyions encore aujourd'hui pour prendre d'autres mesures, et mieux assurer les commencements d'un bonheur qui doit durer toute notre vie. </s>
+	<s id='2'>Trouvez un prétexte pour ne point être à la répétition de la comédie de Monsieur de La Baguenaudière : quoique je doive y représenter le principal personnage, on ne laissera pas sans moi de repasser. L'Olive, mon père, a	appris mon rôle, et m'excusera sur une raison très plausible. </s>
+	<s id='3'>Je ne lui ai pourtant pas dit notre aventure ni notre but. </s>
+	<s id='4'>Fiez-vous à ma discrétion, et ayez la bonté de m'attendre dans votre chambre. </s>
+</p>
+<p id='2'>
+	<s id='1'>Le Destin.</s>
+</p>
+	<l id='615'>Parlez-lui, remettez ce billet en sa main, </l>
+	<l id='616' part='i'>Et... </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Le Destin, L'Étoile, La Rancune.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='616' part='f'>N'avez-vons point vu le petit Ragotin ? </l>
+	<l id='617'>En vain à le chercher mon âme est empressée. </l>
+	<l id='618'>En même lit couchés tous deux la nuit passée, </l>
+	<l id='619'>Étant incommodé, sans doute il s'est levé;</l>
+	<l id='620'>Du moins à mon réveil je ne l'ai plus trouvé : </l>
+	<l id='621'>Seulement ses habits ont frappé ma visière. </l>
+	<l id='622'>Je le cherche, je cours depuis une heure entière;</l>
+	<l id='623'>Et, pour moi, dont l'âme est ronde comme un cerceau, </l>
+<note type="L">Manceau : originaire ou habitant du Mans.</note>
+	<l id='624'>Le petit homme étant avocat et Manceau, </l>
+	<l id='625'>Je conclus, et la chose est assez vraisemblable, </l>
+	<l id='626'>Puisqu'il n'est point céans, il faut qu'il soit au diable. </l>
+	<l id='627' part='i'>Ne l'avez-vous point vu ? </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='627' part='m'>Moi, non. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='627' part='f'>Pour m'égayer </l>
+	<l id='628'>Je viens de lui dresser un plat de mon métier : </l>
+	<l id='629'>J'ai tout présentement, pour lui donner la fièvre, </l>
+	<l id='630'>Rétréci ses habits. Le tour est assez mièvre. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='631'>Il est digne de vous : adieu. Pour nos amours, </l>
+	<l id='632'>Ma soeur, allez trouver Isabelle. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='633' part='i'>J'y cours. </l>
+<stage>Elle laisse tomber sa lettre en s'en allant.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, ramassant la lettre.</speaker>
+	<l id='633' part='f'>Quel billet sans dessus se présente à ma vue ? </l>
+	<l id='634'>La main qui l'a tracé ne m'est pas inconnue. </l>
+	<l id='635'>C'est de l'ami Destin que cette lettre vient ;</l>
+	<l id='636'>Il l'a laissé tomber : qu'est-ce qu'elle contient ? </l>
+<stage>Il lit bas.</stage>
+	<l id='637'>Ces mots expliquent trop qu'elle est pour Isabelle ;</l>
+	<l id='638'>Vengeons-nous du Destin, l'occasion est belle ;</l>
+	<l id='639'>Et, pour jeter entre eux de la division, </l>
+	<l id='640'>Voici tout à propos madame Bouvillon. </l>	
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Madame Bouvillon, La Rancune.</head>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='641'>Va-t-on jouer monsieur de La Baguenaudière ? </l>
+	<l id='642'>Verrons-nous repasser la pièce tout entière ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='643'>Madame, pour cela chacun fait ses apprêts, </l>
+	<l id='644'>Et tout ira des mieux, au premier rôle près. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='645'>Est-ce que le Destin a quelque maladie ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='646'>Non : c'est qu'un grand acteur bien fait, d'un beau génie, </l>
+	<l id='647'>Que de mille talents l'astre a voulu douer, </l>
+	<l id='648'>A souvent en secret plus d'un rôle à jouer. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='649'>Le Destin voudrait-il priver de sa présence </l>
+	<l id='650'>Une pièce admirable, une noble assistance ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='651'>Quand on se met en tête un commerce amoureux... </l>
+	<l id='652'>Mais pourquoi s'en fier au rapport de mes yeux ? </l>
+	<l id='653'>Quoiqu'ils me fassent voir, ils se trompent peut-être : </l>
+	<l id='654' part='i'>Le Destin... </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='654' part='f'>Du Destin, quoi ? Qu'ont-ils vu paraître ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='655'>Ce billet que sa main, me semble, a su tracer, </l>
+	<l id='656'>Et qu'ici sous mes pas je viens de ramasser. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='657' part='i'>Montrez-moi. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='657' part='f'>Quoi qu'il soit plié sans salissure, </l>
+	<l id='658'>Quoiqu'il semble frais fait, à voir son écriture, </l>
+	<l id='659'>Quoiqu'il paraisse neuf au blanc de ce feuillet, </l>
+	<l id='660'>Il se peut que ce soit, Madame, un vieux billet. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='661'>Voyons. Ciel ! Que vois-je ? Oui, c'est à moi qu'il s'adresse : </l>
+	<l id='662'>Mais n'en témoignons rien, cachons notre allégresse. </l>
+	<l id='663'>À qui donc le Destin peut- il écrire ainsi ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='664'>Ce n'est pas, que je pense, à personne d'ici : </l>
+	<l id='665'>Car, d'aller soupçonner la charmante Isabelle, </l>
+	<l id='666'>Il a trop de respect pour son père et pour elle. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='667'>Plus je lis son billet, plus je pense trouver </l>
+	<l id='668'>À qui... Tout aujourd'hui je le veux observer, </l>
+	<l id='669'>Et c'est pour cause. Adieu. Trouvons, puisqu'il m'en prie, </l>
+	<l id='670'>Un moyen pour ne point être à la comédie, </l>
+	<l id='671'>Et puis allons l'attendre en mon appartement. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='672'>Comme il faut elle a pris la chose assurément, </l>
+	<l id='673'>Et j'ai vu ses soupçons tomber sur Isabelle. </l>
+	<l id='674'>Mais la voici qui vient, et l'Étoile avec elle ;</l>
+	<l id='675'>De peur, pour ce billet, je les vois se troubler : </l>
+	<l id='676'>Pour m'égayer un peu je vais la redoubler. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Isabelle, L'Étoile, La Rancune.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='677'>Il faut le retrouver, ou bien je suis perdue. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='678' part='i'>Il faut qu'il soit ici. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='678' part='f'>Rien ne s'offre à ma vue. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='679'>Peut-on vous demander ce que vous cherchez ? </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='680' part='i'>Rien. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='680' part='f'>Pourtant, en vous voyant, si je m'y connais bien, </l>
+	<l id='681' part='i'>Quelque chose vous trouble. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='681' part='f'>Eh ! Ce n'est pas grand'chose. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='682'>Sans être un grand devin, j'en crois savoir la cause. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='683' part='i'>Plaît-il ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='683' part='m'>Certain billet... </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='683' part='f'>Hem ! L'auriez-vons trouvé ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='684' part='i'>L'auriez-vous perdu ? Mais... </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Isabelle, L'Étoile, La Rancune, Ragotin.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN, dans la caisse.</speaker>
+	<l id='684' part='f'>M'aurait-on encavé ? </l>
+	<l id='685'>Je ne vois goutte. Holà, quelqu'un ! De la lumière ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='686' part='i'>C'est Ragotin. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='686' part='f'>Que sens-je ici ? C'est une bière. </l>
+	<l id='687'>Hélas ! Sans le savoir, serais-je trépassé ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='688'>Il se croit enterré lorsqu'il n'est qu'encaissé. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE, à Isabelle.</speaker>
+	<l id='689' part='i'>Sans doute il l'a trouvé. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='689' part='f'>Voudra-t-il nous le rendre ? </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='690'>Je ne sais ; pour l'avoir il faut tout entreprendre. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, dans la caisse.</speaker>
+	<l id='691'>Je suis mal enterré ; messieurs, sortez d'erreur. </l>
+	<l id='692'>C'est par un quiproquo. Fossoyeur ! Fossoyeur ! </l>
+	<l id='693'>Retirez-moi d'ici, rendez-moi la lumière ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='694' part='i'>Quelqu'un, venez m'aider. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='694' part='f'>Déclouez cette bière. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='695'>Non, restons en ces lieux ; il faut faire un effort </l>
+	<l id='696' part='i'>Pour le ravoir. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='696' part='m'>Levons la caisse. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='696' part='f'>Suis-je mort ? </l>
+	<l id='697'>Mais je vois des objets dont mon âme est ravie. </l>
+	<l id='698'>Aurions-nous de concert fait faux bond à la vie ? </l>
+<note type="L">Patiner : on dit aussi, qu'on patine une femme, quand on lui manie indiscrètement les bras, le sein, etc... [F]</note>
+	<l id='699' part='i'>Hem ! Pour voir, patinons. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE, lui donnant un coup de buse sur les doigts. </speaker>
+	<l id='699' part='m'>Halte ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, va à Isabelle qui lui donne un soufflet.</speaker>
+	<l id='699' part='f'>Elle frappe fort. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='700' part='i'>Insolent ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='700' part='f'>Je sens bien que je ne suis pas mort ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='701'>Non, puisque vous parlez ; mais cette couleur fade, </l>
+	<l id='702'>Ce visage plombé, nous marque un air malade : </l>
+	<l id='703' part='i'>L'êtes-vous ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='703' part='f'>Attendez ; suis-je bien éveillé ? </l>
+	<l id='704' part='i'>Je ne sais. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='704' part='f'>La sueur dont vous êtes mouillé </l>
+<note type="L">Réplétion : Trop d'embompoint ; ce qui remplit trop quelque partie. [F]</note>
+	<l id='705'>Vient de réplétion, suivant la médecine. </l>
+	<l id='706' part='i'>Fi ! Cela sent mauvais. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='706' part='f'>Oui, cela sent l'urine. </l>
+	<l id='707'>Ah ! Maudit mineur ! Il m'en souvient : c'est toi </l>
+	<l id='708'>Dont la main, cette nuit, à répandu sur moi </l>
+	<l id='709'>L'infernale liqueur d'un profond pot de chambre, </l>
+<note type="L">Civette : est aussi une petite herbe odoriférante qu'on met dans es salades. [F]</note>
+	<l id='710'>Qui n'était point rempli de civette ni d'ambre. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='711'>Il faut que, cette nuit, rempli de vin sans eau, </l>
+	<l id='712'>Quelque chose vous ait barbouillé le cerveau. </l>
+	<l id='713'>Croyez-moi, rappelez votre réminiscence : </l>
+	<l id='714'>Et, prenant vos habits, couvrez votre indécence : </l>
+	<l id='715' part='i'>Vous vous souviendrez mieux étant rassis. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, trouvant son pourpoint trop étroit.</speaker>
+	<l id='715' part='f'>Point, point. </l>
+	<l id='716'>Mais que vois-je ? Aurait-on rétréci mon pourpoint ? </l>
+	<l id='717'>Ou mon corps serait-il plus gros qu'à l'ordinaire ? </l>
+	<l id='718'>La Rancune, est-il point remployé par derrière ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='719' part='i'>Non.</l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='719' part='f'>Il est d'un bon pied par-devant trop étroit : </l>
+	<l id='720' part='i'>D'où vient ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='720' part='f'>J'ai peur d'avoir touché la chose au doigt, </l>
+	<l id='721' part='i'>Et que vous ne soyez malade. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='721' part='f'>Moi, malade !</l>
+	<l id='722' part='i'>Hélas ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='722' part='f'>Cette grosseur encor le persuade. </l>
+	<l id='723' part='i'>Mettez le haut-de-chausse, on verra. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='723' part='f'>C'est bien pis. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='724'>Ne vous trompez-vous point ? Sont-ce là vos habits ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='725'>Ce sont eux. Quelle enflure ! Ah ! J'ai l'âme saisie, </l>
+	<l id='726' part='i'>La Rancune ; et d'où vient cela ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='726' part='f'>D'hydropisie. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='727' part='i'>En meurt-on ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='727' part='m'>Rarement on en réchappe. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='727' part='f'>Hélas ! </l>
+	<l id='728'>La Rancune ; au besoin, ne m'abandonne pas. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='729' part='i'>Non, non ; jusqu'au tombeau je vous escorte. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='729' part='f'>À l'aide ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='730'>Allons, courons, cherchons promptement du remède. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, sortant.</speaker>
+	<l id='731' part='i'>Qu'on me soutienne ! </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE, arrêtant La Rancune.</speaker>
+	<l id='731' part='f'>Avant que de vous en aller, </l>
+	<l id='732' part='i'>De grâce... </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='732' part='f'>Du billet vous me voulez parler : </l>
+	<l id='733'>Vous le croyez perdu, votre âme est à la gêne ;</l>
+	<l id='734'>Il ne l'est point, cessez de vous en mettre en peine ; </l>
+	<l id='735'>Sous ses pas, en ce lieu, marchant sans y penser, </l>
+	<l id='736'>Madame Bouvillon vient de le ramasser : </l>
+	<l id='737'>Il est entre ses mains, vous l'y pouvez reprendre. </l>
+	<l id='738' part='i'>Je vous en donne avis. </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Isabelle, L'Étoile.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='738' part='f'>Ciel ! Que viens-je d'apprendre ? </l>
+	<l id='739'>Madame Bouvillon par là va tout savoir. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='740'>Pour savoir sa pensée, allons, il faut la voir : </l>
+	<l id='741'>Je m'en vais de ce pas la chercher, et j'espère </l>
+	<l id='742'>Tirer adroitement d'elle... </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='742' part='f'>Voici mon père.</l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. La Baguenaudière, Isabelle, L'Étoile.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='743'>Comment ! En quel état vous rencontrai-je ici ? </l>
+	<l id='744'>Vous n'êtes pas encore habillée ? Est-ce ainsi </l>
+	<l id='745'>Qu'à repasser ma pièce entre vous on s'apprête ? </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='746'>On n'a qu'à commencer ; pour moi, rien ne m'arrête : </l>
+	<l id='747'>La répétition n'a pas besoin d'habits. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='748'>Pardonnez-moi, j'en veux : quatre de mes amis, </l>
+	<l id='749'>Par mon ordre en ces lieux sont venus pour l'entendre ;</l>
+	<l id='750'>À ce qu'ils en diront, je suis prêt de me rendre ;</l>
+	<l id='751'>Mais je veux qu'elle soit dans tous ses agréments. </l>
+	<l id='752'>Allez donc vous orner de vos ajustements ;</l>
+	<l id='753'>Ne perdez point de temps ; volez, mademoiselle : </l>
+	<l id='754'>Déjà de mes amis je vois briller le zèle. </l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. La Baguenaudière, Monsieur de Prérazé, Monsieur des Lantilles, Monsieur de Boiscoupé, Monsiuer de Mousseverte.</head>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='755'>À vos ordres, monsieur, soumis et disposé... </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='756'>Je vous suis obligé, monsieur de Prérazé. </l>
+</sp>
+<sp who='DES-LENTILLES'><speaker>DES LENTILLES.</speaker>
+	<l id='757'>Je viens bénir le sort qui joint vos deux familles. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='758'>Très humble serviteur à Monsieur des Lentilles. </l>
+</sp>
+<sp who='DE-BOISCOUPÉ'><speaker>DE BOISCOUPÉ.</speaker>
+	<l id='759'>Pour me rendre à vos lois mon zèle a galopé. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='760'>Ah ! Je suis tout à vous, monsieur de Boiscoupé...</l>
+</sp>
+<sp who='DE-MOUSSEVERTE'><speaker>DE MOUSSEVERTE.</speaker>
+	<l id='761'>Lorsque vous commandez, tout le monde est alerte.</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='762'>Que ne vous dois-je point, monsieur de Mousseverte ! </l>
+	<l id='763'>Messieurs, voyez ma pièce : on va la repasser ; </l>
+	<l id='764'>On n'attendait que vous ici pour commencer. </l>
+	<l id='765'>Plaçons-nous tous, Messieurs. De grâce, qu'on commence ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Les acteurs précédents, L'Olive.</head>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='766' part='i'>Quel contretemps ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='766' part='f'>Comment ? Qui vous tient en balance ? </l>
+	<l id='767'>Repasse-t-on ma pièce, ou bien ne le peut-on ? </l>
+	<l id='768' part='i'>Qu'est-ce ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='768' part='f'>On ne le peut pas, et l'on le peut, selon. </l>
+<note type="C">Mon fils, à qui l'on vient de voler sa garde-robe.</note>
+	<l id='769'>Mon fils, à qui l'on vient de plier la toilette, </l>
+<note type="C">Galope sur une vieille mazette pour attraper le voleur.</note>
+	<l id='770'>Pique après le voleur une vieille mazette, </l>
+	<l id='771'>Et ne peut être ici de retour d'aujourd'hui. </l>
+	<l id='772'>Si, pour jouer la pièce, on veut que ce soit lui </l>
+	<l id='773'>Qui de défunt Antoine imite la parole, </l>
+	<l id='774'>On ne le peut pas ; mais, comme l'on sait son rôle, </l>
+	<l id='775'>Qu'on peut, ainsi que lui le jouer, si l'on veut </l>
+	<l id='776'>Que l'on le représente à sa place, on le peut. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='777' part='i'>Quel malheur ! Qu'est-ce encor ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. Les acteurs précédents, Le Décorateur.</head>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='777' part='f'>Sauvez-moi du caprice. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='778'>Comment ! Vous n'avez pas votre habit de nourrice ! </l>
+	<l id='779' part='i'>Qui vous détourne ainsi ? </l>
+</sp>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='779' part='f'>C'est Monsieur Ragotin. </l>
+	<l id='780'>Ce petit avocat, aussi fou que mutin, </l>
+	<l id='781'>Croyant être attaqué de quelque hydropisie, </l>
+	<l id='782'>S'allait faire saigner, bouffi de frénésie, </l>
+	<l id='783'>Et des bras et des pieds. Moi, bonnement, j'ai dit </l>
+	<l id='784'>Que pour rire on avait rétréci son habit ;</l>
+	<l id='785'>Car monsieur La Rancune avait fait cet ouvrage. </l>
+	<l id='786'>Le petit glorieux, sensible à cet outrage, </l>
+	<l id='787'>M'ayant pris à parti, et m'en croyant l'auteur, </l>
+	<l id='788'>S'est acharné sur moi dans sa brusque fureur. </l>
+	<l id='789' part='i'>Mais le voici. </l>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. Les acteurs précédents, Ragotin.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN, un chenet à la main.</speaker>
+	<l id='789' part='f'>Je veux qu'il meure à coup de barre. </l>
+	<l id='790'>Où donc se cache-t-il ? Le voilà ! Gare, gare ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='791' part='i'>Prenez garde. </l>
+</sp>
+<sp who='DE-MOUSSEVERTE'><speaker>DE MOUSSEVERTE.</speaker>
+	<l id='791' part='m'>Arrêtez. </l>
+</sp>
+<sp who='DE-BOISCOUPÉ'><speaker>DE BOISCOUPÉ.</speaker>
+	<l id='791' part='f'>Sauvons-nous de ce fol. </l>
+</sp>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='792'>Morbleu ! N'allez pas prendre ici Pierre pour Paul. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, toujours le chenet levé.</speaker>
+	<l id='793'>Qu'on le livre, ou ma main va, sans que rien l'arrête, </l>
+<note type="L">Chenet : ustensile servant dans les cheminées à soutenir le bois, afin qu'il brûle mieux. [F]</note>
+	<l id='794'>Avecque ce chenet, fendre plus d'une tête. </l>
+</sp>
+<sp who='DES-LENTILLES'><speaker>DES LENTILLES.</speaker>
+	<l id='795' part='i'>Attendez. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='795' part='m'>C'en est fait. </l>
+</sp>
+<sp who='TOUS-ENSEMBLE'><speaker>TOUS ENSEMBLE, baissant la tête.</speaker>
+	<l id='795' part='m'>Ah ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='14'><head>SCÈNE XIV. Les acteurs précédents, La Rancune.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, le saisissant par derrière.</speaker>
+	<l id='795' part='f'>Vous n'en ferez rien. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, se débattant. </speaker>
+	<l id='796' part='i'>Chien ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='796' part='m'>Ne le lâchez pas ! </l>
+</sp>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='796' part='f'>Monsieur, tenez-le bien. </l>
+	<l id='797' part='i'>Ah ! J'enrage. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='797' part='f'>Il me mord, le méchant petit homme ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='798' part='i'>Il m'égratigne. </l>
+</sp>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='798' part='f'>Allons, il faut que je l'assomme. </l>
+</sp>
+<sp who='DE-BOISCOUPÉ'><speaker>DE BOISCOUPÉ.</speaker>
+	<l id='799' part='i'>Laissez. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='799' part='f'>Ce coup de poing, asséné bien et beau, </l>
+	<l id='800'>A jusqu'à son menton enfoncé son chapeau. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, le visage dans son chapeau.</speaker>
+	<l id='801' part='i'>Oh ! oh ! </l>
+</sp>
+<sp who='DES LENTILLES'><speaker>DES LENTILLES, le lui voulant ôter de force.</speaker>
+	<l id='801' part='f'>Quels hurlements ! Empêchons qu'il ne crève. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='802' part='i'>Oh ! oh ! </l>
+</sp>
+<sp who='DE-MOUSSEVERTE'><speaker>DE MOUSSEVERTE.</speaker>
+	<l id='802' part='m'>C'est pis. </l>
+</sp>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='802' part='f'>Voici de quoi lui donner trêve : </l>
+	<l id='803' part='i'>Avecque ces ciseaux il faut couper. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='803' part='f'>Donnez. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='804'>Par devant ? Vous allez lui taillader le nez. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='805' part='i'>Oh ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='805' part='m'>Coupons par ici. </l>
+</sp>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='805' part='f'>Dépêchez, il étouffe. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='806' part='i'>Soyez sage au moins. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='806' part='m'>Oui. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, coupant le chapeau par derrière.</speaker>
+	<l id='806' part='m'>Voyez la lumière. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='806' part='f'>Ouffe. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='807'>Rappelez vos esprits, reprenez tous vos sens : </l>
+	<l id='808' part='i'>Courage ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='15'><head>SCÈNE XV. Les acteurs précédents, Blaise Boutillon.</head>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='808' part='f'>Or, écoutez, messieurs, petits et grands : </l>
+	<l id='809'>L'Étoile, en ce moment, cette charmante fille, </l>
+	<l id='810'>S'est de son propre pied disloqué la cheville. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='811'>Quoi ! L'Étoile est blessée ? Ô malheur inouï ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='812'>L'ai-je bien entendu ? L'Étoile est blessée ? </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='813' part='i'>Oui. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='813' part='f'>Messieurs, soutenez-moi. Par un récit funeste, </l>
+	<l id='814'>Funeste messager, instruisez-moi du reste : </l>
+	<l id='815' part='i'>Après je veux mourir. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='815' part='f'>Pour venir babiller </l>
+	<l id='816'>Son rôle dans la pièce, elle allât s'habiller ;</l>
+	<l id='817'>Mais un vilain caillou s'est trouvé devant elle, </l>
+	<l id='818'>Qui parterre a fait choir la pauvre demoiselle. </l>
+	<l id='819'>Ma mère dans sa chambre est à la secourir. </l>
+	<l id='820'>Voilà le récit fait, et vous pouvez mourir. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='821'>Vous êtes donc blessée, objet que j'idolâtre ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='822'>Et que va devenir ma pièce de théâtre ? </l>
+	<l id='823'>S'est-il vu sous le ciel auteur plus malheureux ? </l>
+	<l id='824'>Où trouver une actrice ? Ô sort trop rigoureux ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='825'>Je serais votre fait, Monsieur, si j'étais femme : </l>
+	<l id='826'>Le rôle de L'Étoile est gravé dans mon âme, </l>
+	<l id='827'>Pour l'avoir fait au Mans repasser plusieurs fois. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='828' part='i'>Vous savez Cléopâtre ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='828' part='f'>Oui : j'ai sa même voix, </l>
+	<l id='829'>J'ai tout son même ton, comme elle je déclame;</l>
+	<l id='830'>J'ai même geste enfin ; mais je ne suis pas femme. </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='831'>Bon : la nécessité prend le dessus des lois;</l>
+	<l id='832'>La comédie était sans femmes autrefois ;</l>
+	<l id='833'>Même encore un garçon fait la fille au collège : </l>
+	<l id='834'>Nous pouvons au besoin user du privilège. </l>
+	<l id='835' part='i'>Il reste encore un page. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='835' part='f'>Ô sort ingrat pour moi ! </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='836'>Monsieur de Bouvillon peut prendre cet emploi : </l>
+	<l id='837'>Il est bien facié, sa voix est agréable, </l>
+	<l id='838'>Et pour un page il est d'une taille admirable. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='839' part='i'>Ferais-je bien cela tout de bon ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='839' part='f'>Oui, vraiment. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='840' part='i'>Est-ce un grand rôle ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='840' part='f'>Il est de deux vers seulement. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+<note type="C">Voir Molière, Le Bourgeois Gentilhomme, acte II, scène 4.</note>
+	<l id='841' part='i'>Sont-ils en prose ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='841' part='f'>Non ; je vais vous les apprendre </l>
+	<l id='842' part='i'>En un moment. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='842' part='m'>Irai-je, ô beau-père ? </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='842' part='f'>Ah ! Mon gendre, </l>
+	<l id='843' part='i'>Tout ceci me fatigue. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='843' part='f'>Allons donc, menez-m'y. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='844'>Que ne vous dois-je point, ô Blaise, mon ami ! </l>
+	<l id='845'>Pour nous déterminer, suivons-les tous, de grâce : </l>
+	<l id='846'>Et si l'on peut jouer, nons viendrons prendre place. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. La Baguenaudière, De Boiscoupé, De Prérazé, De Mousseverte, Des Lentilles.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='847'>Vous qu'on nomme à bon droit les doctes du pays, </l>
+	<l id='848'>Qui, frappés en naissant au coin des beaux esprits, </l>
+	<l id='849'>Savez parfaitement faire un heureux triage </l>
+	<l id='850'>Du beau, du laid, du bon, du mauvais d'un ouvrage, </l>
+	<l id='851'>À l'aspect de celui que l'on va déclamer, </l>
+	<l id='852'>Contre tous ses défauts n'allez pas vous armer ;</l>
+	<l id='853'>Tempérez la censure, ayez de l'indulgence </l>
+	<l id='854'>Pour la fragilité d'un auteur qui commence, </l>
+	<l id='855'>D'un novice rampant dans le sacré vallon, </l>
+	<l id='856'>Qui, quoique vieux, est jeune au métier d'Apollon. </l>
+</sp>
+<sp who='DES-LENTILLES'><speaker>DES LENTILLES.</speaker>
+<note type="L">Argus : personnage de la myhtologie grecque qui avait 100 yeux et qui n'en fermeit que 50 quand il dormait. Junon lui confia la garde d'Io, qu'elle venait de changer en vache ; mais Mercure endormit la gardien au son de sa flûte, et lui coupa la tête. Junon transporta les yeux d'Argus sur la queue du paon et le transforma en cet oiseau. [B]</note>
+	<l id='857'>Autant qu'Argus eut d'yeux je voudrais des oreilles, </l>
+	<l id='858'>Pour de ce grand ouvrage entendre les merveilles. </l>
+</sp>
+<sp who='DE-BOISCOUPÉ'><speaker>DE BOISCOUPÉ.</speaker>
+	<l id='859'>Je voudrais le louer avec autant de voix </l>
+<note type="L">Briarée : un des génts qui attaquèrent le ciel, avait , selon la Fable, cent bras et cinquante tête, il fut terrassé par Neptune, et emprisonné sous l'Etna. [B]</note>
+	<l id='860'>Que le grand Briarée eut de bras autrefois. </l>
+</sp>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='861'>De savourer vos vers mon esprit est avide. </l>
+</sp>
+<sp who='DE-MOUSSEVERTE'><speaker>DE MOUSSEVERTE.</speaker>
+	<l id='862'>Je les crois d'un savoir où le bon sens préside. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='863'>Ah ! Messieurs, vous parlez en amis de l'auteur. </l>
+	<l id='864'>Revêtus d'un esprit facile admirateur, </l>
+	<l id='865'>Vous chantez son triomphe, enflez sa renommée, </l>
+	<l id='866'>Avant qu'on ait encor la chandelle allumée. </l>
+</sp>
+<sp who='DES-LENTILLES'><speaker>DES LENTILLES.</speaker>
+	<l id='867'>Au fleurer, à l'odeur, on connaît le poisson. </l>
+</sp>
+<sp who='DE-BOISCOUPÉ'><speaker>DE BOISCOUPÉ.</speaker>
+	<l id='868'>Le bon terroir produit l'excellente moisson. </l>
+</sp>
+<sp who='DE-PRÉRAZÉ'><speaker>DE PRÉRAZÉ.</speaker>
+	<l id='869'>La beauté du ruisseau se juge par sa source. </l>
+</sp>
+<sp who='DE-MOUSSEVERTE'><speaker>DE MOUSSEVERTE.</speaker>
+	<l id='870'>La bonté du cheval se connaît à la course. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='871'>Trêve d'encens, messieurs, cessez de me louer : </l>
+<note type="L">Engouer : se dit figurémment en morale ; pour dire, se préoccuper, s'entêter en faveur de quelque personne, ou de quelque ouvrage. [F]</note>
+	<l id='872'>Un auteur n'est que trop facile à s'engouer. </l>
+	<l id='873'>La pièce que j'expose à vos doctes génies, </l>
+	<l id='874'>Est un beau composé de ces rares saillies, </l>
+	<l id='875'>De ce bon goût nouveau, digne ouvrage du temps, </l>
+	<l id='876'>Où l'esprit prend partout le dessus du bon sens. </l>
+	<l id='877'>Fi ! Fi ! De ces auteurs enchaînés par les règles, </l>
+	<l id='878'>Qui, venant sur nos moeurs fondre comme des aigles, </l>
+	<l id='879'>Pensent, en beaux discours nous peignant la vertu, </l>
+	<l id='880'>Nous donner de l'horreur pour le vice abattu ! </l>
+	<l id='881'>Il est vrai que jadis, respectant leurs ouvrages, </l>
+	<l id='882'>Le coeur était touché de leurs doctes images, </l>
+	<l id='883'>Les vives passions s'y faisaient admirer ;</l>
+	<l id='884'>On était assez sot pour y venir pleurer. </l>
+	<l id='885'>Mais les temps ont changé. La triste tragédie, </l>
+	<l id='886'>Pour plaire maintenant, en farce travestie, </l>
+	<l id='887'>Des jolis quolibets et des propos bouffons, </l>
+	<l id='888'>Préfère l'agrément à ses graves leçons : </l>
+	<l id='889'>Elle va ramasser dans les ruisseaux des halles </l>
+	<l id='890'>Les bons mots des courtauds, les pointes triviales, </l>
+<note type="L">Pont-Neuf : plus vieux pont de Paris, situé au bout de l'ile de la Cité.</note>
+<note type="L">Tabarin : Bouffon très grossier, valet et associé de Mondor. Ce Mondor était un charlatan et vendeur de Baume, qui au commencement du dernier siècle [XVIIème NdR] établissait son théâtre sur des tréteaux, dans la place Dauphine [proche du Pont-Neuf] : il ne demeurait pas toujours à Paris, mais courait avec Tabarin dans les autres villes du royaume. [Leiris]</note>
+	<l id='891'>Dont au bout du Pont-Neuf, au son du tambourin, </l>
+	<l id='892'>Monté sur deux tréteaux, l'illustre Tabarin </l>
+	<l id='893'>Amusait autrefois et la nymphe et le gonze </l>
+<note type="L">Cour de Miracles : depuis le moyen-age et jusqu'au XVIIème, quartier peu sûr de l'Ile de la Cité.</note>
+	<l id='894'>De la cour de Miracle et du cheval de bronze. </l>
+	<l id='895'>Voilà le véritable aimant des beaux esprits ;</l>
+	<l id='896'>Voilà, messieurs, aussi le chemin que j'ai pris. </l>
+	<l id='897'>Antoine et Cléopâtre à vos yeux vont paraître, </l>
+	<l id='898'>Non pas tels qu'ils étaient, mais comme ils devraient être, </l>
+	<l id='899'>Mais tels qu'il faut qu'ils soient pour captiver les coeurs, </l>
+<note type="L">Cheval de bronze : allusion à la statue d'Henri IV  situé au milieu du Pont-Neuf et au bout de l'ile de la Cité.</note>
+	<l id='900'>Par la main des fripiers vêtus en bateleurs ;</l>
+	<l id='901'>Vous savez bien, Messieurs... Mais j'entends qu'on s'avance, </l>
+	<l id='902'>Messieurs, un petit air avant que l'on commence. </l>
+<stage>Les violons jouent ; et, les violons jouant, les messieurs prennent place.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Cléopâtre, Charmion.</head>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE, représentée par Ragotin.</speaker>
+<note type="C">Les scènes qui suivent sont la parodie de la tragédie de Cléopâtre, de Chapelle, représentée pour la première fois le 12 décembre 1681 à l'Hôtel Guénégaud. </note>
+	<l id='903'>Non, non, je veux mourir ; ne m'en empêche pas. </l>
+	<l id='904' part='i'>Ah ! ah ! </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION, représentée par le Décorateur.</speaker>
+	<l id='904' part='f'>Le vilain ton ! Prenez-le un peu plus bas. </l>
+	<l id='905'>Ce n'est point là pleurer, c'est miauler, princesse. </l>
+</sp>
+<sp who='CLÉOPATRE'><speaker>CLÉOPATRE.</speaker>
+	<l id='906' part='i'>Je veux miauler, moi. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='906' part='f'>D'où vient cette tristesse ? </l>
+	<l id='907'>Quelle raison vous fait négliger vos appas ? </l>
+	<l id='908'>En quel état ici paraissez-vous ? Hélas ! </l>
+	<l id='909'>Une reine d'Egypte en habit d'Espagnole ! </l>
+	<l id='910'>On va vous prendre ainsi pour Jeanneton la folle. </l>
+	<l id='911'>Allez couvrir ce corps d'un autre accoutrement ;</l>
+	<l id='912'>Dans votre garde-robe entrons vite un moment ;</l>
+	<l id='913'>Venez vermillonner ce visage de plâtre. </l>
+</sp>
+<sp who='CLÉOPATRE'><speaker>CLÉOPATRE.</speaker>
+	<l id='914'>Nourrice, au nom des dieux, laisse là Cléopâtre ;</l>
+	<l id='915' part='i'>Elle ne pense plus qu'à mourir. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='915' part='f'>À mourir ? </l>
+</sp>
+<sp who='CLÉOPATRE'><speaker>CLÉOPATRE.</speaker>
+	<l id='916'>De noirs pressentiments viennent m'en avertir. </l>
+	<l id='917'>J'ai songé cette nuit un songe épouvantable : </l>
+	<l id='918'>En tombant, mon miroir s'est cassé sur ma table ;</l>
+	<l id='919'>Mon lacet s'est rompu, mon collier défilé ;</l>
+	<l id='920'>Antoine, étant venu chez moi, s'en est allé ;</l>
+	<l id='921'>Je me suis mise au bain, l'eau paraissait bourbeuse ;</l>
+	<l id='922'>Le ciel brillait d'éclairs, la mer était grondeuse ;</l>
+	<l id='923'>De funestes oiseaux frappaient l'air de leurs cris ;</l>
+	<l id='924'>J'ai vu des loups-garous, des hiboux, des esprits ;</l>
+	<l id='925'>Octave s'est rendu maître d'Alexandrie ;</l>
+	<l id='926'>Moi, pour me dérober à sa juste furie, </l>
+	<l id='927'>J'ai couru me cacher dans ces fameux tombeaux, </l>
+	<l id='928'>Où de feu mes aïeux sont les tristes lambeaux... </l>
+	<l id='929'>Tu me suivais partout, lorsque, las de combattre, </l>
+	<l id='930'>Antoine m'a crié : "Je me meurs, Cléopâtre ! </l>
+	<l id='931'>Et vite à moi, je suis vilainement blessé ;</l>
+	<l id='932'>D'un grand coup de canon j'ai l'intestin percé ;</l>
+	<l id='933'>À séparer nos coeurs le sort têtu s'acharne." </l>
+	<l id='934'>J'ai mis, à ces grands cris, la tête à la lucarne : </l>
+	<l id='935'>Charmion, qu'ai-je vu ? J'ai vu ce conquérant, </l>
+	<l id='936'>Ce héros, invalide, affreux, pâle, et mourant, </l>
+	<l id='937'>Ranimer à mes yeux ses forces languissantes, </l>
+	<l id='938'>Sangloter, et vers moi tendre ses mains sanglantes. </l>
+	<l id='939'>Que te dirai-je enfin ? Tes soins officieux </l>
+	<l id='940'>Ont réduit en cordons nos voiles précieux ;</l>
+	<l id='941'>On l'en a garrotté : les chemises trempées, </l>
+	<l id='942'>À le tirer à nous nous étions occupées ;</l>
+	<l id='943'>Courbant sous ce fardeau, les ampoules aux mains, </l>
+	<l id='944'>Chacun, en maugréant, accusait les destins </l>
+	<l id='945'>De voir en l'air pendu ce grand foudre de guerre, </l>
+	<l id='946'>Quand la corde se rompt : crac, pouf, il tombe à terre : </l>
+	<l id='947' part='i'>Voilà mon songe. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='947' part='f'>Ah, ciel ! j'en frissonne pour vous ;</l>
+	<l id='948'>Mais rengainez vos pleurs, Antoine vient à nous. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Antoine, Cléopâtre, Charmion.</head>
+<sp who='CLÉOPATRE'><speaker>CLÉOPATRE.</speaker>
+	<l id='949'>Que présage à mes yeux ce teint brun, cet oeil louche ? </l>
+	<l id='950'>Qui vous fait larmoyer ? Antoine, ouvrez la bouche, </l>
+	<l id='951' part='i'>Qu'avez-vous ? </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE, représenté par L'Olive.</speaker>
+<note type="L">Tintouins : se dit aussi figurémment et bassement, d'une inquiétude d'esprit. [F]</note>
+	<l id='951' part='f'>De tintoins mon esprit est rongé ! </l>
+	<l id='952'>Par Octave de près je me trouve assiégé. </l>
+	<l id='953'>Ce petit sot me taille ici de la besogne, </l>
+<note type="L">Camus : pour dire qu'un homme a été bien trompé, qu'il est déçu de ses prétentions; qu'il est bien honteux. [F]</note>
+	<l id='954'>Et m'en voilà camus comme un chien de Boulogne. </l>
+	<l id='955' part='i'>Mais Éros vient à nous. </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='955' part='f'>Ciel ! Qu'il paraît troublé ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Antoine, Cléopâtre, Éros, Charmion.</head>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='956'>À ce coup vous voilà comme un baudet sanglé, </l>
+	<l id='957'>Sire. Nous nous étions rangés sur les murailles </l>
+<note type="L">Zéro : on dit proverbialement qu'une homme est un zéeo pour dire que d'est un homme intuile dont on ne fait aucun état, dont on ne compte point le voix.</note>
+	<l id='958'>Pour ouïr un zéro, qui nous a dit : « Canailles, </l>
+	<l id='959'>Écoutez-moi : Je viens de la part de César, </l>
+	<l id='960'>Qui vous époustera comme il faut, tôt ou tard, </l>
+	<l id='961'>Si vous ne lui livrez cette reine fichue, </l>
+	<l id='962'>Pour qui le grand Antoine a si fort la berlue, </l>
+	<l id='963'>Et qui l'a débauché. Sauvez-vous à ce prix. » </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='964' part='i'>Il a dit cela ? </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='964' part='f'>Bon ! il a dit cent fois pis. </l>
+	<l id='965'>De tous les vilains noms qu'attire sur sa tête, </l>
+	<l id='966'>Au milieu de la halle, une bourgeoise en crête, </l>
+	<l id='967'>Les nommant, sans tourner tout droit autour du pot, </l>
+	<l id='968'>Il n'en a pas perdu le moindre petit mot. </l>
+	<l id='969'>Dame, à ce compliment, prenant, grattant sa tête, </l>
+	<l id='970'>Chacun a mis de l'eau dans son vin. « La requête </l>
+<note type="L">Berniquet : envoyer quelqu'un au berniquet ; pour dire , qu'il est ruiné, qu'il a mal fait ses affaires.</note>
+	<l id='971'>Est juste, a-t-on crié. Qu'Antoine, au berniquet </l>
+<note type="L">Caquet : Abondance de paroles inutiles qui n'ont point de solidité. [F] </note>
+	<l id='972'>Envoyant Cléopâtre, abaisse son caquet : </l>
+	<l id='973'>Rompre avec une femme est une bagatelle. » </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='974'>Moi, quitter ces beaux yeux ! Que ferais-je sans elle ? </l>
+	<l id='975'>M'arracher de son lit ! Moi, moi, la planter là ! </l>
+	<l id='976'>On me verra plutôt, j'en jure, avant cela, </l>
+<note type="L">Estropiat : soldat qui a perdu quelque memebre à la guerre, et qui se sert de ce prétexte pour mendier.</note>
+	<l id='977'>Cul-de-jatte, estropiat, impotent ; c'est tout dire. </l>
+	<l id='978'>Je vous défendrai mieux que je n'ai fait l'empire. </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+<note type="L">Assotté : rendu sot, entêté, infatué,. [F]</note>
+	<l id='979'>"Assotté comme il est de ses folles amours, </l>
+	<l id='980'>Antoine est assez fat pour la garder toujours",</l>
+	<l id='981'>A-t-on dit. À ces mots, tous vos romains gendarmes </l>
+	<l id='982'>Dégringolant les murs, et boutant bas les armes, </l>
+	<l id='983'>Ont au camp de César couru comme des chiens : </l>
+	<l id='984'>Il ne vous reste plus que vos Egyptiens, </l>
+	<l id='985' part='i'>Encore ont-ils bien peur. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='985' part='f'>Mon nom leur doit suffire ;</l>
+	<l id='986'>Ils ne sont point vaincus, puisque Antoine respire ;</l>
+	<l id='987'>Tant que dans l'univers il pourra respirer, </l>
+	<l id='988'>Il vivra : de cela courez les assurer ;</l>
+	<l id='989'>Et, pour chasser la peur dont leur âme est saisie, </l>
+	<l id='990'>Qu'on leur donne à chacun pour un sou d'eau-de-vie. </l>
+	<l id='991' part='i'>Allez ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Antoine, Charmion, Cléopâtre.</head>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='991' part='f'>Il n'est plus temps de rien dissimuler : </l>
+	<l id='992'>Pour la dernière fois nous allons nous parler, </l>
+	<l id='993'>Mamour ; il faut crever, et ma perte est certaine. </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='994' part='i'>Quoi ! Toinon... </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='994' part='f'>Par vos pleurs n'augmentez point ma peine ;</l>
+	<l id='995'>Je n'en veux pourtant pas fermer les réservoirs;</l>
+	<l id='996'>C'est ici que sied bien l'usage des mouchoirs. </l>
+	<l id='997'>Pleurons, pleurons. Ah, sort ! Quelle est pour moi ta haine ! </l>
+	<l id='998'>Adieu, ma chère enfant ; adieu, ma pauvre reine ;</l>
+	<l id='999'>Nous ne nous verrons plus. Avant que de partir, </l>
+	<l id='1000'>J'ai cru de votre sort vous devoir avertir. </l>
+	<l id='1001' part='i'>Le Romain est brutal ; il viole. </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1001' part='f'>Qu'importe ? </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1002'>Vous m'attendrissez trop ;il est temps que je sorte. </l>
+	<l id='1003' part='i'>Adieu. </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1003' part='m'>Quoi ! Mon bouchon... </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1003' part='f'>Ne suivez point mes pas. </l>
+	<l id='1004'>Je vais là-bas, avant que de voir mes soldats, </l>
+	<l id='1005'>Boire un coup de vin pur pour rassurer mon âme, </l>
+	<l id='1006'>Et noyer dans ce jus le trouble... Adieu, madame. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Cléopâtre, Charmion.</head>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1007' part='i'>Hélas ! Ah, ciel ! Sort ! Dieux !</l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1007' part='f'>Que de termes divers ! </l>
+	<l id='1008'>En voilà pour orner du moins quarante vers </l>
+	<l id='1009'>Des poètes du temps ; madame, êtes- vous folle ? </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1010'>Le ciseau des douleurs me coupe la parole. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1011'>Le sort, dont votre coeur est si favorisé, </l>
+	<l id='1012'>Ne va donner taloche à cet amant usé, </l>
+	<l id='1013'>Que pour vous en donner un autre jeune et brave, </l>
+	<l id='1014' part='i'>Octave, en un mot... </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1014' part='f'>Moi, je charmerais Octave ! </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1015'>Pourquoi non ? Tout vous flatte, et c'est votre destin </l>
+	<l id='1016'>D'avoir toujours en poche un Empereur Romain. </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1017'>L'amour fait dans mon coeur d'étranges cabrioles. </l>
+	<l id='1018'>Mais ne me fais-tu point de promesses frivoles ? </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1019'>Non. Pour plaire à César allez vous ajuster, </l>
+	<l id='1020'>Poudrez-vous les cheveux, faites-les frisotter. </l>
+	<l id='1021'>Votre page paraît ; je prends soin de l'ouvrage. </l>
+	<l id='1022' part='i'>Soyez triste, et sortez tôt. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Cléopâtre, Charmion, Le Page.</head>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1022' part='f'>Soutenez-moi, page. </l>
+</sp>
+<sp who='LE-PAGE'><speaker>LE PAGE, ou Bouvillon.</speaker>
+	<l id='1023'>Madame, entrez chez vous, je crains que vous tombiez, </l>
+	<l id='1024'>Vous ne me semblez pas trop ferme sur vos jambes. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE, se levant.</speaker>
+	<l id='1025' part='i'>Pieds, ignorant. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='1025' part='f'>Eh bien ! Pieds ou jambes, qu'importe ? </l>
+	<l id='1026' part='i'>L'un vaut l'autre. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1026' part='f'>A-t-on vu rimer de cette sorte, </l>
+	<l id='1027' part='i'>Bourreau ? </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='1027' part='f'>Je m'en bats l'oeil. Suis-je un comédien ? </l>
+	<l id='1028' part='i'>Qu'un autre fasse mieux ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1028' part='f'>Poursuivez ; ce n'est rien. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION, riant.</speaker>
+	<l id='1029' part='i'>Je n'en puis plus. </l>
+</sp>
+<sp who='BLAISE-BOUVILLON'><speaker>BLAISE BOUVILLON.</speaker>
+	<l id='1029' part='f'>On rit de moi-même à ma face. </l>
+	<l id='1030'>Messieurs les baladins, avant que le jour passe, </l>
+	<l id='1031'>J'étrillerai quelqu'un, et sur un autre ton. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1032'>Coquin, veux-tu rentrer ? Si je prends un bâton... </l>
+	<l id='1033' part='i'>Poursuivez. </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Charmion, Éros.</head>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1033' part='f'>Éros vient, qui cherche Cléopâtre. </l>
+	<l id='1034' part='i'>Que fait Antoine ? </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1034' part='f'>Antoine est battu comme plâtre. </l>
+</sp>
+<sp who='CHARMION'><speaker>CHARMION.</speaker>
+	<l id='1035' part='i'>Et Cléopâtre est morte, adieu. </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1035' part='f'>Bonsoir, quel cas... </l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Antoine, Éros.</head>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1036'>Vous m'ôtez mon épée ; ah ! Coquins ! Qcélérats ! </l>
+	<l id='1037'>Éros, que fait la reine ? Où faut-il que ma gloire... </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1038'>La reine Cléopâtre a passé l'onde noire. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1039' part='i'>Elle est morte ? </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1039' part='m'>À peu près. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1039' part='f'>Est-il vrai, ce malheur ? </l>
+	<l id='1040' part='i'>Ciel ! </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1040' part='f'>Elle-même a dit qu'elle l'était, Seigneur. </l>
+	<l id='1041'>Je la vis l'autre jour aiguiser une dague : </l>
+	<l id='1042'>Elle a pu dans son sein, en faisant zague, zague... </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1043'>Mourons donc, cher Éros. Près d'Antoine assidu, </l>
+	<l id='1044'>Il te souvient du jour où l'on t'aurait pendu </l>
+	<l id='1045'>Pour avoir déserté. Je te donnai la vie, </l>
+	<l id='1046'>Pour me faire mourir quand j'en aurais l'envie. </l>
+	<l id='1047'>Frappe donc. Tu pâlis ! Quelle peur te retient ? </l>
+	<l id='1048' part='i'>Ne te souvient-il plus... </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1048' part='f'>Oui-dà, il m'en souvient. </l>
+	<l id='1049'>Non qu'à votre beau corps je veuille faire brèche ;</l>
+	<l id='1050'>Mais, tenez, faites-vous un licol de ma mèche, </l>
+	<l id='1051'>Dans un endroit bien haut je vous attacherai, </l>
+	<l id='1052'>Puis après par les pieds je vous brandouillerai, </l>
+	<l id='1053' part='i'>Et vous deviendrez mort. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1053' part='f'>Non ; il faut ton épée. </l>
+	<l id='1054'>Frappe, Éros, ne rends pas mon attente trompée. </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1055'>Vous donner le trépas, c'est vous faire mourir;</l>
+	<l id='1056'>Je vous dois seulement l'exemple de courir : </l>
+	<l id='1057' part='i'>Imitez-moi. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1057' part='f'>Demeure, achève ton ouvrage. </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1058'>Eh bien ! Détournez donc cet auguste visage : </l>
+	<l id='1059'>Me voilà prêt, Seigneur, selon votre désir, </l>
+	<l id='1060'>À vous assassiner pour vous faire plaisir : </l>
+	<l id='1061'>N'ayez point peur, je vais vous percer la bedaine. </l>
+</sp>
+<sp who='ANTOINE'><speaker>ANTOINE.</speaker>
+	<l id='1062'>Arrête, il ne faut pas ensanglanter la scène ;</l>
+	<l id='1063'>La règle le défend. Il m'en souvient, hola ! </l>
+</sp>
+<sp who='ÉROS'><speaker>ÉROS.</speaker>
+	<l id='1064' part='i'>Qu'importe si la règle... </l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X. Antoine, Éros, Ragotin, en costume de Cléopâtre, La Baguenaudière, etc.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1064' part='f'>Ha, ha, ha, ha, ha, ha ! </l>
+	<l id='1065'>La pauvre Cléopâtre est bien défigurée ;</l>
+	<l id='1066'>Vous voyez comme on l'a dans ces lieux accoutrée. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1067' part='i'>Et qui donc ? </l>
+</sp>
+<sp who='CLÉOPÂTRE'><speaker>CLÉOPÂTRE.</speaker>
+	<l id='1067' part='f'>Un bélier altéré de mon sang, </l>
+	<l id='1068'>Au scandale des lois, au mépris de mon rang, </l>
+	<l id='1069'>Insensé, du respect ayant franchi les bornes, </l>
+	<l id='1070'>Entre les deux yeux juste il m'a planté ses cornes. </l>
+	<l id='1071' part='i'>J'en demande vengeance. </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Les acteurs précédents, Ragotin, Isabelle.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1071' part='f'>Ah, mon père ! Au jardin, </l>
+	<l id='1072'>Monsieur Bouvillon vient d'attaquer Le Destin : </l>
+	<l id='1073' part='i'>Ils sont aux mains. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1073' part='f'>Allons empêcher ce carnage. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1074'>Oh, juste ciel ! J'ai fait un bel apprentissage. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Ragotin, La Rancune.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1075'>Le Destin s'est, dit-on, battu comme un lion, </l>
+	<l id='1076'>Et, ma foi ! C'était fait de Biaise Bonvillon, </l>
+	<l id='1077'>Si d'une prompte fuite il n'avait pris la voie. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1078'>S'il eût été tué, que j'aurais eu de joie ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1079'>Est-ce que Bouvillon te choque ou t'a rendu... </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1080'>Non ; c'est que Le Destin aurait été pendu. </l>
+	<l id='1081'>Depuis que d'un soufflet il m'a donné la touche, </l>
+	<l id='1082'>Pour quelque démenti prononcé par ma bouche, </l>
+	<l id='1083'>Quoiqu'à nous embrasser on ait vu ma ferveur, </l>
+	<l id='1084'>Ce soufflet m'est toujours demeuré sur le coeur ; </l>
+	<l id='1085'>Et sans cesse en secret sensible à cette offense... </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1086'>Ah ! pour un temps, ami, suspens cette vengeance, </l>
+	<l id='1087'>Jusqu'à ce que tes soins, propices à mon coeur, </l>
+	<l id='1088'>À m'être favorable accoutument sa soeur. </l>
+	<l id='1089'>Je l'aime, et si tu n'as pitié de ma souffrance, </l>
+	<l id='1090'>Dans deux jours il n'est plus de Ragotin en France. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1091'>Pour vous servir je veux oublier mon courroux,</l>
+	<l id='1092'>Et pour vous témoigner combien je suis à vous, </l>
+	<l id='1093'>Je vais vous en donner la marque la plus tendre </l>
+	<l id='1094'>Que d'un coeur généreux un ami puisse attendre. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1095'>De trop d'honnêteté c'est me favoriser. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1096'>Je n'en userais pas comme j'en vais user, </l>
+	<l id='1097'>Si je ne vous aimais autant que je vous aime, </l>
+	<l id='1098'>Et ne vous regardais comme un autre moi-même. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1099' part='i'>Je te suis obligé. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1099' part='f'>Ce que vous allez voir </l>
+	<l id='1100'>Vous montrera sur moi quel est votre pouvoir. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1101'>Parle, achève, mon cher, de me combler de joie. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1102'>N'auriez-vous point sur vous dix écus de monnaie ? </l>
+	<l id='1103'>Prêtez-les-moi. Parbleu ! Je suis garçon de coeur ;</l>
+	<l id='1104' part='i'>Je ne les prendrais pas d'un autre. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1104' part='f'>Trop d'honneur ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1105'>Si je n'avais pour vous une ardeur singulière, </l>
+	<l id='1106'>Je ne vous ferais pas une telle prière. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, tirant d'un bourson.</speaker>
+	<l id='1107'>Je le crois. Tiens, voilà déjà demi-louis. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1108'>Les amis, au besoin, sont toujours les amis : </l>
+	<l id='1109'>Je n'emprunterais pas d'aucun autre une obole. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, tirant d'une bourse de sa poche.</speaker>
+	<l id='1110'>Oh ! Ce demi-louis avec cette pistole ;</l>
+	<l id='1111'>Et puis ces trente sous, cela fait six écus. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1112' part='i'>Est-elle de poids ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1112' part='m'>Oui. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1112' part='f'>Dans deux jours tout au plus, </l>
+	<l id='1113'>Employant tous mes soins près de votre maîtresse, </l>
+	<l id='1114'>Vous entendrez parler pour vous de mon adresse. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, tirant de l'autre poche.</speaker>
+	<l id='1115'>Voilà trois écus blancs, qui font neuf justement. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1116'>Ma foi ! Vous m'avez plu tantôt infiniment </l>
+	<l id='1117' part='i'>Dans le rôle... </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Ragotin, La Rancune, Un Laquais.</head>
+<sp who='LE-LAQUAIS'><speaker>LE LAQUAIS.</speaker>
+	<l id='1117' part='f'>Monsieur de La Baguenaudière </l>
+	<l id='1118'>De le venir trouver vous fait une prière. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1119'>J'y cours. Ah ! Que n'ai-je eu plus tôt cet ordre-ci ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='LA RANCUNE'><speaker>LA RANCUNE, à Ragotin qui s'en va.</speaker>
+	<l id='1120'>Au moins vous me devez un écu, songez-y. </l>
+	<l id='1121'>Je vois venir L'Étoile, et son frère avec elle : </l>
+	<l id='1122'>De bien près, ce me semble, il obsède Isabelle. </l>
+	<l id='1123'>Serait-il assez fou pour oser l'enlever ? </l>
+	<l id='1124'>Tout aujourd'hui de près je la veux observer. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. L'Étoile, Le Destin.</head>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1125'>Oui, je n'ai feint tantôt que je m'étais blessée, </l>
+	<l id='1126'>Qu'afin qu'en se rangeant dans ma chambre, emressée, </l>
+	<l id='1127'>Madame Bouvillon m'expliquât en effet </l>
+	<l id='1128'>Tout ce qu'elle pensait de vous et du billet. </l>
+	<l id='1129'>Heureusement, vous dis-je, elle l'a pris pour elle ;</l>
+	<l id='1130' part='i'>Elle vous cherche. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1130' part='f'>Allons, entrons chez Isabelle. </l>
+	<l id='1131'>Tantôt, sans Bouvillon, j'eusse été loin de vous.</l>
+	<l id='1132'>Ses coups, que j'imputais à son dépit jaloux </l>
+	<l id='1133'>De voir entre mes mains l'objet qui sait lui plaire, </l>
+	<l id='1134' part='i'>M'ont fait... </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1134' part='f'>Songez à vous, je vois venir sa mère. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Madame Bouvillon, L'Étoile, Le Destin.</head>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1135'>Pour savoir le détail de ce qui s'est passé, </l>
+	<l id='1136'>Je vous cherche. Eh, mon Dieu ! N'êtes-vous point blessé ?</l>
+	<l id='1137'>Contre ce fils ingrat juste est votre colère;</l>
+	<l id='1138'>Mais ne la faites point passer jusqu'à sa mère. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1139'>Je pouvais aisément lui donner le trépas ;</l>
+	<l id='1140'>Mais mon respect pour vous a retenu mon bras. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1141'>Hélas ! Dans ce moment je m'amusais à lire </l>
+	<l id='1142'>Certain billet galant que vous veniez d'écrire. </l>
+	<l id='1143'>Vous rougissez ! Non, non, bien loin d'être perdu, </l>
+	<l id='1144'>Au gré de vos souhaits le hasard l'a rendu ; </l>
+	<l id='1145'>Il est entre des mains qui vous sont favorables. </l>
+	<l id='1146'>Vous devez quelque grâce à mes soins charitables ;</l>
+	<l id='1147'>Venez, pour dissiper le trouble où je vous vois, </l>
+	<l id='1148'>Parler de ce billet, au jardin, avec moi. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1149'>J'ai de vous obéir une ardeur singulière ;</l>
+	<l id='1150' part='i'>Mais je crains... </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1150' part='m'>Quoi ? </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1150' part='f'>Monsieur de LaBaguenaudière. </l>
+	<l id='1151'>Vous savez quels travers il s'est mis dans l'esprit ;</l>
+	<l id='1152'>J'en suis la seule cause, et vous me l'avez dit. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1153'>Ne craignez rien. Monsieur de La Baguenaudière, </l>
+	<l id='1154'>Sur qui mon bien me donne une puissance entière, </l>
+	<l id='1155'>Dans un moment ou deux, va, par mon ordre, au Mans, </l>
+	<l id='1156'>Inviter un parent de se rendre céans. </l>
+	<l id='1157'>J'ai su trouver exprès ce devoir de famille ;</l>
+	<l id='1158'>Il va dans un moment partir avec sa fille. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1159' part='i'>Avec Isabelle ? </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1159' part='f'>Oui. Sans crainte désormais... </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1160'>Mais, Madame, céans vous avez des valets. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1161'>Eh bien ! Pour vous parer tous deux d'une surprise, </l>
+	<l id='1162'>En allant au jardin que chacun se déguise. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1163' part='i'>Elle a raison. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1163' part='f'>Prenez quelques voiles épais, </l>
+	<l id='1164'>Qui vous puissent cacher aux yeux de vos valets ;</l>
+	<l id='1165'>Moi, j'aurai soin aussi de déguiser mon frère. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1166'>Aux yeux des surveillants peut-on mieux se soustraire ?</l>
+	<l id='1167' part='i'>J'y cours.</l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Le Destin, L'Étoile.</head>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1167' part='f'>Ah ciel ! À quoi m'engagez-vous, ma soeur ? </l>
+	<l id='1168'>Pour servir votre amour je flatte son erreur : </l>
+	<l id='1169'>De ce déguisement j'ai trouvé le mystère, </l>
+	<l id='1170'>Afin de l'obliger à nous laisser, mon frère. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Isabelle, Le Destin, L'Étoile.</head>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1171'>Je vous cherchais : mon père, en mon appartement, </l>
+	<l id='1172'>D'aller au Mans sans lui m'a fait commandement. </l>
+	<l id='1173'>D'où vient qu'à ce voyage ainsi seule il m'expose ? </l>
+	<l id='1174' part='i'>Est-ce pour m'éprouver ?... </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1174' part='f'>Non ; en voici la cause : </l>
+	<l id='1175'>Il m'est venu prier d'une collation </l>
+	<l id='1176'>'Qu'il voulait me donner au petit pavillon. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1177'>Quel bonheur ! Ce voyage enfin nous favorise, </l>
+	<l id='1178'>Il me va donner lieu d'achever l'entreprise, </l>
+	<l id='1179' part='i'>Puisque vous allez seule. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1179' part='f'>Ah ! Ne vous trompez pas : </l>
+	<l id='1180'>Une vieille parente accompagne mes pas ;</l>
+	<l id='1181'>Et monsieur Ragotin pareillement. Mon père </l>
+	<l id='1182'>L'a prié de cela : je ne puis m'en défaire ;</l>
+	<l id='1183'>Il m'attend au carrosse, et va venir ici </l>
+	<l id='1184'>Si je tarde un moment encore, et... le voici. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1185'>À l'arrêter ici mettez tout en usage, </l>
+	<l id='1186' part='i'>Ma soeur ; n'épargnez rien... </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1186' part='f'>À cela je m'engage : </l>
+	<l id='1187'>Sortez, allez attendre Isabelle ici près, </l>
+	<l id='1188'>Courez ; et vous, songez à le suivre de près. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1189'>Juste ciel ! La frayeur s'empare de mon âme.. </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Isabelle, L'Étoile, Ragotin.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1190'>Le carrosse attelé de trois chevaux, Madame, </l>
+	<l id='1191'>Et la tante, après vous attendent pour partir. </l>
+	<l id='1192'>Elle m'envoie exprès pour vous en avertir. </l>
+<stage>Elle fait signe à Isabelle de s'en aller, et arrête Ragotin.</stage>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1193' part='i'>Vous allez donc au Mans ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1193' part='f'>Oui, beauté printanière. </l>
+	<l id='1194'>De la part de monsieur de La Baguenaudière, </l>
+	<l id='1195' part='i'>Je... </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1195' part='f'>Monsieur Ragotin part, et ne me vient pas </l>
+	<l id='1196'>Demander, lui qu'on voit charmé de mes appas, </l>
+	<l id='1197'>Si je n'ai point besoin au Mans de quelque emplette. </l>
+	<l id='1198' part='i'>Quel galant ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1198' part='f'>En cela si ma bouche est muette, </l>
+	<l id='1199'>C'est que chaque pays pour tout ne sont pas bons. </l>
+	<l id='1200'>Du Mans il ne vient rien d'exquis que des chapons ;</l>
+	<l id='1201' part='i'>Ce n'est pas votre fait. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1201' part='f'>J'ai besoin de dentelles ;</l>
+	<l id='1202'>J'en vis chez un marchand l'autre jour de fort belles : </l>
+	<l id='1203' part='i'>Faites-les acheter. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1203' part='f'>Isabelle est là-bas, </l>
+	<l id='1204'>Elle m'attend, j'y cours : sans tout cet embarras, </l>
+	<l id='1205'>Votre commission occuperait mon âme. </l>
+	<l id='1206'>Une autre fois au Mans exprès pour vous, Madame, </l>
+	<l id='1207' part='i'>Je me rendrai. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE.</speaker>
+	<l id='1207' part='f'>Comment ! J'en ai besoin ce soir ;</l>
+	<l id='1208'>Je m'en vais vous donner de l'argent pour l'avoir. </l>
+	<l id='1209'>Tirez-moi ma cassette, elle est dans cette caisse. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1210'>Volontiers, mais en vain je la cherche et me baisse ;</l>
+	<l id='1211'>La cassette à mes yeux ne s'offre point ici. </l>
+</sp>
+<sp who='L-ÉTOILE'><speaker>L'ÉTOILE, le voyant à demi-corps dans la caisse.</speaker>
+	<l id='1212'>Cherchez bien. Du dessus du coffre que voici, </l>
+	<l id='1213'>Faisons un trébuchet au pauvre petit homme ;</l>
+	<l id='1214' part='i'>Qu'il s'en retire après. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1214' part='f'>Ce couvercle m'assomme, </l>
+	<l id='1215'>Mademoiselle, et tôt, levez-le ; il pèse fort. </l>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>SCÈNE IX. Le Baguenaudière, Ragotin.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE, enveloppé d'un manteau.</speaker>
+	<l id='1216'>Pour me servir, amour, fais de grâce un effort. </l>
+	<l id='1217'>Madame Bouvillon me croit loin du village : </l>
+	<l id='1218'>De ce vaste manteau couvrons-nous le visage ;</l>
+	<l id='1219' part='i'>Allons prendre L'Étoile. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, dans la caisse.</speaker>
+	<l id='1219' part='f'>Aye ! Ouf ! Je vais mourir. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1220' part='i'>Qu'entends-je ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1220' part='m'>Et vite à moi ! Tôt ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1220' part='f'>Sans nous découvrir, </l>
+	<l id='1221'>Allons débarrasser ce pauvre petit homme. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN, sortant de la caisse.</speaker>
+	<l id='1222'>Si... Que vois-je ? L'Étoile est changée en fantôme ! </l>
+	<l id='1223'>Ne serait-ce point lui qui vient de me coffrer ? </l>
+	<l id='1224'>Que n'ai-je un instrument propre pour balafrer ! </l>
+	<l id='1225'>Mais vengeons-nous des poings. Ah ! Le traître m'accable : </l>
+	<l id='1226'>Sauvons-nous ; ce n'est pas un homme, c'est un diable. </l>
+</sp>
+</div2>
+<div2 type='scene' n='10'><head>SCÈNE X.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1227'>Avant qu'aller au Mans, ce fat s'est enivré. </l>
+	<l id='1228'>Parbleu ! si ce bâton ne m'en eût délivré, </l>
+	<l id='1229'>De mon déguisement il eût percé le voile : </l>
+	<l id='1230'>Mais pour notre repos allons chercher l'Étoile. </l>
+</sp>
+</div2>
+<div2 type='scene' n='11'><head>SCÈNE XI. Madame Bouvillon, La Baguenaudière.</head>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON, avec un voile.</speaker>
+	<l id='1231'>Le Destin au berceau n'a point frappé mes yeux, </l>
+	<l id='1232'>Et son retardement me ramène en ces lieux. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1233'>Que j'aurai de plaisir !... Mais la voici : c'est elle.</l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1234' part='i'>Le voilà ; j'avais tort de soupçonner son zèle. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1234' part='f'>Est-ce vous ? </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1235'>Oui, c'est moi. Mais, vous-même, est-ce vous ?</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1236'>C'est moi-même, ravi d'avoir ce rendez-vous. </l>
+	<l id='1237'>Souffrez que mon amour à vos yeux se déploie. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1238'>Souffrez que vos regards soient témoins de ma joie. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE, ôtant son manteau.</speaker>
+	<l id='1239' part='i'>Sincère est mon ardeur. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON, otant son voile.</speaker>
+	<l id='1239' part='f'>Pure est ma passion. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1240' part='i'>Ah ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1240' part='m'>Ah ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1240' part='f'>Ah ! C'est donc vous, madame Bouvillon ? </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1241'>Ah ! C'est donc vous, monsieur de La Baguenaudière ? </l>
+	<l id='1242'>Vous croyiez voir ici L'Étoile poussinière. </l>
+	<l id='1243'>Sachant bien que pour elle on me manquait de foi, </l>
+	<l id='1244'>J'ai feint exprès ainsi pour en juger par moi. </l>
+</sp>
+</div2>
+<div2 type='scene' n='12'><head>SCÈNE XII. La Baguenaudière, Madame Bouvillon, Ragotin.</head>
+<sp who='RAGOTIN'><speaker>RAGOTIN, le pied dans un pot de chambre.</speaker>
+	<l id='1245'>Ne trouverai-je ici qu'outrage sur outrage ? </l>
+	<l id='1246'>Maudit château ! Maudit amour ! Maudit voyage ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1247'>Qui vous oblige donc d'avoir ce piédestal ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1248' part='i'>Ah ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1248' part='f'>Qui vous fait marcher sur ce pied de métal ? </l>
+	<l id='1249'>Et pourquoi fuir monsieur de La Baguenaudière ? </l>
+	<l id='1250'>C'est qu'un diable tantôt fait de même manière, </l>
+	<l id='1251'>Mais mille fois plus grand, a chargé sur mon dos </l>
+	<l id='1252'>Cent millions de coups d'un bâton court et gros ;</l>
+	<l id='1253'>J'ai fui, croyant l'avoir incessamment en queue, </l>
+	<l id='1254'>Faisant à chaque pas un demi-quart de lieue, </l>
+	<l id='1255'>Tout hérissé de peur, lorsque j'ai rencontré </l>
+	<l id='1256'>Un maudit pot de chambre où mon pied est entré. </l>
+	<l id='1257'>Aux cris que j'ai poussés, gémissant de faiblesse, </l>
+	<l id='1258'>Un chien est survenu qui m'a mordu la fesse ;</l>
+	<l id='1259'>Mais je n'ai point songé qu'à ce pied empoté, </l>
+	<l id='1260'>Que si vilainement la fortune a botté. </l>
+	<l id='1261'>Je mettais vainement ce pied à la torture </l>
+	<l id='1262'>Pour chercher les moyens d'ôter cette chaussure, </l>
+	<l id='1263'>Quand un homme est venu de la part du Destin, </l>
+	<l id='1264'>Et d'Isabelle aussi, pour me remettre en main </l>
+	<l id='1265'>Le billet que voilà. Surpris à sa lecture, </l>
+	<l id='1266'>Oubliant tous les maux de ma triste aventure, </l>
+	<l id='1267'>J'ai fait de vous chercher mes plus fortes raisons </l>
+	<l id='1268'>Pour vous en faire part. Tenez, lisez. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1269' part='i'>Lisons. </l>
+<p id='1'>
+	<s id='1'>Monsieur Ragotin, ne vous donnez point la peine de me chercher pour vous charger de ma conduite. </s>
+	<s id='2'>Si mon père vous demande compte de la commission qu'il vous en a donnée, apprenez-lui que je suis entre les mains de Monsieur Le Destin, à qui j'ai donné ma foi, comme au seul homme qui s'est offert pour me délivrer du joug où m'allait jeter le mariage de Blaise Bouvillon, pour qui j'ai une aversion insurmontable. </s>
+</p>
+<p id='2'>
+	<s id='1'>Je suis, etc. </s>
+</p>
+	<l id='1269' part='f'>Je crois que ce perfide est de l'intelligence : </l>
+	<l id='1270'>Ton zèle a ménagé cette furtive absence,</l>
+	<l id='1271'>De ma fille tantôt tu m'avais répondu ;</l>
+	<l id='1272'>Tu m'as trahi, Judas ; mais tu seras pendu. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1273' part='i'>Pendu ! Moi ? </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1273' part='f'>Toi, pendu : diffamer ma famille, </l>
+	<l id='1274'>M'enlever une bru, faire un rapt de sa fille ;</l>
+	<l id='1275' part='i'>Pendu, pendu, pendu ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1275' part='f'>Je suis tout éperdu !</l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1276'>Il faut l'épouvanter ; pendu, pendu, pendu ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1277'>Quelle grêle de maux ! Ciel ! Pour les autres, passe ! </l>
+	<l id='1278'>Mais me voici tombé de fièvre en chaud mal ; grâce ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1279' part='i'>Abus ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1279' part='m'>Ayez pitié d'un avocat ! </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1279' part='f'>Chansons ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1280'>Apprends-moi leur retraite à l'instant, dépêchons, </l>
+	<l id='1281' part='i'>Ou... </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1281' part='m'>Moi, je n'en sais rien. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1281' part='f'>Pour changer de langage </l>
+	<l id='1282' part='i'>Holà ! Quelqu'un ! Allez, qu'on le pende ! </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1282' part='f'>À mon âge ! </l>
+	<l id='1283'>Avant que de me pendre, ayez de moi pitié;</l>
+	<l id='1284'>Tirez-moi, s'il vous plaît, cette épine du pied ;</l>
+	<l id='1285'>Je cours risque autrement, foi d'homme qui vous prie, </l>
+	<l id='1286'>D'en être estropié le reste de ma vie. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1287'>Puisqu'il ne parle pas, pendez-moi ce coquin. </l>
+</sp>
+</div2>
+<div2 type='scene' n='13'><head>SCÈNE XIII. Les acteurs précédents, La Rancune.</head>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1288'>Hélas ! Où traîne-t-on notre ami Ragotin ? </l>
+	<l id='1289'>Qu'a-t-il dit ? Qu'a-t-il fait ? Ne saurait-on l'apprendre ? </l>
+	<l id='1290' part='i'>Où va-t-on vous mener, mon cher ? </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1290' part='f'>On me va pendre : </l>
+	<l id='1291' part='i'>Et je ne sais comment me tirer de là. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1291' part='f'>Quoi ! </l>
+	<l id='1292'>J'ai deux mots importants à dire ; écoutez-moi.</l>
+	<l id='1293'>Suspendez jusque-là la sentence mortelle. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1294' part='i'>Pourquoi ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1294' part='f'>Nous nous aimons d'une amour fraternelle, </l>
+	<l id='1295'>Et je voudrais bien voir la grâce qu'il aura </l>
+<note type="L">Patibulaire : qui appartient au gibet. Les Seigneurs Heuts usticiers mettent des fourches patibulaires dans l'étendue de leurs terre. [F]</note>
+	<l id='1296'>Au bois patibulaire alors qu'on le pendra. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1297'>Ce coquin, au mépris de toute ma famille, </l>
+	<l id='1298'>A servi Le Destin pour enlever ma fille. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1299'>Si ce n'est que cela qui peut l'avoir perdu, </l>
+	<l id='1300'>De l'entendre au supplice, et de le voir pendu </l>
+	<l id='1301' part='i'>Nous n'aurons pas la joie. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1301' part='m'>Et d'où vient ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1301' part='f'>Apprenez-le : </l>
+	<l id='1302'>Sachant que Le Destin poursuivait Isabelle, </l>
+	<l id='1303'>Et que de l'enlever le drôle avait l'orgueil, </l>
+	<l id='1304'>Sur eux autour d'ici j'ai fait la guerre à l'oeil, </l>
+	<l id='1305'>Suivi de paysans, au bout de cette plaine;</l>
+	<l id='1306'>Comme ils allaient gagner la campagne prochaine, </l>
+	<l id='1307'>Je les ai fait saisir et ramener ici, </l>
+	<l id='1308'>Où vous allez bientôt les voir, et... les voici. </l>
+</sp>
+</div2>
+<div2 type='scene' n='14'><head>SCÈNE XIV. Les acteurs précédents, Le Destin, Isabelle.</head>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1309'>Approche, scélérat, approche, ingrate fille, </l>
+	<l id='1310'>Indigne rejeton d'une illustre famille ;</l>
+	<l id='1311'>Suivre un homme inconnu ! Toi, séduire un enfant ! </l>
+<note type="L">Guimpe : partie de l'habit d'une religieuse ; petit mouchoir rond d'une toile fine qui s'attache aux deux côtés de la tête et sert à couvrir la gorge [F]. Ici, sens métaphorique pour la corde du pendu.</note>
+	<l id='1312'>Un échafaud t'est sûr ; une guimpe t'attend. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1313'>C'est trop peu qu'un couvent pour sa peine afflictive ;</l>
+	<l id='1314'>Il faut dans un cachot l'enterrer toute vive. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1315'>Si notre amour mérite un supplice éternel, </l>
+	<l id='1316'>C'est moi qu'il faut punir, je suis seul criminel. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1317'>C'est de toi seul aussi que je prendrai vengeance. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1318'>Ah ! Mon père, songez que j'ai part à l'offense. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1319'>Il faut, sans balancer, qu'ils soient tous deux punis ;</l>
+	<l id='1320' part='i'>Mais, qui vient nous troubler ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='15'><head>SCENE XV. Les acteurs précédents, Le Décorateur.</head>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='1320' part='f'>Madame, votre fils </l>
+	<l id='1321'>Avecque son fusil, d'une audace assassine, </l>
+	<l id='1322'>Au malheureux L'Olive a percé la poitrine. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1323' part='i'>À mon père ? </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1323' part='f'>D'ennui ceci me va combler. </l>
+</sp>
+<sp who='LE-DÉCORATEUR'><speaker>LE DÉCORATEUR.</speaker>
+	<l id='1324'>Il se fait apporter ici pour vous parler, </l>
+	<l id='1325'>Ayant à vous parler d'une affaire importante. </l>
+	<l id='1326' part='i'>Mais le voici. </l>
+</sp>
+</div2>
+<div2 type='scene' n='16'><head>SCÈNE XVI. Les acteurs précédents, L'Olive.</head>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1326' part='f'>Madame, en un mot comme en trente, </l>
+	<l id='1327'>De grâce, écoutez-moi ; si proche du trépas, </l>
+	<l id='1328'>Ayant à vous parler, ne m'interrompez pas. </l>
+	<l id='1329'>À défunt votre époux il prit un jour envie </l>
+	<l id='1330'>Dans la maison des champs d'avoir la comédie ;</l>
+	<l id='1331'>Le mal d'enfant vous prit, et monsieur votre époux </l>
+	<l id='1332'>Fut père d'un garçon, ou crut l'être. Chez vous </l>
+	<l id='1333'>Accoucha le jour même une comédienne ;</l>
+	<l id='1334'>Cette femme accouchée aussi c'était la mienne : </l>
+	<l id='1335'>Elle fit un garçon, et je le crus de moi, </l>
+	<l id='1336'>Car la défunte était laide ; et, de bonne foi, </l>
+	<l id='1337'>Quoiqu'elle vît en moi sans cesse un beau modèle, </l>
+	<l id='1338'>Le fils qu'elle me fit était aussi laid qu'elle. </l>
+	<l id='1339'>Je pestais de bon coeur contre cette souillon, </l>
+	<l id='1340'>Quand je vis remuer le petit Bouvillon, </l>
+	<l id='1341'>Qui parut à mes yeux d'aussi belle structure, </l>
+	<l id='1342'>Que mon magot était de laide regardure. </l>
+	<l id='1343'>Il me prit de troquer une tentation. </l>
+	<l id='1344'>Votre avare nourrice, en cette occasion, </l>
+	<l id='1345'>À l'or de mes louis sensible plus qu'une autre, </l>
+	<l id='1346'>Se chargea de mon fils, et me donna le vôtre : </l>
+	<l id='1347'>Moi, dès le même instant, de peur qu'on en vît rien, </l>
+	<l id='1348'>J'emportai votre fils, et vous laissai le mien ;</l>
+	<l id='1349'>Si bien que cet ingrat, dont la fureur impie </l>
+	<l id='1350'>Par un coup détestable a fusillé ma vie, </l>
+	<l id='1351'>Est mon fils ; et le vôtre, élevé de ma main, </l>
+	<l id='1352'>À qui j'ai façonné l'esprit, c'est Le Destin. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1353'>Le Destin est mon fils ! Mon coeur en pâme d'aise ;</l>
+	<l id='1354'>Il faut que tout mon soûl je le baise et rebaise. </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1355'>Mais qui sait si cet homme a dit la vérité ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1356'>La nourrice, avec qui j'avais tout concerté, </l>
+	<l id='1357'>Est encore en ces lieux ; elle peut vous le dire. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1358'>J'en crois ce que pour lui la nature m'inspire. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1359'>Mais il faut vous panser : où vous a-t-on blessé ? </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1360'>Mon ami, j'ai le coeur d'outre en outre percé. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1361' part='i'>Je ne vois point de sang en nul endroit. </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1361' part='f'>N'importe ! </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1362' part='i'>Il n'est point blessé. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1362' part='m'>Non ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1362' part='f'>Non, le diable m'emporte ! </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1363' part='i'>Est-il vrai ? </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1363' part='m'>Chose sûre. </l>
+</sp>
+<sp who='L-OLIVE'><speaker>L'OLIVE.</speaker>
+	<l id='1363' part='f'>Il faut donc que la peur </l>
+	<l id='1364'>M'ait fait tourner la tête en me frappant au coeur. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE.</speaker>
+	<l id='1365' part='i'>Juste. </l>
+</sp>
+<sp who='ISABELLE'><speaker>ISABELLE.</speaker>
+	<l id='1365' part='f'>Cette aventure est rare et surprenante. </l>
+</sp>
+<sp who='MADAME-BOUVILLON'><speaker>MADAME BOUVILLON.</speaker>
+	<l id='1366'>Vous n'avez pas sujet d'en être mécontente. </l>
+</sp>
+<sp who='LE-DESTIN'><speaker>LE DESTIN.</speaker>
+	<l id='1367' part='i'>Isabelle ! </l>
+</sp>
+<sp who='LA-BAGUENAUDIÈRE'><speaker>LA BAGUENAUDIÈRE.</speaker>
+	<l id='1367' part='f'>En discours ne perdons point de temps,</l>
+	<l id='1368'>Allons nous éclaircir sur tous ces incidents ;</l>
+	<l id='1369'>Que chacun fasse voir son ardeur à me suivre. </l>
+	<l id='1370' part='i'>Allons. </l>
+</sp>
+<sp who='LA-RANCUNE'><speaker>LA RANCUNE, à Ragotin.</speaker>
+	<l id='1370' part='f'>D'être pendu mon secours vous délivre. </l>
+</sp>
+<sp who='RAGOTIN'><speaker>RAGOTIN.</speaker>
+	<l id='1371'>Il est vrai, cher ami, sans toi ces happe-chair </l>
+	<l id='1372'>M'allaient faire danser un entrechat en l'air ;</l>
+	<l id='1373'>Mais mon pied, emboîté dans ce pot détestable, </l>
+	<l id='1374'>Implore à l'en tirer ta pitié charitable. </l>
+	<l id='1375'>Ô ciel ! À quel malheur m'avez-vous attaché ! </l>
+	<l id='1376'>Heureux de n'avoir pas pourtant été branché.</l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>	

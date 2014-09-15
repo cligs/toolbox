@@ -1,0 +1,2984 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>PSYCHÉ, TRAGI-COMÉDIE</title>
+			<author born='1622' born_location='Paris' death='1673' death_location='Paris' academie=''>MOLIÈRE</author>
+				<date>1666</date>
+			</titleStmt>
+			<publicationStmp>	
+				<p>publié par Paul FIEVRE, Avril 2009</p>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Tragi-comédie</genre>
+				<inspiration>moeurs françaises</inspiration>
+				<structure>Cinq actes</structure>
+				<type>vers</type>
+				<periode>1661-1670</periode>
+				<taille>2000-2250</taille>
+				<permalien></permalien>
+				<sources>
+					<source id="1"><author/><text/></source>
+				</sources>	
+
+			</SourceDesc>
+		</fileDesc>
+</teiHeader>
+<text>
+	<front>
+		<docTitle>
+			<titlePart type="main">PSYCHÉ</titlePart>
+			<titlePart type="sub">TRAGI-COMÉDIE avec intermèdes et ballets</titlePart>
+		</docTitle> 
+		<docDate value="1666">1666</docDate>
+		<docAuthor id="MOLIERE" bio='moliere'>Molière, Quinault et Pierre Corneille</docAuthor>
+		<docImprint>
+			<privilege id="166*-**-**"></privilege>
+			<acheveImprime id="166*-**-**"></acheveImprime>
+		</docImprint>
+		<performance>
+			<premiere date="1671-01-17" location='Salle des Machines'>Représentée pour le roi dans la grande salle des machines du Palais des tuileries en janvier et durant tout le carnaval de l'année 1671 par la Troupe du Roi et donnée au public sur le Théâtre de la salle du Palais-Royal, le 24e juillet 1671.</premiere>
+		</performance>
+	<castList><head>PERSONNAGES du PROLOGUE</head>
+	<castItem><role id="FLORE" civil='F' type="D" statut='dieu' age='A' stat_amour='néant'>FLORE</role>.</castItem>
+	<castItem><role id="VERTUMNE" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>VERTUMNE</role>, dieu des jardins.</castItem>. 
+	<castItem><role id="PALEMON" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>PALÉMON</role>, dieu des eaux.</castItem>
+	<castItem><role id="VENUS" civil='F' type="D" statut='dieu' age='A' stat_amour='néant'>VÉNUS</role>.</castItem>
+	<castItem><role id="L'AMOUR" civil='F' type="D" statut='grâce' age='A' stat_amour='néant'>L'AMOUR</role>, Grâce.</castItem>
+	<castItem><role id="AEGIALE" civil='F' type="D" statut='grâce' age='A' stat_amour='néant'>AEGIALE</role>, Grâce.</castItem>
+	<castItem><role id="PHAENE" civil='F' type="D" statut='grâce' age='A' stat_amour='néant'>PHÈNE</role>, Grâce.</castItem>	     
+	<castItem><role id="NYMPHES" civil='G' type="D" statut='nymphes' age='A' stat_amour='néant'>NYMPHES</role>, de la suite de Flore chantantes.</castItem>
+	<castItem><role id="DRYADES-ET-SYLVAINS" civil='G' type="D" statut='dryade' age='A' stat_amour='néant'>DRYADES et SYLVAINS</role>, de la suite de Vertumne dansants.</castItem>
+	<castItem><role id="SYLVAIN chantants" civil='G' type="D" statut='sylvain' age='A' stat_amour='néant'>SYLVAINS</role>, chantants.</castItem>
+	<castItem><role id="DIEUX FLEUVES DANSANTS" civil='G' type="D" statut='dieu' age='A' stat_amour='néant'>DIEUX des FLEUVES</role>, de la suite de Palémon dansants.</castItem>
+	<castItem><role id="DIEUX FLEUVES CHANTANTS" civil='G' type="D" statut='dieu' age='A' stat_amour='néant'>DIEUX des FLEUVES</role>, chantants.</castItem>
+	<castItem><role id="NAIDADES" civil='G' type="D" statut='nnaïade' age='A' stat_amour='néant'>NAÏDADES</role>.</castItem>
+	<castItem><role id="AMOURS" civil='G' type="D" statut='amour' age='A' stat_amour='néant'>AMOURS</role>, de la suite de Vénus dansants.</castItem>
+	</castList>
+
+		<castList><head>PERSONNAGES DE LA TRAGI-COMÉDIE</head>
+	<castItem><role id="JUPITER" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>JUPITER</role>.</castItem>
+	<castItem><role id="VÉNUS" civil='F' type="D" statut='dieu' age='A' stat_amour='néant'>VÉNUS</role>.</castItem>. 
+	<castItem><role id="AMOUR" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>L'AMOUR</role>.</castItem>
+	<castItem><role id="AEGIALE" civil='F' type="D" statut='grâce' age='A' stat_amour='néant'>AEGIALE</role>, Grâce.</castItem>
+	<castItem><role id="PHAENE" civil='F' type="D" statut='grâce' age='A' stat_amour='néant'>PHÈNE</role>, Grâce.</castItem>
+	<castItem><role id="PSYCHÉ" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>PSYCHÉ</role>.</castItem>
+	<castItem><role id="LE ROI" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>LE ROI</role>, père de Psyché.</castItem>
+	<castItem><role id="AGLAURE" civil='F' type="H" statut='prince' age='A' stat_amour='néant'>AGLAURE</role>, soeur de Psyché.</castItem>
+	<castItem><role id="CIDIPPE" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>CIDIPPE</role>, soeur de Psyché.</castItem>
+	<castItem><role id="CLÉOMENE" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>CLÉOMÈNE</role>, prince amant de Psyché.</castItem>
+	<castItem><role id="AGÉNOR" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>AGÉNOR</role>, prince amant de Psyché.</castItem>
+	<castItem><role id="ZÉPHIRE" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>LE ZÉPHIRE</role>.</castItem>
+	<castItem><role id="LYCAS" civil='M' type="D" statut='aristocrate' age='A' stat_amour='néant'>LYCAS</role>.</castItem>
+	<castItem><role id="DIEU FLEUVE" civil='M' type="D" statut='dieu' age='A' stat_amour='néant'>Le DIEU d'un FLEUVE</role>.</castItem>
+	</castList>
+	
+	<castList><head>PERSONNAGES du PREMIER INTERMÈDE</head>
+	<castItem><role id="FEMME DÉSOLÉE" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>FEMME DÉSOLÉE</role>, chantante.</castItem>
+	<castItem><role id="HOMMES DANSANTS" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>DEUX HOMMES AFFLIGÉS</role>, chantants.</castItem>
+	<castItem><role id="HOMMES AFFLIGÉS" civil='M' type="H" statut='bourgeois' age='A' stat_amour='néant'>HOMMES AFFLIGÉS</role>, dansants.</castItem>
+	<castItem><role id="FEMMES DANSANTS" civil='F' type="H" statut='bourgeois' age='A' stat_amour='néant'>FEMMES DESOLÉES</role>, dansantes.</castItem>
+	</castList>
+	
+	<castList><head>PERSONNAGES du DEUXIÈME INTERMÈDE</head>
+	<castItem><role id="VULCAIN">VULCAIN</role>.</castItem>
+	<castItem><role id="CYCLOPES">CYCLOPES</role>.</castItem>
+	<castItem><role id="FEES">FÉES DANSANTES</role>.</castItem>
+	</castList>
+
+	<castList><head>PERSONNAGES du TROISIÈME INTERMÈDE.</head>
+	<castItem><role id="ZEPHYR">un ZÉPHYR</role>, chantant.</castItem>
+	<castItem><role id="DEUX-AMOURS">DEUX AMOURS</role>, chantants.</castItem>
+	<castItem><role id="ZEPHYRS-DANSANTS">ZÉPHYRS</role>, dansants.</castItem>
+	<castItem><role id="AMOURS-DANSANTS">AMOURS</role>, dansantes.</castItem>
+	</castList>
+	
+	<castList><head>PERSONNAGES du QUATRIÈME INTERMÈDE.</head>
+	<castItem><role id="FURIES">FURIES</role>, dansantes.</castItem>
+	<castItem><role id="LUTINS">LUTINS</role>, faisant des sauts périlleux.</castItem>
+	</castList>
+
+	<castList><head>PERSONNAGES du CINQUIÈME INTERMÈDE.</head>
+	<castItem><role id="APOLLON">APOLLON</role>.</castItem>
+	<castItem><role id="MUSES">Les MUSES</role> chantantes.</castItem>
+	<castItem><role id="LES-ARTS">LES ARTS</role>, travestis en bergers galants, dansants.</castItem>
+	<castItem><role id="BACCHUS">BACCHUS</role>.</castItem>
+	<castItem><role id="SILENE">SILÈNE</role>.</castItem>
+	<castItem><role id="DEUX-SATYRES-chantants">DEUX SATYRES</role> chantants.</castItem>
+	<castItem><role id="DEUX-SATYRES-dansants">DEUX SATYRES</role> dansants.</castItem>
+	<castItem><role id="EGIPANS">EGIPANS</role> sansants.</castItem>
+	<castItem><role id="MENADE">MENADES</role>, dansantes.</castItem>
+	<castItem><role id="MONE">MONE</role>.</castItem>
+	<castItem><role id="POLICHINELLES">POLICHINELLES</role> dansants.</castItem>
+	<castItem><role id="MATASSINS">MATASSINS</role> dansants.</castItem>
+	<castItem><role id="MARS">MARS</role>.</castItem>
+	<castItem><role id="GUERRIERS-ENSEIGNES">GUERRIERS</role> portant des enseignes.</castItem>
+	<castItem><role id="GUERRIERS-PIQUES">GUERRIERS</role> portant des piques.</castItem>
+	<castItem><role id="GUERRIERS-BOCULIERS">GUERRIERS</role> portant des masses et des boucliers.</castItem>
+	<castItem><role id="CHOEUR">CHOEUR</role> des divinités célestes.</castItem>
+	</castList>
+		<set location='Palais du Roi' country='(pays imaginaire)' periode='Temps mythologiques' link=''>La scène du prologue est dans un lieu champêtre, la tragi-comédie se situe dans le palais du roi.</set>
+	</front>
+<body>
+<div1 type='acte' n='1'><head>PROLOGUE</head>
+<div2 type='scene' n='1'><head></head>
+<stage>La scène représente sur le devant un lieu champêtre, et dans l'enfoncement un rocher percé à jour, à travers duquel on voit la mer en éloignement. </stage>
+<stage>La scène représente sur le devant un lieu champêtre, et dans l'enfoncement un rocher percé à jour, à travers duquel on voit la mer en éloignement. </stage>
+	<stage>Flore paraît au milieu du théâtre, accompagnée de Vertumne, dieu des arbres et des fruits, et de Palaemon, dieu des eaux. Chacun de ces dieux conduit une troupe de divinités ; l'un mène à sa suite des Dryades et des Sylvains ; et l'autre des Dieux des fleuves et des Naïades. Flore chante ce récit pour inviter Vénus à descendre en terre : </stage>
+<sp who='FLORE'><speaker>FLORE.</speaker>
+	<l id='1'>Ce n'est plus le temps de la guerre ; </l>
+	<l id='2'>Le plus puissant des rois </l>
+	<l id='3'>Interrompt ses exploits </l>
+	<l id='4'>Pour donner la paix à la terre. </l>
+	<l id='5'>Descendez, mère des Amours, </l>
+	<l id='6'>Venez nous donner de beaux jours. </l>
+<stage>Vertumne et Palaemon, avec les divinités qui les accompagnent, joignent leurs voix à celle de Flore, et chantent ces paroles.</stage>
+</sp>
+<sp who='VERTUMNE_PALAEMON'><speaker>VERTUMNE et PALAEMON.</speaker>
+<stage>Choeur des divinités de la terre et des eaux, composé de Flore, Nymphes, Palaemon, Vertumne, Sylvains, Faunes, Dryades et Naïades. </stage>
+	<l id='7'>Nous goûtons une paix profonde ; </l>
+	<l id='8'>Les plus doux jeux sont ici-bas ; </l>
+	<l id='9'>On doit ce repos plein d'appas </l>
+	<l id='10'>Au plus grand roi du monde. </l>
+	<l id='11'>Descendez, mère des Amours, </l>
+	<l id='12'>Venez nous donner de beaux jours. </l>
+<stage>Il se fait ensuite une entrée de ballet, composée de deux Dryades, quatre Sylvains, deux Fleuves et deux Naïades, après laquelle Vertumne et Palaemon chantent ce dialogue : </stage>
+</sp>
+<sp who='VERTUMNE'><speaker>VERTUMNE.</speaker>
+	<l id='13'>Rendez-vous, beautés cruelles, </l>
+	<l id='14'>Soupirez à votre tour. </l>
+</sp>
+<sp who='PALAEMON'><speaker>PALAEMON.</speaker>
+	<l id='15'>Voici la reine des belles, </l>
+	<l id='16'>Qui vient inspirer l'amour. </l>
+</sp>
+<sp who='VERTUMNE'><speaker>VERTUMNE.</speaker>
+	<l id='17'>Un bel objet toujours sévère </l>
+	<l id='18'>Ne se fait jamais bien aimer. </l>
+</sp>
+<sp who='PALAEMON'><speaker>PALAEMON.</speaker>
+	<l id='19'>C'est la beauté qui commence de plaire ; </l>
+	<l id='20'>Mais la douceur achève de charmer. </l>
+</sp>
+<sp who='VERTUMNE_PALAEMON'><speaker>VERTUMNE, PALAEMON</speaker>
+<stage>Ils répètent ensemble ces derniers vers : </stage>
+	<l id='21'>C'est la beauté qui commence de plaire ; </l>
+	<l id='22'>Mais la douceur achève de charmer. </l>
+</sp>
+<sp who='VERTUMNE'><speaker>VERTUMNE.</speaker>
+	<l id='23'>Souffrons tous qu'Amour nous blesse ; </l>
+	<l id='24'>Languissons, puisqu'il le faut. </l>
+</sp>
+<sp who='PALAEMON'><speaker>PALAEMON.</speaker>
+	<l id='25'>Que sert un coeur sans tendresse ? </l>
+	<l id='26'>Est-il un plus grand défaut ? </l>
+</sp>
+<sp who='VERTUMNE'><speaker>VERTUMNE.</speaker>
+	<l id='27'>Un bel objet toujours sévère </l>
+	<l id='28'>Ne se fait jamais bien aimer. </l>
+</sp>
+<sp who='PALAEMON'><speaker>PALAEMON.</speaker>
+	<l id='29'>C'est la beauté qui commence de plaire, </l>
+	<l id='30'>Mais la douceur achève de charmer. </l>
+<stage>Flore répond au dialogue de Vertumne et de Palaemon par ce menuet et les autres Divinités y mêlent leurs danses.</stage>
+</sp>
+<sp who='FLORE'><speaker>FLORE.</speaker>
+	<l id='31'>Est-on sage </l>
+	<l id='32'>Dans le bel âge, </l>
+	<l id='33'>Est-on sage </l>
+	<l id='34'>De n'aimer pas ? </l>
+	<l id='35'>Que sans cesse </l>
+	<l id='36'>L'on se presse </l>
+	<l id='37'>De goûter les plaisirs ici-bas : </l>
+	<l id='38'>La sagesse </l>
+	<l id='39'>De la jeunesse, </l>
+	<l id='40'>C'est de savoir jouir de ses appas. </l>
+	<l id='41'>L'amour charme </l>
+	<l id='42'>Ceux qu'il désarme, </l>
+	<l id='43'>L'Amour charme : </l>
+	<l id='44'>Cédons-lui tous. </l>
+	<l id='45'>Notre peine </l>
+	<l id='46'>Seroit vaine </l>
+	<l id='47'>De vouloir résister à ses coups : </l>
+	<l id='48'>Quelque chaîne </l>
+	<l id='49'>Qu'un amant prenne, </l>
+	<l id='50'>La liberté n'a rien qui soit si doux. </l>
+<stage>Vénus descend du ciel dans une grande machine avec l'Amour son fils, et deux petites Grâces, nommés Aegiale et Phaène, et les Divinités de la terre et des eaux recommencent de joindre toutes leurs voix, et continuent par leurs danses de lui témoigner la joie qu'elles ressentent à son abord.</stage>
+</sp>
+<sp who='CHOEUR'><speaker>Choeur de toutes les Divinités de la terre et des eaux. </speaker>
+	<l id='51'>Nous goûtons une paix profonde ; </l>
+	<l id='52'>Les plus doux jeux sont ici-bas ; </l>
+	<l id='53'>On doit ce repos plein d'appas </l>
+	<l id='54'>Au plus grand roi du monde. </l>
+	<l id='55'>Descendez, mère des Amours, </l>
+	<l id='56'>Venez nous donner de beaux jours. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS, dans sa machine.</speaker>
+	<l id='57'>Cessez, cessez pour moi tous vos chants d'allégresse : </l>
+	<l id='58'>De si rares honneurs ne m'appartiennent pas, </l>
+	<l id='59'>Et l'hommage qu'ici votre bonté m'adresse </l>
+	<l id='60'>Doit être réservé pour de plus doux appas. </l>
+	<l id='61'>C'est une trop vieille méthode </l>
+	<l id='62'>De me venir faire sa cour ; </l>
+	<l id='63'>Toutes les choses ont leur tour, </l>
+	<l id='64'>Et Vénus n'est plus à la mode. </l>
+	<l id='65'>Il est d'autres attraits naissants </l>
+	<l id='66'>Où l'on va porter ses encens ; </l>
+	<l id='67'>Psyché, Psyché la belle, aujourd'hui tient ma place ; </l>
+	<l id='68'>Déjà tout l'univers s'empresse à l'adorer, </l>
+	<l id='69'>Et c'est trop que, dans ma disgrâce, </l>
+	<l id='70'>Je trouve encor quelqu'un qui me daigne honorer. </l>
+	<l id='71'>On ne balance point entre nos deux mérites ; </l>
+	<l id='72'>A quitter mon parti tout s'est licencié, </l>
+	<l id='73'>Et du nombreux amas de Grâces favorites, </l>
+	<l id='74'>Dont je traînais partout les soins et l'amitié, </l>
+	<l id='75'>Il ne m'en est resté que deux des plus petites, </l>
+	<l id='76'>Qui m'accompagnent par pitié. </l>
+	<l id='77'>Souffrez que ces demeures sombres </l>
+	<l id='78'>Prêtent leur solitude aux troubles de mon coeur, </l>
+	<l id='79'>Et me laissez parmi leurs ombres </l>
+	<l id='80'>Cacher ma honte et ma douleur. </l>
+<stage>Flore et les autres Déités se retirent, et Vénus avec sa suite sort de sa machine.) </stage>
+</sp>
+<sp who='AEGIALE'><speaker>AEGIALE.</speaker>
+	<l id='81'>Nous ne savons, Déesse, comment faire, </l>
+	<l id='82'>Dans ce chagrin qu'on voit vous accabler : </l>
+	<l id='83'>Notre respect veut se taire, </l>
+	<l id='84'>Notre zèle veut parler. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='85'>Parlez, mais si vos soins aspirent à me plaire, </l>
+	<l id='86'>Laissez tous vos conseils pour une autre saison, </l>
+	<l id='87'>Et ne parlez de ma colère </l>
+	<l id='88'>Que pour dire que j'ai raison. </l>
+	<l id='89'>C'était là, c'était là la plus sensible offense </l>
+	<l id='90'>Que ma divinité pût jamais recevoir ; </l>
+	<l id='91'>Mais j'en aurai la vengeance, </l>
+	<l id='92'>Si les Dieux ont du pouvoir. </l>
+</sp>
+<sp who='PHAENE'><speaker>PHAÈNE.</speaker>
+	<l id='93'>Vous avez plus que nous de clartés, de sagesse, </l>
+	<l id='94'>Pour juger ce qui peut être digne de vous : </l>
+	<l id='95'>Mais pour moi, j'aurais cru qu'une grande déesse </l>
+	<l id='96'>Devrait moins se mettre en courroux. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='97'>Et c'est là la raison de ce courroux extrême : </l>
+	<l id='98'>Plus mon rang a d'éclat, plus l'affront est sanglant ; </l>
+	<l id='99'>Et si je n'étais pas dans ce degré suprême, </l>
+	<l id='100'>Le dépit de mon coeur serait moins violent. </l>
+	<l id='101'>Moi, la fille du dieu qui lance le tonnerre, </l>
+	<l id='102'>Mère du dieu qui fait aimer, </l>
+	<l id='103'>Moi, les plus doux souhaits du ciel et de la terre, </l>
+	<l id='104'>Et qui ne suis venue au jour que pour charmer, </l>
+	<l id='105'>Moi, qui par tout ce qui respire </l>
+	<l id='106'>Ai vu de tant de voeux encenser mes autels, </l>
+	<l id='107'>Et qui de la beauté, par des droits immortels, </l>
+	<l id='108'>Ai tenu de tout temps le souverain empire, </l>
+	<l id='109'>Moi, dont les yeux ont mis deux grandes déités </l>
+	<l id='110'>Au point de me céder le prix de la plus belle, </l>
+	<l id='111'>Je me vois ma victoire et mes droits disputés </l>
+	<l id='112'>Par une chétive mortelle ! </l>
+	<l id='113'>Le ridicule excès d'un fol entêtement </l>
+	<l id='114'>Va jusqu'à m'opposer une petite fille ! </l>
+	<l id='115'>Sur ses traits et les miens j'essuierai constamment </l>
+	<l id='116'>Un téméraire jugement ! </l>
+	<l id='117'>Et du haut des cieux où je brille, </l>
+	<l id='118'>J'entendrai prononcer aux mortels prévenus : </l>
+	<l id='119'>"Elle est plus belle que Vénus !" </l>
+</sp>
+<sp who='AEGIALE'><speaker>AEGIALE.</speaker>
+	<l id='120'>Voilà comme l'on fait, c'est le style des hommes : </l>
+	<l id='121'>Ils sont impertinents dans leurs comparaisons. </l>
+</sp>
+<sp who='PHAENE'><speaker>PHAÈNE.</speaker>
+	<l id='122'>Ils ne sauraient louer, dans le siècle où nous sommes, </l>
+	<l id='123'>Qu'ils n'outragent les plus grands noms. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='124'>Ah ! que de ces trois mots la rigueur insolente </l>
+	<l id='125'>Venge bien Junon et Pallas, </l>
+	<l id='126'>Et console leurs coeurs de la gloire éclatante </l>
+	<l id='127'>Que la fameuse pomme acquit à mes appas ! </l>
+	<l id='128'>Je les vois s'applaudir de mon inquiétude, </l>
+	<l id='129'>Affecter à toute heure un ris malicieux, </l>
+	<l id='130'>Et, d'un fixe regard, chercher avec étude </l>
+	<l id='131'>Ma confusion dans mes yeux. </l>
+	<l id='132'>Leur triomphante joie, au fort d'un tel outrage, </l>
+	<l id='133'>Semble me venir dire, insultant mon courroux : </l>
+	<l id='134'>"Vante, vante, Vénus, les traits de ton visage ; </l>
+	<l id='135'>Au jugement d'un seul tu l'emportas sur nous ; </l>
+	<l id='136'>Mais, par le jugement de tous, </l>
+	<l id='137'>Une simple mortelle a sur toi l'avantage." </l>
+	<l id='138'>Ah ! ce coup-là m'achève, il me perce le coeur, </l>
+	<l id='139'>Je n'en puis plus souffrir les rigueurs sans égales ; </l>
+	<l id='140'>Et c'est trop de surcroît à ma vive douleur, </l>
+	<l id='141'>Que le plaisir de mes rivales. </l>
+	<l id='142'>Mon fils, si j'eus jamais sur toi quelque crédit, </l>
+	<l id='143'>Et si jamais je te fus chère, </l>
+	<l id='144'>Si tu portes un coeur à sentir le dépit </l>
+	<l id='145'>Qui trouble le coeur d'une mère </l>
+	<l id='146'>Qui si tendrement te chérit, </l>
+	<l id='147'>Emploie, emploie ici l'effort de ta puissance </l>
+	<l id='148'>A soutenir mes intérêts, </l>
+	<l id='149'>Et fais à Psyché par tes traits </l>
+	<l id='150'>Sentir les traits de ma vengeance. </l>
+	<l id='151'>Pour rendre son coeur malheureux, </l>
+	<l id='152'>Prends celui de tes traits le plus propre à me plaire, </l>
+	<l id='153'>Le plus empoisonné de ceux </l>
+	<l id='154'>Que tu lances dans ta colère. </l>
+	<l id='155'>Du plus bas, du plus vil, du plus affreux mortel </l>
+	<l id='156'>Fais que jusqu'à la rage elle soit enflammée, </l>
+	<l id='157'>Et qu'elle ait à souffrir le supplice cruel </l>
+	<l id='158'>D'aimer et n'être point aimée. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='159'>Dans le monde on n'entend que plaintes de l'Amour : </l>
+	<l id='160'>On m'impute partout mille fautes commises ; </l>
+	<l id='161'>Et vous ne croiriez point le mal et les sottises </l>
+	<l id='162'>Que l'on dit de moi chaque jour. </l>
+	<l id='163'>Si pour servir votre colère... </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='164'>Va, ne résiste point aux souhaits de ta mère ; </l>
+	<l id='165'>N'applique tes raisonnements </l>
+	<l id='166'>Qu'à chercher les plus prompts moments </l>
+	<l id='167'>De faire un sacrifice à ma gloire outragée. </l>
+	<l id='168'>Pars, pour toute réponse à mes empressements, </l>
+	<l id='169'>Et ne me revois point que je ne sois vengée. </l>
+<stage>L'Amour s'envole, et Vénus se retire avec les Grâces. La scène est changée en une grande ville, où l'on découvre, des deux côtés, des palais et des maisons de différents ordres d'architecture. </stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Aglaure, Cidippe.</head>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='170'>Il est des maux, ma soeur, que le silence aigrit ; </l>
+	<l id='171'>Laissons, laissons parler mon chagrin et le vôtre, </l>
+	<l id='172'>Et de nos coeurs l'un à l'autre </l>
+	<l id='173'>Exhalons le cuisant dépit : </l>
+	<l id='174'>Nous nous voyons soeurs d'infortune, </l>
+	<l id='175'>Et la vôtre et la mienne ont un si grand rapport, </l>
+	<l id='176'>Que nous pouvons mêler toutes les deux en une, </l>
+	<l id='177'>Et dans notre juste transport, </l>
+	<l id='178'>Murmurer à plainte commune </l>
+	<l id='179'>Des cruautés de notre sort. </l>
+	<l id='180'>Quelle fatalité secrète, </l>
+	<l id='181'>Ma soeur, soumet tout l'univers </l>
+	<l id='182'>Aux attraits de notre cadette, </l>
+	<l id='183'>Et de tant de princes divers </l>
+	<l id='184'>Qu'en ces lieux la fortune jette, </l>
+	<l id='185'>N'en présente aucun à nos fers ? </l>
+	<l id='186'>Quoi ? voir de toutes parts pour lui rendre les armes </l>
+	<l id='187'>Les coeurs se précipiter, </l>
+	<l id='188'>Et passer devant nos charmes </l>
+	<l id='189'>Sans s'y vouloir arrêter ? </l>
+	<l id='190'>Quel sort ont nos yeux en partage, </l>
+	<l id='191'>Et qu'est-ce qu'ils ont fait aux Dieux, </l>
+	<l id='192'>De ne jouir d'aucun hommage </l>
+	<l id='193'>Parmi tous ces tributs de soupirs glorieux </l>
+	<l id='194'>Dont le superbe avantage </l>
+	<l id='195'>Fait triompher d'autres yeux ? </l>
+	<l id='196'>Est-il pour nous, ma soeur, de plus rude disgrâce </l>
+	<l id='197'>Que de voir tous les coeurs mépriser nos appas, </l>
+	<l id='198'>Et l'heureuse Psyché jouir avec audace </l>
+	<l id='199'>D'une foule d'amants attachés à ses pas ? </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='200'>Ah ! ma soeur, c'est une aventure </l>
+	<l id='201'>À faire perdre la raison ; </l>
+	<l id='202'>Et tous les maux de la nature </l>
+	<l id='203'>Ne sont rien en comparaison. </l>
+	<l id='204'>Pour moi, j'en suis souvent jusqu'à verser des larmes ; </l>
+	<l id='205'>Tout plaisir, tout repos, par là m'est arraché ; </l>
+	<l id='206'>Contre un pareil malheur ma constance est sans armes ; </l>
+	<l id='207'>Toujours à ce chagrin mon esprit attaché </l>
+	<l id='208'>Me tient devant les yeux la honte de nos charmes, </l>
+	<l id='209'>Et le triomphe de Psyché. </l>
+	<l id='210'>La nuit, il m'en repasse une idée éternelle </l>
+	<l id='211'>Qui sur toute chose prévaut ; </l>
+	<l id='212'>Rien ne me peut chasser cette image cruelle, </l>
+	<l id='213'>Et dès qu'un doux sommeil me vient délivrer d'elle, </l>
+	<l id='214'>Dans mon esprit aussitôt </l>
+	<l id='215'>Quelque songe la rappelle, </l>
+	<l id='216'>Qui me réveille en sursaut. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='217'>Ma soeur, voilà mon martyre ; </l>
+	<l id='218'>Dans vos discours je me vois, </l>
+	<l id='219'>Et vous venez là de dire </l>
+	<l id='220'>Tout ce qui se passe en moi. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='221'>Mais encor, raisonnons un peu sur cette affaire. </l>
+	<l id='222'>Quels charmes si puissants en elle sont épars, </l>
+	<l id='223'>Et par où, dites-moi, du grand secret de plaire </l>
+	<l id='224'>L'honneur est-il acquis à ses moindres regards ? </l>
+	<l id='225'>Que voit-on dans sa personne, </l>
+	<l id='226'>Pour inspirer tant d'ardeurs ? </l>
+	<l id='227'>Quel droit de beauté lui donne </l>
+	<l id='228'>L'empire de tous les coeurs ? </l>
+	<l id='229'>Elle a quelques attraits, quelque éclat de jeunesse, </l>
+	<l id='230'>On en tombe d'accord, je n'en disconviens pas ; </l>
+	<l id='231'>Mais lui cède-t-on fort pour quelque peu d'aînesse, </l>
+	<l id='232'>Et se voit-on sans appas ? </l>
+	<l id='233'>Est-on d'une figure à faire qu'on se raille ? </l>
+	<l id='234'>N'a-t-on point quelques traits et quelques agréments, </l>
+	<l id='235'>Quelque teint, quelques yeux, quelque air et quelque taille </l>
+	<l id='236'>A pouvoir dans nos fers jeter quelques amants ? </l>
+	<l id='237'>Ma soeur, faites-moi la grâce </l>
+	<l id='238'>De me parler franchement : </l>
+	<l id='239'>Suis-je faite d'un air, à votre jugement, </l>
+	<l id='240'>Que mon mérite au sien doive céder la place, </l>
+	<l id='241'>Et dans quelque ajustement </l>
+	<l id='242'>Trouvez-vous qu'elle m'efface ? </l>
+	<l id='243'>Qui, vous ma soeur ? Nullement. </l>
+	<l id='244'>Hier à la chasse, près d'elle, </l>
+	<l id='245'>Je vous regardai longtemps, </l>
+	<l id='246'>Et, sans vous donner d'encens, </l>
+	<l id='247'>Vous me parûtes plus belle. </l>
+	<l id='248'>Mais moi, dites, ma soeur, sans me vouloir flatter, </l>
+	<l id='249'>Sont-ce des visions que je me mets en tête, </l>
+	<l id='250'>Quand je me crois taillée à pouvoir mériter </l>
+	<l id='251'>La gloire de quelque conquête ? </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='252'>Vous, ma soeur, vous avez, sans nul déguisement, </l>
+	<l id='253'>Tout ce qui peut causer une amoureuse flamme ; </l>
+	<l id='254'>Vos moindres actions brillent d'un agrément </l>
+	<l id='255'>Dont je me sens toucher l'âme ; </l>
+	<l id='256'>Et je serais votre amant, </l>
+	<l id='257'>Si j'étais autre que femme. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='258'>D'où vient donc qu'on la voit l'emporter sur nous deux. </l>
+	<l id='259'>Qu'à ses premiers regards les coeurs rendent les armes, </l>
+	<l id='260'>Et que d'aucun tribut de soupirs et de voeux </l>
+	<l id='261'>On ne fait honneur à nos charmes ? </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='262'>Toutes les dames d'une voix </l>
+	<l id='263'>Trouvent ses attraits peu de chose, </l>
+	<l id='264'>Et du nombre d'amants qu'elle tient sous ses lois, </l>
+	<l id='265'>Ma soeur, j'ai découvert la cause. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='266'>Pour moi, je la devine, et l'on doit présumer </l>
+	<l id='267'>Qu'il faut que là-dessous soit caché du mystère : </l>
+	<l id='268'>Ce secret de tout enflammer </l>
+	<l id='269'>N'est point de la nature un effet ordinaire ; </l>
+	<l id='270'>L'art de la Thessalie entre dans cette affaire, </l>
+	<l id='271'>Et quelque main a su sans doute lui former </l>
+	<l id='272'>Un charme pour se faire aimer. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='273'>Sur un plus fort appui ma croyance se fonde, </l>
+	<l id='274'>Et le charme qu'elle a pour attirer les coeurs, </l>
+	<l id='275'>C'est un air en tout temps désarmé de rigueurs, </l>
+	<l id='276'>Des regards caressants que la bouche seconde, </l>
+	<l id='277'>Un souris chargé de douceurs </l>
+	<l id='278'>Qui tend les bras à tout le monde, </l>
+	<l id='279'>Et ne vous promet que faveurs. </l>
+	<l id='280'>Notre gloire n'est plus aujourd'hui conservée, </l>
+	<l id='281'>Et l'on n'est plus au temps de ces nobles fiertés, </l>
+	<l id='282'>Qui, par un digne essai d'illustres cruautés, </l>
+	<l id='283'>Voulaient voir d'un amant la constance éprouvée. </l>
+	<l id='284'>De tout ce noble orgueil qui nous seyait si bien, </l>
+	<l id='285'>On est bien descendu dans le siècle où nous sommes, </l>
+	<l id='286'>Et l'on en est réduite à n'espérer plus rien, </l>
+	<l id='287'>A moins que l'on se jette à la tête des hommes. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='288'>Oui, voilà le secret de l'affaire, et je vois </l>
+	<l id='289'>Que vous le prenez mieux que moi. </l>
+	<l id='290'>C'est pour nous attacher à trop de bienséance, </l>
+	<l id='291'>Qu'aucun amant, ma soeur, à nous ne veut venir, </l>
+	<l id='292'>Et nous voulons trop soutenir </l>
+	<l id='293'>L'honneur de notre sexe et de notre naissance. </l>
+	<l id='294'>Les hommes maintenant aiment ce qui leur rit ; </l>
+	<l id='295'>L'espoir, plus que l'amour, est ce qui les attire, </l>
+	<l id='296'>Et c'est par là que Psyché nous ravit </l>
+	<l id='297'>Tous les amants qu'on voit sous son empire. </l>
+	<l id='298'>Suivons, suivons l'exemple, ajustons-nous au temps, </l>
+	<l id='299'>Abaissons-nous, ma soeur, à faire des avances, </l>
+	<l id='300'>Et ne ménageons plus de tristes bienséances </l>
+	<l id='301'>Qui nous ôtent les fruits du plus beau de nos ans. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='302'>J'approuve la pensée, et nous avons matière </l>
+	<l id='303'>D'en faire l'épreuve première </l>
+	<l id='304'>Aux deux princes qui sont les derniers arrivés. </l>
+	<l id='305'>Il sont charmants, ma soeur, et leur personne entière </l>
+	<l id='306'>Me... Les avez-vous observés ? </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='307'>Ah ! ma soeur, ils sont faits tous deux d'une manière, </l>
+	<l id='308'>Que mon âme... Ce sont deux princes achevés. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='309'>Je trouve qu'on pourrait rechercher leur tendresse, </l>
+	<l id='310'>Sans se faire déshonneur. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='311'>Je trouve que sans honte une belle princesse </l>
+	<l id='312'>Leur pourrait donner son coeur. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Cléomène, Agénor, Aglaure, Cidippe.</head>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='313'>Les voici tous deux, et j'admire </l>
+	<l id='314'>Leur air et leur ajustement. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='315'>Ils ne démentent nullement </l>
+	<l id='316'>Tout ce que nous venons de dire. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='317'>D'où vient, Princes, d'où vient que vous fuyez ainsi ? </l>
+	<l id='318'>Prenez-vous l'épouvante en nous voyant paraître ? </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='319'>On nous faisait croire qu'ici </l>
+	<l id='320'>La princesse Psyché, Madame, pourrait être. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='321'>Tous ces lieux n'ont-ils rien d'agréable pour vous, </l>
+	<l id='322'>Si vous ne les voyez ornés de sa présence ? </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='323'>Ces lieux peuvent avoir des charmes assez doux ; </l>
+	<l id='324'>Mais nous cherchons Psyché dans notre impatience. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='325'>Quelque chose de bien pressant </l>
+	<l id='326'>Vous doit à la chercher pousser tous deux sans doute. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='327'>Le motif est assez puissant, </l>
+	<l id='328'>Puisque notre fortune enfin en dépend toute. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='329'>Ce serait trop à nous que de nous informer </l>
+	<l id='330'>Du secret que ces mots nous peuvent enfermer. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='331'>Nous ne prétendons point en faire de mystère ; </l>
+	<l id='332'>Aussi bien malgré nous paraîtrait-il au jour, </l>
+	<l id='333'>Et le secret ne dure guère, </l>
+	<l id='334'>Madame, quand c'est de l'amour. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='335'>Sans aller plus avant, Princes, cela veut dire </l>
+	<l id='336'>Que vous aimez Psyché tous deux. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='337'>Tous deux soumis à son empire, </l>
+	<l id='338'>Nous allons de concert lui découvrir nos feux. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='339'>C'est une nouveauté sans doute assez bizarre, </l>
+	<l id='340'>Que deux rivaux si bien unis. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='341'>Il est vrai que la chose est rare, </l>
+	<l id='342'>Mais non pas impossible à deux parfaits amis. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='343'>Est-ce que dans ces lieux il n'est qu'elle de belle, </l>
+	<l id='344'>Et n'y trouvez-vous point à séparer vos voeux ? </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='345'>Parmi l'éclat du sang, vos yeux n'ont-ils vu qu'elle </l>
+	<l id='346'>A pouvoir mériter vos feux ? </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='347'>Est-ce que l'on consulte au moment qu'on s'enflamme ? </l>
+	<l id='348'>Choisit-on qui l'on veut aimer ? </l>
+	<l id='349'>Et pour donner toute son âme, </l>
+	<l id='350'>Regarde-t-on quel droit on a de nous charmer ? </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='351'>Sans qu'on ait le pouvoir d'élire, </l>
+	<l id='352'>On suit, dans une telle ardeur, </l>
+	<l id='353'>Quelque chose qui nous attire, </l>
+	<l id='354'>Et lorsque l'amour touche un coeur, </l>
+	<l id='355'>On n'a point de raisons à dire. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='356'>En vérité, je plains les fâcheux embarras </l>
+	<l id='357'>Où je vois que vos coeurs se mettent : </l>
+	<l id='358'>Vous aimez un objet dont les riants appas </l>
+	<l id='359'>Mêleront des chagrins à l'espoir qu'ils vous jettent, </l>
+	<l id='360'>Et son coeur ne vous tiendra pas </l>
+	<l id='361'>Tout ce que ses yeux vous promettent. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='362'>L'espoir qui vous appelle au rang de ses amants </l>
+	<l id='363'>Trouvera du mécompte aux douceurs qu'elle étale ; </l>
+	<l id='364'>Et c'est pour essuyer de très fâcheux moments, </l>
+	<l id='365'>Que les soudains retours de son âme inégale. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='366'>Un clair discernement de ce que vous valez </l>
+	<l id='367'>Nous fait plaindre le sort où cet amour vous guide, </l>
+	<l id='368'>Et vous pouvez trouver tous deux, si vous voulez, </l>
+	<l id='369'>Avec d'autant d'attraits, une âme plus solide. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='370'>Par un choix plus doux de moitié </l>
+	<l id='371'>Vous pouvez de l'amour sauver votre amitié. </l>
+	<l id='372'>Et l'on voit en vous deux un mérite si rare, </l>
+	<l id='373'>Qu'un tendre avis veut bien prévenir par pitié </l>
+	<l id='374'>Ce que votre coeur se prépare. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='375'>Cet avis généreux fait pour nous éclater </l>
+	<l id='376'>Des bontés qui nous touchent l'âme ; </l>
+	<l id='377'>Mais le Ciel nous réduit à ce malheur, Madame, </l>
+	<l id='378'>De ne pouvoir en profiter. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='379'>Votre illustre pitié veut en vain nous distraire </l>
+	<l id='380'>D'un amour dont tous deux nous redoutons l'effet ; </l>
+	<l id='381'>Ce que notre amitié, Madame, n'a pas fait, </l>
+	<l id='382'>Il n'est rien qui le puisse faire. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='383'>Il faut que le pouvoir de Psyché... La voici. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Psyché, Cidippe, Aglaure, Cléomène, Agénor.</head>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='384'>Venez jouir, ma soeur, de ce qu'on vous apprête. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='385'>Préparez vos attraits à recevoir ici </l>
+	<l id='386'>Le triomphe nouveau d'une illustre conquête. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='387'>Ces princes ont tous deux si bien senti vos coups, </l>
+	<l id='388'>Qu'à vous le découvrir leur bouche se dispose. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='389'>Du sujet qui les tient si rêveurs parmi nous </l>
+	<l id='390'>Je ne me croyais pas la cause, </l>
+	<l id='391'>Et j'aurais cru toute autre chose </l>
+	<l id='392'>En les voyant parler à vous. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='393'>N'ayant ni beauté, ni naissance </l>
+	<l id='394'>A pouvoir mériter leur amour et leurs soins, </l>
+	<l id='395'>Ils nous favorisent au moins </l>
+	<l id='396'>De l'honneur de la confidence. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='397'>L'aveu qu'il nous faut faire à vos divins appas </l>
+	<l id='398'>Est sans doute, Madame, un aveu téméraire ; </l>
+	<l id='399'>Mais tant de coeurs près du trépas </l>
+	<l id='400'>Sont par de tels aveux forcés à vous déplaire, </l>
+	<l id='401'>Que vous êtes réduite à ne les punir pas </l>
+	<l id='402'>Des foudres de votre colère. </l>
+	<l id='403'>Vous voyez en nous deux amis </l>
+	<l id='404'>Qu'un doux rapport d'humeurs sut joindre dès l'enfance ; </l>
+	<l id='405'>Et ces tendres liens se sont vus affermis </l>
+	<l id='406'>Par cent combats d'estime et de reconnaissance. </l>
+	<l id='407'>Du Destin ennemi les assauts rigoureux, </l>
+	<l id='408'>Les mépris de la mort, et l'aspect des supplices, </l>
+	<l id='409'>Par d'illustres éclats de mutuels offices, </l>
+	<l id='410'>Ont de notre amitié signalé les beaux noeuds : </l>
+	<l id='411'>Mais à quelques essais qu'elle se soit trouvée, </l>
+	<l id='412'>Son grand triomphe est en ce jour, </l>
+	<l id='413'>Et rien ne fait tant voir sa constance éprouvée, </l>
+	<l id='414'>Que de se conserver au milieu de l'amour. </l>
+	<l id='415'>Oui, malgré tant d'appas, son illustre constance </l>
+	<l id='416'>Aux lois qu'elle nous fait a soumis tous nos voeux ; </l>
+	<l id='417'>Elle vient d'une douce et pleine déférence </l>
+	<l id='418'>Remettre à votre choix le succès de nos feux ; </l>
+	<l id='419'>Et, pour donner un poids à notre concurrence </l>
+	<l id='420'>Qui des raisons d'État entraîne la balance </l>
+	<l id='421'>Sur le choix de l'un de nous deux, </l>
+	<l id='422'>Cette même amitié s'offre, sans répugnance, </l>
+	<l id='423'>D'unir nos deux États au sort du plus heureux. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='424'>Oui, de ces deux États, Madame, </l>
+	<l id='425'>Que sous votre heureux choix nous nous offrons d'unir, </l>
+	<l id='426'>Nous voulons faire à notre flamme </l>
+	<l id='427'>Un secours pour vous obtenir. </l>
+	<l id='428'>Ce que pour ce bonheur, près du Roi votre père, </l>
+	<l id='429'>Nous nous sacrifions tous deux </l>
+	<l id='430'>N'a rien de difficile à nos coeurs amoureux, </l>
+	<l id='431'>Et c'est au plus heureux faire un don nécessaire </l>
+	<l id='432'>D'un pouvoir dont le malheureux </l>
+	<l id='433'>Madame, n'aura plus affaire. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='434'>Le choix que vous m'offrez, Princes, montre à mes yeux </l>
+	<l id='435'>De quoi remplir les voeux de l'âme la plus fière, </l>
+	<l id='436'>Et vous me le parez tous deux d'une manière </l>
+	<l id='437'>Qu'on ne peut rien offrir qui soit plus précieux. </l>
+	<l id='438'>Vos feux, votre amitié, votre vertu suprême, </l>
+	<l id='439'>Tout me relève en vous l'offre de votre foi, </l>
+	<l id='440'>Et j'y vois un mérite à s'opposer lui-même </l>
+	<l id='441'>A ce que vous voulez de moi. </l>
+	<l id='442'>Ce n'est pas à mon coeur qu'il faut que je défère </l>
+	<l id='443'>Pour entrer sous de tels liens ; </l>
+	<l id='444'>Ma main, pour se donner, attend l'ordre d'un père, </l>
+	<l id='445'>Et mes soeurs ont des droits qui vont devant les miens. </l>
+	<l id='446'>Mais si l'on me rendait sur mes voeux absolue, </l>
+	<l id='447'>Vous y pourriez avoir trop de part à la fois, </l>
+	<l id='448'>Et toute mon estime entre vous suspendue </l>
+	<l id='449'>Ne pourrait sur aucun laisser tomber mon choix. </l>
+	<l id='450'>A l'ardeur de votre poursuite </l>
+	<l id='451'>Je répondrais assez de mes voeux les plus doux ; </l>
+	<l id='452'>Mais c'est parmi tant de mérite </l>
+	<l id='453'>Trop que deux coeurs pour moi, trop peu qu'un coeur pour vous. </l>
+	<l id='454'>De mes plus doux souhaits j'aurais l'âme gênée </l>
+	<l id='455'>A l'effort de votre amitié, </l>
+	<l id='456'>Et j'y vois l'un de vous prendre une destinée </l>
+	<l id='457'>A me faire trop de pitié. </l>
+	<l id='458'>Oui, Princes, à tous ceux dont l'amour suit le vôtre </l>
+	<l id='459'>Je vous préférerais tous deux avec ardeur ; </l>
+	<l id='460'>Mais je n'aurais jamais le coeur </l>
+	<l id='461'>De pouvoir préférer l'un de vous deux à l'autre. </l>
+	<l id='462'>À celui que je choisirais </l>
+	<l id='463'>Ma tendresse ferait un trop grand sacrifice, </l>
+	<l id='464'>Et je m'imputerais à barbare injustice </l>
+	<l id='465'>Le tort qu'à l'autre je ferais. </l>
+	<l id='466'>Oui, tous deux vous brillez de trop de grandeur d'âme, </l>
+	<l id='467'>Pour en faire aucun malheureux, </l>
+	<l id='468'>Et vous devez chercher dans l'amoureuse flamme </l>
+	<l id='469'>Le moyen d'être heureux tous deux. </l>
+	<l id='470'>Si votre coeur me considère </l>
+	<l id='471'>Assez pour me souffrir de disposer de vous, </l>
+	<l id='472'>J'ai deux soeurs capables de plaire, </l>
+	<l id='473'>Qui peuvent bien vous faire un destin assez doux, </l>
+	<l id='474'>Et l'amitié me rend leur personne assez chère, </l>
+	<l id='475'>Pour vous souhaiter leurs époux. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='476'>Un coeur dont l'amour est extrême </l>
+	<l id='477'>Peut-il bien consentir, hélas ! </l>
+	<l id='478'>D'être donné par ce qu'il aime ? </l>
+	<l id='479'>Sur nos deux coeurs, Madame, à vos divins appas </l>
+	<l id='480'>Nous donnons un pouvoir suprême ; </l>
+	<l id='481'>Disposez-en pour le trépas, </l>
+	<l id='482'>Mais pour une autre que vous-même </l>
+	<l id='483'>Ayez cette bonté de n'en disposer pas. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='484'>Aux Princesses, Madame, on ferait trop d'outrage, </l>
+	<l id='485'>Et c'est pour leurs attraits un indigne partage </l>
+	<l id='486'>Que les restes d'une autre ardeur : </l>
+	<l id='487'>Il faut d'un premier feu la pureté fidèle, </l>
+	<l id='488'>Pour aspirer à cet honneur </l>
+	<l id='489'>Où votre bonté nous appelle, </l>
+	<l id='490'>Et chacune mérite un coeur </l>
+	<l id='491'>Qui n'ait soupiré que pour elle. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='492'>Il me semble, sans nul courroux, </l>
+	<l id='493'>Qu'avant que de vous en défendre, </l>
+	<l id='494'>Princes, vous deviez bien attendre </l>
+	<l id='495'>Qu'on se fût expliqué sur vous. </l>
+	<l id='496'>Nous croyez-vous un coeur si facile et si tendre ? </l>
+	<l id='497'>Et lorsqu'on parle ici de vous donner à nous, </l>
+	<l id='498'>Savez-vous si l'on veut vous prendre ? </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='499'>Je pense que l'on a d'assez hauts sentiments </l>
+	<l id='500'>Pour refuser un coeur qu'il faut qu'on sollicite, </l>
+	<l id='501'>Et qu'on ne veut devoir qu'à son propre mérite </l>
+	<l id='502'>La conquête de ses amants. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='503'>J'ai cru pour vous, mes soeurs, une gloire assez grande, </l>
+	<l id='504'>Si la possession d'un mérite si haut... </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Lycas, Psyché, Aglaure, Cidippe, Cléomène, Agénor.</head>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='505' part='i'>Ah ! Madame ! </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='505' part='m'>Qu'as-tu ? </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='505' part='m'>Le Roi... </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='505' part='m'>Quoi ? </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='505' part='f'>Vous demande. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='506'>De ce trouble si grand que faut-il que j'attende ? </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='507'>Vous ne le saurez que trop tôt. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='508'>Hélas ! Que pour le Roi tu me donnes à craindre ! </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='509'>Ne craignez que pour vous, c'est vous que l'on doit plaindre. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='510'>C'est pour louer le Ciel et me voir hors d'effroi </l>
+	<l id='511'>De savoir que je n'aie à craindre que pour moi. </l>
+	<l id='512'>Mais apprends-moi, Lycas, le sujet qui te touche. </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='513'>Souffrez que j'obéisse à qui m'envoie ici, </l>
+	<l id='514'>Madame, et qu'on vous laisse apprendre de sa bouche </l>
+	<l id='515'>Ce qui peut m'affliger ainsi. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='516'>Allons savoir sur quoi l'on craint tant ma faiblesse. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Aglaure, Cidippe, Lycas </head>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='517'>Si ton ordre n'est pas jusqu'à nous étendu, </l>
+	<l id='518'>Dis-nous quel grand malheur nous couvre ta tristesse. </l>
+</sp>
+<sp who='LYCAS'><speaker>LYCAS.</speaker>
+	<l id='519'>Hélas ! ce grand malheur dans la cour répandu, </l>
+	<l id='520'>Voyez-le vous-même, Princesse, </l>
+	<l id='521'>Dans l'oracle qu'au Roi les Destins ont rendu. </l>
+	<l id='522'>Voici ses propres mots, que la douleur, Madame, </l>
+	<l id='523'>A gravés au fond de mon âme : </l>
+	<l id='524'>Que l'on ne pense nullement </l>
+	<l id='525'>À vouloir de Psyché conclure l'hyménée ; </l>
+	<l id='526'>Mais qu'au sommet d'un mont elle soit promptement </l>
+	<l id='527'>En pompe funèbre menée, </l>
+	<l id='528'>Et que de tous abandonnée, </l>
+	<l id='529'>Pour époux elle attende en ces lieux constamment </l>
+	<l id='530'>Un monstre dont on a la vue empoisonnée, </l>
+	<l id='531'>Un serpent qui répand son venin en tous lieux, </l>
+	<l id='532'>Et trouble dans sa rage et la terre et les cieux. </l>
+	<l id='533'>Après un arrêt si sévère, </l>
+	<l id='534'>Je vous quitte, et vous laisse à juger entre vous </l>
+	<l id='535'>Si par de plus cruels et plus sensibles coups </l>
+	<l id='536'>Tous les Dieux nous pouvaient expliquer leur colère. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Aglaure, Cidippe.</head>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='537'>Ma soeur, que sentez-vous à ce soudain malheur </l>
+	<l id='538'>Où nous voyons Psyché par les Destins plongée ? </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='539'>Mais vous, que sentez-vous, ma soeur ? </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='540'>A ne vous point mentir, je sens que dans mon coeur </l>
+	<l id='541'>Je n'en suis pas trop affligée. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='542'>Moi, je sens quelque chose au mien </l>
+	<l id='543'>Qui ressemble assez à la joie. </l>
+	<l id='544'>Allons, le Destin nous envoie </l>
+	<l id='545'>Un mal que nous pouvons regarder comme un bien. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>PREMIER INTERMÈDE.</head>
+<stage>La scène est changée en des rochers affreux, et fait voir en éloignement une effroyable de solitude. </stage>
+<stage>C'est dans ce désert que Psyché doit être exposée, pour obéir à l'oracle. Une troupe de personnes affligées y viennent déplorer sa disgrâce. Une partie de cette troupe désolée témoigne sa pitié par des plaintes touchantes, et par des concerts lugubres, et l'autre exprime sa désolation par une danse pleine de toutes les marques du plus violent désespoir. </stage>
+<stage>Plaintes en italien chantées par une femme désolée, et deux hommes affligés </stage>
+<sp who='FEMME-DESOLEE'><speaker>Femme désolée </speaker>
+	<l id='546'>Deh ! piangete al pianto mio, </l>
+	<l id='547'>Sassi duri, antiche selve, </l>
+	<l id='548'>Lagrimate, fonti e belve, </l>
+	<l id='549'>D'un bel voto il fato rio. </l>
+</sp>
+<sp who='PREMIER-HOMME-AFFLIGE'><speaker>Premier homme affligé.</speaker>
+	<l id='550'>Ahi dolore ! </l>
+</sp>
+<sp who='SECOND-HOMME-AFFLIGE'><speaker>Second homme affligé.</speaker>
+	<l id='551'>Ahi martire ! </l>
+</sp>
+<sp who='PREMIER-HOMME-AFFLIGE'><speaker>Premier homme affligé.</speaker>
+	<l id='552'>Cruda morte, </l>
+</sp>
+<sp who='SECOND-HOMME-AFFLIGE'><speaker>Second homme affligé.</speaker>
+	<l id='553'>Empia sorte, </l>
+</sp>
+<sp who='TROIS-AFFLIGES'><speaker>Tous trois.</speaker>
+	<l id='554'>Che condanni a morir tanta beltà ! </l>
+	<l id='555'>Cieli, stelle, ahi crudeltà ! </l>
+</sp>
+<sp who='SECOND-HOMME-AFFLIGE'><speaker>Second homme affligé.</speaker>
+	<l id='556'>Com'esser può fra voi, o Numi eterni, </l>
+	<l id='557'>Chi voglia estinta una beltà innocente ? </l>
+	<l id='558'>Ahi ! che tanto rigor, Cielo inclemente, </l>
+	<l id='559'>Vince di crudeltà gli stessi Inferni. </l>
+</sp>
+<sp who='PREMIER-HOMME-AFFLIGE'><speaker>Premier homme affligé.</speaker>
+	<l id='560'>Nume fiero ! </l>
+</sp>
+<sp who='SECOND-HOMME-AFFLIGE'><speaker>Second homme affligé.</speaker>
+	<l id='561'>Dio severo ! </l>
+</sp>
+<sp who='TROIS-AFFLIGES'><speaker>Ensemble.</speaker>
+	<l id='562'>Perchè tanto rigor </l>
+	<l id='563'>Contro innocente cor ? </l>
+	<l id='564'>Ahi ! sentenza inudita, </l>
+	<l id='565'>Dar morte à la beltà, ch'altrui dà vità ! </l>
+</sp>
+<sp who='FEMME-DESOLEE'><speaker>Femme désolée </speaker>
+	<l id='566'>Ahi ! ch'indarno si tarda ! </l>
+	<l id='567'>Non resiste a li Dei mortale affetto ; </l>
+	<l id='568'>Alto impero ne sforza : </l>
+	<l id='569'>Ove commanda il Ciel, l'uom cede a forza. </l>
+</sp>
+<sp who='PREMIER-HOMME-AFFLIGE'><speaker>Premier homme affligé.</speaker>
+	<l id='570'>Ahi dolore !</l>
+<stage>Ces plaintes sont entrecoupées et finies par une entrée de ballet de huit personnes affligées. </stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Le Roi, Psyché, Aglaure, Cidippe, Lycas, Suite.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='571'>De vos larmes, Seigneur, la source m'est bien chère : </l>
+	<l id='572'>Mais c'est trop aux bontés que vous avez pour moi </l>
+	<l id='573'>Que de laisser régner les tendresses de père </l>
+	<l id='574'>Jusque dans les yeux d'un grand roi. </l>
+	<l id='575'>Ce qu'on vous voit ici donner à la nature </l>
+	<l id='576'>Au rang que vous tenez, Seigneur, fait trop d'injure, </l>
+	<l id='577'>Et j'en dois refuser les touchantes faveurs : </l>
+	<l id='578'>Laissez moins sur votre sagesse </l>
+	<l id='579'>Prendre d'empire à vos douleurs, </l>
+	<l id='580'>Et cessez d'honorer mon destin par des pleurs </l>
+	<l id='581'>Qui dans le coeur d'un roi montrent de la faiblesse. </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='582'>Ah ! ma fille, à ces pleurs laisse mes yeux ouverts ; </l>
+	<l id='583'>Mon deuil est raisonnable, encor qu'il soit extrême ; </l>
+	<l id='584'>Et lorsque pour toujours on perd ce que je perds, </l>
+	<l id='585'>La sagesse, crois-moi, peut pleurer elle-même. </l>
+	<l id='586'>En vain l'orgueil du diadème </l>
+	<l id='587'>Veut qu'on soit insensible à ces cruels revers, </l>
+	<l id='588'>En vain de la raison les secours sont offerts, </l>
+	<l id='589'>Pour vouloir d'un oeil sec voir mourir ce qu'on aime : </l>
+	<l id='590'>L'effort en est barbare aux yeux de l'univers, </l>
+	<l id='591'>Et c'est brutalité plus que vertu suprême </l>
+	<l id='592'>Je ne veux point dans cette adversité </l>
+	<l id='593'>Parer mon coeur d'insensibilité, </l>
+	<l id='594'>Et cacher l'ennui qui me touche : </l>
+	<l id='595'>Je renonce à la vanité </l>
+	<l id='596'>De cette dureté farouche </l>
+	<l id='597'>Que l'on appelle fermeté. </l>
+	<l id='598'>Et de quelque façon qu'on nomme </l>
+	<l id='599'>Cette vive douleur dont je ressens les coups, </l>
+	<l id='600'>Je veux bien l'étaler, ma fille, aux yeux de tous, </l>
+	<l id='601'>Et dans le coeur d'un roi montrer le coeur d'un homme. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='602'>Je ne mérite pas cette grande douleur : </l>
+	<l id='603'>Opposez, opposez un peu de résistance </l>
+	<l id='604'>Aux droits qu'elle prend sur un coeur </l>
+	<l id='605'>Dont mille événements ont marqué la puissance. </l>
+	<l id='606'>Quoi ? faut-il que pour moi vous renonciez, Seigneur, </l>
+	<l id='607'>A cette royale constance </l>
+	<l id='608'>Dont vous avez fait voir dans les coups du malheur </l>
+	<l id='609'>Une fameuse expérience ? </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='610'>La constance est facile en mille occasions. </l>
+	<l id='611'>Toutes les révolutions </l>
+	<l id='612'>Où nous peut exposer la fortune inhumaine, </l>
+	<l id='613'>La perte des grandeurs, les persécutions, </l>
+	<l id='614'>Le poison de l'envie, et les traits de la haine, </l>
+	<l id='615'>N'ont rien que ne puissent sans peine </l>
+	<l id='616'>Braver les résolutions </l>
+	<l id='617'>D'une âme où la raison est un peu souveraine ; </l>
+	<l id='618'>Mais ce qui porte des rigueurs </l>
+	<l id='619'>A faire succomber les coeurs </l>
+	<l id='620'>Sous le poids des douleurs amères, </l>
+	<l id='621'>Ce sont, ce sont les rudes traits </l>
+	<l id='622'>De ces fatalités sévères </l>
+	<l id='623'>Qui nous enlèvent pour jamais </l>
+	<l id='624'>Les personnes qui nous sont chères. </l>
+	<l id='625'>La raison contre de tels coups </l>
+	<l id='626'>N'offre point d'armes secourables ; </l>
+	<l id='627'>Et voilà des Dieux en courroux </l>
+	<l id='628'>Les foudres les plus redoutables </l>
+	<l id='629'>Qui se puissent lancer sur nous. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='630'>Seigneur, une douceur ici vous est offerte : </l>
+	<l id='631'>Votre hymen a reçu plus d'un présent des Dieux, </l>
+	<l id='632'>Et, par une faveur ouverte, </l>
+	<l id='633'>Ils ne vous ôtent rien, en m'ôtant à vos yeux, </l>
+	<l id='634'>Dont ils n'aient pris le soin de réparer la perte. </l>
+	<l id='635'>Il vous reste de quoi consoler vos douleurs ; </l>
+	<l id='636'>Et cette loi du Ciel que vous nommez cruelle </l>
+	<l id='637'>Dans les deux Princesses mes soeurs </l>
+	<l id='638'>Laisse à l'amitié paternelle </l>
+	<l id='639'>Où placer toutes ses douceurs. </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='640'>Ah ! de mes maux soulagement frivole ! </l>
+	<l id='641'>Rien, rien ne s'offre à moi qui de toi me console ; </l>
+	<l id='642'>C'est sur mes déplaisirs que j'ai les yeux ouverts, </l>
+	<l id='643'>Et dans un destin si funeste </l>
+	<l id='644'>Je regarde ce que je perds, </l>
+	<l id='645'>Et ne vois point ce qui me reste. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='646'>Vous savez mieux que moi qu'aux volontés des Dieux, </l>
+	<l id='647'>Seigneur, il faut régler les nôtres, </l>
+	<l id='648'>Et je ne puis vous dire, en ces tristes adieux, </l>
+	<l id='649'>Que ce que beaucoup mieux vous pouvez dire aux autres. </l>
+	<l id='650'>Ces Dieux sont maîtres souverains </l>
+	<l id='651'>Des présents qu'ils daignent nous faire : </l>
+	<l id='652'>Ils ne les laissent dans nos mains </l>
+	<l id='653'>Qu'autant de temps qu'il peut leur plaire : </l>
+	<l id='654'>Lorsqu'ils viennent les retirer, </l>
+	<l id='655'>On n'a nul droit de murmurer </l>
+	<l id='656'>Des grâces que leur main ne veut plus nous étendre. </l>
+	<l id='657'>Seigneur, je suis un don qu'ils ont fait à vos voeux ; </l>
+	<l id='658'>Et quand par cet arrêt ils veulent me reprendre, </l>
+	<l id='659'>Ils ne vous ôtent rien que vous ne teniez d'eux, </l>
+	<l id='660'>Et c'est sans murmurer que vous devez me rendre. </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='661'>Ah ! cherche un meilleur fondement </l>
+	<l id='662'>Aux consolations que ton coeur me présente, </l>
+	<l id='663'>Et de la fausseté de ce raisonnement </l>
+	<l id='664'>Ne fais point un accablement </l>
+	<l id='665'>A cette douleur si cuisante </l>
+	<l id='666'>Dont je souffre ici le tourment. </l>
+	<l id='667'>Crois-tu là me donner une raison puissante </l>
+	<l id='668'>Pour ne me plaindre point de cet arrêt des Cieux ? </l>
+	<l id='669'>Et dans le procédé des Dieux </l>
+	<l id='670'>Dont tu veux que je me contente, </l>
+	<l id='671'>Une rigueur assassinante </l>
+	<l id='672'>Ne paraît-elle pas aux yeux ? </l>
+	<l id='673'>Vois l'état où ces Dieux me forcent à te rendre, </l>
+	<l id='674'>Et l'autre où te reçut mon coeur infortuné : </l>
+	<l id='675'>Tu connaîtras par là qu'ils me viennent reprendre </l>
+	<l id='676'>Bien plus que ce qu'ils m'ont donné. </l>
+	<l id='677'>Je reçus d'eux en toi, ma fille, </l>
+	<l id='678'>Un présent que mon coeur ne leur demandoit pas ; </l>
+	<l id='679'>J'y trouvois alors peu d'appas, </l>
+	<l id='680'>Et leur en vis sans joie accroître ma famille. </l>
+	<l id='681'>Mais mon coeur, ainsi que mes yeux, </l>
+	<l id='682'>S'est fait de ce présent une douce habitude : </l>
+	<l id='683'>J'ai mis quinze ans de soins, de veilles et d'étude </l>
+	<l id='684'>A me le rendre précieux ; </l>
+	<l id='685'>Je l'ai paré de l'aimable richesse </l>
+	<l id='686'>De mille brillantes vertus ; </l>
+	<l id='687'>En lui j'ai renfermé par des soins assidus </l>
+	<l id='688'>Tous les plus beaux trésors que fournit la sagesse ; </l>
+	<l id='689'>A lui j'ai de mon âme attaché la tendresse ; </l>
+	<l id='690'>J'en ai fait de ce coeur le charme et l'allégresse, </l>
+	<l id='691'>La consolation de mes sens abattus, </l>
+	<l id='692'>Le doux espoir de ma vieillesse. </l>
+	<l id='693'>Ils m'ôtent tout cela, ces Dieux, </l>
+	<l id='694'>Et tu veux que je n'aie aucun sujet de plainte </l>
+	<l id='695'>Sur cet affreux arrêt dont je souffre l'atteinte ? </l>
+	<l id='696'>Ah ! leur pouvoir se joue avec trop de rigueur </l>
+	<l id='697'>Des tendresses de notre coeur : </l>
+	<l id='698'>Pour m'ôter leur présent, leur fallait-il attendre </l>
+	<l id='699'>Que j'en eusse fait tout mon bien ? </l>
+	<l id='700'>Ou plutôt, s'ils avaient dessein de le reprendre, </l>
+	<l id='701'>N'eût-il pas été mieux de ne me donner rien ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='702'>Seigneur, redoutez la colère </l>
+	<l id='703'>De ces Dieux contre qui vous osez éclater. </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='704'>Après ce coup que peuvent-ils me faire ? </l>
+	<l id='705'>Ils m'ont mis en état de ne rien redouter. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='706'>Ah ! seigneur, je tremble des crimes </l>
+	<l id='707'>Que je vous fais commettre, et je dois me haïr... </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='708'>Ah ! qu'ils souffrent du moins mes plaintes légitimes : </l>
+	<l id='709'>Ce m'est assez d'effort que de leur obéir ; </l>
+	<l id='710'>Ce doit leur être assez que mon coeur t'abandonne </l>
+	<l id='711'>Au barbare respect qu'il faut qu'on ait pour eux, </l>
+	<l id='712'>Sans prétendre gêner la douleur que me donne </l>
+	<l id='713'>L'épouvantable arrêt d'un sort si rigoureux. </l>
+	<l id='714'>Mon juste désespoir ne saurait se contraindre ; </l>
+	<l id='715'>Je veux, je veux garder ma douleur à jamais, </l>
+	<l id='716'>Je veux sentir toujours la perte que je fais, </l>
+	<l id='717'>De la rigueur du Ciel je veux toujours me plaindre, </l>
+	<l id='718'>Je veux jusqu'au trépas incessamment pleurer </l>
+	<l id='719'>Ce que tout l'univers ne peut me réparer. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='720'>Ah ! de grâce, Seigneur, épargnez ma faiblesse : </l>
+	<l id='721'>J'ai besoin de constance en l'état où je suis ; </l>
+	<l id='722'>Ne fortifiez point l'excès de mes ennuis </l>
+	<l id='723'>Des larmes de votre tendresse ; </l>
+	<l id='724'>Seuls, ils sont assez forts, et c'est trop pour mon coeur </l>
+	<l id='725'>De mon destin et de votre douleur. </l>
+</sp>
+<sp who='LE-ROI'><speaker>LE ROI.</speaker>
+	<l id='726'>Oui, je dois t'épargner mon deuil inconsolable. </l>
+	<l id='727'>Voici l'instant fatal de m'arracher de toi : </l>
+	<l id='728'>Mais comment prononcer ce mot épouvantable ? </l>
+	<l id='729'>Il le faut toutefois, le Ciel m'en fait la loi ; </l>
+	<l id='730'>Une rigueur inévitable </l>
+	<l id='731'>M'oblige à te laisser en ce funeste lieu. </l>
+	<l id='732'>Adieu : je vais... Adieu. </l>
+<note>Ce qui suit, jusqu'à la fin de la pièce, est de M. C[orneille], à la réserve de la première scène du troisième acte, qui est de la même main que ce qui a précédé.</note>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Psyché, Aglaure, Cidippe.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='733'>Suivez le Roi, mes soeurs : vous essuierez ses larmes, </l>
+	<l id='734'>Vous adoucirez ses douleurs ; </l>
+	<l id='735'>Et vous l'accableriez d'alarmes </l>
+	<l id='736'>Si vous vous exposiez encore à mes malheurs. </l>
+	<l id='737'>Conservez-lui ce qui lui reste : </l>
+	<l id='738'>Le serpent que j'attends peut vous être funeste, </l>
+	<l id='739'>Vous envelopper dans mon sort, </l>
+	<l id='740'>Et me porter en vous une seconde mort. </l>
+	<l id='741'>Le Ciel m'a seule condamnée </l>
+	<l id='742'>A son haleine empoisonnée ; </l>
+	<l id='743'>Rien ne saurait me secourir, </l>
+	<l id='744'>Et je n'ai pas besoin d'exemple pour mourir. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='745'>Ne nous enviez pas ce cruel avantage </l>
+	<l id='746'>De confondre nos pleurs avec vos déplaisirs, </l>
+	<l id='747'>De mêler nos soupirs à vos derniers soupirs : </l>
+	<l id='748'>D'une tendre amitié souffrez ce dernier gage. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='749'>C'est vous perdre inutilement. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='750'>C'est en votre faveur espérer un miracle, </l>
+	<l id='751'>Ou vous accompagner jusques au monument. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='752'>Que peut-on se promettre après un tel oracle ? </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='753'>Un oracle jamais n'est sans obscurité : </l>
+	<l id='754'>On l'entend d'autant moins que mieux on croit l'entendre </l>
+	<l id='755'>Et peut-être, après tout, n'en devez-vous attendre </l>
+	<l id='756'>Que gloire et que félicité. </l>
+	<l id='757'>Laissez-nous voir, ma soeur, par une digne issue, </l>
+	<l id='758'>Cette frayeur mortelle heureusement déçue, </l>
+	<l id='759'>Ou mourir du moins avec vous, </l>
+	<l id='760'>Si le Ciel à nos voeux ne se montre plus doux. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='761'>Ma soeur, écoutez mieux la voix de la nature </l>
+	<l id='762'>Qui vous appelle auprès du Roi. </l>
+	<l id='763'>Vous m'aimez trop, le devoir en murmure ; </l>
+	<l id='764'>Vous en savez l'indispensable loi : </l>
+	<l id='765'>Un père vous doit être encor plus cher que moi. </l>
+	<l id='766'>Rendez-vous toutes deux l'appui de sa vieillesse : </l>
+	<l id='767'>Vous lui devez chacune un gendre et des neveux ; </l>
+	<l id='768'>Mille rois à l'envi vous gardent leur tendresse, </l>
+	<l id='769'>Mille rois à l'envi vous offriront leurs voeux. </l>
+	<l id='770'>L'oracle me veut seule, et seule aussi je veux </l>
+	<l id='771'>Mourir, si je puis, sans faiblesse, </l>
+	<l id='772'>Ou ne vous avoir pas pour témoins toutes deux </l>
+	<l id='773'>De ce que, malgré moi, la nature m'en laisse. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='774'>Partager vos malheurs, c'est vous importuner ? </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='775'>J'ose dire un peu plus, ma soeur, c'est vous déplaire ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='776'>Non, mais enfin c'est me gêner, </l>
+	<l id='777'>Et peut-être du Ciel redoubler la colère. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='778'>Vous le voulez, et nous partons. </l>
+	<l id='779'>Daigne ce même Ciel, plus juste et moins sévère, </l>
+	<l id='780'>Vous envoyer le sort que nous vous souhaitons, </l>
+	<l id='781'>Et que notre amitié sincère, </l>
+	<l id='782'>En dépit de l'oracle et malgré vous, espère. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='783'>Adieu. C'est un espoir, ma soeur, et des souhaits </l>
+	<l id='784'>Qu'aucun des Dieux ne remplira jamais. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ, seule.</speaker>
+	<l id='785'>Enfin, seule et toute à moi-même, </l>
+	<l id='786'>Je puis envisager cet affreux changement </l>
+	<l id='787'>Qui du haut d'une gloire extrême </l>
+	<l id='788'>Me précipite au monument. </l>
+	<l id='789'>Cette gloire était sans seconde, </l>
+	<l id='790'>L'éclat s'en répandait jusqu'aux deux bouts du monde ; </l>
+	<l id='791'>Tout ce qu'il a de rois semblaient faits pour m'aimer ; </l>
+	<l id='792'>Tous leur sujets me prenant pour déesse, </l>
+	<l id='793'>Commençaient à m'accoutumer </l>
+	<l id='794'>Aux encens qu'ils m'offraient sans cesse ; </l>
+	<l id='795'>Leurs soupirs me suivaient sans qu'il m'en coûtât rien ; </l>
+	<l id='796'>Mon âme restait libre en captivant tant d'âmes, </l>
+	<l id='797'>Et j'étais, parmi tant de flammes, </l>
+	<l id='798'>Reine de tous les coeurs, et maîtresse du mien. </l>
+	<l id='799'>O Ciel ! m'auriez-vous fait un crime </l>
+	<l id='800'>De cette insensibilité ? </l>
+	<l id='801'>Déployez-vous sur moi tant de sévérité, </l>
+	<l id='802'>Pour n'avoir à leurs voeux rendu que de l'estime ? </l>
+	<l id='803'>Si vous m'imposiez cette loi </l>
+	<l id='804'>Qu'il fallût faire un choix pour ne pas vous déplaire, </l>
+	<l id='805'>Puisque je ne pouvais le faire, </l>
+	<l id='806'>Que ne le faisiez-vous pour moi ? </l>
+	<l id='807'>Que ne m'inspiriez-vous ce qu'inspire à tant d'autres </l>
+	<l id='808'>Le mérite, l'amour, et... Mais que vois-je ici ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Cléomène, Agénor, Psyché/</head>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='809'>Deux amis, deux rivaux, dont l'unique souci </l>
+	<l id='810'>Est d'exposer leurs jours pour conserver les vôtres. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='811'>Puis-je vous écouter, quand j'ai chassé deux soeurs ? </l>
+	<l id='812'>Princes, contre le Ciel pensez-vous me défendre ? </l>
+	<l id='813'>Vous livrer au serpent qu'ici je dois attendre, </l>
+	<l id='814'>Ce n'est qu'un désespoir qui sied mal aux grands coeurs ; </l>
+	<l id='815'>Et mourir alors que je meurs, </l>
+	<l id='816'>C'est accabler une âme tendre </l>
+	<l id='817'>Qui n'a que trop de ses douleurs. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='818'>Un serpent n'est pas invincible : </l>
+	<l id='819'>Cadmus, qui n'aimait rien, défit celui de Mars. </l>
+	<l id='820'>Nous aimons, et l'Amour sait rendre tout possible </l>
+	<l id='821'>Au coeur qui suit ses étendards, </l>
+	<l id='822'>A la mains dont lui-même il conduit tous les dards. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='823'>Voulez-vous qu'il vous serve en faveur d'une ingrate </l>
+	<l id='824'>Que tous ses traits n'ont pu toucher ? </l>
+	<l id='825'>Qu'il dompte sa vengeance au moment qu'elle éclate, </l>
+	<l id='826'>Et vous aide à m'en arracher ? </l>
+	<l id='827'>Quand même vous m'auriez servie, </l>
+	<l id='828'>Quand vous m'auriez rendu la vie, </l>
+	<l id='829'>Quel fruit espérez-vous de qui ne peut aimer ? </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='830'>Ce n'est point par l'espoir d'un si charmant salaire </l>
+	<l id='831'>Que nous nous sentons animer ; </l>
+	<l id='832'>Nous ne cherchons qu'à satisfaire </l>
+	<l id='833'>Aux devoirs d'un amour qui n'ose présumer </l>
+	<l id='834'>Que jamais, quoi qu'il puisse faire, </l>
+	<l id='835'>Il soit capable de vous plaire, </l>
+	<l id='836'>Et digne de vous enflammer. </l>
+	<l id='837'>Vivez, belle princesse, et vivez pour un autre : </l>
+	<l id='838'>Nous le verrons d'un oeil jaloux ; </l>
+	<l id='839'>Nous en mourrons, mais d'un trépas plus doux </l>
+	<l id='840'>Que s'il nous falloit voir le vôtre ; </l>
+	<l id='841'>Et si nous ne mourrons en vous sauvant le jour, </l>
+	<l id='842'>Quelque amour qu'à nos yeux vous préfériez au nôtre, </l>
+	<l id='843'>Nous voulons bien mourir de douleur et d'amour. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='844'>Vivez, Princes, vivez, et de ma destinée </l>
+	<l id='845'>Ne songez plus à rompre ou partager la loi : </l>
+	<l id='846'>Je crois vous l'avoir dit, le Ciel ne veut que moi, </l>
+	<l id='847'>Le Ciel m'a seule condamnée. </l>
+	<l id='848'>Je pense ouïr déjà les mortels sifflements </l>
+	<l id='849'>De son ministre qui s'approche ; </l>
+	<l id='850'>Ma frayeur me le peint, me l'offre à tous moments </l>
+	<l id='851'>Et, maîtresse qu'elle est de tous mes sentiments, </l>
+	<l id='852'>Elle me le figure au haut de cette roche. </l>
+	<l id='853'>J'en tombe de foiblesse, et mon coeur abattu </l>
+	<l id='854'>Ne soutient plus qu'à peine un reste de vertu. </l>
+	<l id='855'>Adieu, Princes, fuyez, qu'il ne vous empoisonne. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='856'>Rien ne s'offre à nos yeux encor qui les étonne, </l>
+	<l id='857'>Et quand vous vous peignez un si proche trépas, </l>
+	<l id='858'>Si la force vous abandonne, </l>
+	<l id='859'>Nous avons des coeurs et des bras </l>
+	<l id='860'>Que l'espoir n'abandonne pas. </l>
+	<l id='861'>Peut-être qu'un rival a dicté cet oracle, </l>
+	<l id='862'>Que l'or a fait parler celui qui l'a rendu : </l>
+	<l id='863'>Ce ne seroit pas un miracle </l>
+	<l id='864'>Que pour dieu muet un homme eût répondu, </l>
+	<l id='865'>Et dans tous les climats on n'a que trop d'exemples </l>
+	<l id='866'>Qu'il est ainsi qu'ailleurs des méchants dans les temples. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='867'>Laissez-nous opposer au lâche ravisseur, </l>
+	<l id='868'>A qui le sacrilège indignement vous livre, </l>
+	<l id='869'>Un amour qu'a le Ciel choisi pour défenseur </l>
+	<l id='870'>De la seule beauté pour qui nous voulons vivre. </l>
+	<l id='871'>Si nous n'osons prétendre à sa possession, </l>
+	<l id='872'>Du moins en son péril permettez-nous de suivre </l>
+	<l id='873'>L'ardeur et les devoirs de notre passion. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='874'>Portez-les à d'autres moi-mêmes, </l>
+	<l id='875'>Princes, portez-les à mes soeurs, </l>
+	<l id='876'>Ces devoirs, ces ardeurs extrêmes </l>
+	<l id='877'>Dont pour moi sont remplis vos coeurs. </l>
+	<l id='878'>Vivez pour elles quand je meurs ; </l>
+	<l id='879'>Plaignez de mon destin les funestes rigueurs, </l>
+	<l id='880'>Sans leur donner en vous de nouvelles matières : </l>
+	<l id='881'>Ce sont mes volontés dernières, </l>
+	<l id='882'>Et l'on a reçu de tout temps </l>
+	<l id='883'>Pour souveraines lois les ordres des mourants. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='884' part='i'>Princesse... </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='884' part='f'>Encore un coup, Princes, vivez pour elles : </l>
+	<l id='885'>Tant que vous m'aimerez, vous devez m'obéir ; </l>
+	<l id='886'>Ne me réduisez pas à vouloir vous haïr, </l>
+	<l id='887'>Et vous regarder en rebelles, </l>
+	<l id='888'>A force de m'être fidèles. </l>
+	<l id='889'>Allez, laissez-moi seule expirer en ce lieu, </l>
+	<l id='890'>Où je n'ai plus de voix que pour vous dire adieu. </l>
+	<l id='891'>Mais je sens qu'on m'enlève, et l'air m'ouvre une route </l>
+	<l id='892'>D'où vous n'entendrez plus cette mourante voix. </l>
+	<l id='893'>Adieu, Princes, adieu pour la dernière fois : </l>
+	<l id='894'>Voyez si de mon sort vous pouvez être en doute. </l>
+<stage>Elle est enlevée en l'air par deux Zéphires. </stage>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='895'>Nous la perdons de vue. Allons tous deux chercher </l>
+	<l id='896'>Sur le faîte de ce rocher, </l>
+	<l id='897'>Prince, les moyens de la suivre. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='898'>Allons-y chercher ceux de ne lui point survivre. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR, en l'air. </speaker>
+	<l id='899'>Allez mourir, rivaux d'un dieu jaloux, </l>
+	<l id='900'>Dont vous méritez le courroux, </l>
+	<l id='901'>Pour avoir eu le coeur sensible aux mêmes charmes, </l>
+	<l id='902'>Et toi, forge, Vulcain, mille brillants attraits, </l>
+	<l id='903'>Pour orner un palais </l>
+	<l id='904'>Où l'Amour de Psyché veut essuyer les larmes, </l>
+	<l id='905'>Et lui rendre les armes. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SECOND INTERMÈDE.</head>
+<stage>La scène se change en une cour magnifique, ornée de colonnes de lapis enrichies de figures d'or, qui forment un palais pompeux et brillant, que l'Amour destine pour Psyché. Six Cyclopes, avec quatre Fées, y font une entrée de ballet, où ils achèvent, en cadence, quatre gros vases d'argent que les Fées leur ont apportés. Cette entrée est entrecoupée par ce récit de Vulcain, qu'il fait à deux reprises/</stage>
+<sp who='VULCAIN'><speaker>Récit de VULCAIN.</speaker>
+	<l id='906'>Dépêchez, préparez ces lieux </l>
+	<l id='907'>Pour le plus aimable des Dieux ; </l>
+	<l id='908'>Que chacun pour lui s'intéresse, </l>
+	<l id='909'>N'oubliez rien des soins qu'il faut : </l>
+	<l id='910'>Quand l'Amour presse, </l>
+	<l id='911'>On n'a jamais fait assez tôt. </l>
+	<l id='912'>L'Amour ne veut point qu'on diffère, </l>
+	<l id='913'>Travaillez, hâtez-vous, </l>
+	<l id='914'>Frappez, redoublez vos coups ; </l>
+	<l id='915'>Que l'ardeur de lui plaire </l>
+	<l id='916'>Fasse vos soins le plus doux. </l>
+<stage>Second couplet </stage>
+	<l id='917'>Servez bien un dieu si charmant : </l>
+	<l id='918'>Il se plaît dans l'empressement. </l>
+	<l id='919'>Que chacun pour lui s'intéresse, </l>
+	<l id='920'>N'oubliez rien des soins qu'il faut : </l>
+	<l id='921'>Quand l'Amour presse, </l>
+	<l id='922'>On n'a jamais fait assez tôt. </l>
+	<l id='923'>L'Amour ne veut point qu'on diffère, </l>
+	<l id='924'>Travaillez, etc. </l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE I. L'Amour, Zéphire.</head>
+<sp who='ZEPHIRE'><speaker>ZÉPHIRE.</speaker>
+	<l id='925'>Oui, je me suis galamment acquitté </l>
+	<l id='926'>De la commission que vous m'avez donnée, </l>
+	<l id='927'>Et du haut du rocher je l'ai, cette beauté, </l>
+	<l id='928'>Par le milieu des airs doucement amenée. </l>
+	<l id='929'>Dans ce beau palais enchanté, </l>
+	<l id='930'>Où vous pouvez en liberté </l>
+	<l id='931'>Disposer de sa destinée. </l>
+	<l id='932'>Mais vous me surprenez par ce grand changement </l>
+	<l id='933'>Qu'en votre personne vous faites : </l>
+	<l id='934'>Cette taille, ces traits, et cet ajustement </l>
+	<l id='935'>Cachent tout à fait qui vous êtes, </l>
+	<l id='936'>Et je donne aux plus fins à pouvoir en ce jour </l>
+	<l id='937'>Vous reconnaître pour l'Amour. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='938'>Aussi, ne veux-je pas qu'on puisse me connaître : </l>
+	<l id='939'>Je ne veux à Psyché découvrir que mon coeur, </l>
+	<l id='940'>Rien que les beaux transports de cette vive ardeur </l>
+	<l id='941'>Que ses doux charmes y font naître ; </l>
+	<l id='942'>Et pour en exprimer l'amoureuse langueur, </l>
+	<l id='943'>Et cacher ce que je puis être </l>
+	<l id='944'>Aux yeux qui m'imposent des lois, </l>
+	<l id='945'>J'ai pris la forme que tu vois. </l>
+</sp>
+<sp who='ZEPHIRE'><speaker>ZÉPHIRE.</speaker>
+	<l id='946'>En tout vous êtes un grand maître : </l>
+	<l id='947'>C'est ici que je le connais. </l>
+	<l id='948'>Sous des déguisements de diverse nature </l>
+	<l id='949'>On a vu les Dieux amoureux </l>
+	<l id='950'>Chercher à soulager cette douce blessure </l>
+	<l id='951'>Que reçoivent les coeurs de vos traits pleins de feux ; </l>
+	<l id='952'>Mais en bon sens vous l'emportez sur eux ; </l>
+	<l id='953'>Et voilà la bonne figure </l>
+	<l id='954'>Pour avoir un succès heureux </l>
+	<l id='955'>Près de l'aimable sexe où l'on porte ses voeux. </l>
+	<l id='956'>Oui, de ces formes-là l'assistance est bien forte ; </l>
+	<l id='957'>Et sans parler ni de rang, ni d'esprit, </l>
+	<l id='958'>Qui peut trouver moyen d'être fait de la sorte </l>
+	<l id='959'>Ne soupire guère à crédit. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='960'>J'ai résolu, mon cher Zéphire, </l>
+	<l id='961'>De demeurer ainsi toujours, </l>
+	<l id='962'>Et l'on ne peut le trouver à redire </l>
+	<l id='963'>A l'aîné de tous les Amours. </l>
+	<l id='964'>Il est temps de sortir de cette longue enfance </l>
+	<l id='965'>Qui fatigue ma patience, </l>
+	<l id='966'>Il est temps désormais que je devienne grand. </l>
+</sp>
+<sp who='ZEPHIRE'><speaker>ZÉPHIRE.</speaker>
+	<l id='967'>Fort bien, vous ne pouvez mieux faire, </l>
+	<l id='968'>Et vous entrez dans un mystère </l>
+	<l id='969'>Qui ne demande rien d'enfant. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='970'>Ce changement sans doute irritera ma mère. </l>
+</sp>
+<sp who='ZEPHIRE'><speaker>ZÉPHIRE.</speaker>
+	<l id='971'>Je prévois là-dessus quelque peu de colère. </l>
+	<l id='972'>Bien que les disputes des ans </l>
+	<l id='973'>Ne doivent point régner parmi des Immortelles, </l>
+	<l id='974'>Votre mère Vénus est de l'humeur des belles, </l>
+	<l id='975'>Qui n'aiment point de grands enfants. </l>
+	<l id='976'>Mais où je la trouve outragée, </l>
+	<l id='977'>C'est dans le procédé que l'on vous voit tenir ; </l>
+	<l id='978'>Et c'est l'avoir étrangement vengée, </l>
+	<l id='979'>Que d'aimer la beauté qu'elle voulait punir. </l>
+	<l id='980'>Cette haine où ses voeux prétendent que réponde </l>
+	<l id='981'>La puissance d'un fils que redoutent les Dieux... </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='982'>Laissons cela, Zéphire, et me dis si tes yeux </l>
+	<l id='983'>Ne trouvent pas Psyché la plus belle du monde ? </l>
+	<l id='984'>Est-il rien sur la terre, est-il rien dans les Cieux </l>
+	<l id='985'>Qui puisse lui ravir le titre glorieux </l>
+	<l id='986'>De beauté sans seconde ? </l>
+	<l id='987'>Mais je la vois, mon cher Zéphire, </l>
+	<l id='988'>Qui demeure surprise à l'éclat de ces lieux. </l>
+</sp>
+<sp who='ZEPHIRE'><speaker>ZÉPHIRE.</speaker>
+	<l id='989'>Vous pouvez vous montrer pour finir son martyre, </l>
+	<l id='990'>Lui découvrir son destin glorieux, </l>
+	<l id='991'>Et vous dire entre vous tout ce que peuvent dire </l>
+	<l id='992'>Les soupirs, la bouche et les yeux. </l>
+	<l id='993'>En confident discret je sais ce qu'il faut faire </l>
+	<l id='994'>Pour ne pas interrompre un amoureux mystère. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='995'>Où suis-je ? Et dans un lieu que je croyais barbare </l>
+	<l id='996'>Quelle savante main a bâti ce palais, </l>
+	<l id='997'>Que l'art, que la nature pare </l>
+	<l id='998'>De l'assemblage le plus rare </l>
+	<l id='999'>Que l'oeil puisse admirer jamais ? </l>
+	<l id='1000'>Tout rit, tout brille, tout éclate, </l>
+	<l id='1001'>Dans ces jardins, dans ces appartements, </l>
+	<l id='1002'>Dont les pompeux ameublements </l>
+	<l id='1003'>N'ont rien qui n'enchante et ne flatte ; </l>
+	<l id='1004'>Et de quelque côté que tournent mes frayeurs, </l>
+	<l id='1005'>Je ne vois sous mes pas que de l'or, ou des fleurs. </l>
+	<l id='1006'>Le Ciel auroit-il fait cet amas de merveilles </l>
+	<l id='1007'>Pour la demeure d'un serpent ? </l>
+	<l id='1008'>Et lorsque par leur vue il amuse et suspend </l>
+	<l id='1009'>De mon destin jaloux les rigueurs sans pareilles, </l>
+	<l id='1010'>Veut-il montrer qu'il s'en repent ? </l>
+	<l id='1011'>Non, non : c'est de sa haine, en cruautés féconde, </l>
+	<l id='1012'>Le plus noir, le plus rude trait, </l>
+	<l id='1013'>Qui, par une rigueur nouvelle et sans seconde, </l>
+	<l id='1014'>N'étale ce choix qu'elle a fait </l>
+	<l id='1015'>De ce qu'a de plus beau le monde, </l>
+	<l id='1016'>Qu'afin que je le quitte avec plus de regret. </l>
+	<l id='1017'>Que mon espoir est ridicule, </l>
+	<l id='1018'>S'il croit par là soulager mes douleurs ! </l>
+	<l id='1019'>Tout autant de moments que ma mort se recule </l>
+	<l id='1020'>Sont autant de nouveaux malheurs : </l>
+	<l id='1021'>Plus elle tarde, et plus de fois je meurs. </l>
+	<l id='1022'>Ne me fais plus languir, viens prendre ta victime, </l>
+	<l id='1023'>Monstre qui dois me déchirer. </l>
+	<l id='1024'>Veux-tu que je te cherche, et faut-il que j'anime </l>
+	<l id='1025'>Tes fureurs à me dévorer ? </l>
+	<l id='1026'>Si le Ciel veut ma mort, si ma vie est un crime, </l>
+	<l id='1027'>De ce peu qui m'en reste ose enfin t'emparer : </l>
+	<l id='1028'>Je suis lasse de murmurer </l>
+	<l id='1029'>Contre un châtiment légitime ; </l>
+	<l id='1030'>Je suis lasse de soupirer ; </l>
+	<l id='1031'>Viens, que j'achève d'expirer. </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. L'Amour, Psyché, Zéphire.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1032'>Le voilà ce serpent, ce monstre impitoyable, </l>
+	<l id='1033'>Qu'un oracle étonnant pour vous a préparé, </l>
+	<l id='1034'>Et qui n'est pas peut-être à tel point effroyable </l>
+	<l id='1035'>Que vous vous l'êtes figuré. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1036'>Vous, Seigneur, vous seriez ce monstre dont l'oracle </l>
+	<l id='1037'>A menacé mes tristes jours, </l>
+	<l id='1038'>Vous qui semblez plutôt un dieu qui, par miracle, </l>
+	<l id='1039'>Daigne venir lui-même à mon secours ! </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1040'>Quel besoin de secours au milieu d'un empire </l>
+	<l id='1041'>Où tout ce qui respire </l>
+	<l id='1042'>N'attend que vos regards pour en prendre la loi, </l>
+	<l id='1043'>Où vous n'avez à craindre autre monstre que moi ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1044'>Qu'un monstre tel que vous inspire peu de crainte ! </l>
+	<l id='1045'>Et que s'il a quelque poison </l>
+	<l id='1046'>Une âme aurait peu de raison </l>
+	<l id='1047'>De hasarder la moindre plainte </l>
+	<l id='1048'>Contre une favorable atteinte </l>
+	<l id='1049'>Dont tout le coeur craindrait la guérison ! </l>
+	<l id='1050'>A peine je vous vois, que mes frayeurs cessées </l>
+	<l id='1051'>Laissent évanouir l'image du trépas, </l>
+	<l id='1052'>Et que je sens couler dans mes veines glacées </l>
+	<l id='1053'>Un je ne sais quel feu que je ne connais pas. </l>
+	<l id='1054'>J'ai senti de l'estime et de la complaisance, </l>
+	<l id='1055'>De l'amitié, de la reconnaissance ; </l>
+	<l id='1056'>De la compassion les chagrins innocents </l>
+	<l id='1057'>M'en ont fait sentir la puissance ; </l>
+	<l id='1058'>Mais je n'ai point encore senti ce que je sens. </l>
+	<l id='1059'>Je ne sais ce que c'est, mais je sais qu'il me charme, </l>
+	<l id='1060'>Que je n'en conçois point d'alarme ; </l>
+	<l id='1061'>Plus j'ai les yeux sur vous, plus je m'en sens charmer ; </l>
+	<l id='1062'>Tout ce que j'ai senti n'agissait point de même, </l>
+	<l id='1063'>Et je dirais que je vous aime, </l>
+	<l id='1064'>Seigneur, si je savais ce que c'est que d'aimer. </l>
+	<l id='1065'>Ne les détournez point, ces yeux qui m'empoisonnent, </l>
+	<l id='1066'>Ces yeux tendres, ces yeux perçant, mais amoureux, </l>
+	<l id='1067'>Qui semblent partager le trouble qu'ils me donnent. </l>
+	<l id='1068'>Hélas ! plus ils sont dangereux, </l>
+	<l id='1069'>Plus je me plais à m'attacher sur eux. </l>
+	<l id='1070'>Par quel ordre du Ciel, que je ne puis comprendre, </l>
+	<l id='1071'>Vous dis-je plus que je ne dois, </l>
+	<l id='1072'>Moi de qui la pudeur devrait du moins attendre </l>
+	<l id='1073'>Que vous m'expliquassiez le trouble où je vous vois ? </l>
+	<l id='1074'>Vous soupirez, Seigneur, ainsi que je soupire ; </l>
+	<l id='1075'>Vos sens comme les miens paraissent interdits ; </l>
+	<l id='1076'>C'est à moi de m'en taire, à vous de me le dire, </l>
+	<l id='1077'>Et cependant c'est moi qui vous le dis. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1078'>Vous avez eu, Psyché, l'âme toujours si dure, </l>
+	<l id='1079'>Qu'il ne faut pas vous étonner </l>
+	<l id='1080'>Si, pour en réparer l'injure, </l>
+	<l id='1081'>L'Amour, en ce moment, se paye avec usure </l>
+	<l id='1082'>De ceux qu'elle a dû lui donner. </l>
+	<l id='1083'>Ce moment est venu qu'il faut que votre bouche </l>
+	<l id='1084'>Exhale des soupirs si longtemps retenus, </l>
+	<l id='1085'>Et qu'en vous arrachant à cette humeur farouche, </l>
+	<l id='1086'>Un amas de transports aussi doux qu'inconnus </l>
+	<l id='1087'>Aussi sensiblement tout à la fois vous touche, </l>
+	<l id='1088'>Qu'ils ont dû vous toucher durant tant de beaux jours </l>
+	<l id='1089'>Dont cette âme insensible a profané le cours. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1090'>N'aimer point, c'est donc un grand crime ! </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1091'>En souffrez-vous un rude châtiment ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1092'>C'est punir assez doucement. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1093'>C'est lui choisir sa peine légitime, </l>
+	<l id='1094'>Et se faire justice en ce glorieux jour </l>
+	<l id='1095'>D'un manquement d'amour par un excès d'amour. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1096'>Que n'ai-je été plus tôt punie ! </l>
+	<l id='1097'>J'y mets le bonheur de ma vie ; </l>
+	<l id='1098'>Je devrais en rougir, ou le dire plus bas, </l>
+	<l id='1099'>Mais le supplice a trop d'appas ; </l>
+	<l id='1100'>Permettez que tout haut je le die et redie. </l>
+	<l id='1101'>Je le dirais cent fois, et n'en rougirais pas. </l>
+	<l id='1102'>Ce n'est point moi qui parle, et de votre présence </l>
+	<l id='1103'>L'empire surprenant, l'aimable violence, </l>
+	<l id='1104'>Dès que je veux parler, s'empare de ma voix. </l>
+	<l id='1105'>C'est en vain qu'en secret ma pudeur s'en offense, </l>
+	<l id='1106'>Que le sexe et la bienséance </l>
+	<l id='1107'>Osent me faire d'autres lois ; </l>
+	<l id='1108'>Vos yeux de ma réponse eux-mêmes font le choix, </l>
+	<l id='1109'>Et ma bouche asservie à leur toute-puissance </l>
+	<l id='1110'>Ne me consulte plus sur ce que je me dois. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1111'>Croyez, belle Psyché, croyez ce qu'ils vous disent, </l>
+	<l id='1112'>Ces yeux qui ne sont point jaloux ; </l>
+	<l id='1113'>Qu'à l'envi les vôtres m'instruisent </l>
+	<l id='1114'>De tout ce qui se passe en vous. </l>
+	<l id='1115'>Croyez-en ce coeur qui soupire, </l>
+	<l id='1116'>Et qui, tant que le vôtre y voudra repartir, </l>
+	<l id='1117'>Vous dira bien plus, d'un soupir, </l>
+	<l id='1118'>Que cent regards ne peuvent dire : </l>
+	<l id='1119'>C'est le langage le plus doux, </l>
+	<l id='1120'>C'est le plus fort, c'est le plus sûr de tous. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1121'>L'intelligence en étoit due </l>
+	<l id='1122'>A nos coeurs, pour les rendre également contents : </l>
+	<l id='1123'>J'ai soupiré, vous m'avez entendue ; </l>
+	<l id='1124'>Vous soupirez, je vous entends, </l>
+	<l id='1125'>Mais ne me laissez plus en doute, </l>
+	<l id='1126'>Seigneur, et dites-moi si par la même route, </l>
+	<l id='1127'>Après moi, le Zéphire ici vous a rendu, </l>
+	<l id='1128'>Pour me dire ce que j'écoute. </l>
+	<l id='1129'>Quand j'y suis arrivé, étiez-vous attendu ? </l>
+	<l id='1130'>Et quand vous lui parlez, êtes-vous entendu ? </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1131'>J'ai dans ce doux climat un souverain empire, </l>
+	<l id='1132'>Comme vous l'avez sur mon coeur ; </l>
+	<l id='1133'>L'Amour m'est favorable, et c'est en sa faveur </l>
+	<l id='1134'>Qu'à mes ordres Aeole a soumis le Zéphire. </l>
+	<l id='1135'>C'est l'Amour qui, pour voir mes feux récompensés, </l>
+	<l id='1136'>Lui-même a dicté cet oracle </l>
+	<l id='1137'>Par qui vos beaux jours menacés </l>
+	<l id='1138'>D'une foule d'amants se sont débarrassés, </l>
+	<l id='1139'>Et qui m'a délivré de l'éternel obstacle </l>
+	<l id='1140'>De tant de soupirs empressés, </l>
+	<l id='1141'>Qui ne méritoient pas de vous être adressés. </l>
+	<l id='1142'>Ne me demandez point quelle est cette province, </l>
+	<l id='1143'>Ni le nom de son prince : </l>
+	<l id='1144'>Vous le saurez quand il en sera temps. </l>
+	<l id='1145'>Je veux vous acquérir, mais c'est par mes services, </l>
+	<l id='1146'>Par des soins assidus, et par des voeux constants, </l>
+	<l id='1147'>Par les amoureux sacrifices </l>
+	<l id='1148'>De tout ce que je suis, </l>
+	<l id='1149'>De tout ce que je puis, </l>
+	<l id='1150'>Sans que l'éclat du rang pour moi vous sollicite, </l>
+	<l id='1151'>Sans que de mon pouvoir je me fasse un mérite ; </l>
+	<l id='1152'>Et, bien que souverain dans cet heureux séjour, </l>
+	<l id='1153'>Je ne vous veux, Psyché, devoir qu'à mon amour. </l>
+	<l id='1154'>Venez en admirer avec moi les merveilles, </l>
+	<l id='1155'>Princesse, et préparez vos yeux et vos oreilles </l>
+	<l id='1156'>A ce qu'il a d'enchantements. </l>
+	<l id='1157'>Vous y verrez des bois et des prairies </l>
+	<l id='1158'>Contester sur leurs agréments </l>
+	<l id='1159'>Avec l'or et les pierreries ; </l>
+	<l id='1160'>Vous n'entendrez que des concerts charmants ; </l>
+	<l id='1161'>De cent beautés vous y serez servie, </l>
+	<l id='1162'>Qui vous adoreront sans vous porter envie, </l>
+	<l id='1163'>Et brigueront à tous moments </l>
+	<l id='1164'>D'une âme soumise et ravie </l>
+	<l id='1165'>L'honneur de vos commandements. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1166'>Mes volontés suivent les vôtres : </l>
+	<l id='1167'>Je n'en saurois plus avoir d'autres ; </l>
+	<l id='1168'>Mais votre oracle enfin vient de me séparer </l>
+	<l id='1169'>De deux soeurs et du Roi mon père, </l>
+	<l id='1170'>Que mon trépas imaginaire </l>
+	<l id='1171'>Réduit tous trois à me pleurer. </l>
+	<l id='1172'>Pour dissiper l'erreur dont leur âme accablée </l>
+	<l id='1173'>De mortels déplaisirs se voit pour moi comblée, </l>
+	<l id='1174'>Souffrez que mes soeurs soient témoins </l>
+	<l id='1175'>Et de ma gloire et de vos soins ; </l>
+	<l id='1176'>Prêtez-leur comme à moi les ailes du Zéphyre, </l>
+	<l id='1177'>Qui leur puissent de votre empire </l>
+	<l id='1178'>Ainsi qu'à moi faciliter l'accès ; </l>
+	<l id='1179'>Faites-leur voir en quels lieux je respire, </l>
+	<l id='1180'>Faites-leur de ma perte admirer le succès. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1181'>Vous ne me donnez pas, Psyché, toute votre âme : </l>
+	<l id='1182'>Ce tendre souvenir d'un père et de deux soeurs </l>
+	<l id='1183'>Me vole une part des douceurs </l>
+	<l id='1184'>Que je veux toutes pour ma flamme. </l>
+	<l id='1185'>N'ayez d'yeux que pour moi, qui n'en ai que pour vous, </l>
+	<l id='1186'>Ne songez qu'à m'aimer, ne songez qu'à me plaire, </l>
+	<l id='1187'>Et quand de tels soucis osent vous en distraire... </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1188'>Des tendresses du sang peut-on être jaloux ? </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1189'>Je le suis, ma Psyché, de toute la nature : </l>
+	<l id='1190'>Les rayons du soleil vous baisent trop souvent ; </l>
+	<l id='1191'>Vos cheveux souffrent trop les caresses du vent : </l>
+	<l id='1192'>Dès qu'il les flatte, j'en murmure ; </l>
+	<l id='1193'>L'air même que vous respirez </l>
+	<l id='1194'>Avec trop de plaisir passe par votre bouche ; </l>
+	<l id='1195'>Votre habit de trop près vous touche ; </l>
+	<l id='1196'>Et sitôt que vous soupirez, </l>
+	<l id='1197'>Je ne sais quoi qui m'effarouche </l>
+	<l id='1198'>Craint parmi vos soupirs des soupirs égarés. </l>
+	<l id='1199'>Mais vous voulez vos soeurs. Allez, partez, Zéphire : </l>
+	<l id='1200'>Psyché le veut, je ne l'en puis dédire. </l>
+<stage>Le Zéphire s'envole. </stage>
+	<l id='1201'>Quand vous leur ferez voir ce bienheureux séjour, </l>
+	<l id='1202'>De ses trésors faites-leur cent largesses, </l>
+	<l id='1203'>Prodiguez-leur caresses sur caresses, </l>
+	<l id='1204'>Et du sang, s'il se peut, épuisez les tendresses, </l>
+	<l id='1205'>Pour vous rendre toute à l'amour. </l>
+	<l id='1206'>Je n'y mêlerai point d'importune présence ; </l>
+	<l id='1207'>Mais ne leur faites pas de si longs entretiens : </l>
+	<l id='1208'>Vous ne sauriez pour eux avoir de complaisance </l>
+	<l id='1209'>Que vous ne dérobiez aux miens. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1210'>Votre amour me fait une grâce </l>
+	<l id='1211'>Dont je n'abuserai jamais. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1212'>Allons voir cependant ces jardins, ce palais, </l>
+	<l id='1213'>Où vous ne verrez rien que votre éclat n'efface. </l>
+	<l id='1214'>Et vous, petits Amours, et vous, jeunes Zéphyrs, </l>
+	<l id='1215'>Qui pour âmes n'avez que de tendres soupirs, </l>
+	<l id='1216'>Montrez tous à l'envi ce qu'à voir ma princesse </l>
+	<l id='1217'>Vous avez senti d'allégresse. </l>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>TROISIÈME INTERMEDE.</head>
+<stage>Il se fait une entrée de ballet de quatre Amours et quatre Zéphyrs interrompue deux fois par un dialogue chanté par un Amour et un Zéphyr. </stage>
+<sp who='LE-ZEPHYR'><speaker>LE ZÉPHIR.</speaker>
+	<l id='1218'>Aimable jeunesse, </l>
+	<l id='1219'>Suivez la tendresse, </l>
+	<l id='1220'>Joignez aux beaux jours </l>
+	<l id='1221'>La douceur des amours. </l>
+	<l id='1222'>C'est pour vous surprendre </l>
+	<l id='1223'>Qu'on vous fait entendre </l>
+	<l id='1224'>Qu'il faut éviter leurs soupirs, </l>
+	<l id='1225'>Et craindre leurs désirs : </l>
+	<l id='1226'>Laissez-vous apprendre </l>
+	<l id='1227'>Quels sont leurs plaisirs. </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Ils chantent ensemble.</speaker>
+	<l id='1228'>Chacun est obligé d'aimer </l>
+	<l id='1229'>À son tour ; </l>
+	<l id='1230'>Et plus on a de quoi charmer, </l>
+	<l id='1231'>Plus on doit à l'Amour. </l>
+</sp>
+<sp who='LE-ZEPHYR'><speaker>LE ZEPHYR, seul.</speaker>
+	<l id='1232'>Un coeur jeune et tendre </l>
+	<l id='1233'>Est fait pour se rendre, </l>
+	<l id='1234'>Il n'a point à prendre </l>
+	<l id='1235'>De fâcheux détour. </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Les deux ensemble.</speaker>
+	<l id='1236'>Chacun est obligé d'aimer </l>
+	<l id='1237'>À son tour ; </l>
+	<l id='1238'>Et plus on a de quoi charmer, </l>
+	<l id='1239'>Plus on doit à l'Amour. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR, seul.</speaker>
+	<l id='1240'>Pourquoi se défendre ? </l>
+	<l id='1241'>Que sert-il d'attendre ? </l>
+	<l id='1242'>Quand on perd un jour, </l>
+	<l id='1243'>On le perd sans retour </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Les deux ensemble.</speaker>
+	<l id='1244'>Chacun est obligé d'aimer </l>
+	<l id='1245'>À son tour ; </l>
+	<l id='1246'>Et plus on a de quoi charmer. </l>
+	<l id='1247'>Plus on doit à l'Amour. </l>
+<stage>Second Couplet </stage>
+</sp>
+<sp who='LE-ZEPHYR'><speaker>LE ZEPHYR.</speaker>
+	<l id='1248'>L'Amour a des charmes ; </l>
+	<l id='1249'>Rendons-lui les armes : </l>
+	<l id='1250'>Ses soins et ses pleurs </l>
+	<l id='1251'>Ne sont pas sans douceurs. </l>
+	<l id='1252'>Un coeur, pour le suivre, </l>
+	<l id='1253'>A cent maux se livre ; </l>
+	<l id='1254'>Il faut, pour goûter ses appas, </l>
+	<l id='1255'>Languir jusqu'au trépas ; </l>
+	<l id='1256'>Mais ce n'est pas vivre </l>
+	<l id='1257'>Que de n'aimer pas. </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Ils chantent ensemble.</speaker>
+	<l id='1258'>S'il faut des soins et des travaux, </l>
+	<l id='1259'>En aimant, </l>
+	<l id='1260'>On est payé de mille maux </l>
+	<l id='1261'>Par un heureux moment. </l>
+</sp>
+<sp who='LE-ZEPHYR'><speaker>LE ZEPHYR, seul.</speaker>
+	<l id='1262'>On craint, on espère, </l>
+	<l id='1263'>Il faut du mystère, </l>
+	<l id='1264'>Mais on n'obtient guère </l>
+	<l id='1265'>De bien sans tourment. </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Les deux ensemble.</speaker>
+	<l id='1266'>S'il faut des soins et des travaux, </l>
+	<l id='1267'>En aimant, </l>
+	<l id='1268'>On est payé de mille maux </l>
+	<l id='1269'>Par un heureux moment. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR, seul.</speaker>
+	<l id='1270'>Que peut-on mieux faire </l>
+	<l id='1271'>Qu'aimer et que plaire ? </l>
+	<l id='1272'>C'est un soin charmant </l>
+	<l id='1273'>Que l'emploi d'un amant. </l>
+</sp>
+<sp who='ZEPHYR_AMOUR'><speaker>Les deux ensemble.</speaker>
+	<l id='1274'>S'il faut des soins et des travaux, </l>
+	<l id='1275'>En aimant, </l>
+	<l id='1276'>On est payé de mille maux </l>
+	<l id='1277'>Par un heureux moment. </l>
+<stage>Le théâtre devient un autre palais magnifique, coupé dans le fond par un vestibule, au travers duquel on voit un jardin superbe et charmant décoré de plusieurs vases d'orangers et d'arbres chargés de toutes sortes de fruits.</stage>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE I. Aglaure, Cidippe.</head>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1278'>Je n'en puis plus, ma soeur : j'ai vu trop de merveilles ; </l>
+	<l id='1279'>L'avenir aura peine à les bien concevoir ; </l>
+	<l id='1280'>Le soleil qui voit tout et qui nous fait tout voir </l>
+	<l id='1281'>N'en a vu jamais de pareilles. </l>
+	<l id='1282'>Elles me chagrinent l'esprit ; </l>
+	<l id='1283'>Et ce brillant palais, ce pompeux équipage </l>
+	<l id='1284'>Font un odieux étalage, </l>
+	<l id='1285'>Qui m'accable de honte autant que de dépit. </l>
+	<l id='1286'>Que la Fortune indignement nous traite, </l>
+	<l id='1287'>Et que sa largesse indiscrète </l>
+	<l id='1288'>Prodigue aveuglément, épuise, unit d'efforts, </l>
+	<l id='1289'>Pour faire de tant de trésors </l>
+	<l id='1290'>Le partage d'une cadette ! </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='1291'>J'entre dans tous vos sentiments, </l>
+	<l id='1292'>J'ai les mêmes chagrins, et dans ces lieux charmants </l>
+	<l id='1293'>Tout ce qui vous déplaît me blesse ; </l>
+	<l id='1294'>Tout ce que vous prenez pour un mortel affront </l>
+	<l id='1295'>Comme vous m'accable, et me laisse </l>
+	<l id='1296'>L'amertume dans l'âme, et la rougeur au front. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1297'>Non, ma soeur, il n'est point de reines </l>
+	<l id='1298'>Qui dans leur propre État parlent en souveraines, </l>
+	<l id='1299'>Comme Psyché parle en ces lieux. </l>
+	<l id='1300'>On l'y voit obéie avec exactitude, </l>
+	<l id='1301'>Et de ses volontés une amoureuse étude </l>
+	<l id='1302'>Les cherche jusque dans ses yeux. </l>
+	<l id='1303'>Mille beautés s'empressent autour d'elle, </l>
+	<l id='1304'>Et semblent dire à nos regards jaloux ; </l>
+	<l id='1305'>"Quels que soient nos attraits, elle est encor plus belle ; </l>
+	<l id='1306'>Et nous qui la servons le sommes plus que vous." </l>
+	<l id='1307'>Elle prononce, on exécute ; </l>
+	<l id='1308'>Aucun ne s'en défend, aucun ne s'en rebute ; </l>
+	<l id='1309'>Flore, qui s'attache à ses pas, </l>
+	<l id='1310'>Répand à pleines mains autour de sa personne </l>
+	<l id='1311'>Ce qu'elle a de plus doux appas ; </l>
+	<l id='1312'>Zéphire vole aux ordres qu'elle donne ; </l>
+	<l id='1313'>Et son amante et lui, s'en laissant trop charmer, </l>
+	<l id='1314'>Quittent pour la servir les soins de s'entr'aimer. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='1315'>Elle a des dieux à son service, </l>
+	<l id='1316'>Elle aura bientôt des autels ; </l>
+	<l id='1317'>Et nous ne commandons qu'à de chétifs mortels, </l>
+	<l id='1318'>De qui l'audace et le caprice, </l>
+	<l id='1319'>Contre nous à toute heure en secret révoltés, </l>
+	<l id='1320'>Opposent à nos volontés </l>
+	<l id='1321'>Ou le murmure, ou l'artifice. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1322'>C'était peu que dans notre cour </l>
+	<l id='1323'>Tant de coeurs à l'envi nous l'eussent préférée ; </l>
+	<l id='1324'>Ce n'était pas assez que de nuit et de jour </l>
+	<l id='1325'>D'une foule d'amants elle y fût adorée : </l>
+	<l id='1326'>Quand nous nous consolions de la voir au tombeau </l>
+	<l id='1327'>Par l'ordre imprévu d'un oracle, </l>
+	<l id='1328'>Elle a voulu de son destin nouveau </l>
+	<l id='1329'>Faire en notre présence éclater le miracle, </l>
+	<l id='1330'>Et choisi nos yeux pour témoins </l>
+	<l id='1331'>De ce qu'au fond du coeur nous souhaitions le moins. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='1332'>Ce qui le plus me désespère, </l>
+	<l id='1333'>C'est cet amant parfait et si digne de plaire, </l>
+	<l id='1334'>Qui se captive sous ses lois. </l>
+	<l id='1335'>Quand nous pourrions choisir entre tous les monarques, </l>
+	<l id='1336'>En est-il un de tant de rois </l>
+	<l id='1337'>Qui porte de si nobles marques ? </l>
+	<l id='1338'>Se voir du bien par delà ses souhaits </l>
+	<l id='1339'>N'est souvent qu'un bonheur qui fait des misérables : </l>
+	<l id='1340'>Il n'est ni train pompeux, ni superbes palais </l>
+	<l id='1341'>Qui n'ouvrent quelque porte à des maux incurables ; </l>
+	<l id='1342'>Mais avoir un amant d'un mérite achevé, </l>
+	<l id='1343'>Et s'en voir chèrement aimée, </l>
+	<l id='1344'>C'est un bonheur si haut, si relevé, </l>
+	<l id='1345'>Que sa grandeur ne peut être exprimée. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1346'>N'en parlons plus, ma soeur, nous en mourrions d'ennui ; </l>
+	<l id='1347'>Songeons plutôt à la vengeance, </l>
+	<l id='1348'>Et trouvons le moyen de rompre entre elle et lui </l>
+	<l id='1349'>Cette adorable intelligence. </l>
+	<l id='1350'>La voici. J'ai des coups tous prêts à lui porter, </l>
+	<l id='1351'>Qu'elle aura peine d'éviter. </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Psyché, Aglaure, Cidippe.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1352'>Je viens vous dire adieu : mon amant vous renvoie, </l>
+	<l id='1353'>Et ne saurait plus endurer </l>
+	<l id='1354'>Que vous lui retranchiez un moment de la joie </l>
+	<l id='1355'>Qu'il prend de se voir seul à me considérer. </l>
+	<l id='1356'>Dans un simple regard, dans la moindre parole, </l>
+	<l id='1357'>Son amour trouve des douceur, </l>
+	<l id='1358'>Qu'en faveur du sang je lui vole, </l>
+	<l id='1359'>Quand je les partage à des soeurs. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1360'>La jalousie est assez fine, </l>
+	<l id='1361'>Et ses délicats sentiments </l>
+	<l id='1362'>Méritent bien qu'on s'imagine </l>
+	<l id='1363'>Que celui qui pour vous a ces empressements </l>
+	<l id='1364'>Passe le commun des amants. </l>
+	<l id='1365'>Je vous en parle ainsi faute de le connaître. </l>
+	<l id='1366'>Vous ignorez son nom, et ceux dont il tient l'être : </l>
+	<l id='1367'>Nos esprits en sont alarmés. </l>
+	<l id='1368'>Je le tiens un grand prince, et d'un pouvoir suprême </l>
+	<l id='1369'>Bien au delà du diadème ; </l>
+	<l id='1370'>Ses trésors sous vos pas confusément semés </l>
+	<l id='1371'>Ont de quoi faire honte à l'abondance même ; </l>
+	<l id='1372'>Vous l'aimez autant qu'il vous aime ; </l>
+	<l id='1373'>Il vous charme, et vous le charmez : </l>
+	<l id='1374'>Votre félicité, ma soeur, serait extrême, </l>
+	<l id='1375'>Si vous saviez qui vous aimez. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1376'>Que m'importe ? j'en suis aimée ; </l>
+	<l id='1377'>Plus il me voit, plus je lui plais ; </l>
+	<l id='1378'>Il n'est point de plaisirs dont l'âme soit charmée </l>
+	<l id='1379'>Qui ne préviennent mes souhaits ; </l>
+	<l id='1380'>Et je vois mal de quoi la vôtre est alarmée, </l>
+	<l id='1381'>Quand tout me sert dans ce palais. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1382'>Qu'importe qu'ici tout vous serve, </l>
+	<l id='1383'>Si toujours cet amant vous cache ce qu'il est ? </l>
+	<l id='1384'>Nous ne nous alarmons que pour votre intérêt. </l>
+	<l id='1385'>En vain tout vous y rit, en vain tout vous y plaît : </l>
+	<l id='1386'>Le véritable amour ne fait point de réserve ; </l>
+	<l id='1387'>Et qui s'obstine à se cacher </l>
+	<l id='1388'>Sent quelque chose en soi qu'on lui peut reprocher. </l>
+	<l id='1389'>Si cet amant devient volage, </l>
+	<l id='1390'>Car souvent en amour le change est assez doux, </l>
+	<l id='1391'>Et j'ose le dire entre nous, </l>
+	<l id='1392'>Pour grand que soit l'éclat dont brille ce visage, </l>
+	<l id='1393'>Il en peut être ailleurs d'aussi belles que vous : </l>
+	<l id='1394'>Si, dis-je, un autre objet sous d'autres lois l'engage, </l>
+	<l id='1395'>Si dans l'état où je vous vois, </l>
+	<l id='1396'>Seule en ses mains et sans défense, </l>
+	<l id='1397'>Il va jusqu'à la violence, </l>
+	<l id='1398'>Sur qui vous vengera le Roi, </l>
+	<l id='1399'>Ou de ce changement, ou de cette insolence ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1400'>Ma soeur, vous me faites trembler. </l>
+	<l id='1401'>Juste Ciel ! Pourrais-je être assez infortunée... </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='1402'>Que sait-on si déjà les noeuds de l'hyménée... </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1403'>N'achevez pas, ce serait m'accabler. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1404'>Je n'ai plus qu'un mot à vous dire. </l>
+	<l id='1405'>Ce prince qui vous aime, et qui commande aux vents, </l>
+	<l id='1406'>Qui nous donne pour char les ailes du Zéphire, </l>
+	<l id='1407'>Et de nouveaux plaisirs vous comble à tous moments, </l>
+	<l id='1408'>Quand il rompt à vos yeux l'ordre de la nature, </l>
+	<l id='1409'>Peut-être à tant d'amour mêle un peu d'imposture ; </l>
+	<l id='1410'>Peut-être ce palais n'est qu'un enchantement, </l>
+	<l id='1411'>Et ces lambris dorés, ces amas de richesses </l>
+	<l id='1412'>Dont il achète vos tendresses, </l>
+	<l id='1413'>Dès qu'il sera lassé de souffrir vos caresses, </l>
+	<l id='1414'>Disparaîtront en un moment. </l>
+	<l id='1415'>Vous savez comme nous ce que peuvent les charmes. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1416'>Que je sens à mon tour de cruelles alarmes ! </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1417'>Notre amitié ne veut que votre bien. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1418'>Adieu, mes soeurs, finissons l'entretien : </l>
+	<l id='1419'>J'aime et je crains qu'on ne s'impatiente. </l>
+	<l id='1420'>Partez, et demain, si je puis, </l>
+	<l id='1421'>Vous me verrez ou plus contente, </l>
+	<l id='1422'>Ou dans l'accablement des plus mortels ennuis. </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1423'>Nous allons dire au Roi quelle nouvelle gloire, </l>
+	<l id='1424'>Quel excès de bonheur le Ciel répand sur vous. </l>
+</sp>
+<sp who='CIDIPPE'><speaker>CIDIPPE.</speaker>
+	<l id='1425'>Nous allons lui conter d'un changement si doux. </l>
+	<l id='1426'>La surprenante et merveilleuse histoire. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1427'>Ne l'inquiétez point, ma soeur, de vos soupçons, </l>
+	<l id='1428'>Et quand vous lui peindrez un si charmant empire... </l>
+</sp>
+<sp who='AGLAURE'><speaker>AGLAURE.</speaker>
+	<l id='1429'>Nous savons toutes deux ce qu'il faut taire, ou dire, </l>
+	<l id='1430'>Et n'avons pas besoin sur ce point de leçons. </l>
+<stage>Le Zéphire enlève les deux soeurs de Psyché dans un nuage qui descend jusqu'à terre, et dans lequel il les emporte avec rapidité.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. L'Amour, Psyché.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1431'>Enfin vous êtes seule, et je puis vous redire, </l>
+	<l id='1432'>Sans avoir pour témoins vos importunes soeurs, </l>
+	<l id='1433'>Ce que des yeux si beaux ont pris sur moi d'empire ; </l>
+	<l id='1434'>Et quel excès ont les douceurs </l>
+	<l id='1435'>Qu'une sincère ardeur inspire, </l>
+	<l id='1436'>Sitôt qu'elle assemble deux coeurs. </l>
+	<l id='1437'>Je puis vous expliquer de mon âme ravie </l>
+	<l id='1438'>Les amoureux empressements, </l>
+	<l id='1439'>Et vous jurer qu'à vous seule asservie </l>
+	<l id='1440'>Elle n'a pour objet de ses ravissements </l>
+	<l id='1441'>Que de voir cette ardeur, de même ardeurs suivie, </l>
+	<l id='1442'>Ne concevoir plus d'autre envie </l>
+	<l id='1443'>Que de régler mes voeux sur vos désirs, </l>
+	<l id='1444'>Et de ce qui vous plaît faire tous mes plaisirs. </l>
+	<l id='1445'>Mais d'où vient qu'un triste nuage </l>
+	<l id='1446'>Semble offusquer l'éclat de ces beaux yeux ? </l>
+	<l id='1447'>Vous manque-t-il quelque chose en ces lieux ? </l>
+	<l id='1448'>Des voeux qu'on vous y rend dédaignez-vous l'hommage ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1449' part='i'>Non, Seigneur. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1449' part='f'>Qu'est-ce donc, et d'où vient mon malheur ? </l>
+	<l id='1450'>J'entends moins de soupirs d'amour que de douleur, </l>
+	<l id='1451'>Je vois de votre teint les roses amorties </l>
+	<l id='1452'>Marquer un déplaisir secret ; </l>
+	<l id='1453'>Vos soeurs à peine sont parties </l>
+	<l id='1454'>Que vous soupirez de regret ! </l>
+	<l id='1455'>Ah ! Psyché, de deux coeurs quand l'ardeur est la même, </l>
+	<l id='1456'>Ont-ils des soupirs différents ? </l>
+	<l id='1457'>Et quand on aime bien et qu'on voit ce qu'on aime, </l>
+	<l id='1458'>Peut-on songer à des parents ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1459'>Ce n'est point là ce qui m'afflige. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1460'>Est-ce l'absence d'un rival, </l>
+	<l id='1461'>Et d'un rival aimé, qui fait qu'on me néglige ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1462'>Dans un coeur tout à vous que vous pénétrez mal </l>
+	<l id='1463'>Je vous aime, Seigneur, et mon amour s'irrite </l>
+	<l id='1464'>De l'indigne soupçon que vous avez formé : </l>
+	<l id='1465'>Vous ne connaissez pas quel est votre mérite, </l>
+	<l id='1466'>Si vous craignez de n'être pas aimé. </l>
+	<l id='1467'>Je vous aime, et depuis que j'ai vu la lumière, </l>
+	<l id='1468'>Je me suis montrée assez fière, </l>
+	<l id='1469'>Pour dédaigner les voeux de plus d'un roi ; </l>
+	<l id='1470'>Et s'il vous faut ouvrir mon âme toute entière, </l>
+	<l id='1471'>Je n'ai trouvé que vous qui fût digne de moi. </l>
+	<l id='1472'>Cependant j'ai quelque tristesse, </l>
+	<l id='1473'>Qu'en vain je voudrais vous cacher ; </l>
+	<l id='1474'>Un noir chagrin se mêle à toute ma tendresse, </l>
+	<l id='1475'>Dont je ne la puis détacher. </l>
+	<l id='1476'>Ne m'en demandez point la cause : </l>
+	<l id='1477'>Peut-être, la sachant, voudrez-vous m'en punir, </l>
+	<l id='1478'>Et si j'ose aspirer encore à quelque chose, </l>
+	<l id='1479'>Je suis sûre du moins de ne point l'obtenir. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1480'>Et ne craignez-vous point qu'à mon tour je m'irrite, </l>
+	<l id='1481'>Que vous connaissiez mal quel est votre mérite, </l>
+	<l id='1482'>Ou feigniez de ne pas savoir </l>
+	<l id='1483'>Quel est sur moi votre absolu pouvoir ? </l>
+	<l id='1484'>Ah ! si vous en doutez, soyez désabusée, </l>
+	<l id='1485' part='i'>Parlez. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1485' part='f'>J'aurai l'affront de me voir refusée. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1486'>Prenez en ma faveur de meilleurs sentiments ; </l>
+	<l id='1487'>L'expérience en est aisée ; </l>
+	<l id='1488'>Parlez, tout se tient prêt à vos commandements, </l>
+	<l id='1489'>Si, pour m'en croire, il vous faut des serments, </l>
+	<l id='1490'>J'en jure vos beaux yeux, ces maîtres de mon âme, </l>
+	<l id='1491'>Ces divins auteurs de ma flamme ; </l>
+	<l id='1492'>Et si ce n'est assez d'en jurer vos beaux yeux, </l>
+	<l id='1493'>J'en jure par le Styx, comme jurent les Dieux. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1494'>J'ose craindre un peu moins après cette assurance. </l>
+	<l id='1495'>Seigneur, je vois ici la pompe et l'abondance ; </l>
+	<l id='1496'>Je vous adore, et vous m'aimez : </l>
+	<l id='1497'>Mon coeur en est ravi, mes sens en sont charmés ; </l>
+	<l id='1498'>Mais parmi ce bonheur suprême, </l>
+	<l id='1499'>J'ai le malheur de ne savoir qui j'aime. </l>
+	<l id='1500'>Dissipez cet aveuglement. </l>
+	<l id='1501'>Et faites-moi connaître un si parfait amant. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1502'>Psyché, que venez-vous de dire ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1503'>Que c'est le bonheur où j'aspire, </l>
+	<l id='1504'>Et si vous ne me l'accordez... </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1505'>Je l'ai juré, je n'en suis plus le maître ; </l>
+	<l id='1506'>Mais vous ne savez pas ce que vous demandez. </l>
+	<l id='1507'>Laissez-moi mon secret. Si je me fais connaître, </l>
+	<l id='1508'>Je vous perds, et vous me perdez. </l>
+	<l id='1509'>Le seul remède est de vous en dédire. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1510'>C'est là sur vous mon souverain empire ? </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1511'>Vous pouvez tout, et je suis tout à vous ; </l>
+	<l id='1512'>Mais si nos feux vous semblent doux. </l>
+	<l id='1513'>Ne mettez point d'obstacle à leur charmante suite, </l>
+	<l id='1514'>Ne me forcez point à la fuite : </l>
+	<l id='1515'>C'est le moindre malheur qui nous puisse arriver </l>
+	<l id='1516'>D'un souhait qui vous a séduite. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1517'>Seigneur, vous voulez m'éprouver, </l>
+	<l id='1518'>Mais je sais ce que j'en dois croire. </l>
+	<l id='1519'>De grâce, apprenez-moi tout l'excès de ma gloire, </l>
+	<l id='1520'>Et ne me cachez plus pour quel illustre choix </l>
+	<l id='1521'>J'ai rejeté le voeux de tant de rois. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1522' part='i'>Le voulez-vous ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1522' part='f'>Souffrez que je vous en conjure. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1523'>Si vous saviez, Psyché, la cruelle aventure </l>
+	<l id='1524'>Que par là vous vous attirez... </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1525'>Seigneur, vous me désespérez. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1526'>Pensez-y bien, je puis encor me taire. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1527'>Faites-vous des serments pour n'y point satisfaire ? </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1528'>Hé bien, je suis le Dieu le plus puissant des Dieux, </l>
+	<l id='1529'>Absolu sur la terre, absolu dans les Cieux ; </l>
+	<l id='1530'>Dans les eaux, dans les airs mon pouvoir est suprême ; </l>
+	<l id='1531'>En un mot, je suis l'Amour même, </l>
+	<l id='1532'>Qui de mes propres traits m'étais blessé pour vous ; </l>
+	<l id='1533'>Et sans la violence, hélas ! que vous me faites </l>
+	<l id='1534'>Et qui vient de changer mon amour en courroux, </l>
+	<l id='1535'>Vous m'alliez avoir pour époux. </l>
+	<l id='1536'>Vos volontés sont satisfaites, </l>
+	<l id='1537'>Vous avez su qui, vous aimiez, </l>
+	<l id='1538'>Vous connaissez l'amant que vous charmiez : </l>
+	<l id='1539'>Psyché, voyez où vous en êtes. </l>
+	<l id='1540'>Vous me forcez vous-même à vous quitter, </l>
+	<l id='1541'>Vous me forcez vous-même à vous ôter </l>
+	<l id='1542'>Tout l'effet de votre victoire : </l>
+	<l id='1543'>Peut-être vos beaux yeux ne me reverront plus ; </l>
+	<l id='1544'>Ce palais, ces jardins, avec moi disparus, </l>
+	<l id='1545'>Vont faire évanouir votre naissante gloire ; </l>
+	<l id='1546'>Vous n'avez pas voulu m'en croire, </l>
+	<l id='1547'>Et pour tout fruit de ce doute éclairci, </l>
+	<l id='1548'>Le Destin, sous qui le Ciel tremble, </l>
+	<l id='1549'>Plus fort que mon amour, que tous les Dieux ensemble. </l>
+	<l id='1550'>Vous va montrer sa haine, et me chasse d'ici. </l>
+<stage>L'Amour disparaît ; et, dans l'instant qu'il s'envole, le superbe jardin s'évanouit. Psyché demeure seule au milieu d'une vaste campagne, et sur le bord sauvage d'un grand fleuve où elle se veut précipiter. Le Dieu du fleuve paraît assis sur un amas de joncs et de roseaux et appuyé sur une grande urne, d'où sort une grosse source d'eau.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1551'>Cruel destin ! funeste inquiétude ! </l>
+	<l id='1552'>Fatale curiosité ! </l>
+	<l id='1553'>Qu'avez-vous fait, affreuse solitude, </l>
+	<l id='1554'>De toute ma félicité ? </l>
+	<l id='1555'>J'aimais un Dieu, j'en étais adorée, </l>
+	<l id='1556'>Mon bonheur redoublait de moment en moment, </l>
+	<l id='1557'>Et je me vois seule, éplorée, </l>
+	<l id='1558'>Au milieu d'un désert, où, pour accablement, </l>
+	<l id='1559'>Et confuse, et désespérée, </l>
+	<l id='1560'>Je sens croître l'amour, quand j'ai perdu l'amant. </l>
+	<l id='1561'>Le souvenir m'en charme et m'empoisonne ; </l>
+	<l id='1562'>Sa douceur tyrannise un coeur infortuné </l>
+	<l id='1563'>Qu'aux plus cuisants chagrins ma flamme a condamné. </l>
+	<l id='1564'>Ô Ciel ! quand l'Amour m'abandonne, </l>
+	<l id='1565'>Pourquoi me laisse-t-il l'amour qu'il m'a donné ? </l>
+	<l id='1566'>Source de tous les biens inépuisable et pure, </l>
+	<l id='1567'>Maître des hommes et des Dieux. </l>
+	<l id='1568'>Cher auteur des maux que j'endure, </l>
+	<l id='1569'>Êtes-vous pour jamais disparu de mes yeux ? </l>
+	<l id='1570'>Je vous en ai banni moi-même ; </l>
+	<l id='1571'>Dans un excès d'amour, dans un bonheur extrême, </l>
+	<l id='1572'>D'un indigne soupçon mon coeur s'est alarmé : </l>
+	<l id='1573'>Coeur ingrat, tu n'avais qu'un feu mal allumé ; </l>
+	<l id='1574'>Et l'on ne peut vouloir, du moment que l'on aime, </l>
+	<l id='1575'>Que ce que veut l'objet aimé. </l>
+	<l id='1576'>Mourons, c'est le parti qui seul me reste à suivre, </l>
+	<l id='1577'>Après la perte que je fais. </l>
+	<l id='1578'>Pour qui, grands Dieux, voudrais-je vivre, </l>
+	<l id='1579'>Et pour qui former des souhaits ? </l>
+	<l id='1580'>Fleuve, de qui les eaux baignent ces tristes sables, </l>
+	<l id='1581'>Ensevelis mon crime dans tes flots, </l>
+	<l id='1582'>Et pour finir des maux si déplorables, </l>
+	<l id='1583'>Laisse-moi dans ton lit assurer mon repos. </l>
+	<l id='1584'>Le Dieu du fleuve </l>
+	<l id='1585'>Ton trépas souillerait mes ondes ; </l>
+	<l id='1586'>Psyché, le Ciel te le défend, </l>
+	<l id='1587'>Et peut-être qu'après des douleurs si profondes, </l>
+	<l id='1588'>Un autre sort t'attend. </l>
+	<l id='1589'>Fuis plutôt de Vénus l'implacable colère : </l>
+	<l id='1590'>Je la vois qui te cherche et qui te veut punir. </l>
+	<l id='1591'>L'amour du fils a fait la haine de la mère. </l>
+	<l id='1592'>Fuis, je saurai la retenir. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1593'>J'attends ses fureurs vengeresses. </l>
+	<l id='1594'>Qu'auront-elles pour moi qui ne me soit trop doux ? </l>
+	<l id='1595'>Qui cherche le trépas, ne craint Dieux, ni Déesses, </l>
+	<l id='1596'>Et peut braver tout leur courroux. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Vénus, Psyché.</head>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1597'>Orgueilleuse Psyché, vous m'osez donc attendre, </l>
+	<l id='1598'>Après m'avoir sur terre enlevé mes honneurs, </l>
+	<l id='1599'>Après que vos traits suborneurs </l>
+	<l id='1600'>Ont reçu les encens qu'aux miens seuls on doit rendre ? </l>
+	<l id='1601'>J'ai vu mes temples désertés, </l>
+	<l id='1602'>J'ai vu tous les mortels séduits par vos beautés </l>
+	<l id='1603'>Idolâtrer en vous la beauté souveraine, </l>
+	<l id='1604'>Vous offrir des respects jusqu'alors inconnus, </l>
+	<l id='1605'>Et ne se mettre pas en peine </l>
+	<l id='1606'>S'il était une autre Vénus ; </l>
+	<l id='1607'>Et je vous vois encor l'audace </l>
+	<l id='1608'>De n'en pas redouter les justes châtiments, </l>
+	<l id='1609'>Et de me regarder en face, </l>
+	<l id='1610'>Comme si c'était peu que mes ressentiments. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1611'>Si de quelques mortels on m'a vue adorée, </l>
+	<l id='1612'>Est-ce un crime pour moi d'avoir eu des appas, </l>
+	<l id='1613'>Dont leur âme inconsidérée </l>
+	<l id='1614'>Laissait charmer des yeux qui ne vous voyaient pas ? </l>
+	<l id='1615'>Je suis ce que le Ciel m'a faite, </l>
+	<l id='1616'>Je n'ai que les beautés qu'il m'a voulu prêter : </l>
+	<l id='1617'>Si les voeux qu'on m'offrait vous ont mal satisfaite, </l>
+	<l id='1618'>Pour forcer tous les coeurs à vous les reporter, </l>
+	<l id='1619'>Vous n'aviez qu'à vous présenter, </l>
+	<l id='1620'>Qu'à ne leur cacher plus cette beauté parfaite, </l>
+	<l id='1621'>Qui pour les rendre à leur devoir, </l>
+	<l id='1622'>Pour se faire adorer n'a qu'à se faire voir. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1623'>Il fallait vous en mieux défendre. </l>
+	<l id='1624'>Ces respects, ces encens se devaient refuser ; </l>
+	<l id='1625'>Et pour les mieux désabuser, </l>
+	<l id='1626'>Il fallait à leurs yeux vous-même me les rendre. </l>
+	<l id='1627'>Vous avez aimé cette erreur, </l>
+	<l id='1628'>Pour qui vous ne deviez avoir que de l'horreur ; </l>
+	<l id='1629'>Vous avez bien fait plus : votre humeur arrogante </l>
+	<l id='1630'>Sur le mépris de mille rois </l>
+	<l id='1631'>Jusques aux Cieux a porté de son choix </l>
+	<l id='1632'>L'ambition extravagante. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1633'>J'aurais porté mon choix, Déesse, jusqu'aux Cieux ? </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1634'>Votre insolence est sans seconde : </l>
+	<l id='1635'>Dédaigner tous les rois du monde, </l>
+	<l id='1636'>N'est-ce pas aspirer aux Dieux ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1637'>Si l'Amour pour eux tous m'avait endurci l'âme, </l>
+	<l id='1638'>Et me réservait toute à lui, </l>
+	<l id='1639'>En puis-je être coupable, et faut-il qu'aujourd'hui, </l>
+	<l id='1640'>Pour prix d'une si belle flamme, </l>
+	<l id='1641'>Vous vouliez m'accabler d'un éternel ennui ? </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1642'>Psyché, vous deviez mieux connaître </l>
+	<l id='1643'>Qui vous étiez, et quel était ce dieu. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1644'>Et m'en a-t-il donné ni le temps, ni le lieu, </l>
+	<l id='1645'>Lui qui de tout mon coeur d'abord s'est rendu maître ? </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1646'>Tout votre coeur s'en est laissé charmer, </l>
+	<l id='1647'>Et vous l'avez aimé dès qu'il vous a dit : "J'aime." </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1648'>Pouvais-je n'aimer pas le Dieu qui fait aimer, </l>
+	<l id='1649'>Et qui me parlait pour lui-même ? </l>
+	<l id='1650'>C'est votre fils, vous savez son pouvoir, </l>
+	<l id='1651'>Vous en connaissez le mérite. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1652'>Oui, c'est mon fils, mais un fils qui m'irrite, </l>
+	<l id='1653'>Un fils qui me rend mal ce qu'il me sait devoir, </l>
+	<l id='1654'>Un fils qui fait qu'on m'abandonne, </l>
+	<l id='1655'>Et qui pour mieux flatter ses indignes amours, </l>
+	<l id='1656'>Depuis que vous l'aimez, ne blesse plus personne </l>
+	<l id='1657'>Qui vienne à mes autels implorer mon secours. </l>
+	<l id='1658'>Vous m'en avez fait un rebelle : </l>
+	<l id='1659'>On m'en verra vengée, et hautement, sur vous, </l>
+	<l id='1660'>Et je vous apprendrai s'il faut qu'une mortelle </l>
+	<l id='1661'>Souffre qu'un Dieu soupire à ses genoux, </l>
+	<l id='1662'>Suivez-moi, vous verrez, par votre expérience, </l>
+	<l id='1663'>À quelle folle confiance </l>
+	<l id='1664'>Vous portait cette ambition ; </l>
+	<l id='1665'>Venez, et préparez autant de patience </l>
+	<l id='1666'>Qu'on vous voit de présomption. </l>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>QUATRIÈME INERMÈDE.</head>
+<stage>La scène représente les Enfers. On y voit une mer toute de feu, dont les flots sont dans une perpétuelle agitation. Cette mer effroyable est bornée par des ruines enflammées ; et au milieu de ses flots agités, au travers d'une gueule affreuse, paraît le palais infernal de Pluton. Huit Furies en sortent, et forment une entrée de ballet, où elles se réjouissent de la rage qu'elles ont allumée dans l'âme de la plus douce des Divinités. Un Lutin mêle quantité de sauts périlleux à leurs danses, cependant que Psyché, qui a passé aux Enfers par le commandement de Vénus, repasse dans la barque de Charon, avec la boîte qu'elle a reçue de Proserpine pour cette déesse. </stage>
+</div2>
+</div1>
+<div1 type='acte' n='6'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE I.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1667'>Effroyables replis des ondes infernales, </l>
+	<l id='1668'>Noirs palais où Mégère et ses soeurs font leur cour, </l>
+	<l id='1669'>Éternels ennemis du jour, </l>
+	<l id='1670'>Parmi vos Ixions et parmi vos Tantales, </l>
+	<l id='1671'>Parmi tant de tourments, qui n'ont point d'intervalles, </l>
+	<l id='1672'>Est-il dans votre affreux séjour </l>
+	<l id='1673'>Quelques peines qui soient égales </l>
+	<l id='1674'>Aux travaux où Vénus condamne mon amour ? </l>
+	<l id='1675'>Elle n'en peut être assouvie, </l>
+	<l id='1676'>Et depuis qu'à ses lois je me trouve asservie, </l>
+	<l id='1677'>Depuis qu'elle me livre à ses ressentiments, </l>
+	<l id='1678'>Il m'a fallu dans ces cruels moments </l>
+	<l id='1679'>Plus d'une âme et plus d'une vie, </l>
+	<l id='1680'>Pour remplir ses commandements. </l>
+	<l id='1681'>Je souffrirais tout avec joie, </l>
+	<l id='1682'>Si, parmi les rigueurs que sa haine déploie, </l>
+	<l id='1683'>Mes yeux pouvaient revoir, ne fût-ce qu'un moment, </l>
+	<l id='1684'>Ce cher, cet adorable amant : </l>
+	<l id='1685'>Je n'ose le nommer ; ma bouche criminelle </l>
+	<l id='1686'>D'avoir trop exigé de lui, </l>
+	<l id='1687'>S'en est rendue indigne, et, dans ce dur ennui, </l>
+	<l id='1688'>La souffrance la plus mortelle </l>
+	<l id='1689'>Dont m'accable à toute heure un renaissant trépas, </l>
+	<l id='1690'>Est celle de ne le voir pas. </l>
+	<l id='1691'>Si son courroux durait encore, </l>
+	<l id='1692'>Jamais aucun malheur n'approcherait du mien ; </l>
+	<l id='1693'>Mais s'il avait pitié d'une âme qui l'adore, </l>
+	<l id='1694'>Quoi qu'il fallût souffrir, je ne souffrirais rien. </l>
+	<l id='1695'>Oui, Destins, s'il calmait cette juste colère, </l>
+	<l id='1696'>Tous mes malheurs seraient finis : </l>
+	<l id='1697'>Pour me rendre insensible aux fureurs de la mère, </l>
+	<l id='1698'>Il ne faut qu'un regard du fils. </l>
+	<l id='1699'>Je n'en veux plus douter, il partage ma peine, </l>
+	<l id='1700'>Il voit ce que je souffre, et souffre comme moi </l>
+	<l id='1701'>Tout ce que j'endure le gêne : </l>
+	<l id='1702'>Lui-même il s'en impose une amoureuse loi : </l>
+	<l id='1703'>En dépit de Vénus, en dépit de mon crime ; </l>
+	<l id='1704'>C'est lui qui me soutient, c'est lui qui me ranime </l>
+	<l id='1705'>Au milieu des périls où l'on me fait courir ; </l>
+	<l id='1706'>Il garde la tendresse où son feu le convie, </l>
+	<l id='1707'>Et prend soin de me rendre une nouvelle vie, </l>
+	<l id='1708'>Chaque fois qu'il me faut mourir, </l>
+	<l id='1709'>Mais que me veulent ces deux ombres </l>
+	<l id='1710'>Qu'à travers le faux jour de ces demeures sombres </l>
+	<l id='1711'>J'entrevois s'avancer vers moi ? </l>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Psyché, Cléomène, Agénor.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1712'>Cléomène, Agénor, est-ce vous que je vois ? </l>
+	<l id='1713'>Qui vous a ravi la lumière ? </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='1714'>La plus juste douleur qui d'un beau désespoir </l>
+	<l id='1715'>Nous eût pu fournir la matière, </l>
+	<l id='1716'>Cette pompe funèbre, où du sort le plus noir </l>
+	<l id='1717'>Vous attendiez la rigueur la plus fière, </l>
+	<l id='1718'>L'injustice la plus entière. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='1719'>Sur ce même rocher où le Ciel en courroux </l>
+	<l id='1720'>Vous promettait, au lieu d'époux, </l>
+	<l id='1721'>Un serpent dont soudain vous seriez dévorée, </l>
+	<l id='1722'>Nous tenions la main préparée </l>
+	<l id='1723'>A repousser sa rage, ou mourir avec vous. </l>
+	<l id='1724'>Vous le savez, Princesse ; et lorsqu'à notre vue, </l>
+	<l id='1725'>Par le milieu des airs vous êtes disparue, </l>
+	<l id='1726'>Du haut de ce rocher, pour suivre vos beautés, </l>
+	<l id='1727'>Ou plutôt pour goûter cette amoureuse joie </l>
+	<l id='1728'>D'offrir pour vous au monstre une première proie. </l>
+	<l id='1729'>D'amour et de douleur l'un et l'autre emportés, </l>
+	<l id='1730'>Nous nous somme précipités. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='1731'>Heureusement déçus au sens de votre oracle, </l>
+	<l id='1732'>Nous en avons ici reconnu le miracle, </l>
+	<l id='1733'>Et su que le serpent prêt à vous dévorer </l>
+	<l id='1734'>Était le Dieu qui fait qu'on aime, </l>
+	<l id='1735'>Et qui, tout Dieu qu'il est, vous adorant lui-même, </l>
+	<l id='1736'>Ne pouvait endurer </l>
+	<l id='1737'>Qu'un mortel comme nous osât vous adorer. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='1738'>Pour prix de vous avoir suivie, </l>
+	<l id='1739'>Nous jouissons ici d'un trépas assez doux : </l>
+	<l id='1740'>Qu'avions-nous affaire de vie, </l>
+	<l id='1741'>Si nous ne pouvions être à vous ? </l>
+	<l id='1742'>Nous revoyons ici vos charmes </l>
+	<l id='1743'>Qu'aucun des deux là haut n'aurait revus jamais ; </l>
+	<l id='1744'>Heureux si nous voyons la moindre de vos larmes </l>
+	<l id='1745'>Honorer des malheurs que vous nous avez faits. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1746'>Puis-je avoir des larmes de reste </l>
+	<l id='1747'>Après qu'on a porté les miens au dernier point ? </l>
+	<l id='1748'>Unissons nos soupirs dans un sort si funeste : </l>
+	<l id='1749'>Les soupirs ne s'épuisent point. </l>
+	<l id='1750'>Mais vous soupireriez, Princes, pour une ingrate ; </l>
+	<l id='1751'>Vous n'avez point voulu survivre à mes malheurs ; </l>
+	<l id='1752'>Et quelque douleur qui m'abatte, </l>
+	<l id='1753'>Ce n'est point pour vous que je meurs. </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='1754'>L'avons-nous mérité, nous dont toute la flamme </l>
+	<l id='1755'>N'a fait que vous lasser du récit de nos maux ? </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1756'>Vous pouviez mériter, Princes, toute mon âme, </l>
+	<l id='1757'>Si vous n'eussiez été rivaux. </l>
+	<l id='1758'>Ces qualités incomparables </l>
+	<l id='1759'>Qui de l'un et de l'autre accompagnaient les voeux, </l>
+	<l id='1760'>Vous rendaient tous deux trop aimables, </l>
+	<l id='1761'>Pour mépriser aucun des deux. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='1762'>Vous avez pu sans être injuste ni cruelle </l>
+	<l id='1763'>Nous refuser un coeur réservé pour un Dieu. </l>
+	<l id='1764'>Mais revoyez Vénus : le Destin nous rappelle, </l>
+	<l id='1765'>Et nous force à vous dire adieu. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1766'>Ne vous donne-t-il point le loisir de me dire </l>
+	<l id='1767'>Quel est ici votre séjour ? </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='1768'>Dans des bois toujours verts, où d'amour on respire, </l>
+	<l id='1769'>Aussitôt qu'on est mort d'amour. </l>
+	<l id='1770'>D'amour on y revit, d'amour on y soupire, </l>
+	<l id='1771'>Sous les plus douces lois de son heureux empire, </l>
+	<l id='1772'>Et l'éternelle nuit n'ose en chasser le jour, </l>
+	<l id='1773'>Que lui-même il attire </l>
+	<l id='1774'>Sur nos fantômes, qu'il inspire, </l>
+	<l id='1775'>Et dont aux Enfers même il se fait une cour. </l>
+</sp>
+<sp who='AGENOR'><speaker>AGÉNOR.</speaker>
+	<l id='1776'>Vos envieuses soeurs, après nous descendues, </l>
+	<l id='1777'>Pour vous perdre se sont perdues ; </l>
+	<l id='1778'>Et l'une et l'autre tour à tour, </l>
+	<l id='1779'>Pour le prix d'un conseil qui leur coûte la vie, </l>
+	<l id='1780'>A côté d'Ixion, à côté de Titye, </l>
+	<l id='1781'>Souffre tantôt la roue, et tantôt le vautour. </l>
+	<l id='1782'>L'Amour ; par les Zéphyrs, s'est fait prompte justice </l>
+	<l id='1783'>De leur envenimée et jalouse malice : </l>
+	<l id='1784'>Ces ministres ailés de son juste courroux, </l>
+	<l id='1785'>Sous couleur de les rendre encore auprès de vous, </l>
+	<l id='1786'>Ont plongé l'une et l'autre au fond d'un précipice, </l>
+	<l id='1787'>Où le spectacle affreux de leurs corps déchirés </l>
+	<l id='1788'>N'étale que le moindre et le premier supplice </l>
+	<l id='1789'>De ces conseils dont l'artifice </l>
+	<l id='1790'>Fait les maux dont vous soupirez. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1791' part='i'>Que je les plains ! </l>
+</sp>
+<sp who='CLEOMENE'><speaker>CLÉOMÈNE.</speaker>
+	<l id='1791' part='f'>Vous êtes seule à plaindre. </l>
+	<l id='1792'>Mais nous demeurons trop à vous entretenir : </l>
+	<l id='1793'>Adieu, puissions-nous vivre en votre souvenir ! </l>
+	<l id='1794'>Puissiez-vous, et bientôt, n'avoir plus rien à craindre ! </l>
+	<l id='1795'>Puisse, et bientôt, l'Amour vous enlever aux Cieux, </l>
+	<l id='1796'>Vous y mettre à côté des Dieux, </l>
+	<l id='1797'>Et, rallumant un feu qui ne se puisse éteindre, </l>
+	<l id='1798'>Affranchir à jamais l'éclat de vos beaux yeux </l>
+	<l id='1799'>D'augmenter le jour en ces lieux ! </l>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III.</head>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='1800'>Pauvres amants ! Leur amour dure encore, </l>
+	<l id='1801'>Tous morts qu'ils sont, l'un et l'autre m'adore, </l>
+	<l id='1802'>Moi dont la dureté reçut si mal leurs voeux : </l>
+	<l id='1803'>Tu n'en fais pas ainsi, toi qui seul m'as ravie, </l>
+	<l id='1804'>Amant, que j'aime encor cent fois plus que ma vie, </l>
+	<l id='1805'>Et qui brises de si beaux noeuds. </l>
+	<l id='1806'>Ne me fuis plus, et souffre que j'espère </l>
+	<l id='1807'>Que tu pourras un jour rabaisser l'oeil sur moi, </l>
+	<l id='1808'>Qu'à force de souffrir j'aurai de quoi te plaire, </l>
+	<l id='1809'>De quoi me rengager ta foi. </l>
+	<l id='1810'>Mais ce que j'ai souffert m'a trop défigurée, </l>
+	<l id='1811'>Pour rappeler un tel espoir ; </l>
+	<l id='1812'>L'oeil abattu, triste, désespérée, </l>
+	<l id='1813'>Languissante, et décolorée, </l>
+	<l id='1814'>De quoi puis-je me prévaloir, </l>
+	<l id='1815'>Si, par quelque miracle impossible à prévoir, </l>
+	<l id='1816'>Ma beauté qui t'a plu ne se voit réparée ? </l>
+	<l id='1817'>Je porte ici de quoi la réparer : </l>
+	<l id='1818'>Ce trésor de beauté divine, </l>
+	<l id='1819'>Qu'en mes mains pour Vénus a remis Proserpine, </l>
+	<l id='1820'>Enferme des appas dont je puis m'emparer, </l>
+	<l id='1821'>Et l'éclat en doit être extrême, </l>
+	<l id='1822'>Puisque Vénus, la beauté même, </l>
+	<l id='1823'>Les demande pour se parer. </l>
+	<l id='1824'>En dérober un peu serait-ce un si grand crime ? </l>
+	<l id='1825'>Pour plaire aux yeux d'un Dieu qui s'est fait mon amant, </l>
+	<l id='1826'>Pour regagner son coeur, et finir mon tourment, </l>
+	<l id='1827'>Tout n'est-il pas trop légitime ? </l>
+	<l id='1828'>Ouvrons. Quelles vapeurs m'offusquent le cerveau, </l>
+	<l id='1829'>Et que vois-je sortir de cette boîte ouverte ? </l>
+	<l id='1830'>Amour, si ta pitié ne s'oppose à ma perte, </l>
+	<l id='1831'>Pour ne revivre plus je descends au tombeau. </l>
+<stage>Elle s'évanouit, et l'Amour descend auprès d'elle en volant. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. L'Amour, Psyché, évanouie. </head>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1832'>Votre péril, Psyché, dissipe ma colère ; </l>
+	<l id='1833'>Ou plutôt de mes feux l'ardeur n'a point cessé, </l>
+	<l id='1834'>Et, bien qu' au dernier point vous m'ayez su déplaire, </l>
+	<l id='1835'>Je ne me suis intéressé </l>
+	<l id='1836'>Que contre celle de ma mère. </l>
+	<l id='1837'>J'ai vu tous vos travaux, j'ai suivi vos malheurs, </l>
+	<l id='1838'>Mes soupirs ont partout accompagné vos pleurs. </l>
+	<l id='1839'>Tournez les yeux vers moi : je suis encor le même. </l>
+	<l id='1840'>Quoi ? je dis et redis tout haut que je vous aime. </l>
+	<l id='1841'>Et vous ne dites point, Psyché, que vous m'aimez ! </l>
+	<l id='1842'>Est-ce que pour jamais vos beaux yeux sont fermés, </l>
+	<l id='1843'>Qu'à jamais la clarté leur vient d'être ravie ? </l>
+	<l id='1844'>Ô Mort, devois-tu prendre un dard si criminel, </l>
+	<l id='1845'>Et, sans aucun respect pour mon être éternel, </l>
+	<l id='1846'>Attenter à ma propre vie ? </l>
+	<l id='1847'>Combien de fois, ingrate Déité, </l>
+	<l id='1848'>Ai-je grossi ton noir empire, </l>
+	<l id='1849'>Par les mépris et par la cruauté, </l>
+	<l id='1850'>D'une orgueilleuse ou farouche beauté ? </l>
+	<l id='1851'>Combien même, s'il le faut dire, </l>
+	<l id='1852'>T'ai-je immolé de fidèles amants, </l>
+	<l id='1853'>À force de ravissements ? </l>
+	<l id='1854'>Va, je ne blesserai plus d'âmes, </l>
+	<l id='1855'>Je ne percerai plus de coeurs </l>
+	<l id='1856'>Qu'avec des dards trempés aux divines liqueurs </l>
+	<l id='1857'>Qui nourrissent du Ciel les immortelles flammes, </l>
+	<l id='1858'>Et n'en lancerai plus que pour faire, à tes yeux, </l>
+	<l id='1859'>Autant d'amants, autant de Dieux. </l>
+	<l id='1860'>Et vous, impitoyable mère, </l>
+	<l id='1861'>Qui la forcez à m'arracher </l>
+	<l id='1862'>Tout ce que j'avais de plus cher, </l>
+	<l id='1863'>Craignez à votre tour l'effet de ma colère. </l>
+	<l id='1864'>Vous me voulez faire la loi, </l>
+	<l id='1865'>Vous qu'on voit si souvent la recevoir de moi ! </l>
+	<l id='1866'>Vous qui portez un coeur sensible comme un autre, </l>
+	<l id='1867'>Vous enviez au mien les délices du vôtre ! </l>
+	<l id='1868'>Mais dans ce même coeur j'enfoncerai des coups </l>
+	<l id='1869'>Qui ne seront suivis que de chagrins jaloux ; </l>
+	<l id='1870'>Je vous accablerai de honteuses surprises, </l>
+	<l id='1871'>Et choisirai partout à vos voeux les plus doux </l>
+	<l id='1872'>Des Adonis et des Anchises </l>
+	<l id='1873'>Qui n'auront que haine pour vous. </l>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Vénus, L'Amour, Psyché, évanouie. </head>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1874'>La menace est respectueuse, </l>
+	<l id='1875'>Et d'un enfant qui fait le révolté </l>
+	<l id='1876'>La colère présomptueuse... </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1877'>Je ne suis plus enfant, et je l'ai trop été, </l>
+	<l id='1878'>Et ma colère est juste autant qu'impétueuse. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1879'>L'impétuosité s'en devrait retenir, </l>
+	<l id='1880'>Et vous pourriez vous souvenir </l>
+	<l id='1881'>Que vous me devez la naissance. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1882'>Et vous pourriez n'oublier pas </l>
+	<l id='1883'>Que vous avez un coeur et des appas </l>
+	<l id='1884'>Qui relèvent de ma puissance, </l>
+	<l id='1885'>Que mon arc de la vôtre est l'unique soutien, </l>
+	<l id='1886'>Que sans mes traits elle n'est rien, </l>
+	<l id='1887'>Et que si les coeurs les plus braves </l>
+	<l id='1888'>En triomphe par vous se sont laissé traîner, </l>
+	<l id='1889'>Vous n'avez jamais fait d'esclaves </l>
+	<l id='1890'>Que ceux qu'il m'a plu d'enchaîner. </l>
+	<l id='1891'>Ne me vantez donc plus ces droits de la naissance </l>
+	<l id='1892'>Qui tyrannisent mes désirs ; </l>
+	<l id='1893'>Et si vous ne voulez perdre mille soupirs, </l>
+	<l id='1894'>Songez, en me voyant, à la reconnaissance, </l>
+	<l id='1895'>Vous qui tenez de ma puissance </l>
+	<l id='1896'>Et votre gloire et vos plaisirs. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1897'>Comment l'avez-vous défendue, </l>
+	<l id='1898'>Cette gloire dont vous parlez ? </l>
+	<l id='1899'>Comment me l'avez-vous rendue ? </l>
+	<l id='1900'>Et quand vous avez vu mes autels désolés, </l>
+	<l id='1901'>Mes temples violés, </l>
+	<l id='1902'>Mes honneurs ravalés, </l>
+	<l id='1903'>Si vous avez pris part à tant d'ignominie, </l>
+	<l id='1904'>Comment en a-t-on vu punie </l>
+	<l id='1905'>Psyché, qui me les a volés ? </l>
+	<l id='1906'>Je vous ai commandé de la rendre charmée </l>
+	<l id='1907'>Du plus vil de tous les mortels, </l>
+	<l id='1908'>Qui ne daignât répondre à son âme enflammée </l>
+	<l id='1909'>Que par des rebuts éternels, </l>
+	<l id='1910'>Par les mépris les plus cruels : </l>
+	<l id='1911'>Et vous-même l'avez aimée ! </l>
+	<l id='1912'>Vous avez contre moi séduit des immortels ; </l>
+	<l id='1913'>C'est pour vous qu'à mes yeux les Zéphyrs l'ont cachée, </l>
+	<l id='1914'>Qu'Apollon même suborné, </l>
+	<l id='1915'>Par un oracle adroitement tourné, </l>
+	<l id='1916'>Me l'avait si bien arrachée, </l>
+	<l id='1917'>Que si sa curiosité </l>
+	<l id='1918'>Par une aveugle défiance </l>
+	<l id='1919'>Ne l'eût rendue à ma vengeance, </l>
+	<l id='1920'>Elle échappait à mon coeur irrité. </l>
+	<l id='1921'>Voyez l'état où votre amour l'a mise, </l>
+	<l id='1922'>Votre Psyché : son âme va partir ; </l>
+	<l id='1923'>Voyez, et si la vôtre en est encore éprise, </l>
+	<l id='1924'>Recevez son dernier soupir. </l>
+	<l id='1925'>Menacez, bravez-moi, cependant qu'elle expire : </l>
+	<l id='1926'>Tant d'insolence vous sied bien, </l>
+	<l id='1927'>Et je dois endurer quoi qu'il vous plaise dire, </l>
+	<l id='1928'>Moi qui sans vos traits ne puis rien. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1929'>Vous ne pouvez que trop, Déesse impitoyable : </l>
+	<l id='1930'>Le Destin l'abandonne à tout votre courroux ; </l>
+	<l id='1931'>Mais soyez moins inexorable </l>
+	<l id='1932'>Aux prières, aux pleurs d'un fils à vos genoux. </l>
+	<l id='1933'>Ce doit vous être un spectacle assez doux </l>
+	<l id='1934'>De voir d'un oeil Psyché mourante, </l>
+	<l id='1935'>Et de l'autre ce fils, d'une voix suppliante </l>
+	<l id='1936'>Ne vouloir plus tenir son bonheur que de vous. </l>
+	<l id='1937'>Rendez-moi ma Psyché, rendez-lui tous ses charmes, </l>
+	<l id='1938'>Rendez-la, Déesse, à mes larmes, </l>
+	<l id='1939'>Rendez à mon amour, rendez à ma douleur </l>
+	<l id='1940'>Le charme de mes yeux, et le choix de mon coeur. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1941'>Quelque amour que Psyché vous donne, </l>
+	<l id='1942'>De ses malheurs par moi n'attendez pas la fin : </l>
+	<l id='1943'>Si le Destin me l'abandonne, </l>
+	<l id='1944'>Je l'abandonne à son destin. </l>
+	<l id='1945'>Ne m'importunez plus, et, dans cette infortune, </l>
+	<l id='1946'>Laissez-la sans Vénus triompher, ou périr. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1947'>Hélas ! si je vous importune, </l>
+	<l id='1948'>Je ne le ferois pas si je pouvois mourir. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1949'>Cette douleur n'est pas commune, </l>
+	<l id='1950'>Qui force un immortel à souhaiter la mort. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1951'>Voyez par son excès si mon amour est fort. </l>
+	<l id='1952'>Ne lui ferez-vous grâce aucune ? </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1953'>Je vous l'avoue, il me touche le coeur, </l>
+	<l id='1954'>Votre amour ; il désarme, il fléchit ma rigueur : </l>
+	<l id='1955'>Votre Psyché reverra la lumière. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1956'>Que je vous vais partout faire donner d'encens ! </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='1957'>Oui, vous la reverrez dans sa beauté première ; </l>
+	<l id='1958'>Mais de vos voeux reconnaissants </l>
+	<l id='1959'>Je veux la déférence entière, </l>
+	<l id='1960'>Je veux qu'un vrai respect laisse à mon amitié </l>
+	<l id='1961'>Vous choisir une autre moitié. </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1962'>Et moi, je ne veux plus de grâce : </l>
+	<l id='1963'>Je reprends toute mon audace, </l>
+	<l id='1964'>Je veux Psyché, je veux sa foi, </l>
+	<l id='1965'>Je veux qu'elle revive et revive pour moi, </l>
+	<l id='1966'>Et tiens indifférent que votre haine lasse </l>
+	<l id='1967'>En faveur d'une autre se passe. </l>
+	<l id='1968'>Jupiter qui paraît va juger entre nous </l>
+	<l id='1969'>De mes emportements et de votre courroux. </l>
+<stage>Après quelques éclairs et roulements de tonnerre, Jupiter paraît en l'air sur son aigle. </stage>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Jupiter, Vénus, L'Amour, Psyché.</head>
+<sp who='L-AMOUR'><speaker>L'AMOUR.</speaker>
+	<l id='1970'>Vous à qui seul tout est possible, </l>
+	<l id='1971'>Père des Dieux, souverain des mortels, </l>
+	<l id='1972'>Fléchissez la rigueur d'une mère inflexible, </l>
+	<l id='1973'>Qui sans moi n'aura point d'autels. </l>
+	<l id='1974'>J'ai pleuré, j'ai prié, je soupire, menace, </l>
+	<l id='1975'>Et perds menaces et soupirs : </l>
+	<l id='1976'>Elle ne veut pas voir que de mes déplaisirs </l>
+	<l id='1977'>Dépend du monde entier l'heureuse ou triste face, </l>
+	<l id='1978'>Et que si Psyché perd le jour, </l>
+	<l id='1979'>Si Psyché n'est à moi, je ne suis plus l'Amour. </l>
+	<l id='1980'>Oui, je romprai mon arc, je briserai mes flèches, </l>
+	<l id='1981'>J'éteindrai jusqu'à mon flambeau, </l>
+	<l id='1982'>Je laisserai languir la Nature au tombeau ; </l>
+	<l id='1983'>Ou, si je daigne aux coeurs faire encor quelques brèches, </l>
+	<l id='1984'>Avec ces pointes d'or qui me font obéir, </l>
+	<l id='1985'>Je vous blesserai tous là-haut pour des mortelles, </l>
+	<l id='1986'>Et ne décocherai sur elles </l>
+	<l id='1987'>Que des traits émoussés qui forcent à haïr, </l>
+	<l id='1988'>Et qui ne font que des rebelles, </l>
+	<l id='1989'>Des ingrates, et des cruelles. </l>
+	<l id='1990'>Par quelle tyrannique loi </l>
+	<l id='1991'>Tiendrai-je à vous servir mes armes toujours prêtes </l>
+	<l id='1992'>Et vous ferai-je à tous conquêtes sur conquêtes, </l>
+	<l id='1993'>Si vous me défendez d'en faire une pour moi ? </l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='1994'>Ma fille, sois-lui moins sévère, </l>
+	<l id='1995'>Tu tiens de sa Psyché le destin en tes mains ; </l>
+	<l id='1996'>La Parque au moindre mot va suivre ta colère : </l>
+	<l id='1997'>Parle, et laisse-toi vaincre aux tendresses de mère, </l>
+	<l id='1998'>Ou redoute un courroux que moi-même je crains. </l>
+	<l id='1999'>Veux-tu donner le monde en proie </l>
+	<l id='2000'>A la haine, au désordre, à la confusion ? </l>
+	<l id='2001'>Et d'un dieu d'union, </l>
+	<l id='2002'>D'un dieu de douceurs et de joie, </l>
+	<l id='2003'>Faire un dieu d'amertume et de division ? </l>
+	<l id='2004'>Considère ce que nous sommes, </l>
+	<l id='2005'>Et si les passions doivent nous dominer : </l>
+	<l id='2006'>Plus la vengeance a de quoi plaire aux hommes, </l>
+	<l id='2007'>Plus il sied bien aux Dieux de pardonner. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='2008'>Je pardonne à ce fils rebelle. </l>
+	<l id='2009'>Mais voulez-vous qu'il me soit reproché </l>
+	<l id='2010'>Qu'une misérable mortelle, </l>
+	<l id='2011'>L'objet de mon courroux, l'orgueilleuse Psyché, </l>
+	<l id='2012'>Sous ombre qu'elle est un peu belle, </l>
+	<l id='2013'>Par un hymen dont je rougis, </l>
+	<l id='2014'>Souille mon alliance, et le lit de mon fils ? </l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='2015'>Hé bien ! Je la fais immortelle </l>
+	<l id='2016'>Afin d'y rendre tout égal. </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='2017'>Je n'ai plus de mépris ni de haine pour elle, </l>
+	<l id='2018'>Et l'admets à l'honneur de ce noeud conjugal. </l>
+	<l id='2019'>Psyché, reprenez la lumière, </l>
+	<l id='2020'>Pour ne la reperdre jamais : </l>
+	<l id='2021'>Jupiter a fait votre paix, </l>
+	<l id='2022'>Et je quitte cette humeur fière </l>
+	<l id='2023'>Qui s'opposait à vos souhaits. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ.</speaker>
+	<l id='2024'>C'est donc vous, ô grande Déesse, </l>
+	<l id='2025'>Qui redonnez la vie à ce coeur innocent ! </l>
+</sp>
+<sp who='VENUS'><speaker>VÉNUS.</speaker>
+	<l id='2026'>Jupiter vous fait grâce, et ma colère cesse. </l>
+	<l id='2027'>Vivez, Vénus l'ordonne ; aimez, elle y consent. </l>
+</sp>
+<sp who='PSYCHE'><speaker>PSYCHÉ, à l'Amour.</speaker>
+	<l id='2028'>Je vous revois enfin, cher objet de ma flamme ! </l>
+</sp>
+<sp who='L-AMOUR'><speaker>L'AMOUR à Psyché.</speaker>
+	<l id='2029'>Je vous possède enfin, délices de mon âme ! </l>
+</sp>
+<sp who='JUPITER'><speaker>JUPITER.</speaker>
+	<l id='2030'>Venez, amants, venez aux Cieux </l>
+	<l id='2031'>Achever un si grand et si digne hyménée ; </l>
+	<l id='2032'>Viens-y, belle Psyché, changer de destinée, </l>
+	<l id='2033'>Viens prendre place au rang des Dieux. </l>
+<stage>Deux grandes machines descendent aux deux côtés de Jupiter, cependant qu'il dit ces derniers vers. Vénus avec sa suite monte dans l'une, l'Amour avec Psyché dans l'autre, et tous ensemble remontent au ciel.</stage>
+<stage>Les Divinités, qui avaient été partagées entre Vénus et son fils, se réunissent en les voyant d'accord ; et toutes ensemble, par des concerts, des chants, et des danses, célèbrent la fête des noces de l'Amour. </stage>
+<stage>Apollon paraît le premier et comme Dieu de l'harmonie, commence à chanter, pour inviter les autres Dieux à se réjouir.</stage>
+</sp>
+<sp who='APOLLON'><speaker>Récit d'APOLLON.</speaker>
+	<l id='2034'>Unissons-nous, troupe immortelle : </l>
+	<l id='2035'>Le Dieu d'amour devient heureux amant, </l>
+	<l id='2036'>Et Vénus a repris sa douceur naturelle </l>
+	<l id='2037'>En faveur d'un fils si charmant ; </l>
+	<l id='2038'>Il va goûter en paix, après un long tourment, </l>
+	<l id='2039'>Une félicité qui doit être éternelle. </l>
+</sp>
+<sp who='DIVINITES'><speaker>Toutes les Divinités chantent ensemble ce couplet à la gloire de l'Amour. </speaker>
+	<l id='2040'>Célébrons ce grand jour ; </l>
+	<l id='2041'>Célébrons tous une fête si belle ; </l>
+	<l id='2042'>Que nos chants en tous lieux en portent la nouvelle, </l>
+	<l id='2043'>Qu'ils fassent retenir le céleste séjour : </l>
+	<l id='2044'>Chantons, répétons, tour à tour, </l>
+	<l id='2045'>Qu'il n'est point d'âme si cruelle </l>
+	<l id='2046'>Qui tôt ou tard ne se rende à l'Amour. </l>
+</sp>
+<sp who='APOLLON'><speaker>APOLLON, continue.</speaker>
+	<l id='2047'>Le Dieu qui nous engage </l>
+	<l id='2048'>A lui faire la cour </l>
+	<l id='2049'>Défend qu'on soit trop sage : </l>
+	<l id='2050'>Les plaisirs ont leur tour : </l>
+	<l id='2051'>C'est leur plus doux usage </l>
+	<l id='2052'>Que de finir les soins du jour. </l>
+	<l id='2053'>La nuit est le partage </l>
+	<l id='2054'>Des jeux et de l'amour. </l>
+	<l id='2055'>Ce serait grand dommage </l>
+	<l id='2056'>Qu'en ce charmant séjour </l>
+	<l id='2057'>On eût un coeur sauvage : </l>
+	<l id='2058'>Les plaisirs ont leur tour ; </l>
+	<l id='2059'>C'est leur plus doux usage </l>
+	<l id='2060'>Que de finir les soins du jour. </l>
+	<l id='2061'>La nuit est le partage </l>
+	<l id='2062'>Des jeux et de l'amour. </l>
+<stage>Deux Muses, qui ont toujours évité de s'engager sous les lois de l'Amour, conseillent aux belles qui n'ont point encore aimé de s'en défendre avec soin, à leur exemple.</stage>
+</sp>
+<sp who='MUSES'><speaker>Chanson des MUSES/</speaker>
+	<l id='2063'>Gardez-vous, beautés sévères : </l>
+	<l id='2064'>Les amours font trop d'affaires ; </l>
+	<l id='2065'>Craignez toujours de vous laisser charmer. </l>
+	<l id='2066'>Quand il faut que l'on soupire, </l>
+	<l id='2067'>Tout le mal n'est pas de s'enflammer : </l>
+	<l id='2068'>Le martyre </l>
+	<l id='2069'>De le dire </l>
+	<l id='2070'>Coûte plus cent fois que d'aimer. </l>
+	<l id='2071'>Second couplet des muses </l>
+	<l id='2072'>On ne peut aimer sans peines, </l>
+	<l id='2073'>Il est peu de douces chaînes, </l>
+	<l id='2074'>À tout moment on se sent alarmer : </l>
+	<l id='2075'>Quand il faut que l'on soupire, </l>
+	<l id='2076'>Tout le mal n'est pas de s'enflammer ; </l>
+	<l id='2077'>Le martyre </l>
+	<l id='2078'>De le dire </l>
+	<l id='2079'>Coûte plus cent fois que d'aimer. </l>
+<stage>Bacchus fait entendre qu'il n'est pas si dangereux que l'Amour.</stage>
+</sp>
+<sp who='BACCHUS'><speaker>Récit de BACCHUS</speaker>
+	<l id='2080'>Si quelquefois, </l>
+	<l id='2081'>Suivant nos douces lois, </l>
+	<l id='2082'>La raison se perd et s'oublie, </l>
+	<l id='2083'>Ce que le vin nous cause de folie </l>
+	<l id='2084'>Commence et finit en un jour </l>
+	<l id='2085'>Mais quand un coeur est enivré d'amour, </l>
+	<l id='2086'>Souvent c'est pour toute la vie. </l>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>ENTRÉE DE BALLET. Composée de deux Ménades et de deux Aegipans qui suivent Bacchus.</head>
+<stage>Mome déclare qu'il n'a point de plus doux emploi que de médire, et que ce n'est qu'à l'Amour seul qu'il n'ose se jouer. </stage>
+<sp who='MOME'><speaker>Récit de MOME.</speaker>
+	<l id='2087'>Je cherche à médire </l>
+	<l id='2088'>Sur la terre et dans les Cieux ; </l>
+	<l id='2089'>Je soumets à ma satire </l>
+	<l id='2090'>Les plus grands des Dieux. </l>
+	<l id='2091'>Il n'est dans l'univers que l'Amour qui m'étonne : </l>
+	<l id='2092'>Il est le seul que j'épargne aujourd'hui ; </l>
+	<l id='2093'>Il n'appartient qu'à lui </l>
+	<l id='2094'>De n'épargner personne. </l>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SECONDE ENTRÉE DE BALLET. Composée de quatre polichinelles et de deux matassins qui suivent Mome, et viennent joindre leur plaisanterie et leur badinage aux divertissements de cette grande fête.</head>>
+<stage> Bacchus et Mome, qui les conduisent, chantent au milieu d'eux chacun une chanson, Bacchus à la louange du vin, et Mome une chanson enjouée sur le sujet et les avantages de la raillerie.</stage>
+<sp who='BACCHUS'><speaker>Récit de BACCHUS</speaker>
+	<l id='2095'>Admirons le jus de la treille : </l>
+	<l id='2096'>Qu'il est puissant ! qu'il a d'attraits ! </l>
+	<l id='2097'>Il sert aux douceurs de la paix, </l>
+	<l id='2098'>Et dans la guerre il fait merveille ; </l>
+	<l id='2099'>Mais surtout pour les amours </l>
+	<l id='2100'>Le vin est d'un grand secours. </l>
+</sp>
+<sp who='MOME'><speaker>Récit de MOME.</speaker>
+	<l id='2101'>Folâtrons, divertissons-nous, </l>
+	<l id='2102'>Raillons, nous ne saurions mieux faire : </l>
+	<l id='2103'>La raillerie est nécessaire </l>
+	<l id='2104'>Dans les jeux les plus doux. </l>
+	<l id='2105'>Sans la douceur que l'on goûte à médire, </l>
+	<l id='2106'>On trouve peu de plaisirs sans ennui : </l>
+	<l id='2107'>Rien n'est si plaisant que de rire, </l>
+	<l id='2108'>Quand on rit aux dépens d'autrui. </l>
+	<l id='2109'>Plaisantons, ne pardonnons rien, </l>
+	<l id='2110'>Rions, rien n'est plus à la mode : </l>
+	<l id='2111'>On court péril d'être incommode </l>
+	<l id='2112'>En disant trop de bien. </l>
+	<l id='2113'>Sans la douceur que l'on goûte à médire, </l>
+	<l id='2114'>On trouve peu de plaisirs sans ennui : </l>
+	<l id='2115'>Rien n'est si plaisant que de rire, </l>
+	<l id='2116'>Quand on rit aux dépens d'autrui. </l>
+<stage>Mars arrive au milieu du théâtre, suivi de sa troupe guerrière, qu'il excite à profiter de leur loisir en prenant part aux divertissements.</stage>
+</sp>
+<sp who='MARS'><speaker>Récit de MARS.</speaker>
+	<l id='2117'>Laissons en paix toute la terre, </l>
+	<l id='2118'>Cherchons de doux amusements ; </l>
+	<l id='2119'>Parmi les jeux les plus charmants </l>
+	<l id='2120'>Mêlons l'image de la guerre. </l>
+<stage>Entrée de ballet.</stage>
+<stage>Suivants de Mars, qui font, en dansant avec des enseignes, une manière d'exercice.</stage>
+</sp>
+</div2>
+<div2 type='scene' n='9'><head>DERNIÈRE ENTRÉE DE BALLET.</head>
+<stage>Les troupes différentes de la suite d'Apollon, de Bacchus, de Mome et de Mars, après avoir achevé leurs entrées particulières, s'unissent ensemble, et forment la dernière entrée, qui renferme toutes les autres. </stage>
+<stage>Un choeur de toutes les voix et de tous les instruments, qui sont au nombre de quarante, se joint à la danse générale et termine la fête des noces de l'Amour et de Psyché. </stage>
+<sp who='CHOEUR'><speaker>DERNIER CHOEUR.</speaker>
+	<l id='2121'>Chantons les plaisirs charmants </l>
+	<l id='2122'>Des heureux amants ; </l>
+	<l id='2123'>Que tout le Ciel s'empresse </l>
+	<l id='2124'>À leur faire sa cour ; </l>
+	<l id='2125'>Célébrons ce beau jour </l>
+	<l id='2126'>Par mille doux chants d'allégresse, </l>
+	<l id='2127'>Célébrons ce beau jour </l>
+	<l id='2128'>Par mille doux chants pleins d'amour. </l>
+<stage>Dans le grand salon du palais des Tuileries, où Psyché a été représentée devant Leurs Majestés, il y avait des timbales, des trompettes et des tambours mêlés dans ces derniers concerts, et ce dernier couplet se chantait ainsi : </stage>
+	<l id='2129'>Chantons les plaisirs charmants </l>
+	<l id='2130'>Des heureux amants </l>
+	<l id='2131'>Répondez-nous, trompettes, </l>
+	<l id='2132'>Timbales et tambours ; </l>
+	<l id='2133'>Accordez-vous toujours </l>
+	<l id='2134'>Avec le doux son des musettes, </l>
+	<l id='2135'>Accordez-vous toujours </l>
+	<l id='2136'>Avec le doux chant des amours. </l>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>

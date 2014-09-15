@@ -1,0 +1,1877 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI.2>
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>SAÜL, TRAGÉDIE</title>
+				<author born='1694' born_location='Paris' death='1778' death_location='Paris' academie='1746'>VOLTAIRE</author>
+			</titleStmt>
+			<publicationStmp>	
+				<authority>publié par Paul FIEVRE, Mai 2013</authority>
+			</publicationStmp>
+			<SourceDesc>
+				<genre>Drame</genre>
+				<inspiration>bible</inspiration>
+				<structure>Cinq actes</structure>
+				<type>prose</type>
+				<periode>1761-1770</periode>
+				<taille>(mesure non pertinente)</taille>
+				<permalien></permalien>
+			</SourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<docTitle>
+				<titlePart type="main">SAÜL</titlePart>
+				<titlePart type="sub">DRAME EN CINQ ACTES</titlePart>
+				<titlePart type="sub">traduit de l'anglais de M. Hut. </titlePart>
+			</docTitle> 
+			<docDate value="1763">1763</docDate>
+			<docAuthor id="VOLTAIRE" bio='voltaire'>Voltaire</docAuthor>
+			<docImprint>
+				<privilege id="17**-**-**"></privilege>
+				<imprimeur id="***"></imprimeur>
+				<acheveImprime id="17**-**-**"></acheveImprime>
+			</docImprint>
+			<performance>
+				<premiere date='1763' location='(inconnu)'>Représentée, pour la première fois, en 1763.</premiere>
+			</performance>
+			<preface><head>AVIS</head>
+				<p>M. Huet, membre du parlement d'Angleterre, était petit neveu de M. Huet, évêque d'Avranches. Les Anglais, au lieu de Huet avec un e ouvert, prononcent Hut. Ce fut lui qui, en 1728, composa le petit livre très curieux : The man after the heart of God, l'Homme selon le coeur de Dieu. Indigné d'avoir entendu un prédicateur comparer à David le roi George II, qui n'avait ni assassiné personne, ni fait brûler ses prisonniers français dans des fours à brique, il fit une justice éclatante de ce roitelet juif.</p>
+			</preface>
+			<castList><head>PERSONNAGES</head>
+				<castItem><role id="SAÜL" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>SAÜL</role>, fils de Gis, et premier roi juif.</castItem>
+				<castItem><role id="DAVID" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>DAVID</role>, fils de Jessé, gendre de Saül, et second roi.</castItem>
+				<castItem><role id="AGAG" civil='M' type="H" statut='roi' age='A' stat_amour='néant'>AGAG</role>, roi des Amalécites.</castItem>
+				<castItem><role id="SAMUEL" civil='M' type="H" statut='prophète' age='A' stat_amour='néant'>SAMUEL</role>, prophète et juge en Israël.</castItem>
+				<castItem><role id="MIHCOL" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>MICHOL</role>, épouse de David et fille de Saül.</castItem>
+				<castItem><role id="ABIGAIL" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>ABIGAIL</role>, veuve de Nabal et seconde épouse de David.</castItem>
+				<castItem><role id="BETHSABÉE" civil='F' type="H" statut='roi' age='A' stat_amour='néant'>BETHSABÉE</role>, femme d'Urie et concubine de David.</castItem>
+				<castItem><role id="LA PYTHONISSE" civil='F' type="H" statut='socière' age='A' stat_amour='néant'>LA PYTHONISSE</role>, fameuse sorcière en Israël.</castItem>
+				<castItem><role id="JOAB" civil='M' type="H" statut='général' age='A' stat_amour='néant'>JOAB</role>, général des hordes de David et son confident.</castItem>
+				<castItem><role id="URIE" civil='M' type="H" statut='officier' age='A' stat_amour='néant'>URIE</role>, mari de Bethsabée et officier de David.</castItem>
+				<castItem><role id="BAZA" civil='M' type="H" statut='confident' age='A' stat_amour='néant'>BAZA</role>, ancien confident de Saül.</castItem>
+				<castItem><role id="ABIÉZER" civil='M' type="H" statut='officier' age='V' stat_amour='néant'>ABIÉZER</role>, vieil officier de Saül.</castItem>
+				<castItem><role id="ADONIAS" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>ADONIAS</role>, fils de David et d'Agith, sa dix-septième femme.</castItem>
+				<castItem><role id="SALOMON" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>SALOMON</role>, fils adultérin de David et de Bethsabée.</castItem>
+				<castItem><role id="NATHAN" civil='M' type="H" statut='prince' age='A' stat_amour='néant'>NATHAN</role>, prince et prophète en Israël.</castItem>
+				<castItem><role id="GAG" civil='M' type="H" statut='prophète' age='A' stat_amour='néant'>GAG</role> ou GAD, prophète et chapelain ordinaire de David.</castItem>
+				<castItem><role id="ABISAG" civil='M' type="H" statut='aristocrate' age='A' stat_amour='néant'>ABISAG</role>, de Sunam, jeune sunamite.</castItem>
+				<castItem><role id="ÉBIND" civil='M' type="H" statut='capitaine' age='A' stat_amour='néant'>ÉBIND</role>, capitaine de David.</castItem>
+				<castItem><role id="ABIAR" civil='M' type="H" statut='officier' age='A' stat_amour='néant'>ABIAR</role>, officier de David.</castItem>
+				<castItem><role id="YESEZ" civil='M' type="H" statut='général' age='A' stat_amour='néant'>YESEZ</role>, inspecteur-général des troupes de David.</castItem>
+				<castItem><role id="LES PRÊTRES DE SAMUEL" civil='G' type="H" statut='prêtre' age='A' stat_amour='néant'>LES PRÊTRES DE SAMUEL</role>.</castItem>
+				<castItem><role id="LES CAPITAINES DE DAVID" civil='G' type="H" statut='capitaine' age='A' stat_amour='néant'>LES CAPITAINES DE DAVID</role>.</castItem>
+				<castItem><role id="UN CLERC DE LA TRÉSORERIE" civil='M' type="H" statut='clerc' age='A' stat_amour='néant'>UN CLERC DE LA TRÉSORERIE</role>.</castItem>
+				<castItem><role id="UN MESSAGER" civil='M' type="H" statut='messager' age='A' stat_amour='néant'>UN MESSAGER</role>.</castItem>
+				<castItem><role id="LA POPULACE JUIVE" civil='G' type="H" statut='messager' age='A' stat_amour='néant'>LA POPULACE JUIVE</role>.</castItem>
+
+			</castList>
+			<set location='Galagal' country='Israël' periode='Temps bibliques' link=''>La scène est à Galgala (Acte I), sur la colline d'Achila (Acte II), à Siceleg (Acte III), à Hébron (Acte IV) et à Hérus-Chalaïm (Acte V).</set>
+			<note>On n'a pas observé, dans cette espèce de tragi-comédie, l'unité d'action, de lieu, et de temps. On a cru, avec l'illustre La Motte, devoir se soustraire à ces règles. Tout se passe dans l'intervalle de deux ou trois générations, pour rendre l'action plus tragique par le nombre des morts selon l'esprit juif ; tandis que parmi nous l'unité de temps ne peut s'étendre qu'à vingt-quatre heures, et l'unité de lieu dans l'enceinte d'un palais.</note>
+</front>
+<body>
+<div1 type='acte' n='1'><head>ACTE I</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Saül, Baza.</head>
+<sp who='BAZA'><speaker>BAZA.</speaker>
+<p id='1'>
+	<s id='1'>Ô grand Saül ! </s>
+	<s id='2'>Le plus puissant des rois, vous qui régnez sur les</s>
+</p>
+</sp>
+<sp who='SAÜL'><speaker>SAÜL.</speaker>
+<p id='2'>
+	<s id='1'>Ô mon cher Baza ! </s>
+	<s id='2'>Heureux mille fois celui qui conduit en paix les troupeaux bêlants de Benjamin, et presse le doux raisin de la vallée d'Engaddi ! </s>
+	<s id='3'>Hélas ! </s>
+	<s id='4'>Je cherchais les ânesses de mon père, je trouvai un royaume ; depuis ce jour je n'ai connu que la douleur. </s>
+	<s id='5'>Plût à Dieu, au contraire, que j'eusse cherché un royaume, et trouvé des ânesses ! j'aurais fait un meilleur marché.</s>
+</p>
+
+</sp>
+<sp who='BAZA'><speaker>BAZA.</speaker>
+<p id='3'>
+	<s id='1'>Est-ce le prophète Samuel ? </s>
+	<s id='2'>Est-ce votre gendre David qui vous cause ce mortel chagrin ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="4">
+	<s id='1'>L'un et l'autre. </s>
+	<s id='2'>Samuel, tu le sais, m'oignit malgré lui ; il fît ce qu'il put pour empêcher le peuple de choisir un prince, et dès que je fus élu, il devint le plus cruel de tous mes ennemis.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="5">
+	<s id='1'>Vous deviez bien vous y attendre ; il était prêtre, et vous étiez guerrier ; il gouvernait avant vous ; on hait toujours son successeur.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="6">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Pouvait-il espérer de gouverner plus longtemps ? </s>
+	<s id='3'>Il avait associé à son pouvoir ses indignes enfants également corrompus et corrupteurs, qui vendaient publiquement la justice : toute la nation s'éleva contre ce gouvernement sacerdotal. </s>
+	<s id='4'>On tira un roi au sort : les dés sacrés annoncèrent la volonté du ciel ; le peuple la ratifia, et Samuel frémit : ce n'est pas assez de haïr en moi un prince choisi par le ciel, il hait encore le prophète ; car il sait que, comme lui, j'ai le nom de voyant : que j'ai prophétisé comme lui ; et ce nouveau proverbe répandu dans Israël, Saül est aussi au rang des prophètes, n'offense que trop ses oreilles superbes : on le respecte encore ; pour mon malheur il est prêtre, il est dangereux.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="7">
+	<s id='1'>N'est-ce pas lui qui soulève contre vous votre gendre David ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="8">
+	<s id='1'>Il n'est que trop vrai, et je tremble qu'il ne cabale pour donner ma couronne à ce rebelle.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="9">
+	<s id='1'>Votre altesse royale est trop bien affermie par ses victoires, et le roi Agag, votre illustre prisonnier, vous est ici un sûr garant de la fidélité de votre peuple, également enchanté de votre victoire et de votre clémence ; voici qu'on l'amène devant votre altesse royale.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. Saül, Baza, Agag, Soldats.</head>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="1">
+	<s id='1'>Doux et puissant vainqueur, modèle des princes, qui savez vaincre et pardonner, je me jette à vos sacrés genoux ; daignez ordonner vous-même ce que je dois donner pour ma rançon ; je serai désormais un voisin, un allié fidèle, un vassal soumis ; je ne vois plus en vous qu'un bienfaiteur et un maître : je vous dois la vie, je vous devrai encore la liberté : j'admirerai, j'aimerai en vous l'image du Dieu qui punit et pardonne.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="2">
+	<s id='1'>Illustre prince, que le malheur rend encore plus grand, je n'ai fait que mon devoir en sauvant vos jours : les rois doivent respecter leurs semblables : qui se venge après la victoire est indigne de vaincre ; je ne mets point votre personne à rançon, elle est d'un prix inestimable : soyez libre ; les tributs que vous paierez à Israël seront moins des marques de soumission que d'amitié : c'est ainsi que les rois doivent traiter ensemble.</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="3">
+	<s id='1'>Ô vertu ! </s>
+	<s id='2'>Ô grandeur de courage ! </s>
+	<s id='3'>Que vous êtes puissante sur  mon coeur ! </s>
+	<s id='4'>Je vivrai, je mourrai le sujet du grand Saül, et tous mes états sont à lui.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. Saül, Baza, Agag, Samuel, Prêtres, Soldats.</head>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="1">
+	<s id='1'>Samuel, quelles nouvelles m'apportez-vous ? </s>
+	<s id='2'>Venez-vous de la part de Dieu, de celle du peuple, ou de la vôtre ?</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="2">
+	<s id='1'>De la part de Dieu.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="3">
+	<s id='1'>Qu'ordonne-t-il ?</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="4">
+	<s id='1'>Il m'ordonne de vous dire qu'il s'est repenti de vous avoir fait régner.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="5">
+	<s id='1'>Dieu se repentir ! </s>
+	<s id='2'>Il n'y a que ceux qui font des fautes qui se repentent ; sa sagesse éternelle ne peut être imprudente. </s>
+	<s id='3'>Dieu ne peut faire des fautes.</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="6">
+	<s id='1'>Il peut se repentir d'avoir mis sur le trône ceux qui en commettent.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="7">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Quel homme n'en commet pas ? </s>
+	<s id='3'>Parlez, de quoi suis-je coupable ?</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="8">
+	<s id='1'>D'avoir pardonné à un roi.</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="9">
+	<s id='1'>Comment ! </s>
+	<s id='2'>La plus belle des vertus serait regardée chez vous comme un crime ?</s>
+</p>
+</sp>
+<sp who='SAMUEL'><speaker>SAMUEL, à Agag.</speaker>
+<p id='10'>
+	<s id='1'>Tais-toi, ne blasphème point.</s>
+</p>
+<stage>À Saül.</stage>
+<p id="11">
+	<s id='1'>Saül, ci-devant roi des Juifs, Dieu ne vous avait-il pas ordonné par ma bouche d'égorger tous les Amalécites, sans épargner ni les femmes, ni les filles, ni les enfants à la mamelle ?</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="12">
+	<s id='1'>Ton dieu t'avait ordonné cela ! </s>
+	<s id='2'>Tu t'es trompé, tu voulais dire ton diable.</s>
+</p>
+</sp>
+<sp who='SAMUEL'><speaker>SAMUEL, à ses prêtres.</speaker>
+<p id='13'>
+	<s id='1'>Préparez-vous à m'obéir ; et vous, Saül, avez-vous obéi à Dieu ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="14">
+	<s id='1'>Je n'ai pas cru qu'un tel ordre fût positif ; j'ai pensé que la bonté était le premier attribut de l'Être suprême, qu'un coeur compatissant ne pouvait lui déplaire.</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="15">
+	<s id='1'>Vous vous êtes trompé, homme infidèle : Dieu vous réprouve, votre sceptre passera dans d'autres mains.</s>
+</p>
+</sp>
+<sp who='BAZA'><speaker>BAZA, à Saül.</speaker>
+<p id='16'>
+	<s id='1'>Quelle insolence ! </s>
+	<s id='2'>Seigneur, permettez-moi de punir ce prêtre barbare.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="17">
+	<s id='1'>Gardez-vous-en bien ; ne voyez-vous pas qu'il est suivi de tout le peuple, et que nous serions lapidés, si je résistais ; car en effet, j'avais promis...</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="18">
+	<s id='1'>Vous aviez promis une chose abominable !</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="19">
+	<s id='1'>N'importe ; les Juifs sont plus abominables encore ; ils prendront la défense de Samuel contre moi.</s>
+</p>
+</sp>
+<sp who='BAZA'><speaker>BAZA, à part.</speaker>
+<p id="20">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Malheureux prince, tu n'as de courage qu'à la tête des armées.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="21">
+	<s id='1'>Eh bien donc ! </s>
+	<s id='2'>Prêtres, que faut-il que je fasse ?</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="22">
+	<s id='1'>Je vais te montrer comme on obéit au Seigneur :</s>
+</p>
+<stage>À ses prêtres.</stage>
+<p id="23">
+	<s id='1'>Ô prêtres sacrés ! </s>
+	<s id='2'>Enfants de Lévi, déployez ici votre zèle : qu'on apporte une table, qu'on étende sur cette table ce roi, dont le prépuce est un crime devant le Seigneur.</s>
+</p>
+<stage>Les prêtres lient Agag sur la table.</stage>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="24">
+	<s id='1'>Que voulez-vous de moi, impitoyables monstres ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="25">
+	<s id='1'>Auguste Samuel, au nom du Seigneur...</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="26">
+	<s id='1'>Ne l'invoquez pas, vous en êtes indigne ; demeurez ici, il vous l'ordonne ; soyez témoin du sacrifice qui, peut-être, expiera votre crime.</s>
+</p>
+</sp>
+<sp who='AGAG'><speaker>AGAG, à Samuel.</speaker>
+<p id='27'>
+	<s id='1'>Ainsi donc vous m'allez donner la mort : ô mort, que vous êtes amère !</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="28">
+	<s id='1'>Oui, tu es gras, et ton holocauste en sera plus agréable au Seigneur.</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id='29'>
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Saül, que je te plains, d'être soumis à de pareils monstres !</s>
+</p>
+</sp>
+<sp who='SAMUEL'><speaker>SAMUEL, à Agag.</speaker>
+<p id='30'>
+	<s id='1'>Écoute, tu vas mourir : veux-tu être juif ? </s>
+	<s id='2'>Veux-tu te faire circoncire ?</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="31">
+	<s id='1'>Et si j'étais assez faible pour être de ta religion, me donnerais-tu la vie ?</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="32">
+	<s id='1'>Non ; tu auras la satisfaction de mourir juif, et c'est bien assez.</s>
+</p>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="33">
+	<s id='1'>Frappez donc, bourreaux !</s>
+</p>
+</sp>
+<sp who="SAMUEL"><speaker>SAMUEL.</speaker>
+<p id="34">
+	<s id='1'>Donnez-moi cette hache, au nom du Seigneur ; et tandis que je couperai un bras, coupez une jambe, et ainsi de suite morceau par morceau.</s>
+</p>
+<stage>Ils frappent tous ensemble au nom d'Adonaï.</stage>
+</sp>
+<sp who="AGAG"><speaker>AGAG.</speaker>
+<p id="35">
+	<s id='1'>Ô mort ! </s>
+	<s id='2'>Ô tourments ! </s>
+	<s id='3'>Ô barbares !</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="36">
+	<s id='1'>Faut-il que je sois témoin d'une abomination si horrible !</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="37">
+	<s id='1'>Dieu vous punira de l'avoir soufferte.</s>
+</p>
+</sp>
+<sp who='SAMUEL'><speaker>SAMUEL, aux prêtres.</speaker>
+<p id='38'>
+	<s id='1'>Emportez ce corps et cette table : qu'on brûle les restes de cet infidèle, et que ses chairs servent à nourrir nos serviteurs.</s>
+</p>
+<stage>À Saül.</stage>
+<p id='39'>
+	<s id='1'>Et vous, prince, apprenez à jamais qu'obéissance vaut mieux que sacrifice.</s>
+</p>
+</sp>
+<sp who='SAÜL'><speaker>SAÜL, se jetant dans un fauteuil.</speaker>
+<p id='40'>
+	<s id='1'>Je me meurs ; je ne pourrai survivre à tant d'horreurs et à tant de honte.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Saül, Baza, Un Messager.</head>
+<sp who='LE MESSAGER'><speaker>LE MESSAGER.</speaker>
+<p id='1'>
+	<s id='1'>Seigneur, pensez à votre sûreté ; David approche en armes, il est suivi de cinq cents brigands qu'il a ramassés ; vous n'avez ici qu'une garde faible.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="2">
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Seigneur, vous le voyez : David et Samuel étaient d'intelligence : vous êtes trahi de tous cotés, mais je vous serai fidèle jusqu'à la mort : quel parti prenez-vous ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="3">
+	<s id='1'>Celui de combattre et de mourir.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='2'><head>ACTE II</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. David, Michol.</head>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="1">
+	<s id='1'>Impitoyable époux, prétends-tu attenter à la vie de mon père, de ton bienfaiteur, de celui qui, t'ayant d'abord pris pour son joueur de harpe, te fit bientôt après son écuyer, qui enfin t'a mis dans mes bras ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="2">
+	<s id='1'>Il est vrai, ma chère Michol, que je lui dois le bonheur de posséder vos charmes ; il m'en a coûté assez cher : il me fallut apporter à votre père deux cents prépuces de Philistins pour présent de noces : deux cents prépuces ne se trouvent pas si aisément : je fus obligé de tuer deux cents hommes pour venir à bout de cette entreprise ; et je n'avais pas la mâchoire d'âne de Samson : mais eût-il fallu combattre toutes les forces de Babylone et d'Égypte, je l'aurais fait pour vous mériter ; je vous adorais et je vous adore.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="3">
+	<s id='1'>Et pour preuve de ton amour, tu en veux aux jours de mon père !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="4">
+	<s id='1'>Dieu m'en préserve ! </s>
+	<s id='2'>Je ne veux que lui succéder : vous savez que j'ai respecté sa vie, et que, lorsque je le rencontrai dans une caverne, je ne lui coupai que le bout de son manteau ; la vie du père de ma chère Michol me sera toujours précieuse.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="5">
+	<s id='1'>Pourquoi donc te joindre à ses ennemis ? </s>
+	<s id='2'>Pourquoi te souiller du crime horrible de rébellion, et te rendre par là même si indigne du trône où tu aspires ? </s>
+	<s id='3'>Pourquoi d'un coté te joindre à Samuel, notre ennemi domestique ; et de l'autre au roi de Geth, Akis, notre ennemi déclaré ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Ma noble épouse, ne me condamnez pas sans m'entendre : vous savez qu'un jour, dans le village de Bethléem, Samuel répandit de l'huile sur ma tête : ainsi je suis roi, et vous êtes la femme d'un roi : si je me suis joint aux ennemis de la nation, si j'ai fait du mal à mes concitoyens, j'en ai fait davantage à ces ennemis mêmes. </s>
+	<s id='2'>Il est vrai que j'ai engagé ma foi au roi de Geth, le généreux Akis : j'ai rassemblé cinq cents malfaiteurs perdus de dettes et de débauches, mais tous bons soldats. </s>
+	<s id='3'>Akis nous a reçus, nous a comblés de bienfaits ; il m'a traité comme son fils, il a eu en moi une entière confiance ; mais je n'ai jamais oublié que je suis juif ; et ayant des commissions du roi Akis pour aller ravager vos terres, j'ai très souvent ravagé les siennes : j'allais dans les villages les plus éloignés, je tuais tout sans miséricorde, je ne pardonnais ni au sexe ni à l'âge, afin d'être pur devant le Seigneur ; et, afin qu'il ne se trouvât personne qui pût me déceler auprès du roi Akis, je lui amenais les boeufs, les ânes, les moutons, les chèvres des innocents agriculteurs que j'avais égorgés, et je lui disais, par un salutaire mensonge, que c'étaient les boeufs, les ânes, les moutons, et les chèvres des Juifs ; quand je trouvais quelque résistance, je faisais scier en deux, par le milieu du corps, ces insolents rebelles, ou je les écrasais sous les dents de leur herse, ou je les faisais rôtir dans des fours à brique. </s>
+	<s id='4'>Voyez si c'est aimer sa patrie, si c'est être bon Israélite.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="7">
+	<s id='1'>Ainsi, cruel, tu as également répandu le sang de tes frères et celui de tes alliés, tu as donc trahi également ces deux bienfaiteurs, rien ne t'est sacré ; tu trahiras ainsi ta chère Michol, qui brûle pour toi d'un si malheureux amour.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="8">
+	<s id='1'>Non, je le jure par la verge d'Aaron, par la racine de Jessé, je vous serai toujours fidèle.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. David, Michol, Abigail.</head>
+<sp who='ABIGAIL'><speaker>ABIGAIL, en embrassant David.</speaker>
+<p id='1'>
+	<s id='1'>Mon cher, mon tendre époux, maître de mon coeur et de ma vie, venez, sortez avec moi de ces lieux dangereux ; Saül arme contre vous, et Akis vous attend.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="2">
+	<s id='1'>Qu'entends-je ? </s>
+	<s id='2'>Son époux ? </s>
+	<s id='3'>Quoi ! </s>
+	<s id='4'>Monstre de perfidie, vous me jurez un amour éternel, et vous avez pris une autre femme ! </s>
+	<s id='5'>Quelle est donc cette insolente rivale ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Je suis confondu.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="4">
+	<s id='1'>Auguste et aimable fille d'un grand roi, ne vous mettez pas en colère contre votre servante : un héros tel que David a besoin de plusieurs femmes ; et moi, je suis une jeune veuve qui ai besoin d'un mari : vous êtes obligée d'être toujours auprès du roi votre père ; il faut que David ait une compagne dans ses voyages et dans ses travaux ; ne m'enviez pas cet honneur, je vous serai toujours soumise.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="5">
+	<s id='1'>Elle est civile et accorte du moins ; elle n'est pas comme ces concubines impertinentes qui vont toujours bravant la maîtresse de la maison : monstre, où as-tu fait cette acquisition ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Puisqu'il faut vous dire la vérité, ma chère Michol, j'étais à la tête de mes brigands, et usant du droit de la guerre, j'ordonnai à Nabal, mari d'Abigail, de m'apporter tout ce qu'il avait ; Nabal était un brutal qui ne savait pas les usages du monde, il me refusa insolemment : Abigail est née douce, honnête, et tendre ; elle vola tout ce qu'elle put à son mari pour me l'apporter : au bout de huit jours le brutal mourut...</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="7">
+	<s id='1'>Je m'en doutais bien.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="8">
+	<s id='1'>Et j'épousai la veuve.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="9">
+	<s id='1'>Ainsi Abigail est mon égale : çà, dis-moi en conscience, brigand trop cher, combien as-tu de femmes ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="10">
+	<s id='1'>Je n'en ai que dix-huit en vous comptant : ce n'est pas trop pour un brave homme.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="11">
+	<s id='1'>Dix-huit femmes, scélérat ! </s>
+	<s id='2'>Eh ! </s>
+	<s id='3'>Que fais-tu donc de tout cela ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="12">
+	<s id='1'>Je leur donne ce que je peux de tout ce que j'ai pillé.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="13">
+	<s id='1'>Les voilà bien entretenues ! </s>
+	<s id='2'>Tu es comme les oiseaux de proie, qui apportent à leurs femelles des colombes à dévorer : encore n'ont-ils qu'une compagne, et il en faut dix-huit au fils de Jessé !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="14">
+	<s id='1'>Vous ne vous apercevrez jamais, ma chère Michol, que vous ayez des compagnes.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="15">
+	<s id='1'>Va, tu promets plus que tu ne peux tenir : écoute, quoique tu en aies dix-huit, je te pardonne ; si je n'avais qu'une rivale, je serais plus difficile : cependant tu me le paieras.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="16">
+	<s id='1'>Auguste reine, si toutes les autres pensent comme moi, vous aurez dix-sept esclaves de plus auprès de vous.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. David, Michol, Abigail, Abiar.</head>
+<sp who="ABIAR"><speaker>ABIAR.</speaker>
+<p id="1">
+	<s id='1'>Mon maître, que faites-vous ici entre deux femmes ? </s>
+	<s id='2'>Saül avance de l'occident, et Akis de l'orient ; de quel côté voulez-vous marcher ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="2">
+	<s id='1'>Du côté d'Akis, sans balancer.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="3">
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Malheureux, contre ton roi, contre mon père !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="4">
+	<s id='1'>Il le faut bien ; il y a plus à gagner avec Akis qu'avec Saül : consolez-vous, Michol ; adieu, Abigail.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="5">
+	<s id='1'>Non, je ne te quitte pas.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Restez, vous dis-je ; ceci n'est pas une affaire de femme ; chaque chose a son temps, je vais combattre : priez Dieu pour moi.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. Michol, Abigail.</head>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="1">
+	<s id='1'>Protégez-moi, noble fille de Saül ; je crois une telle action digne de votre grand coeur. </s>
+	<s id='2'>David a encore épousé une nouvelle femme ce matin : réunissons-nous toutes deux contre nos rivales.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="2">
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Ce matin même ? </s>
+	<s id='3'>L'impudent ! </s>
+	<s id='4'>Et comment se nomme-telle
+?</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="3">
+	<s id='1'>Alchinoam ; c'est une des plus dévergondées coquines qui soient dans toute la race de Jacob.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="">
+	<s id='1'>C'est une vilaine race que cette race de Jacob ; je suis fâchée d'en être ; mais, par Dieu, puisque mon mari nous traite si indignement, je le traiterai de même, et je vais, de ce pas, en épouser un autre.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="">
+	<s id='1'>Allez, allez, madame ; je vous promets bien d'en faire autant, dès que je serai mécontente de lui.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. Michol, Abigail, Le Messager, Ébind.</head>
+<sp who="ÉBIND"><speaker>ÉBIND.</speaker>
+<p id="1">
+	<s id='1'>Ah, princesse ! </s>
+	<s id='2'>Votre Jonathas, savez-vous ?</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="2">
+	<s id='1'>Quoi donc ! </s>
+	<s id='2'>Mon frère Jonathas ?...</s>
+</p>
+</sp>
+<sp who="ÉBIND"><speaker>ÉBIND.</speaker>
+<p id="3">
+	<s id='1'>Est condamné à mort, dévoué au Seigneur, à l'anathème.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="4">
+	<s id='1'>Jonathas qui aimait tant votre mari ?</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="5">
+	<s id='1'>Il n'est plus ? </s>
+	<s id='2'>On lui a arraché la vie ?</s>
+</p>
+</sp>
+<sp who="ÉBIND"><speaker>ÉBIND.</speaker>
+<p id="6">
+	<s id='1'>Non, madame, il est en parfaite santé : le roi votre père, en marchant, au point du jour, contre Akis, a rencontré un petit corps de Philistins ; et, comme nous étions dix contre un, nous avons donné dessus avec courage. </s>
+	<s id='2'>Saül, pour augmenter les forces du soldat, qui était à jeun, a ordonné que personne ne mangeât de la journée, et a juré qu'il immolerait au Seigneur le premier qui déjeunerait : Jonathas, qui ignorait cet ordre prudent, a trouvé un rayon de miel, et en a avalé la largeur de mon pouce : Saül, comme de raison, l'a condamné à mourir ; il savait ce qu'il en coûte de manquer à sa parole ; l'aventure d'Agag l'effrayait, il craignait Samuel ; enfin, Jonathas allait être offert en victime ; toute l'armée s'est soulevée contre ce parricide ; Jonathas est sauvé, et l'armée s'est mise à manger et à boire ; et, au lieu de perdre Jonathas, nous avons été défaits de Samuel. </s>
+	<s id='3'>Il est mort d'apoplexie.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="7">
+	<s id='1'>Tant mieux ; c'était un vilain homme.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="8">
+	<s id='1'>Dieu soit béni !</s>
+</p>
+</sp>
+<sp who="ÉBIND"><speaker>ÉBIND.</speaker>
+<p id="9">
+	<s id='1'>Le roi Saül vient suivi de tous les siens ; je crois qu'il va tenir conseil dans cette chenevière, pour savoir comment il s'y prendra pour attaquer Akis et les Philistins.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE VI. Micho:, Abigail, Saül, Baza, Capitaines.</head>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="1">
+	<s id='1'>Mon père, faudra-t-il trembler tous les jours pour votre vie, pour celle de mes frères, et essuyer les infidélités de mon mari ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="2">
+	<s id='1'>Votre frère et votre mari sont des rebelles : comment ! </s>
+	<s id='2'>Manger du miel un jour de bataille ! </s>
+	<s id='3'>Il est bien heureux que l'armée ait pris son parti ; mais votre mari est cent fois plus méchant que lui ; je jure que je le traiterai comme Samuel a traité Agag.</s>
+</p>
+</sp>
+<sp who='ABIGAIL'><speaker>ABIGAIL, à Michol.</speaker>
+<p id='3'>
+	<s id='1'>Ah ! </s>
+	<s id='2'>Madame, comme il roule les yeux, comme il grince les dents ! </s>
+	<s id='3'>Fuyons au plus vite ; votre père est fou, ou je me trompe.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="4">
+	<s id='1'>Il est quelquefois possédé du diable.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="5">
+	<s id='1'>Ma fille, qui est cette drôlesse-là ?</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="6">
+	<s id='1'>C'est une des femmes de votre gendre David, que vous avez autrefois tant aimé.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="7">
+	<s id='1'>Elle est assez jolie : je la prendrai pour moi, au sortir de la bataille.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="8">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Le méchant homme ! </s>
+	<s id='3'>On voit bien qu'il est réprouvé.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="9">
+	<s id='1'>Mon père, je vois que votre mal vous prend ; si David était ici, il vous jouerait de la harpe ; car vous savez que la harpe est un spécifique contre les vapeurs hypocondriaques.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="10">
+	<s id='1'>Taisez-vous, vous êtes une sotte ; je sais mieux que vous ce que j'ai à faire.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="11">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Madame, comme il est méchant ! </s>
+	<s id='3'>Il est plus fou que jamais ; retirons-nous au plus vite.</s>
+</p>
+</sp>
+<sp who="MICHOL"><speaker>MICHOL.</speaker>
+<p id="12">
+	<s id='1'>C'est cette malheureuse boucherie d'Agag qui lui a donné des vapeurs ; dérobons-nous à sa furie.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='7'><head>SCÈNE VII. Saül, Baza.</head>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="1">
+	<s id='1'>Mes capitaines, allez m'attendre ; Baza, demeurez : vous me voyez dans un mortel embarras ; j'ai mes vapeurs, il faut combattre : nous avons de puissants ennemis ; ils sont derrière la montagne de Gelboé ; je voudrais bien savoir quelle sera l'issue de cette bataille.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="2">
+	<s id='1'>Eh, seigneur ! </s>
+	<s id='2'>Il n'y a rien de plus aisé ; n'êtes-vous pas prophète tout comme un autre ? </s>
+	<s id='3'>N'avez-vous pas même des vapeurs qui sont un véritable avant coureur des prophéties ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="3">
+	<s id='1'>Il est vrai, mais depuis quelque temps le Seigneur ne me répond plus ; je ne sais ce que j'ai : as-tu fait venir la pythonisse d'Endor ?</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="4">
+	<s id='1'>Oui, mon maître ; mais croyez-vous que le Seigneur lui réponde plutôt qu'à vous ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="5">
+	<s id='1'>Oui, sans doute, car elle a un esprit de Python.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="6">
+	<s id='1'>Un esprit de Python, mon maître ! </s>
+	<s id='2'>Quelle espèce est cela ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="7">
+	<s id='1'>Ma foi, je n'en sais rien ; mais on dit que c'est une femme fort habile : j'aurais envie de consulter l'ombre de Samuel.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="8">
+	<s id='1'>Vous feriez bien mieux de vous mettre à la tête de vos troupes : comment consulte-t-on une ombre ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="9">
+	<s id='1'>La pythonisse les fait sortir de la terre, et l'on voit à leur mine si l'on sera heureux ou malheureux.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="10">
+	<s id='1'>Il a perdu l'esprit ! </s>
+	<s id='2'>Seigneur, au nom de Dieu, ne vous amusez point à toutes ces sottises, et allons mettre vos troupes en bataille.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="11">
+	<s id='1'>Reste ici ; il faut absolument que nous voyions une ombre : voilà la pythonisse qui arrive : garde-toi de me faire reconnaître ; elle me prend pour un capitaine de mon armée.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='8'><head>SCÈNE VIII. Saül, Baza, La Pythonisse, arrivant avec un balai entre les jambes.</head>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="1">
+	<s id='1'>Quel mortel veut arracher les secrets du destin à l'abîme qui les couvre ? </s>
+	<s id='2'>Qui de vous deux s'adresse à moi pour connaître l'avenir ?</s>
+</p>
+</sp>
+<sp who='BAZA'><speaker>BAZA, montrant Saül.</speaker>
+<p id='2'>
+	<s id='1'>C'est mon capitaine : ne devrais-tu pas le savoir, puisque tu es sorcière ?</s>
+</p>
+</sp>
+<sp who='LA PYTHONISSE'><speaker>LA PYTHONISSE, à Saül.</speaker>
+<p id='3'>
+	<s id='1'>C'est donc pour vous que je forcerai la nature à interrompre le cours de ses lois éternelles ? </s>
+	<s id='2'>Combien me donnerez-vous ?</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="4">
+	<s id='1'>Un écu : et te voilà payée d'avance, vieille sorcière.</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="5">
+	<s id='1'>Vous en aurez pour votre argent. Les magiciens de Pharaon n'étaient auprès de moi que des ignorants ; ils se bornaient à changer en sang les eaux du Nil, je vais en faire davantage ; et premièrement je commande au soleil de paraître.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="6">
+	<s id='1'>En plein midi ! </s>
+	<s id='2'>Quel miracle !</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="7">
+	<s id='1'>Je vois quelque chose sur la terre.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="8">
+	<s id='1'>N'est-ce pas une ombre ?</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="9">
+	<s id='1'>Oui, une ombre.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="10">
+	<s id='1'>Comment est-elle faite ?</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="11">
+	<s id='1'>Comme une ombre.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="12">
+	<s id='1'>N'a-t-elle pas une grande barbe ?</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="13">
+	<s id='1'>Oui, un grand manteau et une grande barbe.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="14">
+	<s id='1'>Une barbe blanche ?</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="15">
+	<s id='1'>Blanche comme de la neige.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="16">
+	<s id='1'>Justement, c'est l'ombre de Samuel ; elle doit avoir l'air bien méchant ?</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="17">
+	<s id='1'>Oh ! </s>
+	<s id='2'>L'on ne change jamais de caractère : elle vous menace, elle vous fait des yeux horribles.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="18">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Je suis perdu.</s>
+</p>
+</sp>
+<sp who="BAZA"><speaker>BAZA.</speaker>
+<p id="19">
+	<s id='1'>Eh, Seigneur ! </s>
+	<s id='2'>Pouvez-vous vous amuser à ces fadaises ? </s>
+	<s id='3'>N'entendez-vous pas le son des trompettes ? </s>
+	<s id='4'>Les Philistins approchent.</s>
+</p>
+</sp>
+<sp who="SAÜL"><speaker>SAÜL.</speaker>
+<p id="20">
+	<s id='1'>Allons donc ; mais le coeur ne me dit rien de bon.</s>
+</p>
+</sp>
+<sp who="LA PYTHONISSE"><speaker>LA PYTHONISSE.</speaker>
+<p id="21">
+	<s id='1'>Au moins j'ai son argent ; mais voilà un sot capitaine.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='3'><head>ACTE III</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. première David et ses capitaines.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Saül a donc été tué, mes amis ? </s>
+	<s id='2'>Son fils Jonathas aussi ? </s>
+	<s id='3'>Et je suis roi d'une petite partie du pays légitimement ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="2">
+	<s id='1'>Oui, milord ; votre altesse royale a très bien fait de faire pendre celui qui vous a apporté la nouvelle de la mort de Saül ; car il n'est jamais permis de dire qu'un roi est mort : cet acte de justice vous conciliera tous les esprits ; il fera voir qu'au fond vous aimiez votre beau-père, et que vous êtes un bon homme.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Oui ; mais Saül laisse des enfants : Isboseth, son fils, règne déjà sur plusieurs tribus ; comment faire ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="4">
+	<s id='1'>Ne vous mettez point en peine ; je connais deux coquins qui
+doivent assassiner Isboseth, s'ils ne l'ont déjà fait ; vous les ferez
+pendre tous deux, et vous régnerez sur Juda et Israël.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>Dites-moi un peu, vous autres, Saül a-t-il laissé beaucoup d'argent ? </s>
+	<s id='2'>Serai-je bien riche ?</s>
+</p>
+</sp>
+<sp who="ABIÉZER"><speaker>ABIÉZER.</speaker>
+<note type="C">Dans les Dernières paroles d'Épictète, Voltaire répéta cette accusation dont il demanda pardon en 1771.</note>
+<p id="6">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Nous n'avons pas le sou ; vous savez qu'il y a deux ans, quand Saül fut élu roi, nous n'avions pas de quoi acheter des armes ; il n'y avait que deux sabres dans tout l'état, encore étaient-ils tout rouillés : les Philistins, dont nous avons presque tous été les esclaves, ne nous laissèrent pas dans nos chaumières seulement un morceau de fer pour raccommoder nos charrues ; aussi nos charrues nous sont-elles fort inutiles dans un mauvais pays pierreux, hérissé de montagnes pelées, où il n'y a que quelques oliviers avec un peu de raisin : nous n'avions pris au roi Agag que des boeufs, des chèvres et des moutons, parce que c'était là tout ce qu'il avait ; je ne crois pas que nous puissions trouver dix écus dans toute la Judée ; il y a quelques usuriers qui rognent les espèces à Tyr et à Damas ; mais ils se feraient empaler plutôt que de vous prêter un denier.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>S'est-on emparé du petit village de Salem et de son château ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="8">
+	<s id='1'>Oui, milord.</s>
+</p>
+</sp>
+<sp who="ABIÉZER"><speaker>ABIÉZER.</speaker>
+<p id="9">
+	<s id='1'>J'en suis fâché, cette violence peut décrier notre nouveau gouvernement. </s>
+	<s id='2'>Salem appartient de tout temps aux Jébuséens, avec qui nous ne sommes point en guerre ; c'est un lieu saint ; car Melchisédech était autrefois roi de ce village.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="10">
+	<s id='1'>Il n'y a point de Melchisédech qui tienne : j'en ferai une bonne forteresse ; je l'appellerai Hérus-Chalaïm ; ce sera le lieu de ma résidence ; nos enfants seront multipliés comme le sable de la mer, et nous régnerons sur le monde entier.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="11">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Seigneur, vous n'y pensez pas ! cet endroit est une espèce de désert, où il n'y a que des cailloux à deux lieues à la ronde. </s>
+	<s id='3'>On y manque d'eau ; il n'y a qu'un petit malheureux torrent de Cédron qui est à sec six mois de l'année : que n'allons-nous plutôt sur les grands chemins de Tyr, vers Damas, vers Babylone ? </s>
+	<s id='4'>Il y aurait là de beaux coups à faire.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="12">
+	<s id='1'>Oui, mais tous les peuples de ce pays-là sont puissants, nous risquerions de nous faire pendre : enfin, le Seigneur m'a donné Hérus-Chalaïm, j'y demeurerai, et j'y louerai le Seigneur.</s>
+</p>
+</sp>
+<sp who='UN MESSAGER'><speaker>UN MESSAGER.</speaker>
+<p id='13'>
+	<s id='1'>Milord, deux de vos serviteurs viennent d'assassiner Isboseth, qui avait l'insolence de vouloir succéder à son père, et de vous disputer le trône ; on l'a jeté par les fenêtres ; il nage dans son sang ; les tribus qui lui obéissaient ont fait serment de vous obéir, et l'on vous amène sa soeur Michol votre femme, qui vous avait abandonné, et qui venait de se marier à Phaltiel, fils de Saïs.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="14">
+	<s id='1'>On aurait mieux fait de la laisser avec lui ; que veut-on que je fasse de cette bégueule-là ? </s>
+	<s id='2'>Allez, mon cher Joab, qu'on l'enferme ; allez, mes amis, allez saisir tout ce que possédait Isboseth, apportez-le-moi, nous le partagerons ; vous, Joab, ne manquez pas de faire pendre ceux qui m'ont délivré d'Isboseth, et qui m'ont rendu ce signalé service ; marchez tous devant le Seigneur avec confiance ; j'ai ici quelques petites affaires un peu pressées : je vous rejoindrai dans peu de temps pour rendre tous ensemble des actions de grâces au Dieu des armées qui a donné la force à mon bras, et qui a mis sous mes pieds le basilic et le dragon.</s>
+</p>
+</sp>
+<sp who='TOUS LES CAPITAINES'><speaker>TOUS LES  CAPITAINES ensemble.</speaker>
+<note type="C">C'est le cri de joie de la populace anglaise ; les hébreux criaient allek eudi ah ! et par corruption hi ha y ah. </note>
+<p id='15'>
+	<s id='1'>Huzza ! </s>
+	<s id='2'>Huzza ! </s>
+	<s id='3'>Longue vie à David, notre bon roi, l'oint du Seigneur, le père de son peuple.</s>
+</p>
+<stage>Ils sortent.</stage>
+</sp>
+<sp who='DAVID'><speaker>DAVID, à un des siens.</speaker>
+<p id='16'>
+	<s id='1'>Faites entrer Bethsabée.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. David, Bethsabée.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Ma chère Bethsabée, je ne veux plus aimer que vous : vos dents sont comme un mouton qui sort du lavoir ; votre gorge est comme une grappe de raisin, votre nez comme la tour du mont Liban ; le royaume que le Seigneur m'a donné ne vaut pas un de vos embrassements : Michol, Abigail, et toutes mes autres femmes, sont dignes tout au plus d'être vos servantes.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="2">
+	<s id='1'>Hélas, milord ! </s>
+	<s id='2'>Vous en disiez ce matin autant à la jeune Abigail.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Il est vrai, elle peut me plaire un moment ; mais vous êtes ma maîtresse de toutes les heures ; je vous donnerai des robes, des vaches, des chèvres, des moutons ; car pour de l'argent, je n'en ai point encore ; mais vous en aurez quand j'en aurai volé dans mes courses sur les grands chemins, soit vers le pays des Phéniciens, soit vers Damas, soit vers Tyr. </s>
+	<s id='2'>Qu'avez-vous, ma chère Bethsabée ? </s>
+	<s id='3'>Vous pleurez ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="4">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Oui, milord.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>Quelqu'une de mes femmes ou de mes concubines a-t-elle osé vous maltraiter ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="6">
+	<s id='1'>Non.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>Quel est donc votre chagrin ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="8">
+	<s id='1'>Milord, je suis grosse ; mon mari Urie n'a pas couché avec moi depuis un mois ; et s'il s'aperçoit de ma grossesse, je crains d'être battue.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="9">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Que ne l'avez-vous fait coucher avec vous ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="10">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>J'ai fait ce que j'ai pu ; mais il me dit qu'il veut toujours rester auprès de vous : vous savez qu'il vous est tendrement attaché ; c'est un des meilleurs officiers de votre armée ; il veille auprès de votre personne quand les autres dorment ; il se met au-devant de vous quand les autres lâchent le pied ; s'il fait quelque bon butin, il vous l'apporte : enfin, il vous préfère à moi.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="11">
+	<s id='1'>Voilà une insupportable chenille : rien n'est si odieux que ces gens empressés, qui veulent toujours rendre service sans en être priés : allez, allez, je vous déferai bientôt de cet importun : qu'on me donne une table et des tablettes pour écrire.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="12">
+	<s id='1'>Milord, pour des tables, vous savez qu'il n'y en a point ici ; mais voici mes tablettes avec un poinçon, vous pouvez écrire sur mes genoux.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="13">
+	<s id='1'>Allons, écrivons : « Appui de ma couronne, comme moi serviteur de Dieu, notre féal Urie vous rendra cette missive : marchez avec lui, sitôt cette présente reçue, contre le corps des Philistins qui est au bout de la vallée d'Hébron ; placez le féal Urie au premier rang, abandonnez-le dès qu'on aura tiré la première flèche, de façon qu'il soit tué par les ennemis ; et s'il n'est pas frappé par-devant, ayez soin de le faire assassiner parderrière ; le tout pour le besoin de l'état : Dieu vous ait en sa sainte garde ! </s>
+	<s id='2'>Votre bon roi David. »</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="14">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Bon Dieu ! </s>
+	<s id='3'>Vous voulez faire tuer mon pauvre mari ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="15">
+	<s id='1'>Ma chère enfant, ce sont de ces petites sévérités auxquelles on est quelquefois obligé de se prêter ; c'est un petit mal pour un grand bien, uniquement dans l'intention d'éviter le scandale.</s> 
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="16">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Votre servante n'a rien à répliquer ; soit fait selon votre parole.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="17">
+	<s id='1'>Qu'on m'appelle le bonhomme Urie.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="18">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Que voulez-vous lui dire ? </s>
+	<s id='3'>Pourrai-je soutenir sa présence ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id='19'>
+	<s id='1'>Ne vous troublez pas.</s>
+</p>
+<stage>À Urie qui entre.</stage>
+<p id='20'>
+	<s id='1'>Tenez, mon cher Urie, portez cette lettre à mon capitaine Joab, et méritez toujours les bonnes grâces de l'oint du Seigneur.</s>
+</p>
+</sp>
+<sp who="URIE"><speaker>URIE.</speaker>
+<p id="21">
+	<s id='1'>J'obéis avec joie à ses commandements ; mes pieds, mon bras, ma vie, sont à son service : je voudrais mourir pour lui prouver mon zèle.</s>
+</p>
+</sp>
+<sp who='DAVID'><speaker>DAVID, en l'embrassant.</speaker>
+<p id='22'>
+	<s id='1'>Vous serez exaucé, mon cher Urie.</s>
+</p>
+</sp>
+<sp who="URIE"><speaker>URIE.</speaker>
+<p id="23">
+	<s id='1'>Adieu, ma chère Bethsabée ; soyez toujours aussi attachée que moi à notre maître.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="24">
+	<s id='1'>C'est ce que je fais, mon bon mari.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="25">
+	<s id='1'>Demeurez ici, ma bien-aimée ; je suis obligé d'aller donner des ordres à peu près semblables, pour le bien du royaume ; je reviens à vous dans un moment.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="26">
+	<s id='1'>Non, cher amant, je ne vous quitte pas.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="27">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Je veux bien que les femmes soient maîtresses au lit : mais partout ailleurs je veux qu'elles obéissent.</s>
+</p>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='4'><head>ACTE IV</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE. Bethsabée, Abigail.</head>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="1">
+	<s id='1'>Bethsabée, Bethsabée, c'est donc ainsi que vous m'enlevez le coeur de monseigneur ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="2">
+	<s id='1'>Vous voyez que je ne vous enlève rien, puisqu'il me quitte, et que je ne peux l'arrêter.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="3">
+	<s id='1'>Vous ne l'arrêtez que trop, perfide, dans les filets de votre méchanceté : tout Israël dit que vous êtes grosse de lui.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="4">
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Quand cela serait, madame, est-ce à vous à me le reprocher ? </s>
+	<s id='3'>N'en avez-vous pas fait autant ?</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="5">
+	<s id='1'>Cela est bien différent, madame ; j'ai l'honneur d'être son épouse.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="6">
+	<s id='1'>Voilà un plaisant mariage ; on sait que vous avez empoisonné Nabal votre mari, pour épouser David, lorsqu'il n'était encore que capitaine.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="7">
+	<s id='1'>Point de reproches, madame, s'il vous plaît ; vous en feriez bien autant du bonhomme Urie, pour devenir reine ; mais sachez que je vais tout lui découvrir.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="8">
+	<s id='1'>Je vous en défie.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="9">
+	<s id='1'>C'est-à-dire que la chose est déjà faite.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="10">
+	<s id='1'>Quoi qu'il en soit, je serai votre reine, et je vous apprendrai à me respecter.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="11">
+	<s id='1'>Moi, vous respecter, madame !</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="12">
+	<s id='1'>Oui, madame.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="13">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Madame, la Judée produira du froment au lieu de seigle, et on aura des chevaux au lieu d'ânes pour monter, avant que je sois réduite à cette ignominie : il appartient bien à une femme comme vous de faire l'impertinente avec moi !</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="14">
+	<s id='1'>Si je m'en croyais, une paire de soufflets...</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="15">
+	<s id='1'>Ne vous en avisez pas, madame ; j'ai le bras bon, et je vous rosserais d'une manière...</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. David, Bethsabée, Abigail.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Paix-là donc, paix-là : êtes-vous folles, vous autres ? </s>
+	<s id='2'>Il est bien question de vous quereller, quand l'horreur des horreurs est sur ma maison.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="2">
+	<s id='1'>Quoi donc, mon cher amant ! </s>
+	<s id='2'>Qu'est-il arrivé ?</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="3">
+	<s id='1'>Mon cher mari, y a-t-il quelque nouveau malheur ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="4">
+	<s id='1'>Voilà-t-il pas que mon fils Ammon, que vous connaissez, s'est avisé de violer sa soeur Thamar, et l'a ensuite chassée de sa chambre à grands coups de pied dans le cul !</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="5">
+	<s id='1'>Quoi donc ! </s>
+	<s id='2'>N'est-ce que cela ? </s>
+	<s id='3'>Je croyais à votre air effaré qu'il vous avait volé votre argent.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Ce n'est pas tout ; mon autre fils Absalon, quand il a vu cette tracasserie, s'est mis à tuer mon fils Ammon : je me suis fâché contre mon fils Absalon ; il s'est révolté contre moi, m'a chassé de ma ville de Hérus-Chalaïm, et me voilà sur le pavé.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="7">
+	<s id='1'>Oh ! </s>
+	<s id='2'>Ce sont des choses sérieuses cela.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="8">
+	<s id='1'>La vilaine famille que la famille de David ! </s>
+	<s id='2'>Tu n'as donc plus rien, brigand ? </s>
+	<s id='3'>Ton fils est oint à ta place.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="9">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>Oui ; et, pour preuve qu'il est oint, il a couché sur la terrasse du fort avec toutes mes femmes l'une après l'autre.</s>
+</p>
+</sp>
+<sp who="ABIGAIL"><speaker>ABIGAIL.</speaker>
+<p id="10">
+	<s id='1'>Ô ciel ! </s>
+	<s id='2'>Que n'étais-je là ! </s>
+	<s id='3'>J'aurais bien mieux aime coucher avec ton fils Absalon qu'avec toi, vilain voleur, que j'abandonne à jamais : il a des cheveux qui lui vont jusqu'à la ceinture, et dont il vend des rognures pour deux cents écus par an, au moins : il est jeune, il est aimable, et tu n'es qu'un barbare débauché, qui te moques de Dieu, des hommes, et des femmes : va, je renonce désormais à toi, et je me donne à ton fils Absalon, ou au premier Philistin que je rencontrerai.</s>
+</p>
+<stage>À Bethsabée, en lui faisant la révérence.</stage>
+<p id='11'>
+	<s id='1'>Adieu, madame.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="12">
+	<s id='1'>Votre servante, madame.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. David, Bethsabée.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Voilà donc cette Abigail que j'avais crue si douce ! </s>
+	<s id='2'>Ah ! </s>
+	<s id='3'>Qui compte sur une femme, compte sur le vent : et vous, ma chère Bethsabée, m'abandonnerez-vous aussi ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="2">
+	<s id='1'>Hélas ! </s>
+	<s id='2'>C'est ainsi que finissent tous les mariages de cette espèce : que voulez-vous que je devienne si votre fils Absalon règne ? </s>
+	<s id='3'>Et si Urie, mon mari, sait que vous avez voulu l'assassiner, vous voilà perdu et moi aussi.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Ne craignez rien ; Urie est dépêché ; mon ami Joab est expéditif.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="4">
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Mon pauvre mari est donc assassiné ? hi, hi, hi. </s>
+</p>
+<stage>Elle pleure.</stage>
+<p id='5'>
+	<s id='1'>Ho, hi, ha.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Vous pleurez le bonhomme ?</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="7">
+	<s id='1'>Je ne peux m'en empêcher.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="8">
+	<s id='1'>La sotte chose que les femmes ! Elles souhaitent la mort de leurs maris, elles la demandent ; et, quand elles l'ont obtenue, elles se mettent à pleurer.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="9">
+	<s id='1'>Pardonnez cette petite cérémonie.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='6'><head>SCÈNE IV. David, Bethsabée, Joab.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Eh bien ! </s>
+	<s id='2'>Joab, en quel état sont les choses ? </s>
+	<s id='3'>Qu'est devenu ce coquin d'Absalon ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="2">
+	<s id='1'>Par Sabaoth, je l'ai envoyé avec Urie ; je l'ai trouvé qui pendait à un arbre par les cheveux, et je l'ai bravement percé de trois dards.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Absalon mon fils ! </s>
+	<s id='3'>Hi, hi, ho, ho, hi.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="4">
+	<s id='1'>Voilà-t-il pas que vous pleurez votre fils comme j'ai pleuré mon mari ! </s>
+	<s id='2'>Chacun a sa faiblesse.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>On ne peut pas dompter tout à fait la nature, quelque juif qu'on soit ; mais cela passe, et le train des affaires emporte bien vite ailleurs.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='5'><head>SCÈNE V. David, Bethsabée, Joab, Le Prophète Nathan.</head>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="1">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Voilà Nathan le voyant, Dieu me pardonne ! </s>
+	<s id='3'>Que vient-il faire ici ?</s>
+</p>
+</sp>
+<sp who="NATHAN"><speaker>NATHAN.</speaker>
+<p id="2">
+	<s id='1'>Sire, écoutez et jugez : Il y avait un riche qui possédait cent brebis, et il y avait un pauvre qui n'en avait qu'une ; le riche a pris la brebis, et a tué le pauvre : que faut-il faire du riche ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Certainement il faut qu'il rende quatre brebis.</s>
+</p>
+</sp>
+<sp who="NATHAN"><speaker>NATHAN.</speaker>
+<p id="4">
+	<s id='1'>Sire, vous êtes le riche, Urie était le pauvre, et Bethsabée est la brebis.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="5">
+	<s id='1'>Moi, brebis !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="6">
+	<s id='1'>Ah ! </s>
+	<s id='2'>J'ai péché, j'ai péché, j'ai péché.</s>
+</p>
+</sp>
+<sp who="NATHAN"><speaker>NATHAN.</speaker>
+<p id="7">
+	<s id='1'>Bon, puisque vous l'avouez, le Seigneur va transférer votre péché : c'est bien assez qu'Absalon ait couché avec toutes vos femmes : épousez la belle Bethsabée ; un des fils que vous aurez d'elle régnera sur tout Israël : je le nommerai aimable, et les enfants des femmes légitimes et honnêtes seront massacrés.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="8">
+	<s id='1'>Par Adonaï, tu es un charmant prophète ; viens çà que je t'embrasse.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="9">
+	<s id='1'>Eh ! </s>
+	<s id='2'>La, la, doucement : qu'on donne à boire au prophète ; réjouissons-nous, nous autres : allons, puisque tout va bien, je veux faire des chansons gaillardes ; qu'on me donne ma harpe.</s>
+</p>
+<stage>Il joue de la harpe.</stage>
+	<l id='1'>Chers Hébreux, par le ciel envoyés,</l>
+	<l id='2'>Dans le sang vous baignerez vos pieds ;</l>
+	<l id='3'>Et vos chiens s'engraisseront</l>
+	<l id='4'>De ce sang qu'ils lécheront.</l>
+	<l id='5'>Ayez soin, mes chers amis,</l>
+	<l id='6'>De prendre tous les petits</l>
+	<l id='7'>Encore à la mamelle ;</l>
+	<l id='8'>Vous écraserez leur cervelle</l>
+	<l id='9'>Contre le mur de l'infidèle ;</l>
+	<l id='10'>Et vos chiens s'engraisseront</l>
+	<l id='11'>De ce sang qu'ils lécheront.</l>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="10">
+	<s id='1'>Sont-ce là vos chansons gaillardes ?</s>
+</p>
+</sp>
+<sp who='DAVID'><speaker>DAVID, en chantant et dansant.</speaker>
+	<l id='12'>Et vos chiens s'engraisseront</l>
+	<l id='13'>De ce sang qu'ils lécheront.</l>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="11">
+	<s id='1'>Finissez donc vos airs de corps-de-garde ; cela est abominable : il n'y a point de sauvage qui voulût chanter de telles horreurs : les bouchers des peuples de Gog et de Magog en auraient honte.</s>
+</p>
+</sp>
+<sp who='DAVID'><speaker>DAVID, toujours sautant.</speaker>
+	<l id='14'>Et les chiens s'engraisseront</l>
+	<l id='15'>De ce sang qu'ils lécheront.</l>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="12">
+	<s id='1'>Je m'en vais, si vous continuez à chanter ainsi, et à sauter comme un ivrogne : vous montrez tout ce que vous portez : fi ! </s>
+	<s id='2'>Quelles manières !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="13">
+	<s id='1'>Je danserai, oui, je danserai ; je serai encore plus méprisable, je danserai devant des servantes ; je montrerai tout ce que je porte, et ce me sera gloire devant les filles.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="14">
+	<s id='1'>À présent que vous avez bien dansé, il faudrait mettre ordre à vos affaires.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="15">
+	<s id='1'>Oui, vous avez raison, il y a temps pour tout : retournons à Hérus-Chalaïm.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="16">
+	<s id='1'>Vous aurez toujours la guerre ; il faudrait avoir quelque argent de réserve, et savoir combien vous avez de sujets qui puissent marcher en campagne, et combien il en restera pour la culture des terres.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="17">
+	<s id='1'>Le conseil est très sensé : allons, Bethsabée, allons régner, m'amour.</s>
+</p>
+<stage>Il danse, il chante.</stage>
+	<l id='16'>Et les chiens s'engraisseront</l>
+	<l id='17'>De ce sang qu'ils lécheront.</l>
+</sp>
+</div2>
+</div1>
+<div1 type='acte' n='5'><head>ACTE V</head>
+<div2 type='scene' n='1'><head>SCÈNE PREMIÈRE.</head>
+<sp who='DAVID'><speaker>DAVID, assis devant une table, ses OFFICIERS autour de lui.</speaker>
+<p id="1">
+	<s id='1'>Six cent quatre-vingt-quatorze schellings et demi d'une part, et de l'autre cent treize un quart, font huit cent sept schellings trois quarts : c'est donc là tout ce qu'on a trouvé dans mon trésor ; il n'y a pas là de quoi payer une journée à mes gens.</s>
+</p>
+</sp>
+<sp who='UN CLERC DE LA TRÉSORERIE'><speaker>UN CLERC DE LA TRÉSORERIE.</speaker>
+<p id='2'>
+	<s id='1'>Milord, le temps est dur.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Et vous l'êtes encore bien davantage : il me faut de l'argent, entendez-vous ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="4">
+	<s id='1'>Milord, votre altesse royale est volée comme tous les autres rois : les gens de l'échiquier, les fournisseurs de l'armée, pillent tous ; ils font bonne chère à nos dépens, et le soldat meurt de faim.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>Je les ferai scier en deux ; en effet, aujourd'hui nous avons fait la plus mauvaise chère du monde.</s>
+</p>
+<note type="C">C'est ainsi que le saint roi David en usait avec tous ses prisonniers, excepté quand il les faisait cuire dans des fours.</note>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="6">
+	<s id='1'>Cela n'empêche pas que ces fripons-là ne vous comptent tous les jours pour votre table trente boeufs gras, cent moutons gras, autant de cerfs, de chevreuils, de boeufs sauvages, et de chapons ; trente tonneaux de fleur de farine, et soixante tonneaux de farine ordinaire.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>Arrêtez donc, vous voulez rire ; il y aurait là de quoi nourrir six mois toute la cour du roi d'Assyrie, et toute celle du roi des Indes.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="8">
+	<s id='1'>Rien n'est pourtant plus vrai ; car cela est écrit dans vos livres.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="9">
+	<s id='1'>Quoi ! </s>
+	<s id='2'>Tandis que je n'ai pas de quoi payer mon boucher ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="10">
+	<s id='1'>C'est qu'on vole votre altesse royale, comme j'ai déjà eu l'honneur de vous le dire.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="11">
+	<s id='1'>Combien crois-tu que je doive avoir d'argent comptant entre les mains de mon contrôleur-général ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="12">
+	<s id='1'>Milord, vos livres font foi que vous avez cent huit mille talents d'or, deux millions vingt-quatre mille talents d'argent, et dix mille drachmes d'or ; ce qui fait au juste, au plus bas prix du change, un milliard trois cent vingt millions cinquante mille livres sterling.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="13">
+	<s id='1'>Tu es fou, je pense : toute la terre ne pourrait fournir le quart de ces richesses : comment veux-tu que j'aie amassé ce trésor dans un aussi petit pays qui n'a jamais fait le moindre commerce ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="14">
+	<s id='1'>Je n'en sais rien, je ne suis pas financier.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="15">
+	<s id='1'>Vous ne me dites que des sottises tous tant que vous êtes : je saurai mon compte avant qu'il soit peu ; et vous, Yesès, a-t-on fait le dénombrement du peuple ?</s>
+</p>
+</sp>
+<sp who="YESÈS"><speaker>YESÈS.</speaker>
+<p id="16">
+	<s id='1'>Oui, milord, vous avez onze cent mille hommes d'Israël, et quatre cent soixante-dix mille de Juda, d'enrôlés pour marcher contre vos ennemis.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="17">
+	<s id='1'>Comment ! </s>
+	<s id='2'>J'aurais quinze cent soixante-dix mille hommes sous les armes ? </s>
+	<s id='3'>Cela est difficile dans un pays qui, jusqu'à présent, n'a pu nourrir trente mille âmes : à ce compte, en prenant un soldat par dix personnes, cela ferait quinze millions sept cent mille sujets dans mon empire : celui de Babylone n'en a pas tant.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="18">
+	<s id='1'>C'est là le miracle.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="19">
+	<s id='1'>Ah ! </s>
+	<s id='2'>Que de balivernes ! </s>
+	<s id='3'>Je veux savoir absolument combien j'ai de sujets ; on ne m'en fera pas accroire ; je ne crois pas que nous soyons trente mille.</s>
+</p>
+</sp>
+<sp who='UN OFFICIER'><speaker>UN OFFICIER.</speaker>
+<p id="20">
+	<s id='1'>Voilà votre chapelain ordinaire, le révérend docteur Gag, qui vient de la part du Seigneur parler à votre altesse royale.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="21">
+	<s id='1'>On ne peut pas prendre plus mal son temps ; mais qu'il entre.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='2'><head>SCÈNE II. David, Les Officiers, Le docteur Gag.</head>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="1">
+	<s id='1'>Que voulez-vous, docteur Gag ?</s>
+</p>
+</sp>
+<sp who="GAG"><speaker>GAG.</speaker>
+<p id="2">
+	<s id='1'>Je viens vous dire que vous avez commis un grand péché.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="3">
+	<s id='1'>Comment ? </s>
+	<s id='2'>En quoi ? </s>
+	<s id='3'>S'il vous plaît.</s>
+</p>
+</sp>
+<sp who="GAG"><speaker>GAG.</speaker>
+<p id="4">
+	<s id='1'>En faisant faire le dénombrement du peuple.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>Que veux-tu donc dire, fou que tu es ? </s>
+	<s id='2'>Y a-t-il une opération plus sage et plus utile que de savoir le nombre de ses sujets ? </s>
+	<s id='3'>Un berger n'est-il pas obligé de savoir le compte de ses moutons ?</s>
+</p>
+</sp>
+<sp who="GAG"><speaker>GAG.</speaker>
+<p id="6">
+	<s id='1'>Tout cela est bel et bon ; mais Dieu vous donne à choisir de la famine, de la guerre, ou de la peste.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>Prophète de malheur, je veux au moins que tu puisses être puni de ta belle mission : j'aurais beau faire choix de la famine, vous autres prêtres, vous faites toujours bonne chère ; si je prends la guerre, vous n'y allez pas : je choisis la peste ; j'espère que tu l'auras, que tu crèveras comme tu le mérites.</s>
+</p>
+</sp>
+<sp who="GAG"><speaker>GAG.</speaker>
+<p id="8">
+	<s id='1'>Dieu soit béni ! </s>
+</p>
+<stage>Il s'en va criant, la peste, la peste, et tout le monde crie, la peste, la peste.</stage>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="9">
+	<s id='1'>Je ne comprends rien à tout cela : comment ! </s>
+	<s id='2'>La peste, pour avoir fait son compte ?</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='3'><head>SCÈNE III. David, Les Officiers, Bethsabée, Salomon.</head>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="1">
+	<s id='1'>Eh ! </s>
+	<s id='2'>Milord ! </s>
+	<s id='3'>Il faut que vous ayez le diable dans le corps pour choisir la peste ; il est mort sur le champ soixante-dix mille personnes, et je crois que j'ai déjà le charbon : je tremble pour moi et pour mon fils Salomon, que je vous amène.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="2">
+	<s id='1'>J'ai pis que le charbon, je suis las de tout ceci : il faut donc que j'aie plus de pestiférés que de sujets : écoutez, je deviens vieux, vous n'êtes plus belle ; j'ai toujours froid aux pieds, il me faudrait une fille de quinze ans pour me réchauffer.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="3">
+	<s id='1'>Parbleu, milord, j'en connais une qui sera votre fait ; elle s'appelle Abisag de Sunam.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="4">
+	<s id='1'>Qu'on me l'amène, qu'on me l'amène, qu'elle m'échauffe.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="5">
+	<s id='1'>En vérité, vous êtes un vilain débauché : fi ! </s>
+	<s id='2'>À votre âge, que voulez-vous faire d'une petite fille ?</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="6">
+	<s id='1'>Milord, la voilà qui vient, je vous la présente.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>Viens çà, petite fille, me réchaufferas-tu bien ?</s>
+</p>
+</sp>
+<sp who="ABISAG"><speaker>ABISAG.</speaker>
+<p id="8">
+	<s id='1'>Oui-dà, milord, j'en ai bien réchauffé d'autres.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="9">
+	<s id='1'>Voilà donc comme tu m'abandonnes ; tu ne m'aimes plus ! </s>
+	<s id='2'>Et que deviendra mon fils Salomon, à qui tu avais promis ton héritage ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="10">
+	<s id='1'>Oh ! </s>
+	<s id='2'>Je tiendrai ma parole ; c'est un petit garçon qui est tout-à-fait selon mon coeur, il aime déjà les femmes comme un fou : approche, petit drôle, que je t'embrasse : je te fais roi, entends-tu ?</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="11">
+	<s id='1'>Milord, j'aime bien mieux apprendre à régner sous vous.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="12">
+	<s id='1'>Voilà une jolie réponse ; je suis très content de lui : va, tu régneras bientôt, mon enfant ; car je sens que je m'affaiblis ; les femmes ont ruiné ma santé ; mais tu auras encore un plus beau sérail que moi.</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="13">
+	<s id='1'>J'espère m'en tirer à mon honneur.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="14">
+	<s id='1'>Que mon fils a d'esprit ! </s>
+	<s id='2'>Je voudrais qu'il fût déjà sur le trône.</s>
+</p>
+</sp>
+</div2>
+<div2 type='scene' n='4'><head>SCÈNE IV. David, Les Officiers, Bethsabée, Salomon, Adonias.</head>
+<sp who='ADONIAS'><speaker>ADONIAS.</speaker>
+<p id='1'>
+	<s id='1'>Mon père, je viens me jeter à vos pieds.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="2">
+	<s id='1'>Ce garçon-là ne m'a jamais plu.</s>
+</p>
+</sp>
+<sp who="ADONIAS"><speaker>ADONIAS.</speaker>
+<p id="3">
+	<s id='1'>Mon père, j'ai deux grâces à vous demander : la première, c'est de vouloir bien me nommer votre successeur, attendu que je suis le fils d'une princesse, et que Salomon est le fruit d'une bourgeoise adultère, auquel il n'est dû, par la loi, qu'une pension alimentaire, tout au plus : ne violez pas en sa faveur les lois de toutes les nations.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="4">
+	<s id='1'>Ce petit oursin-là mériterait bien qu'on le jetât par la fenêtre.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="5">
+	<s id='1'>Vous avez raison. Quelle est l'autre grâce que tu veux, petit misérable ?</s>
+</p>
+</sp>
+<sp who="ADONIAS"><speaker>ADONIAS.</speaker>
+<p id="6">
+	<s id='1'>Milord, c'est la jeune Abisag de Sunam qui ne vous sert à rien ; je l'aime éperdument, et je vous prie de me la donner par testament.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="7">
+	<s id='1'>Ce coquin-là me fera mourir de chagrin ; je sens que je m'affaiblis, je n'en puis plus : réchauffez-moi un peu, Abisag.</s>
+</p>
+<stage>Adonias sort.</stage>
+</sp>
+<sp who='ABISAG'><speaker>ABISAG, lui prenant la main.</speaker>
+<p id='8'>
+	<s id='1'>Je fais ce que je peux, mais vous êtes froid comme glace.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="9">
+	<s id='1'>Je sens que je me meurs ; qu'on me mette sur mon lit de repos.</s>
+</p>
+</sp>
+<sp who='SALOMON'><speaker>SALOMON, se jetant à ses pieds.</speaker>
+<p id='10'>
+	<s id='1'>Ô roi ! </s>
+	<s id='2'>Vivez longtemps.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="11">
+	<s id='1'>Puisse-t-il mourir tout à l'heure, le vilain ladre, et nous laisser régner en paix !</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<note type="C">Salomon fit assassiner Adonias son frère.</note>
+<p id="12">
+	<s id='1'>Ma dernière heure arrive, il faut faire mon testament, et pardonner en bon Juif à tous mes ennemis : Salomon, je vous fais roi juif ; souvenez-vous d'être clément et doux ; ne manquez pas, dès que j'aurai les yeux fermés, d'assassiner mon fils Adonias, quand même il embrasserait les cornes de l'autel.</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="13">
+	<s id='1'>Quelle sagesse ! </s>
+	<s id='2'>Quelle bonté d'âme ! </s>
+	<s id='3'>Mon père, je n'y manquerai pas, sur ma parole.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="14">
+	<s id='1'>Voyez-vous ce Joab qui m'a servi dans mes guerres, et à qui je dois ma couronne ? </s>
+	<s id='2'>Je vous prie, au nom du Seigneur, de le faire assassiner aussi, car il a mis du sang dans mes souliers.</s>
+</p>
+</sp>
+<sp who="JOAB"><speaker>JOAB.</speaker>
+<p id="15">
+	<s id='1'>Comment, monstre ! </s>
+	<s id='2'>Je t'étranglerai de mes mains ; va, va, je ferai bien casser ton testament, et ton Salomon verra quel homme je suis.</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="16">
+	<s id='1'>Est-ce tout, mon cher père ? </s>
+	<s id='2'>N'avez-vous plus personne à expédier ?</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="17">
+	<s id='1'>J'ai la mémoire mauvaise : attendez, il y a encore un certain Semeï qui m'a dit autrefois des sottises ; nous nous raccommodâmes ; je lui jurai,
+	
+	
+	
+	1 par le Dieu vivant, que je lui pardonnerais ; il m'a très bien servi, il est de mon conseil privé ; vous êtes sage, ne manquez pas de le faire tuer en traître.</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="18">
+	<s id='1'>Votre volonté sera exécutée, mon cher père.</s>
+</p>
+</sp>
+<sp who="DAVID"><speaker>DAVID.</speaker>
+<p id="19">
+	<s id='1'>Va, tu seras le plus sage des rois, et le Seigneur te donnera mille femmes pour récompense : je me meurs ! </s>
+	<s id='2'>Que je t'embrasse encore ! </s>
+	<s id='3'>Adieu.</s>
+</p>
+</sp>
+<sp who="BETHSABÉE"><speaker>BETHSABÉE.</speaker>
+<p id="20">
+	<s id='1'>Dieu merci, nous en voilà défaits.</s>
+</p>
+</sp>
+<sp who='UN OFFICIER'><speaker>UN OFFICIER.</speaker>
+<p id='21'>
+	<s id='1'>Allons vite enterrer notre bon roi David.</s>
+</p>
+</sp>
+<sp who='TOUS ENSEMBLE'><speaker>TOUS ENSEMBLE.</speaker>
+<p id='22'>
+	<s id='1'>Notre bon roi David, le modèle des princes, l'homme selon le coeur du Seigneur !</s>
+</p>
+</sp>
+<sp who='ABISAG'><speaker>ABISAG.</speaker>
+<p id='23'>
+	<s id='1'>Que deviendrai-je, moi ? qui réchaufferai-je ?</s>
+</p>
+</sp>
+<sp who="SALOMON"><speaker>SALOMON.</speaker>
+<p id="24">
+	<s id='1'>Viens çà, viens çà, tu seras plus contente de moi que de mon bonhomme de père.</s>
+</p>
+</sp>
+</div2>
+</div1>
+</body>
+</text>
+</TEI.2>
