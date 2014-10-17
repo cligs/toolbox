@@ -1,7 +1,11 @@
-# four2txt.py
-# Script to extract selected text from several TEI P4 documents, particularly plays, and save them to new TXT files. 
-# Relies on "lxml" for parsing the TEI file, on XPath for selecting parts of the TEI file, and on "re" for text cleanup. 
-# Note: the solution used does not support namespaces and will be incompatible with valid TEI P5; in these cases, use tei2txt.py.
+#!/usr/bin/env python3
+# Filename: four2txt.py
+
+"""
+ Script to extract selected text from several TEI P4 documents, particularly plays, and save them to new TXT files. 
+ Relies on "lxml" for parsing the TEI file, on XPath for selecting parts of the TEI file, and on "re" for text cleanup. 
+ Note: the solution used does not support namespaces and will be incompatible with valid TEI P5; in these cases, use tei2txt.py.
+"""
 
 ###############################
 # Overview of functions
@@ -29,14 +33,17 @@ from lxml import etree
 import re
 import glob
 import os
+import time
 
 ###############################
 # Actual text processing
 ###############################
 
-def tei2txt(file): 
+def tei2txt(file, outputfolder): 
     """Load TEI files from folder, extract selected text, save to new TXT files""" 
-    print(file)
+    if not os.path.exists(outputfolder):
+        os.makedirs(outputfolder)
+    #print(file)
     xmltree = etree.parse(file)                          # Loads and parses the XML input file.
 #   namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
     
@@ -56,20 +63,25 @@ def tei2txt(file):
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (activate if useful)    
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)    
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful) 
-    txtoutput = "txt/" + file[5:-4] + ".txt"           # Builds filename for outputfile from original filenames but correct extension.
-    with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
+    
+    basename = os.path.basename(file)
+    newfilename = basename[:-4] + ".txt"           # Builds filename for outputfile from original filenames but correct extension.
+    print(outputfolder, newfilename)
+    with open(os.path.join(outputfolder, newfilename), "w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
+    
 
 ###############################
 # Main
 ###############################
 
-def main(inputpath): 
+def main(inputpath, outputfolder): 
     numberoffiles = 0
     for file in glob.glob(inputpath): 
-        tei2txt(file)
+        tei2txt(file,outputfolder)
         numberoffiles +=1
     print("total number of files treated: " + str(numberoffiles))
+    time.sleep(5)
         
 
-main('./tei/*.xml')                                    # Enter absolute or relative path to folder with XML files and define filename filter.
+main('./1_tei/*.xml', '2_txt')                                    # Enter absolute or relative path to folder with XML files and define filename filter.
