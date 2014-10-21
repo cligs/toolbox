@@ -9,7 +9,8 @@
 # Overview of functions
 ###############################
 
-# 1. Start the following routine for all .txt files in a folder.
+# Assumes there is a folder of plain text files, this script and a CSV file with metadata all in one folder.
+# Starts the following routine for all .txt files in a folder.
 # 2. Read CSV file with metadata
 # 2. Construct a new filename based on selected metadata from CSV file.
 # 3. Give each file the new filename.
@@ -19,10 +20,8 @@
 # User settings
 ###############################
 
-# The script assumes you have plain text files, this script and a CSV file with metadata all in one folder.
-# 1. Adapt the filename filter
-# 2. Modify the filename of the metadata file as needed
-# 3. Indicate which metadata should be selected and in which order it should be used to build the new filename.
+# 1. Adapt the inputfolder, metadatafile and outputfolder as needed.
+# 2. Select metadata items and their order for new filename.
 
 
 ###############################
@@ -39,37 +38,48 @@
 import glob
 import pandas
 import os
+import time
 
 
 ###############################
 # File renaming
 ###############################
 
-def transnomino(file,metadatafile):
-    """Read filenames for several files in a given folder and for each filename, construct a new filename based on selected metadata from CSV file."""
-    idno = file[-9:-4]
-    #print(idno)
+def rename_files(file,metadatafile,outputfolder):
+    """Renames files based on metadata from a CSV file."""
+    filename = os.path.basename(file)
+    basename, extension = os.path.splitext(filename)
+    idno = basename
+    print("Treating file with idno: ", basename)
     metadata = pandas.read_csv(metadatafile)
-    #print(metadata)
     metadatax = metadata.set_index('idno', drop=True)
-    #print(metadatax.index)
-    #print(metadatax)
     author = metadatax.loc[idno, 'author']
-    stitle = metadatax.loc[idno, 'short-title']
-    date = metadatax.loc[idno, 'date']
-    decade = metadatax.loc[idno, 'decade']
-    persp = metadatax.loc[idno, 'persp']
-    newfilename = "output/" + persp+"_"+author+"-"+stitle+"-"+idno+".txt"  # Supposes there is a subfolder called "output".
-    print(idno + ": " + newfilename)
-    os.rename(file,newfilename)
+    title = metadatax.loc[idno, 'title']
+    genre = metadatax.loc[idno, 'label']
+    year = metadatax.loc[idno, 'year']
+    year = str(year)
+    decade = year[0:3]+"0s"
+    if not os.path.exists(outputfolder):
+        os.makedirs(outputfolder)
+    #### USER: Construct new filename from metadata fields
+    newfilename = genre+"_"+author+"-"+idno+".txt"
+    newoutputpath = outputfolder+"/"+newfilename
+    print("New filename: "+idno + ": " + newoutputpath)
+    os.rename(file,newoutputpath)
 
 
 ###############################
 # Main
 ###############################
 
-def main(datapath,metadatafile):
-    for file in glob.glob(datapath):
-        transnomino(file,metadatafile)
+def main(inputpath,metadatafile,outputfolder):
+    numberoffiles = 0
+    for file in glob.glob(inputpath):
+        rename_files(file,metadatafile,outputfolder)
+        numberoffiles +=1
+    print("Number of files treated: " + str(numberoffiles))
+    time.sleep(2)
 
-main("./input/*.txt","./input/metadata.csv")
+
+#### USER: Indicate parameters
+main("./input/*.txt","romanpolicier.csv","labeled-test")
