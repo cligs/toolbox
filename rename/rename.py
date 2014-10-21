@@ -1,5 +1,9 @@
-# rename.py
-# Script to rename files based on selected metadata from a CSV file. 
+#!/usr/bin/env python3
+# Filename: tei2txt.py
+
+"""
+# Script to rename files based on selected metadata from a CSV file.
+"""
 
 ###############################
 # Overview of functions
@@ -8,7 +12,7 @@
 # 1. Start the following routine for all .txt files in a folder.
 # 2. Read CSV file with metadata
 # 2. Construct a new filename based on selected metadata from CSV file.
-# 3. Give each file the new filename. 
+# 3. Give each file the new filename.
 
 
 ###############################
@@ -54,11 +58,11 @@ def transnomino(file,metadatafile):
     stitle = metadatax.loc[idno, 'short-title']
     date = metadatax.loc[idno, 'date']
     decade = metadatax.loc[idno, 'decade']
-    persp = metadatax.loc[idno, 'persp']    
-    newfilename = "output/" + persp+"_"+author+"-"+stitle+"-"+idno+".txt"  # Supposes there is a subfolder called "output". 
+    persp = metadatax.loc[idno, 'persp']
+    newfilename = "output/" + persp+"_"+author+"-"+stitle+"-"+idno+".txt"  # Supposes there is a subfolder called "output".
     print(idno + ": " + newfilename)
     os.rename(file,newfilename)
-    
+
 
 ###############################
 # Main
@@ -68,4 +72,4 @@ def main(datapath,metadatafile):
     for file in glob.glob(datapath):
         transnomino(file,metadatafile)
 
-main("./input/*.txt","./input/metadata.csv") 							# USER: Enter absolute or relative path to folder with files, define pattern for filename (e.g., extension), enter path for metadata file.
+main("./input/*.txt","./input/metadata.csv")

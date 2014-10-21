@@ -41,11 +41,14 @@ import os
 
 def tei2txt(file):
     """Load TEI files from folder, extract selected text, save to new TXT files"""
+    basename = os.path.basename(file)
+    print("Treating file: ", basename)
     xmltree = etree.parse(file)                          # Loads and parses the XML input file.
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}   # Defines the namespace to be used in the xpathexpr.
 
 #   xpathexpr = '//text()'                               # Default XPath expression: all text from XML (activate only one!)
-    xpathexpr = '//tei:body//tei:p//text()'              # Or: All text of p in body in prose texts.
+#   xpathexpr = '//tei:body//tei:p//text()'              # Or: All text of p in body in prose texts.
+    xpathexpr = '//tei:body//*[tei:p|tei:l|tei:s]//text()'   # Or: All text of p and s and l in body of plays.
 #   xpathexpr = '//tei:body//*[tei:p|tei:l|tei:s|tei:speaker]//text()'   # Or: All text of p and s and l in body of plays.
 #   xpathexpr = '//tei:body//tei:l//text()'              # Or: All text of l in body in verse plays.
 #   xpathexpr = '//tei:body//tei:hi//text()'             # Or: All text of hi in body.
@@ -60,7 +63,7 @@ def tei2txt(file):
     textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (activate if useful)
 #   textonly = re.sub(r'\n\n',"\n",textonly)             # Removes some of the unnecessary newlines (do twice if useful)
     basename = os.path.basename(file)
-    txtoutput = "./txt-byauthor/"+ basename[:-4] + ".txt"       # Builds filename for outputfile from original filenames but correct extension.
+    txtoutput = "./txt/"+ basename[:-4] + ".txt"       # Builds filename for outputfile from original filenames but correct extension.
     newfilename = basename[:-4] + ".txt"           # Builds filename for outputfile from original filenames but correct extension.
     with open(txtoutput,"w") as output:                  # Writes selected text to TXT file in folder specified above.
         output.write(textonly)
@@ -70,7 +73,10 @@ def tei2txt(file):
 ###############################
 
 def main(inputpath):
+    numberoffiles = 0
     for file in glob.glob(inputpath):
         tei2txt(file)
+        numberoffiles += 1
+    print("Number of files treated: ", numberoffiles)
 
-main('./input/*.xml')                                # Enter absolute or relative path to folder with XML files and define filename filter.
+main('./tei/*.xml')                                # Enter absolute or relative path to folder with XML files and define filename filter.
