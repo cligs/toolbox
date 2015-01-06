@@ -31,9 +31,9 @@ def yule(file):
     yulei = (M1*M1)/(M2-M1)
 
     #print(d)
-    print("Yule's I for", filename  , "is: ", yulei)
-    print("M1 (number of different word types): ", M1)
-    print("M2 (sum of the products of each observed frequency to the power of two and the number of word types observed with that frequency): ", M2)
+    print("For", filename  , "this is Yule's I:", yulei)
+    #print("M1 (number of different word types): ", M1)
+    #print("M2 (sum of the products of each observed frequency to the power of two and the number of word types observed with that frequency): ", M2)
 
     try:
         return (M1*M1)/(M2-M1)
