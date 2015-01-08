@@ -3,7 +3,7 @@
   <xs:import namespace="http://www.isocat.org/ns/dcr" schemaLocation="dcr.xsd"/>
   <xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="xml.xsd"/>
   <!--
-    Schema generated from ODD source 2015-01-08T12:43:51Z. 
+    Schema generated from ODD source 2015-01-08T12:54:47Z. 
     Edition: Version 2.7.0. Last updated on
     	16th September 2014, revision 13036
     Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
@@ -1675,6 +1675,18 @@ Sample values include: 1] text; 2] corpus</xs:documentation>
       <xs:attributeGroup ref="ns1:att.global.attribute.xmlid"/>
       <xs:attributeGroup ref="ns1:att.global.attribute.n"/>
       <xs:attributeGroup ref="ns1:att.global.attribute.xmllang"/>
+      <xs:attribute name="status" default="publicdomain">
+        <xs:annotation>
+          <xs:documentation>"publicdomain" = Texts can be made available. "restricted" = Only for personal research use, cannot be made available.</xs:documentation>
+        </xs:annotation>
+        <xs:simpleType>
+          <xs:restriction base="xs:token">
+            <xs:enumeration value="publicdomain"/>
+            <xs:enumeration value="restricted"/>
+            <xs:enumeration value="unknown"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:attribute>
     </xs:complexType>
   </xs:element>
   <xs:element name="licence">
