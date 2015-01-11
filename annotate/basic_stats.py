@@ -40,7 +40,7 @@ def basic_stats(inpath):
     """ Read files, calculate data, calculate metrics, save results."""
 
     ### Empty dataframe for results.
-    index = ["no_sentences", "no_types", "no_tokens", "no_tokenchars", "avg_tokenlength", "avg_sentencelength", "ttr", "yuleK"]
+    index = ["no_sent", "no_types", "no_tokens", "no_hapax", "no_chars", "no_syll", "avg_tokenlen", "avg_sentlen", "ttr", "htyr", "htor", "yuleK", "fk"]
     all_output = pd.DataFrame(index=index)
     all_output = all_output.T
     #print(all_output)
@@ -65,6 +65,8 @@ def basic_stats(inpath):
             #print(df_types)
             sentences =  re.split("[\.|!|?]",plaintext)
             #print(sentences)
+            sr_hapax = sr_types[sr_types < 2]
+            #print(sr_hapax)
 
     ### Calculate some basic statistics: tokens, types, chars
             #print("\n------\n",textname)
@@ -75,11 +77,21 @@ def basic_stats(inpath):
             #print("Number of types in", textname, ":", no_types)
             no_tokens = len(sr_tokens)
             #print("Number of tokens in", textname, ":", no_tokens)
+            no_hapax = len(sr_hapax)
+            #print(no_hapax)
             no_tokenchars = 0 #Without whitespace.
             for word in tokens:
                 tokenlength = len(word)
                 no_tokenchars = no_tokenchars + tokenlength
             #print("Number of characters in", textname, ":", no_tokenchars)
+            no_syllables = 0  #Very much simplified definition of syllable!
+            for word in tokens:
+                for letter in word:
+                    if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u" or letter == "y":
+                        no_syllables += 1
+            #print(no_syllables)
+
+
 
     ### Calculate some basic derived metrics
             #print("---\nSome derived metrics")
@@ -89,26 +101,24 @@ def basic_stats(inpath):
             #print("Average sentence length (in tokens) in", textname, ":", avg_sentencelength)
             ttr = no_types / no_tokens
             #print("Type-token-ratio (TTR) for", textname, ":", ttr)
-            """
-            hapax = []
-            for word,freq in df_types:
-                if freq == 1:
-                    hapax = hapax.append(word)
-            no_hapax = len(hapax)
-            print("Number of hapax legomena:", no_hapax)
-            """
-            yule1 = no_tokens
-            yule2 = int(np.sum(df_types**2))
+            htyr = no_hapax / no_types #Relative to number of types, not tokens.
+            #print(htyr)
+            htor = no_hapax / no_tokens #Relative to number of tokens not types.
+            #print(htor)
+            yule_indicator = int(np.sum(df_types**2))
             #print(yule2)
-            yuleK = 10.000 * (yule2 - yule1) / yule1**2
+            yuleK = 10.000 * (yule_indicator - no_tokens) / no_tokens**2
             #print("Yule's K characteristic for", textname, ":", yuleK)
+
+            fleshkincaid = (0.39 * no_tokens / no_sentences) + ( 11.8 * no_syllables) / no_tokens - 15.59
+            #print(fleshkincaid)
 
 
     ### Combine all values for one text, combine all texts, save as a table.
             columns = [textname]
-            index = ["no_sentences", "no_types", "no_tokens", "no_tokenchars", "avg_tokenlength", "avg_sentencelength", "ttr", "yuleK"]
+            index = index
             #print(index)
-            results = [no_sentences, no_types, no_tokens, no_tokenchars, avg_tokenlength, avg_sentencelength, ttr, yuleK]
+            results = [no_sentences, no_types, no_tokens, no_hapax, no_tokenchars, no_syllables, avg_tokenlength, avg_sentencelength, ttr, htyr, htor, yuleK, fleshkincaid]
             #print(results)
             output = pd.Series(results, index=index, name=textname)
             #print(output)
@@ -118,7 +128,6 @@ def basic_stats(inpath):
 
     with open("results.csv", "w") as outfile:
         all_output.to_csv(outfile)
-
 
 
 #######################
