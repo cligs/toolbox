@@ -5,10 +5,10 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-01-08T12:54:36Z. 
-# Edition: Version 2.7.0. Last updated on
+# Schema generated from ODD source 2015-01-31T11:24:57Z. August 2012.
+# TEI Edition: Version 2.7.0. Last updated on
 #	16th September 2014, revision 13036
-# Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
 #
 
 # This material is dual-licensed.
@@ -47,6 +47,16 @@ data.word = xsd:token { pattern = "(\p{L}|\p{N}|\p{P}|\p{S})+" }
 data.text = xsd:string
 data.name = xsd:Name
 data.enumerated = data.name
+data.temporal.iso =
+  xsd:date
+  | xsd:gYear
+  | xsd:gMonth
+  | xsd:gDay
+  | xsd:gYearMonth
+  | xsd:gMonthDay
+  | xsd:time
+  | xsd:dateTime
+  | xsd:token { pattern = "[0-9.,DHMPRSTWYZ/:+\-]+" }
 att.ascribed.attributes = att.ascribed.attribute.who
 att.ascribed.attribute.who =
   
@@ -259,6 +269,10 @@ att.global.attribute.xmlspace =
       ## indicates the intent that applications preserve all white space
       "preserve"
   }?
+att.naming.attributes =
+  att.canonical.attributes,
+  att.naming.attribute.role,
+  att.naming.attribute.nymRef
 att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
@@ -400,9 +414,52 @@ model.dateLike_sequence = date
 model.dateLike_sequenceOptional = date?
 model.dateLike_sequenceOptionalRepeatable = date*
 model.dateLike_sequenceRepeatable = date+
-model.pPart.edit = notAllowed
+model.measureLike = notAllowed
+model.measureLike_alternation = notAllowed
+model.measureLike_sequence = empty
+model.measureLike_sequenceOptional = empty
+model.measureLike_sequenceOptionalRepeatable = empty
+model.measureLike_sequenceRepeatable = notAllowed
+model.egLike = notAllowed
+model.egLike_alternation = notAllowed
+model.egLike_sequence = empty
+model.egLike_sequenceOptional = empty
+model.egLike_sequenceOptionalRepeatable = empty
+model.egLike_sequenceRepeatable = notAllowed
+model.graphicLike = notAllowed
+model.offsetLike = notAllowed
+model.offsetLike_alternation = notAllowed
+model.offsetLike_sequence = empty
+model.offsetLike_sequenceOptional = empty
+model.offsetLike_sequenceOptionalRepeatable = empty
+model.offsetLike_sequenceRepeatable = notAllowed
+model.pPart.msdesc = notAllowed
+model.pPart.editorial = notAllowed
+model.pPart.editorial_alternation = notAllowed
+model.pPart.editorial_sequence = empty
+model.pPart.editorial_sequenceOptional = empty
+model.pPart.editorial_sequenceOptionalRepeatable = empty
+model.pPart.editorial_sequenceRepeatable = notAllowed
+model.pPart.transcriptional = notAllowed
+model.pPart.transcriptional_alternation = notAllowed
+model.pPart.transcriptional_sequence = empty
+model.pPart.transcriptional_sequenceOptional = empty
+model.pPart.transcriptional_sequenceOptionalRepeatable = empty
+model.pPart.transcriptional_sequenceRepeatable = notAllowed
+model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
+model.ptrLike = notAllowed
 model.lPart = notAllowed
+model.global.meta = notAllowed
+model.milestoneLike = notAllowed
 model.gLike = notAllowed
+model.oddDecl = notAllowed
+model.oddDecl_alternation = notAllowed
+model.oddDecl_sequence = empty
+model.oddDecl_sequenceOptional = empty
+model.oddDecl_sequenceOptionalRepeatable = empty
+model.oddDecl_sequenceRepeatable = notAllowed
+model.phrase.xml = notAllowed
+model.specDescLike = notAllowed
 model.biblLike = notAllowed
 model.biblLike_alternation = notAllowed
 model.biblLike_sequence = empty
@@ -448,6 +505,21 @@ model.stageLike_sequenceOptionalRepeatable = stage*
 model.stageLike_sequenceRepeatable = stage+
 model.global.edit = gap
 model.divPart = model.lLike | model.pLike | lg | sp
+model.placeNamePart = notAllowed
+model.placeNamePart_alternation = notAllowed
+model.placeNamePart_sequence = empty
+model.placeNamePart_sequenceOptional = empty
+model.placeNamePart_sequenceOptionalRepeatable = empty
+model.placeNamePart_sequenceRepeatable = notAllowed
+model.placeStateLike = model.placeNamePart
+model.placeStateLike_alternation = model.placeNamePart_alternation
+model.placeStateLike_sequence = model.placeNamePart_sequence
+model.placeStateLike_sequenceOptional =
+  model.placeNamePart_sequenceOptional?
+model.placeStateLike_sequenceOptionalRepeatable =
+  model.placeNamePart_sequenceOptionalRepeatable*
+model.placeStateLike_sequenceRepeatable =
+  model.placeNamePart_sequenceRepeatable+
 model.publicationStmtPart.agency = publisher
 model.publicationStmtPart.detail = date | idno | availability
 model.availabilityPart = licence
@@ -467,37 +539,96 @@ model.qLike_sequenceOptionalRepeatable =
   model.quoteLike_sequenceOptionalRepeatable*, q*
 model.qLike_sequenceRepeatable = model.quoteLike_sequenceRepeatable+, q+
 model.respLike = author | principal
+model.divWrapper = notAllowed
 model.divTopPart = model.headLike
-model.divTop = model.divTopPart
+model.divTop = model.divWrapper | model.divTopPart
+model.frontPart.drama = set | castList
 model.pLike.front = head
 model.divBottomPart = notAllowed
-model.divBottom = model.divBottomPart
-model.nameLike = model.nameLike.agent | idno
-model.nameLike_alternation = model.nameLike.agent_alternation | idno
-model.nameLike_sequence = model.nameLike.agent_sequence, idno
+model.divBottom = model.divWrapper | model.divBottomPart
+model.castItemPart = role | roleDesc
+model.addressLike = notAllowed
+model.addressLike_alternation = notAllowed
+model.addressLike_sequence = empty
+model.addressLike_sequenceOptional = empty
+model.addressLike_sequenceOptionalRepeatable = empty
+model.addressLike_sequenceRepeatable = notAllowed
+model.nameLike =
+  model.nameLike.agent
+  | model.offsetLike
+  | model.placeStateLike
+  | idno
+  | model.persNamePart
+model.nameLike_alternation =
+  model.nameLike.agent_alternation
+  | model.offsetLike_alternation
+  | model.placeStateLike_alternation
+  | idno
+  | model.persNamePart_alternation
+model.nameLike_sequence =
+  model.nameLike.agent_sequence,
+  model.offsetLike_sequence,
+  model.placeStateLike_sequence,
+  idno,
+  model.persNamePart_sequence
 model.nameLike_sequenceOptional =
-  model.nameLike.agent_sequenceOptional?, idno?
+  model.nameLike.agent_sequenceOptional?,
+  model.offsetLike_sequenceOptional?,
+  model.placeStateLike_sequenceOptional?,
+  idno?,
+  model.persNamePart_sequenceOptional?
 model.nameLike_sequenceOptionalRepeatable =
-  model.nameLike.agent_sequenceOptionalRepeatable*, idno*
+  model.nameLike.agent_sequenceOptionalRepeatable*,
+  model.offsetLike_sequenceOptionalRepeatable*,
+  model.placeStateLike_sequenceOptionalRepeatable*,
+  idno*,
+  model.persNamePart_sequenceOptionalRepeatable*
 model.nameLike_sequenceRepeatable =
-  model.nameLike.agent_sequenceRepeatable+, idno+
-model.global = model.noteLike | model.global.edit
-model.frontPart = notAllowed
-model.pPart.data = model.dateLike | model.nameLike
+  model.nameLike.agent_sequenceRepeatable+,
+  model.offsetLike_sequenceRepeatable+,
+  model.placeStateLike_sequenceRepeatable+,
+  idno+,
+  model.persNamePart_sequenceRepeatable+
+model.global =
+  model.global.meta
+  | model.milestoneLike
+  | model.noteLike
+  | model.global.edit
+model.frontPart = model.frontPart.drama
+model.pPart.data =
+  model.dateLike
+  | model.measureLike
+  | model.addressLike
+  | model.nameLike
 model.inter =
-  model.biblLike
+  model.egLike
+  | model.oddDecl
+  | model.biblLike
   | model.labelLike
   | model.listLike
   | model.stageLike
   | model.qLike
+  | castList
 model.common = model.divPart | model.inter
 model.phrase =
   model.segLike
   | model.highlighted
+  | model.graphicLike
+  | model.pPart.msdesc
   | model.pPart.edit
+  | model.ptrLike
   | model.lPart
+  | model.phrase.xml
+  | model.specDescLike
   | model.pPart.data
-model.limitedPhrase = model.hiLike | model.emphLike | model.pPart.data
+model.limitedPhrase =
+  model.hiLike
+  | model.emphLike
+  | model.pPart.msdesc
+  | model.pPart.editorial
+  | model.ptrLike
+  | model.phrase.xml
+  | model.pPart.data
 model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
@@ -511,6 +642,29 @@ att.source.attribute.source =
     list { data.pointer+ }
   }?
 model.resourceLike = notAllowed
+att.personal.attributes =
+  att.naming.attributes,
+  att.personal.attribute.full,
+  att.personal.attribute.sort
+att.personal.attribute.full =
+  
+  ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
+  [ a:defaultValue = "yes" ]
+  attribute full {
+    
+    ## the name component is spelled out in full.
+    "yes"
+    | 
+      ## (abbreviated) the name component is given in an abbreviated form.
+      "abb"
+    | 
+      ## (initial letter) the name component is indicated only by one initial.
+      "init"
+  }?
+att.personal.attribute.sort =
+  
+  ## specifies the sort order of the name component in relation to others within the name.
+  attribute sort { data.count }?
 p =
   
   ## (paragraph) marks paragraphs in prose. [3.1.  7.2.5. ]
@@ -1069,6 +1223,8 @@ s =
       | hi
       | date
       | name
+      | forename
+      | surname
       | idno
       | w)*)
     >> sch:pattern [
@@ -1118,6 +1274,150 @@ w =
     
     ## provides a pointer to a definition of the lemma for the word, for example in an online lexicon.
     attribute lemmaRef { data.pointer }?,
+    empty
+  }
+set =
+  
+  ## (setting) contains a description of the setting, time, locale, appearance, etc., of the action of a play, typically found in the front matter of a printed performance text (not a stage direction). [7.1. ]
+  element set {
+    ((model.headLike | model.global)*, (model.common, model.global*)*),
+    att.global.attributes,
+    empty
+  }
+castList =
+  
+  ## (cast list) contains a single cast list or dramatis personae. [7.1.4.  7.1. ]
+  element castList {
+    ((model.divTop | model.global)*,
+     (model.common, model.global*)*,
+     ((castItem | castGroup), model.global*)+,
+     (model.common, model.global*)*),
+    att.global.attributes,
+    empty
+  }
+castGroup =
+  
+  ## (cast list grouping) groups one or more individual castItem elements within a cast list. [7.1.4. ]
+  element castGroup {
+    ((model.global | model.headLike)*,
+     ((castItem | castGroup | roleDesc), model.global*)+,
+     model.global*),
+    att.global.attributes,
+    empty
+  }
+castItem =
+  
+  ## (cast list item) contains a single entry within a cast list, describing either a single role or a list of non-speaking roles. [7.1.4. ]
+  element castItem {
+    (text
+     | model.gLike
+     | model.castItemPart
+     | model.phrase
+     | model.global)*,
+    att.global.attributes,
+    
+    ## characterizes the cast item.
+    [ a:defaultValue = "role" ]
+    attribute type {
+      
+      ## the item describes a single role.
+      "role"
+      | 
+        ## the item describes a list of non-speaking roles.
+        "list"
+    }?,
+    empty
+  }
+role =
+  
+  ## contains the name of a dramatic role, as given in a cast list. [7.1.4. ]
+  element role { macro.phraseSeq, att.global.attributes, empty }
+roleDesc =
+  
+  ## (role description) describes a character's role in a drama. [7.1.4. ]
+  element roleDesc { macro.phraseSeq, att.global.attributes, empty }
+att.datable.custom.attribute.when-custom =
+  
+  ## supplies the value of a date or time in some standard form.
+  attribute when-custom {
+    list { data.word+ }
+  }?
+att.datable.custom.attribute.notBefore-custom =
+  
+  ## specifies the earliest possible date for the event in some custom standard form.
+  attribute notBefore-custom {
+    list { data.word+ }
+  }?
+att.datable.custom.attribute.notAfter-custom =
+  
+  ## specifies the latest possible date for the event in some custom standard form.
+  attribute notAfter-custom {
+    list { data.word+ }
+  }?
+att.datable.custom.attribute.from-custom =
+  
+  ## indicates the starting point of the period in some standard form.
+  attribute from-custom {
+    list { data.word+ }
+  }?
+att.datable.custom.attribute.to-custom =
+  
+  ## indicates the ending point of the period in some standard form.
+  attribute to-custom {
+    list { data.word+ }
+  }?
+att.datable.custom.attribute.datingPoint =
+  
+  ## supplies a pointer to some location defining a named point in time with reference to which the datable item is understood to have occurred
+  attribute datingPoint { data.pointer }?
+att.datable.custom.attribute.datingMethod =
+  
+  ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
+  attribute datingMethod { data.pointer }?
+model.persNamePart = surname | forename
+model.persNamePart_alternation = surname | forename
+model.persNamePart_sequence = surname, forename
+model.persNamePart_sequenceOptional = surname?, forename?
+model.persNamePart_sequenceOptionalRepeatable = surname*, forename*
+model.persNamePart_sequenceRepeatable = surname+, forename+
+att.datable.iso.attribute.when-iso =
+  
+  ## supplies the value of a date or time in a standard form.
+  attribute when-iso { data.temporal.iso }?
+att.datable.iso.attribute.notBefore-iso =
+  
+  ## specifies the earliest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notBefore-iso { data.temporal.iso }?
+att.datable.iso.attribute.notAfter-iso =
+  
+  ## specifies the latest possible date for the event in standard form, e.g. yyyy-mm-dd.
+  attribute notAfter-iso { data.temporal.iso }?
+att.datable.iso.attribute.from-iso =
+  
+  ## indicates the starting point of the period in standard form.
+  attribute from-iso { data.temporal.iso }?
+att.datable.iso.attribute.to-iso =
+  
+  ## indicates the ending point of the period in standard form.
+  attribute to-iso { data.temporal.iso }?
+surname =
+  
+  ## contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. ]
+  element surname {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.personal.attributes,
+    att.typed.attributes,
+    empty
+  }
+forename =
+  
+  ## contains a forename, given or baptismal name. [13.2.1. ]
+  element forename {
+    macro.phraseSeq,
+    att.global.attributes,
+    att.personal.attributes,
+    att.typed.attributes,
     empty
   }
 att.global.facs.attributes = att.global.facs.attribute.facs
