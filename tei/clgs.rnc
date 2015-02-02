@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-01-31T14:37:46Z. August 2012.
+# Schema generated from ODD source 2015-02-02T23:41:26Z. August 2012.
 # TEI Edition: Version 2.7.0. Last updated on
 #	16th September 2014, revision 13036
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.7.0/
@@ -859,7 +859,17 @@ l =
     att.global.attribute.n,
     att.global.attribute.xmllang,
     att.global.analytic.attribute.ana,
-    att.fragmentable.attributes,
+    
+    ## specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.
+    [ a:defaultValue = "N" ]
+    attribute part {
+      
+      ##
+      "initial"
+      | 
+        ##
+        " final"
+    }?,
     empty
   }
 lg =
