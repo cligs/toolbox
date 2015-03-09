@@ -4,7 +4,7 @@
 
 
 #######################
-# Overview 
+# Overview
 #######################
 
 # 1. Reads metadata from CSV file.
@@ -29,16 +29,19 @@ def copy_subset(fullset,metadata):
     """ Reads metadata from file, builds subset of filenames, copys those files to new folder"""
     metadata = pd.read_csv(metadata, delimiter=',', index_col=0)
     #print(metadata)
-    filtered = metadata[metadata.date > 1700]               # Sample data: ca. 1700-1800.
-    filtered = filtered[filtered.genre == "comedy"]         # Sample data: comedy, tragedy, other.
-    filtered = filtered[filtered.form == "prose"]           # Sample data: prose, verse, mixed.
-    filtered = filtered[filtered.author == "AllainvalA"]    # Sample data: AlainR, AllainvalA, Andrieux, Anonyme, etc.
-    print(filtered)
+    filtered = metadata[metadata.date >= 1630]
+    filtered = metadata[metadata.date <= 1789]
+    filtered = metadata[metadata.acts >= 3]
+    filtered = filtered[filtered.genre == "Tragi-comédie"]
+    #filtered = filtered[filtered.form == "prose"]
+    #filtered = filtered[filtered.author == "AllainvalA"]
+    #print(filtered)
     subset = []
     for item in filtered.index:
-        item = item + ".txt"
+        item = item + ".xml"
         subset.append(item)
-    #print(subset)
+    print(subset)
+    print("Number of files selected: ", len(subset))
     for file in glob.glob(fullset):
         if os.path.basename(file) in subset:
             shutil.copy(file, "./subset")
@@ -51,4 +54,4 @@ def copy_subset(fullset,metadata):
 def main(fullset,metadata):
     copy_subset(fullset,metadata)
 
-main("./fullset/*.txt","metadata.csv")
+main("./tei4/*.xml","tc727.csv")
