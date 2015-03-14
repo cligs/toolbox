@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-# Filename: tei2txt.py
+# Filename: rename_files.py
 
 """
 # Script to rename files based on selected metadata from a CSV file.
