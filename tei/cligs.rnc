@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-04-10T18:25:58Z. August 2012.
+# Schema generated from ODD source 2015-04-10T18:33:14Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -689,8 +689,9 @@ model.limitedPhrase =
 model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
-model.teiHeaderPart = notAllowed
+model.teiHeaderPart = profileDesc
 model.sourceDescPart = notAllowed
+model.profileDescPart = abstract
 att.source.attributes = att.source.attribute.source
 att.source.attribute.source =
   
@@ -1231,6 +1232,21 @@ sourceDesc =
     att.declarable.attributes,
     att.global.attributes,
     att.typed.attributes,
+    empty
+  }
+profileDesc =
+  
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
+  element profileDesc {
+    model.profileDescPart*, att.global.attributes, empty
+  }
+abstract =
+  
+  ## contains a summary or formal abstract prefixed to an existing source document by the encoder. [2.4.4. Abstracts]
+  element abstract {
+    (model.pLike | model.listLike)+,
+    att.global.attributes,
+    att.source.attributes,
     empty
   }
 revisionDesc =
