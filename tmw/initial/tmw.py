@@ -5,7 +5,7 @@
 ###  Collection of functions for the Topic Modeling Pipeline.  ###
 ##################################################################
 
-def tei4reader(inpath, outfolder):
+def tei4reader_fulldocs(inpath, outfolder):
     """Script for reading selected text from TEI P4 files."""
     print("\nLaunched tei4reader.")
 
@@ -72,6 +72,77 @@ def tei4reader(inpath, outfolder):
             output.write(outtext)
     print("Done.")
 
+
+def tei4reader_scenes(inpath, outfolder):
+    """Script for reading TEI P4 files, with one segment per scene in a play."""
+    print("\nLaunched tei4reader_scenes.")
+
+    import re
+    import os
+    import glob
+    from lxml import etree
+    #print("Using LXML version: ", etree.LXML_VERSION)
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
+    for file in glob.glob(inpath):
+        with open(file, "r"):
+            filename = os.path.basename(file)[:-4]
+            #idno = filename[:5]
+            #print(idno)
+
+            ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
+            parser = etree.XMLParser(recover=True)
+            xml = etree.parse(file, parser)
+            #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+
+            ### Removes tags but conserves their text content.
+            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
+
+            ### Removes elements and their text content.
+            etree.strip_elements(xml, "speaker")
+            etree.strip_elements(xml, "note")
+            etree.strip_elements(xml, "stage")
+            etree.strip_elements(xml, "head")
+                    
+            ### XPath for separate scenes. 
+            number_of_acts = len(xml.xpath("//div1"))
+            #print("Acts:",number_of_acts)
+            
+            scenecounter = 0
+            for j in range(1,number_of_acts+1): 
+                xp_separateacts = "//div1["+str(j)+"]"
+                xp_separatescenes = xp_separateacts+"//div2"
+                number_of_scenes = len(xml.xpath(xp_separatescenes))
+                #print("Scenes:",number_of_scenes)
+            
+                for i in range(1,number_of_scenes): 
+                    scenecounter += 1
+                    #print(xml.xpath("//div2["+str(i)+"]"))
+                    xp_separatedivs = "//div2["+str(i)+"]//text()"
+                    #print(xp_separatedivs)
+                    text = xml.xpath(xp_separatedivs)
+                    text = "\n".join(text)
+
+                    ### Some cleaning up
+                    text = re.sub("  ", "", text)
+                    #text = re.sub("    ", "", text)
+                    #text = re.sub("\n{1,6}", "", text)
+                    text = re.sub("\n{1,6}", "\n", text)
+                    text = re.sub("\n{1,6}", "\n", text)
+                    text = re.sub("\n \n", "\n", text)
+                    text = re.sub("\t\n", "", text)
+
+                    outtext = str(text)
+                    act = "_{:02d}".format(j)
+                    scene = "{:02d}".format(i)
+                    scenecounter_str = "-{:03d}".format(scenecounter)
+                    outfilename = outfolder + filename + act + scene + scenecounter_str + ".txt"
+                    with open(outfilename,"w") as output:
+                        output.write(outtext)
+    print("Done.")
+
+
 def segmenter(inpath, outfolder, target):
     """Script for turning plain text files into equal-sized segments, without respecting paragraph boundaries."""
     print("\nLaunched segmenter.")
@@ -107,9 +178,9 @@ def segmenter(inpath, outfolder, target):
     print("Done.")
 
 
-def sort_into_bins(inpath, outfile):
+def segments_to_bins(inpath, outfile):
     """Script for sorting text segments into bins."""
-    print("\nLaunched sort_into_bins.")
+    print("\nLaunched segments_to_bins.")
 
     import os
     import glob
@@ -206,9 +277,109 @@ def sort_into_bins(inpath, outfile):
 
     print("Segments per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
     with open(outfile, "w") as outfile:
-        files_and_bins.to_csv(outfile)
+        files_and_bins.to_csv(outfile, index=False)
 
     print("Done.")
+
+
+
+def scenes_to_bins(inpath, outfolder, outfile):
+    """Script for sorting scene-based text segments into bins."""
+    print("\nLaunched scenes_to_bins.")
+
+    import os
+    import glob
+    from collections import Counter
+    import pandas as pd
+
+    ### Define various objects for later use.
+    txtids = []
+    segids = []
+    #binsnb = 5
+    filenames = []
+    binids = []
+
+    ### Get filenames, text identifiers, segment identifiers.
+    for file in glob.glob(inpath):
+        filename = os.path.basename(file)[:-4]
+        txtid = filename[:6]
+        txtids.append(txtid)
+        segid = filename[-3:]
+        #print(filename, txtid, segid)
+        segids.append(segid)
+    #txtids_sr = pd.Series(txtids)
+    #segids_sr = pd.Series(segids)
+
+    ### For each text identifier, get number of segments.
+    txtids_ct = Counter(txtids)
+    sum_segnbs = 0
+    for txtid in txtids_ct:
+        segnb = txtids_ct[txtid]
+        #print(segnb)
+        sum_segnbs = sum_segnbs + segnb
+        #print(txtid, segnb)
+    #print("Total number of scenes: ", sum_segnbs)
+
+    ### Match each filename to the number of segments of the text.
+    bcount0 = 0
+    bcount1 = 0
+    bcount2 = 0
+    bcount3 = 0
+    bcount4 = 0
+
+    for file in glob.glob(inpath):
+        filename = os.path.basename(file)[:-4]
+        for txtid in txtids_ct:
+            if txtid in filename:
+                filename = filename + "$" + str(txtids_ct[txtid])
+                #print(filename)
+
+    ### For each filename, compute and append bin number
+        txtid = filename[0:6]
+        segid = filename[12:15]
+        segnb = filename[16:]
+        #print(txtid,segid,segnb)
+        binid = ""
+
+        segprop = int(segid) / int(segnb)
+        #print(txtid, segid, segnb, segprop)
+        if segprop > 0 and segprop <= 0.22:
+            binid = 0
+            bcount0 += 1
+        if segprop > 0.22 and segprop <= 0.42:
+            binid = 1
+            bcount1 += 1
+        if segprop > 0.42 and segprop <= 0.62:
+            binid = 2
+            bcount2 += 1
+        if segprop > 0.62 and segprop <= 0.82:
+            binid = 3
+            bcount3 += 1
+        if segprop > 0.82 and segprop <= 5:
+            binid = 4
+            bcount4 += 1
+        #print(segprop, binid)
+
+        with open(file, "r") as infile:
+            text = infile.read()
+            #print(text)
+            if not os.path.exists(outfolder):
+                os.makedirs(outfolder)
+            newfilename = outfolder + str(binid) + str(filename[:-3]) + ".txt"
+        with open(newfilename, "w") as outf:
+            outf.write(text)
+
+        filenames.append(filename[:11])
+        binids.append(binid)
+    filenames_sr = pd.Series(filenames, name="filenames")
+    binids_sr = pd.Series(binids, name="binids")
+    files_and_bins = pd.concat([filenames_sr,binids_sr], axis=1)
+
+    print("Scenes per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
+    with open(outfile, "w") as outfile:
+        files_and_bins.to_csv(outfile, index=False)
+    print("Done.")
+
 
 
 def pretokenize(inputpath,outputfolder):
@@ -383,10 +554,14 @@ def make_lemmatext(inpath,outfolder):
 
 
 
-def call_mallet_import(infolder,outfile,stoplist):
+def call_mallet_import(infolder,outfolder, outfile, stoplist):
     """Function to import text data into Mallet."""
     print("\nLaunched call_mallet_import.")
+    
     import subprocess
+    import os
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
     
     ### Fixed parameters.
     mallet_path = "/home/christof/Programs/Mallet/bin/mallet"
@@ -537,7 +712,6 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
             #print("Identifier and metadata label: ", idno, label_name)
             outputfilename = outfolder + "topics_by_" + target.upper() + ".csv"
             label_names.append(label_name)
-        label_names_set = set(label_names)
         label_names = np.asarray(label_names)
         num_groups_labels = len(set(label_names))
         #print("Number of entries in list of labels: ", len(label_names))
@@ -559,6 +733,96 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         df.to_csv(outputfilename, sep='\t', encoding='utf-8')
     print("Done.")
 
+
+
+def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target):
+    """Aggregate topic scores based on positional bins and metadata."""
+    print("\nLaunched aggregate_using_bins_and_metadata.")
+
+    import numpy as np
+    import itertools
+    import operator
+    import os
+    import pandas as pd
+
+    ## USER: Set path to where the individual chunks are located.
+    CORPUS_PATH = os.path.join(corpuspath)
+    filenames = sorted([os.path.join(CORPUS_PATH, fn) for fn in os.listdir(CORPUS_PATH)])
+    print("Number of files to treat: ", len(filenames)) #ok
+    print("First three filenames: ", filenames[:3]) #ok
+
+    def grouper(n, iterable, fillvalue=None):
+        "Collect data into fixed-length chunks or blocks"
+        args = [iter(iterable)] * n
+        return itertools.zip_longest(*args, fillvalue=fillvalue)
+
+    doctopic_triples = []
+    mallet_docnames = []
+    ### USER: Set path to results from Mallet.
+    with open(topics_in_texts) as f:
+        f.readline()
+        for line in f:
+            docnum, docname, *values = line.rstrip().split('\t')
+            mallet_docnames.append(docname)
+            for topic, share in grouper(2, values):
+                triple = (docname, int(topic), float(share))
+                doctopic_triples.append(triple)
+
+    doctopic_triples = sorted(doctopic_triples, key=operator.itemgetter(0,1))
+    mallet_docnames = sorted(mallet_docnames)
+    num_docs = len(mallet_docnames)
+    num_topics = len(doctopic_triples) // len(mallet_docnames)
+    print("Number of documents: ", num_docs)
+    print("Number of topics: ", num_topics)
+
+    doctopic = np.zeros((num_docs, num_topics))
+    for triple in doctopic_triples:
+        docname, topic, share = triple
+        row_num = mallet_docnames.index(docname)
+        doctopic[row_num, topic] = share
+
+    #### Define aggregation criterion #
+    metadata = pd.DataFrame.from_csv(metadatafile, header=0, sep=",")
+    bindata = pd.DataFrame.from_csv(bindatafile, header=0, sep=",")
+    print(bindata.head())
+    label_names = []
+    for item in filenames:
+        basename = os.path.basename(item)
+        filename, ext = os.path.splitext(basename)
+        textidno = filename[1:7]
+        metadata_target = target
+        genre_label = metadata.loc[textidno,metadata_target]
+        binidno = filename[1:12]
+        bin_target = "binids"
+        bin_label = bindata.loc[binidno,bin_target]
+        print("textidno, binidno, genre_label, bin_label: ", textidno, binidno, genre_label, bin_label)
+        label_name = str(genre_label) + "$" + str(bin_label)
+        outputfilename = "topics_by_BINS-and "+ target.upper() + ".csv"
+        label_names.append(label_name)
+    label_names_set = set(label_names)
+    label_names = np.asarray(label_names)
+    num_groups_labels = len(set(label_names))
+
+    print("Number of different labels:", len(label_names_set))
+    print("Number of entries: ", len(label_names))
+    print("Some label names: ", label_names[10:21])
+    print("Number of different labels: ", len(set(label_names)))
+
+
+    ### Group topic scores according to label
+    doctopic_grouped = np.zeros((num_groups_labels, num_topics))
+    for i, name in enumerate(sorted(set(label_names))):
+        doctopic_grouped[i, :] = np.mean(doctopic[label_names == name, :], axis=0)
+        doctopic = doctopic_grouped
+        #print(len(doctopic)) #ok
+        #np.savetxt("doctopic.csv", doctopic, delimiter=",")
+
+    rownames = sorted(set(label_names))
+    colnames = ["tp" + "{:03d}".format(i) for i in range(doctopic.shape[1])]
+    df = pd.DataFrame(doctopic, index=rownames, columns=colnames)
+    df.to_csv(outputfilename, sep='\t', encoding='utf-8')
+
+    print("Done.")
 
 # TODO: Optionally replace list of topics by list of topic-labels.
 # TODO: Add overall topic score for sorting by overall importance.
