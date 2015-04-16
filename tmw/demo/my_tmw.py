@@ -17,10 +17,10 @@ inpath = wdir + "0_tei/*.xml"
 outfolder = wdir + "1_txt/"
 #tmw.tei4reader(inpath,outfolder)
 
-### tei4reader_scenes (splits plays at scene boundaries)
+### tei4reader_scenes (reads text and splits plays at scene boundaries)
 inpath = wdir + "0_tei/*.xml"
 outfolder = wdir + "2_scenes/"
-#tmw.tei4reader_scenes(inpath,outfolder)
+tmw.tei4reader_scenes(inpath,outfolder)
 
 ### segmenter
 inpath = wdir + "1_txt/*.txt"
