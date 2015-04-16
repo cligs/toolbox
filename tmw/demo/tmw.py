@@ -72,6 +72,7 @@ def tei4reader(inpath, outfolder):
             output.write(outtext)
     print("Done.")
 
+
 def segmenter(inpath, outfolder, target):
     """Script for turning plain text files into equal-sized segments, without respecting paragraph boundaries."""
     print("\nLaunched segmenter.")

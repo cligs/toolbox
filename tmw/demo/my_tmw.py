@@ -12,7 +12,7 @@ import tmw
 ### Set the general working directory.
 wdir = "/home/christof/Dropbox/0-Analysen/2015/topicmodeling/demo/"
 
-### tei4reader
+### tei4reader (standard option)
 inpath = wdir + "0_tei/*.xml"
 outfolder = wdir + "1_txt/"
 tmw.tei4reader(inpath,outfolder)
