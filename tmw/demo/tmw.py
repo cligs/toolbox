@@ -5,7 +5,7 @@
 ###  Collection of functions for the Topic Modeling Pipeline.  ###
 ##################################################################
 
-def tei4reader(inpath, outfolder):
+def tei4reader_fulldocs(inpath, outfolder):
     """Script for reading selected text from TEI P4 files."""
     print("\nLaunched tei4reader.")
 
@@ -554,10 +554,14 @@ def make_lemmatext(inpath,outfolder):
 
 
 
-def call_mallet_import(infolder,outfile,stoplist):
+def call_mallet_import(infolder,outfolder, outfile, stoplist):
     """Function to import text data into Mallet."""
     print("\nLaunched call_mallet_import.")
+    
     import subprocess
+    import os
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
     
     ### Fixed parameters.
     mallet_path = "/home/christof/Programs/Mallet/bin/mallet"
