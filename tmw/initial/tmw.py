@@ -242,33 +242,35 @@ def segments_to_bins(inpath, outfile):
         segprop = int(segid) / int(segnb)
         #print(txtid, segid, segnb, segprop)
         if segprop > 0 and segprop <= 0.215:
-            binid = 0
+            binid = 1
             bcount0 += 1
         if segprop > 0.215 and segprop <= 0.41:
-            binid = 1
+            binid = 2
             bcount1 += 1
         if segprop > 0.41 and segprop <= 0.61:
-            binid = 2
+            binid = 3
             bcount2 += 1
         if segprop > 0.61 and segprop <= 0.815:
-            binid = 3
+            binid = 4
             bcount3 += 1
         if segprop > 0.815 and segprop <= 5:
-            binid = 4
+            binid = 5
             bcount4 += 1
         #print(segprop, binid)
 
-        with open(file, "r") as infile:
-            text = infile.read()
-            #print(text)
-            if not os.path.exists("./2_segments_bins/"):
-                os.makedirs("./2_segments_bins/")
-            newfilename = "./2_segments_bins/" + str(binid) + str(filename[0:12]) + ".txt"
-            #print(newfilename)
-            #print(text)
-        with open(newfilename, "w") as outf:
-            outf.write(text)
 
+### Not necessary to create these files. Information will be read from table.
+#        with open(file, "r") as infile:
+#            text = infile.read()
+#            #print(text)
+#            if not os.path.exists("./2_segments_bins/"):
+#                os.makedirs("./2_segments_bins/")
+#            newfilename = "./2_segments_bins/" + str(binid) + str(filename[0:12]) + ".txt"
+#            #print(newfilename)
+#            #print(text)
+#        with open(newfilename, "w") as outf:
+#            outf.write(text)
+###
         filenames.append(filename[:11])
         binids.append(binid)
     filenames_sr = pd.Series(filenames, name="filenames")
@@ -344,30 +346,32 @@ def scenes_to_bins(inpath, outfolder, outfile):
         segprop = int(segid) / int(segnb)
         #print(txtid, segid, segnb, segprop)
         if segprop > 0 and segprop <= 0.22:
-            binid = 0
+            binid = 1
             bcount0 += 1
         if segprop > 0.22 and segprop <= 0.42:
-            binid = 1
+            binid = 2
             bcount1 += 1
         if segprop > 0.42 and segprop <= 0.62:
-            binid = 2
+            binid = 3
             bcount2 += 1
         if segprop > 0.62 and segprop <= 0.82:
-            binid = 3
+            binid = 4
             bcount3 += 1
         if segprop > 0.82 and segprop <= 5:
-            binid = 4
+            binid = 5
             bcount4 += 1
         #print(segprop, binid)
 
-        with open(file, "r") as infile:
-            text = infile.read()
-            #print(text)
-            if not os.path.exists(outfolder):
-                os.makedirs(outfolder)
-            newfilename = outfolder + str(binid) + str(filename[:-3]) + ".txt"
-        with open(newfilename, "w") as outf:
-            outf.write(text)
+### Not necessary to create these files. Information will be read from table.
+#        with open(file, "r") as infile:
+#            text = infile.read()
+#            #print(text)
+#            if not os.path.exists(outfolder):
+#                os.makedirs(outfolder)
+#           newfilename = outfolder + str(filename[:-3]) +"-"+ str(binid) + ".txt"
+#        with open(newfilename, "w") as outf:
+#            outf.write(text)
+###
 
         filenames.append(filename[:11])
         binids.append(binid)
@@ -705,12 +709,12 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         for fn in filenames:
             basename = os.path.basename(fn)
             filename, ext = os.path.splitext(basename)
-            idno = filename[:-5]
+            idno = filename[:6]
             #print(idno)
             label_name = metadata.loc[idno,target]
             #label_name = label_name[0:3]
             #print("Identifier and metadata label: ", idno, label_name)
-            outputfilename = outfolder + "topics_by_" + target.upper() + ".csv"
+            outputfilename = outfolder + "topics_by_" + target.upper() + "-hm.csv"
             label_names.append(label_name)
         label_names = np.asarray(label_names)
         num_groups_labels = len(set(label_names))
@@ -718,7 +722,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         #print("Number of different labels:", len(label_names_set))
         #print("All different label names: ", sorted(label_names_set))
         
-        #### Group topic scores according to label####
+        #### Group topic scores according to label ####
         doctopic_grouped = np.zeros((num_groups_labels, num_topics))
         for i, name in enumerate(sorted(set(label_names))):
             #print(i, name)
@@ -734,7 +738,8 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
     print("Done.")
 
 
-
+# TODO: not necessary to write bin id onto filename (in "scenes_to_bins"), since it can be (and is) looked up in the bindatafile.
+# TODO: Actually, this is even a problem when switching between scene-based and segment-based aggregation. Solution needed. 
 def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target):
     """Aggregate topic scores based on positional bins and metadata."""
     print("\nLaunched aggregate_using_bins_and_metadata.")
@@ -745,11 +750,14 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     import os
     import pandas as pd
 
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
     ## USER: Set path to where the individual chunks are located.
     CORPUS_PATH = os.path.join(corpuspath)
     filenames = sorted([os.path.join(CORPUS_PATH, fn) for fn in os.listdir(CORPUS_PATH)])
     print("Number of files to treat: ", len(filenames)) #ok
-    print("First three filenames: ", filenames[:3]) #ok
+    #print("First three filenames: ", filenames[:3]) #ok
 
     def grouper(n, iterable, fillvalue=None):
         "Collect data into fixed-length chunks or blocks"
@@ -775,47 +783,56 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     print("Number of documents: ", num_docs)
     print("Number of topics: ", num_topics)
 
+    # This creates a 2D array where each row is one document and each column gives the topic score for one topic for all documents. Building this tends to take a while.
     doctopic = np.zeros((num_docs, num_topics))
+    counter = 0
     for triple in doctopic_triples:
         docname, topic, share = triple
         row_num = mallet_docnames.index(docname)
         doctopic[row_num, topic] = share
+        counter += 1
+        if counter % 50000 == 0:
+            print("Iterations done:", counter)
+    print("Uff. Done creating doctopic triples")
+    #print(doctopic[0:1])
+
 
     #### Define aggregation criterion #
     metadata = pd.DataFrame.from_csv(metadatafile, header=0, sep=",")
     bindata = pd.DataFrame.from_csv(bindatafile, header=0, sep=",")
-    print(bindata.head())
+    #print(bindata.head())
     label_names = []
     for item in filenames:
         basename = os.path.basename(item)
         filename, ext = os.path.splitext(basename)
-        textidno = filename[1:7]
+        textidno = filename[0:6]
         metadata_target = target
         genre_label = metadata.loc[textidno,metadata_target]
-        binidno = filename[1:12]
+        binidno = filename[0:11]
         bin_target = "binids"
         bin_label = bindata.loc[binidno,bin_target]
-        print("textidno, binidno, genre_label, bin_label: ", textidno, binidno, genre_label, bin_label)
+        #print("textidno, binidno, genre_label, bin_label: ", textidno, binidno, genre_label, bin_label)
+        #print(filename[0:1], bin_label)
         label_name = str(genre_label) + "$" + str(bin_label)
-        outputfilename = "topics_by_BINS-and "+ target.upper() + ".csv"
+        outputfilename = outfolder + "topics_by_BINS-and "+ target.upper() + "-lp.csv"
         label_names.append(label_name)
-    label_names_set = set(label_names)
     label_names = np.asarray(label_names)
     num_groups_labels = len(set(label_names))
-
-    print("Number of different labels:", len(label_names_set))
     print("Number of entries: ", len(label_names))
-    print("Some label names: ", label_names[10:21])
+    #print("Some label names: ", label_names[10:21])
     print("Number of different labels: ", len(set(label_names)))
-
+    print("Number of topics: ", num_topics)
 
     ### Group topic scores according to label
+    # Create 2D numpy array filled with zeros, and with space for labels x topics.
     doctopic_grouped = np.zeros((num_groups_labels, num_topics))
+    # Fill up the array with topic scores you generate; 
     for i, name in enumerate(sorted(set(label_names))):
+        #print("i and name: ", i, name)
         doctopic_grouped[i, :] = np.mean(doctopic[label_names == name, :], axis=0)
-        doctopic = doctopic_grouped
-        #print(len(doctopic)) #ok
-        #np.savetxt("doctopic.csv", doctopic, delimiter=",")
+    doctopic = doctopic_grouped
+    #print("Length of doctopic: ", len(doctopic)) #ok
+    #np.savetxt("doctopic.csv", doctopic, delimiter=",")
 
     rownames = sorted(set(label_names))
     colnames = ["tp" + "{:03d}".format(i) for i in range(doctopic.shape[1])]
@@ -823,6 +840,8 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     df.to_csv(outputfilename, sep='\t', encoding='utf-8')
 
     print("Done.")
+
+
 
 # TODO: Optionally replace list of topics by list of topic-labels.
 # TODO: Add overall topic score for sorting by overall importance.
@@ -856,11 +875,101 @@ def create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi):
         plt.xlabel("Categories")
         plt.ylabel("Top topics (sorted by stdev)")
         #plt.show()
-        data_filename = os.path.basename(file)[:-4]
-        figure_filename = outfolder + data_filename + "-hm.jpg"
+        data_filename = os.path.basename(file)[:-7]
+        figure_filename = outfolder + "hm_" + data_filename + ".jpg"
         plt.savefig(figure_filename, dpi=dpi)
         plt.close()
     print("Done.")
 
+
+
+# TODO: find categories automatically and produce graphs for all without "genre" setting.
+# TODO: Make plots with lines for all categories in one plot.
+def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres):
+    """Generate topic score lineplots from CSV data."""
+    print("\nLaunched create_topicscores_lineplot.")
+
+    import os
+    import glob
+    import re
+    import numpy as np
+    import pandas as pd
+    import matplotlib.pyplot as plt
+    
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
+    for file in glob.glob(inpath):
+        topicscores = pd.DataFrame.from_csv(file, sep="\t")
+        #print(topicscores.head())
+        topicscores = topicscores.T
+        #print(topicscores)
+        tpids = topicscores.index
+        #print(tpids)
+        stdevs = topicscores.std(axis=1)
+        topicscores = pd.concat([topicscores, stdevs], axis=1)
+        topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
+        topicscores = topicscores.iloc[:,0:10]
+        # 0:5 = com, 5:10 = trag
+        #print(topicscores.iloc[0:2,:]) #rows,columns (but here only 2 columns)
+
+        with open(topicwordfile, "r") as wordfile:
+            topics_and_words = wordfile.read()
+            topics_and_words = re.split("\n", topics_and_words)
+            topicids = []
+            fourwords = []
+            for topic_and_word in topics_and_words[0:-1]:
+                #print(topic_and_word)
+                topic_and_word = re.sub("\t.*\t", ",", topic_and_word)
+                topicid = re.findall("\d*", topic_and_word)
+                topicid = topicid[0]
+                topicid = str(topicid)
+                topicid = int(topicid)
+                topicid = "tp"+"{:03d}".format(topicid)
+                #print(topicid)
+                topicids.append(topicid)
+                fourword = re.sub("[\d]{1,3},([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])[^$]*", "\\1\\2\\3\\4", topic_and_word, re.DOTALL)
+                #print(fourword)
+                fourwords.append(fourword)
+            topicid_sr = pd.Series(topicids)
+            fourword_sr = pd.Series(index=topicid_sr, data=fourwords, name="fourwords")
+            #print(fourword_sr)
+            #print(fourword_sr["tp000"])
+
+        for tpid in tpids:
+            ### Get and plot scores for genre A
+            topicscoresA = topicscores.iloc[:,0:5]
+            scores = topicscoresA.loc[tpid,]
+            plt.plot(scores, lw=4, marker="o", color="green", label=genres[0])
+
+            ### Get and plot scores for genre B
+            topicscoresB = topicscores.iloc[:,5:10]
+            scores = topicscoresB.loc[tpid,]
+            plt.plot(scores, lw=4, color="blue", marker="o", label=genres[1])
+
+            ### Rest of the plot
+            plt.title("Distribution over topic scores \n(" + tpid + " - " + fourword_sr[tpid] + ")")
+            plt.xlabel("Five parts (beginning to end)")
+            plt.ylabel("Topic weight")
+            leg = plt.legend(frameon=True)
+            leg.get_frame().set_edgecolor('grey')
+            plt.ylim((0.000,height))
+            plt.xlim((0,4))
+            tick_locs = [0,1,2,3,4]
+            tick_lbls = ["seg1","seg2","seg3","seg4","seg5"]
+            plt.xticks(tick_locs, tick_lbls)            
+            
+            plt.grid()
+            heightindicator = "{:02d}".format(int(height*100))
+            #plt.show()
+
+            ### Save figure
+            figure_filename = outfolder + "lp_"+ str(heightindicator) +"_" + tpid + ".jpg"
+            plt.savefig(figure_filename, dpi=dpi)
+            plt.close()
+            
+            
+            
+    print("Done.")
 
 
