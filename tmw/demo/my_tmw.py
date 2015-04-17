@@ -109,7 +109,7 @@ outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/topics-in-texts.txt"
 metadatafile = wdir + "tc30-metadata.csv"
 targets = ["author","decade","genre","insp-type","insp-region"] # USER: set depending on available metadata
-tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
+#tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
 
 
 ### 13 - aggregate_using_bins_and_metadata
@@ -119,7 +119,7 @@ topics_in_texts = wdir + "6_mallet/" + "topics-in-texts.txt"
 metadatafile = wdir + "tc30-metadata.csv"
 bindatafile = wdir + "scenes-and-bins.csv" # USER: segments or scenes?
 target = "genre"
-tmw.aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target)
+#tmw.aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target)
 
 
 ### 14 - create_topicscores_heatmap
@@ -127,7 +127,7 @@ inpath = wdir + "7_aggregates/*hm.csv"
 outfolder = wdir + "8_visuals/"
 rows_shown = 16
 dpi = 200
-tmw.create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi)
+#tmw.create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi)
 
 
 ### 15 - create_topicscores_lineplot

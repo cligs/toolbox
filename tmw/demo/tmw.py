@@ -899,65 +899,77 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
 
-    for genre in genres:
-        for file in glob.glob(inpath):
-            topicscores = pd.DataFrame.from_csv(file, sep="\t")
-            #print(topicscores.head())
-            topicscores = topicscores.T
-            #print(topicscores)
-            tpids = topicscores.index
-            #print(tpids)
-            stdevs = topicscores.std(axis=1)
-            topicscores = pd.concat([topicscores, stdevs], axis=1)
-            topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
-            if genre == "comedy": 
-                topicscores = topicscores.iloc[:,0:5]
-            elif genre == "tragedy": 
-                topicscores = topicscores.iloc[:,5:10]
-            # 0:5 = com, 5:10 = trag
-            #print(topicscores.iloc[0:2,:]) #rows,columns (but here only 2 columns)
+    for file in glob.glob(inpath):
+        topicscores = pd.DataFrame.from_csv(file, sep="\t")
+        #print(topicscores.head())
+        topicscores = topicscores.T
+        #print(topicscores)
+        tpids = topicscores.index
+        #print(tpids)
+        stdevs = topicscores.std(axis=1)
+        topicscores = pd.concat([topicscores, stdevs], axis=1)
+        topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
+        topicscores = topicscores.iloc[:,0:10]
+        # 0:5 = com, 5:10 = trag
+        #print(topicscores.iloc[0:2,:]) #rows,columns (but here only 2 columns)
 
-            with open(topicwordfile, "r") as wordfile:
-                topics_and_words = wordfile.read()
-                topics_and_words = re.split("\n", topics_and_words)
-                topicids = []
-                fourwords = []
-                for topic_and_word in topics_and_words[0:-1]:
-                    #print(topic_and_word)
-                    topic_and_word = re.sub("\t.*\t", ",", topic_and_word)
-                    topicid = re.findall("\d*", topic_and_word)
-                    topicid = topicid[0]
-                    topicid = str(topicid)
-                    topicid = int(topicid)
-                    topicid = "tp"+"{:03d}".format(topicid)
-                    #print(topicid)
-                    topicids.append(topicid)
-                    fourword = re.sub("[\d]{1,3},([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])[^$]*", "\\1\\2\\3\\4", topic_and_word, re.DOTALL)
-                    #print(fourword)
-                    fourwords.append(fourword)
-                topicid_sr = pd.Series(topicids)
-                fourword_sr = pd.Series(index=topicid_sr, data=fourwords, name="fourwords")
-                #print(fourword_sr)
-                #print(fourword_sr["tp000"])
+        with open(topicwordfile, "r") as wordfile:
+            topics_and_words = wordfile.read()
+            topics_and_words = re.split("\n", topics_and_words)
+            topicids = []
+            fourwords = []
+            for topic_and_word in topics_and_words[0:-1]:
+                #print(topic_and_word)
+                topic_and_word = re.sub("\t.*\t", ",", topic_and_word)
+                topicid = re.findall("\d*", topic_and_word)
+                topicid = topicid[0]
+                topicid = str(topicid)
+                topicid = int(topicid)
+                topicid = "tp"+"{:03d}".format(topicid)
+                #print(topicid)
+                topicids.append(topicid)
+                fourword = re.sub("[\d]{1,3},([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])([^$]*?[ ])[^$]*", "\\1\\2\\3\\4", topic_and_word, re.DOTALL)
+                #print(fourword)
+                fourwords.append(fourword)
+            topicid_sr = pd.Series(topicids)
+            fourword_sr = pd.Series(index=topicid_sr, data=fourwords, name="fourwords")
+            #print(fourword_sr)
+            #print(fourword_sr["tp000"])
 
-            for tpid in tpids:
-                #print(tpid)
-                scores = topicscores.loc[tpid,]
-                #print(scores)
-                plt.plot(scores, lw=3, marker="o")
-                plt.title("Distribution over topic scores \n(" + genre + " - " + tpid + " - " + fourword_sr[tpid] + ")")
-                plt.xlabel("Five parts (beginning to end)")
-                plt.ylabel("Topic weight")
-                plt.ylim((0.000,height))
-                plt.xlim((0,4))
-                plt.xticks(np.arange(0,5))
-                plt.grid()
-                heightindicator = "{:02d}".format(int(height*100))
-                #plt.show()
-                figure_filename = outfolder + "lp_"+ str(heightindicator) +"_" + tpid +"_"+ genre +".jpg"
-                plt.savefig(figure_filename, dpi=dpi)
-                plt.close()
+        for tpid in tpids:
+            ### Get and plot scores for genre A
+            topicscoresA = topicscores.iloc[:,0:5]
+            scores = topicscoresA.loc[tpid,]
+            plt.plot(scores, lw=4, marker="o", color="green", label=genres[0])
 
+            ### Get and plot scores for genre B
+            topicscoresB = topicscores.iloc[:,5:10]
+            scores = topicscoresB.loc[tpid,]
+            plt.plot(scores, lw=4, color="blue", marker="o", label=genres[1])
+
+            ### Rest of the plot
+            plt.title("Distribution over topic scores \n(" + tpid + " - " + fourword_sr[tpid] + ")")
+            plt.xlabel("Five parts (beginning to end)")
+            plt.ylabel("Topic weight")
+            leg = plt.legend(frameon=True)
+            leg.get_frame().set_edgecolor('grey')
+            plt.ylim((0.000,height))
+            plt.xlim((0,4))
+            tick_locs = [0,1,2,3,4]
+            tick_lbls = ["seg1","seg2","seg3","seg4","seg5"]
+            plt.xticks(tick_locs, tick_lbls)            
+            
+            plt.grid()
+            heightindicator = "{:02d}".format(int(height*100))
+            #plt.show()
+
+            ### Save figure
+            figure_filename = outfolder + "lp_"+ str(heightindicator) +"_" + tpid + ".jpg"
+            plt.savefig(figure_filename, dpi=dpi)
+            plt.close()
+            
+            
+            
     print("Done.")
 
 
