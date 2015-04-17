@@ -13,8 +13,8 @@
 # 4. Set parameters for each function.
 # 5. Run the workflow.
 
-# Note: one possible workflow is: 2,3,6,7,8,9,10,11,12,14.
-# Now also working, more or less: 1,5,6,7,8,9,10,11,13,14.
+# One possible workflow: 2,3,6,7,8,9,10,11,12,14.
+# And another workflow: 1,5,6,7,8,9,10,11,13,14.
 
 
 import tmw
@@ -98,9 +98,9 @@ num_threads = "4"
 ### 11 - generate_wordlescores
 word_weights_file = wdir + "6_mallet/" + "word-weights.txt"
 wordlescores_file = wdir + "6_mallet/" + "wordle-scores.txt"
-topics = 30
+topics = 20
 words = 100
-#tmw.generate_wordlescores(word_weights_file,wordlescores_file,topics,words)
+tmw.generate_wordlescores(word_weights_file,wordlescores_file,topics,words)
 
 
 ### 12 - aggregate_using_metadata
@@ -109,7 +109,7 @@ outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/topics-in-texts.txt"
 metadatafile = wdir + "tc30-metadata.csv"
 targets = ["author","decade","genre","insp-type","insp-region"] # USER: set depending on available metadata
-#tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
+tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
 
 
 ### 13 - aggregate_using_bins_and_metadata
@@ -119,7 +119,7 @@ topics_in_texts = wdir + "6_mallet/" + "topics-in-texts.txt"
 metadatafile = wdir + "tc30-metadata.csv"
 bindatafile = wdir + "scenes-and-bins.csv" # USER: segments or scenes?
 target = "genre"
-#tmw.aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target)
+tmw.aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target)
 
 
 ### 14 - create_topicscores_heatmap
@@ -127,7 +127,7 @@ inpath = wdir + "7_aggregates/*hm.csv"
 outfolder = wdir + "8_visuals/"
 rows_shown = 16
 dpi = 200
-#tmw.create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi)
+tmw.create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi)
 
 
 ### 15 - create_topicscores_lineplot
@@ -135,7 +135,7 @@ inpath = wdir + "7_aggregates/*lp.csv"
 outfolder = wdir + "8_visuals/"
 topicwordfile = wdir + "6_mallet/topics-with-words.txt"
 dpi = 200
-height = 0.100
+height = 0.200
 genres = ["comedy","tragedy"] # User: set depending on metadata.
 tmw.create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres)
 
