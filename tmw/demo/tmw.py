@@ -88,8 +88,7 @@ def tei4reader_scenes(inpath, outfolder):
     for file in glob.glob(inpath):
         with open(file, "r"):
             filename = os.path.basename(file)[:-4]
-            #idno = filename[:5]
-            #print(idno)
+            #print("idno: ", filename)
 
             ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
             parser = etree.XMLParser(recover=True)
@@ -102,26 +101,28 @@ def tei4reader_scenes(inpath, outfolder):
             ### Removes elements and their text content.
             etree.strip_elements(xml, "speaker")
             etree.strip_elements(xml, "note")
-            etree.strip_elements(xml, "stage")
+            #etree.strip_elements(xml, "stage")
             etree.strip_elements(xml, "head")
                     
             ### XPath for separate scenes. 
-            number_of_acts = len(xml.xpath("//div1"))
+            xp_countacts = "//body/div1"       
+            number_of_acts = len(xml.xpath(xp_countacts))
             #print("Acts:",number_of_acts)
             
             scenecounter = 0
             for j in range(1,number_of_acts+1): 
-                xp_separateacts = "//div1["+str(j)+"]"
-                xp_separatescenes = xp_separateacts+"//div2"
-                number_of_scenes = len(xml.xpath(xp_separatescenes))
+                xp_getacts = "//body/div1["+str(j)+"]"
+                xp_countscenes = xp_getacts+"/div2"
+                number_of_scenes = len(xml.xpath(xp_countscenes))
                 #print("Scenes:",number_of_scenes)
             
-                for i in range(1,number_of_scenes): 
+                for i in range(1,number_of_scenes+1): 
                     scenecounter += 1
                     #print(xml.xpath("//div2["+str(i)+"]"))
-                    xp_separatedivs = "//div2["+str(i)+"]//text()"
+                    #xp_separatedivs = "//div2["+str(i)+"]//text()"
+                    xp_getscenes = xp_getacts+"/div2["+str(i)+"]//text()"
                     #print(xp_separatedivs)
-                    text = xml.xpath(xp_separatedivs)
+                    text = xml.xpath(xp_getscenes)
                     text = "\n".join(text)
 
                     ### Some cleaning up
@@ -593,7 +594,7 @@ def call_mallet_modeling(inputfile,outfolder,num_topics,optimize_interval,num_it
     word_topics_counts_file = outfolder + "words-by-topics.txt"
     topic_word_weights_file = outfolder + "word-weights.txt"
     output_topic_keys = outfolder + "topics-with-words.txt"
-    output_doc_topics = outfolder + "topics-in-texts.txt"
+    output_doc_topics = outfolder + "topics-in-texts.csv"
     
     ### Constructing Mallet command from parameters.
     command = mallet_path +" train-topics --input "+ inputfile +" --num-topics "+ num_topics +" --optimize-interval "+ optimize_interval +" --num-iterations " + num_iterations +" --num-top-words " + num_top_words +" --word-topic-counts-file "+ word_topics_counts_file + " --topic-word-weights-file "+ topic_word_weights_file +" --output-state topic-state.gz"+" --output-topic-keys "+ output_topic_keys +" --output-doc-topics "+ output_doc_topics +" --doc-topics-max "+ doc_topics_max
@@ -615,7 +616,7 @@ def generate_wordlescores(word_weights_file,wordlescores_file,topics,words):
     #print(word_scores.head())
 
     top_topic_words_with_scores = ""
-    for i in range(0,topics-1):
+    for i in range(0,topics):
         topic_word_scores = word_scores_grouped.get_group(i) # Set topic number here.
         #print(topic_word_scores.head())
         top_topic_word_scores = topic_word_scores.iloc[0:words]
@@ -641,6 +642,48 @@ def generate_wordlescores(word_weights_file,wordlescores_file,topics,words):
     with open(wordlescores_file, "w") as outfile:
         outfile.write(top_topic_words_with_scores)
     print("Done.")
+
+
+def generate_wordlewords(word_weights_file,wordlescores_file,topics,words,outfolder):
+    """Create data from Mallet output which helps make word clouds on wordle.net."""
+    print("\nLaunched generate_wordlescores.")
+
+    import pandas as pd
+    import os
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
+    word_scores = pd.read_table(word_weights_file, header=None, sep="\t")
+    word_scores = word_scores.sort(columns=[0,2], axis=0, ascending=[True, False])
+    word_scores_grouped = word_scores.groupby(0)
+    #print(word_scores.head())
+
+    for i in range(0,topics):
+        topic_word_scores = word_scores_grouped.get_group(i) # Set topic number here.
+        #print(topic_word_scores.head())
+        top_topic_word_scores = topic_word_scores.iloc[0:words]
+        #print(top_topic_word_scores)
+
+        topic_words = top_topic_word_scores.loc[:,1]
+        topic_words = topic_words.tolist()
+        #print(topic_words)
+        word_scores = top_topic_word_scores.loc[:,2]
+        word_scores = word_scores.tolist()
+        #print(word_scores)
+
+        outfilename = "wordle_tp" + str(i) + ".txt"
+        wordle_words = ""
+        j = 0
+        for word in topic_words:
+            word = word
+            score = word_scores[j]
+            j += 1
+            wordle_words = wordle_words + ((word + " ") * score)
+            with open(outfolder + outfilename, "w") as outfile:
+                outfile.write(wordle_words)
+    print("Done.")
+
+
 
 
 
@@ -842,10 +885,46 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     print("Done.")
 
 
+# TODO: Custom colors (simpler)
+def make_wordle(inpath,outfolder,dpi):
+    """Generate wordles from wordle_words."""
+    print("\nLaunched make_wordle.")
+
+    import os
+    import glob
+    import random
+    import matplotlib.pyplot as plt
+    from wordcloud import WordCloud
+
+    def grey_color_func(word, font_size, position, orientation, random_state=None):
+        return "hsl(0, 0%%, %d%%)" % random.randint(80, 100)
+
+    for file in glob.glob(inpath):
+        filename = os.path.basename(file)[:-4]
+        figure_filename = filename + ".jpg"
+        #print(figure_filename)
+        text = open(file).read()
+        #print(text)
+        wordcloud = WordCloud(margin=5).generate(text)
+        default_colors = wordcloud.to_array()
+        plt.imshow(wordcloud.recolor(color_func=grey_color_func, random_state=3))
+        plt.imshow(default_colors)
+        # Open a plot of the generated image.
+        plt.imshow(wordcloud)
+        plt.title(filename)
+        plt.axis("off")
+        #plt.show()
+        plt.savefig(outfolder + figure_filename, dpi=dpi)
+        plt.close()
+   
+    print("Done.")
+
+
+
 
 # TODO: Optionally replace list of topics by list of topic-labels.
 # TODO: Add overall topic score for sorting by overall importance.
-def create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi):
+def create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi):
     """Generate topic score heatmap from CSV data."""
     print("\nLaunched create_topicscores_heatmap.")
 
@@ -865,10 +944,10 @@ def create_topicscores_heatmap(inpath,outfolder,rows_shown,dpi):
         stdevs = topicscores.std(axis=1)
         topicscores = pd.concat([topicscores, stdevs], axis=1)
         topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
-        # column: 0=stdev; seg1 = beginning, etc.
+        # column: 0=stdev; "seg1" = beginning, "Comédie", etc.
         topicscores = topicscores.iloc[:rows_shown,:-1] #rows,columns
 
-        sns.set_context("poster", font_scale=0.8)
+        sns.set_context("poster", font_scale=font_scale)
         sns.heatmap(topicscores, annot=False, cmap="YlOrRd", square=False)
         # Nice: bone_r, copper_r, PuBu, OrRd, GnBu, BuGn, YlOrRd
         plt.title("Distribution of topic scores")
@@ -892,7 +971,6 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
     import os
     import glob
     import re
-    import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
     
@@ -909,7 +987,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
         stdevs = topicscores.std(axis=1)
         topicscores = pd.concat([topicscores, stdevs], axis=1)
         topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
-        topicscores = topicscores.iloc[:,0:10]
+        topicscores = topicscores.iloc[:,0:15]
         # 0:5 = com, 5:10 = trag
         #print(topicscores.iloc[0:2,:]) #rows,columns (but here only 2 columns)
 
@@ -940,10 +1018,10 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             ### Get and plot scores for genre A
             topicscoresA = topicscores.iloc[:,0:5]
             scores = topicscoresA.loc[tpid,]
-            plt.plot(scores, lw=4, marker="o", color="green", label=genres[0])
+            plt.plot(scores, lw=4, marker="o", color="red", label=genres[0])
 
             ### Get and plot scores for genre B
-            topicscoresB = topicscores.iloc[:,5:10]
+            topicscoresB = topicscores.iloc[:,10:15]
             scores = topicscoresB.loc[tpid,]
             plt.plot(scores, lw=4, color="blue", marker="o", label=genres[1])
 
@@ -956,7 +1034,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             plt.ylim((0.000,height))
             plt.xlim((0,4))
             tick_locs = [0,1,2,3,4]
-            tick_lbls = ["seg1","seg2","seg3","seg4","seg5"]
+            tick_lbls = ["sect.1","sect.2","sect.3","sect.4","sect.5"]
             plt.xticks(tick_locs, tick_lbls)            
             
             plt.grid()
