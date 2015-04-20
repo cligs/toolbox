@@ -2,80 +2,20 @@
 # Filename: tmw.py
 
 ##################################################################
-###  Collection of functions for the Topic Modeling Pipeline.  ###
+###  Topic Modeling Workflow (tmw)                             ###
 ##################################################################
 
-def tei4reader_fulldocs(inpath, outfolder):
-    """Script for reading selected text from TEI P4 files."""
-    print("\nLaunched tei4reader.")
-
-    import re
-    import os
-    import glob
-    from lxml import etree
-    #print("Using LXML version: ", etree.LXML_VERSION)
-
-    if not os.path.exists(outfolder):
-        os.makedirs(outfolder)
-    for file in glob.glob(inpath):
-        with open(file, "r"):
-            filename = os.path.basename(file)[:-4]
-            #idno = filename[:5]
-            #print(idno)
-            ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
-            #parser = etree.XMLParser(collect_ids=False, recover=True)
-            parser = etree.XMLParser(recover=True)
-            xml = etree.parse(file, parser)
-
-            ### The TEI P4 files do not have a namespace.
-            #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-
-            ### Removes tags but conserves their text content.
-            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
-
-            ### Removes elements and their text content.
-            etree.strip_elements(xml, "speaker")
-            etree.strip_elements(xml, "note")
-            etree.strip_elements(xml, "stage")
-            etree.strip_elements(xml, "head")
-
-            ### XPath defining which text to select
-            #xp_bodyprose = "//tei:body//tei:p//text()"
-            #xp_bodyverse = "//tei:body//tei:l//text()"
-            xp_bodytext = "//body//text()"
-            #xp_alltext = "//text()"
-            #xp_castlist = "//tei:castList//text()"
-            #xp_stage = "//tei:stage//text()"
-            #xp_hi = "//tei:body//tei:hi//text()"
-            #xp_speakers = "//tei:body//tei:speaker//text()"
-
-            ### Applying one of the above XPaths
-            text = xml.xpath(xp_bodytext)
-            text = "\n".join(text)
-
-            ### Some cleaning up
-            text = re.sub("  ", "", text)
-            #text = re.sub("    ", "", text)
-            #text = re.sub("\n{1,6}", "", text)
-            text = re.sub("\n{1,6}", "\n", text)
-            text = re.sub("\n{1,6}", "\n", text)
-            text = re.sub("\n \n", "\n", text)
-            text = re.sub("\t\n", "", text)
-
-            ### Marking scene transitions
-            #text = re.sub("ACTE[^$]*?\n", "", text)
-            #text = re.sub("SCÈNE[^$]*?\n", "###\n", text)
-
-            outtext = str(text)
-            outfile = outfolder + filename + ".txt"
-        with open(outfile,"w") as output:
-            output.write(outtext)
-    print("Done.")
 
 
-def tei4reader_scenes(inpath, outfolder):
+##################################################################
+###  1. Reading and segmenting texts                           ###
+##################################################################
+
+
+
+def read_teip4_scenes(inpath, minimal_length, outfolder):
     """Script for reading TEI P4 files, with one segment per scene in a play."""
-    print("\nLaunched tei4reader_scenes.")
+    print("\nLaunched read_teip4_scenes.")
 
     import re
     import os
@@ -142,6 +82,171 @@ def tei4reader_scenes(inpath, outfolder):
                     with open(outfilename,"w") as output:
                         output.write(outtext)
     print("Done.")
+
+
+# TODO: Join very short scenes; consequences for bins.
+# TODO: Split very long scenes. 
+# General aim: Maintain segment length on a similar level while respecting scene boundaries.
+
+
+
+def scenes_to_bins(inpath, outfolder, outfile):
+    """Script for sorting scene-based text segments into bins."""
+    print("\nLaunched scenes_to_bins.")
+
+    import os
+    import glob
+    from collections import Counter
+    import pandas as pd
+
+    ### Define various objects for later use.
+    txtids = []
+    segids = []
+    filenames = []
+    binids = []
+
+    ### Get filenames, text identifiers, segment identifiers.
+    for file in glob.glob(inpath):
+        filename = os.path.basename(file)[:-4]
+        txtid = filename[:6]
+        txtids.append(txtid)
+        segid = filename[-3:]
+        #print(filename, txtid, segid)
+        segids.append(segid)
+    #txtids_sr = pd.Series(txtids)
+    #segids_sr = pd.Series(segids)
+
+    ### For each text identifier, get number of segments.
+    txtids_ct = Counter(txtids)
+    sum_segnbs = 0
+    for txtid in txtids_ct:
+        segnb = txtids_ct[txtid]
+        #print(segnb)
+        sum_segnbs = sum_segnbs + segnb
+        #print(txtid, segnb)
+    #print("Total number of scenes: ", sum_segnbs)
+
+    ### Match each filename to the number of segments of the text.
+    bcount0 = 0
+    bcount1 = 0
+    bcount2 = 0
+    bcount3 = 0
+    bcount4 = 0
+
+    for file in glob.glob(inpath):
+        filename = os.path.basename(file)[:-4]
+        for txtid in txtids_ct:
+            if txtid in filename:
+                filename = filename + "$" + str(txtids_ct[txtid])
+                #print(filename)
+
+    ### For each filename, compute and append bin number
+        txtid = filename[0:6]
+        segid = filename[12:15]
+        segnb = filename[16:]
+        #print(txtid,segid,segnb)
+        binid = ""
+
+        segprop = int(segid) / int(segnb)
+        #print(txtid, segid, segnb, segprop)
+        if segprop > 0 and segprop <= 0.23:
+            binid = 1
+            bcount0 += 1
+        if segprop > 0.23 and segprop <= 0.43:
+            binid = 2
+            bcount1 += 1
+        if segprop > 0.43 and segprop <= 0.63:
+            binid = 3
+            bcount2 += 1
+        if segprop > 0.63 and segprop <= 0.83:
+            binid = 4
+            bcount3 += 1
+        if segprop > 0.83 and segprop <= 5:
+            binid = 5
+            bcount4 += 1
+        #print(segprop, binid)
+
+        filenames.append(filename[:11])
+        binids.append(binid)
+    filenames_sr = pd.Series(filenames, name="filenames")
+    binids_sr = pd.Series(binids, name="binids")
+    files_and_bins = pd.concat([filenames_sr,binids_sr], axis=1)
+
+    print("Scenes per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
+    with open(outfile, "w") as outfile:
+        files_and_bins.to_csv(outfile, index=False)
+        
+    print("Done.")
+
+
+
+def tei4reader_fulldocs(inpath, outfolder):
+    """Script for reading selected text from TEI P4 files."""
+    print("\nLaunched tei4reader.")
+
+    import re
+    import os
+    import glob
+    from lxml import etree
+    #print("Using LXML version: ", etree.LXML_VERSION)
+
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+    for file in glob.glob(inpath):
+        with open(file, "r"):
+            filename = os.path.basename(file)[:-4]
+            #idno = filename[:5]
+            #print(idno)
+            ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
+            #parser = etree.XMLParser(collect_ids=False, recover=True)
+            parser = etree.XMLParser(recover=True)
+            xml = etree.parse(file, parser)
+
+            ### The TEI P4 files do not have a namespace.
+            #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+
+            ### Removes tags but conserves their text content.
+            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
+
+            ### Removes elements and their text content.
+            etree.strip_elements(xml, "speaker")
+            etree.strip_elements(xml, "note")
+            #etree.strip_elements(xml, "stage")
+            etree.strip_elements(xml, "head")
+
+            ### XPath defining which text to select
+            #xp_bodyprose = "//tei:body//tei:p//text()"
+            #xp_bodyverse = "//tei:body//tei:l//text()"
+            xp_bodytext = "//body//text()"
+            #xp_alltext = "//text()"
+            #xp_castlist = "//tei:castList//text()"
+            #xp_stage = "//tei:stage//text()"
+            #xp_hi = "//tei:body//tei:hi//text()"
+            #xp_speakers = "//tei:body//tei:speaker//text()"
+
+            ### Applying one of the above XPaths
+            text = xml.xpath(xp_bodytext)
+            text = "\n".join(text)
+
+            ### Some cleaning up
+            text = re.sub("  ", "", text)
+            #text = re.sub("    ", "", text)
+            #text = re.sub("\n{1,6}", "", text)
+            text = re.sub("\n{1,6}", "\n", text)
+            text = re.sub("\n{1,6}", "\n", text)
+            text = re.sub("\n \n", "\n", text)
+            text = re.sub("\t\n", "", text)
+
+            ### Marking scene transitions
+            #text = re.sub("ACTE[^$]*?\n", "", text)
+            #text = re.sub("SCÈNE[^$]*?\n", "###\n", text)
+
+            outtext = str(text)
+            outfile = outfolder + filename + ".txt"
+        with open(outfile,"w") as output:
+            output.write(outtext)
+    print("Done.")
+
 
 
 def segmenter(inpath, outfolder, target):
@@ -286,104 +391,9 @@ def segments_to_bins(inpath, outfile):
 
 
 
-def scenes_to_bins(inpath, outfolder, outfile):
-    """Script for sorting scene-based text segments into bins."""
-    print("\nLaunched scenes_to_bins.")
-
-    import os
-    import glob
-    from collections import Counter
-    import pandas as pd
-
-    ### Define various objects for later use.
-    txtids = []
-    segids = []
-    #binsnb = 5
-    filenames = []
-    binids = []
-
-    ### Get filenames, text identifiers, segment identifiers.
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        txtid = filename[:6]
-        txtids.append(txtid)
-        segid = filename[-3:]
-        #print(filename, txtid, segid)
-        segids.append(segid)
-    #txtids_sr = pd.Series(txtids)
-    #segids_sr = pd.Series(segids)
-
-    ### For each text identifier, get number of segments.
-    txtids_ct = Counter(txtids)
-    sum_segnbs = 0
-    for txtid in txtids_ct:
-        segnb = txtids_ct[txtid]
-        #print(segnb)
-        sum_segnbs = sum_segnbs + segnb
-        #print(txtid, segnb)
-    #print("Total number of scenes: ", sum_segnbs)
-
-    ### Match each filename to the number of segments of the text.
-    bcount0 = 0
-    bcount1 = 0
-    bcount2 = 0
-    bcount3 = 0
-    bcount4 = 0
-
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        for txtid in txtids_ct:
-            if txtid in filename:
-                filename = filename + "$" + str(txtids_ct[txtid])
-                #print(filename)
-
-    ### For each filename, compute and append bin number
-        txtid = filename[0:6]
-        segid = filename[12:15]
-        segnb = filename[16:]
-        #print(txtid,segid,segnb)
-        binid = ""
-
-        segprop = int(segid) / int(segnb)
-        #print(txtid, segid, segnb, segprop)
-        if segprop > 0 and segprop <= 0.22:
-            binid = 1
-            bcount0 += 1
-        if segprop > 0.22 and segprop <= 0.42:
-            binid = 2
-            bcount1 += 1
-        if segprop > 0.42 and segprop <= 0.62:
-            binid = 3
-            bcount2 += 1
-        if segprop > 0.62 and segprop <= 0.82:
-            binid = 4
-            bcount3 += 1
-        if segprop > 0.82 and segprop <= 5:
-            binid = 5
-            bcount4 += 1
-        #print(segprop, binid)
-
-### Not necessary to create these files. Information will be read from table.
-#        with open(file, "r") as infile:
-#            text = infile.read()
-#            #print(text)
-#            if not os.path.exists(outfolder):
-#                os.makedirs(outfolder)
-#           newfilename = outfolder + str(filename[:-3]) +"-"+ str(binid) + ".txt"
-#        with open(newfilename, "w") as outf:
-#            outf.write(text)
-###
-
-        filenames.append(filename[:11])
-        binids.append(binid)
-    filenames_sr = pd.Series(filenames, name="filenames")
-    binids_sr = pd.Series(binids, name="binids")
-    files_and_bins = pd.concat([filenames_sr,binids_sr], axis=1)
-
-    print("Scenes per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
-    with open(outfile, "w") as outfile:
-        files_and_bins.to_csv(outfile, index=False)
-    print("Done.")
+##################################################################
+###  2. Preprocessing text segments                            ###
+##################################################################
 
 
 
@@ -559,6 +569,12 @@ def make_lemmatext(inpath,outfolder):
 
 
 
+##################################################################
+###  3. Importing and modeling with Mallet                     ###
+##################################################################
+
+
+
 def call_mallet_import(infolder,outfolder, outfile, stoplist):
     """Function to import text data into Mallet."""
     print("\nLaunched call_mallet_import.")
@@ -603,91 +619,76 @@ def call_mallet_modeling(inputfile,outfolder,num_topics,optimize_interval,num_it
     print("Done.\n")
 
 
-
-def generate_wordlescores(word_weights_file,wordlescores_file,topics,words):
-    """Create data from Mallet output which helps make word clouds on wordle.net."""
-    print("\nLaunched generate_wordlescores.")
-
-    import pandas as pd
-
-    word_scores = pd.read_table(word_weights_file, header=None, sep="\t")
-    word_scores = word_scores.sort(columns=[0,2], axis=0, ascending=[True, False])
-    word_scores_grouped = word_scores.groupby(0)
-    #print(word_scores.head())
-
-    top_topic_words_with_scores = ""
-    for i in range(0,topics):
-        topic_word_scores = word_scores_grouped.get_group(i) # Set topic number here.
-        #print(topic_word_scores.head())
-        top_topic_word_scores = topic_word_scores.iloc[0:words]
-        #print(top_topic_word_scores)
-
-        topic_words = top_topic_word_scores.loc[:,1]
-        topic_words = topic_words.tolist()
-        #print(topic_words)
-        word_scores = top_topic_word_scores.loc[:,2]
-        word_scores = word_scores.tolist()
-        #print(word_scores)
-
-        top_topic_words_with_scores = top_topic_words_with_scores + "tp" + str(i) + "\n"
-        j = 0
-        for word in topic_words:
-            word = word
-            score = word_scores[j]
-            j += 1
-            line = word + ":" + str(int(score)) + "\n"
-            top_topic_words_with_scores = top_topic_words_with_scores + line
-        top_topic_words_with_scores = top_topic_words_with_scores + "\n"
-
-    with open(wordlescores_file, "w") as outfile:
-        outfile.write(top_topic_words_with_scores)
-    print("Done.")
+##################################################################
+###  5. Aggregate data and visualize results                   ###
+##################################################################
 
 
-def generate_wordlewords(word_weights_file,wordlescores_file,topics,words,outfolder):
-    """Create data from Mallet output which helps make word clouds on wordle.net."""
-    print("\nLaunched generate_wordlescores.")
 
-    import pandas as pd
+def make_wordle_from_mallet(word_weights_file,topics,words,outfolder,dpi):
+    """Generate wordles from Mallet output, using the wordcloud module."""
+    print("\nLaunched make_wordle_from_mallet.")
+    
     import os
+    import pandas as pd
+    import random
+    import matplotlib.pyplot as plt
+    from wordcloud import WordCloud
+
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
+    
+    def read_mallet_output(word_weights_file):
+        """Reads Mallet output (topics with words and word weights) into dataframe.""" 
+        word_scores = pd.read_table(word_weights_file, header=None, sep="\t")
+        word_scores = word_scores.sort(columns=[0,2], axis=0, ascending=[True, False])
+        word_scores_grouped = word_scores.groupby(0)
+        #print(word_scores.head())
+        return word_scores_grouped
 
-    word_scores = pd.read_table(word_weights_file, header=None, sep="\t")
-    word_scores = word_scores.sort(columns=[0,2], axis=0, ascending=[True, False])
-    word_scores_grouped = word_scores.groupby(0)
-    #print(word_scores.head())
-
-    for i in range(0,topics):
-        topic_word_scores = word_scores_grouped.get_group(i) # Set topic number here.
-        #print(topic_word_scores.head())
+    def get_wordlewords(words,topic):
+        """Transform Mallet output for wordle generation."""
+        topic_word_scores = read_mallet_output(word_weights_file).get_group(topic)
         top_topic_word_scores = topic_word_scores.iloc[0:words]
-        #print(top_topic_word_scores)
-
-        topic_words = top_topic_word_scores.loc[:,1]
-        topic_words = topic_words.tolist()
-        #print(topic_words)
-        word_scores = top_topic_word_scores.loc[:,2]
-        word_scores = word_scores.tolist()
-        #print(word_scores)
-
-        outfilename = "wordle_tp" + str(i) + ".txt"
-        wordle_words = ""
+        topic_words = top_topic_word_scores.loc[:,1].tolist()
+        word_scores = top_topic_word_scores.loc[:,2].tolist()
+        wordlewords = ""
         j = 0
         for word in topic_words:
             word = word
             score = word_scores[j]
             j += 1
-            wordle_words = wordle_words + ((word + " ") * score)
-            with open(outfolder + outfilename, "w") as outfile:
-                outfile.write(wordle_words)
+            wordlewords = wordlewords + ((word + " ") * score)
+        return wordlewords
+        
+    def get_color_scale(word, font_size, position, orientation, random_state=None):
+        """ Create color scheme for wordle."""
+        #return "hsl(0, 00%, %d%%)" % random.randint(80, 100) # Greys for black background.
+        return "hsl(221, 65%%, %d%%)" % random.randint(30, 35) # Dark blue for white background
+
+    ## Creates the wordle visualisation, using results from the above functions.
+    for topic in range(0,topics):
+        ## Defines filename and title for the wordle image.
+        figure_filename = "wordle_tp"+"{:03d}".format(topic) + ".jpg"
+        figure_title = "topic "+ "{:02d}".format(topic)        
+        ## Gets the text for one topic.
+        text = get_wordlewords(words,topic)
+        #print(text)
+        ## Generates, recolors and saves the wordcloud.
+        wordcloud = WordCloud(background_color="white", margin=5).generate(text)
+        default_colors = wordcloud.to_array()
+        plt.imshow(wordcloud.recolor(color_func=get_color_scale, random_state=3))
+        plt.imshow(default_colors)
+        plt.imshow(wordcloud)
+        plt.title(figure_title)
+        plt.axis("off")
+        plt.savefig(outfolder + figure_filename, dpi=dpi)
+        plt.close()
+   
     print("Done.")
 
 
 
-
-
-# TODO: Loop only over aggregation phase (save time)
 def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets):
     """Function to aggregate topic scores based on metadata about segments."""
     print("\nLaunched aggregate_using_metadata.")
@@ -778,11 +779,13 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         colnames = ["tp" + "{:02d}".format(i) for i in range(doctopic.shape[1])]
         df = pd.DataFrame(doctopic, index=rownames, columns=colnames)
         df.to_csv(outputfilename, sep='\t', encoding='utf-8')
+
     print("Done.")
 
+# TODO: Loop only over aggregation phase (save time)
 
-# TODO: not necessary to write bin id onto filename (in "scenes_to_bins"), since it can be (and is) looked up in the bindatafile.
-# TODO: Actually, this is even a problem when switching between scene-based and segment-based aggregation. Solution needed. 
+
+
 def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target):
     """Aggregate topic scores based on positional bins and metadata."""
     print("\nLaunched aggregate_using_bins_and_metadata.")
@@ -884,46 +887,11 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
 
     print("Done.")
 
-
-# TODO: Custom colors (simpler)
-def make_wordle(inpath,outfolder,dpi):
-    """Generate wordles from wordle_words."""
-    print("\nLaunched make_wordle.")
-
-    import os
-    import glob
-    import random
-    import matplotlib.pyplot as plt
-    from wordcloud import WordCloud
-
-    def grey_color_func(word, font_size, position, orientation, random_state=None):
-        return "hsl(0, 0%%, %d%%)" % random.randint(80, 100)
-
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        figure_filename = filename + ".jpg"
-        #print(figure_filename)
-        text = open(file).read()
-        #print(text)
-        wordcloud = WordCloud(margin=5).generate(text)
-        default_colors = wordcloud.to_array()
-        plt.imshow(wordcloud.recolor(color_func=grey_color_func, random_state=3))
-        plt.imshow(default_colors)
-        # Open a plot of the generated image.
-        plt.imshow(wordcloud)
-        plt.title(filename)
-        plt.axis("off")
-        #plt.show()
-        plt.savefig(outfolder + figure_filename, dpi=dpi)
-        plt.close()
-   
-    print("Done.")
+# TODO: not necessary to write bin id onto filename (in "scenes_to_bins"), since it can be (and is) looked up in the bindatafile.
+# TODO: Actually, this is even a problem when switching between scene-based and segment-based aggregation. Solution needed. 
 
 
 
-
-# TODO: Optionally replace list of topics by list of topic-labels.
-# TODO: Add overall topic score for sorting by overall importance.
 def create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi):
     """Generate topic score heatmap from CSV data."""
     print("\nLaunched create_topicscores_heatmap.")
@@ -943,7 +911,7 @@ def create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi):
         topicscores = topicscores.T
         stdevs = topicscores.std(axis=1)
         topicscores = pd.concat([topicscores, stdevs], axis=1)
-        topicscores = topicscores.sort(columns="Tragi-comédie", axis=0, ascending=False)
+        topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
         # column: 0=stdev; "seg1" = beginning, "Comédie", etc.
         topicscores = topicscores.iloc[:rows_shown,:-1] #rows,columns
 
@@ -958,12 +926,14 @@ def create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi):
         figure_filename = outfolder + "hm_" + data_filename + ".jpg"
         plt.savefig(figure_filename, dpi=dpi)
         plt.close()
+
     print("Done.")
 
+# TODO: Optionally replace list of topics by list of topic-labels.
+# TODO: Add overall topic score for sorting by overall importance.
 
 
-# TODO: find categories automatically and produce graphs for all without "genre" setting.
-# TODO: Make plots with lines for all categories in one plot.
+
 def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres):
     """Generate topic score lineplots from CSV data."""
     print("\nLaunched create_topicscores_lineplot.")
@@ -1021,7 +991,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             plt.plot(scores, lw=4, marker="o", color="red", label=genres[0])
 
             ### Get and plot scores for genre B
-            topicscoresB = topicscores.iloc[:,10:15]
+            topicscoresB = topicscores.iloc[:,5:10]
             scores = topicscoresB.loc[tpid,]
             plt.plot(scores, lw=4, color="blue", marker="o", label=genres[1])
 
@@ -1046,8 +1016,8 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             plt.savefig(figure_filename, dpi=dpi)
             plt.close()
             
-            
-            
     print("Done.")
 
+# TODO: find categories automatically and produce graphs for all without "genre" setting.
+# TODO: Make plots with lines for all categories in one plot.
 
