@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title type="main"></title>
+				<title type="sub"></title>
+				<title type="short"></title>
+				<author xml:id="x">
+					<name type="full"></name>
+					<name type="short"></name>
+				</author>
+				<principal xml:id="y"></principal>
+			</titleStmt>
+			<publicationStmt>
+                <publisher>CLiGS</publisher>
+				<availability status="restricted">
+                    <!-- Optionen: restricted, publicdomain, unknown. -->
+					<p>Files prepared for personal research use only. Not for publication.</p>
+				</availability>
+				<date></date>
+				<idno type="cligs"><!--[a-z]{2}[0-9]{4}, z.B. ne0034 --></idno>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl type="digital-source">
+					<date></date>, <idno></idno>, <ref target="#"/>.
+				</bibl>
+				<bibl type="print-source">
+					<date></date>
+				</bibl>
+				<bibl type="edition-first">
+					<date></date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<profileDesc>
+			<abstract>
+				<p></p>
+			</abstract>
+			<textClass>
+				<keywords scheme="keywords.csv">
+					<term type="supergenre"></term>
+					<term type="genre" cert="high"></term>
+					<term type="subgenre" cert="low" resp="x"></term>
+					<term type="genre-label"></term>
+					<term type="narrative-perspective"></term>
+					<term type="form"></term>
+				</keywords>
+			</textClass>
+		</profileDesc>
+		<revisionDesc>
+			<change when="2015" who="#">Initial TEI version.</change>
+		</revisionDesc>
+	</teiHeader>
+    <text>
+    	<body>
+    		<div><p></p></div>
+    	</body>
+    </text>
+</TEI>
