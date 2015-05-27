@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-05-07T16:42:43Z. August 2012.
+# Schema generated from ODD source 2015-05-27T09:22:01Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -162,17 +162,17 @@ sch:pattern [
   sch:rule [
     context = "tei:*[@calendar]"
     "\x{a}" ~
-    "         "
+    "            "
     sch:assert [
       test = "string-length(.) gt 0"
-      " @calendar indicates the system or\x{a}" ~
-      "                        calendar to which the date represented by the content of this element\x{a}" ~
-      "                        belongs, but this "
+      "\x{a}" ~
+      "@calendar indicates the system or calendar to which the date represented by the content of this element\x{a}" ~
+      "belongs, but this "
       sch:name [ ]
       " element has no textual content."
     ]
     "\x{a}" ~
-    "      "
+    "          "
   ]
   "\x{a}" ~
   "   "
@@ -316,8 +316,7 @@ att.naming.attribute.role =
   }?
 att.naming.attribute.nymRef =
   
-  ## (reference to the canonical
-  ##                   name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.
+  ## (reference to the canonical name) provides a means of locating the canonical form (nym) of the names associated with the object named by the element bearing it.
   attribute nymRef {
     list { data.pointer+ }
   }?
@@ -378,13 +377,13 @@ sch:pattern [
   sch:rule [
     context = "*[@subtype]"
     "\x{a}" ~
-    "         "
+    "        "
     sch:assert [
       test = "@type"
       "The "
       sch:name [ ]
-      " element should not be categorized in\x{a}" ~
-      "                    detail with @subtype unless also categorized in general with @type"
+      " element should not be categorized in detail with @subtype\x{a}" ~
+      " unless also categorized in general with @type"
     ]
     "\x{a}" ~
     "      "
@@ -407,14 +406,13 @@ sch:pattern [
   sch:rule [
     context = "tei:*[not(self::tei:schemaSpec)][@targetLang]"
     "\x{a}" ~
-    "         "
+    "            "
     sch:assert [
       test = "count(@target)"
-      "@targetLang can only be used if @target is\x{a}" ~
-      "                        specified."
+      "@targetLang can only be used if @target is specified."
     ]
     "\x{a}" ~
-    "      "
+    "          "
   ]
   "\x{a}" ~
   "   "
@@ -735,9 +733,7 @@ att.personal.attribute.sort =
   attribute sort { data.count }?
 p =
   
-  ## (paragraph) marks paragraphs in prose. [3.1.
-  ##                 Paragraphs 7.2.5.
-  ##                 Speech Contents]
+  ## (paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]
   element p {
     macro.paraContent,
     att.global.attribute.xmlid,
@@ -756,8 +752,7 @@ p =
   }
 hi =
   
-  ## (highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2.
-  ##                 Emphasis, Foreign Words, and Unusual Language]
+  ## (highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
   element hi {
     macro.paraContent,
     att.global.attribute.xmlid,
@@ -770,9 +765,7 @@ hi =
   }
 quote =
   
-  ## (quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3.
-  ##                 Quotation 4.3.1.
-  ##                 Grouped Texts]
+  ## (quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3. Quotation 4.3.1. Grouped Texts]
   element quote {
     macro.specialPara,
     att.global.attribute.xmlid,
@@ -786,8 +779,7 @@ quote =
   }
 q =
   
-  ## (quoted) contains material which is distinguished from the surrounding text using quotation marks or a similar method, for any one of a variety of reasons including, but not limited to: direct speech or thought, technical terms or jargon, authorial distance, quotations from elsewhere, and passages that are mentioned but not used. [3.3.3.
-  ##                 Quotation]
+  ## (quoted) contains material which is distinguished from the surrounding text using quotation marks or a similar method, for any one of a variety of reasons including, but not limited to: direct speech or thought, technical terms or jargon, authorial distance, quotations from elsewhere, and passages that are mentioned but not used. [3.3.3. Quotation]
   element q {
     macro.specialPara,
     att.global.attribute.xmlid,
@@ -834,8 +826,7 @@ q =
   }
 term =
   
-  ## contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.3.4.
-  ##                 Terms, Glosses, Equivalents, and Descriptions]
+  ## contains a single-word, multi-word, or symbolic designation which is regarded as a technical term. [3.3.4. Terms, Glosses, Equivalents, and Descriptions]
   element term {
     macro.phraseSeq,
     att.global.attributes,
@@ -874,9 +865,8 @@ name =
   }
 date =
   
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4.
-  ##                 Publication, Distribution, Licensing, etc. 2.5. The
-  ##                 Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution,
+  ## Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
   element date {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attribute.xmlid,
@@ -891,9 +881,7 @@ date =
   }
 ref =
   
-  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.6.
-  ##                 Simple Links and Cross-References 16.1.
-  ##                 Links]
+  ## (reference) defines a reference to another location, possibly modified by additional text or comment. [3.6. Simple Links and Cross-References 16.1. Links]
   element ref {
     macro.paraContent
     >> sch:pattern [
@@ -906,11 +894,11 @@ ref =
            "               "
            sch:report [
              test = "@target and @cRef"
-             "Only\x{a}" ~
-             "                  one of the attributes @target' and @cRef' may be supplied on "
+             "Only one of the\x{a}" ~
+             "	attributes @target' and @cRef' may be supplied on "
              sch:name [ ]
              "\x{a}" ~
-             "                "
+             "               "
            ]
            "\x{a}" ~
            "            "
@@ -927,8 +915,7 @@ ref =
   }
 head =
   
-  ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1.
-  ##                 Headings and Trailers]
+  ## (heading) contains any type of heading, for example the title of a section, or the heading of a list, glossary, manuscript description, etc. [4.2.1. Headings and Trailers]
   element head {
     (text
      | lg
@@ -947,8 +934,7 @@ head =
   }
 note =
   
-  ## contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6.
-  ##                 The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
+  ## contains a note or annotation. [3.8.1. Notes and Simple Annotation 2.2.6. The Notes Statement 3.11.2.8. Notes and Statement of Language 9.3.5.4. Notes within Entries]
   element note {
     macro.specialPara,
     att.global.attribute.xmlid,
@@ -961,8 +947,7 @@ note =
   }
 author =
   
-  ## in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1.
-  ##                 The Title Statement]
+  ## in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]
   element author {
     macro.phraseSeq,
     att.global.attribute.xmlid,
@@ -974,9 +959,7 @@ author =
   }
 title =
   
-  ## contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1.
-  ##                 The Title Statement 2.2.5.
-  ##                 The Series Statement]
+  ## contains a title for any kind of work. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement 2.2.5. The Series Statement]
   element title {
     macro.paraContent,
     att.global.attribute.xmlid,
@@ -993,8 +976,8 @@ title =
   }
 publisher =
   
-  ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4.
-  ##                 Publication, Distribution, Licensing, etc.]
+  ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution,
+  ## Licensing, etc.]
   element publisher {
     macro.phraseSeq,
     att.global.attribute.xmlid,
@@ -1006,8 +989,7 @@ publisher =
   }
 bibl =
   
-  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7.
-  ##                 The Source Description 15.3.2. Declarable Elements]
+  ## (bibliographic citation) contains a loosely-structured bibliographic citation of which the sub-components may or may not be explicitly tagged. [3.11.1. Methods of Encoding Bibliographic References and Lists of References 2.2.7. The Source Description 15.3.2. Declarable Elements]
   element bibl {
     (text
      | model.gLike
@@ -1027,10 +1009,7 @@ bibl =
   }
 l =
   
-  ## (verse line) contains a single, possibly incomplete, line of verse. [3.12.1.
-  ##                 Core Tags for Verse 3.12.
-  ##                 Passages of Verse or Drama 7.2.5.
-  ##                 Speech Contents]
+  ## (verse line) contains a single, possibly incomplete, line of verse. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]
   element l {
     macro.paraContent,
     att.global.attribute.xmlid,
@@ -1053,10 +1032,7 @@ l =
   }
 lg =
   
-  ## (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.12.1.
-  ##                 Core Tags for Verse 3.12.
-  ##                 Passages of Verse or Drama 7.2.5.
-  ##                 Speech Contents]
+  ## (line group) contains one or more verse lines functioning as a formal unit, e.g. a stanza, refrain, verse paragraph, etc. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]
   element lg {
     ((model.divTop | model.global)*,
      (model.lLike | model.stageLike | model.labelLike | lg),
@@ -1077,8 +1053,8 @@ lg =
            sch:assert [
              test =
                "count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) > 0"
-             "An\x{a}" ~
-             "                  lg element must contain at least one child l, lg or gap element."
+             "An lg element\x{a}" ~
+             "        must contain at least one child l, lg or gap element."
            ]
            "\x{a}" ~
            "            "
@@ -1096,10 +1072,7 @@ lg =
   }
 sp =
   
-  ## (speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.12.2.
-  ##                 Core Tags for Drama 3.12.
-  ##                 Passages of Verse or Drama 7.2.2.
-  ##                 Speeches and Speakers]
+  ## (speech) contains an individual speech in a performance text, or a passage presented as such in a prose or verse text. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.2. Speeches and Speakers]
   element sp {
     (model.global*,
      (speaker, model.global*)?,
@@ -1121,8 +1094,7 @@ sp =
   }
 speaker =
   
-  ## contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.12.2.
-  ##                 Core Tags for Drama]
+  ## contains a specialized form of heading or label, giving the name of one or more speakers in a dramatic text or fragment. [3.12.2. Core Tags for Drama]
   element speaker {
     macro.phraseSeq,
     att.global.attribute.xmlid,
@@ -1144,10 +1116,7 @@ speaker =
   }
 stage =
   
-  ## (stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.12.2.
-  ##                 Core Tags for Drama 3.12.
-  ##                 Passages of Verse or Drama 7.2.4.
-  ##                 Stage Directions]
+  ## (stage direction) contains any kind of stage direction within a dramatic text or fragment. [3.12.2. Core Tags for Drama 3.12. Passages of Verse or Drama 7.2.4. Stage Directions]
   element stage {
     macro.specialPara,
     att.ascribed.attributes,
@@ -1195,9 +1164,7 @@ stage =
   }
 teiHeader =
   
-  ## (TEI header) supplies the descriptive and declarative information making up an electronic title page for every TEI-conformant document. [2.1.1.
-  ##                 The TEI Header and Its Components 15.1.
-  ##                 Varieties of Composite Text]
+  ## (TEI header) supplies the descriptive and declarative information making up an electronic title page for every TEI-conformant document. [2.1.1. The TEI Header and Its Components 15.1. Varieties of Composite Text]
   element teiHeader {
     (fileDesc, model.teiHeaderPart*, revisionDesc?),
     att.global.attributes,
@@ -1209,9 +1176,7 @@ teiHeader =
   }
 fileDesc =
   
-  ## (file description) contains a full bibliographic description of an electronic file. [2.2. The
-  ##                 File Description 2.1.1.
-  ##                 The TEI Header and Its Components]
+  ## (file description) contains a full bibliographic description of an electronic file. [2.2. The File Description 2.1.1. The TEI Header and Its Components]
   element fileDesc {
     ((titleStmt, publicationStmt), sourceDesc+),
     att.global.attributes,
@@ -1219,16 +1184,13 @@ fileDesc =
   }
 titleStmt =
   
-  ## (title statement) groups information about the title of a work and those responsible for its content. [2.2.1.
-  ##                 The Title Statement 2.2. The
-  ##                 File Description]
+  ## (title statement) groups information about the title of a work and those responsible for its content. [2.2.1. The Title Statement 2.2. The File Description]
   element titleStmt {
     (title+, model.respLike*), att.global.attributes, empty
   }
 principal =
   
-  ## (principal researcher) supplies the name of the principal researcher responsible for the creation of an electronic text. [2.2.1.
-  ##                 The Title Statement]
+  ## (principal researcher) supplies the name of the principal researcher responsible for the creation of an electronic text. [2.2.1. The Title Statement]
   element principal {
     macro.phraseSeq.limited,
     att.global.attributes,
@@ -1237,9 +1199,8 @@ principal =
   }
 publicationStmt =
   
-  ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4.
-  ##                 Publication, Distribution, Licensing, etc. 2.2. The
-  ##                 File Description]
+  ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution,
+  ## Licensing, etc. 2.2. The File Description]
   element publicationStmt {
     ((model.publicationStmtPart.agency,
       model.publicationStmtPart.detail*)+
@@ -1249,9 +1210,8 @@ publicationStmt =
   }
 idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4.
-  ##                 Publication, Distribution, Licensing, etc. 2.2.5.
-  ##                 The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution,
+  ## Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     (text | model.gLike | idno)*,
     att.global.attribute.xmlid,
@@ -1266,8 +1226,8 @@ idno =
   }
 availability =
   
-  ## supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4.
-  ##                 Publication, Distribution, Licensing, etc.]
+  ## supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution,
+  ## Licensing, etc.]
   element availability {
     (model.availabilityPart | model.pLike)+,
     att.global.attribute.xmlid,
@@ -1293,8 +1253,8 @@ availability =
   }
 licence =
   
-  ## contains information about a licence or other legal agreement applicable to the text. [2.2.4.
-  ##                 Publication, Distribution, Licensing, etc.]
+  ## contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution,
+  ## Licensing, etc.]
   element licence {
     macro.specialPara,
     att.global.attribute.xmlid,
@@ -1307,8 +1267,7 @@ licence =
   }
 sourceDesc =
   
-  ## (source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7.
-  ##                 The Source Description]
+  ## (source description) describes the source from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]
   element sourceDesc {
     (model.pLike+
      | (model.biblLike | model.sourceDescPart | model.listLike)+),
@@ -1319,9 +1278,7 @@ sourceDesc =
   }
 profileDesc =
   
-  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The
-  ##                 Profile Description 2.1.1.
-  ##                 The TEI Header and Its Components]
+  ## (text-profile description) provides a detailed description of non-bibliographic aspects of a text, specifically the languages and sublanguages used, the situation in which it was produced, the participants and their setting. [2.4. The Profile Description 2.1.1. The TEI Header and Its Components]
   element profileDesc {
     model.profileDescPart*, att.global.attributes, empty
   }
@@ -1336,15 +1293,13 @@ abstract =
   }
 textClass =
   
-  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3.
-  ##                 The Text Classification]
+  ## (text classification) groups information which describes the nature or topic of a text in terms of a standard classification scheme, thesaurus, etc. [2.4.3. The Text Classification]
   element textClass {
     (keywords)*, att.global.attributes, att.declarable.attributes, empty
   }
 keywords =
   
-  ## contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3.
-  ##                 The Text Classification]
+  ## contains a list of keywords or phrases identifying the topic or nature of a text. [2.4.3. The Text Classification]
   element keywords {
     (term+),
     att.global.attributes,
@@ -1355,17 +1310,13 @@ keywords =
   }
 revisionDesc =
   
-  ## (revision description) summarizes the revision history for a file. [2.5. The
-  ##                 Revision Description 2.1.1.
-  ##                 The TEI Header and Its Components]
+  ## (revision description) summarizes the revision history for a file. [2.5. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
     (change+), att.global.attributes, att.docStatus.attributes, empty
   }
 change =
   
-  ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.5. The
-  ##                 Revision Description 2.4.1.
-  ##                 Creation 11.7. Changes]
+  ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.5. The Revision Description 2.4.1. Creation 11.7. Changes]
   element change {
     macro.specialPara,
     att.ascribed.attributes,
@@ -1379,9 +1330,7 @@ change =
   }
 TEI =
   
-  ## (TEI document) contains a single TEI-conformant document, containing a single TEI header, a single text, one or more members of the model.resourceLike class, or a combination of these. A series of TEI elements may be combined together to form a teiCorpus element. [4.
-  ##                 Default Text Structure 15.1.
-  ##                 Varieties of Composite Text]
+  ## (TEI document) contains a single TEI-conformant document, containing a single TEI header, a single text, one or more members of the model.resourceLike class, or a combination of these. A series of TEI elements may be combined together to form a teiCorpus element. [4. Default Text Structure 15.1. Varieties of Composite Text]
   element TEI {
     (teiHeader,
      ((model.resourceLike+, \text?) | \text))
@@ -1396,9 +1345,7 @@ TEI =
   }
 \text =
   
-  ## contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4.
-  ##                 Default Text Structure 15.1.
-  ##                 Varieties of Composite Text]
+  ## contains a single text of any kind, whether unitary or composite, for example a poem or drama, a collection of essays, a novel, a dictionary, or a corpus sample. [4. Default Text Structure 15.1. Varieties of Composite Text]
   element text {
     (model.global*,
      (front, model.global*)?,
@@ -1415,8 +1362,7 @@ TEI =
   }
 body =
   
-  ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4.
-  ##                 Default Text Structure]
+  ## (text body) contains the whole body of a single unitary text, excluding any front or back matter. [4. Default Text Structure]
   element body {
     (model.global*,
      (model.divTop, (model.global | model.divTop)*)?,
@@ -1438,8 +1384,7 @@ body =
   }
 \div =
   
-  ## (text division) contains a subdivision of the front, body, or back of a text. [4.1.
-  ##                 Divisions of the Body]
+  ## (text division) contains a subdivision of the front, body, or back of a text. [4.1. Divisions of the Body]
   element div {
     ((model.divTop | model.global)*,
      ((((model.divLike | model.divGenLike), model.global*)+
@@ -1458,9 +1403,7 @@ body =
   }
 front =
   
-  ## (front matter) contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6.
-  ##                 Title Pages 4.
-  ##                 Default Text Structure]
+  ## (front matter) contains any prefatory matter (headers, title page, prefaces, dedications, etc.) found at the start of a document, before the main body. [4.6. Title Pages 4. Default Text Structure]
   element front {
     ((model.frontPart
       | model.pLike
@@ -1482,9 +1425,7 @@ front =
   }
 back =
   
-  ## (back matter) contains any appendixes, etc. following the main part of a text. [4.7.
-  ##                 Back Matter 4.
-  ##                 Default Text Structure]
+  ## (back matter) contains any appendixes, etc. following the main part of a text. [4.7. Back Matter 4. Default Text Structure]
   element back {
     ((model.frontPart
       | model.pLike.front
@@ -1514,8 +1455,7 @@ att.global.analytic.attribute.ana =
   }?
 s =
   
-  ## (s-unit) contains a sentence-like division of a text. [17.1.
-  ##                 Linguistic Segment Categories 8.4.1. Segmentation]
+  ## (s-unit) contains a sentence-like division of a text. [17.1. Linguistic Segment Categories 8.4.1. Segmentation]
   element s {
     ((text
       | model.gLike
@@ -1540,8 +1480,8 @@ s =
            "               "
            sch:report [
              test = "tei:s"
-             "You may not nest\x{a}" ~
-             "                  one s element within another: use seg instead"
+             "You may not nest one s element within\x{a}" ~
+             "      another: use seg instead"
            ]
            "\x{a}" ~
            "            "
@@ -1561,8 +1501,7 @@ s =
   }
 w =
   
-  ## (word) represents a grammatical (not necessarily orthographic) word. [17.1.
-  ##                 Linguistic Segment Categories]
+  ## (word) represents a grammatical (not necessarily orthographic) word. [17.1. Linguistic Segment Categories]
   element w {
     (text
      | model.gLike
@@ -1584,8 +1523,8 @@ w =
   }
 set =
   
-  ## (setting) contains a description of the setting, time, locale, appearance, etc., of the action of a play, typically found in the front matter of a printed performance text (not a stage direction). [7.1.
-  ##                 Front and Back Matter ]
+  ## (setting) contains a description of the setting, time, locale, appearance, etc., of the action of a play, typically found in the front matter of a printed performance text (not a stage direction). [7.1. Front and Back Matter
+  ##  ]
   element set {
     ((model.headLike | model.global)*, (model.common, model.global*)*),
     att.global.attributes,
@@ -1593,8 +1532,8 @@ set =
   }
 castList =
   
-  ## (cast list) contains a single cast list or dramatis personae. [7.1.4. Cast Lists 7.1.
-  ##                 Front and Back Matter ]
+  ## (cast list) contains a single cast list or dramatis personae. [7.1.4. Cast Lists 7.1. Front and Back Matter
+  ##  ]
   element castList {
     ((model.divTop | model.global)*,
      (model.common, model.global*)*,
