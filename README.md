@@ -1,7 +1,7 @@
 toolbox
 =======
 
-Collection of small work-in-progress scripts and code snippets for text processing.
+Collection of small work-in-progress scripts and code snippets for text processing produced by CLiGS.
 
 Each folder contains one or several Python scripts and some sample texts for testing.
 
