@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-05-27T09:22:01Z. August 2012.
+# Schema generated from ODD source 2015-05-28T10:54:25Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -697,8 +697,9 @@ model.limitedPhrase =
 model.divLike = \div
 model.divGenLike = notAllowed
 model.div1Like = notAllowed
-model.teiHeaderPart = profileDesc
+model.teiHeaderPart = encodingDesc | profileDesc
 model.sourceDescPart = notAllowed
+model.encodingDescPart = notAllowed
 model.profileDescPart = abstract | textClass
 att.source.attributes = att.source.attribute.source
 att.source.attribute.source =
@@ -1274,6 +1275,14 @@ sourceDesc =
     att.declarable.attributes,
     att.global.attributes,
     att.typed.attributes,
+    empty
+  }
+encodingDesc =
+  
+  ## (encoding description) documents the relationship between an electronic text and the source or sources from which it was derived. [2.3. The Encoding Description 2.1.1. The TEI Header and Its Components]
+  element encodingDesc {
+    (model.encodingDescPart | model.pLike)+,
+    att.global.attributes,
     empty
   }
 profileDesc =
