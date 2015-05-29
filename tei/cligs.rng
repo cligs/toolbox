@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2015-05-28T10:54:44Z. August 2012.
+Schema generated from ODD source 2015-05-29T16:33:18Z. August 2012.
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1254,17 +1254,20 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <choice>
          <ref name="model.quoteLike"/>
          <ref name="q"/>
+         <ref name="floatingText"/>
       </choice>
    </define>
    <define name="model.qLike_alternation">
       <choice>
          <ref name="model.quoteLike_alternation"/>
          <ref name="q"/>
+         <ref name="floatingText"/>
       </choice>
    </define>
    <define name="model.qLike_sequence">
       <ref name="model.quoteLike_sequence"/>
       <ref name="q"/>
+      <ref name="floatingText"/>
    </define>
    <define name="model.qLike_sequenceOptional">
       <optional>
@@ -1272,6 +1275,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       </optional>
       <optional>
          <ref name="q"/>
+      </optional>
+      <optional>
+         <ref name="floatingText"/>
       </optional>
    </define>
    <define name="model.qLike_sequenceOptionalRepeatable">
@@ -1281,6 +1287,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <zeroOrMore>
          <ref name="q"/>
       </zeroOrMore>
+      <zeroOrMore>
+         <ref name="floatingText"/>
+      </zeroOrMore>
    </define>
    <define name="model.qLike_sequenceRepeatable">
       <oneOrMore>
@@ -1288,6 +1297,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       </oneOrMore>
       <oneOrMore>
          <ref name="q"/>
+      </oneOrMore>
+      <oneOrMore>
+         <ref name="floatingText"/>
       </oneOrMore>
    </define>
    <define name="model.respLike">
@@ -1648,28 +1660,20 @@ Sample values include: 1] metatextual</a:documentation>
          <ref name="att.ascribed.attributes"/>
          <optional>
             <attribute name="type">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.
-Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign; 6] distinct; 7] term; 8] emph; 9] mentioned</a:documentation>
+               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.</a:documentation>
                <choice>
-                  <value>spoken</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">representation of speech</a:documentation>
-                  <value>thought</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">representation of thought, e.g. internal monologue</a:documentation>
-                  <value>written</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">quotation from a written source</a:documentation>
-                  <value>soCalled</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">authorial distance</a:documentation>
-                  <value>foreign</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
-                  <value>distinct</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">linguistically distinct</a:documentation>
-                  <value>term</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">technical term</a:documentation>
                   <value>emph</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">rhetorically emphasized</a:documentation>
-                  <value>mentioned</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">refering to itself, not its normal referent</a:documentation>
-                  <data type="Name"/>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value> spoken</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value> thought</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value> foreign</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value> mentioned</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
+                  <value> quotation</value>
+                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"/>
                </choice>
             </attribute>
          </optional>
@@ -1783,6 +1787,7 @@ Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Docum
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <ref name="att.typed.attribute.type"/>
          <empty/>
       </element>
    </define>
@@ -2517,6 +2522,36 @@ Licensing, etc.]</a:documentation>
          <ref name="att.global.analytic.attribute.ana"/>
          <ref name="att.global.responsibility.attribute.cert"/>
          <ref name="att.global.responsibility.attribute.resp"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="floatingText">
+      <element name="floatingText">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]</a:documentation>
+         <group>
+            <zeroOrMore>
+               <ref name="model.global"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="front"/>
+               <zeroOrMore>
+                  <ref name="model.global"/>
+               </zeroOrMore>
+            </optional>
+            <choice>
+               <ref name="body"/>
+            </choice>
+            <zeroOrMore>
+               <ref name="model.global"/>
+            </zeroOrMore>
+            <optional>
+               <ref name="back"/>
+               <zeroOrMore>
+                  <ref name="model.global"/>
+               </zeroOrMore>
+            </optional>
+         </group>
+         <ref name="att.typed.attribute.type"/>
          <empty/>
       </element>
    </define>

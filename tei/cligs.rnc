@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-05-28T10:54:25Z. August 2012.
+# Schema generated from ODD source 2015-05-29T16:33:10Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -593,13 +593,15 @@ model.quoteLike_sequence = quote
 model.quoteLike_sequenceOptional = quote?
 model.quoteLike_sequenceOptionalRepeatable = quote*
 model.quoteLike_sequenceRepeatable = quote+
-model.qLike = model.quoteLike | q
-model.qLike_alternation = model.quoteLike_alternation | q
-model.qLike_sequence = model.quoteLike_sequence, q
-model.qLike_sequenceOptional = model.quoteLike_sequenceOptional?, q?
+model.qLike = model.quoteLike | q | floatingText
+model.qLike_alternation = model.quoteLike_alternation | q | floatingText
+model.qLike_sequence = model.quoteLike_sequence, q, floatingText
+model.qLike_sequenceOptional =
+  model.quoteLike_sequenceOptional?, q?, floatingText?
 model.qLike_sequenceOptionalRepeatable =
-  model.quoteLike_sequenceOptionalRepeatable*, q*
-model.qLike_sequenceRepeatable = model.quoteLike_sequenceRepeatable+, q+
+  model.quoteLike_sequenceOptionalRepeatable*, q*, floatingText*
+model.qLike_sequenceRepeatable =
+  model.quoteLike_sequenceRepeatable+, q+, floatingText+
 model.respLike = author | principal
 model.divWrapper = notAllowed
 model.divTopPart = model.headLike
@@ -792,36 +794,25 @@ q =
     att.ascribed.attributes,
     
     ## may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.
-    ## Suggested values include: 1] spoken; 2] thought; 3] written; 4] soCalled; 5] foreign; 6] distinct; 7] term; 8] emph; 9] mentioned
     attribute type {
       
-      ## representation of speech
-      "spoken"
-      | 
-        ## representation of thought, e.g. internal monologue
-        "thought"
-      | 
-        ## quotation from a written source
-        "written"
-      | 
-        ## authorial distance
-        "soCalled"
+      ##
+      "emph"
       | 
         ##
-        "foreign"
+        " spoken"
       | 
-        ## linguistically distinct
-        "distinct"
+        ##
+        " thought"
       | 
-        ## technical term
-        "term"
+        ##
+        " foreign"
       | 
-        ## rhetorically emphasized
-        "emph"
+        ##
+        " mentioned"
       | 
-        ## refering to itself, not its normal referent
-        "mentioned"
-      | xsd:Name
+        ##
+        " quotation"
     }?,
     empty
   }
@@ -931,6 +922,7 @@ head =
     att.global.analytic.attribute.ana,
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
+    att.typed.attribute.type,
     empty
   }
 note =
@@ -1389,6 +1381,18 @@ body =
     att.global.analytic.attribute.ana,
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
+    empty
+  }
+floatingText =
+  
+  ## contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]
+  element floatingText {
+    (model.global*,
+     (front, model.global*)?,
+     (body),
+     model.global*,
+     (back, model.global*)?),
+    att.typed.attribute.type,
     empty
   }
 \div =
