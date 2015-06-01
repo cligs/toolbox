@@ -91,7 +91,7 @@ def segmenter(inpath, outfolder, target):
             text = re.sub("\n", " ", text)
             text = re.sub("[ ]{1,9}", " ", text)
             words = re.split("\W", text)
-            print("Number of words: ", filename, len(words))
+            #print("Number of words: ", filename, len(words))
             #for word in words[0:31]:
             #    print(word)
 
@@ -167,13 +167,13 @@ def segments_to_bins(inpath, outfile):
         for txtid in txtids_ct:
             if txtid in filename:
                 filename = filename + "$" + str(txtids_ct[txtid])
-                print(filename)
+                #print(filename)
 
     ### For each filename, compute and append bin number
         txtid = filename[0:5]
         segid = filename[6:10]
         segnb = filename[11:]
-        print(txtid,segid,segnb)
+        #print(txtid,segid,segnb)
         binid = ""
 
         segprop = int(segid) / int(segnb)
@@ -374,7 +374,8 @@ def make_lemmatext(inpath,outfolder):
                         lemmata.append("")
                     elif "|" in lemma:
                         lemmata.append(word)
-                    elif "NOM" in pos or "VER" in pos or "ADJ" in pos or "ADV" in pos and "|" not in lemma and "<unknown>" not in lemma:
+                    elif "NOM" in pos and "|" not in lemma and "<unknown>" not in lemma:
+                    #elif "NOM" in pos or "VER" in pos or "ADJ" in pos or "ADV" in pos and "|" not in lemma and "<unknown>" not in lemma:
                         lemmata.append(lemma)
             lemmata = ' '.join(lemmata)
             lemmata = re.sub("[ ]{1,4}"," ", lemmata)
