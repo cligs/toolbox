@@ -11,366 +11,9 @@
 ###  1. Reading and segmenting texts                           ###
 ##################################################################
 
-
-
-def read_teip4_segments(inpath, minimal_length, outfolder):
-    """Script for reading TEI P4 files by segments from one long or several short scenes."""
-    print("\nLaunched tei4reader_scenes.")
-
-    import re
-    import os
-    import glob
-    from lxml import etree
-    #print("Using LXML version: ", etree.LXML_VERSION)
-    
-    if not os.path.exists(outfolder):
-        os.makedirs(outfolder)
-        
-    for file in glob.glob(inpath):
-        with open(file, "r"):
-            filename = os.path.basename(file)[:-4]
-            #print("file: ", filename)
-
-            ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
-            parser = etree.XMLParser(recover=True)
-            xml = etree.parse(file, parser)
-            
-            ### TEI P4 does not declare the namespance, so leave out here.
-            #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-
-            ### Removes tags but conserves their text content.
-            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
-
-            ### Removes elements and their text content.
-            etree.strip_elements(xml, "speaker")
-            etree.strip_elements(xml, "note")
-            #etree.strip_elements(xml, "stage")
-            etree.strip_elements(xml, "head")
-                    
-            ### XPath for separate scenes. 
-            xp_countallacts = "//body/div1"       
-            all_acts = len(xml.xpath(xp_countallacts))
-            xp_countallscenes = "//body/div1/div2"       
-            #all_scenes = len(xml.xpath(xp_countallscenes))
-            #print("All acts and all scenes:",filename, all_acts, all_scenes)
-
-            ### For each act, build list / dataframe of scene lengths.
-            segment_counter = 0
-            for j in range(1,all_acts+1): 
-                xp_getacts = "//body/div1["+str(j)+"]"
-                xp_scenes = xp_getacts+"/div2"
-                scenes = len(xml.xpath(xp_scenes))
-                lengths = []
-                for i in range(1, scenes+1): 
-                    xp_getscenes = xp_getacts+"/div2["+str(i)+"]//text()"
-                    xpath_return = xml.xpath(xp_getscenes)
-                    one_scene = "\n".join(xpath_return)
-                    len_one_scene = len(one_scene.split())
-                    segment = 0
-                    length = [filename,j,i,len_one_scene,segment]
-                    lengths.append(length)
-                #print("\nDetails per act (before):",lengths)
-                scenes_per_act = len(lengths)
-                #print("\nScenes per act:",scenes_per_act)
-                #print("Minimal length:",minimal_length)
-                
-                ### For each act, build a list of scenes with segment number
-                segments = []
-                counter = 1
-                joint_length = 0
-                for l in range(0,scenes_per_act):
-                    #print("l:",l)
-                    if l < scenes_per_act-2:
-                        if lengths[l][3] >= minimal_length:
-                            lengths[l][4] = counter
-                            segments.append(lengths[l])
-                            #print(l,"long enough alone (normal):   ",lengths[l])
-                            counter +=1
-                            joint_length = 0
-                        if lengths[l][3] < minimal_length:
-                            joint_length = joint_length + lengths[l][3]
-                            if joint_length >= minimal_length:
-                                lengths[l][4] = counter
-                                segments.append(lengths[l])
-                                #print(l,"long enough joined (normal):  ",lengths[l])
-                                counter +=1
-                                joint_length = 0
-                            elif joint_length < minimal_length:
-                                lengths[l][4] = counter
-                                segments.append(lengths[l])
-                                #print(l,"too short joined (normal):    ",lengths[l])
-                    if l == scenes_per_act-2:
-                        if lengths[l][3] >= minimal_length:
-                            lengths[l][4] = counter
-                            segments.append(lengths[l])
-                            #print(l,"long enough alone (2nd last): ",lengths[l])
-                            counter +=1
-                            joint_length = 0
-                        if lengths[l][3] < minimal_length:
-                            joint_length = joint_length + lengths[l][3]
-                            if joint_length >= minimal_length:
-                                lengths[l][4] = counter
-                                segments.append(lengths[l])
-                                #print(l,"long enough joined (2nd last):",lengths[l])
-                                counter +=1
-                                joint_length = 0
-                            elif joint_length < minimal_length:
-                                lengths[l][4] = counter
-                                segments.append(lengths[l])
-                                #print(l,"too short joined (2nd last):  ",lengths[l])
-                    if l == scenes_per_act-1:
-                        if lengths[l][3] >= minimal_length:
-                            lengths[l][4] = counter
-                            segments.append(lengths[l])
-                            #print(l,"long enough alone (last):     ",lengths[l])
-                            counter +=1
-                            joint_length = 0
-                        if lengths[l][3] < minimal_length:
-                            joint_length = joint_length + lengths[l][3]
-                            if joint_length >= minimal_length:
-                                lengths[l][4] = counter
-                                segments.append(lengths[l])
-                                #print(l,"long enough joined (last):    ",lengths[l])
-                                counter +=1
-                                joint_length = 0
-                            elif joint_length < minimal_length:
-                                lengths[l][4] = counter-1
-                                segments.append(lengths[l])
-                                #print(l,"too short joined (last):      ",lengths[l])
-
-                #print("Details per act (after):",segments)
-                segments_per_act = segments[-1][-1]
-                #print("Segments per act:",segments_per_act,"\n")
-
-                ### For all segments, build XPath of each scene and combine text            
-                for k in range(1,segments_per_act+1):
-                    #print("Segment =",k)
-                    one_segment = ""
-                    for scene in segments:
-                        if scene[4] == k: 
-                            #print(scene)
-                            act_key = scene[1]
-                            scene_key = scene[2]
-                            xp_one_scene = "//body/div1["+str(act_key)+"]/div2["+str(scene_key)+"]//text()"
-                            #print("XPath for scene:",xp_one_scene)
-                            xpath_return = xml.xpath(xp_one_scene)
-                            one_scene = "\n".join(xpath_return)
-                            #print("Length of scene "+str(scene[2])+": "+str(len(one_scene)))
-                            one_segment = one_segment + one_scene
-                            #print("Length of segment "+ str(k) +": "+ str(len(one_segment)))
-            
-                    ### For each segment to be saved, performs some cleaning up
-                    text_to_save = str(one_segment)
-                    text_to_save = re.sub("  ", "", text_to_save)
-                    text_to_save = re.sub("    ", "", text_to_save)
-                    text_to_save = re.sub("\t", "", text_to_save)
-                    text_to_save = re.sub("\n{1,6}", "\n", text_to_save)
-                    text_to_save = re.sub("\n{1,6}", "\n", text_to_save)
-                    text_to_save = re.sub("\n \n", "\n", text_to_save)
-                    text_to_save = re.sub("\t\n", "", text_to_save)
-
-                    ### For each segment, saves text (from one or several scenes) to file.
-                    segment_counter +=1
-                    act = "{:02d}".format(j)
-                    segment = "{:02d}".format(k)
-                    segment_count = "{:02d}".format(segment_counter)
-                    outfilename = filename +"_A"+ act +"_S"+ segment + "_C"+ segment_count + ".txt"
-                    #print("Saving:", outfilename, "\n")
-                    outpath = outfolder + outfilename
-                    with open(outpath,"w") as output:
-                        output.write(text_to_save)
-
-    print("Done.")
-
-# DONE: Join very short scenes.
-# DONE: Consequences for bins.
-# TODO: Split very long scenes (done manually, currently). 
-
-
-
-def segments_to_bins(inpath, outfile):
-    """Script for sorting scene-based text segments into bins."""
-    print("\nLaunched segments_to_bins.")
-
-    import os
-    import glob
-    from collections import Counter
-    import pandas as pd
-
-    ### Define various objects for later use.
-    txtids = [] # text identifiers
-    segids = [] # segment identifiers
-    filenames = []
-    binids = [] # bin identifiers
-
-    ### Get filenames, text identifiers, segment identifiers.
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        txtid = filename[:6]
-        txtids.append(txtid)
-        segid = filename[-2:]
-        #print(filename, txtid, segid)
-        segids.append(segid)
-    #txtids_sr = pd.Series(txtids)
-    #segids_sr = pd.Series(segids)
-
-    ### For each text identifier, get number of segments.
-    txtids_ct = Counter(txtids)
-    sum_segnbs = 0
-    for txtid in txtids_ct:
-        segnb = txtids_ct[txtid]
-        #print(segnb)
-        sum_segnbs = sum_segnbs + segnb
-        #print(txtid, segnb)
-    print("Total number of segments: ", sum_segnbs)
-
-    ### Match each filename to the number of segments of the text.
-    bcount0 = 0
-    bcount1 = 0
-    bcount2 = 0
-    bcount3 = 0
-    bcount4 = 0
-
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        for txtid in txtids_ct:
-            if txtid in filename:
-                filename = filename + "_T{:02d}".format(txtids_ct[txtid])
-                #print(filename)
-
-    ### For each filename, compute and append bin number
-        txtid = filename[0:6]
-        segid = filename[-6:-4]
-        segnb = filename[-2:]
-        #print(txtid,segid,segnb)
-        binid = ""
-
-        segprop = int(segid) / int(segnb)
-        #print(txtid, segid, segnb, segprop)
-        if segprop > 0 and segprop <= 0.225:
-            binid = 1
-            bcount0 += 1
-        if segprop > 0.225 and segprop <= 0.420:
-            binid = 2
-            bcount1 += 1
-        if segprop > 0.420 and segprop <= 0.620:
-            binid = 3
-            bcount2 += 1
-        if segprop > 0.625 and segprop <= 0.825:
-            binid = 4
-            bcount3 += 1
-        if segprop > 0.825 and segprop <= 1:
-            binid = 5
-            bcount4 += 1
-        #print(segprop, binid)
-
-        filenames.append(filename[:14])
-        binids.append(binid)
-    filenames_sr = pd.Series(filenames, name="filenames")
-    binids_sr = pd.Series(binids, name="binids")
-    files_and_bins = pd.concat([filenames_sr,binids_sr], axis=1)
-
-    print("Scenes per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
-    with open(outfile, "w") as outfile:
-        files_and_bins.to_csv(outfile, index=False)
-        
-    print("Done.")
-  
-
-
-def scenes_to_bins(inpath, outfolder, outfile):
-    """Script for sorting scene-based text segments into bins."""
-    print("\nLaunched scenes_to_bins.")
-
-    import os
-    import glob
-    from collections import Counter
-    import pandas as pd
-
-    ### Define various objects for later use.
-    txtids = []
-    segids = []
-    filenames = []
-    binids = []
-
-    ### Get filenames, text identifiers, segment identifiers.
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        txtid = filename[:6]
-        txtids.append(txtid)
-        segid = filename[-3:]
-        #print(filename, txtid, segid)
-        segids.append(segid)
-    #txtids_sr = pd.Series(txtids)
-    #segids_sr = pd.Series(segids)
-
-    ### For each text identifier, get number of segments.
-    txtids_ct = Counter(txtids)
-    sum_segnbs = 0
-    for txtid in txtids_ct:
-        segnb = txtids_ct[txtid]
-        #print(segnb)
-        sum_segnbs = sum_segnbs + segnb
-        #print(txtid, segnb)
-    #print("Total number of scenes: ", sum_segnbs)
-
-    ### Match each filename to the number of segments of the text.
-    bcount0 = 0
-    bcount1 = 0
-    bcount2 = 0
-    bcount3 = 0
-    bcount4 = 0
-
-    for file in glob.glob(inpath):
-        filename = os.path.basename(file)[:-4]
-        for txtid in txtids_ct:
-            if txtid in filename:
-                filename = filename + "$" + str(txtids_ct[txtid])
-                #print(filename)
-
-    ### For each filename, compute and append bin number
-        txtid = filename[0:6]
-        segid = filename[12:15]
-        segnb = filename[16:]
-        #print(txtid,segid,segnb)
-        binid = ""
-
-        segprop = int(segid) / int(segnb)
-        #print(txtid, segid, segnb, segprop)
-        if segprop > 0 and segprop <= 0.23:
-            binid = 1
-            bcount0 += 1
-        if segprop > 0.23 and segprop <= 0.43:
-            binid = 2
-            bcount1 += 1
-        if segprop > 0.43 and segprop <= 0.63:
-            binid = 3
-            bcount2 += 1
-        if segprop > 0.63 and segprop <= 0.83:
-            binid = 4
-            bcount3 += 1
-        if segprop > 0.83 and segprop <= 5:
-            binid = 5
-            bcount4 += 1
-        #print(segprop, binid)
-
-        filenames.append(filename[:11])
-        binids.append(binid)
-    filenames_sr = pd.Series(filenames, name="filenames")
-    binids_sr = pd.Series(binids, name="binids")
-    files_and_bins = pd.concat([filenames_sr,binids_sr], axis=1)
-
-    print("Scenes per bin: ", bcount0,bcount1,bcount2,bcount3,bcount4)
-    with open(outfile, "w") as outfile:
-        files_and_bins.to_csv(outfile, index=False)
-        
-    print("Done.")
-
-
-
-def tei4reader_fulldocs(inpath, outfolder):
-    """Script for reading selected text from TEI P4 files."""
-    print("\nLaunched tei4reader.")
+def tei5reader_fulldocs(inpath, outfolder):
+    """Script for reading selected text from TEI P5 files."""
+    print("\nLaunched tei5reader_fulldocs.")
 
     import re
     import os
@@ -380,54 +23,44 @@ def tei4reader_fulldocs(inpath, outfolder):
 
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
+     
     for file in glob.glob(inpath):
         with open(file, "r"):
             filename = os.path.basename(file)[:-4]
-            #idno = filename[:5]
-            #print(idno)
-            ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
+            #print(filename[:5]) # = idno
+
+            ### The following options may help with parsing errors.
             #parser = etree.XMLParser(collect_ids=False, recover=True)
             parser = etree.XMLParser(recover=True)
             xml = etree.parse(file, parser)
-
-            ### The TEI P4 files do not have a namespace.
-            #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+            
+            ### The TEI P5 files do have a default namespace.
+            namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
 
             ### Removes tags but conserves their text content.
-            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
+            etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
 
             ### Removes elements and their text content.
-            etree.strip_elements(xml, "speaker")
-            etree.strip_elements(xml, "note")
+            #etree.strip_elements(xml, "speaker")
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}note")
             #etree.strip_elements(xml, "stage")
-            etree.strip_elements(xml, "head")
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}head")
 
             ### XPath defining which text to select
-            #xp_bodyprose = "//tei:body//tei:p//text()"
-            #xp_bodyverse = "//tei:body//tei:l//text()"
-            xp_bodytext = "//body//text()"
+            xp_bodytext = "//tei:body//text()"
             #xp_alltext = "//text()"
-            #xp_castlist = "//tei:castList//text()"
-            #xp_stage = "//tei:stage//text()"
-            #xp_hi = "//tei:body//tei:hi//text()"
-            #xp_speakers = "//tei:body//tei:speaker//text()"
 
             ### Applying one of the above XPaths
-            text = xml.xpath(xp_bodytext)
+            text = xml.xpath(xp_bodytext, namespaces=namespaces)
             text = "\n".join(text)
 
             ### Some cleaning up
             text = re.sub("  ", "", text)
             #text = re.sub("    ", "", text)
-            #text = re.sub("\n{1,6}", "", text)
-            text = re.sub("\n{1,6}", "\n", text)
-            text = re.sub("\n{1,6}", "\n", text)
+            text = re.sub("\n{1,6}", " ", text)
+            #text = re.sub("\n{1,6}", "\n", text)
             text = re.sub("\n \n", "\n", text)
             text = re.sub("\t\n", "", text)
-
-            ### Marking scene transitions
-            #text = re.sub("ACTE[^$]*?\n", "", text)
-            #text = re.sub("SCÈNE[^$]*?\n", "###\n", text)
 
             outtext = str(text)
             outfile = outfolder + filename + ".txt"
@@ -436,43 +69,53 @@ def tei4reader_fulldocs(inpath, outfolder):
     print("Done.")
 
 
-
 def segmenter(inpath, outfolder, target):
     """Script for turning plain text files into equal-sized segments, without respecting paragraph boundaries."""
     print("\nLaunched segmenter.")
 
     import os
     import glob
+    import re
 
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
+        
     for file in glob.glob(inpath):
         with open(file, "r") as infile:
             filename = os.path.basename(file)[:-4]
             #print("File name: ", filename)
             text = infile.read()
 
-            lines = text.split("\n")
-            #print("Number of lines: ", len(lines))
+            text = re.sub("[,;\.!?—]", " ", text)
+            text = re.sub("-", " ", text)
+            text = re.sub("\n", " ", text)
+            text = re.sub("[ ]{1,9}", " ", text)
+            words = re.split("\W", text)
+            print("Number of words: ", filename, len(words))
+            #for word in words[0:31]:
+            #    print(word)
 
             seg = ""
             actual = 0
             counter = 0
-            for i in range(len(lines)-1):
-                if actual < target:
-                    seg = seg + lines[i] + "\n"
-                    actual = len(seg)
-                else:
-                    counter += 1
-                    actual = 0
-                    segname = outfolder + filename + "§{:04d}".format(counter) + ".txt"
-                    with open(segname,"w") as output:
-                        output.write(seg)
-                    seg = ""
+            for i in range(len(words)-1):
+                if len(words[i]) > 1:
+                    if actual < target:
+                        seg = seg + words[i] + " "
+                        #print(words[i])
+                        segsplit = re.split(" ", seg)
+                        actual = len(segsplit)
+                    else:
+                        counter += 1
+                        actual = 0
+                        segname = outfolder + filename + "§{:04d}".format(counter) + ".txt"
+                        with open(segname,"w") as output:
+                            output.write(seg)
+                            seg = ""
     print("Done.")
 
 
-def chunks_to_bins(inpath, outfile):
+def segments_to_bins(inpath, outfile):
     """Script for sorting text segments into bins."""
     print("\nLaunched segments_to_bins.")
 
@@ -492,7 +135,7 @@ def chunks_to_bins(inpath, outfile):
     ### Get filenames, text identifiers, segment identifiers.
     for file in glob.glob(inpath):
         filename = os.path.basename(file)[:-4]
-        txtid = filename[:6]
+        txtid = filename[:5]
         txtids.append(txtid)
         segid = filename[-4:]
         #print(filename, txtid, segid)
@@ -524,48 +167,35 @@ def chunks_to_bins(inpath, outfile):
         for txtid in txtids_ct:
             if txtid in filename:
                 filename = filename + "$" + str(txtids_ct[txtid])
-                #print(filename)
+                print(filename)
 
     ### For each filename, compute and append bin number
-        txtid = filename[0:6]
-        segid = filename[7:11]
-        segnb = filename[12:]
-        #print(txtid,segid,segnb)
+        txtid = filename[0:5]
+        segid = filename[6:10]
+        segnb = filename[11:]
+        print(txtid,segid,segnb)
         binid = ""
 
         segprop = int(segid) / int(segnb)
         #print(txtid, segid, segnb, segprop)
-        if segprop > 0 and segprop <= 0.215:
+        if segprop > 0 and segprop <= 0.210:
             binid = 1
             bcount0 += 1
-        if segprop > 0.215 and segprop <= 0.41:
+        if segprop > 0.210 and segprop <= 0.41:
             binid = 2
             bcount1 += 1
         if segprop > 0.41 and segprop <= 0.61:
             binid = 3
             bcount2 += 1
-        if segprop > 0.61 and segprop <= 0.815:
+        if segprop > 0.61 and segprop <= 0.81:
             binid = 4
             bcount3 += 1
-        if segprop > 0.815 and segprop <= 5:
+        if segprop > 0.81 and segprop <= 1:
             binid = 5
             bcount4 += 1
         #print(segprop, binid)
 
-
-### Not necessary to create these files. Information will be read from table.
-#        with open(file, "r") as infile:
-#            text = infile.read()
-#            #print(text)
-#            if not os.path.exists("./2_segments_bins/"):
-#                os.makedirs("./2_segments_bins/")
-#            newfilename = "./2_segments_bins/" + str(binid) + str(filename[0:12]) + ".txt"
-#            #print(newfilename)
-#            #print(text)
-#        with open(newfilename, "w") as outf:
-#            outf.write(text)
-###
-        filenames.append(filename[:11])
+        filenames.append(filename[:10])
         binids.append(binid)
     filenames_sr = pd.Series(filenames, name="filenames")
     binids_sr = pd.Series(binids, name="binids")
@@ -769,6 +399,7 @@ def call_mallet_import(infolder,outfolder, outfile, stoplist):
     
     import subprocess
     import os
+
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
     
@@ -790,6 +421,7 @@ def call_mallet_modeling(inputfile,outfolder,num_topics,optimize_interval,num_it
     ### Getting ready.
     import os
     import subprocess
+    
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
 
@@ -857,7 +489,7 @@ def make_wordle_from_mallet(word_weights_file,topics,words,outfolder,dpi):
     ## Creates the wordle visualisation, using results from the above functions.
     for topic in range(0,topics):
         ## Defines filename and title for the wordle image.
-        figure_filename = "wordle_tp"+"{:03d}".format(topic) + ".jpg"
+        figure_filename = "wordle_tp"+"{:03d}".format(topic) + ".png"
         figure_title = "topic "+ "{:02d}".format(topic)        
         ## Gets the text for one topic.
         text = get_wordlewords(words,topic)
@@ -941,11 +573,11 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         for fn in filenames:
             basename = os.path.basename(fn)
             filename, ext = os.path.splitext(basename)
-            idno = filename[:6]
+            idno = filename[:5]
             #print(idno)
             label_name = metadata.loc[idno,target]
             #label_name = label_name[0:3]
-            #print("Identifier and metadata label: ", idno, label_name)
+            print("Identifier and metadata label: ", idno, label_name)
             outputfilename = outfolder + "topics_by_" + target.upper() + "-hm.csv"
             label_names.append(label_name)
         label_names = np.asarray(label_names)
@@ -1039,7 +671,7 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     for item in filenames:
         basename = os.path.basename(item)
         filename, ext = os.path.splitext(basename)
-        textidno = filename[0:6]
+        textidno = filename[0:5]
         metadata_target = target
         genre_label = metadata.loc[textidno,metadata_target]
         binidno = filename[0:14]
@@ -1111,7 +743,7 @@ def create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi):
         plt.ylabel("Top topics (sorted by stdev)")
         #plt.show()
         data_filename = os.path.basename(file)[:-7]
-        figure_filename = outfolder + "hm_" + data_filename + ".jpg"
+        figure_filename = outfolder + "hm_" + data_filename + ".png"
         plt.savefig(figure_filename, dpi=dpi)
         plt.close()
 
@@ -1200,7 +832,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             #plt.show()
 
             ### Save figure
-            figure_filename = outfolder + "lp_"+ str(heightindicator) +"_" + tpid + ".jpg"
+            figure_filename = outfolder + "lp_"+ str(heightindicator) +"_" + tpid + ".png"
             plt.savefig(figure_filename, dpi=dpi)
             plt.close()
             

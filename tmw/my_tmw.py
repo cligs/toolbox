@@ -14,62 +14,38 @@
 # 4. Set parameters for each function.
 # 5. Run the workflow.
 
-# One possible workflow: 1ab,  2abc, 3ab, 4, 5ab, 6ab.
-# Alternative workflow:  1def, 2abc, 3ab, 4, 5ab, 6ab.
-
 
 import tmw
 #print(help(topmod))
 
 ### Set the general working directory.
-wdir = "/home/christof/Dropbox/0-Analysen/2015/tc_GDDH/tmw/" # end with slash.
+wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an3/" # end with slash.
 
-
-### 1a read_teip4_segments (reads text and builds segments from complete scenes)
-inpath = wdir + "0_tei/*.xml"
-minimal_length = 500 # Minimal segment length in words. "0" = separate scenes.
-outfolder = wdir + "2_segments/"
-#tmw.read_teip4_segments(inpath,minimal_length,outfolder)
-
-### 1b - segments_to_bins (scenes combined to segments)
-inpath = wdir + "2_segments/*.txt"
-#outfolder = wdir + "2_segments_bins/"
-outfile = wdir + "segments-and-bins.csv"
-#tmw.segments_to_bins(inpath,outfile)
-
-### 1c - scenes_to_bins (individual scenes)
-inpath = wdir + "2_scenes/*.txt"
-outfolder = wdir + "2_scenes_bins/"
-outfile = wdir + "scenes-and-bins.csv"
-#tmw.scenes_to_bins(inpath,outfolder,outfile)
-
-
-
-### 1d - tei4reader_fulldocs (standard option)
-inpath = wdir + "0_tei/*.xml"
+### 1a - tei5reader_fulldocs (standard option)
+inpath = wdir + "0_tei_test/*.xml"
 outfolder = wdir + "1_txt/"
-#tmw.tei4reader_fulldocs(inpath,outfolder)
+#tmw.tei5reader_fulldocs(inpath,outfolder)
 
-### 1e - segmenter
+### 1b - segmenter
 inpath = wdir + "1_txt/*.txt"
-outpath = wdir + "2_chunks/"
-segment_length = 5000
+outpath = wdir + "2_segs/"
+segment_length = 1000
 #tmw.segmenter(inpath,outpath,segment_length)
 
-### 1f - segments_to_bins: inpath, outfile
-inpath = wdir + "2_chunks/*.txt"
-outfile = wdir + "chunks-and-bins.csv"
+### 1c - segments_to_bins: inpath, outfile
+inpath = wdir + "2_segs/*.txt"
+outfile = wdir + "segs-and-bins.csv"
 #tmw.segments_to_bins(inpath,outfile)
 
 
 
 ### 2a - pretokenize
-inpath = wdir + "2_segments/*.txt"
-outfolder = wdir + "3_tokenized/"
+inpath = wdir + "2_segs/*.txt"
+outfolder = wdir + "3_tokens/"
 #tmw.pretokenize(inpath,outfolder)
 
 ### 2b - call_treetagger
-infolder = wdir + "3_tokenized/"
+infolder = wdir + "3_tokens/"
 outfolder = wdir + "4_tagged/"
 tagger = "/home/christof/Programs/TreeTagger/cmd/tree-tagger-french"
 #tmw.call_treetagger(infolder, outfolder, tagger) 
@@ -84,16 +60,16 @@ outfolder = wdir + "5_lemmata/"
 ### 3a - call_mallet_import
 infolder = wdir + "5_lemmata/"
 outfolder = wdir + "6_mallet/" 
-outfile = outfolder + "tc375.mallet"
-stoplist = wdir + "fr-lem.txt"
+outfile = outfolder + "rp270.mallet"
+stoplist = "fr-lem.txt" # put in tmw folder!
 #tmw.call_mallet_import(infolder,outfolder,outfile,stoplist)
 
 ### 3b - call_mallet_model
-inputfile = wdir + "6_mallet/tc375.mallet"
+inputfile = wdir + "6_mallet/rp270.mallet"
 outfolder = wdir + "6_mallet/"
 num_topics = "80"
 optimize_interval = "100"
-num_iterations = "10000"
+num_iterations = "1000"
 num_top_words = "100"
 doc_topics_max = "80"
 num_threads = "4"
@@ -115,9 +91,9 @@ dpi = 300
 corpuspath = wdir + "5_lemmata"
 outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/topics-in-texts.csv"
-metadatafile = wdir + "tc375.csv"
-targets = ["identifier"] # USER: set depending on available metadata
-#targets = ["identifier","author","decade","genre","insp-type","insp-region"] # USER: set depending on available metadata
+metadatafile = wdir + "rp270.csv"
+targets = ["decade"] # USER: set depending on available metadata
+#targets = ["idno","author","decade","subgenre","label","narr"] # USER: set depending on available metadata
 #tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
 
 ### 5b - create_topicscores_heatmap
@@ -129,23 +105,24 @@ dpi = 300
 #tmw.create_topicscores_heatmap(inpath,outfolder,rows_shown,font_scale,dpi)
 
 
+
 ### 6a - aggregate_using_bins_and_metadata
 corpuspath = wdir + "5_lemmata"
 outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/" + "topics-in-texts.csv"
-metadatafile = wdir + "tc375.csv"
-bindatafile = wdir + "segments-and-bins.csv" # USER: segments or scenes?
-target = "genre" # User: set ranges in tmw.py
+metadatafile = wdir + "rp270.csv"
+bindatafile = wdir + "segs-and-bins.csv" # USER: segments or scenes?
+target = "label" # User: set ranges in tmw.py
 #tmw.aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,bindatafile,target)
 
 ### 6b - create_topicscores_lineplot
-inpath = wdir + "7_aggregates/*lp.csv"
+inpath = wdir + "7_aggregates/*LABEL-lp.csv"  # narrow down as needed
 outfolder = wdir + "8_visuals/lineplots/"
 topicwordfile = wdir + "6_mallet/topics-with-words.csv"
 dpi = 300
 height = 0.100
-genres = ["comedy","tragedy"] # User: set depending on metadata.
-#tmw.create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres)
+genres = ["detection","noir"] # User: set depending on metadata. Available: noir, detection, criminel, experim., archq., blanche, neopl., susp.
+tmw.create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres)
 
 
 
