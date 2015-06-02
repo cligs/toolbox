@@ -21,6 +21,7 @@ Created on Thu May 21 15:57:56 2015
 # Import statements   #
 #######################
 
+import os
 import glob
 import json
 import numpy as np
@@ -65,7 +66,8 @@ def get_fileinfos(collection_name):
     fileinfos = {}    
     # loop trough each file in the collection
     for filepath in glob.glob(pathpattern):
-        filename = re.search("[A-Za-z0-9_-]+\.xml$", filepath).group(0)
+        filename2 = os.path.basename(filepath)
+        print(filename2)
         
         xml = etree.parse(filepath)
         namespaces = {"tei":"http://www.tei-c.org/ns/1.0"}
