@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-05-29T16:33:10Z. August 2012.
+# Schema generated from ODD source 2015-06-09T19:18:08Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -274,6 +274,7 @@ att.global.rendition.attribute.rendition =
   }?
 att.global.attributes =
   att.global.rendition.attributes,
+  att.global.linking.attributes,
   att.global.analytic.attributes,
   att.global.facs.attributes,
   att.global.responsibility.attributes,
@@ -553,12 +554,12 @@ model.lLike_sequence = l
 model.lLike_sequenceOptional = l?
 model.lLike_sequenceOptionalRepeatable = l*
 model.lLike_sequenceRepeatable = l+
-model.pLike = p
-model.pLike_alternation = p
-model.pLike_sequence = p
-model.pLike_sequenceOptional = p?
-model.pLike_sequenceOptionalRepeatable = p*
-model.pLike_sequenceRepeatable = p+
+model.pLike = p | ab
+model.pLike_alternation = p | ab
+model.pLike_sequence = p, ab
+model.pLike_sequenceOptional = p?, ab?
+model.pLike_sequenceOptionalRepeatable = p*, ab*
+model.pLike_sequenceRepeatable = p+, ab+
 model.stageLike = stage
 model.stageLike_alternation = stage
 model.stageLike_sequence = stage
@@ -797,16 +798,28 @@ q =
     attribute type {
       
       ##
-      "emph"
-      | 
-        ##
-        " spoken"
+      "spoken"
       | 
         ##
         " thought"
       | 
         ##
+        " written"
+      | 
+        ##
+        " soCalled"
+      | 
+        ##
         " foreign"
+      | 
+        ##
+        " distinct"
+      | 
+        ##
+        " term"
+      | 
+        ##
+        " emph"
       | 
         ##
         " mentioned"
@@ -1012,15 +1025,8 @@ l =
     att.global.responsibility.attribute.resp,
     
     ## specifies whether or not its parent element is fragmented in some way, typically by some other overlapping structure: for example a speech which is divided between two or more verse stanzas, a paragraph which is split across a page division, a verse line which is divided between two speakers.
-    [ a:defaultValue = "N" ]
-    attribute part {
-      
-      ##
-      "initial"
-      | 
-        ##
-        " final"
-    }?,
+    ## Sample values include: 1] initial; 2]  final
+    [ a:defaultValue = "N" ] attribute part { data.enumerated }?,
     empty
   }
 lg =
@@ -1680,6 +1686,28 @@ forename =
     att.typed.attributes,
     empty
   }
+att.global.linking.attributes =
+  att.global.linking.attribute.corresp,
+  att.global.linking.attribute.next,
+  att.global.linking.attribute.prev
+att.global.linking.attribute.corresp =
+  
+  ## (corresponds) points to elements that correspond to the current element in some way.
+  attribute corresp {
+    list { data.pointer+ }
+  }?
+att.global.linking.attribute.next =
+  
+  ## points to the next element of a virtual aggregate of which the current element is part.
+  attribute next { data.pointer }?
+att.global.linking.attribute.prev =
+  
+  ## (previous) points to the previous element of a virtual aggregate of which the current element is part.
+  attribute prev { data.pointer }?
+ab =
+  
+  ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
+  element ab { macro.paraContent, att.typed.attribute.type, empty }
 att.global.facs.attributes = att.global.facs.attribute.facs
 att.global.facs.attribute.facs =
   
