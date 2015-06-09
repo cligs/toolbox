@@ -44,7 +44,7 @@ def getHtmlPage(url):
 # Output:   Ordered Dictionary (by Pagenumber) with page-links
 #   i.e. http://www.cervantesvirtual.com/portales/pardo_bazan/obra-visor-din/casualidad--0/html/
 ################################################################################################
-def getPageUrls(htmlpageurl):
+def getPageUrls(htmlpageurl, generateSubsequalNumbers = True):
     time.sleep(1)
     retry_counter = 5
     while (retry_counter > 0):
@@ -56,17 +56,32 @@ def getPageUrls(htmlpageurl):
             time.sleep(1)
         else:
             break
-    regex = re.compile("([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}_([0-9]+).html)")
+    regex = re.compile("(([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}_)([0-9]+)(.html))")
     urls = {}
+    prefix = None
+    suffix = None
+    maxurl = -1
     for a in anchors:
         found = (regex.findall(a['href']))[0]
-        if(len(found) > 1):
+        if(len(found) > 2):
+            prefix = found[1]
+            suffix = found[3]
             url = found[0]
             if not is_absolute(found[0]):       # dealing with relative paths
                 url = urlparse.urljoin(r.url, found[0])
-            urls[int(found[1])] = url
+                prefix = urlparse.urljoin(r.url, found[1])
+            urls[int(found[2])] = url
+            if int(found[2]) > maxurl:
+                maxurl = int(found[2])
 
     o_urls = OrderedDict(sorted(urls.items()))
+    if len(o_urls) < maxurl:
+        print("WARNING: Found anchors are not subsequent!")
+        print("\tTrying to guess anchors left out.")
+        if generateSubsequalNumbers:
+            o_urls = {}
+            for i in range(1, maxurl + 1):
+                o_urls[i] = prefix + str(i) + suffix
     return o_urls
 
 ###################################################################################
@@ -76,10 +91,23 @@ def getPageUrls(htmlpageurl):
 #                            Remove all HTML specific non-text
 # Output:   aggregated booktext
 ###################################################################################
-def unitePages(o_urls, plaintext=False):
+def unitePages(o_urls, plaintext=False, extendIfIncomplete=True):
     booktext = ""
     retry_counter = 5
-    for url in o_urls.values():
+    nextpage = None
+    hadNextPageErrorCtr = 0
+    vals = list(o_urls.values())
+    counter = 0
+    while True:
+        if counter < len(vals):
+            url = vals[counter]
+        elif nextpage is not None and extendIfIncomplete:
+            url = nextpage
+            hadNextPageErrorCtr += 1
+        else:
+            break
+
+        counter += 1
         time.sleep(1)
         r = requests.get(url)
         code = r.status_code
@@ -94,7 +122,14 @@ def unitePages(o_urls, plaintext=False):
             booktext = booktext + (text.get_text() if plaintext else r.text) + "\n"
         else:
             print("Error: Not for all pages valid text found.")
-    return booktext
+        anchors = text.select('img[alt="Siguiente"]')
+        if len(anchors) > 0:
+            nextpage = urlparse.urljoin(r.url, anchors[0].parent['href'])
+        else:
+            nextpage = None
+    if hadNextPageErrorCtr > 0:
+        print("WARNING! All indexed pages process but there were even more! [Indexed: " + str(len(vals)) + " Found: " + str(counter) + "]")
+    return booktext, None
 
 ############################################
 # Write booktext to file
@@ -138,7 +173,7 @@ def meta2booktext(url):
 #    idp = re.compile("http://www.cervantesvirtual.com/nd/ark:/(\d+/[0-9a-z]+)")
     idp = re.compile(".*obra/([^/]+)")
     id = (idp.findall(url)[0]).replace("/", "-").replace("\n", "")
-    write2file(booktext, id + ".html")
+    write2file(booktext[0], id + ".html")
 
 
 ###############################################
@@ -157,5 +192,6 @@ def batch(file):
             errors = errors + url + "\n"
             print("\t" + url)
         write2file(errors, "errors.txt")
+#batch('cv.txt')
 
-batch('cv.txt')
+meta2booktext("http://www.cervantesvirtual.com/portales/pardo_bazan/obra/la-piedra-angular--0/")
