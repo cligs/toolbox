@@ -135,7 +135,7 @@ def segments_to_bins(inpath, outfile):
     ### Get filenames, text identifiers, segment identifiers.
     for file in glob.glob(inpath):
         filename = os.path.basename(file)[:-4]
-        txtid = filename[:5]
+        txtid = filename[:6]
         txtids.append(txtid)
         segid = filename[-4:]
         #print(filename, txtid, segid)
@@ -170,18 +170,18 @@ def segments_to_bins(inpath, outfile):
                 #print(filename)
 
     ### For each filename, compute and append bin number
-        txtid = filename[0:5]
-        segid = filename[6:10]
-        segnb = filename[11:]
+        txtid = filename[0:6]
+        segid = filename[7:11]
+        segnb = filename[12:]
         #print(txtid,segid,segnb)
         binid = ""
 
         segprop = int(segid) / int(segnb)
         #print(txtid, segid, segnb, segprop)
-        if segprop > 0 and segprop <= 0.210:
+        if segprop > 0 and segprop <= 0.21:
             binid = 1
             bcount0 += 1
-        if segprop > 0.210 and segprop <= 0.41:
+        if segprop > 0.21 and segprop <= 0.41:
             binid = 2
             bcount1 += 1
         if segprop > 0.41 and segprop <= 0.61:
@@ -522,6 +522,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
 
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
+    
 
     for target in targets:
         CORPUS_PATH = os.path.join(corpuspath)
@@ -560,25 +561,25 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
             row_num = mallet_docnames.index(docname)
             doctopic[row_num, topic] = share
             counter += 1
-            if counter % 50000 == 0:
+            if counter % 25000 == 0:
                 print("Iterations done:", counter)
         print("Uff. Done creating doctopic triples")
 
         #### Define aggregation criterion ####
         ### Read metadata from CSV file and create DataFrame
         metadata = pd.DataFrame.from_csv(metadatafile, header=0, sep=",")
-        #print(metadata.head())
+        print(metadata.head())
         print("Starting with building the set of label names")
 
         label_names = []
         for fn in filenames:
             basename = os.path.basename(fn)
             filename, ext = os.path.splitext(basename)
-            idno = filename[:5]
+            idno = filename[:6]
             #print(idno)
             label_name = metadata.loc[idno,target]
             #label_name = label_name[0:3]
-            print("Identifier and metadata label: ", idno, label_name)
+            print("idno and label: ", idno, label_name)
             outputfilename = outfolder + "topics_by_" + target.upper() + "-hm.csv"
             label_names.append(label_name)
         label_names = np.asarray(label_names)
@@ -586,7 +587,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         #print("Number of entries in list of labels: ", len(label_names))
         #print("Number of different labels:", len(label_names_set))
         #print("All different label names: ", sorted(label_names_set))
-        
+
         #### Group topic scores according to label ####
         doctopic_grouped = np.zeros((num_groups_labels, num_topics))
         for i, name in enumerate(sorted(set(label_names))):

@@ -10,10 +10,11 @@ from lxml import etree
 import glob
 import os
 
-def get_metadata(inputpath):
+def get_metadata(workingdir,inputpath):
     """Get metadata from teiHeader, write it to CSV."""
-    for file in glob.glob(inputpath):
+    for file in glob.glob(workingdir + inputpath):
         idno = os.path.basename(file)[0:6]
+        #print("Now working on", idno)
     
         xml = etree.parse(file)
         namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
@@ -34,12 +35,12 @@ def get_metadata(inputpath):
         subgenre = xml.xpath(xpath, namespaces=namespaces)[0]
 
         metadata_row = idno + "," + shortauthor + "," + shorttitle + "," + date + "," + genre + "," + subgenre + "\n"
-        print(metadata_row)
-        with open("metadata.csv", "a") as metadatafile: # appending!
+        #print(metadata_row[:-1])
+        with open(workingdir + "newmetadata.csv", "a") as metadatafile: # appending!
             metadatafile.write(metadata_row)
 
-def main(inputpath):
-    get_metadata(inputpath)
+def main(workingdir,inputpath):
+    get_metadata(workingdir,inputpath)
     print("\nDone.")
 
-main('../../romanfrancais/master/rf*.xml')
+main("../../romanfrancais/", "master/rf*.xml")

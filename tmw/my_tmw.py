@@ -19,7 +19,7 @@ import tmw
 #print(help(topmod))
 
 ### Set the general working directory.
-wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an3/" # end with slash.
+wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an4/" # end with slash.
 
 ### 1a - tei5reader_fulldocs (standard option)
 inpath = wdir + "0_tei/*.xml"
@@ -62,18 +62,18 @@ infolder = wdir + "5_lemmata/"
 outfolder = wdir + "6_mallet/" 
 outfile = outfolder + "rp270.mallet"
 stoplist = "fr-lem.txt" # put in tmw folder!
-tmw.call_mallet_import(infolder,outfolder,outfile,stoplist)
+#tmw.call_mallet_import(infolder,outfolder,outfile,stoplist)
 
 ### 3b - call_mallet_model
 inputfile = wdir + "6_mallet/rp270.mallet"
 outfolder = wdir + "6_mallet/"
-num_topics = "60"
-optimize_interval = "100"
+num_topics = "100"
+optimize_interval = "200"
 num_iterations = "10000"
 num_top_words = "100"
-doc_topics_max = "60"
+doc_topics_max = "100"
 num_threads = "4"
-tmw.call_mallet_modeling(inputfile,outfolder,num_topics,optimize_interval,num_iterations,num_top_words,doc_topics_max)
+#tmw.call_mallet_modeling(inputfile,outfolder,num_topics,optimize_interval,num_iterations,num_top_words,doc_topics_max)
 
 
 
@@ -83,7 +83,7 @@ topics = 80
 words = 40
 outfolder = wdir + "8_visuals/wordles/"
 dpi = 300
-tmw.make_wordle_from_mallet(word_weights_file,topics,words,outfolder,dpi)
+#tmw.make_wordle_from_mallet(word_weights_file,topics,words,outfolder,dpi)
 
 
 
@@ -91,10 +91,10 @@ tmw.make_wordle_from_mallet(word_weights_file,topics,words,outfolder,dpi)
 corpuspath = wdir + "5_lemmata"
 outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/topics-in-texts.csv"
-metadatafile = wdir + "rp270.csv"
-targets = ["decade"] # USER: set depending on available metadata
-targets = ["idno","author","decade","subgenre","label","narr"] # USER: set depending on available metadata
-#tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
+metadatafile = wdir + "metadata.csv"
+target = "subgenre" # USER: set depending on available metadata
+#targets = ["idno","author","decade","subgenre","label","narr"] # USER: set depending on available metadata
+tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
 
 ### 5b - create_topicscores_heatmap
 inpath = wdir + "7_aggregates/*-hm.csv"
