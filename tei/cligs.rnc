@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-06-09T19:18:08Z. August 2012.
+# Schema generated from ODD source 2015-06-18T14:52:24Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -457,7 +457,7 @@ model.nameLike.agent_sequence = name
 model.nameLike.agent_sequenceOptional = name?
 model.nameLike.agent_sequenceOptionalRepeatable = name*
 model.nameLike.agent_sequenceRepeatable = name+
-model.segLike = s | w
+model.segLike = s | w | seg
 model.hiLike = hi
 model.hiLike_alternation = hi
 model.hiLike_sequence = hi
@@ -594,15 +594,16 @@ model.quoteLike_sequence = quote
 model.quoteLike_sequenceOptional = quote?
 model.quoteLike_sequenceOptionalRepeatable = quote*
 model.quoteLike_sequenceRepeatable = quote+
-model.qLike = model.quoteLike | q | floatingText
-model.qLike_alternation = model.quoteLike_alternation | q | floatingText
-model.qLike_sequence = model.quoteLike_sequence, q, floatingText
+model.qLike = model.quoteLike | said | floatingText
+model.qLike_alternation =
+  model.quoteLike_alternation | said | floatingText
+model.qLike_sequence = model.quoteLike_sequence, said, floatingText
 model.qLike_sequenceOptional =
-  model.quoteLike_sequenceOptional?, q?, floatingText?
+  model.quoteLike_sequenceOptional?, said?, floatingText?
 model.qLike_sequenceOptionalRepeatable =
-  model.quoteLike_sequenceOptionalRepeatable*, q*, floatingText*
+  model.quoteLike_sequenceOptionalRepeatable*, said*, floatingText*
 model.qLike_sequenceRepeatable =
-  model.quoteLike_sequenceRepeatable+, q+, floatingText+
+  model.quoteLike_sequenceRepeatable+, said+, floatingText+
 model.respLike = author | principal
 model.divWrapper = notAllowed
 model.divTopPart = model.headLike
@@ -767,6 +768,22 @@ hi =
     att.global.responsibility.attribute.resp,
     empty
   }
+said =
+  
+  ## (speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]
+  element said {
+    macro.specialPara,
+    att.global.attributes,
+    att.ascribed.attributes,
+    
+    ## may be used to indicate whether the quoted matter is regarded as having been vocalized or signed.
+    [ a:defaultValue = "unknown" ]
+    attribute aloud { data.xTruthValue }?,
+    
+    ## may be used to indicate whether the quoted matter is regarded as direct or indirect speech.
+    [ a:defaultValue = "true" ] attribute direct { data.xTruthValue }?,
+    empty
+  }
 quote =
   
   ## (quotation) contains a phrase or passage attributed by the narrator or author to some agency external to the text. [3.3.3. Quotation 4.3.1. Grouped Texts]
@@ -779,54 +796,6 @@ quote =
     att.global.responsibility.attribute.cert,
     att.global.responsibility.attribute.resp,
     att.typed.attribute.type,
-    empty
-  }
-q =
-  
-  ## (quoted) contains material which is distinguished from the surrounding text using quotation marks or a similar method, for any one of a variety of reasons including, but not limited to: direct speech or thought, technical terms or jargon, authorial distance, quotations from elsewhere, and passages that are mentioned but not used. [3.3.3. Quotation]
-  element q {
-    macro.specialPara,
-    att.global.attribute.xmlid,
-    att.global.attribute.n,
-    att.global.attribute.xmllang,
-    att.global.analytic.attribute.ana,
-    att.global.responsibility.attribute.cert,
-    att.global.responsibility.attribute.resp,
-    att.ascribed.attributes,
-    
-    ## may be used to indicate whether the offset passage is spoken or thought, or to characterize it more finely.
-    attribute type {
-      
-      ##
-      "spoken"
-      | 
-        ##
-        " thought"
-      | 
-        ##
-        " written"
-      | 
-        ##
-        " soCalled"
-      | 
-        ##
-        " foreign"
-      | 
-        ##
-        " distinct"
-      | 
-        ##
-        " term"
-      | 
-        ##
-        " emph"
-      | 
-        ##
-        " mentioned"
-      | 
-        ##
-        " quotation"
-    }?,
     empty
   }
 term =
@@ -1356,7 +1325,7 @@ TEI =
   element text {
     (model.global*,
      (front, model.global*)?,
-     (body),
+     (body | group),
      model.global*,
      (back, model.global*)?),
     att.global.attribute.xmlid,
@@ -1389,13 +1358,25 @@ body =
     att.global.responsibility.attribute.resp,
     empty
   }
+group =
+  
+  ## contains the body of a composite text, grouping together a sequence of distinct texts (or groups of such texts) which are regarded as a unit for some purpose, for example the collected works of an author, a sequence of prose essays, etc. [4. Default Text Structure 4.3.1. Grouped Texts 15.1. Varieties of Composite Text]
+  element group {
+    ((model.divTop | model.global)*,
+     ((\text | group), (\text | group | model.global)*),
+     model.divBottom*),
+    att.global.attributes,
+    att.declaring.attributes,
+    att.typed.attributes,
+    empty
+  }
 floatingText =
   
   ## contains a single text of any kind, whether unitary or composite, which interrupts the text containing it at any point and after which the surrounding text resumes. [4.3.2. Floating Texts]
   element floatingText {
     (model.global*,
      (front, model.global*)?,
-     (body),
+     (body | group),
      model.global*,
      (back, model.global*)?),
     att.typed.attribute.type,
@@ -1488,6 +1469,7 @@ s =
       | surname
       | idno
       | ref
+      | seg
       | w)*)
     >> sch:pattern [
          id = "cligs-s-noNestedS-constraint-2"
@@ -1524,6 +1506,7 @@ w =
   element w {
     (text
      | model.gLike
+     | seg
      | w
      | model.global
      | model.lPart
@@ -1707,7 +1690,49 @@ att.global.linking.attribute.prev =
 ab =
   
   ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
-  element ab { macro.paraContent, att.typed.attribute.type, empty }
+  element ab {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmllang,
+    att.global.rendition.attribute.rend,
+    att.typed.attribute.type,
+    empty
+  }
+seg =
+  
+  ## (arbitrary segment) represents any segmentation of text below the chunk level. [16.3. Blocks, Segments, and Anchors 6.2. Components of the Verse Line 7.2.5. Speech Contents]
+  element seg {
+    macro.paraContent,
+    att.global.attribute.xmlid,
+    att.global.attribute.xmllang,
+    att.global.rendition.attribute.rend,
+    
+    ## characterizes the element in some sense, using any convenient classification scheme or typology.
+    attribute type {
+      
+      ##
+      "emph"
+      | 
+        ##
+        " thought"
+      | 
+        ##
+        " foreign"
+      | 
+        ##
+        " mentioned"
+      | 
+        ##
+        " quotation"
+      | 
+        ##
+        " soCalled"
+      | 
+        ##
+        " written"
+    }?,
+    empty
+  }
 att.global.facs.attributes = att.global.facs.attribute.facs
 att.global.facs.attribute.facs =
   
