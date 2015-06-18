@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-06-18T14:52:24Z. August 2012.
+# Schema generated from ODD source 2015-06-18T15:18:08Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -451,6 +451,31 @@ att.sortable.attribute.sortKey =
   
   ## supplies the sort key for this element in an index, list or group which contains it.
   attribute sortKey { data.word }?
+sch:pattern [
+  id = "cligs-att.spanning-spanTo-spanTo-2-constraint-4"
+  "\x{a}" ~
+  "      "
+  sch:rule [
+    context = "tei:*[@spanTo]"
+    "\x{a}" ~
+    "            "
+    sch:assert [
+      test =
+        "id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]"
+      "\x{a}" ~
+      "The element indicated by @spanTo ("
+      sch:value-of [ select = "@spanTo" ]
+      ") must follow the current element "
+      sch:name [ ]
+      "\x{a}" ~
+      "                  "
+    ]
+    "\x{a}" ~
+    "          "
+  ]
+  "\x{a}" ~
+  "   "
+]
 model.nameLike.agent = name
 model.nameLike.agent_alternation = name
 model.nameLike.agent_sequence = name
@@ -458,12 +483,12 @@ model.nameLike.agent_sequenceOptional = name?
 model.nameLike.agent_sequenceOptionalRepeatable = name*
 model.nameLike.agent_sequenceRepeatable = name+
 model.segLike = s | w | seg
-model.hiLike = hi
-model.hiLike_alternation = hi
-model.hiLike_sequence = hi
-model.hiLike_sequenceOptional = hi?
-model.hiLike_sequenceOptionalRepeatable = hi*
-model.hiLike_sequenceRepeatable = hi+
+model.hiLike = notAllowed
+model.hiLike_alternation = notAllowed
+model.hiLike_sequence = empty
+model.hiLike_sequenceOptional = empty
+model.hiLike_sequenceOptionalRepeatable = empty
+model.hiLike_sequenceRepeatable = notAllowed
 model.emphLike = term | title
 model.emphLike_alternation = term | title
 model.emphLike_sequence = term, title
@@ -513,7 +538,7 @@ model.pPart.edit = model.pPart.editorial | model.pPart.transcriptional
 model.ptrLike = ref
 model.lPart = notAllowed
 model.global.meta = notAllowed
-model.milestoneLike = notAllowed
+model.milestoneLike = milestone
 model.gLike = notAllowed
 model.oddDecl = notAllowed
 model.oddDecl_alternation = notAllowed
@@ -755,19 +780,6 @@ p =
     }?,
     empty
   }
-hi =
-  
-  ## (highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]
-  element hi {
-    macro.paraContent,
-    att.global.attribute.xmlid,
-    att.global.attribute.n,
-    att.global.attribute.xmllang,
-    att.global.rendition.attribute.rend,
-    att.global.responsibility.attribute.cert,
-    att.global.responsibility.attribute.resp,
-    empty
-  }
 said =
   
   ## (speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]
@@ -920,6 +932,16 @@ note =
     att.typed.attribute.type,
     empty
   }
+milestone =
+  
+  ## marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.10.3. Milestone
+  ## Elements]
+  element milestone {
+    empty,
+    att.global.rendition.attribute.rend,
+    att.typed.attribute.type,
+    empty
+  }
 author =
   
   ## in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]
@@ -1011,7 +1033,7 @@ lg =
       | lg)*,
      (model.divBottom, model.global*)*)
     >> sch:pattern [
-         id = "cligs-lg-atleast1oflggapl-constraint-4"
+         id = "cligs-lg-atleast1oflggapl-constraint-5"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1462,7 +1484,6 @@ s =
       | model.global
       | term
       | title
-      | hi
       | date
       | name
       | forename

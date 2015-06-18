@@ -3,7 +3,7 @@
          xmlns:xlink="http://www.w3.org/1999/xlink"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2015-06-18T14:52:31Z. August 2012.
+Schema generated from ODD source 2015-06-18T15:18:16Z. August 2012.
 TEI Edition: Version 2.8.0. Last updated on
 	6th April 2015, revision 13197
 TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -681,6 +681,17 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
          </attribute>
       </optional>
    </define>
+   <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
+            id="cligs-att.spanning-spanTo-spanTo-2-constraint-4">
+      <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+                xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                context="tei:*[@spanTo]">
+            <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
+The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow the current element <sch:name/>
+                  </sch:assert>
+          </sch:rule>
+   </pattern>
    <define name="model.nameLike.agent">
       <choice>
          <ref name="name"/>
@@ -717,32 +728,22 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       </choice>
    </define>
    <define name="model.hiLike">
-      <choice>
-         <ref name="hi"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="model.hiLike_alternation">
-      <choice>
-         <ref name="hi"/>
-      </choice>
+      <notAllowed/>
    </define>
    <define name="model.hiLike_sequence">
-      <ref name="hi"/>
+      <empty/>
    </define>
    <define name="model.hiLike_sequenceOptional">
-      <optional>
-         <ref name="hi"/>
-      </optional>
+      <empty/>
    </define>
    <define name="model.hiLike_sequenceOptionalRepeatable">
-      <zeroOrMore>
-         <ref name="hi"/>
-      </zeroOrMore>
+      <empty/>
    </define>
    <define name="model.hiLike_sequenceRepeatable">
-      <oneOrMore>
-         <ref name="hi"/>
-      </oneOrMore>
+      <notAllowed/>
    </define>
    <define name="model.emphLike">
       <choice>
@@ -932,7 +933,9 @@ Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6
       <notAllowed/>
    </define>
    <define name="model.milestoneLike">
-      <notAllowed/>
+      <choice>
+         <ref name="milestone"/>
+      </choice>
    </define>
    <define name="model.gLike">
       <notAllowed/>
@@ -1634,19 +1637,6 @@ Sample values include: 1] metatextual</a:documentation>
          <empty/>
       </element>
    </define>
-   <define name="hi">
-      <element name="hi">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(highlighted) marks a word or phrase as graphically distinct from the surrounding text, for reasons concerning which no claim is made. [3.3.2.2. Emphatic Words and Phrases 3.3.2. Emphasis, Foreign Words, and Unusual Language]</a:documentation>
-         <ref name="macro.paraContent"/>
-         <ref name="att.global.attribute.xmlid"/>
-         <ref name="att.global.attribute.n"/>
-         <ref name="att.global.attribute.xmllang"/>
-         <ref name="att.global.rendition.attribute.rend"/>
-         <ref name="att.global.responsibility.attribute.cert"/>
-         <ref name="att.global.responsibility.attribute.resp"/>
-         <empty/>
-      </element>
-   </define>
    <define name="said">
       <element name="said">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(speech or thought) indicates passages thought or spoken aloud, whether explicitly indicated in the source or not, whether directly or indirectly reported, whether by real people or fictional characters. [3.3.3. Quotation]</a:documentation>
@@ -1810,6 +1800,16 @@ Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Docum
          <empty/>
       </element>
    </define>
+   <define name="milestone">
+      <element name="milestone">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">marks a boundary point separating any kind of section of a text, typically but not necessarily indicating a point at which some part of a standard reference system changes, where the change is not represented by a structural element. [3.10.3. Milestone
+Elements]</a:documentation>
+         <empty/>
+         <ref name="att.global.rendition.attribute.rend"/>
+         <ref name="att.typed.attribute.type"/>
+         <empty/>
+      </element>
+   </define>
    <define name="author">
       <element name="author">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">in a bibliographic reference, contains the name(s) of an author, personal or corporate, of a work; for example in the same form as that provided by a recognized bibliographic name authority. [3.11.2.2. Titles, Authors, and Editors 2.2.1. The Title Statement]</a:documentation>
@@ -1935,7 +1935,7 @@ Sample values include: 1] initial; 2]  final</a:documentation>
             </zeroOrMore>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="cligs-lg-atleast1oflggapl-constraint-4">
+                  id="cligs-lg-atleast1oflggapl-constraint-5">
             <rule context="tei:lg">
                <sch:assert xmlns:sch="http://purl.oclc.org/dsdl/schematron"
                            xmlns="http://www.tei-c.org/ns/1.0"
@@ -2810,7 +2810,6 @@ Licensing, etc.]</a:documentation>
                <ref name="model.global"/>
                <ref name="term"/>
                <ref name="title"/>
-               <ref name="hi"/>
                <ref name="date"/>
                <ref name="name"/>
                <ref name="forename"/>
