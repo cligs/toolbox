@@ -7,17 +7,25 @@ This temporary script file is located here:
 """
 
 import re
+import os
 import html.parser
+from bs4 import BeautifulSoup
 
-with open("in1.html", "r") as fin:
+with open(os.path.join("input","in.html"), "r") as fin:
     content = fin.read()
     
+    # decode HTML entities
     h = html.parser.HTMLParser()
     content = h.unescape(content)
 
+    # delete problematic whitespace characters
     content = re.sub('\u00A0', " ", content)
     
+    #V1 : 
     content = re.sub('<!DOCTYPE.*</head>', "", content, flags=re.DOTALL)
+    #V2 :
+    # content = re.sub('<!DOCTYPE.*?</head>', "", content, flags=re.DOTALL)
+    
     content = re.sub('</body>.*</html>', "", content, flags=re.DOTALL)
     #content = re.sub('<body>.*?<br>', "", content, flags=re.DOTALL)
     #content = re.sub('<br><br><a name.*?<br /><br /></div>', "", content, flags=re.DOTALL)
@@ -25,10 +33,11 @@ with open("in1.html", "r") as fin:
     content = re.sub('<a name="\d+"></a>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<p style.*?>', "<p>", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<br\s?/?>', "", content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub('<br clear="all" />', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<img.*?>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<sup>.*?</sup>', "", content, flags=re.DOTALL|re.IGNORECASE)
     #content = re.sub('<sup>.*?</sup>.*?<a.*?</a>', "", content, flags=re.DOTALL)
-    content = re.sub('<a.*?</a>', "", content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub('<a[\s>].*?</a>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<em>(.*?)</em>', r'<hi rend="italic">\1</hi>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<i>(.*?)</i>', r'<hi rend="italic">\1</hi>', content, flags=re.DOTALL|re.IGNORECASE)
     
@@ -48,12 +57,13 @@ with open("in1.html", "r") as fin:
     # </div><div><head>$1</head>
     
     # Tabellen
-    content = re.sub('<table[^<>]+>', "", content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub('<table[^>]+>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('</table>', "", content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub('<br[^<>]+clear="all">', "", content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub('<br[^>]+clear="all">', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<tr>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('</tr>', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<td[^>]*></td>', "", content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub('<td nowrap="yes">', "", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<td[^>]*style="white-space:nowrap;">', "<td>", content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('<td>(.*?)</td>', r'<l>\1</l>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub('</p>[\s\n]*<l>', "</p><lg><l>", content, flags=re.DOTALL|re.IGNORECASE)
@@ -66,5 +76,8 @@ with open("in1.html", "r") as fin:
     content = re.sub('\s{2,}', " ", content)
     content = re.sub('\n{2,}', "", content)
     
-    with open ("out.html", "w") as fout:
-        fout.write(content)
+    soup = BeautifulSoup(content)
+    soup = soup.prettify()
+    
+    with open (os.path.join("output", "out.html"), "w") as fout:
+        fout.write(str(soup))
