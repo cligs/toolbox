@@ -19,7 +19,7 @@ import tmw
 #print(help(topmod))
 
 ### Set the general working directory.
-wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an5/" # end with slash.
+wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an5/414/" # end with slash.
 
 ### 1a - tei5reader_fulldocs (standard option)
 inpath = wdir + "0_tei/*.xml"
@@ -29,7 +29,7 @@ outfolder = wdir + "1_txt/"
 ### 1b - segmenter
 inpath = wdir + "1_txt/*.txt"
 outpath = wdir + "2_segs/"
-segment_length = 1000
+segment_length = 2000
 #tmw.segmenter(inpath,outpath,segment_length)
 
 ### 1c - segments_to_bins: inpath, outfile
@@ -40,7 +40,7 @@ outfile = wdir + "segs-and-bins.csv"
 
 
 ### 2a - pretokenize
-inpath = wdir + "1_txt/*.txt"
+inpath = wdir + "2_segs/*.txt"
 outfolder = wdir + "3_tokens/"
 #tmw.pretokenize(inpath,outfolder)
 

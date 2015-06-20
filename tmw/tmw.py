@@ -375,7 +375,8 @@ def make_lemmatext(inpath,outfolder):
                     elif "NOM" in pos and "|" not in lemma and "<unknown>" not in lemma:
                     #elif "NOM" in pos or "VER" in pos or "ADJ" in pos or "ADV" in pos and "|" not in lemma and "<unknown>" not in lemma:
                         lemmata.append(lemma.lower())
-            lemmata = ' '.join(lemmata)
+            stoplist = ["les","suis","est","un", "pas", "abord", "rien", "fait", "ton", "moi","être"]
+            lemmata = ' '.join([word for word in lemmata if word not in stoplist])
             lemmata = re.sub("[ ]{1,4}"," ", lemmata)
             newfilename = os.path.basename(file)[:-4] + ".txt"
             #print(outfolder, newfilename)
