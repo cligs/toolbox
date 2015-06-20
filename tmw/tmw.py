@@ -370,13 +370,11 @@ def make_lemmatext(inpath,outfolder):
                     lemma = splitline[2]
                     pos = splitline[1]
                     word = splitline[0]
-                    if lemma == "<unknown>" or lemma == ",":
-                        lemmata.append("")
-                    elif "|" in lemma:
-                        lemmata.append(word)
+                    if "|" in lemma:
+                        lemmata.append(word.lower())
                     elif "NOM" in pos and "|" not in lemma and "<unknown>" not in lemma:
                     #elif "NOM" in pos or "VER" in pos or "ADJ" in pos or "ADV" in pos and "|" not in lemma and "<unknown>" not in lemma:
-                        lemmata.append(lemma)
+                        lemmata.append(lemma.lower())
             lemmata = ' '.join(lemmata)
             lemmata = re.sub("[ ]{1,4}"," ", lemmata)
             newfilename = os.path.basename(file)[:-4] + ".txt"
@@ -561,7 +559,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
             row_num = mallet_docnames.index(docname)
             doctopic[row_num, topic] = share
             counter += 1
-            if counter % 25000 == 0:
+            if counter % 50000 == 0:
                 print("Iterations done:", counter)
         print("Uff. Done creating doctopic triples")
 

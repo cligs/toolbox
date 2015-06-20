@@ -19,7 +19,7 @@ import tmw
 #print(help(topmod))
 
 ### Set the general working directory.
-wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an4/" # end with slash.
+wdir = "/home/christof/Dropbox/0-Analysen/2015/rp_Sydney/an5/" # end with slash.
 
 ### 1a - tei5reader_fulldocs (standard option)
 inpath = wdir + "0_tei/*.xml"
@@ -40,7 +40,7 @@ outfile = wdir + "segs-and-bins.csv"
 
 
 ### 2a - pretokenize
-inpath = wdir + "2_segs/*.txt"
+inpath = wdir + "1_txt/*.txt"
 outfolder = wdir + "3_tokens/"
 #tmw.pretokenize(inpath,outfolder)
 
@@ -53,7 +53,7 @@ tagger = "/home/christof/Programs/TreeTagger/cmd/tree-tagger-french"
 ### 2c - make_lemmatext
 inpath = wdir + "4_tagged/*.trt"
 outfolder = wdir + "5_lemmata/"
-#tmw.make_lemmatext(inpath,outfolder)
+tmw.make_lemmatext(inpath,outfolder)
 
 
 
@@ -79,7 +79,7 @@ num_threads = "4"
 
 ### 4 - make_wordle_from_mallet
 word_weights_file = wdir + "6_mallet/" + "word-weights.txt"
-topics = 80
+topics = 100
 words = 40
 outfolder = wdir + "8_visuals/wordles/"
 dpi = 300
@@ -92,9 +92,10 @@ corpuspath = wdir + "5_lemmata"
 outfolder = wdir + "7_aggregates/"
 topics_in_texts = wdir + "6_mallet/topics-in-texts.csv"
 metadatafile = wdir + "metadata.csv"
-target = "subgenre" # USER: set depending on available metadata
+#target = "subgenre" # USER: set depending on available metadata
 #targets = ["idno","author","decade","subgenre","label","narr"] # USER: set depending on available metadata
-tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
+targets = ["subgenre","author"] # USER: set depending on available metadata
+#tmw.aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,targets)
 
 ### 5b - create_topicscores_heatmap
 inpath = wdir + "7_aggregates/*-hm.csv"
