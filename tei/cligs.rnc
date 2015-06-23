@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-06-18T15:18:08Z. August 2012.
+# Schema generated from ODD source 2015-06-23T17:20:04Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -1729,29 +1729,8 @@ seg =
     att.global.rendition.attribute.rend,
     
     ## characterizes the element in some sense, using any convenient classification scheme or typology.
-    attribute type {
-      
-      ##
-      "emph"
-      | 
-        ##
-        " thought"
-      | 
-        ##
-        " foreign"
-      | 
-        ##
-        " mentioned"
-      | 
-        ##
-        " quotation"
-      | 
-        ##
-        " soCalled"
-      | 
-        ##
-        " written"
-    }?,
+    ## Sample values include: 1] emph; 2]  thought; 3]  foreign; 4]  mentioned; 5]  quotation; 6]  soCalled; 7]  written
+    attribute type { data.enumerated }?,
     empty
   }
 att.global.facs.attributes = att.global.facs.attribute.facs
