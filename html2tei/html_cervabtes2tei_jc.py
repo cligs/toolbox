@@ -57,24 +57,14 @@ with open(os.path.join("input","misterio.html"), "r", errors="replace") as fin:
     content = re.sub(r'[\r\n]+', r'\r\n', content)
 
     #Setting the <div>s searching for the <hn>
+    #It takes in the <hn> the textual information about the chapter or part
     content = re.sub(r'(</h[1-5]>)[\s]+([^<\r\n ][^\r\n]*)([\r\n]*)', r' : \2 \1\3', content, flags=re.DOTALL|re.IGNORECASE)
-
-
+    # It sets divs. Actually we should use an if structure to analyse how many levels of <hn> are in the HTML document and clouse them as good as it can.
     content = re.sub(r'(</h2>)\s*?(<h3>)', r'\1\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'(</p>)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'(</p>)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'<(/?)h[1-6]>', r'<\1head>', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-
+    content = re.sub(r'\Z', r'</div>\r\n</div>', content, flags=re.DOTALL|re.IGNORECASE)
 
 
     with open (os.path.join("output", "output.html"), "w") as fout:
