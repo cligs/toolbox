@@ -36,8 +36,9 @@ with open(os.path.join("input","misterio.html"), "r", errors="replace") as fin:
     content = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'<p style="text-align: right;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'<p style="font-size:12pt;text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'<p style="text-align: justify;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'(<p [^>]*?><hr.*?></p>', r'<milestone />', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', content, flags=re.DOTALL|re.IGNORECASE)
 
         #Revisar!    
     content = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', content, flags=re.DOTALL|re.IGNORECASE)
@@ -45,15 +46,24 @@ with open(os.path.join("input","misterio.html"), "r", errors="replace") as fin:
     content = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', content, flags=re.DOTALL|re.IGNORECASE)
 
     #Cleaning the HTML indent
-    content = re.sub(r'^[ \t]+$', r'', content)
+        # We should also clean this character:"	". It looks like a tab, but it isn't. For example in misterio.html	
+    content = re.sub(r'^[\s]+', r'', content)
+    content = re.sub(r'^\t+', r'', content)
     content = re.sub(r'[\r\n]+', r'\r\n', content)
     content = re.sub(r'(<(/p|/h[1-6]|/?div|/head|/l|/?lg|/?body|/?back|/?text|/?front)>)', r'\1\r\n', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'([^\s<>])[\r\n]+([^\s<>])', r'\1 \2', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'<p> +', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'[\r\n]+', r'\r\n', content)
 
     #Setting the <div>s searching for the <hn>
-    content = re.sub(r'(</h2>)\r\n(<h3>)', r'\1\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'(</p>)\r\n(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
-    content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'(</h[1-5]>)[\s]+([^<\r\n ][^\r\n]*)([\r\n]*)', r' : \2 \1\3', content, flags=re.DOTALL|re.IGNORECASE)
+
+
+    content = re.sub(r'(</h2>)\s*?(<h3>)', r'\1\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'(</p>)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'(</p>)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', content, flags=re.DOTALL|re.IGNORECASE)
+    content = re.sub(r'<(/?)h[1-6]>', r'<\1head>', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
     content = re.sub(r'', r'', content, flags=re.DOTALL|re.IGNORECASE)
