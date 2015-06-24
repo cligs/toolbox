@@ -9,7 +9,7 @@ This temporary script file is located here:
 import re
 import os
 import html.parser
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 
 with open(os.path.join("input","in.html"), "r") as fin:
     content = fin.read()
