@@ -8,6 +8,21 @@ This temporary script file is located here:
 import re
 import os
 import html.parser
+
+def cleaningHTML(arg):
+        #Cleaning the HTML indent
+        arg = re.sub(r'^[\s]+', r'', arg)
+        arg = re.sub(r'^\t+', r'', arg)
+        arg = re.sub(r'[\r\n]+', r'\r\n', arg)
+        arg = re.sub(r'(<(/p|/h[1-6]|/?div|/head|/l|/?lg|/?body|/?back|/?text|/?front)>)', r'\1\r\n', arg, flags=re.DOTALL|re.IGNORECASE)
+        arg = re.sub(r'([^\s<>])[\r\n]+([^\s<>])', r'\1 \2', arg, flags=re.DOTALL|re.IGNORECASE)
+        arg = re.sub(r'([^>$])\r?\n\s*(<seg)', r'\1 \2', arg, flags=re.DOTALL|re.IGNORECASE)
+        arg = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', arg, flags=re.DOTALL|re.IGNORECASE)
+        arg = re.sub(r'<p> +', r'<p>', arg, flags=re.DOTALL|re.IGNORECASE)
+        result = re.sub(r'[\r\n]+', r'\r\n', arg)
+        return result
+
+
 listdocs=["Bazan_Cisne_ne076.html","Bazan_Dulce_ne086.html","Bazan_Insolacion_ne079.html","Bazan_Milagros_ne080.html","Bazan_Naturaleza_ne078.html","Bazan_Novios.html","bazan_Pascual_ne088.html","Bazan_Pazos_ne077.html","Bazan_Piedra_ne082.html","Bazan_Prueba_ne083.html","Bazan_Quimera_ne084.html","Bazan_Sirena_ne085.html","Bazan_Solteron_ne081.html","Bazan_Tribuna_ne075.html"]
 
 listdocs=["Bazan_Tribuna_ne075.html"]
@@ -37,7 +52,8 @@ for doc in listdocs:
         content = re.sub(r'</?div[^>]*>', r'', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<span style="font-style:normal;">(.*?)</span>', r'\1', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<font(>| [^>]*>)(.*?)</font>', r'\2', content, flags=re.DOTALL|re.IGNORECASE)
-        
+        content = re.sub(r'<!--.*?-->', r'', content, flags=re.DOTALL|re.IGNORECASE)
+
         # Replace some elements with atributes with other cleaner elements
         content = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
@@ -45,25 +61,28 @@ for doc in listdocs:
         content = re.sub(r'<p style="font-size:12pt;text-align: justify;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<p style="text-align: justify;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<p style="font-size:12pt;text-align: right;text-indent:30px;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'<p style="font-size:12pt;text-align: justify;">', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<p [^>]*?>\s*\* \* \*</p>', r'<milestone />', content, flags=re.DOTALL|re.IGNORECASE)
     
-            #Revisar!    
+        # Replace spain foreign words and italics elements    
         content = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<em(>| [^>]+)(.*?)</em>', r'<seg rend="italics">\2</seg>', content, flags=re.DOTALL|re.IGNORECASE)
         content = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', content, flags=re.DOTALL|re.IGNORECASE)
+        
+        content=cleaningHTML(content)
     
-        #Cleaning the HTML indent
-            # We should also clean this character:"	". It looks like a tab, but it isn't. For example in misterio.html	
-        content = re.sub(r'^[\s]+', r'', content)
-        content = re.sub(r'^\t+', r'', content)
-        content = re.sub(r'[\r\n]+', r'\r\n', content)
-        content = re.sub(r'(<(/p|/h[1-6]|/?div|/head|/l|/?lg|/?body|/?back|/?text|/?front)>)', r'\1\r\n', content, flags=re.DOTALL|re.IGNORECASE)
-        content = re.sub(r'([^\s<>])[\r\n]+([^\s<>])', r'\1 \2', content, flags=re.DOTALL|re.IGNORECASE)
-        content = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', content, flags=re.DOTALL|re.IGNORECASE)
-        content = re.sub(r'<p> +', r'<p>', content, flags=re.DOTALL|re.IGNORECASE)
-        content = re.sub(r'[\r\n]+', r'\r\n', content)
-    
+        # Replace tables with <quote> or <lg>
+        content = re.sub(r'<table width="70%" align="center">', r'<lg>', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'<td nowrap="yes">(.*?)</td>', r'<l>\1</l>', content, flags=re.DOTALL|re.IGNORECASE)   
+        content = re.sub(r'</table>(\s*<p>)', r'</lg>\1', content, flags=re.DOTALL|re.IGNORECASE)   
+        content = re.sub(r'</?t[rd]>', r'', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'<td align="right">', r'', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'(<lg>\s*)<table[^>]*?>', r'\1', content, flags=re.DOTALL|re.IGNORECASE)
+        content = re.sub(r'</table>(\s*</lg>)', r'\1', content, flags=re.DOTALL|re.IGNORECASE)
+
+        content=cleaningHTML(content)
+        
         #Setting the <div>s searching for the <hn>
         #It takes in the <hn> the textual information about the chapter or part
         content = re.sub(r'(</h[1-5]>)[\s]+([^<\r\n ][^\r\n]*)([\r\n]*)', r' : \2 \1\3', content, flags=re.DOTALL|re.IGNORECASE)
