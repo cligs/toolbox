@@ -29,12 +29,12 @@ def cleaningIndent(text):
     text = re.sub(r'[\s \t]+$', r'', text)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
     text = re.sub(r'(<(/p|/h[1-6]|/?div|/head|/l|/?lg|/?body|/?back|/?text|/?front)>)', r'\1\r\n', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'([^\s<>])[\r\n]+([^\s<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'([^>$])\r?\n\s*(<seg)', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'([^\r\n<>])[\r\n]+([^\r\n<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'([^>$])\r\n *(<seg)', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p> +', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
-    text = re.sub(r'  ', r' ', text)
+    text = re.sub(r' +', r' ', text)
     return text
 
 
