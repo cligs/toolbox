@@ -34,7 +34,6 @@ def cleaningIndent(text):
     text = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p> +', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
-    text = re.sub(r'^[\s \t]+$', r'', text)
     return text
 
 
@@ -81,9 +80,9 @@ def replacingBasicElements(text):
     text = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<em(>| [^>]+)(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(\r?\n)([FIN DEL TOMO PRIMERO]+)(\r?\n)', r'\1<ab>\2</ab>\3', text)
-
-    text = re.sub(r'^([FIN DEL TOMO PRIMERO]{,5})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
+    text = re.sub(r'(\r?\n)([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{10,500})(\r?\n)', r'\1<ab>\2</ab>\3', text, flags=re.IGNORECASE)
+    #Improvement: Actaully it would be better to work with this, but for some reason, it doesn't
+    # text = re.sub(r'^([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{,10})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
 
     return text
 
@@ -188,6 +187,9 @@ for doc in listdocs:
         # And once again
         content=cleaningHTML(content)
         
+        # Improvement!: That should actually save the document as xml
+
+        # It writes the result in the output folder
         with open (os.path.join("output", doc), "w") as fout:
             fout.write(content)
     print(doc)
