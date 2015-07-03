@@ -45,8 +45,15 @@ def deletingNonBody(text):
     # Delete everything before <div id="obra">
     text = re.sub(r'<!DOCTYPE html>.*?(<div id="obra")', r"\1", text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<!DOCTYPE html.*?<body>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<head(>| [^>]*>).*?</head>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<footer(>| [^>]*>).*?</footer>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<script(>| [^>]*>).*?</script>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</?html(>| [^>]*>)', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</article></section>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+
     #Delete everything after </body>
     text = re.sub(r'</body>.*?</body>.*?</html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</?body(>| [^>]*>)', r"", text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 def deletingElements(text):
@@ -80,7 +87,7 @@ def replacingBasicElements(text):
     text = re.sub(r'<p align="center">(.+?)</p>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p [^>]*?>[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
 
     # Replace spain foreign words and italics elements    
     text = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -96,7 +103,7 @@ def replacingTables(text):
     text = re.sub(r'<table width="70%" align="center">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<table cellpadding="0" cellspacing="0" align="center" width="462">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td nowrap="yes">(.*?)</td>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
-    text = re.sub(r'</table>(\s*<p>)', r'</lg>\1', text, flags=re.DOTALL|re.IGNORECASE)   
+    text = re.sub(r'</table>(\s*(<p>|<h[1-6]>))', r'</lg>\1', text, flags=re.DOTALL|re.IGNORECASE)   
     text = re.sub(r'</?t[rd]>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td align="right">', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<lg>\s*)<table[^>]*?>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
@@ -126,7 +133,7 @@ def setDivs(text):
     if not listh3:
         print("<h3> not found")
         # That closes the <div> of an <h2> and opens another one
-        text = re.sub(r'(</p>|</ab>)\s*?(<h2>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>)\s*?(<h2>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
         # That closes the last <div> from <h2>
         text = re.sub(r'\Z', r'</div>\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -136,9 +143,9 @@ def setDivs(text):
         # That opens the <div> of a <h3>
         text = re.sub(r'(</h2>)\s*?(<h3>)', r'\1\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         # That closes the div of a <h3> and opens one more for a new <h3>
-        text = re.sub(r'(</p>|</ab>)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         # That closes the divs both from <h3> and <h2> and open another for <h2>
-        text = re.sub(r'(</p>|</ab>)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         
         # That closes the last divs from <h2> and <h3>
         text = re.sub(r'\Z', r'</div>\r\n</div>\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -153,15 +160,13 @@ def settingTeiHeader(text):
     return text
 
 listdocs=["Bazan_Dulce_ne086.html",
-"Bazan_Milagros_ne080.html",
 "Bazan_Novios.html",
 "bazan_Pascual_ne088.html",
-"Bazan_Piedra_ne082.html",
 "Bazan_Prueba_ne083.html",
 "Bazan_Quimera_ne084.html",
 "Bazan_Sirena_ne085.html",
-"Bazan_Solteron_ne081.html"]
-listdocs=["Bazan_Milagros_ne080.html"]
+]
+listdocs=["Bazan_Prueba_ne083.html"]
 
 i=0
 for doc in listdocs:
