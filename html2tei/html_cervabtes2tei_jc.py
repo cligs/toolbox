@@ -25,7 +25,8 @@ def cleaningIndent(text):
     """
     Cleaning the HTML indent
     """
-    text = re.sub(r'^[\s]+', r'', text)
+    text = re.sub(r'^[\s \t]+', r'', text)
+    text = re.sub(r'[\s \t]+$', r'', text)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
     text = re.sub(r'(<(/p|/h[1-6]|/?div|/head|/l|/?lg|/?body|/?back|/?text|/?front)>)', r'\1\r\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'([^\s<>])[\r\n]+([^\s<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
@@ -33,6 +34,7 @@ def cleaningIndent(text):
     text = re.sub(r'(>)[\r\n]+([^\s<>])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p> +', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
+    text = re.sub(r'^[\s \t]+$', r'', text)
     return text
 
 
@@ -79,6 +81,10 @@ def replacingBasicElements(text):
     text = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<em(>| [^>]+)(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(\r?\n)([FIN DEL TOMO PRIMERO]+)(\r?\n)', r'\1<ab>\2</ab>\3', text)
+
+    text = re.sub(r'^([FIN DEL TOMO PRIMERO]{,5})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
+
     return text
 
 def replacingTables(text):
@@ -93,7 +99,6 @@ def replacingTables(text):
     text = re.sub(r'<td align="right">', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<lg>\s*)<table[^>]*?>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</table>(\s*</lg>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'^([A-ZÁ-ÑÜ ]+)$', r'<ab>\1</ab>', text,  flags=re.DOTALL|re.IGNORECASE)
     return text
 
 def setDivs(text):
@@ -158,6 +163,9 @@ for doc in listdocs:
         
         #It deletes different kind of elements        
         content=deletingElements(content)
+
+        #It cleans the white space
+        content=cleaningIndent(content)
         
         #It replaces some HTML elements with TEI elements    
         content=replacingBasicElements(content)
