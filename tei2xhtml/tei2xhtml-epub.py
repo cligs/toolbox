@@ -29,7 +29,7 @@ def replacingElements(text):
     text = re.sub(r'</quote>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<floatingText>', r'<div class="floatingText">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</floatingText>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<milestone />', r'<hr>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<milestone />', r'<hr />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<ab>', r'<p class="ab">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sp>', r'<div class="sp">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</sp>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -67,7 +67,7 @@ def settingHead(text):
     text = re.sub(r'\Z',r'</body>\r\n</html>' , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-listdocs=["Miro_HumoDormido_ne057.xml","Valle_JardinUmbrio_ne015.xml"]
+listdocs=["Bazan_Insolacion_ne079.xml"]
 
 i=0
 for doc in listdocs:
