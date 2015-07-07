@@ -35,6 +35,7 @@ def cleaningIndent(text):
     text = re.sub(r'<p> +', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'[\r\n]+', r'\r\n', text)
     text = re.sub(r' +', r' ', text)
+    text = re.sub(r'<p(>| [^>]*>)\s*</p>', r' ', text)
     return text
 
 
@@ -108,6 +109,8 @@ def replacingTables(text):
     text = re.sub(r'<td align="right">', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<lg>\s*)<table[^>]*?>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</table>(\s*</lg>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<td [^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<lg>\s*<lg>', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'(\r?\n)([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{10,500})(\r?\n)', r'\1<ab>\2</ab>\3', text, flags=re.IGNORECASE)
     #Improvement: Actaully it would be better to work with this, but for some reason, it doesn't
@@ -166,12 +169,14 @@ listdocs=["Bazan_Dulce_ne086.html",
 "Bazan_Quimera_ne084.html",
 "Bazan_Sirena_ne085.html",
 ]
-listdocs=["Bazan_Prueba_ne083.html"]
+listdocs=["Bazan_Sirena_ne085"]
 
 i=0
 for doc in listdocs:
-    
-    with open(os.path.join("input",doc), "r", errors="replace") as fin:
+    docFormatIn=doc+".html"    
+    docFormatOut=doc+".xml"    
+
+    with open(os.path.join("input",docFormatIn), "r", errors="replace", encoding="utf-8") as fin:
         content = fin.read()
     
         # it cleans the HTML from entities, etc        
@@ -207,7 +212,9 @@ for doc in listdocs:
         # Improvement!: That should actually save the document as xml
 
         # It writes the result in the output folder
-        with open (os.path.join("output", doc), "w") as fout:
+
+
+        with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
             fout.write(content)
     print(doc)
     i+=1
