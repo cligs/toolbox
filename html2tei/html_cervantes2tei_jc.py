@@ -172,6 +172,7 @@ def settingTeiHeader(text):
     return text
 
 listdocs=[
+"Bazan_Pascual_ne088"
 ]
 
 i=0
