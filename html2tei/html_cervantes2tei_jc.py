@@ -51,6 +51,7 @@ def deletingNonBody(text):
     text = re.sub(r'<script(>| [^>]*>).*?</script>', r"", text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</?html(>| [^>]*>)', r"", text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</article></section>', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</section>\s*</main>', r"", text, flags=re.DOTALL|re.IGNORECASE)
 
     #Delete everything after </body>
     text = re.sub(r'</body>.*?</body>.*?</html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -69,6 +70,7 @@ def deletingElements(text):
     text = re.sub(r'<font(>| [^>]*>).{0,2}[0-9]+.{0,2}</font>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<font(>| [^>]*>)(.*?)</font>', r'\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sup(>| [^>]*>).*?</sup>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    #abr    
     
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
     return text
@@ -117,6 +119,13 @@ def replacingTables(text):
     # text = re.sub(r'^([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{,10})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
     return text
 
+def replacingBold(text):
+    """
+    Replace <b> with <h3>. It doesn't work by default
+    """
+    text = re.sub(r'<b>( *- *[IVXDCL0-9]+ *- *)</b>', r'<h3>\1</h3>', text, flags=re.DOTALL|re.IGNORECASE)
+    return text
+
 def setDivs(text):
     """
     Setting the <div>s searching for the <hn>
@@ -162,14 +171,8 @@ def settingTeiHeader(text):
     text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno"><idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="cligs"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="y"></principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="restricted">\r\n                    <!-- Optionen: restricted, publicdomain, unknown. -->\r\n					<p>Files prepared for personal research use only. Not for publication.</p>\r\n				</availability>\r\n				<date></date>\r\n				<idno type="cligs"><!--[a-z]{2}[0-9]{4}, z.B. ne0034 --></idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p></p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p></p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre"></term>\r\n					<term type="genre" cert="high"></term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective"></term>\r\n					<term type="form"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015" who="#">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-listdocs=["Bazan_Dulce_ne086.html",
-"Bazan_Novios.html",
-"bazan_Pascual_ne088.html",
-"Bazan_Prueba_ne083.html",
-"Bazan_Quimera_ne084.html",
-"Bazan_Sirena_ne085.html",
+listdocs=[
 ]
-listdocs=["Bazan_Sirena_ne085"]
 
 i=0
 for doc in listdocs:
@@ -199,6 +202,9 @@ for doc in listdocs:
     
         #It cleans the white space, again
         content=cleaningIndent(content)
+        
+        #It replaces <b> with <h3>. Uncomment to use it!
+        content=replacingBold(content)         
         
         #It sets divs 
         content=setDivs(content)
