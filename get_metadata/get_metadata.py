@@ -7,6 +7,7 @@
 """
 
 ## TODO: Test that filename idno and metadata idno are the same; notify if not.
+## TODO: Generate header from data instead of hard-coding it.
 
 import os
 import glob
@@ -35,11 +36,18 @@ def get_metadata(inputpath):
             decade = date[0:3]+"0s"
             #print(decade)
 
+            ## Text idno
+            xpath = "//tei:teiHeader//tei:author//tei:idno[@type='cligs']//text()"
+            result = xml.xpath(xpath, namespaces=namespaces)
+            idno = "\n".join(result)
+            #print(author)
+
             ## Author (short form)
             xpath = "//tei:teiHeader//tei:author//tei:idno[@type='cligs']//text()"
             result = xml.xpath(xpath, namespaces=namespaces)
             author = "\n".join(result)
             #print(author)
+
 
             ## Title (short form)
             xpath = "//tei:teiHeader//tei:title[@type='short']//text()"
