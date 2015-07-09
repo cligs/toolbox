@@ -36,8 +36,8 @@ def get_metadata(inputpath):
             
             if idno_file != idno_header: 
                 print(idno_file + " idno error!")
-            #else:
-                #print(idno_file + " ok")
+            else:
+                print(idno_file + " ok")
             
             ## Date of publication (edition-first)
             xpath = "//tei:teiHeader//tei:bibl[@type='edition-first']//tei:date//text()"
@@ -88,6 +88,7 @@ def get_metadata(inputpath):
     with open("metadata.csv", "w") as outfile:
         outfile.write(str(all_metadata))
 
+    print("Done getting metadata.")
 
 #######################
 # Main                #
@@ -97,5 +98,5 @@ def get_metadata(inputpath):
 def main(inputpath):
     get_metadata(inputpath)
 
-main("../../romanfrancais/master/*.xml")
+main("../../romanlumieres/master/*.xml")
 
