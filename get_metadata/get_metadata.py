@@ -36,8 +36,8 @@ def get_metadata(inputpath):
             
             if idno_file != idno_header: 
                 print(idno_file + " idno error!")
-            else:
-                print(idno_file + " ok")
+            #else:
+                #print(idno_file + " ok")
             
             ## Date of publication (edition-first)
             xpath = "//tei:teiHeader//tei:bibl[@type='edition-first']//tei:date//text()"
