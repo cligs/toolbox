@@ -22,11 +22,22 @@ def get_metadata(inputpath):
     for file in glob.glob(inputpath):
         with open(file,"r") as sourcefile:
             filename = os.path.basename(file)[:-4]
-            idno = filename[0:6]
-            #print(idno)
+            idno_file = filename[0:6]
+            #print(idno_file)
 
             xml = etree.parse(sourcefile)
             namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+
+            ## Text idno
+            xpath = "//tei:publicationStmt//tei:idno[@type='cligs']//text()"
+            result = xml.xpath(xpath, namespaces=namespaces)
+            idno_header = "\n".join(result)
+            #print(idno_header)
+            
+            if idno_file != idno_header: 
+                print(idno_file + " idno error!")
+            else:
+                print(idno_file + " ok")
             
             ## Date of publication (edition-first)
             xpath = "//tei:teiHeader//tei:bibl[@type='edition-first']//tei:date//text()"
@@ -36,17 +47,17 @@ def get_metadata(inputpath):
             decade = date[0:3]+"0s"
             #print(decade)
 
-            ## Text idno
-            xpath = "//tei:teiHeader//tei:author//tei:idno[@type='cligs']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            idno = "\n".join(result)
-            #print(author)
-
             ## Author (short form)
-            xpath = "//tei:teiHeader//tei:author//tei:idno[@type='cligs']//text()"
+            xpath = "//tei:author//tei:name[@type='short']//text()"
             result = xml.xpath(xpath, namespaces=namespaces)
-            author = "\n".join(result)
-            #print(author)
+            author_short = "\n".join(result)
+            #print(author_short)
+
+            ## Author (full form)
+            xpath = "//tei:author//tei:name[@type='full']//text()"
+            result = xml.xpath(xpath, namespaces=namespaces)
+            author_full = "\n".join(result)
+            #print(author_full)
 
 
             ## Title (short form)
@@ -68,11 +79,11 @@ def get_metadata(inputpath):
             #print(label)
             
             ## Putting everything together (one row = one document)
-            metadata = idno +","+ author +","+ title +","+ date +","+ decade +","+ subgenre +","+ label +"\n"
+            metadata = idno_header +","+ author_short +","+ title +","+ date +","+ decade +","+ subgenre +","+ label +"\n"
             #print(metadata)
 
         all_metadata = all_metadata + metadata
-    print(all_metadata)
+    #print(all_metadata)
 
     with open("metadata.csv", "w") as outfile:
         outfile.write(str(all_metadata))
@@ -86,5 +97,5 @@ def get_metadata(inputpath):
 def main(inputpath):
     get_metadata(inputpath)
 
-main("./master/*.xml")
+main("../../romanfrancais/master/*.xml")
 
