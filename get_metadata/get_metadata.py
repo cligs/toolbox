@@ -24,22 +24,26 @@ def get_metadata(wdir,inpath):
               "date":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
-              "subgenre":'//tei:term[@type="subgenre"]//text()'}
+              "subgenre":'//tei:term[@type="subgenre"]//text()',
+              "idno_header": '//tei:idno[@type="cligs"]//text()'}
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
     
     ## Get list of file idnos and create empty dataframe
     for file in glob.glob(wdir + inpath):
-        idno = os.path.basename(file)[0:6]
-        idnos.append(idno)
+        idno_file = os.path.basename(file)[0:6]
+        idnos.append(idno_file)
     metadata = pd.DataFrame(columns=labels, index=idnos)
     #print(metadata)
 
     ## For each file, get the results of each xpath
     for file in glob.glob(wdir + inpath):
         xml = etree.parse(file)
-        idno = os.path.basename(file)[0:6]
-        #print(idno)
+        ## Before starting, verify that file idno and header idno are identical.
+        idno_file = os.path.basename(file)[0:6]
+        idno_header = xml.xpath('//tei:idno[@type="cligs"]//text()', namespaces=namespaces)[0]
+        if idno_file != idno_header: 
+            print("Error: "+ idno_file+ " = "+idno_header)
         for label in labels:
             xpath = xpaths[label]
             result = xml.xpath(xpath, namespaces=namespaces)
@@ -49,7 +53,7 @@ def get_metadata(wdir,inpath):
             else: 
                 result = "n.av."
             ## Write the result to the corresponding cell in the dataframe
-            metadata.loc[idno,label] = result
+            metadata.loc[idno_file,label] = result
             
     print(metadata.head())
     metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
