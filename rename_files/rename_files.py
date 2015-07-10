@@ -11,29 +11,34 @@ import pandas
 import os
 import shutil
 
-def rename_files(wdir, inpath, metadatafile, main_category, sec_category):
+def rename_files(wdir, inpath, metadatafile, primary_category, secondary_category):
     """Renames files based on metadata from a CSV file."""
-    outfolder = main_category+"/"
+    outfolder = primary_category+"/"
+    ## Check if outfolder exists, if not create it.
     if not os.path.exists(wdir+outfolder):
         os.makedirs(wdir+outfolder)
+    ### Copy the original files to the new folder.
     for file in glob.glob(wdir+inpath):
         shutil.copy(file,wdir+outfolder+file[-10:])
+    ## For each file in the new folder...
     for file in glob.glob(wdir+outfolder+"*.txt"):
+        ## Get labels from metadatafile for primary and secondary category.
         filename = os.path.basename(file)
         idno, extension = os.path.splitext(filename)
-        idno = idno[-6:]
-        #print("Treating file with idno: ", idno)
+        ## Assumes the original filename has the idno at the beginning.
+        idno = idno[:6]
         metadata = pandas.read_csv(wdir+metadatafile)
         metadatax = metadata.set_index('idno_header', drop=True)
-        main_label = metadatax.loc[idno, main_category]
-        sec_label = metadatax.loc[idno, sec_category]
-        newfilename = main_label+"_"+sec_label+"-"+idno+".txt"
+        primary_label = metadatax.loc[idno, primary_category]
+        secondary_label = metadatax.loc[idno, secondary_category]
+        ## Construct new filename based on primary and secondary labels.
+        newfilename = primary_label+"_"+secondary_label+"-"+idno+".txt"
         newoutputpath = wdir+outfolder+newfilename
         os.rename(file,newoutputpath)
     print("\nDone.")
 
-def main(wdir, inpath, metadatafile, main_category, sec_category):
-        rename_files(wdir, inpath, metadatafile, main_category, sec_category)
+def main(wdir, inpath, metadatafile, primary_category, secondary_category):
+        rename_files(wdir, inpath, metadatafile, primary_category, secondary_category)
 
 
 #### USER: Indicate parameters
