@@ -195,7 +195,7 @@ def segments_to_bins(inpath, outfile):
             bcount4 += 1
         #print(segprop, binid)
 
-        filenames.append(filename[:10])
+        filenames.append(filename[:11])
         binids.append(binid)
     filenames_sr = pd.Series(filenames, name="filenames")
     binids_sr = pd.Series(binids, name="binids")
@@ -375,8 +375,8 @@ def make_lemmatext(inpath,outfolder):
                     elif "NOM" in pos and "|" not in lemma and "<unknown>" not in lemma:
                     #elif "NOM" in pos or "VER" in pos or "ADJ" in pos or "ADV" in pos and "|" not in lemma and "<unknown>" not in lemma:
                         lemmata.append(lemma.lower())
-            stoplist = ["les","suis","est","un", "pas", "abord", "rien", "fait", "ton", "moi","être"]
-            lemmata = ' '.join([word for word in lemmata if word not in stoplist])
+            stoplist = ["les","suis","est","un", "pas", "abord", "rien", "fait", "ton", "moi","être", "tartarin","oeil","jour","an","œil","sorte","grand","heure","air","coup","ouvre","mauser","chourineur"]
+            lemmata = ' '.join([item for item in lemmata if item not in stoplist])
             lemmata = re.sub("[ ]{1,4}"," ", lemmata)
             newfilename = os.path.basename(file)[:-4] + ".txt"
             #print(outfolder, newfilename)
@@ -567,7 +567,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
         #### Define aggregation criterion ####
         ### Read metadata from CSV file and create DataFrame
         metadata = pd.DataFrame.from_csv(metadatafile, header=0, sep=",")
-        print(metadata.head())
+        #print(metadata.head())
         print("Starting with building the set of label names")
 
         label_names = []
@@ -578,7 +578,7 @@ def aggregate_using_metadata(corpuspath,outfolder,topics_in_texts,metadatafile,t
             #print(idno)
             label_name = metadata.loc[idno,target]
             #label_name = label_name[0:3]
-            print("idno and label: ", idno, label_name)
+            #print("idno and label: ", idno, label_name)
             outputfilename = outfolder + "topics_by_" + target.upper() + "-hm.csv"
             label_names.append(label_name)
         label_names = np.asarray(label_names)
@@ -672,7 +672,7 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
     for item in filenames:
         basename = os.path.basename(item)
         filename, ext = os.path.splitext(basename)
-        textidno = filename[0:5]
+        textidno = filename[0:6]
         metadata_target = target
         genre_label = metadata.loc[textidno,metadata_target]
         binidno = filename[0:14]
@@ -710,6 +710,108 @@ def aggregate_using_bins_and_metadata(corpuspath,outfolder,topics_in_texts,metad
 
 # TODO: not necessary to write bin id onto filename (in "scenes_to_bins"), since it can be (and is) looked up in the bindatafile.
 # TODO: Actually, this is even a problem when switching between scene-based and segment-based aggregation. Solution needed. 
+
+
+
+def aggregate_by_metadatacombination(corpuspath,outfolder,topics_in_texts,metadatafile,target1,target2):
+    """Aggregate topic scores based on positional bins and metadata."""
+    print("\nLaunched aggregate_by_metadatacombination.")
+
+    import numpy as np
+    import itertools
+    import operator
+    import os
+    import pandas as pd
+
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
+    ## USER: Set path to where the individual chunks are located.
+    CORPUS_PATH = os.path.join(corpuspath)
+    filenames = sorted([os.path.join(CORPUS_PATH, fn) for fn in os.listdir(CORPUS_PATH)])
+    print("Number of files to treat: ", len(filenames)) #ok
+    #print("First three filenames: ", filenames[:3]) #ok
+
+    def grouper(n, iterable, fillvalue=None):
+        "Collect data into fixed-length chunks or blocks"
+        args = [iter(iterable)] * n
+        return itertools.zip_longest(*args, fillvalue=fillvalue)
+
+    doctopic_triples = []
+    mallet_docnames = []
+    ### USER: Set path to results from Mallet.
+    with open(topics_in_texts) as f:
+        f.readline()
+        for line in f:
+            docnum, docname, *values = line.rstrip().split('\t')
+            mallet_docnames.append(docname)
+            for topic, share in grouper(2, values):
+                triple = (docname, int(topic), float(share))
+                doctopic_triples.append(triple)
+
+    doctopic_triples = sorted(doctopic_triples, key=operator.itemgetter(0,1))
+    mallet_docnames = sorted(mallet_docnames)
+    num_docs = len(mallet_docnames)
+    num_topics = len(doctopic_triples) // len(mallet_docnames)
+    print("Number of documents: ", num_docs)
+    print("Number of topics: ", num_topics)
+
+    # This creates a 2D array where each row is one document and each column gives the topic score for one topic for all documents. Building this tends to take a while.
+    doctopic = np.zeros((num_docs, num_topics))
+    counter = 0
+    for triple in doctopic_triples:
+        docname, topic, share = triple
+        row_num = mallet_docnames.index(docname)
+        doctopic[row_num, topic] = share
+        counter += 1
+        if counter % 50000 == 0:
+            print("Iterations done:", counter)
+    print("Uff. Done creating doctopic triples")
+    #print(doctopic[0:1])
+
+
+    #### Define aggregation criterion #
+    metadata = pd.DataFrame.from_csv(metadatafile, header=0, sep=",")
+    #print(bindata.head())
+    label_names = []
+    for item in filenames:
+        basename = os.path.basename(item)
+        filename, ext = os.path.splitext(basename)
+        textidno = filename[0:6]
+        metadata_target1 = target1
+        genre_label = metadata.loc[textidno,metadata_target1]
+        metadata_target2 = target2
+        decade_label = metadata.loc[textidno,metadata_target2]
+        #print("textidno, binidno, genre_label, bin_label: ", textidno, binidno, genre_label, bin_label)
+        #print(filename[0:1], bin_label)
+        label_name = str(decade_label) + "$" + str(genre_label)
+        outputfilename = outfolder + "topics_by_DECADEANDSUBGENRE.csv"
+        label_names.append(label_name)
+    label_names = np.asarray(label_names)
+    num_groups_labels = len(set(label_names))
+    print("Number of entries: ", len(label_names))
+    #print("Some label names: ", label_names[10:21])
+    print("Number of different labels: ", len(set(label_names)))
+    print("Number of topics: ", num_topics)
+
+    ### Group topic scores according to label
+    # Create 2D numpy array filled with zeros, and with space for labels x topics.
+    doctopic_grouped = np.zeros((num_groups_labels, num_topics))
+    # Fill up the array with topic scores you generate; 
+    for i, name in enumerate(sorted(set(label_names))):
+        #print("i and name: ", i, name)
+        doctopic_grouped[i, :] = np.mean(doctopic[label_names == name, :], axis=0)
+    doctopic = doctopic_grouped
+    #print("Length of doctopic: ", len(doctopic)) #ok
+    #np.savetxt("doctopic.csv", doctopic, delimiter=",")
+
+    rownames = sorted(set(label_names))
+    colnames = ["tp" + "{:03d}".format(i) for i in range(doctopic.shape[1])]
+    df = pd.DataFrame(doctopic, index=rownames, columns=colnames)
+    df.to_csv(outputfilename, sep='\t', encoding='utf-8')
+
+    print("Done.")
+
 
 
 
@@ -778,7 +880,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
         stdevs = topicscores.std(axis=1)
         topicscores = pd.concat([topicscores, stdevs], axis=1)
         topicscores = topicscores.sort(columns=0, axis=0, ascending=False)
-        topicscores = topicscores.iloc[:,0:15]
+        topicscores = topicscores.iloc[:,:]
         # 0:5 = com, 5:10 = trag
         #print(topicscores.iloc[0:2,:]) #rows,columns (but here only 2 columns)
 
@@ -812,7 +914,7 @@ def create_topicscores_lineplot(inpath,outfolder,topicwordfile,dpi,height,genres
             plt.plot(scores, lw=4, marker="o", color="red", label=genres[0])
 
             ### Get and plot scores for genre B
-            topicscoresB = topicscores.iloc[:,10:15]
+            topicscoresB = topicscores.iloc[:,5:10]
             scores = topicscoresB.loc[tpid,]
             plt.plot(scores, lw=4, color="blue", marker="o", label=genres[1])
 

@@ -1,46 +1,58 @@
 # ./bin/env python3
 # get_metadata.py
+# author: #cf
 
 """
-# Script to extract some metadata from the CLiGs standard teiHeader and write it into a CSV file.
-# 6.6.2015, by #cf.
+# Extract metadata from the CLiGs teiHeader and write it to CSV.
 """
 
 from lxml import etree
 import glob
 import os
+import pandas as pd
 
-def get_metadata(workingdir,inputpath):
+def get_metadata(wdir,inpath):
     """Get metadata from teiHeader, write it to CSV."""
-    for file in glob.glob(workingdir + inputpath):
+
+    ## USER: Set list of metadata items to extract
+    ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre"
+    labels = ("author_short","title_short", "date", "supergenre", "genre", "subgenre")
+
+    ## Dictionary of all relevant xpaths with their labels
+    xpaths = {"title_short": '//tei:title[@type="short"]//text()',
+              "author_short": '//tei:author//tei:name[@type="short"]//text()', 
+              "date":'//tei:bibl[@type="edition-first"]//tei:date//text()',
+              "supergenre":'//tei:term[@type="supergenre"]//text()',
+              "genre": '//tei:term[@type="genre"]//text()',
+              "subgenre":'//tei:term[@type="subgenre"]//text()'}
+    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+    idnos = []
+    
+    ## Get list of file idnos and create empty dataframe
+    for file in glob.glob(wdir + inpath):
         idno = os.path.basename(file)[0:6]
-        #print("Now working on", idno)
-    
+        idnos.append(idno)
+    metadata = pd.DataFrame(columns=labels, index=idnos)
+    #print(metadata)
+
+    ## For each file, get the results of each xpath
+    for file in glob.glob(wdir + inpath):
         xml = etree.parse(file)
-        namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-    
-        xpath = '//tei:title[@type="short"]//text()'
-        shorttitle = xml.xpath(xpath, namespaces=namespaces)[0]
+        idno = os.path.basename(file)[0:6]
+        #print(idno)
+        for label in labels:
+            xpath = xpaths[label]
+            result = xml.xpath(xpath, namespaces=namespaces)
+            if len(result) == 1: 
+                result = result[0]
+            else: 
+                result = "n.av."
+            metadata.loc[idno,label] = result
+            
+    print(metadata.head())
+    metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
+            
+def main(wdir,inpath):
+    get_metadata(wdir,inpath)
 
-        xpath = '//tei:author//tei:idno[@type="cligs"]//text()'
-        shortauthor = xml.xpath(xpath, namespaces=namespaces)[0]
-
-        xpath = '//tei:bibl[@type="edition-first"]//tei:date//text()'
-        date = xml.xpath(xpath, namespaces=namespaces)[0]
-
-        xpath = '//tei:term[@type="genre"]//text()'
-        genre = xml.xpath(xpath, namespaces=namespaces)[0]
-        
-        xpath = '//tei:term[@type="subgenre"]//text()'
-        subgenre = xml.xpath(xpath, namespaces=namespaces)[0]
-
-        metadata_row = idno + "," + shortauthor + "," + shorttitle + "," + date + "," + genre + "," + subgenre + "\n"
-        #print(metadata_row[:-1])
-        with open(workingdir + "newmetadata.csv", "a") as metadatafile: # appending!
-            metadatafile.write(metadata_row)
-
-def main(workingdir,inputpath):
-    get_metadata(workingdir,inputpath)
-    print("\nDone.")
-
-main("../../romanfrancais/", "master/rf*.xml")
+main("/home/christof/Repos/cligs/romanfrancais/", "master/*.xml")
