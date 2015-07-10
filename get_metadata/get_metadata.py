@@ -15,13 +15,13 @@ def get_metadata(wdir,inpath):
     """Get metadata from teiHeader, write it to CSV."""
 
     ## USER: Set list of metadata items to extract
-    ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre"
-    labels = ("author_short","title_short", "date", "supergenre", "genre", "subgenre")
+    ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre", "idno_header"
+    labels = ("idno_header","author_short","title_short", "pub_year", "supergenre", "genre", "subgenre")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title_short": '//tei:title[@type="short"]//text()',
               "author_short": '//tei:author//tei:name[@type="short"]//text()', 
-              "date":'//tei:bibl[@type="edition-first"]//tei:date//text()',
+              "pub_year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
               "subgenre":'//tei:term[@type="subgenre"]//text()',
