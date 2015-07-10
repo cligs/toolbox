@@ -1,85 +1,44 @@
 #!/usr/bin/env python3
 # Filename: rename_files.py
+# Author: #cf
 
 """
-# Script to rename files based on selected metadata from a CSV file.
+# Rename files based on selected metadata from a CSV file.
 """
-
-###############################
-# Overview of functions
-###############################
-
-# Assumes there is a folder of plain text files, this script and a CSV file with metadata all in one folder.
-# Starts the following routine for all .txt files in a folder.
-# 2. Read CSV file with metadata
-# 2. Construct a new filename based on selected metadata from CSV file.
-# 3. Give each file the new filename.
-
-
-###############################
-# User settings
-###############################
-
-# 1. Adapt the inputfolder, metadatafile and outputfolder as needed.
-# 2. Select metadata items and their order for new filename.
-
-
-###############################
-# WARNING
-###############################
-
-# It is quite difficult to undo the action of this script, so make a copy first!
-
-
-###############################
-# Import statements
-###############################
 
 import glob
 import pandas
 import os
-import time
+import shutil
 
-
-###############################
-# File renaming
-###############################
-
-def rename_files(file,metadatafile,outputfolder):
+def rename_files(wdir, inpath, metadatafile, main_category, sec_category):
     """Renames files based on metadata from a CSV file."""
-    filename = os.path.basename(file)
-    basename, extension = os.path.splitext(filename)
-    idno = basename
-    print("Treating file with idno: ", basename)
-    metadata = pandas.read_csv(metadatafile)
-    metadatax = metadata.set_index('idno', drop=True)
-    author = metadatax.loc[idno, 'author']
-    title = metadatax.loc[idno, 'title']
-    genre = metadatax.loc[idno, 'label']
-    year = metadatax.loc[idno, 'year']
-    year = str(year)
-    decade = year[0:3]+"0s"
-    if not os.path.exists(outputfolder):
-        os.makedirs(outputfolder)
-    #### USER: Construct new filename from metadata fields
-    newfilename = genre+"_"+author+"-"+idno+".txt"
-    newoutputpath = outputfolder+"/"+newfilename
-    print("New filename: "+idno + ": " + newoutputpath)
-    os.rename(file,newoutputpath)
+    outfolder = main_category+"/"
+    if not os.path.exists(wdir+outfolder):
+        os.makedirs(wdir+outfolder)
+    for file in glob.glob(wdir+inpath):
+        shutil.copy(file,wdir+outfolder+file[-10:])
+    for file in glob.glob(wdir+outfolder+"*.txt"):
+        filename = os.path.basename(file)
+        idno, extension = os.path.splitext(filename)
+        idno = idno[-6:]
+        #print("Treating file with idno: ", idno)
+        metadata = pandas.read_csv(wdir+metadatafile)
+        metadatax = metadata.set_index('idno_header', drop=True)
+        main_label = metadatax.loc[idno, main_category]
+        sec_label = metadatax.loc[idno, sec_category]
+        newfilename = main_label+"_"+sec_label+"-"+idno+".txt"
+        newoutputpath = wdir+outfolder+newfilename
+        os.rename(file,newoutputpath)
+    print("\nDone.")
 
-
-###############################
-# Main
-###############################
-
-def main(inputpath,metadatafile,outputfolder):
-    numberoffiles = 0
-    for file in glob.glob(inputpath):
-        rename_files(file,metadatafile,outputfolder)
-        numberoffiles +=1
-    print("Number of files treated: " + str(numberoffiles))
-    time.sleep(2)
+def main(wdir, inpath, metadatafile, main_category, sec_category):
+        rename_files(wdir, inpath, metadatafile, main_category, sec_category)
 
 
 #### USER: Indicate parameters
-main("./input/*.txt","romanpolicier.csv","labeled-test")
+## Possible values for main_category and sec_category: "author_short","title_short","genre","subgenre"
+main("/home/christof/Repos/cligs/romanfrancais/", "txt/*.txt", "header-metadata.csv", "author_short", "title_short")
+
+# TODO: add "decade" and "year" (str!) here and in get_metadata.py
+
