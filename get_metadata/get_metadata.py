@@ -1,102 +1,60 @@
-#!/usr/bin/env python3
-# Filename: get_metadata.py
-# Author: #cf
+# ./bin/env python3
+# get_metadata.py
+# author: #cf
 
 """
-# Function to extract metadata from TEI header using lxml.
+# Extract metadata from the CLiGs teiHeader and write it to CSV.
 """
 
-## TODO: Test that filename idno and metadata idno are the same; notify if not.
-## TODO: Generate header from data instead of hard-coding it.
-
-import os
-import glob
 from lxml import etree
+import glob
+import os
+import pandas as pd
 
-#######################
-# Functions           #
-#######################
+def get_metadata(wdir,inpath):
+    """Get metadata from teiHeader, write it to CSV."""
 
-def get_metadata(inputpath):
-    all_metadata = "idno,author,title,date,decade,subgenre,label\n"
-    for file in glob.glob(inputpath):
-        with open(file,"r") as sourcefile:
-            filename = os.path.basename(file)[:-4]
-            idno_file = filename[0:6]
-            #print(idno_file)
+    ## USER: Set list of metadata items to extract
+    ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre"
+    labels = ("author_short","title_short", "date", "supergenre", "genre", "subgenre")
 
-            xml = etree.parse(sourcefile)
-            namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+    ## Dictionary of all relevant xpaths with their labels
+    xpaths = {"title_short": '//tei:title[@type="short"]//text()',
+              "author_short": '//tei:author//tei:name[@type="short"]//text()', 
+              "date":'//tei:bibl[@type="edition-first"]//tei:date//text()',
+              "supergenre":'//tei:term[@type="supergenre"]//text()',
+              "genre": '//tei:term[@type="genre"]//text()',
+              "subgenre":'//tei:term[@type="subgenre"]//text()'}
+    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+    idnos = []
+    
+    ## Get list of file idnos and create empty dataframe
+    for file in glob.glob(wdir + inpath):
+        idno = os.path.basename(file)[0:6]
+        idnos.append(idno)
+    metadata = pd.DataFrame(columns=labels, index=idnos)
+    #print(metadata)
 
-            ## Text idno
-            xpath = "//tei:publicationStmt//tei:idno[@type='cligs']//text()"
+    ## For each file, get the results of each xpath
+    for file in glob.glob(wdir + inpath):
+        xml = etree.parse(file)
+        idno = os.path.basename(file)[0:6]
+        #print(idno)
+        for label in labels:
+            xpath = xpaths[label]
             result = xml.xpath(xpath, namespaces=namespaces)
-            idno_header = "\n".join(result)
-            #print(idno_header)
+            ## Check whether something was found; if not, let the result be "n.av."
+            if len(result) == 1: 
+                result = result[0]
+            else: 
+                result = "n.av."
+            ## Write the result to the corresponding cell in the dataframe
+            metadata.loc[idno,label] = result
             
-            if idno_file != idno_header: 
-                print(idno_file + " idno error!")
-            else:
-                print(idno_file + " ok")
+    print(metadata.head())
+    metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
             
-            ## Date of publication (edition-first)
-            xpath = "//tei:teiHeader//tei:bibl[@type='edition-first']//tei:date//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            date = "\n".join(result)
-            #print(date)
-            decade = date[0:3]+"0s"
-            #print(decade)
+def main(wdir,inpath):
+    get_metadata(wdir,inpath)
 
-            ## Author (short form)
-            xpath = "//tei:author//tei:name[@type='short']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            author_short = "\n".join(result)
-            #print(author_short)
-
-            ## Author (full form)
-            xpath = "//tei:author//tei:name[@type='full']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            author_full = "\n".join(result)
-            #print(author_full)
-
-
-            ## Title (short form)
-            xpath = "//tei:teiHeader//tei:title[@type='short']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            title = "\n".join(result)
-            #print(title)
-
-            ## Subgenre
-            xpath = "//tei:teiHeader//tei:term[@type='subgenre']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            subgenre = "\n".join(result)
-            #print(author)
-
-            ## Genre label
-            xpath = "//tei:teiHeader//tei:term[@type='genre-label']//text()"
-            result = xml.xpath(xpath, namespaces=namespaces)
-            label = "\n".join(result)
-            #print(label)
-            
-            ## Putting everything together (one row = one document)
-            metadata = idno_header +","+ author_short +","+ title +","+ date +","+ decade +","+ subgenre +","+ label +"\n"
-            #print(metadata)
-
-        all_metadata = all_metadata + metadata
-    #print(all_metadata)
-
-    with open("metadata.csv", "w") as outfile:
-        outfile.write(str(all_metadata))
-
-    print("Done getting metadata.")
-
-#######################
-# Main                #
-########################
-
-
-def main(inputpath):
-    get_metadata(inputpath)
-
-main("../../romanlumieres/master/*.xml")
-
+main("/home/christof/Repos/cligs/romanfrancais/", "master/*.xml")
