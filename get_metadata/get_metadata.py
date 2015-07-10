@@ -41,7 +41,7 @@ def get_metadata(wdir,inpath):
         xml = etree.parse(file)
         ## Before starting, verify that file idno and header idno are identical.
         idno_file = os.path.basename(file)[0:6]
-        idno_header = xml.xpath('//tei:idno[@type="cligs"]//text()', namespaces=namespaces)[0]
+        idno_header = xml.xpath(xpaths["idno_header"], namespaces=namespaces)[0]
         if idno_file != idno_header: 
             print("Error: "+ idno_file+ " = "+idno_header)
         for label in labels:
