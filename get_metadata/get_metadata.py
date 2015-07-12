@@ -14,13 +14,13 @@ import pandas as pd
 def get_metadata(wdir,inpath):
     """Get metadata from teiHeader, write it to CSV."""
 
-    ## USER: Set list of metadata items to extract
-    ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre", "idno_header"
-    labels = ("idno_header","author_short","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle")
+    ## USER: Set list of metadata items to extract (see xpaths for list)
+    labels = ("idno_header","author_short","author_viaf","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title_short": '//tei:title[@type="short"]//text()',
               "author_short": '//tei:author//tei:name[@type="short"]//text()', 
+              "author_viaf":'//tei:idno[@type="viaf"]//text()',
               "pub_year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
