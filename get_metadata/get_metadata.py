@@ -16,7 +16,7 @@ def get_metadata(wdir,inpath):
 
     ## USER: Set list of metadata items to extract
     ## Possible values: "author_short","title_short", "date", "supergenre", "genre", "subgenre", "idno_header"
-    labels = ("idno_header","author_short","title_short", "pub_year", "supergenre", "genre", "subgenre")
+    labels = ("idno_header","author_short","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title_short": '//tei:title[@type="short"]//text()',
@@ -25,6 +25,8 @@ def get_metadata(wdir,inpath):
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
               "subgenre":'//tei:term[@type="subgenre"]//text()',
+              "genre-label":'//tei:term[@type="genre-label"]//text()',
+              "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
               "idno_header": '//tei:idno[@type="cligs"]//text()'}
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
