@@ -25,8 +25,7 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
         ## Get labels from metadatafile for primary and secondary category.
         filename = os.path.basename(file)
         idno, extension = os.path.splitext(filename)
-        ## Assumes the original filename has the idno at the beginning.
-        idno = idno[:6]
+        idno = idno[:6] # Assumes the original filename starts with idno.
         metadata = pandas.read_csv(wdir+metadatafile)
         metadatax = metadata.set_index('idno_header', drop=True)
         primary_label = metadatax.loc[idno, primary_category]
@@ -43,7 +42,7 @@ def main(wdir, inpath, metadatafile, primary_category, secondary_category):
 
 #### USER: Indicate parameters
 ## Possible values for main_category and sec_category: "author_short","title_short","genre","subgenre"
-main("/home/christof/Repos/cligs/romanfrancais/", "txt/*.txt", "header-metadata.csv", "author_short", "title_short")
+main("/home/christof/Repos/cligs/romanfrancais/", "txt/*.txt", "header-metadata.csv", "decade", "author_short")
 
 # TODO: add "decade" and "year" (str!) here and in get_metadata.py
 
