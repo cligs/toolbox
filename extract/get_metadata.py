@@ -15,7 +15,7 @@ def get_metadata(wdir,inpath):
     """Get metadata from teiHeader, write it to CSV."""
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
-    labels = ("idno_header","author_short","author_viaf","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle")
+    labels = ("idno_header","author_short","author_viaf","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle", "availability")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title_short": '//tei:title[@type="short"]//text()',
@@ -27,7 +27,8 @@ def get_metadata(wdir,inpath):
               "subgenre":'//tei:term[@type="subgenre"]//text()',
               "genre-label":'//tei:term[@type="genre-label"]//text()',
               "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
-              "idno_header": '//tei:idno[@type="cligs"]//text()'}
+              "idno_header": '//tei:idno[@type="cligs"]//text()',
+              "availability": '//tei:availability//@status'}
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
     
@@ -58,7 +59,7 @@ def get_metadata(wdir,inpath):
             metadata.loc[idno_file,label] = result
             
     print(metadata.head())
-    metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
+    metadata.to_csv(wdir+"header-metadata2.csv", sep=",", encoding="utf-8")
             
 def main(wdir,inpath):
     get_metadata(wdir,inpath)
