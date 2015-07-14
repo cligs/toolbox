@@ -57,9 +57,13 @@ def get_metadata(wdir,inpath):
                 result = "n.av."
             ## Write the result to the corresponding cell in the dataframe
             metadata.loc[idno_file,label] = result
-            
+                
+    ## Add decade column based on pub_year
+    metadata["decade"] = metadata["pub_year"].map(lambda x: str(x)[:-1]+"0s")
+    
+    ## Check result and write CSV file to disk.
     print(metadata.head())
-    metadata.to_csv(wdir+"header-metadata2.csv", sep=",", encoding="utf-8")
+    metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
             
 def main(wdir,inpath):
     get_metadata(wdir,inpath)
