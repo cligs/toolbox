@@ -18,17 +18,16 @@ def teireader(wdir, inpath, outfolder, xpath):
         os.makedirs(outfolder)
     ## Do the following for each file in the inpath.
     for file in glob.glob(inpath):
-        with open(file, "r") as infile:
+        with open(file, "r"):
             filename = os.path.basename(file)[:-4]
-            ## idno must be at the beginning of the filename and have 6 characters.
-            idno = filename[:6]
+            idno = filename[:6] # assumes idno is at the start of filename.
             print("Treating " + idno)
             xml = etree.parse(file)
             namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
 
             ### Removes tags but conserves their text content.
             ### USER: Uncomment as needed.
-            #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}seg")
+            etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}seg")
             #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}said")
             #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
 
@@ -54,7 +53,7 @@ def teireader(wdir, inpath, outfolder, xpath):
             #xp_stage = "//tei:stage//text()"
             #xp_hi = "//tei:body//tei:hi//text()"
             
-            ### Applying one of the above XPaths
+            ### Applying one of the above XPaths, based on parameter passed.
             ### USER: use on of the xpath values used here in the parameters.
             if xpath == "bodytext": 
                 text = xml.xpath(xp_bodytext, namespaces=namespaces)
