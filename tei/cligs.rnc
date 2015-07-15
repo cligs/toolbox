@@ -5,7 +5,7 @@ namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-06-23T17:20:04Z. August 2012.
+# Schema generated from ODD source 2015-07-15T18:46:56Z. August 2012.
 # TEI Edition: Version 2.8.0. Last updated on
 #	6th April 2015, revision 13197
 # TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
@@ -305,10 +305,6 @@ att.global.attribute.xmlspace =
       ## indicates the intent that applications preserve all white space
       "preserve"
   }?
-att.naming.attributes =
-  att.canonical.attributes,
-  att.naming.attribute.role,
-  att.naming.attribute.nymRef
 att.naming.attribute.role =
   
   ## may be used to specify further information about the entity referenced by this name in the form of a set of whitespace-separated values, for example the occupation of a person, or the status of a place.
@@ -738,29 +734,6 @@ att.source.attribute.source =
     list { data.pointer+ }
   }?
 model.resourceLike = notAllowed
-att.personal.attributes =
-  att.naming.attributes,
-  att.personal.attribute.full,
-  att.personal.attribute.sort
-att.personal.attribute.full =
-  
-  ## indicates whether the name component is given in full, as an abbreviation or simply as an initial.
-  [ a:defaultValue = "yes" ]
-  attribute full {
-    
-    ## the name component is spelled out in full.
-    "yes"
-    | 
-      ## (abbreviated) the name component is given in an abbreviated form.
-      "abb"
-    | 
-      ## (initial letter) the name component is indicated only by one initial.
-      "init"
-  }?
-att.personal.attribute.sort =
-  
-  ## specifies the sort order of the name component in relation to others within the name.
-  attribute sort { data.count }?
 p =
   
   ## (paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]
@@ -939,7 +912,10 @@ milestone =
   element milestone {
     empty,
     att.global.rendition.attribute.rend,
-    att.typed.attribute.type,
+    
+    ## characterizes the element in some sense, using any convenient classification scheme or typology.
+    ## Sample values include: 1] line; 2]  asterisks; 3]  dots; 4]  space
+    attribute type { data.enumerated }?,
     empty
   }
 author =
@@ -1486,8 +1462,6 @@ s =
       | title
       | date
       | name
-      | forename
-      | surname
       | idno
       | ref
       | seg
@@ -1644,12 +1618,12 @@ att.datable.custom.attribute.datingMethod =
   
   ## supplies a pointer to a calendar element or other means of interpreting the values of the custom dating attributes.
   attribute datingMethod { data.pointer }?
-model.persNamePart = surname | forename
-model.persNamePart_alternation = surname | forename
-model.persNamePart_sequence = surname, forename
-model.persNamePart_sequenceOptional = surname?, forename?
-model.persNamePart_sequenceOptionalRepeatable = surname*, forename*
-model.persNamePart_sequenceRepeatable = surname+, forename+
+model.persNamePart = notAllowed
+model.persNamePart_alternation = notAllowed
+model.persNamePart_sequence = empty
+model.persNamePart_sequenceOptional = empty
+model.persNamePart_sequenceOptionalRepeatable = empty
+model.persNamePart_sequenceRepeatable = notAllowed
 att.datable.iso.attribute.when-iso =
   
   ## supplies the value of a date or time in a standard form.
@@ -1670,26 +1644,6 @@ att.datable.iso.attribute.to-iso =
   
   ## indicates the ending point of the period in standard form.
   attribute to-iso { data.temporal.iso }?
-surname =
-  
-  ## contains a family (inherited) name, as opposed to a given, baptismal, or nick name. [13.2.1. Personal Names]
-  element surname {
-    macro.phraseSeq,
-    att.global.attributes,
-    att.personal.attributes,
-    att.typed.attributes,
-    empty
-  }
-forename =
-  
-  ## contains a forename, given or baptismal name. [13.2.1. Personal Names]
-  element forename {
-    macro.phraseSeq,
-    att.global.attributes,
-    att.personal.attributes,
-    att.typed.attributes,
-    empty
-  }
 att.global.linking.attributes =
   att.global.linking.attribute.corresp,
   att.global.linking.attribute.next,
