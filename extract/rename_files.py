@@ -28,7 +28,7 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
         idno, extension = os.path.splitext(filename)
         idno = idno[:6] # Assumes the original filename starts with idno.
         metadata = pandas.read_csv(wdir+metadatafile)
-        metadatax = metadata.set_index('idno_header', drop=True)
+        metadatax = metadata.set_index('idno', drop=True)
         primary_label = metadatax.loc[idno, primary_category]
         secondary_label = metadatax.loc[idno, secondary_category]
         ## Construct new filename based on primary and secondary labels.
@@ -45,4 +45,4 @@ def main(wdir, inpath, metadatafile, primary_category, secondary_category):
 #### USER: Indicate parameters
 ## Possible values for main_category and sec_category: "author_short","title_short","genre","subgenre"
 
-main("/home/christof/Repos/cligs/examplecollection/", "txt/*.txt", "metadata_from_header.csv", "author_short", "title_short")
+main("/home/christof/Repos/cligs/examplecollection/", "txt/*.txt", "metadata_from_header.csv", "author", "title")

@@ -26,7 +26,7 @@ def copy_subset(wdir, fullset, metadata, outfolder):
     metadata = metadata[metadata[filter_category].isin(selection_list)]
 
     ## USER: And/or, for numeric criteria, set a filter category and upper and lower bound.
-    filter_category = "pub_year"
+    filter_category = "year"
     lower_bound = "1800"
     upper_bound = "2000"
     myquery = lower_bound + "<" + filter_category + "<" + upper_bound 

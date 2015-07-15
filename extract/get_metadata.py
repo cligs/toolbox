@@ -15,20 +15,22 @@ def get_metadata(wdir, inpath, metadatafile):
     """Get metadata from teiHeader, write it to CSV."""
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
-    labels = ("idno_header","author_short","author_viaf","title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
+    ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
+    labels = ("idno","author", "gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability")
 
     ## Dictionary of all relevant xpaths with their labels
-    xpaths = {"title_short": '//tei:title[@type="short"]//text()',
-              "author_short": '//tei:author//tei:name[@type="short"]//text()', 
+    xpaths = {"title": '//tei:title[@type="short"]//text()',
+              "author": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
+              "gender":'//tei:term[@type="author-gender"]//text()',
               "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
-              "pub_year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
+              "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
               "subgenre":'//tei:term[@type="subgenre"]//text()',
               "genre-label":'//tei:term[@type="genre-label"]//text()',
               "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
-              "idno_header": '//tei:idno[@type="cligs"]//text()',
+              "idno": '//tei:idno[@type="cligs"]//text()',
               "narration": '//tei:term[@type="narrative-perspective"]//text()',
               "availability": '//tei:availability//@status'}
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
@@ -47,7 +49,7 @@ def get_metadata(wdir, inpath, metadatafile):
         xml = etree.parse(file)
         ## Before starting, verify that file idno and header idno are identical.
         idno_file = os.path.basename(file)[0:6]
-        idno_header = xml.xpath(xpaths["idno_header"], namespaces=namespaces)[0]
+        idno_header = xml.xpath(xpaths["idno"], namespaces=namespaces)[0]
         if idno_file != idno_header: 
             print("Error: "+ idno_file+ " = "+idno_header)
         for label in labels:
@@ -62,7 +64,7 @@ def get_metadata(wdir, inpath, metadatafile):
             metadata.loc[idno_file,label] = result
                 
     ## Add decade column based on pub_year
-    metadata["decade"] = metadata["pub_year"].map(lambda x: str(x)[:-1]+"0s")
+    metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0s")
     
     ## Check result and write CSV file to disk.
     #print(metadata.head())
