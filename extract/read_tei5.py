@@ -17,11 +17,13 @@ def teireader(wdir, inpath, outfolder, xpath):
     if not os.path.exists(outfolder):
         os.makedirs(outfolder)
     ## Do the following for each file in the inpath.
+    counter = 0
     for file in glob.glob(inpath):
         with open(file, "r"):
             filename = os.path.basename(file)[:-4]
             idno = filename[:6] # assumes idno is at the start of filename.
-            print("Treating " + idno)
+            #print("Treating " + idno)
+            counter +=1
             xml = etree.parse(file)
             namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
 
@@ -77,11 +79,14 @@ def teireader(wdir, inpath, outfolder, xpath):
             outfile = outfolder + filename + ".txt"
         with open(outfile,"w") as output:
             output.write(outtext)
+        
+    print("Done. Files treated: " + str(counter))
+
 
 def main(wdir, inpath, outfolder, xpath):
     teireader(wdir, inpath, outfolder, xpath)
 
-main("/home/christof/Repos/cligs/romanlumieres/", "master/*.xml", "txt/", "bodytext")
+main("/home/christof/Repos/cligs/examplecollection/", "master/*.xml", "txt/", "bodytext")
 
 
 

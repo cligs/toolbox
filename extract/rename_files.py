@@ -18,6 +18,7 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
     if not os.path.exists(wdir+outfolder):
         os.makedirs(wdir+outfolder)
     ### Copy the original files to the new folder.
+    counter = 0
     for file in glob.glob(wdir+inpath):
         shutil.copy(file,wdir+outfolder+file[-10:])
     ## For each file in the new folder...
@@ -34,7 +35,8 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
         newfilename = primary_label+"_"+secondary_label+"-"+idno+".txt"
         newoutputpath = wdir+outfolder+newfilename
         os.rename(file,newoutputpath)
-    print("\nDone.")
+        counter +=1
+    print("\nDone. Files treated: " + str(counter))
 
 def main(wdir, inpath, metadatafile, primary_category, secondary_category):
         rename_files(wdir, inpath, metadatafile, primary_category, secondary_category)
@@ -42,7 +44,5 @@ def main(wdir, inpath, metadatafile, primary_category, secondary_category):
 
 #### USER: Indicate parameters
 ## Possible values for main_category and sec_category: "author_short","title_short","genre","subgenre"
-main("/home/christof/Repos/cligs/romanfrancais/", "txt/*.txt", "header-metadata.csv", "decade", "author_short")
 
-# TODO: add "decade" and "year" (str!) here and in get_metadata.py
-
+main("/home/christof/Repos/cligs/examplecollection/", "txt/*.txt", "metadata_from_header.csv", "author_short", "title_short")

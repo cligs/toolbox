@@ -11,16 +11,17 @@ import glob
 import os
 import pandas as pd
 
-def get_metadata(wdir,inpath):
+def get_metadata(wdir, inpath, metadatafile):
     """Get metadata from teiHeader, write it to CSV."""
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
-    labels = ("idno_header","author_short","author_viaf","title_short", "pub_year", "supergenre", "genre", "subgenre", "genre-label","genre-subtitle", "availability")
+    labels = ("idno_header","author_short","author_viaf","title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title_short": '//tei:title[@type="short"]//text()',
               "author_short": '//tei:author//tei:name[@type="short"]//text()', 
-              "author_viaf":'//tei:idno[@type="viaf"]//text()',
+              "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
+              "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
               "pub_year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
@@ -28,6 +29,7 @@ def get_metadata(wdir,inpath):
               "genre-label":'//tei:term[@type="genre-label"]//text()',
               "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
               "idno_header": '//tei:idno[@type="cligs"]//text()',
+              "narration": '//tei:term[@type="narrative-perspective"]//text()',
               "availability": '//tei:availability//@status'}
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
@@ -41,6 +43,7 @@ def get_metadata(wdir,inpath):
 
     ## For each file, get the results of each xpath
     for file in glob.glob(wdir + inpath):
+        #print(file)
         xml = etree.parse(file)
         ## Before starting, verify that file idno and header idno are identical.
         idno_file = os.path.basename(file)[0:6]
@@ -62,10 +65,11 @@ def get_metadata(wdir,inpath):
     metadata["decade"] = metadata["pub_year"].map(lambda x: str(x)[:-1]+"0s")
     
     ## Check result and write CSV file to disk.
-    print(metadata.head())
-    metadata.to_csv(wdir+"header-metadata.csv", sep=",", encoding="utf-8")
-            
-def main(wdir,inpath):
-    get_metadata(wdir,inpath)
+    #print(metadata.head())
+    metadata.to_csv(wdir+metadatafile, sep=",", encoding="utf-8")
+    print("Done. Number of documents and metadata columns:", metadata.shape)
 
-main("/home/christof/Repos/cligs/romanfrancais/", "master/*.xml")
+def main(wdir,inpath, metadatafile):
+    get_metadata(wdir,inpath, metadatafile)
+
+main("/home/christof/Repos/cligs/examplecollection/", "master/*.xml", "metadata_from_header.csv")
