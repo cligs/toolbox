@@ -179,8 +179,9 @@ def replacingBasicElementsFromEpubLibre(text):
     It replaces some elements and its styles with TEI elements
     """
     # Replace some elements with atributes with other cleaner elements
-    text = re.sub(r'<p class="calibre1">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="calibre[0-9]+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="sinopsis">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="ilustra">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE) 
     text = re.sub(r'<div class="info">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tlogo|tautor|ttitulo|trevision|tfirma)">.*?</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h1 class="ttitulo">.*?</h1>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -189,15 +190,23 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="asangre">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="centrado1">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="normal">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="versalita">(.*?)</span>', r'<seg rend="smallcaps">\1</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<div class="poema">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="poema[0-9]*">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="verso">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="normal1">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="salto1">', r'<milestone />\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="salto[0-9]+">', r'<milestone />\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<em(|[^>]*)>(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<i(|[^>]*)>(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<sub(|[^>]*)>(.*?)</sub>', r'<seg rend="subscript">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<small(|[^>]*)>(.*?)</small>', r'<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="nosep">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="cursiva">', r'<div><!--italics-->', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="calibre" id="calibre_link-[0-9]+">', r'<div>', text, flags=re.DOTALL|re.IGNORECASE)
-
+    text = re.sub(r'<p class="centrado">[… ]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="asteriscos">[\* ]*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</head>\s*<p class="t?subtitulo">(.*?)</p>', r': \1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="banner">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<html.*?<body>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</body></html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p(| [^>]+)>[\s\r\n]*</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -205,14 +214,33 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'[\r\n]+', r'\r\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div>[\r?\n]*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<div>((?!<div>).)*</div>\r?\n)\Z', r'<!--\1-->', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
+
+    return text
+
+def lInLg(text):
+    """
+    It replaces some elements and its styles with TEI elements
+    """
+    i=0
+    while i <= 100:
+        i+=1
+        text = re.sub(r'(<lg>)(((?!</lg>).)*?)<(/?)p>', r'\1\2<\4l>', text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 
 listdocs=[
-"index"
+"unamuno_amor-pedagogia"
 ]
-
+"""
+"",
+"unamuno_cuentos de mi mismo",
+"unamuno_san manuel bueno martir",
+"unamuno_sentimiento tragico de la vida",
+"unamuno_tia tula"
+"""
 i=0
 for doc in listdocs:
     docFormatIn=doc+".html"    
@@ -258,6 +286,7 @@ for doc in listdocs:
 
         # It writes the result in the output folder
 
+        content=lInLg(content)
 
         with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
             fout.write(content)
