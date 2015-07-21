@@ -1,9 +1,71 @@
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title type="main"></title>
+                <title type="sub"></title>
+                <title type="short"/>
+                <title type="idno">
+                    <idno type="viaf"></idno></title>
+                <author>
+                    <idno type="viaf"></idno>
+                    <name type="short"></name>
+                    <name type="full"></name>
+                </author>
+                <principal xml:id="jct">José Calvo Tello</principal>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>CLiGS</publisher>
+                <availability status="publicdomain">
+                    <p>The text is freely available.</p>
+                </availability>
+                <date>2015</date>
+                <idno type="cligs">ne01</idno>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="digital-source">
+                    <date></date>, <idno/>, <ref target=""/>.
+                </bibl>
+                <bibl type="print-source">
+                    <date></date>
+                </bibl>
+                <bibl type="edition-first">
+                    <date></date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <p/>
+        </encodingDesc>
+        <profileDesc>
+            <abstract>
+                <p/>
+            </abstract>
+            <textClass>
+                <keywords scheme="keywords.csv">
+                    <term type="supergenre">narrative</term>
+                    <term type="genre"></term>
+                    <term type="subgenre"></term>
+                    <term type="genre-label"></term>
+                    <term type="narrative-perspective" cert="low" resp="jct"></term>
+                    <term type="publication">book</term>
+                    <term type="form">prose</term>
+                    <term type="author-gender">male</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change when="2015-07-21" who="jct">Initial TEI version.</change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+        </front>
+        <body>
 <div>
 <head>Prólogo</head>
-<div><!--italics-->
 <p>Se empeña don Miguel de Unamuno en que ponga yo un prólogo a este su libro en que se relata la tan lamentable historia de mi buen amigo Augusto Pérez y su misteriosa muerte, y yo no puedo menos sino escribirlo, porque los deseos del señor Unamuno son para mí mandatos, en la más genuina acepción de este vocablo. Sin haber yo llegado al extremo de escepticismo hamletiano de mi pobre amigo Pérez, que llegó hasta a dudar de su propia existencia, estoy por lo menos firmemente persuadido de que carezco de eso que los psicólogos llaman libre albedrío, aunque para mi consuelo creo también que tampoco goza don Miguel de él.</p>
 <p>Parecerá acaso extraño a alguno de nuestros lectores que sea yo, un perfecto desconocido en la república de las letras españolas, quien prologue un libro de don Miguel que es ya ventajosamente conocido en ella, cuando la costumbre es que sean los escritores más conocidos los que hagan en los prólogos la presentación de aquellos otros que lo sean menos. Pero es que nos hemos puesto de acuerdo don Miguel y yo para alterar esta perniciosa costumbre, invirtiendo los términos, y que sea el desconocido el que al conocido presente. Porque en rigor los libros más se compran por el cuerpo del texto que no por el prólogo, y es natural por lo tanto que cuando un joven principiante como yo desee darse a conocer, en vez de pedir a un veterano de las letras que le escriba un prólogo de presentación, debe rogarle que le permita ponérselo a una de sus obras. Y esto es a la vez resolver uno de los problemas de ese eterno pleito de los jóvenes y los viejos.</p>
 <p>Unenme, además, no pocos lazos con don Miguel de Unamuno. Aparte de que este señor saca a relucir en este libro, sea novela o <seg rend="italics">nivola</seg> —y conste que esto de la <seg rend="italics">nivola</seg> es invención mía—, no pocos dichos y conversaciones que con el malogrado Augusto Pérez tuve, y que narra también en ella la historia del nacimiento de mi tardío hijo Victorcito, parece que tengo algún lejano parentesco con don Miguel, ya que mi apellido es el de uno de sus antepasados, según doctísimas investigaciones genealógicas de mi amigo Antolín S. Paparrigópulos, tan conocido en el mundo de la erudición.</p>
@@ -30,26 +92,18 @@
 <p>No se me oculta, por otra parte, que no estará conforme con esa mi distinción entre religión y belicosidad de un lado y filosofía y erótica de otro mi querido maestro don Fulgencio Entrambosmares del Aquilón, de quien don Miguel ha dado tan circunstanciada noticia en su novela o <seg rend="italics">nivola Amor y pedagogía.</seg> Presumo que el ilustre autor del <seg rend="italics">Ars magna combinatoria</seg> establecerá: una religión guerrera y una religión erótica, una metafísica guerrera y otra erótica, un erotismo religioso y un erotismo metafísico, un belicosismo metafísico y otro religioso y, por otra parte, una religión metafísica y una metafísica religiosa, un erotismo guerrero y un belicosismo erótico; todo esto aparte de la religión religiosa, la metafísica metafísica, el erotismo erótico y el belicosismo belicoso. Lo que hace dieciséis combinaciones binarias. ¡Y no digo nada de las ternarias del género: verbigracia, de una religión metafísico-erótica o de una metafísica guerrero-religiosa! Pero yo no tengo ni el inagotable ingenio combinatorio de don Fulgencio, ni menos el ímpetu confusionista e indefinicionista de don Miguel.</p>
 <p>Mucho se me ocurre atañedero al inesperado final de este relato y a la versión que en él da don Miguel de la muerte de mi desgraciado amigo Augusto, versión que estimo errónea; pero no es cosa de que me ponga yo ahora aquí a discutir en este prólogo con mi prologado. Pero debo hacer constar en descargo de mi conciencia que estoy profundamente convencido de que Augusto Pérez, cumpliendo el propósito de suicidarse que me comunicó en la última entrevista, que con él tuve, se suicidó realmente y de hecho, y no sólo idealmente y de deseo. Creo tener pruebas fehacientes en apoyo de mi opinión; tantas y tales pruebas, que deja de ser opinión para llegar a conocimiento.</p>
 <p>Y con esto acabo.</p>
-</div>
-<ab>VÍCTOR GOTI.</ab>
+    <ab>VÍCTOR GOTI.</ab>
 </div>
 <div>
 <head>Post-prólogo</head>
-<div><!--italics-->
 <p>De buena gana discutiría aquí alguna de las afirmaciones de mi prologuista, Víctor Goti, pero como estoy en el secreto de su existencia —la de Goti—, prefiero dejarle la entera responsabilidad de lo que en ese su prólogo dice. Además, como fui yo quien le rogué que me lo escribiese, comprometiéndome de antemano —o sea <seg rend="italics">a priori</seg>— a aceptarlo tal y como me lo diera, no es cosa ni de que lo rechace, ni siquiera de que me ponga a corregirlo y rectificarlo ahora a trasmano —o sea <seg rend="italics">a posteriori—.</seg> Pero otra cosa es que deje pasar ciertas apreciaciones suyas sin alguna mía.</p>
 <p>No sé hasta qué punto sea lícito hacer uso de confidencias vertidas en el seno de la más íntima amistad y llevar al público opiniones o apreciaciones que no las destinaba a él quien las profiriera. Y Goti ha cometido en su prólogo la indiscreción de publicar juicios míos que nunca tuve intención de que se hiciesen públicos. O por lo menos nunca quise que se publicaran con la crudeza con que en privado los exponía.</p>
 <p>Y respecto a su afirmación de que el desgraciado… Aunque, desgraciado, ¿por qué? Bien; supongamos que lo hubiese sido. Su afirmación, digo, de que el desgraciado, o lo que fuese, Augusto Pérez se suicidó y no murió como yo cuento su muerte, es decir, por mi libérrimo albedrío y decisión, es cosa que me hace sonreír. Opiniones hay, en efecto, que no merecen sino una sonrisa. Y debe andarse mi amigo y prologuista Goti con mucho tiento en discutir así mis decisiones, porque si me fastidia mucho acabaré por hacer con él lo que con su amigo Pérez hice, y es que le dejaré morir o le mataré a guisa de médico. Los cuales ya saben mis lectores que se mueven en este dilema: o dejan morir al enfermo por miedo a matarle, o le matan por miedo de que se les muera. Y así yo soy capaz de matar a Goti si veo que se me va a morir, o de dejarle morir si temo haber de matarle.</p>
 <p>Y no quiero prolongar más este post-prólogo, que es lo bastante para darle la alternativa a mi amigo Víctor Goti, a quien agradezco su trabajo.</p>
-</div>
-<ab>M. DE U.</ab>
+    <ab>M. DE U.</ab>
 </div>
 <div>
-<head></head>
-<div class="subtitulo">
-<p>Prólogo a esta edición,</p>
-<p>o sea, historia de «Niebla»</p>
-</div>
-<div><!--italics-->
+    <head>Prólogo a esta edición, o sea, historia de «Niebla»</head>
 <p>La primera edición de esta mi obra —¿mía sólo?— apareció en 1914 en la Biblioteca «Renacimiento», a la que luego se la han llevado la trampa y los tramposos. Parece que hay otra segunda, de 1928, pero de ella no tengo más que noticia bibliográfica. No la he visto, sin que sea de extrañar, pues en ese tiempo se encontraba la dictadura en el poder y yo desterrado, para no acatarla, en Hendaya. En 1914, al habérseme echado —más bien desenjaulado— de mi primera rectoría de la Universidad de Salamanca, entré en una nueva vida con la erupción de la guerra de las naciones que sacudió a nuestra España, aunque esta no beligerante. Dividiónos a los españoles en germanófilos y antigermanófilos —aliadófilos si se quiere—, más según nuestros temperamentos que según los motivos de la guerra. Fue la ocasión que nos marcó el curso de nuestra ulterior historia hasta llegar a la supuesta revolución de 1931, al suicidio de la monarquía borbónica. Es cuando me sentí envuelto en la niebla histórica de nuestra España, de nuestra Europa y hasta de nuestro universo humano.</p>
 <p>Ahora, al ofrecérseme en 1935 coyuntura de reeditar mi <seg rend="italics">Niebla</seg>, la he revisado, y al revisarla la he rehecho íntimamente, la he vuelto a hacer; la he revivido en mí. Que el pasado revive; revive el recuerdo y se rehace. Es una obra nueva para mí, como lo será, de seguro, para aquellos de mis lectores que la hayan leído y la vuelvan a leer de nuevo. Que me relean al releerla. Pensé un momento si hacerla de nuevo, renovarla; pero sería otra… ¿Otra? Cuando aquel mi Augusto Pérez de hace veintiún años —tenía yo entonces cincuenta— se me presentó en sueños creyendo yo haberle finado y pensando, arrepentido, resucitarle, me preguntó si creía yo posible resucitar a don Quijote, y al contestarle que ¡imposible!: «Pues en el mismo caso estamos todos los demás entes de ficción», me arguyó, y al yo replicarle: «¿Y si te vuelvo a soñar?», él: «No se sueña dos veces el mismo sueño. Ese que usted vuelve a soñar y crea soy yo será otro…». ¿Otro? ¡Cómo me ha perseguido y me persigue ese otro! Basta ver mi tragedia <seg rend="italics">El otro</seg>. Y en cuanto a la posibilidad de resucitar a don Quijote, creo haber resucitado al de Cervantes y creo que le resucitan todos los que le contemplan y le oyen. No los eruditos, por supuesto, ni los cervantistas. Resucitan al héroe como al Cristo los cristianos siguiendo a Pablo de Tarso. Que así es la historia, o sea la leyenda. Ni hay otra resurrección.</p>
 <p>¿Ente de ficción? ¿Ente de realidad? De realidad de ficción, que es ficción de realidad. Cuando una vez sorprendí a mi hijo Pepe, casi niño entonces, dibujando un muñeco y diciéndose: «¡Soy de carne, soy de carne, no pintado!», palabras que ponía en el muñeco, reviví mi niñez, me rehíce y casi me espanté. Fue una aparición espiritual. Y hace poco mi nieto Miguelín me preguntaba si el gato Félix —el de los cuentos para niños— era de carne. Quería decir vivo. Y al insinuarle yo que cuento, sueño o mentira, me replicó: «¿Pero sueño de carne?». Hay aquí toda una metafísica. O una metahistoria.</p>
@@ -64,8 +118,7 @@
 <p>Y bajo esos dos mundos, sosteniéndolos, está otro mundo, un mundo sustancial y eterno, en que me sueño a mí mismo y a los que han sido —muchos lo son todavía— carne de mi espíritu y espíritu de mi carne, mundo de la conciencia sin espacio ni tiempo en la que vive, como ola en la mar, la conciencia de mi cuerpo. Cuando me negué a indultar de la muerte a mi Augusto Pérez me dijo este: «No quiere usted dejarme ser yo, salir de la niebla, vivir, vivir, vivir, verme, oírme, tocarme, sentirme, dolerme, serme, ¿conque no lo quiere?, ¿conque he de morir ente de ficción? ¡Pues bien, mi señor creador don Miguel, también usted se morirá, también usted, y se volverá a la nada de que salió!… ¡Dios dejará de soñarle! ¡Se morirá usted, sí, se morirá, aunque no lo quiera; se morirá usted y se morirán todos los que lean mi historia, todos, todos, todos, sin quedar uno! ¡Entes de ficción como yo, lo mismo que yo! ¡Se morirán todos, todos, todos!». Así me dijo, y ¡cómo me susurran, a través de más de veinte años, durante ellos, en terrible silbido casi silencioso, como el bíblico de Jehová, esas palabras proféticas y apocalípticas! Porque no es sólo que he venido muriéndome, es que se han ido muriendo, se me han muerto los míos, los que me hacían y me soñaban mejor. Se me ha ido el alma de la vida gota a gota, y alguna vez a chorro. ¡Pobres mentecatos los que suponen que vivo torturado por mi propia inmortalidad individual! ¡Pobre gente! No, sino por la de todos los que he soñado y sueño, por la de todos los que me sueñan y sueño. Que la inmortalidad, como el sueño, o es comunal o no es. No logro recordar a ninguno a quien haya conocido de veras —conocer de veras a alguien es quererle, y aunque se crea odiarle— y que se me haya ido sin que a solas me le diga: «¿Qué eres ahora tú?, ¿qué es ahora de tu conciencia?, ¿qué soy en ella yo ahora?, ¿qué es de lo que ha sido?». Esta es la niebla, esta la nivola, esta la leyenda, esta la vida eterna… Y esto es el verbo creador, soñador.</p>
 <p>Hay una visión radiosa de Leopardi, el trágico soñador del hastío, que es el <seg rend="italics">Cántico del gallo silvestre, gallo gigantesco</seg> sacado de una paráfrasis targúmica de la Biblia, gallo que canta la revelación eterna e invita a los mortales a despertarse. Y acaba así: «Tiempo vendrá en que este universo y la naturaleza misma quedarán agotados. Y al modo que de grandísimos reinos e imperios humanos, y de sus maravillosas moviciones, que fueron famosísimos en otras edades, no queda hoy ni señal ni fama alguna, parejamente del mundo entero y de las infinitas vicisitudes y calamidades de las cosas creadas no permanecerá ni siquiera un vestigio, sino que un silencio desnudo y una quietud profundísima llenarán el espacio inmenso. Así este cercano admirable y espantoso de la existencia universal antes de ser declarado ni entendido se borrará y perderáse».</p>
 <p>Pero no, que ha de quedar el cántico del gallo silvestre y el susurro de Jehová con él; ha de quedar el Verbo que fue el principio y será el último, el Soplo y Son espiritual que recoge las nieblas y las cuaja. Augusto Pérez nos conminó a todos, a todos los que fueron y son yo, a todos los que formamos el sueño de Dios —o mejor, el sueño de su Verbo—, con que habremos de morir. Se me van muriendo en carne de espacio, pero no en carne de sueño, en carne de conciencia. Y por esto os digo, lectores de mi <seg rend="italics">Niebla</seg>, soñadores de mi Augusto Pérez y de su mundo, que esto es la niebla, esto es la nivola, esto es la leyenda, esto es la historia, la vida eterna.</p>
-</div>
-<ab>Salamanca, febrero 1935.</ab>
+    <ab>Salamanca, febrero 1935.</ab>
 </div>
 <div>
 <head>Capítulo 1</head>
@@ -1741,9 +1794,9 @@
 <p>—Y pensar es dudar y nada más que dudar. Se cree, se sabe, se imagina sin dudar; ni la fe, ni el conocimiento, ni la imaginación suponen duda y hasta la duda las destruye, pero no se piensa sin dudar. Y es la duda lo que de la fe y del conocimiento, que son algo estático, quieto, muerto, hace pensamiento, que es dinámico, inquieto, vivo.</p>
 <p>—¿Y la imaginación?</p>
 <p>—Sí, ahí cabe alguna duda. Suelo dudar lo que les he de hacer decir o hacer a los personajes de mi nivola, y aun después de que les he hecho decir o hacer algo dudo de si estuvo bien y si es lo que en verdad les corresponde. Pero… ¡paso por todo! Sí, sí, cabe duda en el imaginar, que es un pensar…</p>
-<p class="centrado">… … … … … … … … … … … … … … … … … … …</p>
+<milestone />
 <p>Mientras Augusto y Victor sostenían esta conversación nivolesca, yo, el autor de esta nivola, que tienes, lector, en la mano y estás leyendo, me sonreía enigmáticamente al ver que mis nivolescos personajes estaban abogando por mí y justificando mis procedimientos, y me decía a mí mismo: «¡Cuán lejos estarán estos infelices de pensar que no están haciendo otra cosa que tratar de justificar lo que yo estoy haciendo con ellos! Así cuando uno busca razones para justificarse no hace en rigor otra cosa que justificar a Dios. Y yo soy el Dios de estos dos pobres diablos nivolescos».</p>
-<p class="centrado">… … … … … … … … … … … … … … … … … … …</p>
+<milestone />
 </div>
 <div>
 <head>Capítulo 26</head>
@@ -1823,32 +1876,32 @@
 <p>—No importa, tócalo, Eugenia, tócalo para que yo escriba mis versos.</p>
 <p>—¡Sea, pero por única vez!</p>
 <p>Sentóse Eugenia a tocar el piano y mientras lo tocaba escribió Augusto esto:</p>
-<div class="poema1">
-<p>Mi alma vagaba lejos de mi cuerpo</p>
-<p>en las brumas perdidas de la idea,</p>
-<p>perdida allá en las notas de la música</p>
-<p>que según dicen cantan las esferas;</p>
-<p>y yacía mi cuerpo solitario</p>
-<p>sin alma y triste errando por la tierra.</p>
-<p>Nacidos para arar juntos la vida</p>
-<p>no vivían; porque él era materia</p>
-<p>tan sólo y ella nada más que espíritu</p>
-<p>buscando completarse, ¡dulce Eugenia!</p>
-<p>Mas brotaron tus ojos como fuentes</p>
-<p>de viva luz encima de mi senda</p>
-<p>y prendieron a mi alma y la trajeron</p>
-<p>del vago cielo a la dudosa tierra,</p>
-<p>metiéronla en mi cuerpo, y desde entonces</p>
-<p>¡y sólo desde entonces vivo, Eugenia!</p>
-<p>Son tus ojos cual clavos encendidos</p>
-<p>que mi cuerpo a mi espíritu sujetan,</p>
-<p>que hacen que sueñe en mi febril la sangre</p>
-<p>y que en carne convierten mis ideas.</p>
-<p>¡Si esa luz de mi vida se apagara,</p>
-<p>desuncidos espíritu y materia,</p>
-<p>perderíame en brumas celestiales</p>
-<p>y del profundo en la voraz tiniebla!</p>
-</div>
+<lg>
+<l>Mi alma vagaba lejos de mi cuerpo</l>
+<l>en las brumas perdidas de la idea,</l>
+<l>perdida allá en las notas de la música</l>
+<l>que según dicen cantan las esferas;</l>
+<l>y yacía mi cuerpo solitario</l>
+<l>sin alma y triste errando por la tierra.</l>
+<l>Nacidos para arar juntos la vida</l>
+<l>no vivían; porque él era materia</l>
+<l>tan sólo y ella nada más que espíritu</l>
+<l>buscando completarse, ¡dulce Eugenia!</l>
+<l>Mas brotaron tus ojos como fuentes</l>
+<l>de viva luz encima de mi senda</l>
+<l>y prendieron a mi alma y la trajeron</l>
+<l>del vago cielo a la dudosa tierra,</l>
+<l>metiéronla en mi cuerpo, y desde entonces</l>
+<l>¡y sólo desde entonces vivo, Eugenia!</l>
+<l>Son tus ojos cual clavos encendidos</l>
+<l>que mi cuerpo a mi espíritu sujetan,</l>
+<l>que hacen que sueñe en mi febril la sangre</l>
+<l>y que en carne convierten mis ideas.</l>
+<l>¡Si esa luz de mi vida se apagara,</l>
+<l>desuncidos espíritu y materia,</l>
+<l>perderíame en brumas celestiales</l>
+<l>y del profundo en la voraz tiniebla!</l>
+</lg>
 <p>—¿Qué te parecen? —le preguntó Augusto luego que se los hubo leído.</p>
 <p>—Como mi piano, poco o nada musicales. Y eso de «según dicen…».</p>
 <p>—Sí, es para darle familiaridad…</p>
@@ -2275,13 +2328,18 @@
 <p>—Pero ¡señorito!…</p>
 <p>—¡Haz lo que te digo!</p>
 <p>Domingo obedeció, llevóle el papel y el tintero y Augusto escribió:</p>
-<milestone />
-<p>«Salamanca.</p>
-<p class="centrado">»Unamuno.</p>
-<milestone />
+<floatingText>
+<body>
+    <div>
+    <p>«Salamanca.</p>
+<p>»Unamuno.</p>
+    </div>
+    <div>
 <p>»Se salió usted con la suya. He muerto.</p>
-<p class="derecha1">»Augusto Pérez».</p>
-<milestone />
+<p>»Augusto Pérez».</p>
+    </div>
+</body>
+</floatingText>
 <p>—En cuanto me muera lo envías, ¿eh?</p>
 <p>—Como usted quiera —contestó el criado por no discutir más con el amo.</p>
 <p>Fueron los dos al cuarto. El pobre Augusto temblaba de tal modo al ir a desnudarse que no podía ni aun cogerse las ropas para quitárselas.</p>
@@ -2393,3 +2451,11 @@
 <p>En sus ensayos destacar <seg rend="italics">Del sentimiento trágico de la vida</seg> (1913), y en narrativa <seg rend="italics">Niebla</seg> (1914), <seg rend="italics">Abel Sánchez</seg> (1917), <seg rend="italics">La tía Tula</seg> (1921) y <seg rend="italics">San Manuel Bueno, mártir</seg> (1930), sus mejores y más conocidas obras.</p>
 </div>
 -->
+		</body>
+		<back>
+			<div>
+					<p></p>
+			</div>
+		</back>
+	</text>
+</TEI>
