@@ -183,6 +183,9 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="sinopsis">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="ilustra">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE) 
     text = re.sub(r'<div class="info">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<sup(|[^>]*)>\[[0-9]+\]</sup>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span(|[^>]*)>\s*</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<a(|[^>]*)>\s*</a>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tlogo|tautor|ttitulo|trevision|tfirma)">.*?</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h1 class="ttitulo">.*?</h1>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<img[^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -209,13 +212,16 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="banner">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<html.*?<body>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</body></html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p><span class="cap[0-9]*">(..?)</span>', r'<p>\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+
     text = re.sub(r'<p(| [^>]+)>[\s\r\n]*</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
     text = re.sub(r'\n[ \t]+', r'\n', text, flags=re.IGNORECASE)
     text = re.sub(r'[\r\n]+', r'\r\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div>[\r?\n]*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<div>((?!<div>).)*</div>\r?\n)\Z', r'<!--\1-->', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
 
     return text
@@ -232,7 +238,7 @@ def lInLg(text):
 
 
 listdocs=[
-"unamuno_amor-pedagogia"
+"unamuno_cuentos de mi mismo"
 ]
 """
 "",
