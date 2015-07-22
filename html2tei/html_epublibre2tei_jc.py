@@ -261,10 +261,7 @@ def lInLg(text):
     """
     It replaces some elements and its styles with TEI elements
     """
-    # That should be improved!
-    i=0
-    while i <= 100:
-        i+=1
+    while re.search(r'(<lg>)(((?!</lg>).)*?)<(/?)p>', text, flags=re.DOTALL|re.IGNORECASE) is not None:
         text = re.sub(r'(<lg>)(((?!</lg>).)*?)<(/?)p>', r'\1\2<\4l>', text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
