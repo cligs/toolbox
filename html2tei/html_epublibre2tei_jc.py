@@ -185,6 +185,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="sinopsis">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="ilustra">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE) 
     text = re.sub(r'<div class="info">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<br class="calibre9" />', r' ', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sup(|[^>]*)>\[[0-9]+\]</sup>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span(|[^>]*)>\s*</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<a(|[^>]*)>\s*</a>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -210,6 +211,10 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<strong(|[^>]*)>(.*?)</strong>', r'<seg rend="bold">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    text = re.sub(r'<div class="(mi)?cita">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\2\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    
     text = re.sub(r'<div class="bloquederecha1">(.+?)</div>', r'<quote>\1</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="cursiva[0-9]*">', r'<div><!--italics-->', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="calibre" id="calibre_link-[0-9]+">', r'<div>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -221,11 +226,22 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'</body></html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(tsub|sub)?titulo[0-9]*">(.*?)</p>', r'<head>\2</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'</head>\s*<p class="t?subtitulo">(.*?)</p>', r': \1</head>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="tsubtitulo">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</head>\s*<head>', r': ', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    # Cleaning some <milestone />
     text = re.sub(r'(<div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</head>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+    # Setting some floatingTexts
+    text = re.sub(r'(<div(| [^>]*?)>((?!<div).)*</div>)(\s*<p)', r'<floatingText>\n<body>\n\1\n</body>\n</floatingText>\n\4', text, flags=re.DOTALL|re.IGNORECASE)
+
+    #text = re.sub(r'(<div(|[^>]+?)>.*?</div>)(\s*<p)', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    # Floating Texts
 
     text = re.sub(r'<p(| [^>]+)>[\s\r\n]*</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
@@ -233,6 +249,10 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'[\r\n]+', r'\r\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div>[\r?\n]*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<div>((?!<div>).)*</div>\r?\n)\Z', r'<!--\1-->', text, flags=re.DOTALL|re.IGNORECASE)
+
+
+
+    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
 
     return text
