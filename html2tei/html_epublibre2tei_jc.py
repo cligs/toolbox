@@ -212,6 +212,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     
+    # Setting quotes in floatingText element
     text = re.sub(r'<div class="(mi)?cita">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\2\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
     
     
@@ -226,7 +227,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'</body></html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="(tsub|sub)?titulo[0-9]*">(.*?)</p>', r'<head>\2</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(tsub|sub)?tit(ulo)?[0-9]*">(.*?)</p>', r'<head>\3</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</head>\s*<head>', r': ', text, flags=re.DOTALL|re.IGNORECASE)
@@ -254,13 +255,13 @@ def replacingBasicElementsFromEpubLibre(text):
 
     text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
-
     return text
 
 def lInLg(text):
     """
     It replaces some elements and its styles with TEI elements
     """
+    # That should be improved!
     i=0
     while i <= 100:
         i+=1
@@ -269,13 +270,9 @@ def lInLg(text):
 
 
 listdocs=[
-"unamuno_tia tula"
+"baroja_arbol_ciencia"
 ]
-"""
-"",
-"unamuno_sentimiento tragico de la vida",
-"unamuno_tia tula"
-"""
+
 i=0
 for doc in listdocs:
     docFormatIn=doc+".html"    
