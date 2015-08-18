@@ -32,7 +32,7 @@ def lemmatizeText(inpath):
     os.chdir(inpath)
 
     #1. The programs takes a path of import, of export and a format
-    for file in glob.glob("/home/jose/CLiGS/toolbox/lemmatization*.xml"):
+    for file in glob.glob(""+inpath+"0-input/*.xml"):
         pathname=os.path.basename        
         fullfilename = pathname(file)
         print("fullname: "+fullfilename)
@@ -47,5 +47,5 @@ def lemmatizeText(inpath):
 
         subprocess.call ('analyze -f es.cfg <'+inpath+'1-plaintext/'+basicname+'.txt  >'+inpath+'2-pos/'+basicname+'.txt', shell=True)
 
-lemmatizeText("/home/jose/CLiGS/toolbox/lemmatization")
+lemmatizeText("/home/jose/CLiGS/toolbox/lemmatization/spanish/freeling/")
 
