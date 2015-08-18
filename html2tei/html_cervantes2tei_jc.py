@@ -36,6 +36,7 @@ def cleaningIndent(text):
     text = re.sub(r'[\r\n]+', r'\r\n', text)
     text = re.sub(r' +', r' ', text)
     text = re.sub(r'<p(>| [^>]*>)\s*</p>', r' ', text)
+    text = re.sub(r'[\t ]', r' ', text)
     return text
 
 
@@ -67,7 +68,7 @@ def deletingElements(text):
     text = re.sub(r'<img[^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</?div[^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span style="font-style:normal;">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<font(>| [^>]*>).{0,2}[0-9]+.{0,2}</font>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<(font|span)(>| [^>]*?>)\s*.{0,2}[0-9]+.{0,2}\s*</(font|span)>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<font(>| [^>]*>)(.*?)</font>', r'\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sup(>| [^>]*>).*?</sup>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     #abr    
@@ -89,13 +90,17 @@ def replacingBasicElements(text):
     text = re.sub(r'<p style="font-size:12pt;text-align: justify;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p align="center">(.+?)</p>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<hr.*?>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p(>| [^>]*>)[\*\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
 
     # Replace spain foreign words and italics elements    
-    text = re.sub(r'<span .*?lang="([^"]*)".*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<em(>| [^>]+)(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span [^>]*?lang="([^"]*?)"[^>]*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<em(>| [^>]+>)(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span style= *"font-style:italic;">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span style= *"font-style:italic;">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -168,11 +173,13 @@ def setDivs(text):
     return text
 
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno"><idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="cligs"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="y"></principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="restricted">\r\n                    <!-- Optionen: restricted, publicdomain, unknown. -->\r\n					<p>Files prepared for personal research use only. Not for publication.</p>\r\n				</availability>\r\n				<date></date>\r\n				<idno type="cligs"><!--[a-z]{2}[0-9]{4}, z.B. ne0034 --></idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p></p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p></p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre"></term>\r\n					<term type="genre" cert="high"></term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective"></term>\r\n					<term type="form"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015" who="#">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date>2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p></p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p></p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 listdocs=[
-"Bazan_Pascual_ne088"
+"genio-y-figura--0",
+"juanita-la-larga--0",
+"morsamor-peregrinaciones-heroicas-y-lances-de-amor-y-fortuna-de-miguel-de-zuheros-y-tiburcio-de-simahonda--0"
 ]
 
 i=0

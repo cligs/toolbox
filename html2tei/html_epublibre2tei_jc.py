@@ -267,7 +267,12 @@ def lInLg(text):
 
 
 listdocs=[
-"baroja_arbol_ciencia"
+"cuentos-morales--1",
+"dona-berta-cuervo-supercheria--0",
+"el-senor-y-lo-demas-son-cuentos--0",
+"la-regenta--1",
+"pipa--0",
+"su-unico-hijo--0"
 ]
 
 i=0
