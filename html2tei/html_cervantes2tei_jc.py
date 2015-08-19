@@ -99,11 +99,14 @@ def replacingBasicElements(text):
     text = re.sub(r'<p style="font-size:12pt;text-align: right;text-indent:30px;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p style="font-size:12pt;text-align: justify;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p align="center">(.+?)</p>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p STYLE= *"text-align: RIGHT">(.+?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p ALIGN="RIGHT">(.+?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<hr.*?>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p(>| [^>]*>)[\*\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p><CENTER>[\. ]+?</CENTER>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
 
     # Replace spain foreign words and italics elements    
     text = re.sub(r'<span [^>]*?lang="([^"]*?)"[^>]*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -118,6 +121,11 @@ def replacingTables(text):
     """
     Replace tables with <quote> or <lg>
     """
+    #Replacing the very old table before 2000
+    text = re.sub(r'<TABLE WIDTH="100%">(.*?)</TABLE>', r'<lg>\r\n\1\r\n</lg>', text, flags=re.DOTALL)
+    text = re.sub(r'<TABLE WIDTH="100%">(.*?)</TABLE>', r'<lg>\r\n\1\r\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    #text = re.sub(r'<TR VALIGN="TOP">(.*?)</TR>', r'<l>\1</l>', text, flags=re.DOTALL)
+    
     text = re.sub(r'<table width="70%" align="center">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<table cellpadding="0" cellspacing="0" align="center" width="462">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td nowrap="yes">(.*?)</td>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
@@ -129,7 +137,8 @@ def replacingTables(text):
     text = re.sub(r'<td [^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<lg>\s*<lg>', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'(\r?\n)([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{10,500})(\r?\n)', r'\1<ab>\2</ab>\3', text, flags=re.IGNORECASE)
+
+    #text = re.sub(r'(\r?\n)([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{10,500})(\r?\n)', r'\1<ab>\2</ab>\3', text, flags=re.IGNORECASE)
     #Improvement: Actaully it would be better to work with this, but for some reason, it doesn't
     # text = re.sub(r'^([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{,10})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
     return text
@@ -187,7 +196,7 @@ def settingTeiHeader(text):
     return text
 
 listdocs=[
-"la-honrada--0"
+"lazaro"
 ]
 
 i=0

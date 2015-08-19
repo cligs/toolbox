@@ -74,4 +74,4 @@ def get_metadata(wdir, inpath, metadatafile):
 def main(wdir,inpath, metadatafile):
     get_metadata(wdir,inpath, metadatafile)
 
-main("/home/jose/CLiGS/pruebas/0_tei/", "*.xml", "metadata_from_header.csv")
+main("/home/jose/CLiGS/ne/master/", "*.xml", "metadata_from_header.csv")
