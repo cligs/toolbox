@@ -40,7 +40,8 @@ def basic_stats(inpath):
     """ Read files, calculate data, calculate metrics, save results."""
 
     ### Empty dataframe for results.
-    index = ["no_sent", "no_types", "no_tokens", "no_hapax", "no_chars", "no_syll", "avg_tokenlen", "avg_sentlen", "ttr", "htyr", "htor", "yuleK", "fk"]
+    #index = ["no_sent", "no_types", "no_tokens", "no_hapax", "no_chars", "no_syll", "avg_tokenlen", "avg_sentlen", "ttr", "htyr", "htor", "yuleK", "fk"]
+    index = ["no_sent", "no_types", "no_tokens", "no_hapax"]
     all_output = pd.DataFrame(index=index)
     all_output = all_output.T
     #print(all_output)
@@ -79,6 +80,7 @@ def basic_stats(inpath):
             #print("Number of tokens in", textname, ":", no_tokens)
             no_hapax = len(sr_hapax)
             #print(no_hapax)
+            """
             no_tokenchars = 0 #Without whitespace.
             for word in tokens:
                 tokenlength = len(word)
@@ -90,10 +92,10 @@ def basic_stats(inpath):
                     if letter == "a" or letter == "e" or letter == "i" or letter == "o" or letter == "u" or letter == "y":
                         no_syllables += 1
             #print(no_syllables)
+            """
 
-
-
-    ### Calculate some basic derived metrics
+            """
+            ### Calculate some basic derived metrics
             #print("---\nSome derived metrics")
             avg_tokenlength = no_tokenchars / no_tokens
             #print("Average token length (in chars) in", textname, ":", avg_tokenlength)
@@ -112,13 +114,14 @@ def basic_stats(inpath):
 
             fleshkincaid = (0.39 * no_tokens / no_sentences) + ( 11.8 * no_syllables) / no_tokens - 15.59
             #print(fleshkincaid)
+            """
 
-
-    ### Combine all values for one text, combine all texts, save as a table.
+            ### Combine all values for one text, combine all texts, save as a table.
             columns = [textname]
             index = index
             #print(index)
-            results = [no_sentences, no_types, no_tokens, no_hapax, no_tokenchars, no_syllables, avg_tokenlength, avg_sentencelength, ttr, htyr, htor, yuleK, fleshkincaid]
+            #results = [no_sentences, no_types, no_tokens, no_hapax, no_tokenchars, no_syllables, avg_tokenlength, avg_sentencelength, ttr, htyr, htor, yuleK, fleshkincaid]
+            results = [no_sentences, no_types, no_tokens, no_hapax]
             #print(results)
             output = pd.Series(results, index=index, name=textname)
             #print(output)
