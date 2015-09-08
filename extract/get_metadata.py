@@ -16,7 +16,7 @@ def get_metadata(wdir, inpath, metadatafile):
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
-    labels = ("idno","author", "gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender")
+    labels = ("idno","author", "gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title": '//tei:title[@type="short"]//text()',
@@ -34,7 +34,9 @@ def get_metadata(wdir, inpath, metadatafile):
               "narration": '//tei:term[@type="narrative-perspective"]//text()',
               "availability": '//tei:availability//@status',
               "setting": '//tei:term[@type="setting"]//text()',
-              "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()'
+              "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
+              "author-country": '//tei:term[@type="author-country"]//text()',
+              "author-continent": '//tei:term[@type="author-continent"]//text()'
               }
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
