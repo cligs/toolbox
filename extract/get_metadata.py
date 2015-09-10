@@ -16,13 +16,13 @@ def get_metadata(wdir, inpath, metadatafile):
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
-    labels = ("idno","author", "gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent")
+    labels = ("idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent")
 
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title": '//tei:title[@type="short"]//text()',
-              "author": '//tei:author//tei:name[@type="short"]//text()', 
+              "author-name": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
-              "gender":'//tei:term[@type="author-gender"]//text()',
+              "author-gender":'//tei:term[@type="author-gender"]//text()',
               "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
               "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
@@ -79,4 +79,4 @@ def get_metadata(wdir, inpath, metadatafile):
 def main(wdir,inpath, metadatafile):
     get_metadata(wdir,inpath, metadatafile)
 
-main("/home/jose/CLiGS/ne/master/", "*.xml", "metadata_from_header.csv")
+main("/home/.../", "*.xml", "metadata_from_header.csv")
