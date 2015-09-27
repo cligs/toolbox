@@ -39,8 +39,8 @@ tagger = tagger
 ### Choose selected tokens from tagged text.
 inpath = wdir + "data/tgd/*.trt"
 outfolder = wdir + "data/sel/"
-mode = "enNONE"
-#contrast.select_tokens(inpath, outfolder, mode)
+mode = "enNONE" # enNONE = english-no named entities
+contrast.select_tokens(inpath, outfolder, mode)
 
 
 
@@ -50,7 +50,7 @@ mode = "enNONE"
 
 ### count_words
 ### Establish a raw frequency count of words in each document.
-inpath = wdir + "data/sel/*.txt"
+inpath = wdir + "data/sel/*.txt"  # sel|txt
 outfolder = wdir + "results/"
 resultfile = "wordcounts.csv"
 contrast.count_words(inpath, outfolder, resultfile)

@@ -130,10 +130,10 @@ def select_tokens(inpath, outfolder, mode):
                     lemma = splitline[2]
                     pos = splitline[1]
                     token = splitline[0]
-                    ## Choose tokens according to parameter "mode"
+                    ## Choose tokens / lemmata according to parameter "mode"
                     if mode == "enNONE":
                         if "<unknown>" not in lemma and "NP" not in pos:
-                            tokens.append(token.lower())               
+                            tokens.append(lemma.lower())               
             tokens = ' '.join([word for word in tokens])
             newfilename = os.path.basename(file)[:-4] + ".txt"
             #print(outfolder, newfilename)
@@ -144,12 +144,9 @@ def select_tokens(inpath, outfolder, mode):
 
 
 
-
 ##################################################################
-###  GENERATE BASIC CORPUS DATA (mastermatrix)                 ###
+###  BASIC CORPUS DATA (mastermatrix)                          ###
 ##################################################################
-
-
 
 
 #################################
@@ -169,7 +166,7 @@ def count_words(inpath, outfolder, resultfile):
         with open(file, "r") as infile:
             filename = os.path.basename(file)[:-4]
             text = infile.read()
-            print(filename, text[0:100])
+            #print(filename, text[0:100])
             
             ## Prepare the text
             text = text.lower()
@@ -179,23 +176,24 @@ def count_words(inpath, outfolder, resultfile):
                 if len(token) > 0: 
                     filtered.append(token)
             text = filtered
-            print(text[0:100])
+            #print(text[0:100])
  
             ## Count words and collect results
             word_count = Counter(text)
             word_count = pd.Series(word_count, name=filename)
-            print(word_count)
+            #print(word_count)
             results = results.append(word_count, ignore_index=False)
     results = results.fillna(0.0000000001)            
     results = results.T
     #results['rowsums'] = results.sum(axis=1)
     #results = results.sort("rowsums", ascending=False)
-    print(results.head(), results.tail())
+    #print(results.head(), results.tail())
         
     ## Save dataframe to file
     outfilename = outfolder+resultfile
     with open(outfilename, "w") as out:
         results.to_csv(out, sep=',', encoding='utf-8')
+    print("Done.")
 
 
 #################################
@@ -208,21 +206,28 @@ def build_mastermatrix(wordcounts, metadata, outfolder, mastermatrixfile):
     
     with open(metadata, "r") as infile: 
         metadata = pd.DataFrame.from_csv(infile)
-    print(metadata.head())
+    #print(metadata.head())
     with open(wordcounts, "r") as infile: 
         wordcounts = pd.DataFrame.from_csv(infile)
         wordcounts = wordcounts.T
         wordcounts["idno"] = wordcounts.index
-    print(wordcounts.head())
+   # print(wordcounts.head())
     mastermatrix = pd.merge(metadata, wordcounts, how="inner", on="idno")
-    print(mastermatrix.head())
+    #print(mastermatrix.head())
     
     ## Save dataframe to file
     outfilename = outfolder+mastermatrixfile
     with open(outfilename, "w") as out:
         mastermatrix.to_csv(out, sep=',', encoding='utf-8')
+    print("Done.")
     
-        
+
+
+##################################################################
+###  BASIC STATISTICS                                          ###
+##################################################################
+
+
 #################################
 # get_summarystats              #
 #################################
@@ -236,14 +241,14 @@ def get_summarystats(mastermatrixfile, outfolder, summarystatsfile):
         #print(mastermatrix)
 
     summarystats = mastermatrix.iloc[:,0:8]
-    print(summarystats)
+    #print(summarystats)
 
     ## Total number of tokens in each text
     texts_tokennumber = mastermatrix.iloc[0:,8:].sum(axis=1)
-    print(texts_tokennumber)
+    #print(texts_tokennumber)
     
     summarystats["totaltokens"] = texts_tokennumber
-    print(summarystats)
+    #print(summarystats)
 
     ## Total frequency of each token in the collection
     #coll_tokenfreqs = mastermatrix.iloc[0:,8:].sum(axis=0)
@@ -256,9 +261,12 @@ def get_summarystats(mastermatrixfile, outfolder, summarystatsfile):
     outfilename = outfolder+summarystatsfile
     with open(outfilename, "w") as out:
         summarystats.to_csv(out, sep=',', encoding='utf-8')
+    print("Done.")
+
+
 
 #################################
-# get_relativefreqs              #
+# get_relativefreqs             #
 #################################
 
 def get_relativefreqs(mastermatrixfile, summarystatsfile):
@@ -267,21 +275,28 @@ def get_relativefreqs(mastermatrixfile, summarystatsfile):
     
     with open(mastermatrixfile, "r") as infile: 
         mastermatrix = pd.DataFrame.from_csv(infile)
-        print(mastermatrix)
+        #print(mastermatrix)
        
         ## Relative frequencies of each token in each text
         tokennumber_pertext = mastermatrix.iloc[0:,8:].sum(axis=1)
-        print(tokennumber_pertext)        
+        #print(tokennumber_pertext)        
         tokenfreqs_absolute = mastermatrix.iloc[:,8:-1]
-        print(tokenfreqs_absolute)
+        #print(tokenfreqs_absolute)
         
         tokenfreqs_relative = tokenfreqs_absolute.div(tokennumber_pertext, axis=0)
-        print(tokenfreqs_relative)
+        #print(tokenfreqs_relative)
+    print("Done.")
         
+
+
+##################################################################
+###  CONTRASTIVE STATISTICS                                    ###
+##################################################################
+
 
 
 #################################
-# calculate_ratioRelFreqs             #
+# calculate_ratioRelFreqs       #
 #################################
 
 def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
@@ -295,7 +310,7 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
         ## Partition the collection into two groups based on metadata
         partitioned = mastermatrix.groupby(partition).sum()
         partitioned.dropna(axis=1, how="any", inplace=True)
-        print(partitioned)
+        #print(partitioned)
         
         ## Calculate relative token frequencies
         tokennumber_perpartition = partitioned.iloc[0:,8:].sum(axis=1)
@@ -308,7 +323,8 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
         ## Calculate the ratio of relative frequencies, for each token        
         ratioRelFreqs = tokenfreqs_relative.iloc[0,8:-1] / tokenfreqs_relative.iloc[1,8:-1]
         ratioRelFreqs.sort(ascending=False)
-        print(ratioRelFreqs.head(20), ratioRelFreqs.tail(20))
+        print(ratioRelFreqs.head(30), ratioRelFreqs.tail(30))
+    print("Done.")
     
 
     
