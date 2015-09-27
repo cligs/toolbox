@@ -21,14 +21,14 @@ def copy_subset(wdir, fullset, metadata, outfolder):
 
     ## Filter the metadata table by one or several criteria
     ## USER: For categorical criteria, set filter category (column) and list of values to be selected.
-    filter_category = "subgenre" # author_short, genre, subgenre, availability, decade, etc.
-    selection_list = ["policier"] # See metadata file for possible values
-    metadata = metadata[metadata[filter_category].isin(selection_list)]
+    #filter_category = "subgenre" # author_short, genre, subgenre, availability, decade, etc.
+    #selection_list = ["policier"] # See metadata file for possible values
+    #metadata = metadata[metadata[filter_category].isin(selection_list)]
 
     ## USER: And/or, for numeric criteria, set a filter category and upper and lower bound.
     filter_category = "year"
-    lower_bound = "1800"
-    upper_bound = "2000"
+    lower_bound = "1799"
+    upper_bound = "1900"
     myquery = lower_bound + "<" + filter_category + "<" + upper_bound 
     metadata = metadata.query(myquery)
     
@@ -59,4 +59,4 @@ def copy_subset(wdir, fullset, metadata, outfolder):
 def main(wdir, fullset, metadata, outfolder):
     copy_subset(wdir, fullset, metadata, outfolder)
 
-main("/home/christof/Repos/cligs/examplecollection/", "master/*.xml", "metadata_from_header.csv", "subset_policier/")
+main("/home/christof/Repos/cligs/romanfrancais/", "master/*.xml", "metadata.csv", "subset_df/")
