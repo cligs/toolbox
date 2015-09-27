@@ -79,6 +79,80 @@ def read_tei(inpath, outfolder):
 
 
 #################################
+# call_treetagger               #
+#################################
+
+def call_treetagger(infolder, outfolder, tagger):
+    """Function to call TreeTagger from Python"""
+    print("\nLaunched call_treetagger.")
+    import subprocess
+
+    inpath = infolder + "*.txt"
+    infiles = glob.glob(inpath)
+    counter = 0
+    
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+
+    for infile in infiles: 
+        #print(os.path.basename(infile))
+        counter+=1
+        outfile = outfolder + os.path.basename(infile)[:-4] + ".trt"
+        #print(outfile)
+        command = tagger + " < " + infile + " > " + outfile
+        subprocess.call(command, shell=True)
+    print("Files treated: ", counter)
+    print("Done.")
+
+
+
+#################################
+# select_tokens                 #
+#################################
+
+def select_tokens(inpath, outfolder, mode):
+    """Function to extract tokens from TreeTagger output."""
+    print("\nLaunched select_tokens.")
+
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
+    counter = 0
+    for file in glob.glob(inpath):
+        with open(file,"r") as infile:
+            counter+=1
+            text = infile.read()
+            splittext = re.split("\n",text)
+            
+            tokens = []
+            for line in splittext:
+                splitline = re.split("\t",line)
+                if len(splitline) == 3:
+                    lemma = splitline[2]
+                    pos = splitline[1]
+                    token = splitline[0]
+                    ## Choose tokens according to parameter "mode"
+                    if mode == "enNONE":
+                        if "<unknown>" not in lemma and "NP" not in pos:
+                            tokens.append(token.lower())               
+            tokens = ' '.join([word for word in tokens])
+            newfilename = os.path.basename(file)[:-4] + ".txt"
+            #print(outfolder, newfilename)
+            with open(os.path.join(outfolder, newfilename),"w") as output:
+                output.write(str(tokens))
+    print("Files treated: ", counter)
+    print("Done.")
+
+
+
+
+##################################################################
+###  GENERATE BASIC CORPUS DATA (mastermatrix)                 ###
+##################################################################
+
+
+
+
+#################################
 # count_words                   #
 #################################
 
@@ -217,22 +291,24 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
     with open(mastermatrixfile, "r") as infile: 
         mastermatrix = pd.DataFrame.from_csv(infile)
         #print(mastermatrix)
-    
+        
+        ## Partition the collection into two groups based on metadata
         partitioned = mastermatrix.groupby(partition).sum()
         partitioned.dropna(axis=1, how="any", inplace=True)
         print(partitioned)
-    
-    
+        
+        ## Calculate relative token frequencies
         tokennumber_perpartition = partitioned.iloc[0:,8:].sum(axis=1)
         #print(tokennumber_perpartition)        
         tokenfreqs_absolute = partitioned.iloc[:,8:-1]
         #print(tokenfreqs_absolute)
         tokenfreqs_relative = tokenfreqs_absolute.div(tokennumber_perpartition, axis=0)
         #print(tokenfreqs_relative)
-        
+
+        ## Calculate the ratio of relative frequencies, for each token        
         ratioRelFreqs = tokenfreqs_relative.iloc[0,8:-1] / tokenfreqs_relative.iloc[1,8:-1]
         ratioRelFreqs.sort(ascending=False)
-        print(ratioRelFreqs.head(), ratioRelFreqs.tail())
+        print(ratioRelFreqs.head(20), ratioRelFreqs.tail(20))
     
 
     
