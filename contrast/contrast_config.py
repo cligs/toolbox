@@ -40,7 +40,7 @@ tagger = tagger
 inpath = wdir + "data/tgd/*.trt"
 outfolder = wdir + "data/sel/"
 mode = "enNONE" # enNONE = english-no named entities
-contrast.select_tokens(inpath, outfolder, mode)
+#contrast.select_tokens(inpath, outfolder, mode)
 
 
 
@@ -53,7 +53,7 @@ contrast.select_tokens(inpath, outfolder, mode)
 inpath = wdir + "data/sel/*.txt"  # sel|txt
 outfolder = wdir + "results/"
 resultfile = "wordcounts.csv"
-contrast.count_words(inpath, outfolder, resultfile)
+#contrast.count_words(inpath, outfolder, resultfile)
 
 ### build_mastermatrix
 ### Build a matrix combining metadata and word counts.
@@ -61,7 +61,7 @@ wordcounts = wdir + "results/wordcounts.csv"
 metadata = wdir + "data/metadata.csv"
 outfolder = wdir + "results/"
 mastermatrixfile = "mastermatrix.csv"
-contrast.build_mastermatrix(wordcounts, metadata, outfolder, mastermatrixfile)
+#contrast.build_mastermatrix(wordcounts, metadata, outfolder, mastermatrixfile)
 
 
 ################################
@@ -80,7 +80,7 @@ outfolder = wdir + "results/"
 ### Get the relative frequencies of each token in each text.
 mastermatrixfile = wdir + "results/mastermatrix.csv" 
 summarystatsfile = wdir + "summarystats.csv"
-#contrast.get_relativefreqs(mastermatrixfile, summarystatsfile)
+contrast.get_relativefreqs(mastermatrixfile, summarystatsfile)
 
 
 ################################

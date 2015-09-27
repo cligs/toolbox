@@ -284,7 +284,7 @@ def get_relativefreqs(mastermatrixfile, summarystatsfile):
         #print(tokenfreqs_absolute)
         
         tokenfreqs_relative = tokenfreqs_absolute.div(tokennumber_pertext, axis=0)
-        #print(tokenfreqs_relative)
+        print(tokenfreqs_relative)
     print("Done.")
         
 
@@ -298,6 +298,8 @@ def get_relativefreqs(mastermatrixfile, summarystatsfile):
 #################################
 # calculate_ratioRelFreqs       #
 #################################
+
+## TODO: Make sure items with a joint frequency of less than 5 get excluded.
 
 def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
     """Calculate the ratio of relative frequencies for two partitions."""
@@ -318,25 +320,13 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
         tokenfreqs_absolute = partitioned.iloc[:,8:-1]
         #print(tokenfreqs_absolute)
         tokenfreqs_relative = tokenfreqs_absolute.div(tokennumber_perpartition, axis=0)
-        #print(tokenfreqs_relative)
+        print(tokenfreqs_relative)
 
         ## Calculate the ratio of relative frequencies, for each token        
         ratioRelFreqs = tokenfreqs_relative.iloc[0,8:-1] / tokenfreqs_relative.iloc[1,8:-1]
         ratioRelFreqs.sort(ascending=False)
         print(ratioRelFreqs.head(30), ratioRelFreqs.tail(30))
     print("Done.")
-    
-
-    
-    
-
-    
-    
-    
-    
-    
-    
-    
     
     
     
