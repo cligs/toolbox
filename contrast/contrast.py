@@ -328,37 +328,3 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
         print(ratioRelFreqs.head(30), ratioRelFreqs.tail(30))
     print("Done.")
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-
-
