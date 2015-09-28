@@ -134,6 +134,9 @@ def select_tokens(inpath, outfolder, mode):
                     if mode == "enNONE":
                         if "<unknown>" not in lemma and "NP" not in pos:
                             tokens.append(lemma.lower())               
+                    elif mode == "enALL":
+                        if "<unknown>" not in lemma:
+                            tokens.append(lemma.lower())               
             tokens = ' '.join([word for word in tokens])
             newfilename = os.path.basename(file)[:-4] + ".txt"
             #print(outfolder, newfilename)
@@ -211,7 +214,7 @@ def build_mastermatrix(wordcounts, metadata, outfolder, mastermatrixfile):
         wordcounts = pd.DataFrame.from_csv(infile)
         wordcounts = wordcounts.T
         wordcounts["idno"] = wordcounts.index
-   # print(wordcounts.head())
+    #print(wordcounts.head())
     mastermatrix = pd.merge(metadata, wordcounts, how="inner", on="idno")
     #print(mastermatrix.head())
     
@@ -320,11 +323,81 @@ def calculate_ratioRelFreqs(mastermatrixfile, partition, ratioRelFreqsFile):
         tokenfreqs_absolute = partitioned.iloc[:,8:-1]
         #print(tokenfreqs_absolute)
         tokenfreqs_relative = tokenfreqs_absolute.div(tokennumber_perpartition, axis=0)
-        print(tokenfreqs_relative)
+        #print(tokenfreqs_relative)
 
         ## Calculate the ratio of relative frequencies, for each token        
         ratioRelFreqs = tokenfreqs_relative.iloc[0,8:-1] / tokenfreqs_relative.iloc[1,8:-1]
         ratioRelFreqs.sort(ascending=False)
+        print("===\nRatio of relative frequencies, extreme values:")
         print(ratioRelFreqs.head(30), ratioRelFreqs.tail(30))
+        print("===")
     print("Done.")
     
+
+
+#################################
+# calculate_Zeta                #
+#################################
+
+
+# 1. Partition the data into two partions (reuse from ratioRelFreqs), based on "sel" files.
+# 2. Segment each text into segments (reuse from tmw) 
+# 3. Build word_count matrix with data for each segment 
+# 4. Build mastermatrix
+# 5. Reduce mastermatrix to binary format per segment
+# 6. Add up segment scores to full texts again
+# 7. Apply ratio of relative frequencies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
