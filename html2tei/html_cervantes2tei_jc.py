@@ -8,6 +8,7 @@ This temporary script file is located here:
 import re
 import os
 import html.parser
+import glob
 
 def cleaningHTML(text):
     """
@@ -15,7 +16,7 @@ def cleaningHTML(text):
     """
     # HTML-Entities decodieren
     h = html.parser.HTMLParser()
-    text = h.unescape(content)
+    text = h.unescape(text)
     
     #Delete classes in the <hn> elements
     text = re.sub(r'<(/?h[1-6])[^>]*>', r'<\1>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -195,57 +196,56 @@ def settingTeiHeader(text):
     text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date when=""></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date when=""></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date when=""></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p></p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p></p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-listdocs=[
-"lazaro"
-]
-
-i=0
-for doc in listdocs:
-    docFormatIn=doc+".html"    
-    docFormatOut=doc+".xml"    
-
-    with open(os.path.join("input",docFormatIn), "r", errors="replace", encoding="utf-8") as fin:
-        content = fin.read()
+def main():
+    i=1
+    for doc in glob.glob("input/*.html"):
     
-        # it cleans the HTML from entities, etc        
-        content=cleaningHTML(content)
-        
-        # It deletes elements before <body> and after </body>
-        content=deletingNonBody(content)
-        
-        #It deletes different kind of elements        
-        content=deletingElements(content)
-        
-        #It replaces some HTML elements with TEI elements    
-        content=replacingBasicElements(content)
-        
-        #It cleans the white space
-        content=cleaningIndent(content)
+        # It takes the base name of the html file, it cuts its ending and keeps a new xml name
+        basenamedoc = os.path.basename(doc)[:-4]  
+        docFormatOut=basenamedoc+"xml"    
     
-        #It replaces the tables with <lg>
-        content=replacingTables(content)   
+        with open(doc, "r", errors="replace", encoding="utf-8") as fin:
+            content = fin.read()
+        
+            # it cleans the HTML from entities, etc        
+            content=cleaningHTML(content)
+            
+            # It deletes elements before <body> and after </body>
+            content=deletingNonBody(content)
+            
+            #It deletes different kind of elements        
+            content=deletingElements(content)
+            
+            #It replaces some HTML elements with TEI elements    
+            content=replacingBasicElements(content)
+            
+            #It cleans the white space
+            content=cleaningIndent(content)
+        
+            #It replaces the tables with <lg>
+            content=replacingTables(content)   
+        
+            #It cleans the white space, again
+            content=cleaningIndent(content)
+            
+            #It replaces <b> with <h3>. Uncomment to use it!
+            content=replacingBold(content)         
+            
+            #It sets divs 
+            content=setDivs(content)
+            
+            #We introduce the teiHeader
+            content=settingTeiHeader(content)
+            
+            # And once again
+            content=cleaningHTML(content)
+            
+            # It writes the result in the output folder
     
-        #It cleans the white space, again
-        content=cleaningIndent(content)
-        
-        #It replaces <b> with <h3>. Uncomment to use it!
-        content=replacingBold(content)         
-        
-        #It sets divs 
-        content=setDivs(content)
-        
-        #We introduce the teiHeader
-        content=settingTeiHeader(content)
-        
-        # And once again
-        content=cleaningHTML(content)
-        
-        # Improvement!: That should actually save the document as xml
+            with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
+                fout.write(content)
+        print(doc)
+        print("Processed documents: ",i)
+        i+=1
 
-        # It writes the result in the output folder
-
-
-        with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
-            fout.write(content)
-    print(doc)
-    i+=1
+main()
