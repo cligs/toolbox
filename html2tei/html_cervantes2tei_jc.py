@@ -16,7 +16,7 @@ def cleaningHTML(text):
     """
     # HTML-Entities decodieren
     h = html.parser.HTMLParser()
-    text = h.unescape(content)
+    text = h.unescape(text)
     
     #Delete classes in the <hn> elements
     text = re.sub(r'<(/?h[1-6])[^>]*>', r'<\1>', text, flags=re.DOTALL|re.IGNORECASE)
