@@ -1,38 +1,50 @@
 # -*- coding: utf-8 -*-
-# Filename: elements-used.py
+# Filename: elements_used.py
 """
 Created on Thu May 21 15:57:56 2015
 
 @author: Ulrike Henny
 
-- creates an overview of the TEI elements and attributes used in a text collection
-- generates a json file named "fileinfos.json" with the following information for each file in the text collection:
-   {filename:{"usage_el":{"el_name":number},"usage_att":{"att_name":number}}}
-- generates bar charts stored as "elements_used.png"
-- possible bar chart outputs:
-  (1) overall usage of elements and attributes in all text files
-  (2) usage of elements and attributes in a specific text file
-  (3) usage of a specific element in all text files
-  (4) usage of a specific attribute in all text files
+The program creates an overview of the elements and attributes 
+used in a collection of XML files.
+
+It is possible: 
+- to get an overview of which and how many elements and 
+attributes are used in the collection as a whole
+- to get an overview of which and how many elements and
+attributes are used in a certain file
+- to get an overview of in which files a certain element
+or a certain attribute is used and how often
+
+The output is:
+- a CSV file listing the filenames of the XML files in
+the collection, the element and attribute names and the
+number of their occurrences
+- a JSON file listing the information compactly
+- an image file with a group of bar charts displaying 
+the results for the chosen options
 
 Args:
-    collection_path (str): path to the collection (of TEI files)
-    collection_name (str): name of the collection
-    name (str): optional argument; filename or elememt/attribute name
+    coll_path (str): path to the collection of XML files (with trailing slash)
+    coll_name (str): name of the collection
+    name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
+    out (str): optional argument; path to the output directory; defaults to the current working directory
+    namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
+    xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
     
 Returns:
     str: A message.
-
 """
 
 #######################
 # Import statements   #
 #######################
 
-import os
+import argparse
 import glob
 import json
 import numpy as np
+import os
 import re
 from lxml import etree
 from matplotlib import pyplot as plt
@@ -40,7 +52,7 @@ from sys import argv,exit,stdout
 
 
 #######################
-# Functions           #
+# Functions, General  #
 #######################
 
 def print_err(err):
@@ -55,45 +67,54 @@ def print_err(err):
     """
     return stdout.write(err.args[0])
     
-    
 
-def get_fileinfos(collection_path):
+
+def unique_names(names):
+    """
+    Return only unique elements of a list of names.
+    
+    Args:
+        names (list): List of element or attribute names        
+        
+    Returns:
+        List with unique names
+    """
+    return sorted(set(names))
+
+
+#######################
+# Functions, Get Info #
+#######################
+
+def get_fileinfos(coll_path, namespace, xpath, out):
     """
     Creates a dictionary containing all the necessary information:
     for each file - which element and attributes occur and how often?
+    Dumps the result to a JSON and a CSV file.
     
     Args:
-        collection_path (str): path to the collection
+        coll_path (str): path to the collection
+        namespace (str): namespace for the collection; defaults to the TEI namespace
+        xpath (str): XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body
+        out (str): path to output directory; defaults to the current working directory        
         
     Returns:
         dict: information about element/attribute usage in a text collection
     """
-    pathpattern = collection_path + "*.xml"
     
-    try:
-        if not os.path.exists(collection_path):
-            raise ValueError("Error: The collection cound not be found.")
-    except ValueError as err:
-        print(err)
-        exit(1)
-    list_of_filenames = glob.glob(pathpattern)
-    try:
-        if not list_of_filenames:
-            raise ValueError("Error: No XML file was found in the collection.")
-    except ValueError as err:
-        print(err)
-        exit(1)
+    list_of_filenames = check_paths(coll_path, out)
         
     fileinfos = {}
+    stdout.write("... gathering information\n")
     # loop trough each file in the collection
     for filepath in list_of_filenames:
         filename = os.path.basename(filepath)
         
         xml = etree.parse(filepath)
-        namespaces = {"tei":"http://www.tei-c.org/ns/1.0"}
+        namespaces = {"ns":namespace}
         
         # get all elements
-        all_el = xml.xpath("//tei:body//*", namespaces=namespaces)
+        all_el = xml.xpath(xpath, namespaces=namespaces)
         
         # collect all element/attribute names
         all_el_names = get_all_names(all_el, "el")
@@ -106,8 +127,10 @@ def get_fileinfos(collection_path):
         # add to fileinfos
         fileinfos[filename] = {"usage_el":usage_el, "usage_att":usage_att}
     
-    # write results to json file
-    dump_to_json(fileinfos)
+    # write results to JSON file
+    dump_to_json(fileinfos, out)
+    # write results to CSV file
+    dump_to_csv(fileinfos, out, all_el_names, all_att_names)
     
     return fileinfos
 
@@ -152,23 +175,6 @@ def get_usage(names):
     for item in sorted(set(names)):
         usage[item] = names.count(item)
     return usage
-
-
-
-def dump_to_json(fileinfos):
-    """
-    Dump the fileinfos to a JSON file.
-    
-    Args:
-        fileinfos (dict): Dictionary containing information about element/attribute usage
-        
-    Returns:
-        None
-    """
-    jsonarray = json.dumps(fileinfos)
-    text_file = open("fileinfos.json", "w")
-    text_file.write(jsonarray)
-    text_file.close()
 
 
 
@@ -219,6 +225,104 @@ def count_items(fileinfos, type, name=""):
             if name in fileinfos[file]["usage_el"].keys():
                 items_counted[file] = fileinfos[file]["usage_el"][name]
     return items_counted
+
+
+#######################
+# Functions, Dump  #
+#######################
+
+def dump_to_json(fileinfos, out):
+    """
+    Dump the fileinfos to a JSON file.
+    
+    Args:
+        fileinfos (dict): Dictionary containing information about element/attribute usage
+        out (str): path to output directory; defaults to the current working directory
+        
+    Returns:
+        None
+    """
+    jsonarray = json.dumps(fileinfos)
+    text_file = open(os.path.join(out,"elements_used.json"), "w")
+    text_file.write(jsonarray)
+    text_file.close()
+    stdout.write("... elements_used.json created\n")
+
+
+
+def dump_to_csv(fileinfos, out, all_el_names, all_att_names):
+    """
+    Dump the fileinfos to a CSV file.
+    
+    Args:
+        fileinfos (dict): Dictionary containing information about element/attribute usage
+        out (str): path to output directory; defaults to the current working directory
+        all_el_names (list): list of all occurring element names
+        all_att_names (list): list of all occurring attribute names
+        
+    Returns:
+        None
+    """
+    uni_el_names = unique_names(all_el_names)
+    uni_att_names = unique_names(all_att_names)    
+    att_names_prefixed = ["@%s" % item for item in uni_att_names]
+    
+    # transform information from dictionary to CSV format
+    with open(os.path.join(out,"elements_used.csv"), "w") as fout:
+        fout.write("," + ",".join(uni_el_names) + "," + ",".join(att_names_prefixed) + "\n")
+        for key in fileinfos:
+            el_str = ""
+            for eln in uni_el_names:
+                if (eln in fileinfos[key]["usage_el"]):
+                    el_str += "," + str(fileinfos[key]["usage_el"][eln])
+                else:
+                    el_str += ",0"
+            att_str = ""
+            for attn in uni_att_names:
+                if (attn in fileinfos[key]["usage_att"]):
+                    att_str += "," + str(fileinfos[key]["usage_att"][attn])
+                else:
+                    att_str += ",0"
+            fout.write(key + el_str + "," + att_str + "\n")
+    stdout.write("... elements_used.csv created\n")
+    
+    
+#######################
+# Functions, Check    #
+#######################
+    
+def check_paths(coll_path, out):
+    """
+    Checks whether the collection and XML files can be found.    
+    
+    Args:
+        coll_path (str): path to the collection of XML files
+        out (str): path to output directory; defaults to the current working directory
+    
+    Returns:
+        list: a list of filenames
+    """
+    pathpattern = coll_path + "*.xml"
+    try:
+        if not os.path.exists(coll_path):
+            raise ValueError("Error: The collection could not be found.")
+    except ValueError as err:
+        print(err)
+        exit(1)
+    try:
+        if not os.path.exists(out):
+            raise ValueError("Error: The output directory could not be found.")
+    except ValueError as err:
+        print(err)
+        exit(1)
+    list_of_filenames = glob.glob(pathpattern)
+    try:
+        if not list_of_filenames:
+            raise ValueError("Error: No XML file was found in the collection.")
+    except ValueError as err:
+        print(err)
+        exit(1)    
+    return list_of_filenames
     
     
     
@@ -301,6 +405,7 @@ def check_attname(name, fileinfos):
         exit(1)
 
 
+
 def check_elname(name, fileinfos):
     """
     Check if an element exists in the collection.
@@ -324,7 +429,11 @@ def check_elname(name, fileinfos):
         exit(1)
 
 
-def draw_figure(els_counted, atts_counted, collection_name, name=""):
+#######################
+# Functions, Charts   #
+#######################
+
+def draw_figure(els_counted, atts_counted, collection_name, out, name=""):
     """
     Creates a figure to hold charts about element/attribute usage.
     
@@ -332,12 +441,14 @@ def draw_figure(els_counted, atts_counted, collection_name, name=""):
         els_counted (dict): Information about element names and their occurrences
         atts_counted (dict): Information about attribute names and their occurrences
         collection_name (str): name of the text collection
+        out (str): path to output directory; defaults to the current working directory
         name (str): optional argument; filename of element/attribute name
         
     Returns:
         None; saves the figure/image file
     """
     
+    stdout.write("... drawing charts\n")    
     fig_width = max(len(els_counted),len(atts_counted),36) / 3
     fig_height = 6
     if is_filename(name) or name == "":
@@ -364,7 +475,8 @@ def draw_figure(els_counted, atts_counted, collection_name, name=""):
         draw_chart(atts_counted, fig, chart_info["attributes_used_all"])
     
     plt.tight_layout()        
-    fig.savefig("elements_used.png")
+    fig.savefig(os.path.join(out,"elements_used.png"))
+    stdout.write("... elements_used.png created\n")
     
 
 
@@ -458,54 +570,56 @@ def draw_chart(data, figure, chart_info):
 # Main                #
 #######################
 
-def main(collection_path,collection_name,name=""):
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("coll_path", type=str, help="path to the collection (with trailing slash)")
+    parser.add_argument("coll_name", type=str, help="name of the collection")
+    parser.add_argument("-n", "--name", type=str, default="", help="name of file, element or attribute")
+    parser.add_argument("-o", "--out", type=str, default=".", help="path to output directory; defaults to the current working directory")
+    parser.add_argument("-ns", "--namespace", type=str, default="http://www.tei-c.org/ns/1.0", help="namespace for the collection; defaults to the TEI namespace")
+    parser.add_argument("-x", "--xpath", type=str, default="//ns:body//*", help="path expression for element selection; defaults to the TEI body")
+    return parser.parse_args()
+
+def main(argv):
     """
-        Creates an overview of the TEI elements and attributes used in a text collection.
+        Creates an overview of the elements and attributes used in a collection of XML files.
         
         Args:
-            collection_path (str): path to the collection
-            collection_name (str): name of the text collection
-            name (str): optional argument. 
-                        - overall element/attribute usage? - leave name empty
-                        - element/attribute usage for a specific text? - indicate filename
-                        - overview for a specific element/attribute? - indicate element/attribute name
-                        e.g. "nl0025.xml" or "div" or "@type"
-        
+            coll_path (str): path to the collection of XML files (with trailing slash)
+            coll_name (str): name of the collection
+            name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
+            out (str): optional argument; path to the output directory; defaults to the current working directory
+            namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
+            xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
+   
         Returns:
             str: A message.
     """    
+    args = parse_args()
     
     # collect all the necessary information (for all scenarios)
-    fileinfos = get_fileinfos(collection_path)
+    fileinfos = get_fileinfos(args.coll_path, args.namespace, args.xpath, args.out)
     
     # does the file name exist?
-    if is_filename(name):
-        check_filename(name, fileinfos)
+    if is_filename(args.name):
+        check_filename(args.name, fileinfos)
     # does the attribute name exist?
-    elif is_attname(name):
-        check_attname(name, fileinfos)
+    elif is_attname(args.name):
+        check_attname(args.name, fileinfos)
     # does the element name exist?             
-    elif name != "":
-        check_elname(name, fileinfos)
+    elif args.name != "":
+        check_elname(args.name, fileinfos)
             
     # count el and att usage
-    els_counted = count_items(fileinfos,"el",name)
-    atts_counted = count_items(fileinfos,"att",name)
+    els_counted = count_items(fileinfos,"el",args.name)
+    atts_counted = count_items(fileinfos,"att",args.name)
 
     # draw bar charts
-    draw_figure(els_counted, atts_counted, collection_name, name)
+    draw_figure(els_counted, atts_counted, args.coll_name, args.out, args.name)
 
-    stdout.write("Info: The element usage overview has been created.")
+    stdout.write("Done: the element usage overview has been created\n")
     
         
 
-if len(argv) == 4:
-    main(argv[1],argv[2],argv[3])
-elif len(argv) == 3:
-    main(argv[1],argv[2])
-elif len(argv) == 2:
-    stdout.write("Error: Please indicate a collection name.")    
-elif len(argv) == 1:
-    stdout.write("Error: Please indicate a collection path.")
-else:
-    stdout.write("Error: Too many arguments.")
+if __name__ == "__main__":
+    main(argv) 
