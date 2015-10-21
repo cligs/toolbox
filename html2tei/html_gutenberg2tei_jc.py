@@ -62,17 +62,36 @@ def deletingElements(text):
     """
     Delete different tags
     """
-    text = re.sub(r'</?a(>| [^>]*>)', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'</?a(>|\s[^>]*>)', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<a[^>]*?>\[[0-9]*?\]</a>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<hr.*?>\s(<h[1-6]>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span\s*class="pagenum">[0-9\s\{\}]*?</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</h[1-6]>\s*)<p class="c">(.*?)</p>', r' - \2 \1', text, flags=re.DOTALL|re.IGNORECASE)
+
     return text
 
 def replacingBasicElements(text):
     text = re.sub(r'<em(>| [^>]+>)(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span style="margin-left: [0-9\.]*em;">(.+?)</span><br />', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span style="margin-left: 25%;">(.+?)</span><br />', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<seg rend="italics">(.+?)</seg><br />', r'<l>\1</l>', text, flags=re.IGNORECASE)
+
     text = re.sub(r'(</l>\s*)</div>', r'\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="noindent">(\s*<l>)', r'<lg>\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'(</l>\s*)<br />\s*</p>', r'\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p[^>]*?>\s*<br />(\s*<l>)', r'<lg>\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+
+    #We delete 2 <hr /> followed by each other
+    text = re.sub(r'<hr[^>]*?>(\s*<hr[^>]*?>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'(<(div|h[1-6])[^>]*?>\s*)<hr[^>]*?>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<hr[^>]*?>(\s*<(div|h[1-6])[^>]*?>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<div class="footnote">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -118,7 +137,7 @@ def setDivs(text):
     return text
 
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date when="1000"></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date when="1000"></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date when="1000"></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source">\r\n					<date when="1000"></date>, <idno></idno>, <ref target="#"/>.\r\n				</bibl>\r\n				<bibl type="print-source">\r\n					<date when="1000"></date>\r\n				</bibl>\r\n				<bibl type="edition-first">\r\n					<date when="1000"></date>\r\n				</bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n					<term type="protagonist-gender">male</term>\r\n					<term type="setting">male</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 
