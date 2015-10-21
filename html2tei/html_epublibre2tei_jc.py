@@ -15,7 +15,7 @@ def cleaningHTML(text):
     """
     # HTML-Entities decodieren
     h = html.parser.HTMLParser()
-    text = h.unescape(content)
+    text = h.unescape(text)
     
     # Geschützte Leerzeichen löschen
     text = re.sub('\u00A0', " ", text)
@@ -266,17 +266,16 @@ def lInLg(text):
     return text
 
 
-listdocs=[
-"ne0166_Blasco_Calafia"
-]
-
-i=0
-for doc in listdocs:
-    docFormatIn=doc+".html"    
-    docFormatOut=doc+".xml"    
-
-    with open(os.path.join("input",docFormatIn), "r", errors="replace", encoding="utf-8") as fin:
-        content = fin.read()
+def main():
+    i=1
+    for doc in glob.glob("input/*.html"):
+    
+        # It takes the base name of the html file, it cuts its ending and keeps a new xml name
+        basenamedoc = os.path.basename(doc)[:-4]  
+        docFormatOut=basenamedoc+"xml"    
+    
+        with open(doc, "r", errors="replace", encoding="utf-8") as fin:
+            content = fin.read()
     
         # it cleans the HTML from entities, etc        
         content=cleaningHTML(content)
@@ -317,7 +316,14 @@ for doc in listdocs:
 
         content=lInLg(content)
 
+     
+            
+            # It writes the result in the output folder
+    
         with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
-            fout.write(content)
-    print(doc)
-    i+=1
+                fout.write(content)
+        print(doc)
+        print("Processed documents: ",i)
+        i+=1
+
+main()
