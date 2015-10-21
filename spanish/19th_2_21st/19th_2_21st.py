@@ -64,7 +64,7 @@ def mod(file,outputfolder):
         text_mod = re.sub(r'([^A-ZÑÉÍÓÍÁÜ]DI)Ó([^A-ZÑÉÍÓÍÁÜ])', r'\1o\2',text_mod)
         text_mod = re.sub(r'([^A-zñéíóúáü][Dd]i)ó([^A-zñéíóúáü])', r'\1o\2',text_mod)
 
-        text_mod = re.sub(r'([^A-ZÑÉÍÓÍÁÜ])Á([^A-ZÑÉÍÓÍÁÜ])', r'\1A\2',text_mod)
+        text_mod = re.sub(r'([^A-zÑÉÍÓÍÁÜ])Á([^A-ZÑÉÍÓÍÁÜ])', r'\1A\2',text_mod)
         text_mod = re.sub(r'([^A-zñéíóúáü])á([^A-zñéíóúáü])', r'\1a\2',text_mod)
 
         text_mod = re.sub(r'([^A-ZÑÉÍÓÍÁÜ])Ó([^A-ZÑÉÍÓÍÁÜ])', r'\1O\2',text_mod)
