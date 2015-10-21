@@ -96,19 +96,20 @@ def unique_names(names):
     
 
 
-def create_out_dir():
+def create_out_dir(out):
     """
     Creates the output directory.
     
     Args:
-        None
+        out (str): path to the output directory
     Returns:
         None
     """    
+    out_path = os.path.join(out,out_dir_name)
     try:
-        os.stat(out_dir_name)
+        os.stat(out_path)
     except:
-        os.mkdir(out_dir_name)
+        os.mkdir(out_path)
 
 
 #######################
@@ -773,7 +774,7 @@ def main(argv):
     args = parse_args()
     
     # create output directory
-    create_out_dir()
+    create_out_dir(args.out)
     # collect all the necessary information (for all scenarios)
     fileinfos = get_fileinfos(args.coll_path, args.namespace, args.xpath, args.out)
     
