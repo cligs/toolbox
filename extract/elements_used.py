@@ -21,12 +21,14 @@ The output is:
 the collection, the element and attribute names and the
 number of their occurrences
 - a JSON file listing the information compactly
-- an image file with a group of bar charts displaying 
+- in single mode: an image file with a group of bar charts displaying 
 the results for the chosen options
+- in all mode: all possible bar charts are created
 
 Args:
-    coll_path (str): path to the collection of XML files (with trailing slash)
+    coll_path (str): path to the collection of XML files
     coll_name (str): name of the collection
+    mode (str): optional argument; possible values: "single", "all". In all-mode, all possible visualizations are created. In single-mode, a specific visualization can be selected. Default: "single"
     name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
     out (str): optional argument; path to the output directory; defaults to the current working directory
     namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
@@ -34,7 +36,10 @@ Args:
     
 Returns:
     str: A message.
+    
+A documentation can be found at http://cligs.hypotheses.org/276
 """
+
 
 #######################
 # Import statements   #
@@ -49,6 +54,14 @@ import re
 from lxml import etree
 from matplotlib import pyplot as plt
 from sys import argv,exit,stdout
+
+
+#######################
+# Variable, General   #
+#######################
+
+# name of the output folder which will be created by this program
+out_dir_name = "elements_used"
 
 
 #######################
@@ -80,6 +93,22 @@ def unique_names(names):
         List with unique names
     """
     return sorted(set(names))
+    
+
+
+def create_out_dir():
+    """
+    Creates the output directory.
+    
+    Args:
+        None
+    Returns:
+        None
+    """    
+    try:
+        os.stat(out_dir_name)
+    except:
+        os.mkdir(out_dir_name)
 
 
 #######################
@@ -111,7 +140,10 @@ def get_fileinfos(coll_path, namespace, xpath, out):
         filename = os.path.basename(filepath)
         
         xml = etree.parse(filepath)
-        namespaces = {"ns":namespace}
+        if (namespace != ""):
+            namespaces = {"ns":namespace}
+        else:
+            namespaces = {}
         
         # get all elements
         all_el = xml.xpath(xpath, namespaces=namespaces)
@@ -172,7 +204,7 @@ def get_usage(names):
         dict: Dictionary containing element/attribute names and their number of occurrences
     """   
     usage = {}    
-    for item in sorted(set(names)):
+    for item in unique_names(names):
         usage[item] = names.count(item)
     return usage
 
@@ -205,11 +237,10 @@ def count_items(fileinfos, type, name=""):
             for nodeName in fileinfos[filename]["usage_" + type].keys():
                 names.append(nodeName)
                 
-    names_unique = sorted(set(names))
     items_counted = {}
     
     if is_filename(name) or name == "":
-        for singleName in names_unique:
+        for singleName in unique_names(names):
             counter = 0
             for file in fileinfos:
                 counter += fileinfos[file]["usage_" + type].get(singleName, 0)
@@ -243,10 +274,11 @@ def dump_to_json(fileinfos, out):
         None
     """
     jsonarray = json.dumps(fileinfos)
-    text_file = open(os.path.join(out,"elements_used.json"), "w")
+    json_filename = "all_elements_used.json"
+    text_file = open(os.path.join(out,out_dir_name,json_filename), "w")
     text_file.write(jsonarray)
     text_file.close()
-    stdout.write("... elements_used.json created\n")
+    stdout.write("... "+json_filename+" created\n")
 
 
 
@@ -266,9 +298,10 @@ def dump_to_csv(fileinfos, out, all_el_names, all_att_names):
     uni_el_names = unique_names(all_el_names)
     uni_att_names = unique_names(all_att_names)    
     att_names_prefixed = ["@%s" % item for item in uni_att_names]
+    csv_filename = "all_elements_used.csv"
     
     # transform information from dictionary to CSV format
-    with open(os.path.join(out,"elements_used.csv"), "w") as fout:
+    with open(os.path.join(out,out_dir_name,csv_filename), "w") as fout:
         fout.write("," + ",".join(uni_el_names) + "," + ",".join(att_names_prefixed) + "\n")
         for key in fileinfos:
             el_str = ""
@@ -283,8 +316,8 @@ def dump_to_csv(fileinfos, out, all_el_names, all_att_names):
                     att_str += "," + str(fileinfos[key]["usage_att"][attn])
                 else:
                     att_str += ",0"
-            fout.write(key + el_str + "," + att_str + "\n")
-    stdout.write("... elements_used.csv created\n")
+            fout.write(key + el_str + att_str + "\n")
+    stdout.write("... "+csv_filename+" created\n")
     
     
 #######################
@@ -302,7 +335,7 @@ def check_paths(coll_path, out):
     Returns:
         list: a list of filenames
     """
-    pathpattern = coll_path + "*.xml"
+    pathpattern = os.path.join(coll_path,"*.xml")
     try:
         if not os.path.exists(coll_path):
             raise ValueError("Error: The collection could not be found.")
@@ -433,14 +466,14 @@ def check_elname(name, fileinfos):
 # Functions, Charts   #
 #######################
 
-def draw_figure(els_counted, atts_counted, collection_name, out, name=""):
+def draw_figure(els_counted, atts_counted, coll_name, out, name=""):
     """
     Creates a figure to hold charts about element/attribute usage.
     
     Args:
         els_counted (dict): Information about element names and their occurrences
         atts_counted (dict): Information about attribute names and their occurrences
-        collection_name (str): name of the text collection
+        coll_name (str): name of the text collection
         out (str): path to output directory; defaults to the current working directory
         name (str): optional argument; filename of element/attribute name
         
@@ -448,16 +481,36 @@ def draw_figure(els_counted, atts_counted, collection_name, out, name=""):
         None; saves the figure/image file
     """
     
-    stdout.write("... drawing charts\n")    
-    fig_width = max(len(els_counted),len(atts_counted),36) / 3
+    stdout.write("... drawing chart\n")    
+    fig_width = max(len(els_counted),len(atts_counted),10)
     fig_height = 6
     if is_filename(name) or name == "":
         fig_height *= 2
     fig = plt.figure(figsize=(fig_width,fig_height))
     
-    chart_info = get_chart_info(collection_name, name)    
+    chart_info = get_chart_info(coll_name, name)    
+    add_subplots(fig, els_counted, atts_counted, chart_info, name)
     
-    # add suplots to the figure
+    plt.tight_layout()   
+    save_figure(fig, out, name)
+    plt.close()
+    
+    
+
+def add_subplots(fig, els_counted, atts_counted, chart_info, name=""):
+    """
+    Adds subplots to the figure.
+    
+    Args:
+        fig (obj): Figure for the charts
+        els_counted (dict): Information about element names and their occurrences
+        atts_counted (dict): Information about attribute names and their occurrences  
+        chart_info (dict): Some general information for the chart
+        name (str): optional argument; filename of element/attribute name
+    
+    Returns:
+        None
+    """
     if name != "":
         if is_filename(name):
             # overview of element/attribute usage for a single text
@@ -473,19 +526,42 @@ def draw_figure(els_counted, atts_counted, collection_name, out, name=""):
         # overall overview of element and attribute usage
         draw_chart(els_counted, fig, chart_info["elements_used_all"])
         draw_chart(atts_counted, fig, chart_info["attributes_used_all"])
-    
-    plt.tight_layout()        
-    fig.savefig(os.path.join(out,"elements_used.png"))
-    stdout.write("... elements_used.png created\n")
-    
 
 
-def get_chart_info(collection_name, name):
+
+def save_figure(fig, out, name=""):
     """
-    Creates some metadata for the chart: position, title, axis lables etc.
+    Save the figure
     
     Args:
-        collection_name (str): name of the text collection
+        fig (obj): Figure for the charts
+        out (str): path to output directory; defaults to the current working directory        
+        name (str): optional argument; filename of element/attribute name
+    
+    Returns:
+        None
+    """
+    filename_out = ""    
+    if name != "":
+        if is_filename(name):
+            filename_out = "file_"+name+".png"
+        elif is_attname(name):
+            filename_out = "att_"+name[1:]+".png"
+        else:
+            filename_out = "el_"+name+".png"
+    else:
+        filename_out = "all_elements_used.png"
+    fig.savefig(os.path.join(out,out_dir_name,filename_out))
+    stdout.write("... "+filename_out+" created\n")
+
+
+
+def get_chart_info(coll_name, name):
+    """
+    Creates some metadata for the chart: position, title, axis lables etc.
+
+    Args:
+        coll_name (str): name of the text collection
         name (str): name of the file or element/attribute name
         
     Returns:
@@ -494,35 +570,35 @@ def get_chart_info(collection_name, name):
     
     chart_info = {
         "elements_used_all":{"position":211,
-                         "color":"g",
+                         "color":"#4785C2",
                          "label_x":"element names",
                          "label_y":"element occurrences",
-                         "title":"elements used in text collection '"+collection_name+"'"},
+                         "title":"elements used in collection '"+coll_name+"'"},
         "attributes_used_all":{"position":212,
-                           "color":"r",
+                           "color":"#339999",
                            "label_x":"attribute names",
                            "label_y":"attribute occurrences",
-                           "title":"attributes used in text collection '"+collection_name+"'"},
+                           "title":"attributes used in collection '"+coll_name+"'"},
         "elements_used_text":{"position":211,
-                              "color":"g",
+                              "color":"#4785C2",
                               "label_x":"element names",
                               "label_y":"element occurences",
-                              "title":"elemens used in text '"+name+"'"},
+                              "title":"elemens used in file '"+name+"'"},
         "attributes_used_text":{"position":212,
-                                "color":"r",
+                                "color":"#339999",
                                 "label_x":"attribute names",
                                 "label_y":"attribute occurrences",
-                                "title":"attributes used in text '"+name+"'"},
+                                "title":"attributes used in file '"+name+"'"},
         "element_used":{"position":111,
-                        "color":"g",
+                        "color":"#4785C2",
                         "label_x":"filenames",
                         "label_y":"number of occurrences",
-                        "title":"usage of element '"+name+"' in text collection '"+collection_name+"'"},
+                        "title":"usage of element '"+name+"' in collection '"+coll_name+"'"},
         "attribute_used":{"position":111,
-                          "color":"r",
+                          "color":"#339999",
                           "label_x":"filenames",
                           "label_y":"number of occurrences",
-                          "title":"usage of attribute '"+name+"' in text collection '"+collection_name+"'"}
+                          "title":"usage of attribute '"+name+"' in collection '"+coll_name+"'"}
     }
     return chart_info
 
@@ -542,64 +618,63 @@ def draw_chart(data, figure, chart_info):
     """    
     
     # number of elements on x-axis
-    N = len(data)
+    num_x = len(data)
+    N = 0    
+    if num_x != 0:    
+        N = num_x
+    else:
+        N = 1
     # prepare labels and values
     labels_x = tuple(sorted(data.keys()))
     values_y = []
     for val in labels_x:
         values_y.append(data[val])
+    if not values_y:
+        values_y.append(1)
     tuple(values_y)
+    max_y = max(values_y)
     # x locations for the bars
     ind = np.arange(N)
     # width of bars
-    width = 0.75
+    width = 0
+    if N < 5:
+        width = 0.25
+    else:
+        width = 0.75
+    # x axis margin
+    x_ma = 0
+    if N == 1:
+        x_ma = 1
+    else:
+        x_ma = 0.5/N
         
     # add subplot     
     ax = figure.add_subplot(chart_info["position"])
-    ax.bar(ind,values_y,width,color=chart_info["color"]) 
+    ax.bar(ind,values_y,width,color=chart_info["color"],align="center") 
+    ax.axes.margins(x_ma,0)
+    ax.axes.set_ylim(top=max_y+max_y/4+0.2)
     # add text for labels, title, axis ticks
     ax.set_xlabel(chart_info["label_x"])
     ax.set_ylabel(chart_info["label_y"])
     ax.set_title(chart_info["title"])
-    ax.set_xticks(ind+width/2)
+    ax.set_xticks(ind)
     ax.set_xticklabels(labels_x,rotation=90)
     
-        
-
+    
 #######################
-# Main                #
+# Mode                #
 #######################
 
-def parse_args():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("coll_path", type=str, help="path to the collection (with trailing slash)")
-    parser.add_argument("coll_name", type=str, help="name of the collection")
-    parser.add_argument("-n", "--name", type=str, default="", help="name of file, element or attribute")
-    parser.add_argument("-o", "--out", type=str, default=".", help="path to output directory; defaults to the current working directory")
-    parser.add_argument("-ns", "--namespace", type=str, default="http://www.tei-c.org/ns/1.0", help="namespace for the collection; defaults to the TEI namespace")
-    parser.add_argument("-x", "--xpath", type=str, default="//ns:body//*", help="path expression for element selection; defaults to the TEI body")
-    return parser.parse_args()
-
-def main(argv):
+def process_single(fileinfos, args):
     """
-        Creates an overview of the elements and attributes used in a collection of XML files.
-        
-        Args:
-            coll_path (str): path to the collection of XML files (with trailing slash)
-            coll_name (str): name of the collection
-            name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
-            out (str): optional argument; path to the output directory; defaults to the current working directory
-            namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
-            xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
-   
-        Returns:
-            str: A message.
-    """    
-    args = parse_args()
+    Creates just one visualization according to the chosen options.
     
-    # collect all the necessary information (for all scenarios)
-    fileinfos = get_fileinfos(args.coll_path, args.namespace, args.xpath, args.out)
-    
+    Args:
+        fileinfos (dict): Dictionary with information about elements in the collection
+        args (obj): arguments passed to the main function
+    Returns:
+        None
+    """
     # does the file name exist?
     if is_filename(args.name):
         check_filename(args.name, fileinfos)
@@ -610,12 +685,102 @@ def main(argv):
     elif args.name != "":
         check_elname(args.name, fileinfos)
             
-    # count el and att usage
-    els_counted = count_items(fileinfos,"el",args.name)
-    atts_counted = count_items(fileinfos,"att",args.name)
+    count_and_draw(fileinfos, args, args.name)
+    
+    
+    
+def process_all(fileinfos, args):
+    """
+    Creates all types of visualizations supported by this program.
+    
+    Args:
+        fileinfos (dict): Dictionary with information about elements in the collection
+        args (obj): arguments passed to the main function
+    Returns:
+        None
+    """
+    # create overall figure
+    count_and_draw(fileinfos,args)
+    # create figures for all the files
+    for key in fileinfos:
+        count_and_draw(fileinfos,args,key)
+    # create figures for all the elements
+    els_processed = []
+    for key in fileinfos:
+        for key in fileinfos[key]["usage_el"]:
+            if key not in els_processed:
+                count_and_draw(fileinfos,args,key)
+                els_processed.append(key)
+    # create figures for all the attributes
+    atts_processed = []
+    for key in fileinfos:
+        for key in fileinfos[key]["usage_att"]:
+            if key not in atts_processed:
+                count_and_draw(fileinfos,args,"@"+key)
+                atts_processed.append(key)
+    
+    
 
-    # draw bar charts
-    draw_figure(els_counted, atts_counted, args.coll_name, args.out, args.name)
+def count_and_draw(fileinfos, args, name=""):
+    """
+    Count elements and attributes and draw figure
+    
+    Args:
+        fileinfos (dict): Dictionary with information about elements in the collection
+        args (obj): arguments passed to the main function
+        name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
+    Returns:
+        None
+    """
+    els_counted = count_items(fileinfos,"el",name)
+    atts_counted = count_items(fileinfos,"att",name)
+    draw_figure(els_counted, atts_counted, args.coll_name, args.out,name)
+
+
+#######################
+# Main                #
+#######################
+
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("coll_path", type=str, help="path to the collection")
+    parser.add_argument("coll_name", type=str, help="name of the collection")
+    parser.add_argument("-m", "--mode", type=str, default="single", help="single: just one visualization which can be selected; all: all visualizations are created")
+    parser.add_argument("-n", "--name", type=str, default="", help="name of file, element or attribute")
+    parser.add_argument("-o", "--out", type=str, default=".", help="path to output directory; defaults to the current working directory")
+    parser.add_argument("-ns", "--namespace", type=str, default="http://www.tei-c.org/ns/1.0", help="namespace for the collection; defaults to the TEI namespace")
+    parser.add_argument("-x", "--xpath", type=str, default="//ns:body//*", help="path expression for element selection; defaults to the TEI body")
+    return parser.parse_args()
+
+
+
+def main(argv):
+    """
+        Creates an overview of the elements and attributes used in a collection of XML files.
+        
+        Args:
+            coll_path (str): path to the collection of XML files
+            coll_name (str): name of the collection
+            mode (str): optional argument; possible values: "single", "all". In all-mode, all possible visualizations are created. In single-mode, a specific visualization can be selected. Default: "single"
+            name (str): optional argument; filename or elememt/attribute name, e.g. "nl0025.xml" or "div" or "@type"
+            out (str): optional argument; path to the output directory; defaults to the current working directory
+            namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
+            xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
+   
+        Returns:
+            str: A message.
+    """    
+    args = parse_args()
+    
+    # create output directory
+    create_out_dir()
+    # collect all the necessary information (for all scenarios)
+    fileinfos = get_fileinfos(args.coll_path, args.namespace, args.xpath, args.out)
+    
+    if (args.mode == "all"):
+        process_all(fileinfos, args)
+    else:
+        process_single(fileinfos, args)
 
     stdout.write("Done: the element usage overview has been created\n")
     
