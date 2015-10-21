@@ -25,14 +25,9 @@
     <idno type="cligs">ne01</idno>
    </publicationStmt>
    <sourceDesc>
-    <bibl type="digital-source">
-     <date when="1000"></date>, <idno></idno>, <ref target="#"/>.     </bibl>
-    <bibl type="print-source">
-     <date when="1000"></date>
-    </bibl>
-    <bibl type="edition-first">
-     <date when="1000"></date>
-    </bibl>
+    <bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>
+    <bibl type="print-source"><date when="1000"></date></bibl>
+    <bibl type="edition-first"><date when="1000"></date></bibl>
    </sourceDesc>
   </fileDesc>
   <encodingDesc>
@@ -48,12 +43,13 @@
      <term type="genre">novel</term>
      <term type="subgenre" cert="low" resp="x"></term>
      <term type="genre-label"></term>
-     <term type="narrative-perspective" cert="low" resp="jct"></term>
+     <term type="narrative-perspective" cert="low" resp="#jct"></term>
      <term type="publication">book</term>
      <term type="form">prose</term>
      <term type="author-gender">male</term>
      <term type="protagonist-gender">male</term>
-     <term type="setting">male</term>
+     <term type="setting" cert="low" resp="#jct"></term>
+     <term type="subgenre-lithist"></term>
     </keywords>
    </textClass>
   </profileDesc>
