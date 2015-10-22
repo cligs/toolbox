@@ -33,6 +33,7 @@ Args:
     out (str): optional argument; path to the output directory; defaults to the current working directory
     namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
     xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
+    log (bool): sets the y scale to logarithmic
     
 Returns:
     str: A message.
