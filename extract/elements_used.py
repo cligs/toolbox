@@ -467,15 +467,14 @@ def check_elname(name, fileinfos):
 # Functions, Charts   #
 #######################
 
-def draw_figure(els_counted, atts_counted, coll_name, out, name=""):
+def draw_figure(els_counted, atts_counted, arg, name=""):
     """
     Creates a figure to hold charts about element/attribute usage.
     
     Args:
         els_counted (dict): Information about element names and their occurrences
         atts_counted (dict): Information about attribute names and their occurrences
-        coll_name (str): name of the text collection
-        out (str): path to output directory; defaults to the current working directory
+        args (obj): arguments passed to the main function
         name (str): optional argument; filename of element/attribute name
         
     Returns:
@@ -489,16 +488,16 @@ def draw_figure(els_counted, atts_counted, coll_name, out, name=""):
         fig_height *= 2
     fig = plt.figure(figsize=(fig_width,fig_height))
     
-    chart_info = get_chart_info(coll_name, name)    
-    add_subplots(fig, els_counted, atts_counted, chart_info, name)
+    chart_info = get_chart_info(arg.coll_name, name)    
+    add_subplots(fig, els_counted, atts_counted, chart_info, name, arg.log)
     
     plt.tight_layout()   
-    save_figure(fig, out, name)
+    save_figure(fig, arg.out, name)
     plt.close()
     
     
 
-def add_subplots(fig, els_counted, atts_counted, chart_info, name=""):
+def add_subplots(fig, els_counted, atts_counted, chart_info, name="", log=False):
     """
     Adds subplots to the figure.
     
@@ -508,6 +507,7 @@ def add_subplots(fig, els_counted, atts_counted, chart_info, name=""):
         atts_counted (dict): Information about attribute names and their occurrences  
         chart_info (dict): Some general information for the chart
         name (str): optional argument; filename of element/attribute name
+        log (bool): sets the y scale to logarithmic
     
     Returns:
         None
@@ -515,18 +515,18 @@ def add_subplots(fig, els_counted, atts_counted, chart_info, name=""):
     if name != "":
         if is_filename(name):
             # overview of element/attribute usage for a single text
-            draw_chart(els_counted, fig, chart_info["elements_used_text"])
-            draw_chart(atts_counted, fig, chart_info["attributes_used_text"])
+            draw_chart(els_counted, fig, chart_info["elements_used_text"], log)
+            draw_chart(atts_counted, fig, chart_info["attributes_used_text"], log)
         elif is_attname(name):
             # overview for a specific attribute
-            draw_chart(atts_counted, fig, chart_info["attribute_used"])
+            draw_chart(atts_counted, fig, chart_info["attribute_used"], log)
         else:
             # overview for a specific element
-            draw_chart(els_counted, fig, chart_info["element_used"])
+            draw_chart(els_counted, fig, chart_info["element_used"], log)
     else:
         # overall overview of element and attribute usage
-        draw_chart(els_counted, fig, chart_info["elements_used_all"])
-        draw_chart(atts_counted, fig, chart_info["attributes_used_all"])
+        draw_chart(els_counted, fig, chart_info["elements_used_all"], log)
+        draw_chart(atts_counted, fig, chart_info["attributes_used_all"], log)
 
 
 
@@ -605,7 +605,7 @@ def get_chart_info(coll_name, name):
 
 
 
-def draw_chart(data, figure, chart_info):
+def draw_chart(data, figure, chart_info, log=False):
     """
     Draws a chart (adds a subplot to the figure).
         
@@ -613,17 +613,15 @@ def draw_chart(data, figure, chart_info):
         data (dict): element/attribute names and their number of occurrences
         figure (obj): the figure object to which the subplot shall be added
         chart_info (dict): some information about the chart (title, labels etc.)
+        log (bool): sets the y scale to logarithmic
     
     Returns:
         None; changes the figure
     """    
     
     # number of elements on x-axis
-    num_x = len(data)
-    N = 0    
-    if num_x != 0:    
-        N = num_x
-    else:
+    N = len(data)
+    if N == 0:    
         N = 1
     # prepare labels and values
     labels_x = tuple(sorted(data.keys()))
@@ -650,16 +648,19 @@ def draw_chart(data, figure, chart_info):
         x_ma = 0.5/N
         
     # add subplot     
-    ax = figure.add_subplot(chart_info["position"])
-    ax.bar(ind,values_y,width,color=chart_info["color"],align="center") 
-    ax.axes.margins(x_ma,0)
-    ax.axes.set_ylim(top=max_y+max_y/4+0.2)
+    sp = figure.add_subplot(chart_info["position"])
+    sp.bar(ind,values_y,width,color=chart_info["color"],align="center",log=log) 
+    # customize axes
+    sp.axes.margins(x_ma,0)
+    sp.axes.set_ylim(top=max_y+max_y/4+0.2)
+    if log == True:
+        sp.axes.set_yscale("log",nonposy="clip")
     # add text for labels, title, axis ticks
-    ax.set_xlabel(chart_info["label_x"])
-    ax.set_ylabel(chart_info["label_y"])
-    ax.set_title(chart_info["title"])
-    ax.set_xticks(ind)
-    ax.set_xticklabels(labels_x,rotation=90)
+    sp.set_xlabel(chart_info["label_x"])
+    sp.set_ylabel(chart_info["label_y"])
+    sp.set_title(chart_info["title"])
+    sp.set_xticks(ind)
+    sp.set_xticklabels(labels_x,rotation=90)
     
     
 #######################
@@ -735,7 +736,7 @@ def count_and_draw(fileinfos, args, name=""):
     """
     els_counted = count_items(fileinfos,"el",name)
     atts_counted = count_items(fileinfos,"att",name)
-    draw_figure(els_counted, atts_counted, args.coll_name, args.out,name)
+    draw_figure(els_counted, atts_counted, args, name)
 
 
 #######################
@@ -751,6 +752,7 @@ def parse_args():
     parser.add_argument("-o", "--out", type=str, default=".", help="path to output directory; defaults to the current working directory")
     parser.add_argument("-ns", "--namespace", type=str, default="http://www.tei-c.org/ns/1.0", help="namespace for the collection; defaults to the TEI namespace")
     parser.add_argument("-x", "--xpath", type=str, default="//ns:body//*", help="path expression for element selection; defaults to the TEI body")
+    parser.add_argument("-l", "--log", type=bool, help="sets the y scale to logarithmic")    
     return parser.parse_args()
 
 
@@ -767,11 +769,12 @@ def main(argv):
             out (str): optional argument; path to the output directory; defaults to the current working directory
             namespace (str): optional argument; namespace for the collection; defaults to the TEI namespace
             xpath (str): optional argument; XPath expression indicating which elements and/or attributes to select for the overview; defaults to the TEI body 
+            log (bool): sets the y scale to logarithmic
    
         Returns:
             str: A message.
     """    
-    args = parse_args()
+    args = parse_args()    
     
     # create output directory
     create_out_dir(args.out)
