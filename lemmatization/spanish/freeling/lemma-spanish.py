@@ -19,6 +19,10 @@ import re
 
 # Definition of some basic functions
 # The next three functions make a clean plain text version of the TEI, deliting teiHeader, front and back and all the tags
+def cleaning(content):
+    content = re.sub(r' ', r' ', content, flags=re.DOTALL|re.IGNORECASE)
+    return content
+
 def deleteHeader(content):
     content = re.sub(r'<teiHeader>.*?</teiHeader>', r'', content, flags=re.DOTALL|re.IGNORECASE)
     return content
@@ -50,7 +54,7 @@ def saveSimplePOS(content):
 
 # This function deletes the category of the punctuation
 def deletePunctuation(content):
-    content = re.sub(r'\nF[^\s]?', r'\n', content,  flags=re.IGNORECASE)
+    content = re.sub(r'(\n|\A)F[^\s]?', r'\n', content)
     return content
 
 
@@ -75,6 +79,9 @@ def lemmatizeText(inpath):
         # We open it and read every line
         with open(file, "r", errors="replace", encoding="utf-8") as fin:
             content = fin.read()
+
+            # We delete the teiHeader
+            content=cleaning(content)
 
             # We delete the teiHeader
             content=deleteHeader(content)
