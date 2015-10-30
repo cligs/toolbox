@@ -18,12 +18,20 @@ import glob
 import re
 
 # Definition of some basic functions
-# The next three functions make a clean plain text version of the TEI, deliting teiHeader, front and back and all the tags
+
 def cleaning(content):
     content = re.sub(r' ', r' ', content, flags=re.DOTALL|re.IGNORECASE)
     
     return content
 
+# The next function divides two characters that constitute a line. It is usefull when some morphological information like person, time, modus, plural and so on is together
+def devideTwoElements(content):
+    content = re.sub(r'^(.)(.)$', r'\1 \2', content, flags=re.I|re.M)
+    
+    return content
+
+
+# The next three functions make a clean plain text version of the TEI, deliting teiHeader, front and back and all the tags
 def deleteHeader(content):
     content = re.sub(r'<teiHeader>.*?</teiHeader>', r'', content, flags=re.DOTALL|re.IGNORECASE)
     return content
@@ -43,6 +51,35 @@ def savePOS(content):
     content = re.sub(r'^.+? .+? (.+?) [\.0-9]+$', r'\1', content,  flags=re.I|re.M)
     return content
 
+# The next function deletes the first (token), the second (lemma) and the last (probability) of the freeling document
+def saveLemmata(content):
+    # The following regular expression deletes the first column, the second, it keeps the third column (which have to be somethin)
+    content = re.sub(r'^.+? (.+?) .+? [\.0-9]+$', r'\1', content,  flags=re.I|re.M)
+    return content
+
+# The next function deletes the first (token), the second (lemma) and the last (probability) of the freeling document
+def saveLemmataPOS(content):
+    # The following regular expression deletes the first column, the second, it keeps the third column (which have to be somethin)
+    content = re.sub(r'^.+? (.+?) (.+?) [\.0-9]+$', r'\1_\2', content,  flags=re.I|re.M)
+    return content
+
+# The next function deletes the first (token), the second (lemma) and the last (probability) of the freeling document
+def saveTokenPOS(content):
+    # The following regular expression deletes the first column, the second, it keeps the third column (which have to be somethin)
+    content = re.sub(r'^(.+?) .+? (.+?) [\.0-9]+$', r'\1_\2', content,  flags=re.I|re.M)
+    return content
+
+#  It deletes all the punctuation as lemmas
+def deletePunctuationLemmata(content):
+    content = re.sub(r'[\¡\«\»\¿\?\!\"\%\(\)\+\,\-\.\.\.\.\/\:\;\=\?\[\]\_\{\}]', r'', content,  flags=re.I|re.M)
+    return content
+
+#  It deletes everything, but punctuation
+def savePunctuationLemmata(content):
+    content = re.sub(r'[^\¡\«\»\¿\?\!\"\%\(\)\+\,\-\.\.\.\.\/\:\;\=\?\[\]\_\{\}\s]', r'', content,  flags=re.I|re.M)
+    return content
+
+
 #  This function keeps the first letter of the third column of the Freeling
 def saveVerySimplePOS(content):
     content = re.sub(r'^(.).*?$', r'\1', content,  flags=re.I|re.M)
@@ -54,12 +91,12 @@ def saveSimplePOS(content):
     return content
 
 # This function deletes the category of the punctuation
-def deletePunctuation(content):
+def deletePunctuationPOS(content):
     content = re.sub(r'^f.*?$', r'\n', content,  flags=re.I|re.M)
     return content
 
 # This function deletes the category of the punctuation
-def deleteNonPunctuation(content):
+def deleteNonPunctuationPOS(content):
     content = re.sub(r'^[^f][a-z0-9]*$', r'', content,  flags=re.I|re.M)
     return content
 
@@ -128,9 +165,14 @@ def deleteNonPersonalPronouns(content):
 
 
 # The next function deletes everything from verbs and pronouns, only leaving the person
-def leavesOnlyPersonVerbsPronouns(content):
+def leaveOnlyPersonVerbsPronouns(content):
     content = re.sub(r'^v...(..).+$', r'\1', content,  flags=re.I|re.M)
     content = re.sub(r'^p.(.).(.).+$', r'\1\2', content,  flags=re.I|re.M)
+    return content
+
+# The next function deletes everything from verbs and pronouns, only leaving the person
+def leaveOnlyTimeModusVerbs(content):
+    content = re.sub(r'^v.(..)...+$', r'\1', content,  flags=re.I|re.M)
     return content
 
 #  This function keeps the first letter of the third column of the Freeling
@@ -144,6 +186,24 @@ def changeNumberToText(content):
     content = re.sub(r'2', r'Second', content,  flags=re.I|re.M)
     content = re.sub(r'3', r'Third', content,  flags=re.I|re.M)
     return content
+
+def expliciteModusTime(content):
+    content = re.sub(r'^i', r'Indicativo', content,  flags=re.I|re.M)
+    content = re.sub(r'^s', r'Subjuntivo', content,  flags=re.I|re.M)
+    content = re.sub(r'^m', r'Imperativo', content,  flags=re.I|re.M)
+    content = re.sub(r'^n', r'Infinitivo', content,  flags=re.I|re.M)
+    content = re.sub(r'^g', r'Gerundio', content,  flags=re.I|re.M)
+    content = re.sub(r'^p', r'Participio', content,  flags=re.I|re.M)
+
+    content = re.sub(r'p$', r'Presente', content,  flags=re.I|re.M)
+    content = re.sub(r'i$', r'Imperfecto', content,  flags=re.I|re.M)
+    content = re.sub(r'f$', r'Futuro', content,  flags=re.I|re.M)
+    content = re.sub(r's$', r'Pasado', content,  flags=re.I|re.M)
+    content = re.sub(r'c$', r'Condicional', content,  flags=re.I|re.M)
+
+    return content
+
+
 
 # The next functions lemmatize the texts that are in the 0-input folder
 def lemmatizeText(inpath):
@@ -197,7 +257,9 @@ def saveVersionsPos(inpath):
     print("Versions of lemmatizationg from: "+inpath)
     #os.chdir(inpath)
 
-    pathMorpho=inpath+"3-MorphoPOS/"
+    pathLemmata=inpath+"3-Lemmata/"
+    pathMorpho=inpath+"4-MorphoPOS/"
+    
     print("Lets get the third column!")
     i=0    
     # For every file in the 2-fullPOS folder
@@ -215,7 +277,7 @@ def saveVersionsPos(inpath):
             content = fin.read()
 
             # We delete everything, only the POS column not
-            content=savePOS(content)
+            contentPOS=savePOS(content)
 
             # We save a name for the new document
             PosInpath=pathMorpho+'all/'
@@ -225,7 +287,7 @@ def saveVersionsPos(inpath):
             
             # We save the files
             with open (PosInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
-                fout.write(content)
+                fout.write(contentPOS)
     # We print the number of files analyzed
     print(i ," files done!")
 
@@ -244,7 +306,7 @@ def saveVersionsPos(inpath):
 
         # We open it and read every line
         with open(file, "r", errors="replace", encoding="utf-8") as fin:
-            content = fin.read()
+            contentPOS = fin.read()
 
             """
                 The following blocks of code create a version of the information from Freeling
@@ -254,7 +316,7 @@ def saveVersionsPos(inpath):
             """
  
             # This one keeps only the first letter            
-            contentVerySimplePOS=saveVerySimplePOS(content)
+            contentVerySimplePOS=saveVerySimplePOS(contentPOS)
             OneLetterInpath=pathMorpho+'1Letter/'
             if not os.path.exists(os.path.dirname(OneLetterInpath)):
                 os.makedirs(os.path.dirname(OneLetterInpath))            
@@ -264,7 +326,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only the first letter WITHOUT punctuation (because this is not really a POS)
-            contentVerySimplePOSwp=deletePunctuation(contentVerySimplePOS)
+            contentVerySimplePOSwp=deletePunctuationPOS(contentVerySimplePOS)
             OneLetterNoPunctInpath=pathMorpho+'1LetterNoPunct/'
             if not os.path.exists(os.path.dirname(OneLetterNoPunctInpath)):
                 os.makedirs(os.path.dirname(OneLetterNoPunctInpath))            
@@ -273,7 +335,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only the two first letters
-            TwoLetterContent=saveSimplePOS(content)
+            TwoLetterContent=saveSimplePOS(contentPOS)
             TwoLetterInpath=pathMorpho+'2Letter/'
             if not os.path.exists(os.path.dirname(TwoLetterInpath)):
                 os.makedirs(os.path.dirname(TwoLetterInpath))            
@@ -282,7 +344,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only the two first letters WITHOUT punctuation
-            TwoLetterContentNoPunct=deletePunctuation(TwoLetterContent)
+            TwoLetterContentNoPunct=deletePunctuationPOS(TwoLetterContent)
             TwoLetterNoPunctInpath=pathMorpho+'2LetterNoPunct/'
             if not os.path.exists(os.path.dirname(TwoLetterNoPunctInpath)):
                 os.makedirs(os.path.dirname(TwoLetterNoPunctInpath))            
@@ -291,7 +353,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only the two first letters FROM the punctuation
-            TwoLetterContentOnlyPunct=deleteNonPunctuation(TwoLetterContent)
+            TwoLetterContentOnlyPunct=deleteNonPunctuationPOS(TwoLetterContent)
             TwoLetterContentOnlyPunctPath=pathMorpho+'2LetterOnlyPunct/'
             if not os.path.exists(os.path.dirname(TwoLetterContentOnlyPunctPath)):
                 os.makedirs(os.path.dirname(TwoLetterContentOnlyPunctPath))            
@@ -300,7 +362,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps the person from pronouns and verbs
-            PersonVerbsPronounsContent=deleteAdjectiveColumn(content)
+            PersonVerbsPronounsContent=deleteAdjectiveColumn(contentPOS)
             PersonVerbsPronounsContent=deleteAdverbColumn(PersonVerbsPronounsContent)
             PersonVerbsPronounsContent=deleteDeterminantColumn(PersonVerbsPronounsContent)
             PersonVerbsPronounsContent=deleteNameColumn(PersonVerbsPronounsContent)
@@ -311,20 +373,107 @@ def saveVersionsPos(inpath):
             PersonVerbsPronounsContent=deleteNumbersColumn(PersonVerbsPronounsContent)
             PersonVerbsPronounsContent=deleteTimeColumn(PersonVerbsPronounsContent)
 
-
             PersonVerbsPronounsContent=deleteNonPersonalPronouns(PersonVerbsPronounsContent)
             PersonVerbsPronounsContent=deleteNonPersonalVerbs(PersonVerbsPronounsContent)
 
-            PersonVerbsPronounsContent=leavesOnlyPersonVerbsPronouns(PersonVerbsPronounsContent)
+            PersonVerbsPronounsContent=leaveOnlyPersonVerbsPronouns(PersonVerbsPronounsContent)
 
-            PersonVerbsPronounsContent=changeNumberToText(PersonVerbsPronounsContent)
-            
+            PersonVerbsPronounsN2TContent=changeNumberToText(PersonVerbsPronounsContent)
             
             VerbPronounPersonPath=pathMorpho+'VerbPronounPersonTogether/'
             if not os.path.exists(os.path.dirname(VerbPronounPersonPath)):
                 os.makedirs(os.path.dirname(VerbPronounPersonPath))        
             with open (VerbPronounPersonPath+basicname+'.txt', "w", encoding="utf-8") as fout:
-                fout.write(PersonVerbsPronounsContent)
+                fout.write(PersonVerbsPronounsN2TContent)
+
+            # Makes a copy, separated
+            PersonVerbsPronounsSeparatedContent=devideTwoElements(PersonVerbsPronounsContent)
+            PersonVerbsPronounsSeparatedContent=changeNumberToText(PersonVerbsPronounsSeparatedContent)
+            VerbPronounPersonSeparatedPath=pathMorpho+'VerbPronounPersonSeparated/'
+            if not os.path.exists(os.path.dirname(VerbPronounPersonSeparatedPath)):
+                os.makedirs(os.path.dirname(VerbPronounPersonSeparatedPath))        
+            with open (VerbPronounPersonSeparatedPath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(PersonVerbsPronounsSeparatedContent)
+
+
+
+            # This one keeps only the time of the verbs
+            TimeVerbsContent=deleteAdjectiveColumn(contentPOS)
+            TimeVerbsContent=deleteAdverbColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteDeterminantColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteNameColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteConjuctionColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteInterjectionColumn(TimeVerbsContent)
+            TimeVerbsContent=deletePrepositionColumn(TimeVerbsContent)
+            TimeVerbsContent=deletePunctuationColumn(TimeVerbsContent)
+            TimeVerbsContent=deletePronounColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteNumbersColumn(TimeVerbsContent)
+            TimeVerbsContent=deleteTimeColumn(TimeVerbsContent)
+
+            TimeVerbsContent=deleteNonPersonalVerbs(TimeVerbsContent)
+
+            TimeVerbsContent=leaveOnlyTimeModusVerbs(TimeVerbsContent)
+
+            VerbTimeModusPath=pathMorpho+'TimeModus/'
+            if not os.path.exists(os.path.dirname(VerbTimeModusPath)):
+                os.makedirs(os.path.dirname(VerbTimeModusPath))        
+            with open (VerbTimeModusPath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(TimeVerbsContent)
+            
+            #It saves a copy of the time and modus but divided and clearer
+            TimeVerbsDevidedContent=devideTwoElements(TimeVerbsContent)
+            TimeVerbsDevidedContent=expliciteModusTime(TimeVerbsDevidedContent)
+
+            VerbTimeModusDevidedPath=pathMorpho+'TimeModus-Devided/'
+            if not os.path.exists(os.path.dirname(VerbTimeModusDevidedPath)):
+                os.makedirs(os.path.dirname(VerbTimeModusDevidedPath))        
+            with open (VerbTimeModusDevidedPath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(TimeVerbsDevidedContent)
+            
+
+
+            # This one keeps only LEMMATA
+            LemmataContent=saveLemmata(content)
+            FullLemmataInpath=pathLemmata+'full/'
+            if not os.path.exists(os.path.dirname(FullLemmataInpath)):
+                os.makedirs(os.path.dirname(FullLemmataInpath))            
+            with open (FullLemmataInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(LemmataContent)
+
+            # This one keeps only LEMMATA, wihtout Punctuation
+            LemmataNoPunctContent=deletePunctuationLemmata(LemmataContent)
+            FullLemmataNoPunctInpath=pathLemmata+'FullNoPunct/'
+            if not os.path.exists(os.path.dirname(FullLemmataNoPunctInpath)):
+                os.makedirs(os.path.dirname(FullLemmataNoPunctInpath))            
+            with open (FullLemmataNoPunctInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(LemmataNoPunctContent)
+
+            # This one keeps only LEMMATA, wihtout Punctuation
+            LemmataOnlyPunctContent=savePunctuationLemmata(LemmataContent)
+            FullLemmataOnlyPunctInpath=pathLemmata+'FullOnlyPunct/'
+            if not os.path.exists(os.path.dirname(FullLemmataOnlyPunctInpath)):
+                os.makedirs(os.path.dirname(FullLemmataOnlyPunctInpath))            
+            with open (FullLemmataOnlyPunctInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(LemmataOnlyPunctContent)
+
+
+            # This one keeps only LEMMATA and POSMorpho
+            LemmataPOSContent=saveLemmataPOS(content)
+            LemmataPOSInpath=pathLemmata+'Lemmata-POSMorpho/'
+            if not os.path.exists(os.path.dirname(LemmataPOSInpath)):
+                os.makedirs(os.path.dirname(LemmataPOSInpath))            
+            with open (LemmataPOSInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(LemmataPOSContent)
+
+
+            # This one keeps only LEMMATA and POSMorpho
+            TokenPOSContent=saveTokenPOS(content)
+            TokenPOSInpath=pathLemmata+'Token-POSMorpho/'
+            if not os.path.exists(os.path.dirname(TokenPOSInpath)):
+                os.makedirs(os.path.dirname(TokenPOSInpath))            
+            with open (TokenPOSInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(TokenPOSContent)
+
 
     # We print the number of files analyzed
     print(i ," files done!")
@@ -332,6 +481,6 @@ def saveVersionsPos(inpath):
 
 
 inpath="/home/jose/CLiGS/toolbox/lemmatization/spanish/freeling/"
-lemmatizeText(inpath)
+#lemmatizeText(inpath)
 saveVersionsPos(inpath)
 
