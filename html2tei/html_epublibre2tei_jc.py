@@ -10,6 +10,9 @@ import os
 import html.parser
 import glob
 
+def upper_repl(match):
+     return match.group(1).upper()
+
 def cleaningHTML(text):
     """
         It decodes the HTML entities and it deletes some anoying characters
@@ -71,6 +74,7 @@ def deletingElements(text):
     text = re.sub(r'<font(>| [^>]*>).{0,2}[0-9]+.{0,2}</font>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<font(>| [^>]*>)(.*?)</font>', r'\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sup(>| [^>]*>).*?</sup>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
     #abr    
     
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -90,7 +94,8 @@ def replacingBasicElements(text):
     text = re.sub(r'<p style="font-size:12pt;text-align: justify;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p align="center">(.+?)</p>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p [^>]*?>\s*\* *\* *\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="sep">\* \* \*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
 
     # Replace spain foreign words and italics elements    
@@ -172,7 +177,7 @@ def setDivs(text):
     return text
 
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="#jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n					<term type="protagonist-gender">male</term>\r\n					<term type="setting"></term>\r\n					<term type="subgenre-lithist"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<idno type="short"></idno>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="#jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n					<term type="protagonist-gender">male</term>\r\n					<term type="setting"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'\Z', r'\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
@@ -181,6 +186,8 @@ def replacingBasicElementsFromEpubLibre(text):
     """
     It replaces some elements and its styles with TEI elements
     """
+    text = re.sub(r'<div class="vineta"><img[^<]*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
     # Replace some elements with atributes with other cleaner elements
     text = re.sub(r'<p class="calibre[0-9]+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="salto[0-9]+">', r'<milestone />\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -203,7 +210,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p><span class="(cap[0-9]*|versalita|smallcaps)">(..?)</span>', r'<p>\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="(versalita|smallcaps)[0-9]*">(.*?)</span>', r'<seg rend="smallcaps">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<div class="poema[0-9]*">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<div class="verso">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="versos?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="normal1">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="cursiva">(.*?)</p>', r'<p><seg rend="italics">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<em(|[^>]*)>(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
@@ -232,9 +239,12 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tsub|sub)?tit(ulo)?[0-9]*">(.*?)</p>', r'<head>\3</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</head>\s*<head>', r': ', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p [^>]*?>\s*\* *\* *\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="sep">\* \* \*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     
     # Cleaning some <milestone />
     text = re.sub(r'(<div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
@@ -260,6 +270,20 @@ def replacingBasicElementsFromEpubLibre(text):
 
     text = re.sub(r'<p class="cita[0-9]*">(.*?</p>)', r'<quote>\n<p>\1</quote>', text, flags=re.DOTALL|re.IGNORECASE)
 
+        
+    text = re.sub(r'<br class="calibre[0-9]*" />', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Á([^<]*</seg>)', r'\1á\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)É([^<]*</seg>)', r'\1é\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Í([^<]*</seg>)', r'\1í\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ó([^<]*</seg>)', r'\1ó\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ú([^<]*</seg>)', r'\1ú\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ñ([^<]*</seg>)', r'\1ñ\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ü([^<]*</seg>)', r'\1ü\2', text, flags=re.DOTALL|re.IGNORECASE)
+
+    for f in re.findall(r'<seg rend="smallcaps">([^<]*)</seg>', text):
+        text = text.replace(f, f.lower())
 
     text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
