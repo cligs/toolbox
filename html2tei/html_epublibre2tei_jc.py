@@ -239,6 +239,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tsub|sub)?tit(ulo)?[0-9]*">(.*?)</p>', r'<head>\3</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="tit-cap">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -273,17 +274,18 @@ def replacingBasicElementsFromEpubLibre(text):
         
     text = re.sub(r'<br class="calibre[0-9]*" />', r'', text, flags=re.DOTALL|re.IGNORECASE)
     
-    
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Á([^<]*</seg>)', r'\1á\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)É([^<]*</seg>)', r'\1é\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Í([^<]*</seg>)', r'\1í\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ó([^<]*</seg>)', r'\1ó\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ú([^<]*</seg>)', r'\1ú\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ñ([^<]*</seg>)', r'\1ñ\2', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="smallcaps">[^<]*)Ü([^<]*</seg>)', r'\1ü\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Á([^<]*?</seg>)', r'\1á\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)É([^<]*?</seg>)', r'\1é\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Í([^<]*?</seg>)', r'\1í\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ó([^<]*?</seg>)', r'\1ó\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ú([^<]*?</seg>)', r'\1ú\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ñ([^<]*?</seg>)', r'\1ñ\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ü([^<]*?</seg>)', r'\1ü\3', text, flags=re.DOTALL|re.IGNORECASE)
 
-    for f in re.findall(r'<seg rend="smallcaps">([^<]*)</seg>', text):
+    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*?)</seg>', text):
         text = text.replace(f, f.lower())
+
+    text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
