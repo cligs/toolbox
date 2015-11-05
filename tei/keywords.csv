@@ -1,75 +1,62 @@
-term_type,term_value,description
-supergenre,narrative,
-supergenre,drama,
-supergenre,poetry,
-supergenre,non-fiction,
-genre,novel,
-genre,short_novel,
-genre,short_story,
-<<<<<<< HEAD,,
-genre,comedy,
-genre,tragedy,
-genre,tragicomedy,
-genre,other,
-genre,collection_short_stories,
-subgenre,social novel,
-subgenre,crime fiction,
-subgenre,opera,
-subgenre,farce,
-subgenre,pastoral,
-genre-label,autobiographique,
-genre-label,histoire,
-genre-label,cuentos,
-genre-label,novela,
-genre-label,historias,
-genre-label,memoria,
-genre-label,historia,
-genre-subtitle,,
-narrative-perspective,autodiegetic,narrator is also the protagonist of the narrative
-narrative-perspective,homodiegetic,narrator who is also a character in the story
-narrative-perspective,heterodiegetic,narrator is not a character in the story
-Err:510,,
-genre,film-script,
-genre,comedy,
-genre,tragedy,
-genre,tragicomedy,
-genre,other,
-subgenre,social novel,
-subgenre,detective novel,
-subgenre,crime novel,
-subgenre,thriller,
-subgenre,suspense,
-subgenre,crime fiction,
-subgenre,opera,
-subgenre,farce,
-subgenre,pastoral,
-subgenre,novela dialogada,
-subgenre,novela de tesis,
-genre-subtitle,open list,
-narrative-perspective,autodiegetic,
-narrative-perspective,homodiegetic,
-narrative-perspective,heterodiegetic,
->>>>>>> ce7f474be141fe177195622c1422d12a4e33b1bf,,
-narrative-perspective,epistolary,
-publication,book,
-publication,serial,
-form,prose,
-form,verse,
-form,mixed,at least 10% of the other form
-author-gender,female,
-author-gender,male,
-protagonist-gender,female,
-protagonist-gender,male,
-protagonist-gender,other/mixed,
-setting,urban,
-setting,rural,
-setting,other/mixed,
-author-continent,Europe,
-author-continent,America,
-author-country,Spain,
-author-country,Argentina,
-author-country,Mexico,
-author-country,Cuba,
-author-country,France,
-subsubgenre,,
-subgenre-lithist,,
+term_type,term_value,description,type_necessity,value_list
+author-continent,America,,obligatory,closed list
+author-continent,Europe,,obligatory,closed list
+author-country,Argentina,,obligatory,closed list
+author-country,Cuba,,obligatory,closed list
+author-country,France,,obligatory,closed list
+author-country,Mexico,,obligatory,closed list
+author-country,Spain,,obligatory,closed list
+author-gender,female,,obligatory,closed list
+author-gender,male,,obligatory,closed list
+form,mixed,at least 10% of the other form,obligatory,closed list
+form,prose,,obligatory,closed list
+form,verse,,obligatory,closed list
+genre,collection_short_stories,,obligatory,closed list
+genre,comedy,,obligatory,closed list
+genre,film-script,,obligatory,closed list
+genre,novel,,obligatory,closed list
+genre,other,,obligatory,closed list
+genre,short_novel,,obligatory,closed list
+genre,short_story,,obligatory,closed list
+genre,tragedy,,obligatory,closed list
+genre,tragicomedy,,obligatory,closed list
+genre-label,cuentos,,optional,open list
+genre-label,histoire,,optional,open list
+genre-label,historia,,optional,open list
+genre-label,historias,,optional,open list
+genre-label,memoria,,optional,open list
+genre-label,novela,,optional,open list
+genre-label,open list,,optional,open list
+genre-subtitle,,,,open list
+narrative-perspective,autodiegetic,narrator is also the protagonist of the narrative,optional,closed list
+narrative-perspective,epistolary,,optional,closed list
+narrative-perspective,heterodiegetic,narrator is not a character in the story,optional,closed list
+narrative-perspective,homodiegetic,narrator who is also a character in the story,optional,closed list
+protagonist-gender,female,,optional,closed list
+protagonist-gender,male,,optional,closed list
+protagonist-gender,other/mixed,,optional,closed list
+publication,book,,obligatory,closed list
+publication,serial,,obligatory,closed list
+setting,other/mixed,,optional,closed list
+setting,rural,,optional,closed list
+setting,urban,,optional,closed list
+setting,big-city,,optional,closed list
+setting,small-city,,optional,closed list
+subgenre,crime fiction,,optional,
+subgenre,crime novel,,optional,
+subgenre,detective novel,,optional,
+subgenre,farce,,optional,
+subgenre,novela de tesis,,optional,
+subgenre,novela dialogada,,optional,
+subgenre,opera,,optional,
+subgenre,pastoral,,optional,
+subgenre,pastoral,,optional,
+subgenre,social novel,,optional,
+subgenre,suspense,,optional,
+subgenre,thriller,,optional,
+subgenre-lithist,,,optional,open list
+subsubgenre,,,optional,
+supergenre,drama,,obligatory,closed list
+supergenre,narrative,,obligatory,closed list
+supergenre,non-fiction,,obligatory,closed list
+supergenre,poetry,,obligatory,closed list
