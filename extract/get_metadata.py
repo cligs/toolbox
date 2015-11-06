@@ -16,8 +16,11 @@ def get_metadata(wdir, inpath, metadatafile):
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
-    labels = ("idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent", "narrator")
-
+    #labels = ("idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent", "narrator")
+    
+    #For the beta keywords:
+    labels = ("idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent", "narrator", "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span")
+    
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {"title": '//tei:title[@type="short"]//text()',
               "author-name": '//tei:author//tei:name[@type="short"]//text()', 
@@ -37,7 +40,21 @@ def get_metadata(wdir, inpath, metadatafile):
               "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
               "author-country": '//tei:term[@type="author-country"]//text()',
               "author-continent": '//tei:term[@type="author-continent"]//text()',
-              "narrator": '//tei:term[@type="narrator"]//text()'
+              "narrator": '//tei:term[@type="narrator"]//text()',
+
+              #For the beta keywords
+              "protagonist-name": '//tei:term[@type="protagonist-name"]//text',
+              "protagonist-social-level": '//tei:term[@type="protagonist-social-level"]//text',
+              "representation": '//tei:term[@type="representation"]//text',
+              "setting-continent": '//tei:term[@type="setting-continent"]//text',
+              "setting-country": '//tei:term[@type="setting-country"]//text',
+              "setting-name": '//tei:term[@type="setting-name"]//text',
+              "setting-territory": '//tei:term[@type="setting-territory"]//text',
+              "subgenre-lithist": '//tei:term[@type="subgenre-lithist"]//text',
+              "text-movement": '//tei:term[@type="text-movement"]//text',
+              "time-period": '//tei:term[@type="time-period"]//text',
+              "time-span": '//tei:term[@type="time-span"]//text',
+              "group-text": '//tei:term[@type="group-text"]//text'
               }
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
