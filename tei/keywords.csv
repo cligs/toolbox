@@ -1,62 +1,77 @@
-term_type,term_value,description,type_necessity,value_list
-author-continent,America,,obligatory,closed list
-author-continent,Europe,,obligatory,closed list
-author-country,Argentina,,obligatory,closed list
-author-country,Cuba,,obligatory,closed list
-author-country,France,,obligatory,closed list
-author-country,Mexico,,obligatory,closed list
-author-country,Spain,,obligatory,closed list
-author-gender,female,,obligatory,closed list
-author-gender,male,,obligatory,closed list
-form,mixed,at least 10% of the other form,obligatory,closed list
-form,prose,,obligatory,closed list
-form,verse,,obligatory,closed list
-genre,collection_short_stories,,obligatory,closed list
-genre,comedy,,obligatory,closed list
-genre,film-script,,obligatory,closed list
-genre,novel,,obligatory,closed list
-genre,other,,obligatory,closed list
-genre,short_novel,,obligatory,closed list
-genre,short_story,,obligatory,closed list
-genre,tragedy,,obligatory,closed list
-genre,tragicomedy,,obligatory,closed list
-genre-label,cuentos,,optional,open list
-genre-label,histoire,,optional,open list
-genre-label,historia,,optional,open list
-genre-label,historias,,optional,open list
-genre-label,memoria,,optional,open list
-genre-label,novela,,optional,open list
-genre-label,open list,,optional,open list
-genre-subtitle,,,,open list
-narrative-perspective,autodiegetic,narrator is also the protagonist of the narrative,optional,closed list
-narrative-perspective,epistolary,,optional,closed list
-narrative-perspective,heterodiegetic,narrator is not a character in the story,optional,closed list
-narrative-perspective,homodiegetic,narrator who is also a character in the story,optional,closed list
-protagonist-gender,female,,optional,closed list
-protagonist-gender,male,,optional,closed list
-protagonist-gender,other/mixed,,optional,closed list
-publication,book,,obligatory,closed list
-publication,serial,,obligatory,closed list
-setting,other/mixed,,optional,closed list
-setting,rural,,optional,closed list
-setting,urban,,optional,closed list
-setting,big-city,,optional,closed list
-setting,small-city,,optional,closed list
-subgenre,crime fiction,,optional,
-subgenre,crime novel,,optional,
-subgenre,detective novel,,optional,
-subgenre,farce,,optional,
-subgenre,novela de tesis,,optional,
-subgenre,novela dialogada,,optional,
-subgenre,opera,,optional,
-subgenre,pastoral,,optional,
-subgenre,pastoral,,optional,
-subgenre,social novel,,optional,
-subgenre,suspense,,optional,
-subgenre,thriller,,optional,
-subgenre-lithist,,,optional,open list
-subsubgenre,,,optional,
-supergenre,drama,,obligatory,closed list
-supergenre,narrative,,obligatory,closed list
-supergenre,non-fiction,,obligatory,closed list
-supergenre,poetry,,obligatory,closed list
+term_type,term_value,type_necessity,value_list,description
+author-continent,America,obligatory,closed_list,
+author-continent,Europe,obligatory,closed_list,
+author-country,Argentina,obligatory,closed_list,
+author-country,Cuba,obligatory,closed_list,
+author-country,France,obligatory,closed_list,
+author-country,Mexico,obligatory,closed_list,
+author-country,Spain,obligatory,closed_list,
+author-gender,female,obligatory,closed_list,
+author-gender,male,obligatory,closed_list,
+form,mixed,obligatory,closed_list,at least 10% of the other form
+form,prose,obligatory,closed_list,
+form,verse,obligatory,closed_list,
+genre,collection_short_stories,obligatory,closed_list,
+genre,comedy,obligatory,closed_list,
+genre,film-script,obligatory,closed_list,
+genre,novel,obligatory,closed_list,
+genre,other,obligatory,closed_list,
+genre,short_novel,obligatory,closed_list,
+genre,short_story,obligatory,closed_list,
+genre,tragedy,obligatory,closed_list,
+genre,tragicomedy,obligatory,closed_list,
+genre-label,cuentos,optional,open_list,
+genre-label,histoire,optional,open_list,
+genre-label,historia,optional,open_list,
+genre-label,historias,optional,open_list,
+genre-label,memoria,optional,open_list,
+genre-label,novela,optional,open_list,
+genre-subtitle,,,open_list,
+narrative-perspective,autodiegetic,optional,closed_list,narrator is also the protagonist of the narrative
+narrative-perspective,epistolary,optional,closed_list,
+narrative-perspective,heterodiegetic,optional,closed_list,narrator is not a character in the story
+narrative-perspective,homodiegetic,optional,closed_list,narrator who is also a character in the story
+protagonist-gender,female,optional,closed_list,
+protagonist-gender,male,optional,closed_list,
+protagonist-gender,other/mixed,optional,closed_list,
+publication,book,obligatory,closed_list,
+publication,serial,obligatory,closed_list,
+setting,other/mixed,optional,closed_list,
+setting,rural,optional,closed_list,
+setting,urban,optional,closed_list,
+setting,big_city,optional,closed_list,
+setting,small_city,optional,closed_list,
+subgenre,crime fiction,optional,,
+subgenre,crime novel,optional,,
+subgenre,detective novel,optional,,
+subgenre,farce,optional,,
+subgenre,novela de tesis,optional,,
+subgenre,novela dialogada,optional,,
+subgenre,opera,optional,,
+subgenre,pastoral,optional,,
+subgenre,pastoral,optional,,
+subgenre,social novel,optional,,
+subgenre,suspense,optional,,
+subgenre,thriller,optional,,
+subsubgenre,,optional,,
+supergenre,drama,obligatory,closed_list,
+supergenre,narrative,obligatory,closed_list,
+supergenre,non-fiction,obligatory,closed_list,
+supergenre,poetry,obligatory,closed_list,
+subgenre-lithist,,beta,open_list,Subgenre where the history of the literature has placed the text
+setting-name,,beta,open_list,Name of the place (city or village) where the majority of the text takes place
+representation,realistic,beta,closed_list,The texts represents realistic places and actions
+representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions
+setting-country,,beta,open_list,Name of the country where the majority of the text takes place
+setting-continent,,beta,open_list,Name of the continent where the majority of the text takes place
+protagonist-name,,beta,open_list,Name of the most important person for the text
+protagonist-social-level,high,beta,closed_list,The person is rich or very powerful
+protagonist-social-level,medium,beta,closed_list,"The incomes of the person are related to work and basic necessities (food, house, clothes, etc.) are covered."
+protagonist-social-level,low,beta,closed_list,"The person has difficulties to pay basic necessities (food, house, cloths)"
+time-period,anquity,beta,closed_list,Before 800
+time-period,middle_ages,beta,closed_list,800-1400
+time-period,modern_times,beta,closed_list,1400-1800
+time-period,contemporary,beta,closed_list,1800-1950
+time-span,,beta,open_list,"Time span from the beginning of the text until the end, expresed in days trying to round in years or months (1 year = 365)"
+text-movement,,beta,open_list,Artistic movement that is related to the text
+group-text,,beta,open_list,"Name of the group of texts from the same author, that the text is part of"
