@@ -33,7 +33,7 @@ with open("1.html", "r") as infile:
     #11, 12, 15
 
 
-	  ### Herunterladen der einzelnen XML-Dateien
+	 ### Herunterladen der einzelnen XML-Dateien
     for suffix in suffixes:
         url = "http://ww2.bibliotecaitaliana.it/repository/bibit/" + suffix
         print(url)
