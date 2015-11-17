@@ -58,7 +58,7 @@ def replacingBasicElementsFromFineReader(text):
     #We put the title using the bookmark
     text = re.sub(r'^(.*?name="bookmark.*)$', r'<head>\1</head>', text, flags=re.IGNORECASE|re.M)
     text = re.sub(r'^<p><span class="[^"]*?">([IVXDCL ]+)</span></p>$', r'<head>\1</head>', text, flags=re.M)
-    text = re.sub(r'^<p><span class="[^"]*?">([A-ZÁ-ÚÜÑ !¡«»]+)</span></p>$', r'<head>\1</head>', text, flags=re.M)
+    text = re.sub(r'^<p><span class="[^"]*?">([A-ZÁ-ÚÜÑ !\¡«»”"„¿\?]+)</span></p>$', r'<head>\1</head>', text, flags=re.M)
     text = re.sub(r'<head>(<.*?>)+(.*?)(<.*?>)</head>', r'<head>\2</head>', text, flags=re.IGNORECASE|re.M)
 
     text = re.sub(r'</head>\n<head>', r': ', text, flags=re.IGNORECASE|re.M)
@@ -72,7 +72,7 @@ def replacingBasicElementsFromFineReader(text):
     text = re.sub(r'(<p><span class="[^"]*?">)— ?[ji] ?', r'\1¡', text)
 
 
-    text = re.sub(r'<(span|seg)[^>]*?>[:■— ~»\^\/\-\\\{\}]+</\1>', r'', text, flags=re.IGNORECASE)
+    text = re.sub(r'<(span|seg)[^>]*?>[:■— ~»\^\/\-\\\{\}\¿\']+</\1>', r'', text, flags=re.IGNORECASE)
 
     text = re.sub(r'<div[^>]*>\s*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p[^>]*>\s*</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -81,10 +81,15 @@ def replacingBasicElementsFromFineReader(text):
     text = re.sub(r'[\*■_•]', r' ', text, flags=re.DOTALL|re.IGNORECASE)
 
 
+    text = re.sub(r'(</head>\s+<p>)<seg rend="small-caps">(.*?)</seg>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE|re.M)
+
+
     text = re.sub(r' +(</span></p>)', r'\1', text, flags=re.IGNORECASE)
     
+    #We try to recreate the paragraphs correctly    
     text = re.sub(r'-</span></p>\s*<p><span class="[^"]*?">([a-zéíóúáñ])', r'\1', text, flags=re.DOTALL)
     text = re.sub(r'([a-zéíóúáñ,])</span></p>\s*<p><span class="[^"]*?">([a-zéíóúáñ])', r'\1 \2', text, flags=re.DOTALL)
+    text = re.sub(r'([a-zéíóúáñ,])</p>\s*<p>(<span class="[^"]*?">[a-zéíóúáñ])', r'\1 \2', text, flags=re.DOTALL)
     text = re.sub(r'-</span></p>\s*<p><span class="[^"]*?">([a-zéíóúáñ])', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'([a-zéíóúáñ,])</p>\s*<p>([a-zéíóúáñ])', r'\1 \2', text, flags=re.DOTALL|re.IGNORECASE)
 
@@ -96,6 +101,13 @@ def replacingBasicElementsFromFineReader(text):
 
     text = re.sub(r'<span class="[^"]*?">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'(</head>\n<p>)<seg rend="[^"]*?">(.{1,8})</seg>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</head>\n<p>.{1,8})<seg rend="[^"]*?">(.{1,8})</seg>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</head>\n<p>.{1,8})<seg rend="[^"]*?">(.{1,8})</seg>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<(div|p)[^>]*?>\s+?</\1>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
+
     text = re.sub(r'\n+', r'\n', text, flags=re.DOTALL|re.IGNORECASE|re.M)
 
     return text
@@ -106,7 +118,9 @@ def replacingBasicText(text):
     text = re.sub(r'&nbsp;', r' ', text, flags=re.IGNORECASE)
     text = re.sub(r'&quot;', r'"', text, flags=re.IGNORECASE)
 
+ 
     text = re.sub(r'<span class="[^"]*?" style="[^"]*?">( ?. )</span>', r'\1', text, flags=re.IGNORECASE)    
+    text = re.sub(r'<(div|p)[^>]*?>\s*?</(div|p)>', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -118,10 +132,23 @@ def cleaningTextualTyposOCR(text):
     text = re.sub(r'&amp;n ', r'En ', text, flags=re.IGNORECASE)
     text = re.sub(r'&Deapué8  ', r'Después ', text)
     text = re.sub(r' ae ', r' se ', text)
+    text = re.sub(r'<p>—\-', r'<p>—', text, flags=re.IGNORECASE)
+    
+    text = re.sub(r'<p>—\'([^!]*?)', r'<p>—\1', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p>— ?[1ji;] ?¡', r'<p>—¡', text)
+    text = re.sub(r'<p> ?[ij;] ?(.*?!.*?)', r'<p>¡\1', text)
+    text = re.sub(r'<p>—1¿', r'<p>—¿', text, flags=re.IGNORECASE)
+    text = re.sub(r'(<p>—?[¿¡]) +', r'\1', text, flags=re.IGNORECASE)
+
+    text = re.sub(r' +([\?\!]</p>)', r'\1', text, flags=re.IGNORECASE)
 
     text = re.sub(r'<seg rend="sub">(t|r)</seg>', r',', text, flags=re.IGNORECASE)
 
     text = re.sub(r'<seg rend="[^"]*?">([, ]?(y|que|á|a|o|ó|de|los)[, ]?)</seg>', r'\1', text, flags=re.IGNORECASE)
+
+    text = re.sub(r'<(div|p)[^>]*?>\s*?</(div|p)>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<(div|p)[^>]*?>\s*?</(div|p)>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<(div|p)[^>]*?>\s*?</(div|p)>', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
