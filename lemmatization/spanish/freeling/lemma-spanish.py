@@ -260,7 +260,7 @@ def saveVersionsPos(inpath):
     pathLemmata=inpath+"3-Lemmata/"
     pathMorpho=inpath+"4-MorphoPOS/"
     
-    print("Lets get the third column!")
+    print("Lets save some POS!")
     i=0    
     # For every file in the 2-fullPOS folder
     for file in glob.glob(inpath+"2-fullMorphoPOS/*.*"):
@@ -288,9 +288,25 @@ def saveVersionsPos(inpath):
             # We save the files
             with open (PosInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
                 fout.write(contentPOS)
+
+            
+            # We delete everything, only the POS column not
+            contentLemmata=saveLemmata(content)
+
+            # We save a name for the new document
+            LemmataInpath=pathLemmata+'all/'
+            # If we don't have already a folder, we create it
+            if not os.path.exists(os.path.dirname(LemmataInpath)):
+                os.makedirs(os.path.dirname(LemmataInpath))            
+            
+            # We save the files
+            with open (LemmataInpath+basicname+'.txt', "w", encoding="utf-8") as fout:
+                fout.write(contentLemmata)
+            
+            
+            
     # We print the number of files analyzed
     print(i ," files done!")
-
 
     # We make versions of everything
     print("Lets make some versions!")
@@ -433,7 +449,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only LEMMATA
-            LemmataContent=saveLemmata(content)
+            LemmataContent=saveLemmata(contentLemmata)
             FullLemmataInpath=pathLemmata+'full/'
             if not os.path.exists(os.path.dirname(FullLemmataInpath)):
                 os.makedirs(os.path.dirname(FullLemmataInpath))            
@@ -458,7 +474,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only LEMMATA and POSMorpho
-            LemmataPOSContent=saveLemmataPOS(content)
+            LemmataPOSContent=saveLemmataPOS(contentLemmata)
             LemmataPOSInpath=pathLemmata+'Lemmata-POSMorpho/'
             if not os.path.exists(os.path.dirname(LemmataPOSInpath)):
                 os.makedirs(os.path.dirname(LemmataPOSInpath))            
@@ -467,7 +483,7 @@ def saveVersionsPos(inpath):
 
 
             # This one keeps only LEMMATA and POSMorpho
-            TokenPOSContent=saveTokenPOS(content)
+            TokenPOSContent=saveTokenPOS(contentPOS)
             TokenPOSInpath=pathLemmata+'Token-POSMorpho/'
             if not os.path.exists(os.path.dirname(TokenPOSInpath)):
                 os.makedirs(os.path.dirname(TokenPOSInpath))            
