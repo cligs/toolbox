@@ -38,6 +38,7 @@ def teireader(wdir, inpath, outfolder, xpath):
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}reg")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}orig")
             etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}note")
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}quote")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}l")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}p")
             etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}head")
