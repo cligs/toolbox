@@ -1,81 +1,77 @@
-term_type,term_value,type_necessity,value_list,description
-author-continent,America,obligatory,closed_list,
-author-continent,Europe,obligatory,closed_list,
-author-country,Argentina,obligatory,closed_list,
-author-country,Cuba,obligatory,closed_list,
-author-country,France,obligatory,closed_list,
-author-country,Mexico,obligatory,closed_list,
-author-country,Spain,obligatory,closed_list,
-author-gender,female,obligatory,closed_list,
-author-gender,male,obligatory,closed_list,
-form,mixed,obligatory,closed_list,at least 10% of the other form
-form,prose,obligatory,closed_list,
-form,verse,obligatory,closed_list,
-genre,collection_short_stories,obligatory,closed_list,
-genre,comedy,obligatory,closed_list,
-genre,film-script,obligatory,closed_list,
-genre,novel,obligatory,closed_list,
-genre,other,obligatory,closed_list,
-genre,short_novel,obligatory,closed_list,
-genre,short_story,obligatory,closed_list,
-genre,tragedy,obligatory,closed_list,
-genre,tragicomedy,obligatory,closed_list,
-genre-label,cuentos,optional,open_list,
-genre-label,histoire,optional,open_list,
-genre-label,historia,optional,open_list,
-genre-label,historias,optional,open_list,
-genre-label,memoria,optional,open_list,
-genre-label,novela,optional,open_list,
-genre-subtitle,,,open_list,
-narrative-perspective,autodiegetic,optional,closed_list,narrator is also the protagonist of the narrative
-narrative-perspective,epistolary,optional,closed_list,
-narrative-perspective,heterodiegetic,optional,closed_list,narrator is not a character in the story
-narrative-perspective,homodiegetic,optional,closed_list,narrator who is also a character in the story
-narrator,first-person,optional,closed_list,
-narrator,second-person,optional,closed_list,
-narrator,third-person,optional,closed_list,
-protagonist-gender,female,optional,closed_list,
-protagonist-gender,male,optional,closed_list,
-protagonist-gender,other/mixed,optional,closed_list,
-publication,book,obligatory,closed_list,
-publication,serial,obligatory,closed_list,
-setting,other/mixed,optional,closed_list,
-setting,rural,optional,closed_list,
-setting,urban,optional,closed_list,
-setting,big_city,optional,closed_list,
-setting,small_city,optional,closed_list,
-subgenre,crime fiction,optional,,
-subgenre,crime novel,optional,,
-subgenre,detective novel,optional,,
-subgenre,farce,optional,,
-subgenre,novela de tesis,optional,,
-subgenre,novela dialogada,optional,,
-subgenre,opera,optional,,
-subgenre,pastoral,optional,,
-subgenre,pastoral,optional,,
-subgenre,social novel,optional,,
-subgenre,suspense,optional,,
-subgenre,thriller,optional,,
-subsubgenre,,optional,,
-supergenre,drama,obligatory,closed_list,
-supergenre,narrative,obligatory,closed_list,
-supergenre,non-fiction,obligatory,closed_list,
-supergenre,poetry,obligatory,closed_list,
-subgenre-lithist,,beta,open_list,Subgenre where the history of the literature has placed the text
-setting-name,,beta,open_list,Name of the place (city or village) where the majority of the text takes place
-representation,realistic,beta,closed_list,The texts represents realistic places and actions
-representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions
-setting-territory,,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place, not in English"
-setting-country,,beta,open_list,"Name of the country where the majority of the text takes place, in English"
-setting-continent,,beta,open_list,"Name of the continent where the majority of the text takes place, in English"
-protagonist-name,,beta,open_list,"Name of the most important person for the text, as complete as possible"
-protagonist-social-level,high,beta,closed_list,The person is rich or has a very high social position
-protagonist-social-level,medium,beta,closed_list,"The incomes of the person are related to work and basic needs (food, house, clothes, etc.) are covered"
-protagonist-social-level,low,beta,closed_list,"The person has difficulties to pay basic needs (food, house, cloths)"
-time-period,antiquity,beta,closed_list,Before 800
-time-period,middle_ages,beta,closed_list,800-1400
-time-period,modern_times,beta,closed_list,1400-1800
-time-period,contemporary,beta,closed_list,1800-1950
-time-span,,beta,open_list,"Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year = 365)"
-text-movement,,beta,open_list,Artistic movement that is related to the text
-group-text,,beta,open_list,"Name of the group of texts from the same author, that the text is part of"
+term_type,term_value,type_necessity,value_list,description,language
+author-continent,America,obligatory,closed_list,,eng
+author-continent,Europe,obligatory,closed_list,,eng
+author-country,Argentina,obligatory,closed_list,,eng
+author-country,Cuba,obligatory,closed_list,,eng
+author-country,France,obligatory,closed_list,,eng
+author-country,Mexico,obligatory,closed_list,,eng
+author-country,Spain,obligatory,closed_list,,eng
+author-gender,female,obligatory,closed_list,,eng
+author-gender,male,obligatory,closed_list,,eng
+author-gender,mixed,obligatory,closed_list,,eng
+form,mixed,obligatory,closed_list,at least 10% of the other form,eng
+form,prose,obligatory,closed_list,,eng
+form,verse,obligatory,closed_list,,eng
+genre,collection_short_stories,obligatory,closed_list,,eng
+genre,comedy,obligatory,closed_list,,eng
+genre,film-script,obligatory,closed_list,,eng
+genre,novel,obligatory,closed_list,,eng
+genre,other,obligatory,closed_list,,eng
+genre,short_novel,obligatory,closed_list,,eng
+genre,short_story,obligatory,closed_list,,eng
+genre,tragedy,obligatory,closed_list,,eng
+genre,tragicomedy,obligatory,closed_list,,eng
+genre-label,(open),optional,open_list,Label given to the text on the title page,
+narrative-perspective,autodiegetic,optional,closed_list,narrator is also the protagonist of the narrative,eng
+narrative-perspective,epistolary,optional,closed_list,,eng
+narrative-perspective,heterodiegetic,optional,closed_list,narrator is not a character in the story,eng
+narrative-perspective,homodiegetic,optional,closed_list,narrator who is also a character in the story,eng
+narrator,first-person,optional,closed_list,,eng
+narrator,second-person,optional,closed_list,,eng
+narrator,third-person,optional,closed_list,,eng
+protagonist-gender,female,optional,closed_list,,eng
+protagonist-gender,male,optional,closed_list,,eng
+protagonist-gender,other/mixed,optional,closed_list,,eng
+publication,book,optional,closed_list,,eng
+publication,journal,optional,closed_list,,
+publication,serial,optional,closed_list,,eng
+setting,other/mixed,optional,closed_list,,eng
+setting,rural,optional,closed_list,,eng
+setting,urban,optional,closed_list,,eng
+setting,big_city,optional,closed_list,,eng
+setting,small_city,optional,closed_list,,eng
+subgenre,crime-fiction,optional,open_list,,eng
+subgenre,adventure,optional,open_list,,eng
+subgenre,fantastic,optional,open_list,,eng
+subgenre,farce,optional,open_list,,eng
+subgenre,novela de tesis,optional,open_list,,eng
+subgenre,novela dialogada,optional,open_list,,eng
+subgenre,opera,optional,open_list,,eng
+subgenre,pastoral,optional,open_list,,eng
+subgenre,pastoral,optional,open_list,,eng
+subgenre,social novel,optional,open_list,,eng
+subgenre,suspense,optional,open_list,,eng
+subgenre,thriller,optional,open_list,,eng
+subsubgenre,,optional,open_list,,
+supergenre,drama,obligatory,closed_list,,eng
+supergenre,narrative,obligatory,closed_list,,eng
+supergenre,non-fiction,obligatory,closed_list,,eng
+supergenre,poetry,obligatory,closed_list,,eng
+subgenre-lithist,,beta,open_list,Subgenre where the history of the literature has placed the text,
+setting-name,,beta,open_list,Name of the place (city or village) where the majority of the text takes place,eng
+representation,realistic,beta,closed_list,The texts represents realistic places and actions,eng
+representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions,eng
+setting-territory,,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place, not in English",eng
+setting-country,,beta,open_list,"Name of the country where the majority of the text takes place, in English",eng
+setting-continent,,beta,open_list,"Name of the continent where the majority of the text takes place, in English",eng
+protagonist-name,,beta,open_list,"Name of the most important person for the text, as complete as possible",eng
+protagonist-social-level,high,beta,closed_list,The person is rich or has a very high social position,eng
+protagonist-social-level,medium,beta,closed_list,"The incomes of the person are related to work and basic needs (food, house, clothes, etc.) are covered",eng
+protagonist-social-level,low,beta,closed_list,"The person has difficulties to pay basic needs (food, house, cloths)",eng
+time-period,antiquity,beta,closed_list,Before 800,eng
+time-period,middle_ages,beta,closed_list,800-1400,eng
+time-period,modern_times,beta,closed_list,1400-1800,eng
+time-period,contemporary,beta,closed_list,1800-1950,eng
+time-span,,beta,open_list,"Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year = 365)",eng
+text-movement,,beta,open_list,Artistic movement that is related to the text,
+group-text,,beta,open_list,"Name of the group of texts from the same author, that the text is part of",
