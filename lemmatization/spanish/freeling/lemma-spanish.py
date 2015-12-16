@@ -497,6 +497,6 @@ def saveVersionsPos(inpath):
 
 
 inpath="/home/jose/CLiGS/toolbox/lemmatization/spanish/freeling/"
-#lemmatizeText(inpath)
+lemmatizeText(inpath)
 saveVersionsPos(inpath)
 
