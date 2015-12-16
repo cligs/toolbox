@@ -69,6 +69,12 @@ def deletingElements(text):
     text = re.sub(r'<span\s*class="pagenum">[0-9\s\{\}]*?</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</h[1-6]>\s*)<p class="c">(.*?)</p>', r' - \2 \1', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'<!DOCTYPE.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<html.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<head>.*?</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p class="onda">[/\\]*</p>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
     return text
 
 def replacingBasicElements(text):
@@ -76,9 +82,12 @@ def replacingBasicElements(text):
     text = re.sub(r'<i(>| [^>]+)(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span style="margin-left: [0-9\.]*em;">(.+?)</span><br />', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span style="margin-left: 25%;">(.+?)</span><br />', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span style="margin-left: [23]em;">(.+?)</span><br ?/?>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<seg rend="italics">(.+?)</seg><br />', r'<l>\1</l>', text, flags=re.IGNORECASE)
 
     text = re.sub(r'<span class="i[0-9]">(.+?)<br /></span>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p class="poem">(.*?)</p>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
 
     text = re.sub(r'(</l>\s*)</div>', r'\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
