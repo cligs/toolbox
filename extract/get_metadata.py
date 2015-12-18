@@ -42,7 +42,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "narrator": '//tei:term[@type="narrator"]//text()',
               "setting": '//tei:term[@type="setting"]//text()',
               "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
-              "subgenre":'//tei:term[@type="subgenre"]//text()',
+              "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype]//text()',
               "subsubgenre":'//tei:term[@type="subsubgenre"]//text()',
               "protagonist-name": '//tei:term[@type="protagonist-name"]//text()',
               "protagonist-social-level": '//tei:term[@type="protagonist-social-level"]//text()',
