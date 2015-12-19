@@ -20,9 +20,9 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
     ### Copy the original files to the new folder.
     counter = 0
     for file in glob.glob(wdir+inpath):
-        shutil.copy(file,wdir+outfolder+file[-10:])
+        shutil.copy(file,wdir+outfolder+file[-11:])
     ## For each file in the new folder...
-    for file in glob.glob(wdir+outfolder+"*.txt"):
+    for file in glob.glob(wdir+outfolder+"*.epub"):
         ## Get labels from metadatafile for primary and secondary category.
         filename = os.path.basename(file)
         idno, extension = os.path.splitext(filename)
@@ -32,7 +32,7 @@ def rename_files(wdir, inpath, metadatafile, primary_category, secondary_categor
         primary_label = metadatax.loc[idno, primary_category]
         secondary_label = metadatax.loc[idno, secondary_category]
         ## Construct new filename based on primary and secondary labels.
-        newfilename = primary_label+"_"+secondary_label+"-"+idno+".txt"
+        newfilename = primary_label+"_"+secondary_label+"-"+idno+".epub"
         newoutputpath = wdir+outfolder+newfilename
         os.rename(file,newoutputpath)
         counter +=1
@@ -45,4 +45,4 @@ def main(wdir, inpath, metadatafile, primary_category, secondary_category):
 #### USER: Indicate parameters
 ## Possible values for main_category and sec_category: "author_short","title_short","genre","subgenre"
 
-main("", "txt/*.txt", "metadata.csv", "author-name", "title")
+main("", "epub/*.epub", "metadata.csv", "author-name", "title")

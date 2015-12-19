@@ -68,10 +68,10 @@ def teireader(wdir, inpath, outfolder, xpath):
             text = "\n".join(text)
 
             ### Some cleaning up
-            text = re.sub("[ ]{2,8}", "", text)
-            text = re.sub("\n{2,8}", "", text)
-            text = re.sub("[ \n]{2,8}", "", text)
-            text = re.sub("\t{1,8}", "", text)
+            text = re.sub("[ ]{2,8}", " ", text)
+            text = re.sub("\n{2,8}", "\n", text)
+            text = re.sub("[ \n]{2,8}", " \n", text)
+            text = re.sub("\t{1,8}", "\t", text)
 
             # TODO: Improve whitespace handling.
             
@@ -86,7 +86,7 @@ def teireader(wdir, inpath, outfolder, xpath):
 def main(wdir, inpath, outfolder, xpath):
     teireader(wdir, inpath, outfolder, xpath)
 
-main("/home/christof/Repos/cligs/examplecollection/", "master/*.xml", "txt/", "bodytext")
+main("", "tei/*.xml", "txt/", "bodytext")
 
 
 
