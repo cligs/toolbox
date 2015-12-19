@@ -11,15 +11,20 @@ import glob
 import os
 import pandas as pd
 
-def get_metadata(wdir, inpath, metadatafile):
+def get_metadata(wdir, inpath, metadatafile, mode):
     """Get metadata from teiHeader, write it to CSV."""
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
+    ## We can choose only the obligatory metadata, the optional or the beta. 
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
-    labels = ("idno","author-name", "author-gender", "title", "year", "supergenre", "genre", "subgenre", "genre-label", "genre-subtitle", "narration", "availability", "setting", "protagonist-gender", "author-country", "author-continent", "narrator")
-
+     
+    labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
+    labels_opt = ["genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subgenre","subsubgenre",]
+    labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span"]
+    
     ## Dictionary of all relevant xpaths with their labels
-    xpaths = {"title": '//tei:title[@type="short"]//text()',
+    xpaths = {
+              "title": '//tei:title[@type="short"]//text()',
               "author-name": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
               "author-gender":'//tei:term[@type="author-gender"]//text()',
@@ -27,18 +32,40 @@ def get_metadata(wdir, inpath, metadatafile):
               "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
-              "subgenre":'//tei:term[@type="subgenre"]//text()',
-              "genre-label":'//tei:term[@type="genre-label"]//text()',
               "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
               "idno": '//tei:idno[@type="cligs"]//text()',
-              "narration": '//tei:term[@type="narrative-perspective"]//text()',
               "availability": '//tei:availability//@status',
-              "setting": '//tei:term[@type="setting"]//text()',
-              "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
               "author-country": '//tei:term[@type="author-country"]//text()',
               "author-continent": '//tei:term[@type="author-continent"]//text()',
-              "narrator": '//tei:term[@type="narrator"]//text()'
+              "genre-label":'//tei:term[@type="genre-label"]//text()',
+              "narrative-perspective": '//tei:term[@type="narrative-perspective"]//text()',
+              "narrator": '//tei:term[@type="narrator"]//text()',
+              "setting": '//tei:term[@type="setting"]//text()',
+              "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
+              "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype]//text()',
+              "subsubgenre":'//tei:term[@type="subsubgenre"]//text()',
+              "protagonist-name": '//tei:term[@type="protagonist-name"]//text()',
+              "protagonist-social-level": '//tei:term[@type="protagonist-social-level"]//text()',
+              "representation": '//tei:term[@type="representation"]//text()',
+              "setting-continent": '//tei:term[@type="setting-continent"]//text()',
+              "setting-country": '//tei:term[@type="setting-country"]//text()',
+              "setting-name": '//tei:term[@type="setting-name"]//text()',
+              "setting-territory": '//tei:term[@type="setting-territory"]//text()',
+              "subgenre-lithist": '//tei:term[@type="subgenre-lithist"]//text()',
+              "text-movement": '//tei:term[@type="text-movement"]//text()',
+              "time-period": '//tei:term[@type="time-period"]//text()',
+              "time-span": '//tei:term[@type="time-span"]//text()',
+              "group-text": '//tei:term[@type="group-text"]//text()'
               }
+
+    # Mode is selected: obligatory, optional or beta
+    if mode =="obl":
+        labels=labels_obl
+    elif mode =="opt-obl":
+        labels=labels_obl+labels_opt
+    elif mode =="beta-opt-obl":
+        labels=labels_obl+labels_opt+labels_beta
+            
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
     
@@ -74,10 +101,12 @@ def get_metadata(wdir, inpath, metadatafile):
     
     ## Check result and write CSV file to disk.
     #print(metadata.head())
+    metadata=metadata.sort("idno",ascending=True)  
+    metadatafile=metadatafile+"_"+mode+".csv"
     metadata.to_csv(wdir+metadatafile, sep=",", encoding="utf-8")
     print("Done. Number of documents and metadata columns:", metadata.shape)
 
-def main(wdir,inpath, metadatafile):
-    get_metadata(wdir,inpath, metadatafile)
+def main(wdir,inpath, metadatafile, mode):
+    get_metadata(wdir,inpath, metadatafile, mode)
 
-main("/home/jose/CLiGS/pruebas/20150921_jctne_900l_10b_70t_70mfwd/master/", "*.xml", "metadata_from_header.csv")
+main("/home/jose/CLiGS/ne/master/", "*.xml", "metadata-from-header", "opt-obl") #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta

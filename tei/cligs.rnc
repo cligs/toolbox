@@ -1,14 +1,14 @@
-default namespace = "http://www.tei-c.org/ns/1.0"
 namespace a = "http://relaxng.org/ns/compatibility/annotations/1.0"
 namespace ns1 = "http://www.isocat.org/ns/dcr"
 namespace rng = "http://relaxng.org/ns/structure/1.0"
 namespace sch = "http://purl.oclc.org/dsdl/schematron"
+default namespace tei = "http://www.tei-c.org/ns/1.0"
 namespace xlink = "http://www.w3.org/1999/xlink"
 
-# Schema generated from ODD source 2015-07-15T18:46:56Z. August 2012.
-# TEI Edition: Version 2.8.0. Last updated on
-#	6th April 2015, revision 13197
-# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.8.0/
+# Schema generated from ODD source 2015-12-16T15:33:23Z. August 2012.
+# TEI Edition: Version 2.9.1. Last updated on
+#	15th October 2015, revision 46ac023
+# TEI Edition Location: http://www.tei-c.org/Vault/P5/Version 2.9.1/
 #
 
 # This material is dual-licensed.
@@ -20,7 +20,7 @@ macro.paraContent =
    | model.inter
    | model.global
    | lg
-   | l)*
+   | model.lLike)*
 macro.phraseSeq = (text | model.gLike | model.phrase | model.global)*
 macro.phraseSeq.limited = (text | model.limitedPhrase | model.global)*
 macro.specialPara =
@@ -77,7 +77,7 @@ att.canonical.attribute.key =
   attribute key { data.text }?
 att.canonical.attribute.ref =
   
-  ## (reference) provides an explicit means of locating a full definition for the entity being named by means of one or more URIs.
+  ## (reference) provides an explicit means of locating a full definition or identity for the entity being named by means of one or more URIs.
   attribute ref {
     list { data.pointer+ }
   }?
@@ -221,7 +221,7 @@ att.fragmentable.attribute.part =
     ## (yes) the element is fragmented in some (unspecified) respect
     "Y"
     | 
-      ## (no) either the element is not fragmented, or no claim is made as to its completeness.
+      ## (no) the element is not fragmented, or no claim is made as to its completeness
       "N"
     | 
       ## (initial) this is the initial part of a fragmented element
@@ -320,7 +320,7 @@ att.naming.attribute.nymRef =
 att.placement.attributes = att.placement.attribute.place
 att.placement.attribute.place =
   
-  ## specifies where this item is placed
+  ## specifies where this item is placed.
   ## Suggested values include: 1] below; 2] bottom; 3] margin; 4] top; 5] opposite; 6] overleaf; 7] above; 8] end; 9] inline; 10] inspace
   attribute place {
     list {
@@ -405,8 +405,10 @@ sch:pattern [
     "\x{a}" ~
     "            "
     sch:assert [
-      test = "count(@target)"
-      "@targetLang can only be used if @target is specified."
+      test = "@target"
+      "@targetLang should only be used on "
+      sch:name [ ]
+      " if @target is specified."
     ]
     "\x{a}" ~
     "          "
@@ -738,7 +740,49 @@ p =
   
   ## (paragraph) marks paragraphs in prose. [3.1. Paragraphs 7.2.5. Speech Contents]
   element p {
-    macro.paraContent,
+    macro.paraContent
+    >> sch:pattern [
+         id = "cligs-p-abstractModel-p-constraint-1"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure)"
+             "\x{a}" ~
+             "        Abstract model violation: Paragraphs may not contain other paragraphs or ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "cligs-p-abstractModel-structure-l-constraint-2"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:p"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:l[not(.//tei:note//tei:p[. = current()])]"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attribute.xmlid,
     att.global.attribute.n,
     att.global.attribute.xmllang,
@@ -791,10 +835,23 @@ term =
     att.global.attributes,
     att.declaring.attributes,
     att.pointing.attributes,
-    att.typed.attributes,
+    att.typed.attribute.type,
     att.canonical.attributes,
     att.sortable.attributes,
     att.cReferencing.attributes,
+    
+    ## provides a sub-categorization of the element, if needed
+    attribute subtype {
+      
+      ##
+      "1"
+      | 
+        ##
+        "2"
+      | 
+        ##
+        "3"
+    }?,
     empty
   }
 gap =
@@ -824,8 +881,7 @@ name =
   }
 date =
   
-  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.5. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
+  ## contains a date in any format. [3.5.4. Dates and Times 2.2.4. Publication, Distribution, Licensing, etc. 2.6. The Revision Description 3.11.2.4. Imprint, Size of a Document, and Reprint Information 15.2.3. The Setting Description 13.3.6. Dates and Times]
   element date {
     (text | model.gLike | model.phrase | model.global)*,
     att.global.attribute.xmlid,
@@ -844,7 +900,7 @@ ref =
   element ref {
     macro.paraContent
     >> sch:pattern [
-         id = "cligs-ref-refAtts-constraint-1"
+         id = "cligs-ref-refAtts-constraint-3"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -949,8 +1005,7 @@ title =
   }
 publisher =
   
-  ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution,
-  ## Licensing, etc.]
+  ## provides the name of the organization responsible for the publication or distribution of a bibliographic item. [3.11.2.4. Imprint, Size of a Document, and Reprint Information 2.2.4. Publication, Distribution, Licensing, etc.]
   element publisher {
     macro.phraseSeq,
     att.global.attribute.xmlid,
@@ -984,7 +1039,28 @@ l =
   
   ## (verse line) contains a single, possibly incomplete, line of verse. [3.12.1. Core Tags for Verse 3.12. Passages of Verse or Drama 7.2.5. Speech Contents]
   element l {
-    macro.paraContent,
+    ((text | model.gLike | model.phrase | model.inter | model.global)*)
+    >> sch:pattern [
+         id = "cligs-l-abstractModel-structure-l-constraint-4"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:l"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain lines or lg elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attribute.xmlid,
     att.global.attribute.n,
     att.global.attribute.xmllang,
@@ -1021,6 +1097,27 @@ lg =
                "count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) > 0"
              "An lg element\x{a}" ~
              "        must contain at least one child l, lg or gap element."
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "cligs-lg-abstractModel-structure-l-constraint-5"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:lg"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain line groups.\x{a}" ~
+             "      "
            ]
            "\x{a}" ~
            "            "
@@ -1165,8 +1262,7 @@ principal =
   }
 publicationStmt =
   
-  ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.2. The File Description]
+  ## (publication statement) groups information concerning the publication or distribution of an electronic or other text. [2.2.4. Publication, Distribution, Licensing, etc. 2.2. The File Description]
   element publicationStmt {
     ((model.publicationStmtPart.agency,
       model.publicationStmtPart.detail*)+
@@ -1176,8 +1272,7 @@ publicationStmt =
   }
 idno =
   
-  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution,
-  ## Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
+  ## (identifier) supplies any form of identifier used to identify some object, such as a bibliographic item, a person, a title, an organization, etc. in a standardized way. [2.2.4. Publication, Distribution, Licensing, etc. 2.2.5. The Series Statement 3.11.2.4. Imprint, Size of a Document, and Reprint Information]
   element idno {
     (text | model.gLike | idno)*,
     att.global.attribute.xmlid,
@@ -1192,8 +1287,7 @@ idno =
   }
 availability =
   
-  ## supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution,
-  ## Licensing, etc.]
+  ## supplies information about the availability of a text, for example any restrictions on its use or distribution, its copyright status, any licence applying to it, etc. [2.2.4. Publication, Distribution, Licensing, etc.]
   element availability {
     (model.availabilityPart | model.pLike)+,
     att.global.attribute.xmlid,
@@ -1219,8 +1313,7 @@ availability =
   }
 licence =
   
-  ## contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution,
-  ## Licensing, etc.]
+  ## contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution, Licensing, etc.]
   element licence {
     macro.specialPara,
     att.global.attribute.xmlid,
@@ -1284,13 +1377,13 @@ keywords =
   }
 revisionDesc =
   
-  ## (revision description) summarizes the revision history for a file. [2.5. The Revision Description 2.1.1. The TEI Header and Its Components]
+  ## (revision description) summarizes the revision history for a file. [2.6. The Revision Description 2.1.1. The TEI Header and Its Components]
   element revisionDesc {
     (change+), att.global.attributes, att.docStatus.attributes, empty
   }
 change =
   
-  ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.5. The Revision Description 2.4.1. Creation 11.7. Changes]
+  ## documents a change or set of changes made during the production of a source document, or during the revision of an electronic file. [2.6. The Revision Description 2.4.1. Creation 11.7. Changes]
   element change {
     macro.specialPara,
     att.ascribed.attributes,
@@ -1388,7 +1481,48 @@ floatingText =
      ((((model.divLike | model.divGenLike), model.global*)+
        | ((model.common, model.global*)+,
           ((model.divLike | model.divGenLike), model.global*)*)),
-      (model.divBottom, model.global*)*)?),
+      (model.divBottom, model.global*)*)?)
+    >> sch:pattern [
+         id = "cligs-div-abstractModel-structure-l-constraint-6"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "ancestor::tei:l"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "cligs-div-abstractModel-structure-p-constraint-7"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:div"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "ancestor::tei:p or ancestor::tei:ab and not(ancestor::tei:floatingText)"
+             "\x{a}" ~
+             "        Abstract model violation: p and ab may not contain higher-level structural elements such as div.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attribute.xmlid,
     att.global.attribute.n,
     att.global.attribute.xmllang,
@@ -1467,7 +1601,7 @@ s =
       | seg
       | w)*)
     >> sch:pattern [
-         id = "cligs-s-noNestedS-constraint-2"
+         id = "cligs-s-noNestedS-constraint-8"
          "\x{a}" ~
          "            "
          sch:rule [
@@ -1666,7 +1800,48 @@ ab =
   
   ## (anonymous block) contains any arbitrary component-level unit of text, acting as an anonymous container for phrase or inter level elements analogous to, but without the semantic baggage of, a paragraph. [16.3. Blocks, Segments, and Anchors]
   element ab {
-    macro.paraContent,
+    macro.paraContent
+    >> sch:pattern [
+         id = "cligs-ab-abstractModel-structure-p-constraint-9"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ab"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test =
+               "(ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)"
+             "\x{a}" ~
+             "        Abstract model violation: ab may not contain paragraphs or other ab elements.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ]
+    >> sch:pattern [
+         id = "cligs-ab-abstractModel-structure-l-constraint-10"
+         "\x{a}" ~
+         "            "
+         sch:rule [
+           context = "tei:ab"
+           "\x{a}" ~
+           "               "
+           sch:report [
+             test = "ancestor::tei:l or ancestor::tei:lg"
+             "\x{a}" ~
+             "        Abstract model violation: Lines may not contain higher-level divisions such as p or ab.\x{a}" ~
+             "      "
+           ]
+           "\x{a}" ~
+           "            "
+         ]
+         "\x{a}" ~
+         "         "
+       ],
     att.global.attribute.xmlid,
     att.global.attribute.xmllang,
     att.global.rendition.attribute.rend,
