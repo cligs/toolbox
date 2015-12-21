@@ -37,7 +37,7 @@ def teireader(wdir, inpath, outfolder, xpath):
             ### USER: Uncomment as needed.
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}reg")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}orig")
-            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}note")
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}note", with_tail=False)
             etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}quote")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}l")
             #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}p")
@@ -87,7 +87,7 @@ def teireader(wdir, inpath, outfolder, xpath):
 def main(wdir, inpath, outfolder, xpath):
     teireader(wdir, inpath, outfolder, xpath)
 
-main("", "tei/*.xml", "txt/", "bodytext")
+main("/home/ulrike/Dokumente/Git/textbox/fr/roman19/", "tei/rd0737.xml", "txt/", "bodytext")
 
 
 
