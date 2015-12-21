@@ -35,15 +35,15 @@ def teireader(wdir, inpath, outfolder, xpath):
 
             ### Removes elements and their text content.
             ### USER: Uncomment as needed.
-            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}reg")
-            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}orig")
+            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}reg", with_tail=False)
+            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}orig", with_tail=False)
             etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}note", with_tail=False)
-            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}quote")
-            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}l")
-            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}p")
-            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}head")
-            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}stage")
-            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}speaker")
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}quote", with_tail=False)
+            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}l", with_tail=False)
+            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}p", with_tail=False)
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}head", with_tail=False)
+            #etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}stage", with_tail=False)
+            etree.strip_elements(xml, "{http://www.tei-c.org/ns/1.0}speaker", with_tail=False)
 
             ### XPath defining which text to select
             xp_bodytext = "//tei:body//text()"
