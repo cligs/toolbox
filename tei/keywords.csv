@@ -59,7 +59,7 @@ subgenre,historical,optional,open_list,Some historical characters or scenes are 
 subgenre,anti-religious,optional,open_list,"One of the principal themes is the critic to religious institutions, churches and religion in general",eng
 subgenre,comedy,optional,open_list,Many parts of the text are written to make the reader laugh,eng
 subgenre,philosophical,optional,open_list,One of the main aims of the text is not to tell actions but present ideas and opinions,eng
-subgenre,,,,,eng
+subgenre,memoir,optional,open_list,The text presents the story as the memories of the narrator or one of the main characters,eng
 subsubgenre,,optional,open_list,,
 supergenre,drama,obligatory,closed_list,,eng
 supergenre,narrative,obligatory,closed_list,,eng
@@ -83,3 +83,7 @@ time-period,contemporary,beta,closed_list,1800-1950,eng
 time-span,,beta,open_list,"Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year = 365)",eng
 text-movement,,beta,open_list,Artistic movement that is related to the text,
 group-text,,beta,open_list,"Name of the group of texts from the same author, that the text is part of",
+author-text-relation,high,beta,closed_list,"The majority of the aspects of the main character or the narrator has very clear similarities to the author's life, many times recognized by the author or the critic",eng
+author-text-relation,medium,beta,closed_list,There are some similarities between the main character or narrator and the life of the author but other parts of the text has no relation,eng
+author-text-relation,none,beta,closed_list,There are no special similiratires between the main character or narrator and the life of the author,eng
+protagonist-profession,journalist,beta,closed_list,,eng
