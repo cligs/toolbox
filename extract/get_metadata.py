@@ -20,7 +20,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
      
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subgenre","subsubgenre",]
-    labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span"]
+    labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -51,11 +51,13 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "setting-country": '//tei:term[@type="setting-country"]//text()',
               "setting-name": '//tei:term[@type="setting-name"]//text()',
               "setting-territory": '//tei:term[@type="setting-territory"]//text()',
-              "subgenre-lithist": '//tei:term[@type="subgenre-lithist"]//text()',
+              "subgenre-lithist":'//tei:term[@type="subgenre-lithist"][@subtype > parent::tei:keywords/tei:term[@type="subgenre-lithist"]/@subtype]//text()',
               "text-movement": '//tei:term[@type="text-movement"]//text()',
               "time-period": '//tei:term[@type="time-period"]//text()',
               "time-span": '//tei:term[@type="time-span"]//text()',
-              "group-text": '//tei:term[@type="group-text"]//text()'
+              "group-text": '//tei:term[@type="group-text"]//text()',
+              "author-text-relation": '//tei:term[@type="author-text-relation"]//text()',
+              "protagonist-profession": '//tei:term[@type="protagonist-profession"]//text()'
               }
 
     # Mode is selected: obligatory, optional or beta
