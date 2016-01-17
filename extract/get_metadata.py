@@ -42,7 +42,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "narrator": '//tei:term[@type="narrator"]//text()',
               "setting": '//tei:term[@type="setting"]//text()',
               "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
-              "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype]//text()',
+              "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype or not(parent::tei:keywords/tei:term[@type="subgenre"][2])]//text()',
               "subsubgenre":'//tei:term[@type="subsubgenre"]//text()',
               "protagonist-name": '//tei:term[@type="protagonist-name"]//text()',
               "protagonist-social-level": '//tei:term[@type="protagonist-social-level"]//text()',
@@ -109,4 +109,4 @@ def get_metadata(wdir, inpath, metadatafile, mode):
 def main(wdir,inpath, metadatafile, mode):
     get_metadata(wdir,inpath, metadatafile, mode)
 
-main("/home/jose/CLiGS/ne/master/", "*.xml", "metadata-from-header", "opt-obl") #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
+main("/home/ulrike/Dokumente/Git/textbox/es/novela-hispanoamericana/tei/", "*.xml", "metadata-from-header", "opt-obl") #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
