@@ -45,6 +45,8 @@ def cleaningIndent(text):
     text = re.sub(r'[\r\n]+', r'\r\n', text)
     text = re.sub(r' +', r' ', text)
     text = re.sub(r'<p(>| [^>]*>)\s*</p>', r' ', text)
+    text = re.sub(r'<l(>| [^>]*>)\s*</l>', r' ', text)
+    text = re.sub(r'<seg(>| [^>]*>)\s*</seg>', r' ', text)
     text = re.sub(r'[\t ]', r' ', text)
     return text
 
@@ -123,13 +125,16 @@ def replacingTables(text):
     Replace tables with <quote> or <lg>
     """
     #Replacing the very old table before 2000
+    text = re.sub(r'<table width="100%">\s*<tbody>(.*?)</tbody>\s*</table>', r'<lg>\1\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<TABLE WIDTH="100%">(.*?)</TABLE>', r'<lg>\r\n\1\r\n</lg>', text, flags=re.DOTALL)
     text = re.sub(r'<TABLE WIDTH="100%">(.*?)</TABLE>', r'<lg>\r\n\1\r\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     #text = re.sub(r'<TR VALIGN="TOP">(.*?)</TR>', r'<l>\1</l>', text, flags=re.DOTALL)
-    
+
     text = re.sub(r'<table width="70%" align="center">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<table cellpadding="0" cellspacing="0" align="center" width="462">', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td nowrap="yes">(.*?)</td>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
+    text = re.sub(r'<tr valign="TOP"><td>(.*?)</td></tr>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
+
     text = re.sub(r'</table>(\s*(<p>|<h[1-6]>))', r'</lg>\1', text, flags=re.DOTALL|re.IGNORECASE)   
     text = re.sub(r'</?t[rd]>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td align="right">', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -159,10 +164,13 @@ def setDivs(text):
     text = re.sub(r'(</h[1-5]>)[\s]+([^<\r\n ][^\r\n]*)([\r\n]*)', r' : \2 \1\3', text, flags=re.DOTALL|re.IGNORECASE)
 
     # It deletes the <h1> and its next <p>
-    text = re.sub(r'<h1.*?\r?\n<p.*?\r?\n', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<h1.*?\r?\n<.*?\r?\n', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     # It deletes the <h1> and its next <p>
     text = re.sub(r'(\A.*?)(<h[2-4])', r'\1<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+
+    #Sometimes they don't put any kind of hn, only center. So we put h2 in that...
+    text = re.sub(r'^ *<center>([A-Z Á-ÚÑ]+)</center>', r'<h2>\1</h2>', text, flags=re.DOTALL|re.IGNORECASE|re.MULTILINE)
 
 
     # It it looks in the document if there is any <h3>. If there is, then it will close the divs both from h2 and h3        
@@ -193,7 +201,7 @@ def setDivs(text):
     return text
 
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2015">2015</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="x"></term>\r\n					<term type="genre-label"></term>\r\n					<term type="narrative-perspective" cert="low" resp="#jct"></term>\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="author-gender">male</term>\r\n					<term type="protagonist-gender">male</term>\r\n					<term type="setting"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2015-08-13" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="#jct"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-01-07" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 def main():
@@ -221,10 +229,10 @@ def main():
             
             #It cleans the white space
             content=cleaningIndent(content)
-        
+            
             #It replaces the tables with <lg>
             content=replacingTables(content)   
-        
+            
             #It cleans the white space, again
             content=cleaningIndent(content)
             

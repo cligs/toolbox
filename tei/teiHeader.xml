@@ -14,8 +14,15 @@
           <name type="short"></name>
           <name type="full"></name>
         </author>
-        <principal xml:id="xy"></principal>
+        <principal xml:id="xy">X.Y.</principal>
       </titleStmt>
+      <extent>
+        <measure unit="div">1</measure>
+        <measure unit="lines">12</measure>
+        <measure unit="words">123</measure>
+        <measure unit="chars">1234</measure>
+        <measure unit="kB">5</measure>
+      </extent> 
       <publicationStmt>
         <publisher>CLiGS</publisher>
         <availability status="restricted">
@@ -46,7 +53,7 @@
       </abstract>
       <textClass>
         <keywords scheme="keywords.csv">
-        <!-- Terms have optional attributes cert and resp. -->
+        <!-- Terms have optional attributes cert, resp and subtype. -->
 
           <term type="author-gender"></term>
           <term type="author-continent"></term>
@@ -68,7 +75,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2015" who="#xy">Initial TEI version.</change>
+      <change when="2016" who="#xy">Initial TEI version.</change>
     </revisionDesc>
   </teiHeader>
     <text>

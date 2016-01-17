@@ -26,6 +26,7 @@ narrative-perspective,autodiegetic,optional,closed_list,narrator is also the pro
 narrative-perspective,epistolary,optional,closed_list,,eng
 narrative-perspective,heterodiegetic,optional,closed_list,narrator is not a character in the story,eng
 narrative-perspective,homodiegetic,optional,closed_list,narrator who is also a character in the story,eng
+narrative-perspective,dialogue,optional,closed_list,,eng
 narrator,first-person,optional,closed_list,,eng
 narrator,second-person,optional,closed_list,,eng
 narrator,third-person,optional,closed_list,,eng
@@ -33,7 +34,7 @@ protagonist-gender,female,optional,closed_list,,eng
 protagonist-gender,male,optional,closed_list,,eng
 protagonist-gender,other/mixed,optional,closed_list,,eng
 publication,book,optional,closed_list,,eng
-publication,journal,optional,closed_list,,
+publication,journal,optional,closed_list,,eng
 publication,serial,optional,closed_list,,eng
 setting,other/mixed,optional,closed_list,,eng
 setting,rural,optional,closed_list,,eng
@@ -42,26 +43,34 @@ setting,big_city,optional,closed_list,,eng
 setting,small_city,optional,closed_list,,eng
 subgenre,crime-fiction,optional,open_list,,eng
 subgenre,adventure,optional,open_list,,eng
+subgenre,erotic,optional,open_list,One of the principal themes is the sexual or erotic relations between some characters,eng
 subgenre,fantastic,optional,open_list,,eng
 subgenre,farce,optional,open_list,,eng
-subgenre,novela de tesis,optional,open_list,,eng
-subgenre,novela dialogada,optional,open_list,,eng
+subgenre,naturalist,optional,open_list,"One of the principal themes is illness (espeacilly genetic ones), prostitution, alcoholism or poverty",eng
+subgenre,modernist,optional,open_list,One of the main aims of the text is not to tell actions but describe,eng
 subgenre,opera,optional,open_list,,eng
 subgenre,pastoral,optional,open_list,,eng
-subgenre,pastoral,optional,open_list,,eng
-subgenre,social novel,optional,open_list,,eng
+subgenre,realist,optional,open_list,The themes and scenes were normal to many people of the time in which the text happens,eng
+subgenre,sentimental,optional,open_list,One of the principal themes is the sentimental relations between some characters,eng
+subgenre,social,optional,open_list,One of the principal themes is the conditions in which the poor people lived,eng
+subgenre,spiritual,optional,open_list,"One of the principal themes is the religion and belief, from a faithful point of view",eng
 subgenre,suspense,optional,open_list,,eng
 subgenre,thriller,optional,open_list,,eng
+subgenre,historical,optional,open_list,Some historical characters or scenes are represented and have a great importance in the text,eng
+subgenre,anti-religious,optional,open_list,"One of the principal themes is the critic to religious institutions, churches and religion in general",eng
+subgenre,comedy,optional,open_list,Many parts of the text are written to make the reader laugh,eng
+subgenre,philosophical,optional,open_list,One of the main aims of the text is not to tell actions but present ideas and opinions,eng
+subgenre,memoir,optional,open_list,The text presents the story as the memories of the narrator or one of the main characters,eng
 subsubgenre,,optional,open_list,,
 supergenre,drama,obligatory,closed_list,,eng
 supergenre,narrative,obligatory,closed_list,,eng
 supergenre,non-fiction,obligatory,closed_list,,eng
 supergenre,poetry,obligatory,closed_list,,eng
 subgenre-lithist,,beta,open_list,Subgenre where the history of the literature has placed the text,
-setting-name,,beta,open_list,Name of the place (city or village) where the majority of the text takes place,eng
+setting-name,,beta,open_list,Name of the place (city or village) where the majority of the text takes place,
 representation,realistic,beta,closed_list,The texts represents realistic places and actions,eng
 representation,not_realistic,beta,closed_list,The texts represents not realistic places and actions,eng
-setting-territory,,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place, not in English",eng
+setting-territory,,beta,open_list,"Name of the territory (province, community, Bundesland...) where the majority of the text takes place",
 setting-country,,beta,open_list,"Name of the country where the majority of the text takes place, in English",eng
 setting-continent,,beta,open_list,"Name of the continent where the majority of the text takes place, in English",eng
 protagonist-name,,beta,open_list,"Name of the most important person for the text, as complete as possible",eng
@@ -75,3 +84,21 @@ time-period,contemporary,beta,closed_list,1800-1950,eng
 time-span,,beta,open_list,"Time span from the beginning of the text until the end, expressed in days trying to round in years or months (1 year = 365)",eng
 text-movement,,beta,open_list,Artistic movement that is related to the text,
 group-text,,beta,open_list,"Name of the group of texts from the same author, that the text is part of",
+author-text-relation,high,beta,closed_list,"The majority of the aspects of the main character or the narrator has very clear similarities to the author's life, many times recognized by the author or the critic",eng
+author-text-relation,medium,beta,closed_list,There are some similarities between the main character or narrator and the life of the author but other parts of the text has no relation,eng
+author-text-relation,none,beta,closed_list,There are no special similiratires between the main character or narrator and the life of the author,eng
+protagonist-profession,artist,beta,closed_list,,eng
+protagonist-profession,beggar,beta,closed_list,,eng
+protagonist-profession,business owner,beta,closed_list,,eng
+protagonist-profession,doctor,beta,closed_list,,eng
+protagonist-profession,housewife,beta,closed_list,,eng
+protagonist-profession,journalist,beta,closed_list,,eng
+protagonist-profession,lord,beta,closed_list,,eng
+protagonist-profession,mixed,beta,closed_list,,eng
+protagonist-profession,public servant,beta,closed_list,,eng
+protagonist-profession,religious,beta,closed_list,Any kind of position in religious organization,eng
+protagonist-profession,seaman,beta,closed_list,,eng
+protagonist-profession,student,beta,closed_list,,eng
+protagonist-profession,teacher,beta,closed_list,,eng
+protagonist-profession,worker,beta,closed_list,,eng
+protagonist-profession,politician,beta,closed_list,,eng
