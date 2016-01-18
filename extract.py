@@ -6,7 +6,7 @@
 
 # Contains the following functions (with their arguments): 
 # read_tei5(wdir, inpath, outfolder, xpath)
-# read_tei4(inpath)
+# read_tei4(wdir, inpath, outfolder)
 # get_metadata(wdir, inpath, metadatafile, mode)
 """
 
@@ -93,15 +93,19 @@ def read_tei5(wdir, inpath, outfolder, xpath):
     print("Done. Files treated: " + str(counter))
 
 
-def read_tei4(inpath):
+def read_tei4(wdir, inpath, outfolder):
     """Script for reading selected text from TEI P4 (legacy) files."""
+    inpath  = wdir + inpath
+    outfolder = wdir + outfolder
+    if not os.path.exists(outfolder):
+        os.makedirs(outfolder)
     for file in glob.glob(inpath):
         with open(file, "r") as infile:
             filename = os.path.basename(file)[:-4]
             idno = filename[:5]
             print(idno)
             ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
-            parser = etree.XMLParser(collect_ids=False, recover=True)
+            parser = etree.XMLParser(recover=True)
             xml = etree.parse(file, parser)
 
             ### The TEI P4 files do not have a namespace.
@@ -111,10 +115,10 @@ def read_tei4(inpath):
             #etree.strip_tags(xml, "{http://www.tei-c.org/ns/1.0}hi")
 
             ### Removes elements and their text content.
-            etree.strip_elements(xml, "speaker")
-            etree.strip_elements(xml, "note")
-            #etree.strip_elements(xml, "stage")
-            etree.strip_elements(xml, "head")
+            etree.strip_elements(xml, "speaker", with_tail=False)
+            etree.strip_elements(xml, "note", with_tail=False)
+            #etree.strip_elements(xml, "stage", with_tail=False)
+            etree.strip_elements(xml, "head", with_tail=False)
 
             ### XPath defining which text to select
             xp_bodyprose = "//tei:body//tei:p//text()"
@@ -144,7 +148,7 @@ def read_tei4(inpath):
             #text = re.sub("SCÈNE[^$]*?\n", "###\n", text)
 
             outtext = str(text)
-            outfile = "./txt/" + filename + ".txt"
+            outfile = outfolder + filename + ".txt"
         with open(outfile,"w") as output:
             output.write(outtext)
 
@@ -249,7 +253,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
 
 def main(wdir, inpath, outfolder, xpath, metadatafile, mode):
     read_tei5(wdir, inpath, outfolder, xpath)
-    read_tei4(inpath)
+    read_tei4(wdir, inpath, outfolder)
     get_metadata(wdir,inpath, metadatafile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
 
 if __name__ == "__main__":
