@@ -19,15 +19,13 @@ from lxml import etree
 import pandas as pd
 
 
-def read_tei5(wdir, inpath, outfolder, xpath):
+def read_tei5(teiPath, txtFolder, xpath):
     """Script for reading selected text from TEI P5 files."""
-    inpath  = wdir + inpath
-    outfolder = wdir + outfolder
-    if not os.path.exists(outfolder):
-        os.makedirs(outfolder)
+    if not os.path.exists(txtFolder):
+        os.makedirs(txtFolder)
     ## Do the following for each file in the inpath.
     counter = 0
-    for file in glob.glob(inpath):
+    for file in glob.glob(teiPath):
         with open(file, "r"):
             filename = os.path.basename(file)[:-4]
             idno = filename[:6] # assumes idno is at the start of filename.
@@ -86,7 +84,7 @@ def read_tei5(wdir, inpath, outfolder, xpath):
             # TODO: Improve whitespace handling.
             
             outtext = str(text)
-            outfile = outfolder + filename + ".txt"
+            outfile = txtFolder + filename + ".txt"
         with open(outfile,"w") as output:
             output.write(outtext)
         
@@ -251,10 +249,10 @@ def get_metadata(wdir, inpath, metadatafile, mode):
     print("Done. Number of documents and metadata columns:", metadata.shape)
 
 
-def main(wdir, inpath, outfolder, xpath, metadatafile, mode):
-    read_tei5(wdir, inpath, outfolder, xpath)
-    read_tei4(wdir, inpath, outfolder)
-    get_metadata(wdir,inpath, metadatafile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
+def main(teiFolder, txtFolder, xpath, metadataFile, mode):
+    read_tei5(teiFolder, txtFolder, xpath)
+    read_tei4(teiFolder, txtFolder)
+    get_metadata(txtFolder, metadataFile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
 
 if __name__ == "__main__":
     import sys

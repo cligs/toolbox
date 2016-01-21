@@ -16,9 +16,9 @@ This allows using the scripts as a repo-based module. The basic idea is that you
 In order to use the module efficiently, you need to know which submodules are included, which functions are included in each submodule, and which arguments each function takes. The following is intended as a quick overview, please see the submodules themselves for details. 
 
 * extract.py
-    * read_tei5(wdir, inpath, outfolder, xpath)
-    * read_tei4(inpath)
-    * get_metadata(wdir, inpath, metadata, mode)
+    * read_tei5(teiFolder, txtFolder, xpath)
+    * read_tei4(teiFolder, txtFolder)
+    * get_metadata(teiFolder, metadataFile, mode)
 
 
 ## Example
