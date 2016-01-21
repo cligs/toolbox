@@ -25,6 +25,10 @@ To get more information about a submodule, especially what each function does an
 ```
 help(extract)
 ```
+or
+```
+help(extract.read_tei5)
+```
 
 
 ## Example
