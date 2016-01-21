@@ -2,12 +2,7 @@
 # Submodule name: extract.py
 
 """
-# Submodule with functions for reading selected text and metadata from TEI files.
-
-# Contains the following functions (with their arguments): 
-# read_tei5(wdir, inpath, outfolder, xpath)
-# read_tei4(wdir, inpath, outfolder)
-# get_metadata(wdir, inpath, metadatafile, mode)
+Submodule with functions for reading selected text and metadata from TEI files.
 """
 
 
@@ -20,7 +15,10 @@ import pandas as pd
 
 
 def read_tei5(teiPath, txtFolder, xpath):
-    """Script for reading selected text from TEI P5 files."""
+    """
+    Extracts selected text from TEI P5 files and writes TXT files.
+    xpath (string): "alltext", "bodytext, "seg" or "said".
+    """
     if not os.path.exists(txtFolder):
         os.makedirs(txtFolder)
     ## Do the following for each file in the inpath.
@@ -92,7 +90,9 @@ def read_tei5(teiPath, txtFolder, xpath):
 
 
 def read_tei4(wdir, inpath, outfolder):
-    """Script for reading selected text from TEI P4 (legacy) files."""
+    """
+    Extracts selected text from TEI P4 (legacy) files and writes TXT files.
+    """
     inpath  = wdir + inpath
     outfolder = wdir + outfolder
     if not os.path.exists(outfolder):
@@ -152,7 +152,10 @@ def read_tei4(wdir, inpath, outfolder):
 
 
 def get_metadata(wdir, inpath, metadatafile, mode):
-    """Extract metadata from the CLiGs teiHeader and write it to CSV."""
+    """
+    Extracts metadata from the CLiGs teiHeader and writes it to CSV.
+    mode (string): "obl", "obl-opt" or "beta-opt-obl".  
+    """
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
     ## We can choose only the obligatory metadata, the optional or the beta. 

@@ -13,12 +13,18 @@ This allows using the scripts as a repo-based module. The basic idea is that you
 
 ## Module structure
 
-In order to use the module efficiently, you need to know which submodules are included, which functions are included in each submodule, and which arguments each function takes. The following is intended as a quick overview, please see the submodules themselves for details. 
+In order to use the module efficiently, you need to know which submodules are included and which functions are included in each submodule. The following is intended as a quick overview, please see the submodules themselves for details. 
 
 * extract.py
-    * read_tei5(teiFolder, txtFolder, xpath)
-    * read_tei4(teiFolder, txtFolder)
-    * get_metadata(teiFolder, metadataFile, mode)
+    * read_tei5
+    * read_tei4
+    * get_metadata
+
+To get more information about a submodule, especially what each function does and which parameters they take, just use the usual help command in Python, for example: 
+
+```
+help(extract)
+```
 
 
 ## Example
@@ -28,5 +34,5 @@ If you want to read text from a TEI P5 file, you could use the following import 
 ```
 from toolbox import extract
 
-extract.read_tei5([add arguments here])            
+extract.read_tei5("/folder/with/tei/files/", "/folder/for/text/files", "bodytext")            
 ```
