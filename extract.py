@@ -252,14 +252,73 @@ def get_metadata(wdir, inpath, metadatafile, mode):
     print("Done. Number of documents and metadata columns:", metadata.shape)
 
 
+def get_metadataP4(teiFolder, metadataFile, labels):
+    """
+    Extracts metadata from the TEI P4 teiHeader and writes it to CSV.
+    """
+    
+    ## Dictionary of all relevant xpaths with their labels
+    xpaths = {
+              "author-name": '//author//text()', 
+              "title-full": '//title//text()',
+              "year-ref":'//date//text()',
+              "year-doc":'//docDate/@value',
+              "subgenre": '//genre//text()',
+              "inspiration": '//inspiration//text()',
+              "structure": '//structure//text()',
+              "formal-type": '//type//text()',
+              }
+            
+#    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+    idnos = []
+    
+    ## Get list of file idnos and create empty dataframe
+    teiPath = teiFolder + "*.xml"
+    for file in glob.glob(teiPath):
+        idno_file, ext = os.path.basename(file).split(".")
+        idnos.append(idno_file)
+    metadata = pd.DataFrame(columns=labels, index=idnos)
+    metadata["tc-id"] = idnos
+    #print(metadata)
+
+    ## For each file, get the results of each xpath
+    for file in glob.glob(teiPath):
+        idno_file, ext = os.path.basename(file).split(".")
+        print(idno_file) 
+        parser = etree.XMLParser(encoding="utf-8")
+        xml = etree.parse(file, parser)
+        for label in labels:
+            xpath = xpaths[label]
+            result = xml.xpath(xpath)
+            #print(result)
+            ## Check whether something was found; if not, let the result be "n.av."
+            if len(result) != 0: 
+                result = result[0]
+            else: 
+                result = "n.av."
+            ## Write the result to the corresponding cell in the dataframe
+            metadata.loc[idno_file,label] = result
+                
+    ## Add decade column based on pub_year
+    #metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0s")
+    
+    ## Check result and write CSV file to disk.
+    print(metadata.head())
+    #metadata = metadata.sort("idno",ascending=True)  
+    metadata.to_csv(metadataFile, sep=",")
+    print("Done. Number of documents and metadata columns:", metadata.shape)
+
+
 def main(teiFolder, txtFolder, xpath, metadataFile, mode):
     read_tei5(teiFolder, txtFolder, xpath)
     read_tei4(teiFolder, txtFolder)
     get_metadata(txtFolder, metadataFile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
-
+    get_metadataP4(teiFolder, metadataFile) 
+    
 if __name__ == "__main__":
     import sys
     read_tei5(int(sys.argv[1]))
     read_tei4(int(sys.argv[1]))
     get_metadata(int(sys.argv[1]))
+    get_metadataP4(int(sys.argv[1]))
 

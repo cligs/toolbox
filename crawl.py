@@ -52,14 +52,14 @@ def crawl_tc(baseURL, itemsFile, encoding, outFolder):
 
 
 #########################################################################
-def convert_encoding(sourcePath, targetFolder, sourceEnc, targetEnc): 
+def convert_encoding(sourceFolder, targetFolder, sourceEnc, targetEnc): 
     """
     Convert files from one character encoding to another.
     """
-
     print("\nconvert_encoding...")
     if not os.path.exists(targetFolder):
         os.makedirs(targetFolder)
+    sourcePath = sourceFolder + "*.xml"
     for file in glob.glob(sourcePath): 
         ## Get the input and output file names.
         sourceFileName = file
