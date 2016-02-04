@@ -17,12 +17,7 @@ import os
 import glob
 
 
-inpath = "/home/ulrike/Dokumente/Git/toolbox/check/corpus/*.txt"
-outpath = "/home/ulrike/Dokumente/Git/toolbox/check/report.csv"
-
-
-
-def check_collection(inpath, outpath, lang):
+def check_collection(inpath, outpath, lang, nefile):
 	"""
 	Checks the orthography of the text in a collection. The expected input are plain text files.
 	
@@ -45,7 +40,7 @@ def check_collection(inpath, outpath, lang):
 
 	print("...checking...")
 	for file in glob.glob(inpath):
-		idno = os.path.basename(file)[:6]
+		idno = os.path.basename(file)[-10:-4]
 		all_idnos.append(idno)
 		
 		err_words = []
@@ -54,9 +49,13 @@ def check_collection(inpath, outpath, lang):
 			intext = fin.read().lower()
 			chk.set_text(intext)
 
+		with open(nefile, "r", encoding="UTF-8") as nef:
+			nes = nef.read().lower()
+
 		for err in chk:
-			err_words.append(err.word)
-		all_words.append(err_words)
+			if err.word not in nes: 
+				err_words.append(err.word)
+			all_words.append(err_words)
 
 		err_num = collections.Counter(err_words)
 		all_num.append(err_num)
@@ -64,15 +63,17 @@ def check_collection(inpath, outpath, lang):
 		print("..." + str(len(err_num)) + " different errors found in " + idno)
 		
 	df = pd.DataFrame(all_num,index=all_idnos).T
-	df= df.fillna(0)
+	df = df.fillna(0)
+	df["sum"] = df.sum(axis=1)
+	df = df.sort("sum", ascending=False)
 
 	df.to_csv(outpath)
 	print("done")
 
 
 
-def main(inpath, outpath, lang):
-    check_collection(inpath, outpath, lang)
+def main(inpath, outpath, lang, nefile):
+    check_collection(inpath, outpath, lang, nefile)
     
 if __name__ == "__main__":
     import sys
