@@ -11,13 +11,14 @@ See http://pythonhosted.org/pyenchant/ for more information about the spellcheck
 
 import enchant
 from enchant import checker
+from enchant.tokenize import get_tokenizer
 import collections
 import pandas as pd
 import os
 import glob
+import sys
 
-
-def check_collection(inpath, outpath, lang, nefile):
+def check_collection(inpath, outpath, lang, nefile=""):
 	"""
 	Checks the orthography of the text in a collection. The expected input are plain text files.
 	
@@ -25,14 +26,21 @@ def check_collection(inpath, outpath, lang, nefile):
 	inpath (string): path to the input files, including file name pattern
 	outpath (string): path to the output file, including the output file's name
 	lang (string): which dictionary to use, e.g. "es", "fr", "de"
+	nefile (string): optional; path to file with named entity list (which will not be treated as errors)
 	"""
 
 	try:
 		enchant.dict_exists(lang)
-	except:
-		print("The dictionary " + lang + "doesn't exist. Please choose another dictionary.")
+		try:
+			tknzr = get_tokenizer(lang)
+		except enchant.errors.TokenizerNotFoundError:	
+			tknzr = get_tokenizer()
+		chk = checker.SpellChecker(lang, tokenize=tknzr)
 		
-	chk = checker.SpellChecker(lang)
+	except enchant.errors.DictNotFoundError:
+		print("ERROR: The dictionary " + lang + "doesn't exist. Please choose another dictionary.")
+		sys.exit(0)
+
 	
 	all_words = []
 	all_num = []
@@ -49,11 +57,12 @@ def check_collection(inpath, outpath, lang, nefile):
 			intext = fin.read().lower()
 			chk.set_text(intext)
 
-		with open(nefile, "r", encoding="UTF-8") as nef:
-			nes = nef.read().lower()
+		if nefile:
+			with open(nefile, "r", encoding="UTF-8") as nef:
+				nes = nef.read().lower()
 
 		for err in chk:
-			if err.word not in nes: 
+			if not nefile or err.word not in nes: 
 				err_words.append(err.word)
 			all_words.append(err_words)
 
@@ -63,7 +72,10 @@ def check_collection(inpath, outpath, lang, nefile):
 		print("..." + str(len(err_num)) + " different errors found in " + idno)
 		
 	df = pd.DataFrame(all_num,index=all_idnos).T
+	
 	df = df.fillna(0)
+	df = df.astype(int)
+	
 	df["sum"] = df.sum(axis=1)
 	df = df.sort("sum", ascending=False)
 
