@@ -31,6 +31,9 @@ In order to use the module efficiently, you need to know which submodules are in
 * crawl.py
     * crawl_tc
     * convert_encoding
+* spellchecking.py
+    * check_collection
+    * correct_words
 
 To get more information about a submodule, especially what each function does and which parameters they take, just use the usual help command in Python, for example: 
 
