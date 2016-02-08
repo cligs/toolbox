@@ -89,22 +89,23 @@ def read_tei5(teiPath, txtFolder, xpath):
     print("Done. Files treated: " + str(counter))
 
 
-def read_tei4(wdir, inpath, outfolder):
+def read_tei4(teiFolder, txtFolder):
     """
     Extracts selected text from TEI P4 (legacy) files and writes TXT files.
     """
-    inpath  = wdir + inpath
-    outfolder = wdir + outfolder
-    if not os.path.exists(outfolder):
-        os.makedirs(outfolder)
-    for file in glob.glob(inpath):
+    print("\nread_tei4...")
+    teiPath  = teiFolder + "*.xml"
+    if not os.path.exists(txtFolder):
+        os.makedirs(txtFolder)
+    for file in glob.glob(teiPath):
         with open(file, "r") as infile:
             filename = os.path.basename(file)[:-4]
             idno = filename[:5]
             print(idno)
             ### The following options help with parsing errors; cf: http://lxml.de/parsing.html
-            parser = etree.XMLParser(recover=True)
-            xml = etree.parse(file, parser)
+#            parser = etree.XMLParser(recover=True)
+#            xml = etree.parse(file, parser)
+            xml = etree.parse(file)
 
             ### The TEI P4 files do not have a namespace.
             #namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
@@ -146,7 +147,7 @@ def read_tei4(wdir, inpath, outfolder):
             #text = re.sub("SCÈNE[^$]*?\n", "###\n", text)
 
             outtext = str(text)
-            outfile = outfolder + filename + ".txt"
+            outfile = txtFolder + filename + ".txt"
         with open(outfile,"w") as output:
             output.write(outtext)
 
@@ -259,6 +260,7 @@ def get_metadataP4(teiFolder, metadataFile, labels):
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
+              "idno-cligs": '//idno[@type="cligs"]//text()',
               "author-name": '//author//text()', 
               "title-full": '//title//text()',
               "year-ref":'//date//text()',
@@ -267,6 +269,7 @@ def get_metadataP4(teiFolder, metadataFile, labels):
               "inspiration": '//inspiration//text()',
               "structure": '//structure//text()',
               "formal-type": '//type//text()',
+              "idno-tc": '//idno[@type="tc"]//text()'
               }
             
 #    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
@@ -278,15 +281,15 @@ def get_metadataP4(teiFolder, metadataFile, labels):
         idno_file, ext = os.path.basename(file).split(".")
         idnos.append(idno_file)
     metadata = pd.DataFrame(columns=labels, index=idnos)
-    metadata["tc-id"] = idnos
     #print(metadata)
 
     ## For each file, get the results of each xpath
     for file in glob.glob(teiPath):
         idno_file, ext = os.path.basename(file).split(".")
-        print(idno_file) 
-        parser = etree.XMLParser(encoding="utf-8")
-        xml = etree.parse(file, parser)
+        #print(idno_file) 
+        #parser = etree.XMLParser(encoding="utf-8")
+        #xml = etree.parse(file, parser)
+        xml = etree.parse(file)
         for label in labels:
             xpath = xpaths[label]
             result = xml.xpath(xpath)
