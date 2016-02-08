@@ -45,7 +45,6 @@ def check_collection(inpath, outpath, lang, nefile=""):
 		print("ERROR: The dictionary " + lang + "doesn't exist. Please choose another dictionary.")
 		sys.exit(0)
 
-	
 	all_words = []
 	all_num = []
 	all_idnos = []
