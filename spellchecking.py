@@ -22,7 +22,7 @@ import csv
 
 
 ##########################################################################
-def check_collection(inpath, outpath, lang, nefile=[]):
+def check_collection(inpath, outpath, lang, wordFiles=[]):
     """
     Checks the orthography of the text in a collection. The expected input are plain text files.
     
@@ -60,15 +60,15 @@ def check_collection(inpath, outpath, lang, nefile=[]):
             intext = fin.read().lower()
             chk.set_text(intext)
 
-        if len(nefile) !=0:
-            allNes = ""
-            for file in nefile:
-                with open(file, "r", encoding="UTF-8") as nef:
-                     nes = nef.read().lower()
-                     allNes = allNes + nes
+        if len(wordFiles) !=0:
+            allCorrects = ""
+            for file in wordFiles:
+                with open(file, "r", encoding="UTF-8") as f:
+                     corrects = f.read().lower()
+                     allCorrects = allCorrects + corrects
 
         for err in chk:
-            if not nefile or err.word not in allNes: 
+            if not wordFiles or err.word not in allCorrects: 
                 err_words.append(err.word)
             all_words.append(err_words)
 
@@ -128,8 +128,8 @@ def correct_words(errFolder, corrFolder, substFile):
 
 
 ##########################################################################
-def main(inpath, outpath, lang, nefile, errFolder, corrFolder, substFile):
-    check_collection(inpath, outpath, lang, nefile)
+def main(inpath, outpath, lang, wordFiles, errFolder, corrFolder, substFile):
+    check_collection(inpath, outpath, lang, wordFiles)
     correct_words(errFolder, corrFolder, substFile)
     
 if __name__ == "__main__":
