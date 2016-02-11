@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-@author: Ulrike Henny
-@filename: qualitychecking.py
+@author: Ulrike Henny, Christof Schöch
+@filename: spellchecking.py
 
 Submodule for checking the orthography of a text collection. The expected input are plain text files.
 
@@ -30,7 +30,7 @@ def check_collection(inpath, outpath, lang, wordFiles=[]):
     inpath (string): path to the input files, including file name pattern
     outpath (string): path to the output file, including the output file's name
     lang (string): which dictionary to use, e.g. "es", "fr", "de"
-    nefile (string): optional; path to file with named entity list (which will not be treated as errors)
+    wordFiles (list): optional; list of strings; paths to files with lists of words which will not be treated as errors (e.g. named entities)
     """
 
     try:
