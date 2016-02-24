@@ -3,6 +3,7 @@
 
 """
 Submodule with functions for reading selected text and metadata from TEI files.
+To use the function of this file you have to import extract as library
 """
 
 
@@ -155,7 +156,11 @@ def read_tei4(teiFolder, txtFolder):
 def get_metadata(wdir, inpath, metadatafile, mode):
     """
     Extracts metadata from the CLiGs teiHeader and writes it to CSV.
-    mode (string): "obl", "obl-opt" or "beta-opt-obl".  
+    mode (string): "obl", "obl-opt" or "beta-opt-obl".
+    Example of how to use this function:
+        import extract        
+        get_metadata("/home/jose/CLiGS/ne/","master/*.xml","metadata","beta-opt-obl")
+
     """
 
     ## USER: Set list of metadata items to extract (see xpaths for list)
