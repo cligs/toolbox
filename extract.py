@@ -19,6 +19,7 @@ def read_tei5(teiPath, txtFolder, xpath):
     """
     Extracts selected text from TEI P5 files and writes TXT files.
     xpath (string): "alltext", "bodytext, "seg" or "said".
+    For example: read_tei5("/home/jose/CLiGS/ne/master/*.xml","/home/jose/CLiGS/ne/txt","bodytext")
     """
     if not os.path.exists(txtFolder):
         os.makedirs(txtFolder)
