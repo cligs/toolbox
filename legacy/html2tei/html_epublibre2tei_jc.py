@@ -85,6 +85,8 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="poe">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="versos?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="estrofas?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="verso\d*">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+
     text = re.sub(r'<p class="verso">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="normal1">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="cursiva">(.*?)</p>', r'<p><seg rend="italics">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -96,7 +98,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<span class="cursiva[0-9]*">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<sub(|[^>]*)>(.*?)</sub>', r'<seg rend="subscript">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<small(|[^>]*)>(.*?)</small>', r'<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<span class="nosep">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="nosep\d*">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<strong(|[^>]*)>(.*?)</strong>', r'<seg rend="bold">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -109,10 +111,6 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="salto25x\d+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
          
     text = re.sub(r'</head>\s*<p class="subtil">(.*?)</p>', r': \1</head>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
    
     text = re.sub(r'<div class="bloquederecha1">(.+?)</div>', r'<quote>\1</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="cursiva[0-9]*">', r'<div rend="italic">', text, flags=re.DOTALL|re.IGNORECASE)
@@ -130,9 +128,11 @@ def replacingBasicElementsFromEpubLibre(text):
     """
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tsub|sub)?tit(ulo)?[0-9]*">(.*?)</p>', r'<head>\3</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(subcapitulo|capitulonombre)">(.*?)</p>', r'<head>\2</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="tit-cap">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<p>—?)<span class="inicial">(.*?)</span>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</head>\s*<head>', r': ', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*\* *\* *\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
@@ -173,7 +173,10 @@ def replacingBasicElementsFromEpubLibre(text):
 
         
     text = re.sub(r'<br class="calibre[0-9]*" />', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    
+
+    text = re.sub(r'(<p>—?. ?)<span class="palabra">(.*?)</span>', r'\1<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
+
+    """
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Á([^<]*?</seg>)', r'\1á\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)É([^<]*?</seg>)', r'\1é\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Í([^<]*?</seg>)', r'\1í\3', text, flags=re.DOTALL|re.IGNORECASE)
@@ -181,18 +184,22 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ú([^<]*?</seg>)', r'\1ú\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ñ([^<]*?</seg>)', r'\1ñ\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ü([^<]*?</seg>)', r'\1ü\3', text, flags=re.DOTALL|re.IGNORECASE)
-
-    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*?)</seg>', text):
-        text = text.replace(f, f.lower())
-
-    text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
     
+    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*)</seg>', text):
+        text = text.replace(f, f.lower())
+    """
+    
+    text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
+   
     text = re.sub(r'<div[^>]*?>\s*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
         
     text = re.sub(r'<div class="tablacentro\d*">\s*<table class="text\d*">\s*<tr class="calibre\d*">\s*<td class="calibre\d*">(.*?)\s*</td>\s*</tr>\s*</table>\s*</div>', r'<lg>\1\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-     
+    text = re.sub(r'<p class="traduccion">(.*?)</p>', r'<ab type="translation">\1</ab>', text, flags=re.IGNORECASE)
+    
+    #text = re.sub(r'<blockquote class="calibre18">(.*?)</blockquote>', r'<floatingText>\n<body>\n\1\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+
+    
     return text
     
 def lInLg(text):
