@@ -47,6 +47,10 @@ def get_names(wdir, txtFolder):
             for index, row in df.iterrows():
                 # For each, we fill the frecuency with the the amount (len) of a times that the name appears in the text with something 
                 df.at[index,"frequency"] = len(re.findall(r'[^a-zá-úçñüA-ZÁ-ÚÜÑ\-]'+ re.escape(row["name"]) + r'[^a-zá-úçñüA-ZÁ-ÚÜÑ\-]', content))
-            df=df.sort(["frequency"], ascending=True)
+
+            # The df is sorted after the frequency
+            df=df.sort(["frequency"], ascending=False)
             print(df)
-            return df
+            # The data is printed as a file
+            df.to_csv(wdir+txtFolder+'_ProperNames.csv')
+        return df
