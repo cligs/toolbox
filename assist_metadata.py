@@ -52,5 +52,5 @@ def get_names(wdir, txtFolder):
             df=df.sort(["frequency"], ascending=False)
             print(df)
             # The data is printed as a file
-            df.to_csv(wdir+txtFolder+'_ProperNames.csv')
+            df.to_csv(wdir+txtFolder+'_ProperNames.csv', sep='\t', encoding='utf-8')
         return df
