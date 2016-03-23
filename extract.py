@@ -169,8 +169,8 @@ def get_metadata(wdir, inpath, metadatafile, mode):
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
      
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
-    labels_opt = ["genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subgenre","subsubgenre",]
-    labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession"]
+    labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre",]
+    labels_beta = [ "author-country", "author-continent",  "group-text", "protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -207,7 +207,10 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "time-span": '//tei:term[@type="time-span"]//text()',
               "group-text": '//tei:term[@type="group-text"]//text()',
               "author-text-relation": '//tei:term[@type="author-text-relation"]//text()',
-              "protagonist-profession": '//tei:term[@type="protagonist-profession"]//text()'
+              "protagonist-profession": '//tei:term[@type="protagonist-profession"]//text()',
+              "type-end": '//tei:term[@type="type-end"]//text()',
+              "time-year": '//tei:term[@type="time-year"]//text()',
+              "subgenre-edit": '//tei:term[@type="subgenre-edit"][1]//text()',
               }
 
     # Mode is selected: obligatory, optional or beta
