@@ -68,6 +68,8 @@ def convert_encoding(sourceFolder, targetFolder, sourceEnc, targetEnc):
         #print(targetFileName)
         ## Read the original file and write it in the target encoding.
         #BLOCKSIZE = 1048576 # or some other, desired size in bytes
+#        with open(sourceFileName, "w", errors="replace") as f:
+#            file.write(sourceFileName)
         with codecs.open(sourceFileName, "r", sourceEnc) as sourceFile:
             with codecs.open(targetFileName, "w", targetEnc) as targetFile:
                 while True:

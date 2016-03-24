@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
-@author: Ulrike Henny
-@filename: qualitychecking.py
+@author: Ulrike Henny, Christof Schöch
+@filename: spellchecking.py
 
 Submodule for checking the orthography of a text collection. The expected input are plain text files.
 
@@ -22,69 +22,71 @@ import csv
 
 
 ##########################################################################
-def check_collection(inpath, outpath, lang, nefile=""):
-	"""
-	Checks the orthography of the text in a collection. The expected input are plain text files.
-	
-	Arguments:
-	inpath (string): path to the input files, including file name pattern
-	outpath (string): path to the output file, including the output file's name
-	lang (string): which dictionary to use, e.g. "es", "fr", "de"
-	nefile (string): optional; path to file with named entity list (which will not be treated as errors)
-	"""
+def check_collection(inpath, outpath, lang, wordFiles=[]):
+    """
+    Checks the orthography of the text in a collection. The expected input are plain text files.
+    
+    Arguments:
+    inpath (string): path to the input files, including file name pattern
+    outpath (string): path to the output file, including the output file's name
+    lang (string): which dictionary to use, e.g. "es", "fr", "de"
+    wordFiles (list): optional; list of strings; paths to files with lists of words which will not be treated as errors (e.g. named entities)
+    """
 
-	try:
-		enchant.dict_exists(lang)
-		try:
-			tknzr = get_tokenizer(lang)
-		except enchant.errors.TokenizerNotFoundError:	
-			tknzr = get_tokenizer()
-		chk = checker.SpellChecker(lang, tokenize=tknzr)
-		
-	except enchant.errors.DictNotFoundError:
-		print("ERROR: The dictionary " + lang + "doesn't exist. Please choose another dictionary.")
-		sys.exit(0)
+    try:
+        enchant.dict_exists(lang)
+        try:
+            tknzr = get_tokenizer(lang)
+        except enchant.errors.TokenizerNotFoundError:    
+            tknzr = get_tokenizer()
+        chk = checker.SpellChecker(lang, tokenize=tknzr)
+        
+    except enchant.errors.DictNotFoundError:
+        print("ERROR: The dictionary " + lang + "doesn't exist. Please choose another dictionary.")
+        sys.exit(0)
 
-	
-	all_words = []
-	all_num = []
-	all_idnos = []
+    all_words = []
+    all_num = []
+    all_idnos = []
 
-	print("...checking...")
-	for file in glob.glob(inpath):
-		idno = os.path.basename(file)[-10:-4]
-		all_idnos.append(idno)
-		
-		err_words = []
+    print("...checking...")
+    for file in glob.glob(inpath):
+        idno = os.path.basename(file)[-10:-4]
+        all_idnos.append(idno)
+        
+        err_words = []
 
-		with open(file, "r", encoding="UTF-8") as fin:
-			intext = fin.read().lower()
-			chk.set_text(intext)
+        with open(file, "r", encoding="UTF-8") as fin:
+            intext = fin.read().lower()
+            chk.set_text(intext)
 
-		if nefile:
-			with open(nefile, "r", encoding="UTF-8") as nef:
-				nes = nef.read().lower()
+        if len(wordFiles) !=0:
+            allCorrects = ""
+            for file in wordFiles:
+                with open(file, "r", encoding="UTF-8") as f:
+                     corrects = f.read().lower()
+                     allCorrects = allCorrects + corrects
 
-		for err in chk:
-			if not nefile or err.word not in nes: 
-				err_words.append(err.word)
-			all_words.append(err_words)
+        for err in chk:
+            if not wordFiles or err.word not in allCorrects: 
+                err_words.append(err.word)
+            all_words.append(err_words)
 
-		err_num = collections.Counter(err_words)
-		all_num.append(err_num)
-		
-		print("..." + str(len(err_num)) + " different errors found in " + idno)
-		
-	df = pd.DataFrame(all_num,index=all_idnos).T
-	
-	df = df.fillna(0)
-	df = df.astype(int)
-	
-	df["sum"] = df.sum(axis=1)
-	df = df.sort("sum", ascending=False)
+        err_num = collections.Counter(err_words)
+        all_num.append(err_num)
+        
+        print("..." + str(len(err_num)) + " different errors found in " + idno)
+        
+    df = pd.DataFrame(all_num,index=all_idnos).T
+    
+    df = df.fillna(0)
+    df = df.astype(int)
+    
+    df["sum"] = df.sum(axis=1)
+    df = df.sort("sum", ascending=False)
 
-	df.to_csv(outpath)
-	print("done")
+    df.to_csv(outpath)
+    print("done")
 
 
 ########################################################################
@@ -126,8 +128,8 @@ def correct_words(errFolder, corrFolder, substFile):
 
 
 ##########################################################################
-def main(inpath, outpath, lang, nefile, errFolder, corrFolder, substFile):
-    check_collection(inpath, outpath, lang, nefile)
+def main(inpath, outpath, lang, wordFiles, errFolder, corrFolder, substFile):
+    check_collection(inpath, outpath, lang, wordFiles)
     correct_words(errFolder, corrFolder, substFile)
     
 if __name__ == "__main__":

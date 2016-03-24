@@ -23,6 +23,9 @@ def cleaningHTML(text):
     
     # Geschützte Leerzeichen löschen
     text = re.sub('\u00A0', " ", text)
+    text = re.sub(r'&', r'&amp;', text)
+    text = re.sub(r'<a .*?>', r'', text)
+    text = re.sub(r'</a>', r'', text)
     return text
 
 def cleaningIndent(text):
@@ -45,7 +48,7 @@ def cleaningIndent(text):
 
     
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne01</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract>\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" cert="low" resp="#jct"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-01-07" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne02</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract source="#">\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv" cert="low">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" subtype="2"></term>\r\n					<term type="subgenre" subtype="1"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n					<term type="protagonist-age"></term>\r\n					<term type="type-end"></term>\r\n					<term type="time-year">18??</term>\r\n					<term type="subgenre-edit" resp="#"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-03-16" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'\Z', r'\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
@@ -61,6 +64,7 @@ def replacingBasicElementsFromEpubLibre(text):
     
     text = re.sub(r'<p class="cursiva\d*">(.*?)</p>', r'<p><seg rend="italic">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="calibre[0-9]+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="saltoinicio\d*">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="salto[0-9]+">', r'<milestone />\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="saltoc">', r'<milestone />\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="sinopsis">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -76,29 +80,37 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<img[^>]*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(bloque|ala)?derecha[0-9]*">(.*?)</p>', r'<ab>\2</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="asangre[0-9]?">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="centrado1">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="extenso">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<span class="(normal|calibre)[0-9]*">(.*?)</span>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
+    #text = re.sub(r'<p class="centrado1">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
+    #text = re.sub(r'<p class="extenso">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="(normal|calibre)[0-9]*">(.*?)</span>', r'<seg rend="italic">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p><span class="(cap[0-9]*|versalita|smallcaps)">(..?)</span>', r'<p>\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="(versalita|smallcaps)[0-9]*">(.*?)</span>', r'<seg rend="smallcaps">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<div class="poema[0-9]*">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="poe">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="versos?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="estrofas?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="verso\d*">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="versosinpie\d*">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    
+
     text = re.sub(r'<p class="verso">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="normal1">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="cursiva">(.*?)</p>', r'<p><seg rend="italics">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<em(|[^>]*)>(.*?)</em>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p class="cursiva">(.*?)</p>', r'<p><seg rend="italic">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<em(|[^>]*)>(.*?)</em>', r'<seg rend="italic">\2</seg>', text, flags=re.IGNORECASE)
 
     text = re.sub(r'<p class="estrofa1">', r'\n\n<p>', text, flags=re.DOTALL|re.IGNORECASE)
      
-    text = re.sub(r'<i(|[^>]*)>(.*?)</i>', r'<seg rend="italics">\2</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<span class="cursiva[0-9]*">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<i(|[^>]*)>(.*?)</i>', r'<seg rend="italic">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<b(|[^>]*)>(.*?)</b>', r'<seg rend="bold">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<sup(|[^>]*)>(.*?)</sup>', r'<seg rend="sup">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="cursiva[0-9]*">(.*?)</span>', r'<seg rend="italic">\1</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<sub(|[^>]*)>(.*?)</sub>', r'<seg rend="subscript">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<small(|[^>]*)>(.*?)</small>', r'<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<span class="nosep">(.*?)</span>', r'<seg rend="italics">\1</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="nosep\d*">(.*?)</span>', r'<seg rend="italic">\1</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<strong(|[^>]*)>(.*?)</strong>', r'<seg rend="bold">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="acotacion\d*">(.*?)</div>', r'<quote>\n\1\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     
     # Setting quotes in floatingText element
     text = re.sub(r'<div class="(mi)?cita">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\2\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
@@ -108,31 +120,52 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="salto25x\d+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
          
     text = re.sub(r'</head>\s*<p class="subtil">(.*?)</p>', r': \1</head>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
    
     text = re.sub(r'<div class="bloquederecha1">(.+?)</div>', r'<quote>\1</quote>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<div class="cursiva[0-9]*">', r'<div><!--italics-->', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="cursiva[0-9]*">', r'<div rend="italic">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="calibre" id="calibre_link-[0-9]+">', r'<div>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="centrado">[… ]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="asteriscos">[\* ]*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="centrado">\[…\]</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="asteriscos1">[\. ]+</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<hr (class="calibre12" )?/>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="banner">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="banner\d*">(.*?)</blockquote>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="carta\d*">(.*?)</blockquote>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+    #text = re.sub(r'<blockquote class="cita">(.*?)</blockquote>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<blockquote class="calibre\d*">(.*?)</blockquote>', r'<floatingText>\n<body>\n<div>\n\1\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+
     text = re.sub(r'<html.*?<body>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</body></html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</p>)\s*(<head>.*?</head>)', r'\1</div>\n<div>\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+    """ #Used for 219    
+    text = re.sub(r'<p class="sub">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    """
     text = re.sub(r'<h[1-6][^>]*>(.*?)</h[1-6]>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="(tsub|sub)?tit(ulo)?[0-9]*">(.*?)</p>', r'<head>\3</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(subcapitulo|capitulonombre)">(.*?)</p>', r'<head>\2</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="tit-cap">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="epigrafe">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="ncap">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="palabra">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="sigla\d*">(.*?)</span>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<p>—?)<span class="inicial">(.*?)</span>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<p>—?¿?)<big class="calibre\d*">(.*?)</big>', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>\s*</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</head>\s*<head>', r': ', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p [^>]*?>\s*\* *\* *\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="sep">\* \* \*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    
+
+
+
+    """
+    #Setting divs after ps. Used for 219
+    text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
+    """    
+
     # Cleaning some <milestone />
     text = re.sub(r'(<div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
@@ -159,7 +192,14 @@ def replacingBasicElementsFromEpubLibre(text):
 
         
     text = re.sub(r'<br class="calibre[0-9]*" />', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    
+
+    text = re.sub(r'(<p>—?. ?)<span class="palabra">(.*?)</span>', r'\1<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p class="saltoinicio"><span class="inicial">(.*)</span><span class="palabra">(.*?)</span>', r'<p>\1\2', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p class="saltoinicio"><span class="inicial">(.*)</span>', r'<p>\1', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p>(.)<span>(.*)</span>', r'<p>\1\2', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="inicial">(.*)</span>', r'\1', text, flags=re.IGNORECASE)
+
+    """
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Á([^<]*?</seg>)', r'\1á\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)É([^<]*?</seg>)', r'\1é\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Í([^<]*?</seg>)', r'\1í\3', text, flags=re.DOTALL|re.IGNORECASE)
@@ -167,18 +207,49 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ú([^<]*?</seg>)', r'\1ú\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ñ([^<]*?</seg>)', r'\1ñ\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ü([^<]*?</seg>)', r'\1ü\3', text, flags=re.DOTALL|re.IGNORECASE)
-
-    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*?)</seg>', text):
-        text = text.replace(f, f.lower())
-
-    text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
     
+    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*)</seg>', text):
+        text = text.replace(f, f.lower())
+    """
+    
+    text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
+   
     text = re.sub(r'<div[^>]*?>\s*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
         
     text = re.sub(r'<div class="tablacentro\d*">\s*<table class="text\d*">\s*<tr class="calibre\d*">\s*<td class="calibre\d*">(.*?)\s*</td>\s*</tr>\s*</table>\s*</div>', r'<lg>\1\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
-     
+    text = re.sub(r'<p class="traduccion">(.*?)</p>', r'<ab type="translation">\1</ab>', text, flags=re.IGNORECASE)
+
+    #text = re.sub(r'<p class="centrado">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="centrado\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    #text = re.sub(r'<blockquote class="calibre18">(.*?)</blockquote>', r'<floatingText>\n<body>\n\1\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
+
+    """
+    #The next lines were used for 232, a theater-like novel
+    
+    text = re.sub(r'<p>(.*?</seg>)(\.\—.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    """
+    """
+    #The next lines were used for 109, a theater-like novel
+    text = re.sub(r'<p>(.*?</seg>\.)(.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p>(.*?</seg>)( +<seg rend="italic">.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<seg rend="italic">(\(.*?)</seg>', r'<stage>\1</stage>', text, flags=re.IGNORECASE)
+    """
+    """
+    #The next lines were used for 224, a theater-like novel
+    text = re.sub(r'<p>(.<seg rend="small">.*?</seg>\.)(.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    #text = re.sub(r'<p>(.*?</seg>)( +<seg rend="italic">.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<seg rend="italic">(\(.*?)</seg>', r'<stage>\1</stage>', text, flags=re.IGNORECASE)
+    """
+    """
+    # Code used for paradox rey
+    text = re.sub(r'<div class="clear">\s*</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="banner\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="francesa\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    """
+
+
     return text
     
 def lInLg(text):
