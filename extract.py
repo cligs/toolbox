@@ -119,17 +119,19 @@ def read_tei4(wdir, inpath, outfolder):
             etree.strip_elements(xml, "head", with_tail=False)
 
             ### XPath defining which text to select
-            xp_bodyprose = "//tei:body//tei:p//text()"
-            xp_bodyverse = "//tei:body//tei:l//text()"
+            xp_bodyprose = "//body//p//text()"
+            xp_bodyverse = "//body//l//text()"
             xp_bodytext = "//body//text()"
             xp_alltext = "//text()"
-            xp_castlist = "//tei:castList//text()"
-            xp_stage = "//tei:stage//text()"
-            xp_hi = "//tei:body//tei:hi//text()"
-            xp_speakers = "//tei:body//tei:speaker//text()"
+            xp_allLines = "//l//text()"
+            xp_teiHeader = "//teiHeader//text()"
+            xp_castlist = "//castList//text()"
+            xp_stage = "//stage//text()"
+            xp_hi = "//body//hi//text()"
+            xp_speakers = "//body//speaker//text()"
 
             ### Applying one of the above XPaths
-            text = xml.xpath(xp_bodytext)
+            text = xml.xpath(xp_alltext)
             text = "\n".join(text)
 
             ### Some cleaning up
