@@ -297,7 +297,7 @@ def get_metadataP4(teiFolder, metadataFile, labels):
     ## For each file, get the results of each xpath
     for file in glob.glob(teiPath):
         idno_file, ext = os.path.basename(file).split(".")
-        #print(idno_file) 
+        print(idno_file) 
         #parser = etree.XMLParser(encoding="utf-8")
         #xml = etree.parse(file, parser)
         xml = etree.parse(file)
