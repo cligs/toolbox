@@ -194,4 +194,4 @@ def batch(file):
         write2file(errors, "errors.txt")
 #batch('cv.txt')
 
-meta2booktext("http://www.cervantesvirtual.com/obra/prosa-escogida--0/")
+meta2booktext("http://www.cervantesvirtual.com/obra/obras--0/")
