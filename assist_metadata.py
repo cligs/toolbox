@@ -147,7 +147,7 @@ def get_places(wdir, txtFolder):
                 countPlaces = Counter(places)
 
                 dfCountPlaces = pd.DataFrame.from_dict(countPlaces, orient='index').reset_index()
-                dfCountPlaces = dfCountPlaces.rename(columns={'index':'Year', 0:'freq'})
+                dfCountPlaces = dfCountPlaces.rename(columns={'index':'Places', 0:'freq'})
                 dfCountPlaces = dfCountPlaces.sort(["freq"], ascending=True)        
                 print(dfCountPlaces)
         
