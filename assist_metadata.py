@@ -54,7 +54,7 @@ def get_names(wdir, txtFolder):
             # Now, for every row, we take the indexes and the other columns with the real values (names and frequency)            
             for index, row in df.iterrows():
                 # For each, we fill the frecuency with the the amount (len) of a times that the name appears in the text with something 
-                df.at[index,"freq"] = len(re.findall(r'[^a-zá-úçñüA-ZÁ-ÚÜÑ\-]'+ re.escape(row["name"]) + r'[^a-zá-úçñüA-ZÁ-ÚÜÑ\-]', content))
+                df.at[index,"freq"] = len(re.findall(r'[^a-zá-úçñüA-ZÁ-ÚÜÑ]'+ re.escape(row["name"]) + r'[^a-zá-úçñüA-ZÁ-ÚÜÑ]', content))
 
             df=df.sort(["freq"], ascending=True)
             # The df is sorted after the frequency
@@ -92,13 +92,13 @@ def get_full_names(wdir, txtFolder):
             fullNames = []
 
 
-            if re.search(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: del | del | de la | )[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content) is None:
+            if re.search(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content) is None:
                 print("no fullNames found (weird!!!) \n:(\n\n\n")
             else:
                 print("\nyey! We found some fullNames :)\n")
 
                 # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
-                fullNames = re.findall(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: del | del | de la | )[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content)
+                fullNames = re.findall(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content)
                 countfullNames = Counter(fullNames)
 
                 dfCountFullNames = pd.DataFrame.from_dict(countfullNames, orient='index').reset_index()
@@ -143,7 +143,7 @@ def get_places(wdir, txtFolder):
                 print("\nyey! We found some years :)\n")
 
                 # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
-                places = re.findall(r'(?:en|En) ([A-ZÁ-ÚÜÑ][a-zá-úñüç]+)', content)
+                places = re.findall(r'(?:en|En) ([A-ZÁ-ÚÜÑ][a-zá-úñüç\-]+)', content)
                 countPlaces = Counter(places)
 
                 dfCountPlaces = pd.DataFrame.from_dict(countPlaces, orient='index').reset_index()
