@@ -49,7 +49,7 @@ def cleaningIndent(text):
     
 def settingTeiHeader(text):
     text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne02</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract source="#">\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv" cert="low">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" subtype="2"></term>\r\n					<term type="subgenre" subtype="1"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n					<term type="protagonist-age"></term>\r\n					<term type="type-end"></term>\r\n					<term type="time-year">18??</term>\r\n					<term type="subgenre-edit" resp="#"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-03-16" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'\Z', r'\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\Z', r'\r\n</div>\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -61,6 +61,8 @@ def replacingBasicElementsFromEpubLibre(text):
     
     
     # Replace some elements with atributes with other cleaner elements
+
+    text = re.sub(r'<p class="ind">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     
     text = re.sub(r'<p class="cursiva\d*">(.*?)</p>', r'<p><seg rend="italic">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="calibre[0-9]+">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -89,6 +91,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="poe">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="versos?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="estrofas?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="citar\d?">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<blockquote class="verso\d*">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<blockquote class="versosinpie\d*">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     
@@ -111,6 +114,8 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="acotacion\d*">(.*?)</div>', r'<quote>\n\1\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<cite.*?>(.*?)</cite>', r'<seg type="cite">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     
     # Setting quotes in floatingText element
     text = re.sub(r'<div class="(mi)?cita">(.*?)</div>', r'<floatingText>\n<body>\n<div>\n\2\n</div>\n</body>\n</floatingText>\n', text, flags=re.DOTALL|re.IGNORECASE)
@@ -164,7 +169,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</p>|</div>)(\s*<head>.*?</head>.*?)(<head>|</div>|<div>)', r'\1\n<div>\2</div>\n\3', text, flags=re.DOTALL|re.IGNORECASE)
-    """    
+    """
 
     # Cleaning some <milestone />
     text = re.sub(r'(<div>\s*)<milestone />', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
@@ -248,7 +253,19 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="banner\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="francesa\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     """
+    return text
 
+
+def setDivs(text):
+    """
+    Setting the <div>s searching for the <ead>
+    """
+
+    # It deletes the <h1> and its next <p>
+    text = re.sub(r'(\A.*?)(<head)', r'\1<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+    
+    # That closes the <div> of an <h2> and opens another one
+    text = re.sub(r'(</p>|</ab>|</lg>|<milestone />|</floatingText>)\s*?(<head>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
     
@@ -278,6 +295,8 @@ def main():
         #It replaces some HTML elements with TEI elements    
         content=replacingBasicElementsFromEpubLibre(content)
         
+        content=setDivs(content)
+
         
         #We introduce the teiHeader
         content=settingTeiHeader(content)
