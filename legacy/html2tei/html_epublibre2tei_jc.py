@@ -253,6 +253,16 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p class="banner\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="francesa\d*">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     """
+    """
+    text = re.sub(r'<p class="personaje">(.*?)</p>\s*<p>(.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="descrip">(.*?)</span>', r'<stage>\1</stage>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(?:descrip\d*|entrada|fin)">(.*?)</p>', r'<stage>\1</stage>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="cuadro">(.*?)</p>', r'<head>\1</head>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="descrip1">(.*?)</div>', r'<stage>\1</stage>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="puntos">.*?</div>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="tablacentro">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    """
+    
     return text
 
 
@@ -265,7 +275,7 @@ def setDivs(text):
     text = re.sub(r'(\A.*?)(<head)', r'\1<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
     
     # That closes the <div> of an <h2> and opens another one
-    text = re.sub(r'(</p>|</ab>|</lg>|<milestone />|</floatingText>)\s*?(<head>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</p>|</ab>|</lg>|<milestone />|</floatingText>|</sp>|</stage>)\s*?(<head>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
     
