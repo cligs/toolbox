@@ -138,9 +138,9 @@ def get_places(wdir, txtFolder):
 
 
             if re.search(r'(?:en|En) ([A-ZÁ-ÚÜÑ][a-zá-úñüç]+)', content) is None:
-                print("no place found :(\n\n\n")
+                print("no place  :(\n\n\n")
             else:
-                print("\nyey! We found some years :)\n")
+                print("\nyey! We found some places :)\n")
 
                 # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
                 places = re.findall(r'(?:en|En) ([A-ZÁ-ÚÜÑ][a-zá-úñüç\-]+)', content)
