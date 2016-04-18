@@ -257,6 +257,82 @@ def get_time(wdir, txtFolder):
         fin.close()
 
         
+def get_narrator(wdir, txtFolder):
+    """
+    This function gets some information about the narrator
+    
+    Example of how to use it at the console:
+    df = get_narrator("/home/jose/cligs/ne/master/", "ne0249")
+    
+    """
+    # The file is opened
+    for doc in glob.glob(wdir+txtFolder+"*"):
+        
+        with open(doc, "r", errors="replace", encoding="utf-8") as fin:
+            
+            # We take only the text            
+            content = parse_text(doc)
+            
+            narrators = []
+
+            # We search if there are numbers with four digits in the text at all
+            if re.search(r'(?:-|–|—)(dij(?:o|e))\W', content) is None:
+                print("no dijo or dije found :(\n\n\n")
+            else:
+                print("\nyey! We found some dijo or dije! :)\n")
+
+
+                # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
+                narrators = re.findall(r'(?:-|–|—)(dij(?:o|e))\W', content)
+                countNarrators = Counter(narrators)
+
+                dfCountNarrators = pd.DataFrame.from_dict(countNarrators, orient='index').reset_index()
+                dfCountNarrators = dfCountNarrators.rename(columns={'index':'Narrator', 0:'freq'})
+                dfCountNarrators = dfCountNarrators.sort(["freq"], ascending=True)        
+
+                print(dfCountNarrators)                
+                return dfCountNarrators
+                
+        fin.close()
+
+def get_gender(wdir, txtFolder):
+    """
+    This function gets some information about the narrator
+    
+    Example of how to use it at the console:
+    df = get_gender("/home/jose/cligs/ne/master/", "ne0249")
+    
+    """
+    # The file is opened
+    for doc in glob.glob(wdir+txtFolder+"*"):
+        
+        with open(doc, "r", errors="replace", encoding="utf-8") as fin:
+            
+            # We take only the text            
+            content = parse_text(doc)
+            
+            genders = []
+
+            # We search if there are numbers with four digits in the text at all
+            if re.search(r'\W(él|ella)\W', content) is None:
+                print("no gender found :(\n\n\n")
+            else:
+                print("\nyey! We found some gender! :)\n")
+
+
+                # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
+                genders = re.findall(r'\W(él|ella)\W', content)
+                countGenders = Counter(genders)
+
+                dfCountGenders = pd.DataFrame.from_dict(countGenders, orient='index').reset_index()
+                dfCountGenders = dfCountGenders.rename(columns={'index':'Narrator', 0:'freq'})
+                dfCountGenders = dfCountGenders.sort(["freq"], ascending=True)        
+
+                print(dfCountGenders)                
+                return dfCountGenders
+                
+        fin.close()
+
 
 def get_all(wdir, txtFolder):
     """
@@ -269,3 +345,5 @@ def get_all(wdir, txtFolder):
 
     get_time(wdir, txtFolder)
     get_places(wdir, txtFolder)
+    get_gender(wdir, txtFolder)
+    get_narrator(wdir, txtFolder)
