@@ -111,6 +111,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<sub(|[^>]*)>(.*?)</sub>', r'<seg rend="subscript">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<small(|[^>]*)>(.*?)</small>', r'<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<span class="nosep\d*">(.*?)</span>', r'<seg rend="italic">\1</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<span class="nosep\d*">(.*?)</span>', r'<seg rend="italic">\1</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<strong(|[^>]*)>(.*?)</strong>', r'<seg rend="bold">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p class="cita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="micita">(.*?)</p>', r'<quote>\n<p>\1</p>\n</quote>', text, flags=re.DOTALL|re.IGNORECASE)

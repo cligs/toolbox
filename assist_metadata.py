@@ -15,6 +15,17 @@ To use all of them just use:
 df = get_all("/home/jose/cligs/ne/master/", "ne0030")
 """
 
+
+def parse_text(doc):
+    # We delimit that we only want to find information in the text() of XML-TEI
+    xml = etree.parse(doc)
+    namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
+    xp_bodytext = "//tei:body//text()"
+    content = xml.xpath(xp_bodytext, namespaces=namespaces)
+    # etree gives us a string where each line a string; but we only want a string:          
+    content = ' '.join(content)
+    return content
+
 def get_names(wdir, txtFolder):
     """
     This function gives you a dataframe with the proper names (searched with a regexp) found in a file.
@@ -38,6 +49,8 @@ def get_names(wdir, txtFolder):
             names=[]
             # We search for any word that starts with capital letter and that before didn't have anything that looks like an starting of a sentence
             names = re.findall(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+)', content)
+            for name in names:
+                    name = name.strip()
             #print(names)
 
             # We delete the duplicated items in the list            
@@ -61,6 +74,7 @@ def get_names(wdir, txtFolder):
             print(df)
             # The data is printed as a file
             #df.to_csv(wdir+txtFolder+'_ProperNames.csv', sep='\t', encoding='utf-8')
+        fin.close()        
         return df
 
 def get_full_names(wdir, txtFolder):
@@ -79,34 +93,70 @@ def get_full_names(wdir, txtFolder):
         with open(doc, "r", errors="replace", encoding="utf-8") as fin:
             content = fin.read()
 
-            # We delimit that we only want to find information in the text() of XML-TEI
-            content = fin.read()
-            xml = etree.parse(doc)
-            namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-            xp_bodytext = "//tei:body//text()"
-            content = xml.xpath(xp_bodytext, namespaces=namespaces)
-            # etree gives us a string where each line a string; but we only want a string:          
-            content = ' '.join(content)
+            # We take only the text            
+            content = parse_text(doc)
             
             #We create a list for the places
             fullNames = []
 
 
-            if re.search(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content) is None:
+            if re.search(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | el | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content) is None:
                 print("no fullNames found (weird!!!) \n:(\n\n\n")
             else:
                 print("\nyey! We found some fullNames :)\n")
 
                 # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
-                fullNames = re.findall(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content)
+                fullNames = re.findall(r'(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | el | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)', content)
                 countfullNames = Counter(fullNames)
 
                 dfCountFullNames = pd.DataFrame.from_dict(countfullNames, orient='index').reset_index()
-                dfCountFullNames = dfCountFullNames.rename(columns={'index':'Year', 0:'freq'})
+                dfCountFullNames = dfCountFullNames.rename(columns={'index':'Fullname', 0:'freq'})
                 dfCountFullNames = dfCountFullNames.sort(["freq"], ascending=True)        
-                print(dfCountFullNames)
+        fin.close()
+        print(dfCountFullNames)
+    
+        return dfCountFullNames
+
+def get_full_names_protagonist(wdir, txtFolder,number):
+    """
+    This function tries to get the full name of the protagonists
+    df = get_full_names_protagonist("/home/jose/cligs/ne/master/", "ne0249",2)
+    
         
-                return dfCountFullNames
+    """
+
+    names = get_names(wdir, txtFolder)
+    #print(names)
+
+    names = names[names['name'].map(len) > 2]
+
+    names = names.tail(n=number)
+    print("More info about the names: ",names)
+
+    #Lets open the file
+    for doc in glob.glob(wdir+txtFolder+"*"):
+        
+        with open(doc, "r", errors="replace", encoding="utf-8") as fin:
+            # We take only the text            
+            content = parse_text(doc)
+            
+            countfullNames = Counter("")
+            for name in names.loc[:,"name"]:
+                #print(name)
+        
+                fullNames = []
+                fullNames = re.findall(r'(?<=[a-zá-úñüç,;] )(' + re.escape(name) + r'(?:(?: de | el | del | de la | |\-)(?:[A-ZÁ-ÚÜÑ][a-záéíóúñüç]+))+|(?:(?:[A-ZÁ-ÚÜÑ][a-záéíóúñüçñüç]+)(?: de | el | del | de la | |\-)*)+' + re.escape(name) + r'(?:(?: de | el | del | de la | |\-)(?:[A-ZÁ-ÚÜÑ][a-zzáéíóúñüçñüç]+))*)', content)                       
+                for fullName in fullNames:
+                    fullName = fullName.strip()
+                countfullNames = countfullNames+Counter(fullNames)
+                #print(countfullNames)
+            #print(countfullNames)
+            dfCountFullNames = pd.DataFrame.from_dict(countfullNames, orient='index').reset_index()
+            dfCountFullNames = dfCountFullNames.rename(columns={'index':'Fullname', 0:'freq'})
+            dfCountFullNames = dfCountFullNames.sort(["freq"], ascending=True)        
+            print(dfCountFullNames)
+        fin.close()
+        return dfCountFullNames
 
 def get_places(wdir, txtFolder):
     """
@@ -122,16 +172,8 @@ def get_places(wdir, txtFolder):
     for doc in glob.glob(wdir+txtFolder+"*"):
         
         with open(doc, "r", errors="replace", encoding="utf-8") as fin:
-            content = fin.read()
-
-            # We delimit that we only want to find information in the text() of XML-TEI
-            content = fin.read()
-            xml = etree.parse(doc)
-            namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-            xp_bodytext = "//tei:body//text()"
-            content = xml.xpath(xp_bodytext, namespaces=namespaces)
-            # etree gives us a string where each line a string; but we only want a string:          
-            content = ' '.join(content)
+            # We take only the text            
+            content = parse_text(doc)
             
             #We create a list for the places
             places = []
@@ -149,9 +191,10 @@ def get_places(wdir, txtFolder):
                 dfCountPlaces = pd.DataFrame.from_dict(countPlaces, orient='index').reset_index()
                 dfCountPlaces = dfCountPlaces.rename(columns={'index':'Places', 0:'freq'})
                 dfCountPlaces = dfCountPlaces.sort(["freq"], ascending=True)        
-                print(dfCountPlaces)
+        fin.close()
+        print(dfCountPlaces)
         
-                return dfCountPlaces
+        return dfCountPlaces
 
 
 def get_time(wdir, txtFolder):
@@ -162,7 +205,7 @@ def get_time(wdir, txtFolder):
         - txtFolder is the name (without format ending) of the file to be analized
     
     Example of how to use it at the console:
-    df = get_time("/home/jose/cligs/ne/master/", "ne0003")
+    df = get_time("/home/jose/cligs/ne/master/", "ne0022")
     
     """
     # The file is opened
@@ -170,14 +213,8 @@ def get_time(wdir, txtFolder):
         
         with open(doc, "r", errors="replace", encoding="utf-8") as fin:
             
-            # We delimit that we only want to find information in the text() of XML-TEI
-            content = fin.read()
-            xml = etree.parse(doc)
-            namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
-            xp_bodytext = "//tei:body//text()"
-            content = xml.xpath(xp_bodytext, namespaces=namespaces)
-            # etree gives us a string where each line a string; but we only want a string:          
-            content = ' '.join(content)
+            # We take only the text            
+            content = parse_text(doc)
             
             #We create a list for the info
             years=[]
@@ -215,8 +252,11 @@ def get_time(wdir, txtFolder):
                 dfCountCentury = dfCountCentury.rename(columns={'index':'Century', 0:'freq'})
                 dfCountCentury = dfCountCentury.sort(["freq"], ascending=True)        
                 print(dfCountCentury)
-
+ 
                 return dfCountYears, dfCountDecades, dfCountCentury
+        fin.close()
+
+        
 
 def get_all(wdir, txtFolder):
     """
@@ -225,5 +265,7 @@ def get_all(wdir, txtFolder):
     """
     get_names(wdir, txtFolder)
     get_full_names(wdir, txtFolder)
+    get_full_names_protagonist(wdir, txtFolder,3)
+
     get_time(wdir, txtFolder)
     get_places(wdir, txtFolder)
