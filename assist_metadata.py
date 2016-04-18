@@ -131,7 +131,7 @@ def get_full_names_protagonist(wdir, txtFolder,number):
     names = names[names['name'].map(len) > 2]
 
     names = names.tail(n=number)
-    print("More info about the names: ",names)
+    print("\n\nMore info about the names: ",names)
 
     #Lets open the file
     for doc in glob.glob(wdir+txtFolder+"*"):
@@ -276,14 +276,14 @@ def get_narrator(wdir, txtFolder):
             narrators = []
 
             # We search if there are numbers with four digits in the text at all
-            if re.search(r'(?:-|–|—)(dij(?:o|e))\W', content) is None:
+            if re.search(r'\W(dij(?:o|e))\W', content) is None:
                 print("no dijo or dije found :(\n\n\n")
             else:
                 print("\nyey! We found some dijo or dije! :)\n")
 
 
                 # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
-                narrators = re.findall(r'(?:-|–|—)(dij(?:o|e))\W', content)
+                narrators = re.findall(r'\W(dij(?:o|e))\W', content)
                 countNarrators = Counter(narrators)
 
                 dfCountNarrators = pd.DataFrame.from_dict(countNarrators, orient='index').reset_index()
