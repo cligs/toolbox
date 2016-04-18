@@ -10,6 +10,7 @@ import os
 import html.parser
 import glob
 
+
 def upper_repl(match):
      return match.group(1).upper()
 
@@ -18,7 +19,7 @@ def cleaningHTML(text):
         It decodes the HTML entities and it deletes some anoying characters
     """
     # HTML-Entities decodieren
-    h = html.parser.HTMLParser()
+    h = html.parser.HTMLParser(convert_charrefs=True)
     text = h.unescape(text)
     
     # Geschützte Leerzeichen löschen
@@ -204,18 +205,6 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<p>(.)<span>(.*)</span>', r'<p>\1\2', text, flags=re.IGNORECASE)
     text = re.sub(r'<span class="inicial">(.*)</span>', r'\1', text, flags=re.IGNORECASE)
 
-    """
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Á([^<]*?</seg>)', r'\1á\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)É([^<]*?</seg>)', r'\1é\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Í([^<]*?</seg>)', r'\1í\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ó([^<]*?</seg>)', r'\1ó\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ú([^<]*?</seg>)', r'\1ú\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ñ([^<]*?</seg>)', r'\1ñ\3', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(<seg rend="(smallcaps|small)">[^<]*?)Ü([^<]*?</seg>)', r'\1ü\3', text, flags=re.DOTALL|re.IGNORECASE)
-    
-    for f in re.findall(r'<seg rend="smallc?a?p?s?">([^<]*)</seg>', text):
-        text = text.replace(f, f.lower())
-    """
     
     text = re.sub(r'(<head>.*?)<seg rend="(smallcaps|small)">(.*?)</seg>(.*?</head>)', r'\1\3\4', text, flags=re.DOTALL|re.IGNORECASE)
    
@@ -262,6 +251,14 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<div class="puntos">.*?</div>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="tablacentro">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     """
+    text = re.sub(r'<p class="decla">(.*?\. )(.*?)</p>', r'<sp>\n<speaker>\1</speaker>\n<p>\2</p>\n</sp>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p class="(?:descrip|decla1)">(.*?)</p>', r'<stage>\1</stage>', text, flags=re.IGNORECASE)
+
+
+    text = re.sub(r'(<seg\s+rend\s*=\s*"small(?:caps)?">)(.*?)(?=</seg>)', lambda m: m.group(1) + m.group(2).lower(), text)
+    
+    text = re.sub(r'(<seg\s+rend\s*=\s*"small(?:caps)?">)(.*?)(</seg>)', r'\2', text, flags=re.IGNORECASE)
+    
     
     return text
 
