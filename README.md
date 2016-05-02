@@ -1,6 +1,9 @@
 toolbox
 =======
 
+## 
+>ARRAS should not be thought of as a black box into which one inserts a text along with a set of commands and out of which one receives a completed analysis. A better analogy is a toolbox containing a set of tools, each designed for a particular task. The ARRAS design always presumes a human inquirer at the center. This ARRAS amplifies, rather than replaces, specific perceptual and cognitive functions. (John B. Smith, "A New Environment for Literary Analysis", *Perspectives in Computing* 4.2/3, 1984)
+
 ## What is the toolbox?
 
 The toolbox is a collection of small work-in-progress scripts and code snippets for text processing produced by CLiGS.
