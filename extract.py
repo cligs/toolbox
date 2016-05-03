@@ -156,13 +156,13 @@ def read_tei4(teiFolder, txtFolder):
             output.write(outtext)
 
 
-def get_metadata(wdir, inpath, metadatafile, mode):
+def get_metadata(wdir, inpath, metadatafile, mode="opt-obl"):
     """
     Extracts metadata from the CLiGs teiHeader and writes it to CSV.
     mode (string): "obl", "obl-opt" or "beta-opt-obl".
     Example of how to use this function:
         import extract        
-        get_metadata("/home/jose/CLiGS/ne/","master/*.xml","metadata","beta-opt-obl")
+        extract.get_metadata("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl")
 
     """
 
@@ -184,7 +184,7 @@ def get_metadata(wdir, inpath, metadatafile, mode):
               "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
-              "genre-subtitle":'//tei:term[@type="genre-subtitle"]//text()',
+              "genre-subtitle":'//tei:title[@type="sub"]//text()',
               "idno": '//tei:idno[@type="cligs"]//text()',
               "availability": '//tei:availability//@status',
               "author-country": '//tei:term[@type="author-country"]//text()',
