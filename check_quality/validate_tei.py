@@ -30,4 +30,5 @@ def validate_tei(teipath, rngfile):
 def main(teipath, rngfile):
     validate_tei(teipath, rngfile)
 
-main(teipath, rngfile)
+if __name__ == "__main__":
+    main(int(sys.argv[1])) 
