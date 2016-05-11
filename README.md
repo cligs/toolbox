@@ -41,6 +41,9 @@ In order to use the module efficiently, you need to know which submodules are in
     * validate_tei.py
         * validate_tei
     * elements_used.py
+* annotate
+    * use_heideltime.py
+        * apply_ht
 
 To get more information about a submodule, especially what each function does and which parameters they take, just use the usual help command in Python, for example: 
 

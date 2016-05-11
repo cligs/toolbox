@@ -5,6 +5,7 @@
 import os
 import glob
 from lxml import etree
+import sys
 
 teipath = "./testtei/tc*.xml"
 rngfile = "cligs.rng"
