@@ -34,6 +34,9 @@ In order to use the module efficiently, you need to know which submodules are in
 * crawl.py
     * crawl_tc
     * convert_encoding
+* annotate
+    * use_heideltime.py
+        * apply_ht
 * check_quality
     * spellchecking.py
         * check_collection
@@ -41,9 +44,10 @@ In order to use the module efficiently, you need to know which submodules are in
     * validate_tei.py
         * validate_tei
     * elements_used.py
-* annotate
-    * use_heideltime.py
-        * apply_ht
+* extract
+    * tei2pdf.py
+        * convert2pdf
+    * tei2pdf.xsl
 
 To get more information about a submodule, especially what each function does and which parameters they take, just use the usual help command in Python, for example: 
 
