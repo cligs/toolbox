@@ -36,7 +36,7 @@ def apply_ht(hdpath, infolder, outfolder, language="ENGLISH", outtype="TIMEML", 
 	
 	for filepath in glob.glob(inpath):
 		filecounter+= 1
-		fn = idno = os.path.basename(filepath)[:-4]
+		fn = os.path.basename(filepath)[:-4]
 		fnout = fn + ".xml"
 		command = "java -jar " + os.path.join(hdpath, "de.unihd.dbs.heideltime.standalone.jar") + " " + filepath + " -c " + os.path.join(hdpath, "config.props") + " -l " + language + " -o " + outtype + " > " + os.path.join(outfolder, fnout)
 		print("Treating " + fn + " ...")
