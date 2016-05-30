@@ -1,42 +1,46 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Filename: get_lexnames.py
-# Authors: #cf
+# Authors: #cf, #uh
 # 2016-05-20
 
 """
-Functions to annotate French text with Freeling and add WordNet lexnames.
+Functions to annotate French/Spanish text with Freeling and add WordNet lexnames.
 """
 
 import re
 import os
 import glob
 import subprocess
+import collections
 from nltk.corpus import wordnet as wn
 
 
 FreelingPath = "/home/christof/Programs/FreeLing4/"
 WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordnet/"
 #WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
-InPath = WorkDir+"txt/*.txt"
-FreelingFolder = WorkDir+"fl/" 
-WordnetFolder = WorkDir+"wn/" 
+InPath = os.path.join(WorkDir,"txt/*.txt")
+FreelingFolder = os.path.join(WorkDir, "fl/")
+WordnetFolder = os.path.join(WorkDir, "wn/")
+Lang = "es"
 
-
-def use_freeling(FreelingPath, InPath, FreelingFolder): 
+def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"): 
     """
     Call Freeling "analyze".
     Author: #cf.
     """
     print("use_freeling...")
     
+    if Lang not in ["fr","es"]:
+        raise ValueError("Please indicate one of the following as language: 'fr', 'es'")
+        
     if not os.path.exists(FreelingFolder):
         os.makedirs(FreelingFolder)
 
     for File in glob.glob(InPath): 
         Filename = os.path.basename(File)
         OutPath = FreelingFolder + Filename[:-4] + ".xml" 
-        Command = "analyze -f fr.cfg --outlv tagged  --sense ukb --output xml < " + File + " > " + OutPath   
+        Command = "analyze -f " + Lang + ".cfg --outlv tagged  --sense ukb --output xml < " + File + " > " + OutPath   
         #print(Command)
         subprocess.call(Command, shell=True)
 
@@ -46,7 +50,7 @@ def use_freeling(FreelingPath, InPath, FreelingFolder):
 def use_wordnet(FreelingFolder, WordnetFolder):
     """
     Call Wordnet using NLTK to get the lexnames.
-    Author: #cf.
+    Author: #cf
     """
     print("use_wordnet...")
     
@@ -56,6 +60,9 @@ def use_wordnet(FreelingFolder, WordnetFolder):
 
     InPath = FreelingFolder+"*.xml"
     for File in glob.glob(InPath): 
+		
+        LexErrCounter = collections.Counter()
+		
         with open(File, "r") as InFile: 
             Filename = os.path.basename(File)
             Text = InFile.read()
@@ -74,11 +81,21 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                     SynsetNumber = int(SynsetID[4:-3])
                     SynsetPOS = SynsetID[-2:-1]
                     #print(SynsetID, SynsetPOS, SynsetNumber)
-                    SynsetAbbID = wn._synset_from_pos_and_offset(SynsetPOS, SynsetNumber)
+                    SynsetAbbID = ""
+                    try:
+                        SynsetAbbID = wn._synset_from_pos_and_offset(SynsetPOS, SynsetNumber)
+                    except:
+                        ""
+                        #print("Error when trying to get synset name.")
                     SynsetAbbID = str(SynsetAbbID)
                     SynsetAbbID = SynsetAbbID[8:-2]
                     #print(SynsetAbbID)
-                    Lexname = wn.synset(SynsetAbbID).lexname()
+                    Lexname = "XXX"
+                    try:
+                        Lexname = wn.synset(SynsetAbbID).lexname()
+                    except:
+                        #print("Error when trying to get lexname.")
+                        LexErrCounter.update({"LexNameError":1})
                     #print(Lexname)
                     Line = re.sub("(wn=.*) >", "\\1 lxn=\""+Lexname+"\" >", Line)
                     #print(Line)
@@ -93,7 +110,9 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                     Line = re.sub(" >", " wn=\"xxx\" lxn=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
-
+            
+            if LexErrCounter["LexNameError"] > 0:
+                print(str(LexErrCounter["LexNameError"]) + " lexname(s) could not be found in " + str(Filename))
             NewText.append("</sentence>\n</body>")                
             NewText = ''.join(NewText)
             with open(WordnetFolder+Filename, "w") as OutFile: 
@@ -103,11 +122,8 @@ def use_wordnet(FreelingFolder, WordnetFolder):
     
 
 
-def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder):
-    #use_freeling(FreelingPath, InPath, FreelingFolder)
+def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang):
+    #use_freeling(FreelingPath, InPath, FreelingFolder, Lang)
     use_wordnet(FreelingFolder, WordnetFolder)
 
-annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder)
-    
-    
-
+annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang)
