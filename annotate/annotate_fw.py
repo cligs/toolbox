@@ -5,13 +5,12 @@
 # 2016-05-20
 
 """
-Functions to annotate French text with Freeling, add lexnames, prepare for TXM.
+Functions to annotate French text with Freeling and add WordNet lexnames.
 """
 
 import re
 import os
 import glob
-#import pandas as pd
 import subprocess
 from nltk.corpus import wordnet as wn
 
@@ -20,20 +19,23 @@ FreelingPath = "/home/christof/Programs/FreeLing4/"
 WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordnet/"
 #WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
 InPath = WorkDir+"txt/*.txt"
-DataFolder = WorkDir+"data/" 
-TXMFolder = WorkDir+"txm/"
+FreelingFolder = WorkDir+"fl/" 
+WordnetFolder = WorkDir+"wn/" 
 
 
-def use_freeling(FreelingPath, InPath, DataFolder): 
+def use_freeling(FreelingPath, InPath, FreelingFolder): 
     """
     Call Freeling "analyze".
     Author: #cf.
     """
     print("use_freeling...")
+    
+    if not os.path.exists(FreelingFolder):
+        os.makedirs(FreelingFolder)
 
     for File in glob.glob(InPath): 
         Filename = os.path.basename(File)
-        OutPath = DataFolder + Filename[:-4] + "_fl.xml" 
+        OutPath = FreelingFolder + Filename[:-4] + ".xml" 
         Command = "analyze -f fr.cfg --outlv tagged  --sense ukb --output xml < " + File + " > " + OutPath   
         #print(Command)
         subprocess.call(Command, shell=True)
@@ -41,14 +43,18 @@ def use_freeling(FreelingPath, InPath, DataFolder):
     print("Done.")
 
 
-def find_lexnames(DataFolder, TXMFolder):
+def use_wordnet(FreelingFolder, WordnetFolder):
     """
     Call Wordnet using NLTK to get the lexnames.
     Author: #cf.
     """
-    print("find_lexnames...")
+    print("use_wordnet...")
+    
+    if not os.path.exists(WordnetFolder):
+        os.makedirs(WordnetFolder)
 
-    InPath = DataFolder+"*.xml"
+
+    InPath = FreelingFolder+"*.xml"
     for File in glob.glob(InPath): 
         with open(File, "r") as InFile: 
             Filename = os.path.basename(File)
@@ -79,37 +85,29 @@ def find_lexnames(DataFolder, TXMFolder):
                     NewText.append(Line)
                 elif "wn=" not in Line and "sentence" not in Line:
                     #print(Line)
-                    Line = re.sub(" >", " wn=\"XXX\" lxn=\"XXX\" >", Line)
+                    Line = re.sub(" >", " wn=\"xxx\" lxn=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
                 elif "sentence" in Line:
                     #print(Line)
-                    Line = re.sub(" >", " wn=\"XXX\" lxn=\"XXX\" >", Line)
+                    Line = re.sub(" >", " wn=\"xxx\" lxn=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
 
             NewText.append("</sentence>\n</body>")                
-            NewNewText = ''.join(NewText)
+            NewText = ''.join(NewText)
+            with open(WordnetFolder+Filename, "w") as OutFile: 
+                OutFile.write(NewText)
                 
-            # Prepare for TXM
-            NewNewText = re.sub("<token","<w", NewNewText)
-            NewNewText = re.sub("</token>","</w>", NewNewText)
-            #print(NewNewText)
-            with open(TXMFolder+Filename[:-7]+".xml", "w") as OutFile: 
-                OutFile.write(NewNewText)
-                
-                
-                
-
     print("Done.")
     
 
 
-def get_lexnames(FreelingPath, InPath, DataFolder, TXMFolder):
-    #use_freeling(FreelingPath, InPath, DataFolder)
-    find_lexnames(DataFolder, TXMFolder)
+def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder):
+    #use_freeling(FreelingPath, InPath, FreelingFolder)
+    use_wordnet(FreelingFolder, WordnetFolder)
 
-get_lexnames(FreelingPath, InPath, DataFolder, TXMFolder)
+annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder)
     
     
 
