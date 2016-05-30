@@ -17,8 +17,8 @@ from nltk.corpus import wordnet as wn
 
 
 FreelingPath = "/home/christof/Programs/FreeLing4/"
-#WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordnet/"
-WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
+WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordnet/"
+#WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
 InPath = WorkDir+"txt/*.txt"
 DataFolder = WorkDir+"data/" 
 TXMFolder = WorkDir+"txm/"
@@ -55,7 +55,7 @@ def find_lexnames(DataFolder, TXMFolder):
             Text = InFile.read()
             Text = re.split("</token>", Text)
             NewText = ["<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<body>"]
-            for Line in Text[0:15000]:
+            for Line in Text[0:-1]:
                 Line = Line + "</token>"
                 #print(Line)
                 Word = re.findall("form=\"(.*?)\" ", Line)[0]
