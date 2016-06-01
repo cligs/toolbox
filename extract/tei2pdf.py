@@ -19,7 +19,6 @@ import subprocess
 def convert2pdf(foppath, infolder, outfolder, lang="es"):
 	"""
 	Converts a collection of TEI files into "reading versions" in PDF.
-	Creates a log file in the output folder.
 	
 	Arguments:
 	foppath (string): path to Apache FOP installation

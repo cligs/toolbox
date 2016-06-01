@@ -27,7 +27,7 @@ Lang = "es"
 def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"): 
     """
     Call Freeling "analyze".
-    Author: #cf.
+    Authors: #cf (#uh).
     """
     print("use_freeling...")
     
@@ -50,7 +50,7 @@ def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"):
 def use_wordnet(FreelingFolder, WordnetFolder):
     """
     Call Wordnet using NLTK to get the lexnames.
-    Author: #cf
+    Authors: #cf (#uh)
     """
     print("use_wordnet...")
     
