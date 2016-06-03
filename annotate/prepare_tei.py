@@ -2,9 +2,6 @@
 # -*- coding: utf-8 -*-
 """
 
-@author: Ulrike Henny
-@filename: prepare_tei.py
-
 Submodule which prepares CLiGS-TEI-files for annotation with e.g. FreeLing and NLTK WordNet.
 After the annotation (external to this module), the annotated files are brought together in new TEI files.
 
@@ -13,6 +10,9 @@ Check out the documentation for the functions prepare_input and prepare_output f
 - for chapterwise annotation
 - just the body text is preserved
 - headings, notes and inline markup are discarded
+
+@author: Ulrike Henny
+@filename: prepare_tei.py
 
 """
 
@@ -50,9 +50,9 @@ xslt_TEIwrapper = etree.XML('''\
             </TEI>
 		</xsl:template>
 		
-		<xsl:template match="tei:div[not(descendant::tei:div) and not(ancestor::tei:floatingText)]">
+		<xsl:template match="tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]">
 			<xsl:copy>
-				<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d<xsl:value-of select="count(preceding::tei:div[not(descendant::tei:div) and not(ancestor::tei:floatingText)]) + 1"/></xsl:attribute>
+				<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d<xsl:value-of select="count(preceding::tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]) + 1"/></xsl:attribute>
 			</xsl:copy>
 		</xsl:template>
 		
@@ -163,7 +163,7 @@ def prepare_anno(infolder, outfolder):
 		# create one full text file per chapter
 		tei = {'tei':'http://www.tei-c.org/ns/1.0'}
 		cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
-		results = doc.xpath("//tei:div[not(descendant::tei:div) and not(ancestor::tei:floatingText)]", namespaces=tei)
+		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]", namespaces=tei)
 		
 		for i,r in enumerate(results):
 			transform = etree.XSLT(xslt_extractDIVs)
@@ -243,8 +243,8 @@ def prepare(mode, infolder, outfolder):
 	
 	Arguments:
 	mode(string): possible values are "split" or "merge"
-	infolder (string): path to the input folder (which should contain the input TEI files)
-	outfolder (string): path to the output folder (which is created if it does not exist)
+	infolder (string): in split-mode: path to the input folder (which should contain the input TEI files); in merge-mode: path to the annotation output folder (with subfolder "temp" and "anno")
+	outfolder (string): in split-mode: path to the output folder for annotation working files; in merge-mode: path to the output folder for annotated TEI result files. The folders are created if they do not exist.
 	"""
 	if mode == "split":
 		prepare_anno(infolder, outfolder)

@@ -16,14 +16,6 @@ import collections
 from nltk.corpus import wordnet as wn
 
 
-FreelingPath = "/home/ulrike/Downloads/FreeLing4/"
-WorkDir = "/home/ulrike/Schreibtisch/Annotest/"
-#WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
-InPath = os.path.join(WorkDir, "out/txt/*.txt")
-FreelingFolder = os.path.join(WorkDir, "fl/") 
-WordnetFolder = os.path.join(WorkDir, "wn/")
-Lang = "fr"
-
 def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"): 
     """
     Call Freeling "analyze".
@@ -123,9 +115,10 @@ def use_wordnet(FreelingFolder, WordnetFolder):
 
 
 def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang):
-    #use_freeling(FreelingPath, InPath, FreelingFolder, Lang)
+    use_freeling(FreelingPath, InPath, FreelingFolder, Lang)
     use_wordnet(FreelingFolder, WordnetFolder)
 
-annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang)
 
 
+if __name__ == "__main__":
+    annotate_fw(int(sys.argv[1]))
