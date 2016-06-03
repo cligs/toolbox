@@ -16,13 +16,13 @@ import collections
 from nltk.corpus import wordnet as wn
 
 
-FreelingPath = "/home/christof/Programs/FreeLing4/"
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordnet/"
+FreelingPath = "/home/ulrike/Downloads/FreeLing4/"
+WorkDir = "/home/ulrike/Schreibtisch/Annotest/"
 #WorkDir = "/home/christof/Dropbox/0-Analysen/2016/wordnet/"
-InPath = os.path.join(WorkDir,"txt/*.txt")
-FreelingFolder = os.path.join(WorkDir, "fl/")
+InPath = os.path.join(WorkDir, "out/txt/*.txt")
+FreelingFolder = os.path.join(WorkDir, "fl/") 
 WordnetFolder = os.path.join(WorkDir, "wn/")
-Lang = "es"
+Lang = "fr"
 
 def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"): 
     """
@@ -115,7 +115,7 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                 print(str(LexErrCounter["LexNameError"]) + " lexname(s) could not be found in " + str(Filename))
             NewText.append("</sentence>\n</body>")                
             NewText = ''.join(NewText)
-            with open(WordnetFolder+Filename, "w") as OutFile: 
+            with open(WordnetFolder+Filename[:-4]+"_a.xml", "w") as OutFile: 
                 OutFile.write(NewText)
                 
     print("Done.")
@@ -127,3 +127,5 @@ def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang):
     use_wordnet(FreelingFolder, WordnetFolder)
 
 annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang)
+
+

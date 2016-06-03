@@ -110,7 +110,7 @@ xslt_joinDIVs = '''\
 		<xsl:template match="tei:text/tei:body/tei:div">
 			<xsl:copy>
 				<xsl:copy-of select="@*"/>
-				<xsl:copy-of select="document(concat($annofolder, @xml:id,'_a.xml'))/*"/>
+				<xsl:copy-of select="document(concat($annofolder, @xml:id,'_a.xml'))//body"/>
 			</xsl:copy>
 		</xsl:template>
 		
@@ -119,7 +119,7 @@ xslt_joinDIVs = '''\
 
 
 
-def prepare_input(infolder, outfolder):
+def prepare_anno(infolder, outfolder):
 	"""
 	Takes a collection of TEI files and prepares them for annotation (chapterwise).
 	
@@ -157,7 +157,7 @@ def prepare_input(infolder, outfolder):
 		result = str(result_tree)
 		
 		# create TEI wrapper for future annotation results
-		with open(os.path.join(outfolder, "tei", outfile_x), "w") as output:
+		with open(os.path.join(outfolder, "temp", outfile_x), "w") as output:
 			output.write(result)
 			
 		# create one full text file per chapter
@@ -180,7 +180,7 @@ def prepare_input(infolder, outfolder):
 	
 	
 
-def prepare_output(infolder, outfolder):
+def postpare_anno(infolder, outfolder):
 	"""
 	Creates a TEI file from a collection of annotated full text files (one per chapter).
 	Needs an input folder with two subfolders: 'temp' with the TEI file templates and 'anno' with the annotated text in XML format.
@@ -209,6 +209,7 @@ def prepare_output(infolder, outfolder):
 
 	# fetch annotated snippets for each TEI template file
 	for filepath in glob.glob(os.path.join(in_temp, "*.xml")):
+		print("doing file " + filepath)
 		filecounter+= 1
 		fn = os.path.basename(filepath)
 		annofolder = os.path.join(Path(os.path.join(infolder, "anno")).as_uri(), "")
@@ -241,16 +242,16 @@ def prepare(mode, infolder, outfolder):
 	- output phase: the annotated full text snippets are brought together in the new TEI files
 	
 	Arguments:
-	mode(string): possible values are "input" or "output"
+	mode(string): possible values are "split" or "merge"
 	infolder (string): path to the input folder (which should contain the input TEI files)
 	outfolder (string): path to the output folder (which is created if it does not exist)
 	"""
-	if mode == "input":
-		prepare_input(infolder, outfolder)
-	elif mode == "output":
-		prepare_output(infolder, outfolder)
+	if mode == "split":
+		prepare_anno(infolder, outfolder)
+	elif mode == "merge":
+		postpare_anno(infolder, outfolder)
 	else:
-		raise ValueError("Please indicate one of the following as the value for the first argument: 'input', 'output'")
+		raise ValueError("Please indicate one of the following as the value for the first argument: 'split', 'merge'")
 
 
 
