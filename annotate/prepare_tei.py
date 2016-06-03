@@ -38,7 +38,7 @@ xslt_TEIwrapper = etree.XML('''\
 		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
 		
 		<xsl:template match="/">
-			<xsl:copy-of select="processing-instruction()"/>
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/master/cligs-annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
 			
             <TEI xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
