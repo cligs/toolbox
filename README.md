@@ -35,8 +35,19 @@ In order to use the module efficiently, you need to know which submodules are in
     * crawl_tc
     * convert_encoding
 * annotate
+	* annotate_fw.py
+	    * use_freeling
+	    * use_wordnet
+	    * annotate_fw
+	* fw2txm.py
+		* fw2txm
+	* prepare_tei.py
+	    * prepare_anno
+	    * postpare_anno
+	    * prepare
     * use_heideltime.py
         * apply_ht
+    * workflow_teifw.py
 * check_quality
     * spellchecking.py
         * check_collection
