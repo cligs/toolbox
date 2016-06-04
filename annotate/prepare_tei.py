@@ -19,6 +19,7 @@ Check out the documentation for the functions prepare_input and prepare_output f
 import os
 import glob
 import sys
+import re
 import io
 from lxml import etree
 from pathlib import Path
@@ -162,7 +163,9 @@ def prepare_anno(infolder, outfolder):
 			
 		# create one full text file per chapter
 		tei = {'tei':'http://www.tei-c.org/ns/1.0'}
-		cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
+		#cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
+		cligs_id = fn
+		print(cligs_id)
 		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]", namespaces=tei)
 		
 		for i,r in enumerate(results):
@@ -170,7 +173,9 @@ def prepare_anno(infolder, outfolder):
 			result_tree = transform(r)
 			result = str(result_tree)
 			
-			outfile = cligs_id[0] + "_d" + str(i + 1) + ".txt"
+			#print(cligs_id)
+			#outfile = cligs_id[0] + "_d" + str(i + 1) + ".txt"
+			outfile = "_d" + str(i + 1) + ".txt"
 			
 			with open(os.path.join(outfolder, "txt", outfile), "w") as output:
 				output.write(result)
@@ -224,6 +229,8 @@ def postpare_anno(infolder, outfolder):
 		
 		result_tree = transform(doc, annofolder= "'" + annofolder + "'")
 		result = str(result_tree)
+		result = re.sub("<body xmlns=\"\">","<p>", result)
+		result = re.sub("</s>\n</body>","</s></p>", result)
 		
 		# save the results
 		with open(os.path.join(outfolder, fn), "w") as output:

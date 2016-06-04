@@ -19,26 +19,26 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Schreibtisch/Annotest/in"
+infolder = "/media/christof/data/Dropbox/0-Analysen/2016/sourdine/txm2/tei-test"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Schreibtisch/Annotest/out"
+outfolder = "/media/christof/data/Dropbox/0-Analysen/2016/sourdine/txm2/out"
 
 # language of the texts (possible up to now: fr, es)
-lang = "es"
+lang = "fr"
 
 # path to FreeLing installation
-FreeLingPath = "/home/ulrike/Downloads/FreeLing4/"
+FreeLingPath = "/home/christof/Programs/FreeLing4/"
 
 
 import sys
 import os
 
 # use the following to add the toolbox to syspath (if needed):
-sys.path.append(os.path.abspath("/home/ulrike/Dokumente/Git/"))
+sys.path.append(os.path.abspath("/home/christof/repos/cligs/"))
 
-from toolbox.annotate import prepare_tei
-from toolbox.annotate import annotate_fw
+import prepare_tei
+import annotate_fw
 
 
 # by default, it should be enough to change the options above and leave this as is
