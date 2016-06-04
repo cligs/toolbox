@@ -1,8 +1,4 @@
-toolbox
-=======
+toolbox: Christof's branch
+==========================
 
-Collection of small work-in-progress scripts and code snippets for text processing produced by CLiGS.
-
-Each folder contains one or several Python scripts and some sample texts for testing.
-
-Note that all functions are designed for Python 3 and are experimental in nature and quality.
+This branch is kept mostly up-to-date with the master branch, except that paths may be specific to Christof's system.
