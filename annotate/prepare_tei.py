@@ -38,7 +38,7 @@ xslt_TEIwrapper = etree.XML('''\
 		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
 		
 		<xsl:template match="/">
-			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/master/cligs-annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/a86339a4c0b62339dd88f3de07f817d80a72705a/cligs-annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
 			
             <TEI xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
@@ -165,12 +165,17 @@ def prepare_anno(infolder, outfolder):
 		cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
 		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]", namespaces=tei)
 		
+		if isinstance(cligs_id, list):
+			cligs_id = cligs_id[0]
+		elif isinstance(cligs_id, str) == False:
+			raise ValueError("This type (" + str(type(cligs_id)) + ") is not supported for cligs_id. Must be list or string.")
+		
 		for i,r in enumerate(results):
 			transform = etree.XSLT(xslt_extractDIVs)
 			result_tree = transform(r)
 			result = str(result_tree)
 			
-			outfile = cligs_id[0] + "_d" + str(i + 1) + ".txt"
+			outfile = cligs_id + "_d" + str(i + 1) + ".txt"
 			
 			with open(os.path.join(outfolder, "txt", outfile), "w") as output:
 				output.write(result)
