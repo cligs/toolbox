@@ -136,7 +136,7 @@ def use_wordnet(FreelingFolder, WordnetFolder, Lang):
                 NewText = re.sub("(tag=\"NCNP.*?\")", "\\1 pos=\"noun\" type=\"common\" gen=\"neuter\" num=\"plural\"", NewText)
                 NewText = re.sub("(tag=\"NCNN.*?\")", "\\1 pos=\"noun\" type=\"common\" gen=\"neuter\" num=\"neuter\"", NewText)
                 NewText = re.sub("(tag=\"NCN0.*?\")", "\\1 pos=\"noun\" type=\"common\" gen=\"neuter\" num=\"xxx\"", NewText)
-                NewText = re.sub("(tag=\"NP.*?\")", "\\1 pos=\"noun\" type=\"common\" gen=\"xxx\" num=\"xxx\"", NewText)
+                NewText = re.sub("(tag=\"NP.*?\")", "\\1 pos=\"noun\" type=\"proper\" gen=\"xxx\" num=\"xxx\"", NewText)
 
                 # Verbs                
                 NewText = re.sub("(tag=\"VM...SF\")", "\\1 pos=\"verb\" type=\"main\" gen=\"feminine\" num=\"singular\"", NewText)
