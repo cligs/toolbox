@@ -45,12 +45,13 @@ def clean_txt(file,output_dir):
         text = re.sub(r'Ã¹',r'ù',text)  
         text = re.sub(r'ÃŽ',r'ô',text)  
         text = re.sub(r'Ã',r'À',text)  
-        text = re.sub(r'Ã ',r'à',text)  
+        text = re.sub(r'Ã ',r'à',text)  
         text = re.sub(r'Ã»',r'û',text)  
         text = re.sub(r'Ã¯',r'ï',text)  
         text = re.sub(r'Ã',r'Ô',text)  
         text = re.sub(r'',r"'",text)  
-        text = re.sub(r'',r"?",text)  
+        text = re.sub(r'
+',r"?",text)  
         text = re.sub(r'',r"œ",text)  
 
         basename = os.path.basename(file)    
