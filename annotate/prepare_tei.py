@@ -38,7 +38,7 @@ xslt_TEIwrapper = etree.XML('''\
 		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
 		
 		<xsl:template match="/">
-			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/a86339a4c0b62339dd88f3de07f817d80a72705a/cligs-annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
 			
             <TEI xmlns="http://www.tei-c.org/ns/1.0">
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
@@ -56,14 +56,7 @@ xslt_TEIwrapper = etree.XML('''\
 			</xsl:copy>
 		</xsl:template>
 		
-		<xsl:template match="tei:idno[@type='cligs']">
-			<xsl:copy>
-				<xsl:copy-of select="@*"/>
-				<xsl:value-of select="concat(.,'a')"/>
-			</xsl:copy>
-		</xsl:template>
-		
-		<xsl:template match="tei:teiHeader | tei:teiHeader//node()[not(self::tei:idno[@type='cligs'])] | tei:teiHeader//@* | tei:teiHeader//processing-instruction() | tei:teiHeader//comment()">
+		<xsl:template match="tei:teiHeader | tei:teiHeader//node() | tei:teiHeader//@* | tei:teiHeader//processing-instruction() | tei:teiHeader//comment()">
 			<xsl:copy>
 				<xsl:apply-templates select="node() | @* | processing-instruction() | comment()"/>
 			</xsl:copy>
@@ -110,7 +103,7 @@ xslt_joinDIVs = '''\
 		<xsl:template match="tei:text/tei:body/tei:div">
 			<xsl:copy>
 				<xsl:copy-of select="@*"/>
-				<xsl:copy-of select="document(concat($annofolder, @xml:id,'_a.xml'))//body"/>
+				<xsl:copy-of select="document(concat($annofolder, @xml:id,'.xml'))//body"/>
 			</xsl:copy>
 		</xsl:template>
 		
@@ -148,7 +141,7 @@ def prepare_anno(infolder, outfolder):
 	for filepath in glob.glob(inpath):
 		filecounter+= 1
 		fn = os.path.basename(filepath)[:-4]
-		outfile_x = fn + "_a.xml"
+		outfile_x = fn + ".xml"
 		
 		doc = etree.parse(filepath)
 		
