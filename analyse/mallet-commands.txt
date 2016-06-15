@@ -1,0 +1,4 @@
+bin/mallet import-file --input labeled-lemmata-subgenre.txt --output labeled-lemmata-subgenre.seq --stoplist-file stopwords_FR.txt --label-as-features --keep-sequence --line-regex '([^\t]+)\t([^\t]+)\t(.*)'
+
+
+bin/mallet run cc.mallet.topics.LabeledLDA --input labeled-lemmata-subgenre.seq --output-topic-keys labeled-subgenre-keys.csv --output-doc-topics labeled-subgenre-doctopics.csv  --num-iterations 500 --num-top-words 20 
