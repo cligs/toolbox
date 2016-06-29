@@ -9,15 +9,15 @@ import sys
 
 
 def main(teipath, rngfile):
-	"""
-	Arguments:
-	teipath (str): path to the TEI files, e.g. /home/ulrike/Dokumente/Git/textbox/es/novela-espanola/tei/*.xml
-	rngfile (str): path to the schema file, e.g. /home/ulrike/Schreibtisch/basisformat.rng
-	
-	Example:
-	from toolbox import check_quality
-	check_quality.validate_tei("/home/ulrike/Dokumente/Git/textbox/es/novela-espanola/tei/*.xml", "/home/ulrike/Schreibtisch/basisformat.rng")
-	"""
+    """
+    Arguments:
+    teipath (str): path to the TEI files, e.g. /home/ulrike/Dokumente/Git/textbox/es/novela-espanola/tei/*.xml
+    rngfile (str): path to the schema file, e.g. /home/ulrike/Schreibtisch/basisformat.rng
+    
+    Example:
+    from toolbox.check_quality import validate_tei
+    validate_tei.main("/home/jose/cligs/ne/master/*.xml", "/home/jose/cligs/reference/tei/standard/cligs.rng")
+    """
     for teifile in glob.glob(teipath): 
         idno = os.path.basename(teifile)
         #print(idno)
