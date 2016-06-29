@@ -25,7 +25,6 @@ def cleaningHTML(text):
     text = re.sub(r'<(/?)P(| [^>]+)>', r'<\1p\2>', text, flags=re.DOTALL)
     text = re.sub(r'<(/?)H([1-6])>', r'<\1h\2>', text, flags=re.DOTALL)
 
-    
     # Geschützte Leerzeichen löschen
     text = re.sub('\u00A0', " ", text)
     return text
@@ -70,6 +69,9 @@ def deletingNonBody(text):
     #Delete everything after </body>
     text = re.sub(r'</body>.*?</body>.*?</html>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</?body(>| [^>]*>)', r"", text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<(meta|link) .*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<style.*?</style>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<title.*?</title>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 def deletingElements(text):
@@ -89,7 +91,6 @@ def deletingElements(text):
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
     
     text = re.sub(r'<span style="color:#008080; font-style: normal; font-weight:normal;">[—XIVCD→\s]*</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
-     
     return text
 
 def replacingBasicElements(text):
@@ -125,6 +126,13 @@ def replacingBasicElements(text):
     text = re.sub(r'<abbr.*?>(.*?)</abbr>', r'<seg type="abbr">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<seg class="italicno">(.*?)</seg>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'<seg class="h3">(.*)</seg>', r'<head>\1</head>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<p style=.*?>', r'<p>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<head><stage><seg rend="italic">(.*?)</seg></stage></head>', r'<head>\1</head>', text, flags=re.IGNORECASE)
+
+    text = re.sub(r'<seg style="font-weight: normal">', r'<seg rend="normal">', text, flags=re.IGNORECASE)
+
+ 
     return text
 
 def replacingTables(text):
@@ -165,7 +173,23 @@ def replacingBold(text):
     """
     text = re.sub(r'<b>( *- *[IVXDCL0-9]+ *- *)</b>', r'<h3>\1</h3>', text, flags=re.DOTALL|re.IGNORECASE)
     return text
+    
+def replacingtheater(text):
+    """
+    
+    """
+    text = re.sub(r'<strong>(.*?)</strong>', r'<stage>\1</stage>', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'<p>\s*<span>(.*?)</span>(.*?)</p>', r'    ', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p>([A-Z 1-9Á-ÚÑÜ]*?.-)(.*?)</p>', r'<sp>\r\n<speaker>\1</speaker>\r\n<p>\2</p>\r\n</sp>',  text, flags=re.DOTALL)
+
+    text = re.sub(r'<(/?)tbody>', r'<\1div>', text, flags=re.DOTALL|re.IGNORECASE)
+
+
+ 
+    return text
+    
 def setDivs(text):
     """
     Setting the <div>s searching for the <hn>
@@ -222,7 +246,7 @@ def settingTeiHeader(text):
     text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne02</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract source="#">\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv" cert="low">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" subtype="2"></term>\r\n					<term type="subgenre" subtype="1"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n					<term type="protagonist-age"></term>\r\n					<term type="type-end"></term>\r\n					<term type="time-year">18??</term>\r\n					<term type="subgenre-edit" resp="#"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-03-16" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-def main():
+def main(modo="normal"):
     i=1
     for doc in glob.glob("input/*.html"):
     
@@ -245,11 +269,15 @@ def main():
             #It replaces some HTML elements with TEI elements    
             content=replacingBasicElements(content)
             
+                
             #It cleans the white space
             content=cleaningIndent(content)
             
             #It replaces the tables with <lg>
             content=replacingTables(content)   
+
+            if modo == "teatro":
+                content=replacingtheater(content)
             
             #It cleans the white space, again
             content=cleaningIndent(content)
@@ -277,4 +305,4 @@ def main():
         print("Processed documents: ",i)
         i+=1
 
-main()
+main(modo="teatro")

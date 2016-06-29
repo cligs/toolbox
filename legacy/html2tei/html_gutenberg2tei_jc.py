@@ -62,18 +62,17 @@ def deletingElements(text):
     """
     Delete different tags
     """
-    
     #With the next 
     text = re.sub(r'(<span class="letrre"><img[^>]*?alt="([^"]*?)"[^>]*?></span>)', r'\1\2', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<img[^>]*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</?a(>|\s[^>]*?>)', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<a[^>]*?>\[[0-9]*?\]</a>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<hr.*?>\s(<h[1-6]>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<hr[^>]*?>\s(<h[1-6]>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span\s*class="pagenum">[0-9\s\{\}]*?</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(</h[1-6]>\s*)<p class="c">(.*?)</p>', r' - \2 \1', text, flags=re.DOTALL|re.IGNORECASE)
-
     text = re.sub(r'<!DOCTYPE.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<html.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>.*?</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -112,6 +111,8 @@ def replacingBasicElements(text):
     text = re.sub(r'<div class="footnote">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<p class="c"> *\* *\* *\* *</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p>[\* ]+</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="nind">[\s]*<span class="letrre"></span>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="r">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
 
@@ -122,9 +123,21 @@ def replacingBasicElements(text):
 
     text = re.sub(r'^<span class="i[01]">(.*?)<br></span>$', r'<l>\1</l>', text, flags=re.IGNORECASE|re.M)
 
-    text = re.sub(r'<br />', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    #text = re.sub(r'<br />', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<lg>\s+<span style="margin-left: 1em;">(.*?)</span>', r'<lg>\n<l>\1', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'(<l>.*?)<br>\n', r'\1</l>\n<l>', text, flags=re.IGNORECASE)
+
+    text = re.sub(r'(</seg>)(\n</lg>)', r'\1</l>\2', text, flags=re.IGNORECASE)
+
+    text = re.sub(r'<hr[^>]*?>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<br>', r'<br />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="blockquot">(.*?)</div>', r'<floatingText>\n<body>\n<div>\1</div>\n</body>\n</floatingText>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<span class="smcap">(.*?)</span>', r'<seg rend="smallcaps">\1</seg>', text, flags=re.IGNORECASE)
+
+    text = re.sub(r'<p id="[^"]+?">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
