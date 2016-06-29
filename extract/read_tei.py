@@ -13,11 +13,14 @@ import glob
 from lxml import etree
 import pandas as pd
 
-def read_tei5(teiPath, txtFolder, xpath):
+def from_TEIP5(teiPath, txtFolder, xpath):
     """
     Extracts selected text from TEI P5 files and writes TXT files.
     xpath (string): "alltext", "bodytext, "seg" or "said".
-    For example: read_tei5("/home/jose/CLiGS/ne/master/*.xml","/home/jose/CLiGS/ne/txt","bodytext")
+    
+    For example:
+    from toolbox.extract import read_tei
+    read_tei.from_TEIP5("/home/jose/CLiGS/ne/master/*.xml","/home/jose/CLiGS/ne/txt","bodytext")
     """
     if not os.path.exists(txtFolder):
         os.makedirs(txtFolder)
@@ -89,7 +92,7 @@ def read_tei5(teiPath, txtFolder, xpath):
     print("Done. Files treated: " + str(counter))
 
 
-def read_tei4(teiFolder, txtFolder):
+def from_TEIP4(teiFolder, txtFolder):
     """
     Extracts selected text from TEI P4 (legacy) files and writes TXT files.
     """
@@ -155,10 +158,10 @@ def read_tei4(teiFolder, txtFolder):
             
             
 def main(teiFolder, txtFolder, xpath):
-    read_tei5(teiFolder, txtFolder, xpath)
-    read_tei4(teiFolder, txtFolder)
+    from_TEIP5(teiFolder, txtFolder, xpath)
+    from_TEIP4(teiFolder, txtFolder)
     
 if __name__ == "__main__":
     import sys
-    read_tei5(int(sys.argv[1]))
-    read_tei4(int(sys.argv[1]))
+    from_TEIP5(int(sys.argv[1]))
+    from_TEIP4(int(sys.argv[1]))

@@ -13,13 +13,13 @@ import glob
 from lxml import etree
 import pandas as pd
 
-def get_metadata(wdir, inpath, metadatafile, mode="opt-obl"):
+def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     """
     Extracts metadata from the CLiGs teiHeader and writes it to CSV.
     mode (string): "obl", "obl-opt" or "beta-opt-obl".
     Example of how to use this function:
-        import extract        
-        extract.get_metadata("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl")
+        from toolbox.extract import get_metadata        
+        get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl")
 
     """
 
@@ -123,7 +123,7 @@ def get_metadata(wdir, inpath, metadatafile, mode="opt-obl"):
     print("Done. Number of documents and metadata columns:", metadata.shape)
 
 
-def get_metadataP4(teiFolder, metadataFile, labels):
+def from_TEIP4(teiFolder, metadataFile, labels):
     """
     Extracts metadata from the TEI P4 teiHeader and writes it to CSV.
     """
@@ -183,10 +183,10 @@ def get_metadataP4(teiFolder, metadataFile, labels):
     
     
 def main(teiFolder, txtFolder, metadataFile, mode):
-    get_metadata(txtFolder, metadataFile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
-    get_metadataP4(teiFolder, metadataFile) 
+    from_TEIP5(txtFolder, metadataFile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
+    from_TEIP4(teiFolder, metadataFile) 
     
 if __name__ == "__main__":
     import sys
-    get_metadata(int(sys.argv[1]))
-    get_metadataP4(int(sys.argv[1]))
+    from_TEIP5(int(sys.argv[1]))
+    from_TEIP4(int(sys.argv[1]))
