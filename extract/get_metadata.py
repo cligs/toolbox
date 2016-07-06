@@ -140,6 +140,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
             xpath = xpaths[label]
             result = xml.xpath(xpath, namespaces=namespaces)
             
+            ## Check whether something was found; if not, let the result be "n.av."
             if len(result) == 1: 
                 result = result[0]
             else: 
