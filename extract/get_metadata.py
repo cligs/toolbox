@@ -19,7 +19,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     mode (string): "obl", "obl-opt" or "beta-opt-obl".
     Example of how to use this function:
         from toolbox.extract import get_metadata        
-        get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl")
+        get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl-subgenre")
 
     """
 
@@ -30,6 +30,8 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form"]
     labels_beta = [ "author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-period"]
+
+    labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -74,6 +76,33 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "keywords-cert": '///tei:keywords/@cert',
               "form": '//tei:term[@type="form"]//text()',
               "author-period": '//tei:term[@type="author-period"]//text()',
+
+                "crime-fiction": '//*[name()="term"][@type="subgenre"][text()="crime-fiction"]/text()',
+                "adventure": '//*[name()="term"][@type="subgenre"][text()="adventure"]/text()',
+                "erotic": '//*[name()="term"][@type="subgenre"][text()="erotic"]/text()',
+                "fantastic": '//*[name()="term"][@type="subgenre"][text()="fantastic"]/text()',
+                "farce": '//*[name()="term"][@type="subgenre"][text()="farce"]/text()',
+                "naturalist": '//*[name()="term"][@type="subgenre"][text()="naturalist"]/text()',
+                "modernist": '//*[name()="term"][@type="subgenre"][text()="modernist"]/text()',
+                "opera": '//*[name()="term"][@type="subgenre"][text()="opera"]/text()',
+                "pastoral": '//*[name()="term"][@type="subgenre"][text()="pastoral"]/text()',
+                "realist": '//*[name()="term"][@type="subgenre"][text()="realist"]/text()',
+                "sentimental": '//*[name()="term"][@type="subgenre"][text()="sentimental"]/text()',
+                "social": '//*[name()="term"][@type="subgenre"][text()="social"]/text()',
+                "spiritual": '//*[name()="term"][@type="subgenre"][text()="spiritual"]/text()',
+                "suspense": '//*[name()="term"][@type="subgenre"][text()="suspense"]/text()',
+                "thriller": '//*[name()="term"][@type="subgenre"][text()="thriller"]/text()',
+                "historical": '//*[name()="term"][@type="subgenre"][text()="historical"]/text()',
+                "anti-religious": '//*[name()="term"][@type="subgenre"][text()="anti-religious"]/text()',
+                "comedy": '//*[name()="term"][@type="subgenre"][text()="comedy"]/text()',
+                "philosophical": '//*[name()="term"][@type="subgenre"][text()="philosophical"]/text()',
+                "memoir": '//*[name()="term"][@type="subgenre"][text()="memoir"]/text()',
+                "moralist": '//*[name()="term"][@type="subgenre"][text()="moralist"]/text()',
+                "symbolic": '//*[name()="term"][@type="subgenre"][text()="symbolic"]/text()',
+                "political fiction": '//*[name()="term"][@type="subgenre"][text()="political fiction"]/text()',
+                "bildungsroman": '//*[name()="term"][@type="subgenre"][text()="bildungsroman"]/text()',
+                "war-novel": '//*[name()="term"][@type="subgenre"][text()="war-novel"]/text()',
+
               }
 
     # Mode is selected: obligatory, optional or beta
@@ -81,8 +110,12 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
         labels=labels_obl
     elif mode =="opt-obl":
         labels=labels_obl+labels_opt
+    elif mode =="opt-obl-subgenre":
+        labels=labels_obl+labels_opt+labels_subgenre
     elif mode =="beta-opt-obl":
         labels=labels_obl+labels_opt+labels_beta
+    elif mode == "beta-opt-obl-subgenre":
+        labels=labels_obl+labels_opt+labels_beta+labels_subgenre
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
@@ -106,14 +139,15 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
         for label in labels:
             xpath = xpaths[label]
             result = xml.xpath(xpath, namespaces=namespaces)
-            ## Check whether something was found; if not, let the result be "n.av."
+            
             if len(result) == 1: 
                 result = result[0]
             else: 
                 result = "n.av."
+            
             ## Write the result to the corresponding cell in the dataframe
             metadata.loc[idno_file,label] = result
-                
+        
     ## Add decade column based on pub_year
     metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0s")
     
@@ -183,7 +217,7 @@ def from_TEIP4(teiFolder, metadataFile, labels):
     metadata.to_csv(metadataFile, sep=",")
     print("Done. Number of documents and metadata columns:", metadata.shape)
     
-    
+
 def main(teiFolder, txtFolder, metadataFile, mode):
     from_TEIP5(txtFolder, metadataFile, mode) #The last value choose between the three modes: only obligatory, only optional (the normal mode) and beta
     from_TEIP4(teiFolder, metadataFile) 
