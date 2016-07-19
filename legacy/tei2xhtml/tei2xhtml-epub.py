@@ -67,10 +67,10 @@ def settingHead(text):
     text = re.sub(r'\Z',r'</body>\r\n</html>' , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-listdocs=["ne0067.xml",
-"ne0069.xml",
-"ne0078.xml",
-"ne0093.xml"]
+listdocs=["ne0125.xml",
+"ne0126.xml",
+"ne0111.xml",
+"ne0113.xml"]
 
 i=0
 for doc in listdocs:
