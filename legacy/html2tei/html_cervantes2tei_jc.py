@@ -47,6 +47,10 @@ def cleaningIndent(text):
     text = re.sub(r'<l(>| [^>]*>)\s*</l>', r' ', text)
     text = re.sub(r'<seg(>| [^>]*>)\s*</seg>', r' ', text)
     text = re.sub(r'[\t ]', r' ', text)
+    text = re.sub(r'\s</p>', r'</p>', text)
+    text = re.sub(r'</head><p>', r'</head>\n<p>', text)
+    text = re.sub(r'(<head>|<p>|<l>) +', r'\1', text)
+    
     return text
 
 
@@ -97,6 +101,8 @@ def replacingBasicElements(text):
     """
     It replaces some elements and its styles with TEI elements
     """
+    text = re.sub(r'<p class="subtitulo" align="center">\s*<em>\s*<strong>(.*?)</strong></em></p>', r'<h1>\1</h1>', text, flags=re.DOTALL|re.IGNORECASE)
+
     # Replace some elements with atributes with other cleaner elements
     text = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p style="text-align: justify;text-indent:30px;">', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -132,7 +138,16 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<seg style="font-weight: normal">', r'<seg rend="normal">', text, flags=re.IGNORECASE)
 
- 
+    text = re.sub(r'<span class="h4"><strong>(.*?)</strong></span>', r'<h4>\1</h4>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<ul [^>]*?>(.*?)</ul>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<li>(.*?)</li>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<seg class=\s*"h3">\s*<strong>(.*?)</strong></seg>', r'<h3>\1</h3>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'(</head>|</div>|</p>|</h[1-6]>)\n\s*(<seg.*?</seg>)', r'\1\n<p>\2</p>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p [^>]*?>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
+
+
     return text
 
 def replacingTables(text):
@@ -151,12 +166,20 @@ def replacingTables(text):
     text = re.sub(r'<td style="white-space:nowrap;">(.*?)</td>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
     text = re.sub(r'<tr valign="TOP"><td>(.*?)</td></tr>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)   
 
-    text = re.sub(r'</table>(\s*(<p>|<h[1-6]>))', r'</lg>\1', text, flags=re.DOTALL|re.IGNORECASE)   
+    text = re.sub(r'<td colspan="2" align="right">(.*?)</td>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+
+
     text = re.sub(r'</?t[rd]>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td align="right">', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'(<lg>\s*)<table[^>]*?>', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</table>(\s*</lg>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<td [^>]*>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    
+
+
+    text = re.sub(r'</table>(\s*(<p>|<h[1-6]>))', r'</lg>\1', text, flags=re.DOTALL|re.IGNORECASE)   
+
+    
     text = re.sub(r'<lg>\s*<lg>', r'<lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
 
@@ -165,6 +188,10 @@ def replacingTables(text):
     #text = re.sub(r'(\r?\n)([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{10,500})(\r?\n)', r'\1<ab>\2</ab>\3', text, flags=re.IGNORECASE)
     #Improvement: Actaully it would be better to work with this, but for some reason, it doesn't
     # text = re.sub(r'^([A-Z Á-ÚÜÑ,\.\-\?\!¡¿]{,10})$', r'<ab>\1</ab>', text, flags=re.IGNORECASE)
+    
+    text = re.sub(r'(</h[1-6]>)(\s+<p.*?\s+<ab>.*?\s+)</lg>', r'\1<quote>\2</quote>', text, flags=re.IGNORECASE)
+    text = re.sub(r'(</h[1-6]>)(\s+<p.*?\s+\s+<p.*?\s+<ab>.*?\s+)</lg>', r'\1<quote>\2</quote>', text, flags=re.IGNORECASE)
+    
     return text
 
 def replacingBold(text):
@@ -219,6 +246,18 @@ def setDivs(text):
 
     else:
         print("<h3> found")
+        
+        listh4=re.findall("<h4",text)
+        if listh4:
+            print("<h4> found")
+            # That opens the <div> of a <h3>
+            text = re.sub(r'(</h3>)\s*?(<h4>)', r'\1\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+            # That closes the div of a <h3> and opens one more for a new <h3>
+            text = re.sub(r'(</p>|</ab>|</lg>|<milestone />)\s*?(<h4>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+            # That closes the divs both from <h3> and <h2> and open another for <h2>
+            text = re.sub(r'(</p>|</ab>|</lg>|<milestone />)\s*?(<h3>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        
+            
         # That opens the <div> of a <h3>
         text = re.sub(r'(</h2>)\s*?(<h3>)', r'\1\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         # That closes the div of a <h3> and opens one more for a new <h3>
@@ -243,7 +282,7 @@ def lInLg(text):
     return text
 
 def settingTeiHeader(text):
-    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/toolbox/master/tei/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="publicdomain">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne02</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract source="#">\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv" cert="low">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" subtype="2"></term>\r\n					<term type="subgenre" subtype="1"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n					<term type="protagonist-age"></term>\r\n					<term type="type-end"></term>\r\n					<term type="time-year">18??</term>\r\n					<term type="subgenre-edit" resp="#"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-03-16" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'\A',r'<?xml version="1.0" encoding="UTF-8"?>\r\n<?xml-model href="https://raw.githubusercontent.com/cligs/reference/16dbc551229adc490b871b934b9bee8cd4172303/tei/standard/cligs.rnc" type="application/relax-ng-compact-syntax"?>\r\n<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">\r\n	<teiHeader>\r\n		<fileDesc>\r\n			<titleStmt>\r\n				<title type="main"></title>\r\n				<title type="sub"></title>\r\n				<title type="short"></title>\r\n				<title type="idno">\r\n					<idno type="viaf"></idno></title>\r\n				<author>\r\n					<idno type="viaf"></idno>\r\n					<name type="short"></name>\r\n					<name type="full"></name>\r\n				</author>\r\n				<principal xml:id="jct">José Calvo Tello</principal>\r\n			</titleStmt>\r\n			<publicationStmt>\r\n                <publisher>CLiGS</publisher>\r\n				<availability status="free">\r\n                    <p>The text is freely available.</p>\r\n				</availability>\r\n				<date when="2016">2016</date>\r\n				<idno type="cligs">ne02</idno>\r\n			</publicationStmt>\r\n			<sourceDesc>\r\n				<bibl type="digital-source"><date when="1000"></date>, <idno></idno>, <ref target="#"/>.</bibl>\r\n				<bibl type="print-source"><date when="1000"></date></bibl>\r\n				<bibl type="edition-first"><date when="1000"></date></bibl>\r\n			</sourceDesc>\r\n		</fileDesc>\r\n		<encodingDesc>\r\n			<p>.</p>\r\n		</encodingDesc>\r\n		<profileDesc>\r\n			<abstract source="#">\r\n				<p>.</p>\r\n			</abstract>\r\n			<textClass>\r\n				<keywords scheme="keywords.csv" cert="low">\r\n					<term type="author-continent">Europe</term>\r\n					<term type="author-country">Spain</term>\r\n					<term type="author-gender">male</term>\r\n\r\n					<term type="publication">book</term>\r\n					<term type="form">prose</term>\r\n					<term type="supergenre">narrative</term>\r\n					<term type="genre">novel</term>\r\n					<term type="subgenre" subtype="2"></term>\r\n					<term type="subgenre" subtype="1"></term>\r\n					<term type="subsubgenre"></term>\r\n					<term type="genre-label"></term>\r\n\r\n					<term type="narrative-perspective"></term>\r\n					<term type="setting"></term>\r\n					<term type="protagonist-gender">male</term>\r\n\r\n					<term type="subgenre-lithist"></term>\r\n\r\n					<term type="narrator"></term>\r\n					<term type="setting-name"></term>\r\n					<term type="setting-territory"></term>\r\n					<term type="setting-country"></term>\r\n					<term type="setting-continent"></term>\r\n					\r\n					<term type="representation"></term>\r\n					<term type="protagonist-name"></term>\r\n					<term type="protagonist-profession"></term>\r\n					<term type="protagonist-social-level"></term>\r\n					<term type="time-period"></term>\r\n					<term type="time-span"></term>\r\n					<term type="text-movement"></term>\r\n					<term type="group-text"></term>\r\n					<term type="author-text-relation">none</term>\r\n					<term type="protagonist-age"></term>\r\n					<term type="type-end"></term>\r\n					<term type="time-year">18??</term>\r\n					<term type="subgenre-edit" resp="#"></term>\r\n					<term type="quality-listhist" resp="#"></term>\r\n				</keywords>\r\n			</textClass>\r\n		</profileDesc>\r\n		<revisionDesc>\r\n			<change when="2016-07-20" who="#jct">Initial TEI version.</change>\r\n		</revisionDesc>\r\n	</teiHeader>\r\n    <text>\r\n    	<front>\r\n    	</front>\r\n    	<body>\r\n'    , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
 def main(modo="normal"):
@@ -293,10 +332,10 @@ def main(modo="normal"):
             
             #We introduce the teiHeader
             content=settingTeiHeader(content)
-            
+
             # And once again
-            content=cleaningHTML(content)
-            
+            content=cleaningIndent(content)
+
             # It writes the result in the output folder
     
             with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
@@ -305,4 +344,4 @@ def main(modo="normal"):
         print("Processed documents: ",i)
         i+=1
 
-main(modo="teatro")
+main()
