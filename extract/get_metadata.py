@@ -28,7 +28,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
      
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
-    labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form"]
+    labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form","size_words","size_chars"]
     labels_beta = [ "author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-period"]
 
     labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
@@ -76,6 +76,9 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "keywords-cert": '///tei:keywords/@cert',
               "form": '//tei:term[@type="form"]//text()',
               "author-period": '//tei:term[@type="author-period"]//text()',
+              "size_words": '//tei:extent/tei:measure[@unit="words"]//text()',
+              "size_chars": '//tei:extent/tei:measure[@unit="chars"]//text()',
+
 
                 "crime-fiction": '//*[name()="term"][@type="subgenre"][text()="crime-fiction"]/text()',
                 "adventure": '//*[name()="term"][@type="subgenre"][text()="adventure"]/text()',

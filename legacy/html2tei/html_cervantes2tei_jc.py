@@ -114,12 +114,12 @@ def replacingBasicElements(text):
     text = re.sub(r'<p align="center">(.+?)</p>', r'<p>\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p STYLE= *"text-align: RIGHT">(.+?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p ALIGN="RIGHT">(.+?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<hr.*?>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p(>| [^>]*>)[\*\s]+?</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p><CENTER>[\. ]+?</CENTER>\s*</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p [^>]*?>\s*<hr.*?>\s*</p>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<hr.*?>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p [^>]*?>\s*\* ?\* ?\*</p>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p(>| [^>]*>)[\.\s]+?</p>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p(>| [^>]*>)[\*\s]+?</p>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p><CENTER>[\. ]+?</CENTER>\s*</p>', r'<milestone unit="section"/>', text, flags=re.DOTALL|re.IGNORECASE)
 
     # Replace spain foreign words and italic elements    
     text = re.sub(r'<span [^>]*?lang="([^"]*?)"[^>]*?>(.*?)</span>', r'<seg type="foreign" xml:lang="\1">\2</seg>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -144,10 +144,13 @@ def replacingBasicElements(text):
     text = re.sub(r'<seg class=\s*"h3">\s*<strong>(.*?)</strong></seg>', r'<h3>\1</h3>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'(</head>|</div>|</p>|</h[1-6]>)\n\s*(<seg.*?</seg>)', r'\1\n<p>\2</p>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(<td>)\s*(<seg.*?</seg>)', r'\1\n<p>\2</p>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<p [^>]*?>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<q>(.*?)</q>', r'<seg type="q">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'(</p>\s*)(</seg>)+', r'\2\1', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -309,7 +312,7 @@ def main(modo="normal"):
             #It replaces some HTML elements with TEI elements    
             content=replacingBasicElements(content)
             
-                
+
             #It cleans the white space
             content=cleaningIndent(content)
             
@@ -338,7 +341,7 @@ def main(modo="normal"):
             content=cleaningIndent(content)
 
             # It writes the result in the output folder
-    
+
             with open (os.path.join("output", docFormatOut), "w", encoding="utf-8") as fout:
                 fout.write(content)
         print(doc)
