@@ -47,7 +47,7 @@ def cleaningIndent(text):
     text = re.sub(r'<l(>| [^>]*>)\s*</l>', r' ', text)
     text = re.sub(r'<seg(>| [^>]*>)\s*</seg>', r' ', text)
     text = re.sub(r'[\t ]', r' ', text)
-    text = re.sub(r'\s</p>', r'</p>', text)
+    text = re.sub(r'\s+</p>', r'</p>', text)
     text = re.sub(r'</head><p>', r'</head>\n<p>', text)
     text = re.sub(r'(<head>|<p>|<l>) +', r'\1', text)
     
@@ -147,6 +147,7 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<p [^>]*?>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'<q>(.*?)</q>', r'<seg type="q">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
