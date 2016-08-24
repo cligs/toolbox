@@ -107,7 +107,7 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                 print(str(LexErrCounter["LexNameError"]) + " lexname(s) could not be found in " + str(Filename))
             NewText.append("</sentence>\n</body>")                
             NewText = ''.join(NewText)
-            with open(WordnetFolder+Filename[:-4]+"_a.xml", "w") as OutFile: 
+            with open(WordnetFolder+Filename[:-4]+".xml", "w") as OutFile: 
                 OutFile.write(NewText)
                 
     print("Done.")

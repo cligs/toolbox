@@ -50,9 +50,9 @@ xslt_TEIwrapper = etree.XML('''\
             </TEI>
 		</xsl:template>
 		
-		<xsl:template match="tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]">
+		<xsl:template match="tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]">
 			<xsl:copy>
-				<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d<xsl:value-of select="count(preceding::tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]) + 1"/></xsl:attribute>
+				<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d<xsl:value-of select="count(preceding::tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]) + 1"/></xsl:attribute>
 			</xsl:copy>
 		</xsl:template>
 		
@@ -156,7 +156,7 @@ def prepare_anno(infolder, outfolder):
 		# create one full text file per chapter
 		tei = {'tei':'http://www.tei-c.org/ns/1.0'}
 		cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
-		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div) and not(ancestor::tei:floatingText)]", namespaces=tei)
+		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]", namespaces=tei)
 		
 		if isinstance(cligs_id, list):
 			cligs_id = cligs_id[0]
@@ -182,7 +182,7 @@ def postpare_anno(infolder, outfolder):
 	"""
 	Creates a TEI file from a collection of annotated full text files (one per chapter).
 	Needs an input folder with two subfolders: 'temp' with the TEI file templates and 'anno' with the annotated text in XML format.
-	Expects the annotated files to be named according to the following example/pattern: nh0006_d1_a.xml / [cligs_id]_d[division_id]_a.xml
+	Expects the annotated files to be named according to the following example/pattern: nh0006_d1.xml / [cligs_id]_d[division_id].xml
 	
 	Arguments:
 	infolder (string): path to the input folder (which should contain a folder "temp" with the templates for the new TEI files and a folder "anno" with the annotations in XML format)

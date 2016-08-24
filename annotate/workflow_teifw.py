@@ -19,10 +19,10 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Schreibtisch/Annotest/in"
+infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_master"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Schreibtisch/Annotest/out"
+outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_annotiert"
 
 # language of the texts (possible up to now: fr, es)
 lang = "es"
@@ -43,6 +43,6 @@ from toolbox.annotate import annotate_fw
 
 # by default, it should be enough to change the options above and leave this as is
 
-prepare_tei.prepare("split", infolder, outfolder)
-annotate_fw.annotate_fw(FreeLingPath, os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
-prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))
+#prepare_tei.prepare("split", infolder, outfolder)
+#annotate_fw.annotate_fw(FreeLingPath, os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
+#prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))
