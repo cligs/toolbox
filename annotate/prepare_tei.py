@@ -103,7 +103,7 @@ xslt_joinDIVs = '''\
 		<xsl:template match="tei:text/tei:body/tei:div">
 			<xsl:copy>
 				<xsl:copy-of select="@*"/>
-				<xsl:copy-of select="document(concat($annofolder, @xml:id,'.xml'))//body"/>
+				<xsl:copy-of select="document(concat($annofolder, @xml:id,'.xml'))//wrapper"/>
 			</xsl:copy>
 		</xsl:template>
 		

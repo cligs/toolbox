@@ -13,6 +13,7 @@ import os
 import glob
 import subprocess
 import sys
+from lxml import etree
 
 
 def apply_ht(hdpath, infolder, outfolder, language="ENGLISH", outtype="TIMEML", pos="TREETAGGER"):
@@ -42,6 +43,37 @@ def apply_ht(hdpath, infolder, outfolder, language="ENGLISH", outtype="TIMEML", 
 		print("Treating " + fn + " ...")
 		subprocess.call(command, shell=True)
 	
+	print("Done. " + str(filecounter) + " files treated.")
+	
+	
+def wrap_body(infolder, outfolder):
+	"""
+	Create a body-element to wrap the heideltime annotation results for each file in the collection.
+	
+	Arguments:
+	infolder (string): path to the annotated files
+	outfolder (string): path to the output folder (which should exist)
+	"""
+	inpath = os.path.join(infolder, "*.xml")
+	filecounter = 0
+	
+	print("Starting...")
+	
+	for filepath in glob.glob(inpath):
+		filecounter+= 1
+		fn = os.path.basename(filepath)
+		
+		doc = etree.parse(filepath)
+		root = doc.getroot()
+		
+		wrapper = etree.Element("wrapper")
+		wrapper.append(root)
+		result = str(etree.tostring(wrapper, pretty_print=True, encoding="unicode"))
+		
+		# save the results
+		with open(os.path.join(outfolder, fn), "w") as output:
+			output.write(result)
+		
 	print("Done. " + str(filecounter) + " files treated.")
 
 

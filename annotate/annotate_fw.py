@@ -59,7 +59,7 @@ def use_wordnet(FreelingFolder, WordnetFolder):
             Filename = os.path.basename(File)
             Text = InFile.read()
             Text = re.split("</token>", Text)
-            NewText = ["<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<body>"]
+            NewText = ["<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<wrapper>"]
             for Line in Text[0:-1]:
                 Line = Line + "</token>"
                 #print(Line)
@@ -105,7 +105,7 @@ def use_wordnet(FreelingFolder, WordnetFolder):
             
             if LexErrCounter["LexNameError"] > 0:
                 print(str(LexErrCounter["LexNameError"]) + " lexname(s) could not be found in " + str(Filename))
-            NewText.append("</sentence>\n</body>")                
+            NewText.append("</sentence>\n</wrapper>")                
             NewText = ''.join(NewText)
             with open(WordnetFolder+Filename[:-4]+".xml", "w") as OutFile: 
                 OutFile.write(NewText)
