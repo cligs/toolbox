@@ -107,9 +107,9 @@ def get_names(wdir, txtFolder, to_csv = False, full_name = True, protagonist = T
         regexp_fullnames= "(?<=[a-zá-úñüç,;] )([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | el | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]+)+)"
     
         if re.search(r''+regexp_fullnames+'', content) is None:
-            print("no fullNames found (weird!!!) \n:(\n\n")
+            print("==========\nno fullNames found (weird!!!) \n:(\n\n")
         else:
-            print("\nyey! We found some fullNames :)\n")
+            print("==========\nyey! We found some fullNames :)\n")
             # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
             fullNames = re.findall(r''+regexp_fullnames+'', content)
             # We put the list a counter element
@@ -153,6 +153,7 @@ def get_names(wdir, txtFolder, to_csv = False, full_name = True, protagonist = T
             # And we create a Counter
             count_full_names_protagonist = count_full_names_protagonist+Counter(fullNames)
             #print(count_full_names_protagonist)
+        # Miramos si el contador está vacío
 
         # A data frame is created
         df_count_full_names_protagonists = pd.DataFrame.from_dict(count_full_names_protagonist, orient='index').reset_index()
@@ -167,7 +168,7 @@ def get_names(wdir, txtFolder, to_csv = False, full_name = True, protagonist = T
             df_count_full_names_protagonists.to_csv(wdir+txtFolder+'_full_name_protagonist.csv', sep='\t', encoding='utf-8')
 
         return df_count_full_names_protagonists        
-    
+
     return df_names, 
 
 def get_places(wdir, txtFolder, to_csv = False):
@@ -187,9 +188,9 @@ def get_places(wdir, txtFolder, to_csv = False):
 
     regexp_places = "(?:en|En) ([A-ZÁ-ÚÜÑ][a-zá-úñüç]+(?:(?: de | el | del | de la | |\-)[A-ZÁ-ÚÜÑ][a-zá-úñüç]*)*)"
     if re.search(r''+regexp_places+'', content) is None:
-        print("no place  :(\n\n")
+        print("==========\nno place  :(\n\n")
     else:
-        print("\nyey! We found some places :)\n")
+        print("==========\nyey! We found some places :)\n")
 
         # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
         places = re.findall(r''+regexp_places+'', content)
@@ -228,9 +229,9 @@ def get_time(wdir, txtFolder, to_csv = False):
 
     # We search if there are numbers with four digits in the text at all
     if re.search(r'\D(\d\d\d\d)\D', content) is None:
-        print("no year found :(\n\n")
+        print("==========\nno year found :(\n\n")
     else:
-        print("\nyey! We found some years :)\n")
+        print("==========\nyey! We found some years :)\n")
         
         #We look for them and we format it a little bit
         years = re.findall(r'\D(\d\d\d\d)\D', content)
@@ -283,9 +284,9 @@ def get_narrator(wdir, txtFolder):
 
     # We search if there are numbers with four digits in the text at all
     if re.search(r'\W(dij(?:o|e))\W', content) is None:
-        print("no dijo or dije found  (weird!!!) \n:(\n\n")
+        print("==========\nno dijo or dije found  (weird!!!) \n:(\n\n")
     else:
-        print("\nyey! We found some dijo or dije! :)\n")
+        print("==========\nyey! We found some dijo or dije! :)\n")
 
 
         # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
@@ -317,7 +318,7 @@ def get_gender(wdir, txtFolder):
     if re.search(r'\W(él|ella)\W', content) is None:
         print("no gender found   (weird!!!) \n:(\n\n")
     else:
-        print("\nyey! We found some gender! :)\n")
+        print("==========\nyey! We found some gender! :)\n")
 
 
         # We search for any word that starts with capital letter and that before had the Spanish preposition "de" or "en" (an intuitiv thing I though myself)
@@ -348,4 +349,4 @@ def get_all(wdir, txtFolder):
     return names, places, times, narrators, genders
     
 
-df = get_all("/home/jose/cligs/ne/master/", "ne0002")
+df = get_all("/home/jose/cligs/ne/master/", "ne0230")
