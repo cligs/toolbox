@@ -27,3 +27,14 @@ content = crawler.cv(list_urls, file_name, output_folder)
     text_file.write(content_total)
     text_file.close()
     return content
+
+
+
+list_urls = [
+"http://www.cervantesvirtual.com/obra-visor/el-medico-rural--0/html/fef4b3ac-82b1-11df-acc7-002185ce6064_1.htm",
+"http://www.cervantesvirtual.com/obra-visor/el-medico-rural--0/html/fef4b3ac-82b1-11df-acc7-002185ce6064_2.htm",
+
+]
+file_name = "ne0227_Trigo_Medico"
+output_folder = "/home/jose/cligs/ne/import/"
+content = cv(list_urls, file_name, output_folder)
