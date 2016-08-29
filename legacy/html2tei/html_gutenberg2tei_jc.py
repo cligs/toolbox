@@ -119,7 +119,7 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<p>[\* ]+</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="nind">[\s]*<span class="letrre"></span>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="r">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(?:r|r smcap)">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<div class="stanza">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="poem">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
