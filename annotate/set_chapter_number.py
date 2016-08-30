@@ -15,7 +15,7 @@ import os
 This script helps the editor to set the numbers of the chapter as attribute in the div
 
 To use all of them just use:
-df = from_head("/home/jose/cligs/ne/master/", "ne0293.xml")
+df = numbering("/home/jose/cligs/ne/master/", "ne0230.xml", mode="from_head")
 """
 
 def numbering(wdir, txtFolder, mode="from_head"):
@@ -51,4 +51,3 @@ def numbering(wdir, txtFolder, mode="from_head"):
     return content
 
     
-df = numbering("/home/jose/cligs/ne/master/", "ne0230.xml", mode="from_head")
