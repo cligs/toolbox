@@ -18,7 +18,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     Extracts metadata from the CLiGs teiHeader and writes it to CSV.
     mode (string): "obl", "obl-opt" or "beta-opt-obl".
     Example of how to use this function:
-        from toolbox.extract import get_metadata        
+        from extract import get_metadata        
         get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl-subgenre")
 
     """
@@ -29,7 +29,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
      
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form","size_words","size_chars"]
-    labels_beta = [ "author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-period"]
+    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-period", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-movement", "author-prefered-genre", "text-lithist-range"]
 
     labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
     
@@ -78,6 +78,14 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "author-period": '//tei:term[@type="author-period"]//text()',
               "size_words": '//tei:extent/tei:measure[@unit="words"]//text()',
               "size_chars": '//tei:extent/tei:measure[@unit="chars"]//text()',
+
+              "author-date-birth": '//tei:term[@type="author-date-birth"]//text()',
+              "author-date-death": '//tei:term[@type="author-date-death"]//text()',
+              "author-TOC-range": '//tei:term[@type="author-TOC-range"]//text()',
+              "author-histlit-pages": '//tei:term[@type="author-histlit-pages"]//text()',
+              "author-movement": '//tei:term[@type="author-movement"]//text()',
+              "author-prefered-genre": '//tei:term[@type="author-prefered-genre"]//text()',
+              "text-lithist-range": '//tei:term[@type="text-lithist-range"]//text()',
 
 
                 "crime-fiction": '//*[name()="term"][@type="subgenre"][text()="crime-fiction"]/text()',
