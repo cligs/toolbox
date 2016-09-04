@@ -24,10 +24,11 @@ import math
 #import argparse
 
 
-ZFDir = "/media/christof/data/Dropbox/0-Analysen/2016/dramenanalyse/dlina/zf_test/"
-DataDir = "/media/christof/data/Dropbox/0-Analysen/2016/dramenanalyse/dlina/data/"
-GraphDir = "/media/christof/data/Dropbox/0-Analysen/2016/dramenanalyse/dlina/viz/"
-action = "dramavis"
+WorkDir = "/"
+ZFDir = WorkDir+"zf/"
+DataDir = WorkDir+"data/"
+GraphDir = WorkDir+"viz/"
+action = WorkDir+"dramavis"
 debug = False
 random = False
  
