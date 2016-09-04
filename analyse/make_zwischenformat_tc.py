@@ -15,9 +15,9 @@ from collections import Counter
 
 
 
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/dramenanalyse/dlina/"
-OutFolder = "/media/christof/data/Dropbox/0-Analysen/2016/dramenanalyse/dlina/zf/"
-InPath = WorkDir+"tei/*0.xml"
+WorkDir = "/"
+InPath = WorkDir+"tei/*.xml"
+OutFolder = WorkDir+"zf/"
 
 
 
