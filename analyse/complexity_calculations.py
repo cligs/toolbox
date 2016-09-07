@@ -38,12 +38,12 @@ import sys
 # Parameters / Settings
 #=======================
 
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/simenon/complexity/"
+WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/simenon/analyses/"
 InPath = WorkDir+"txt/*.txt"
 TestType = "RandomWindow" # MovingWindow|RandomSample|RandomWindow
 UnitLength = 5000
-BasicVocab = WorkDir+"liste-brunet.csv"
-ResultsFile = WorkDir+"results.csv"
+BasicVocab = WorkDir+"data_1500motsFR.csv"
+ResultsFile = WorkDir+"data_"+TestType+"-"+str(UnitLength)+".csv"
 
 
 #====================
@@ -91,7 +91,8 @@ def get_sent_stats(LengthsWords, Idno):
     SentLenMean = np.mean(LengthsWords)
     SentLenMedian = np.median(LengthsWords)
     SentLenStdev = np.std(LengthsWords)
-    SentStats = [Idno, NumWords, NumSents, SentLenMean, SentLenMedian, SentLenStdev]
+    SentLenVarc = SentLenStdev / SentLenMean
+    SentStats = [Idno, NumWords, NumSents, SentLenMean, SentLenMedian, SentLenStdev, SentLenVarc]
     #SentStats = pd.Series(Stats, name=Idno)
     return SentStats
 
@@ -200,14 +201,16 @@ def get_bvr(Unit, UnitLength, BasicVocab):
 def get_vocab_stats(TextTTRs, TextBVRs):
     TTRMean = np.mean(TextTTRs)
     TTRStdev = np.std(TextTTRs)
+    TTRVarc = TTRStdev / TTRMean
     BVRMean = np.mean(TextBVRs)
     BVRStdev = np.std(TextBVRs)
-    TextResults = [TTRMean, TTRStdev, BVRMean, BVRStdev]
+    BVRVarc = BVRStdev / BVRMean
+    TextResults = [TTRMean, TTRStdev, TTRVarc, BVRMean, BVRStdev, BVRVarc]
     #TextResults = pd.Series(TextResults, name=Idno)
     return(TextResults)
 
 def save_results(CollResults, ResultFile, TestType, UnitLength): 
-    with open(ResultFile[0:-4]+"_"+TestType+"-"+str(UnitLength)+".csv", "w") as OutFile: 
+    with open(ResultFile, "w") as OutFile: 
         CollResults.to_csv(OutFile)
 
 # =============================
@@ -250,7 +253,7 @@ def assess_vocabulary(InPath, TestType, UnitLength, ResultsFile, BasicVocab):
             CombinedResults = pd.Series(SentStats)
         elif TestType == "RandomWindow": 
             Counter = 0 
-            while Counter < 100: 
+            while Counter < 20: 
                 Counter +=1
                 Start = random.choice(list(range(0,len(Text)-UnitLength)))
                 Unit = make_moving_unit(Text, Start, UnitLength)
@@ -265,9 +268,9 @@ def assess_vocabulary(InPath, TestType, UnitLength, ResultsFile, BasicVocab):
             CombinedResults = pd.Series(SentStats)
         CollResults = CollResults.append(CombinedResults, ignore_index=True)
         FileCounter +=1
-        sys.stdout.write("\r"+str(FileCounter)+"/554")
+        sys.stdout.write("\r"+str(FileCounter)+"/627")
         #print("Files done", FileCounter)
-    CollResults.columns = ["idno", "NumWords", "NumSents", "SLMean", "SLMedian", "SLStdev", "TTR-mean", "TTR-stdev", "BVR-mean", "BVR-stdev", "DirectPerc"]
+    CollResults.columns = ["idno", "NumWords", "NumSents", "SLMean", "SLMedian", "SLStdev", "SLVarc", "TTR-mean", "TTR-stdev", "TTRVarc", "BVR-mean", "BVR-stdev", "BVRVarc", "DirectPerc"]
     #print(CollResults)
     save_results(CollResults, ResultsFile, TestType, UnitLength)
 
