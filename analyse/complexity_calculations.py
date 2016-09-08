@@ -38,7 +38,7 @@ import sys
 # Parameters / Settings
 #=======================
 
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/simenon/analyses/"
+WorkDir = "/"
 InPath = WorkDir+"txt/*.txt"
 TestType = "RandomWindow" # MovingWindow|RandomSample|RandomWindow
 UnitLength = 5000
