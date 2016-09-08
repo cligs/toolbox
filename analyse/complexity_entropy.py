@@ -18,6 +18,9 @@ todo:
 _____
 *http://www.plosone.org/article/info:doi/10.1371/journal.pone.0012262
 
+Author: Fotis Jannidis.
+All errors introduced by me when adapting this are of course my fault (#cf)
+
 """
 
 import glob

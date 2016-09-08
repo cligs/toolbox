@@ -7,27 +7,35 @@
 
 
 # Import statements
-
+import sys
 import pandas as pd
 import numpy as np
+import scipy
 import scipy.stats as stats
 import itertools as itt
 import pygal
 import csv
 
+# Package versions
+print("python exectuable:", sys.executable)
+print("numpy version:", np.__version__)
+print("pandas version:", pd.__version__)
+print("scipy version:", scipy.__version__)
+print("pygal version:", pygal.__version__)
 
 # Directories and file names for input
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/simenon/analyses/"
+WorkDir = "/"
 ComplexityFile = WorkDir+"data_RandomWindow-5000.csv"
 EntropyFile = WorkDir+"data_entropy.csv"
 MetadataFile = WorkDir+"data_metadata.csv"
 
-# Data selection: filter (0,1); splitting (2,3), filter (4,5)
+# Data selection: filtering and splitting
 SelectionType = "filtered-two" 
-OneFilter = ["genre", "novel", "subcorpus", "contemporains", "creation", list(range(1925, 1975))]
-TwoFilter = ["genre", "novel", "subcorpus", "simenon", "creation", list(range(1925, 1975))]
+OneFilter = ["subcorpus", "simenon", "simenon-types", "maigret", "creation", list(range(1930, 1942))]
+TwoFilter = ["subcorpus", "simenon", "simenon-types", "romans", "creation", list(range(1930, 1942))]
 Dimensions = ["creation", "SLMean"]
-
+Alternative = "two-sided" #less|greater|two-sided
+ 
 # Graph style
 my_style = pygal.style.Style(
   background='white',
@@ -72,9 +80,7 @@ def merge_data(ComplexityFile, EntropyFile, MetadataFile):
     AllData = pd.merge(ComplexityData, EntropyData, on="idno")
     AllData = pd.merge(AllData, Metadata, on="idno")
     #print(AllData.head())
-    with open("data_mastermatrix.csv", "w") as OutFile:
-        print("Saving:", "data_mastermatrix.csv")
-        AllData.to_csv(OutFile)
+    save_csv(AllData, "data_mastermatrix.csv")
     return AllData 
 
 def save_data(Results, File): 
@@ -83,6 +89,11 @@ def save_data(Results, File):
         writer = csv.writer(OutFile)
         writer.writerows(Results)
 
+def save_csv(Results, File): 
+    with open(File, "w") as OutFile:
+        print("Saving:", File)
+        Results.to_csv(OutFile)
+    
 
 def filter_two_data(AllData, OneFilter, TwoFilter): 
     """
@@ -101,7 +112,8 @@ def filter_two_data(AllData, OneFilter, TwoFilter):
     TwoData = TwoData[TwoData[TwoFilter[2]].isin([TwoFilter[3]])]
     TwoData = TwoData[TwoData[TwoFilter[4]].isin(TwoFilter[5])]
     print("TwoData:", len(TwoData), "items.")
-    #print(TwoData)
+    save_csv(OneData, "temp_onedata.csv")
+    save_csv(TwoData, "temp_twodata.csv")
     return OneData, TwoData
 
 
@@ -155,19 +167,33 @@ def make_two_plot(OnePoints, TwoPoints, OneFilter, TwoFilter, GraphFile, MainTit
     chart.render_to_file(GraphFile)
 
 
-def test_mannwhitney(OneData, TwoData, OneFilter, TwoFilter, Dimensions):
+def test_mannwhitney(OneData, TwoData, OneFilter, TwoFilter, Dimensions, Alternative):
     """
     # Performs the Mann-Whitney-U-test for two independent samples that may not be normally distributed. 
     # See: http://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.mannwhitneyu.html
     # Status: Ok, but not entirely confident all is correct.
     """
-    Results = [["feature", "category", "group1", "group2", "mw-statistic", "p-value", "mean1", "mean2", "ratio-1/2"]]
-    Significance =  stats.mannwhitneyu(OneData.loc[:,Dimensions[1]], TwoData.loc[:,Dimensions[1]], alternative="two-sided")
+    Results = [["feature", "category", "group1", "group2", "mw-statistic", "p-value", "mean1", "mean2", "ratio-1/2", "iqr1", "iqr2", "00p1", "05p1", "25p1", "75p1", "95p1", "100p1", "00p2", "05p2", "25p2", "75p2", "95p2", "100p2"]]
+    Significance =  stats.mannwhitneyu(OneData.loc[:,Dimensions[1]], TwoData.loc[:,Dimensions[1]], alternative=Alternative)
     Result = [Dimensions[1], OneFilter[2], OneFilter[3], TwoFilter[3], Significance[0], Significance[1]]
     MeanOne = np.mean(OneData.loc[:,Dimensions[1]])
     MeanTwo = np.mean(TwoData.loc[:,Dimensions[1]])
     Ratio12 = MeanOne/MeanTwo
-    Result.extend([MeanOne, MeanTwo, Ratio12])
+    iqrOne = stats.iqr(OneData.loc[:,Dimensions[1]])    
+    iqrTwo = stats.iqr(TwoData.loc[:,Dimensions[1]])
+    Perc00One = np.percentile(OneData.loc[:,Dimensions[1]], 0) 
+    Perc05One = np.percentile(OneData.loc[:,Dimensions[1]], 5) 
+    Perc25One = np.percentile(OneData.loc[:,Dimensions[1]], 25) 
+    Perc75One = np.percentile(OneData.loc[:,Dimensions[1]], 75) 
+    Perc95One = np.percentile(OneData.loc[:,Dimensions[1]], 95) 
+    Perc100One = np.percentile(OneData.loc[:,Dimensions[1]], 100) 
+    Perc00Two = np.percentile(TwoData.loc[:,Dimensions[1]], 0) 
+    Perc05Two = np.percentile(TwoData.loc[:,Dimensions[1]], 5) 
+    Perc25Two = np.percentile(TwoData.loc[:,Dimensions[1]], 25) 
+    Perc75Two = np.percentile(TwoData.loc[:,Dimensions[1]], 75) 
+    Perc95Two = np.percentile(TwoData.loc[:,Dimensions[1]], 95) 
+    Perc100Two = np.percentile(TwoData.loc[:,Dimensions[1]], 100) 
+    Result.extend([MeanOne, MeanTwo, Ratio12, iqrOne, iqrTwo, Perc00One, Perc05One, Perc25One, Perc75One, Perc95One, Perc100One, Perc00Two, Perc05Two, Perc25Two, Perc75Two, Perc95Two, Perc100Two])
     Results.append(Result)
     return Results
 
@@ -194,7 +220,6 @@ def check_correlations(OneData, TwoData):
     return Results
 
 
-
 # Coordination function
 def complexity_analyses(DataFile, 
                         EntropyFile, 
@@ -208,18 +233,17 @@ def complexity_analyses(DataFile,
                         XTitle,
                         YTitle,
                         CorrelationsFile, 
-                        SignificanceFile):
+                        SignificanceFile,
+                        Alternative):
     AllData = merge_data(DataFile, EntropyFile, MetadataFile)
-    if SelectionType == "filtered-two": 
+    if SelectionType == "filtered-two":  # more types will be implemented later
         OneData, TwoData = filter_two_data(AllData, OneFilter, TwoFilter)
         OnePoints, TwoPoints = make_two_points(OneData, TwoData, Dimensions)
         make_two_plot(OnePoints, TwoPoints, OneFilter, TwoFilter, GraphFile, MainTitle, XTitle, YTitle)
-        Significance = test_mannwhitney(OneData, TwoData, OneFilter, TwoFilter, Dimensions)
+        Significance = test_mannwhitney(OneData, TwoData, OneFilter, TwoFilter, Dimensions, Alternative)
         save_data(Significance, SignificanceFile)
         Correlations = check_correlations(OneData,TwoData)
         save_data(Correlations, CorrelationsFile)
-    
-                
     
 complexity_analyses(ComplexityFile, 
                     EntropyFile, 
@@ -233,7 +257,8 @@ complexity_analyses(ComplexityFile,
                     XTitle,
                     YTitle,
                     CorrelationsFile, 
-                    SignificanceFile)
+                    SignificanceFile,
+                    Alternative)
 
 
 

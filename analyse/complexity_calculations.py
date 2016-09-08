@@ -86,6 +86,10 @@ def get_lengths(Text):
     return LengthsWords
 
 def get_sent_stats(LengthsWords, Idno): 
+    """
+    # Calculates some basic sentence length statistics. 
+    # Status: Ok, but add IQR and 25-percentile, 75-percentile
+    """
     NumWords = sum(LengthsWords)
     NumSents = len(LengthsWords)
     SentLenMean = np.mean(LengthsWords)
