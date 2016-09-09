@@ -20,6 +20,8 @@ def replacingElements(text):
     text = re.sub(r'</body>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<back>', r'<div class="back">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</back>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div\s+type="(.*?)"\s+n="(\d+)">', r'<div class="\1" id="\1\2">', text, flags=re.DOTALL|re.IGNORECASE)    
+    text = re.sub(r'<div\s+type="(.*?)">', r'<div class="\1">', text, flags=re.DOTALL|re.IGNORECASE)    
     text = re.sub(r'head>', r'h2>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<lg>', r'<div class="lg">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</lg>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -29,7 +31,7 @@ def replacingElements(text):
     text = re.sub(r'</quote>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<floatingText>', r'<div class="floatingText">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</floatingText>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<milestone />', r'<hr />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<milestone [^>]*?/>', r'<hr />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<ab>(.*?)</ab>', r'<p class="ab">\1</p>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<sp>', r'<div class="sp">', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'</sp>', r'</div>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -67,10 +69,8 @@ def settingHead(text):
     text = re.sub(r'\Z',r'</body>\r\n</html>' , text, flags=re.DOTALL|re.IGNORECASE)
     return text
 
-listdocs=["ne0125.xml",
-"ne0126.xml",
-"ne0111.xml",
-"ne0113.xml"]
+listdocs=["ne0198.xml",
+"ne0320.xml"]
 
 i=0
 for doc in listdocs:

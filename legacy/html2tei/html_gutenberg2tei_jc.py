@@ -114,17 +114,16 @@ def replacingBasicElements(text):
     text = re.sub(r'<hr[^>]*?>(\s*<(div|h[1-6])[^>]*?>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<div class="footnote">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    
 
-    text = re.sub(r'<p class="c"> *\* *\* *\* *</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
-
-    text = re.sub(r'<p>[\* ]+</p>', r'<milestone />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p>[\* ]+</p>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="nind">[\s]*<span class="letrre"></span>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="(?:r|r smcap)">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(?:r|r smcap|c)">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
 
     text = re.sub(r'<div class="stanza">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="poem">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'<small(|[^>]*)>(.*?)</small>', r'<seg rend="small">\2</seg>', text, flags=re.IGNORECASE)
+    text = re.sub(r'<small(?:|[^>]*?)>(.*?)</small>', r'<seg rend="small">\1</seg>', text, flags=re.IGNORECASE|re.DOTALL)
 
     text = re.sub(r'^<span class="i[01]">(.*?)<br></span>$', r'<l>\1</l>', text, flags=re.IGNORECASE|re.M)
 
@@ -138,7 +137,7 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<hr[^>]*?>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'<br>', r'<br />', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<br */?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="blockquot">(.*?)</div>', r'<floatingText>\n<body>\n<div>\1</div>\n</body>\n</floatingText>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="smcap">(.*?)</span>', r'<seg rend="smallcaps">\1</seg>', text, flags=re.IGNORECASE)
 
@@ -150,6 +149,14 @@ def replacingBasicElements(text):
 
 
     text = re.sub(r'<sup>(.*?)</sup>', r'<seg rend="sup">\1</seg>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<table border="0" cellpadding="0" cellspacing="0" summary="">(.*?)</table>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<tr><td align="left">(.*?)</td></tr>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p class="date">(.*?)</p>', r'<milestone unit="section" />\n<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+
+    text = re.sub(r'<p +class="cb?">[\. \*\n\—]+</p>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
 
     return text
 
@@ -172,7 +179,7 @@ def setDivs(text):
     if not listh3:
         print("<h3> not found")
         # That closes the <div> of an <h2> and opens another one
-        text = re.sub(r'(</p>|</ab>|</lg>|<milestone />)\s*?(<h2>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>|<milestone unit="section" />)\s*?(<h2>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
 
         # That closes the last <div> from <h2>
         text = re.sub(r'\Z', r'</div>\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -182,9 +189,9 @@ def setDivs(text):
         # That opens the <div> of a <h3>
         text = re.sub(r'(</h2>)\s*?(<h3>)', r'\1\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         # That closes the div of a <h3> and opens one more for a new <h3>
-        text = re.sub(r'(</p>|</ab>|</lg>|<milestone />)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>|<milestone unit="section" />)\s*?(<h3>)', r'\1\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         # That closes the divs both from <h3> and <h2> and open another for <h2>
-        text = re.sub(r'(</p>|</ab>|</lg>|<milestone />)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
+        text = re.sub(r'(</p>|</ab>|</lg>|<milestone unit="section" />)\s*?(<h2>)', r'\1\r\n</div>\r\n</div>\r\n<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
         
         # That closes the last divs from <h2> and <h3>
         text = re.sub(r'\Z', r'</div>\r\n</div>\r\n		</body>\r\n		<back>\r\n			<div>\r\n					<p></p>\r\n			</div>\r\n		</back>\r\n	</text>\r\n</TEI>', text, flags=re.DOTALL|re.IGNORECASE)
