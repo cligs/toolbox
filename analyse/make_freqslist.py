@@ -5,9 +5,10 @@
 
 
 """
-Creates an overall item frequency list for a corpus.
-Items can be raw tokens, word tokens, lowercase word tokens, or lemmas.
-TODOs: Solution for frequent apostrophe'd words; Lemma mode. 
+Creates an overall relative frequency list for items in a text collection.
+Items can be raw word tokens, lowercase word tokens, or lemmata (using TreeTagger).
+Data can be relative frequency per 1000 words or proportion of texts containing item at least once.
+TODOs: Solution for frequent apostrophe'd / hyphenated words; Complete punctuation. 
 """
 
 
@@ -15,11 +16,13 @@ TODOs: Solution for frequent apostrophe'd words; Lemma mode.
 # Parameters
 #####################
 
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/wordlist/"
-TextPath = WorkDir + "txt/*.txt"
-Modes = ["tokens", "words", "lower"] # tokens|words|lower|lemmas
-Tokenizer = "\W"
-Punctuation = "[.,:;!?«»]"
+WorkDir = "/" # ends on slash
+TextPath = WorkDir + "test/*.txt"
+Modes = ["raw-words", "lower-words", "lemmata"] # raw-words|lower-words|lemmata
+Types = ["props", "freqs"] #props|freqs
+Tokenizer = "[\W]"
+Punctuation = "[.,:;!?«»\(\)]"
+FreqFilePrefix = "fr-20th-novel"
 
 
 
@@ -32,7 +35,7 @@ import re
 import glob
 import pandas as pd
 from collections import Counter
-#import treetaggerwrapper
+import treetaggerwrapper as ttw
 
 
 #####################
@@ -46,31 +49,21 @@ def read_file(File):
     with open(File, "r") as InFile: 
         Text = InFile.read()
         Filename, Ext = os.path.basename(File).split(".")
-        #print(Filename, "; chars:", len(Text))
     return Text
-
-
-def get_tokens(Text, Tokenizer):
-    """
-    Turn a string into a list of tokens.
-    """
-    Text = re.sub("peut-être", "peut_être", Text)
-    Text = re.sub("aujourd'hui", "aujourd_hui", Text)    
-    Tokens = re.split(Tokenizer, Text)
-    Tokens = [Token for Token in Tokens if len(Token) != 0]
-    #print(Tokens[0:10])
-    #print("Tokens,", len(Tokens))
-    return Tokens
 
 
 def get_words(Text, Tokenizer, Punctuation):
     """
-    Same as Tokens, but exclude punctuation.
+    Turn a string into a list of word tokens (excluding punctuation).
     """
-    Tokens = get_tokens(Text, Tokenizer)
-    Words = [Word for Word in Tokens if Word not in Punctuation]
-    #print(Words[0:10])
-    #print("word tokens,", len(Words))
+    Text = re.sub("peut-être", "peut_être", Text)
+    Text = re.sub("aujourd'hui", "aujourd_hui", Text)  
+    Text = re.sub("après-midi", "après_midi", Text)  
+    Text = re.sub("d'ailleurs", "d_ailleurs", Text)  
+    Text = re.sub("c'est-à-dire", "c_est_à_dire", Text)  
+    Words = re.split(Tokenizer, Text)
+    Words = [Word for Word in Words if len(Word) != 0]
+    Words = [Word for Word in Words if Word not in Punctuation]
     return Words
 
 
@@ -80,37 +73,82 @@ def get_lower(Text, Tokenizer, Punctuation):
     """
     Words = get_words(Text, Tokenizer, Punctuation)
     Lower = [Word.lower() for Word in Words]
-    #print(Lower[0:10])
-    #print("lower word tokens,", len(Lower))    
     return Lower
 
-def get_lemmas(Text):
-    """
-    Same as lower, but reduces all forms to their lemma.
-    """
-    return Lemmas
+def get_lemmata(Text, Punctuation):
+    tagger = ttw.TreeTagger(TAGLANG='fr')
+    Tagged = tagger.tag_text(Text)
+    Lemmata = []
+    AmbLemmata = []
+    for Item in Tagged: 
+        Item = re.split("\t", Item)
+        Lemma = Item[2]
+        if Lemma == "d": 
+            Lemma = "de"
+        if Lemma == "n": 
+            Lemma = "ne"
+        if Lemma == "l": 
+            Lemma = "le"
+        if Lemma == "j": 
+            Lemma = "je"
+        if Lemma == "t": 
+            Lemma = "tu"
+        if Lemma == "qu": 
+            Lemma = "que"
+        if Lemma == "la|le": 
+            Lemma = "la"
+        if Lemma == "sommer|être": 
+            Lemma = "être"
+        if Lemma == "suivre|être": 
+            Lemma = "être"
+        if Lemma == "foi|fois": 
+            Lemma = "fois"
+        if Lemma == "ouvrer|ouvrir": 
+            Lemma = "ouvrir"
+        if Lemma == "sen|sens": 
+            Lemma = "sens"
+        if Lemma == "jacque|jacques": 
+            Lemma = "jacques"
+        if "|" in Lemma: 
+            AmbLemmata.append(Lemma)
+            Lemma = re.split("\|", Lemma)[0]
+        Lemmata.append(Lemma)
+    AmbLemmata = Counter(AmbLemmata)
+    Lemmata = [Lemma for Lemma in Lemmata if Lemma not in Punctuation]
+    Lemmata = [Lemma for Lemma in Lemmata if Lemma not in ["--", "---", "...", "@card@", "@ord@"]]
+    return Lemmata
+    
 
-def get_itemfreqs(AllItems):
+def get_itemfreqs(AllItems, Type, Mode, TextCounter):
     """
     Get the overall frequency of each item in the text collection.
-    """
+    Calculate relative frequency or proportion of texts containing the item.
+    Sort by descending frequency / proportion, transform to DataFrame.
+    """    
     ItemFreqs = Counter(AllItems)
-    #print(ItemFreqs.most_common(10))
-    return ItemFreqs
-
-def save_csv(ItemFreqs, Mode): 
-    """
-    Transform to DataFrame, sort descending, save to file.
-    """
     ItemFreqs = pd.DataFrame.from_dict(ItemFreqs, orient="index").reset_index()
     ItemFreqs.columns = [Mode, "freqs"]
     ItemFreqs.sort_values(["freqs", Mode], ascending=[False, True], inplace=True)
     ItemFreqs = ItemFreqs.reset_index(drop=True)
-    #print(ItemFreqs.head())
-    #print(ItemFreqs.iloc[100:105,:])
-    #print(ItemFreqs.iloc[1000:1005,:])
-    #print(ItemFreqs.iloc[-5:,:])
-    ItemFreqsFile = WorkDir + "wordlist_"+Mode+".csv"
+    if Type == "freqs":
+        ItemFreqsRel = pd.DataFrame(ItemFreqs.loc[:,"freqs"].div(len(AllItems))*1000)
+        ItemFreqsRel.columns = ["per1000"]
+        ItemFreqs = pd.concat([ItemFreqs, ItemFreqsRel], axis=1, join="outer")
+        ItemFreqs = ItemFreqs.drop("freqs", axis=1)
+    elif Type == "props": 
+        ItemFreqsRel = pd.DataFrame(ItemFreqs.loc[:,"freqs"].div(TextCounter)*100)
+        ItemFreqsRel.columns = ["in%texts"]
+        ItemFreqs = pd.concat([ItemFreqs, ItemFreqsRel], axis=1, join="outer")
+        ItemFreqs = ItemFreqs.drop("freqs", axis=1)
+    return ItemFreqs
+
+
+def save_csv(ItemFreqs, FreqFilePrefix, Type, Mode): 
+    """
+    Save to file.
+    """
+    ItemFreqsFile = WorkDir + FreqFilePrefix +"_"+ Type +"-"+ Mode+".csv"
+    print("Saving", os.path.basename(ItemFreqsFile))
     with open(ItemFreqsFile, "w") as OutFile: 
         ItemFreqs.to_csv(OutFile)
 
@@ -120,31 +158,35 @@ def save_csv(ItemFreqs, Mode):
 # Main
 ####################
 
-
-def main(TextPath, Modes, Tokenizer, Punctuation): 
+def main(TextPath, Modes, Types, Tokenizer, Punctuation, FreqFilePrefix): 
     print("Launched.")
-    for Mode in Modes: 
-        print("Getting", Mode)
-        AllItems = []
-        for File in glob.glob(TextPath): 
-            Text = read_file(File)
-            if Mode == "tokens": 
-                Tokens = get_tokens(Text, Tokenizer)
-                AllItems = AllItems + Tokens
-            if Mode == "words": 
-                Words = get_words(Text, Tokenizer, Punctuation)
-                AllItems = AllItems + Words
-            if Mode == "lower": 
-                Lower = get_lower(Text, Tokenizer, Punctuation)
-                AllItems = AllItems + Lower
-            #elif Mode == "lemmas": 
-                #Lemmas = get_lemmas(Text)
-                #    AllItems = AllItems + Lemmas
-        ItemFreqs = get_itemfreqs(AllItems)
-        save_csv(ItemFreqs, Mode)    
+    for Type in Types:
+        for Mode in Modes: 
+            AllItems = []
+            TextCounter = 0
+            for File in glob.glob(TextPath): 
+                TextCounter +=1
+                Text = read_file(File)
+                if Mode == "raw-words": 
+                    Words = get_words(Text, Tokenizer, Punctuation)
+                    if Type == "props":
+                        Words = list(set(Words))
+                    AllItems = AllItems + Words
+                if Mode == "lower-words": 
+                    Lower = get_lower(Text, Tokenizer, Punctuation)
+                    if Type == "props":
+                        Lower = list(set(Lower))
+                    AllItems = AllItems + Lower
+                if Mode == "lemmata": 
+                    Lemmata = get_lemmata(Text, Punctuation)
+                    if Type == "props":
+                        Lemmata = list(set(Lemmata))
+                    AllItems = AllItems + Lemmata
+            ItemFreqs = get_itemfreqs(AllItems, Type, Mode, TextCounter)
+            save_csv(ItemFreqs, FreqFilePrefix, Type, Mode)    
     print("Done.")
 
-main(TextPath, Modes, Tokenizer, Punctuation)
+main(TextPath, Modes, Types, Tokenizer, Punctuation, FreqFilePrefix)
 
 
 
