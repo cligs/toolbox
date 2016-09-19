@@ -30,7 +30,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form",]
     labels_structure = ["size_words","size_chars", "size_divs", "size_verses", "size_sps", "size_pds", "size_numbers", "size_puncts", "size_blocks"]
-    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-lithist-range","text-histlit-pages","author-year-change"]
+    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change"]
 
     labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
     
@@ -85,7 +85,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "author-submovement": '//tei:term[@type="author-submovement"]//text()',
               "author-non-novel-genre": '//tei:term[@type="author-non-novel-genre"]//text()',
               "author-year-change": '//tei:term[@type="author-year-change"]//text()',
-              "text-lithist-range": '//tei:term[@type="text-lithist-range"]//text()',
+              "text-TOC-range": '//tei:term[@type="text-TOC-range"]//text()',
               "text-histlit-pages": '//tei:term[@type="text-histlit-pages"]//text()',
 
               "size_words": '//tei:extent/tei:measure[@unit="words"]//text()',
@@ -128,19 +128,21 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
 
     # Mode is selected: obligatory, optional or beta
     if mode =="obl":
-        labels=labels_obl
+        labels = labels_obl
     elif mode =="opt-obl":
-        labels=labels_obl+labels_opt
+        labels = labels_obl+labels_opt
+    elif mode =="beta-opt-obl":
+        labels = labels_obl+labels_opt+labels_beta
     elif mode =="opt-obl-structure":
-        labels=labels_obl+labels_opt+labels_structure
+        labels = labels_obl+labels_opt+labels_structure
     elif mode =="opt-obl-subgenre":
-        labels=labels_obl+labels_opt+labels_subgenre
+        labels = labels_obl+labels_opt+labels_subgenre
     elif mode =="beta-opt-obl-structure":
-        labels=labels_obl+labels_opt+labels_beta+labels_structure
+        labels = labels_obl+labels_opt+labels_beta+labels_structure
     elif mode == "beta-opt-obl-subgenre":
-        labels=labels_obl+labels_opt+labels_beta+labels_subgenre
+        labels = labels_obl+labels_opt+labels_beta+labels_subgenre
     elif mode == "beta-opt-obl-subgenre-structure":
-        labels=labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
+        labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
