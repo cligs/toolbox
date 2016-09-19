@@ -17,7 +17,7 @@ TODOs: Solution for frequent apostrophe'd / hyphenated words; Complete punctuati
 #####################
 
 WorkDir = "/" # ends on slash
-TextPath = WorkDir + "test/*.txt"
+TextPath = WorkDir + "txt/*.txt"
 Modes = ["raw-words", "lower-words", "lemmata"] # raw-words|lower-words|lemmata
 Types = ["props", "freqs"] #props|freqs
 Tokenizer = "[\W]"
