@@ -21,8 +21,8 @@ TextPath = WorkDir + "txt/*.txt"
 Modes = ["raw-words", "lower-words", "lemmata"] # raw-words|lower-words|lemmata
 Types = ["props", "freqs"] #props|freqs
 Tokenizer = "[\W]"
-Punctuation = "[.,:;!?«»\(\)]"
-FreqFilePrefix = "fr-20th-novel"
+Punctuation = "[.,:;!?«»\(\)—\"]"
+FreqFilePrefix = "./freqlists/fr-20th-novel"
 
 
 
@@ -44,11 +44,12 @@ import treetaggerwrapper as ttw
 
 def read_file(File):
     """
-    # Read a text file and return as string.
+    Read a text file and return as string.
     """
     with open(File, "r") as InFile: 
         Text = InFile.read()
         Filename, Ext = os.path.basename(File).split(".")
+        #print(Filename)
     return Text
 
 
@@ -56,14 +57,43 @@ def get_words(Text, Tokenizer, Punctuation):
     """
     Turn a string into a list of word tokens (excluding punctuation).
     """
+    # Merge elided tokens into full token where possible (no ambiguity)
+    # Note: Does not work for: l, s, which remain as such.
+    Text = re.sub("\Wd\W", " de ", Text)
+    Text = re.sub("\WD\W", " De ", Text)
+    Text = re.sub("\Wj\W", " je ", Text)
+    Text = re.sub("\WJ\W", " Je ", Text)
+    Text = re.sub("\Wn\W", " ne ", Text)
+    Text = re.sub("\WN\W", " Ne ", Text)
+    Text = re.sub("\Wc\W", " ce ", Text)
+    Text = re.sub("\WC\W", " Ce ", Text)
+    Text = re.sub("\Wqu\W", " que ", Text)
+    Text = re.sub("\WQu\W", " Que ", Text)
+    Text = re.sub("\Wt\W", " te ", Text)
+    Text = re.sub("\WT\W", " Te ", Text)
+    Text = re.sub("\Wm\W", " me ", Text)
+    Text = re.sub("\WM\W", " Me ", Text)
+    Text = re.sub("\Wjusqu\W", " jusque ", Text)
+    Text = re.sub("\WJusqu\W", " Jusque ", Text)
+    Text = re.sub("\Wquelqu\W", " quelque ", Text)
+    Text = re.sub("\WQuelqu\W", " Quelque ", Text)
+    Text = re.sub("\Wquoiqu\W", " quoique ", Text)
+    Text = re.sub("\WQuoiqu\W", " Quoique ", Text)
+    # Protect some composed tokens from being split
     Text = re.sub("peut-être", "peut_être", Text)
-    Text = re.sub("aujourd'hui", "aujourd_hui", Text)  
     Text = re.sub("après-midi", "après_midi", Text)  
-    Text = re.sub("d'ailleurs", "d_ailleurs", Text)  
-    Text = re.sub("c'est-à-dire", "c_est_à_dire", Text)  
-    Words = re.split(Tokenizer, Text)
-    Words = [Word for Word in Words if len(Word) != 0]
-    Words = [Word for Word in Words if Word not in Punctuation]
+    Text = re.sub("au-dessus", "au_dessus", Text)
+    Text = re.sub("Peut-être", "Peut_être", Text)
+    Text = re.sub("Après-midi", "Après_midi", Text)  
+    Text = re.sub("Aujourd'hui", "Aujourd_hui", Text)  
+    Text = re.sub("au-dessous", "au_dessous", Text)  
+    Text = re.sub("au-delà", "au_delà", Text)
+    Text = re.sub("en-deça", "en_deça", Text)  
+    Text = re.sub("aujourd'hui", "aujourd_hui", Text)  
+    # Tokenize the text
+    Tokens = re.split(Tokenizer, Text)
+    Tokens = [Token for Token in Tokens if len(Token) != 0]
+    Words = [Token for Token in Tokens if Token not in Punctuation]
     return Words
 
 
@@ -76,46 +106,23 @@ def get_lower(Text, Tokenizer, Punctuation):
     return Lower
 
 def get_lemmata(Text, Punctuation):
+    """
+    Lemmatize the text using TreeTagger. 
+    Correct language model needs to be set!
+    """
     tagger = ttw.TreeTagger(TAGLANG='fr')
     Tagged = tagger.tag_text(Text)
     Lemmata = []
-    AmbLemmata = []
     for Item in Tagged: 
         Item = re.split("\t", Item)
-        Lemma = Item[2]
-        if Lemma == "d": 
-            Lemma = "de"
-        if Lemma == "n": 
-            Lemma = "ne"
-        if Lemma == "l": 
-            Lemma = "le"
-        if Lemma == "j": 
-            Lemma = "je"
-        if Lemma == "t": 
-            Lemma = "tu"
-        if Lemma == "qu": 
-            Lemma = "que"
-        if Lemma == "la|le": 
-            Lemma = "la"
-        if Lemma == "sommer|être": 
-            Lemma = "être"
-        if Lemma == "suivre|être": 
-            Lemma = "être"
-        if Lemma == "foi|fois": 
-            Lemma = "fois"
-        if Lemma == "ouvrer|ouvrir": 
-            Lemma = "ouvrir"
-        if Lemma == "sen|sens": 
-            Lemma = "sens"
-        if Lemma == "jacque|jacques": 
-            Lemma = "jacques"
-        if "|" in Lemma: 
-            AmbLemmata.append(Lemma)
-            Lemma = re.split("\|", Lemma)[0]
-        Lemmata.append(Lemma)
-    AmbLemmata = Counter(AmbLemmata)
+        if len(Item) == 3:
+            Lemma = Item[2]
+            if Item[1] != "NAM":
+                if "|" in Lemma: 
+                    Lemma = re.split("\|", Lemma)[1]
+                Lemmata.append(Lemma)
     Lemmata = [Lemma for Lemma in Lemmata if Lemma not in Punctuation]
-    Lemmata = [Lemma for Lemma in Lemmata if Lemma not in ["--", "---", "...", "@card@", "@ord@"]]
+    Lemmata = [Lemma for Lemma in Lemmata if Lemma not in ["--", "---", "...", "@card@", "@ord@", "\"\"\"\""]]
     return Lemmata
     
 
@@ -134,12 +141,12 @@ def get_itemfreqs(AllItems, Type, Mode, TextCounter):
         ItemFreqsRel = pd.DataFrame(ItemFreqs.loc[:,"freqs"].div(len(AllItems))*1000)
         ItemFreqsRel.columns = ["per1000"]
         ItemFreqs = pd.concat([ItemFreqs, ItemFreqsRel], axis=1, join="outer")
-        ItemFreqs = ItemFreqs.drop("freqs", axis=1)
+        #ItemFreqs = ItemFreqs.drop("freqs", axis=1)
     elif Type == "props": 
         ItemFreqsRel = pd.DataFrame(ItemFreqs.loc[:,"freqs"].div(TextCounter)*100)
         ItemFreqsRel.columns = ["in%texts"]
         ItemFreqs = pd.concat([ItemFreqs, ItemFreqsRel], axis=1, join="outer")
-        ItemFreqs = ItemFreqs.drop("freqs", axis=1)
+        #ItemFreqs = ItemFreqs.drop("freqs", axis=1)
     return ItemFreqs
 
 
@@ -166,6 +173,7 @@ def main(TextPath, Modes, Types, Tokenizer, Punctuation, FreqFilePrefix):
             TextCounter = 0
             for File in glob.glob(TextPath): 
                 TextCounter +=1
+                print(".", end="\r")
                 Text = read_file(File)
                 if Mode == "raw-words": 
                     Words = get_words(Text, Tokenizer, Punctuation)
@@ -181,7 +189,7 @@ def main(TextPath, Modes, Types, Tokenizer, Punctuation, FreqFilePrefix):
                     Lemmata = get_lemmata(Text, Punctuation)
                     if Type == "props":
                         Lemmata = list(set(Lemmata))
-                    AllItems = AllItems + Lemmata
+                    AllItems = AllItems + Lemmata                
             ItemFreqs = get_itemfreqs(AllItems, Type, Mode, TextCounter)
             save_csv(ItemFreqs, FreqFilePrefix, Type, Mode)    
     print("Done.")
