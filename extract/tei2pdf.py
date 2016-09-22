@@ -25,6 +25,11 @@ def convert2pdf(foppath, infolder, outfolder, lang="es"):
 	infolder (string): path to the input folder (which should contain the TEI files)
 	outfolder (string): path to the output folder (which will be created if it does not exist)
 	lang (string): language, default "es", also possible: "fr", "en"
+	
+	example call: 
+	from toolbox.extract import tei2pdf
+	basepath = "/home/ulrike/Schreibtisch"
+	tei2pdf.convert2pdf("/home/ulrike/Programme/fop-2.1/", basepath + "/tei", basepath + "/pdf")
 	"""
 	inpath = os.path.join(infolder, "*.xml")
 	filecounter = 0
