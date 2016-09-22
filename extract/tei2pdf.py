@@ -5,7 +5,7 @@
 @filename: tei2pdf.py
 
 Converts a collection of TEI files into "reading versions" in PDF.
-Needs an Apache FOP installation, see http://xmlgraphics.apache.org/fop/2.1/running.html for further information.
+Needs an Apache FOP installation, see http://xmlgraphics.apache.org/fop/2.1/running.html for further information (the binary version is needed).
 Uses tei2pdf.xsl which should be in the same directory as the current script.
 
 """
