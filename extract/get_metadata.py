@@ -28,9 +28,9 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
      
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
-    labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form"]
+    labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form",]
     labels_structure = ["size_words","size_chars", "size_divs", "size_verses", "size_sps", "size_pds", "size_numbers", "size_puncts", "size_blocks"]
-    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-period", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-movement", "author-prefered-genre", "text-lithist-range"]
+    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change"]
 
     labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
     
@@ -77,14 +77,16 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "subgenre-edit": '//tei:term[@type="subgenre-edit"][1]//text()',
               "keywords-cert": '///tei:keywords/@cert',
               "form": '//tei:term[@type="form"]//text()',
-              "author-period": '//tei:term[@type="author-period"]//text()',
+              "author-movement": '//tei:term[@type="author-movement"]//text()',
               "author-date-birth": '//tei:term[@type="author-date-birth"]//text()',
               "author-date-death": '//tei:term[@type="author-date-death"]//text()',
               "author-TOC-range": '//tei:term[@type="author-TOC-range"]//text()',
               "author-histlit-pages": '//tei:term[@type="author-histlit-pages"]//text()',
-              "author-movement": '//tei:term[@type="author-movement"]//text()',
-              "author-prefered-genre": '//tei:term[@type="author-prefered-genre"]//text()',
-              "text-lithist-range": '//tei:term[@type="text-lithist-range"]//text()',
+              "author-submovement": '//tei:term[@type="author-submovement"]//text()',
+              "author-non-novel-genre": '//tei:term[@type="author-non-novel-genre"]//text()',
+              "author-year-change": '//tei:term[@type="author-year-change"]//text()',
+              "text-TOC-range": '//tei:term[@type="text-TOC-range"]//text()',
+              "text-histlit-pages": '//tei:term[@type="text-histlit-pages"]//text()',
 
               "size_words": '//tei:extent/tei:measure[@unit="words"]//text()',
               "size_chars": '//tei:extent/tei:measure[@unit="chars"]//text()',
@@ -95,7 +97,6 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "size_pds": '//tei:extent/tei:measure[@unit="paragraphs_ds"]//text()',
               "size_numbers": '//tei:extent/tei:measure[@unit="numbers"]//text()',
               "size_puncts": '//tei:extent/tei:measure[@unit="puncts"]//text()',
-
 
               "crime-fiction": '//*[name()="term"][@type="subgenre"][text()="crime-fiction"]/text()',
               "adventure": '//*[name()="term"][@type="subgenre"][text()="adventure"]/text()',
@@ -127,19 +128,21 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
 
     # Mode is selected: obligatory, optional or beta
     if mode =="obl":
-        labels=labels_obl
+        labels = labels_obl
     elif mode =="opt-obl":
-        labels=labels_obl+labels_opt
+        labels = labels_obl+labels_opt
+    elif mode =="beta-opt-obl":
+        labels = labels_obl+labels_opt+labels_beta
     elif mode =="opt-obl-structure":
-        labels=labels_obl+labels_opt+labels_structure
+        labels = labels_obl+labels_opt+labels_structure
     elif mode =="opt-obl-subgenre":
-        labels=labels_obl+labels_opt+labels_subgenre
+        labels = labels_obl+labels_opt+labels_subgenre
     elif mode =="beta-opt-obl-structure":
-        labels=labels_obl+labels_opt+labels_beta+labels_structure
+        labels = labels_obl+labels_opt+labels_beta+labels_structure
     elif mode == "beta-opt-obl-subgenre":
-        labels=labels_obl+labels_opt+labels_beta+labels_subgenre
+        labels = labels_obl+labels_opt+labels_beta+labels_subgenre
     elif mode == "beta-opt-obl-subgenre-structure":
-        labels=labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
+        labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []
@@ -174,7 +177,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
             metadata.loc[idno_file,label] = result
         
     ## Add decade column based on pub_year
-    metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0s")
+    metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0")
     
     ## Check result and write CSV file to disk.
     #print(metadata.head())

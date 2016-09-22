@@ -88,7 +88,7 @@ def replacingBasicElementsFromEpubLibre(text):
     text = re.sub(r'<span class="(normal|calibre)[0-9]*">(.*?)</span>', r'<seg rend="italic">\2</seg>', text, flags=re.IGNORECASE)
     text = re.sub(r'<p><span class="(cap[0-9]*|versalita|smallcaps)">(..?)</span>', r'<p>\2', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span class="(versalita|smallcaps)[0-9]*">(.*?)</span>', r'<seg rend="smallcaps">\2</seg>', text, flags=re.IGNORECASE)
-    text = re.sub(r'<div class="(?:poema[0-9]*|poe|versos|estrofas|citar\d*|verso\d*|versosinpie\d*|centro|centrado)">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<div class="(?:poema[0-9]*|poe|versos|estrofas|citar\d*|verso\d*|versosinpie\d*|centro|centrado|poemaizqcursi\d*|poemaizq|poemacursi\d*)">(.*?)</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="center">\s+<table class="text">\s+<tr class="calibre\d*">\s+<td class="calibre\d*">(\s+.*?)</td>\s+</tr>\s+</table>\s+</div>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)    
 
     text = re.sub(r'<blockquote class="(?:versos?\d*)">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -97,6 +97,7 @@ def replacingBasicElementsFromEpubLibre(text):
     
     text = re.sub(r'(<lg>\s*)<p class="izq">', r'\1<l>', text, flags=re.DOTALL|re.IGNORECASE)
 
+    text = re.sub(r'<p class="poemaizqcursi">(.*?)</p>', r'<lg>\n<l>\1</l>\n</lg>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="verso">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="normal1">(.*?)</p>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="cursiva">(.*?)</p>', r'<p><seg rend="italic">\1</seg></p>', text, flags=re.DOTALL|re.IGNORECASE)

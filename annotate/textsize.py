@@ -65,7 +65,8 @@ def main(basic_wdir, input_wdir, output_wdir, mode):
 
             # Characters and words are counted
             chars = str(len(plain_body))
-            words = str(len(re.findall(r'[\p{L}\d]+',plain_body)))
+            words = str(len(re.findall(r'[\wáéíóúñü\d]+',plain_body)))
+
 
             # If we want some more info, the ammount of numbers and punctuation marks are counted
             if mode == "structure":

@@ -77,7 +77,7 @@ def deletingElements(text):
     text = re.sub(r'<!--.*?-->', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<hr[^>]*?>\s(<h[1-6]>)', r'\1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<span\s*class="pagenum">[0-9\s\{\}]*?</span>', r'', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'(</h[1-6]>\s*)<p class="(?:c|head)">(.*?)</p>', r' - \2 \1', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'(</h[1-6]>\s*)<p class="(?:c|head|cab)">(.*?)</p>', r' - \2 \1', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<!DOCTYPE.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<html.*?>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<head>.*?</head>', r'', text, flags=re.DOTALL|re.IGNORECASE)
@@ -97,7 +97,8 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<span class="i[0-9]">(.+?)<br /></span>', r'<l>\1</l>', text, flags=re.DOTALL|re.IGNORECASE)
 
-    text = re.sub(r'<p class="poem">(.*?)</p>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<p class="(?:poem|poesia)">(.*?)</p>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
+    text = re.sub(r'<table [^>]*?summary="poesia">(.*?)</table>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
 
     text = re.sub(r'(</l>\s*)</div>', r'\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
@@ -115,10 +116,10 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<div class="footnote">.*?</div>', r'', text, flags=re.DOTALL|re.IGNORECASE)
     
-
+    
     text = re.sub(r'<p>[\* ]+</p>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<p class="nind">[\s]*<span class="letrre"></span>', r'<p>', text, flags=re.DOTALL|re.IGNORECASE)
-    text = re.sub(r'<p class="(?:r|r smcap|c)">(.*?)</p>', r'<ab>\1</ab>', text, flags=re.DOTALL|re.IGNORECASE)
+
 
     text = re.sub(r'<div class="stanza">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
     text = re.sub(r'<div class="poem">(.*?)</div>', r'<lg>\n\1</lg>\n', text, flags=re.DOTALL|re.IGNORECASE)
@@ -158,6 +159,10 @@ def replacingBasicElements(text):
 
     text = re.sub(r'<p +class="cb?">[\. \*\n\—]+</p>', r'<milestone unit="section" />', text, flags=re.DOTALL|re.IGNORECASE)
 
+
+    text = re.sub(r'<p class="c">(.*?)</p>', r'<ab>\1</ab>', text)
+
+
     return text
 
 def setDivs(text):
@@ -168,7 +173,7 @@ def setDivs(text):
     text = re.sub(r'(</h[1-5]>)[\s]+([^<\r\n ][^\r\n]*)([\r\n]*)', r' : \2 \1\3', text, flags=re.DOTALL|re.IGNORECASE)
 
     # It deletes the <h1> and its next <p>
-    text = re.sub(r'<h1.*?\r?\n<p.*?\r?\n', r'', text, flags=re.DOTALL|re.IGNORECASE)
+    #text = re.sub(r'<h1.*?\r?\n<p.*?\r?\n', r'', text, flags=re.DOTALL|re.IGNORECASE)
 
     # It deletes the <h1> and its next <p>
     text = re.sub(r'(\A.*?)(<h[2-4])', r'\1<div>\r\n\2', text, flags=re.DOTALL|re.IGNORECASE)
@@ -227,6 +232,7 @@ def main():
 
             content=replacingBasicElements(content)
 
+       
             #It sets divs 
             content=setDivs(content)
 
@@ -236,7 +242,7 @@ def main():
             
             #It cleans the white space
             content=cleaningIndent(content)
-        
+
         
             
             
