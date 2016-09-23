@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 
-Submodule which prepares CLiGS-TEI-files for annotation with e.g. FreeLing and NLTK WordNet.
+Submodule which prepares CLiGS-TEI-files for annotation with FreeLing and NLTK WordNet.
 After the annotation (external to this module), the annotated files are brought together in new TEI files.
 
 Check out the documentation for the functions prepare_input and prepare_output for more details.
@@ -103,7 +103,18 @@ xslt_joinDIVs = '''\
 		<xsl:template match="tei:text/tei:body/tei:div">
 			<xsl:copy>
 				<xsl:copy-of select="@*"/>
-				<xsl:copy-of select="document(concat($annofolder, @xml:id,'.xml'))//wrapper"/>
+				<xsl:for-each select="document(concat($annofolder, @xml:id,'.xml'))//s">
+					<xsl:element name="ab" xmlns="http://www.tei-c.org/ns/1.0">
+						<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
+							<xsl:copy-of select="@*"/>
+							<xsl:for-each select="w">
+								<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
+									<xsl:copy-of select="@*"/>
+								</xsl:element>
+							</xsl:for-each>
+						</xsl:element>
+					</xsl:element>
+				</xsl:for-each>
 			</xsl:copy>
 		</xsl:template>
 		

@@ -19,23 +19,21 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_master/to_do"
+infolder = "/home/ulrike/Schreibtisch/tei"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_annotiert"
+outfolder = "/home/ulrike/Schreibtisch/corpus_annotiert"
 
 # language of the texts (possible up to now: fr, es)
 lang = "es"
 
-# path to FreeLing installation
-FreeLingPath = "/home/ulrike/Downloads/FreeLing4/"
 
 
 import sys
 import os
 
 # use the following to add the toolbox to syspath (if needed):
-sys.path.append(os.path.abspath("/home/ulrike/Dokumente/Git/"))
+sys.path.append(os.path.abspath("/home/ulrike/Git/"))
 
 from toolbox.annotate import prepare_tei
 from toolbox.annotate import annotate_fw
@@ -44,5 +42,5 @@ from toolbox.annotate import annotate_fw
 # by default, it should be enough to change the options above and leave this as is
 
 #prepare_tei.prepare("split", infolder, outfolder)
-#annotate_fw.annotate_fw(FreeLingPath, os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
+#annotate_fw.annotate_fw(os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
 prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))

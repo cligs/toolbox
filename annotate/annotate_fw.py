@@ -16,10 +16,10 @@ import collections
 from nltk.corpus import wordnet as wn
 
 
-def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"): 
+def use_freeling(InPath, FreelingFolder, Lang="fr"): 
     """
     Call Freeling "analyze".
-    Authors: #cf (#uh).
+    Authors: #cf, #uh.
     """
     print("use_freeling...")
     
@@ -42,7 +42,7 @@ def use_freeling(FreelingPath, InPath, FreelingFolder, Lang="fr"):
 def use_wordnet(FreelingFolder, WordnetFolder):
     """
     Call Wordnet using NLTK to get the lexnames.
-    Authors: #cf (#uh)
+    Authors: #cf, #uh
     """
     print("use_wordnet...")
     
@@ -61,11 +61,17 @@ def use_wordnet(FreelingFolder, WordnetFolder):
             Text = re.split("</token>", Text)
             NewText = ["<?xml version=\"1.0\" encoding=\"UTF-8\" ?>\n<wrapper>"]
             for Line in Text[0:-1]:
-                Line = Line + "</token>"
+                Line = re.sub("token", "w", Line)
+                Line = re.sub("sentence", "s", Line)
+                # Ids löschen
+                Line = re.sub(r'id=".*?"', "", Line)
+                #Line = re.sub("id", "xml:id", Line)
+                #Line = re.sub(r'xml:id="(\d+)"', r'xml:id="t\1"', Line)
+                Line = Line + "</w>"
                 #print(Line)
                 Word = re.findall("form=\"(.*?)\" ", Line)[0]
                 #print(Word)
-                Line = re.sub("</token>", Word+" </token>", Line)
+                Line = re.sub("</w>", Word+" </w>", Line)
                 #print(Line) 
                 if "wn=" in Line: 
                     #print(Line)
@@ -89,23 +95,23 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                         #print("Error when trying to get lexname.")
                         LexErrCounter.update({"LexNameError":1})
                     #print(Lexname)
-                    Line = re.sub("(wn=.*) >", "\\1 lxn=\""+Lexname+"\" >", Line)
+                    Line = re.sub("wn=(.*) >", "wnsyn=\\1 wnlex=\""+Lexname+"\" >", Line)
                     #print(Line)
                     NewText.append(Line)
-                elif "wn=" not in Line and "sentence" not in Line:
+                elif "wn=" not in Line and "<s" not in Line:
                     #print(Line)
-                    Line = re.sub(" >", " wn=\"xxx\" lxn=\"xxx\" >", Line)
+                    Line = re.sub(" >", " wnsyn=\"xxx\" wnlex=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
-                elif "sentence" in Line:
+                elif "<s" in Line:
                     #print(Line)
-                    Line = re.sub(" >", " wn=\"xxx\" lxn=\"xxx\" >", Line)
+                    Line = re.sub(" >", " wnsyn=\"xxx\" wnlex=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
             
             if LexErrCounter["LexNameError"] > 0:
                 print(str(LexErrCounter["LexNameError"]) + " lexname(s) could not be found in " + str(Filename))
-            NewText.append("</sentence>\n</wrapper>")                
+            NewText.append("</s>\n</wrapper>")                
             NewText = ''.join(NewText)
             with open(WordnetFolder+Filename[:-4]+".xml", "w") as OutFile: 
                 OutFile.write(NewText)
@@ -114,8 +120,8 @@ def use_wordnet(FreelingFolder, WordnetFolder):
     
 
 
-def annotate_fw(FreelingPath, InPath, FreelingFolder, WordnetFolder, Lang):
-    use_freeling(FreelingPath, InPath, FreelingFolder, Lang)
+def annotate_fw(InPath, FreelingFolder, WordnetFolder, Lang):
+    use_freeling(InPath, FreelingFolder, Lang)
     use_wordnet(FreelingFolder, WordnetFolder)
 
 
