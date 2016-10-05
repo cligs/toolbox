@@ -9,6 +9,7 @@
     -->
 
     <xsl:param name="lang"/>
+    <xsl:variable name="textbox-link">https://github.com/cligs/textbox</xsl:variable>
 
     <xsl:template name="toc">
         <xsl:param name="level">0</xsl:param>
@@ -58,7 +59,7 @@
                 <fo:simple-page-master master-name="A5-second" page-height="210mm"
                     page-width="148mm" margin="15mm 15mm 5mm 15mm">
                     <fo:region-body margin="5mm 10mm 15mm 10mm"/>
-                    <fo:region-after extent="30mm" region-name="Fußbereich"/>
+                    <fo:region-after extent="35mm" region-name="Fußbereich"/>
                 </fo:simple-page-master>
             </fo:layout-master-set>
             <!-- Titelseite -->
@@ -113,13 +114,24 @@
                                 <fo:table-cell font-weight="bold" text-align="right"
                                     margin-right="5mm">
                                     <fo:block>
-                                        <xsl:text>CLiGS-ID: </xsl:text>
+                                        <xsl:text>CLiGS ID: </xsl:text>
                                     </fo:block>
                                 </fo:table-cell>
                                 <fo:table-cell>
                                     <fo:block>
                                         <xsl:value-of select="//tei:idno[@type = 'cligs']"/>
                                     </fo:block>
+                                </fo:table-cell>
+                            </fo:table-row>
+                            <fo:table-row>
+                                <fo:table-cell font-weight="bold" text-align="right"
+                                    margin-right="5mm">
+                                    <fo:block>
+                                        <xsl:text>CLiGS Textbox: </xsl:text>
+                                    </fo:block>
+                                </fo:table-cell>
+                                <fo:table-cell>
+                                    <fo:block><fo:basic-link external-destination="{$textbox-link}" color="#383d7d"><xsl:value-of select="$textbox-link"/></fo:basic-link></fo:block>
                                 </fo:table-cell>
                             </fo:table-row>
                             <fo:table-row>
