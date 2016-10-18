@@ -110,6 +110,7 @@ xslt_joinDIVs = '''\
 							<xsl:for-each select="w">
 								<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
 									<xsl:copy-of select="@*"/>
+									<xsl:value-of select="."/>
 								</xsl:element>
 							</xsl:for-each>
 						</xsl:element>

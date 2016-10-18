@@ -81,7 +81,7 @@
                         <xsl:value-of select="//tei:principal"/>
                     </fo:block>
                     <fo:block font-size="10pt">
-                        <xsl:value-of select="//tei:publisher"/>
+                        <xsl:value-of select="normalize-space(//tei:publisher)"/>
                         <xsl:text>, Würzburg </xsl:text>
                         <xsl:value-of select="//tei:publicationStmt/tei:date"/>
                     </fo:block>
