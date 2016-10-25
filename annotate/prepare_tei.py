@@ -91,6 +91,7 @@ xslt_joinDIVs = '''\
 	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
     
 		<xsl:param name="annofolder"/>
+		<xsl:param name="mode"/>
 		
 		<xsl:output method="xml" encoding="UTF-8" indent="yes" />
 		
@@ -103,19 +104,28 @@ xslt_joinDIVs = '''\
 		<xsl:template match="tei:text/tei:body/tei:div">
 			<xsl:copy>
 				<xsl:copy-of select="@*"/>
-				<xsl:for-each select="document(concat($annofolder, @xml:id,'.xml'))//s">
-					<xsl:element name="ab" xmlns="http://www.tei-c.org/ns/1.0">
-						<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
-							<xsl:copy-of select="@*"/>
-							<xsl:for-each select="w">
+				<xsl:choose>
+					<xsl:when test="$mode='ht'">
+						<xsl:for-each select="document(concat($annofolder, @xml:id,'.xml'))//wrapper">
+							<xsl:copy-of select="."/>
+						</xsl:for-each>
+					</xsl:when>
+					<xsl:otherwise>
+						<xsl:for-each select="document(concat($annofolder, @xml:id,'.xml'))//s">
+							<xsl:element name="ab" xmlns="http://www.tei-c.org/ns/1.0">
 								<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
 									<xsl:copy-of select="@*"/>
-									<xsl:value-of select="."/>
+									<xsl:for-each select="w">
+										<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
+											<xsl:copy-of select="@*"/>
+											<xsl:value-of select="."/>
+										</xsl:element>
+									</xsl:for-each>
 								</xsl:element>
-							</xsl:for-each>
-						</xsl:element>
-					</xsl:element>
-				</xsl:for-each>
+							</xsl:element>
+						</xsl:for-each>
+					</xsl:otherwise>
+				</xsl:choose>
 			</xsl:copy>
 		</xsl:template>
 		
@@ -190,7 +200,7 @@ def prepare_anno(infolder, outfolder):
 	
 	
 
-def postpare_anno(infolder, outfolder):
+def postpare_anno(infolder, outfolder, mode="fl"):
 	"""
 	Creates a TEI file from a collection of annotated full text files (one per chapter).
 	Needs an input folder with two subfolders: 'temp' with the TEI file templates and 'anno' with the annotated text in XML format.
@@ -199,6 +209,7 @@ def postpare_anno(infolder, outfolder):
 	Arguments:
 	infolder (string): path to the input folder (which should contain a folder "temp" with the templates for the new TEI files and a folder "anno" with the annotations in XML format)
 	outfolder (string): path to the output folder (which is created if it does not exist)
+	mode (string): which kind of annotation to treat; default: "fl" (= FreeLing), alternative: "ht" (= HeidelTime)
 	"""
 	print("Starting...")
 	
@@ -223,6 +234,8 @@ def postpare_anno(infolder, outfolder):
 		filecounter+= 1
 		fn = os.path.basename(filepath)
 		annofolder = os.path.join(Path(os.path.join(infolder, "anno")).as_uri(), "")
+		# which annotation mode are we in?
+		annomode = mode
 		
 		parser = etree.XMLParser(encoding="UTF-8")
 		parser.resolvers.add(FileResolver())
@@ -232,7 +245,7 @@ def postpare_anno(infolder, outfolder):
 		
 		transform = etree.XSLT(xslt_root)
 		
-		result_tree = transform(doc, annofolder= "'" + annofolder + "'")
+		result_tree = transform(doc, annofolder= "'" + annofolder + "'", mode= "'" + annomode + "'")
 		result = str(result_tree)
 		
 		# save the results
@@ -260,6 +273,8 @@ def prepare(mode, infolder, outfolder):
 		prepare_anno(infolder, outfolder)
 	elif mode == "merge":
 		postpare_anno(infolder, outfolder)
+	elif mode == "merge-hdt":
+		postpare_anno(infolder, outfolder, mode="ht")
 	else:
 		raise ValueError("Please indicate one of the following as the value for the first argument: 'split', 'merge'")
 

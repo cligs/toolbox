@@ -33,6 +33,10 @@ def apply_ht(hdpath, infolder, outfolder, language="ENGLISH", outtype="TIMEML", 
 	inpath = os.path.join(infolder, "*.txt")
 	filecounter = 0
 	
+	# check output folders
+	if not os.path.exists(outfolder):
+		os.makedirs(outfolder)
+	
 	print("Starting...")
 	
 	for filepath in glob.glob(inpath):
@@ -57,11 +61,16 @@ def wrap_body(infolder, outfolder):
 	inpath = os.path.join(infolder, "*.xml")
 	filecounter = 0
 	
+	# check output folders
+	if not os.path.exists(outfolder):
+		os.makedirs(outfolder)
+	
 	print("Starting...")
 	
 	for filepath in glob.glob(inpath):
 		filecounter+= 1
 		fn = os.path.basename(filepath)
+		print(fn)
 		
 		doc = etree.parse(filepath)
 		root = doc.getroot()

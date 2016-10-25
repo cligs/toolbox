@@ -83,8 +83,9 @@ def check_collection(inpath, outpath, lang, wordFiles=[]):
     df = df.astype(int)
     
     df["sum"] = df.sum(axis=1)
-    df = df.sort("sum", ascending=False)
-
+    # df = df.sort("sum", ascending=False)
+    df = df.sort_values(by="sum", ascending=False)
+    
     df.to_csv(outpath)
     print("done")
 

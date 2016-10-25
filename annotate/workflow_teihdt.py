@@ -19,23 +19,23 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_master/to_do"
+infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/base/novelas-portuguesas/not_historical"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_hdt"
+outfolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt"
 
-# language of the texts (possible up to now: fr, es)
-lang = "SPANISH"
+# language of the texts (tested for: FRENCH, SPANISH, ITALIAN, PORTUGUESE)
+lang = "PORTUGUESE"
 
 # path to heideltime installation
-heideltimePath = "/home/ulrike/Programme/heideltime/heideltime-standalone"
+heideltimePath = "/home/ulrike/Programme/heideltime-standalone-2.1"
 
 
 import sys
 import os
 
 # use the following to add the toolbox to syspath (if needed):
-sys.path.append(os.path.abspath("/home/ulrike/Dokumente/Git/"))
+sys.path.append(os.path.abspath("/home/ulrike/Git/"))
 
 from toolbox.annotate import prepare_tei
 from toolbox.annotate import use_heideltime
@@ -45,5 +45,5 @@ from toolbox.annotate import use_heideltime
 
 #prepare_tei.prepare("split", infolder, outfolder)
 #use_heideltime.apply_ht(heideltimePath, os.path.join(outfolder, "txt"), os.path.join(outfolder, "hdt"), lang)
-#use_heideltime.wrap_body("/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_hdt/hdt", "/home/ulrike/Dokumente/GS/Veranstaltungen/DHd17/corpus_hdt/anno")
-prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))
+#use_heideltime.wrap_body("/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/hdt", "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/anno")
+#prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))
