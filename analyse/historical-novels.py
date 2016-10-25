@@ -4,7 +4,7 @@
 Analysis of historical novels vs. novels of other subgenres.
 Based on:
 - temporal expressions
-- freeling annotations
+(- freeling annotations)
 
 @author: Ulrike Henny
 @filename: historical-novels.py 
@@ -20,6 +20,7 @@ import re
 import copy
 import math
 import matplotlib.pyplot as plt
+from scipy import stats
 
 # use the following to add the toolbox to syspath (if needed):
 sys.path.append(os.path.abspath("/home/ulrike/Git/"))
@@ -173,7 +174,7 @@ def generate_tpx_features():
 	md_table = pd.DataFrame.from_csv(wdir + md_csv, header=0)
 	idnos = md_table.idno
 
-	# crate new data frame
+	# create new data frame
 	ht_fr = pd.DataFrame(columns=labels, index=idnos)
 	 
 	# XPath expressions for TimeML requests
@@ -293,6 +294,7 @@ freeling-Ergebnisse auswerten
 -- Zahl der Wörter, Sätze
 -- TXM?
 """
+# tbd
 
 
 """
@@ -303,6 +305,7 @@ Kombination verschiedener Merkmale
 
 - wie viele Named Entities (Personen, Orte) lassen sich über Normdaten finden?
 """
+# tbd
 
 
 """
@@ -321,10 +324,8 @@ def plot_scatter(tpx_feature):
 	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
 	working_table = ht_table.join(md_table)
 
-	# z.B. tpx_date_full_rel
 	# get data points and sort
 	data = copy.copy(working_table[tpx_feature])
-	#replace(to_replace="na", value=0)
 	data_sorted = data.sort_values(ascending=False)
 
 	# get ids of historical novels
@@ -382,23 +383,81 @@ def plot_scatter(tpx_feature):
 
 
 """
-Signifikanz-Tests für einzelne Features
+significance testing
 """
+
+def do_wilcoxon_ranksum_test(tpx_feature):
+	"""
+	Do the Wilcoxon Ranksum Test to see if the two distributions differ significantly.
+	If p <= 0.05, we are highly confident that the distributions differ significantly.
+	
+	Arguments:
+	tpx_feature (string): Name of the temporal expression feature to test
+	"""
+
+	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
+	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+	working_table = ht_table.join(md_table)
+
+	# get data points
+	data = copy.copy(working_table[tpx_feature])
+
+	# get ids of historical novels
+	idnos_hist = md_table[md_table["subgenre_hist"] == "historical"].index.tolist()
+	# get ids of non-historical novels
+	idnos_not_hist = md_table[md_table["subgenre_hist"] == "not_historical"].index.tolist()
+
+	# split data into subgroups
+	data_hist = data[idnos_hist]
+	data_not_hist = data[idnos_not_hist]
+
+	test_stat = stats.ranksums(data_hist, data_not_hist)
+	return test_stat
 
 
 """
 Anwendung: Clustern oder Masch.Lernen mit Features
 """
+# tbd
 
+
+
+"""
+Convenience functions
+"""
+def plot_all_tpx_features():
+	"""
+	Make scatter plots for all temporal expression features.
+	"""
+	for feature in labels:
+		plot_scatter(feature)
+
+def calculate_all_test_stats():
+	"""
+	Calculate test statistics for all temporal expression features.
+	"""
+	# frame to hold statistics
+	stats_fr = pd.DataFrame(columns=["test-statistic", "p-value"], index=labels)
+	
+	# do significance test for all features
+	for feature in labels:
+		z_stat, p_val = do_wilcoxon_ranksum_test(feature)
+		stats_fr.loc[feature, "test-statistic"] = z_stat
+		stats_fr.loc[feature, "p-value"] = p_val
+		
+	# save results to csv file
+	stats_fr.to_csv(wdir + "test-statistics-tpx.csv", sep=",", header=True)
+	
+	print("Done: All features tested.")
+	
+
+
+######################################### Main part ############################################
 
 # summarize_corpus()
 # generate_tpx_features()
-# make scatter plots for all tpx-features
-""" 
-for feature in labels:
-	plot_scatter(feature)
-"""
-
+# plot_all_tpx_features()
+# calculate_all_test_stats()
 
 
 
