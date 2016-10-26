@@ -41,6 +41,12 @@ md_mode = "hist-nov"
 md_csv = "metadata_" + md_mode + ".csv"
 dir_visuals = os.path.join(wdir, "vis")
 
+
+
+
+
+############################################### corpus description #####################################################
+
 def summarize_corpus():
 	"""
 	Creates a metadata table.
@@ -305,19 +311,33 @@ Kombination verschiedener Merkmale
 
 - wie viele Named Entities (Personen, Orte) lassen sich über Normdaten finden?
 """
-# tbd
 
+##################################################### additional features ########################################
+"""
+Extraction of additional features, e.g. annotation features in combination with metadata, or annotation features combined with external data
+"""
+
+# How many years are there between the publication of the novel and the dates mentioned in the texts?
+md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
+ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+working_table = ht_table.join(md_table)
+
+
+
+##################################################### visualization ##############################################
 
 """
 visualize the distribution of specific feature values
 """
 
-def plot_scatter(tpx_feature):
+# to do: verallgemeinern für andere Subgroups
+def plot_features(tpx_feature, plot_type="scatter"):
 	"""
-	Make a scatter plot showing the number of specific temporal expressions in historical vs. non-historical novels
+	Make a scatter or bar plot showing the number of specific temporal expressions in historical vs. non-historical novels
 	
 	Arguments:
-	tpx_feature (string): Name of the temporal expression feature to plot 
+	tpx_feature (string): Name of the temporal expression feature to plot
+	plot_type (string): scatter or bar
 	"""
 
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
@@ -342,46 +362,201 @@ def plot_scatter(tpx_feature):
 	ranks = {}
 	for idx, val in enumerate(data_sorted.index):
 		ranks[val] = idx
+		
+	if plot_type == "scatter":
 
-	# visualize as scatterplot
-	plt.figure(figsize=(20,6))
+		# visualize as scatterplot
+		plt.figure(figsize=(20,6))
 
-				# rank as x values, alternative: range(len(data_hist))
-	plt.scatter([ranks[idno] for idno in idnos_hist],
-				# counts as y values
-				data_hist,
-				marker = "D",
-				color = "#3366CC",
-				alpha = 1,
-				s = 50,
-				label = tpx_feature + ", historical novel"
-	)
+					# rank as x values, alternative: range(len(data_hist))
+		plt.scatter([ranks[idno] for idno in idnos_hist],
+					# counts as y values
+					data_hist,
+					marker = "D",
+					color = "#3366CC",
+					alpha = 1,
+					s = 50,
+					label = tpx_feature + ", historical novel"
+		)
 
-	plt.scatter([ranks[idno] for idno in idnos_not_hist],
-				# counts as y values
-				data_not_hist,
-				marker = "o",
-				color = "#DC3912",
-				alpha = 1,
-				s = 50,
-				label = tpx_feature + ", non-historical novel"
-	)
-	plt.title("Novels and number of temporal expressions (TPX)")
-	plt.ylabel("Number of TPX")
-	plt.xlabel("Novel rank")
-	plt.xlim(-5,len(data) + 5)
+		plt.scatter([ranks[idno] for idno in idnos_not_hist],
+					# counts as y values
+					data_not_hist,
+					marker = "o",
+					color = "#DC3912",
+					alpha = 1,
+					s = 50,
+					label = tpx_feature + ", non-historical novel"
+		)
+		plt.title("Novels and number of temporal expressions (TPX)")
+		plt.ylabel("Number of TPX")
+		plt.xlabel("Novel rank")
+		plt.xlim(-5,len(data) + 5)
 
-	plt.legend(loc='upper right')
-	plt.tight_layout()
+		plt.legend(loc='upper right')
+		plt.tight_layout()
 
-	figurename = "scatter-"+ tpx_feature +".png"
-	plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
-	plt.close()
+		figurename = "scatter-"+ tpx_feature +".png"
+		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+		plt.close()
+	
+	elif plot_type == "bar":
+		# visualize as barplot
+		plt.figure(figsize=(20,6))
+
+					# rank as x values, alternative: range(len(data_hist))
+		plt.bar([ranks[idno] for idno in idnos_hist],
+					# counts as y values
+					data_hist,
+					align = "center",
+					color = "#3366CC",
+					alpha = 1,
+					edgecolor = "#3366CC",
+					label = tpx_feature + ", historical novel"
+		)
+
+		plt.bar([ranks[idno] for idno in idnos_not_hist],
+					# counts as y values
+					data_not_hist,
+					align = "center",
+					color = "#DC3912",
+					alpha = 1,
+					edgecolor = "#DC3912",
+					label = tpx_feature + ", non-historical novel"
+		)
+		plt.title("Novels and number of temporal expressions (TPX)", fontsize=40)
+		plt.ylabel("Number of TPX", fontsize=30)
+		plt.xlabel("Novel rank", fontsize=30)
+		plt.xlim(-2,len(data) + 2)
+		plt.xticks(fontsize=28)
+		plt.yticks(fontsize=28)
+
+		
+		plt.legend(loc='upper right', prop={'size':30})
+		plt.tight_layout()
+
+		figurename = "bar-"+ tpx_feature +".png"
+		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+		plt.close()
+	
+	
+	print("Plotted " + figurename)
+	
+	
+def plot_other_features(tpx_feature, md_feature, plot_type="bar"):
+	"""
+	Make a scatter or bar plot showing the number of specific temporal expressions in different subgroups of novels
+	
+	Arguments:
+	tpx_feature (string): Name of the temporal expression feature to plot
+	md_feature (string): Metadata feature to consider for the creation of subgroups
+	plot_type (string): scatter or bar
+	"""
+
+	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
+	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+	working_table = ht_table.join(md_table)
+
+	# get data points and sort
+	data = copy.copy(working_table[tpx_feature])
+	data_sorted = data.sort_values(ascending=False)
+
+	# get ids of historical novels
+	idnos_hist = md_table[md_table["subgenre_hist"] == "historical"].index.tolist()
+	# get ids of non-historical novels
+	idnos_not_hist = md_table[md_table["subgenre_hist"] == "not_historical"].index.tolist()
+
+	# split data into subgroups
+	data_hist = data[idnos_hist]
+	data_not_hist = data[idnos_not_hist]
+		
+
+	# get ranks
+	ranks = {}
+	for idx, val in enumerate(data_sorted.index):
+		ranks[val] = idx
+		
+	if plot_type == "scatter":
+
+		# visualize as scatterplot
+		plt.figure(figsize=(20,6))
+
+					# rank as x values, alternative: range(len(data_hist))
+		plt.scatter([ranks[idno] for idno in idnos_hist],
+					# counts as y values
+					data_hist,
+					marker = "D",
+					color = "#3366CC",
+					alpha = 1,
+					s = 50,
+					label = tpx_feature + ", historical novel"
+		)
+
+		plt.scatter([ranks[idno] for idno in idnos_not_hist],
+					# counts as y values
+					data_not_hist,
+					marker = "o",
+					color = "#DC3912",
+					alpha = 1,
+					s = 50,
+					label = tpx_feature + ", non-historical novel"
+		)
+		plt.title("Novels and number of temporal expressions (TPX)")
+		plt.ylabel("Number of TPX")
+		plt.xlabel("Novel rank")
+		plt.xlim(-5,len(data) + 5)
+
+		plt.legend(loc='upper right')
+		plt.tight_layout()
+
+		figurename = "scatter-"+ tpx_feature +".png"
+		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+		plt.close()
+	
+	elif plot_type == "bar":
+		# visualize as barplot
+		plt.figure(figsize=(20,6))
+
+					# rank as x values, alternative: range(len(data_hist))
+		plt.bar([ranks[idno] for idno in idnos_hist],
+					# counts as y values
+					data_hist,
+					align = "center",
+					color = "#3366CC",
+					alpha = 1,
+					edgecolor = "#3366CC",
+					label = tpx_feature + ", historical novel"
+		)
+
+		plt.bar([ranks[idno] for idno in idnos_not_hist],
+					# counts as y values
+					data_not_hist,
+					align = "center",
+					color = "#DC3912",
+					alpha = 1,
+					edgecolor = "#DC3912",
+					label = tpx_feature + ", non-historical novel"
+		)
+		plt.title("Novels and number of temporal expressions (TPX)", fontsize=40)
+		plt.ylabel("Number of TPX", fontsize=30)
+		plt.xlabel("Novel rank", fontsize=30)
+		plt.xlim(-2,len(data) + 2)
+		plt.xticks(fontsize=28)
+		plt.yticks(fontsize=28)
+
+		
+		plt.legend(loc='upper right', prop={'size':30})
+		plt.tight_layout()
+
+		figurename = "bar-"+ tpx_feature +".png"
+		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+		plt.close()
+	
 	
 	print("Plotted " + figurename)
 
 
-
+################################################### significance testing ##################################
 """
 significance testing
 """
@@ -420,17 +595,21 @@ Anwendung: Clustern oder Masch.Lernen mit Features
 """
 # tbd
 
-
+########################################## Helper functions ####################################
 
 """
 Convenience functions
 """
-def plot_all_tpx_features():
+def plot_all_tpx_features(plot_type="scatter"):
 	"""
-	Make scatter plots for all temporal expression features.
+	Make plots for all temporal expression features.
+	
+	Arguments:
+	plot_type (string): scatter or bar
 	"""
 	for feature in labels:
-		plot_scatter(feature)
+		plot_features(feature, plot_type)
+		
 
 def calculate_all_test_stats():
 	"""
@@ -459,5 +638,7 @@ def calculate_all_test_stats():
 # plot_all_tpx_features()
 # calculate_all_test_stats()
 
+
+plot_all_tpx_features("bar")
 
 

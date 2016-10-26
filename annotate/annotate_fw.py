@@ -23,8 +23,8 @@ def use_freeling(InPath, FreelingFolder, Lang="fr"):
     """
     print("use_freeling...")
     
-    if Lang not in ["fr","es"]:
-        raise ValueError("Please indicate one of the following as language: 'fr', 'es'")
+    if Lang not in ["fr","es", "it", "pt"]:
+        raise ValueError("Please indicate one of the following as language: 'fr', 'es', 'it', 'pt'")
         
     if not os.path.exists(FreelingFolder):
         os.makedirs(FreelingFolder)

@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/base/novelas-espanolas/historical"
+infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/base/novelas-italianas/not_historical"
 
 # where the annotation working files and results should go
 outfolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/freeling-work"
 
-# language of the texts (possible up to now: fr, es)
-lang = "es"
+# language of the texts (possible up to now: fr, es, it, pt)
+lang = "it"
 
 
 

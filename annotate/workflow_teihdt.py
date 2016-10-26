@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/base/novelas-portuguesas/not_historical"
+infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/special"
 
 # where the annotation working files and results should go
 outfolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt"
 
 # language of the texts (tested for: FRENCH, SPANISH, ITALIAN, PORTUGUESE)
-lang = "PORTUGUESE"
+lang = "SPANISH"
 
 # path to heideltime installation
 heideltimePath = "/home/ulrike/Programme/heideltime-standalone-2.1"
@@ -44,6 +44,7 @@ from toolbox.annotate import use_heideltime
 # by default, it should be enough to change the options above and leave this as is
 
 #prepare_tei.prepare("split", infolder, outfolder)
+#
 #use_heideltime.apply_ht(heideltimePath, os.path.join(outfolder, "txt"), os.path.join(outfolder, "hdt"), lang)
-#use_heideltime.wrap_body("/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/hdt", "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/anno")
+use_heideltime.wrap_body("/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/hdt", "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/anno")
 #prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))

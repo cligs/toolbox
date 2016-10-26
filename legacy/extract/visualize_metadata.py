@@ -39,5 +39,5 @@ def main(wdir, metadatafile, category):
     describe_corpus(wdir, metadatafile, category)
 
 
-main("/home/christof/Repos/cligs/examplecollection/", "metadata_from_header.csv", "subgenre")
+main("/home/ulrike/Git/novelashispanoamericanas/", "metadata.csv", "author-country")
 ## For category, choose: genre, subgenre, gender, narration, supergenre
