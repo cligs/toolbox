@@ -8,6 +8,8 @@
 
 import pandas as pd
 import matplotlib.pyplot as plt
+import pygal
+import os
 
 plot_colors = ["#3366CC","#DC3912","#FF9900","#109618","#990099","#3B3EAC","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#329262","#5574A6","#3B3EAC"]
         
@@ -16,7 +18,7 @@ def describe_corpus(wdir, metadatafile, category):
     """
     Plots corpus properties (default: bar chart, by decade).
     
-    Author: cf
+    Author: cf, uh
     
     Arguments:
     
@@ -37,13 +39,15 @@ def describe_corpus(wdir, metadatafile, category):
         cat_xaxis = "decade"
         cat_bars = category 
         labels = sorted(set(metadata[cat_bars]))
-        print(labels)
+        #print(labels)
         metadata = metadata[["idno",cat_xaxis,cat_bars]]
         grouped = metadata.groupby([cat_xaxis,cat_bars]).count()
         unstacked = grouped.unstack()
         unstacked.fillna("0", inplace=True)
 
-        ## Plotting the data         
+        ## Plotting the data    
+        """
+        # matplotlib    
         myplot = grouped.unstack().plot(kind="bar", stacked=True, title="",figsize=(10, 8), color=plot_colors)
         myplot.set_title("Distribution of novels", fontsize=20)        
         myplot.set_xlabel("Decades", fontsize = 16)
@@ -54,6 +58,36 @@ def describe_corpus(wdir, metadatafile, category):
         figurename = "dist_by-"+category+".png"
         plt.savefig(wdir+figurename, dpi=300)
         plt.close()
+        """
+        
+        # pygal
+        my_style = pygal.style.Style(
+		  background='white',
+		  plot_background='white',
+		  font_family = "FreeSans",
+		  title_font_size = 20,
+		  legend_font_size = 16,
+		  label_font_size = 12,
+		  colors=plot_colors)
+          
+        bar_chart = pygal.StackedBar()
+        bar_chart.title = 'Distribution of novels'
+        bar_chart.x_labels = labels
+        
+        
+        md_unstacked = grouped.unstack()
+        md_unstacked.fillna(0, inplace=True)
+        
+        for label in labels:
+            vals = md_unstacked["idno",label]
+            bar_chart.add(label, vals.values)
+        
+        figurename = os.path.join(wdir, "dist_by-"+category+".svg")
+        bar_chart.render_to_file(figurename)
+        
+        
+        print("barchart " + category + " done")
+        
         
         
         
@@ -85,7 +119,7 @@ def plot_pie(wdir, metadatafile, category):
         myplot = data_plot.plot(kind="pie", figsize=(7,7), colors=plot_colors, startangle=0, fontsize=9)
         # autopct='%1.f'
         myplot.set_title("Distribution of novels", fontsize=18, y=1.03)
-        myplot.set_xlabel(category,fontsize = 14, y=-1.06)
+        myplot.set_xlabel(" ",fontsize = 14, y=-1.06)
         myplot.set_ylabel(" ",fontsize = 14, x=-1.20)
         
         

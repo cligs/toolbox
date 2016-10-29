@@ -7,7 +7,7 @@ Based on:
 (- freeling annotations)
 
 @author: Ulrike Henny
-@filename: historical-novels.py 
+@filename: genre_on_time.py 
 
 """
 import sys
@@ -89,10 +89,11 @@ def summarize_corpus():
 	"num_not_historical":[num_not_historical]}
 	
 	count_fr = pd.DataFrame(d)
-	count_fr.to_csv(os.path.join(wdir, "corpus-counts.csv"), sep=",", header=True)
+	count_fr.to_csv(os.path.join(wdir, "corpus-description.csv"), sep=",", header=True)
 	print("Done: summarize corpus")
 	
 ################################## Temporal expression features #####################################
+
 """
 Documentation of labels:
 	idno: text id in CLiGS project
@@ -105,17 +106,23 @@ Documentation of labels:
 	tpx_duration_abs: number of DURATION expressions
 	tpx_set_abs: number of SET expressions
 
+	tpx_date_none_abs: number of DATE expressions where no value is specified
 	tpx_date_year_abs: number of DATE expressions with at least the YEAR specified
 	tpx_date_year_month_abs: number of DATE expressions with at least YEAR and MONTH specified
 	tpx_date_month_abs: number of DATE expressions with at least MONTH specified
 	tpx_date_day_abs: number of DATE expressions with at least DAY specified
 	tpx_date_month_day_abs: number of DATE expressions with at least MONTH and DAY specified
+	tpx_date_any_abs: number of DATE expressions where at least one value is specified (YEAR, MONTH, DAY)
 	tpx_date_full_abs: number of fully specified DATE expressions (YEAR, MONTH, DAY)
+	
+	tpx_date_past_ref_abs: number of DATE expressions which are references to the past (e.g. "yesterday")
+	tpx_date_present_ref_abs: number of DATE expressions which are references to the present (e.g. "today")
+	tpx_date_future_ref_abs: 	
+	
+	tpx_date_any_chapter_first_abs: number of DATE expressions in the first chapter of the novel, where at least one value is specified (YEAR, MONTH, DAY)
+	tpx_date_any_chapter_other_mean_abs: mean of DATE expressions in the remaining chapters of the novel, where at least one value is specified (YEAR, MONTH, DAY)
 
-	tpx_date_chapter_first_abs: number of DATE expressions in the first chapter of the novel
-	tpx_date_chapter_other_mean_abs: mean of DATE expressions in the remaining chapters of the novel 
-	tpx_date_chapter_all_mean_abs: mean of DATE expressions in all chapters of the novel
-
+	
 	- relative values -
 	(explanations see above; all values relative to the total number of words in the text)
 	
@@ -125,44 +132,128 @@ Documentation of labels:
 	tpx_duration_rel
 	tpx_set_rel
 
+	tpx_date_none_rel
 	tpx_date_year_rel
 	tpx_date_year_month_rel
 	tpx_date_month_rel
 	tpx_date_day_rel
 	tpx_date_month_day_rel
+	tpx_date_any_rel
 	tpx_date_full_rel
+	
+	tpx_date_past_ref_rel
+	tpx_date_present_ref_rel
+	tpx_date_future_ref_rel
 
-	tpx_date_chapter_first_rel
-	tpx_date_chapter_other_mean_rel
-	tpx_date_chapter_all_mean_rel
+	tpx_date_any_chapter_first_rel
+	tpx_date_any_chapter_other_mean_rel
 	
 	
 	- proportinal values -
-	(values in proportion to the total number of temporal expressions in the text)
+	(explanations see above; all values in proportion to the total number of temporal expressions in the text)
 	
-	tpx_date_prop: proportion of DATE expressions
-	tpx_time_prop: proportion of TIME expressions
-	tpx_duration_prop: proportion of DURATION expressions
-	tpx_set_prop: proportion of SET expressions
-	tpx_date_full_prop: proportion of fully specified DATE expressions
-	tpx_date_chapter_first_prop: proportion of DATE expressions in the first chapter of the novel
-	tpx_date_chapter_other_mean_prop: mean of the proportion of DATE expressions in the remaining chapters of the novel
-	tpx_date_chapter_all_mean_prop: mean of the proportion of DATE expressions in the all chapters of the novel
+	tpx_date_prop
+	tpx_time_prop
+	tpx_duration_prop
+	tpx_set_prop
+	
+	tpx_date_none_prop
+	tpx_date_any_prop
+	tpx_date_year_prop
+	tpx_date_year_month_prop
+	tpx_date_month_prop
+	tpx_date_day_prop
+	tpx_date_month_day_prop
+	tpx_date_full_prop
+	
+	tpx_date_past_ref_prop
+	tpx_date_present_ref_prop
+	tpx_date_future_ref_prop
+	
+	tpx_date_any_chapter_first_prop
+	tpx_date_any_chapter_other_mean_prop
+	
+	
+	- special values -
+	(combining annotation data with metadata)
+	
+	temp_dist: temporal distance between publication year and the mean of the years mentioned in the text
 """
-# labels for tpx data frame
-labels_abs = ["tpx_all_abs", "tpx_date_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_year_abs", 
-"tpx_date_year_month_abs", "tpx_date_month_abs", "tpx_date_day_abs", "tpx_date_month_day_abs", "tpx_date_full_abs", 
-"tpx_date_chapter_first_abs", "tpx_date_chapter_other_mean_abs", "tpx_date_chapter_all_mean_abs"]
 
-labels_rel = ["tpx_all_rel", "tpx_date_rel", "tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_year_rel", 
-"tpx_date_year_month_rel", "tpx_date_month_rel", "tpx_date_day_rel", "tpx_date_month_day_rel", "tpx_date_full_rel", 
-"tpx_date_chapter_first_rel", "tpx_date_chapter_other_mean_rel", "tpx_date_chapter_all_mean_rel"]
+def get_tpx_labels_abs():
+	"""
+	Returns the tpx labels for absolute values
+	"""
+	labels_abs = ["tpx_all_abs", "tpx_date_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_none_abs", "tpx_date_year_abs", 
+	"tpx_date_year_month_abs", "tpx_date_month_abs", "tpx_date_day_abs", "tpx_date_month_day_abs", "tpx_date_any_abs", "tpx_date_full_abs",
+	"tpx_date_past_ref_abs", "tpx_date_present_ref_abs", "tpx_date_future_ref_abs",
+	"tpx_date_any_chapter_first_abs", "tpx_date_any_chapter_other_mean_abs"]
+	return labels_abs
+	
+	
+def get_tpx_labels_rel():
+	"""
+	Returns the tpx labels for relative values
+	"""
+	labels_rel = ["tpx_all_rel", "tpx_date_rel", "tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_none_rel", "tpx_date_year_rel", 
+	"tpx_date_year_month_rel", "tpx_date_month_rel", "tpx_date_day_rel", "tpx_date_month_day_rel", "tpx_date_any_rel", "tpx_date_full_rel",
+	"tpx_date_past_ref_rel", "tpx_date_present_ref_rel", "tpx_date_future_ref_rel",
+	"tpx_date_any_chapter_first_rel", "tpx_date_any_chapter_other_mean_rel"]
+	return labels_rel
+	
+	
+def get_tpx_labels_prop():
+	"""
+	Returns the tpx labels for proportional values
+	"""
+	labels_prop = ["tpx_date_prop", "tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_none_prop", "tpx_date_year_prop",
+	"tpx_date_year_month_prop", "tpx_date_month_prop", "tpx_date_day_prop", "tpx_date_month_day_prop", "tpx_date_any_prop", "tpx_date_full_prop", 
+	"tpx_date_past_ref_prop", "tpx_date_present_ref_prop", "tpx_date_future_ref_prop",
+	"tpx_date_any_chapter_first_prop", "tpx_date_any_chapter_other_mean_prop"]
+	return labels_prop
+	
+	
+def get_tpx_labels_special():
+	"""
+	Returns special labels
+	"""
+	labels_special = ["temp_dist"]
+	return labels_special
 
-labels_prop = ["tpx_date_prop", "tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_full_prop", 
-"tpx_date_chapter_first_prop", "tpx_date_chapter_other_mean_prop", "tpx_date_chapter_all_mean_prop"]
 
-labels = copy.copy(labels_abs) + copy.copy(labels_rel) + copy.copy(labels_prop)
 
+def get_tpx_labels():
+	"""
+	Returns the labels for the tpx data frame
+	"""
+	
+	labels_abs = get_tpx_labels_abs()
+	labels_rel = get_tpx_labels_rel()
+	labels_prop = get_tpx_labels_prop()
+	labels_special = get_tpx_labels_special()
+	labels = copy.copy(labels_abs) + copy.copy(labels_rel) + copy.copy(labels_prop) + copy.copy(labels_special)
+	
+	return labels
+	
+
+	
+def get_tpx_xpaths():
+	"""
+	Returns XPath expressions for the retrieval of tpx features
+	
+	unfortunately, not all the features can be calculated directly with XPath (where Regex is needed, for example)
+	those features have to be derived from the DATE value with Python (see below)
+	"""
+	xpaths = {"tpx_all_abs" : "count(//TIMEX3)",
+	"tpx_date_abs" : "count(//TIMEX3[@type='DATE'])",
+	"tpx_date_past_ref_abs" : "count(//TIMEX3[@type='DATE'][@value='PAST_REF'])",
+	"tpx_date_present_ref_abs" : "count(//TIMEX3[@type='DATE'][@value='PRESENT_REF'])",
+	"tpx_date_future_ref_abs" : "count(//TIMEX3[@type='DATE'][@value='FUTURE_REF'])",
+	"tpx_time_abs" : "count(//TIMEX3[@type='TIME'])",
+	"tpx_duration_abs" : "count(//TIMEX3[@type='DURATION'])",
+	"tpx_set_abs" : "count(//TIMEX3[@type='SET'])"
+	}
+	return xpaths
 
 
 
@@ -174,6 +265,12 @@ def generate_tpx_features():
 	# path to XML files annotated with HeidelTime
 	ht_inpath = os.path.join(wdir, "corpora/hdt_chapterwise/*.xml")
 
+	labels = get_tpx_labels()
+	labels_abs = get_tpx_labels_abs()
+	labels_rel = get_tpx_labels_rel()
+	labels_prop = get_tpx_labels_prop()
+	labels_special = get_tpx_labels_special()
+	
 	labels.append("num_words")
 
 	# read existing metadata
@@ -186,22 +283,7 @@ def generate_tpx_features():
 	# XPath expressions for TimeML requests
 	namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
 
-	xpaths = {"tpx_all_abs" : "count(//TIMEX3)",
-	"tpx_date_abs" : "count(//TIMEX3[@type='DATE'])",
-	"tpx_time_abs" : "count(//TIMEX3[@type='TIME'])",
-	"tpx_duration_abs" : "count(//TIMEX3[@type='DURATION'])",
-	"tpx_set_abs" : "count(//TIMEX3[@type='SET'])",
-	"tpx_date_year_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,1,1) != 'X' and substring(@value,2,1) != 'X' and substring(@value,3,1) != 'X' and substring(@value,4,1) != 'X'])",
-	"tpx_date_year_month_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,1,1) != 'X' and substring(@value,2,1) != 'X' and substring(@value,3,1) != 'X' and substring(@value,4,1) != 'X' and substring(@value,6,1) != 'X' and substring(@value,7,1) != 'X'])",
-	"tpx_date_month_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,6,1) != 'X' and substring(@value,7,1) != 'X'])",
-	"tpx_date_day_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,9,1) != 'X' and substring(@value,10,1) != 'X'])",
-	"tpx_date_month_day_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,6,1) != 'X' and substring(@value,7,1) != 'X' and substring(@value,9,1) != 'X' and substring(@value,10,1) != 'X'])",
-	"tpx_date_full_abs" : "count(//TIMEX3[@type='DATE'][substring(@value,1,1) != 'X' and substring(@value,2,1) != 'X' and substring(@value,3,1) != 'X' and substring(@value,4,1) != 'X' and substring(@value,6,1) != 'X' and substring(@value,7,1) != 'X' and substring(@value,9,1) != 'X' and substring(@value,10,1) != 'X'])",
-	"tpx_date_chapter_first_abs" : "count(//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,string-length(ancestor::tei:div/@xml:id) - 1,2) ='d1'])",
-	"tpx_date_chapter_other_mean_abs" : "count(//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,string-length(ancestor::tei:div/@xml:id) - 1,2) !='d1']) div (count(//wrapper) - 1)",
-	"tpx_date_chapter_all_mean_abs" : "count(//TIMEX3[@type='DATE']) div count(//wrapper)"}
-
-
+	xpaths = get_tpx_xpaths()
 
 	# loop through files to get HeidelTime results, first step: absolute values
 	# subsequent steps build on absolute values
@@ -210,10 +292,97 @@ def generate_tpx_features():
 		idno = os.path.basename(file)[0:6]
 		xml = etree.parse(file)
 		
-		# apply xpaths
-		for label in labels_abs:
-			xpath = xpaths[label]
-			result = xml.xpath(xpath, namespaces=namespaces)
+		result = 0
+		# calculate absolute feature values
+		for label in labels_abs + labels_special:
+			
+			if label in xpaths:
+				# apply xpaths if present
+				xpath = xpaths[label]
+				result = xml.xpath(xpath, namespaces=namespaces)
+				
+			else:
+				# calculate features which cannot be determined directly with XPath
+				xpath_dates = "//TIMEX3[@type='DATE']/@value"
+				dates = xml.xpath(xpath_dates, namespaces=namespaces)
+				
+				# temporal distance between mentioned years and publication year of the novel
+				if (label == "temp_dist"):
+					# get all date expressions with a year
+					years = []
+					for date in dates:
+						if re.match(r"^\d{2,4}", date):
+							years.append(date.split("-")[0])
+					# get the median of the years mentioned in the text
+					if years:
+						years = np.array(years).astype(np.float)
+					
+						med = np.median(years)
+						# get publication year
+						pub_year = md_table.loc[idno,"year"]
+						# calculate the difference
+						result = round(med - pub_year)
+					else:
+						result = float("NaN")
+					
+				# counts related to chapters
+				elif (label == "tpx_date_any_chapter_first_abs" or label == "tpx_date_any_chapter_other_mean_abs"):
+					dates_ch = []
+					xpaths_chapter = {"tpx_date_any_chapter_first_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,string-length(ancestor::tei:div/@xml:id) - 1,2) ='d1']/@value",
+										"tpx_date_any_chapter_other_mean_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,(string-length(ancestor::tei:div/@xml:id) - 1),2) !='d1']/@value",
+										"chapters" : "//wrapper"
+					}
+					chapter_dates = xml.xpath(xpaths_chapter[label], namespaces=namespaces)
+					
+					
+					# filter: just "any-dates"
+					for date in chapter_dates:
+						if re.match(r"^\d{2,4}", date) or re.match(r"^.{2,4}-\d{2}", date) or re.match(r"^.{2,4}-.{2}-\d{2}", date):
+							dates_ch.append(date)
+					
+					if label == "tpx_date_any_chapter_first_abs":
+						# return all the dates from the first chapter
+						result = len(dates_ch)
+					if label == "tpx_date_any_chapter_other_mean_abs":
+						# calculate the mean of the other chapters
+						chapters = xml.xpath(xpaths_chapter["chapters"])
+						
+						if len(chapters) <= 1:
+							raise ValueError("The novel " + idno + " has less than 2 chapters!")
+						result == len(dates_ch) / (len(chapters) - 1)
+					
+				
+				# remaining temporal expression features	
+				else:
+					date_counts = []
+					for date in dates:
+						if (label == "tpx_date_none_abs"):
+							if re.match(r"^\D+$", date):
+								date_counts.append(date)
+						if (label == "tpx_date_year_abs"):
+							if re.match(r"^\d{2,4}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_year_month_abs"):
+							if re.match(r"^\d{2,4}-\d{2}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_month_abs"):
+							if re.match(r"^.{2,4}-\d{2}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_day_abs"):
+							if re.match(r"^.{2,4}-.{2}-\d{2}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_month_day_abs"):
+							if re.match(r"^.{2,4}-\d{2}-\d{2}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_any_abs"):
+							if re.match(r"^\d{2,4}", date) or re.match(r"^.{2,4}-\d{2}", date) or re.match(r"^.{2,4}-.{2}-\d{2}", date):
+								date_counts.append(date)
+						if (label == "tpx_date_full_abs"):
+							if re.match(r"^\d{2,4}-\d{2}-\d{2}", date):
+								date_counts.append(date)
+				
+					result = len(date_counts)
+					
 			
 			# check the results of XPath
 			"""
@@ -223,8 +392,8 @@ def generate_tpx_features():
 			
 			# Write the result into the data frame
 			ht_fr.loc[idno,label] = result
-
-
+			
+			
 	# second step: relative values (relative to the total number of words in the text)
 	for file in glob.glob(ht_inpath):
 		
@@ -243,7 +412,7 @@ def generate_tpx_features():
 		
 		ht_fr.loc[idno,"num_words"] = num_words
 		
-		# apply xpaths
+		
 		for label in labels_rel:
 			# set corresponding absolute value label
 			label_abs = label[:-3] + "abs"
@@ -261,7 +430,7 @@ def generate_tpx_features():
 			
 			# Write the result into the data frame
 			ht_fr.loc[idno,label] = result
-
+			
 
 	# third step: calculate proportions
 	for file in glob.glob(ht_inpath):
@@ -288,40 +457,30 @@ def generate_tpx_features():
 			ht_fr.loc[idno,label] = result
 		
 
-	ht_fr.to_csv(wdir + "corpus-counts-hdt.csv", sep=",", header=True)
+	ht_fr.to_csv(wdir + "tpx-corpus-counts.csv", sep=",", header=True)
 
 	print("Done: generate tpx features")
 
 
 
+
+
+
 """
-freeling-Ergebnisse auswerten
--- welche sinnvoll für time&space einzusetzen?
--- Zahl der Wörter, Sätze
--- TXM?
+interpretate freeling results
+-> TXM?
 """
 # tbd
 
 
+
+
+##################################################### additional features ########################################
+
 """
-Kombination verschiedener Merkmale
-- z.B. wie groß ist der zeitlichen Abstand zwischen Handlungszeit und erster Veröffentlichung des Textes?
--- für "Handlungszeit" den Median der Jahresangaben nehmen
--- Veröffentlichungsjahr minus Handlungszeit
 
 - wie viele Named Entities (Personen, Orte) lassen sich über Normdaten finden?
 """
-
-##################################################### additional features ########################################
-"""
-Extraction of additional features, e.g. annotation features in combination with metadata, or annotation features combined with external data
-"""
-
-# How many years are there between the publication of the novel and the dates mentioned in the texts?
-md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
-ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
-working_table = ht_table.join(md_table)
-
 
 
 ##################################################### visualization ##############################################
@@ -341,7 +500,7 @@ def plot_features(tpx_feature, plot_type="scatter"):
 	"""
 
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
-	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "tpx-corpus-counts.csv"), header=0)
 	working_table = ht_table.join(md_table)
 
 	# get data points and sort
@@ -454,7 +613,7 @@ def plot_other_features(tpx_feature, md_feature, plot_type="bar"):
 	"""
 
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
-	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "tpx-corpus-counts.csv"), header=0)
 	working_table = ht_table.join(md_table)
 
 	# get data points and sort
@@ -561,17 +720,18 @@ def plot_other_features(tpx_feature, md_feature, plot_type="bar"):
 significance testing
 """
 
-def do_wilcoxon_ranksum_test(tpx_feature):
+def do_significance_test(tpx_feature, test="Wilcoxon Ranksum"):
 	"""
-	Do the Wilcoxon Ranksum Test to see if the two distributions differ significantly.
+	Do significance testing to see if the two distributions differ significantly.
 	If p <= 0.05, we are highly confident that the distributions differ significantly.
 	
 	Arguments:
 	tpx_feature (string): Name of the temporal expression feature to test
+	test (string): which test to do: Wilcoxon Ranksum or Mann Whitney U
 	"""
 
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
-	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "corpus-counts-hdt.csv"), header=0)
+	ht_table = pd.DataFrame.from_csv(os.path.join(wdir, "tpx-corpus-counts.csv"), header=0)
 	working_table = ht_table.join(md_table)
 
 	# get data points
@@ -586,7 +746,11 @@ def do_wilcoxon_ranksum_test(tpx_feature):
 	data_hist = data[idnos_hist]
 	data_not_hist = data[idnos_not_hist]
 
-	test_stat = stats.ranksums(data_hist, data_not_hist)
+	if test == "Mann Whitney":
+		test_stat = stats.mannwhitneyu(data_hist, data_not_hist)
+	else:
+		# do Wilcoxon Ranksum by default
+		test_stat = stats.ranksums(data_hist, data_not_hist)
 	return test_stat
 
 
@@ -607,25 +771,33 @@ def plot_all_tpx_features(plot_type="scatter"):
 	Arguments:
 	plot_type (string): scatter or bar
 	"""
+	labels = get_tpx_labels()
 	for feature in labels:
 		plot_features(feature, plot_type)
 		
-
-def calculate_all_test_stats():
+# to do: nach p-values aufsteigend sortieren, dann nach test statistic
+def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 	"""
 	Calculate test statistics for all temporal expression features.
+	
+	Arguments:
+	test (string): which test to do: Wilcoxon Ranksum or Mann Whitney U
 	"""
+	labels = get_tpx_labels()
 	# frame to hold statistics
 	stats_fr = pd.DataFrame(columns=["test-statistic", "p-value"], index=labels)
 	
 	# do significance test for all features
 	for feature in labels:
-		z_stat, p_val = do_wilcoxon_ranksum_test(feature)
+		z_stat, p_val = do_significance_test(feature, test)
 		stats_fr.loc[feature, "test-statistic"] = z_stat
 		stats_fr.loc[feature, "p-value"] = p_val
+	
+	stats_fr = stats_fr.sort_values("p-value", axis=0)
 		
 	# save results to csv file
-	stats_fr.to_csv(wdir + "test-statistics-tpx.csv", sep=",", header=True)
+	test_name = re.sub(r"\s", "-", test.lower())
+	stats_fr.to_csv(wdir + "tpx-test-statistics-" + test_name + ".csv", sep=",", header=True)
 	
 	print("Done: All features tested.")
 	
@@ -633,12 +805,12 @@ def calculate_all_test_stats():
 
 ######################################### Main part ############################################
 
-# summarize_corpus()
+summarize_corpus()
 # generate_tpx_features()
-# plot_all_tpx_features()
+# plot_all_tpx_features("bar")
 # calculate_all_test_stats()
 
 
-plot_all_tpx_features("bar")
+
 
 
