@@ -65,18 +65,21 @@ def describe_corpus(wdir, metadatafile, category):
 		  background='white',
 		  plot_background='white',
 		  font_family = "FreeSans",
+		  opacity = "1",
 		  title_font_size = 20,
-		  legend_font_size = 16,
-		  label_font_size = 12,
+		  legend_font_size = 18,
+		  label_font_size = 16,
 		  colors=plot_colors)
           
-        bar_chart = pygal.StackedBar()
+        bar_chart = pygal.StackedBar(style=my_style, legend_at_bottom=True, print_values=False)
         bar_chart.title = 'Distribution of novels'
-        bar_chart.x_labels = labels
-        
+        bar_chart.x_title = "Decade"
+        bar_chart.y_title = "Number of novels"
         
         md_unstacked = grouped.unstack()
         md_unstacked.fillna(0, inplace=True)
+        
+        bar_chart.x_labels = [str(i) for i in list(md_unstacked.index)]
         
         for label in labels:
             vals = md_unstacked["idno",label]

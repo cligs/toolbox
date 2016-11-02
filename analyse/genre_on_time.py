@@ -20,7 +20,9 @@ import re
 import copy
 import math
 import matplotlib.pyplot as plt
+import pygal
 from scipy import stats
+import operator
 
 # use the following to add the toolbox to syspath (if needed):
 sys.path.append(os.path.abspath("/home/ulrike/Git/"))
@@ -39,8 +41,12 @@ The data which is analyzed here has been previously annotated with the following
 wdir = "/home/ulrike/Dokumente/Konferenzen/DH/2017/"
 md_mode = "hist-nov"
 md_csv = "metadata_" + md_mode + ".csv"
+# where to save visualization files
 dir_visuals = os.path.join(wdir, "vis")
-
+# path to XML files annotated with HeidelTime
+ht_inpath = os.path.join(wdir, "corpora/hdt_chapterwise/*.xml")
+# path to corpus files, relative to working directory
+corpus_inpath = "corpora/base/*/*/*.xml"
 
 
 
@@ -57,7 +63,7 @@ def summarize_corpus():
 	"""
 	
 	# get metadata
-	get_metadata.from_TEIP5(wdir,"corpora/base/*/*/*.xml", "metadata", md_mode)
+	get_metadata.from_TEIP5(wdir, corpus_inpath, "metadata", md_mode)
 	
 	# visualize some metadata
 	visualize_metadata.describe_corpus(wdir, md_csv, "author-continent")
@@ -187,7 +193,7 @@ def get_tpx_labels_abs():
 	labels_abs = ["tpx_all_abs", "tpx_date_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_none_abs", "tpx_date_year_abs", 
 	"tpx_date_year_month_abs", "tpx_date_month_abs", "tpx_date_day_abs", "tpx_date_month_day_abs", "tpx_date_any_abs", "tpx_date_full_abs",
 	"tpx_date_past_ref_abs", "tpx_date_present_ref_abs", "tpx_date_future_ref_abs",
-	"tpx_date_any_chapter_first_abs", "tpx_date_any_chapter_other_mean_abs"]
+	"tpx_date_any_chapter_first_abs", "tpx_date_any_chapter_other_abs", "tpx_date_any_chapter_other_mean_abs"]
 	return labels_abs
 	
 	
@@ -198,7 +204,7 @@ def get_tpx_labels_rel():
 	labels_rel = ["tpx_all_rel", "tpx_date_rel", "tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_none_rel", "tpx_date_year_rel", 
 	"tpx_date_year_month_rel", "tpx_date_month_rel", "tpx_date_day_rel", "tpx_date_month_day_rel", "tpx_date_any_rel", "tpx_date_full_rel",
 	"tpx_date_past_ref_rel", "tpx_date_present_ref_rel", "tpx_date_future_ref_rel",
-	"tpx_date_any_chapter_first_rel", "tpx_date_any_chapter_other_mean_rel"]
+	"tpx_date_any_chapter_first_rel", "tpx_date_any_chapter_other_rel", "tpx_date_any_chapter_other_mean_rel"]
 	return labels_rel
 	
 	
@@ -209,7 +215,7 @@ def get_tpx_labels_prop():
 	labels_prop = ["tpx_date_prop", "tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_none_prop", "tpx_date_year_prop",
 	"tpx_date_year_month_prop", "tpx_date_month_prop", "tpx_date_day_prop", "tpx_date_month_day_prop", "tpx_date_any_prop", "tpx_date_full_prop", 
 	"tpx_date_past_ref_prop", "tpx_date_present_ref_prop", "tpx_date_future_ref_prop",
-	"tpx_date_any_chapter_first_prop", "tpx_date_any_chapter_other_mean_prop"]
+	"tpx_date_any_chapter_first_prop", "tpx_date_any_chapter_other_prop", "tpx_date_any_chapter_other_mean_prop"]
 	return labels_prop
 	
 	
@@ -261,9 +267,6 @@ def generate_tpx_features():
 	"""
 	Generates features based on the results of annotation with HeidelTime
 	"""
-
-	# path to XML files annotated with HeidelTime
-	ht_inpath = os.path.join(wdir, "corpora/hdt_chapterwise/*.xml")
 
 	labels = get_tpx_labels()
 	labels_abs = get_tpx_labels_abs()
@@ -326,12 +329,14 @@ def generate_tpx_features():
 						result = float("NaN")
 					
 				# counts related to chapters
-				elif (label == "tpx_date_any_chapter_first_abs" or label == "tpx_date_any_chapter_other_mean_abs"):
+				elif (label == "tpx_date_any_chapter_first_abs" or label == "tpx_date_any_chapter_other_mean_abs" or label == "tpx_date_any_chapter_other_abs"):
 					dates_ch = []
-					xpaths_chapter = {"tpx_date_any_chapter_first_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,string-length(ancestor::tei:div/@xml:id) - 1,2) ='d1']/@value",
+					xpaths_chapter = {"tpx_date_any_chapter_first_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,(string-length(ancestor::tei:div/@xml:id) - 1),2) ='d1']/@value",
+										"tpx_date_any_chapter_other_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,(string-length(ancestor::tei:div/@xml:id) - 1),2) !='d1']/@value",
 										"tpx_date_any_chapter_other_mean_abs" : "//TIMEX3[@type='DATE'][substring(ancestor::tei:div/@xml:id,(string-length(ancestor::tei:div/@xml:id) - 1),2) !='d1']/@value",
 										"chapters" : "//wrapper"
 					}
+					chapter_dates = []
 					chapter_dates = xml.xpath(xpaths_chapter[label], namespaces=namespaces)
 					
 					
@@ -340,16 +345,16 @@ def generate_tpx_features():
 						if re.match(r"^\d{2,4}", date) or re.match(r"^.{2,4}-\d{2}", date) or re.match(r"^.{2,4}-.{2}-\d{2}", date):
 							dates_ch.append(date)
 					
-					if label == "tpx_date_any_chapter_first_abs":
-						# return all the dates from the first chapter
+					if (label == "tpx_date_any_chapter_first_abs" or label == "tpx_date_any_chapter_other_abs"):
+						# return all the dates from the first / other chapters
 						result = len(dates_ch)
-					if label == "tpx_date_any_chapter_other_mean_abs":
+					elif label == "tpx_date_any_chapter_other_mean_abs":
 						# calculate the mean of the other chapters
 						chapters = xml.xpath(xpaths_chapter["chapters"])
 						
 						if len(chapters) <= 1:
 							raise ValueError("The novel " + idno + " has less than 2 chapters!")
-						result == len(dates_ch) / (len(chapters) - 1)
+						result = len(dates_ch) / (len(chapters) - 1)
 					
 				
 				# remaining temporal expression features	
@@ -479,7 +484,7 @@ interpretate freeling results
 
 """
 
-- wie viele Named Entities (Personen, Orte) lassen sich über Normdaten finden?
+How many named entities (person names, place names) can be found in thesauri?
 """
 
 
@@ -488,15 +493,39 @@ interpretate freeling results
 """
 visualize the distribution of specific feature values
 """
+plot_colors = ["#3366CC","#DC3912","#FF9900","#109618","#990099","#3B3EAC","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#329262","#5574A6","#3B3EAC"]
+pygal_style = pygal.style.Style(
+			background='white',
+			plot_background='white',
+			font_family = "FreeSans, sans-serif",
+			opacity = "1",
+			title_font_size = 50,
+			legend_font_size = 44,
+			label_font_size = 40,
+			value_font_size = 24,
+			colors=plot_colors)
+			
+pygal_style2 = pygal.style.Style(
+			background='white',
+			plot_background='white',
+			font_family = "FreeSans, sans-serif",
+			opacity = "1",
+			title_font_size = 50,
+			legend_font_size = 44,
+			label_font_size = 28,
+			value_font_size = 24,
+			colors=["#109618","#FF9900"])
+
 
 # to do: verallgemeinern für andere Subgroups
-def plot_features(tpx_feature, plot_type="scatter"):
+def plot_features(tpx_feature, plot_type="scatter", plot_style="pygal"):
 	"""
 	Make a scatter or bar plot showing the number of specific temporal expressions in historical vs. non-historical novels
 	
 	Arguments:
 	tpx_feature (string): Name of the temporal expression feature to plot
 	plot_type (string): scatter or bar
+	plot_style (string): which visualization library to use; matplotlib or pygal
 	"""
 
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
@@ -521,84 +550,159 @@ def plot_features(tpx_feature, plot_type="scatter"):
 	ranks = {}
 	for idx, val in enumerate(data_sorted.index):
 		ranks[val] = idx
+	
+	if plot_style == "matplotlib":
 		
-	if plot_type == "scatter":
+		if plot_type == "scatter":
 
-		# visualize as scatterplot
-		plt.figure(figsize=(20,6))
+			# visualize as scatterplot
+			plt.figure(figsize=(20,6))
 
-					# rank as x values, alternative: range(len(data_hist))
-		plt.scatter([ranks[idno] for idno in idnos_hist],
-					# counts as y values
-					data_hist,
-					marker = "D",
-					color = "#3366CC",
-					alpha = 1,
-					s = 50,
-					label = tpx_feature + ", historical novel"
-		)
+						# rank as x values, alternative: range(len(data_hist))
+			plt.scatter([ranks[idno] for idno in idnos_hist],
+						# counts as y values
+						data_hist,
+						marker = "D",
+						color = "#3366CC",
+						alpha = 1,
+						s = 50,
+						label = tpx_feature + ", historical novel"
+			)
 
-		plt.scatter([ranks[idno] for idno in idnos_not_hist],
-					# counts as y values
-					data_not_hist,
-					marker = "o",
-					color = "#DC3912",
-					alpha = 1,
-					s = 50,
-					label = tpx_feature + ", non-historical novel"
-		)
-		plt.title("Novels and number of temporal expressions (TPX)")
-		plt.ylabel("Number of TPX")
-		plt.xlabel("Novel rank")
-		plt.xlim(-5,len(data) + 5)
+			plt.scatter([ranks[idno] for idno in idnos_not_hist],
+						# counts as y values
+						data_not_hist,
+						marker = "o",
+						color = "#DC3912",
+						alpha = 1,
+						s = 50,
+						label = tpx_feature + ", non-historical novel"
+			)
+			plt.title("Novels and number of temporal expressions (TPX)")
+			plt.ylabel("Number of TPX")
+			plt.xlabel("Novel rank")
+			plt.xlim(-5,len(data) + 5)
 
-		plt.legend(loc='upper right')
-		plt.tight_layout()
+			plt.legend(loc='upper right')
+			plt.tight_layout()
 
-		figurename = "scatter-"+ tpx_feature +".png"
-		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
-		plt.close()
-	
-	elif plot_type == "bar":
-		# visualize as barplot
-		plt.figure(figsize=(20,6))
-
-					# rank as x values, alternative: range(len(data_hist))
-		plt.bar([ranks[idno] for idno in idnos_hist],
-					# counts as y values
-					data_hist,
-					align = "center",
-					color = "#3366CC",
-					alpha = 1,
-					edgecolor = "#3366CC",
-					label = tpx_feature + ", historical novel"
-		)
-
-		plt.bar([ranks[idno] for idno in idnos_not_hist],
-					# counts as y values
-					data_not_hist,
-					align = "center",
-					color = "#DC3912",
-					alpha = 1,
-					edgecolor = "#DC3912",
-					label = tpx_feature + ", non-historical novel"
-		)
-		plt.title("Novels and number of temporal expressions (TPX)", fontsize=40)
-		plt.ylabel("Number of TPX", fontsize=30)
-		plt.xlabel("Novel rank", fontsize=30)
-		plt.xlim(-2,len(data) + 2)
-		plt.xticks(fontsize=28)
-		plt.yticks(fontsize=28)
-
+			figurename = "scatter-"+ tpx_feature +".png"
+			plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+			plt.close()
 		
-		plt.legend(loc='upper right', prop={'size':30})
-		plt.tight_layout()
+		elif plot_type == "bar":
+			# visualize as barplot
+			plt.figure(figsize=(20,6))
 
-		figurename = "bar-"+ tpx_feature +".png"
-		plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
-		plt.close()
+						# rank as x values, alternative: range(len(data_hist))
+			plt.bar([ranks[idno] for idno in idnos_hist],
+						# counts as y values
+						data_hist,
+						align = "center",
+						color = "#3366CC",
+						alpha = 1,
+						edgecolor = "#3366CC",
+						label = tpx_feature + ", historical novel"
+			)
+
+			plt.bar([ranks[idno] for idno in idnos_not_hist],
+						# counts as y values
+						data_not_hist,
+						align = "center",
+						color = "#DC3912",
+						alpha = 1,
+						edgecolor = "#DC3912",
+						label = tpx_feature + ", non-historical novel"
+			)
+			plt.title("Novels and number of temporal expressions (tpx)", fontsize=40)
+			plt.ylabel("Number of tpx", fontsize=30)
+			plt.xlabel("Novel rank", fontsize=30)
+			plt.xlim(-2,len(data) + 2)
+			plt.xticks(fontsize=28)
+			plt.yticks(fontsize=28)
+
+			
+			plt.legend(loc='upper right', prop={'size':30})
+			plt.tight_layout()
+
+			figurename = "bar-"+ tpx_feature +".png"
+			plt.savefig(os.path.join(dir_visuals, figurename), dpi=300)
+			plt.close()
 	
+	# style: pygal
+	else:
+		# or XY chart type, but then bars are not possible
+		
+		bar = pygal.Bar(style=pygal_style, width=2000, height=1000, legend_at_bottom=True)
+		bar.title = 'Novels and number of temporal expressions (' + tpx_feature + ')'
+		bar.x_title = "Novel rank"
+		bar.y_title = "Number of tpx"
+		#bar.x_labels = (0,20,40,60,80,100,120,140)
+		
+		sorted_ranks = sorted(ranks.items(), key=operator.itemgetter(1))
+		
+		vals_hist = []
+		vals_not_hist = []
+		
+		for key,val in sorted_ranks:
+			if key in idnos_hist:
+				# (val,data[key]) with XY
+				val = {"value" : data[key], "color" : "#3366CC", "label" : key}
+				vals_hist.append(val)
+			else:
+				val = {"value" : data[key], "color" : "#DC3912", "label" : key}
+				vals_not_hist.append(val)
+		
+		bar.add("historical", vals_hist)
+		bar.add("non-historical", vals_not_hist)
+		
+		figurename = "bar-"+ tpx_feature +".svg"
+		bar.render_to_file(os.path.join(dir_visuals, figurename))
+		
+	print("Plotted " + figurename)
 	
+
+def plot_significance_values(filename="tpx-test-statistics-wilcoxon-ranksum.csv"):
+	"""
+	Bar plot of features, indicating their significance.
+	
+	Arguments:
+	filename (string): Name of the CSV file with test statistic and p-values
+	"""
+	eval_table = pd.DataFrame.from_csv(os.path.join(wdir, filename), header=0)
+	eval_table = eval_table.sort_values("p_value", axis=0, ascending=False)
+	p_values = eval_table.p_value
+	
+	bar = pygal.HorizontalBar(style=pygal_style2, width=1900, height=2000, show_legend=True, legend_at_bottom=True, print_labels=True, x_label_rotation=270)
+	bar.title = 'Significance of tpx features'
+	bar.x_title = "Test statistic"
+	bar.y_title = "Significance rank"
+	# p-values
+	bar.x_labels = []
+	
+	vals = []
+	for i,pval in enumerate(p_values):
+		rank = len(p_values) - i
+		bar.x_labels.append(str(round(pval,6)) + " (" + str(rank).zfill(2) + ")")
+		label = eval_table.index.tolist()[i]
+		if label != "temp_dist":
+			label = label[4:]
+		testval = eval_table.iloc[i].test_statistic
+		
+		if float(pval) <= 0.05:
+			val = {"value" : testval, "color" : "#109618", "label" : label}
+			vals.append(val)
+		else:
+			val = {"value" : testval, "color" : "#FF9900", "label" : label}
+			vals.append(val)
+	
+	# small trick to get right legend...
+	bar.add("significant", vals)
+	#bar.add("not significant", [])
+	
+	figurename = "bar-significance.svg"
+	bar.render_to_file(os.path.join(wdir, figurename))
+		
 	print("Plotted " + figurename)
 	
 	
@@ -764,18 +868,19 @@ Anwendung: Clustern oder Masch.Lernen mit Features
 """
 Convenience functions
 """
-def plot_all_tpx_features(plot_type="scatter"):
+def plot_all_tpx_features(plot_type="scatter", plot_style="pygal"):
 	"""
 	Make plots for all temporal expression features.
 	
 	Arguments:
 	plot_type (string): scatter or bar
+	plot_style (string): which visualization library to use; matplotlib or pygal
 	"""
 	labels = get_tpx_labels()
 	for feature in labels:
-		plot_features(feature, plot_type)
+		plot_features(feature, plot_type, plot_style)
 		
-# to do: nach p-values aufsteigend sortieren, dann nach test statistic
+
 def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 	"""
 	Calculate test statistics for all temporal expression features.
@@ -790,10 +895,10 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 	# do significance test for all features
 	for feature in labels:
 		z_stat, p_val = do_significance_test(feature, test)
-		stats_fr.loc[feature, "test-statistic"] = z_stat
-		stats_fr.loc[feature, "p-value"] = p_val
+		stats_fr.loc[feature, "test_statistic"] = z_stat
+		stats_fr.loc[feature, "p_value"] = p_val
 	
-	stats_fr = stats_fr.sort_values("p-value", axis=0)
+	stats_fr = stats_fr.sort_values("p_value", axis=0)
 		
 	# save results to csv file
 	test_name = re.sub(r"\s", "-", test.lower())
@@ -805,11 +910,11 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 
 ######################################### Main part ############################################
 
-summarize_corpus()
-# generate_tpx_features()
-# plot_all_tpx_features("bar")
-# calculate_all_test_stats()
-
+#summarize_corpus()
+#generate_tpx_features()
+#plot_all_tpx_features("bar")
+#calculate_all_test_stats()
+plot_significance_values()
 
 
 
