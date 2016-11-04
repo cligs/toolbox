@@ -21,7 +21,7 @@ TextPath = WorkDir + "both-lem/*.txt"
 # Filename for saving/loading the model.
 ModelFile = "both-lem.gensim"
 # What should the script do?
-Mode = ["FourthTerm"] # "BuildModel"|"Similarity"|"FourthTerm"|"DoesntMatch"
+Mode = ["NSimilarity"] # "BuildModel"|"PairSimilarity"|"NSimilarity"|"FourthTerm"|"DoesntMatch"
 
 
 
@@ -30,12 +30,14 @@ Mode = ["FourthTerm"] # "BuildModel"|"Similarity"|"FourthTerm"|"DoesntMatch"
 ##################
 
 # Calculate similarity score (input: two terms)
-#Similarity = ["machine", "outil"] 
-#Similarity = ["femme", "fille"] 
-#Similarity = ["père", "fils"] 
-#Similarity = ["café", "cigarette"] 
-#Similarity = ["cigare", "cigarette"] 
-#Similarity = ["pipe", "cigare"] 
+#PairSimilarity = ["machine", "outil"] 
+#PairSimilarity = ["femme", "fille"] 
+#PairSimilarity = ["père", "fils"] 
+PairSimilarity = ["café", "cigarette"] 
+#PairSimilarity = ["cigare", "cigarette"] 
+#PairSimilarity = ["pipe", "cigare"] 
+
+NSimilarity = [["police","voiture"],["automobile","flic"]]
 
 # Calculate the most similar term.
 # Input: [[positive terms], [negative terms]]
@@ -46,7 +48,8 @@ FourthTerm = [["oncle"], ["homme"]] # A+B-C=?
 
 # Find the term that does not belong in the list
 #DoesntMatch = ["argent", "billet", "monnaie", "musée"]
-#DoesntMatch = ["femme", "oncle", "fille", "soeur"]
+DoesntMatch = ["femme", "oncle", "fille", "soeur"]
+
 
 
 
@@ -99,15 +102,28 @@ def build_model(Sentences, ModelFile):
 
 
 
-def word_similarity(ModelFile, Similarity):
+def wordpair_similarity(ModelFile, PairSimilarity):
     """
     Returns the similarity score, between 0 and 1, for two words based on the model.
     """
     print("--word_similarity")
     Model = gensim.models.Word2Vec.load(ModelFile)
-    Result = Model.similarity(Similarity[0], Similarity[1])
-    print("Query:", Similarity)
+    Result = Model.similarity(PairSimilarity[0], PairSimilarity[1])
+    print("Query:", PairSimilarity)
     print("Result:", Result)
+
+
+
+def nword_similarity(ModelFile, NSimilarity):
+    """
+    Returns the similarity score, between 0 and 1, for two words based on the model.
+    """
+    print("--word_similarity")
+    Model = gensim.models.Word2Vec.load(ModelFile)
+    Result = Model.similarity(NSimilarity[0], NSimilarity[1])
+    print("Query:", NSimilarity)
+    print("Result:", Result)
+
 
 
 def fourth_term(ModelFile, FourthTerm):
@@ -140,15 +156,18 @@ def doesnt_match(ModelFile, DoesntMatch):
 # Main function
 ################
 
-def main(Mode, TextPath, ModelFile, Similarity, FourthTerm, DoesntMatch):
+def main(Mode, TextPath, ModelFile, 
+         PairSimilarity, NSimilarity, FourthTerm, DoesntMatch):
     print("Launched.")
     print("Model used:", ModelFile)
     
     if "BuildModel" in Mode: 
         Sentences = extract_sentences(TextPath)
         build_model(Sentences, ModelFile)
-    if "Similarity" in Mode:
-        word_similarity(ModelFile, Similarity)
+    if "PairSimilarity" in Mode:
+        wordpair_similarity(ModelFile, PairSimilarity)
+    if "NSimilarity" in Mode:
+        nword_similarity(ModelFile, NSimilarity)
     if "FourthTerm" in Mode: 
         fourth_term(ModelFile, FourthTerm)
     if "DoesntMatch" in Mode: 
@@ -157,4 +176,5 @@ def main(Mode, TextPath, ModelFile, Similarity, FourthTerm, DoesntMatch):
     
     print("Done.")
     
-main(Mode, TextPath, ModelFile, Similarity, FourthTerm, DoesntMatch)
+main(Mode, TextPath, ModelFile, 
+     PairSimilarity, NSimilarity, FourthTerm, DoesntMatch)
