@@ -4,27 +4,6 @@
 # #cf
 
 
-#=================================
-# Zeta Parameters
-#=================================
-
-SegLength = 5000
-Threshold = 100
-
-
-#=================================
-# Files and folders
-#=================================
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/zeta/"
-DataFolder = WorkDir + "data0100MB/"
-InputFolder = WorkDir + "input0100MB/"
-OnePath = DataFolder + "files1/*.txt"
-TwoPath = DataFolder + "files2/*.txt"
-OneFile = InputFolder + "rm0100.txt"
-TwoFile = InputFolder + "wk0100.txt"
-SegsFolder = WorkDir + "segs-of-"+str(SegLength)+"/"
-ZetaFile = WorkDir + "zetas-scores_segs-of-"+str(SegLength)+".csv"
-
 
 #=================================
 # Import statements
@@ -37,6 +16,7 @@ import pandas as pd
 from collections import Counter
 import itertools
 import shutil
+import pygal
 
 
 #=================================
@@ -173,7 +153,8 @@ def get_zetas(Types, OneProps, TwoProps, ZetaFile):
 # Main coordinating function
 #=================================
 
-def zeta(OnePath, TwoPath, 
+def zeta(DataFolder,InputFolder,
+         OnePath, TwoPath, 
          OneFile, TwoFile, 
          SegLength, SegsFolder, 
          Threshold, ZetaFile):
@@ -220,15 +201,73 @@ def zeta(OnePath, TwoPath,
     print("--get_zetas")
     get_zetas(Types, OneProps, TwoProps, ZetaFile)
 
-zeta(OnePath, TwoPath, 
-     OneFile, TwoFile, 
-     SegLength, SegsFolder, 
-     Threshold, ZetaFile)
 
 
 
 
 
+#=================================
+# Visualize zeta data
+#=================================
+
+zeta_style = pygal.style.Style(
+  background='white',
+  plot_background='white',
+  font_family = "FreeSans",
+  title_font_size = 20,
+  legend_font_size = 16,
+  label_font_size = 12,
+  colors=["#1d91c0","#225ea8","#253494","#081d58", "#071746"])
+
+
+
+def get_zetadata(ZetaFile, NumWords): 
+    with open(ZetaFile, "r") as InFile: 
+        ZetaData = pd.DataFrame.from_csv(InFile)
+        #print(ZetaData.head())
+        ZetaData.drop(["one-prop", "two-prop"], axis=1, inplace=True)
+        ZetaData.sort_values("zeta", ascending=False, inplace=True)
+        ZetaDataHead = ZetaData.head(NumWords)
+        ZetaDataTail = ZetaData.tail(NumWords)
+        ZetaData = ZetaDataHead.append(ZetaDataTail)
+        ZetaData = ZetaData.reset_index(drop=True)
+        #print(ZetaData)
+        return ZetaData
+
+
+def plot_zetadata(ZetaData, PlotFile, NumWords): 
+    plot = pygal.HorizontalBar(style=zeta_style,
+                               print_values=False,
+                               print_labels=True,
+                               show_legend=False,
+                               range=(-1,1),
+                               title="Kontrastive Analyse (Wikipedia vs. Romane)",
+                               x_title="Craig's Zeta",
+                               y_title="Je "+str(NumWords)+" Worte pro Sammlung"
+                               )
+    for i in range(len(ZetaData)):
+        if ZetaData.iloc[i,1] > 0.8: 
+            Color = "#4d9900"
+        elif ZetaData.iloc[i,1] > 0.7: 
+            Color = "#4d6f2a"
+        elif ZetaData.iloc[i,1] > 0: 
+            Color = "#4d5c3d"
+        elif ZetaData.iloc[i,1] < -0.8: 
+            Color = "#0044cc"
+        elif ZetaData.iloc[i,1] < -0.7: 
+            Color = "#1f4ead"
+        elif ZetaData.iloc[i,1] < 0: 
+            Color = "#3d588f"
+        plot.add(ZetaData.iloc[i,0], [{"value":ZetaData.iloc[i,1], "label":ZetaData.iloc[i,0], "color":Color}])
+    plot.render_to_file(PlotFile)
+
+
+def plot_zeta(ZetaFile,
+              NumWords,
+              PlotFile): 
+    print("--plot_zeta")
+    ZetaData = get_zetadata(ZetaFile, NumWords)
+    plot_zetadata(ZetaData, PlotFile, NumWords)
 
 
 
