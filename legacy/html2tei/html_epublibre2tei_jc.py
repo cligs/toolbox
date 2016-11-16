@@ -93,7 +93,6 @@ def replacingBasicElementsFromEpubLibre(text):
 
     text = re.sub(r'<blockquote class="(?:versos?\d*)">(.*?)</blockquote>', r'<lg>\1</lg>', text, flags=re.DOTALL|re.IGNORECASE)
 
-
     
     text = re.sub(r'(<lg>\s*)<p class="izq">', r'\1<l>', text, flags=re.DOTALL|re.IGNORECASE)
 
