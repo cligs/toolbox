@@ -30,10 +30,9 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form",]
     labels_structure = ["size_words","size_chars", "size_divs", "size_verses", "size_sps", "size_pds", "size_numbers", "size_puncts", "size_blocks"]
-    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change"]
+    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change"]
 
-    labels_subgenre = [ "crime-fiction", "adventure", "erotic", "fantastic", "farce", "naturalist", "modernist", "opera", "pastoral", "realist", "sentimental", "social", "spiritual", "suspense", "thriller", "historical", "anti-religious", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political fiction", "bildungsroman", "war-novel",]
-    labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x"]
+    labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical",]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -41,7 +40,6 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "author-name": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
               "author-gender":'//tei:term[@type="author-gender"]//text()',
-              "language":'//tei:term[@type="language"]//text()',
               "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
               "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
@@ -61,15 +59,13 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "narrator": '//tei:term[@type="narrator"]//text()',
               "protagonist-name": '//tei:term[@type="protagonist-name"]//text()',
               "protagonist-social-level": '//tei:term[@type="protagonist-social-level"]//text()',
+              "protagonist-age": '//tei:term[@type="protagonist-age"]//text()',
               "representation": '//tei:term[@type="representation"]//text()',
               "setting-continent": '//tei:term[@type="setting-continent"]//text()',
               "setting-country": '//tei:term[@type="setting-country"]//text()',
               "setting-name": '//tei:term[@type="setting-name"]//text()',
               "setting-territory": '//tei:term[@type="setting-territory"]//text()',
               "subgenre-lithist":'//tei:term[@type="subgenre-lithist"][1]//text()',
-              "subgenre_hist":'//tei:term[@type="subgenre_hist"]//text()',
-              "subgenre_x":'//tei:term[@type="subgenre_x"]//text()',
-              
               "text-movement": '//tei:term[@type="text-movement"]//text()',
               "time-period": '//tei:term[@type="time-period"]//text()',
               "time-span": '//tei:term[@type="time-span"]//text()',
@@ -83,6 +79,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "keywords-cert": '///tei:keywords/@cert',
               "form": '//tei:term[@type="form"]//text()',
               "author-movement": '//tei:term[@type="author-movement"]//text()',
+              "quality-listhist": '//tei:term[@type="quality-listhist"]//text()',
               "author-date-birth": '//tei:term[@type="author-date-birth"]//text()',
               "author-date-death": '//tei:term[@type="author-date-death"]//text()',
               "author-TOC-range": '//tei:term[@type="author-TOC-range"]//text()',
@@ -103,30 +100,24 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "size_numbers": '//tei:extent/tei:measure[@unit="numbers"]//text()',
               "size_puncts": '//tei:extent/tei:measure[@unit="puncts"]//text()',
 
-              "crime-fiction": '//*[name()="term"][@type="subgenre"][text()="crime-fiction"]/text()',
               "adventure": '//*[name()="term"][@type="subgenre"][text()="adventure"]/text()',
+              "autobiographical": '//*[name()="term"][@type="subgenre"][text()="autobiographical"]/text()',
+              "bildungsroman": '//*[name()="term"][@type="subgenre"][text()="bildungsroman"]/text()',
+              "comedy": '//*[name()="term"][@type="subgenre"][text()="comedy"]/text()',
               "erotic": '//*[name()="term"][@type="subgenre"][text()="erotic"]/text()',
               "fantastic": '//*[name()="term"][@type="subgenre"][text()="fantastic"]/text()',
-              "farce": '//*[name()="term"][@type="subgenre"][text()="farce"]/text()',
-              "naturalist": '//*[name()="term"][@type="subgenre"][text()="naturalist"]/text()',
+              "historical": '//*[name()="term"][@type="subgenre"][text()="historical"]/text()',
+              "memoir": '//*[name()="term"][@type="subgenre"][text()="memoir"]/text()',
               "modernist": '//*[name()="term"][@type="subgenre"][text()="modernist"]/text()',
-              "opera": '//*[name()="term"][@type="subgenre"][text()="opera"]/text()',
-              "pastoral": '//*[name()="term"][@type="subgenre"][text()="pastoral"]/text()',
+              "moralist": '//*[name()="term"][@type="subgenre"][text()="moralist"]/text()',
+              "naturalist": '//*[name()="term"][@type="subgenre"][text()="naturalist"]/text()',
+              "philosophical": '//*[name()="term"][@type="subgenre"][text()="philosophical"]/text()',
+              "political-fiction": '//*[name()="term"][@type="subgenre"][text()="political-fiction"]/text()',
               "realist": '//*[name()="term"][@type="subgenre"][text()="realist"]/text()',
               "sentimental": '//*[name()="term"][@type="subgenre"][text()="sentimental"]/text()',
               "social": '//*[name()="term"][@type="subgenre"][text()="social"]/text()',
               "spiritual": '//*[name()="term"][@type="subgenre"][text()="spiritual"]/text()',
-              "suspense": '//*[name()="term"][@type="subgenre"][text()="suspense"]/text()',
-              "thriller": '//*[name()="term"][@type="subgenre"][text()="thriller"]/text()',
-              "historical": '//*[name()="term"][@type="subgenre"][text()="historical"]/text()',
-              "anti-religious": '//*[name()="term"][@type="subgenre"][text()="anti-religious"]/text()',
-              "comedy": '//*[name()="term"][@type="subgenre"][text()="comedy"]/text()',
-              "philosophical": '//*[name()="term"][@type="subgenre"][text()="philosophical"]/text()',
-              "memoir": '//*[name()="term"][@type="subgenre"][text()="memoir"]/text()',
-              "moralist": '//*[name()="term"][@type="subgenre"][text()="moralist"]/text()',
               "symbolic": '//*[name()="term"][@type="subgenre"][text()="symbolic"]/text()',
-              "political fiction": '//*[name()="term"][@type="subgenre"][text()="political fiction"]/text()',
-              "bildungsroman": '//*[name()="term"][@type="subgenre"][text()="bildungsroman"]/text()',
               "war-novel": '//*[name()="term"][@type="subgenre"][text()="war-novel"]/text()',
               
               }
@@ -148,8 +139,6 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre
     elif mode == "beta-opt-obl-subgenre-structure":
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
-    elif mode == "hist-nov":
-        labels = labels_histnov
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []

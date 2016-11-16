@@ -24,15 +24,17 @@ def find_tendencies(input_metadata):
 
     # the columns of the metadata table are iterated
     for column_name, column_series in df_metadata.iteritems():
+        #print(column_name, column_series.dtype)
         # if the column is categorical:
         if column_series.dtype == "object" and column_name != "supergenre" and column_name != "genre":
             # we take the two most common values
             contador = Counter(column_series.values).most_common(2)
-            # and place them in the dataframe
-            df_results = df_results.append({"metadata": column_name, 'result1-value': str(contador[0][0]), 'result1-ammount': str(contador[0][1]/df_metadata.shape[0]), 'result2-value': str(contador[1][0]), 'result2-ammount': str(contador[1][1]/df_metadata.shape[0]),}, ignore_index=True)
+            if len(contador) > 1:                
+                # and place them in the dataframe
+                df_results = df_results.append({"metadata": column_name, 'result1-value': str(contador[0][0]), 'result1-ammount': str(contador[0][1]/df_metadata.shape[0]), 'result2-value': str(contador[1][0]), 'result2-ammount': str(contador[1][1]/df_metadata.shape[0]),}, ignore_index=True)
 
         # if the column is numerical
-        elif column_series.dtype == "int64":
+        elif column_series.dtype == "int64" or column_series.dtype == "float64":
             # we calculate the median
             median = column_series.median()
             # and place it in the table
