@@ -14,7 +14,8 @@ import re
 import glob
 import pandas as pd
 from collections import Counter
-import itertools
+import treetaggerwrapper
+#import itertools
 import shutil
 import pygal
 
@@ -23,15 +24,36 @@ import pygal
 # Functions
 #=================================
 
-def merge_text(Path, File): 
+
+def make_filelist(DataFolder, MetadataFile, Contrast): 
+    """
+    Based on the metadata, create two lists of files, each from one group.
+    The category to check and the two labels are found in Contrast.
+    """
+    with open(MetadataFile, "r") as InFile: 
+        Metadata = pd.DataFrame.from_csv(InFile, sep=";")
+        OneMetadata = Metadata[Metadata[Contrast[0]].isin([Contrast[1]])]
+        TwoMetadata = Metadata[Metadata[Contrast[0]].isin([Contrast[2]])]
+        OneList = list(OneMetadata.loc[:,"idno"])
+        TwoList = list(TwoMetadata.loc[:,"idno"])
+        #print(OneList, TwoList)
+        print("---", len(OneList), len(TwoList), "texts")
+        return OneList, TwoList
+
+
+def merge_text(DataFolder, List, File): 
     """
     Merge all texts from one group into one large text file.
     Creates less loss when splitting.
     """
     with open(File, 'wb') as OutFile:
-        for File in glob.glob(Path):
-            with open(File, 'rb') as ReadFile:
-                shutil.copyfileobj(ReadFile, OutFile)
+        PathList = [DataFolder+Item+".txt" for Item in List]
+        for File in PathList:
+            try:
+                with open(File, 'rb') as ReadFile:
+                    shutil.copyfileobj(ReadFile, OutFile)
+            except: 
+                print("exception.")
 
 
 def read_file(File):
@@ -45,16 +67,70 @@ def read_file(File):
     return Text, FileName
 
 
-def prepare_text(Text):
+def prepare_text(Text, Mode, Pos, Forms, Stoplist):
     """
     Takes a text in string format and transforms and filters it. 
     Makes it lowercase, splits into tokens, discards tokens of length 1.
+    Alternatively, applies POS-tagging and selection of specific POS.
     Returns a list. 
     """
-    Prepared = Text.lower()
-    Prepared = re.split("\W", Prepared)
-    Prepared = [Token for Token in Prepared if len(Token) > 1]
-    #print(Prepared)
+    if Mode == "plain": 
+        Prepared = Text.lower()
+        Prepared = re.split("\W", Prepared)
+        Prepared = [Token for Token in Prepared if len(Token) > 1]    
+    if Mode == "tag": 
+        Tagger = treetaggerwrapper.TreeTagger(TAGLANG="fr")
+        print("---tagging")
+        Tagged = Tagger.tag_text(Text)
+        print("---done tagging")
+        Prepared = []
+        for Line in Tagged:
+            Line = re.split("\t", Line)
+            if len(Line) == 3: 
+            #print(len(Line), Line)
+                if Forms == "lemmas":
+                    Prepared.append(Line[2])
+                elif Forms == "words": 
+                    Prepared.append(Line[0])
+                elif Forms == "pos": 
+                    Prepared.append(Line[1])
+        Prepared = [Token for Token in Prepared if len(Token) > 1]    
+    if Mode == "sel": 
+        Tagger = treetaggerwrapper.TreeTagger(TAGLANG="fr")
+        print("---tagging")
+        Tagged = Tagger.tag_text(Text)
+        print("---done tagging")
+        Prepared = []
+        for Line in Tagged:
+            Line = re.split("\t", Line)
+            if len(Line) == 3: 
+            #print(len(Line), Line)
+                if Line[1][0:2] in Pos:
+                    if Forms == "lemmas":
+                        Prepared.append(Line[2])
+                    elif Forms == "words": 
+                        Prepared.append(Line[0])
+                    elif Forms == "pos": 
+                        Prepared.append(Line[1])
+    if Mode == "posbigrams": 
+        Tagger = treetaggerwrapper.TreeTagger(TAGLANG="fr")
+        print("---tagging")
+        Tagged = Tagger.tag_text(Text)
+        print("---done tagging")
+        Prepared = []
+        for i in range(0,len(Tagged)-1): 
+            Line = re.split("\t", Tagged[i])
+            NextLine = re.split("\t", Tagged[i+1])
+            Prepared.append(Line[1]+"-"+NextLine[1])
+    if Mode == "wordbigrams": 
+        Text = Text.lower()
+        Text = re.split("\W", Text)
+        Text = [Token for Token in Text if len(Token) > 1]    
+        Prepared = []
+        for i in range(0,len(Text)-1): 
+            Prepared.append(Text[i]+"-"+Text[i+1])
+    Prepared = [Item.lower() for Item in Prepared if Item not in Stoplist]
+    print(Prepared[0:50])
     return Prepared 
 
 
@@ -94,7 +170,9 @@ def get_types(OnePrepared, TwoPrepared, Threshold):
     Types = Counter()
     Types.update(OnePrepared)
     Types.update(TwoPrepared)
+    #print(Types)
     Types = {k:v for (k,v) in Types.items() if v > Threshold and len(k) > 1}
+    #print(Types)
     #Set all values to zero.
     Types = dict.fromkeys(Types, 0)
     #print("number of types in collection (filtered)", len(list(Types.keys())))
@@ -111,11 +189,12 @@ def check_types(SegsPath, Types, NumSegs):
     At the end, divide all dict values by the number of segments. 
     """
     Types = dict.fromkeys(Types, 0)
-    for SegFile in glob.glob(SegsPath):
+    for SegFile in glob.glob(SegsPath):    # TODO: this part is really slow ###
+        #print("SegFile:", SegFile)
         with open(SegFile, "r") as InFile: 
             Seg = InFile.read()
             Seg = re.split("\t", Seg)
-            for Type in Types:       ### TODO: this part is really slow ###
+            for Type in Types:       
                 if Type in Seg:
                     Types[Type] = Types[Type]+1
     Props = {k: v / NumSegs for k, v in Types.items()}
@@ -143,8 +222,8 @@ def get_zetas(Types, OneProps, TwoProps, ZetaFile):
     AllResults = pd.DataFrame(AllResults)
     AllResults = AllResults[["type", "one-prop", "two-prop", "zeta"]]
     AllResults = AllResults.sort_values("zeta", ascending=False)
-    print(AllResults.head(5))
-    print(AllResults.tail(5))
+    print(AllResults.head(10))
+    print(AllResults.tail(10))
     with open(ZetaFile, "w") as OutFile: 
         AllResults.to_csv(OutFile)
 
@@ -153,32 +232,41 @@ def get_zetas(Types, OneProps, TwoProps, ZetaFile):
 # Main coordinating function
 #=================================
 
-def zeta(DataFolder,InputFolder,
-         OnePath, TwoPath, 
-         OneFile, TwoFile, 
-         SegLength, SegsFolder, 
-         Threshold, ZetaFile):
+def zeta(WorkDir, InputFolder, 
+         MetadataFile, Contrast,
+         DataFolder,
+         SegLength, Threshold,
+         Mode, Pos, Forms, Stoplist):
     """
     Python implementation of Craig's Zeta. 
     Status: proof-of-concept quality.
     """
+    # Generate necessary file and folder names
+    OneFile = DataFolder + Contrast[1] + ".txt"
+    TwoFile = DataFolder + Contrast[2] + ".txt"
+    SegsFolder = DataFolder + Contrast[1]+"-"+Contrast[2]+"_segs-of-"+str(SegLength)+"-"+Mode+"-"+Forms+"-"+str(Pos[0])+"/"
+    ZetaFile = DataFolder + Contrast[1]+"-"+Contrast[2]+"_zeta-scores_segs-of-"+str(SegLength)+"-"+Mode+"-"+Forms+"-"+str(Pos[0])+".csv"
     # Create necessary folders
-    if not os.path.exists(InputFolder):
-        os.makedirs(InputFolder)
+    if not os.path.exists(DataFolder):
+        os.makedirs(DataFolder)
     if not os.path.exists(SegsFolder):
         os.makedirs(SegsFolder)
+    # Generate list of files for the two groups
+    print("--generate list of files")
+    OneList, TwoList = make_filelist(InputFolder, MetadataFile, Contrast)
     # Merge text files into two input files
     print("--merge_text (one and two)")
-    merge_text(OnePath, OneFile)
-    merge_text(TwoPath, TwoFile)
+    merge_text(InputFolder, OneList, OneFile)
+    merge_text(InputFolder, TwoList, TwoFile)
     # Load both text files       
     print("--read_file (one and two)")
     OneText, OneFileName = read_file(OneFile)
     TwoText, TwoFileName = read_file(TwoFile)
-    # Prepare both text files           
-    print("--prepare_text (one and two)")
-    OnePrepared = prepare_text(OneText)
-    TwoPrepared = prepare_text(TwoText)
+    # Prepare both text files
+    print("--prepare_text (one)")
+    OnePrepared = prepare_text(OneText, Mode, Pos, Forms, Stoplist)
+    print("--prepare_text (two)")
+    TwoPrepared = prepare_text(TwoText, Mode, Pos, Forms, Stoplist)
     # Segment both text files
     print("--segment_text (one and two)")
     NumSegsOne = segment_text(OnePrepared, SegLength, OneFileName, SegsFolder)
@@ -190,13 +278,13 @@ def zeta(DataFolder,InputFolder,
     print("  Number of types", len(list(Types.keys())))
     # Check in how many segs each type is (one)
     print("--check_types (one)")
-    OneProps = check_types(SegsFolder+"rm*.txt", Types, NumSegsOne)
+    OneProps = check_types(SegsFolder+Contrast[1]+"*.txt", Types, NumSegsOne)
     # Extract the list of selected types (repeat)
     print("--get_types (two)")
     Types = get_types(OnePrepared, TwoPrepared, Threshold)
     # Check in how many segs each type is (two)
     print("--check_types (two)")
-    TwoProps = check_types(SegsFolder+"wk*.txt", Types, NumSegsTwo)
+    TwoProps = check_types(SegsFolder+Contrast[2]+"*.txt", Types, NumSegsTwo)
     # Calculate zeta for each type
     print("--get_zetas")
     get_zetas(Types, OneProps, TwoProps, ZetaFile)
@@ -235,39 +323,50 @@ def get_zetadata(ZetaFile, NumWords):
         return ZetaData
 
 
-def plot_zetadata(ZetaData, PlotFile, NumWords): 
+def plot_zetadata(ZetaData, Contrast, PlotFile, NumWords): 
     plot = pygal.HorizontalBar(style=zeta_style,
                                print_values=False,
                                print_labels=True,
                                show_legend=False,
                                range=(-1,1),
-                               title="Kontrastive Analyse (Wikipedia vs. Romane)",
-                               x_title="Craig's Zeta",
+                               title="Kontrastive Analyse mit Zeta",
+                               x_title=Contrast[2]+" _____ vs _____ "+Contrast[1],
                                y_title="Je "+str(NumWords)+" Worte pro Sammlung"
                                )
     for i in range(len(ZetaData)):
         if ZetaData.iloc[i,1] > 0.8: 
-            Color = "#4d9900"
-        elif ZetaData.iloc[i,1] > 0.7: 
-            Color = "#4d6f2a"
+            Color = "#00cc00"
+        if ZetaData.iloc[i,1] > 0.7: 
+            Color = "#14b814"
+        if ZetaData.iloc[i,1] > 0.6: 
+            Color = "#29a329"
+        elif ZetaData.iloc[i,1] > 0.5: 
+            Color = "#3d8f3d"
         elif ZetaData.iloc[i,1] > 0: 
-            Color = "#4d5c3d"
+            Color = "#4d804d"
         elif ZetaData.iloc[i,1] < -0.8: 
-            Color = "#0044cc"
+            Color = "#0066ff"
         elif ZetaData.iloc[i,1] < -0.7: 
-            Color = "#1f4ead"
+            Color = "#196be6"
+        elif ZetaData.iloc[i,1] < -0.6: 
+            Color = "#3370cc"
+        elif ZetaData.iloc[i,1] < -0.5: 
+            Color = "#4d75b3"
         elif ZetaData.iloc[i,1] < 0: 
-            Color = "#3d588f"
+            Color = "#60799f"
+        else: 
+            Color = "DarkGrey"
         plot.add(ZetaData.iloc[i,0], [{"value":ZetaData.iloc[i,1], "label":ZetaData.iloc[i,0], "color":Color}])
     plot.render_to_file(PlotFile)
 
 
 def plot_zeta(ZetaFile,
               NumWords,
+              Contrast,
               PlotFile): 
     print("--plot_zeta")
     ZetaData = get_zetadata(ZetaFile, NumWords)
-    plot_zetadata(ZetaData, PlotFile, NumWords)
+    plot_zetadata(ZetaData, Contrast, PlotFile, NumWords)
 
 
 

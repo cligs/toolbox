@@ -9,22 +9,22 @@ import pyzeta
 # Zeta Parameters
 #=================================
 
-SegLength = 5000
-Threshold = 100
+SegLength = 2000
+Threshold = 10
+Mode = "tag"  # plain|tag|sel|posbigrams
+Pos = ["x"] #Nc|Np|Vv|Rg|Ag etc.
+Forms = "lemmas" # words|lemmas|pos
+Stoplist = ["De", "Et", "...", "qu'", "Qu'", "-là", "-ci", "C'est-à-dire", "c'est-à-dire", "Rome", "aux", "Aux"]
+Contrast = ["subgenre", "tragicomedie", "comedie"] # Category, Label1, Label2
 
 
 #=================================
 # Files and folders
 #=================================
-WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/zeta/"
-DataFolder = WorkDir + "data0100MB/"
-InputFolder = WorkDir + "input0100MB/"
-OnePath = DataFolder + "files1/*.txt"
-TwoPath = DataFolder + "files2/*.txt"
-OneFile = InputFolder + "rm0100.txt"
-TwoFile = InputFolder + "wk0100.txt"
-SegsFolder = WorkDir + "segs-of-"+str(SegLength)+"/"
-ZetaFile = WorkDir + "zetas-scores_segs-of-"+str(SegLength)+".csv"
+WorkDir = "/media/christof/data/Dropbox/0-Analysen/2016/scientia/"
+InputFolder = WorkDir + "txt/"
+MetadataFile = WorkDir + "metadata.csv"
+DataFolder = WorkDir + "data/"
 
 
 #=================================
@@ -32,18 +32,20 @@ ZetaFile = WorkDir + "zetas-scores_segs-of-"+str(SegLength)+".csv"
 #=================================
 
 # Calculate Zeta for words in two text collections
-#pyzeta.zeta(DataFolder, InputFolder,
-#            OnePath, TwoPath, 
-#            OneFile, TwoFile, 
-#            SegLength, SegsFolder, 
-#            Threshold, ZetaFile)
+pyzeta.zeta(WorkDir, InputFolder, 
+            MetadataFile, Contrast,
+            DataFolder,
+            SegLength, Threshold,
+            Mode, Pos, Forms, Stoplist)
 
 
 # Make a nice plot with some zeta data
-PlotFile = WorkDir + "zetas-scores_segs-of-"+str(SegLength)+".svg"
-NumWords = 30   
+ZetaFile = DataFolder + Contrast[1]+"-"+Contrast[2]+"_zeta-scores_segs-of-"+str(SegLength)+"-"+Mode+"-"+Forms+"-"+str(Pos[0])+".csv"
+PlotFile = WorkDir + "zetas-scores_"+ Contrast[1]+"-"+Contrast[2]+"_segs-of-"+str(SegLength)+"-"+Mode+"-"+Forms+"-"+str(Pos[0])+".svg"
+NumWords = 25   
 pyzeta.plot_zeta(ZetaFile,
                  NumWords,
+                 Contrast,
                  PlotFile)
 
 
