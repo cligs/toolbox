@@ -31,8 +31,12 @@ def use_freeling(InPath, FreelingFolder, Lang="fr"):
 
     for File in glob.glob(InPath): 
         Filename = os.path.basename(File)
-        OutPath = FreelingFolder + Filename[:-4] + ".xml" 
-        Command = "analyze -f " + Lang + ".cfg --outlv tagged  --sense ukb --output xml < " + File + " > " + OutPath   
+        OutPath = FreelingFolder + Filename[:-4] + ".xml"
+        nec = " "
+        if Lang == "es":
+            nec = " --nec "
+
+        Command = "analyze -f " + Lang + ".cfg --outlv tagged  --sense ukb " + nec + "--output xml < " + File + " > " + OutPath   
         #print(Command)
         subprocess.call(Command, shell=True)
 
