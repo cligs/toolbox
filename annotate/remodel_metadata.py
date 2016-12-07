@@ -18,7 +18,7 @@ def remodel_metadata(input_metadata,input_remodel_keywords, list_metadata, list_
     df_metadata = remodel_metadata(
                                     input_metadata = "/home/jose/cligs/experiments/20160920 modes in Edad de Plata/metadata_beta-opt-obl-subgenre-structure.csv",
                                     input_remodel_keywords = "/home/jose/cligs/ne/keywords_newmodel.csv",
-                                    list_metadata = ["author-text-relation", "form", "genre", "narrative-perspective", "narrator", "protagonist-age", "protagonist-gender", "protagonist-profession", "protagonist-social-level", "representation", "setting", "subgenre", "supergenre", "time-period", "type-end"],
+                                    list_metadata = ["author-text-relation", "form", "genre", "narrative-perspective", "narrator", "protagonist-age", "protagonist-gender", "protagonist-profession", "protagonist-social-level", "representation", "setting", "subgenre", "supergenre", "time-period", "type-end", "setting-type"],
                                     list_numerical_metadata = ['time-span','text-histlit-pages','text-TOC-range'],
                                     list_open_metadata = ['setting-country','setting-continent','setting-name','setting-territory'],
                                     list_number_frontier = ['author-year-change'],

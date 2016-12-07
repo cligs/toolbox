@@ -18,7 +18,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     Extracts metadata from the CLiGs teiHeader and writes it to CSV.
     mode (string): "obl", "obl-opt" or "beta-opt-obl".
     Example of how to use this function:
-        from extract import get_metadata        
+        from toolbox.extract import get_metadata        
         get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metadata","beta-opt-obl-subgenre-structure")
 
     """
@@ -30,9 +30,9 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form",]
     labels_structure = ["size_words","size_chars", "size_divs", "size_verses", "size_sps", "size_pds", "size_numbers", "size_puncts", "size_blocks"]
-    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change"]
+    labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change","setting-type"]
 
-    labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical",]
+    labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical","dialogue",]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -89,6 +89,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "author-year-change": '//tei:term[@type="author-year-change"]//text()',
               "text-TOC-range": '//tei:term[@type="text-TOC-range"]//text()',
               "text-histlit-pages": '//tei:term[@type="text-histlit-pages"]//text()',
+              "setting-type": '//tei:term[@type="setting-type"]//text()',
 
               "size_words": '//tei:extent/tei:measure[@unit="words"]//text()',
               "size_chars": '//tei:extent/tei:measure[@unit="chars"]//text()',
@@ -119,6 +120,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "spiritual": '//*[name()="term"][@type="subgenre"][text()="spiritual"]/text()',
               "symbolic": '//*[name()="term"][@type="subgenre"][text()="symbolic"]/text()',
               "war-novel": '//*[name()="term"][@type="subgenre"][text()="war-novel"]/text()',
+              "dialogue": '//*[name()="term"][@type="subgenre"][text()="dialogue"]/text()',
               
               }
 
