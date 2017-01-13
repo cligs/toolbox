@@ -10,6 +10,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import pygal
 import os
+import numpy as np
 
 plot_colors = ["#3366CC","#DC3912","#FF9900","#109618","#990099","#3B3EAC","#0099C6","#DD4477","#66AA00","#B82E2E","#316395","#994499","#22AA99","#AAAA11","#6633CC","#E67300","#8B0707","#329262","#5574A6","#3B3EAC"]
         
@@ -137,5 +138,53 @@ def plot_pie(wdir, metadatafile, category):
         
     print("piechart done")
 
+def chronological_heatmap(wdir, metadatafile, category, category_development = "year"):
+    """
+    Plots a heatmap with development of a category from a metadata file
+    Author: jct
+
+    Arguments:
+    
+    wdir (string): current working directory
+    metadatafile (string): filename of the metadata CSV file (in wdir)
+    category (string): which metadata category should be used in the y-axis
+    category_development (string): which metadata category should be used for the x-axis. Defaul: year. Also possible: decade
+    
+    Example of how to use this function:
+        from toolbox.extract import visualize_metadata        
+        visualize_metadata.chronological_heatmap("/home/jose/cligs/ne/","metadata_beta-opt-obl.csv","author-name")
+    
+    """
+    #Metadata is imported
+    metadata = pd.read_csv(wdir+metadatafile, encoding="utf-8", sep=",")
+    # We get the values for the vategory, normally author
+    different_categories = sorted(list(set(metadata[category].tolist())))
+    # We change the index 
+    metadata = metadata.set_index([category])
+    # The metadata is converted in a binear dataframe using index and the column selected, normally years
+    metadata = pd.get_dummies(metadata[category_development])
+    years = list(metadata.columns)
+    # An empty dataframe with the category (authors) and the years is created
+    table = pd.DataFrame(index = different_categories, columns = years)
+    # We fill it with the sum of works from this category in this year
+    for value in different_categories:
+        for year in years:
+            table[year][value] = metadata[year][value].sum()
+
+    # We sort the table using the order of the columns, which corresponds to the order of the years
+    table = table.sort(table.columns.tolist(), ascending=False)
+    print(table)
+
+    # We plot everything as a svg file    
+    plt.figure(num=1,figsize=(20,10))
+    plt.pcolor(table, cmap='Reds', vmin=0, vmax=5, edgecolors="black")
+
+    plt.yticks(np.arange(0.5, len(table.index), 1), table.index)
+    plt.xticks(np.arange(0.5, len(table.columns), 1), table.columns, rotation=45)
+    plt.title(r'Heatmap of the Development of works of '+category+" (" +category_development+")")
+
+    plt.savefig(wdir+metadatafile[0:-4]+'.svg', dpi=300, format="svg")
+    plt.show()
+    
 if __name__ == "__main__":
 	describe_corpus(int(sys.argv[1]))
