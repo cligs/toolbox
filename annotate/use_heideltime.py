@@ -14,6 +14,7 @@ import glob
 import subprocess
 import sys
 from lxml import etree
+import re
 
 
 def apply_ht(hdpath, infolder, outfolder, language="ENGLISH", outtype="TIMEML", pos="TREETAGGER"):
@@ -84,6 +85,41 @@ def wrap_body(infolder, outfolder):
 			output.write(result)
 		
 	print("Done. " + str(filecounter) + " files treated.")
+	
+
+def debug_ampersands(infolder, outfolder):
+	"""
+	Debug ampersands in HeidelTime-Output by replacing & with &amp;
+	
+	Arguments:
+	infolder (string): path to the annotated files
+	outfolder (string): path to the output folder (which should exist)
+	"""
+	inpath = os.path.join(infolder, "*.xml")
+	filecounter = 0
+	
+	# check output folders
+	if not os.path.exists(outfolder):
+		os.makedirs(outfolder)
+	
+	print("Starting...")
+	
+	for filepath in glob.glob(inpath):
+		filecounter+= 1
+		fn = os.path.basename(filepath)
+		print(fn)
+		
+		
+		with open(filepath, "r", encoding="UTF-8") as infile:
+			text = infile.read()
+			result = re.sub("&", "&amp;", text)
+			
+		# save the results
+		with open(os.path.join(outfolder, fn), "w") as output:
+			output.write(result)
+		
+	print("Done. " + str(filecounter) + " files treated.")
+
 
 
 if __name__ == "__main__":

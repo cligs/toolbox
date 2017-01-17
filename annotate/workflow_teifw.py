@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/base/novelas-italianas/not_historical"
+infolder = "/home/ulrike/Git/romancesportugueses/master/"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/freeling-work"
+outfolder = "/home/ulrike/Git/romancesportugueses/master/anno/"
 
 # language of the texts (possible up to now: fr, es, it, pt)
-lang = "it"
+lang = "pt"
 
 
 
@@ -43,4 +43,4 @@ from toolbox.annotate import annotate_fw
 
 #prepare_tei.prepare("split", infolder, outfolder)
 #annotate_fw.annotate_fw(os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
-#prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))
+prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))

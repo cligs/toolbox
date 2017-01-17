@@ -38,15 +38,15 @@ The data which is analyzed here has been previously annotated with the following
 """
 
 # path and filename settings
-wdir = "/home/ulrike/Dokumente/Konferenzen/DH/2017/"
-md_mode = "hist-nov"
-md_csv = "metadata_" + md_mode + ".csv"
+wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/"
+md_mode = "rv"
+md_csv = "metadata-" + md_mode + ".csv"
 # where to save visualization files
 dir_visuals = os.path.join(wdir, "vis")
 # path to XML files annotated with HeidelTime
-ht_inpath = os.path.join(wdir, "corpora/hdt_chapterwise/*.xml")
+ht_inpath = os.path.join(wdir, "hdt/teia/*.xml")
 # path to corpus files, relative to working directory
-corpus_inpath = "corpora/base/*/*/*.xml"
+corpus_inpath = "master/*.xml"
 
 
 
@@ -60,31 +60,37 @@ def summarize_corpus():
 	Makes some metadata counts.
 	
 	labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x"]
+	
 	"""
 	
 	# get metadata
-	get_metadata.from_TEIP5(wdir, corpus_inpath, "metadata", md_mode)
+	#get_metadata.from_TEIP5(wdir, corpus_inpath, "metadata", md_mode)
 	
 	# visualize some metadata
-	visualize_metadata.describe_corpus(wdir, md_csv, "author-continent")
-	visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
-	visualize_metadata.describe_corpus(wdir, md_csv, "language")
-	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_hist")
-	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_x")
-	visualize_metadata.plot_pie(wdir, md_csv, "subgenre_x")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "author-continent")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "language")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_hist")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_x")
+	#visualize_metadata.plot_pie(wdir, md_csv, "subgenre_x")
+
+	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre")
+	visualize_metadata.describe_corpus(wdir, md_csv, "author-gender")
 	
 	# make some counts
-	md_table = pd.DataFrame.from_csv(os.path.join(wdir, "metadata_hist-nov.csv"), header=0)
+	md_table = pd.DataFrame.from_csv(os.path.join(wdir, "metadata-rv.csv"), header=0)
 	num_texts = len(md_table)
-	num_language = len(md_table.groupby(["language"]))
-	num_continent = len(md_table.groupby(["author-continent"]))
-	num_countries = len(md_table.groupby(["author-country"]))
-	num_authors = len(md_table.groupby(["author-name"]))
-	num_subgenre_x = len(md_table.groupby(["subgenre_x"]))
-	fr_subgenre_hist = md_table.groupby(["subgenre_hist"]).count()
-	num_historical = fr_subgenre_hist["idno"]["historical"]
-	num_not_historical = fr_subgenre_hist["idno"]["not_historical"]
+	#num_language = len(md_table.groupby(["language"]))
+	#num_continent = len(md_table.groupby(["author-continent"]))
+	#num_countries = len(md_table.groupby(["author-country"]))
+	num_authors = len(md_table.groupby(["author"]))
+	num_subgenre = len(md_table.groupby(["subgenre"]))
+	#num_subgenre_x = len(md_table.groupby(["subgenre_x"]))
+	#fr_subgenre_hist = md_table.groupby(["subgenre_hist"]).count()
+	#num_historical = fr_subgenre_hist["idno"]["historical"]
+	#num_not_historical = fr_subgenre_hist["idno"]["not_historical"]
 	
+	"""
 	d = {"texts":[num_texts], 
 	"languages":[num_language],
 	"continents":[num_continent],
@@ -93,6 +99,11 @@ def summarize_corpus():
 	"subgenre_x":[num_subgenre_x],
 	"num_historical":[num_historical],
 	"num_not_historical":[num_not_historical]}
+	"""
+	
+	d = {"texts":[num_texts],
+	"authors":[num_authors],
+	"subgenre":[num_subgenre]}
 	
 	count_fr = pd.DataFrame(d)
 	count_fr.to_csv(os.path.join(wdir, "corpus-description.csv"), sep=",", header=True)
@@ -190,10 +201,12 @@ def get_tpx_labels_abs():
 	"""
 	Returns the tpx labels for absolute values
 	"""
-	labels_abs = ["tpx_all_abs", "tpx_date_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_none_abs", "tpx_date_year_abs", 
-	"tpx_date_year_month_abs", "tpx_date_month_abs", "tpx_date_day_abs", "tpx_date_month_day_abs", "tpx_date_any_abs", "tpx_date_full_abs",
-	"tpx_date_past_ref_abs", "tpx_date_present_ref_abs", "tpx_date_future_ref_abs",
-	"tpx_date_any_chapter_first_abs", "tpx_date_any_chapter_other_abs", "tpx_date_any_chapter_other_mean_abs"]
+	#labels_abs = ["tpx_all_abs", "tpx_date_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_none_abs", "tpx_date_year_abs", 
+	#"tpx_date_year_month_abs", "tpx_date_month_abs", "tpx_date_day_abs", "tpx_date_month_day_abs", "tpx_date_any_abs", "tpx_date_full_abs",
+	#"tpx_date_past_ref_abs", "tpx_date_present_ref_abs", "tpx_date_future_ref_abs",
+	#"tpx_date_any_chapter_first_abs", "tpx_date_any_chapter_other_abs", "tpx_date_any_chapter_other_mean_abs"]
+	labels_abs = ["tpx_all_abs", "tpx_time_abs", "tpx_duration_abs", "tpx_set_abs", "tpx_date_none_abs", "tpx_date_full_abs",
+	"tpx_date_past_ref_abs", "tpx_date_present_ref_abs", "tpx_date_future_ref_abs"]
 	return labels_abs
 	
 	
@@ -201,10 +214,12 @@ def get_tpx_labels_rel():
 	"""
 	Returns the tpx labels for relative values
 	"""
-	labels_rel = ["tpx_all_rel", "tpx_date_rel", "tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_none_rel", "tpx_date_year_rel", 
-	"tpx_date_year_month_rel", "tpx_date_month_rel", "tpx_date_day_rel", "tpx_date_month_day_rel", "tpx_date_any_rel", "tpx_date_full_rel",
-	"tpx_date_past_ref_rel", "tpx_date_present_ref_rel", "tpx_date_future_ref_rel",
-	"tpx_date_any_chapter_first_rel", "tpx_date_any_chapter_other_rel", "tpx_date_any_chapter_other_mean_rel"]
+	#labels_rel = ["tpx_all_rel", "tpx_date_rel", "tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_none_rel", "tpx_date_year_rel", 
+	#"tpx_date_year_month_rel", "tpx_date_month_rel", "tpx_date_day_rel", "tpx_date_month_day_rel", "tpx_date_any_rel", "tpx_date_full_rel",
+	#"tpx_date_past_ref_rel", "tpx_date_present_ref_rel", "tpx_date_future_ref_rel",
+	#"tpx_date_any_chapter_first_rel", "tpx_date_any_chapter_other_rel", "tpx_date_any_chapter_other_mean_rel"]
+	labels_rel = ["tpx_time_rel", "tpx_duration_rel", "tpx_set_rel", "tpx_date_none_rel", "tpx_date_full_rel",
+	"tpx_date_past_ref_rel", "tpx_date_present_ref_rel", "tpx_date_future_ref_rel"]
 	return labels_rel
 	
 	
@@ -212,10 +227,12 @@ def get_tpx_labels_prop():
 	"""
 	Returns the tpx labels for proportional values
 	"""
-	labels_prop = ["tpx_date_prop", "tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_none_prop", "tpx_date_year_prop",
-	"tpx_date_year_month_prop", "tpx_date_month_prop", "tpx_date_day_prop", "tpx_date_month_day_prop", "tpx_date_any_prop", "tpx_date_full_prop", 
-	"tpx_date_past_ref_prop", "tpx_date_present_ref_prop", "tpx_date_future_ref_prop",
-	"tpx_date_any_chapter_first_prop", "tpx_date_any_chapter_other_prop", "tpx_date_any_chapter_other_mean_prop"]
+	#labels_prop = ["tpx_date_prop", "tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_none_prop", "tpx_date_year_prop",
+	#"tpx_date_year_month_prop", "tpx_date_month_prop", "tpx_date_day_prop", "tpx_date_month_day_prop", "tpx_date_any_prop", "tpx_date_full_prop", 
+	#"tpx_date_past_ref_prop", "tpx_date_present_ref_prop", "tpx_date_future_ref_prop",
+	#"tpx_date_any_chapter_first_prop", "tpx_date_any_chapter_other_prop", "tpx_date_any_chapter_other_mean_prop"]
+	labels_prop = ["tpx_time_prop", "tpx_duration_prop", "tpx_set_prop", "tpx_date_none_prop", "tpx_date_full_prop", 
+	"tpx_date_past_ref_prop", "tpx_date_present_ref_prop", "tpx_date_future_ref_prop"]
 	return labels_prop
 	
 	
@@ -223,7 +240,8 @@ def get_tpx_labels_special():
 	"""
 	Returns special labels
 	"""
-	labels_special = ["temp_dist"]
+	#labels_special = ["temp_dist"]
+	labels_special = []
 	return labels_special
 
 
@@ -461,7 +479,10 @@ def generate_tpx_features():
 			# Write the result into the data frame
 			ht_fr.loc[idno,label] = result
 		
-
+	# für FJR: absolute Werte weglassen
+	for label in labels_abs:
+		ht_fr = ht_fr.drop(label, axis=1)
+		
 	ht_fr.to_csv(wdir + "tpx-corpus-counts.csv", sep=",", header=True)
 
 	print("Done: generate tpx features")
@@ -910,11 +931,11 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 
 ######################################### Main part ############################################
 
-#summarize_corpus()
+summarize_corpus()
 #generate_tpx_features()
-#plot_all_tpx_features("bar")
+#plot_all_tpx_features("bar","matplotlib")
 #calculate_all_test_stats()
-plot_significance_values()
+#plot_significance_values()
 
 
 

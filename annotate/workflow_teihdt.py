@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/special"
+infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/master"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt"
+outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt"
 
 # language of the texts (tested for: FRENCH, SPANISH, ITALIAN, PORTUGUESE)
-lang = "PORTUGUESE"
+lang = "FRENCH"
 
 # path to heideltime installation
 heideltimePath = "/home/ulrike/Programme/heideltime-standalone-2.1"
@@ -43,7 +43,8 @@ from toolbox.annotate import use_heideltime
 
 # by default, it should be enough to change the options above and leave this as is
 
-#prepare_tei.prepare("split", infolder, outfolder)
+#prepare_tei.prepare("split-1", infolder, outfolder)
 #use_heideltime.apply_ht(heideltimePath, os.path.join(outfolder, "txt"), os.path.join(outfolder, "hdt"), lang)
-#use_heideltime.wrap_body("/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/hdt", "/home/ulrike/Dokumente/Konferenzen/DH/2017/corpora/hdt/anno")
+#use_heideltime.debug_ampersands("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/hdt", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre")
+#use_heideltime.wrap_body("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno")
 #prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))

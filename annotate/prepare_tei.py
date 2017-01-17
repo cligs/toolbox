@@ -2,12 +2,12 @@
 # -*- coding: utf-8 -*-
 """
 
-Submodule which prepares CLiGS-TEI-files for annotation with FreeLing and NLTK WordNet.
+Submodule which prepares CLiGS-TEI-files for annotation with FreeLing and NLTK WordNet or HeidelTime.
 After the annotation (external to this module), the annotated files are brought together in new TEI files.
 
 Check out the documentation for the functions prepare_input and prepare_output for more details.
 
-- for chapterwise annotation
+- for chapterwise annotation (preserving chapter structure) or annotation of the whole text at once (without preserving chapter structure)
 - just the body text is preserved
 - headings, notes and inline markup are discarded
 
@@ -30,6 +30,7 @@ class FileResolver(etree.Resolver):
 
 
 # XSLT snippets
+# wrapper for chapterwise annotation
 xslt_TEIwrapper = etree.XML('''\
 	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
 		
@@ -54,6 +55,40 @@ xslt_TEIwrapper = etree.XML('''\
 			<xsl:copy>
 				<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d<xsl:value-of select="count(preceding::tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]) + 1"/></xsl:attribute>
 			</xsl:copy>
+		</xsl:template>
+		
+		<xsl:template match="tei:teiHeader | tei:teiHeader//node() | tei:teiHeader//@* | tei:teiHeader//processing-instruction() | tei:teiHeader//comment()">
+			<xsl:copy>
+				<xsl:apply-templates select="node() | @* | processing-instruction() | comment()"/>
+			</xsl:copy>
+		</xsl:template>
+		
+		<xsl:template match="text()[not(ancestor::tei:teiHeader)]"/>
+		
+	</xsl:stylesheet>
+	''')
+	
+# wrapper for annotation of the whole text
+xslt_TEIwrapper_1 = etree.XML('''\
+	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+		
+		<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
+		
+		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
+		
+		<xsl:template match="/">
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+			
+            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+                <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
+                <text>
+                    <body>
+                        <div>
+							<xsl:attribute name="xml:id"><xsl:value-of select="$cligsID"/>_d1</xsl:attribute>
+                        </div>
+                    </body>
+                </text>
+            </TEI>
 		</xsl:template>
 		
 		<xsl:template match="tei:teiHeader | tei:teiHeader//node() | tei:teiHeader//@* | tei:teiHeader//processing-instruction() | tei:teiHeader//comment()">
@@ -134,13 +169,14 @@ xslt_joinDIVs = '''\
 
 
 
-def prepare_anno(infolder, outfolder):
+def prepare_anno(infolder, outfolder, mode="split"):
 	"""
-	Takes a collection of TEI files and prepares them for annotation (chapterwise).
+	Takes a collection of TEI files and prepares them for annotation.
 	
 	Arguments:
 	infolder (string): path to the input folder (which should contain the input TEI files)
 	outfolder (string): path to the output folder (which is created if it does not exist)
+	mode (string): default is "split" (chapterwise), also possible is "split-1" (text as a whole)
 	"""
 	print("Starting...")
 	
@@ -167,7 +203,11 @@ def prepare_anno(infolder, outfolder):
 		
 		doc = etree.parse(filepath)
 		
-		transform = etree.XSLT(xslt_TEIwrapper)
+		if mode == "split-1":
+			transform = etree.XSLT(xslt_TEIwrapper_1)
+		else:
+			transform = etree.XSLT(xslt_TEIwrapper)
+
 		result_tree = transform(doc)
 		result = str(result_tree)
 		
@@ -175,10 +215,13 @@ def prepare_anno(infolder, outfolder):
 		with open(os.path.join(outfolder, "temp", outfile_x), "w") as output:
 			output.write(result)
 			
-		# create one full text file per chapter
+		# create one full text file per chapter (or for the whole text)
 		tei = {'tei':'http://www.tei-c.org/ns/1.0'}
 		cligs_id = doc.xpath("//tei:idno[@type='cligs']/text()", namespaces=tei)
-		results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]", namespaces=tei)
+		if mode == "split-1":
+			results = doc.xpath("//tei:text/tei:body", namespaces=tei)
+		else:
+			results = doc.xpath("//tei:div[ancestor::tei:body][not(descendant::tei:div[not(ancestor::tei:floatingText)])][not(ancestor::tei:floatingText)]", namespaces=tei)
 		
 		if isinstance(cligs_id, list):
 			cligs_id = cligs_id[0]
@@ -202,7 +245,7 @@ def prepare_anno(infolder, outfolder):
 
 def postpare_anno(infolder, outfolder, mode="fl"):
 	"""
-	Creates a TEI file from a collection of annotated full text files (one per chapter).
+	Creates a TEI file from a collection of annotated full text files (one per chapter or for the whole text).
 	Needs an input folder with two subfolders: 'temp' with the TEI file templates and 'anno' with the annotated text in XML format.
 	Expects the annotated files to be named according to the following example/pattern: nh0006_d1.xml / [cligs_id]_d[division_id].xml
 	
@@ -261,16 +304,18 @@ def prepare(mode, infolder, outfolder):
 	"""
 	Preparations for linguistically annotated versions of a collection of TEI files.
 	There are two phases:
-	- input phase: the full text is extracted chapterwise from the TEI files, templates for new TEI files meant to hold the annotated text are created
+	- input phase: the full text is extracted chapterwise (or as a whole) from the TEI files, templates for new TEI files meant to hold the annotated text are created
 	- output phase: the annotated full text snippets are brought together in the new TEI files
 	
 	Arguments:
-	mode(string): possible values are "split" or "merge"
+	mode(string): possible values are "split" (chapterwise), "split-1" (the whole text at once) or "merge"
 	infolder (string): in split-mode: path to the input folder (which should contain the input TEI files); in merge-mode: path to the annotation output folder (with subfolder "temp" and "anno")
 	outfolder (string): in split-mode: path to the output folder for annotation working files; in merge-mode: path to the output folder for annotated TEI result files. The folders are created if they do not exist.
 	"""
 	if mode == "split":
 		prepare_anno(infolder, outfolder)
+	if mode == "split-1":
+		prepare_anno(infolder, outfolder, mode="split-1")
 	elif mode == "merge":
 		postpare_anno(infolder, outfolder)
 	elif mode == "merge-hdt":
