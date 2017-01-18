@@ -931,8 +931,8 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 
 ######################################### Main part ############################################
 
-summarize_corpus()
-#generate_tpx_features()
+#summarize_corpus()
+generate_tpx_features()
 #plot_all_tpx_features("bar","matplotlib")
 #calculate_all_test_stats()
 #plot_significance_values()

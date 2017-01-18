@@ -47,4 +47,4 @@ from toolbox.annotate import use_heideltime
 #use_heideltime.apply_ht(heideltimePath, os.path.join(outfolder, "txt"), os.path.join(outfolder, "hdt"), lang)
 #use_heideltime.debug_ampersands("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/hdt", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre")
 #use_heideltime.wrap_body("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno")
-#prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))
+prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))
