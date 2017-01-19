@@ -13,10 +13,11 @@ TEMPORAL ANALYSIS of TOPIC DATA
 import temporal
 from os.path import join
 
-"""
-### Set the general working directory.
-wdir = "/media/christof/data/Dropbox/0-Analysen/2017/fjr"
 
+### Set the general working directory.
+wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/"
+
+"""
 ### Set parameters as used in the topic model
 NumTopics = 300
 NumIterations = 3000
@@ -31,4 +32,7 @@ topicsovertimefile = join(wdir, "7_aggregates", param_settings, "avgtopicscores_
 temporal.analyze(mastermatrixfile, topicsovertimefile)
 """
 
-temporal.analyze_tpx("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/metadata-rv.csv", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/tpx-corpus-counts.csv")
+#temporal.analyze_tpx(wdir + "metadata-rv.csv", wdir + "tpx-corpus-counts.csv", wdir + "tpx-by-year.csv")
+
+temporal.visualize_cosim("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/avgtopicscores_by-year.csv", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/cosim-topics.png")
+#temporal.visualize_cosim("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/tpx-by-year.csv", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/cosim-tpx.png")

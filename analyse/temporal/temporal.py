@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 # Filename: temporal.py
-# Authors: christofs
+# Authors: christofs, uh
 # Version 0.1.0 (2017-01-10)
 
 
@@ -16,6 +16,8 @@ import glob
 import pandas as pd
 import numpy as np
 import pygal
+import matplotlib.pyplot as plt
+from sklearn import metrics
 
 
 def load_data_topics(topicsovertimefile):
@@ -41,6 +43,31 @@ def load_data_tpx(mdfile, tpxfile):
 	return data
 
 
+def save_data(data, outfile):
+	"""
+	save pd frame data to csv file
+	@author: uh
+	
+	Arguments:
+	data: pd data frame
+	outfile: path to output file
+	"""
+	data.to_csv(outfile)
+	
+def normalize_data(data):
+	"""
+	normalize data in frame to 0-1-range
+	
+	X - min(X) / max(X) - min(X)
+	
+	@author: uh
+	
+	Arguments:
+	data: pd data frame
+	"""
+	data_norm = data.applymap(lambda x: (x - min(data.min())) / (max(data.max()) - min(data.min())))
+	return data_norm
+
 def calculate_diffs(data):
     diffs = data.diff(periods=1, axis=0)
     # print(diffs.head())
@@ -56,8 +83,8 @@ def calculate_sumdiffs(diffs):
 def transform_data(sumdiffs):
     labels = list(range(1900,2013))
     values = list(sumdiffs)[1:]
-    print(len(labels))
-    print(len(sumdiffs))
+    #print(len(labels))
+    #print(len(sumdiffs))
     return labels, values
 
 
@@ -72,7 +99,37 @@ def visualize_sumdiffs(labels, values):
 #    for i in range(0,len(labels)-1):
 #        plot.add(str(labels[i]), [values[i]])
     plot.render_to_file("sumdiffplot.svg")
-
+    
+    
+def calculate_cosine_similarities(distfile):
+	"""
+	calculate cosine similarities
+	@author: uh
+	
+	Argument:
+	distfile: CSV file with (normalized) distributions
+	"""
+	
+	distributions = pd.read_csv(distfile, index_col="year")
+	cosim = metrics.pairwise.cosine_similarity(distributions)
+	
+	return cosim
+	
+    
+def vis_cosim_heatmap(cosim, imgfile):
+	"""
+	visualize cosine similarities as heatmap
+	@author: uh
+	
+	Arguments:
+	cosim: array of cosine similarities
+	imgfile: image filepath
+	"""
+	plt.imshow(cosim, cmap='hot', interpolation='nearest')
+	plt.savefig(imgfile)
+	print("Heatmap saved.")
+	
+#############################################################
 
 
 def analyze_topics(mastermatrixfile, topicsovertimefile):
@@ -83,7 +140,7 @@ def analyze_topics(mastermatrixfile, topicsovertimefile):
     visualize_sumdiffs(labels, values)
     
     
-def analyze_tpx(mdfile, tpxfile):
+def analyze_tpx(mdfile, tpxfile, outfile):
 	"""
 	run temporal analysis for temporal expressions
 	@author: uh
@@ -91,10 +148,27 @@ def analyze_tpx(mdfile, tpxfile):
 	Arguments:
 	mdfile: path to metadata csv file (including column "year")
 	tpxfile: path to temporal expression feature csv file
+	outfile: path to data output file
 	"""
 	data = load_data_tpx(mdfile, tpxfile)
+	data = normalize_data(data)
+	save_data(data, outfile)
+	
 	diffs = calculate_diffs(data)
 	sumdiffs = calculate_sumdiffs(diffs)
 	labels, values = transform_data(sumdiffs)
 	visualize_sumdiffs(labels, values)
-
+	
+	
+	
+def visualize_cosim(input_dists, imgfile):
+	"""
+	visualize cosine similarities for a set of distributions
+	@author: uh
+	
+	Arguments:
+	input_dists: CSV file with input distributions
+	imgfile: path to output imagefile
+	"""
+	cosim = calculate_cosine_similarities(input_dists)
+	vis_cosim_heatmap(cosim, imgfile)
