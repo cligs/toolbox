@@ -116,16 +116,26 @@ def calculate_cosine_similarities(distfile):
 	return cosim
 	
     
-def vis_cosim_heatmap(cosim, imgfile):
+def vis_cosim_heatmap(cosim, distfile, imgfile):
 	"""
 	visualize cosine similarities as heatmap
 	@author: uh
 	
 	Arguments:
 	cosim: array of cosine similarities
+	distfile: CSV file with (normalized) distributions
 	imgfile: image filepath
 	"""
+	distributions = pd.read_csv(distfile, index_col="year")
+	idx =  distributions.index
+	
+	labels = np.arange(idx[0],idx[-1],10)
+	x = np.arange(0,len(cosim),10)
+	plt.xticks(x,labels,rotation=90)
+	plt.yticks(x,labels)
+	
 	plt.imshow(cosim, cmap='hot', interpolation='nearest')
+	plt.gca().invert_yaxis()
 	plt.savefig(imgfile)
 	print("Heatmap saved.")
 	
@@ -170,5 +180,6 @@ def visualize_cosim(input_dists, imgfile):
 	input_dists: CSV file with input distributions
 	imgfile: path to output imagefile
 	"""
+	
 	cosim = calculate_cosine_similarities(input_dists)
-	vis_cosim_heatmap(cosim, imgfile)
+	vis_cosim_heatmap(cosim, input_dists, imgfile)
