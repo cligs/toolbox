@@ -34,5 +34,5 @@ temporal.analyze(mastermatrixfile, topicsovertimefile)
 
 #temporal.analyze_tpx(wdir + "metadata-rv.csv", wdir + "tpx-corpus-counts.csv", wdir + "tpx-by-year.csv")
 
-temporal.visualize_cosim("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/avgtopicscores_by-year.csv", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/cosim-topics.png")
+temporal.visualize_novelties("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/avgtopicscores_by-year.csv", 4, "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/novelties-topics-4.png")
 #temporal.visualize_cosim("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/tpx-by-year.csv", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/cosim-tpx.png")

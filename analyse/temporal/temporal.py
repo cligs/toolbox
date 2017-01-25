@@ -18,6 +18,7 @@ import numpy as np
 import pygal
 import matplotlib.pyplot as plt
 from sklearn import metrics
+import math
 
 
 def load_data_topics(topicsovertimefile):
@@ -139,6 +140,66 @@ def vis_cosim_heatmap(cosim, distfile, imgfile):
 	plt.savefig(imgfile)
 	print("Heatmap saved.")
 	
+	
+def kronecker(C,m):
+	return np.kron(C,m)
+	
+def calculate_foote_novelties(cosim, window):
+	"""
+	calculate foote novelties for a similarity matrix
+	@author: uh
+	
+	Arguments:
+	cosim: array of cosine similarities
+	window: kernel size (4, 8, 16, 32)
+	"""
+	S = np.matrix(cosim)
+	C = np.matrix("1 -1;-1 1")
+	m = np.matrix("1 1;1 1")
+	
+	i = 1
+	while i < math.log(window,2):
+		C = kronecker(C,m)
+		i += 1
+	
+	novelties = []
+	j = 0
+	while j <= len(cosim) - window:
+		
+		subS = S[j:j+window,j:j+window]
+		
+		pr = np.multiply(subS,C)
+		nov = pr.sum()
+		novelties.append(1 / nov)
+		j += 1
+	
+	return novelties
+	
+	
+def vis_novelties_line(nvs, cosim, distfile, imgfile):
+	"""
+	visualize foote novelties as line plot
+	@author: uh
+	
+	Arguments:
+	nvs: array of novelty values
+	cosim: array of cosine similarities
+	distfile: CSV file with (normalized) distributions
+	imgfile: image file path
+	"""
+	plt.plot(nvs)
+	
+	distributions = pd.read_csv(distfile, index_col="year")
+	idx =  distributions.index
+	labels = np.arange(idx[0],idx[-1],10)
+	x = np.arange(0,len(cosim),10)
+	plt.xticks(x,labels,rotation=90)
+	
+	plt.savefig(imgfile)
+	print("Lineplot saved.")
+	
+		
+	
 #############################################################
 
 
@@ -168,7 +229,7 @@ def analyze_tpx(mdfile, tpxfile, outfile):
 	sumdiffs = calculate_sumdiffs(diffs)
 	labels, values = transform_data(sumdiffs)
 	visualize_sumdiffs(labels, values)
-	
+
 	
 	
 def visualize_cosim(input_dists, imgfile):
@@ -183,3 +244,21 @@ def visualize_cosim(input_dists, imgfile):
 	
 	cosim = calculate_cosine_similarities(input_dists)
 	vis_cosim_heatmap(cosim, input_dists, imgfile)
+	
+	
+	
+def visualize_novelties(input_dists, window, imgfile):
+	"""
+	visualize foote novelties
+	@author: uh
+	
+	Arguments:
+	input_dists: CSV file with input distributions
+	window: kernel size (4, 8, 16, 32)
+	imgfile: path to output imagefile
+	"""
+	cosim = calculate_cosine_similarities(input_dists)
+	nvs = calculate_foote_novelties(cosim, window)
+	vis_novelties_line(nvs, cosim, input_dists, imgfile)
+	
+
