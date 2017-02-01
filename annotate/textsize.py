@@ -53,6 +53,7 @@ def main(basic_wdir, input_wdir, output_wdir, mode):
                 sps = str(len(re.findall(r'<(sp)( .+?|)>',content_body)))
                 ps = str(len(re.findall(r'<(p)( .+?|)>',content_body)))
                 abs_ = str(len(re.findall(r'<(ab)( .+?|)>',content_body)))
+                ft = str(len(re.findall(r'<(floatingText)( .+?|)>',content_body)))
                 
                 # The paragraphas that have right after a punctuation mark that presents direct speech are counted
                 speech_ps = str(len(re.findall(r'<(p)( .+?|)> ?(<[^>]*?>)? *[-—–~»«]',content_body)))
@@ -79,10 +80,10 @@ def main(basic_wdir, input_wdir, output_wdir, mode):
 
             content = re.sub(r'(\n[\s\t]+<publicationStmt>)', r'\n\t\t\t<extent>\n\t\t\t\t<measure unit="lines">'+re.escape(lines)+r'</measure>\n\t\t\t\t<measure unit="divs">'+re.escape(divs)+r'</measure>\n\t\t\t\t<measure unit="words">'+re.escape(words)+r'</measure>\n\t\t\t\t<measure unit="chars">'+re.escape(chars)+r'</measure>\n\t\t\t\t<measure unit="size_kb">'+re.escape(size_kb)+r'</measure>\n\t\t\t</extent>\1', content, flags=re.DOTALL)
             if mode == "structure":
-                content = re.sub(r'(\s+</extent>)', r'\n\n\t\t\t\t<measure unit="chapters">'+re.escape(chapters)+r'</measure> \n\t\t\t\t<measure unit="blocks">'+re.escape(blocks)+r'</measure> \n\t\t\t\t<measure unit="line_verses">'+re.escape(line_verses)+r'</measure> \n\t\t\t\t<measure unit="heads">'+re.escape(heads)+r'</measure> \n\t\t\t\t<measure unit="stages">'+re.escape(stages)+r'</measure> \n\t\t\t\t<measure unit="sps">'+re.escape(sps)+r'</measure> \n\t\t\t\t<measure unit="paragraphs">'+re.escape(ps)+r'</measure> \n\t\t\t\t<measure unit="abs">'+re.escape(abs_)+r'</measure> \n\t\t\t\t<measure unit="paragraphs_ds">'+re.escape(speech_ps)+r'</measure> \n\t\t\t\t<measure unit="numbers">'+re.escape(numbers)+r'</measure> \n\t\t\t\t<measure unit="puncts">'+re.escape(puncts)+r'</measure>\1', content)
+                content = re.sub(r'(\s+</extent>)', r'\n\n\t\t\t\t<measure unit="chapters">'+re.escape(chapters)+r'</measure> \n\t\t\t\t<measure unit="blocks">'+re.escape(blocks)+r'</measure> \n\t\t\t\t<measure unit="line_verses">'+re.escape(line_verses)+r'</measure> \n\t\t\t\t<measure unit="heads">'+re.escape(heads)+r'</measure> \n\t\t\t\t<measure unit="stages">'+re.escape(stages)+r'</measure> \n\t\t\t\t<measure unit="sps">'+re.escape(sps)+r'</measure> \n\t\t\t\t<measure unit="paragraphs">'+re.escape(ps)+r'</measure> \n\t\t\t\t<measure unit="abs">'+re.escape(abs_)+r'</measure> \n\t\t\t\t<measure unit="floatingTexts">'+re.escape(ft)+r'</measure>\n\t\t\t\t<measure unit="paragraphs_ds">'+re.escape(speech_ps)+r'</measure> \n\t\t\t\t<measure unit="numbers">'+re.escape(numbers)+r'</measure> \n\t\t\t\t<measure unit="puncts">'+re.escape(puncts)+r'</measure>\1', content)
 
             # The file is written
             with open (os.path.join(basic_wdir+output_wdir, idno_file), "w", encoding="utf-8") as fout:
                 fout.write(content)
                 
-main("/home/ulrike/Git/romancesportugueses/", "master/*.xml", "master2/", "default")
+#main("/home/ulrike/Git/romancesportugueses/", "master/*.xml", "master2/", "default")
