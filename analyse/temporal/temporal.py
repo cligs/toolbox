@@ -170,25 +170,41 @@ def calculate_foote_novelties(cosim, window):
 		
 		pr = np.multiply(subS,C)
 		nov = pr.sum()
-		novelties.append(1 / nov)
+		novelties.append(nov) #1 / nov
 		j += 1
 	
 	return novelties
 	
+		
 	
-def vis_novelties_line(nvs, cosim, distfile, imgfile):
+def add_novelty_plot(nvs, window):
 	"""
 	visualize foote novelties as line plot
 	@author: uh
 	
 	Arguments:
 	nvs: array of novelty values
-	cosim: array of cosine similarities
-	distfile: CSV file with (normalized) distributions
-	imgfile: image file path
+	window: kernel size (4, 8, 16, 32)
 	"""
+	for i in range(int(window / 2)):
+		nvs.insert(0,0) 
+		nvs.append(0)
+		
 	plt.plot(nvs)
+
 	
+	
+
+def save_novelties_plot(imgfile, distfile, cosim):
+	"""
+	add labels to novelty plot and save
+	@author: uh
+	
+	Arguments:
+	imgfile: image file path
+	distfile: CSV file with (normalized) distributions
+	cosim: array of cosine similarities
+	"""
 	distributions = pd.read_csv(distfile, index_col="year")
 	idx =  distributions.index
 	labels = np.arange(idx[0],idx[-1],10)
@@ -247,18 +263,22 @@ def visualize_cosim(input_dists, imgfile):
 	
 	
 	
-def visualize_novelties(input_dists, window, imgfile):
+def visualize_novelties(input_dists, windows, imgfile):
 	"""
 	visualize foote novelties
 	@author: uh
 	
 	Arguments:
 	input_dists: CSV file with input distributions
-	window: kernel size (4, 8, 16, 32)
+	windows: kernel sizes as list [4, 8, 16, 32]
 	imgfile: path to output imagefile
 	"""
 	cosim = calculate_cosine_similarities(input_dists)
-	nvs = calculate_foote_novelties(cosim, window)
-	vis_novelties_line(nvs, cosim, input_dists, imgfile)
+	
+	for w in windows:
+		nvs = calculate_foote_novelties(cosim, w)
+		add_novelty_plot(nvs, w)
+		
+	save_novelties_plot(imgfile, input_dists, cosim)
 	
 
