@@ -33,7 +33,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change","setting-type"]
 
     labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical","dialogue",]
-    labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x"]
+    labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x", "subgenre"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -146,7 +146,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     elif mode == "beta-opt-obl-subgenre-structure":
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
     elif mode == "hist-nov":
-		labels = labels_histnov
+        labels = labels_histnov
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []

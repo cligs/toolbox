@@ -39,14 +39,14 @@ The data which is analyzed here has been previously annotated with the following
 
 # path and filename settings
 wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/"
-md_mode = "rv"
-md_csv = "metadata-" + md_mode + ".csv"
+md_mode = "hist-nov" #rv?
+md_csv = "metadata_" + md_mode + ".csv"
 # where to save visualization files
 dir_visuals = os.path.join(wdir, "vis")
 # path to XML files annotated with HeidelTime
 ht_inpath = os.path.join(wdir, "hdt/teia/*.xml")
 # path to corpus files, relative to working directory
-corpus_inpath = "master/*.xml"
+corpus_inpath = "all_tei/*.xml"
 
 
 
@@ -59,51 +59,49 @@ def summarize_corpus():
 	Visualizes some metadata.
 	Makes some metadata counts.
 	
-	labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x"]
+	labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x", "subgenre"]
 	
 	"""
 	
 	# get metadata
-	#get_metadata.from_TEIP5(wdir, corpus_inpath, "metadata", md_mode)
+	get_metadata.from_TEIP5(wdir, corpus_inpath, "metadata", md_mode)
 	
 	# visualize some metadata
 	#visualize_metadata.describe_corpus(wdir, md_csv, "author-continent")
-	#visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
+	visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
 	#visualize_metadata.describe_corpus(wdir, md_csv, "language")
-	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_hist")
+	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_hist")
 	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_x")
-	#visualize_metadata.plot_pie(wdir, md_csv, "subgenre_x")
+	visualize_metadata.plot_pie(wdir, md_csv, "subgenre")
 
 	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre")
-	visualize_metadata.describe_corpus(wdir, md_csv, "author-gender")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "author-gender")
 	
 	# make some counts
-	md_table = pd.DataFrame.from_csv(os.path.join(wdir, "metadata-rv.csv"), header=0)
+	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
 	num_texts = len(md_table)
 	#num_language = len(md_table.groupby(["language"]))
 	#num_continent = len(md_table.groupby(["author-continent"]))
-	#num_countries = len(md_table.groupby(["author-country"]))
-	num_authors = len(md_table.groupby(["author"]))
+	num_countries = len(md_table.groupby(["author-country"]))
+	num_authors = len(md_table.groupby(["author-name"]))
 	num_subgenre = len(md_table.groupby(["subgenre"]))
 	#num_subgenre_x = len(md_table.groupby(["subgenre_x"]))
-	#fr_subgenre_hist = md_table.groupby(["subgenre_hist"]).count()
-	#num_historical = fr_subgenre_hist["idno"]["historical"]
-	#num_not_historical = fr_subgenre_hist["idno"]["not_historical"]
+	fr_subgenre_hist = md_table.groupby(["subgenre_hist"]).count()
+	num_historical = fr_subgenre_hist["idno"]["historical"]
+	num_not_historical = fr_subgenre_hist["idno"]["not_historical"]
 	
-	"""
+	
 	d = {"texts":[num_texts], 
-	"languages":[num_language],
-	"continents":[num_continent],
+	#"languages":[num_language],
+	#"continents":[num_continent],
 	"countries":[num_countries],
 	"authors":[num_authors],
-	"subgenre_x":[num_subgenre_x],
+	#"subgenre_x":[num_subgenre_x],
+	"subgenre":[num_subgenre],
 	"num_historical":[num_historical],
 	"num_not_historical":[num_not_historical]}
-	"""
 	
-	d = {"texts":[num_texts],
-	"authors":[num_authors],
-	"subgenre":[num_subgenre]}
+	
 	
 	count_fr = pd.DataFrame(d)
 	count_fr.to_csv(os.path.join(wdir, "corpus-description.csv"), sep=",", header=True)
@@ -931,8 +929,8 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 
 ######################################### Main part ############################################
 
-#summarize_corpus()
-generate_tpx_features()
+summarize_corpus()
+#generate_tpx_features()
 #plot_all_tpx_features("bar","matplotlib")
 #calculate_all_test_stats()
 #plot_significance_values()
