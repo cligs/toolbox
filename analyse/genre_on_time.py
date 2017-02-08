@@ -38,7 +38,7 @@ The data which is analyzed here has been previously annotated with the following
 """
 
 # path and filename settings
-wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/"
+wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/"
 md_mode = "rv"
 md_csv = "metadata-" + md_mode + ".csv"
 # where to save visualization files

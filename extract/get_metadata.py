@@ -33,6 +33,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change","setting-type"]
 
     labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical","dialogue",]
+    labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -40,6 +41,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "author-name": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
               "author-gender":'//tei:term[@type="author-gender"]//text()',
+              "language":'//tei:term[@type="language"]//text()',
               "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
               "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
               "supergenre":'//tei:term[@type="supergenre"]//text()',
@@ -55,6 +57,8 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
               "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
               "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype or not(parent::tei:keywords/tei:term[@type="subgenre"][2])]//text()',
               "subsubgenre":'//tei:term[@type="subsubgenre"]//text()',
+              "subgenre_hist":'//tei:term[@type="subgenre_hist"]//text()',
+              "subgenre_x":'//tei:term[@type="subgenre_x"]//text()',
 
               "narrator": '//tei:term[@type="narrator"]//text()',
               "protagonist-name": '//tei:term[@type="protagonist-name"]//text()',
@@ -141,6 +145,8 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre
     elif mode == "beta-opt-obl-subgenre-structure":
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
+    elif mode == "hist-nov":
+		labels = labels_histnov
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []

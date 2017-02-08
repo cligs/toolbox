@@ -59,7 +59,7 @@
                 <fo:simple-page-master master-name="A5-second" page-height="210mm"
                     page-width="148mm" margin="15mm 15mm 5mm 15mm">
                     <fo:region-body margin="5mm 10mm 15mm 10mm"/>
-                    <fo:region-after extent="35mm" region-name="Fußbereich"/>
+                    <fo:region-after extent="55mm" region-name="Fußbereich"/>
                 </fo:simple-page-master>
             </fo:layout-master-set>
             <!-- Titelseite -->

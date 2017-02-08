@@ -86,4 +86,4 @@ def main(basic_wdir, input_wdir, output_wdir, mode):
             with open (os.path.join(basic_wdir+output_wdir, idno_file), "w", encoding="utf-8") as fout:
                 fout.write(content)
                 
-#main("/home/ulrike/Git/romancesportugueses/", "master/*.xml", "master2/", "default")
+main("/home/ulrike/Git/textbox/spanish/novela-hispanoamericana/", "tei/*.xml", "tei2/", "default")

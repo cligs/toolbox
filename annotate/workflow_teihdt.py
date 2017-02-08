@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/master"
+infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/data"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt"
+outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/data_anno"
 
 # language of the texts (tested for: FRENCH, SPANISH, ITALIAN, PORTUGUESE)
-lang = "FRENCH"
+lang = "SPANISH"
 
 # path to heideltime installation
 heideltimePath = "/home/ulrike/Programme/heideltime-standalone-2.1"
@@ -45,6 +45,6 @@ from toolbox.annotate import use_heideltime
 
 #prepare_tei.prepare("split-1", infolder, outfolder)
 #use_heideltime.apply_ht(heideltimePath, os.path.join(outfolder, "txt"), os.path.join(outfolder, "hdt"), lang)
-#use_heideltime.debug_ampersands("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/hdt", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre")
-#use_heideltime.wrap_body("/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno_pre", "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/hdt/anno")
-prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))
+#use_heideltime.debug_ampersands(os.path.join(outfolder, "hdt"), os.path.join(outfolder, "anno_pre"))
+#use_heideltime.wrap_body(os.path.join(outfolder, "anno_pre"), os.path.join(outfolder, "anno"))
+#prepare_tei.prepare("merge-hdt", outfolder, os.path.join(outfolder, "teia"))

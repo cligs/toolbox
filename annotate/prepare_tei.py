@@ -313,8 +313,8 @@ def prepare(mode, infolder, outfolder):
 	outfolder (string): in split-mode: path to the output folder for annotation working files; in merge-mode: path to the output folder for annotated TEI result files. The folders are created if they do not exist.
 	"""
 	if mode == "split":
-		prepare_anno(infolder, outfolder)
-	if mode == "split-1":
+		prepare_anno(infolder, outfolder, mode="split")
+	elif mode == "split-1":
 		prepare_anno(infolder, outfolder, mode="split-1")
 	elif mode == "merge":
 		postpare_anno(infolder, outfolder)
