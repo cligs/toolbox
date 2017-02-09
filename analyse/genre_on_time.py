@@ -44,7 +44,7 @@ md_csv = "metadata_" + md_mode + ".csv"
 # where to save visualization files
 dir_visuals = os.path.join(wdir, "vis")
 # path to XML files annotated with HeidelTime
-ht_inpath = os.path.join(wdir, "hdt/teia/*.xml")
+ht_inpath = os.path.join(wdir, "all_teia/*.xml")
 # path to corpus files, relative to working directory
 corpus_inpath = "all_tei/*.xml"
 
@@ -238,8 +238,8 @@ def get_tpx_labels_special():
 	"""
 	Returns special labels
 	"""
-	#labels_special = ["temp_dist"]
-	labels_special = []
+	labels_special = ["temp_dist"]
+	#labels_special = []
 	return labels_special
 
 
@@ -330,17 +330,17 @@ def generate_tpx_features():
 					# get all date expressions with a year
 					years = []
 					for date in dates:
-						if re.match(r"^\d{2,4}", date):
+						if re.match(r"^\d{4}-\d{2}-\d{2}", date): # only year: bad results
 							years.append(date.split("-")[0])
 					# get the median of the years mentioned in the text
 					if years:
 						years = np.array(years).astype(np.float)
 					
-						med = np.median(years)
+						med = np.median(years) #median
 						# get publication year
 						pub_year = md_table.loc[idno,"year"]
 						# calculate the difference
-						result = round(med - pub_year)
+						result = round(pub_year - med)
 					else:
 						result = float("NaN")
 					
@@ -381,25 +381,26 @@ def generate_tpx_features():
 							if re.match(r"^\D+$", date):
 								date_counts.append(date)
 						if (label == "tpx_date_year_abs"):
-							if re.match(r"^\d{2,4}", date):
+							#if re.match(r"^\d{2,4}", date): für alle Jahre geändert
+							if re.match(r"^\d{4}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_year_month_abs"):
-							if re.match(r"^\d{2,4}-\d{2}", date):
+							if re.match(r"^\d{4}-\d{2}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_month_abs"):
-							if re.match(r"^.{2,4}-\d{2}", date):
+							if re.match(r"^.{4}-\d{2}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_day_abs"):
-							if re.match(r"^.{2,4}-.{2}-\d{2}", date):
+							if re.match(r"^.{4}-.{2}-\d{2}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_month_day_abs"):
-							if re.match(r"^.{2,4}-\d{2}-\d{2}", date):
+							if re.match(r"^.{4}-\d{2}-\d{2}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_any_abs"):
-							if re.match(r"^\d{2,4}", date) or re.match(r"^.{2,4}-\d{2}", date) or re.match(r"^.{2,4}-.{2}-\d{2}", date):
+							if re.match(r"^\d{4}", date) or re.match(r"^.{4}-\d{2}", date) or re.match(r"^.{4}-.{2}-\d{2}", date):
 								date_counts.append(date)
 						if (label == "tpx_date_full_abs"):
-							if re.match(r"^\d{2,4}-\d{2}-\d{2}", date):
+							if re.match(r"^\d{4}-\d{2}-\d{2}", date):
 								date_counts.append(date)
 				
 					result = len(date_counts)
@@ -478,8 +479,8 @@ def generate_tpx_features():
 			ht_fr.loc[idno,label] = result
 		
 	# für FJR: absolute Werte weglassen
-	for label in labels_abs:
-		ht_fr = ht_fr.drop(label, axis=1)
+	#for label in labels_abs:
+	#	ht_fr = ht_fr.drop(label, axis=1)
 		
 	ht_fr.to_csv(wdir + "tpx-corpus-counts.csv", sep=",", header=True)
 
@@ -530,9 +531,9 @@ pygal_style2 = pygal.style.Style(
 			font_family = "FreeSans, sans-serif",
 			opacity = "1",
 			title_font_size = 50,
-			legend_font_size = 44,
-			label_font_size = 28,
-			value_font_size = 24,
+			legend_font_size = 48,
+			label_font_size = 44,
+			value_font_size = 44,
 			colors=["#109618","#FF9900"])
 
 
@@ -689,6 +690,7 @@ def plot_significance_values(filename="tpx-test-statistics-wilcoxon-ranksum.csv"
 	filename (string): Name of the CSV file with test statistic and p-values
 	"""
 	eval_table = pd.DataFrame.from_csv(os.path.join(wdir, filename), header=0)
+	eval_table = eval_table.drop(get_tpx_labels_abs(),axis=0)
 	eval_table = eval_table.sort_values("p_value", axis=0, ascending=False)
 	p_values = eval_table.p_value
 	
@@ -909,7 +911,7 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 	"""
 	labels = get_tpx_labels()
 	# frame to hold statistics
-	stats_fr = pd.DataFrame(columns=["test-statistic", "p-value"], index=labels)
+	stats_fr = pd.DataFrame(columns=["test_statistic", "p_value"], index=labels)
 	
 	# do significance test for all features
 	for feature in labels:
@@ -929,11 +931,11 @@ def calculate_all_test_stats(test="Wilcoxon Ranksum"):
 
 ######################################### Main part ############################################
 
-summarize_corpus()
+#summarize_corpus()
 #generate_tpx_features()
 #plot_all_tpx_features("bar","matplotlib")
 #calculate_all_test_stats()
-#plot_significance_values()
+plot_significance_values()
 
 
 

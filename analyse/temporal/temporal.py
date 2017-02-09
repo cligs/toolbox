@@ -39,7 +39,11 @@ def load_data_tpx(mdfile, tpxfile):
 	md = pd.read_csv(mdfile, index_col="idno")
 	tpx = pd.read_csv(tpxfile, index_col="idno")
 	data = md.merge(tpx, right_index=True, left_index=True)
-	data = data.groupby("year").mean()
+	
+	new_col = data["year"].apply(lambda x: int(round(x/5.0)*5.0))
+	data["year_new"] = new_col
+	
+	data = data.groupby("year_new").mean()
 	data = data.drop("num_words", axis=1)
 	return data
 
@@ -111,7 +115,7 @@ def calculate_cosine_similarities(distfile):
 	distfile: CSV file with (normalized) distributions
 	"""
 	
-	distributions = pd.read_csv(distfile, index_col="year")
+	distributions = pd.read_csv(distfile, index_col="year_new")
 	cosim = metrics.pairwise.cosine_similarity(distributions)
 	
 	return cosim
@@ -127,11 +131,12 @@ def vis_cosim_heatmap(cosim, distfile, imgfile):
 	distfile: CSV file with (normalized) distributions
 	imgfile: image filepath
 	"""
-	distributions = pd.read_csv(distfile, index_col="year")
+	distributions = pd.read_csv(distfile, index_col="year_new")
 	idx =  distributions.index
 	
-	labels = np.arange(idx[0],idx[-1],10)
-	x = np.arange(0,len(cosim),10)
+	labels = np.arange(idx[0],idx[-1],5) #year_new
+	x = np.arange(0,len(cosim),1)
+	
 	plt.xticks(x,labels,rotation=90)
 	plt.yticks(x,labels)
 	
@@ -205,10 +210,11 @@ def save_novelties_plot(imgfile, distfile, cosim):
 	distfile: CSV file with (normalized) distributions
 	cosim: array of cosine similarities
 	"""
-	distributions = pd.read_csv(distfile, index_col="year")
+	#distributions = pd.read_csv(distfile, index_col="year")
+	distributions = pd.read_csv(distfile, index_col="year_new")
 	idx =  distributions.index
-	labels = np.arange(idx[0],idx[-1],10)
-	x = np.arange(0,len(cosim),10)
+	labels = np.arange(idx[0],idx[-1],5) # 10
+	x = np.arange(0,len(cosim),1) # 10
 	plt.xticks(x,labels,rotation=90)
 	
 	plt.savefig(imgfile)
@@ -238,13 +244,15 @@ def analyze_tpx(mdfile, tpxfile, outfile):
 	outfile: path to data output file
 	"""
 	data = load_data_tpx(mdfile, tpxfile)
-	data = normalize_data(data)
+	#data = normalize_data(data)
 	save_data(data, outfile)
 	
 	diffs = calculate_diffs(data)
 	sumdiffs = calculate_sumdiffs(diffs)
 	labels, values = transform_data(sumdiffs)
 	visualize_sumdiffs(labels, values)
+	
+	print("done")
 
 	
 	
