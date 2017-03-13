@@ -18,6 +18,8 @@ import numpy as np
 import pygal
 import matplotlib.pyplot as plt
 from sklearn import metrics
+import scipy.spatial.distance as distance
+import scipy.stats as stats
 import math
 
 
@@ -27,7 +29,8 @@ def load_data_topics(topicsovertimefile):
         # print(data.head())
         return data
         
-def load_data_tpx(mdfile, tpxfile):
+        
+def load_data_tpx(mdfile, tpxfile, yearstep):
 	"""
 	prepare temporal expression data for temporal analysis
 	@author: uh
@@ -35,16 +38,20 @@ def load_data_tpx(mdfile, tpxfile):
 	Arguments:
 	mdfile: path to metadata csv file (including column "year")
 	tpxfile: path to temporal expression feature csv file
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
 	"""
 	md = pd.read_csv(mdfile, index_col="idno")
 	tpx = pd.read_csv(tpxfile, index_col="idno")
 	data = md.merge(tpx, right_index=True, left_index=True)
 	
-	new_col = data["year"].apply(lambda x: int(round(x/5.0)*5.0))
+	new_col = data["year"].apply(lambda x: int(round(x/float(yearstep))*float(yearstep)))
 	data["year_new"] = new_col
 	
 	data = data.groupby("year_new").mean()
-	data = data.drop("num_words", axis=1)
+	
+	data = data.drop("year", axis=1)
+	#data = data.drop("decade", axis=1)
+	
 	return data
 
 
@@ -61,17 +68,24 @@ def save_data(data, outfile):
 	
 def normalize_data(data):
 	"""
-	normalize data in frame to 0-1-range
-	
-	X - min(X) / max(X) - min(X)
+	normalize data in frame to z-scores
 	
 	@author: uh
 	
 	Arguments:
 	data: pd data frame
 	"""
-	data_norm = data.applymap(lambda x: (x - min(data.min())) / (max(data.max()) - min(data.min())))
+	
+	rel_cols = [col for col in data.columns if '_rel' in col]
+	prop_cols = [col for col in data.columns if '_prop' in col]
+	
+	rel_frame_norm = pd.DataFrame(stats.zscore(data[rel_cols]),index=data.index)
+	prop_frame_norm = pd.DataFrame(stats.zscore(data[prop_cols]),index=data.index)
+	data_norm = rel_frame_norm.merge(prop_frame_norm, left_index=True, right_index=True)
+	
+	
 	return data_norm
+	
 
 def calculate_diffs(data):
     diffs = data.diff(periods=1, axis=0)
@@ -93,7 +107,7 @@ def transform_data(sumdiffs):
     return labels, values
 
 
-def visualize_sumdiffs(labels, values):
+def visualize_sumdiffs(labels, values, outfile="sumdiffplot.svg"):
     plot = pygal.Line(
         interpolate='cubic',
         x_label_rotation=90,
@@ -103,62 +117,78 @@ def visualize_sumdiffs(labels, values):
     plot.add("sumdiffs", values)
 #    for i in range(0,len(labels)-1):
 #        plot.add(str(labels[i]), [values[i]])
-    plot.render_to_file("sumdiffplot.svg")
+    plot.render_to_file(outfile)
     
     
-def calculate_cosine_similarities(distfile):
+    
+def calculate_similarities(distfile, mode="cosine"):
 	"""
-	calculate cosine similarities
+	calculate similarities / distances
 	@author: uh
 	
 	Argument:
 	distfile: CSV file with (normalized) distributions
+	mode (str): kind of measure (cosine similarity, euclidean distance)
 	"""
 	
 	distributions = pd.read_csv(distfile, index_col="year_new")
-	cosim = metrics.pairwise.cosine_similarity(distributions)
+	if mode == "cosine":
+		sim = metrics.pairwise.cosine_similarity(distributions)
+	elif mode == "euclidean":
+		sim = metrics.pairwise.euclidean_distances(distributions)
+	else:
+		print("Please indicate a valid mode for calculating similarities")
 	
-	return cosim
+	return sim
+	
 	
     
-def vis_cosim_heatmap(cosim, distfile, imgfile):
+def vis_similarity_heatmap(sim, distfile, imgfile, yearstep):
 	"""
-	visualize cosine similarities as heatmap
+	visualize similarities as heatmap
 	@author: uh
 	
 	Arguments:
-	cosim: array of cosine similarities
+	sim: array of cosine similarity / euclidean distance values
 	distfile: CSV file with (normalized) distributions
 	imgfile: image filepath
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
 	"""
 	distributions = pd.read_csv(distfile, index_col="year_new")
 	idx =  distributions.index
 	
-	labels = np.arange(idx[0],idx[-1],5) #year_new
-	x = np.arange(0,len(cosim),1)
+	
+	xlabelstep = 1
+	if yearstep < 5:
+		xlabelstep = 5
+		
+	labels = np.arange(idx[0],idx[-1],yearstep * xlabelstep)
+	x = np.arange(0,len(sim),xlabelstep)
 	
 	plt.xticks(x,labels,rotation=90)
 	plt.yticks(x,labels)
 	
-	plt.imshow(cosim, cmap='hot', interpolation='nearest')
+	plt.imshow(sim, cmap='hot', interpolation='nearest')
 	plt.gca().invert_yaxis()
-	plt.savefig(imgfile)
+	plt.savefig(imgfile, dpi=300)
 	print("Heatmap saved.")
+	plt.clf()
+	
 	
 	
 def kronecker(C,m):
 	return np.kron(C,m)
 	
-def calculate_foote_novelties(cosim, window):
+def calculate_foote_novelties(sim, window):
 	"""
 	calculate foote novelties for a similarity matrix
 	@author: uh
 	
 	Arguments:
-	cosim: array of cosine similarities
+	sim: array of similarity / distance values
 	window: kernel size (4, 8, 16, 32)
 	"""
-	S = np.matrix(cosim)
+	S = np.matrix(sim)
 	C = np.matrix("1 -1;-1 1")
 	m = np.matrix("1 1;1 1")
 	
@@ -166,10 +196,11 @@ def calculate_foote_novelties(cosim, window):
 	while i < math.log(window,2):
 		C = kronecker(C,m)
 		i += 1
+		
 	
 	novelties = []
 	j = 0
-	while j <= len(cosim) - window:
+	while j <= len(sim) - window:
 		
 		subS = S[j:j+window,j:j+window]
 		
@@ -200,7 +231,7 @@ def add_novelty_plot(nvs, window):
 	
 	
 
-def save_novelties_plot(imgfile, distfile, cosim):
+def save_novelties_plot(imgfile, distfile, sim, yearstep):
 	"""
 	add labels to novelty plot and save
 	@author: uh
@@ -208,21 +239,30 @@ def save_novelties_plot(imgfile, distfile, cosim):
 	Arguments:
 	imgfile: image file path
 	distfile: CSV file with (normalized) distributions
-	cosim: array of cosine similarities
+	sim: array of similarity / distance values
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
 	"""
-	#distributions = pd.read_csv(distfile, index_col="year")
 	distributions = pd.read_csv(distfile, index_col="year_new")
 	idx =  distributions.index
-	labels = np.arange(idx[0],idx[-1],5) # 10
-	x = np.arange(0,len(cosim),1) # 10
-	plt.xticks(x,labels,rotation=90)
 	
-	plt.savefig(imgfile)
+	
+	xlabelstep = 1
+	if yearstep < 5:
+		xlabelstep = 5
+		
+	labels = np.arange(idx[0],idx[-1],yearstep * xlabelstep)
+	x = np.arange(0,len(sim),xlabelstep)
+	
+	plt.xticks(x,labels,rotation=90)
+	#plt.tight_layout()
+
+	plt.savefig(imgfile, dpi=300)
 	print("Lineplot saved.")
+	plt.clf()
 	
 		
 	
-#############################################################
+##################### MAIN ########################################
 
 
 def analyze_topics(mastermatrixfile, topicsovertimefile):
@@ -233,7 +273,7 @@ def analyze_topics(mastermatrixfile, topicsovertimefile):
     visualize_sumdiffs(labels, values)
     
     
-def analyze_tpx(mdfile, tpxfile, outfile):
+def analyze_tpx(mdfile, tpxfile, outfile, yearstep=1, outfile_sumdiff="sumdiff.svg"):
 	"""
 	run temporal analysis for temporal expressions
 	@author: uh
@@ -242,36 +282,40 @@ def analyze_tpx(mdfile, tpxfile, outfile):
 	mdfile: path to metadata csv file (including column "year")
 	tpxfile: path to temporal expression feature csv file
 	outfile: path to data output file
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
+	outfile_sumdiff: path to sumdiff image file
 	"""
-	data = load_data_tpx(mdfile, tpxfile)
-	#data = normalize_data(data)
+	data = load_data_tpx(mdfile, tpxfile, yearstep)
+	data = normalize_data(data)
 	save_data(data, outfile)
 	
 	diffs = calculate_diffs(data)
 	sumdiffs = calculate_sumdiffs(diffs)
 	labels, values = transform_data(sumdiffs)
-	visualize_sumdiffs(labels, values)
+	visualize_sumdiffs(labels, values, outfile_sumdiff)
 	
 	print("done")
 
 	
 	
-def visualize_cosim(input_dists, imgfile):
+def visualize_similarity(input_dists, imgfile, yearstep=1, mode="cosine"):
 	"""
-	visualize cosine similarities for a set of distributions
+	visualize similarities / distances for a set of distributions
 	@author: uh
 	
 	Arguments:
 	input_dists: CSV file with input distributions
 	imgfile: path to output imagefile
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
+	mode (str): kind of measure (cosine similarity, euclidean distance)
 	"""
 	
-	cosim = calculate_cosine_similarities(input_dists)
-	vis_cosim_heatmap(cosim, input_dists, imgfile)
+	sim = calculate_similarities(input_dists, mode)
+	vis_similarity_heatmap(sim, input_dists, imgfile, yearstep)
 	
 	
 	
-def visualize_novelties(input_dists, windows, imgfile):
+def visualize_novelties(input_dists, windows, imgfile, yearstep=1, mode="cosine"):
 	"""
 	visualize foote novelties
 	@author: uh
@@ -280,13 +324,59 @@ def visualize_novelties(input_dists, windows, imgfile):
 	input_dists: CSV file with input distributions
 	windows: kernel sizes as list [4, 8, 16, 32]
 	imgfile: path to output imagefile
+	yearstep: step for grouping the years (e.g. 1, 2, 10)
+	mode (str): kind of measure (cosine similarity, euclidean distance)
 	"""
-	cosim = calculate_cosine_similarities(input_dists)
+	sim = calculate_similarities(input_dists, mode)
 	
 	for w in windows:
-		nvs = calculate_foote_novelties(cosim, w)
+		nvs = calculate_foote_novelties(sim, w)
 		add_novelty_plot(nvs, w)
 		
-	save_novelties_plot(imgfile, input_dists, cosim)
+	save_novelties_plot(imgfile, input_dists, sim, yearstep)
 	
 
+
+def dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl):
+	"""
+	calculate the distance of each text to the baseline of the first ten years (average distribution)
+	@author: uh
+	
+	Arguments:
+	md_file: path to metadata file
+	all_texts_infile: path to file of distributions for all the (single) texts
+	texts_by_year_infile: path to file of distributions aggregated by year
+	outfile_bl (str): path to output image file
+	"""
+	
+	# calculate baseline for the first ten years
+	baseline = pd.read_csv(texts_by_year_infile).iloc[0:10,1:].mean()
+	
+	# get distributions for all texts and metadata
+	data = pd.read_csv(all_texts_infile)
+	md = pd.read_csv(md_file)
+	
+	# calculate distance to baseline
+	bl = np.array(baseline)
+	
+	values = []
+	# get year and distance value for each text
+	for idx,row in data.iterrows():
+		idno = data.iloc[idx]["idno"]
+		year = md.loc[md["idno"] == idno].year
+		
+		dt = np.array(data.iloc[idx,1:])
+		dist = distance.cosine(bl, dt)
+		values.append((int(year), float(dist)))
+	
+	slope, intercept, r_value, p_value, std_err = stats.linregress(values)
+	
+	
+	xy_chart = pygal.XY()
+	xy_chart.title = 'Cosine distances from 1900s'
+	xy_chart.add('novels', values, stroke=False)
+	xy_chart.add('regressione line', [(x[0], slope * x[0] + intercept) for x in values])
+	xy_chart.render_to_file(outfile_bl)
+	print("Done")
+
+	

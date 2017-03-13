@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/data"
+infolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/master_neu"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/data_anno"
+outfolder = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/extra/data_anno"
 
 # language of the texts (tested for: FRENCH, SPANISH, ITALIAN, PORTUGUESE)
-lang = "SPANISH"
+lang = "FRENCH"
 
 # path to heideltime installation
 heideltimePath = "/home/ulrike/Programme/heideltime-standalone-2.1"

@@ -15,8 +15,11 @@ from os.path import join
 
 
 ### Set the general working directory.
-wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/2017_Cophi_Kolloquium/"
+wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/"
 
+
+
+### TOPICS ###
 """
 ### Set parameters as used in the topic model
 NumTopics = 300
@@ -32,10 +35,46 @@ topicsovertimefile = join(wdir, "7_aggregates", param_settings, "avgtopicscores_
 temporal.analyze(mastermatrixfile, topicsovertimefile)
 """
 
-#temporal.analyze_tpx(wdir + "metadata_hist-nov.csv", wdir + "tpx-corpus-counts.csv", wdir + "tpx-by-year.csv")
-
-#temporal.visualize_novelties(join(wdir, "tpx-by-year.csv"), [4,8,16], join(wdir, "novelties-tpx.png"))
-#temporal.visualize_cosim(join(wdir, "tpx-by-year.csv"), join(wdir, "cosim-tpx.png"))
 
 
+### TEMPORAL EXPRESSIONS ###
+
+"""
+yearsteps = [1,2,5]
+md_file = join(wdir, "metadata_rv.csv")
+
+for step in yearsteps:
+	
+	tpx_infile = join(wdir, "tpx-corpus-counts.csv")
+	tpx_outfile = join(wdir,"tpx-by-year-" + str(step) + ".csv")
+	sumdiff_outfile = join(wdir, "sumdiff_" + str(step) + ".svg")
+	
+	temporal.analyze_tpx(md_file, tpx_infile, tpx_outfile, step, sumdiff_outfile)
+
+	windows = [4,8,16]
+	infile = join(wdir, "tpx-by-year-" + str(step) + ".csv")
+	
+	outfile_novelties_cosine = join(wdir, "novelties-tpx-cosine-" + str(step) + ".png")
+	outfile_novelties_eucl = join(wdir, "novelties-tpx-eucl-" + str(step) + ".png")
+	
+	temporal.visualize_novelties(infile, windows, outfile_novelties_cosine, step, "cosine")
+	temporal.visualize_novelties(infile, windows, outfile_novelties_eucl, step, "euclidean")
+	
+	outfile_cosine = join(wdir, "cosim-tpx-" + str(step) + ".png")
+	outfile_eucl = join(wdir, "eucl-tpx-" + str(step) + ".png")
+	
+	temporal.visualize_similarity(infile, outfile_cosine, step, "cosine")
+	temporal.visualize_similarity(infile, outfile_eucl, step, "euclidean")
+
+"""
+
+
+# calculate distances to first ten year baseline
+md_file = join(wdir, "metadata_rv.csv")
+all_texts_infile = join(wdir, "tpx-corpus-counts.csv")
+texts_by_year_infile = join(wdir,"tpx-by-year-1.csv")
+	
+outfile_bl = join(wdir, "dist_to_baseline.svg")
+	
+temporal.dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl)
 
