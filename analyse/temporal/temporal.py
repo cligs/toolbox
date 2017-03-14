@@ -20,6 +20,7 @@ import matplotlib.pyplot as plt
 from sklearn import metrics
 import scipy.spatial.distance as distance
 import scipy.stats as stats
+from scipy.optimize import curve_fit
 import math
 
 
@@ -76,13 +77,16 @@ def normalize_data(data):
 	data: pd data frame
 	"""
 	
+	"""
 	rel_cols = [col for col in data.columns if '_rel' in col]
 	prop_cols = [col for col in data.columns if '_prop' in col]
 	
 	rel_frame_norm = pd.DataFrame(stats.zscore(data[rel_cols]),index=data.index)
 	prop_frame_norm = pd.DataFrame(stats.zscore(data[prop_cols]),index=data.index)
 	data_norm = rel_frame_norm.merge(prop_frame_norm, left_index=True, right_index=True)
+	"""
 	
+	data_norm = pd.DataFrame(stats.zscore(data), index=data.index)
 	
 	return data_norm
 	
@@ -335,7 +339,8 @@ def visualize_novelties(input_dists, windows, imgfile, yearstep=1, mode="cosine"
 		
 	save_novelties_plot(imgfile, input_dists, sim, yearstep)
 	
-
+def func(x, a, b, c, d, e, f):
+	return a*x**5 + b*x**4 + c*x**3 + d*x**2 + e*x + f
 
 def dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl):
 	"""
@@ -371,11 +376,22 @@ def dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl
 	
 	slope, intercept, r_value, p_value, std_err = stats.linregress(values)
 	
+	x = [x[0] for x in values]
+	y = [y[1] for y in values]
+	popt, pcov = curve_fit(func, x, y)
 	
-	xy_chart = pygal.XY(legend_at_bottom=True)
+	"""
+	The result is:
+	popt[0] = a , popt[1] = b, popt[2] = c and popt[3] = d of the function,
+	so f(x) = popt[0]*x**3 + popt[1]*x**2 + popt[2]*x + popt[3].
+	"""
+	
+	
+	xy_chart = pygal.XY(legend_at_bottom=True, range=(0.0,1.0))
 	xy_chart.title = 'Cosine distances from 1900s'
 	xy_chart.add('novels', values, stroke=False)
-	xy_chart.add('regressione line', [(x[0], slope * x[0] + intercept) for x in values])
+	xy_chart.add('regression line 1', [(x, slope * x + intercept) for x in range(1900,1999)])
+	xy_chart.add('regression line 2', [(x, func(x, *popt)) for x in range(1900,1999)])
 	xy_chart.render_to_file(outfile_bl)
 	print("Done")
 
