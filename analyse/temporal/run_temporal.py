@@ -66,15 +66,18 @@ for step in yearsteps:
 	temporal.visualize_similarity(infile, outfile_cosine, step, "cosine")
 	temporal.visualize_similarity(infile, outfile_eucl, step, "euclidean")
 
+
+
 """
+
 
 
 # calculate distances to first ten year baseline
 md_file = join(wdir, "metadata_rv.csv")
 all_texts_infile = join(wdir, "tpx-corpus-counts.csv")
-texts_by_year_infile = join(wdir,"tpx-by-year-1.csv")
+texts_by_year_infile = join(wdir,"tpx-by-year-2.csv")
 	
-outfile_bl = join(wdir, "dist_to_baseline.svg")
+outfile_bl = join(wdir, "dist_to_baseline_tpx_2.svg")
 	
 temporal.dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl)
 

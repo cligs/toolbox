@@ -44,7 +44,7 @@ def load_data_tpx(mdfile, tpxfile, yearstep):
 	tpx = pd.read_csv(tpxfile, index_col="idno")
 	data = md.merge(tpx, right_index=True, left_index=True)
 	
-	new_col = data["year"].apply(lambda x: int(round(x/float(yearstep))*float(yearstep)))
+	new_col = data["year"].apply(lambda x: int(math.floor(x/float(yearstep))*float(yearstep)))
 	data["year_new"] = new_col
 	
 	data = data.groupby("year_new").mean()
@@ -372,7 +372,7 @@ def dist_to_baseline(md_file, all_texts_infile, texts_by_year_infile, outfile_bl
 	slope, intercept, r_value, p_value, std_err = stats.linregress(values)
 	
 	
-	xy_chart = pygal.XY()
+	xy_chart = pygal.XY(legend_at_bottom=True)
 	xy_chart.title = 'Cosine distances from 1900s'
 	xy_chart.add('novels', values, stroke=False)
 	xy_chart.add('regressione line', [(x[0], slope * x[0] + intercept) for x in values])
