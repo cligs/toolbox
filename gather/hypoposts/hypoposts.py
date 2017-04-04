@@ -69,10 +69,9 @@ def get_html(url):
     try:
         result = rq.get(url, timeout=0.5)
         html = result.text
-        # print(html)  
         return html
     except: 
-        print("ERROR ", str(url))
+        print("ERROR: download problems ", str(url))
 
 
 def save_html(html, htmlfolder, url):
@@ -92,12 +91,12 @@ def get_hypoposts(urlfile, htmlfolder):
         os.makedirs(htmlfolder)
     urls = get_urls(urlfile)
     for url in urls:
-        print(url)
+        #print(url)
         html = get_html(url)
         if html:
             filename = save_html(html, htmlfolder, url)
         else:
-            print("ERROR", str(url))
+            print("ERROR: no HTML", str(url))
 
 
 # ================================================
