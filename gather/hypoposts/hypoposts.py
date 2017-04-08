@@ -67,7 +67,7 @@ def get_urls(urlfile):
 
 def get_html(url): 
     try:
-        result = rq.get(url, timeout=0.5)
+        result = rq.get(url, timeout=1)
         html = result.text
         return html
     except: 
@@ -90,13 +90,19 @@ def get_hypoposts(urlfile, htmlfolder):
     if not os.path.exists(htmlfolder): 
         os.makedirs(htmlfolder)
     urls = get_urls(urlfile)
+    count = 0
+    ok = 0
     for url in urls:
+        count +=1
         #print(url)
         html = get_html(url)
         if html:
             filename = save_html(html, htmlfolder, url)
-        else:
-            print("ERROR: no HTML", str(url))
+            ok +=1
+        print(ok/count, "(", count, ok, ")")
+            
+        #else:
+        #    print("ERROR: no HTML", str(url))
 
 
 # ================================================
@@ -185,7 +191,10 @@ def check_language(text):
     from langdetect import detect
     #result = detect_langs(text)
     #language = str(result[0])[0:2]
-    language = detect(text)
+    try:
+        language = detect(text)
+    except:
+        language = "xx"
     return language
 
 
@@ -214,7 +223,6 @@ def get_metadata(html, filename):
         metadata.append("N/A")
         metadata.append("N/A")
     return metadata
-
     
 
 def save_metadata(allmetadata):
@@ -223,20 +231,6 @@ def save_metadata(allmetadata):
     #print(allmetadata)
     allmetadata.to_csv("metadata.csv", sep=";")
 
-
-def extract_metadata(htmlfolder, metadatafile):
-    allmetadata = []
-    for htmlfile in glob.glob(htmlfolder+"*.html"):
-        html = read_html(htmlfile)
-        filename = get_filename(htmlfile)
-        metadata = get_metadata(html, filename)
-        language = check_language(text)
-        metadata.append(language)
-        numwords = get_numwords(text)
-        metadata.append(numwords)
-        allmetadata.append(metadata)
-    save_metadata(allmetadata)
-    
 
 def extract_data(htmlfolder, txtfolder):
     if not os.path.exists(txtfolder): 
@@ -267,7 +261,7 @@ def extract_data(htmlfolder, txtfolder):
 
 def open_metadatafile(metadatafile):
     with open(metadatafile, "r") as infile:
-        metadata = pd.DataFrame.from_csv(infile, sep=",")
+        metadata = pd.DataFrame.from_csv(infile, sep=";")
         #print(metadata.head())
         return metadata
 
@@ -276,33 +270,93 @@ def check_authordata(metadata):
     authordata = metadata.loc[:,"author"]
     numentries = len(authordata)
     numauthors = len(set(authordata))
-    avgentries = numentries / numauthors
-    print(numentries, numauthors, avgentries)
+    print("number of authors", numauthors)
     entries = Counter(list(authordata))
-    print(entries)
+    #print(entries)
     entries = dict(entries)
     entries = list(entries.values())
-    print(entries)
+    #print(entries)
     sum = np.sum(entries)
     mean = np.mean(entries)
     median = np.median(entries)
-    print(sum, mean, median)
+    std = np.std(entries)
+    print("sum, mean, median post per author:", sum, mean, median, std)
     return authordata
 
 
 def check_postdata(metadata):
     postdata = metadata.loc[:,"numwords"]
     numentries = len(postdata)
-    print(sorted(list(postdata)))
+    #print(sorted(list(postdata)))
     sum = np.sum(postdata)
     mean = np.mean(postdata)
     median = np.median(postdata)
-    print(sum, mean, median)
+    std = np.std(postdata)
+    print("sum, mean, median std words per post:", sum, mean, median, std)
     return postdata
 
+
+def check_langdata(metadata):
+    langdata = metadata.loc[:,"lang"]
+    langcount = Counter(list(langdata))
+    print(langcount)
+
+
+def plot_data(postdata):
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    plot = sns.distplot(postdata, bins=3, rug=False, hist=True, kde=True)
+    plt.savefig("post-length-histogram.png")
+    plot = sns.violinplot(postdata)
+    plt.savefig("post-length-violinplot.png")
+    plot = sns.boxplot(postdata)
+    plt.savefig("post-length-boxplot.png")
+
+
+def find_cases(metadata):
+    metadata = metadata.groupby("author")
+    count = 0
+    for name, group in metadata:
+        langs = list(group.loc[:,"lang"])
+        lang = Counter(langs).most_common()[0][0]
+        numwords = sorted(list(group.loc[:,"numwords"]), reverse=True)
+        if lang == "fr" and len(numwords) > 12 and numwords[2] > 2000 and numwords[11] > 200:
+            count +=1
+            print(count, lang, name, numwords[0:12])
+    
 
 def analyze_metadata(metadatafile):
     metadata = open_metadatafile(metadatafile)
     authordata = check_authordata(metadata)
     postdata = check_postdata(metadata)
+    langdata = check_langdata(metadata)
+    plot_data(postdata)
+    find_cases(metadata)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

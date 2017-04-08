@@ -20,7 +20,7 @@ from os.path import join
 
 
 wdir = "/media/christof/data/Dropbox/0-Analysen/2017/hypoposts/2015/" 
-urlfile = join(wdir, "urls.txt")
+urlfile = join(wdir, "urls2.txt")
 htmlfolder = join(wdir, "html", "")
 txtfolder = join(wdir, "txt", "")
 metadatafile =  join(wdir, "metadata.csv")
@@ -31,9 +31,9 @@ metadatafile =  join(wdir, "metadata.csv")
 # ========================================
 
 
-hypoposts.get_hypoposts(urlfile, htmlfolder)
+# hypoposts.get_hypoposts(urlfile, htmlfolder)
 # hypoposts.extract_data(htmlfolder, txtfolder)
-# hypoposts.analyze_metadata(metadatafile)
+hypoposts.analyze_metadata(metadatafile)
 
 
 
