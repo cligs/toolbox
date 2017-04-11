@@ -20,6 +20,7 @@ import html
 import pandas as pd
 from collections import Counter
 import numpy as np
+import shutil
 
 
 # ========================================
@@ -67,7 +68,7 @@ def get_urls(urlfile):
 
 def get_html(url): 
     try:
-        result = rq.get(url, timeout=1)
+        result = rq.get(url, timeout=2)
         html = result.text
         return html
     except: 
@@ -299,7 +300,7 @@ def check_postdata(metadata):
 def check_langdata(metadata):
     langdata = metadata.loc[:,"lang"]
     langcount = Counter(list(langdata))
-    print(langcount)
+    #print(langcount)
 
 
 def plot_data(postdata):
@@ -320,7 +321,7 @@ def find_cases(metadata):
         langs = list(group.loc[:,"lang"])
         lang = Counter(langs).most_common()[0][0]
         numwords = sorted(list(group.loc[:,"numwords"]), reverse=True)
-        if lang == "fr" and len(numwords) > 12 and numwords[2] > 2000 and numwords[11] > 200:
+        if lang == "de" and len(numwords) > 12 and numwords[2] > 3000 and numwords[11] > 800:
             count +=1
             print(count, lang, name, numwords[0:12])
     
@@ -336,6 +337,94 @@ def analyze_metadata(metadatafile):
 
 
 
+# ======================================
+# Build a test collection for stylometry
+# ======================================
+
+
+def identify_authors(metadata, collcriteria):
+    """
+    Identify the authors who correspond to the basic criteria.
+    """
+    metadata = metadata.groupby("author")
+    authors = []
+    for name, group in metadata:
+        langs = list(group.loc[:,"lang"])
+        lang = Counter(langs).most_common()[0][0]
+        numwords = sorted(list(group.loc[:,"numwords"]), reverse=True)
+        if lang == collcriteria[0]:
+            if len(numwords) > 9 and numwords[2] > collcriteria[1] and numwords[5] > collcriteria[2] and numwords[8] > collcriteria[3]:
+                authors.append(name)
+    print(len(authors), authors)
+    return authors
+
+
+def identify_posts(metadata, collcriteria, authors):
+    """
+    Identify the posts by selected authors which correspond to more precise criteria.
+    """
+    metadata = metadata.groupby("author")
+    selposts = []
+    for name, group in metadata:
+        if name in authors:
+            filter_category = "numwords"
+            lower_bound = collcriteria[1]-501
+            upper_bound = collcriteria[1]+501
+            myquery = str(lower_bound) + "<" + filter_category + "<" + str(upper_bound)
+            filtered = group.query(myquery)
+            if len(filtered) > 2:
+                posts = filtered.loc[:,"id"]
+                selposts.extend(posts)
+    print(selposts)
+    return selposts
+            
+
+def copy_files(selposts, txtfolder, collfolder):
+    """
+    Copy the right files to a new folder.    
+    """
+    if not os.path.exists(collfolder):
+        os.makedirs(collfolder)
+    source = txtfolder
+    destination = collfolder
+    counter = 0
+    for file in glob.glob(source+"*.txt"):
+        basename = os.path.basename(file)
+        filename,ext = basename.split(".")
+        idno = filename[3:]
+        #print(idno)
+        if idno in selposts:
+            counter +=1
+            shutil.copy(file, destination)
+
+
+def rename_files(collfolder, metadata, category1, category2):
+    """
+    Renames files based on metadata.
+    """
+    for file in glob.glob(collfolder+"*.txt"):
+        ## Get labels from metadatafile for primary and secondary category.
+        basename = os.path.basename(file)
+        filename, ext = basename.split(".")
+        idno = filename[3:]
+        metadatax = metadata.set_index("id", drop=True)
+        label1 = metadatax.loc[idno, category1]
+        label2 = metadatax.loc[idno, category2]
+        ## Construct new filename
+        newfilename = str(label1) + "_" + str(label2) + "-" + str(basename) 
+        newoutputpath = collfolder + newfilename
+        os.rename(file, newoutputpath)   
+
+
+def build_collection(metadatafile, txtfolder, collfolder, collcriteria):
+    metadata = open_metadatafile(metadatafile)
+    authors = identify_authors(metadata, collcriteria)
+    selposts = identify_posts(metadata, collcriteria, authors)
+    copy_files(selposts, txtfolder, collfolder)
+    rename_files(collfolder, metadata, category1="author", category2="numwords")
+    
+    
+    
 
 
 
