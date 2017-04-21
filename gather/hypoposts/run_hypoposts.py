@@ -26,7 +26,10 @@ txtfolder = join(wdir, "txt", "")
 minlength = 50
 metadatafile =  join(wdir, "metadata.csv")
 collfolder = join(wdir, "coll", "")
-collcriteria = ["de", 3000, 2000, 1000]
+languages = ["de"]
+numposts = 3
+textlengths = [5000, 4000, 3000, 2000, 1500, 1000, 500, 250]
+variability = 0.2
 
 
 # ========================================
@@ -35,9 +38,9 @@ collcriteria = ["de", 3000, 2000, 1000]
 
 
 # hypoposts.get_hypoposts(urlfile, htmlfolder)
-hypoposts.extract_data(htmlfolder, txtfolder, minlength)
+# hypoposts.extract_data(htmlfolder, txtfolder, minlength)
 # hypoposts.analyze_metadata(metadatafile)
-# hypoposts.build_collection(metadatafile, txtfolder, collfolder, collcriteria)
+hypoposts.build_collection(metadatafile, languages, numposts, textlengths, variability)
 
 
 

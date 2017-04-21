@@ -438,95 +438,85 @@ def analyze_metadata(metadatafile):
 
 
 
-
-
-
 # ======================================
 # Build a test collection for stylometry
 # ======================================
 
 
-def identify_authors(metadata, collcriteria):
+def modify_metadatafile(metadatafile):
     """
-    Identify the authors who correspond to the basic criteria.
+    Add the required column to the metadatafile.
     """
-    metadata = metadata.groupby("author")
-    authors = []
-    for name, group in metadata:
-        langs = list(group.loc[:,"lang"])
-        lang = Counter(langs).most_common()[0][0]
-        numwords = sorted(list(group.loc[:,"numwords"]), reverse=True)
-        if lang == collcriteria[0]:
-            if len(numwords) > 9 and numwords[2] > collcriteria[1] and numwords[5] > collcriteria[2] and numwords[8] > collcriteria[3]:
-                authors.append(name)
-    print(len(authors), authors)
-    return authors
+    with open(metadatafile, "r") as infile:
+        metadata = pd.read_csv(infile, sep=";", index_col=None)
+        metadata = metadata.assign(subcollection="none")
+        with open("metadata-sel.csv", "w") as outfile:
+            metadata.to_csv(outfile, index=False, sep=";")
 
 
-def identify_posts(metadata, collcriteria, authors):
+def read_metadatafile(metadatafile):
     """
-    Identify the posts by selected authors which correspond to more precise criteria.
+    Read the metadatafile produced in the previous step.
     """
-    metadata = metadata.groupby("author")
+    with open("metadata-sel.csv", "r") as infile:
+        metadata = pd.read_csv(infile, sep=";", index_col=None)
+        #print(metadata)       
+        return metadata
+
+
+def filter_metadata(metadata, lang):
+    metadata = metadata[metadata["language"] == lang]
+    return metadata
+    
+
+def identify_posts(metadata, textlen, numposts, variability):
+    """
+    Identify the posts by different authors that correspond to the criteria.
+    """
     selposts = []
+    category = "numwords"
+    minlen = textlen - (textlen * variability)
+    maxlen = textlen + (textlen * variability)
+    myquery = str(minlen) + "<" + category + "<" + str(maxlen)
+    metadata = metadata.groupby("author")
+    counter = 0
     for name, group in metadata:
-        if name in authors:
-            filter_category = "numwords"
-            lower_bound = collcriteria[1]-501
-            upper_bound = collcriteria[1]+501
-            myquery = str(lower_bound) + "<" + filter_category + "<" + str(upper_bound)
             filtered = group.query(myquery)
             if len(filtered) > 2:
-                posts = filtered.loc[:,"id"]
+                counter +=1
+                print(counter, "-", len(filtered), "posts by", name)
+                posts = filtered.loc[:, "filename"]
                 selposts.extend(posts)
-    print(selposts)
+    #print(selposts)
     return selposts
-            
-
-def copy_files(selposts, txtfolder, collfolder):
-    """
-    Copy the right files to a new folder.    
-    """
-    if not os.path.exists(collfolder):
-        os.makedirs(collfolder)
-    source = txtfolder
-    destination = collfolder
-    counter = 0
-    for file in glob.glob(source+"*.txt"):
-        basename = os.path.basename(file)
-        filename,ext = basename.split(".")
-        idno = filename[3:]
-        #print(idno)
-        if idno in selposts:
-            counter +=1
-            shutil.copy(file, destination)
 
 
-def rename_files(collfolder, metadata, category1, category2):
-    """
-    Renames files based on metadata.
-    """
-    for file in glob.glob(collfolder+"*.txt"):
-        ## Get labels from metadatafile for primary and secondary category.
-        basename = os.path.basename(file)
-        filename, ext = basename.split(".")
-        idno = filename[3:]
-        metadatax = metadata.set_index("id", drop=True)
-        label1 = metadatax.loc[idno, category1]
-        label2 = metadatax.loc[idno, category2]
-        ## Construct new filename
-        newfilename = str(label1) + "_" + str(label2) + "-" + str(basename) 
-        newoutputpath = collfolder + newfilename
-        os.rename(file, newoutputpath)   
+def mark_metadata(metadata, subcollection, selposts):
+    for post in selposts:
+        postindex = metadata[metadata.filename == post].index[0]
+        metadata.set_value(postindex, "subcollection", subcollection)
+    metadata = metadata.sort_values(by="subcollection")
+    #print(metadata.head(50))
+    return metadata
 
 
-def build_collection(metadatafile, txtfolder, collfolder, collcriteria):
-    metadata = open_metadatafile(metadatafile)
-    authors = identify_authors(metadata, collcriteria)
-    selposts = identify_posts(metadata, collcriteria, authors)
-    copy_files(selposts, txtfolder, collfolder)
-    rename_files(collfolder, metadata, category1="author", category2="numwords")
+def save_metadata(metadata):
+    with open("metadata-sel.csv", "w") as outfile:
+        metadata.to_csv(outfile, sep=";", index=False)
+
     
+def build_collection(metadatafile, languages, numposts, textlengths, variability):
+    modify_metadatafile(metadatafile)
+    for lang in languages:
+        for textlen in textlengths:
+            metadata = read_metadatafile(metadatafile)
+            metadata = filter_metadata(metadata, lang)
+            subcollection = str(lang) + "-" + str(textlen)
+            print("\n=========", subcollection, "=========")
+            selposts = identify_posts(metadata, textlen, numposts, variability)
+            metadata = mark_metadata(metadata, subcollection, selposts)
+            save_metadata(metadata)
+        
     
     
 
