@@ -15,12 +15,13 @@ import os
 import glob
 import re
 import requests as rq
-from bs4 import BeautifulSoup as bs
+from bs4 import BeautifulSoup as soup
 import html
 import pandas as pd
 from collections import Counter
 import numpy as np
 import shutil
+import csv
 
 
 # ========================================
@@ -106,14 +107,25 @@ def get_hypoposts(urlfile, htmlfolder):
         #    print("ERROR: no HTML", str(url))
 
 
+
+
 # ================================================
 # Extract post data (text and metadata) from HTML
 # ================================================
 
 
 def read_html(htmlfile):
+    """
+    Reads the HTML file to a string.
+    Removes some potential trouble makers.
+    """
     with open(htmlfile, "r") as infile:
         html = infile.read()
+        html = re.sub("<div class=\"wp-about-author.*?</div>", "", html, re.S)
+        html = re.sub("<em>", "", html)
+        html = re.sub("</em>", "", html)
+        html = re.sub("<i>", "", html)
+        html = re.sub("</i>", "", html)
         return html
 
 
@@ -123,64 +135,101 @@ def get_filename(htmlfile):
     return filename
 
 
-def get_text(html):
-    text = re.findall("<div id=\"content(.*)<hr/>", html, re.S)
-    if text:
-        #print(len(text[0]))
-        return text[0]
-    else:
-        text = re.findall("<div class=\"content(.*)<hr/>", html, re.S)
-        if text:
-            #print(len(text[0]))
-            return text[0]
-        else:
-            text = re.findall("<div class=\"entry-inner(.*)<hr/>", html, re.S)
-            if text:
-                #print(len(text[0]))
-                return text[0]
-            else:
-                text = re.findall("<div class=\"entry-content(.*)<p class", html, re.S)
-                if text:
-                    #print(len(text[0]))
-                    return text[0]
-                else:
-                    text = re.findall("<div class=\"textwidget(.*)</div>", html, re.S)
-                    if text:
-                        #print(len(text[0]))
-                        return text[0]
-                    else:
-                        text = "notexthere"
-                        return text
+def get_title(html, filename): 
+    """
+    Looks for the title of the blog post. 
+    """
+    html = soup(html, "html.parser")
+    title = html.find_all("h1", ["post-title entry-title", "entry-title"])
+    if title:
+        title = title[0].string
+        try:
+            title = re.sub(";", "_", title)
+        except:
+            print("WARNING: problem with title", filename)
+            title = "N/A"
+    #print(title)
+    #print(type(title))
+    return title
 
 
 def clean_text(text):
-    try: 
-        text = html.unescape(text)
-    except:
-        print("error")
-    #remove remaining tags
-    text = re.sub("\" class=\"site-content", "", text)
-    text = re.sub("<.*?>", "", text)
-    text = re.sub("\">", "", text)
-    text = re.sub("\" role=\"main", "", text)
-    
-    # remove spaces and tabs
+    """
+    Removes some remaining stuff from the text.
+    """
+    # Removes any links
+    #text = re.sub("http.*?[ \n]", " ", text)
+    # Removes some special signs which disturb processing
+    text = re.sub("🙂", " :-) ", text)
+    text = re.sub("😉", " ;-) ", text)
+    text = re.sub("More Posts  - Website Follow Me:", "", text)
+    text = re.sub("Website Follow Me:", "", text)
+    # Removes unnecessary whitespace
     text = re.sub("\t", " ", text)
     text = re.sub("\n", " ", text)
     text = re.sub("[ ]{2,8}  ", " ", text)
     text = re.sub("^ ", "", text)
-    # remove unwanted text
-    text = re.sub("Enregistrer", "", text)
-    text = re.sub("Navigation des articles", "", text)
-    text = re.sub("← Précédent", "", text)
-    text = re.sub("Suivant →", "", text)
-    text = re.sub("Laisser un commentaire", "", text)
-    text = re.sub("🙂", " :-) ", text)
-    text = re.sub("😉", " ;-) ", text)
     return text
 
 
+def get_text(html, filename):
+    """
+    Does the actual extraction of the text from the HTML.
+    Uses Beautiful Soup to do so.
+    """
+    html = soup(html, "html.parser")
+    text = ""
+    divs = html.find_all("div", ["entry-inner", "entry-content", "content"])
+    if divs: 
+        for div in divs: 
+            div = div.get_text()
+            text = text + str(div) + "\n"
+    else: 
+        print("ERROR: no text found.", filename)
+        text = "N/A"
+    text =  clean_text(text)
+    return text
+
+
+def get_category(text, title): 
+    """
+    Makes a guess at the type of blog post.
+    Particularly tries to identify conference programms and CfPs.
+    """
+    try: 
+        text = text.lower()
+        title = title.lower()
+    except:
+        print("WARNING: problem with category")
+    # Evidence for conference programme
+    conf = 0
+    if "programm" in title or "programme" in title or "program" in title: 
+        conf +=2
+    if "programm" in text or "programme" in text or "program" in text: 
+        conf +=1
+    if "accueil" in text or "Begrüßung" in text or "welcome" in text: 
+        conf +=1
+    # Evidence for call for papers
+    call = 0    
+    if "call for papers" in title or "appel à contributions" in title or "tagungsausschreibung" in title: 
+        call +=2
+    if "call for papers" in title or "appel à contributions" in title or "tagungsausschreibung" in text: 
+        call +=1
+    if "deadline" in text or "date limite" in text or "frist" in text: 
+        call +=1
+    if call > 1:
+        category = "call"
+    elif conf > 1: 
+        category = "conf"
+    else: 
+        category = "N/A"
+    return category
+        
+
 def get_numwords(text):
+    """
+    Estimates the length of the plain text in number of words.
+    """
     text = re.split(" ", text)
     text = [word for word in text if word]
     numwords = len(text)
@@ -188,10 +237,11 @@ def get_numwords(text):
 
 
 def check_language(text):
-    from langdetect import detect_langs
+    """
+    Detects the language of the post from the full text.
+    (The metadata with regard to language are often unreliable.)
+    """
     from langdetect import detect
-    #result = detect_langs(text)
-    #language = str(result[0])[0:2]
     try:
         language = detect(text)
     except:
@@ -199,60 +249,109 @@ def check_language(text):
     return language
 
 
-def save_text(text, txtfolder, filename, language):
-    filepath = txtfolder+str(language) + "_" + str(filename)+".txt"
+def get_licence(html):
+    """
+    Searches the HTML content for a mention of a CC licence.
+    """
+    if "creative-commons" in html or "Creative Commons" in html: 
+        licence = "CC"
+    else: 
+        licence = "N/A"
+    return licence
+
+
+def save_text(text, txtfolder, filename):
+    """
+    Saves the extracted text to a TXT file.
+    """
+    filepath = txtfolder + str(filename) + ".txt"
     with open(filepath, "w") as outfile: 
         outfile.write(text)
 
 
-def get_metadata(html, filename):
-    blog,post = filename.split("_")
-    url = "http://" + blog + ".hypotheses.org/" + str(post)
-    metadata = [filename, url, blog, post]
+def get_author(html):
     author = re.findall("rel=\"author\">(.*?)</a>", html)
     if author:
-        metadata.append(author[0])
+        author = author[0]
+        author = re.sub(";", "_", author)
     else:
-        metadata.append("N/A")
+        author = "N/A"
+    return author
+
+
+def get_date(html):
     date = re.findall("dcterms:created\" content=\"(.*?)\"", html)
     if date:
         date = date[0]
-        metadata.append(date)
-        month = date[0:7]
-        metadata.append(month)
     else:
-        metadata.append("N/A")
-        metadata.append("N/A")
-    return metadata
+        date = "N/A"
+    return date
     
 
-def save_metadata(allmetadata):
-    columns = ["id", "url", "blog", "post", "author", "date", "month", "lang", "numwords"]
-    allmetadata = pd.DataFrame(allmetadata, columns=columns)
-    #print(allmetadata)
-    allmetadata.to_csv("metadata.csv", sep=";")
+def get_metadata(html, text, filename):
+    """
+    Collects the metadata.
+    Calls other functions (above) for most elements.
+    """
+    blog, post = filename.split("_")
+    url = "http://" + blog + ".hypotheses.org/" + str(post)
+    title = get_title(html, filename)
+    author = get_author(html)
+    date = get_date(html)
+    licence = get_licence(html)
+    language = check_language(text)
+    category = get_category(text, title)
+    numwords = get_numwords(text)
+    metadata = [filename, language, author, numwords, category, date, licence, blog, post, url, title]
+    return metadata
 
 
-def extract_data(htmlfolder, txtfolder):
+def create_metadatafile():
+    columns = ["filename", "language", "author", "numwords", "category", "date", "licence", "blog", "post", "url", "title"]
+    metadata = pd.DataFrame(columns=columns)
+    metadata.to_csv("metadata.csv", sep=";", index=False)
+    
+
+def save_metadata(metadata):
+    """
+    Saves the collected metadata to a CSV file.
+    Works incrementally.
+    """
+    with open("metadata.csv", "a") as csvfile:
+        writer = csv.writer(csvfile, delimiter=";")
+        writer.writerow(metadata)
+
+
+def extract_data(htmlfolder, txtfolder, minlength):
+    """
+    Extracts the plain text of the actual blog post body and metadata.
+    """
     if not os.path.exists(txtfolder): 
         os.makedirs(txtfolder)
-    allmetadata = []
+    create_metadatafile()
     for htmlfile in glob.glob(htmlfolder+"*.html"):
-        # Extract and save the text
-        html = read_html(htmlfile)
         filename = get_filename(htmlfile)
-        text = get_text(html)
-        text = clean_text(text)
-        language = check_language(text)
-        numwords = get_numwords(text)
-        save_text(text, txtfolder, filename, language)
-        # Extract and save the metadata
-        metadata = get_metadata(html, filename)
-        metadata.append(language)
-        numwords = get_numwords(text)
-        metadata.append(numwords)
-        allmetadata.append(metadata)
-    save_metadata(allmetadata)
+        print("Now working on", filename)
+        html = read_html(htmlfile)
+        # Extract text and metadata
+        text = get_text(html, filename)
+        metadata = get_metadata(html, text, filename)
+        # Save metadata and text
+        numwords = metadata[3]
+        if numwords > minlength:
+            save_metadata(metadata)
+            save_text(text, txtfolder, filename)
+            print("====== OK", numwords, filename)
+        else:
+            print("TOO SHORT", numwords, filename)
+
+
+
+
+
+
+
+
 
 
 # =====================================
@@ -333,6 +432,11 @@ def analyze_metadata(metadatafile):
     langdata = check_langdata(metadata)
     plot_data(postdata)
     find_cases(metadata)
+
+
+
+
+
 
 
 

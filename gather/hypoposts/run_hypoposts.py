@@ -19,10 +19,11 @@ from os.path import join
 # ========================================
 
 
-wdir = "/media/christof/data/Dropbox/0-Analysen/2017/hypoposts/13-16/" 
-urlfile = join(wdir, "urls.txt")
+wdir = "/media/christof/data/Dropbox/0-Analysen/2017/hypoposts/all/" 
+urlfile = join(wdir, "urls-missing.txt")
 htmlfolder = join(wdir, "html", "")
 txtfolder = join(wdir, "txt", "")
+minlength = 50
 metadatafile =  join(wdir, "metadata.csv")
 collfolder = join(wdir, "coll", "")
 collcriteria = ["de", 3000, 2000, 1000]
@@ -34,9 +35,9 @@ collcriteria = ["de", 3000, 2000, 1000]
 
 
 # hypoposts.get_hypoposts(urlfile, htmlfolder)
-# hypoposts.extract_data(htmlfolder, txtfolder)
+hypoposts.extract_data(htmlfolder, txtfolder, minlength)
 # hypoposts.analyze_metadata(metadatafile)
-hypoposts.build_collection(metadatafile, txtfolder, collfolder, collcriteria)
+# hypoposts.build_collection(metadatafile, txtfolder, collfolder, collcriteria)
 
 
 
