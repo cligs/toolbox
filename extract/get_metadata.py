@@ -185,7 +185,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     
     ## Check result and write CSV file to disk.
     #print(metadata.head())
-    metadata=metadata.sort("idno",ascending=True)  
+    metadata=metadata.sort_values(by="idno",ascending=True)  
     metadatafile=metadatafile+"_"+mode+".csv"
     metadata.to_csv(wdir+metadatafile, sep=",", encoding="utf-8")
     print("Done. Number of documents and metadata columns:", metadata.shape)
