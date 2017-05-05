@@ -25,15 +25,18 @@ Description of the parameters (the ones with an asterik are mandatory, the rest 
         
         
 Simple and minimal example of how to use it:
-    prepare_corpus(
-        basic_wdir = "/home/jose/cligs/ne/",
-        master_wdir = "master/",
-        subset_wdir = "subset/"
-        )
+
+from toolbox.extract import prepare_corpus
+prepare_corpus.prepare_corpus(
+    basic_wdir = "/home/jose/cligs/ne/",
+    master_wdir = "master/",
+    subset_wdir = "subset/"
+    )
 
 More complexed example of how to use it with all the parameters:
 
-    prepare_corpus(
+from toolbox.extract import prepare_corpus
+prepare_corpus.prepare_corpus(
         basic_wdir = "/home/jose/cligs/ne/",
         master_wdir = "master/",
         subset_wdir = "subset/"
@@ -87,3 +90,4 @@ def prepare_corpus(basic_wdir, master_wdir, subset_wdir,  converted_wdir = "txt/
         rename_files.rename_files(basic_wdir+subset_wdir, converted_wdir+"*"+convert_format, full_metadata_file, rename_columns[0], rename_columns[1])
 
     print("Corpus done! :)")
+
