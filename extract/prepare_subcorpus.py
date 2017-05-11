@@ -26,8 +26,8 @@ Description of the parameters (the ones with an asterik are mandatory, the rest 
         
 Simple and minimal example of how to use it:
 
-from toolbox.extract import prepare_corpus
-prepare_corpus.prepare_corpus(
+from toolbox.extract import prepare_subcorpus
+prepare_subcorpus.prepare_subcorpus(
     basic_wdir = "/home/jose/cligs/ne/",
     master_wdir = "master/",
     subset_wdir = "subset/"
@@ -35,8 +35,8 @@ prepare_corpus.prepare_corpus(
 
 More complexed example of how to use it with all the parameters:
 
-from toolbox.extract import prepare_corpus
-prepare_corpus.prepare_corpus(
+from toolbox.extract import prepare_subcorpus
+prepare_subcorpus.prepare_subcorpus(
         basic_wdir = "/home/jose/cligs/ne/",
         master_wdir = "master/",
         subset_wdir = "subset/"
@@ -62,7 +62,7 @@ from toolbox.extract import rename_files
 import os
 import shutil
 
-def prepare_corpus(basic_wdir, master_wdir, subset_wdir,  converted_wdir = "txt/", metadata_name = "metadata", metadata_mode = "opt-obl", categorical_filters = [{"genre":["novel"]}], numerical_filters = [], categorical_sample_filters = [["author-name",3]], identifier = "idno", converting = True, convert_format = "txt", xpath = "bodytext", renaming = True, rename_columns = ["author-name","title"]):
+def prepare_subcorpus(basic_wdir, master_wdir, subset_wdir,  converted_wdir = "txt/", metadata_name = "metadata", metadata_mode = "opt-obl", categorical_filters = [{"genre":["novel"]}], numerical_filters = [], categorical_sample_filters = [["author-name",3]], identifier = "idno", converting = True, convert_format = "txt", xpath = "bodytext", renaming = True, rename_columns = ["author-name","title"]):
 
     # Name of the tables of metadata
     full_metadata_file = metadata_name+"_"+metadata_mode+".csv"
