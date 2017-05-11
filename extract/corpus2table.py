@@ -139,11 +139,10 @@ def main(wdir, corpus_dir = "corpus/", text_format = "txt", case_sensitive = Fal
     df_corpus = corpus2df(corpus, wordlist, wdir, save_files)
     print("Original corpus' shape: ",df_corpus.shape)
 
-    df_corpus = process_frequencies(df_corpus, wdir, max_MFF)
+    df_corpus = process_frequencies(df_corpus, wdir, min_MFF, max_MFF)
 
     print("Processed corpus' shape: ",df_corpus.shape)
     print("--- %s seconds ---" % (time.time() - start_time))
     
     return df_corpus
-
 
