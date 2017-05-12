@@ -89,7 +89,7 @@ def from_TEIP5(teiPath, txtFolder, xpath):
         with open(outfile,"w") as output:
             output.write(outtext)
         
-    print("Done. Files treated: " + str(counter))
+    print("TEI exported. Files treated: " + str(counter))
 
 
 def from_TEIP4(teiFolder, txtFolder):

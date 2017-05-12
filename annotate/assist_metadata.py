@@ -349,4 +349,4 @@ def get_all(wdir, txtFolder):
     return names, places, times, narrators, genders
     
 
-df = get_all("/home/jose/cligs/ne/master/", "ne0230")
+df = get_all("/home/jose/cligs/ne/master/", "ne0206")
