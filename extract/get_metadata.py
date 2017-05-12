@@ -27,7 +27,7 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
     ## We can choose only the obligatory metadata, the optional or the beta. 
     ## labels = ("idno_header","author_short","author_viaf", "author-gender", "title_short", "title_viaf", "pub_year", "supergenre", "genre", "subgenre", "genre-label", "narration", "availability")
      
-    labels_obl = ["idno","author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
+    labels_obl = ["idno", "author-country", "author-name", "author-gender", "title", "year", "supergenre", "genre",   "genre-subtitle", "availability"]
     labels_opt = ["subgenre","genre-label","narrative-perspective", "narrator","protagonist-gender","setting","subsubgenre","form",]
     labels_structure = ["size_words","size_chars", "size_divs", "size_verses", "size_sps", "size_pds", "size_numbers", "size_puncts", "size_blocks"]
     labels_beta = ["author-country", "author-continent",  "group-text", "subgroup-text","protagonist-name", "protagonist-age", "protagonist-social-level", "representation", "setting-continent", "setting-country", "setting-name", "setting-territory", "subgenre-lithist", "text-movement", "time-period", "time-span", "author-text-relation", "protagonist-profession","type-end","time-year","subgenre-edit","keywords-cert","author-movement","author-submovement","quality-listhist", "author-date-birth", "author-date-death", "author-TOC-range", "author-histlit-pages", "author-non-novel-genre", "text-TOC-range","text-histlit-pages","author-year-change","setting-type"]
