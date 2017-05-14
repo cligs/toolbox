@@ -90,12 +90,13 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                     SynsetAbbID = str(SynsetAbbID)
                     SynsetAbbID = SynsetAbbID[8:-2]
                     #print(SynsetAbbID)
-                    Lexname = "XXX"
+                    Lexname = ""
                     try:
                         Lexname = wn.synset(SynsetAbbID).lexname()
                     except:
                         #print("Error when trying to get lexname.")
                         LexErrCounter.update({"LexNameError":1})
+                        Lexname = "xxx"
                     #print(Lexname)
                     Line = re.sub("wn=(.*) >", "wnsyn=\\1 wnlex=\""+Lexname+"\">", Line)
                     #print(Line)
@@ -107,7 +108,7 @@ def use_wordnet(FreelingFolder, WordnetFolder):
                     NewText.append(Line)
                 elif "<s" in Line:
                     #print(Line)
-                    #Line = re.sub(" >", " wnsyn=\"xxx\" wnlex=\"xxx\" >", Line)
+                    Line = re.sub(" >", " wnsyn=\"xxx\" wnlex=\"xxx\" >", Line)
                     #print(Line)
                     NewText.append(Line)
                 
@@ -126,8 +127,9 @@ def use_wordnet(FreelingFolder, WordnetFolder):
 def annotate_fw(InPath, FreelingFolder, WordnetFolder, Lang):
     use_freeling(InPath, FreelingFolder, Lang)
     use_wordnet(FreelingFolder, WordnetFolder)
-
-
+    
 
 if __name__ == "__main__":
     annotate_fw(int(sys.argv[1]))
+
+
