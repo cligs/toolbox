@@ -137,9 +137,14 @@ def get_fileinfos(coll_path, namespace, xpath, out):
         
     fileinfos = {}
     stdout.write("... gathering information\n")
+    
+    all_el_names_set = []
+    all_att_names_set = []
+    
     # loop trough each file in the collection
     for filepath in list_of_filenames:
         filename = os.path.basename(filepath)
+        print(filename)
         
         xml = etree.parse(filepath)
         if (namespace != ""):
@@ -154,17 +159,28 @@ def get_fileinfos(coll_path, namespace, xpath, out):
         all_el_names = get_all_names(all_el, "el")
         all_att_names = get_all_names(all_el, "att")
         
+        for el_name in all_el_names:
+            all_el_names_set.append(el_name)
+        for att_name in all_att_names:
+            all_att_names_set.append(att_name)
+       
+        
         # count different elements/attributes
         usage_el = get_usage(all_el_names)
         usage_att = get_usage(all_att_names)        
         
         # add to fileinfos
         fileinfos[filename] = {"usage_el":usage_el, "usage_att":usage_att}
+        
+    all_el_names_set = sorted(set(all_el_names_set))
+    all_att_names_set = sorted(set(all_att_names_set))
+    
     
     # write results to JSON file
     dump_to_json(fileinfos, out)
     # write results to CSV file
-    dump_to_csv(fileinfos, out, all_el_names, all_att_names)
+    dump_to_csv(fileinfos, out, all_el_names_set, all_att_names_set)
+    
     
     return fileinfos
 
@@ -585,7 +601,7 @@ def get_chart_info(coll_name, name):
                               "color":"#4785C2",
                               "label_x":"element names",
                               "label_y":"element occurences",
-                              "title":"elemens used in file '"+name+"'"},
+                              "title":"elements used in file '"+name+"'"},
         "attributes_used_text":{"position":212,
                                 "color":"#339999",
                                 "label_x":"attribute names",
