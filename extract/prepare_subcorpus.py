@@ -39,7 +39,7 @@ from toolbox.extract import prepare_subcorpus
 prepare_subcorpus.prepare_subcorpus(
         basic_wdir = "/home/jose/cligs/ne/",
         master_wdir = "master/",
-        subset_wdir = "subset/"
+        subset_wdir = "subset/",
         converted_wdir = "texto/", 
         metadata_name = "metadata", 
         metadata_mode = "beta-opt-obl-subgenre-structure", 
@@ -53,6 +53,30 @@ prepare_subcorpus.prepare_subcorpus(
         renaming = True, 
         rename_columns = ["author-name","title"],
     )
+
+Another example for copying only a list of files:
+
+files = ["ne0026","ne0027","ne0033","ne0037","ne0041","ne0044","ne0072","ne0084","ne0107","ne0121","ne0161","ne0192","ne0194","ne0226","ne0228","ne0235","ne0246","ne0253","ne0257","ne0285","ne0292","ne0298","ne0309","ne0036","ne0124","ne0167","ne0274","ne0295"]
+
+from toolbox.extract import prepare_subcorpus
+prepare_subcorpus.prepare_subcorpus(
+        basic_wdir = "/home/jose/cligs/ne/",
+        master_wdir = "master/",
+        subset_wdir = "subset/",
+        converted_wdir = "texto/", 
+        metadata_name = "metadata", 
+        metadata_mode = "beta-opt-obl-subgenre-structure", 
+        categorical_filters = [{"idno":files}], 
+        numerical_filters = [], 
+        categorical_sample_filters = [], 
+        identifier = "idno",
+        converting = True, 
+        convert_format = "txt", 
+        xpath = "bodytext", 
+        renaming = True, 
+        rename_columns = ["author-name","title"],
+    )
+    
 
 """
 from toolbox.extract import get_metadata
@@ -76,7 +100,7 @@ def prepare_subcorpus(basic_wdir, master_wdir, subset_wdir,  converted_wdir = "t
     get_metadata.from_TEIP5(basic_wdir, master_wdir+"*.xml", metadata_name, metadata_mode)
     
     # I want to copy the corpus using filters and random sample
-    copy_subset.copy_subset(basic_wdir, master_wdir+"*.xml", full_metadata_file, subset_wdir+master_wdir)
+    copy_subset.copy_subset(basic_wdir, master_wdir+"*.xml", full_metadata_file, subset_wdir+master_wdir, categorical_filters, numerical_filters, categorical_sample_filters, identifier)
     
     # I want the metadata of this new subcorpus
     get_metadata.from_TEIP5(basic_wdir+subset_wdir,master_wdir+"*.xml", metadata_name, metadata_mode)
@@ -90,4 +114,3 @@ def prepare_subcorpus(basic_wdir, master_wdir, subset_wdir,  converted_wdir = "t
         rename_files.rename_files(basic_wdir+subset_wdir, converted_wdir+"*"+convert_format, full_metadata_file, rename_columns[0], rename_columns[1])
 
     print("Corpus done! :)")
-
