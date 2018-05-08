@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-# Filename: get_lexnames.py
-# Authors: #cf, #uh
+# Filename: annotate_fw.py
+# Authors: #cf, #uh, #jct
 # 2016-05-20
 
 """
@@ -14,12 +14,12 @@ import glob
 import subprocess
 import collections
 from nltk.corpus import wordnet as wn
+import time 
 
-
-def use_freeling(InPath, FreelingFolder, Lang="fr"): 
+def use_freeling(InPath, FreelingFolder, server, Lang="fr"): 
     """
     Call Freeling "analyze".
-    Authors: #cf, #uh.
+    Authors: #cf, #uh, #jct
     """
     print("use_freeling...")
     
@@ -29,16 +29,31 @@ def use_freeling(InPath, FreelingFolder, Lang="fr"):
     if not os.path.exists(FreelingFolder):
         os.makedirs(FreelingFolder)
 
-    for File in glob.glob(InPath): 
-        Filename = os.path.basename(File)
-        OutPath = FreelingFolder + Filename[:-4] + ".xml"
+    if Lang == "es":
+        nec = " --nec "
+    else:
         nec = " "
-        if Lang == "es":
-            nec = " --nec "
+    
+    if server == True:
+        subprocess.call("analyze -f " + Lang + ".cfg --server on --port 50005 --outlv tagged  --sense ukb  " + nec + " --workers 1 --output xml &", shell=True)
 
-        Command = "analyze -f " + Lang + ".cfg --outlv tagged  --sense ukb " + nec + "--output xml < " + File + " > " + OutPath   
-        #print(Command)
-        subprocess.call(Command, shell=True)
+        time.sleep(20)
+
+        for File in glob.glob(InPath): 
+            Filename = os.path.basename(File)
+            OutPath = FreelingFolder + Filename[:-4] + ".xml"
+    
+            Command = "analyzer_client 50005 < " + File + " > " + OutPath   
+
+            subprocess.call(Command, shell=True)
+    else:
+        for File in glob.glob(InPath): 
+            Filename = os.path.basename(File)
+            OutPath = FreelingFolder + Filename[:-4] + ".xml"
+    
+            Command = "analyze -f " + Lang + ".cfg --outlv tagged  --sense ukb " + nec + "--output xml < " + File + " > " + OutPath   
+
+            subprocess.call(Command, shell=True) 
 
     print("Done.")
 
@@ -124,8 +139,8 @@ def use_wordnet(FreelingFolder, WordnetFolder):
     
 
 
-def annotate_fw(InPath, FreelingFolder, WordnetFolder, Lang):
-    use_freeling(InPath, FreelingFolder, Lang)
+def annotate_fw(InPath, FreelingFolder, WordnetFolder, Lang, server = True):
+    use_freeling(InPath, FreelingFolder, server, Lang)
     use_wordnet(FreelingFolder, WordnetFolder)
     
 
