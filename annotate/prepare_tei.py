@@ -32,7 +32,7 @@ class FileResolver(etree.Resolver):
 # XSLT snippets
 # wrapper for chapterwise annotation
 xslt_TEIwrapper = etree.XML('''\
-	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0" exclude-result-prefixes="tei">
 		
 		<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 		
@@ -70,7 +70,7 @@ xslt_TEIwrapper = etree.XML('''\
 	
 # wrapper for annotation of the whole text
 xslt_TEIwrapper_1 = etree.XML('''\
-	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0" exclude-result-prefixes="tei">
 		
 		<xsl:output method="xml" encoding="UTF-8" indent="yes"/>
 		
@@ -123,7 +123,7 @@ xslt_extractDIVs = etree.XML('''\
 	''')
 
 xslt_joinDIVs = '''\
-	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" version="1.0">
+	<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs" version="1.0" exclude-result-prefixes="tei">
     
 		<xsl:param name="annofolder"/>
 		<xsl:param name="mode"/>
@@ -147,12 +147,16 @@ xslt_joinDIVs = '''\
 					</xsl:when>
 					<xsl:otherwise>
 						<xsl:for-each select="document(concat($annofolder, @xml:id,'.xml'))//s">
-							<xsl:element name="ab" xmlns="http://www.tei-c.org/ns/1.0">
-								<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
+							<xsl:element name="ab" namespace="http://www.tei-c.org/ns/1.0">
+								<xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
 									<xsl:copy-of select="@*"/>
 									<xsl:for-each select="w">
-										<xsl:element name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
-											<xsl:copy-of select="@*"/>
+										<xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
+											<xsl:for-each select="@*">
+												<xsl:attribute name="cligs:{local-name()}">
+													<xsl:value-of select="."/>
+												</xsl:attribute>
+											</xsl:for-each>
 											<xsl:value-of select="."/>
 										</xsl:element>
 									</xsl:for-each>
@@ -250,7 +254,7 @@ def postpare_anno(infolder, outfolder, mode="fl"):
 	Expects the annotated files to be named according to the following example/pattern: nh0006_d1.xml / [cligs_id]_d[division_id].xml
 	
 	Arguments:
-	infolder (string): path to the input folder (which should contain a folder "temp" with the templates for the new TEI files and a folder "anno" with the annotations in XML format)
+	infolder (string): path to the input folder (which should contain a folder "temp" with the templates for the new TEI files and a folder "annotated_temp" with the annotations in XML format)
 	outfolder (string): path to the output folder (which is created if it does not exist)
 	mode (string): which kind of annotation to treat; default: "fl" (= FreeLing), alternative: "ht" (= HeidelTime)
 	"""
@@ -260,12 +264,12 @@ def postpare_anno(infolder, outfolder, mode="fl"):
 		raise ValueError("The input folder could not be found.")
 		
 	in_temp = os.path.join(infolder, "temp")
-	in_anno = os.path.join(infolder, "anno")
+	in_anno = os.path.join(infolder, "annotated_temp")
 	
 	if not os.path.exists(in_temp):
 		raise ValueError("The folder 'temp' could not be found inside the input folder.")
 	if not os.path.exists(in_anno):
-		raise ValueError("The folder 'anno' could not be found inside the input folder.")
+		raise ValueError("The folder 'annotated_temp' could not be found inside the input folder.")
 	if not os.path.exists(outfolder):
 		os.makedirs(outfolder)
 		
@@ -276,7 +280,7 @@ def postpare_anno(infolder, outfolder, mode="fl"):
 		print("doing file " + filepath)
 		filecounter+= 1
 		fn = os.path.basename(filepath)
-		annofolder = os.path.join(Path(os.path.join(infolder, "anno")).as_uri(), "")
+		annofolder = os.path.join(Path(os.path.join(infolder, "annotated_temp")).as_uri(), "")
 		# which annotation mode are we in?
 		annomode = mode
 		
@@ -309,7 +313,7 @@ def prepare(mode, infolder, outfolder):
 	
 	Arguments:
 	mode(string): possible values are "split" (chapterwise), "split-1" (the whole text at once) or "merge"
-	infolder (string): in split-mode: path to the input folder (which should contain the input TEI files); in merge-mode: path to the annotation output folder (with subfolder "temp" and "anno")
+	infolder (string): in split-mode: path to the input folder (which should contain the input TEI files); in merge-mode: path to the annotation output folder (with subfolder "temp" and "annotated_temp")
 	outfolder (string): in split-mode: path to the output folder for annotation working files; in merge-mode: path to the output folder for annotated TEI result files. The folders are created if they do not exist.
 	"""
 	if mode == "split":
