@@ -68,15 +68,15 @@ def describe_corpus(wdir, metadatafile, category):
 		  plot_background='white',
 		  font_family = "FreeSans",
 		  opacity = "1",
-		  title_font_size = 20,
-		  legend_font_size = 18,
-		  label_font_size = 16,
+		  title_font_size = 22,
+		  legend_font_size = 22,
+		  label_font_size = 20,
 		  colors=plot_colors)
           
-        bar_chart = pygal.StackedBar(style=my_style, legend_at_bottom=True, print_values=False)
-        bar_chart.title = 'Distribution of novels'
-        bar_chart.x_title = "Decade"
-        bar_chart.y_title = "Number of novels"
+        bar_chart = pygal.StackedBar(style=my_style, legend_at_bottom=True, print_values=False, width=600)
+        bar_chart.title = 'Distribution of novels (by sentimentality)' # Distribution of novels
+        bar_chart.x_title = "Decade" # Decade
+        bar_chart.y_title = "Number of novels" # Number of novels
         
         md_unstacked = grouped.unstack()
         md_unstacked.fillna(0, inplace=True)
@@ -85,7 +85,7 @@ def describe_corpus(wdir, metadatafile, category):
         
         for label in labels:
             vals = md_unstacked["idno",label]
-            bar_chart.add(label, vals.values)
+            bar_chart.add(str(label), vals.values)
         
         figurename = os.path.join(wdir, "dist_by-"+category+".svg")
         bar_chart.render_to_file(figurename)

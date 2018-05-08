@@ -19,13 +19,13 @@ Run this file directly.
 ############ Options ##############
 
 # where the TEI master files are
-infolder = "/home/ulrike/Git/textbox/spanish/novela-hispanoamericana/tei/"
+infolder = "/home/ulrike/Git/textbox/italian/short19-20/tei2/"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Git/textbox/spanish/novela-hispanoamericana/anno/"
+outfolder = "/home/ulrike/Git/textbox/italian/short19-20/anno2/"
 
 # language of the texts (possible up to now: fr, es, it, pt)
-lang = "es"
+lang = "it"
 
 
 
@@ -41,6 +41,6 @@ from toolbox.annotate import annotate_fw
 
 # by default, it should be enough to change the options above and leave this as is
 
-#prepare_tei.prepare("split", infolder, outfolder)
-#annotate_fw.annotate_fw(os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
-#prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))
+prepare_tei.prepare("split", infolder, outfolder)
+annotate_fw.annotate_fw(os.path.join(outfolder, "txt/*.txt"), os.path.join(outfolder, "fl/"), os.path.join(outfolder, "anno/"), lang)
+prepare_tei.prepare("merge", outfolder, os.path.join(outfolder, "teia"))

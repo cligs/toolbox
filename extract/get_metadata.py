@@ -34,25 +34,29 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
 
     labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical","dialogue",]
     labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x", "subgenre"]
+    labels_hispam = ["idno", "author-country", "author-name", "title", "subtitle", "title-long", "year", "narrative-perspective", "level-cultural"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
+              "level-cultural": "//tei:term[@type='level.cultural'][@source = '#Roessner_2016']//text()",
               "title": '//tei:title[@type="short"]//text()',
+              "subtitle": '//tei:title[@type="sub"]//text()',
+              "title-long": '//tei:title[@type="main"]//text()',
               "author-name": '//tei:author//tei:name[@type="short"]//text()', 
               "author_viaf":'//tei:author//tei:idno[@type="viaf"]//text()',
               "author-gender":'//tei:term[@type="author-gender"]//text()',
               "language":'//tei:term[@type="language"]//text()',
               "title_viaf":'//tei:title//tei:idno[@type="viaf"]//text()',
-              "year":'//tei:bibl[@type="edition-first"]//tei:date//text()',
+              "year":'//tei:bibl[@type="edition-first"]//tei:date//text()', #was: edition-first
               "supergenre":'//tei:term[@type="supergenre"]//text()',
               "genre": '//tei:term[@type="genre"]//text()',
               "genre-subtitle":'//tei:title[@type="sub"]//text()',
               "idno": '//tei:idno[@type="cligs"]//text()',
               "availability": '//tei:availability//@status',
-              "author-country": '//tei:term[@type="author-country"]//text()',
+              "author-country": '//tei:term[@type="author.country"]//text()',
               "author-continent": '//tei:term[@type="author-continent"]//text()',
               "genre-label":'//tei:term[@type="genre-label"]//text()',
-              "narrative-perspective": '//tei:term[@type="narrative-perspective"]//text()',
+              "narrative-perspective": '//tei:term[@type="narration.narrative-perspective"]//text()',
               "setting": '//tei:term[@type="setting"]//text()',
               "protagonist-gender": '//tei:term[@type="protagonist-gender"]//text()',
               "subgenre":'//tei:term[@type="subgenre"][@subtype > parent::tei:keywords/tei:term[@type="subgenre"]/@subtype or not(parent::tei:keywords/tei:term[@type="subgenre"][2])]//text()',
@@ -147,6 +151,8 @@ def from_TEIP5(wdir, inpath, metadatafile, mode="opt-obl"):
         labels = labels_obl+labels_opt+labels_beta+labels_subgenre+labels_structure
     elif mode == "hist-nov":
         labels = labels_histnov
+    elif mode == "hispam":
+        labels = labels_hispam
             
     namespaces = {'tei':'http://www.tei-c.org/ns/1.0'}
     idnos = []

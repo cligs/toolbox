@@ -33,7 +33,6 @@ def main(teipath, rngfile, schematronfile):
         #print(idno)
         
         parser = etree.XMLParser(recover=True)
-        parser.resolvers.add(FileResolver())
         
         teiparsed = etree.parse(teifile, parser)
         #teiparsed = etree.parse(teifile)
@@ -46,6 +45,7 @@ def main(teipath, rngfile, schematronfile):
         log_rng = rngvalidator.error_log
         
         # Schematron validation
+        parser.resolvers.add(FileResolver())
         sct_doc = etree.parse(schematronfile, parser)
         schematron = isoschematron.Schematron(sct_doc)
         

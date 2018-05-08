@@ -38,8 +38,8 @@ The data which is analyzed here has been previously annotated with the following
 """
 
 # path and filename settings
-wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/FJR2017/"
-md_mode = "rv" #rv or hist-nov
+wdir = "/home/ulrike/Dokumente/GS/Veranstaltungen/SS17_Praxisworkshop/Classification_14-06/"
+md_mode = "full" #rv or hist-nov
 md_csv = "metadata_" + md_mode + ".csv"
 # where to save visualization files
 dir_visuals = os.path.join(wdir, "vis")
@@ -68,14 +68,14 @@ def summarize_corpus():
 	
 	# visualize some metadata
 	#visualize_metadata.describe_corpus(wdir, md_csv, "author-continent")
-	#visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
+	visualize_metadata.describe_corpus(wdir, md_csv, "author-country")
 	#visualize_metadata.describe_corpus(wdir, md_csv, "language")
 	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_hist")
 	#visualize_metadata.describe_corpus(wdir, md_csv, "subgenre_x")
-	#visualize_metadata.plot_pie(wdir, md_csv, "subgenre")
+	visualize_metadata.plot_pie(wdir, md_csv, "subgenre")
 
 	visualize_metadata.describe_corpus(wdir, md_csv, "subgenre")
-	visualize_metadata.describe_corpus(wdir, md_csv, "gender")
+	#visualize_metadata.describe_corpus(wdir, md_csv, "gender")
 	
 	# make some counts
 	md_table = pd.DataFrame.from_csv(os.path.join(wdir, md_csv), header=0)
@@ -84,7 +84,7 @@ def summarize_corpus():
 	#num_continent = len(md_table.groupby(["author-continent"]))
 	#num_countries = len(md_table.groupby(["author-country"]))
 	#num_authors = len(md_table.groupby(["author-name"]))
-	num_authors = len(md_table.groupby(["author"]))
+	num_authors = len(md_table.groupby(["author-name"]))
 	num_subgenre = len(md_table.groupby(["subgenre"]))
 	#num_subgenre_x = len(md_table.groupby(["subgenre_x"]))
 	#fr_subgenre_hist = md_table.groupby(["subgenre_hist"]).count()
