@@ -39,9 +39,9 @@ xslt_TEIwrapper = etree.XML('''\
 		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
 		
 		<xsl:template match="/">
-			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
 			
-            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
                 <text>
                     <body>
@@ -77,9 +77,9 @@ xslt_TEIwrapper_1 = etree.XML('''\
 		<xsl:variable name="cligsID" select="//tei:idno[@type='cligs']"/>
 		
 		<xsl:template match="/">
-			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/61639b75deae2916eabeb036313dc8089da40e5e/tei/annotated/cligs_annotated.rnc" type="application/relax-ng-compact-syntax"</xsl:processing-instruction>
+			<xsl:processing-instruction name="xml-model">href="https://raw.githubusercontent.com/cligs/reference/master/tei/cligs.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"</xsl:processing-instruction>
 			
-            <TEI xmlns="http://www.tei-c.org/ns/1.0">
+            <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cligs="https://cligs.hypotheses.org/ns/cligs">
                 <xsl:apply-templates select="tei:TEI/tei:teiHeader"/>
                 <text>
                     <body>
