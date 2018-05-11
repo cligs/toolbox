@@ -153,9 +153,20 @@ xslt_joinDIVs = '''\
 									<xsl:for-each select="w">
 										<xsl:element name="{local-name()}" namespace="http://www.tei-c.org/ns/1.0">
 											<xsl:for-each select="@*">
-												<xsl:attribute name="cligs:{local-name()}">
-													<xsl:value-of select="."/>
-												</xsl:attribute>
+												<xsl:choose>
+													<xsl:when test="local-name()='ctag' or local-name()='form' or local-name()='tag' or local-name()='wnlex' or local-name()='wnsyn' or local-name()='mood'
+													or local-name()='num' or local-name()='person' or local-name()='tense' or local-name()='gen' or local-name()='possessornum' or local-name()='nec'
+													or local-name()='neclass' or local-name()='case' or local-name()='punctenclose' or local-name()='degree' or local-name()='polite' or local-name()='possessorpers'">
+														<xsl:attribute name="cligs:{local-name()}">
+															<xsl:value-of select="."/>
+														</xsl:attribute>
+													</xsl:when>
+													<xsl:otherwise>
+														<xsl:attribute name="{local-name()}" xmlns="http://www.tei-c.org/ns/1.0">
+															<xsl:value-of select="."/>
+														</xsl:attribute>
+													</xsl:otherwise>
+												</xsl:choose>
 											</xsl:for-each>
 											<xsl:value-of select="."/>
 										</xsl:element>
