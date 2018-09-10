@@ -32,7 +32,7 @@ infolder = "/home/ulrike/Schreibtisch/tei/"
 outfolder = "/home/ulrike/Schreibtisch/corpus_annotiert/"
 
 # language of the texts (possible up to now: fr, es, it, pt)
-lang = "es"
+lang = "it"
 
 server = True
 
