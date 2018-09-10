@@ -16,7 +16,7 @@ def teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, tok
     feature_separator = "\t"
     format_ = "csv"
     
-    tei2text.teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, token_separator = token_separator,feature_separator=feature_separator, format_ = format_)
+    teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, token_separator = token_separator,feature_separator=feature_separator, format_ = format_)
 
     """
     outdirs = xpath_filter + " ".join(xpath_informations)
