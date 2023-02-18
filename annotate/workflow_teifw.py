@@ -26,13 +26,13 @@ kill 6899 (for example)
 
 # where the TEI master files are
 
-infolder = "/home/ulrike/Schreibtisch/tei/"
+infolder = "/home/ulrike/Git/IDE/novelashispanoamericanas/master/"
 
 # where the annotation working files and results should go
-outfolder = "/home/ulrike/Schreibtisch/corpus_annotiert/"
+outfolder = "/home/ulrike/Git/IDE/novelashispanoamericanas/annotiert/"
 
 # language of the texts (possible up to now: fr, es, it, pt)
-lang = "it"
+lang = "es"
 
 server = True
 

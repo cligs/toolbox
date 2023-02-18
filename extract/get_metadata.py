@@ -47,10 +47,9 @@ metadata = get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metada
     "CoNSSA.canon","HdLE", "subgenre.lithist.MdLE", "subgenre.lithist.HdLE",
     "subgenre.edit.epublibre","subgenre.edit.amazon", "subgenre.edit.wikidata", "subgenre.subtitle.bne",]
 
-    labels_histnov = ["idno", "language", "author-continent", "author-country", "author-name", "title", "year", "subgenre_hist", "subgenre_x", "subgenre"]
-    labels_hispam = ["idno", "author-country", "author-name", "title", "subtitle", "title-long", "year", "narrative-perspective", "level-cultural"]
-  
     labels_subgenre = [ "adventure", "erotic", "fantastic", "naturalist", "modernist", "realist", "sentimental", "social", "spiritual", "historical", "comedy", "philosophical", "memoir", "moralist", "symbolic", "political-fiction", "bildungsroman", "war-novel","autobiographical","dialogue"]
+    
+    labels_hispam = ["idno", "hispam.author.country", "hispam.author.full", "hispam.author.short", "hispam.title.main", "hispam.title.short", "hispam.measure.words", "hispam.text.litHist.brow", "hispam.text.narration.narrator" , "year"]
     
     ## Dictionary of all relevant xpaths with their labels
     xpaths = {
@@ -194,6 +193,16 @@ metadata = get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metada
               "subgenre_hist":'//tei:term[@type="text.subgenre_hist"]//text()',
               "subgenre_x":'//tei:term[@type="text.subgenre_x"]//text()',
           
+          # hispam
+              "hispam.author.country": "//tei:term[@type='author.country']//text()",
+              "hispam.author.full": "//tei:author/tei:name[@type='full']//text()",
+              "hispam.author.short": "//tei:author/tei:name[@type='short']//text()",
+              "hispam.title.main": "//tei:title[@type='main']//text()",
+              "hispam.title.short": "//tei:title[@type='short']//text()",
+              "hispam.measure.words": "//tei:measure[@unit='words']//text()",
+			  "hispam.text.litHist.brow": "//tei:term[@type='text.litHist.brow']//text()",
+			  "hispam.text.narration.narrator": "//tei:term[@type='text.narration.narrator']//text()"
+          
               }
 
     # Mode is selected: obligatory, optional or beta
@@ -258,7 +267,8 @@ metadata = get_metadata.from_TEIP5("/home/jose/cligs/ne/","master/*.xml","metada
     ## Add decade column based on pub_year
     metadata["decade"] = metadata["year"].map(lambda x: str(x)[:-1]+"0")
 
-    metadata['title.viaf'] = metadata['title.viaf'].astype(str)
+    # auskommentiert, weil es einen Fehler verursacht, wenn man title.viaf gar nicht hat
+    #metadata['title.viaf'] = metadata['title.viaf'].astype(str)
     
     ## Check result and write CSV file to disk.
     #print(metadata.head())

@@ -5,6 +5,11 @@ Created on Mon Sep 10 11:03:11 2018
 @author: jose
 """
 
+import re
+import os
+import glob
+from lxml import etree
+
 
 def teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, token_separator = " ", feature_separator = "_", format_= "txt"):
     """
@@ -72,3 +77,16 @@ format_ = "csv"
 
 tei2text.teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, token_separator = token_separator,feature_separator=feature_separator, format_ = format_)
 """
+
+
+
+inputwdir = "/home/ulrike/Git/conha19/new/" 
+xpath_filter = "[.]" #"[@cligs:ctag='NC']" 
+xpath_informations = ["@cligs:form", "@cligs:tag", "@lemma"] # "@cligs:form","@lemma","@cligs:ctag"
+outdir = "/home/ulrike/Git/conha19/new_2/"
+token_separator = "\n"
+feature_separator = "\t"
+format_ = "txt"
+
+teia_features2files(inputwdir, xpath_filter, xpath_informations, outdir, token_separator = token_separator,feature_separator=feature_separator, format_ = format_)
+

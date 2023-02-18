@@ -69,12 +69,13 @@ def describe_corpus(wdir, metadatafile, category):
 		  font_family = "FreeSans",
 		  opacity = "1",
 		  title_font_size = 22,
-		  legend_font_size = 22,
+		  legend_font_size = 20,
 		  label_font_size = 20,
+		  major_label_font_size = 20,
 		  colors=plot_colors)
           
-        bar_chart = pygal.StackedBar(style=my_style, legend_at_bottom=True, print_values=False, width=600)
-        bar_chart.title = 'Distribution of novels (by sentimentality)' # Distribution of novels
+        bar_chart = pygal.StackedBar(style=my_style, legend_at_bottom=False, print_values=False, width=800)
+        bar_chart.title = 'Distribution of novels (by subgenre)' # Distribution of novels
         bar_chart.x_title = "Decade" # Decade
         bar_chart.y_title = "Number of novels" # Number of novels
         
